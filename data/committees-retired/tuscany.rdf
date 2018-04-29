@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<rdf:RDF xml:lang="en"
+         xmlns="http://usefulinc.com/ns/doap#" 
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+         xmlns:asfext="http://projects.apache.org/ns/asfext#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <asfext:pmc rdf:about="tuscany">
+    <asfext:name>Apache Tuscany</asfext:name>
+    <foaf:homepage rdf:resource="http://tuscany.apache.org/"/>
+    <asfext:charter>
+        Apache Tuscany software
+        simplifies the task of developing SOA solutions by providing a comprehensive infrastructure 
+        for SOA development and management that is based on Service Component Architecture (SCA) standard. 
+    </asfext:charter>
+  </asfext:pmc>
+</rdf:RDF>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xml:lang="en"
+         xmlns="http://usefulinc.com/ns/doap#" 
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+         xmlns:asfext="http://projects.apache.org/ns/asfext#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <asfext:pmc rdf:about="subversion">
+    <asfext:name>Apache Subversion</asfext:name>
+    <foaf:homepage rdf:resource="http://subversion.apache.org/"/>
+    <asfext:charter>The Apache Subversion project is
+       responsible for the creation and maintenance of software
+       related to version control.</asfext:charter>
+  </asfext:pmc>
+</rdf:RDF>

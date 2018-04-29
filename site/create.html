@@ -1,0 +1,465 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Apache Software Foundation Projects - Create a DOAP File</title>
+<link rel="stylesheet" type="text/css" href="/styles/style.css">
+<script type="text/javascript" src="/js/pa.js"></script><script type="text/javascript" src="/js/validate_form.js"></script>
+</head>
+<body onload="getAdData()">
+<div id="headerSection">
+<a href="http://www.apache.org/"><img src="https://www.apache.org/images/asf_logo_wide.gif" alt="The Apache Software Foundation" width="537" height="51" align="left" border="0"></a><div class="topBanner" id="ad_banner"></div>
+</div>
+<div id="bodySection"><table border="0" cellspacing="0"><tr>
+<td width="20%" class="navleft" valign="top"><ul id="leftnav">
+<li><a href="/index.html">Home</a></li>
+<li>
+<a href="/indexes.html">Indexes</a><ul>
+<li><a href="/indexes/alpha.html">Alphabetical</a></li>
+<li><a href="/indexes/quick.html">Project Listing</a></li>
+<li><a href="/indexes/releases.html">Releases</a></li>
+<li><a href="/indexes/category.html">by Category</a></li>
+<li><a href="/indexes/language.html">by Language</a></li>
+<li><a href="/indexes/pmc.html">by PMC</a></li>
+<li><a href="/indexes/standards.html">by Standard</a></li>
+</ul>
+</li>
+<li><a href="/feeds.html">Feeds</a></li>
+<li>
+<a href="/doap.html">DOAP Files</a><ul>
+<li><a href="/guidelines.html">Guidelines</a></li>
+<li>Create a DOAP File</li>
+<li><a href="/doapfaq.html">DOAP File FAQ</a></li>
+<li><a href="/categories.html">Categories</a></li>
+<li><a href="/languages.html">Programming Languages</a></li>
+<li><a href="/pmcs.html">PMC</a></li>
+</ul>
+</li>
+<li>
+<a href="/docs/index.html">Documentation</a><ul>
+<li><a href="/docs/dependancies.html">Dependencies</a></li>
+<li><a href="/docs/pmc.html">PMC Data</a></li>
+<li><a href="/docs/standards.html">Standards</a></li>
+</ul>
+</li>
+<li><a href="/references.html">References &amp; Thanks</a></li>
+</ul></td>
+<td width="80%" valign="top" class="body">
+<h2>Create an ASF DOAP File</h2>
+<div>
+<p>To be listed on this site, your Apache project must create a DOAP
+file.  The DOAP format is RDF based, so while it is human readable,
+it's primarily meant to be machine read. Creating the file from
+scratch can be a little intimidating, so this page will allow you to
+generate an initial file that can then be edited to suit.
+Alternatively, you can browse the existing projects for one with
+similar resources and use its DOAP file as a starting point.</p>
+<div class="section">
+<h3>
+<a name="complete"></a>Complete the form</h3>
+        
+<p>Before completing this form, you should really read the <a href="guidelines.html">guidelines</a>. The <a href="doapfaq.html">FAQ</a> page may also prove useful.</p>
+<p>Please remember that the data contained in the DOAP file is used directly on the website, so please take care when adding content.</p>
+      </div>
+<div class="section">
+<h3>
+<a name="customise"></a>Customise your file</h3>
+        
+<p>The file that is created when you submit your data is only a starting point. You'll likely need to modify some aspects of it, especially adding data that the form doesn't allow you to enter. You should be able to simply copy/paste/edit the sections you need to duplicate.</p>
+<p>You may have more than one of the following sections:</p>
+<ul>
+<li>bug database</li>
+<li>category</li>
+<li>download page</li>
+<li>programming language</li>
+<li>release</li>
+<li>repository</li>
+<li>standard</li>
+</ul>
+<p>For example, if there are multiple release versions, each must be in its own "release" section.
+Each "Version" entry needs to be in its own "release" section. 
+Similarly each "SVNRepository" must be in a separate "repository" section.</p>
+      </div>
+<div class="section">
+<h3>
+<a name="validate"></a>Validate your file</h3>
+       
+<p>It is a good idea to check if your DOAP file is at least valid RDF.
+This can be accomplished using the <a href="http://www.w3.org/RDF/Validator/">W3C RDF Validator service</a>.
+While this won't tell you if your file meets DOAP or Apache
+guidelines, it is at least a good basic sanity check. </p>
+
+     </div>
+<div class="section">
+<h3>
+<a name="submit"></a>Submitting your file</h3>
+        
+<p>
+Your DOAP file should be stored somewhere that is publically
+accessible. For most projects this will be in their source code
+repository, but there is no requirement for it to be stored
+there.
+It is suggested that the DOAP file is stored somewhere in SCM such that it is copied to the top level of the website.
+The DOAP does not belong in source or binary release bundles, 
+and if it is under the normal source tree there will be multiple copies in tags and branches, which may be confusing.
+Also if the DOAP is always referenced by the site URL it is very unlikely to change, whereas SCM layouts are often changed.
+</p>
+<p>
+Once you have decided where the file will be stored,
+you can directly edit the file to get your project listed:<br>
+<code>https://svn.apache.org/repos/asf/comdev/projects.apache.org/data/projects.xml</code><br>
+For example, add one of the following entries:
+<pre>
+  &lt;location&gt;http://svn.apache.org/repos/asf/httpd/site/trunk/content/doap.rdf&lt;/location&gt;
+or
+  &lt;location&gt;https://git-wip-us.apache.org/repos/asf?p=kafka.git;f=doap_Kafka.rdf;a=blob_plain;hb=HEAD&lt;/location&gt;
+</pre>
+Please keep the file in alphabetical order by TLP id (i.e. httpd, kafka in the above examples)
+</p>
+
+<p>
+Please note: the script to create the projects-old web-site currently runs every few hours.
+</p>
+      </div>
+</div>
+<h2>DOAP Creation Form</h2>
+<div>
+<p>Before completing this form, you should really read the <a href="guidelines.html">guidelines</a>.</p>
+<p>When you submit this form, a sample file will be created and returned to you. It will be named 'doap_&lt;project&gt;.rdf'. and will be presented as a downloadable file.</p>
+<form name="make_doap" method="POST" action="/make_doap.py" onSubmit="return validate_form();">
+<table align="center" border="1">
+<tr>
+<td width="25%">Project name</td>
+<td>Apache <input type="text" name="name" size="40">
+</td>
+</tr>
+<tr>
+<td>Project homepage</td>
+<td>http://<input type="text" name="homepage" size="60">
+</td>
+</tr>
+<tr>
+<td>Categories</td>
+<td>
+      <select name="cat">
+        
+        <option value="big-data">Big Data</option>
+        <option value="build-management">Build Management</option>
+        <option value="cloud">Cloud</option>
+        <option value="content">Content</option>
+        <option value="database">Database</option>
+        <option value="http">HTTP protocol</option>
+        <option value="httpd-module">HTTP Server module</option>
+        <option value="javaee">Java EE</option>
+        <option value="library">Code library</option>
+        <option value="mail">Mail</option>
+        <option value="mobile">Mobile</option>
+        <option value="network-client">Network Client</option>
+        <option value="network-server">Network Servers</option>
+        <option value="osgi">OSGi</option>
+        <option value="retired">Retired/Archived</option>
+        <option value="testing">Testing</option>
+        <option value="web-framework">Web Framework</option>
+        <option value="xml">XML</option>
+      </select>
+      <a href="categories.html">info</a>
+    </td>
+</tr>
+<tr>
+<td>Programming Languages</td>
+<td>
+    
+      <select name="lang">
+        <option value="ActionScript">ActionScript</option>
+        <option value="C">C</option>
+        <option value="C#">C#</option>
+        <option value="C++">C++</option>
+        <option value="Cocoa">Cocoa</option>
+        <option value="D">D</option>
+        <option value="Delphi">Delphi</option>
+        <option value="Erlang">Erlang</option>
+        <option value="Go">Go</option>
+        <option value="Haskell">Haskell</option>
+        <option value="Java">Java</option>
+        <option value="JavaScript">JavaScript</option>
+        <option value="Objective-C">Objective-C</option>
+        <option value="OCaml">OCaml</option>
+        <option value="Perl">Perl</option>
+        <option value="PHP">PHP</option>
+        <option value="Python">Python</option>
+        <option value="Ruby">Ruby</option>
+        <option value="Scala">Scala</option>
+        <option value="Smalltalk">Smalltalk</option>
+        <option value="SVG">SVG</option>
+        <option value="Tcl">Tcl</option>
+      </select>
+      <a href="languages.html">info</a>
+    </td>
+</tr>
+<tr>
+<td>Project PMC</td>
+<td>
+      <select name="pmc">
+        <option value="abdera">Abdera</option>
+        <option value="accumulo">Accumulo</option>
+        <option value="ace">Ace</option>
+        <option value="activemq">ActiveMQ</option>
+        <option value="airavata">Airavata</option>
+        <option value="allura">Allura</option>
+        <option value="ambari">Ambari</option>
+        <option value="ant">Ant</option>
+        <option value="any23">Any23</option>
+        <option value="apr">Apache Portable Runtime</option>
+        <option value="archiva">Archiva</option>
+        <option value="aries">Aries</option>
+        <option value="arrow">Arrow</option>
+        <option value="attic">Attic</option>
+        <option value="avro">Avro</option>
+        <option value="aurora">Aurora</option>
+        <option value="axis">Axis</option>
+        
+        <option value="bigtop">Bigtop</option>
+        <option value="bloodhound">Bloodhound</option>
+        <option value="bookkeeper">BookKeeper</option>
+        <option value="brooklyn">Brooklyn</option>
+        <option value="buildr">Buildr</option>
+        <option value="bval">BVal</option>
+        <option value="camel">Camel</option>
+        <option value="cassandra">Cassandra</option>
+        <option value="cayenne">Cayenne</option>
+        <option value="celix">Celix</option>
+        <option value="chemistry">Chemistry</option>
+        <option value="chukwa">Chukwa</option>
+        <option value="clerezza">Clerezza</option>
+        <option value="click">Click</option>
+        <option value="climate">Open Climate Workbench</option>
+        <option value="cloudstack">Cloudstack</option>
+        <option value="cocoon">Cocoon</option>
+        <option value="comdev">Community Development</option>
+        <option value="commons">Commons</option>
+        <option value="continuum">Continuum</option>
+        <option value="cordova">Cordova</option>
+        <option value="couchdb">CouchDB</option>
+        <option value="creadur">Creadur</option>
+        <option value="crunch">Crunch</option>
+        <option value="ctakes">cTAKES</option>
+        <option value="curator">Curator</option>
+        <option value="cxf">CXF</option>
+        <option value="db">DB</option>
+        <option value="deltaspike">Deltaspike</option>
+        <option value="devicemap">DeviceMap</option>
+        <option value="directory">Directory</option>
+        <option value="drill">Drill</option>
+        <option value="empire-db">Empire-db</option>
+        <option value="etch">Etch</option>
+        <option value="excalibur">Excalibur</option>
+        <option value="falcon">Falcon</option>
+        <option value="felix">Felix</option>
+        <option value="flex">Flex</option>
+        <option value="flink">Flink</option>
+        <option value="flume">Flume</option>
+        <option value="fluo">Fluo</option>
+        <option value="forrest">Forrest</option>
+        <option value="geronimo">Geronimo</option>
+        <option value="giraph">Giraph</option>
+        <option value="gora">Gora</option>
+        <option value="groovy">Groovy</option>
+        <option value="gump">Gump</option>
+        <option value="hadoop">Hadoop</option>
+        <option value="hama">Hama</option>
+        
+        <option value="hbase">HBase</option>
+        <option value="helix">Helix</option>
+        <option value="hive">Hive</option>
+        
+        <option value="httpcomponents">HTTP Components</option>
+        <option value="httpd">HTTP Server</option>
+        
+        <option value="ignite">Ignite</option>
+        <option value="incubator">Incubator</option>
+        <option value="isis">Isis</option>
+        <option value="jackrabbit">Jackrabbit</option>
+        <option value="jakarta">Jakarta</option>
+        <option value="james">James</option>
+        <option value="jclouds">Jclouds</option>
+        <option value="jena">Jena</option>
+        <option value="jmeter">JMeter</option>
+        <option value="jspwiki">JSPWiki</option>
+        <option value="juddi">jUDDI</option>
+        <option value="kafka">Kafka</option>
+        <option value="karaf">Karaf</option>
+        <option value="knox">Knox</option>
+        <option value="kylin">Kylin</option>
+        <option value="labs">Labs</option>
+        <option value="libcloud">Libcloud</option>
+        <option value="logging">Logging Services</option>
+        <option value="lucene">Lucene</option>
+        <option value="lucenenet">LuceneNet</option>
+        <option value="lucy">Lucy</option>
+        <option value="mahout">Mahout</option>
+        <option value="manifoldcf">ManifoldCF</option>
+        <option value="maven">Maven</option>
+        <option value="marmotta">Marmotta</option>
+        <option value="mesos">Mesos</option>
+        <option value="metamodel">MetaModel</option>
+        <option value="mina">Mina</option>
+        <option value="mrunit">MRUnit</option>
+        <option value="myfaces">My Faces</option>
+        <option value="nutch">Nutch</option>
+        <option value="ode">Ode</option>
+        <option value="ofbiz">OFBiz</option>
+        <option value="olingo">Olingo</option>
+        <option value="oltu">Oltu</option>
+        <option value="onami">Onami</option>
+        <option value="oodt">OODT</option>
+        <option value="oozie">Oozie</option>
+        <option value="openejb">Open EJB</option>
+        <option value="openjpa">Open JPA</option>
+        <option value="openmeetings">OpenMeetings</option>
+        <option value="opennlp">Open NLP</option>
+        <option value="openoffice">OpenOffice</option>
+        <option value="openwebbeans">OpenWebBeans</option>
+        <option value="orc">Orc</option>
+        <option value="parquet">Parquet</option>
+        <option value="pdfbox">PDFBox</option>
+        <option value="perl">Perl-Apache</option>
+        <option value="pig">Pig</option>
+        <option value="phoenix">Phoenix</option>
+        <option value="pivot">Pivot</option>
+        <option value="poi">POI</option>
+        <option value="portals">Portals</option>
+        <option value="qpid">Qpid</option>
+        <option value="rave">Rave</option>
+        <option value="reef">REEF</option>
+        <option value="river">River</option>
+        <option value="roller">Roller</option>
+        <option value="samza">Samza</option>
+        <option value="santuario">Santuario</option>
+        <option value="servicemix">ServiceMix</option>
+        
+        <option value="shindig">Shindig</option>
+        <option value="shiro">Shiro</option>
+        <option value="sis">SIS</option>
+        <option value="sling">Sling</option>
+        <option value="spamassassin">SpamAssassin</option>
+        <option value="spark">Spark</option>
+        <option value="sqoop">Sqoop</option>
+        <option value="stanbol">Stanbol</option>
+        <option value="stdcxx">STDCXX (C++ Standard Library)</option>
+        <option value="steve">STeVe</option>
+        <option value="storm">Storm</option>
+        <option value="stratos">Stratos</option>
+        <option value="struts">Struts</option>
+        <option value="subversion">Subversion</option>
+        <option value="synapse">Synapse</option>
+        <option value="syncope">Syncope</option>
+        <option value="tajo">Tajo</option>
+        <option value="tapestry">Tapestry</option>
+        <option value="tcl">Tcl</option>
+        <option value="tez">Tez</option>
+        <option value="thrift">Thrift</option>
+        <option value="tika">Tika</option>
+        <option value="tiles">Tiles</option>
+        <option value="tomcat">Tomcat</option>
+        <option value="tomee">TomEE</option>
+        <option value="trafficserver">TrafficServer</option>
+        <option value="turbine">Turbine</option>
+        <option value="tuscany">Tuscany</option>
+        <option value="uima">UIMA</option>
+        <option value="vcl">VCL</option>
+        <option value="velocity">Velocity</option>
+        <option value="vxquery">VxQuery</option>
+        <option value="webservices">Web Services</option>
+        <option value="whimsy">Whimsy</option>
+        <option value="wicket">Wicket</option>
+        <option value="wink">Wink</option>
+        <option value="wookie">Wookie</option>
+        <option value="ws">Web Services</option>
+        <option value="xalan">Xalan</option>
+        <option value="xerces">Xerces</option>
+        
+        <option value="xmlgraphics">XML Graphics</option>
+        <option value="zest">Zest</option>
+        <option value="zookeeper">ZooKeeper</option>
+      </select>
+    </td>
+</tr>
+<tr>
+<td>Short Description</td>
+<td><textarea name="sdesc" cols="60" rows="2"></textarea></td>
+</tr>
+<tr>
+<td>Long Description</td>
+<td><textarea name="ldesc" cols="60" rows="6"></textarea></td>
+</tr>
+<tr>
+<td>Bug Database URL</td>
+<td><input type="text" name="bugdb" size="60"></td>
+</tr>
+<tr>
+<td>Download Page URL</td>
+<td><input type="text" name="dl" size="60"></td>
+</tr>
+<tr>
+<td>Mailing Lists Page URL</td>
+<td><input type="text" name="mail" size="60"></td>
+</tr>
+<tr>
+<td valign="top">Release</td>
+<td>
+      Name <input type="text" name="relname" size="30"><br>
+      Date <input type="text" name="reldt" size="20"> (YYYY-MM-DD)<br>
+      Version <input type="text" name="relvers" size="12">
+    </td>
+</tr>
+<tr>
+<td valign="top">Implemented Standard</td>
+<td>
+      Title <input type="text" name="std_title" size="40"><br>
+      Body <select name="std_body">
+<option value="Adobe Systems Incorporated">Adobe Systems Incorporated</option>
+<option value="IETF">Internet Engineering Task Force (IETF)</option>
+<option value="JCP">Java Community Process</option>
+<option value="Microsoft">Microsoft</option>
+<option value="OASIS">Organization for the Advancement of Structured Information Standards</option>
+<option value="OSGi">OSGi Alliance</option>
+<option value="W3C">World Wide Web Consortium</option>
+      </select><br>
+      ID <input type="text" name="std_id" size="20"><br>
+      URL <input type="text" name="std_url" size="40">
+    </td>
+</tr>
+<tr>
+<td valign="top">SVN Repository</td>
+<td>
+      Location URL <input type="text" name="svnurl" size="40"><br>
+      Web View URL <input type="text" name="svnhttp" size="50">
+    </td>
+</tr>
+<tr>
+<td valign="top">GIT Repository</td>
+<td>
+      Location URL <input type="text" name="giturl" size="40"><br>
+      Web View URL <input type="text" name="githttp" size="50">
+    </td>
+</tr>
+<tr>
+<td valign="top">Maintainer</td>
+<td>
+      Name <input type="text" name="maintainer_name" size="40"><br>
+      Email <input type="text" name="maintainer_email" size="50">
+    </td>
+</tr>
+</table>
+<p align="center"><input type="submit" value="Create"></p>
+</form>
+</div>
+</td>
+</tr></table></div>
+<div id="footerSection">
+<p>Copyright 1999-2016, The Apache Software Foundation</p>
+<p>Licensed under the 
+    <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>.</p>
+<p>Generated Wed, 02 Mar 2016 09:31:25 GMT</p>
+</div>
+</body>
+</html>

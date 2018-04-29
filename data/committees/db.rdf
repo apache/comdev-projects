@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<!--
+  =======================================================================
+
+   Copyright (c) 2006 The Apache Software Foundation.  
+   All rights reserved.
+
+  =======================================================================
+-->
+<rdf:RDF xml:lang="en"
+         xmlns="http://usefulinc.com/ns/doap#" 
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+         xmlns:asfext="http://projects.apache.org/ns/asfext#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <asfext:pmc rdf:about="db">
+    <asfext:name>Apache DB</asfext:name>
+    <foaf:homepage rdf:resource="http://db.apache.org/"/>
+    <asfext:chair>
+      <foaf:Person>
+        <foaf:name>Jean T. Anderson</foaf:name>
+      </foaf:Person>
+    </asfext:chair>
+    <asfext:charter>The mission of the Apache DB project is to create and 
+    maintain commercial-quality, open-source, database solutions based on 
+    software licensed to the Foundation, for distribution at no charge to the 
+    public.</asfext:charter>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Jean T. Anderson</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Matthew Baird </foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Satheesh Bandaram</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Michael Bouschen</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Michelle Caisse</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Daniel John Debrunner</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Thomas Dudziak</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Scott Eade</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Thomas Fischer</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Knut Anders Hatlen</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Rick Hillegas</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Bernt Johnsen</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Geir Magnusson Jr.</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Thomas Mahler</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Kathey Marsden</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Mike Matrigali</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Brian McCallister</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Andrew McIntyre</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>John McNally</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Tomohito Nakayama</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Bryan Pendleton</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Daniel Rall</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Craig Russell</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Henning Schmiedehausen</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>David Van Couvering</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Jason van Zyl</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Thomas Vandahl</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Armin Waibel</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Rodney Waldhoff</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+  </asfext:pmc>
+
+</rdf:RDF>

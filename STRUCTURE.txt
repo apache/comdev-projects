@@ -1,0 +1,99 @@
+Layout of comdev/projects.apache.org:
+
+/scripts:
+        - Contains scripts used for import and maintenance of foundation-wide
+          data, such as committer IDs/names, project VPs, founding dates,
+          reporting cycles etc. See README.txt for more info.
+
+/data:
+        - Contains data maintained by committees
+
+/site:
+        - Contains the HTML, images and javascript needed to run the site
+
+/site/json:
+        - Contains the JSON data storage calculated from /data and external sources
+          (notice: used by reporter.apache.org too, see getjson.py)
+
+/site/json/foundation:
+        - Contains foundation-wide JSON data (committers, chairs, podling
+          evolution etc)
+
+/site/json/projects:
+        - Contains project-specific data extracted from projects' DOAP files.
+
+N.B. The directory structure should be owned by the www-data login (or whatever is used for the webserver)
+This is because at least one of the scripts (parsecommitteeinfo.py) may invoke SVN commands
+
+Suggested cron setup:
+    scripts/cronjobs/parsecomitters.py - daily/hourly (whatever we need/want)
+    scripts/cronjobs/podlings.py - daily
+    scripts/cronjobs/countaccounts.py - weekly
+    scripts/cronjobs/parsereleases.py - daily
+    scripts/cronjob/parsecommitteeinfo.py - daily
+
+
+Webserver required:
+To test the site locally, a webserver is required or you'll get
+"Cross origin requests are only supported for HTTP" errors.
+An easy setup for development is: run "python -m SimpleHTTPServer 8888" from
+site directory to have site available at http://localhost:8888/
+
+Current crontab settings:
+
+crontab root:
+# m h  dom mon dow   command
+10 5 * * * cd /var/www/projects.apache.org/site/json && svn ci -m "updating projects data" --username projects_role --password `cat /root/.rolepwd` --non-interactive
+
+crontab -l -u www-data:
+# m h  dom mon dow   command
+00 00 * * * cd /var/www/projects.apache.org/scripts/cronjobs && ./python3logger.sh podlings.py
+01 00 * * * cd /var/www/projects.apache.org/scripts/cronjobs && ./python3logger.sh parsecommitters.py
+02 00 * * * cd /var/www/projects.apache.org/scripts/cronjobs && ./python3logger.sh countaccounts.py
+03 00 * * * cd /var/www/projects.apache.org/scripts/cronjobs && ./python3logger.sh parsereleases.py
+00 01 * * * cd /var/www/projects.apache.org/scripts/cronjobs && ./python3logger.sh parsecommitteeinfo.py
+00 02 * * * cd /var/www/projects.apache.org/scripts/cronjobs && ./python3logger.sh parseprojects.py
+
+# Run pubsubber
+@reboot         cd /var/www/projects.apache.org/scripts/cronjobs && ./pubsubber.sh
+@monthly        cd /var/www/projects.apache.org/scripts/cronjobs && ./pubsubber.sh restart
+
+# ensure that any new data files get picked up by the commit (which must be done by root)
+10 4 * * *      cd /var/www/projects.apache.org/scripts/cronjobs && ./svnadd.sh ../../site/json
+
+Note: the puppet config for the VM is stored at:
+
+https://git-wip-us.apache.org/repos/asf?p=infrastructure-puppet.git;a=blob_plain;f=data/nodes/projects-vm.apache.org.yaml
+
+See also scripts/README.txt
+
+The HTTPD conf is defined here:
+https://svn.apache.org/repos/infra/infrastructure/trunk/machines/vms/nyx-ssl.apache.org/etc/apache2/sites-available/projects.apache.org.conf
+
+Some Puppet data is here
+https://svn.apache.org/repos/infra/infrastructure/trunk/puppet/hosts/nyx-ssl/manifests/init.pp
+
+
+Statistics (Snoot) Sources https://cwiki.apache.org/confluence/display/COMDEV/Snoot
+Updates to list of sources is done by admins with following conventions:
+
+- code repositories
+rationale: get git mirrors list from git.apache.org, but remove repositories for sites since they contain too much generated (html) content that cheats real code statistics
+(notice: sites in svn don't have the issue, only sites in git have the issue. But filtering site repositories based on svn vs git is too complex and not really understandable)
+
+wget -q -O - http://git.apache.org/index.txt | grep -v \\-site.git | grep -v \\-website.git | grep -v \\-www.git | grep -v \\-web.git > index.txt
+(notice: removal detected by diff to be managed manually)
+
+- issue trackers: Jira
+wget -q -O - https://issues.apache.org/jira/secure/BrowseProjects.jspa | sed -n 's/.*"\(.jira.browse.[^"]\+\)".*/https:\/\/issues.apache.org\1/p' | sort > jira.txt
+(notice: removal detected by diff to be managed manually)
+
+- issue trackers: Bugzilla
+TBD
+
+- mailing lists
+https://lists.apache.org/api/preferences.lua
+TODO parse JSON and generate txt with one line per list: https://lists.apache.org/list.html?<list>@<tlp>.apache.org
+
+- irc
+TBD

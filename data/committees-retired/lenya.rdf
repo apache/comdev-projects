@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+  =======================================================================
+
+   Copyright (c) 2006 The Apache Software Foundation.  
+   All rights reserved.
+
+  =======================================================================
+-->
+<rdf:RDF xml:lang="en"
+         xmlns="http://usefulinc.com/ns/doap#" 
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+         xmlns:asfext="http://projects.apache.org/ns/asfext#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <asfext:pmc rdf:about="lenya">
+    <asfext:name>Apache Lenya</asfext:name>
+    <foaf:homepage rdf:resource="http://lenya.apache.org/"/>
+  </asfext:pmc>
+
+</rdf:RDF>

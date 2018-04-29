@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<!--
+  =======================================================================
+
+   Copyright (c) 2006 The Apache Software Foundation.  
+   All rights reserved.
+
+  =======================================================================
+-->
+<rdf:RDF xml:lang="en"
+         xmlns="http://usefulinc.com/ns/doap#" 
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+         xmlns:asfext="http://projects.apache.org/ns/asfext#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <asfext:pmc rdf:about="xalan">
+    <asfext:name>Apache Xalan</asfext:name>
+    <foaf:homepage rdf:resource="http://xalan.apache.org/charter.html"/>
+    <asfext:charter>Apache Xalan exists to promote the use of XSLT.
+    We view XSLT (Extensible Stylesheet Language Transformations) as
+    a compelling paradigm that transforms XML documents, thereby
+    facilitating the exchange, transformation, and presentation of
+    knowledge. The ability to transform XML documents into usable
+    information has great potential to improve the functionality
+    and use of information systems. We intend to build freely
+    available XSLT processing components in order to engender such
+    improvements.</asfext:charter>
+    <asfext:chair>
+      <foaf:Person>
+        <foaf:name>Steven J. Hathaway</foaf:name>
+      </foaf:Person>
+    </asfext:chair>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>David Bertoni</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Michael Glavassevich</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Gary D. Gregory</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Steven J. Hathaway</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Gareth Reakes</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Sanjiva Weerawarana</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Tim Williams</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+  </asfext:pmc>
+</rdf:RDF>

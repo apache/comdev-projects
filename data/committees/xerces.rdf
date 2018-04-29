@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<!--
+  =======================================================================
+
+   Copyright (c) 2006 The Apache Software Foundation.  
+   All rights reserved.
+
+  =======================================================================
+-->
+<rdf:RDF xml:lang="en"
+         xmlns="http://usefulinc.com/ns/doap#" 
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+         xmlns:asfext="http://projects.apache.org/ns/asfext#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <asfext:pmc rdf:about="xerces">
+    <asfext:name>Apache Xerces</asfext:name>
+    <foaf:homepage rdf:resource="http://xerces.apache.org/charter.html"/>
+    <asfext:charter>Apache Xerces exists to promote the use of XML. 
+    We view XML as a compelling paradigm that structures data as 
+    information, thereby facilitating the exchange, transformation, 
+    and presentation of knowledge. The ability to transform raw data 
+    into usable information has great potential to improve the 
+    functionality and use of information systems. We intend to build 
+    freely available XML parsers and closely related technologies in 
+    order to engender such improvements.</asfext:charter>
+    <asfext:chair>
+      <foaf:Person>
+        <foaf:name>Michael Glavassevich</foaf:name>
+      </foaf:Person>
+    </asfext:chair>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>David Cargill</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Andy Clark</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Mukul Gandhi</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Michael Glavassevich</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Neil Graham</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Boris Kolpackov</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Berin Lautenbach</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Alberto Massari</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Khaled Noaman</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Gareth Reakes</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Jason Stewart</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+  </asfext:pmc>
+</rdf:RDF>

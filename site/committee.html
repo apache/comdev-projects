@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang=''>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="styles.css">
+   <script src="js/jquery.js" type="text/javascript"></script>
+   <script src="script.js"></script>
+   <script src="js/projects.js" charset="UTF-8"></script>
+   <title>Apache Committee Information</title>
+</head>
+<body onload="preloadEverything(buildCommitteePage);">
+
+<div id="logo"><h1><div style="padding-top: 30px;">Apache Committee Information</div></h1></div>
+<div id='cssmenu'>
+<ul>
+   <li><a href='.'><span>Home</span></a></li>
+   <li class='active'><a href='committees.html'><span>Committees</span></a></li>
+   <li><a href='projects.html'><span>Projects</span></a></li>
+   <li><a href='releases.html'><span>Releases</span></a></li>
+   <li class='last'><a href='timelines.html'><span>Timelines</span></a></li>
+   <li style="background: none !important"><input type="text" style="margin-top: 20px;" onkeypress="checkKeyPress(event, this);" placeholder="Search..."/></li>
+   <li style="float: right;"><a href='about.html'><span>About</span></a></li>
+   <!--li style="background: none; float: right;"><a href="edit/"><img title="Edit project data" style="vertical-align: middle; margin-top: -5px; height: 24px; width: 24px;" src="images/edit.png"/></a></li-->
+</ul>
+</div>
+
+<div class="leftbar">
+   <ul>
+      <li>Committee listings:</li>
+      <li><img src="images/byname.png"/> &nbsp; <a href="committees.html?name">By Name</a></li>
+      <li><img src="images/bydate.png"/> &nbsp; <a href="committees.html?date">By Date Founded</a></li>
+   </ul>
+</div>
+<div id="contents">
+   <p style="text-align: center;">
+      Loading data, please wait...<br/>
+      <img src="images/loader.gif"/>
+   </p>
+   <p id="progress" style="text-align: center;"></p>
+   <noscript>
+      <h2>Notice!</h2>
+      <p>
+         This site relies heavily on JavaScript.
+         Please enable it or get a browser that supports it.
+      </p>
+   </noscript>
+</div>
+<div id="footer">
+   Managed by the <a href="http://community.apache.org">Apache Community Development Project</a>.<br/>
+   Copyright&copy; 2017, the Apache Software Foundation. Licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a><br/>
+   Apache&reg; and the Apache feather logo are trademarks of The Apache Software Foundation.
+</div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF xml:lang="en"
+         xmlns="http://usefulinc.com/ns/doap#" 
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+         xmlns:asfext="http://projects.apache.org/ns/asfext#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <asfext:pmc rdf:about="falcon">
+    <asfext:name>Apache Falcon</asfext:name>
+    <asfext:chair>
+      <foaf:Person>
+        <foaf:name>Srikanth Sundarrajan</foaf:name>
+      </foaf:Person>
+    </asfext:chair>
+    <asfext:charter>
+        Apache Falcon is a data processing and management solution for Hadoop 
+        designed for data motion, coordination of data pipelines, lifecycle 
+        management, and data discovery. Falcon enables end consumers to quickly 
+        onboard their data and its associated processing and management tasks 
+        on Hadoop clusters.
+    </asfext:charter>
+  </asfext:pmc>
+</rdf:RDF>

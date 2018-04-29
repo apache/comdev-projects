@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<!--
+   Licensed to the Apache Software Foundation (ASF) under one or more
+   contributor license agreements.  See the NOTICE file distributed with
+   this work for additional information regarding copyright ownership.
+   The ASF licenses this file to You under the Apache License, Version 2.0
+   (the "License"); you may not use this file except in compliance with
+   the License.  You may obtain a copy of the License at
+ 
+       http://www.apache.org/licenses/LICENSE-2.0
+ 
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<rdf:RDF xml:lang="en"
+         xmlns="http://usefulinc.com/ns/doap#" 
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+         xmlns:asfext="http://projects.apache.org/ns/asfext#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <asfext:pmc rdf:about="olingo">
+    <asfext:name>Apache Olingo</asfext:name>
+    <foaf:homepage rdf:resource="http://olingo.apache.org/"/>
+    <asfext:chair>
+        <foaf:Person>
+          <foaf:name>Stephan Klevenz</foaf:name>
+        </foaf:Person>
+      </asfext:chair>
+      <asfext:member>
+        <foaf:Person>
+          <foaf:name>Eduard Koller</foaf:name>
+        </foaf:Person>
+      </asfext:member>
+      <asfext:member>
+        <foaf:Person>
+          <foaf:name>Chandan V A </foaf:name>
+        </foaf:Person>
+      </asfext:member>
+      <asfext:member>
+        <foaf:Person>
+          <foaf:name>Challen He</foaf:name>
+        </foaf:Person>
+      </asfext:member>
+      <asfext:member>
+        <foaf:Person>
+          <foaf:name>Tamara Boehm</foaf:name>
+        </foaf:Person>
+      </asfext:member>
+      <asfext:member>
+        <foaf:Person>
+          <foaf:name>Michael Bolz</foaf:name>
+        </foaf:Person>
+      </asfext:member>
+      <asfext:member>
+        <foaf:Person>
+          <foaf:name>Jens Huesken</foaf:name>
+        </foaf:Person>
+      </asfext:member>
+      <asfext:member>
+        <foaf:Person>
+          <foaf:name>Francesco Chicchiriccò</foaf:name>
+        </foaf:Person>
+      </asfext:member>
+      <asfext:member>
+        <foaf:Person>
+          <foaf:name>Christian Amend</foaf:name>
+        </foaf:Person>
+      </asfext:member>
+      <asfext:member>
+        <foaf:Person>
+          <foaf:name>Dave Fisher</foaf:name>
+        </foaf:Person>
+      </asfext:member>
+      <asfext:member>
+        <foaf:Person>
+          <foaf:name>Florian Mueller</foaf:name>
+        </foaf:Person>
+      </asfext:member>
+      <asfext:charter>The Apache Olingo Project be and hereby is
+         responsible for the creation and maintenance of software
+         related to providing an implemention of the OASIS OData 
+         (Open Data Protocol) specifications, in server and client 
+         form; 
+      </asfext:charter>
+  </asfext:pmc>
+</rdf:RDF>
