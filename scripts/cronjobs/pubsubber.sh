@@ -17,9 +17,15 @@ then
     python3 -u $SCRIPT stop
 fi
 
-ERRTEE=1 LOGFILE=$LOGDIR/${BASE}_${YYMM}_daemon.log python3 -u $SCRIPT start \
-   comdev/projects.apache.org /var/www/projects.apache.org/ \
-   comdev/reporter.apache.org /var/www/reporter.apache.org/
+if [ "$1" = 'stop' ]
+then
+    python3 -u $SCRIPT stop
+else
+    ERRTEE=1 LOGFILE=$LOGDIR/${BASE}_${YYMM}_daemon.log python3 -u $SCRIPT start \
+       comdev/projects.apache.org /var/www/projects.apache.org/ \
+       comdev/reporter.apache.org /var/www/reporter.apache.org/
+    echo "Remember to start pubsubber again" >&2
+fi
 
 echo Completed $SCRIPT at $(date)
 echo '<<<'
