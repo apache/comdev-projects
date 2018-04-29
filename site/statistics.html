@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang=''>
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="css/jquery.dataTables.min.css">
+   <script src="js/jquery.js" type="text/javascript"></script>
+   <script src="js/jquery.dataTables.min.js" type="text/javascript"></script>
+   <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+   <script src="script.js"></script>
+   <script src="js/projects.js"></script>
+   <style type="text/css">
+      .snoot-widget img {
+         vertical-align: middle;
+         width: 34px !important;
+         height: 34px !important;
+         border-radius: 50%;
+         padding-right: 3px;
+      }
+      .snoot-widget .pull-left {
+         float: left;
+      }
+      .snoot-widget .event {
+         border-bottom: 1px solid #666;
+         margin-bottom: 5px;
+      }
+      .infobox {
+         border-radius: 3px;
+         border: 1px solid #999;
+         background: #EEF;
+         font-size: 9pt;
+         padding: 3px;
+         margin: 5px;
+      }
+   </style>
+   <title>Apache Projects Statistics</title>
+</head>
+<body>
+
+<div id="logo"><h1><div style="padding-top: 30px;">Projects Statistics </div></h1></div>
+<div id='cssmenu'>
+<ul>
+   <li><a href='.'><span>Home</span></a></li>
+   <li><a href='committees.html'><span>Committees</span></a></li>
+   <li><a href='projects.html'><span>Projects</span></a></li>
+   <li><a href='releases.html'><span>Releases</span></a></li>
+   <li class='active'><a href='statistics.html'><span>Statistics</span></a></li>
+   <li class='last'><a href='timelines.html'><span>Timelines</span></a></li>
+   <li style="background: none !important"><input type="text" style="margin-top: 20px;" onkeypress="checkKeyPress(event, this);" placeholder="Search..."/></li>
+   <li style="float: right;"><a href='about.html'><span>About</span></a></li>
+   <!--li style="background: none; float: right;"><a href="edit/"><img title="Edit project data" style="vertical-align: middle; margin-top: -5px; height: 24px; width: 24px;" src="images/edit.png"/></a></li-->
+</ul>
+</div>
+
+<div id="contents" style="width: 1160px;">
+   <h1>Statistics</h1>
+   <h2>Codebase statistics</h2>
+   <div style="margin-bottom: 40px; float: left; width: 100%; border-bottom: 2px solid #666;">
+      <div style="width: 35%; float: left;">
+         <h3>Language breakdown across the ASF:</h3>
+         <div class="infobox">This chart shows the languages used by all projects at the ASF, sorted by the number of lines per language (excluding comments and blanks)</div>
+         <div class="snoot-widget" data="c20b77c87e34b6020ac7c9b1ccd7dedc9c7759ca"></div>
+      </div>
+      <div style="width: 65%; float: right;">
+         <h3>Evolution of codebase over time:</h3>
+         <div class="infobox">This chart shows the lines of code, blanks and comments over time at the ASF (see <a href="https://github.com/AlDanial/cloc#Languages"><code>cloc</code> documentation</a> for details).</div>
+         <div class="snoot-widget" data="c19023e926a702abd4190015b7392669f41fa0ba"></div>
+      </div>
+   </div>
+   <div style="margin-bottom: 40px; float: left; width: 100%; border-bottom: 2px solid #666;">
+      <h2>Commits and changes</h2>
+      <div style="width: 100%; float: right;">
+         <h3>Lines changed, past year:</h3>
+         <div class="snoot-widget" data="fd124fd49e8fa511321a9cf967872d5ec25f2b40"></div>
+      </div>
+   </div>
+   <div style="margin-bottom: 40px; float: left; width: 100%; border-bottom: 2px solid #666;">
+      <h2>Committers and authors</h2>
+      <div class="infobox">This chart shows the number of active committers and authors on a monhtly basis. Committers are people with an Apache committer account, whereas authors may be any person that has contributed code to an Apache project.</div>
+      <div style="width: 70%; float: left;">
+         <h3>Committers and authors, past year:</h3>
+         <div class="snoot-widget" data="7bb7d8aaedd27abc990629a2f9c61a72ecb49255"></div>
+      </div>
+      <div style="width: 30%; float: right;">
+         <h3>Most prolific committers:</h3>
+         <div class="snoot-widget" data="92980b5bd00dcb3cf0b54bc52ba9a923501b8e95" data-author="true" data-unique="true" style="font: 9pt/0.65 Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;"></div>
+      </div>
+   </div>
+   
+   <div style="margin-bottom: 40px; float: left; width: 100%; border-bottom: 2px solid #666;">
+      <h2>Issues and email</h2>
+      <div style="width: 50%; float: left;">
+         <h3>Number of issues opened/closed, all time:</h3>
+         <div class="snoot-widget" data="7fb890f514ceba334ee818c95f23a9cef69381ae"></div>
+      </div>
+      <div style="width: 50%; float: right;">
+         <h3>Email, topics and email authors, past year:</h3>
+         <div class="snoot-widget" data-charttype="line" data="b740487ab57bd09b60ae6ccaae4111265d444ddf"></div>
+      </div>
+   </div>
+   
+   <div style="margin-bottom: 40px; float: left; width: 100%; border-bottom: 2px solid #666;">
+      <h2>Largest/Busiest repositories</h2>
+      <div style="width: 50%; float: left;">
+         <h3>Repositories by number of commits, past year:</h3>
+         <div class="snoot-widget" data="0e540e3c0d190a80d380a5b8d19837f031943534"></div>
+      </div>
+      <div style="width: 50%; float: right;">
+         <h3>Repositories by Lines of Code:</h3>
+         <div class="snoot-widget" data="c0db3ca335693d6e3e092ad238836f2338dc9238"></div>
+      </div>
+   </div>
+   
+   <div style="margin-bottom: 40px; float: left; width: 100%; border-bottom: 2px solid #666;">
+      <h2>Language Treemap</h2>
+      <div class="snoot-widget" data="11b97c8e928851de61d2f8aaa480eed6c6743c89"></div>
+   </div>
+   
+   <div style="margin-bottom: 40px; float: left; width: 100%; border-bottom: 2px solid #666;">
+      <h2>Worldwide download mirror activity, past 30 days</h2>
+      <div class="snoot-widget" data="eadba4c4d01df55f84ce24442b0f5d82e0c05c10"></div>
+   </div>
+   
+   <noscript>
+      <h2>Notice!</h2>
+      <p>
+         This site relies heavily on JavaScript.
+         Please enable it or get a browser that supports it.
+      </p>
+   </noscript>
+   </div>
+</div>
+<div id="footer">
+   Managed by the <a href="http://community.apache.org">Apache Community Development Project</a>.<br/>
+   Copyright&copy; 2017, the Apache Software Foundation. Licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a><br/>
+   Apache&reg; and the Apache feather logo are trademarks of The Apache Software Foundation.
+</div>
+<script src="https://www.snoot.io/js/snoot.all.3.js"></script>
+<script src="https://www.snoot.io/publish/bundle.js"></script>
+<script src="https://www.snoot.io/js/worldmap.js"></script>
+</body>
+</html>

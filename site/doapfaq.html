@@ -1,0 +1,160 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Apache Software Foundation Projects - DOAP File FAQ</title>
+<link rel="stylesheet" type="text/css" href="/styles/style.css">
+</head>
+<body>
+<div id="headerSection"><a href="http://www.apache.org/"><img src="https://www.apache.org/images/asf_logo_wide.gif" alt="The Apache Software Foundation" width="537" height="51" align="left" border="0"></a></div>
+<div id="bodySection"><table border="0" cellspacing="0"><tr>
+<td width="20%" class="navleft" valign="top"><ul id="leftnav">
+<li><a href="/index.html">Home</a></li>
+<li>
+<a href="/indexes.html">Indexes</a><ul>
+<li><a href="/indexes/alpha.html">Alphabetical</a></li>
+<li><a href="/indexes/quick.html">Project Listing</a></li>
+<li><a href="/indexes/releases.html">Releases</a></li>
+<li><a href="/indexes/category.html">by Category</a></li>
+<li><a href="/indexes/language.html">by Language</a></li>
+<li><a href="/indexes/pmc.html">by PMC</a></li>
+<li><a href="/indexes/standards.html">by Standard</a></li>
+</ul>
+</li>
+<li><a href="/feeds.html">Feeds</a></li>
+<li>
+<a href="/doap.html">DOAP Files</a><ul>
+<li><a href="/guidelines.html">Guidelines</a></li>
+<li><a href="/create.html">Create a DOAP File</a></li>
+<li>DOAP File FAQ</li>
+<li><a href="/categories.html">Categories</a></li>
+<li><a href="/languages.html">Programming Languages</a></li>
+<li><a href="/pmcs.html">PMC</a></li>
+</ul>
+</li>
+<li>
+<a href="/docs/index.html">Documentation</a><ul>
+<li><a href="/docs/dependancies.html">Dependencies</a></li>
+<li><a href="/docs/pmc.html">PMC Data</a></li>
+<li><a href="/docs/standards.html">Standards</a></li>
+</ul>
+</li>
+<li><a href="/references.html">References &amp; Thanks</a></li>
+</ul></td>
+<td width="80%" valign="top" class="body">
+<h2>ASF DOAP File FAQ</h2>
+<div class="section-content">
+<ul>
+<li><a href="#idp32026544">I want to list my project is more than one category but the form to create the DOAP file only lets me select one. Can I add the others? How?</a></li>
+<li><a href="#idp32028464">Where should the DOAP file be stored?</a></li>
+<li><a href="#idp32032048">Where should the mailing list URL point?</a></li>
+<li><a href="#idp32033456">Where should the repository link point to?</a></li>
+<li><a href="#idp32034352">I need to add more than 'XXX'. How do I do that?</a></li>
+<li><a href="#idp32035632">What does the release information mean?</a></li>
+<li><a href="#idp32037424">How do we get an RSS feed?</a></li>
+<li><a href="#idp32038192">What happens if we commit an error to the DOAP file?</a></li>
+<li><a href="#idp32039216">What date should I use in the 'created' field of a version?</a></li>
+</ul>
+<table width="90%">
+<tr>
+<td width="10%" class="bigq" valign="top">Q<a name="idp32026544"></a>
+</td>
+<td width="90%" class="q" valign="top">I want to list my project is more than one category but the form to create the DOAP file only lets me select one. Can I add the others? How?</td>
+</tr>
+<tr>
+<td width="10%" class="biga" valign="top">A</td>
+<td width="90%" class="a" valign="top">The form is intended as a simple way to create a DOAP file for a project, it's not intended to be used beyond the initial creation so is limited in its functionality.
+You can list as many categories or programming languages as you need for a project, provided you include only those listed on the relevant pages.<br>
+To add other categories or programming languages simply duplicate the existing entries with the new details.</td>
+</tr>
+<tr>
+<td width="10%" class="bigq" valign="top">Q<a name="idp32028464"></a>
+</td>
+<td width="90%" class="q" valign="top">Where should the DOAP file be stored?</td>
+</tr>
+<tr>
+<td width="10%" class="biga" valign="top">A</td>
+<td width="90%" class="a" valign="top">The simple answer is that there are no hard and fast rules about where the file should be stored. It should be in a location that can be accessed via an http or https request, but beyond that there are no restrictions.<br>Some projects have included the file under the root of their website and provided that URL. They feel this gives them more control over when the file is updated.<br>Other projects have simply committed the file to their repository and provided a URL to the repository as this way they don't have the concern of publishing the file.<br>Either is fine and which is right for your project is something you can decide. Remember you can always change the link!</td>
+</tr>
+<tr>
+<td width="10%" class="bigq" valign="top">Q<a name="idp32032048"></a>
+</td>
+<td width="90%" class="q" valign="top">Where should the mailing list URL point?</td>
+</tr>
+<tr>
+<td width="10%" class="biga" valign="top">A</td>
+<td width="90%" class="a" valign="top">It should point to a single web page that allows people to find out more information about the mailing lists provided by your project.</td>
+</tr>
+<tr>
+<td width="10%" class="bigq" valign="top">Q<a name="idp32033456"></a>
+</td>
+<td width="90%" class="q" valign="top">Where should the repository link point to?</td>
+</tr>
+<tr>
+<td width="10%" class="biga" valign="top">A</td>
+<td width="90%" class="a" valign="top">The repository URL should point at your projects most up to date code, normally known as 'trunk' within the ASF.</td>
+</tr>
+<tr>
+<td width="10%" class="bigq" valign="top">Q<a name="idp32034352"></a>
+</td>
+<td width="90%" class="q" valign="top">I need to add more than 'XXX'. How do I do that?</td>
+</tr>
+<tr>
+<td width="10%" class="biga" valign="top">A</td>
+<td width="90%" class="a" valign="top">You'll need to edit the generated DOAP file. Remember the file that is generated is only intended as a starting point for you to adjust. Simply copy the copy section and edit as required.
+Please ensure you copy the full section, not a subset. For example, each "Version" must be in its own "release" section,
+and each "SVNRepository" and "GitRepository" entry must be in its own "repository" section.
+The following are .</td>
+</tr>
+<tr>
+<td width="10%" class="bigq" valign="top">Q<a name="idp32035632"></a>
+</td>
+<td width="90%" class="q" valign="top">What does the release information mean?</td>
+</tr>
+<tr>
+<td width="10%" class="biga" valign="top">A</td>
+<td width="90%" class="a" valign="top">The release information allows you to add
+<ul>
+<li>the date of the release</li>
+<li>a descriptive name for the release</li>
+<li>a version number</li>
+</ul>The information is used in various places and combined in various ways, so if you're not sure what to put in the various entries have a look at the generated web pages and RSS feeds to see how your entries will be formatted.</td>
+</tr>
+<tr>
+<td width="10%" class="bigq" valign="top">Q<a name="idp32037424"></a>
+</td>
+<td width="90%" class="q" valign="top">How do we get an RSS feed?</td>
+</tr>
+<tr>
+<td width="10%" class="biga" valign="top">A</td>
+<td width="90%" class="a" valign="top">The RSS feeds are generated automatically. You don't need to do anything else.</td>
+</tr>
+<tr>
+<td width="10%" class="bigq" valign="top">Q<a name="idp32038192"></a>
+</td>
+<td width="90%" class="q" valign="top">What happens if we commit an error to the DOAP file?</td>
+</tr>
+<tr>
+<td width="10%" class="biga" valign="top">A</td>
+<td width="90%" class="a" valign="top">If the DOAP file can't be processed, for whatever reason, the project will simply not be included on the site.<br>Once we have greater use of the maintainer information we hope to send an email informing them that there was a problem, but presently that doesn't happen.</td>
+</tr>
+<tr>
+<td width="10%" class="bigq" valign="top">Q<a name="idp32039216"></a>
+</td>
+<td width="90%" class="q" valign="top">What date should I use in the 'created' field of a version?</td>
+</tr>
+<tr>
+<td width="10%" class="biga" valign="top">A</td>
+<td width="90%" class="a" valign="top">The date you use should be the date the version was released. This may or may not be the same as the date the tarball was created if this is done prior to the date of the release.</td>
+</tr>
+</table>
+</div>
+</td>
+</tr></table></div>
+<div id="footerSection">
+<p>Copyright 1999-2016, The Apache Software Foundation</p>
+<p>Licensed under the 
+    <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>.</p>
+<p>Generated Wed, 02 Mar 2016 09:31:01 GMT</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--
+  =======================================================================
+
+   Copyright (c) 2012 The Apache Software Foundation.  
+   All rights reserved.
+
+  =======================================================================
+-->
+<rdf:RDF xml:lang="en"
+         xmlns="http://usefulinc.com/ns/doap#" 
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+         xmlns:asfext="http://projects.apache.org/ns/asfext#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <asfext:pmc rdf:about="mrunit">
+    <asfext:name>Apache MRUnit</asfext:name>
+    <foaf:homepage rdf:resource="http://mrunit.apache.org/"/>
+    <asfext:chair>
+      <foaf:Person>
+        <foaf:name>Brock Noland</foaf:name>
+      </foaf:Person>
+    </asfext:chair>
+  </asfext:pmc>
+
+</rdf:RDF>

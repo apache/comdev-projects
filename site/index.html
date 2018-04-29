@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang=''>
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="styles.css">
+   <script src="js/jquery.js" type="text/javascript"></script>
+   <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+   <script src="script.js"></script>
+   <script src="js/projects.js"></script>
+   
+   <title>Apache Projects Directory</title>
+</head>
+<body>
+
+<div id="logo"><h1><div style="padding-top: 30px;">Projects Directory</div></h1></div>
+<div id='cssmenu'>
+<ul>
+   <li class='active'><a href='/'><span>Home</span></a></li>
+   <li><a href='committees.html'><span>Committees</span></a></li>
+   <li><a href='projects.html'><span>Projects</span></a></li>
+   <li><a href='releases.html'><span>Releases</span></a></li>
+   <li><a href='statistics.html'><span>Statistics</span></a></li>
+   <li class='last'><a href='timelines.html'><span>Timelines</span></a></li>
+   <li style="background: none !important"><input type="text" style="margin-top: 20px;" onkeypress="checkKeyPress(event, this);" placeholder="Search..."/></li>
+   <li style="float: right;"><a href='about.html'><span>About</span></a></li>
+   <!--li style="background: none; float: right;"><a href="edit/"><img title="Edit project data" style="vertical-align: middle; margin-top: -5px; height: 24px; width: 24px;" src="images/edit.png"/></a></li-->
+</ul>
+</div>
+
+<div id="contents">
+   <h2>Welcome to the Apache Projects Directory</h2>
+   <p>This site is a catalog of Apache Software Foundation projects.
+      It is designed to help you find specific projects that meet your interests and to gain a broader understanding of
+      the wide variety of work currently underway in the Apache community.</p>
+   <div id="details">
+      <h3 style='text-align: center;'>There are currently <span style='color: #269;'>350+</span> open source initiatives at the ASF:</h3>
+      <ul style='width: 400px; margin: 0 auto; font-size: 18px; color: #269; font-weight: bold;'>
+      <li>~170 committees managing ~280 projects</li>
+      <li>5 special committees*</li>
+      <li>~40 incubating podlings</li>
+      </ul>
+      <p><small>*<a href="http://www.apache.org/dev/infrastructure">Infrastructure</a>, <a href="http://www.apache.org/travel/">Travel Assistance</a>, <a href="http://www.apache.org/security/">Security Team</a>, <a href="http://www.apache.org/legal/">Legal Affairs</a> and <a href="http://www.apache.org/foundation/marks/">Brand Management</a></small></p>
+   <p style="text-align: center;">
+      Loading data, please wait...<br/>
+      <img src="images/loader.gif"/>
+   </p>
+   <p id="progress" style="text-align: center;"></p>
+   <noscript>
+      <h2>Notice!</h2>
+      <p>
+         This site relies heavily on JavaScript.
+         Please enable it or get a browser that supports it.
+      </p>
+   </noscript>
+   </div>
+</div>
+<div id="footer">
+   Managed by the <a href="http://community.apache.org">Apache Community Development Project</a>.<br/>
+   Copyright&copy; 2017, the Apache Software Foundation. Licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a><br/>
+   Apache&reg; and the Apache feather logo are trademarks of The Apache Software Foundation.
+</div>
+<script type="text/javascript">
+   google.load("visualization", "1", {packages:["corechart"]});
+   google.setOnLoadCallback(function() { preloadEverything(buildFrontPage)});
+</script>
+</body>
+</html>

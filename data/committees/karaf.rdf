@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF xml:lang="en"
+         xmlns="http://usefulinc.com/ns/doap#" 
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+         xmlns:asfext="http://projects.apache.org/ns/asfext#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <asfext:pmc rdf:about="karaf">
+    <asfext:name>Apache Karaf</asfext:name>
+    <foaf:homepage rdf:resource="http://karaf.apache.org/"/>
+    <asfext:chair>
+      <foaf:Person>
+        <foaf:name>Guillaume Nodet</foaf:name>
+      </foaf:Person>
+    </asfext:chair>
+    <asfext:charter>
+       The mission of the Apache Karaf project is
+       the creation and maintenance of
+       open-source software related to a generic platform providing
+       higher level features and services specifically designed for
+       creating OSGi-based servers for distribution at no charge to
+       the public.
+    </asfext:charter>
+  </asfext:pmc>
+
+</rdf:RDF>

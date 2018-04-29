@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!--
+  =======================================================================
+
+   Copyright (c) 2008 The Apache Software Foundation.  
+   All rights reserved.
+
+  =======================================================================
+-->
+<rdf:RDF xml:lang="en"
+         xmlns="http://usefulinc.com/ns/doap#" 
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+         xmlns:asfext="http://projects.apache.org/ns/asfext#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <asfext:pmc rdf:about="servicemix">
+    <asfext:name>Apache ServiceMix</asfext:name>
+    <foaf:homepage rdf:resource="http://servicemix.apache.org/"/>
+    <asfext:chair>
+      <foaf:Person>
+        <foaf:name>Krzysztof Sobkowiak</foaf:name>
+      </foaf:Person>
+    </asfext:chair>
+    <asfext:charter>The mission of Apache ServiceMix project is to create 
+and maintain a flexible, open-source integration container, powered by OSGi,  
+that unifies the features and functionality of Apache ActiveMQ, Camel, CXF, and Karaf 
+into a powerful runtime platform you can use to build your own integrations solutions.</asfext:charter>
+  </asfext:pmc>
+
+</rdf:RDF>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<rdf:RDF xml:lang="en"
+         xmlns:doap="http://usefulinc.com/ns/doap#" 
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+         xmlns:asfext="http://projects.apache.org/ns/asfext#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <asfext:pmc rdf:about="couchdb">
+    <asfext:name>Apache CouchDB</asfext:name>
+    <foaf:homepage rdf:resource="http://couchdb.apache.org/"/>
+    <asfext:charter>
+        Apache CouchDB software is
+        a document-oriented database that can be queried and indexed in a MapReduce fashion using JavaScript. 
+        CouchDB also offers incremental replication with bi-directional conflict detection and resolution.
+    </asfext:charter>
+  </asfext:pmc>
+</rdf:RDF>

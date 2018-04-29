@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<!--
+  =======================================================================
+
+   Copyright (c) 2006 The Apache Software Foundation.  
+   All rights reserved.
+
+  =======================================================================
+-->
+<rdf:RDF xml:lang="en"
+         xmlns="http://usefulinc.com/ns/doap#" 
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+         xmlns:asfext="http://projects.apache.org/ns/asfext#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <asfext:pmc rdf:about="forrest">
+    <asfext:name>Apache Forrest</asfext:name>
+    <asfext:chair>
+      <foaf:Person>
+        <foaf:name>David Crossley</foaf:name>
+      </foaf:Person>
+    </asfext:chair>
+    <asfext:charter>
+      The mission of Apache Forrest is the generation of aggregated
+      multi-channel documentation, maintaining a separation of content
+      and presentation.
+    </asfext:charter>
+    <foaf:homepage rdf:resource="http://forrest.apache.org/who.html"/>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Dave Brondsema</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>David Crossley</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Cyriaque Dupoirieux</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Antonio Gallardo</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Ross Gardler</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Diwaker Gupta</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Gavin McDonald</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Sjur Moshagen</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Juan Jose Pablos</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Johannes Schaefer</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Thorsten Scherler</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Ferdinand Soethe</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Rick F. Tessner</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Tim Williams</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+  </asfext:pmc>
+</rdf:RDF>

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang=''>
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="styles.css">
+   <script src="js/jquery.js" type="text/javascript"></script>
+   <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+   <script src="script.js"></script>
+   <script src="js/projects.js"></script>
+   
+   <title>About Apache Projects Directory</title>
+</head>
+<body>
+
+<div id="logo"><h1><div style="padding-top: 30px;">About This Site</div></h1></div>
+<div id='cssmenu'>
+<ul>
+   <li><a href='.'><span>Home</span></a></li>
+   <li><a href='committees.html'><span>Committees</span></a></li>
+   <li><a href='projects.html'><span>Projects</span></a></li>
+   <li><a href='releases.html'><span>Releases</span></a></li>
+   <li><a href='statistics.html'><span>Statistics</span></a></li>
+   <li class='last'><a href='timelines.html'><span>Timelines</span></a></li>
+   <li style="background: none !important"><input type="text" style="margin-top: 20px;" onkeypress="checkKeyPress(event, this);" placeholder="Search..."/></li>
+   <li style="float: right;" class='active'><a href='about.html'><span>About</span></a></li>
+   <!--li style="background: none; float: right;"><a href="edit/"><img title="Edit project data" style="vertical-align: middle; margin-top: -5px; height: 24px; width: 24px;" src="images/edit.png"/></a></li-->
+</ul>
+</div>
+
+<div>
+  <h1>About This Website</h1>
+  <p>
+    This website is maintained by the 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Organization">
+      <span itemprop="name"><a itemprop="url" href="http://community.apache.org/">Apache Community Development PMC</a></span> who works on the 
+      <span itemprop="email">dev@community.apache.org</span>
+      <span itemscope itemtype="https://schema.org/ContactPage"><a itemprop="url" href="https://community.apache.org/lists.html">archived mailing list</a></span>.
+    </span>
+  </p>
+  <p>
+    The primary content for this website is in static HTML, and uses a variety of cronjobs, JavaScript, and other tools to dynamically display the data.
+    <br/>
+    The underlying sources are stored in a Subversion repository at: <pre itemscope itemtype="https://schema.org/SoftwareSourceCode" style="border:1px solid #999; padding: 12px; margin: 1em 7px 1em 7px;">svn co <a itemprop="codeRepository" href="https://svn.apache.org/repos/asf/comdev/projects.apache.org/">https://svn.apache.org/repos/asf/comdev/projects.apache.org/</a></pre>
+    <br/>
+    Changes checked into the HTML are reflected immediately on the production server.
+  </p>
+
+  <h2>How The Code Works</h2>
+  <p>The data about Apache projects on this site is generated at least daily by cronjobs running Python scripts from various data sources.
+    Various cronjobs check authoritative ASF data sources for updates, and then cache data needed by this website (and possibly other websites) in 
+    a variety of JSON files that are checked into a Subversion repository for safety and simplicity of backups.
+    This site then uses JavaScript and a variety of visualization tools to dynamically display charts and listings of Apache project metadata. 
+  <ol>
+    <li>Organizational information about Apache project <a href="https://www.apache.org/foundation/#who-runs-the-asf">committees</a> and <a href="http://home.apache.org/phonebook.html">people</a>,</li>
+    <li><a href="pmc_rdf.html">PMC RDF data files</a> in the <a href="http://svn.apache.org/viewvc/comdev/projects.apache.org/data/committees">data/committees</a> directory.
+    <br>
+    PMCs can maintain their own data files instead: replace the the default "committees/pmc-name.rdf" entry with your URL in this file:
+    <br>
+    <a href="https://svn.apache.org/repos/asf/comdev/projects.apache.org/data/committees.xml">https://svn.apache.org/repos/asf/comdev/projects.apache.org/data/committees.xml</a>
+    </li>
+    <li>Project DOAP files listed in <a href="https://svn.apache.org/repos/asf/comdev/projects.apache.org/data/projects.xml">https://svn.apache.org/repos/asf/comdev/projects.apache.org/data/projects.xml</a><br/>
+        DOAP files are maintained by the projects themselves,
+        with <a href="https://cwiki.apache.org/confluence/display/COMDEV/Apache+Projects+Directory">How-To Guidelines in the wiki</a>.
+    </li>
+    <li>Technical details about the code are in <a href="https://svn.apache.org/repos/asf/comdev/projects.apache.org/STRUCTURE.txt">STRUCTURE.txt
+    </li>
+  </ol>
+  <p>You can ask us questions on the <a href="mailto:dev@community.apache.org">dev@community.apache.org</a> mailing list, or <a href="https://lists.apache.org/list.html?dev@community.apache.org">read the mail archives</a> online.
+   To report a specific problem with the website, create a <a href="https://issues.apache.org/jira/browse/COMDEV/component/12327330/">COMDEV Jira issue in the "Projects" component</a>.
+  </p>
+  
+  <h1>Learn More About The ASF</h1>
+  <p>This site is one of a galaxy of sites where you can find out more
+  information about the Apache Software Foundation (ASF). See also:
+  </p>
+
+  <ul>
+    <li><a href="http://www.apache.org/foundation/">The Apache Software Foundation</a> - all about the ASF</li>
+    <li><a href="http://community.apache.org/">Apache Community Development</a> - How to get involved and stay involved</li>
+    <li><a href="https://www.apache.org/dev/">Technical information about tools</a> - Pointers to the various tools (mail, SVN, git, etc.) Apache projects use</li>
+    <li><a href="http://helpwanted.apache.org/">Help Wanted</a> - Find simple tasks to start contributing to an Apache project today</li>
+    <li><a href="https://whimsy.apache.org/board/minutes/">Board of Director Minutes</a> - for official records of the ASF board and all projects</li>
+  </ul>
+</div>
+<div id="footer">
+  Managed by the <a href="http://community.apache.org/">Apache Community Development Project</a>.<br/>
+  Copyright&copy; 2017, the Apache Software Foundation. Licensed under the <a rel="license" href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a><br/>
+  Apache&reg; and the multicolor feather logo are <a href="https://www.apache.org/foundation/marks/list/">trademarks</a> of The Apache Software Foundation.
+</div>
+</body>
+</html>

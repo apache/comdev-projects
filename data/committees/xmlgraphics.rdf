@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<!--
+  =======================================================================
+
+   Copyright (c) 2006 The Apache Software Foundation.  
+   All rights reserved.
+
+  =======================================================================
+-->
+<rdf:RDF xml:lang="en"
+         xmlns="http://usefulinc.com/ns/doap#" 
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+         xmlns:asfext="http://projects.apache.org/ns/asfext#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <asfext:pmc rdf:about="xmlgraphics">
+    <asfext:name>Apache XML Graphics</asfext:name>
+    <foaf:homepage rdf:resource="http://xmlgraphics.apache.org/"/>
+    <asfext:chair>
+      <foaf:Person>
+        <foaf:name>Jeremias Märki</foaf:name>
+      </foaf:Person>
+    </asfext:chair>
+    <asfext:charter>Apache XML Graphics exists to promote the use of XML. We view XML as a 
+compelling paradigm that structures data as information, thereby facilitating 
+the exchange, transformation, and presentation of knowledge. The ability to 
+transform raw data into usable information has great potential to improve the 
+functionality and use of information systems. We intend to build freely 
+available products for the conversion of XML to graphical output and closely 
+related technologies in order to engender such improvements.</asfext:charter>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Chris Bowditch</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Thomas DeWeese</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Christian Geisert</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Clay Leeds</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Cameron McCormack</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Simon Pepping</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Jörg Pietschmann</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+  </asfext:pmc>
+
+</rdf:RDF>

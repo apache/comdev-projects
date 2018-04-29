@@ -1,0 +1,122 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Apache Software Foundation - General DOAP Guidelines</title>
+<link rel="stylesheet" type="text/css" href="/styles/style.css">
+</head>
+<body>
+<div id="headerSection"><a href="http://www.apache.org/"><img src="https://www.apache.org/images/asf_logo_wide.gif" alt="The Apache Software Foundation" width="537" height="51" align="left" border="0"></a></div>
+<div id="bodySection"><table border="0" cellspacing="0"><tr>
+<td width="20%" class="navleft" valign="top"><ul id="leftnav">
+<li><a href="/index.html">Home</a></li>
+<li>
+<a href="/indexes.html">Indexes</a><ul>
+<li><a href="/indexes/alpha.html">Alphabetical</a></li>
+<li><a href="/indexes/quick.html">Project Listing</a></li>
+<li><a href="/indexes/releases.html">Releases</a></li>
+<li><a href="/indexes/category.html">by Category</a></li>
+<li><a href="/indexes/language.html">by Language</a></li>
+<li><a href="/indexes/pmc.html">by PMC</a></li>
+<li><a href="/indexes/standards.html">by Standard</a></li>
+</ul>
+</li>
+<li><a href="/feeds.html">Feeds</a></li>
+<li>
+<a href="/doap.html">DOAP Files</a><ul>
+<li>Guidelines</li>
+<li><a href="/create.html">Create a DOAP File</a></li>
+<li><a href="/doapfaq.html">DOAP File FAQ</a></li>
+<li><a href="/categories.html">Categories</a></li>
+<li><a href="/languages.html">Programming Languages</a></li>
+<li><a href="/pmcs.html">PMC</a></li>
+</ul>
+</li>
+<li>
+<a href="/docs/index.html">Documentation</a><ul>
+<li><a href="/docs/dependancies.html">Dependencies</a></li>
+<li><a href="/docs/pmc.html">PMC Data</a></li>
+<li><a href="/docs/standards.html">Standards</a></li>
+</ul>
+</li>
+<li><a href="/references.html">References &amp; Thanks</a></li>
+</ul></td>
+<td width="80%" valign="top" class="body">
+<h2>General DOAP Guidelines</h2>
+<div>
+<div class="section">
+<h3>Formatting</h3>
+        
+<ul>
+<li>rdf:resource should be used when listing URLs. 
+  <pre>i.e. &lt;doap:homepage rdf:resource="http://foo.apache.org/" /&gt;</pre> is the correct form to use.</li>
+<li>the doap:Project element may be embedded in other styles of feed, e.g. within an Atom feed. When included in such a way it should still follow all guidelines, even if this means duplicating information.</li>
+<li>Dates should be formatted as 'YYYY-MM-DD'. Numbers should be padded with '0' to match the formatting.
+<pre>e.g. Jan 1st 2001 should be written as '2001-01-01'</pre>
+</li>
+<li>all URLs should be fully qualified, including the protocol.
+  <pre>i.e. http://foo.bar.com/file.html</pre>
+</li>
+</ul>
+
+      </div>
+<div class="section">
+<h3>Naming</h3>
+        
+<ul><li>projects should include the 'Apache' prefix when listing their project name.
+  <pre>i.e. 'Apache HTTPD' instead of 'HTTPD'.</pre>
+</li></ul>
+
+      </div>
+<div class="section">
+<h3>Categorisation</h3>
+        
+<ul>
+<li>programming languages should be given as capitals unless their well known name is mixed case.
+  <pre>e.g. Java, SVG, Tcl, Perl, etc</pre>
+<br>
+A full list of programming langauges we accept is available <a href="languages.html">here</a>
+</li>
+<li>all releases should have a "product" name (added using a doap:name element) included in the doap:Version element.<pre>
+  i.e.
+    "&lt;doap:Version&gt;
+      &lt;doap:name&gt;Blah&lt;/doap:name&gt;..."
+</pre>
+</li>
+<li>The categories that a project should be recorded as being within are recorded as rdf:resource using the following format<pre>
+ http://projects.apache.org/category/&lt;category&gt;
+  e.g. &lt;doap:category rdf:resource="http://projects.apache.org/category/mail" /&gt;</pre>
+<br>A list of the categories is available <a href="categories.html">here</a>
+</li>
+<li>the shortdesc element is used for providing a brief description on index pages and should be included.</li>
+</ul>
+      </div>
+<div class="section">
+<h3>PMC descriptors</h3>
+        
+<ul>
+<li>PMC descriptor files must always have the extension '.rdf', and must be listed in the file <br>
+<code><a href="https://svn.apache.org/repos/asf/comdev/projects.apache.org/data/committees.xml">https://svn.apache.org/repos/asf/comdev/projects.apache.org/data/committees.xml</a></code>
+</li>
+<li>PMCs can be referenced as an rdf:resource that points at http://&lt;pmc&gt;.apache.org/.  e.g. <br>
+<code>&lt;asfext:pmc rdf:resource="http://httpd.apache.org/" /&gt;</code>. <br>
+  In this case, the PMC descriptor file must be called <code>&lt;pmc&gt;.rdf</code> and must be
+  stored in the directory: <br>
+  <code>https://svn.apache.org/repos/asf/comdev/projects.apache.org/data/committees/</code>
+  </li>
+<li>PMCs descriptors can also be stored anywhere else (e.g. on the TLP website or in SVN), in which case they
+must be referenced using the full URL, for example  <br>
+<code>&lt;asfext:pmc rdf:resource="http://tlp.apache.org/pmc/tlp.rdf" /&gt;</code>
+</li>
+</ul>
+      </div>
+</div>
+</td>
+</tr></table></div>
+<div id="footerSection">
+<p>Copyright 1999-2016, The Apache Software Foundation</p>
+<p>Licensed under the 
+    <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>.</p>
+<p>Generated Wed, 02 Mar 2016 09:31:19 GMT</p>
+</div>
+</body>
+</html>

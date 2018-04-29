@@ -1,0 +1,16 @@
+Checklist for adding a new TLP, i.e. a new committee with at least one project:
+
+1. add the committee:
+* create the committee RDF file in data/committees/ (copy _template.rdf and edit it)
+* link to the RDF file in data/committees.xml
+* update https://svn.apache.org/repos/asf/infrastructure/site-tools/trunk/projects/xdocs/create.xml
+
+2. add projects managed by the committee:
+* create the project DOAP somewhere in the project SVN or Git space
+* add the DOAP location to data/projects.xml
+
+Data is not immediately reflected in http://projects.apache.org/: it will be processed daily at 2 AM UTC
+
+Notice:
+* the listing on http://apache.org/ is not populated via DOAP files: use the CMS to edit
+  http://www.apache.org/index.html

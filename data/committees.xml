@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<!--
+    Current PMC (committee) descriptor files
+    ========================================
+
+    This list should agree with the files in the directory committees/
+    Note that PMC descriptors can alternatively be stored elsewhere;
+    in that case they must have the extension '.rdf' and all project DOAP files
+    must refer to the full URL of the PMC descriptor in the 'rdf:resource' attribute
+    of the 'asfext:pmc' tag.
+
+    This file should only contain references to active PMCs (including Attic)
+    Retired PMCs descriptors can be moved to committees-retired/
+
+    Note that project DOAPs are listed in the projects.xml file in this directory.
+    There may be several DOAPs for a single PMC (committee)
+-->
+<list>
+  <!-- was in projects-old https://svn.apache.org/repos/asf/infrastructure/site-tools/trunk/projects/pmc_list.xml -->
+  <location>committees/accumulo.rdf</location>
+  <location>committees/activemq.rdf</location>
+  <location>committees/airavata.rdf</location>
+  <location>committees/allura.rdf</location>
+  <location>committees/ambari.rdf</location>
+  <location>committees/ant.rdf</location>
+  <location>committees/any23.rdf</location>
+  <location>committees/apex.rdf</location>
+  <location>committees/apr.rdf</location>
+  <location>committees/archiva.rdf</location>
+  <location>committees/aries.rdf</location>
+  <location>committees/arrow.rdf</location>
+  <location>committees/asterixdb.rdf</location>
+  <location>committees/attic.rdf</location>
+  <location>committees/atlas.rdf</location>
+  <location>committees/aurora.rdf</location>
+  <location>committees/avro.rdf</location>
+  <location>committees/axis.rdf</location>
+  <location>committees/bahir.rdf</location>
+  <location>committees/beam.rdf</location>
+  <!-- Retired <location>committees-retired/beehive.rdf</location> -->
+  <location>committees/bigtop.rdf</location>
+  <location>committees/bloodhound.rdf</location>
+  <location>committees/bookkeeper.rdf</location>
+  <location>committees/brooklyn.rdf</location>
+  <location>committees/buildr.rdf</location>
+  <location>committees/bval.rdf</location>
+  <location>committees/calcite.rdf</location>
+  <location>committees/camel.rdf</location>
+  <location>committees/carbondata.rdf</location>
+  <location>committees/cassandra.rdf</location>
+  <location>committees/cayenne.rdf</location>
+  <location>committees/celix.rdf</location>
+  <location>committees/chemistry.rdf</location>
+  <location>committees/chukwa.rdf</location>
+  <location>committees/clerezza.rdf</location>
+  <!-- Retired location>committees-retired/click.rdf</location -->
+  <location>committees/climate.rdf</location>
+  <location>committees/cloudstack.rdf</location>
+  <location>committees/cocoon.rdf</location>
+  <location>committees/comdev.rdf</location>
+  <location>committees/commons.rdf</location>
+  <!-- Retired location>committees/continuum.rdf</location -->
+  <location>committees/cordova.rdf</location>
+  <location>committees/couchdb.rdf</location>
+  <location>committees/creadur.rdf</location>
+  <location>committees/crunch.rdf</location>
+  <location>committees/ctakes.rdf</location>
+  <location>committees/curator.rdf</location>
+  <location>committees/cxf.rdf</location>
+  <location>committees/datafu.rdf</location>
+  <location>committees/db.rdf</location>
+  <!-- Retired <location>committees-retired/deltacloud.rdf</location-->
+  <location>committees/deltaspike.rdf</location>
+  <!-- Retired <location>committees-retired/devicemap.rdf</location> -->
+  <!-- Retired <location>committees-retired/directmemory.rdf</location-->
+  <location>committees/directory.rdf</location>
+  <location>committees/drat.rdf</location>
+  <location>committees/drill.rdf</location>
+  <location>committees/eagle.rdf</location>
+  <location>committees/empire-db.rdf</location>
+  <!-- Retired <location>http://svn.apache.org/repos/asf/etch/site/trunk/infra/doap_Etch_PMC.rdf</location> -->
+  <location>committees/falcon.rdf</location>
+  <location>committees/felix.rdf</location>
+  <location>committees/fineract.rdf</location>
+  <location>http://flex.apache.org/pmc_Flex.rdf</location>
+  <location>committees/flink.rdf</location>
+  <location>committees/flume.rdf</location>
+  <location>committees/fluo.rdf</location>
+  <location>committees/forrest.rdf</location>
+  <location>committees/freemarker.rdf</location>
+  <location>committees/geode.rdf</location>
+  <location>committees/geronimo.rdf</location>
+  <location>committees/giraph.rdf</location>
+  <location>committees/gora.rdf</location>
+  <location>committees/groovy.rdf</location>
+  <location>committees/guacamole.rdf</location>
+  <location>committees/gump.rdf</location>
+  <location>committees/hadoop.rdf</location>
+  <!-- Retired <location>committees-retired/harmony.rdf</location> -->
+  <location>committees/hama.rdf</location>
+  <location>committees/hbase.rdf</location>
+  <location>committees/helix.rdf</location>
+  <location>committees/hive.rdf</location>
+  <!-- Retired <location>committees-retired/hivemind.rdf</location> -->
+  <location>committees/httpcomponents.rdf</location>
+  <location>committees/httpd.rdf</location>
+  <!-- Retired <location>committees-retired/ibatis.rdf</location> -->
+  <location>committees/ignite.rdf</location>
+  <location>committees/impala.rdf</location>
+  <location>committees/incubator.rdf</location>
+  <location>committees/isis.rdf</location>
+  <location>committees/jackrabbit.rdf</location>
+  <!-- Retired <location>http://svn.apache.org/repos/asf/jakarta/site/jakarta.rdf</location> -->
+  <location>committees/james.rdf</location>
+  <location>committees/jclouds.rdf</location>
+  <location>committees/jena.rdf</location>
+  <location>committees/johnzon.rdf</location>
+  <location>committees/jmeter.rdf</location>
+  <location>committees/jspwiki.rdf</location>
+  <location>committees/juddi.rdf</location>
+  <location>committees/juneau.rdf</location>
+  <location>committees/kafka.rdf</location>
+  <location>committees/karaf.rdf</location>
+  <location>committees/kibble.rdf</location>
+  <location>committees/knox.rdf</location>
+  <location>committees/kudu.rdf</location>
+  <location>committees/kylin.rdf</location>
+  <location>committees/labs.rdf</location>
+  <location>committees/lens.rdf</location>
+  <!-- Retired <location>committees-retired/lenya.rdf</location> -->
+  <location>committees/libcloud.rdf</location>
+  <location>committees/logging.rdf</location>
+  <location>committees/lucene.rdf</location>
+  <location>committees/lucenenet.rdf</location>
+  <location>committees/lucy.rdf</location>
+  <location>committees/madlib.rdf</location>
+  <location>committees/mahout.rdf</location>
+  <location>committees/manifoldcf.rdf</location>
+  <location>committees/marmotta.rdf</location>
+  <location>committees/maven.rdf</location>
+  <location>committees/mesos.rdf</location>
+  <location>committees/metamodel.rdf</location>
+  <location>committees/metron.rdf</location>
+  <location>committees/mina.rdf</location>
+  <location>committees/mnemonic.rdf</location>
+  <!-- Retired location>committees/mrunit.rdf</location-->
+  <location>committees/myfaces.rdf</location>
+  <location>committees/mynewt.rdf</location>
+  <location>committees/nifi.rdf</location>
+  <location>committees/nutch.rdf</location>
+  <location>committees/ode.rdf</location>
+  <location>http://ofbiz.apache.org/pmc/ofbiz.rdf</location>
+  <location>committees/olingo.rdf</location>
+  <!-- Retired location>committees/oltu.rdf</location-->
+  <location>committees/oodt.rdf</location>
+  <location>committees/oozie.rdf</location>
+  <location>committees/openjpa.rdf</location>
+  <location>committees/openmeetings.rdf</location>
+  <location>committees/opennlp.rdf</location>
+  <location>committees/openoffice.rdf</location>
+  <location>committees/openwebbeans.rdf</location>
+  <location>committees/orc.rdf</location>
+  <location>committees/parquet.rdf</location>
+  <location>committees/pdfbox.rdf</location>
+  <location>committees/perl.rdf</location>
+  <location>committees/phoenix.rdf</location>
+  <location>committees/pig.rdf</location>
+  <location>committees/pivot.rdf</location>
+  <location>committees/poi.rdf</location>
+  <location>committees/polygene.rdf</location>
+  <location>committees/portals.rdf</location>
+  <location>committees/predictionio.rdf</location>
+  <location>committees/qpid.rdf</location>
+  <location>committees/ranger.rdf</location>
+  <location>committees/reef.rdf</location>
+  <location>committees/river.rdf</location>
+  <location>committees/rocketmq.rdf</location>
+  <location>committees/roller.rdf</location>
+  <location>committees/royale.rdf</location>
+  <location>committees/samza.rdf</location>
+  <location>committees/santuario.rdf</location>
+  <location>committees/sentry.rdf</location>
+  <location>committees/serf.rdf</location>
+  <location>committees/servicemix.rdf</location>
+  <!-- Retired <location>committees-retired/shale.rdf</location> -->
+  <!-- Retired <location>committees-retired/shindig.rdf</location> -->
+  <location>committees/shiro.rdf</location>
+  <location>committees/sis.rdf</location>
+  <location>committees/sling.rdf</location>
+  <location>committees/spamassassin.rdf</location>
+  <location>committees/spark.rdf</location>
+  <location>committees/sqoop.rdf</location>
+  <location>committees/stanbol.rdf</location>
+  <location>committees/steve.rdf</location>
+  <location>committees/storm.rdf</location>
+  <!-- Retired <location>committees/stratos.rdf</location> -->
+  <location>committees/streams.rdf</location>
+  <location>committees/struts.rdf</location>
+  <location>committees/subversion.rdf</location>
+  <location>committees/synapse.rdf</location>
+  <location>committees/syncope.rdf</location>
+  <location>committees/systemml.rdf</location>
+  <location>committees/tajo.rdf</location>
+  <location>committees/tapestry.rdf</location>
+  <location>committees/tcl.rdf</location>
+  <location>http://tez.apache.org/pmc/tez.rdf</location>
+  <location>committees/thrift.rdf</location>
+  <location>committees/tika.rdf</location>
+  <location>committees/tiles.rdf</location>
+  <location>committees/tinkerpop.rdf</location>
+  <location>committees/tomcat.rdf</location>
+  <location>committees/tomee.rdf</location>
+  <location>committees/trafficserver.rdf</location>
+  <location>committees/trafodion.rdf</location>
+  <location>committees/turbine.rdf</location>
+  <location>committees/twill.rdf</location>
+  <!-- Retired location>committees/tuscany.rdf</location -->
+  <location>committees/uima.rdf</location>
+  <location>committees/usergrid.rdf</location>
+  <location>committees/vcl.rdf</location>
+  <location>committees/velocity.rdf</location>
+  <location>committees/vxquery.rdf</location>
+  <location>committees/webservices.rdf</location>
+  <location>committees/whimsy.rdf</location>
+  <!-- Retired <location>committees-retired/whirr.rdf</location> -->
+  <location>committees/wicket.rdf</location>
+  <location>committees/wink.rdf</location>
+  <!-- Retired <location>committees/wookie.rdf</location> -->
+  <location>committees/xalan.rdf</location>
+  <location>committees/xerces.rdf</location>
+  <!-- Retired <location>committees-retired/xml.rdf</location> -->
+  <!-- Retired <location>committees-retired/xmlbeans.rdf</location> -->
+  <location>committees/xmlgraphics.rdf</location>
+  <location>committees/yetus.rdf</location>
+  <location>committees/zeppelin.rdf</location>
+  <location>committees/zookeeper.rdf</location>
+</list>

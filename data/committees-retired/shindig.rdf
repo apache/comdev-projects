@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<rdf:RDF xml:lang="en"
+         xmlns="http://usefulinc.com/ns/doap#" 
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+         xmlns:asfext="http://projects.apache.org/ns/asfext#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <asfext:pmc rdf:about="shindig">
+    <asfext:name>Apache Shindig</asfext:name>
+    <foaf:homepage rdf:resource="http://shindig.apache.org/"/>
+    <asfext:charter>
+        Apache Shindig software is
+        an OpenSocial container and helps you to start hosting OpenSocial apps quickly
+        by providing the code to render gadgets, proxy requests, and handle REST and RPC requests.
+    </asfext:charter>
+  </asfext:pmc>
+</rdf:RDF>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  =======================================================================
+
+   Copyright (c) 2006 The Apache Software Foundation.  
+   All rights reserved.
+
+  =======================================================================
+-->
+<rdf:RDF xml:lang="en"
+         xmlns:doap="http://usefulinc.com/ns/doap#" 
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+         xmlns:asfext="http://projects.apache.org/ns/asfext#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <asfext:pmc rdf:about="harmony">
+    <asfext:name>Apache Harmony</asfext:name>
+    <foaf:homepage rdf:resource="http://harmony.apache.org/"/>
+    <asfext:charter> The aim of the project is to produce a large and
+    healthy community of those interested in runtime platforms tasked
+    with creation of a compatible, independent implementation of the
+    Java SE 5 JDK under the Apache License v2 and a community-developed
+    modular runtime (VM and class library) architecture.</asfext:charter>
+    <asfext:chair>
+      <foaf:Person>
+        <foaf:name>Geir Magnusson Jr.</foaf:name>
+      </foaf:Person>
+    </asfext:chair>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Nathan Beyer</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Tim Ellison</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Mark Hindess</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>George Harley</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Mikhail Loenko</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Stepan Mishura</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Weldon Washburn</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+    <asfext:member>
+      <foaf:Person>
+        <foaf:name>Paulex Yang</foaf:name>
+      </foaf:Person>
+    </asfext:member>
+  </asfext:pmc>
+</rdf:RDF>
