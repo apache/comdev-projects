@@ -34,7 +34,7 @@ URL_TIMEOUT = 60.0 # timeout for URL requests (may need tweaking)
 PROJECTS_DIR = '../../site/json/projects'
 
 projectsList = "../../data/projects.xml";
-PROJECTS_SVN = 'https://svn.apache.org/repos/asf/comdev/projects.apache.org/data/projects.xml'
+PROJECTS_SVN = 'https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects.xml'
 
 save = True;
 if os.path.exists("parseprojects-failures.xml"):

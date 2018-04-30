@@ -97,7 +97,7 @@ for loc in xmldoc.getElementsByTagName('location') :
             rdf = urllib.request.urlopen(url).read()
         else:
             rdf = open("../../data/%s" % url, 'r', encoding='utf-8').read()
-            url = "https://svn.apache.org/repos/asf/comdev/projects.apache.org/data/%s" % url
+            url = "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/%s" % url
         rdfxml = ET.fromstring(rdf)
         rdfdata = rdfxml[0]
         expected = '{http://projects.apache.org/ns/asfext#}pmc'
