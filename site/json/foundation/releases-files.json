@@ -101,8 +101,8 @@
 ]
 },
 "ambari": {
-"apache-ambari-2.6.1": [
-"ambari/ambari-2.6.1/apache-ambari-2.6.1-src.tar.gz"
+"apache-ambari-2.6.2": [
+"ambari/ambari-2.6.2/apache-ambari-2.6.2-src.tar.gz"
 ]
 },
 "ant": {
@@ -2146,9 +2146,13 @@
 "felix/org.apache.felix.bundlerepository-2.0.10-source-release.tar.gz",
 "felix/org.apache.felix.bundlerepository-2.0.10-source-release.zip"
 ],
-"org.apache.felix.configadmin-1.8.16": [
-"felix/org.apache.felix.configadmin-1.8.16-source-release.tar.gz",
-"felix/org.apache.felix.configadmin-1.8.16-source-release.zip"
+"org.apache.felix.configadmin-1.9.0": [
+"felix/org.apache.felix.configadmin-1.9.0-source-release.tar.gz",
+"felix/org.apache.felix.configadmin-1.9.0-source-release.zip"
+],
+"org.apache.felix.configurator-1.0.0": [
+"felix/org.apache.felix.configurator-1.0.0-source-release.tar.gz",
+"felix/org.apache.felix.configurator-1.0.0-source-release.zip"
 ],
 "org.apache.felix.connect-0.1.0": [
 "felix/org.apache.felix.connect-0.1.0-source-release.tar.gz",
@@ -2204,21 +2208,21 @@
 "felix/org.apache.felix.http.api-3.0.0-source-release.tar.gz",
 "felix/org.apache.felix.http.api-3.0.0-source-release.zip"
 ],
-"org.apache.felix.http.base-3.0.18": [
-"felix/org.apache.felix.http.base-3.0.18-source-release.tar.gz",
-"felix/org.apache.felix.http.base-3.0.18-source-release.zip"
+"org.apache.felix.http.base-4.0.0": [
+"felix/org.apache.felix.http.base-4.0.0-source-release.tar.gz",
+"felix/org.apache.felix.http.base-4.0.0-source-release.zip"
 ],
-"org.apache.felix.http.bridge-3.0.18": [
-"felix/org.apache.felix.http.bridge-3.0.18-source-release.tar.gz",
-"felix/org.apache.felix.http.bridge-3.0.18-source-release.zip"
+"org.apache.felix.http.bridge-4.0.0": [
+"felix/org.apache.felix.http.bridge-4.0.0-source-release.tar.gz",
+"felix/org.apache.felix.http.bridge-4.0.0-source-release.zip"
 ],
 "org.apache.felix.http.bundle-3.0.0": [
 "felix/org.apache.felix.http.bundle-3.0.0-source-release.tar.gz",
 "felix/org.apache.felix.http.bundle-3.0.0-source-release.zip"
 ],
-"org.apache.felix.http.jetty-3.4.8": [
-"felix/org.apache.felix.http.jetty-3.4.8-source-release.tar.gz",
-"felix/org.apache.felix.http.jetty-3.4.8-source-release.zip"
+"org.apache.felix.http.jetty-4.0.0": [
+"felix/org.apache.felix.http.jetty-4.0.0-source-release.tar.gz",
+"felix/org.apache.felix.http.jetty-4.0.0-source-release.zip"
 ],
 "org.apache.felix.http.proxy-3.0.2": [
 "felix/org.apache.felix.http.proxy-3.0.2-source-release.tar.gz",
@@ -2235,9 +2239,9 @@
 "felix/org.apache.felix.http.sslfilter-1.2.4-source-release.tar.gz",
 "felix/org.apache.felix.http.sslfilter-1.2.4-source-release.zip"
 ],
-"org.apache.felix.http.whiteboard-3.0.0": [
-"felix/org.apache.felix.http.whiteboard-3.0.0-source-release.tar.gz",
-"felix/org.apache.felix.http.whiteboard-3.0.0-source-release.zip"
+"org.apache.felix.http.whiteboard-4.0.0": [
+"felix/org.apache.felix.http.whiteboard-4.0.0-source-release.tar.gz",
+"felix/org.apache.felix.http.whiteboard-4.0.0-source-release.zip"
 ],
 "org.apache.felix.httplite.complete-0.1.4": [
 "felix/org.apache.felix.httplite.complete-0.1.4-source-release.tar.gz",
@@ -2345,9 +2349,9 @@
 "felix/org.apache.felix.resolver-1.16.0-source-release.tar.gz",
 "felix/org.apache.felix.resolver-1.16.0-source-release.zip"
 ],
-"org.apache.felix.scr-2.0.14": [
-"felix/org.apache.felix.scr-2.0.14-source-release.tar.gz",
-"felix/org.apache.felix.scr-2.0.14-source-release.zip"
+"org.apache.felix.scr-2.1.0": [
+"felix/org.apache.felix.scr-2.1.0-source-release.tar.gz",
+"felix/org.apache.felix.scr-2.1.0-source-release.zip"
 ],
 "org.apache.felix.scr.annotations-1.12.0": [
 "felix/org.apache.felix.scr.annotations-1.12.0-source-release.tar.gz",
@@ -2761,17 +2765,20 @@
 ]
 },
 "hbase": {
+"RELEASENOTES.md": [
+"hbase/2.0.0/RELEASENOTES.md"
+],
 "hbase-1.2.6": [
 "hbase/1.2.6/hbase-1.2.6-src.tar.gz"
 ],
 "hbase-1.3.2": [
 "hbase/1.3.2/hbase-1.3.2-src.tar.gz"
 ],
-"hbase-1.4.3": [
-"hbase/1.4.3/hbase-1.4.3-src.tar.gz"
+"hbase-1.4.4": [
+"hbase/1.4.4/hbase-1.4.4-src.tar.gz"
 ],
-"hbase-2.0.0-beta-2": [
-"hbase/2.0.0-beta-2/hbase-2.0.0-beta-2-src.tar.gz"
+"hbase-2.0.0": [
+"hbase/2.0.0/hbase-2.0.0-src.tar.gz"
 ],
 "hbase-thirdparty-1.0.1": [
 "hbase/hbase-thirdparty-1.0.1/hbase-thirdparty-1.0.1-src.tar.gz"
@@ -2798,6 +2805,9 @@
 ],
 "helix-0.8.0": [
 "helix/0.8.0/src/helix-0.8.0-src.zip"
+],
+"helix-0.8.1": [
+"helix/0.8.1/src/helix-0.8.1-src.zip"
 ]
 },
 "hive": {
@@ -2822,6 +2832,9 @@
 ],
 "hive-storage-2.5.0": [
 "hive/hive-storage-2.5.0/hive-storage-2.5.0.tar.gz"
+],
+"hive-storage-2.6.0": [
+"hive/hive-storage-2.6.0/hive-storage-2.6.0.tar.gz"
 ]
 },
 "httpcomponents": {
@@ -2928,9 +2941,6 @@
 ]
 },
 "impala": {
-"apache-impala-2.11.0": [
-"impala/2.11.0/apache-impala-2.11.0.tar.gz"
-],
 "apache-impala-2.12.0": [
 "impala/2.12.0/apache-impala-2.12.0.tar.gz"
 ]
@@ -4320,8 +4330,8 @@
 "maven-resolver-1.1.1": [
 "maven/resolver/maven-resolver-1.1.1-source-release.zip"
 ],
-"maven-resources-plugin-3.0.2": [
-"maven/plugins/maven-resources-plugin-3.0.2-source-release.zip"
+"maven-resources-plugin-3.1.0": [
+"maven/plugins/maven-resources-plugin-3.1.0-source-release.zip"
 ],
 "maven-runtime-1.0-alpha-3": [
 "maven/shared/maven-runtime-1.0-alpha-3-source-release.zip"
@@ -7482,29 +7492,29 @@
 "xerces/p/source/XML-Xerces-2.7.0-0.tar.gz",
 "xerces/p/XML-Xerces-2.7.0-0.tar.gz"
 ],
-"Xerces-J-src.2.11.0": [
-"xerces/j/Xerces-J-src.2.11.0.tar.gz",
-"xerces/j/Xerces-J-src.2.11.0.zip",
-"xerces/j/source/Xerces-J-src.2.11.0.tar.gz",
-"xerces/j/source/Xerces-J-src.2.11.0.zip"
+"Xerces-J-src.2.12.0": [
+"xerces/j/Xerces-J-src.2.12.0.tar.gz",
+"xerces/j/Xerces-J-src.2.12.0.zip",
+"xerces/j/source/Xerces-J-src.2.12.0.tar.gz",
+"xerces/j/source/Xerces-J-src.2.12.0.zip"
 ],
-"Xerces-J-src.2.11.0-xml-schema-1.1-beta": [
-"xerces/j/Xerces-J-src.2.11.0-xml-schema-1.1-beta.tar.gz",
-"xerces/j/Xerces-J-src.2.11.0-xml-schema-1.1-beta.zip",
-"xerces/j/source/Xerces-J-src.2.11.0-xml-schema-1.1-beta.tar.gz",
-"xerces/j/source/Xerces-J-src.2.11.0-xml-schema-1.1-beta.zip"
+"Xerces-J-src.2.12.0-xml-schema-1.1": [
+"xerces/j/Xerces-J-src.2.12.0-xml-schema-1.1.tar.gz",
+"xerces/j/Xerces-J-src.2.12.0-xml-schema-1.1.zip",
+"xerces/j/source/Xerces-J-src.2.12.0-xml-schema-1.1.tar.gz",
+"xerces/j/source/Xerces-J-src.2.12.0-xml-schema-1.1.zip"
 ],
-"Xerces-J-tools.2.11.0": [
-"xerces/j/Xerces-J-tools.2.11.0.tar.gz",
-"xerces/j/Xerces-J-tools.2.11.0.zip",
-"xerces/j/source/Xerces-J-tools.2.11.0.tar.gz",
-"xerces/j/source/Xerces-J-tools.2.11.0.zip"
+"Xerces-J-tools.2.12.0": [
+"xerces/j/Xerces-J-tools.2.12.0.tar.gz",
+"xerces/j/Xerces-J-tools.2.12.0.zip",
+"xerces/j/source/Xerces-J-tools.2.12.0.tar.gz",
+"xerces/j/source/Xerces-J-tools.2.12.0.zip"
 ],
-"Xerces-J-tools.2.11.0-xml-schema-1.1-beta": [
-"xerces/j/Xerces-J-tools.2.11.0-xml-schema-1.1-beta.tar.gz",
-"xerces/j/Xerces-J-tools.2.11.0-xml-schema-1.1-beta.zip",
-"xerces/j/source/Xerces-J-tools.2.11.0-xml-schema-1.1-beta.tar.gz",
-"xerces/j/source/Xerces-J-tools.2.11.0-xml-schema-1.1-beta.zip"
+"Xerces-J-tools.2.12.0-xml-schema-1.1": [
+"xerces/j/Xerces-J-tools.2.12.0-xml-schema-1.1.tar.gz",
+"xerces/j/Xerces-J-tools.2.12.0-xml-schema-1.1.zip",
+"xerces/j/source/Xerces-J-tools.2.12.0-xml-schema-1.1.tar.gz",
+"xerces/j/source/Xerces-J-tools.2.12.0-xml-schema-1.1.zip"
 ],
 "xerces-c-3.2.1": [
 "xerces/c/3/sources/xerces-c-3.2.1.tar.bz2",
