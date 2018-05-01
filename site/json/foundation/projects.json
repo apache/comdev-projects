@@ -1,107 +1,4 @@
 {
-"Unknown-brooklyn": {
-"bug-database": "https://issues.apache.org/jira/browse/BROOKLYN/",
-"category": "cloud",
-"created": "2016-02-23",
-"description": "Brooklyn is about deploying and managing applications: composing a full stack for an application;\n        deploying to cloud and non-cloud targets; using monitoring tools to collect key health/performance metrics;\n        responding to situations such as a failing node; and adding or removing capacity to match demand.",
-"doap": "https://git-wip-us.apache.org/repos/asf?p=brooklyn.git;a=blob_plain;f=doap_Brooklyn.rdf;hb=HEAD",
-"download-page": "http://brooklyn.apache.org/download/index.html",
-"homepage": "http://brooklyn.apache.org",
-"license": "http://spdx.org/licenses/Apache-2.0",
-"mailing-list": "http://brooklyn.apache.org/community/mailing-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:aledsage@apache.org",
-"name": "Aled Sage"
-},
-{
-"mbox": "mailto:andreaturli@apache.org",
-"name": "Andrea Turli"
-},
-{
-"mbox": "mailto:cipi@apache.org",
-"name": "Ciprian Ciubotariu"
-},
-{
-"mbox": "mailto:drigodwin@apache.org",
-"name": "Duncan Godwin"
-},
-{
-"mbox": "mailto:geomacy@apache.org",
-"name": "Geoff Macartney"
-},
-{
-"mbox": "mailto:grkvlt@apache.org",
-"name": "Andrew Kennedy"
-},
-{
-"mbox": "mailto:hadrian@apache.org",
-"name": "Hadrian Zbarcea"
-},
-{
-"mbox": "mailto:heneveld@apache.org",
-"name": "Alex Heneveld"
-},
-{
-"mbox": "mailto:jbonofre@apache.org",
-"name": "Jean-Baptiste Onofré"
-},
-{
-"mbox": "mailto:m4rkmckenna@apache.org",
-"name": "Mark McKenna"
-},
-{
-"mbox": "mailto:olamy@apache.org",
-"name": "Olivier Lamy"
-},
-{
-"mbox": "mailto:richard@apache.org",
-"name": "Richard Downer"
-},
-{
-"mbox": "mailto:sjcorbett@apache.org",
-"name": "Sam Corbett"
-},
-{
-"mbox": "mailto:svet@apache.org",
-"name": "Svetoslav Neykov"
-}
-],
-"name": "Apache Brooklyn",
-"pmc": "Unknown",
-"programming-language": "Java",
-"release": [
-{
-"created": "2017-05-18",
-"name": "0.11.0",
-"revision": "0.11.0"
-},
-{
-"created": "2016-12-26",
-"name": "0.10.0",
-"revision": "0.10.0"
-},
-{
-"created": "2016-04-18",
-"name": "0.9.0",
-"revision": "0.9.0"
-},
-{
-"created": "2015-09-14",
-"name": "0.8.0-incubating",
-"revision": "0.8.0-incubating"
-},
-{
-"created": "2015-07-15",
-"name": "0.7.0-incubating",
-"revision": "0.7.0-incubating"
-}
-],
-"repository": [
-"https://git-wip-us.apache.org/repos/asf/brooklyn.git"
-],
-"shortdesc": "Apache Brooklyn is a framework for modeling, monitoring, and managing applications through autonomic blueprints."
-},
 "accumulo": {
 "bug-database": "https://github.com/apache/accumulo/issues",
 "category": "big-data",
@@ -2608,6 +2505,109 @@
 "https://git-wip-us.apache.org/repos/asf/bookkeeper.git"
 ],
 "shortdesc": "A reliable replicated log service"
+},
+"brooklyn": {
+"bug-database": "https://issues.apache.org/jira/browse/BROOKLYN/",
+"category": "cloud",
+"created": "2016-02-23",
+"description": "Brooklyn is about deploying and managing applications: composing a full stack for an application;\n        deploying to cloud and non-cloud targets; using monitoring tools to collect key health/performance metrics;\n        responding to situations such as a failing node; and adding or removing capacity to match demand.",
+"doap": "https://git-wip-us.apache.org/repos/asf?p=brooklyn.git;a=blob_plain;f=doap_Brooklyn.rdf;hb=HEAD",
+"download-page": "http://brooklyn.apache.org/download/index.html",
+"homepage": "http://brooklyn.apache.org",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "http://brooklyn.apache.org/community/mailing-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:aledsage@apache.org",
+"name": "Aled Sage"
+},
+{
+"mbox": "mailto:andreaturli@apache.org",
+"name": "Andrea Turli"
+},
+{
+"mbox": "mailto:cipi@apache.org",
+"name": "Ciprian Ciubotariu"
+},
+{
+"mbox": "mailto:drigodwin@apache.org",
+"name": "Duncan Godwin"
+},
+{
+"mbox": "mailto:geomacy@apache.org",
+"name": "Geoff Macartney"
+},
+{
+"mbox": "mailto:grkvlt@apache.org",
+"name": "Andrew Kennedy"
+},
+{
+"mbox": "mailto:hadrian@apache.org",
+"name": "Hadrian Zbarcea"
+},
+{
+"mbox": "mailto:heneveld@apache.org",
+"name": "Alex Heneveld"
+},
+{
+"mbox": "mailto:jbonofre@apache.org",
+"name": "Jean-Baptiste Onofré"
+},
+{
+"mbox": "mailto:m4rkmckenna@apache.org",
+"name": "Mark McKenna"
+},
+{
+"mbox": "mailto:olamy@apache.org",
+"name": "Olivier Lamy"
+},
+{
+"mbox": "mailto:richard@apache.org",
+"name": "Richard Downer"
+},
+{
+"mbox": "mailto:sjcorbett@apache.org",
+"name": "Sam Corbett"
+},
+{
+"mbox": "mailto:svet@apache.org",
+"name": "Svetoslav Neykov"
+}
+],
+"name": "Apache Brooklyn",
+"pmc": "brooklyn",
+"programming-language": "Java",
+"release": [
+{
+"created": "2017-05-18",
+"name": "0.11.0",
+"revision": "0.11.0"
+},
+{
+"created": "2016-12-26",
+"name": "0.10.0",
+"revision": "0.10.0"
+},
+{
+"created": "2016-04-18",
+"name": "0.9.0",
+"revision": "0.9.0"
+},
+{
+"created": "2015-09-14",
+"name": "0.8.0-incubating",
+"revision": "0.8.0-incubating"
+},
+{
+"created": "2015-07-15",
+"name": "0.7.0-incubating",
+"revision": "0.7.0-incubating"
+}
+],
+"repository": [
+"https://git-wip-us.apache.org/repos/asf/brooklyn.git"
+],
+"shortdesc": "Apache Brooklyn is a framework for modeling, monitoring, and managing applications through autonomic blueprints."
 },
 "buildr": {
 "bug-database": "http://issues.apache.org/jira/browse/Buildr",
@@ -11808,8 +11808,8 @@
 }
 ],
 "repository": [
-"https://github.com/apache/opennlp.git",
-"http://svn.apache.org/repos/asf/opennlp"
+"http://svn.apache.org/repos/asf/opennlp",
+"https://github.com/apache/opennlp.git"
 ],
 "shortdesc": "Apache OpenNLP library software is a machine learning based toolkit for the processing of natural language text.."
 },

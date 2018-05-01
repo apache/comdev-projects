@@ -37,7 +37,7 @@
 "allura-1.8.1": "2018-03-14"
 },
 "ambari": {
-"apache-ambari-2.6.1": "2017-12-17"
+"apache-ambari-2.6.2": "2018-04-30"
 },
 "ant": {
 "apache-ant-1.10.3": "2018-03-27",
@@ -698,7 +698,8 @@
 "maven-junit4osgi-plugin-1.0.0": "2012-12-28",
 "maven-scr-plugin-1.26.0": "2018-01-15",
 "org.apache.felix.bundlerepository-2.0.10": "2017-04-24",
-"org.apache.felix.configadmin-1.8.16": "2017-08-07",
+"org.apache.felix.configadmin-1.9.0": "2018-04-30",
+"org.apache.felix.configurator-1.0.0": "2018-04-30",
 "org.apache.felix.connect-0.1.0": "2015-05-28",
 "org.apache.felix.converter-1.0.0": "2018-04-26",
 "org.apache.felix.coordinator-1.0.2": "2015-11-16",
@@ -713,15 +714,15 @@
 "org.apache.felix.gogo.jline-1.0.12": "2018-04-12",
 "org.apache.felix.gogo.runtime-1.0.12": "2018-04-12",
 "org.apache.felix.http.api-3.0.0": "2015-08-10",
-"org.apache.felix.http.base-3.0.18": "2017-01-06",
-"org.apache.felix.http.bridge-3.0.18": "2017-01-06",
+"org.apache.felix.http.base-4.0.0": "2018-04-30",
+"org.apache.felix.http.bridge-4.0.0": "2018-04-30",
 "org.apache.felix.http.bundle-3.0.0": "2015-02-02",
-"org.apache.felix.http.jetty-3.4.8": "2017-12-11",
+"org.apache.felix.http.jetty-4.0.0": "2018-04-30",
 "org.apache.felix.http.proxy-3.0.2": "2016-04-01",
 "org.apache.felix.http.samples.bridge-2.3.2": "2014-11-11",
 "org.apache.felix.http.servlet-api-1.1.2": "2015-08-10",
 "org.apache.felix.http.sslfilter-1.2.4": "2017-12-01",
-"org.apache.felix.http.whiteboard-3.0.0": "2015-08-10",
+"org.apache.felix.http.whiteboard-4.0.0": "2018-04-30",
 "org.apache.felix.httplite.complete-0.1.4": "2012-12-28",
 "org.apache.felix.httplite.core-0.1.4": "2012-12-28",
 "org.apache.felix.inventory-1.0.6": "2017-12-11",
@@ -749,7 +750,7 @@
 "org.apache.felix.metatype-1.1.6": "2017-10-04",
 "org.apache.felix.prefs-1.1.0": "2016-10-15",
 "org.apache.felix.resolver-1.16.0": "2018-03-13",
-"org.apache.felix.scr-2.0.14": "2017-12-18",
+"org.apache.felix.scr-2.1.0": "2018-04-30",
 "org.apache.felix.scr.annotations-1.12.0": "2016-10-18",
 "org.apache.felix.scr.ant-1.18.0": "2018-01-15",
 "org.apache.felix.scr.bnd-1.9.0": "2018-01-15",
@@ -884,10 +885,11 @@
 "hama-dist-0.7.1": "2016-03-14"
 },
 "hbase": {
+"RELEASENOTES.md": "2018-04-30",
 "hbase-1.2.6": "2017-06-20",
 "hbase-1.3.2": "2018-03-20",
-"hbase-1.4.3": "2018-03-22",
-"hbase-2.0.0-beta-2": "2018-03-02",
+"hbase-1.4.4": "2018-04-25",
+"hbase-2.0.0": "2018-04-23",
 "hbase-thirdparty-1.0.1": "2017-08-28",
 "hbase-thirdparty-2.1.0": "2018-03-19"
 },
@@ -897,7 +899,8 @@
 "helix-0.6.8": "2017-05-16",
 "helix-0.6.9": "2017-10-09",
 "helix-0.7.1": "2014-08-29",
-"helix-0.8.0": "2018-01-30"
+"helix-0.8.0": "2018-01-30",
+"helix-0.8.1": "2018-04-25"
 },
 "hive": {
 "apache-hive-1.2.2": "2017-06-20",
@@ -906,7 +909,8 @@
 "apache-hive-2.3.3": "2018-04-02",
 "hive-storage-2.3.1": "2017-06-20",
 "hive-storage-2.4.0": "2017-07-18",
-"hive-storage-2.5.0": "2018-03-27"
+"hive-storage-2.5.0": "2018-03-27",
+"hive-storage-2.6.0": "2018-04-30"
 },
 "httpcomponents": {
 "commons-httpclient-3.1": "2017-06-20",
@@ -941,7 +945,6 @@
 "apache-ignite-2.4.0": "2018-03-05"
 },
 "impala": {
-"apache-impala-2.11.0": "2017-12-28",
 "apache-impala-2.12.0": "2018-04-24"
 },
 "incubator-airflow": {
@@ -1426,7 +1429,7 @@
 "maven-repository-builder-1.0": "2014-11-15",
 "maven-repository-plugin-2.4": "2015-02-22",
 "maven-resolver-1.1.1": "2018-02-19",
-"maven-resources-plugin-3.0.2": "2016-12-10",
+"maven-resources-plugin-3.1.0": "2018-04-30",
 "maven-runtime-1.0-alpha-3": "2013-07-07",
 "maven-scm-1.9.5": "2016-07-05",
 "maven-scm-publish-plugin-3.0.0": "2018-01-29",
@@ -2466,10 +2469,10 @@
 },
 "xerces": {
 "XML-Xerces-2.7.0-0": "2017-06-20",
-"Xerces-J-src.2.11.0": "2017-06-20",
-"Xerces-J-src.2.11.0-xml-schema-1.1-beta": "2017-06-20",
-"Xerces-J-tools.2.11.0": "2017-06-20",
-"Xerces-J-tools.2.11.0-xml-schema-1.1-beta": "2017-06-20",
+"Xerces-J-src.2.12.0": "2018-04-30",
+"Xerces-J-src.2.12.0-xml-schema-1.1": "2018-04-30",
+"Xerces-J-tools.2.12.0": "2018-04-30",
+"Xerces-J-tools.2.12.0-xml-schema-1.1": "2018-04-30",
 "xerces-c-3.2.1": "2018-03-01",
 "xml-commons-external-1.2.06": "2017-06-20",
 "xml-commons-external-1.3.05": "2017-06-20",
