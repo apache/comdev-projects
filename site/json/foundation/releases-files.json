@@ -574,6 +574,9 @@
 ],
 "samples-1.0.0": [
 "aries/samples-1.0.0-source-release.zip"
+],
+"tx-control-1.0.0": [
+"aries/tx-control-1.0.0-source-release.zip"
 ]
 },
 "arrow": {
@@ -1922,6 +1925,14 @@
 "db/derby/db-derby-10.14.1.0/db-derby-10.14.1.0-lib.zip",
 "db/derby/db-derby-10.14.1.0/db-derby-10.14.1.0-src.tar.gz",
 "db/derby/db-derby-10.14.1.0/db-derby-10.14.1.0-src.zip"
+],
+"db-derby-10.14.2.0": [
+"db/derby/db-derby-10.14.2.0/db-derby-10.14.2.0-lib-debug.tar.gz",
+"db/derby/db-derby-10.14.2.0/db-derby-10.14.2.0-lib-debug.zip",
+"db/derby/db-derby-10.14.2.0/db-derby-10.14.2.0-lib.tar.gz",
+"db/derby/db-derby-10.14.2.0/db-derby-10.14.2.0-lib.zip",
+"db/derby/db-derby-10.14.2.0/db-derby-10.14.2.0-src.tar.gz",
+"db/derby/db-derby-10.14.2.0/db-derby-10.14.2.0-src.zip"
 ],
 "jdo-3.1": [
 "db/jdo/3.1/jdo-3.1-source-release.zip",
@@ -3956,9 +3967,6 @@
 ]
 },
 "madlib": {
-"apache-madlib-1.13": [
-"madlib/1.13/apache-madlib-1.13-src.tar.gz"
-],
 "apache-madlib-1.14": [
 "madlib/1.14/apache-madlib-1.14-src.tar.gz"
 ]
@@ -4668,9 +4676,9 @@
 "myfaces/source/myfaces-core-assembly-2.2.12-src.tar.gz",
 "myfaces/source/myfaces-core-assembly-2.2.12-src.zip"
 ],
-"myfaces-core-2.3.0": [
-"myfaces/source/myfaces-core-assembly-2.3.0-src.tar.gz",
-"myfaces/source/myfaces-core-assembly-2.3.0-src.zip"
+"myfaces-core-2.3.1": [
+"myfaces/source/myfaces-core-assembly-2.3.1-src.tar.gz",
+"myfaces/source/myfaces-core-assembly-2.3.1-src.zip"
 ],
 "myfaces-extcdi-1.0.6": [
 "myfaces/source/myfaces-extcdi-parent-1.0.6-source-release.zip"
@@ -5318,17 +5326,14 @@
 "apache-qpid-broker-j-7.0.3": [
 "qpid/broker-j/7.0.3/apache-qpid-broker-j-7.0.3-src.tar.gz"
 ],
-"apache-qpid-jms-0.30.0": [
-"qpid/jms/0.30.0/apache-qpid-jms-0.30.0-src.tar.gz"
-],
 "apache-qpid-jms-0.31.0": [
 "qpid/jms/0.31.0/apache-qpid-jms-0.31.0-src.tar.gz"
 ],
+"apache-qpid-jms-0.32.0": [
+"qpid/jms/0.32.0/apache-qpid-jms-0.32.0-src.tar.gz"
+],
 "apache-qpid-jms-amqp-0-x-6.3.0": [
 "qpid/jms-amqp-0-x/6.3.0/apache-qpid-jms-amqp-0-x-6.3.0-src.tar.gz"
-],
-"apache-qpid-proton-j-0.27.0": [
-"qpid/proton-j/0.27.0/apache-qpid-proton-j-0.27.0-src.tar.gz"
 ],
 "apache-qpid-proton-j-0.27.1": [
 "qpid/proton-j/0.27.1/apache-qpid-proton-j-0.27.1-src.tar.gz"
@@ -5341,9 +5346,6 @@
 ],
 "qpid-java-6.1.6": [
 "qpid/java/6.1.6/qpid-java-6.1.6.tar.gz"
-],
-"qpid-proton-0.21.0": [
-"qpid/proton/0.21.0/qpid-proton-0.21.0.tar.gz"
 ],
 "qpid-proton-0.22.0": [
 "qpid/proton/0.22.0/qpid-proton-0.22.0.tar.gz"
@@ -6876,6 +6878,19 @@
 "tomcat/tomcat-8/v8.5.30/src/apache-tomcat-8.5.30-src.tar.gz",
 "tomcat/tomcat-8/v8.5.30/src/apache-tomcat-8.5.30-src.zip"
 ],
+"apache-tomcat-8.5.31": [
+"tomcat/tomcat-8/v8.5.31/bin/embed/apache-tomcat-8.5.31-embed.tar.gz",
+"tomcat/tomcat-8/v8.5.31/bin/embed/apache-tomcat-8.5.31-embed.zip",
+"tomcat/tomcat-8/v8.5.31/bin/apache-tomcat-8.5.31-deployer.tar.gz",
+"tomcat/tomcat-8/v8.5.31/bin/apache-tomcat-8.5.31-deployer.zip",
+"tomcat/tomcat-8/v8.5.31/bin/apache-tomcat-8.5.31-fulldocs.tar.gz",
+"tomcat/tomcat-8/v8.5.31/bin/apache-tomcat-8.5.31-windows-x64.zip",
+"tomcat/tomcat-8/v8.5.31/bin/apache-tomcat-8.5.31.exe",
+"tomcat/tomcat-8/v8.5.31/bin/apache-tomcat-8.5.31.tar.gz",
+"tomcat/tomcat-8/v8.5.31/bin/apache-tomcat-8.5.31.zip",
+"tomcat/tomcat-8/v8.5.31/src/apache-tomcat-8.5.31-src.tar.gz",
+"tomcat/tomcat-8/v8.5.31/src/apache-tomcat-8.5.31-src.zip"
+],
 "apache-tomcat-9.0.7": [
 "tomcat/tomcat-9/v9.0.7/bin/embed/apache-tomcat-9.0.7-embed.tar.gz",
 "tomcat/tomcat-9/v9.0.7/bin/embed/apache-tomcat-9.0.7-embed.zip",
@@ -6888,6 +6903,19 @@
 "tomcat/tomcat-9/v9.0.7/bin/apache-tomcat-9.0.7.zip",
 "tomcat/tomcat-9/v9.0.7/src/apache-tomcat-9.0.7-src.tar.gz",
 "tomcat/tomcat-9/v9.0.7/src/apache-tomcat-9.0.7-src.zip"
+],
+"apache-tomcat-9.0.8": [
+"tomcat/tomcat-9/v9.0.8/bin/embed/apache-tomcat-9.0.8-embed.tar.gz",
+"tomcat/tomcat-9/v9.0.8/bin/embed/apache-tomcat-9.0.8-embed.zip",
+"tomcat/tomcat-9/v9.0.8/bin/apache-tomcat-9.0.8-deployer.tar.gz",
+"tomcat/tomcat-9/v9.0.8/bin/apache-tomcat-9.0.8-deployer.zip",
+"tomcat/tomcat-9/v9.0.8/bin/apache-tomcat-9.0.8-fulldocs.tar.gz",
+"tomcat/tomcat-9/v9.0.8/bin/apache-tomcat-9.0.8-windows-x64.zip",
+"tomcat/tomcat-9/v9.0.8/bin/apache-tomcat-9.0.8.exe",
+"tomcat/tomcat-9/v9.0.8/bin/apache-tomcat-9.0.8.tar.gz",
+"tomcat/tomcat-9/v9.0.8/bin/apache-tomcat-9.0.8.zip",
+"tomcat/tomcat-9/v9.0.8/src/apache-tomcat-9.0.8-src.tar.gz",
+"tomcat/tomcat-9/v9.0.8/src/apache-tomcat-9.0.8-src.zip"
 ],
 "taglibs-standard-1.2.5": [
 "tomcat/taglibs/taglibs-standard-1.2.5/taglibs-standard-1.2.5-source-release.zip"
