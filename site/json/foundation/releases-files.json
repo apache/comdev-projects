@@ -4229,8 +4229,8 @@
 "maven-ear-plugin-3.0.0": [
 "maven/plugins/maven-ear-plugin-3.0.0-source-release.zip"
 ],
-"maven-ejb-plugin-3.0.0": [
-"maven/plugins/maven-ejb-plugin-3.0.0-source-release.zip"
+"maven-ejb-plugin-3.0.1": [
+"maven/plugins/maven-ejb-plugin-3.0.1-source-release.zip"
 ],
 "maven-filtering-3.1.1": [
 "maven/shared/maven-filtering-3.1.1-source-release.zip"
@@ -4734,6 +4734,9 @@
 ],
 "myfaces-tobago-4.2.0": [
 "myfaces/source/myfaces-tobago-4.2.0-source-release.zip"
+],
+"myfaces-tobago-4.2.1": [
+"myfaces/source/myfaces-tobago-4.2.1-source-release.zip"
 ],
 "portlet-bridge-1.0.0": [
 "myfaces/source/portlet-bridge-1.0.0-src-all.tar.gz",
@@ -5795,6 +5798,18 @@
 "org.apache.sling.extensions.webconsolesecurityprovider-1.2.0": [
 "sling/org.apache.sling.extensions.webconsolesecurityprovider-1.2.0-source-release.zip"
 ],
+"org.apache.sling.feature-0.1.0": [
+"sling/org.apache.sling.feature-0.1.0-source-release.zip"
+],
+"org.apache.sling.feature.analyser-0.1.0": [
+"sling/org.apache.sling.feature.analyser-0.1.0-source-release.zip"
+],
+"org.apache.sling.feature.io-0.1.0": [
+"sling/org.apache.sling.feature.io-0.1.0-source-release.zip"
+],
+"org.apache.sling.feature.modelconverter-0.1.0": [
+"sling/org.apache.sling.feature.modelconverter-0.1.0-source-release.zip"
+],
 "org.apache.sling.featureflags-1.2.2": [
 "sling/org.apache.sling.featureflags-1.2.2-source-release.zip"
 ],
@@ -5840,8 +5855,8 @@
 "org.apache.sling.i18n-2.5.14": [
 "sling/org.apache.sling.i18n-2.5.14-source-release.zip"
 ],
-"org.apache.sling.ide.p2update-1.2.0": [
-"sling/org.apache.sling.ide.p2update-1.2.0.zip"
+"org.apache.sling.ide.p2update-1.2.2": [
+"sling/org.apache.sling.ide.p2update-1.2.2.zip"
 ],
 "org.apache.sling.installer.console-1.0.2": [
 "sling/org.apache.sling.installer.console-1.0.2-source-release.zip"
@@ -6841,19 +6856,6 @@
 "tomcat/tomcat-7/v7.0.86/src/apache-tomcat-7.0.86-src.tar.gz",
 "tomcat/tomcat-7/v7.0.86/src/apache-tomcat-7.0.86-src.zip"
 ],
-"apache-tomcat-8.0.51": [
-"tomcat/tomcat-8/v8.0.51/bin/embed/apache-tomcat-8.0.51-embed.tar.gz",
-"tomcat/tomcat-8/v8.0.51/bin/embed/apache-tomcat-8.0.51-embed.zip",
-"tomcat/tomcat-8/v8.0.51/bin/apache-tomcat-8.0.51-deployer.tar.gz",
-"tomcat/tomcat-8/v8.0.51/bin/apache-tomcat-8.0.51-deployer.zip",
-"tomcat/tomcat-8/v8.0.51/bin/apache-tomcat-8.0.51-fulldocs.tar.gz",
-"tomcat/tomcat-8/v8.0.51/bin/apache-tomcat-8.0.51-windows-x64.zip",
-"tomcat/tomcat-8/v8.0.51/bin/apache-tomcat-8.0.51.exe",
-"tomcat/tomcat-8/v8.0.51/bin/apache-tomcat-8.0.51.tar.gz",
-"tomcat/tomcat-8/v8.0.51/bin/apache-tomcat-8.0.51.zip",
-"tomcat/tomcat-8/v8.0.51/src/apache-tomcat-8.0.51-src.tar.gz",
-"tomcat/tomcat-8/v8.0.51/src/apache-tomcat-8.0.51-src.zip"
-],
 "apache-tomcat-8.0.52": [
 "tomcat/tomcat-8/v8.0.52/bin/embed/apache-tomcat-8.0.52-embed.tar.gz",
 "tomcat/tomcat-8/v8.0.52/bin/embed/apache-tomcat-8.0.52-embed.zip",
@@ -6866,19 +6868,6 @@
 "tomcat/tomcat-8/v8.0.52/bin/apache-tomcat-8.0.52.zip",
 "tomcat/tomcat-8/v8.0.52/src/apache-tomcat-8.0.52-src.tar.gz",
 "tomcat/tomcat-8/v8.0.52/src/apache-tomcat-8.0.52-src.zip"
-],
-"apache-tomcat-8.5.30": [
-"tomcat/tomcat-8/v8.5.30/bin/embed/apache-tomcat-8.5.30-embed.tar.gz",
-"tomcat/tomcat-8/v8.5.30/bin/embed/apache-tomcat-8.5.30-embed.zip",
-"tomcat/tomcat-8/v8.5.30/bin/apache-tomcat-8.5.30-deployer.tar.gz",
-"tomcat/tomcat-8/v8.5.30/bin/apache-tomcat-8.5.30-deployer.zip",
-"tomcat/tomcat-8/v8.5.30/bin/apache-tomcat-8.5.30-fulldocs.tar.gz",
-"tomcat/tomcat-8/v8.5.30/bin/apache-tomcat-8.5.30-windows-x64.zip",
-"tomcat/tomcat-8/v8.5.30/bin/apache-tomcat-8.5.30.exe",
-"tomcat/tomcat-8/v8.5.30/bin/apache-tomcat-8.5.30.tar.gz",
-"tomcat/tomcat-8/v8.5.30/bin/apache-tomcat-8.5.30.zip",
-"tomcat/tomcat-8/v8.5.30/src/apache-tomcat-8.5.30-src.tar.gz",
-"tomcat/tomcat-8/v8.5.30/src/apache-tomcat-8.5.30-src.zip"
 ],
 "apache-tomcat-8.5.31": [
 "tomcat/tomcat-8/v8.5.31/bin/embed/apache-tomcat-8.5.31-embed.tar.gz",
