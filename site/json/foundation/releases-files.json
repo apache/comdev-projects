@@ -65,17 +65,9 @@
 "activemq/activemq-cpp/3.9.4/activemq-cpp-library-3.9.4-src.tar.gz",
 "activemq/activemq-cpp/3.9.4/activemq-cpp-library-3.9.4-src.zip"
 ],
-"apache-artemis-1.5.5": [
-"activemq/activemq-artemis/1.5.5/apache-artemis-1.5.5-source-release.tar.gz",
-"activemq/activemq-artemis/1.5.5/apache-artemis-1.5.5-source-release.zip"
-],
 "apache-artemis-1.5.6": [
 "activemq/activemq-artemis/1.5.6/apache-artemis-1.5.6-source-release.tar.gz",
 "activemq/activemq-artemis/1.5.6/apache-artemis-1.5.6-source-release.zip"
-],
-"apache-artemis-2.5.0": [
-"activemq/activemq-artemis/2.5.0/apache-artemis-2.5.0-source-release.tar.gz",
-"activemq/activemq-artemis/2.5.0/apache-artemis-2.5.0-source-release.zip"
 ],
 "apache-artemis-2.6.0": [
 "activemq/activemq-artemis/2.6.0/apache-artemis-2.6.0-source-release.tar.gz",
@@ -1950,12 +1942,12 @@
 ]
 },
 "deltaspike": {
-"deltaspike-1.8.1": [
-"deltaspike/1.8.1/deltaspike-1.8.1-source-release.zip"
+"deltaspike-1.8.2": [
+"deltaspike/1.8.2/deltaspike-1.8.2-source-release.zip"
 ],
-"distribution-full-1.8.1": [
-"deltaspike/1.8.1/distribution-full-1.8.1.tar.gz",
-"deltaspike/1.8.1/distribution-full-1.8.1.zip"
+"distribution-full-1.8.2": [
+"deltaspike/1.8.2/distribution-full-1.8.2.tar.gz",
+"deltaspike/1.8.2/distribution-full-1.8.2.zip"
 ]
 },
 "directory": {
@@ -2662,6 +2654,9 @@
 "apache-groovy-2.5.0-rc-2": [
 "groovy/2.5.0-rc-2/sources/apache-groovy-src-2.5.0-rc-2.zip"
 ],
+"apache-groovy-2.5.0-rc-3": [
+"groovy/2.5.0-rc-3/sources/apache-groovy-src-2.5.0-rc-3.zip"
+],
 "apache-groovy-2.6.0-alpha-3": [
 "groovy/2.6.0-alpha-3/sources/apache-groovy-src-2.6.0-alpha-3.zip"
 ],
@@ -2682,6 +2677,9 @@
 ],
 "apache-groovy-sdk-2.5.0-rc-2": [
 "groovy/2.5.0-rc-2/distribution/apache-groovy-sdk-2.5.0-rc-2.zip"
+],
+"apache-groovy-sdk-2.5.0-rc-3": [
+"groovy/2.5.0-rc-3/distribution/apache-groovy-sdk-2.5.0-rc-3.zip"
 ],
 "apache-groovy-sdk-2.6.0-alpha-3": [
 "groovy/2.6.0-alpha-3/distribution/apache-groovy-sdk-2.6.0-alpha-3.zip"
@@ -2830,7 +2828,7 @@
 "hive/stable-2/apache-hive-2.3.3-src.tar.gz"
 ],
 "apache-hive-3.0.0": [
-"hive/hive-3.0.0/apache-hive-3.0.0-src.tar"
+"hive/hive-3.0.0/apache-hive-3.0.0-src.tar.gz"
 ],
 "hive-storage-2.4.0": [
 "hive/hive-storage-2.4.0/hive-storage-2.4.0.tar.gz"
@@ -5654,8 +5652,8 @@
 "org.apache.sling.auth.core-1.4.2": [
 "sling/org.apache.sling.auth.core-1.4.2-source-release.zip"
 ],
-"org.apache.sling.auth.form-1.0.8": [
-"sling/org.apache.sling.auth.form-1.0.8-source-release.zip"
+"org.apache.sling.auth.form-1.0.10": [
+"sling/org.apache.sling.auth.form-1.0.10-source-release.zip"
 ],
 "org.apache.sling.auth.openid-1.0.4": [
 "sling/org.apache.sling.auth.openid-1.0.4-source-release.zip"
@@ -6135,8 +6133,8 @@
 "org.apache.sling.scripting.jsp-api-1.0.0": [
 "sling/org.apache.sling.scripting.jsp-api-1.0.0-source-release.zip"
 ],
-"org.apache.sling.scripting.jsp.taglib-2.2.6": [
-"sling/org.apache.sling.scripting.jsp.taglib-2.2.6-source-release.zip"
+"org.apache.sling.scripting.jsp.taglib-2.3.0": [
+"sling/org.apache.sling.scripting.jsp.taglib-2.3.0-source-release.zip"
 ],
 "org.apache.sling.scripting.jst-2.0.6": [
 "sling/org.apache.sling.scripting.jst-2.0.6-source-release.zip"
@@ -6165,8 +6163,8 @@
 "org.apache.sling.servlets.get-2.1.30": [
 "sling/org.apache.sling.servlets.get-2.1.30-source-release.zip"
 ],
-"org.apache.sling.servlets.post-2.3.24": [
-"sling/org.apache.sling.servlets.post-2.3.24-source-release.zip"
+"org.apache.sling.servlets.post-2.3.26": [
+"sling/org.apache.sling.servlets.post-2.3.26-source-release.zip"
 ],
 "org.apache.sling.servlets.resolver-2.4.22": [
 "sling/org.apache.sling.servlets.resolver-2.4.22-source-release.zip"
@@ -6178,8 +6176,11 @@
 "sling/org.apache.sling.starter-10-source-release.zip",
 "sling/org.apache.sling.starter-10-webapp.war"
 ],
-"org.apache.sling.starter.startup-1.0.4": [
-"sling/org.apache.sling.starter.startup-1.0.4-source-release.zip"
+"org.apache.sling.starter.content-1.0.0": [
+"sling/org.apache.sling.starter.content-1.0.0-source-release.zip"
+],
+"org.apache.sling.starter.startup-1.0.6": [
+"sling/org.apache.sling.starter.startup-1.0.6-source-release.zip"
 ],
 "org.apache.sling.superimposing-0.2.0": [
 "sling/org.apache.sling.superimposing-0.2.0-source-release.zip"
