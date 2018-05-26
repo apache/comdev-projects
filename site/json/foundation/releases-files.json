@@ -2051,8 +2051,8 @@
 "kerby-all-1.0.1": [
 "directory/kerby/dist/1.0.1/kerby-all-1.0.1-source-release.zip"
 ],
-"kerby-all-1.1.0": [
-"directory/kerby/dist/1.1.0/kerby-all-1.1.0-source-release.zip"
+"kerby-all-1.1.1": [
+"directory/kerby/dist/1.1.1/kerby-all-1.1.1-source-release.zip"
 ],
 "mavibot-1.0.0-M8": [
 "directory/mavibot/dist/1.0.0-M8/mavibot-1.0.0-M8-src.tar.bz2",
@@ -2520,6 +2520,9 @@
 ],
 "flink-1.4.2": [
 "flink/flink-1.4.2/flink-1.4.2-src.tgz"
+],
+"flink-1.5.0": [
+"flink/flink-1.5.0/flink-1.5.0-src.tgz"
 ],
 "flink-shaded-2.0": [
 "flink/flink-shaded-2.0/flink-shaded-2.0-src.tgz"
@@ -3069,9 +3072,6 @@
 ]
 },
 "incubator-mxnet": {
-"apache-mxnet-1.1.0-incubating": [
-"incubator/mxnet/1.1.0/apache-mxnet-src-1.1.0-incubating.tar.gz"
-],
 "apache-mxnet-1.2.0-incubating": [
 "incubator/mxnet/1.2.0/apache-mxnet-src-1.2.0-incubating.tar.gz"
 ]
@@ -3443,8 +3443,8 @@
 "jackrabbit-oak-1.8.3": [
 "jackrabbit/oak/1.8.3/jackrabbit-oak-1.8.3-src.zip"
 ],
-"jackrabbit-oak-1.9.1": [
-"jackrabbit/oak/1.9.1/jackrabbit-oak-1.9.1-src.zip"
+"jackrabbit-oak-1.9.2": [
+"jackrabbit/oak/1.9.2/jackrabbit-oak-1.9.2-src.zip"
 ],
 "jackrabbit-ocm-2.0.0": [
 "jackrabbit/ocm/2.0.0/jackrabbit-ocm-2.0.0-source-release.zip"
@@ -5001,6 +5001,12 @@
 "openmeetings/4.0.3/bin/apache-openmeetings-4.0.3.zip",
 "openmeetings/4.0.3/src/apache-openmeetings-4.0.3-src.tar.gz",
 "openmeetings/4.0.3/src/apache-openmeetings-4.0.3-src.zip"
+],
+"apache-openmeetings-4.0.4": [
+"openmeetings/4.0.4/bin/apache-openmeetings-4.0.4.tar.gz",
+"openmeetings/4.0.4/bin/apache-openmeetings-4.0.4.zip",
+"openmeetings/4.0.4/src/apache-openmeetings-4.0.4-src.tar.gz",
+"openmeetings/4.0.4/src/apache-openmeetings-4.0.4-src.zip"
 ]
 },
 "opennlp": {
@@ -5050,14 +5056,11 @@
 ]
 },
 "orc": {
-"orc-1.3.4": [
-"orc/orc-1.3.4/orc-1.3.4.tar.gz"
-],
 "orc-1.4.4": [
 "orc/orc-1.4.4/orc-1.4.4.tar.gz"
 ],
-"orc-1.5.0": [
-"orc/orc-1.5.0/orc-1.5.0.tar.gz"
+"orc-1.5.1": [
+"orc/orc-1.5.1/orc-1.5.1.tar.gz"
 ]
 },
 "parquet": {
