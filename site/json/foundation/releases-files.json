@@ -1492,10 +1492,6 @@
 "commons/collections/source/commons-collections4-4.1-src.tar.gz",
 "commons/collections/source/commons-collections4-4.1-src.zip"
 ],
-"commons-compress-1.16.1": [
-"commons/compress/source/commons-compress-1.16.1-src.tar.gz",
-"commons/compress/source/commons-compress-1.16.1-src.zip"
-],
 "commons-compress-1.17": [
 "commons/compress/source/commons-compress-1.17-src.tar.gz",
 "commons/compress/source/commons-compress-1.17-src.zip"
@@ -2813,6 +2809,9 @@
 "apache-hive-3.0.0": [
 "hive/hive-3.0.0/apache-hive-3.0.0-src.tar.gz"
 ],
+"hive-metastore-3.0.0": [
+"hive/hive-standalone-metastore-3.0.0/hive-standalone-metastore-3.0.0-src.tar.gz"
+],
 "hive-storage-2.4.0": [
 "hive/hive-storage-2.4.0/hive-storage-2.4.0.tar.gz"
 ],
@@ -2976,6 +2975,11 @@
 ],
 "apache-daffodil-2.1.0.incubating-1.noarch": [
 "incubator/daffodil/2.1.0/bin/apache-daffodil-2.1.0.incubating-1.noarch.rpm"
+]
+},
+"incubator-dubbo": {
+"dubbo-incubating-2.6.2": [
+"incubator/dubbo/2.6.2/dubbo-incubating-2.6.2-source-release.zip"
 ]
 },
 "incubator-edgent": {
@@ -4909,6 +4913,9 @@
 "incubator-trafficcontrol": {
 "apache-trafficcontrol-2.1.0-incubating": [
 "incubator/trafficcontrol/2.1.0-incubating/apache-trafficcontrol-2.1.0-incubating.tar.gz"
+],
+"apache-trafficcontrol-2.2.0": [
+"incubator/trafficcontrol/2.2.0/apache-trafficcontrol-2.2.0.tar.gz"
 ]
 },
 "incubator-unomi": {
@@ -4953,9 +4960,9 @@
 "filevault-package-maven-plugin-1.0.1": [
 "jackrabbit/filevault-package-maven-plugin/1.0.1/filevault-package-maven-plugin-1.0.1-source-release.zip"
 ],
-"jackrabbit-2.10.7": [
-"jackrabbit/2.10.7/jackrabbit-2.10.7-src.zip",
-"jackrabbit/2.10.7/jackrabbit-webapp-2.10.7.war"
+"jackrabbit-2.10.8": [
+"jackrabbit/2.10.8/jackrabbit-2.10.8-src.zip",
+"jackrabbit/2.10.8/jackrabbit-webapp-2.10.8.war"
 ],
 "jackrabbit-2.12.9": [
 "jackrabbit/2.12.9/jackrabbit-2.12.9-src.zip",
@@ -5033,8 +5040,8 @@
 "jackrabbit-filevault-3.1.8": [
 "jackrabbit/filevault/3.1.8/jackrabbit-filevault-3.1.8-src.zip"
 ],
-"jackrabbit-jca-2.10.7": [
-"jackrabbit/2.10.7/jackrabbit-jca-2.10.7.rar"
+"jackrabbit-jca-2.10.8": [
+"jackrabbit/2.10.8/jackrabbit-jca-2.10.8.rar"
 ],
 "jackrabbit-jca-2.12.9": [
 "jackrabbit/2.12.9/jackrabbit-jca-2.12.9.rar"
@@ -5468,6 +5475,9 @@
 ],
 "apache-kudu-1.7.0": [
 "kudu/1.7.0/apache-kudu-1.7.0.tar.gz"
+],
+"apache-kudu-1.7.1": [
+"kudu/1.7.1/apache-kudu-1.7.1.tar.gz"
 ]
 },
 "kylin": {
@@ -6053,8 +6063,8 @@
 "surefire-2.21.0": [
 "maven/surefire/surefire-2.21.0-source-release.zip"
 ],
-"wagon-3.0.0": [
-"maven/wagon/wagon-3.0.0-source-release.zip"
+"wagon-3.1.0": [
+"maven/wagon/wagon-3.1.0-source-release.zip"
 ]
 },
 "mesos": {
@@ -6200,6 +6210,9 @@
 "metron": {
 "apache-metron-0.4.2": [
 "metron/0.4.2/apache-metron-0.4.2.tar.gz"
+],
+"apache-metron-0.5.0": [
+"metron/0.5.0/apache-metron-0.5.0.tar.gz"
 ],
 "apache-metron-bro-plugin-kafka_0.1.0": [
 "metron/0.4.2/apache-metron-bro-plugin-kafka_0.1.0.tar.gz"
