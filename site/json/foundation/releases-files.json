@@ -1792,8 +1792,8 @@
 "cordova-plugin-wkwebview-engine-1.1.4": [
 "cordova/plugins/cordova-plugin-wkwebview-engine-1.1.4.tgz"
 ],
-"cordova-serve-2.0.0": [
-"cordova/tools/cordova-serve-2.0.0.tgz"
+"cordova-serve-2.0.1": [
+"cordova/tools/cordova-serve-2.0.1.tgz"
 ],
 "cordova-ubuntu-4.3.4": [
 "cordova/platforms/cordova-ubuntu-4.3.4.tgz"
@@ -5920,8 +5920,8 @@
 "maven-gpg-plugin-1.6": [
 "maven/plugins/maven-gpg-plugin-1.6-source-release.zip"
 ],
-"maven-help-plugin-3.0.1": [
-"maven/plugins/maven-help-plugin-3.0.1-source-release.zip"
+"maven-help-plugin-3.1.0": [
+"maven/plugins/maven-help-plugin-3.1.0-source-release.zip"
 ],
 "maven-indexer-6.0.0": [
 "maven/indexer/maven-indexer-6.0.0-source-release.zip"
@@ -6061,8 +6061,8 @@
 "maven-verifier-plugin-1.1": [
 "maven/plugins/maven-verifier-plugin-1.1-source-release.zip"
 ],
-"maven-war-plugin-3.2.1": [
-"maven/plugins/maven-war-plugin-3.2.1-source-release.zip"
+"maven-war-plugin-3.2.2": [
+"maven/plugins/maven-war-plugin-3.2.2-source-release.zip"
 ],
 "surefire-2.21.0": [
 "maven/surefire/surefire-2.21.0-source-release.zip"
@@ -6808,6 +6808,126 @@
 ]
 },
 "phoenix": {
+"APACHE_PHOENIX-4.14.0-cdh5.11.2.p0.3-el5.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.11.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.11.2.p0.3-el5.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.11.2.p0.3-el6.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.11.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.11.2.p0.3-el6.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.11.2.p0.3-el7.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.11.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.11.2.p0.3-el7.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.11.2.p0.3-jessie.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.11.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.11.2.p0.3-jessie.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.11.2.p0.3-precise.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.11.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.11.2.p0.3-precise.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.11.2.p0.3-sles11.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.11.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.11.2.p0.3-sles11.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.11.2.p0.3-sles12.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.11.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.11.2.p0.3-sles12.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.11.2.p0.3-trusty.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.11.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.11.2.p0.3-trusty.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.11.2.p0.3-wheezy.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.11.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.11.2.p0.3-wheezy.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.11.2.p0.3-xenial.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.11.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.11.2.p0.3-xenial.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.12.2.p0.3-el5.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.12.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.12.2.p0.3-el5.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.12.2.p0.3-el6.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.12.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.12.2.p0.3-el6.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.12.2.p0.3-el7.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.12.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.12.2.p0.3-el7.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.12.2.p0.3-jessie.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.12.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.12.2.p0.3-jessie.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.12.2.p0.3-precise.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.12.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.12.2.p0.3-precise.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.12.2.p0.3-sles11.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.12.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.12.2.p0.3-sles11.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.12.2.p0.3-sles12.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.12.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.12.2.p0.3-sles12.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.12.2.p0.3-trusty.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.12.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.12.2.p0.3-trusty.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.12.2.p0.3-wheezy.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.12.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.12.2.p0.3-wheezy.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.12.2.p0.3-xenial.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.12.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.12.2.p0.3-xenial.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.13.2.p0.3-el5.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.13.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.13.2.p0.3-el5.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.13.2.p0.3-el6.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.13.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.13.2.p0.3-el6.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.13.2.p0.3-el7.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.13.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.13.2.p0.3-el7.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.13.2.p0.3-jessie.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.13.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.13.2.p0.3-jessie.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.13.2.p0.3-precise.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.13.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.13.2.p0.3-precise.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.13.2.p0.3-sles11.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.13.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.13.2.p0.3-sles11.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.13.2.p0.3-sles12.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.13.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.13.2.p0.3-sles12.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.13.2.p0.3-trusty.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.13.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.13.2.p0.3-trusty.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.13.2.p0.3-wheezy.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.13.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.13.2.p0.3-wheezy.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.13.2.p0.3-xenial.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.13.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.13.2.p0.3-xenial.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.14.2.p0.3-el5.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.14.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.14.2.p0.3-el5.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.14.2.p0.3-el6.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.14.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.14.2.p0.3-el6.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.14.2.p0.3-el7.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.14.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.14.2.p0.3-el7.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.14.2.p0.3-jessie.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.14.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.14.2.p0.3-jessie.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.14.2.p0.3-precise.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.14.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.14.2.p0.3-precise.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.14.2.p0.3-sles11.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.14.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.14.2.p0.3-sles11.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.14.2.p0.3-sles12.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.14.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.14.2.p0.3-sles12.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.14.2.p0.3-trusty.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.14.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.14.2.p0.3-trusty.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.14.2.p0.3-wheezy.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.14.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.14.2.p0.3-wheezy.parcel"
+],
+"APACHE_PHOENIX-4.14.0-cdh5.14.2.p0.3-xenial.parcel": [
+"phoenix/apache-phoenix-4.14.0-cdh5.14.2/parcels/APACHE_PHOENIX-4.14.0-cdh5.14.2.p0.3-xenial.parcel"
+],
 "apache-phoenix-4.14.0-HBase-0.98": [
 "phoenix/apache-phoenix-4.14.0-HBase-0.98/src/apache-phoenix-4.14.0-HBase-0.98-src.tar.gz"
 ],
@@ -6822,6 +6942,15 @@
 ],
 "apache-phoenix-4.14.0-HBase-1.4": [
 "phoenix/apache-phoenix-4.14.0-HBase-1.4/src/apache-phoenix-4.14.0-HBase-1.4-src.tar.gz"
+],
+"apache-phoenix-4.14.0-cdh5.11.2": [
+"phoenix/apache-phoenix-4.14.0-cdh5.11.2/src/apache-phoenix-4.14.0-cdh5.11.2-src.tar.gz"
+],
+"apache-phoenix-4.14.0-cdh5.12.2": [
+"phoenix/apache-phoenix-4.14.0-cdh5.12.2/src/apache-phoenix-4.14.0-cdh5.12.2-src.tar.gz"
+],
+"apache-phoenix-4.14.0-cdh5.13.2": [
+"phoenix/apache-phoenix-4.14.0-cdh5.13.2/src/apache-phoenix-4.14.0-cdh5.13.2-src.tar.gz"
 ],
 "apache-phoenix-4.14.0-cdh5.14.2": [
 "phoenix/apache-phoenix-4.14.0-cdh5.14.2/src/apache-phoenix-4.14.0-cdh5.14.2-src.tar.gz"
@@ -7985,6 +8114,9 @@
 "SparkR_2.3.0": [
 "spark/spark-2.3.0/SparkR_2.3.0.tar.gz"
 ],
+"SparkR_2.3.1": [
+"spark/spark-2.3.1/SparkR_2.3.1.tar.gz"
+],
 "pyspark-2.1.2": [
 "spark/spark-2.1.2/pyspark-2.1.2.tar.gz"
 ],
@@ -7996,6 +8128,9 @@
 ],
 "pyspark-2.3.0": [
 "spark/spark-2.3.0/pyspark-2.3.0.tar.gz"
+],
+"pyspark-2.3.1": [
+"spark/spark-2.3.1/pyspark-2.3.1.tar.gz"
 ],
 "spark-1.6.3": [
 "spark/spark-1.6.3/spark-1.6.3.tgz"
@@ -8014,6 +8149,9 @@
 ],
 "spark-2.3.0": [
 "spark/spark-2.3.0/spark-2.3.0.tgz"
+],
+"spark-2.3.1": [
+"spark/spark-2.3.1/spark-2.3.1.tgz"
 ]
 },
 "sqoop": {
