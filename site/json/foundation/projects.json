@@ -10512,15 +10512,21 @@
 "programming-language": "Java",
 "release": [
 {
+"created": "2018-06-21",
+"file-release": "http://archive.apache.org/dist/maven/maven-3/3.5.4/source/apache-maven-3.5.4-src.tar.gz",
+"name": "Latest stable release",
+"revision": "3.5.4"
+},
+{
 "created": "2018-03-08",
 "file-release": "http://archive.apache.org/dist/maven/maven-3/3.5.3/source/apache-maven-3.5.3-src.tar.gz",
-"name": "Latest stable release",
+"name": "Apache Maven 3.5.3",
 "revision": "3.5.3"
 },
 {
 "created": "2017-10-24",
 "file-release": "http://archive.apache.org/dist/maven/maven-3/3.5.2/source/apache-maven-3.5.2-src.tar.gz",
-"name": "Apache Maven 3.5.3",
+"name": "Apache Maven 3.5.2",
 "revision": "3.5.2"
 },
 {
@@ -11818,8 +11824,8 @@
 }
 ],
 "repository": [
-"https://github.com/apache/opennlp.git",
-"http://svn.apache.org/repos/asf/opennlp"
+"http://svn.apache.org/repos/asf/opennlp",
+"https://github.com/apache/opennlp.git"
 ],
 "shortdesc": "Apache OpenNLP library software is a machine learning based toolkit for the processing of natural language text.."
 },
