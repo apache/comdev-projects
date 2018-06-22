@@ -1708,8 +1708,8 @@
 "cordova-ios-4.5.4": [
 "cordova/platforms/cordova-ios-4.5.4.tgz"
 ],
-"cordova-js-4.2.2": [
-"cordova/tools/cordova-js-4.2.2.tgz"
+"cordova-js-4.2.3": [
+"cordova/tools/cordova-js-4.2.3.tgz"
 ],
 "cordova-lib-8.0.0": [
 "cordova/tools/cordova-lib-8.0.0.tgz"
@@ -2934,11 +2934,6 @@
 ],
 "mod_ftp-0.9.6-beta-crlf": [
 "httpd/mod_ftp/mod_ftp-0.9.6-beta-crlf.zip"
-]
-},
-"ignite": {
-"apache-ignite-2.5.0": [
-"ignite/2.5.0/apache-ignite-2.5.0-src.zip"
 ]
 },
 "impala": {
@@ -4822,11 +4817,20 @@
 "apache-servicecomb-incubating-java-chassis-distribution-1.0.0-m1": [
 "incubator/servicecomb/incubator-servicecomb-java-chassis/1.0.0-m1/apache-servicecomb-incubating-java-chassis-distribution-1.0.0-m1-src.zip"
 ],
+"apache-servicecomb-incubating-java-chassis-distribution-1.0.0-m2": [
+"incubator/servicecomb/incubator-servicecomb-java-chassis/1.0.0-m2/apache-servicecomb-incubating-java-chassis-distribution-1.0.0-m2-src.zip"
+],
 "apache-servicecomb-incubating-saga-distribution-0.1.0": [
 "incubator/servicecomb/incubator-servicecomb-saga/0.1.0/apache-servicecomb-incubating-saga-distribution-0.1.0-src.zip"
 ],
+"apache-servicecomb-incubating-saga-distribution-0.2.0": [
+"incubator/servicecomb/incubator-servicecomb-saga/0.2.0/apache-servicecomb-incubating-saga-distribution-0.2.0-src.zip"
+],
 "apache-servicecomb-incubating-service-center-1.0.0-m1": [
 "incubator/servicecomb/incubator-servicecomb-service-center/1.0.0-m1/apache-servicecomb-incubating-service-center-1.0.0-m1-src.zip"
+],
+"apache-servicecomb-incubating-service-center-1.0.0-m2": [
+"incubator/servicecomb/incubator-servicecomb-service-center/1.0.0-m2/apache-servicecomb-incubating-service-center-1.0.0-m2-src.zip"
 ]
 },
 "incubator-singa": {
@@ -5834,6 +5838,10 @@
 "maven/maven-3/3.5.3/source/apache-maven-3.5.3-src.tar.gz",
 "maven/maven-3/3.5.3/source/apache-maven-3.5.3-src.zip"
 ],
+"apache-maven-3.5.4": [
+"maven/maven-3/3.5.4/source/apache-maven-3.5.4-src.tar.gz",
+"maven/maven-3/3.5.4/source/apache-maven-3.5.4-src.zip"
+],
 "apache-source-release-descriptor-1.0.6": [
 "maven/resources/apache-source-release-assembly-descriptor-1.0.6-source-release.zip"
 ],
@@ -6771,8 +6779,8 @@
 "pdfbox-1.8.14": [
 "pdfbox/1.8.14/pdfbox-1.8.14-src.zip"
 ],
-"pdfbox-2.0.9": [
-"pdfbox/2.0.9/pdfbox-2.0.9-src.zip"
+"pdfbox-2.0.10": [
+"pdfbox/2.0.10/pdfbox-2.0.10-src.zip"
 ]
 },
 "perl": {
@@ -7116,8 +7124,14 @@
 "pluto-3.0.0": [
 "portals/pluto/pluto-3.0.0-source-release.zip"
 ],
+"pluto-3.0.1": [
+"portals/pluto/pluto-3.0.1-source-release.zip"
+],
 "pluto-bundle-3.0.0": [
 "portals/pluto/pluto-bundle-3.0.0.zip"
+],
+"pluto-bundle-3.0.1": [
+"portals/pluto/pluto-bundle-3.0.1.zip"
 ],
 "portals-bridges-1.0.4": [
 "portals/bridges/portals-bridges-1.0.4-src.tar.bz2",
@@ -7638,17 +7652,17 @@
 "org.apache.sling.extensions.webconsolesecurityprovider-1.2.0": [
 "sling/org.apache.sling.extensions.webconsolesecurityprovider-1.2.0-source-release.zip"
 ],
-"org.apache.sling.feature-0.1.0": [
-"sling/org.apache.sling.feature-0.1.0-source-release.zip"
+"org.apache.sling.feature-0.1.2": [
+"sling/org.apache.sling.feature-0.1.2-source-release.zip"
 ],
-"org.apache.sling.feature.analyser-0.1.0": [
-"sling/org.apache.sling.feature.analyser-0.1.0-source-release.zip"
+"org.apache.sling.feature.analyser-0.1.2": [
+"sling/org.apache.sling.feature.analyser-0.1.2-source-release.zip"
 ],
-"org.apache.sling.feature.io-0.1.0": [
-"sling/org.apache.sling.feature.io-0.1.0-source-release.zip"
+"org.apache.sling.feature.io-0.1.2": [
+"sling/org.apache.sling.feature.io-0.1.2-source-release.zip"
 ],
-"org.apache.sling.feature.modelconverter-0.1.0": [
-"sling/org.apache.sling.feature.modelconverter-0.1.0-source-release.zip"
+"org.apache.sling.feature.modelconverter-0.1.2": [
+"sling/org.apache.sling.feature.modelconverter-0.1.2-source-release.zip"
 ],
 "org.apache.sling.featureflags-1.2.2": [
 "sling/org.apache.sling.featureflags-1.2.2-source-release.zip"
@@ -8113,8 +8127,8 @@
 "sling-slingstart-archetype-1.0.6": [
 "sling/sling-slingstart-archetype-1.0.6-source-release.zip"
 ],
-"slingstart-maven-plugin-1.7.16": [
-"sling/slingstart-maven-plugin-1.7.16-source-release.zip"
+"slingstart-maven-plugin-1.8.2": [
+"sling/slingstart-maven-plugin-1.8.2-source-release.zip"
 ]
 },
 "spamassassin": {
