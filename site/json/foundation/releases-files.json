@@ -69,13 +69,13 @@
 "activemq/activemq-artemis/1.5.6/apache-artemis-1.5.6-source-release.tar.gz",
 "activemq/activemq-artemis/1.5.6/apache-artemis-1.5.6-source-release.zip"
 ],
-"apache-artemis-2.6.0": [
-"activemq/activemq-artemis/2.6.0/apache-artemis-2.6.0-source-release.tar.gz",
-"activemq/activemq-artemis/2.6.0/apache-artemis-2.6.0-source-release.zip"
-],
 "apache-artemis-2.6.1": [
 "activemq/activemq-artemis/2.6.1/apache-artemis-2.6.1-source-release.tar.gz",
 "activemq/activemq-artemis/2.6.1/apache-artemis-2.6.1-source-release.zip"
+],
+"apache-artemis-2.6.2": [
+"activemq/activemq-artemis/2.6.2/apache-artemis-2.6.2-source-release.tar.gz",
+"activemq/activemq-artemis/2.6.2/apache-artemis-2.6.2-source-release.zip"
 ],
 "apollo-1.7.1": [
 "activemq/activemq-apollo/1.7.1/apollo-project-1.7.1-source-release.tar.gz",
@@ -104,10 +104,21 @@
 "ant/source/apache-ant-1.10.3-src.tar.xz",
 "ant/source/apache-ant-1.10.3-src.zip"
 ],
+"apache-ant-1.10.4": [
+"ant/source/apache-ant-1.10.4-src.tar.bz2",
+"ant/source/apache-ant-1.10.4-src.tar.gz",
+"ant/source/apache-ant-1.10.4-src.tar.xz",
+"ant/source/apache-ant-1.10.4-src.zip"
+],
 "apache-ant-1.9.11": [
 "ant/source/apache-ant-1.9.11-src.tar.bz2",
 "ant/source/apache-ant-1.9.11-src.tar.gz",
 "ant/source/apache-ant-1.9.11-src.zip"
+],
+"apache-ant-1.9.12": [
+"ant/source/apache-ant-1.9.12-src.tar.bz2",
+"ant/source/apache-ant-1.9.12-src.tar.gz",
+"ant/source/apache-ant-1.9.12-src.zip"
 ],
 "apache-ant-antunit-1.3": [
 "ant/antlibs/antunit/source/apache-ant-antunit-1.3-src.tar.bz2",
@@ -1875,11 +1886,23 @@
 "cxf/3.1.15/apache-cxf-3.1.15.tar.gz",
 "cxf/3.1.15/apache-cxf-3.1.15.zip"
 ],
+"apache-cxf-3.1.16": [
+"cxf/3.1.16/apache-cxf-3.1.16-src.tar.gz",
+"cxf/3.1.16/apache-cxf-3.1.16-src.zip",
+"cxf/3.1.16/apache-cxf-3.1.16.tar.gz",
+"cxf/3.1.16/apache-cxf-3.1.16.zip"
+],
 "apache-cxf-3.2.4": [
 "cxf/3.2.4/apache-cxf-3.2.4-src.tar.gz",
 "cxf/3.2.4/apache-cxf-3.2.4-src.zip",
 "cxf/3.2.4/apache-cxf-3.2.4.tar.gz",
 "cxf/3.2.4/apache-cxf-3.2.4.zip"
+],
+"apache-cxf-3.2.5": [
+"cxf/3.2.5/apache-cxf-3.2.5-src.tar.gz",
+"cxf/3.2.5/apache-cxf-3.2.5-src.zip",
+"cxf/3.2.5/apache-cxf-3.2.5.tar.gz",
+"cxf/3.2.5/apache-cxf-3.2.5.zip"
 ],
 "cxf-dosgi-main-2.3.0": [
 "cxf/dosgi/2.3.0/cxf-dosgi-main-2.3.0-source-release.zip"
@@ -2934,6 +2957,11 @@
 ],
 "mod_ftp-0.9.6-beta-crlf": [
 "httpd/mod_ftp/mod_ftp-0.9.6-beta-crlf.zip"
+]
+},
+"ignite": {
+"apache-ignite-2.5.0": [
+"ignite/2.5.0/apache-ignite-2.5.0-src.zip"
 ]
 },
 "impala": {
@@ -5105,8 +5133,8 @@
 "jackrabbit-oak-1.8.4": [
 "jackrabbit/oak/1.8.4/jackrabbit-oak-1.8.4-src.zip"
 ],
-"jackrabbit-oak-1.9.3": [
-"jackrabbit/oak/1.9.3/jackrabbit-oak-1.9.3-src.zip"
+"jackrabbit-oak-1.9.4": [
+"jackrabbit/oak/1.9.4/jackrabbit-oak-1.9.4-src.zip"
 ],
 "jackrabbit-ocm-2.0.0": [
 "jackrabbit/ocm/2.0.0/jackrabbit-ocm-2.0.0-source-release.zip"
@@ -5609,6 +5637,11 @@
 "lucene/java/7.3.1/lucene-7.3.1.tgz",
 "lucene/java/7.3.1/lucene-7.3.1.zip"
 ],
+"lucene-7.4.0": [
+"lucene/java/7.4.0/lucene-7.4.0-src.tgz",
+"lucene/java/7.4.0/lucene-7.4.0.tgz",
+"lucene/java/7.4.0/lucene-7.4.0.zip"
+],
 "pylucene-2.9.4-1": [
 "lucene/pylucene/pylucene-2.9.4-1-src.tar.gz"
 ],
@@ -5646,6 +5679,11 @@
 "lucene/solr/7.3.1/solr-7.3.1-src.tgz",
 "lucene/solr/7.3.1/solr-7.3.1.tgz",
 "lucene/solr/7.3.1/solr-7.3.1.zip"
+],
+"solr-7.4.0": [
+"lucene/solr/7.4.0/solr-7.4.0-src.tgz",
+"lucene/solr/7.4.0/solr-7.4.0.tgz",
+"lucene/solr/7.4.0/solr-7.4.0.zip"
 ]
 },
 "lucenenet": {
@@ -7178,6 +7216,9 @@
 "apache-qpid-broker-j-7.0.5": [
 "qpid/broker-j/7.0.5/apache-qpid-broker-j-7.0.5-src.tar.gz"
 ],
+"apache-qpid-broker-j-7.0.6": [
+"qpid/broker-j/7.0.6/apache-qpid-broker-j-7.0.6-src.tar.gz"
+],
 "apache-qpid-jms-0.32.0": [
 "qpid/jms/0.32.0/apache-qpid-jms-0.32.0-src.tar.gz"
 ],
@@ -7448,8 +7489,8 @@
 "adapter-annotations-1.0.0": [
 "sling/adapter-annotations-1.0.0-source-release.zip"
 ],
-"htl-maven-plugin-1.1.4-1.3.1": [
-"sling/htl-maven-plugin-1.1.4-1.3.1-source-release.zip"
+"htl-maven-plugin-1.1.6-1.4.0": [
+"sling/htl-maven-plugin-1.1.6-1.4.0-source-release.zip"
 ],
 "javaversion-maven-plugin-1.0.0": [
 "sling/javaversion-maven-plugin-1.0.0-source-release.zip"
