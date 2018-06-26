@@ -114,6 +114,11 @@
 "ant/antlibs/antunit/source/apache-ant-antunit-1.3-src.tar.gz",
 "ant/antlibs/antunit/source/apache-ant-antunit-1.3-src.zip"
 ],
+"apache-ant-antunit-1.4": [
+"ant/antlibs/antunit/source/apache-ant-antunit-1.4-src.tar.bz2",
+"ant/antlibs/antunit/source/apache-ant-antunit-1.4-src.tar.gz",
+"ant/antlibs/antunit/source/apache-ant-antunit-1.4-src.zip"
+],
 "apache-ant-compress-1.5": [
 "ant/antlibs/compress/source/apache-ant-compress-1.5-src.tar.bz2",
 "ant/antlibs/compress/source/apache-ant-compress-1.5-src.tar.gz",
@@ -748,19 +753,21 @@
 "bahir/bahir-spark/2.2.0/apache-bahir-2.2.0-src.tar.gz",
 "bahir/bahir-spark/2.2.0/apache-bahir-2.2.0-src.zip"
 ],
+"apache-bahir-2.2.1": [
+"bahir/bahir-spark/2.2.1/apache-bahir-2.2.1-src.tar.gz",
+"bahir/bahir-spark/2.2.1/apache-bahir-2.2.1-src.zip"
+],
 "apache-bahir-flink-1.0": [
 "bahir/bahir-flink/1.0/apache-bahir-flink-1.0-src.tgz",
 "bahir/bahir-flink/1.0/apache-bahir-flink-1.0-src.zip"
 ]
 },
 "beam": {
-"apache-beam-2.4.0": [
-"beam/2.4.0/apache-beam-2.4.0-source-release.zip",
-"beam/latest/apache-beam-2.4.0-source-release.zip"
-],
-"apache-beam-2.4.0-python": [
-"beam/2.4.0/apache-beam-2.4.0-python.zip",
-"beam/latest/apache-beam-2.4.0-python.zip"
+"apache-beam-2.5.0": [
+"beam/2.5.0/python/apache-beam-2.5.0.zip",
+"beam/2.5.0/apache-beam-2.5.0-source-release.zip",
+"beam/latest/python/apache-beam-2.5.0.zip",
+"beam/latest/apache-beam-2.5.0-source-release.zip"
 ]
 },
 "bigtop": {
@@ -2318,6 +2325,10 @@
 "org.apache.felix.log-1.0.1": [
 "felix/org.apache.felix.log-1.0.1-project.tar.gz",
 "felix/org.apache.felix.log-1.0.1-project.zip"
+],
+"org.apache.felix.logback-1.0.0": [
+"felix/org.apache.felix.logback-1.0.0-source-release.tar.gz",
+"felix/org.apache.felix.logback-1.0.0-source-release.zip"
 ],
 "org.apache.felix.main-5.6.10": [
 "felix/org.apache.felix.main-5.6.10-source-release.tar.gz",
@@ -6549,6 +6560,9 @@
 ],
 "nifi-1.6.0": [
 "nifi/1.6.0/nifi-1.6.0-source-release.zip"
+],
+"nifi-1.7.0": [
+"nifi/1.7.0/nifi-1.7.0-source-release.zip"
 ],
 "nifi-fds-0.1.0": [
 "nifi/nifi-fds/nifi-fds-0.1.0/nifi-fds-0.1.0-source-release.zip"
