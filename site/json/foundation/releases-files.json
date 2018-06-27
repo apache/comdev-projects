@@ -1714,8 +1714,8 @@
 "cordova-ios-4.5.4": [
 "cordova/platforms/cordova-ios-4.5.4.tgz"
 ],
-"cordova-js-4.2.3": [
-"cordova/tools/cordova-js-4.2.3.tgz"
+"cordova-js-4.2.4": [
+"cordova/tools/cordova-js-4.2.4.tgz"
 ],
 "cordova-lib-8.0.0": [
 "cordova/tools/cordova-lib-8.0.0.tgz"
@@ -2680,11 +2680,17 @@
 "apache-groovy-2.6.0-alpha-3": [
 "groovy/2.6.0-alpha-3/sources/apache-groovy-src-2.6.0-alpha-3.zip"
 ],
+"apache-groovy-2.6.0-alpha-4": [
+"groovy/2.6.0-alpha-4/sources/apache-groovy-src-2.6.0-alpha-4.zip"
+],
 "apache-groovy-3.0.0-alpha-1": [
 "groovy/3.0.0-alpha-1/sources/apache-groovy-src-3.0.0-alpha-1.zip"
 ],
 "apache-groovy-3.0.0-alpha-2": [
 "groovy/3.0.0-alpha-2/sources/apache-groovy-src-3.0.0-alpha-2.zip"
+],
+"apache-groovy-3.0.0-alpha-3": [
+"groovy/3.0.0-alpha-3/sources/apache-groovy-src-3.0.0-alpha-3.zip"
 ],
 "apache-groovy-sdk-2.4.15": [
 "groovy/2.4.15/distribution/apache-groovy-sdk-2.4.15.zip"
@@ -2695,11 +2701,17 @@
 "apache-groovy-sdk-2.6.0-alpha-3": [
 "groovy/2.6.0-alpha-3/distribution/apache-groovy-sdk-2.6.0-alpha-3.zip"
 ],
+"apache-groovy-sdk-2.6.0-alpha-4": [
+"groovy/2.6.0-alpha-4/distribution/apache-groovy-sdk-2.6.0-alpha-4.zip"
+],
 "apache-groovy-sdk-3.0.0-alpha-1": [
 "groovy/3.0.0-alpha-1/distribution/apache-groovy-sdk-3.0.0-alpha-1.zip"
 ],
 "apache-groovy-sdk-3.0.0-alpha-2": [
 "groovy/3.0.0-alpha-2/distribution/apache-groovy-sdk-3.0.0-alpha-2.zip"
+],
+"apache-groovy-sdk-3.0.0-alpha-3": [
+"groovy/3.0.0-alpha-3/distribution/apache-groovy-sdk-3.0.0-alpha-3.zip"
 ]
 },
 "guacamole": {
@@ -2834,12 +2846,6 @@
 "apache-hive-1.2.2": [
 "hive/hive-1.2.2/apache-hive-1.2.2-src.tar.gz"
 ],
-"apache-hive-2.1.1": [
-"hive/hive-2.1.1/apache-hive-2.1.1-src.tar.gz"
-],
-"apache-hive-2.2.0": [
-"hive/hive-2.2.0/apache-hive-2.2.0-src.tar.gz"
-],
 "apache-hive-2.3.3": [
 "hive/hive-2.3.3/apache-hive-2.3.3-src.tar.gz",
 "hive/stable-2/apache-hive-2.3.3-src.tar.gz"
@@ -2852,9 +2858,6 @@
 ],
 "hive-storage-2.4.0": [
 "hive/hive-storage-2.4.0/hive-storage-2.4.0.tar.gz"
-],
-"hive-storage-2.5.0": [
-"hive/hive-storage-2.5.0/hive-storage-2.5.0.tar.gz"
 ],
 "hive-storage-2.6.1": [
 "hive/hive-storage-2.6.1/hive-storage-2.6.1.tar.gz"
@@ -8796,6 +8799,32 @@
 "tomcat/tomcat-8/v8.5.31/bin/apache-tomcat-8.5.31.zip",
 "tomcat/tomcat-8/v8.5.31/src/apache-tomcat-8.5.31-src.tar.gz",
 "tomcat/tomcat-8/v8.5.31/src/apache-tomcat-8.5.31-src.zip"
+],
+"apache-tomcat-8.5.32": [
+"tomcat/tomcat-8/v8.5.32/bin/embed/apache-tomcat-8.5.32-embed.tar.gz",
+"tomcat/tomcat-8/v8.5.32/bin/embed/apache-tomcat-8.5.32-embed.zip",
+"tomcat/tomcat-8/v8.5.32/bin/apache-tomcat-8.5.32-deployer.tar.gz",
+"tomcat/tomcat-8/v8.5.32/bin/apache-tomcat-8.5.32-deployer.zip",
+"tomcat/tomcat-8/v8.5.32/bin/apache-tomcat-8.5.32-fulldocs.tar.gz",
+"tomcat/tomcat-8/v8.5.32/bin/apache-tomcat-8.5.32-windows-x64.zip",
+"tomcat/tomcat-8/v8.5.32/bin/apache-tomcat-8.5.32.exe",
+"tomcat/tomcat-8/v8.5.32/bin/apache-tomcat-8.5.32.tar.gz",
+"tomcat/tomcat-8/v8.5.32/bin/apache-tomcat-8.5.32.zip",
+"tomcat/tomcat-8/v8.5.32/src/apache-tomcat-8.5.32-src.tar.gz",
+"tomcat/tomcat-8/v8.5.32/src/apache-tomcat-8.5.32-src.zip"
+],
+"apache-tomcat-9.0.10": [
+"tomcat/tomcat-9/v9.0.10/bin/embed/apache-tomcat-9.0.10-embed.tar.gz",
+"tomcat/tomcat-9/v9.0.10/bin/embed/apache-tomcat-9.0.10-embed.zip",
+"tomcat/tomcat-9/v9.0.10/bin/apache-tomcat-9.0.10-deployer.tar.gz",
+"tomcat/tomcat-9/v9.0.10/bin/apache-tomcat-9.0.10-deployer.zip",
+"tomcat/tomcat-9/v9.0.10/bin/apache-tomcat-9.0.10-fulldocs.tar.gz",
+"tomcat/tomcat-9/v9.0.10/bin/apache-tomcat-9.0.10-windows-x64.zip",
+"tomcat/tomcat-9/v9.0.10/bin/apache-tomcat-9.0.10.exe",
+"tomcat/tomcat-9/v9.0.10/bin/apache-tomcat-9.0.10.tar.gz",
+"tomcat/tomcat-9/v9.0.10/bin/apache-tomcat-9.0.10.zip",
+"tomcat/tomcat-9/v9.0.10/src/apache-tomcat-9.0.10-src.tar.gz",
+"tomcat/tomcat-9/v9.0.10/src/apache-tomcat-9.0.10-src.zip"
 ],
 "apache-tomcat-9.0.7": [
 "tomcat/tomcat-9/v9.0.7/bin/embed/apache-tomcat-9.0.7-embed.tar.gz",
