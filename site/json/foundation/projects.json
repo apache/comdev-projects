@@ -9321,6 +9321,11 @@
 "programming-language": "Java",
 "release": [
 {
+"created": "2018-06-27",
+"name": "lucene-7.4.0",
+"revision": "7.4.0"
+},
+{
 "created": "2018-05-15",
 "name": "lucene-7.3.1",
 "revision": "7.3.1"
@@ -9907,6 +9912,11 @@
 "pmc": "lucene",
 "programming-language": "Java",
 "release": [
+{
+"created": "2018-06-27",
+"name": "solr-7.4.0",
+"revision": "7.4.1"
+},
 {
 "created": "2018-05-15",
 "name": "solr-7.3.1",
@@ -11839,8 +11849,8 @@
 }
 ],
 "repository": [
-"https://github.com/apache/opennlp.git",
-"http://svn.apache.org/repos/asf/opennlp"
+"http://svn.apache.org/repos/asf/opennlp",
+"https://github.com/apache/opennlp.git"
 ],
 "shortdesc": "Apache OpenNLP library software is a machine learning based toolkit for the processing of natural language text.."
 },
@@ -13179,8 +13189,7 @@
 }
 ],
 "repository": [
-"http://svn.apache.org/repos/asf/sis/trunk",
-"git://git.apache.org/sis.git"
+"https://gitbox.apache.org/repos/asf/sis.git"
 ],
 "shortdesc": "A library for developing geospatial applications."
 },
