@@ -1873,23 +1873,11 @@
 "cxf/3.0.16/apache-cxf-3.0.16.tar.gz",
 "cxf/3.0.16/apache-cxf-3.0.16.zip"
 ],
-"apache-cxf-3.1.15": [
-"cxf/3.1.15/apache-cxf-3.1.15-src.tar.gz",
-"cxf/3.1.15/apache-cxf-3.1.15-src.zip",
-"cxf/3.1.15/apache-cxf-3.1.15.tar.gz",
-"cxf/3.1.15/apache-cxf-3.1.15.zip"
-],
 "apache-cxf-3.1.16": [
 "cxf/3.1.16/apache-cxf-3.1.16-src.tar.gz",
 "cxf/3.1.16/apache-cxf-3.1.16-src.zip",
 "cxf/3.1.16/apache-cxf-3.1.16.tar.gz",
 "cxf/3.1.16/apache-cxf-3.1.16.zip"
-],
-"apache-cxf-3.2.4": [
-"cxf/3.2.4/apache-cxf-3.2.4-src.tar.gz",
-"cxf/3.2.4/apache-cxf-3.2.4-src.zip",
-"cxf/3.2.4/apache-cxf-3.2.4.tar.gz",
-"cxf/3.2.4/apache-cxf-3.2.4.zip"
 ],
 "apache-cxf-3.2.5": [
 "cxf/3.2.5/apache-cxf-3.2.5-src.tar.gz",
@@ -1907,8 +1895,8 @@
 "fediz-1.3.3": [
 "cxf/fediz/1.3.3/fediz-1.3.3-source-release.zip"
 ],
-"fediz-1.4.3": [
-"cxf/fediz/1.4.3/fediz-1.4.3-source-release.zip"
+"fediz-1.4.4": [
+"cxf/fediz/1.4.4/fediz-1.4.4-source-release.zip"
 ]
 },
 "datafu": {
@@ -2637,6 +2625,9 @@
 "geronimo-jwt-auth-1.0.0": [
 "geronimo/jwt-auth/geronimo-jwt-auth-1.0.0-source-release.zip"
 ],
+"geronimo-metrics-1.0.0": [
+"geronimo/metrics/geronimo-metrics-1.0.0-source-release.zip"
+],
 "safeguard-1.0": [
 "geronimo/safeguard/safeguard-parent-1.0-source-release.zip"
 ],
@@ -2901,6 +2892,10 @@
 "httpcomponents-client-android-4.3.5.1": [
 "httpcomponents/httpclient-android/source/httpcomponents-client-android-4.3.5.1-src.tar.gz",
 "httpcomponents/httpclient-android/source/httpcomponents-client-android-4.3.5.1-src.zip"
+],
+"httpcomponents-core-4.4.10": [
+"httpcomponents/httpcore/source/httpcomponents-core-4.4.10-src.tar.gz",
+"httpcomponents/httpcore/source/httpcomponents-core-4.4.10-src.zip"
 ],
 "httpcomponents-core-4.4.9": [
 "httpcomponents/httpcore/source/httpcomponents-core-4.4.9-src.tar.gz",
@@ -5258,8 +5253,8 @@
 "META": [
 "jena/META"
 ],
-"jena-3.7.0": [
-"jena/source/jena-3.7.0-source-release.zip"
+"jena-3.8.0": [
+"jena/source/jena-3.8.0-source-release.zip"
 ]
 },
 "jmeter": {
@@ -6516,11 +6511,17 @@
 "apache-mynewt-blinky-1.4.0": [
 "mynewt/apache-mynewt-1.4.0/apache-mynewt-blinky-1.4.0.tgz"
 ],
+"apache-mynewt-blinky-1.4.1": [
+"mynewt/apache-mynewt-1.4.1/apache-mynewt-blinky-1.4.1.tgz"
+],
 "apache-mynewt-core-1.3.0": [
 "mynewt/apache-mynewt-1.3.0/apache-mynewt-core-1.3.0.tgz"
 ],
 "apache-mynewt-core-1.4.0": [
 "mynewt/apache-mynewt-1.4.0/apache-mynewt-core-1.4.0.tgz"
+],
+"apache-mynewt-core-1.4.1": [
+"mynewt/apache-mynewt-1.4.1/apache-mynewt-core-1.4.1.tgz"
 ],
 "apache-mynewt-newt-1.3.0": [
 "mynewt/apache-mynewt-1.3.0/apache-mynewt-newt-1.3.0.tgz"
@@ -6528,11 +6529,17 @@
 "apache-mynewt-newt-1.4.0": [
 "mynewt/apache-mynewt-1.4.0/apache-mynewt-newt-1.4.0.tgz"
 ],
+"apache-mynewt-newt-1.4.1": [
+"mynewt/apache-mynewt-1.4.1/apache-mynewt-newt-1.4.1.tgz"
+],
 "apache-mynewt-newtmgr-1.3.0": [
 "mynewt/apache-mynewt-1.3.0/apache-mynewt-newtmgr-1.3.0.tgz"
 ],
 "apache-mynewt-newtmgr-1.4.0": [
 "mynewt/apache-mynewt-1.4.0/apache-mynewt-newtmgr-1.4.0.tgz"
+],
+"apache-mynewt-newtmgr-1.4.1": [
+"mynewt/apache-mynewt-1.4.1/apache-mynewt-newtmgr-1.4.1.tgz"
 ],
 "apache-mynewt-nimble-1.0.0": [
 "mynewt/apache-nimble-1.0.0/apache-mynewt-nimble-1.0.0.tgz"
@@ -6775,8 +6782,8 @@
 "orc-1.4.4": [
 "orc/orc-1.4.4/orc-1.4.4.tar.gz"
 ],
-"orc-1.5.1": [
-"orc/orc-1.5.1/orc-1.5.1.tar.gz"
+"orc-1.5.2": [
+"orc/orc-1.5.2/orc-1.5.2.tar.gz"
 ]
 },
 "parquet": {
@@ -7229,11 +7236,11 @@
 "qpid-java-6.1.6": [
 "qpid/java/6.1.6/qpid-java-6.1.6.tar.gz"
 ],
-"qpid-proton-0.22.0": [
-"qpid/proton/0.22.0/qpid-proton-0.22.0.tar.gz"
-],
 "qpid-proton-0.23.0": [
 "qpid/proton/0.23.0/qpid-proton-0.23.0.tar.gz"
+],
+"qpid-proton-0.24.0": [
+"qpid/proton/0.24.0/qpid-proton-0.24.0.tar.gz"
 ],
 "qpid-python-1.37.0": [
 "qpid/python/1.37.0/qpid-python-1.37.0.tar.gz"
@@ -8190,6 +8197,9 @@
 "SparkR_2.1.2": [
 "spark/spark-2.1.2/SparkR_2.1.2.tar.gz"
 ],
+"SparkR_2.1.3": [
+"spark/spark-2.1.3/SparkR_2.1.3.tar.gz"
+],
 "SparkR_2.2.1": [
 "spark/spark-2.2.1/SparkR_2.2.1.tar.gz"
 ],
@@ -8201,6 +8211,9 @@
 ],
 "pyspark-2.1.2": [
 "spark/spark-2.1.2/pyspark-2.1.2.tar.gz"
+],
+"pyspark-2.1.3": [
+"spark/spark-2.1.3/pyspark-2.1.3.tar.gz"
 ],
 "pyspark-2.2.1": [
 "spark/spark-2.2.1/pyspark-2.2.1.tar.gz"
@@ -8219,6 +8232,9 @@
 ],
 "spark-2.1.2": [
 "spark/spark-2.1.2/spark-2.1.2.tgz"
+],
+"spark-2.1.3": [
+"spark/spark-2.1.3/spark-2.1.3.tgz"
 ],
 "spark-2.2.1": [
 "spark/spark-2.2.1/spark-2.2.1.tgz"
