@@ -2982,7 +2982,7 @@
 "category": "network-server",
 "created": "2010-11-17",
 "description": "\n     Celix is an implementation of the OSGi specification adapted to C. \n     It will follow the API as close as possible, but since the OSGi specification is written primarily for Java, there will be differences (Java is OO, C is procedural). \n     An important aspect of the implementation is interoperability between Java and C. This interoperability is achieved by porting and implementing the Remote Services specification in Celix.\n     ",
-"doap": "http://svn.apache.org/repos/asf/celix/trunk/doap/doap_Celix.rdf",
+"doap": "https://git-wip-us.apache.org/repos/asf?p=celix.git;a=blob_plain;f=doap/doap_Celix.rdf;hb=HEAD",
 "download-page": "http://celix.apache.org/download.html",
 "homepage": "http://celix.apache.org",
 "license": "http://usefulinc.com/doap/licenses/asl20",
@@ -11849,8 +11849,8 @@
 }
 ],
 "repository": [
-"http://svn.apache.org/repos/asf/opennlp",
-"https://github.com/apache/opennlp.git"
+"https://github.com/apache/opennlp.git",
+"http://svn.apache.org/repos/asf/opennlp"
 ],
 "shortdesc": "Apache OpenNLP library software is a machine learning based toolkit for the processing of natural language text.."
 },
