@@ -1468,9 +1468,9 @@
 "commons/bsf/source/bsf-3.1-src.tar.gz",
 "commons/bsf/source/bsf-3.1-src.zip"
 ],
-"commons-46": [
-"commons/commons-parent/commons-parent-46-src.tar.gz",
-"commons/commons-parent/commons-parent-46-src.zip"
+"commons-47": [
+"commons/commons-parent/commons-parent-47-src.tar.gz",
+"commons/commons-parent/commons-parent-47-src.zip"
 ],
 "commons-beanutils-1.9.3": [
 "commons/beanutils/source/commons-beanutils-1.9.3-src.tar.gz",
@@ -1697,8 +1697,8 @@
 "cordova-coho-1.0.1": [
 "cordova/tools/cordova-coho-1.0.1.tgz"
 ],
-"cordova-common-2.2.4": [
-"cordova/tools/cordova-common-2.2.4.tgz"
+"cordova-common-2.2.5": [
+"cordova/tools/cordova-common-2.2.5.tgz"
 ],
 "cordova-create-1.1.2": [
 "cordova/tools/cordova-create-1.1.2.tgz"
@@ -2631,8 +2631,8 @@
 "safeguard-1.0": [
 "geronimo/safeguard/safeguard-parent-1.0-source-release.zip"
 ],
-"xbean-4.8": [
-"geronimo/xbean/xbean-4.8-source-release.zip"
+"xbean-4.9": [
+"geronimo/xbean/xbean-4.9-source-release.zip"
 ]
 },
 "giraph": {
@@ -3034,6 +3034,11 @@
 ],
 "gearpump-0.8.4-incubating": [
 "incubator/gearpump/0.8.4-incubating/gearpump-0.8.4-incubating-src.tgz"
+]
+},
+"incubator-gobblin": {
+"apache-gobblin-incubating-sources-0.12.0": [
+"incubator/gobblin/apache-gobblin-incubating-0.12.0/apache-gobblin-incubating-sources-0.12.0.tgz"
 ]
 },
 "incubator-gossip": {
@@ -5622,6 +5627,11 @@
 "lucene/java/6.6.4/lucene-6.6.4.tgz",
 "lucene/java/6.6.4/lucene-6.6.4.zip"
 ],
+"lucene-6.6.5": [
+"lucene/java/6.6.5/lucene-6.6.5-src.tgz",
+"lucene/java/6.6.5/lucene-6.6.5.tgz",
+"lucene/java/6.6.5/lucene-6.6.5.zip"
+],
 "lucene-7.4.0": [
 "lucene/java/7.4.0/lucene-7.4.0-src.tgz",
 "lucene/java/7.4.0/lucene-7.4.0.tgz",
@@ -5654,6 +5664,11 @@
 "lucene/solr/6.6.4/solr-6.6.4-src.tgz",
 "lucene/solr/6.6.4/solr-6.6.4.tgz",
 "lucene/solr/6.6.4/solr-6.6.4.zip"
+],
+"solr-6.6.5": [
+"lucene/solr/6.6.5/solr-6.6.5-src.tgz",
+"lucene/solr/6.6.5/solr-6.6.5.tgz",
+"lucene/solr/6.6.5/solr-6.6.5.zip"
 ],
 "solr-7.4.0": [
 "lucene/solr/7.4.0/solr-7.4.0-src.tgz",
@@ -6552,6 +6567,9 @@
 "minifi-0.4.0": [
 "nifi/minifi/0.4.0/minifi-0.4.0-source-release.zip"
 ],
+"minifi-0.5.0": [
+"nifi/minifi/0.5.0/minifi-0.5.0-source-release.zip"
+],
 "nifi-1.6.0": [
 "nifi/1.6.0/nifi-1.6.0-source-release.zip"
 ],
@@ -6752,6 +6770,10 @@
 "apache-opennlp-1.8.4": [
 "opennlp/opennlp-1.8.4/apache-opennlp-1.8.4-src.tar.gz",
 "opennlp/opennlp-1.8.4/apache-opennlp-1.8.4-src.zip"
+],
+"apache-opennlp-1.9.0": [
+"opennlp/opennlp-1.9.0/apache-opennlp-1.9.0-src.tar.gz",
+"opennlp/opennlp-1.9.0/apache-opennlp-1.9.0-src.zip"
 ]
 },
 "openoffice": {
@@ -7062,6 +7084,10 @@
 "poi-3.17-20170915": [
 "poi/release/src/poi-src-3.17-20170915.tar.gz",
 "poi/release/src/poi-src-3.17-20170915.zip"
+],
+"xmlbeans-3.0.0-20180629": [
+"poi/xmlbeans/release/src/xmlbeans-src-3.0.0-20180629.tgz",
+"poi/xmlbeans/release/src/xmlbeans-src-3.0.0-20180629.zip"
 ]
 },
 "polygene": {
@@ -7229,6 +7255,9 @@
 ],
 "qpid-dispatch-1.1.0": [
 "qpid/dispatch/1.1.0/qpid-dispatch-1.1.0.tar.gz"
+],
+"qpid-dispatch-1.2.0": [
+"qpid/dispatch/1.2.0/qpid-dispatch-1.2.0.tar.gz"
 ],
 "qpid-interop-test-0.1.0": [
 "qpid/interop-test/0.1.0/qpid-interop-test-0.1.0.tar.gz"
@@ -8477,34 +8506,34 @@
 "apache-syncope-1.2.11": [
 "syncope/1.2.11/apache-syncope-1.2.11.deb"
 ],
-"apache-syncope-2.0.8": [
-"syncope/2.0.8/apache-syncope-2.0.8.deb"
+"apache-syncope-2.0.9": [
+"syncope/2.0.9/apache-syncope-2.0.9.deb"
 ],
 "apache-syncope-console-1.2.11": [
 "syncope/1.2.11/apache-syncope-console-1.2.11.deb"
 ],
-"apache-syncope-console-2.0.8": [
-"syncope/2.0.8/apache-syncope-console-2.0.8.deb"
+"apache-syncope-console-2.0.9": [
+"syncope/2.0.9/apache-syncope-console-2.0.9.deb"
 ],
-"apache-syncope-enduser-2.0.8": [
-"syncope/2.0.8/apache-syncope-enduser-2.0.8.deb"
+"apache-syncope-enduser-2.0.9": [
+"syncope/2.0.9/apache-syncope-enduser-2.0.9.deb"
 ],
-"org.apache.syncope.ide.eclipse.site-2.0.8": [
-"syncope/2.0.8/org.apache.syncope.ide.eclipse.site-2.0.8.zip"
+"org.apache.syncope.ide.eclipse.site-2.0.9": [
+"syncope/2.0.9/org.apache.syncope.ide.eclipse.site-2.0.9.zip"
 ],
 "syncope-1.2.11": [
 "syncope/1.2.11/syncope-1.2.11-source-release.zip",
 "syncope/1.2.11/syncope-standalone-1.2.11-distribution.zip"
 ],
-"syncope-2.0.8": [
-"syncope/2.0.8/syncope-2.0.8-source-release.zip",
-"syncope/2.0.8/syncope-standalone-2.0.8-distribution.zip"
+"syncope-2.0.9": [
+"syncope/2.0.9/syncope-2.0.9-source-release.zip",
+"syncope/2.0.9/syncope-standalone-2.0.9-distribution.zip"
 ],
-"syncope-client-cli-2.0.8": [
-"syncope/2.0.8/syncope-client-cli-2.0.8.zip"
+"syncope-client-cli-2.0.9": [
+"syncope/2.0.9/syncope-client-cli-2.0.9.zip"
 ],
-"syncope-ide-netbeans-2.0.8.nbm": [
-"syncope/2.0.8/syncope-ide-netbeans-2.0.8.nbm"
+"syncope-ide-netbeans-2.0.9.nbm": [
+"syncope/2.0.9/syncope-ide-netbeans-2.0.9.nbm"
 ]
 },
 "systemml": {
