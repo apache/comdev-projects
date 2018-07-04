@@ -934,6 +934,11 @@
 "camel/apache-camel/2.21.1/apache-camel-2.21.1-src.zip",
 "camel/apache-camel/2.21.1/apache-camel-2.21.1.tar.gz",
 "camel/apache-camel/2.21.1/apache-camel-2.21.1.zip"
+],
+"apache-camel-2.22.0": [
+"camel/apache-camel/2.22.0/apache-camel-2.22.0-src.zip",
+"camel/apache-camel/2.22.0/apache-camel-2.22.0.tar.gz",
+"camel/apache-camel/2.22.0/apache-camel-2.22.0.zip"
 ]
 },
 "carbondata": {
@@ -5302,8 +5307,14 @@
 "kafka-0.10.2.1": [
 "kafka/0.10.2.1/kafka-0.10.2.1-src.tgz"
 ],
+"kafka-0.10.2.2": [
+"kafka/0.10.2.2/kafka-0.10.2.2-src.tgz"
+],
 "kafka-0.11.0.2": [
 "kafka/0.11.0.2/kafka-0.11.0.2-src.tgz"
+],
+"kafka-0.11.0.3": [
+"kafka/0.11.0.3/kafka-0.11.0.3-src.tgz"
 ],
 "kafka-1.0.0": [
 "kafka/1.0.0/kafka-1.0.0-src.tgz"
@@ -5317,11 +5328,20 @@
 "kafka_2.10-0.10.2.1": [
 "kafka/0.10.2.1/kafka_2.10-0.10.2.1.tgz"
 ],
+"kafka_2.10-0.10.2.2": [
+"kafka/0.10.2.2/kafka_2.10-0.10.2.2.tgz"
+],
 "kafka_2.11-0.10.2.1": [
 "kafka/0.10.2.1/kafka_2.11-0.10.2.1.tgz"
 ],
+"kafka_2.11-0.10.2.2": [
+"kafka/0.10.2.2/kafka_2.11-0.10.2.2.tgz"
+],
 "kafka_2.11-0.11.0.2": [
 "kafka/0.11.0.2/kafka_2.11-0.11.0.2.tgz"
+],
+"kafka_2.11-0.11.0.3": [
+"kafka/0.11.0.3/kafka_2.11-0.11.0.3.tgz"
 ],
 "kafka_2.11-1.0.0": [
 "kafka/1.0.0/kafka_2.11-1.0.0.tgz"
@@ -5335,8 +5355,14 @@
 "kafka_2.12-0.10.2.1": [
 "kafka/0.10.2.1/kafka_2.12-0.10.2.1.tgz"
 ],
+"kafka_2.12-0.10.2.2": [
+"kafka/0.10.2.2/kafka_2.12-0.10.2.2.tgz"
+],
 "kafka_2.12-0.11.0.2": [
 "kafka/0.11.0.2/kafka_2.12-0.11.0.2.tgz"
+],
+"kafka_2.12-0.11.0.3": [
+"kafka/0.11.0.3/kafka_2.12-0.11.0.3.tgz"
 ],
 "kafka_2.12-1.0.0": [
 "kafka/1.0.0/kafka_2.12-1.0.0.tgz"
@@ -7058,6 +7084,9 @@
 "apache-phoenix-4.14.0-cdh5.14.2": [
 "phoenix/apache-phoenix-4.14.0-cdh5.14.2/src/apache-phoenix-4.14.0-cdh5.14.2-src.tar.gz"
 ],
+"apache-phoenix-5.0.0-HBase-2.0": [
+"phoenix/apache-phoenix-5.0.0-HBase-2.0/src/apache-phoenix-5.0.0-HBase-2.0-src.tar.gz"
+],
 "apache-phoenix-5.0.0-alpha-HBase-2.0": [
 "phoenix/apache-phoenix-5.0.0-alpha-HBase-2.0/src/apache-phoenix-5.0.0-alpha-HBase-2.0-src.tar.gz"
 ]
@@ -8157,8 +8186,8 @@
 "org.apache.sling.validation.test-services-1.0.4": [
 "sling/org.apache.sling.validation.test-services-1.0.4-source-release.zip"
 ],
-"org.apache.sling.xss-2.0.6": [
-"sling/org.apache.sling.xss-2.0.6-source-release.zip"
+"org.apache.sling.xss-2.0.8": [
+"sling/org.apache.sling.xss-2.0.8-source-release.zip"
 ],
 "org.apache.sling.xss.compat-1.1.0": [
 "sling/org.apache.sling.xss.compat-1.1.0-source-release.zip"
@@ -8232,6 +8261,9 @@
 "SparkR_2.2.1": [
 "spark/spark-2.2.1/SparkR_2.2.1.tar.gz"
 ],
+"SparkR_2.2.2": [
+"spark/spark-2.2.2/SparkR_2.2.2.tar.gz"
+],
 "SparkR_2.3.0": [
 "spark/spark-2.3.0/SparkR_2.3.0.tar.gz"
 ],
@@ -8246,6 +8278,9 @@
 ],
 "pyspark-2.2.1": [
 "spark/spark-2.2.1/pyspark-2.2.1.tar.gz"
+],
+"pyspark-2.2.2": [
+"spark/spark-2.2.2/pyspark-2.2.2.tar.gz"
 ],
 "pyspark-2.3.0": [
 "spark/spark-2.3.0/pyspark-2.3.0.tar.gz"
@@ -8267,6 +8302,9 @@
 ],
 "spark-2.2.1": [
 "spark/spark-2.2.1/spark-2.2.1.tgz"
+],
+"spark-2.2.2": [
+"spark/spark-2.2.2/spark-2.2.2.tgz"
 ],
 "spark-2.3.0": [
 "spark/spark-2.3.0/spark-2.3.0.tgz"
