@@ -4,9 +4,9 @@ import smtplib
 # Import the email modules we'll need
 from email.mime.text import MIMEText
 
-__SENDER__ = 'Projects <apsite@apache.org>'
-__RECIPIENTS__ = 'Site Development <site-dev@apache.org>'
-__REPLY_TO__ = 'site-dev@apache.org'
+__SENDER__ = 'Projects <sebb@apache.org>'
+__RECIPIENTS__ = 'Site Development <sebb@apache.org>'
+__REPLY_TO__ = 'sebb@apache.org'
 
 def sendMail(subject, body='', recipients=__RECIPIENTS__, sender=__SENDER__, port=25, replyTo=__REPLY_TO__):
     # Create a text/plain message
