@@ -2497,6 +2497,10 @@
 "flex/installer/3.3.1/apache-flex-sdk-installer-3.3.1-src.tar.gz",
 "flex/installer/3.3.1/apache-flex-sdk-installer-3.3.1-src.zip"
 ],
+"apache-flex-sdk-installer-3.3.2": [
+"flex/installer/3.3.2/apache-flex-sdk-installer-3.3.2-src.tar.gz",
+"flex/installer/3.3.2/apache-flex-sdk-installer-3.3.2-src.zip"
+],
 "apache-flex-sdk-pixel-bender-1.0.0": [
 "flex/pixelbender/1.0/apache-flex-sdk-pixel-bender-1.0.0-src.tar.gz",
 "flex/pixelbender/1.0/apache-flex-sdk-pixel-bender-1.0.0-src.zip"
@@ -2885,6 +2889,10 @@
 "httpcomponents-client-4.5.5": [
 "httpcomponents/httpclient/source/httpcomponents-client-4.5.5-src.tar.gz",
 "httpcomponents/httpclient/source/httpcomponents-client-4.5.5-src.zip"
+],
+"httpcomponents-client-4.5.6": [
+"httpcomponents/httpclient/source/httpcomponents-client-4.5.6-src.tar.gz",
+"httpcomponents/httpclient/source/httpcomponents-client-4.5.6-src.zip"
 ],
 "httpcomponents-client-5.0-alpha1": [
 "httpcomponents/httpclient/source/httpcomponents-client-5.0-alpha1-src.tar.gz",
@@ -6601,9 +6609,6 @@
 "minifi-0.5.0": [
 "nifi/minifi/0.5.0/minifi-0.5.0-source-release.zip"
 ],
-"nifi-1.6.0": [
-"nifi/1.6.0/nifi-1.6.0-source-release.zip"
-],
 "nifi-1.7.0": [
 "nifi/1.7.0/nifi-1.7.0-source-release.zip"
 ],
@@ -6613,14 +6618,8 @@
 "nifi-minifi-cpp-0.5.0": [
 "nifi/nifi-minifi-cpp/0.5.0/nifi-minifi-cpp-0.5.0-source.tar.gz"
 ],
-"nifi-nar-maven-plugin-1.1.0": [
-"nifi/nifi-nar-maven-plugin-1.1.0/nifi-nar-maven-plugin-1.1.0-source-release.zip"
-],
 "nifi-nar-maven-plugin-1.2.0": [
 "nifi/nifi-nar-maven-plugin-1.2.0/nifi-nar-maven-plugin-1.2.0-source-release.zip"
-],
-"nifi-registry-0.1.0": [
-"nifi/nifi-registry/nifi-registry-0.1.0/nifi-registry-0.1.0-source-release.zip"
 ],
 "nifi-registry-0.2.0": [
 "nifi/nifi-registry/nifi-registry-0.2.0/nifi-registry-0.2.0-source-release.zip"
@@ -7283,6 +7282,9 @@
 ],
 "apache-ranger-1.0.0": [
 "ranger/1.0.0/apache-ranger-1.0.0.tar.gz"
+],
+"apache-ranger-1.1.0": [
+"ranger/1.1.0/apache-ranger-1.1.0.tar.gz"
 ]
 },
 "reef": {
@@ -8511,37 +8513,52 @@
 ]
 },
 "syncope": {
-"apache-syncope-1.2.11": [
-"syncope/1.2.11/apache-syncope-1.2.11.deb"
-],
 "apache-syncope-2.0.9": [
 "syncope/2.0.9/apache-syncope-2.0.9.deb"
 ],
-"apache-syncope-console-1.2.11": [
-"syncope/1.2.11/apache-syncope-console-1.2.11.deb"
+"apache-syncope-2.1.0": [
+"syncope/2.1.0/apache-syncope-2.1.0.deb"
 ],
 "apache-syncope-console-2.0.9": [
 "syncope/2.0.9/apache-syncope-console-2.0.9.deb"
 ],
+"apache-syncope-console-2.1.0": [
+"syncope/2.1.0/apache-syncope-console-2.1.0.deb"
+],
 "apache-syncope-enduser-2.0.9": [
 "syncope/2.0.9/apache-syncope-enduser-2.0.9.deb"
+],
+"apache-syncope-enduser-2.1.0": [
+"syncope/2.1.0/apache-syncope-enduser-2.1.0.deb"
 ],
 "org.apache.syncope.ide.eclipse.site-2.0.9": [
 "syncope/2.0.9/org.apache.syncope.ide.eclipse.site-2.0.9.zip"
 ],
-"syncope-1.2.11": [
-"syncope/1.2.11/syncope-1.2.11-source-release.zip",
-"syncope/1.2.11/syncope-standalone-1.2.11-distribution.zip"
+"org.apache.syncope.ide.eclipse.site-2.1.0": [
+"syncope/2.1.0/org.apache.syncope.ide.eclipse.site-2.1.0.zip"
 ],
 "syncope-2.0.9": [
 "syncope/2.0.9/syncope-2.0.9-source-release.zip",
 "syncope/2.0.9/syncope-standalone-2.0.9-distribution.zip"
 ],
+"syncope-2.1.0": [
+"syncope/2.1.0/syncope-2.1.0-source-release.zip",
+"syncope/2.1.0/syncope-standalone-2.1.0-distribution.zip"
+],
 "syncope-client-cli-2.0.9": [
 "syncope/2.0.9/syncope-client-cli-2.0.9.zip"
 ],
+"syncope-client-cli-2.1.0": [
+"syncope/2.1.0/syncope-client-cli-2.1.0.zip"
+],
+"syncope-core-upgrade-2.1.0": [
+"syncope/2.1.0/syncope-core-upgrade-2.1.0.zip"
+],
 "syncope-ide-netbeans-2.0.9.nbm": [
 "syncope/2.0.9/syncope-ide-netbeans-2.0.9.nbm"
+],
+"syncope-ide-netbeans-2.1.0.nbm": [
+"syncope/2.1.0/syncope-ide-netbeans-2.1.0.nbm"
 ]
 },
 "systemml": {
