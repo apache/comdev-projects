@@ -93,8 +93,8 @@
 ]
 },
 "ambari": {
-"apache-ambari-2.6.2": [
-"ambari/ambari-2.6.2/apache-ambari-2.6.2-src.tar.gz"
+"apache-ambari-2.7.0": [
+"ambari/ambari-2.7.0/apache-ambari-2.7.0-src.tar.gz"
 ]
 },
 "ant": {
@@ -104,10 +104,21 @@
 "ant/source/apache-ant-1.10.4-src.tar.xz",
 "ant/source/apache-ant-1.10.4-src.zip"
 ],
+"apache-ant-1.10.5": [
+"ant/source/apache-ant-1.10.5-src.tar.bz2",
+"ant/source/apache-ant-1.10.5-src.tar.gz",
+"ant/source/apache-ant-1.10.5-src.tar.xz",
+"ant/source/apache-ant-1.10.5-src.zip"
+],
 "apache-ant-1.9.12": [
 "ant/source/apache-ant-1.9.12-src.tar.bz2",
 "ant/source/apache-ant-1.9.12-src.tar.gz",
 "ant/source/apache-ant-1.9.12-src.zip"
+],
+"apache-ant-1.9.13": [
+"ant/source/apache-ant-1.9.13-src.tar.bz2",
+"ant/source/apache-ant-1.9.13-src.tar.gz",
+"ant/source/apache-ant-1.9.13-src.zip"
 ],
 "apache-ant-antunit-1.4": [
 "ant/antlibs/antunit/source/apache-ant-antunit-1.4-src.tar.bz2",
@@ -2224,9 +2235,9 @@
 "felix/org.apache.felix.http.bundle-3.0.0-source-release.tar.gz",
 "felix/org.apache.felix.http.bundle-3.0.0-source-release.zip"
 ],
-"org.apache.felix.http.jetty-4.0.0": [
-"felix/org.apache.felix.http.jetty-4.0.0-source-release.tar.gz",
-"felix/org.apache.felix.http.jetty-4.0.0-source-release.zip"
+"org.apache.felix.http.jetty-4.0.2": [
+"felix/org.apache.felix.http.jetty-4.0.2-source-release.tar.gz",
+"felix/org.apache.felix.http.jetty-4.0.2-source-release.zip"
 ],
 "org.apache.felix.http.proxy-3.0.2": [
 "felix/org.apache.felix.http.proxy-3.0.2-source-release.tar.gz",
@@ -2327,9 +2338,13 @@
 "felix/org.apache.felix.jaas-1.0.2-source-release.tar.gz",
 "felix/org.apache.felix.jaas-1.0.2-source-release.zip"
 ],
-"org.apache.felix.log-1.0.1": [
-"felix/org.apache.felix.log-1.0.1-project.tar.gz",
-"felix/org.apache.felix.log-1.0.1-project.zip"
+"org.apache.felix.log-1.2.0": [
+"felix/org.apache.felix.log-1.2.0-source-release.tar.gz",
+"felix/org.apache.felix.log-1.2.0-source-release.zip"
+],
+"org.apache.felix.log.extension-1.0.0": [
+"felix/org.apache.felix.log.extension-1.0.0-source-release.tar.gz",
+"felix/org.apache.felix.log.extension-1.0.0-source-release.zip"
 ],
 "org.apache.felix.logback-1.0.0": [
 "felix/org.apache.felix.logback-1.0.0-source-release.tar.gz",
@@ -2689,6 +2704,9 @@
 "apache-groovy-2.5.0": [
 "groovy/2.5.0/sources/apache-groovy-src-2.5.0.zip"
 ],
+"apache-groovy-2.5.1": [
+"groovy/2.5.1/sources/apache-groovy-src-2.5.1.zip"
+],
 "apache-groovy-2.6.0-alpha-3": [
 "groovy/2.6.0-alpha-3/sources/apache-groovy-src-2.6.0-alpha-3.zip"
 ],
@@ -2709,6 +2727,9 @@
 ],
 "apache-groovy-sdk-2.5.0": [
 "groovy/2.5.0/distribution/apache-groovy-sdk-2.5.0.zip"
+],
+"apache-groovy-sdk-2.5.1": [
+"groovy/2.5.1/distribution/apache-groovy-sdk-2.5.1.zip"
 ],
 "apache-groovy-sdk-2.6.0-alpha-3": [
 "groovy/2.6.0-alpha-3/distribution/apache-groovy-sdk-2.6.0-alpha-3.zip"
@@ -2945,17 +2966,13 @@
 "META": [
 "httpd/META"
 ],
-"httpd-2.4.29": [
-"httpd/httpd-2.4.29.tar.bz2",
-"httpd/httpd-2.4.29.tar.gz"
-],
-"httpd-2.4.32": [
-"httpd/httpd-2.4.32.tar.bz2",
-"httpd/httpd-2.4.32.tar.gz"
-],
 "httpd-2.4.33": [
 "httpd/httpd-2.4.33.tar.bz2",
 "httpd/httpd-2.4.33.tar.gz"
+],
+"httpd-2.4.34": [
+"httpd/httpd-2.4.34.tar.bz2",
+"httpd/httpd-2.4.34.tar.gz"
 ],
 "httpd_logo_wide_new.png": [
 "httpd/httpd_logo_wide_new.png"
@@ -4842,6 +4859,9 @@
 "incubator-ratis": {
 "apache-ratis-incubating-0.1.0-alpha": [
 "incubator/ratis/0.1.0-alpha/apache-ratis-incubating-0.1.0-alpha-src.tar.gz"
+],
+"apache-ratis-incubating-0.2.0": [
+"incubator/ratis/0.2.0/apache-ratis-incubating-0.2.0-src.tar.gz"
 ]
 },
 "incubator-rya": {
@@ -5068,9 +5088,9 @@
 "jackrabbit/2.16.2/jackrabbit-2.16.2-src.zip",
 "jackrabbit/2.16.2/jackrabbit-webapp-2.16.2.war"
 ],
-"jackrabbit-2.17.3": [
-"jackrabbit/2.17.3/jackrabbit-2.17.3-src.zip",
-"jackrabbit/2.17.3/jackrabbit-webapp-2.17.3.war"
+"jackrabbit-2.17.4": [
+"jackrabbit/2.17.4/jackrabbit-2.17.4-src.zip",
+"jackrabbit/2.17.4/jackrabbit-webapp-2.17.4.war"
 ],
 "jackrabbit-2.4.8": [
 "jackrabbit/2.4.8/jackrabbit-2.4.8-src.zip",
@@ -5144,8 +5164,8 @@
 "jackrabbit-jca-2.16.2": [
 "jackrabbit/2.16.2/jackrabbit-jca-2.16.2.rar"
 ],
-"jackrabbit-jca-2.17.3": [
-"jackrabbit/2.17.3/jackrabbit-jca-2.17.3.rar"
+"jackrabbit-jca-2.17.4": [
+"jackrabbit/2.17.4/jackrabbit-jca-2.17.4.rar"
 ],
 "jackrabbit-jca-2.4.8": [
 "jackrabbit/2.4.8/jackrabbit-jca-2.4.8.rar"
