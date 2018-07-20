@@ -9,7 +9,7 @@
 },
 "accumulo": {
 "accumulo-1.7.4": "2018-03-23",
-"accumulo-1.9.1": "2018-05-14"
+"accumulo-1.9.2": "2018-07-19"
 },
 "activemq": {
 "Apache.NMS-1.5.1": "2014-08-04",
@@ -655,6 +655,7 @@
 "apache-ldap-api-1.0.0-RC2": "2016-10-31",
 "apache-ldap-api-1.0.1": "2018-05-19",
 "apache-ldap-api-1.0.2": "2018-06-06",
+"apache-ldap-api-2.0.0.AM1": "2018-07-19",
 "apacheds-2.0.0-M23": "2016-07-22",
 "apacheds-2.0.0-M24": "2017-06-07",
 "fortress-core-2.0.0": "2017-06-22",
@@ -924,7 +925,8 @@
 "apache-hive-3.0.0": "2018-05-22",
 "hive-metastore-3.0.0": "2018-06-07",
 "hive-storage-2.4.0": "2017-07-18",
-"hive-storage-2.6.1": "2018-05-11"
+"hive-storage-2.6.1": "2018-05-11",
+"hive-storage-2.7.0-rc1": "2018-07-19"
 },
 "httpcomponents": {
 "commons-httpclient-3.1": "2012-11-26",
@@ -1703,7 +1705,7 @@
 "jackrabbit-2.17.4": "2018-07-10",
 "jackrabbit-2.4.8": "2017-07-17",
 "jackrabbit-2.6.10": "2018-03-05",
-"jackrabbit-2.8.8": "2018-07-03",
+"jackrabbit-2.8.9": "2018-07-16",
 "jackrabbit-filevault-3.0.0": "2013-09-26",
 "jackrabbit-filevault-3.1.0": "2014-03-27",
 "jackrabbit-filevault-3.1.14": "2014-12-16",
@@ -1727,7 +1729,7 @@
 "jackrabbit-jca-2.17.4": "2018-07-10",
 "jackrabbit-jca-2.4.8": "2017-07-17",
 "jackrabbit-jca-2.6.10": "2018-03-05",
-"jackrabbit-jca-2.8.8": "2018-07-03",
+"jackrabbit-jca-2.8.9": "2018-07-16",
 "jackrabbit-oak-1.0.42": "2018-03-20",
 "jackrabbit-oak-1.2.29": "2018-03-12",
 "jackrabbit-oak-1.4.22": "2018-06-25",
@@ -1807,6 +1809,7 @@
 "kafka-1.0.1": "2018-03-05",
 "kafka-1.0.2": "2018-07-14",
 "kafka-1.1.0": "2018-03-28",
+"kafka-1.1.1": "2018-07-19",
 "kafka_2.10-0.10.2.1": "2017-04-26",
 "kafka_2.10-0.10.2.2": "2018-07-03",
 "kafka_2.11-0.10.2.1": "2017-04-26",
@@ -1817,6 +1820,7 @@
 "kafka_2.11-1.0.1": "2018-03-05",
 "kafka_2.11-1.0.2": "2018-07-14",
 "kafka_2.11-1.1.0": "2018-03-28",
+"kafka_2.11-1.1.1": "2018-07-19",
 "kafka_2.12-0.10.2.1": "2017-04-26",
 "kafka_2.12-0.10.2.2": "2018-07-03",
 "kafka_2.12-0.11.0.2": "2017-11-16",
@@ -1824,7 +1828,8 @@
 "kafka_2.12-1.0.0": "2017-11-01",
 "kafka_2.12-1.0.1": "2018-03-05",
 "kafka_2.12-1.0.2": "2018-07-14",
-"kafka_2.12-1.1.0": "2018-03-28"
+"kafka_2.12-1.1.0": "2018-03-28",
+"kafka_2.12-1.1.1": "2018-07-19"
 },
 "karaf": {
 "_remote.repositories": "2018-03-02",
@@ -2641,7 +2646,7 @@
 "org.apache.sling.junit.teleporter-1.0.16": "2017-09-29",
 "org.apache.sling.karaf-repoinit-0.2.0": "2017-03-20",
 "org.apache.sling.launchpad.api-1.2.0": "2015-06-29",
-"org.apache.sling.launchpad.base-5.6.10-2.6.26": "2017-11-20",
+"org.apache.sling.launchpad.base-6.0.0-2.6.28": "2018-07-19",
 "org.apache.sling.launchpad.content-2.0.12": "2017-05-29",
 "org.apache.sling.launchpad.installer-1.2.2": "2015-01-12",
 "org.apache.sling.launchpad.integration-tests-1.0.6": "2018-02-03",
@@ -2816,10 +2821,8 @@
 "struts2-secure-jakarta-stream-multipart-parser-plugin-1.1": "2017-03-22"
 },
 "subversion": {
-"subversion-1.10.0": "2018-04-12",
-"subversion-1.8.19": "2017-08-10",
-"subversion-1.9.7": "2017-08-10",
-"svn_version.h.dist-1.8.19": "2017-08-10",
+"subversion-1.10.2": "2018-07-19",
+"subversion-1.9.9": "2018-07-19",
 "svn_version.h.dist-1.9.7": "2017-08-10"
 },
 "synapse": {
