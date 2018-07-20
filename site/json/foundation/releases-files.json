@@ -23,8 +23,8 @@
 "accumulo-1.7.4": [
 "accumulo/1.7.4/accumulo-1.7.4-src.tar.gz"
 ],
-"accumulo-1.9.1": [
-"accumulo/1.9.1/accumulo-1.9.1-src.tar.gz"
+"accumulo-1.9.2": [
+"accumulo/1.9.2/accumulo-1.9.2-src.tar.gz"
 ]
 },
 "activemq": {
@@ -2009,6 +2009,10 @@
 "directory/api/dist/1.0.2/apache-ldap-api-1.0.2-src.tar.gz",
 "directory/api/dist/1.0.2/apache-ldap-api-1.0.2-src.zip"
 ],
+"apache-ldap-api-2.0.0.AM1": [
+"directory/api/dist/2.0.0-AM1/apache-ldap-api-2.0.0.AM1-src.tar.gz",
+"directory/api/dist/2.0.0-AM1/apache-ldap-api-2.0.0.AM1-src.zip"
+],
 "apacheds-2.0.0-M23": [
 "directory/apacheds/dist/2.0.0-M23/apacheds-2.0.0-M23-32bit.dmg",
 "directory/apacheds/dist/2.0.0-M23/apacheds-2.0.0-M23-64bit.dmg",
@@ -2906,6 +2910,9 @@
 ],
 "hive-storage-2.6.1": [
 "hive/hive-storage-2.6.1/hive-storage-2.6.1.tar.gz"
+],
+"hive-storage-2.7.0-rc1": [
+"hive/hive-storage-2.7.0/hive-storage-2.7.0-rc1.tar.gz"
 ]
 },
 "httpcomponents": {
@@ -5102,9 +5109,9 @@
 "jackrabbit/2.6.10/jackrabbit-2.6.10-src.zip",
 "jackrabbit/2.6.10/jackrabbit-webapp-2.6.10.war"
 ],
-"jackrabbit-2.8.8": [
-"jackrabbit/2.8.8/jackrabbit-2.8.8-src.zip",
-"jackrabbit/2.8.8/jackrabbit-webapp-2.8.8.war"
+"jackrabbit-2.8.9": [
+"jackrabbit/2.8.9/jackrabbit-2.8.9-src.zip",
+"jackrabbit/2.8.9/jackrabbit-webapp-2.8.9.war"
 ],
 "jackrabbit-filevault-3.0.0": [
 "jackrabbit/filevault/3.0.0/jackrabbit-filevault-3.0.0-src.zip"
@@ -5175,8 +5182,8 @@
 "jackrabbit-jca-2.6.10": [
 "jackrabbit/2.6.10/jackrabbit-jca-2.6.10.rar"
 ],
-"jackrabbit-jca-2.8.8": [
-"jackrabbit/2.8.8/jackrabbit-jca-2.8.8.rar"
+"jackrabbit-jca-2.8.9": [
+"jackrabbit/2.8.9/jackrabbit-jca-2.8.9.rar"
 ],
 "jackrabbit-oak-1.0.42": [
 "jackrabbit/oak/1.0.42/jackrabbit-oak-1.0.42-src.zip"
@@ -5383,6 +5390,9 @@
 "kafka-1.1.0": [
 "kafka/1.1.0/kafka-1.1.0-src.tgz"
 ],
+"kafka-1.1.1": [
+"kafka/1.1.1/kafka-1.1.1-src.tgz"
+],
 "kafka_2.10-0.10.2.1": [
 "kafka/0.10.2.1/kafka_2.10-0.10.2.1.tgz"
 ],
@@ -5413,6 +5423,9 @@
 "kafka_2.11-1.1.0": [
 "kafka/1.1.0/kafka_2.11-1.1.0.tgz"
 ],
+"kafka_2.11-1.1.1": [
+"kafka/1.1.1/kafka_2.11-1.1.1.tgz"
+],
 "kafka_2.12-0.10.2.1": [
 "kafka/0.10.2.1/kafka_2.12-0.10.2.1.tgz"
 ],
@@ -5436,6 +5449,9 @@
 ],
 "kafka_2.12-1.1.0": [
 "kafka/1.1.0/kafka_2.12-1.1.0.tgz"
+],
+"kafka_2.12-1.1.1": [
+"kafka/1.1.1/kafka_2.12-1.1.1.tgz"
 ]
 },
 "karaf": {
@@ -7928,9 +7944,9 @@
 "org.apache.sling.launchpad.api-1.2.0": [
 "sling/org.apache.sling.launchpad.api-1.2.0-source-release.zip"
 ],
-"org.apache.sling.launchpad.base-5.6.10-2.6.26": [
-"sling/org.apache.sling.launchpad.base-5.6.10-2.6.26-source-release.zip",
-"sling/org.apache.sling.launchpad.base-5.6.10-2.6.26-webapp.war"
+"org.apache.sling.launchpad.base-6.0.0-2.6.28": [
+"sling/org.apache.sling.launchpad.base-6.0.0-2.6.28-source-release.zip",
+"sling/org.apache.sling.launchpad.base-6.0.0-2.6.28-webapp.war"
 ],
 "org.apache.sling.launchpad.content-2.0.12": [
 "sling/org.apache.sling.launchpad.content-2.0.12-source-release.zip"
@@ -8467,23 +8483,15 @@
 ]
 },
 "subversion": {
-"subversion-1.10.0": [
-"subversion/subversion-1.10.0.tar.bz2",
-"subversion/subversion-1.10.0.tar.gz",
-"subversion/subversion-1.10.0.zip"
+"subversion-1.10.2": [
+"subversion/subversion-1.10.2.tar.bz2",
+"subversion/subversion-1.10.2.tar.gz",
+"subversion/subversion-1.10.2.zip"
 ],
-"subversion-1.8.19": [
-"subversion/subversion-1.8.19.tar.bz2",
-"subversion/subversion-1.8.19.tar.gz",
-"subversion/subversion-1.8.19.zip"
-],
-"subversion-1.9.7": [
-"subversion/subversion-1.9.7.tar.bz2",
-"subversion/subversion-1.9.7.tar.gz",
-"subversion/subversion-1.9.7.zip"
-],
-"svn_version.h.dist-1.8.19": [
-"subversion/svn_version.h.dist-1.8.19"
+"subversion-1.9.9": [
+"subversion/subversion-1.9.9.tar.bz2",
+"subversion/subversion-1.9.9.tar.gz",
+"subversion/subversion-1.9.9.zip"
 ],
 "svn_version.h.dist-1.9.7": [
 "subversion/svn_version.h.dist-1.9.7"
