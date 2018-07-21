@@ -880,13 +880,12 @@
 ]
 },
 "calcite": {
-"apache-calcite-1.15.0": [
-"calcite/apache-calcite-1.15.0/apache-calcite-1.15.0-src.tar.gz",
-"calcite/apache-calcite-1.15.0/apache-calcite-1.15.0-src.zip"
-],
 "apache-calcite-1.16.0": [
 "calcite/apache-calcite-1.16.0/apache-calcite-1.16.0-src.tar.gz",
 "calcite/apache-calcite-1.16.0/apache-calcite-1.16.0-src.zip"
+],
+"apache-calcite-1.17.0": [
+"calcite/apache-calcite-1.17.0/apache-calcite-1.17.0-src.tar.gz"
 ],
 "apache-calcite-avatica-1.11.0": [
 "calcite/apache-calcite-avatica-1.11.0/apache-calcite-avatica-1.11.0-src.tar.gz",
@@ -2042,6 +2041,9 @@
 "fortress-core-2.0.0-RC2": [
 "directory/fortress/dist/2.0.0-RC2/fortress-core-2.0.0-RC2-source-release.zip"
 ],
+"fortress-core-2.0.1": [
+"directory/fortress/dist/2.0.1/fortress-core-2.0.1-source-release.zip"
+],
 "fortress-realm-2.0.0": [
 "directory/fortress/dist/2.0.0/fortress-realm-2.0.0-source-release.zip"
 ],
@@ -2051,10 +2053,14 @@
 "fortress-realm-2.0.0-RC2": [
 "directory/fortress/dist/2.0.0-RC2/fortress-realm-2.0.0-RC2-source-release.zip"
 ],
+"fortress-realm-2.0.1": [
+"directory/fortress/dist/2.0.1/fortress-realm-2.0.1-source-release.zip"
+],
 "fortress-rest": [
 "directory/fortress/dist/2.0.0-RC1/fortress-rest.war",
 "directory/fortress/dist/2.0.0-RC2/fortress-rest.war",
-"directory/fortress/dist/2.0.0/fortress-rest.war"
+"directory/fortress/dist/2.0.0/fortress-rest.war",
+"directory/fortress/dist/2.0.1/fortress-rest.war"
 ],
 "fortress-rest-2.0.0": [
 "directory/fortress/dist/2.0.0/fortress-rest-2.0.0-source-release.zip"
@@ -2065,10 +2071,14 @@
 "fortress-rest-2.0.0-RC2": [
 "directory/fortress/dist/2.0.0-RC2/fortress-rest-2.0.0-RC2-source-release.zip"
 ],
+"fortress-rest-2.0.1": [
+"directory/fortress/dist/2.0.1/fortress-rest-2.0.1-source-release.zip"
+],
 "fortress-web": [
 "directory/fortress/dist/2.0.0-RC1/fortress-web.war",
 "directory/fortress/dist/2.0.0-RC2/fortress-web.war",
-"directory/fortress/dist/2.0.0/fortress-web.war"
+"directory/fortress/dist/2.0.0/fortress-web.war",
+"directory/fortress/dist/2.0.1/fortress-web.war"
 ],
 "fortress-web-2.0.0": [
 "directory/fortress/dist/2.0.0/fortress-web-2.0.0-source-release.zip"
@@ -2078,6 +2088,9 @@
 ],
 "fortress-web-2.0.0-RC2": [
 "directory/fortress/dist/2.0.0-RC2/fortress-web-2.0.0-RC2-source-release.zip"
+],
+"fortress-web-2.0.1": [
+"directory/fortress/dist/2.0.1/fortress-web-2.0.1-source-release.zip"
 ],
 "kerby-all-1.0.1": [
 "directory/kerby/dist/1.0.1/kerby-all-1.0.1-source-release.zip"
@@ -2792,6 +2805,12 @@
 "hadoop/core/hadoop-2.7.6/hadoop-2.7.6-src.tar.gz",
 "hadoop/core/hadoop-2.7.6/hadoop-2.7.6.tar.gz"
 ],
+"hadoop-2.7.7": [
+"hadoop/common/hadoop-2.7.7/hadoop-2.7.7-src.tar.gz",
+"hadoop/common/hadoop-2.7.7/hadoop-2.7.7.tar.gz",
+"hadoop/core/hadoop-2.7.7/hadoop-2.7.7-src.tar.gz",
+"hadoop/core/hadoop-2.7.7/hadoop-2.7.7.tar.gz"
+],
 "hadoop-2.8.4": [
 "hadoop/common/hadoop-2.8.4/hadoop-2.8.4-src.tar.gz",
 "hadoop/common/hadoop-2.8.4/hadoop-2.8.4.tar.gz",
@@ -3139,9 +3158,6 @@
 ]
 },
 "incubator-mxnet": {
-"apache-mxnet-1.2.0-incubating": [
-"incubator/mxnet/1.2.0/apache-mxnet-src-1.2.0-incubating.tar.gz"
-],
 "apache-mxnet-1.2.1-incubating": [
 "incubator/mxnet/1.2.1/apache-mxnet-src-1.2.1-incubating.tar.gz"
 ]
@@ -8492,9 +8508,6 @@
 "subversion/subversion-1.9.9.tar.bz2",
 "subversion/subversion-1.9.9.tar.gz",
 "subversion/subversion-1.9.9.zip"
-],
-"svn_version.h.dist-1.9.7": [
-"subversion/svn_version.h.dist-1.9.7"
 ]
 },
 "synapse": {
