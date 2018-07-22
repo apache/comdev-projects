@@ -2,7 +2,7 @@
 "META": {
 "ASF": "2018-03-24",
 "Makefile": "2018-03-27",
-"ROOT": "2018-07-01",
+"ROOT": "2018-07-21",
 "cert-chain.pem": "2018-03-25",
 "config": "2018-04-08",
 "mk-root": "2018-04-10"
@@ -317,7 +317,7 @@
 "apache-camel-2.19.5": "2018-03-30",
 "apache-camel-2.20.3": "2018-03-30",
 "apache-camel-2.21.0": "2018-03-15",
-"apache-camel-2.21.1": "2018-05-04",
+"apache-camel-2.21.2": "2018-07-21",
 "apache-camel-2.22.0": "2018-07-03"
 },
 "carbondata": {
@@ -850,10 +850,12 @@
 },
 "geronimo": {
 "geronimo-config-1.1": "2018-01-06",
+"geronimo-health-1.0.0": "2018-07-21",
 "geronimo-jcache-simple-1.0.0": "2018-06-15",
 "geronimo-jcdi_2.0_spec-1.0.1": "2017-09-03",
 "geronimo-jwt-auth-1.0.0": "2018-06-18",
 "geronimo-metrics-1.0.0": "2018-06-29",
+"geronimo-openapi-1.0.0": "2018-07-21",
 "safeguard-1.0": "2018-01-11",
 "xbean-4.9": "2018-07-02"
 },
@@ -3036,7 +3038,8 @@
 "apache-twill-0.10.0": "2017-02-23",
 "apache-twill-0.11.0": "2017-04-07",
 "apache-twill-0.12.0": "2017-08-25",
-"apache-twill-0.12.1": "2018-03-21"
+"apache-twill-0.12.1": "2018-03-21",
+"apache-twill-0.13.0": "2018-07-21"
 },
 "uima": {
 "ConceptMapper-2.10.2": "2018-04-19",
