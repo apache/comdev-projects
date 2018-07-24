@@ -1172,11 +1172,11 @@
 "cayenne/3.1/cayenne-3.1-win.zip",
 "cayenne/3.1/cayenne-3.1.tar.gz"
 ],
-"cayenne-3.1.2": [
-"cayenne/3.1.2/cayenne-3.1.2-macosx.dmg",
-"cayenne/3.1.2/cayenne-3.1.2-src.tar.gz",
-"cayenne/3.1.2/cayenne-3.1.2-win.zip",
-"cayenne/3.1.2/cayenne-3.1.2.tar.gz"
+"cayenne-3.1.3": [
+"cayenne/3.1.3/cayenne-3.1.3-macosx.dmg",
+"cayenne/3.1.3/cayenne-3.1.3-src.tar.gz",
+"cayenne/3.1.3/cayenne-3.1.3-win.zip",
+"cayenne/3.1.3/cayenne-3.1.3.tar.gz"
 ],
 "cayenne-4.0.RC1": [
 "cayenne/4.0.RC1/cayenne-4.0.RC1-macosx.dmg",
@@ -1184,11 +1184,11 @@
 "cayenne/4.0.RC1/cayenne-4.0.RC1-win.zip",
 "cayenne/4.0.RC1/cayenne-4.0.RC1.tar.gz"
 ],
-"cayenne-4.1.M1": [
-"cayenne/4.1.M1/cayenne-4.1.M1-macosx.dmg",
-"cayenne/4.1.M1/cayenne-4.1.M1-src.tar.gz",
-"cayenne/4.1.M1/cayenne-4.1.M1-win.zip",
-"cayenne/4.1.M1/cayenne-4.1.M1.tar.gz"
+"cayenne-4.1.M2": [
+"cayenne/4.1.M2/cayenne-4.1.M2-macosx.dmg",
+"cayenne/4.1.M2/cayenne-4.1.M2-src.tar.gz",
+"cayenne/4.1.M2/cayenne-4.1.M2-win.zip",
+"cayenne/4.1.M2/cayenne-4.1.M2.tar.gz"
 ]
 },
 "celix": {
@@ -2948,6 +2948,10 @@
 "httpcomponents-asyncclient-4.1.3": [
 "httpcomponents/httpasyncclient/source/httpcomponents-asyncclient-4.1.3-src.tar.gz",
 "httpcomponents/httpasyncclient/source/httpcomponents-asyncclient-4.1.3-src.zip"
+],
+"httpcomponents-asyncclient-4.1.4": [
+"httpcomponents/httpasyncclient/source/httpcomponents-asyncclient-4.1.4-src.tar.gz",
+"httpcomponents/httpasyncclient/source/httpcomponents-asyncclient-4.1.4-src.zip"
 ],
 "httpcomponents-client-4.5.3": [
 "httpcomponents/httpclient/source/httpcomponents-client-4.5.3-src.tar.gz",
@@ -5222,8 +5226,8 @@
 "jackrabbit-oak-1.8.5": [
 "jackrabbit/oak/1.8.5/jackrabbit-oak-1.8.5-src.zip"
 ],
-"jackrabbit-oak-1.9.5": [
-"jackrabbit/oak/1.9.5/jackrabbit-oak-1.9.5-src.zip"
+"jackrabbit-oak-1.9.6": [
+"jackrabbit/oak/1.9.6/jackrabbit-oak-1.9.6-src.zip"
 ],
 "jackrabbit-ocm-2.0.0": [
 "jackrabbit/ocm/2.0.0/jackrabbit-ocm-2.0.0-source-release.zip"
@@ -7309,20 +7313,17 @@
 "apache-qpid-broker-j-7.0.6": [
 "qpid/broker-j/7.0.6/apache-qpid-broker-j-7.0.6-src.tar.gz"
 ],
-"apache-qpid-jms-0.33.0": [
-"qpid/jms/0.33.0/apache-qpid-jms-0.33.0-src.tar.gz"
-],
 "apache-qpid-jms-0.34.0": [
 "qpid/jms/0.34.0/apache-qpid-jms-0.34.0-src.tar.gz"
+],
+"apache-qpid-jms-0.35.0": [
+"qpid/jms/0.35.0/apache-qpid-jms-0.35.0-src.tar.gz"
 ],
 "apache-qpid-jms-amqp-0-x-6.3.1": [
 "qpid/jms-amqp-0-x/6.3.1/apache-qpid-jms-amqp-0-x-6.3.1-src.tar.gz"
 ],
 "apache-qpid-jms-amqp-0-x-6.3.2": [
 "qpid/jms-amqp-0-x/6.3.2/apache-qpid-jms-amqp-0-x-6.3.2-src.tar.gz"
-],
-"apache-qpid-proton-j-0.27.1": [
-"qpid/proton-j/0.27.1/apache-qpid-proton-j-0.27.1-src.tar.gz"
 ],
 "apache-qpid-proton-j-0.27.2": [
 "qpid/proton-j/0.27.2/apache-qpid-proton-j-0.27.2-src.tar.gz"
@@ -7770,8 +7771,8 @@
 "org.apache.sling.engine-2.6.12": [
 "sling/org.apache.sling.engine-2.6.12-source-release.zip"
 ],
-"org.apache.sling.event-4.2.10": [
-"sling/org.apache.sling.event-4.2.10-source-release.zip"
+"org.apache.sling.event-4.2.12": [
+"sling/org.apache.sling.event-4.2.12-source-release.zip"
 ],
 "org.apache.sling.event.api-1.0.0": [
 "sling/org.apache.sling.event.api-1.0.0-source-release.zip"
@@ -8960,6 +8961,18 @@
 "tomee/tomee-7.0.4/apache-tomee-7.0.4-webprofile.tar.gz",
 "tomee/tomee-7.0.4/apache-tomee-7.0.4-webprofile.zip"
 ],
+"apache-tomee-7.0.5-plume": [
+"tomee/tomee-7.0.5/apache-tomee-7.0.5-plume.tar.gz",
+"tomee/tomee-7.0.5/apache-tomee-7.0.5-plume.zip"
+],
+"apache-tomee-7.0.5-plus": [
+"tomee/tomee-7.0.5/apache-tomee-7.0.5-plus.tar.gz",
+"tomee/tomee-7.0.5/apache-tomee-7.0.5-plus.zip"
+],
+"apache-tomee-7.0.5-webprofile": [
+"tomee/tomee-7.0.5/apache-tomee-7.0.5-webprofile.tar.gz",
+"tomee/tomee-7.0.5/apache-tomee-7.0.5-webprofile.zip"
+],
 "arquillian-tomee-moviefun-example-1.7.5": [
 "tomee/tomee-1.7.5/arquillian-tomee-moviefun-example-1.7.5.war"
 ],
@@ -8974,6 +8987,13 @@
 "tomee/tomee-1.7.5/examples-4.7.5-src.tar.gz",
 "tomee/tomee-1.7.5/examples-4.7.5-src.zip"
 ],
+"examples-7.0.5": [
+"tomee/tomee-7.0.5/examples-7.0.5-src.tar.gz",
+"tomee/tomee-7.0.5/examples-7.0.5-src.zip"
+],
+"legal": [
+"tomee/tomee-7.0.5/legal.zip"
+],
 "openejb-4.6.0.2": [
 "tomee/tomee-1.6.0.2/openejb-4.6.0.2-source-release.zip",
 "tomee/tomee-1.6.0.2/openejb-standalone-4.6.0.2.tar.gz",
@@ -8987,6 +9007,10 @@
 "openejb-7.0.4": [
 "tomee/tomee-7.0.4/openejb-standalone-7.0.4.tar.gz",
 "tomee/tomee-7.0.4/openejb-standalone-7.0.4.zip"
+],
+"openejb-7.0.5": [
+"tomee/tomee-7.0.5/openejb-standalone-7.0.5.tar.gz",
+"tomee/tomee-7.0.5/openejb-standalone-7.0.5.zip"
 ],
 "openejb-provisionning-4.6.0.2": [
 "tomee/tomee-1.6.0.2/openejb-provisionning-4.6.0.2.tar.gz",
