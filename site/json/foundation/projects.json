@@ -20,6 +20,11 @@
 "programming-language": "Java",
 "release": [
 {
+"created": "2018-07-19",
+"name": "Apache Accumulo",
+"revision": "1.9.2"
+},
+{
 "created": "2018-05-14",
 "name": "Apache Accumulo",
 "revision": "1.9.1"
@@ -280,6 +285,16 @@
 "pmc": "ant",
 "programming-language": "Java",
 "release": [
+{
+"created": "2018-07-13",
+"name": "Apache Ant 1.10.5",
+"revision": "1.10.5"
+},
+{
+"created": "2018-07-13",
+"name": "Apache Ant 1.9.13",
+"revision": "1.9.13"
+},
 {
 "created": "2018-06-22",
 "name": "Apache Ant 1.10.4",
@@ -1447,6 +1462,30 @@
 "http://svn.apache.org/repos/asf/lenya/trunk/"
 ],
 "shortdesc": "Content Management Framework"
+},
+"attic-lucy": {
+"bug-database": "https://issues.apache.org/jira/browse/LUCY",
+"category": "retired, database",
+"created": "2015-05-30",
+"description": "The Apache Lucy search engine library provides full-text search for dynamic programming languages.",
+"doap": "http://svn.apache.org/repos/asf/attic/data/doaps/lucy.rdf",
+"download-page": "http://lucy.apache.org/download.html",
+"homepage": "http://lucy.apache.org/",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "http://lucy.apache.org/mailing_lists.html",
+"maintainer": [
+{
+"mbox": "mailto:marvin@apache.org",
+"name": "Marvin Humphrey"
+}
+],
+"name": "Apache Lucy",
+"pmc": "attic",
+"programming-language": "C, Perl, Ruby, Go",
+"repository": [
+"http://git-wip-us.apache.org/repos/asf/lucy.git"
+],
+"shortdesc": "The Apache Lucy search engine library provides full-text search for dynamic programming languages."
 },
 "attic-mrunit": {
 "bug-database": "http://issues.apache.org/jira/browse/MRUNIT",
@@ -7091,9 +7130,9 @@
 "programming-language": "C",
 "release": [
 {
-"created": "2018-03-21",
+"created": "2018-07-16",
 "name": "Recommended current 2.4 release",
-"revision": "2.4.33"
+"revision": "2.4.34"
 }
 ],
 "repository": [
@@ -9040,168 +9079,134 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2018-03-15",
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.11.0/log4j-2.11.0.pom",
 "name": "Latest stable release",
 "revision": "2.11.0"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.10.0/log4j-2.10.0.pom",
 "name": "Apache Log4j 2 - 2.10.0",
 "revision": "2.10.0"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.9.1/log4j-2.9.1.pom",
 "name": "Apache Log4j 2 - 2.9.1",
 "revision": "2.9.1"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.9.0/log4j-2.9.0.pom",
 "name": "Apache Log4j 2 - 2.9.0",
 "revision": "2.9.0"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.8.2/log4j-2.8.2.pom",
 "name": "Apache Log4j 2 - 2.8.2",
 "revision": "2.8.2"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.8.1/log4j-2.8.1.pom",
 "name": "Apache Log4j 2 - 2.8.1",
 "revision": "2.8.1"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.8/log4j-2.8.pom",
 "name": "Apache Log4j 2 - 2.8",
 "revision": "2.8"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.7/log4j-2.7.pom",
 "name": "Apache Log4j 2 - 2.7",
 "revision": "2.7"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.6.2/log4j-2.6.2.pom",
 "name": "Apache Log4j 2 - 2.6.2",
 "revision": "2.6.2"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.6.1/log4j-2.6.1.pom",
 "name": "Apache Log4j 2 - 2.6.1",
 "revision": "2.6.1"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.6/log4j-2.6.pom",
 "name": "Apache Log4j 2 - 2.6",
 "revision": "2.6"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.5/log4j-2.5.pom",
 "name": "Apache Log4j 2 - 2.5",
 "revision": "2.5"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.4.1/log4j-2.4.1.pom",
 "name": "Apache Log4j 2 - 2.4.1",
 "revision": "2.4.1"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.4/log4j-2.4.pom",
 "name": "Apache Log4j 2 - 2.4",
 "revision": "2.4"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.3/log4j-2.3.pom",
 "name": "Apache Log4j 2 - 2.3",
 "revision": "2.3"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.2/log4j-2.2.pom",
 "name": "Apache Log4j 2 - 2.2",
 "revision": "2.2"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.1/log4j-2.1.pom",
 "name": "Apache Log4j 2 - 2.1",
 "revision": "2.1"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.0.2/log4j-2.0.2.pom",
 "name": "Apache Log4j 2 - 2.0.2",
 "revision": "2.0.2"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.0.1/log4j-2.0.1.pom",
 "name": "Apache Log4j 2 - 2.0.1",
 "revision": "2.0.1"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.0/log4j-2.0.pom",
 "name": "Apache Log4j 2 - 2.0",
 "revision": "2.0"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.0-rc2/log4j-2.0-rc2.pom",
 "name": "Apache Log4j 2 - 2.0-rc2",
 "revision": "2.0-rc2"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.0-rc1/log4j-2.0-rc1.pom",
 "name": "Apache Log4j 2 - 2.0-rc1",
 "revision": "2.0-rc1"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.0-beta9/log4j-2.0-beta9.pom",
 "name": "Apache Log4j 2 - 2.0-beta9",
 "revision": "2.0-beta9"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.0-beta8/log4j-2.0-beta8.pom",
 "name": "Apache Log4j 2 - 2.0-beta8",
 "revision": "2.0-beta8"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.0-beta7/log4j-2.0-beta7.pom",
 "name": "Apache Log4j 2 - 2.0-beta7",
 "revision": "2.0-beta7"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.0-beta6/log4j-2.0-beta6.pom",
 "name": "Apache Log4j 2 - 2.0-beta6",
 "revision": "2.0-beta6"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.0-beta5/log4j-2.0-beta5.pom",
 "name": "Apache Log4j 2 - 2.0-beta5",
 "revision": "2.0-beta5"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.0-beta4/log4j-2.0-beta4.pom",
 "name": "Apache Log4j 2 - 2.0-beta4",
 "revision": "2.0-beta4"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.0-beta3/log4j-2.0-beta3.pom",
 "name": "Apache Log4j 2 - 2.0-beta3",
 "revision": "2.0-beta3"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.0-beta2/log4j-2.0-beta2.pom",
 "name": "Apache Log4j 2 - 2.0-beta2",
 "revision": "2.0-beta2"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.0-beta1/log4j-2.0-beta1.pom",
 "name": "Apache Log4j 2 - 2.0-beta1",
 "revision": "2.0-beta1"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.0-alpha2/log4j-2.0-alpha2.pom",
 "name": "Apache Log4j 2 - 2.0-alpha2",
 "revision": "2.0-alpha2"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.0-alpha1/log4j-2.0-alpha1.pom",
 "name": "Apache Log4j 2 - 2.0-alpha1",
 "revision": "2.0-alpha1"
 }
@@ -10336,30 +10341,6 @@
 ],
 "shortdesc": "Lucene.Net is a port of the Lucene search engine library, written in C# and targeted at .NET runtime users."
 },
-"lucy": {
-"bug-database": "https://issues.apache.org/jira/browse/LUCY",
-"category": "database, retired",
-"created": "2015-05-30",
-"description": "The Apache Lucy search engine library provides full-text search for dynamic programming languages.",
-"doap": "http://lucy.apache.org/doap.rdf",
-"download-page": "http://lucy.apache.org/download.html",
-"homepage": "http://lucy.apache.org/",
-"license": "http://spdx.org/licenses/Apache-2.0",
-"mailing-list": "http://lucy.apache.org/mailing_lists.html",
-"maintainer": [
-{
-"mbox": "mailto:marvin@apache.org",
-"name": "Marvin Humphrey"
-}
-],
-"name": "Apache Lucy",
-"pmc": "attic",
-"programming-language": "C, Perl, Ruby, Go",
-"repository": [
-"http://git-wip-us.apache.org/repos/asf/lucy.git"
-],
-"shortdesc": "The Apache Lucy search engine library provides full-text search for dynamic programming languages."
-},
 "mahout": {
 "bug-database": "https://issues.apache.org/jira/browse/MAHOUT",
 "category": "library",
@@ -10535,7 +10516,7 @@
 "download-page": "https://maven.apache.org/download.html",
 "homepage": "https://maven.apache.org/",
 "license": "http://www.apache.org/licenses/LICENSE-2.0.txt",
-"mailing-list": "https://maven.apache.org/mail-lists.html",
+"mailing-list": "https://maven.apache.org/mailing-lists.html",
 "maintainer": [
 {
 "mbox": "mailto:dev@maven.apache.org",
@@ -11859,8 +11840,8 @@
 }
 ],
 "repository": [
-"http://svn.apache.org/repos/asf/opennlp",
-"https://github.com/apache/opennlp.git"
+"https://github.com/apache/opennlp.git",
+"http://svn.apache.org/repos/asf/opennlp"
 ],
 "shortdesc": "Apache OpenNLP library software is a machine learning based toolkit for the processing of natural language text.."
 },

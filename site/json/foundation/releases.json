@@ -2,14 +2,14 @@
 "META": {
 "ASF": "2018-03-24",
 "Makefile": "2018-03-27",
-"ROOT": "2018-07-01",
+"ROOT": "2018-07-21",
 "cert-chain.pem": "2018-03-25",
 "config": "2018-04-08",
 "mk-root": "2018-04-10"
 },
 "accumulo": {
 "accumulo-1.7.4": "2018-03-23",
-"accumulo-1.9.1": "2018-05-14"
+"accumulo-1.9.2": "2018-07-19"
 },
 "activemq": {
 "Apache.NMS-1.5.1": "2014-08-04",
@@ -35,11 +35,11 @@
 "allura-1.8.1": "2018-03-14"
 },
 "ambari": {
-"apache-ambari-2.6.2": "2018-04-30"
+"apache-ambari-2.7.0": "2018-07-13"
 },
 "ant": {
-"apache-ant-1.10.4": "2018-06-22",
-"apache-ant-1.9.12": "2018-06-22",
+"apache-ant-1.10.5": "2018-07-13",
+"apache-ant-1.9.13": "2018-07-13",
 "apache-ant-antunit-1.4": "2018-06-25",
 "apache-ant-compress-1.5": "2017-06-13",
 "apache-ant-dotnet-1.1": "2012-03-11",
@@ -300,22 +300,15 @@
 "bval-1.1.2": "2016-11-03"
 },
 "calcite": {
-"apache-calcite-1.15.0": "2017-12-09",
 "apache-calcite-1.16.0": "2018-03-17",
+"apache-calcite-1.17.0": "2018-07-20",
 "apache-calcite-avatica-1.11.0": "2018-03-09",
 "apache-calcite-avatica-1.12.0": "2018-06-24",
 "apache-calcite-avatica-go-3.0.0": "2018-04-27"
 },
 "camel": {
-"apache-camel-2.15.6": "2016-03-31",
-"apache-camel-2.16.4": "2016-09-25",
-"apache-camel-2.16.5": "2016-12-20",
-"apache-camel-2.17.7": "2017-05-18",
-"apache-camel-2.18.5": "2017-09-25",
-"apache-camel-2.19.5": "2018-03-30",
-"apache-camel-2.20.3": "2018-03-30",
-"apache-camel-2.21.0": "2018-03-15",
-"apache-camel-2.21.1": "2018-05-04",
+"apache-camel-2.20.4": "2018-07-26",
+"apache-camel-2.21.2": "2018-07-21",
 "apache-camel-2.22.0": "2018-07-03"
 },
 "carbondata": {
@@ -393,9 +386,9 @@
 "cayenne": {
 "cayenne-3.0.2": "2013-07-18",
 "cayenne-3.1": "2014-09-20",
-"cayenne-3.1.2": "2017-11-13",
+"cayenne-3.1.3": "2018-07-11",
 "cayenne-4.0.RC1": "2018-04-18",
-"cayenne-4.1.M1": "2017-10-06"
+"cayenne-4.1.M2": "2018-07-12"
 },
 "celix": {
 "celix-2.1.0": "2018-01-30"
@@ -489,7 +482,7 @@
 "cocoon-xml-2.0.4": "2014-10-29"
 },
 "commons": {
-"CONTRIBUTING.md": "2016-12-12",
+"CONTRIBUTING.md": "2018-07-17",
 "apache-commons-rdf-0.5.0": "2017-12-23",
 "apache-sanselan-incubating-0.97": "2013-03-03",
 "bcel-6.2": "2017-12-08",
@@ -502,7 +495,7 @@
 "commons-cli-1.4": "2017-03-13",
 "commons-codec-1.11": "2017-10-20",
 "commons-collections-3.2.2": "2015-11-14",
-"commons-collections4-4.1": "2016-02-02",
+"commons-collections4-4.2": "2018-07-11",
 "commons-compress-1.17": "2018-06-03",
 "commons-configuration-1.10": "2013-10-28",
 "commons-configuration2-2.2": "2017-10-12",
@@ -512,6 +505,7 @@
 "commons-dbcp-1.3": "2013-03-03",
 "commons-dbcp-1.4": "2013-03-03",
 "commons-dbcp2-2.4.0": "2018-06-16",
+"commons-dbcp2-2.5.0": "2018-07-16",
 "commons-dbutils-1.7": "2017-07-21",
 "commons-digester-2.1": "2013-03-03",
 "commons-digester3-3.2": "2013-03-03",
@@ -550,7 +544,7 @@
 "cordova": {
 "cordova-8.0.0": "2017-12-19",
 "cordova-amazon-fireos-3.6.3": "2014-09-16",
-"cordova-android-7.1.0": "2018-02-24",
+"cordova-android-7.1.1": "2018-07-16",
 "cordova-app-hello-world-3.12.0": "2017-05-04",
 "cordova-blackberry10-3.8.0": "2015-09-05",
 "cordova-browser-5.0.3": "2017-12-28",
@@ -559,7 +553,7 @@
 "cordova-create-1.1.2": "2017-12-19",
 "cordova-fetch-1.3.0": "2017-12-19",
 "cordova-firefoxos-3.6.3": "2014-09-16",
-"cordova-ios-4.5.4": "2017-11-21",
+"cordova-ios-4.5.5": "2018-07-26",
 "cordova-js-4.2.4": "2018-06-26",
 "cordova-lib-8.0.0": "2017-12-19",
 "cordova-osx-4.0.1": "2016-03-08",
@@ -599,7 +593,9 @@
 },
 "couchdb": {
 "apache-couchdb-1.7.1": "2017-11-10",
-"apache-couchdb-2.1.1": "2017-11-07"
+"apache-couchdb-1.7.2": "2018-07-10",
+"apache-couchdb-2.1.1": "2017-11-07",
+"apache-couchdb-2.1.2": "2018-07-10"
 },
 "creadur": {
 "apache-rat-0.11": "2014-08-21",
@@ -650,22 +646,27 @@
 "apache-ldap-api-1.0.0-RC2": "2016-10-31",
 "apache-ldap-api-1.0.1": "2018-05-19",
 "apache-ldap-api-1.0.2": "2018-06-06",
+"apache-ldap-api-2.0.0.AM1": "2018-07-19",
 "apacheds-2.0.0-M23": "2016-07-22",
 "apacheds-2.0.0-M24": "2017-06-07",
 "fortress-core-2.0.0": "2017-06-22",
 "fortress-core-2.0.0-RC1": "2016-11-07",
 "fortress-core-2.0.0-RC2": "2017-05-04",
+"fortress-core-2.0.1": "2018-07-20",
 "fortress-realm-2.0.0": "2017-07-06",
 "fortress-realm-2.0.0-RC1": "2016-11-07",
 "fortress-realm-2.0.0-RC2": "2017-05-04",
+"fortress-realm-2.0.1": "2018-07-20",
 "fortress-rest": "2016-11-07",
 "fortress-rest-2.0.0": "2017-06-22",
 "fortress-rest-2.0.0-RC1": "2016-11-07",
 "fortress-rest-2.0.0-RC2": "2017-05-04",
+"fortress-rest-2.0.1": "2018-07-20",
 "fortress-web": "2016-11-07",
 "fortress-web-2.0.0": "2017-06-22",
 "fortress-web-2.0.0-RC1": "2016-11-07",
 "fortress-web-2.0.0-RC2": "2017-05-04",
+"fortress-web-2.0.1": "2018-07-20",
 "kerby-all-1.0.1": "2017-09-04",
 "kerby-all-1.1.1": "2018-05-25",
 "mavibot-1.0.0-M8": "2015-08-16",
@@ -715,7 +716,7 @@
 "org.apache.felix.http.base-4.0.0": "2018-04-30",
 "org.apache.felix.http.bridge-4.0.0": "2018-04-30",
 "org.apache.felix.http.bundle-3.0.0": "2015-02-02",
-"org.apache.felix.http.jetty-4.0.0": "2018-04-30",
+"org.apache.felix.http.jetty-4.0.2": "2018-07-13",
 "org.apache.felix.http.proxy-3.0.2": "2016-04-01",
 "org.apache.felix.http.samples.bridge-2.3.2": "2014-11-11",
 "org.apache.felix.http.servlet-api-1.1.2": "2015-08-10",
@@ -742,7 +743,8 @@
 "org.apache.felix.ipojo.runtime-1.12.1": "2014-12-24",
 "org.apache.felix.ipojo.webconsole-1.7.0": "2013-05-24",
 "org.apache.felix.jaas-1.0.2": "2017-02-16",
-"org.apache.felix.log-1.0.1": "2012-12-28",
+"org.apache.felix.log-1.2.0": "2018-07-13",
+"org.apache.felix.log.extension-1.0.0": "2018-07-13",
 "org.apache.felix.logback-1.0.0": "2018-06-25",
 "org.apache.felix.main-6.0.0": "2018-07-06",
 "org.apache.felix.main.distribution-6.0.0": "2018-07-06",
@@ -760,6 +762,7 @@
 "org.apache.felix.shell-1.4.3": "2012-12-28",
 "org.apache.felix.shell.remote-1.1.2": "2012-12-28",
 "org.apache.felix.shell.tui-1.4.1": "2012-12-28",
+"org.apache.felix.systemready-0.2.0": "2018-07-16",
 "org.apache.felix.threaddump-1.0.0": "2015-08-28",
 "org.apache.felix.upnp.basedriver-0.8.0": "2012-12-28",
 "org.apache.felix.upnp.extra-0.4.0": "2012-12-28",
@@ -789,6 +792,7 @@
 "apache-flex-sdk-installer-3.2.0": "2015-06-24",
 "apache-flex-sdk-installer-3.3.0": "2017-11-16",
 "apache-flex-sdk-installer-3.3.1": "2018-04-22",
+"apache-flex-sdk-installer-3.3.2": "2018-07-09",
 "apache-flex-sdk-pixel-bender-1.0.0": "2014-01-20",
 "apache-flex-squiggly-1.1": "2014-10-27",
 "apache-flex-tour-de-flex-component-explorer-1.2": "2014-11-29",
@@ -798,7 +802,7 @@
 "flink": {
 "flink-1.3.3": "2018-03-15",
 "flink-1.4.2": "2018-03-08",
-"flink-1.5.0": "2018-05-25",
+"flink-1.5.1": "2018-07-12",
 "flink-shaded-2.0": "2017-10-30",
 "flink-shaded-3.0": "2018-02-28",
 "flink-shaded-4.0": "2018-06-06"
@@ -837,10 +841,12 @@
 },
 "geronimo": {
 "geronimo-config-1.1": "2018-01-06",
+"geronimo-health-1.0.0": "2018-07-21",
 "geronimo-jcache-simple-1.0.0": "2018-06-15",
 "geronimo-jcdi_2.0_spec-1.0.1": "2017-09-03",
 "geronimo-jwt-auth-1.0.0": "2018-06-18",
 "geronimo-metrics-1.0.0": "2018-06-29",
+"geronimo-openapi-1.0.0": "2018-07-21",
 "safeguard-1.0": "2018-01-11",
 "xbean-4.9": "2018-07-02"
 },
@@ -854,18 +860,12 @@
 },
 "groovy": {
 "apache-groovy-2.4.15": "2018-03-27",
-"apache-groovy-2.5.0": "2018-05-30",
-"apache-groovy-2.6.0-alpha-3": "2018-03-06",
+"apache-groovy-2.5.1": "2018-07-13",
 "apache-groovy-2.6.0-alpha-4": "2018-06-26",
-"apache-groovy-3.0.0-alpha-1": "2017-11-29",
-"apache-groovy-3.0.0-alpha-2": "2018-04-17",
 "apache-groovy-3.0.0-alpha-3": "2018-06-26",
 "apache-groovy-sdk-2.4.15": "2018-03-27",
-"apache-groovy-sdk-2.5.0": "2018-05-30",
-"apache-groovy-sdk-2.6.0-alpha-3": "2018-03-06",
+"apache-groovy-sdk-2.5.1": "2018-07-13",
 "apache-groovy-sdk-2.6.0-alpha-4": "2018-06-26",
-"apache-groovy-sdk-3.0.0-alpha-1": "2017-11-29",
-"apache-groovy-sdk-3.0.0-alpha-2": "2018-04-17",
 "apache-groovy-sdk-3.0.0-alpha-3": "2018-06-26"
 },
 "guacamole": {
@@ -879,6 +879,7 @@
 "hadoop": {
 "hadoop-2.6.5": "2016-10-11",
 "hadoop-2.7.6": "2018-04-18",
+"hadoop-2.7.7": "2018-07-20",
 "hadoop-2.8.4": "2018-05-15",
 "hadoop-2.9.0": "2017-11-17",
 "hadoop-2.9.1": "2018-04-19",
@@ -895,6 +896,7 @@
 "hbase-1.3.2.1": "2018-06-13",
 "hbase-1.4.5": "2018-06-13",
 "hbase-2.0.1": "2018-06-13",
+"hbase-2.1.0": "2018-07-18",
 "hbase-thirdparty-1.0.1": "2017-08-28",
 "hbase-thirdparty-2.1.0": "2018-03-19"
 },
@@ -913,14 +915,17 @@
 "apache-hive-3.0.0": "2018-05-22",
 "hive-metastore-3.0.0": "2018-06-07",
 "hive-storage-2.4.0": "2017-07-18",
-"hive-storage-2.6.1": "2018-05-11"
+"hive-storage-2.6.1": "2018-05-11",
+"hive-storage-2.7.0-rc1": "2018-07-19"
 },
 "httpcomponents": {
 "commons-httpclient-3.1": "2012-11-26",
 "httpcomponents-asyncclient-4.1.3": "2017-02-08",
+"httpcomponents-asyncclient-4.1.4": "2018-07-23",
 "httpcomponents-client-4.5.3": "2017-01-26",
 "httpcomponents-client-4.5.4": "2017-11-30",
 "httpcomponents-client-4.5.5": "2018-01-22",
+"httpcomponents-client-4.5.6": "2018-07-09",
 "httpcomponents-client-5.0-alpha1": "2016-01-23",
 "httpcomponents-client-5.0-alpha2": "2017-05-10",
 "httpcomponents-client-5.0-alpha3": "2017-11-24",
@@ -934,9 +939,7 @@
 },
 "httpd": {
 "META": "2018-03-09",
-"httpd-2.4.29": "2017-10-20",
-"httpd-2.4.32": "2018-03-14",
-"httpd-2.4.33": "2018-03-21",
+"httpd-2.4.34": "2018-07-13",
 "httpd_logo_wide_new.png": "2016-12-21",
 "libapreq-1.34": "2009-10-03",
 "libapreq2-2.13": "2010-12-02",
@@ -946,7 +949,7 @@
 "mod_ftp-0.9.6-beta-crlf": "2009-10-08"
 },
 "ignite": {
-"apache-ignite-2.5.0": "2018-05-24"
+"apache-ignite-2.6.0": "2018-07-10"
 },
 "impala": {
 "apache-impala-2.12.0": "2018-04-24",
@@ -955,11 +958,8 @@
 "incubator-airflow": {
 "apache-airflow-1.9.0+incubating": "2018-01-02"
 },
-"incubator-ariatosca": {
-"apache-ariatosca-0.1.1": "2017-07-18",
-"apache-ariatosca-0.1.1-incubating": "2017-07-18",
-"apache-ariatosca-0.2.0": "2018-01-16",
-"apache-ariatosca-0.2.0-incubating": "2018-01-16"
+"incubator-amaterasu": {
+"apache-amaterasu-0.2.0-incubating-rc4": "2018-07-10"
 },
 "incubator-batchee": {
 "batchee-0.5-incubating": "2017-12-13"
@@ -1013,7 +1013,7 @@
 "livy-0.5.0-incubating": "2018-01-25"
 },
 "incubator-mxnet": {
-"apache-mxnet-1.2.0-incubating": "2018-05-21"
+"apache-mxnet-1.2.1-incubating": "2018-07-17"
 },
 "incubator-myriad": {
 "myriad-0.1.0-incubating": "2015-12-10",
@@ -1583,6 +1583,9 @@
 "apache-omid-incubating-0.8.2.0": "2016-06-27",
 "apache-omid-incubating-0.9.0.0": "2018-06-03"
 },
+"incubator-openwhisk": {
+"openwhisk-0.9.0-incubating": "2018-07-17"
+},
 "incubator-ponymail": {
 "apache-pony-mail-0.10-incubating": "2018-02-19"
 },
@@ -1598,7 +1601,8 @@
 "apache-quickstep-incubating-0.1.0": "2017-03-25"
 },
 "incubator-ratis": {
-"apache-ratis-incubating-0.1.0-alpha": "2017-05-03"
+"apache-ratis-incubating-0.1.0-alpha": "2017-05-03",
+"apache-ratis-incubating-0.2.0": "2018-06-28"
 },
 "incubator-rya": {
 "rya-3.2.12-incubating": "2018-03-04"
@@ -1628,7 +1632,8 @@
 },
 "incubator-skywalking": {
 "apache-skywalking-apm-incubating-5.0.0-alpha": "2018-03-28",
-"apache-skywalking-apm-incubating-5.0.0-beta": "2018-05-12"
+"apache-skywalking-apm-incubating-5.0.0-beta": "2018-05-12",
+"apache-skywalking-apm-incubating-5.0.0-beta2": "2018-07-05"
 },
 "incubator-spot": {
 "apache-spot-1.0-incubating": "2017-08-16"
@@ -1687,10 +1692,10 @@
 "jackrabbit-2.12.9": "2018-05-06",
 "jackrabbit-2.14.5": "2018-04-16",
 "jackrabbit-2.16.2": "2018-06-12",
-"jackrabbit-2.17.3": "2018-05-10",
+"jackrabbit-2.17.4": "2018-07-10",
 "jackrabbit-2.4.8": "2017-07-17",
 "jackrabbit-2.6.10": "2018-03-05",
-"jackrabbit-2.8.8": "2018-07-03",
+"jackrabbit-2.8.9": "2018-07-16",
 "jackrabbit-filevault-3.0.0": "2013-09-26",
 "jackrabbit-filevault-3.1.0": "2014-03-27",
 "jackrabbit-filevault-3.1.14": "2014-12-16",
@@ -1711,16 +1716,16 @@
 "jackrabbit-jca-2.12.9": "2018-05-06",
 "jackrabbit-jca-2.14.5": "2018-04-16",
 "jackrabbit-jca-2.16.2": "2018-06-12",
-"jackrabbit-jca-2.17.3": "2018-05-10",
+"jackrabbit-jca-2.17.4": "2018-07-10",
 "jackrabbit-jca-2.4.8": "2017-07-17",
 "jackrabbit-jca-2.6.10": "2018-03-05",
-"jackrabbit-jca-2.8.8": "2018-07-03",
+"jackrabbit-jca-2.8.9": "2018-07-16",
 "jackrabbit-oak-1.0.42": "2018-03-20",
 "jackrabbit-oak-1.2.29": "2018-03-12",
 "jackrabbit-oak-1.4.22": "2018-06-25",
 "jackrabbit-oak-1.6.12": "2018-05-28",
 "jackrabbit-oak-1.8.5": "2018-07-03",
-"jackrabbit-oak-1.9.5": "2018-07-03",
+"jackrabbit-oak-1.9.6": "2018-07-18",
 "jackrabbit-ocm-2.0.0": "2012-12-17",
 "oak-segment-tar-0.0.16": "2016-10-24"
 },
@@ -1792,7 +1797,10 @@
 "kafka-0.11.0.3": "2018-07-03",
 "kafka-1.0.0": "2017-11-01",
 "kafka-1.0.1": "2018-03-05",
+"kafka-1.0.2": "2018-07-14",
 "kafka-1.1.0": "2018-03-28",
+"kafka-1.1.1": "2018-07-19",
+"kafka-2.0.0": "2018-07-28",
 "kafka_2.10-0.10.2.1": "2017-04-26",
 "kafka_2.10-0.10.2.2": "2018-07-03",
 "kafka_2.11-0.10.2.1": "2017-04-26",
@@ -1801,14 +1809,20 @@
 "kafka_2.11-0.11.0.3": "2018-07-03",
 "kafka_2.11-1.0.0": "2017-11-01",
 "kafka_2.11-1.0.1": "2018-03-05",
+"kafka_2.11-1.0.2": "2018-07-14",
 "kafka_2.11-1.1.0": "2018-03-28",
+"kafka_2.11-1.1.1": "2018-07-19",
+"kafka_2.11-2.0.0": "2018-07-28",
 "kafka_2.12-0.10.2.1": "2017-04-26",
 "kafka_2.12-0.10.2.2": "2018-07-03",
 "kafka_2.12-0.11.0.2": "2017-11-16",
 "kafka_2.12-0.11.0.3": "2018-07-03",
 "kafka_2.12-1.0.0": "2017-11-01",
 "kafka_2.12-1.0.1": "2018-03-05",
-"kafka_2.12-1.1.0": "2018-03-28"
+"kafka_2.12-1.0.2": "2018-07-14",
+"kafka_2.12-1.1.0": "2018-03-28",
+"kafka_2.12-1.1.1": "2018-07-19",
+"kafka_2.12-2.0.0": "2018-07-28"
 },
 "karaf": {
 "_remote.repositories": "2018-03-02",
@@ -1870,8 +1884,7 @@
 "Apache_log4php-2.3.0": "2013-01-31",
 "apache-chainsaw-2.0.0": "2018-01-20",
 "apache-log4cxx-0.10.0": "2013-01-31",
-"apache-log4j-2.10.0": "2017-11-23",
-"apache-log4j-2.11.0": "2018-03-16",
+"apache-log4j-2.11.1": "2018-07-26",
 "apache-log4j-2.3": "2015-05-15",
 "apache-log4j-audit-1.0.0": "2018-06-17",
 "apache-log4j-extras-1.2.17": "2013-10-19",
@@ -1882,7 +1895,6 @@
 },
 "lucene": {
 "lucene-5.5.5": "2017-10-20",
-"lucene-6.6.4": "2018-05-13",
 "lucene-6.6.5": "2018-06-30",
 "lucene-7.4.0": "2018-06-18",
 "pylucene-2.9.4-1": "2013-01-15",
@@ -1892,7 +1904,6 @@
 "pylucene-6.4.1": "2017-02-13",
 "pylucene-6.5.0": "2017-04-06",
 "solr-5.5.5": "2017-10-20",
-"solr-6.6.4": "2018-05-13",
 "solr-6.6.5": "2018-06-30",
 "solr-7.4.0": "2018-06-18"
 },
@@ -1959,7 +1970,7 @@
 "enforcer-3.0.0-M2": "2018-06-16",
 "file-management-3.0.0": "2015-12-28",
 "jxr-2.5": "2014-11-05",
-"maven-31": "2018-02-05",
+"maven-32": "2018-07-18",
 "maven-acr-plugin-3.1.0": "2018-06-23",
 "maven-ant-plugin-2.4": "2014-12-21",
 "maven-antrun-plugin-1.8": "2014-12-26",
@@ -2039,7 +2050,8 @@
 "mesos-1.3.2": "2018-01-25",
 "mesos-1.4.1": "2017-11-15",
 "mesos-1.5.1": "2018-05-31",
-"mesos-1.6.0": "2018-05-12"
+"mesos-1.6.0": "2018-05-12",
+"mesos-1.6.1": "2018-07-25"
 },
 "metamodel": {
 "MetaModel-4.0.0-incubating": "2014-01-27",
@@ -2105,6 +2117,7 @@
 "apache-mina-2.0.9": "2014-10-25",
 "apache-mina-3.0.0-M2": "2013-07-31",
 "apache-sshd-1.7.0": "2018-01-23",
+"apache-sshd-2.0.0": "2018-07-25",
 "ftpserver-1.0.6": "2012-12-26",
 "vysper-0.7": "2012-12-26"
 },
@@ -2169,13 +2182,10 @@
 },
 "nifi": {
 "minifi-0.5.0": "2018-06-28",
-"nifi-1.6.0": "2018-04-03",
-"nifi-1.7.0": "2018-06-20",
+"nifi-1.7.1": "2018-07-12",
 "nifi-fds-0.1.0": "2018-06-11",
 "nifi-minifi-cpp-0.5.0": "2018-05-31",
-"nifi-nar-maven-plugin-1.1.0": "2015-08-23",
 "nifi-nar-maven-plugin-1.2.0": "2017-03-14",
-"nifi-registry-0.1.0": "2017-12-28",
 "nifi-registry-0.2.0": "2018-06-16"
 },
 "nutch": {
@@ -2240,11 +2250,10 @@
 "apache-openoffice-4.1.5-r1817496": "2017-12-12"
 },
 "openwebbeans": {
-"meecrowave-1.2.1": "2018-03-01",
+"meecrowave-1.2.3": "2018-07-22",
 "openwebbeans-1.2.8": "2015-04-27",
 "openwebbeans-1.7.5": "2018-05-02",
-"openwebbeans-2.0.4": "2018-05-02",
-"openwebbeans-2.0.5": "2018-05-02"
+"openwebbeans-2.0.6": "2018-07-17"
 },
 "orc": {
 "orc-1.4.4": "2018-05-14",
@@ -2402,10 +2411,12 @@
 },
 "qpid": {
 "apache-qpid-broker-j-7.0.6": "2018-06-21",
-"apache-qpid-jms-0.33.0": "2018-06-11",
 "apache-qpid-jms-0.34.0": "2018-06-25",
+"apache-qpid-jms-0.35.0": "2018-07-20",
 "apache-qpid-jms-amqp-0-x-6.3.1": "2018-05-15",
-"apache-qpid-proton-j-0.27.1": "2018-04-25",
+"apache-qpid-jms-amqp-0-x-6.3.2": "2018-07-13",
+"apache-qpid-proton-j-0.27.2": "2018-07-13",
+"apache-qpid-proton-j-0.28.0": "2018-07-13",
 "qpid-dispatch-1.0.1": "2018-02-23",
 "qpid-dispatch-1.1.0": "2018-06-07",
 "qpid-dispatch-1.2.0": "2018-06-29",
@@ -2418,7 +2429,8 @@
 "ranger": {
 "apache-ranger-0.6.3": "2017-01-31",
 "apache-ranger-0.7.1": "2017-06-07",
-"apache-ranger-1.0.0": "2018-03-20"
+"apache-ranger-1.0.0": "2018-03-20",
+"apache-ranger-1.1.0": "2018-07-09"
 },
 "reef": {
 "apache-reef-0.10.0-incubating": "2015-01-15",
@@ -2562,7 +2574,7 @@
 "org.apache.sling.distribution.sample-0.1.6": "2016-02-08",
 "org.apache.sling.dynamic-include-3.1.0": "2018-05-18",
 "org.apache.sling.engine-2.6.12": "2018-01-08",
-"org.apache.sling.event-4.2.10": "2017-11-13",
+"org.apache.sling.event-4.2.12": "2018-07-23",
 "org.apache.sling.event.api-1.0.0": "2017-04-19",
 "org.apache.sling.event.dea-1.1.2": "2017-03-08",
 "org.apache.sling.extensions.classloader-leak-detector-1.0.0": "2014-05-23",
@@ -2604,7 +2616,7 @@
 "org.apache.sling.jcr.base-3.0.4": "2017-07-21",
 "org.apache.sling.jcr.classloader-3.2.2": "2014-09-19",
 "org.apache.sling.jcr.compiler-2.1.0": "2013-01-21",
-"org.apache.sling.jcr.contentloader-2.2.4": "2017-06-02",
+"org.apache.sling.jcr.contentloader-2.2.6": "2018-07-10",
 "org.apache.sling.jcr.contentparser-1.2.6": "2018-05-06",
 "org.apache.sling.jcr.davex-1.3.10": "2017-11-20",
 "org.apache.sling.jcr.jackrabbit.accessmanager-3.0.0": "2017-05-11",
@@ -2627,7 +2639,7 @@
 "org.apache.sling.junit.teleporter-1.0.16": "2017-09-29",
 "org.apache.sling.karaf-repoinit-0.2.0": "2017-03-20",
 "org.apache.sling.launchpad.api-1.2.0": "2015-06-29",
-"org.apache.sling.launchpad.base-5.6.10-2.6.26": "2017-11-20",
+"org.apache.sling.launchpad.base-6.0.0-2.6.28": "2018-07-19",
 "org.apache.sling.launchpad.content-2.0.12": "2017-05-29",
 "org.apache.sling.launchpad.installer-1.2.2": "2015-01-12",
 "org.apache.sling.launchpad.integration-tests-1.0.6": "2018-02-03",
@@ -2717,7 +2729,7 @@
 "org.apache.sling.validation.api-1.0.0": "2017-04-12",
 "org.apache.sling.validation.core-1.0.4": "2017-12-21",
 "org.apache.sling.validation.test-services-1.0.4": "2017-12-21",
-"org.apache.sling.xss-2.0.8": "2018-07-03",
+"org.apache.sling.xss-2.0.10": "2018-07-12",
 "org.apache.sling.xss.compat-1.1.0": "2017-05-11",
 "sling-33": "2018-01-20",
 "sling-6": "2013-01-21",
@@ -2739,25 +2751,14 @@
 "Mail-SpamAssassin-rules-3.4.1.r1675274": "2015-04-29"
 },
 "spark": {
-"SparkR_2.1.2": "2017-10-09",
 "SparkR_2.1.3": "2018-06-26",
-"SparkR_2.2.1": "2017-11-25",
 "SparkR_2.2.2": "2018-06-27",
-"SparkR_2.3.0": "2018-02-22",
 "SparkR_2.3.1": "2018-06-01",
-"pyspark-2.1.2": "2017-10-09",
 "pyspark-2.1.3": "2018-06-26",
-"pyspark-2.2.1": "2017-11-25",
 "pyspark-2.2.2": "2018-06-27",
-"pyspark-2.3.0": "2018-02-22",
 "pyspark-2.3.1": "2018-06-01",
-"spark-1.6.3": "2016-11-06",
-"spark-2.0.2": "2016-11-11",
-"spark-2.1.2": "2017-10-09",
 "spark-2.1.3": "2018-06-26",
-"spark-2.2.1": "2017-11-25",
 "spark-2.2.2": "2018-06-27",
-"spark-2.3.0": "2018-02-22",
 "spark-2.3.1": "2018-06-01"
 },
 "sqoop": {
@@ -2813,11 +2814,8 @@
 "struts2-secure-jakarta-stream-multipart-parser-plugin-1.1": "2017-03-22"
 },
 "subversion": {
-"subversion-1.10.0": "2018-04-12",
-"subversion-1.8.19": "2017-08-10",
-"subversion-1.9.7": "2017-08-10",
-"svn_version.h.dist-1.8.19": "2017-08-10",
-"svn_version.h.dist-1.9.7": "2017-08-10"
+"subversion-1.10.2": "2018-07-19",
+"subversion-1.9.9": "2018-07-19"
 },
 "synapse": {
 "synapse": "2014-10-30",
@@ -2830,16 +2828,21 @@
 "synapse-distribution-3.0.1": "2017-12-09"
 },
 "syncope": {
-"apache-syncope-1.2.11": "2018-03-13",
 "apache-syncope-2.0.9": "2018-06-27",
-"apache-syncope-console-1.2.11": "2018-03-13",
+"apache-syncope-2.1.0": "2018-07-05",
 "apache-syncope-console-2.0.9": "2018-06-27",
+"apache-syncope-console-2.1.0": "2018-07-05",
 "apache-syncope-enduser-2.0.9": "2018-06-27",
+"apache-syncope-enduser-2.1.0": "2018-07-05",
 "org.apache.syncope.ide.eclipse.site-2.0.9": "2018-06-27",
-"syncope-1.2.11": "2018-03-13",
+"org.apache.syncope.ide.eclipse.site-2.1.0": "2018-07-05",
 "syncope-2.0.9": "2018-06-28",
+"syncope-2.1.0": "2018-07-05",
 "syncope-client-cli-2.0.9": "2018-06-27",
-"syncope-ide-netbeans-2.0.9.nbm": "2018-06-27"
+"syncope-client-cli-2.1.0": "2018-07-05",
+"syncope-core-upgrade-2.1.0": "2018-07-05",
+"syncope-ide-netbeans-2.0.9.nbm": "2018-06-27",
+"syncope-ide-netbeans-2.1.0.nbm": "2018-07-05"
 },
 "systemml": {
 "systemml-0.14.0-incubating": "2017-04-19",
@@ -2942,35 +2945,32 @@
 "apache-tomee-1.7.5-plume": "2017-10-24",
 "apache-tomee-1.7.5-plus": "2017-10-24",
 "apache-tomee-1.7.5-webprofile": "2017-10-24",
-"apache-tomee-7.0.4-plume": "2017-10-10",
-"apache-tomee-7.0.4-plus": "2017-10-10",
-"apache-tomee-7.0.4-webprofile": "2017-10-10",
+"apache-tomee-7.0.5-plume": "2018-07-10",
+"apache-tomee-7.0.5-plus": "2018-07-10",
+"apache-tomee-7.0.5-webprofile": "2018-07-10",
 "arquillian-tomee-moviefun-example-1.7.5": "2017-10-24",
-"arquillian-tomee-moviefun-example-7.0.4": "2017-10-10",
 "examples-4.6.0.2": "2014-05-06",
 "examples-4.7.5": "2017-10-24",
+"examples-7.0.5": "2018-07-10",
 "openejb-4.6.0.2": "2014-05-06",
 "openejb-4.7.5": "2017-10-24",
-"openejb-7.0.4": "2017-10-10",
+"openejb-7.0.5": "2018-07-10",
 "openejb-provisionning-4.6.0.2": "2014-05-06",
 "openejb-provisionning-4.7.5": "2017-10-24",
-"openejb-provisionning-7.0.4": "2017-10-10",
 "openejb-ssh-4.6.0.2": "2014-05-06",
 "openejb-ssh-4.7.5": "2017-10-24",
-"openejb-ssh-7.0.4": "2017-10-10",
 "tomee-1.6.0.2": "2014-05-06",
 "tomee-1.7.5": "2017-10-24",
-"tomee-7.0.4": "2017-10-10",
+"tomee-7.0.5": "2018-07-24",
 "tomee-jaxrs-1.6.0.2": "2014-05-06",
 "tomee-jaxrs-1.7.5": "2017-10-24",
 "tomee-plume-1.7.5": "2017-10-24",
-"tomee-plume-7.0.4": "2017-10-10",
+"tomee-plume-7.0.5": "2018-07-24",
 "tomee-plus-1.6.0.2": "2014-05-06",
 "tomee-plus-1.7.5": "2017-10-24",
-"tomee-plus-7.0.4": "2017-10-10",
+"tomee-plus-7.0.5": "2018-07-24",
 "tomee-webaccess-1.6.0.2": "2014-05-06",
-"tomee-webaccess-1.7.5": "2017-10-24",
-"tomee-webaccess-7.0.4": "2017-10-10"
+"tomee-webaccess-1.7.5": "2017-10-24"
 },
 "trafficcontrol": {
 "apache-trafficcontrol-2.2.0": "2018-06-18"
@@ -3022,7 +3022,8 @@
 "apache-twill-0.10.0": "2017-02-23",
 "apache-twill-0.11.0": "2017-04-07",
 "apache-twill-0.12.0": "2017-08-25",
-"apache-twill-0.12.1": "2018-03-21"
+"apache-twill-0.12.1": "2018-03-21",
+"apache-twill-0.13.0": "2018-07-21"
 },
 "uima": {
 "ConceptMapper-2.10.2": "2018-04-19",
@@ -3156,6 +3157,7 @@
 "zookeeper": {
 "zookeeper-3.4.10": "2017-03-30",
 "zookeeper-3.4.12": "2018-04-25",
+"zookeeper-3.4.13": "2018-07-16",
 "zookeeper-3.5.3-beta": "2017-04-17",
 "zookeeper-3.5.4-beta": "2018-05-16"
 }
