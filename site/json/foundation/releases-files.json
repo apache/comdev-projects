@@ -2849,6 +2849,9 @@
 ],
 "helix-0.8.1": [
 "helix/0.8.1/src/helix-0.8.1-src.zip"
+],
+"helix-0.8.2": [
+"helix/0.8.2/src/helix-0.8.2-src.zip"
 ]
 },
 "hive": {
@@ -2861,6 +2864,9 @@
 ],
 "apache-hive-3.0.0": [
 "hive/hive-3.0.0/apache-hive-3.0.0-src.tar.gz"
+],
+"apache-hive-3.1.0": [
+"hive/hive-3.1.0/apache-hive-3.1.0-src.tar.gz"
 ],
 "hive-metastore-3.0.0": [
 "hive/hive-standalone-metastore-3.0.0/hive-standalone-metastore-3.0.0-src.tar.gz"
@@ -5612,9 +5618,9 @@
 "jackrabbit/2.16.2/jackrabbit-2.16.2-src.zip",
 "jackrabbit/2.16.2/jackrabbit-webapp-2.16.2.war"
 ],
-"jackrabbit-2.17.4": [
-"jackrabbit/2.17.4/jackrabbit-2.17.4-src.zip",
-"jackrabbit/2.17.4/jackrabbit-webapp-2.17.4.war"
+"jackrabbit-2.17.5": [
+"jackrabbit/2.17.5/jackrabbit-2.17.5-src.zip",
+"jackrabbit/2.17.5/jackrabbit-webapp-2.17.5.war"
 ],
 "jackrabbit-2.4.8": [
 "jackrabbit/2.4.8/jackrabbit-2.4.8-src.zip",
@@ -5688,8 +5694,8 @@
 "jackrabbit-jca-2.16.2": [
 "jackrabbit/2.16.2/jackrabbit-jca-2.16.2.rar"
 ],
-"jackrabbit-jca-2.17.4": [
-"jackrabbit/2.17.4/jackrabbit-jca-2.17.4.rar"
+"jackrabbit-jca-2.17.5": [
+"jackrabbit/2.17.5/jackrabbit-jca-2.17.5.rar"
 ],
 "jackrabbit-jca-2.4.8": [
 "jackrabbit/2.4.8/jackrabbit-jca-2.4.8.rar"
@@ -5709,8 +5715,8 @@
 "jackrabbit-oak-1.4.22": [
 "jackrabbit/oak/1.4.22/jackrabbit-oak-1.4.22-src.zip"
 ],
-"jackrabbit-oak-1.6.12": [
-"jackrabbit/oak/1.6.12/jackrabbit-oak-1.6.12-src.zip"
+"jackrabbit-oak-1.6.13": [
+"jackrabbit/oak/1.6.13/jackrabbit-oak-1.6.13-src.zip"
 ],
 "jackrabbit-oak-1.8.5": [
 "jackrabbit/oak/1.8.5/jackrabbit-oak-1.8.5-src.zip"
@@ -5761,6 +5767,18 @@
 "james/server/james-2.3.2.1-src.tar.gz",
 "james/server/james-2.3.2.1-src.zip"
 ],
+"james-cassandra-guice-3.1.0": [
+"james/server/james-cassandra-guice-3.1.0.zip"
+],
+"james-cassandra-ldap-guice-3.1.0": [
+"james/server/james-cassandra-ldap-guice-3.1.0.zip"
+],
+"james-jpa-guice-3.1.0": [
+"james/server/james-jpa-guice-3.1.0.zip"
+],
+"james-jpa-smtp-guice-3.1.0": [
+"james/server/james-jpa-smtp-guice-3.1.0.zip"
+],
 "james-mime4j-sources-0.8.1": [
 "james/mime4j/0.8.1/james-mime4j-sources-0.8.1.zip"
 ],
@@ -5770,8 +5788,14 @@
 "james-server-app-3.0.1": [
 "james/server/james-server-app-3.0.1-app.zip"
 ],
+"james-server-app-3.1.0": [
+"james/server/james-server-app-3.1.0-app.zip"
+],
 "james-server-sources-3.0.1": [
 "james/server/james-server-sources-3.0.1.zip"
+],
+"james-server-sources-3.1.0": [
+"james/server/james-server-sources-3.1.0.zip"
 ]
 },
 "jclouds": {
@@ -6315,26 +6339,6 @@
 ],
 "Apache-Lucene.Net-4.8.0-beta00005": [
 "lucenenet/4.8.0-beta00005/Apache-Lucene.Net-4.8.0-beta00005.src.zip"
-]
-},
-"lucy": {
-"apache-clownfish-0.4.4": [
-"lucy/clownfish/apache-clownfish-0.4.4.tar.gz"
-],
-"apache-clownfish-0.5.1": [
-"lucy/clownfish/apache-clownfish-0.5.1.tar.gz"
-],
-"apache-clownfish-0.6.3": [
-"lucy/clownfish/apache-clownfish-0.6.3.tar.gz"
-],
-"apache-lucy-0.4.4": [
-"lucy/apache-lucy-0.4.4.tar.gz"
-],
-"apache-lucy-0.5.1": [
-"lucy/apache-lucy-0.5.1.tar.gz"
-],
-"apache-lucy-0.6.2": [
-"lucy/apache-lucy-0.6.2.tar.gz"
 ]
 },
 "madlib": {
@@ -8126,8 +8130,8 @@
 "org.apache.sling.adapter-2.1.10": [
 "sling/org.apache.sling.adapter-2.1.10-source-release.zip"
 ],
-"org.apache.sling.api-2.18.0": [
-"sling/org.apache.sling.api-2.18.0-source-release.zip"
+"org.apache.sling.api-2.18.2": [
+"sling/org.apache.sling.api-2.18.2-source-release.zip"
 ],
 "org.apache.sling.auth.core-1.4.2": [
 "sling/org.apache.sling.auth.core-1.4.2-source-release.zip"
