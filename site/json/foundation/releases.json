@@ -908,12 +908,14 @@
 "helix-0.6.9": "2017-10-09",
 "helix-0.7.1": "2014-08-29",
 "helix-0.8.0": "2018-01-30",
-"helix-0.8.1": "2018-04-25"
+"helix-0.8.1": "2018-04-25",
+"helix-0.8.2": "2018-07-25"
 },
 "hive": {
 "apache-hive-1.2.2": "2017-04-07",
 "apache-hive-2.3.3": "2018-04-02",
 "apache-hive-3.0.0": "2018-05-22",
+"apache-hive-3.1.0": "2018-07-30",
 "hive-metastore-3.0.0": "2018-06-07",
 "hive-storage-2.4.0": "2017-07-18",
 "hive-storage-2.6.1": "2018-05-11",
@@ -1695,7 +1697,7 @@
 "jackrabbit-2.12.9": "2018-05-06",
 "jackrabbit-2.14.5": "2018-04-16",
 "jackrabbit-2.16.2": "2018-06-12",
-"jackrabbit-2.17.4": "2018-07-10",
+"jackrabbit-2.17.5": "2018-07-25",
 "jackrabbit-2.4.8": "2017-07-17",
 "jackrabbit-2.6.10": "2018-03-05",
 "jackrabbit-2.8.9": "2018-07-16",
@@ -1719,14 +1721,14 @@
 "jackrabbit-jca-2.12.9": "2018-05-06",
 "jackrabbit-jca-2.14.5": "2018-04-16",
 "jackrabbit-jca-2.16.2": "2018-06-12",
-"jackrabbit-jca-2.17.4": "2018-07-10",
+"jackrabbit-jca-2.17.5": "2018-07-25",
 "jackrabbit-jca-2.4.8": "2017-07-17",
 "jackrabbit-jca-2.6.10": "2018-03-05",
 "jackrabbit-jca-2.8.9": "2018-07-16",
 "jackrabbit-oak-1.0.42": "2018-03-20",
 "jackrabbit-oak-1.2.29": "2018-03-12",
 "jackrabbit-oak-1.4.22": "2018-06-25",
-"jackrabbit-oak-1.6.12": "2018-05-28",
+"jackrabbit-oak-1.6.13": "2018-07-25",
 "jackrabbit-oak-1.8.5": "2018-07-03",
 "jackrabbit-oak-1.9.6": "2018-07-18",
 "jackrabbit-ocm-2.0.0": "2012-12-17",
@@ -1744,10 +1746,16 @@
 "apache-jsieve-sources-0.7": "2018-01-31",
 "apache-jspf-sources-1.0.1": "2018-01-31",
 "james-2.3.2.1": "2015-09-26",
+"james-cassandra-guice-3.1.0": "2018-07-30",
+"james-cassandra-ldap-guice-3.1.0": "2018-07-30",
+"james-jpa-guice-3.1.0": "2018-07-30",
+"james-jpa-smtp-guice-3.1.0": "2018-07-30",
 "james-mime4j-sources-0.8.1": "2018-01-31",
 "james-mime4j-sources-0.8.2": "2018-05-07",
 "james-server-app-3.0.1": "2017-10-20",
-"james-server-sources-3.0.1": "2018-01-31"
+"james-server-app-3.1.0": "2018-07-30",
+"james-server-sources-3.0.1": "2018-07-30",
+"james-server-sources-3.1.0": "2018-07-30"
 },
 "jclouds": {
 "jclouds-1.9.3": "2016-11-23",
@@ -1917,14 +1925,6 @@
 "Apache-Lucene.Net-4.8.0-beta00001": "2017-05-09",
 "Apache-Lucene.Net-4.8.0-beta00004": "2017-05-21",
 "Apache-Lucene.Net-4.8.0-beta00005": "2017-10-24"
-},
-"lucy": {
-"apache-clownfish-0.4.4": "2016-02-03",
-"apache-clownfish-0.5.1": "2016-04-22",
-"apache-clownfish-0.6.3": "2018-02-27",
-"apache-lucy-0.4.4": "2016-02-03",
-"apache-lucy-0.5.1": "2016-04-22",
-"apache-lucy-0.6.2": "2018-02-27"
 },
 "madlib": {
 "apache-madlib-1.14": "2018-04-26"
@@ -2527,7 +2527,7 @@
 "maven-launchpad-plugin-2.3.4": "2015-10-26",
 "maven-sling-plugin-2.3.6": "2018-05-07",
 "org.apache.sling.adapter-2.1.10": "2017-05-11",
-"org.apache.sling.api-2.18.0": "2018-03-19",
+"org.apache.sling.api-2.18.2": "2018-07-30",
 "org.apache.sling.auth.core-1.4.2": "2017-12-18",
 "org.apache.sling.auth.form-1.0.10": "2018-05-22",
 "org.apache.sling.auth.openid-1.0.4": "2014-08-11",
