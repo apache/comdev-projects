@@ -1813,17 +1813,14 @@
 ]
 },
 "couchdb": {
-"apache-couchdb-1.7.1": [
-"couchdb/source/1.7.1/apache-couchdb-1.7.1.tar.gz"
-],
 "apache-couchdb-1.7.2": [
 "couchdb/source/1.7.2/apache-couchdb-1.7.2.tar.gz"
 ],
-"apache-couchdb-2.1.1": [
-"couchdb/source/2.1.1/apache-couchdb-2.1.1.tar.gz"
-],
 "apache-couchdb-2.1.2": [
 "couchdb/source/2.1.2/apache-couchdb-2.1.2.tar.gz"
+],
+"apache-couchdb-2.2.0": [
+"couchdb/source/2.2.0/apache-couchdb-2.2.0.tar.gz"
 ]
 },
 "creadur": {
@@ -6546,10 +6543,6 @@
 "maven/maven-3/3.3.9/source/apache-maven-3.3.9-src.tar.gz",
 "maven/maven-3/3.3.9/source/apache-maven-3.3.9-src.zip"
 ],
-"apache-maven-3.5.3": [
-"maven/maven-3/3.5.3/source/apache-maven-3.5.3-src.tar.gz",
-"maven/maven-3/3.5.3/source/apache-maven-3.5.3-src.zip"
-],
 "apache-maven-3.5.4": [
 "maven/maven-3/3.5.4/source/apache-maven-3.5.4-src.tar.gz",
 "maven/maven-3/3.5.4/source/apache-maven-3.5.4-src.zip"
@@ -7278,6 +7271,10 @@
 "nutch/1.14/apache-nutch-1.14-src.tar.gz",
 "nutch/1.14/apache-nutch-1.14-src.zip"
 ],
+"apache-nutch-1.15": [
+"nutch/1.15/apache-nutch-1.15-src.tar.gz",
+"nutch/1.15/apache-nutch-1.15-src.zip"
+],
 "apache-nutch-2.3.1": [
 "nutch/2.3.1/apache-nutch-2.3.1-src.tar.gz",
 "nutch/2.3.1/apache-nutch-2.3.1-src.zip"
@@ -7896,8 +7893,14 @@
 "apache-qpid-proton-j-0.27.2": [
 "qpid/proton-j/0.27.2/apache-qpid-proton-j-0.27.2-src.tar.gz"
 ],
+"apache-qpid-proton-j-0.27.3": [
+"qpid/proton-j/0.27.3/apache-qpid-proton-j-0.27.3-src.tar.gz"
+],
 "apache-qpid-proton-j-0.28.0": [
 "qpid/proton-j/0.28.0/apache-qpid-proton-j-0.28.0-src.tar.gz"
+],
+"apache-qpid-proton-j-0.28.1": [
+"qpid/proton-j/0.28.1/apache-qpid-proton-j-0.28.1-src.tar.gz"
 ],
 "qpid-dispatch-1.0.1": [
 "qpid/dispatch/1.0.1/qpid-dispatch-1.0.1.tar.gz"
@@ -8165,6 +8168,9 @@
 ],
 "htl-maven-plugin-1.1.6-1.4.0": [
 "sling/htl-maven-plugin-1.1.6-1.4.0-source-release.zip"
+],
+"htl-maven-plugin-1.1.8-1.4.0": [
+"sling/htl-maven-plugin-1.1.8-1.4.0-source-release.zip"
 ],
 "javaversion-maven-plugin-1.0.0": [
 "sling/javaversion-maven-plugin-1.0.0-source-release.zip"
@@ -8815,6 +8821,9 @@
 ],
 "org.apache.sling.xss-2.0.10": [
 "sling/org.apache.sling.xss-2.0.10-source-release.zip"
+],
+"org.apache.sling.xss-2.0.12": [
+"sling/org.apache.sling.xss-2.0.12-source-release.zip"
 ],
 "org.apache.sling.xss.compat-1.1.0": [
 "sling/org.apache.sling.xss.compat-1.1.0-source-release.zip"
