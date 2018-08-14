@@ -1868,6 +1868,12 @@
 "cxf/3.2.5/apache-cxf-3.2.5.tar.gz",
 "cxf/3.2.5/apache-cxf-3.2.5.zip"
 ],
+"apache-cxf-3.2.6": [
+"cxf/3.2.6/apache-cxf-3.2.6-src.tar.gz",
+"cxf/3.2.6/apache-cxf-3.2.6-src.zip",
+"cxf/3.2.6/apache-cxf-3.2.6.tar.gz",
+"cxf/3.2.6/apache-cxf-3.2.6.zip"
+],
 "cxf-dosgi-main-2.3.0": [
 "cxf/dosgi/2.3.0/cxf-dosgi-main-2.3.0-source-release.zip"
 ],
@@ -5777,21 +5783,6 @@
 ]
 },
 "james": {
-"apache-james-mailet-ai-sources-3.0.1": [
-"james/mailets/3.0.1/apache-james-mailet-ai-sources-3.0.1.zip"
-],
-"apache-james-mailet-api-sources-3.0.1": [
-"james/mailets/3.0.1/apache-james-mailet-api-sources-3.0.1.zip"
-],
-"apache-james-mailet-base-sources-3.0.1": [
-"james/mailets/3.0.1/apache-james-mailet-base-sources-3.0.1.zip"
-],
-"apache-james-mailet-crypto-sources-3.0.1": [
-"james/mailets/3.0.1/apache-james-mailet-crypto-sources-3.0.1.zip"
-],
-"apache-james-mailet-standard-sources-3.0.1": [
-"james/mailets/3.0.1/apache-james-mailet-standard-sources-3.0.1.zip"
-],
 "apache-james-mpt-0.1": [
 "james/mpt/0.1/apache-james-mpt-0.1-src.tar.gz",
 "james/mpt/0.1/apache-james-mpt-0.1-src.zip"
@@ -5824,20 +5815,11 @@
 "james-jpa-smtp-guice-3.1.0": [
 "james/server/james-jpa-smtp-guice-3.1.0.zip"
 ],
-"james-mime4j-sources-0.8.1": [
-"james/mime4j/0.8.1/james-mime4j-sources-0.8.1.zip"
-],
 "james-mime4j-sources-0.8.2": [
 "james/mime4j/0.8.2/james-mime4j-sources-0.8.2.zip"
 ],
-"james-server-app-3.0.1": [
-"james/server/james-server-app-3.0.1-app.zip"
-],
 "james-server-app-3.1.0": [
 "james/server/james-server-app-3.1.0-app.zip"
-],
-"james-server-sources-3.0.1": [
-"james/server/james-server-sources-3.0.1.zip"
 ],
 "james-server-sources-3.1.0": [
 "james/server/james-server-sources-3.1.0.zip"
@@ -7291,35 +7273,35 @@
 ]
 },
 "olingo": {
-"Olingo-OData-4.3.0": [
-"olingo/odata4/4.3.0/Olingo-OData-4.3.0-source-release.zip"
-],
 "Olingo-OData-4.4.0": [
 "olingo/odata4/4.4.0/Olingo-OData-4.4.0-source-release.zip"
 ],
-"Olingo-OData-Client-for-Android-4.3.0": [
-"olingo/odata4/4.3.0/Olingo-OData-Client-for-Android-4.3.0-lib.zip"
+"Olingo-OData-4.5.0": [
+"olingo/odata4/4.5.0/Olingo-OData-4.5.0-source-release.zip"
 ],
 "Olingo-OData-Client-for-Android-4.4.0": [
 "olingo/odata4/4.4.0/Olingo-OData-Client-for-Android-4.4.0-lib.zip"
 ],
-"Olingo-OData-Client-for-Java-4.3.0": [
-"olingo/odata4/4.3.0/Olingo-OData-Client-for-Java-4.3.0-lib.zip"
+"Olingo-OData-Client-for-Android-4.5.0": [
+"olingo/odata4/4.5.0/Olingo-OData-Client-for-Android-4.5.0-lib.zip"
 ],
 "Olingo-OData-Client-for-Java-4.4.0": [
 "olingo/odata4/4.4.0/Olingo-OData-Client-for-Java-4.4.0-lib.zip"
 ],
-"Olingo-OData-Server-Extension-for-Java-4.3.0": [
-"olingo/odata4/4.3.0/Olingo-OData-Server-Extension-for-Java-4.3.0-lib.zip"
+"Olingo-OData-Client-for-Java-4.5.0": [
+"olingo/odata4/4.5.0/Olingo-OData-Client-for-Java-4.5.0-lib.zip"
 ],
 "Olingo-OData-Server-Extension-for-Java-4.4.0": [
 "olingo/odata4/4.4.0/Olingo-OData-Server-Extension-for-Java-4.4.0-lib.zip"
 ],
-"Olingo-OData-Server-for-Java-4.3.0": [
-"olingo/odata4/4.3.0/Olingo-OData-Server-for-Java-4.3.0-lib.zip"
+"Olingo-OData-Server-Extension-for-Java-4.5.0": [
+"olingo/odata4/4.5.0/Olingo-OData-Server-Extension-for-Java-4.5.0-lib.zip"
 ],
 "Olingo-OData-Server-for-Java-4.4.0": [
 "olingo/odata4/4.4.0/Olingo-OData-Server-for-Java-4.4.0-lib.zip"
+],
+"Olingo-OData-Server-for-Java-4.5.0": [
+"olingo/odata4/4.5.0/Olingo-OData-Server-for-Java-4.5.0-lib.zip"
 ],
 "odatajs-4.0.0": [
 "olingo/odatajs/odatajs-4.0.0/odatajs-4.0.0-doc.zip",
@@ -7869,9 +7851,6 @@
 "apache-qpid-broker-j-7.0.6": [
 "qpid/broker-j/7.0.6/apache-qpid-broker-j-7.0.6-src.tar.gz"
 ],
-"apache-qpid-jms-0.34.0": [
-"qpid/jms/0.34.0/apache-qpid-jms-0.34.0-src.tar.gz"
-],
 "apache-qpid-jms-0.35.0": [
 "qpid/jms/0.35.0/apache-qpid-jms-0.35.0-src.tar.gz"
 ],
@@ -7881,23 +7860,11 @@
 "apache-qpid-jms-amqp-0-x-6.3.2": [
 "qpid/jms-amqp-0-x/6.3.2/apache-qpid-jms-amqp-0-x-6.3.2-src.tar.gz"
 ],
-"apache-qpid-proton-j-0.27.2": [
-"qpid/proton-j/0.27.2/apache-qpid-proton-j-0.27.2-src.tar.gz"
-],
 "apache-qpid-proton-j-0.27.3": [
 "qpid/proton-j/0.27.3/apache-qpid-proton-j-0.27.3-src.tar.gz"
 ],
-"apache-qpid-proton-j-0.28.0": [
-"qpid/proton-j/0.28.0/apache-qpid-proton-j-0.28.0-src.tar.gz"
-],
 "apache-qpid-proton-j-0.28.1": [
 "qpid/proton-j/0.28.1/apache-qpid-proton-j-0.28.1-src.tar.gz"
-],
-"qpid-dispatch-1.0.1": [
-"qpid/dispatch/1.0.1/qpid-dispatch-1.0.1.tar.gz"
-],
-"qpid-dispatch-1.1.0": [
-"qpid/dispatch/1.1.0/qpid-dispatch-1.1.0.tar.gz"
 ],
 "qpid-dispatch-1.2.0": [
 "qpid/dispatch/1.2.0/qpid-dispatch-1.2.0.tar.gz"
@@ -7910,9 +7877,6 @@
 ],
 "qpid-java-6.1.6": [
 "qpid/java/6.1.6/qpid-java-6.1.6.tar.gz"
-],
-"qpid-proton-0.23.0": [
-"qpid/proton/0.23.0/qpid-proton-0.23.0.tar.gz"
 ],
 "qpid-proton-0.24.0": [
 "qpid/proton/0.24.0/qpid-proton-0.24.0.tar.gz"
@@ -8074,9 +8038,6 @@
 ],
 "apache-sentry-2.0.0": [
 "sentry/2.0.0/apache-sentry-2.0.0-src.tar.gz"
-],
-"apache-sentry-2.0.1": [
-"sentry/2.0.1/apache-sentry-2.0.1-src.tar.gz"
 ]
 },
 "serf": {
@@ -8340,8 +8301,8 @@
 "org.apache.sling.dynamic-include-3.1.0": [
 "sling/org.apache.sling.dynamic-include-3.1.0-source-release.zip"
 ],
-"org.apache.sling.engine-2.6.12": [
-"sling/org.apache.sling.engine-2.6.12-source-release.zip"
+"org.apache.sling.engine-2.6.14": [
+"sling/org.apache.sling.engine-2.6.14-source-release.zip"
 ],
 "org.apache.sling.event-4.2.12": [
 "sling/org.apache.sling.event-4.2.12-source-release.zip"
