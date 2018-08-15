@@ -318,7 +318,8 @@
 "apache-carbondata-1.2.0": "2017-09-28",
 "apache-carbondata-1.3.0": "2018-02-07",
 "apache-carbondata-1.3.1": "2018-03-12",
-"apache-carbondata-1.4.0": "2018-05-29"
+"apache-carbondata-1.4.0": "2018-05-29",
+"apache-carbondata-1.4.1": "2018-08-14"
 },
 "cassandra": {
 "14a0d997100fcea847ed688f188b4a80dd1533b6e95a51986861a7b21d531107-filelists.sqlite": "2018-08-01",
@@ -537,7 +538,7 @@
 "commons-pool2-2.6.0": "2018-07-06",
 "commons-proxy-1.0": "2014-08-26",
 "commons-release-plugin-1.3": "2018-06-19",
-"commons-rng-1.0": "2016-12-12",
+"commons-rng-1.1": "2018-08-14",
 "commons-scxml-0.9": "2013-03-03",
 "commons-text-1.4": "2018-06-12",
 "commons-validator-1.6": "2017-02-20",
@@ -559,7 +560,7 @@
 "cordova-ios-4.5.5": "2018-07-26",
 "cordova-js-4.2.4": "2018-06-26",
 "cordova-lib-8.0.0": "2017-12-19",
-"cordova-osx-4.0.1": "2016-03-08",
+"cordova-osx-4.0.2": "2018-08-14",
 "cordova-plugin-battery-status-2.0.2": "2018-04-17",
 "cordova-plugin-camera-4.0.3": "2018-04-17",
 "cordova-plugin-compat-1.2.0": "2017-09-22",
@@ -617,7 +618,6 @@
 "cxf": {
 "apache-cxf-3.0.16": "2017-11-28",
 "apache-cxf-3.1.16": "2018-06-22",
-"apache-cxf-3.2.5": "2018-06-22",
 "apache-cxf-3.2.6": "2018-08-13",
 "cxf-dosgi-main-2.3.0": "2018-03-15",
 "cxf-dosgi-multibundle-distribution-2.3.0-dir": "2018-03-15",
@@ -866,12 +866,10 @@
 },
 "groovy": {
 "apache-groovy-2.4.15": "2018-03-27",
-"apache-groovy-2.5.1": "2018-07-13",
-"apache-groovy-2.6.0-alpha-4": "2018-06-26",
+"apache-groovy-2.5.2": "2018-08-14",
 "apache-groovy-3.0.0-alpha-3": "2018-06-26",
 "apache-groovy-sdk-2.4.15": "2018-03-27",
-"apache-groovy-sdk-2.5.1": "2018-07-13",
-"apache-groovy-sdk-2.6.0-alpha-4": "2018-06-26",
+"apache-groovy-sdk-2.5.2": "2018-08-14",
 "apache-groovy-sdk-3.0.0-alpha-3": "2018-06-26"
 },
 "guacamole": {
@@ -1685,7 +1683,8 @@
 "incubator-toree": {
 "PKG-INFO": "2017-02-16",
 "apache-toree-0.1.0": "2017-02-16",
-"apache-toree-0.1.0-incubating": "2017-02-16"
+"apache-toree-0.1.0-incubating": "2017-02-16",
+"toree-0.2.0": "2018-07-27"
 },
 "incubator-trafficcontrol": {
 "apache-trafficcontrol-2.1.0-incubating": "2018-01-22",
@@ -2430,6 +2429,7 @@
 "apache-qpid-jms-amqp-0-x-6.3.2": "2018-07-13",
 "apache-qpid-proton-j-0.27.3": "2018-08-02",
 "apache-qpid-proton-j-0.28.1": "2018-08-02",
+"apache-qpid-proton-j-0.29.0": "2018-08-10",
 "qpid-dispatch-1.2.0": "2018-06-29",
 "qpid-dispatch-1.3.0": "2018-08-07",
 "qpid-interop-test-0.1.0": "2017-12-04",
@@ -2585,7 +2585,7 @@
 "org.apache.sling.distribution.core-0.2.8": "2017-06-06",
 "org.apache.sling.distribution.it-0.1.2": "2016-02-08",
 "org.apache.sling.distribution.sample-0.1.6": "2016-02-08",
-"org.apache.sling.dynamic-include-3.1.0": "2018-05-18",
+"org.apache.sling.dynamic-include-3.1.2": "2018-08-14",
 "org.apache.sling.engine-2.6.14": "2018-08-13",
 "org.apache.sling.event-4.2.12": "2018-07-23",
 "org.apache.sling.event.api-1.0.0": "2017-04-19",
@@ -2639,9 +2639,9 @@
 "org.apache.sling.jcr.jcr-wrapper-2.0.0": "2013-01-21",
 "org.apache.sling.jcr.oak.server-1.2.0": "2018-03-07",
 "org.apache.sling.jcr.prefs-1.0.0": "2013-01-21",
-"org.apache.sling.jcr.registration-1.0.2": "2014-09-19",
+"org.apache.sling.jcr.registration-1.0.6": "2018-08-14",
 "org.apache.sling.jcr.repoinit-1.1.8": "2018-02-12",
-"org.apache.sling.jcr.resource-3.0.14": "2018-08-03",
+"org.apache.sling.jcr.resource-3.0.16": "2018-08-14",
 "org.apache.sling.jcr.resourcesecurity-1.0.2": "2015-01-13",
 "org.apache.sling.jcr.webconsole-1.0.2": "2014-09-19",
 "org.apache.sling.jcr.webdav-2.3.8": "2017-02-08",
