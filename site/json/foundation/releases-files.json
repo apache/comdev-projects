@@ -924,6 +924,9 @@
 ],
 "apache-carbondata-1.4.0": [
 "carbondata/1.4.0/apache-carbondata-1.4.0-source-release.zip"
+],
+"apache-carbondata-1.4.1": [
+"carbondata/1.4.1/apache-carbondata-1.4.1-source-release.zip"
 ]
 },
 "cassandra": {
@@ -1630,9 +1633,9 @@
 "commons/commons-release-plugin/source/commons-release-plugin-1.3-src.tar.gz",
 "commons/commons-release-plugin/source/commons-release-plugin-1.3-src.zip"
 ],
-"commons-rng-1.0": [
-"commons/rng/source/commons-rng-1.0-src.tar.gz",
-"commons/rng/source/commons-rng-1.0-src.zip"
+"commons-rng-1.1": [
+"commons/rng/source/commons-rng-1.1-src.tar.gz",
+"commons/rng/source/commons-rng-1.1-src.zip"
 ],
 "commons-scxml-0.9": [
 "commons/scxml/source/commons-scxml-0.9-src.tar.gz",
@@ -1698,8 +1701,8 @@
 "cordova-lib-8.0.0": [
 "cordova/tools/cordova-lib-8.0.0.tgz"
 ],
-"cordova-osx-4.0.1": [
-"cordova/platforms/cordova-osx-4.0.1.tgz"
+"cordova-osx-4.0.2": [
+"cordova/platforms/cordova-osx-4.0.2.tgz"
 ],
 "cordova-plugin-battery-status-2.0.2": [
 "cordova/plugins/cordova-plugin-battery-status-2.0.2.tgz"
@@ -1861,12 +1864,6 @@
 "cxf/3.1.16/apache-cxf-3.1.16-src.zip",
 "cxf/3.1.16/apache-cxf-3.1.16.tar.gz",
 "cxf/3.1.16/apache-cxf-3.1.16.zip"
-],
-"apache-cxf-3.2.5": [
-"cxf/3.2.5/apache-cxf-3.2.5-src.tar.gz",
-"cxf/3.2.5/apache-cxf-3.2.5-src.zip",
-"cxf/3.2.5/apache-cxf-3.2.5.tar.gz",
-"cxf/3.2.5/apache-cxf-3.2.5.zip"
 ],
 "apache-cxf-3.2.6": [
 "cxf/3.2.6/apache-cxf-3.2.6-src.tar.gz",
@@ -2707,11 +2704,8 @@
 "apache-groovy-2.4.15": [
 "groovy/2.4.15/sources/apache-groovy-src-2.4.15.zip"
 ],
-"apache-groovy-2.5.1": [
-"groovy/2.5.1/sources/apache-groovy-src-2.5.1.zip"
-],
-"apache-groovy-2.6.0-alpha-4": [
-"groovy/2.6.0-alpha-4/sources/apache-groovy-src-2.6.0-alpha-4.zip"
+"apache-groovy-2.5.2": [
+"groovy/2.5.2/sources/apache-groovy-src-2.5.2.zip"
 ],
 "apache-groovy-3.0.0-alpha-3": [
 "groovy/3.0.0-alpha-3/sources/apache-groovy-src-3.0.0-alpha-3.zip"
@@ -2719,11 +2713,8 @@
 "apache-groovy-sdk-2.4.15": [
 "groovy/2.4.15/distribution/apache-groovy-sdk-2.4.15.zip"
 ],
-"apache-groovy-sdk-2.5.1": [
-"groovy/2.5.1/distribution/apache-groovy-sdk-2.5.1.zip"
-],
-"apache-groovy-sdk-2.6.0-alpha-4": [
-"groovy/2.6.0-alpha-4/distribution/apache-groovy-sdk-2.6.0-alpha-4.zip"
+"apache-groovy-sdk-2.5.2": [
+"groovy/2.5.2/distribution/apache-groovy-sdk-2.5.2.zip"
 ],
 "apache-groovy-sdk-3.0.0-alpha-3": [
 "groovy/3.0.0-alpha-3/distribution/apache-groovy-sdk-3.0.0-alpha-3.zip"
@@ -5582,13 +5573,17 @@
 },
 "incubator-toree": {
 "PKG-INFO": [
-"incubator/toree/0.1.0-incubating/toree-pip/apache_toree.egg-info/PKG-INFO"
+"incubator/toree/0.1.0-incubating/toree-pip/apache_toree.egg-info/PKG-INFO",
+"incubator/toree/0.2.0-incubating/toree-pip/toree.egg-info/PKG-INFO"
 ],
 "apache-toree-0.1.0": [
 "incubator/toree/0.1.0-incubating/toree-pip/apache-toree-0.1.0.tar.gz"
 ],
 "apache-toree-0.1.0-incubating": [
 "incubator/toree/0.1.0-incubating/toree-src/apache-toree-0.1.0-incubating-source-release.tar.gz"
+],
+"toree-0.2.0": [
+"incubator/toree/0.2.0-incubating/toree-pip/toree-0.2.0.tar.gz"
 ]
 },
 "incubator-trafficcontrol": {
@@ -7866,6 +7861,9 @@
 "apache-qpid-proton-j-0.28.1": [
 "qpid/proton-j/0.28.1/apache-qpid-proton-j-0.28.1-src.tar.gz"
 ],
+"apache-qpid-proton-j-0.29.0": [
+"qpid/proton-j/0.29.0/apache-qpid-proton-j-0.29.0-src.tar.gz"
+],
 "qpid-dispatch-1.2.0": [
 "qpid/dispatch/1.2.0/qpid-dispatch-1.2.0.tar.gz"
 ],
@@ -8298,8 +8296,8 @@
 "org.apache.sling.distribution.sample-0.1.6": [
 "sling/org.apache.sling.distribution.sample-0.1.6-source-release.zip"
 ],
-"org.apache.sling.dynamic-include-3.1.0": [
-"sling/org.apache.sling.dynamic-include-3.1.0-source-release.zip"
+"org.apache.sling.dynamic-include-3.1.2": [
+"sling/org.apache.sling.dynamic-include-3.1.2-source-release.zip"
 ],
 "org.apache.sling.engine-2.6.14": [
 "sling/org.apache.sling.engine-2.6.14-source-release.zip"
@@ -8461,14 +8459,14 @@
 "sling/org.apache.sling.jcr.prefs-1.0.0-project.tar.gz",
 "sling/org.apache.sling.jcr.prefs-1.0.0-project.zip"
 ],
-"org.apache.sling.jcr.registration-1.0.2": [
-"sling/org.apache.sling.jcr.registration-1.0.2-source-release.zip"
+"org.apache.sling.jcr.registration-1.0.6": [
+"sling/org.apache.sling.jcr.registration-1.0.6-source-release.zip"
 ],
 "org.apache.sling.jcr.repoinit-1.1.8": [
 "sling/org.apache.sling.jcr.repoinit-1.1.8-source-release.zip"
 ],
-"org.apache.sling.jcr.resource-3.0.14": [
-"sling/org.apache.sling.jcr.resource-3.0.14-source-release.zip"
+"org.apache.sling.jcr.resource-3.0.16": [
+"sling/org.apache.sling.jcr.resource-3.0.16-source-release.zip"
 ],
 "org.apache.sling.jcr.resourcesecurity-1.0.2": [
 "sling/org.apache.sling.jcr.resourcesecurity-1.0.2-source-release.zip"
