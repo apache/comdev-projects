@@ -5397,6 +5397,11 @@
 "programming-language": "Java",
 "release": [
 {
+"created": "2018-08-15",
+"name": "commons-rng",
+"revision": "1.1"
+},
+{
 "created": "2016-12-13",
 "name": "commons-rng",
 "revision": "1.0"
@@ -8644,6 +8649,22 @@
 "https://git-wip-us.apache.org/repos/asf/knox.git"
 ],
 "shortdesc": "A REST API Gateway for Hadoop Services"
+},
+"kudu": {
+"bug-database": "https://issues.apache.org/jira/projects/KUDU/issues",
+"category": "big-data",
+"created": "2018-08-15",
+"doap": "https://kudu.apache.org/doap_Kudu.rdf",
+"download-page": "https://kudu.apache.org/releases/",
+"homepage": "https://kudu.apache.org",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://kudu.apache.org/community.html",
+"name": "Apache Kudu",
+"pmc": "kudu",
+"programming-language": "C++",
+"repository": [
+"git://git.apache.org/kudu.git"
+]
 },
 "lens": {
 "bug-database": "https://issues.apache.org/jira/browse/LENS",
