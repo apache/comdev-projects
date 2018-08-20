@@ -556,7 +556,7 @@
 "category": "build-management",
 "created": "2010-11-16",
 "description": "Apache Ivy is a very powerful dependency manager oriented toward Java dependency management, even though it could be used to manage dependencies of any kind.",
-"doap": "http://svn.apache.org/repos/asf/ant/ivy/core/trunk/doap_Ivy.rdf",
+"doap": "https://git-wip-us.apache.org/repos/asf?p=ant-ivy.git;a=blob_plain;f=doap_Ivy.rdf;hb=HEAD",
 "download-page": "http://ant.apache.org/ivy/download.cgi",
 "homepage": "http://ant.apache.org/ivy/",
 "license": "http://usefulinc.com/doap/licenses/asl20",
@@ -566,13 +566,33 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2013-01-20",
+"created": "2014-12-26",
+"name": "Apache Ivy 2.4.0",
+"revision": "2.4.0"
+},
+{
+"created": "2013-01-24",
 "name": "Apache Ivy 2.3.0",
 "revision": "2.3.0"
+},
+{
+"created": "2010-10-07",
+"name": "Apache Ivy 2.2.0",
+"revision": "2.2.0"
+},
+{
+"created": "2009-10-13",
+"name": "Apache Ivy 2.1.0",
+"revision": "2.1.0"
+},
+{
+"created": "2009-01-22",
+"name": "Apache Ivy 2.0.0",
+"revision": "2.0.0"
 }
 ],
 "repository": [
-"https://svn.apache.org/repos/asf/ant/ivy/core/trunk/"
+"https://git-wip-us.apache.org/repos/asf/ant-ivy.git"
 ],
 "shortdesc": "Apache Ivy is a very powerful dependency manager oriented toward Java dependency management, even though it could be used to manage dependencies of any kind."
 },
@@ -8639,6 +8659,22 @@
 "https://git-wip-us.apache.org/repos/asf/knox.git"
 ],
 "shortdesc": "A REST API Gateway for Hadoop Services"
+},
+"kudu": {
+"bug-database": "https://issues.apache.org/jira/projects/KUDU/issues",
+"category": "big-data",
+"created": "2018-08-15",
+"doap": "https://kudu.apache.org/doap_Kudu.rdf",
+"download-page": "https://kudu.apache.org/releases/",
+"homepage": "https://kudu.apache.org",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://kudu.apache.org/community.html",
+"name": "Apache Kudu",
+"pmc": "kudu",
+"programming-language": "C++",
+"repository": [
+"git://git.apache.org/kudu.git"
+]
 },
 "lens": {
 "bug-database": "https://issues.apache.org/jira/browse/LENS",
