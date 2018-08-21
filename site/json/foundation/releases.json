@@ -381,7 +381,6 @@
 },
 "cayenne": {
 "cayenne-3.0.2": "2013-07-18",
-"cayenne-3.1": "2014-09-20",
 "cayenne-3.1.3": "2018-07-11",
 "cayenne-4.0": "2018-08-06",
 "cayenne-4.1.M2": "2018-07-12"
@@ -698,8 +697,8 @@
 "org.apache.felix.deploymentadmin-0.9.10": "2016-01-20",
 "org.apache.felix.eventadmin-1.5.0": "2018-05-07",
 "org.apache.felix.fileinstall-3.6.4": "2017-11-22",
-"org.apache.felix.framework-6.0.0": "2018-07-06",
-"org.apache.felix.framework.security-2.6.0": "2016-09-25",
+"org.apache.felix.framework-6.0.1": "2018-08-20",
+"org.apache.felix.framework.security-2.6.1": "2018-08-20",
 "org.apache.felix.gogo.command-0.16.0": "2015-10-05",
 "org.apache.felix.gogo.jline-1.1.0": "2018-07-06",
 "org.apache.felix.gogo.runtime-1.1.0": "2018-07-06",
@@ -738,12 +737,12 @@
 "org.apache.felix.log-1.2.0": "2018-07-13",
 "org.apache.felix.log.extension-1.0.0": "2018-07-13",
 "org.apache.felix.logback-1.0.0": "2018-06-25",
-"org.apache.felix.main-6.0.0": "2018-07-06",
-"org.apache.felix.main.distribution-6.0.0": "2018-07-06",
+"org.apache.felix.main-6.0.1": "2018-08-20",
+"org.apache.felix.main.distribution-6.0.1": "2018-08-20",
 "org.apache.felix.metatype-1.2.0": "2018-05-07",
 "org.apache.felix.prefs-1.1.0": "2016-10-15",
 "org.apache.felix.resolver-2.0.0": "2018-07-06",
-"org.apache.felix.scr-2.1.2": "2018-08-06",
+"org.apache.felix.scr-2.1.6": "2018-08-20",
 "org.apache.felix.scr.annotations-1.12.0": "2016-10-18",
 "org.apache.felix.scr.ant-1.18.0": "2018-01-15",
 "org.apache.felix.scr.bnd-1.9.0": "2018-01-15",
@@ -754,7 +753,7 @@
 "org.apache.felix.shell-1.4.3": "2012-12-28",
 "org.apache.felix.shell.remote-1.1.2": "2012-12-28",
 "org.apache.felix.shell.tui-1.4.1": "2012-12-28",
-"org.apache.felix.systemready-0.2.0": "2018-07-16",
+"org.apache.felix.systemready-0.4.0": "2018-08-20",
 "org.apache.felix.threaddump-1.0.0": "2015-08-28",
 "org.apache.felix.upnp.basedriver-0.8.0": "2012-12-28",
 "org.apache.felix.upnp.extra-0.4.0": "2012-12-28",
@@ -949,6 +948,7 @@
 "apache-impala-3.0.0": "2018-05-07"
 },
 "incubator-airflow": {
+"apache-airflow-1.10.0+incubating": "2018-08-20",
 "apache-airflow-1.9.0+incubating": "2018-01-02"
 },
 "incubator-amaterasu": {
@@ -2051,6 +2051,7 @@
 "mesos": {
 "mesos-1.3.2": "2018-01-25",
 "mesos-1.4.1": "2017-11-15",
+"mesos-1.4.2": "2018-08-20",
 "mesos-1.5.1": "2018-05-31",
 "mesos-1.6.0": "2018-05-12",
 "mesos-1.6.1": "2018-07-25"
@@ -2186,7 +2187,6 @@
 "apache-ode-war-1.3.8": "2018-03-22"
 },
 "ofbiz": {
-"apache-ofbiz-13.07.03": "2016-04-04",
 "apache-ofbiz-16.11.04": "2018-01-02"
 },
 "olingo": {
@@ -2400,7 +2400,7 @@
 "qpid": {
 "apache-qpid-broker-j-7.0.6": "2018-06-21",
 "apache-qpid-jms-0.35.0": "2018-07-20",
-"apache-qpid-jms-amqp-0-x-6.3.2": "2018-07-13",
+"apache-qpid-jms-0.36.0": "2018-08-15",
 "apache-qpid-jms-amqp-0-x-6.3.3": "2018-08-13",
 "apache-qpid-proton-j-0.27.3": "2018-08-02",
 "apache-qpid-proton-j-0.28.1": "2018-08-02",
@@ -2819,21 +2819,21 @@
 "synapse-distribution-3.0.1": "2017-12-09"
 },
 "syncope": {
-"apache-syncope-2.0.9": "2018-06-27",
-"apache-syncope-2.1.0": "2018-07-05",
-"apache-syncope-console-2.0.9": "2018-06-27",
-"apache-syncope-console-2.1.0": "2018-07-05",
-"apache-syncope-enduser-2.0.9": "2018-06-27",
-"apache-syncope-enduser-2.1.0": "2018-07-05",
-"org.apache.syncope.ide.eclipse.site-2.0.9": "2018-06-27",
-"org.apache.syncope.ide.eclipse.site-2.1.0": "2018-07-05",
-"syncope-2.0.9": "2018-06-28",
-"syncope-2.1.0": "2018-07-05",
-"syncope-client-cli-2.0.9": "2018-06-27",
-"syncope-client-cli-2.1.0": "2018-07-05",
-"syncope-core-upgrade-2.1.0": "2018-07-05",
-"syncope-ide-netbeans-2.0.9.nbm": "2018-06-27",
-"syncope-ide-netbeans-2.1.0.nbm": "2018-07-05"
+"apache-syncope-2.0.10": "2018-08-17",
+"apache-syncope-2.1.1": "2018-08-17",
+"apache-syncope-console-2.0.10": "2018-08-17",
+"apache-syncope-console-2.1.1": "2018-08-17",
+"apache-syncope-enduser-2.0.10": "2018-08-17",
+"apache-syncope-enduser-2.1.1": "2018-08-17",
+"org.apache.syncope.ide.eclipse.site-2.0.10": "2018-08-17",
+"org.apache.syncope.ide.eclipse.site-2.1.1": "2018-08-17",
+"syncope-2.0.10": "2018-08-17",
+"syncope-2.1.1": "2018-08-17",
+"syncope-client-cli-2.0.10": "2018-08-17",
+"syncope-client-cli-2.1.1": "2018-08-17",
+"syncope-core-upgrade-2.1.1": "2018-08-17",
+"syncope-ide-netbeans-2.0.10.nbm": "2018-08-17",
+"syncope-ide-netbeans-2.1.1.nbm": "2018-08-17"
 },
 "systemml": {
 "systemml-0.14.0-incubating": "2017-04-19",
@@ -2918,16 +2918,12 @@
 "tomcat": {
 "apache-tomcat-7.0.90": "2018-07-02",
 "apache-tomcat-8.0.53": "2018-06-29",
-"apache-tomcat-8.5.32": "2018-06-20",
 "apache-tomcat-8.5.33": "2018-08-12",
-"apache-tomcat-9.0.10": "2018-06-20",
 "apache-tomcat-9.0.11": "2018-08-11",
 "taglibs-standard-1.2.5": "2015-03-10",
-"tomcat-connectors-1.2.42": "2016-10-05",
 "tomcat-connectors-1.2.43": "2018-03-06",
 "tomcat-maven-plugin-2.2": "2013-11-07",
 "tomcat-native-1.1.34": "2015-12-09",
-"tomcat-native-1.2.16": "2017-11-15",
 "tomcat-native-1.2.17": "2018-06-07"
 },
 "tomee": {

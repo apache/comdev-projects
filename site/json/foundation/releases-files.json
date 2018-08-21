@@ -1104,12 +1104,6 @@
 "cayenne/cayenne-3.0.2-win.zip",
 "cayenne/cayenne-3.0.2.tar.gz"
 ],
-"cayenne-3.1": [
-"cayenne/3.1/cayenne-3.1-macosx.dmg",
-"cayenne/3.1/cayenne-3.1-src.tar.gz",
-"cayenne/3.1/cayenne-3.1-win.zip",
-"cayenne/3.1/cayenne-3.1.tar.gz"
-],
 "cayenne-3.1.3": [
 "cayenne/3.1.3/cayenne-3.1.3-macosx.dmg",
 "cayenne/3.1.3/cayenne-3.1.3-src.tar.gz",
@@ -2140,13 +2134,13 @@
 "felix/org.apache.felix.fileinstall-3.6.4-source-release.tar.gz",
 "felix/org.apache.felix.fileinstall-3.6.4-source-release.zip"
 ],
-"org.apache.felix.framework-6.0.0": [
-"felix/org.apache.felix.framework-6.0.0-source-release.tar.gz",
-"felix/org.apache.felix.framework-6.0.0-source-release.zip"
+"org.apache.felix.framework-6.0.1": [
+"felix/org.apache.felix.framework-6.0.1-source-release.tar.gz",
+"felix/org.apache.felix.framework-6.0.1-source-release.zip"
 ],
-"org.apache.felix.framework.security-2.6.0": [
-"felix/org.apache.felix.framework.security-2.6.0-source-release.tar.gz",
-"felix/org.apache.felix.framework.security-2.6.0-source-release.zip"
+"org.apache.felix.framework.security-2.6.1": [
+"felix/org.apache.felix.framework.security-2.6.1-source-release.tar.gz",
+"felix/org.apache.felix.framework.security-2.6.1-source-release.zip"
 ],
 "org.apache.felix.gogo.command-0.16.0": [
 "felix/org.apache.felix.gogo.command-0.16.0-project.tar.gz"
@@ -2294,15 +2288,15 @@
 "felix/org.apache.felix.logback-1.0.0-source-release.tar.gz",
 "felix/org.apache.felix.logback-1.0.0-source-release.zip"
 ],
-"org.apache.felix.main-6.0.0": [
-"felix/org.apache.felix.main-6.0.0-source-release.tar.gz",
-"felix/org.apache.felix.main-6.0.0-source-release.zip"
+"org.apache.felix.main-6.0.1": [
+"felix/org.apache.felix.main-6.0.1-source-release.tar.gz",
+"felix/org.apache.felix.main-6.0.1-source-release.zip"
 ],
-"org.apache.felix.main.distribution-6.0.0": [
-"felix/org.apache.felix.main.distribution-6.0.0-source-release.tar.gz",
-"felix/org.apache.felix.main.distribution-6.0.0-source-release.zip",
-"felix/org.apache.felix.main.distribution-6.0.0.tar.gz",
-"felix/org.apache.felix.main.distribution-6.0.0.zip"
+"org.apache.felix.main.distribution-6.0.1": [
+"felix/org.apache.felix.main.distribution-6.0.1-source-release.tar.gz",
+"felix/org.apache.felix.main.distribution-6.0.1-source-release.zip",
+"felix/org.apache.felix.main.distribution-6.0.1.tar.gz",
+"felix/org.apache.felix.main.distribution-6.0.1.zip"
 ],
 "org.apache.felix.metatype-1.2.0": [
 "felix/org.apache.felix.metatype-1.2.0-source-release.tar.gz",
@@ -2316,9 +2310,9 @@
 "felix/org.apache.felix.resolver-2.0.0-source-release.tar.gz",
 "felix/org.apache.felix.resolver-2.0.0-source-release.zip"
 ],
-"org.apache.felix.scr-2.1.2": [
-"felix/org.apache.felix.scr-2.1.2-source-release.tar.gz",
-"felix/org.apache.felix.scr-2.1.2-source-release.zip"
+"org.apache.felix.scr-2.1.6": [
+"felix/org.apache.felix.scr-2.1.6-source-release.tar.gz",
+"felix/org.apache.felix.scr-2.1.6-source-release.zip"
 ],
 "org.apache.felix.scr.annotations-1.12.0": [
 "felix/org.apache.felix.scr.annotations-1.12.0-source-release.tar.gz",
@@ -2360,9 +2354,9 @@
 "felix/org.apache.felix.shell.tui-1.4.1-project.tar.gz",
 "felix/org.apache.felix.shell.tui-1.4.1-project.zip"
 ],
-"org.apache.felix.systemready-0.2.0": [
-"felix/org.apache.felix.systemready-0.2.0-source-release.tar.gz",
-"felix/org.apache.felix.systemready-0.2.0-source-release.zip"
+"org.apache.felix.systemready-0.4.0": [
+"felix/org.apache.felix.systemready-0.4.0-source-release.tar.gz",
+"felix/org.apache.felix.systemready-0.4.0-source-release.zip"
 ],
 "org.apache.felix.threaddump-1.0.0": [
 "felix/org.apache.felix.threaddump-1.0.0-source-release.tar.gz",
@@ -2958,6 +2952,9 @@
 ]
 },
 "incubator-airflow": {
+"apache-airflow-1.10.0+incubating": [
+"incubator/airflow/1.10.0-incubating/apache-airflow-1.10.0+incubating-source.tar.gz"
+],
 "apache-airflow-1.9.0+incubating": [
 "incubator/airflow/1.9.0-incubating/apache-airflow-1.9.0+incubating-source.tar.gz"
 ]
@@ -6733,6 +6730,9 @@
 "mesos-1.4.1": [
 "mesos/1.4.1/mesos-1.4.1.tar.gz"
 ],
+"mesos-1.4.2": [
+"mesos/1.4.2/mesos-1.4.2.tar.gz"
+],
 "mesos-1.5.1": [
 "mesos/1.5.1/mesos-1.5.1.tar.gz"
 ],
@@ -7143,9 +7143,6 @@
 ]
 },
 "ofbiz": {
-"apache-ofbiz-13.07.03": [
-"ofbiz/apache-ofbiz-13.07.03.zip"
-],
 "apache-ofbiz-16.11.04": [
 "ofbiz/apache-ofbiz-16.11.04.zip"
 ]
@@ -7732,8 +7729,8 @@
 "apache-qpid-jms-0.35.0": [
 "qpid/jms/0.35.0/apache-qpid-jms-0.35.0-src.tar.gz"
 ],
-"apache-qpid-jms-amqp-0-x-6.3.2": [
-"qpid/jms-amqp-0-x/6.3.2/apache-qpid-jms-amqp-0-x-6.3.2-src.tar.gz"
+"apache-qpid-jms-0.36.0": [
+"qpid/jms/0.36.0/apache-qpid-jms-0.36.0-src.tar.gz"
 ],
 "apache-qpid-jms-amqp-0-x-6.3.3": [
 "qpid/jms-amqp-0-x/6.3.3/apache-qpid-jms-amqp-0-x-6.3.3-src.tar.gz"
@@ -8975,52 +8972,52 @@
 ]
 },
 "syncope": {
-"apache-syncope-2.0.9": [
-"syncope/2.0.9/apache-syncope-2.0.9.deb"
+"apache-syncope-2.0.10": [
+"syncope/2.0.10/apache-syncope-2.0.10.deb"
 ],
-"apache-syncope-2.1.0": [
-"syncope/2.1.0/apache-syncope-2.1.0.deb"
+"apache-syncope-2.1.1": [
+"syncope/2.1.1/apache-syncope-2.1.1.deb"
 ],
-"apache-syncope-console-2.0.9": [
-"syncope/2.0.9/apache-syncope-console-2.0.9.deb"
+"apache-syncope-console-2.0.10": [
+"syncope/2.0.10/apache-syncope-console-2.0.10.deb"
 ],
-"apache-syncope-console-2.1.0": [
-"syncope/2.1.0/apache-syncope-console-2.1.0.deb"
+"apache-syncope-console-2.1.1": [
+"syncope/2.1.1/apache-syncope-console-2.1.1.deb"
 ],
-"apache-syncope-enduser-2.0.9": [
-"syncope/2.0.9/apache-syncope-enduser-2.0.9.deb"
+"apache-syncope-enduser-2.0.10": [
+"syncope/2.0.10/apache-syncope-enduser-2.0.10.deb"
 ],
-"apache-syncope-enduser-2.1.0": [
-"syncope/2.1.0/apache-syncope-enduser-2.1.0.deb"
+"apache-syncope-enduser-2.1.1": [
+"syncope/2.1.1/apache-syncope-enduser-2.1.1.deb"
 ],
-"org.apache.syncope.ide.eclipse.site-2.0.9": [
-"syncope/2.0.9/org.apache.syncope.ide.eclipse.site-2.0.9.zip"
+"org.apache.syncope.ide.eclipse.site-2.0.10": [
+"syncope/2.0.10/org.apache.syncope.ide.eclipse.site-2.0.10.zip"
 ],
-"org.apache.syncope.ide.eclipse.site-2.1.0": [
-"syncope/2.1.0/org.apache.syncope.ide.eclipse.site-2.1.0.zip"
+"org.apache.syncope.ide.eclipse.site-2.1.1": [
+"syncope/2.1.1/org.apache.syncope.ide.eclipse.site-2.1.1.zip"
 ],
-"syncope-2.0.9": [
-"syncope/2.0.9/syncope-2.0.9-source-release.zip",
-"syncope/2.0.9/syncope-standalone-2.0.9-distribution.zip"
+"syncope-2.0.10": [
+"syncope/2.0.10/syncope-2.0.10-source-release.zip",
+"syncope/2.0.10/syncope-standalone-2.0.10-distribution.zip"
 ],
-"syncope-2.1.0": [
-"syncope/2.1.0/syncope-2.1.0-source-release.zip",
-"syncope/2.1.0/syncope-standalone-2.1.0-distribution.zip"
+"syncope-2.1.1": [
+"syncope/2.1.1/syncope-2.1.1-source-release.zip",
+"syncope/2.1.1/syncope-standalone-2.1.1-distribution.zip"
 ],
-"syncope-client-cli-2.0.9": [
-"syncope/2.0.9/syncope-client-cli-2.0.9.zip"
+"syncope-client-cli-2.0.10": [
+"syncope/2.0.10/syncope-client-cli-2.0.10.zip"
 ],
-"syncope-client-cli-2.1.0": [
-"syncope/2.1.0/syncope-client-cli-2.1.0.zip"
+"syncope-client-cli-2.1.1": [
+"syncope/2.1.1/syncope-client-cli-2.1.1.zip"
 ],
-"syncope-core-upgrade-2.1.0": [
-"syncope/2.1.0/syncope-core-upgrade-2.1.0.zip"
+"syncope-core-upgrade-2.1.1": [
+"syncope/2.1.1/syncope-core-upgrade-2.1.1.zip"
 ],
-"syncope-ide-netbeans-2.0.9.nbm": [
-"syncope/2.0.9/syncope-ide-netbeans-2.0.9.nbm"
+"syncope-ide-netbeans-2.0.10.nbm": [
+"syncope/2.0.10/syncope-ide-netbeans-2.0.10.nbm"
 ],
-"syncope-ide-netbeans-2.1.0.nbm": [
-"syncope/2.1.0/syncope-ide-netbeans-2.1.0.nbm"
+"syncope-ide-netbeans-2.1.1.nbm": [
+"syncope/2.1.1/syncope-ide-netbeans-2.1.1.nbm"
 ]
 },
 "systemml": {
@@ -9290,19 +9287,6 @@
 "tomcat/tomcat-8/v8.0.53/src/apache-tomcat-8.0.53-src.tar.gz",
 "tomcat/tomcat-8/v8.0.53/src/apache-tomcat-8.0.53-src.zip"
 ],
-"apache-tomcat-8.5.32": [
-"tomcat/tomcat-8/v8.5.32/bin/embed/apache-tomcat-8.5.32-embed.tar.gz",
-"tomcat/tomcat-8/v8.5.32/bin/embed/apache-tomcat-8.5.32-embed.zip",
-"tomcat/tomcat-8/v8.5.32/bin/apache-tomcat-8.5.32-deployer.tar.gz",
-"tomcat/tomcat-8/v8.5.32/bin/apache-tomcat-8.5.32-deployer.zip",
-"tomcat/tomcat-8/v8.5.32/bin/apache-tomcat-8.5.32-fulldocs.tar.gz",
-"tomcat/tomcat-8/v8.5.32/bin/apache-tomcat-8.5.32-windows-x64.zip",
-"tomcat/tomcat-8/v8.5.32/bin/apache-tomcat-8.5.32.exe",
-"tomcat/tomcat-8/v8.5.32/bin/apache-tomcat-8.5.32.tar.gz",
-"tomcat/tomcat-8/v8.5.32/bin/apache-tomcat-8.5.32.zip",
-"tomcat/tomcat-8/v8.5.32/src/apache-tomcat-8.5.32-src.tar.gz",
-"tomcat/tomcat-8/v8.5.32/src/apache-tomcat-8.5.32-src.zip"
-],
 "apache-tomcat-8.5.33": [
 "tomcat/tomcat-8/v8.5.33/bin/embed/apache-tomcat-8.5.33-embed.tar.gz",
 "tomcat/tomcat-8/v8.5.33/bin/embed/apache-tomcat-8.5.33-embed.zip",
@@ -9315,19 +9299,6 @@
 "tomcat/tomcat-8/v8.5.33/bin/apache-tomcat-8.5.33.zip",
 "tomcat/tomcat-8/v8.5.33/src/apache-tomcat-8.5.33-src.tar.gz",
 "tomcat/tomcat-8/v8.5.33/src/apache-tomcat-8.5.33-src.zip"
-],
-"apache-tomcat-9.0.10": [
-"tomcat/tomcat-9/v9.0.10/bin/embed/apache-tomcat-9.0.10-embed.tar.gz",
-"tomcat/tomcat-9/v9.0.10/bin/embed/apache-tomcat-9.0.10-embed.zip",
-"tomcat/tomcat-9/v9.0.10/bin/apache-tomcat-9.0.10-deployer.tar.gz",
-"tomcat/tomcat-9/v9.0.10/bin/apache-tomcat-9.0.10-deployer.zip",
-"tomcat/tomcat-9/v9.0.10/bin/apache-tomcat-9.0.10-fulldocs.tar.gz",
-"tomcat/tomcat-9/v9.0.10/bin/apache-tomcat-9.0.10-windows-x64.zip",
-"tomcat/tomcat-9/v9.0.10/bin/apache-tomcat-9.0.10.exe",
-"tomcat/tomcat-9/v9.0.10/bin/apache-tomcat-9.0.10.tar.gz",
-"tomcat/tomcat-9/v9.0.10/bin/apache-tomcat-9.0.10.zip",
-"tomcat/tomcat-9/v9.0.10/src/apache-tomcat-9.0.10-src.tar.gz",
-"tomcat/tomcat-9/v9.0.10/src/apache-tomcat-9.0.10-src.zip"
 ],
 "apache-tomcat-9.0.11": [
 "tomcat/tomcat-9/v9.0.11/bin/embed/apache-tomcat-9.0.11-embed.tar.gz",
@@ -9345,10 +9316,6 @@
 "taglibs-standard-1.2.5": [
 "tomcat/taglibs/taglibs-standard-1.2.5/taglibs-standard-1.2.5-source-release.zip"
 ],
-"tomcat-connectors-1.2.42": [
-"tomcat/tomcat-connectors/jk/tomcat-connectors-1.2.42-src.tar.gz",
-"tomcat/tomcat-connectors/jk/tomcat-connectors-1.2.42-src.zip"
-],
 "tomcat-connectors-1.2.43": [
 "tomcat/tomcat-connectors/jk/tomcat-connectors-1.2.43-src.tar.gz",
 "tomcat/tomcat-connectors/jk/tomcat-connectors-1.2.43-src.zip"
@@ -9359,10 +9326,6 @@
 "tomcat-native-1.1.34": [
 "tomcat/tomcat-connectors/native/1.1.34/source/tomcat-native-1.1.34-src.tar.gz",
 "tomcat/tomcat-connectors/native/1.1.34/source/tomcat-native-1.1.34-win32-src.zip"
-],
-"tomcat-native-1.2.16": [
-"tomcat/tomcat-connectors/native/1.2.16/source/tomcat-native-1.2.16-src.tar.gz",
-"tomcat/tomcat-connectors/native/1.2.16/source/tomcat-native-1.2.16-win32-src.zip"
 ],
 "tomcat-native-1.2.17": [
 "tomcat/tomcat-connectors/native/1.2.17/source/tomcat-native-1.2.17-src.tar.gz",
