@@ -8674,6 +8674,7 @@
 "bug-database": "https://issues.apache.org/jira/projects/KUDU/issues",
 "category": "big-data",
 "created": "2018-08-15",
+"description": "Apache Kudu is a columnar storage manager developed for the Apache Hadoop platform.",
 "doap": "https://kudu.apache.org/doap_Kudu.rdf",
 "download-page": "https://kudu.apache.org/releases/",
 "homepage": "https://kudu.apache.org",
@@ -8684,7 +8685,8 @@
 "programming-language": "C++",
 "repository": [
 "git://git.apache.org/kudu.git"
-]
+],
+"shortdesc": "Columnar storage manager"
 },
 "lens": {
 "bug-database": "https://issues.apache.org/jira/browse/LENS",
@@ -12005,8 +12007,8 @@
 }
 ],
 "repository": [
-"http://svn.apache.org/repos/asf/opennlp",
-"https://github.com/apache/opennlp.git"
+"https://github.com/apache/opennlp.git",
+"http://svn.apache.org/repos/asf/opennlp"
 ],
 "shortdesc": "Apache OpenNLP library software is a machine learning based toolkit for the processing of natural language text.."
 },
