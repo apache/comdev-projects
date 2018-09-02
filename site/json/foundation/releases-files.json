@@ -2801,9 +2801,17 @@
 "hama/hama-0.7.1/hama-dist-0.7.1.zip"
 ]
 },
+"hawq": {
+"apache-hawq-2.3.0.0-incubating": [
+"hawq/2.3.0.0-incubating/apache-hawq-src-2.3.0.0-incubating.tar.gz"
+],
+"apache-hawq-rpm-2.3.0.0-incubating": [
+"hawq/2.3.0.0-incubating/apache-hawq-rpm-2.3.0.0-incubating.tar.gz"
+]
+},
 "hbase": {
 "RELEASENOTES.md": [
-"hbase/2.0.1/RELEASENOTES.md",
+"hbase/2.0.2/RELEASENOTES.md",
 "hbase/2.1.0/RELEASENOTES.md"
 ],
 "hbase-1.2.6.1": [
@@ -2815,8 +2823,8 @@
 "hbase-1.4.6": [
 "hbase/1.4.6/hbase-1.4.6-src.tar.gz"
 ],
-"hbase-2.0.1": [
-"hbase/2.0.1/hbase-2.0.1-src.tar.gz"
+"hbase-2.0.2": [
+"hbase/2.0.2/hbase-2.0.2-src.tar.gz"
 ],
 "hbase-2.1.0": [
 "hbase/2.1.0/hbase-2.1.0-src.tar.gz"
@@ -3083,14 +3091,6 @@
 ],
 "griffin-0.2.0-incubating": [
 "incubator/griffin/0.2.0-incubating/griffin-0.2.0-incubating-source-release.zip"
-]
-},
-"incubator-hawq": {
-"apache-hawq-2.3.0.0-incubating": [
-"incubator/hawq/2.3.0.0-incubating/apache-hawq-src-2.3.0.0-incubating.tar.gz"
-],
-"apache-hawq-rpm-2.3.0.0-incubating": [
-"incubator/hawq/2.3.0.0-incubating/apache-hawq-rpm-2.3.0.0-incubating.tar.gz"
 ]
 },
 "incubator-hivemall": {
@@ -9280,6 +9280,10 @@
 "tomcat-connectors-1.2.43": [
 "tomcat/tomcat-connectors/jk/tomcat-connectors-1.2.43-src.tar.gz",
 "tomcat/tomcat-connectors/jk/tomcat-connectors-1.2.43-src.zip"
+],
+"tomcat-connectors-1.2.44": [
+"tomcat/tomcat-connectors/jk/tomcat-connectors-1.2.44-src.tar.gz",
+"tomcat/tomcat-connectors/jk/tomcat-connectors-1.2.44-src.zip"
 ],
 "tomcat-maven-plugin-2.2": [
 "tomcat/maven-plugin/v2.2/tomcat-maven-plugin-2.2-source-release.zip"
