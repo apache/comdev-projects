@@ -5769,11 +5769,11 @@
 "jackrabbit-oak-1.6.13": [
 "jackrabbit/oak/1.6.13/jackrabbit-oak-1.6.13-src.zip"
 ],
-"jackrabbit-oak-1.8.6": [
-"jackrabbit/oak/1.8.6/jackrabbit-oak-1.8.6-src.zip"
+"jackrabbit-oak-1.8.7": [
+"jackrabbit/oak/1.8.7/jackrabbit-oak-1.8.7-src.zip"
 ],
-"jackrabbit-oak-1.9.7": [
-"jackrabbit/oak/1.9.7/jackrabbit-oak-1.9.7-src.zip"
+"jackrabbit-oak-1.9.8": [
+"jackrabbit/oak/1.9.8/jackrabbit-oak-1.9.8-src.zip"
 ],
 "jackrabbit-ocm-2.0.0": [
 "jackrabbit/ocm/2.0.0/jackrabbit-ocm-2.0.0-source-release.zip"
@@ -6030,19 +6030,6 @@
 ]
 },
 "karaf": {
-"_remote.repositories": [
-"karaf/3.0.9/_remote.repositories",
-"karaf/4.0.10/_remote.repositories",
-"karaf/4.1.6/_remote.repositories",
-"karaf/4.2.1/_remote.repositories",
-"karaf/cave/3.0.0/_remote.repositories",
-"karaf/cave/4.0.0/_remote.repositories",
-"karaf/cave/4.1.0/_remote.repositories",
-"karaf/cellar/3.0.3/_remote.repositories",
-"karaf/cellar/4.0.4/_remote.repositories",
-"karaf/cellar/4.1.1/_remote.repositories",
-"karaf/decanter/2.0.0/_remote.repositories"
-],
 "apache-karaf-3.0.9": [
 "karaf/3.0.9/apache-karaf-3.0.9-src.tar.gz",
 "karaf/3.0.9/apache-karaf-3.0.9-src.zip",
@@ -6102,10 +6089,6 @@
 "apache-karaf-decanter-2.0.0": [
 "karaf/decanter/2.0.0/apache-karaf-decanter-2.0.0-src.tar.gz",
 "karaf/decanter/2.0.0/apache-karaf-decanter-2.0.0-src.zip"
-],
-"apache-karaf-eik-0.9.0": [
-"karaf/eik/0.9.0/apache-karaf-eik-0.9.0-src.tar.gz",
-"karaf/eik/0.9.0/apache-karaf-eik-0.9.0-src.zip"
 ]
 },
 "knox": {
@@ -7199,6 +7182,12 @@
 "openmeetings/4.0.4/bin/apache-openmeetings-4.0.4.zip",
 "openmeetings/4.0.4/src/apache-openmeetings-4.0.4-src.tar.gz",
 "openmeetings/4.0.4/src/apache-openmeetings-4.0.4-src.zip"
+],
+"apache-openmeetings-4.0.5": [
+"openmeetings/4.0.5/bin/apache-openmeetings-4.0.5.tar.gz",
+"openmeetings/4.0.5/bin/apache-openmeetings-4.0.5.zip",
+"openmeetings/4.0.5/src/apache-openmeetings-4.0.5-src.tar.gz",
+"openmeetings/4.0.5/src/apache-openmeetings-4.0.5-src.zip"
 ]
 },
 "opennlp": {
@@ -8038,8 +8027,8 @@
 "org.apache.sling.commons.fsclassloader-1.0.8": [
 "sling/org.apache.sling.commons.fsclassloader-1.0.8-source-release.zip"
 ],
-"org.apache.sling.commons.johnzon-1.1.0": [
-"sling/org.apache.sling.commons.johnzon-1.1.0-source-release.zip"
+"org.apache.sling.commons.johnzon-1.1.2": [
+"sling/org.apache.sling.commons.johnzon-1.1.2-source-release.zip"
 ],
 "org.apache.sling.commons.json-2.0.20": [
 "sling/org.apache.sling.commons.json-2.0.20-source-release.zip"
@@ -8333,9 +8322,9 @@
 "org.apache.sling.launchpad.api-1.2.0": [
 "sling/org.apache.sling.launchpad.api-1.2.0-source-release.zip"
 ],
-"org.apache.sling.launchpad.base-6.0.1-2.6.30": [
-"sling/org.apache.sling.launchpad.base-6.0.1-2.6.30-source-release.zip",
-"sling/org.apache.sling.launchpad.base-6.0.1-2.6.30-webapp.war"
+"org.apache.sling.launchpad.base-6.0.1-2.6.32": [
+"sling/org.apache.sling.launchpad.base-6.0.1-2.6.32-source-release.zip",
+"sling/org.apache.sling.launchpad.base-6.0.1-2.6.32-webapp.war"
 ],
 "org.apache.sling.launchpad.content-2.0.12": [
 "sling/org.apache.sling.launchpad.content-2.0.12-source-release.zip"
@@ -8547,6 +8536,21 @@
 "org.apache.sling.testing.osgi-mock-1.9.8": [
 "sling/org.apache.sling.testing.osgi-mock-1.9.8-source-release.zip"
 ],
+"org.apache.sling.testing.osgi-mock-2.4.2": [
+"sling/org.apache.sling.testing.osgi-mock-2.4.2-source-release.zip"
+],
+"org.apache.sling.testing.osgi-mock.core-2.4.2": [
+"sling/org.apache.sling.testing.osgi-mock.core-2.4.2-source-release.zip"
+],
+"org.apache.sling.testing.osgi-mock.junit4-2.4.2": [
+"sling/org.apache.sling.testing.osgi-mock.junit4-2.4.2-source-release.zip"
+],
+"org.apache.sling.testing.osgi-mock.junit5-2.4.2": [
+"sling/org.apache.sling.testing.osgi-mock.junit5-2.4.2-source-release.zip"
+],
+"org.apache.sling.testing.osgi-mock.parent-2.4.2": [
+"sling/org.apache.sling.testing.osgi-mock.parent-2.4.2-source-release.zip"
+],
 "org.apache.sling.testing.paxexam-2.0.0": [
 "sling/org.apache.sling.testing.paxexam-2.0.0-source-release.zip"
 ],
@@ -8571,8 +8575,8 @@
 "org.apache.sling.testing.sling-mock-1.9.12": [
 "sling/org.apache.sling.testing.sling-mock-1.9.12-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock-2.3.2": [
-"sling/org.apache.sling.testing.sling-mock-2.3.2-source-release.zip"
+"org.apache.sling.testing.sling-mock-2.3.4": [
+"sling/org.apache.sling.testing.sling-mock-2.3.4-source-release.zip"
 ],
 "org.apache.sling.testing.sling-mock-jackrabbit-1.0.0": [
 "sling/org.apache.sling.testing.sling-mock-jackrabbit-1.0.0-source-release.zip"
@@ -8580,17 +8584,17 @@
 "org.apache.sling.testing.sling-mock-oak-2.1.0": [
 "sling/org.apache.sling.testing.sling-mock-oak-2.1.0-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.core-2.3.2": [
-"sling/org.apache.sling.testing.sling-mock.core-2.3.2-source-release.zip"
+"org.apache.sling.testing.sling-mock.core-2.3.4": [
+"sling/org.apache.sling.testing.sling-mock.core-2.3.4-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.junit4-2.3.2": [
-"sling/org.apache.sling.testing.sling-mock.junit4-2.3.2-source-release.zip"
+"org.apache.sling.testing.sling-mock.junit4-2.3.4": [
+"sling/org.apache.sling.testing.sling-mock.junit4-2.3.4-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.junit5-2.3.2": [
-"sling/org.apache.sling.testing.sling-mock.junit5-2.3.2-source-release.zip"
+"org.apache.sling.testing.sling-mock.junit5-2.3.4": [
+"sling/org.apache.sling.testing.sling-mock.junit5-2.3.4-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.parent-2.3.2": [
-"sling/org.apache.sling.testing.sling-mock.parent-2.3.2-source-release.zip"
+"org.apache.sling.testing.sling-mock.parent-2.3.4": [
+"sling/org.apache.sling.testing.sling-mock.parent-2.3.4-source-release.zip"
 ],
 "org.apache.sling.testing.tools-1.0.16": [
 "sling/org.apache.sling.testing.tools-1.0.16-source-release.zip"
