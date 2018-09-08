@@ -5626,6 +5626,11 @@
 "programming-language": "Java",
 "release": [
 {
+"created": "2018-09-07",
+"name": "commons-weaver",
+"revision": "2.0"
+},
+{
 "created": "2016-10-18",
 "name": "commons-weaver",
 "revision": "1.3"
@@ -6825,24 +6830,6 @@
 "https://svn.apache.org/repos/asf/gump/"
 ],
 "shortdesc": "Gump provides large scale continuous integration for various open source projects."
-},
-"hadoop": {
-"bug-database": "http://issues.apache.org/jira/browse/HADOOP",
-"category": "database",
-"created": "2006-02-28",
-"description": "Hadoop is a distributed computing platform. This includes the Hadoop Distributed Filesystem (HDFS) and an implementation of MapReduce.",
-"doap": "http://hadoop.apache.org/doap.rdf",
-"download-page": "http://www.apache.org/dyn/closer.cgi/hadoop/",
-"homepage": "http://hadoop.apache.org/",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://hadoop.apache.org/mailing_lists.html",
-"name": "Apache Hadoop",
-"pmc": "hadoop",
-"programming-language": "Java",
-"repository": [
-"http://svn.apache.org/repos/asf/hadoop/"
-],
-"shortdesc": "A distributed computing platform."
 },
 "hama": {
 "bug-database": "https://issues.apache.org/jira/browse/HAMA",
@@ -12007,8 +11994,8 @@
 }
 ],
 "repository": [
-"http://svn.apache.org/repos/asf/opennlp",
-"https://github.com/apache/opennlp.git"
+"https://github.com/apache/opennlp.git",
+"http://svn.apache.org/repos/asf/opennlp"
 ],
 "shortdesc": "Apache OpenNLP library software is a machine learning based toolkit for the processing of natural language text.."
 },
@@ -12518,6 +12505,11 @@
 "pmc": "poi",
 "programming-language": "Java",
 "release": [
+{
+"created": "2018-09-07",
+"name": "Apache POI 4.0.0",
+"revision": "4.0.0"
+},
 {
 "created": "2017-09-15",
 "name": "Apache POI 3.17",
