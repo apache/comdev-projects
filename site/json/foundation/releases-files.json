@@ -186,6 +186,11 @@
 "apr/apr-1.6.3.tar.bz2",
 "apr/apr-1.6.3.tar.gz"
 ],
+"apr-1.6.5": [
+"apr/apr-1.6.5-win32-src.zip",
+"apr/apr-1.6.5.tar.bz2",
+"apr/apr-1.6.5.tar.gz"
+],
 "apr-iconv-1.2.2": [
 "apr/apr-iconv-1.2.2-win32-src.zip",
 "apr/apr-iconv-1.2.2.tar.bz2",
@@ -625,6 +630,9 @@
 ],
 "apache-atlas-1.0.0": [
 "atlas/1.0.0/apache-atlas-1.0.0-sources.tar.gz"
+],
+"apache-atlas-1.1.0": [
+"atlas/1.1.0/apache-atlas-1.1.0-sources.tar.gz"
 ]
 },
 "aurora": {
@@ -1836,9 +1844,6 @@
 ]
 },
 "directory": {
-"ApacheDirectoryStudio-2.0.0.v20170904-M13": [
-"directory/studio/2.0.0.v20170904-M13/ApacheDirectoryStudio-2.0.0.v20170904-M13-src.zip"
-],
 "ApacheDirectoryStudio-2.0.0.v20180908-M14": [
 "directory/studio/2.0.0.v20180908-M14/ApacheDirectoryStudio-2.0.0.v20180908-M14-src.zip"
 ],
@@ -1960,7 +1965,6 @@
 "directory/mavibot/dist/1.0.0-M8/mavibot-1.0.0-M8-src.zip"
 ],
 "p2.index": [
-"directory/studio/2.0.0.v20170904-M13/update/dependencies/p2.index",
 "directory/studio/2.0.0.v20180908-M14/update/dependencies/p2.index"
 ]
 },
@@ -2329,9 +2333,9 @@
 "felix/org.apache.felix.utils-1.11.0-source-release.tar.gz",
 "felix/org.apache.felix.utils-1.11.0-source-release.zip"
 ],
-"org.apache.felix.webconsole-4.3.4": [
-"felix/org.apache.felix.webconsole-4.3.4-source-release.tar.gz",
-"felix/org.apache.felix.webconsole-4.3.4-source-release.zip"
+"org.apache.felix.webconsole-4.3.8": [
+"felix/org.apache.felix.webconsole-4.3.8-source-release.tar.gz",
+"felix/org.apache.felix.webconsole-4.3.8-source-release.zip"
 ],
 "org.osgi.compendium-1.4.0": [
 "felix/org.osgi.compendium-1.4.0-project.tar.gz",
@@ -3040,8 +3044,8 @@
 "apache-mxnet-1.2.1-incubating": [
 "incubator/mxnet/1.2.1/apache-mxnet-src-1.2.1-incubating.tar.gz"
 ],
-"apache-mxnet-1.3.0.rc0-incubating": [
-"incubator/mxnet/1.3.0/apache-mxnet-src-1.3.0.rc0-incubating.tar.gz"
+"apache-mxnet-1.3.0-incubating": [
+"incubator/mxnet/1.3.0/apache-mxnet-src-1.3.0-incubating.tar.gz"
 ]
 },
 "incubator-myriad": {
@@ -5550,6 +5554,15 @@
 ],
 "unomi-1.3.0-incubating": [
 "incubator/unomi/1.3.0-incubating/unomi-1.3.0-incubating-src.zip"
+],
+"unomi-manual-1_1_x": [
+"incubator/unomi/1.1.0-incubating/unomi-manual-1_1_x.zip"
+],
+"unomi-manual-1_2_x": [
+"incubator/unomi/1.2.0-incubating/unomi-manual-1_2_x.zip"
+],
+"unomi-manual-1_3_x": [
+"incubator/unomi/1.3.0-incubating/unomi-manual-1_3_x.zip"
 ]
 },
 "incubator-weex": {
@@ -5697,8 +5710,8 @@
 "jackrabbit-oak-1.0.42": [
 "jackrabbit/oak/1.0.42/jackrabbit-oak-1.0.42-src.zip"
 ],
-"jackrabbit-oak-1.2.29": [
-"jackrabbit/oak/1.2.29/jackrabbit-oak-1.2.29-src.zip"
+"jackrabbit-oak-1.2.30": [
+"jackrabbit/oak/1.2.30/jackrabbit-oak-1.2.30-src.zip"
 ],
 "jackrabbit-oak-1.4.22": [
 "jackrabbit/oak/1.4.22/jackrabbit-oak-1.4.22-src.zip"
@@ -6630,8 +6643,8 @@
 "maven-runtime-1.0-alpha-3": [
 "maven/shared/maven-runtime-1.0-alpha-3-source-release.zip"
 ],
-"maven-scm-1.10.0": [
-"maven/scm/maven-scm-1.10.0-source-release.zip"
+"maven-scm-1.11.1": [
+"maven/scm/maven-scm-1.11.1-source-release.zip"
 ],
 "maven-scm-publish-plugin-3.0.0": [
 "maven/plugins/maven-scm-publish-plugin-3.0.0-source-release.zip"
