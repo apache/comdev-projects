@@ -855,6 +855,32 @@
 "apache-brooklyn-0.12.0-vagrant": [
 "brooklyn/apache-brooklyn-0.12.0/apache-brooklyn-0.12.0-vagrant.tar.gz",
 "brooklyn/apache-brooklyn-0.12.0/apache-brooklyn-0.12.0-vagrant.zip"
+],
+"apache-brooklyn-1.0.0-M1": [
+"brooklyn/apache-brooklyn-1.0.0-M1/apache-brooklyn-1.0.0-M1-src.tar.gz",
+"brooklyn/apache-brooklyn-1.0.0-M1/apache-brooklyn-1.0.0-M1-src.zip",
+"brooklyn/apache-brooklyn-1.0.0-M1/apache-brooklyn-1.0.0-M1.deb"
+],
+"apache-brooklyn-1.0.0-M1-classic": [
+"brooklyn/apache-brooklyn-1.0.0-M1/apache-brooklyn-1.0.0-M1-classic.tar.gz",
+"brooklyn/apache-brooklyn-1.0.0-M1/apache-brooklyn-1.0.0-M1-classic.zip"
+],
+"apache-brooklyn-1.0.0-M1-client-cli": [
+"brooklyn/apache-brooklyn-1.0.0-M1/apache-brooklyn-1.0.0-M1-client-cli-linux.tar.gz",
+"brooklyn/apache-brooklyn-1.0.0-M1/apache-brooklyn-1.0.0-M1-client-cli-linux.zip",
+"brooklyn/apache-brooklyn-1.0.0-M1/apache-brooklyn-1.0.0-M1-client-cli-macosx.tar.gz",
+"brooklyn/apache-brooklyn-1.0.0-M1/apache-brooklyn-1.0.0-M1-client-cli-macosx.zip"
+],
+"apache-brooklyn-1.0.0-M1-client-cli-windows": [
+"brooklyn/apache-brooklyn-1.0.0-M1/apache-brooklyn-1.0.0-M1-client-cli-windows.tar.gz",
+"brooklyn/apache-brooklyn-1.0.0-M1/apache-brooklyn-1.0.0-M1-client-cli-windows.zip"
+],
+"apache-brooklyn-1.0.0-M1-vagrant": [
+"brooklyn/apache-brooklyn-1.0.0-M1/apache-brooklyn-1.0.0-M1-vagrant.tar.gz",
+"brooklyn/apache-brooklyn-1.0.0-M1/apache-brooklyn-1.0.0-M1-vagrant.zip"
+],
+"apache-brooklyn-1.0.0-M1_1.noarch": [
+"brooklyn/apache-brooklyn-1.0.0-M1/apache-brooklyn-1.0.0-M1_1.noarch.rpm"
 ]
 },
 "buildr": {
@@ -2034,9 +2060,9 @@
 "felix/org.apache.felix.bundlerepository-2.0.10-source-release.tar.gz",
 "felix/org.apache.felix.bundlerepository-2.0.10-source-release.zip"
 ],
-"org.apache.felix.configadmin-1.9.4": [
-"felix/org.apache.felix.configadmin-1.9.4-source-release.tar.gz",
-"felix/org.apache.felix.configadmin-1.9.4-source-release.zip"
+"org.apache.felix.configadmin-1.9.6": [
+"felix/org.apache.felix.configadmin-1.9.6-source-release.tar.gz",
+"felix/org.apache.felix.configadmin-1.9.6-source-release.zip"
 ],
 "org.apache.felix.configurator-1.0.4": [
 "felix/org.apache.felix.configurator-1.0.4-source-release.tar.gz",
@@ -5855,11 +5881,12 @@
 ]
 },
 "johnzon": {
+"apache-johnzon-1.1.10": [
+"johnzon/johnzon-1.1.10/apache-johnzon-1.1.10-src.tar.gz",
+"johnzon/johnzon-1.1.10/apache-johnzon-1.1.10-src.zip"
+],
 "johnzon-1.0.1": [
 "johnzon/johnzon-1.0.1/johnzon-1.0.1-source-release.zip"
-],
-"johnzon-1.1.8": [
-"johnzon/johnzon-1.1.8/johnzon-1.1.8-source-release.zip"
 ]
 },
 "jspwiki": {
@@ -6157,9 +6184,6 @@
 "kylin": {
 "apache-kylin-2.3.2": [
 "kylin/apache-kylin-2.3.2/apache-kylin-2.3.2-source-release.zip"
-],
-"apache-kylin-2.4.0": [
-"kylin/apache-kylin-2.4.0/apache-kylin-2.4.0-source-release.zip"
 ],
 "apache-kylin-2.4.1": [
 "kylin/apache-kylin-2.4.1/apache-kylin-2.4.1-source-release.zip"
@@ -8220,14 +8244,14 @@
 "org.apache.sling.jcr.davex-1.3.10": [
 "sling/org.apache.sling.jcr.davex-1.3.10-source-release.zip"
 ],
-"org.apache.sling.jcr.jackrabbit.accessmanager-3.0.0": [
-"sling/org.apache.sling.jcr.jackrabbit.accessmanager-3.0.0-source-release.zip"
+"org.apache.sling.jcr.jackrabbit.accessmanager-3.0.2": [
+"sling/org.apache.sling.jcr.jackrabbit.accessmanager-3.0.2-source-release.zip"
 ],
 "org.apache.sling.jcr.jackrabbit.server-2.3.0": [
 "sling/org.apache.sling.jcr.jackrabbit.server-2.3.0-source-release.zip"
 ],
-"org.apache.sling.jcr.jackrabbit.usermanager-2.2.6": [
-"sling/org.apache.sling.jcr.jackrabbit.usermanager-2.2.6-source-release.zip"
+"org.apache.sling.jcr.jackrabbit.usermanager-2.2.8": [
+"sling/org.apache.sling.jcr.jackrabbit.usermanager-2.2.8-source-release.zip"
 ],
 "org.apache.sling.jcr.jcr-wrapper-2.0.0": [
 "sling/org.apache.sling.jcr.jcr-wrapper-2.0.0-source-release.zip"
@@ -8344,8 +8368,8 @@
 "org.apache.sling.performance.base-1.0.2": [
 "sling/org.apache.sling.performance.base-1.0.2-source-release.zip"
 ],
-"org.apache.sling.pipes-2.0.2": [
-"sling/org.apache.sling.pipes-2.0.2-source-release.zip"
+"org.apache.sling.pipes-3.0.2": [
+"sling/org.apache.sling.pipes-3.0.2-source-release.zip"
 ],
 "org.apache.sling.provisioning.model-1.8.4": [
 "sling/org.apache.sling.provisioning.model-1.8.4-source-release.zip"
@@ -8383,11 +8407,11 @@
 "org.apache.sling.rewriter-1.2.2": [
 "sling/org.apache.sling.rewriter-1.2.2-source-release.zip"
 ],
-"org.apache.sling.sample.slingshot-0.8.0": [
-"sling/org.apache.sling.sample.slingshot-0.8.0-source-release.zip"
+"org.apache.sling.sample.slingshot-0.9.0": [
+"sling/org.apache.sling.sample.slingshot-0.9.0-source-release.zip"
 ],
-"org.apache.sling.sample.slingshot-0.8.0-mar.mar": [
-"sling/org.apache.sling.sample.slingshot-0.8.0-mar.mar"
+"org.apache.sling.sample.slingshot-0.9.0-mar.mar": [
+"sling/org.apache.sling.sample.slingshot-0.9.0-mar.mar"
 ],
 "org.apache.sling.samples.path-based.rtp-2.0.4": [
 "sling/org.apache.sling.samples.path-based.rtp-2.0.4-source-release.zip"
