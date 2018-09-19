@@ -914,12 +914,11 @@
 "apache-calcite-avatica-1.12.0": [
 "calcite/apache-calcite-avatica-1.12.0/apache-calcite-avatica-1.12.0-src.tar.gz"
 ],
-"apache-calcite-avatica-go-3.0.0": [
-"calcite/apache-calcite-avatica-go-3.0.0/apache-calcite-avatica-go-src-3.0.0.tar.gz",
-"calcite/apache-calcite-avatica-go-3.0.0/apache-calcite-avatica-go-src-3.0.0.zip"
-],
 "apache-calcite-avatica-go-3.1.0": [
 "calcite/apache-calcite-avatica-go-3.1.0/apache-calcite-avatica-go-src-3.1.0.tar.gz"
+],
+"apache-calcite-avatica-go-3.2.0": [
+"calcite/apache-calcite-avatica-go-3.2.0/apache-calcite-avatica-go-3.2.0-src.tar.gz"
 ]
 },
 "camel": {
@@ -2706,6 +2705,12 @@
 "hadoop/core/hadoop-2.8.4/hadoop-2.8.4-src.tar.gz",
 "hadoop/core/hadoop-2.8.4/hadoop-2.8.4.tar.gz"
 ],
+"hadoop-2.8.5": [
+"hadoop/common/hadoop-2.8.5/hadoop-2.8.5-src.tar.gz",
+"hadoop/common/hadoop-2.8.5/hadoop-2.8.5.tar.gz",
+"hadoop/core/hadoop-2.8.5/hadoop-2.8.5-src.tar.gz",
+"hadoop/core/hadoop-2.8.5/hadoop-2.8.5.tar.gz"
+],
 "hadoop-2.9.0": [
 "hadoop/common/hadoop-2.9.0/hadoop-2.9.0-src.tar.gz",
 "hadoop/common/hadoop-2.9.0/hadoop-2.9.0.tar.gz",
@@ -3067,9 +3072,6 @@
 ]
 },
 "incubator-mxnet": {
-"apache-mxnet-1.2.1-incubating": [
-"incubator/mxnet/1.2.1/apache-mxnet-src-1.2.1-incubating.tar.gz"
-],
 "apache-mxnet-1.3.0-incubating": [
 "incubator/mxnet/1.3.0/apache-mxnet-src-1.3.0-incubating.tar.gz"
 ]
@@ -5320,6 +5322,12 @@
 "openwhisk-0.9.0-incubating": [
 "incubator/openwhisk/apache-openwhisk-0.9.0-incubating/openwhisk-0.9.0-incubating-sources.tar.gz"
 ],
+"openwhisk-apigateway-0.9.0-incubating": [
+"incubator/openwhisk/apache-openwhisk-0.9.0-incubating/openwhisk-apigateway-0.9.0-incubating-sources.tar.gz"
+],
+"openwhisk-catalog-0.9.0-incubating": [
+"incubator/openwhisk/apache-openwhisk-0.9.0-incubating/openwhisk-catalog-0.9.0-incubating-sources.tar.gz"
+],
 "openwhisk-cli-0.9.0-incubating": [
 "incubator/openwhisk/apache-openwhisk-0.9.0-incubating/openwhisk-cli-0.9.0-incubating-sources.tar.gz"
 ],
@@ -5742,8 +5750,8 @@
 "jackrabbit-oak-1.4.22": [
 "jackrabbit/oak/1.4.22/jackrabbit-oak-1.4.22-src.zip"
 ],
-"jackrabbit-oak-1.6.13": [
-"jackrabbit/oak/1.6.13/jackrabbit-oak-1.6.13-src.zip"
+"jackrabbit-oak-1.6.14": [
+"jackrabbit/oak/1.6.14/jackrabbit-oak-1.6.14-src.zip"
 ],
 "jackrabbit-oak-1.8.7": [
 "jackrabbit/oak/1.8.7/jackrabbit-oak-1.8.7-src.zip"
@@ -5878,6 +5886,10 @@
 "apache-jmeter-4.0": [
 "jmeter/source/apache-jmeter-4.0_src.tgz",
 "jmeter/source/apache-jmeter-4.0_src.zip"
+],
+"apache-jmeter-5.0": [
+"jmeter/source/apache-jmeter-5.0_src.tgz",
+"jmeter/source/apache-jmeter-5.0_src.zip"
 ]
 },
 "johnzon": {
@@ -6187,6 +6199,9 @@
 ],
 "apache-kylin-2.4.1": [
 "kylin/apache-kylin-2.4.1/apache-kylin-2.4.1-source-release.zip"
+],
+"apache-kylin-2.5.0": [
+"kylin/apache-kylin-2.5.0/apache-kylin-2.5.0-source-release.zip"
 ]
 },
 "lens": {
@@ -7448,9 +7463,6 @@
 ],
 "apache-phoenix-5.0.0-HBase-2.0": [
 "phoenix/apache-phoenix-5.0.0-HBase-2.0/src/apache-phoenix-5.0.0-HBase-2.0-src.tar.gz"
-],
-"apache-phoenix-5.0.0-alpha-HBase-2.0": [
-"phoenix/apache-phoenix-5.0.0-alpha-HBase-2.0/src/apache-phoenix-5.0.0-alpha-HBase-2.0-src.tar.gz"
 ]
 },
 "pig": {
@@ -9136,8 +9148,8 @@
 ]
 },
 "tika": {
-"tika-1.18": [
-"tika/tika-1.18-src.zip"
+"tika-1.19": [
+"tika/tika-1.19-src.zip"
 ]
 },
 "tiles": {
@@ -9842,9 +9854,6 @@
 ]
 },
 "wicket": {
-"apache-wicket-1.5.16": [
-"wicket/1.5.16/apache-wicket-1.5.16-source.tgz"
-],
 "apache-wicket-6.29.0": [
 "wicket/6.29.0/apache-wicket-6.29.0.tar.gz",
 "wicket/6.29.0/apache-wicket-6.29.0.zip"
