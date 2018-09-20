@@ -8657,6 +8657,7 @@
 "hadoop-pmc",
 "htrace",
 "incubator",
+"kafka",
 "member"
 ],
 "member": true,
@@ -9620,7 +9621,6 @@
 "pig",
 "pig-pmc",
 "samoa",
-"singa",
 "superset"
 ],
 "member": true,
@@ -17372,7 +17372,8 @@
 },
 "haigd": {
 "groups": [
-"incubator"
+"incubator",
+"warble"
 ],
 "member": false,
 "name": "Haig Didizian"
@@ -48381,6 +48382,13 @@
 ],
 "member": false,
 "name": "Vladislav Mitov"
+},
+"vmorari": {
+"groups": [
+"uima"
+],
+"member": false,
+"name": "Viorel Morari"
 },
 "vmpn": {
 "groups": [
