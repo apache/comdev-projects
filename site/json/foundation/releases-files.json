@@ -181,11 +181,6 @@
 ]
 },
 "apr": {
-"apr-1.6.3": [
-"apr/apr-1.6.3-win32-src.zip",
-"apr/apr-1.6.3.tar.bz2",
-"apr/apr-1.6.3.tar.gz"
-],
 "apr-1.6.5": [
 "apr/apr-1.6.5-win32-src.zip",
 "apr/apr-1.6.5.tar.bz2",
@@ -1608,8 +1603,8 @@
 "cordova-create-1.1.2": [
 "cordova/tools/cordova-create-1.1.2.tgz"
 ],
-"cordova-fetch-1.3.0": [
-"cordova/tools/cordova-fetch-1.3.0.tgz"
+"cordova-fetch-1.3.1": [
+"cordova/tools/cordova-fetch-1.3.1.tgz"
 ],
 "cordova-firefoxos-3.6.3": [
 "cordova/platforms/cordova-firefoxos-3.6.3.tgz"
@@ -1620,8 +1615,8 @@
 "cordova-js-4.2.4": [
 "cordova/tools/cordova-js-4.2.4.tgz"
 ],
-"cordova-lib-8.0.0": [
-"cordova/tools/cordova-lib-8.0.0.tgz"
+"cordova-lib-8.1.0": [
+"cordova/tools/cordova-lib-8.1.0.tgz"
 ],
 "cordova-osx-4.0.2": [
 "cordova/platforms/cordova-osx-4.0.2.tgz"
@@ -2129,25 +2124,25 @@
 "felix/org.apache.felix.http.api-3.0.0-source-release.tar.gz",
 "felix/org.apache.felix.http.api-3.0.0-source-release.zip"
 ],
-"org.apache.felix.http.base-4.0.2": [
-"felix/org.apache.felix.http.base-4.0.2-source-release.tar.gz",
-"felix/org.apache.felix.http.base-4.0.2-source-release.zip"
+"org.apache.felix.http.base-4.0.4": [
+"felix/org.apache.felix.http.base-4.0.4-source-release.tar.gz",
+"felix/org.apache.felix.http.base-4.0.4-source-release.zip"
 ],
-"org.apache.felix.http.bridge-4.0.2": [
-"felix/org.apache.felix.http.bridge-4.0.2-source-release.tar.gz",
-"felix/org.apache.felix.http.bridge-4.0.2-source-release.zip"
+"org.apache.felix.http.bridge-4.0.4": [
+"felix/org.apache.felix.http.bridge-4.0.4-source-release.tar.gz",
+"felix/org.apache.felix.http.bridge-4.0.4-source-release.zip"
 ],
 "org.apache.felix.http.bundle-3.0.0": [
 "felix/org.apache.felix.http.bundle-3.0.0-source-release.tar.gz",
 "felix/org.apache.felix.http.bundle-3.0.0-source-release.zip"
 ],
-"org.apache.felix.http.jetty-4.0.4": [
-"felix/org.apache.felix.http.jetty-4.0.4-source-release.tar.gz",
-"felix/org.apache.felix.http.jetty-4.0.4-source-release.zip"
+"org.apache.felix.http.jetty-4.0.6": [
+"felix/org.apache.felix.http.jetty-4.0.6-source-release.tar.gz",
+"felix/org.apache.felix.http.jetty-4.0.6-source-release.zip"
 ],
-"org.apache.felix.http.proxy-3.0.2": [
-"felix/org.apache.felix.http.proxy-3.0.2-source-release.tar.gz",
-"felix/org.apache.felix.http.proxy-3.0.2-source-release.zip"
+"org.apache.felix.http.proxy-3.0.4": [
+"felix/org.apache.felix.http.proxy-3.0.4-source-release.tar.gz",
+"felix/org.apache.felix.http.proxy-3.0.4-source-release.zip"
 ],
 "org.apache.felix.http.samples.bridge-2.3.2": [
 "felix/org.apache.felix.http.samples.bridge-2.3.2.war"
@@ -2459,8 +2454,14 @@
 "flink-1.5.3": [
 "flink/flink-1.5.3/flink-1.5.3-src.tgz"
 ],
+"flink-1.5.4": [
+"flink/flink-1.5.4/flink-1.5.4-src.tgz"
+],
 "flink-1.6.0": [
 "flink/flink-1.6.0/flink-1.6.0-src.tgz"
+],
+"flink-1.6.1": [
+"flink/flink-1.6.1/flink-1.6.1-src.tgz"
 ],
 "flink-shaded-2.0": [
 "flink/flink-shaded-2.0/flink-shaded-2.0-src.tgz"
@@ -3036,6 +3037,9 @@
 "incubator-gobblin": {
 "apache-gobblin-incubating-sources-0.12.0": [
 "incubator/gobblin/apache-gobblin-incubating-0.12.0/apache-gobblin-incubating-sources-0.12.0.tgz"
+],
+"apache-gobblin-incubating-sources-0.13.0": [
+"incubator/gobblin/apache-gobblin-incubating-0.13.0/apache-gobblin-incubating-sources-0.13.0.tgz"
 ]
 },
 "incubator-griffin": {
@@ -5883,10 +5887,6 @@
 "META": [
 "jmeter/META"
 ],
-"apache-jmeter-4.0": [
-"jmeter/source/apache-jmeter-4.0_src.tgz",
-"jmeter/source/apache-jmeter-4.0_src.zip"
-],
 "apache-jmeter-5.0": [
 "jmeter/source/apache-jmeter-5.0_src.tgz",
 "jmeter/source/apache-jmeter-5.0_src.zip"
@@ -7224,8 +7224,8 @@
 "apache-parquet-1.9.0": [
 "parquet/apache-parquet-1.9.0/apache-parquet-1.9.0.tar.gz"
 ],
-"apache-parquet-cpp-1.4.0": [
-"parquet/apache-parquet-cpp-1.4.0/apache-parquet-cpp-1.4.0.tar.gz"
+"apache-parquet-cpp-1.5.0": [
+"parquet/apache-parquet-cpp-1.5.0/apache-parquet-cpp-1.5.0.tar.gz"
 ],
 "apache-parquet-format-2.4.0": [
 "parquet/apache-parquet-format-2.4.0/apache-parquet-format-2.4.0.tar.gz"
@@ -9239,19 +9239,6 @@
 ]
 },
 "tomcat": {
-"apache-tomcat-7.0.90": [
-"tomcat/tomcat-7/v7.0.90/bin/embed/apache-tomcat-7.0.90-embed.tar.gz",
-"tomcat/tomcat-7/v7.0.90/bin/embed/apache-tomcat-7.0.90-embed.zip",
-"tomcat/tomcat-7/v7.0.90/bin/apache-tomcat-7.0.90-deployer.tar.gz",
-"tomcat/tomcat-7/v7.0.90/bin/apache-tomcat-7.0.90-deployer.zip",
-"tomcat/tomcat-7/v7.0.90/bin/apache-tomcat-7.0.90-fulldocs.tar.gz",
-"tomcat/tomcat-7/v7.0.90/bin/apache-tomcat-7.0.90-windows-x64.zip",
-"tomcat/tomcat-7/v7.0.90/bin/apache-tomcat-7.0.90.exe",
-"tomcat/tomcat-7/v7.0.90/bin/apache-tomcat-7.0.90.tar.gz",
-"tomcat/tomcat-7/v7.0.90/bin/apache-tomcat-7.0.90.zip",
-"tomcat/tomcat-7/v7.0.90/src/apache-tomcat-7.0.90-src.tar.gz",
-"tomcat/tomcat-7/v7.0.90/src/apache-tomcat-7.0.90-src.zip"
-],
 "apache-tomcat-7.0.91": [
 "tomcat/tomcat-7/v7.0.91/bin/embed/apache-tomcat-7.0.91-embed.tar.gz",
 "tomcat/tomcat-7/v7.0.91/bin/embed/apache-tomcat-7.0.91-embed.zip",
