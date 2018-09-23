@@ -1506,9 +1506,9 @@
 "commons/lang/source/commons-lang-2.6-src.tar.gz",
 "commons/lang/source/commons-lang-2.6-src.zip"
 ],
-"commons-lang3-3.8": [
-"commons/lang/source/commons-lang3-3.8-src.tar.gz",
-"commons/lang/source/commons-lang3-3.8-src.zip"
+"commons-lang3-3.8.1": [
+"commons/lang/source/commons-lang3-3.8.1-src.tar.gz",
+"commons/lang/source/commons-lang3-3.8.1-src.zip"
 ],
 "commons-logging-1.2": [
 "commons/logging/source/commons-logging-1.2-src.tar.gz",
@@ -5362,29 +5362,6 @@
 "incubator/predictionio/0.12.0-incubating/apache-predictionio-0.12.0-incubating.tar.gz"
 ]
 },
-"incubator-pulsar": {
-"8e286e31910c9f58295862fdc6617993a1dd83fa5e1964df9e08664d696aaf2d-other.sqlite": [
-"incubator/pulsar/pulsar-2.1.1-incubating/RPMS/repodata/8e286e31910c9f58295862fdc6617993a1dd83fa5e1964df9e08664d696aaf2d-other.sqlite.bz2"
-],
-"Packages": [
-"incubator/pulsar/pulsar-2.1.1-incubating/DEB/Packages.gz"
-],
-"apache-pulsar": [
-"incubator/pulsar/pulsar-2.1.1-incubating/DEB/apache-pulsar-client.deb"
-],
-"apache-pulsar-2.1.1-incubating": [
-"incubator/pulsar/pulsar-2.1.1-incubating/apache-pulsar-2.1.1-incubating-src.tar.gz"
-],
-"apache-pulsar-client-dev": [
-"incubator/pulsar/pulsar-2.1.1-incubating/DEB/apache-pulsar-client-dev.deb"
-],
-"b9383abcb72b7a6ba7fa2c68be10649872a649f150a889cc647ca14cd55f5454-filelists.sqlite": [
-"incubator/pulsar/pulsar-2.1.1-incubating/RPMS/repodata/b9383abcb72b7a6ba7fa2c68be10649872a649f150a889cc647ca14cd55f5454-filelists.sqlite.bz2"
-],
-"ba4de2c27b1800bbc46d3be908702bd0c0d1f435a9645d6527c0067143e932d9-primary.sqlite": [
-"incubator/pulsar/pulsar-2.1.1-incubating/RPMS/repodata/ba4de2c27b1800bbc46d3be908702bd0c0d1f435a9645d6527c0067143e932d9-primary.sqlite.bz2"
-]
-},
 "incubator-quickstep": {
 "apache-quickstep-incubating-0.1.0": [
 "incubator/quickstep/0.1.0/apache-quickstep-incubating-0.1.0.tar.gz"
@@ -6299,6 +6276,11 @@
 "lucene/java/7.4.0/lucene-7.4.0.tgz",
 "lucene/java/7.4.0/lucene-7.4.0.zip"
 ],
+"lucene-7.5.0": [
+"lucene/java/7.5.0/lucene-7.5.0-src.tgz",
+"lucene/java/7.5.0/lucene-7.5.0.tgz",
+"lucene/java/7.5.0/lucene-7.5.0.zip"
+],
 "pylucene-2.9.4-1": [
 "lucene/pylucene/pylucene-2.9.4-1-src.tar.gz"
 ],
@@ -6328,6 +6310,11 @@
 "lucene/solr/7.4.0/solr-7.4.0-src.tgz",
 "lucene/solr/7.4.0/solr-7.4.0.tgz",
 "lucene/solr/7.4.0/solr-7.4.0.zip"
+],
+"solr-7.5.0": [
+"lucene/solr/7.5.0/solr-7.5.0-src.tgz",
+"lucene/solr/7.5.0/solr-7.5.0.tgz",
+"lucene/solr/7.5.0/solr-7.5.0.zip"
 ]
 },
 "lucenenet": {
@@ -7648,6 +7635,29 @@
 "predictionio": {
 "apache-predictionio-0.13.0": [
 "predictionio/0.13.0/apache-predictionio-0.13.0.tar.gz"
+]
+},
+"pulsar": {
+"8e286e31910c9f58295862fdc6617993a1dd83fa5e1964df9e08664d696aaf2d-other.sqlite": [
+"pulsar/pulsar-2.1.1-incubating/RPMS/repodata/8e286e31910c9f58295862fdc6617993a1dd83fa5e1964df9e08664d696aaf2d-other.sqlite.bz2"
+],
+"Packages": [
+"pulsar/pulsar-2.1.1-incubating/DEB/Packages.gz"
+],
+"apache-pulsar": [
+"pulsar/pulsar-2.1.1-incubating/DEB/apache-pulsar-client.deb"
+],
+"apache-pulsar-2.1.1-incubating": [
+"pulsar/pulsar-2.1.1-incubating/apache-pulsar-2.1.1-incubating-src.tar.gz"
+],
+"apache-pulsar-client-dev": [
+"pulsar/pulsar-2.1.1-incubating/DEB/apache-pulsar-client-dev.deb"
+],
+"b9383abcb72b7a6ba7fa2c68be10649872a649f150a889cc647ca14cd55f5454-filelists.sqlite": [
+"pulsar/pulsar-2.1.1-incubating/RPMS/repodata/b9383abcb72b7a6ba7fa2c68be10649872a649f150a889cc647ca14cd55f5454-filelists.sqlite.bz2"
+],
+"ba4de2c27b1800bbc46d3be908702bd0c0d1f435a9645d6527c0067143e932d9-primary.sqlite": [
+"pulsar/pulsar-2.1.1-incubating/RPMS/repodata/ba4de2c27b1800bbc46d3be908702bd0c0d1f435a9645d6527c0067143e932d9-primary.sqlite.bz2"
 ]
 },
 "qpid": {
