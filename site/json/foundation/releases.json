@@ -277,6 +277,7 @@
 "bookkeeper": {
 "bookkeeper-4.7.1": "2018-06-14",
 "bookkeeper-4.7.2": "2018-08-27",
+"bookkeeper-4.8.0": "2018-09-20",
 "distributedlog-0.5.0": "2017-09-12"
 },
 "brooklyn": {
@@ -477,6 +478,7 @@
 "commons-configuration2-2.3": "2018-08-08",
 "commons-crypto-1.0.0": "2016-08-04",
 "commons-csv-1.5": "2017-09-03",
+"commons-csv-1.6": "2018-09-25",
 "commons-daemon-1.1.0": "2017-11-22",
 "commons-dbcp-1.3": "2013-03-03",
 "commons-dbcp-1.4": "2013-03-03",
@@ -675,7 +677,7 @@
 "org.apache.felix.configurator-1.0.6": "2018-09-23",
 "org.apache.felix.connect-0.1.0": "2015-05-28",
 "org.apache.felix.connect-0.2.0": "2018-07-06",
-"org.apache.felix.converter-1.0.0": "2018-04-26",
+"org.apache.felix.converter-1.0.2": "2018-09-25",
 "org.apache.felix.coordinator-1.0.2": "2015-11-16",
 "org.apache.felix.dependencymanager-r11": "2017-07-01",
 "org.apache.felix.deployment.rp.autoconf-0.1.8": "2016-01-20",
@@ -1585,6 +1587,12 @@
 "openwhisk-catalog-0.9.0-incubating": "2018-09-18",
 "openwhisk-cli-0.9.0-incubating": "2018-08-17",
 "openwhisk-client-go-0.9.0-incubating": "2018-08-17",
+"openwhisk-runtime-docker-1.12.0-incubating": "2018-09-25",
+"openwhisk-runtime-java-1.12.0-incubating": "2018-09-25",
+"openwhisk-runtime-nodejs-1.12.0-incubating": "2018-09-25",
+"openwhisk-runtime-php-1.12.0-incubating": "2018-09-25",
+"openwhisk-runtime-python-1.12.0-incubating": "2018-09-25",
+"openwhisk-runtime-swift-1.12.0-incubating": "2018-09-25",
 "openwhisk-wskdeploy-0.9.8-incubating": "2018-09-10"
 },
 "incubator-ponymail": {
@@ -1967,7 +1975,7 @@
 "doxia-sitetools-1.8.1": "2018-04-23",
 "enforcer-3.0.0-M2": "2018-06-16",
 "file-management-3.0.0": "2015-12-28",
-"jxr-2.5": "2014-11-05",
+"jxr-3.0.0": "2018-09-25",
 "maven-33": "2018-09-12",
 "maven-acr-plugin-3.1.0": "2018-06-23",
 "maven-ant-plugin-2.4": "2014-12-21",
@@ -2142,7 +2150,8 @@
 "nifi-fds-0.1.0": "2018-06-11",
 "nifi-minifi-cpp-0.5.0": "2018-05-31",
 "nifi-nar-maven-plugin-1.2.0": "2017-03-14",
-"nifi-registry-0.2.0": "2018-06-16"
+"nifi-registry-0.2.0": "2018-06-16",
+"nifi-registry-0.3.0": "2018-09-22"
 },
 "nutch": {
 "apache-nutch-1.15": "2018-07-26",
@@ -2205,14 +2214,14 @@
 "apache-openoffice-4.1.5-r1817496": "2017-12-12"
 },
 "openwebbeans": {
-"meecrowave-1.2.3": "2018-07-22",
+"meecrowave-1.2.4": "2018-09-25",
 "openwebbeans-1.2.8": "2015-04-27",
 "openwebbeans-1.7.5": "2018-05-02",
 "openwebbeans-2.0.7": "2018-08-31"
 },
 "orc": {
 "orc-1.4.4": "2018-05-14",
-"orc-1.5.2": "2018-06-29"
+"orc-1.5.3": "2018-09-25"
 },
 "parquet": {
 "apache-parquet-1.10.0": "2018-04-10",
@@ -2223,7 +2232,7 @@
 "apache-parquet-format-2.5.0": "2018-04-18"
 },
 "pdfbox": {
-"jbig2-imageio-3.0.1": "2018-05-14",
+"jbig2-imageio-3.0.2": "2018-09-22",
 "pdfbox-1.8.15": "2018-06-25",
 "pdfbox-2.0.11": "2018-06-25"
 },
@@ -2659,7 +2668,7 @@
 "org.apache.sling.scripting.jsp.taglib-2.3.0": "2018-05-22",
 "org.apache.sling.scripting.jst-2.0.6": "2013-01-21",
 "org.apache.sling.scripting.thymeleaf-2.0.0": "2018-09-12",
-"org.apache.sling.security-1.1.12": "2018-03-19",
+"org.apache.sling.security-1.1.16": "2018-09-25",
 "org.apache.sling.serviceuser.webconsole-1.0.0": "2018-01-19",
 "org.apache.sling.serviceusermapper-1.4.2": "2018-09-12",
 "org.apache.sling.servlet-helpers-1.1.8": "2018-08-06",
@@ -2737,12 +2746,15 @@
 "SparkR_2.1.3": "2018-06-26",
 "SparkR_2.2.2": "2018-06-27",
 "SparkR_2.3.1": "2018-06-01",
+"SparkR_2.3.2": "2018-09-16",
 "pyspark-2.1.3": "2018-06-26",
 "pyspark-2.2.2": "2018-06-27",
 "pyspark-2.3.1": "2018-06-01",
+"pyspark-2.3.2": "2018-09-16",
 "spark-2.1.3": "2018-06-26",
 "spark-2.2.2": "2018-06-27",
-"spark-2.3.1": "2018-06-01"
+"spark-2.3.1": "2018-06-01",
+"spark-2.3.2": "2018-09-16"
 },
 "sqoop": {
 "sqoop-1.4.7": "2018-01-24",
@@ -2974,7 +2986,8 @@
 "trafficserver-6.2.3": "2018-08-03",
 "trafficserver-7.0.0": "2016-11-07",
 "trafficserver-7.1.3": "2018-04-16",
-"trafficserver-7.1.4": "2018-08-01"
+"trafficserver-7.1.4": "2018-08-01",
+"trafficserver-8.0.0": "2018-09-25"
 },
 "trafodion": {
 "apache-trafodion-2.2.0": "2018-03-10",
