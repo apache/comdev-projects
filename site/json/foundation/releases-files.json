@@ -1583,8 +1583,8 @@
 ]
 },
 "cordova": {
-"cordova-8.1.0": [
-"cordova/tools/cordova-8.1.0.tgz"
+"cordova-8.1.1": [
+"cordova/tools/cordova-8.1.1.tgz"
 ],
 "cordova-amazon-fireos-3.6.3": [
 "cordova/platforms/cordova-amazon-fireos-3.6.3.tgz"
@@ -1885,26 +1885,6 @@
 "apache-ldap-api-2.0.0.AM2": [
 "directory/api/dist/2.0.0.AM2/apache-ldap-api-2.0.0.AM2-src.tar.gz",
 "directory/api/dist/2.0.0.AM2/apache-ldap-api-2.0.0.AM2-src.zip"
-],
-"apacheds-2.0.0-M24": [
-"directory/apacheds/dist/2.0.0-M24/apacheds-2.0.0-M24-32bit.dmg",
-"directory/apacheds/dist/2.0.0-M24/apacheds-2.0.0-M24-64bit.dmg",
-"directory/apacheds/dist/2.0.0-M24/apacheds-2.0.0-M24-i386.deb",
-"directory/apacheds/dist/2.0.0-M24/apacheds-2.0.0-M24-i386.rpm",
-"directory/apacheds/dist/2.0.0-M24/apacheds-2.0.0-M24.exe",
-"directory/apacheds/dist/2.0.0-M24/apacheds-2.0.0-M24.tar.gz",
-"directory/apacheds/dist/2.0.0-M24/apacheds-2.0.0-M24.zip",
-"directory/apacheds/dist/2.0.0-M24/apacheds-parent-2.0.0-M24-source-release.zip"
-],
-"apacheds-2.0.0.AM25": [
-"directory/apacheds/dist/2.0.0.AM25/apacheds-2.0.0.AM25-32bit.dmg",
-"directory/apacheds/dist/2.0.0.AM25/apacheds-2.0.0.AM25-64bit.dmg",
-"directory/apacheds/dist/2.0.0.AM25/apacheds-2.0.0.AM25-i386.deb",
-"directory/apacheds/dist/2.0.0.AM25/apacheds-2.0.0.AM25-i386.rpm",
-"directory/apacheds/dist/2.0.0.AM25/apacheds-2.0.0.AM25.exe",
-"directory/apacheds/dist/2.0.0.AM25/apacheds-2.0.0.AM25.tar.gz",
-"directory/apacheds/dist/2.0.0.AM25/apacheds-2.0.0.AM25.zip",
-"directory/apacheds/dist/2.0.0.AM25/apacheds-parent-2.0.0.AM25-source-release.zip"
 ],
 "fortress-core-2.0.0": [
 "directory/fortress/dist/2.0.0/fortress-core-2.0.0-source-release.zip"
@@ -2756,6 +2736,10 @@
 "hadoop/common/hadoop-3.1.1/hadoop-3.1.1.tar.gz",
 "hadoop/core/hadoop-3.1.1/hadoop-3.1.1-src.tar.gz",
 "hadoop/core/hadoop-3.1.1/hadoop-3.1.1.tar.gz"
+],
+"hadoop-ozone-0.2.1-alpha": [
+"hadoop/ozone/ozone-0.2.1-alpha/hadoop-ozone-0.2.1-alpha-src.tar.gz",
+"hadoop/ozone/ozone-0.2.1-alpha/hadoop-ozone-0.2.1-alpha.tar.gz"
 ]
 },
 "hama": {
@@ -9707,6 +9691,9 @@
 ],
 "META": [
 "uima/META"
+],
+"generate-sha512-checksums-for-files-with-sha1-checksum.sh": [
+"uima/generate-sha512-checksums-for-files-with-sha1-checksum.sh"
 ],
 "ruta-2.2.0": [
 "uima/ruta-2.2.0/ruta-2.2.0-source-release.zip"
