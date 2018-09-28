@@ -1583,8 +1583,8 @@
 ]
 },
 "cordova": {
-"cordova-8.1.0": [
-"cordova/tools/cordova-8.1.0.tgz"
+"cordova-8.1.1": [
+"cordova/tools/cordova-8.1.1.tgz"
 ],
 "cordova-amazon-fireos-3.6.3": [
 "cordova/platforms/cordova-amazon-fireos-3.6.3.tgz"
@@ -2756,6 +2756,10 @@
 "hadoop/common/hadoop-3.1.1/hadoop-3.1.1.tar.gz",
 "hadoop/core/hadoop-3.1.1/hadoop-3.1.1-src.tar.gz",
 "hadoop/core/hadoop-3.1.1/hadoop-3.1.1.tar.gz"
+],
+"hadoop-ozone-0.2.1-alpha": [
+"hadoop/ozone/ozone-0.2.1-alpha/hadoop-ozone-0.2.1-alpha-src.tar.gz",
+"hadoop/ozone/ozone-0.2.1-alpha/hadoop-ozone-0.2.1-alpha.tar.gz"
 ]
 },
 "hama": {
@@ -5457,28 +5461,6 @@
 "incubator-singa": {
 "apache-singa-incubating-1.2.0": [
 "incubator/singa/1.2.0/apache-singa-incubating-1.2.0.tar.gz"
-]
-},
-"incubator-skywalking": {
-"apache-skywalking-apm-incubating-5.0.0-RC2": [
-"incubator/skywalking/5.0.0-RC2/apache-skywalking-apm-incubating-5.0.0-RC2-src.tgz",
-"incubator/skywalking/5.0.0-RC2/apache-skywalking-apm-incubating-5.0.0-RC2.tar.gz",
-"incubator/skywalking/5.0.0-RC2/apache-skywalking-apm-incubating-5.0.0-RC2.zip"
-],
-"apache-skywalking-apm-incubating-5.0.0-alpha": [
-"incubator/skywalking/5.0.0-alpha/apache-skywalking-apm-incubating-5.0.0-alpha-src.tgz",
-"incubator/skywalking/5.0.0-alpha/apache-skywalking-apm-incubating-5.0.0-alpha.tar.gz",
-"incubator/skywalking/5.0.0-alpha/apache-skywalking-apm-incubating-5.0.0-alpha.zip"
-],
-"apache-skywalking-apm-incubating-5.0.0-beta": [
-"incubator/skywalking/5.0.0-beta/apache-skywalking-apm-incubating-5.0.0-beta-src.tgz",
-"incubator/skywalking/5.0.0-beta/apache-skywalking-apm-incubating-5.0.0-beta.tar.gz",
-"incubator/skywalking/5.0.0-beta/apache-skywalking-apm-incubating-5.0.0-beta.zip"
-],
-"apache-skywalking-apm-incubating-5.0.0-beta2": [
-"incubator/skywalking/5.0.0-beta2/apache-skywalking-apm-incubating-5.0.0-beta2-src.tgz",
-"incubator/skywalking/5.0.0-beta2/apache-skywalking-apm-incubating-5.0.0-beta2.tar.gz",
-"incubator/skywalking/5.0.0-beta2/apache-skywalking-apm-incubating-5.0.0-beta2.zip"
 ]
 },
 "incubator-spot": {
@@ -9707,6 +9689,9 @@
 ],
 "META": [
 "uima/META"
+],
+"generate-sha512-checksums-for-files-with-sha1-checksum.sh": [
+"uima/generate-sha512-checksums-for-files-with-sha1-checksum.sh"
 ],
 "ruta-2.2.0": [
 "uima/ruta-2.2.0/ruta-2.2.0-source-release.zip"
