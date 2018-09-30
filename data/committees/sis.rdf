@@ -22,11 +22,16 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/">
   <asfext:pmc rdf:about="sis">
     <asfext:name>Apache SIS</asfext:name>
+    <asfext:charter>
+      The mission of Apache SIS is the creation and maintenance of software providing
+      data structures for developing geospatial applications compliant with the model
+      of OGC/ISO international standards.
+    </asfext:charter>
     <asfext:chair>
       <foaf:Person>
-        <foaf:name>Adam Estrada</foaf:name>
+        <foaf:name>Martin Desruisseaux</foaf:name>
       </foaf:Person>
     </asfext:chair>
-    <foaf:homepage rdf:resource="http://sis.apache.org/team-list.html"/>
+    <foaf:homepage rdf:resource="http://sis.apache.org/"/>
   </asfext:pmc>
 </rdf:RDF>
