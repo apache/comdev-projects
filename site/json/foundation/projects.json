@@ -2898,7 +2898,7 @@
 },
 "calcite": {
 "bug-database": "https://issues.apache.org/jira/browse/CALCITE",
-"category": "big-data, hadoop, sql",
+"category": "big-data, hadoop, sql, geospatial",
 "created": "2015-05-27",
 "description": "Calcite is a framework for writing data management\n      systems.  It converts queries, represented in relational algebra,\n      into an efficient executable form using pluggable query\n      transformation rules. There is an optional SQL parser and JDBC\n      driver. Calcite does not store data or have a preferred execution\n      engine. Data formats, execution algorithms, planning rules,\n      operator types, metadata, and cost model are added at runtime as\n      plugins.",
 "doap": "https://git-wip-us.apache.org/repos/asf?p=calcite.git;a=blob_plain;f=site/doap_calcite.rdf;hb=HEAD",
@@ -7312,6 +7312,51 @@
 "http://git@github.com:apache/incubator-annotator.git"
 ],
 "shortdesc": "Apache Annotator provides annotation enabling code for browsers, servers, and humans."
+},
+"incubator-daffodil": {
+"bug-database": "https://issues.apache.org/jira/browse/DAFFODIL",
+"category": "big-data, library, xml",
+"created": "2017-08-27",
+"description": "Apache Daffodil is an open-source implementation of\n        the DFDL specification that uses DFDL data descriptions to parse\n        fixed format data into an infoset, which is most commonly\n        represented as either XML or JSON. This allows the use of\n        well-established XML or JSON technologies and libraries to\n        consume, inspect, and manipulate fixed format data in existing\n        solutions. Daffodil is also capable of the reverse by\n        serializing or \"unparsing\" an XML or JSON infoset back to the\n        original data format.",
+"doap": "https://daffodil.incubator.apache.org/doap.rdf",
+"download-page": "https://daffodil.apache.org/releases/",
+"homepage": "https://daffodil.apache.org",
+"implements": [
+{
+"body": "Open Grid Forum",
+"id": "DFDL",
+"title": "Data Format Description Language",
+"url": "https://daffodil.apache.org/docs/dfdl/"
+}
+],
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://daffodil.apache.org/community/#mailing-lists",
+"maintainer": [
+{
+"mbox": "mailto:dev@daffodil.apache.org",
+"name": "Apache Daffodil Community"
+}
+],
+"name": "Apache Daffodil",
+"pmc": "incubator",
+"programming-language": "Scala, Java",
+"release": [
+{
+"created": "2018-09-04",
+"name": "Apache Daffodil",
+"revision": "2.2.0"
+},
+{
+"created": "2018-05-14",
+"name": "Apache Daffodil",
+"revision": "2.1.0"
+}
+],
+"repository": [
+"https://github.com/apache/incubator-daffodil",
+"https://github.com/apache/incubator-daffodil-site"
+],
+"shortdesc": "Apache Daffodil is an open-source implementation of the\n        Data Format Description Language to convert between fixed\n        format data and XML/JSON."
 },
 "incubator-datafu": {
 "bug-database": "https://issues.apache.org/jira/browse/DATAFU",
@@ -12019,8 +12064,8 @@
 }
 ],
 "repository": [
-"http://svn.apache.org/repos/asf/opennlp",
-"https://github.com/apache/opennlp.git"
+"https://github.com/apache/opennlp.git",
+"http://svn.apache.org/repos/asf/opennlp"
 ],
 "shortdesc": "Apache OpenNLP library software is a machine learning based toolkit for the processing of natural language text.."
 },
