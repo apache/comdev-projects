@@ -2898,7 +2898,7 @@
 },
 "calcite": {
 "bug-database": "https://issues.apache.org/jira/browse/CALCITE",
-"category": "big-data, hadoop, sql",
+"category": "big-data, hadoop, sql, geospatial",
 "created": "2015-05-27",
 "description": "Calcite is a framework for writing data management\n      systems.  It converts queries, represented in relational algebra,\n      into an efficient executable form using pluggable query\n      transformation rules. There is an optional SQL parser and JDBC\n      driver. Calcite does not store data or have a preferred execution\n      engine. Data formats, execution algorithms, planning rules,\n      operator types, metadata, and cost model are added at runtime as\n      plugins.",
 "doap": "https://git-wip-us.apache.org/repos/asf?p=calcite.git;a=blob_plain;f=site/doap_calcite.rdf;hb=HEAD",
