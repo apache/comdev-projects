@@ -174,27 +174,6 @@
 "https://gitbox.apache.org/repos/asf/accumulo.git"
 ]
 },
-"activemq": {
-"bug-database": "http://issues.apache.org/activemq/browse/AMQ",
-"category": "network-server, network-client",
-"created": "2006-03-27",
-"description": "ActiveMQ is a fast and powerful Message Broker which supports many Cross Language Clients and Protocols and many advanced features while fully supporting JMS 1.1 and J2EE 1.4.",
-"doap": "http://svn.apache.org/repos/asf/activemq/trunk/doap.rdf",
-"download-page": "http://activemq.apache.org/download.html",
-"homepage": "http://activemq.apache.org/",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://activemq.apache.org/mailing-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:chirino@apache.org",
-"name": "Hiram Chirino"
-}
-],
-"name": "Apache ActiveMQ",
-"pmc": "activemq",
-"programming-language": "Java, C, C++, Ruby, Perl, Python, PHP, C#",
-"shortdesc": "ActiveMQ is the most popular and powerful open source Message Broker."
-},
 "airavata": {
 "bug-database": "https://issues.apache.org/jira/browse/airavata",
 "category": "network-server, cloud, big-data",
@@ -810,40 +789,6 @@
 "https://github.com/apache/apex-malhar.git"
 ],
 "shortdesc": "Enterprise-grade unified stream and batch processing engine."
-},
-"apr-portable_runtime": {
-"bug-database": "http://issues.apache.org/bugzilla/",
-"category": "library",
-"description": "\nThe mission of the Apache Portable Runtime (APR) project is to create\nand maintain software libraries that provide a predictable and\nconsistent interface to underlying platform-specific implementations.\nThe primary goal is to provide an API to which software developers may\ncode and be assured of predictable if not identical behaviour\nregardless of the platform on which their software is built, relieving\nthem of the need to code special-case conditions to work around or\ntake advantage of platform-specific deficiencies or features.\n    ",
-"doap": "http://svn.apache.org/repos/asf/apr/site/trunk/doap.rdf",
-"download-page": "http://apr.apache.org/download.cgi",
-"homepage": "http://apr.apache.org/",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://apr.apache.org/mailing-lists.html",
-"name": "Apache Portable Runtime",
-"pmc": "apr",
-"programming-language": "C",
-"release": [
-{
-"created": "2018-09-14",
-"name": "APR current release 1.6.5",
-"revision": "1.6.5"
-},
-{
-"created": "2017-10-18",
-"name": "APR-util current release 1.6.1",
-"revision": "1.6.1"
-},
-{
-"created": "2017-10-18",
-"name": "APR-iconv current release 1.2.2",
-"revision": "1.2.2"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/apr/apr/trunk"
-],
-"shortdesc": "\n    Cross-platform library easing many progamming tasks in C. \n    "
 },
 "archiva": {
 "bug-database": "http://issues.apache.org/jira/browse/MRM",
@@ -1884,37 +1829,6 @@
 ],
 "shortdesc": "Home of several MVC Web Frameworks"
 },
-"attic-shindig": {
-"bug-database": "https://issues.apache.org/jira/browse/SHINDIG",
-"category": "javaee, retired",
-"created": "2012-04-14",
-"description": "Apache Shindig is a container for hosting social application consisting of four parts:\n\n    Gadget Container JavaScript: core JavaScript foundation for general gadget functionality (read more about gadget functionality). This JavaScript manages security, communication, UI layout, and feature extensions, such as the OpenSocial API.\n    Gadget Rendering Server: used to render the gadget XML into JavaScript and HTML for the container to expose via the container JavaScript.\n    OpenSocial Container JavaScript: JavaScript environment that sits on top of the Gadget Container JavaScript and provides OpenSocial specific functionality (profiles, friends, activities, datastore).\n    OpenSocial Data Server: an implementation of the server interface to container-specific information, including the OpenSocial REST APIs, with clear extension points so others can connect it to their own backends.\n\nApache Shindig is the reference implementation of OpenSocial API specifications, versions 0.8.x and 0.9.x, a standard set of Social Network APIs.",
-"doap": "http://svn.apache.org/repos/asf/shindig/trunk/doap_shindig.rdf",
-"download-page": "http://shindig.apache.org/download",
-"homepage": "http://shindig.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://shindig.apache.org/mail-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:general@attic.apache.org",
-"name": "Apache Attic PMC"
-}
-],
-"name": "Apache Shindig",
-"pmc": "attic",
-"programming-language": "Java",
-"release": [
-{
-"created": "2010-09-10",
-"name": "Apache Shindig 2.0.0",
-"revision": "2.0.0"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/shindig"
-],
-"shortdesc": "Apache Shindig software is an OpenSocial container and helps you to start hosting OpenSocial apps quickly by providing the code to render gadgets, proxy requests, and handle REST and RPC requests."
-},
 "attic-stratos": {
 "bug-database": "https://issues.apache.org/jira/browse/stratos",
 "category": "cloud, retired",
@@ -2131,37 +2045,6 @@
 ],
 "shortdesc": "A parser, server and plugins for working with W3C Packaged Web Apps (aka Widgets)"
 },
-"attic-xindice": {
-"bug-database": "http://issues.apache.org/bugzilla/buglist.cgi?query_format=specific&bug_status=__open__&product=Xindice",
-"category": "xml, retired",
-"created": "2006-03-27",
-"description": "Pure Java based native XML database. Supports XPath and XUpdate.",
-"doap": "http://svn.apache.org/repos/asf/xml/xindice/trunk/doap_Xindice.rdf",
-"download-page": "http://xml.apache.org/xindice/download.cgi",
-"homepage": "http://xml.apache.org/xindice/",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://xml.apache.org/xindice/mail.html",
-"maintainer": [
-{
-"mbox": "mailto:toddbyrne@gmail.com",
-"name": "Todd Byrne"
-}
-],
-"name": "Apache Xindice",
-"pmc": "attic",
-"programming-language": "Java",
-"release": [
-{
-"created": "2004-04-09",
-"name": "xindice",
-"revision": "1.1b4"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/xml/xindice/trunk/"
-],
-"shortdesc": "XML Database"
-},
 "avro": {
 "bug-database": "https://issues.apache.org/jira/browse/AVRO",
 "category": "library, big-data",
@@ -2186,216 +2069,6 @@
 "http://svn.apache.org/repos/asf/avro/"
 ],
 "shortdesc": "Apache Avro is a data serialization system."
-},
-"axis-axis2": {
-"bug-database": "https://issues.apache.org/jira/browse/AXIS2",
-"category": "xml, http, network-server, network-client",
-"created": "2007-06-08",
-"description": "Apache Axis2 is a toolkit for creating and using Web Services, including SOAP, MTOM, XML/HTTP and advanced WS-* standards such as WSRM and WSSecurity.\n    Axis2 includes a very fast runtime engine, together with tooling support for WSDL and WS-Policy, and plugin support for WS-Addressing, WS-ReliableMessaging, WS-Security, \n    WS-Eventing, WS-Transactions, WS-Trust and WS-SecureConversation.\n    Axis2 runs either standalone or hosted in Tomcat or other servlet containers. \n    ",
-"doap": "http://svn.apache.org/repos/asf/axis/axis2/java/core/trunk/etc/doap_Axis2.rdf",
-"download-page": "http://axis.apache.org/axis2/java/core/download.cgi",
-"homepage": "http://axis.apache.org/axis2/java/core",
-"implements": [
-{
-"body": "W3C",
-"id": "SOAP1.1",
-"title": "SOAP1.1",
-"url": "http://www.w3.org/TR/soap/"
-},
-{
-"body": "W3C",
-"id": "SOAP1.2",
-"title": "SOAP1.2",
-"url": "http://www.w3.org/TR/soap12-part1/"
-},
-{
-"body": "W3C",
-"id": "SOAP-MTOM",
-"title": "MTOM",
-"url": "http://www.w3.org/TR/soap12-mtom/"
-},
-{
-"body": "IETF",
-"id": "HTTP 1.1",
-"title": "HTTP",
-"url": "http://www.w3.org/Protocols/rfc2616/rfc2616.html"
-},
-{
-"body": "W3C",
-"id": "WSA",
-"title": "WS-Addressing",
-"url": "http://www.w3.org/2002/ws/addr/"
-},
-{
-"body": "OASIS",
-"id": "WSRM",
-"title": "WS-ReliableMessaging",
-"url": "http://www.oasis-open.org/committees/tc_home.php?wg_abbrev=ws-rx"
-},
-{
-"body": "OASIS",
-"id": "WSSEC",
-"title": "WS-Security",
-"url": "http://www.oasis-open.org/committees/download.php/16790/wss-v1.1-spec-os-SOAPMessageSecurity.pdf"
-}
-],
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://axis.apache.org/axis2/java/core/mail-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:java-dev@axis.apache.org?subject=[Axis2]",
-"name": "Axis2 Development Team"
-}
-],
-"name": "Apache Axis2",
-"pmc": "axis",
-"programming-language": "Java, C",
-"release": [
-{
-"created": "2006-05-04",
-"name": "Apache Axis2",
-"revision": "1.0"
-},
-{
-"created": "2006-11-13",
-"name": "Apache Axis2",
-"revision": "1.1"
-},
-{
-"created": "2007-01-09",
-"name": "Apache Axis2",
-"revision": "1.1.1"
-},
-{
-"created": "2007-04-27",
-"name": "Apache Axis2",
-"revision": "1.2"
-},
-{
-"created": "2007-07-06",
-"name": "Apache Axis2",
-"revision": "1.3"
-},
-{
-"created": "2008-02-05",
-"name": "Apache Axis2",
-"revision": "1.4"
-},
-{
-"created": "2008-08-24",
-"name": "Apache Axis2",
-"revision": "1.4.1"
-},
-{
-"created": "2009-06-09",
-"name": "Apache Axis2",
-"revision": "1.5"
-},
-{
-"created": "2009-10-23",
-"name": "Apache Axis2",
-"revision": "1.5.1"
-},
-{
-"created": "2010-09-06",
-"name": "Apache Axis2",
-"revision": "1.5.2"
-},
-{
-"created": "2010-11-12",
-"name": "Apache Axis2",
-"revision": "1.5.3"
-},
-{
-"created": "2010-12-19",
-"name": "Apache Axis2",
-"revision": "1.5.4"
-},
-{
-"created": "2011-05-29",
-"name": "Apache Axis2",
-"revision": "1.5.5"
-},
-{
-"created": "2011-08-30",
-"name": "Apache Axis2",
-"revision": "1.5.6"
-},
-{
-"created": "2011-05-17",
-"name": "Apache Axis2",
-"revision": "1.6.0"
-},
-{
-"created": "2011-08-30",
-"name": "Apache Axis2",
-"revision": "1.6.1"
-},
-{
-"created": "2012-04-17",
-"name": "Apache Axis2",
-"revision": "1.6.2"
-},
-{
-"created": "2015-06-27",
-"name": "Apache Axis2",
-"revision": "1.6.3"
-},
-{
-"created": "2015-12-28",
-"name": "Apache Axis2",
-"revision": "1.6.4"
-},
-{
-"created": "2016-01-18",
-"name": "Apache Axis2",
-"revision": "1.7.0"
-},
-{
-"created": "2016-02-20",
-"name": "Apache Axis2",
-"revision": "1.7.1"
-},
-{
-"created": "2016-05-02",
-"name": "Apache Axis2",
-"revision": "1.7.2"
-},
-{
-"created": "2016-05-30",
-"name": "Apache Axis2",
-"revision": "1.7.3"
-},
-{
-"created": "2016-10-21",
-"name": "Apache Axis2",
-"revision": "1.7.4"
-},
-{
-"created": "2017-05-06",
-"name": "Apache Axis2",
-"revision": "1.7.5"
-},
-{
-"created": "2017-07-30",
-"name": "Apache Axis2",
-"revision": "1.7.6"
-},
-{
-"created": "2017-11-22",
-"name": "Apache Axis2",
-"revision": "1.7.7"
-},
-{
-"created": "2018-05-19",
-"name": "Apache Axis2",
-"revision": "1.7.8"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/axis/axis2/java/core/trunk/"
-],
-"shortdesc": "Apache Axis2 is a service hosting and consumption framework that makes it easy to use SOAP and Web Services"
 },
 "axis-sandesha2": {
 "bug-database": "http://issues.apache.org/jira/browse/SANDESHA2",
@@ -2488,31 +2161,6 @@
 "https://git-wip-us.apache.org/repos/asf/bigtop.git"
 ],
 "shortdesc": "A 100% community-driven Bigdata management platform."
-},
-"bloodhound": {
-"bug-database": "http://issues.apache.org/bloodhound/",
-"category": "build-management",
-"created": "2013-04-15",
-"description": "Apache Bloodhound has been created to be an open source collaboration tool to track the progress of and help distribute tasks within a project. With a particular focus on software development it includes integration with popular source control software including Apache Subversion, Git and Mercurial.",
-"doap": "http://svn.apache.org/repos/asf/bloodhound/site/doap.rdf",
-"download-page": "http://bloodhound.apache.org/",
-"homepage": "http://bloodhound.apache.org/",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "https://issues.apache.org/bloodhound/wiki/BloodhoundContactInfo",
-"name": "Apache Bloodhound",
-"pmc": "bloodhound",
-"programming-language": "Python",
-"release": [
-{
-"created": "2013-04-15",
-"name": "Recommended current 0.5 release",
-"revision": "0.5.3"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/bloodhound/trunk"
-],
-"shortdesc": "Apache Bloodhound is a software development collaboration tool, including issue tracking, wiki and repository browsing"
 },
 "bookkeeper": {
 "bug-database": "https://issues.apache.org/jira/browse/BOOKKEEPER",
@@ -2822,80 +2470,6 @@
 ],
 "shortdesc": "Apache Buildr is a build system for Java-based applications, including support for Scala, Groovy and a growing number of JVM languages and tools."
 },
-"bval": {
-"bug-database": "http://issues.apache.org/jira/browse/BVAL",
-"category": "javaee, library",
-"created": "2012-02-15",
-"description": "The goal of the Apache BVal project is to deliver an implementation of the Java Bean Validation Specfication (JSR303/346) which is TCK compliant and works on Java SE 6 or later. The initial codebase for the project was donated to the ASF by a SGA from Agimatec GmbH and uses the Apache Software License v2.0.",
-"doap": "http://svn.apache.org/repos/asf/bval/site/doap_bval.rdf",
-"download-page": "http://bval.apache.org/downloads.html",
-"homepage": "http://bval.apache.org/",
-"implements": [
-{
-"body": "JCP",
-"id": "JSR 346",
-"title": "Bean Validation API 1.1",
-"url": "http://www.jcp.org/en/jsr/detail?id=346"
-}
-],
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://bval.apache.org/mailing-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:mbenson@apache.org",
-"name": "Matt Benson"
-}
-],
-"name": "Apache BVal",
-"pmc": "bval",
-"programming-language": "Java",
-"release": [
-{
-"created": "2016-11-03",
-"name": "Current release",
-"revision": "1.1.2"
-},
-{
-"created": "2016-02-08",
-"name": "1.1.1",
-"revision": "1.1.1"
-},
-{
-"created": "2015-06-10",
-"name": "Current release",
-"revision": "1.1.0"
-},
-{
-"created": "2012-09-21",
-"name": "0.6",
-"revision": "0.5"
-},
-{
-"created": "2012-04-13",
-"name": "0.4",
-"revision": "0.4"
-},
-{
-"created": "2011-04-28",
-"name": "Last Apache Incubator release",
-"revision": "0.3-incubating"
-},
-{
-"created": "2010-08-18",
-"name": "0.2-incubating",
-"revision": "0.2-incubating"
-},
-{
-"created": "2010-06-11",
-"name": "0.1-incubating",
-"revision": "0.1-incubating"
-}
-],
-"repository": [
-"https://svn.apache.org/repos/asf/bval/"
-],
-"shortdesc": "Bean Validation API Implementation"
-},
 "calcite": {
 "bug-database": "https://issues.apache.org/jira/browse/CALCITE",
 "category": "big-data, hadoop, sql, geospatial",
@@ -3053,65 +2627,6 @@
 "https://git-wip-us.apache.org/repos/asf/celix.git"
 ],
 "shortdesc": "OSGi framework implementation in C and C++."
-},
-"chemistry": {
-"bug-database": "https://issues.apache.org/jira/browse/CMIS",
-"category": "library",
-"created": "2011-02-22",
-"description": "Apache Chemistry provides open source implementations of the Content Management Interoperability Services (CMIS) specification. Libraries are available for Java, Python, PHP and .NET.",
-"doap": "http://svn.apache.org/repos/asf/chemistry/doap_chemistry.rdf",
-"download-page": "http://chemistry.apache.org/",
-"homepage": "http://chemistry.apache.org",
-"implements": [
-{
-"body": "OASIS",
-"id": "CMIS",
-"title": "OASIS Content Management Interoperability Services (CMIS)",
-"url": "http://www.oasis-open.org/committees/cmis"
-}
-],
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://mail-archives.apache.org/mod_mbox/chemistry-dev/",
-"maintainer": [
-{
-"mbox": "mailto:fmui@apache.org",
-"name": "Florian Müller"
-}
-],
-"name": "Apache Chemistry",
-"pmc": "chemistry",
-"programming-language": "Java, Python, PHP, C#, Objective-C",
-"release": [
-{
-"created": "2012-12-19",
-"name": "cmislib",
-"revision": "0.5.1"
-},
-{
-"created": "2015-04-13",
-"name": "DotCMIS",
-"revision": "0.7"
-},
-{
-"created": "2017-04-05",
-"name": "OpenCMIS",
-"revision": "1.1.0"
-},
-{
-"created": "2017-07-31",
-"name": "ObjectiveCMIS",
-"revision": "0.6"
-},
-{
-"created": "2017-07-25",
-"name": "PortCMIS",
-"revision": "0.3"
-}
-],
-"repository": [
-"https://svn.apache.org/repos/asf/chemistry/"
-],
-"shortdesc": "Apache Chemistry provides open source implementations of the Content Management Interoperability Services (CMIS) specification."
 },
 "chukwa": {
 "bug-database": "https://issues.apache.org/jira/browse/CHUKWA/",
@@ -3336,64 +2851,6 @@
 ],
 "shortdesc": "Apache CloudStack is an IaaS (“Infrastracture as a Service”) cloud orchestration platform."
 },
-"cocoon": {
-"bug-database": "http://issues.apache.org/jira/browse/COCOON",
-"category": "database, graphics, http, network-client, network-server, web-framework, xml",
-"created": "2006-02-20",
-"description": "Apache Cocoon is a web development framework built around the concepts of separation of concerns (making sure people can interact and collaborate on a project, without stepping on each other toes) and component-based web development. Cocoon implements these concepts around the notion of \"component pipelines\", each component on the pipeline specializing on a particular operation. This makes it possible to use a \"building block\" approach for web solutions, hooking together components into pipelines without any required programming.",
-"doap": "http://svn.apache.org/repos/asf/cocoon/site/site/doap.rdf",
-"download-page": "http://cocoon.apache.org/1284_1_1.html",
-"homepage": "http://cocoon.apache.org/",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://cocoon.apache.org/1275_1_1.html",
-"name": "Apache Cocoon",
-"pmc": "cocoon",
-"programming-language": "Java, XML",
-"release": [
-{
-"created": "2011-07-01",
-"name": "Apache Cocoon 3.0.0-alpha-3",
-"revision": "3.0.0-alpha-3"
-},
-{
-"created": "2008-04-28",
-"name": "Apache Cocoon 2.2.0",
-"revision": "2.2.0"
-},
-{
-"created": "2013-03-14",
-"name": "Apache Cocoon 2.1.12",
-"revision": "2.1.12"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/cocoon/trunk/"
-],
-"shortdesc": "Web development framework: separation of concerns, component-based."
-},
-"comdev-community_development": {
-"bug-database": "https://issues.apache.org/jira/browse/COMDEV",
-"created": "2009",
-"doap": "https://svn.apache.org/repos/asf/comdev/site/trunk/content/doap_ComDev.rdf",
-"homepage": "http://community.apache.org/",
-"license": "http://www.apache.org/licenses/LICENSE-2.0.txt",
-"mailing-list": "http://community.apache.org/lists.html",
-"maintainer": [
-{
-"mbox": "mailto:dev@community.apache.org",
-"name": "Apache Community Development PMC"
-}
-],
-"name": "Apache Community Development",
-"pmc": "comdev",
-"repository": [
-"https://svn.apache.org/repos/asf/comdev/site/trunk/",
-"https://svn.apache.org/repos/asf/comdev/projects.apache.org/",
-"https://svn.apache.org/repos/asf/comdev/reporter.apache.org/",
-"https://svn.apache.org/repos/asf/comdev/helpwanted.apache.org/"
-],
-"shortdesc": "Resources to help people become involved with Apache projects"
-},
 "commons-bcel": {
 "bug-database": "https://issues.apache.org/jira/browse/BCEL",
 "category": "library",
@@ -3548,51 +3005,6 @@
 ],
 "shortdesc": "Commons BeanUtils"
 },
-"commons-bsf": {
-"bug-database": "https://issues.apache.org/jira/browse/BSF",
-"category": "library",
-"created": "2006-01-19",
-"description": "Bean Scripting Framework (BSF) is a set of Java classes which provides scripting language support within Java applications, and access to Java objects and methods from scripting languages. BSF allows one to write JSPs in languages other than Java while providing access to the Java class library. In addition, BSF permits any Java application to be implemented in part (or dynamically extended) by a language that is embedded within it. This is achieved by providing an API that permits calling scripting language engines from within Java, as well as an object registry that exposes Java objects to these scripting language engines.",
-"doap": "http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_bsf.rdf",
-"download-page": "http://commons.apache.org/bsf/download_bsf.cgi",
-"homepage": "http://commons.apache.org/bsf/",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://commons.apache.org/bsf/mail-lists.html",
-"name": "Apache Commons BSF",
-"pmc": "commons",
-"programming-language": "Java",
-"release": [
-{
-"created": "2002-11-12",
-"name": "bsf",
-"revision": "2.3.0-rc1"
-},
-{
-"created": "2006-10-6",
-"name": "bsf",
-"revision": "2.4"
-},
-{
-"created": "2009-04-05",
-"name": "bsf",
-"revision": "3.0-beta3"
-},
-{
-"created": "2009-10-1",
-"name": "bsf",
-"revision": "3.0"
-},
-{
-"created": "2010-24-06",
-"name": "bsf",
-"revision": "3.1"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/commons/proper/bsf/trunk/"
-],
-"shortdesc": "Framework that provides scripting language support within Java applications"
-},
 "commons-chain": {
 "bug-database": "http://issues.apache.org/jira/browse/CHAIN",
 "category": "library",
@@ -3734,60 +3146,6 @@
 "http://svn.apache.org/repos/asf/commons/proper/codec"
 ],
 "shortdesc": "Simple encoders and decoders"
-},
-"commons-collections": {
-"bug-database": "http://issues.apache.org/jira/browse/COLLECTIONS",
-"category": "library",
-"description": "Types that extend and augment the Java Collections Framework.",
-"doap": "http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_collections.rdf",
-"download-page": "http://commons.apache.org/collections/download_collections.cgi",
-"homepage": "http://commons.apache.org/collections/",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://commons.apache.org/mail-lists.html",
-"name": "Apache Commons Collections",
-"pmc": "commons",
-"programming-language": "Java",
-"release": [
-{
-"created": "2015-11-27",
-"name": "commons-collections",
-"revision": "4.1"
-},
-{
-"created": "2013-11-24",
-"name": "commons-collections",
-"revision": "4.0"
-},
-{
-"created": "2015-11-14",
-"name": "commons-collections",
-"revision": "3.2.2"
-},
-{
-"created": "2008-04-15",
-"name": "commons-collections",
-"revision": "3.2.1"
-},
-{
-"created": "2006-05-14",
-"name": "commons-collections",
-"revision": "3.2"
-},
-{
-"created": "2004-06-23",
-"name": "commons-collections",
-"revision": "3.1"
-},
-{
-"created": "2004-06-23",
-"name": "commons-collections",
-"revision": "2.1.1"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/commons/proper/collections"
-],
-"shortdesc": "Commons Collections"
 },
 "commons-compress": {
 "bug-database": "http://issues.apache.org/jira/browse/COMPRESS",
@@ -4249,65 +3607,6 @@
 ],
 "shortdesc": "Commons DbUtils"
 },
-"commons-digester": {
-"bug-database": "http://issues.apache.org/jira/browse/DIGESTER",
-"category": "library",
-"description": "\n    The Digester package lets you configure an XML->Java object mapping module\n    which triggers certain actions called rules whenever a particular \n    pattern of nested XML elements is recognized.\n  ",
-"doap": "http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_digester.rdf",
-"download-page": "http://commons.apache.org/digester/download_digester.cgi",
-"homepage": "http://commons.apache.org/digester/",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://commons.apache.org/mail-lists.html",
-"name": "Apache Commons Digester",
-"pmc": "commons",
-"programming-language": "Java",
-"release": [
-{
-"created": "2011-12-13",
-"name": "common-digester3",
-"revision": "3.2"
-},
-{
-"created": "2011-10-29",
-"name": "common-digester3",
-"revision": "3.1"
-},
-{
-"created": "2011-07-06",
-"name": "common-digester3",
-"revision": "3.0"
-},
-{
-"created": "2010-09-25",
-"name": "common-digester",
-"revision": "2.1"
-},
-{
-"created": "2009-01-04",
-"name": "common-digester",
-"revision": "2.0"
-},
-{
-"created": "2009-01-04",
-"name": "common-digester",
-"revision": "1.8.1"
-},
-{
-"created": "2006-12-04",
-"name": "common-digester",
-"revision": "1.8"
-},
-{
-"created": "2005-06-11",
-"name": "common-digester",
-"revision": "1.7"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/commons/proper/digester"
-],
-"shortdesc": "Rule based XML->Java object mapping module"
-},
 "commons-discovery": {
 "bug-database": "http://issues.apache.org/jira/browse/DISCOVERY",
 "category": "library",
@@ -4754,89 +4053,6 @@
 ],
 "shortdesc": "Commons Jelly"
 },
-"commons-jexl": {
-"bug-database": "http://issues.apache.org/jira/browse/JEXL",
-"category": "library",
-"description": "Jexl is an implementation of the JSTL Expression Language with extensions.",
-"doap": "http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_jexl.rdf",
-"download-page": "http://commons.apache.org/jexl/download_jexl.cgi",
-"homepage": "http://commons.apache.org/jexl/",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://commons.apache.org/mail-lists.html",
-"name": "Apache Commons JEXL",
-"pmc": "commons",
-"programming-language": "Java",
-"release": [
-{
-"created": "2017-04-14",
-"name": "commons-jexl3",
-"revision": "3.1"
-},
-{
-"created": "2015-12-27",
-"name": "commons-jexl3",
-"revision": "3.0"
-},
-{
-"created": "2011-12-24",
-"name": "commons-jexl2",
-"revision": "2.1.1"
-},
-{
-"created": "2011-12-12",
-"name": "commons-jexl2",
-"revision": "2.1"
-},
-{
-"created": "2010-04-07",
-"name": "commons-jexl2",
-"revision": "2.0.1"
-},
-{
-"created": "2010-02-23",
-"name": "commons-jexl2",
-"revision": "2.0"
-},
-{
-"created": "2006-09-12",
-"name": "commons-jexl",
-"revision": "1.1"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/commons/proper/jexl"
-],
-"shortdesc": "Apache Commons JEXL Expression Language Engine"
-},
-"commons-jxpath": {
-"bug-database": "http://issues.apache.org/jira/browse/JXPATH",
-"category": "library",
-"description": "A Java-based implementation of XPath 1.0 that, in addition to XML processing, can inspect/modify Java object graphs (the library's explicit purpose) and even mixed Java/XML structures.",
-"doap": "http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_jxpath.rdf",
-"download-page": "http://commons.apache.org/jxpath/download_jxpath.cgi",
-"homepage": "http://commons.apache.org/jxpath/",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://commons.apache.org/mail-lists.html",
-"name": "Apache Commons JXPath",
-"pmc": "commons",
-"programming-language": "Java",
-"release": [
-{
-"created": "2008-08-14",
-"name": "commons-jxpath",
-"revision": "1.3"
-},
-{
-"created": "2004-08-02",
-"name": "commons-jxpath",
-"revision": "1.2"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/commons/proper/jxpath"
-],
-"shortdesc": "XPath for Java Objects"
-},
 "commons-lang": {
 "bug-database": "http://issues.apache.org/jira/browse/LANG",
 "category": "library",
@@ -4990,55 +4206,6 @@
 ],
 "shortdesc": "Commons Launcher"
 },
-"commons-logging": {
-"bug-database": "http://issues.apache.org/jira/browse/LOGGING",
-"category": "library",
-"description": "\n    Commons Logging is a thin adapter allowing configurable bridging to other,\n    well known logging systems.\n  ",
-"doap": "http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_logging.rdf",
-"download-page": "http://commons.apache.org/logging/download_logging.cgi",
-"homepage": "http://commons.apache.org/logging/",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://commons.apache.org/mail-lists.html",
-"name": "Apache Commons Logging",
-"pmc": "commons",
-"programming-language": "Java",
-"release": [
-{
-"created": "2014-07-11",
-"name": "commons-logging",
-"revision": "1.2"
-},
-{
-"created": "2013-03-21",
-"name": "commons-logging",
-"revision": "1.1.3"
-},
-{
-"created": "2013-03-20",
-"name": "commons-logging",
-"revision": "1.1.2"
-},
-{
-"created": "2007-11-26",
-"name": "commons-logging",
-"revision": "1.1.1"
-},
-{
-"created": "2006-05-10",
-"name": "commons-logging",
-"revision": "1.1"
-},
-{
-"created": "2004-06-15",
-"name": "commons-logging",
-"revision": "1.0.4"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/commons/proper/logging"
-],
-"shortdesc": "Commons Logging"
-},
 "commons-math": {
 "bug-database": "http://issues.apache.org/jira/browse/MATH",
 "category": "library",
@@ -5166,85 +4333,6 @@
 "http://svn.apache.org/repos/asf/commons/proper/modeler"
 ],
 "shortdesc": "Commons Modeler"
-},
-"commons-net": {
-"bug-database": "https://issues.apache.org/jira/browse/NET",
-"category": "library",
-"description": "\n    Apache Commons Net library contains a collection of network utilities and protocol implementations.\n    Supported protocols include: Echo, Finger, FTP, NNTP, NTP, POP3(S), SMTP(S), Telnet, Whois\n    ",
-"doap": "http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_net.rdf",
-"download-page": "http://commons.apache.org/net/download_net.cgi",
-"homepage": "http://commons.apache.org/net/",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://commons.apache.org/mail-lists.html",
-"name": "Apache Commons Net",
-"pmc": "commons",
-"programming-language": "Java",
-"release": [
-{
-"created": "2017-02-15",
-"name": "commons-net",
-"revision": "3.6"
-},
-{
-"created": "2016-05-05",
-"name": "commons-net",
-"revision": "3.5"
-},
-{
-"created": "2015-11-26",
-"name": "commons-net",
-"revision": "3.4"
-},
-{
-"created": "2013-06-12",
-"name": "commons-net",
-"revision": "3.3"
-},
-{
-"created": "2012-12-03",
-"name": "commons-net",
-"revision": "3.2"
-},
-{
-"created": "2012-02-20",
-"name": "commons-net",
-"revision": "3.1"
-},
-{
-"created": "2011-06-06",
-"name": "commons-net",
-"revision": "3.0.1"
-},
-{
-"created": "2011-05-16",
-"name": "commons-net",
-"revision": "3.0"
-},
-{
-"created": "2010-11-22",
-"name": "commons-net",
-"revision": "2.2"
-},
-{
-"created": "2008-10-21",
-"name": "commons-net",
-"revision": "2.0"
-},
-{
-"created": "2005-12-03",
-"name": "commons-net",
-"revision": "1.4.1"
-},
-{
-"created": "2005-05-10",
-"name": "commons-net",
-"revision": "1.4.0"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/commons/proper/net"
-],
-"shortdesc": "Apache Commons Net"
 },
 "commons-ognl": {
 "bug-database": "http://issues.apache.org/jira/browse/OGNL",
@@ -5408,35 +4496,6 @@
 ],
 "shortdesc": "Commons Dynamic Proxy Library"
 },
-"commons-rng": {
-"bug-database": "http://issues.apache.org/jira/browse/RNG",
-"category": "library",
-"description": "Implementations of pseudo-random generators.",
-"doap": "http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_rng.rdf",
-"download-page": "http://commons.apache.org/rng/download_rng.cgi",
-"homepage": "http://commons.apache.org/rng/",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://commons.apache.org/mail-lists.html",
-"name": "Apache Commons RNG",
-"pmc": "commons",
-"programming-language": "Java",
-"release": [
-{
-"created": "2018-08-15",
-"name": "commons-rng",
-"revision": "1.1"
-},
-{
-"created": "2016-12-13",
-"name": "commons-rng",
-"revision": "1.0"
-}
-],
-"repository": [
-"https://git-wip-us.apache.org/repos/asf/commons-rng.git"
-],
-"shortdesc": "Apache Commons RNG"
-},
 "commons-scxml": {
 "bug-database": "http://issues.apache.org/jira/browse/SCXML",
 "category": "library",
@@ -5481,107 +4540,6 @@
 ],
 "shortdesc": "A Java implementation of State Chart XML",
 "shortname": "Commons SCXML"
-},
-"commons-validator": {
-"bug-database": "http://commons.apache.org/validator/issue-tracking.html",
-"category": "library",
-"description": "\n    Commons Validator provides the building blocks for both client side validation\n    and server side data validation. It may be used standalone or with a framework like\n    Struts.\n  ",
-"doap": "http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_validator.rdf",
-"download-page": "http://commons.apache.org/validator/downloads.html",
-"homepage": "http://commons.apache.org/validator/",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://commons.apache.org/mail-lists.html",
-"name": "Apache Commons Validator",
-"pmc": "commons",
-"programming-language": "Java",
-"release": [
-{
-"created": "2017-02-21",
-"name": "Latest Stable Release",
-"revision": "1.6"
-},
-{
-"created": "2016-04-30",
-"name": "Latest Stable Release",
-"revision": "1.5.1"
-},
-{
-"created": "2015-11-24",
-"name": "Latest Stable Release",
-"revision": "1.5.0"
-},
-{
-"created": "2014-01-13",
-"name": "Latest Stable Release",
-"revision": "1.4.1"
-},
-{
-"created": "2012-02-03",
-"name": "Latest Stable Release",
-"revision": "1.4.0"
-},
-{
-"created": "2006-11-28",
-"name": "Latest Stable Release",
-"revision": "1.3.1"
-},
-{
-"created": "2006-03-24",
-"name": "1.3.0",
-"revision": "1.3.0"
-},
-{
-"created": "2005-11-15",
-"name": "1.2.0",
-"revision": "1.2.0"
-},
-{
-"created": "2004-11-12",
-"name": "1.1.4",
-"revision": "1.1.4"
-},
-{
-"created": "2004-08-25",
-"name": "1.1.3",
-"revision": "1.1.3"
-},
-{
-"created": "2004-04-03",
-"name": "1.1.2 (alpha)",
-"revision": "1.1.2"
-},
-{
-"created": "2003-12-15",
-"name": "1.1.1 (alpha)",
-"revision": "1.1.1"
-},
-{
-"created": "2003-08-26",
-"name": "1.1.0 (alpha)",
-"revision": "1.1.0"
-},
-{
-"created": "2003-04-17",
-"name": "1.0.2",
-"revision": "1.0.2"
-},
-{
-"created": "2002-12-16",
-"name": "1.0.1",
-"revision": "1.0.1"
-},
-{
-"created": "2002-11-01",
-"name": "1.0",
-"revision": "1.0"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/commons/proper/validator"
-],
-"shortdesc": "Validation Framework and Routines",
-"shortname": "Commons Validator",
-"wiki": "http://wiki.apache.org/commons/Validator"
 },
 "commons-vfs": {
 "bug-database": "http://issues.apache.org/jira/browse/VFS",
@@ -5715,36 +4673,6 @@
 "https://git-wip-us.apache.org/repos/asf/couchdb-couch/repo?p=couchdb.git;a=summary"
 ],
 "shortdesc": "NoSQL document database using HTTP, JSON, and MapReduce"
-},
-"creadur-rat": {
-"bug-database": "https://issues.apache.org/jira/browse/RAT",
-"category": "build-management",
-"created": "2011-11-15",
-"description": "Apache Rat improves accuracy and efficiency when reviewing and auditing releases. \n    It is heuristic in nature: making guesses about possible problems. \n    It will produce false positives and cannot find every possible issue with a release. \n    It's reports require interpretation.\n\nApache Rat was developed in response to a need felt in the Apache Incubator to be able to \nreview releases for the most common faults less labour intensively. It is therefore highly tuned \nto the Apache style of releases.",
-"doap": "http://svn.apache.org/repos/asf/creadur/rat/doap_RAT.rdf",
-"download-page": "http://creadur.apache.org/rat/download_rat.cgi",
-"homepage": "http://creadur.apache.org/rat/",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://creadur.apache.org/rat/mail-lists.html",
-"name": "Apache Rat",
-"pmc": "creadur",
-"programming-language": "Java",
-"release": [
-{
-"created": "2010-08-10",
-"name": "Apache Rat Incubating 0.7",
-"revision": "0.7"
-},
-{
-"created": "2011-11-15",
-"name": "Apache Rat Incubating 0.8",
-"revision": "0.8"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/creadur/rat/trunk/"
-],
-"shortdesc": "Apache Rat improves accuracy and efficiency when reviewing and auditing releases."
 },
 "creadur-tentacles": {
 "category": "build-management",
@@ -5890,151 +4818,6 @@
 ],
 "shortdesc": "Apache CXF: An Open Source Service Framework"
 },
-"db-derby": {
-"bug-database": "http://issues.apache.org/jira/browse/DERBY",
-"category": "database",
-"created": "2006-03-29",
-"description": "Apache Derby is an open source relational database implemented entirely in Java. It has a small footprint that makes it easy to embed in any Java-based application, but it also supports the more familiar client/server mode. It is based on the Java, JDBC, and SQL standards, making code developed more portable to standards-compliant databases.",
-"doap": "http://svn.apache.org/repos/asf/db/derby/site/trunk/doap_Derby.rdf",
-"download-page": "http://db.apache.org/derby/derby_downloads.html",
-"homepage": "http://db.apache.org/derby",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://db.apache.org/derby/derby_mail.html",
-"name": "Apache Derby",
-"pmc": "db",
-"programming-language": "Java",
-"release": [
-{
-"created": "2018-05-03",
-"name": "Apache Derby",
-"revision": "10.14.2.0"
-},
-{
-"created": "2017-10-14",
-"name": "Apache Derby",
-"revision": "10.14.1.0"
-},
-{
-"created": "2016-10-25",
-"name": "Apache Derby",
-"revision": "10.13.1.1"
-},
-{
-"created": "2015-10-11",
-"name": "Apache Derby",
-"revision": "10.12.1.1"
-},
-{
-"created": "2014-08-26",
-"name": "Apache Derby",
-"revision": "10.11.1.1"
-},
-{
-"created": "2014-04-15",
-"name": "Apache Derby",
-"revision": "10.10.2.0"
-},
-{
-"created": "2013-04-15",
-"name": "Apache Derby",
-"revision": "10.10.1.1"
-},
-{
-"created": "2012-06-25",
-"name": "Apache Derby",
-"revision": "10.9.1.0"
-},
-{
-"created": "2012-11-16",
-"name": "Apache Derby",
-"revision": "10.8.3.0"
-},
-{
-"created": "2011-10-24",
-"name": "Apache Derby",
-"revision": "10.8.2.2"
-},
-{
-"created": "2011-04-29",
-"name": "Apache Derby",
-"revision": "10.8.1.2"
-},
-{
-"created": "2010-12-14",
-"name": "Apache Derby",
-"revision": "10.7.1.1"
-},
-{
-"created": "2010-10-06",
-"name": "Apache Derby",
-"revision": "10.6.2.1"
-},
-{
-"created": "2010-05-18",
-"name": "Apache Derby",
-"revision": "10.6.1.0"
-},
-{
-"created": "2009-08-21",
-"name": "Apache Derby",
-"revision": "10.5.3.0"
-},
-{
-"created": "2009-07-30",
-"name": "Apache Derby",
-"revision": "10.5.2.0"
-},
-{
-"created": "2009-04-28",
-"name": "Apache Derby",
-"revision": "10.5.1.1"
-},
-{
-"created": "2008-09-05",
-"name": "Apache Derby",
-"revision": "10.4.2.0"
-},
-{
-"created": "2008-04-25",
-"name": "Apache Derby",
-"revision": "10.4.1.3"
-},
-{
-"created": "2008-05-12",
-"name": "Apache Derby",
-"revision": "10.3.3.0"
-},
-{
-"created": "2007-12-10",
-"name": "Apache Derby",
-"revision": "10.3.2.1"
-},
-{
-"created": "2007-08-01",
-"name": "Apache Derby",
-"revision": "10.3.1.4"
-},
-{
-"created": "2006-12-12",
-"name": "Apache Derby",
-"revision": "10.2.2.0"
-},
-{
-"created": "2006-10-02",
-"name": "Apache Derby",
-"revision": "10.2.1.6"
-},
-{
-"created": "2006-07-05",
-"name": "Apache Derby",
-"revision": "10.1.3.1"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/db/derby/code/trunk/"
-],
-"shortdesc": "Apache Derby is an open source relational database implemented in Java."
-},
 "db-torque": {
 "bug-database": "https://issues.apache.org/jira/browse/TORQUE",
 "category": "database",
@@ -6098,44 +4881,6 @@
 ],
 "shortdesc": "DeltaSpike is a collection of portable Extensions for CDI Containers"
 },
-"directory": {
-"bug-database": "http://issues.apache.org/jira/browse/DIR",
-"category": "network-server, network-client",
-"created": "2006-03-27",
-"description": "The Apache Directory project provides directory solutions entirely written in Java. These include a directory server, which has been certified as LDAP v3 compliant by the Open Group (ApacheDS), and Eclipse-based directory tools (Apache Directory Studio).",
-"doap": "http://svn.apache.org/repos/asf/directory/project/trunk/resources/doap_Directory.rdf",
-"download-page": "http://www.apache.org/dyn/closer.cgi/directory",
-"homepage": "http://directory.apache.org",
-"implements": [
-{
-"body": "IETF",
-"id": "RFC 4511",
-"title": "Lightweight Directory Access Protocol (LDAP): The Protocol",
-"url": "http://www.ietf.org/rfc/rfc4511.txt"
-},
-{
-"body": "IETF",
-"id": "RFC 4120",
-"title": "The Kerberos Network Authentication Service (V5)",
-"url": "http://www.ietf.org/rfc/rfc4120.txt"
-}
-],
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://directory.apache.org/community%26resources/mailing-lists-and-irc.html",
-"maintainer": [
-{
-"mbox": "mailto:akarasulu@apache.org",
-"name": "Alex Karasulu"
-}
-],
-"name": "Apache Directory",
-"pmc": "directory",
-"programming-language": "Java",
-"repository": [
-"http://svn.apache.org/repos/asf/directory"
-],
-"shortdesc": "LDAP and Kerberos, entirely in Java"
-},
 "directory-fortress": {
 "bug-database": "http://issues.apache.org/jira/browse/FC",
 "category": "identity-management, Library, security, SDK",
@@ -6156,24 +4901,6 @@
 "http://git-wip-us.apache.org/repos/asf/directory-fortress-realm.git"
 ],
 "shortdesc": "Identity Access Management SDK"
-},
-"directory-kerby": {
-"bug-database": "http://issues.apache.org/jira/browse/DIRKRB",
-"category": "identity-management, identity-provisioning, Kerberos, Library, security, SDK",
-"created": "2014-12-31",
-"description": "Apache Kerby is a Java Kerberos binding. It provides a rich, intuitive and interoperable implementation, library, KDC and various facilities that integrates PKI, OTP and token (OAuth2) as desired in modern environments such as cloud, Hadoop and mobile.",
-"doap": "http://svn.apache.org/repos/asf/directory/site/trunk/content/doap_kerby.rdf",
-"download-page": "http://directory.apache.org/kerby/downloads.html",
-"homepage": "http://directory.apache.org/kerby/",
-"license": "http://spdx.org/licenses/Apache-2.0",
-"mailing-list": "http://directory.apache.org/mailing-lists-and-irc.html",
-"name": "Apache Kerby",
-"pmc": "directory",
-"programming-language": "Java",
-"repository": [
-"http://git-wip-us.apache.org/repos/asf/directory-kerby.git"
-],
-"shortdesc": "Kerberos binding in Java"
 },
 "directory-server": {
 "bug-database": "http://issues.apache.org/jira/browse/DIRSERVER",
@@ -7019,75 +5746,6 @@
 ],
 "shortdesc": "\nJava library implementing an HTTP client based on HttpCore components.\n    "
 },
-"httpcomponents-commons_httpclient": {
-"bug-database": "http://issues.apache.org/jira/browse/HTTPCLIENT",
-"category": "http, library, network-client",
-"created": "2001-04-25",
-"description": "\nCommons HttpClient is a library for client-side HTTP communication.\nIt provides support for HTTP/1.1 and HTTP/1.0, plus\nvarious authentication schemes and cookie policies.\nThanks to it's widespread use and years of development, it is a very\nmature and stable codebase. However, due to limitations in the API design,\nCommons HttpClient will eventually be replaced by HttpClient 4.0\nwith a completely redesigned API based on HttpCore.\n    ",
-"doap": "http://svn.apache.org/repos/asf/httpcomponents/oac.hc3x/trunk/doap_httpclient.rdf",
-"download-page": "http://httpcomponents.apache.org/downloads.cgi",
-"homepage": "http://hc.apache.org/httpclient-3.x/",
-"implements": [
-{
-"body": "IETF",
-"id": "RFC 2616",
-"title": "Hypertext Transfer Protocol -- HTTP/1.1",
-"url": "http://tools.ietf.org/html/rfc2616"
-},
-{
-"body": "IETF",
-"id": "RFC 1945",
-"title": "Hypertext Transfer Protocol -- HTTP/1.0",
-"url": "http://tools.ietf.org/html/rfc1945"
-},
-{
-"body": "IETF",
-"id": "RFC 2817",
-"title": "Upgrading to TLS Within HTTP/1.1",
-"url": "http://tools.ietf.org/html/rfc2817"
-},
-{
-"body": "IETF",
-"id": "RFC 2818",
-"title": "HTTP Over TLS",
-"url": "http://tools.ietf.org/html/rfc2818"
-},
-{
-"body": "IETF",
-"id": "RFC 2617",
-"title": "HTTP Authentication: Basic and Digest Access Authentication",
-"url": "http://tools.ietf.org/html/rfc2617"
-},
-{
-"body": "IETF",
-"id": "RFC 2109",
-"title": "HTTP State Management Mechanism (Cookies)",
-"url": "http://tools.ietf.org/html/rfc2109"
-},
-{
-"body": "IETF",
-"id": "RFC 2965",
-"title": "HTTP State Management Mechanism (Cookie2)",
-"url": "http://tools.ietf.org/html/rfc2965"
-}
-],
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://httpcomponents.apache.org/httpclient-3.x/mail-lists.html",
-"name": "Apache Commons HttpClient",
-"pmc": "httpcomponents",
-"programming-language": "Java",
-"release": [
-{
-"created": "2007-08-22",
-"name": "commons-httpclient-3.1",
-"revision": "3.1"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/httpcomponents/oac.hc3x/trunk"
-],
-"shortdesc": "\nClient-side HTTP implementation in Java.\n    "
-},
 "httpcomponents-core": {
 "bug-database": "http://issues.apache.org/jira/browse/HTTPCORE",
 "category": "http, library, network-client, network-server",
@@ -7260,7 +5918,7 @@
 "bug-database": "https://issues.apache.org/jira/browse/IGNITE",
 "category": "big-data, sql, cloud, database, distributed-sql-database, data-management-platform, hadoop, network-server, network-client, osgi, IoT",
 "created": "2014-10-01",
-"description": "Apache Ignite In-Memory Data Fabric is designed to deliver uncompromised performance for a wide set of in-memory computing use cases from high performance computing, to the industry most advanced data grid, in-memory SQL, in-memory file system, streaming, and more.",
+"description": "Apache Ignite In-Memory Database and Caching Platform is designed to deliver uncompromised performance for a wide set of in-memory computing use cases from high performance computing, to the industry most advanced data grid, in-memory SQL, in-memory file system, streaming, and more.",
 "doap": "https://git-wip-us.apache.org/repos/asf?p=ignite.git;a=blob_plain;f=doap_Ignite.rdf;hb=HEAD",
 "download-page": "https://ignite.apache.org/download",
 "homepage": "http://ignite.apache.org",
@@ -7286,7 +5944,7 @@
 "repository": [
 "https://git-wip-us.apache.org/repos/asf/ignite"
 ],
-"shortdesc": "Apache Ignite is an In-Memory Data Fabric providing in-memory data caching, partitioning, processing, and querying components."
+"shortdesc": "Apache Ignite is an In-Memory Database and Caching Platform providing in-memory data caching, partitioning, processing, and querying components."
 },
 "incubator-annotator": {
 "bug-database": "https://github.com/apache/incubator-annotator/issues",
@@ -8380,181 +7038,6 @@
 "git://git.apache.org/jena.git"
 ],
 "shortdesc": "A framework for developing Semantic Web and Linked Data applications in Java."
-},
-"jmeter": {
-"bug-database": "http://issues.apache.org/bugzilla/",
-"category": "testing",
-"created": "2006-02-17",
-"description": "Apache JMeter may be used to test performance both on static and dynamic resources (files, Servlets, Perl scripts, Java Objects, Data Bases and Queries, FTP Servers and more). It can be used to simulate a heavy load on a server, network or object to test its strength or to analyze overall performance under different load types. You can use it to make a graphical analysis of performance or to test your server/script/object behavior under heavy concurrent load. ",
-"doap": "http://svn.apache.org/repos/asf/jmeter/doap/doap_JMeter.rdf",
-"download-page": "http://jmeter.apache.org/download_jmeter.cgi",
-"homepage": "http://jmeter.apache.org/index.html",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://jmeter.apache.org/mail2.html",
-"name": "Apache JMeter",
-"pmc": "jmeter",
-"programming-language": "Java",
-"release": [
-{
-"created": "2003-08-07",
-"name": "Apache Jakarta JMeter",
-"revision": "1.9"
-},
-{
-"created": "2004-04-04",
-"name": "Apache Jakarta JMeter",
-"revision": "2.0.0"
-},
-{
-"created": "2004-05-24",
-"name": "Apache Jakarta JMeter",
-"revision": "2.0.1"
-},
-{
-"created": "2004-11-19",
-"name": "Apache Jakarta JMeter",
-"revision": "2.0.2"
-},
-{
-"created": "2005-03-23",
-"name": "Apache Jakarta JMeter",
-"revision": "2.0.3"
-},
-{
-"created": "2005-08-24",
-"name": "Apache Jakarta JMeter",
-"revision": "2.1"
-},
-{
-"created": "2005-10-04",
-"name": "Apache Jakarta JMeter",
-"revision": "2.1.1"
-},
-{
-"created": "2006-06-14",
-"name": "Apache Jakarta JMeter",
-"revision": "2.2"
-},
-{
-"created": "2007-09-04",
-"name": "Apache Jakarta JMeter",
-"revision": "2.3RC4"
-},
-{
-"created": "2007-09-29",
-"name": "Apache Jakarta JMeter",
-"revision": "2.3 final"
-},
-{
-"created": "2007-11-30",
-"name": "Apache Jakarta JMeter",
-"revision": "2.3.1 final"
-},
-{
-"created": "2008-06-14",
-"name": "Apache Jakarta JMeter",
-"revision": "2.3.2 final"
-},
-{
-"created": "2009-05-24",
-"name": "Apache Jakarta JMeter",
-"revision": "2.3.3 final"
-},
-{
-"created": "2009-06-21",
-"name": "Apache Jakarta JMeter",
-"revision": "2.3.4 final"
-},
-{
-"created": "2010-07-12",
-"name": "Apache Jakarta JMeter",
-"revision": "2.4 final"
-},
-{
-"created": "2011-08-17",
-"name": "Apache Jakarta JMeter",
-"revision": "2.5 final"
-},
-{
-"created": "2011-10-03",
-"name": "Apache Jakarta JMeter",
-"revision": "2.5.1 final"
-},
-{
-"created": "2012-02-01",
-"name": "Apache JMeter",
-"revision": "2.6 final"
-},
-{
-"created": "2012-05-27",
-"name": "Apache JMeter",
-"revision": "2.7 final"
-},
-{
-"created": "2012-10-06",
-"name": "Apache JMeter",
-"revision": "2.8 final"
-},
-{
-"created": "2013-01-28",
-"name": "Apache JMeter",
-"revision": "2.9 final"
-},
-{
-"created": "2013-10-21",
-"name": "Apache JMeter",
-"revision": "2.10 final"
-},
-{
-"created": "2014-01-05",
-"name": "Apache JMeter",
-"revision": "2.11 final"
-},
-{
-"created": "2014-11-10",
-"name": "Apache JMeter",
-"revision": "2.12 final"
-},
-{
-"created": "2015-03-14",
-"name": "Apache JMeter",
-"revision": "2.13 final"
-},
-{
-"created": "2016-05-17",
-"name": "Apache JMeter",
-"revision": "3.0 final"
-},
-{
-"created": "2016-11-19",
-"name": "Apache JMeter",
-"revision": "3.1 final"
-},
-{
-"created": "2017-04-13",
-"name": "Apache JMeter",
-"revision": "3.2 final"
-},
-{
-"created": "2017-09-21",
-"name": "Apache JMeter",
-"revision": "3.3 final"
-},
-{
-"created": "2018-02-10",
-"name": "Apache JMeter",
-"revision": "4.0 final"
-},
-{
-"created": "2018-09-18",
-"name": "Apache JMeter",
-"revision": "5.0 final"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/jmeter/"
-],
-"shortdesc": "Pure Java application for load and functional testing"
 },
 "jspwiki": {
 "category": "content",
@@ -11243,93 +9726,6 @@
 ],
 "shortdesc": "The Apache FtpServer application is a 100% pure Java FTP server"
 },
-"mina-sshd": {
-"bug-database": "http://issues.apache.org/jira/browse/SSHD",
-"category": "network-server",
-"created": "2006-04-04",
-"description": "Apache SSHD is a 100% pure java library to support the SSH protocols on both the client and server side. This library is based on Apache MINA, a scalable and high performance asynchronous IO library. SSHD does not really aim at being a replacement for the SSH client or SSH server from Unix operating systems, but rather provides support for Java based applications requiring SSH support.",
-"doap": "http://svn.apache.org/repos/asf/mina/metadata/sshd.rdf",
-"download-page": "http://mina.apache.org/sshd-project/downloads.html",
-"homepage": "http://mina.apache.org/sshd-project",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://mina.apache.org/sshd-project/mailing_lists.html",
-"maintainer": [
-{
-"mbox": "mailto:dev@mina.apache.org",
-"name": "Apache FtpServer"
-}
-],
-"name": "Apache SSHD",
-"pmc": "mina",
-"programming-language": "Java",
-"release": [
-{
-"created": "2010-11-08",
-"name": "Apache SSHD",
-"revision": "0.5"
-},
-{
-"created": "2010-09-28",
-"name": "Apache SSHD",
-"revision": "0.4"
-},
-{
-"created": "2009-11-24",
-"name": "Apache SSHD",
-"revision": "0.3"
-},
-{
-"created": "2009-08-25",
-"name": "Apache SSHD",
-"revision": "0.2"
-},
-{
-"created": "2009-06-17",
-"name": "Apache SSHD",
-"revision": "0.1"
-}
-],
-"repository": [
-"https://svn.apache.org/repos/asf/mina/sshd"
-],
-"shortdesc": "Apache SSHD is a 100% pure java library to support the SSH protocols on both the client and server side."
-},
-"mina-vysper": {
-"bug-database": "http://issues.apache.org/jira/browse/VYSPER",
-"category": "network-server",
-"created": "2006-04-04",
-"description": "Apache Vysper aims to be a modular, full featured XMPP (Jabber) server. Vysper is implemented in Java.",
-"doap": "http://svn.apache.org/repos/asf/mina/metadata/vysper.rdf",
-"download-page": "http://mina.apache.org/vysper-project/downloads.html",
-"homepage": "http://mina.apache.org/vysper-project",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://mina.apache.org/vysper-project/mailing_lists.html",
-"maintainer": [
-{
-"mbox": "mailto:dev@mina.apache.org",
-"name": "Apache Vysper"
-}
-],
-"name": "Apache Vysper",
-"pmc": "mina",
-"programming-language": "Java",
-"release": [
-{
-"created": "2010-09-18",
-"name": "Apache Vysper",
-"revision": "0.6"
-},
-{
-"created": "2010-03-29",
-"name": "Apache Vysper",
-"revision": "0.5"
-}
-],
-"repository": [
-"https://svn.apache.org/repos/asf/mina/vysper"
-],
-"shortdesc": "A modular, full featured XMPP (Jabber) server"
-},
 "myfaces": {
 "bug-database": "http://issues.apache.org/jira/browse/MYFACES",
 "category": "web-framework, javaee",
@@ -11911,37 +10307,6 @@
 ],
 "shortdesc": "Apache OODT software provides metadata for middleware (and vice versa):\n-    Transparent access to distributed resources\n-    Data discovery and query optimization\n-    Distributed processing and virtual archives\n."
 },
-"oozie": {
-"bug-database": "https://issues.apache.org/jira/browse/OOZIE",
-"category": "big-data",
-"created": "2014-09-15",
-"description": "Oozie is a workflow scheduler system to manage Apache Hadoop jobs. Oozie is integrated with the rest of the Hadoop stack supporting several types of Hadoop jobs out of the box (such as Java map-reduce, Streaming map-reduce, Pig, Hive, Sqoop and Distcp) as well as system specific jobs (such as Java programs and shell scripts).",
-"doap": "http://svn.apache.org/repos/asf/oozie/site/trunk/doap_Oozie.rdf",
-"download-page": "http://www.apache.org/dyn/closer.lua/oozie/",
-"homepage": "http://oozie.apache.org",
-"license": "http://spdx.org/licenses/Apache-2.0",
-"mailing-list": "http://oozie.apache.org/mail-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:mislam77@yahoo.com",
-"name": "Mohammad Islam"
-}
-],
-"name": "Apache Oozie",
-"pmc": "oozie",
-"programming-language": "Java, JavaScript",
-"release": [
-{
-"created": "2018-04-09",
-"name": "Apache Oozie",
-"revision": "5.0.0"
-}
-],
-"repository": [
-"https://git-wip-us.apache.org/repos/asf/oozie.git"
-],
-"shortdesc": "Oozie is a workflow scheduler system to manage Apache Hadoop jobs."
-},
 "openjpa": {
 "bug-database": "http://issues.apache.org/jira/browse/OPENJPA",
 "category": "database, library, javaee",
@@ -12064,8 +10429,8 @@
 }
 ],
 "repository": [
-"https://github.com/apache/opennlp.git",
-"http://svn.apache.org/repos/asf/opennlp"
+"http://svn.apache.org/repos/asf/opennlp",
+"https://github.com/apache/opennlp.git"
 ],
 "shortdesc": "Apache OpenNLP library software is a machine learning based toolkit for the processing of natural language text.."
 },
@@ -12107,45 +10472,6 @@
 "http://svn.apache.org/repos/asf/openoffice/trunk"
 ],
 "shortdesc": "An open-source, office-document productivity suite"
-},
-"openwebbeans": {
-"bug-database": "http://issues.apache.org/jira/browse/OWB",
-"category": "javaee",
-"created": "2011-03-06",
-"description": "OpenWebBeans is an ALv2-licensed implementation of the \"Contexts and Dependency Injection for the Java EE platform\" specification which is defined as JSR-299.",
-"doap": "http://svn.apache.org/repos/asf/openwebbeans/docs/doap_OpenWebBeans.rdf",
-"download-page": "http://www.apache.org/dyn/closer.cgi/openwebbeans/",
-"homepage": "http://openwebbeans.apache.org",
-"implements": [
-{
-"body": "JCP",
-"id": "JSR 299",
-"title": "Contexts and Dependency Injection for the Java EE platform",
-"url": "http://jcp.org/en/jsr/detail?id=299"
-}
-],
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://openwebbeans.apache.org/1.0.0-SNAPSHOT/mail-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:gerdogdu@apache.org",
-"name": "Gurkan Erdogdu"
-}
-],
-"name": "Apache OpenWebBeans",
-"pmc": "openwebbeans",
-"programming-language": "Java",
-"release": [
-{
-"created": "2010-10-19",
-"name": "1.0.0 Release",
-"revision": "1.0.0"
-}
-],
-"repository": [
-"https://svn.apache.org/repos/asf/openwebbeans"
-],
-"shortdesc": "Dependency Injection Platform."
 },
 "orc": {
 "bug-database": "https://issues.apache.org/jira/browse/orc",
@@ -12524,37 +10850,6 @@
 ],
 "shortdesc": "Apache Pig is a platform for analyzing large data sets on Hadoop.  It provides a high-level language for expressing data analysis programs, coupled with infrastructure for evaluating these programs.\n"
 },
-"pivot": {
-"bug-database": "http://issues.apache.org/jira/browse/PIVOT",
-"category": "library",
-"created": "2012-03-26",
-"description": "Apache Pivot is an open-source platform for building installable Internet applications (IIAs).\nIt combines the enhanced productivity and usability features of a modern user interface toolkit with the robustness of the Java platform.\n",
-"doap": "http://svn.apache.org/repos/asf/pivot/infra/doap/doap_Pivot.rdf",
-"download-page": "http://pivot.apache.org/download.cgi",
-"homepage": "http://pivot.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://pivot.apache.org/lists.html",
-"maintainer": [
-{
-"mbox": "mailto:smartini@apache.org",
-"name": "Sandro Martini"
-}
-],
-"name": "Apache Pivot",
-"pmc": "pivot",
-"programming-language": "Java",
-"release": [
-{
-"created": "2012-01-16",
-"name": "Bug fix and Compatible Improvements over Pivot-2.0",
-"revision": "2.0.1"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/pivot/trunk/"
-],
-"shortdesc": "Apache Pivot is an open-source platform for building installable Internet applications (IIAs)."
-},
 "poi": {
 "bug-database": "https://issues.apache.org/bugzilla/buglist.cgi?product=POI",
 "category": "content, library",
@@ -12660,62 +10955,6 @@
 "https://svn.apache.org/repos/asf/poi/"
 ],
 "shortdesc": "Java API To Access Microsoft Document File Formats"
-},
-"poi-xmlbeans": {
-"bug-database": "http://issues.apache.org/jira/secure/BrowseProject.jspa?id=10436",
-"category": "xml",
-"created": "2006-03-27",
-"description": "XMLBeans is a tool that allows you to access the full power of XML in a Java friendly way. The idea is that you can take advantage of the richness and features of XML and XML Schema and have these features mapped as naturally as possible to the equivalent Java language and typing constructs. XMLBeans uses XML Schema to compile Java interfaces and classes that you can then use to access and modify XML instance data. Using XMLBeans is similar to using any other Java interface/class, you will see things like getFoo or setFoo just as you would expect when working with Java. While a major use of XMLBeans is to access your XML instance data with strongly typed Java classes there are also API's that allow you access to the full XML infoset (XMLBeans keeps XML Infoset fidelity) as well as to allow you to reflect into the XML schema itself through an XML Schema Object model.\n\nFor more details on XMLBeans see the XMLBeans Wiki pages or the XMLBeans documentation (the Documentation tab on this website).\nWhat Makes XMLBeans Different\n\nThere are at least two major things that make XMLBeans unique from other XML-Java binding options.\n\n   1. Full XML Schema support. XMLBeans fully supports XML Schema and the corresponding java classes provide constructs for all of the major functionality of XML Schema. This is critical since often times you do not have control over the features of XML Schema that you need to work with in Java. Also, XML Schema oriented applications can take full advantage of the power of XML Schema and not have to restrict themselvs to a subset.\n   2. Full XML Infoset fidelity.When unmarshalling an XML instance the full XML infoset is kept and is available to the developer. This is critical because because of the subset of XML that is not easily represented in java. For example, order of the elements or comments might be needed in a particular application.\n\nA major objective of XMLBeans has been to be applicable in all non-streaming (in memory) XML programming situations. You should be able to compile your XML Schema into a set of java classes and know that 1) you will be able to use XMLBeans for all of the schemas you encounter (even the warped ones) and 2) that you will be able to get to the XML at whatever level is necessary - and not have to resort to multple tools to do this.\n\nTo accomplish this XMLBeans provides three major APIs:\n\n    * XmlObject The java classes that are generated from an XML Schema are all derived from XmlObject. These provide strongly typed getters and setters for each of the elements within the defined XML. Complex types are in turn XmlObjects. For example getCustomer might return a CustomerType (which is an XmlObject). Simple types turn into simple getters and setters with the correct java type. For example getName might return a String.\n    * XmlCursor From any XmlObject you can get an XmlCursor. This provides efficient, low level access to the XML Infoset. A cursor represents a position in the XML instance. You can move the cursor around the XML instance at any level of granularity you need from individual characters to Tokens.\n    * SchemaType XMLBeans provides a full XML Schema object model that you can use to reflect on the underlying schema meta information. For example, you might want to generate a sample XML instance for an XML schema or perhaps find the enumerations for an element so that you can display them.\n\nAll of this was built with performance in mind. Informal benchmarks and user feedback indicate that XMLBeans is extremely fast.\n",
-"doap": "http://svn.apache.org/repos/asf/xmlbeans/trunk/xkit/doap_XMLBeans.rdf",
-"download-page": "http://www.apache.org/dyn/closer.cgi/xmlbeans/",
-"homepage": "http://xmlbeans.apache.org/",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://www.mail-archive.com/user%40xmlbeans.apache.org/",
-"maintainer": [
-{
-"mbox": "mailto:cezar@apache.org",
-"name": "Cezar Andrei"
-}
-],
-"name": "Apache XMLBeans",
-"pmc": "poi",
-"programming-language": "Java",
-"release": [
-{
-"created": "2018-08-24",
-"name": "XMLBeans v3.0.1",
-"revision": "3.0.1"
-},
-{
-"created": "2018-06-29",
-"name": "XMLBeans v3.0.0",
-"revision": "3.0.0"
-},
-{
-"created": "2005-11-16",
-"name": "XMLBeans v2.1.0",
-"revision": "2.1.0"
-},
-{
-"created": "2005-06-30",
-"name": "XMLBeans v2.0.0",
-"revision": "2.0.0"
-},
-{
-"created": "2005-02-24",
-"name": "XMLBeans v1.0.4",
-"revision": "1.0.4"
-},
-{
-"created": "2005-02-24",
-"name": "XMLBeans v1.0.4-jdk1.3",
-"revision": "1.0.4-jdk1.3"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/xmlbeans/trunk/"
-],
-"shortdesc": "XMLBeans is a technology for accessing XML by binding it to Java types. XMLBeans provides several ways to get at the XML: strong XMLSchema typed model, cursor API, streaming (SAX, Stax) and DOM. XMLBeans covers 100% XMLSchema support while giving access to full infoset of documents."
 },
 "polygene": {
 "bug-database": "https://issues.apache.org/jira/browse/POLYGENE",
@@ -13139,39 +11378,6 @@
 "http://svn.apache.org/repos/asf/serf/trunk"
 ],
 "shortdesc": "High performance C-based HTTP client library built upon the Apache Portable Runtime (APR) library."
-},
-"servicemix": {
-"bug-database": "http://issues.apache.org/activemq/browse/SM",
-"category": "network-client, network-server, xml, osgi",
-"created": "2015-03-16",
-"description": "Apache ServiceMix is a flexible, open-source integration container that unifies the features and functionality of Apache ActiveMQ, Camel, CXF, and Karaf into a powerful runtime platform you can use to build your own integrations solutions. It provides a complete, enterprise ready ESB exclusively powered by OSGi.",
-"doap": "http://svn.apache.org/repos/asf/servicemix/doap.rdf",
-"download-page": "http://servicemix.apache.org/download.html",
-"homepage": "http://servicemix.apache.org",
-"implements": [
-{
-"body": "JCP",
-"id": "JSR 208",
-"title": "Java Business Integration",
-"url": "http://www.jcp.org/en/jsr/detail?id=208"
-}
-],
-"license": "http://spdx.org/licenses/Apache-2.0",
-"mailing-list": "http://servicemix.apache.org/mailing-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:ksobkowiak@apache.org",
-"name": "Krzysztof Sobkowiak"
-}
-],
-"name": "Apache ServiceMix",
-"pmc": "servicemix",
-"programming-language": "Java, XML, Scala",
-"repository": [
-"http://svn.apache.org/repos/asf/servicemix/",
-"https://git-wip-us.apache.org/repos/asf/servicemix.git"
-],
-"shortdesc": "Apache ServiceMix is an open source ESB providing routing and mediation features."
 },
 "shiro": {
 "bug-database": "http://issues.apache.org/jira/browse/SHIRO",
@@ -13717,30 +11923,6 @@
 "http://svn.apache.org/repos/asf/synapse/trunk/java"
 ],
 "shortdesc": "Apache Synapse is a lightweight ESB engine and XML router."
-},
-"syncope": {
-"bug-database": "https://issues.apache.org/jira/browse/SYNCOPE",
-"category": "identity-management, identity-provisioning, security",
-"created": "2012-02-14",
-"description": "Apache Syncope is an Open Source system for managing digital identities in enterprise environments, implemented in Java EE technology and released under Apache 2.0 license.\n\nIdentity management (or IdM) represents the joint result of business process and IT to manage user data on systems and applications. IdM involves considering user attributes, roles, resources and entitlements in trying to give a decent answer to the question bumping at every time in IT administrators' mind:\n\nWho has access to What, When, How, and Why?",
-"doap": "http://svn.apache.org/repos/asf/syncope/doap_Syncope.rdf",
-"download-page": "http://syncope.apache.org/downloads.html",
-"homepage": "http://syncope.apache.org/",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://syncope.apache.org/mailing-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:ilgrosso@apache.org",
-"name": "Francesco Chicchiricco"
-}
-],
-"name": "Apache Syncope",
-"pmc": "syncope",
-"programming-language": "Java",
-"repository": [
-"https://git-wip-us.apache.org/repos/asf/syncope.git"
-],
-"shortdesc": "Apache Syncope is an Open Source system for managing digital identities in enterprise environments."
 },
 "tajo": {
 "bug-database": "https://issues.apache.org/jira/browse/TAJO",
@@ -14427,83 +12609,6 @@
 ],
 "shortdesc": "Webscale SQL-on-Hadoop solution enabling transactional or operational workloads on Apache Hadoop."
 },
-"turbine": {
-"bug-database": "http://issues.apache.org/jira/browse/TRB",
-"category": "web-framework",
-"created": "2008-04-08",
-"description": " Turbine is a servlet based framework that allows experienced Java developers to quickly build web applications. Turbine allows you to use personalize the web sites and to use user logins to restrict access to parts of your application.\n\nTurbine is a matured and well established framework that is used as the base of many other projects (like e.g. the excellent Jetspeed 1 Portals framework.\n\nTurbine is an excellent choice for developing applications that make use of a services-oriented architecture. Some of the functionality provided with Turbine includes a security management system, a scheduling service, XML-defined form validation server, and an XML-RPC service for web services. It is a simple task to create new services particular to your application.\n\nThe Turbine core is free of any dependency on a presentation layer technology. Both JavaServer Pages (JSP) and Velocity are supported inside Turbine. For developers already familiar with JSP, or have existing JSP tag libraries, Turbine offers support for the Sun standard. Velocity is the favorite view technology of most users of the Turbine framework; try it out and see if Velocity can help you develop your web applications faster and work more easily with non-programming designers.\n\nTurbine is developed in an open, participatory environment and released under the Apache Software License. Turbine is intended to be a collaboration of the best-of-breed developers from around the world. We invite you to participate in this open development project. To learn more about getting involved, look at our \"How to Help\" pages. ",
-"doap": "http://svn.apache.org/repos/asf/turbine/site/doap/doap_Turbine.rdf",
-"download-page": "http://turbine.apache.org/download.html",
-"homepage": "http://turbine.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://turbine.apache.org/contact.html",
-"maintainer": [
-{
-"mbox": "mailto:dev@turbine.apache.org",
-"name": "Apache Turbine Developers community"
-}
-],
-"name": "Apache Turbine",
-"pmc": "turbine",
-"programming-language": "Java",
-"release": [
-{
-"created": "2008-11-28",
-"name": "Apache Turbine",
-"revision": "2.3.3"
-},
-{
-"created": "2011-06-23",
-"name": "Apache Turbine",
-"revision": "4.0-M1"
-},
-{
-"created": "2015-12-22",
-"name": "Apache Turbine",
-"revision": "4.0-M2"
-},
-{
-"created": "2017-11-10",
-"name": "Apache Turbine",
-"revision": "4.0"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/turbine/core/trunk/"
-],
-"shortdesc": "Turbine is a servlet based framework that allows Java developers to quickly build web applications."
-},
-"uima": {
-"bug-database": "https://issues.apache.org/jira/browse/UIMA",
-"created": "2010-04-30",
-"description": "The Apache UIMA project supports\n      the community working on the analysis of unstructured information\n      with a unifying Java and C++ framework, tooling,\n      and analysis components, guided by the OASIS UIMA standard.\n      It includes support for very large scaleout using networked\n      clusters of compute nodes.",
-"doap": "http://svn.apache.org/repos/asf/uima/site/trunk/uima-website/docs/doap/uima.rdf",
-"download-page": "http://uima.apache.org/downloads.cgi",
-"homepage": "http://uima.apache.org",
-"implements": [
-{
-"body": "Organization for the Advancement of Structured Information Standards (OASIS)",
-"id": "UIMA 1.0",
-"title": "Unstructured Information Management Architecture (UIMA) Version 1.0",
-"url": "http://docs.oasis-open.org/uima/v1.0/os/uima-spec-os.html"
-}
-],
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://uima.apache.org/mail-lists.html",
-"maintainer": [
-{
-"name": "Marshall Schor"
-}
-],
-"name": "Apache UIMA",
-"pmc": "uima",
-"programming-language": "Java, C++",
-"repository": [
-"http://svn.apache.org/repos/asf/uima/"
-],
-"shortdesc": "Annotator components and a\n      scalable integration and deployment framework for\n      Unstructured Information analysis",
-"shortname": "UIMA"
-},
 "vcl": {
 "bug-database": "https://issues.apache.org/jira/browse/VCL",
 "category": "cloud",
@@ -15168,57 +13273,6 @@
 "https://svn.apache.org/repos/asf/xalan/c/trunk/"
 ],
 "shortdesc": "Xalan-C++ is an XSLT processor written in C++."
-},
-"xalan-for_java_xslt_processor": {
-"bug-database": "http://issues.apache.org/jira/browse/XALANJ",
-"category": "xml",
-"created": "2011-09-11",
-"description": "\n     Xalan-J is an XSLT processor for transforming XML documents into HTML, text, or other XML document\n     types. It implements XSL Transformations (XSLT) Version 1.0 and XML Path Language (XPath) Version 1.0\n     and can be used from the command line, in an applet or a servlet, or as a module in other program.\n     Xalan-J implements the javax.xml.transform interface in Java API for XML Processing (JAXP) 1.3. This\n     interface provides a modular framework and a standard API for performing XML transformations, and\n     utilizes system properties to determine which Transformer and which XML parser to use.\n    ",
-"doap": "http://svn.apache.org/repos/asf/xalan/pmc/doap_Xalan_for_Java_XSLT_Processor.rdf",
-"download-page": "http://archive.apache.org/dist/xml/xalan-j",
-"homepage": "http://xalan.apache.org/xalan-j/",
-"implements": [
-{
-"body": "W3C",
-"id": "XPath 1.0",
-"title": "XML Path Language (XPath) Version 1.0",
-"url": "http://www.w3.org/TR/xpath/"
-},
-{
-"body": "W3C",
-"id": "XSLT 1.0",
-"title": "XSL Transformations (XSLT) Version 1.0",
-"url": "http://www.w3.org/TR/xslt"
-},
-{
-"body": "JCP",
-"id": "JSR 206",
-"title": "Java API for XML Processing (JAXP) 1.3",
-"url": "http://jcp.org/en/jsr/detail?id=206"
-}
-],
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://mail-archives.apache.org/mod_mbox/",
-"maintainer": [
-{
-"mbox": "mailto:dev@xalan.apache.org",
-"name": "Xalan-J Development Team"
-}
-],
-"name": "Apache Xalan for Java XSLT Processor",
-"pmc": "xalan",
-"programming-language": "Java",
-"release": [
-{
-"created": "2007-11-27",
-"name": "Xalan-J",
-"revision": "2.7.1"
-}
-],
-"repository": [
-"https://svn.apache.org/repos/asf/xalan/java/trunk/"
-],
-"shortdesc": "Xalan-J is an XSLT processor written in Java."
 },
 "xerces-for_c++_xml_parser": {
 "bug-database": "https://issues.apache.org/jira/browse/XERCESC",
