@@ -7313,6 +7313,51 @@
 ],
 "shortdesc": "Apache Annotator provides annotation enabling code for browsers, servers, and humans."
 },
+"incubator-daffodil": {
+"bug-database": "https://issues.apache.org/jira/browse/DAFFODIL",
+"category": "big-data, library, xml",
+"created": "2017-08-27",
+"description": "Apache Daffodil is an open-source implementation of\n        the DFDL specification that uses DFDL data descriptions to parse\n        fixed format data into an infoset, which is most commonly\n        represented as either XML or JSON. This allows the use of\n        well-established XML or JSON technologies and libraries to\n        consume, inspect, and manipulate fixed format data in existing\n        solutions. Daffodil is also capable of the reverse by\n        serializing or \"unparsing\" an XML or JSON infoset back to the\n        original data format.",
+"doap": "https://daffodil.incubator.apache.org/doap.rdf",
+"download-page": "https://daffodil.apache.org/releases/",
+"homepage": "https://daffodil.apache.org",
+"implements": [
+{
+"body": "Open Grid Forum",
+"id": "DFDL",
+"title": "Data Format Description Language",
+"url": "https://daffodil.apache.org/docs/dfdl/"
+}
+],
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://daffodil.apache.org/community/#mailing-lists",
+"maintainer": [
+{
+"mbox": "mailto:dev@daffodil.apache.org",
+"name": "Apache Daffodil Community"
+}
+],
+"name": "Apache Daffodil",
+"pmc": "incubator",
+"programming-language": "Scala, Java",
+"release": [
+{
+"created": "2018-09-04",
+"name": "Apache Daffodil",
+"revision": "2.2.0"
+},
+{
+"created": "2018-05-14",
+"name": "Apache Daffodil",
+"revision": "2.1.0"
+}
+],
+"repository": [
+"https://github.com/apache/incubator-daffodil",
+"https://github.com/apache/incubator-daffodil-site"
+],
+"shortdesc": "Apache Daffodil is an open-source implementation of the\n        Data Format Description Language to convert between fixed\n        format data and XML/JSON."
+},
 "incubator-datafu": {
 "bug-database": "https://issues.apache.org/jira/browse/DATAFU",
 "category": "big-data",
@@ -11626,7 +11671,7 @@
 },
 "ofbiz": {
 "bug-database": "https://issues.apache.org/jira/browse/OFBIZ",
-"category": "web-framework, database, network-server, xml, http, content",
+"category": "web-framework, database, network-server, xml, http, content, geospatial",
 "created": "2006-12-28",
 "description": "\n      Apache OFBiz is an open source product for the automation of enterprise processes that includes framework components and business applications\n      for ERP (Enterprise Resource Planning), CRM (Customer Relationship Management), E-Business / E-Commerce, SCM (Supply Chain Management),\n      MRP (Manufacturing Resource Planning), MMS/EAM (Maintenance Management System/Enterprise Asset Management).\n      Apache OFBiz provides a foundation and starting point for reliable, secure and scalable enterprise solutions.\n    ",
 "doap": "http://ofbiz.apache.org/doap_OFBiz.rdf",
@@ -12757,6 +12802,29 @@
 "http://svn.apache.org/repos/asf/portals"
 ],
 "shortdesc": "Apache Portals software provides a robust, full-featured, commercial-quality, and freely available Portal related software on a wide variety of platforms and programming languages."
+},
+"predictionio": {
+"bug-database": "https://issues.apache.org/jira/browse/PIO",
+"category": "big-data",
+"created": "2016-05-26",
+"description": "PredictionIO is an open source Machine Learning Server built on top of state-of-the-art open source stack, that enables developers to manage and deploy production-ready predictive services for various kinds of machine learning tasks.",
+"doap": "https://gitbox.apache.org/repos/asf?p=predictionio.git;a=blob_plain;f=doap.rdf;hb=refs/heads/develop",
+"homepage": "http://predictionio.apache.org/",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "http://predictionio.apache.org/support/",
+"maintainer": [
+{
+"mbox": "mailto:donald@apache.org",
+"name": "Donald Szeto"
+}
+],
+"name": "Apache PredictionIO",
+"pmc": "predictionio",
+"programming-language": "Scala",
+"repository": [
+"https://git-wip-us.apache.org/repos/asf/predictionio.git"
+],
+"shortdesc": "PredictionIO is an open source Machine Learning Server built on top of state-of-the-art open source stack, that enables developers to manage and deploy production-ready predictive services for various kinds of machine learning tasks."
 },
 "qpid": {
 "bug-database": "http://issues.apache.org/jira/browse/qpid, http://issues.apache.org/jira/browse/PROTON",
