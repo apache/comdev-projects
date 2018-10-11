@@ -11694,9 +11694,9 @@
 "programming-language": "Java, Groovy, JavaScript, XML, Freemarker",
 "release": [
 {
-"created": "2018-01-02",
+"created": "2018-10-02",
 "name": "Apache OFBiz R16.11",
-"revision": "16.11.04"
+"revision": "16.11.05"
 },
 {
 "created": "2016-03-29",
@@ -12064,8 +12064,8 @@
 }
 ],
 "repository": [
-"http://svn.apache.org/repos/asf/opennlp",
-"https://github.com/apache/opennlp.git"
+"https://github.com/apache/opennlp.git",
+"http://svn.apache.org/repos/asf/opennlp"
 ],
 "shortdesc": "Apache OpenNLP library software is a machine learning based toolkit for the processing of natural language text.."
 },
@@ -14740,7 +14740,7 @@
 "created": "2006-11-21",
 "description": "VelocityTools is a collection of Velocity subprojects with a common goal of creating tools and infrastructure for building both web and non-web applications using the Velocity template engine.",
 "doap": "http://svn.apache.org/repos/asf/velocity/site/site/doap_tools.rdf",
-"download-page": "http://velocity.apache.org/download.cgi",
+"download-page": "http://velocity.apache.org/download.cgi#tools",
 "homepage": "http://velocity.apache.org/velocity/tools/",
 "license": "http://usefulinc.com/doap/licenses/asl20",
 "mailing-list": "http://velocity.apache.org/mail-lists.html",
@@ -14748,6 +14748,11 @@
 "pmc": "velocity",
 "programming-language": "Java",
 "release": [
+{
+"created": "2018-10-09",
+"name": "VelocityTools 3.0",
+"revision": "3.0"
+},
 {
 "created": "2010-05-10",
 "name": "VelocityTools 2.0",
