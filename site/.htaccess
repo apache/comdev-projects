@@ -2,9 +2,9 @@
 RedirectMatch ^/feeds/(.*)$ https://projects-old.apache.org/feeds/$1
 
 # feature that changed url in projects-new
-RedirectMatch Permanent ^/projects/(.*).html$ https://projects.apache.org/project.html?$1
-Redirect Permanent /indexes/alpha.html https://projects.apache.org/projects.html
-Redirect Permanent /indexes/category.html https://projects.apache.org/projects.html?category
-Redirect Permanent /indexes/language.html https://projects.apache.org/projects.html?language
-Redirect Permanent /indexes/pmc.html https://projects.apache.org/projects.html?pmc
-Redirect Permanent /indexes/quick.html https://projects.apache.org/projects.html
+RedirectMatch Permanent ^/projects/(.*).html$ https://projects-test.apache.org/project.html?$1
+Redirect Permanent /indexes/alpha.html https://projects-test.apache.org/projects.html
+Redirect Permanent /indexes/category.html https://projects-test.apache.org/projects.html?category
+Redirect Permanent /indexes/language.html https://projects-test.apache.org/projects.html?language
+Redirect Permanent /indexes/pmc.html https://projects-test.apache.org/projects.html?pmc
+Redirect Permanent /indexes/quick.html https://projects-test.apache.org/projects.html
