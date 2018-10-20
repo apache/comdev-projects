@@ -6923,6 +6923,9 @@
 "pylucene-7.4.0": [
 "lucene/pylucene/pylucene-7.4.0-src.tar.gz"
 ],
+"pylucene-7.5.0": [
+"lucene/pylucene/pylucene-7.5.0-src.tar.gz"
+],
 "solr-5.5.5": [
 "lucene/solr/5.5.5/solr-5.5.5-src.tgz",
 "lucene/solr/5.5.5/solr-5.5.5.tgz",
@@ -8641,8 +8644,8 @@
 "org.apache.sling.auth.core-1.4.2": [
 "sling/org.apache.sling.auth.core-1.4.2-source-release.zip"
 ],
-"org.apache.sling.auth.form-1.0.10": [
-"sling/org.apache.sling.auth.form-1.0.10-source-release.zip"
+"org.apache.sling.auth.form-1.0.12": [
+"sling/org.apache.sling.auth.form-1.0.12-source-release.zip"
 ],
 "org.apache.sling.auth.openid-1.0.4": [
 "sling/org.apache.sling.auth.openid-1.0.4-source-release.zip"
@@ -9186,8 +9189,8 @@
 "sling/org.apache.sling.starter-10-source-release.zip",
 "sling/org.apache.sling.starter-10-webapp.war"
 ],
-"org.apache.sling.starter.content-1.0.0": [
-"sling/org.apache.sling.starter.content-1.0.0-source-release.zip"
+"org.apache.sling.starter.content-1.0.2": [
+"sling/org.apache.sling.starter.content-1.0.2-source-release.zip"
 ],
 "org.apache.sling.starter.startup-1.0.6": [
 "sling/org.apache.sling.starter.startup-1.0.6-source-release.zip"
@@ -9921,17 +9924,11 @@
 ]
 },
 "tinkerpop": {
-"apache-tinkerpop-3.2.8": [
-"tinkerpop/3.2.8/apache-tinkerpop-3.2.8-src.zip"
+"apache-tinkerpop-3.2.10": [
+"tinkerpop/3.2.10/apache-tinkerpop-3.2.10-src.zip"
 ],
-"apache-tinkerpop-3.2.9": [
-"tinkerpop/3.2.9/apache-tinkerpop-3.2.9-src.zip"
-],
-"apache-tinkerpop-3.3.2": [
-"tinkerpop/3.3.2/apache-tinkerpop-3.3.2-src.zip"
-],
-"apache-tinkerpop-3.3.3": [
-"tinkerpop/3.3.3/apache-tinkerpop-3.3.3-src.zip"
+"apache-tinkerpop-3.3.4": [
+"tinkerpop/3.3.4/apache-tinkerpop-3.3.4-src.zip"
 ]
 },
 "tomcat": {
@@ -10067,8 +10064,27 @@
 "tomee/tomee-7.1.0/apache-tomee-7.1.0-webprofile.tar.gz",
 "tomee/tomee-7.1.0/apache-tomee-7.1.0-webprofile.zip"
 ],
+"apache-tomee-8.0.0-M1-microprofile": [
+"tomee/tomee-8.0.0-M1/apache-tomee-8.0.0-M1-microprofile.tar.gz",
+"tomee/tomee-8.0.0-M1/apache-tomee-8.0.0-M1-microprofile.zip"
+],
+"apache-tomee-8.0.0-M1-plume": [
+"tomee/tomee-8.0.0-M1/apache-tomee-8.0.0-M1-plume.tar.gz",
+"tomee/tomee-8.0.0-M1/apache-tomee-8.0.0-M1-plume.zip"
+],
+"apache-tomee-8.0.0-M1-plus": [
+"tomee/tomee-8.0.0-M1/apache-tomee-8.0.0-M1-plus.tar.gz",
+"tomee/tomee-8.0.0-M1/apache-tomee-8.0.0-M1-plus.zip"
+],
+"apache-tomee-8.0.0-M1-webprofile": [
+"tomee/tomee-8.0.0-M1/apache-tomee-8.0.0-M1-webprofile.tar.gz",
+"tomee/tomee-8.0.0-M1/apache-tomee-8.0.0-M1-webprofile.zip"
+],
 "arquillian-tomee-moviefun-example-1.7.5": [
 "tomee/tomee-1.7.5/arquillian-tomee-moviefun-example-1.7.5.war"
+],
+"bval-2.0.0-nonfinal-57300f3": [
+"tomee/tomee-8.0.0-M1/bval-parent-2.0.0-nonfinal-57300f3-source-release.zip"
 ],
 "examples-4.6.0.2": [
 "tomee/tomee-1.6.0.2/examples-4.6.0.2-src.tar.gz",
@@ -10085,6 +10101,13 @@
 "examples-7.1.0": [
 "tomee/tomee-7.1.0/examples-7.1.0-src.tar.gz",
 "tomee/tomee-7.1.0/examples-7.1.0-src.zip"
+],
+"examples-8.0.0-M1": [
+"tomee/tomee-8.0.0-M1/examples-8.0.0-M1-src.tar.gz",
+"tomee/tomee-8.0.0-M1/examples-8.0.0-M1-src.zip"
+],
+"javaee-api-8.0": [
+"tomee/tomee-8.0.0-M1/javaee-api-8.0-source-release.zip"
 ],
 "openejb-4.6.0.2": [
 "tomee/tomee-1.6.0.2/openejb-4.6.0.2-source-release.zip",
@@ -10103,6 +10126,10 @@
 "openejb-7.1.0": [
 "tomee/tomee-7.1.0/openejb-standalone-7.1.0.tar.gz",
 "tomee/tomee-7.1.0/openejb-standalone-7.1.0.zip"
+],
+"openejb-8.0.0-M1": [
+"tomee/tomee-8.0.0-M1/openejb-standalone-8.0.0-M1.tar.gz",
+"tomee/tomee-8.0.0-M1/openejb-standalone-8.0.0-M1.zip"
 ],
 "openejb-provisionning-4.6.0.2": [
 "tomee/tomee-1.6.0.2/openejb-provisionning-4.6.0.2.tar.gz",
@@ -10134,6 +10161,10 @@
 "tomee/tomee-7.1.0/tomee-project-7.1.0-source-release.zip",
 "tomee/tomee-7.1.0/tomee-webapp-7.1.0.war"
 ],
+"tomee-8.0.0-M1": [
+"tomee/tomee-8.0.0-M1/tomee-project-8.0.0-M1-source-release.zip",
+"tomee/tomee-8.0.0-M1/tomee-webapp-8.0.0-M1.war"
+],
 "tomee-jaxrs-1.6.0.2": [
 "tomee/tomee-1.6.0.2/tomee-jaxrs-webapp-1.6.0.2.war"
 ],
@@ -10143,6 +10174,9 @@
 "tomee-microprofile-7.1.0": [
 "tomee/tomee-7.1.0/tomee-microprofile-webapp-7.1.0.war"
 ],
+"tomee-microprofile-8.0.0-M1": [
+"tomee/tomee-8.0.0-M1/tomee-microprofile-webapp-8.0.0-M1.war"
+],
 "tomee-plume-1.7.5": [
 "tomee/tomee-1.7.5/tomee-plume-webapp-1.7.5.war"
 ],
@@ -10151,6 +10185,9 @@
 ],
 "tomee-plume-7.1.0": [
 "tomee/tomee-7.1.0/tomee-plume-webapp-7.1.0.war"
+],
+"tomee-plume-8.0.0-M1": [
+"tomee/tomee-8.0.0-M1/tomee-plume-webapp-8.0.0-M1.war"
 ],
 "tomee-plus-1.6.0.2": [
 "tomee/tomee-1.6.0.2/tomee-plus-webapp-1.6.0.2.war"
@@ -10163,6 +10200,9 @@
 ],
 "tomee-plus-7.1.0": [
 "tomee/tomee-7.1.0/tomee-plus-webapp-7.1.0.war"
+],
+"tomee-plus-8.0.0-M1": [
+"tomee/tomee-8.0.0-M1/tomee-plus-webapp-8.0.0-M1.war"
 ],
 "tomee-webaccess-1.6.0.2": [
 "tomee/tomee-1.6.0.2/tomee-webaccess-1.6.0.2.war"
