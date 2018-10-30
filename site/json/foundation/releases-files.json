@@ -52,6 +52,9 @@
 "activemq-5.15.6": [
 "activemq/5.15.6/activemq-parent-5.15.6-source-release.zip"
 ],
+"activemq-5.15.7": [
+"activemq/5.15.7/activemq-parent-5.15.7-source-release.zip"
+],
 "activemq-cli-tools-0.1.0": [
 "activemq/activemq-cli-tools/0.1.0/activemq-cli-tools-parent-0.1.0-source-release.zip"
 ],
@@ -575,6 +578,8 @@
 "beam/2.7.0/apache-beam-2.7.0-source-release.zip"
 ],
 "apache-beam-2.8.0": [
+"beam/2.8.0/python/apache-beam-2.8.0.zip",
+"beam/2.8.0/apache-beam-2.8.0-source-release.zip",
 "beam/latest/python/apache-beam-2.8.0.zip",
 "beam/latest/apache-beam-2.8.0-source-release.zip"
 ]
@@ -706,6 +711,9 @@
 ],
 "bval-1.1.2": [
 "bval/1.1.2/bval-parent-1.1.2-source-release.zip"
+],
+"bval-2.0.0": [
+"bval/2.0.0/bval-parent-2.0.0-source-release.zip"
 ]
 },
 "calcite": {
@@ -731,10 +739,10 @@
 ]
 },
 "camel": {
-"apache-camel-2.21.2": [
-"camel/apache-camel/2.21.2/apache-camel-2.21.2-src.zip",
-"camel/apache-camel/2.21.2/apache-camel-2.21.2.tar.gz",
-"camel/apache-camel/2.21.2/apache-camel-2.21.2.zip"
+"apache-camel-2.21.3": [
+"camel/apache-camel/2.21.3/apache-camel-2.21.3-src.zip",
+"camel/apache-camel/2.21.3/apache-camel-2.21.3.tar.gz",
+"camel/apache-camel/2.21.3/apache-camel-2.21.3.zip"
 ],
 "apache-camel-2.22.1": [
 "camel/apache-camel/2.22.1/apache-camel-2.22.1-src.zip",
@@ -1221,9 +1229,9 @@
 "commons/configuration/source/commons-configuration-1.10-src.tar.gz",
 "commons/configuration/source/commons-configuration-1.10-src.zip"
 ],
-"commons-configuration2-2.3": [
-"commons/configuration/source/commons-configuration2-2.3-src.tar.gz",
-"commons/configuration/source/commons-configuration2-2.3-src.zip"
+"commons-configuration2-2.4": [
+"commons/configuration/source/commons-configuration2-2.4-src.tar.gz",
+"commons/configuration/source/commons-configuration2-2.4-src.zip"
 ],
 "commons-crypto-1.0.0": [
 "commons/crypto/source/commons-crypto-1.0.0-src.tar.gz",
@@ -1608,6 +1616,12 @@
 "cxf/3.2.6/apache-cxf-3.2.6-src.zip",
 "cxf/3.2.6/apache-cxf-3.2.6.tar.gz",
 "cxf/3.2.6/apache-cxf-3.2.6.zip"
+],
+"apache-cxf-3.2.7": [
+"cxf/3.2.7/apache-cxf-3.2.7-src.tar.gz",
+"cxf/3.2.7/apache-cxf-3.2.7-src.zip",
+"cxf/3.2.7/apache-cxf-3.2.7.tar.gz",
+"cxf/3.2.7/apache-cxf-3.2.7.zip"
 ],
 "cxf-dosgi-main-2.3.0": [
 "cxf/dosgi/2.3.0/cxf-dosgi-main-2.3.0-source-release.zip"
@@ -2276,11 +2290,11 @@
 ]
 },
 "flink": {
-"flink-1.5.4": [
-"flink/flink-1.5.4/flink-1.5.4-src.tgz"
+"flink-1.5.5": [
+"flink/flink-1.5.5/flink-1.5.5-src.tgz"
 ],
-"flink-1.6.1": [
-"flink/flink-1.6.1/flink-1.6.1-src.tgz"
+"flink-1.6.2": [
+"flink/flink-1.6.2/flink-1.6.2-src.tgz"
 ],
 "flink-shaded-4.0": [
 "flink/flink-shaded-4.0/flink-shaded-4.0-src.tgz"
@@ -6543,6 +6557,9 @@
 ],
 "apache-juneau-7.2.0": [
 "juneau/source/juneau-7.2.0/apache-juneau-7.2.0-src.zip"
+],
+"apache-juneau-7.2.1": [
+"juneau/source/juneau-7.2.1/apache-juneau-7.2.1-src.zip"
 ]
 },
 "kafka": {
@@ -7287,8 +7304,8 @@
 "maven-plugin-tools-3.5.2": [
 "maven/plugin-tools/maven-plugin-tools-3.5.2-source-release.zip"
 ],
-"maven-pmd-plugin-3.10.0": [
-"maven/plugins/maven-pmd-plugin-3.10.0-source-release.zip"
+"maven-pmd-plugin-3.11.0": [
+"maven/plugins/maven-pmd-plugin-3.11.0-source-release.zip"
 ],
 "maven-rar-plugin-2.4": [
 "maven/plugins/maven-rar-plugin-2.4-source-release.zip"
@@ -7688,6 +7705,9 @@
 ],
 "nifi-1.7.1": [
 "nifi/1.7.1/nifi-1.7.1-source-release.zip"
+],
+"nifi-1.8.0": [
+"nifi/1.8.0/nifi-1.8.0-source-release.zip"
 ],
 "nifi-fds-0.1.0": [
 "nifi/nifi-fds/nifi-fds-0.1.0/nifi-fds-0.1.0-source-release.zip"
@@ -9077,6 +9097,9 @@
 ],
 "org.apache.sling.models.api-1.3.6": [
 "sling/org.apache.sling.models.api-1.3.6-source-release.zip"
+],
+"org.apache.sling.models.impl-1.4.10": [
+"sling/org.apache.sling.models.impl-1.4.10-source-release.zip"
 ],
 "org.apache.sling.models.jacksonexporter-1.0.8": [
 "sling/org.apache.sling.models.jacksonexporter-1.0.8-source-release.zip"
