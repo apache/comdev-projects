@@ -40,17 +40,8 @@
 "Apache.NMS.Stomp-1.5.4": [
 "activemq/apache-nms/1.5.0/Apache.NMS.Stomp-1.5.4-src.zip"
 ],
-"activemq-5.13.5": [
-"activemq/5.13.5/activemq-parent-5.13.5-source-release.zip"
-],
 "activemq-5.14.5": [
 "activemq/5.14.5/activemq-parent-5.14.5-source-release.zip"
-],
-"activemq-5.15.5": [
-"activemq/5.15.5/activemq-parent-5.15.5-source-release.zip"
-],
-"activemq-5.15.6": [
-"activemq/5.15.6/activemq-parent-5.15.6-source-release.zip"
 ],
 "activemq-5.15.7": [
 "activemq/5.15.7/activemq-parent-5.15.7-source-release.zip"
@@ -90,8 +81,8 @@
 ]
 },
 "allura": {
-"allura-1.9.0": [
-"allura/allura-1.9.0.tar.gz"
+"allura-1.10.0": [
+"allura/allura-1.10.0.tar.gz"
 ]
 },
 "ambari": {
@@ -6239,6 +6230,9 @@
 "incubator-weex": {
 "apache-weex-incubating-0.12.0": [
 "incubator/weex/0.12.0-incubating/apache-weex-incubating-0.12.0-src.tar.gz"
+],
+"apache-weex-incubating-0.19.0": [
+"incubator/weex/0.19.0/apache-weex-incubating-0.19.0-src.tar.gz"
 ]
 },
 "isis": {
@@ -6551,12 +6545,6 @@
 "juneau": {
 "apache-juneau-7.0.1": [
 "juneau/source/juneau-7.0.1/apache-juneau-7.0.1-src.zip"
-],
-"apache-juneau-7.1.0": [
-"juneau/source/juneau-7.1.0/apache-juneau-7.1.0-src.zip"
-],
-"apache-juneau-7.2.0": [
-"juneau/source/juneau-7.2.0/apache-juneau-7.2.0-src.zip"
 ],
 "apache-juneau-7.2.1": [
 "juneau/source/juneau-7.2.1/apache-juneau-7.2.1-src.zip"
@@ -7147,6 +7135,10 @@
 "apache-maven-3.5.4": [
 "maven/maven-3/3.5.4/source/apache-maven-3.5.4-src.tar.gz",
 "maven/maven-3/3.5.4/source/apache-maven-3.5.4-src.zip"
+],
+"apache-maven-3.6.0": [
+"maven/maven-3/3.6.0/sources/apache-maven-3.6.0-src.tar.gz",
+"maven/maven-3/3.6.0/sources/apache-maven-3.6.0-src.zip"
 ],
 "apache-source-release-descriptor-1.0.6": [
 "maven/resources/apache-source-release-assembly-descriptor-1.0.6-source-release.zip"
@@ -8365,47 +8357,26 @@
 "apache-qpid-broker-j-7.0.6": [
 "qpid/broker-j/7.0.6/apache-qpid-broker-j-7.0.6-src.tar.gz"
 ],
-"apache-qpid-jms-0.36.0": [
-"qpid/jms/0.36.0/apache-qpid-jms-0.36.0-src.tar.gz"
-],
 "apache-qpid-jms-0.37.0": [
 "qpid/jms/0.37.0/apache-qpid-jms-0.37.0-src.tar.gz"
 ],
 "apache-qpid-jms-amqp-0-x-6.3.3": [
 "qpid/jms-amqp-0-x/6.3.3/apache-qpid-jms-amqp-0-x-6.3.3-src.tar.gz"
 ],
-"apache-qpid-proton-j-0.27.3": [
-"qpid/proton-j/0.27.3/apache-qpid-proton-j-0.27.3-src.tar.gz"
-],
-"apache-qpid-proton-j-0.28.1": [
-"qpid/proton-j/0.28.1/apache-qpid-proton-j-0.28.1-src.tar.gz"
-],
 "apache-qpid-proton-j-0.29.0": [
 "qpid/proton-j/0.29.0/apache-qpid-proton-j-0.29.0-src.tar.gz"
-],
-"qpid-dispatch-1.2.0": [
-"qpid/dispatch/1.2.0/qpid-dispatch-1.2.0.tar.gz"
-],
-"qpid-dispatch-1.3.0": [
-"qpid/dispatch/1.3.0/qpid-dispatch-1.3.0.tar.gz"
 ],
 "qpid-dispatch-1.4.0": [
 "qpid/dispatch/1.4.0/qpid-dispatch-1.4.0.tar.gz"
 ],
-"qpid-interop-test-0.1.0": [
-"qpid/interop-test/0.1.0/qpid-interop-test-0.1.0.tar.gz"
+"qpid-dispatch-1.4.1": [
+"qpid/dispatch/1.4.1/qpid-dispatch-1.4.1.tar.gz"
 ],
 "qpid-interop-test-0.2.0": [
 "qpid/interop-test/0.2.0/qpid-interop-test-0.2.0.tar.gz"
 ],
-"qpid-java-6.1.6": [
-"qpid/java/6.1.6/qpid-java-6.1.6.tar.gz"
-],
 "qpid-java-6.1.7": [
 "qpid/java/6.1.7/qpid-java-6.1.7.tar.gz"
-],
-"qpid-proton-0.25.0": [
-"qpid/proton/0.25.0/qpid-proton-0.25.0.tar.gz"
 ],
 "qpid-proton-0.26.0": [
 "qpid/proton/0.26.0/qpid-proton-0.26.0.tar.gz"
@@ -9653,10 +9624,10 @@
 "subversion/subversion-1.10.3.tar.gz",
 "subversion/subversion-1.10.3.zip"
 ],
-"subversion-1.11.0-rc2": [
-"subversion/subversion-1.11.0-rc2.tar.bz2",
-"subversion/subversion-1.11.0-rc2.tar.gz",
-"subversion/subversion-1.11.0-rc2.zip"
+"subversion-1.11.0": [
+"subversion/subversion-1.11.0.tar.bz2",
+"subversion/subversion-1.11.0.tar.gz",
+"subversion/subversion-1.11.0.zip"
 ],
 "subversion-1.9.9": [
 "subversion/subversion-1.9.9.tar.bz2",
