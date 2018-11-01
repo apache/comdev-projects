@@ -432,6 +432,9 @@
 "apache-atlas-0.8.2": [
 "atlas/0.8.2/apache-atlas-0.8.2-sources.tar.gz"
 ],
+"apache-atlas-0.8.3": [
+"atlas/0.8.3/apache-atlas-0.8.3-sources.tar.gz"
+],
 "apache-atlas-1.0.0": [
 "atlas/1.0.0/apache-atlas-1.0.0-sources.tar.gz"
 ],
@@ -1838,10 +1841,10 @@
 ]
 },
 "empire-db": {
-"apache-empire-db-2.4.6": [
-"empire-db/2.4.6/apache-empire-db-2.4.6-dist.tar.bz2",
-"empire-db/2.4.6/apache-empire-db-2.4.6-dist.tar.gz",
-"empire-db/2.4.6/apache-empire-db-2.4.6-dist.zip"
+"apache-empire-db-2.4.7": [
+"empire-db/2.4.7/apache-empire-db-2.4.7-dist.tar.bz2",
+"empire-db/2.4.7/apache-empire-db-2.4.7-dist.tar.gz",
+"empire-db/2.4.7/apache-empire-db-2.4.7-dist.zip"
 ]
 },
 "falcon": {
@@ -2610,7 +2613,7 @@
 "hbase": {
 "RELEASENOTES.md": [
 "hbase/2.0.2/RELEASENOTES.md",
-"hbase/2.1.0/RELEASENOTES.md"
+"hbase/2.1.1/RELEASENOTES.md"
 ],
 "hbase-1.2.8": [
 "hbase/hbase-1.2.8/hbase-1.2.8-src.tar.gz"
@@ -2624,8 +2627,8 @@
 "hbase-2.0.2": [
 "hbase/2.0.2/hbase-2.0.2-src.tar.gz"
 ],
-"hbase-2.1.0": [
-"hbase/2.1.0/hbase-2.1.0-src.tar.gz"
+"hbase-2.1.1": [
+"hbase/2.1.1/hbase-2.1.1-src.tar.gz"
 ],
 "hbase-thirdparty-1.0.1": [
 "hbase/hbase-thirdparty-1.0.1/hbase-thirdparty-1.0.1-src.tar.gz"
@@ -2668,11 +2671,8 @@
 "hive/hive-2.3.3/apache-hive-2.3.3-src.tar.gz",
 "hive/stable-2/apache-hive-2.3.3-src.tar.gz"
 ],
-"apache-hive-3.0.0": [
-"hive/hive-3.0.0/apache-hive-3.0.0-src.tar.gz"
-],
-"apache-hive-3.1.0": [
-"hive/hive-3.1.0/apache-hive-3.1.0-src.tar.gz"
+"apache-hive-3.1.1": [
+"hive/hive-3.1.1/apache-hive-3.1.1-src.tar.gz"
 ],
 "hive-metastore-3.0.0": [
 "hive/hive-standalone-metastore-3.0.0/hive-standalone-metastore-3.0.0-src.tar.gz"
@@ -7137,8 +7137,8 @@
 "maven/maven-3/3.5.4/source/apache-maven-3.5.4-src.zip"
 ],
 "apache-maven-3.6.0": [
-"maven/maven-3/3.6.0/sources/apache-maven-3.6.0-src.tar.gz",
-"maven/maven-3/3.6.0/sources/apache-maven-3.6.0-src.zip"
+"maven/maven-3/3.6.0/source/apache-maven-3.6.0-src.tar.gz",
+"maven/maven-3/3.6.0/source/apache-maven-3.6.0-src.zip"
 ],
 "apache-source-release-descriptor-1.0.6": [
 "maven/resources/apache-source-release-assembly-descriptor-1.0.6-source-release.zip"
@@ -7257,8 +7257,8 @@
 "maven-jar-plugin-3.1.0": [
 "maven/plugins/maven-jar-plugin-3.1.0-source-release.zip"
 ],
-"maven-jarsigner-1.4": [
-"maven/shared/maven-jarsigner-1.4-source-release.zip"
+"maven-jarsigner-3.0.0": [
+"maven/shared/maven-jarsigner-3.0.0-source-release.zip"
 ],
 "maven-jarsigner-plugin-1.4": [
 "maven/plugins/maven-jarsigner-plugin-1.4-source-release.zip"
@@ -7305,8 +7305,8 @@
 "maven-release-2.5.3": [
 "maven/release/maven-release-2.5.3-source-release.zip"
 ],
-"maven-remote-resources-plugin-1.5": [
-"maven/plugins/maven-remote-resources-plugin-1.5-source-release.zip"
+"maven-remote-resources-plugin-1.6.0": [
+"maven/plugins/maven-remote-resources-plugin-1.6.0-source-release.zip"
 ],
 "maven-reporting-api-3.0": [
 "maven/reporting/maven-reporting-api-3.0-source-release.zip"
@@ -7660,6 +7660,9 @@
 "apache-mynewt-blinky-1.4.1": [
 "mynewt/apache-mynewt-1.4.1/apache-mynewt-blinky-1.4.1.tgz"
 ],
+"apache-mynewt-blinky-1.5.0": [
+"mynewt/apache-mynewt-blinky-1.5.0.tgz"
+],
 "apache-mynewt-core-1.3.0": [
 "mynewt/apache-mynewt-1.3.0/apache-mynewt-core-1.3.0.tgz"
 ],
@@ -7668,6 +7671,9 @@
 ],
 "apache-mynewt-core-1.4.1": [
 "mynewt/apache-mynewt-1.4.1/apache-mynewt-core-1.4.1.tgz"
+],
+"apache-mynewt-core-1.5.0": [
+"mynewt/apache-mynewt-core-1.5.0.tgz"
 ],
 "apache-mynewt-newt-1.3.0": [
 "mynewt/apache-mynewt-1.3.0/apache-mynewt-newt-1.3.0.tgz"
@@ -7678,6 +7684,9 @@
 "apache-mynewt-newt-1.4.1": [
 "mynewt/apache-mynewt-1.4.1/apache-mynewt-newt-1.4.1.tgz"
 ],
+"apache-mynewt-newt-1.5.0": [
+"mynewt/apache-mynewt-newt-1.5.0.tgz"
+],
 "apache-mynewt-newtmgr-1.3.0": [
 "mynewt/apache-mynewt-1.3.0/apache-mynewt-newtmgr-1.3.0.tgz"
 ],
@@ -7686,6 +7695,9 @@
 ],
 "apache-mynewt-newtmgr-1.4.1": [
 "mynewt/apache-mynewt-1.4.1/apache-mynewt-newtmgr-1.4.1.tgz"
+],
+"apache-mynewt-newtmgr-1.5.0": [
+"mynewt/apache-mynewt-newtmgr-1.5.0.tgz"
 ],
 "apache-mynewt-nimble-1.0.0": [
 "mynewt/apache-nimble-1.0.0/apache-mynewt-nimble-1.0.0.tgz"
