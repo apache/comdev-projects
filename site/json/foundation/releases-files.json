@@ -1405,8 +1405,8 @@
 "cordova-coho-1.0.1": [
 "cordova/tools/cordova-coho-1.0.1.tgz"
 ],
-"cordova-common-2.2.5": [
-"cordova/tools/cordova-common-2.2.5.tgz"
+"cordova-common-3.0.0": [
+"cordova/tools/cordova-common-3.0.0.tgz"
 ],
 "cordova-create-1.1.2": [
 "cordova/tools/cordova-create-1.1.2.tgz"
@@ -2652,9 +2652,8 @@
 "apache-hive-1.2.2": [
 "hive/hive-1.2.2/apache-hive-1.2.2-src.tar.gz"
 ],
-"apache-hive-2.3.3": [
-"hive/hive-2.3.3/apache-hive-2.3.3-src.tar.gz",
-"hive/stable-2/apache-hive-2.3.3-src.tar.gz"
+"apache-hive-2.3.4": [
+"hive/hive-2.3.4/apache-hive-2.3.4-src.tar.gz"
 ],
 "apache-hive-3.1.1": [
 "hive/hive-3.1.1/apache-hive-3.1.1-src.tar.gz"
@@ -2670,6 +2669,9 @@
 ],
 "hive-storage-2.7.0-rc1": [
 "hive/hive-storage-2.7.0/hive-storage-2.7.0-rc1.tar.gz"
+],
+"test-results": [
+"hive/hive-2.3.4/test-results.tar.gz"
 ]
 },
 "httpcomponents": {
@@ -6254,9 +6256,9 @@
 "jackrabbit/2.10.8/jackrabbit-2.10.8-src.zip",
 "jackrabbit/2.10.8/jackrabbit-webapp-2.10.8.war"
 ],
-"jackrabbit-2.12.9": [
-"jackrabbit/2.12.9/jackrabbit-2.12.9-src.zip",
-"jackrabbit/2.12.9/jackrabbit-webapp-2.12.9.war"
+"jackrabbit-2.12.10": [
+"jackrabbit/2.12.10/jackrabbit-2.12.10-src.zip",
+"jackrabbit/2.12.10/jackrabbit-webapp-2.12.10.war"
 ],
 "jackrabbit-2.14.6": [
 "jackrabbit/2.14.6/jackrabbit-2.14.6-src.zip",
@@ -6339,8 +6341,8 @@
 "jackrabbit-jca-2.10.8": [
 "jackrabbit/2.10.8/jackrabbit-jca-2.10.8.rar"
 ],
-"jackrabbit-jca-2.12.9": [
-"jackrabbit/2.12.9/jackrabbit-jca-2.12.9.rar"
+"jackrabbit-jca-2.12.10": [
+"jackrabbit/2.12.10/jackrabbit-jca-2.12.10.rar"
 ],
 "jackrabbit-jca-2.14.6": [
 "jackrabbit/2.14.6/jackrabbit-jca-2.14.6.rar"
@@ -6696,95 +6698,10 @@
 ]
 },
 "knox": {
-"knox-0.10.0": [
-"knox/0.10.0/knox-0.10.0-src.zip",
-"knox/0.10.0/knox-0.10.0.tar.gz",
-"knox/0.10.0/knox-0.10.0.zip"
-],
-"knox-0.11.0": [
-"knox/0.11.0/knox-0.11.0-src.zip",
-"knox/0.11.0/knox-0.11.0.tar.gz",
-"knox/0.11.0/knox-0.11.0.zip"
-],
-"knox-0.12.0": [
-"knox/0.12.0/knox-0.12.0-src.zip",
-"knox/0.12.0/knox-0.12.0.tar.gz",
-"knox/0.12.0/knox-0.12.0.zip"
-],
-"knox-0.13.0": [
-"knox/0.13.0/knox-0.13.0-src.zip",
-"knox/0.13.0/knox-0.13.0.tar.gz",
-"knox/0.13.0/knox-0.13.0.zip"
-],
-"knox-0.14.0": [
-"knox/0.14.0/knox-0.14.0-src.zip",
-"knox/0.14.0/knox-0.14.0.tar.gz",
-"knox/0.14.0/knox-0.14.0.zip"
-],
-"knox-0.4.0": [
-"knox/0.4.0/knox-0.4.0-src.zip",
-"knox/0.4.0/knox-0.4.0.tar.gz",
-"knox/0.4.0/knox-0.4.0.zip"
-],
-"knox-0.5.0": [
-"knox/0.5.0/knox-0.5.0-src.zip",
-"knox/0.5.0/knox-0.5.0.tar.gz",
-"knox/0.5.0/knox-0.5.0.zip"
-],
-"knox-0.5.1": [
-"knox/0.5.1/knox-0.5.1-src.zip",
-"knox/0.5.1/knox-0.5.1.zip"
-],
-"knox-0.6.0": [
-"knox/0.6.0/knox-0.6.0-src.zip",
-"knox/0.6.0/knox-0.6.0.tar.gz",
-"knox/0.6.0/knox-0.6.0.zip"
-],
-"knox-0.7.0": [
-"knox/0.7.0/knox-0.7.0-src.zip",
-"knox/0.7.0/knox-0.7.0.tar.gz",
-"knox/0.7.0/knox-0.7.0.zip"
-],
-"knox-0.8.0": [
-"knox/0.8.0/knox-0.8.0-src.zip",
-"knox/0.8.0/knox-0.8.0.tar.gz",
-"knox/0.8.0/knox-0.8.0.zip"
-],
-"knox-0.9.0": [
-"knox/0.9.0/knox-0.9.0-src.zip",
-"knox/0.9.0/knox-0.9.0.tar.gz",
-"knox/0.9.0/knox-0.9.0.zip"
-],
-"knox-0.9.1": [
-"knox/0.9.1/knox-0.9.1-src.zip",
-"knox/0.9.1/knox-0.9.1.tar.gz",
-"knox/0.9.1/knox-0.9.1.zip"
-],
-"knox-1.0.0": [
-"knox/1.0.0/knox-1.0.0-src.zip",
-"knox/1.0.0/knox-1.0.0.tar.gz",
-"knox/1.0.0/knox-1.0.0.zip"
-],
 "knox-1.1.0": [
 "knox/1.1.0/knox-1.1.0-src.zip",
 "knox/1.1.0/knox-1.1.0.tar.gz",
 "knox/1.1.0/knox-1.1.0.zip"
-],
-"knoxshell-0.12.0": [
-"knox/0.12.0/knoxshell-0.12.0.tar.gz",
-"knox/0.12.0/knoxshell-0.12.0.zip"
-],
-"knoxshell-0.13.0": [
-"knox/0.13.0/knoxshell-0.13.0.tar.gz",
-"knox/0.13.0/knoxshell-0.13.0.zip"
-],
-"knoxshell-0.14.0": [
-"knox/0.14.0/knoxshell-0.14.0.tar.gz",
-"knox/0.14.0/knoxshell-0.14.0.zip"
-],
-"knoxshell-1.0.0": [
-"knox/1.0.0/knoxshell-1.0.0.tar.gz",
-"knox/1.0.0/knoxshell-1.0.0.zip"
 ],
 "knoxshell-1.1.0": [
 "knox/1.1.0/knoxshell-1.1.0.tar.gz",
@@ -7649,7 +7566,7 @@
 "mynewt/apache-mynewt-1.4.1/apache-mynewt-blinky-1.4.1.tgz"
 ],
 "apache-mynewt-blinky-1.5.0": [
-"mynewt/apache-mynewt-blinky-1.5.0.tgz"
+"mynewt/apache-mynewt-1.5.0/apache-mynewt-blinky-1.5.0.tgz"
 ],
 "apache-mynewt-core-1.3.0": [
 "mynewt/apache-mynewt-1.3.0/apache-mynewt-core-1.3.0.tgz"
@@ -7661,7 +7578,7 @@
 "mynewt/apache-mynewt-1.4.1/apache-mynewt-core-1.4.1.tgz"
 ],
 "apache-mynewt-core-1.5.0": [
-"mynewt/apache-mynewt-core-1.5.0.tgz"
+"mynewt/apache-mynewt-1.5.0/apache-mynewt-core-1.5.0.tgz"
 ],
 "apache-mynewt-newt-1.3.0": [
 "mynewt/apache-mynewt-1.3.0/apache-mynewt-newt-1.3.0.tgz"
@@ -7673,7 +7590,7 @@
 "mynewt/apache-mynewt-1.4.1/apache-mynewt-newt-1.4.1.tgz"
 ],
 "apache-mynewt-newt-1.5.0": [
-"mynewt/apache-mynewt-newt-1.5.0.tgz"
+"mynewt/apache-mynewt-1.5.0/apache-mynewt-newt-1.5.0.tgz"
 ],
 "apache-mynewt-newtmgr-1.3.0": [
 "mynewt/apache-mynewt-1.3.0/apache-mynewt-newtmgr-1.3.0.tgz"
@@ -7685,7 +7602,7 @@
 "mynewt/apache-mynewt-1.4.1/apache-mynewt-newtmgr-1.4.1.tgz"
 ],
 "apache-mynewt-newtmgr-1.5.0": [
-"mynewt/apache-mynewt-newtmgr-1.5.0.tgz"
+"mynewt/apache-mynewt-1.5.0/apache-mynewt-newtmgr-1.5.0.tgz"
 ],
 "apache-mynewt-nimble-1.0.0": [
 "mynewt/apache-nimble-1.0.0/apache-mynewt-nimble-1.0.0.tgz"
@@ -8642,14 +8559,8 @@
 "adapter-annotations-1.0.0": [
 "sling/adapter-annotations-1.0.0-source-release.zip"
 ],
-"htl-maven-plugin-1.1.6-1.4.0": [
-"sling/htl-maven-plugin-1.1.6-1.4.0-source-release.zip"
-],
-"htl-maven-plugin-1.1.8-1.4.0": [
-"sling/htl-maven-plugin-1.1.8-1.4.0-source-release.zip"
-],
-"htl-maven-plugin-1.2.0-1.4.0": [
-"sling/htl-maven-plugin-1.2.0-1.4.0-source-release.zip"
+"htl-maven-plugin-1.2.2-1.4.0": [
+"sling/htl-maven-plugin-1.2.2-1.4.0-source-release.zip"
 ],
 "javaversion-maven-plugin-1.0.0": [
 "sling/javaversion-maven-plugin-1.0.0-source-release.zip"
@@ -8713,6 +8624,12 @@
 ],
 "org.apache.sling.caconfig.spi-1.3.4": [
 "sling/org.apache.sling.caconfig.spi-1.3.4-source-release.zip"
+],
+"org.apache.sling.capabilities-0.1.0": [
+"sling/org.apache.sling.capabilities-0.1.0-source-release.zip"
+],
+"org.apache.sling.capabilities.jcr-0.1.0": [
+"sling/org.apache.sling.capabilities.jcr-0.1.0-source-release.zip"
 ],
 "org.apache.sling.clam-1.0.2": [
 "sling/org.apache.sling.clam-1.0.2-source-release.zip"
