@@ -2653,7 +2653,8 @@
 "hive/hive-1.2.2/apache-hive-1.2.2-src.tar.gz"
 ],
 "apache-hive-2.3.4": [
-"hive/hive-2.3.4/apache-hive-2.3.4-src.tar.gz"
+"hive/hive-2.3.4/apache-hive-2.3.4-src.tar.gz",
+"hive/stable-2/apache-hive-2.3.4-src.tar.gz"
 ],
 "apache-hive-3.1.1": [
 "hive/hive-3.1.1/apache-hive-3.1.1-src.tar.gz"
@@ -2669,9 +2670,6 @@
 ],
 "hive-storage-2.7.0-rc1": [
 "hive/hive-storage-2.7.0/hive-storage-2.7.0-rc1.tar.gz"
-],
-"test-results": [
-"hive/hive-2.3.4/test-results.tar.gz"
 ]
 },
 "httpcomponents": {
@@ -6377,8 +6375,8 @@
 "jackrabbit-oak-1.8.8": [
 "jackrabbit/oak/1.8.8/jackrabbit-oak-1.8.8-src.zip"
 ],
-"jackrabbit-oak-1.9.9": [
-"jackrabbit/oak/1.9.9/jackrabbit-oak-1.9.9-src.zip"
+"jackrabbit-oak-1.9.10": [
+"jackrabbit/oak/1.9.10/jackrabbit-oak-1.9.10-src.zip"
 ],
 "jackrabbit-ocm-2.0.0": [
 "jackrabbit/ocm/2.0.0/jackrabbit-ocm-2.0.0-source-release.zip"
@@ -6404,6 +6402,18 @@
 "apache-jspf-sources-1.0.1": [
 "james/jspf/1.0.1/apache-jspf-sources-1.0.1.zip"
 ],
+"apache-mailet-api-3.2.0": [
+"james/mailets/3.2.0/apache-mailet-api-3.2.0-sources.zip"
+],
+"apache-mailet-base-3.2.0": [
+"james/mailets/3.2.0/apache-mailet-base-3.2.0-sources.zip"
+],
+"apache-mailet-crypto-3.2.0": [
+"james/mailets/3.2.0/apache-mailet-crypto-3.2.0-sources.zip"
+],
+"apache-mailet-standard-3.2.0": [
+"james/mailets/3.2.0/apache-mailet-standard-3.2.0-sources.zip"
+],
 "james-2.3.2.1": [
 "james/server/james-2.3.2.1-src.tar.gz",
 "james/server/james-2.3.2.1-src.zip"
@@ -6411,14 +6421,26 @@
 "james-cassandra-guice-3.1.0": [
 "james/server/james-cassandra-guice-3.1.0.zip"
 ],
+"james-cassandra-guice-3.2.0": [
+"james/server/3.2.0/james-cassandra-guice-3.2.0.zip"
+],
 "james-cassandra-ldap-guice-3.1.0": [
 "james/server/james-cassandra-ldap-guice-3.1.0.zip"
+],
+"james-cassandra-ldap-guice-3.2.0": [
+"james/server/3.2.0/james-cassandra-ldap-guice-3.2.0.zip"
 ],
 "james-jpa-guice-3.1.0": [
 "james/server/james-jpa-guice-3.1.0.zip"
 ],
+"james-jpa-guice-3.2.0": [
+"james/server/3.2.0/james-jpa-guice-3.2.0.zip"
+],
 "james-jpa-smtp-guice-3.1.0": [
 "james/server/james-jpa-smtp-guice-3.1.0.zip"
+],
+"james-jpa-smtp-guice-3.2.0": [
+"james/server/3.2.0/james-jpa-smtp-guice-3.2.0.zip"
 ],
 "james-mime4j-sources-0.8.2": [
 "james/mime4j/0.8.2/james-mime4j-sources-0.8.2.zip"
@@ -6426,8 +6448,14 @@
 "james-server-app-3.1.0": [
 "james/server/james-server-app-3.1.0-app.zip"
 ],
+"james-server-app-3.2.0": [
+"james/server/3.2.0/james-server-app-3.2.0-app.zip"
+],
 "james-server-sources-3.1.0": [
 "james/server/james-server-sources-3.1.0.zip"
+],
+"james-server-sources-3.2.0": [
+"james/server/3.2.0/james-server-sources-3.2.0.zip"
 ]
 },
 "jclouds": {
@@ -6729,14 +6757,14 @@
 ]
 },
 "kylin": {
-"apache-kylin-2.3.2": [
-"kylin/apache-kylin-2.3.2/apache-kylin-2.3.2-source-release.zip"
-],
 "apache-kylin-2.4.1": [
 "kylin/apache-kylin-2.4.1/apache-kylin-2.4.1-source-release.zip"
 ],
 "apache-kylin-2.5.0": [
 "kylin/apache-kylin-2.5.0/apache-kylin-2.5.0-source-release.zip"
+],
+"apache-kylin-2.5.1": [
+"kylin/apache-kylin-2.5.1/apache-kylin-2.5.1-source-release.zip"
 ]
 },
 "lens": {
@@ -7162,8 +7190,8 @@
 "maven-jarsigner-3.0.0": [
 "maven/shared/maven-jarsigner-3.0.0-source-release.zip"
 ],
-"maven-jarsigner-plugin-1.4": [
-"maven/plugins/maven-jarsigner-plugin-1.4-source-release.zip"
+"maven-jarsigner-plugin-3.0.0": [
+"maven/plugins/maven-jarsigner-plugin-3.0.0-source-release.zip"
 ],
 "maven-jdeprscan-plugin-3.0.0-alpha-1": [
 "maven/plugins/maven-jdeprscan-plugin-3.0.0-alpha-1-source-release.zip"
@@ -7514,6 +7542,9 @@
 ],
 "myfaces-tobago-4.3.0": [
 "myfaces/source/myfaces-tobago-4.3.0-source-release.zip"
+],
+"myfaces-tobago-4.3.1": [
+"myfaces/source/myfaces-tobago-4.3.1-source-release.zip"
 ],
 "portlet-bridge-1.0.0": [
 "myfaces/source/portlet-bridge-1.0.0-src-all.tar.gz",
@@ -9596,52 +9627,52 @@
 ]
 },
 "syncope": {
-"apache-syncope-2.0.10": [
-"syncope/2.0.10/apache-syncope-2.0.10.deb"
+"apache-syncope-2.0.11": [
+"syncope/2.0.11/apache-syncope-2.0.11.deb"
 ],
-"apache-syncope-2.1.1": [
-"syncope/2.1.1/apache-syncope-2.1.1.deb"
+"apache-syncope-2.1.2": [
+"syncope/2.1.2/apache-syncope-2.1.2.deb"
 ],
-"apache-syncope-console-2.0.10": [
-"syncope/2.0.10/apache-syncope-console-2.0.10.deb"
+"apache-syncope-console-2.0.11": [
+"syncope/2.0.11/apache-syncope-console-2.0.11.deb"
 ],
-"apache-syncope-console-2.1.1": [
-"syncope/2.1.1/apache-syncope-console-2.1.1.deb"
+"apache-syncope-console-2.1.2": [
+"syncope/2.1.2/apache-syncope-console-2.1.2.deb"
 ],
-"apache-syncope-enduser-2.0.10": [
-"syncope/2.0.10/apache-syncope-enduser-2.0.10.deb"
+"apache-syncope-enduser-2.0.11": [
+"syncope/2.0.11/apache-syncope-enduser-2.0.11.deb"
 ],
-"apache-syncope-enduser-2.1.1": [
-"syncope/2.1.1/apache-syncope-enduser-2.1.1.deb"
+"apache-syncope-enduser-2.1.2": [
+"syncope/2.1.2/apache-syncope-enduser-2.1.2.deb"
 ],
-"org.apache.syncope.ide.eclipse.site-2.0.10": [
-"syncope/2.0.10/org.apache.syncope.ide.eclipse.site-2.0.10.zip"
+"org.apache.syncope.ide.eclipse.site-2.0.11": [
+"syncope/2.0.11/org.apache.syncope.ide.eclipse.site-2.0.11.zip"
 ],
-"org.apache.syncope.ide.eclipse.site-2.1.1": [
-"syncope/2.1.1/org.apache.syncope.ide.eclipse.site-2.1.1.zip"
+"org.apache.syncope.ide.eclipse.site-2.1.2": [
+"syncope/2.1.2/org.apache.syncope.ide.eclipse.site-2.1.2.zip"
 ],
-"syncope-2.0.10": [
-"syncope/2.0.10/syncope-2.0.10-source-release.zip",
-"syncope/2.0.10/syncope-standalone-2.0.10-distribution.zip"
+"syncope-2.0.11": [
+"syncope/2.0.11/syncope-2.0.11-source-release.zip",
+"syncope/2.0.11/syncope-standalone-2.0.11-distribution.zip"
 ],
-"syncope-2.1.1": [
-"syncope/2.1.1/syncope-2.1.1-source-release.zip",
-"syncope/2.1.1/syncope-standalone-2.1.1-distribution.zip"
+"syncope-2.1.2": [
+"syncope/2.1.2/syncope-2.1.2-source-release.zip",
+"syncope/2.1.2/syncope-standalone-2.1.2-distribution.zip"
 ],
-"syncope-client-cli-2.0.10": [
-"syncope/2.0.10/syncope-client-cli-2.0.10.zip"
+"syncope-client-cli-2.0.11": [
+"syncope/2.0.11/syncope-client-cli-2.0.11.zip"
 ],
-"syncope-client-cli-2.1.1": [
-"syncope/2.1.1/syncope-client-cli-2.1.1.zip"
+"syncope-client-cli-2.1.2": [
+"syncope/2.1.2/syncope-client-cli-2.1.2.zip"
 ],
-"syncope-core-upgrade-2.1.1": [
-"syncope/2.1.1/syncope-core-upgrade-2.1.1.zip"
+"syncope-core-upgrade-2.1.2": [
+"syncope/2.1.2/syncope-core-upgrade-2.1.2.zip"
 ],
-"syncope-ide-netbeans-2.0.10.nbm": [
-"syncope/2.0.10/syncope-ide-netbeans-2.0.10.nbm"
+"syncope-ide-netbeans-2.0.11.nbm": [
+"syncope/2.0.11/syncope-ide-netbeans-2.0.11.nbm"
 ],
-"syncope-ide-netbeans-2.1.1.nbm": [
-"syncope/2.1.1/syncope-ide-netbeans-2.1.1.nbm"
+"syncope-ide-netbeans-2.1.2.nbm": [
+"syncope/2.1.2/syncope-ide-netbeans-2.1.2.nbm"
 ]
 },
 "systemml": {
