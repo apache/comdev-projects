@@ -598,31 +598,6 @@
 ]
 },
 "brooklyn": {
-"apache-brooklyn-0.11.0": [
-"brooklyn/apache-brooklyn-0.11.0/apache-brooklyn-0.11.0-src.tar.gz",
-"brooklyn/apache-brooklyn-0.11.0/apache-brooklyn-0.11.0-src.zip"
-],
-"apache-brooklyn-0.11.0-1.noarch": [
-"brooklyn/apache-brooklyn-0.11.0/apache-brooklyn-0.11.0-1.noarch.rpm"
-],
-"apache-brooklyn-0.11.0-client-cli": [
-"brooklyn/apache-brooklyn-0.11.0/apache-brooklyn-0.11.0-client-cli-linux.tar.gz",
-"brooklyn/apache-brooklyn-0.11.0/apache-brooklyn-0.11.0-client-cli-linux.zip",
-"brooklyn/apache-brooklyn-0.11.0/apache-brooklyn-0.11.0-client-cli-macosx.tar.gz",
-"brooklyn/apache-brooklyn-0.11.0/apache-brooklyn-0.11.0-client-cli-macosx.zip"
-],
-"apache-brooklyn-0.11.0-client-cli-windows": [
-"brooklyn/apache-brooklyn-0.11.0/apache-brooklyn-0.11.0-client-cli-windows.tar.gz",
-"brooklyn/apache-brooklyn-0.11.0/apache-brooklyn-0.11.0-client-cli-windows.zip"
-],
-"apache-brooklyn-0.11.0-karaf": [
-"brooklyn/apache-brooklyn-0.11.0/apache-brooklyn-0.11.0-karaf.tar.gz",
-"brooklyn/apache-brooklyn-0.11.0/apache-brooklyn-0.11.0-karaf.zip"
-],
-"apache-brooklyn-0.11.0-vagrant": [
-"brooklyn/apache-brooklyn-0.11.0/apache-brooklyn-0.11.0-vagrant.tar.gz",
-"brooklyn/apache-brooklyn-0.11.0/apache-brooklyn-0.11.0-vagrant.zip"
-],
 "apache-brooklyn-0.12.0": [
 "brooklyn/apache-brooklyn-0.12.0/apache-brooklyn-0.12.0-src.tar.gz",
 "brooklyn/apache-brooklyn-0.12.0/apache-brooklyn-0.12.0-src.zip",
@@ -1733,6 +1708,9 @@
 "fortress-core-2.0.2": [
 "directory/fortress/dist/2.0.2/fortress-core-2.0.2-source-release.zip"
 ],
+"fortress-core-2.0.3": [
+"directory/fortress/dist/2.0.3/fortress-core-2.0.3-source-release.zip"
+],
 "fortress-realm-2.0.0": [
 "directory/fortress/dist/2.0.0/fortress-realm-2.0.0-source-release.zip"
 ],
@@ -1747,6 +1725,9 @@
 ],
 "fortress-realm-2.0.2": [
 "directory/fortress/dist/2.0.2/fortress-realm-2.0.2-source-release.zip"
+],
+"fortress-realm-2.0.3": [
+"directory/fortress/dist/2.0.3/fortress-realm-2.0.3-source-release.zip"
 ],
 "fortress-rest": [
 "directory/fortress/dist/2.0.0-RC1/fortress-rest.war",
@@ -1770,6 +1751,10 @@
 "fortress-rest-2.0.2": [
 "directory/fortress/dist/2.0.2/fortress-rest-2.0.2-source-release.zip"
 ],
+"fortress-rest-2.0.3": [
+"directory/fortress/dist/2.0.3/fortress-rest-2.0.3-source-release.zip",
+"directory/fortress/dist/2.0.3/fortress-rest-2.0.3.war"
+],
 "fortress-web": [
 "directory/fortress/dist/2.0.0-RC1/fortress-web.war",
 "directory/fortress/dist/2.0.0-RC2/fortress-web.war",
@@ -1791,6 +1776,10 @@
 ],
 "fortress-web-2.0.2": [
 "directory/fortress/dist/2.0.2/fortress-web-2.0.2-source-release.zip"
+],
+"fortress-web-2.0.3": [
+"directory/fortress/dist/2.0.3/fortress-web-2.0.3-source-release.zip",
+"directory/fortress/dist/2.0.3/fortress-web-2.0.3.war"
 ],
 "kerby-all-1.0.1": [
 "directory/kerby/dist/1.0.1/kerby-all-1.0.1-source-release.zip"
@@ -6160,7 +6149,8 @@
 "incubator-toree": {
 "PKG-INFO": [
 "incubator/toree/0.1.0-incubating/toree-pip/apache_toree.egg-info/PKG-INFO",
-"incubator/toree/0.2.0-incubating/toree-pip/toree.egg-info/PKG-INFO"
+"incubator/toree/0.2.0-incubating/toree-pip/toree.egg-info/PKG-INFO",
+"incubator/toree/0.3.0-incubating/toree-pip/toree.egg-info/PKG-INFO"
 ],
 "apache-toree-0.1.0": [
 "incubator/toree/0.1.0-incubating/toree-pip/apache-toree-0.1.0.tar.gz"
@@ -6170,6 +6160,9 @@
 ],
 "toree-0.2.0": [
 "incubator/toree/0.2.0-incubating/toree-pip/toree-0.2.0.tar.gz"
+],
+"toree-0.3.0": [
+"incubator/toree/0.3.0-incubating/toree-pip/toree-0.3.0.tar.gz"
 ]
 },
 "incubator-trafficcontrol": {
@@ -6562,6 +6555,9 @@
 ],
 "apache-juneau-7.2.1": [
 "juneau/source/juneau-7.2.1/apache-juneau-7.2.1-src.zip"
+],
+"apache-juneau-7.2.2": [
+"juneau/source/juneau-7.2.2/apache-juneau-7.2.2-src.zip"
 ]
 },
 "kafka": {
@@ -7274,8 +7270,8 @@
 "maven-script-interpreter-1.2": [
 "maven/shared/maven-script-interpreter-1.2-source-release.zip"
 ],
-"maven-shade-plugin-3.2.0": [
-"maven/plugins/maven-shade-plugin-3.2.0-source-release.zip"
+"maven-shade-plugin-3.2.1": [
+"maven/plugins/maven-shade-plugin-3.2.1-source-release.zip"
 ],
 "maven-shared-incremental-1.1": [
 "maven/shared/maven-shared-incremental-1.1-source-release.zip"
@@ -7825,8 +7821,8 @@
 "openwebbeans-1.7.5": [
 "openwebbeans/1.7.5/openwebbeans-1.7.5-source-release.zip"
 ],
-"openwebbeans-2.0.7": [
-"openwebbeans/2.0.7/openwebbeans-2.0.7-source-release.zip"
+"openwebbeans-2.0.8": [
+"openwebbeans/2.0.8/openwebbeans-2.0.8-source-release.zip"
 ]
 },
 "orc": {
@@ -8313,9 +8309,6 @@
 ],
 "apache-qpid-jms-amqp-0-x-6.3.3": [
 "qpid/jms-amqp-0-x/6.3.3/apache-qpid-jms-amqp-0-x-6.3.3-src.tar.gz"
-],
-"apache-qpid-proton-j-0.29.0": [
-"qpid/proton-j/0.29.0/apache-qpid-proton-j-0.29.0-src.tar.gz"
 ],
 "apache-qpid-proton-j-0.30.0": [
 "qpid/proton-j/0.30.0/apache-qpid-proton-j-0.30.0-src.tar.gz"
@@ -8896,8 +8889,8 @@
 "org.apache.sling.installer.provider.file-1.1.0": [
 "sling/org.apache.sling.installer.provider.file-1.1.0-source-release.zip"
 ],
-"org.apache.sling.installer.provider.installhook-1.0.2": [
-"sling/org.apache.sling.installer.provider.installhook-1.0.2-source-release.zip"
+"org.apache.sling.installer.provider.installhook-1.0.4": [
+"sling/org.apache.sling.installer.provider.installhook-1.0.4-source-release.zip"
 ],
 "org.apache.sling.installer.provider.jcr-3.1.26": [
 "sling/org.apache.sling.installer.provider.jcr-3.1.26-source-release.zip"
