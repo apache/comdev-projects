@@ -5627,6 +5627,7 @@
 "groups": [
 "avro",
 "avro-pmc",
+"iceberg",
 "incubator",
 "incubator-pmc",
 "member",
@@ -12995,6 +12996,7 @@
 },
 "dweeks": {
 "groups": [
+"iceberg",
 "incubator",
 "parquet",
 "parquet-pmc"
@@ -20263,6 +20265,7 @@
 "arrow-pmc",
 "calcite",
 "calcite-pmc",
+"iceberg",
 "incubator",
 "incubator-pmc",
 "member",
@@ -24697,6 +24700,7 @@
 "arrow",
 "arrow-pmc",
 "heron",
+"iceberg",
 "incubator",
 "incubator-pmc",
 "kudu",
@@ -35126,6 +35130,7 @@
 "helix-pmc",
 "hive",
 "hive-pmc",
+"iceberg",
 "incubator",
 "incubator-pmc",
 "kafka",
@@ -35601,6 +35606,8 @@
 },
 "parth": {
 "groups": [
+"iceberg",
+"incubator",
 "storm",
 "storm-pmc"
 ],
@@ -45179,6 +45186,7 @@
 "groups": [
 "atlas",
 "atlas-pmc",
+"hadoop",
 "incubator",
 "lens",
 "lens-pmc"
@@ -51291,7 +51299,8 @@
 },
 "yqlin": {
 "groups": [
-"hadoop"
+"hadoop",
+"hadoop-pmc"
 ],
 "member": false,
 "name": "Yiqun Lin"
