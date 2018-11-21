@@ -509,14 +509,27 @@
 "axis/axis2/java/core/1.7.8/axis2-1.7.8-src.zip",
 "axis/axis2/java/core/1.7.8/axis2-1.7.8-war.zip"
 ],
+"axis2-1.7.9": [
+"axis/axis2/java/core/1.7.9/axis2-1.7.9-src.zip",
+"axis/axis2/java/core/1.7.9/axis2-1.7.9-war.zip"
+],
 "axis2-eclipse-codegen-plugin-1.7.8": [
 "axis/axis2/java/core/1.7.8/axis2-eclipse-codegen-plugin-1.7.8.zip"
+],
+"axis2-eclipse-codegen-plugin-1.7.9": [
+"axis/axis2/java/core/1.7.9/axis2-eclipse-codegen-plugin-1.7.9.zip"
 ],
 "axis2-eclipse-service-plugin-1.7.8": [
 "axis/axis2/java/core/1.7.8/axis2-eclipse-service-plugin-1.7.8.zip"
 ],
+"axis2-eclipse-service-plugin-1.7.9": [
+"axis/axis2/java/core/1.7.9/axis2-eclipse-service-plugin-1.7.9.zip"
+],
 "axis2-idea-plugin-1.7.8": [
 "axis/axis2/java/core/1.7.8/axis2-idea-plugin-1.7.8.zip"
+],
+"axis2-idea-plugin-1.7.9": [
+"axis/axis2/java/core/1.7.9/axis2-idea-plugin-1.7.9.zip"
 ],
 "rampart-dist-1.7.0": [
 "axis/axis2/java/rampart/1.7.0/rampart-dist-1.7.0-src.zip"
@@ -967,6 +980,9 @@
 ],
 "apache-cloudstack-4.11.1.0": [
 "cloudstack/releases/4.11.1.0/apache-cloudstack-4.11.1.0-src.tar.bz2"
+],
+"apache-cloudstack-4.11.2.0": [
+"cloudstack/releases/4.11.2.0/apache-cloudstack-4.11.2.0-src.tar.bz2"
 ],
 "apache-cloudstack-4.5.2": [
 "cloudstack/releases/4.5.2/apache-cloudstack-4.5.2-src.tar.bz2"
@@ -2549,14 +2565,20 @@
 "hadoop/core/hadoop-2.9.0/hadoop-2.9.0.tar.gz"
 ],
 "hadoop-2.9.1": [
-"hadoop/common/current2/hadoop-2.9.1-src.tar.gz",
-"hadoop/common/current2/hadoop-2.9.1.tar.gz",
 "hadoop/common/hadoop-2.9.1/hadoop-2.9.1-src.tar.gz",
 "hadoop/common/hadoop-2.9.1/hadoop-2.9.1.tar.gz",
-"hadoop/core/current2/hadoop-2.9.1-src.tar.gz",
-"hadoop/core/current2/hadoop-2.9.1.tar.gz",
 "hadoop/core/hadoop-2.9.1/hadoop-2.9.1-src.tar.gz",
 "hadoop/core/hadoop-2.9.1/hadoop-2.9.1.tar.gz"
+],
+"hadoop-2.9.2": [
+"hadoop/common/current2/hadoop-2.9.2-src.tar.gz",
+"hadoop/common/current2/hadoop-2.9.2.tar.gz",
+"hadoop/common/hadoop-2.9.2/hadoop-2.9.2-src.tar.gz",
+"hadoop/common/hadoop-2.9.2/hadoop-2.9.2.tar.gz",
+"hadoop/core/current2/hadoop-2.9.2-src.tar.gz",
+"hadoop/core/current2/hadoop-2.9.2.tar.gz",
+"hadoop/core/hadoop-2.9.2/hadoop-2.9.2-src.tar.gz",
+"hadoop/core/hadoop-2.9.2/hadoop-2.9.2.tar.gz"
 ],
 "hadoop-3.0.2": [
 "hadoop/common/hadoop-3.0.2/hadoop-3.0.2-src.tar.gz",
@@ -6568,29 +6590,14 @@
 ]
 },
 "kafka": {
-"kafka-0.10.2.1": [
-"kafka/0.10.2.1/kafka-0.10.2.1-src.tgz"
-],
 "kafka-0.10.2.2": [
 "kafka/0.10.2.2/kafka-0.10.2.2-src.tgz"
-],
-"kafka-0.11.0.2": [
-"kafka/0.11.0.2/kafka-0.11.0.2-src.tgz"
 ],
 "kafka-0.11.0.3": [
 "kafka/0.11.0.3/kafka-0.11.0.3-src.tgz"
 ],
-"kafka-1.0.0": [
-"kafka/1.0.0/kafka-1.0.0-src.tgz"
-],
-"kafka-1.0.1": [
-"kafka/1.0.1/kafka-1.0.1-src.tgz"
-],
 "kafka-1.0.2": [
 "kafka/1.0.2/kafka-1.0.2-src.tgz"
-],
-"kafka-1.1.0": [
-"kafka/1.1.0/kafka-1.1.0-src.tgz"
 ],
 "kafka-1.1.1": [
 "kafka/1.1.1/kafka-1.1.1-src.tgz"
@@ -6601,35 +6608,20 @@
 "kafka-2.0.1": [
 "kafka/2.0.1/kafka-2.0.1-src.tgz"
 ],
-"kafka_2.10-0.10.2.1": [
-"kafka/0.10.2.1/kafka_2.10-0.10.2.1.tgz"
+"kafka-2.1.0": [
+"kafka/2.1.0/kafka-2.1.0-src.tgz"
 ],
 "kafka_2.10-0.10.2.2": [
 "kafka/0.10.2.2/kafka_2.10-0.10.2.2.tgz"
 ],
-"kafka_2.11-0.10.2.1": [
-"kafka/0.10.2.1/kafka_2.11-0.10.2.1.tgz"
-],
 "kafka_2.11-0.10.2.2": [
 "kafka/0.10.2.2/kafka_2.11-0.10.2.2.tgz"
-],
-"kafka_2.11-0.11.0.2": [
-"kafka/0.11.0.2/kafka_2.11-0.11.0.2.tgz"
 ],
 "kafka_2.11-0.11.0.3": [
 "kafka/0.11.0.3/kafka_2.11-0.11.0.3.tgz"
 ],
-"kafka_2.11-1.0.0": [
-"kafka/1.0.0/kafka_2.11-1.0.0.tgz"
-],
-"kafka_2.11-1.0.1": [
-"kafka/1.0.1/kafka_2.11-1.0.1.tgz"
-],
 "kafka_2.11-1.0.2": [
 "kafka/1.0.2/kafka_2.11-1.0.2.tgz"
-],
-"kafka_2.11-1.1.0": [
-"kafka/1.1.0/kafka_2.11-1.1.0.tgz"
 ],
 "kafka_2.11-1.1.1": [
 "kafka/1.1.1/kafka_2.11-1.1.1.tgz"
@@ -6640,29 +6632,17 @@
 "kafka_2.11-2.0.1": [
 "kafka/2.0.1/kafka_2.11-2.0.1.tgz"
 ],
-"kafka_2.12-0.10.2.1": [
-"kafka/0.10.2.1/kafka_2.12-0.10.2.1.tgz"
+"kafka_2.11-2.1.0": [
+"kafka/2.1.0/kafka_2.11-2.1.0.tgz"
 ],
 "kafka_2.12-0.10.2.2": [
 "kafka/0.10.2.2/kafka_2.12-0.10.2.2.tgz"
 ],
-"kafka_2.12-0.11.0.2": [
-"kafka/0.11.0.2/kafka_2.12-0.11.0.2.tgz"
-],
 "kafka_2.12-0.11.0.3": [
 "kafka/0.11.0.3/kafka_2.12-0.11.0.3.tgz"
 ],
-"kafka_2.12-1.0.0": [
-"kafka/1.0.0/kafka_2.12-1.0.0.tgz"
-],
-"kafka_2.12-1.0.1": [
-"kafka/1.0.1/kafka_2.12-1.0.1.tgz"
-],
 "kafka_2.12-1.0.2": [
 "kafka/1.0.2/kafka_2.12-1.0.2.tgz"
-],
-"kafka_2.12-1.1.0": [
-"kafka/1.1.0/kafka_2.12-1.1.0.tgz"
 ],
 "kafka_2.12-1.1.1": [
 "kafka/1.1.1/kafka_2.12-1.1.1.tgz"
@@ -6672,6 +6652,9 @@
 ],
 "kafka_2.12-2.0.1": [
 "kafka/2.0.1/kafka_2.12-2.0.1.tgz"
+],
+"kafka_2.12-2.1.0": [
+"kafka/2.1.0/kafka_2.12-2.1.0.tgz"
 ]
 },
 "karaf": {
