@@ -570,6 +570,18 @@
 "bahir/bahir-spark/2.2.2/apache-bahir-2.2.2-src.tar.gz",
 "bahir/bahir-spark/2.2.2/apache-bahir-2.2.2-src.zip"
 ],
+"apache-bahir-2.3.0": [
+"bahir/bahir-spark/2.3.0/apache-bahir-2.3.0-src.tar.gz",
+"bahir/bahir-spark/2.3.0/apache-bahir-2.3.0-src.zip"
+],
+"apache-bahir-2.3.1": [
+"bahir/bahir-spark/2.3.1/apache-bahir-2.3.1-src.tar.gz",
+"bahir/bahir-spark/2.3.1/apache-bahir-2.3.1-src.zip"
+],
+"apache-bahir-2.3.2": [
+"bahir/bahir-spark/2.3.2/apache-bahir-2.3.2-src.tar.gz",
+"bahir/bahir-spark/2.3.2/apache-bahir-2.3.2-src.zip"
+],
 "apache-bahir-flink-1.0": [
 "bahir/bahir-flink/1.0/apache-bahir-flink-1.0-src.tgz",
 "bahir/bahir-flink/1.0/apache-bahir-flink-1.0-src.zip"
@@ -617,6 +629,9 @@
 ]
 },
 "bookkeeper": {
+"bookkeeper-4.7.3": [
+"bookkeeper/bookkeeper-4.7.3/bookkeeper-4.7.3-src.tar.gz"
+],
 "bookkeeper-4.8.0": [
 "bookkeeper/bookkeeper-4.8.0/bookkeeper-4.8.0-src.tar.gz"
 ],
@@ -707,10 +722,6 @@
 ],
 "apache-calcite-1.17.0": [
 "calcite/apache-calcite-1.17.0/apache-calcite-1.17.0-src.tar.gz"
-],
-"apache-calcite-avatica-1.11.0": [
-"calcite/apache-calcite-avatica-1.11.0/apache-calcite-avatica-1.11.0-src.tar.gz",
-"calcite/apache-calcite-avatica-1.11.0/apache-calcite-avatica-1.11.0-src.zip"
 ],
 "apache-calcite-avatica-1.12.0": [
 "calcite/apache-calcite-avatica-1.12.0/apache-calcite-avatica-1.12.0-src.tar.gz"
@@ -1571,6 +1582,11 @@
 "creadur/apache-rat-0.12/apache-rat-0.12-src.tar.bz2",
 "creadur/apache-rat-0.12/apache-rat-0.12-src.tar.gz",
 "creadur/apache-rat-0.12/apache-rat-0.12-src.zip"
+],
+"apache-rat-0.13": [
+"creadur/apache-rat-0.13/apache-rat-0.13-src.tar.bz2",
+"creadur/apache-rat-0.13/apache-rat-0.13-src.tar.gz",
+"creadur/apache-rat-0.13/apache-rat-0.13-src.zip"
 ]
 },
 "crunch": {
@@ -2801,6 +2817,10 @@
 "httpcomponents-core-5.0-beta5": [
 "httpcomponents/httpcore/source/httpcomponents-core-5.0-beta5-src.tar.gz",
 "httpcomponents/httpcore/source/httpcomponents-core-5.0-beta5-src.zip"
+],
+"httpcomponents-core-5.0-beta6": [
+"httpcomponents/httpcore/source/httpcomponents-core-5.0-beta6-src.tar.gz",
+"httpcomponents/httpcore/source/httpcomponents-core-5.0-beta6-src.zip"
 ]
 },
 "httpd": {
@@ -2846,6 +2866,9 @@
 "impala": {
 "apache-impala-3.0.1": [
 "impala/3.0.1/apache-impala-3.0.1.tar.gz"
+],
+"apache-impala-3.1.0": [
+"impala/3.1.0/apache-impala-3.1.0.tar.gz"
 ]
 },
 "incubator-airflow": {
@@ -2880,6 +2903,9 @@
 "apache-crail-1.0-incubating": [
 "incubator/crail/1.0-incubating/apache-crail-1.0-incubating-src.tar.gz",
 "incubator/crail/1.0-incubating/apache-crail-1.0-incubating-src.zip"
+],
+"apache-crail-1.1-incubating": [
+"incubator/crail/1.1-incubating/apache-crail-1.1-incubating-src.tar.gz"
 ]
 },
 "incubator-daffodil": {
@@ -6013,6 +6039,9 @@
 "openwhisk-client-go-0.9.0-incubating": [
 "incubator/openwhisk/apache-openwhisk-0.9.0-incubating/openwhisk-client-go-0.9.0-incubating-sources.tar.gz"
 ],
+"openwhisk-composer-0.9.0-incubating": [
+"incubator/openwhisk/apache-openwhisk-0.9.0-incubating/openwhisk-composer-0.9.0-incubating-sources.tar.gz"
+],
 "openwhisk-runtime-docker-1.12.0-incubating": [
 "incubator/openwhisk/apache-openwhisk-1.12.0-incubating/openwhisk-runtime-docker-1.12.0-incubating-sources.tar.gz"
 ],
@@ -6780,6 +6809,9 @@
 ],
 "apache-kylin-2.5.1": [
 "kylin/apache-kylin-2.5.1/apache-kylin-2.5.1-source-release.zip"
+],
+"apache-kylin-2.5.2": [
+"kylin/apache-kylin-2.5.2/apache-kylin-2.5.2-source-release.zip"
 ]
 },
 "lens": {
@@ -7867,9 +7899,6 @@
 ],
 "pdfbox-1.8.16": [
 "pdfbox/1.8.16/pdfbox-1.8.16-src.zip"
-],
-"pdfbox-2.0.12": [
-"pdfbox/2.0.12/pdfbox-2.0.12-src.zip"
 ],
 "pdfbox-2.0.13": [
 "pdfbox/2.0.13/pdfbox-2.0.13-src.zip"
@@ -9131,8 +9160,8 @@
 "org.apache.sling.scripting.console-1.0.0": [
 "sling/org.apache.sling.scripting.console-1.0.0-source-release.zip"
 ],
-"org.apache.sling.scripting.core-2.0.54": [
-"sling/org.apache.sling.scripting.core-2.0.54-source-release.zip"
+"org.apache.sling.scripting.core-2.0.56": [
+"sling/org.apache.sling.scripting.core-2.0.56-source-release.zip"
 ],
 "org.apache.sling.scripting.el-api-1.0.0": [
 "sling/org.apache.sling.scripting.el-api-1.0.0-source-release.zip"
@@ -10023,6 +10052,10 @@
 "tomcat-native-1.2.18": [
 "tomcat/tomcat-connectors/native/1.2.18/source/tomcat-native-1.2.18-src.tar.gz",
 "tomcat/tomcat-connectors/native/1.2.18/source/tomcat-native-1.2.18-win32-src.zip"
+],
+"tomcat-native-1.2.19": [
+"tomcat/tomcat-connectors/native/1.2.19/source/tomcat-native-1.2.19-src.tar.gz",
+"tomcat/tomcat-connectors/native/1.2.19/source/tomcat-native-1.2.19-win32-src.zip"
 ]
 },
 "tomee": {
