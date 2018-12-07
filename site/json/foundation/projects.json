@@ -12175,8 +12175,8 @@
 }
 ],
 "repository": [
-"https://github.com/apache/opennlp.git",
-"http://svn.apache.org/repos/asf/opennlp"
+"http://svn.apache.org/repos/asf/opennlp",
+"https://github.com/apache/opennlp.git"
 ],
 "shortdesc": "Apache OpenNLP library software is a machine learning based toolkit for the processing of natural language text.."
 },
@@ -14670,14 +14670,14 @@
 "category": "cloud",
 "created": "2012-10-01",
 "description": "VCL is a modular cloud computing platform which dynamically provisions and brokers remote access to compute resources including virtual machines, bare-metal computers, and resources in other cloud platforms. A self-service web portal is used to request resources and for administration.",
-"doap": "http://svn.apache.org/repos/asf/vcl/trunk/doap_vcl.rdf",
+"doap": "https://raw.githubusercontent.com/apache/vcl/master/doap_vcl.rdf",
 "download-page": "http://vcl.apache.org/downloads/download.cgi",
 "homepage": "http://vcl.apache.org",
 "license": "http://usefulinc.com/doap/licenses/asl20",
 "mailing-list": "http://vcl.apache.org/comm/index.html#mail-list",
 "name": "Apache VCL",
 "pmc": "vcl",
-"programming-language": "BASH, Javascript, Perl, PHP, SQL",
+"programming-language": "BASH, JavaScript, Perl, PHP, SQL",
 "release": [
 {
 "created": "2017-07-27",
@@ -14721,7 +14721,7 @@
 }
 ],
 "repository": [
-"https://svn.apache.org/repos/asf/vcl"
+"https://git-wip-us.apache.org/repos/asf/vcl"
 ],
 "shortdesc": "A cloud computing platform for provisioning and brokering access to dedicated remote compute resources."
 },
