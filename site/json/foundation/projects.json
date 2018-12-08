@@ -12175,8 +12175,8 @@
 }
 ],
 "repository": [
-"http://svn.apache.org/repos/asf/opennlp",
-"https://github.com/apache/opennlp.git"
+"https://github.com/apache/opennlp.git",
+"http://svn.apache.org/repos/asf/opennlp"
 ],
 "shortdesc": "Apache OpenNLP library software is a machine learning based toolkit for the processing of natural language text.."
 },
@@ -16280,29 +16280,5 @@
 "https://git-wip-us.apache.org/repos/asf/zeppelin.git"
 ],
 "shortdesc": "Zeppelin is a collaborative data analytics and visualization tool for distributed, general-purpose data processing systems"
-},
-"zookeeper": {
-"bug-database": "https://issues.apache.org/jira/browse/ZOOKEEPER",
-"category": "database",
-"created": "2011-02-06",
-"description": "Apache ZooKeeper is an effort to develop and maintain an open-source server which enables highly reliable distributed coordination.",
-"doap": "http://zookeeper.apache.org/doap.rdf",
-"download-page": "https://www.apache.org/dyn/closer.cgi/zookeeper/",
-"homepage": "https://zookeeper.apache.org/",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "https://zookeeper.apache.org/lists.html",
-"maintainer": [
-{
-"mbox": "mailto:dev@zookeeper.apache.org",
-"name": "Apache ZooKeeper Community"
-}
-],
-"name": "Apache ZooKeeper",
-"pmc": "zookeeper",
-"programming-language": "Java",
-"repository": [
-"https://git-wip-us.apache.org/repos/asf/zookeeper.git"
-],
-"shortdesc": "A distributed computing platform."
 }
 }
