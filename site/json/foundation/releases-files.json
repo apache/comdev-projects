@@ -1363,9 +1363,9 @@
 "commons/commons-release-plugin/source/commons-release-plugin-1.4-src.tar.gz",
 "commons/commons-release-plugin/source/commons-release-plugin-1.4-src.zip"
 ],
-"commons-rng-1.1": [
-"commons/rng/source/commons-rng-1.1-src.tar.gz",
-"commons/rng/source/commons-rng-1.1-src.zip"
+"commons-rng-1.2": [
+"commons/rng/source/commons-rng-1.2-src.tar.gz",
+"commons/rng/source/commons-rng-1.2-src.zip"
 ],
 "commons-scxml-0.9": [
 "commons/scxml/source/commons-scxml-0.9-src.tar.gz",
@@ -2390,6 +2390,10 @@
 "geode/1.7.0/apache-geode-1.7.0.tgz",
 "geode/1.7.0/apache-geode-1.7.0.zip"
 ],
+"apache-geode-1.8.0": [
+"geode/1.8.0/apache-geode-1.8.0-src.tgz",
+"geode/1.8.0/apache-geode-1.8.0.tgz"
+],
 "apache-geode-examples-1.4.0": [
 "geode/1.4.0/apache-geode-examples-1.4.0.tar.gz",
 "geode/1.4.0/apache-geode-examples-1.4.0.zip"
@@ -2405,6 +2409,13 @@
 "apache-geode-examples-1.7.0": [
 "geode/1.7.0/apache-geode-examples-1.7.0.tar.gz",
 "geode/1.7.0/apache-geode-examples-1.7.0.zip"
+],
+"apache-geode-examples-1.8.0": [
+"geode/1.8.0/apache-geode-examples-1.8.0.tar.gz",
+"geode/1.8.0/apache-geode-examples-1.8.0.zip"
+],
+"apache-geode-native-1.8.0-Source": [
+"geode/1.8.0/apache-geode-native-1.8.0-Source.tar.gz"
 ]
 },
 "geronimo": {
@@ -2829,6 +2840,11 @@
 ],
 "apache-daffodil-2.2.0.incubating-1.noarch": [
 "incubator/daffodil/2.2.0/bin/apache-daffodil-2.2.0.incubating-1.noarch.rpm"
+]
+},
+"incubator-druid": {
+"apache-druid-0.13.0-incubating": [
+"incubator/druid/0.13.0-incubating/apache-druid-0.13.0-incubating-src.tar.gz"
 ]
 },
 "incubator-dubbo": {
@@ -6271,13 +6287,13 @@
 "jackrabbit/2.16.3/jackrabbit-2.16.3-src.zip",
 "jackrabbit/2.16.3/jackrabbit-webapp-2.16.3.war"
 ],
-"jackrabbit-2.17.7": [
-"jackrabbit/2.17.7/jackrabbit-2.17.7-src.zip",
-"jackrabbit/2.17.7/jackrabbit-webapp-2.17.7.war"
-],
 "jackrabbit-2.18.0": [
 "jackrabbit/2.18.0/jackrabbit-2.18.0-src.zip",
 "jackrabbit/2.18.0/jackrabbit-webapp-2.18.0.war"
+],
+"jackrabbit-2.19.0": [
+"jackrabbit/2.19.0/jackrabbit-2.19.0-src.zip",
+"jackrabbit/2.19.0/jackrabbit-webapp-2.19.0.war"
 ],
 "jackrabbit-2.4.8": [
 "jackrabbit/2.4.8/jackrabbit-2.4.8-src.zip",
@@ -6360,11 +6376,11 @@
 "jackrabbit-jca-2.16.3": [
 "jackrabbit/2.16.3/jackrabbit-jca-2.16.3.rar"
 ],
-"jackrabbit-jca-2.17.7": [
-"jackrabbit/2.17.7/jackrabbit-jca-2.17.7.rar"
-],
 "jackrabbit-jca-2.18.0": [
 "jackrabbit/2.18.0/jackrabbit-jca-2.18.0.rar"
+],
+"jackrabbit-jca-2.19.0": [
+"jackrabbit/2.19.0/jackrabbit-jca-2.19.0.rar"
 ],
 "jackrabbit-jca-2.4.8": [
 "jackrabbit/2.4.8/jackrabbit-jca-2.4.8.rar"
@@ -7084,8 +7100,8 @@
 "maven-default-skin-1.2": [
 "maven/skins/maven-default-skin-1.2-source-release.zip"
 ],
-"maven-dependency-analyzer-1.10": [
-"maven/shared/maven-dependency-analyzer-1.10-source-release.zip"
+"maven-dependency-analyzer-1.11.0": [
+"maven/shared/maven-dependency-analyzer-1.11.0-source-release.zip"
 ],
 "maven-dependency-plugin-3.1.1": [
 "maven/plugins/maven-dependency-plugin-3.1.1-source-release.zip"
@@ -7117,8 +7133,8 @@
 "maven-gpg-plugin-1.6": [
 "maven/plugins/maven-gpg-plugin-1.6-source-release.zip"
 ],
-"maven-help-plugin-3.1.0": [
-"maven/plugins/maven-help-plugin-3.1.0-source-release.zip"
+"maven-help-plugin-3.1.1": [
+"maven/plugins/maven-help-plugin-3.1.1-source-release.zip"
 ],
 "maven-indexer-6.0.0": [
 "maven/indexer/maven-indexer-6.0.0-source-release.zip"
@@ -7135,8 +7151,8 @@
 "maven-invoker-plugin-3.1.0": [
 "maven/plugins/maven-invoker-plugin-3.1.0-source-release.zip"
 ],
-"maven-jar-plugin-3.1.0": [
-"maven/plugins/maven-jar-plugin-3.1.0-source-release.zip"
+"maven-jar-plugin-3.1.1": [
+"maven/plugins/maven-jar-plugin-3.1.1-source-release.zip"
 ],
 "maven-jarsigner-3.0.0": [
 "maven/shared/maven-jarsigner-3.0.0-source-release.zip"
@@ -9948,6 +9964,19 @@
 "tomcat/tomcat-9/v9.0.13/src/apache-tomcat-9.0.13-src.tar.gz",
 "tomcat/tomcat-9/v9.0.13/src/apache-tomcat-9.0.13-src.zip"
 ],
+"apache-tomcat-9.0.14": [
+"tomcat/tomcat-9/v9.0.14/bin/embed/apache-tomcat-9.0.14-embed.tar.gz",
+"tomcat/tomcat-9/v9.0.14/bin/embed/apache-tomcat-9.0.14-embed.zip",
+"tomcat/tomcat-9/v9.0.14/bin/apache-tomcat-9.0.14-deployer.tar.gz",
+"tomcat/tomcat-9/v9.0.14/bin/apache-tomcat-9.0.14-deployer.zip",
+"tomcat/tomcat-9/v9.0.14/bin/apache-tomcat-9.0.14-fulldocs.tar.gz",
+"tomcat/tomcat-9/v9.0.14/bin/apache-tomcat-9.0.14-windows-x64.zip",
+"tomcat/tomcat-9/v9.0.14/bin/apache-tomcat-9.0.14.exe",
+"tomcat/tomcat-9/v9.0.14/bin/apache-tomcat-9.0.14.tar.gz",
+"tomcat/tomcat-9/v9.0.14/bin/apache-tomcat-9.0.14.zip",
+"tomcat/tomcat-9/v9.0.14/src/apache-tomcat-9.0.14-src.tar.gz",
+"tomcat/tomcat-9/v9.0.14/src/apache-tomcat-9.0.14-src.zip"
+],
 "taglibs-standard-1.2.5": [
 "tomcat/taglibs/taglibs-standard-1.2.5/taglibs-standard-1.2.5-source-release.zip"
 ],
@@ -9965,10 +9994,6 @@
 "tomcat-native-1.1.34": [
 "tomcat/tomcat-connectors/native/1.1.34/source/tomcat-native-1.1.34-src.tar.gz",
 "tomcat/tomcat-connectors/native/1.1.34/source/tomcat-native-1.1.34-win32-src.zip"
-],
-"tomcat-native-1.2.18": [
-"tomcat/tomcat-connectors/native/1.2.18/source/tomcat-native-1.2.18-src.tar.gz",
-"tomcat/tomcat-connectors/native/1.2.18/source/tomcat-native-1.2.18-win32-src.zip"
 ],
 "tomcat-native-1.2.19": [
 "tomcat/tomcat-connectors/native/1.2.19/source/tomcat-native-1.2.19-src.tar.gz",

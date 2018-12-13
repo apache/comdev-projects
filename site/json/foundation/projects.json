@@ -3046,6 +3046,24 @@
 ],
 "shortdesc": "User-friendly Java ORM with tools"
 },
+"celix": {
+"bug-database": "https://issues.apache.org/jira/browse/celix",
+"category": "network-server",
+"created": "2010-11-17",
+"description": "\n     Apache Celix is an implementation of the OSGi specification adapted to C and C++ (C++11). It is a provides a framework to develop (dynamic) modular software applications using component and/or service-oriented programming.\n     ",
+"doap": "https://gitbox.apache.org/repos/asf?p=celix.git;a=blob_plain;f=doap/doap_Celix.rdf;hb=refs/heads/develop",
+"download-page": "http://celix.apache.org/download.html",
+"homepage": "http://celix.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://celix.apache.org/support/mailinglist.html",
+"name": "Apache Celix",
+"pmc": "celix",
+"programming-language": "C, C++",
+"repository": [
+"https://gitbox.apache.org/repos/asf/celix.git"
+],
+"shortdesc": "OSGi framework implementation in C and C++."
+},
 "chemistry": {
 "bug-database": "https://issues.apache.org/jira/browse/CMIS",
 "category": "library",
@@ -5418,6 +5436,11 @@
 "pmc": "commons",
 "programming-language": "Java",
 "release": [
+{
+"created": "2018-12-12",
+"name": "commons-rng",
+"revision": "1.2"
+},
 {
 "created": "2018-08-15",
 "name": "commons-rng",
