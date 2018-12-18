@@ -427,7 +427,7 @@
 }
 ],
 "repository": [
-"https://git-wip-us.apache.org/repos/asf/ant.git"
+"https://gitbox.apache.org/repos/asf/ant.git"
 ],
 "shortdesc": "Java-based build tool"
 },
@@ -472,7 +472,7 @@
 }
 ],
 "repository": [
-"https://git-wip-us.apache.org/repos/asf/ant-antlibs-antunit.git"
+"https://gitbox.apache.org/repos/asf/ant-antlibs-antunit.git"
 ],
 "shortdesc": "Test-Framework for Testing Ant Tasks and Types"
 },
@@ -522,7 +522,7 @@
 }
 ],
 "repository": [
-"https://git-wip-us.apache.org/repos/asf/ant-antlibs-compress.git"
+"https://gitbox.apache.org/repos/asf/ant-antlibs-compress.git"
 ],
 "shortdesc": "Provides Support for Some Archive Formats not Supported by Ant's Core"
 },
@@ -552,9 +552,104 @@
 }
 ],
 "repository": [
-"https://git-wip-us.apache.org/repos/asf/ant-antlibs-dotnet.git"
+"https://gitbox.apache.org/repos/asf/ant-antlibs-dotnet.git"
 ],
 "shortdesc": "Support for Mono and Microsoft .NET development using Ant"
+},
+"ant-ivy": {
+"bug-database": "https://issues.apache.org/jira/browse/IVY",
+"category": "build-management",
+"created": "2010-11-16",
+"description": "Apache Ivy is a very powerful dependency manager oriented toward Java dependency management, even though it could be used to manage dependencies of any kind.",
+"doap": "https://gitbox.apache.org/repos/asf?p=ant-ivy.git;a=blob_plain;f=doap_Ivy.rdf;hb=HEAD",
+"download-page": "http://ant.apache.org/ivy/download.cgi",
+"homepage": "http://ant.apache.org/ivy/",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://ant.apache.org/ivy/mailing-lists.html",
+"name": "Apache Ivy",
+"pmc": "ant",
+"programming-language": "Java",
+"release": [
+{
+"created": "2014-12-26",
+"name": "Apache Ivy 2.4.0",
+"revision": "2.4.0"
+},
+{
+"created": "2013-01-24",
+"name": "Apache Ivy 2.3.0",
+"revision": "2.3.0"
+},
+{
+"created": "2010-10-07",
+"name": "Apache Ivy 2.2.0",
+"revision": "2.2.0"
+},
+{
+"created": "2009-10-13",
+"name": "Apache Ivy 2.1.0",
+"revision": "2.1.0"
+},
+{
+"created": "2009-01-22",
+"name": "Apache Ivy 2.0.0",
+"revision": "2.0.0"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf/ant-ivy.git"
+],
+"shortdesc": "Apache Ivy is a very powerful dependency manager oriented toward Java dependency management, even though it could be used to manage dependencies of any kind."
+},
+"ant-ivyde": {
+"bug-database": "https://issues.apache.org/jira/browse/IVYDE",
+"category": "build-management",
+"created": "2010-11-16",
+"description": "IvyDE lets you manage your dependencies declared in an ivy.xml in your Java Eclipse projects. IvyDE will contribute to the classpath of your Java project, with the classpath container. It also bring an editor of ivy.xml files, with completion.",
+"doap": "https://gitbox.apache.org/repos/asf?p=ant-ivyde.git;a=blob_plain;f=doap_IvyDE.rdf;hb=HEAD",
+"download-page": "http://ant.apache.org/ivy/ivyde/download.cgi",
+"homepage": "http://ant.apache.org/ivyde/",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://ant.apache.org/ivy/ivyde/mailing-lists.html",
+"name": "Apache IvyDE",
+"pmc": "ant",
+"programming-language": "Java",
+"release": [
+{
+"created": "2013-11-22",
+"name": "Apache IvyDE",
+"revision": "2.2.0.final"
+},
+{
+"created": "2012-04-05",
+"name": "Apache IvyDE",
+"revision": "2.2.0.beta1"
+},
+{
+"created": "2010-08-18",
+"name": "Apache IvyDE",
+"revision": "2.1.0"
+},
+{
+"created": "2009-07-09",
+"name": "Apache IvyDE",
+"revision": "2.0.0-final"
+},
+{
+"created": "2008-12-08",
+"name": "Apache IvyDE",
+"revision": "2.0.0-beta1"
+},
+{
+"created": "2008-06-30",
+"name": "Apache IvyDE",
+"revision": "2.0.0-alpha1"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf/ant-ivyde.git"
+],
+"shortdesc": "Integrate Ivy in Eclipse with the IvyDE plugin."
 },
 "ant-props": {
 "bug-database": "http://issues.apache.org/bugzilla/buglist.cgi?product=Ant",
@@ -570,7 +665,7 @@
 "pmc": "ant",
 "programming-language": "Java",
 "repository": [
-"https://git-wip-us.apache.org/repos/asf/ant-antlibs-props.git"
+"https://gitbox.apache.org/repos/asf/ant-antlibs-props.git"
 ],
 "shortdesc": "The Apache Props Antlib is a library of supplementary handlers for Apache Ant properties resolution."
 },
@@ -588,7 +683,7 @@
 "pmc": "ant",
 "programming-language": "Java",
 "repository": [
-"https://git-wip-us.apache.org/repos/asf/ant-antlibs-vss.git"
+"https://gitbox.apache.org/repos/asf/ant-antlibs-vss.git"
 ],
 "shortdesc": "Microsoft Visual Source Safe support for Apache Ant."
 },
@@ -2458,6 +2553,284 @@
 "https://git-wip-us.apache.org/repos/asf/bookkeeper.git"
 ],
 "shortdesc": "A reliable replicated log service"
+},
+"brooklyn": {
+"bug-database": "https://issues.apache.org/jira/browse/BROOKLYN/",
+"category": "cloud",
+"created": "2016-02-23",
+"description": "Brooklyn is about deploying and managing applications: composing a full stack for an application;\n        deploying to cloud and non-cloud targets; using monitoring tools to collect key health/performance metrics;\n        responding to situations such as a failing node; and adding or removing capacity to match demand.",
+"doap": "https://gitbox.apache.org/repos/asf?p=brooklyn.git;a=blob_plain;f=doap_Brooklyn.rdf;hb=HEAD",
+"download-page": "http://brooklyn.apache.org/download/index.html",
+"homepage": "http://brooklyn.apache.org",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "http://brooklyn.apache.org/community/mailing-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:aledsage@apache.org",
+"name": "Aled Sage"
+},
+{
+"mbox": "mailto:andreaturli@apache.org",
+"name": "Andrea Turli"
+},
+{
+"mbox": "mailto:cipi@apache.org",
+"name": "Ciprian Ciubotariu"
+},
+{
+"mbox": "mailto:drigodwin@apache.org",
+"name": "Duncan Godwin"
+},
+{
+"mbox": "mailto:geomacy@apache.org",
+"name": "Geoff Macartney"
+},
+{
+"mbox": "mailto:grkvlt@apache.org",
+"name": "Andrew Kennedy"
+},
+{
+"mbox": "mailto:hadrian@apache.org",
+"name": "Hadrian Zbarcea"
+},
+{
+"mbox": "mailto:heneveld@apache.org",
+"name": "Alex Heneveld"
+},
+{
+"mbox": "mailto:jbonofre@apache.org",
+"name": "Jean-Baptiste Onofré"
+},
+{
+"mbox": "mailto:m4rkmckenna@apache.org",
+"name": "Mark McKenna"
+},
+{
+"mbox": "mailto:olamy@apache.org",
+"name": "Olivier Lamy"
+},
+{
+"mbox": "mailto:richard@apache.org",
+"name": "Richard Downer"
+},
+{
+"mbox": "mailto:sjcorbett@apache.org",
+"name": "Sam Corbett"
+},
+{
+"mbox": "mailto:svet@apache.org",
+"name": "Svetoslav Neykov"
+}
+],
+"name": "Apache Brooklyn",
+"pmc": "brooklyn",
+"programming-language": "Java",
+"release": [
+{
+"created": "2017-05-18",
+"name": "0.11.0",
+"revision": "0.11.0"
+},
+{
+"created": "2016-12-26",
+"name": "0.10.0",
+"revision": "0.10.0"
+},
+{
+"created": "2016-04-18",
+"name": "0.9.0",
+"revision": "0.9.0"
+},
+{
+"created": "2015-09-14",
+"name": "0.8.0-incubating",
+"revision": "0.8.0-incubating"
+},
+{
+"created": "2015-07-15",
+"name": "0.7.0-incubating",
+"revision": "0.7.0-incubating"
+}
+],
+"repository": [
+"https://git-wip-us.apache.org/repos/asf/brooklyn.git"
+],
+"shortdesc": "Apache Brooklyn is a framework for modeling, monitoring, and managing applications through autonomic blueprints."
+},
+"buildr": {
+"bug-database": "http://issues.apache.org/jira/browse/Buildr",
+"category": "build-management",
+"created": "2012-10-07",
+"description": "We wanted something that's simple and intuitive to use, so we only need to tell it what to do, and it takes care of the rest.  But also something we can easily extend for those one-off tasks, with a language that's a joy to use.",
+"doap": "https://gitbox.apache.org/repos/asf?p=buildr.git;a=blob_plain;f=doap.rdf;hb=HEAD",
+"download-page": "http://buildr.apache.org/download.html",
+"homepage": "http://buildr.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://buildr.apache.org/mailing_lists.html",
+"maintainer": [
+{
+"mbox": "mailto:dev@buildr.apache.org",
+"name": "Apache Buildr PMC"
+}
+],
+"name": "Apache Buildr",
+"pmc": "buildr",
+"programming-language": "Ruby",
+"release": [
+{
+"created": "2018-05-10",
+"description": "\n* Fixed:  Ensure that the username and passwords declared for repositories are correctly url encoded for\n          the upload repositories when converted to a URL. (i.e. Ensure `Buildr.repositories.release_to`\n          and `Buildr.repositories.snapshot_to` settings can have usernames and passwords with special\n          characters).\n* Added:  Add support for allowing some dependencies to include transitive dependencies via the\n          `pom.include_transitive_dependencies` configuration setting.\n* Added:  Add support for adding dependencies to the pom via the `pom.additional_dependencies` configuration\n          setting. These dependencies are `compile` scope and are in addition to any derived from the normal\n          compile dependencies.\n* Fixed:  GWT Addon: Use version `1.0.2` of the `com.google.jsinterop:jsinterop-annotations:jar` artifact\n          when using GWT 2.8.2 to align with version shipped with GWT.\n* Fixed:  Dependencies added as `pom.provided_dependencies` or `pom.runtime_dependencies` and not included\n          as compile dependencies were incorrectly omitted from pom.\n* Fixed:  Dependencies added as `pom.provided_dependencies` and `pom.runtime_dependencies` were being\n          incorrectly duplicated within the pom dependencies section. Now provided dependency scope takes\n          precedence over runtime scoped dependency.\n* Fixed:  Dependencies added to POMs will specify the classifier unless it is the default value.\n* Added:  Add the `project.pom.dependency_filter` configuration property that can be set to a proc. The proc\n          accepts a dependency and returns a boolean that determines whether the dependency is included in\n          the generated pom or not.\n* Fixed:  POMs generated by Buildr use the parent pom `org.sonatype.oss:oss-parent:pom:7` but this\n          generates a warning in the latest version of Maven. Modern versions of Maven would thus\n          ignore transitive dependencies declared in the pom. The parent pom has now been upgraded\n          to `org.sonatype.oss:oss-parent:pom:8` which will result in modern Maven correctly picking\n          up transitive dependencies.\n* Change: JaCoCo Addon: Update JaCoCo version to 0.8.0 which in turns supports Java9.\n* Added:  GWT Addon: Added support for `:gwtc_args` parameter to supply arbitrary parameters to\n          the GWT compiler.\n* Added:  Add support for sha512 digests to be generated for files during the upload. This is typically\n          configured by adding `sha512` to the list of digests via a line such as:\n          `repositories.release_to[:options] = {:digests => [:md5, :sha1, :sha512]}`\n* Fixed:  The default upload tasks would often get a ReadTimeout when uploading using http to a remote\n          server that did not have `KeepAlive` socket option enabled and the upload took more than 60\n          seconds (the default socket read timeout). Some commercial maven repositories could trigger\n          this scenario during upload of even modest size artifacts. Default the read_timeout to 10 minutes\n          when during upload to work address this issue.\n\n        ",
+"name": "1.5.6",
+"revision": "1.5.6"
+},
+{
+"created": "2017-12-06",
+"description": "\n* Fixed:  The concatenation extension released as part of 1.5.4 changed the way zip archives were\n          constructed so that entries for some intermediate directories were elided. For most consumers\n          of zip files this had no impact but some tools require the entries during scanning. (i.e. Older\n          versions of Jruby that loaded ruby scripts from within a jar).\n* Added:  IDEA Extension: Added support for passing `:iml_name` parameter to `ipr.add_gwt_configuration`\n\n        ",
+"name": "1.5.5",
+"revision": "1.5.5"
+},
+{
+"created": "2017-11-29",
+"description": "\n* Added:  Findbugs Addon: Upgrade to version 3.0.1 of findbugs.\n* Added:  GPG Addon: Add boolean configuration setting `project.gpg` that can be set to false via\n          `project.gpg = false` to avoid signing and uploading packages. This is useful when some\n          projects are not intended for publishing.\n* Fixed:  JaCoCo Addon: Projects that have jacoco disabled will no longer appear in the JaCoCo reports.\n* Change: JaCoCo Addon: Update JaCoCo version to 0.7.9.\n* Fixed:  BUILDR-733 - Escape classpath entries in the pathing jar manifest. Submitted by Glenn Croes.\n* Fixed:  Ensure that the pom is attached to the jar artifact with empty classifier rather than the last\n          artifact of a type defined. Otherwise a project that defines multiple artifacts of the same type\n          (i.e. `package(:jar)` and `package(:jar, :classifier => :gwt)`) could have the pom named after\n          the package with the classifier rather than the package without a classifer. (i.e. the pom could\n          be incorrectly defined as `mypackage-1.0.0-gwt.pom` rather than `mypackage-1.0.0.pom`).\n* Added:  GWT Addon: Add support for GWT 2.8.2 release and make it the default version unless otherwise specified.\n* Added:  GWT Addon: Added support for `:js_exports` boolean to enable \"JsInteropExports\".\n* Added:  IDEA Extension: Added support for `:open_in_browser` boolean passed to `ipr.add_gwt_configuration`\n* Added:  BUILDR-732 - Support bnd version 2.1.0 or more. Submitted By Eric Bruneton.\n* Added:  Support to compiling Kotlin\n* Fixed:  Remove section on development builds in the Contributing section.\n* Added:  New way to concatenate file contents when merging several archives together.\n* Added:  New way to transform file contents when merging several archives together.\n* Fixed:  Removed .class files from being checked in.\n* Added:  Support both Jetty 6 and Jetty 9 as addons. Added integration tests to cover their use.\n\n        ",
+"name": "1.5.4",
+"revision": "1.5.4"
+},
+{
+"created": "2017-05-17",
+"description": "\n* Change: Add support for gwt 2.8.1 to gwt addon.\n* Fixed:  Avoid error \"undefined local variable or method `pom'\" when invoking the `JarTask` without it being\n  registered through the `package` helper`. Reported by Dieter Vrancken.\n\n        ",
+"name": "1.5.3",
+"revision": "1.5.3"
+},
+{
+"created": "2017-04-03",
+"description": "\n* Change: Update TestNG version to 6.11.\n* Change: BUILDR-731 - Enhance Sonar addon to support configuration of the project version. Submitted by Ross Mahony.\n* Fixed:  Fix pom generation to eliminate invalid `classifier` element from being added to POM.\n\n        ",
+"name": "1.5.2",
+"revision": "1.5.2"
+},
+{
+"created": "2017-03-11",
+"description": "\n* Change: In the 'buildr/git_auto_version' addon strip out any versions that start with a 'v' character as\n          most projects on git repositories prefix version tags with a \"v\" to avoid collisions with any branchs\n          named after the version which are typically without the \"v\" character.\n* Fixed:  GWT Addon: The GWT project publishes invalid jars that can not be included on source path when\n          the javadoc tool is executing. Work around this issue in GWT by removing them from the documentation\n          class path.\n* Change: IDEA: Change the ordering of dependencies in the IDE module descriptor such that test dependencies are\n          first to allow test dependencies to override/shadow compile dependencies.\n* Fixed:  IDEA: Correctly configure the IDE module if the language level differs from the root project language level.\n* Change: Add css2gss task to gwt addon to support conveting from deprecated css syntax to modern gss syntax.\n* Change: Add support for gwt 2.8.0 to gwt addon.\n* Change: Remove orderedhash gem.\n* Change: Update jruby-openssl to 0.9.17\n* Change: Move hoe to the development dependencies\n* Fixed:  BUILDR-728 Snapshots metadata incorrectly created\n* Fixed:  BUILDR-718 Deprecate SVN repository - remove links to SVN\n* Change: BUILDR-724 Use scalamain to call scala projects\n* Change: BUILDR-719 Change User-Agent when uploading artifacts\n* Change: Set the OPEN_IN_BROWSER to false when building idea launch targets via add_glassfish_remote_configuration.\n* Change: BUILDR-709 Integrate `buildr/custom_pom` into core and just make it the default pom generated.\n* Fixed:  BUILDR-563 protobuf addon including source directories to protoc breaks build\n\n        ",
+"name": "1.5.1",
+"revision": "1.5.1"
+},
+{
+"created": "2016-09-23",
+"description": "\n* Change: Update RJB to 1.5.4\n* Change: Update rubyzip to 1.2.0\n* Change: Update hoe to 3.15.0\n* Change: Update net-ssh to 3.1.1\n* Change: Update json_pure to 1.8.3\n* Change: Update diff-lcs to 1.2.5\n* Change: Update xml-simple to 1.1.5\n* Change: Update jekyll to 3.1.3\n* Change: Update rdoc to 4.2.2\n* Change: Update ecj to 4.5.1\n* Change: Added jekyll-textile-converter 0.1.0 to generate the site.\n* Change: Move to default on Scala 2.11.\n* Change: Remove Buildr::Project#on_define, deprecated in 1.3\n* Change: Remove JavaWrapper, deprecated in 1.3\n* Change: Remove JUnit::REQUIRES, deprecated in 1.3.3\n* Change: Remove TestNG::REQUIRES, deprecated in 1.3.3\n* Change: Remove Buildr::Ant::REQUIRES, deprecated in version 1.3.3\n* Change: Remove Buildr::CompileTask#classpath, deprecated in version 1.3\n* Change: Remove Buildr::TestTask responding to :using with .using('foo','bar'), deprecated in version 1.3\n* Change: Remove addon/buildr/cobertura.rb, deprecated since 1.3.4\n* Change: Remove addon/buildr/emma.rb, deprecated since 1.3.4\n* Change: Remove support for Rakefile/rakefile, deprecated.\n* Change: Remove project#target, project#reports, deprecated.\n* Change: Remove JBehave::REQUIRES, deprecated.\n* Change: Remove JMock::REQUIRES, deprecated.\n* Change: Remove ScalaCheck::REQUIRES, deprecated.\n* Change: Change Eclipse Scala project natures from ch.epfl.lamp.sdt.core.scalanature to org.scala-ide.sdt.core.scalanature\n* Change: Fix the custom Google search widget on the website.\n* Change: BUILDR-722 Remove links and image of the buildr book from the website.\n* Added:  Travis badge to README.rdoc\n* Added:  Added Rubygems badges to README.rdoc\n* Added:  BUILDR-577 Allow remote repo to be added with http basic auth support. Submitted by Michael Guymon.\n* Added:  BUILDR-523 Issue a warning when Java.classpath is modified after Java.load has happened\n* Added:  BUILDR-594 Added support for changing the verification mode of SSL certificates\n* Added:  BUILDR-595 Added support to providing custom SSL certificates\n* Added:  BUILDR-572 Allow to upload unique version (timestamp based) snapshot artifacts to a repository. Submitted by Brice Figureau.\n* Fixed:  BUILDR-207 remove 'Skipping tests' messages\n* Added:  BUILDR-703 release: allow THIS_VERSION to be defined in another file\n* Fixed:  BUILDR-674 Artifacts with bundle extension cannot be downloaded by Buildr\n* Fixed:  BUILDR-565 resources are not included in the war if defined after package call\n* Fixed:  BUILDR-621 ZipTask creates zip file with entries not sorted by path causing very slow unzipping.\n* Fixed:  BUILDR-695 transitive doesn't support ${project.parent.version} in POM.\n* Fixed:  BUILDR-653 Using Eclipse compiler (ECJ)\n* Fixed:  BUILDR-476 Buildr doesn't respect company repository manager\n* Fixed:  BUILDR-454 Definition-level parent-child references-by-name fail in 1.4.0 but not in 1.3.5. Submitted by Rhett Sutphin.\n* Fixed:  BUILDR-620 resources.filter should not run on non-text files\n* Fixed:  BUILDR-489 Java + Scala joint compiler fails if default encoding and source file encoding are not same and special characters have been used in source code\n* Fixed:  BUILDR-486 Buildr-generated poms should include dependencies\n* Fixed:  BUILDR-723 JavaTestFilter is unable to parse paths containing %2F\n* Change: Update the custom_pom addon to generate poms with exclusions section that excludes\n          all transitive dependencies. This is required as buildr dependencies are not\n          transitive while Maven's dependencies are transitive by default.\n* Change: Remove the BND aqute maven repository, as it was decomissioned. Use Maven Central instead.\n\n        ",
+"name": "1.5.0",
+"revision": "1.5.0"
+},
+{
+"created": "2016-04-18",
+"description": "\n* Change: BUILDR-712 Update jruby-openssl dependency version or support a range of versions\n* Change: Update gwt addon to add the GWT artifacts to project dependencies as specs rather\n          than files.\n* Change: Support the project.root_project utility method to retrieve the top level project.\n\n        ",
+"name": "1.4.25",
+"revision": "1.4.25"
+},
+{
+"created": "2016-03-19",
+"description": "\n* Added:  Support the :no_invoke parameter being passed to Buildr.project() and\n          Buildr.projects() to avoid attempting to call invoke when retrieving the projects.\n* Added:  Add `exclude_paths` setting to pmd addon to allow paths to be explicitly excluded.\n* Fixed:  Update jDepend addon to ensure target directories are invoked prior to attempting\n          to analyze directories.\n* Added:  Add jdepend.additional_project_names configuration to jDepend addon to\n          ease merging in the source paths from multiple projects into one jDepend task.\n* Added:  Add findbugs.additional_project_names configuration to Findbugs addon to\n          ease merging in the source paths from multiple projects into one Findbugs task.\n* Added:  Add checkstyle.additional_project_names configuration to Checkstyle addon to\n          ease merging in the source paths from multiple projects into one Checkstyle task.\n* Added:  Add pmd.additional_project_names configuration to PMD addon to ease merging in\n          the source paths from multiple projects into one PMD task.\n* Fixed:  In the PMD addon, check that the source directory exists before adding to\n          sources directories to include.\n* Fixed:  BUILDR-709 - Fix \"Exception in jacoco.rb [TypeError : can't convert Array into\n          String]\". Submitted By Ross Mahony.\n* Added:  Define the 'activate_jruby_facet' addon that activates the jruby facet in\n          generated IDEA project modules.\n* Change: Update the Intellij IDEA plugin to support marking directories as generated.\n* Change: Update the Intellij IDEA plugin to correctly identify project paths as resource\n          directories.\n* Change: Update the default GWT version used in the GWT addon to the latest release 2.7.0.\n* Fixed:  Fix GWT addon to explicitly add gwt-dev artifact to gwt compile path now that\n          the bug that allowed unintended sharing has been fixed.\n* Fixed:  Fix bug in IDEA module generation that resulted in dependencies in IDEA module\n          using shared references to compile dependencies.\n* Change: Update the checkstyle addon to use checkstyle 6.12.1.\n\n        ",
+"name": "1.4.24",
+"revision": "1.4.24"
+},
+{
+"created": "2015-06-12",
+"description": "\n* Change: BUILDR-706 - Update the checkstyle addon use checkstyle 6.6. Submitted\n          by Dieter Vrancken.\n* Fixed:  Fix Buildr.rspec_present? so that it works under jruby 1.6.7.2\n* Change: BUILDR-705 - Avoid attempting to load rspec classes unless Buildr.rspec_present?\n          returns true. Reported By rbpandey.\n* Fixed:  Remove debug output left in ipr.sql_dialect_mappings.\n\n        ",
+"name": "1.4.23",
+"revision": "1.4.23"
+},
+{
+"created": "2015-02-28",
+"description": "\n* Change: BUILDR-704 - Updated the Sonar addon to support the latest version of SonarQube\n          Runner. Submitted by Ross Mahony.\n* Added:  Add support for ipr.add_glassfish_remote_configuration method that generates\n          a remote glassfish configuration in IntelliJ IDEA project files.\n* Added:  Add support for iml.prefix and ipr.prefix settings that prefix the generated\n          IntelliJ IDEA project and module files.\n* Change: Update the buildr gemspec so that rspec is no longer a required dependency.\n          This enables end-users to use a different version of rspec and buildr in\n          the same project. The rspec version MUST be be compatible with the version\n          used by Buildr if rspec features are used from within Buildr. Buildr also\n          issues a warning if the `check` method is called and rspec has not been loaded.\n          The warning includes directions on how to resolve the issue. Submitted by r6p.\n* Fixed:  A long standing bug existed such that if tests failed to compile, and the\n          option Buildr.options.test is set to :all then the compilation error would\n          not result in a failed build. As many people set the Buildr.options.test to\n          :all in their continuous delivery/integration tools, this has caused some\n          problems. This has been fixed by ensuring all the problems associated with\n          the resolving the prerequisites are not caught when Buildr.options.test is\n          set to :all.\n* Change: Update checkstyle to 6.1.1. Submitted by neher.\n* Fixed:  Avoid empty dependency issue in gwt addon if the attempting to gwt compile\n          a project that has no src/main/java.\n* Fixed:  Support dependencies in the gwt addon that are other local projects rather\n          that artifacts, without forcing a compilation of dependency when parsing\n          buildfile.\n* Added:  Support configuration of sql dialect mapping in IDEA generated project files\n          through methods on the ipr extension ipr.mssql_dialect_mapping,\n          ipr.postgres_dialect_mapping and ipr.sql_dialect_mappings\n* Added:  Support specification of the target project to which the gwt compilation\n          artifacts are added as an asset, by using :target_project option.\n\n        ",
+"name": "1.4.22",
+"revision": "1.4.22"
+},
+{
+"created": "2014-11-28",
+"description": "\n* Change: Upgrade atoulme-Antwrap to 0.7.5 to remove deprecation warnings in\n          modern JRuby. Suggested by Pepijn Van Eeckhoudt.\n* Change: Update the gwt addon to add the validation dependencies required for GWT\n          compiles without requiring that the user specify the dependency.\n* Change: Update ipr.add_gwt_configuration method to support GWT 2.7 configuration\n          parameters and IDEA 14 parameters.\n* Change: Upgrade jacoco to 0.7.2. Submitted by neher.\n* Change: Update checkstyle addon to use Checkstyle 6.0.\n* Added:  Updated the gwt addon to support the upcoming GWT 2.7.x release.\n* Change: Enhance ipr.add_glassfish_configuration to support the ability to\n          define the version of GlassFish in uses. Change the default to 4.1.0\n          as that is the latest supported variant.\n* Fixed:  Change the name of the GlassFish install in ipr.add_glassfish_configuration\n          to use the same convention that IDEA uses by default. i.e. Name the\n          installation \"GlassFish 4.1.0\" rather than \"Glassfish 4.1.0\".\n* Change: Change the default version of the jdk in IDEA project files to 1.7.\n* Change: Change the default version of the IDEA project files created to the\n          current release version 13. To revert to the older versions specify\n          ipr.version = '12' in your buildfile.\n* Added:  Enhance the IdeaFile class to easily support mixing in of custom\n          components from either the filesystem or from an artifact.\n* Change: Update rjb to version 1.5.1.\n* Added:  Update checkstyle addon to support downloading checkstyle checks\n          as an artifact.\n* Added:  Update checkstyle addon to supply checkstyle.config.dir property.\n* Added:  Update pmd addon to support downloading rule files as an artifact.\n* Change: Update pmd addon to use pmd version 5.1.3.\n* Fixed:  BUILDR-702 - Retain Unix permission flags when merging\n          zip files into another zip or tar archive. Submitted by Pepijn Van Eeckhoudt.\n\n        ",
+"name": "1.4.21",
+"revision": "1.4.21"
+},
+{
+"created": "2014-08-23",
+"description": "\n* Fixed : BUILDR-688 - Disregard package-info.java files when determining if\n          the Javac compiler should be run or not. Submitted by Pepijn Van\n          Eeckhoudt.\n* Fixed : Work around bug/feature of jruby 1.7.13 that caches Gem::Version\n          objects based on constructor parameters that causes issues with\n          Buildr as we mutate the version objects through monkey patching.\n* Change: Upgrade rjb dependency to 1.4.9.\n* Change: BUILDR-701 - Update to JUnit 4.11. Submitted by Jean-Philippe Caruana.\n* Added:  Support the 'report_level' property on findbugs addon.\n* Change: Update the findbugs addon to use the 3.0.0 version of Findbugs.\n* Change: Update the findbugs addon to use the built-in findbugs stylesheet\n          to generate the html report.\n* Fixed:  Ensure that the 'source_paths' and 'extra_dependencies' properties\n          in the findbugs addon does not contain arrays or nils.\n* Fixed:  Ensure that the 'single_intermediate_layout' addon removes the top\n          level target and reports directories during 'clean' phase.\n* Added:  Enhance idea project generation of ejb facet by looking for ejb\n          descriptors in location compatible with ejb-jars.\n* Fixed:  Ensure that the 'source_paths' property in the pmd addon does not\n          contain arrays or nils.\n\n        ",
+"name": "1.4.20",
+"revision": "1.4.20"
+},
+{
+"created": "2014-07-06",
+"description": "\n* Fixed:  BUILDR-700 - Ensure SNAPSHOT artifacts, constructed using the\n          download(artifact('group:artifact:jar:1-SNAPSHOT') =>\n          'http://example.com/...') construct will correctly download the\n          artifacts from configured URL.\n* Fixed:  BUILDR-700 - Fix bug where buildr was truncating SNAPSHOT files\n          that had not changed since last update check and HTTP was returning\n          \"HTTP Not Modified\" status.\n* Fixed:  Fix bug introduced in 1.4.18 version of custom_pom addon where\n          poms are created for artifacts that have a classifier.\n\n        ",
+"name": "1.4.19",
+"revision": "1.4.19"
+},
+{
+"created": "2014-06-24",
+"description": "\n* Fixed:  BUILDR-699 - Update the custom_pom addon to avoid failure when\n          used with zip packages.\n* Fixed:  BUILDR-694 - \"buildr upload\" fails: wrong number of arguments in\n          progress bar read() in Ruby 2.1.0. Submitted By Mark Reibert.\n* Change: Remove support for uploads to RubyForge.org with gem dependencies\n          as the site no longer exists.\n* Change: BUILDR-664 - Update Checkstyle addon so that extra_dependencies is\n          the project dependencies by default. Move the checkstyle dependencies\n          to the start of the classpath to avoid problems running checkstyle.\n          Submitted by Dieter Vrancken.\n* Fixed:  BUILDR-698 - Correct \"Lines of code\" example in documentation.\n          Submitted By: Trejkaz.\n* Added:  Add ipr.add_glassfish_configuration method for defining a local\n          glassfish configuration within IDEA.\n* Added:  Add ipr.add_ruby_script_configuration method for defining a ruby\n          configuration within IDEA.\n* Added:  Add ipr.add_java_configuration method for defining a java\n          configuration within IDEA.\n* Change: Include additional rules in default pmd rule set: 'finalizers' and\n          'braces'.\n* Change: Upgrade the version of PMD in use to 5.1.1.\n* Change: Supply a default xsl file for generating the jdepend report.\n* Fixed:  Fix the naming of css_lint addon file so it is made available\n          as an addon.\n\n        ",
+"name": "1.4.18",
+"revision": "1.4.18"
+},
+{
+"created": "2014-05-25",
+"description": "\n* Added:  Add the add_default_testng_configuration method to help IDEA\n          project creation. Improves test coverage across 'default'\n          configurations.\n* Fixed:  Fix a bug where 'default' configurations in IDEA projects\n          were being incorrectly created.\n* Fixed:  Fix the vcs detection in IDEA addon for 1.8.6 (!) versions\n          of ruby by reordering blocks.\n* Change: Supply a default xsl file for generating the checkstyle\n          report.\n* Added:  Add csslint tasks css_lint:xml and css_lint:html that\n          support source code analysis of CSS files.\n* Added:  Add scss_lint tasks scss_lint:xml and scss_lint:html that\n          support source code analysis of SCSS files.\n* Added:  Import 'buildr/custom_pom' addon to make it easier to\n          build POMs for projects publishing to Maven Central.\n* Added:  Add flag to allow non portable extensions in wsgen addon.\n* Fixed:  Avoid nil dereference bug in GWT addon when running GWT in\n          a project that has no source directory.\n\n        ",
+"name": "1.4.17",
+"revision": "1.4.17"
+},
+{
+"created": "2014-05-03",
+"description": "\n* Added:  Add the ability to generate a html report when using the\n          jacoco addon. Extracted from the ode project.\n* Fixed:  Remove the projectname.ids file when rebuilding the idea\n          project file avoiding conflict with idea.\n* Fixed:  Avoid passing duplicate -keep parameters to wsimport from\n          wsgen addon.\n* Change: Improved the error handling when generating java from wsdl\n          in the wsgen addon.\n* Change: Upgraded the Checkstyle plugin to use checkstyle 5.7 that\n          improves Java 7 compatibility.\n* Added:  Add support for configuration of the schema-pattern,\n          table-pattern and default-schemas settings in idea's\n          data source definitions.\n* Change: Upgraded the PMD plugin to use pmd 5.0.5 which for Java 7\n          compatibility.\n* Change: Derive the version of GWT in gwt addon from supplied\n          dependencies.\n* Fixed:  Include the compiled classes on path for GWT addon to\n          ensure the GWT compiler can load annotations.\n* Change: Derive the GWT version from build settings if not\n          explicitly specified by GWT addon.\n* Change: Support prefixing the version generated by the\n          gwt_auto_version addon with the environment\n          variable \"VERSION_PREFIX\".\n* Fixed:  Support overriding the GWT version used by the GWT addon.\n* Fixed:  Fix problem when the :dependencies option was not\n          passed to the GWT addon.\n* Fixed:  Avoid crash in GPG addon if unable to create a pom\n          for an artifact.\n* Fixed:  Correct location of Git mirror in the README. Submitted\n          by Marcos Sainz.\n\n        ",
+"name": "1.4.16",
+"revision": "1.4.16"
+},
+{
+"created": "2013-11-06",
+"description": "\n* Change: Update to TestNG 6.8.7.\n* Change: Updated the 'test_jar' package type to have a\n          classifier of 'tests' and thus match maven\n          conventions. Reported by Chris Bozic.\n* Fixed:  BUILDR-689 - Ensure that war file includes generated\n          assets rather than the \"source\" assets that may have\n          been filtered.\n* Fixed:  BUILDR-689 - Define assets task before the project is\n          defined to avoid \"undefined method `project='\" if the\n          project attempts to generate into the same directory.\n* Added:  BUILDR-679 - Support uploading to a snapshot repository\n          defined by repositories.snapshot_to if the artifact is\n          a snapshot. Submitted by Tammo van Lessen.\n* Change: Update the jaxb_xjc addon to add output directory to\n          generated IDEA project files.\n* Change: Update the default output directory used in the jaxb_xjc\n          addon to use Maven conventions.\n* Fixed:  Bug in IdeaProject.partition_dependencies resulted in\n          projects being rebuilt if artifacts were added to the\n          project with dependencies on the current project.\n* Fixed:  BUILDR-605 - Ensure package task invokes included paths.\n* Fixed:  BUILDR-609 - compile.from should accept Task argument.\n\n        ",
+"name": "1.4.15",
+"revision": "1.4.15"
+},
+{
+"created": "2013-10-11",
+"description": "\n* Change: Remove highline dependency.\n* Fixed:  BUILDR-682 - Fix the documentation for releasing using\n          your own versioning scheme. Submitted by Jean-Philippe\n          Caruana.\n* Fixed:  BUILDR-681 - Stop empty projects creating target/webapp.\n* Change: Add dependency from generated jws client source directory\n          to the source wsdl in the wsgen addon.\n* Fixed:  Fixed regression in gwt addon due to \"pathing_jar\"\n          functionality in Java::Commands.java.\n* Change: Support disabling the new \"pathing_jar\" functionality in\n          Java::Commands.java utility method. Required for tools\n          that introspect the classpath.\n* Change: Update wsgen addon to generate source into a directory\n          hierarchy based on maven conventions.\n* Fixed:  Fixed regression using transitive dependencies due to\n          presence of :scope option in Artifacts.to_hash.\n* Fixed:  Fixed bug in GWT addon that required that the user supply\n          the :dependencies option.\n* Fixed:  Fixed bug in Intellij project file generation when adding\n          a web facet.\n\n        ",
+"name": "1.4.14",
+"revision": "1.4.14"
+},
+{
+"created": "2013-10-02",
+"description": "\n* Fixed:  BUILDR-439 - Fix java command under windows when supplied\n          with extremely long classpath. Submitted By Tammo van Lessen.\n* Fixed:  BUILDR-394 - Fix release task with standalone distribution.\n          Submitted By Tammo van Lessen.\n* Added:  BUILDR-678 - Improve support for gpg signing artifacts\n          using a single method.\n* Fixed:  BUILDR-677 - GPG addon hangs when .asc files are still in\n          target. Submitted By Tammo van Lessen.\n* Added:  Initial support for data source creation in Intellij IDEA\n          project files.\n* Fixed:  BUILDR-676 - Rework Java::Command:java so that it does not\n          reject the :dir option. Reported by John Roth.\n* Added:  Auto-detect jpa provider in Intellij IDEA facet generation if\n          persistence.xml file is present and provider not specified.\n* Added:  Auto-detect jruby version in Intellij IDEA facet generation if\n          .ruby-version file is present.\n* Added:  Improve support for auto-detection of ejb and web descriptors\n          within Intellij IDEA project generation.\n* Change: Default to setting the \"User-Agent\" header to \"Buildr-VERSION\"\n          when accessing http resources. Maven Central rejects requests\n          without a User-Agent string.\n* Change: Change default scope of dependencies to 'compile'. Submitted\n          by Ingo Schmidt.\n* Change: BUILDR-675 - Set Cache-Control to 'no-cache' when downloading\n          artifacts. Submitted by Félix Enrique Llorente Pastora.\n* Added:  Initial support for simple integration of an asset pipeline.\n          See \"Compiling Assets\" section in the manual.\n* Fixed:  BUILDR-673 - Fix the option handling of the MultiTest test\n          framework to behave as documented. Only the framework specific\n          options are passed to the test. Submitted by John Roth.\n* Added:  BUILDR-672 - Persist the properties field in the checkstyle\n          addon so that they can be modified by the user. Submitted\n          by Wim C.\n* Fixed:  Make the package_as_* methods public so that the methods are\n          detected in Ruby >= 2.0.0 via the respond_to? method.\n* Change: Updated dependency versions;\n          - rspec-expectations (2.14.3)\n          - rspec-mocks (2.14.3)\n          - rspec-core (2.14.5)\n          - rspec (2.14.1)\n          - minitar (0.5.4)\n          - ci_reporter (1.8.4)\n          - xml-simple (1.1.2)\n          - rjb (1.4.8)\n          - diff-lcs (1.2.4)\n          - builder (3.2.2)\n          - net-ssh (2.7.0)\n          - net-sftp (2.1.2)\n          - hoe (3.7.1)\n          - json_pure (1.8.0)\n          - highline (1.6.19)\n* Fixed:  BUILDR-668 - Specify File::FNM_EXTGLOB for include globs\n          where needed in Ruby >= 2.0.0. Reported by Yavor Nikolov.\n* Fixed:  Ensure generation of buildfiles from eclipse projects will\n          finds .project files in Ruby >= 2.0.0.\n* Fixed:  Patch Rake::FileList in Ruby >= 2.0.0 to match dot files if\n          a .* pattern is supplied as in earlier versions of ruby.\n* Fixed:  Make Archive-related operations (e.g. zip.merge) deterministic using\n          OrderedHash.\n* Change: Update to TestNG 6.8.5.\n\n        ",
+"name": "1.4.13",
+"revision": "1.4.13"
+},
+{
+"created": "2013-05-04",
+"description": "\n* Added:  BUILDR-648 Add new package(:test_jar) packaging type.\n          Submitted by Mike Pettypiece.\n* Fixed:  BUILDR-666 ZipFile.open modifies file regardless of usage.\n          Reported by Pepijn Van Eeckhoudt, fix by Alex Boisvert.\n* Change: Moved to using TravisCI to test the Linux variants.\n* Added:  Make the location of the wsdl in generated source configurable\n          in the wsgen addon.\n* Added:  When generating the GWT facet for Intellij IDEA modules, use\n          the gwt-dev maven artifact dependency if present as the SDK,\n          falling back to the existing behaviour if not possible.\n* Added:  Improved support for auto-detection of VCS dirs when creating\n          IDEA projects.\n* Added:  Added support for SuperDevMode in gwt addon and upgraded to\n          GWT 2.5.1 by default.\n* Change: BUILDR-664 Update Checkstyle addon so that extra_dependencies is\n          empty by default. Submitted by Dieter Vrancken.\n* Fixed:  BUILDR-663 require 'buildr' fails for Ruby 2.0.0.\n* Fixed:  BUILDR-665 Java artifacts in build.yaml breaking ArchiveTask.\n          Submitted by Antonio Pérez Barrero.\n* Fixed:  BUILDR-662 reported time is much shorter than actual\n\n        ",
+"name": "1.4.12",
+"revision": "1.4.12"
+},
+{
+"created": "2013-03-14",
+"description": "\n* Fixed:  Multiple tests in TestNG 6.x versions were being incorrectly passed to\n          the command line application.\n\n        ",
+"name": "1.4.11",
+"revision": "1.4.11"
+},
+{
+"created": "2013-02-17",
+"description": "\n* Added:  Support a single intermediate directory for each project hierarchy\n          through an addon 'buildr/single_intermediate_layout'.\n* Fixed:  BUILDR-660 possible build issue when using build.yaml and tasks/*.rake\n          (Félix Enrique Llorente Pastora)\n* Added:  Support the :dir option in the Java::Commands.java method.\n* Fixed:  Scala 2.10 support - compiler now uses additional/separate jars\n          introduced in 2.10 such as scala-reflect.jar and scala-actor.jar\n* Added:  Add an addon for NSIS.\n* Change: BUILDR-612 - Support the TestNG 6.x versions and default\n          to 6.8.\n* Added:  BUILDR-599 - Support the passing of arguments to testng\n          test runner.\n* Fixed:  Observer the per-project source version when generating\n          IDEA module files.\n* Change: Sort the components in IDEA project files in the same\n          order the idea sorts them.\n* Fixed:  Findbugs addon correctly handles String dependencies\n          (vs task dependencies)\n* Fixed:  Checkstyle addon correctly handles String dependencies\n          (vs task dependencies)\n* Added:  Created an addon 'buildr/wsgen' for generating wsdls from java\n          and java from wsdls using the underlying wsgen tool.\n* Change: Defer the expansion of generated poms by wrapping the generation\n          in a Proc.\n* Change: Rework Artifact.content(value) method to accept a Proc that\n          will be called before the artifact is written rather than\n          requiring a string.\n* Added:  Create a 'buildr/gpg' addon that signs and uploads signatures\n          when uploading artifacts. Inspired by a similar extension in\n          the Apache ODE project by Tammo van Lessen.\n* Change: Updated dependency versions;\n          - jruby-openssl (0.8.2)\n          - atoulme-Antwrap (0.7.4)\n* Change: Require 'bundler/setup' as part of buildr startup to ensure that\n          buildr always runs with up to date dependencies if a Gemfile is\n          present.\n* Added:  Add FrameworkDetectionExcludesConfiguration facet to Idea project\n          file creation by default.\n* Fixed:  In the IntelliJ extension, defer the materialization of the\n          default_components until expansion time to avoid loss of sub-\n          components added after an add_component call.\n* Fixed:  BUILDR-633 - Remove hardcoded shebang lines in all-in-one release.\n* Added:  Create a simple extension that modifies the project layout to place\n          generated files at the top level.\n\n        ",
+"name": "1.4.10",
+"revision": "1.4.10"
+},
+{
+"created": "2012-11-08",
+"description": "\n* Fixed:  Fixed the interaction with the FileUtils classes. The last release\n          introduced a non-deterministic bug that sometimes caused logging\n          preferences to be ignored and the install method to be\n          inadvertently overwritten.\n\n        ",
+"name": "1.4.9",
+"revision": "1.4.9"
+},
+{
+"created": "2012-11-01",
+"name": "1.4.8",
+"revision": "1.4.8"
+}
+],
+"repository": [
+"http://git.apache.org/buildr.git"
+],
+"shortdesc": "Apache Buildr is a build system for Java-based applications, including support for Scala, Groovy and a growing number of JVM languages and tools."
 },
 "bval": {
 "bug-database": "http://issues.apache.org/jira/browse/BVAL",
@@ -6393,6 +6766,30 @@
 "https://svn.apache.org/repos/asf/gora/trunk/"
 ],
 "shortdesc": "The Apache Gora open source framework provides an in-memory data model and persistence for big data. Gora supports persisting to column stores, key value stores, document stores and RDBMSs, and analyzing the data with extensive Apache Hadoop MapReduce support."
+},
+"groovy": {
+"bug-database": "https://issues.apache.org/jira/browse/GROOVY",
+"category": "library",
+"created": "2015-12-23",
+"description": "Apache Groovy is a powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform aimed at improving developer productivity thanks to a concise, familiar and easy to learn syntax. It integrates smoothly with any Java program, and immediately delivers to your application powerful features, including scripting capabilities, Domain-Specific Language authoring, runtime and compile-time meta-programming and functional programming.",
+"doap": "https://gitbox.apache.org/repos/asf?p=groovy.git;a=blob_plain;f=DOAP.rdf",
+"download-page": "http://groovy-lang.org/download.html",
+"homepage": "http://groovy.apache.org",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "http://groovy-lang.org/mailing-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:dev@groovy.apache.org",
+"name": "Groovy Team"
+}
+],
+"name": "Apache Groovy",
+"pmc": "groovy",
+"programming-language": "Java",
+"repository": [
+"https://git-wip-us.apache.org/repos/asf/groovy.git"
+],
+"shortdesc": "A multi-faceted language for the Java platform"
 },
 "guacamole": {
 "bug-database": "https://issues.apache.org/jira/browse/GUACAMOLE",
