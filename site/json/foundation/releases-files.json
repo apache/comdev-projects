@@ -6540,12 +6540,13 @@
 ]
 },
 "johnzon": {
+"apache-johnzon-1.0.2": [
+"johnzon/johnzon-1.0.2/apache-johnzon-1.0.2-src.tar.gz",
+"johnzon/johnzon-1.0.2/apache-johnzon-1.0.2-src.zip"
+],
 "apache-johnzon-1.1.10": [
 "johnzon/johnzon-1.1.10/apache-johnzon-1.1.10-src.tar.gz",
 "johnzon/johnzon-1.1.10/apache-johnzon-1.1.10-src.zip"
-],
-"johnzon-1.0.1": [
-"johnzon/johnzon-1.0.1/johnzon-1.0.1-source-release.zip"
 ]
 },
 "jspwiki": {
@@ -6702,19 +6703,10 @@
 ]
 },
 "knox": {
-"knox-1.1.0": [
-"knox/1.1.0/knox-1.1.0-src.zip",
-"knox/1.1.0/knox-1.1.0.tar.gz",
-"knox/1.1.0/knox-1.1.0.zip"
-],
 "knox-1.2.0": [
 "knox/1.2.0/knox-1.2.0-src.zip",
 "knox/1.2.0/knox-1.2.0.tar.gz",
 "knox/1.2.0/knox-1.2.0.zip"
-],
-"knoxshell-1.1.0": [
-"knox/1.1.0/knoxshell-1.1.0.tar.gz",
-"knox/1.1.0/knoxshell-1.1.0.zip"
 ],
 "knoxshell-1.2.0": [
 "knox/1.2.0/knoxshell-1.2.0.tar.gz",
@@ -7099,8 +7091,8 @@
 "maven-clean-plugin-3.1.0": [
 "maven/plugins/maven-clean-plugin-3.1.0-source-release.zip"
 ],
-"maven-common-artifact-filters-3.0.1": [
-"maven/shared/maven-common-artifact-filters-3.0.1-source-release.zip"
+"maven-common-artifact-filters-3.1.0": [
+"maven/shared/maven-common-artifact-filters-3.1.0-source-release.zip"
 ],
 "maven-compiler-plugin-3.8.0": [
 "maven/plugins/maven-compiler-plugin-3.8.0-source-release.zip"
@@ -8493,6 +8485,9 @@
 "apache-servicecomb-java-chassis-distribution-1.1.0": [
 "servicecomb/servicecomb-java-chassis/1.1.0/apache-servicecomb-java-chassis-distribution-1.1.0-src.zip"
 ],
+"apache-servicecomb-saga-actuator-distribution-0.3.0": [
+"servicecomb/servicecomb-saga-actuator/0.3.0/apache-servicecomb-saga-actuator-distribution-0.3.0-src.zip"
+],
 "apache-servicecomb-saga-distribution-0.2.1": [
 "servicecomb/servicecomb-saga/0.2.1/apache-servicecomb-saga-distribution-0.2.1-src.zip"
 ],
@@ -8596,8 +8591,8 @@
 "org.apache.sling.adapter-2.1.10": [
 "sling/org.apache.sling.adapter-2.1.10-source-release.zip"
 ],
-"org.apache.sling.api-2.18.4": [
-"sling/org.apache.sling.api-2.18.4-source-release.zip"
+"org.apache.sling.api-2.20.0": [
+"sling/org.apache.sling.api-2.20.0-source-release.zip"
 ],
 "org.apache.sling.auth.core-1.4.2": [
 "sling/org.apache.sling.auth.core-1.4.2-source-release.zip"
@@ -9131,8 +9126,8 @@
 "org.apache.sling.servlet-helpers-1.1.8": [
 "sling/org.apache.sling.servlet-helpers-1.1.8-source-release.zip"
 ],
-"org.apache.sling.servlets.annotations-1.1.0": [
-"sling/org.apache.sling.servlets.annotations-1.1.0-source-release.zip"
+"org.apache.sling.servlets.annotations-1.2.4": [
+"sling/org.apache.sling.servlets.annotations-1.2.4-source-release.zip"
 ],
 "org.apache.sling.servlets.compat-1.0.2": [
 "sling/org.apache.sling.servlets.compat-1.0.2-source-release.zip"
@@ -9143,8 +9138,8 @@
 "org.apache.sling.servlets.post-2.3.26": [
 "sling/org.apache.sling.servlets.post-2.3.26-source-release.zip"
 ],
-"org.apache.sling.servlets.resolver-2.4.24": [
-"sling/org.apache.sling.servlets.resolver-2.4.24-source-release.zip"
+"org.apache.sling.servlets.resolver-2.5.2": [
+"sling/org.apache.sling.servlets.resolver-2.5.2-source-release.zip"
 ],
 "org.apache.sling.settings-1.3.10": [
 "sling/org.apache.sling.settings-1.3.10-source-release.zip"
@@ -9766,6 +9761,10 @@
 "apache-tapestry-5.4.3": [
 "tapestry/apache-tapestry-5.4.3-apidocs.zip",
 "tapestry/apache-tapestry-5.4.3-sources.zip"
+],
+"apache-tapestry-5.4.4": [
+"tapestry/apache-tapestry-5.4.4-apidocs.zip",
+"tapestry/apache-tapestry-5.4.4-sources.zip"
 ]
 },
 "tcl": {
@@ -9930,6 +9929,19 @@
 "tomcat/tomcat-8/v8.5.35/bin/apache-tomcat-8.5.35.zip",
 "tomcat/tomcat-8/v8.5.35/src/apache-tomcat-8.5.35-src.tar.gz",
 "tomcat/tomcat-8/v8.5.35/src/apache-tomcat-8.5.35-src.zip"
+],
+"apache-tomcat-8.5.37": [
+"tomcat/tomcat-8/v8.5.37/bin/embed/apache-tomcat-8.5.37-embed.tar.gz",
+"tomcat/tomcat-8/v8.5.37/bin/embed/apache-tomcat-8.5.37-embed.zip",
+"tomcat/tomcat-8/v8.5.37/bin/apache-tomcat-8.5.37-deployer.tar.gz",
+"tomcat/tomcat-8/v8.5.37/bin/apache-tomcat-8.5.37-deployer.zip",
+"tomcat/tomcat-8/v8.5.37/bin/apache-tomcat-8.5.37-fulldocs.tar.gz",
+"tomcat/tomcat-8/v8.5.37/bin/apache-tomcat-8.5.37-windows-x64.zip",
+"tomcat/tomcat-8/v8.5.37/bin/apache-tomcat-8.5.37.exe",
+"tomcat/tomcat-8/v8.5.37/bin/apache-tomcat-8.5.37.tar.gz",
+"tomcat/tomcat-8/v8.5.37/bin/apache-tomcat-8.5.37.zip",
+"tomcat/tomcat-8/v8.5.37/src/apache-tomcat-8.5.37-src.tar.gz",
+"tomcat/tomcat-8/v8.5.37/src/apache-tomcat-8.5.37-src.zip"
 ],
 "apache-tomcat-9.0.14": [
 "tomcat/tomcat-9/v9.0.14/bin/embed/apache-tomcat-9.0.14-embed.tar.gz",
