@@ -601,56 +601,6 @@
 ],
 "shortdesc": "Apache Ivy is a very powerful dependency manager oriented toward Java dependency management, even though it could be used to manage dependencies of any kind."
 },
-"ant-ivyde": {
-"bug-database": "https://issues.apache.org/jira/browse/IVYDE",
-"category": "build-management",
-"created": "2010-11-16",
-"description": "IvyDE lets you manage your dependencies declared in an ivy.xml in your Java Eclipse projects. IvyDE will contribute to the classpath of your Java project, with the classpath container. It also bring an editor of ivy.xml files, with completion.",
-"doap": "https://gitbox.apache.org/repos/asf?p=ant-ivyde.git;a=blob_plain;f=doap_IvyDE.rdf;hb=HEAD",
-"download-page": "http://ant.apache.org/ivy/ivyde/download.cgi",
-"homepage": "http://ant.apache.org/ivyde/",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://ant.apache.org/ivy/ivyde/mailing-lists.html",
-"name": "Apache IvyDE",
-"pmc": "ant",
-"programming-language": "Java",
-"release": [
-{
-"created": "2013-11-22",
-"name": "Apache IvyDE",
-"revision": "2.2.0.final"
-},
-{
-"created": "2012-04-05",
-"name": "Apache IvyDE",
-"revision": "2.2.0.beta1"
-},
-{
-"created": "2010-08-18",
-"name": "Apache IvyDE",
-"revision": "2.1.0"
-},
-{
-"created": "2009-07-09",
-"name": "Apache IvyDE",
-"revision": "2.0.0-final"
-},
-{
-"created": "2008-12-08",
-"name": "Apache IvyDE",
-"revision": "2.0.0-beta1"
-},
-{
-"created": "2008-06-30",
-"name": "Apache IvyDE",
-"revision": "2.0.0-alpha1"
-}
-],
-"repository": [
-"https://gitbox.apache.org/repos/asf/ant-ivyde.git"
-],
-"shortdesc": "Integrate Ivy in Eclipse with the IvyDE plugin."
-},
 "ant-props": {
 "bug-database": "http://issues.apache.org/bugzilla/buglist.cgi?product=Ant",
 "category": "build-management",
@@ -2554,109 +2504,6 @@
 ],
 "shortdesc": "A reliable replicated log service"
 },
-"brooklyn": {
-"bug-database": "https://issues.apache.org/jira/browse/BROOKLYN/",
-"category": "cloud",
-"created": "2016-02-23",
-"description": "Brooklyn is about deploying and managing applications: composing a full stack for an application;\n        deploying to cloud and non-cloud targets; using monitoring tools to collect key health/performance metrics;\n        responding to situations such as a failing node; and adding or removing capacity to match demand.",
-"doap": "https://gitbox.apache.org/repos/asf?p=brooklyn.git;a=blob_plain;f=doap_Brooklyn.rdf;hb=HEAD",
-"download-page": "http://brooklyn.apache.org/download/index.html",
-"homepage": "http://brooklyn.apache.org",
-"license": "http://spdx.org/licenses/Apache-2.0",
-"mailing-list": "http://brooklyn.apache.org/community/mailing-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:aledsage@apache.org",
-"name": "Aled Sage"
-},
-{
-"mbox": "mailto:andreaturli@apache.org",
-"name": "Andrea Turli"
-},
-{
-"mbox": "mailto:cipi@apache.org",
-"name": "Ciprian Ciubotariu"
-},
-{
-"mbox": "mailto:drigodwin@apache.org",
-"name": "Duncan Godwin"
-},
-{
-"mbox": "mailto:geomacy@apache.org",
-"name": "Geoff Macartney"
-},
-{
-"mbox": "mailto:grkvlt@apache.org",
-"name": "Andrew Kennedy"
-},
-{
-"mbox": "mailto:hadrian@apache.org",
-"name": "Hadrian Zbarcea"
-},
-{
-"mbox": "mailto:heneveld@apache.org",
-"name": "Alex Heneveld"
-},
-{
-"mbox": "mailto:jbonofre@apache.org",
-"name": "Jean-Baptiste Onofré"
-},
-{
-"mbox": "mailto:m4rkmckenna@apache.org",
-"name": "Mark McKenna"
-},
-{
-"mbox": "mailto:olamy@apache.org",
-"name": "Olivier Lamy"
-},
-{
-"mbox": "mailto:richard@apache.org",
-"name": "Richard Downer"
-},
-{
-"mbox": "mailto:sjcorbett@apache.org",
-"name": "Sam Corbett"
-},
-{
-"mbox": "mailto:svet@apache.org",
-"name": "Svetoslav Neykov"
-}
-],
-"name": "Apache Brooklyn",
-"pmc": "brooklyn",
-"programming-language": "Java",
-"release": [
-{
-"created": "2017-05-18",
-"name": "0.11.0",
-"revision": "0.11.0"
-},
-{
-"created": "2016-12-26",
-"name": "0.10.0",
-"revision": "0.10.0"
-},
-{
-"created": "2016-04-18",
-"name": "0.9.0",
-"revision": "0.9.0"
-},
-{
-"created": "2015-09-14",
-"name": "0.8.0-incubating",
-"revision": "0.8.0-incubating"
-},
-{
-"created": "2015-07-15",
-"name": "0.7.0-incubating",
-"revision": "0.7.0-incubating"
-}
-],
-"repository": [
-"https://git-wip-us.apache.org/repos/asf/brooklyn.git"
-],
-"shortdesc": "Apache Brooklyn is a framework for modeling, monitoring, and managing applications through autonomic blueprints."
-},
 "buildr": {
 "bug-database": "http://issues.apache.org/jira/browse/Buildr",
 "category": "build-management",
@@ -2929,27 +2776,6 @@
 "https://git-wip-us.apache.org/repos/asf/calcite.git"
 ],
 "shortdesc": "A dynamic data management framework."
-},
-"camel": {
-"bug-database": "http://issues.apache.org/activemq/browse/CAMEL",
-"category": "osgi, network-server, network-client",
-"created": "2008-12-17",
-"description": "Apache Camel is a powerful open source integration library based on Enterprise Integration Patterns.\nRules for Camel's routing engine can be defined in either a Java based DSL or XML.",
-"doap": "https://gitbox.apache.org/repos/asf?p=camel.git;a=blob_plain;f=doap.rdf;hb=HEAD",
-"download-page": "http://camel.apache.org/download.html",
-"homepage": "http://camel.apache.org/",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://camel.apache.org/mailing-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:cmueller@apache.org",
-"name": "Christian Mueller"
-}
-],
-"name": "Apache Camel",
-"pmc": "camel",
-"programming-language": "Java, XML",
-"shortdesc": "Apache Camel is a powerful open source integration library."
 },
 "carbondata": {
 "bug-database": "https://issues.apache.org/jira/browse/CARBONDATA",
@@ -5866,50 +5692,6 @@
 ],
 "shortdesc": "A set of Java libraries that make using Apache ZooKeeper much easier."
 },
-"cxf": {
-"bug-database": "http://issues.apache.org/jira/browse/CXF",
-"category": "library, xml, network-client, network-server",
-"created": "2009-04-04",
-"description": "Apache CXF is an open source services framework. CXF helps you build and develop services using frontend programming APIs like JAX-WS and JAX-RS. These services can speak a variety of protocols such as SOAP, XML/HTTP, RESTful HTTP, or CORBA and work over a variety of transports such as HTTP, JMS or JBI.",
-"doap": "https://gitbox.apache.org/repos/asf?p=cxf.git;a=blob_plain;f=etc/cxf.rdf;hb=HEAD",
-"download-page": "http://cxf.apache.org/download.html",
-"homepage": "http://cxf.apache.org/",
-"implements": [
-{
-"body": "JCP",
-"id": "JSR 181",
-"title": "Web Services Metadata",
-"url": "http://www.jcp.org/en/jsr/detail?id=181"
-},
-{
-"body": "JCP",
-"id": "JSR 224",
-"title": "JAX-WS",
-"url": "http://www.jcp.org/en/jsr/detail?id=224"
-},
-{
-"body": "JCP",
-"id": "JSR 311",
-"title": "JAX-RS",
-"url": "http://www.jcp.org/en/jsr/detail?id=311"
-}
-],
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://cxf.apache.org/mailing-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:dkulp@apache.org",
-"name": "Daniel Kulp"
-}
-],
-"name": "Apache CXF",
-"pmc": "cxf",
-"programming-language": "Java",
-"repository": [
-"https://gitbox.apache.org/repos/asf/cxf.git"
-],
-"shortdesc": "Apache CXF: An Open Source Service Framework"
-},
 "db-derby": {
 "bug-database": "http://issues.apache.org/jira/browse/DERBY",
 "category": "database",
@@ -6293,37 +6075,6 @@
 "http://svn.apache.org/repos/asf/directory/studio/"
 ],
 "shortdesc": "The Eclipse based LDAP browser and directory client"
-},
-"drill": {
-"bug-database": "https://issues.apache.org/jira/browse/DRILL/",
-"category": "big-data",
-"created": "2015-01-04",
-"description": "Apache Drill is a distributed MPP query layer that supports SQL and alternative query languages against NoSQL and Hadoop data storage systems. It was inspired in part by Google's Dremel.",
-"doap": "https://gitbox.apache.org/repos/asf?p=drill.git;a=blob_plain;f=doap_Drill.rdf;hb=refs/heads/gh-pages",
-"download-page": "http://drill.apache.org/download/",
-"homepage": "http://drill.apache.org",
-"license": "http://spdx.org/licenses/Apache-2.0",
-"mailing-list": "http://drill.apache.org/community/#mailinglists",
-"maintainer": [
-{
-"mbox": "mailto:jacques@apache.org",
-"name": "Jacques Nadeau"
-}
-],
-"name": "Apache Drill",
-"pmc": "drill",
-"programming-language": "Java",
-"release": [
-{
-"created": "2014-12-23",
-"name": "0.7.0",
-"revision": "0.7.0"
-}
-],
-"repository": [
-"git://git.apache.org/drill.git"
-],
-"shortdesc": "A distributed SQL MPP for Hadoop and NoSQL"
 },
 "empire-db": {
 "bug-database": "https://issues.apache.org/jira/browse/EMPIREDB",
@@ -8707,15 +8458,15 @@
 "shortdesc": "Apache Kibble is a suite of tools for collecting, aggregating and visualizing activity in software projects. "
 },
 "knox": {
-"bug-database": "http://issues.apache.org/jira/browse/KNOX",
+"bug-database": "https://issues.apache.org/jira/browse/KNOX",
 "category": "big-data",
 "created": "2014-06-12",
 "description": "The Apache Knox Gateway is a REST API Gateway for interacting with Hadoop clusters.\n\nThe Knox Gateway provides a single access point for all REST interactions with Hadoop clusters.\n\nIn this capacity, the Knox Gateway is able to provide valuable functionality to aid in the control,\nintegration, monitoring and automation of critical administrative and analytical needs of the enterprise.\n\nAuthentication (LDAP and Active Directory Authentication Provider)\nFederation/SSO (HTTP Header Based Identity Federation)\nAuthorization (Service Level Authorization)\nAuditing\nWhile there are a number of benefits for unsecured Hadoop clusters,\nthe Knox Gateway also complements the kerberos secured cluster quite nicely.\n\nCoupled with proper network isolation of a Kerberos secured Hadoop cluster,\nthe Knox Gateway provides the enterprise with a solution that:\n\nIntegrates well with enterprise identity management solutions\nProtects the details of the Hadoop cluster deployment (hosts and ports are hidden from endusers)\nSimplifies the number of services that clients need to interact with",
 "doap": "https://git-wip-us.apache.org/repos/asf?p=knox.git;a=blob_plain;f=doap_Knox.rdf",
-"download-page": "https://cwiki.apache.org/confluence/display/KNOX/Release+1.1.0",
-"homepage": "http://knox.apache.org",
-"license": "http://www.apache.org/licenses/LICENSE-2.0",
-"mailing-list": "http://knox.apache.org/mail-lists.html",
+"download-page": "https://cwiki.apache.org/confluence/display/KNOX/Release+1.2.0",
+"homepage": "https://knox.apache.org",
+"license": "https://www.apache.org/licenses/LICENSE-2.0",
+"mailing-list": "https://knox.apache.org/mail-lists.html",
 "maintainer": [
 {
 "mbox": "mailto:dev@knox.apache.org",
@@ -8726,6 +8477,11 @@
 "pmc": "knox",
 "programming-language": "Java",
 "release": [
+{
+"created": "2018/12/18",
+"name": "Apache Knox Gateway 1.2.0",
+"revision": "1.2.0"
+},
 {
 "created": "2018/07/30",
 "name": "Apache Knox Gateway 1.1.0",
@@ -12190,8 +11946,8 @@
 }
 ],
 "repository": [
-"http://svn.apache.org/repos/asf/opennlp",
-"https://github.com/apache/opennlp.git"
+"https://github.com/apache/opennlp.git",
+"http://svn.apache.org/repos/asf/opennlp"
 ],
 "shortdesc": "Apache OpenNLP library software is a machine learning based toolkit for the processing of natural language text.."
 },
@@ -12963,29 +12719,6 @@
 "http://svn.apache.org/repos/asf/portals"
 ],
 "shortdesc": "Apache Portals software provides a robust, full-featured, commercial-quality, and freely available Portal related software on a wide variety of platforms and programming languages."
-},
-"predictionio": {
-"bug-database": "https://issues.apache.org/jira/browse/PIO",
-"category": "big-data",
-"created": "2016-05-26",
-"description": "PredictionIO is an open source Machine Learning Server built on top of state-of-the-art open source stack, that enables developers to manage and deploy production-ready predictive services for various kinds of machine learning tasks.",
-"doap": "https://gitbox.apache.org/repos/asf?p=predictionio.git;a=blob_plain;f=doap.rdf;hb=refs/heads/develop",
-"homepage": "http://predictionio.apache.org/",
-"license": "http://spdx.org/licenses/Apache-2.0",
-"mailing-list": "http://predictionio.apache.org/support/",
-"maintainer": [
-{
-"mbox": "mailto:donald@apache.org",
-"name": "Donald Szeto"
-}
-],
-"name": "Apache PredictionIO",
-"pmc": "predictionio",
-"programming-language": "Scala",
-"repository": [
-"https://gitbox.apache.org/repos/asf/predictionio.git"
-],
-"shortdesc": "PredictionIO is an open source Machine Learning Server built on top of state-of-the-art open source stack, that enables developers to manage and deploy production-ready predictive services for various kinds of machine learning tasks."
 },
 "qpid": {
 "bug-database": "http://issues.apache.org/jira/browse/qpid, http://issues.apache.org/jira/browse/PROTON",
@@ -14535,45 +14268,6 @@
 "shortdesc": "Apache TomEE is an all-Apache Java EE 6 Web Profile stack for Apache Tomcat",
 "vendor": "The Apache Software Foundation"
 },
-"trafficserver-traffic_server": {
-"bug-database": "https://issues.apache.org/jira/browse/TS",
-"category": "http",
-"created": "2011-04-08",
-"description": "Apache Traffic Server is fast, scalable and extensible HTTP/1.1 compliant caching proxy server. ATS can be used as a reverse, forward or even transparent HTTP proxy.\n    ",
-"doap": "https://gitbox.apache.org/repos/asf?p=trafficserver.git;a=blob_plain;f=doc/doap.rdf;hb=HEAD",
-"download-page": "http://trafficserver.apache.org/downloads.html",
-"homepage": "http://trafficserver.apache.org",
-"implements": [
-{
-"body": "IETF",
-"id": "2616",
-"title": "HTTP/1.1",
-"url": "http://www.ietf.org/rfc/rfc2616.txt"
-}
-],
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://trafficserver.apache.org/",
-"maintainer": [
-{
-"mbox": "mailto:zwoop@apache.org",
-"name": "Leif Hedstrom"
-}
-],
-"name": "Apache Traffic Server",
-"pmc": "trafficserver",
-"programming-language": "C++",
-"release": [
-{
-"created": "2012-03-21",
-"name": "trafficserver",
-"revision": "3.0.4"
-}
-],
-"repository": [
-"https://git-wip-us.apache.org/repos/asf/trafficserver.git"
-],
-"shortdesc": "Apache Traffic Server is an HTTP proxy cache."
-},
 "trafodion": {
 "bug-database": "http://issues.apache.org/jira/browse/TRAFODION",
 "category": "big-data",
@@ -15262,23 +14956,6 @@
 "https://svn.apache.org/repos/asf/webservices/woden/"
 ],
 "shortdesc": "The Woden project is a subproject of the Apache Web Services to develop a Java class library for reading, manipulating, creating and writing WSDL documents, initially to support WSDL 2.0 but with the longer term aim of supporting past, present and future versions of WSDL"
-},
-"whimsy": {
-"bug-database": "https://issues.apache.org/jira/browse/WHIMSY",
-"category": "content",
-"created": "2015-06-25",
-"description": "The production Whimsy server also has a number of tools that automate some organizational processes, \n    like adding PMC members to official corporate rosters or reading, updating, and approving the monthly board agenda.",
-"doap": "https://gitbox.apache.org/repos/asf?p=whimsy.git;a=blob_plain;f=doap_Whimsy.rdf;hb=HEAD",
-"homepage": "http://whimsy.apache.org/",
-"license": "http://spdx.org/licenses/Apache-2.0",
-"mailing-list": "https://lists.apache.org/list.html?dev@whimsical.apache.org",
-"name": "Apache Whimsy",
-"pmc": "whimsy",
-"programming-language": "JavaScript, Ruby",
-"repository": [
-"https://gitbox.apache.org/repos/asf/whimsy.git"
-],
-"shortdesc": "Tools that display and visualize various bits of data related to ASF organizations and processes."
 },
 "wicket": {
 "bug-database": "http://issues.apache.org/jira/browse/WICKET",
