@@ -300,7 +300,8 @@ if len(failures) > 0:
         f.write("</doapFiles>\n")
         f.close()
         if unreportedError:
-            printMail("ERROR: one or more errors detected - see the parseprojects.py log file")    
+            s = "\n".join(failures)
+            printMail("ERROR: one or more errors detected - see also the parseprojects.py log file\nURLs:\n%s" % s)
 else:
     if os.path.exists("parseprojects-failures.xml"):
         print("No failures detected, removing previous failure data")
