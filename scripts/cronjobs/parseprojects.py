@@ -158,7 +158,15 @@ for s in itemlist :
     url = s.childNodes[0].data
     try:
         rdf = None
-        rdf = urllib.request.urlopen(url, timeout=URL_TIMEOUT).read()
+        try:
+            rdf = urllib.request.urlopen(url, timeout=URL_TIMEOUT).read()
+        except OSError as err:
+            if isinstance(err, urllib.error.HTTPError) and err.code == 404:            
+                url = url.replace('git-wip-us.apache.org','gitbox.apache.org', 1)
+                rdf = urllib.request.urlopen(url, timeout=URL_TIMEOUT).read()
+                print("INFO: succeeded with gitbox for %s" % url)
+            else:
+                raise err
         rdfxml = ET.fromstring(rdf)
         project = rdfxml[0]
         pjson = {
