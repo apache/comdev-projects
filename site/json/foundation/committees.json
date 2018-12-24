@@ -370,6 +370,85 @@
 "shortdesc": "Workflow and Computational Job Management Middleware"
 },
 {
+"chair": "bolke",
+"established": "2018-12",
+"group": "airflow",
+"homepage": "http://airflow.apache.org/",
+"id": "airflow",
+"name": "Apache Airflow",
+"reporting": 3,
+"roster": {
+"alexvanboxel": {
+"date": "2018-12-19",
+"name": "Alex Van Boxel"
+},
+"arthur": {
+"date": "2018-12-19",
+"name": "Arthur Wiedmer"
+},
+"ash": {
+"date": "2018-12-19",
+"name": "Ash Berlin-Taylor"
+},
+"bolke": {
+"date": "2018-12-19",
+"name": "Bolke de Bruin"
+},
+"criccomini": {
+"date": "2018-12-19",
+"name": "Chris Riccomini"
+},
+"davydov": {
+"date": "2018-12-19",
+"name": "Dan Davydov"
+},
+"fokko": {
+"date": "2018-12-19",
+"name": "Fokko Driesprong"
+},
+"hitesh": {
+"date": "2018-12-19",
+"name": "Hitesh Shah"
+},
+"jghoman": {
+"date": "2018-12-19",
+"name": "Jakob Homan"
+},
+"jlowin": {
+"date": "2018-12-19",
+"name": "Jeremiah Lowin"
+},
+"joygao": {
+"date": "2018-12-19",
+"name": "Joy Gao"
+},
+"kaxilnaik": {
+"date": "2018-12-19",
+"name": "Kaxil Naik"
+},
+"maximebeauchemin": {
+"date": "2018-12-19",
+"name": "Maxime Beauchemin"
+},
+"msumit": {
+"date": "2018-12-19",
+"name": "Sumit Maheshwari"
+},
+"saguziel": {
+"date": "2018-12-19",
+"name": "Alex Guziel"
+},
+"sanand": {
+"date": "2018-12-19",
+"name": "Siddharth Anand"
+},
+"tfeng": {
+"date": "2018-12-19",
+"name": "Tao Feng"
+}
+}
+},
+{
 "chair": "brondsem",
 "charter": "The mission of Apache Allura is the creation and maintenance of software related to a software development infrastructure platform commonly known as a \"forge\"",
 "established": "2014-03",
@@ -2660,7 +2739,7 @@
 "shortdesc": "Apache BVal: JSR-303 Bean Validation Implementation and Extensions"
 },
 {
-"chair": "mmior",
+"chair": "francischuang",
 "established": "2015-10",
 "group": "calcite",
 "homepage": "http://calcite.apache.org/",
@@ -4093,7 +4172,7 @@
 "shortdesc": "Resources to help people become involved with Apache projects"
 },
 {
-"chair": "shazron",
+"chair": "purplecabbage",
 "established": "2012-10",
 "group": "cordova",
 "homepage": "http://cordova.apache.org/",
@@ -5912,7 +5991,7 @@
 "shortdesc": "OSGi Framework and components."
 },
 {
-"chair": "myrle",
+"chair": "vishwasbabu",
 "charter": "The mission of Apache Fineract is the creation and maintenance of software related to a core banking platform that provides a reliable, robust, and affordable solution for entrepreneurs, financial institutions, and service providers to offer financial services to the world's underbanked and unbanked.",
 "established": "2017-04",
 "group": "fineract",
@@ -6968,7 +7047,7 @@
 "shortdesc": "Iterative graph processing system built for high scalability"
 },
 {
-"chair": "lewismc",
+"chair": "djkevincr",
 "established": "2012-01",
 "group": "gora",
 "homepage": "http://gora.apache.org/",
@@ -11738,7 +11817,7 @@
 "shortdesc": "Cross-language logging services"
 },
 {
-"chair": "jpountz",
+"chair": "ctargett",
 "established": "2005-01",
 "group": "lucene",
 "homepage": "http://lucene.apache.org/",
@@ -15184,67 +15263,6 @@
 "shortdesc": "Java API for OLE 2 Compound and OOXML Documents"
 },
 {
-"chair": "jiri",
-"established": "2015-03",
-"group": "polygene",
-"homepage": "http://polygene.apache.org/",
-"id": "polygene",
-"name": "Apache Polygene",
-"rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/polygene.rdf",
-"reporting": 3,
-"roster": {
-"akarasulu": {
-"date": "2015-03-18",
-"name": "Alex Karasulu"
-},
-"jcarman": {
-"date": "2015-03-18",
-"name": "James Carman"
-},
-"jgenender": {
-"date": "2015-03-18",
-"name": "Jeff Genender"
-},
-"jiri": {
-"date": "2015-06-01",
-"name": "Jiri Jetmar"
-},
-"marrs": {
-"date": "2015-03-18",
-"name": "Marcel Offermans"
-},
-"mattmann": {
-"date": "2015-03-18",
-"name": "Chris Mattmann"
-},
-"niclas": {
-"date": "2015-03-18",
-"name": "Niclas Hedhman"
-},
-"paulmerlin": {
-"date": "2015-05-01",
-"name": "Paul Merlin"
-},
-"rvs": {
-"date": "2015-03-18",
-"name": "Roman Shaposhnik"
-},
-"smartini": {
-"date": "2015-03-18",
-"name": "Sandro Martini"
-},
-"soelvsten": {
-"date": "2015-09-22",
-"name": "Kent S\u00f8lvsten"
-},
-"stanislavm": {
-"date": "2017-06-12",
-"name": "Stanislav Muhametsin"
-}
-},
-"shortdesc": "community based effort exploring Composite Oriented Programming for domain centric application development"
-},
-{
 "chair": "niq",
 "charter": "The mission of the Apache Portable Runtime (APR) project is to create and maintain software libraries that provide a predictable and consistent interface to underlying platform-specific implementations. The primary goal is to provide an API to which software developers may code and be assured of predictable if not identical behaviour regardless of the platform on which their software is built, relieving them of the need to code special-case conditions to work around or take advantage of platform-specific deficiencies or features.",
 "established": "2000-12",
@@ -18671,8 +18689,7 @@
 "date": "2015-05-31",
 "name": "Jeff Zhang"
 }
-},
-"shortdesc": "High-performance and scalable distributed data processing framework"
+}
 },
 {
 "chair": "jfarrell",
@@ -18887,51 +18904,6 @@
 }
 },
 "shortdesc": "Content Analysis and Detection Toolkit"
-},
-{
-"chair": "mck",
-"established": "2006-12",
-"group": "tiles",
-"homepage": "http://tiles.apache.org/",
-"id": "tiles",
-"name": "Apache Tiles",
-"rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/tiles.rdf",
-"reporting": 3,
-"roster": {
-"craigmcc": {
-"date": "2006-12-20",
-"name": "Craig McClanahan"
-},
-"ddewolf": {
-"date": "2006-12-20",
-"name": "David H. DeWolf"
-},
-"germuska": {
-"date": "2007-01-20",
-"name": "Joe Germuska"
-},
-"greddin": {
-"date": "2006-12-20",
-"name": "Gregory D. Reddin"
-},
-"mck": {
-"date": "2011-08-11",
-"name": "Mick Semb Wever"
-},
-"nbubna": {
-"date": "2006-12-20",
-"name": "Nathan Bubna"
-},
-"nlebas": {
-"date": "2012-04-23",
-"name": "Nicolas LE BAS"
-},
-"wsmoak": {
-"date": "2006-12-20",
-"name": "Wendy Smoak"
-}
-},
-"shortdesc": "A templating framework for web application user interfaces"
 },
 {
 "chair": "spmallette",
