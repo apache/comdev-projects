@@ -1976,6 +1976,37 @@
 ],
 "shortdesc": "Apache Stratos is a highly-extensible Platform-as-a-Service (PaaS) framework that helps run Apache Tomcat, PHP, and MySQL applications and can be extended to support many more environments on all major cloud infrastructures. "
 },
+"attic-tiles": {
+"bug-database": "https://issues.apache.org/jira/browse/TILES",
+"category": "web-framework, retired",
+"created": "2011-09-01",
+"description": "Apache Tiles™ is a templating framework built to simplify the development of web application user interfaces.\n\n    Tiles allows authors to define page fragments which can be assembled into a \n    complete page at runtime. These fragments, or tiles, can be used as simple \n    includes in order to reduce the duplication of common page elements or embedded \n    within other tiles to develop a series of reusable templates. These templates \n    streamline the development of a consistent look and feel across an entire application.\n    ",
+"doap": "http://svn.apache.org/repos/asf/tiles/site/doap_Tiles.rdf",
+"download-page": "http://tiles.apache.org/download.html",
+"homepage": "http://tiles.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://tiles.apache.org/mail.html",
+"maintainer": [
+{
+"mbox": "mailto:greddin@apache.org",
+"name": "Greg Reddin"
+}
+],
+"name": "Apache Tiles",
+"pmc": "attic",
+"programming-language": "Java",
+"release": [
+{
+"created": "2010-06-28",
+"name": "Apache Tiles",
+"revision": "2.2.2"
+}
+],
+"repository": [
+"http://svn.apache.org/repos/asf/tiles"
+],
+"shortdesc": "Apache Tiles™ is a templating framework built to simplify the development of web application user interfaces."
+},
 "attic-tuscany": {
 "bug-database": "http://issues.apache.org/jira/browse/Tuscany",
 "category": "web-framework, retired",
@@ -12195,8 +12226,8 @@
 }
 ],
 "repository": [
-"https://github.com/apache/opennlp.git",
-"http://svn.apache.org/repos/asf/opennlp"
+"http://svn.apache.org/repos/asf/opennlp",
+"https://github.com/apache/opennlp.git"
 ],
 "shortdesc": "Apache OpenNLP library software is a machine learning based toolkit for the processing of natural language text.."
 },
@@ -14358,37 +14389,6 @@
 ],
 "shortdesc": "The Apache Tika toolkit detects and extracts metadata and structured \n    text content from various documents using existing parser libraries. \n    "
 },
-"tiles": {
-"bug-database": "https://issues.apache.org/jira/browse/TILES",
-"category": "web-framework, retired",
-"created": "2011-09-01",
-"description": "Apache Tiles™ is a templating framework built to simplify the \n    development of web application user interfaces.\n\n    Tiles allows authors to define page fragments which can be assembled into a \n    complete page at runtime. These fragments, or tiles, can be used as simple \n    includes in order to reduce the duplication of common page elements or embedded \n    within other tiles to develop a series of reusable templates. These templates \n    streamline the development of a consistent look and feel across an entire application.\n    ",
-"doap": "http://svn.apache.org/repos/asf/tiles/site/doap_Tiles.rdf",
-"download-page": "http://tiles.apache.org/download.html",
-"homepage": "http://tiles.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://tiles.apache.org/mail.html",
-"maintainer": [
-{
-"mbox": "mailto:greddin@apache.org",
-"name": "Greg Reddin"
-}
-],
-"name": "Apache Tiles",
-"pmc": "attic",
-"programming-language": "Java",
-"release": [
-{
-"created": "2010-06-28",
-"name": "Apache Tiles",
-"revision": "2.2.2"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/tiles"
-],
-"shortdesc": "Apache Tiles™ is a templating framework built to simplify the \n    development of web application user interfaces."
-},
 "tomcat": {
 "bug-database": "http://tomcat.apache.org/bugreport.html",
 "category": "network-server, http, javaee",
@@ -16221,7 +16221,7 @@
 "pmc": "yetus",
 "programming-language": "Bash, Java, Python",
 "repository": [
-"https://git-wip-us.apache.org/repos/asf/yetus.git"
+"https://github.com/apache/yetus.git"
 ],
 "shortdesc": "A collection of libraries and tools that enable contribution and release processes for software projects."
 },
