@@ -2942,7 +2942,7 @@
 "category": "big-data, hadoop, sql, geospatial",
 "created": "2015-05-27",
 "description": "Calcite is a framework for writing data management\n      systems.  It converts queries, represented in relational algebra,\n      into an efficient executable form using pluggable query\n      transformation rules. There is an optional SQL parser and JDBC\n      driver. Calcite does not store data or have a preferred execution\n      engine. Data formats, execution algorithms, planning rules,\n      operator types, metadata, and cost model are added at runtime as\n      plugins.",
-"doap": "https://git-wip-us.apache.org/repos/asf?p=calcite.git;a=blob_plain;f=site/doap_calcite.rdf;hb=HEAD",
+"doap": "https://gitbox.apache.org/repos/asf?p=calcite.git;a=blob_plain;f=site/doap_calcite.rdf;hb=HEAD",
 "download-page": "https://calcite.apache.org/downloads",
 "homepage": "https://calcite.apache.org",
 "license": "http://spdx.org/licenses/Apache-2.0",
@@ -2957,7 +2957,7 @@
 "pmc": "calcite",
 "programming-language": "Java",
 "repository": [
-"https://git-wip-us.apache.org/repos/asf/calcite.git"
+"https://gitbox.apache.org/repos/asf/calcite.git"
 ],
 "shortdesc": "A dynamic data management framework."
 },
@@ -12226,8 +12226,8 @@
 }
 ],
 "repository": [
-"http://svn.apache.org/repos/asf/opennlp",
-"https://github.com/apache/opennlp.git"
+"https://github.com/apache/opennlp.git",
+"http://svn.apache.org/repos/asf/opennlp"
 ],
 "shortdesc": "Apache OpenNLP library software is a machine learning based toolkit for the processing of natural language text.."
 },
