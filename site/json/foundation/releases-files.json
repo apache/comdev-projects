@@ -742,10 +742,10 @@
 ]
 },
 "camel": {
-"apache-camel-2.21.3": [
-"camel/apache-camel/2.21.3/apache-camel-2.21.3-src.zip",
-"camel/apache-camel/2.21.3/apache-camel-2.21.3.tar.gz",
-"camel/apache-camel/2.21.3/apache-camel-2.21.3.zip"
+"apache-camel-2.21.4": [
+"camel/apache-camel/2.21.4/apache-camel-2.21.4-src.zip",
+"camel/apache-camel/2.21.4/apache-camel-2.21.4.tar.gz",
+"camel/apache-camel/2.21.4/apache-camel-2.21.4.zip"
 ],
 "apache-camel-2.22.1": [
 "camel/apache-camel/2.22.1/apache-camel-2.22.1-src.zip",
@@ -1421,8 +1421,8 @@
 "cordova-common-3.1.0": [
 "cordova/tools/cordova-common-3.1.0.tgz"
 ],
-"cordova-create-1.1.2": [
-"cordova/tools/cordova-create-1.1.2.tgz"
+"cordova-create-2.0.0": [
+"cordova/tools/cordova-create-2.0.0.tgz"
 ],
 "cordova-fetch-2.0.0": [
 "cordova/tools/cordova-fetch-2.0.0.tgz"
@@ -1873,9 +1873,9 @@
 "felix/apache-felix-karaf-1.6.0.tar.gz",
 "felix/apache-felix-karaf-1.6.0.zip"
 ],
-"gogo-4": [
-"felix/gogo-parent-4-source-release.tar.gz",
-"felix/gogo-parent-4-source-release.zip"
+"gogo-5": [
+"felix/gogo-parent-5-source-release.tar.gz",
+"felix/gogo-parent-5-source-release.zip"
 ],
 "javax.servlet-1.0.0": [
 "felix/javax.servlet-1.0.0-project.tar.gz",
@@ -1957,20 +1957,25 @@
 "felix/org.apache.felix.framework.security-2.6.1-source-release.tar.gz",
 "felix/org.apache.felix.framework.security-2.6.1-source-release.zip"
 ],
-"org.apache.felix.gogo.command-0.16.0": [
-"felix/org.apache.felix.gogo.command-0.16.0-project.tar.gz"
+"org.apache.felix.gogo.bom-1.0.2": [
+"felix/org.apache.felix.gogo.bom-1.0.2-source-release.tar.gz",
+"felix/org.apache.felix.gogo.bom-1.0.2-source-release.zip"
 ],
-"org.apache.felix.gogo.jline-1.1.0": [
-"felix/org.apache.felix.gogo.jline-1.1.0-source-release.tar.gz",
-"felix/org.apache.felix.gogo.jline-1.1.0-source-release.zip"
+"org.apache.felix.gogo.command-1.1.0": [
+"felix/org.apache.felix.gogo.command-1.1.0-source-release.tar.gz",
+"felix/org.apache.felix.gogo.command-1.1.0-source-release.zip"
 ],
-"org.apache.felix.gogo.runtime-1.1.0": [
-"felix/org.apache.felix.gogo.runtime-1.1.0-source-release.tar.gz",
-"felix/org.apache.felix.gogo.runtime-1.1.0-source-release.zip"
+"org.apache.felix.gogo.jline-1.1.2": [
+"felix/org.apache.felix.gogo.jline-1.1.2-source-release.tar.gz",
+"felix/org.apache.felix.gogo.jline-1.1.2-source-release.zip"
 ],
-"org.apache.felix.gogo.shell-1.1.0": [
-"felix/org.apache.felix.gogo.shell-1.1.0-source-release.tar.gz",
-"felix/org.apache.felix.gogo.shell-1.1.0-source-release.zip"
+"org.apache.felix.gogo.runtime-1.1.2": [
+"felix/org.apache.felix.gogo.runtime-1.1.2-source-release.tar.gz",
+"felix/org.apache.felix.gogo.runtime-1.1.2-source-release.zip"
+],
+"org.apache.felix.gogo.shell-1.1.2": [
+"felix/org.apache.felix.gogo.shell-1.1.2-source-release.tar.gz",
+"felix/org.apache.felix.gogo.shell-1.1.2-source-release.zip"
 ],
 "org.apache.felix.http.api-3.0.0": [
 "felix/org.apache.felix.http.api-3.0.0-source-release.tar.gz",
@@ -5192,9 +5197,9 @@
 "filevault-package-maven-plugin-1.0.3": [
 "jackrabbit/filevault-package-maven-plugin/1.0.3/filevault-package-maven-plugin-1.0.3-source-release.zip"
 ],
-"jackrabbit-2.10.8": [
-"jackrabbit/2.10.8/jackrabbit-2.10.8-src.zip",
-"jackrabbit/2.10.8/jackrabbit-webapp-2.10.8.war"
+"jackrabbit-2.10.9": [
+"jackrabbit/2.10.9/jackrabbit-2.10.9-src.zip",
+"jackrabbit/2.10.9/jackrabbit-webapp-2.10.9.war"
 ],
 "jackrabbit-2.12.10": [
 "jackrabbit/2.12.10/jackrabbit-2.12.10-src.zip",
@@ -5285,8 +5290,8 @@
 "jackrabbit-filevault-3.2.6": [
 "jackrabbit/filevault/3.2.6/jackrabbit-filevault-3.2.6-src.zip"
 ],
-"jackrabbit-jca-2.10.8": [
-"jackrabbit/2.10.8/jackrabbit-jca-2.10.8.rar"
+"jackrabbit-jca-2.10.9": [
+"jackrabbit/2.10.9/jackrabbit-jca-2.10.9.rar"
 ],
 "jackrabbit-jca-2.12.10": [
 "jackrabbit/2.12.10/jackrabbit-jca-2.12.10.rar"
@@ -8498,20 +8503,20 @@
 ]
 },
 "subversion": {
-"subversion-1.10.3": [
-"subversion/subversion-1.10.3.tar.bz2",
-"subversion/subversion-1.10.3.tar.gz",
-"subversion/subversion-1.10.3.zip"
+"subversion-1.10.4": [
+"subversion/subversion-1.10.4.tar.bz2",
+"subversion/subversion-1.10.4.tar.gz",
+"subversion/subversion-1.10.4.zip"
 ],
-"subversion-1.11.0": [
-"subversion/subversion-1.11.0.tar.bz2",
-"subversion/subversion-1.11.0.tar.gz",
-"subversion/subversion-1.11.0.zip"
+"subversion-1.11.1": [
+"subversion/subversion-1.11.1.tar.bz2",
+"subversion/subversion-1.11.1.tar.gz",
+"subversion/subversion-1.11.1.zip"
 ],
-"subversion-1.9.9": [
-"subversion/subversion-1.9.9.tar.bz2",
-"subversion/subversion-1.9.9.tar.gz",
-"subversion/subversion-1.9.9.zip"
+"subversion-1.9.10": [
+"subversion/subversion-1.9.10.tar.bz2",
+"subversion/subversion-1.9.10.tar.gz",
+"subversion/subversion-1.9.10.zip"
 ]
 },
 "synapse": {
