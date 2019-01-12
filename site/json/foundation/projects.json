@@ -10133,7 +10133,7 @@
 "category": "database, big-data, library",
 "created": "2014-11-27",
 "description": "With MetaModel you get a uniform connector and query API to many very different datastore types, including: Relational (JDBC) databases, CSV files, Excel spreadsheets, XML files, JSON files, Fixed width files, MongoDB, Apache CouchDB, Apache HBase, Apache Cassandra, ElasticSearch, OpenOffice.org databases, Salesforce.com, SugarCRM and even collections of plain old Java objects (POJOs).\n\nMetaModel isn't a data mapping framework. Instead we emphasize abstraction of metadata and ability to add data sources at runtime, making MetaModel great for generic data processing applications, less so for applications modeled around a particular domain.",
-"doap": "https://git-wip-us.apache.org/repos/asf?p=metamodel.git;f=doap_MetaModel.rdf;a=blob_plain;hb=HEAD",
+"doap": "https://gitbox.apache.org/repos/asf?p=metamodel.git;f=doap_MetaModel.rdf;a=blob_plain;hb=HEAD",
 "download-page": "http://metamodel.apache.org/#download",
 "homepage": "http://metamodel.apache.org",
 "license": "http://spdx.org/licenses/Apache-2.0",
@@ -11227,8 +11227,8 @@
 }
 ],
 "repository": [
-"https://github.com/apache/opennlp.git",
-"http://svn.apache.org/repos/asf/opennlp"
+"http://svn.apache.org/repos/asf/opennlp",
+"https://github.com/apache/opennlp.git"
 ],
 "shortdesc": "Apache OpenNLP library software is a machine learning based toolkit for the processing of natural language text.."
 },
@@ -12821,19 +12821,19 @@
 "programming-language": "C",
 "release": [
 {
-"created": "2018-10-30",
+"created": "2019-01-11",
 "name": "Current 1.11 regular release",
-"revision": "1.11.0"
+"revision": "1.11.1"
 },
 {
-"created": "2018-10-10",
+"created": "2019-01-11",
 "name": "Current 1.10 LTS release",
-"revision": "1.10.3"
+"revision": "1.10.4"
 },
 {
-"created": "2018-07-20",
+"created": "2019-01-11",
 "name": "Current 1.9 release",
-"revision": "1.9.9"
+"revision": "1.9.10"
 }
 ],
 "repository": [
@@ -13590,7 +13590,7 @@
 "category": "big-data",
 "created": "2017-12-07",
 "description": "Trafodion builds on the scalability, elasticity, and flexibility of Hadoop. Trafodion extends Hadoop to provide guaranteed transactional integrity, enabling new kinds of big data applications to run on Hadoop.",
-"doap": "https://git-wip-us.apache.org/repos/asf?p=trafodion.git;a=blob_plain;f=doap.rdf;hb=HEAD",
+"doap": "https://gitbox.apache.org/repos/asf?p=trafodion.git;a=blob_plain;f=doap.rdf;hb=HEAD",
 "download-page": "http://trafodion.apache.org/download.html",
 "homepage": "http://trafodion.apache.org",
 "license": "http://spdx.org/licenses/Apache-2.0",
@@ -13986,7 +13986,7 @@
 "category": "big-data, xml",
 "created": "2014-10-09",
 "description": "Apache VXQuery will be a standards compliant XML Query processor implemented in Java. The focus is on the evaluation of queries on large amounts of XML data. Specifically the goal is to evaluate queries on large collections of relatively small XML documents. To achieve this queries will be evaluated on a cluster of shared nothing machines.",
-"doap": "https://git-wip-us.apache.org/repos/asf?p=vxquery.git;f=doap.rdf;a=blob_plain;hb=HEAD",
+"doap": "https://gitbox.apache.org/repos/asf?p=vxquery.git;f=doap.rdf;a=blob_plain;hb=HEAD",
 "download-page": "http://www.apache.org/dyn/closer.cgi/vxquery/",
 "homepage": "http://vxquery.apache.org/",
 "implements": [
