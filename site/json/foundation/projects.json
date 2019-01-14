@@ -1512,114 +1512,6 @@
 ],
 "shortdesc": "The Apache Lucy search engine library provides full-text search for dynamic programming languages."
 },
-"attic-mrunit": {
-"bug-database": "http://issues.apache.org/jira/browse/MRUNIT",
-"category": "library, retired",
-"chair": {
-"Person": {
-"name": "Brock Noland"
-}
-},
-"charter": "Apache MRUnit is a Java library that helps developers unit test Apache Hadoop map reduce jobs.",
-"created": "2009-01-01",
-"description": "The Apache MRUnit is a Java library that helps developers unit test Apache Hadoop map reduce jobs.",
-"doap": "https://git-wip-us.apache.org/repos/asf?p=mrunit.git;f=doap_mrunit.rdf;a=blob_plain;hb=HEAD",
-"download-page": "http://mrunit.apache.org/general/downloads.html",
-"homepage": "http://mrunit.apache.org",
-"license": "http://www.apache.org/licenses/LICENSE-2.0.txt",
-"mailing-list": "http://mrunit.apache.org/mail-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:brock@apache.org",
-"name": "Brock Noland"
-},
-{
-"mbox": "mailto:cos@apache.org",
-"name": "Konstantin Boudnik"
-},
-{
-"mbox": "mailto:dbeech@apache.org",
-"name": "Dave Beech"
-},
-{
-"mbox": "mailto:dechouxb@apache.org",
-"name": "Bertrand Dechoux"
-},
-{
-"mbox": "mailto:esammer@apache.org",
-"name": "Eric Sammer"
-},
-{
-"mbox": "mailto:gwu@apache.org",
-"name": "Garrett Wu"
-},
-{
-"mbox": "mailto:jarcec@apache.org",
-"name": "Jarek Jarcec Cecho"
-},
-{
-"mbox": "mailto:jdonofrio@apache.org",
-"name": "Jim Donofrio"
-},
-{
-"mbox": "mailto:kimballa@apache.org",
-"name": "Aaron Kimball"
-},
-{
-"mbox": "mailto:kinley@apache.org",
-"name": "James Robert Kinley"
-},
-{
-"mbox": "mailto:mattmann@apache.org",
-"name": "Chris Mattmann"
-},
-{
-"mbox": "mailto:nigel@apache.org",
-"name": "Nigel Daley"
-},
-{
-"mbox": "mailto:phunt@apache.org",
-"name": "Patrick D. Hunt"
-}
-],
-"name": "Apache MRUnit",
-"pmc": "attic",
-"programming-language": "Java",
-"release": [
-{
-"name": "Latest stable release",
-"revision": "1.1.0"
-},
-{
-"name": "Apache MRUnit - 1.0.0",
-"revision": "1.0.0"
-},
-{
-"name": "Apache MRUnit - 0.9.0-incubating",
-"revision": "0.9.0-incubating"
-},
-{
-"name": "Apache MRUnit - 0.8.1-incubating",
-"revision": "0.8.1-incubating"
-},
-{
-"file-release": "http://repo.maven.apache.org/maven2/org/apache/mrunit/mrunit/0.8.0-incubating/mrunit-0.8.0-incubating.jar",
-"name": "Apache MRUnit - 0.8.0-incubating",
-"revision": "0.8.0-incubating"
-},
-{
-"file-release": "http://repo.maven.apache.org/maven2/org/apache/mrunit/mrunit/0.5.0-incubating/mrunit-0.5.0-incubating.jar",
-"name": "Apache MRUnit - 0.5.0-incubating",
-"revision": "0.5.0-incubating"
-}
-],
-"repository": [
-"git:http://git-wip-us.apache.org/repos/asf/mrunit.git",
-"git:https://git-wip-us.apache.org/repos/asf/mrunit.git"
-],
-"shortdesc": "Apache MRUnit is a Java library that helps developers unit test Apache Hadoop map reduce jobs.",
-"vendor": "The Apache Software Foundation"
-},
 "attic-oltu_-_parent": {
 "bug-database": "https://issues.apache.org/jira/browse/OLTU",
 "category": "library, retired",
@@ -1919,62 +1811,6 @@
 "http://svn.apache.org/repos/asf/shindig"
 ],
 "shortdesc": "Apache Shindig software is an OpenSocial container and helps you to start hosting OpenSocial apps quickly by providing the code to render gadgets, proxy requests, and handle REST and RPC requests."
-},
-"attic-stratos": {
-"bug-database": "https://issues.apache.org/jira/browse/stratos",
-"category": "cloud, retired",
-"created": "2014-06-09",
-"description": "Apache Stratos is a highly-extensible Platform-as-a-Service (PaaS) framework that helps run Apache Tomcat, PHP, and MySQL applications and can be extended to support many more environments on all major cloud infrastructures. For developers, Stratos provides a cloud-based environment for developing, testing, and running scalable applications. IT providers benefit from high utilization rates, automated resource management, and platform-wide insight including monitoring and billing.",
-"doap": "https://git-wip-us.apache.org/repos/asf?p=stratos.git;a=blob_plain;f=doap_Stratos.rdf;hb=HEAD",
-"download-page": "http://stratos.apache.org/releases/index.html",
-"homepage": "http://stratos.apache.org/",
-"license": "http://spdx.org/licenses/Apache-2.0",
-"mailing-list": "http://stratos.apache.org/community/mailing-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:lakmal@apache.org",
-"name": "Lakmal Warusawithana"
-}
-],
-"name": "Apache Stratos",
-"pmc": "attic",
-"programming-language": "Java",
-"release": [
-{
-"created": "2013-11-09",
-"name": "Apache Stratos 3.0.0-incubating",
-"revision": null
-},
-{
-"created": "2014-06-09",
-"name": "Apache Stratos 4.0.0",
-"revision": "4.0.0"
-},
-{
-"created": "2014-07-13",
-"name": "Apache Stgratos 4.1.1",
-"revision": "4.1.1"
-},
-{
-"created": "2014-09-02",
-"name": "Apache Stgratos 4.1.2",
-"revision": "4.1.2"
-},
-{
-"created": "2014-09-23",
-"name": "Apache Stgratos 4.1.3",
-"revision": "4.1.3"
-},
-{
-"created": "2014-10-22",
-"name": "Apache Stgratos 4.1.4",
-"revision": "4.1.4"
-}
-],
-"repository": [
-"https://git-wip-us.apache.org/repos/asf/stratos.git"
-],
-"shortdesc": "Apache Stratos is a highly-extensible Platform-as-a-Service (PaaS) framework that helps run Apache Tomcat, PHP, and MySQL applications and can be extended to support many more environments on all major cloud infrastructures. "
 },
 "attic-tiles": {
 "bug-database": "https://issues.apache.org/jira/browse/TILES",
@@ -5835,7 +5671,7 @@
 "category": "big-data, library",
 "created": "2014-04-11",
 "description": "The Apache Crunch Java library provides a framework for writing, testing, and running MapReduce pipelines. Its goal is to make pipelines that are composed of many user-defined functions simple to write, easy to test, and efficient to run.\n\nRunning on top of Hadoop MapReduce and Apache Spark, the Apache Crunch™ library is a simple Java API for tasks like joining and data aggregation that are tedious to implement on plain MapReduce. The APIs are especially useful when processing data that does not fit naturally into relational model, such as time series, serialized object formats like protocol buffers or Avro records, and HBase rows and columns. For Scala users, there is the Scrunch API, which is built on top of the Java APIs and includes a REPL (read-eval-print loop) for creating MapReduce pipelines.",
-"doap": "https://gitbox.apache.org/repos/asf?p=crunch.git;f=doap.rdf;a=blob_plain;hb=HEAD",
+"doap": "https://git-wip-us.apache.org/repos/asf?p=crunch.git;f=doap.rdf;a=blob_plain;hb=HEAD",
 "download-page": "http://www.apache.org/dyn/closer.cgi/crunch",
 "homepage": "http://crunch.apache.org",
 "license": "http://usefulinc.com/doap/licenses/asl20",
@@ -6502,7 +6338,7 @@
 "category": "big-data",
 "created": "2014-06-13",
 "description": "Apache Flume is a distributed, reliable, and available system for efficiently collecting, aggregating and moving large amounts of log data from many different sources to a centralized data store",
-"doap": "https://gitbox.apache.org/repos/asf?p=flume.git;a=blob_plain;f=doap_Flume.rdf;hb=b082429",
+"doap": "https://git-wip-us.apache.org/repos/asf?p=flume.git;a=blob_plain;f=doap_Flume.rdf;hb=b082429",
 "download-page": "http://flume.apache.org/download.html",
 "homepage": "http://flume.apache.org",
 "license": "http://spdx.org/licenses/Apache-2.0",
@@ -7504,7 +7340,7 @@
 "nick": "jleroux"
 }
 ],
-"doap": "https://gitbox.apache.org/repos/asf?p=freemarker-site.git;a=blob_plain;f=doap.rdf;hb=HEAD",
+"doap": "https://git-wip-us.apache.org/repos/asf?p=freemarker-site.git;a=blob_plain;f=doap.rdf;hb=HEAD",
 "download-page": "https://freemarker.apache.org/freemarkerdownload.html",
 "homepage": "https://freemarker.apache.org",
 "license": "https://www.apache.org/licenses/LICENSE-2.0",
@@ -8271,7 +8107,7 @@
 "category": "cloud, library",
 "created": "2014-04-11",
 "description": "Apache jclouds is an open source multi-cloud toolkit for the Java platform that gives you the freedom to create applications that are portable across clouds while giving you full control to use cloud-specific features.",
-"doap": "https://gitbox.apache.org/repos/asf?p=jclouds-site.git;a=blob_plain;f=doap_jclouds.rdf;hb=HEAD",
+"doap": "https://git-wip-us.apache.org/repos/asf?p=jclouds-site.git;a=blob_plain;f=doap_jclouds.rdf;hb=HEAD",
 "download-page": "http://jclouds.apache.org/start/install/",
 "homepage": "http://jclouds.apache.org",
 "license": "http://usefulinc.com/doap/licenses/asl20",
@@ -9695,6 +9531,1040 @@
 "shortdesc": "Apache log4php is a logging framework for PHP.",
 "shortname": "log4php"
 },
+"lucene-core": {
+"bug-database": "http://issues.apache.org/jira/browse/LUCENE",
+"category": "database, library, search",
+"created": "2001-09-01",
+"description": "Apache Lucene is a high-performance, full-featured text search engine library written entirely in Java. It is a technology suitable for nearly any application that requires full-text search, especially cross-platform.\n    ",
+"doap": "http://lucene.apache.org/core/doap.rdf",
+"download-page": "http://lucene.apache.org/core/downloads.html",
+"homepage": "http://lucene.apache.org/core/",
+"license": "http://www.apache.org/licenses/LICENSE-2.0",
+"mailing-list": "http://lucene.apache.org/core/discussion.html",
+"maintainer": [
+{
+"mbox": "mailto:dev@lucene.apache.org",
+"name": "Apache Lucene Team"
+}
+],
+"name": "Apache Lucene Core",
+"pmc": "lucene",
+"programming-language": "Java",
+"release": [
+{
+"created": "2018-12-14",
+"name": "lucene-7.6.0",
+"revision": "7.6.0"
+},
+{
+"created": "2018-09-24",
+"name": "lucene-7.5.0",
+"revision": "7.5.0"
+},
+{
+"created": "2018-06-27",
+"name": "lucene-7.4.0",
+"revision": "7.4.0"
+},
+{
+"created": "2018-05-15",
+"name": "lucene-7.3.1",
+"revision": "7.3.1"
+},
+{
+"created": "2018-04-04",
+"name": "lucene-7.3.0",
+"revision": "7.3.0"
+},
+{
+"created": "2018-01-15",
+"name": "lucene-7.2.1",
+"revision": "7.2.1"
+},
+{
+"created": "2017-12-21",
+"name": "lucene-7.2.0",
+"revision": "7.2.0"
+},
+{
+"created": "2017-10-17",
+"name": "lucene-7.1.0",
+"revision": "7.1.0"
+},
+{
+"created": "2017-10-06",
+"name": "lucene-7.0.1",
+"revision": "7.0.1"
+},
+{
+"created": "2017-09-20",
+"name": "lucene-7.0.0",
+"revision": "7.0.0"
+},
+{
+"created": "2018-06-03",
+"name": "lucene-6.6.5",
+"revision": "6.6.5"
+},
+{
+"created": "2018-05-18",
+"name": "lucene-6.6.4",
+"revision": "6.6.4"
+},
+{
+"created": "2018-03-07",
+"name": "lucene-6.6.3",
+"revision": "6.6.3"
+},
+{
+"created": "2017-10-18",
+"name": "lucene-6.6.2",
+"revision": "6.6.2"
+},
+{
+"created": "2017-09-07",
+"name": "lucene-6.6.1",
+"revision": "6.6.1"
+},
+{
+"created": "2017-06-06",
+"name": "lucene-6.6.0",
+"revision": "6.6.0"
+},
+{
+"created": "2017-04-27",
+"name": "lucene-6.5.1",
+"revision": "6.5.1"
+},
+{
+"created": "2017-03-27",
+"name": "lucene-6.5.0",
+"revision": "6.5.0"
+},
+{
+"created": "2017-03-07",
+"name": "lucene-6.4.2",
+"revision": "6.4.2"
+},
+{
+"created": "2017-02-06",
+"name": "lucene-6.4.1",
+"revision": "6.4.1"
+},
+{
+"created": "2017-01-23",
+"name": "lucene-6.4.0",
+"revision": "6.4.0"
+},
+{
+"created": "2016-11-08",
+"name": "lucene-6.3.0",
+"revision": "6.3.0"
+},
+{
+"created": "2016-09-20",
+"name": "lucene-6.2.1",
+"revision": "6.2.1"
+},
+{
+"created": "2016-08-25",
+"name": "lucene-6.2.0",
+"revision": "6.2.0"
+},
+{
+"created": "2016-06-17",
+"name": "lucene-6.1.0",
+"revision": "6.1.0"
+},
+{
+"created": "2016-05-28",
+"name": "lucene-6.0.1",
+"revision": "6.0.1"
+},
+{
+"created": "2016-04-08",
+"name": "lucene-6.0.0",
+"revision": "6.0.0"
+},
+{
+"created": "2017-10-24",
+"name": "lucene-5.5.5",
+"revision": "5.5.5"
+},
+{
+"created": "2017-02-15",
+"name": "lucene-5.5.4",
+"revision": "5.5.4"
+},
+{
+"created": "2016-09-09",
+"name": "lucene-5.5.3",
+"revision": "5.5.3"
+},
+{
+"created": "2016-06-25",
+"name": "lucene-5.5.2",
+"revision": "5.5.2"
+},
+{
+"created": "2016-05-05",
+"name": "lucene-5.5.1",
+"revision": "5.5.1"
+},
+{
+"created": "2016-02-22",
+"name": "lucene-5.5.0",
+"revision": "5.5.0"
+},
+{
+"created": "2016-01-23",
+"name": "lucene-5.4.1",
+"revision": "5.4.1"
+},
+{
+"created": "2015-12-14",
+"name": "lucene-5.4.0",
+"revision": "5.4.0"
+},
+{
+"created": "2016-01-23",
+"name": "lucene-5.3.2",
+"revision": "5.3.2"
+},
+{
+"created": "2015-09-24",
+"name": "lucene-5.3.1",
+"revision": "5.3.1"
+},
+{
+"created": "2015-08-21",
+"name": "lucene-5.3.0",
+"revision": "5.3.0"
+},
+{
+"created": "2015-06-15",
+"name": "lucene-5.2.1",
+"revision": "5.2.1"
+},
+{
+"created": "2015-06-07",
+"name": "lucene-5.2.0",
+"revision": "5.2.0"
+},
+{
+"created": "2015-04-14",
+"name": "lucene-5.1.0",
+"revision": "5.1.0"
+},
+{
+"created": "2015-02-20",
+"name": "lucene-5.0.0",
+"revision": "5.0.0"
+},
+{
+"created": "2015-03-03",
+"name": "lucene-4.10.4",
+"revision": "4.10.4"
+},
+{
+"created": "2014-12-29",
+"name": "lucene-4.10.3",
+"revision": "4.10.3"
+},
+{
+"created": "2014-10-31",
+"name": "lucene-4.10.2",
+"revision": "4.10.2"
+},
+{
+"created": "2014-09-29",
+"name": "lucene-4.10.1",
+"revision": "4.10.1"
+},
+{
+"created": "2014-09-03",
+"name": "lucene-4.10.0",
+"revision": "4.10.0"
+},
+{
+"created": "2014-09-22",
+"name": "lucene-4.9.1",
+"revision": "4.9.1"
+},
+{
+"created": "2014-06-25",
+"name": "lucene-4.9.0",
+"revision": "4.9.0"
+},
+{
+"created": "2014-05-20",
+"name": "lucene-4.8.1",
+"revision": "4.8.1"
+},
+{
+"created": "2014-04-28",
+"name": "lucene-4.8.0",
+"revision": "4.8.0"
+},
+{
+"created": "2014-04-15",
+"name": "lucene-4.7.2",
+"revision": "4.7.2"
+},
+{
+"created": "2014-04-02",
+"name": "lucene-4.7.1",
+"revision": "4.7.1"
+},
+{
+"created": "2014-02-26",
+"name": "lucene-4.7.0",
+"revision": "4.7.0"
+},
+{
+"created": "2014-01-28",
+"name": "lucene-4.6.1",
+"revision": "4.6.1"
+},
+{
+"created": "2013-11-22",
+"name": "lucene-4.6.0",
+"revision": "4.6.0"
+},
+{
+"created": "2013-10-24",
+"name": "lucene-4.5.1",
+"revision": "4.5.1"
+},
+{
+"created": "2013-10-05",
+"name": "lucene-4.5",
+"revision": "4.5"
+},
+{
+"created": "2013-07-23",
+"name": "lucene-4.4",
+"revision": "4.4"
+},
+{
+"created": "2013-06-18",
+"name": "lucene-4.3.1",
+"revision": "4.3.1"
+},
+{
+"created": "2013-05-06",
+"name": "lucene-4.3",
+"revision": "4.3"
+},
+{
+"created": "2013-04-03",
+"name": "lucene-4.2.1",
+"revision": "4.2.1"
+},
+{
+"created": "2013-03-11",
+"name": "lucene-4.2",
+"revision": "4.2"
+},
+{
+"created": "2013-01-22",
+"name": "lucene-4.1",
+"revision": "4.1"
+},
+{
+"created": "2012-10-12",
+"name": "lucene-4.0",
+"revision": "4.0"
+},
+{
+"created": "2012-08-13",
+"name": "lucene-4.0-BETA",
+"revision": "4.0-BETA"
+},
+{
+"created": "2012-07-03",
+"name": "lucene-4.0-ALPHA",
+"revision": "4.0-ALPHA"
+},
+{
+"created": "2012-12-25",
+"name": "lucene-3.6.2",
+"revision": "3.6.2"
+},
+{
+"created": "2012-07-22",
+"name": "lucene-3.6.1",
+"revision": "3.6.1"
+},
+{
+"created": "2012-04-12",
+"name": "lucene-3.6",
+"revision": "3.6"
+},
+{
+"created": "2011-11-11",
+"name": "lucene-3.5",
+"revision": "3.5"
+},
+{
+"created": "2011-09-15",
+"name": "lucene-3.4",
+"revision": "3.4"
+},
+{
+"created": "2011-07-10",
+"name": "lucene-3.3",
+"revision": "3.3"
+},
+{
+"created": "2011-06-03",
+"name": "lucene-3.2",
+"revision": "3.2"
+},
+{
+"created": "2011-03-31",
+"name": "lucene-3.1",
+"revision": "3.1"
+},
+{
+"created": "2010-12-03",
+"name": "lucene-3.0.3",
+"revision": "3.0.3"
+},
+{
+"created": "2010-06-18",
+"name": "lucene-3.0.2",
+"revision": "3.0.2"
+},
+{
+"created": "2010-02-26",
+"name": "lucene-3.0.1",
+"revision": "3.0.1"
+},
+{
+"created": "2009-11-25",
+"name": "lucene-3.0",
+"revision": "3.0"
+},
+{
+"created": "2010-12-03",
+"name": "lucene-2.9.4",
+"revision": "2.9.4"
+},
+{
+"created": "2010-06-18",
+"name": "lucene-2.9.3",
+"revision": "2.9.3"
+},
+{
+"created": "2010-02-26",
+"name": "lucene-2.9.2",
+"revision": "2.9.2"
+},
+{
+"created": "2009-11-06",
+"name": "lucene-2.9.1",
+"revision": "2.9.1"
+},
+{
+"created": "2009-09-25",
+"name": "lucene-2.9",
+"revision": "2.9"
+},
+{
+"created": "2009-03-09",
+"name": "lucene-2.4.1",
+"revision": "2.4.1"
+},
+{
+"created": "2008-10-08",
+"name": "lucene-2.4",
+"revision": "2.4"
+},
+{
+"created": "2008-05-06",
+"name": "lucene-2.3.2",
+"revision": "2.3.2"
+},
+{
+"created": "2008-02-22",
+"name": "lucene-2.3.1",
+"revision": "2.3.1"
+},
+{
+"created": "2008-01-23",
+"name": "lucene-2.3",
+"revision": "2.3"
+},
+{
+"created": "2007-06-19",
+"name": "lucene-2.2",
+"revision": "2.2"
+},
+{
+"created": "2007-02-17",
+"name": "lucene-2.1",
+"revision": "2.1"
+},
+{
+"created": "2006-05-26",
+"name": "lucene-2.0.0",
+"revision": "2.0.0"
+},
+{
+"created": "2006-03-02",
+"name": "lucene-1.9.1",
+"revision": "1.9.1"
+},
+{
+"created": "2006-02-27",
+"name": "lucene-1.9-final",
+"revision": "1.9 final"
+},
+{
+"created": "2006-02-21",
+"name": "lucene-1.9-rc1",
+"revision": "1.9 RC1"
+},
+{
+"created": "2004-12-07",
+"name": "lucene-1.4.3",
+"revision": "1.4.3"
+},
+{
+"created": "2004-10-01",
+"name": "lucene-1.4.2",
+"revision": "1.4.2"
+},
+{
+"created": "2004-08-02",
+"name": "lucene-1.4.1",
+"revision": "1.4.1"
+},
+{
+"created": "2004-07-01",
+"name": "lucene-1.4-final",
+"revision": "1.4 final"
+},
+{
+"created": "2004-05-11",
+"name": "lucene-1.4-rc3",
+"revision": "1.4 RC3"
+},
+{
+"created": "2004-03-30",
+"name": "lucene-1.4-rc2",
+"revision": "1.4 RC2"
+},
+{
+"created": "2004-03-29",
+"name": "lucene-1.4-rc1",
+"revision": "1.4 RC1"
+},
+{
+"created": "2003-12-26",
+"name": "lucene-1.3-final",
+"revision": "1.3 final"
+},
+{
+"created": "2003-11-25",
+"name": "lucene-1.3-rc3",
+"revision": "1.3 RC3"
+},
+{
+"created": "2003-10-22",
+"name": "lucene-1.3-rc2",
+"revision": "1.3 RC2"
+},
+{
+"created": "2003-03-24",
+"name": "lucene-1.3-rc1",
+"revision": "1.3 RC1"
+},
+{
+"created": "2002-06-13",
+"name": "lucene-1.2-final",
+"revision": "1.2 final"
+},
+{
+"created": "2002-05-14",
+"name": "lucene-1.2-rc5",
+"revision": "1.2 RC5"
+},
+{
+"created": "2002-02-14",
+"name": "lucene-1.2-rc4",
+"revision": "1.2 RC4"
+},
+{
+"created": "2002-01-27",
+"name": "lucene-1.2-rc3",
+"revision": "1.2 RC3"
+},
+{
+"created": "2001-10-19",
+"name": "lucene-1.2-rc2",
+"revision": "1.2 RC2"
+},
+{
+"created": "2001-10-02",
+"name": "lucene-1.2-rc1",
+"revision": "1.2 RC1"
+},
+{
+"created": "2001-06-02",
+"name": "lucene-1.01b",
+"revision": "1.01b"
+},
+{
+"created": "2000-10-04",
+"name": "lucene-1.0",
+"revision": "1.0"
+},
+{
+"created": "2000-04-19",
+"name": "lucene-0.04",
+"revision": "0.04"
+},
+{
+"created": "2000-03-30",
+"name": "lucene-0.01",
+"revision": "0.01"
+}
+],
+"repository": [
+"https://git-wip-us.apache.org/repos/asf/lucene-solr.git"
+],
+"shortdesc": "Apache Lucene is a high-performance, full-featured text search engine library",
+"wiki": "http://wiki.apache.org/lucene-java/"
+},
+"lucene-solr": {
+"bug-database": "http://issues.apache.org/jira/browse/SOLR",
+"category": "web-framework, network-server, search",
+"created": "2006-01-17",
+"description": "Solr is an open source enterprise search server based on the Lucene Java search library, with XML/HTTP and JSON, Ruby, and Python APIs, hit highlighting, faceted search, caching, replication, and a web administration interface.\n    ",
+"doap": "http://lucene.apache.org/solr/doap.rdf",
+"download-page": "http://lucene.apache.org/solr/downloads.html",
+"homepage": "http://lucene.apache.org/solr/",
+"license": "http://www.apache.org/licenses/LICENSE-2.0",
+"mailing-list": "http://lucene.apache.org/solr/discussion.html",
+"maintainer": [
+{
+"mbox": "mailto:dev@lucene.apache.org",
+"name": "Apache Solr Team"
+}
+],
+"name": "Apache Solr",
+"pmc": "lucene",
+"programming-language": "Java",
+"release": [
+{
+"created": "2018-12-14",
+"name": "solr-7.6.0",
+"revision": "7.6.0"
+},
+{
+"created": "2018-09-24",
+"name": "solr-7.5.0",
+"revision": "7.5.0"
+},
+{
+"created": "2018-06-27",
+"name": "solr-7.4.0",
+"revision": "7.4.0"
+},
+{
+"created": "2018-05-15",
+"name": "solr-7.3.1",
+"revision": "7.3.1"
+},
+{
+"created": "2018-04-04",
+"name": "solr-7.3.0",
+"revision": "7.3.0"
+},
+{
+"created": "2018-01-15",
+"name": "solr-7.2.1",
+"revision": "7.2.1"
+},
+{
+"created": "2017-12-21",
+"name": "solr-7.2.0",
+"revision": "7.2.0"
+},
+{
+"created": "2017-10-17",
+"name": "solr-7.1.0",
+"revision": "7.1.0"
+},
+{
+"created": "2017-10-06",
+"name": "solr-7.0.1",
+"revision": "7.0.1"
+},
+{
+"created": "2017-09-20",
+"name": "solr-7.0.0",
+"revision": "7.0.0"
+},
+{
+"created": "2018-06-03",
+"name": "solr-6.6.5",
+"revision": "6.6.5"
+},
+{
+"created": "2018-05-18",
+"name": "solr-6.6.4",
+"revision": "6.6.4"
+},
+{
+"created": "2018-03-07",
+"name": "solr-6.6.3",
+"revision": "6.6.3"
+},
+{
+"created": "2017-10-18",
+"name": "solr-6.6.2",
+"revision": "6.6.2"
+},
+{
+"created": "2017-09-07",
+"name": "solr-6.6.1",
+"revision": "6.6.1"
+},
+{
+"created": "2017-06-06",
+"name": "solr-6.6.0",
+"revision": "6.6.0"
+},
+{
+"created": "2017-04-27",
+"name": "solr-6.5.1",
+"revision": "6.5.1"
+},
+{
+"created": "2017-03-27",
+"name": "solr-6.5.0",
+"revision": "6.5.0"
+},
+{
+"created": "2017-03-07",
+"name": "solr-6.4.2",
+"revision": "6.4.2"
+},
+{
+"created": "2017-02-06",
+"name": "solr-6.4.1",
+"revision": "6.4.1"
+},
+{
+"created": "2017-01-23",
+"name": "solr-6.4.0",
+"revision": "6.4.0"
+},
+{
+"created": "2016-11-08",
+"name": "solr-6.3.0",
+"revision": "6.3.0"
+},
+{
+"created": "2016-09-20",
+"name": "solr-6.2.1",
+"revision": "6.2.1"
+},
+{
+"created": "2016-08-25",
+"name": "solr-6.2.0",
+"revision": "6.2.0"
+},
+{
+"created": "2016-06-17",
+"name": "solr-6.1.0",
+"revision": "6.1.0"
+},
+{
+"created": "2016-05-28",
+"name": "solr-6.0.1",
+"revision": "6.0.1"
+},
+{
+"created": "2016-04-08",
+"name": "solr-6.0.0",
+"revision": "6.0.0"
+},
+{
+"created": "2017-10-24",
+"name": "solr-5.5.5",
+"revision": "5.5.5"
+},
+{
+"created": "2017-02-15",
+"name": "solr-5.5.4",
+"revision": "5.5.4"
+},
+{
+"created": "2016-09-09",
+"name": "solr-5.5.3",
+"revision": "5.5.3"
+},
+{
+"created": "2016-06-25",
+"name": "solr-5.5.2",
+"revision": "5.5.2"
+},
+{
+"created": "2016-05-05",
+"name": "solr-5.5.1",
+"revision": "5.5.1"
+},
+{
+"created": "2016-02-22",
+"name": "solr-5.5.0",
+"revision": "5.5.0"
+},
+{
+"created": "2016-01-23",
+"name": "solr-5.4.1",
+"revision": "5.4.1"
+},
+{
+"created": "2015-12-14",
+"name": "solr-5.4.0",
+"revision": "5.4.0"
+},
+{
+"created": "2016-01-23",
+"name": "solr-5.3.2",
+"revision": "5.3.2"
+},
+{
+"created": "2015-09-24",
+"name": "solr-5.3.1",
+"revision": "5.3.1"
+},
+{
+"created": "2015-08-21",
+"name": "solr-5.3.0",
+"revision": "5.3.0"
+},
+{
+"created": "2015-06-15",
+"name": "solr-5.2.1",
+"revision": "5.2.1"
+},
+{
+"created": "2015-06-07",
+"name": "solr-5.2.0",
+"revision": "5.2.0"
+},
+{
+"created": "2015-04-14",
+"name": "solr-5.1.0",
+"revision": "5.1.0"
+},
+{
+"created": "2015-02-20",
+"name": "solr-5.0.0",
+"revision": "5.0.0"
+},
+{
+"created": "2015-03-03",
+"name": "solr-4.10.4",
+"revision": "4.10.4"
+},
+{
+"created": "2014-12-29",
+"name": "solr-4.10.3",
+"revision": "4.10.3"
+},
+{
+"created": "2014-10-31",
+"name": "solr-4.10.2",
+"revision": "4.10.2"
+},
+{
+"created": "2014-09-29",
+"name": "solr-4.10.1",
+"revision": "4.10.1"
+},
+{
+"created": "2014-09-03",
+"name": "solr-4.10.0",
+"revision": "4.10.0"
+},
+{
+"created": "2014-09-22",
+"name": "solr-4.9.1",
+"revision": "4.9.1"
+},
+{
+"created": "2014-06-25",
+"name": "solr-4.9.0",
+"revision": "4.9.0"
+},
+{
+"created": "2014-05-20",
+"name": "solr-4.8.1",
+"revision": "4.8.1"
+},
+{
+"created": "2014-04-28",
+"name": "solr-4.8.0",
+"revision": "4.8.0"
+},
+{
+"created": "2014-04-15",
+"name": "solr-4.7.2",
+"revision": "4.7.2"
+},
+{
+"created": "2014-02-26",
+"name": "solr-4.7.1",
+"revision": "4.7.1"
+},
+{
+"created": "2014-02-26",
+"name": "solr-4.7.0",
+"revision": "4.7.0"
+},
+{
+"created": "2014-01-28",
+"name": "solr-4.6.1",
+"revision": "4.6.1"
+},
+{
+"created": "2013-11-22",
+"name": "solr-4.6.0",
+"revision": "4.6.0"
+},
+{
+"created": "2013-10-24",
+"name": "solr-4.5.1",
+"revision": "4.5.1"
+},
+{
+"created": "2013-10-05",
+"name": "solr-4.5",
+"revision": "4.5"
+},
+{
+"created": "2013-07-23",
+"name": "solr-4.4",
+"revision": "4.4"
+},
+{
+"created": "2013-06-18",
+"name": "solr-4.3.1",
+"revision": "4.3.1"
+},
+{
+"created": "2013-05-06",
+"name": "solr-4.3",
+"revision": "4.3"
+},
+{
+"created": "2013-04-03",
+"name": "solr-4.2.1",
+"revision": "4.2.1"
+},
+{
+"created": "2013-03-11",
+"name": "solr-4.2",
+"revision": "4.2"
+},
+{
+"created": "2013-01-22",
+"name": "solr-4.1",
+"revision": "4.1"
+},
+{
+"created": "2012-10-12",
+"name": "solr-4.0",
+"revision": "4.0"
+},
+{
+"created": "2012-08-13",
+"name": "solr-4.0-BETA",
+"revision": "4.0-BETA"
+},
+{
+"created": "2012-07-03",
+"name": "solr-4.0-ALPHA",
+"revision": "4.0-ALPHA"
+},
+{
+"created": "2012-12-25",
+"name": "solr-3.6.2",
+"revision": "3.6.2"
+},
+{
+"created": "2012-07-22",
+"name": "solr-3.6.1",
+"revision": "3.6.1"
+},
+{
+"created": "2012-04-12",
+"name": "solr-3.6",
+"revision": "3.6"
+},
+{
+"created": "2011-11-11",
+"name": "solr-3.5",
+"revision": "3.5"
+},
+{
+"created": "2011-09-15",
+"name": "solr-3.4",
+"revision": "3.4"
+},
+{
+"created": "2011-07-10",
+"name": "solr-3.3",
+"revision": "3.3"
+},
+{
+"created": "2011-06-03",
+"name": "solr-3.2",
+"revision": "3.2"
+},
+{
+"created": "2011-03-31",
+"name": "solr-3.1",
+"revision": "3.1"
+},
+{
+"created": "2010-6-25",
+"name": "solr-1.4.1",
+"revision": "1.4.1"
+},
+{
+"created": "2009-11-10",
+"name": "solr-1.4.0",
+"revision": "1.4.0"
+},
+{
+"created": "2008-09-16",
+"name": "solr-1.3.0",
+"revision": "1.3.0"
+},
+{
+"created": "2007-06-06",
+"name": "solr-1.2.0",
+"revision": "1.2.0"
+},
+{
+"created": "2006-12-22",
+"name": "solr-1.1.0",
+"revision": "1.1.0"
+}
+],
+"repository": [
+"https://git-wip-us.apache.org/repos/asf/lucene-solr.git"
+],
+"shortdesc": "Solr is a full-text search server",
+"wiki": "http://wiki.apache.org/solr/"
+},
 "lucenenet-lucenedotnet": {
 "bug-database": "https://issues.apache.org/jira/browse/LUCENENET/",
 "category": "database",
@@ -10133,7 +11003,7 @@
 "category": "database, big-data, library",
 "created": "2014-11-27",
 "description": "With MetaModel you get a uniform connector and query API to many very different datastore types, including: Relational (JDBC) databases, CSV files, Excel spreadsheets, XML files, JSON files, Fixed width files, MongoDB, Apache CouchDB, Apache HBase, Apache Cassandra, ElasticSearch, OpenOffice.org databases, Salesforce.com, SugarCRM and even collections of plain old Java objects (POJOs).\n\nMetaModel isn't a data mapping framework. Instead we emphasize abstraction of metadata and ability to add data sources at runtime, making MetaModel great for generic data processing applications, less so for applications modeled around a particular domain.",
-"doap": "https://gitbox.apache.org/repos/asf?p=metamodel.git;f=doap_MetaModel.rdf;a=blob_plain;hb=HEAD",
+"doap": "https://git-wip-us.apache.org/repos/asf?p=metamodel.git;f=doap_MetaModel.rdf;a=blob_plain;hb=HEAD",
 "download-page": "http://metamodel.apache.org/#download",
 "homepage": "http://metamodel.apache.org",
 "license": "http://spdx.org/licenses/Apache-2.0",
@@ -11915,31 +12785,6 @@
 ],
 "shortdesc": "XMLBeans is a technology for accessing XML by binding it to Java types. XMLBeans provides several ways to get at the XML: strong XMLSchema typed model, cursor API, streaming (SAX, Stax) and DOM. XMLBeans covers 100% XMLSchema support while giving access to full infoset of documents."
 },
-"polygene": {
-"bug-database": "https://issues.apache.org/jira/browse/POLYGENE",
-"category": "library, retired",
-"created": "2008-12-17",
-"description": "Apache Polygene is a community based effort exploring Composite Oriented Programming for domain centric application development. This includes evolved concepts from Aspect Oriented Programming, Dependency Injection and Domain Driven Design. Composite Oriented Programming allows developers to work with 'fragments', smaller than classes, and 'compose' fragments into larger 'composites' which acts like the regular objects. Polygene also tackles the enforcement of application composition, i.e. composites are declared in modules, modules are contained in layers and access between layers are controlled/enforced. Apache Polygene™ (Java Edition), first Apache Polygene sub-project, is an implementation of Composite Oriented Programming, using the standard Java platform, without the use of any pre-processors or new language elements. Everything you know from Java still applies and you can leverage both your experience and toolkits to become more productive with Composite Oriented Programming today.",
-"doap": "https://git-wip-us.apache.org/repos/asf?p=polygene-java.git;f=doap.rdf;a=blob_plain;hb=develop",
-"download-page": "https://polygene.apache.org/download.html",
-"homepage": "https://polygene.apache.org/",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "https://www.apache.org/foundation/mailinglists.html",
-"maintainer": [
-{
-"mbox": "mailto:niclas@apache.org",
-"name": "Niclas Hedhman"
-}
-],
-"name": "Apache Polygene",
-"pmc": "attic",
-"programming-language": "Java, C#, Scala, Groovy, JavaScript",
-"repository": [
-"http://svn.apache.org/repos/asf/polygene/",
-"https://git-wip-us.apache.org/repos/asf/polygene-java.git"
-],
-"shortdesc": "Apache Polygene is a community based effort exploring Composite Oriented Programming for domain centric application development."
-},
 "portals": {
 "bug-database": "http://portals.apache.org/issue-tracking.html",
 "category": "web-framework",
@@ -13590,7 +14435,7 @@
 "category": "big-data",
 "created": "2017-12-07",
 "description": "Trafodion builds on the scalability, elasticity, and flexibility of Hadoop. Trafodion extends Hadoop to provide guaranteed transactional integrity, enabling new kinds of big data applications to run on Hadoop.",
-"doap": "https://gitbox.apache.org/repos/asf?p=trafodion.git;a=blob_plain;f=doap.rdf;hb=HEAD",
+"doap": "https://git-wip-us.apache.org/repos/asf?p=trafodion.git;a=blob_plain;f=doap.rdf;hb=HEAD",
 "download-page": "http://trafodion.apache.org/download.html",
 "homepage": "http://trafodion.apache.org",
 "license": "http://spdx.org/licenses/Apache-2.0",
@@ -13986,7 +14831,7 @@
 "category": "big-data, xml",
 "created": "2014-10-09",
 "description": "Apache VXQuery will be a standards compliant XML Query processor implemented in Java. The focus is on the evaluation of queries on large amounts of XML data. Specifically the goal is to evaluate queries on large collections of relatively small XML documents. To achieve this queries will be evaluated on a cluster of shared nothing machines.",
-"doap": "https://gitbox.apache.org/repos/asf?p=vxquery.git;f=doap.rdf;a=blob_plain;hb=HEAD",
+"doap": "https://git-wip-us.apache.org/repos/asf?p=vxquery.git;f=doap.rdf;a=blob_plain;hb=HEAD",
 "download-page": "http://www.apache.org/dyn/closer.cgi/vxquery/",
 "homepage": "http://vxquery.apache.org/",
 "implements": [
