@@ -1512,6 +1512,114 @@
 ],
 "shortdesc": "The Apache Lucy search engine library provides full-text search for dynamic programming languages."
 },
+"attic-mrunit": {
+"bug-database": "http://issues.apache.org/jira/browse/MRUNIT",
+"category": "library, retired",
+"chair": {
+"Person": {
+"name": "Brock Noland"
+}
+},
+"charter": "Apache MRUnit is a Java library that helps developers unit test Apache Hadoop map reduce jobs.",
+"created": "2009-01-01",
+"description": "The Apache MRUnit is a Java library that helps developers unit test Apache Hadoop map reduce jobs.",
+"doap": "https://git-wip-us.apache.org/repos/asf?p=attic-mrunit.git;f=doap_mrunit.rdf;a=blob_plain;hb=HEAD",
+"download-page": "http://mrunit.apache.org/general/downloads.html",
+"homepage": "http://mrunit.apache.org",
+"license": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+"mailing-list": "http://mrunit.apache.org/mail-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:brock@apache.org",
+"name": "Brock Noland"
+},
+{
+"mbox": "mailto:cos@apache.org",
+"name": "Konstantin Boudnik"
+},
+{
+"mbox": "mailto:dbeech@apache.org",
+"name": "Dave Beech"
+},
+{
+"mbox": "mailto:dechouxb@apache.org",
+"name": "Bertrand Dechoux"
+},
+{
+"mbox": "mailto:esammer@apache.org",
+"name": "Eric Sammer"
+},
+{
+"mbox": "mailto:gwu@apache.org",
+"name": "Garrett Wu"
+},
+{
+"mbox": "mailto:jarcec@apache.org",
+"name": "Jarek Jarcec Cecho"
+},
+{
+"mbox": "mailto:jdonofrio@apache.org",
+"name": "Jim Donofrio"
+},
+{
+"mbox": "mailto:kimballa@apache.org",
+"name": "Aaron Kimball"
+},
+{
+"mbox": "mailto:kinley@apache.org",
+"name": "James Robert Kinley"
+},
+{
+"mbox": "mailto:mattmann@apache.org",
+"name": "Chris Mattmann"
+},
+{
+"mbox": "mailto:nigel@apache.org",
+"name": "Nigel Daley"
+},
+{
+"mbox": "mailto:phunt@apache.org",
+"name": "Patrick D. Hunt"
+}
+],
+"name": "Apache MRUnit",
+"pmc": "attic",
+"programming-language": "Java",
+"release": [
+{
+"name": "Latest stable release",
+"revision": "1.1.0"
+},
+{
+"name": "Apache MRUnit - 1.0.0",
+"revision": "1.0.0"
+},
+{
+"name": "Apache MRUnit - 0.9.0-incubating",
+"revision": "0.9.0-incubating"
+},
+{
+"name": "Apache MRUnit - 0.8.1-incubating",
+"revision": "0.8.1-incubating"
+},
+{
+"file-release": "http://repo.maven.apache.org/maven2/org/apache/mrunit/mrunit/0.8.0-incubating/mrunit-0.8.0-incubating.jar",
+"name": "Apache MRUnit - 0.8.0-incubating",
+"revision": "0.8.0-incubating"
+},
+{
+"file-release": "http://repo.maven.apache.org/maven2/org/apache/mrunit/mrunit/0.5.0-incubating/mrunit-0.5.0-incubating.jar",
+"name": "Apache MRUnit - 0.5.0-incubating",
+"revision": "0.5.0-incubating"
+}
+],
+"repository": [
+"git:http://git-wip-us.apache.org/repos/asf/mrunit.git",
+"git:https://git-wip-us.apache.org/repos/asf/mrunit.git"
+],
+"shortdesc": "Apache MRUnit is a Java library that helps developers unit test Apache Hadoop map reduce jobs.",
+"vendor": "The Apache Software Foundation"
+},
 "attic-oltu_-_parent": {
 "bug-database": "https://issues.apache.org/jira/browse/OLTU",
 "category": "library, retired",
@@ -1811,6 +1919,62 @@
 "http://svn.apache.org/repos/asf/shindig"
 ],
 "shortdesc": "Apache Shindig software is an OpenSocial container and helps you to start hosting OpenSocial apps quickly by providing the code to render gadgets, proxy requests, and handle REST and RPC requests."
+},
+"attic-stratos": {
+"bug-database": "https://issues.apache.org/jira/browse/stratos",
+"category": "cloud, retired",
+"created": "2014-06-09",
+"description": "Apache Stratos is a highly-extensible Platform-as-a-Service (PaaS) framework that helps run Apache Tomcat, PHP, and MySQL applications and can be extended to support many more environments on all major cloud infrastructures. For developers, Stratos provides a cloud-based environment for developing, testing, and running scalable applications. IT providers benefit from high utilization rates, automated resource management, and platform-wide insight including monitoring and billing.",
+"doap": "https://git-wip-us.apache.org/repos/asf?p=attic-stratos.git;a=blob_plain;f=doap_Stratos.rdf;hb=HEAD",
+"download-page": "http://stratos.apache.org/releases/index.html",
+"homepage": "http://stratos.apache.org/",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "http://stratos.apache.org/community/mailing-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:lakmal@apache.org",
+"name": "Lakmal Warusawithana"
+}
+],
+"name": "Apache Stratos",
+"pmc": "attic",
+"programming-language": "Java",
+"release": [
+{
+"created": "2013-11-09",
+"name": "Apache Stratos 3.0.0-incubating",
+"revision": null
+},
+{
+"created": "2014-06-09",
+"name": "Apache Stratos 4.0.0",
+"revision": "4.0.0"
+},
+{
+"created": "2014-07-13",
+"name": "Apache Stgratos 4.1.1",
+"revision": "4.1.1"
+},
+{
+"created": "2014-09-02",
+"name": "Apache Stgratos 4.1.2",
+"revision": "4.1.2"
+},
+{
+"created": "2014-09-23",
+"name": "Apache Stgratos 4.1.3",
+"revision": "4.1.3"
+},
+{
+"created": "2014-10-22",
+"name": "Apache Stgratos 4.1.4",
+"revision": "4.1.4"
+}
+],
+"repository": [
+"https://git-wip-us.apache.org/repos/asf/stratos.git"
+],
+"shortdesc": "Apache Stratos is a highly-extensible Platform-as-a-Service (PaaS) framework that helps run Apache Tomcat, PHP, and MySQL applications and can be extended to support many more environments on all major cloud infrastructures. "
 },
 "attic-tiles": {
 "bug-database": "https://issues.apache.org/jira/browse/TILES",
@@ -12785,6 +12949,31 @@
 ],
 "shortdesc": "XMLBeans is a technology for accessing XML by binding it to Java types. XMLBeans provides several ways to get at the XML: strong XMLSchema typed model, cursor API, streaming (SAX, Stax) and DOM. XMLBeans covers 100% XMLSchema support while giving access to full infoset of documents."
 },
+"polygene": {
+"bug-database": "https://issues.apache.org/jira/browse/POLYGENE",
+"category": "library, retired",
+"created": "2008-12-17",
+"description": "Apache Polygene is a community based effort exploring Composite Oriented Programming for domain centric application development. This includes evolved concepts from Aspect Oriented Programming, Dependency Injection and Domain Driven Design. Composite Oriented Programming allows developers to work with 'fragments', smaller than classes, and 'compose' fragments into larger 'composites' which acts like the regular objects. Polygene also tackles the enforcement of application composition, i.e. composites are declared in modules, modules are contained in layers and access between layers are controlled/enforced. Apache Polygene™ (Java Edition), first Apache Polygene sub-project, is an implementation of Composite Oriented Programming, using the standard Java platform, without the use of any pre-processors or new language elements. Everything you know from Java still applies and you can leverage both your experience and toolkits to become more productive with Composite Oriented Programming today.",
+"doap": "https://git-wip-us.apache.org/repos/asf?p=attic-polygene-java.git;f=doap.rdf;a=blob_plain;hb=develop",
+"download-page": "https://polygene.apache.org/download.html",
+"homepage": "https://polygene.apache.org/",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "https://www.apache.org/foundation/mailinglists.html",
+"maintainer": [
+{
+"mbox": "mailto:niclas@apache.org",
+"name": "Niclas Hedhman"
+}
+],
+"name": "Apache Polygene",
+"pmc": "attic",
+"programming-language": "Java, C#, Scala, Groovy, JavaScript",
+"repository": [
+"http://svn.apache.org/repos/asf/polygene/",
+"https://git-wip-us.apache.org/repos/asf/polygene-java.git"
+],
+"shortdesc": "Apache Polygene is a community based effort exploring Composite Oriented Programming for domain centric application development."
+},
 "portals": {
 "bug-database": "http://portals.apache.org/issue-tracking.html",
 "category": "web-framework",
@@ -14045,7 +14234,7 @@
 ],
 "name": "Apache Thrift",
 "pmc": "thrift",
-"programming-language": "ActionScript, C, C#, C++, Cocoa, D, Dart, Delphi, Erlang, Go, Haskell, Haxe, Java, JavaScript, node.js, OCaml, Perl, PHP, Python, Rust, SmallTalk",
+"programming-language": "ActionScript, C, C#, C++, D, Dart, Delphi, Erlang, Go, Haskell, Haxe, Java, JavaScript, node.js, OCaml, Perl, PHP, Python, Rust, SmallTalk",
 "release": [
 {
 "created": "2009-12-11",
@@ -14056,7 +14245,7 @@
 "repository": [
 "https://github.com/apache/thrift.git"
 ],
-"shortdesc": "Apache Thrift software provides a framework for scalable cross-language services development, combines a software stack with a code generation engine to build services that work efficiently and seamlessly between C++, Java, Python, PHP, Ruby, Erlang, Perl, Haskell, C#, Cocoa, JavaScript, Node.js, Smalltalk, OCaml and Delphi and other languages. "
+"shortdesc": "Apache Thrift software provides a framework for scalable cross-language services development, combines a software stack with a code generation engine to build services that work efficiently and seamlessly between C++, Java, Python, PHP, Ruby, Erlang, Perl, Haskell, C#, JavaScript, Node.js, Smalltalk, OCaml and Delphi and other languages. "
 },
 "tika": {
 "account": {
