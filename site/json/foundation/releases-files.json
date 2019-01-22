@@ -2107,9 +2107,9 @@
 "felix/org.apache.felix.log.extension-1.0.0-source-release.tar.gz",
 "felix/org.apache.felix.log.extension-1.0.0-source-release.zip"
 ],
-"org.apache.felix.logback-1.0.0": [
-"felix/org.apache.felix.logback-1.0.0-source-release.tar.gz",
-"felix/org.apache.felix.logback-1.0.0-source-release.zip"
+"org.apache.felix.logback-1.0.2": [
+"felix/org.apache.felix.logback-1.0.2-source-release.tar.gz",
+"felix/org.apache.felix.logback-1.0.2-source-release.zip"
 ],
 "org.apache.felix.main-6.0.1": [
 "felix/org.apache.felix.main-6.0.1-source-release.tar.gz",
@@ -2563,6 +2563,12 @@
 ]
 },
 "hadoop": {
+"RELEASENOTES.md": [
+"hadoop/common/current2/RELEASENOTES.md",
+"hadoop/common/hadoop-3.2.0/RELEASENOTES.md",
+"hadoop/core/current2/RELEASENOTES.md",
+"hadoop/core/hadoop-3.2.0/RELEASENOTES.md"
+],
 "hadoop-2.6.5": [
 "hadoop/common/hadoop-2.6.5/hadoop-2.6.5-src.tar.gz",
 "hadoop/common/hadoop-2.6.5/hadoop-2.6.5.tar.gz",
@@ -2606,12 +2612,8 @@
 "hadoop/core/hadoop-2.9.1/hadoop-2.9.1.tar.gz"
 ],
 "hadoop-2.9.2": [
-"hadoop/common/current2/hadoop-2.9.2-src.tar.gz",
-"hadoop/common/current2/hadoop-2.9.2.tar.gz",
 "hadoop/common/hadoop-2.9.2/hadoop-2.9.2-src.tar.gz",
 "hadoop/common/hadoop-2.9.2/hadoop-2.9.2.tar.gz",
-"hadoop/core/current2/hadoop-2.9.2-src.tar.gz",
-"hadoop/core/current2/hadoop-2.9.2.tar.gz",
 "hadoop/core/hadoop-2.9.2/hadoop-2.9.2-src.tar.gz",
 "hadoop/core/hadoop-2.9.2/hadoop-2.9.2.tar.gz"
 ],
@@ -2632,6 +2634,20 @@
 "hadoop/common/hadoop-3.1.1/hadoop-3.1.1.tar.gz",
 "hadoop/core/hadoop-3.1.1/hadoop-3.1.1-src.tar.gz",
 "hadoop/core/hadoop-3.1.1/hadoop-3.1.1.tar.gz"
+],
+"hadoop-3.2.0": [
+"hadoop/common/current2/hadoop-3.2.0-site.tar.gz",
+"hadoop/common/current2/hadoop-3.2.0-src.tar.gz",
+"hadoop/common/current2/hadoop-3.2.0.tar.gz",
+"hadoop/common/hadoop-3.2.0/hadoop-3.2.0-site.tar.gz",
+"hadoop/common/hadoop-3.2.0/hadoop-3.2.0-src.tar.gz",
+"hadoop/common/hadoop-3.2.0/hadoop-3.2.0.tar.gz",
+"hadoop/core/current2/hadoop-3.2.0-site.tar.gz",
+"hadoop/core/current2/hadoop-3.2.0-src.tar.gz",
+"hadoop/core/current2/hadoop-3.2.0.tar.gz",
+"hadoop/core/hadoop-3.2.0/hadoop-3.2.0-site.tar.gz",
+"hadoop/core/hadoop-3.2.0/hadoop-3.2.0-src.tar.gz",
+"hadoop/core/hadoop-3.2.0/hadoop-3.2.0.tar.gz"
 ],
 "hadoop-ozone-0.2.1-alpha": [
 "hadoop/ozone/ozone-0.2.1-alpha/hadoop-ozone-0.2.1-alpha-src.tar.gz",
@@ -2788,6 +2804,10 @@
 "httpd-2.4.37": [
 "httpd/httpd-2.4.37.tar.bz2",
 "httpd/httpd-2.4.37.tar.gz"
+],
+"httpd-2.4.38": [
+"httpd/httpd-2.4.38.tar.bz2",
+"httpd/httpd-2.4.38.tar.gz"
 ],
 "httpd_logo_wide_new.png": [
 "httpd/httpd_logo_wide_new.png"
@@ -6080,8 +6100,8 @@
 "maven-invoker-3.0.1": [
 "maven/shared/maven-invoker-3.0.1-source-release.zip"
 ],
-"maven-invoker-plugin-3.1.0": [
-"maven/plugins/maven-invoker-plugin-3.1.0-source-release.zip"
+"maven-invoker-plugin-3.2.0": [
+"maven/plugins/maven-invoker-plugin-3.2.0-source-release.zip"
 ],
 "maven-jar-plugin-3.1.1": [
 "maven/plugins/maven-jar-plugin-3.1.1-source-release.zip"
@@ -8537,52 +8557,52 @@
 ]
 },
 "syncope": {
-"apache-syncope-2.0.11": [
-"syncope/2.0.11/apache-syncope-2.0.11.deb"
+"apache-syncope-2.0.12": [
+"syncope/2.0.12/apache-syncope-2.0.12.deb"
 ],
-"apache-syncope-2.1.2": [
-"syncope/2.1.2/apache-syncope-2.1.2.deb"
+"apache-syncope-2.1.3": [
+"syncope/2.1.3/apache-syncope-2.1.3.deb"
 ],
-"apache-syncope-console-2.0.11": [
-"syncope/2.0.11/apache-syncope-console-2.0.11.deb"
+"apache-syncope-console-2.0.12": [
+"syncope/2.0.12/apache-syncope-console-2.0.12.deb"
 ],
-"apache-syncope-console-2.1.2": [
-"syncope/2.1.2/apache-syncope-console-2.1.2.deb"
+"apache-syncope-console-2.1.3": [
+"syncope/2.1.3/apache-syncope-console-2.1.3.deb"
 ],
-"apache-syncope-enduser-2.0.11": [
-"syncope/2.0.11/apache-syncope-enduser-2.0.11.deb"
+"apache-syncope-enduser-2.0.12": [
+"syncope/2.0.12/apache-syncope-enduser-2.0.12.deb"
 ],
-"apache-syncope-enduser-2.1.2": [
-"syncope/2.1.2/apache-syncope-enduser-2.1.2.deb"
+"apache-syncope-enduser-2.1.3": [
+"syncope/2.1.3/apache-syncope-enduser-2.1.3.deb"
 ],
-"org.apache.syncope.ide.eclipse.site-2.0.11": [
-"syncope/2.0.11/org.apache.syncope.ide.eclipse.site-2.0.11.zip"
+"org.apache.syncope.ide.eclipse.site-2.0.12": [
+"syncope/2.0.12/org.apache.syncope.ide.eclipse.site-2.0.12.zip"
 ],
-"org.apache.syncope.ide.eclipse.site-2.1.2": [
-"syncope/2.1.2/org.apache.syncope.ide.eclipse.site-2.1.2.zip"
+"org.apache.syncope.ide.eclipse.site-2.1.3": [
+"syncope/2.1.3/org.apache.syncope.ide.eclipse.site-2.1.3.zip"
 ],
-"syncope-2.0.11": [
-"syncope/2.0.11/syncope-2.0.11-source-release.zip",
-"syncope/2.0.11/syncope-standalone-2.0.11-distribution.zip"
+"syncope-2.0.12": [
+"syncope/2.0.12/syncope-2.0.12-source-release.zip",
+"syncope/2.0.12/syncope-standalone-2.0.12-distribution.zip"
 ],
-"syncope-2.1.2": [
-"syncope/2.1.2/syncope-2.1.2-source-release.zip",
-"syncope/2.1.2/syncope-standalone-2.1.2-distribution.zip"
+"syncope-2.1.3": [
+"syncope/2.1.3/syncope-2.1.3-source-release.zip",
+"syncope/2.1.3/syncope-standalone-2.1.3-distribution.zip"
 ],
-"syncope-client-cli-2.0.11": [
-"syncope/2.0.11/syncope-client-cli-2.0.11.zip"
+"syncope-client-cli-2.0.12": [
+"syncope/2.0.12/syncope-client-cli-2.0.12.zip"
 ],
-"syncope-client-cli-2.1.2": [
-"syncope/2.1.2/syncope-client-cli-2.1.2.zip"
+"syncope-client-cli-2.1.3": [
+"syncope/2.1.3/syncope-client-cli-2.1.3.zip"
 ],
-"syncope-core-upgrade-2.1.2": [
-"syncope/2.1.2/syncope-core-upgrade-2.1.2.zip"
+"syncope-core-upgrade-2.1.3": [
+"syncope/2.1.3/syncope-core-upgrade-2.1.3.zip"
 ],
-"syncope-ide-netbeans-2.0.11.nbm": [
-"syncope/2.0.11/syncope-ide-netbeans-2.0.11.nbm"
+"syncope-ide-netbeans-2.0.12.nbm": [
+"syncope/2.0.12/syncope-ide-netbeans-2.0.12.nbm"
 ],
-"syncope-ide-netbeans-2.1.2.nbm": [
-"syncope/2.1.2/syncope-ide-netbeans-2.1.2.nbm"
+"syncope-ide-netbeans-2.1.3.nbm": [
+"syncope/2.1.3/syncope-ide-netbeans-2.1.3.nbm"
 ]
 },
 "systemml": {
@@ -9088,9 +9108,9 @@
 "turbine/fulcrum/fulcrum-crypto/source/fulcrum-crypto-1.0.7-src.tar.gz",
 "turbine/fulcrum/fulcrum-crypto/source/fulcrum-crypto-1.0.7-src.zip"
 ],
-"fulcrum-factory-1.1.0": [
-"turbine/fulcrum/fulcrum-factory/source/fulcrum-factory-1.1.0-src.tar.gz",
-"turbine/fulcrum/fulcrum-factory/source/fulcrum-factory-1.1.0-src.zip"
+"fulcrum-factory-1.1.1": [
+"turbine/fulcrum/fulcrum-factory/source/fulcrum-factory-1.1.1-src.tar.gz",
+"turbine/fulcrum/fulcrum-factory/source/fulcrum-factory-1.1.1-src.zip"
 ],
 "fulcrum-hsqldb-1.0.0": [
 "turbine/fulcrum/fulcrum-hsqldb/source/fulcrum-hsqldb-1.0.0-src.tar.bz2",
@@ -9115,10 +9135,9 @@
 "turbine/fulcrum/fulcrum-localization/source/fulcrum-localization-1.0.6-src.tar.gz",
 "turbine/fulcrum/fulcrum-localization/source/fulcrum-localization-1.0.6-src.zip"
 ],
-"fulcrum-mimetype-1.0.5": [
-"turbine/fulcrum/fulcrum-mimetype/source/fulcrum-mimetype-1.0.5-src.tar.bz2",
-"turbine/fulcrum/fulcrum-mimetype/source/fulcrum-mimetype-1.0.5-src.tar.gz",
-"turbine/fulcrum/fulcrum-mimetype/source/fulcrum-mimetype-1.0.5-src.zip"
+"fulcrum-mimetype-1.0.6": [
+"turbine/fulcrum/fulcrum-mimetype/source/fulcrum-mimetype-1.0.6-src.tar.gz",
+"turbine/fulcrum/fulcrum-mimetype/source/fulcrum-mimetype-1.0.6-src.zip"
 ],
 "fulcrum-parser-1.0.3": [
 "turbine/fulcrum/fulcrum-parser/source/fulcrum-parser-1.0.3-src.tar.bz2",
