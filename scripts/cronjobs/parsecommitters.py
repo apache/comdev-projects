@@ -4,7 +4,6 @@ import sys
 
 Reads:
 https://whimsy.apache.org/public/member_info.json
-https://whimsy.apache.org/public/public_ldap_committees.json
 https://whimsy.apache.org/public/public_ldap_groups.json
 https://whimsy.apache.org/public/public_ldap_people.json
 https://whimsy.apache.org/public/public_podling_status.json
