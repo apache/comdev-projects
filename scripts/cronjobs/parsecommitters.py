@@ -72,7 +72,6 @@ memberinfo = loadJson('https://whimsy.apache.org/public/member-info.json')['memb
 
 # load the other required files
 ldapgroups = loadJson('https://whimsy.apache.org/public/public_ldap_groups.json')['groups']
-ldapcttees = loadJson('https://whimsy.apache.org/public/public_ldap_committees.json')['committees']
 ldapprojects = loadJson('https://whimsy.apache.org/public/public_ldap_projects.json')['projects']
 podlingstatus = loadJson('https://whimsy.apache.org/public/public_podling_status.json')['podling']
 
@@ -94,13 +93,6 @@ for g in ldapgroups:
         groups[g] = ldapgroups[g]['roster']
         for p in ldapgroups[g]['roster']:
             addPersonGroup(p,g,'LDAP unix').append(g)
-
-# Other committees not yet in projects (security etc)
-for g in ldapcttees:
-    if not g in ldapprojects:
-        groups[g+'-pmc'] = ldapcttees[g]['roster']
-        for p in ldapcttees[g]['roster']:
-            addPersonGroup(p,g,'LDAP committee').append(g+'-pmc')
 
 # Now sort the groups arrays
 for p in people:
