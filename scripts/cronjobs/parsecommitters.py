@@ -4,7 +4,6 @@ import sys
 
 Reads:
 https://whimsy.apache.org/public/member_info.json
-https://whimsy.apache.org/public/public_ldap_groups.json
 https://whimsy.apache.org/public/public_ldap_people.json
 https://whimsy.apache.org/public/public_podling_status.json
 https://whimsy.apache.org/public/public_ldap_projects.json
@@ -70,7 +69,6 @@ ldappeople = loadJson('https://whimsy.apache.org/public/public_ldap_people.json'
 memberinfo = loadJson('https://whimsy.apache.org/public/member-info.json')['members']
 
 # load the other required files
-ldapgroups = loadJson('https://whimsy.apache.org/public/public_ldap_groups.json')['groups']
 ldapprojects = loadJson('https://whimsy.apache.org/public/public_ldap_projects.json')['projects']
 podlingstatus = loadJson('https://whimsy.apache.org/public/public_podling_status.json')['podling']
 
@@ -85,13 +83,6 @@ for g in ldapprojects:
             groups[g+'-pmc'] = owners
             for p in owners:
                 addPersonGroup(p,g,'LDAP committee').append(g+'-pmc')
-
-# Other Unix groups (not all have been transferred yet)
-for g in ldapgroups:
-    if not g == 'committers' and not g == 'podlings' and not g in ldapprojects:
-        groups[g] = ldapgroups[g]['roster']
-        for p in ldapgroups[g]['roster']:
-            addPersonGroup(p,g,'LDAP unix').append(g)
 
 # Now sort the groups arrays
 for p in people:
