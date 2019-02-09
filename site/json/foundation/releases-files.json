@@ -5853,6 +5853,11 @@
 "lucene/java/7.6.0/lucene-7.6.0.tgz",
 "lucene/java/7.6.0/lucene-7.6.0.zip"
 ],
+"lucene-7.7.0": [
+"lucene/java/7.7.0/lucene-7.7.0-src.tgz",
+"lucene/java/7.7.0/lucene-7.7.0.tgz",
+"lucene/java/7.7.0/lucene-7.7.0.zip"
+],
 "pylucene-2.9.4-1": [
 "lucene/pylucene/pylucene-2.9.4-1-src.tar.gz"
 ],
@@ -5893,6 +5898,11 @@
 "lucene/solr/7.6.0/solr-7.6.0-src.tgz",
 "lucene/solr/7.6.0/solr-7.6.0.tgz",
 "lucene/solr/7.6.0/solr-7.6.0.zip"
+],
+"solr-7.7.0": [
+"lucene/solr/7.7.0/solr-7.7.0-src.tgz",
+"lucene/solr/7.7.0/solr-7.7.0.tgz",
+"lucene/solr/7.7.0/solr-7.7.0.zip"
 ]
 },
 "lucenenet": {
@@ -6306,8 +6316,8 @@
 "surefire-3.0.0-M3": [
 "maven/surefire/surefire-3.0.0-M3-source-release.zip"
 ],
-"wagon-3.3.1": [
-"maven/wagon/wagon-3.3.1-source-release.zip"
+"wagon-3.3.2": [
+"maven/wagon/wagon-3.3.2-source-release.zip"
 ]
 },
 "mesos": {
@@ -8867,19 +8877,6 @@
 "tomcat/tomcat-7/v7.0.92/src/apache-tomcat-7.0.92-src.tar.gz",
 "tomcat/tomcat-7/v7.0.92/src/apache-tomcat-7.0.92-src.zip"
 ],
-"apache-tomcat-8.5.35": [
-"tomcat/tomcat-8/v8.5.35/bin/embed/apache-tomcat-8.5.35-embed.tar.gz",
-"tomcat/tomcat-8/v8.5.35/bin/embed/apache-tomcat-8.5.35-embed.zip",
-"tomcat/tomcat-8/v8.5.35/bin/apache-tomcat-8.5.35-deployer.tar.gz",
-"tomcat/tomcat-8/v8.5.35/bin/apache-tomcat-8.5.35-deployer.zip",
-"tomcat/tomcat-8/v8.5.35/bin/apache-tomcat-8.5.35-fulldocs.tar.gz",
-"tomcat/tomcat-8/v8.5.35/bin/apache-tomcat-8.5.35-windows-x64.zip",
-"tomcat/tomcat-8/v8.5.35/bin/apache-tomcat-8.5.35.exe",
-"tomcat/tomcat-8/v8.5.35/bin/apache-tomcat-8.5.35.tar.gz",
-"tomcat/tomcat-8/v8.5.35/bin/apache-tomcat-8.5.35.zip",
-"tomcat/tomcat-8/v8.5.35/src/apache-tomcat-8.5.35-src.tar.gz",
-"tomcat/tomcat-8/v8.5.35/src/apache-tomcat-8.5.35-src.zip"
-],
 "apache-tomcat-8.5.37": [
 "tomcat/tomcat-8/v8.5.37/bin/embed/apache-tomcat-8.5.37-embed.tar.gz",
 "tomcat/tomcat-8/v8.5.37/bin/embed/apache-tomcat-8.5.37-embed.zip",
@@ -8893,18 +8890,18 @@
 "tomcat/tomcat-8/v8.5.37/src/apache-tomcat-8.5.37-src.tar.gz",
 "tomcat/tomcat-8/v8.5.37/src/apache-tomcat-8.5.37-src.zip"
 ],
-"apache-tomcat-9.0.14": [
-"tomcat/tomcat-9/v9.0.14/bin/embed/apache-tomcat-9.0.14-embed.tar.gz",
-"tomcat/tomcat-9/v9.0.14/bin/embed/apache-tomcat-9.0.14-embed.zip",
-"tomcat/tomcat-9/v9.0.14/bin/apache-tomcat-9.0.14-deployer.tar.gz",
-"tomcat/tomcat-9/v9.0.14/bin/apache-tomcat-9.0.14-deployer.zip",
-"tomcat/tomcat-9/v9.0.14/bin/apache-tomcat-9.0.14-fulldocs.tar.gz",
-"tomcat/tomcat-9/v9.0.14/bin/apache-tomcat-9.0.14-windows-x64.zip",
-"tomcat/tomcat-9/v9.0.14/bin/apache-tomcat-9.0.14.exe",
-"tomcat/tomcat-9/v9.0.14/bin/apache-tomcat-9.0.14.tar.gz",
-"tomcat/tomcat-9/v9.0.14/bin/apache-tomcat-9.0.14.zip",
-"tomcat/tomcat-9/v9.0.14/src/apache-tomcat-9.0.14-src.tar.gz",
-"tomcat/tomcat-9/v9.0.14/src/apache-tomcat-9.0.14-src.zip"
+"apache-tomcat-8.5.38": [
+"tomcat/tomcat-8/v8.5.38/bin/embed/apache-tomcat-8.5.38-embed.tar.gz",
+"tomcat/tomcat-8/v8.5.38/bin/embed/apache-tomcat-8.5.38-embed.zip",
+"tomcat/tomcat-8/v8.5.38/bin/apache-tomcat-8.5.38-deployer.tar.gz",
+"tomcat/tomcat-8/v8.5.38/bin/apache-tomcat-8.5.38-deployer.zip",
+"tomcat/tomcat-8/v8.5.38/bin/apache-tomcat-8.5.38-fulldocs.tar.gz",
+"tomcat/tomcat-8/v8.5.38/bin/apache-tomcat-8.5.38-windows-x64.zip",
+"tomcat/tomcat-8/v8.5.38/bin/apache-tomcat-8.5.38.exe",
+"tomcat/tomcat-8/v8.5.38/bin/apache-tomcat-8.5.38.tar.gz",
+"tomcat/tomcat-8/v8.5.38/bin/apache-tomcat-8.5.38.zip",
+"tomcat/tomcat-8/v8.5.38/src/apache-tomcat-8.5.38-src.tar.gz",
+"tomcat/tomcat-8/v8.5.38/src/apache-tomcat-8.5.38-src.zip"
 ],
 "apache-tomcat-9.0.16": [
 "tomcat/tomcat-9/v9.0.16/bin/embed/apache-tomcat-9.0.16-embed.tar.gz",
@@ -8922,20 +8919,12 @@
 "taglibs-standard-1.2.5": [
 "tomcat/taglibs/taglibs-standard-1.2.5/taglibs-standard-1.2.5-source-release.zip"
 ],
-"tomcat-connectors-1.2.44": [
-"tomcat/tomcat-connectors/jk/tomcat-connectors-1.2.44-src.tar.gz",
-"tomcat/tomcat-connectors/jk/tomcat-connectors-1.2.44-src.zip"
-],
 "tomcat-connectors-1.2.46": [
 "tomcat/tomcat-connectors/jk/tomcat-connectors-1.2.46-src.tar.gz",
 "tomcat/tomcat-connectors/jk/tomcat-connectors-1.2.46-src.zip"
 ],
 "tomcat-maven-plugin-2.2": [
 "tomcat/maven-plugin/v2.2/tomcat-maven-plugin-2.2-source-release.zip"
-],
-"tomcat-native-1.2.19": [
-"tomcat/tomcat-connectors/native/1.2.19/source/tomcat-native-1.2.19-src.tar.gz",
-"tomcat/tomcat-connectors/native/1.2.19/source/tomcat-native-1.2.19-win32-src.zip"
 ],
 "tomcat-native-1.2.21": [
 "tomcat/tomcat-connectors/native/1.2.21/source/tomcat-native-1.2.21-src.tar.gz",
