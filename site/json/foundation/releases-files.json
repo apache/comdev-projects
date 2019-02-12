@@ -590,37 +590,13 @@
 ]
 },
 "bahir": {
-"apache-bahir-2.1.1": [
-"bahir/bahir-spark/2.1.1/apache-bahir-2.1.1-src.tar.gz",
-"bahir/bahir-spark/2.1.1/apache-bahir-2.1.1-src.zip"
-],
-"apache-bahir-2.1.2": [
-"bahir/bahir-spark/2.1.2/apache-bahir-2.1.2-src.tar.gz",
-"bahir/bahir-spark/2.1.2/apache-bahir-2.1.2-src.zip"
-],
 "apache-bahir-2.1.3": [
 "bahir/bahir-spark/2.1.3/apache-bahir-2.1.3-src.tar.gz",
 "bahir/bahir-spark/2.1.3/apache-bahir-2.1.3-src.zip"
 ],
-"apache-bahir-2.2.0": [
-"bahir/bahir-spark/2.2.0/apache-bahir-2.2.0-src.tar.gz",
-"bahir/bahir-spark/2.2.0/apache-bahir-2.2.0-src.zip"
-],
-"apache-bahir-2.2.1": [
-"bahir/bahir-spark/2.2.1/apache-bahir-2.2.1-src.tar.gz",
-"bahir/bahir-spark/2.2.1/apache-bahir-2.2.1-src.zip"
-],
 "apache-bahir-2.2.2": [
 "bahir/bahir-spark/2.2.2/apache-bahir-2.2.2-src.tar.gz",
 "bahir/bahir-spark/2.2.2/apache-bahir-2.2.2-src.zip"
-],
-"apache-bahir-2.3.0": [
-"bahir/bahir-spark/2.3.0/apache-bahir-2.3.0-src.tar.gz",
-"bahir/bahir-spark/2.3.0/apache-bahir-2.3.0-src.zip"
-],
-"apache-bahir-2.3.1": [
-"bahir/bahir-spark/2.3.1/apache-bahir-2.3.1-src.tar.gz",
-"bahir/bahir-spark/2.3.1/apache-bahir-2.3.1-src.zip"
 ],
 "apache-bahir-2.3.2": [
 "bahir/bahir-spark/2.3.2/apache-bahir-2.3.2-src.tar.gz",
@@ -632,6 +608,10 @@
 ]
 },
 "beam": {
+"apache-beam-2.10.0": [
+"beam/2.10.0/python/apache-beam-2.10.0.zip",
+"beam/2.10.0/apache-beam-2.10.0-source-release.zip"
+],
 "apache-beam-2.7.0": [
 "beam/2.7.0/python/apache-beam-2.7.0.zip",
 "beam/2.7.0/apache-beam-2.7.0-source-release.zip"
@@ -801,41 +781,56 @@
 ]
 },
 "cassandra": {
-"341f7e01421ca348b6e23097ee3fa604e796409c809acbaa22871fdaaa9e2cb6-other.sqlite": [
-"cassandra/redhat/30x/repodata/341f7e01421ca348b6e23097ee3fa604e796409c809acbaa22871fdaaa9e2cb6-other.sqlite.bz2"
+"130833dc673d148894d62e2f6812cfec3453557a50f7f595180a4110d7f23bb8-primary.sqlite": [
+"cassandra/redhat/22x/repodata/130833dc673d148894d62e2f6812cfec3453557a50f7f595180a4110d7f23bb8-primary.sqlite.bz2"
 ],
-"7d4a84105a450c9a21aaab2d4182a5f0a25c6e72aab031445073475a5f9da661-primary.sqlite": [
-"cassandra/redhat/21x/repodata/7d4a84105a450c9a21aaab2d4182a5f0a25c6e72aab031445073475a5f9da661-primary.sqlite.bz2"
+"35d1bb3616a4a61653106a1f99ff79acc38e64a1acb74623f037fab347275687-filelists.sqlite": [
+"cassandra/redhat/21x/repodata/35d1bb3616a4a61653106a1f99ff79acc38e64a1acb74623f037fab347275687-filelists.sqlite.bz2"
 ],
-"870ca201ca36ae5871ad882cfa71aaddb564cc5b76ee41d046bbd59820d5c89a-filelists.sqlite": [
-"cassandra/redhat/311x/repodata/870ca201ca36ae5871ad882cfa71aaddb564cc5b76ee41d046bbd59820d5c89a-filelists.sqlite.bz2"
+"5167027edc8d609f37c0b01228ba6c1f1d897c87841123fbc34951ec5d11d305-filelists.sqlite": [
+"cassandra/redhat/30x/repodata/5167027edc8d609f37c0b01228ba6c1f1d897c87841123fbc34951ec5d11d305-filelists.sqlite.bz2"
 ],
-"890dc241c05c8392e4fe5cec841cbd25741e7def7366c0b0a13be5657676f647-other.sqlite": [
-"cassandra/redhat/22x/repodata/890dc241c05c8392e4fe5cec841cbd25741e7def7366c0b0a13be5657676f647-other.sqlite.bz2"
+"529a7ae24b75bcdfdaf282718ed5183526cea21b0377f2acf151b31553b27929-primary.sqlite": [
+"cassandra/redhat/311x/repodata/529a7ae24b75bcdfdaf282718ed5183526cea21b0377f2acf151b31553b27929-primary.sqlite.bz2"
 ],
-"897b986e3857a5c7f17b9c3fd854ad39a3578d6c98e58753196f628de93cb9d5-other.sqlite": [
-"cassandra/redhat/311x/repodata/897b986e3857a5c7f17b9c3fd854ad39a3578d6c98e58753196f628de93cb9d5-other.sqlite.bz2"
+"6fd07ee0059d206e9bc7ce1635fdb2171ddab346b5b8a0485156e8c2bbfdd752-other.sqlite": [
+"cassandra/redhat/21x/repodata/6fd07ee0059d206e9bc7ce1635fdb2171ddab346b5b8a0485156e8c2bbfdd752-other.sqlite.bz2"
 ],
-"8a70cd4a57d53c11fe52268c5ebde98284b2519ae08ce4f8e5a6b94b798f8230-filelists.sqlite": [
-"cassandra/redhat/22x/repodata/8a70cd4a57d53c11fe52268c5ebde98284b2519ae08ce4f8e5a6b94b798f8230-filelists.sqlite.bz2"
+"8b98e45f919878fd0f02bb31a0f14eca401357e97dbb31057841c215483ad800-other.sqlite": [
+"cassandra/redhat/311x/repodata/8b98e45f919878fd0f02bb31a0f14eca401357e97dbb31057841c215483ad800-other.sqlite.bz2"
 ],
-"8e55eff0dd55383af7132602b83cbc2354af8e3c23f483024a783d92aac29e2d-primary.sqlite": [
-"cassandra/redhat/22x/repodata/8e55eff0dd55383af7132602b83cbc2354af8e3c23f483024a783d92aac29e2d-primary.sqlite.bz2"
+"a103a1c35706a7aae1309db5c6fc56226503849e86b21bf98fa8e5de191e1cee-filelists.sqlite": [
+"cassandra/redhat/22x/repodata/a103a1c35706a7aae1309db5c6fc56226503849e86b21bf98fa8e5de191e1cee-filelists.sqlite.bz2"
 ],
 "apache-cassandra-2.1.20": [
 "cassandra/2.1.20/apache-cassandra-2.1.20-src.tar.gz"
 ],
+"apache-cassandra-2.1.21": [
+"cassandra/2.1.21/apache-cassandra-2.1.21-src.tar.gz"
+],
 "apache-cassandra-2.2.13": [
 "cassandra/2.2.13/apache-cassandra-2.2.13-src.tar.gz"
+],
+"apache-cassandra-2.2.14": [
+"cassandra/2.2.14/apache-cassandra-2.2.14-src.tar.gz"
 ],
 "apache-cassandra-3.0.17": [
 "cassandra/3.0.17/apache-cassandra-3.0.17-src.tar.gz"
 ],
+"apache-cassandra-3.0.18": [
+"cassandra/3.0.18/apache-cassandra-3.0.18-src.tar.gz"
+],
 "apache-cassandra-3.11.3": [
 "cassandra/3.11.3/apache-cassandra-3.11.3-src.tar.gz"
 ],
-"c04992b486d60dd3d031c27c991095d08ee8b98a2ed8ae669e5ed9e0941ae94d-filelists.sqlite": [
-"cassandra/redhat/21x/repodata/c04992b486d60dd3d031c27c991095d08ee8b98a2ed8ae669e5ed9e0941ae94d-filelists.sqlite.bz2"
+"apache-cassandra-3.11.4": [
+"cassandra/3.11.4/apache-cassandra-3.11.4-src.tar.gz"
+],
+"ba5d471724bbf52ead54de45236933c223cdff47e722efe93314c1ae361b6083-other.sqlite": [
+"cassandra/redhat/30x/repodata/ba5d471724bbf52ead54de45236933c223cdff47e722efe93314c1ae361b6083-other.sqlite.bz2"
+],
+"c8b81f57c09eca06f9c68bc4450862c5a157c631f32e87ed1f001de03b97bdbc-primary.sqlite": [
+"cassandra/redhat/30x/repodata/c8b81f57c09eca06f9c68bc4450862c5a157c631f32e87ed1f001de03b97bdbc-primary.sqlite.bz2"
 ],
 "cassandra-2.1.20-1": [
 "cassandra/redhat/21x/cassandra-2.1.20-1.src.rpm"
@@ -843,11 +838,23 @@
 "cassandra-2.1.20-1.noarch": [
 "cassandra/redhat/21x/cassandra-2.1.20-1.noarch.rpm"
 ],
+"cassandra-2.1.21-1": [
+"cassandra/redhat/21x/cassandra-2.1.21-1.src.rpm"
+],
+"cassandra-2.1.21-1.noarch": [
+"cassandra/redhat/21x/cassandra-2.1.21-1.noarch.rpm"
+],
 "cassandra-2.2.13-1": [
 "cassandra/redhat/22x/cassandra-2.2.13-1.src.rpm"
 ],
 "cassandra-2.2.13-1.noarch": [
 "cassandra/redhat/22x/cassandra-2.2.13-1.noarch.rpm"
+],
+"cassandra-2.2.14-1": [
+"cassandra/redhat/22x/cassandra-2.2.14-1.src.rpm"
+],
+"cassandra-2.2.14-1.noarch": [
+"cassandra/redhat/22x/cassandra-2.2.14-1.noarch.rpm"
 ],
 "cassandra-3.0.17-1": [
 "cassandra/redhat/30x/cassandra-3.0.17-1.src.rpm"
@@ -855,35 +862,56 @@
 "cassandra-3.0.17-1.noarch": [
 "cassandra/redhat/30x/cassandra-3.0.17-1.noarch.rpm"
 ],
+"cassandra-3.0.18-1": [
+"cassandra/redhat/30x/cassandra-3.0.18-1.src.rpm"
+],
+"cassandra-3.0.18-1.noarch": [
+"cassandra/redhat/30x/cassandra-3.0.18-1.noarch.rpm"
+],
 "cassandra-3.11.3-1": [
 "cassandra/redhat/311x/cassandra-3.11.3-1.src.rpm"
 ],
 "cassandra-3.11.3-1.noarch": [
 "cassandra/redhat/311x/cassandra-3.11.3-1.noarch.rpm"
 ],
+"cassandra-3.11.4-1": [
+"cassandra/redhat/311x/cassandra-3.11.4-1.src.rpm"
+],
+"cassandra-3.11.4-1.noarch": [
+"cassandra/redhat/311x/cassandra-3.11.4-1.noarch.rpm"
+],
 "cassandra-tools-2.1.20-1.noarch": [
 "cassandra/redhat/21x/cassandra-tools-2.1.20-1.noarch.rpm"
+],
+"cassandra-tools-2.1.21-1.noarch": [
+"cassandra/redhat/21x/cassandra-tools-2.1.21-1.noarch.rpm"
 ],
 "cassandra-tools-2.2.13-1.noarch": [
 "cassandra/redhat/22x/cassandra-tools-2.2.13-1.noarch.rpm"
 ],
+"cassandra-tools-2.2.14-1.noarch": [
+"cassandra/redhat/22x/cassandra-tools-2.2.14-1.noarch.rpm"
+],
 "cassandra-tools-3.0.17-1.noarch": [
 "cassandra/redhat/30x/cassandra-tools-3.0.17-1.noarch.rpm"
+],
+"cassandra-tools-3.0.18-1.noarch": [
+"cassandra/redhat/30x/cassandra-tools-3.0.18-1.noarch.rpm"
 ],
 "cassandra-tools-3.11.3-1.noarch": [
 "cassandra/redhat/311x/cassandra-tools-3.11.3-1.noarch.rpm"
 ],
-"d39951aae9459cfc730ff17f7389b4cb381bd5084402767486b34a374ef283d2-primary.sqlite": [
-"cassandra/redhat/311x/repodata/d39951aae9459cfc730ff17f7389b4cb381bd5084402767486b34a374ef283d2-primary.sqlite.bz2"
+"cassandra-tools-3.11.4-1.noarch": [
+"cassandra/redhat/311x/cassandra-tools-3.11.4-1.noarch.rpm"
 ],
-"f363ccfa9a7650711b3aa4f1d62b4b5826353b0a96a5149ba9fa5ef3e1349d1c-filelists.sqlite": [
-"cassandra/redhat/30x/repodata/f363ccfa9a7650711b3aa4f1d62b4b5826353b0a96a5149ba9fa5ef3e1349d1c-filelists.sqlite.bz2"
+"cda6212be2b08295c171432eec9a503870efb470a0532a1b158e5a4f4a853e80-primary.sqlite": [
+"cassandra/redhat/21x/repodata/cda6212be2b08295c171432eec9a503870efb470a0532a1b158e5a4f4a853e80-primary.sqlite.bz2"
 ],
-"f8f080d334d19cb339f24e9c85abdc2ac6bb2d9aabb27a8d8c0db7ac6f74dc8b-primary.sqlite": [
-"cassandra/redhat/30x/repodata/f8f080d334d19cb339f24e9c85abdc2ac6bb2d9aabb27a8d8c0db7ac6f74dc8b-primary.sqlite.bz2"
+"e09be8bf8502e7070c8671ed96b749d960b12ce6223b7c0c15ff65e4cbd71faa-filelists.sqlite": [
+"cassandra/redhat/311x/repodata/e09be8bf8502e7070c8671ed96b749d960b12ce6223b7c0c15ff65e4cbd71faa-filelists.sqlite.bz2"
 ],
-"f95d42dea0ba6a221489db5629044d978fe1f199d1cf8feffcb6909749744ba4-other.sqlite": [
-"cassandra/redhat/21x/repodata/f95d42dea0ba6a221489db5629044d978fe1f199d1cf8feffcb6909749744ba4-other.sqlite.bz2"
+"f2993dae43dc336350e68375fd2a09ad97efd94eb410c11fcfafafff6fc2f980-other.sqlite": [
+"cassandra/redhat/22x/repodata/f2993dae43dc336350e68375fd2a09ad97efd94eb410c11fcfafafff6fc2f980-other.sqlite.bz2"
 ]
 },
 "cayenne": {
@@ -5686,13 +5714,13 @@
 "karaf/4.1.7/apache-karaf-minimal-4.1.7.tar.gz",
 "karaf/4.1.7/apache-karaf-minimal-4.1.7.zip"
 ],
-"apache-karaf-4.2.2": [
-"karaf/4.2.2/apache-karaf-4.2.2-src.tar.gz",
-"karaf/4.2.2/apache-karaf-4.2.2-src.zip",
-"karaf/4.2.2/apache-karaf-4.2.2.tar.gz",
-"karaf/4.2.2/apache-karaf-4.2.2.zip",
-"karaf/4.2.2/apache-karaf-minimal-4.2.2.tar.gz",
-"karaf/4.2.2/apache-karaf-minimal-4.2.2.zip"
+"apache-karaf-4.2.3": [
+"karaf/4.2.3/apache-karaf-4.2.3-src.tar.gz",
+"karaf/4.2.3/apache-karaf-4.2.3-src.zip",
+"karaf/4.2.3/apache-karaf-4.2.3.tar.gz",
+"karaf/4.2.3/apache-karaf-4.2.3.zip",
+"karaf/4.2.3/apache-karaf-minimal-4.2.3.tar.gz",
+"karaf/4.2.3/apache-karaf-minimal-4.2.3.zip"
 ],
 "apache-karaf-cave-3.0.0": [
 "karaf/cave/3.0.0/apache-karaf-cave-3.0.0-src.tar.gz",
@@ -5842,16 +5870,6 @@
 "lucene/java/6.6.5/lucene-6.6.5.tgz",
 "lucene/java/6.6.5/lucene-6.6.5.zip"
 ],
-"lucene-7.5.0": [
-"lucene/java/7.5.0/lucene-7.5.0-src.tgz",
-"lucene/java/7.5.0/lucene-7.5.0.tgz",
-"lucene/java/7.5.0/lucene-7.5.0.zip"
-],
-"lucene-7.6.0": [
-"lucene/java/7.6.0/lucene-7.6.0-src.tgz",
-"lucene/java/7.6.0/lucene-7.6.0.tgz",
-"lucene/java/7.6.0/lucene-7.6.0.zip"
-],
 "lucene-7.7.0": [
 "lucene/java/7.7.0/lucene-7.7.0-src.tgz",
 "lucene/java/7.7.0/lucene-7.7.0.tgz",
@@ -5887,16 +5905,6 @@
 "lucene/solr/6.6.5/solr-6.6.5-src.tgz",
 "lucene/solr/6.6.5/solr-6.6.5.tgz",
 "lucene/solr/6.6.5/solr-6.6.5.zip"
-],
-"solr-7.5.0": [
-"lucene/solr/7.5.0/solr-7.5.0-src.tgz",
-"lucene/solr/7.5.0/solr-7.5.0.tgz",
-"lucene/solr/7.5.0/solr-7.5.0.zip"
-],
-"solr-7.6.0": [
-"lucene/solr/7.6.0/solr-7.6.0-src.tgz",
-"lucene/solr/7.6.0/solr-7.6.0.tgz",
-"lucene/solr/7.6.0/solr-7.6.0.zip"
 ],
 "solr-7.7.0": [
 "lucene/solr/7.7.0/solr-7.7.0-src.tgz",
@@ -6399,17 +6407,11 @@
 "mina/sshd/1.7.0/apache-sshd-1.7.0.tar.gz",
 "mina/sshd/1.7.0/apache-sshd-1.7.0.zip"
 ],
-"apache-sshd-2.0.0": [
-"mina/sshd/2.0.0/apache-sshd-2.0.0-src.tar.gz",
-"mina/sshd/2.0.0/apache-sshd-2.0.0-src.zip",
-"mina/sshd/2.0.0/apache-sshd-2.0.0.tar.gz",
-"mina/sshd/2.0.0/apache-sshd-2.0.0.zip"
-],
-"apache-sshd-2.1.0": [
-"mina/sshd/2.1.0/apache-sshd-2.1.0-src.tar.gz",
-"mina/sshd/2.1.0/apache-sshd-2.1.0-src.zip",
-"mina/sshd/2.1.0/apache-sshd-2.1.0.tar.gz",
-"mina/sshd/2.1.0/apache-sshd-2.1.0.zip"
+"apache-sshd-2.2.0": [
+"mina/sshd/2.2.0/apache-sshd-2.2.0-src.tar.gz",
+"mina/sshd/2.2.0/apache-sshd-2.2.0-src.zip",
+"mina/sshd/2.2.0/apache-sshd-2.2.0.tar.gz",
+"mina/sshd/2.2.0/apache-sshd-2.2.0.zip"
 ],
 "vysper-0.7": [
 "mina/vysper/0.7/vysper-0.7-src.tar.gz",
