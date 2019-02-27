@@ -277,6 +277,9 @@
 "integration-1.0.1": [
 "aries/integration-1.0.1-source-release.zip"
 ],
+"integration-1.0.2": [
+"aries/integration-1.0.2-source-release.zip"
+],
 "org.apache.aries.blueprint-1.1.0": [
 "aries/org.apache.aries.blueprint-1.1.0-source-release.zip"
 ],
@@ -327,6 +330,9 @@
 ],
 "org.apache.aries.jax.rs-1.0.3": [
 "aries/org.apache.aries.jax.rs-1.0.3-source-release.zip"
+],
+"org.apache.aries.jax.rs-1.0.4": [
+"aries/org.apache.aries.jax.rs-1.0.4-source-release.zip"
 ],
 "org.apache.aries.jmx-1.1.0": [
 "aries/org.apache.aries.jmx-1.1.0-source-release.zip"
@@ -2198,9 +2204,9 @@
 "felix/org.apache.felix.resolver-2.0.0-source-release.tar.gz",
 "felix/org.apache.felix.resolver-2.0.0-source-release.zip"
 ],
-"org.apache.felix.scr-2.1.14": [
-"felix/org.apache.felix.scr-2.1.14-source-release.tar.gz",
-"felix/org.apache.felix.scr-2.1.14-source-release.zip"
+"org.apache.felix.scr-2.1.16": [
+"felix/org.apache.felix.scr-2.1.16-source-release.tar.gz",
+"felix/org.apache.felix.scr-2.1.16-source-release.zip"
 ],
 "org.apache.felix.scr.annotations-1.12.0": [
 "felix/org.apache.felix.scr.annotations-1.12.0-source-release.tar.gz",
@@ -2969,6 +2975,12 @@
 ],
 "apache-daffodil-2.2.0.incubating-1.noarch": [
 "incubator/daffodil/2.2.0/bin/apache-daffodil-2.2.0.incubating-1.noarch.rpm"
+],
+"apache-daffodil-2.3.0-incubating": [
+"incubator/daffodil/2.3.0/src/apache-daffodil-2.3.0-incubating-src.zip"
+],
+"apache-daffodil-2.3.0.incubating-1.noarch": [
+"incubator/daffodil/2.3.0/bin/apache-daffodil-2.3.0.incubating-1.noarch.rpm"
 ]
 },
 "incubator-doris": {
@@ -5011,12 +5023,6 @@
 ]
 },
 "incubator-plc4x": {
-"apache-plc4x-incubating-0.1.0": [
-"incubator/plc4x/0.1.0-incubating/apache-plc4x-incubating-0.1.0-source-release.zip"
-],
-"apache-plc4x-incubating-0.2.0": [
-"incubator/plc4x/0.2.0-incubating/apache-plc4x-incubating-0.2.0-source-release.zip"
-],
 "apache-plc4x-incubating-0.3.0": [
 "incubator/plc4x/0.3.0-incubating/apache-plc4x-incubating-0.3.0-source-release.zip"
 ]
@@ -6137,8 +6143,8 @@
 "maven-archetype-bundles-1.4": [
 "maven/archetype/maven-archetype-bundles-1.4-source-release.zip"
 ],
-"maven-archiver-3.3.0": [
-"maven/shared/maven-archiver-3.3.0-source-release.zip"
+"maven-archiver-3.4.0": [
+"maven/shared/maven-archiver-3.4.0-source-release.zip"
 ],
 "maven-artifact-resolver-1.0": [
 "maven/shared/maven-artifact-resolver-1.0-source-release.zip"
@@ -6354,6 +6360,9 @@
 ],
 "mesos-1.6.1": [
 "mesos/1.6.1/mesos-1.6.1.tar.gz"
+],
+"mesos-1.6.2": [
+"mesos/1.6.2/mesos-1.6.2.tar.gz"
 ],
 "mesos-1.7.2": [
 "mesos/1.7.2/mesos-1.7.2.tar.gz"
@@ -7853,8 +7862,8 @@
 "org.apache.sling.crankstart.test.services-1.0.0": [
 "sling/org.apache.sling.crankstart.test.services-1.0.0-source-release.zip"
 ],
-"org.apache.sling.datasource-1.0.2": [
-"sling/org.apache.sling.datasource-1.0.2-source-release.zip"
+"org.apache.sling.datasource-1.0.4": [
+"sling/org.apache.sling.datasource-1.0.4-source-release.zip"
 ],
 "org.apache.sling.discovery.api-1.0.4": [
 "sling/org.apache.sling.discovery.api-1.0.4-source-release.zip"
@@ -8061,8 +8070,8 @@
 "org.apache.sling.jcr.repoinit-1.1.8": [
 "sling/org.apache.sling.jcr.repoinit-1.1.8-source-release.zip"
 ],
-"org.apache.sling.jcr.resource-3.0.16": [
-"sling/org.apache.sling.jcr.resource-3.0.16-source-release.zip"
+"org.apache.sling.jcr.resource-3.0.18": [
+"sling/org.apache.sling.jcr.resource-3.0.18-source-release.zip"
 ],
 "org.apache.sling.jcr.resourcesecurity-1.0.2": [
 "sling/org.apache.sling.jcr.resourcesecurity-1.0.2-source-release.zip"
@@ -8187,8 +8196,8 @@
 "org.apache.sling.resourcebuilder-1.0.4": [
 "sling/org.apache.sling.resourcebuilder-1.0.4-source-release.zip"
 ],
-"org.apache.sling.resourcecollection-1.0.0": [
-"sling/org.apache.sling.resourcecollection-1.0.0-source-release.zip"
+"org.apache.sling.resourcecollection-1.0.2": [
+"sling/org.apache.sling.resourcecollection-1.0.2-source-release.zip"
 ],
 "org.apache.sling.resourcemerger-1.3.8": [
 "sling/org.apache.sling.resourcemerger-1.3.8-source-release.zip"
@@ -9377,10 +9386,9 @@
 "turbine/fulcrum/fulcrum-pool/source/fulcrum-pool-1.0.5-src.tar.gz",
 "turbine/fulcrum/fulcrum-pool/source/fulcrum-pool-1.0.5-src.zip"
 ],
-"fulcrum-quartz-1.1.0": [
-"turbine/fulcrum/fulcrum-quartz/source/fulcrum-quartz-1.1.0-src.tar.bz2",
-"turbine/fulcrum/fulcrum-quartz/source/fulcrum-quartz-1.1.0-src.tar.gz",
-"turbine/fulcrum/fulcrum-quartz/source/fulcrum-quartz-1.1.0-src.zip"
+"fulcrum-quartz-1.1.1": [
+"turbine/fulcrum/fulcrum-quartz/source/fulcrum-quartz-1.1.1-src.tar.gz",
+"turbine/fulcrum/fulcrum-quartz/source/fulcrum-quartz-1.1.1-src.zip"
 ],
 "fulcrum-security-dist-1.1.2": [
 "turbine/fulcrum/fulcrum-security/source/fulcrum-security-dist-1.1.2-src.tar.gz",
