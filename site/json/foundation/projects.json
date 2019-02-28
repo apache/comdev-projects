@@ -6639,36 +6639,6 @@
 "https://gitbox.apache.org/repos/asf/fluo-recipes.git"
 ]
 },
-"fluo-yarn": {
-"bug-database": "https://github.com/apache/fluo-yarn/issues",
-"category": "big-data",
-"created": "2012-03-26",
-"description": "Apache Fluo YARN is a tool for running Apache Fluo\n      applications in Apache Hadoop YARN.",
-"doap": "https://fluo.apache.org/doap/fluo-yarn.rdf",
-"download-page": "https://fluo.apache.org/releases/",
-"homepage": "https://fluo.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "https://fluo.apache.org/contactus",
-"maintainer": [
-{
-"mbox": "mailto:kturner@apache.org",
-"name": "Keith Turner"
-}
-],
-"name": "Apache Fluo YARN",
-"pmc": "fluo",
-"programming-language": "Java",
-"release": [
-{
-"created": "2018-03-06",
-"name": "Apache Fluo YARN",
-"revision": "1.0.0"
-}
-],
-"repository": [
-"https://gitbox.apache.org/repos/asf/fluo-yarn.git"
-]
-},
 "forrest": {
 "bug-database": "http://forrest.apache.org/issues.html",
 "category": "build-management, database, graphics, http, network-client, network-server, web-framework, xml",
@@ -7428,6 +7398,11 @@
 "pmc": "incubator",
 "programming-language": "Scala, Java",
 "release": [
+{
+"created": "2019-02-26",
+"name": "Apache Daffodil",
+"revision": "2.3.0"
+},
 {
 "created": "2018-09-04",
 "name": "Apache Daffodil",
@@ -13658,31 +13633,6 @@
 "shortdesc": "Innovative Web framework based on JCR and OSGi",
 "shortname": "sling"
 },
-"spamassassin": {
-"bug-database": "https://bz.apache.org/SpamAssassin/",
-"category": "mail",
-"created": "2001-04-20",
-"description": "Apache SpamAssassin is an extensible email filter which is used to identify spam. Using its rule base, it uses a wide range of advanced heuristic and statistical analysis tests on mail headers and body text to identify \"spam\", also known as unsolicited bulk email. Once identified, the mail can then be optionally tagged as spam for later filtering. It provides a command line tool to perform filtering, a client-server system to filter large volumes of mail, and Mail::SpamAssassin, a set of Perl modules.",
-"doap": "http://spamassassin.apache.org/doap.rdf",
-"download-page": "http://spamassassin.apache.org/downloads.html",
-"homepage": "http://spamassassin.apache.org/",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://news.gmane.org/thread.php?group=gmane.mail.spam.spamassassin.general",
-"maintainer": [
-{
-"mbox_sha1sum": "745b0f55d936f36c20b221fc25488811",
-"name": "Development Mailing List at SpamAssassin.apache.org"
-}
-],
-"name": "Apache SpamAssassin",
-"pmc": "spamassassin",
-"programming-language": "Perl, C",
-"repository": [
-"http://svn.apache.org/repos/asf/spamassassin/trunk"
-],
-"shortdesc": "Apache SpamAssassin is an email filter used to identify spam",
-"wiki": "http://wiki.apache.org/spamassassin/"
-},
 "spark": {
 "bug-database": "http://issues.apache.org/jira/browse/SPARK",
 "category": "big-data",
@@ -14405,6 +14355,90 @@
 "http://svn.apache.org/repos/asf/tika/"
 ],
 "shortdesc": "The Apache Tika toolkit detects and extracts metadata and structured \n    text content from various documents using existing parser libraries. \n    "
+},
+"tomcat": {
+"bug-database": "http://tomcat.apache.org/bugreport.html",
+"category": "network-server, http, javaee",
+"created": "2006-01-27",
+"description": "Apache Tomcat is a web server that is an open source software\n    implementation of the Java Servlet, JavaServer Pages, Java Expression\n    Language and Java WebSocket technologies. The Java Servlet, JavaServer\n    Pages, Java Expression Language and Java WebSocket specifications are\n    developed under the Java Community Process. Apache Tomcat is developed\n    in an open and participatory environment and released under the Apache\n    License version 2.\n\n    Apache Tomcat is intended to be a collaboration of the best-of-breed\n    developers from around the world. We invite you to participate in this open\n    development project.\n\n    Apache Tomcat powers numerous large-scale, mission-critical web applications\n    across a diverse range of industries and organizations. Some of these users\n    and their stories are listed on the PoweredBy wiki page.",
+"doap": "http://svn.apache.org/repos/asf/tomcat/site/trunk/docs/doap_Tomcat.rdf",
+"download-page": "http://tomcat.apache.org/",
+"homepage": "http://tomcat.apache.org/",
+"implements": [
+{
+"body": "JCP",
+"id": "JSR 369",
+"title": "Java Servlet 4.0",
+"url": "http://www.jcp.org/en/jsr/detail?id=369"
+},
+{
+"body": "JCP",
+"id": "JSR 340",
+"title": "Java Servlet 3.1",
+"url": "http://www.jcp.org/en/jsr/detail?id=340"
+},
+{
+"body": "JCP",
+"id": "JSR 245",
+"title": "JavaServer Pages 2.1-2.3",
+"url": "http://www.jcp.org/en/jsr/detail?id=245"
+},
+{
+"body": "JCP",
+"id": "JSR 341",
+"title": "Expression Language 3.0",
+"url": "http://www.jcp.org/en/jsr/detail?id=341"
+},
+{
+"body": "JCP",
+"id": "JSR 356",
+"title": "Java API for WebSocket",
+"url": "http://www.jcp.org/en/jsr/detail?id=356"
+},
+{
+"body": "JCP",
+"id": "JSR 315",
+"title": "Java Servlet 3.0",
+"url": "http://www.jcp.org/en/jsr/detail?id=315"
+}
+],
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://tomcat.apache.org/lists.html",
+"maintainer": [
+{
+"mbox": "mailto:dev@tomcat.apache.org",
+"name": "Tomcat PMC"
+}
+],
+"name": "Apache Tomcat",
+"pmc": "tomcat",
+"programming-language": "Java",
+"release": [
+{
+"created": "2019-02-08",
+"name": "Latest Stable 9.0.x Release",
+"revision": "9.0.16"
+},
+{
+"created": "2018-09-10",
+"name": "Latest Stable 8.5.x Release",
+"revision": "8.5.38"
+},
+{
+"created": "2018-07-05",
+"name": "Latest Stable 8.0.x Release",
+"revision": "8.0.53"
+},
+{
+"created": "2019-02-21",
+"name": "Latest Stable 7.0.x Release",
+"revision": "7.0.93"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf/tomcat.git"
+],
+"shortdesc": "A Java Servlet, JavaServer Pages, Java Expression\n    Language and Java WebSocket specifications implementation."
 },
 "tomcat-reusable_dialog_components__rdc__taglib": {
 "bug-database": "http://issues.apache.org/bugzilla/",
