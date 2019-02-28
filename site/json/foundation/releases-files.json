@@ -424,8 +424,8 @@
 "spifly-1.2": [
 "aries/spifly-1.2-source-release.zip"
 ],
-"tx-control-1.0.0": [
-"aries/tx-control-1.0.0-source-release.zip"
+"tx-control-1.0.1": [
+"aries/tx-control-1.0.1-source-release.zip"
 ]
 },
 "arrow": {
@@ -2389,9 +2389,6 @@
 "flink-1.5.6": [
 "flink/flink-1.5.6/flink-1.5.6-src.tgz"
 ],
-"flink-1.6.3": [
-"flink/flink-1.6.3/flink-1.6.3-src.tgz"
-],
 "flink-1.6.4": [
 "flink/flink-1.6.4/flink-1.6.4-src.tgz"
 ],
@@ -2970,12 +2967,6 @@
 ]
 },
 "incubator-daffodil": {
-"apache-daffodil-2.2.0-incubating": [
-"incubator/daffodil/2.2.0/src/apache-daffodil-2.2.0-incubating-src.zip"
-],
-"apache-daffodil-2.2.0.incubating-1.noarch": [
-"incubator/daffodil/2.2.0/bin/apache-daffodil-2.2.0.incubating-1.noarch.rpm"
-],
 "apache-daffodil-2.3.0-incubating": [
 "incubator/daffodil/2.3.0/src/apache-daffodil-2.3.0-incubating-src.zip"
 ],
@@ -3087,6 +3078,9 @@
 ],
 "apache-mxnet-1.3.1-incubating": [
 "incubator/mxnet/1.3.1/apache-mxnet-src-1.3.1-incubating.tar.gz"
+],
+"apache-mxnet-1.4.0-incubating": [
+"incubator/mxnet/1.4.0/apache-mxnet-src-1.4.0-incubating.tar.gz"
 ]
 },
 "incubator-myriad": {
@@ -4997,6 +4991,9 @@
 "openwhisk-client-go-0.9.0-incubating": [
 "incubator/openwhisk/apache-openwhisk-0.9.0-incubating/openwhisk-client-go-0.9.0-incubating-sources.tar.gz"
 ],
+"openwhisk-composer-0.10.0-incubating": [
+"incubator/openwhisk/apache-openwhisk-0.10.0-incubating/openwhisk-composer-0.10.0-incubating-sources.tar.gz"
+],
 "openwhisk-composer-0.9.0-incubating": [
 "incubator/openwhisk/apache-openwhisk-0.9.0-incubating/openwhisk-composer-0.9.0-incubating-sources.tar.gz"
 ],
@@ -5270,6 +5267,11 @@
 ],
 "apache-weex-incubating-0.20.0": [
 "incubator/weex/0.20.0/apache-weex-incubating-0.20.0-src.tar.gz"
+]
+},
+"incubator-zipkin": {
+"apache-zipkin-brave-karaf-incubating-0.1.2": [
+"incubator/zipkin/brave-karaf/0.1.2/apache-zipkin-brave-karaf-incubating-0.1.2-source-release.zip"
 ]
 },
 "isis": {
@@ -5899,6 +5901,11 @@
 "lucene/java/7.7.0/lucene-7.7.0.tgz",
 "lucene/java/7.7.0/lucene-7.7.0.zip"
 ],
+"lucene-7.7.1": [
+"lucene/java/7.7.1/lucene-7.7.1-src.tgz",
+"lucene/java/7.7.1/lucene-7.7.1.tgz",
+"lucene/java/7.7.1/lucene-7.7.1.zip"
+],
 "pylucene-2.9.4-1": [
 "lucene/pylucene/pylucene-2.9.4-1-src.tar.gz"
 ],
@@ -5934,6 +5941,11 @@
 "lucene/solr/7.7.0/solr-7.7.0-src.tgz",
 "lucene/solr/7.7.0/solr-7.7.0.tgz",
 "lucene/solr/7.7.0/solr-7.7.0.zip"
+],
+"solr-7.7.1": [
+"lucene/solr/7.7.1/solr-7.7.1-src.tgz",
+"lucene/solr/7.7.1/solr-7.7.1.tgz",
+"lucene/solr/7.7.1/solr-7.7.1.zip"
 ]
 },
 "lucenenet": {
@@ -9318,14 +9330,14 @@
 ]
 },
 "trafodion": {
-"apache-trafodion-2.2.0": [
-"trafodion/apache-trafodion-2.2.0/src/apache-trafodion-2.2.0-src.tar.gz"
+"apache-trafodion-2.3.0": [
+"trafodion/apache-trafodion-2.3.0/src/apache-trafodion-2.3.0-src.tar.gz"
 ],
-"apache-trafodion_pyinstaller-2.2.0": [
-"trafodion/apache-trafodion-2.2.0/bin/apache-trafodion_pyinstaller-2.2.0.tar.gz"
+"apache-trafodion_pyinstaller-2.3.0": [
+"trafodion/apache-trafodion-2.3.0/bin/apache-trafodion_pyinstaller-2.3.0.tar.gz"
 ],
-"traf_ambari-2.2.0-1.noarch": [
-"trafodion/apache-trafodion-2.2.0/bin/traf_ambari_rpms/traf_ambari-2.2.0-1.noarch.rpm"
+"traf_ambari-2.3.0-1.noarch": [
+"trafodion/apache-trafodion-2.3.0/bin/traf_ambari-2.3.0-1.noarch.rpm"
 ]
 },
 "turbine": {
