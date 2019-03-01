@@ -6639,6 +6639,36 @@
 "https://gitbox.apache.org/repos/asf/fluo-recipes.git"
 ]
 },
+"fluo-yarn": {
+"bug-database": "https://github.com/apache/fluo-yarn/issues",
+"category": "big-data",
+"created": "2012-03-26",
+"description": "Apache Fluo YARN is a tool for running Apache Fluo\n      applications in Apache Hadoop YARN.",
+"doap": "https://fluo.apache.org/doap/fluo-yarn.rdf",
+"download-page": "https://fluo.apache.org/releases/",
+"homepage": "https://fluo.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "https://fluo.apache.org/contactus",
+"maintainer": [
+{
+"mbox": "mailto:kturner@apache.org",
+"name": "Keith Turner"
+}
+],
+"name": "Apache Fluo YARN",
+"pmc": "fluo",
+"programming-language": "Java",
+"release": [
+{
+"created": "2018-03-06",
+"name": "Apache Fluo YARN",
+"revision": "1.0.0"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf/fluo-yarn.git"
+]
+},
 "forrest": {
 "bug-database": "http://forrest.apache.org/issues.html",
 "category": "build-management, database, graphics, http, network-client, network-server, web-framework, xml",
@@ -9685,6 +9715,11 @@
 "programming-language": "Java",
 "release": [
 {
+"created": "2019-03-1",
+"name": "lucene-7.7.1",
+"revision": "7.7.1"
+},
+{
 "created": "2019-02-11",
 "name": "lucene-7.7.0",
 "revision": "7.7.0"
@@ -10296,6 +10331,11 @@
 "pmc": "lucene",
 "programming-language": "Java",
 "release": [
+{
+"created": "2019-03-1",
+"name": "solr-7.7.1",
+"revision": "7.7.1"
+},
 {
 "created": "2019-02-11",
 "name": "solr-7.7.0",
@@ -12385,6 +12425,11 @@
 "programming-language": "Java",
 "release": [
 {
+"created": "2019-02-28",
+"name": "Apache PDFBox",
+"revision": "2.0.14"
+},
+{
 "created": "2018-10-05",
 "name": "Apache PDFBox",
 "revision": "1.8.16"
@@ -13632,6 +13677,31 @@
 ],
 "shortdesc": "Innovative Web framework based on JCR and OSGi",
 "shortname": "sling"
+},
+"spamassassin": {
+"bug-database": "https://bz.apache.org/SpamAssassin/",
+"category": "mail",
+"created": "2001-04-20",
+"description": "Apache SpamAssassin is an extensible email filter which is used to identify spam. Using its rule base, it uses a wide range of advanced heuristic and statistical analysis tests on mail headers and body text to identify \"spam\", also known as unsolicited bulk email. Once identified, the mail can then be optionally tagged as spam for later filtering. It provides a command line tool to perform filtering, a client-server system to filter large volumes of mail, and Mail::SpamAssassin, a set of Perl modules.",
+"doap": "http://spamassassin.apache.org/doap.rdf",
+"download-page": "http://spamassassin.apache.org/downloads.html",
+"homepage": "http://spamassassin.apache.org/",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://news.gmane.org/thread.php?group=gmane.mail.spam.spamassassin.general",
+"maintainer": [
+{
+"mbox_sha1sum": "745b0f55d936f36c20b221fc25488811",
+"name": "Development Mailing List at SpamAssassin.apache.org"
+}
+],
+"name": "Apache SpamAssassin",
+"pmc": "spamassassin",
+"programming-language": "Perl, C",
+"repository": [
+"http://svn.apache.org/repos/asf/spamassassin/trunk"
+],
+"shortdesc": "Apache SpamAssassin is an email filter used to identify spam",
+"wiki": "http://wiki.apache.org/spamassassin/"
 },
 "spark": {
 "bug-database": "http://issues.apache.org/jira/browse/SPARK",
