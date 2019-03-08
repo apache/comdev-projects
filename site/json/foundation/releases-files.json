@@ -52,6 +52,10 @@
 "activemq-5.15.8": [
 "activemq/5.15.8/activemq-parent-5.15.8-source-release.zip"
 ],
+"activemq-artemis-native-1.0.0": [
+"activemq/activemq-artemis-native/1.0.0/activemq-artemis-native-1.0.0-source-release.tar.gz",
+"activemq/activemq-artemis-native/1.0.0/activemq-artemis-native-1.0.0-source-release.zip"
+],
 "activemq-cli-tools-0.1.0": [
 "activemq/activemq-cli-tools/0.1.0/activemq-cli-tools-parent-0.1.0-source-release.zip"
 ],
@@ -450,6 +454,9 @@
 "asterixdb/asterixdb-0.9.4/apache-asterixdb-0.9.4-source-release.zip",
 "asterixdb/asterixdb-0.9.4/apache-asterixdb-0.9.4.zip"
 ],
+"apache-asterixdb-0.9.4.1": [
+"asterixdb/asterixdb-0.9.4.1/apache-asterixdb-0.9.4.1-source-release.zip"
+],
 "apache-asterixdb_0.9.4_all": [
 "asterixdb/asterixdb-0.9.4/apache-asterixdb_0.9.4_all.deb"
 ],
@@ -464,6 +471,9 @@
 ],
 "apache-hyracks-0.3.4": [
 "asterixdb/hyracks-0.3.4/apache-hyracks-0.3.4-source-release.zip"
+],
+"apache-hyracks-0.3.4.1": [
+"asterixdb/asterixdb-0.9.4.1/apache-hyracks-0.3.4.1-source-release.zip"
 ]
 },
 "atlas": {
@@ -1964,9 +1974,9 @@
 "felix/org.apache.felix.connect-0.2.0-source-release.tar.gz",
 "felix/org.apache.felix.connect-0.2.0-source-release.zip"
 ],
-"org.apache.felix.converter-1.0.2": [
-"felix/org.apache.felix.converter-1.0.2-source-release.tar.gz",
-"felix/org.apache.felix.converter-1.0.2-source-release.zip"
+"org.apache.felix.converter-1.0.4": [
+"felix/org.apache.felix.converter-1.0.4-source-release.tar.gz",
+"felix/org.apache.felix.converter-1.0.4-source-release.zip"
 ],
 "org.apache.felix.coordinator-1.0.2": [
 "felix/org.apache.felix.coordinator-1.0.2-source-release.tar.gz",
@@ -2989,6 +2999,9 @@
 ]
 },
 "incubator-dubbo": {
+"apache-dubbo-incubating-2.6.6": [
+"incubator/dubbo/2.6.6/apache-dubbo-incubating-2.6.6-source-release.zip"
+],
 "apache-dubbo-incubating-2.7.0": [
 "incubator/dubbo/2.7.0/apache-dubbo-incubating-2.7.0-source-release.zip"
 ],
@@ -5026,6 +5039,11 @@
 "incubator/openwhisk/apache-openwhisk-0.9.8-incubating/openwhisk-wskdeploy-0.9.8-incubating-sources.tar.gz"
 ]
 },
+"incubator-pinot": {
+"apache-pinot-incubating-0.1.0": [
+"incubator/pinot/apache-pinot-incubating-0.1.0/apache-pinot-incubating-0.1.0-src.tar.gz"
+]
+},
 "incubator-plc4x": {
 "apache-plc4x-incubating-0.3.0": [
 "incubator/plc4x/0.3.0-incubating/apache-plc4x-incubating-0.3.0-source-release.zip"
@@ -5627,8 +5645,8 @@
 ]
 },
 "jspwiki": {
-"jspwiki-builder-2.11.0.M1": [
-"jspwiki/2.11.0.M1/source/jspwiki-builder-2.11.0.M1-source-release.zip"
+"jspwiki-builder-2.11.0.M2": [
+"jspwiki/2.11.0.M2/source/jspwiki-builder-2.11.0.M2-source-release.zip"
 ]
 },
 "juddi": {
@@ -8290,8 +8308,8 @@
 "org.apache.sling.serviceusermapper-1.4.4": [
 "sling/org.apache.sling.serviceusermapper-1.4.4-source-release.zip"
 ],
-"org.apache.sling.servlet-helpers-1.1.8": [
-"sling/org.apache.sling.servlet-helpers-1.1.8-source-release.zip"
+"org.apache.sling.servlet-helpers-1.1.10": [
+"sling/org.apache.sling.servlet-helpers-1.1.10-source-release.zip"
 ],
 "org.apache.sling.servlets.annotations-1.2.4": [
 "sling/org.apache.sling.servlets.annotations-1.2.4-source-release.zip"
@@ -8339,8 +8357,8 @@
 "org.apache.sling.testing.hamcrest-1.0.2": [
 "sling/org.apache.sling.testing.hamcrest-1.0.2-source-release.zip"
 ],
-"org.apache.sling.testing.jcr-mock-1.4.2": [
-"sling/org.apache.sling.testing.jcr-mock-1.4.2-source-release.zip"
+"org.apache.sling.testing.jcr-mock-1.4.4": [
+"sling/org.apache.sling.testing.jcr-mock-1.4.4-source-release.zip"
 ],
 "org.apache.sling.testing.logging-mock-2.0.0": [
 "sling/org.apache.sling.testing.logging-mock-2.0.0-source-release.zip"
@@ -8366,8 +8384,8 @@
 "org.apache.sling.testing.paxexam-2.0.0": [
 "sling/org.apache.sling.testing.paxexam-2.0.0-source-release.zip"
 ],
-"org.apache.sling.testing.resourceresolver-mock-1.1.22": [
-"sling/org.apache.sling.testing.resourceresolver-mock-1.1.22-source-release.zip"
+"org.apache.sling.testing.resourceresolver-mock-1.1.24": [
+"sling/org.apache.sling.testing.resourceresolver-mock-1.1.24-source-release.zip"
 ],
 "org.apache.sling.testing.rules-1.0.8": [
 "sling/org.apache.sling.testing.rules-1.0.8-source-release.zip"
