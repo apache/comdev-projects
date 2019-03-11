@@ -106,35 +106,4 @@ with open("../../site/json/foundation/groups.json", "w", encoding='utf-8') as f:
     json.dump(groups, f, sort_keys=True, indent=0, ensure_ascii=False)
     f.close()
 
-###### Test of alternate account evolution counting - start #####
-from datetime import datetime
-accounts = {} # key: yyyy-mm value: number of accounts created
-now = datetime.now() # fetch time once
-currentMonth = now.month
-currentYear = now.year
-
-# gather the accounts data:
-#firstYear=1996 # earliest year in Whimsy data so far
-firstYear=1999 # earliest date in existing data
-firstKey="%04u-%02u" % (firstYear, 1) # catch all earlier entries
-for y in range(firstYear,currentYear+1):
-	for m in range(1,13): # end is exclusive
-		ym = "%04u-%02u" % (y, m)
-		accounts[ym]=0
-		if y == currentYear and m == currentMonth:
-			break
-
-for p in ldappeople:
-    stamp = ldappeople[p]['createTimestamp']
-    ym = stamp[0:4]+'-'+stamp[4:6] # pick up year and month (end index is exclusive)
-    try:
-        accounts[ym] += 1
-    except KeyError:
-        accounts[firstKey] += 1
-
-print("writing accounts-evolution2.json")
-with open("../../site/json/foundation/accounts-evolution2.json", "w", encoding='utf-8') as f:
-    json.dump(accounts, f, sort_keys=True, indent=0, ensure_ascii=False)
-###### Test of alternate account evolution counting - end #####
-
 print("All done!")
