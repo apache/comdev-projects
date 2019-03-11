@@ -1458,13 +1458,13 @@ function drawAccountCreation(json) {
       width: 1160,
       vAxes:[
 
-      {title: 'New accounts', titleTextStyle: {color: '#0000DD'}},
+      {title: 'New accounts', titleTextStyle: {color: '#0000DD'}, maxValue: Math.max(200,max)},
       {title: 'Total number of accounts', titleTextStyle: {color: '#DD0000'}},
 
       ],
       series: {
         1: {type: "line", pointSize:3, lineWidth: 3, targetAxisIndex: 1},
-        0: {type: "bars", targetAxisIndex: 0, maxValue: max*2}
+        0: {type: "bars", targetAxisIndex: 0}
         },
         seriesType: "bars",
       tooltip: {isHtml: true}
