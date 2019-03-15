@@ -1861,6 +1861,31 @@
 ],
 "shortdesc": "Regular Expression engine supporting various dialects"
 },
+"attic-polygene": {
+"bug-database": "https://issues.apache.org/jira/browse/POLYGENE",
+"category": "library, retired",
+"created": "2008-12-17",
+"description": "Apache Polygene is a community based effort exploring Composite Oriented Programming for domain centric application development. This includes evolved concepts from Aspect Oriented Programming, Dependency Injection and Domain Driven Design. Composite Oriented Programming allows developers to work with 'fragments', smaller than classes, and 'compose' fragments into larger 'composites' which acts like the regular objects. Polygene also tackles the enforcement of application composition, i.e. composites are declared in modules, modules are contained in layers and access between layers are controlled/enforced. Apache Polygene™ (Java Edition), first Apache Polygene sub-project, is an implementation of Composite Oriented Programming, using the standard Java platform, without the use of any pre-processors or new language elements. Everything you know from Java still applies and you can leverage both your experience and toolkits to become more productive with Composite Oriented Programming today.",
+"doap": "https://git-wip-us.apache.org/repos/asf?p=attic-polygene-java.git;f=doap.rdf;a=blob_plain;hb=develop",
+"download-page": "https://polygene.apache.org/download.html",
+"homepage": "https://polygene.apache.org/",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "https://www.apache.org/foundation/mailinglists.html",
+"maintainer": [
+{
+"mbox": "mailto:niclas@apache.org",
+"name": "Niclas Hedhman"
+}
+],
+"name": "Apache Polygene",
+"pmc": "attic",
+"programming-language": "Java, C#, Scala, Groovy, JavaScript",
+"repository": [
+"http://svn.apache.org/repos/asf/polygene/",
+"https://git-wip-us.apache.org/repos/asf/polygene-java.git"
+],
+"shortdesc": "Apache Polygene is a community based effort exploring Composite Oriented Programming for domain centric application development."
+},
 "attic-regexp": {
 "bug-database": "http://http://issues.apache.org/bugzilla/buglist.cgi?product=regexp",
 "category": "library, regexp, retired",
@@ -8696,6 +8721,11 @@
 "created": "2019-02-18",
 "name": "Apache JMeter",
 "revision": "5.1 final"
+},
+{
+"created": "2019-03-13",
+"name": "Apache JMeter",
+"revision": "5.1.1 final"
 }
 ],
 "repository": [
@@ -12987,31 +13017,6 @@
 "http://svn.apache.org/repos/asf/xmlbeans/trunk/"
 ],
 "shortdesc": "XMLBeans is a technology for accessing XML by binding it to Java types. XMLBeans provides several ways to get at the XML: strong XMLSchema typed model, cursor API, streaming (SAX, Stax) and DOM. XMLBeans covers 100% XMLSchema support while giving access to full infoset of documents."
-},
-"polygene": {
-"bug-database": "https://issues.apache.org/jira/browse/POLYGENE",
-"category": "library, retired",
-"created": "2008-12-17",
-"description": "Apache Polygene is a community based effort exploring Composite Oriented Programming for domain centric application development. This includes evolved concepts from Aspect Oriented Programming, Dependency Injection and Domain Driven Design. Composite Oriented Programming allows developers to work with 'fragments', smaller than classes, and 'compose' fragments into larger 'composites' which acts like the regular objects. Polygene also tackles the enforcement of application composition, i.e. composites are declared in modules, modules are contained in layers and access between layers are controlled/enforced. Apache Polygene™ (Java Edition), first Apache Polygene sub-project, is an implementation of Composite Oriented Programming, using the standard Java platform, without the use of any pre-processors or new language elements. Everything you know from Java still applies and you can leverage both your experience and toolkits to become more productive with Composite Oriented Programming today.",
-"doap": "https://git-wip-us.apache.org/repos/asf?p=attic-polygene-java.git;f=doap.rdf;a=blob_plain;hb=develop",
-"download-page": "https://polygene.apache.org/download.html",
-"homepage": "https://polygene.apache.org/",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "https://www.apache.org/foundation/mailinglists.html",
-"maintainer": [
-{
-"mbox": "mailto:niclas@apache.org",
-"name": "Niclas Hedhman"
-}
-],
-"name": "Apache Polygene",
-"pmc": "attic",
-"programming-language": "Java, C#, Scala, Groovy, JavaScript",
-"repository": [
-"http://svn.apache.org/repos/asf/polygene/",
-"https://git-wip-us.apache.org/repos/asf/polygene-java.git"
-],
-"shortdesc": "Apache Polygene is a community based effort exploring Composite Oriented Programming for domain centric application development."
 },
 "portals": {
 "bug-database": "http://portals.apache.org/issue-tracking.html",
