@@ -903,11 +903,11 @@
 "cayenne/4.0.1/cayenne-4.0.1-win.zip",
 "cayenne/4.0.1/cayenne-4.0.1.tar.gz"
 ],
-"cayenne-4.1.M2": [
-"cayenne/4.1.M2/cayenne-4.1.M2-macosx.dmg",
-"cayenne/4.1.M2/cayenne-4.1.M2-src.tar.gz",
-"cayenne/4.1.M2/cayenne-4.1.M2-win.zip",
-"cayenne/4.1.M2/cayenne-4.1.M2.tar.gz"
+"cayenne-4.1.B1": [
+"cayenne/4.1.B1/cayenne-4.1.B1-macosx.dmg",
+"cayenne/4.1.B1/cayenne-4.1.B1-src.tar.gz",
+"cayenne/4.1.B1/cayenne-4.1.B1-win.zip",
+"cayenne/4.1.B1/cayenne-4.1.B1.tar.gz"
 ]
 },
 "celix": {
@@ -1463,8 +1463,8 @@
 "cordova-create-2.0.0": [
 "cordova/tools/cordova-create-2.0.0.tgz"
 ],
-"cordova-electron-1.0.1": [
-"cordova/platforms/cordova-electron-1.0.1.tgz"
+"cordova-electron-1.0.2": [
+"cordova/platforms/cordova-electron-1.0.2.tgz"
 ],
 "cordova-fetch-2.0.0": [
 "cordova/tools/cordova-fetch-2.0.0.tgz"
@@ -1478,8 +1478,8 @@
 "cordova-js-5.0.0": [
 "cordova/tools/cordova-js-5.0.0.tgz"
 ],
-"cordova-lib-8.1.1": [
-"cordova/tools/cordova-lib-8.1.1.tgz"
+"cordova-lib-9.0.0": [
+"cordova/tools/cordova-lib-9.0.0.tgz"
 ],
 "cordova-osx-5.0.0": [
 "cordova/platforms/cordova-osx-5.0.0.tgz"
@@ -1769,23 +1769,9 @@
 "directory/api/dist/1.0.2/apache-ldap-api-1.0.2-src.tar.gz",
 "directory/api/dist/1.0.2/apache-ldap-api-1.0.2-src.zip"
 ],
-"apache-ldap-api-2.0.0.AM1": [
-"directory/api/dist/2.0.0.AM1/apache-ldap-api-2.0.0.AM1-src.tar.gz",
-"directory/api/dist/2.0.0.AM1/apache-ldap-api-2.0.0.AM1-src.zip"
-],
 "apache-ldap-api-2.0.0.AM2": [
 "directory/api/dist/2.0.0.AM2/apache-ldap-api-2.0.0.AM2-src.tar.gz",
 "directory/api/dist/2.0.0.AM2/apache-ldap-api-2.0.0.AM2-src.zip"
-],
-"apacheds-2.0.0-M24": [
-"directory/apacheds/dist/2.0.0-M24/apacheds-2.0.0-M24-32bit.dmg",
-"directory/apacheds/dist/2.0.0-M24/apacheds-2.0.0-M24-64bit.dmg",
-"directory/apacheds/dist/2.0.0-M24/apacheds-2.0.0-M24-i386.deb",
-"directory/apacheds/dist/2.0.0-M24/apacheds-2.0.0-M24-i386.rpm",
-"directory/apacheds/dist/2.0.0-M24/apacheds-2.0.0-M24.exe",
-"directory/apacheds/dist/2.0.0-M24/apacheds-2.0.0-M24.tar.gz",
-"directory/apacheds/dist/2.0.0-M24/apacheds-2.0.0-M24.zip",
-"directory/apacheds/dist/2.0.0-M24/apacheds-parent-2.0.0-M24-source-release.zip"
 ],
 "apacheds-2.0.0.AM25": [
 "directory/apacheds/dist/2.0.0.AM25/apacheds-2.0.0.AM25-32bit.dmg",
@@ -1797,93 +1783,23 @@
 "directory/apacheds/dist/2.0.0.AM25/apacheds-2.0.0.AM25.zip",
 "directory/apacheds/dist/2.0.0.AM25/apacheds-parent-2.0.0.AM25-source-release.zip"
 ],
-"fortress-core-2.0.0": [
-"directory/fortress/dist/2.0.0/fortress-core-2.0.0-source-release.zip"
-],
-"fortress-core-2.0.0-RC1": [
-"directory/fortress/dist/2.0.0-RC1/fortress-core-2.0.0-RC1-source-release.zip"
-],
-"fortress-core-2.0.0-RC2": [
-"directory/fortress/dist/2.0.0-RC2/fortress-core-2.0.0-RC2-source-release.zip"
-],
-"fortress-core-2.0.1": [
-"directory/fortress/dist/2.0.1/fortress-core-2.0.1-source-release.zip"
-],
 "fortress-core-2.0.2": [
 "directory/fortress/dist/2.0.2/fortress-core-2.0.2-source-release.zip"
-],
-"fortress-core-2.0.3": [
-"directory/fortress/dist/2.0.3/fortress-core-2.0.3-source-release.zip"
-],
-"fortress-realm-2.0.0": [
-"directory/fortress/dist/2.0.0/fortress-realm-2.0.0-source-release.zip"
-],
-"fortress-realm-2.0.0-RC1": [
-"directory/fortress/dist/2.0.0-RC1/fortress-realm-2.0.0-RC1-source-release.zip"
-],
-"fortress-realm-2.0.0-RC2": [
-"directory/fortress/dist/2.0.0-RC2/fortress-realm-2.0.0-RC2-source-release.zip"
-],
-"fortress-realm-2.0.1": [
-"directory/fortress/dist/2.0.1/fortress-realm-2.0.1-source-release.zip"
 ],
 "fortress-realm-2.0.2": [
 "directory/fortress/dist/2.0.2/fortress-realm-2.0.2-source-release.zip"
 ],
-"fortress-realm-2.0.3": [
-"directory/fortress/dist/2.0.3/fortress-realm-2.0.3-source-release.zip"
-],
 "fortress-rest": [
-"directory/fortress/dist/2.0.0-RC1/fortress-rest.war",
-"directory/fortress/dist/2.0.0-RC2/fortress-rest.war",
-"directory/fortress/dist/2.0.0/fortress-rest.war",
-"directory/fortress/dist/2.0.1/fortress-rest.war",
 "directory/fortress/dist/2.0.2/fortress-rest.war"
-],
-"fortress-rest-2.0.0": [
-"directory/fortress/dist/2.0.0/fortress-rest-2.0.0-source-release.zip"
-],
-"fortress-rest-2.0.0-RC1": [
-"directory/fortress/dist/2.0.0-RC1/fortress-rest-2.0.0-RC1-source-release.zip"
-],
-"fortress-rest-2.0.0-RC2": [
-"directory/fortress/dist/2.0.0-RC2/fortress-rest-2.0.0-RC2-source-release.zip"
-],
-"fortress-rest-2.0.1": [
-"directory/fortress/dist/2.0.1/fortress-rest-2.0.1-source-release.zip"
 ],
 "fortress-rest-2.0.2": [
 "directory/fortress/dist/2.0.2/fortress-rest-2.0.2-source-release.zip"
 ],
-"fortress-rest-2.0.3": [
-"directory/fortress/dist/2.0.3/fortress-rest-2.0.3-source-release.zip",
-"directory/fortress/dist/2.0.3/fortress-rest-2.0.3.war"
-],
 "fortress-web": [
-"directory/fortress/dist/2.0.0-RC1/fortress-web.war",
-"directory/fortress/dist/2.0.0-RC2/fortress-web.war",
-"directory/fortress/dist/2.0.0/fortress-web.war",
-"directory/fortress/dist/2.0.1/fortress-web.war",
 "directory/fortress/dist/2.0.2/fortress-web.war"
-],
-"fortress-web-2.0.0": [
-"directory/fortress/dist/2.0.0/fortress-web-2.0.0-source-release.zip"
-],
-"fortress-web-2.0.0-RC1": [
-"directory/fortress/dist/2.0.0-RC1/fortress-web-2.0.0-RC1-source-release.zip"
-],
-"fortress-web-2.0.0-RC2": [
-"directory/fortress/dist/2.0.0-RC2/fortress-web-2.0.0-RC2-source-release.zip"
-],
-"fortress-web-2.0.1": [
-"directory/fortress/dist/2.0.1/fortress-web-2.0.1-source-release.zip"
 ],
 "fortress-web-2.0.2": [
 "directory/fortress/dist/2.0.2/fortress-web-2.0.2-source-release.zip"
-],
-"fortress-web-2.0.3": [
-"directory/fortress/dist/2.0.3/fortress-web-2.0.3-source-release.zip",
-"directory/fortress/dist/2.0.3/fortress-web-2.0.3.war"
 ],
 "kerby-all-1.0.1": [
 "directory/kerby/dist/1.0.1/kerby-all-1.0.1-source-release.zip"
@@ -5753,13 +5669,13 @@
 "karaf/4.1.7/apache-karaf-minimal-4.1.7.tar.gz",
 "karaf/4.1.7/apache-karaf-minimal-4.1.7.zip"
 ],
-"apache-karaf-4.2.3": [
-"karaf/4.2.3/apache-karaf-4.2.3-src.tar.gz",
-"karaf/4.2.3/apache-karaf-4.2.3-src.zip",
-"karaf/4.2.3/apache-karaf-4.2.3.tar.gz",
-"karaf/4.2.3/apache-karaf-4.2.3.zip",
-"karaf/4.2.3/apache-karaf-minimal-4.2.3.tar.gz",
-"karaf/4.2.3/apache-karaf-minimal-4.2.3.zip"
+"apache-karaf-4.2.4": [
+"karaf/4.2.4/apache-karaf-4.2.4-src.tar.gz",
+"karaf/4.2.4/apache-karaf-4.2.4-src.zip",
+"karaf/4.2.4/apache-karaf-4.2.4.tar.gz",
+"karaf/4.2.4/apache-karaf-4.2.4.zip",
+"karaf/4.2.4/apache-karaf-minimal-4.2.4.tar.gz",
+"karaf/4.2.4/apache-karaf-minimal-4.2.4.zip"
 ],
 "apache-karaf-cave-3.0.0": [
 "karaf/cave/3.0.0/apache-karaf-cave-3.0.0-src.tar.gz",
@@ -5927,6 +5843,9 @@
 ],
 "pylucene-7.6.0": [
 "lucene/pylucene/pylucene-7.6.0-src.tar.gz"
+],
+"pylucene-7.7.1": [
+"lucene/pylucene/7.7.1/pylucene-7.7.1-src.tar.gz"
 ],
 "solr-5.5.5": [
 "lucene/solr/5.5.5/solr-5.5.5-src.tgz",
@@ -6572,8 +6491,8 @@
 "myfaces-tobago-2.3.0": [
 "myfaces/source/myfaces-tobago-2.3.0-source-release.zip"
 ],
-"myfaces-tobago-2.4.0": [
-"myfaces/source/myfaces-tobago-2.4.0-source-release.zip"
+"myfaces-tobago-2.4.1": [
+"myfaces/source/myfaces-tobago-2.4.1-source-release.zip"
 ],
 "myfaces-tobago-3.0.6": [
 "myfaces/source/myfaces-tobago-3.0.6-source-release.zip"
@@ -8028,8 +7947,8 @@
 "org.apache.sling.installer.core-3.9.0": [
 "sling/org.apache.sling.installer.core-3.9.0-source-release.zip"
 ],
-"org.apache.sling.installer.factory.configuration-1.2.0": [
-"sling/org.apache.sling.installer.factory.configuration-1.2.0-source-release.zip"
+"org.apache.sling.installer.factory.configuration-1.2.2": [
+"sling/org.apache.sling.installer.factory.configuration-1.2.2-source-release.zip"
 ],
 "org.apache.sling.installer.factory.subsystems-1.0.0": [
 "sling/org.apache.sling.installer.factory.subsystems-1.0.0-source-release.zip"
@@ -9057,6 +8976,19 @@
 "tomcat/tomcat-9/v9.0.16/src/apache-tomcat-9.0.16-src.tar.gz",
 "tomcat/tomcat-9/v9.0.16/src/apache-tomcat-9.0.16-src.zip"
 ],
+"apache-tomcat-9.0.17": [
+"tomcat/tomcat-9/v9.0.17/bin/embed/apache-tomcat-9.0.17-embed.tar.gz",
+"tomcat/tomcat-9/v9.0.17/bin/embed/apache-tomcat-9.0.17-embed.zip",
+"tomcat/tomcat-9/v9.0.17/bin/apache-tomcat-9.0.17-deployer.tar.gz",
+"tomcat/tomcat-9/v9.0.17/bin/apache-tomcat-9.0.17-deployer.zip",
+"tomcat/tomcat-9/v9.0.17/bin/apache-tomcat-9.0.17-fulldocs.tar.gz",
+"tomcat/tomcat-9/v9.0.17/bin/apache-tomcat-9.0.17-windows-x64.zip",
+"tomcat/tomcat-9/v9.0.17/bin/apache-tomcat-9.0.17.exe",
+"tomcat/tomcat-9/v9.0.17/bin/apache-tomcat-9.0.17.tar.gz",
+"tomcat/tomcat-9/v9.0.17/bin/apache-tomcat-9.0.17.zip",
+"tomcat/tomcat-9/v9.0.17/src/apache-tomcat-9.0.17-src.tar.gz",
+"tomcat/tomcat-9/v9.0.17/src/apache-tomcat-9.0.17-src.zip"
+],
 "taglibs-standard-1.2.5": [
 "tomcat/taglibs/taglibs-standard-1.2.5/taglibs-standard-1.2.5-source-release.zip"
 ],
@@ -9399,10 +9331,9 @@
 "turbine/fulcrum/fulcrum-mimetype/source/fulcrum-mimetype-1.0.6-src.tar.gz",
 "turbine/fulcrum/fulcrum-mimetype/source/fulcrum-mimetype-1.0.6-src.zip"
 ],
-"fulcrum-parser-1.0.3": [
-"turbine/fulcrum/fulcrum-parser/source/fulcrum-parser-1.0.3-src.tar.bz2",
-"turbine/fulcrum/fulcrum-parser/source/fulcrum-parser-1.0.3-src.tar.gz",
-"turbine/fulcrum/fulcrum-parser/source/fulcrum-parser-1.0.3-src.zip"
+"fulcrum-parser-2.0.0": [
+"turbine/fulcrum/fulcrum-parser/source/fulcrum-parser-2.0.0-src.tar.gz",
+"turbine/fulcrum/fulcrum-parser/source/fulcrum-parser-2.0.0-src.zip"
 ],
 "fulcrum-pbe-1.0.1": [
 "turbine/fulcrum/fulcrum-pbe/source/fulcrum-pbe-1.0.1-src.tar.bz2",
