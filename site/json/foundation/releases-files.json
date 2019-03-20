@@ -52,6 +52,9 @@
 "activemq-5.15.8": [
 "activemq/5.15.8/activemq-parent-5.15.8-source-release.zip"
 ],
+"activemq-5.15.9": [
+"activemq/5.15.9/activemq-parent-5.15.9-source-release.zip"
+],
 "activemq-artemis-native-1.0.0": [
 "activemq/activemq-artemis-native/1.0.0/activemq-artemis-native-1.0.0-source-release.tar.gz",
 "activemq/activemq-artemis-native/1.0.0/activemq-artemis-native-1.0.0-source-release.zip"
@@ -88,6 +91,10 @@
 "apache-artemis-2.6.4": [
 "activemq/activemq-artemis/2.6.4/apache-artemis-2.6.4-source-release.tar.gz",
 "activemq/activemq-artemis/2.6.4/apache-artemis-2.6.4-source-release.zip"
+],
+"apache-artemis-2.7.0": [
+"activemq/activemq-artemis/2.7.0/apache-artemis-2.7.0-source-release.tar.gz",
+"activemq/activemq-artemis/2.7.0/apache-artemis-2.7.0-source-release.zip"
 ],
 "apollo-1.7.1": [
 "activemq/activemq-apollo/1.7.1/apollo-project-1.7.1-source-release.tar.gz",
@@ -656,6 +663,9 @@
 ],
 "bookkeeper-4.8.1": [
 "bookkeeper/bookkeeper-4.8.1/bookkeeper-4.8.1-src.tar.gz"
+],
+"bookkeeper-4.8.2": [
+"bookkeeper/bookkeeper-4.8.2/bookkeeper-4.8.2-src.tar.gz"
 ],
 "bookkeeper-4.9.0": [
 "bookkeeper/bookkeeper-4.9.0/bookkeeper-4.9.0-src.tar.gz"
@@ -2933,20 +2943,6 @@
 "incubator/edgent/1.2.0-incubating/apache-edgent-1.2.0-incubating-source-release.zip"
 ]
 },
-"incubator-gearpump": {
-"gearpump-0.8.1-incubating": [
-"incubator/gearpump/0.8.1-incubating/gearpump-0.8.1-incubating-src.tgz"
-],
-"gearpump-0.8.2-incubating": [
-"incubator/gearpump/0.8.2-incubating/gearpump-0.8.2-incubating-src.tgz"
-],
-"gearpump-0.8.3-incubating": [
-"incubator/gearpump/0.8.3-incubating/gearpump-0.8.3-incubating-src.tgz"
-],
-"gearpump-0.8.4-incubating": [
-"incubator/gearpump/0.8.4-incubating/gearpump-0.8.4-incubating-src.tgz"
-]
-},
 "incubator-gobblin": {
 "apache-gobblin-incubating-sources-0.12.0": [
 "incubator/gobblin/apache-gobblin-incubating-0.12.0/apache-gobblin-incubating-sources-0.12.0.tgz"
@@ -2956,20 +2952,6 @@
 ],
 "apache-gobblin-incubating-sources-0.14.0": [
 "incubator/gobblin/apache-gobblin-incubating-0.14.0/apache-gobblin-incubating-sources-0.14.0.tgz"
-]
-},
-"incubator-griffin": {
-"griffin-0.1.5-incubating": [
-"incubator/griffin/0.1.5-incubating/griffin-parent-0.1.5-incubating-source-release.zip"
-],
-"griffin-0.1.6-incubating": [
-"incubator/griffin/0.1.6-incubating/griffin-0.1.6-incubating-source-release.zip"
-],
-"griffin-0.2.0-incubating": [
-"incubator/griffin/0.2.0-incubating/griffin-0.2.0-incubating-source-release.zip"
-],
-"griffin-0.3.0-incubating": [
-"incubator/griffin/0.3.0-incubating/griffin-0.3.0-incubating-source-release.zip"
 ]
 },
 "incubator-heron": {
@@ -6290,6 +6272,9 @@
 "mesos-1.5.2": [
 "mesos/1.5.2/mesos-1.5.2.tar.gz"
 ],
+"mesos-1.5.3": [
+"mesos/1.5.3/mesos-1.5.3.tar.gz"
+],
 "mesos-1.6.1": [
 "mesos/1.6.1/mesos-1.6.1.tar.gz"
 ],
@@ -8937,19 +8922,6 @@
 "tomcat/tomcat-7/v7.0.93/src/apache-tomcat-7.0.93-src.tar.gz",
 "tomcat/tomcat-7/v7.0.93/src/apache-tomcat-7.0.93-src.zip"
 ],
-"apache-tomcat-8.5.37": [
-"tomcat/tomcat-8/v8.5.37/bin/embed/apache-tomcat-8.5.37-embed.tar.gz",
-"tomcat/tomcat-8/v8.5.37/bin/embed/apache-tomcat-8.5.37-embed.zip",
-"tomcat/tomcat-8/v8.5.37/bin/apache-tomcat-8.5.37-deployer.tar.gz",
-"tomcat/tomcat-8/v8.5.37/bin/apache-tomcat-8.5.37-deployer.zip",
-"tomcat/tomcat-8/v8.5.37/bin/apache-tomcat-8.5.37-fulldocs.tar.gz",
-"tomcat/tomcat-8/v8.5.37/bin/apache-tomcat-8.5.37-windows-x64.zip",
-"tomcat/tomcat-8/v8.5.37/bin/apache-tomcat-8.5.37.exe",
-"tomcat/tomcat-8/v8.5.37/bin/apache-tomcat-8.5.37.tar.gz",
-"tomcat/tomcat-8/v8.5.37/bin/apache-tomcat-8.5.37.zip",
-"tomcat/tomcat-8/v8.5.37/src/apache-tomcat-8.5.37-src.tar.gz",
-"tomcat/tomcat-8/v8.5.37/src/apache-tomcat-8.5.37-src.zip"
-],
 "apache-tomcat-8.5.38": [
 "tomcat/tomcat-8/v8.5.38/bin/embed/apache-tomcat-8.5.38-embed.tar.gz",
 "tomcat/tomcat-8/v8.5.38/bin/embed/apache-tomcat-8.5.38-embed.zip",
@@ -8963,18 +8935,18 @@
 "tomcat/tomcat-8/v8.5.38/src/apache-tomcat-8.5.38-src.tar.gz",
 "tomcat/tomcat-8/v8.5.38/src/apache-tomcat-8.5.38-src.zip"
 ],
-"apache-tomcat-9.0.16": [
-"tomcat/tomcat-9/v9.0.16/bin/embed/apache-tomcat-9.0.16-embed.tar.gz",
-"tomcat/tomcat-9/v9.0.16/bin/embed/apache-tomcat-9.0.16-embed.zip",
-"tomcat/tomcat-9/v9.0.16/bin/apache-tomcat-9.0.16-deployer.tar.gz",
-"tomcat/tomcat-9/v9.0.16/bin/apache-tomcat-9.0.16-deployer.zip",
-"tomcat/tomcat-9/v9.0.16/bin/apache-tomcat-9.0.16-fulldocs.tar.gz",
-"tomcat/tomcat-9/v9.0.16/bin/apache-tomcat-9.0.16-windows-x64.zip",
-"tomcat/tomcat-9/v9.0.16/bin/apache-tomcat-9.0.16.exe",
-"tomcat/tomcat-9/v9.0.16/bin/apache-tomcat-9.0.16.tar.gz",
-"tomcat/tomcat-9/v9.0.16/bin/apache-tomcat-9.0.16.zip",
-"tomcat/tomcat-9/v9.0.16/src/apache-tomcat-9.0.16-src.tar.gz",
-"tomcat/tomcat-9/v9.0.16/src/apache-tomcat-9.0.16-src.zip"
+"apache-tomcat-8.5.39": [
+"tomcat/tomcat-8/v8.5.39/bin/embed/apache-tomcat-8.5.39-embed.tar.gz",
+"tomcat/tomcat-8/v8.5.39/bin/embed/apache-tomcat-8.5.39-embed.zip",
+"tomcat/tomcat-8/v8.5.39/bin/apache-tomcat-8.5.39-deployer.tar.gz",
+"tomcat/tomcat-8/v8.5.39/bin/apache-tomcat-8.5.39-deployer.zip",
+"tomcat/tomcat-8/v8.5.39/bin/apache-tomcat-8.5.39-fulldocs.tar.gz",
+"tomcat/tomcat-8/v8.5.39/bin/apache-tomcat-8.5.39-windows-x64.zip",
+"tomcat/tomcat-8/v8.5.39/bin/apache-tomcat-8.5.39.exe",
+"tomcat/tomcat-8/v8.5.39/bin/apache-tomcat-8.5.39.tar.gz",
+"tomcat/tomcat-8/v8.5.39/bin/apache-tomcat-8.5.39.zip",
+"tomcat/tomcat-8/v8.5.39/src/apache-tomcat-8.5.39-src.tar.gz",
+"tomcat/tomcat-8/v8.5.39/src/apache-tomcat-8.5.39-src.zip"
 ],
 "apache-tomcat-9.0.17": [
 "tomcat/tomcat-9/v9.0.17/bin/embed/apache-tomcat-9.0.17-embed.tar.gz",
