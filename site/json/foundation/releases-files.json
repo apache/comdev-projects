@@ -1021,6 +1021,9 @@
 "apache-cloudstack-4.11.2.0": [
 "cloudstack/releases/4.11.2.0/apache-cloudstack-4.11.2.0-src.tar.bz2"
 ],
+"apache-cloudstack-4.12.0.0": [
+"cloudstack/releases/4.12.0.0/apache-cloudstack-4.12.0.0-src.tar.bz2"
+],
 "apache-cloudstack-4.5.2": [
 "cloudstack/releases/4.5.2/apache-cloudstack-4.5.2-src.tar.bz2"
 ],
@@ -1446,8 +1449,8 @@
 ]
 },
 "cordova": {
-"cordova-8.1.2": [
-"cordova/tools/cordova-8.1.2.tgz"
+"cordova-9.0.0": [
+"cordova/tools/cordova-9.0.0.tgz"
 ],
 "cordova-amazon-fireos-3.6.3": [
 "cordova/platforms/cordova-amazon-fireos-3.6.3.tgz"
@@ -1476,8 +1479,8 @@
 "cordova-electron-1.0.2": [
 "cordova/platforms/cordova-electron-1.0.2.tgz"
 ],
-"cordova-fetch-2.0.0": [
-"cordova/tools/cordova-fetch-2.0.0.tgz"
+"cordova-fetch-2.0.1": [
+"cordova/tools/cordova-fetch-2.0.1.tgz"
 ],
 "cordova-firefoxos-3.6.3": [
 "cordova/platforms/cordova-firefoxos-3.6.3.tgz"
@@ -1587,8 +1590,8 @@
 "npm-debug.log": [
 "cordova/plugins/npm-debug.log"
 ],
-"plugman-2.0.0": [
-"cordova/tools/plugman-2.0.0.tgz"
+"plugman-3.0.0": [
+"cordova/tools/plugman-3.0.0.tgz"
 ],
 "xcode-2.0.0": [
 "cordova/tools/xcode-2.0.0.tgz"
@@ -4996,45 +4999,10 @@
 ]
 },
 "incubator-skywalking": {
-"apache-skywalking-apm-incubating-5.0.0-GA": [
-"incubator/skywalking/5.0.0-GA/apache-skywalking-apm-incubating-5.0.0-GA-src.tgz",
-"incubator/skywalking/5.0.0-GA/apache-skywalking-apm-incubating-5.0.0-GA.tar.gz",
-"incubator/skywalking/5.0.0-GA/apache-skywalking-apm-incubating-5.0.0-GA.zip"
-],
-"apache-skywalking-apm-incubating-5.0.0-RC2": [
-"incubator/skywalking/5.0.0-RC2/apache-skywalking-apm-incubating-5.0.0-RC2-src.tgz",
-"incubator/skywalking/5.0.0-RC2/apache-skywalking-apm-incubating-5.0.0-RC2.tar.gz",
-"incubator/skywalking/5.0.0-RC2/apache-skywalking-apm-incubating-5.0.0-RC2.zip"
-],
-"apache-skywalking-apm-incubating-5.0.0-alpha": [
-"incubator/skywalking/5.0.0-alpha/apache-skywalking-apm-incubating-5.0.0-alpha-src.tgz",
-"incubator/skywalking/5.0.0-alpha/apache-skywalking-apm-incubating-5.0.0-alpha.tar.gz",
-"incubator/skywalking/5.0.0-alpha/apache-skywalking-apm-incubating-5.0.0-alpha.zip"
-],
-"apache-skywalking-apm-incubating-5.0.0-beta": [
-"incubator/skywalking/5.0.0-beta/apache-skywalking-apm-incubating-5.0.0-beta-src.tgz",
-"incubator/skywalking/5.0.0-beta/apache-skywalking-apm-incubating-5.0.0-beta.tar.gz",
-"incubator/skywalking/5.0.0-beta/apache-skywalking-apm-incubating-5.0.0-beta.zip"
-],
-"apache-skywalking-apm-incubating-5.0.0-beta2": [
-"incubator/skywalking/5.0.0-beta2/apache-skywalking-apm-incubating-5.0.0-beta2-src.tgz",
-"incubator/skywalking/5.0.0-beta2/apache-skywalking-apm-incubating-5.0.0-beta2.tar.gz",
-"incubator/skywalking/5.0.0-beta2/apache-skywalking-apm-incubating-5.0.0-beta2.zip"
-],
 "apache-skywalking-apm-incubating-6.0.0-GA": [
 "incubator/skywalking/6.0.0-GA/apache-skywalking-apm-incubating-6.0.0-GA-src.tgz",
 "incubator/skywalking/6.0.0-GA/apache-skywalking-apm-incubating-6.0.0-GA.tar.gz",
 "incubator/skywalking/6.0.0-GA/apache-skywalking-apm-incubating-6.0.0-GA.zip"
-],
-"apache-skywalking-apm-incubating-6.0.0-alpha": [
-"incubator/skywalking/6.0.0-alpha/apache-skywalking-apm-incubating-6.0.0-alpha-src.tgz",
-"incubator/skywalking/6.0.0-alpha/apache-skywalking-apm-incubating-6.0.0-alpha.tar.gz",
-"incubator/skywalking/6.0.0-alpha/apache-skywalking-apm-incubating-6.0.0-alpha.zip"
-],
-"apache-skywalking-apm-incubating-6.0.0-beta": [
-"incubator/skywalking/6.0.0-beta/apache-skywalking-apm-incubating-6.0.0-beta-src.tgz",
-"incubator/skywalking/6.0.0-beta/apache-skywalking-apm-incubating-6.0.0-beta.tar.gz",
-"incubator/skywalking/6.0.0-beta/apache-skywalking-apm-incubating-6.0.0-beta.zip"
 ]
 },
 "incubator-spot": {
@@ -5304,6 +5272,9 @@
 "jackrabbit-filevault-3.2.6": [
 "jackrabbit/filevault/3.2.6/jackrabbit-filevault-3.2.6-src.zip"
 ],
+"jackrabbit-filevault-3.2.8": [
+"jackrabbit/filevault/3.2.8/jackrabbit-filevault-3.2.8-src.zip"
+],
 "jackrabbit-jca-2.10.9": [
 "jackrabbit/2.10.9/jackrabbit-jca-2.10.9.rar"
 ],
@@ -5406,9 +5377,6 @@
 ],
 "james-jpa-smtp-guice-3.2.0": [
 "james/server/3.2.0/james-jpa-smtp-guice-3.2.0.zip"
-],
-"james-mime4j-sources-0.8.2": [
-"james/mime4j/0.8.2/james-mime4j-sources-0.8.2.zip"
 ],
 "james-mime4j-sources-0.8.3": [
 "james/mime4j/0.8.3/james-mime4j-sources-0.8.3.zip"
@@ -5686,9 +5654,9 @@
 "karaf/cellar/4.1.2/apache-karaf-cellar-4.1.2-src.tar.gz",
 "karaf/cellar/4.1.2/apache-karaf-cellar-4.1.2-src.zip"
 ],
-"apache-karaf-decanter-2.1.0": [
-"karaf/decanter/2.1.0/apache-karaf-decanter-2.1.0-src.tar.gz",
-"karaf/decanter/2.1.0/apache-karaf-decanter-2.1.0-src.zip"
+"apache-karaf-decanter-2.2.0": [
+"karaf/decanter/2.2.0/apache-karaf-decanter-2.2.0-src.tar.gz",
+"karaf/decanter/2.2.0/apache-karaf-decanter-2.2.0-src.zip"
 ]
 },
 "knox": {
@@ -6621,6 +6589,15 @@
 "nifi-minifi-cpp-0.5.0": [
 "nifi/nifi-minifi-cpp/0.5.0/nifi-minifi-cpp-0.5.0-source.tar.gz"
 ],
+"nifi-minifi-cpp-0.6.0": [
+"nifi/nifi-minifi-cpp/0.6.0/nifi-minifi-cpp-0.6.0-source.tar.gz"
+],
+"nifi-minifi-cpp-0.6.0.msi": [
+"nifi/nifi-minifi-cpp/0.6.0/nifi-minifi-cpp-0.6.0.msi"
+],
+"nifi-minifi-cpp-jni-0.6.0.msi": [
+"nifi/nifi-minifi-cpp/0.6.0/nifi-minifi-cpp-jni-0.6.0.msi"
+],
 "nifi-nar-maven-plugin-1.2.0": [
 "nifi/nifi-nar-maven-plugin-1.2.0/nifi-nar-maven-plugin-1.2.0-source-release.zip"
 ],
@@ -7506,6 +7483,9 @@
 "apache-samza-1.0.0": [
 "samza/1.0.0/apache-samza-1.0.0-src.tgz"
 ],
+"apache-samza-1.1.0": [
+"samza/1.1.0/apache-samza-1.1.0-src.tgz"
+],
 "samza-tools-0.14.0": [
 "samza/0.14.0/samza-tools-0.14.0.tgz"
 ],
@@ -7514,6 +7494,9 @@
 ],
 "samza-tools-1.0.0": [
 "samza/1.0.0/samza-tools-1.0.0.tgz"
+],
+"samza-tools_2.11-1.1.0": [
+"samza/1.1.0/samza-tools_2.11-1.1.0.tgz"
 ]
 },
 "santuario": {
@@ -8907,8 +8890,14 @@
 "apache-tinkerpop-3.3.5": [
 "tinkerpop/3.3.5/apache-tinkerpop-3.3.5-src.zip"
 ],
+"apache-tinkerpop-3.3.6": [
+"tinkerpop/3.3.6/apache-tinkerpop-3.3.6-src.zip"
+],
 "apache-tinkerpop-3.4.0": [
 "tinkerpop/3.4.0/apache-tinkerpop-3.4.0-src.zip"
+],
+"apache-tinkerpop-3.4.1": [
+"tinkerpop/3.4.1/apache-tinkerpop-3.4.1-src.zip"
 ]
 },
 "tomcat": {
