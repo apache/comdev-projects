@@ -102,8 +102,8 @@
 ]
 },
 "airavata": {
-"airavata-0.16": [
-"airavata/0.16/airavata-0.16-source-release.zip"
+"airavata-0.17": [
+"airavata/0.17/airavata-0.17-source-release.zip"
 ]
 },
 "airflow": {
@@ -751,11 +751,11 @@
 ]
 },
 "calcite": {
-"apache-calcite-1.17.0": [
-"calcite/apache-calcite-1.17.0/apache-calcite-1.17.0-src.tar.gz"
-],
 "apache-calcite-1.18.0": [
 "calcite/apache-calcite-1.18.0/apache-calcite-1.18.0-src.tar.gz"
+],
+"apache-calcite-1.19.0": [
+"calcite/apache-calcite-1.19.0/apache-calcite-1.19.0-src.tar.gz"
 ],
 "apache-calcite-avatica-1.12.0": [
 "calcite/apache-calcite-avatica-1.12.0/apache-calcite-avatica-1.12.0-src.tar.gz"
@@ -2706,8 +2706,7 @@
 },
 "hbase": {
 "RELEASENOTES.md": [
-"hbase/2.0.4/RELEASENOTES.md",
-"hbase/2.1.3/RELEASENOTES.md"
+"hbase/2.0.5/RELEASENOTES.md"
 ],
 "hbase-1.2.11": [
 "hbase/hbase-1.2.11/hbase-1.2.11-src.tar.gz"
@@ -2718,11 +2717,8 @@
 "hbase-1.4.9": [
 "hbase/1.4.9/hbase-1.4.9-src.tar.gz"
 ],
-"hbase-2.0.4": [
-"hbase/2.0.4/hbase-2.0.4-src.tar.gz"
-],
-"hbase-2.1.3": [
-"hbase/2.1.3/hbase-2.1.3-src.tar.gz"
+"hbase-2.0.5": [
+"hbase/2.0.5/hbase-2.0.5-src.tar.gz"
 ],
 "hbase-thirdparty-1.0.1": [
 "hbase/hbase-thirdparty-1.0.1/hbase-thirdparty-1.0.1-src.tar.gz"
@@ -3007,6 +3003,9 @@
 ],
 "myriad-0.2.0-incubating": [
 "incubator/myriad/myriad-0.2.0-incubating/myriad-0.2.0-incubating.tar.gz"
+],
+"myriad-0.3.0-incubating": [
+"incubator/myriad/myriad-0.3.0-incubating/myriad-0.3.0-incubating.tar.gz"
 ]
 },
 "incubator-nemo": {
@@ -4906,8 +4905,14 @@
 "openwhisk-catalog-0.9.0-incubating": [
 "incubator/openwhisk/apache-openwhisk-0.9.0-incubating/openwhisk-catalog-0.9.0-incubating-sources.tar.gz"
 ],
+"openwhisk-cli-0.10.0-incubating": [
+"incubator/openwhisk/apache-openwhisk-0.10.0-incubating/openwhisk-cli-0.10.0-incubating-sources.tar.gz"
+],
 "openwhisk-cli-0.9.0-incubating": [
 "incubator/openwhisk/apache-openwhisk-0.9.0-incubating/openwhisk-cli-0.9.0-incubating-sources.tar.gz"
+],
+"openwhisk-client-go-0.10.0-incubating": [
+"incubator/openwhisk/apache-openwhisk-0.10.0-incubating/openwhisk-client-go-0.10.0-incubating-sources.tar.gz"
 ],
 "openwhisk-client-go-0.9.0-incubating": [
 "incubator/openwhisk/apache-openwhisk-0.9.0-incubating/openwhisk-client-go-0.9.0-incubating-sources.tar.gz"
@@ -4936,6 +4941,9 @@
 "openwhisk-runtime-swift-1.12.0-incubating": [
 "incubator/openwhisk/apache-openwhisk-1.12.0-incubating/openwhisk-runtime-swift-1.12.0-incubating-sources.tar.gz"
 ],
+"openwhisk-wskdeploy-0.10.0-incubating": [
+"incubator/openwhisk/apache-openwhisk-0.10.0-incubating/openwhisk-wskdeploy-0.10.0-incubating-sources.tar.gz"
+],
 "openwhisk-wskdeploy-0.9.8-incubating": [
 "incubator/openwhisk/apache-openwhisk-0.9.8-incubating/openwhisk-wskdeploy-0.9.8-incubating-sources.tar.gz"
 ]
@@ -4953,6 +4961,9 @@
 "incubator-ponymail": {
 "apache-pony-mail-0.10-incubating": [
 "incubator/ponymail/apache-pony-mail-0.10-incubating.tar.xz"
+],
+"apache-pony-mail-0.11-incubating": [
+"incubator/ponymail/apache-pony-mail-0.11-incubating.tar.gz"
 ]
 },
 "incubator-ratis": {
@@ -5148,6 +5159,9 @@
 ]
 },
 "incubator-zipkin": {
+"apache-zipkin-brave-cassandra-incubating-0.10.2": [
+"incubator/zipkin/brave-cassandra/0.10.2/apache-zipkin-brave-cassandra-incubating-0.10.2-source-release.zip"
+],
 "apache-zipkin-brave-karaf-incubating-0.1.2": [
 "incubator/zipkin/brave-karaf/0.1.2/apache-zipkin-brave-karaf-incubating-0.1.2-source-release.zip"
 ]
@@ -5505,8 +5519,8 @@
 ]
 },
 "jspwiki": {
-"jspwiki-builder-2.11.0.M2": [
-"jspwiki/2.11.0.M2/source/jspwiki-builder-2.11.0.M2-source-release.zip"
+"jspwiki-builder-2.11.0.M3": [
+"jspwiki/2.11.0.M3/source/jspwiki-builder-2.11.0.M3-source-release.zip"
 ]
 },
 "juddi": {
@@ -8896,17 +8910,8 @@
 ]
 },
 "tinkerpop": {
-"apache-tinkerpop-3.2.11": [
-"tinkerpop/3.2.11/apache-tinkerpop-3.2.11-src.zip"
-],
-"apache-tinkerpop-3.3.5": [
-"tinkerpop/3.3.5/apache-tinkerpop-3.3.5-src.zip"
-],
 "apache-tinkerpop-3.3.6": [
 "tinkerpop/3.3.6/apache-tinkerpop-3.3.6-src.zip"
-],
-"apache-tinkerpop-3.4.0": [
-"tinkerpop/3.4.0/apache-tinkerpop-3.4.0-src.zip"
 ],
 "apache-tinkerpop-3.4.1": [
 "tinkerpop/3.4.1/apache-tinkerpop-3.4.1-src.zip"
@@ -9272,9 +9277,9 @@
 "turbine/fulcrum/fulcrum-hsqldb/source/fulcrum-hsqldb-1.0.0-src.tar.gz",
 "turbine/fulcrum/fulcrum-hsqldb/source/fulcrum-hsqldb-1.0.0-src.zip"
 ],
-"fulcrum-intake-1.2.3": [
-"turbine/fulcrum/fulcrum-intake/source/fulcrum-intake-1.2.3-src.tar.gz",
-"turbine/fulcrum/fulcrum-intake/source/fulcrum-intake-1.2.3-src.zip"
+"fulcrum-intake-2.0.0": [
+"turbine/fulcrum/fulcrum-intake/source/fulcrum-intake-2.0.0-src.tar.gz",
+"turbine/fulcrum/fulcrum-intake/source/fulcrum-intake-2.0.0-src.zip"
 ],
 "fulcrum-jetty-1.0.0": [
 "turbine/fulcrum/fulcrum-jetty/source/fulcrum-jetty-1.0.0-src.tar.bz2",
