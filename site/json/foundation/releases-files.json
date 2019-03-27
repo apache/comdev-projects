@@ -46,12 +46,6 @@
 "activemq-5.14.5": [
 "activemq/5.14.5/activemq-parent-5.14.5-source-release.zip"
 ],
-"activemq-5.15.7": [
-"activemq/5.15.7/activemq-parent-5.15.7-source-release.zip"
-],
-"activemq-5.15.8": [
-"activemq/5.15.8/activemq-parent-5.15.8-source-release.zip"
-],
 "activemq-5.15.9": [
 "activemq/5.15.9/activemq-parent-5.15.9-source-release.zip"
 ],
@@ -2706,7 +2700,8 @@
 },
 "hbase": {
 "RELEASENOTES.md": [
-"hbase/2.0.5/RELEASENOTES.md"
+"hbase/2.0.5/RELEASENOTES.md",
+"hbase/2.1.4/RELEASENOTES.md"
 ],
 "hbase-1.2.11": [
 "hbase/hbase-1.2.11/hbase-1.2.11-src.tar.gz"
@@ -2719,6 +2714,9 @@
 ],
 "hbase-2.0.5": [
 "hbase/2.0.5/hbase-2.0.5-src.tar.gz"
+],
+"hbase-2.1.4": [
+"hbase/2.1.4/hbase-2.1.4-src.tar.gz"
 ],
 "hbase-thirdparty-1.0.1": [
 "hbase/hbase-thirdparty-1.0.1/hbase-thirdparty-1.0.1-src.tar.gz"
@@ -2880,6 +2878,9 @@
 ],
 "apache-impala-3.1.0": [
 "impala/3.1.0/apache-impala-3.1.0.tar.gz"
+],
+"apache-impala-3.2.0": [
+"impala/3.2.0/apache-impala-3.2.0.tar.gz"
 ]
 },
 "incubator-amaterasu": {
@@ -2924,8 +2925,8 @@
 "apache-dubbo-incubating-2.6.6": [
 "incubator/dubbo/2.6.6/apache-dubbo-incubating-2.6.6-source-release.zip"
 ],
-"apache-dubbo-incubating-2.7.0": [
-"incubator/dubbo/2.7.0/apache-dubbo-incubating-2.7.0-source-release.zip"
+"apache-dubbo-incubating-2.7.1": [
+"incubator/dubbo/2.7.1/apache-dubbo-incubating-2.7.1-src.zip"
 ],
 "apache-dubbo-ops-incubating-0.1": [
 "incubator/dubbo/dubbo-ops/0.1/apache-dubbo-ops-incubating-0.1-source-release.zip"
@@ -2935,11 +2936,13 @@
 ]
 },
 "incubator-echarts": {
-"apache-echarts-4.1.0.rc4-incubating": [
-"incubator/echarts/4.1.0/apache-echarts-4.1.0.rc4-incubating-src.zip"
+"apache-echarts-4.1.0-incubating": [
+"incubator/echarts/4.1.0/apache-echarts-4.1.0-incubating-src.zip",
+"incubator/echarts/4.1.0/apache-echarts-4.1.0-incubating.zip"
 ],
 "apache-echarts-4.2.1-incubating": [
-"incubator/echarts/4.2.1/apache-echarts-4.2.1-incubating-src.zip"
+"incubator/echarts/4.2.1/apache-echarts-4.2.1-incubating-src.zip",
+"incubator/echarts/4.2.1/apache-echarts-4.2.1-incubating.zip"
 ]
 },
 "incubator-edgent": {
@@ -7086,15 +7089,9 @@
 "poi/release/src/poi-src-4.0.1-20181203.tar.gz",
 "poi/release/src/poi-src-4.0.1-20181203.zip"
 ],
-"xmlbeans-3.0.2-20181028": [
-"poi/xmlbeans/release/src/xmlbeans-src-3.0.2-20181028.tgz",
-"poi/xmlbeans/release/src/xmlbeans-src-3.0.2-20181028.zip"
-]
-},
-"polygene": {
-"apache-polygene-java-3.0.0": [
-"polygene/apache-polygene-java-3.0.0-src.tgz",
-"polygene/apache-polygene-java-3.0.0-src.zip"
+"xmlbeans-3.1.0": [
+"poi/xmlbeans/release/src/xmlbeans-src-3.1.0.tgz",
+"poi/xmlbeans/release/src/xmlbeans-src-3.1.0.zip"
 ]
 },
 "portals": {
