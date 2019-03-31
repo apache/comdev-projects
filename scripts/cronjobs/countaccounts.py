@@ -7,32 +7,27 @@ if sys.hexversion < 0x030000F0:
 """
 Extracts data showing the number of accounts created each month.
 
+Reads:
+https://whimsy.apache.org/public/public_ldap_people.json
+
 Updates:
 ../../site/json/foundation/accounts-evolution.json
 
-using the output from
-ldapsearch -x -LLL -b ou=people,dc=apache,dc=org createTimestamp
+The JSON data has the following format:
+{
+  "lastCreateTimestamp": "20190309011146Z",
+  "people": {
+    ...
+    "hboutemy": {
+      "name": "Herve Boutemy",
+      "createTimestamp": "20071016014212Z",
+      ...
 
-e.g.
+Whimsy applies corrections to the createTimestamp where known
+For example the above LDAP record shows:
 dn: uid=hboutemy,ou=people,dc=apache,dc=org
 createTimestamp: 20090519192255Z
 
-Note that the createTimestamp is when the record was (re)created.
-Since LDAP was introduced some while after the ASF started,
-the stamps for early committers are likely to be completely wrong.
-
-For example, the entry above shows that the LDAP account was created
-in May 2009. 
-However the user account was actually created in Oct 2007 
-according to the history for iclas.txt. And the ICLA is from Sep 2007
-(which agrees with the iclas.txt date).
-ALso his earliest commit Maven SVN is r585237 | hboutemy | 2007-10-16 
-
-LDAP was introduced around May/June 2009.
-The earliest  createTimestamp is 20090519192238Z
-
-Hopefully recent timestamps give a better indication of when an account
-was actually created.
 
 The output file consists of lines of the form:
 {
@@ -47,9 +42,26 @@ on the last day of the month
 
 """
 
-import json;
+import json
 from datetime import datetime, timedelta
-import subprocess
+from urlutils import UrlCache
+
+uc = UrlCache(interval=0)
+
+def loadJson(url):
+    print("Reading " +url)
+    resp = uc.get(url, name=None, encoding='utf-8', errors=None)
+    try:
+        content = resp.read() # json.load() does this anyway
+        try:
+            j = json.loads(content)
+        except Exception as e:
+            # The Proxy error response is around 4800 bytes
+            print("Error parsing response:\n%s" % content[0:4800])
+            raise e
+    finally:
+        resp.close()
+    return j
 
 js = {}
 with open("../../site/json/foundation/accounts-evolution.json") as f:
@@ -78,20 +90,15 @@ if now.day == 1: # Day one of month, redo previous month to ensure all new entri
     js[ym1] = 0
     
 
-proc = subprocess.Popen(['ldapsearch','-x', '-LLL', '-b', 'ou=people,dc=apache,dc=org', 'createTimestamp'],stdout=subprocess.PIPE)
+ldappeople = loadJson('https://whimsy.apache.org/public/public_ldap_people.json')['people']
 
-while True:
-    line = proc.stdout.readline()
-    if not line or line == "":
-        break
-    line = line.decode('utf-8')
-    # Sample output:
-    # createTimestamp: 20150330152151Z
-    if line.startswith("createTimestamp: %s" % tym):
+for p in ldappeople:
+    stamp = ldappeople[p]['createTimestamp']
+    if stamp.startswith(tym):
         js[ym] += 1
     else:
         if not tym1 == None:
-            if line.startswith("createTimestamp: %s" % tym1):
+            if stamp.startswith(tym1):
                 js[ym1] += 1
 
 with open("../../site/json/foundation/accounts-evolution.json", "w") as f:
