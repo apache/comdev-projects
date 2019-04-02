@@ -2481,8 +2481,8 @@
 "geronimo-jbatch_1.0_spec-1.1": [
 "geronimo/specs/geronimo-jbatch_1.0_spec-1.1-source-release.zip"
 ],
-"geronimo-jcache-simple-1.0.1": [
-"geronimo/jcache/geronimo-jcache-simple-1.0.1-source-release.zip"
+"geronimo-jcache-simple-1.0.2": [
+"geronimo/jcache/geronimo-jcache-simple-1.0.2-source-release.zip"
 ],
 "geronimo-jcdi_2.0_spec-1.1": [
 "geronimo/specs/geronimo-jcdi_2.0_spec-1.1-source-release.zip"
@@ -2502,8 +2502,8 @@
 "geronimo-microprofile-1.0.2": [
 "geronimo/microprofile-aggregator/geronimo-microprofile-1.0.2-source-release.zip"
 ],
-"geronimo-openapi-1.0.6": [
-"geronimo/openapi/geronimo-openapi-1.0.6-source-release.zip"
+"geronimo-openapi-1.0.7": [
+"geronimo/openapi/geronimo-openapi-1.0.7-source-release.zip"
 ],
 "geronimo-opentracing-1.0.2": [
 "geronimo/opentracing/geronimo-opentracing-parent-1.0.2-source-release.zip"
@@ -2514,8 +2514,8 @@
 "safeguard-1.2.1": [
 "geronimo/safeguard/safeguard-parent-1.2.1-source-release.zip"
 ],
-"xbean-4.12": [
-"geronimo/xbean/xbean-4.12-source-release.zip"
+"xbean-4.13": [
+"geronimo/xbean/xbean-4.13-source-release.zip"
 ]
 },
 "giraph": {
@@ -2985,6 +2985,9 @@
 ]
 },
 "incubator-livy": {
+"apache-livy-0.6.0-incubating": [
+"incubator/livy/0.6.0-incubating/apache-livy-0.6.0-incubating-src.zip"
+],
 "livy-0.4.0-incubating": [
 "incubator/livy/0.4.0-incubating/livy-0.4.0-incubating-src.zip"
 ],
@@ -4929,6 +4932,15 @@
 "openwhisk-composer-0.9.0-incubating": [
 "incubator/openwhisk/apache-openwhisk-0.9.0-incubating/openwhisk-composer-0.9.0-incubating-sources.tar.gz"
 ],
+"openwhisk-package-alarms-2.0.0-incubating": [
+"incubator/openwhisk/apache-openwhisk-2.0.0-incubating/openwhisk-package-alarms-2.0.0-incubating-sources.tar.gz"
+],
+"openwhisk-package-cloudant-2.0.0-incubating": [
+"incubator/openwhisk/apache-openwhisk-2.0.0-incubating/openwhisk-package-cloudant-2.0.0-incubating-sources.tar.gz"
+],
+"openwhisk-package-kafka-2.0.0-incubating": [
+"incubator/openwhisk/apache-openwhisk-2.0.0-incubating/openwhisk-package-kafka-2.0.0-incubating-sources.tar.gz"
+],
 "openwhisk-runtime-docker-1.12.0-incubating": [
 "incubator/openwhisk/apache-openwhisk-1.12.0-incubating/openwhisk-runtime-docker-1.12.0-incubating-sources.tar.gz"
 ],
@@ -5732,6 +5744,11 @@
 "lucene/java/6.6.5/lucene-6.6.5.tgz",
 "lucene/java/6.6.5/lucene-6.6.5.zip"
 ],
+"lucene-6.6.6": [
+"lucene/java/6.6.6/lucene-6.6.6-src.tgz",
+"lucene/java/6.6.6/lucene-6.6.6.tgz",
+"lucene/java/6.6.6/lucene-6.6.6.zip"
+],
 "lucene-7.7.1": [
 "lucene/java/7.7.1/lucene-7.7.1-src.tgz",
 "lucene/java/7.7.1/lucene-7.7.1.tgz",
@@ -5775,6 +5792,11 @@
 "lucene/solr/6.6.5/solr-6.6.5-src.tgz",
 "lucene/solr/6.6.5/solr-6.6.5.tgz",
 "lucene/solr/6.6.5/solr-6.6.5.zip"
+],
+"solr-6.6.6": [
+"lucene/solr/6.6.6/solr-6.6.6-src.tgz",
+"lucene/solr/6.6.6/solr-6.6.6.tgz",
+"lucene/solr/6.6.6/solr-6.6.6.zip"
 ],
 "solr-7.7.1": [
 "lucene/solr/7.7.1/solr-7.7.1-src.tgz",
@@ -7268,26 +7290,17 @@
 "apache-qpid-broker-j-7.1.1": [
 "qpid/broker-j/7.1.1/apache-qpid-broker-j-7.1.1-src.tar.gz"
 ],
-"apache-qpid-jms-0.39.0": [
-"qpid/jms/0.39.0/apache-qpid-jms-0.39.0-src.tar.gz"
-],
 "apache-qpid-jms-0.40.0": [
 "qpid/jms/0.40.0/apache-qpid-jms-0.40.0-src.tar.gz"
 ],
 "apache-qpid-jms-amqp-0-x-6.3.3": [
 "qpid/jms-amqp-0-x/6.3.3/apache-qpid-jms-amqp-0-x-6.3.3-src.tar.gz"
 ],
-"apache-qpid-proton-j-0.30.0": [
-"qpid/proton-j/0.30.0/apache-qpid-proton-j-0.30.0-src.tar.gz"
-],
 "apache-qpid-proton-j-0.31.0": [
 "qpid/proton-j/0.31.0/apache-qpid-proton-j-0.31.0-src.tar.gz"
 ],
-"qpid-dispatch-1.4.0": [
-"qpid/dispatch/1.4.0/qpid-dispatch-1.4.0.tar.gz"
-],
-"qpid-dispatch-1.4.1": [
-"qpid/dispatch/1.4.1/qpid-dispatch-1.4.1.tar.gz"
+"apache-qpid-proton-j-0.32.0": [
+"qpid/proton-j/0.32.0/apache-qpid-proton-j-0.32.0-src.tar.gz"
 ],
 "qpid-dispatch-1.5.0": [
 "qpid/dispatch/1.5.0/qpid-dispatch-1.5.0.tar.gz"
@@ -7300,9 +7313,6 @@
 ],
 "qpid-java-6.1.7": [
 "qpid/java/6.1.7/qpid-java-6.1.7.tar.gz"
-],
-"qpid-proton-0.26.0": [
-"qpid/proton/0.26.0/qpid-proton-0.26.0.tar.gz"
 ],
 "qpid-proton-0.27.0": [
 "qpid/proton/0.27.0/qpid-proton-0.27.0.tar.gz"
@@ -8243,8 +8253,8 @@
 "org.apache.sling.testing.sling-mock-1.9.12": [
 "sling/org.apache.sling.testing.sling-mock-1.9.12-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock-2.3.4": [
-"sling/org.apache.sling.testing.sling-mock-2.3.4-source-release.zip"
+"org.apache.sling.testing.sling-mock-2.3.6": [
+"sling/org.apache.sling.testing.sling-mock-2.3.6-source-release.zip"
 ],
 "org.apache.sling.testing.sling-mock-jackrabbit-1.0.0": [
 "sling/org.apache.sling.testing.sling-mock-jackrabbit-1.0.0-source-release.zip"
@@ -8252,17 +8262,17 @@
 "org.apache.sling.testing.sling-mock-oak-2.1.2": [
 "sling/org.apache.sling.testing.sling-mock-oak-2.1.2-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.core-2.3.4": [
-"sling/org.apache.sling.testing.sling-mock.core-2.3.4-source-release.zip"
+"org.apache.sling.testing.sling-mock.core-2.3.6": [
+"sling/org.apache.sling.testing.sling-mock.core-2.3.6-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.junit4-2.3.4": [
-"sling/org.apache.sling.testing.sling-mock.junit4-2.3.4-source-release.zip"
+"org.apache.sling.testing.sling-mock.junit4-2.3.6": [
+"sling/org.apache.sling.testing.sling-mock.junit4-2.3.6-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.junit5-2.3.4": [
-"sling/org.apache.sling.testing.sling-mock.junit5-2.3.4-source-release.zip"
+"org.apache.sling.testing.sling-mock.junit5-2.3.6": [
+"sling/org.apache.sling.testing.sling-mock.junit5-2.3.6-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.parent-2.3.4": [
-"sling/org.apache.sling.testing.sling-mock.parent-2.3.4-source-release.zip"
+"org.apache.sling.testing.sling-mock.parent-2.3.6": [
+"sling/org.apache.sling.testing.sling-mock.parent-2.3.6-source-release.zip"
 ],
 "org.apache.sling.testing.tools-1.0.16": [
 "sling/org.apache.sling.testing.tools-1.0.16-source-release.zip"
@@ -8288,8 +8298,8 @@
 "org.apache.sling.validation.test-services-1.0.4": [
 "sling/org.apache.sling.validation.test-services-1.0.4-source-release.zip"
 ],
-"org.apache.sling.xss-2.1.0": [
-"sling/org.apache.sling.xss-2.1.0-source-release.zip"
+"org.apache.sling.xss-2.1.6": [
+"sling/org.apache.sling.xss-2.1.6-source-release.zip"
 ],
 "org.apache.sling.xss.compat-1.1.0": [
 "sling/org.apache.sling.xss.compat-1.1.0-source-release.zip"
@@ -8377,6 +8387,9 @@
 "SparkR_2.4.0": [
 "spark/spark-2.4.0/SparkR_2.4.0.tar.gz"
 ],
+"SparkR_2.4.1": [
+"spark/spark-2.4.1/SparkR_2.4.1.tar.gz"
+],
 "pyspark-2.2.3": [
 "spark/spark-2.2.3/pyspark-2.2.3.tar.gz"
 ],
@@ -8386,6 +8399,9 @@
 "pyspark-2.4.0": [
 "spark/spark-2.4.0/pyspark-2.4.0.tar.gz"
 ],
+"pyspark-2.4.1": [
+"spark/spark-2.4.1/pyspark-2.4.1.tar.gz"
+],
 "spark-2.2.3": [
 "spark/spark-2.2.3/spark-2.2.3.tgz"
 ],
@@ -8394,6 +8410,9 @@
 ],
 "spark-2.4.0": [
 "spark/spark-2.4.0/spark-2.4.0.tgz"
+],
+"spark-2.4.1": [
+"spark/spark-2.4.1/spark-2.4.1.tgz"
 ]
 },
 "sqoop": {
@@ -9735,6 +9754,9 @@
 "zookeeper": {
 "zookeeper-3.4.13": [
 "zookeeper/zookeeper-3.4.13/zookeeper-3.4.13.tar.gz"
+],
+"zookeeper-3.4.14": [
+"zookeeper/zookeeper-3.4.14/zookeeper-3.4.14.tar.gz"
 ],
 "zookeeper-3.5.4-beta": [
 "zookeeper/zookeeper-3.5.4-beta/zookeeper-3.5.4-beta.tar.gz"
