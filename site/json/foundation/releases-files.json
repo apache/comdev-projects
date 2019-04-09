@@ -1881,9 +1881,9 @@
 "felix/javax.servlet-1.0.0-project.tar.gz",
 "felix/javax.servlet-1.0.0-project.zip"
 ],
-"maven-bundle-plugin-4.1.0": [
-"felix/maven-bundle-plugin-4.1.0-source-release.tar.gz",
-"felix/maven-bundle-plugin-4.1.0-source-release.zip"
+"maven-bundle-plugin-4.2.0": [
+"felix/maven-bundle-plugin-4.2.0-source-release.tar.gz",
+"felix/maven-bundle-plugin-4.2.0-source-release.zip"
 ],
 "maven-junit4osgi-plugin-1.0.0": [
 "felix/maven-junit4osgi-plugin-1.0.0-project.tar.gz",
@@ -2940,6 +2940,9 @@
 "incubator-druid": {
 "apache-druid-0.13.0-incubating": [
 "incubator/druid/0.13.0-incubating/apache-druid-0.13.0-incubating-src.tar.gz"
+],
+"apache-druid-0.14.0-incubating": [
+"incubator/druid/0.14.0-incubating/apache-druid-0.14.0-incubating-src.tar.gz"
 ]
 },
 "incubator-dubbo": {
@@ -6864,6 +6867,9 @@
 "apache-mynewt-blinky-1.5.0": [
 "mynewt/apache-mynewt-1.5.0/apache-mynewt-blinky-1.5.0.tgz"
 ],
+"apache-mynewt-blinky-1.6.0": [
+"mynewt/apache-mynewt-1.6.0/apache-mynewt-blinky-1.6.0.tgz"
+],
 "apache-mynewt-core-1.3.0": [
 "mynewt/apache-mynewt-1.3.0/apache-mynewt-core-1.3.0.tgz"
 ],
@@ -6875,6 +6881,9 @@
 ],
 "apache-mynewt-core-1.5.0": [
 "mynewt/apache-mynewt-1.5.0/apache-mynewt-core-1.5.0.tgz"
+],
+"apache-mynewt-core-1.6.0": [
+"mynewt/apache-mynewt-1.6.0/apache-mynewt-core-1.6.0.tgz"
 ],
 "apache-mynewt-newt-1.3.0": [
 "mynewt/apache-mynewt-1.3.0/apache-mynewt-newt-1.3.0.tgz"
@@ -6888,6 +6897,9 @@
 "apache-mynewt-newt-1.5.0": [
 "mynewt/apache-mynewt-1.5.0/apache-mynewt-newt-1.5.0.tgz"
 ],
+"apache-mynewt-newt-1.6.0": [
+"mynewt/apache-mynewt-1.6.0/apache-mynewt-newt-1.6.0.tgz"
+],
 "apache-mynewt-newtmgr-1.3.0": [
 "mynewt/apache-mynewt-1.3.0/apache-mynewt-newtmgr-1.3.0.tgz"
 ],
@@ -6900,16 +6912,22 @@
 "apache-mynewt-newtmgr-1.5.0": [
 "mynewt/apache-mynewt-1.5.0/apache-mynewt-newtmgr-1.5.0.tgz"
 ],
+"apache-mynewt-newtmgr-1.6.0": [
+"mynewt/apache-mynewt-1.6.0/apache-mynewt-newtmgr-1.6.0.tgz"
+],
 "apache-mynewt-nimble-1.0.0": [
 "mynewt/apache-nimble-1.0.0/apache-mynewt-nimble-1.0.0.tgz"
+],
+"apache-mynewt-nimble-1.1.0": [
+"mynewt/apache-nimble-1.1.0/apache-mynewt-nimble-1.1.0.tgz"
 ]
 },
 "nifi": {
 "minifi-0.5.0": [
 "nifi/minifi/0.5.0/minifi-0.5.0-source-release.zip"
 ],
-"nifi-1.9.1": [
-"nifi/1.9.1/nifi-1.9.1-source-release.zip"
+"nifi-1.9.2": [
+"nifi/1.9.2/nifi-1.9.2-source-release.zip"
 ],
 "nifi-fds-0.1.0": [
 "nifi/nifi-fds/nifi-fds-0.1.0/nifi-fds-0.1.0-source-release.zip"
@@ -7390,9 +7408,9 @@
 ]
 },
 "poi": {
-"poi-4.0.1-20181203": [
-"poi/release/src/poi-src-4.0.1-20181203.tar.gz",
-"poi/release/src/poi-src-4.0.1-20181203.zip"
+"poi-4.1.0-20190412": [
+"poi/release/src/poi-src-4.1.0-20190412.tar.gz",
+"poi/release/src/poi-src-4.1.0-20190412.zip"
 ],
 "xmlbeans-3.1.0": [
 "poi/xmlbeans/release/src/xmlbeans-src-3.1.0.tgz",
@@ -7633,14 +7651,14 @@
 "apache-qpid-broker-j-7.0.7": [
 "qpid/broker-j/7.0.7/apache-qpid-broker-j-7.0.7-src.tar.gz"
 ],
-"apache-qpid-broker-j-7.1.1": [
-"qpid/broker-j/7.1.1/apache-qpid-broker-j-7.1.1-src.tar.gz"
-],
 "apache-qpid-broker-j-7.1.2": [
 "qpid/broker-j/7.1.2/apache-qpid-broker-j-7.1.2-src.tar.gz"
 ],
 "apache-qpid-jms-0.40.0": [
 "qpid/jms/0.40.0/apache-qpid-jms-0.40.0-src.tar.gz"
+],
+"apache-qpid-jms-0.41.0": [
+"qpid/jms/0.41.0/apache-qpid-jms-0.41.0-src.tar.gz"
 ],
 "apache-qpid-jms-amqp-0-x-6.3.3": [
 "qpid/jms-amqp-0-x/6.3.3/apache-qpid-jms-amqp-0-x-6.3.3-src.tar.gz"
@@ -8183,14 +8201,17 @@
 "org.apache.sling.feature-1.0.0": [
 "sling/org.apache.sling.feature-1.0.0-source-release.zip"
 ],
-"org.apache.sling.feature.analyser-0.1.2": [
-"sling/org.apache.sling.feature.analyser-0.1.2-source-release.zip"
+"org.apache.sling.feature.analyser-1.0.0": [
+"sling/org.apache.sling.feature.analyser-1.0.0-source-release.zip"
 ],
 "org.apache.sling.feature.io-1.0.0": [
 "sling/org.apache.sling.feature.io-1.0.0-source-release.zip"
 ],
-"org.apache.sling.feature.modelconverter-0.1.2": [
-"sling/org.apache.sling.feature.modelconverter-0.1.2-source-release.zip"
+"org.apache.sling.feature.launcher-1.0.0": [
+"sling/org.apache.sling.feature.launcher-1.0.0-source-release.zip"
+],
+"org.apache.sling.feature.modelconverter-1.0.0": [
+"sling/org.apache.sling.feature.modelconverter-1.0.0-source-release.zip"
 ],
 "org.apache.sling.featureflags-1.2.2": [
 "sling/org.apache.sling.featureflags-1.2.2-source-release.zip"
@@ -8696,6 +8717,9 @@
 ],
 "sling-slingstart-archetype-1.0.8": [
 "sling/sling-slingstart-archetype-1.0.8-source-release.zip"
+],
+"slingfeature-maven-plugin-1.0.0": [
+"sling/slingfeature-maven-plugin-1.0.0-source-release.zip"
 ],
 "slingstart-maven-plugin-1.8.2": [
 "sling/slingstart-maven-plugin-1.8.2-source-release.zip"
