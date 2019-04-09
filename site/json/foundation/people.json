@@ -2355,7 +2355,8 @@
 },
 "andor": {
 "groups": [
-"zookeeper"
+"zookeeper",
+"zookeeper-pmc"
 ],
 "member": false,
 "name": "Andor Molnar"
@@ -24758,7 +24759,7 @@
 "hadoop",
 "hadoop-pmc"
 ],
-"member": false,
+"member": true,
 "name": "Junping Du"
 },
 "junrao": {
@@ -39087,8 +39088,7 @@
 "logging-pmc",
 "maven",
 "maven-pmc",
-"portals",
-"portals-pmc"
+"portals"
 ],
 "member": true,
 "name": "Ralph Goers"
