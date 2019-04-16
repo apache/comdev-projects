@@ -3019,7 +3019,7 @@
 },
 "camel": {
 "bug-database": "http://issues.apache.org/activemq/browse/CAMEL",
-"category": "osgi, network-server, network-client",
+"category": "osgi, network-server, network-client, integration, big-data, cloud, iot, java, library",
 "created": "2008-12-17",
 "description": "Apache Camel is a powerful open source integration library based on Enterprise Integration Patterns.\nRules for Camel's routing engine can be defined in either a Java based DSL or XML.",
 "doap": "https://gitbox.apache.org/repos/asf?p=camel.git;a=blob_plain;f=doap.rdf;hb=HEAD",
@@ -4972,6 +4972,11 @@
 "pmc": "commons",
 "programming-language": "Java",
 "release": [
+{
+"created": "2019-04-15",
+"name": "commons-lang",
+"revision": "3.9"
+},
 {
 "created": "2018-09-23",
 "name": "commons-lang",
@@ -14588,12 +14593,12 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2019-03-18",
+"created": "2019-04-13",
 "name": "Latest Stable 9.0.x Release",
-"revision": "9.0.17"
+"revision": "9.0.19"
 },
 {
-"created": "2019-03-19",
+"created": "2019-04-12",
 "name": "Latest Stable 8.5.x Release",
 "revision": "8.5.40"
 },
