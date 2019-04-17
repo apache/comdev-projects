@@ -1,4 +1,59 @@
 {
+"Unknown-openmeetings": {
+"bug-database": "https://issues.apache.org/jira/browse/OPENMEETINGS",
+"category": "network-server, network-client",
+"description": "\n      The Apache OpenMeetings provides video conferencing, instant messaging, white board, \n      collaborative document editing and other groupware tools using API functions \n      of the Red5 Streaming Server for Remoting and Streaming.\n    ",
+"doap": "http://openmeetings.apache.org/doap.rdf",
+"download-page": "https://openmeetings.apache.org/downloads.html",
+"homepage": "https://openmeetings.apache.org/",
+"license": "https://www.apache.org/licenses",
+"mailing-list": "https://openmeetings.apache.org/mailing-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:dev@openmeetings.apache.org",
+"name": "OpenMeetings PMC"
+}
+],
+"name": "Apache OpenMeetings",
+"pmc": "Unknown",
+"programming-language": "Java",
+"release": [
+{
+"created": "2019-04-02",
+"name": "Latest WebRTC 5.0.x release",
+"revision": "5.0.0-M1"
+},
+{
+"created": "2019-03-08",
+"name": "Recommended current 4.0.x release",
+"revision": "4.0.8"
+},
+{
+"created": "2017-09-14",
+"name": "Legacy 3.3.x release",
+"revision": "3.3.2"
+},
+{
+"created": "2017-06-26",
+"name": "Legacy 3.2.x release",
+"revision": "3.2.1"
+},
+{
+"created": "2017-01-29",
+"name": "Legacy 3.1.x release",
+"revision": "3.1.5"
+},
+{
+"created": "2013-12-12",
+"name": "Legacy 2.2.0 release",
+"revision": "2.2.0"
+}
+],
+"repository": [
+"https://github.com/apache/openmeetings.git"
+],
+"shortdesc": "\n      Video conferencing, instant messaging, white board and collaborative document editing application.\n    "
+},
 "accumulo": {
 "bug-database": "https://github.com/apache/accumulo/issues",
 "category": "big-data",
@@ -12284,61 +12339,6 @@
 ],
 "shortdesc": "Java Persistence API Implementation"
 },
-"openmeetings": {
-"bug-database": "https://issues.apache.org/jira/browse/OPENMEETINGS",
-"category": "network-server, network-client",
-"description": "\n      The Apache OpenMeetings provides video conferencing, instant messaging, white board, \n      collaborative document editing and other groupware tools using API functions \n      of the Red5 Streaming Server for Remoting and Streaming.\n    ",
-"doap": "http://openmeetings.apache.org/doap.rdf",
-"download-page": "http://openmeetings.apache.org/downloads.html",
-"homepage": "http://openmeetings.apache.org/",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://openmeetings.apache.org/mail-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:dev@openmeetings.apache.org",
-"name": "OpenMeetings PMC"
-}
-],
-"name": "Apache OpenMeetings",
-"pmc": "openmeetings",
-"programming-language": "Java",
-"release": [
-{
-"created": "2019-04-02",
-"name": "Latest WebRTC 5.0.x release",
-"revision": "5.0.0-M1"
-},
-{
-"created": "2019-03-08",
-"name": "Recommended current 4.0.x release",
-"revision": "4.0.8"
-},
-{
-"created": "2017-09-14",
-"name": "Legacy 3.3.x release",
-"revision": "3.3.2"
-},
-{
-"created": "2017-06-26",
-"name": "Legacy 3.2.x release",
-"revision": "3.2.1"
-},
-{
-"created": "2017-01-29",
-"name": "Legacy 3.1.x release",
-"revision": "3.1.5"
-},
-{
-"created": "2013-12-12",
-"name": "Legacy 2.2.0 release",
-"revision": "2.2.0"
-}
-],
-"repository": [
-"https://github.com/apache/openmeetings.git"
-],
-"shortdesc": "\n      Video conferencing, instant messaging, white board and collaborative document editing application.\n    "
-},
 "opennlp": {
 "bug-database": "https://issues.apache.org/jira/browse/OPENNLP",
 "category": "library",
@@ -12366,8 +12366,8 @@
 }
 ],
 "repository": [
-"http://svn.apache.org/repos/asf/opennlp",
-"https://github.com/apache/opennlp.git"
+"https://github.com/apache/opennlp.git",
+"http://svn.apache.org/repos/asf/opennlp"
 ],
 "shortdesc": "Apache OpenNLP library software is a machine learning based toolkit for the processing of natural language text.."
 },
