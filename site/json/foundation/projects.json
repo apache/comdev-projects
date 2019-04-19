@@ -1,59 +1,4 @@
 {
-"Unknown-openmeetings": {
-"bug-database": "https://issues.apache.org/jira/browse/OPENMEETINGS",
-"category": "network-server, network-client",
-"description": "\n      The Apache OpenMeetings provides video conferencing, instant messaging, white board, \n      collaborative document editing and other groupware tools using API functions \n      of the Red5 Streaming Server for Remoting and Streaming.\n    ",
-"doap": "http://openmeetings.apache.org/doap.rdf",
-"download-page": "https://openmeetings.apache.org/downloads.html",
-"homepage": "https://openmeetings.apache.org/",
-"license": "https://www.apache.org/licenses",
-"mailing-list": "https://openmeetings.apache.org/mailing-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:dev@openmeetings.apache.org",
-"name": "OpenMeetings PMC"
-}
-],
-"name": "Apache OpenMeetings",
-"pmc": "Unknown",
-"programming-language": "Java",
-"release": [
-{
-"created": "2019-04-02",
-"name": "Latest WebRTC 5.0.x release",
-"revision": "5.0.0-M1"
-},
-{
-"created": "2019-03-08",
-"name": "Recommended current 4.0.x release",
-"revision": "4.0.8"
-},
-{
-"created": "2017-09-14",
-"name": "Legacy 3.3.x release",
-"revision": "3.3.2"
-},
-{
-"created": "2017-06-26",
-"name": "Legacy 3.2.x release",
-"revision": "3.2.1"
-},
-{
-"created": "2017-01-29",
-"name": "Legacy 3.1.x release",
-"revision": "3.1.5"
-},
-{
-"created": "2013-12-12",
-"name": "Legacy 2.2.0 release",
-"revision": "2.2.0"
-}
-],
-"repository": [
-"https://github.com/apache/openmeetings.git"
-],
-"shortdesc": "\n      Video conferencing, instant messaging, white board and collaborative document editing application.\n    "
-},
 "accumulo": {
 "bug-database": "https://github.com/apache/accumulo/issues",
 "category": "big-data",
@@ -6020,7 +5965,7 @@
 "category": "database",
 "created": "2011-02-06",
 "description": "Apache Curator is a Java/JVM client library for Apache ZooKeeper, a distributed coordination service. \n    It includes a highlevel API framework and utilities to make using Apache ZooKeeper much easier and more reliable. It also \n    includes recipes for common use cases and extensions such as service discovery and a Java 8 asynchronous DSL.",
-"doap": "https://git-wip-us.apache.org/repos/asf?p=curator.git;f=doap.rdf;a=blob_plain;hb=HEAD",
+"doap": "https://gitbox.apache.org/repos/asf?p=curator.git;f=doap.rdf;a=blob_plain;hb=HEAD",
 "download-page": "http://www.apache.org/dyn/closer.cgi/curator/",
 "homepage": "http://curator.apache.org/",
 "license": "http://usefulinc.com/doap/licenses/asl20",
@@ -6029,7 +5974,7 @@
 "pmc": "curator",
 "programming-language": "Java",
 "repository": [
-"https://git-wip-us.apache.org/repos/asf/curator.git"
+"https://gitbox.apache.org/repos/asf/curator.git"
 ],
 "shortdesc": "A set of Java libraries that make using Apache ZooKeeper much easier."
 },
