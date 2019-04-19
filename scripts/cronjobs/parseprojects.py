@@ -157,16 +157,7 @@ unreportedError = False # any errors not yet mailed?
 for s in itemlist :
     url = s.childNodes[0].data
     try:
-        rdf = None
-        try:
-            rdf = urllib.request.urlopen(url, timeout=URL_TIMEOUT).read()
-        except OSError as err:
-            if isinstance(err, urllib.error.HTTPError) and err.code == 404:            
-                url = url.replace('git-wip-us.apache.org','gitbox.apache.org', 1)
-                rdf = urllib.request.urlopen(url, timeout=URL_TIMEOUT).read()
-                print("INFO: succeeded with gitbox for %s" % url)
-            else:
-                raise err
+        rdf = urllib.request.urlopen(url, timeout=URL_TIMEOUT).read()
         rdfxml = ET.fromstring(rdf)
         project = rdfxml[0]
         pjson = {
