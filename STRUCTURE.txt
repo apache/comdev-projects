@@ -63,16 +63,11 @@ crontab -l -u www-data:
 
 Note: the puppet config for the VM is stored at:
 
-https://git-wip-us.apache.org/repos/asf?p=infrastructure-puppet.git;a=blob_plain;f=data/nodes/projects-vm.apache.org.yaml
+https://gitbox.apache.org/repos/asf?p=infrastructure-puppet.git;a=blob_plain;f=data/nodes/projects-vm2.apache.org.yaml
+and
+https://gitbox.apache.org/repos/asf?p=infrastructure-puppet.git;a=tree;f=modules/projects_pvm_asf
 
 See also scripts/README.txt
-
-The HTTPD conf is defined here:
-https://svn.apache.org/repos/infra/infrastructure/trunk/machines/vms/nyx-ssl.apache.org/etc/apache2/sites-available/projects.apache.org.conf
-
-Some Puppet data is here
-https://svn.apache.org/repos/infra/infrastructure/trunk/puppet/hosts/nyx-ssl/manifests/init.pp
-
 
 Statistics (Snoot) Sources https://cwiki.apache.org/confluence/display/COMDEV/Snoot
 Updates to list of sources is done by admins with following conventions:
