@@ -1,49 +1,37 @@
-<html>
+<!doctype html>
+<html lang=''>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Apache Software Foundation Projects - Create a DOAP File</title>
-<link rel="stylesheet" type="text/css" href="/styles/style.css">
-<script type="text/javascript" src="/js/pa.js"></script><script type="text/javascript" src="/js/validate_form.js"></script>
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="styles.css">
+   <!-- these are needed for the menu bar -->
+   <script src="js/jquery.js" type="text/javascript"></script>
+   <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+   <script src="script.js"></script>
+   <title>DOAP Creation</title>
 </head>
-<body onload="getAdData()">
-<div id="headerSection">
-<a href="http://www.apache.org/"><img src="https://www.apache.org/images/asf_logo_wide.gif" alt="The Apache Software Foundation" width="537" height="51" align="left" border="0"></a><div class="topBanner" id="ad_banner"></div>
+<body>
+
+<!-- Page Title -->
+
+<div id="logo"><h1><div style="padding-top: 30px;">DOAP Creation</div></h1></div>
+
+<div id='cssmenu'>
+<ul>
+   <li><a href='.'><span>Home</span></a></li>
+   <li><a href='committees.html'><span>Committees</span></a></li>
+   <li><a href='projects.html'><span>Projects</span></a></li>
+   <li><a href='releases.html'><span>Releases</span></a></li>
+   <li class='last'><a href='timelines.html'><span>Timelines</span></a></li>
+   <li style="background: none !important"><input type="text" style="margin-top: 20px;" onkeypress="checkKeyPress(event, this);" placeholder="Search..."/></li>
+   <li style="float: right;" class='active'><a href='about.html'><span>About</span></a></li>
+   <!--li style="background: none; float: right;"><a href="edit/"><img title="Edit project data" style="vertical-align: middle; margin-top: -5px; height: 24px; width: 24px;" src="images/edit.png"/></a></li-->
+</ul>
 </div>
-<div id="bodySection"><table border="0" cellspacing="0"><tr>
-<td width="20%" class="navleft" valign="top"><ul id="leftnav">
-<li><a href="/index.html">Home</a></li>
-<li>
-<a href="/indexes.html">Indexes</a><ul>
-<li><a href="/indexes/alpha.html">Alphabetical</a></li>
-<li><a href="/indexes/quick.html">Project Listing</a></li>
-<li><a href="/indexes/releases.html">Releases</a></li>
-<li><a href="/indexes/category.html">by Category</a></li>
-<li><a href="/indexes/language.html">by Language</a></li>
-<li><a href="/indexes/pmc.html">by PMC</a></li>
-<li><a href="/indexes/standards.html">by Standard</a></li>
-</ul>
-</li>
-<li><a href="/feeds.html">Feeds</a></li>
-<li>
-<a href="/doap.html">DOAP Files</a><ul>
-<li><a href="/guidelines.html">Guidelines</a></li>
-<li>Create a DOAP File</li>
-<li><a href="/doapfaq.html">DOAP File FAQ</a></li>
-<li><a href="/categories.html">Categories</a></li>
-<li><a href="/languages.html">Programming Languages</a></li>
-<li><a href="/pmcs.html">PMC</a></li>
-</ul>
-</li>
-<li>
-<a href="/docs/index.html">Documentation</a><ul>
-<li><a href="/docs/dependancies.html">Dependencies</a></li>
-<li><a href="/docs/pmc.html">PMC Data</a></li>
-<li><a href="/docs/standards.html">Standards</a></li>
-</ul>
-</li>
-<li><a href="/references.html">References &amp; Thanks</a></li>
-</ul></td>
-<td width="80%" valign="top" class="body">
+
+<!-- CONTENT -->
+
 <h2>Create an ASF DOAP File</h2>
 <div>
 <p>To be listed on this site, your Apache project must create a DOAP
@@ -55,14 +43,14 @@ Alternatively, you can browse the existing projects for one with
 similar resources and use its DOAP file as a starting point.</p>
 <div class="section">
 <h3>
-<a name="complete"></a>Complete the form</h3>
+<a id="complete"></a>Complete the form</h3>
         
 <p>Before completing this form, you should really read the <a href="guidelines.html">guidelines</a>. The <a href="doapfaq.html">FAQ</a> page may also prove useful.</p>
 <p>Please remember that the data contained in the DOAP file is used directly on the website, so please take care when adding content.</p>
       </div>
 <div class="section">
 <h3>
-<a name="customise"></a>Customise your file</h3>
+<a id="customise"></a>Customise your file</h3>
         
 <p>The file that is created when you submit your data is only a starting point. You'll likely need to modify some aspects of it, especially adding data that the form doesn't allow you to enter. You should be able to simply copy/paste/edit the sections you need to duplicate.</p>
 <p>You may have more than one of the following sections:</p>
@@ -81,7 +69,7 @@ Similarly each "SVNRepository" must be in a separate "repository" section.</p>
       </div>
 <div class="section">
 <h3>
-<a name="validate"></a>Validate your file</h3>
+<a id="validate"></a>Validate your file</h3>
        
 <p>It is a good idea to check if your DOAP file is at least valid RDF.
 This can be accomplished using the <a href="http://www.w3.org/RDF/Validator/">W3C RDF Validator service</a>.
@@ -91,7 +79,7 @@ guidelines, it is at least a good basic sanity check. </p>
      </div>
 <div class="section">
 <h3>
-<a name="submit"></a>Submitting your file</h3>
+<a id="submit"></a>Submitting your file</h3>
         
 <p>
 Your DOAP file should be stored somewhere that is publically
@@ -108,13 +96,13 @@ Once you have decided where the file will be stored,
 you can directly edit the file to get your project listed:<br>
 <code>https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects.xml</code><br>
 For example, add one of the following entries:
+</p>
 <pre>
   &lt;location&gt;http://svn.apache.org/repos/asf/httpd/site/trunk/content/doap.rdf&lt;/location&gt;
 or
   &lt;location&gt;https://git-wip-us.apache.org/repos/asf?p=kafka.git;f=doap_Kafka.rdf;a=blob_plain;hb=HEAD&lt;/location&gt;
 </pre>
 Please keep the file in alphabetical order by TLP id (i.e. httpd, kafka in the above examples)
-</p>
 
 <p>
 Please note: the script to create the projects-old web-site currently runs every few hours.
@@ -453,13 +441,13 @@ Please note: the script to create the projects-old web-site currently runs every
 <p align="center"><input type="submit" value="Create"></p>
 </form>
 </div>
-</td>
-</tr></table></div>
-<div id="footerSection">
-<p>Copyright 1999-2016, The Apache Software Foundation</p>
-<p>Licensed under the 
-    <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>.</p>
-<p>Generated Wed, 02 Mar 2016 09:31:25 GMT</p>
+
+<!-- Footer -->
+
+<div id="footer">
+   Managed by the <a href="http://community.apache.org">Apache Community Development Project</a>.<br/>
+   Copyright&copy; 2019, the Apache Software Foundation. Licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a><br/>
+   Apache&reg; and the Apache feather logo are trademarks of The Apache Software Foundation.
 </div>
 </body>
 </html>
