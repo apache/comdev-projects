@@ -707,7 +707,7 @@
 "category": "content",
 "created": "2012-05-31",
 "description": "Apache Any23 is used in major Web of Data applications. It is written in Java and licensed under the Apache License v2.0. Apache Any23 can be used in various ways:\n* As a library in Java applications that consume structured data from the Web.\n* As a command-line tool for extracting and converting between the supported formats.\n* As online service API available at any23.org.",
-"doap": "https://git-wip-us.apache.org/repos/asf?p=any23-committers.git;a=blob_plain;f=doap_Any23.rdf;hb=HEAD",
+"doap": "https://gitbox.apache.org/repos/asf?p=any23-committers.git;a=blob_plain;f=doap_Any23.rdf;hb=HEAD",
 "download-page": "http://any23.apache.org//download.html",
 "homepage": "http://any23.apache.org",
 "implements": [
@@ -1548,7 +1548,7 @@
 "charter": "Apache MRUnit is a Java library that helps developers unit test Apache Hadoop map reduce jobs.",
 "created": "2009-01-01",
 "description": "The Apache MRUnit is a Java library that helps developers unit test Apache Hadoop map reduce jobs.",
-"doap": "https://git-wip-us.apache.org/repos/asf?p=attic-mrunit.git;f=doap_mrunit.rdf;a=blob_plain;hb=HEAD",
+"doap": "https://gitbox.apache.org/repos/asf?p=attic-mrunit.git;f=doap_mrunit.rdf;a=blob_plain;hb=HEAD",
 "download-page": "http://mrunit.apache.org/general/downloads.html",
 "homepage": "http://mrunit.apache.org",
 "license": "http://www.apache.org/licenses/LICENSE-2.0.txt",
@@ -1876,7 +1876,7 @@
 "category": "library, retired",
 "created": "2008-12-17",
 "description": "Apache Polygene is a community based effort exploring Composite Oriented Programming for domain centric application development. This includes evolved concepts from Aspect Oriented Programming, Dependency Injection and Domain Driven Design. Composite Oriented Programming allows developers to work with 'fragments', smaller than classes, and 'compose' fragments into larger 'composites' which acts like the regular objects. Polygene also tackles the enforcement of application composition, i.e. composites are declared in modules, modules are contained in layers and access between layers are controlled/enforced. Apache Polygene™ (Java Edition), first Apache Polygene sub-project, is an implementation of Composite Oriented Programming, using the standard Java platform, without the use of any pre-processors or new language elements. Everything you know from Java still applies and you can leverage both your experience and toolkits to become more productive with Composite Oriented Programming today.",
-"doap": "https://git-wip-us.apache.org/repos/asf?p=attic-polygene-java.git;f=doap.rdf;a=blob_plain;hb=develop",
+"doap": "https://gitbox.apache.org/repos/asf?p=attic-polygene-java.git;f=doap.rdf;a=blob_plain;hb=develop",
 "download-page": "https://polygene.apache.org/download.html",
 "homepage": "https://polygene.apache.org/",
 "license": "http://usefulinc.com/doap/licenses/asl20",
@@ -1975,7 +1975,7 @@
 "category": "cloud, retired",
 "created": "2014-06-09",
 "description": "Apache Stratos is a highly-extensible Platform-as-a-Service (PaaS) framework that helps run Apache Tomcat, PHP, and MySQL applications and can be extended to support many more environments on all major cloud infrastructures. For developers, Stratos provides a cloud-based environment for developing, testing, and running scalable applications. IT providers benefit from high utilization rates, automated resource management, and platform-wide insight including monitoring and billing.",
-"doap": "https://git-wip-us.apache.org/repos/asf?p=attic-stratos.git;a=blob_plain;f=doap_Stratos.rdf;hb=HEAD",
+"doap": "https://gitbox.apache.org/repos/asf?p=attic-stratos.git;a=blob_plain;f=doap_Stratos.rdf;hb=HEAD",
 "download-page": "http://stratos.apache.org/releases/index.html",
 "homepage": "http://stratos.apache.org/",
 "license": "http://spdx.org/licenses/Apache-2.0",
@@ -3288,7 +3288,7 @@
 "category": "content",
 "created": "2013-07-29",
 "description": "Apache Open Climate Workbench is an effort to develop software that performs climate model evaluation using model outputs from a variety of different sources (the Earth System Grid Federation, the Coordinated Regional Downscaling Experiment, the U.S. National Climate Assessment and the North American Regional Climate Change Assessment Program) and temporal/spatial scales with remote sensing data from NASA, NOAA and other agencies. The toolkit includes capabilities for rebinning, metrics computation and visualization.",
-"doap": "https://git-wip-us.apache.org/repos/asf?p=climate.git;f=doap_CLIMATE.rdf;a=blob_plain;hb=HEAD",
+"doap": "https://gitbox.apache.org/repos/asf?p=climate.git;f=doap_CLIMATE.rdf;a=blob_plain;hb=HEAD",
 "download-page": "http://climate.apache.org/",
 "homepage": "http://climate.apache.org",
 "license": "http://usefulinc.com/doap/licenses/asl20",
@@ -5916,7 +5916,7 @@
 "category": "big-data, library",
 "created": "2014-04-11",
 "description": "The Apache Crunch Java library provides a framework for writing, testing, and running MapReduce pipelines. Its goal is to make pipelines that are composed of many user-defined functions simple to write, easy to test, and efficient to run.\n\nRunning on top of Hadoop MapReduce and Apache Spark, the Apache Crunch™ library is a simple Java API for tasks like joining and data aggregation that are tedious to implement on plain MapReduce. The APIs are especially useful when processing data that does not fit naturally into relational model, such as time series, serialized object formats like protocol buffers or Avro records, and HBase rows and columns. For Scala users, there is the Scrunch API, which is built on top of the Java APIs and includes a REPL (read-eval-print loop) for creating MapReduce pipelines.",
-"doap": "https://git-wip-us.apache.org/repos/asf?p=crunch.git;f=doap.rdf;a=blob_plain;hb=HEAD",
+"doap": "https://gitbox.apache.org/repos/asf?p=crunch.git;f=doap.rdf;a=blob_plain;hb=HEAD",
 "download-page": "http://www.apache.org/dyn/closer.cgi/crunch",
 "homepage": "http://crunch.apache.org",
 "license": "http://usefulinc.com/doap/licenses/asl20",
@@ -6217,7 +6217,7 @@
 "category": "javaee",
 "created": "2014-04-11",
 "description": "Apache DeltaSpike is  a suite of portable CDI (Contexts & Dependency\nInjection) extensions intended to make application development easier when\nworking with CDI and Java EE.  Some of its key features include:\n\n- A core runtime that supports component configuration, type safe messaging\nand internationalization, and exception handling.\n- A suite of utilities to make programmatic bean lookup easier.\n- A plugin for Java SE to bootstrap both JBoss Weld and Apache OpenWebBeans\noutside of a container.\n- JSF integration, including backporting of JSF 2.2 features for Java EE 6.\n- JPA integration and transaction support.\n- A Data module, to create an easy to use repository pattern on top of JPA.\n- Quartz integration\n\nTesting support is also provided, to allow you to do low level unit testing\nof your CDI enabled projects.",
-"doap": "https://git-wip-us.apache.org/repos/asf?p=deltaspike.git;f=doap_DeltaSpike.rdf;a=blob_plain;hb=HEAD",
+"doap": "https://gitbox.apache.org/repos/asf?p=deltaspike.git;f=doap_DeltaSpike.rdf;a=blob_plain;hb=HEAD",
 "homepage": "http://deltaspike.apache.org",
 "license": "http://usefulinc.com/doap/licenses/asl20",
 "mailing-list": "http://deltaspike.apache.org/community.html#Mailinglists",
@@ -6588,7 +6588,7 @@
 "category": "big-data",
 "created": "2014-06-13",
 "description": "Apache Flume is a distributed, reliable, and available system for efficiently collecting, aggregating and moving large amounts of log data from many different sources to a centralized data store",
-"doap": "https://git-wip-us.apache.org/repos/asf?p=flume.git;a=blob_plain;f=doap_Flume.rdf;hb=b082429",
+"doap": "https://gitbox.apache.org/repos/asf?p=flume.git;a=blob_plain;f=doap_Flume.rdf;hb=b082429",
 "download-page": "http://flume.apache.org/download.html",
 "homepage": "http://flume.apache.org",
 "license": "http://spdx.org/licenses/Apache-2.0",
@@ -7510,7 +7510,7 @@
 "category": "big-data",
 "created": "2014-08-04",
 "description": "Apache DataFu consists of two libraries:\n\nApache DataFu Pig is a collection of useful user-defined functions for data analysis in Apache Pig.\n\nApache DataFu Hourglass is a library for incrementally processing data using Apache Hadoop MapReduce. This library was inspired by the prevelance of sliding window computations over daily tracking data. Computations such as these typically happen at regular intervals (e.g. daily, weekly), and therefore the sliding nature of the computations means that much of the work is unnecessarily repeated. DataFu's Hourglass was created to make these computations more efficient, yielding sometimes 50-95% reductions in computational resources.",
-"doap": "https://git-wip-us.apache.org/repos/asf?p=datafu.git;a=blob_plain;f=doap_DataFu.rdf;hb=HEAD",
+"doap": "https://gitbox.apache.org/repos/asf?p=datafu.git;a=blob_plain;f=doap_DataFu.rdf;hb=HEAD",
 "homepage": "http://datafu.incubator.apache.org/",
 "license": "http://spdx.org/licenses/Apache-2.0",
 "mailing-list": "http://datafu.incubator.apache.org/community/mailing-lists.html",
@@ -7595,7 +7595,7 @@
 "nick": "jleroux"
 }
 ],
-"doap": "https://git-wip-us.apache.org/repos/asf?p=freemarker-site.git;a=blob_plain;f=doap.rdf;hb=HEAD",
+"doap": "https://gitbox.apache.org/repos/asf?p=freemarker-site.git;a=blob_plain;f=doap.rdf;hb=HEAD",
 "download-page": "https://freemarker.apache.org/freemarkerdownload.html",
 "homepage": "https://freemarker.apache.org",
 "license": "https://www.apache.org/licenses/LICENSE-2.0",
@@ -8362,7 +8362,7 @@
 "category": "cloud, library",
 "created": "2014-04-11",
 "description": "Apache jclouds is an open source multi-cloud toolkit for the Java platform that gives you the freedom to create applications that are portable across clouds while giving you full control to use cloud-specific features.",
-"doap": "https://git-wip-us.apache.org/repos/asf?p=jclouds-site.git;a=blob_plain;f=doap_jclouds.rdf;hb=HEAD",
+"doap": "https://gitbox.apache.org/repos/asf?p=jclouds-site.git;a=blob_plain;f=doap_jclouds.rdf;hb=HEAD",
 "download-page": "http://jclouds.apache.org/start/install/",
 "homepage": "http://jclouds.apache.org",
 "license": "http://usefulinc.com/doap/licenses/asl20",
@@ -9082,7 +9082,7 @@
 "category": "cloud, library",
 "created": "2011-05-29",
 "description": "Apache Libcloud is a standard Python library that abstracts away differences among multiple cloud provider APIs. It allows users to manage cloud servers, cloud storage and load-balancers.",
-"doap": "https://git-wip-us.apache.org/repos/asf?p=libcloud.git;a=blob_plain;f=doap_libcloud.rdf;hb=HEAD",
+"doap": "https://gitbox.apache.org/repos/asf?p=libcloud.git;a=blob_plain;f=doap_libcloud.rdf;hb=HEAD",
 "download-page": "http://libcloud.apache.org/downloads.html",
 "homepage": "http://libcloud.apache.org",
 "license": "http://usefulinc.com/doap/licenses/asl20",
@@ -11267,7 +11267,7 @@
 "category": "database, big-data, library",
 "created": "2014-11-27",
 "description": "With MetaModel you get a uniform connector and query API to many very different datastore types, including: Relational (JDBC) databases, CSV files, Excel spreadsheets, XML files, JSON files, Fixed width files, MongoDB, Apache CouchDB, Apache HBase, Apache Cassandra, ElasticSearch, OpenOffice.org databases, Salesforce.com, SugarCRM and even collections of plain old Java objects (POJOs).\n\nMetaModel isn't a data mapping framework. Instead we emphasize abstraction of metadata and ability to add data sources at runtime, making MetaModel great for generic data processing applications, less so for applications modeled around a particular domain.",
-"doap": "https://git-wip-us.apache.org/repos/asf?p=metamodel.git;f=doap_MetaModel.rdf;a=blob_plain;hb=HEAD",
+"doap": "https://gitbox.apache.org/repos/asf?p=metamodel.git;f=doap_MetaModel.rdf;a=blob_plain;hb=HEAD",
 "download-page": "http://metamodel.apache.org/#download",
 "homepage": "http://metamodel.apache.org",
 "license": "http://spdx.org/licenses/Apache-2.0",
@@ -12283,6 +12283,61 @@
 "https://svn.apache.org/repos/asf/openjpa/"
 ],
 "shortdesc": "Java Persistence API Implementation"
+},
+"openmeetings": {
+"bug-database": "https://issues.apache.org/jira/browse/OPENMEETINGS",
+"category": "network-server, network-client",
+"description": "\n      The Apache OpenMeetings provides video conferencing, instant messaging, white board, \n      collaborative document editing and other groupware tools using API functions \n      of the Red5 Streaming Server for Remoting and Streaming.\n    ",
+"doap": "http://openmeetings.apache.org/doap.rdf",
+"download-page": "https://openmeetings.apache.org/downloads.html",
+"homepage": "https://openmeetings.apache.org/",
+"license": "https://www.apache.org/licenses",
+"mailing-list": "https://openmeetings.apache.org/mailing-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:dev@openmeetings.apache.org",
+"name": "OpenMeetings PMC"
+}
+],
+"name": "Apache OpenMeetings",
+"pmc": "openmeetings",
+"programming-language": "Java",
+"release": [
+{
+"created": "2019-04-02",
+"name": "Latest WebRTC 5.0.x release",
+"revision": "5.0.0-M1"
+},
+{
+"created": "2019-03-08",
+"name": "Recommended current 4.0.x release",
+"revision": "4.0.8"
+},
+{
+"created": "2017-09-14",
+"name": "Legacy 3.3.x release",
+"revision": "3.3.2"
+},
+{
+"created": "2017-06-26",
+"name": "Legacy 3.2.x release",
+"revision": "3.2.1"
+},
+{
+"created": "2017-01-29",
+"name": "Legacy 3.1.x release",
+"revision": "3.1.5"
+},
+{
+"created": "2013-12-12",
+"name": "Legacy 2.2.0 release",
+"revision": "2.2.0"
+}
+],
+"repository": [
+"https://github.com/apache/openmeetings.git"
+],
+"shortdesc": "\n      Video conferencing, instant messaging, white board and collaborative document editing application.\n    "
 },
 "opennlp": {
 "bug-database": "https://issues.apache.org/jira/browse/OPENNLP",
@@ -13849,7 +13904,7 @@
 "category": "big-data",
 "created": "2014-04-12",
 "description": "Apache Storm is a distributed real-time computation system. Similar to how Hadoop provides a set of general primitives for doing batch processing, Storm provides a set of general primitives for doing real-time computation.",
-"doap": "https://git-wip-us.apache.org/repos/asf?p=storm.git;a=blob_plain;f=doap_Storm.rdf;hb=HEAD",
+"doap": "https://gitbox.apache.org/repos/asf?p=storm.git;a=blob_plain;f=doap_Storm.rdf;hb=HEAD",
 "download-page": "http://storm.apache.org/downloads.html",
 "homepage": "http://storm.apache.org/",
 "license": "http://usefulinc.com/doap/licenses/asl20",
@@ -14034,7 +14089,7 @@
 "category": "big-data",
 "created": "2014-02-23",
 "description": "\n      The main goal of Apache Tajo project is to build an advanced open\n      source data warehouse system in Hadoop for processing web-scale data\n      sets. Basically, Tajo provides SQL standard as a query language.\n      Tajo is designed for both interactive and batch queries on data sets\n      stored on HDFS and other data sources. Without hurting query response\n      times, Tajo provides fault-tolerance and dynamic load balancing which\n      are necessary for long-running queries. Tajo employs a cost-based and\n      progressive query optimization techniques for reoptimizing running\n      queries in order to avoid the worst query plans.\n    ",
-"doap": "https://git-wip-us.apache.org/repos/asf?p=tajo.git;f=doap_Tajo.rdf;a=blob_plain;hb=HEAD",
+"doap": "https://gitbox.apache.org/repos/asf?p=tajo.git;f=doap_Tajo.rdf;a=blob_plain;hb=HEAD",
 "download-page": "http://tajo.apache.org/downloads.html",
 "homepage": "http://tajo.apache.org",
 "license": "http://usefulinc.com/doap/licenses/asl20",
@@ -14155,7 +14210,7 @@
 "category": "big-data",
 "created": "2014-11-21",
 "description": null,
-"doap": "https://git-wip-us.apache.org/repos/asf?p=tez.git;f=Tez_DOAP.rdf;a=blob_plain;hb=HEAD",
+"doap": "https://gitbox.apache.org/repos/asf?p=tez.git;f=Tez_DOAP.rdf;a=blob_plain;hb=HEAD",
 "download-page": "http://tez.apache.org/releases/",
 "homepage": "http://tez.apache.org",
 "license": "http://spdx.org/licenses/Apache-2.0",
@@ -14674,7 +14729,7 @@
 "category": "big-data",
 "created": "2017-12-07",
 "description": "Trafodion builds on the scalability, elasticity, and flexibility of Hadoop. Trafodion extends Hadoop to provide guaranteed transactional integrity, enabling new kinds of big data applications to run on Hadoop.",
-"doap": "https://git-wip-us.apache.org/repos/asf?p=trafodion.git;a=blob_plain;f=doap.rdf;hb=HEAD",
+"doap": "https://gitbox.apache.org/repos/asf?p=trafodion.git;a=blob_plain;f=doap.rdf;hb=HEAD",
 "download-page": "http://trafodion.apache.org/download.html",
 "homepage": "http://trafodion.apache.org",
 "license": "http://spdx.org/licenses/Apache-2.0",
@@ -15075,7 +15130,7 @@
 "category": "big-data, xml",
 "created": "2014-10-09",
 "description": "Apache VXQuery will be a standards compliant XML Query processor implemented in Java. The focus is on the evaluation of queries on large amounts of XML data. Specifically the goal is to evaluate queries on large collections of relatively small XML documents. To achieve this queries will be evaluated on a cluster of shared nothing machines.",
-"doap": "https://git-wip-us.apache.org/repos/asf?p=vxquery.git;f=doap.rdf;a=blob_plain;hb=HEAD",
+"doap": "https://gitbox.apache.org/repos/asf?p=vxquery.git;f=doap.rdf;a=blob_plain;hb=HEAD",
 "download-page": "http://www.apache.org/dyn/closer.cgi/vxquery/",
 "homepage": "http://vxquery.apache.org/",
 "implements": [
