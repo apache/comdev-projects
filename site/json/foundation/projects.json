@@ -8806,14 +8806,14 @@
 },
 "kafka": {
 "bug-database": "https://issues.apache.org/jira/browse/KAFKA",
-"category": "big-data",
+"category": "https://projects.apache.org/projects.html?category#big-data",
 "created": "2014-04-12",
 "description": "A single Kafka broker can handle hundreds of megabytes of reads and writes per second from thousands of clients. Kafka is designed to allow a single cluster to serve as the central data backbone for a large organization. It can be elastically and transparently expanded without downtime. Data streams are partitioned and spread over a cluster of machines to allow data streams larger than the capability of any single machine and to allow clusters of co-ordinated consumers. Kafka has a modern cluster-centric design that offers strong durability and fault-tolerance guarantees. Messages are persisted on disk and replicated within the cluster to prevent data loss. Each broker can handle terabytes of messages without performance impact.",
 "doap": "https://gitbox.apache.org/repos/asf?p=kafka.git;a=blob_plain;f=doap_Kafka.rdf;hb=HEAD",
-"download-page": "http://kafka.apache.org/downloads.html",
-"homepage": "http://kafka.apache.org/",
+"download-page": "https://kafka.apache.org/downloads.html",
+"homepage": "https://kafka.apache.org/",
 "license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://kafka.apache.org/contact.html",
+"mailing-list": "https://kafka.apache.org/contact.html",
 "maintainer": [
 {
 "mbox": "mailto:junrao@apache.org",
@@ -8824,7 +8824,7 @@
 "pmc": "kafka",
 "programming-language": "Scala",
 "repository": [
-"http://git-wip-us.apache.org/repos/asf/kafka.git"
+"https://gitbox.apache.org/repos/asf/kafka.git"
 ],
 "shortdesc": "Apache Kafka is a distributed, fault tolerant, publish-subscribe messaging."
 },
