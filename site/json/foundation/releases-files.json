@@ -6337,8 +6337,8 @@
 "maven/maven-3/3.6.0/source/apache-maven-3.6.0-src.zip"
 ],
 "apache-maven-3.6.1": [
-"maven/maven-3/3.6.1/sources/apache-maven-3.6.1-src.tar.gz",
-"maven/maven-3/3.6.1/sources/apache-maven-3.6.1-src.zip"
+"maven/maven-3/3.6.1/source/apache-maven-3.6.1-src.tar.gz",
+"maven/maven-3/3.6.1/source/apache-maven-3.6.1-src.zip"
 ],
 "apache-source-release-descriptor-1.0.6": [
 "maven/resources/apache-source-release-assembly-descriptor-1.0.6-source-release.zip"
@@ -6496,8 +6496,8 @@
 "maven-plugin-tools-3.6.0": [
 "maven/plugin-tools/maven-plugin-tools-3.6.0-source-release.zip"
 ],
-"maven-pmd-plugin-3.11.0": [
-"maven/plugins/maven-pmd-plugin-3.11.0-source-release.zip"
+"maven-pmd-plugin-3.12.0": [
+"maven/plugins/maven-pmd-plugin-3.12.0-source-release.zip"
 ],
 "maven-rar-plugin-2.4": [
 "maven/plugins/maven-rar-plugin-2.4-source-release.zip"
@@ -7106,8 +7106,8 @@
 "openjpa-2.4.3": [
 "openjpa/2.4.3/openjpa-parent-2.4.3-source-release.zip"
 ],
-"openjpa-3.0.0": [
-"openjpa/3.0.0/openjpa-parent-3.0.0-source-release.zip"
+"openjpa-3.1.0": [
+"openjpa/3.1.0/openjpa-parent-3.1.0-source-release.zip"
 ]
 },
 "openmeetings": {
@@ -7663,26 +7663,14 @@
 "apache-qpid-broker-j-7.1.2": [
 "qpid/broker-j/7.1.2/apache-qpid-broker-j-7.1.2-src.tar.gz"
 ],
-"apache-qpid-jms-0.40.0": [
-"qpid/jms/0.40.0/apache-qpid-jms-0.40.0-src.tar.gz"
-],
 "apache-qpid-jms-0.41.0": [
 "qpid/jms/0.41.0/apache-qpid-jms-0.41.0-src.tar.gz"
 ],
 "apache-qpid-jms-amqp-0-x-6.3.3": [
 "qpid/jms-amqp-0-x/6.3.3/apache-qpid-jms-amqp-0-x-6.3.3-src.tar.gz"
 ],
-"apache-qpid-proton-j-0.31.0": [
-"qpid/proton-j/0.31.0/apache-qpid-proton-j-0.31.0-src.tar.gz"
-],
 "apache-qpid-proton-j-0.32.0": [
 "qpid/proton-j/0.32.0/apache-qpid-proton-j-0.32.0-src.tar.gz"
-],
-"qpid-dispatch-1.5.0": [
-"qpid/dispatch/1.5.0/qpid-dispatch-1.5.0.tar.gz"
-],
-"qpid-dispatch-1.6.0": [
-"qpid/dispatch/1.6.0/qpid-dispatch-1.6.0.tar.gz"
 ],
 "qpid-dispatch-1.7.0": [
 "qpid/dispatch/1.7.0/qpid-dispatch-1.7.0.tar.gz"
@@ -7692,9 +7680,6 @@
 ],
 "qpid-java-6.1.7": [
 "qpid/java/6.1.7/qpid-java-6.1.7.tar.gz"
-],
-"qpid-proton-0.27.0": [
-"qpid/proton/0.27.0/qpid-proton-0.27.0.tar.gz"
 ],
 "qpid-proton-0.27.1": [
 "qpid/proton/0.27.1/qpid-proton-0.27.1.tar.gz"
@@ -8984,6 +8969,11 @@
 "subversion/subversion-1.11.1.tar.gz",
 "subversion/subversion-1.11.1.zip"
 ],
+"subversion-1.12.0": [
+"subversion/subversion-1.12.0.tar.bz2",
+"subversion/subversion-1.12.0.tar.gz",
+"subversion/subversion-1.12.0.zip"
+],
 "subversion-1.12.0-rc1": [
 "subversion/subversion-1.12.0-rc1.tar.bz2",
 "subversion/subversion-1.12.0-rc1.tar.gz",
@@ -9030,52 +9020,52 @@
 ]
 },
 "syncope": {
-"apache-syncope-2.0.12": [
-"syncope/2.0.12/apache-syncope-2.0.12.deb"
+"apache-syncope-2.0.13": [
+"syncope/2.0.13/apache-syncope-2.0.13.deb"
 ],
-"apache-syncope-2.1.3": [
-"syncope/2.1.3/apache-syncope-2.1.3.deb"
+"apache-syncope-2.1.4": [
+"syncope/2.1.4/apache-syncope-2.1.4.deb"
 ],
-"apache-syncope-console-2.0.12": [
-"syncope/2.0.12/apache-syncope-console-2.0.12.deb"
+"apache-syncope-console-2.0.13": [
+"syncope/2.0.13/apache-syncope-console-2.0.13.deb"
 ],
-"apache-syncope-console-2.1.3": [
-"syncope/2.1.3/apache-syncope-console-2.1.3.deb"
+"apache-syncope-console-2.1.4": [
+"syncope/2.1.4/apache-syncope-console-2.1.4.deb"
 ],
-"apache-syncope-enduser-2.0.12": [
-"syncope/2.0.12/apache-syncope-enduser-2.0.12.deb"
+"apache-syncope-enduser-2.0.13": [
+"syncope/2.0.13/apache-syncope-enduser-2.0.13.deb"
 ],
-"apache-syncope-enduser-2.1.3": [
-"syncope/2.1.3/apache-syncope-enduser-2.1.3.deb"
+"apache-syncope-enduser-2.1.4": [
+"syncope/2.1.4/apache-syncope-enduser-2.1.4.deb"
 ],
-"org.apache.syncope.ide.eclipse.site-2.0.12": [
-"syncope/2.0.12/org.apache.syncope.ide.eclipse.site-2.0.12.zip"
+"org.apache.syncope.ide.eclipse.site-2.0.13": [
+"syncope/2.0.13/org.apache.syncope.ide.eclipse.site-2.0.13.zip"
 ],
-"org.apache.syncope.ide.eclipse.site-2.1.3": [
-"syncope/2.1.3/org.apache.syncope.ide.eclipse.site-2.1.3.zip"
+"org.apache.syncope.ide.eclipse.site-2.1.4": [
+"syncope/2.1.4/org.apache.syncope.ide.eclipse.site-2.1.4.zip"
 ],
-"syncope-2.0.12": [
-"syncope/2.0.12/syncope-2.0.12-source-release.zip",
-"syncope/2.0.12/syncope-standalone-2.0.12-distribution.zip"
+"syncope-2.0.13": [
+"syncope/2.0.13/syncope-2.0.13-source-release.zip",
+"syncope/2.0.13/syncope-standalone-2.0.13-distribution.zip"
 ],
-"syncope-2.1.3": [
-"syncope/2.1.3/syncope-2.1.3-source-release.zip",
-"syncope/2.1.3/syncope-standalone-2.1.3-distribution.zip"
+"syncope-2.1.4": [
+"syncope/2.1.4/syncope-2.1.4-source-release.zip",
+"syncope/2.1.4/syncope-standalone-2.1.4-distribution.zip"
 ],
-"syncope-client-cli-2.0.12": [
-"syncope/2.0.12/syncope-client-cli-2.0.12.zip"
+"syncope-client-cli-2.0.13": [
+"syncope/2.0.13/syncope-client-cli-2.0.13.zip"
 ],
-"syncope-client-cli-2.1.3": [
-"syncope/2.1.3/syncope-client-cli-2.1.3.zip"
+"syncope-client-cli-2.1.4": [
+"syncope/2.1.4/syncope-client-cli-2.1.4.zip"
 ],
-"syncope-core-upgrade-2.1.3": [
-"syncope/2.1.3/syncope-core-upgrade-2.1.3.zip"
+"syncope-core-upgrade-2.1.4": [
+"syncope/2.1.4/syncope-core-upgrade-2.1.4.zip"
 ],
-"syncope-ide-netbeans-2.0.12.nbm": [
-"syncope/2.0.12/syncope-ide-netbeans-2.0.12.nbm"
+"syncope-ide-netbeans-2.0.13.nbm": [
+"syncope/2.0.13/syncope-ide-netbeans-2.0.13.nbm"
 ],
-"syncope-ide-netbeans-2.1.3.nbm": [
-"syncope/2.1.3/syncope-ide-netbeans-2.1.3.nbm"
+"syncope-ide-netbeans-2.1.4.nbm": [
+"syncope/2.1.4/syncope-ide-netbeans-2.1.4.nbm"
 ]
 },
 "systemml": {
