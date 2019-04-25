@@ -1917,9 +1917,9 @@
 "felix/org.apache.felix.connect-0.2.0-source-release.tar.gz",
 "felix/org.apache.felix.connect-0.2.0-source-release.zip"
 ],
-"org.apache.felix.converter-1.0.4": [
-"felix/org.apache.felix.converter-1.0.4-source-release.tar.gz",
-"felix/org.apache.felix.converter-1.0.4-source-release.zip"
+"org.apache.felix.converter-1.0.8": [
+"felix/org.apache.felix.converter-1.0.8-source-release.tar.gz",
+"felix/org.apache.felix.converter-1.0.8-source-release.zip"
 ],
 "org.apache.felix.coordinator-1.0.2": [
 "felix/org.apache.felix.coordinator-1.0.2-source-release.tar.gz",
@@ -2444,6 +2444,10 @@
 "geode/1.8.0/apache-geode-1.8.0-src.tgz",
 "geode/1.8.0/apache-geode-1.8.0.tgz"
 ],
+"apache-geode-1.9.0": [
+"geode/1.9.0/apache-geode-1.9.0-src.tgz",
+"geode/1.9.0/apache-geode-1.9.0.tgz"
+],
 "apache-geode-examples-1.4.0": [
 "geode/1.4.0/apache-geode-examples-1.4.0.tar.gz",
 "geode/1.4.0/apache-geode-examples-1.4.0.zip"
@@ -2464,8 +2468,15 @@
 "geode/1.8.0/apache-geode-examples-1.8.0.tar.gz",
 "geode/1.8.0/apache-geode-examples-1.8.0.zip"
 ],
+"apache-geode-examples-1.9.0": [
+"geode/1.9.0/apache-geode-examples-1.9.0.tar.gz",
+"geode/1.9.0/apache-geode-examples-1.9.0.zip"
+],
 "apache-geode-native-1.8.0-Source": [
 "geode/1.8.0/apache-geode-native-1.8.0-Source.tar.gz"
+],
+"apache-geode-native-1.9.0": [
+"geode/1.9.0/apache-geode-native-1.9.0-src.tar.gz"
 ]
 },
 "geronimo": {
@@ -5352,6 +5363,9 @@
 "apache-ratis-incubating-0.2.0": [
 "incubator/ratis/0.2.0/apache-ratis-incubating-0.2.0-src.tar.gz"
 ],
+"apache-ratis-incubating-0.3.0": [
+"incubator/ratis/0.3.0/apache-ratis-incubating-0.3.0-src.tar.gz"
+],
 "ratis-thirdparty-0.2.0-incubating": [
 "incubator/ratis/thirdparty/0.2.0/ratis-thirdparty-0.2.0-incubating-src.tar.gz"
 ]
@@ -7535,11 +7549,17 @@
 "pluto-3.0.1": [
 "portals/pluto/pluto-3.0.1-source-release.zip"
 ],
+"pluto-3.1.0": [
+"portals/pluto/pluto-3.1.0-source-release.zip"
+],
 "pluto-bundle-3.0.0": [
 "portals/pluto/pluto-bundle-3.0.0.zip"
 ],
 "pluto-bundle-3.0.1": [
 "portals/pluto/pluto-bundle-3.0.1.zip"
+],
+"pluto-bundle-3.1.0": [
+"portals/pluto/pluto-bundle-3.1.0.zip"
 ],
 "portals-bridges-1.0.4": [
 "portals/bridges/portals-bridges-1.0.4-src.tar.bz2",
@@ -8162,6 +8182,18 @@
 "org.apache.sling.distribution.it-0.1.2": [
 "sling/org.apache.sling.distribution.it-0.1.2-source-release.zip"
 ],
+"org.apache.sling.distribution.journal-0.1.0": [
+"sling/org.apache.sling.distribution.journal-0.1.0-source-release.zip"
+],
+"org.apache.sling.distribution.journal.it-0.1.0": [
+"sling/org.apache.sling.distribution.journal.it-0.1.0-source-release.zip"
+],
+"org.apache.sling.distribution.journal.kafka-0.1.0": [
+"sling/org.apache.sling.distribution.journal.kafka-0.1.0-source-release.zip"
+],
+"org.apache.sling.distribution.journal.messages-0.1.0": [
+"sling/org.apache.sling.distribution.journal.messages-0.1.0-source-release.zip"
+],
 "org.apache.sling.distribution.sample-0.1.6": [
 "sling/org.apache.sling.distribution.sample-0.1.6-source-release.zip"
 ],
@@ -8689,8 +8721,8 @@
 "org.apache.sling.validation.test-services-1.0.4": [
 "sling/org.apache.sling.validation.test-services-1.0.4-source-release.zip"
 ],
-"org.apache.sling.xss-2.1.6": [
-"sling/org.apache.sling.xss-2.1.6-source-release.zip"
+"org.apache.sling.xss-2.1.8": [
+"sling/org.apache.sling.xss-2.1.8-source-release.zip"
 ],
 "org.apache.sling.xss.compat-1.1.0": [
 "sling/org.apache.sling.xss.compat-1.1.0-source-release.zip"
@@ -8775,17 +8807,26 @@
 "SparkR_2.4.1": [
 "spark/spark-2.4.1/SparkR_2.4.1.tar.gz"
 ],
+"SparkR_2.4.2": [
+"spark/spark-2.4.2/SparkR_2.4.2.tar.gz"
+],
 "pyspark-2.3.3": [
 "spark/spark-2.3.3/pyspark-2.3.3.tar.gz"
 ],
 "pyspark-2.4.1": [
 "spark/spark-2.4.1/pyspark-2.4.1.tar.gz"
 ],
+"pyspark-2.4.2": [
+"spark/spark-2.4.2/pyspark-2.4.2.tar.gz"
+],
 "spark-2.3.3": [
 "spark/spark-2.3.3/spark-2.3.3.tgz"
 ],
 "spark-2.4.1": [
 "spark/spark-2.4.1/spark-2.4.1.tgz"
+],
+"spark-2.4.2": [
+"spark/spark-2.4.2/spark-2.4.2.tgz"
 ]
 },
 "sqoop": {
@@ -8973,11 +9014,6 @@
 "subversion/subversion-1.12.0.tar.bz2",
 "subversion/subversion-1.12.0.tar.gz",
 "subversion/subversion-1.12.0.zip"
-],
-"subversion-1.12.0-rc1": [
-"subversion/subversion-1.12.0-rc1.tar.bz2",
-"subversion/subversion-1.12.0-rc1.tar.gz",
-"subversion/subversion-1.12.0-rc1.zip"
 ],
 "subversion-1.9.10": [
 "subversion/subversion-1.9.10.tar.bz2",
@@ -10136,17 +10172,18 @@
 },
 "yetus": {
 "RELEASENOTES.md": [
-"yetus/0.6.0/RELEASENOTES.md",
+"yetus/0.10.0/RELEASENOTES.md",
 "yetus/0.7.0/RELEASENOTES.md",
 "yetus/0.8.0/RELEASENOTES.md",
 "yetus/0.9.0/RELEASENOTES.md"
 ],
+"apache-yetus-0.10.0": [
+"yetus/0.10.0/apache-yetus-0.10.0-site.tar.gz",
+"yetus/0.10.0/apache-yetus-0.10.0-src.tar.gz"
+],
 "apache-yetus-0.9.0": [
 "yetus/0.9.0/apache-yetus-0.9.0-site.tar.gz",
 "yetus/0.9.0/apache-yetus-0.9.0-src.tar.gz"
-],
-"yetus-0.6.0": [
-"yetus/0.6.0/yetus-0.6.0-src.tar.gz"
 ],
 "yetus-0.7.0": [
 "yetus/0.7.0/yetus-0.7.0-src.tar.gz"
