@@ -12366,8 +12366,8 @@
 }
 ],
 "repository": [
-"https://github.com/apache/opennlp.git",
-"http://svn.apache.org/repos/asf/opennlp"
+"http://svn.apache.org/repos/asf/opennlp",
+"https://github.com/apache/opennlp.git"
 ],
 "shortdesc": "Apache OpenNLP library software is a machine learning based toolkit for the processing of natural language text.."
 },
@@ -13586,6 +13586,10 @@
 "name": "Brian Demers"
 },
 {
+"mbox": "mailto:fpapon@apache.org",
+"name": "Francois Papon"
+},
+{
 "mbox": "mailto:jbunting@apache.org",
 "name": "Jared Bunting"
 },
@@ -13619,75 +13623,80 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2016-11-14",
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.4.0-RC2/shiro-root-1.4.0-RC2.pom",
+"created": "2017-05-14",
+"file-release": "http://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.4.0/shiro-root-1.4.0.pom",
 "name": "Latest stable release",
+"revision": "1.4.0"
+},
+{
+"file-release": "http://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.4.0-RC2/shiro-root-1.4.0-RC2.pom",
+"name": "Apache Shiro - 1.4.0-RC2",
 "revision": "1.4.0-RC2"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.3.2/shiro-root-1.3.2.pom",
+"file-release": "http://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.3.2/shiro-root-1.3.2.pom",
 "name": "Apache Shiro - 1.3.2",
 "revision": "1.3.2"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.3.1/shiro-root-1.3.1.pom",
+"file-release": "http://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.3.1/shiro-root-1.3.1.pom",
 "name": "Apache Shiro - 1.3.1",
 "revision": "1.3.1"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.3.0/shiro-root-1.3.0.pom",
+"file-release": "http://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.3.0/shiro-root-1.3.0.pom",
 "name": "Apache Shiro - 1.3.0",
 "revision": "1.3.0"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.2.6/shiro-root-1.2.6.pom",
+"file-release": "http://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.2.6/shiro-root-1.2.6.pom",
 "name": "Apache Shiro - 1.2.6",
 "revision": "1.2.6"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.2.5/shiro-root-1.2.5.pom",
+"file-release": "http://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.2.5/shiro-root-1.2.5.pom",
 "name": "Apache Shiro - 1.2.5",
 "revision": "1.2.5"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.2.4/shiro-root-1.2.4.pom",
+"file-release": "http://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.2.4/shiro-root-1.2.4.pom",
 "name": "Apache Shiro - 1.2.4",
 "revision": "1.2.4"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.2.3/shiro-root-1.2.3.pom",
+"file-release": "http://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.2.3/shiro-root-1.2.3.pom",
 "name": "Apache Shiro - 1.2.3",
 "revision": "1.2.3"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.2.2/shiro-root-1.2.2.pom",
+"file-release": "http://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.2.2/shiro-root-1.2.2.pom",
 "name": "Apache Shiro - 1.2.2",
 "revision": "1.2.2"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.2.1/shiro-root-1.2.1.pom",
+"file-release": "http://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.2.1/shiro-root-1.2.1.pom",
 "name": "Apache Shiro - 1.2.1",
 "revision": "1.2.1"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.2.0/shiro-root-1.2.0.pom",
+"file-release": "http://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.2.0/shiro-root-1.2.0.pom",
 "name": "Apache Shiro - 1.2.0",
 "revision": "1.2.0"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.1.0/shiro-root-1.1.0.pom",
+"file-release": "http://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.1.0/shiro-root-1.1.0.pom",
 "name": "Apache Shiro - 1.1.0",
 "revision": "1.1.0"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.0.0-incubating/shiro-root-1.0.0-incubating.pom",
+"file-release": "http://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.0.0-incubating/shiro-root-1.0.0-incubating.pom",
 "name": "Apache Shiro - 1.0.0-incubating",
 "revision": "1.0.0-incubating"
 }
 ],
 "repository": [
-"git:https://git-wip-us.apache.org/repos/asf/shiro.git",
-"git:https://git-wip-us.apache.org/repos/asf/shiro.git"
+"git:https://gitbox.apache.org/repos/asf/shiro.git",
+"git:https://gitbox.apache.org/repos/asf/shiro.git"
 ],
 "shortdesc": "A simple to use Java Security Framework.",
 "vendor": "The Apache Software Foundation"
