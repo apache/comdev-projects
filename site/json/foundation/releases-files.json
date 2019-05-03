@@ -1337,6 +1337,10 @@
 "commons/fileupload/source/commons-fileupload-1.4-src.tar.gz",
 "commons/fileupload/source/commons-fileupload-1.4-src.zip"
 ],
+"commons-imaging-1.0-alpha1": [
+"commons/imaging/source/commons-imaging-1.0-alpha1-src.tar.gz",
+"commons/imaging/source/commons-imaging-1.0-alpha1-src.zip"
+],
 "commons-io-2.5": [
 "commons/io/source/commons-io-2.5-src.tar.gz",
 "commons/io/source/commons-io-2.5-src.zip"
@@ -1956,9 +1960,9 @@
 "felix/org.apache.felix.framework-5.6.12-source-release.tar.gz",
 "felix/org.apache.felix.framework-5.6.12-source-release.zip"
 ],
-"org.apache.felix.framework-6.0.2": [
-"felix/org.apache.felix.framework-6.0.2-source-release.tar.gz",
-"felix/org.apache.felix.framework-6.0.2-source-release.zip"
+"org.apache.felix.framework-6.0.3": [
+"felix/org.apache.felix.framework-6.0.3-source-release.tar.gz",
+"felix/org.apache.felix.framework-6.0.3-source-release.zip"
 ],
 "org.apache.felix.framework.security-2.6.1": [
 "felix/org.apache.felix.framework.security-2.6.1-source-release.tar.gz",
@@ -2135,15 +2139,15 @@
 "felix/org.apache.felix.logback-1.0.2-source-release.tar.gz",
 "felix/org.apache.felix.logback-1.0.2-source-release.zip"
 ],
-"org.apache.felix.main-6.0.2": [
-"felix/org.apache.felix.main-6.0.2-source-release.tar.gz",
-"felix/org.apache.felix.main-6.0.2-source-release.zip"
+"org.apache.felix.main-6.0.3": [
+"felix/org.apache.felix.main-6.0.3-source-release.tar.gz",
+"felix/org.apache.felix.main-6.0.3-source-release.zip"
 ],
-"org.apache.felix.main.distribution-6.0.2": [
-"felix/org.apache.felix.main.distribution-6.0.2-source-release.tar.gz",
-"felix/org.apache.felix.main.distribution-6.0.2-source-release.zip",
-"felix/org.apache.felix.main.distribution-6.0.2.tar.gz",
-"felix/org.apache.felix.main.distribution-6.0.2.zip"
+"org.apache.felix.main.distribution-6.0.3": [
+"felix/org.apache.felix.main.distribution-6.0.3-source-release.tar.gz",
+"felix/org.apache.felix.main.distribution-6.0.3-source-release.zip",
+"felix/org.apache.felix.main.distribution-6.0.3.tar.gz",
+"felix/org.apache.felix.main.distribution-6.0.3.zip"
 ],
 "org.apache.felix.metatype-1.2.2": [
 "felix/org.apache.felix.metatype-1.2.2-source-release.tar.gz",
@@ -5507,6 +5511,9 @@
 ],
 "apache-zipkin-brave-karaf-incubating-0.1.2": [
 "incubator/zipkin/brave-karaf/0.1.2/apache-zipkin-brave-karaf-incubating-0.1.2-source-release.zip"
+],
+"apache-zipkin-layout-factory-incubating-0.0.5": [
+"incubator/zipkin/zipkin-layout-factory/0.0.5/apache-zipkin-layout-factory-incubating-0.0.5-source-release.zip"
 ]
 },
 "isis": {
@@ -6204,6 +6211,12 @@
 "manifoldcf/apache-manifoldcf-2.12/apache-manifoldcf-2.12-src.tar.gz",
 "manifoldcf/apache-manifoldcf-2.12/apache-manifoldcf-2.12-src.zip"
 ],
+"apache-manifoldcf-2.13": [
+"manifoldcf/apache-manifoldcf-2.13/apache-manifoldcf-2.13-lib.tar.gz",
+"manifoldcf/apache-manifoldcf-2.13/apache-manifoldcf-2.13-lib.zip",
+"manifoldcf/apache-manifoldcf-2.13/apache-manifoldcf-2.13-src.tar.gz",
+"manifoldcf/apache-manifoldcf-2.13/apache-manifoldcf-2.13-src.zip"
+],
 "apache-manifoldcf-elasticsearch-1.5-plugin-2.0.2": [
 "manifoldcf/apache-manifoldcf-elasticsearch-1.5-plugin-2.0.2/apache-manifoldcf-elasticsearch-1.5-plugin-2.0.2-src.tar.gz",
 "manifoldcf/apache-manifoldcf-elasticsearch-1.5-plugin-2.0.2/apache-manifoldcf-elasticsearch-1.5-plugin-2.0.2-src.zip"
@@ -6356,8 +6369,8 @@
 "maven-common-artifact-filters-3.1.0": [
 "maven/shared/maven-common-artifact-filters-3.1.0-source-release.zip"
 ],
-"maven-compiler-plugin-3.8.0": [
-"maven/plugins/maven-compiler-plugin-3.8.0-source-release.zip"
+"maven-compiler-plugin-3.8.1": [
+"maven/plugins/maven-compiler-plugin-3.8.1-source-release.zip"
 ],
 "maven-default-skin-1.2": [
 "maven/skins/maven-default-skin-1.2-source-release.zip"
@@ -6567,6 +6580,9 @@
 ],
 "mesos-1.7.2": [
 "mesos/1.7.2/mesos-1.7.2.tar.gz"
+],
+"mesos-1.8.0": [
+"mesos/1.8.0/mesos-1.8.0.tar.gz"
 ]
 },
 "metamodel": {
@@ -8324,8 +8340,8 @@
 "org.apache.sling.jcr.registration-1.0.6": [
 "sling/org.apache.sling.jcr.registration-1.0.6-source-release.zip"
 ],
-"org.apache.sling.jcr.repoinit-1.1.8": [
-"sling/org.apache.sling.jcr.repoinit-1.1.8-source-release.zip"
+"org.apache.sling.jcr.repoinit-1.1.10": [
+"sling/org.apache.sling.jcr.repoinit-1.1.10-source-release.zip"
 ],
 "org.apache.sling.jcr.resource-3.0.18": [
 "sling/org.apache.sling.jcr.resource-3.0.18-source-release.zip"
@@ -8435,8 +8451,8 @@
 "org.apache.sling.query-4.0.2": [
 "sling/org.apache.sling.query-4.0.2-source-release.zip"
 ],
-"org.apache.sling.repoinit.parser-1.2.2": [
-"sling/org.apache.sling.repoinit.parser-1.2.2-source-release.zip"
+"org.apache.sling.repoinit.parser-1.2.4": [
+"sling/org.apache.sling.repoinit.parser-1.2.4-source-release.zip"
 ],
 "org.apache.sling.resource.filter-1.0.0": [
 "sling/org.apache.sling.resource.filter-1.0.0-source-release.zip"
@@ -8519,8 +8535,8 @@
 "org.apache.sling.security-1.1.16": [
 "sling/org.apache.sling.security-1.1.16-source-release.zip"
 ],
-"org.apache.sling.serviceuser.webconsole-1.0.0": [
-"sling/org.apache.sling.serviceuser.webconsole-1.0.0-source-release.zip"
+"org.apache.sling.serviceuser.webconsole-1.0.2": [
+"sling/org.apache.sling.serviceuser.webconsole-1.0.2-source-release.zip"
 ],
 "org.apache.sling.serviceusermapper-1.4.4": [
 "sling/org.apache.sling.serviceusermapper-1.4.4-source-release.zip"
