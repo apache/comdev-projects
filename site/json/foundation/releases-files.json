@@ -63,26 +63,6 @@
 "activemq/activemq-cpp/3.9.5/activemq-cpp-library-3.9.5-src.tar.gz",
 "activemq/activemq-cpp/3.9.5/activemq-cpp-library-3.9.5-src.zip"
 ],
-"apache-artemis-1.5.6": [
-"activemq/activemq-artemis/1.5.6/apache-artemis-1.5.6-source-release.tar.gz",
-"activemq/activemq-artemis/1.5.6/apache-artemis-1.5.6-source-release.zip"
-],
-"apache-artemis-2.6.1": [
-"activemq/activemq-artemis/2.6.1/apache-artemis-2.6.1-source-release.tar.gz",
-"activemq/activemq-artemis/2.6.1/apache-artemis-2.6.1-source-release.zip"
-],
-"apache-artemis-2.6.2": [
-"activemq/activemq-artemis/2.6.2/apache-artemis-2.6.2-source-release.tar.gz",
-"activemq/activemq-artemis/2.6.2/apache-artemis-2.6.2-source-release.zip"
-],
-"apache-artemis-2.6.3": [
-"activemq/activemq-artemis/2.6.3/apache-artemis-2.6.3-source-release.tar.gz",
-"activemq/activemq-artemis/2.6.3/apache-artemis-2.6.3-source-release.zip"
-],
-"apache-artemis-2.6.4": [
-"activemq/activemq-artemis/2.6.4/apache-artemis-2.6.4-source-release.tar.gz",
-"activemq/activemq-artemis/2.6.4/apache-artemis-2.6.4-source-release.zip"
-],
 "apache-artemis-2.7.0": [
 "activemq/activemq-artemis/2.7.0/apache-artemis-2.7.0-source-release.tar.gz",
 "activemq/activemq-artemis/2.7.0/apache-artemis-2.7.0-source-release.zip"
@@ -90,10 +70,6 @@
 "apache-artemis-2.8.0": [
 "activemq/activemq-artemis/2.8.0/apache-artemis-2.8.0-source-release.tar.gz",
 "activemq/activemq-artemis/2.8.0/apache-artemis-2.8.0-source-release.zip"
-],
-"apollo-1.7.1": [
-"activemq/activemq-apollo/1.7.1/apollo-project-1.7.1-source-release.tar.gz",
-"activemq/activemq-apollo/1.7.1/apollo-project-1.7.1-source-release.zip"
 ]
 },
 "airavata": {
@@ -2527,23 +2503,23 @@
 ]
 },
 "groovy": {
-"apache-groovy-2.4.16": [
-"groovy/2.4.16/sources/apache-groovy-src-2.4.16.zip"
+"apache-groovy-2.4.17": [
+"groovy/2.4.17/sources/apache-groovy-src-2.4.17.zip"
 ],
-"apache-groovy-2.5.6": [
-"groovy/2.5.6/sources/apache-groovy-src-2.5.6.zip"
+"apache-groovy-2.5.7": [
+"groovy/2.5.7/sources/apache-groovy-src-2.5.7.zip"
 ],
-"apache-groovy-3.0.0-alpha-4": [
-"groovy/3.0.0-alpha-4/sources/apache-groovy-src-3.0.0-alpha-4.zip"
+"apache-groovy-3.0.0-beta-1": [
+"groovy/3.0.0-beta-1/sources/apache-groovy-src-3.0.0-beta-1.zip"
 ],
-"apache-groovy-sdk-2.4.16": [
-"groovy/2.4.16/distribution/apache-groovy-sdk-2.4.16.zip"
+"apache-groovy-sdk-2.4.17": [
+"groovy/2.4.17/distribution/apache-groovy-sdk-2.4.17.zip"
 ],
-"apache-groovy-sdk-2.5.6": [
-"groovy/2.5.6/distribution/apache-groovy-sdk-2.5.6.zip"
+"apache-groovy-sdk-2.5.7": [
+"groovy/2.5.7/distribution/apache-groovy-sdk-2.5.7.zip"
 ],
-"apache-groovy-sdk-3.0.0-alpha-4": [
-"groovy/3.0.0-alpha-4/distribution/apache-groovy-sdk-3.0.0-alpha-4.zip"
+"apache-groovy-sdk-3.0.0-beta-1": [
+"groovy/3.0.0-beta-1/distribution/apache-groovy-sdk-3.0.0-beta-1.zip"
 ]
 },
 "guacamole": {
@@ -2656,6 +2632,10 @@
 "hadoop-ozone-0.3.0-alpha": [
 "hadoop/ozone/ozone-0.3.0-alpha/hadoop-ozone-0.3.0-alpha-src.tar.gz",
 "hadoop/ozone/ozone-0.3.0-alpha/hadoop-ozone-0.3.0-alpha.tar.gz"
+],
+"hadoop-ozone-0.4.0-alpha": [
+"hadoop/ozone/ozone-0.4.0-alpha/hadoop-ozone-0.4.0-alpha-src.tar.gz",
+"hadoop/ozone/ozone-0.4.0-alpha/hadoop-ozone-0.4.0-alpha.tar.gz"
 ]
 },
 "hama": {
@@ -5245,6 +5225,9 @@
 ],
 "apache-omid-incubating-1.0.0": [
 "incubator/omid/omid-incubating-1.0.0/apache-omid-incubating-1.0.0-src.tar.gz"
+],
+"apache-omid-incubating-1.0.1": [
+"incubator/omid/omid-incubating-1.0.1/apache-omid-incubating-1.0.1-src.tar.gz"
 ]
 },
 "incubator-openwhisk": {
@@ -7648,6 +7631,9 @@
 "apache-qpid-jms-0.41.0": [
 "qpid/jms/0.41.0/apache-qpid-jms-0.41.0-src.tar.gz"
 ],
+"apache-qpid-jms-0.42.0": [
+"qpid/jms/0.42.0/apache-qpid-jms-0.42.0-src.tar.gz"
+],
 "apache-qpid-jms-amqp-0-x-6.3.3": [
 "qpid/jms-amqp-0-x/6.3.3/apache-qpid-jms-amqp-0-x-6.3.3-src.tar.gz"
 ],
@@ -7668,6 +7654,9 @@
 ],
 "qpid-proton-0.27.1": [
 "qpid/proton/0.27.1/qpid-proton-0.27.1.tar.gz"
+],
+"qpid-proton-0.28.0": [
+"qpid/proton/0.28.0/qpid-proton-0.28.0.tar.gz"
 ],
 "qpid-python-1.37.0": [
 "qpid/python/1.37.0/qpid-python-1.37.0.tar.gz"
@@ -8709,8 +8698,8 @@
 "sling/sling-6-source-release.tar.gz",
 "sling/sling-6-source-release.zip"
 ],
-"sling-archetype-1.0.0": [
-"sling/sling-project-archetype-1.0.0-source-release.zip"
+"sling-archetype-1.0.2": [
+"sling/sling-project-archetype-1.0.2-source-release.zip"
 ],
 "sling-archetype-5": [
 "sling/sling-archetype-parent-5-source-release.zip"
