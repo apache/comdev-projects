@@ -488,6 +488,9 @@
 ],
 "apache-atlas-1.1.0": [
 "atlas/1.1.0/apache-atlas-1.1.0-sources.tar.gz"
+],
+"apache-atlas-2.0.0": [
+"atlas/2.0.0/apache-atlas-2.0.0-sources.tar.gz"
 ]
 },
 "aurora": {
@@ -910,11 +913,11 @@
 "cayenne/4.0.1/cayenne-4.0.1-win.zip",
 "cayenne/4.0.1/cayenne-4.0.1.tar.gz"
 ],
-"cayenne-4.1.B1": [
-"cayenne/4.1.B1/cayenne-4.1.B1-macosx.dmg",
-"cayenne/4.1.B1/cayenne-4.1.B1-src.tar.gz",
-"cayenne/4.1.B1/cayenne-4.1.B1-win.zip",
-"cayenne/4.1.B1/cayenne-4.1.B1.tar.gz"
+"cayenne-4.1.B2": [
+"cayenne/4.1.B2/cayenne-4.1.B2-macosx.dmg",
+"cayenne/4.1.B2/cayenne-4.1.B2-src.tar.gz",
+"cayenne/4.1.B2/cayenne-4.1.B2-win.zip",
+"cayenne/4.1.B2/cayenne-4.1.B2.tar.gz"
 ]
 },
 "celix": {
@@ -1658,29 +1661,11 @@
 "cxf/3.0.16/apache-cxf-3.0.16.tar.gz",
 "cxf/3.0.16/apache-cxf-3.0.16.zip"
 ],
-"apache-cxf-3.1.17": [
-"cxf/3.1.17/apache-cxf-3.1.17-src.tar.gz",
-"cxf/3.1.17/apache-cxf-3.1.17-src.zip",
-"cxf/3.1.17/apache-cxf-3.1.17.tar.gz",
-"cxf/3.1.17/apache-cxf-3.1.17.zip"
-],
 "apache-cxf-3.1.18": [
 "cxf/3.1.18/apache-cxf-3.1.18-src.tar.gz",
 "cxf/3.1.18/apache-cxf-3.1.18-src.zip",
 "cxf/3.1.18/apache-cxf-3.1.18.tar.gz",
 "cxf/3.1.18/apache-cxf-3.1.18.zip"
-],
-"apache-cxf-3.2.6": [
-"cxf/3.2.6/apache-cxf-3.2.6-src.tar.gz",
-"cxf/3.2.6/apache-cxf-3.2.6-src.zip",
-"cxf/3.2.6/apache-cxf-3.2.6.tar.gz",
-"cxf/3.2.6/apache-cxf-3.2.6.zip"
-],
-"apache-cxf-3.2.7": [
-"cxf/3.2.7/apache-cxf-3.2.7-src.tar.gz",
-"cxf/3.2.7/apache-cxf-3.2.7-src.zip",
-"cxf/3.2.7/apache-cxf-3.2.7.tar.gz",
-"cxf/3.2.7/apache-cxf-3.2.7.zip"
 ],
 "apache-cxf-3.2.8": [
 "cxf/3.2.8/apache-cxf-3.2.8-src.tar.gz",
@@ -1688,17 +1673,23 @@
 "cxf/3.2.8/apache-cxf-3.2.8.tar.gz",
 "cxf/3.2.8/apache-cxf-3.2.8.zip"
 ],
-"apache-cxf-3.3.0": [
-"cxf/3.3.0/apache-cxf-3.3.0-src.tar.gz",
-"cxf/3.3.0/apache-cxf-3.3.0-src.zip",
-"cxf/3.3.0/apache-cxf-3.3.0.tar.gz",
-"cxf/3.3.0/apache-cxf-3.3.0.zip"
+"apache-cxf-3.2.9": [
+"cxf/3.2.9/apache-cxf-3.2.9-src.tar.gz",
+"cxf/3.2.9/apache-cxf-3.2.9-src.zip",
+"cxf/3.2.9/apache-cxf-3.2.9.tar.gz",
+"cxf/3.2.9/apache-cxf-3.2.9.zip"
 ],
 "apache-cxf-3.3.1": [
 "cxf/3.3.1/apache-cxf-3.3.1-src.tar.gz",
 "cxf/3.3.1/apache-cxf-3.3.1-src.zip",
 "cxf/3.3.1/apache-cxf-3.3.1.tar.gz",
 "cxf/3.3.1/apache-cxf-3.3.1.zip"
+],
+"apache-cxf-3.3.2": [
+"cxf/3.3.2/apache-cxf-3.3.2-src.tar.gz",
+"cxf/3.3.2/apache-cxf-3.3.2-src.zip",
+"cxf/3.3.2/apache-cxf-3.3.2.tar.gz",
+"cxf/3.3.2/apache-cxf-3.3.2.zip"
 ],
 "cxf-dosgi-main-2.3.0": [
 "cxf/dosgi/2.3.0/cxf-dosgi-main-2.3.0-source-release.zip"
@@ -5272,20 +5263,47 @@
 "openwhisk-runtime-docker-1.12.0-incubating": [
 "incubator/openwhisk/openwhisk-runtime-docker-1.12.0-incubating-sources.tar.gz"
 ],
+"openwhisk-runtime-docker-1.13.0-incubating": [
+"incubator/openwhisk/openwhisk-runtime-docker-1.13.0-incubating-sources.tar.gz"
+],
+"openwhisk-runtime-dotnet-1.13.0-incubating": [
+"incubator/openwhisk/openwhisk-runtime-dotnet-1.13.0-incubating-sources.tar.gz"
+],
+"openwhisk-runtime-go-1.13.0-incubating": [
+"incubator/openwhisk/openwhisk-runtime-go-1.13.0-incubating-sources.tar.gz"
+],
 "openwhisk-runtime-java-1.12.0-incubating": [
 "incubator/openwhisk/openwhisk-runtime-java-1.12.0-incubating-sources.tar.gz"
+],
+"openwhisk-runtime-java-1.13.0-incubating": [
+"incubator/openwhisk/openwhisk-runtime-java-1.13.0-incubating-sources.tar.gz"
 ],
 "openwhisk-runtime-nodejs-1.12.0-incubating": [
 "incubator/openwhisk/openwhisk-runtime-nodejs-1.12.0-incubating-sources.tar.gz"
 ],
+"openwhisk-runtime-nodejs-1.13.0-incubating": [
+"incubator/openwhisk/openwhisk-runtime-nodejs-1.13.0-incubating-sources.tar.gz"
+],
 "openwhisk-runtime-php-1.12.0-incubating": [
 "incubator/openwhisk/openwhisk-runtime-php-1.12.0-incubating-sources.tar.gz"
+],
+"openwhisk-runtime-php-1.13.0-incubating": [
+"incubator/openwhisk/openwhisk-runtime-php-1.13.0-incubating-sources.tar.gz"
 ],
 "openwhisk-runtime-python-1.12.0-incubating": [
 "incubator/openwhisk/openwhisk-runtime-python-1.12.0-incubating-sources.tar.gz"
 ],
+"openwhisk-runtime-python-1.13.0-incubating": [
+"incubator/openwhisk/openwhisk-runtime-python-1.13.0-incubating-sources.tar.gz"
+],
+"openwhisk-runtime-ruby-1.13.0-incubating": [
+"incubator/openwhisk/openwhisk-runtime-ruby-1.13.0-incubating-sources.tar.gz"
+],
 "openwhisk-runtime-swift-1.12.0-incubating": [
 "incubator/openwhisk/openwhisk-runtime-swift-1.12.0-incubating-sources.tar.gz"
+],
+"openwhisk-runtime-swift-1.13.0-incubating": [
+"incubator/openwhisk/openwhisk-runtime-swift-1.13.0-incubating-sources.tar.gz"
 ],
 "openwhisk-wskdeploy-0.10.0-incubating": [
 "incubator/openwhisk/openwhisk-wskdeploy-0.10.0-incubating-sources.tar.gz"
@@ -6096,6 +6114,11 @@
 "lucene/java/8.0.0/lucene-8.0.0.tgz",
 "lucene/java/8.0.0/lucene-8.0.0.zip"
 ],
+"lucene-8.1.0": [
+"lucene/java/8.1.0/lucene-8.1.0-src.tgz",
+"lucene/java/8.1.0/lucene-8.1.0.tgz",
+"lucene/java/8.1.0/lucene-8.1.0.zip"
+],
 "pylucene-2.9.4-1": [
 "lucene/pylucene/pylucene-2.9.4-1-src.tar.gz"
 ],
@@ -6139,6 +6162,11 @@
 "lucene/solr/8.0.0/solr-8.0.0-src.tgz",
 "lucene/solr/8.0.0/solr-8.0.0.tgz",
 "lucene/solr/8.0.0/solr-8.0.0.zip"
+],
+"solr-8.1.0": [
+"lucene/solr/8.1.0/solr-8.1.0-src.tgz",
+"lucene/solr/8.1.0/solr-8.1.0.tgz",
+"lucene/solr/8.1.0/solr-8.1.0.zip"
 ]
 },
 "lucenenet": {
@@ -6953,8 +6981,8 @@
 "nifi-minifi-cpp-jni-0.6.0.msi": [
 "nifi/nifi-minifi-cpp/0.6.0/nifi-minifi-cpp-jni-0.6.0.msi"
 ],
-"nifi-nar-maven-plugin-1.3.0": [
-"nifi/nifi-nar-maven-plugin-1.3.0/nifi-nar-maven-plugin-1.3.0-source-release.zip"
+"nifi-nar-maven-plugin-1.3.1": [
+"nifi/nifi-nar-maven-plugin-1.3.1/nifi-nar-maven-plugin-1.3.1-source-release.zip"
 ],
 "nifi-registry-0.3.0": [
 "nifi/nifi-registry/nifi-registry-0.3.0/nifi-registry-0.3.0-source-release.zip"
@@ -7632,6 +7660,9 @@
 ],
 "apache-qpid-broker-j-7.1.2": [
 "qpid/broker-j/7.1.2/apache-qpid-broker-j-7.1.2-src.tar.gz"
+],
+"apache-qpid-broker-j-7.1.3": [
+"qpid/broker-j/7.1.3/apache-qpid-broker-j-7.1.3-src.tar.gz"
 ],
 "apache-qpid-jms-0.41.0": [
 "qpid/jms/0.41.0/apache-qpid-jms-0.41.0-src.tar.gz"
@@ -9289,18 +9320,18 @@
 "tomcat/tomcat-8/v8.5.40/src/apache-tomcat-8.5.40-src.tar.gz",
 "tomcat/tomcat-8/v8.5.40/src/apache-tomcat-8.5.40-src.zip"
 ],
-"apache-tomcat-9.0.17": [
-"tomcat/tomcat-9/v9.0.17/bin/embed/apache-tomcat-9.0.17-embed.tar.gz",
-"tomcat/tomcat-9/v9.0.17/bin/embed/apache-tomcat-9.0.17-embed.zip",
-"tomcat/tomcat-9/v9.0.17/bin/apache-tomcat-9.0.17-deployer.tar.gz",
-"tomcat/tomcat-9/v9.0.17/bin/apache-tomcat-9.0.17-deployer.zip",
-"tomcat/tomcat-9/v9.0.17/bin/apache-tomcat-9.0.17-fulldocs.tar.gz",
-"tomcat/tomcat-9/v9.0.17/bin/apache-tomcat-9.0.17-windows-x64.zip",
-"tomcat/tomcat-9/v9.0.17/bin/apache-tomcat-9.0.17.exe",
-"tomcat/tomcat-9/v9.0.17/bin/apache-tomcat-9.0.17.tar.gz",
-"tomcat/tomcat-9/v9.0.17/bin/apache-tomcat-9.0.17.zip",
-"tomcat/tomcat-9/v9.0.17/src/apache-tomcat-9.0.17-src.tar.gz",
-"tomcat/tomcat-9/v9.0.17/src/apache-tomcat-9.0.17-src.zip"
+"apache-tomcat-8.5.41": [
+"tomcat/tomcat-8/v8.5.41/bin/embed/apache-tomcat-8.5.41-embed.tar.gz",
+"tomcat/tomcat-8/v8.5.41/bin/embed/apache-tomcat-8.5.41-embed.zip",
+"tomcat/tomcat-8/v8.5.41/bin/apache-tomcat-8.5.41-deployer.tar.gz",
+"tomcat/tomcat-8/v8.5.41/bin/apache-tomcat-8.5.41-deployer.zip",
+"tomcat/tomcat-8/v8.5.41/bin/apache-tomcat-8.5.41-fulldocs.tar.gz",
+"tomcat/tomcat-8/v8.5.41/bin/apache-tomcat-8.5.41-windows-x64.zip",
+"tomcat/tomcat-8/v8.5.41/bin/apache-tomcat-8.5.41.exe",
+"tomcat/tomcat-8/v8.5.41/bin/apache-tomcat-8.5.41.tar.gz",
+"tomcat/tomcat-8/v8.5.41/bin/apache-tomcat-8.5.41.zip",
+"tomcat/tomcat-8/v8.5.41/src/apache-tomcat-8.5.41-src.tar.gz",
+"tomcat/tomcat-8/v8.5.41/src/apache-tomcat-8.5.41-src.zip"
 ],
 "apache-tomcat-9.0.19": [
 "tomcat/tomcat-9/v9.0.19/bin/embed/apache-tomcat-9.0.19-embed.tar.gz",
@@ -9314,6 +9345,19 @@
 "tomcat/tomcat-9/v9.0.19/bin/apache-tomcat-9.0.19.zip",
 "tomcat/tomcat-9/v9.0.19/src/apache-tomcat-9.0.19-src.tar.gz",
 "tomcat/tomcat-9/v9.0.19/src/apache-tomcat-9.0.19-src.zip"
+],
+"apache-tomcat-9.0.20": [
+"tomcat/tomcat-9/v9.0.20/bin/embed/apache-tomcat-9.0.20-embed.tar.gz",
+"tomcat/tomcat-9/v9.0.20/bin/embed/apache-tomcat-9.0.20-embed.zip",
+"tomcat/tomcat-9/v9.0.20/bin/apache-tomcat-9.0.20-deployer.tar.gz",
+"tomcat/tomcat-9/v9.0.20/bin/apache-tomcat-9.0.20-deployer.zip",
+"tomcat/tomcat-9/v9.0.20/bin/apache-tomcat-9.0.20-fulldocs.tar.gz",
+"tomcat/tomcat-9/v9.0.20/bin/apache-tomcat-9.0.20-windows-x64.zip",
+"tomcat/tomcat-9/v9.0.20/bin/apache-tomcat-9.0.20.exe",
+"tomcat/tomcat-9/v9.0.20/bin/apache-tomcat-9.0.20.tar.gz",
+"tomcat/tomcat-9/v9.0.20/bin/apache-tomcat-9.0.20.zip",
+"tomcat/tomcat-9/v9.0.20/src/apache-tomcat-9.0.20-src.tar.gz",
+"tomcat/tomcat-9/v9.0.20/src/apache-tomcat-9.0.20-src.zip"
 ],
 "taglibs-standard-1.2.5": [
 "tomcat/taglibs/taglibs-standard-1.2.5/taglibs-standard-1.2.5-source-release.zip"
