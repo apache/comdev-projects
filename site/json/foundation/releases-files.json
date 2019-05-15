@@ -541,11 +541,17 @@
 "Avro-1.8.2": [
 "avro/avro-1.8.2/perl/Avro-1.8.2.tar.gz"
 ],
+"Avro-1.9.0": [
+"avro/avro-1.9.0/perl/Avro-1.9.0.tar.gz"
+],
 "avro-1.7.7": [
 "avro/avro-1.7.7/avro-src-1.7.7.tar.gz"
 ],
 "avro-1.8.2": [
 "avro/avro-1.8.2/avro-src-1.8.2.tar.gz"
+],
+"avro-1.9.0": [
+"avro/avro-1.9.0/avro-src-1.9.0.tar.gz"
 ],
 "avro-c-1.7.7": [
 "avro/avro-1.7.7/c/avro-c-1.7.7.tar.gz"
@@ -553,14 +559,23 @@
 "avro-c-1.8.2": [
 "avro/avro-1.8.2/c/avro-c-1.8.2.tar.gz"
 ],
+"avro-c-1.9.0": [
+"avro/avro-1.9.0/c/avro-c-1.9.0.tar.gz"
+],
 "avro-csharp-1.7.7": [
 "avro/avro-1.7.7/avro-csharp-1.7.7.tar.gz"
 ],
 "avro-csharp-1.8.2": [
 "avro/avro-1.8.2/csharp/avro-csharp-1.8.2.tar.gz"
 ],
+"avro-csharp-1.9.0": [
+"avro/avro-1.9.0/csharp/avro-csharp-1.9.0.tar.gz"
+],
 "avro-js-1.8.2": [
 "avro/avro-1.8.2/js/avro-js-1.8.2.tgz"
+],
+"avro-js-1.9.0": [
+"avro/avro-1.9.0/js/avro-js-1.9.0.tgz"
 ]
 },
 "axis": {
@@ -2720,9 +2735,8 @@
 "apache-hive-1.2.2": [
 "hive/hive-1.2.2/apache-hive-1.2.2-src.tar.gz"
 ],
-"apache-hive-2.3.4": [
-"hive/hive-2.3.4/apache-hive-2.3.4-src.tar.gz",
-"hive/stable-2/apache-hive-2.3.4-src.tar.gz"
+"apache-hive-2.3.5": [
+"hive/hive-2.3.5/apache-hive-2.3.5-src.tar.gz"
 ],
 "apache-hive-3.1.1": [
 "hive/hive-3.1.1/apache-hive-3.1.1-src.tar.gz"
@@ -2981,6 +2995,9 @@
 ],
 "apache-mxnet-1.4.0-incubating": [
 "incubator/mxnet/1.4.0/apache-mxnet-src-1.4.0-incubating.tar.gz"
+],
+"apache-mxnet-1.4.1-incubating": [
+"incubator/mxnet/1.4.1/apache-mxnet-src-1.4.1-incubating.tar.gz"
 ]
 },
 "incubator-myriad": {
@@ -3015,20 +3032,8 @@
 "com-jcraft-jzlib.nbm": [
 "incubator/netbeans/incubating-netbeans/incubating-11.0/nbms/ide/com-jcraft-jzlib.nbm"
 ],
-"incubating-apache-netbeans-1": [
-"incubator/netbeans/incubating-netbeans-mavenutils/apache-netbeans-parent-1/incubating-apache-netbeans-parent-1-source-release.zip"
-],
 "incubating-netbeans-11.0": [
 "incubator/netbeans/incubating-netbeans/incubating-11.0/incubating-netbeans-11.0-source.zip"
-],
-"incubating-netbeans-html4j-1.5": [
-"incubator/netbeans/incubating-netbeans-html4j/incubating-netbeans-html4j-1.5.zip"
-],
-"incubating-netbeans-html4j-1.5.1": [
-"incubator/netbeans/incubating-netbeans-html4j/incubating-netbeans-html4j-1.5.1.zip"
-],
-"incubating-netbeans-html4j-1.6": [
-"incubator/netbeans/incubating-netbeans-html4j/incubating-netbeans-html4j-1.6/incubating-netbeans-html4j-1.6.zip"
 ],
 "incubating-netbeans-platform-11.0": [
 "incubator/netbeans/incubating-netbeans-platform/incubating-11.0/incubating-netbeans-platform-11.0-source.zip"
@@ -5712,8 +5717,8 @@
 "jackrabbit-oak-1.6.17": [
 "jackrabbit/oak/1.6.17/jackrabbit-oak-1.6.17-src.zip"
 ],
-"jackrabbit-oak-1.8.12": [
-"jackrabbit/oak/1.8.12/jackrabbit-oak-1.8.12-src.zip"
+"jackrabbit-oak-1.8.13": [
+"jackrabbit/oak/1.8.13/jackrabbit-oak-1.8.13-src.zip"
 ],
 "jackrabbit-ocm-2.0.0": [
 "jackrabbit/ocm/2.0.0/jackrabbit-ocm-2.0.0-source-release.zip"
@@ -6669,6 +6674,9 @@
 "metron": {
 "apache-metron-0.7.0": [
 "metron/0.7.0/apache-metron-0.7.0.tar.gz"
+],
+"apache-metron_0.7.1": [
+"metron/0.7.1/apache-metron_0.7.1.tar.gz"
 ]
 },
 "mina": {
@@ -6955,6 +6963,9 @@
 ]
 },
 "netbeans": {
+"netbeans-2": [
+"netbeans/netbeans-parent/netbeans-parent-2/netbeans-parent-2-source-release.zip"
+],
 "netbeans-html4j-1.6.1": [
 "netbeans/netbeans-html4j/netbeans-html4j-1.6.1/netbeans-html4j-1.6.1.zip"
 ]
