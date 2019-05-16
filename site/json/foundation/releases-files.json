@@ -535,17 +535,11 @@
 ]
 },
 "avro": {
-"Avro-1.7.7": [
-"avro/avro-1.7.7/perl/Avro-1.7.7.tar.gz"
-],
 "Avro-1.8.2": [
 "avro/avro-1.8.2/perl/Avro-1.8.2.tar.gz"
 ],
 "Avro-1.9.0": [
 "avro/avro-1.9.0/perl/Avro-1.9.0.tar.gz"
-],
-"avro-1.7.7": [
-"avro/avro-1.7.7/avro-src-1.7.7.tar.gz"
 ],
 "avro-1.8.2": [
 "avro/avro-1.8.2/avro-src-1.8.2.tar.gz"
@@ -553,17 +547,11 @@
 "avro-1.9.0": [
 "avro/avro-1.9.0/avro-src-1.9.0.tar.gz"
 ],
-"avro-c-1.7.7": [
-"avro/avro-1.7.7/c/avro-c-1.7.7.tar.gz"
-],
 "avro-c-1.8.2": [
 "avro/avro-1.8.2/c/avro-c-1.8.2.tar.gz"
 ],
 "avro-c-1.9.0": [
 "avro/avro-1.9.0/c/avro-c-1.9.0.tar.gz"
-],
-"avro-csharp-1.7.7": [
-"avro/avro-1.7.7/avro-csharp-1.7.7.tar.gz"
 ],
 "avro-csharp-1.8.2": [
 "avro/avro-1.8.2/csharp/avro-csharp-1.8.2.tar.gz"
@@ -767,11 +755,11 @@
 "apache-calcite-avatica-1.15.0": [
 "calcite/apache-calcite-avatica-1.15.0/apache-calcite-avatica-1.15.0-src.tar.gz"
 ],
-"apache-calcite-avatica-go-3.1.0": [
-"calcite/apache-calcite-avatica-go-3.1.0/apache-calcite-avatica-go-src-3.1.0.tar.gz"
-],
 "apache-calcite-avatica-go-3.2.0": [
 "calcite/apache-calcite-avatica-go-3.2.0/apache-calcite-avatica-go-3.2.0-src.tar.gz"
+],
+"apache-calcite-avatica-go-4.0.0": [
+"calcite/apache-calcite-avatica-go-4.0.0/apache-calcite-avatica-go-4.0.0-src.tar.gz"
 ]
 },
 "camel": {
@@ -1793,6 +1781,10 @@
 "directory/api/dist/2.0.0.AM2/apache-ldap-api-2.0.0.AM2-src.tar.gz",
 "directory/api/dist/2.0.0.AM2/apache-ldap-api-2.0.0.AM2-src.zip"
 ],
+"apache-ldap-api-2.0.0.AM3": [
+"directory/api/dist/2.0.0.AM3/apache-ldap-api-2.0.0.AM3-src.tar.gz",
+"directory/api/dist/2.0.0.AM3/apache-ldap-api-2.0.0.AM3-src.zip"
+],
 "apacheds-2.0.0.AM25": [
 "directory/apacheds/dist/2.0.0.AM25/apacheds-2.0.0.AM25-32bit.dmg",
 "directory/apacheds/dist/2.0.0.AM25/apacheds-2.0.0.AM25-64bit.dmg",
@@ -2025,9 +2017,9 @@
 "felix/org.apache.felix.http.jetty-4.0.8-source-release.tar.gz",
 "felix/org.apache.felix.http.jetty-4.0.8-source-release.zip"
 ],
-"org.apache.felix.http.proxy-3.0.4": [
-"felix/org.apache.felix.http.proxy-3.0.4-source-release.tar.gz",
-"felix/org.apache.felix.http.proxy-3.0.4-source-release.zip"
+"org.apache.felix.http.proxy-3.0.6": [
+"felix/org.apache.felix.http.proxy-3.0.6-source-release.tar.gz",
+"felix/org.apache.felix.http.proxy-3.0.6-source-release.zip"
 ],
 "org.apache.felix.http.samples.bridge-2.3.2": [
 "felix/org.apache.felix.http.samples.bridge-2.3.2.war"
@@ -6394,9 +6386,6 @@
 "maven-archiver-3.4.0": [
 "maven/shared/maven-archiver-3.4.0-source-release.zip"
 ],
-"maven-artifact-resolver-1.0": [
-"maven/shared/maven-artifact-resolver-1.0-source-release.zip"
-],
 "maven-artifact-transfer-0.11.0": [
 "maven/shared/maven-artifact-transfer-0.11.0-source-release.zip"
 ],
@@ -6531,9 +6520,6 @@
 ],
 "maven-repository-builder-1.0": [
 "maven/shared/maven-repository-builder-1.0-source-release.zip"
-],
-"maven-repository-plugin-2.4": [
-"maven/plugins/maven-repository-plugin-2.4-source-release.zip"
 ],
 "maven-resolver-1.3.3": [
 "maven/resolver/maven-resolver-1.3.3-source-release.zip"
@@ -6672,9 +6658,6 @@
 ]
 },
 "metron": {
-"apache-metron-0.7.0": [
-"metron/0.7.0/apache-metron-0.7.0.tar.gz"
-],
 "apache-metron_0.7.1": [
 "metron/0.7.1/apache-metron_0.7.1.tar.gz"
 ]
@@ -7669,9 +7652,6 @@
 "apache-qpid-broker-j-7.0.7": [
 "qpid/broker-j/7.0.7/apache-qpid-broker-j-7.0.7-src.tar.gz"
 ],
-"apache-qpid-broker-j-7.1.2": [
-"qpid/broker-j/7.1.2/apache-qpid-broker-j-7.1.2-src.tar.gz"
-],
 "apache-qpid-broker-j-7.1.3": [
 "qpid/broker-j/7.1.3/apache-qpid-broker-j-7.1.3-src.tar.gz"
 ],
@@ -8608,8 +8588,8 @@
 "org.apache.sling.servlets.post-2.3.28": [
 "sling/org.apache.sling.servlets.post-2.3.28-source-release.zip"
 ],
-"org.apache.sling.servlets.resolver-2.5.2": [
-"sling/org.apache.sling.servlets.resolver-2.5.2-source-release.zip"
+"org.apache.sling.servlets.resolver-2.5.4": [
+"sling/org.apache.sling.servlets.resolver-2.5.4-source-release.zip"
 ],
 "org.apache.sling.settings-1.3.10": [
 "sling/org.apache.sling.settings-1.3.10-source-release.zip"
