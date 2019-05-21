@@ -398,6 +398,9 @@
 "org.apache.aries.rsa.main-1.13.0": [
 "aries/org.apache.aries.rsa.main-1.13.0-source-release.zip"
 ],
+"org.apache.aries.rsa.main-1.14.0": [
+"aries/org.apache.aries.rsa.main-1.14.0-source-release.zip"
+],
 "org.apache.aries.subsystem-1.0.0": [
 "aries/org.apache.aries.subsystem-1.0.0-source-release.zip"
 ],
@@ -1984,13 +1987,13 @@
 "felix/org.apache.felix.healthcheck.annotation-2.0.0-source-release.tar.gz",
 "felix/org.apache.felix.healthcheck.annotation-2.0.0-source-release.zip"
 ],
-"org.apache.felix.healthcheck.api-2.0.0": [
-"felix/org.apache.felix.healthcheck.api-2.0.0-source-release.tar.gz",
-"felix/org.apache.felix.healthcheck.api-2.0.0-source-release.zip"
+"org.apache.felix.healthcheck.api-2.0.2": [
+"felix/org.apache.felix.healthcheck.api-2.0.2-source-release.tar.gz",
+"felix/org.apache.felix.healthcheck.api-2.0.2-source-release.zip"
 ],
-"org.apache.felix.healthcheck.core-2.0.2": [
-"felix/org.apache.felix.healthcheck.core-2.0.2-source-release.tar.gz",
-"felix/org.apache.felix.healthcheck.core-2.0.2-source-release.zip"
+"org.apache.felix.healthcheck.core-2.0.6": [
+"felix/org.apache.felix.healthcheck.core-2.0.6-source-release.tar.gz",
+"felix/org.apache.felix.healthcheck.core-2.0.6-source-release.zip"
 ],
 "org.apache.felix.healthcheck.generalchecks-2.0.0": [
 "felix/org.apache.felix.healthcheck.generalchecks-2.0.0-source-release.tar.gz",
@@ -2233,9 +2236,9 @@
 "felix/org.apache.felix.utils-1.11.0-source-release.tar.gz",
 "felix/org.apache.felix.utils-1.11.0-source-release.zip"
 ],
-"org.apache.felix.webconsole-4.3.8": [
-"felix/org.apache.felix.webconsole-4.3.8-source-release.tar.gz",
-"felix/org.apache.felix.webconsole-4.3.8-source-release.zip"
+"org.apache.felix.webconsole-4.3.10": [
+"felix/org.apache.felix.webconsole-4.3.10-source-release.tar.gz",
+"felix/org.apache.felix.webconsole-4.3.10-source-release.zip"
 ],
 "org.osgi.compendium-1.4.0": [
 "felix/org.osgi.compendium-1.4.0-project.tar.gz",
@@ -7657,9 +7660,6 @@
 "apache-qpid-jms-0.42.0": [
 "qpid/jms/0.42.0/apache-qpid-jms-0.42.0-src.tar.gz"
 ],
-"apache-qpid-jms-amqp-0-x-6.3.3": [
-"qpid/jms-amqp-0-x/6.3.3/apache-qpid-jms-amqp-0-x-6.3.3-src.tar.gz"
-],
 "apache-qpid-jms-amqp-0-x-6.3.4": [
 "qpid/jms-amqp-0-x/6.3.4/apache-qpid-jms-amqp-0-x-6.3.4-src.tar.gz"
 ],
@@ -8019,8 +8019,8 @@
 "org.apache.sling.auth.core-1.4.2": [
 "sling/org.apache.sling.auth.core-1.4.2-source-release.zip"
 ],
-"org.apache.sling.auth.form-1.0.12": [
-"sling/org.apache.sling.auth.form-1.0.12-source-release.zip"
+"org.apache.sling.auth.form-1.0.14": [
+"sling/org.apache.sling.auth.form-1.0.14-source-release.zip"
 ],
 "org.apache.sling.auth.openid-1.0.4": [
 "sling/org.apache.sling.auth.openid-1.0.4-source-release.zip"
@@ -8587,8 +8587,8 @@
 "org.apache.sling.servlets.get-2.1.40": [
 "sling/org.apache.sling.servlets.get-2.1.40-source-release.zip"
 ],
-"org.apache.sling.servlets.post-2.3.28": [
-"sling/org.apache.sling.servlets.post-2.3.28-source-release.zip"
+"org.apache.sling.servlets.post-2.3.30": [
+"sling/org.apache.sling.servlets.post-2.3.30-source-release.zip"
 ],
 "org.apache.sling.servlets.resolver-2.5.4": [
 "sling/org.apache.sling.servlets.resolver-2.5.4-source-release.zip"
@@ -8600,8 +8600,8 @@
 "sling/org.apache.sling.starter-11-source-release.zip",
 "sling/org.apache.sling.starter-11-webapp.war"
 ],
-"org.apache.sling.starter.content-1.0.2": [
-"sling/org.apache.sling.starter.content-1.0.2-source-release.zip"
+"org.apache.sling.starter.content-1.0.4": [
+"sling/org.apache.sling.starter.content-1.0.4-source-release.zip"
 ],
 "org.apache.sling.starter.startup-1.0.6": [
 "sling/org.apache.sling.starter.startup-1.0.6-source-release.zip"
@@ -9274,8 +9274,8 @@
 ]
 },
 "tika": {
-"tika-1.20": [
-"tika/tika-1.20-src.zip"
+"tika-1.21": [
+"tika/tika-1.21-src.zip"
 ]
 },
 "tinkerpop": {
@@ -10209,11 +10209,11 @@
 ]
 },
 "zookeeper": {
+"apache-zookeeper-3.5.5": [
+"zookeeper/zookeeper-3.5.5/apache-zookeeper-3.5.5.tar.gz"
+],
 "zookeeper-3.4.14": [
 "zookeeper/zookeeper-3.4.14/zookeeper-3.4.14.tar.gz"
-],
-"zookeeper-3.5.4-beta": [
-"zookeeper/zookeeper-3.5.4-beta/zookeeper-3.5.4-beta.tar.gz"
 ]
 }
 }
