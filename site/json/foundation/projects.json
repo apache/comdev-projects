@@ -847,14 +847,14 @@
 "shortdesc": "Enterprise-grade unified stream and batch processing engine."
 },
 "apr-portable_runtime": {
-"bug-database": "http://issues.apache.org/bugzilla/",
+"bug-database": "https://issues.apache.org/bugzilla/",
 "category": "library",
 "description": "\nThe mission of the Apache Portable Runtime (APR) project is to create\nand maintain software libraries that provide a predictable and\nconsistent interface to underlying platform-specific implementations.\nThe primary goal is to provide an API to which software developers may\ncode and be assured of predictable if not identical behaviour\nregardless of the platform on which their software is built, relieving\nthem of the need to code special-case conditions to work around or\ntake advantage of platform-specific deficiencies or features.\n    ",
 "doap": "http://svn.apache.org/repos/asf/apr/site/trunk/doap.rdf",
-"download-page": "http://apr.apache.org/download.cgi",
-"homepage": "http://apr.apache.org/",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://apr.apache.org/mailing-lists.html",
+"download-page": "https://apr.apache.org/download.cgi",
+"homepage": "https://apr.apache.org/",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://apr.apache.org/mailing-lists.html",
 "name": "Apache Portable Runtime",
 "pmc": "apr",
 "programming-language": "C",
@@ -876,7 +876,7 @@
 }
 ],
 "repository": [
-"http://svn.apache.org/repos/asf/apr/apr/trunk"
+"https://svn.apache.org/repos/asf/apr/apr/trunk"
 ],
 "shortdesc": "\n    Cross-platform library easing many progamming tasks in C. \n    "
 },
@@ -12401,8 +12401,8 @@
 }
 ],
 "repository": [
-"https://github.com/apache/opennlp.git",
-"http://svn.apache.org/repos/asf/opennlp"
+"http://svn.apache.org/repos/asf/opennlp",
+"https://github.com/apache/opennlp.git"
 ],
 "shortdesc": "Apache OpenNLP library software is a machine learning based toolkit for the processing of natural language text.."
 },
