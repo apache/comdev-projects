@@ -604,9 +604,9 @@
 "bahir/bahir-spark/2.2.2/apache-bahir-2.2.2-src.tar.gz",
 "bahir/bahir-spark/2.2.2/apache-bahir-2.2.2-src.zip"
 ],
-"apache-bahir-2.3.2": [
-"bahir/bahir-spark/2.3.2/apache-bahir-2.3.2-src.tar.gz",
-"bahir/bahir-spark/2.3.2/apache-bahir-2.3.2-src.zip"
+"apache-bahir-2.3.3": [
+"bahir/bahir-spark/2.3.3/apache-bahir-2.3.3-src.tar.gz",
+"bahir/bahir-spark/2.3.3/apache-bahir-2.3.3-src.zip"
 ],
 "apache-bahir-flink-1.0": [
 "bahir/bahir-flink/1.0/apache-bahir-flink-1.0-src.tgz",
@@ -5568,9 +5568,9 @@
 "jackrabbit/2.16.4/jackrabbit-2.16.4-src.zip",
 "jackrabbit/2.16.4/jackrabbit-webapp-2.16.4.war"
 ],
-"jackrabbit-2.18.1": [
-"jackrabbit/2.18.1/jackrabbit-2.18.1-src.zip",
-"jackrabbit/2.18.1/jackrabbit-webapp-2.18.1.war"
+"jackrabbit-2.18.2": [
+"jackrabbit/2.18.2/jackrabbit-2.18.2-src.zip",
+"jackrabbit/2.18.2/jackrabbit-webapp-2.18.2.war"
 ],
 "jackrabbit-2.19.3": [
 "jackrabbit/2.19.3/jackrabbit-2.19.3-src.zip",
@@ -5660,8 +5660,8 @@
 "jackrabbit-jca-2.16.4": [
 "jackrabbit/2.16.4/jackrabbit-jca-2.16.4.rar"
 ],
-"jackrabbit-jca-2.18.1": [
-"jackrabbit/2.18.1/jackrabbit-jca-2.18.1.rar"
+"jackrabbit-jca-2.18.2": [
+"jackrabbit/2.18.2/jackrabbit-jca-2.18.2.rar"
 ],
 "jackrabbit-jca-2.19.3": [
 "jackrabbit/2.19.3/jackrabbit-jca-2.19.3.rar"
@@ -6103,6 +6103,11 @@
 "lucene/java/8.1.0/lucene-8.1.0.tgz",
 "lucene/java/8.1.0/lucene-8.1.0.zip"
 ],
+"lucene-8.1.1": [
+"lucene/java/8.1.1/lucene-8.1.1-src.tgz",
+"lucene/java/8.1.1/lucene-8.1.1.tgz",
+"lucene/java/8.1.1/lucene-8.1.1.zip"
+],
 "pylucene-2.9.4-1": [
 "lucene/pylucene/pylucene-2.9.4-1-src.tar.gz"
 ],
@@ -6151,6 +6156,11 @@
 "lucene/solr/8.1.0/solr-8.1.0-src.tgz",
 "lucene/solr/8.1.0/solr-8.1.0.tgz",
 "lucene/solr/8.1.0/solr-8.1.0.zip"
+],
+"solr-8.1.1": [
+"lucene/solr/8.1.1/solr-8.1.1-src.tgz",
+"lucene/solr/8.1.1/solr-8.1.1.tgz",
+"lucene/solr/8.1.1/solr-8.1.1.zip"
 ]
 },
 "lucenenet": {
@@ -6507,9 +6517,6 @@
 "maven-resources-plugin-3.1.0": [
 "maven/plugins/maven-resources-plugin-3.1.0-source-release.zip"
 ],
-"maven-runtime-1.0-alpha-3": [
-"maven/shared/maven-runtime-1.0-alpha-3-source-release.zip"
-],
 "maven-scm-1.11.2": [
 "maven/scm/maven-scm-1.11.2-source-release.zip"
 ],
@@ -6766,53 +6773,17 @@
 "myfaces-tobago-1.5.13": [
 "myfaces/source/myfaces-tobago-1.5.13-source-release.zip"
 ],
-"myfaces-tobago-2.0.10": [
-"myfaces/source/myfaces-tobago-2.0.10-source-release.zip"
-],
-"myfaces-tobago-2.1.1": [
-"myfaces/source/myfaces-tobago-2.1.1-source-release.zip"
-],
-"myfaces-tobago-2.2.0": [
-"myfaces/source/myfaces-tobago-2.2.0-source-release.zip"
-],
-"myfaces-tobago-2.3.0": [
-"myfaces/source/myfaces-tobago-2.3.0-source-release.zip"
-],
 "myfaces-tobago-2.4.1": [
 "myfaces/source/myfaces-tobago-2.4.1-source-release.zip"
-],
-"myfaces-tobago-3.0.6": [
-"myfaces/source/myfaces-tobago-3.0.6-source-release.zip"
-],
-"myfaces-tobago-3.1.0": [
-"myfaces/source/myfaces-tobago-3.1.0-source-release.zip"
 ],
 "myfaces-tobago-3.1.1": [
 "myfaces/source/myfaces-tobago-3.1.1-source-release.zip"
 ],
-"myfaces-tobago-4.0.0": [
-"myfaces/source/myfaces-tobago-4.0.0-source-release.zip"
-],
-"myfaces-tobago-4.1.0": [
-"myfaces/source/myfaces-tobago-4.1.0-source-release.zip"
-],
-"myfaces-tobago-4.2.0": [
-"myfaces/source/myfaces-tobago-4.2.0-source-release.zip"
-],
-"myfaces-tobago-4.2.1": [
-"myfaces/source/myfaces-tobago-4.2.1-source-release.zip"
-],
-"myfaces-tobago-4.3.0": [
-"myfaces/source/myfaces-tobago-4.3.0-source-release.zip"
-],
-"myfaces-tobago-4.3.1": [
-"myfaces/source/myfaces-tobago-4.3.1-source-release.zip"
-],
-"myfaces-tobago-4.3.2": [
-"myfaces/source/myfaces-tobago-4.3.2-source-release.zip"
-],
 "myfaces-tobago-4.4.0": [
 "myfaces/source/myfaces-tobago-4.4.0-source-release.zip"
+],
+"myfaces-tobago-4.4.1": [
+"myfaces/source/myfaces-tobago-4.4.1-source-release.zip"
 ],
 "portlet-bridge-1.0.0": [
 "myfaces/source/portlet-bridge-1.0.0-src-all.tar.gz",
@@ -9442,6 +9413,22 @@
 "tomee/tomee-8.0.0-M2/apache-tomee-8.0.0-M2-webprofile.tar.gz",
 "tomee/tomee-8.0.0-M2/apache-tomee-8.0.0-M2-webprofile.zip"
 ],
+"apache-tomee-8.0.0-M3-microprofile": [
+"tomee/tomee-8.0.0-M3/apache-tomee-8.0.0-M3-microprofile.tar.gz",
+"tomee/tomee-8.0.0-M3/apache-tomee-8.0.0-M3-microprofile.zip"
+],
+"apache-tomee-8.0.0-M3-plume": [
+"tomee/tomee-8.0.0-M3/apache-tomee-8.0.0-M3-plume.tar.gz",
+"tomee/tomee-8.0.0-M3/apache-tomee-8.0.0-M3-plume.zip"
+],
+"apache-tomee-8.0.0-M3-plus": [
+"tomee/tomee-8.0.0-M3/apache-tomee-8.0.0-M3-plus.tar.gz",
+"tomee/tomee-8.0.0-M3/apache-tomee-8.0.0-M3-plus.zip"
+],
+"apache-tomee-8.0.0-M3-webprofile": [
+"tomee/tomee-8.0.0-M3/apache-tomee-8.0.0-M3-webprofile.tar.gz",
+"tomee/tomee-8.0.0-M3/apache-tomee-8.0.0-M3-webprofile.zip"
+],
 "arquillian-tomee-moviefun-example-1.7.5": [
 "tomee/tomee-1.7.5/arquillian-tomee-moviefun-example-1.7.5.war"
 ],
@@ -9475,6 +9462,10 @@
 "tomee/tomee-8.0.0-M2/examples-8.0.0-M2-src.tar.gz",
 "tomee/tomee-8.0.0-M2/examples-8.0.0-M2-src.zip"
 ],
+"examples-8.0.0-M3": [
+"tomee/tomee-8.0.0-M3/examples-8.0.0-M3-src.tar.gz",
+"tomee/tomee-8.0.0-M3/examples-8.0.0-M3-src.zip"
+],
 "javaee-api-8.0": [
 "tomee/tomee-8.0.0-M1/javaee-api-8.0-source-release.zip"
 ],
@@ -9504,6 +9495,10 @@
 "tomee/tomee-8.0.0-M2/openejb-standalone-8.0.0-M2.tar.gz",
 "tomee/tomee-8.0.0-M2/openejb-standalone-8.0.0-M2.zip"
 ],
+"openejb-8.0.0-M3": [
+"tomee/tomee-8.0.0-M3/openejb-standalone-8.0.0-M3.tar.gz",
+"tomee/tomee-8.0.0-M3/openejb-standalone-8.0.0-M3.zip"
+],
 "openejb-provisionning-4.6.0.2": [
 "tomee/tomee-1.6.0.2/openejb-provisionning-4.6.0.2.tar.gz",
 "tomee/tomee-1.6.0.2/openejb-provisionning-4.6.0.2.zip"
@@ -9512,6 +9507,10 @@
 "tomee/tomee-1.7.5/openejb-provisionning-4.7.5.tar.gz",
 "tomee/tomee-1.7.5/openejb-provisionning-4.7.5.zip"
 ],
+"openejb-provisionning-8.0.0-M3": [
+"tomee/tomee-8.0.0-M3/openejb-provisionning-8.0.0-M3.tar.gz",
+"tomee/tomee-8.0.0-M3/openejb-provisionning-8.0.0-M3.zip"
+],
 "openejb-ssh-4.6.0.2": [
 "tomee/tomee-1.6.0.2/openejb-ssh-4.6.0.2.tar.gz",
 "tomee/tomee-1.6.0.2/openejb-ssh-4.6.0.2.zip"
@@ -9519,6 +9518,10 @@
 "openejb-ssh-4.7.5": [
 "tomee/tomee-1.7.5/openejb-ssh-4.7.5.tar.gz",
 "tomee/tomee-1.7.5/openejb-ssh-4.7.5.zip"
+],
+"openejb-ssh-8.0.0-M3": [
+"tomee/tomee-8.0.0-M3/openejb-ssh-8.0.0-M3.tar.gz",
+"tomee/tomee-8.0.0-M3/openejb-ssh-8.0.0-M3.zip"
 ],
 "tomee-1.6.0.2": [
 "tomee/tomee-1.6.0.2/tomee-webapp-1.6.0.2.war"
@@ -9542,6 +9545,10 @@
 "tomee/tomee-8.0.0-M2/tomee-project-8.0.0-M2-source-release.zip",
 "tomee/tomee-8.0.0-M2/tomee-webapp-8.0.0-M2.war"
 ],
+"tomee-8.0.0-M3": [
+"tomee/tomee-8.0.0-M3/tomee-project-8.0.0-M3-source-release.zip",
+"tomee/tomee-8.0.0-M3/tomee-webapp-8.0.0-M3.war"
+],
 "tomee-jaxrs-1.6.0.2": [
 "tomee/tomee-1.6.0.2/tomee-jaxrs-webapp-1.6.0.2.war"
 ],
@@ -9557,6 +9564,9 @@
 "tomee-microprofile-8.0.0-M2": [
 "tomee/tomee-8.0.0-M2/tomee-microprofile-webapp-8.0.0-M2.war"
 ],
+"tomee-microprofile-8.0.0-M3": [
+"tomee/tomee-8.0.0-M3/tomee-microprofile-webapp-8.0.0-M3.war"
+],
 "tomee-plume-1.7.5": [
 "tomee/tomee-1.7.5/tomee-plume-webapp-1.7.5.war"
 ],
@@ -9571,6 +9581,9 @@
 ],
 "tomee-plume-8.0.0-M2": [
 "tomee/tomee-8.0.0-M2/tomee-plume-webapp-8.0.0-M2.war"
+],
+"tomee-plume-8.0.0-M3": [
+"tomee/tomee-8.0.0-M3/tomee-plume-webapp-8.0.0-M3.war"
 ],
 "tomee-plus-1.6.0.2": [
 "tomee/tomee-1.6.0.2/tomee-plus-webapp-1.6.0.2.war"
@@ -9590,11 +9603,17 @@
 "tomee-plus-8.0.0-M2": [
 "tomee/tomee-8.0.0-M2/tomee-plus-webapp-8.0.0-M2.war"
 ],
+"tomee-plus-8.0.0-M3": [
+"tomee/tomee-8.0.0-M3/tomee-plus-webapp-8.0.0-M3.war"
+],
 "tomee-webaccess-1.6.0.2": [
 "tomee/tomee-1.6.0.2/tomee-webaccess-1.6.0.2.war"
 ],
 "tomee-webaccess-1.7.5": [
 "tomee/tomee-1.7.5/tomee-webaccess-1.7.5.war"
+],
+"tomee-webaccess-8.0.0-M3": [
+"tomee/tomee-8.0.0-M3/tomee-webaccess-8.0.0-M3.war"
 ]
 },
 "trafficcontrol": {
@@ -9774,6 +9793,10 @@
 "turbine-5": [
 "turbine/maven/turbine-parent/turbine-parent-5-src.tar.gz",
 "turbine/maven/turbine-parent/turbine-parent-5-src.zip"
+],
+"turbine-5.0": [
+"turbine/turbine-5.0/source/turbine-5.0-source.tar.gz",
+"turbine/turbine-5.0/source/turbine-5.0-source.zip"
 ]
 },
 "twill": {
@@ -10005,9 +10028,13 @@
 "wicket/7.13.0/apache-wicket-7.13.0.tar.gz",
 "wicket/7.13.0/apache-wicket-7.13.0.zip"
 ],
-"apache-wicket-8.4.0": [
-"wicket/8.4.0/apache-wicket-8.4.0.tar.gz",
-"wicket/8.4.0/apache-wicket-8.4.0.zip"
+"apache-wicket-7.14.0": [
+"wicket/7.14.0/apache-wicket-7.14.0.tar.gz",
+"wicket/7.14.0/apache-wicket-7.14.0.zip"
+],
+"apache-wicket-8.5.0": [
+"wicket/8.5.0/apache-wicket-8.5.0.tar.gz",
+"wicket/8.5.0/apache-wicket-8.5.0.zip"
 ],
 "apache-wicket-9.0.0-M1": [
 "wicket/9.0.0-M1/apache-wicket-9.0.0-M1.tar.gz",
