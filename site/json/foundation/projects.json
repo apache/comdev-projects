@@ -9795,7 +9795,12 @@
 "revision": "8.0.0"
 },
 {
-"created": "2019-03-1",
+"created": "2019-06-04",
+"name": "lucene-7.7.2",
+"revision": "7.7.2"
+},
+{
+"created": "2019-03-01",
 "name": "lucene-7.7.1",
 "revision": "7.7.1"
 },
@@ -10432,7 +10437,12 @@
 "revision": "8.0.0"
 },
 {
-"created": "2019-03-1",
+"created": "2019-06-04",
+"name": "solr-7.7.2",
+"revision": "7.7.2"
+},
+{
+"created": "2019-03-01",
 "name": "solr-7.7.1",
 "revision": "7.7.1"
 },
@@ -12411,8 +12421,8 @@
 }
 ],
 "repository": [
-"https://github.com/apache/opennlp.git",
-"http://svn.apache.org/repos/asf/opennlp"
+"http://svn.apache.org/repos/asf/opennlp",
+"https://github.com/apache/opennlp.git"
 ],
 "shortdesc": "Apache OpenNLP library software is a machine learning based toolkit for the processing of natural language text.."
 },
@@ -14897,6 +14907,11 @@
 "created": "2018-03-05",
 "name": "Apache Turbine",
 "revision": "4.0.1"
+},
+{
+"created": "2019-05-28",
+"name": "Apache Turbine",
+"revision": "5.0"
 }
 ],
 "repository": [
