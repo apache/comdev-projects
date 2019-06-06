@@ -217,7 +217,8 @@
 "beam": {
 "apache-beam-2.10.0": "2019-02-11",
 "apache-beam-2.11.0": "2019-03-01",
-"apache-beam-2.12.0": "2019-04-15"
+"apache-beam-2.12.0": "2019-04-15",
+"apache-beam-2.13.0": "2019-06-05"
 },
 "bigtop": {
 "bigtop-1.3.0": "2018-10-30"
@@ -429,8 +430,7 @@
 "commons-configuration-1.10": "2013-10-28",
 "commons-configuration2-2.5": "2019-05-27",
 "commons-crypto-1.0.0": "2016-08-04",
-"commons-csv-1.5": "2017-09-03",
-"commons-csv-1.6": "2018-09-25",
+"commons-csv-1.7": "2019-06-05",
 "commons-daemon-1.1.0": "2017-11-22",
 "commons-dbcp-1.3": "2013-03-03",
 "commons-dbcp-1.4": "2013-03-03",
@@ -836,14 +836,11 @@
 },
 "hbase": {
 "RELEASENOTES.md": "2019-03-18",
-"hbase-1.3.3": "2018-12-15",
 "hbase-1.3.4": "2019-04-15",
 "hbase-1.4.9": "2018-12-06",
 "hbase-2.0.5": "2019-03-18",
-"hbase-2.1.4": "2019-03-20",
 "hbase-2.1.5": "2019-05-29",
 "hbase-connectors-1.0.0": "2019-05-03",
-"hbase-thirdparty-1.0.1": "2017-08-28",
 "hbase-thirdparty-2.2.1": "2019-04-16"
 },
 "helix": {
@@ -940,6 +937,9 @@
 },
 "incubator-edgent": {
 "apache-edgent-1.2.0-incubating": "2017-12-07"
+},
+"incubator-flagon": {
+"apache-senssoft-useralejs-1.0.0": "2018-02-21"
 },
 "incubator-gobblin": {
 "apache-gobblin-incubating-sources-0.12.0": "2018-06-20",
@@ -1766,9 +1766,6 @@
 "_remote.repositories": "2016-09-22",
 "samoa-0.3.0-incubating": "2015-07-21",
 "samoa-0.4.0-incubating": "2016-09-22"
-},
-"incubator-senssoft": {
-"apache-senssoft-useralejs-1.0.0": "2018-02-21"
 },
 "incubator-shardingsphere": {
 "apache-shardingsphere-incubating-4.0.0-RC1": "2019-04-12"
