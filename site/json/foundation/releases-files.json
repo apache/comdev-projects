@@ -1823,6 +1823,11 @@
 "drill/drill-1.16.0/apache-drill-1.16.0.tar.gz"
 ]
 },
+"dubbo": {
+"apache-dubbo-2.7.2": [
+"dubbo/2.7.2/apache-dubbo-2.7.2-src.zip"
+]
+},
 "eagle": {
 "apache-eagle-0.3.0-incubating": [
 "eagle/apache-eagle-0.3.0-incubating/apache-eagle-0.3.0-incubating-src.tar.gz"
@@ -6054,35 +6059,10 @@
 ]
 },
 "lucene": {
-"lucene-5.5.5": [
-"lucene/java/5.5.5/lucene-5.5.5-src.tgz",
-"lucene/java/5.5.5/lucene-5.5.5.tgz",
-"lucene/java/5.5.5/lucene-5.5.5.zip"
-],
-"lucene-6.6.6": [
-"lucene/java/6.6.6/lucene-6.6.6-src.tgz",
-"lucene/java/6.6.6/lucene-6.6.6.tgz",
-"lucene/java/6.6.6/lucene-6.6.6.zip"
-],
-"lucene-7.7.1": [
-"lucene/java/7.7.1/lucene-7.7.1-src.tgz",
-"lucene/java/7.7.1/lucene-7.7.1.tgz",
-"lucene/java/7.7.1/lucene-7.7.1.zip"
-],
 "lucene-7.7.2": [
 "lucene/java/7.7.2/lucene-7.7.2-src.tgz",
 "lucene/java/7.7.2/lucene-7.7.2.tgz",
 "lucene/java/7.7.2/lucene-7.7.2.zip"
-],
-"lucene-8.0.0": [
-"lucene/java/8.0.0/lucene-8.0.0-src.tgz",
-"lucene/java/8.0.0/lucene-8.0.0.tgz",
-"lucene/java/8.0.0/lucene-8.0.0.zip"
-],
-"lucene-8.1.0": [
-"lucene/java/8.1.0/lucene-8.1.0-src.tgz",
-"lucene/java/8.1.0/lucene-8.1.0.tgz",
-"lucene/java/8.1.0/lucene-8.1.0.zip"
 ],
 "lucene-8.1.1": [
 "lucene/java/8.1.1/lucene-8.1.1-src.tgz",
@@ -6092,35 +6072,10 @@
 "pylucene-7.7.1": [
 "lucene/pylucene/pylucene-7.7.1-src.tar.gz"
 ],
-"solr-5.5.5": [
-"lucene/solr/5.5.5/solr-5.5.5-src.tgz",
-"lucene/solr/5.5.5/solr-5.5.5.tgz",
-"lucene/solr/5.5.5/solr-5.5.5.zip"
-],
-"solr-6.6.6": [
-"lucene/solr/6.6.6/solr-6.6.6-src.tgz",
-"lucene/solr/6.6.6/solr-6.6.6.tgz",
-"lucene/solr/6.6.6/solr-6.6.6.zip"
-],
-"solr-7.7.1": [
-"lucene/solr/7.7.1/solr-7.7.1-src.tgz",
-"lucene/solr/7.7.1/solr-7.7.1.tgz",
-"lucene/solr/7.7.1/solr-7.7.1.zip"
-],
 "solr-7.7.2": [
 "lucene/solr/7.7.2/solr-7.7.2-src.tgz",
 "lucene/solr/7.7.2/solr-7.7.2.tgz",
 "lucene/solr/7.7.2/solr-7.7.2.zip"
-],
-"solr-8.0.0": [
-"lucene/solr/8.0.0/solr-8.0.0-src.tgz",
-"lucene/solr/8.0.0/solr-8.0.0.tgz",
-"lucene/solr/8.0.0/solr-8.0.0.zip"
-],
-"solr-8.1.0": [
-"lucene/solr/8.1.0/solr-8.1.0-src.tgz",
-"lucene/solr/8.1.0/solr-8.1.0.tgz",
-"lucene/solr/8.1.0/solr-8.1.0.zip"
 ],
 "solr-8.1.1": [
 "lucene/solr/8.1.1/solr-8.1.1-src.tgz",
@@ -7931,8 +7886,8 @@
 "maven-launchpad-plugin-2.3.4": [
 "sling/maven-launchpad-plugin-2.3.4-source-release.zip"
 ],
-"maven-sling-plugin-2.4.0": [
-"sling/maven-sling-plugin-2.4.0-source-release.zip"
+"maven-sling-plugin-2.4.2": [
+"sling/maven-sling-plugin-2.4.2-source-release.zip"
 ],
 "org.apache.sling.adapter-2.1.10": [
 "sling/org.apache.sling.adapter-2.1.10-source-release.zip"
@@ -8189,8 +8144,8 @@
 "org.apache.sling.fragment.ws-1.0.2": [
 "sling/org.apache.sling.fragment.ws-1.0.2-source-release.zip"
 ],
-"org.apache.sling.fsresource-2.1.14": [
-"sling/org.apache.sling.fsresource-2.1.14-source-release.zip"
+"org.apache.sling.fsresource-2.1.16": [
+"sling/org.apache.sling.fsresource-2.1.16-source-release.zip"
 ],
 "org.apache.sling.hapi-1.1.0": [
 "sling/org.apache.sling.hapi-1.1.0-source-release.zip"
@@ -8670,11 +8625,11 @@
 "sling/sling-launchpad-standalone-archetype-1.0.0-source-release.zip",
 "sling/sling-launchpad-webapp-archetype-1.0.0-source-release.zip"
 ],
-"sling-maven-plugin-2.4.0": [
-"sling/sling-maven-plugin-2.4.0-source-release.zip"
+"sling-maven-plugin-2.4.2": [
+"sling/sling-maven-plugin-2.4.2-source-release.zip"
 ],
-"sling-maven-plugin.parent-2.4.0": [
-"sling/sling-maven-plugin.parent-2.4.0-source-release.zip"
+"sling-maven-plugin.parent-2.4.2": [
+"sling/sling-maven-plugin.parent-2.4.2-source-release.zip"
 ],
 "sling-servlet-archetype-1.0.4": [
 "sling/sling-servlet-archetype-1.0.4-source-release.zip"
