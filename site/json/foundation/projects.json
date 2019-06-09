@@ -7644,16 +7644,16 @@
 "bug-database": "https://issues.apache.org/jira/browse/MILAGRO",
 "category": "cloud",
 "created": "2016-05-18",
-"description": "M-Pin protocol for strong identity management and distrubuted trust authorities.  Libraries and SDKs.",
-"doap": "http://milagro.incubator.apache.org/doap.rdf",
+"description": "Milagro is crypto libraries and core security infrastructure for decentralized networks and distributed systems.",
+"doap": "https://gitbox.apache.org/repos/asf?p=incubator-milagro.git;a=blob_plain;f=doap_Milagro.rdf;hb=HEAD",
 "download-page": "http://milagro.incubator.apache.org/",
 "homepage": "http://milagro.incubator.apache.org/",
 "license": "http://spdx.org/licenses/Apache-2.0",
 "mailing-list": "http://milagro.incubator.apache.org/",
-"name": "Apache Milagro (incubating)",
+"name": "Apache Milagro",
 "pmc": "incubator",
-"programming-language": "Python, Javascript, C",
-"shortdesc": "Distributed Cryptosystem for Cloud Computing"
+"programming-language": "Python, Go, Javascript, C",
+"shortdesc": "Core security infrastructure for decentralized networks."
 },
 "incubator-taverna": {
 "category": "network-client, content, http, osgi, xml",
@@ -12421,8 +12421,8 @@
 }
 ],
 "repository": [
-"https://github.com/apache/opennlp.git",
-"http://svn.apache.org/repos/asf/opennlp"
+"http://svn.apache.org/repos/asf/opennlp",
+"https://github.com/apache/opennlp.git"
 ],
 "shortdesc": "Apache OpenNLP library software is a machine learning based toolkit for the processing of natural language text.."
 },
