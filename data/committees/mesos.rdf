@@ -22,6 +22,10 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/">
   <asfext:pmc rdf:about="mesos">
     <asfext:name>Apache Mesos</asfext:name>
+    <asfext:charter>
+      The mission of Mesos is the creation and maintenance of software related to
+      a cluster manager that provides efficient resource isolation and sharing across distributed applications
+    </asfext:charter>
     <foaf:homepage rdf:resource="http://mesos.apache.org/"/>
   </asfext:pmc>
 </rdf:RDF>
