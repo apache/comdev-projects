@@ -767,10 +767,10 @@
 "camel/apache-camel/2.22.1/apache-camel-2.22.1.tar.gz",
 "camel/apache-camel/2.22.1/apache-camel-2.22.1.zip"
 ],
-"apache-camel-2.22.4": [
-"camel/apache-camel/2.22.4/apache-camel-2.22.4-src.zip",
-"camel/apache-camel/2.22.4/apache-camel-2.22.4.tar.gz",
-"camel/apache-camel/2.22.4/apache-camel-2.22.4.zip"
+"apache-camel-2.22.5": [
+"camel/apache-camel/2.22.5/apache-camel-2.22.5-src.zip",
+"camel/apache-camel/2.22.5/apache-camel-2.22.5.tar.gz",
+"camel/apache-camel/2.22.5/apache-camel-2.22.5.zip"
 ],
 "apache-camel-2.23.2": [
 "camel/apache-camel/2.23.2/apache-camel-2.23.2-src.zip",
@@ -786,6 +786,21 @@
 "camel/apache-camel/3.0.0-M3/apache-camel-3.0.0-M3-src.zip",
 "camel/apache-camel/3.0.0-M3/apache-camel-3.0.0-M3.tar.gz",
 "camel/apache-camel/3.0.0-M3/apache-camel-3.0.0-M3.zip"
+],
+"camel-k-client-0.3.4-linux": [
+"camel/camel-k/0.3.4/camel-k-client-0.3.4-linux-64bit.tar.gz"
+],
+"camel-k-client-0.3.4-mac": [
+"camel/camel-k/0.3.4/camel-k-client-0.3.4-mac-64bit.tar.gz"
+],
+"camel-k-client-0.3.4-windows": [
+"camel/camel-k/0.3.4/camel-k-client-0.3.4-windows-64bit.tar.gz"
+],
+"camel-k-examples-0.3.4": [
+"camel/camel-k/0.3.4/camel-k-examples-0.3.4.tar.gz"
+],
+"camel-k-sources-0.3.4": [
+"camel/camel-k/0.3.4/camel-k-sources-0.3.4.tar.gz"
 ]
 },
 "carbondata": {
@@ -2649,6 +2664,7 @@
 "RELEASENOTES.md": [
 "hbase/2.0.5/RELEASENOTES.md",
 "hbase/2.1.5/RELEASENOTES.md",
+"hbase/hbase-filesystem-1.0.0-alpha1/RELEASENOTES.md",
 "hbase/hbase-thirdparty-2.2.1/RELEASENOTES.md"
 ],
 "hbase-1.3.5": [
@@ -2665,6 +2681,9 @@
 ],
 "hbase-connectors-1.0.0": [
 "hbase/hbase-connectors-1.0.0/hbase-connectors-1.0.0-src.tar.gz"
+],
+"hbase-filesystem-1.0.0-alpha1": [
+"hbase/hbase-filesystem-1.0.0-alpha1/hbase-filesystem-1.0.0-alpha1-src.tar.gz"
 ],
 "hbase-thirdparty-2.2.1": [
 "hbase/hbase-thirdparty-2.2.1/hbase-thirdparty-2.2.1-src.tar.gz"
@@ -2749,6 +2768,10 @@
 "httpcomponents-client-4.5.8": [
 "httpcomponents/httpclient/source/httpcomponents-client-4.5.8-src.tar.gz",
 "httpcomponents/httpclient/source/httpcomponents-client-4.5.8-src.zip"
+],
+"httpcomponents-client-4.5.9": [
+"httpcomponents/httpclient/source/httpcomponents-client-4.5.9-src.tar.gz",
+"httpcomponents/httpclient/source/httpcomponents-client-4.5.9-src.zip"
 ],
 "httpcomponents-client-5.0-beta2": [
 "httpcomponents/httpclient/source/httpcomponents-client-5.0-beta2-src.tar.gz",
@@ -5655,8 +5678,8 @@
 "jackrabbit-oak-1.10.2": [
 "jackrabbit/oak/1.10.2/jackrabbit-oak-1.10.2-src.zip"
 ],
-"jackrabbit-oak-1.12.0": [
-"jackrabbit/oak/1.12.0/jackrabbit-oak-1.12.0-src.zip"
+"jackrabbit-oak-1.14.0": [
+"jackrabbit/oak/1.14.0/jackrabbit-oak-1.14.0-src.zip"
 ],
 "jackrabbit-oak-1.2.31": [
 "jackrabbit/oak/1.2.31/jackrabbit-oak-1.2.31-src.zip"
@@ -7553,6 +7576,9 @@
 "qpid-dispatch-1.7.0": [
 "qpid/dispatch/1.7.0/qpid-dispatch-1.7.0.tar.gz"
 ],
+"qpid-dispatch-1.8.0": [
+"qpid/dispatch/1.8.0/qpid-dispatch-1.8.0.tar.gz"
+],
 "qpid-interop-test-0.2.0": [
 "qpid/interop-test/0.2.0/qpid-interop-test-0.2.0.tar.gz"
 ],
@@ -8465,8 +8491,8 @@
 "org.apache.sling.serviceusermapper-1.4.4": [
 "sling/org.apache.sling.serviceusermapper-1.4.4-source-release.zip"
 ],
-"org.apache.sling.servlet-helpers-1.1.10": [
-"sling/org.apache.sling.servlet-helpers-1.1.10-source-release.zip"
+"org.apache.sling.servlet-helpers-1.2.0": [
+"sling/org.apache.sling.servlet-helpers-1.2.0-source-release.zip"
 ],
 "org.apache.sling.servlets.annotations-1.2.4": [
 "sling/org.apache.sling.servlets.annotations-1.2.4-source-release.zip"
@@ -8562,26 +8588,26 @@
 "org.apache.sling.testing.sling-mock-1.9.12": [
 "sling/org.apache.sling.testing.sling-mock-1.9.12-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock-2.3.10": [
-"sling/org.apache.sling.testing.sling-mock-2.3.10-source-release.zip"
+"org.apache.sling.testing.sling-mock-2.3.12": [
+"sling/org.apache.sling.testing.sling-mock-2.3.12-source-release.zip"
 ],
 "org.apache.sling.testing.sling-mock-jackrabbit-1.0.0": [
 "sling/org.apache.sling.testing.sling-mock-jackrabbit-1.0.0-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock-oak-2.1.4": [
-"sling/org.apache.sling.testing.sling-mock-oak-2.1.4-source-release.zip"
+"org.apache.sling.testing.sling-mock-oak-2.1.6": [
+"sling/org.apache.sling.testing.sling-mock-oak-2.1.6-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.core-2.3.10": [
-"sling/org.apache.sling.testing.sling-mock.core-2.3.10-source-release.zip"
+"org.apache.sling.testing.sling-mock.core-2.3.12": [
+"sling/org.apache.sling.testing.sling-mock.core-2.3.12-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.junit4-2.3.10": [
-"sling/org.apache.sling.testing.sling-mock.junit4-2.3.10-source-release.zip"
+"org.apache.sling.testing.sling-mock.junit4-2.3.12": [
+"sling/org.apache.sling.testing.sling-mock.junit4-2.3.12-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.junit5-2.3.10": [
-"sling/org.apache.sling.testing.sling-mock.junit5-2.3.10-source-release.zip"
+"org.apache.sling.testing.sling-mock.junit5-2.3.12": [
+"sling/org.apache.sling.testing.sling-mock.junit5-2.3.12-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.parent-2.3.10": [
-"sling/org.apache.sling.testing.sling-mock.parent-2.3.10-source-release.zip"
+"org.apache.sling.testing.sling-mock.parent-2.3.12": [
+"sling/org.apache.sling.testing.sling-mock.parent-2.3.12-source-release.zip"
 ],
 "org.apache.sling.testing.tools-1.0.16": [
 "sling/org.apache.sling.testing.tools-1.0.16-source-release.zip"
