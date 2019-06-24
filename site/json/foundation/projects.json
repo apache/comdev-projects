@@ -6279,41 +6279,41 @@
 "shortdesc": "LDAP and Kerberos, entirely in Java"
 },
 "directory-fortress": {
-"bug-database": "http://issues.apache.org/jira/browse/FC",
+"bug-database": "https://issues.apache.org/jira/browse/FC",
 "category": "identity-management, Library, security, SDK",
 "created": "2015-10-24",
 "description": "Apache Fortress is a standards-based access management system, written in Java, that provides role-based access control, delegated administration and password policy services with LDAP.",
 "doap": "http://svn.apache.org/repos/asf/directory/site/trunk/content/doap_fortress.rdf",
-"download-page": "http://directory.apache.org/fortress/downloads.html",
-"homepage": "http://directory.apache.org/fortress/",
+"download-page": "https://directory.apache.org/fortress/downloads.html",
+"homepage": "https://directory.apache.org/fortress/",
 "license": "http://spdx.org/licenses/Apache-2.0",
-"mailing-list": "http://directory.apache.org/mailing-lists-and-irc.html",
+"mailing-list": "https://directory.apache.org/mailing-lists-and-irc.html",
 "name": "Apache Fortress",
 "pmc": "directory",
 "programming-language": "Java",
 "repository": [
-"http://git-wip-us.apache.org/repos/asf/directory-fortress-core.git",
-"http://git-wip-us.apache.org/repos/asf/directory-fortress-commander.git",
-"http://git-wip-us.apache.org/repos/asf/directory-enmasse-core.git",
-"http://git-wip-us.apache.org/repos/asf/directory-fortress-realm.git"
+"https://gitbox.apache.org/repos/asf/directory-fortress-core.git",
+"https://gitbox.apache.org/repos/asf/directory-fortress-commander.git",
+"https://gitbox.apache.org/repos/asf/directory-enmasse-core.git",
+"https://gitbox.apache.org/repos/asf/directory-fortress-realm.git"
 ],
 "shortdesc": "Identity Access Management SDK"
 },
 "directory-kerby": {
-"bug-database": "http://issues.apache.org/jira/browse/DIRKRB",
+"bug-database": "https://issues.apache.org/jira/browse/DIRKRB",
 "category": "identity-management, identity-provisioning, Kerberos, Library, security, SDK",
 "created": "2014-12-31",
 "description": "Apache Kerby is a Java Kerberos binding. It provides a rich, intuitive and interoperable implementation, library, KDC and various facilities that integrates PKI, OTP and token (OAuth2) as desired in modern environments such as cloud, Hadoop and mobile.",
 "doap": "http://svn.apache.org/repos/asf/directory/site/trunk/content/doap_kerby.rdf",
-"download-page": "http://directory.apache.org/kerby/downloads.html",
-"homepage": "http://directory.apache.org/kerby/",
+"download-page": "https://directory.apache.org/kerby/downloads.html",
+"homepage": "https://directory.apache.org/kerby/",
 "license": "http://spdx.org/licenses/Apache-2.0",
-"mailing-list": "http://directory.apache.org/mailing-lists-and-irc.html",
+"mailing-list": "https://directory.apache.org/mailing-lists-and-irc.html",
 "name": "Apache Kerby",
 "pmc": "directory",
 "programming-language": "Java",
 "repository": [
-"http://git-wip-us.apache.org/repos/asf/directory-kerby.git"
+"https://gitbox.apache.org/repos/asf/directory-kerby.git"
 ],
 "shortdesc": "Kerberos binding in Java"
 },
@@ -9356,6 +9356,11 @@
 "created": "2018-11-08",
 "name": "2.4.0",
 "revision": "v2.4.0"
+},
+{
+"created": "2019-05-30",
+"name": "2.5.0",
+"revision": "v2.5.0"
 }
 ],
 "repository": [
