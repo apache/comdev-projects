@@ -435,6 +435,7 @@
 "commons-crypto-1.0.0": "2016-08-04",
 "commons-csv-1.7": "2019-06-05",
 "commons-daemon-1.1.0": "2017-11-22",
+"commons-daemon-1.2.0": "2019-07-02",
 "commons-dbcp-1.3": "2013-03-03",
 "commons-dbcp-1.4": "2013-03-03",
 "commons-dbcp2-2.4.0": "2018-06-16",
@@ -493,15 +494,13 @@
 "cordova-js-5.0.0": "2018-12-25",
 "cordova-lib-9.0.1": "2019-04-03",
 "cordova-osx-5.0.0": "2019-02-04",
-"cordova-plugin-battery-status-2.0.2": "2018-04-17",
+"cordova-plugin-battery-status-2.0.3": "2019-07-02",
 "cordova-plugin-camera-4.0.3": "2018-04-17",
 "cordova-plugin-compat-1.2.0": "2017-09-22",
 "cordova-plugin-console-1.1.0": "2017-09-22",
 "cordova-plugin-contacts-3.0.1": "2017-12-20",
-"cordova-plugin-device-2.0.2": "2018-04-17",
-"cordova-plugin-device-motion-2.0.1": "2018-04-17",
-"cordova-plugin-device-orientation-2.0.1": "2018-04-17",
-"cordova-plugin-dialogs-2.0.1": "2017-12-30",
+"cordova-plugin-device-2.0.3": "2019-07-02",
+"cordova-plugin-dialogs-2.0.2": "2019-07-02",
 "cordova-plugin-file-6.0.1": "2017-12-30",
 "cordova-plugin-file-transfer-1.7.1": "2018-01-29",
 "cordova-plugin-geolocation-4.0.1": "2017-12-30",
@@ -509,21 +508,20 @@
 "cordova-plugin-inappbrowser-3.0.0": "2018-04-17",
 "cordova-plugin-legacy-whitelist-1.1.2": "2016-12-11",
 "cordova-plugin-media-5.0.2": "2018-01-29",
-"cordova-plugin-media-capture-3.0.2": "2018-04-17",
-"cordova-plugin-network-information-2.0.1": "2017-12-30",
-"cordova-plugin-screen-orientation-3.0.1": "2017-12-30",
-"cordova-plugin-splashscreen-5.0.2": "2018-01-29",
-"cordova-plugin-statusbar-2.4.2": "2018-04-17",
+"cordova-plugin-media-capture-3.0.3": "2019-07-02",
+"cordova-plugin-network-information-2.0.2": "2019-07-02",
+"cordova-plugin-screen-orientation-3.0.2": "2019-07-02",
+"cordova-plugin-splashscreen-5.0.3": "2019-07-02",
+"cordova-plugin-statusbar-2.4.3": "2019-07-02",
 "cordova-plugin-test-framework-1.1.6": "2017-11-11",
-"cordova-plugin-vibration-3.1.0": "2018-04-17",
-"cordova-plugin-whitelist-1.3.3": "2017-11-11",
+"cordova-plugin-vibration-3.1.1": "2019-07-02",
+"cordova-plugin-whitelist-1.3.4": "2019-07-02",
 "cordova-plugin-wkwebview-engine-1.1.4": "2017-11-11",
 "cordova-serve-3.0.0": "2018-12-25",
 "cordova-ubuntu-4.3.4": "2016-06-08",
 "cordova-webos-3.7.0": "2015-08-18",
 "cordova-windows-7.0.0": "2019-03-08",
 "cordova-wp8-3.8.2": "2015-12-02",
-"npm-debug.log": "2016-12-16",
 "plugman-3.0.1": "2019-04-15",
 "xcode-2.0.0": "2019-01-17"
 },
@@ -735,7 +733,7 @@
 "flink": {
 "flink-1.6.4": "2019-02-22",
 "flink-1.7.2": "2019-02-11",
-"flink-1.8.0": "2019-04-04",
+"flink-1.8.1": "2019-06-25",
 "flink-shaded-7.0": "2019-05-27"
 },
 "flume": {
@@ -952,6 +950,7 @@
 },
 "incubator-flagon": {
 "apache-flagon-useralejs-incubating-1.0.0": "2019-06-28",
+"apache-flagon-useralejs-incubating-2.0.0": "2019-06-26",
 "apache-senssoft-useralejs-1.0.0": "2018-02-21"
 },
 "incubator-gobblin": {
@@ -1831,8 +1830,7 @@
 },
 "incubator-tuweni": {
 "tuweni-0.8.0-incubating": "2019-06-12",
-"tuweni-gossip-0.8.0-incubating": "2019-06-12",
-"tuweni-relayer-0.8.0-incubating": "2019-06-12"
+"tuweni-gossip-0.8.0-incubating": "2019-06-12"
 },
 "incubator-unomi": {
 "unomi-1.0.0-incubating": "2016-03-21",
@@ -2019,6 +2017,7 @@
 "knoxshell-1.2.0": "2018-12-04"
 },
 "kudu": {
+"apache-kudu-1.10.0": "2019-07-02",
 "apache-kudu-1.7.1": "2018-06-07",
 "apache-kudu-1.8.0": "2018-10-24",
 "apache-kudu-1.9.0": "2019-03-12"
@@ -2529,33 +2528,56 @@
 "4e34bb15791089f55b62c135f72e09149bcff7502cd2b8e080b8145421650b53-filelists.sqlite": "2019-05-22",
 "6ec48bce6c661ca5fd018f1dfa13942b34476a4bd6de858937431f980938eeaf-other.sqlite": "2019-05-22",
 "85e6afed9dcb2c93d4bb7e98af27458d4d2713347db97f5d77492a186c1a1a3a-primary.sqlite": "2019-05-22",
+"9e7739b1f571ab218a10d305684e20a6d61c6943baba60053f7cd3a1b992e3f1-primary.sqlite": "2019-06-26",
 "Packages": "2019-05-22",
 "apache-pulsar": "2019-05-22",
 "apache-pulsar-2.3.2": "2019-05-22",
+"apache-pulsar-2.4.0": "2019-06-26",
 "apache-pulsar-client-dev": "2019-05-22",
+"bcd8534c6ebb601be09947bdcf8a34b2f853f2c0fb60ee3d897afd9eccfc9969-filelists.sqlite": "2019-06-26",
+"d39108eb78ccdba9c4e9db4997a6f41ff138e6b9528bffa7b6d9388a5e010787-other.sqlite": "2019-06-26",
 "pulsar-io-aerospike-2.3.2.nar": "2019-05-22",
+"pulsar-io-aerospike-2.4.0.nar": "2019-06-26",
 "pulsar-io-canal-2.3.2.nar": "2019-05-22",
+"pulsar-io-canal-2.4.0.nar": "2019-06-26",
 "pulsar-io-cassandra-2.3.2.nar": "2019-05-22",
+"pulsar-io-cassandra-2.4.0.nar": "2019-06-26",
 "pulsar-io-data-generator-2.3.2.nar": "2019-05-22",
+"pulsar-io-data-generator-2.4.0.nar": "2019-06-26",
+"pulsar-io-debezium-mysql-2.4.0.nar": "2019-06-26",
+"pulsar-io-debezium-postgres-2.4.0.nar": "2019-06-26",
 "pulsar-io-elastic-search-2.3.2.nar": "2019-05-22",
+"pulsar-io-elastic-search-2.4.0.nar": "2019-06-26",
 "pulsar-io-file-2.3.2.nar": "2019-05-22",
+"pulsar-io-file-2.4.0.nar": "2019-06-26",
 "pulsar-io-hbase-2.3.2.nar": "2019-05-22",
+"pulsar-io-hbase-2.4.0.nar": "2019-06-26",
 "pulsar-io-hdfs2-2.3.2.nar": "2019-05-22",
+"pulsar-io-hdfs2-2.4.0.nar": "2019-06-26",
 "pulsar-io-hdfs3-2.3.2.nar": "2019-05-22",
+"pulsar-io-hdfs3-2.4.0.nar": "2019-06-26",
 "pulsar-io-jdbc-2.3.2.nar": "2019-05-22",
+"pulsar-io-jdbc-2.4.0.nar": "2019-06-26",
 "pulsar-io-kafka-2.3.2.nar": "2019-05-22",
+"pulsar-io-kafka-2.4.0.nar": "2019-06-26",
 "pulsar-io-kafka-connect-adaptor-2.3.2.nar": "2019-05-22",
+"pulsar-io-kafka-connect-adaptor-2.4.0.nar": "2019-06-26",
 "pulsar-io-kinesis-2.3.2.nar": "2019-05-22",
+"pulsar-io-kinesis-2.4.0.nar": "2019-06-26",
 "pulsar-io-mongo-2.3.2.nar": "2019-05-22",
+"pulsar-io-mongo-2.4.0.nar": "2019-06-26",
 "pulsar-io-netty-2.3.2.nar": "2019-05-22",
+"pulsar-io-netty-2.4.0.nar": "2019-06-26",
 "pulsar-io-rabbitmq-2.3.2.nar": "2019-05-22",
-"pulsar-io-twitter-2.3.2.nar": "2019-05-22"
+"pulsar-io-rabbitmq-2.4.0.nar": "2019-06-26",
+"pulsar-io-twitter-2.3.2.nar": "2019-05-22",
+"pulsar-io-twitter-2.4.0.nar": "2019-06-26"
 },
 "qpid": {
 "apache-qpid-broker-j-7.0.7": "2019-02-25",
 "apache-qpid-broker-j-7.1.3": "2019-05-08",
-"apache-qpid-jms-0.42.0": "2019-05-07",
 "apache-qpid-jms-0.43.0": "2019-06-04",
+"apache-qpid-jms-0.44.0": "2019-06-28",
 "apache-qpid-jms-amqp-0-x-6.3.4": "2019-05-14",
 "apache-qpid-proton-j-0.33.0": "2019-05-01",
 "apache-qpid-proton-j-0.33.1": "2019-05-30",
@@ -2681,7 +2703,8 @@
 "apache-sis-0.8": "2017-11-10"
 },
 "skywalking": {
-"apache-skywalking-apm-6.1.0": "2019-04-30"
+"apache-skywalking-apm-6.1.0": "2019-04-30",
+"apache-skywalking-apm-6.2.0": "2019-06-29"
 },
 "sling": {
 "adapter-annotations-1.0.0": "2013-01-21",
@@ -3119,7 +3142,8 @@
 "taglibs-standard-1.2.5": "2015-03-10",
 "tomcat-connectors-1.2.46": "2018-10-13",
 "tomcat-maven-plugin-2.2": "2013-11-07",
-"tomcat-native-1.2.21": "2019-01-25"
+"tomcat-native-1.2.21": "2019-01-25",
+"tomcat-native-1.2.23": "2019-06-26"
 },
 "tomee": {
 "apache-tomee-1.6.0.2-jaxrs": "2014-05-06",
