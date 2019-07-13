@@ -7489,6 +7489,11 @@
 "programming-language": "Scala, Java",
 "release": [
 {
+"created": "2019-07-12",
+"name": "Apache Daffodil",
+"revision": "2.4.0"
+},
+{
 "created": "2019-02-26",
 "name": "Apache Daffodil",
 "revision": "2.3.0"
@@ -13902,15 +13907,15 @@
 "shortname": "sling"
 },
 "spamassassin": {
-"bug-database": "https://bz.apache.org/SpamAssassin/",
+"bug-database": "https://issues.apache.org/SpamAssassin/",
 "category": "mail",
 "created": "2001-04-20",
 "description": "Apache SpamAssassin is an extensible email filter which is used to identify spam. Using its rule base, it uses a wide range of advanced heuristic and statistical analysis tests on mail headers and body text to identify \"spam\", also known as unsolicited bulk email. Once identified, the mail can then be optionally tagged as spam for later filtering. It provides a command line tool to perform filtering, a client-server system to filter large volumes of mail, and Mail::SpamAssassin, a set of Perl modules.",
 "doap": "http://spamassassin.apache.org/doap.rdf",
-"download-page": "http://spamassassin.apache.org/downloads.html",
-"homepage": "http://spamassassin.apache.org/",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://news.gmane.org/thread.php?group=gmane.mail.spam.spamassassin.general",
+"download-page": "https://spamassassin.apache.org/downloads.html",
+"homepage": "https://spamassassin.apache.org/",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://news.gmane.org/thread.php?group=gmane.mail.spam.spamassassin.general",
 "maintainer": [
 {
 "mbox_sha1sum": "745b0f55d936f36c20b221fc25488811",
@@ -13921,7 +13926,7 @@
 "pmc": "spamassassin",
 "programming-language": "Perl, C",
 "repository": [
-"http://svn.apache.org/repos/asf/spamassassin/trunk"
+"https://svn.apache.org/repos/asf/spamassassin/trunk"
 ],
 "shortdesc": "Apache SpamAssassin is an email filter used to identify spam",
 "wiki": "https://cwiki.apache.org/confluence/display/SPAMASSASSIN/"
