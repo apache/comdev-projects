@@ -470,7 +470,7 @@
 "asterixdb/hyracks-0.3.4/apache-hyracks-0.3.4-source-release.zip"
 ],
 "apache-hyracks-0.3.4.1": [
-"asterixdb/asterixdb-0.9.4.1/apache-hyracks-0.3.4.1-source-release.zip"
+"asterixdb/hyracks-0.3.4.1/apache-hyracks-0.3.4.1-source-release.zip"
 ]
 },
 "atlas": {
@@ -6178,6 +6178,11 @@
 "lucene/java/8.1.1/lucene-8.1.1.tgz",
 "lucene/java/8.1.1/lucene-8.1.1.zip"
 ],
+"lucene-8.2.0": [
+"lucene/java/8.2.0/lucene-8.2.0-src.tgz",
+"lucene/java/8.2.0/lucene-8.2.0.tgz",
+"lucene/java/8.2.0/lucene-8.2.0.zip"
+],
 "pylucene-7.7.1": [
 "lucene/pylucene/pylucene-7.7.1-src.tar.gz"
 ],
@@ -6190,6 +6195,11 @@
 "lucene/solr/8.1.1/solr-8.1.1-src.tgz",
 "lucene/solr/8.1.1/solr-8.1.1.tgz",
 "lucene/solr/8.1.1/solr-8.1.1.zip"
+],
+"solr-8.2.0": [
+"lucene/solr/8.2.0/solr-8.2.0-src.tgz",
+"lucene/solr/8.2.0/solr-8.2.0.tgz",
+"lucene/solr/8.2.0/solr-8.2.0.zip"
 ]
 },
 "lucenenet": {
@@ -12373,13 +12383,18 @@
 "apache-VCL-2.5": [
 "vcl/2.5/apache-VCL-2.5.tar.bz2"
 ],
+"apache-VCL-2.5.1": [
+"vcl/2.5.1/apache-VCL-2.5.1.tar.bz2"
+],
 "vcl-install.sh": [
 "vcl/2.4.2/vcl-install.sh",
+"vcl/2.5.1/vcl-install.sh",
 "vcl/2.5/vcl-install.sh",
 "vcl/vcl-install.sh"
 ],
 "vcl-upgrade.sh": [
 "vcl/2.4.2/vcl-upgrade.sh",
+"vcl/2.5.1/vcl-upgrade.sh",
 "vcl/2.5/vcl-upgrade.sh",
 "vcl/vcl-upgrade.sh"
 ]
