@@ -25,6 +25,9 @@
 ],
 "accumulo-2.0.0": [
 "accumulo/2.0.0/accumulo-2.0.0-src.tar.gz"
+],
+"accumulo2-maven-plugin-1.0.0": [
+"accumulo/accumulo2-maven-plugin/1.0.0/accumulo2-maven-plugin-1.0.0-source-release.tar.gz"
 ]
 },
 "activemq": {
@@ -1330,9 +1333,9 @@
 "commons/dbcp/source/commons-dbcp2-2.4.0-src.tar.gz",
 "commons/dbcp/source/commons-dbcp2-2.4.0-src.zip"
 ],
-"commons-dbcp2-2.6.0": [
-"commons/dbcp/source/commons-dbcp2-2.6.0-src.tar.gz",
-"commons/dbcp/source/commons-dbcp2-2.6.0-src.zip"
+"commons-dbcp2-2.7.0": [
+"commons/dbcp/source/commons-dbcp2-2.7.0-src.tar.gz",
+"commons/dbcp/source/commons-dbcp2-2.7.0-src.zip"
 ],
 "commons-dbutils-1.7": [
 "commons/dbutils/source/commons-dbutils-1.7-src.tar.gz",
@@ -2523,11 +2526,17 @@
 "apache-groovy-2.5.7": [
 "groovy/2.5.7/sources/apache-groovy-src-2.5.7.zip"
 ],
+"apache-groovy-2.5.8": [
+"groovy/2.5.8/sources/apache-groovy-src-2.5.8.zip"
+],
 "apache-groovy-3.0.0-beta-1": [
 "groovy/3.0.0-beta-1/sources/apache-groovy-src-3.0.0-beta-1.zip"
 ],
 "apache-groovy-3.0.0-beta-2": [
 "groovy/3.0.0-beta-2/sources/apache-groovy-src-3.0.0-beta-2.zip"
+],
+"apache-groovy-3.0.0-beta-3": [
+"groovy/3.0.0-beta-3/sources/apache-groovy-src-3.0.0-beta-3.zip"
 ],
 "apache-groovy-sdk-2.4.17": [
 "groovy/2.4.17/distribution/apache-groovy-sdk-2.4.17.zip"
@@ -2535,11 +2544,17 @@
 "apache-groovy-sdk-2.5.7": [
 "groovy/2.5.7/distribution/apache-groovy-sdk-2.5.7.zip"
 ],
+"apache-groovy-sdk-2.5.8": [
+"groovy/2.5.8/distribution/apache-groovy-sdk-2.5.8.zip"
+],
 "apache-groovy-sdk-3.0.0-beta-1": [
 "groovy/3.0.0-beta-1/distribution/apache-groovy-sdk-3.0.0-beta-1.zip"
 ],
 "apache-groovy-sdk-3.0.0-beta-2": [
 "groovy/3.0.0-beta-2/distribution/apache-groovy-sdk-3.0.0-beta-2.zip"
+],
+"apache-groovy-sdk-3.0.0-beta-3": [
+"groovy/3.0.0-beta-3/distribution/apache-groovy-sdk-3.0.0-beta-3.zip"
 ]
 },
 "guacamole": {
@@ -2557,29 +2572,11 @@
 "hadoop/core/current2/RELEASENOTES.md",
 "hadoop/core/hadoop-3.2.0/RELEASENOTES.md"
 ],
-"hadoop-2.6.5": [
-"hadoop/common/hadoop-2.6.5/hadoop-2.6.5-src.tar.gz",
-"hadoop/common/hadoop-2.6.5/hadoop-2.6.5.tar.gz",
-"hadoop/core/hadoop-2.6.5/hadoop-2.6.5-src.tar.gz",
-"hadoop/core/hadoop-2.6.5/hadoop-2.6.5.tar.gz"
-],
-"hadoop-2.7.6": [
-"hadoop/common/hadoop-2.7.6/hadoop-2.7.6-src.tar.gz",
-"hadoop/common/hadoop-2.7.6/hadoop-2.7.6.tar.gz",
-"hadoop/core/hadoop-2.7.6/hadoop-2.7.6-src.tar.gz",
-"hadoop/core/hadoop-2.7.6/hadoop-2.7.6.tar.gz"
-],
 "hadoop-2.7.7": [
 "hadoop/common/hadoop-2.7.7/hadoop-2.7.7-src.tar.gz",
 "hadoop/common/hadoop-2.7.7/hadoop-2.7.7.tar.gz",
 "hadoop/core/hadoop-2.7.7/hadoop-2.7.7-src.tar.gz",
 "hadoop/core/hadoop-2.7.7/hadoop-2.7.7.tar.gz"
-],
-"hadoop-2.8.4": [
-"hadoop/common/hadoop-2.8.4/hadoop-2.8.4-src.tar.gz",
-"hadoop/common/hadoop-2.8.4/hadoop-2.8.4.tar.gz",
-"hadoop/core/hadoop-2.8.4/hadoop-2.8.4-src.tar.gz",
-"hadoop/core/hadoop-2.8.4/hadoop-2.8.4.tar.gz"
 ],
 "hadoop-2.8.5": [
 "hadoop/common/hadoop-2.8.5/hadoop-2.8.5-src.tar.gz",
@@ -2587,41 +2584,11 @@
 "hadoop/core/hadoop-2.8.5/hadoop-2.8.5-src.tar.gz",
 "hadoop/core/hadoop-2.8.5/hadoop-2.8.5.tar.gz"
 ],
-"hadoop-2.9.0": [
-"hadoop/common/hadoop-2.9.0/hadoop-2.9.0-src.tar.gz",
-"hadoop/common/hadoop-2.9.0/hadoop-2.9.0.tar.gz",
-"hadoop/core/hadoop-2.9.0/hadoop-2.9.0-src.tar.gz",
-"hadoop/core/hadoop-2.9.0/hadoop-2.9.0.tar.gz"
-],
-"hadoop-2.9.1": [
-"hadoop/common/hadoop-2.9.1/hadoop-2.9.1-src.tar.gz",
-"hadoop/common/hadoop-2.9.1/hadoop-2.9.1.tar.gz",
-"hadoop/core/hadoop-2.9.1/hadoop-2.9.1-src.tar.gz",
-"hadoop/core/hadoop-2.9.1/hadoop-2.9.1.tar.gz"
-],
 "hadoop-2.9.2": [
 "hadoop/common/hadoop-2.9.2/hadoop-2.9.2-src.tar.gz",
 "hadoop/common/hadoop-2.9.2/hadoop-2.9.2.tar.gz",
 "hadoop/core/hadoop-2.9.2/hadoop-2.9.2-src.tar.gz",
 "hadoop/core/hadoop-2.9.2/hadoop-2.9.2.tar.gz"
-],
-"hadoop-3.0.2": [
-"hadoop/common/hadoop-3.0.2/hadoop-3.0.2-src.tar.gz",
-"hadoop/common/hadoop-3.0.2/hadoop-3.0.2.tar.gz",
-"hadoop/core/hadoop-3.0.2/hadoop-3.0.2-src.tar.gz",
-"hadoop/core/hadoop-3.0.2/hadoop-3.0.2.tar.gz"
-],
-"hadoop-3.0.3": [
-"hadoop/common/hadoop-3.0.3/hadoop-3.0.3-src.tar.gz",
-"hadoop/common/hadoop-3.0.3/hadoop-3.0.3.tar.gz",
-"hadoop/core/hadoop-3.0.3/hadoop-3.0.3-src.tar.gz",
-"hadoop/core/hadoop-3.0.3/hadoop-3.0.3.tar.gz"
-],
-"hadoop-3.1.1": [
-"hadoop/common/hadoop-3.1.1/hadoop-3.1.1-src.tar.gz",
-"hadoop/common/hadoop-3.1.1/hadoop-3.1.1.tar.gz",
-"hadoop/core/hadoop-3.1.1/hadoop-3.1.1-src.tar.gz",
-"hadoop/core/hadoop-3.1.1/hadoop-3.1.1.tar.gz"
 ],
 "hadoop-3.1.2": [
 "hadoop/common/hadoop-3.1.2/hadoop-3.1.2-site.tar.gz",
@@ -10133,6 +10100,9 @@
 ],
 "apache-ranger-1.2.0": [
 "ranger/1.2.0/apache-ranger-1.2.0.tar.gz"
+],
+"apache-ranger-2.0.0": [
+"ranger/2.0.0/apache-ranger-2.0.0.tar.gz"
 ]
 },
 "reef": {
