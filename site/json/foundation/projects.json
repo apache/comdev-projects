@@ -12462,8 +12462,8 @@
 }
 ],
 "repository": [
-"http://svn.apache.org/repos/asf/opennlp",
-"https://github.com/apache/opennlp.git"
+"https://github.com/apache/opennlp.git",
+"http://svn.apache.org/repos/asf/opennlp"
 ],
 "shortdesc": "Apache OpenNLP library software is a machine learning based toolkit for the processing of natural language text.."
 },
@@ -14847,13 +14847,13 @@
 "vendor": "The Apache Software Foundation"
 },
 "trafficserver-traffic_server": {
-"bug-database": "https://issues.apache.org/jira/browse/TS",
+"bug-database": "https://github.com/apache/trafficserver/issues",
 "category": "http",
 "created": "2011-04-08",
 "description": "Apache Traffic Server is fast, scalable and extensible HTTP/1.1 compliant caching proxy server. ATS can be used as a reverse, forward or even transparent HTTP proxy.\n    ",
 "doap": "https://gitbox.apache.org/repos/asf?p=trafficserver.git;a=blob_plain;f=doc/doap.rdf;hb=HEAD",
-"download-page": "http://trafficserver.apache.org/downloads.html",
-"homepage": "http://trafficserver.apache.org",
+"download-page": "https://trafficserver.apache.org/downloads.html",
+"homepage": "https://trafficserver.apache.org",
 "implements": [
 {
 "body": "IETF",
@@ -14863,7 +14863,7 @@
 }
 ],
 "license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://trafficserver.apache.org/",
+"mailing-list": "https://trafficserver.apache.org/",
 "maintainer": [
 {
 "mbox": "mailto:zwoop@apache.org",
