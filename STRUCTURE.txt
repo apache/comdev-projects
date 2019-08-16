@@ -61,6 +61,8 @@ crontab -l -u www-data:
 # ensure that any new data files get picked up by the commit (which must be done by root)
 10 4 * * *      cd /var/www/projects.apache.org/scripts/cronjobs && ./svnadd.sh ../../site/json
 
+There are additional jobs for reporter.a.o which are documented in its code source (README.txt).
+
 Note: the puppet config for the VM is stored at:
 
 https://gitbox.apache.org/repos/asf?p=infrastructure-puppet.git;a=blob_plain;f=data/nodes/projects-vm2.apache.org.yaml
