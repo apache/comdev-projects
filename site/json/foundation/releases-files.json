@@ -735,6 +735,9 @@
 ],
 "bval-2.0.2": [
 "bval/2.0.2/bval-parent-2.0.2-source-release.zip"
+],
+"bval-2.0.3": [
+"bval/2.0.3/bval-parent-2.0.3-source-release.zip"
 ]
 },
 "calcite": {
@@ -1761,12 +1764,12 @@
 ]
 },
 "deltaspike": {
-"deltaspike-1.8.2": [
-"deltaspike/1.8.2/deltaspike-1.8.2-source-release.zip"
+"deltaspike-1.9.1": [
+"deltaspike/1.9.1/deltaspike-1.9.1-source-release.zip"
 ],
-"distribution-full-1.8.2": [
-"deltaspike/1.8.2/distribution-full-1.8.2.tar.gz",
-"deltaspike/1.8.2/distribution-full-1.8.2.zip"
+"distribution-full-1.9.1": [
+"deltaspike/1.9.1/distribution-full-1.9.1.tar.gz",
+"deltaspike/1.9.1/distribution-full-1.9.1.zip"
 ]
 },
 "directory": {
@@ -2238,9 +2241,9 @@
 "felix/org.apache.felix.utils-1.11.0-source-release.tar.gz",
 "felix/org.apache.felix.utils-1.11.0-source-release.zip"
 ],
-"org.apache.felix.webconsole-4.3.12": [
-"felix/org.apache.felix.webconsole-4.3.12-source-release.tar.gz",
-"felix/org.apache.felix.webconsole-4.3.12-source-release.zip"
+"org.apache.felix.webconsole-4.3.14": [
+"felix/org.apache.felix.webconsole-4.3.14-source-release.tar.gz",
+"felix/org.apache.felix.webconsole-4.3.14-source-release.zip"
 ],
 "org.osgi.compendium-1.4.0": [
 "felix/org.osgi.compendium-1.4.0-project.tar.gz",
@@ -2694,6 +2697,9 @@
 ],
 "helix-0.9.0.1": [
 "helix/0.9.0.1/src/helix-0.9.0.1-src.zip"
+],
+"helix-0.9.1": [
+"helix/0.9.1/src/helix-0.9.1-src.zip"
 ]
 },
 "hive": {
@@ -2970,6 +2976,11 @@
 ],
 "hivemall-0.5.2-incubating": [
 "incubator/hivemall/0.5.2-incubating/hivemall-0.5.2-incubating-source-release.zip"
+]
+},
+"incubator-iotdb": {
+"apache-iotdb-0.8.0-incubating": [
+"incubator/iotdb/0.8.0-incubating/apache-iotdb-0.8.0-incubating-source-release.zip"
 ]
 },
 "incubator-joshua": {
@@ -10405,14 +10416,14 @@
 "org.apache.sling.bundleresource.impl-2.3.2": [
 "sling/org.apache.sling.bundleresource.impl-2.3.2-source-release.zip"
 ],
-"org.apache.sling.caconfig.api-1.1.2": [
-"sling/org.apache.sling.caconfig.api-1.1.2-source-release.zip"
+"org.apache.sling.caconfig.api-1.2.0": [
+"sling/org.apache.sling.caconfig.api-1.2.0-source-release.zip"
 ],
 "org.apache.sling.caconfig.bnd-plugin-1.0.2": [
 "sling/org.apache.sling.caconfig.bnd-plugin-1.0.2-source-release.zip"
 ],
-"org.apache.sling.caconfig.impl-1.4.16": [
-"sling/org.apache.sling.caconfig.impl-1.4.16-source-release.zip"
+"org.apache.sling.caconfig.impl-1.5.0": [
+"sling/org.apache.sling.caconfig.impl-1.5.0-source-release.zip"
 ],
 "org.apache.sling.caconfig.spi-1.3.4": [
 "sling/org.apache.sling.caconfig.spi-1.3.4-source-release.zip"
@@ -10591,8 +10602,8 @@
 "org.apache.sling.extensions.webconsolebranding-1.0.2": [
 "sling/org.apache.sling.extensions.webconsolebranding-1.0.2-source-release.zip"
 ],
-"org.apache.sling.extensions.webconsolesecurityprovider-1.2.2": [
-"sling/org.apache.sling.extensions.webconsolesecurityprovider-1.2.2-source-release.zip"
+"org.apache.sling.extensions.webconsolesecurityprovider-1.2.4": [
+"sling/org.apache.sling.extensions.webconsolesecurityprovider-1.2.4-source-release.zip"
 ],
 "org.apache.sling.feature-1.0.6": [
 "sling/org.apache.sling.feature-1.0.6-source-release.zip"
@@ -11667,19 +11678,6 @@
 "tomcat/tomcat-8/v8.5.43/bin/apache-tomcat-8.5.43.zip",
 "tomcat/tomcat-8/v8.5.43/src/apache-tomcat-8.5.43-src.tar.gz",
 "tomcat/tomcat-8/v8.5.43/src/apache-tomcat-8.5.43-src.zip"
-],
-"apache-tomcat-9.0.22": [
-"tomcat/tomcat-9/v9.0.22/bin/embed/apache-tomcat-9.0.22-embed.tar.gz",
-"tomcat/tomcat-9/v9.0.22/bin/embed/apache-tomcat-9.0.22-embed.zip",
-"tomcat/tomcat-9/v9.0.22/bin/apache-tomcat-9.0.22-deployer.tar.gz",
-"tomcat/tomcat-9/v9.0.22/bin/apache-tomcat-9.0.22-deployer.zip",
-"tomcat/tomcat-9/v9.0.22/bin/apache-tomcat-9.0.22-fulldocs.tar.gz",
-"tomcat/tomcat-9/v9.0.22/bin/apache-tomcat-9.0.22-windows-x64.zip",
-"tomcat/tomcat-9/v9.0.22/bin/apache-tomcat-9.0.22.exe",
-"tomcat/tomcat-9/v9.0.22/bin/apache-tomcat-9.0.22.tar.gz",
-"tomcat/tomcat-9/v9.0.22/bin/apache-tomcat-9.0.22.zip",
-"tomcat/tomcat-9/v9.0.22/src/apache-tomcat-9.0.22-src.tar.gz",
-"tomcat/tomcat-9/v9.0.22/src/apache-tomcat-9.0.22-src.zip"
 ],
 "apache-tomcat-9.0.24": [
 "tomcat/tomcat-9/v9.0.24/bin/embed/apache-tomcat-9.0.24-embed.tar.gz",
