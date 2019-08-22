@@ -12020,7 +12020,7 @@
 },
 "ode": {
 "bug-database": "https://issues.apache.org/jira/browse/ODE",
-"category": "xml, network-server",
+"category": "xml, network-server, retired",
 "created": "2007-07-31",
 "description": "Apache ODE (Orchestration Director Engine) executes business processes written following the WS-BPEL standard. It talks to web services, sending and receiving messages, handling data manipulation and error recovery as described by your process definition. It supports both long and short living process executions to orchestrate all the services that are part of your application.\n\nWS-BPEL is an XML-based language defining several constructs to write business processes. It defines a set of basic control structures like conditions or loops as well as elements to invoke web services and receive messages from services. It relies on WSDL to express web services interfaces. Message structures can be manipulated, assigning parts or the whole of them to variables that can in turn be used to send other messages.",
 "doap": "http://svn.apache.org/repos/asf/ode/trunk/doap_ODE.rdf",
@@ -12043,7 +12043,7 @@
 }
 ],
 "name": "Apache ODE",
-"pmc": "ode",
+"pmc": "attic",
 "programming-language": "Java",
 "release": [
 {
