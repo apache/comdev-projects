@@ -82,8 +82,8 @@
 ]
 },
 "airflow": {
-"apache-airflow-1.10.4": [
-"airflow/1.10.4/apache-airflow-1.10.4-source.tar.gz"
+"apache-airflow-1.10.5": [
+"airflow/1.10.5/apache-airflow-1.10.5-source.tar.gz"
 ]
 },
 "allura": {
@@ -645,6 +645,9 @@
 "apache-beam-2.15.0": [
 "beam/2.15.0/python/apache-beam-2.15.0.zip",
 "beam/2.15.0/apache-beam-2.15.0-source-release.zip"
+],
+"apache-beam-664e25019fc1977e7041e4b834e8d9628b912473": [
+"beam/vendor/calcite/1_20_0/apache-beam-664e25019fc1977e7041e4b834e8d9628b912473-source-release.zip"
 ]
 },
 "bigtop": {
@@ -2360,9 +2363,6 @@
 ]
 },
 "flink": {
-"flink-1.6.4": [
-"flink/flink-1.6.4/flink-1.6.4-src.tgz"
-],
 "flink-1.7.2": [
 "flink/flink-1.7.2/flink-1.7.2-src.tgz"
 ],
@@ -9908,98 +9908,50 @@
 "73aad693510cf2bcab59bcb2988bc75ab93682eb878043488514d88e21518f84-other.sqlite": [
 "pulsar/pulsar-2.4.1/RPMS/repodata/73aad693510cf2bcab59bcb2988bc75ab93682eb878043488514d88e21518f84-other.sqlite.bz2"
 ],
-"9e7739b1f571ab218a10d305684e20a6d61c6943baba60053f7cd3a1b992e3f1-primary.sqlite": [
-"pulsar/pulsar-2.4.0/RPMS/repodata/9e7739b1f571ab218a10d305684e20a6d61c6943baba60053f7cd3a1b992e3f1-primary.sqlite.bz2"
-],
 "Packages": [
-"pulsar/pulsar-2.4.0/DEB/Packages.gz",
 "pulsar/pulsar-2.4.1/DEB/Packages.gz"
 ],
 "apache-pulsar": [
-"pulsar/pulsar-2.4.0/DEB/apache-pulsar-client.deb",
 "pulsar/pulsar-2.4.1/DEB/apache-pulsar-client.deb"
-],
-"apache-pulsar-2.4.0": [
-"pulsar/pulsar-2.4.0/apache-pulsar-2.4.0-src.tar.gz"
 ],
 "apache-pulsar-2.4.1": [
 "pulsar/pulsar-2.4.1/apache-pulsar-2.4.1-src.tar.gz"
 ],
 "apache-pulsar-client-dev": [
-"pulsar/pulsar-2.4.0/DEB/apache-pulsar-client-dev.deb",
 "pulsar/pulsar-2.4.1/DEB/apache-pulsar-client-dev.deb"
-],
-"bcd8534c6ebb601be09947bdcf8a34b2f853f2c0fb60ee3d897afd9eccfc9969-filelists.sqlite": [
-"pulsar/pulsar-2.4.0/RPMS/repodata/bcd8534c6ebb601be09947bdcf8a34b2f853f2c0fb60ee3d897afd9eccfc9969-filelists.sqlite.bz2"
 ],
 "c5e607a4ac4f44c38f39d07cfb22703c9dbe95742f332618a836966d323462ef-primary.sqlite": [
 "pulsar/pulsar-2.4.1/RPMS/repodata/c5e607a4ac4f44c38f39d07cfb22703c9dbe95742f332618a836966d323462ef-primary.sqlite.bz2"
 ],
-"d39108eb78ccdba9c4e9db4997a6f41ff138e6b9528bffa7b6d9388a5e010787-other.sqlite": [
-"pulsar/pulsar-2.4.0/RPMS/repodata/d39108eb78ccdba9c4e9db4997a6f41ff138e6b9528bffa7b6d9388a5e010787-other.sqlite.bz2"
-],
-"pulsar-io-aerospike-2.4.0.nar": [
-"pulsar/pulsar-2.4.0/connectors/pulsar-io-aerospike-2.4.0.nar"
-],
 "pulsar-io-aerospike-2.4.1.nar": [
 "pulsar/pulsar-2.4.1/connectors/pulsar-io-aerospike-2.4.1.nar"
-],
-"pulsar-io-canal-2.4.0.nar": [
-"pulsar/pulsar-2.4.0/connectors/pulsar-io-canal-2.4.0.nar"
 ],
 "pulsar-io-canal-2.4.1.nar": [
 "pulsar/pulsar-2.4.1/connectors/pulsar-io-canal-2.4.1.nar"
 ],
-"pulsar-io-cassandra-2.4.0.nar": [
-"pulsar/pulsar-2.4.0/connectors/pulsar-io-cassandra-2.4.0.nar"
-],
 "pulsar-io-cassandra-2.4.1.nar": [
 "pulsar/pulsar-2.4.1/connectors/pulsar-io-cassandra-2.4.1.nar"
-],
-"pulsar-io-data-generator-2.4.0.nar": [
-"pulsar/pulsar-2.4.0/connectors/pulsar-io-data-generator-2.4.0.nar"
 ],
 "pulsar-io-data-generator-2.4.1.nar": [
 "pulsar/pulsar-2.4.1/connectors/pulsar-io-data-generator-2.4.1.nar"
 ],
-"pulsar-io-debezium-mysql-2.4.0.nar": [
-"pulsar/pulsar-2.4.0/connectors/pulsar-io-debezium-mysql-2.4.0.nar"
-],
 "pulsar-io-debezium-mysql-2.4.1.nar": [
 "pulsar/pulsar-2.4.1/connectors/pulsar-io-debezium-mysql-2.4.1.nar"
-],
-"pulsar-io-debezium-postgres-2.4.0.nar": [
-"pulsar/pulsar-2.4.0/connectors/pulsar-io-debezium-postgres-2.4.0.nar"
 ],
 "pulsar-io-debezium-postgres-2.4.1.nar": [
 "pulsar/pulsar-2.4.1/connectors/pulsar-io-debezium-postgres-2.4.1.nar"
 ],
-"pulsar-io-elastic-search-2.4.0.nar": [
-"pulsar/pulsar-2.4.0/connectors/pulsar-io-elastic-search-2.4.0.nar"
-],
 "pulsar-io-elastic-search-2.4.1.nar": [
 "pulsar/pulsar-2.4.1/connectors/pulsar-io-elastic-search-2.4.1.nar"
-],
-"pulsar-io-file-2.4.0.nar": [
-"pulsar/pulsar-2.4.0/connectors/pulsar-io-file-2.4.0.nar"
 ],
 "pulsar-io-file-2.4.1.nar": [
 "pulsar/pulsar-2.4.1/connectors/pulsar-io-file-2.4.1.nar"
 ],
-"pulsar-io-hbase-2.4.0.nar": [
-"pulsar/pulsar-2.4.0/connectors/pulsar-io-hbase-2.4.0.nar"
-],
 "pulsar-io-hbase-2.4.1.nar": [
 "pulsar/pulsar-2.4.1/connectors/pulsar-io-hbase-2.4.1.nar"
 ],
-"pulsar-io-hdfs2-2.4.0.nar": [
-"pulsar/pulsar-2.4.0/connectors/pulsar-io-hdfs2-2.4.0.nar"
-],
 "pulsar-io-hdfs2-2.4.1.nar": [
 "pulsar/pulsar-2.4.1/connectors/pulsar-io-hdfs2-2.4.1.nar"
-],
-"pulsar-io-hdfs3-2.4.0.nar": [
-"pulsar/pulsar-2.4.0/connectors/pulsar-io-hdfs3-2.4.0.nar"
 ],
 "pulsar-io-hdfs3-2.4.1.nar": [
 "pulsar/pulsar-2.4.1/connectors/pulsar-io-hdfs3-2.4.1.nar"
@@ -10007,50 +9959,26 @@
 "pulsar-io-influxdb-2.4.1.nar": [
 "pulsar/pulsar-2.4.1/connectors/pulsar-io-influxdb-2.4.1.nar"
 ],
-"pulsar-io-jdbc-2.4.0.nar": [
-"pulsar/pulsar-2.4.0/connectors/pulsar-io-jdbc-2.4.0.nar"
-],
 "pulsar-io-jdbc-2.4.1.nar": [
 "pulsar/pulsar-2.4.1/connectors/pulsar-io-jdbc-2.4.1.nar"
-],
-"pulsar-io-kafka-2.4.0.nar": [
-"pulsar/pulsar-2.4.0/connectors/pulsar-io-kafka-2.4.0.nar"
 ],
 "pulsar-io-kafka-2.4.1.nar": [
 "pulsar/pulsar-2.4.1/connectors/pulsar-io-kafka-2.4.1.nar"
 ],
-"pulsar-io-kafka-connect-adaptor-2.4.0.nar": [
-"pulsar/pulsar-2.4.0/connectors/pulsar-io-kafka-connect-adaptor-2.4.0.nar"
-],
 "pulsar-io-kafka-connect-adaptor-2.4.1.nar": [
 "pulsar/pulsar-2.4.1/connectors/pulsar-io-kafka-connect-adaptor-2.4.1.nar"
-],
-"pulsar-io-kinesis-2.4.0.nar": [
-"pulsar/pulsar-2.4.0/connectors/pulsar-io-kinesis-2.4.0.nar"
 ],
 "pulsar-io-kinesis-2.4.1.nar": [
 "pulsar/pulsar-2.4.1/connectors/pulsar-io-kinesis-2.4.1.nar"
 ],
-"pulsar-io-mongo-2.4.0.nar": [
-"pulsar/pulsar-2.4.0/connectors/pulsar-io-mongo-2.4.0.nar"
-],
 "pulsar-io-mongo-2.4.1.nar": [
 "pulsar/pulsar-2.4.1/connectors/pulsar-io-mongo-2.4.1.nar"
-],
-"pulsar-io-netty-2.4.0.nar": [
-"pulsar/pulsar-2.4.0/connectors/pulsar-io-netty-2.4.0.nar"
 ],
 "pulsar-io-netty-2.4.1.nar": [
 "pulsar/pulsar-2.4.1/connectors/pulsar-io-netty-2.4.1.nar"
 ],
-"pulsar-io-rabbitmq-2.4.0.nar": [
-"pulsar/pulsar-2.4.0/connectors/pulsar-io-rabbitmq-2.4.0.nar"
-],
 "pulsar-io-rabbitmq-2.4.1.nar": [
 "pulsar/pulsar-2.4.1/connectors/pulsar-io-rabbitmq-2.4.1.nar"
-],
-"pulsar-io-twitter-2.4.0.nar": [
-"pulsar/pulsar-2.4.0/connectors/pulsar-io-twitter-2.4.0.nar"
 ],
 "pulsar-io-twitter-2.4.1.nar": [
 "pulsar/pulsar-2.4.1/connectors/pulsar-io-twitter-2.4.1.nar"
@@ -10501,8 +10429,8 @@
 "org.apache.sling.capabilities.jcr-0.1.2": [
 "sling/org.apache.sling.capabilities.jcr-0.1.2-source-release.zip"
 ],
-"org.apache.sling.clam-1.0.2": [
-"sling/org.apache.sling.clam-1.0.2-source-release.zip"
+"org.apache.sling.clam-1.1.0": [
+"sling/org.apache.sling.clam-1.1.0-source-release.zip"
 ],
 "org.apache.sling.cms-0.12.0": [
 "sling/org.apache.sling.cms-0.12.0-source-release.zip"
