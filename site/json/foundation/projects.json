@@ -5858,24 +5858,24 @@
 "bug-database": "https://github.com/apache/couchdb/issues",
 "category": "database, http, network-client, network-server, cloud, content, big-data",
 "created": "2013-11-05",
-"description": "Apache CouchDB is a database that completely embraces the web. Store your data with JSON documents. Access your documents with your web browser, via HTTP. Query, combine, and transform your documents with JavaScript. Apache CouchDB works well with modern web and mobile apps. You can even serve web apps directly out of Apache CouchDB. And you can distribute your data, or your apps, efficiently using Apache CouchDB’s incremental replication. Apache CouchDB supports master-master setups with automatic conflict detection.",
+"description": "Apache CouchDB is a database that completely embraces the web. Store your data with JSON documents. Access your documents with your web browser, via HTTP. Query, combine, and transform your documents with JavaScript. Apache CouchDB works well with modern web and mobile apps. CouchDB's killer feature is its ability to distribute data efficiently using Apache CouchDB’s incremental replication. Apache CouchDB supports master-master setups with automatic conflict detection.",
 "doap": "http://couchdb.apache.org/couchdb-doap.rdf",
-"download-page": "http://couchdb.apache.org/#download",
-"homepage": "http://couchdb.apache.org/",
+"download-page": "https://couchdb.apache.org/#download",
+"homepage": "https://couchdb.apache.org/",
 "license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://couchdb.apache.org/#mailing-lists",
+"mailing-list": "https://couchdb.apache.org/#mailing-lists",
 "name": "Apache CouchDB",
 "pmc": "couchdb",
 "programming-language": "JavaScript, Erlang, C++, C",
 "release": [
 {
-"created": "2014-09-03",
-"name": "Apache CouchDB 1.6.1",
-"revision": "1.6.1"
+"created": "2019-03-11",
+"name": "Apache CouchDB 2.3.1",
+"revision": "2.3.1"
 }
 ],
 "repository": [
-"https://git-wip-us.apache.org/repos/asf/couchdb-couch/repo?p=couchdb.git;a=summary"
+"https://github.com/apache/couchdb"
 ],
 "shortdesc": "NoSQL document database using HTTP, JSON, and MapReduce"
 },
@@ -12487,8 +12487,8 @@
 }
 ],
 "repository": [
-"https://github.com/apache/opennlp.git",
-"http://svn.apache.org/repos/asf/opennlp"
+"http://svn.apache.org/repos/asf/opennlp",
+"https://github.com/apache/opennlp.git"
 ],
 "shortdesc": "Apache OpenNLP library software is a machine learning based toolkit for the processing of natural language text.."
 },
