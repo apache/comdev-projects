@@ -1,9 +1,8 @@
 #!/usr/bin/env python
 
 import os
-import cgi;
-import json;
-import smtplib;
+import cgi
+import json
 import re
 from email.mime.text import MIMEText
 from subprocess import Popen, PIPE
@@ -12,7 +11,7 @@ print ("Content-Type: text/html\r\n\r\n")
 print ("Received!")
 
 try:
-    form = cgi.FieldStorage();
+    form = cgi.FieldStorage()
     user = os.environ['HTTP_X_AUTHENTICATED_USER'] if 'HTTP_X_AUTHENTICATED_USER' in os.environ else "nobody"
     f = form['file'].value if 'file' in form else None
 

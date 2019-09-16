@@ -24,7 +24,7 @@ formData = (
     [ 'dl',       'download-page', 'rdf:resource', 1 ],
     [ 'lang',     'programming-language' ],
     [ 'cat',      'category',      'rdf:resource', 0, 'http://projects.apache.org/category/%s' ],
-);
+)
 
 def addData(val, line):
     fields = len(line)
@@ -58,8 +58,6 @@ projName = re.sub(r"[^\w-]", '_', projName) + ".rdf"
 
 thehomepage = makeURL(form.getvalue('homepage','www.apache.org'))
 
-dict = {'projName' : projName, 'dt': dt, 'thehomepage': thehomepage}
-
 print("""Content-type: application/rdf+xml
 Content-Disposition: attachment; filename=doap_%(projName)s
 
@@ -88,7 +86,8 @@ Content-Disposition: attachment; filename=doap_%(projName)s
 -->
   <Project rdf:about="%(thehomepage)s">
     <created>%(dt)s</created>
-    <license rdf:resource="http://spdx.org/licenses/Apache-2.0" />""" % dict)
+    <license rdf:resource="http://spdx.org/licenses/Apache-2.0" />""" 
+    % {'projName' : projName, 'dt': dt, 'thehomepage': thehomepage} )
 
 for line in formData:
     field = line[0]
