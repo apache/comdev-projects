@@ -1,5 +1,3 @@
-import errtee
-import sys
 """
 
 Reads:
@@ -22,6 +20,8 @@ Creates:
 
 """
 
+import errtee
+import sys
 import io
 import json
 from urlutils import UrlCache
@@ -118,11 +118,11 @@ currentYear = now.year
 firstYear=1999 # earliest date in existing data
 firstKey="%04u-%02u" % (firstYear, 1) # catch all earlier entries
 for y in range(firstYear,currentYear+1):
-	for m in range(1,13): # end is exclusive
-		ym = "%04u-%02u" % (y, m)
-		accounts[ym]=0
-		if y == currentYear and m == currentMonth:
-			break
+    for m in range(1,13): # end is exclusive
+        ym = "%04u-%02u" % (y, m)
+        accounts[ym]=0
+        if y == currentYear and m == currentMonth:
+            break
 
 for p in ldappeople:
     stamp = ldappeople[p]['createTimestamp']

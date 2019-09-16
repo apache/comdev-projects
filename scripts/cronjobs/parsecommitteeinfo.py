@@ -1,3 +1,15 @@
+"""
+
+Reads:
+../../data/committees.xml
+committee-info.txt from Whimsy
+
+Updates:
+../../site/json/foundation/committees.json
+../../site/json/foundation/committees-retired.json
+
+"""
+
 import errtee
 import re
 import json
@@ -15,18 +27,6 @@ import sendmail
 
 sys.path.append("..") # module committee_info is in parent directory
 import committee_info
-
-"""
-
-Reads:
-../../data/committees.xml
-committee-info.txt from Whimsy
-
-Updates:
-../../site/json/foundation/committees.json
-../../site/json/foundation/committees-retired.json
-
-"""
 
 # LDAP group ids not matching committee id; convert group to committeeId
 group_ids = {

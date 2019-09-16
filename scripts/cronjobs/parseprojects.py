@@ -1,17 +1,3 @@
-import errtee
-import sys
-if sys.hexversion < 0x03000000:
-    raise ImportError("This script requires Python 3")
-from xml.dom import minidom
-import xml.etree.ElementTree as ET
-import re, urllib.request
-import urllib.error
-import json
-import os
-from os.path import join
-import traceback
-import sendmail
-
 """
 
 Reads:
@@ -29,19 +15,33 @@ Deletes any obsolete files from:
 
 """
 
+import errtee
+import sys
+if sys.hexversion < 0x03000000:
+    raise ImportError("This script requires Python 3")
+from xml.dom import minidom
+import xml.etree.ElementTree as ET
+import re, urllib.request
+import urllib.error
+import json
+import os
+from os.path import join
+import traceback
+import sendmail
+
 URL_TIMEOUT = 60.0 # timeout for URL requests (may need tweaking)
 
 PROJECTS_DIR = '../../site/json/projects'
 
-projectsList = "../../data/projects.xml";
+projectsList = "../../data/projects.xml"
 PROJECTS_SVN = 'https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects.xml'
 
-save = True;
+save = True
 if os.path.exists("parseprojects-failures.xml"):
     # Only use restart data if requested (e.g. when running interactively)
     if 'restart' in sys.argv:
-        projectsList = "parseprojects-failures.xml";
-        save = False;
+        projectsList = "parseprojects-failures.xml"
+        save = False
     else:
         print("Previous run failed, ignoring restart data")
 
@@ -169,7 +169,7 @@ for s in itemlist :
         for el in project:
             k, v = handleChild(el)
             if not save:
-                print("+ %s" % k);
+                print("+ %s" % k)
             if k in pjson and not k in ['name','homepage']:
                 if type(pjson[k]) is str:
                     pjson[k] = "%s, %s" % (pjson[k], v)
