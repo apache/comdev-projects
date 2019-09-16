@@ -96,7 +96,8 @@ for loc in xmldoc.getElementsByTagName('location') :
         if url.startswith('http'):
             rdf = urllib.request.urlopen(url).read()
         else:
-            rdf = open("../../data/%s" % url, 'r', encoding='utf-8').read()
+            with open("../../data/%s" % url, 'r', encoding='utf-8') as f:
+                rdf = f.read()
             url = "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/%s" % url
         rdfxml = ET.fromstring(rdf)
         rdfdata = rdfxml[0]
