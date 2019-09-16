@@ -1,9 +1,3 @@
-import sys
-# The output from json.dumps() has a trailing space in Python2, it is absent in Python3
-# So ensure we always use the same python version as the crontab
-if sys.hexversion < 0x030000F0:
-    raise RuntimeError("This script requires Python3")
-
 """
 Extracts data showing the number of accounts created each month.
 
@@ -41,6 +35,12 @@ This is so it sees accounts that were created after the final run
 on the last day of the month
 
 """
+
+import sys
+# The output from json.dumps() has a trailing space in Python2, it is absent in Python3
+# So ensure we always use the same python version as the crontab
+if sys.hexversion < 0x030000F0:
+    raise RuntimeError("This script requires Python3")
 
 import json
 from datetime import datetime, timedelta
