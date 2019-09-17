@@ -1297,9 +1297,9 @@
 "commons/bsf/source/bsf-3.1-src.tar.gz",
 "commons/bsf/source/bsf-3.1-src.zip"
 ],
-"commons-48": [
-"commons/commons-parent/commons-parent-48-src.tar.gz",
-"commons/commons-parent/commons-parent-48-src.zip"
+"commons-49": [
+"commons/commons-parent/commons-parent-49-src.tar.gz",
+"commons/commons-parent/commons-parent-49-src.zip"
 ],
 "commons-beanutils-1.9.4": [
 "commons/beanutils/source/commons-beanutils-1.9.4-src.tar.gz",
@@ -2699,6 +2699,7 @@
 "hbase/2.0.6/RELEASENOTES.md",
 "hbase/2.1.6/RELEASENOTES.md",
 "hbase/2.2.0/RELEASENOTES.md",
+"hbase/2.2.1/RELEASENOTES.md",
 "hbase/hbase-filesystem-1.0.0-alpha1/RELEASENOTES.md",
 "hbase/hbase-thirdparty-2.2.1/RELEASENOTES.md"
 ],
@@ -2716,6 +2717,9 @@
 ],
 "hbase-2.2.0": [
 "hbase/2.2.0/hbase-2.2.0-src.tar.gz"
+],
+"hbase-2.2.1": [
+"hbase/2.2.1/hbase-2.2.1-src.tar.gz"
 ],
 "hbase-connectors-1.0.0": [
 "hbase/hbase-connectors-1.0.0/hbase-connectors-1.0.0-src.tar.gz"
@@ -2917,6 +2921,9 @@
 "ignite": {
 "apache-ignite-2.7.5": [
 "ignite/2.7.5/apache-ignite-2.7.5-src.zip"
+],
+"apache-ignite-2.7.6": [
+"ignite/2.7.6/apache-ignite-2.7.6-src.zip"
 ]
 },
 "impala": {
@@ -3001,6 +3008,9 @@
 ],
 "apache-echarts-4.2.1-incubating": [
 "incubator/echarts/4.2.1/apache-echarts-4.2.1-incubating-src.zip"
+],
+"apache-echarts-4.3.0-incubating": [
+"incubator/echarts/4.3.0/apache-echarts-4.3.0-incubating-src.zip"
 ]
 },
 "incubator-edgent": {
@@ -5784,8 +5794,8 @@
 "jackrabbit-oak-1.6.17": [
 "jackrabbit/oak/1.6.17/jackrabbit-oak-1.6.17-src.zip"
 ],
-"jackrabbit-oak-1.8.16": [
-"jackrabbit/oak/1.8.16/jackrabbit-oak-1.8.16-src.zip"
+"jackrabbit-oak-1.8.17": [
+"jackrabbit/oak/1.8.17/jackrabbit-oak-1.8.17-src.zip"
 ],
 "jackrabbit-ocm-2.0.0": [
 "jackrabbit/ocm/2.0.0/jackrabbit-ocm-2.0.0-source-release.zip"
@@ -11493,52 +11503,52 @@
 ]
 },
 "syncope": {
-"apache-syncope-2.0.13": [
-"syncope/2.0.13/apache-syncope-2.0.13.deb"
+"apache-syncope-2.0.14": [
+"syncope/2.0.14/apache-syncope-2.0.14.deb"
 ],
-"apache-syncope-2.1.4": [
-"syncope/2.1.4/apache-syncope-2.1.4.deb"
+"apache-syncope-2.1.5": [
+"syncope/2.1.5/apache-syncope-2.1.5.deb"
 ],
-"apache-syncope-console-2.0.13": [
-"syncope/2.0.13/apache-syncope-console-2.0.13.deb"
+"apache-syncope-console-2.0.14": [
+"syncope/2.0.14/apache-syncope-console-2.0.14.deb"
 ],
-"apache-syncope-console-2.1.4": [
-"syncope/2.1.4/apache-syncope-console-2.1.4.deb"
+"apache-syncope-console-2.1.5": [
+"syncope/2.1.5/apache-syncope-console-2.1.5.deb"
 ],
-"apache-syncope-enduser-2.0.13": [
-"syncope/2.0.13/apache-syncope-enduser-2.0.13.deb"
+"apache-syncope-enduser-2.0.14": [
+"syncope/2.0.14/apache-syncope-enduser-2.0.14.deb"
 ],
-"apache-syncope-enduser-2.1.4": [
-"syncope/2.1.4/apache-syncope-enduser-2.1.4.deb"
+"apache-syncope-enduser-2.1.5": [
+"syncope/2.1.5/apache-syncope-enduser-2.1.5.deb"
 ],
-"org.apache.syncope.ide.eclipse.site-2.0.13": [
-"syncope/2.0.13/org.apache.syncope.ide.eclipse.site-2.0.13.zip"
+"org.apache.syncope.ide.eclipse.site-2.0.14": [
+"syncope/2.0.14/org.apache.syncope.ide.eclipse.site-2.0.14.zip"
 ],
-"org.apache.syncope.ide.eclipse.site-2.1.4": [
-"syncope/2.1.4/org.apache.syncope.ide.eclipse.site-2.1.4.zip"
+"org.apache.syncope.ide.eclipse.site-2.1.5": [
+"syncope/2.1.5/org.apache.syncope.ide.eclipse.site-2.1.5.zip"
 ],
-"syncope-2.0.13": [
-"syncope/2.0.13/syncope-2.0.13-source-release.zip",
-"syncope/2.0.13/syncope-standalone-2.0.13-distribution.zip"
+"syncope-2.0.14": [
+"syncope/2.0.14/syncope-2.0.14-source-release.zip",
+"syncope/2.0.14/syncope-standalone-2.0.14-distribution.zip"
 ],
-"syncope-2.1.4": [
-"syncope/2.1.4/syncope-2.1.4-source-release.zip",
-"syncope/2.1.4/syncope-standalone-2.1.4-distribution.zip"
+"syncope-2.1.5": [
+"syncope/2.1.5/syncope-2.1.5-source-release.zip",
+"syncope/2.1.5/syncope-standalone-2.1.5-distribution.zip"
 ],
-"syncope-client-cli-2.0.13": [
-"syncope/2.0.13/syncope-client-cli-2.0.13.zip"
+"syncope-client-cli-2.0.14": [
+"syncope/2.0.14/syncope-client-cli-2.0.14.zip"
 ],
-"syncope-client-cli-2.1.4": [
-"syncope/2.1.4/syncope-client-cli-2.1.4.zip"
+"syncope-client-cli-2.1.5": [
+"syncope/2.1.5/syncope-client-cli-2.1.5.zip"
 ],
-"syncope-core-upgrade-2.1.4": [
-"syncope/2.1.4/syncope-core-upgrade-2.1.4.zip"
+"syncope-core-upgrade-2.1.5": [
+"syncope/2.1.5/syncope-core-upgrade-2.1.5.zip"
 ],
-"syncope-ide-netbeans-2.0.13.nbm": [
-"syncope/2.0.13/syncope-ide-netbeans-2.0.13.nbm"
+"syncope-ide-netbeans-2.0.14.nbm": [
+"syncope/2.0.14/syncope-ide-netbeans-2.0.14.nbm"
 ],
-"syncope-ide-netbeans-2.1.4.nbm": [
-"syncope/2.1.4/syncope-ide-netbeans-2.1.4.nbm"
+"syncope-ide-netbeans-2.1.5.nbm": [
+"syncope/2.1.5/syncope-ide-netbeans-2.1.5.nbm"
 ]
 },
 "systemml": {
@@ -11895,6 +11905,22 @@
 "tomee/tomee-8.0.0-M3/apache-tomee-8.0.0-M3-webprofile.tar.gz",
 "tomee/tomee-8.0.0-M3/apache-tomee-8.0.0-M3-webprofile.zip"
 ],
+"apache-tomee-8.0.0-microprofile": [
+"tomee/tomee-8.0.0/apache-tomee-8.0.0-microprofile.tar.gz",
+"tomee/tomee-8.0.0/apache-tomee-8.0.0-microprofile.zip"
+],
+"apache-tomee-8.0.0-plume": [
+"tomee/tomee-8.0.0/apache-tomee-8.0.0-plume.tar.gz",
+"tomee/tomee-8.0.0/apache-tomee-8.0.0-plume.zip"
+],
+"apache-tomee-8.0.0-plus": [
+"tomee/tomee-8.0.0/apache-tomee-8.0.0-plus.tar.gz",
+"tomee/tomee-8.0.0/apache-tomee-8.0.0-plus.zip"
+],
+"apache-tomee-8.0.0-webprofile": [
+"tomee/tomee-8.0.0/apache-tomee-8.0.0-webprofile.tar.gz",
+"tomee/tomee-8.0.0/apache-tomee-8.0.0-webprofile.zip"
+],
 "arquillian-tomee-moviefun-example-1.7.5": [
 "tomee/tomee-1.7.5/arquillian-tomee-moviefun-example-1.7.5.war"
 ],
@@ -11919,6 +11945,10 @@
 "examples-7.1.1": [
 "tomee/tomee-7.1.1/examples-7.1.1-src.tar.gz",
 "tomee/tomee-7.1.1/examples-7.1.1-src.zip"
+],
+"examples-8.0.0": [
+"tomee/tomee-8.0.0/examples-8.0.0-src.tar.gz",
+"tomee/tomee-8.0.0/examples-8.0.0-src.zip"
 ],
 "examples-8.0.0-M1": [
 "tomee/tomee-8.0.0-M1/examples-8.0.0-M1-src.tar.gz",
@@ -12016,6 +12046,9 @@
 ],
 "tomee-7.1.1": [
 "tomee/tomee-7.1.1/tomee-webapp-7.1.1.war"
+],
+"tomee-8.0.0": [
+"tomee/tomee-8.0.0/tomee-project-8.0.0-source-release.zip"
 ],
 "tomee-8.0.0-M1": [
 "tomee/tomee-8.0.0-M1/tomee-project-8.0.0-M1-source-release.zip",
@@ -12529,9 +12562,9 @@
 "wicket/8.6.1/apache-wicket-8.6.1.tar.gz",
 "wicket/8.6.1/apache-wicket-8.6.1.zip"
 ],
-"apache-wicket-9.0.0-M2": [
-"wicket/9.0.0-M2/apache-wicket-9.0.0-M2.tar.gz",
-"wicket/9.0.0-M2/apache-wicket-9.0.0-M2.zip"
+"apache-wicket-9.0.0-M3": [
+"wicket/9.0.0-M3/apache-wicket-9.0.0-M3.tar.gz",
+"wicket/9.0.0-M3/apache-wicket-9.0.0-M3.zip"
 ]
 },
 "ws": {
