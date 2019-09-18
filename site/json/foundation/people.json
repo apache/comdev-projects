@@ -15528,6 +15528,7 @@
 "airflow-pmc",
 "avro",
 "avro-pmc",
+"druid",
 "incubator",
 "parquet"
 ],
@@ -26003,6 +26004,7 @@
 "datasketches",
 "dlab",
 "dolphinscheduler",
+"druid",
 "flagon",
 "gora",
 "gora-pmc",
@@ -32129,6 +32131,13 @@
 "member": false,
 "name": "Manuel Gamerdinger"
 },
+"mgelbana": {
+"groups": [
+"calcite"
+],
+"member": false,
+"name": "Mohamed Mohsen"
+},
 "mgentry": {
 "groups": [
 "cayenne",
@@ -37382,7 +37391,8 @@
 },
 "penghui": {
 "groups": [
-"pulsar"
+"pulsar",
+"pulsar-pmc"
 ],
 "member": false,
 "name": "Penghui Li"
@@ -46625,6 +46635,13 @@
 "member": false,
 "name": "Sumit Gupta"
 },
+"sunbufu": {
+"groups": [
+"incubator"
+],
+"member": false,
+"name": "Haisheng Sun"
+},
 "sunchao": {
 "groups": [
 "arrow",
@@ -53594,7 +53611,8 @@
 },
 "zhaoyanan": {
 "groups": [
-"incubator"
+"incubator",
+"shardingsphere"
 ],
 "member": false,
 "name": "Yanan Zhao"
