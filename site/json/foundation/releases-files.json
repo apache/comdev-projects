@@ -2919,9 +2919,6 @@
 ]
 },
 "ignite": {
-"apache-ignite-2.7.5": [
-"ignite/2.7.5/apache-ignite-2.7.5-src.zip"
-],
 "apache-ignite-2.7.6": [
 "ignite/2.7.6/apache-ignite-2.7.6-src.zip"
 ]
@@ -6013,6 +6010,9 @@
 ],
 "apache-juneau-8.1.0": [
 "juneau/source/juneau-8.1.0/apache-juneau-8.1.0-src.zip"
+],
+"apache-juneau-8.1.1": [
+"juneau/source/juneau-8.1.1/apache-juneau-8.1.1-src.zip"
 ]
 },
 "kafka": {
@@ -6541,8 +6541,8 @@
 "maven-invoker-3.0.1": [
 "maven/shared/maven-invoker-3.0.1-source-release.zip"
 ],
-"maven-invoker-plugin-3.2.0": [
-"maven/plugins/maven-invoker-plugin-3.2.0-source-release.zip"
+"maven-invoker-plugin-3.2.1": [
+"maven/plugins/maven-invoker-plugin-3.2.1-source-release.zip"
 ],
 "maven-jar-plugin-3.1.2": [
 "maven/plugins/maven-jar-plugin-3.1.2-source-release.zip"
@@ -9463,6 +9463,11 @@
 "openoffice/4.1.6/source/apache-openoffice-4.1.6-r1844436-src.tar.bz2",
 "openoffice/4.1.6/source/apache-openoffice-4.1.6-r1844436-src.tar.gz",
 "openoffice/4.1.6/source/apache-openoffice-4.1.6-r1844436-src.zip"
+],
+"apache-openoffice-4.1.7-46059c9192": [
+"openoffice/4.1.7/source/apache-openoffice-4.1.7-46059c9192-src.tar.bz2",
+"openoffice/4.1.7/source/apache-openoffice-4.1.7-46059c9192-src.tar.gz",
+"openoffice/4.1.7/source/apache-openoffice-4.1.7-46059c9192-src.zip"
 ]
 },
 "openwebbeans": {
@@ -9582,8 +9587,8 @@
 "pdfbox-1.8.16": [
 "pdfbox/1.8.16/pdfbox-1.8.16-src.zip"
 ],
-"pdfbox-2.0.16": [
-"pdfbox/2.0.16/pdfbox-2.0.16-src.zip"
+"pdfbox-2.0.17": [
+"pdfbox/2.0.17/pdfbox-2.0.17-src.zip"
 ]
 },
 "perl": {
@@ -11077,8 +11082,8 @@
 "sling/org.apache.sling.starter-11-source-release.zip",
 "sling/org.apache.sling.starter-11-webapp.war"
 ],
-"org.apache.sling.starter.content-1.0.6": [
-"sling/org.apache.sling.starter.content-1.0.6-source-release.zip"
+"org.apache.sling.starter.content-1.0.8": [
+"sling/org.apache.sling.starter.content-1.0.8-source-release.zip"
 ],
 "org.apache.sling.starter.startup-1.0.6": [
 "sling/org.apache.sling.starter.startup-1.0.6-source-release.zip"
@@ -11770,19 +11775,6 @@
 "tomcat/tomcat-7/v7.0.96/src/apache-tomcat-7.0.96-src.tar.gz",
 "tomcat/tomcat-7/v7.0.96/src/apache-tomcat-7.0.96-src.zip"
 ],
-"apache-tomcat-8.5.45": [
-"tomcat/tomcat-8/v8.5.45/bin/embed/apache-tomcat-8.5.45-embed.tar.gz",
-"tomcat/tomcat-8/v8.5.45/bin/embed/apache-tomcat-8.5.45-embed.zip",
-"tomcat/tomcat-8/v8.5.45/bin/apache-tomcat-8.5.45-deployer.tar.gz",
-"tomcat/tomcat-8/v8.5.45/bin/apache-tomcat-8.5.45-deployer.zip",
-"tomcat/tomcat-8/v8.5.45/bin/apache-tomcat-8.5.45-fulldocs.tar.gz",
-"tomcat/tomcat-8/v8.5.45/bin/apache-tomcat-8.5.45-windows-x64.zip",
-"tomcat/tomcat-8/v8.5.45/bin/apache-tomcat-8.5.45.exe",
-"tomcat/tomcat-8/v8.5.45/bin/apache-tomcat-8.5.45.tar.gz",
-"tomcat/tomcat-8/v8.5.45/bin/apache-tomcat-8.5.45.zip",
-"tomcat/tomcat-8/v8.5.45/src/apache-tomcat-8.5.45-src.tar.gz",
-"tomcat/tomcat-8/v8.5.45/src/apache-tomcat-8.5.45-src.zip"
-],
 "apache-tomcat-8.5.46": [
 "tomcat/tomcat-8/v8.5.46/bin/embed/apache-tomcat-8.5.46-embed.tar.gz",
 "tomcat/tomcat-8/v8.5.46/bin/embed/apache-tomcat-8.5.46-embed.zip",
@@ -11795,19 +11787,6 @@
 "tomcat/tomcat-8/v8.5.46/bin/apache-tomcat-8.5.46.zip",
 "tomcat/tomcat-8/v8.5.46/src/apache-tomcat-8.5.46-src.tar.gz",
 "tomcat/tomcat-8/v8.5.46/src/apache-tomcat-8.5.46-src.zip"
-],
-"apache-tomcat-9.0.24": [
-"tomcat/tomcat-9/v9.0.24/bin/embed/apache-tomcat-9.0.24-embed.tar.gz",
-"tomcat/tomcat-9/v9.0.24/bin/embed/apache-tomcat-9.0.24-embed.zip",
-"tomcat/tomcat-9/v9.0.24/bin/apache-tomcat-9.0.24-deployer.tar.gz",
-"tomcat/tomcat-9/v9.0.24/bin/apache-tomcat-9.0.24-deployer.zip",
-"tomcat/tomcat-9/v9.0.24/bin/apache-tomcat-9.0.24-fulldocs.tar.gz",
-"tomcat/tomcat-9/v9.0.24/bin/apache-tomcat-9.0.24-windows-x64.zip",
-"tomcat/tomcat-9/v9.0.24/bin/apache-tomcat-9.0.24.exe",
-"tomcat/tomcat-9/v9.0.24/bin/apache-tomcat-9.0.24.tar.gz",
-"tomcat/tomcat-9/v9.0.24/bin/apache-tomcat-9.0.24.zip",
-"tomcat/tomcat-9/v9.0.24/src/apache-tomcat-9.0.24-src.tar.gz",
-"tomcat/tomcat-9/v9.0.24/src/apache-tomcat-9.0.24-src.zip"
 ],
 "apache-tomcat-9.0.26": [
 "tomcat/tomcat-9/v9.0.26/bin/embed/apache-tomcat-9.0.26-embed.tar.gz",
