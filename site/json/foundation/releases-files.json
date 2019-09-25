@@ -1294,6 +1294,10 @@
 "commons/bcel/source/bcel-6.3.1-src.tar.gz",
 "commons/bcel/source/bcel-6.3.1-src.zip"
 ],
+"bcel-6.4.0": [
+"commons/bcel/source/bcel-6.4.0-src.tar.gz",
+"commons/bcel/source/bcel-6.4.0-src.zip"
+],
 "bsf-2.4.0": [
 "commons/bsf/source/bsf-src-2.4.0.tar.gz",
 "commons/bsf/source/bsf-src-2.4.0.zip"
@@ -2616,12 +2620,6 @@
 ]
 },
 "hadoop": {
-"RELEASENOTES.md": [
-"hadoop/common/current2/RELEASENOTES.md",
-"hadoop/common/hadoop-3.2.1/RELEASENOTES.md",
-"hadoop/core/current2/RELEASENOTES.md",
-"hadoop/core/hadoop-3.2.1/RELEASENOTES.md"
-],
 "hadoop-2.7.7": [
 "hadoop/common/hadoop-2.7.7/hadoop-2.7.7-src.tar.gz",
 "hadoop/common/hadoop-2.7.7/hadoop-2.7.7.tar.gz",
@@ -2649,16 +2647,12 @@
 "hadoop/core/hadoop-3.1.2/hadoop-3.1.2.tar.gz"
 ],
 "hadoop-3.2.1": [
-"hadoop/common/current2/hadoop-3.2.1-site.tar.gz",
 "hadoop/common/current2/hadoop-3.2.1-src.tar.gz",
 "hadoop/common/current2/hadoop-3.2.1.tar.gz",
-"hadoop/common/hadoop-3.2.1/hadoop-3.2.1-site.tar.gz",
 "hadoop/common/hadoop-3.2.1/hadoop-3.2.1-src.tar.gz",
 "hadoop/common/hadoop-3.2.1/hadoop-3.2.1.tar.gz",
-"hadoop/core/current2/hadoop-3.2.1-site.tar.gz",
 "hadoop/core/current2/hadoop-3.2.1-src.tar.gz",
 "hadoop/core/current2/hadoop-3.2.1.tar.gz",
-"hadoop/core/hadoop-3.2.1/hadoop-3.2.1-site.tar.gz",
 "hadoop/core/hadoop-3.2.1/hadoop-3.2.1-src.tar.gz",
 "hadoop/core/hadoop-3.2.1/hadoop-3.2.1.tar.gz"
 ],
@@ -2697,11 +2691,10 @@
 },
 "hbase": {
 "RELEASENOTES.md": [
-"hbase/2.0.6/RELEASENOTES.md",
 "hbase/2.1.6/RELEASENOTES.md",
-"hbase/2.2.0/RELEASENOTES.md",
 "hbase/2.2.1/RELEASENOTES.md",
 "hbase/hbase-filesystem-1.0.0-alpha1/RELEASENOTES.md",
+"hbase/hbase-operator-tools-1.0.0/RELEASENOTES.md",
 "hbase/hbase-thirdparty-2.2.1/RELEASENOTES.md"
 ],
 "hbase-1.3.5": [
@@ -2710,14 +2703,8 @@
 "hbase-1.4.10": [
 "hbase/1.4.10/hbase-1.4.10-src.tar.gz"
 ],
-"hbase-2.0.6": [
-"hbase/2.0.6/hbase-2.0.6-src.tar.gz"
-],
 "hbase-2.1.6": [
 "hbase/2.1.6/hbase-2.1.6-src.tar.gz"
-],
-"hbase-2.2.0": [
-"hbase/2.2.0/hbase-2.2.0-src.tar.gz"
 ],
 "hbase-2.2.1": [
 "hbase/2.2.1/hbase-2.2.1-src.tar.gz"
@@ -2727,6 +2714,9 @@
 ],
 "hbase-filesystem-1.0.0-alpha1": [
 "hbase/hbase-filesystem-1.0.0-alpha1/hbase-filesystem-1.0.0-alpha1-src.tar.gz"
+],
+"hbase-operator-tools-1.0.0": [
+"hbase/hbase-operator-tools-1.0.0/hbase-operator-tools-1.0.0-src.tar.gz"
 ],
 "hbase-thirdparty-2.2.1": [
 "hbase/hbase-thirdparty-2.2.1/hbase-thirdparty-2.2.1-src.tar.gz"
@@ -2987,6 +2977,9 @@
 ],
 "apache-druid-0.15.1-incubating": [
 "incubator/druid/0.15.1-incubating/apache-druid-0.15.1-incubating-src.tar.gz"
+],
+"apache-druid-0.16.0-incubating": [
+"incubator/druid/0.16.0-incubating/apache-druid-0.16.0-incubating-src.tar.gz"
 ]
 },
 "incubator-dubbo": {
@@ -5995,6 +5988,9 @@
 ],
 "johnzon-1.1.13": [
 "johnzon/johnzon-1.1.13/johnzon-1.1.13-source-release.zip"
+],
+"johnzon-1.2.0": [
+"johnzon/johnzon-1.2.0/johnzon-1.2.0-source-release.zip"
 ]
 },
 "jspwiki": {
