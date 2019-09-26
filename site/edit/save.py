@@ -24,16 +24,13 @@ try:
             js[k] = form[k].value
         with open("../json/projects/%s" % f, "w") as out:
             json.dump(js, out, sort_keys=True, indent=0)
-            out.close()
 
         with open("../json/foundation/projects.json", "r") as g:
             gjson = json.loads(g.read())
-            g.close()
 
             gjson[project] = js
-            with open("../json/foundation/projects.json", "w") as og:
-                json.dump(gjson, og, sort_keys=True, indent=0)
-                og.close()
+            with open("../json/foundation/projects.json", "w", encoding='utf-8') as og:
+                json.dump(gjson, og, sort_keys=True, indent=0, ensure_ascii=False)
 
 
         text = """
