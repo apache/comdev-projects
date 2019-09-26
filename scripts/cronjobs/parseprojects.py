@@ -180,7 +180,7 @@ for s in itemlist :
                 # Deal with multiple entry tags first
                 if k in ['release', 'implements', 'repository', 'developer', 'maintainer', 'member', 'helper']:
                     pjson[k] = []
-                    for xk in v:
+                    for xk in sorted(v):
                         pjson[k].append(v[xk])
                 else:
                     pjson[k] = v
