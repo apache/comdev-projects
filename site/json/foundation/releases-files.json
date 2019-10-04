@@ -1290,10 +1290,6 @@
 "commons/sanselan/source/apache-sanselan-incubating-0.97-src.tar.gz",
 "commons/sanselan/source/apache-sanselan-incubating-0.97-src.zip"
 ],
-"bcel-6.4.0": [
-"commons/bcel/source/bcel-6.4.0-src.tar.gz",
-"commons/bcel/source/bcel-6.4.0-src.zip"
-],
 "bcel-6.4.1": [
 "commons/bcel/source/bcel-6.4.1-src.tar.gz",
 "commons/bcel/source/bcel-6.4.1-src.zip"
@@ -1371,6 +1367,12 @@
 "commons/daemon/source/commons-daemon-1.2.1-native-src.zip",
 "commons/daemon/source/commons-daemon-1.2.1-src.tar.gz",
 "commons/daemon/source/commons-daemon-1.2.1-src.zip"
+],
+"commons-daemon-1.2.2": [
+"commons/daemon/source/commons-daemon-1.2.2-native-src.tar.gz",
+"commons/daemon/source/commons-daemon-1.2.2-native-src.zip",
+"commons/daemon/source/commons-daemon-1.2.2-src.tar.gz",
+"commons/daemon/source/commons-daemon-1.2.2-src.zip"
 ],
 "commons-dbcp-1.3": [
 "commons/dbcp/source/commons-dbcp-1.3-src.tar.gz",
@@ -2515,8 +2517,8 @@
 "geronimo-jcdi_2.0_spec-1.1": [
 "geronimo/specs/geronimo-jcdi_2.0_spec-1.1-source-release.zip"
 ],
-"geronimo-json_1.1_spec-1.1": [
-"geronimo/specs/geronimo-json_1.1_spec-1.1-source-release.zip"
+"geronimo-json_1.1_spec-1.3": [
+"geronimo/specs/geronimo-json_1.1_spec-1.3-source-release.zip"
 ],
 "geronimo-jsonb_1.0_spec-1.2": [
 "geronimo/specs/geronimo-jsonb_1.0_spec-1.2-source-release.zip"
@@ -2945,6 +2947,9 @@
 "apache-datasketches-java-1.0.0-incubating": [
 "incubator/datasketches/java/1.0.0-incubating/apache-datasketches-java-1.0.0-incubating-src.zip"
 ],
+"apache-datasketches-java-1.1.0-incubating": [
+"incubator/datasketches/java/1.1.0-incubating/apache-datasketches-java-1.1.0-incubating-src.zip"
+],
 "apache-datasketches-memory-1.0.0-incubating": [
 "incubator/datasketches/memory/1.0.0-incubating/apache-datasketches-memory-1.0.0-incubating-src.zip"
 ],
@@ -3077,6 +3082,9 @@
 ],
 "apache-milagro-crypto-js-1.0.0-incubating": [
 "incubator/milagro/apache-milagro-crypto-js-1.0.0-incubating/apache-milagro-crypto-js-1.0.0-incubating-src.tar.gz"
+],
+"apache-milagro-dta-0.1.0-incubating": [
+"incubator/milagro/apache-milagro-dta-0.1.0-incubating/apache-milagro-dta-0.1.0-incubating-src.tar.gz"
 ]
 },
 "incubator-mxnet": {
@@ -5986,8 +5994,8 @@
 "johnzon-1.1.13": [
 "johnzon/johnzon-1.1.13/johnzon-1.1.13-source-release.zip"
 ],
-"johnzon-1.2.0": [
-"johnzon/johnzon-1.2.0/johnzon-1.2.0-source-release.zip"
+"johnzon-1.2.1": [
+"johnzon/johnzon-1.2.1/johnzon-1.2.1-source-release.zip"
 ]
 },
 "jspwiki": {
@@ -6344,6 +6352,12 @@
 "manifoldcf/apache-manifoldcf-2.13/apache-manifoldcf-2.13-lib.zip",
 "manifoldcf/apache-manifoldcf-2.13/apache-manifoldcf-2.13-src.tar.gz",
 "manifoldcf/apache-manifoldcf-2.13/apache-manifoldcf-2.13-src.zip"
+],
+"apache-manifoldcf-2.14": [
+"manifoldcf/apache-manifoldcf-2.14/apache-manifoldcf-2.14-lib.tar.gz",
+"manifoldcf/apache-manifoldcf-2.14/apache-manifoldcf-2.14-lib.zip",
+"manifoldcf/apache-manifoldcf-2.14/apache-manifoldcf-2.14-src.tar.gz",
+"manifoldcf/apache-manifoldcf-2.14/apache-manifoldcf-2.14-src.zip"
 ],
 "apache-manifoldcf-elasticsearch-1.5-plugin-2.0.2": [
 "manifoldcf/apache-manifoldcf-elasticsearch-1.5-plugin-2.0.2/apache-manifoldcf-elasticsearch-1.5-plugin-2.0.2-src.tar.gz",
@@ -9409,8 +9423,8 @@
 ]
 },
 "oodt": {
-"apache-oodt-1.2.5": [
-"oodt/apache-oodt-1.2.5-src.zip"
+"apache-oodt-1.9": [
+"oodt/apache-oodt-1.9-src.zip"
 ]
 },
 "oozie": {
@@ -9466,8 +9480,8 @@
 ]
 },
 "openwebbeans": {
-"meecrowave-1.2.8": [
-"openwebbeans/meecrowave/1.2.8/meecrowave-1.2.8-source-release.zip"
+"meecrowave-1.2.9": [
+"openwebbeans/meecrowave/1.2.9/meecrowave-1.2.9-source-release.zip"
 ],
 "openwebbeans-1.2.8": [
 "openwebbeans/1.2.8/openwebbeans-1.2.8-source-release.zip"
@@ -9475,8 +9489,8 @@
 "openwebbeans-1.7.6": [
 "openwebbeans/1.7.6/openwebbeans-1.7.6-source-release.zip"
 ],
-"openwebbeans-2.0.11": [
-"openwebbeans/2.0.11/openwebbeans-2.0.11-source-release.zip"
+"openwebbeans-2.0.12": [
+"openwebbeans/2.0.12/openwebbeans-2.0.12-source-release.zip"
 ]
 },
 "openwhisk": {
