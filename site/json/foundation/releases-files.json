@@ -627,15 +627,17 @@
 ],
 "apache-beam-2.14.0": [
 "beam/2.14.0/python/apache-beam-2.14.0.zip",
-"beam/2.14.0/apache-beam-2.14.0-source-release.zip",
-"beam/latest/2.14.0/python/apache-beam-2.14.0.zip",
-"beam/latest/2.14.0/apache-beam-2.14.0-source-release.zip",
-"beam/latest/python/apache-beam-2.14.0.zip",
-"beam/latest/apache-beam-2.14.0-source-release.zip"
+"beam/2.14.0/apache-beam-2.14.0-source-release.zip"
 ],
 "apache-beam-2.15.0": [
 "beam/2.15.0/python/apache-beam-2.15.0.zip",
 "beam/2.15.0/apache-beam-2.15.0-source-release.zip"
+],
+"apache-beam-2.16.0": [
+"beam/2.16.0/python/apache-beam-2.16.0.zip",
+"beam/2.16.0/apache-beam-2.16.0-source-release.zip",
+"beam/latest/python/apache-beam-2.16.0.zip",
+"beam/latest/apache-beam-2.16.0-source-release.zip"
 ],
 "apache-beam-664e25019fc1977e7041e4b834e8d9628b912473": [
 "beam/vendor/calcite/1_20_0/apache-beam-664e25019fc1977e7041e4b834e8d9628b912473-source-release.zip"
@@ -2691,7 +2693,8 @@
 "hbase/2.2.1/RELEASENOTES.md",
 "hbase/hbase-filesystem-1.0.0-alpha1/RELEASENOTES.md",
 "hbase/hbase-operator-tools-1.0.0/RELEASENOTES.md",
-"hbase/hbase-thirdparty-3.0.0/RELEASENOTES.md"
+"hbase/hbase-thirdparty-3.0.0/RELEASENOTES.md",
+"hbase/hbase-thirdparty-3.1.0/RELEASENOTES.md"
 ],
 "hbase-1.3.5": [
 "hbase/1.3.5/hbase-1.3.5-src.tar.gz"
@@ -2716,6 +2719,9 @@
 ],
 "hbase-thirdparty-3.0.0": [
 "hbase/hbase-thirdparty-3.0.0/hbase-thirdparty-3.0.0-src.tar.gz"
+],
+"hbase-thirdparty-3.1.0": [
+"hbase/hbase-thirdparty-3.1.0/hbase-thirdparty-3.1.0-src.tar.gz"
 ]
 },
 "helix": {
@@ -7068,8 +7074,8 @@
 "nbm-archetype-1.16": [
 "netbeans/netbeans-maven-archetypes/nbm-archetype/nbm-archetype-1.16/nbm-archetype-1.16-source-release.zip"
 ],
-"nbm-maven-harness-11.0": [
-"netbeans/netbeans-maven-utilities/nbm-maven-harness/nbm-maven-harness-11.0/nbm-maven-harness-11.0-source-release.zip"
+"nbm-maven-harness-11.1": [
+"netbeans/netbeans-maven-utilities/nbm-maven-harness/nbm-maven-harness-11.1/nbm-maven-harness-11.1-source-release.zip"
 ],
 "nbm-maven-plugin-4.2": [
 "netbeans/netbeans-maven-utilities/nbm-maven-plugin/nbm-maven-plugin-4.2/nbm-maven-plugin-4.2-source-release.zip"
@@ -9507,14 +9513,8 @@
 "openwhisk-catalog-0.10.0-incubating": [
 "openwhisk/incubating/openwhisk-catalog-0.10.0-incubating-sources.tar.gz"
 ],
-"openwhisk-cli-0.10.0-incubating": [
-"openwhisk/incubating/openwhisk-cli-0.10.0-incubating-sources.tar.gz"
-],
 "openwhisk-cli-1.0.0": [
 "openwhisk/openwhisk-cli-1.0.0-sources.tar.gz"
-],
-"openwhisk-client-go-0.10.0-incubating": [
-"openwhisk/incubating/openwhisk-client-go-0.10.0-incubating-sources.tar.gz"
 ],
 "openwhisk-client-go-1.0.0": [
 "openwhisk/openwhisk-client-go-1.0.0-sources.tar.gz"
@@ -9560,9 +9560,6 @@
 ],
 "openwhisk-runtime-swift-1.13.0-incubating": [
 "openwhisk/incubating/openwhisk-runtime-swift-1.13.0-incubating-sources.tar.gz"
-],
-"openwhisk-wskdeploy-0.10.0-incubating": [
-"openwhisk/incubating/openwhisk-wskdeploy-0.10.0-incubating-sources.tar.gz"
 ],
 "openwhisk-wskdeploy-1.0.0": [
 "openwhisk/openwhisk-wskdeploy-1.0.0-sources.tar.gz"
