@@ -2976,6 +2976,9 @@
 ]
 },
 "incubator-datasketches": {
+"apache-datasketches-hive-1.0.0-incubating": [
+"incubator/datasketches/hive/1.0.0-incubating/apache-datasketches-hive-1.0.0-incubating-src.zip"
+],
 "apache-datasketches-java-1.0.0-incubating": [
 "incubator/datasketches/java/1.0.0-incubating/apache-datasketches-java-1.0.0-incubating-src.zip"
 ],
@@ -5460,6 +5463,9 @@
 "incubator-superset": {
 "apache-superset-incubating-0.34.0": [
 "incubator/superset/0.34.0/apache-superset-incubating-0.34.0-source.tar.gz"
+],
+"apache-superset-incubating-0.34.1": [
+"incubator/superset/0.34.1/apache-superset-incubating-0.34.1-source.tar.gz"
 ]
 },
 "incubator-tamaya": {
@@ -5998,8 +6004,8 @@
 "META": [
 "jena/META"
 ],
-"jena-3.13.0": [
-"jena/source/jena-3.13.0-source-release.zip"
+"jena-3.13.1": [
+"jena/source/jena-3.13.1-source-release.zip"
 ]
 },
 "jmeter": {
@@ -9368,17 +9374,9 @@
 ]
 },
 "nutch": {
-"apache-nutch-1.15": [
-"nutch/1.15/apache-nutch-1.15-src.tar.gz",
-"nutch/1.15/apache-nutch-1.15-src.zip"
-],
 "apache-nutch-1.16": [
 "nutch/1.16/apache-nutch-1.16-src.tar.gz",
 "nutch/1.16/apache-nutch-1.16-src.zip"
-],
-"apache-nutch-2.3.1": [
-"nutch/2.3.1/apache-nutch-2.3.1-src.tar.gz",
-"nutch/2.3.1/apache-nutch-2.3.1-src.zip"
 ],
 "apache-nutch-2.4": [
 "nutch/2.4/apache-nutch-2.4-src.tar.gz",
@@ -9569,6 +9567,9 @@
 ],
 "openwhisk-runtime-go-1.13.0-incubating": [
 "openwhisk/incubating/openwhisk-runtime-go-1.13.0-incubating-sources.tar.gz"
+],
+"openwhisk-runtime-go-1.14.0": [
+"openwhisk/openwhisk-runtime-go-1.14.0-sources.tar.gz"
 ],
 "openwhisk-runtime-java-1.13.0-incubating": [
 "openwhisk/incubating/openwhisk-runtime-java-1.13.0-incubating-sources.tar.gz"
@@ -10120,9 +10121,6 @@
 "qpid": {
 "apache-qpid-broker-j-7.0.8": [
 "qpid/broker-j/7.0.8/apache-qpid-broker-j-7.0.8-src.tar.gz"
-],
-"apache-qpid-broker-j-7.1.4": [
-"qpid/broker-j/7.1.4/apache-qpid-broker-j-7.1.4-src.tar.gz"
 ],
 "apache-qpid-broker-j-7.1.5": [
 "qpid/broker-j/7.1.5/apache-qpid-broker-j-7.1.5-src.tar.gz"
@@ -11827,6 +11825,19 @@
 "tomcat/tomcat-8/v8.5.46/src/apache-tomcat-8.5.46-src.tar.gz",
 "tomcat/tomcat-8/v8.5.46/src/apache-tomcat-8.5.46-src.zip"
 ],
+"apache-tomcat-8.5.47": [
+"tomcat/tomcat-8/v8.5.47/bin/embed/apache-tomcat-8.5.47-embed.tar.gz",
+"tomcat/tomcat-8/v8.5.47/bin/embed/apache-tomcat-8.5.47-embed.zip",
+"tomcat/tomcat-8/v8.5.47/bin/apache-tomcat-8.5.47-deployer.tar.gz",
+"tomcat/tomcat-8/v8.5.47/bin/apache-tomcat-8.5.47-deployer.zip",
+"tomcat/tomcat-8/v8.5.47/bin/apache-tomcat-8.5.47-fulldocs.tar.gz",
+"tomcat/tomcat-8/v8.5.47/bin/apache-tomcat-8.5.47-windows-x64.zip",
+"tomcat/tomcat-8/v8.5.47/bin/apache-tomcat-8.5.47.exe",
+"tomcat/tomcat-8/v8.5.47/bin/apache-tomcat-8.5.47.tar.gz",
+"tomcat/tomcat-8/v8.5.47/bin/apache-tomcat-8.5.47.zip",
+"tomcat/tomcat-8/v8.5.47/src/apache-tomcat-8.5.47-src.tar.gz",
+"tomcat/tomcat-8/v8.5.47/src/apache-tomcat-8.5.47-src.zip"
+],
 "apache-tomcat-9.0.26": [
 "tomcat/tomcat-9/v9.0.26/bin/embed/apache-tomcat-9.0.26-embed.tar.gz",
 "tomcat/tomcat-9/v9.0.26/bin/embed/apache-tomcat-9.0.26-embed.zip",
@@ -11839,6 +11850,19 @@
 "tomcat/tomcat-9/v9.0.26/bin/apache-tomcat-9.0.26.zip",
 "tomcat/tomcat-9/v9.0.26/src/apache-tomcat-9.0.26-src.tar.gz",
 "tomcat/tomcat-9/v9.0.26/src/apache-tomcat-9.0.26-src.zip"
+],
+"apache-tomcat-9.0.27": [
+"tomcat/tomcat-9/v9.0.27/bin/embed/apache-tomcat-9.0.27-embed.tar.gz",
+"tomcat/tomcat-9/v9.0.27/bin/embed/apache-tomcat-9.0.27-embed.zip",
+"tomcat/tomcat-9/v9.0.27/bin/apache-tomcat-9.0.27-deployer.tar.gz",
+"tomcat/tomcat-9/v9.0.27/bin/apache-tomcat-9.0.27-deployer.zip",
+"tomcat/tomcat-9/v9.0.27/bin/apache-tomcat-9.0.27-fulldocs.tar.gz",
+"tomcat/tomcat-9/v9.0.27/bin/apache-tomcat-9.0.27-windows-x64.zip",
+"tomcat/tomcat-9/v9.0.27/bin/apache-tomcat-9.0.27.exe",
+"tomcat/tomcat-9/v9.0.27/bin/apache-tomcat-9.0.27.tar.gz",
+"tomcat/tomcat-9/v9.0.27/bin/apache-tomcat-9.0.27.zip",
+"tomcat/tomcat-9/v9.0.27/src/apache-tomcat-9.0.27-src.tar.gz",
+"tomcat/tomcat-9/v9.0.27/src/apache-tomcat-9.0.27-src.zip"
 ],
 "taglibs-standard-1.2.5": [
 "tomcat/taglibs/taglibs-standard-1.2.5/taglibs-standard-1.2.5-source-release.zip"
