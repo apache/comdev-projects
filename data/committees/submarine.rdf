@@ -20,12 +20,12 @@
          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
          xmlns:asfext="http://projects.apache.org/ns/asfext#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/">
-  <asfext:pmc rdf:about="${id}">
-    <asfext:name>${fullname}</asfext:name>
+  <asfext:pmc rdf:about="submarine">
+    <asfext:name>Apache Submarine</asfext:name>
     <asfext:charter>
-    The mission of ${fullname} is the creation and maintenance of software
-    related to ${description}
+    The mission of Apache Submarine is the creation and maintenance of software
+    related to allowing infrastructure engineers and data scientists to build deep learning applications (TensorFlow, PyTorch, etc.) end to end on cluster management platforms (like YARN/K8s)
     </asfext:charter>
-    <foaf:homepage rdf:resource="${site}"/>
+    <foaf:homepage rdf:resource="http://submarine.apache.org/"/>
   </asfext:pmc>
 </rdf:RDF>
