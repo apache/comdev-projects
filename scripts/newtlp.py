@@ -50,7 +50,10 @@ def update_xml(pid):
                         w.write("%s<location>committees/%s.rdf</location>\n" % (indent, pid))
                         notYetFound = False
                     elif mid == pid:
-                        print("ERROR: File already contains %s" % pid)
+                        print("ERROR: committees.xml already contains %s" % pid)
+                        w.close()
+                        os.remove(xmlfilet)
+                        return
                 else:
                     if l.startswith("</list"): # EOF
                         w.write("%s<location>committees/%s.rdf</location>\n" % (indent, pid))
@@ -60,6 +63,10 @@ def update_xml(pid):
 
 for arg in sys.argv[1:]:
     print("Processing "+arg)
+    outfile = os.path.join(rdfdir,"%s.%s"%(arg,'rdf'))
+    if os.path.exists(outfile):
+        print("RDF file for %s already exists!" % arg)
+        continue
     try:
         cttee = committees[arg]
         data = {
@@ -69,7 +76,6 @@ for arg in sys.argv[1:]:
             "description": cttee['description'],
         }
         out = template.substitute(data)
-        outfile = os.path.join(rdfdir,"%s.%s"%(arg,'rdf'))
         print("Creating "+outfile)
         with open(outfile,'w') as o:
             o.write(out)
