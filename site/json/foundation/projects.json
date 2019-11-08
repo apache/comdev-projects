@@ -8621,14 +8621,14 @@
 "shortdesc": "A framework for developing Semantic Web and Linked Data applications in Java."
 },
 "jmeter": {
-"bug-database": "http://issues.apache.org/bugzilla/",
+"bug-database": "https://bz.apache.org/bugzilla/",
 "category": "testing",
 "created": "2006-02-17",
 "description": "Apache JMeter may be used to test performance both on static and dynamic resources (files, Servlets, Perl scripts, Java Objects, Data Bases and Queries, FTP Servers and more). It can be used to simulate a heavy load on a server, network or object to test its strength or to analyze overall performance under different load types. You can use it to make a graphical analysis of performance or to test your server/script/object behavior under heavy concurrent load. ",
-"doap": "http://svn.apache.org/repos/asf/jmeter/doap/doap_JMeter.rdf",
+"doap": "https://gitbox.apache.org/repos/asf?p=jmeter.git;a=blob_plain;f=doap_JMeter.rdf;hb=HEAD",
 "download-page": "http://jmeter.apache.org/download_jmeter.cgi",
 "homepage": "http://jmeter.apache.org/index.html",
-"license": "http://usefulinc.com/doap/licenses/asl20",
+"license": "http://spdx.org/licenses/Apache-2.0",
 "mailing-list": "http://jmeter.apache.org/mail2.html",
 "name": "Apache JMeter",
 "pmc": "jmeter",
@@ -8798,10 +8798,15 @@
 "created": "2019-03-13",
 "name": "Apache JMeter",
 "revision": "5.1.1 final"
+},
+{
+"created": "2019-11-03",
+"name": "Apache JMeter",
+"revision": "5.2 final"
 }
 ],
 "repository": [
-"http://svn.apache.org/repos/asf/jmeter/"
+"https://gitbox.apache.org/repos/asf/jmeter.git"
 ],
 "shortdesc": "Pure Java application for load and functional testing"
 },
