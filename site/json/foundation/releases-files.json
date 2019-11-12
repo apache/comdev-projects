@@ -44,10 +44,10 @@
 "activemq/apache-nms-api/1.8.0/Apache.NMS.1.8.0.nupkg"
 ],
 "Apache.NMS.AMQP-1.8.0": [
-"activemq/activemq-nms-amqp/1.8.0/Apache.NMS.AMQP-1.8.0-src.zip"
+"activemq/apache-nms-amqp/1.8.0/Apache.NMS.AMQP-1.8.0-src.zip"
 ],
 "Apache.NMS.AMQP.1.8.0.nupkg": [
-"activemq/activemq-nms-amqp/1.8.0/Apache.NMS.AMQP.1.8.0.nupkg"
+"activemq/apache-nms-amqp/1.8.0/Apache.NMS.AMQP.1.8.0.nupkg"
 ],
 "Apache.NMS.ActiveMQ-1.7.2": [
 "activemq/apache-nms/1.7.0/Apache.NMS.ActiveMQ-1.7.2-src.zip"
@@ -1571,9 +1571,9 @@
 "commons/commons-release-plugin/source/commons-release-plugin-1.7-src.tar.gz",
 "commons/commons-release-plugin/source/commons-release-plugin-1.7-src.zip"
 ],
-"commons-rng-1.2": [
-"commons/rng/source/commons-rng-1.2-src.tar.gz",
-"commons/rng/source/commons-rng-1.2-src.zip"
+"commons-rng-1.3": [
+"commons/rng/source/commons-rng-1.3-src.tar.gz",
+"commons/rng/source/commons-rng-1.3-src.zip"
 ],
 "commons-scxml-0.9": [
 "commons/scxml/source/commons-scxml-0.9-src.tar.gz",
@@ -2044,9 +2044,9 @@
 "felix/org.apache.felix.connect-0.2.0-source-release.tar.gz",
 "felix/org.apache.felix.connect-0.2.0-source-release.zip"
 ],
-"org.apache.felix.converter-1.0.10": [
-"felix/org.apache.felix.converter-1.0.10-source-release.tar.gz",
-"felix/org.apache.felix.converter-1.0.10-source-release.zip"
+"org.apache.felix.converter-1.0.12": [
+"felix/org.apache.felix.converter-1.0.12-source-release.tar.gz",
+"felix/org.apache.felix.converter-1.0.12-source-release.zip"
 ],
 "org.apache.felix.coordinator-1.0.2": [
 "felix/org.apache.felix.coordinator-1.0.2-source-release.tar.gz",
@@ -5582,15 +5582,24 @@
 "incubator/tamaya/0.1-incubating/DISCLAIMER",
 "incubator/tamaya/0.2-incubating/DISCLAIMER",
 "incubator/tamaya/0.3-incubating/apiandcore/DISCLAIMER",
-"incubator/tamaya/0.3-incubating/extensions/DISCLAIMER"
+"incubator/tamaya/0.3-incubating/extensions/DISCLAIMER",
+"incubator/tamaya/0.4-incubating/DISCLAIMER"
 ],
 "apache-tamaya-distribution-0.3-incubating": [
 "incubator/tamaya/0.3-incubating/apiandcore/apache-tamaya-distribution-0.3-incubating-src.tar.gz",
 "incubator/tamaya/0.3-incubating/apiandcore/apache-tamaya-distribution-0.3-incubating-src.zip"
 ],
+"apache-tamaya-distribution-0.4-incubating": [
+"incubator/tamaya/0.4-incubating/apiandcore/apache-tamaya-distribution-0.4-incubating-src.tar.gz",
+"incubator/tamaya/0.4-incubating/apiandcore/apache-tamaya-distribution-0.4-incubating-src.zip"
+],
 "apache-tamaya-extension-distribution-0.3-incubating": [
 "incubator/tamaya/0.3-incubating/extensions/apache-tamaya-extension-distribution-0.3-incubating-src.tar.gz",
 "incubator/tamaya/0.3-incubating/extensions/apache-tamaya-extension-distribution-0.3-incubating-src.zip"
+],
+"apache-tamaya-extension-distribution-0.4-incubating": [
+"incubator/tamaya/0.4-incubating/extensions/apache-tamaya-extension-distribution-0.4-incubating-src.tar.gz",
+"incubator/tamaya/0.4-incubating/extensions/apache-tamaya-extension-distribution-0.4-incubating-src.zip"
 ],
 "tamaya-distribution-0.1-incubating": [
 "incubator/tamaya/0.1-incubating/tamaya-distribution-0.1-incubating-distribution-src.tar.gz",
@@ -6817,8 +6826,8 @@
 "surefire-3.0.0-M3": [
 "maven/surefire/surefire-3.0.0-M3-source-release.zip"
 ],
-"wagon-3.3.3": [
-"maven/wagon/wagon-3.3.3-source-release.zip"
+"wagon-3.3.4": [
+"maven/wagon/wagon-3.3.4-source-release.zip"
 ]
 },
 "mesos": {
@@ -11577,8 +11586,8 @@
 "org.apache.sling.dynamic-include-3.1.6": [
 "sling/org.apache.sling.dynamic-include-3.1.6-source-release.zip"
 ],
-"org.apache.sling.engine-2.6.20": [
-"sling/org.apache.sling.engine-2.6.20-source-release.zip"
+"org.apache.sling.engine-2.6.22": [
+"sling/org.apache.sling.engine-2.6.22-source-release.zip"
 ],
 "org.apache.sling.event-4.2.12": [
 "sling/org.apache.sling.event-4.2.12-source-release.zip"
@@ -12149,8 +12158,8 @@
 "sling-slingstart-archetype-1.0.8": [
 "sling/sling-slingstart-archetype-1.0.8-source-release.zip"
 ],
-"slingfeature-maven-plugin-1.1.8": [
-"sling/slingfeature-maven-plugin-1.1.8-source-release.zip"
+"slingfeature-maven-plugin-1.1.10": [
+"sling/slingfeature-maven-plugin-1.1.10-source-release.zip"
 ],
 "slingstart-maven-plugin-1.9.0": [
 "sling/slingstart-maven-plugin-1.9.0-source-release.zip"
