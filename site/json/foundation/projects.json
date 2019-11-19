@@ -3275,41 +3275,6 @@
 ],
 "shortdesc": "\n      Chukwa is an open source data collection system for monitoring \n      large distributed systems.\n    "
 },
-"clerezza": {
-"bug-database": "https://issues.apache.org/jira/browse/CLEREZZA",
-"category": "osgi, content",
-"created": "2013-02-27",
-"description": "Clerezza allows to easily develop semantic web applications by providing tools to manipulate RDF data, create RESTful Web Services and Renderlets using ScalaServerPages. Contents are stored as triples based on W3C RDF specification. These triples are stored via Clerezza’s Smart Content Binding (SCB). SCB defines a technology-agnostic layer to access and modify triple stores. It provides a java implementation of the graph data model specified by W3C RDF and functionalities to operate on that data model. SCB offers a service interface to access multiple named graphs and it can use various providers to manage RDF graphs in a technology specific manner, e.g., using Jena or Sesame. It also provides for adaptors that allow an application to use various APIs (including the Jena api) to process RDF graphs. Furthermore, SCB offers a serialization and a parsing service to convert a graph into a certain representation (format) and vice versa.",
-"doap": "https://clerezza.apache.org/doap.rdf",
-"download-page": "http://clerezza.apache.org/downloads/",
-"homepage": "http://clerezza.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://clerezza.apache.org/mailinglists/",
-"name": "Apache Clerezza",
-"pmc": "clerezza",
-"programming-language": "Java, Scala",
-"release": [
-{
-"created": "2013-07-10",
-"name": "Reactor",
-"revision": "0.3"
-},
-{
-"created": "2013-04-17",
-"name": "JAX-RS Utils",
-"revision": "0.7"
-},
-{
-"created": "2013-04-04",
-"name": "Parent Bundle",
-"revision": "0.3"
-}
-],
-"repository": [
-"https://git-wip-us.apache.org/repos/asf?p=clerezza.git;a=summary"
-],
-"shortdesc": "Clerezza is a service platform which provides a set of functionality for management of semantically linked data accessible through RESTful Web Services and in a secured way"
-},
 "climate-open_workbench": {
 "bug-database": "https://issues.apache.org/jira/browse/CLIMATE",
 "category": "content",
@@ -9428,6 +9393,11 @@
 "created": "2019-08-28",
 "name": "2.6.0",
 "revision": "v2.6.0"
+},
+{
+"created": "2019-11-18",
+"name": "2.6.1",
+"revision": "v2.6.1"
 }
 ],
 "repository": [
@@ -13806,9 +13776,14 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2017-05-14",
-"file-release": "http://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.4.0/shiro-root-1.4.0.pom",
+"created": "2019-05-01",
+"file-release": "http://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.4.1/shiro-root-1.4.1.pom",
 "name": "Latest stable release",
+"revision": "1.4.1"
+},
+{
+"file-release": "http://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.4.0/shiro-root-1.4.0.pom",
+"name": "Apache Shiro - 1.4.0",
 "revision": "1.4.0"
 },
 {
