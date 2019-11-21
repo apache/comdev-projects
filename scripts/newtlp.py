@@ -69,16 +69,19 @@ for arg in sys.argv[1:]:
         continue
     try:
         cttee = committees[arg]
-        data = {
-            "id": arg,
-            "site": cttee['site'],
-            "fullname": cttee['fullname'],
-            "description": cttee['description'],
-        }
-        out = template.substitute(data)
-        print("Creating "+outfile)
-        with open(outfile,'w') as o:
-            o.write(out)
-        update_xml(arg)
+        if cttee['description']:
+            data = {
+                "id": arg,
+                "site": cttee['site'],
+                "fullname": cttee['fullname'],
+                "description": cttee['description'],
+            }
+            out = template.substitute(data)
+            print("Creating "+outfile)
+            with open(outfile,'w') as o:
+                o.write(out)
+            update_xml(arg)
+        else:
+            print("No description found for "+arg)
     except KeyError:
         print("Cannot find "+arg)
