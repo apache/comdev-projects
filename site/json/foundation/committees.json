@@ -388,6 +388,10 @@
 "rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/airflow.rdf",
 "reporting": 3,
 "roster": {
+"aizhamal": {
+"date": "2019-11-21",
+"name": "Aizhamal Nurmamat kyzy"
+},
 "alexvanboxel": {
 "date": "2018-12-19",
 "name": "Alex Van Boxel"
@@ -435,6 +439,10 @@
 "kaxilnaik": {
 "date": "2018-12-19",
 "name": "Kaxil Naik"
+},
+"keviny": {
+"date": "2019-11-21",
+"name": "Kevin Yang"
 },
 "maximebeauchemin": {
 "date": "2018-12-19",
@@ -11720,6 +11728,10 @@
 "date": "2014-02-19",
 "name": "Sumit Mohanty"
 },
+"smolnar": {
+"date": "2019-11-21",
+"name": "Sandor Molnar"
+},
 "sumit": {
 "date": "2014-12-05",
 "name": "Sumit Gupta"
@@ -15067,7 +15079,7 @@
 },
 {
 "chair": "jim",
-"charter": "The mission of OpenOffice is the creation and maintenance of software related to An open-source, office-document productivity suite",
+"charter": "The mission of OpenOffice is the creation and maintenance of software related to an open-source, office-document productivity suite",
 "established": "2012-10",
 "group": "openoffice",
 "homepage": "http://openoffice.apache.org/",
@@ -15673,11 +15685,13 @@
 },
 {
 "chair": "wave",
+"charter": "The mission of Apache Petri is the creation and maintenance of software related to assessment of, education in, and adoption of the Foundation's policies and procedures for collaborative development and the pros and cons of joining the Foundation",
 "established": "2019-11",
 "group": "petri",
-"homepage": "http://petri.apache.org/",
+"homepage": "http://petri.apache.org",
 "id": "petri",
 "name": "Apache Petri",
+"rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/petri.rdf",
 "reporting": 1,
 "roster": {
 "danielsh": {
@@ -15704,7 +15718,8 @@
 "date": "2019-11-20",
 "name": "Dave Fisher"
 }
-}
+},
+"shortdesc": "assessment of, education in, and adoption of the Foundation's policies and procedures for collaborative development and the pros and cons of joining the Foundation"
 },
 {
 "chair": "elserj",

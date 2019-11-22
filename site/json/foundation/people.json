@@ -1217,6 +1217,7 @@
 "aizhamal": {
 "groups": [
 "airflow",
+"airflow-pmc",
 "diversity",
 "diversity-pmc"
 ],
@@ -2784,6 +2785,7 @@
 "oozie",
 "oozie-pmc",
 "tephra",
+"tephra-pmc",
 "twill",
 "twill-pmc"
 ],
@@ -7808,7 +7810,8 @@
 "cg": {
 "groups": [
 "incubator",
-"singa"
+"singa",
+"singa-pmc"
 ],
 "member": false,
 "name": "Chen Gang"
@@ -8717,6 +8720,7 @@
 "helix-pmc",
 "incubator",
 "tephra",
+"tephra-pmc",
 "twill",
 "twill-pmc"
 ],
@@ -12000,7 +12004,8 @@
 "dinhtta": {
 "groups": [
 "incubator",
-"singa"
+"singa",
+"singa-pmc"
 ],
 "member": false,
 "name": "Anh Dinh"
@@ -16322,6 +16327,7 @@
 "hbase-pmc",
 "incubator",
 "tephra",
+"tephra-pmc",
 "twill",
 "twill-pmc"
 ],
@@ -16378,6 +16384,7 @@
 "knox",
 "knox-pmc",
 "omid",
+"omid-pmc",
 "oozie",
 "oozie-pmc",
 "orc",
@@ -16388,8 +16395,10 @@
 "ranger-pmc",
 "samoa",
 "singa",
+"singa-pmc",
 "superset",
-"tephra"
+"tephra",
+"tephra-pmc"
 ],
 "member": true,
 "name": "Alan Gates"
@@ -17365,7 +17374,8 @@
 "gokul": {
 "groups": [
 "incubator",
-"tephra"
+"tephra",
+"tephra-pmc"
 ],
 "member": false,
 "name": "Gokul Gunasekaran"
@@ -21198,9 +21208,11 @@
 "mnemonic",
 "mnemonic-pmc",
 "omid",
+"omid-pmc",
 "phoenix",
 "phoenix-pmc",
-"tephra"
+"tephra",
+"tephra-pmc"
 ],
 "member": true,
 "name": "James R. Taylor"
@@ -23516,7 +23528,8 @@
 "jinyang": {
 "groups": [
 "incubator",
-"singa"
+"singa",
+"singa-pmc"
 ],
 "member": false,
 "name": "Jinyang Gao"
@@ -26248,7 +26261,8 @@
 "kaiping": {
 "groups": [
 "incubator",
-"singa"
+"singa",
+"singa-pmc"
 ],
 "member": false,
 "name": "Zheng Kaiping"
@@ -27074,7 +27088,8 @@
 },
 "keviny": {
 "groups": [
-"airflow"
+"airflow",
+"airflow-pmc"
 ],
 "member": false,
 "name": "Kevin Yang"
@@ -28589,6 +28604,7 @@
 "incubator",
 "incubator-pmc",
 "omid",
+"omid-pmc",
 "phoenix",
 "phoenix-pmc",
 "predictionio",
@@ -33825,7 +33841,8 @@
 "moaz": {
 "groups": [
 "incubator",
-"singa"
+"singa",
+"singa-pmc"
 ],
 "member": false,
 "name": "Moaz Reyad"
@@ -36660,6 +36677,7 @@
 "groups": [
 "incubator",
 "omid",
+"omid-pmc",
 "phoenix"
 ],
 "member": false,
@@ -36984,7 +37002,8 @@
 "ooibc": {
 "groups": [
 "incubator",
-"singa"
+"singa",
+"singa-pmc"
 ],
 "member": false,
 "name": "Beng Chin Ooi"
@@ -38654,6 +38673,7 @@
 "groups": [
 "incubator",
 "tephra",
+"tephra-pmc",
 "twill",
 "twill-pmc"
 ],
@@ -45745,7 +45765,9 @@
 },
 "smolnar": {
 "groups": [
-"ambari"
+"ambari",
+"knox",
+"knox-pmc"
 ],
 "member": false,
 "name": "Sandor Molnar"
@@ -47958,7 +47980,8 @@
 "tankianlee": {
 "groups": [
 "incubator",
-"singa"
+"singa",
+"singa-pmc"
 ],
 "member": false,
 "name": "Kian-Lee Tan"
@@ -48253,7 +48276,8 @@
 "incubator",
 "phoenix",
 "phoenix-pmc",
-"tephra"
+"tephra",
+"tephra-pmc"
 ],
 "member": false,
 "name": "Thomas D'Silva"
@@ -48279,6 +48303,7 @@
 "mahout-pmc",
 "myriad",
 "singa",
+"singa-pmc",
 "storm",
 "storm-pmc",
 "zookeeper",
@@ -48541,7 +48566,8 @@
 "incubator-pmc",
 "pig",
 "pig-pmc",
-"singa"
+"singa",
+"singa-pmc"
 ],
 "member": true,
 "name": "Thejas Nair"
@@ -51825,7 +51851,8 @@
 "wangwei": {
 "groups": [
 "incubator",
-"singa"
+"singa",
+"singa-pmc"
 ],
 "member": false,
 "name": "Wang Wei"
@@ -53735,7 +53762,8 @@
 "yonigo": {
 "groups": [
 "incubator",
-"omid"
+"omid",
+"omid-pmc"
 ],
 "member": false,
 "name": "Yoni Gottesman"
@@ -54309,7 +54337,8 @@
 "zhaojing": {
 "groups": [
 "incubator",
-"singa"
+"singa",
+"singa-pmc"
 ],
 "member": false,
 "name": "Luo Zhaojing"
@@ -54506,7 +54535,8 @@
 "zhongle": {
 "groups": [
 "incubator",
-"singa"
+"singa",
+"singa-pmc"
 ],
 "member": false,
 "name": "Xie Zhongle"

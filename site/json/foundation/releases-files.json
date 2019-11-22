@@ -3092,6 +3092,9 @@
 "apache-datasketches-memory-1.1.0-incubating": [
 "incubator/datasketches/memory/1.1.0-incubating/apache-datasketches-memory-1.1.0-incubating-src.zip"
 ],
+"apache-datasketches-memory-1.2.0-incubating": [
+"incubator/datasketches/memory/1.2.0-incubating/apache-datasketches-memory-1.2.0-incubating-src.zip"
+],
 "apache-datasketches-pig-1.0.0-incubating": [
 "incubator/datasketches/pig/1.0.0-incubating/apache-datasketches-pig-1.0.0-incubating-src.zip"
 ],
@@ -5559,6 +5562,9 @@
 ],
 "apache-shardingsphere-incubating-4.0.0-RC2": [
 "incubator/shardingsphere/4.0.0-RC2/apache-shardingsphere-incubating-4.0.0-RC2-src.zip"
+],
+"apache-shardingsphere-incubating-4.0.0-RC3": [
+"incubator/shardingsphere/4.0.0-RC3/apache-shardingsphere-incubating-4.0.0-RC3-src.zip"
 ]
 },
 "incubator-singa": {
@@ -6270,14 +6276,8 @@
 ]
 },
 "kudu": {
-"apache-kudu-1.10.0": [
-"kudu/1.10.0/apache-kudu-1.10.0.tar.gz"
-],
 "apache-kudu-1.10.1": [
 "kudu/1.10.1/apache-kudu-1.10.1.tar.gz"
-],
-"apache-kudu-1.11.0": [
-"kudu/1.11.0/apache-kudu-1.11.0.tar.gz"
 ],
 "apache-kudu-1.11.1": [
 "kudu/1.11.1/apache-kudu-1.11.1.tar.gz"
@@ -11055,38 +11055,8 @@
 ]
 },
 "rocketmq": {
-"rocketmq-all-4.0.0-incubating": [
-"rocketmq/4.0.0-incubating/rocketmq-all-4.0.0-incubating-source-release.zip"
-],
-"rocketmq-all-4.1.0-incubating": [
-"rocketmq/4.1.0-incubating/rocketmq-all-4.1.0-incubating-source-release.zip"
-],
-"rocketmq-all-4.2.0": [
-"rocketmq/4.2.0/rocketmq-all-4.2.0-source-release.zip"
-],
-"rocketmq-all-4.3.0": [
-"rocketmq/4.3.0/rocketmq-all-4.3.0-source-release.zip"
-],
-"rocketmq-all-4.3.1": [
-"rocketmq/4.3.1/rocketmq-all-4.3.1-source-release.zip"
-],
-"rocketmq-all-4.3.2": [
-"rocketmq/4.3.2/rocketmq-all-4.3.2-source-release.zip"
-],
-"rocketmq-all-4.4.0": [
-"rocketmq/4.4.0/rocketmq-all-4.4.0-source-release.zip"
-],
-"rocketmq-all-4.5.0": [
-"rocketmq/4.5.0/rocketmq-all-4.5.0-source-release.zip"
-],
-"rocketmq-all-4.5.1": [
-"rocketmq/4.5.1/rocketmq-all-4.5.1-source-release.zip"
-],
 "rocketmq-all-4.5.2": [
 "rocketmq/4.5.2/rocketmq-all-4.5.2-source-release.zip"
-],
-"rocketmq-client-cpp-1.2.3": [
-"rocketmq/rocketmq-client-cpp/1.2.3/rocketmq-client-cpp-1.2.3-source-release.tar.gz"
 ],
 "rocketmq-client-cpp-1.2.4": [
 "rocketmq/rocketmq-client-cpp/1.2.4/rocketmq-client-cpp-1.2.4-source-release.tar.gz"
@@ -12680,6 +12650,19 @@
 "tomcat/tomcat-8/v8.5.47/src/apache-tomcat-8.5.47-src.tar.gz",
 "tomcat/tomcat-8/v8.5.47/src/apache-tomcat-8.5.47-src.zip"
 ],
+"apache-tomcat-8.5.49": [
+"tomcat/tomcat-8/v8.5.49/bin/embed/apache-tomcat-8.5.49-embed.tar.gz",
+"tomcat/tomcat-8/v8.5.49/bin/embed/apache-tomcat-8.5.49-embed.zip",
+"tomcat/tomcat-8/v8.5.49/bin/apache-tomcat-8.5.49-deployer.tar.gz",
+"tomcat/tomcat-8/v8.5.49/bin/apache-tomcat-8.5.49-deployer.zip",
+"tomcat/tomcat-8/v8.5.49/bin/apache-tomcat-8.5.49-fulldocs.tar.gz",
+"tomcat/tomcat-8/v8.5.49/bin/apache-tomcat-8.5.49-windows-x64.zip",
+"tomcat/tomcat-8/v8.5.49/bin/apache-tomcat-8.5.49.exe",
+"tomcat/tomcat-8/v8.5.49/bin/apache-tomcat-8.5.49.tar.gz",
+"tomcat/tomcat-8/v8.5.49/bin/apache-tomcat-8.5.49.zip",
+"tomcat/tomcat-8/v8.5.49/src/apache-tomcat-8.5.49-src.tar.gz",
+"tomcat/tomcat-8/v8.5.49/src/apache-tomcat-8.5.49-src.zip"
+],
 "apache-tomcat-9.0.27": [
 "tomcat/tomcat-9/v9.0.27/bin/embed/apache-tomcat-9.0.27-embed.tar.gz",
 "tomcat/tomcat-9/v9.0.27/bin/embed/apache-tomcat-9.0.27-embed.zip",
@@ -12692,6 +12675,19 @@
 "tomcat/tomcat-9/v9.0.27/bin/apache-tomcat-9.0.27.zip",
 "tomcat/tomcat-9/v9.0.27/src/apache-tomcat-9.0.27-src.tar.gz",
 "tomcat/tomcat-9/v9.0.27/src/apache-tomcat-9.0.27-src.zip"
+],
+"apache-tomcat-9.0.29": [
+"tomcat/tomcat-9/v9.0.29/bin/embed/apache-tomcat-9.0.29-embed.tar.gz",
+"tomcat/tomcat-9/v9.0.29/bin/embed/apache-tomcat-9.0.29-embed.zip",
+"tomcat/tomcat-9/v9.0.29/bin/apache-tomcat-9.0.29-deployer.tar.gz",
+"tomcat/tomcat-9/v9.0.29/bin/apache-tomcat-9.0.29-deployer.zip",
+"tomcat/tomcat-9/v9.0.29/bin/apache-tomcat-9.0.29-fulldocs.tar.gz",
+"tomcat/tomcat-9/v9.0.29/bin/apache-tomcat-9.0.29-windows-x64.zip",
+"tomcat/tomcat-9/v9.0.29/bin/apache-tomcat-9.0.29.exe",
+"tomcat/tomcat-9/v9.0.29/bin/apache-tomcat-9.0.29.tar.gz",
+"tomcat/tomcat-9/v9.0.29/bin/apache-tomcat-9.0.29.zip",
+"tomcat/tomcat-9/v9.0.29/src/apache-tomcat-9.0.29-src.tar.gz",
+"tomcat/tomcat-9/v9.0.29/src/apache-tomcat-9.0.29-src.zip"
 ],
 "taglibs-standard-1.2.5": [
 "tomcat/taglibs/taglibs-standard-1.2.5/taglibs-standard-1.2.5-source-release.zip"
