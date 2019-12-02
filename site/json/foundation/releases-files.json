@@ -2865,14 +2865,11 @@
 "hive-metastore-3.0.0": [
 "hive/hive-standalone-metastore-3.0.0/hive-standalone-metastore-3.0.0-src.tar.gz"
 ],
-"hive-storage-2.4.0": [
-"hive/hive-storage-2.4.0/hive-storage-2.4.0.tar.gz"
-],
 "hive-storage-2.6.1": [
 "hive/hive-storage-2.6.1/hive-storage-2.6.1.tar.gz"
 ],
-"hive-storage-2.7.0-rc1": [
-"hive/hive-storage-2.7.0/hive-storage-2.7.0-rc1.tar.gz"
+"hive-storage-api-2.7.1": [
+"hive/hive-storage-2.7.1/hive-storage-api-2.7.1.tar.gz"
 ]
 },
 "httpcomponents": {
@@ -6126,6 +6123,9 @@
 ],
 "apache-juneau-8.1.1": [
 "juneau/source/juneau-8.1.1/apache-juneau-8.1.1-src.zip"
+],
+"apache-juneau-8.1.2": [
+"juneau/source/juneau-8.1.2/apache-juneau-8.1.2-src.zip"
 ]
 },
 "kafka": {
@@ -6137,6 +6137,9 @@
 ],
 "kafka-2.2.1": [
 "kafka/2.2.1/kafka-2.2.1-src.tgz"
+],
+"kafka-2.2.2": [
+"kafka/2.2.2/kafka-2.2.2-src.tgz"
 ],
 "kafka-2.3.0": [
 "kafka/2.3.0/kafka-2.3.0-src.tgz"
@@ -6153,6 +6156,9 @@
 "kafka_2.11-2.2.1": [
 "kafka/2.2.1/kafka_2.11-2.2.1.tgz"
 ],
+"kafka_2.11-2.2.2": [
+"kafka/2.2.2/kafka_2.11-2.2.2.tgz"
+],
 "kafka_2.11-2.3.0": [
 "kafka/2.3.0/kafka_2.11-2.3.0.tgz"
 ],
@@ -6167,6 +6173,9 @@
 ],
 "kafka_2.12-2.2.1": [
 "kafka/2.2.1/kafka_2.12-2.2.1.tgz"
+],
+"kafka_2.12-2.2.2": [
+"kafka/2.2.2/kafka_2.12-2.2.2.tgz"
 ],
 "kafka_2.12-2.3.0": [
 "kafka/2.3.0/kafka_2.12-2.3.0.tgz"
@@ -7241,6 +7250,9 @@
 "netbeans-11.2": [
 "netbeans/netbeans/11.2/netbeans-11.2-source.zip"
 ],
+"netbeans-11.2-u1": [
+"netbeans/netbeans/11.2-u1/netbeans-11.2-u1-source.zip"
+],
 "netbeans-2": [
 "netbeans/netbeans-parent/netbeans-parent-2/netbeans-parent-2-source-release.zip"
 ],
@@ -7662,10 +7674,12 @@
 ],
 "org-netbeans-libs-javacapi.nbm": [
 "netbeans/netbeans/11.1/nbms/java/org-netbeans-libs-javacapi.nbm",
+"netbeans/netbeans/11.2-u1/nbms/java/org-netbeans-libs-javacapi.nbm",
 "netbeans/netbeans/11.2/nbms/java/org-netbeans-libs-javacapi.nbm"
 ],
 "org-netbeans-libs-javacimpl.nbm": [
 "netbeans/netbeans/11.1/nbms/java/org-netbeans-libs-javacimpl.nbm",
+"netbeans/netbeans/11.2-u1/nbms/java/org-netbeans-libs-javacimpl.nbm",
 "netbeans/netbeans/11.2/nbms/java/org-netbeans-libs-javacimpl.nbm"
 ],
 "org-netbeans-libs-javafx-linux.nbm": [
@@ -7825,6 +7839,7 @@
 ],
 "org-netbeans-modules-apisupport-harness.nbm": [
 "netbeans/netbeans/11.1/nbms/harness/org-netbeans-modules-apisupport-harness.nbm",
+"netbeans/netbeans/11.2-u1/nbms/harness/org-netbeans-modules-apisupport-harness.nbm",
 "netbeans/netbeans/11.2/nbms/harness/org-netbeans-modules-apisupport-harness.nbm"
 ],
 "org-netbeans-modules-apisupport-installer-maven.nbm": [
@@ -8389,6 +8404,7 @@
 ],
 "org-netbeans-modules-html-lexer.nbm": [
 "netbeans/netbeans/11.1/nbms/ide/org-netbeans-modules-html-lexer.nbm",
+"netbeans/netbeans/11.2-u1/nbms/ide/org-netbeans-modules-html-lexer.nbm",
 "netbeans/netbeans/11.2/nbms/ide/org-netbeans-modules-html-lexer.nbm"
 ],
 "org-netbeans-modules-html-ojet.nbm": [
@@ -10233,35 +10249,35 @@
 ]
 },
 "olingo": {
-"Olingo-OData-4.5.0": [
-"olingo/odata4/4.5.0/Olingo-OData-4.5.0-source-release.zip"
-],
 "Olingo-OData-4.6.0": [
 "olingo/odata4/4.6.0/Olingo-OData-4.6.0-source-release.zip"
 ],
-"Olingo-OData-Client-for-Android-4.5.0": [
-"olingo/odata4/4.5.0/Olingo-OData-Client-for-Android-4.5.0-lib.zip"
+"Olingo-OData-4.7.0": [
+"olingo/odata4/4.7.0/Olingo-OData-4.7.0-source-release.zip"
 ],
 "Olingo-OData-Client-for-Android-4.6.0": [
 "olingo/odata4/4.6.0/Olingo-OData-Client-for-Android-4.6.0-lib.zip"
 ],
-"Olingo-OData-Client-for-Java-4.5.0": [
-"olingo/odata4/4.5.0/Olingo-OData-Client-for-Java-4.5.0-lib.zip"
+"Olingo-OData-Client-for-Android-4.7.0": [
+"olingo/odata4/4.7.0/Olingo-OData-Client-for-Android-4.7.0-lib.zip"
 ],
 "Olingo-OData-Client-for-Java-4.6.0": [
 "olingo/odata4/4.6.0/Olingo-OData-Client-for-Java-4.6.0-lib.zip"
 ],
-"Olingo-OData-Server-Extension-for-Java-4.5.0": [
-"olingo/odata4/4.5.0/Olingo-OData-Server-Extension-for-Java-4.5.0-lib.zip"
+"Olingo-OData-Client-for-Java-4.7.0": [
+"olingo/odata4/4.7.0/Olingo-OData-Client-for-Java-4.7.0-lib.zip"
 ],
 "Olingo-OData-Server-Extension-for-Java-4.6.0": [
 "olingo/odata4/4.6.0/Olingo-OData-Server-Extension-for-Java-4.6.0-lib.zip"
 ],
-"Olingo-OData-Server-for-Java-4.5.0": [
-"olingo/odata4/4.5.0/Olingo-OData-Server-for-Java-4.5.0-lib.zip"
+"Olingo-OData-Server-Extension-for-Java-4.7.0": [
+"olingo/odata4/4.7.0/Olingo-OData-Server-Extension-for-Java-4.7.0-lib.zip"
 ],
 "Olingo-OData-Server-for-Java-4.6.0": [
 "olingo/odata4/4.6.0/Olingo-OData-Server-for-Java-4.6.0-lib.zip"
+],
+"Olingo-OData-Server-for-Java-4.7.0": [
+"olingo/odata4/4.7.0/Olingo-OData-Server-for-Java-4.7.0-lib.zip"
 ],
 "odatajs-4.0.0": [
 "olingo/odatajs/odatajs-4.0.0/odatajs-4.0.0-doc.zip",
