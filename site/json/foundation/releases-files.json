@@ -520,6 +520,9 @@
 ],
 "apache-aurora-0.21.0": [
 "aurora/0.21.0/apache-aurora-0.21.0.tar.gz"
+],
+"apache-aurora-0.22.0": [
+"aurora/0.22.0/apache-aurora-0.22.0.tar.gz"
 ]
 },
 "avro": {
@@ -1897,16 +1900,30 @@
 "fortress-core-2.0.3": [
 "directory/fortress/dist/2.0.3/fortress-core-2.0.3-source-release.zip"
 ],
+"fortress-core-2.0.4": [
+"directory/fortress/dist/2.0.4/fortress-core-2.0.4-source-release.zip"
+],
 "fortress-realm-2.0.3": [
 "directory/fortress/dist/2.0.3/fortress-realm-2.0.3-source-release.zip"
+],
+"fortress-realm-2.0.4": [
+"directory/fortress/dist/2.0.4/fortress-realm-2.0.4-source-release.zip"
 ],
 "fortress-rest-2.0.3": [
 "directory/fortress/dist/2.0.3/fortress-rest-2.0.3-source-release.zip",
 "directory/fortress/dist/2.0.3/fortress-rest-2.0.3.war"
 ],
+"fortress-rest-2.0.4": [
+"directory/fortress/dist/2.0.4/fortress-rest-2.0.4-source-release.zip",
+"directory/fortress/dist/2.0.4/fortress-rest-2.0.4.war"
+],
 "fortress-web-2.0.3": [
 "directory/fortress/dist/2.0.3/fortress-web-2.0.3-source-release.zip",
 "directory/fortress/dist/2.0.3/fortress-web-2.0.3.war"
+],
+"fortress-web-2.0.4": [
+"directory/fortress/dist/2.0.4/fortress-web-2.0.4-source-release.zip",
+"directory/fortress/dist/2.0.4/fortress-web-2.0.4.war"
 ],
 "kerby-all-1.0.1": [
 "directory/kerby/dist/1.0.1/kerby-all-1.0.1-source-release.zip"
@@ -11074,6 +11091,9 @@
 "qpid-proton-0.29.0": [
 "qpid/proton/0.29.0/qpid-proton-0.29.0.tar.gz"
 ],
+"qpid-proton-0.30.0": [
+"qpid/proton/0.30.0/qpid-proton-0.30.0.tar.gz"
+],
 "qpid-python-1.37.0": [
 "qpid/python/1.37.0/qpid-python-1.37.0.tar.gz"
 ]
@@ -12747,19 +12767,6 @@
 "tomcat/tomcat-7/v7.0.96/src/apache-tomcat-7.0.96-src.tar.gz",
 "tomcat/tomcat-7/v7.0.96/src/apache-tomcat-7.0.96-src.zip"
 ],
-"apache-tomcat-8.5.49": [
-"tomcat/tomcat-8/v8.5.49/bin/embed/apache-tomcat-8.5.49-embed.tar.gz",
-"tomcat/tomcat-8/v8.5.49/bin/embed/apache-tomcat-8.5.49-embed.zip",
-"tomcat/tomcat-8/v8.5.49/bin/apache-tomcat-8.5.49-deployer.tar.gz",
-"tomcat/tomcat-8/v8.5.49/bin/apache-tomcat-8.5.49-deployer.zip",
-"tomcat/tomcat-8/v8.5.49/bin/apache-tomcat-8.5.49-fulldocs.tar.gz",
-"tomcat/tomcat-8/v8.5.49/bin/apache-tomcat-8.5.49-windows-x64.zip",
-"tomcat/tomcat-8/v8.5.49/bin/apache-tomcat-8.5.49.exe",
-"tomcat/tomcat-8/v8.5.49/bin/apache-tomcat-8.5.49.tar.gz",
-"tomcat/tomcat-8/v8.5.49/bin/apache-tomcat-8.5.49.zip",
-"tomcat/tomcat-8/v8.5.49/src/apache-tomcat-8.5.49-src.tar.gz",
-"tomcat/tomcat-8/v8.5.49/src/apache-tomcat-8.5.49-src.zip"
-],
 "apache-tomcat-8.5.50": [
 "tomcat/tomcat-8/v8.5.50/bin/embed/apache-tomcat-8.5.50-embed.tar.gz",
 "tomcat/tomcat-8/v8.5.50/bin/embed/apache-tomcat-8.5.50-embed.zip",
@@ -12772,19 +12779,6 @@
 "tomcat/tomcat-8/v8.5.50/bin/apache-tomcat-8.5.50.zip",
 "tomcat/tomcat-8/v8.5.50/src/apache-tomcat-8.5.50-src.tar.gz",
 "tomcat/tomcat-8/v8.5.50/src/apache-tomcat-8.5.50-src.zip"
-],
-"apache-tomcat-9.0.29": [
-"tomcat/tomcat-9/v9.0.29/bin/embed/apache-tomcat-9.0.29-embed.tar.gz",
-"tomcat/tomcat-9/v9.0.29/bin/embed/apache-tomcat-9.0.29-embed.zip",
-"tomcat/tomcat-9/v9.0.29/bin/apache-tomcat-9.0.29-deployer.tar.gz",
-"tomcat/tomcat-9/v9.0.29/bin/apache-tomcat-9.0.29-deployer.zip",
-"tomcat/tomcat-9/v9.0.29/bin/apache-tomcat-9.0.29-fulldocs.tar.gz",
-"tomcat/tomcat-9/v9.0.29/bin/apache-tomcat-9.0.29-windows-x64.zip",
-"tomcat/tomcat-9/v9.0.29/bin/apache-tomcat-9.0.29.exe",
-"tomcat/tomcat-9/v9.0.29/bin/apache-tomcat-9.0.29.tar.gz",
-"tomcat/tomcat-9/v9.0.29/bin/apache-tomcat-9.0.29.zip",
-"tomcat/tomcat-9/v9.0.29/src/apache-tomcat-9.0.29-src.tar.gz",
-"tomcat/tomcat-9/v9.0.29/src/apache-tomcat-9.0.29-src.zip"
 ],
 "apache-tomcat-9.0.30": [
 "tomcat/tomcat-9/v9.0.30/bin/embed/apache-tomcat-9.0.30-embed.tar.gz",
