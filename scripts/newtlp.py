@@ -16,8 +16,15 @@ data/committees/<pmc>.rdf
 
 import sys
 import os.path
+import os
 from string import Template
 import re
+
+if len(sys.argv) == 1:
+    print("Please provide a list of project ids")
+    sys.exit(1)
+
+# This currently reads data at load time
 import committee_info
 
 # extract committees composition
@@ -80,8 +87,11 @@ for arg in sys.argv[1:]:
             print("Creating "+outfile)
             with open(outfile,'w') as o:
                 o.write(out)
+            os.system("svn add %s" % outfile)
             update_xml(arg)
         else:
             print("No description found for "+arg)
     except KeyError:
         print("Cannot find "+arg)
+
+os.system("svn diff %s" % datadir)
