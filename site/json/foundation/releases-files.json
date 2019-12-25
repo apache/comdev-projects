@@ -91,8 +91,8 @@
 ]
 },
 "airflow": {
-"apache-airflow-1.10.6": [
-"airflow/1.10.6/apache-airflow-1.10.6-source.tar.gz"
+"apache-airflow-1.10.7": [
+"airflow/1.10.7/apache-airflow-1.10.7-source.tar.gz"
 ]
 },
 "allura": {
@@ -824,6 +824,9 @@
 "apache-camel-k-runtime-1.0.7": [
 "camel/camel-k-runtime/1.0.7/apache-camel-k-runtime-1.0.7-source-release.zip"
 ],
+"apache-camel-k-runtime-1.0.9": [
+"camel/camel-k-runtime/1.0.9/apache-camel-k-runtime-1.0.9-source-release.zip"
+],
 "camel-k-client-0.3.4-linux": [
 "camel/camel-k/0.3.4/camel-k-client-0.3.4-linux-64bit.tar.gz"
 ],
@@ -869,6 +872,15 @@
 "camel-k-client-1.0.0-M4-windows": [
 "camel/camel-k/1.0.0-M4/camel-k-client-1.0.0-M4-windows-64bit.tar.gz"
 ],
+"camel-k-client-1.0.0-RC1-linux": [
+"camel/camel-k/1.0.0-RC1/camel-k-client-1.0.0-RC1-linux-64bit.tar.gz"
+],
+"camel-k-client-1.0.0-RC1-mac": [
+"camel/camel-k/1.0.0-RC1/camel-k-client-1.0.0-RC1-mac-64bit.tar.gz"
+],
+"camel-k-client-1.0.0-RC1-windows": [
+"camel/camel-k/1.0.0-RC1/camel-k-client-1.0.0-RC1-windows-64bit.tar.gz"
+],
 "camel-k-examples-0.3.4": [
 "camel/camel-k/0.3.4/camel-k-examples-0.3.4.tar.gz"
 ],
@@ -884,6 +896,9 @@
 "camel-k-examples-1.0.0-M4": [
 "camel/camel-k/1.0.0-M4/camel-k-examples-1.0.0-M4.tar.gz"
 ],
+"camel-k-examples-1.0.0-RC1": [
+"camel/camel-k/1.0.0-RC1/camel-k-examples-1.0.0-RC1.tar.gz"
+],
 "camel-k-sources-0.3.4": [
 "camel/camel-k/0.3.4/camel-k-sources-0.3.4.tar.gz"
 ],
@@ -898,6 +913,9 @@
 ],
 "camel-k-sources-1.0.0-M4": [
 "camel/camel-k/1.0.0-M4/camel-k-sources-1.0.0-M4.tar.gz"
+],
+"camel-k-sources-1.0.0-RC1": [
+"camel/camel-k/1.0.0-RC1/camel-k-sources-1.0.0-RC1.tar.gz"
 ]
 },
 "carbondata": {
@@ -1739,8 +1757,8 @@
 "plugman-3.0.1": [
 "cordova/tools/plugman-3.0.1.tgz"
 ],
-"xcode-2.0.0": [
-"cordova/tools/xcode-2.0.0.tgz"
+"xcode-2.1.0": [
+"cordova/tools/xcode-2.1.0.tgz"
 ]
 },
 "couchdb": {
@@ -10517,9 +10535,6 @@
 "pdfbox-1.8.16": [
 "pdfbox/1.8.16/pdfbox-1.8.16-src.zip"
 ],
-"pdfbox-2.0.17": [
-"pdfbox/2.0.17/pdfbox-2.0.17-src.zip"
-],
 "pdfbox-2.0.18": [
 "pdfbox/2.0.18/pdfbox-2.0.18-src.zip"
 ]
@@ -12335,9 +12350,6 @@
 "SparkR_2.4.4": [
 "spark/spark-2.4.4/SparkR_2.4.4.tar.gz"
 ],
-"SparkR_3.0.0-preview": [
-"spark/spark-3.0.0-preview/SparkR_3.0.0-preview.tar.gz"
-],
 "SparkR_3.0.0-preview2": [
 "spark/spark-3.0.0-preview2/SparkR_3.0.0-preview2.tar.gz"
 ],
@@ -12347,9 +12359,6 @@
 "pyspark-2.4.4": [
 "spark/spark-2.4.4/pyspark-2.4.4.tar.gz"
 ],
-"pyspark-3.0.0.dev0": [
-"spark/spark-3.0.0-preview/pyspark-3.0.0.dev0.tar.gz"
-],
 "pyspark-3.0.0.dev2": [
 "spark/spark-3.0.0-preview2/pyspark-3.0.0.dev2.tar.gz"
 ],
@@ -12358,9 +12367,6 @@
 ],
 "spark-2.4.4": [
 "spark/spark-2.4.4/spark-2.4.4.tgz"
-],
-"spark-3.0.0-preview": [
-"spark/spark-3.0.0-preview/spark-3.0.0-preview.tgz"
 ],
 "spark-3.0.0-preview2": [
 "spark/spark-3.0.0-preview2/spark-3.0.0-preview2.tgz"
