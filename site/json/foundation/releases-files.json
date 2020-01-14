@@ -2939,6 +2939,10 @@
 "httpcomponents/httpcore/source/httpcomponents-core-4.4.12-src.tar.gz",
 "httpcomponents/httpcore/source/httpcomponents-core-4.4.12-src.zip"
 ],
+"httpcomponents-core-4.4.13": [
+"httpcomponents/httpcore/source/httpcomponents-core-4.4.13-src.tar.gz",
+"httpcomponents/httpcore/source/httpcomponents-core-4.4.13-src.zip"
+],
 "httpcomponents-core-5.0-beta10": [
 "httpcomponents/httpcore/source/httpcomponents-core-5.0-beta10-src.tar.gz",
 "httpcomponents/httpcore/source/httpcomponents-core-5.0-beta10-src.zip"
@@ -3018,12 +3022,6 @@
 ]
 },
 "incubator-daffodil": {
-"apache-daffodil-2.4.0-incubating": [
-"incubator/daffodil/2.4.0/src/apache-daffodil-2.4.0-incubating-src.zip"
-],
-"apache-daffodil-2.4.0.incubating-1.noarch": [
-"incubator/daffodil/2.4.0/bin/apache-daffodil-2.4.0.incubating-1.noarch.rpm"
-],
 "apache-daffodil-2.5.0-incubating": [
 "incubator/daffodil/2.5.0/src/apache-daffodil-2.5.0-incubating-src.zip"
 ],
@@ -5518,6 +5516,9 @@
 ]
 },
 "incubator-shardingsphere": {
+"apache-shardingsphere-incubating-4.0.0": [
+"incubator/shardingsphere/4.0.0/apache-shardingsphere-incubating-4.0.0-src.zip"
+],
 "apache-shardingsphere-incubating-4.0.0-RC1": [
 "incubator/shardingsphere/4.0.0-RC1/apache-shardingsphere-incubating-4.0.0-RC1-src.zip"
 ],
@@ -5955,8 +5956,8 @@
 "jackrabbit-oak-1.4.24": [
 "jackrabbit/oak/1.4.24/jackrabbit-oak-1.4.24-src.zip"
 ],
-"jackrabbit-oak-1.6.18": [
-"jackrabbit/oak/1.6.18/jackrabbit-oak-1.6.18-src.zip"
+"jackrabbit-oak-1.6.19": [
+"jackrabbit/oak/1.6.19/jackrabbit-oak-1.6.19-src.zip"
 ],
 "jackrabbit-oak-1.8.18": [
 "jackrabbit/oak/1.8.18/jackrabbit-oak-1.8.18-src.zip"
@@ -6432,6 +6433,11 @@
 "lucene/java/8.4.0/lucene-8.4.0.tgz",
 "lucene/java/8.4.0/lucene-8.4.0.zip"
 ],
+"lucene-8.4.1": [
+"lucene/java/8.4.1/lucene-8.4.1-src.tgz",
+"lucene/java/8.4.1/lucene-8.4.1.tgz",
+"lucene/java/8.4.1/lucene-8.4.1.zip"
+],
 "pylucene-7.7.1": [
 "lucene/pylucene/pylucene-7.7.1-src.tar.gz"
 ],
@@ -6447,6 +6453,11 @@
 "lucene/solr/8.4.0/solr-8.4.0-src.tgz",
 "lucene/solr/8.4.0/solr-8.4.0.tgz",
 "lucene/solr/8.4.0/solr-8.4.0.zip"
+],
+"solr-8.4.1": [
+"lucene/solr/8.4.1/solr-8.4.1-src.tgz",
+"lucene/solr/8.4.1/solr-8.4.1.tgz",
+"lucene/solr/8.4.1/solr-8.4.1.zip"
 ]
 },
 "lucenenet": {
@@ -10443,9 +10454,6 @@
 "openwhisk-apigateway-0.11.0": [
 "openwhisk/openwhisk-apigateway-0.11.0-sources.tar.gz"
 ],
-"openwhisk-catalog-0.10.0-incubating": [
-"openwhisk/incubating/openwhisk-catalog-0.10.0-incubating-sources.tar.gz"
-],
 "openwhisk-catalog-0.11.0": [
 "openwhisk/openwhisk-catalog-0.11.0-sources.tar.gz"
 ],
@@ -10472,9 +10480,6 @@
 ],
 "openwhisk-runtime-docker-1.13.0-incubating": [
 "openwhisk/incubating/openwhisk-runtime-docker-1.13.0-incubating-sources.tar.gz"
-],
-"openwhisk-runtime-dotnet-1.13.0-incubating": [
-"openwhisk/incubating/openwhisk-runtime-dotnet-1.13.0-incubating-sources.tar.gz"
 ],
 "openwhisk-runtime-dotnet-1.14.0": [
 "openwhisk/openwhisk-runtime-dotnet-1.14.0-sources.tar.gz"
@@ -10527,6 +10532,9 @@
 ],
 "apache-parquet-format-2.7.0": [
 "parquet/apache-parquet-format-2.7.0/apache-parquet-format-2.7.0.tar.gz"
+],
+"apache-parquet-format-2.8.0": [
+"parquet/apache-parquet-format-2.8.0/apache-parquet-format-2.8.0.tar.gz"
 ]
 },
 "pdfbox": {
@@ -11783,9 +11791,10 @@
 "org.apache.sling.feature.apiregions-1.0.0": [
 "sling/org.apache.sling.feature.apiregions-1.0.0-source-release.zip"
 ],
-"org.apache.sling.feature.cpconverter-1.0.2": [
-"sling/org.apache.sling.feature.cpconverter-1.0.2.tar.gz",
-"sling/org.apache.sling.feature.cpconverter-1.0.2.zip"
+"org.apache.sling.feature.cpconverter-1.0.6": [
+"sling/org.apache.sling.feature.cpconverter-1.0.6-source-release.zip",
+"sling/org.apache.sling.feature.cpconverter-1.0.6.tar.gz",
+"sling/org.apache.sling.feature.cpconverter-1.0.6.zip"
 ],
 "org.apache.sling.feature.extension.apiregions-1.1.0": [
 "sling/org.apache.sling.feature.extension.apiregions-1.1.0-source-release.zip"
@@ -11802,9 +11811,10 @@
 "org.apache.sling.feature.launcher-1.1.0": [
 "sling/org.apache.sling.feature.launcher-1.1.0-source-release.zip"
 ],
-"org.apache.sling.feature.modelconverter-1.0.8": [
-"sling/org.apache.sling.feature.modelconverter-1.0.8.tar.gz",
-"sling/org.apache.sling.feature.modelconverter-1.0.8.zip"
+"org.apache.sling.feature.modelconverter-1.0.10": [
+"sling/org.apache.sling.feature.modelconverter-1.0.10-source-release.zip",
+"sling/org.apache.sling.feature.modelconverter-1.0.10.tar.gz",
+"sling/org.apache.sling.feature.modelconverter-1.0.10.zip"
 ],
 "org.apache.sling.featureflags-1.2.2": [
 "sling/org.apache.sling.featureflags-1.2.2-source-release.zip"
@@ -12317,11 +12327,8 @@
 "slingfeature-maven-plugin-1.1.12": [
 "sling/slingfeature-maven-plugin-1.1.12-source-release.zip"
 ],
-"slingstart-maven-plugin-1.9.0": [
-"sling/slingstart-maven-plugin-1.9.0-source-release.zip"
-],
-"slingstart-maven-plugin-1.9.4": [
-"sling/slingstart-maven-plugin-1.9.4-source-release.zip"
+"slingstart-maven-plugin-1.9.6": [
+"sling/slingstart-maven-plugin-1.9.6-source-release.zip"
 ]
 },
 "spamassassin": {
