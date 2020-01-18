@@ -73,8 +73,8 @@ ATTIC = 'Attic <general@attic.apache.org>'
 def printAtticMail(msg, file=sys.stdout):
     print(msg, file=file)
     import datetime
-    # Only send the mail once a month
-    if datetime.datetime.now().day != 14:
+    # Only send the mail once a week
+    if datetime.datetime.now().day % 7 == 0:
         print("Not sending the email to '" + str(ATTIC) +"'" , file=file)
         return
     try:
