@@ -7440,37 +7440,6 @@
 ],
 "shortdesc": "\n      mod_ftp is an FTP protocol module hosted within Apache HTTP Server.\n    "
 },
-"hudi": {
-"bug-database": "https://issues.apache.org/jira/browse/HUDI",
-"category": "library",
-"created": "2019-12-31",
-"description": "Hudi (pronounced “Hoodie”) brings stream processing to big data, providing upserts, deletes and incremental data streams.",
-"doap": "https://gitbox.apache.org/repos/asf?p=incubator-hudi.git;a=blob_plain;f=doap_HUDI.rdf;hb=HEAD",
-"download-page": "https://hudi.apache.org/community.html",
-"homepage": "https://hudi.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "https://hudi.apache.org/community.html",
-"maintainer": [
-{
-"mbox": "mailto:dev@hudi.apache.org",
-"name": "Apache Hudi-incubating PPMC"
-}
-],
-"name": "Apache Hudi",
-"pmc": "hudi",
-"programming-language": "Java, Scala",
-"release": [
-{
-"created": "2019-10-24",
-"name": "Apache Hudi-incubating 0.5.0",
-"revision": "0.5.0"
-}
-],
-"repository": [
-"https://github.com/apache/incubator-hudi.git"
-],
-"shortdesc": "Ingests and Manages storage of large analytical datasets"
-},
 "ignite": {
 "bug-database": "https://issues.apache.org/jira/browse/IGNITE",
 "category": "big-data, sql, cloud, database, distributed-sql-database, data-management-platform, hadoop, network-server, network-client, osgi, IoT",
@@ -7722,6 +7691,37 @@
 "git://git.apache.org/incubator-freemarker.git"
 ],
 "shortdesc": "FreeMarker is a template engine, i.e. a generic tool to generate text output based on templates. FreeMarker is implemented in Java as a class library for programmers."
+},
+"incubator-hudi": {
+"bug-database": "https://issues.apache.org/jira/browse/HUDI",
+"category": "library",
+"created": "2019-12-31",
+"description": "Hudi (pronounced “Hoodie”) brings stream processing to big data, providing upserts, deletes and incremental data streams.",
+"doap": "https://gitbox.apache.org/repos/asf?p=incubator-hudi.git;a=blob_plain;f=doap_HUDI.rdf;hb=HEAD",
+"download-page": "https://hudi.apache.org/community.html",
+"homepage": "https://hudi.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "https://hudi.apache.org/community.html",
+"maintainer": [
+{
+"mbox": "mailto:dev@hudi.apache.org",
+"name": "Apache Hudi-incubating PPMC"
+}
+],
+"name": "Apache Hudi",
+"pmc": "incubator",
+"programming-language": "Java, Scala",
+"release": [
+{
+"created": "2019-10-24",
+"name": "Apache Hudi-incubating 0.5.0",
+"revision": "0.5.0"
+}
+],
+"repository": [
+"https://github.com/apache/incubator-hudi.git"
+],
+"shortdesc": "Ingests and Manages storage of large analytical datasets"
 },
 "incubator-milagro": {
 "bug-database": "https://issues.apache.org/jira/browse/MILAGRO",
