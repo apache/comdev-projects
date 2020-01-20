@@ -74,7 +74,7 @@ def printAtticMail(msg, file=sys.stdout):
     print(msg, file=file)
     import datetime
     # Only send the mail once a week
-    if datetime.datetime.now().day % 7 == 0:
+    if datetime.datetime.now().day % 7 != 0:
         print("Not sending the email to '" + str(ATTIC) +"'" , file=file)
         return
     try:
