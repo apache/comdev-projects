@@ -2824,7 +2824,6 @@
 "hbase": {
 "RELEASENOTES.md": [
 "hbase/2.1.8/RELEASENOTES.md",
-"hbase/2.2.2/RELEASENOTES.md",
 "hbase/2.2.3/RELEASENOTES.md",
 "hbase/hbase-filesystem-1.0.0-alpha1/RELEASENOTES.md",
 "hbase/hbase-operator-tools-1.0.0/RELEASENOTES.md",
@@ -2838,16 +2837,14 @@
 "hbase/hbase-1.4.11/hbase-1.4.11-src.tar.gz"
 ],
 "hbase-1.4.12": [
-"hbase/hbase-1.4.12/hbase-1.4.12-src.tar.gz"
+"hbase/hbase-1.4.12/hbase-1.4.12-src.tar.gz",
+"hbase/stable-1/hbase-1.4.12-src.tar.gz"
 ],
 "hbase-1.5.0": [
 "hbase/1.5.0/hbase-1.5.0-src.tar.gz"
 ],
 "hbase-2.1.8": [
 "hbase/2.1.8/hbase-2.1.8-src.tar.gz"
-],
-"hbase-2.2.2": [
-"hbase/2.2.2/hbase-2.2.2-src.tar.gz"
 ],
 "hbase-2.2.3": [
 "hbase/2.2.3/hbase-2.2.3-src.tar.gz"
@@ -5988,8 +5985,8 @@
 "jackrabbit-oak-1.22.0": [
 "jackrabbit/oak/1.22.0/jackrabbit-oak-1.22.0-src.zip"
 ],
-"jackrabbit-oak-1.4.24": [
-"jackrabbit/oak/1.4.24/jackrabbit-oak-1.4.24-src.zip"
+"jackrabbit-oak-1.4.25": [
+"jackrabbit/oak/1.4.25/jackrabbit-oak-1.4.25-src.zip"
 ],
 "jackrabbit-oak-1.6.19": [
 "jackrabbit/oak/1.6.19/jackrabbit-oak-1.6.19-src.zip"
@@ -12923,6 +12920,18 @@
 "tomee/tomee-7.0.6/apache-tomee-7.0.6-webprofile.tar.gz",
 "tomee/tomee-7.0.6/apache-tomee-7.0.6-webprofile.zip"
 ],
+"apache-tomee-7.0.7-plume": [
+"tomee/tomee-7.0.7/apache-tomee-7.0.7-plume.tar.gz",
+"tomee/tomee-7.0.7/apache-tomee-7.0.7-plume.zip"
+],
+"apache-tomee-7.0.7-plus": [
+"tomee/tomee-7.0.7/apache-tomee-7.0.7-plus.tar.gz",
+"tomee/tomee-7.0.7/apache-tomee-7.0.7-plus.zip"
+],
+"apache-tomee-7.0.7-webprofile": [
+"tomee/tomee-7.0.7/apache-tomee-7.0.7-webprofile.tar.gz",
+"tomee/tomee-7.0.7/apache-tomee-7.0.7-webprofile.zip"
+],
 "apache-tomee-7.1.1-microprofile": [
 "tomee/tomee-7.1.1/apache-tomee-7.1.1-microprofile.tar.gz",
 "tomee/tomee-7.1.1/apache-tomee-7.1.1-microprofile.zip"
@@ -12938,6 +12947,22 @@
 "apache-tomee-7.1.1-webprofile": [
 "tomee/tomee-7.1.1/apache-tomee-7.1.1-webprofile.tar.gz",
 "tomee/tomee-7.1.1/apache-tomee-7.1.1-webprofile.zip"
+],
+"apache-tomee-7.1.2-microprofile": [
+"tomee/tomee-7.1.2/apache-tomee-7.1.2-microprofile.tar.gz",
+"tomee/tomee-7.1.2/apache-tomee-7.1.2-microprofile.zip"
+],
+"apache-tomee-7.1.2-plume": [
+"tomee/tomee-7.1.2/apache-tomee-7.1.2-plume.tar.gz",
+"tomee/tomee-7.1.2/apache-tomee-7.1.2-plume.zip"
+],
+"apache-tomee-7.1.2-plus": [
+"tomee/tomee-7.1.2/apache-tomee-7.1.2-plus.tar.gz",
+"tomee/tomee-7.1.2/apache-tomee-7.1.2-plus.zip"
+],
+"apache-tomee-7.1.2-webprofile": [
+"tomee/tomee-7.1.2/apache-tomee-7.1.2-webprofile.tar.gz",
+"tomee/tomee-7.1.2/apache-tomee-7.1.2-webprofile.zip"
 ],
 "apache-tomee-8.0.0-M1-microprofile": [
 "tomee/tomee-8.0.0-M1/apache-tomee-8.0.0-M1-microprofile.tar.gz",
@@ -13003,6 +13028,22 @@
 "tomee/tomee-8.0.0/apache-tomee-8.0.0-webprofile.tar.gz",
 "tomee/tomee-8.0.0/apache-tomee-8.0.0-webprofile.zip"
 ],
+"apache-tomee-8.0.1-microprofile": [
+"tomee/tomee-8.0.1/apache-tomee-8.0.1-microprofile.tar.gz",
+"tomee/tomee-8.0.1/apache-tomee-8.0.1-microprofile.zip"
+],
+"apache-tomee-8.0.1-plume": [
+"tomee/tomee-8.0.1/apache-tomee-8.0.1-plume.tar.gz",
+"tomee/tomee-8.0.1/apache-tomee-8.0.1-plume.zip"
+],
+"apache-tomee-8.0.1-plus": [
+"tomee/tomee-8.0.1/apache-tomee-8.0.1-plus.tar.gz",
+"tomee/tomee-8.0.1/apache-tomee-8.0.1-plus.zip"
+],
+"apache-tomee-8.0.1-webprofile": [
+"tomee/tomee-8.0.1/apache-tomee-8.0.1-webprofile.tar.gz",
+"tomee/tomee-8.0.1/apache-tomee-8.0.1-webprofile.zip"
+],
 "arquillian-tomee-moviefun-example-1.7.5": [
 "tomee/tomee-1.7.5/arquillian-tomee-moviefun-example-1.7.5.war"
 ],
@@ -13024,9 +13065,17 @@
 "tomee/tomee-7.0.6/examples-7.0.6-src.tar.gz",
 "tomee/tomee-7.0.6/examples-7.0.6-src.zip"
 ],
+"examples-7.0.7": [
+"tomee/tomee-7.0.7/examples-7.0.7-src.tar.gz",
+"tomee/tomee-7.0.7/examples-7.0.7-src.zip"
+],
 "examples-7.1.1": [
 "tomee/tomee-7.1.1/examples-7.1.1-src.tar.gz",
 "tomee/tomee-7.1.1/examples-7.1.1-src.zip"
+],
+"examples-7.1.2": [
+"tomee/tomee-7.1.2/examples-7.1.2-src.tar.gz",
+"tomee/tomee-7.1.2/examples-7.1.2-src.zip"
 ],
 "examples-8.0.0": [
 "tomee/tomee-8.0.0/examples-8.0.0-src.tar.gz",
@@ -13043,6 +13092,10 @@
 "examples-8.0.0-M3": [
 "tomee/tomee-8.0.0-M3/examples-8.0.0-M3-src.tar.gz",
 "tomee/tomee-8.0.0-M3/examples-8.0.0-M3-src.zip"
+],
+"examples-8.0.1": [
+"tomee/tomee-8.0.1/examples-8.0.1-src.tar.gz",
+"tomee/tomee-8.0.1/examples-8.0.1-src.zip"
 ],
 "javaee-api-8.0": [
 "tomee/tomee-8.0.0-M1/javaee-api-8.0-source-release.zip"
@@ -13061,9 +13114,17 @@
 "tomee/tomee-7.0.6/openejb-standalone-7.0.6.tar.gz",
 "tomee/tomee-7.0.6/openejb-standalone-7.0.6.zip"
 ],
+"openejb-7.0.7": [
+"tomee/tomee-7.0.7/openejb-standalone-7.0.7.tar.gz",
+"tomee/tomee-7.0.7/openejb-standalone-7.0.7.zip"
+],
 "openejb-7.1.1": [
 "tomee/tomee-7.1.1/openejb-standalone-7.1.1.tar.gz",
 "tomee/tomee-7.1.1/openejb-standalone-7.1.1.zip"
+],
+"openejb-7.1.2": [
+"tomee/tomee-7.1.2/openejb-standalone-7.1.2.tar.gz",
+"tomee/tomee-7.1.2/openejb-standalone-7.1.2.zip"
 ],
 "openejb-8.0.0-M1": [
 "tomee/tomee-8.0.0-M1/openejb-standalone-8.0.0-M1.tar.gz",
@@ -13076,6 +13137,10 @@
 "openejb-8.0.0-M3": [
 "tomee/tomee-8.0.0-M3/openejb-standalone-8.0.0-M3.tar.gz",
 "tomee/tomee-8.0.0-M3/openejb-standalone-8.0.0-M3.zip"
+],
+"openejb-8.0.1": [
+"tomee/tomee-8.0.1/openejb-standalone-8.0.1.tar.gz",
+"tomee/tomee-8.0.1/openejb-standalone-8.0.1.zip"
 ],
 "openejb-provisionning-4.6.0.2": [
 "tomee/tomee-1.6.0.2/openejb-provisionning-4.6.0.2.tar.gz",
@@ -13126,8 +13191,16 @@
 "tomee-7.0.6": [
 "tomee/tomee-7.0.6/tomee-webapp-7.0.6.war"
 ],
+"tomee-7.0.7": [
+"tomee/tomee-7.0.7/tomee-project-7.0.7-source-release.zip",
+"tomee/tomee-7.0.7/tomee-webapp-7.0.7.war"
+],
 "tomee-7.1.1": [
 "tomee/tomee-7.1.1/tomee-webapp-7.1.1.war"
+],
+"tomee-7.1.2": [
+"tomee/tomee-7.1.2/tomee-project-7.1.2-source-release.zip",
+"tomee/tomee-7.1.2/tomee-webapp-7.1.2.war"
 ],
 "tomee-8.0.0": [
 "tomee/tomee-8.0.0/tomee-project-8.0.0-source-release.zip"
@@ -13144,6 +13217,10 @@
 "tomee/tomee-8.0.0-M3/tomee-project-8.0.0-M3-source-release.zip",
 "tomee/tomee-8.0.0-M3/tomee-webapp-8.0.0-M3.war"
 ],
+"tomee-8.0.1": [
+"tomee/tomee-8.0.1/tomee-project-8.0.1-source-release.zip",
+"tomee/tomee-8.0.1/tomee-webapp-8.0.1.war"
+],
 "tomee-jaxrs-1.6.0.2": [
 "tomee/tomee-1.6.0.2/tomee-jaxrs-webapp-1.6.0.2.war"
 ],
@@ -13152,6 +13229,9 @@
 ],
 "tomee-microprofile-7.1.1": [
 "tomee/tomee-7.1.1/tomee-microprofile-webapp-7.1.1.war"
+],
+"tomee-microprofile-7.1.2": [
+"tomee/tomee-7.1.2/tomee-microprofile-webapp-7.1.2.war"
 ],
 "tomee-microprofile-8.0.0-M1": [
 "tomee/tomee-8.0.0-M1/tomee-microprofile-webapp-8.0.0-M1.war"
@@ -13162,14 +13242,23 @@
 "tomee-microprofile-8.0.0-M3": [
 "tomee/tomee-8.0.0-M3/tomee-microprofile-webapp-8.0.0-M3.war"
 ],
+"tomee-microprofile-8.0.1": [
+"tomee/tomee-8.0.1/tomee-microprofile-webapp-8.0.1.war"
+],
 "tomee-plume-1.7.5": [
 "tomee/tomee-1.7.5/tomee-plume-webapp-1.7.5.war"
 ],
 "tomee-plume-7.0.6": [
 "tomee/tomee-7.0.6/tomee-plume-webapp-7.0.6.war"
 ],
+"tomee-plume-7.0.7": [
+"tomee/tomee-7.0.7/tomee-plume-webapp-7.0.7.war"
+],
 "tomee-plume-7.1.1": [
 "tomee/tomee-7.1.1/tomee-plume-webapp-7.1.1.war"
+],
+"tomee-plume-7.1.2": [
+"tomee/tomee-7.1.2/tomee-plume-webapp-7.1.2.war"
 ],
 "tomee-plume-8.0.0-M1": [
 "tomee/tomee-8.0.0-M1/tomee-plume-webapp-8.0.0-M1.war"
@@ -13180,6 +13269,9 @@
 "tomee-plume-8.0.0-M3": [
 "tomee/tomee-8.0.0-M3/tomee-plume-webapp-8.0.0-M3.war"
 ],
+"tomee-plume-8.0.1": [
+"tomee/tomee-8.0.1/tomee-plume-webapp-8.0.1.war"
+],
 "tomee-plus-1.6.0.2": [
 "tomee/tomee-1.6.0.2/tomee-plus-webapp-1.6.0.2.war"
 ],
@@ -13189,8 +13281,14 @@
 "tomee-plus-7.0.6": [
 "tomee/tomee-7.0.6/tomee-plus-webapp-7.0.6.war"
 ],
+"tomee-plus-7.0.7": [
+"tomee/tomee-7.0.7/tomee-plus-webapp-7.0.7.war"
+],
 "tomee-plus-7.1.1": [
 "tomee/tomee-7.1.1/tomee-plus-webapp-7.1.1.war"
+],
+"tomee-plus-7.1.2": [
+"tomee/tomee-7.1.2/tomee-plus-webapp-7.1.2.war"
 ],
 "tomee-plus-8.0.0-M1": [
 "tomee/tomee-8.0.0-M1/tomee-plus-webapp-8.0.0-M1.war"
@@ -13200,6 +13298,9 @@
 ],
 "tomee-plus-8.0.0-M3": [
 "tomee/tomee-8.0.0-M3/tomee-plus-webapp-8.0.0-M3.war"
+],
+"tomee-plus-8.0.1": [
+"tomee/tomee-8.0.1/tomee-plus-webapp-8.0.1.war"
 ],
 "tomee-webaccess-1.6.0.2": [
 "tomee/tomee-1.6.0.2/tomee-webaccess-1.6.0.2.war"
