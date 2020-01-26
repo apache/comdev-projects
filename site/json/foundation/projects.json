@@ -13868,7 +13868,7 @@
 "shortdesc": "Apache ServiceMix is an open source ESB providing routing and mediation features."
 },
 "shiro": {
-"bug-database": "http://issues.apache.org/jira/browse/SHIRO",
+"bug-database": "https://issues.apache.org/jira/browse/SHIRO",
 "category": "library, web-framework",
 "chair": {
 "Person": {
@@ -13882,9 +13882,9 @@
 "description": "Apache Shiro is a powerful and flexible open-source security framework that cleanly handles\n        authentication, authorization, enterprise session management, single sign-on and cryptography services.",
 "doap": "https://shiro.apache.org/static/current/doap_shiro-root.rdf",
 "download-page": "https://shiro.apache.org/download.html",
-"homepage": "http://shiro.apache.org/",
+"homepage": "https://shiro.apache.org/",
 "license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
-"mailing-list": "http://shiro.apache.org//mail-lists.html",
+"mailing-list": "https://shiro.apache.org//mail-lists.html",
 "maintainer": [
 {
 "homepage": "http://www.allanditzel.com",
@@ -13910,7 +13910,7 @@
 "name": "Jeremy Haile"
 },
 {
-"homepage": "http://tynamo.org",
+"homepage": "https://www.tynamo.org",
 "mbox": "mailto:kaosko@apache.org",
 "name": "Kalle Korhonen"
 },
@@ -13920,7 +13920,7 @@
 "name": "Les Hazlewood"
 },
 {
-"homepage": "http://www.cacoethes.co.uk/blog/",
+"homepage": "https://www.cacoethes.co.uk/",
 "mbox": "mailto:p.ledbrook@cacoethes.co.uk",
 "name": "Peter Ledbrook"
 },
@@ -13934,78 +13934,88 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2019-05-01",
-"file-release": "http://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.4.1/shiro-root-1.4.1.pom",
+"created": "2020-01-24",
+"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.5.0/shiro-root-1.5.0.pom",
 "name": "Latest stable release",
+"revision": "1.5.0"
+},
+{
+"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.4.2/shiro-root-1.4.2.pom",
+"name": "Apache Shiro - 1.4.2",
+"revision": "1.4.2"
+},
+{
+"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.4.1/shiro-root-1.4.1.pom",
+"name": "Apache Shiro - 1.4.1",
 "revision": "1.4.1"
 },
 {
-"file-release": "http://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.4.0/shiro-root-1.4.0.pom",
+"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.4.0/shiro-root-1.4.0.pom",
 "name": "Apache Shiro - 1.4.0",
 "revision": "1.4.0"
 },
 {
-"file-release": "http://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.4.0-RC2/shiro-root-1.4.0-RC2.pom",
+"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.4.0-RC2/shiro-root-1.4.0-RC2.pom",
 "name": "Apache Shiro - 1.4.0-RC2",
 "revision": "1.4.0-RC2"
 },
 {
-"file-release": "http://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.3.2/shiro-root-1.3.2.pom",
+"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.3.2/shiro-root-1.3.2.pom",
 "name": "Apache Shiro - 1.3.2",
 "revision": "1.3.2"
 },
 {
-"file-release": "http://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.3.1/shiro-root-1.3.1.pom",
+"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.3.1/shiro-root-1.3.1.pom",
 "name": "Apache Shiro - 1.3.1",
 "revision": "1.3.1"
 },
 {
-"file-release": "http://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.3.0/shiro-root-1.3.0.pom",
+"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.3.0/shiro-root-1.3.0.pom",
 "name": "Apache Shiro - 1.3.0",
 "revision": "1.3.0"
 },
 {
-"file-release": "http://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.2.6/shiro-root-1.2.6.pom",
+"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.2.6/shiro-root-1.2.6.pom",
 "name": "Apache Shiro - 1.2.6",
 "revision": "1.2.6"
 },
 {
-"file-release": "http://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.2.5/shiro-root-1.2.5.pom",
+"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.2.5/shiro-root-1.2.5.pom",
 "name": "Apache Shiro - 1.2.5",
 "revision": "1.2.5"
 },
 {
-"file-release": "http://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.2.4/shiro-root-1.2.4.pom",
+"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.2.4/shiro-root-1.2.4.pom",
 "name": "Apache Shiro - 1.2.4",
 "revision": "1.2.4"
 },
 {
-"file-release": "http://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.2.3/shiro-root-1.2.3.pom",
+"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.2.3/shiro-root-1.2.3.pom",
 "name": "Apache Shiro - 1.2.3",
 "revision": "1.2.3"
 },
 {
-"file-release": "http://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.2.2/shiro-root-1.2.2.pom",
+"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.2.2/shiro-root-1.2.2.pom",
 "name": "Apache Shiro - 1.2.2",
 "revision": "1.2.2"
 },
 {
-"file-release": "http://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.2.1/shiro-root-1.2.1.pom",
+"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.2.1/shiro-root-1.2.1.pom",
 "name": "Apache Shiro - 1.2.1",
 "revision": "1.2.1"
 },
 {
-"file-release": "http://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.2.0/shiro-root-1.2.0.pom",
+"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.2.0/shiro-root-1.2.0.pom",
 "name": "Apache Shiro - 1.2.0",
 "revision": "1.2.0"
 },
 {
-"file-release": "http://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.1.0/shiro-root-1.1.0.pom",
+"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.1.0/shiro-root-1.1.0.pom",
 "name": "Apache Shiro - 1.1.0",
 "revision": "1.1.0"
 },
 {
-"file-release": "http://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.0.0-incubating/shiro-root-1.0.0-incubating.pom",
+"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.0.0-incubating/shiro-root-1.0.0-incubating.pom",
 "name": "Apache Shiro - 1.0.0-incubating",
 "revision": "1.0.0-incubating"
 }
