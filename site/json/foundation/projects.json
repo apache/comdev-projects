@@ -681,24 +681,6 @@
 ],
 "shortdesc": "Integrate Ivy in Eclipse with the IvyDE plugin."
 },
-"ant-props": {
-"bug-database": "http://issues.apache.org/bugzilla/buglist.cgi?product=Ant",
-"category": "build-management",
-"created": "2009-07-31",
-"description": "The Apache Props Antlib is a library of supplementary handlers for Apache Ant properties resolution.\n\nThe types provided are instances of org.apache.tools.ant.PropertyHelper.Delegate and can be invoked using the <propertyhelper> task provided in Ant 1.8.0.",
-"doap": "https://ant.apache.org/antlibs/props/doap_PropsAntlib.rdf",
-"download-page": "http://ant.apache.org/antlibs/bindownload.cgi",
-"homepage": "http://ant.apache.org/antlibs/props/",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://ant.apache.org/mail.html",
-"name": "Apache Props Ant Library",
-"pmc": "ant",
-"programming-language": "Java",
-"repository": [
-"https://gitbox.apache.org/repos/asf/ant-antlibs-props.git"
-],
-"shortdesc": "The Apache Props Antlib is a library of supplementary handlers for Apache Ant properties resolution."
-},
 "ant-vss": {
 "bug-database": "http://issues.apache.org/bugzilla/buglist.cgi?product=Ant",
 "category": "build-management",
@@ -1959,37 +1941,6 @@
 "https://svn.apache.org/repos/asf/shale/"
 ],
 "shortdesc": "Home of several MVC Web Frameworks"
-},
-"attic-shindig": {
-"bug-database": "https://issues.apache.org/jira/browse/SHINDIG",
-"category": "javaee, retired",
-"created": "2012-04-14",
-"description": "Apache Shindig is a container for hosting social application consisting of four parts:\n\n    Gadget Container JavaScript: core JavaScript foundation for general gadget functionality (read more about gadget functionality). This JavaScript manages security, communication, UI layout, and feature extensions, such as the OpenSocial API.\n    Gadget Rendering Server: used to render the gadget XML into JavaScript and HTML for the container to expose via the container JavaScript.\n    OpenSocial Container JavaScript: JavaScript environment that sits on top of the Gadget Container JavaScript and provides OpenSocial specific functionality (profiles, friends, activities, datastore).\n    OpenSocial Data Server: an implementation of the server interface to container-specific information, including the OpenSocial REST APIs, with clear extension points so others can connect it to their own backends.\n\nApache Shindig is the reference implementation of OpenSocial API specifications, versions 0.8.x and 0.9.x, a standard set of Social Network APIs.",
-"doap": "http://svn.apache.org/repos/asf/shindig/trunk/doap_shindig.rdf",
-"download-page": "http://shindig.apache.org/download",
-"homepage": "http://shindig.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://shindig.apache.org/mail-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:general@attic.apache.org",
-"name": "Apache Attic PMC"
-}
-],
-"name": "Apache Shindig",
-"pmc": "attic",
-"programming-language": "Java",
-"release": [
-{
-"created": "2010-09-10",
-"name": "Apache Shindig 2.0.0",
-"revision": "2.0.0"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/shindig"
-],
-"shortdesc": "Apache Shindig software is an OpenSocial container and helps you to start hosting OpenSocial apps quickly by providing the code to render gadgets, proxy requests, and handle REST and RPC requests."
 },
 "attic-stratos": {
 "bug-database": "https://issues.apache.org/jira/browse/stratos",
@@ -7718,9 +7669,9 @@
 "programming-language": "Java, Scala",
 "release": [
 {
-"created": "2019-10-24",
-"name": "Apache Hudi-incubating 0.5.0",
-"revision": "0.5.0"
+"created": "2020-01-31",
+"name": "Apache Hudi-incubating 0.5.1",
+"revision": "0.5.1"
 }
 ],
 "repository": [
@@ -15315,101 +15266,6 @@
 "https://git-wip-us.apache.org/repos/asf/vcl"
 ],
 "shortdesc": "A cloud computing platform for provisioning and brokering access to dedicated remote compute resources."
-},
-"velocity": {
-"bug-database": "http://issues.apache.org/jira/browse/VELOCITY",
-"category": "library",
-"created": "2006-11-21",
-"description": "Velocity is a Java-based template engine. It permits anyone to use a simple yet powerful template language to reference objects defined in Java code.\n\nWhen Velocity is used for web development, Web designers can work in parallel with Java programmers to develop web sites according to the Model-View-Controller (MVC) model, meaning that web page designers can focus solely on creating a site that looks good, and programmers can focus solely on writing top-notch code. Velocity separates Java code from the web pages, making the web site more maintainable over its lifespan and providing a viable alternative to Java Server Pages (JSPs) or PHP. ",
-"doap": "http://svn.apache.org/repos/asf/velocity/site/site/doap_engine.rdf",
-"download-page": "http://velocity.apache.org/download.cgi",
-"homepage": "http://velocity.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://velocity.apache.org/mail-lists.html",
-"name": "Apache Velocity",
-"pmc": "velocity",
-"programming-language": "Java",
-"release": [
-{
-"created": "2019-03-31",
-"name": "Velocity 2.1",
-"revision": "2.0"
-},
-{
-"created": "2017-08-06",
-"name": "Velocity 2.0",
-"revision": "2.0"
-},
-{
-"created": "2010-11-29",
-"name": "Velocity 1.7",
-"revision": "1.7"
-},
-{
-"created": "2010-05-10",
-"name": "Velocity 1.6.4",
-"revision": "1.6.4"
-},
-{
-"created": "2010-04-16",
-"name": "Velocity 1.7 beta1",
-"revision": "1.7 beta1"
-},
-{
-"created": "2009-12-16",
-"name": "Velocity 1.6.3",
-"revision": "1.6.3"
-},
-{
-"created": "2009-03-18",
-"name": "Velocity 1.6.2",
-"revision": "1.6.2"
-},
-{
-"created": "2008-12-15",
-"name": "Velocity 1.6.1",
-"revision": "1.6.1"
-},
-{
-"created": "2008-12-01",
-"name": "Velocity 1.6",
-"revision": "1.6"
-},
-{
-"created": "2008-10-27",
-"name": "Velocity 1.6 beta2",
-"revision": "1.6 beta2"
-},
-{
-"created": "2008-09-22",
-"name": "Velocity 1.6 beta1",
-"revision": "1.6 beta1"
-},
-{
-"created": "2007-03-06",
-"name": "Latest Stable Release",
-"revision": "1.5"
-},
-{
-"created": "2006-11-24",
-"name": "Velocity 1.5 beta2",
-"revision": "1.5 beta2"
-},
-{
-"created": "2006-09-13",
-"name": "Velocity 1.5 beta1",
-"revision": "1.5 beta1"
-},
-{
-"created": "2004-04-14",
-"name": "Velocity 1.4",
-"revision": "1.4"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/velocity/engine/trunk"
-],
-"shortdesc": "Java-based template engine"
 },
 "velocity-anakia": {
 "bug-database": "http://issues.apache.org/jira/browse/ANAKIA",
