@@ -1855,6 +1855,7 @@
 "groups": [
 "airflow",
 "airflow-pmc",
+"beam",
 "incubator"
 ],
 "member": false,
@@ -4328,7 +4329,8 @@
 "hadoop-pmc",
 "incubator",
 "sentry",
-"sentry-pmc"
+"sentry-pmc",
+"yunikorn"
 ],
 "member": false,
 "name": "Arun Suresh"
@@ -10114,7 +10116,9 @@
 "groups": [
 "hadoop",
 "hadoop-pmc",
-"reef"
+"incubator",
+"reef",
+"yunikorn"
 ],
 "member": false,
 "name": "Carlo Curino"
@@ -11162,10 +11166,12 @@
 "dbtsai": {
 "groups": [
 "bahir",
+"incubator",
 "spark",
 "spark-pmc",
 "systemml",
-"systemml-pmc"
+"systemml-pmc",
+"yunikorn"
 ],
 "member": false,
 "name": "DB Tsai"
@@ -23469,7 +23475,9 @@
 "jhung": {
 "groups": [
 "hadoop",
-"hadoop-pmc"
+"hadoop-pmc",
+"incubator",
+"yunikorn"
 ],
 "member": false,
 "name": "Jonathan Hung"
@@ -27875,7 +27883,9 @@
 "kkaranasos": {
 "groups": [
 "hadoop",
-"hadoop-pmc"
+"hadoop-pmc",
+"incubator",
+"yunikorn"
 ],
 "member": false,
 "name": "Konstantinos Karanasos"
@@ -41816,6 +41826,7 @@
 "riemer": {
 "groups": [
 "incubator",
+"plc4x",
 "streampipes"
 ],
 "member": false,
@@ -47618,7 +47629,9 @@
 "subru": {
 "groups": [
 "hadoop",
-"hadoop-pmc"
+"hadoop-pmc",
+"incubator",
+"yunikorn"
 ],
 "member": false,
 "name": "Subramaniam Krishnan"
@@ -47803,8 +47816,10 @@
 "groups": [
 "hadoop",
 "hadoop-pmc",
+"incubator",
 "submarine",
-"submarine-pmc"
+"submarine-pmc",
+"yunikorn"
 ],
 "member": false,
 "name": "Sunil G"
@@ -48609,7 +48624,9 @@
 },
 "taoyang": {
 "groups": [
-"hadoop"
+"hadoop",
+"incubator",
+"yunikorn"
 ],
 "member": false,
 "name": "Tao Yang"
@@ -51717,7 +51734,8 @@
 "metron",
 "metron-pmc",
 "tez",
-"tez-pmc"
+"tez-pmc",
+"yunikorn"
 ],
 "member": true,
 "name": "Vinod Kumar Vavilapalli"
@@ -52369,8 +52387,10 @@
 "groups": [
 "hadoop",
 "hadoop-pmc",
+"incubator",
 "submarine",
-"submarine-pmc"
+"submarine-pmc",
+"yunikorn"
 ],
 "member": false,
 "name": "Wangda Tan"
@@ -53436,7 +53456,9 @@
 "wwei": {
 "groups": [
 "hadoop",
-"hadoop-pmc"
+"hadoop-pmc",
+"incubator",
+"yunikorn"
 ],
 "member": false,
 "name": "Weiwei Yang"
