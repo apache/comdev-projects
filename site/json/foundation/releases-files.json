@@ -2536,11 +2536,11 @@
 ]
 },
 "flink": {
-"flink-1.7.2": [
-"flink/flink-1.7.2/flink-1.7.2-src.tgz"
+"apache-flink-1.10.0": [
+"flink/flink-1.10.0/apache-flink-1.10.0.tar.gz"
 ],
-"flink-1.8.3": [
-"flink/flink-1.8.3/flink-1.8.3-src.tgz"
+"flink-1.10.0": [
+"flink/flink-1.10.0/flink-1.10.0-src.tgz"
 ],
 "flink-1.9.2": [
 "flink/flink-1.9.2/flink-1.9.2-src.tgz"
@@ -10577,6 +10577,9 @@
 "openwhisk-runtime-docker-1.13.0-incubating": [
 "openwhisk/incubating/openwhisk-runtime-docker-1.13.0-incubating-sources.tar.gz"
 ],
+"openwhisk-runtime-docker-1.14.0": [
+"openwhisk/openwhisk-runtime-docker-1.14.0-sources.tar.gz"
+],
 "openwhisk-runtime-dotnet-1.14.0": [
 "openwhisk/openwhisk-runtime-dotnet-1.14.0-sources.tar.gz"
 ],
@@ -10586,11 +10589,17 @@
 "openwhisk-runtime-java-1.13.0-incubating": [
 "openwhisk/incubating/openwhisk-runtime-java-1.13.0-incubating-sources.tar.gz"
 ],
+"openwhisk-runtime-java-1.14.0": [
+"openwhisk/openwhisk-runtime-java-1.14.0-sources.tar.gz"
+],
 "openwhisk-runtime-nodejs-1.14.0-incubating": [
 "openwhisk/incubating/openwhisk-runtime-nodejs-1.14.0-incubating-sources.tar.gz"
 ],
 "openwhisk-runtime-php-1.13.0-incubating": [
 "openwhisk/incubating/openwhisk-runtime-php-1.13.0-incubating-sources.tar.gz"
+],
+"openwhisk-runtime-php-1.14.0": [
+"openwhisk/openwhisk-runtime-php-1.14.0-sources.tar.gz"
 ],
 "openwhisk-runtime-python-1.13.0-incubating": [
 "openwhisk/incubating/openwhisk-runtime-python-1.13.0-incubating-sources.tar.gz"
@@ -10598,8 +10607,14 @@
 "openwhisk-runtime-ruby-1.13.0-incubating": [
 "openwhisk/incubating/openwhisk-runtime-ruby-1.13.0-incubating-sources.tar.gz"
 ],
+"openwhisk-runtime-ruby-1.14.0": [
+"openwhisk/openwhisk-runtime-ruby-1.14.0-sources.tar.gz"
+],
 "openwhisk-runtime-swift-1.13.0-incubating": [
 "openwhisk/incubating/openwhisk-runtime-swift-1.13.0-incubating-sources.tar.gz"
+],
+"openwhisk-runtime-swift-1.14.0": [
+"openwhisk/openwhisk-runtime-swift-1.14.0-sources.tar.gz"
 ],
 "openwhisk-wskdeploy-1.0.0": [
 "openwhisk/openwhisk-wskdeploy-1.0.0-sources.tar.gz"
@@ -12784,6 +12799,19 @@
 "tomcat/tomcat-8/v8.5.50/src/apache-tomcat-8.5.50-src.tar.gz",
 "tomcat/tomcat-8/v8.5.50/src/apache-tomcat-8.5.50-src.zip"
 ],
+"apache-tomcat-8.5.51": [
+"tomcat/tomcat-8/v8.5.51/bin/embed/apache-tomcat-8.5.51-embed.tar.gz",
+"tomcat/tomcat-8/v8.5.51/bin/embed/apache-tomcat-8.5.51-embed.zip",
+"tomcat/tomcat-8/v8.5.51/bin/apache-tomcat-8.5.51-deployer.tar.gz",
+"tomcat/tomcat-8/v8.5.51/bin/apache-tomcat-8.5.51-deployer.zip",
+"tomcat/tomcat-8/v8.5.51/bin/apache-tomcat-8.5.51-fulldocs.tar.gz",
+"tomcat/tomcat-8/v8.5.51/bin/apache-tomcat-8.5.51-windows-x64.zip",
+"tomcat/tomcat-8/v8.5.51/bin/apache-tomcat-8.5.51.exe",
+"tomcat/tomcat-8/v8.5.51/bin/apache-tomcat-8.5.51.tar.gz",
+"tomcat/tomcat-8/v8.5.51/bin/apache-tomcat-8.5.51.zip",
+"tomcat/tomcat-8/v8.5.51/src/apache-tomcat-8.5.51-src.tar.gz",
+"tomcat/tomcat-8/v8.5.51/src/apache-tomcat-8.5.51-src.zip"
+],
 "apache-tomcat-9.0.30": [
 "tomcat/tomcat-9/v9.0.30/bin/embed/apache-tomcat-9.0.30-embed.tar.gz",
 "tomcat/tomcat-9/v9.0.30/bin/embed/apache-tomcat-9.0.30-embed.zip",
@@ -12797,6 +12825,19 @@
 "tomcat/tomcat-9/v9.0.30/src/apache-tomcat-9.0.30-src.tar.gz",
 "tomcat/tomcat-9/v9.0.30/src/apache-tomcat-9.0.30-src.zip"
 ],
+"apache-tomcat-9.0.31": [
+"tomcat/tomcat-9/v9.0.31/bin/embed/apache-tomcat-9.0.31-embed.tar.gz",
+"tomcat/tomcat-9/v9.0.31/bin/embed/apache-tomcat-9.0.31-embed.zip",
+"tomcat/tomcat-9/v9.0.31/bin/apache-tomcat-9.0.31-deployer.tar.gz",
+"tomcat/tomcat-9/v9.0.31/bin/apache-tomcat-9.0.31-deployer.zip",
+"tomcat/tomcat-9/v9.0.31/bin/apache-tomcat-9.0.31-fulldocs.tar.gz",
+"tomcat/tomcat-9/v9.0.31/bin/apache-tomcat-9.0.31-windows-x64.zip",
+"tomcat/tomcat-9/v9.0.31/bin/apache-tomcat-9.0.31.exe",
+"tomcat/tomcat-9/v9.0.31/bin/apache-tomcat-9.0.31.tar.gz",
+"tomcat/tomcat-9/v9.0.31/bin/apache-tomcat-9.0.31.zip",
+"tomcat/tomcat-9/v9.0.31/src/apache-tomcat-9.0.31-src.tar.gz",
+"tomcat/tomcat-9/v9.0.31/src/apache-tomcat-9.0.31-src.zip"
+],
 "taglibs-standard-1.2.5": [
 "tomcat/taglibs/taglibs-standard-1.2.5/taglibs-standard-1.2.5-source-release.zip"
 ],
@@ -12806,10 +12847,6 @@
 ],
 "tomcat-maven-plugin-2.2": [
 "tomcat/maven-plugin/v2.2/tomcat-maven-plugin-2.2-source-release.zip"
-],
-"tomcat-native-1.2.21": [
-"tomcat/tomcat-connectors/native/1.2.21/source/tomcat-native-1.2.21-src.tar.gz",
-"tomcat/tomcat-connectors/native/1.2.21/source/tomcat-native-1.2.21-win32-src.zip"
 ],
 "tomcat-native-1.2.23": [
 "tomcat/tomcat-connectors/native/1.2.23/source/tomcat-native-1.2.23-src.tar.gz",
