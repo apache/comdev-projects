@@ -529,20 +529,20 @@
 ]
 },
 "avro": {
-"Avro-1.9.1": [
-"avro/avro-1.9.1/perl/Avro-1.9.1.tar.gz"
+"Avro-1.9.2": [
+"avro/avro-1.9.2/perl/Avro-1.9.2.tar.gz"
 ],
-"avro-1.9.1": [
-"avro/avro-1.9.1/avro-src-1.9.1.tar.gz"
+"avro-1.9.2": [
+"avro/avro-1.9.2/avro-src-1.9.2.tar.gz"
 ],
-"avro-c-1.9.1": [
-"avro/avro-1.9.1/c/avro-c-1.9.1.tar.gz"
+"avro-c-1.9.2": [
+"avro/avro-1.9.2/c/avro-c-1.9.2.tar.gz"
 ],
-"avro-csharp-1.9.1": [
-"avro/avro-1.9.1/csharp/avro-csharp-1.9.1.tar.gz"
+"avro-csharp-1.9.2": [
+"avro/avro-1.9.2/csharp/avro-csharp-1.9.2.tar.gz"
 ],
-"avro-js-1.9.1": [
-"avro/avro-1.9.1/js/avro-js-1.9.1.tgz"
+"avro-js-1.9.2": [
+"avro/avro-1.9.2/js/avro-js-1.9.2.tgz"
 ]
 },
 "axis": {
@@ -1161,13 +1161,18 @@
 },
 "clerezza": {
 "201505-1.0.0": [
-"clerezza/partial-release-201505/201505-1.0.0-src.zip"
+"clerezza/partial-releases/partial-release-201505/201505-1.0.0-src.zip"
 ],
 "201508-1": [
-"clerezza/partial-release-201508/201508-1-src.zip"
+"clerezza/partial-releases/partial-release-201508/201508-1-src.zip"
 ],
 "201604-1": [
-"clerezza/partial-release-201604/201604-1-src.zip"
+"clerezza/partial-releases/partial-release-201604/201604-1-src.zip"
+],
+"20200202-2": [
+"clerezza/api-implementation/partial-release-202002/20200202-2-src.zip",
+"clerezza/ontologies/partial-release-202002/20200202-2-src.zip",
+"clerezza/partial-releases/partial-release-202002/20200202-2-src.zip"
 ],
 "api-2.0.0": [
 "clerezza/api/api-2.0.0-source-release.zip"
@@ -1191,10 +1196,10 @@
 "clerezza/rdfjson-1.0.0/rdf.rdfjson-1.0.0-source-release.zip"
 ],
 "reactor-0.3": [
-"clerezza/partial-release-201407/reactor-0.3-source-release.zip"
+"clerezza/partial-releases/partial-release-201407/reactor-0.3-source-release.zip"
 ],
 "release20130710-reactor-0.3": [
-"clerezza/partial-release-20130710/release20130710-reactor-0.3-source-release.zip"
+"clerezza/partial-releases/partial-release-20130710/release20130710-reactor-0.3-source-release.zip"
 ],
 "typehandlerspace-0.2": [
 "clerezza/typehandlerspace-02/typehandlerspace-0.2-source-release.zip"
@@ -3324,6 +3329,9 @@
 "incubator-nemo": {
 "apache-nemo-0.1-incubating-rc2": [
 "incubator/nemo/0.1-incubating/apache-nemo-0.1-incubating-rc2.tar.gz"
+],
+"apache-nemo-0.2-incubating-rc3": [
+"incubator/nemo/0.2-incubating/apache-nemo-0.2-incubating-rc3.tar.gz"
 ]
 },
 "incubator-netbeans": {
@@ -6922,8 +6930,8 @@
 "maven-script-interpreter-1.2": [
 "maven/shared/maven-script-interpreter-1.2-source-release.zip"
 ],
-"maven-shade-plugin-3.2.1": [
-"maven/plugins/maven-shade-plugin-3.2.1-source-release.zip"
+"maven-shade-plugin-3.2.2": [
+"maven/plugins/maven-shade-plugin-3.2.2-source-release.zip"
 ],
 "maven-shared-incremental-1.1": [
 "maven/shared/maven-shared-incremental-1.1-source-release.zip"
@@ -10574,9 +10582,6 @@
 "openwhisk-package-kafka-2.0.0-incubating": [
 "openwhisk/incubating/openwhisk-package-kafka-2.0.0-incubating-sources.tar.gz"
 ],
-"openwhisk-runtime-docker-1.13.0-incubating": [
-"openwhisk/incubating/openwhisk-runtime-docker-1.13.0-incubating-sources.tar.gz"
-],
 "openwhisk-runtime-docker-1.14.0": [
 "openwhisk/openwhisk-runtime-docker-1.14.0-sources.tar.gz"
 ],
@@ -10586,17 +10591,11 @@
 "openwhisk-runtime-go-1.15.0": [
 "openwhisk/openwhisk-runtime-go-1.15.0-sources.tar.gz"
 ],
-"openwhisk-runtime-java-1.13.0-incubating": [
-"openwhisk/incubating/openwhisk-runtime-java-1.13.0-incubating-sources.tar.gz"
-],
 "openwhisk-runtime-java-1.14.0": [
 "openwhisk/openwhisk-runtime-java-1.14.0-sources.tar.gz"
 ],
 "openwhisk-runtime-nodejs-1.14.0-incubating": [
 "openwhisk/incubating/openwhisk-runtime-nodejs-1.14.0-incubating-sources.tar.gz"
-],
-"openwhisk-runtime-php-1.13.0-incubating": [
-"openwhisk/incubating/openwhisk-runtime-php-1.13.0-incubating-sources.tar.gz"
 ],
 "openwhisk-runtime-php-1.14.0": [
 "openwhisk/openwhisk-runtime-php-1.14.0-sources.tar.gz"
@@ -10604,14 +10603,8 @@
 "openwhisk-runtime-python-1.13.0-incubating": [
 "openwhisk/incubating/openwhisk-runtime-python-1.13.0-incubating-sources.tar.gz"
 ],
-"openwhisk-runtime-ruby-1.13.0-incubating": [
-"openwhisk/incubating/openwhisk-runtime-ruby-1.13.0-incubating-sources.tar.gz"
-],
 "openwhisk-runtime-ruby-1.14.0": [
 "openwhisk/openwhisk-runtime-ruby-1.14.0-sources.tar.gz"
-],
-"openwhisk-runtime-swift-1.13.0-incubating": [
-"openwhisk/incubating/openwhisk-runtime-swift-1.13.0-incubating-sources.tar.gz"
 ],
 "openwhisk-runtime-swift-1.14.0": [
 "openwhisk/openwhisk-runtime-swift-1.14.0-sources.tar.gz"
@@ -11040,6 +11033,9 @@
 ],
 "apache-qpid-broker-j-7.1.7": [
 "qpid/broker-j/7.1.7/apache-qpid-broker-j-7.1.7-src.tar.gz"
+],
+"apache-qpid-broker-j-7.1.8": [
+"qpid/broker-j/7.1.8/apache-qpid-broker-j-7.1.8-src.tar.gz"
 ],
 "apache-qpid-jms-0.47.0": [
 "qpid/jms/0.47.0/apache-qpid-jms-0.47.0-src.tar.gz"
@@ -12786,19 +12782,6 @@
 "tomcat/tomcat-7/v7.0.99/src/apache-tomcat-7.0.99-src.tar.gz",
 "tomcat/tomcat-7/v7.0.99/src/apache-tomcat-7.0.99-src.zip"
 ],
-"apache-tomcat-8.5.50": [
-"tomcat/tomcat-8/v8.5.50/bin/embed/apache-tomcat-8.5.50-embed.tar.gz",
-"tomcat/tomcat-8/v8.5.50/bin/embed/apache-tomcat-8.5.50-embed.zip",
-"tomcat/tomcat-8/v8.5.50/bin/apache-tomcat-8.5.50-deployer.tar.gz",
-"tomcat/tomcat-8/v8.5.50/bin/apache-tomcat-8.5.50-deployer.zip",
-"tomcat/tomcat-8/v8.5.50/bin/apache-tomcat-8.5.50-fulldocs.tar.gz",
-"tomcat/tomcat-8/v8.5.50/bin/apache-tomcat-8.5.50-windows-x64.zip",
-"tomcat/tomcat-8/v8.5.50/bin/apache-tomcat-8.5.50.exe",
-"tomcat/tomcat-8/v8.5.50/bin/apache-tomcat-8.5.50.tar.gz",
-"tomcat/tomcat-8/v8.5.50/bin/apache-tomcat-8.5.50.zip",
-"tomcat/tomcat-8/v8.5.50/src/apache-tomcat-8.5.50-src.tar.gz",
-"tomcat/tomcat-8/v8.5.50/src/apache-tomcat-8.5.50-src.zip"
-],
 "apache-tomcat-8.5.51": [
 "tomcat/tomcat-8/v8.5.51/bin/embed/apache-tomcat-8.5.51-embed.tar.gz",
 "tomcat/tomcat-8/v8.5.51/bin/embed/apache-tomcat-8.5.51-embed.zip",
@@ -12811,19 +12794,6 @@
 "tomcat/tomcat-8/v8.5.51/bin/apache-tomcat-8.5.51.zip",
 "tomcat/tomcat-8/v8.5.51/src/apache-tomcat-8.5.51-src.tar.gz",
 "tomcat/tomcat-8/v8.5.51/src/apache-tomcat-8.5.51-src.zip"
-],
-"apache-tomcat-9.0.30": [
-"tomcat/tomcat-9/v9.0.30/bin/embed/apache-tomcat-9.0.30-embed.tar.gz",
-"tomcat/tomcat-9/v9.0.30/bin/embed/apache-tomcat-9.0.30-embed.zip",
-"tomcat/tomcat-9/v9.0.30/bin/apache-tomcat-9.0.30-deployer.tar.gz",
-"tomcat/tomcat-9/v9.0.30/bin/apache-tomcat-9.0.30-deployer.zip",
-"tomcat/tomcat-9/v9.0.30/bin/apache-tomcat-9.0.30-fulldocs.tar.gz",
-"tomcat/tomcat-9/v9.0.30/bin/apache-tomcat-9.0.30-windows-x64.zip",
-"tomcat/tomcat-9/v9.0.30/bin/apache-tomcat-9.0.30.exe",
-"tomcat/tomcat-9/v9.0.30/bin/apache-tomcat-9.0.30.tar.gz",
-"tomcat/tomcat-9/v9.0.30/bin/apache-tomcat-9.0.30.zip",
-"tomcat/tomcat-9/v9.0.30/src/apache-tomcat-9.0.30-src.tar.gz",
-"tomcat/tomcat-9/v9.0.30/src/apache-tomcat-9.0.30-src.zip"
 ],
 "apache-tomcat-9.0.31": [
 "tomcat/tomcat-9/v9.0.31/bin/embed/apache-tomcat-9.0.31-embed.tar.gz",
