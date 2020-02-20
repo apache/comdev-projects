@@ -1652,108 +1652,6 @@
 "shortdesc": "A home for dormant projects"
 },
 {
-"chair": "renan",
-"charter": "The mission of Aurora is the creation and maintenance of software related to Mesos framework for long-running services and cron jobs",
-"established": "2015-03",
-"group": "aurora",
-"homepage": "http://aurora.apache.org/",
-"id": "aurora",
-"name": "Apache Aurora",
-"rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/aurora.rdf",
-"reporting": 3,
-"roster": {
-"benh": {
-"date": "2015-03-18",
-"name": "Benjamin Hindman"
-},
-"dlester": {
-"date": "2015-03-18",
-"name": "Dave Lester"
-},
-"dmclaughlin": {
-"date": "2015-03-18",
-"name": "David McLaughlin"
-},
-"hsaputra": {
-"date": "2015-03-18",
-"name": "Henry Saputra"
-},
-"jcohen": {
-"date": "2015-12-23",
-"name": "Joshua Cohen"
-},
-"jfarrell": {
-"date": "2015-03-18",
-"name": "Jake Farrell"
-},
-"jordanly": {
-"date": "2018-05-03",
-"name": "Jordan Ly"
-},
-"jsirois": {
-"date": "2016-01-04",
-"name": "John Sirois"
-},
-"kevints": {
-"date": "2015-03-18",
-"name": "Kevin Sweeney"
-},
-"mansu": {
-"date": "2015-03-18",
-"name": "Suman Karumuri"
-},
-"mattmann": {
-"date": "2015-03-18",
-"name": "Chris Mattmann"
-},
-"mauricio": {
-"date": "2019-07-30",
-"name": "Mauricio Garavaglia"
-},
-"maxim": {
-"date": "2015-03-18",
-"name": "Maxim Khutornenko"
-},
-"mchucarroll": {
-"date": "2015-03-18",
-"name": "Mark Chu-Carroll"
-},
-"mehrdad": {
-"date": "2017-02-25",
-"name": "Mehrdad Nurolahzade"
-},
-"renan": {
-"date": "2018-01-29",
-"name": "Renan DelValle"
-},
-"santhk": {
-"date": "2018-05-03",
-"name": "Santhosh Kumar Shanmugham"
-},
-"serb": {
-"date": "2016-02-04",
-"name": "Stephan Erb"
-},
-"sniemitz": {
-"date": "2016-01-12",
-"name": "Steve Niemitz"
-},
-"wfarner": {
-"date": "2015-03-18",
-"name": "Bill Farner"
-},
-"wickman": {
-"date": "2015-03-18",
-"name": "Brian Wickman"
-},
-"zmanji": {
-"date": "2015-03-18",
-"name": "Zameer Manji"
-}
-},
-"shortdesc": "Mesos framework for long-running services and cron jobs"
-},
-{
 "chair": "busbey",
 "charter": "The mission of Avro is the creation and maintenance of software related to A Serialization System",
 "established": "2010-04",
@@ -2278,7 +2176,7 @@
 "shortdesc": "Programming model, SDKs, and runners for defining and executing data processing pipelines"
 },
 {
-"chair": "ywkim",
+"chair": "junhe",
 "charter": "Bigtop is a project for the development of packaging and tests of the Apache Hadoop ecosystem. The primary goal of Bigtop is to build a community around the packaging and interoperability testing of Hadoop-related projects. This includes testing at various levels (packaging, platform, runtime, upgrade, etc...) developed by a community with a focus on the system as a whole, rather than individual projects. In short we strive to be for Hadoop what Debian is to Linux.",
 "established": "2012-09",
 "group": "bigtop",
@@ -6826,72 +6724,6 @@
 "shortdesc": "Storage and incremental processing of large data sets"
 },
 {
-"chair": "crossley",
-"charter": "The mission of Apache Forrest is the generation of aggregated multi-channel documentation, maintaining a separation of content and presentation.",
-"established": "2004-05",
-"group": "forrest",
-"homepage": "http://forrest.apache.org/",
-"id": "forrest",
-"name": "Apache Forrest",
-"rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/forrest.rdf",
-"reporting": 2,
-"roster": {
-"antonio": {
-"date": "2004-05-26",
-"name": "Antonio Gallardo"
-},
-"bdube": {
-"date": "2007-05-31",
-"name": "Brian Dube"
-},
-"brondsem": {
-"date": "2004-05-26",
-"name": "Dave Brondsema"
-},
-"cdupoirieux": {
-"date": "2005-08-25",
-"name": "Cyriaque Dupoirieux"
-},
-"cheche": {
-"date": "2004-05-26",
-"name": "Juan Jose Pablos"
-},
-"crossley": {
-"date": "2004-05-26",
-"name": "David Crossley"
-},
-"diwaker": {
-"date": "2005-07-19",
-"name": "Diwaker Gupta"
-},
-"josch": {
-"date": "2005-04-02",
-"name": "Johannes Sch\u00e4fer"
-},
-"rick": {
-"date": "2004-11-11",
-"name": "Rick Tessner"
-},
-"sina": {
-"date": "2009-06-08",
-"name": "Sina Heshmati"
-},
-"sjur": {
-"date": "2006-11-13",
-"name": "Sjur Moshagen"
-},
-"thorsten": {
-"date": "2004-10-15",
-"name": "Thorsten Scherler"
-},
-"twilliams": {
-"date": "2005-07-20",
-"name": "Tim Williams"
-}
-},
-"shortdesc": "Aggregated multi-channel documentation, separation of concerns"
-},
-{
 "chair": "ddekany",
 "charter": "The mission of Apache FreeMarker is the creation and maintenance of software related to a template engine.",
 "established": "2018-03",
@@ -9462,6 +9294,10 @@
 "date": "2017-11-15",
 "name": "Casey Ching"
 },
+"csringhofer": {
+"date": "2020-02-19",
+"name": "Csaba Ringhofer"
+},
 "cws": {
 "date": "2017-11-15",
 "name": "Carl Steinbach"
@@ -9580,10 +9416,6 @@
 "rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/incubator.rdf",
 "reporting": 0,
 "roster": {
-"aadamchik": {
-"date": "2008-07-19",
-"name": "Andrus Adamchik"
-},
 "aajisaka": {
 "date": "2018-12-08",
 "name": "Akira Ajisaka"
@@ -9600,29 +9432,13 @@
 "date": "2015-03-10",
 "name": "Andrew Bayer"
 },
-"acmurthy": {
-"date": "2011-08-30",
-"name": "Arun Murthy"
-},
 "adc": {
 "date": "2008-05-21",
 "name": "Alan Cabrera"
 },
-"aestrada": {
-"date": "2014-12-10",
-"name": "Adam Estrada"
-},
-"ahart": {
-"date": "2012-09-19",
-"name": "Andrew Hart"
-},
 "akarasulu": {
 "date": "2005-07-25",
 "name": "Alex Karasulu"
-},
-"akpetteroe": {
-"date": "2011-12-29",
-"name": "Anne Kathrine Petteroe"
 },
 "amareshwari": {
 "date": "2015-04-11",
@@ -9640,10 +9456,6 @@
 "date": "2019-05-08",
 "name": "Arpit Agarwal"
 },
-"arvind": {
-"date": "2012-06-09",
-"name": "Arvind Prabhakar"
-},
 "asavory": {
 "date": "2011-06-17",
 "name": "Andrew Savory"
@@ -9656,17 +9468,9 @@
 "date": "2018-12-15",
 "name": "Mohammad Asif Siddiqui"
 },
-"aslom": {
-"date": "2011-07-21",
-"name": "Aleksander Slominski"
-},
 "ate": {
 "date": "2009-07-11",
 "name": "Ate Douma"
-},
-"azeez": {
-"date": "2013-06-09",
-"name": "Afkham Azeez"
 },
 "bayard": {
 "date": "2016-03-10",
@@ -9675,14 +9479,6 @@
 "bdelacretaz": {
 "date": "2006-10-28",
 "name": "Bertrand Delacr\u00e9taz"
-},
-"ben": {
-"date": "2005-06-04",
-"name": "Ben Laurie"
-},
-"benh": {
-"date": "2013-09-04",
-"name": "Benjamin Hindman"
 },
 "berndf": {
 "date": "2008-07-10",
@@ -9704,10 +9500,6 @@
 "date": "2013-12-12",
 "name": "Billie Rinaldi"
 },
-"bloritsch": {
-"date": "2005-07-27",
-"name": "Berin Loritsch"
-},
 "blue": {
 "date": "2017-05-11",
 "name": "Ryan Blue"
@@ -9720,10 +9512,6 @@
 "date": "2006-04-19",
 "name": "Brian McCallister"
 },
-"brock": {
-"date": "2014-11-29",
-"name": "Brock Noland"
-},
 "brondsem": {
 "date": "2013-11-19",
 "name": "Dave Brondsema"
@@ -9732,21 +9520,9 @@
 "date": "2010-08-22",
 "name": "Bryan Duxbury"
 },
-"bsnyder": {
-"date": "2008-01-20",
-"name": "Bruce Snyder"
-},
 "carlos": {
 "date": "2009-11-05",
 "name": "Carlos Sanchez"
-},
-"carnold": {
-"date": "2006-07-10",
-"name": "Curt Arnold"
-},
-"cdouglas": {
-"date": "2009-03-06",
-"name": "Christopher Douglas"
 },
 "cdutz": {
 "date": "2018-08-31",
@@ -9755,10 +9531,6 @@
 "chenliang613": {
 "date": "2018-12-08",
 "name": "Liang Chen"
-},
-"chinthaka": {
-"date": "2009-05-14",
-"name": "Eran Chinthaka"
 },
 "chipchilders": {
 "date": "2013-04-30",
@@ -9780,10 +9552,6 @@
 "date": "2013-10-02",
 "name": "Christian Mueller"
 },
-"cnauroth": {
-"date": "2015-05-10",
-"name": "Chris Nauroth"
-},
 "coar": {
 "date": "2002-10-16",
 "name": "Ken Coar"
@@ -9799,10 +9567,6 @@
 "covener": {
 "date": "2016-07-22",
 "name": "Eric Covener"
-},
-"craigmcc": {
-"date": "2004-08-03",
-"name": "Craig McClanahan"
 },
 "curcuru": {
 "date": "2011-06-11",
@@ -9843,14 +9607,6 @@
 "deepal": {
 "date": "2008-07-28",
 "name": "Deepal Jayasinghe"
-},
-"dirkx": {
-"date": "2005-06-04",
-"name": "Dirk-Willem van Gulik"
-},
-"djd": {
-"date": "2016-02-29",
-"name": "Daniel John Debrunner"
 },
 "djencks": {
 "date": "2010-05-13",
@@ -9924,10 +9680,6 @@
 "date": "2018-11-20",
 "name": "Felix Cheung"
 },
-"fmui": {
-"date": "2013-05-25",
-"name": "Florian M\u00fcller"
-},
 "fpj": {
 "date": "2015-08-09",
 "name": "Flavio Junqueira"
@@ -9939,10 +9691,6 @@
 "gates": {
 "date": "2011-03-13",
 "name": "Alan Gates"
-},
-"gawor": {
-"date": "2010-01-18",
-"name": "Jarek Gawor"
 },
 "geirm": {
 "date": "2003-11-21",
@@ -9992,18 +9740,6 @@
 "date": "2010-11-07",
 "name": "Hadrian Zbarcea"
 },
-"hammant": {
-"date": "2003-04-05",
-"name": "Paul Hammant"
-},
-"hashutosh": {
-"date": "2014-04-05",
-"name": "Ashutosh Chauhan"
-},
-"hemapani": {
-"date": "2010-07-22",
-"name": "Srinath Perera"
-},
 "henning": {
 "date": "2007-04-12",
 "name": "Henning Schmiedehausen"
@@ -10036,10 +9772,6 @@
 "date": "2014-12-30",
 "name": "Hyunsik Choi"
 },
-"iocanel": {
-"date": "2018-11-17",
-"name": "Ioannis Canellos"
-},
 "jacques": {
 "date": "2015-11-06",
 "name": "Jacques Nadeau"
@@ -10047,10 +9779,6 @@
 "jamestaylor": {
 "date": "2016-01-11",
 "name": "James Taylor"
-},
-"janpio": {
-"date": "2019-03-05",
-"name": "Jan Piotrowski"
 },
 "jarcec": {
 "date": "2015-05-16",
@@ -10067,10 +9795,6 @@
 "jcarman": {
 "date": "2010-09-16",
 "name": "James Carman"
-},
-"jerenkrantz": {
-"date": "2015-07-01",
-"name": "Justin Erenkrantz"
 },
 "jfarrell": {
 "date": "2013-09-03",
@@ -10112,17 +9836,9 @@
 "date": "2015-04-30",
 "name": "Jitendra Pandey"
 },
-"jleroux": {
-"date": "2017-09-24",
-"name": "Jacques Le Roux"
-},
 "jlk": {
 "date": "2018-11-17",
 "name": "John Kinsella"
-},
-"jlmonteiro": {
-"date": "2014-07-03",
-"name": "Jean-Louis Monteiro"
 },
 "jlowe": {
 "date": "2020-01-07",
@@ -10135,10 +9851,6 @@
 "jochen": {
 "date": "2016-06-20",
 "name": "Jochen Wiedmann"
-},
-"joed": {
-"date": "2017-12-22",
-"name": "Carl Johan Erik Edstrom"
 },
 "joern": {
 "date": "2012-06-21",
@@ -10155,14 +9867,6 @@
 "johndament": {
 "date": "2014-05-27",
 "name": "John D. Ament"
-},
-"joyce": {
-"date": "2015-04-13",
-"name": "Michael James Joyce"
-},
-"jstrachan": {
-"date": "2003-11-15",
-"name": "James Strachan"
 },
 "jukka": {
 "date": "2006-08-09",
@@ -10192,14 +9896,6 @@
 "date": "2018-11-20",
 "name": "Furkan Kamaci"
 },
-"kanchana": {
-"date": "2019-03-14",
-"name": "Kanchana Pradeepika Welagedara"
-},
-"kaspersor": {
-"date": "2016-11-09",
-"name": "Kasper S\u00f8rensen"
-},
 "ke4qqq": {
 "date": "2013-04-01",
 "name": "David Nalley"
@@ -10212,10 +9908,6 @@
 "date": "2018-11-20",
 "name": "Kishore G"
 },
-"kmarsden": {
-"date": "2016-02-29",
-"name": "Kathey Marsden"
-},
 "kmcgrail": {
 "date": "2018-01-02",
 "name": "Kevin A. McGrail"
@@ -10227,10 +9919,6 @@
 "ksobkowiak": {
 "date": "2019-03-14",
 "name": "Krzysztof Sobkowiak"
-},
-"kwright": {
-"date": "2012-12-30",
-"name": "Karl Wright"
 },
 "larsfrancke": {
 "date": "2018-07-24",
@@ -10248,10 +9936,6 @@
 "date": "2018-12-22",
 "name": "Lionel Liu"
 },
-"lmccay": {
-"date": "2017-05-07",
-"name": "Larry McCay"
-},
 "lresende": {
 "date": "2009-01-22",
 "name": "Luciano Resende"
@@ -10267,14 +9951,6 @@
 "mahadev": {
 "date": "2012-06-17",
 "name": "Mahadev Konar"
-},
-"marrs": {
-"date": "2010-10-07",
-"name": "Marcel Offermans"
-},
-"mattmann": {
-"date": "2010-04-29",
-"name": "Chris Mattmann"
 },
 "mattsicker": {
 "date": "2018-03-30",
@@ -10292,10 +9968,6 @@
 "date": "2017-11-27",
 "name": "Michael Semb Wever"
 },
-"meng": {
-"date": "2018-09-07",
-"name": "Xiangrui Meng"
-},
 "mfranklin": {
 "date": "2012-02-19",
 "name": "Matt Franklin"
@@ -10308,14 +9980,6 @@
 "date": "2010-12-02",
 "name": "Mohammad Nour El-Din"
 },
-"morgand": {
-"date": "2013-12-26",
-"name": "Morgan Delegrange"
-},
-"mpierce": {
-"date": "2013-06-09",
-"name": "Marlon Pierce"
-},
 "mrdon": {
 "date": "2006-04-19",
 "name": "Don Brown"
@@ -10323,10 +9987,6 @@
 "mriou": {
 "date": "2007-09-07",
 "name": "Matthieu Riou"
-},
-"mturk": {
-"date": "2009-11-16",
-"name": "Mladen Turk"
 },
 "mvdb": {
 "date": "2006-10-26",
@@ -10347,10 +10007,6 @@
 "nandana": {
 "date": "2012-11-22",
 "name": "Nandana Mihindukulasooriya"
-},
-"ngn": {
-"date": "2011-06-23",
-"name": "Niklas Gustavsson"
 },
 "niallp": {
 "date": "2007-11-25",
@@ -10376,10 +10032,6 @@
 "date": "2003-10-06",
 "name": "Noel J. Bergman"
 },
-"norman": {
-"date": "2010-07-01",
-"name": "Norman Maurer"
-},
 "oching": {
 "date": "2010-08-19",
 "name": "Maria Odea Ching"
@@ -10400,37 +10052,17 @@
 "date": "2010-02-19",
 "name": "Karl Pauls"
 },
-"pctony": {
-"date": "2009-11-16",
-"name": "Tony Stevenson"
-},
-"pgollucci": {
-"date": "2009-11-05",
-"name": "Philip M. Gollucci"
-},
 "phunt": {
 "date": "2011-02-12",
 "name": "Patrick Hunt"
-},
-"pono": {
-"date": "2017-07-06",
-"name": "Daniel Takamori"
 },
 "pquerna": {
 "date": "2006-06-09",
 "name": "Paul Querna"
 },
-"pramirez": {
-"date": "2011-09-25",
-"name": "Paul Ramirez"
-},
 "ptgoetz": {
 "date": "2015-04-11",
 "name": "P. Taylor Goetz"
-},
-"pwendell": {
-"date": "2015-11-06",
-"name": "Patrick Wendell"
 },
 "pzf": {
 "date": "2006-01-20",
@@ -10448,21 +10080,9 @@
 "date": "2012-05-25",
 "name": "Rich Bowen"
 },
-"rdonkin": {
-"date": "2006-05-07",
-"name": "Robert Burrell Donkin"
-},
-"reinhard": {
-"date": "2009-06-03",
-"name": "Reinhard P\u00f6tz"
-},
 "reta": {
 "date": "2018-08-28",
 "name": "Andriy Redko"
-},
-"rfeng": {
-"date": "2012-02-06",
-"name": "Zhaohui Feng"
 },
 "rfrovarp": {
 "date": "2011-08-12",
@@ -10471,22 +10091,6 @@
 "rgoers": {
 "date": "2009-06-18",
 "name": "Ralph Goers"
-},
-"rhillegas": {
-"date": "2008-06-15",
-"name": "Rick Hillegas"
-},
-"rhirsch": {
-"date": "2010-08-29",
-"name": "Richard Hirsch"
-},
-"rmannibucau": {
-"date": "2014-07-03",
-"name": "Romain Manni-Bucau"
-},
-"rooneg": {
-"date": "2006-06-09",
-"name": "Garrett Rooney"
 },
 "rubys": {
 "date": "2003-04-04",
@@ -10500,25 +10104,13 @@
 "date": "2015-11-06",
 "name": "Reynold Xin"
 },
-"sanjiva": {
-"date": "2005-06-04",
-"name": "Sanjiva Weerawarana"
-},
 "sbailliez": {
 "date": "2006-11-17",
 "name": "Stephane Bailliez"
 },
-"sblackmon": {
-"date": "2017-06-16",
-"name": "Stephen D Blackmon"
-},
 "sdeboy": {
 "date": "2010-08-19",
 "name": "Scott Deboy"
-},
-"senaka": {
-"date": "2010-07-01",
-"name": "Senaka Fernando"
 },
 "sewen": {
 "date": "2016-10-27",
@@ -10552,14 +10144,6 @@
 "date": "2016-04-03",
 "name": "Suneel Marthi"
 },
-"snoopdave": {
-"date": "2007-09-13",
-"name": "Dave Johnson"
-},
-"sorber": {
-"date": "2015-11-06",
-"name": "Phil Sorber"
-},
 "ssc": {
 "date": "2013-11-29",
 "name": "Sebastian Schelter"
@@ -10580,10 +10164,6 @@
 "date": "2013-11-24",
 "name": "Steven Noels"
 },
-"stoddard": {
-"date": "2006-01-29",
-"name": "Bill Stoddard"
-},
 "striker": {
 "date": "2009-11-13",
 "name": "Sander Striker"
@@ -10591,18 +10171,6 @@
 "struberg": {
 "date": "2010-08-19",
 "name": "Mark Struberg"
-},
-"suresh": {
-"date": "2014-01-16",
-"name": "Suresh Srinivas"
-},
-"susie": {
-"date": "2006-07-10",
-"name": "Susan Wu"
-},
-"sylvain": {
-"date": "2005-07-25",
-"name": "Sylvain Wallez"
 },
 "tallison": {
 "date": "2019-07-14",
@@ -10648,14 +10216,6 @@
 "date": "2012-03-16",
 "name": "Francis Christopher Liu"
 },
-"tomaz": {
-"date": "2012-05-30",
-"name": "Toma\u017e Muraus"
-},
-"tomdz": {
-"date": "2013-05-31",
-"name": "Thomas Dudziak"
-},
 "tommaso": {
 "date": "2011-03-08",
 "name": "Tommaso Teofili"
@@ -10700,10 +10260,6 @@
 "date": "2018-11-27",
 "name": "Von Gosling"
 },
-"vsiveton": {
-"date": "2010-12-13",
-"name": "Vincent Siveton"
-},
 "wave": {
 "date": "2011-12-29",
 "name": "David Fisher"
@@ -10711,10 +10267,6 @@
 "weimer": {
 "date": "2017-01-09",
 "name": "Markus Weimer"
-},
-"whitehall": {
-"date": "2015-04-11",
-"name": "Kim Whitehall"
 },
 "wikier": {
 "date": "2013-11-27",
@@ -10731,10 +10283,6 @@
 "wusheng": {
 "date": "2018-11-27",
 "name": "Sheng Wu"
-},
-"yegor": {
-"date": "2011-06-11",
-"name": "Yegor Kozlov"
 },
 "zjshen": {
 "date": "2019-09-10",
