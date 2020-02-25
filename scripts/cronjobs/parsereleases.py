@@ -44,7 +44,7 @@ x = 0
 def getDirList(url):
     try:
         data = urllib.request.urlopen(url).read().decode('utf-8')
-        for entry, xd, xdate in re.findall(r"<a href=\"([^\"/]+)(/?)\">.+</a>\s+(\d\d\d\d-\d\d-\d\d)", data, re.MULTILINE | re.UNICODE):
+        for entry, xd, xdate in re.findall(r"<a href=\"([^\"/]+)(/?)\">.+</a><.+?>(\d\d\d\d-\d\d-\d\d)", data, re.MULTILINE | re.UNICODE):
             yield(entry, xdate, xd)
     except:
         pass
