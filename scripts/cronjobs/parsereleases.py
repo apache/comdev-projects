@@ -29,7 +29,7 @@ Note that rsync excludes hashes, sigs and KEYS files; however they are not neede
 
 releases = {}
 files = {}
-mainurl = "http://www.apache.org/dist/"
+mainurl = "https://downloads.apache.org/"
 
 x = 0
 
