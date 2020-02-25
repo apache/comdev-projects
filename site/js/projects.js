@@ -1670,7 +1670,7 @@ function linkToHere(id) {
 // Called by releases.html
 
 function buildReleases() {
-    GetAsyncJSON("json/foundation/releases.json", null, renderReleases);
+    GetAsyncJSON("json/foundation/releases.json?" + Math.random(), null, renderReleases);
 }
 
 // ------------ Async data fetching ------------\\
