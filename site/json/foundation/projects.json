@@ -6554,6 +6554,37 @@
 ],
 "shortdesc": "Data management and processing platform"
 },
+"felix": {
+"bug-database": "https://issues.apache.org/jira/browse/FELIX",
+"category": "network-server",
+"created": "2007-06-27",
+"doap": "https://gitbox.apache.org/repos/asf?p=felix-dev.git;a=blob_plain;f=doap/doap_Felix.rdf;hb=HEAD",
+"download-page": "http://felix.apache.org/downloads.cgi",
+"homepage": "http://felix.apache.org",
+"implements": [
+{
+"body": "OSGi Alliance",
+"id": "OSGi R6",
+"title": "OSGi R6 Specification",
+"url": "http://www.osgi.org"
+}
+],
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://felix.apache.org/mailinglists.html",
+"maintainer": [
+{
+"mbox": "mailto:dev@felix.apache.org",
+"name": "Felix PMC"
+}
+],
+"name": "Apache Felix",
+"pmc": "felix",
+"programming-language": "Java",
+"repository": [
+"https://svn.apache.org/repos/asf/felix"
+],
+"shortdesc": "OSGi framework implementation and related technologies."
+},
 "flex": {
 "bug-database": "https://issues.apache.org/jira/browse/FLEX",
 "category": "web-framework",
@@ -9611,188 +9642,252 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2019-08-09",
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.12.1/log4j-2.12.1.pom",
+"name": "Apache Log4j 2 - 3.0.0-SNAPSHOT",
+"revision": "3.0.0-SNAPSHOT"
+},
+{
+"name": "Apache Log4j 2 - 2.13.2-SNAPSHOT",
+"revision": "2.13.2-SNAPSHOT"
+},
+{
+"name": "Apache Log4j 2 - 2.13.1-SNAPSHOT",
+"revision": "2.13.1-SNAPSHOT"
+},
+{
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.13.0/log4j-2.13.0.pom",
 "name": "Latest stable release",
+"revision": "2.13.0"
+},
+{
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.12.1/log4j-2.12.1.pom",
+"name": "Apache Log4j 2 - 2.12.1",
 "revision": "2.12.1"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.12.0/log4j-2.12.0.pom",
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.12.0/log4j-2.12.0.pom",
 "name": "Apache Log4j 2 - 2.12.0",
 "revision": "2.12.0"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.11.2/log4j-2.11.2.pom",
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.11.2/log4j-2.11.2.pom",
 "name": "Apache Log4j 2 - 2.11.2",
 "revision": "2.11.2"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.11.1/log4j-2.11.1.pom",
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.11.1/log4j-2.11.1.pom",
 "name": "Apache Log4j 2 - 2.11.1",
 "revision": "2.11.1"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.11.0/log4j-2.11.0.pom",
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.11.0/log4j-2.11.0.pom",
 "name": "Apache Log4j 2 - 2.11.0",
 "revision": "2.11.0"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.10.0/log4j-2.10.0.pom",
+"name": "Apache Log4j 2 - 2.10.1-SNAPSHOT",
+"revision": "2.10.1-SNAPSHOT"
+},
+{
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.10.0/log4j-2.10.0.pom",
 "name": "Apache Log4j 2 - 2.10.0",
 "revision": "2.10.0"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.9.1/log4j-2.9.1.pom",
+"name": "Apache Log4j 2 - 2.9.2-SNAPSHOT",
+"revision": "2.9.2-SNAPSHOT"
+},
+{
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.9.1/log4j-2.9.1.pom",
 "name": "Apache Log4j 2 - 2.9.1",
 "revision": "2.9.1"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.9.0/log4j-2.9.0.pom",
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.9.0/log4j-2.9.0.pom",
 "name": "Apache Log4j 2 - 2.9.0",
 "revision": "2.9.0"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.8.2/log4j-2.8.2.pom",
+"name": "Apache Log4j 2 - 2.9-SNAPSHOT",
+"revision": "2.9-SNAPSHOT"
+},
+{
+"name": "Apache Log4j 2 - 2.8.3-SNAPSHOT",
+"revision": "2.8.3-SNAPSHOT"
+},
+{
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.8.2/log4j-2.8.2.pom",
 "name": "Apache Log4j 2 - 2.8.2",
 "revision": "2.8.2"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.8.1/log4j-2.8.1.pom",
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.8.1/log4j-2.8.1.pom",
 "name": "Apache Log4j 2 - 2.8.1",
 "revision": "2.8.1"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.8/log4j-2.8.pom",
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.8/log4j-2.8.pom",
 "name": "Apache Log4j 2 - 2.8",
 "revision": "2.8"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.7/log4j-2.7.pom",
+"name": "Apache Log4j 2 - 2.7.1-SNAPSHOT",
+"revision": "2.7.1-SNAPSHOT"
+},
+{
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.7/log4j-2.7.pom",
 "name": "Apache Log4j 2 - 2.7",
 "revision": "2.7"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.6.2/log4j-2.6.2.pom",
+"name": "Apache Log4j 2 - 2.6.3-SNAPSHOT",
+"revision": "2.6.3-SNAPSHOT"
+},
+{
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.6.2/log4j-2.6.2.pom",
 "name": "Apache Log4j 2 - 2.6.2",
 "revision": "2.6.2"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.6.1/log4j-2.6.1.pom",
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.6.1/log4j-2.6.1.pom",
 "name": "Apache Log4j 2 - 2.6.1",
 "revision": "2.6.1"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.6/log4j-2.6.pom",
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.6/log4j-2.6.pom",
 "name": "Apache Log4j 2 - 2.6",
 "revision": "2.6"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.5/log4j-2.5.pom",
+"name": "Apache Log4j 2 - 2.5.1-SNAPSHOT",
+"revision": "2.5.1-SNAPSHOT"
+},
+{
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.5/log4j-2.5.pom",
 "name": "Apache Log4j 2 - 2.5",
 "revision": "2.5"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.4.1/log4j-2.4.1.pom",
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.4.1/log4j-2.4.1.pom",
 "name": "Apache Log4j 2 - 2.4.1",
 "revision": "2.4.1"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.4/log4j-2.4.pom",
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.4/log4j-2.4.pom",
 "name": "Apache Log4j 2 - 2.4",
 "revision": "2.4"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.3/log4j-2.3.pom",
+"name": "Apache Log4j 2 - 2.3.1-SNAPSHOT",
+"revision": "2.3.1-SNAPSHOT"
+},
+{
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.3/log4j-2.3.pom",
 "name": "Apache Log4j 2 - 2.3",
 "revision": "2.3"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.2/log4j-2.2.pom",
+"name": "Apache Log4j 2 - 2.2.1-SNAPSHOT",
+"revision": "2.2.1-SNAPSHOT"
+},
+{
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.2/log4j-2.2.pom",
 "name": "Apache Log4j 2 - 2.2",
 "revision": "2.2"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.1/log4j-2.1.pom",
+"name": "Apache Log4j 2 - 2.1.1-SNAPSHOT",
+"revision": "2.1.1-SNAPSHOT"
+},
+{
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.1/log4j-2.1.pom",
 "name": "Apache Log4j 2 - 2.1",
 "revision": "2.1"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.0.2/log4j-2.0.2.pom",
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.0.2/log4j-2.0.2.pom",
 "name": "Apache Log4j 2 - 2.0.2",
 "revision": "2.0.2"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.0.1/log4j-2.0.1.pom",
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.0.1/log4j-2.0.1.pom",
 "name": "Apache Log4j 2 - 2.0.1",
 "revision": "2.0.1"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.0/log4j-2.0.pom",
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.0/log4j-2.0.pom",
 "name": "Apache Log4j 2 - 2.0",
 "revision": "2.0"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.0-rc2/log4j-2.0-rc2.pom",
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.0-rc2/log4j-2.0-rc2.pom",
 "name": "Apache Log4j 2 - 2.0-rc2",
 "revision": "2.0-rc2"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.0-rc1/log4j-2.0-rc1.pom",
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.0-rc1/log4j-2.0-rc1.pom",
 "name": "Apache Log4j 2 - 2.0-rc1",
 "revision": "2.0-rc1"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.0-beta9/log4j-2.0-beta9.pom",
+"name": "Apache Log4j 2 - 2.0RC1-SNAPSHOT",
+"revision": "2.0RC1-SNAPSHOT"
+},
+{
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.0-beta9/log4j-2.0-beta9.pom",
 "name": "Apache Log4j 2 - 2.0-beta9",
 "revision": "2.0-beta9"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.0-beta8/log4j-2.0-beta8.pom",
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.0-beta8/log4j-2.0-beta8.pom",
 "name": "Apache Log4j 2 - 2.0-beta8",
 "revision": "2.0-beta8"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.0-beta7/log4j-2.0-beta7.pom",
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.0-beta7/log4j-2.0-beta7.pom",
 "name": "Apache Log4j 2 - 2.0-beta7",
 "revision": "2.0-beta7"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.0-beta6/log4j-2.0-beta6.pom",
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.0-beta6/log4j-2.0-beta6.pom",
 "name": "Apache Log4j 2 - 2.0-beta6",
 "revision": "2.0-beta6"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.0-beta5/log4j-2.0-beta5.pom",
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.0-beta5/log4j-2.0-beta5.pom",
 "name": "Apache Log4j 2 - 2.0-beta5",
 "revision": "2.0-beta5"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.0-beta4/log4j-2.0-beta4.pom",
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.0-beta4/log4j-2.0-beta4.pom",
 "name": "Apache Log4j 2 - 2.0-beta4",
 "revision": "2.0-beta4"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.0-beta3/log4j-2.0-beta3.pom",
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.0-beta3/log4j-2.0-beta3.pom",
 "name": "Apache Log4j 2 - 2.0-beta3",
 "revision": "2.0-beta3"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.0-beta2/log4j-2.0-beta2.pom",
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.0-beta2/log4j-2.0-beta2.pom",
 "name": "Apache Log4j 2 - 2.0-beta2",
 "revision": "2.0-beta2"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.0-beta1/log4j-2.0-beta1.pom",
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.0-beta1/log4j-2.0-beta1.pom",
 "name": "Apache Log4j 2 - 2.0-beta1",
 "revision": "2.0-beta1"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.0-alpha2/log4j-2.0-alpha2.pom",
+"name": "Apache Log4j 2 - 2.0-alpha3-SNAPSHOT",
+"revision": "2.0-alpha3-SNAPSHOT"
+},
+{
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.0-alpha2/log4j-2.0-alpha2.pom",
 "name": "Apache Log4j 2 - 2.0-alpha2",
 "revision": "2.0-alpha2"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.0-alpha1/log4j-2.0-alpha1.pom",
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.0-alpha1/log4j-2.0-alpha1.pom",
 "name": "Apache Log4j 2 - 2.0-alpha1",
 "revision": "2.0-alpha1"
 }
