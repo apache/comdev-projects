@@ -838,24 +838,6 @@
 ],
 "shortdesc": "Anything To Triples (Any23) is a library, a web service and a command line tool that extracts structured data in RDF format from a variety of Web documents."
 },
-"apex": {
-"bug-database": "https://issues.apache.org/jira/browse/APEXCORE, https://issues.apache.org/jira/browse/APEXMALHAR",
-"category": "big-data, retired",
-"created": "2016-05-18",
-"description": "Apache Apex is a unified platform for big data stream and batch processing. Use cases include ingestion, ETL, real-time analytics, alerts and real-time actions. Apex is a Hadoop-native YARN implementation and uses HDFS by default. It simplifies development and productization of Hadoop applications by reducing time to market. Key features include Enterprise Grade Operability with Fault Tolerance, State Management, Event Processing Guarantees, No Data Loss, In-memory Performance & Scalability and Native Window Support.",
-"doap": "https://raw.githubusercontent.com/apache/apex-site/master/doap_Apex.rdf",
-"download-page": "http://apex.apache.org/downloads.html",
-"homepage": "http://apex.apache.org",
-"license": "http://spdx.org/licenses/Apache-2.0",
-"name": "Apache Apex",
-"pmc": "attic",
-"programming-language": "Java",
-"repository": [
-"https://github.com/apache/apex-core.git",
-"https://github.com/apache/apex-malhar.git"
-],
-"shortdesc": "Enterprise-grade unified stream and batch processing engine."
-},
 "apr-portable_runtime": {
 "bug-database": "https://issues.apache.org/bugzilla/",
 "category": "library",
@@ -997,6 +979,50 @@
 ],
 "shortdesc": "OSGi Enterprise Programming Model"
 },
+"arric-vxquery": {
+"bug-database": "https://issues.apache.org/jira/browse/VXQUERY",
+"category": "retired, big-data, xml",
+"created": "2014-10-09",
+"description": "Apache VXQuery will be a standards compliant XML Query processor implemented in Java. The focus is on the evaluation of queries on large amounts of XML data. Specifically the goal is to evaluate queries on large collections of relatively small XML documents. To achieve this queries will be evaluated on a cluster of shared nothing machines.",
+"doap": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/vxquery.rdf",
+"download-page": "http://www.apache.org/dyn/closer.cgi/vxquery/",
+"homepage": "http://vxquery.apache.org/",
+"implements": [
+{
+"body": "W3C",
+"id": "XQuery 1.0",
+"title": "XQuery 1.0: An XML Query Language",
+"url": "http://www.w3.org/TR/xquery/"
+}
+],
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "http://vxquery.apache.org/mail-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:tillw@apache.org",
+"name": "Till Westmann"
+}
+],
+"name": "Apache VXQuery",
+"pmc": "arric",
+"programming-language": "Java",
+"release": [
+{
+"created": "2015-03-05",
+"name": "Apache VXQuery",
+"revision": "0.5"
+},
+{
+"created": "2016-05-26",
+"name": "Apache VXQuery",
+"revision": "0.6"
+}
+],
+"repository": [
+"https://git-wip-us.apache.org/repos/asf/vxquery.git"
+],
+"shortdesc": "Apache VXQuery implements a parallel XML Query processor."
+},
 "attic-abdera": {
 "bug-database": "https://issues.apache.org/jira/browse/ABDERA",
 "category": "xml, retired",
@@ -1052,6 +1078,24 @@
 "http://svn.apache.org/repos/asf/ace"
 ],
 "shortdesc": "Apache ACE is a distribution framework that allows you to centrally manage and distribute software components, configuration data and other artifacts to target systems. It is built using OSGi and can be deployed in different topologies. The target systems are usually also OSGi based, but don't have to be."
+},
+"attic-apex": {
+"bug-database": "https://issues.apache.org/jira/browse/APEXCORE, https://issues.apache.org/jira/browse/APEXMALHAR",
+"category": "retired, big-data",
+"created": "2016-05-18",
+"description": "Apache Apex is a unified platform for big data stream and batch processing. Use cases include ingestion, ETL, real-time analytics, alerts and real-time actions. Apex is a Hadoop-native YARN implementation and uses HDFS by default. It simplifies development and productization of Hadoop applications by reducing time to market. Key features include Enterprise Grade Operability with Fault Tolerance, State Management, Event Processing Guarantees, No Data Loss, In-memory Performance & Scalability and Native Window Support.",
+"doap": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/Apex.rdf",
+"download-page": "http://apex.apache.org/downloads.html",
+"homepage": "http://apex.apache.org",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"name": "Apache Apex",
+"pmc": "attic",
+"programming-language": "Java",
+"repository": [
+"https://github.com/apache/apex-core.git",
+"https://github.com/apache/apex-malhar.git"
+],
+"shortdesc": "Enterprise-grade unified stream and batch processing engine."
 },
 "attic-beehive": {
 "bug-database": "http://issues.apache.org/jira/browse/BEEHIVE",
@@ -1393,6 +1437,70 @@
 ],
 "shortdesc": "Java inversion of control framework including containers and components"
 },
+"attic-falcon": {
+"bug-database": "https://issues.apache.org/jira/browse/FALCON",
+"category": "big-data, retired",
+"created": "2014-12-31",
+"description": "Apache Falcon is a data processing and management solution for Hadoop designed for data motion, coordination of data pipelines, lifecycle management, and data discovery. Falcon enables end consumers to quickly onboard their data and its associated processing and management tasks on Hadoop clusters.",
+"doap": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/falcon.rdf",
+"download-page": "http://www.apache.org/dyn/closer.lua/incubator/falcon/",
+"homepage": "http://falcon.apache.org",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "http://falcon.apache.org/mail-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:sriksun@apache.org",
+"name": "Srikanth Sundarrajan"
+}
+],
+"name": "Apache Falcon",
+"pmc": "attic",
+"programming-language": "Java",
+"release": [
+{
+"created": "2014-12-05",
+"name": "Apache Falcon",
+"revision": "0.7-incubating"
+}
+],
+"repository": [
+"https://svn.apache.org/repos/asf/falcon",
+"https://git-wip-us.apache.org/repos/asf?p=falcon.git"
+],
+"shortdesc": "Data management and processing platform"
+},
+"attic-forrest": {
+"bug-database": "http://forrest.apache.org/issues.html",
+"category": "retired, build-management, database, graphics, http, network-client, network-server, web-framework, xml",
+"created": "2005-06-23",
+"description": "\n      Apache Forrest™ software is a publishing framework that transforms\n      input from various sources into a unified presentation in one or more\n      output formats. The modular and extensible plug-in architecture of\n      Apache Forrest is based on Apache Cocoon and the relevant industry\n      standards that separate presentation from content. Forrest can generate\n      static documents, or be used as a dynamic server, or be deployed by its\n      automated facility.\n    ",
+"doap": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/Forrest.rdf",
+"download-page": "http://forrest.apache.org/mirrors.cgi",
+"homepage": "http://forrest.apache.org/",
+"license": "http://forrest.apache.org/license.html",
+"mailing-list": "http://forrest.apache.org/mail-lists.html",
+"maintainer": [
+{
+"homepage": "http://forrest.apache.org/who.html",
+"mbox": "mailto:dev@forrest.apache.org",
+"name": "The Apache Forrest Project"
+}
+],
+"name": "Apache Forrest",
+"pmc": "attic",
+"programming-language": "Java, XML",
+"release": [
+{
+"created": "2011-02-07",
+"name": "Latest stable release",
+"revision": "0.9"
+}
+],
+"repository": [
+"http://svn.apache.org/repos/asf/forrest/trunk/"
+],
+"shortdesc": "\n      Aggregated multi-channel documentation framework, separation of concerns.\n    "
+},
 "attic-harmony": {
 "bug-database": "http://issues.apache.org/jira/browse/HARMONY",
 "category": "virtual-machine, retired",
@@ -1536,10 +1644,10 @@
 },
 "attic-lucy": {
 "bug-database": "https://issues.apache.org/jira/browse/LUCY",
-"category": "retired, database",
+"category": "database, retired",
 "created": "2015-05-30",
 "description": "The Apache Lucy search engine library provides full-text search for dynamic programming languages.",
-"doap": "http://svn.apache.org/repos/asf/attic/data/doaps/lucy.rdf",
+"doap": "http://lucy.apache.org/doap.rdf",
 "download-page": "http://lucy.apache.org/download.html",
 "homepage": "http://lucy.apache.org/",
 "license": "http://spdx.org/licenses/Apache-2.0",
@@ -1665,6 +1773,45 @@
 ],
 "shortdesc": "Apache MRUnit is a Java library that helps developers unit test Apache Hadoop map reduce jobs.",
 "vendor": "The Apache Software Foundation"
+},
+"attic-ode": {
+"bug-database": "https://issues.apache.org/jira/browse/ODE",
+"category": "retired, xml, network-server",
+"created": "2007-07-31",
+"description": "Apache ODE (Orchestration Director Engine) executes business processes written following the WS-BPEL standard. It talks to web services, sending and receiving messages, handling data manipulation and error recovery as described by your process definition. It supports both long and short living process executions to orchestrate all the services that are part of your application.\n\nWS-BPEL is an XML-based language defining several constructs to write business processes. It defines a set of basic control structures like conditions or loops as well as elements to invoke web services and receive messages from services. It relies on WSDL to express web services interfaces. Message structures can be manipulated, assigning parts or the whole of them to variables that can in turn be used to send other messages.",
+"doap": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/ODE.rdf",
+"download-page": "http://ode.apache.org/getting-ode.html",
+"homepage": "http://ode.apache.org",
+"implements": [
+{
+"body": "OASIS",
+"id": "wsbpel",
+"title": "WS-BPEL",
+"url": "http://www.oasis-open.org/committees/wsbpel/"
+}
+],
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://ode.apache.org/mailing-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:vanto@apache.org",
+"name": "Tammo van Lessen"
+}
+],
+"name": "Apache ODE",
+"pmc": "attic",
+"programming-language": "Java",
+"release": [
+{
+"created": "2010-06-09",
+"name": "1.3.4",
+"revision": "tagged"
+}
+],
+"repository": [
+"http://svn.apache.org/repos/asf/ode"
+],
+"shortdesc": "Apache ODE is a WS-BPEL implementation that supports web services orchestration using flexible process definitions."
 },
 "attic-oltu_-_parent": {
 "bug-database": "https://issues.apache.org/jira/browse/OLTU",
@@ -5579,7 +5726,7 @@
 },
 "commons-rng": {
 "bug-database": "https://issues.apache.org/jira/browse/RNG",
-"category": "https://projects.apache.org/projects.html?category#library",
+"category": "library",
 "description": "Implementations of pseudo-random generators.",
 "doap": "http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_rng.rdf",
 "download-page": "https://commons.apache.org/rng/download_rng.cgi",
@@ -6522,38 +6669,6 @@
 ],
 "shortdesc": "Apache Empire-db is a lightweight relational database abstraction layer and data persistence component"
 },
-"falcon": {
-"bug-database": "https://issues.apache.org/jira/browse/FALCON",
-"category": "big-data, retired",
-"created": "2014-12-31",
-"description": "Apache Falcon is a data processing and management solution for Hadoop designed for data motion, coordination of data pipelines, lifecycle management, and data discovery. Falcon enables end consumers to quickly onboard their data and its associated processing and management tasks on Hadoop clusters.",
-"doap": "https://svn.apache.org/repos/asf/falcon/trunk/falcon.rdf",
-"download-page": "http://www.apache.org/dyn/closer.lua/incubator/falcon/",
-"homepage": "http://falcon.apache.org",
-"license": "http://spdx.org/licenses/Apache-2.0",
-"mailing-list": "http://falcon.apache.org/mail-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:sriksun@apache.org",
-"name": "Srikanth Sundarrajan"
-}
-],
-"name": "Apache Falcon",
-"pmc": "attic",
-"programming-language": "Java",
-"release": [
-{
-"created": "2014-12-05",
-"name": "Apache Falcon",
-"revision": "0.7-incubating"
-}
-],
-"repository": [
-"https://svn.apache.org/repos/asf/falcon",
-"https://git-wip-us.apache.org/repos/asf?p=falcon.git"
-],
-"shortdesc": "Data management and processing platform"
-},
 "felix": {
 "bug-database": "https://issues.apache.org/jira/browse/FELIX",
 "category": "network-server",
@@ -6775,38 +6890,6 @@
 "repository": [
 "https://gitbox.apache.org/repos/asf/fluo-yarn.git"
 ]
-},
-"forrest": {
-"bug-database": "http://forrest.apache.org/issues.html",
-"category": "build-management, database, graphics, http, network-client, network-server, web-framework, xml, retired",
-"created": "2005-06-23",
-"description": "\n      Apache Forrest™ software is a publishing framework that transforms\n      input from various sources into a unified presentation in one or more\n      output formats. The modular and extensible plug-in architecture of\n      Apache Forrest is based on Apache Cocoon and the relevant industry\n      standards that separate presentation from content. Forrest can generate\n      static documents, or be used as a dynamic server, or be deployed by its\n      automated facility.\n    ",
-"doap": "http://forrest.apache.org/doap_Forrest.rdf",
-"download-page": "http://forrest.apache.org/mirrors.cgi",
-"homepage": "http://forrest.apache.org/",
-"license": "http://forrest.apache.org/license.html",
-"mailing-list": "http://forrest.apache.org/mail-lists.html",
-"maintainer": [
-{
-"homepage": "http://forrest.apache.org/who.html",
-"mbox": "mailto:dev@forrest.apache.org",
-"name": "The Apache Forrest Project"
-}
-],
-"name": "Apache Forrest",
-"pmc": "attic",
-"programming-language": "Java, XML",
-"release": [
-{
-"created": "2011-02-07",
-"name": "Latest stable release",
-"revision": "0.9"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/forrest/trunk/"
-],
-"shortdesc": "\n      Aggregated multi-channel documentation framework, separation of concerns.\n    "
 },
 "geronimo": {
 "bug-database": "http://issues.apache.org/jira/browse/GERONIMO",
@@ -9503,7 +9586,12 @@
 {
 "created": "2020-01-29",
 "name": "3.0.0-rc1",
-"revision": "3.0.0-rc1"
+"revision": "v3.0.0-rc1"
+},
+{
+"created": "2020-03-03",
+"name": "3.0.0-rc1",
+"revision": "v2.8.1"
 }
 ],
 "repository": [
@@ -12254,45 +12342,6 @@
 "https://github.com/apache/nutch.git"
 ],
 "shortdesc": "Apache Nutch is an open source web crawler software project."
-},
-"ode": {
-"bug-database": "https://issues.apache.org/jira/browse/ODE",
-"category": "xml, network-server, retired",
-"created": "2007-07-31",
-"description": "Apache ODE (Orchestration Director Engine) executes business processes written following the WS-BPEL standard. It talks to web services, sending and receiving messages, handling data manipulation and error recovery as described by your process definition. It supports both long and short living process executions to orchestrate all the services that are part of your application.\n\nWS-BPEL is an XML-based language defining several constructs to write business processes. It defines a set of basic control structures like conditions or loops as well as elements to invoke web services and receive messages from services. It relies on WSDL to express web services interfaces. Message structures can be manipulated, assigning parts or the whole of them to variables that can in turn be used to send other messages.",
-"doap": "http://svn.apache.org/repos/asf/ode/trunk/doap_ODE.rdf",
-"download-page": "http://ode.apache.org/getting-ode.html",
-"homepage": "http://ode.apache.org",
-"implements": [
-{
-"body": "OASIS",
-"id": "wsbpel",
-"title": "WS-BPEL",
-"url": "http://www.oasis-open.org/committees/wsbpel/"
-}
-],
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://ode.apache.org/mailing-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:vanto@apache.org",
-"name": "Tammo van Lessen"
-}
-],
-"name": "Apache ODE",
-"pmc": "attic",
-"programming-language": "Java",
-"release": [
-{
-"created": "2010-06-09",
-"name": "1.3.4",
-"revision": "tagged"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/ode"
-],
-"shortdesc": "Apache ODE is a WS-BPEL implementation that supports web services orchestration using flexible process definitions."
 },
 "ofbiz": {
 "bug-database": "https://issues.apache.org/jira/browse/OFBIZ",
@@ -15649,50 +15698,6 @@
 "http://svn.apache.org/repos/asf/velocity/tools/trunk"
 ],
 "shortdesc": "Tools and infrastructure for the template engine"
-},
-"vxquery": {
-"bug-database": "https://issues.apache.org/jira/browse/VXQUERY",
-"category": "big-data, xml, retired",
-"created": "2014-10-09",
-"description": "Apache VXQuery will be a standards compliant XML Query processor implemented in Java. The focus is on the evaluation of queries on large amounts of XML data. Specifically the goal is to evaluate queries on large collections of relatively small XML documents. To achieve this queries will be evaluated on a cluster of shared nothing machines.",
-"doap": "https://gitbox.apache.org/repos/asf?p=vxquery.git;f=doap.rdf;a=blob_plain;hb=HEAD",
-"download-page": "http://www.apache.org/dyn/closer.cgi/vxquery/",
-"homepage": "http://vxquery.apache.org/",
-"implements": [
-{
-"body": "W3C",
-"id": "XQuery 1.0",
-"title": "XQuery 1.0: An XML Query Language",
-"url": "http://www.w3.org/TR/xquery/"
-}
-],
-"license": "http://spdx.org/licenses/Apache-2.0",
-"mailing-list": "http://vxquery.apache.org/mail-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:tillw@apache.org",
-"name": "Till Westmann"
-}
-],
-"name": "Apache VXQuery",
-"pmc": "attic",
-"programming-language": "Java",
-"release": [
-{
-"created": "2015-03-05",
-"name": "Apache VXQuery",
-"revision": "0.5"
-},
-{
-"created": "2016-05-26",
-"name": "Apache VXQuery",
-"revision": "0.6"
-}
-],
-"repository": [
-"https://git-wip-us.apache.org/repos/asf/vxquery.git"
-],
-"shortdesc": "Apache VXQuery implements a parallel XML Query processor."
 },
 "webservices-axiom": {
 "bug-database": "http://issues.apache.org/jira/browse/AXIOM",
