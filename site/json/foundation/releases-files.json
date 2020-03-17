@@ -2199,9 +2199,9 @@
 "felix/org.apache.felix.http.bundle-3.0.0-source-release.tar.gz",
 "felix/org.apache.felix.http.bundle-3.0.0-source-release.zip"
 ],
-"org.apache.felix.http.jetty-4.0.14": [
-"felix/org.apache.felix.http.jetty-4.0.14-source-release.tar.gz",
-"felix/org.apache.felix.http.jetty-4.0.14-source-release.zip"
+"org.apache.felix.http.jetty-4.0.16": [
+"felix/org.apache.felix.http.jetty-4.0.16-source-release.tar.gz",
+"felix/org.apache.felix.http.jetty-4.0.16-source-release.zip"
 ],
 "org.apache.felix.http.proxy-3.0.6": [
 "felix/org.apache.felix.http.proxy-3.0.6-source-release.tar.gz",
@@ -6049,8 +6049,8 @@
 "jackrabbit-oak-1.2.31": [
 "jackrabbit/oak/1.2.31/jackrabbit-oak-1.2.31-src.zip"
 ],
-"jackrabbit-oak-1.22.1": [
-"jackrabbit/oak/1.22.1/jackrabbit-oak-1.22.1-src.zip"
+"jackrabbit-oak-1.22.2": [
+"jackrabbit/oak/1.22.2/jackrabbit-oak-1.22.2-src.zip"
 ],
 "jackrabbit-oak-1.24.0": [
 "jackrabbit/oak/1.24.0/jackrabbit-oak-1.24.0-src.zip"
@@ -10376,8 +10376,8 @@
 ]
 },
 "rocketmq": {
-"rocketmq-all-4.6.1": [
-"rocketmq/4.6.1/rocketmq-all-4.6.1-source-release.zip"
+"rocketmq-all-4.7.0": [
+"rocketmq/4.7.0/rocketmq-all-4.7.0-source-release.zip"
 ],
 "rocketmq-client-cpp-2.0.0": [
 "rocketmq/rocketmq-client-cpp/2.0.0/rocketmq-client-cpp-2.0.0-source-release.tar.gz"
@@ -10682,11 +10682,17 @@
 "skywalking-1.0.0": [
 "skywalking/kubernetes/1.0.0/skywalking-1.0.0.tgz"
 ],
+"skywalking-1.1.0": [
+"skywalking/kubernetes/1.1.0/skywalking-1.1.0.tgz"
+],
 "skywalking-cli-0.1.0": [
 "skywalking/cli/0.1.0/skywalking-cli-0.1.0-src.tgz"
 ],
 "skywalking-kubernetes-1.0.0": [
 "skywalking/kubernetes/1.0.0/skywalking-kubernetes-1.0.0-src.tgz"
+],
+"skywalking-kubernetes-1.1.0": [
+"skywalking/kubernetes/1.1.0/skywalking-kubernetes-1.1.0-src.tgz"
 ],
 "skywalking-nginx-lua-0.1.0": [
 "skywalking/nginx-lua/0.1.0/skywalking-nginx-lua-0.1.0-src.tgz"
@@ -12056,6 +12062,19 @@
 "tomcat/tomcat-10/v10.0.0-M1/src/apache-tomcat-10.0.0-M1-src.tar.gz",
 "tomcat/tomcat-10/v10.0.0-M1/src/apache-tomcat-10.0.0-M1-src.zip"
 ],
+"apache-tomcat-10.0.0-M3": [
+"tomcat/tomcat-10/v10.0.0-M3/bin/embed/apache-tomcat-10.0.0-M3-embed.tar.gz",
+"tomcat/tomcat-10/v10.0.0-M3/bin/embed/apache-tomcat-10.0.0-M3-embed.zip",
+"tomcat/tomcat-10/v10.0.0-M3/bin/apache-tomcat-10.0.0-M3-deployer.tar.gz",
+"tomcat/tomcat-10/v10.0.0-M3/bin/apache-tomcat-10.0.0-M3-deployer.zip",
+"tomcat/tomcat-10/v10.0.0-M3/bin/apache-tomcat-10.0.0-M3-fulldocs.tar.gz",
+"tomcat/tomcat-10/v10.0.0-M3/bin/apache-tomcat-10.0.0-M3-windows-x64.zip",
+"tomcat/tomcat-10/v10.0.0-M3/bin/apache-tomcat-10.0.0-M3.exe",
+"tomcat/tomcat-10/v10.0.0-M3/bin/apache-tomcat-10.0.0-M3.tar.gz",
+"tomcat/tomcat-10/v10.0.0-M3/bin/apache-tomcat-10.0.0-M3.zip",
+"tomcat/tomcat-10/v10.0.0-M3/src/apache-tomcat-10.0.0-M3-src.tar.gz",
+"tomcat/tomcat-10/v10.0.0-M3/src/apache-tomcat-10.0.0-M3-src.zip"
+],
 "apache-tomcat-7.0.100": [
 "tomcat/tomcat-7/v7.0.100/bin/embed/apache-tomcat-7.0.100-embed.tar.gz",
 "tomcat/tomcat-7/v7.0.100/bin/embed/apache-tomcat-7.0.100-embed.zip",
@@ -12082,6 +12101,19 @@
 "tomcat/tomcat-8/v8.5.51/src/apache-tomcat-8.5.51-src.tar.gz",
 "tomcat/tomcat-8/v8.5.51/src/apache-tomcat-8.5.51-src.zip"
 ],
+"apache-tomcat-8.5.53": [
+"tomcat/tomcat-8/v8.5.53/bin/embed/apache-tomcat-8.5.53-embed.tar.gz",
+"tomcat/tomcat-8/v8.5.53/bin/embed/apache-tomcat-8.5.53-embed.zip",
+"tomcat/tomcat-8/v8.5.53/bin/apache-tomcat-8.5.53-deployer.tar.gz",
+"tomcat/tomcat-8/v8.5.53/bin/apache-tomcat-8.5.53-deployer.zip",
+"tomcat/tomcat-8/v8.5.53/bin/apache-tomcat-8.5.53-fulldocs.tar.gz",
+"tomcat/tomcat-8/v8.5.53/bin/apache-tomcat-8.5.53-windows-x64.zip",
+"tomcat/tomcat-8/v8.5.53/bin/apache-tomcat-8.5.53.exe",
+"tomcat/tomcat-8/v8.5.53/bin/apache-tomcat-8.5.53.tar.gz",
+"tomcat/tomcat-8/v8.5.53/bin/apache-tomcat-8.5.53.zip",
+"tomcat/tomcat-8/v8.5.53/src/apache-tomcat-8.5.53-src.tar.gz",
+"tomcat/tomcat-8/v8.5.53/src/apache-tomcat-8.5.53-src.zip"
+],
 "apache-tomcat-9.0.31": [
 "tomcat/tomcat-9/v9.0.31/bin/embed/apache-tomcat-9.0.31-embed.tar.gz",
 "tomcat/tomcat-9/v9.0.31/bin/embed/apache-tomcat-9.0.31-embed.zip",
@@ -12094,6 +12126,19 @@
 "tomcat/tomcat-9/v9.0.31/bin/apache-tomcat-9.0.31.zip",
 "tomcat/tomcat-9/v9.0.31/src/apache-tomcat-9.0.31-src.tar.gz",
 "tomcat/tomcat-9/v9.0.31/src/apache-tomcat-9.0.31-src.zip"
+],
+"apache-tomcat-9.0.33": [
+"tomcat/tomcat-9/v9.0.33/bin/embed/apache-tomcat-9.0.33-embed.tar.gz",
+"tomcat/tomcat-9/v9.0.33/bin/embed/apache-tomcat-9.0.33-embed.zip",
+"tomcat/tomcat-9/v9.0.33/bin/apache-tomcat-9.0.33-deployer.tar.gz",
+"tomcat/tomcat-9/v9.0.33/bin/apache-tomcat-9.0.33-deployer.zip",
+"tomcat/tomcat-9/v9.0.33/bin/apache-tomcat-9.0.33-fulldocs.tar.gz",
+"tomcat/tomcat-9/v9.0.33/bin/apache-tomcat-9.0.33-windows-x64.zip",
+"tomcat/tomcat-9/v9.0.33/bin/apache-tomcat-9.0.33.exe",
+"tomcat/tomcat-9/v9.0.33/bin/apache-tomcat-9.0.33.tar.gz",
+"tomcat/tomcat-9/v9.0.33/bin/apache-tomcat-9.0.33.zip",
+"tomcat/tomcat-9/v9.0.33/src/apache-tomcat-9.0.33-src.tar.gz",
+"tomcat/tomcat-9/v9.0.33/src/apache-tomcat-9.0.33-src.zip"
 ],
 "taglibs-standard-1.2.5": [
 "tomcat/taglibs/taglibs-standard-1.2.5/taglibs-standard-1.2.5-source-release.zip"
