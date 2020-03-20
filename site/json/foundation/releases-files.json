@@ -5768,6 +5768,10 @@
 "incubator/tuweni/0.9.0-incubating/tuweni-src-0.9.0-incubating.tgz",
 "incubator/tuweni/0.9.0-incubating/tuweni-src-0.9.0-incubating.zip"
 ],
+"tuweni-1.0.0-incubating": [
+"incubator/tuweni/1.0.0-incubating/tuweni-src-1.0.0-incubating.tgz",
+"incubator/tuweni/1.0.0-incubating/tuweni-src-1.0.0-incubating.zip"
+],
 "tuweni-gossip-0.10.0-incubating": [
 "incubator/tuweni/0.10.0-incubating/tuweni-gossip-0.10.0-incubating.tgz",
 "incubator/tuweni/0.10.0-incubating/tuweni-gossip-0.10.0-incubating.zip"
@@ -5788,6 +5792,10 @@
 "incubator/tuweni/0.9.0-incubating/tuweni-gossip-0.9.0-incubating.tgz",
 "incubator/tuweni/0.9.0-incubating/tuweni-gossip-0.9.0-incubating.zip"
 ],
+"tuweni-gossip-1.0.0-incubating": [
+"incubator/tuweni/1.0.0-incubating/tuweni-gossip-1.0.0-incubating.tgz",
+"incubator/tuweni/1.0.0-incubating/tuweni-gossip-1.0.0-incubating.zip"
+],
 "tuweni-relayer-0.10.0-incubating": [
 "incubator/tuweni/0.10.0-incubating/tuweni-relayer-0.10.0-incubating.tgz",
 "incubator/tuweni/0.10.0-incubating/tuweni-relayer-0.10.0-incubating.zip"
@@ -5803,6 +5811,10 @@
 "tuweni-relayer-0.9.0-incubating": [
 "incubator/tuweni/0.9.0-incubating/tuweni-relayer-0.9.0-incubating.tgz",
 "incubator/tuweni/0.9.0-incubating/tuweni-relayer-0.9.0-incubating.zip"
+],
+"tuweni-relayer-1.0.0-incubating": [
+"incubator/tuweni/1.0.0-incubating/tuweni-relayer-1.0.0-incubating.tgz",
+"incubator/tuweni/1.0.0-incubating/tuweni-relayer-1.0.0-incubating.zip"
 ]
 },
 "incubator-tvm": {
@@ -5884,6 +5896,9 @@
 ],
 "filevault-package-maven-plugin-1.1.0": [
 "jackrabbit/filevault-package-maven-plugin/1.1.0/filevault-package-maven-plugin-1.1.0-source-release.zip"
+],
+"filevault-package-maven-plugin-1.1.2": [
+"jackrabbit/filevault-package-maven-plugin/1.1.2/filevault-package-maven-plugin-1.1.2-source-release.zip"
 ],
 "jackrabbit-2.10.9": [
 "jackrabbit/2.10.9/jackrabbit-2.10.9-src.zip",
@@ -6002,6 +6017,9 @@
 ],
 "jackrabbit-filevault-3.4.2": [
 "jackrabbit/filevault/3.4.2/jackrabbit-filevault-3.4.2-src.zip"
+],
+"jackrabbit-filevault-3.4.4": [
+"jackrabbit/filevault/3.4.4/jackrabbit-filevault-3.4.4-src.zip"
 ],
 "jackrabbit-jca-2.10.9": [
 "jackrabbit/2.10.9/jackrabbit-jca-2.10.9.rar"
@@ -10317,6 +10335,9 @@
 "qpid-dispatch-1.10.0": [
 "qpid/dispatch/1.10.0/qpid-dispatch-1.10.0.tar.gz"
 ],
+"qpid-dispatch-1.11.0": [
+"qpid/dispatch/1.11.0/qpid-dispatch-1.11.0.tar.gz"
+],
 "qpid-interop-test-0.2.0": [
 "qpid/interop-test/0.2.0/qpid-interop-test-0.2.0.tar.gz"
 ],
@@ -11133,8 +11154,8 @@
 "org.apache.sling.jcr.registration-1.0.6": [
 "sling/org.apache.sling.jcr.registration-1.0.6-source-release.zip"
 ],
-"org.apache.sling.jcr.repoinit-1.1.20": [
-"sling/org.apache.sling.jcr.repoinit-1.1.20-source-release.zip"
+"org.apache.sling.jcr.repoinit-1.1.22": [
+"sling/org.apache.sling.jcr.repoinit-1.1.22-source-release.zip"
 ],
 "org.apache.sling.jcr.resource-3.0.20": [
 "sling/org.apache.sling.jcr.resource-3.0.20-source-release.zip"
@@ -11244,8 +11265,8 @@
 "org.apache.sling.query-4.0.2": [
 "sling/org.apache.sling.query-4.0.2-source-release.zip"
 ],
-"org.apache.sling.repoinit.parser-1.4.2": [
-"sling/org.apache.sling.repoinit.parser-1.4.2-source-release.zip"
+"org.apache.sling.repoinit.parser-1.5.2": [
+"sling/org.apache.sling.repoinit.parser-1.5.2-source-release.zip"
 ],
 "org.apache.sling.resource.filter-1.0.0": [
 "sling/org.apache.sling.resource.filter-1.0.0-source-release.zip"
@@ -12102,6 +12123,19 @@
 "tomcat/tomcat-7/v7.0.100/bin/apache-tomcat-7.0.100.zip",
 "tomcat/tomcat-7/v7.0.100/src/apache-tomcat-7.0.100-src.tar.gz",
 "tomcat/tomcat-7/v7.0.100/src/apache-tomcat-7.0.100-src.zip"
+],
+"apache-tomcat-7.0.103": [
+"tomcat/tomcat-7/v7.0.103/bin/embed/apache-tomcat-7.0.103-embed.tar.gz",
+"tomcat/tomcat-7/v7.0.103/bin/embed/apache-tomcat-7.0.103-embed.zip",
+"tomcat/tomcat-7/v7.0.103/bin/apache-tomcat-7.0.103-deployer.tar.gz",
+"tomcat/tomcat-7/v7.0.103/bin/apache-tomcat-7.0.103-deployer.zip",
+"tomcat/tomcat-7/v7.0.103/bin/apache-tomcat-7.0.103-fulldocs.tar.gz",
+"tomcat/tomcat-7/v7.0.103/bin/apache-tomcat-7.0.103-windows-x64.zip",
+"tomcat/tomcat-7/v7.0.103/bin/apache-tomcat-7.0.103.exe",
+"tomcat/tomcat-7/v7.0.103/bin/apache-tomcat-7.0.103.tar.gz",
+"tomcat/tomcat-7/v7.0.103/bin/apache-tomcat-7.0.103.zip",
+"tomcat/tomcat-7/v7.0.103/src/apache-tomcat-7.0.103-src.tar.gz",
+"tomcat/tomcat-7/v7.0.103/src/apache-tomcat-7.0.103-src.zip"
 ],
 "apache-tomcat-8.5.51": [
 "tomcat/tomcat-8/v8.5.51/bin/embed/apache-tomcat-8.5.51-embed.tar.gz",
