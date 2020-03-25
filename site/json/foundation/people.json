@@ -3334,7 +3334,8 @@
 },
 "aonishuk": {
 "groups": [
-"ambari"
+"ambari",
+"ambari-pmc"
 ],
 "member": false,
 "name": "Andrew Onischuk"
@@ -12249,6 +12250,13 @@
 "member": false,
 "name": "Anh Dinh"
 },
+"dionusos": {
+"groups": [
+"oozie"
+],
+"member": false,
+"name": "Dénes Bodó"
+},
 "dionysios": {
 "groups": [
 "giraph",
@@ -18929,7 +18937,8 @@
 },
 "hapylestat": {
 "groups": [
-"ambari"
+"ambari",
+"ambari-pmc"
 ],
 "member": false,
 "name": "Dmytro Grinenko"
@@ -21142,9 +21151,7 @@
 "groups": [
 "apr",
 "httpd",
-"httpd-pmc",
-"tac",
-"tac-pmc"
+"httpd-pmc"
 ],
 "member": true,
 "name": "Issac Goldstand"
@@ -29639,8 +29646,6 @@
 "sdap",
 "senssoft",
 "senssoft-pmc",
-"tac",
-"tac-pmc",
 "tika",
 "tika-pmc",
 "usergrid",
@@ -32553,9 +32558,7 @@
 "deltaspike-pmc",
 "incubator",
 "incubator-pmc",
-"myfaces",
-"tac",
-"tac-pmc"
+"myfaces"
 ],
 "member": true,
 "name": "Matthew Jason Benson"
@@ -33919,14 +33922,6 @@
 ],
 "member": false,
 "name": "Minto van der Sluis"
-},
-"missy": {
-"groups": [
-"tac",
-"tac-pmc"
-],
-"member": true,
-"name": "Melissa Warnkin"
 },
 "misterm": {
 "groups": [
@@ -46866,6 +46861,13 @@
 "member": false,
 "name": "Sowmya Ramesh"
 },
+"spacewander": {
+"groups": [
+"incubator"
+],
+"member": false,
+"name": "Zexuan Luo"
+},
 "spamidig": {
 "groups": [
 "airavata",
@@ -53316,9 +53318,7 @@
 "marmotta",
 "marmotta-pmc",
 "s2graph",
-"stanbol",
-"tac",
-"tac-pmc"
+"stanbol"
 ],
 "member": true,
 "name": "Sergio Fernández"
@@ -53334,6 +53334,7 @@
 },
 "wilfreds": {
 "groups": [
+"hadoop",
 "incubator",
 "yunikorn"
 ],
@@ -55870,6 +55871,7 @@
 "ztang": {
 "groups": [
 "hadoop",
+"hadoop-pmc",
 "submarine",
 "submarine-pmc"
 ],
