@@ -1653,8 +1653,8 @@
 "cordova-coho-1.0.1": [
 "cordova/tools/cordova-coho-1.0.1.tgz"
 ],
-"cordova-common-3.2.1": [
-"cordova/tools/cordova-common-3.2.1.tgz"
+"cordova-common-4.0.0": [
+"cordova/tools/cordova-common-4.0.0.tgz"
 ],
 "cordova-create-2.0.0": [
 "cordova/tools/cordova-create-2.0.0.tgz"
@@ -1822,11 +1822,23 @@
 "cxf/3.2.12/apache-cxf-3.2.12.tar.gz",
 "cxf/3.2.12/apache-cxf-3.2.12.zip"
 ],
+"apache-cxf-3.2.13": [
+"cxf/3.2.13/apache-cxf-3.2.13-src.tar.gz",
+"cxf/3.2.13/apache-cxf-3.2.13-src.zip",
+"cxf/3.2.13/apache-cxf-3.2.13.tar.gz",
+"cxf/3.2.13/apache-cxf-3.2.13.zip"
+],
 "apache-cxf-3.3.5": [
 "cxf/3.3.5/apache-cxf-3.3.5-src.tar.gz",
 "cxf/3.3.5/apache-cxf-3.3.5-src.zip",
 "cxf/3.3.5/apache-cxf-3.3.5.tar.gz",
 "cxf/3.3.5/apache-cxf-3.3.5.zip"
+],
+"apache-cxf-3.3.6": [
+"cxf/3.3.6/apache-cxf-3.3.6-src.tar.gz",
+"cxf/3.3.6/apache-cxf-3.3.6-src.zip",
+"cxf/3.3.6/apache-cxf-3.3.6.tar.gz",
+"cxf/3.3.6/apache-cxf-3.3.6.zip"
 ],
 "cxf-dosgi-main-2.3.0": [
 "cxf/dosgi/2.3.0/cxf-dosgi-main-2.3.0-source-release.zip"
@@ -2004,23 +2016,11 @@
 ]
 },
 "dubbo": {
-"apache-dubbo-2.6.7": [
-"dubbo/2.6.7/apache-dubbo-2.6.7-source-release.zip"
-],
 "apache-dubbo-2.6.8": [
 "dubbo/2.6.8/apache-dubbo-2.6.8-source-release.zip"
 ],
-"apache-dubbo-2.7.3": [
-"dubbo/2.7.3/apache-dubbo-2.7.3-src.zip"
-],
-"apache-dubbo-2.7.4": [
-"dubbo/2.7.4/apache-dubbo-2.7.4-src.zip"
-],
-"apache-dubbo-2.7.4.1": [
-"dubbo/2.7.4.1/apache-dubbo-2.7.4.1-src.zip"
-],
-"apache-dubbo-2.7.5": [
-"dubbo/2.7.5/apache-dubbo-2.7.5-src.zip"
+"apache-dubbo-2.7.6": [
+"dubbo/2.7.6/apache-dubbo-2.7.6-src.zip"
 ]
 },
 "eagle": {
@@ -2600,6 +2600,13 @@
 "geode/1.11.0/apache-geode-1.11.0-src.tgz",
 "geode/1.11.0/apache-geode-1.11.0.tgz"
 ],
+"apache-geode-1.12.0": [
+"geode/1.12.0/apache-geode-1.12.0-src.tgz",
+"geode/1.12.0/apache-geode-1.12.0.tgz"
+],
+"apache-geode-benchmarks-1.12.0": [
+"geode/1.12.0/apache-geode-benchmarks-1.12.0-src.tgz"
+],
 "apache-geode-examples-1.10.0": [
 "geode/1.10.0/apache-geode-examples-1.10.0.tar.gz",
 "geode/1.10.0/apache-geode-examples-1.10.0.zip"
@@ -2608,11 +2615,17 @@
 "geode/1.11.0/apache-geode-examples-1.11.0.tar.gz",
 "geode/1.11.0/apache-geode-examples-1.11.0.zip"
 ],
+"apache-geode-examples-1.12.0": [
+"geode/1.12.0/apache-geode-examples-1.12.0.tar.gz"
+],
 "apache-geode-native-1.10.0": [
 "geode/1.10.0/apache-geode-native-1.10.0-src.tar.gz"
 ],
 "apache-geode-native-1.11.0": [
 "geode/1.11.0/apache-geode-native-1.11.0-src.tar.gz"
+],
+"apache-geode-native-1.12.0": [
+"geode/1.12.0/apache-geode-native-1.12.0-src.tar.gz"
 ]
 },
 "geronimo": {
@@ -3034,6 +3047,10 @@
 "httpd-2.4.41": [
 "httpd/httpd-2.4.41.tar.bz2",
 "httpd/httpd-2.4.41.tar.gz"
+],
+"httpd-2.4.43": [
+"httpd/httpd-2.4.43.tar.bz2",
+"httpd/httpd-2.4.43.tar.gz"
 ],
 "libapreq-1.34": [
 "httpd/libapreq/libapreq-1.34.tar.gz"
@@ -6229,8 +6246,8 @@
 "johnzon/johnzon-1.0.2/apache-johnzon-1.0.2-src.tar.gz",
 "johnzon/johnzon-1.0.2/apache-johnzon-1.0.2-src.zip"
 ],
-"apache-johnzon-1.2.3": [
-"johnzon/johnzon-1.2.3/apache-johnzon-1.2.3-src.zip"
+"apache-johnzon-1.2.4": [
+"johnzon/johnzon-1.2.4/apache-johnzon-1.2.4-src.zip"
 ],
 "johnzon-1.1.13": [
 "johnzon/johnzon-1.1.13/johnzon-1.1.13-source-release.zip"
@@ -6987,8 +7004,8 @@
 "maven-toolchains-plugin-3.0.0": [
 "maven/plugins/maven-toolchains-plugin-3.0.0-source-release.zip"
 ],
-"maven-verifier-1.6": [
-"maven/shared/maven-verifier-1.6-source-release.zip"
+"maven-verifier-1.7.0": [
+"maven/shared/maven-verifier-1.7.0-source-release.zip"
 ],
 "maven-verifier-plugin-1.1": [
 "maven/plugins/maven-verifier-plugin-1.1-source-release.zip"
@@ -9843,8 +9860,8 @@
 "openwebbeans-1.7.6": [
 "openwebbeans/1.7.6/openwebbeans-1.7.6-source-release.zip"
 ],
-"openwebbeans-2.0.15": [
-"openwebbeans/2.0.15/openwebbeans-2.0.15-source-release.zip"
+"openwebbeans-2.0.16": [
+"openwebbeans/2.0.16/openwebbeans-2.0.16-source-release.zip"
 ]
 },
 "openwhisk": {
@@ -10741,6 +10758,9 @@
 "skywalking-1.1.0": [
 "skywalking/kubernetes/1.1.0/skywalking-1.1.0.tgz"
 ],
+"skywalking-2.0.0": [
+"skywalking/kubernetes/2.0.0/skywalking-2.0.0.tgz"
+],
 "skywalking-cli-0.2.0": [
 "skywalking/cli/0.2.0/skywalking-cli-0.2.0-src.tgz"
 ],
@@ -10749,6 +10769,9 @@
 ],
 "skywalking-kubernetes-1.1.0": [
 "skywalking/kubernetes/1.1.0/skywalking-kubernetes-1.1.0-src.tgz"
+],
+"skywalking-kubernetes-2.0.0": [
+"skywalking/kubernetes/2.0.0/skywalking-kubernetes-2.0.0-src.tgz"
 ],
 "skywalking-nginx-lua-0.1.0": [
 "skywalking/nginx-lua/0.1.0/skywalking-nginx-lua-0.1.0-src.tgz"
