@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/p2.xsl"?>
+<!-- Copied from https://svn.apache.org/repos/asf/chukwa/site/src/site/doap.rdf -->
+<rdf:RDF xmlns="http://usefulinc.com/ns/doap#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:asfext="http://projects.apache.org/ns/asfext#" xml:lang="en">
+  <Project rdf:about="http://chukwa.apache.org/">
+    <name>Apache Chukwa</name>
+    <homepage rdf:resource="http://chukwa.apache.org/"/>
+    <programming-language>Java</programming-language>
+    <programming-language>JavaScript</programming-language>
+    <category rdf:resource="http://projects.apache.org/category/retired" />
+    <category rdf:resource="http://projects.apache.org/category/hadoop"/>
+    <license rdf:resource="http://usefulinc.com/doap/licenses/asl20"/>
+    <bug-database rdf:resource="https://issues.apache.org/jira/browse/CHUKWA/"/>
+    <download-page rdf:resource="http://www.apache.org/dyn/closer.cgi/chukwa/"/>
+    <asfext:pmc rdf:resource="http://attic.apache.org" />
+
+    <shortdesc xml:lang="en">
+      Chukwa is an open source data collection system for monitoring 
+      large distributed systems.
+    </shortdesc>
+
+    <description xml:lang="en">
+      Chukwa is an open source data collection system for monitoring 
+      large distributed systems. Chukwa is built on top of 
+      the Hadoop Distributed File System (HDFS) and Map/Reduce framework 
+      and inherits Hadoop’s scalability and robustness. Chukwa also includes 
+      a ﬂexible and powerful toolkit for displaying, monitoring and analyzing 
+      results to make the best use of the collected data.
+    </description>
+
+    <repository>
+      <SVNRepository>
+        <browse rdf:resource="http://svn.apache.org/viewcvs.cgi/chukwa/"/>
+        <location rdf:resource="http://svn.apache.org/repos/asf/chukwa/"/>
+      </SVNRepository>
+    </repository>
+
+    <mailing-list rdf:resource="http://httpd.apache.org/lists.html"/>
+ 
+    <release>
+      <Version>
+        <name>Recommended current 0.5 release</name>
+        <created>2012-01-25</created>
+        <revision>0.5.0</revision>
+      </Version>
+    </release>
+
+    <asfext:implements><asfext:Standard>
+      <asfext:title>Hypertext Transfer Protocol -- HTTP/1.1</asfext:title>
+      <asfext:body>IETF</asfext:body>
+      <asfext:id>RFC 2616</asfext:id>
+      <asfext:url rdf:resource="http://www.ietf.org/rfc/rfc2616.txt"/>
+    </asfext:Standard></asfext:implements>
+
+    <asfext:implements><asfext:Standard>
+      <asfext:title>HTTP Authentication: Basic and Digest Access Authentication</asfext:title>
+      <asfext:body>IETF</asfext:body>
+      <asfext:id>RFC 2617</asfext:id>
+      <asfext:url rdf:resource="http://www.ietf.org/rfc/rfc2617.txt"/>
+    </asfext:Standard></asfext:implements>
+
+  </Project>
+</rdf:RDF>
