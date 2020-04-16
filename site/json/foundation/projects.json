@@ -7130,7 +7130,7 @@
 },
 "hama": {
 "bug-database": "https://issues.apache.org/jira/browse/HAMA",
-"category": "big-data",
+"category": "big-data, retired",
 "created": "2014-04-11",
 "description": "The Apache Hama is an efficient and scalable general-purpose BSP computing engine which can be used to speed up a large variety of compute-intensive analytics applications.",
 "doap": "https://svn.apache.org/repos/asf/hama/trunk/src/site/resources/doap_Hama.rdf",
@@ -7145,7 +7145,7 @@
 }
 ],
 "name": "Apache Hama",
-"pmc": "hama",
+"pmc": "attic",
 "programming-language": "Java",
 "repository": [
 "https://svn.apache.org/repos/asf/hama/trunk"
@@ -9621,7 +9621,17 @@
 {
 "created": "2020-03-03",
 "name": "3.0.0-rc1",
-"revision": "v2.8.1"
+"revision": "v3.0.0-rc1"
+},
+{
+"created": "2020-04-15",
+"name": "2.8.2",
+"revision": "v2.8.2"
+},
+{
+"created": "2020-04-15",
+"name": "3.0.0",
+"revision": "v3.0.0"
 }
 ],
 "repository": [
@@ -14474,7 +14484,7 @@
 },
 "stanbol": {
 "bug-database": "https://issues.apache.org/jira/browse/STANBOL",
-"category": "content",
+"category": "content, retired",
 "created": "2010-12-09",
 "description": "Apache Stanbol is a modular software stack and reusable set of components for semantic content management.",
 "doap": "http://stanbol.apache.org/doap.rdf",
@@ -14489,7 +14499,7 @@
 }
 ],
 "name": "Apache Stanbol",
-"pmc": "stanbol",
+"pmc": "attic",
 "programming-language": "Java",
 "repository": [
 "http://svn.apache.org/repos/asf/stanbol/trunk/"

@@ -8054,60 +8054,6 @@
 "shortdesc": "Distributed computing platform"
 },
 {
-"chair": "chl501",
-"charter": "The mission of Hama is the creation and maintenance of software related to a Bulk Synchronous Parallel computing framework on top of Apache Hadoop",
-"established": "2012-05",
-"group": "hama",
-"homepage": "http://hama.apache.org/",
-"id": "hama",
-"name": "Apache Hama",
-"rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/hama.rdf",
-"reporting": 2,
-"roster": {
-"andronat": {
-"date": "2014-03-13",
-"name": "Andronidis Anastasios"
-},
-"bsikander": {
-"date": "2016-02-01",
-"name": "Behroz Sikander"
-},
-"chl501": {
-"date": "2012-05-16",
-"name": "ChiaHung Lin"
-},
-"edwardyoon": {
-"date": "2012-05-16",
-"name": "Edward J. Yoon"
-},
-"kennethxian": {
-"date": "2013-08-03",
-"name": "MaoYuan Xian"
-},
-"millecker": {
-"date": "2013-04-17",
-"name": "Martin Illecker"
-},
-"stevel": {
-"date": "2012-05-16",
-"name": "Steve Loughran"
-},
-"surajsmenon": {
-"date": "2012-05-16",
-"name": "Suraj Menon"
-},
-"tommaso": {
-"date": "2012-05-16",
-"name": "Tommaso Teofili"
-},
-"yxjiang": {
-"date": "2014-03-13",
-"name": "Yexi Jiang"
-}
-},
-"shortdesc": "a Bulk Synchronous Parallel computing framework on top of Apache Hadoop"
-},
-{
 "chair": "lei_chang",
 "charter": "The mission of Apache HAWQ is the creation and maintenance of software related to a Hadoop native SQL query engine that combines the key technological advantages of an MPP database with the scalability and convenience of Hadoop",
 "established": "2018-08",
@@ -10278,7 +10224,7 @@
 "shortdesc": "Entry path for projects and codebases wishing to become part of the Foundation's efforts"
 },
 {
-"chair": "kevin",
+"chair": "jdoornenbal",
 "charter": "The mission of Isis is the creation and maintenance of software related to Framework for rapidly developing domain-driven apps in Java",
 "established": "2012-10",
 "group": "isis",
@@ -12537,10 +12483,6 @@
 "khmarbaise": {
 "date": "2014-08-25",
 "name": "Karl Heinz Marbaise"
-},
-"krosenvold": {
-"date": "2010-08-20",
-"name": "Kristian Rosenvold"
 },
 "michaelo": {
 "date": "2015-10-21",
@@ -15422,7 +15364,7 @@
 "shortdesc": "assessment of, education in, and adoption of the Foundation's policies and procedures for collaborative development and the pros and cons of joining the Foundation"
 },
 {
-"chair": "elserj",
+"chair": "ankit",
 "charter": "The mission of Phoenix is the creation and maintenance of software related to High performance relational database layer over Apache HBase for low latency applications",
 "established": "2014-05",
 "group": "phoenix",
@@ -17338,7 +17280,7 @@
 "shortdesc": "Fine grained authorization to data and metadata in Apache Hadoop"
 },
 {
-"chair": "brane",
+"chair": "jerenkrantz",
 "charter": "The mission of the Apache Serf project is creating and maintening of software related to HTTP and associated protocols.",
 "established": "2015-08",
 "group": "serf",
@@ -17590,6 +17532,74 @@
 }
 },
 "shortdesc": "Enterprise Service Bus"
+},
+{
+"chair": "zhangliang",
+"established": "2020-04",
+"group": "shardingsphere",
+"homepage": "http://shardingsphere.apache.org",
+"id": "shardingsphere",
+"name": "Apache ShardingSphere",
+"reporting": 2,
+"roster": {
+"caohao": {
+"date": "2020-04-15",
+"name": "Hao Cao"
+},
+"chenqingyang": {
+"date": "2020-04-15",
+"name": "QingYang Chen"
+},
+"clr": {
+"date": "2020-04-15",
+"name": "Craig L Russell"
+},
+"codefairy": {
+"date": "2020-04-15",
+"name": "Hongjun Du"
+},
+"hanahmily": {
+"date": "2020-04-15",
+"name": "Hongtao Gao"
+},
+"maxiaoguang": {
+"date": "2020-04-15",
+"name": "Xiaoguang Ma"
+},
+"ningjiang": {
+"date": "2020-04-15",
+"name": "Willem Ning Jiang"
+},
+"panjuan": {
+"date": "2020-04-15",
+"name": "Juan Pan"
+},
+"vongosling": {
+"date": "2020-04-15",
+"name": "Von Gosling"
+},
+"wusheng": {
+"date": "2020-04-15",
+"name": "Sheng Wu"
+},
+"yangyi": {
+"date": "2020-04-15",
+"name": "Yang Yi"
+},
+"zhangliang": {
+"date": "2020-04-15",
+"name": "Liang Zhang"
+},
+"zhangyonglun": {
+"date": "2020-04-15",
+"name": "Yonglun Zhang"
+},
+"zhaojun": {
+"date": "2020-04-15",
+"name": "Jun Zhao"
+}
+},
+"shortdesc": "a database clustering system providing data sharding, distributed transactions, and distributed database management"
 },
 {
 "chair": "lhazlewood",
@@ -18408,112 +18418,6 @@
 "shortdesc": "Bulk Data Transfer for Apache Hadoop and Structured Datastores"
 },
 {
-"chair": "rharo",
-"charter": "The mission of Stanbol is the creation and maintenance of software related to Reusable components for semantic content management",
-"established": "2012-09",
-"group": "stanbol",
-"homepage": "http://stanbol.apache.org/",
-"id": "stanbol",
-"name": "Apache Stanbol",
-"rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/stanbol.rdf",
-"reporting": 3,
-"roster": {
-"adperezmorales": {
-"date": "2018-12-21",
-"name": "Antonio David P\u00e9rez Morales"
-},
-"agruber": {
-"date": "2012-09-19",
-"name": "Andreas Gruber"
-},
-"aku": {
-"date": "2012-09-19",
-"name": "Andreas Kuckartz"
-},
-"alexdma": {
-"date": "2012-09-19",
-"name": "Alessandro Adamou"
-},
-"anuzzolese": {
-"date": "2012-09-19",
-"name": "Andrea Nuzzolese"
-},
-"bnagel": {
-"date": "2012-09-19",
-"name": "Benjamin Nagel"
-},
-"cihan": {
-"date": "2012-09-19",
-"name": "Cihan Cimen"
-},
-"concelvio": {
-"date": "2012-09-19",
-"name": "Concetto Bonafede"
-},
-"cpetroaca": {
-"date": "2016-07-28",
-"name": "Cristian Petroaca"
-},
-"enridaga": {
-"date": "2012-09-19",
-"name": "Enrico Daga"
-},
-"fchrist": {
-"date": "2012-09-19",
-"name": "Fabian Christ"
-},
-"florent": {
-"date": "2012-09-19",
-"name": "Florent Andr\u00e9"
-},
-"ogrisel": {
-"date": "2012-09-19",
-"name": "Olivier Grisel"
-},
-"ozgur": {
-"date": "2012-09-19",
-"name": "Ozgur Kilic"
-},
-"reto": {
-"date": "2012-09-19",
-"name": "Reto Gm\u00fcr"
-},
-"rharo": {
-"date": "2016-07-28",
-"name": "Rafa Haro"
-},
-"rwesten": {
-"date": "2012-09-19",
-"name": "Rupert Westenthaler"
-},
-"sinaci": {
-"date": "2012-09-19",
-"name": "Ali Anil Sinaci"
-},
-"suat": {
-"date": "2012-09-19",
-"name": "Suat Gonul"
-},
-"szabyg": {
-"date": "2013-04-09",
-"name": "Szaby Gr\u00fcnwald"
-},
-"tommaso": {
-"date": "2012-09-19",
-"name": "Tommaso Teofili"
-},
-"val": {
-"date": "2012-09-19",
-"name": "Valentina Presutti"
-},
-"wkasper": {
-"date": "2012-09-19",
-"name": "Walter Kasper"
-}
-},
-"shortdesc": "Reusable components for semantic content management"
-},
-{
 "chair": "humbedooh",
 "charter": "The mission of Steve is the creation and maintenance of software related to Apache's Python based single transferable vote software system",
 "established": "2012-07",
@@ -18908,7 +18812,7 @@
 "shortdesc": "allowing infrastructure engineers and data scientists to build deep learning applications (TensorFlow, PyTorch, etc.) end to end on cluster management platforms (like YARN/K8s)"
 },
 {
-"chair": "stsp",
+"chair": "hartmannathan",
 "charter": "The Apache Subversion project is responsible for the creation and maintenance of software related to version control.",
 "established": "2010-02",
 "group": "subversion",

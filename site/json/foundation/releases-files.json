@@ -568,11 +568,11 @@
 "beam/vendor/beam-vendor-grpc-1_21_0/0.1/apache-beam-0fce2b88660f52dae638697e1472aa108c982ae6-source-release.zip",
 "beam/vendor/beam-vendor-guava-26_0-jre/0.1/apache-beam-0fce2b88660f52dae638697e1472aa108c982ae6-source-release.zip"
 ],
-"apache-beam-2.19.0": [
-"beam/2.19.0/python/apache-beam-2.19.0.zip",
-"beam/2.19.0/apache-beam-2.19.0-source-release.zip",
-"beam/latest/python/apache-beam-2.19.0.zip",
-"beam/latest/apache-beam-2.19.0-source-release.zip"
+"apache-beam-2.20.0": [
+"beam/2.20.0/python/apache-beam-2.20.0.zip",
+"beam/2.20.0/apache-beam-2.20.0-source-release.zip",
+"beam/latest/python/apache-beam-2.20.0.zip",
+"beam/latest/apache-beam-2.20.0-source-release.zip"
 ],
 "apache-beam-28d05d317a39b5d60a31988c69d1fb8a9c5006fc": [
 "beam/vendor/beam-vendor-grpc-1_26_0/0.3/apache-beam-28d05d317a39b5d60a31988c69d1fb8a9c5006fc-source-release.zip"
@@ -6304,6 +6304,9 @@
 "kafka-2.4.1": [
 "kafka/2.4.1/kafka-2.4.1-src.tgz"
 ],
+"kafka-2.5.0": [
+"kafka/2.5.0/kafka-2.5.0-src.tgz"
+],
 "kafka_2.11-2.1.1": [
 "kafka/2.1.1/kafka_2.11-2.1.1.tgz"
 ],
@@ -6352,11 +6355,17 @@
 "kafka_2.12-2.4.1": [
 "kafka/2.4.1/kafka_2.12-2.4.1.tgz"
 ],
+"kafka_2.12-2.5.0": [
+"kafka/2.5.0/kafka_2.12-2.5.0.tgz"
+],
 "kafka_2.13-2.4.0": [
 "kafka/2.4.0/kafka_2.13-2.4.0.tgz"
 ],
 "kafka_2.13-2.4.1": [
 "kafka/2.4.1/kafka_2.13-2.4.1.tgz"
+],
+"kafka_2.13-2.5.0": [
+"kafka/2.5.0/kafka_2.13-2.5.0.tgz"
 ]
 },
 "karaf": {
@@ -6497,6 +6506,16 @@
 "libcloud/apache-libcloud-2.8.1.tar.gz",
 "libcloud/apache-libcloud-2.8.1.zip"
 ],
+"apache-libcloud-2.8.2": [
+"libcloud/apache-libcloud-2.8.2.tar.bz2",
+"libcloud/apache-libcloud-2.8.2.tar.gz",
+"libcloud/apache-libcloud-2.8.2.zip"
+],
+"apache-libcloud-3.0.0": [
+"libcloud/apache-libcloud-3.0.0.tar.bz2",
+"libcloud/apache-libcloud-3.0.0.tar.gz",
+"libcloud/apache-libcloud-3.0.0.zip"
+],
 "apache-libcloud-3.0.0rc1": [
 "libcloud/apache-libcloud-3.0.0rc1.tar.bz2",
 "libcloud/apache-libcloud-3.0.0rc1.tar.gz",
@@ -6581,6 +6600,11 @@
 "lucene/java/8.5.0/lucene-8.5.0.tgz",
 "lucene/java/8.5.0/lucene-8.5.0.zip"
 ],
+"lucene-8.5.1": [
+"lucene/java/8.5.1/lucene-8.5.1-src.tgz",
+"lucene/java/8.5.1/lucene-8.5.1.tgz",
+"lucene/java/8.5.1/lucene-8.5.1.zip"
+],
 "pylucene-7.7.1": [
 "lucene/pylucene/pylucene-7.7.1-src.tar.gz"
 ],
@@ -6601,6 +6625,11 @@
 "lucene/solr/8.5.0/solr-8.5.0-src.tgz",
 "lucene/solr/8.5.0/solr-8.5.0.tgz",
 "lucene/solr/8.5.0/solr-8.5.0.zip"
+],
+"solr-8.5.1": [
+"lucene/solr/8.5.1/solr-8.5.1-src.tgz",
+"lucene/solr/8.5.1/solr-8.5.1.tgz",
+"lucene/solr/8.5.1/solr-8.5.1.zip"
 ]
 },
 "lucenenet": {
@@ -6810,8 +6839,8 @@
 "maven-acr-plugin-3.1.0": [
 "maven/plugins/maven-acr-plugin-3.1.0-source-release.zip"
 ],
-"maven-antrun-plugin-1.8": [
-"maven/plugins/maven-antrun-plugin-1.8-source-release.zip"
+"maven-antrun-plugin-3.0.0": [
+"maven/plugins/maven-antrun-plugin-3.0.0-source-release.zip"
 ],
 "maven-archetype-3.1.2": [
 "maven/archetype/maven-archetype-3.1.2-source-release.zip"
