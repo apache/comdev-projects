@@ -781,10 +781,10 @@
 "camel/apache-camel/2.24.3/apache-camel-2.24.3.tar.gz",
 "camel/apache-camel/2.24.3/apache-camel-2.24.3.zip"
 ],
-"apache-camel-2.25.0": [
-"camel/apache-camel/2.25.0/apache-camel-2.25.0-src.zip",
-"camel/apache-camel/2.25.0/apache-camel-2.25.0.tar.gz",
-"camel/apache-camel/2.25.0/apache-camel-2.25.0.zip"
+"apache-camel-2.25.1": [
+"camel/apache-camel/2.25.1/apache-camel-2.25.1-src.zip",
+"camel/apache-camel/2.25.1/apache-camel-2.25.1.tar.gz",
+"camel/apache-camel/2.25.1/apache-camel-2.25.1.zip"
 ],
 "apache-camel-3.0.1": [
 "camel/apache-camel/3.0.1/apache-camel-3.0.1-src.zip",
@@ -2203,21 +2203,21 @@
 "felix/org.apache.felix.http.api-3.0.0-source-release.tar.gz",
 "felix/org.apache.felix.http.api-3.0.0-source-release.zip"
 ],
-"org.apache.felix.http.base-4.0.8": [
-"felix/org.apache.felix.http.base-4.0.8-source-release.tar.gz",
-"felix/org.apache.felix.http.base-4.0.8-source-release.zip"
+"org.apache.felix.http.base-4.0.10": [
+"felix/org.apache.felix.http.base-4.0.10-source-release.tar.gz",
+"felix/org.apache.felix.http.base-4.0.10-source-release.zip"
 ],
-"org.apache.felix.http.bridge-4.0.10": [
-"felix/org.apache.felix.http.bridge-4.0.10-source-release.tar.gz",
-"felix/org.apache.felix.http.bridge-4.0.10-source-release.zip"
+"org.apache.felix.http.bridge-4.0.12": [
+"felix/org.apache.felix.http.bridge-4.0.12-source-release.tar.gz",
+"felix/org.apache.felix.http.bridge-4.0.12-source-release.zip"
 ],
 "org.apache.felix.http.bundle-3.0.0": [
 "felix/org.apache.felix.http.bundle-3.0.0-source-release.tar.gz",
 "felix/org.apache.felix.http.bundle-3.0.0-source-release.zip"
 ],
-"org.apache.felix.http.jetty-4.0.16": [
-"felix/org.apache.felix.http.jetty-4.0.16-source-release.tar.gz",
-"felix/org.apache.felix.http.jetty-4.0.16-source-release.zip"
+"org.apache.felix.http.jetty-4.0.18": [
+"felix/org.apache.felix.http.jetty-4.0.18-source-release.tar.gz",
+"felix/org.apache.felix.http.jetty-4.0.18-source-release.zip"
 ],
 "org.apache.felix.http.proxy-3.0.6": [
 "felix/org.apache.felix.http.proxy-3.0.6-source-release.tar.gz",
@@ -2352,9 +2352,9 @@
 "felix/org.apache.felix.resolver-2.0.0-source-release.tar.gz",
 "felix/org.apache.felix.resolver-2.0.0-source-release.zip"
 ],
-"org.apache.felix.scr-2.1.16": [
-"felix/org.apache.felix.scr-2.1.16-source-release.tar.gz",
-"felix/org.apache.felix.scr-2.1.16-source-release.zip"
+"org.apache.felix.scr-2.1.18": [
+"felix/org.apache.felix.scr-2.1.18-source-release.tar.gz",
+"felix/org.apache.felix.scr-2.1.18-source-release.zip"
 ],
 "org.apache.felix.scr.annotations-1.12.0": [
 "felix/org.apache.felix.scr.annotations-1.12.0-source-release.tar.gz",
@@ -2695,8 +2695,8 @@
 "geronimo-jwt-auth-1.0.3": [
 "geronimo/jwt-auth/geronimo-jwt-auth-1.0.3-source-release.zip"
 ],
-"geronimo-metrics-1.0.3": [
-"geronimo/metrics/geronimo-metrics-parent-1.0.3-source-release.zip"
+"geronimo-metrics-1.0.4": [
+"geronimo/metrics/geronimo-metrics-parent-1.0.4-source-release.zip"
 ],
 "geronimo-microprofile-1.0.2": [
 "geronimo/microprofile-aggregator/geronimo-microprofile-1.0.2-source-release.zip"
@@ -6280,15 +6280,6 @@
 ]
 },
 "kafka": {
-"kafka-2.1.1": [
-"kafka/2.1.1/kafka-2.1.1-src.tgz"
-],
-"kafka-2.2.0": [
-"kafka/2.2.0/kafka-2.2.0-src.tgz"
-],
-"kafka-2.2.1": [
-"kafka/2.2.1/kafka-2.2.1-src.tgz"
-],
 "kafka-2.2.2": [
 "kafka/2.2.2/kafka-2.2.2-src.tgz"
 ],
@@ -6307,15 +6298,6 @@
 "kafka-2.5.0": [
 "kafka/2.5.0/kafka-2.5.0-src.tgz"
 ],
-"kafka_2.11-2.1.1": [
-"kafka/2.1.1/kafka_2.11-2.1.1.tgz"
-],
-"kafka_2.11-2.2.0": [
-"kafka/2.2.0/kafka_2.11-2.2.0.tgz"
-],
-"kafka_2.11-2.2.1": [
-"kafka/2.2.1/kafka_2.11-2.2.1.tgz"
-],
 "kafka_2.11-2.2.2": [
 "kafka/2.2.2/kafka_2.11-2.2.2.tgz"
 ],
@@ -6330,15 +6312,6 @@
 ],
 "kafka_2.11-2.4.1": [
 "kafka/2.4.1/kafka_2.11-2.4.1.tgz"
-],
-"kafka_2.12-2.1.1": [
-"kafka/2.1.1/kafka_2.12-2.1.1.tgz"
-],
-"kafka_2.12-2.2.0": [
-"kafka/2.2.0/kafka_2.12-2.2.0.tgz"
-],
-"kafka_2.12-2.2.1": [
-"kafka/2.2.1/kafka_2.12-2.2.1.tgz"
 ],
 "kafka_2.12-2.2.2": [
 "kafka/2.2.2/kafka_2.12-2.2.2.tgz"
@@ -6590,16 +6563,6 @@
 "lucene/java/7.7.2/lucene-7.7.2.tgz",
 "lucene/java/7.7.2/lucene-7.7.2.zip"
 ],
-"lucene-8.4.1": [
-"lucene/java/8.4.1/lucene-8.4.1-src.tgz",
-"lucene/java/8.4.1/lucene-8.4.1.tgz",
-"lucene/java/8.4.1/lucene-8.4.1.zip"
-],
-"lucene-8.5.0": [
-"lucene/java/8.5.0/lucene-8.5.0-src.tgz",
-"lucene/java/8.5.0/lucene-8.5.0.tgz",
-"lucene/java/8.5.0/lucene-8.5.0.zip"
-],
 "lucene-8.5.1": [
 "lucene/java/8.5.1/lucene-8.5.1-src.tgz",
 "lucene/java/8.5.1/lucene-8.5.1.tgz",
@@ -6615,16 +6578,6 @@
 "lucene/solr/7.7.2/solr-7.7.2-src.tgz",
 "lucene/solr/7.7.2/solr-7.7.2.tgz",
 "lucene/solr/7.7.2/solr-7.7.2.zip"
-],
-"solr-8.4.1": [
-"lucene/solr/8.4.1/solr-8.4.1-src.tgz",
-"lucene/solr/8.4.1/solr-8.4.1.tgz",
-"lucene/solr/8.4.1/solr-8.4.1.zip"
-],
-"solr-8.5.0": [
-"lucene/solr/8.5.0/solr-8.5.0-src.tgz",
-"lucene/solr/8.5.0/solr-8.5.0.tgz",
-"lucene/solr/8.5.0/solr-8.5.0.zip"
 ],
 "solr-8.5.1": [
 "lucene/solr/8.5.1/solr-8.5.1-src.tgz",
@@ -6896,8 +6849,8 @@
 "maven-filtering-3.1.1": [
 "maven/shared/maven-filtering-3.1.1-source-release.zip"
 ],
-"maven-fluido-skin-1.8": [
-"maven/skins/maven-fluido-skin-1.8-source-release.zip"
+"maven-fluido-skin-1.9": [
+"maven/skins/maven-fluido-skin-1.9-source-release.zip"
 ],
 "maven-gpg-plugin-1.6": [
 "maven/plugins/maven-gpg-plugin-1.6-source-release.zip"
@@ -12753,6 +12706,9 @@
 "trafficserver-6.2.3": [
 "trafficserver/trafficserver-6.2.3.tar.bz2"
 ],
+"trafficserver-7.1.10": [
+"trafficserver/trafficserver-7.1.10.tar.bz2"
+],
 "trafficserver-7.1.6": [
 "trafficserver/trafficserver-7.1.6.tar.bz2"
 ],
@@ -12785,6 +12741,9 @@
 ],
 "trafficserver-8.0.6": [
 "trafficserver/trafficserver-8.0.6.tar.bz2"
+],
+"trafficserver-8.0.7": [
+"trafficserver/trafficserver-8.0.7.tar.bz2"
 ]
 },
 "trafodion": {
