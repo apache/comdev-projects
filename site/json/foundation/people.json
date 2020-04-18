@@ -4864,6 +4864,13 @@
 "member": false,
 "name": "Benjamin Anderson"
 },
+"bankim": {
+"groups": [
+"kudu"
+],
+"member": false,
+"name": "Bankim Bhavsar"
+},
 "baoqiwu": {
 "groups": [
 "dolphinscheduler",
@@ -7947,7 +7954,7 @@
 "metron",
 "metron-pmc"
 ],
-"member": false,
+"member": true,
 "name": "Casey Stella"
 },
 "cezar": {
@@ -8805,7 +8812,8 @@
 },
 "chrishkchris": {
 "groups": [
-"singa"
+"singa",
+"singa-pmc"
 ],
 "member": false,
 "name": "Chris Yeung"
@@ -18724,7 +18732,8 @@
 },
 "haibow": {
 "groups": [
-"incubator"
+"incubator",
+"pinot"
 ],
 "member": false,
 "name": "Haibo Wang"
@@ -21334,7 +21343,9 @@
 },
 "iwasakims": {
 "groups": [
+"bigtop",
 "hadoop",
+"hadoop-pmc",
 "incubator"
 ],
 "member": false,
@@ -28363,6 +28374,14 @@
 ],
 "member": false,
 "name": "Ken"
+},
+"knarendran": {
+"groups": [
+"fluo",
+"fluo-pmc"
+],
+"member": false,
+"name": "Karthick Narendran"
 },
 "knaufk": {
 "groups": [
@@ -44886,6 +44905,7 @@
 "airflow",
 "airflow-pmc",
 "bigtop",
+"bigtop-pmc",
 "yetus",
 "yetus-pmc"
 ],
@@ -51939,7 +51959,8 @@
 },
 "vgutierrez": {
 "groups": [
-"trafficserver"
+"trafficserver",
+"trafficserver-pmc"
 ],
 "member": false,
 "name": "Valentin Gutierrez"
