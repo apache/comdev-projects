@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 
 """
+Creates the initial RDF for a new TLP
 
 Reads:
 data/committees/_template.rdf
-committee-info.txt from Whimsy
+committee-info.json from Whimsy
 
 Updates:
 data/committees.xml
