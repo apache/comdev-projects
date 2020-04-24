@@ -1539,6 +1539,30 @@
 ],
 "shortdesc": "\n      Aggregated multi-channel documentation framework, separation of concerns.\n    "
 },
+"attic-hama": {
+"bug-database": "https://issues.apache.org/jira/browse/HAMA",
+"category": "retired, big-data",
+"created": "2014-04-11",
+"description": "The Apache Hama is an efficient and scalable general-purpose BSP computing engine which can be used to speed up a large variety of compute-intensive analytics applications.",
+"doap": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/hama.rdf",
+"download-page": "http://hama.apache.org/downloads.html",
+"homepage": "http://hama.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://hama.apache.org/mail-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:edwardyoon@apache.org",
+"name": "Edward J. Yoon"
+}
+],
+"name": "Apache Hama",
+"pmc": "attic",
+"programming-language": "Java",
+"repository": [
+"https://svn.apache.org/repos/asf/hama/trunk"
+],
+"shortdesc": "Hama is an efficient and scalable general-purpose BSP computing engine."
+},
 "attic-harmony": {
 "bug-database": "http://issues.apache.org/jira/browse/HARMONY",
 "category": "virtual-machine, retired",
@@ -2175,6 +2199,30 @@
 "http://svn.apache.org/repos/asf/shindig"
 ],
 "shortdesc": "Apache Shindig software is an OpenSocial container and helps you to start hosting OpenSocial apps quickly by providing the code to render gadgets, proxy requests, and handle REST and RPC requests."
+},
+"attic-stanbol": {
+"bug-database": "https://issues.apache.org/jira/browse/STANBOL",
+"category": "retired, content",
+"created": "2010-12-09",
+"description": "Apache Stanbol is a modular software stack and reusable set of components for semantic content management.",
+"doap": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/stanbol.rdf",
+"download-page": "http://stanbol.apache.org/downloads/",
+"homepage": "http://stanbol.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://stanbol.apache.org/development/",
+"maintainer": [
+{
+"mbox": "mailto:dev@stanbol.apache.org",
+"name": "Stanbol developers list"
+}
+],
+"name": "Apache Stanbol",
+"pmc": "attic",
+"programming-language": "Java",
+"repository": [
+"http://svn.apache.org/repos/asf/stanbol/trunk/"
+],
+"shortdesc": "Software components for semantic content management"
 },
 "attic-stratos": {
 "bug-database": "https://issues.apache.org/jira/browse/stratos",
@@ -7132,30 +7180,6 @@
 "https://svn.apache.org/repos/asf/gump/"
 ],
 "shortdesc": "Gump provides large scale continuous integration for various open source projects."
-},
-"hama": {
-"bug-database": "https://issues.apache.org/jira/browse/HAMA",
-"category": "big-data, retired",
-"created": "2014-04-11",
-"description": "The Apache Hama is an efficient and scalable general-purpose BSP computing engine which can be used to speed up a large variety of compute-intensive analytics applications.",
-"doap": "https://svn.apache.org/repos/asf/hama/trunk/src/site/resources/doap_Hama.rdf",
-"download-page": "http://hama.apache.org/downloads.html",
-"homepage": "http://hama.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://hama.apache.org/mail-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:edwardyoon@apache.org",
-"name": "Edward J. Yoon"
-}
-],
-"name": "Apache Hama",
-"pmc": "attic",
-"programming-language": "Java",
-"repository": [
-"https://svn.apache.org/repos/asf/hama/trunk"
-],
-"shortdesc": "Hama is an efficient and scalable general-purpose BSP computing engine."
 },
 "hbase": {
 "bug-database": "http://issues.apache.org/jira/browse/HBASE",
@@ -12767,9 +12791,9 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2019-12-15",
+"created": "2020-04-22",
 "name": "Latest WebRTC 5.0.x release",
-"revision": "5.0.0-M3"
+"revision": "5.0.0-M4"
 },
 {
 "created": "2019-12-15",
@@ -14496,30 +14520,6 @@
 "https://git-wip-us.apache.org/repos/asf/sqoop.git"
 ],
 "shortdesc": "Apache Sqoop(TM) is a tool designed for efficiently transferring bulk data between Apache Hadoop and structured datastores such as relational databases."
-},
-"stanbol": {
-"bug-database": "https://issues.apache.org/jira/browse/STANBOL",
-"category": "content, retired",
-"created": "2010-12-09",
-"description": "Apache Stanbol is a modular software stack and reusable set of components for semantic content management.",
-"doap": "http://stanbol.apache.org/doap.rdf",
-"download-page": "http://stanbol.apache.org/downloads/",
-"homepage": "http://stanbol.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://stanbol.apache.org/development/",
-"maintainer": [
-{
-"mbox": "mailto:dev@stanbol.apache.org",
-"name": "Stanbol developers list"
-}
-],
-"name": "Apache Stanbol",
-"pmc": "attic",
-"programming-language": "Java",
-"repository": [
-"http://svn.apache.org/repos/asf/stanbol/trunk/"
-],
-"shortdesc": "Software components for semantic content management"
 },
 "steve": {
 "bug-database": "https://issues.apache.org/jira/browse/STEVE",
