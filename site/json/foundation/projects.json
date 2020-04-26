@@ -979,50 +979,6 @@
 ],
 "shortdesc": "OSGi Enterprise Programming Model"
 },
-"arric-vxquery": {
-"bug-database": "https://issues.apache.org/jira/browse/VXQUERY",
-"category": "retired, big-data, xml",
-"created": "2014-10-09",
-"description": "Apache VXQuery will be a standards compliant XML Query processor implemented in Java. The focus is on the evaluation of queries on large amounts of XML data. Specifically the goal is to evaluate queries on large collections of relatively small XML documents. To achieve this queries will be evaluated on a cluster of shared nothing machines.",
-"doap": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/vxquery.rdf",
-"download-page": "http://www.apache.org/dyn/closer.cgi/vxquery/",
-"homepage": "http://vxquery.apache.org/",
-"implements": [
-{
-"body": "W3C",
-"id": "XQuery 1.0",
-"title": "XQuery 1.0: An XML Query Language",
-"url": "http://www.w3.org/TR/xquery/"
-}
-],
-"license": "http://spdx.org/licenses/Apache-2.0",
-"mailing-list": "http://vxquery.apache.org/mail-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:tillw@apache.org",
-"name": "Till Westmann"
-}
-],
-"name": "Apache VXQuery",
-"pmc": "arric",
-"programming-language": "Java",
-"release": [
-{
-"created": "2015-03-05",
-"name": "Apache VXQuery",
-"revision": "0.5"
-},
-{
-"created": "2016-05-26",
-"name": "Apache VXQuery",
-"revision": "0.6"
-}
-],
-"repository": [
-"https://git-wip-us.apache.org/repos/asf/vxquery.git"
-],
-"shortdesc": "Apache VXQuery implements a parallel XML Query processor."
-},
 "attic-abdera": {
 "bug-database": "https://issues.apache.org/jira/browse/ABDERA",
 "category": "xml, retired",
@@ -2337,6 +2293,50 @@
 "git://git.apache.org/tuscany-sca-2.x.git"
 ],
 "shortdesc": "Apache Tuscany simplifies the task of developing SOA solutions by providing a comprehensive infrastructure for SOA development and management that is based on Service Component Architecture (SCA) standard."
+},
+"attic-vxquery": {
+"bug-database": "https://issues.apache.org/jira/browse/VXQUERY",
+"category": "retired, big-data, xml",
+"created": "2014-10-09",
+"description": "Apache VXQuery will be a standards compliant XML Query processor implemented in Java. The focus is on the evaluation of queries on large amounts of XML data. Specifically the goal is to evaluate queries on large collections of relatively small XML documents. To achieve this queries will be evaluated on a cluster of shared nothing machines.",
+"doap": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/vxquery.rdf",
+"download-page": "http://www.apache.org/dyn/closer.cgi/vxquery/",
+"homepage": "http://vxquery.apache.org/",
+"implements": [
+{
+"body": "W3C",
+"id": "XQuery 1.0",
+"title": "XQuery 1.0: An XML Query Language",
+"url": "http://www.w3.org/TR/xquery/"
+}
+],
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "http://vxquery.apache.org/mail-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:tillw@apache.org",
+"name": "Till Westmann"
+}
+],
+"name": "Apache VXQuery",
+"pmc": "attic",
+"programming-language": "Java",
+"release": [
+{
+"created": "2015-03-05",
+"name": "Apache VXQuery",
+"revision": "0.5"
+},
+{
+"created": "2016-05-26",
+"name": "Apache VXQuery",
+"revision": "0.6"
+}
+],
+"repository": [
+"https://git-wip-us.apache.org/repos/asf/vxquery.git"
+],
+"shortdesc": "Apache VXQuery implements a parallel XML Query processor."
 },
 "attic-whirr": {
 "bug-database": "https://issues.apache.org/jira/browse/WHIRR",
@@ -9808,12 +9808,17 @@
 "revision": "3.0.0-SNAPSHOT"
 },
 {
-"name": "Apache Log4j 2 - 2.13.2-SNAPSHOT",
-"revision": "2.13.2-SNAPSHOT"
+"name": "Apache Log4j 2 - 2.14.0-SNAPSHOT",
+"revision": "2.14.0-SNAPSHOT"
+},
+{
+"file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.13.2/log4j-2.13.2.pom",
+"name": "Latest stable release",
+"revision": "2.13.2"
 },
 {
 "file-release": "http://repository.nextiva.xyz:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.13.1/log4j-2.13.1.pom",
-"name": "Latest stable release",
+"name": "Apache Log4j 2 - 2.13.1",
 "revision": "2.13.1"
 },
 {
