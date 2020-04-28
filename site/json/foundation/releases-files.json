@@ -2441,9 +2441,9 @@
 "felix/org.apache.felix.utils-1.11.0-source-release.tar.gz",
 "felix/org.apache.felix.utils-1.11.0-source-release.zip"
 ],
-"org.apache.felix.webconsole-4.4.0": [
-"felix/org.apache.felix.webconsole-4.4.0-source-release.tar.gz",
-"felix/org.apache.felix.webconsole-4.4.0-source-release.zip"
+"org.apache.felix.webconsole-4.5.0": [
+"felix/org.apache.felix.webconsole-4.5.0-source-release.tar.gz",
+"felix/org.apache.felix.webconsole-4.5.0-source-release.zip"
 ],
 "org.osgi.compendium-1.4.0": [
 "felix/org.osgi.compendium-1.4.0-project.tar.gz",
@@ -6979,8 +6979,8 @@
 "maven-reporting-impl-3.0.0": [
 "maven/reporting/maven-reporting-impl-3.0.0-source-release.zip"
 ],
-"maven-resolver-1.4.1": [
-"maven/resolver/maven-resolver-1.4.1-source-release.zip"
+"maven-resolver-1.4.2": [
+"maven/resolver/maven-resolver-1.4.2-source-release.zip"
 ],
 "maven-resolver-ant-tasks-1.2.0": [
 "maven/resolver/maven-resolver-ant-tasks-1.2.0-source-release.zip"
@@ -9787,6 +9787,9 @@
 ],
 "apache-ofbiz-17.12.02": [
 "ofbiz/apache-ofbiz-17.12.02.zip"
+],
+"apache-ofbiz-17.12.03": [
+"ofbiz/apache-ofbiz-17.12.03.zip"
 ]
 },
 "olingo": {
@@ -9984,14 +9987,11 @@
 "orc-1.4.5": [
 "orc/orc-1.4.5/orc-1.4.5.tar.gz"
 ],
-"orc-1.5.8": [
-"orc/orc-1.5.8/orc-1.5.8.tar.gz"
+"orc-1.5.10": [
+"orc/orc-1.5.10/orc-1.5.10.tar.gz"
 ],
-"orc-1.5.9": [
-"orc/orc-1.5.9/orc-1.5.9.tar.gz"
-],
-"orc-1.6.2": [
-"orc/orc-1.6.2/orc-1.6.2.tar.gz"
+"orc-1.6.3": [
+"orc/orc-1.6.3/orc-1.6.3.tar.gz"
 ]
 },
 "parquet": {
@@ -11027,8 +11027,8 @@
 "org.apache.sling.commons.fsclassloader-1.0.12": [
 "sling/org.apache.sling.commons.fsclassloader-1.0.12-source-release.zip"
 ],
-"org.apache.sling.commons.johnzon-1.2.0": [
-"sling/org.apache.sling.commons.johnzon-1.2.0-source-release.zip"
+"org.apache.sling.commons.johnzon-1.2.2": [
+"sling/org.apache.sling.commons.johnzon-1.2.2-source-release.zip"
 ],
 "org.apache.sling.commons.json-2.0.20": [
 "sling/org.apache.sling.commons.json-2.0.20-source-release.zip"
@@ -11114,8 +11114,8 @@
 "org.apache.sling.discovery.impl-1.2.12": [
 "sling/org.apache.sling.discovery.impl-1.2.12-source-release.zip"
 ],
-"org.apache.sling.discovery.oak-1.2.28": [
-"sling/org.apache.sling.discovery.oak-1.2.28-source-release.zip"
+"org.apache.sling.discovery.oak-1.2.30": [
+"sling/org.apache.sling.discovery.oak-1.2.30-source-release.zip"
 ],
 "org.apache.sling.discovery.standalone-1.0.2": [
 "sling/org.apache.sling.discovery.standalone-1.0.2-source-release.zip"
@@ -13164,44 +13164,17 @@
 "uimacpp-2.4.0-bin64": [
 "uima/uimacpp-2.4.0/uimacpp-2.4.0-bin64.tgz"
 ],
-"uimafit-2.0.0": [
-"uima/uimafit-2.0.0/uimafit-2.0.0-source-release.zip"
-],
-"uimafit-2.1.0": [
-"uima/uimafit-2.1.0/uimafit-2.1.0-source-release.zip"
-],
-"uimafit-2.2.0": [
-"uima/uimafit-2.2.0/uimafit-2.2.0-source-release.zip"
-],
-"uimafit-2.3.0": [
-"uima/uimafit-2.3.0/uimafit-2.3.0-source-release.zip"
-],
-"uimafit-2.4.0": [
-"uima/uimafit-2.4.0/uimafit-2.4.0-source-release.zip"
-],
 "uimafit-2.5.0": [
 "uima/uimafit-2.5.0/uimafit-2.5.0-source-release.zip"
 ],
 "uimafit-3.0.0": [
 "uima/uimafit-3.0.0/uimafit-3.0.0-source-release.zip"
 ],
-"uimaj-2.10.2": [
-"uima/uimaj-2.10.2/uimaj-2.10.2-source-release.zip"
-],
 "uimaj-2.10.3": [
 "uima/uimaj-2.10.3/uimaj-2.10.3-source-release.zip"
 ],
 "uimaj-2.10.4": [
 "uima/uimaj-2.10.4/uimaj-2.10.4-source-release.zip"
-],
-"uimaj-3.0.0": [
-"uima/uimaj-3.0.0/uimaj-3.0.0-source-release.zip"
-],
-"uimaj-3.0.1": [
-"uima/uimaj-3.0.1/uimaj-3.0.1-source-release.zip"
-],
-"uimaj-3.0.2": [
-"uima/uimaj-3.0.2/uimaj-3.0.2-source-release.zip"
 ],
 "uimaj-3.1.0": [
 "uima/uimaj-3.1.0/uimaj-3.1.0-source-release.zip"
