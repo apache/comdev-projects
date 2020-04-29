@@ -1089,44 +1089,6 @@
 ],
 "shortdesc": "Beehive makes J2EE programming easier by building a simple object model on J2EE and Struts"
 },
-"attic-chukwa": {
-"bug-database": "https://issues.apache.org/jira/browse/CHUKWA/",
-"category": "retired, hadoop",
-"description": "\n      Chukwa is an open source data collection system for monitoring \n      large distributed systems. Chukwa is built on top of \n      the Hadoop Distributed File System (HDFS) and Map/Reduce framework \n      and inherits Hadoop’s scalability and robustness. Chukwa also includes \n      a ﬂexible and powerful toolkit for displaying, monitoring and analyzing \n      results to make the best use of the collected data.\n    ",
-"doap": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/chukwa.rdf",
-"download-page": "http://www.apache.org/dyn/closer.cgi/chukwa/",
-"homepage": "http://chukwa.apache.org/",
-"implements": [
-{
-"body": "IETF",
-"id": "RFC 2616",
-"title": "Hypertext Transfer Protocol -- HTTP/1.1",
-"url": "http://www.ietf.org/rfc/rfc2616.txt"
-},
-{
-"body": "IETF",
-"id": "RFC 2617",
-"title": "HTTP Authentication: Basic and Digest Access Authentication",
-"url": "http://www.ietf.org/rfc/rfc2617.txt"
-}
-],
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://httpd.apache.org/lists.html",
-"name": "Apache Chukwa",
-"pmc": "attic",
-"programming-language": "Java, JavaScript",
-"release": [
-{
-"created": "2012-01-25",
-"name": "Recommended current 0.5 release",
-"revision": "0.5.0"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/chukwa/"
-],
-"shortdesc": "\n      Chukwa is an open source data collection system for monitoring \n      large distributed systems.\n    "
-},
 "attic-click": {
 "bug-database": "http://issues.apache.org/jira/browse/CLK",
 "category": "retired, library, network-server, network-client, xml, web-framework",
@@ -3474,6 +3436,44 @@
 "https://svn.apache.org/repos/asf/chemistry/"
 ],
 "shortdesc": "Apache Chemistry provides open source implementations of the Content Management Interoperability Services (CMIS) specification."
+},
+"chukwa": {
+"bug-database": "https://issues.apache.org/jira/browse/CHUKWA/",
+"category": "hadoop, retired",
+"description": "\n      Chukwa is an open source data collection system for monitoring \n      large distributed systems. Chukwa is built on top of \n      the Hadoop Distributed File System (HDFS) and Map/Reduce framework \n      and inherits Hadoop’s scalability and robustness. Chukwa also includes \n      a ﬂexible and powerful toolkit for displaying, monitoring and analyzing \n      results to make the best use of the collected data.\n    ",
+"doap": "http://svn.apache.org/repos/asf/chukwa/site/src/site/doap.rdf",
+"download-page": "http://www.apache.org/dyn/closer.cgi/chukwa/",
+"homepage": "http://chukwa.apache.org/",
+"implements": [
+{
+"body": "IETF",
+"id": "RFC 2616",
+"title": "Hypertext Transfer Protocol -- HTTP/1.1",
+"url": "http://www.ietf.org/rfc/rfc2616.txt"
+},
+{
+"body": "IETF",
+"id": "RFC 2617",
+"title": "HTTP Authentication: Basic and Digest Access Authentication",
+"url": "http://www.ietf.org/rfc/rfc2617.txt"
+}
+],
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://httpd.apache.org/lists.html",
+"name": "Apache Chukwa",
+"pmc": "attic",
+"programming-language": "Java, JavaScript",
+"release": [
+{
+"created": "2012-01-25",
+"name": "Recommended current 0.5 release",
+"revision": "0.5.0"
+}
+],
+"repository": [
+"http://svn.apache.org/repos/asf/chukwa/"
+],
+"shortdesc": "\n      Chukwa is an open source data collection system for monitoring \n      large distributed systems.\n    "
 },
 "clerezza": {
 "bug-database": "https://issues.apache.org/jira/browse/CLEREZZA",
@@ -13031,7 +13031,7 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2020-01-23",
+"created": "2020-02-23",
 "name": "Apache PDFBox",
 "revision": "2.0.19"
 },
