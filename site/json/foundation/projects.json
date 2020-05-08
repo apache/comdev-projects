@@ -3360,24 +3360,6 @@
 ],
 "shortdesc": "User-friendly Java ORM with tools"
 },
-"celix": {
-"bug-database": "https://issues.apache.org/jira/browse/CELIX",
-"category": "network-server",
-"created": "2010-11-17",
-"description": "\n      Apache Celix is an implementation of the OSGi specification adapted to C and C++ (C++11). It is a framework to develop (dynamic) modular software applications using component and/or service-oriented programming.\n    ",
-"doap": "https://gitbox.apache.org/repos/asf?p=celix.git;a=blob_plain;f=doap/doap_Celix.rdf;hb=refs/heads/develop",
-"download-page": "http://celix.apache.org/download.cgi",
-"homepage": "http://celix.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://celix.apache.org/support/mailing-list.html",
-"name": "Apache Celix",
-"pmc": "celix",
-"programming-language": "C, C++",
-"repository": [
-"https://gitbox.apache.org/repos/asf/celix.git"
-],
-"shortdesc": "OSGi framework implementation in C and C++."
-},
 "chemistry": {
 "bug-database": "https://issues.apache.org/jira/browse/CMIS",
 "category": "library",
@@ -3439,7 +3421,7 @@
 },
 "chukwa": {
 "bug-database": "https://issues.apache.org/jira/browse/CHUKWA/",
-"category": "hadoop, retired",
+"category": "hadoop",
 "description": "\n      Chukwa is an open source data collection system for monitoring \n      large distributed systems. Chukwa is built on top of \n      the Hadoop Distributed File System (HDFS) and Map/Reduce framework \n      and inherits Hadoop’s scalability and robustness. Chukwa also includes \n      a ﬂexible and powerful toolkit for displaying, monitoring and analyzing \n      results to make the best use of the collected data.\n    ",
 "doap": "http://svn.apache.org/repos/asf/chukwa/site/src/site/doap.rdf",
 "download-page": "http://www.apache.org/dyn/closer.cgi/chukwa/",
@@ -3461,7 +3443,7 @@
 "license": "http://usefulinc.com/doap/licenses/asl20",
 "mailing-list": "http://httpd.apache.org/lists.html",
 "name": "Apache Chukwa",
-"pmc": "attic",
+"pmc": "chukwa",
 "programming-language": "Java, JavaScript",
 "release": [
 {
@@ -11373,37 +11355,6 @@
 "http://svn.apache.org/repos/asf/mahout/trunk"
 ],
 "shortdesc": "Scalable machine learning library"
-},
-"manifoldcf": {
-"bug-database": "https://issues.apache.org/jira/browse/CONNECTORS",
-"category": "content",
-"created": "2012-05-17",
-"description": "ManifoldCF is an effort to provide an open source framework for connecting source content repositories like Microsoft Sharepoint and EMC Documentum, to target repositories or indexes, such as Apache Solr , OpenSearchServer or ElasticSearch. ManifoldCF also defines a security model for target repositories that permits them to enforce source-repository security policies.",
-"doap": "http://manifoldcf.apache.org/doap_ManifoldCF.rdf",
-"download-page": "http://manifoldcf.apache.org/en_US/download.html",
-"homepage": "http://manifoldcf.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://manifoldcf.apache.org/en_US/mail.html",
-"maintainer": [
-{
-"mbox": "mailto:kwright@apache.org",
-"name": "Karl Wright"
-}
-],
-"name": "Apache ManifoldCF",
-"pmc": "manifoldcf",
-"programming-language": "Java",
-"release": [
-{
-"created": "2012-05-21",
-"name": "apache-manifoldcf",
-"revision": "0.5.1"
-}
-],
-"repository": [
-"https://svn.apache.org/repos/asf/manifoldcf"
-],
-"shortdesc": "Open-source software for transferring content between repositories or search indexes"
 },
 "marmotta": {
 "bug-database": "http://issues.apache.org/jira/browse/MARMOTTA",
