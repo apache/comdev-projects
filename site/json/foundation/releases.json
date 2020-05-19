@@ -149,7 +149,8 @@
 "arrow": {
 "apache-arrow-0.15.1": "2019-11-01",
 "apache-arrow-0.16.0": "2020-04-21",
-"apache-arrow-0.17.0": "2020-04-20"
+"apache-arrow-0.17.0": "2020-04-20",
+"apache-arrow-0.17.1": "2020-05-18"
 },
 "asterixdb": {
 "apache-asterixdb-0.9.1": "2017-04-22",
@@ -663,7 +664,7 @@
 },
 "dubbo": {
 "apache-dubbo-2.6.8": "2020-03-10",
-"apache-dubbo-2.7.6": "2020-03-30"
+"apache-dubbo-2.7.7": "2020-05-18"
 },
 "eagle": {
 "apache-eagle-0.3.0-incubating": "2016-04-11",
@@ -947,6 +948,7 @@
 "helix-0.9.0.1": "2019-08-02",
 "helix-0.9.1": "2019-08-13",
 "helix-0.9.4": "2020-01-22",
+"helix-0.9.7": "2020-05-11",
 "helix-1.0.0": "2020-05-05"
 },
 "hive": {
@@ -2174,8 +2176,8 @@
 "apache-kudu-1.9.0": "2019-03-12"
 },
 "kylin": {
-"apache-kylin-2.6.5": "2020-02-19",
-"apache-kylin-3.0.1": "2020-02-19"
+"apache-kylin-2.6.6": "2020-05-18",
+"apache-kylin-3.0.2": "2020-05-18"
 },
 "lens": {
 "apache-lens-2.7.1": "2018-02-04"
@@ -2204,9 +2206,11 @@
 "log4net-2.0.8": "2017-03-11"
 },
 "lucene": {
+"lucene-7.7.3": "2020-04-21",
 "lucene-8.5.1": "2020-04-08",
 "pylucene-7.7.1": "2019-06-03",
 "pylucene-8.3.0": "2020-04-29",
+"solr-7.7.3": "2020-04-21",
 "solr-8.5.1": "2020-04-08"
 },
 "lucenenet": {
@@ -3819,6 +3823,7 @@
 "org.apache.sling.junit.scriptable-1.0.12": "2017-05-12",
 "org.apache.sling.junit.teleporter-1.0.20": "2020-03-23",
 "org.apache.sling.karaf-repoinit-0.2.0": "2017-03-20",
+"org.apache.sling.kickstart-0.0.2": "2020-05-18",
 "org.apache.sling.launchpad.api-1.2.0": "2015-06-29",
 "org.apache.sling.launchpad.base-6.0.2-2.6.36": "2019-04-02",
 "org.apache.sling.launchpad.content-2.0.12": "2017-05-29",
@@ -3926,18 +3931,19 @@
 "org.apache.sling.xss.compat-1.1.0": "2017-05-11",
 "scriptingbundle-maven-plugin-0.1.0": "2019-09-01",
 "sling-6": "2013-01-21",
-"sling-archetype-1.0.2": "2019-05-10",
+"sling-archetype-1.0.4": "2020-05-18",
 "sling-archetype-6": "2020-05-12",
 "sling-bundle-archetype-1.0.6": "2018-02-03",
 "sling-feature-converter-maven-plugin-1.0.4": "2020-01-16",
 "sling-initial-content-archetype-1.0.6": "2018-02-03",
 "sling-jcrinstall-bundle-archetype-1.0.6": "2018-02-03",
+"sling-kickstart-maven-plugin-0.0.2": "2020-05-18",
 "sling-launchpad-archetype-1.0.0": "2013-01-21",
 "sling-maven-plugin-2.4.2": "2019-06-06",
 "sling-maven-plugin.parent-2.4.2": "2019-06-06",
 "sling-servlet-archetype-1.0.4": "2015-10-19",
 "sling-slingstart-archetype-1.0.8": "2018-10-23",
-"slingfeature-maven-plugin-1.3.0": "2020-05-11",
+"slingfeature-maven-plugin-1.3.2": "2020-05-18",
 "slingstart-maven-plugin-1.9.12": "2020-05-03"
 },
 "spamassassin": {
@@ -4121,7 +4127,6 @@
 "tomcat": {
 "apache-tomcat-10.0.0-M4": "2020-04-03",
 "apache-tomcat-10.0.0-M5": "2020-05-05",
-"apache-tomcat-7.0.103": "2020-03-16",
 "apache-tomcat-7.0.104": "2020-05-07",
 "apache-tomcat-8.5.54": "2020-04-03",
 "apache-tomcat-8.5.55": "2020-05-05",
@@ -4274,9 +4279,9 @@
 "trafficserver-8.0.7": "2020-04-16"
 },
 "trafodion": {
-"apache-trafodion-2.3.0": "2019-02-27",
-"apache-trafodion_pyinstaller-2.3.0": "2019-02-27",
-"traf_ambari-2.3.0-1.noarch": "2019-02-27"
+"apache-trafodion-2.4.0": "2020-05-18",
+"apache-trafodion_pyinstaller-2.4.0": "2020-05-18",
+"traf_ambari-2.4.0-1.noarch": "2020-05-18"
 },
 "turbine": {
 "fulcrum-cache-1.1.0": "2014-03-30",

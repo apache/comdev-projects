@@ -448,6 +448,9 @@
 ],
 "apache-arrow-0.17.0": [
 "arrow/arrow-0.17.0/apache-arrow-0.17.0.tar.gz"
+],
+"apache-arrow-0.17.1": [
+"arrow/arrow-0.17.1/apache-arrow-0.17.1.tar.gz"
 ]
 },
 "asterixdb": {
@@ -2071,8 +2074,8 @@
 "apache-dubbo-2.6.8": [
 "dubbo/2.6.8/apache-dubbo-2.6.8-source-release.zip"
 ],
-"apache-dubbo-2.7.6": [
-"dubbo/2.7.6/apache-dubbo-2.7.6-src.zip"
+"apache-dubbo-2.7.7": [
+"dubbo/2.7.7/apache-dubbo-2.7.7-src.zip"
 ]
 },
 "eagle": {
@@ -2999,6 +3002,9 @@
 ],
 "helix-0.9.4": [
 "helix/0.9.4/src/helix-0.9.4-src.zip"
+],
+"helix-0.9.7": [
+"helix/0.9.7/src/helix-0.9.7-src.zip"
 ],
 "helix-1.0.0": [
 "helix/1.0.0/src/helix-1.0.0-src.zip"
@@ -6537,11 +6543,11 @@
 ]
 },
 "kylin": {
-"apache-kylin-2.6.5": [
-"kylin/apache-kylin-2.6.5/apache-kylin-2.6.5-source-release.zip"
+"apache-kylin-2.6.6": [
+"kylin/apache-kylin-2.6.6/apache-kylin-2.6.6-source-release.zip"
 ],
-"apache-kylin-3.0.1": [
-"kylin/apache-kylin-3.0.1/apache-kylin-3.0.1-source-release.zip"
+"apache-kylin-3.0.2": [
+"kylin/apache-kylin-3.0.2/apache-kylin-3.0.2-source-release.zip"
 ]
 },
 "lens": {
@@ -6640,6 +6646,11 @@
 ]
 },
 "lucene": {
+"lucene-7.7.3": [
+"lucene/java/7.7.3/lucene-7.7.3-src.tgz",
+"lucene/java/7.7.3/lucene-7.7.3.tgz",
+"lucene/java/7.7.3/lucene-7.7.3.zip"
+],
 "lucene-8.5.1": [
 "lucene/java/8.5.1/lucene-8.5.1-src.tgz",
 "lucene/java/8.5.1/lucene-8.5.1.tgz",
@@ -6650,6 +6661,11 @@
 ],
 "pylucene-8.3.0": [
 "lucene/pylucene/pylucene-8.3.0-src.tar.gz"
+],
+"solr-7.7.3": [
+"lucene/solr/7.7.3/solr-7.7.3-src.tgz",
+"lucene/solr/7.7.3/solr-7.7.3.tgz",
+"lucene/solr/7.7.3/solr-7.7.3.zip"
 ],
 "solr-8.5.1": [
 "lucene/solr/8.5.1/solr-8.5.1-src.tgz",
@@ -11434,6 +11450,9 @@
 "org.apache.sling.karaf-repoinit-0.2.0": [
 "sling/org.apache.sling.karaf-repoinit-0.2.0-source-release.zip"
 ],
+"org.apache.sling.kickstart-0.0.2": [
+"sling/org.apache.sling.kickstart-0.0.2-source-release.zip"
+],
 "org.apache.sling.launchpad.api-1.2.0": [
 "sling/org.apache.sling.launchpad.api-1.2.0-source-release.zip"
 ],
@@ -11760,8 +11779,8 @@
 "sling/sling-6-source-release.tar.gz",
 "sling/sling-6-source-release.zip"
 ],
-"sling-archetype-1.0.2": [
-"sling/sling-project-archetype-1.0.2-source-release.zip"
+"sling-archetype-1.0.4": [
+"sling/sling-project-archetype-1.0.4-source-release.zip"
 ],
 "sling-archetype-6": [
 "sling/sling-archetype-parent-6-source-release.zip"
@@ -11777,6 +11796,9 @@
 ],
 "sling-jcrinstall-bundle-archetype-1.0.6": [
 "sling/sling-jcrinstall-bundle-archetype-1.0.6-source-release.zip"
+],
+"sling-kickstart-maven-plugin-0.0.2": [
+"sling/sling-kickstart-maven-plugin-0.0.2-source-release.zip"
 ],
 "sling-launchpad-archetype-1.0.0": [
 "sling/sling-launchpad-standalone-archetype-1.0.0-source-release.zip",
@@ -11794,8 +11816,8 @@
 "sling-slingstart-archetype-1.0.8": [
 "sling/sling-slingstart-archetype-1.0.8-source-release.zip"
 ],
-"slingfeature-maven-plugin-1.3.0": [
-"sling/slingfeature-maven-plugin-1.3.0-source-release.zip"
+"slingfeature-maven-plugin-1.3.2": [
+"sling/slingfeature-maven-plugin-1.3.2-source-release.zip"
 ],
 "slingstart-maven-plugin-1.9.12": [
 "sling/slingstart-maven-plugin-1.9.12-source-release.zip"
@@ -12368,19 +12390,6 @@
 "tomcat/tomcat-10/v10.0.0-M5/bin/apache-tomcat-10.0.0-M5.zip",
 "tomcat/tomcat-10/v10.0.0-M5/src/apache-tomcat-10.0.0-M5-src.tar.gz",
 "tomcat/tomcat-10/v10.0.0-M5/src/apache-tomcat-10.0.0-M5-src.zip"
-],
-"apache-tomcat-7.0.103": [
-"tomcat/tomcat-7/v7.0.103/bin/embed/apache-tomcat-7.0.103-embed.tar.gz",
-"tomcat/tomcat-7/v7.0.103/bin/embed/apache-tomcat-7.0.103-embed.zip",
-"tomcat/tomcat-7/v7.0.103/bin/apache-tomcat-7.0.103-deployer.tar.gz",
-"tomcat/tomcat-7/v7.0.103/bin/apache-tomcat-7.0.103-deployer.zip",
-"tomcat/tomcat-7/v7.0.103/bin/apache-tomcat-7.0.103-fulldocs.tar.gz",
-"tomcat/tomcat-7/v7.0.103/bin/apache-tomcat-7.0.103-windows-x64.zip",
-"tomcat/tomcat-7/v7.0.103/bin/apache-tomcat-7.0.103.exe",
-"tomcat/tomcat-7/v7.0.103/bin/apache-tomcat-7.0.103.tar.gz",
-"tomcat/tomcat-7/v7.0.103/bin/apache-tomcat-7.0.103.zip",
-"tomcat/tomcat-7/v7.0.103/src/apache-tomcat-7.0.103-src.tar.gz",
-"tomcat/tomcat-7/v7.0.103/src/apache-tomcat-7.0.103-src.zip"
 ],
 "apache-tomcat-7.0.104": [
 "tomcat/tomcat-7/v7.0.104/bin/embed/apache-tomcat-7.0.104-embed.tar.gz",
@@ -12956,14 +12965,14 @@
 ]
 },
 "trafodion": {
-"apache-trafodion-2.3.0": [
-"trafodion/apache-trafodion-2.3.0/src/apache-trafodion-2.3.0-src.tar.gz"
+"apache-trafodion-2.4.0": [
+"trafodion/apache-trafodion-2.4.0/src/apache-trafodion-2.4.0-src.tar.gz"
 ],
-"apache-trafodion_pyinstaller-2.3.0": [
-"trafodion/apache-trafodion-2.3.0/bin/apache-trafodion_pyinstaller-2.3.0.tar.gz"
+"apache-trafodion_pyinstaller-2.4.0": [
+"trafodion/apache-trafodion-2.4.0/bin/apache-trafodion_pyinstaller-2.4.0.tar.gz"
 ],
-"traf_ambari-2.3.0-1.noarch": [
-"trafodion/apache-trafodion-2.3.0/bin/traf_ambari-2.3.0-1.noarch.rpm"
+"traf_ambari-2.4.0-1.noarch": [
+"trafodion/apache-trafodion-2.4.0/bin/traf_ambari-2.4.0-1.noarch.rpm"
 ]
 },
 "turbine": {
