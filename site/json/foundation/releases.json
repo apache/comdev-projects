@@ -57,12 +57,6 @@
 "apache-any23-html-scraper-2.3": "2019-02-26",
 "apache-any23-office-scraper-2.3": "2019-02-26"
 },
-"apex": {
-"apache-apex-core-3.6.0": "2017-05-01",
-"apache-apex-core-3.7.0": "2018-04-14",
-"apache-apex-malhar-3.7.0": "2017-03-28",
-"apache-apex-malhar-3.8.0": "2017-11-04"
-},
 "apr": {
 "apr-1.6.5": "2018-09-14",
 "apr-1.7.0": "2019-04-04",
@@ -545,7 +539,7 @@
 "cordova-blackberry10-3.8.0": "2015-09-05",
 "cordova-browser-6.0.0": "2019-02-04",
 "cordova-coho-1.0.1": "2018-06-20",
-"cordova-common-4.0.0": "2020-03-30",
+"cordova-common-4.0.1": "2020-05-19",
 "cordova-create-2.0.0": "2019-01-10",
 "cordova-electron-1.1.1": "2019-08-27",
 "cordova-eslint-config-3.0.0": "2020-03-26",
@@ -582,7 +576,7 @@
 "cordova-windows-7.0.1": "2020-01-06",
 "cordova-wp8-3.8.2": "2015-12-02",
 "plugman-3.0.1": "2019-04-15",
-"xcode-3.0.0": "2020-04-13"
+"xcode-3.0.1": "2020-05-19"
 },
 "couchdb": {
 "apache-couchdb-2.3.1": "2019-03-09",
@@ -673,9 +667,6 @@
 },
 "empire-db": {
 "apache-empire-db-2.5.0": "2020-05-12"
-},
-"falcon": {
-"apache-falcon-0.11": "2018-03-12"
 },
 "felix": {
 "apache-felix-karaf-1.6.0": "2012-12-28",
@@ -2098,7 +2089,7 @@
 "jclouds-labs-openstack-2.2.1": "2020-05-13"
 },
 "jena": {
-"jena-3.14.0": "2020-01-16"
+"jena-3.15.0": "2020-05-15"
 },
 "jmeter": {
 "apache-jmeter-5.2": "2019-11-07",
@@ -2172,8 +2163,7 @@
 "kudu": {
 "apache-kudu-1.10.1": "2019-11-20",
 "apache-kudu-1.11.1": "2019-11-20",
-"apache-kudu-1.12.0": "2020-05-11",
-"apache-kudu-1.9.0": "2019-03-12"
+"apache-kudu-1.12.0": "2020-05-11"
 },
 "kylin": {
 "apache-kylin-2.6.6": "2020-05-18",
@@ -2349,6 +2339,7 @@
 "mesos-1.6.1": "2018-07-25",
 "mesos-1.6.2": "2019-02-26",
 "mesos-1.7.2": "2019-02-23",
+"mesos-1.7.3": "2020-05-19",
 "mesos-1.8.0": "2019-05-02",
 "mesos-1.8.1": "2019-07-18",
 "mesos-1.9.0": "2019-09-05"
@@ -3447,57 +3438,82 @@
 "apache-pulsar": "2020-01-06",
 "apache-pulsar-2.5.0": "2020-01-06",
 "apache-pulsar-2.5.1": "2020-04-15",
+"apache-pulsar-2.5.2": "2020-05-13",
 "apache-pulsar-client-dev": "2020-01-06",
 "apache-pulsar-client-go-0.1.0": "2020-03-30",
 "apache-pulsar-manager-0.1.0": "2019-11-26",
 "pulsar-io-aerospike-2.5.0.nar": "2020-01-06",
 "pulsar-io-aerospike-2.5.1.nar": "2020-04-15",
+"pulsar-io-aerospike-2.5.2.nar": "2020-05-13",
 "pulsar-io-canal-2.5.0.nar": "2020-01-06",
 "pulsar-io-canal-2.5.1.nar": "2020-04-15",
+"pulsar-io-canal-2.5.2.nar": "2020-05-13",
 "pulsar-io-cassandra-2.5.0.nar": "2020-01-06",
 "pulsar-io-cassandra-2.5.1.nar": "2020-04-15",
+"pulsar-io-cassandra-2.5.2.nar": "2020-05-13",
 "pulsar-io-data-generator-2.5.0.nar": "2020-01-06",
 "pulsar-io-data-generator-2.5.1.nar": "2020-04-15",
+"pulsar-io-data-generator-2.5.2.nar": "2020-05-13",
 "pulsar-io-debezium-mongodb-2.5.0.nar": "2020-01-06",
 "pulsar-io-debezium-mongodb-2.5.1.nar": "2020-04-15",
+"pulsar-io-debezium-mongodb-2.5.2.nar": "2020-05-13",
 "pulsar-io-debezium-mysql-2.5.0.nar": "2020-01-06",
 "pulsar-io-debezium-mysql-2.5.1.nar": "2020-04-15",
+"pulsar-io-debezium-mysql-2.5.2.nar": "2020-05-13",
 "pulsar-io-debezium-postgres-2.5.0.nar": "2020-01-06",
 "pulsar-io-debezium-postgres-2.5.1.nar": "2020-04-15",
+"pulsar-io-debezium-postgres-2.5.2.nar": "2020-05-13",
 "pulsar-io-elastic-search-2.5.0.nar": "2020-01-06",
 "pulsar-io-elastic-search-2.5.1.nar": "2020-04-15",
+"pulsar-io-elastic-search-2.5.2.nar": "2020-05-13",
 "pulsar-io-file-2.5.0.nar": "2020-01-06",
 "pulsar-io-file-2.5.1.nar": "2020-04-15",
+"pulsar-io-file-2.5.2.nar": "2020-05-13",
 "pulsar-io-flume-2.5.0.nar": "2020-01-06",
 "pulsar-io-flume-2.5.1.nar": "2020-04-15",
+"pulsar-io-flume-2.5.2.nar": "2020-05-13",
 "pulsar-io-hbase-2.5.0.nar": "2020-01-06",
 "pulsar-io-hbase-2.5.1.nar": "2020-04-15",
+"pulsar-io-hbase-2.5.2.nar": "2020-05-13",
 "pulsar-io-hdfs2-2.5.0.nar": "2020-01-06",
 "pulsar-io-hdfs2-2.5.1.nar": "2020-04-15",
+"pulsar-io-hdfs2-2.5.2.nar": "2020-05-13",
 "pulsar-io-hdfs3-2.5.0.nar": "2020-01-06",
 "pulsar-io-hdfs3-2.5.1.nar": "2020-04-15",
+"pulsar-io-hdfs3-2.5.2.nar": "2020-05-13",
 "pulsar-io-influxdb-2.5.0.nar": "2020-01-06",
 "pulsar-io-influxdb-2.5.1.nar": "2020-04-15",
+"pulsar-io-influxdb-2.5.2.nar": "2020-05-13",
 "pulsar-io-jdbc-2.5.0.nar": "2020-01-06",
 "pulsar-io-jdbc-2.5.1.nar": "2020-04-15",
+"pulsar-io-jdbc-2.5.2.nar": "2020-05-13",
 "pulsar-io-kafka-2.5.0.nar": "2020-01-06",
 "pulsar-io-kafka-2.5.1.nar": "2020-04-15",
+"pulsar-io-kafka-2.5.2.nar": "2020-05-13",
 "pulsar-io-kafka-connect-adaptor-2.5.0.nar": "2020-01-06",
 "pulsar-io-kafka-connect-adaptor-2.5.1.nar": "2020-04-15",
+"pulsar-io-kafka-connect-adaptor-2.5.2.nar": "2020-05-13",
 "pulsar-io-kinesis-2.5.0.nar": "2020-01-06",
 "pulsar-io-kinesis-2.5.1.nar": "2020-04-15",
+"pulsar-io-kinesis-2.5.2.nar": "2020-05-13",
 "pulsar-io-mongo-2.5.0.nar": "2020-01-06",
 "pulsar-io-mongo-2.5.1.nar": "2020-04-15",
+"pulsar-io-mongo-2.5.2.nar": "2020-05-13",
 "pulsar-io-netty-2.5.0.nar": "2020-01-06",
 "pulsar-io-netty-2.5.1.nar": "2020-04-15",
+"pulsar-io-netty-2.5.2.nar": "2020-05-13",
 "pulsar-io-rabbitmq-2.5.0.nar": "2020-01-06",
 "pulsar-io-rabbitmq-2.5.1.nar": "2020-04-15",
+"pulsar-io-rabbitmq-2.5.2.nar": "2020-05-13",
 "pulsar-io-redis-2.5.0.nar": "2020-01-06",
 "pulsar-io-redis-2.5.1.nar": "2020-04-15",
+"pulsar-io-redis-2.5.2.nar": "2020-05-13",
 "pulsar-io-solr-2.5.0.nar": "2020-01-06",
 "pulsar-io-solr-2.5.1.nar": "2020-04-15",
+"pulsar-io-solr-2.5.2.nar": "2020-05-13",
 "pulsar-io-twitter-2.5.0.nar": "2020-01-06",
-"pulsar-io-twitter-2.5.1.nar": "2020-04-15"
+"pulsar-io-twitter-2.5.1.nar": "2020-04-15",
+"pulsar-io-twitter-2.5.2.nar": "2020-05-13"
 },
 "qpid": {
 "apache-qpid-broker-j-7.0.9": "2020-04-03",
