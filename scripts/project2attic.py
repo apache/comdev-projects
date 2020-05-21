@@ -35,6 +35,7 @@ datadir = join(dirname(MYHOME),'data')
 def update_doap(doap, source):
     infile = doap
     tmpfile = doap + '.t'
+    catWrite = True
     with open(infile,'r') as r, open(tmpfile,'w') as w:
         for l in r:
             if re.search("<rdf:RDF",l):
@@ -42,8 +43,9 @@ def update_doap(doap, source):
             if re.search("<asfext:pmc rdf:resource=", l):
                 w.write(re.sub("=['\"].+?['\"]",'="http://attic.apache.org/"',l))
                 continue # don't write original line
-            if re.search("<category",l):
-                w.write('<category rdf:resource="http://projects.apache.org/category/retired" />\n')
+            if catWrite and re.search("<category",l):
+                catWrite = False
+                w.write('    <category rdf:resource="http://projects.apache.org/category/retired" />\n')
             w.write(l) # write the original line
             
     os.system("diff %s*" % (infile))
