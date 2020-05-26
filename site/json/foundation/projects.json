@@ -1,35 +1,4 @@
 {
-"Unknown-hudi": {
-"bug-database": "https://issues.apache.org/jira/browse/HUDI",
-"category": "library",
-"created": "2019-12-31",
-"description": "Hudi (pronounced “Hoodie”) brings stream processing to big data, providing upserts, deletes and incremental data streams.",
-"doap": "https://gitbox.apache.org/repos/asf?p=hudi.git;a=blob_plain;f=doap_HUDI.rdf;hb=HEAD",
-"download-page": "https://hudi.apache.org/community.html",
-"homepage": "https://hudi.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "https://hudi.apache.org/community.html",
-"maintainer": [
-{
-"mbox": "mailto:dev@hudi.apache.org",
-"name": "Apache Hudi PMC"
-}
-],
-"name": "Apache Hudi",
-"pmc": "Unknown",
-"programming-language": "Java, Scala",
-"release": [
-{
-"created": "2020-03-26",
-"name": "Apache Hudi-incubating 0.5.2",
-"revision": "0.5.2"
-}
-],
-"repository": [
-"https://github.com/apache/hudi.git"
-],
-"shortdesc": "Ingests and Manages storage of large analytical datasets"
-},
 "accumulo": {
 "bug-database": "https://github.com/apache/accumulo/issues",
 "category": "big-data",
@@ -7613,6 +7582,37 @@
 ],
 "shortdesc": "\n      mod_ftp is an FTP protocol module hosted within Apache HTTP Server.\n    "
 },
+"hudi": {
+"bug-database": "https://issues.apache.org/jira/browse/HUDI",
+"category": "library",
+"created": "2019-12-31",
+"description": "Hudi (pronounced “Hoodie”) brings stream processing to big data, providing upserts, deletes and incremental data streams.",
+"doap": "https://gitbox.apache.org/repos/asf?p=hudi.git;a=blob_plain;f=doap_HUDI.rdf;hb=HEAD",
+"download-page": "https://hudi.apache.org/community.html",
+"homepage": "https://hudi.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "https://hudi.apache.org/community.html",
+"maintainer": [
+{
+"mbox": "mailto:dev@hudi.apache.org",
+"name": "Apache Hudi PMC"
+}
+],
+"name": "Apache Hudi",
+"pmc": "hudi",
+"programming-language": "Java, Scala",
+"release": [
+{
+"created": "2020-03-26",
+"name": "Apache Hudi-incubating 0.5.2",
+"revision": "0.5.2"
+}
+],
+"repository": [
+"https://github.com/apache/hudi.git"
+],
+"shortdesc": "Ingests and Manages storage of large analytical datasets"
+},
 "ignite": {
 "bug-database": "https://issues.apache.org/jira/browse/IGNITE",
 "category": "big-data, sql, cloud, database, distributed-sql-database, data-management-platform, hadoop, network-server, network-client, osgi, IoT",
@@ -13483,23 +13483,28 @@
 "programming-language": "Java, C++, Python",
 "release": [
 {
+"created": "2020-05-25",
+"name": "Latest 0.7.0 release (Generated Drivers)",
+"revision": "0.7.0"
+},
+{
 "created": "2020-03-01",
-"name": "Latest 0.6.0 release",
+"name": "Latest 0.6.0 release (Manual Drivers LTS)",
 "revision": "0.6.0"
 },
 {
 "created": "2019-11-25",
-"name": "Latest 0.5.0 release",
+"name": "Legacy 0.5.0 release",
 "revision": "0.5.0"
 },
 {
 "created": "2019-05-27",
-"name": "Latest 0.4.0 release",
+"name": "Legacy 0.4.0 release",
 "revision": "0.4.0"
 },
 {
 "created": "2019-03-13",
-"name": "Latest 0.3.1 release",
+"name": "Legacy 0.3.1 release",
 "revision": "0.3.1"
 },
 {
