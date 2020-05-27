@@ -6544,7 +6544,7 @@
 "bug-database": "https://issues.apache.org/jira/browse/FC",
 "category": "identity-management, Library, security, SDK",
 "created": "2015-10-24",
-"description": "Apache Fortress is a standards-based access management system, written in Java, that provides role-based access control, delegated administration and password policy services with LDAP.",
+"description": "Apache Fortress is a standards-based authorization system, written in Java, that provides role-based access control, delegated administration and password policy services using an LDAP backen.",
 "doap": "http://svn.apache.org/repos/asf/directory/site/trunk/content/doap_fortress.rdf",
 "download-page": "https://directory.apache.org/fortress/downloads.html",
 "homepage": "https://directory.apache.org/fortress/",
@@ -6559,7 +6559,7 @@
 "https://gitbox.apache.org/repos/asf/directory-enmasse-core.git",
 "https://gitbox.apache.org/repos/asf/directory-fortress-realm.git"
 ],
-"shortdesc": "Identity Access Management SDK"
+"shortdesc": "Authorization SDK"
 },
 "directory-kerby": {
 "bug-database": "https://issues.apache.org/jira/browse/DIRKRB",
@@ -10195,6 +10195,11 @@
 "programming-language": "Java",
 "release": [
 {
+"created": "2020-05-26",
+"name": "lucene-8.5.2",
+"revision": "8.5.2"
+},
+{
 "created": "2020-04-16",
 "name": "lucene-8.5.1",
 "revision": "8.5.1"
@@ -10876,6 +10881,11 @@
 "pmc": "lucene",
 "programming-language": "Java",
 "release": [
+{
+"created": "2020-05-26",
+"name": "solr-8.5.2",
+"revision": "8.5.2"
+},
 {
 "created": "2020-04-16",
 "name": "solr-8.5.1",
