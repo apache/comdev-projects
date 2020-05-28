@@ -20,8 +20,6 @@
 "activemq-artemis-native-1.0.1": "2019-10-29",
 "activemq-cli-tools-0.1.0": "2017-05-12",
 "activemq-cpp-library-3.9.5": "2019-01-25",
-"apache-artemis-2.11.0": "2020-01-10",
-"apache-artemis-2.12.0": "2020-04-21",
 "apache-artemis-2.13.0": "2020-05-18"
 },
 "airavata": {
@@ -196,6 +194,7 @@
 "beam": {
 "apache-beam-0fce2b88660f52dae638697e1472aa108c982ae6": "2019-07-16",
 "apache-beam-2.20.0": "2020-04-15",
+"apache-beam-2.21.0": "2020-05-27",
 "apache-beam-28d05d317a39b5d60a31988c69d1fb8a9c5006fc": "2020-03-09",
 "apache-beam-63492776f154464f67533a6059f162e6b8cf7315": "2020-03-01",
 "apache-beam-664e25019fc1977e7041e4b834e8d9628b912473": "2019-09-04",
@@ -499,6 +498,7 @@
 "commons-imaging-1.0-alpha1": "2019-05-02",
 "commons-io-2.5": "2016-04-22",
 "commons-io-2.6": "2017-10-20",
+"commons-io-2.7": "2020-05-27",
 "commons-jci-1.1": "2013-10-14",
 "commons-jcs-dist-2.2.1": "2018-09-07",
 "commons-jelly-1.0": "2013-03-03",
@@ -984,7 +984,7 @@
 "hudi-0.5.2-incubating": "2020-03-25"
 },
 "ignite": {
-"apache-ignite-2.8.0": "2020-02-27"
+"apache-ignite-2.8.1": "2020-05-22"
 },
 "impala": {
 "apache-impala-3.3.0": "2019-08-22",
@@ -2047,7 +2047,7 @@
 "jackrabbit-oak-1.10.8": "2020-01-24",
 "jackrabbit-oak-1.2.31": "2019-03-11",
 "jackrabbit-oak-1.22.3": "2020-04-15",
-"jackrabbit-oak-1.26.0": "2020-03-20",
+"jackrabbit-oak-1.30.0": "2020-05-22",
 "jackrabbit-oak-1.4.26": "2020-02-17",
 "jackrabbit-oak-1.6.20": "2020-01-31",
 "jackrabbit-oak-1.8.22": "2020-05-19",
@@ -2202,12 +2202,10 @@
 },
 "lucene": {
 "lucene-7.7.3": "2020-04-21",
-"lucene-8.5.1": "2020-04-08",
 "lucene-8.5.2": "2020-05-20",
 "pylucene-7.7.1": "2019-06-03",
 "pylucene-8.3.0": "2020-04-29",
 "solr-7.7.3": "2020-04-21",
-"solr-8.5.1": "2020-04-08",
 "solr-8.5.2": "2020-05-20"
 },
 "lucenenet": {
@@ -4051,6 +4049,7 @@
 "subversion": {
 "subversion-1.10.6": "2019-07-23",
 "subversion-1.13.0": "2019-10-29",
+"subversion-1.14.0": "2020-05-27",
 "subversion-1.14.0-rc2": "2020-04-20",
 "subversion-1.9.12": "2019-07-23"
 },
