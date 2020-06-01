@@ -9,6 +9,7 @@ Writes:
 ../../site/json/foundation/projects.json
 ../../site/json/projects/%s.json
 parseprojects-failures.xml (if failures occurred)
+../../failures/%s.rdf (if failures occurred)
 
 Deletes any obsolete files from:
 ../../site/json/projects/%s.json
@@ -35,6 +36,8 @@ PROJECTS_DIR = '../../site/json/projects'
 
 projectsList = "../../data/projects.xml"
 PROJECTS_SVN = 'https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects.xml'
+
+FAILURES_DIR = '../../failures'
 
 save = True
 if os.path.exists("parseprojects-failures.xml"):
@@ -274,6 +277,7 @@ for s in itemlist :
             rem = re.search(r';f=([^;]+);.*',urlname) # better name for Git files
             if rem:
                 urlname = rem.group(1)
+            urlname = join(FAILURES_DIR, urlname)
             print("Saving invalid data in %s " % urlname)
             with open (urlname, "wb") as f:
                 f.write(rdf)
