@@ -40,10 +40,10 @@ homepages = {
 }
 
 # Print to log and send an email (intended for WARN messages)
-def printMail(msg):
+def printMail(msg,body=''):
     print(msg)
     try:
-        sendmail.sendMail(msg)
+        sendmail.sendMail(msg,body)
     except ConnectionRefusedError:
         print("*** Failed to send the email")
 
@@ -175,7 +175,7 @@ for group in sorted(committees, key=keyorder):
             else:
                 committeeId = group
 
-            img = "http://www.apache.org/img/%s.jpg" % committeeId
+            img = "http://www.apache.org/logos/res/%s/default.png" % committeeId
             if not head(img):
                 print("WARN: could not find logo: %s" % (img))
                 
