@@ -19,15 +19,12 @@ if sys.hexversion < 0x03000000:
 import io
 import os
 import os.path
-import urllib.request
 import xml.etree.ElementTree as ET
 import xml.dom.minidom as minidom
 import datetime
 import sendmail
 
-# urllib is currently broken and will fail on cert verify. Revert once box has been upgraded.
-import ssl
-ssl._create_default_https_context = ssl._create_unverified_context
+from urlutils import URLget, URLexists
 
 sys.path.append("..") # module committee_info is in parent directory
 import committee_info
@@ -75,15 +72,6 @@ def handleChild(el):
             retval[k] = v
     return tag, retval
 
-# Simple-minded check of URL
-def head(url):
-    req = urllib.request.Request(url, method="HEAD")
-    try:
-        resp = urllib.request.urlopen(req)
-        return True
-    except:
-        return False
-
 pmcs = {}
 pmcDataUrls = {} # id -> url
 
@@ -100,7 +88,7 @@ for loc in xmldoc.getElementsByTagName('location') :
     url = loc.childNodes[0].data
     try:
         if url.startswith('http'):
-            rdf = urllib.request.urlopen(url).read()
+            rdf = URLget(url).read()
         else:
             with open("../../data/%s" % url, 'r', encoding='utf-8') as f:
                 rdf = f.read()
@@ -182,7 +170,7 @@ for group in sorted(committees, key=keyorder):
                 committeeId = group
 
             img = "http://www.apache.org/logos/res/%s/default.png" % committeeId
-            if not skipImageTest and not head(img):
+            if not skipImageTest and not URLexists(img):
                 print("WARN: could not find logo: %s" % (img))
                 
             committeeCount += 1

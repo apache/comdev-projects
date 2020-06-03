@@ -55,14 +55,18 @@ def mod_date(t):
         return None
     return time.strftime(_HTTP_TIME_FORMAT, time.gmtime(t))
 
-def getIfNewer(url, sinceTime, encoding=None, errors=None, silent=False, debug=False):
+def getIfNewer(url, sinceTime=None, encoding=None, errors=None, silent=False, debug=False, method='GET'):
     """
-        Get a URL if it is not newer
+        Get a URL if it is newer
     
         @param url: the url to fetch (required)
-        @param sinceTime: the most recent Last-Modified string (required, format as per mod_date())
+        @param sinceTime: the most recent Last-Modified string (format as per mod_date())
         @param encoding: the encoding to use (default 'None')
         @param errors: If encoding is provided, this specifies the on-error action (e.g. 'ignore')
+        @param silent: whether to print the url and headers (default True)
+        @param debug: whether to print additional info (default False)
+        @param method: the HTTP method to use (default GET)
+
         @return: (lastMod, response)
         - lastMod: the Last-Modified string (from sinceTime if the URL is not later) may be None
         - response: the HTTPResponse (encoding == None) or TextIOBase object.
@@ -76,7 +80,7 @@ def getIfNewer(url, sinceTime, encoding=None, errors=None, silent=False, debug=F
     response = None
     try:
         if not silent: print("%s %s" % (url, headers))
-        req = Request(url, headers=headers)
+        req = Request(url, headers=headers, method=method)
         resp = urlopen(req, timeout=URL_TIMEOUT)
         # Debug - detect why json sometimes returned as HTML but no error code
         if debug and not silent: print("STATUS %s" % resp.getcode()) # Works for Py2/3
@@ -97,6 +101,24 @@ def getIfNewer(url, sinceTime, encoding=None, errors=None, silent=False, debug=F
         else:
             raise
     return lastMod, response
+
+def URLget(url, sinceTime=None, encoding=None, errors=None, silent=True, debug=False, method='GET'):
+    """
+    Get the URL response as for getIfNewer, but default to silent=True and omit lastMod from reply
+    """
+    _, response = getIfNewer(url, sinceTime=sinceTime, encoding=encoding, errors=errors, silent=silent, debug=debug, method=method)
+    return response
+
+def URLexists(url):
+    """
+    Does the URL exist?
+    Uses HEAD to check
+    """
+    try:
+        getIfNewer(url, method='HEAD', silent=True)
+        return True
+    except:
+        return False
 
 def findRelPath(relpath):
     for d in ['./','../','../../']: # we may located at same level or 1 or 2 below
@@ -263,6 +285,12 @@ class UrlCache(object):
             return open(target, 'rb')
 
 if __name__ == '__main__':
+    print(URLexists('https://www.apache.org/'))
+    print(URLexists('https://www.apache.org/__'))
+    print(URLexists('https://__.apache.org/'))
+    resp = URLget('https://www.apache.org/')
+    print(resp.headers)
+
     try:
         fc = UrlCache(cachedir='x')
         raise Error("Expected OSError")
