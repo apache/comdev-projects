@@ -25,6 +25,10 @@ import xml.dom.minidom as minidom
 import datetime
 import sendmail
 
+# urllib is currently broken and will fail on cert verify. Revert once box has been upgraded.
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
+
 sys.path.append("..") # module committee_info is in parent directory
 import committee_info
 
