@@ -22,7 +22,8 @@ if sys.hexversion < 0x03000000:
     raise ImportError("This script requires Python 3")
 from xml.dom import minidom
 import xml.etree.ElementTree as ET
-import re, urllib.request
+import re
+from urlutils import URLopen
 import urllib.error
 import json
 import os
@@ -120,7 +121,7 @@ def name2fileName(s, pmc):
 # Process external PMC descriptor file to extract the PMC name
 def getPMC(url):
     print("Parsing PMC descriptor file %s" % url)
-    rdf = urllib.request.urlopen(url, timeout=URL_TIMEOUT).read()
+    rdf = URLopen(url).read()
     md = minidom.parseString(rdf)
     pmc = (md.getElementsByTagName('asfext:pmc') or md.getElementsByTagName('asfext:PMC'))[0]
     t = pmc.tagName.lower()
@@ -160,7 +161,7 @@ unreportedError = False # any errors not yet mailed?
 for s in itemlist :
     url = s.childNodes[0].data
     try:
-        rdf = urllib.request.urlopen(url, timeout=URL_TIMEOUT).read()
+        rdf = URLopen(url).read()
         rdfxml = ET.fromstring(rdf)
         project = rdfxml[0]
         pjson = {
