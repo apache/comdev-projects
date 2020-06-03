@@ -1,8 +1,8 @@
 import errtee
-import re, urllib.request
+import re
 import json
 import os
-
+from urlutils import URLopen
 """
 Reads the list of files in http://www.apache.org/dist/
 
@@ -43,7 +43,7 @@ x = 0
 
 def getDirList(url):
     try:
-        data = urllib.request.urlopen(url).read().decode('utf-8')
+        data = URLopen(url).read().decode('utf-8')
         for entry, xd, xdate in re.findall(r"<a href=\"([^\"/]+)(/?)\">\S+</a>\s+(\d\d\d\d-\d\d-\d\d)", data, re.MULTILINE | re.UNICODE):
             yield(entry, xdate, xd)
     except:

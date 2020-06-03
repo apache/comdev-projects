@@ -1,8 +1,9 @@
 import errtee
 from xml.dom import minidom
-import re, urllib.request
+import re
 import json
 from datetime import datetime
+from urlutils import URLopen
 
 """
 Reads http://incubator.apache.org/podlings.xml
@@ -12,7 +13,7 @@ Creates:
 
 """
 
-data = urllib.request.urlopen("http://incubator.apache.org/podlings.xml").read()
+data = URLopen("http://incubator.apache.org/podlings.xml").read()
 xmldoc = minidom.parseString(data)
 itemlist = xmldoc.getElementsByTagName('podling') 
 
