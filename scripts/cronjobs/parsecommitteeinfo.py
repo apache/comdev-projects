@@ -83,6 +83,8 @@ def head(url):
 pmcs = {}
 pmcDataUrls = {} # id -> url
 
+skipImageTest = len(sys.argv) >= 2 and sys.argv[1] == '--skipImageTest'
+
 # get PMC Data from /data/committees.xml
 print("Reading PMC Data (/data/committees.xml)")
 with open("../../data/committees.xml", "r") as f:
@@ -131,7 +133,7 @@ for loc in xmldoc.getElementsByTagName('location') :
         pmcs[committeeId] = pmcjson
 
     except Exception as err:
-        print("ERROR: %s processing %s" % (err, url), file=sys.stderr)
+        printMail("ERROR: %s processing %s" % (err, url))
 
 committeeCount = 0
 committeesList = []
@@ -176,7 +178,7 @@ for group in sorted(committees, key=keyorder):
                 committeeId = group
 
             img = "http://www.apache.org/logos/res/%s/default.png" % committeeId
-            if not head(img):
+            if not skipImageTest and not head(img):
                 print("WARN: could not find logo: %s" % (img))
                 
             committeeCount += 1
