@@ -24,7 +24,7 @@ import xml.dom.minidom as minidom
 import datetime
 import sendmail
 
-from urlutils import URLget, URLexists
+from urlutils import URLopen, URLexists
 
 sys.path.append("..") # module committee_info is in parent directory
 import committee_info
@@ -88,7 +88,7 @@ for loc in xmldoc.getElementsByTagName('location') :
     url = loc.childNodes[0].data
     try:
         if url.startswith('http'):
-            rdf = URLget(url).read()
+            rdf = URLopen(url).read()
         else:
             with open("../../data/%s" % url, 'r', encoding='utf-8') as f:
                 rdf = f.read()

@@ -102,7 +102,7 @@ def getIfNewer(url, sinceTime=None, encoding=None, errors=None, silent=False, de
             raise
     return lastMod, response
 
-def URLget(url, sinceTime=None, encoding=None, errors=None, silent=True, debug=False, method='GET'):
+def URLopen(url, sinceTime=None, encoding=None, errors=None, silent=True, debug=False, method='GET'):
     """
     Get the URL response as for getIfNewer, but default to silent=True and omit lastMod from reply
     """
@@ -288,7 +288,7 @@ if __name__ == '__main__':
     print(URLexists('https://www.apache.org/'))
     print(URLexists('https://www.apache.org/__'))
     print(URLexists('https://__.apache.org/'))
-    resp = URLget('https://www.apache.org/')
+    resp = URLopen('https://www.apache.org/')
     print(resp.headers)
 
     try:
