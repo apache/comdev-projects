@@ -25,8 +25,14 @@ except:
 import time
 import calendar
 
+# urllib is currently broken and will fail on cert verify. Revert once box has been upgraded.
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
+
 # time format used in Last-Modified/If-Modified-Since HTTP headers
 _HTTP_TIME_FORMAT = '%a, %d %b %Y %H:%M:%S GMT'
+
+URL_TIMEOUT = 60.0 # timeout for URL requests (may need tweaking)
 
 # Allow callers to check HTTP code from Python2 and 3
 def isHTTPNotFound(e):
@@ -71,7 +77,7 @@ def getIfNewer(url, sinceTime, encoding=None, errors=None, silent=False, debug=F
     try:
         if not silent: print("%s %s" % (url, headers))
         req = Request(url, headers=headers)
-        resp = urlopen(req)
+        resp = urlopen(req, timeout=URL_TIMEOUT)
         # Debug - detect why json sometimes returned as HTML but no error code
         if debug and not silent: print("STATUS %s" % resp.getcode()) # Works for Py2/3
         if debug and not silent: print(resp.headers)
@@ -182,6 +188,10 @@ class UrlCache(object):
         """
         if name == None:
             name = basename(urlparse(url).path)
+            if name == '': # no-name URL
+                import re
+                # convert URL to file name: replace all but alphanum and '-'
+                name = re.sub(r'[^\w]+','_',url)
         target=self.__getname(name)
         fileTime = self.__file_mtime(target)
         if useFileModTime:
