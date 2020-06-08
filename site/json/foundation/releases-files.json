@@ -10787,6 +10787,9 @@
 ],
 "pdfbox-2.0.19": [
 "pdfbox/2.0.19/pdfbox-2.0.19-src.zip"
+],
+"pdfbox-2.0.20": [
+"pdfbox/2.0.20/pdfbox-2.0.20-src.zip"
 ]
 },
 "perl": {
@@ -13204,6 +13207,19 @@
 "tomcat/tomcat-10/v10.0.0-M5/src/apache-tomcat-10.0.0-M5-src.tar.gz",
 "tomcat/tomcat-10/v10.0.0-M5/src/apache-tomcat-10.0.0-M5-src.zip"
 ],
+"apache-tomcat-10.0.0-M6": [
+"tomcat/tomcat-10/v10.0.0-M6/bin/embed/apache-tomcat-10.0.0-M6-embed.tar.gz",
+"tomcat/tomcat-10/v10.0.0-M6/bin/embed/apache-tomcat-10.0.0-M6-embed.zip",
+"tomcat/tomcat-10/v10.0.0-M6/bin/apache-tomcat-10.0.0-M6-deployer.tar.gz",
+"tomcat/tomcat-10/v10.0.0-M6/bin/apache-tomcat-10.0.0-M6-deployer.zip",
+"tomcat/tomcat-10/v10.0.0-M6/bin/apache-tomcat-10.0.0-M6-fulldocs.tar.gz",
+"tomcat/tomcat-10/v10.0.0-M6/bin/apache-tomcat-10.0.0-M6-windows-x64.zip",
+"tomcat/tomcat-10/v10.0.0-M6/bin/apache-tomcat-10.0.0-M6.exe",
+"tomcat/tomcat-10/v10.0.0-M6/bin/apache-tomcat-10.0.0-M6.tar.gz",
+"tomcat/tomcat-10/v10.0.0-M6/bin/apache-tomcat-10.0.0-M6.zip",
+"tomcat/tomcat-10/v10.0.0-M6/src/apache-tomcat-10.0.0-M6-src.tar.gz",
+"tomcat/tomcat-10/v10.0.0-M6/src/apache-tomcat-10.0.0-M6-src.zip"
+],
 "apache-tomcat-7.0.104": [
 "tomcat/tomcat-7/v7.0.104/bin/embed/apache-tomcat-7.0.104-embed.tar.gz",
 "tomcat/tomcat-7/v7.0.104/bin/embed/apache-tomcat-7.0.104-embed.zip",
@@ -13230,6 +13246,19 @@
 "tomcat/tomcat-8/v8.5.55/src/apache-tomcat-8.5.55-src.tar.gz",
 "tomcat/tomcat-8/v8.5.55/src/apache-tomcat-8.5.55-src.zip"
 ],
+"apache-tomcat-8.5.56": [
+"tomcat/tomcat-8/v8.5.56/bin/embed/apache-tomcat-8.5.56-embed.tar.gz",
+"tomcat/tomcat-8/v8.5.56/bin/embed/apache-tomcat-8.5.56-embed.zip",
+"tomcat/tomcat-8/v8.5.56/bin/apache-tomcat-8.5.56-deployer.tar.gz",
+"tomcat/tomcat-8/v8.5.56/bin/apache-tomcat-8.5.56-deployer.zip",
+"tomcat/tomcat-8/v8.5.56/bin/apache-tomcat-8.5.56-fulldocs.tar.gz",
+"tomcat/tomcat-8/v8.5.56/bin/apache-tomcat-8.5.56-windows-x64.zip",
+"tomcat/tomcat-8/v8.5.56/bin/apache-tomcat-8.5.56.exe",
+"tomcat/tomcat-8/v8.5.56/bin/apache-tomcat-8.5.56.tar.gz",
+"tomcat/tomcat-8/v8.5.56/bin/apache-tomcat-8.5.56.zip",
+"tomcat/tomcat-8/v8.5.56/src/apache-tomcat-8.5.56-src.tar.gz",
+"tomcat/tomcat-8/v8.5.56/src/apache-tomcat-8.5.56-src.zip"
+],
 "apache-tomcat-9.0.35": [
 "tomcat/tomcat-9/v9.0.35/bin/embed/apache-tomcat-9.0.35-embed.tar.gz",
 "tomcat/tomcat-9/v9.0.35/bin/embed/apache-tomcat-9.0.35-embed.zip",
@@ -13242,6 +13271,19 @@
 "tomcat/tomcat-9/v9.0.35/bin/apache-tomcat-9.0.35.zip",
 "tomcat/tomcat-9/v9.0.35/src/apache-tomcat-9.0.35-src.tar.gz",
 "tomcat/tomcat-9/v9.0.35/src/apache-tomcat-9.0.35-src.zip"
+],
+"apache-tomcat-9.0.36": [
+"tomcat/tomcat-9/v9.0.36/bin/embed/apache-tomcat-9.0.36-embed.tar.gz",
+"tomcat/tomcat-9/v9.0.36/bin/embed/apache-tomcat-9.0.36-embed.zip",
+"tomcat/tomcat-9/v9.0.36/bin/apache-tomcat-9.0.36-deployer.tar.gz",
+"tomcat/tomcat-9/v9.0.36/bin/apache-tomcat-9.0.36-deployer.zip",
+"tomcat/tomcat-9/v9.0.36/bin/apache-tomcat-9.0.36-fulldocs.tar.gz",
+"tomcat/tomcat-9/v9.0.36/bin/apache-tomcat-9.0.36-windows-x64.zip",
+"tomcat/tomcat-9/v9.0.36/bin/apache-tomcat-9.0.36.exe",
+"tomcat/tomcat-9/v9.0.36/bin/apache-tomcat-9.0.36.tar.gz",
+"tomcat/tomcat-9/v9.0.36/bin/apache-tomcat-9.0.36.zip",
+"tomcat/tomcat-9/v9.0.36/src/apache-tomcat-9.0.36-src.tar.gz",
+"tomcat/tomcat-9/v9.0.36/src/apache-tomcat-9.0.36-src.zip"
 ],
 "taglibs-standard-1.2.5": [
 "tomcat/taglibs/taglibs-standard-1.2.5/taglibs-standard-1.2.5-source-release.zip"
@@ -14244,9 +14286,9 @@
 "xalan/xalan-j/source/xalan-j_2_7_2-src.tar.gz",
 "xalan/xalan-j/source/xalan-j_2_7_2-src.zip"
 ],
-"xalan_c-1.11": [
-"xalan/xalan-c/sources/xalan_c-1.11-src.tar.gz",
-"xalan/xalan-c/sources/xalan_c-1.11-src.zip"
+"xalan_c-1.12": [
+"xalan/xalan-c/sources/xalan_c-1.12.tar.gz",
+"xalan/xalan-c/sources/xalan_c-1.12.zip"
 ]
 },
 "xerces": {
