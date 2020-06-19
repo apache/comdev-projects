@@ -785,6 +785,11 @@
 "camel/apache-camel/3.3.0/apache-camel-3.3.0.tar.gz",
 "camel/apache-camel/3.3.0/apache-camel-3.3.0.zip"
 ],
+"apache-camel-3.4.0": [
+"camel/apache-camel/3.4.0/apache-camel-3.4.0-src.zip",
+"camel/apache-camel/3.4.0/apache-camel-3.4.0.tar.gz",
+"camel/apache-camel/3.4.0/apache-camel-3.4.0.zip"
+],
 "apache-camel-k-runtime-1.0.4": [
 "camel/camel-k-runtime/1.0.4/apache-camel-k-runtime-1.0.4-source-release.zip"
 ],
@@ -1910,23 +1915,9 @@
 "directory/api/dist/1.0.3/apache-ldap-api-1.0.3-src.tar.gz",
 "directory/api/dist/1.0.3/apache-ldap-api-1.0.3-src.zip"
 ],
-"apache-ldap-api-2.0.0": [
-"directory/api/dist/2.0.0/apache-ldap-api-2.0.0-src.tar.gz",
-"directory/api/dist/2.0.0/apache-ldap-api-2.0.0-src.zip"
-],
 "apache-ldap-api-2.0.1": [
 "directory/api/dist/2.0.1/apache-ldap-api-2.0.1-src.tar.gz",
 "directory/api/dist/2.0.1/apache-ldap-api-2.0.1-src.zip"
-],
-"apacheds-2.0.0.AM25": [
-"directory/apacheds/dist/2.0.0.AM25/apacheds-2.0.0.AM25-32bit.dmg",
-"directory/apacheds/dist/2.0.0.AM25/apacheds-2.0.0.AM25-64bit.dmg",
-"directory/apacheds/dist/2.0.0.AM25/apacheds-2.0.0.AM25-i386.deb",
-"directory/apacheds/dist/2.0.0.AM25/apacheds-2.0.0.AM25-i386.rpm",
-"directory/apacheds/dist/2.0.0.AM25/apacheds-2.0.0.AM25.exe",
-"directory/apacheds/dist/2.0.0.AM25/apacheds-2.0.0.AM25.tar.gz",
-"directory/apacheds/dist/2.0.0.AM25/apacheds-2.0.0.AM25.zip",
-"directory/apacheds/dist/2.0.0.AM25/apacheds-parent-2.0.0.AM25-source-release.zip"
 ],
 "apacheds-2.0.0.AM26": [
 "directory/apacheds/dist/2.0.0.AM26/apacheds-2.0.0.AM26-i386.deb",
@@ -1936,43 +1927,15 @@
 "directory/apacheds/dist/2.0.0.AM26/apacheds-2.0.0.AM26.zip",
 "directory/apacheds/dist/2.0.0.AM26/apacheds-parent-2.0.0.AM26-source-release.zip"
 ],
-"fortress-core-2.0.3": [
-"directory/fortress/dist/2.0.3/fortress-core-2.0.3-source-release.zip"
-],
-"fortress-core-2.0.4": [
-"directory/fortress/dist/2.0.4/fortress-core-2.0.4-source-release.zip"
-],
 "fortress-core-2.0.5": [
 "directory/fortress/dist/2.0.5/fortress-core-2.0.5-source-release.zip"
-],
-"fortress-realm-2.0.3": [
-"directory/fortress/dist/2.0.3/fortress-realm-2.0.3-source-release.zip"
-],
-"fortress-realm-2.0.4": [
-"directory/fortress/dist/2.0.4/fortress-realm-2.0.4-source-release.zip"
 ],
 "fortress-realm-2.0.5": [
 "directory/fortress/dist/2.0.5/fortress-realm-2.0.5-source-release.zip"
 ],
-"fortress-rest-2.0.3": [
-"directory/fortress/dist/2.0.3/fortress-rest-2.0.3-source-release.zip",
-"directory/fortress/dist/2.0.3/fortress-rest-2.0.3.war"
-],
-"fortress-rest-2.0.4": [
-"directory/fortress/dist/2.0.4/fortress-rest-2.0.4-source-release.zip",
-"directory/fortress/dist/2.0.4/fortress-rest-2.0.4.war"
-],
 "fortress-rest-2.0.5": [
 "directory/fortress/dist/2.0.5/fortress-rest-2.0.5-source-release.zip",
 "directory/fortress/dist/2.0.5/fortress-rest-2.0.5.war"
-],
-"fortress-web-2.0.3": [
-"directory/fortress/dist/2.0.3/fortress-web-2.0.3-source-release.zip",
-"directory/fortress/dist/2.0.3/fortress-web-2.0.3.war"
-],
-"fortress-web-2.0.4": [
-"directory/fortress/dist/2.0.4/fortress-web-2.0.4-source-release.zip",
-"directory/fortress/dist/2.0.4/fortress-web-2.0.4.war"
 ],
 "fortress-web-2.0.5": [
 "directory/fortress/dist/2.0.5/fortress-web-2.0.5-source-release.zip",
@@ -4982,11 +4945,6 @@
 "mina/mina/2.0.21/apache-mina-2.0.21-src.tar.bz2",
 "mina/mina/2.0.21/apache-mina-2.0.21-src.tar.gz",
 "mina/mina/2.0.21/apache-mina-2.0.21-src.zip"
-],
-"apache-mina-2.1.2": [
-"mina/mina/2.1.2/apache-mina-2.1.2-src.tar.bz2",
-"mina/mina/2.1.2/apache-mina-2.1.2-src.tar.gz",
-"mina/mina/2.1.2/apache-mina-2.1.2-src.zip"
 ],
 "apache-mina-2.1.3": [
 "mina/mina/2.1.3/apache-mina-2.1.3-src.tar.bz2",
@@ -9290,6 +9248,9 @@
 "org.apache.sling.fsresource-2.1.16": [
 "sling/org.apache.sling.fsresource-2.1.16-source-release.zip"
 ],
+"org.apache.sling.graphql.core-0.0.2": [
+"sling/org.apache.sling.graphql.core-0.0.2-source-release.zip"
+],
 "org.apache.sling.hapi-1.1.0": [
 "sling/org.apache.sling.hapi-1.1.0-source-release.zip"
 ],
@@ -9618,8 +9579,8 @@
 "org.apache.sling.serviceusermapper-1.4.6": [
 "sling/org.apache.sling.serviceusermapper-1.4.6-source-release.zip"
 ],
-"org.apache.sling.servlet-helpers-1.3.0": [
-"sling/org.apache.sling.servlet-helpers-1.3.0-source-release.zip"
+"org.apache.sling.servlet-helpers-1.4.2": [
+"sling/org.apache.sling.servlet-helpers-1.4.2-source-release.zip"
 ],
 "org.apache.sling.servlets.annotations-1.2.4": [
 "sling/org.apache.sling.servlets.annotations-1.2.4-source-release.zip"
