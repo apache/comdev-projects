@@ -44,13 +44,9 @@
 "activemq-5.15.13": [
 "activemq/5.15.13/activemq-parent-5.15.13-source-release.zip"
 ],
-"activemq-artemis-native-1.0.0": [
-"activemq/activemq-artemis-native/1.0.0/activemq-artemis-native-1.0.0-source-release.tar.gz",
-"activemq/activemq-artemis-native/1.0.0/activemq-artemis-native-1.0.0-source-release.zip"
-],
-"activemq-artemis-native-1.0.1": [
-"activemq/activemq-artemis-native/1.0.1/activemq-artemis-native-1.0.1-source-release.tar.gz",
-"activemq/activemq-artemis-native/1.0.1/activemq-artemis-native-1.0.1-source-release.zip"
+"activemq-artemis-native-1.0.2": [
+"activemq/activemq-artemis-native/1.0.2/activemq-artemis-native-1.0.2-source-release.tar.gz",
+"activemq/activemq-artemis-native/1.0.2/activemq-artemis-native-1.0.2-source-release.zip"
 ],
 "activemq-cli-tools-0.1.0": [
 "activemq/activemq-cli-tools/0.1.0/activemq-cli-tools-parent-0.1.0-source-release.zip"
@@ -1381,9 +1377,9 @@
 "commons/bsf/source/bsf-3.1-src.tar.gz",
 "commons/bsf/source/bsf-3.1-src.zip"
 ],
-"commons-50": [
-"commons/commons-parent/commons-parent-50-src.tar.gz",
-"commons/commons-parent/commons-parent-50-src.zip"
+"commons-51": [
+"commons/commons-parent/commons-parent-51-src.tar.gz",
+"commons/commons-parent/commons-parent-51-src.zip"
 ],
 "commons-beanutils-1.9.4": [
 "commons/beanutils/source/commons-beanutils-1.9.4-src.tar.gz",
@@ -3380,6 +3376,14 @@
 "incubator/omid/omid-incubating-1.0.1/apache-omid-incubating-1.0.1-src.tar.gz"
 ]
 },
+"incubator-pagespeed": {
+"mod-pagespeed-apache-incubating-beta-1.14.36.1-r0": [
+"incubator/pagespeed/1.14.36.1/mod-pagespeed-apache-incubating-beta-1.14.36.1-r0.tar.bz2"
+],
+"psol-1.14.36.1-apache-incubating-x64": [
+"incubator/pagespeed/1.14.36.1/x64/psol-1.14.36.1-apache-incubating-x64.tar.gz"
+]
+},
 "incubator-pinot": {
 "apache-pinot-incubating-0.1.0": [
 "incubator/pinot/apache-pinot-incubating-0.1.0/apache-pinot-incubating-0.1.0-src.tar.gz"
@@ -4232,9 +4236,9 @@
 "karaf/cellar/4.1.2/apache-karaf-cellar-4.1.2-src.tar.gz",
 "karaf/cellar/4.1.2/apache-karaf-cellar-4.1.2-src.zip"
 ],
-"apache-karaf-decanter-2.4.0": [
-"karaf/decanter/2.4.0/apache-karaf-decanter-2.4.0-src.tar.gz",
-"karaf/decanter/2.4.0/apache-karaf-decanter-2.4.0-src.zip"
+"apache-karaf-decanter-2.5.0": [
+"karaf/decanter/2.5.0/apache-karaf-decanter-2.5.0-src.tar.gz",
+"karaf/decanter/2.5.0/apache-karaf-decanter-2.5.0-src.zip"
 ],
 "apache-karaf-latest": [
 "karaf/apache-karaf-latest.tar.gz",
@@ -4967,6 +4971,12 @@
 "mina/sshd/1.7.0/apache-sshd-1.7.0-src.zip",
 "mina/sshd/1.7.0/apache-sshd-1.7.0.tar.gz",
 "mina/sshd/1.7.0/apache-sshd-1.7.0.zip"
+],
+"apache-sshd-2.5.0": [
+"mina/sshd/2.5.0/apache-sshd-2.5.0-src.tar.gz",
+"mina/sshd/2.5.0/apache-sshd-2.5.0-src.zip",
+"mina/sshd/2.5.0/apache-sshd-2.5.0.tar.gz",
+"mina/sshd/2.5.0/apache-sshd-2.5.0.zip"
 ],
 "vysper-0.7": [
 "mina/vysper/0.7/vysper-0.7-src.tar.gz",
@@ -8732,14 +8742,14 @@
 "apache-sling-jar-resource-bundle-1.0.2": [
 "sling/apache-sling-jar-resource-bundle-1.0.2-source-release.zip"
 ],
-"htl-maven-plugin-1.3.4-1.4.0": [
-"sling/htl-maven-plugin-1.3.4-1.4.0-source-release.zip"
+"htl-maven-plugin-2.0.0-1.4.0": [
+"sling/htl-maven-plugin-2.0.0-1.4.0-source-release.zip"
 ],
 "javaversion-maven-plugin-1.0.0": [
 "sling/javaversion-maven-plugin-1.0.0-source-release.zip"
 ],
-"jspc-maven-plugin-2.1.0": [
-"sling/jspc-maven-plugin-2.1.0-source-release.zip"
+"jspc-maven-plugin-2.2.0": [
+"sling/jspc-maven-plugin-2.2.0-source-release.zip"
 ],
 "maven-launchpad-plugin-2.3.4": [
 "sling/maven-launchpad-plugin-2.3.4-source-release.zip"
@@ -8753,8 +8763,8 @@
 "org.apache.sling.api-2.22.0": [
 "sling/org.apache.sling.api-2.22.0-source-release.zip"
 ],
-"org.apache.sling.auth.core-1.4.6": [
-"sling/org.apache.sling.auth.core-1.4.6-source-release.zip"
+"org.apache.sling.auth.core-1.4.8": [
+"sling/org.apache.sling.auth.core-1.4.8-source-release.zip"
 ],
 "org.apache.sling.auth.form-1.0.20": [
 "sling/org.apache.sling.auth.form-1.0.20-source-release.zip"
@@ -8816,8 +8826,8 @@
 "org.apache.sling.commons.classloader-1.4.4": [
 "sling/org.apache.sling.commons.classloader-1.4.4-source-release.zip"
 ],
-"org.apache.sling.commons.compiler-2.3.6": [
-"sling/org.apache.sling.commons.compiler-2.3.6-source-release.zip"
+"org.apache.sling.commons.compiler-2.4.0": [
+"sling/org.apache.sling.commons.compiler-2.4.0-source-release.zip"
 ],
 "org.apache.sling.commons.contentdetection-1.0.4": [
 "sling/org.apache.sling.commons.contentdetection-1.0.4-source-release.zip"
@@ -8834,8 +8844,8 @@
 "org.apache.sling.commons.json-2.0.20": [
 "sling/org.apache.sling.commons.json-2.0.20-source-release.zip"
 ],
-"org.apache.sling.commons.log-5.1.10": [
-"sling/org.apache.sling.commons.log-5.1.10-source-release.zip"
+"org.apache.sling.commons.log-5.1.12": [
+"sling/org.apache.sling.commons.log-5.1.12-source-release.zip"
 ],
 "org.apache.sling.commons.log.webconsole-1.0.0": [
 "sling/org.apache.sling.commons.log.webconsole-1.0.0-source-release.zip"
@@ -8948,8 +8958,8 @@
 "org.apache.sling.distribution.sample-0.1.6": [
 "sling/org.apache.sling.distribution.sample-0.1.6-source-release.zip"
 ],
-"org.apache.sling.dynamic-include-3.1.6": [
-"sling/org.apache.sling.dynamic-include-3.1.6-source-release.zip"
+"org.apache.sling.dynamic-include-3.2.0": [
+"sling/org.apache.sling.dynamic-include-3.2.0-source-release.zip"
 ],
 "org.apache.sling.engine-2.7.2": [
 "sling/org.apache.sling.engine-2.7.2-source-release.zip"
@@ -8984,11 +8994,11 @@
 "org.apache.sling.extensions.webconsolesecurityprovider-1.2.4": [
 "sling/org.apache.sling.extensions.webconsolesecurityprovider-1.2.4-source-release.zip"
 ],
-"org.apache.sling.feature-1.2.0": [
-"sling/org.apache.sling.feature-1.2.0-source-release.zip"
+"org.apache.sling.feature-1.2.2": [
+"sling/org.apache.sling.feature-1.2.2-source-release.zip"
 ],
-"org.apache.sling.feature.analyser-1.2.6": [
-"sling/org.apache.sling.feature.analyser-1.2.6-source-release.zip"
+"org.apache.sling.feature.analyser-1.3.0": [
+"sling/org.apache.sling.feature.analyser-1.3.0-source-release.zip"
 ],
 "org.apache.sling.feature.apiregions-1.1.4": [
 "sling/org.apache.sling.feature.apiregions-1.1.4-source-release.zip"
@@ -9010,8 +9020,8 @@
 "org.apache.sling.feature.inventoryprinter-1.0.0": [
 "sling/org.apache.sling.feature.inventoryprinter-1.0.0-source-release.zip"
 ],
-"org.apache.sling.feature.launcher-1.1.2": [
-"sling/org.apache.sling.feature.launcher-1.1.2-source-release.zip"
+"org.apache.sling.feature.launcher-1.1.4": [
+"sling/org.apache.sling.feature.launcher-1.1.4-source-release.zip"
 ],
 "org.apache.sling.feature.modelconverter-1.0.14": [
 "sling/org.apache.sling.feature.modelconverter-1.0.14-source-release.zip",
@@ -9154,8 +9164,8 @@
 "org.apache.sling.jcr.repoinit-1.1.26": [
 "sling/org.apache.sling.jcr.repoinit-1.1.26-source-release.zip"
 ],
-"org.apache.sling.jcr.resource-3.0.20": [
-"sling/org.apache.sling.jcr.resource-3.0.20-source-release.zip"
+"org.apache.sling.jcr.resource-3.0.22": [
+"sling/org.apache.sling.jcr.resource-3.0.22-source-release.zip"
 ],
 "org.apache.sling.jcr.resourcesecurity-1.0.2": [
 "sling/org.apache.sling.jcr.resourcesecurity-1.0.2-source-release.zip"
@@ -9319,8 +9329,8 @@
 "org.apache.sling.scripting.console-1.0.0": [
 "sling/org.apache.sling.scripting.console-1.0.0-source-release.zip"
 ],
-"org.apache.sling.scripting.core-2.2.0": [
-"sling/org.apache.sling.scripting.core-2.2.0-source-release.zip"
+"org.apache.sling.scripting.core-2.3.0": [
+"sling/org.apache.sling.scripting.core-2.3.0-source-release.zip"
 ],
 "org.apache.sling.scripting.el-api-1.0.2": [
 "sling/org.apache.sling.scripting.el-api-1.0.2-source-release.zip"
@@ -9337,8 +9347,8 @@
 "org.apache.sling.scripting.javascript-3.1.2": [
 "sling/org.apache.sling.scripting.javascript-3.1.2-source-release.zip"
 ],
-"org.apache.sling.scripting.jsp-2.4.2": [
-"sling/org.apache.sling.scripting.jsp-2.4.2-source-release.zip"
+"org.apache.sling.scripting.jsp-2.5.0": [
+"sling/org.apache.sling.scripting.jsp-2.5.0-source-release.zip"
 ],
 "org.apache.sling.scripting.jsp-api-1.0.2": [
 "sling/org.apache.sling.scripting.jsp-api-1.0.2-source-release.zip"
@@ -9379,8 +9389,8 @@
 "org.apache.sling.servlets.post-2.3.36": [
 "sling/org.apache.sling.servlets.post-2.3.36-source-release.zip"
 ],
-"org.apache.sling.servlets.resolver-2.6.4": [
-"sling/org.apache.sling.servlets.resolver-2.6.4-source-release.zip"
+"org.apache.sling.servlets.resolver-2.7.0": [
+"sling/org.apache.sling.servlets.resolver-2.7.0-source-release.zip"
 ],
 "org.apache.sling.settings-1.3.10": [
 "sling/org.apache.sling.settings-1.3.10-source-release.zip"
@@ -9512,8 +9522,8 @@
 "org.apache.sling.xss.compat-1.1.0": [
 "sling/org.apache.sling.xss.compat-1.1.0-source-release.zip"
 ],
-"scriptingbundle-maven-plugin-0.1.0": [
-"sling/scriptingbundle-maven-plugin-0.1.0-source-release.zip"
+"scriptingbundle-maven-plugin-0.2.0": [
+"sling/scriptingbundle-maven-plugin-0.2.0-source-release.zip"
 ],
 "sling-6": [
 "sling/sling-6-source-release.tar.gz",
@@ -9556,8 +9566,8 @@
 "sling-slingstart-archetype-1.0.8": [
 "sling/sling-slingstart-archetype-1.0.8-source-release.zip"
 ],
-"slingfeature-maven-plugin-1.3.4": [
-"sling/slingfeature-maven-plugin-1.3.4-source-release.zip"
+"slingfeature-maven-plugin-1.3.6": [
+"sling/slingfeature-maven-plugin-1.3.6-source-release.zip"
 ],
 "slingstart-maven-plugin-1.9.12": [
 "sling/slingstart-maven-plugin-1.9.12-source-release.zip"
@@ -10410,6 +10420,37 @@
 "tomee/tomee-8.0.2/apache-tomee-8.0.2-webprofile.tar.gz",
 "tomee/tomee-8.0.2/apache-tomee-8.0.2-webprofile.zip"
 ],
+"apache-tomee-8.0.3-microprofile": [
+"tomee/tomee-8.0.3/apache-tomee-8.0.3-microprofile.tar.gz",
+"tomee/tomee-8.0.3/apache-tomee-8.0.3-microprofile.zip"
+],
+"apache-tomee-8.0.3-plume": [
+"tomee/tomee-8.0.3/apache-tomee-8.0.3-plume.tar.gz",
+"tomee/tomee-8.0.3/apache-tomee-8.0.3-plume.zip"
+],
+"apache-tomee-8.0.3-plus": [
+"tomee/tomee-8.0.3/apache-tomee-8.0.3-plus.tar.gz",
+"tomee/tomee-8.0.3/apache-tomee-8.0.3-plus.zip"
+],
+"apache-tomee-8.0.3-webprofile": [
+"tomee/tomee-8.0.3/apache-tomee-8.0.3-webprofile.tar.gz",
+"tomee/tomee-8.0.3/apache-tomee-8.0.3-webprofile.zip"
+],
+"apache-tomee-9.0.0-M1": [
+"tomee/tomee-8.0.3/apache-tomee-9.0.0-M1-source-release.zip"
+],
+"apache-tomee-9.0.0-M1-microprofile": [
+"tomee/tomee-8.0.3/apache-tomee-9.0.0-M1-microprofile.zip"
+],
+"apache-tomee-9.0.0-M1-plume": [
+"tomee/tomee-8.0.3/apache-tomee-9.0.0-M1-plume.zip"
+],
+"apache-tomee-9.0.0-M1-plus": [
+"tomee/tomee-8.0.3/apache-tomee-9.0.0-M1-plus.zip"
+],
+"apache-tomee-9.0.0-M1-webprofile": [
+"tomee/tomee-8.0.3/apache-tomee-9.0.0-M1-webprofile.zip"
+],
 "arquillian-tomee-moviefun-example-1.7.5": [
 "tomee/tomee-1.7.5/arquillian-tomee-moviefun-example-1.7.5.war"
 ],
@@ -10475,6 +10516,10 @@
 "tomee/tomee-8.0.2/examples-8.0.2-src.tar.gz",
 "tomee/tomee-8.0.2/examples-8.0.2-src.zip"
 ],
+"examples-8.0.3": [
+"tomee/tomee-8.0.3/examples-8.0.3-src.tar.gz",
+"tomee/tomee-8.0.3/examples-8.0.3-src.zip"
+],
 "javaee-api-8.0": [
 "tomee/tomee-8.0.0-M1/javaee-api-8.0-source-release.zip"
 ],
@@ -10531,6 +10576,10 @@
 "openejb-8.0.2": [
 "tomee/tomee-8.0.2/openejb-standalone-8.0.2.tar.gz",
 "tomee/tomee-8.0.2/openejb-standalone-8.0.2.zip"
+],
+"openejb-8.0.3": [
+"tomee/tomee-8.0.3/openejb-standalone-8.0.3.tar.gz",
+"tomee/tomee-8.0.3/openejb-standalone-8.0.3.zip"
 ],
 "openejb-provisionning-4.6.0.2": [
 "tomee/tomee-1.6.0.2/openejb-provisionning-4.6.0.2.tar.gz",
@@ -10620,6 +10669,10 @@
 "tomee-8.0.2": [
 "tomee/tomee-8.0.2/tomee-webapp-8.0.2.war"
 ],
+"tomee-8.0.3": [
+"tomee/tomee-8.0.3/tomee-project-8.0.3-source-release.zip",
+"tomee/tomee-8.0.3/tomee-webapp-8.0.3.war"
+],
 "tomee-jaxrs-1.6.0.2": [
 "tomee/tomee-1.6.0.2/tomee-jaxrs-webapp-1.6.0.2.war"
 ],
@@ -10649,6 +10702,12 @@
 ],
 "tomee-microprofile-8.0.2": [
 "tomee/tomee-8.0.2/tomee-microprofile-webapp-8.0.2.war"
+],
+"tomee-microprofile-8.0.3": [
+"tomee/tomee-8.0.3/tomee-microprofile-webapp-8.0.3.war"
+],
+"tomee-patch-0.1": [
+"tomee/tomee-8.0.3/tomee-patch-parent-0.1-source-release.zip"
 ],
 "tomee-plume-1.7.5": [
 "tomee/tomee-1.7.5/tomee-plume-webapp-1.7.5.war"
@@ -10685,6 +10744,9 @@
 ],
 "tomee-plume-8.0.2": [
 "tomee/tomee-8.0.2/tomee-plume-webapp-8.0.2.war"
+],
+"tomee-plume-8.0.3": [
+"tomee/tomee-8.0.3/tomee-plume-webapp-8.0.3.war"
 ],
 "tomee-plus-1.6.0.2": [
 "tomee/tomee-1.6.0.2/tomee-plus-webapp-1.6.0.2.war"
@@ -10724,6 +10786,9 @@
 ],
 "tomee-plus-8.0.2": [
 "tomee/tomee-8.0.2/tomee-plus-webapp-8.0.2.war"
+],
+"tomee-plus-8.0.3": [
+"tomee/tomee-8.0.3/tomee-plus-webapp-8.0.3.war"
 ],
 "tomee-webaccess-1.6.0.2": [
 "tomee/tomee-1.6.0.2/tomee-webaccess-1.6.0.2.war"

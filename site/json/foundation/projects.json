@@ -1220,6 +1220,24 @@
 ],
 "shortdesc": "Apache Continuum software is an enterprise-ready continuous integration server with features such as automated builds, release management, role-based security, and integration with popular build tools and source control management systems."
 },
+"attic-crunch": {
+"bug-database": "https://issues.apache.org/jira/browse/CRUNCH",
+"category": "retired, big-data, library",
+"created": "2014-04-11",
+"description": "The Apache Crunch Java library provides a framework for writing, testing, and running MapReduce pipelines. Its goal is to make pipelines that are composed of many user-defined functions simple to write, easy to test, and efficient to run.\n\nRunning on top of Hadoop MapReduce and Apache Spark, the Apache Crunch™ library is a simple Java API for tasks like joining and data aggregation that are tedious to implement on plain MapReduce. The APIs are especially useful when processing data that does not fit naturally into relational model, such as time series, serialized object formats like protocol buffers or Avro records, and HBase rows and columns. For Scala users, there is the Scrunch API, which is built on top of the Java APIs and includes a REPL (read-eval-print loop) for creating MapReduce pipelines.",
+"doap": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/crunch.rdf",
+"download-page": "http://www.apache.org/dyn/closer.cgi/crunch",
+"homepage": "http://crunch.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://crunch.apache.org/mailing-lists.html",
+"name": "Apache Crunch",
+"pmc": "attic",
+"programming-language": "Java, Scala",
+"repository": [
+"https://git-wip-us.apache.org/repos/asf/crunch.git"
+],
+"shortdesc": "Provides a framework for writing, testing, and running MapReduce pipelines"
+},
 "attic-deltacloud": {
 "bug-database": "https://issues.apache.org/jira/browse/DTACLOUD",
 "category": "cloud, library, retired",
@@ -6178,24 +6196,6 @@
 "http://svn.apache.org/repos/asf/creadur/whisker/"
 ],
 "shortdesc": "Apache Whisker assists assembled applications to maintain correct legal documentation. "
-},
-"crunch": {
-"bug-database": "https://issues.apache.org/jira/browse/CRUNCH",
-"category": "big-data, library, retired",
-"created": "2014-04-11",
-"description": "The Apache Crunch Java library provides a framework for writing, testing, and running MapReduce pipelines. Its goal is to make pipelines that are composed of many user-defined functions simple to write, easy to test, and efficient to run.\n\nRunning on top of Hadoop MapReduce and Apache Spark, the Apache Crunch™ library is a simple Java API for tasks like joining and data aggregation that are tedious to implement on plain MapReduce. The APIs are especially useful when processing data that does not fit naturally into relational model, such as time series, serialized object formats like protocol buffers or Avro records, and HBase rows and columns. For Scala users, there is the Scrunch API, which is built on top of the Java APIs and includes a REPL (read-eval-print loop) for creating MapReduce pipelines.",
-"doap": "https://gitbox.apache.org/repos/asf?p=crunch.git;f=doap.rdf;a=blob_plain;hb=HEAD",
-"download-page": "http://www.apache.org/dyn/closer.cgi/crunch",
-"homepage": "http://crunch.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://crunch.apache.org/mailing-lists.html",
-"name": "Apache Crunch",
-"pmc": "attic",
-"programming-language": "Java, Scala",
-"repository": [
-"https://git-wip-us.apache.org/repos/asf/crunch.git"
-],
-"shortdesc": "Provides a framework for writing, testing, and running MapReduce pipelines"
 },
 "ctakes": {
 "bug-database": "https://issues.apache.org/jira/browse/CTAKES",
