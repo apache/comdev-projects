@@ -609,6 +609,9 @@
 "bookkeeper-4.10.0": [
 "bookkeeper/bookkeeper-4.10.0/bookkeeper-4.10.0-src.tar.gz"
 ],
+"bookkeeper-4.11.0": [
+"bookkeeper/bookkeeper-4.11.0/bookkeeper-4.11.0-src.tar.gz"
+],
 "bookkeeper-4.7.3": [
 "bookkeeper/bookkeeper-4.7.3/bookkeeper-4.7.3-src.tar.gz"
 ],
@@ -5091,13 +5094,9 @@
 "myfaces/source/myfaces-core-assembly-2.2.12-src.tar.gz",
 "myfaces/source/myfaces-core-assembly-2.2.12-src.zip"
 ],
-"myfaces-core-2.3-next-M1": [
-"myfaces/source/myfaces-core-assembly-2.3-next-M1-src.tar.gz",
-"myfaces/source/myfaces-core-assembly-2.3-next-M1-src.zip"
-],
-"myfaces-core-2.3-next-M2": [
-"myfaces/source/myfaces-core-assembly-2.3-next-M2-src.tar.gz",
-"myfaces/source/myfaces-core-assembly-2.3-next-M2-src.zip"
+"myfaces-core-2.3-next-M3": [
+"myfaces/source/myfaces-core-assembly-2.3-next-M3-src.tar.gz",
+"myfaces/source/myfaces-core-assembly-2.3-next-M3-src.zip"
 ],
 "myfaces-core-2.3.6": [
 "myfaces/source/myfaces-core-assembly-2.3.6-src.tar.gz",
@@ -10226,6 +10225,19 @@
 "tomcat/tomcat-10/v10.0.0-M6/src/apache-tomcat-10.0.0-M6-src.tar.gz",
 "tomcat/tomcat-10/v10.0.0-M6/src/apache-tomcat-10.0.0-M6-src.zip"
 ],
+"apache-tomcat-10.0.0-M7": [
+"tomcat/tomcat-10/v10.0.0-M7/bin/embed/apache-tomcat-10.0.0-M7-embed.tar.gz",
+"tomcat/tomcat-10/v10.0.0-M7/bin/embed/apache-tomcat-10.0.0-M7-embed.zip",
+"tomcat/tomcat-10/v10.0.0-M7/bin/apache-tomcat-10.0.0-M7-deployer.tar.gz",
+"tomcat/tomcat-10/v10.0.0-M7/bin/apache-tomcat-10.0.0-M7-deployer.zip",
+"tomcat/tomcat-10/v10.0.0-M7/bin/apache-tomcat-10.0.0-M7-fulldocs.tar.gz",
+"tomcat/tomcat-10/v10.0.0-M7/bin/apache-tomcat-10.0.0-M7-windows-x64.zip",
+"tomcat/tomcat-10/v10.0.0-M7/bin/apache-tomcat-10.0.0-M7.exe",
+"tomcat/tomcat-10/v10.0.0-M7/bin/apache-tomcat-10.0.0-M7.tar.gz",
+"tomcat/tomcat-10/v10.0.0-M7/bin/apache-tomcat-10.0.0-M7.zip",
+"tomcat/tomcat-10/v10.0.0-M7/src/apache-tomcat-10.0.0-M7-src.tar.gz",
+"tomcat/tomcat-10/v10.0.0-M7/src/apache-tomcat-10.0.0-M7-src.zip"
+],
 "apache-tomcat-7.0.104": [
 "tomcat/tomcat-7/v7.0.104/bin/embed/apache-tomcat-7.0.104-embed.tar.gz",
 "tomcat/tomcat-7/v7.0.104/bin/embed/apache-tomcat-7.0.104-embed.zip",
@@ -10252,6 +10264,19 @@
 "tomcat/tomcat-8/v8.5.56/src/apache-tomcat-8.5.56-src.tar.gz",
 "tomcat/tomcat-8/v8.5.56/src/apache-tomcat-8.5.56-src.zip"
 ],
+"apache-tomcat-8.5.57": [
+"tomcat/tomcat-8/v8.5.57/bin/embed/apache-tomcat-8.5.57-embed.tar.gz",
+"tomcat/tomcat-8/v8.5.57/bin/embed/apache-tomcat-8.5.57-embed.zip",
+"tomcat/tomcat-8/v8.5.57/bin/apache-tomcat-8.5.57-deployer.tar.gz",
+"tomcat/tomcat-8/v8.5.57/bin/apache-tomcat-8.5.57-deployer.zip",
+"tomcat/tomcat-8/v8.5.57/bin/apache-tomcat-8.5.57-fulldocs.tar.gz",
+"tomcat/tomcat-8/v8.5.57/bin/apache-tomcat-8.5.57-windows-x64.zip",
+"tomcat/tomcat-8/v8.5.57/bin/apache-tomcat-8.5.57.exe",
+"tomcat/tomcat-8/v8.5.57/bin/apache-tomcat-8.5.57.tar.gz",
+"tomcat/tomcat-8/v8.5.57/bin/apache-tomcat-8.5.57.zip",
+"tomcat/tomcat-8/v8.5.57/src/apache-tomcat-8.5.57-src.tar.gz",
+"tomcat/tomcat-8/v8.5.57/src/apache-tomcat-8.5.57-src.zip"
+],
 "apache-tomcat-9.0.36": [
 "tomcat/tomcat-9/v9.0.36/bin/embed/apache-tomcat-9.0.36-embed.tar.gz",
 "tomcat/tomcat-9/v9.0.36/bin/embed/apache-tomcat-9.0.36-embed.zip",
@@ -10264,6 +10289,19 @@
 "tomcat/tomcat-9/v9.0.36/bin/apache-tomcat-9.0.36.zip",
 "tomcat/tomcat-9/v9.0.36/src/apache-tomcat-9.0.36-src.tar.gz",
 "tomcat/tomcat-9/v9.0.36/src/apache-tomcat-9.0.36-src.zip"
+],
+"apache-tomcat-9.0.37": [
+"tomcat/tomcat-9/v9.0.37/bin/embed/apache-tomcat-9.0.37-embed.tar.gz",
+"tomcat/tomcat-9/v9.0.37/bin/embed/apache-tomcat-9.0.37-embed.zip",
+"tomcat/tomcat-9/v9.0.37/bin/apache-tomcat-9.0.37-deployer.tar.gz",
+"tomcat/tomcat-9/v9.0.37/bin/apache-tomcat-9.0.37-deployer.zip",
+"tomcat/tomcat-9/v9.0.37/bin/apache-tomcat-9.0.37-fulldocs.tar.gz",
+"tomcat/tomcat-9/v9.0.37/bin/apache-tomcat-9.0.37-windows-x64.zip",
+"tomcat/tomcat-9/v9.0.37/bin/apache-tomcat-9.0.37.exe",
+"tomcat/tomcat-9/v9.0.37/bin/apache-tomcat-9.0.37.tar.gz",
+"tomcat/tomcat-9/v9.0.37/bin/apache-tomcat-9.0.37.zip",
+"tomcat/tomcat-9/v9.0.37/src/apache-tomcat-9.0.37-src.tar.gz",
+"tomcat/tomcat-9/v9.0.37/src/apache-tomcat-9.0.37-src.zip"
 ],
 "taglibs-standard-1.2.5": [
 "tomcat/taglibs/taglibs-standard-1.2.5/taglibs-standard-1.2.5-source-release.zip"
