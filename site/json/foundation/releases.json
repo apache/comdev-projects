@@ -599,7 +599,6 @@
 "curator": {
 "apache-curator-2.13.0": "2018-12-03",
 "apache-curator-4.3.0": "2020-02-29",
-"apache-curator-5.0.0": "2020-05-28",
 "apache-curator-5.1.0": "2020-07-03"
 },
 "cxf": {
@@ -656,7 +655,8 @@
 },
 "dubbo": {
 "apache-dubbo-2.6.8": "2020-03-10",
-"apache-dubbo-2.7.7": "2020-05-18"
+"apache-dubbo-2.7.7": "2020-05-18",
+"dubbo-hessian-lite-3.2.8": "2020-07-06"
 },
 "eagle": {
 "apache-eagle-0.3.0-incubating": "2016-04-11",
@@ -792,10 +792,12 @@
 },
 "flink": {
 "apache-flink-1.10.1": "2020-05-07",
+"apache-flink-1.11.0": "2020-06-30",
 "apache-flink-1.9.3": "2020-04-17",
 "apache-flink-statefun-2.0.0": "2020-04-03",
 "apache-flink-statefun-2.1.0": "2020-06-01",
 "flink-1.10.1": "2020-05-07",
+"flink-1.11.0": "2020-06-30",
 "flink-1.9.3": "2020-04-17",
 "flink-shaded-10.0": "2020-02-12",
 "flink-shaded-11.0": "2020-05-25",
@@ -1016,7 +1018,7 @@
 "apache-daffodil-2.6.0.incubating-1.noarch": "2020-04-09"
 },
 "incubator-datasketches": {
-"apache-datasketches-hive-1.0.0-incubating": "2019-10-11",
+"apache-datasketches-hive-1.1.0-incubating": "2020-07-06",
 "apache-datasketches-java-1.3.0-incubating": "2020-05-07",
 "apache-datasketches-memory-1.2.0-incubating": "2019-11-21",
 "apache-datasketches-pig-1.0.0-incubating": "2019-10-19",
@@ -1377,7 +1379,7 @@
 },
 "johnzon": {
 "apache-johnzon-1.0.2": "2018-12-18",
-"apache-johnzon-1.2.7": "2020-06-04",
+"apache-johnzon-1.2.8": "2020-07-06",
 "johnzon-1.1.13": "2019-08-05"
 },
 "jspwiki": {
