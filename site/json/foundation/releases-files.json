@@ -161,6 +161,11 @@
 "any23/2.3/apache-any23-office-scraper-2.3.zip"
 ]
 },
+"apisix": {
+"apache-apisix-1.4.1": [
+"apisix/1.4.1/apache-apisix-1.4.1-src.tar.gz"
+]
+},
 "apr": {
 "apr-1.6.5": [
 "apr/apr-1.6.5-win32-src.zip",
@@ -1020,8 +1025,8 @@
 "apache-cassandra-3.11.6": [
 "cassandra/3.11.6/apache-cassandra-3.11.6-src.tar.gz"
 ],
-"apache-cassandra-4.0-alpha4": [
-"cassandra/4.0-alpha4/apache-cassandra-4.0-alpha4-src.tar.gz"
+"apache-cassandra-4.0-beta1": [
+"cassandra/4.0-beta1/apache-cassandra-4.0-beta1-src.tar.gz"
 ],
 "cassandra-2.1.21-1": [
 "cassandra/redhat/21x/cassandra-2.1.21-1.src.rpm"
@@ -1047,11 +1052,11 @@
 "cassandra-3.11.6-1.noarch": [
 "cassandra/redhat/311x/cassandra-3.11.6-1.noarch.rpm"
 ],
-"cassandra-4.0~alpha4-1": [
-"cassandra/redhat/40x/cassandra-4.0~alpha4-1.src.rpm"
+"cassandra-4.0~beta1-1": [
+"cassandra/redhat/40x/cassandra-4.0~beta1-1.src.rpm"
 ],
-"cassandra-4.0~alpha4-1.noarch": [
-"cassandra/redhat/40x/cassandra-4.0~alpha4-1.noarch.rpm"
+"cassandra-4.0~beta1-1.noarch": [
+"cassandra/redhat/40x/cassandra-4.0~beta1-1.noarch.rpm"
 ],
 "cassandra-tools-2.1.21-1.noarch": [
 "cassandra/redhat/21x/cassandra-tools-2.1.21-1.noarch.rpm"
@@ -1065,8 +1070,8 @@
 "cassandra-tools-3.11.6-1.noarch": [
 "cassandra/redhat/311x/cassandra-tools-3.11.6-1.noarch.rpm"
 ],
-"cassandra-tools-4.0~alpha4-1.noarch": [
-"cassandra/redhat/40x/cassandra-tools-4.0~alpha4-1.noarch.rpm"
+"cassandra-tools-4.0~beta1-1.noarch": [
+"cassandra/redhat/40x/cassandra-tools-4.0~beta1-1.noarch.rpm"
 ],
 "cassandra-tools_2.2.16_all": [
 "cassandra/2.2.16/debian/cassandra-tools_2.2.16_all.deb"
@@ -1077,8 +1082,8 @@
 "cassandra-tools_3.11.6_all": [
 "cassandra/3.11.6/debian/cassandra-tools_3.11.6_all.deb"
 ],
-"cassandra-tools_4.0~alpha4_all": [
-"cassandra/4.0-alpha4/debian/cassandra-tools_4.0~alpha4_all.deb"
+"cassandra-tools_4.0~beta1_all": [
+"cassandra/4.0-beta1/debian/cassandra-tools_4.0~beta1_all.deb"
 ],
 "cassandra_2.2.16": [
 "cassandra/2.2.16/debian/cassandra_2.2.16.tar.gz"
@@ -1107,14 +1112,14 @@
 "cassandra_3.11.6_all": [
 "cassandra/3.11.6/debian/cassandra_3.11.6_all.deb"
 ],
-"cassandra_4.0~alpha4": [
-"cassandra/4.0-alpha4/debian/cassandra_4.0~alpha4.tar.gz"
+"cassandra_4.0~beta1": [
+"cassandra/4.0-beta1/debian/cassandra_4.0~beta1.tar.gz"
 ],
-"cassandra_4.0~alpha4.dsc": [
-"cassandra/4.0-alpha4/debian/cassandra_4.0~alpha4.dsc"
+"cassandra_4.0~beta1.dsc": [
+"cassandra/4.0-beta1/debian/cassandra_4.0~beta1.dsc"
 ],
-"cassandra_4.0~alpha4_all": [
-"cassandra/4.0-alpha4/debian/cassandra_4.0~alpha4_all.deb"
+"cassandra_4.0~beta1_all": [
+"cassandra/4.0-beta1/debian/cassandra_4.0~beta1_all.deb"
 ]
 },
 "cayenne": {
@@ -1768,8 +1773,8 @@
 "cordova-plugin-screen-orientation-3.0.2": [
 "cordova/plugins/cordova-plugin-screen-orientation-3.0.2.tgz"
 ],
-"cordova-plugin-splashscreen-5.0.4": [
-"cordova/plugins/cordova-plugin-splashscreen-5.0.4.tgz"
+"cordova-plugin-splashscreen-6.0.0": [
+"cordova/plugins/cordova-plugin-splashscreen-6.0.0.tgz"
 ],
 "cordova-plugin-statusbar-2.4.3": [
 "cordova/plugins/cordova-plugin-statusbar-2.4.3.tgz"
@@ -2037,6 +2042,9 @@
 ],
 "apache-druid-0.18.1": [
 "druid/0.18.1/apache-druid-0.18.1-src.tar.gz"
+],
+"apache-druid-0.19.0": [
+"druid/0.19.0/apache-druid-0.19.0-src.tar.gz"
 ]
 },
 "dubbo": {
@@ -2103,9 +2111,9 @@
 "felix/org.apache.felix.cm.json-1.0.2-source-release.tar.gz",
 "felix/org.apache.felix.cm.json-1.0.2-source-release.zip"
 ],
-"org.apache.felix.configadmin-1.9.16": [
-"felix/org.apache.felix.configadmin-1.9.16-source-release.tar.gz",
-"felix/org.apache.felix.configadmin-1.9.16-source-release.zip"
+"org.apache.felix.configadmin-1.9.18": [
+"felix/org.apache.felix.configadmin-1.9.18-source-release.tar.gz",
+"felix/org.apache.felix.configadmin-1.9.18-source-release.zip"
 ],
 "org.apache.felix.configurator-1.0.10": [
 "felix/org.apache.felix.configurator-1.0.10-source-release.tar.gz",
@@ -2223,9 +2231,9 @@
 "felix/org.apache.felix.http.bundle-3.0.0-source-release.tar.gz",
 "felix/org.apache.felix.http.bundle-3.0.0-source-release.zip"
 ],
-"org.apache.felix.http.jetty-4.0.18": [
-"felix/org.apache.felix.http.jetty-4.0.18-source-release.tar.gz",
-"felix/org.apache.felix.http.jetty-4.0.18-source-release.zip"
+"org.apache.felix.http.jetty-4.0.20": [
+"felix/org.apache.felix.http.jetty-4.0.20-source-release.tar.gz",
+"felix/org.apache.felix.http.jetty-4.0.20-source-release.zip"
 ],
 "org.apache.felix.http.proxy-3.0.6": [
 "felix/org.apache.felix.http.proxy-3.0.6-source-release.tar.gz",
@@ -2440,9 +2448,9 @@
 "felix/org.apache.felix.utils-1.11.0-source-release.tar.gz",
 "felix/org.apache.felix.utils-1.11.0-source-release.zip"
 ],
-"org.apache.felix.webconsole-4.5.2": [
-"felix/org.apache.felix.webconsole-4.5.2-source-release.tar.gz",
-"felix/org.apache.felix.webconsole-4.5.2-source-release.zip"
+"org.apache.felix.webconsole-4.5.4": [
+"felix/org.apache.felix.webconsole-4.5.4-source-release.tar.gz",
+"felix/org.apache.felix.webconsole-4.5.4-source-release.zip"
 ],
 "org.osgi.compendium-1.4.0": [
 "felix/org.osgi.compendium-1.4.0-project.tar.gz",
@@ -3519,6 +3527,9 @@
 ],
 "apache-ratis-incubating-0.5.0": [
 "incubator/ratis/0.5.0/apache-ratis-incubating-0.5.0-src.tar.gz"
+],
+"apache-ratis-incubating-1.0.0": [
+"incubator/ratis/1.0.0/apache-ratis-incubating-1.0.0-src.tar.gz"
 ],
 "ratis-thirdparty-0.2.0-incubating": [
 "incubator/ratis/thirdparty/0.2.0/ratis-thirdparty-0.2.0-incubating-src.tar.gz"
@@ -7706,11 +7717,11 @@
 "nifi-nar-maven-plugin-1.3.1": [
 "nifi/nifi-nar-maven-plugin-1.3.1/nifi-nar-maven-plugin-1.3.1-source-release.zip"
 ],
-"nifi-registry-0.5.0": [
-"nifi/nifi-registry/nifi-registry-0.5.0/nifi-registry-0.5.0-source-release.zip"
-],
 "nifi-registry-0.6.0": [
 "nifi/nifi-registry/nifi-registry-0.6.0/nifi-registry-0.6.0-source-release.zip"
+],
+"nifi-registry-0.7.0": [
+"nifi/nifi-registry/nifi-registry-0.7.0/nifi-registry-0.7.0-source-release.zip"
 ]
 },
 "nutch": {
@@ -9128,25 +9139,25 @@
 "org.apache.sling.extensions.webconsolesecurityprovider-1.2.4": [
 "sling/org.apache.sling.extensions.webconsolesecurityprovider-1.2.4-source-release.zip"
 ],
-"org.apache.sling.feature-1.2.2": [
-"sling/org.apache.sling.feature-1.2.2-source-release.zip"
+"org.apache.sling.feature-1.2.4": [
+"sling/org.apache.sling.feature-1.2.4-source-release.zip"
 ],
-"org.apache.sling.feature.analyser-1.3.0": [
-"sling/org.apache.sling.feature.analyser-1.3.0-source-release.zip"
+"org.apache.sling.feature.analyser-1.3.2": [
+"sling/org.apache.sling.feature.analyser-1.3.2-source-release.zip"
 ],
-"org.apache.sling.feature.apiregions-1.1.4": [
-"sling/org.apache.sling.feature.apiregions-1.1.4-source-release.zip"
+"org.apache.sling.feature.apiregions-1.1.6": [
+"sling/org.apache.sling.feature.apiregions-1.1.6-source-release.zip"
 ],
-"org.apache.sling.feature.cpconverter-1.0.10": [
-"sling/org.apache.sling.feature.cpconverter-1.0.10-source-release.zip",
-"sling/org.apache.sling.feature.cpconverter-1.0.10.tar.gz",
-"sling/org.apache.sling.feature.cpconverter-1.0.10.zip"
+"org.apache.sling.feature.cpconverter-1.0.12": [
+"sling/org.apache.sling.feature.cpconverter-1.0.12-source-release.zip",
+"sling/org.apache.sling.feature.cpconverter-1.0.12.tar.gz",
+"sling/org.apache.sling.feature.cpconverter-1.0.12.zip"
 ],
 "org.apache.sling.feature.diff-0.0.6": [
 "sling/org.apache.sling.feature.diff-0.0.6-source-release.zip"
 ],
-"org.apache.sling.feature.extension.apiregions-1.1.4": [
-"sling/org.apache.sling.feature.extension.apiregions-1.1.4-source-release.zip"
+"org.apache.sling.feature.extension.apiregions-1.1.6": [
+"sling/org.apache.sling.feature.extension.apiregions-1.1.6-source-release.zip"
 ],
 "org.apache.sling.feature.extension.content-1.0.6": [
 "sling/org.apache.sling.feature.extension.content-1.0.6-source-release.zip"
@@ -9700,8 +9711,8 @@
 "sling-slingstart-archetype-1.0.8": [
 "sling/sling-slingstart-archetype-1.0.8-source-release.zip"
 ],
-"slingfeature-maven-plugin-1.3.8": [
-"sling/slingfeature-maven-plugin-1.3.8-source-release.zip"
+"slingfeature-maven-plugin-1.3.10": [
+"sling/slingfeature-maven-plugin-1.3.10-source-release.zip"
 ],
 "slingstart-maven-plugin-1.9.12": [
 "sling/slingstart-maven-plugin-1.9.12-source-release.zip"
@@ -11375,9 +11386,9 @@
 "wicket/6.30.0/apache-wicket-6.30.0.tar.gz",
 "wicket/6.30.0/apache-wicket-6.30.0.zip"
 ],
-"apache-wicket-7.16.0": [
-"wicket/7.16.0/apache-wicket-7.16.0.tar.gz",
-"wicket/7.16.0/apache-wicket-7.16.0.zip"
+"apache-wicket-7.17.0": [
+"wicket/7.17.0/apache-wicket-7.17.0.tar.gz",
+"wicket/7.17.0/apache-wicket-7.17.0.zip"
 ],
 "apache-wicket-8.9.0": [
 "wicket/8.9.0/apache-wicket-8.9.0.tar.gz",
