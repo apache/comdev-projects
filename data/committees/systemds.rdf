@@ -20,16 +20,16 @@
          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
          xmlns:asfext="http://projects.apache.org/ns/asfext#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/">
-  <asfext:pmc rdf:about="systemml">
-    <asfext:name>Apache SystemML</asfext:name>
+  <asfext:pmc rdf:about="systemds">
+    <asfext:name>Apache SystemDS</asfext:name>
     <asfext:charter>
-    The mission of Apache SystemML is the creation and maintenance of software
+    The mission of Apache SystemDS is the creation and maintenance of software
     related to declarative,
     large-scale machine learning that compiles to hybrid runtime
     execution plans ranging from single node, in-memory computations,
     to distributed computations such as on Apache Hadoop MapReduce or
     Apache Spark.
     </asfext:charter>
-    <foaf:homepage rdf:resource="http://systemml.apache.org/"/>
+    <foaf:homepage rdf:resource="http://systemds.apache.org/"/>
   </asfext:pmc>
 </rdf:RDF>
