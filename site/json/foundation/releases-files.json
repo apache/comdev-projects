@@ -2120,9 +2120,9 @@
 "felix/org.apache.felix.configadmin-1.9.18-source-release.tar.gz",
 "felix/org.apache.felix.configadmin-1.9.18-source-release.zip"
 ],
-"org.apache.felix.configurator-1.0.10": [
-"felix/org.apache.felix.configurator-1.0.10-source-release.tar.gz",
-"felix/org.apache.felix.configurator-1.0.10-source-release.zip"
+"org.apache.felix.configurator-1.0.12": [
+"felix/org.apache.felix.configurator-1.0.12-source-release.tar.gz",
+"felix/org.apache.felix.configurator-1.0.12-source-release.zip"
 ],
 "org.apache.felix.connect-0.1.0": [
 "felix/org.apache.felix.connect-0.1.0-source-release.tar.gz",
@@ -2787,38 +2787,20 @@
 ]
 },
 "groovy": {
-"apache-groovy-2.4.19": [
-"groovy/2.4.19/sources/apache-groovy-src-2.4.19.zip"
-],
 "apache-groovy-2.4.20": [
 "groovy/2.4.20/sources/apache-groovy-src-2.4.20.zip"
-],
-"apache-groovy-2.5.12": [
-"groovy/2.5.12/sources/apache-groovy-src-2.5.12.zip"
 ],
 "apache-groovy-2.5.13": [
 "groovy/2.5.13/sources/apache-groovy-src-2.5.13.zip"
 ],
-"apache-groovy-3.0.4": [
-"groovy/3.0.4/sources/apache-groovy-src-3.0.4.zip"
-],
 "apache-groovy-3.0.5": [
 "groovy/3.0.5/sources/apache-groovy-src-3.0.5.zip"
-],
-"apache-groovy-sdk-2.4.19": [
-"groovy/2.4.19/distribution/apache-groovy-sdk-2.4.19.zip"
 ],
 "apache-groovy-sdk-2.4.20": [
 "groovy/2.4.20/distribution/apache-groovy-sdk-2.4.20.zip"
 ],
-"apache-groovy-sdk-2.5.12": [
-"groovy/2.5.12/distribution/apache-groovy-sdk-2.5.12.zip"
-],
 "apache-groovy-sdk-2.5.13": [
 "groovy/2.5.13/distribution/apache-groovy-sdk-2.5.13.zip"
-],
-"apache-groovy-sdk-3.0.4": [
-"groovy/3.0.4/distribution/apache-groovy-sdk-3.0.4.zip"
 ],
 "apache-groovy-sdk-3.0.5": [
 "groovy/3.0.5/distribution/apache-groovy-sdk-3.0.5.zip"
@@ -3487,8 +3469,14 @@
 "apache-nuttx-9.0.0-incubating": [
 "incubator/nuttx/9.0.0/apache-nuttx-9.0.0-incubating.tar.gz"
 ],
+"apache-nuttx-9.1.0-incubating": [
+"incubator/nuttx/9.1.0/apache-nuttx-9.1.0-incubating.tar.gz"
+],
 "apache-nuttx-apps-9.0.0-incubating": [
 "incubator/nuttx/9.0.0/apache-nuttx-apps-9.0.0-incubating.tar.gz"
+],
+"apache-nuttx-apps-9.1.0-incubating": [
+"incubator/nuttx/9.1.0/apache-nuttx-apps-9.1.0-incubating.tar.gz"
 ]
 },
 "incubator-omid": {
@@ -4118,56 +4106,14 @@
 "james/server/james-2.3.2.1-src.tar.gz",
 "james/server/james-2.3.2.1-src.zip"
 ],
-"james-3.3.0": [
-"james/server/3.3.0/james-project-3.3.0-src.zip"
-],
-"james-3.4.0": [
-"james/server/3.4.0/james-project-3.4.0-source-release.zip"
-],
-"james-cassandra-guice-3.2.0": [
-"james/server/3.2.0/james-cassandra-guice-3.2.0.zip"
-],
-"james-cassandra-ldap-guice-3.2.0": [
-"james/server/3.2.0/james-cassandra-ldap-guice-3.2.0.zip"
-],
-"james-jpa-guice-3.2.0": [
-"james/server/3.2.0/james-jpa-guice-3.2.0.zip"
-],
-"james-jpa-smtp-guice-3.2.0": [
-"james/server/3.2.0/james-jpa-smtp-guice-3.2.0.zip"
+"james-3.5.0": [
+"james/server/3.5.0/james-project-3.5.0-source-release.zip"
 ],
 "james-mime4j-sources-0.8.3": [
 "james/mime4j/0.8.3/james-mime4j-sources-0.8.3.zip"
 ],
-"james-server-app-3.2.0": [
-"james/server/3.2.0/james-server-app-3.2.0-app.zip"
-],
-"james-server-app-3.3.0": [
-"james/server/3.3.0/james-server-app-3.3.0-app.zip"
-],
-"james-server-app-3.4.0": [
-"james/server/3.4.0/james-server-app-3.4.0-app.zip"
-],
-"james-server-cassandra-guice-3.3.0": [
-"james/server/3.3.0/james-server-cassandra-guice-3.3.0.zip"
-],
-"james-server-cassandra-ldap-guice-3.3.0": [
-"james/server/3.3.0/james-server-cassandra-ldap-guice-3.3.0.zip"
-],
-"james-server-cassandra-rabbitmq-guice-3.3.0": [
-"james/server/3.3.0/james-server-cassandra-rabbitmq-guice-3.3.0.zip"
-],
-"james-server-cassandra-rabbitmq-ldap-guice-3.3.0": [
-"james/server/3.3.0/james-server-cassandra-rabbitmq-ldap-guice-3.3.0.zip"
-],
-"james-server-jpa-guice-3.3.0": [
-"james/server/3.3.0/james-server-jpa-guice-3.3.0.zip"
-],
-"james-server-jpa-smtp-guice-3.3.0": [
-"james/server/3.3.0/james-server-jpa-smtp-guice-3.3.0.zip"
-],
-"james-server-sources-3.2.0": [
-"james/server/3.2.0/james-server-sources-3.2.0.zip"
+"james-server-app-3.5.0": [
+"james/server/3.5.0/james-server-app-3.5.0-app.zip"
 ]
 },
 "jclouds": {
