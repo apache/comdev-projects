@@ -19,6 +19,7 @@
 "activemq-5.16.0": "2020-07-01",
 "activemq-artemis-native-1.0.2": "2020-06-17",
 "activemq-cli-tools-0.1.0": "2017-05-12",
+"activemq-cli-tools-0.2.0": "2020-07-22",
 "activemq-cpp-library-3.9.5": "2019-01-25",
 "apache-artemis-2.13.0": "2020-05-18",
 "apache-artemis-2.14.0": "2020-07-09"
@@ -149,10 +150,10 @@
 "tx-control-1.0.1": "2019-02-27"
 },
 "arrow": {
-"apache-arrow-0.15.1": "2019-11-01",
 "apache-arrow-0.16.0": "2020-04-21",
 "apache-arrow-0.17.0": "2020-04-20",
-"apache-arrow-0.17.1": "2020-05-18"
+"apache-arrow-0.17.1": "2020-05-18",
+"apache-arrow-1.0.0": "2020-07-24"
 },
 "asterixdb": {
 "apache-asterixdb-0.9.1": "2017-04-22",
@@ -262,8 +263,8 @@
 "bval-2.0.4": "2020-07-14"
 },
 "calcite": {
-"apache-calcite-1.22.0": "2020-03-05",
 "apache-calcite-1.23.0": "2020-05-23",
+"apache-calcite-1.24.0": "2020-07-24",
 "apache-calcite-avatica-1.16.0": "2019-12-18",
 "apache-calcite-avatica-1.17.0": "2020-06-21",
 "apache-calcite-avatica-go-4.0.0": "2019-05-15",
@@ -286,6 +287,7 @@
 "apache-camel-k-runtime-1.0.9": "2019-12-24",
 "apache-camel-k-runtime-1.1.0": "2020-02-28",
 "apache-camel-k-runtime-1.3.0": "2020-06-09",
+"apache-camel-k-runtime-1.4.1": "2020-07-24",
 "camel-k-client-0.3.4-linux": "2019-06-11",
 "camel-k-client-0.3.4-mac": "2019-06-11",
 "camel-k-client-0.3.4-windows": "2019-06-11",
@@ -313,6 +315,9 @@
 "camel-k-client-1.0.1-linux": "2020-06-30",
 "camel-k-client-1.0.1-mac": "2020-06-30",
 "camel-k-client-1.0.1-windows": "2020-06-30",
+"camel-k-client-1.1.0-linux": "2020-07-24",
+"camel-k-client-1.1.0-mac": "2020-07-24",
+"camel-k-client-1.1.0-windows": "2020-07-24",
 "camel-k-examples-0.3.4": "2019-06-11",
 "camel-k-examples-1.0.0": "2020-06-09",
 "camel-k-examples-1.0.0-M1": "2019-07-29",
@@ -322,6 +327,7 @@
 "camel-k-examples-1.0.0-RC1": "2019-12-24",
 "camel-k-examples-1.0.0-RC2": "2020-02-28",
 "camel-k-examples-1.0.1": "2020-06-30",
+"camel-k-examples-1.1.0": "2020-07-24",
 "camel-k-sources-0.3.4": "2019-06-11",
 "camel-k-sources-1.0.0": "2020-06-09",
 "camel-k-sources-1.0.0-M1": "2019-07-29",
@@ -330,7 +336,8 @@
 "camel-k-sources-1.0.0-M4": "2019-11-18",
 "camel-k-sources-1.0.0-RC1": "2019-12-24",
 "camel-k-sources-1.0.0-RC2": "2020-02-28",
-"camel-k-sources-1.0.1": "2020-06-30"
+"camel-k-sources-1.0.1": "2020-06-30",
+"camel-k-sources-1.1.0": "2020-07-24"
 },
 "carbondata": {
 "apache-carbondata-1.4.1": "2018-08-14",
@@ -346,38 +353,38 @@
 },
 "cassandra": {
 "apache-cassandra-2.1.21": "2019-02-11",
-"apache-cassandra-2.2.16": "2020-02-10",
+"apache-cassandra-2.2.17": "2020-07-14",
 "apache-cassandra-3.0.20": "2020-02-10",
-"apache-cassandra-3.11.6": "2020-02-10",
+"apache-cassandra-3.11.7": "2020-07-14",
 "apache-cassandra-4.0-beta1": "2020-07-17",
 "cassandra-2.1.21-1": "2019-02-11",
 "cassandra-2.1.21-1.noarch": "2019-02-11",
-"cassandra-2.2.16-1": "2020-02-10",
-"cassandra-2.2.16-1.noarch": "2020-02-10",
+"cassandra-2.2.17-1": "2020-07-14",
+"cassandra-2.2.17-1.noarch": "2020-07-14",
 "cassandra-3.0.20-1": "2020-02-10",
 "cassandra-3.0.20-1.noarch": "2020-02-10",
-"cassandra-3.11.6-1": "2020-02-10",
-"cassandra-3.11.6-1.noarch": "2020-02-10",
+"cassandra-3.11.7-1": "2020-07-14",
+"cassandra-3.11.7-1.noarch": "2020-07-14",
 "cassandra-4.0~beta1-1": "2020-07-17",
 "cassandra-4.0~beta1-1.noarch": "2020-07-17",
 "cassandra-tools-2.1.21-1.noarch": "2019-02-11",
-"cassandra-tools-2.2.16-1.noarch": "2020-02-10",
+"cassandra-tools-2.2.17-1.noarch": "2020-07-14",
 "cassandra-tools-3.0.20-1.noarch": "2020-02-10",
-"cassandra-tools-3.11.6-1.noarch": "2020-02-10",
+"cassandra-tools-3.11.7-1.noarch": "2020-07-14",
 "cassandra-tools-4.0~beta1-1.noarch": "2020-07-17",
-"cassandra-tools_2.2.16_all": "2020-02-10",
+"cassandra-tools_2.2.17_all": "2020-07-14",
 "cassandra-tools_3.0.20_all": "2020-02-10",
-"cassandra-tools_3.11.6_all": "2020-02-10",
+"cassandra-tools_3.11.7_all": "2020-07-14",
 "cassandra-tools_4.0~beta1_all": "2020-07-17",
-"cassandra_2.2.16": "2020-02-10",
-"cassandra_2.2.16.dsc": "2020-02-10",
-"cassandra_2.2.16_all": "2020-02-10",
+"cassandra_2.2.17": "2020-07-14",
+"cassandra_2.2.17.dsc": "2020-07-14",
+"cassandra_2.2.17_all": "2020-07-14",
 "cassandra_3.0.20": "2020-02-10",
 "cassandra_3.0.20.dsc": "2020-02-10",
 "cassandra_3.0.20_all": "2020-02-10",
-"cassandra_3.11.6": "2020-02-10",
-"cassandra_3.11.6.dsc": "2020-02-10",
-"cassandra_3.11.6_all": "2020-02-10",
+"cassandra_3.11.7": "2020-07-14",
+"cassandra_3.11.7.dsc": "2020-07-14",
+"cassandra_3.11.7_all": "2020-07-14",
 "cassandra_4.0~beta1": "2020-07-17",
 "cassandra_4.0~beta1.dsc": "2020-07-17",
 "cassandra_4.0~beta1_all": "2020-07-17"
@@ -536,7 +543,7 @@
 "commons-release-plugin-1.7": "2019-09-02",
 "commons-rng-1.3": "2019-11-11",
 "commons-scxml-0.9": "2013-03-03",
-"commons-text-1.8": "2019-09-02",
+"commons-text-1.9": "2020-07-24",
 "commons-validator-1.6": "2017-02-20",
 "commons-vfs-2.6.0": "2020-01-09",
 "commons-vfs2-distribution-2.2": "2017-10-06",
@@ -666,9 +673,9 @@
 "apache-druid-0.19.0": "2020-07-20"
 },
 "dubbo": {
-"apache-dubbo-2.6.8": "2020-03-10",
+"apache-dubbo-2.6.9": "2020-07-24",
 "apache-dubbo-2.7.7": "2020-05-18",
-"dubbo-hessian-lite-3.2.8": "2020-07-06"
+"dubbo-hessian-lite-3.2.9": "2020-07-24"
 },
 "eagle": {
 "apache-eagle-0.3.0-incubating": "2016-04-11",
@@ -1310,7 +1317,7 @@
 "jackrabbit-2.16.6": "2020-04-02",
 "jackrabbit-2.18.5": "2020-03-03",
 "jackrabbit-2.20.1": "2020-06-03",
-"jackrabbit-2.21.2": "2020-07-03",
+"jackrabbit-2.21.3": "2020-07-21",
 "jackrabbit-2.4.8": "2017-07-17",
 "jackrabbit-2.6.10": "2018-03-05",
 "jackrabbit-2.8.10": "2019-02-28",
@@ -1343,7 +1350,7 @@
 "jackrabbit-jca-2.16.6": "2020-04-02",
 "jackrabbit-jca-2.18.5": "2020-03-03",
 "jackrabbit-jca-2.20.1": "2020-06-03",
-"jackrabbit-jca-2.21.2": "2020-07-03",
+"jackrabbit-jca-2.21.3": "2020-07-21",
 "jackrabbit-jca-2.4.8": "2017-07-17",
 "jackrabbit-jca-2.6.10": "2018-03-05",
 "jackrabbit-jca-2.8.10": "2019-02-28",
@@ -1511,7 +1518,8 @@
 "Apache-Lucene.Net-4.8.0-beta00007": "2019-12-29",
 "Apache-Lucene.Net-4.8.0-beta00008": "2020-05-05",
 "Apache-Lucene.Net-4.8.0-beta00009": "2020-06-30",
-"Apache-Lucene.Net-4.8.0-beta00010": "2020-07-19"
+"Apache-Lucene.Net-4.8.0-beta00010": "2020-07-19",
+"Apache-Lucene.Net-4.8.0-beta00011": "2020-07-24"
 },
 "madlib": {
 "apache-madlib-1.17.0": "2020-04-06"
@@ -2785,8 +2793,8 @@
 "apache-qpid-jms-0.51.0": "2020-04-21",
 "apache-qpid-jms-0.52.0": "2020-06-03",
 "apache-qpid-jms-amqp-0-x-6.4.0": "2020-05-28",
-"apache-qpid-proton-j-0.33.4": "2020-04-02",
 "apache-qpid-proton-j-0.33.5": "2020-05-29",
+"apache-qpid-proton-j-0.33.6": "2020-07-21",
 "qpid-dispatch-1.11.0": "2020-03-16",
 "qpid-dispatch-1.12.0": "2020-04-27",
 "qpid-interop-test-0.2.0": "2018-08-24",
@@ -2821,7 +2829,7 @@
 "rocketmq-client-cpp-2.1.0": "2020-03-26",
 "rocketmq-client-go-1.2.4": "2019-11-25",
 "rocketmq-client-go-2.0.0": "2020-04-03",
-"rocketmq-spring-all-2.1.0": "2020-02-21"
+"rocketmq-spring-all-2.1.1": "2020-07-24"
 },
 "roller": {
 "apache-roller-6.0.0": "2019-12-25",
@@ -3049,7 +3057,7 @@
 "org.apache.sling.extensions.webconsolebranding-1.0.2": "2017-05-22",
 "org.apache.sling.extensions.webconsolesecurityprovider-1.2.4": "2019-08-19",
 "org.apache.sling.feature-1.2.4": "2020-07-20",
-"org.apache.sling.feature.analyser-1.3.2": "2020-07-20",
+"org.apache.sling.feature.analyser-1.3.4": "2020-07-24",
 "org.apache.sling.feature.apiregions-1.1.6": "2020-07-20",
 "org.apache.sling.feature.cpconverter-1.0.12": "2020-07-20",
 "org.apache.sling.feature.diff-0.0.6": "2020-01-24",
@@ -3235,7 +3243,7 @@
 "sling-maven-plugin.parent-2.4.2": "2019-06-06",
 "sling-servlet-archetype-1.0.4": "2015-10-19",
 "sling-slingstart-archetype-1.0.8": "2018-10-23",
-"slingfeature-maven-plugin-1.3.10": "2020-07-20",
+"slingfeature-maven-plugin-1.3.12": "2020-07-24",
 "slingstart-maven-plugin-1.9.12": "2020-05-03"
 },
 "spamassassin": {
