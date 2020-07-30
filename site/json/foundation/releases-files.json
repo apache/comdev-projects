@@ -602,9 +602,13 @@
 ],
 "apache-beam-2.22.0": [
 "beam/2.22.0/python/apache-beam-2.22.0.zip",
-"beam/2.22.0/apache-beam-2.22.0-source-release.zip",
-"beam/latest/python/apache-beam-2.22.0.zip",
-"beam/latest/apache-beam-2.22.0-source-release.zip"
+"beam/2.22.0/apache-beam-2.22.0-source-release.zip"
+],
+"apache-beam-2.23.0": [
+"beam/2.23.0/python/apache-beam-2.23.0.zip",
+"beam/2.23.0/apache-beam-2.23.0-source-release.zip",
+"beam/latest/python/apache-beam-2.23.0.zip",
+"beam/latest/apache-beam-2.23.0-source-release.zip"
 ],
 "apache-beam-28d05d317a39b5d60a31988c69d1fb8a9c5006fc": [
 "beam/vendor/beam-vendor-grpc-1_26_0/0.3/apache-beam-28d05d317a39b5d60a31988c69d1fb8a9c5006fc-source-release.zip"
@@ -1045,8 +1049,8 @@
 "apache-cassandra-2.2.17": [
 "cassandra/2.2.17/apache-cassandra-2.2.17-src.tar.gz"
 ],
-"apache-cassandra-3.0.20": [
-"cassandra/3.0.20/apache-cassandra-3.0.20-src.tar.gz"
+"apache-cassandra-3.0.21": [
+"cassandra/3.0.21/apache-cassandra-3.0.21-src.tar.gz"
 ],
 "apache-cassandra-3.11.7": [
 "cassandra/3.11.7/apache-cassandra-3.11.7-src.tar.gz"
@@ -1066,11 +1070,11 @@
 "cassandra-2.2.17-1.noarch": [
 "cassandra/redhat/22x/cassandra-2.2.17-1.noarch.rpm"
 ],
-"cassandra-3.0.20-1": [
-"cassandra/redhat/30x/cassandra-3.0.20-1.src.rpm"
+"cassandra-3.0.21-1": [
+"cassandra/redhat/30x/cassandra-3.0.21-1.src.rpm"
 ],
-"cassandra-3.0.20-1.noarch": [
-"cassandra/redhat/30x/cassandra-3.0.20-1.noarch.rpm"
+"cassandra-3.0.21-1.noarch": [
+"cassandra/redhat/30x/cassandra-3.0.21-1.noarch.rpm"
 ],
 "cassandra-3.11.7-1": [
 "cassandra/redhat/311x/cassandra-3.11.7-1.src.rpm"
@@ -1090,8 +1094,8 @@
 "cassandra-tools-2.2.17-1.noarch": [
 "cassandra/redhat/22x/cassandra-tools-2.2.17-1.noarch.rpm"
 ],
-"cassandra-tools-3.0.20-1.noarch": [
-"cassandra/redhat/30x/cassandra-tools-3.0.20-1.noarch.rpm"
+"cassandra-tools-3.0.21-1.noarch": [
+"cassandra/redhat/30x/cassandra-tools-3.0.21-1.noarch.rpm"
 ],
 "cassandra-tools-3.11.7-1.noarch": [
 "cassandra/redhat/311x/cassandra-tools-3.11.7-1.noarch.rpm"
@@ -1102,8 +1106,8 @@
 "cassandra-tools_2.2.17_all": [
 "cassandra/2.2.17/debian/cassandra-tools_2.2.17_all.deb"
 ],
-"cassandra-tools_3.0.20_all": [
-"cassandra/3.0.20/debian/cassandra-tools_3.0.20_all.deb"
+"cassandra-tools_3.0.21_all": [
+"cassandra/3.0.21/debian/cassandra-tools_3.0.21_all.deb"
 ],
 "cassandra-tools_3.11.7_all": [
 "cassandra/3.11.7/debian/cassandra-tools_3.11.7_all.deb"
@@ -1120,14 +1124,14 @@
 "cassandra_2.2.17_all": [
 "cassandra/2.2.17/debian/cassandra_2.2.17_all.deb"
 ],
-"cassandra_3.0.20": [
-"cassandra/3.0.20/debian/cassandra_3.0.20.tar.gz"
+"cassandra_3.0.21": [
+"cassandra/3.0.21/debian/cassandra_3.0.21.tar.gz"
 ],
-"cassandra_3.0.20.dsc": [
-"cassandra/3.0.20/debian/cassandra_3.0.20.dsc"
+"cassandra_3.0.21.dsc": [
+"cassandra/3.0.21/debian/cassandra_3.0.21.dsc"
 ],
-"cassandra_3.0.20_all": [
-"cassandra/3.0.20/debian/cassandra_3.0.20_all.deb"
+"cassandra_3.0.21_all": [
+"cassandra/3.0.21/debian/cassandra_3.0.21_all.deb"
 ],
 "cassandra_3.11.7": [
 "cassandra/3.11.7/debian/cassandra_3.11.7.tar.gz"
@@ -1320,9 +1324,9 @@
 ]
 },
 "cocoon": {
-"cocoon-2.1.12": [
-"cocoon/2.1/cocoon-2.1.12-src.tar.gz",
-"cocoon/2.1/cocoon-2.1.12-src.zip"
+"cocoon-2.1.13": [
+"cocoon/2.1/cocoon-2.1.13-src.tar.gz",
+"cocoon/2.1/cocoon-2.1.13-src.zip"
 ],
 "cocoon-2.2.0": [
 "cocoon/2.2/cocoon-2.2.0.tar.gz",
@@ -3046,6 +3050,9 @@
 ],
 "helix-1.0.0": [
 "helix/1.0.0/src/helix-1.0.0-src.zip"
+],
+"helix-1.0.1": [
+"helix/1.0.1/src/helix-1.0.1-src.zip"
 ]
 },
 "hive": {
