@@ -1444,9 +1444,9 @@
 "commons/bsf/source/bsf-3.1-src.tar.gz",
 "commons/bsf/source/bsf-3.1-src.zip"
 ],
-"commons-51": [
-"commons/commons-parent/commons-parent-51-src.tar.gz",
-"commons/commons-parent/commons-parent-51-src.zip"
+"commons-52": [
+"commons/commons-parent/commons-parent-52-src.tar.gz",
+"commons/commons-parent/commons-parent-52-src.zip"
 ],
 "commons-beanutils-1.9.4": [
 "commons/beanutils/source/commons-beanutils-1.9.4-src.tar.gz",
@@ -2064,6 +2064,9 @@
 ],
 "apache-dubbo-2.7.7": [
 "dubbo/2.7.7/apache-dubbo-2.7.7-src.zip"
+],
+"apache-dubbo-2.7.8": [
+"dubbo/2.7.8/apache-dubbo-2.7.8-source-release.zip"
 ],
 "dubbo-hessian-lite-3.2.9": [
 "dubbo/dubbo-hessian-lite/3.2.9/dubbo-hessian-lite-3.2.9-source-release.zip"
@@ -3730,6 +3733,9 @@
 "incubator-tubemq": {
 "apache-tubemq-0.3.0-incubating": [
 "incubator/tubemq/0.3.0-incubating/apache-tubemq-0.3.0-incubating-src.tar.gz"
+],
+"apache-tubemq-0.5.0-incubating": [
+"incubator/tubemq/0.5.0-incubating/apache-tubemq-0.5.0-incubating-src.tar.gz"
 ]
 },
 "incubator-tuweni": {
@@ -3893,6 +3899,9 @@
 "filevault-package-maven-plugin-1.1.2": [
 "jackrabbit/filevault-package-maven-plugin/1.1.2/filevault-package-maven-plugin-1.1.2-source-release.zip"
 ],
+"filevault-package-maven-plugin-1.1.4": [
+"jackrabbit/filevault-package-maven-plugin/1.1.4/filevault-package-maven-plugin-1.1.4-source-release.zip"
+],
 "jackrabbit-2.10.9": [
 "jackrabbit/2.10.9/jackrabbit-2.10.9-src.zip",
 "jackrabbit/2.10.9/jackrabbit-webapp-2.10.9.war"
@@ -4001,6 +4010,9 @@
 ],
 "jackrabbit-filevault-3.4.4": [
 "jackrabbit/filevault/3.4.4/jackrabbit-filevault-3.4.4-src.zip"
+],
+"jackrabbit-filevault-3.4.6": [
+"jackrabbit/filevault/3.4.6/jackrabbit-filevault-3.4.6-src.zip"
 ],
 "jackrabbit-jca-2.10.9": [
 "jackrabbit/2.10.9/jackrabbit-jca-2.10.9.rar"
@@ -8792,40 +8804,26 @@
 ]
 },
 "skywalking": {
-"apache-skywalking-apm-6.5.0": [
-"skywalking/6.5.0/apache-skywalking-apm-6.5.0-src.tgz",
-"skywalking/6.5.0/apache-skywalking-apm-6.5.0.tar.gz",
-"skywalking/6.5.0/apache-skywalking-apm-6.5.0.zip"
-],
-"apache-skywalking-apm-6.6.0": [
-"skywalking/6.6.0/apache-skywalking-apm-6.6.0-src.tgz",
-"skywalking/6.6.0/apache-skywalking-apm-6.6.0.tar.gz",
-"skywalking/6.6.0/apache-skywalking-apm-6.6.0.zip"
-],
 "apache-skywalking-apm-7.0.0": [
 "skywalking/7.0.0/apache-skywalking-apm-7.0.0-src.tgz",
 "skywalking/7.0.0/apache-skywalking-apm-7.0.0.tar.gz"
-],
-"apache-skywalking-apm-8.0.0": [
-"skywalking/8.0.0/apache-skywalking-apm-8.0.0-src.tgz",
-"skywalking/8.0.0/apache-skywalking-apm-8.0.0.tar.gz"
 ],
 "apache-skywalking-apm-8.0.1": [
 "skywalking/8.0.1/apache-skywalking-apm-8.0.1-src.tgz",
 "skywalking/8.0.1/apache-skywalking-apm-8.0.1.tar.gz"
 ],
-"apache-skywalking-apm-es7-6.6.0": [
-"skywalking/6.6.0/apache-skywalking-apm-es7-6.6.0.tar.gz",
-"skywalking/6.6.0/apache-skywalking-apm-es7-6.6.0.zip"
+"apache-skywalking-apm-8.1.0": [
+"skywalking/8.1.0/apache-skywalking-apm-8.1.0-src.tgz",
+"skywalking/8.1.0/apache-skywalking-apm-8.1.0.tar.gz"
 ],
 "apache-skywalking-apm-es7-7.0.0": [
 "skywalking/7.0.0/apache-skywalking-apm-es7-7.0.0.tar.gz"
 ],
-"apache-skywalking-apm-es7-8.0.0": [
-"skywalking/8.0.0/apache-skywalking-apm-es7-8.0.0.tar.gz"
-],
 "apache-skywalking-apm-es7-8.0.1": [
 "skywalking/8.0.1/apache-skywalking-apm-es7-8.0.1.tar.gz"
+],
+"apache-skywalking-apm-es7-8.1.0": [
+"skywalking/8.1.0/apache-skywalking-apm-es7-8.1.0.tar.gz"
 ],
 "skywalking-2.0.0": [
 "skywalking/kubernetes/2.0.0/skywalking-2.0.0.tgz"
@@ -8964,8 +8962,8 @@
 "org.apache.sling.commons.fsclassloader-1.0.12": [
 "sling/org.apache.sling.commons.fsclassloader-1.0.12-source-release.zip"
 ],
-"org.apache.sling.commons.johnzon-1.2.2": [
-"sling/org.apache.sling.commons.johnzon-1.2.2-source-release.zip"
+"org.apache.sling.commons.johnzon-1.2.4": [
+"sling/org.apache.sling.commons.johnzon-1.2.4-source-release.zip"
 ],
 "org.apache.sling.commons.json-2.0.20": [
 "sling/org.apache.sling.commons.json-2.0.20-source-release.zip"
@@ -9120,11 +9118,11 @@
 "org.apache.sling.extensions.webconsolesecurityprovider-1.2.4": [
 "sling/org.apache.sling.extensions.webconsolesecurityprovider-1.2.4-source-release.zip"
 ],
-"org.apache.sling.feature-1.2.4": [
-"sling/org.apache.sling.feature-1.2.4-source-release.zip"
+"org.apache.sling.feature-1.2.6": [
+"sling/org.apache.sling.feature-1.2.6-source-release.zip"
 ],
-"org.apache.sling.feature.analyser-1.3.4": [
-"sling/org.apache.sling.feature.analyser-1.3.4-source-release.zip"
+"org.apache.sling.feature.analyser-1.3.6": [
+"sling/org.apache.sling.feature.analyser-1.3.6-source-release.zip"
 ],
 "org.apache.sling.feature.apiregions-1.1.6": [
 "sling/org.apache.sling.feature.apiregions-1.1.6-source-release.zip"
@@ -9214,9 +9212,6 @@
 "org.apache.sling.installer.core-3.11.4": [
 "sling/org.apache.sling.installer.core-3.11.4-source-release.zip"
 ],
-"org.apache.sling.installer.factory.configuration-1.2.4": [
-"sling/org.apache.sling.installer.factory.configuration-1.2.4-source-release.zip"
-],
 "org.apache.sling.installer.factory.configuration-1.3.2": [
 "sling/org.apache.sling.installer.factory.configuration-1.3.2-source-release.zip"
 ],
@@ -9232,11 +9227,11 @@
 "org.apache.sling.installer.hc-2.0.2": [
 "sling/org.apache.sling.installer.hc-2.0.2-source-release.zip"
 ],
-"org.apache.sling.installer.provider.file-1.2.2": [
-"sling/org.apache.sling.installer.provider.file-1.2.2-source-release.zip"
+"org.apache.sling.installer.provider.file-1.3.0": [
+"sling/org.apache.sling.installer.provider.file-1.3.0-source-release.zip"
 ],
-"org.apache.sling.installer.provider.jcr-3.2.2": [
-"sling/org.apache.sling.installer.provider.jcr-3.2.2-source-release.zip"
+"org.apache.sling.installer.provider.jcr-3.3.0": [
+"sling/org.apache.sling.installer.provider.jcr-3.3.0-source-release.zip"
 ],
 "org.apache.sling.javax.activation-0.1.0": [
 "sling/org.apache.sling.javax.activation-0.1.0-source-release.zip"
@@ -9262,8 +9257,8 @@
 "org.apache.sling.jcr.davex-1.3.10": [
 "sling/org.apache.sling.jcr.davex-1.3.10-source-release.zip"
 ],
-"org.apache.sling.jcr.jackrabbit.accessmanager-3.0.4": [
-"sling/org.apache.sling.jcr.jackrabbit.accessmanager-3.0.4-source-release.zip"
+"org.apache.sling.jcr.jackrabbit.accessmanager-3.0.6": [
+"sling/org.apache.sling.jcr.jackrabbit.accessmanager-3.0.6-source-release.zip"
 ],
 "org.apache.sling.jcr.jackrabbit.server-2.3.0": [
 "sling/org.apache.sling.jcr.jackrabbit.server-2.3.0-source-release.zip"
@@ -9518,8 +9513,8 @@
 "org.apache.sling.servlets.resolver-2.7.4": [
 "sling/org.apache.sling.servlets.resolver-2.7.4-source-release.zip"
 ],
-"org.apache.sling.settings-1.3.10": [
-"sling/org.apache.sling.settings-1.3.10-source-release.zip"
+"org.apache.sling.settings-1.4.0": [
+"sling/org.apache.sling.settings-1.4.0-source-release.zip"
 ],
 "org.apache.sling.starter-11": [
 "sling/org.apache.sling.starter-11-source-release.zip",
@@ -9642,8 +9637,8 @@
 "org.apache.sling.validation.test-services-1.0.4": [
 "sling/org.apache.sling.validation.test-services-1.0.4-source-release.zip"
 ],
-"org.apache.sling.xss-2.2.2": [
-"sling/org.apache.sling.xss-2.2.2-source-release.zip"
+"org.apache.sling.xss-2.2.6": [
+"sling/org.apache.sling.xss-2.2.6-source-release.zip"
 ],
 "org.apache.sling.xss.compat-1.1.0": [
 "sling/org.apache.sling.xss.compat-1.1.0-source-release.zip"
@@ -9692,8 +9687,8 @@
 "sling-slingstart-archetype-1.0.8": [
 "sling/sling-slingstart-archetype-1.0.8-source-release.zip"
 ],
-"slingfeature-maven-plugin-1.3.12": [
-"sling/slingfeature-maven-plugin-1.3.12-source-release.zip"
+"slingfeature-maven-plugin-1.3.14": [
+"sling/slingfeature-maven-plugin-1.3.14-source-release.zip"
 ],
 "slingstart-maven-plugin-1.9.12": [
 "sling/slingstart-maven-plugin-1.9.12-source-release.zip"
