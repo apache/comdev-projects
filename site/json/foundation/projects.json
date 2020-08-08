@@ -5919,6 +5919,11 @@
 "programming-language": "Java",
 "release": [
 {
+"created": "2020-08-07",
+"name": "Latest Stable Release",
+"revision": "1.7"
+},
+{
 "created": "2017-02-21",
 "name": "Latest Stable Release",
 "revision": "1.6"
@@ -7514,9 +7519,9 @@
 "programming-language": "C",
 "release": [
 {
-"created": "2020-04-01",
+"created": "2020-08-07",
 "name": "Recommended current 2.4 release",
-"revision": "2.4.43"
+"revision": "2.4.46"
 }
 ],
 "repository": [
@@ -12243,150 +12248,6 @@
 "https://svn.apache.org/repos/asf/mina/vysper"
 ],
 "shortdesc": "A modular, full featured XMPP (Jabber) server"
-},
-"myfaces": {
-"bug-database": "http://issues.apache.org/jira/browse/MYFACES",
-"category": "web-framework, javaee",
-"created": "2006-02-28",
-"description": "MyFaces is the free open source implementation of JavaServer(tm) Faces, a new and upcoming web application framework that accomplishes the MVC paradigm. It is comparable to the well-known Struts Framework but has features and concepts that are beyond those of Struts - especially the component orientation.",
-"doap": "http://myfaces.apache.org/doap_MyFaces.rdf",
-"download-page": "http://myfaces.apache.org/download.html",
-"homepage": "http://myfaces.apache.org",
-"implements": [
-{
-"body": "JCP",
-"id": "JSR 127",
-"title": "JavaServer Faces",
-"url": "http://www.jcp.org/en/jsr/detail?id=127"
-},
-{
-"body": "JCP",
-"id": "JSR 245",
-"title": "JavaServer Faces",
-"url": "http://www.jcp.org/en/jsr/detail?id=245"
-},
-{
-"body": "JCP",
-"id": "JSR 314",
-"title": "JavaServer Faces",
-"url": "http://www.jcp.org/en/jsr/detail?id=314"
-},
-{
-"body": "JCP",
-"id": "JSR 344",
-"title": "JavaServer Faces",
-"url": "http://www.jcp.org/en/jsr/detail?id=344"
-},
-{
-"body": "JCP",
-"id": "JSR 372",
-"title": "JavaServer Faces",
-"url": "https://www.jcp.org/en/jsr/detail?id=372"
-}
-],
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://myfaces.apache.org/mail-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:lu4242@apache.org",
-"name": "Leonardo Uribe"
-}
-],
-"name": "Apache MyFaces",
-"pmc": "myfaces",
-"programming-language": "Java",
-"release": [
-{
-"created": "2019-12-02",
-"name": "Apache MyFaces for JSF 2.3",
-"revision": "2.3.6"
-},
-{
-"created": "2020-07-09",
-"name": "Apache MyFaces for JSF 2.2",
-"revision": "2.2.13"
-},
-{
-"created": "2016-04-04",
-"name": "Apache MyFaces for JSF 2.1",
-"revision": "2.1.18"
-},
-{
-"created": "2016-04-04",
-"name": "Apache MyFaces for JSF 2.0",
-"revision": "2.0.24"
-},
-{
-"created": "2012-04-04",
-"name": "Apache MyFaces for JSF 1.2",
-"revision": "1.2.12"
-},
-{
-"created": "2012-04-04",
-"name": "Apache MyFaces for JSF 1.1",
-"revision": "1.1.10"
-}
-],
-"repository": [
-"https://gitbox.apache.org/repos/asf/myfaces.git"
-],
-"shortdesc": "The first free open source JavaServer(tm) Faces implementation."
-},
-"myfaces-tobago": {
-"bug-database": "http://issues.apache.org/jira/browse/TOBAGO",
-"category": "web-framework",
-"created": "2006-07-10",
-"description": "The goal of Tobago is to provide the community with a well designed set of user interface components based on JSF.",
-"doap": "http://myfaces.apache.org/tobago/doap_tobago.rdf",
-"download-page": "http://myfaces.apache.org/tobago/download.html",
-"homepage": "http://myfaces.apache.org/tobago",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://myfaces.apache.org/tobago/mail-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:bommel@apache.org",
-"name": "Bernd Bohmann"
-}
-],
-"name": "Apache Tobago",
-"pmc": "myfaces",
-"programming-language": "Java",
-"release": [
-{
-"created": "2015-07-16",
-"file-release": "http://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-tobago-1.0.42-dist.zip",
-"name": "Latest stable release of 1.0.x",
-"revision": "1.0.42"
-},
-{
-"created": "2014-03-25",
-"file-release": "http://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-tobago-1.5.13-dist.zip",
-"name": "Latest stable release of 1.5.x",
-"revision": "1.5.13"
-},
-{
-"created": "2020-02-16",
-"file-release": "http://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-tobago-2.4.2-dist.zip",
-"name": "Latest stable release of 2.x",
-"revision": "2.4.2"
-},
-{
-"created": "2018-09-26",
-"file-release": "http://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-tobago-3.1.0-dist.zip",
-"name": "Latest stable release of 3.x",
-"revision": "3.1.0"
-},
-{
-"created": "2020-05-29",
-"file-release": "http://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-tobago-4.5.0-dist.zip",
-"name": "Latest stable release of 4.x",
-"revision": "4.5.0"
-}
-],
-"repository": [
-"https://gitbox.apache.org/repos/asf/myfaces-tobago.git"
-],
-"shortdesc": "Set of user interface components based on JSF."
 },
 "nutch": {
 "bug-database": "https://issues.apache.org/jira/projects/NUTCH",

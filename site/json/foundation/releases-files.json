@@ -490,6 +490,9 @@
 "apache-asterixdb-0.9.4.1": [
 "asterixdb/asterixdb-0.9.4.1/apache-asterixdb-0.9.4.1-source-release.zip"
 ],
+"apache-asterixdb-0.9.5": [
+"asterixdb/asterixdb-0.9.5/apache-asterixdb-0.9.5-source-release.zip"
+],
 "apache-asterixdb_0.9.4_all": [
 "asterixdb/asterixdb-0.9.4/apache-asterixdb_0.9.4_all.deb"
 ],
@@ -507,6 +510,9 @@
 ],
 "apache-hyracks-0.3.4.1": [
 "asterixdb/hyracks-0.3.4.1/apache-hyracks-0.3.4.1-source-release.zip"
+],
+"apache-hyracks-0.3.5": [
+"asterixdb/asterixdb-0.9.5/apache-hyracks-0.3.5-source-release.zip"
 ]
 },
 "atlas": {
@@ -1561,6 +1567,10 @@
 "commons/imaging/source/commons-imaging-1.0-alpha1-src.tar.gz",
 "commons/imaging/source/commons-imaging-1.0-alpha1-src.zip"
 ],
+"commons-imaging-1.0-alpha2": [
+"commons/imaging/source/commons-imaging-1.0-alpha2-src.tar.gz",
+"commons/imaging/source/commons-imaging-1.0-alpha2-src.zip"
+],
 "commons-io-2.5": [
 "commons/io/source/commons-io-2.5-src.tar.gz",
 "commons/io/source/commons-io-2.5-src.zip"
@@ -1672,6 +1682,10 @@
 "commons-validator-1.6": [
 "commons/validator/source/commons-validator-1.6-src.tar.gz",
 "commons/validator/source/commons-validator-1.6-src.zip"
+],
+"commons-validator-1.7": [
+"commons/validator/source/commons-validator-1.7-src.tar.gz",
+"commons/validator/source/commons-validator-1.7-src.zip"
 ],
 "commons-vfs-2.6.0": [
 "commons/vfs/source/commons-vfs-2.6.0-src.tar.gz",
@@ -3126,10 +3140,6 @@
 ]
 },
 "httpd": {
-"httpd-2.4.43": [
-"httpd/httpd-2.4.43.tar.bz2",
-"httpd/httpd-2.4.43.tar.gz"
-],
 "httpd-2.4.46": [
 "httpd/httpd-2.4.46.tar.bz2",
 "httpd/httpd-2.4.46.tar.gz"
@@ -9239,8 +9249,8 @@
 "org.apache.sling.installer.provider.jcr-3.3.0": [
 "sling/org.apache.sling.installer.provider.jcr-3.3.0-source-release.zip"
 ],
-"org.apache.sling.javax.activation-0.1.0": [
-"sling/org.apache.sling.javax.activation-0.1.0-source-release.zip"
+"org.apache.sling.javax.activation-0.2.0": [
+"sling/org.apache.sling.javax.activation-0.2.0-source-release.zip"
 ],
 "org.apache.sling.jcr.api-2.4.0": [
 "sling/org.apache.sling.jcr.api-2.4.0-source-release.zip"
@@ -10242,17 +10252,14 @@
 ]
 },
 "tinkerpop": {
-"apache-tinkerpop-3.3.10": [
-"tinkerpop/3.3.10/apache-tinkerpop-3.3.10-src.zip"
-],
 "apache-tinkerpop-3.3.11": [
 "tinkerpop/3.3.11/apache-tinkerpop-3.3.11-src.zip"
 ],
-"apache-tinkerpop-3.4.6": [
-"tinkerpop/3.4.6/apache-tinkerpop-3.4.6-src.zip"
-],
 "apache-tinkerpop-3.4.7": [
 "tinkerpop/3.4.7/apache-tinkerpop-3.4.7-src.zip"
+],
+"apache-tinkerpop-3.4.8": [
+"tinkerpop/3.4.8/apache-tinkerpop-3.4.8-src.zip"
 ]
 },
 "tomcat": {
@@ -10587,6 +10594,18 @@
 "tomee/tomee-8.0.3/apache-tomee-8.0.3-webprofile.tar.gz",
 "tomee/tomee-8.0.3/apache-tomee-8.0.3-webprofile.zip"
 ],
+"apache-tomee-8.0.4-microprofile": [
+"tomee/tomee-8.0.4/apache-tomee-8.0.4-microprofile.tar.gz",
+"tomee/tomee-8.0.4/apache-tomee-8.0.4-microprofile.zip"
+],
+"apache-tomee-8.0.4-plume": [
+"tomee/tomee-8.0.4/apache-tomee-8.0.4-plume.tar.gz",
+"tomee/tomee-8.0.4/apache-tomee-8.0.4-plume.zip"
+],
+"apache-tomee-8.0.4-plus": [
+"tomee/tomee-8.0.4/apache-tomee-8.0.4-plus.tar.gz",
+"tomee/tomee-8.0.4/apache-tomee-8.0.4-plus.zip"
+],
 "apache-tomee-9.0.0-M1": [
 "tomee/tomee-8.0.3/apache-tomee-9.0.0-M1-source-release.zip"
 ],
@@ -10601,6 +10620,21 @@
 ],
 "apache-tomee-9.0.0-M1-webprofile": [
 "tomee/tomee-8.0.3/apache-tomee-9.0.0-M1-webprofile.zip"
+],
+"apache-tomee-9.0.0-M2": [
+"tomee/tomee-9.0.0-M2/apache-tomee-9.0.0-M2-source-release.zip"
+],
+"apache-tomee-9.0.0-M2-microprofile": [
+"tomee/tomee-9.0.0-M2/apache-tomee-9.0.0-M2-microprofile.zip"
+],
+"apache-tomee-9.0.0-M2-plume": [
+"tomee/tomee-9.0.0-M2/apache-tomee-9.0.0-M2-plume.zip"
+],
+"apache-tomee-9.0.0-M2-plus": [
+"tomee/tomee-9.0.0-M2/apache-tomee-9.0.0-M2-plus.zip"
+],
+"apache-tomee-9.0.0-M2-webprofile": [
+"tomee/tomee-9.0.0-M2/apache-tomee-9.0.0-M2-webprofile.zip"
 ],
 "arquillian-tomee-moviefun-example-1.7.5": [
 "tomee/tomee-1.7.5/arquillian-tomee-moviefun-example-1.7.5.war"
@@ -10671,6 +10705,10 @@
 "tomee/tomee-8.0.3/examples-8.0.3-src.tar.gz",
 "tomee/tomee-8.0.3/examples-8.0.3-src.zip"
 ],
+"examples-8.0.4": [
+"tomee/tomee-8.0.4/examples-8.0.4-src.tar.gz",
+"tomee/tomee-8.0.4/examples-8.0.4-src.zip"
+],
 "javaee-api-8.0": [
 "tomee/tomee-8.0.0-M1/javaee-api-8.0-source-release.zip"
 ],
@@ -10731,6 +10769,10 @@
 "openejb-8.0.3": [
 "tomee/tomee-8.0.3/openejb-standalone-8.0.3.tar.gz",
 "tomee/tomee-8.0.3/openejb-standalone-8.0.3.zip"
+],
+"openejb-8.0.4": [
+"tomee/tomee-8.0.4/openejb-standalone-8.0.4.tar.gz",
+"tomee/tomee-8.0.4/openejb-standalone-8.0.4.zip"
 ],
 "openejb-provisionning-4.6.0.2": [
 "tomee/tomee-1.6.0.2/openejb-provisionning-4.6.0.2.tar.gz",
@@ -10824,6 +10866,10 @@
 "tomee/tomee-8.0.3/tomee-project-8.0.3-source-release.zip",
 "tomee/tomee-8.0.3/tomee-webapp-8.0.3.war"
 ],
+"tomee-8.0.4": [
+"tomee/tomee-8.0.4/tomee-project-8.0.4-source-release.zip",
+"tomee/tomee-8.0.4/tomee-webapp-8.0.4.war"
+],
 "tomee-jaxrs-1.6.0.2": [
 "tomee/tomee-1.6.0.2/tomee-jaxrs-webapp-1.6.0.2.war"
 ],
@@ -10856,6 +10902,9 @@
 ],
 "tomee-microprofile-8.0.3": [
 "tomee/tomee-8.0.3/tomee-microprofile-webapp-8.0.3.war"
+],
+"tomee-microprofile-8.0.4": [
+"tomee/tomee-8.0.4/tomee-microprofile-webapp-8.0.4.war"
 ],
 "tomee-patch-0.1": [
 "tomee/tomee-8.0.3/tomee-patch-parent-0.1-source-release.zip"
@@ -10899,6 +10948,9 @@
 "tomee-plume-8.0.3": [
 "tomee/tomee-8.0.3/tomee-plume-webapp-8.0.3.war"
 ],
+"tomee-plume-8.0.4": [
+"tomee/tomee-8.0.4/tomee-plume-webapp-8.0.4.war"
+],
 "tomee-plus-1.6.0.2": [
 "tomee/tomee-1.6.0.2/tomee-plus-webapp-1.6.0.2.war"
 ],
@@ -10940,6 +10992,9 @@
 ],
 "tomee-plus-8.0.3": [
 "tomee/tomee-8.0.3/tomee-plus-webapp-8.0.3.war"
+],
+"tomee-plus-8.0.4": [
+"tomee/tomee-8.0.4/tomee-plus-webapp-8.0.4.war"
 ],
 "tomee-webaccess-1.6.0.2": [
 "tomee/tomee-1.6.0.2/tomee-webaccess-1.6.0.2.war"
