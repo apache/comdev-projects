@@ -3732,10 +3732,10 @@
 "comdev-community_development": {
 "bug-database": "https://issues.apache.org/jira/browse/COMDEV",
 "created": "2009",
-"doap": "https://svn.apache.org/repos/asf/comdev/site/trunk/content/doap_ComDev.rdf",
-"homepage": "http://community.apache.org/",
-"license": "http://www.apache.org/licenses/LICENSE-2.0.txt",
-"mailing-list": "http://community.apache.org/lists.html",
+"doap": "https://community.apache.org/doap_ComDev.rdf",
+"homepage": "https://community.apache.org/",
+"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"mailing-list": "https://community.apache.org/lists.html",
 "maintainer": [
 {
 "mbox": "mailto:dev@community.apache.org",
@@ -3745,7 +3745,8 @@
 "name": "Apache Community Development",
 "pmc": "comdev",
 "repository": [
-"https://svn.apache.org/repos/asf/comdev/site/trunk/",
+"https://gitbox.apache.org/repos/asf/comdev-site.git",
+"https://gitbox.apache.org/repos/asf/comdev-events-site.git",
 "https://svn.apache.org/repos/asf/comdev/projects.apache.org/",
 "https://svn.apache.org/repos/asf/comdev/reporter.apache.org/",
 "https://svn.apache.org/repos/asf/comdev/helpwanted.apache.org/"
