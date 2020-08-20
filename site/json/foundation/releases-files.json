@@ -2859,9 +2859,11 @@
 "RELEASENOTES.md": [
 "hadoop/common/hadoop-2.10.0/RELEASENOTES.md",
 "hadoop/common/hadoop-3.1.3/RELEASENOTES.md",
+"hadoop/common/hadoop-3.1.4/RELEASENOTES.md",
 "hadoop/common/hadoop-3.3.0/RELEASENOTES.md",
 "hadoop/core/hadoop-2.10.0/RELEASENOTES.md",
 "hadoop/core/hadoop-3.1.3/RELEASENOTES.md",
+"hadoop/core/hadoop-3.1.4/RELEASENOTES.md",
 "hadoop/core/hadoop-3.3.0/RELEASENOTES.md",
 "hadoop/thirdparty/thirdparty-1.0.0/RELEASENOTES.md"
 ],
@@ -2898,6 +2900,14 @@
 "hadoop/core/hadoop-3.1.3/hadoop-3.1.3-site.tar.gz",
 "hadoop/core/hadoop-3.1.3/hadoop-3.1.3-src.tar.gz",
 "hadoop/core/hadoop-3.1.3/hadoop-3.1.3.tar.gz"
+],
+"hadoop-3.1.4-RC4": [
+"hadoop/common/hadoop-3.1.4/hadoop-3.1.4-RC4-site.tar.gz",
+"hadoop/common/hadoop-3.1.4/hadoop-3.1.4-RC4-src.tar.gz",
+"hadoop/common/hadoop-3.1.4/hadoop-3.1.4-RC4.tar.gz",
+"hadoop/core/hadoop-3.1.4/hadoop-3.1.4-RC4-site.tar.gz",
+"hadoop/core/hadoop-3.1.4/hadoop-3.1.4-RC4-src.tar.gz",
+"hadoop/core/hadoop-3.1.4/hadoop-3.1.4-RC4.tar.gz"
 ],
 "hadoop-3.2.1": [
 "hadoop/common/current2/hadoop-3.2.1-src.tar.gz",
@@ -2970,7 +2980,7 @@
 "RELEASENOTES.md": [
 "hbase/2.2.4/RELEASENOTES.md",
 "hbase/2.2.5/RELEASENOTES.md",
-"hbase/2.3.0/RELEASENOTES.md",
+"hbase/2.3.1/RELEASENOTES.md",
 "hbase/hbase-filesystem-1.0.0-alpha1/RELEASENOTES.md",
 "hbase/hbase-operator-tools-1.0.0/RELEASENOTES.md",
 "hbase/hbase-thirdparty-3.3.0/RELEASENOTES.md"
@@ -2990,8 +3000,8 @@
 "hbase-2.2.5": [
 "hbase/2.2.5/hbase-2.2.5-src.tar.gz"
 ],
-"hbase-2.3.0": [
-"hbase/2.3.0/hbase-2.3.0-src.tar.gz"
+"hbase-2.3.1": [
+"hbase/2.3.1/hbase-2.3.1-src.tar.gz"
 ],
 "hbase-connectors-1.0.0": [
 "hbase/hbase-connectors-1.0.0/hbase-connectors-1.0.0-src.tar.gz"
@@ -4550,11 +4560,6 @@
 "lucene/java/7.7.3/lucene-7.7.3.tgz",
 "lucene/java/7.7.3/lucene-7.7.3.zip"
 ],
-"lucene-8.6.0": [
-"lucene/java/8.6.0/lucene-8.6.0-src.tgz",
-"lucene/java/8.6.0/lucene-8.6.0.tgz",
-"lucene/java/8.6.0/lucene-8.6.0.zip"
-],
 "lucene-8.6.1": [
 "lucene/java/8.6.1/lucene-8.6.1-src.tgz",
 "lucene/java/8.6.1/lucene-8.6.1.tgz",
@@ -4570,11 +4575,6 @@
 "lucene/solr/7.7.3/solr-7.7.3-src.tgz",
 "lucene/solr/7.7.3/solr-7.7.3.tgz",
 "lucene/solr/7.7.3/solr-7.7.3.zip"
-],
-"solr-8.6.0": [
-"lucene/solr/8.6.0/solr-8.6.0-src.tgz",
-"lucene/solr/8.6.0/solr-8.6.0.tgz",
-"lucene/solr/8.6.0/solr-8.6.0.zip"
 ],
 "solr-8.6.1": [
 "lucene/solr/8.6.1/solr-8.6.1-src.tgz",
@@ -9576,8 +9576,8 @@
 "org.apache.sling.servlets.post-2.3.36": [
 "sling/org.apache.sling.servlets.post-2.3.36-source-release.zip"
 ],
-"org.apache.sling.servlets.resolver-2.7.4": [
-"sling/org.apache.sling.servlets.resolver-2.7.4-source-release.zip"
+"org.apache.sling.servlets.resolver-2.7.6": [
+"sling/org.apache.sling.servlets.resolver-2.7.6-source-release.zip"
 ],
 "org.apache.sling.settings-1.4.0": [
 "sling/org.apache.sling.settings-1.4.0-source-release.zip"
