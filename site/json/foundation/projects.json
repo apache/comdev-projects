@@ -3433,7 +3433,7 @@
 "shortdesc": "User-friendly Java ORM with tools"
 },
 "celix": {
-"bug-database": "https://issues.apache.org/jira/browse/CELIX",
+"bug-database": "https://github.com/apache/celix/issues",
 "category": "network-server",
 "created": "2010-11-17",
 "description": "\n      Apache Celix is an implementation of the OSGi specification adapted to C and C++ (C++11). It is a framework to develop (dynamic) modular software applications using component and/or service-oriented programming.\n    ",
@@ -5095,6 +5095,11 @@
 "programming-language": "Java",
 "release": [
 {
+"created": "2020-08-16",
+"name": "commons-jcs",
+"revision": "3.0"
+},
+{
 "created": "2018-08-23",
 "name": "commons-jcs",
 "revision": "2.2.1"
@@ -5131,7 +5136,7 @@
 }
 ],
 "repository": [
-"http://svn.apache.org/repos/asf/commons/proper/jcs"
+"https://gitbox.apache.org/repos/asf/commons-jcs.git"
 ],
 "shortdesc": "Java Caching System"
 },
