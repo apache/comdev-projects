@@ -8,7 +8,7 @@
    "License"); you may not use this file except in compliance
    with the License.  You may obtain a copy of the License at
 
-       http://www.apache.org/licenses/LICENSE-2.0
+       https://www.apache.org/licenses/LICENSE-2.0
 
    Unless required by applicable law or agreed to in writing,
    software distributed under the License is distributed on an
@@ -174,7 +174,7 @@ function editProject(json, project) {
         json.name = json.name ? json.name : "Apache Foo";
     }
     if (json.category) {
-        json.category = json.category.replace(/http:\/\/projects.apache.org\/category\//gi, "")
+        json.category = json.category.replace(/https:\/\/projects.apache.org\/category\//gi, "")
     }
     var form = document.createElement('form')
     form.appendChild(input("hidden", "file", project))
@@ -239,7 +239,7 @@ function newProject(form) {
     if (form.sub.value.length > 0) {
         filename += "-" + form.sub.value.toLowerCase().replace(/[^-a-z0-9]/g, "")
     }
-    editProject({'pmc': form.pmc.value, 'homepage': 'http://'+form.pmc.value+'.apache.org/'}, filename);
+    editProject({'pmc': form.pmc.value, 'homepage': 'https://'+form.pmc.value+'.apache.org/'}, filename);
 }
 */
 
@@ -249,7 +249,7 @@ function newProject(form) {
 function linkCommitterIndex(cid) {
     var fullname = people[cid];
     var cl = isMember(cid) ? "member" : "committer";
-    return "<a class='" + cl + "' title='" + cid + "' href='http://home.apache.org/phonebook.html?uid=" + cid + "' target='_blank'>" + fullname + "</a>";
+    return "<a class='" + cl + "' title='" + cid + "' href='https://home.apache.org/phonebook.html?uid=" + cid + "' target='_blank'>" + fullname + "</a>";
 }
 
 function appendElementWithInnerHTML(obj,type,html) {
@@ -519,10 +519,10 @@ function renderCommitteePage(committeeId) {
     if (!_.isEmpty(committee.shortdesc)) {
         description = committee.shortdesc;
     } else {
-        description = "Missing from http://www.apache.org/#projects-list";
+        description = "Missing from https://www.apache.org/#projects-list";
     }
 
-    appendElementWithInnerHTML(obj, 'h4', "Description <font size='-2'>(from <a href='http://www.apache.org/#projects-list'>projects list</a>)</a>:");
+    appendElementWithInnerHTML(obj, 'h4', "Description <font size='-2'>(from <a href='https://www.apache.org/#projects-list'>projects list</a>)</a>:");
 
     appendElementWithInnerHTML(obj,'p',description.replace(/([^\r\n]+)\r?\n\r?\n/g,function(a) { return "<p>"+a+"</p>"}));
 
@@ -626,7 +626,7 @@ function renderCommitteePage(committeeId) {
         }
     }
     if (repos.length > 0) {
-        appendElementWithInnerHTML(obj, 'h4', "Repositories managed by this Committee <font size='-2'>(from <a href='http://git.apache.org/'>ASF Git mirrors</a>)</font>:");
+        appendElementWithInnerHTML(obj, 'h4', "Repositories managed by this Committee <font size='-2'>(from <a href='https://git.apache.org/'>ASF Git mirrors</a>)</font>:");
 
         ul = document.createElement('ul');
         for (var r in repos.sort()) {

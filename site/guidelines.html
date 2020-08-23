@@ -40,13 +40,13 @@
         
 <ul>
 <li>rdf:resource should be used when listing URLs. 
-  <pre>i.e. &lt;doap:homepage rdf:resource="http://foo.apache.org/" /&gt;</pre> is the correct form to use.</li>
+  <pre>i.e. &lt;doap:homepage rdf:resource="https://foo.apache.org/" /&gt;</pre> is the correct form to use.</li>
 <li>the doap:Project element may be embedded in other styles of feed, e.g. within an Atom feed. When included in such a way it should still follow all guidelines, even if this means duplicating information.</li>
 <li>Dates should be formatted as 'YYYY-MM-DD'. Numbers should be padded with '0' to match the formatting.
 <pre>e.g. Jan 1st 2001 should be written as '2001-01-01'</pre>
 </li>
 <li>all URLs should be fully qualified, including the protocol.
-  <pre>i.e. http://foo.bar.com/file.html</pre>
+  <pre>i.e. https://foo.bar.com/file.html</pre>
 </li>
 </ul>
 
@@ -75,8 +75,8 @@ A full list of programming langauges we accept is available <a href="languages.h
 </pre>
 </li>
 <li>The categories that a project should be recorded as being within are recorded as rdf:resource using the following format<pre>
- http://projects.apache.org/category/&lt;category&gt;
-  e.g. &lt;doap:category rdf:resource="http://projects.apache.org/category/mail" /&gt;</pre>
+ https://projects.apache.org/category/&lt;category&gt;
+  e.g. &lt;doap:category rdf:resource="https://projects.apache.org/category/mail" /&gt;</pre>
 <br>A list of the categories is available <a href="categories.html">here</a>
 </li>
 <li>the shortdesc element is used for providing a brief description on index pages and should be included.</li>
@@ -89,15 +89,15 @@ A full list of programming langauges we accept is available <a href="languages.h
 <li>PMC descriptor files must always have the extension '.rdf', and must be listed in the file <br>
 <code><a href="https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees.xml">https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees.xml</a></code>
 </li>
-<li>PMCs can be referenced as an rdf:resource that points at http://&lt;pmc&gt;.apache.org/.  e.g. <br>
-<code>&lt;asfext:pmc rdf:resource="http://httpd.apache.org/" /&gt;</code>. <br>
+<li>PMCs can be referenced as an rdf:resource that points at https://&lt;pmc&gt;.apache.org/.  e.g. <br>
+<code>&lt;asfext:pmc rdf:resource="https://httpd.apache.org/" /&gt;</code>. <br>
   In this case, the PMC descriptor file must be called <code>&lt;pmc&gt;.rdf</code> and must be
   stored in the directory: <br>
   <code>https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/</code>
   </li>
 <li>PMCs descriptors can also be stored anywhere else (e.g. on the TLP website or in SVN), in which case they
 must be referenced using the full URL, for example  <br>
-<code>&lt;asfext:pmc rdf:resource="http://tlp.apache.org/pmc/tlp.rdf" /&gt;</code>
+<code>&lt;asfext:pmc rdf:resource="https://tlp.apache.org/pmc/tlp.rdf" /&gt;</code>
 </li>
 </ul>
       </div>
@@ -106,8 +106,8 @@ must be referenced using the full URL, for example  <br>
 <!-- Footer -->
 
 <div id="footer">
-   Managed by the <a href="http://community.apache.org">Apache Community Development Project</a>.<br/>
-   Copyright&copy; 2019, the Apache Software Foundation. Licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a><br/>
+   Managed by the <a href="https://community.apache.org">Apache Community Development Project</a>.<br/>
+   Copyright&copy; 2020, the Apache Software Foundation. Licensed under the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a><br/>
    Apache&reg; and the Apache feather logo are trademarks of The Apache Software Foundation.
 </div>
 </body>
