@@ -1914,6 +1914,12 @@
 "cxf/3.3.7/apache-cxf-3.3.7.tar.gz",
 "cxf/3.3.7/apache-cxf-3.3.7.zip"
 ],
+"apache-cxf-3.4.0": [
+"cxf/3.4.0/apache-cxf-3.4.0-src.tar.gz",
+"cxf/3.4.0/apache-cxf-3.4.0-src.zip",
+"cxf/3.4.0/apache-cxf-3.4.0.tar.gz",
+"cxf/3.4.0/apache-cxf-3.4.0.zip"
+],
 "apache-fediz-1.5.0": [
 "cxf/fediz/1.5.0/apache-fediz-1.5.0.zip"
 ],
@@ -2907,13 +2913,13 @@
 "hadoop/core/hadoop-3.1.3/hadoop-3.1.3-src.tar.gz",
 "hadoop/core/hadoop-3.1.3/hadoop-3.1.3.tar.gz"
 ],
-"hadoop-3.1.4-RC4": [
-"hadoop/common/hadoop-3.1.4/hadoop-3.1.4-RC4-site.tar.gz",
-"hadoop/common/hadoop-3.1.4/hadoop-3.1.4-RC4-src.tar.gz",
-"hadoop/common/hadoop-3.1.4/hadoop-3.1.4-RC4.tar.gz",
-"hadoop/core/hadoop-3.1.4/hadoop-3.1.4-RC4-site.tar.gz",
-"hadoop/core/hadoop-3.1.4/hadoop-3.1.4-RC4-src.tar.gz",
-"hadoop/core/hadoop-3.1.4/hadoop-3.1.4-RC4.tar.gz"
+"hadoop-3.1.4": [
+"hadoop/common/hadoop-3.1.4/hadoop-3.1.4-site.tar.gz",
+"hadoop/common/hadoop-3.1.4/hadoop-3.1.4-src.tar.gz",
+"hadoop/common/hadoop-3.1.4/hadoop-3.1.4.tar.gz",
+"hadoop/core/hadoop-3.1.4/hadoop-3.1.4-site.tar.gz",
+"hadoop/core/hadoop-3.1.4/hadoop-3.1.4-src.tar.gz",
+"hadoop/core/hadoop-3.1.4/hadoop-3.1.4.tar.gz"
 ],
 "hadoop-3.2.1": [
 "hadoop/common/current2/hadoop-3.2.1-src.tar.gz",
@@ -3202,7 +3208,7 @@
 "hudi/0.5.3/hudi-0.5.3.src.tgz"
 ],
 "hudi-0.6.0": [
-"hudi/hudi-0.6.0/hudi-0.6.0.src.tgz"
+"hudi/0.6.0/hudi-0.6.0.src.tgz"
 ]
 },
 "iceberg": {
@@ -5138,6 +5144,11 @@
 "mina/mina/2.1.3/apache-mina-2.1.3-src.tar.gz",
 "mina/mina/2.1.3/apache-mina-2.1.3-src.zip"
 ],
+"apache-mina-2.1.4": [
+"mina/mina/2.1.4/apache-mina-2.1.4-src.tar.bz2",
+"mina/mina/2.1.4/apache-mina-2.1.4-src.tar.gz",
+"mina/mina/2.1.4/apache-mina-2.1.4-src.zip"
+],
 "apache-mina-3.0.0-M2": [
 "mina/mina/3.0.0-M2/apache-mina-3.0.0-M2-src.tar.bz2",
 "mina/mina/3.0.0-M2/apache-mina-3.0.0-M2-src.tar.gz",
@@ -5218,6 +5229,10 @@
 "myfaces-core-2.3.6": [
 "myfaces/source/myfaces-core-assembly-2.3.6-src.tar.gz",
 "myfaces/source/myfaces-core-assembly-2.3.6-src.zip"
+],
+"myfaces-core-3.0.0-RC1": [
+"myfaces/source/myfaces-core-assembly-3.0.0-RC1-src.tar.gz",
+"myfaces/source/myfaces-core-assembly-3.0.0-RC1-src.zip"
 ],
 "myfaces-extcdi-1.0.6": [
 "myfaces/source/myfaces-extcdi-parent-1.0.6-source-release.zip"
@@ -7886,12 +7901,6 @@
 "openmeetings/5.0.0/bin/apache-openmeetings-5.0.0.zip",
 "openmeetings/5.0.0/src/apache-openmeetings-5.0.0-src.tar.gz",
 "openmeetings/5.0.0/src/apache-openmeetings-5.0.0-src.zip"
-],
-"apache-openmeetings-5.0.0-M4": [
-"openmeetings/5.0.0-M4/bin/apache-openmeetings-5.0.0-M4.tar.gz",
-"openmeetings/5.0.0-M4/bin/apache-openmeetings-5.0.0-M4.zip",
-"openmeetings/5.0.0-M4/src/apache-openmeetings-5.0.0-M4-src.tar.gz",
-"openmeetings/5.0.0-M4/src/apache-openmeetings-5.0.0-M4-src.zip"
 ]
 },
 "opennlp": {
@@ -9627,8 +9636,8 @@
 "org.apache.sling.scripting.console-1.0.0": [
 "sling/org.apache.sling.scripting.console-1.0.0-source-release.zip"
 ],
-"org.apache.sling.scripting.core-2.3.0": [
-"sling/org.apache.sling.scripting.core-2.3.0-source-release.zip"
+"org.apache.sling.scripting.core-2.3.2": [
+"sling/org.apache.sling.scripting.core-2.3.2-source-release.zip"
 ],
 "org.apache.sling.scripting.el-api-1.0.2": [
 "sling/org.apache.sling.scripting.el-api-1.0.2-source-release.zip"
@@ -9687,8 +9696,8 @@
 "org.apache.sling.servlets.post-2.3.36": [
 "sling/org.apache.sling.servlets.post-2.3.36-source-release.zip"
 ],
-"org.apache.sling.servlets.resolver-2.7.6": [
-"sling/org.apache.sling.servlets.resolver-2.7.6-source-release.zip"
+"org.apache.sling.servlets.resolver-2.7.8": [
+"sling/org.apache.sling.servlets.resolver-2.7.8-source-release.zip"
 ],
 "org.apache.sling.settings-1.4.0": [
 "sling/org.apache.sling.settings-1.4.0-source-release.zip"
