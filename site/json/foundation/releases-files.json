@@ -77,8 +77,8 @@
 ]
 },
 "airflow": {
-"apache-airflow-1.10.11": [
-"airflow/1.10.11/apache-airflow-1.10.11-source.tar.gz"
+"apache-airflow-1.10.12": [
+"airflow/1.10.12/apache-airflow-1.10.12-source.tar.gz"
 ],
 "apache-airflow-backport-providers-2020.6.24": [
 "airflow/backport-providers/2020.6.24/apache-airflow-backport-providers-2020.6.24-source.tar.gz"
@@ -2579,9 +2579,6 @@
 ]
 },
 "flink": {
-"apache-flink-1.10.1": [
-"flink/flink-1.10.1/apache-flink-1.10.1.tar.gz"
-],
 "apache-flink-1.10.2": [
 "flink/flink-1.10.2/apache-flink-1.10.2.tar.gz"
 ],
@@ -2593,9 +2590,6 @@
 ],
 "apache-flink-statefun-2.1.0": [
 "flink/flink-statefun-2.1.0/apache-flink-statefun-2.1.0.tar.gz"
-],
-"flink-1.10.1": [
-"flink/flink-1.10.1/flink-1.10.1-src.tgz"
 ],
 "flink-1.10.2": [
 "flink/flink-1.10.2/flink-1.10.2-src.tgz"
@@ -3481,6 +3475,9 @@
 ],
 "apache-mxnet-1.6.0-incubating": [
 "incubator/mxnet/1.6.0/apache-mxnet-src-1.6.0-incubating.tar.gz"
+],
+"apache-mxnet-1.7.0-incubating": [
+"incubator/mxnet/1.7.0/apache-mxnet-src-1.7.0-incubating.tar.gz"
 ]
 },
 "incubator-myriad": {
