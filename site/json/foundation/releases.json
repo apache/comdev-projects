@@ -21,8 +21,6 @@
 "activemq-cli-tools-0.1.0": "2017-05-12",
 "activemq-cli-tools-0.2.0": "2020-07-22",
 "activemq-cpp-library-3.9.5": "2019-01-25",
-"apache-artemis-2.13.0": "2020-05-18",
-"apache-artemis-2.14.0": "2020-07-09",
 "apache-artemis-2.15.0": "2020-08-25"
 },
 "airavata": {
@@ -501,7 +499,7 @@
 "commons-build-plugin-1.11": "2019-09-02",
 "commons-chain-1.2": "2013-03-03",
 "commons-cli-1.4": "2017-03-13",
-"commons-codec-1.14": "2020-01-03",
+"commons-codec-1.15": "2020-09-01",
 "commons-collections-3.2.2": "2015-11-14",
 "commons-collections4-4.1": "2019-02-07",
 "commons-collections4-4.2": "2018-07-11",
@@ -510,6 +508,7 @@
 "commons-configuration-1.10": "2013-10-28",
 "commons-configuration2-2.7": "2020-03-11",
 "commons-crypto-1.0.0": "2016-08-04",
+"commons-crypto-1.1.0": "2020-09-01",
 "commons-csv-1.8": "2020-02-06",
 "commons-daemon-1.2.2": "2019-10-03",
 "commons-dbcp-1.3": "2013-03-03",
@@ -1067,6 +1066,7 @@
 "apache-dolphinscheduler-incubating-1.2.1": "2020-02-24",
 "apache-dolphinscheduler-incubating-1.3.0": "2020-06-17",
 "apache-dolphinscheduler-incubating-1.3.1": "2020-07-04",
+"apache-dolphinscheduler-incubating-1.3.2": "2020-08-18",
 "apache-dolphinscheduler-maven-plugin-incubating-1.0.0": "2020-08-10"
 },
 "incubator-doris": {
@@ -1525,12 +1525,10 @@
 },
 "lucene": {
 "lucene-7.7.3": "2020-04-21",
-"lucene-8.6.1": "2020-08-10",
 "lucene-8.6.2": "2020-08-26",
 "pylucene-7.7.1": "2019-06-03",
 "pylucene-8.3.0": "2020-04-29",
 "solr-7.7.3": "2020-04-21",
-"solr-8.6.1": "2020-08-10",
 "solr-8.6.2": "2020-08-26"
 },
 "lucenenet": {
@@ -1817,9 +1815,11 @@
 "netbeans-11.0-gradle-patch-1": "2019-05-20",
 "netbeans-12.0": "2020-06-04",
 "netbeans-12.0-u1": "2020-07-24",
+"netbeans-12.1": "2020-08-26",
 "netbeans-2": "2019-05-10",
 "netbeans-html4j-1.7": "2019-11-08",
 "netbeans-platform-12.0": "2020-06-04",
+"netbeans-platform-12.1": "2020-08-26",
 "org-apache-commons-codec.nbm": "2020-05-30",
 "org-apache-commons-httpclient.nbm": "2020-05-30",
 "org-apache-commons-io.nbm": "2020-05-30",
@@ -1988,6 +1988,10 @@
 "org-netbeans-modules-cordova-platforms.nbm": "2020-05-30",
 "org-netbeans-modules-cordova.nbm": "2020-05-30",
 "org-netbeans-modules-core-kit.nbm": "2020-05-30",
+"org-netbeans-modules-cpplite-debugger.nbm": "2020-08-26",
+"org-netbeans-modules-cpplite-editor.nbm": "2020-08-26",
+"org-netbeans-modules-cpplite-kit.nbm": "2020-08-26",
+"org-netbeans-modules-cpplite-project.nbm": "2020-08-26",
 "org-netbeans-modules-csl-api.nbm": "2020-05-30",
 "org-netbeans-modules-csl-types.nbm": "2020-05-30",
 "org-netbeans-modules-css-editor.nbm": "2020-05-30",
@@ -2028,6 +2032,7 @@
 "org-netbeans-modules-docker-editor.nbm": "2020-05-30",
 "org-netbeans-modules-docker-ui.nbm": "2020-05-30",
 "org-netbeans-modules-editor-actions.nbm": "2020-05-30",
+"org-netbeans-modules-editor-autosave.nbm": "2020-08-26",
 "org-netbeans-modules-editor-bookmarks.nbm": "2020-05-30",
 "org-netbeans-modules-editor-bracesmatching.nbm": "2020-05-30",
 "org-netbeans-modules-editor-breadcrumbs.nbm": "2020-05-30",
@@ -2157,6 +2162,8 @@
 "org-netbeans-modules-j2ee-sun-ddui.nbm": "2020-05-30",
 "org-netbeans-modules-j2eeapis.nbm": "2020-05-30",
 "org-netbeans-modules-j2eeserver.nbm": "2020-05-30",
+"org-netbeans-modules-jakartaee8-api.nbm": "2020-08-26",
+"org-netbeans-modules-jakartaee8-platform.nbm": "2020-08-26",
 "org-netbeans-modules-janitor.nbm": "2020-05-30",
 "org-netbeans-modules-java-api-common.nbm": "2020-05-30",
 "org-netbeans-modules-java-completion.nbm": "2020-05-30",
@@ -2267,6 +2274,7 @@
 "org-netbeans-modules-keyring-fallback.nbm": "2020-05-30",
 "org-netbeans-modules-keyring-impl.nbm": "2020-05-30",
 "org-netbeans-modules-keyring.nbm": "2020-05-30",
+"org-netbeans-modules-ko4j-debugging.nbm": "2020-08-26",
 "org-netbeans-modules-kotlin-editor.nbm": "2020-05-30",
 "org-netbeans-modules-languages-apacheconf.nbm": "2020-05-30",
 "org-netbeans-modules-languages-diff.nbm": "2020-05-30",
@@ -2678,7 +2686,6 @@
 "pdfbox": {
 "jbig2-imageio-3.0.3": "2019-12-14",
 "pdfbox-1.8.16": "2018-10-01",
-"pdfbox-2.0.20": "2020-06-04",
 "pdfbox-2.0.21": "2020-08-17"
 },
 "perl": {
