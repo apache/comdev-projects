@@ -1,5 +1,8 @@
 {
 "accumulo": {
+"accumulo-1.10.0": [
+"accumulo/1.10.0/accumulo-1.10.0-src.tar.gz"
+],
 "accumulo-1.9.3": [
 "accumulo/1.9.3/accumulo-1.9.3-src.tar.gz"
 ],
@@ -2378,9 +2381,9 @@
 "felix/org.apache.felix.jaas-1.0.2-source-release.tar.gz",
 "felix/org.apache.felix.jaas-1.0.2-source-release.zip"
 ],
-"org.apache.felix.log-1.2.2": [
-"felix/org.apache.felix.log-1.2.2-source-release.tar.gz",
-"felix/org.apache.felix.log-1.2.2-source-release.zip"
+"org.apache.felix.log-1.2.4": [
+"felix/org.apache.felix.log-1.2.4-source-release.tar.gz",
+"felix/org.apache.felix.log-1.2.4-source-release.zip"
 ],
 "org.apache.felix.log.extension-1.0.0": [
 "felix/org.apache.felix.log.extension-1.0.0-source-release.tar.gz",
@@ -2412,9 +2415,9 @@
 "felix/org.apache.felix.resolver-2.0.0-source-release.tar.gz",
 "felix/org.apache.felix.resolver-2.0.0-source-release.zip"
 ],
-"org.apache.felix.scr-2.1.20": [
-"felix/org.apache.felix.scr-2.1.20-source-release.tar.gz",
-"felix/org.apache.felix.scr-2.1.20-source-release.zip"
+"org.apache.felix.scr-2.1.22": [
+"felix/org.apache.felix.scr-2.1.22-source-release.tar.gz",
+"felix/org.apache.felix.scr-2.1.22-source-release.zip"
 ],
 "org.apache.felix.scr.annotations-1.12.0": [
 "felix/org.apache.felix.scr.annotations-1.12.0-source-release.tar.gz",
@@ -8702,12 +8705,6 @@
 ]
 },
 "openmeetings": {
-"apache-openmeetings-4.0.10": [
-"openmeetings/4.0.10/bin/apache-openmeetings-4.0.10.tar.gz",
-"openmeetings/4.0.10/bin/apache-openmeetings-4.0.10.zip",
-"openmeetings/4.0.10/src/apache-openmeetings-4.0.10-src.tar.gz",
-"openmeetings/4.0.10/src/apache-openmeetings-4.0.10-src.zip"
-],
 "apache-openmeetings-4.0.11": [
 "openmeetings/4.0.11/bin/apache-openmeetings-4.0.11.tar.gz",
 "openmeetings/4.0.11/bin/apache-openmeetings-4.0.11.zip",
@@ -9397,6 +9394,9 @@
 ],
 "apache-ranger-2.0.0": [
 "ranger/2.0.0/apache-ranger-2.0.0.tar.gz"
+],
+"apache-ranger-2.1.0": [
+"ranger/2.1.0/apache-ranger-2.1.0.tar.gz"
 ]
 },
 "reef": {
@@ -11365,6 +11365,10 @@
 "tomcat-native-1.2.24": [
 "tomcat/tomcat-connectors/native/1.2.24/source/tomcat-native-1.2.24-src.tar.gz",
 "tomcat/tomcat-connectors/native/1.2.24/source/tomcat-native-1.2.24-win32-src.zip"
+],
+"tomcat-native-1.2.25": [
+"tomcat/tomcat-connectors/native/1.2.25/source/tomcat-native-1.2.25-src.tar.gz",
+"tomcat/tomcat-connectors/native/1.2.25/source/tomcat-native-1.2.25-win32-src.zip"
 ]
 },
 "tomee": {
