@@ -1668,6 +1668,71 @@
 ],
 "shortdesc": "Cactus is a simple test framework for unit testing server-side java code (Servlets, EJBs, Tag Libs, Filters, ...)."
 },
+"attic-lens": {
+"bug-database": "https://issues.apache.org/jira/browse/LENS",
+"category": "retired, big-data",
+"created": "2015-08",
+"description": "Lens provides an Unified Analytics interface.\n      Lens aims to cut the Data Analytics silos by providing a single view of data across\n      multiple tiered data stores and optimal execution environment for the analytical query.\n      It seamlessly integrates Hadoop with traditional data warehouses to appear like one.\n    ",
+"doap": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/lens.rdf",
+"download-page": "http://lens.apache.org/releases/download.html",
+"homepage": "http://lens.apache.org/",
+"license": "https://www.apache.org/licenses/LICENSE-2.0",
+"mailing-list": "http://lens.apache.org/mail-lists.html",
+"name": "Apache Lens",
+"pmc": "attic",
+"programming-language": "Java",
+"release": [
+{
+"created": "2015-03-04",
+"name": "Apache Lens",
+"revision": "2.0.1-beta-incubating"
+},
+{
+"created": "2015-",
+"name": "Apache Lens",
+"revision": "2.1.0-beta-incubating\t"
+},
+{
+"created": "2015-05-05",
+"name": "Apache Lens",
+"revision": "2.2.0-beta-incubating"
+},
+{
+"created": "2015-07-23",
+"name": "Apache Lens",
+"revision": "2.2.0-beta-incubating"
+},
+{
+"created": "2015-08-28",
+"name": "Apache Lens",
+"revision": "2.3.0-beta"
+},
+{
+"created": "2015-11-24",
+"name": "Apache Lens",
+"revision": "2.4.0-beta"
+},
+{
+"created": "2016-04-02",
+"name": "Apache Lens",
+"revision": "2.5.0-beta"
+},
+{
+"created": "2016-10-28",
+"name": "Apache Lens",
+"revision": "2.6.1"
+},
+{
+"created": "2018-02-06",
+"name": "Apache Lens",
+"revision": "2.7.1"
+}
+],
+"repository": [
+"https://git-wip-us.apache.org/repos/asf/lens.git"
+],
+"shortdesc": "Unified Analytics Interface"
+},
 "attic-lenya": {
 "bug-database": "http://issues.apache.org/bugzilla/buglist.cgi?product=Lenya",
 "category": "web-framework, xml, retired",
@@ -9385,71 +9450,6 @@
 "git://git.apache.org/kudu.git"
 ],
 "shortdesc": "Columnar storage manager"
-},
-"lens": {
-"bug-database": "https://issues.apache.org/jira/browse/LENS",
-"category": "big-data, retired",
-"created": "2015-08",
-"description": "Lens provides an Unified Analytics interface.\n      Lens aims to cut the Data Analytics silos by providing a single view of data across\n      multiple tiered data stores and optimal execution environment for the analytical query.\n      It seamlessly integrates Hadoop with traditional data warehouses to appear like one.\n    ",
-"doap": "http://svn.apache.org/repos/asf/lens/doap.rdf",
-"download-page": "http://lens.apache.org/releases/download.html",
-"homepage": "http://lens.apache.org/",
-"license": "https://www.apache.org/licenses/LICENSE-2.0",
-"mailing-list": "http://lens.apache.org/mail-lists.html",
-"name": "Apache Lens",
-"pmc": "attic",
-"programming-language": "Java",
-"release": [
-{
-"created": "2015-03-04",
-"name": "Apache Lens",
-"revision": "2.0.1-beta-incubating"
-},
-{
-"created": "2015-",
-"name": "Apache Lens",
-"revision": "2.1.0-beta-incubating\t"
-},
-{
-"created": "2015-05-05",
-"name": "Apache Lens",
-"revision": "2.2.0-beta-incubating"
-},
-{
-"created": "2015-07-23",
-"name": "Apache Lens",
-"revision": "2.2.0-beta-incubating"
-},
-{
-"created": "2015-08-28",
-"name": "Apache Lens",
-"revision": "2.3.0-beta"
-},
-{
-"created": "2015-11-24",
-"name": "Apache Lens",
-"revision": "2.4.0-beta"
-},
-{
-"created": "2016-04-02",
-"name": "Apache Lens",
-"revision": "2.5.0-beta"
-},
-{
-"created": "2016-10-28",
-"name": "Apache Lens",
-"revision": "2.6.1"
-},
-{
-"created": "2018-02-06",
-"name": "Apache Lens",
-"revision": "2.7.1"
-}
-],
-"repository": [
-"https://git-wip-us.apache.org/repos/asf/lens.git"
-],
-"shortdesc": "Unified Analytics Interface"
 },
 "libcloud": {
 "bug-database": "https://issues.apache.org/jira/browse/LIBCLOUD",
