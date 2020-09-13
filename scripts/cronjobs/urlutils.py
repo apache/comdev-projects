@@ -25,10 +25,6 @@ except:
 import time
 import calendar
 
-# urllib is currently broken and will fail on cert verify. Revert once box has been upgraded.
-import ssl
-ssl._create_default_https_context = ssl._create_unverified_context
-
 # time format used in Last-Modified/If-Modified-Since HTTP headers
 _HTTP_TIME_FORMAT = '%a, %d %b %Y %H:%M:%S GMT'
 
