@@ -1,4 +1,5 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
+
 import os, re
 print ("Content-Type: text/html\r\n\r\n")
 
