@@ -8825,14 +8825,11 @@
 ]
 },
 "orc": {
-"orc-1.4.5": [
-"orc/orc-1.4.5/orc-1.4.5.tar.gz"
+"orc-1.5.11": [
+"orc/orc-1.5.11/orc-1.5.11.tar.gz"
 ],
-"orc-1.5.10": [
-"orc/orc-1.5.10/orc-1.5.10.tar.gz"
-],
-"orc-1.6.3": [
-"orc/orc-1.6.3/orc-1.6.3.tar.gz"
+"orc-1.6.4": [
+"orc/orc-1.6.4/orc-1.6.4.tar.gz"
 ]
 },
 "parquet": {
@@ -8978,6 +8975,9 @@
 "plc4x": {
 "apache-plc4x-0.7.0": [
 "plc4x/0.7.0/apache-plc4x-0.7.0-source-release.zip"
+],
+"apache-plc4x-code-generation-1.3.0": [
+"plc4x/build-tools/code-generation/1.3.0/apache-plc4x-code-generation-1.3.0-source-release.zip"
 ],
 "plc4x-code-generaton-1.0.0": [
 "plc4x/build-tools/code-generation/1.0.0/plc4x-code-generaton-1.0.0-source-release.zip"
@@ -9370,6 +9370,9 @@
 ],
 "qpid-dispatch-1.13.0": [
 "qpid/dispatch/1.13.0/qpid-dispatch-1.13.0.tar.gz"
+],
+"qpid-dispatch-1.14.0": [
+"qpid/dispatch/1.14.0/qpid-dispatch-1.14.0.tar.gz"
 ],
 "qpid-interop-test-0.2.0": [
 "qpid/interop-test/0.2.0/qpid-interop-test-0.2.0.tar.gz"
@@ -10139,8 +10142,8 @@
 "org.apache.sling.extensions.webconsolesecurityprovider-1.2.4": [
 "sling/org.apache.sling.extensions.webconsolesecurityprovider-1.2.4-source-release.zip"
 ],
-"org.apache.sling.feature-1.2.6": [
-"sling/org.apache.sling.feature-1.2.6-source-release.zip"
+"org.apache.sling.feature-1.2.8": [
+"sling/org.apache.sling.feature-1.2.8-source-release.zip"
 ],
 "org.apache.sling.feature.analyser-1.3.8": [
 "sling/org.apache.sling.feature.analyser-1.3.8-source-release.zip"
@@ -10148,10 +10151,10 @@
 "org.apache.sling.feature.apiregions-1.1.6": [
 "sling/org.apache.sling.feature.apiregions-1.1.6-source-release.zip"
 ],
-"org.apache.sling.feature.cpconverter-1.0.12": [
-"sling/org.apache.sling.feature.cpconverter-1.0.12-source-release.zip",
-"sling/org.apache.sling.feature.cpconverter-1.0.12.tar.gz",
-"sling/org.apache.sling.feature.cpconverter-1.0.12.zip"
+"org.apache.sling.feature.cpconverter-1.0.14": [
+"sling/org.apache.sling.feature.cpconverter-1.0.14-source-release.zip",
+"sling/org.apache.sling.feature.cpconverter-1.0.14.tar.gz",
+"sling/org.apache.sling.feature.cpconverter-1.0.14.zip"
 ],
 "org.apache.sling.feature.diff-0.0.6": [
 "sling/org.apache.sling.feature.diff-0.0.6-source-release.zip"
@@ -10165,8 +10168,8 @@
 "org.apache.sling.feature.inventoryprinter-1.0.0": [
 "sling/org.apache.sling.feature.inventoryprinter-1.0.0-source-release.zip"
 ],
-"org.apache.sling.feature.launcher-1.1.4": [
-"sling/org.apache.sling.feature.launcher-1.1.4-source-release.zip"
+"org.apache.sling.feature.launcher-1.1.6": [
+"sling/org.apache.sling.feature.launcher-1.1.6-source-release.zip"
 ],
 "org.apache.sling.feature.modelconverter-1.0.14": [
 "sling/org.apache.sling.feature.modelconverter-1.0.14-source-release.zip",
@@ -10290,8 +10293,8 @@
 "org.apache.sling.jcr.jcr-wrapper-2.0.0": [
 "sling/org.apache.sling.jcr.jcr-wrapper-2.0.0-source-release.zip"
 ],
-"org.apache.sling.jcr.oak.server-1.2.6": [
-"sling/org.apache.sling.jcr.oak.server-1.2.6-source-release.zip"
+"org.apache.sling.jcr.oak.server-1.2.8": [
+"sling/org.apache.sling.jcr.oak.server-1.2.8-source-release.zip"
 ],
 "org.apache.sling.jcr.packageinit-1.0.0": [
 "sling/org.apache.sling.jcr.packageinit-1.0.0-source-release.zip"
@@ -10613,8 +10616,8 @@
 "org.apache.sling.testing.sling-mock-1.9.12": [
 "sling/org.apache.sling.testing.sling-mock-1.9.12-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock-2.6.0": [
-"sling/org.apache.sling.testing.sling-mock-2.6.0-source-release.zip"
+"org.apache.sling.testing.sling-mock-2.6.2": [
+"sling/org.apache.sling.testing.sling-mock-2.6.2-source-release.zip"
 ],
 "org.apache.sling.testing.sling-mock-jackrabbit-1.0.0": [
 "sling/org.apache.sling.testing.sling-mock-jackrabbit-1.0.0-source-release.zip"
@@ -10622,17 +10625,17 @@
 "org.apache.sling.testing.sling-mock-oak-2.1.10-1.16.0": [
 "sling/org.apache.sling.testing.sling-mock-oak-2.1.10-1.16.0-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.core-2.6.0": [
-"sling/org.apache.sling.testing.sling-mock.core-2.6.0-source-release.zip"
+"org.apache.sling.testing.sling-mock.core-2.6.2": [
+"sling/org.apache.sling.testing.sling-mock.core-2.6.2-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.junit4-2.6.0": [
-"sling/org.apache.sling.testing.sling-mock.junit4-2.6.0-source-release.zip"
+"org.apache.sling.testing.sling-mock.junit4-2.6.2": [
+"sling/org.apache.sling.testing.sling-mock.junit4-2.6.2-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.junit5-2.6.0": [
-"sling/org.apache.sling.testing.sling-mock.junit5-2.6.0-source-release.zip"
+"org.apache.sling.testing.sling-mock.junit5-2.6.2": [
+"sling/org.apache.sling.testing.sling-mock.junit5-2.6.2-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.parent-2.6.0": [
-"sling/org.apache.sling.testing.sling-mock.parent-2.6.0-source-release.zip"
+"org.apache.sling.testing.sling-mock.parent-2.6.2": [
+"sling/org.apache.sling.testing.sling-mock.parent-2.6.2-source-release.zip"
 ],
 "org.apache.sling.testing.tools-1.0.16": [
 "sling/org.apache.sling.testing.tools-1.0.16-source-release.zip"
@@ -10708,8 +10711,8 @@
 "sling-slingstart-archetype-1.0.8": [
 "sling/sling-slingstart-archetype-1.0.8-source-release.zip"
 ],
-"slingfeature-maven-plugin-1.3.14": [
-"sling/slingfeature-maven-plugin-1.3.14-source-release.zip"
+"slingfeature-maven-plugin-1.3.16": [
+"sling/slingfeature-maven-plugin-1.3.16-source-release.zip"
 ],
 "slingstart-maven-plugin-1.9.12": [
 "sling/slingstart-maven-plugin-1.9.12-source-release.zip"
@@ -11018,52 +11021,52 @@
 ]
 },
 "syncope": {
-"apache-syncope-2.0.15": [
-"syncope/2.0.15/apache-syncope-2.0.15.deb"
+"apache-syncope-2.0.16": [
+"syncope/2.0.16/apache-syncope-2.0.16.deb"
 ],
-"apache-syncope-2.1.6": [
-"syncope/2.1.6/apache-syncope-2.1.6.deb"
+"apache-syncope-2.1.7": [
+"syncope/2.1.7/apache-syncope-2.1.7.deb"
 ],
-"apache-syncope-console-2.0.15": [
-"syncope/2.0.15/apache-syncope-console-2.0.15.deb"
+"apache-syncope-console-2.0.16": [
+"syncope/2.0.16/apache-syncope-console-2.0.16.deb"
 ],
-"apache-syncope-console-2.1.6": [
-"syncope/2.1.6/apache-syncope-console-2.1.6.deb"
+"apache-syncope-console-2.1.7": [
+"syncope/2.1.7/apache-syncope-console-2.1.7.deb"
 ],
-"apache-syncope-enduser-2.0.15": [
-"syncope/2.0.15/apache-syncope-enduser-2.0.15.deb"
+"apache-syncope-enduser-2.0.16": [
+"syncope/2.0.16/apache-syncope-enduser-2.0.16.deb"
 ],
-"apache-syncope-enduser-2.1.6": [
-"syncope/2.1.6/apache-syncope-enduser-2.1.6.deb"
+"apache-syncope-enduser-2.1.7": [
+"syncope/2.1.7/apache-syncope-enduser-2.1.7.deb"
 ],
-"org.apache.syncope.ide.eclipse.site-2.0.15": [
-"syncope/2.0.15/org.apache.syncope.ide.eclipse.site-2.0.15.zip"
+"org.apache.syncope.ide.eclipse.site-2.0.16": [
+"syncope/2.0.16/org.apache.syncope.ide.eclipse.site-2.0.16.zip"
 ],
-"org.apache.syncope.ide.eclipse.site-2.1.6": [
-"syncope/2.1.6/org.apache.syncope.ide.eclipse.site-2.1.6.zip"
+"org.apache.syncope.ide.eclipse.site-2.1.7": [
+"syncope/2.1.7/org.apache.syncope.ide.eclipse.site-2.1.7.zip"
 ],
-"syncope-2.0.15": [
-"syncope/2.0.15/syncope-2.0.15-source-release.zip",
-"syncope/2.0.15/syncope-standalone-2.0.15-distribution.zip"
+"syncope-2.0.16": [
+"syncope/2.0.16/syncope-2.0.16-source-release.zip",
+"syncope/2.0.16/syncope-standalone-2.0.16-distribution.zip"
 ],
-"syncope-2.1.6": [
-"syncope/2.1.6/syncope-2.1.6-source-release.zip",
-"syncope/2.1.6/syncope-standalone-2.1.6-distribution.zip"
+"syncope-2.1.7": [
+"syncope/2.1.7/syncope-2.1.7-source-release.zip",
+"syncope/2.1.7/syncope-standalone-2.1.7-distribution.zip"
 ],
-"syncope-client-cli-2.0.15": [
-"syncope/2.0.15/syncope-client-cli-2.0.15.zip"
+"syncope-client-cli-2.0.16": [
+"syncope/2.0.16/syncope-client-cli-2.0.16.zip"
 ],
-"syncope-client-cli-2.1.6": [
-"syncope/2.1.6/syncope-client-cli-2.1.6.zip"
+"syncope-client-cli-2.1.7": [
+"syncope/2.1.7/syncope-client-cli-2.1.7.zip"
 ],
-"syncope-core-upgrade-2.1.6": [
-"syncope/2.1.6/syncope-core-upgrade-2.1.6.zip"
+"syncope-core-upgrade-2.1.7": [
+"syncope/2.1.7/syncope-core-upgrade-2.1.7.zip"
 ],
-"syncope-ide-netbeans-2.0.15.nbm": [
-"syncope/2.0.15/syncope-ide-netbeans-2.0.15.nbm"
+"syncope-ide-netbeans-2.0.16.nbm": [
+"syncope/2.0.16/syncope-ide-netbeans-2.0.16.nbm"
 ],
-"syncope-ide-netbeans-2.1.6.nbm": [
-"syncope/2.1.6/syncope-ide-netbeans-2.1.6.nbm"
+"syncope-ide-netbeans-2.1.7.nbm": [
+"syncope/2.1.7/syncope-ide-netbeans-2.1.7.nbm"
 ]
 },
 "systemds": {
@@ -11298,6 +11301,19 @@
 "tomcat/tomcat-10/v10.0.0-M7/bin/apache-tomcat-10.0.0-M7.zip",
 "tomcat/tomcat-10/v10.0.0-M7/src/apache-tomcat-10.0.0-M7-src.tar.gz",
 "tomcat/tomcat-10/v10.0.0-M7/src/apache-tomcat-10.0.0-M7-src.zip"
+],
+"apache-tomcat-10.0.0-M8": [
+"tomcat/tomcat-10/v10.0.0-M8/bin/embed/apache-tomcat-10.0.0-M8-embed.tar.gz",
+"tomcat/tomcat-10/v10.0.0-M8/bin/embed/apache-tomcat-10.0.0-M8-embed.zip",
+"tomcat/tomcat-10/v10.0.0-M8/bin/apache-tomcat-10.0.0-M8-deployer.tar.gz",
+"tomcat/tomcat-10/v10.0.0-M8/bin/apache-tomcat-10.0.0-M8-deployer.zip",
+"tomcat/tomcat-10/v10.0.0-M8/bin/apache-tomcat-10.0.0-M8-fulldocs.tar.gz",
+"tomcat/tomcat-10/v10.0.0-M8/bin/apache-tomcat-10.0.0-M8-windows-x64.zip",
+"tomcat/tomcat-10/v10.0.0-M8/bin/apache-tomcat-10.0.0-M8.exe",
+"tomcat/tomcat-10/v10.0.0-M8/bin/apache-tomcat-10.0.0-M8.tar.gz",
+"tomcat/tomcat-10/v10.0.0-M8/bin/apache-tomcat-10.0.0-M8.zip",
+"tomcat/tomcat-10/v10.0.0-M8/src/apache-tomcat-10.0.0-M8-src.tar.gz",
+"tomcat/tomcat-10/v10.0.0-M8/src/apache-tomcat-10.0.0-M8-src.zip"
 ],
 "apache-tomcat-7.0.105": [
 "tomcat/tomcat-7/v7.0.105/bin/embed/apache-tomcat-7.0.105-embed.tar.gz",
