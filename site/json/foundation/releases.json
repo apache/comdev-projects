@@ -321,6 +321,9 @@
 "camel-k-client-1.1.0-linux": "2020-07-24",
 "camel-k-client-1.1.0-mac": "2020-07-24",
 "camel-k-client-1.1.0-windows": "2020-07-24",
+"camel-k-client-1.1.1-linux": "2020-09-15",
+"camel-k-client-1.1.1-mac": "2020-09-15",
+"camel-k-client-1.1.1-windows": "2020-09-15",
 "camel-k-examples-0.3.4": "2019-06-11",
 "camel-k-examples-1.0.0": "2020-06-09",
 "camel-k-examples-1.0.0-M1": "2019-07-29",
@@ -331,6 +334,7 @@
 "camel-k-examples-1.0.0-RC2": "2020-02-28",
 "camel-k-examples-1.0.1": "2020-06-30",
 "camel-k-examples-1.1.0": "2020-07-24",
+"camel-k-examples-1.1.1": "2020-09-15",
 "camel-k-sources-0.3.4": "2019-06-11",
 "camel-k-sources-1.0.0": "2020-06-09",
 "camel-k-sources-1.0.0-M1": "2019-07-29",
@@ -340,7 +344,8 @@
 "camel-k-sources-1.0.0-RC1": "2019-12-24",
 "camel-k-sources-1.0.0-RC2": "2020-02-28",
 "camel-k-sources-1.0.1": "2020-06-30",
-"camel-k-sources-1.1.0": "2020-07-24"
+"camel-k-sources-1.1.0": "2020-07-24",
+"camel-k-sources-1.1.1": "2020-09-15"
 },
 "carbondata": {
 "apache-carbondata-1.4.1": "2018-08-14",
@@ -823,10 +828,12 @@
 "flink": {
 "apache-flink-1.10.2": "2020-08-17",
 "apache-flink-1.11.1": "2020-07-15",
+"apache-flink-1.11.2": "2020-09-10",
 "apache-flink-statefun-2.0.0": "2020-04-03",
 "apache-flink-statefun-2.1.0": "2020-06-01",
 "flink-1.10.2": "2020-08-17",
 "flink-1.11.1": "2020-07-15",
+"flink-1.11.2": "2020-09-10",
 "flink-shaded-10.0": "2020-02-12",
 "flink-shaded-11.0": "2020-05-25",
 "flink-shaded-9.0": "2019-11-19",
@@ -1231,7 +1238,8 @@
 "apache-superset-incubating-0.35.1": "2019-11-26",
 "apache-superset-incubating-0.35.2": "2020-01-15",
 "apache-superset-incubating-0.36.0": "2020-04-17",
-"apache-superset-incubating-0.37.0": "2020-08-13"
+"apache-superset-incubating-0.37.0": "2020-08-13",
+"apache-superset-incubating-0.37.1": "2020-09-15"
 },
 "incubator-tamaya": {
 "DISCLAIMER": "2015-08-22",
@@ -3027,21 +3035,16 @@
 "apache-sis-1.0": "2019-09-20"
 },
 "skywalking": {
-"apache-skywalking-apm-7.0.0": "2020-03-19",
 "apache-skywalking-apm-8.0.1": "2020-06-18",
 "apache-skywalking-apm-8.1.0": "2020-07-31",
-"apache-skywalking-apm-es7-7.0.0": "2020-03-19",
 "apache-skywalking-apm-es7-8.0.1": "2020-06-18",
 "apache-skywalking-apm-es7-8.1.0": "2020-07-31",
-"skywalking-2.0.0": "2020-03-30",
 "skywalking-3.0.0": "2020-06-27",
 "skywalking-3.1.0": "2020-08-13",
 "skywalking-cli-0.2.0": "2020-03-14",
 "skywalking-cli-0.3.0": "2020-07-23",
-"skywalking-kubernetes-2.0.0": "2020-03-30",
 "skywalking-kubernetes-3.0.0": "2020-06-27",
 "skywalking-kubernetes-3.1.0": "2020-08-13",
-"skywalking-nginx-lua-0.1.0": "2020-03-06",
 "skywalking-nginx-lua-0.2.0": "2020-06-17",
 "skywalking-python": "2020-06-28",
 "skywalking-python-0.2.0": "2020-07-25",
@@ -3506,14 +3509,12 @@
 "apache-tinkerpop-3.4.8": "2020-08-07"
 },
 "tomcat": {
-"apache-tomcat-10.0.0-M6": "2020-06-03",
-"apache-tomcat-10.0.0-M7": "2020-06-30",
 "apache-tomcat-10.0.0-M8": "2020-09-09",
 "apache-tomcat-7.0.105": "2020-07-02",
-"apache-tomcat-8.5.56": "2020-06-03",
 "apache-tomcat-8.5.57": "2020-06-30",
-"apache-tomcat-9.0.36": "2020-06-03",
+"apache-tomcat-8.5.58": "2020-09-10",
 "apache-tomcat-9.0.37": "2020-06-30",
+"apache-tomcat-9.0.38": "2020-09-10",
 "taglibs-standard-1.2.5": "2015-03-10",
 "tomcat-connectors-1.2.48": "2020-03-06",
 "tomcat-maven-plugin-2.2": "2013-11-07",
