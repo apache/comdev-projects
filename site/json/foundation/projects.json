@@ -13942,7 +13942,7 @@
 },
 "predictionio": {
 "bug-database": "https://issues.apache.org/jira/browse/PIO",
-"category": "big-data",
+"category": "big-data, retired",
 "created": "2016-05-26",
 "description": "PredictionIO is an open source Machine Learning Server built on top of state-of-the-art open source stack, that enables developers to manage and deploy production-ready predictive services for various kinds of machine learning tasks.",
 "doap": "https://gitbox.apache.org/repos/asf?p=predictionio.git;a=blob_plain;f=doap.rdf;hb=refs/heads/develop",
@@ -13956,7 +13956,7 @@
 }
 ],
 "name": "Apache PredictionIO",
-"pmc": "predictionio",
+"pmc": "attic",
 "programming-language": "Scala",
 "repository": [
 "https://gitbox.apache.org/repos/asf/predictionio.git"
@@ -14937,7 +14937,7 @@
 },
 "tajo": {
 "bug-database": "https://issues.apache.org/jira/browse/TAJO",
-"category": "big-data",
+"category": "big-data, retired",
 "created": "2014-02-23",
 "description": "\n      The main goal of Apache Tajo project is to build an advanced open\n      source data warehouse system in Hadoop for processing web-scale data\n      sets. Basically, Tajo provides SQL standard as a query language.\n      Tajo is designed for both interactive and batch queries on data sets\n      stored on HDFS and other data sources. Without hurting query response\n      times, Tajo provides fault-tolerance and dynamic load balancing which\n      are necessary for long-running queries. Tajo employs a cost-based and\n      progressive query optimization techniques for reoptimizing running\n      queries in order to avoid the worst query plans.\n    ",
 "doap": "https://gitbox.apache.org/repos/asf?p=tajo.git;f=doap_Tajo.rdf;a=blob_plain;hb=HEAD",
@@ -14952,7 +14952,7 @@
 }
 ],
 "name": "Apache Tajo",
-"pmc": "tajo",
+"pmc": "attic",
 "programming-language": "Java",
 "repository": [
 "https://github.com/apache/tajo.git"
@@ -15469,14 +15469,14 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2020-07-06",
+"created": "2020-09-15",
 "name": "Latest Stable 9.0.x Release",
-"revision": "9.0.37"
+"revision": "9.0.38"
 },
 {
-"created": "2020-07-06",
+"created": "2020-09-15",
 "name": "Latest Stable 8.5.x Release",
-"revision": "8.5.57"
+"revision": "8.5.58"
 },
 {
 "created": "2020-07-07",

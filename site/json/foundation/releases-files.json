@@ -3029,6 +3029,7 @@
 "hbase": {
 "RELEASENOTES.md": [
 "hbase/2.2.5/RELEASENOTES.md",
+"hbase/2.2.6/RELEASENOTES.md",
 "hbase/2.3.1/RELEASENOTES.md",
 "hbase/hbase-filesystem-1.0.0-alpha1/RELEASENOTES.md",
 "hbase/hbase-operator-tools-1.0.0/RELEASENOTES.md",
@@ -3042,6 +3043,9 @@
 ],
 "hbase-2.2.5": [
 "hbase/2.2.5/hbase-2.2.5-src.tar.gz"
+],
+"hbase-2.2.6": [
+"hbase/2.2.6/hbase-2.2.6-src.tar.gz"
 ],
 "hbase-2.3.1": [
 "hbase/2.3.1/hbase-2.3.1-src.tar.gz"
@@ -4753,6 +4757,12 @@
 "manifoldcf/apache-manifoldcf-2.16/apache-manifoldcf-2.16-lib.zip",
 "manifoldcf/apache-manifoldcf-2.16/apache-manifoldcf-2.16-src.tar.gz",
 "manifoldcf/apache-manifoldcf-2.16/apache-manifoldcf-2.16-src.zip"
+],
+"apache-manifoldcf-2.17": [
+"manifoldcf/apache-manifoldcf-2.17/apache-manifoldcf-2.17-lib.tar.gz",
+"manifoldcf/apache-manifoldcf-2.17/apache-manifoldcf-2.17-lib.zip",
+"manifoldcf/apache-manifoldcf-2.17/apache-manifoldcf-2.17-src.tar.gz",
+"manifoldcf/apache-manifoldcf-2.17/apache-manifoldcf-2.17-src.zip"
 ],
 "apache-manifoldcf-elasticsearch-1.5-plugin-2.0.2": [
 "manifoldcf/apache-manifoldcf-elasticsearch-1.5-plugin-2.0.2/apache-manifoldcf-elasticsearch-1.5-plugin-2.0.2-src.tar.gz",
@@ -11335,19 +11345,6 @@
 "tomcat/tomcat-8/v8.5.58/bin/apache-tomcat-8.5.58.zip",
 "tomcat/tomcat-8/v8.5.58/src/apache-tomcat-8.5.58-src.tar.gz",
 "tomcat/tomcat-8/v8.5.58/src/apache-tomcat-8.5.58-src.zip"
-],
-"apache-tomcat-9.0.37": [
-"tomcat/tomcat-9/v9.0.37/bin/embed/apache-tomcat-9.0.37-embed.tar.gz",
-"tomcat/tomcat-9/v9.0.37/bin/embed/apache-tomcat-9.0.37-embed.zip",
-"tomcat/tomcat-9/v9.0.37/bin/apache-tomcat-9.0.37-deployer.tar.gz",
-"tomcat/tomcat-9/v9.0.37/bin/apache-tomcat-9.0.37-deployer.zip",
-"tomcat/tomcat-9/v9.0.37/bin/apache-tomcat-9.0.37-fulldocs.tar.gz",
-"tomcat/tomcat-9/v9.0.37/bin/apache-tomcat-9.0.37-windows-x64.zip",
-"tomcat/tomcat-9/v9.0.37/bin/apache-tomcat-9.0.37.exe",
-"tomcat/tomcat-9/v9.0.37/bin/apache-tomcat-9.0.37.tar.gz",
-"tomcat/tomcat-9/v9.0.37/bin/apache-tomcat-9.0.37.zip",
-"tomcat/tomcat-9/v9.0.37/src/apache-tomcat-9.0.37-src.tar.gz",
-"tomcat/tomcat-9/v9.0.37/src/apache-tomcat-9.0.37-src.zip"
 ],
 "apache-tomcat-9.0.38": [
 "tomcat/tomcat-9/v9.0.38/bin/embed/apache-tomcat-9.0.38-embed.tar.gz",
