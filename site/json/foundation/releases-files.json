@@ -626,15 +626,11 @@
 "beam/vendor/beam-vendor-grpc-1_21_0/0.1/apache-beam-0fce2b88660f52dae638697e1472aa108c982ae6-source-release.zip",
 "beam/vendor/beam-vendor-guava-26_0-jre/0.1/apache-beam-0fce2b88660f52dae638697e1472aa108c982ae6-source-release.zip"
 ],
-"apache-beam-2.22.0": [
-"beam/2.22.0/python/apache-beam-2.22.0.zip",
-"beam/2.22.0/apache-beam-2.22.0-source-release.zip"
-],
-"apache-beam-2.23.0": [
-"beam/2.23.0/python/apache-beam-2.23.0.zip",
-"beam/2.23.0/apache-beam-2.23.0-source-release.zip",
-"beam/latest/python/apache-beam-2.23.0.zip",
-"beam/latest/apache-beam-2.23.0-source-release.zip"
+"apache-beam-2.24.0": [
+"beam/2.24.0/python/apache-beam-2.24.0.zip",
+"beam/2.24.0/apache-beam-2.24.0-source-release.zip",
+"beam/latest/python/apache-beam-2.24.0.zip",
+"beam/latest/apache-beam-2.24.0-source-release.zip"
 ],
 "apache-beam-28d05d317a39b5d60a31988c69d1fb8a9c5006fc": [
 "beam/vendor/beam-vendor-grpc-1_26_0/0.3/apache-beam-28d05d317a39b5d60a31988c69d1fb8a9c5006fc-source-release.zip"
@@ -1786,8 +1782,8 @@
 "cordova-plugin-battery-status-2.0.3": [
 "cordova/plugins/cordova-plugin-battery-status-2.0.3.tgz"
 ],
-"cordova-plugin-camera-4.1.0": [
-"cordova/plugins/cordova-plugin-camera-4.1.0.tgz"
+"cordova-plugin-camera-5.0.0": [
+"cordova/plugins/cordova-plugin-camera-5.0.0.tgz"
 ],
 "cordova-plugin-compat-1.2.0": [
 "cordova/plugins/cordova-plugin-compat-1.2.0.tgz"
@@ -1875,8 +1871,8 @@
 "apache-couchdb-3.0.1": [
 "couchdb/source/3.0.1/apache-couchdb-3.0.1.tar.gz"
 ],
-"apache-couchdb-3.1.0": [
-"couchdb/source/3.1.0/apache-couchdb-3.1.0.tar.gz"
+"apache-couchdb-3.1.1": [
+"couchdb/source/3.1.1/apache-couchdb-3.1.1.tar.gz"
 ]
 },
 "creadur": {
@@ -2540,6 +2536,9 @@
 "fineract": {
 "apache-fineract-1.3.0": [
 "fineract/1.3.0/apache-fineract-1.3.0-src.tar.gz"
+],
+"apache-fineract-1.4.0": [
+"fineract/1.4.0/apache-fineract-1.4.0-src.tar.gz"
 ]
 },
 "flex": {
@@ -2614,9 +2613,6 @@
 "apache-flink-1.10.2": [
 "flink/flink-1.10.2/apache-flink-1.10.2.tar.gz"
 ],
-"apache-flink-1.11.1": [
-"flink/flink-1.11.1/python/apache-flink-1.11.1.tar.gz"
-],
 "apache-flink-1.11.2": [
 "flink/flink-1.11.2/python/apache-flink-1.11.2.tar.gz"
 ],
@@ -2628,9 +2624,6 @@
 ],
 "flink-1.10.2": [
 "flink/flink-1.10.2/flink-1.10.2-src.tgz"
-],
-"flink-1.11.1": [
-"flink/flink-1.11.1/flink-1.11.1-src.tgz"
 ],
 "flink-1.11.2": [
 "flink/flink-1.11.2/flink-1.11.2-src.tgz"
@@ -3208,6 +3201,10 @@
 "httpcomponents-core-5.0.2": [
 "httpcomponents/httpcore/source/httpcomponents-core-5.0.2-src.tar.gz",
 "httpcomponents/httpcore/source/httpcomponents-core-5.0.2-src.zip"
+],
+"httpcomponents-core-5.1-beta1": [
+"httpcomponents/httpcore/source/httpcomponents-core-5.1-beta1-src.tar.gz",
+"httpcomponents/httpcore/source/httpcomponents-core-5.1-beta1-src.zip"
 ]
 },
 "httpd": {
@@ -4517,6 +4514,9 @@
 ],
 "apache-kudu-1.12.0": [
 "kudu/1.12.0/apache-kudu-1.12.0.tar.gz"
+],
+"apache-kudu-1.13.0": [
+"kudu/1.13.0/apache-kudu-1.13.0.tar.gz"
 ]
 },
 "kylin": {
@@ -8986,6 +8986,9 @@
 ],
 "apache-phoenix-5.0.0-HBase-2.0": [
 "phoenix/apache-phoenix-5.0.0-HBase-2.0/src/apache-phoenix-5.0.0-HBase-2.0-src.tar.gz"
+],
+"python-phoenixdb-1.0.0": [
+"phoenix/python-phoenixdb-1.0.0/src/python-phoenixdb-1.0.0-src.tar.gz"
 ]
 },
 "pig": {
@@ -9381,8 +9384,14 @@
 "apache-qpid-broker-j-7.1.8": [
 "qpid/broker-j/7.1.8/apache-qpid-broker-j-7.1.8-src.tar.gz"
 ],
+"apache-qpid-broker-j-7.1.9": [
+"qpid/broker-j/7.1.9/apache-qpid-broker-j-7.1.9-src.tar.gz"
+],
 "apache-qpid-broker-j-8.0.0": [
 "qpid/broker-j/8.0.0/apache-qpid-broker-j-8.0.0-src.tar.gz"
+],
+"apache-qpid-broker-j-8.0.1": [
+"qpid/broker-j/8.0.1/apache-qpid-broker-j-8.0.1-src.tar.gz"
 ],
 "apache-qpid-jms-0.53.0": [
 "qpid/jms/0.53.0/apache-qpid-jms-0.53.0-src.tar.gz"
@@ -10183,6 +10192,11 @@
 "org.apache.sling.feature.extension.content-1.0.6": [
 "sling/org.apache.sling.feature.extension.content-1.0.6-source-release.zip"
 ],
+"org.apache.sling.feature.extension.unpack-0.1.0": [
+"sling/org.apache.sling.feature.extension.unpack-0.1.0-source-release.zip",
+"sling/org.apache.sling.feature.extension.unpack-0.1.0.tar.gz",
+"sling/org.apache.sling.feature.extension.unpack-0.1.0.zip"
+],
 "org.apache.sling.feature.inventoryprinter-1.0.0": [
 "sling/org.apache.sling.feature.inventoryprinter-1.0.0-source-release.zip"
 ],
@@ -10257,8 +10271,8 @@
 "org.apache.sling.installer.factory.configuration-1.3.2": [
 "sling/org.apache.sling.installer.factory.configuration-1.3.2-source-release.zip"
 ],
-"org.apache.sling.installer.factory.feature-0.4.0": [
-"sling/org.apache.sling.installer.factory.feature-0.4.0-source-release.zip"
+"org.apache.sling.installer.factory.feature-0.5.0": [
+"sling/org.apache.sling.installer.factory.feature-0.5.0-source-release.zip"
 ],
 "org.apache.sling.installer.factory.packages-1.0.4": [
 "sling/org.apache.sling.installer.factory.packages-1.0.4-source-release.zip"
