@@ -655,7 +655,8 @@
 "jdo-3.1-rc1": "2014-02-21",
 "jdo-api-3.0.1": "2014-04-18",
 "jdo-tck-3.0.1": "2014-04-18",
-"torque-4.0": "2014-04-16"
+"torque-4.0": "2014-04-16",
+"torque-5.0": "2020-09-22"
 },
 "deltaspike": {
 "deltaspike-1.9.4": "2020-06-13",
@@ -933,6 +934,7 @@
 "hadoop": {
 "RELEASENOTES.md": "2019-10-30",
 "hadoop-2.10.0": "2019-10-30",
+"hadoop-2.10.1": "2020-09-22",
 "hadoop-2.7.7": "2018-07-20",
 "hadoop-2.8.5": "2018-09-18",
 "hadoop-2.9.2": "2018-11-20",
@@ -1498,7 +1500,6 @@
 "knoxshell-1.4.0": "2020-04-22"
 },
 "kudu": {
-"apache-kudu-1.10.1": "2019-11-20",
 "apache-kudu-1.11.1": "2019-11-20",
 "apache-kudu-1.12.0": "2020-05-11",
 "apache-kudu-1.13.0": "2020-09-17"
@@ -2642,7 +2643,8 @@
 },
 "openmeetings": {
 "apache-openmeetings-4.0.11": "2020-09-02",
-"apache-openmeetings-5.0.0": "2020-08-18"
+"apache-openmeetings-5.0.0": "2020-08-18",
+"apache-openmeetings-5.0.1": "2020-09-22"
 },
 "opennlp": {
 "apache-opennlp-1.9.3": "2020-08-02"
@@ -3203,7 +3205,28 @@
 "org.apache.sling.junit.scriptable-1.0.12": "2017-05-12",
 "org.apache.sling.junit.teleporter-1.0.22": "2020-07-21",
 "org.apache.sling.karaf-repoinit-0.2.0": "2017-03-20",
-"org.apache.sling.kickstart-0.0.2": "2020-05-18",
+"org.apache.sling.kickstart-0.0.8": "2020-09-23",
+"org.apache.sling.kickstart-0.0.8-base.slingosgifeature": "2020-09-23",
+"org.apache.sling.kickstart-0.0.8-boot.slingosgifeature": "2020-09-23",
+"org.apache.sling.kickstart-0.0.8-caconfig.slingosgifeature": "2020-09-23",
+"org.apache.sling.kickstart-0.0.8-composum.slingosgifeature": "2020-09-23",
+"org.apache.sling.kickstart-0.0.8-discovery.slingosgifeature": "2020-09-23",
+"org.apache.sling.kickstart-0.0.8-event.slingosgifeature": "2020-09-23",
+"org.apache.sling.kickstart-0.0.8-healthcheck.slingosgifeature": "2020-09-23",
+"org.apache.sling.kickstart-0.0.8-models-jacksonexporter.slingosgifeature": "2020-09-23",
+"org.apache.sling.kickstart-0.0.8-nosample_base.slingosgifeature": "2020-09-23",
+"org.apache.sling.kickstart-0.0.8-oak_base.slingosgifeature": "2020-09-23",
+"org.apache.sling.kickstart-0.0.8-oak_mongo.slingosgifeature": "2020-09-23",
+"org.apache.sling.kickstart-0.0.8-oak_mongo_far.far": "2020-09-23",
+"org.apache.sling.kickstart-0.0.8-oak_persistence_mongods.slingosgifeature": "2020-09-23",
+"org.apache.sling.kickstart-0.0.8-oak_persistence_sns.slingosgifeature": "2020-09-23",
+"org.apache.sling.kickstart-0.0.8-oak_tar.slingosgifeature": "2020-09-23",
+"org.apache.sling.kickstart-0.0.8-oak_tar_far.far": "2020-09-23",
+"org.apache.sling.kickstart-0.0.8-scripting.slingosgifeature": "2020-09-23",
+"org.apache.sling.kickstart-0.0.8-slingshot.slingosgifeature": "2020-09-23",
+"org.apache.sling.kickstart-0.0.8-starter.slingosgifeature": "2020-09-23",
+"org.apache.sling.kickstart-0.0.8-validation.slingosgifeature": "2020-09-23",
+"org.apache.sling.kickstart-0.0.8-webconsole.slingosgifeature": "2020-09-23",
 "org.apache.sling.launchpad.api-1.2.0": "2015-06-29",
 "org.apache.sling.launchpad.base-6.0.2-2.6.36": "2019-04-02",
 "org.apache.sling.launchpad.content-2.0.12": "2017-05-29",
@@ -3318,7 +3341,7 @@
 "sling-feature-converter-maven-plugin-1.0.4": "2020-01-16",
 "sling-initial-content-archetype-1.0.6": "2018-02-03",
 "sling-jcrinstall-bundle-archetype-1.0.6": "2018-02-03",
-"sling-kickstart-maven-plugin-0.0.2": "2020-05-18",
+"sling-kickstart-maven-plugin-0.0.8": "2020-09-23",
 "sling-launchpad-archetype-1.0.0": "2013-01-21",
 "sling-maven-plugin-2.4.2": "2019-06-06",
 "sling-maven-plugin.parent-2.4.2": "2019-06-06",
@@ -3510,7 +3533,6 @@
 },
 "tomcat": {
 "apache-tomcat-10.0.0-M8": "2020-09-09",
-"apache-tomcat-7.0.105": "2020-07-02",
 "apache-tomcat-7.0.106": "2020-09-16",
 "apache-tomcat-8.5.57": "2020-06-30",
 "apache-tomcat-8.5.58": "2020-09-10",

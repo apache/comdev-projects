@@ -2015,6 +2015,9 @@
 ],
 "torque-4.0": [
 "db/torque/torque-4.0/source/torque-4.0-source-release.zip"
+],
+"torque-5.0": [
+"db/torque/torque-5.0/source/torque-5.0-source-release.zip"
 ]
 },
 "deltaspike": {
@@ -2897,10 +2900,12 @@
 "hadoop": {
 "RELEASENOTES.md": [
 "hadoop/common/hadoop-2.10.0/RELEASENOTES.md",
+"hadoop/common/hadoop-2.10.1/RELEASENOTES.md",
 "hadoop/common/hadoop-3.1.3/RELEASENOTES.md",
 "hadoop/common/hadoop-3.1.4/RELEASENOTES.md",
 "hadoop/common/hadoop-3.3.0/RELEASENOTES.md",
 "hadoop/core/hadoop-2.10.0/RELEASENOTES.md",
+"hadoop/core/hadoop-2.10.1/RELEASENOTES.md",
 "hadoop/core/hadoop-3.1.3/RELEASENOTES.md",
 "hadoop/core/hadoop-3.1.4/RELEASENOTES.md",
 "hadoop/core/hadoop-3.3.0/RELEASENOTES.md",
@@ -2913,6 +2918,14 @@
 "hadoop/core/hadoop-2.10.0/hadoop-2.10.0-site.tar.gz",
 "hadoop/core/hadoop-2.10.0/hadoop-2.10.0-src.tar.gz",
 "hadoop/core/hadoop-2.10.0/hadoop-2.10.0.tar.gz"
+],
+"hadoop-2.10.1": [
+"hadoop/common/hadoop-2.10.1/hadoop-2.10.1-site.tar.gz",
+"hadoop/common/hadoop-2.10.1/hadoop-2.10.1-src.tar.gz",
+"hadoop/common/hadoop-2.10.1/hadoop-2.10.1.tar.gz",
+"hadoop/core/hadoop-2.10.1/hadoop-2.10.1-site.tar.gz",
+"hadoop/core/hadoop-2.10.1/hadoop-2.10.1-src.tar.gz",
+"hadoop/core/hadoop-2.10.1/hadoop-2.10.1.tar.gz"
 ],
 "hadoop-2.7.7": [
 "hadoop/common/hadoop-2.7.7/hadoop-2.7.7-src.tar.gz",
@@ -4506,9 +4519,6 @@
 ]
 },
 "kudu": {
-"apache-kudu-1.10.1": [
-"kudu/1.10.1/apache-kudu-1.10.1.tar.gz"
-],
 "apache-kudu-1.11.1": [
 "kudu/1.11.1/apache-kudu-1.11.1.tar.gz"
 ],
@@ -8741,6 +8751,12 @@
 "openmeetings/5.0.0/bin/apache-openmeetings-5.0.0.zip",
 "openmeetings/5.0.0/src/apache-openmeetings-5.0.0-src.tar.gz",
 "openmeetings/5.0.0/src/apache-openmeetings-5.0.0-src.zip"
+],
+"apache-openmeetings-5.0.1": [
+"openmeetings/5.0.1/bin/apache-openmeetings-5.0.1.tar.gz",
+"openmeetings/5.0.1/bin/apache-openmeetings-5.0.1.zip",
+"openmeetings/5.0.1/src/apache-openmeetings-5.0.1-src.tar.gz",
+"openmeetings/5.0.1/src/apache-openmeetings-5.0.1-src.zip"
 ]
 },
 "opennlp": {
@@ -10348,8 +10364,71 @@
 "org.apache.sling.karaf-repoinit-0.2.0": [
 "sling/org.apache.sling.karaf-repoinit-0.2.0-source-release.zip"
 ],
-"org.apache.sling.kickstart-0.0.2": [
-"sling/org.apache.sling.kickstart-0.0.2-source-release.zip"
+"org.apache.sling.kickstart-0.0.8": [
+"sling/org.apache.sling.kickstart-0.0.8-source-release.zip"
+],
+"org.apache.sling.kickstart-0.0.8-base.slingosgifeature": [
+"sling/org.apache.sling.kickstart-0.0.8-base.slingosgifeature"
+],
+"org.apache.sling.kickstart-0.0.8-boot.slingosgifeature": [
+"sling/org.apache.sling.kickstart-0.0.8-boot.slingosgifeature"
+],
+"org.apache.sling.kickstart-0.0.8-caconfig.slingosgifeature": [
+"sling/org.apache.sling.kickstart-0.0.8-caconfig.slingosgifeature"
+],
+"org.apache.sling.kickstart-0.0.8-composum.slingosgifeature": [
+"sling/org.apache.sling.kickstart-0.0.8-composum.slingosgifeature"
+],
+"org.apache.sling.kickstart-0.0.8-discovery.slingosgifeature": [
+"sling/org.apache.sling.kickstart-0.0.8-discovery.slingosgifeature"
+],
+"org.apache.sling.kickstart-0.0.8-event.slingosgifeature": [
+"sling/org.apache.sling.kickstart-0.0.8-event.slingosgifeature"
+],
+"org.apache.sling.kickstart-0.0.8-healthcheck.slingosgifeature": [
+"sling/org.apache.sling.kickstart-0.0.8-healthcheck.slingosgifeature"
+],
+"org.apache.sling.kickstart-0.0.8-models-jacksonexporter.slingosgifeature": [
+"sling/org.apache.sling.kickstart-0.0.8-models-jacksonexporter.slingosgifeature"
+],
+"org.apache.sling.kickstart-0.0.8-nosample_base.slingosgifeature": [
+"sling/org.apache.sling.kickstart-0.0.8-nosample_base.slingosgifeature"
+],
+"org.apache.sling.kickstart-0.0.8-oak_base.slingosgifeature": [
+"sling/org.apache.sling.kickstart-0.0.8-oak_base.slingosgifeature"
+],
+"org.apache.sling.kickstart-0.0.8-oak_mongo.slingosgifeature": [
+"sling/org.apache.sling.kickstart-0.0.8-oak_mongo.slingosgifeature"
+],
+"org.apache.sling.kickstart-0.0.8-oak_mongo_far.far": [
+"sling/org.apache.sling.kickstart-0.0.8-oak_mongo_far.far"
+],
+"org.apache.sling.kickstart-0.0.8-oak_persistence_mongods.slingosgifeature": [
+"sling/org.apache.sling.kickstart-0.0.8-oak_persistence_mongods.slingosgifeature"
+],
+"org.apache.sling.kickstart-0.0.8-oak_persistence_sns.slingosgifeature": [
+"sling/org.apache.sling.kickstart-0.0.8-oak_persistence_sns.slingosgifeature"
+],
+"org.apache.sling.kickstart-0.0.8-oak_tar.slingosgifeature": [
+"sling/org.apache.sling.kickstart-0.0.8-oak_tar.slingosgifeature"
+],
+"org.apache.sling.kickstart-0.0.8-oak_tar_far.far": [
+"sling/org.apache.sling.kickstart-0.0.8-oak_tar_far.far"
+],
+"org.apache.sling.kickstart-0.0.8-scripting.slingosgifeature": [
+"sling/org.apache.sling.kickstart-0.0.8-scripting.slingosgifeature"
+],
+"org.apache.sling.kickstart-0.0.8-slingshot.slingosgifeature": [
+"sling/org.apache.sling.kickstart-0.0.8-slingshot.slingosgifeature"
+],
+"org.apache.sling.kickstart-0.0.8-starter.slingosgifeature": [
+"sling/org.apache.sling.kickstart-0.0.8-starter.slingosgifeature"
+],
+"org.apache.sling.kickstart-0.0.8-validation.slingosgifeature": [
+"sling/org.apache.sling.kickstart-0.0.8-validation.slingosgifeature"
+],
+"org.apache.sling.kickstart-0.0.8-webconsole.slingosgifeature": [
+"sling/org.apache.sling.kickstart-0.0.8-webconsole.slingosgifeature"
 ],
 "org.apache.sling.launchpad.api-1.2.0": [
 "sling/org.apache.sling.launchpad.api-1.2.0-source-release.zip"
@@ -10698,8 +10777,8 @@
 "sling-jcrinstall-bundle-archetype-1.0.6": [
 "sling/sling-jcrinstall-bundle-archetype-1.0.6-source-release.zip"
 ],
-"sling-kickstart-maven-plugin-0.0.2": [
-"sling/sling-kickstart-maven-plugin-0.0.2-source-release.zip"
+"sling-kickstart-maven-plugin-0.0.8": [
+"sling/sling-kickstart-maven-plugin-0.0.8-source-release.zip"
 ],
 "sling-launchpad-archetype-1.0.0": [
 "sling/sling-launchpad-standalone-archetype-1.0.0-source-release.zip",
@@ -11294,19 +11373,6 @@
 "tomcat/tomcat-10/v10.0.0-M8/bin/apache-tomcat-10.0.0-M8.zip",
 "tomcat/tomcat-10/v10.0.0-M8/src/apache-tomcat-10.0.0-M8-src.tar.gz",
 "tomcat/tomcat-10/v10.0.0-M8/src/apache-tomcat-10.0.0-M8-src.zip"
-],
-"apache-tomcat-7.0.105": [
-"tomcat/tomcat-7/v7.0.105/bin/embed/apache-tomcat-7.0.105-embed.tar.gz",
-"tomcat/tomcat-7/v7.0.105/bin/embed/apache-tomcat-7.0.105-embed.zip",
-"tomcat/tomcat-7/v7.0.105/bin/apache-tomcat-7.0.105-deployer.tar.gz",
-"tomcat/tomcat-7/v7.0.105/bin/apache-tomcat-7.0.105-deployer.zip",
-"tomcat/tomcat-7/v7.0.105/bin/apache-tomcat-7.0.105-fulldocs.tar.gz",
-"tomcat/tomcat-7/v7.0.105/bin/apache-tomcat-7.0.105-windows-x64.zip",
-"tomcat/tomcat-7/v7.0.105/bin/apache-tomcat-7.0.105.exe",
-"tomcat/tomcat-7/v7.0.105/bin/apache-tomcat-7.0.105.tar.gz",
-"tomcat/tomcat-7/v7.0.105/bin/apache-tomcat-7.0.105.zip",
-"tomcat/tomcat-7/v7.0.105/src/apache-tomcat-7.0.105-src.tar.gz",
-"tomcat/tomcat-7/v7.0.105/src/apache-tomcat-7.0.105-src.zip"
 ],
 "apache-tomcat-7.0.106": [
 "tomcat/tomcat-7/v7.0.106/bin/embed/apache-tomcat-7.0.106-embed.tar.gz",
