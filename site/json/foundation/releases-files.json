@@ -2864,8 +2864,11 @@
 "apache-groovy-2.5.13": [
 "groovy/2.5.13/sources/apache-groovy-src-2.5.13.zip"
 ],
-"apache-groovy-3.0.5": [
-"groovy/3.0.5/sources/apache-groovy-src-3.0.5.zip"
+"apache-groovy-3.0.6": [
+"groovy/3.0.6/sources/apache-groovy-src-3.0.6.zip"
+],
+"apache-groovy-4.0.0-alpha-1": [
+"groovy/4.0.0-alpha-1/sources/apache-groovy-src-4.0.0-alpha-1.zip"
 ],
 "apache-groovy-sdk-2.4.20": [
 "groovy/2.4.20/distribution/apache-groovy-sdk-2.4.20.zip"
@@ -2873,8 +2876,11 @@
 "apache-groovy-sdk-2.5.13": [
 "groovy/2.5.13/distribution/apache-groovy-sdk-2.5.13.zip"
 ],
-"apache-groovy-sdk-3.0.5": [
-"groovy/3.0.5/distribution/apache-groovy-sdk-3.0.5.zip"
+"apache-groovy-sdk-3.0.6": [
+"groovy/3.0.6/distribution/apache-groovy-sdk-3.0.6.zip"
+],
+"apache-groovy-sdk-4.0.0-alpha-1": [
+"groovy/4.0.0-alpha-1/distribution/apache-groovy-sdk-4.0.0-alpha-1.zip"
 ]
 },
 "guacamole": {
@@ -3320,6 +3326,20 @@
 "incubator/daffodil/2.7.0/bin/apache-daffodil-2.7.0.incubating-1.noarch.rpm"
 ]
 },
+"incubator-datalab": {
+"apache-dlab-2.1-RC2-incubating": [
+"incubator/datalab/2.1-incubating/apache-dlab-2.1-RC2-incubating.tar.gz"
+],
+"apache-dlab-2.2-RC2-incubating": [
+"incubator/datalab/2.2-incubating/apache-dlab-2.2-RC2-incubating.tar.gz"
+],
+"apache-dlab-2.3.0-incubating": [
+"incubator/datalab/2.3-incubating/apache-dlab-2.3.0-incubating.tar.gz"
+],
+"apache-dlab-2.4.0-incubating": [
+"incubator/datalab/2.4-incubating/apache-dlab-2.4.0-incubating.tar.gz"
+]
+},
 "incubator-datasketches": {
 "apache-datasketches-hive-1.1.0-incubating": [
 "incubator/datasketches/hive/1.1.0-incubating/apache-datasketches-hive-1.1.0-incubating-src.zip"
@@ -3335,20 +3355,6 @@
 ],
 "apache-datasketches-postgresql-1.3.0-incubating": [
 "incubator/datasketches/postgresql/1.3.0-incubating/apache-datasketches-postgresql-1.3.0-incubating-src.zip"
-]
-},
-"incubator-dlab": {
-"apache-dlab-2.1-RC2-incubating": [
-"incubator/dlab/2.1-incubating/apache-dlab-2.1-RC2-incubating.tar.gz"
-],
-"apache-dlab-2.2-RC2-incubating": [
-"incubator/dlab/2.2-incubating/apache-dlab-2.2-RC2-incubating.tar.gz"
-],
-"apache-dlab-2.3.0-incubating": [
-"incubator/dlab/2.3-incubating/apache-dlab-2.3.0-incubating.tar.gz"
-],
-"apache-dlab-2.4.0-incubating": [
-"incubator/dlab/2.4-incubating/apache-dlab-2.4.0-incubating.tar.gz"
 ]
 },
 "incubator-dolphinscheduler": {
@@ -8826,6 +8832,9 @@
 "openwhisk-runtime-go-1.15.0": [
 "openwhisk/openwhisk-runtime-go-1.15.0-sources.tar.gz"
 ],
+"openwhisk-runtime-go-1.16.0": [
+"openwhisk/openwhisk-runtime-go-1.16.0-sources.tar.gz"
+],
 "openwhisk-runtime-java-1.14.0": [
 "openwhisk/openwhisk-runtime-java-1.14.0-sources.tar.gz"
 ],
@@ -9907,8 +9916,8 @@
 "feature-launcher-maven-plugin-0.1.0": [
 "sling/feature-launcher-maven-plugin-0.1.0-source-release.zip"
 ],
-"htl-maven-plugin-2.0.0-1.4.0": [
-"sling/htl-maven-plugin-2.0.0-1.4.0-source-release.zip"
+"htl-maven-plugin-2.0.2-1.4.0": [
+"sling/htl-maven-plugin-2.0.2-1.4.0-source-release.zip"
 ],
 "javaversion-maven-plugin-1.0.0": [
 "sling/javaversion-maven-plugin-1.0.0-source-release.zip"
@@ -10159,8 +10168,8 @@
 "org.apache.sling.extensions.webconsolesecurityprovider-1.2.4": [
 "sling/org.apache.sling.extensions.webconsolesecurityprovider-1.2.4-source-release.zip"
 ],
-"org.apache.sling.feature-1.2.8": [
-"sling/org.apache.sling.feature-1.2.8-source-release.zip"
+"org.apache.sling.feature-1.2.10": [
+"sling/org.apache.sling.feature-1.2.10-source-release.zip"
 ],
 "org.apache.sling.feature.analyser-1.3.8": [
 "sling/org.apache.sling.feature.analyser-1.3.8-source-release.zip"
@@ -10176,8 +10185,8 @@
 "org.apache.sling.feature.diff-0.0.6": [
 "sling/org.apache.sling.feature.diff-0.0.6-source-release.zip"
 ],
-"org.apache.sling.feature.extension.apiregions-1.1.6": [
-"sling/org.apache.sling.feature.extension.apiregions-1.1.6-source-release.zip"
+"org.apache.sling.feature.extension.apiregions-1.1.8": [
+"sling/org.apache.sling.feature.extension.apiregions-1.1.8-source-release.zip"
 ],
 "org.apache.sling.feature.extension.content-1.0.6": [
 "sling/org.apache.sling.feature.extension.content-1.0.6-source-release.zip"
@@ -10559,8 +10568,8 @@
 "org.apache.sling.scripting.console-1.0.0": [
 "sling/org.apache.sling.scripting.console-1.0.0-source-release.zip"
 ],
-"org.apache.sling.scripting.core-2.3.2": [
-"sling/org.apache.sling.scripting.core-2.3.2-source-release.zip"
+"org.apache.sling.scripting.core-2.3.4": [
+"sling/org.apache.sling.scripting.core-2.3.4-source-release.zip"
 ],
 "org.apache.sling.scripting.el-api-1.0.2": [
 "sling/org.apache.sling.scripting.el-api-1.0.2-source-release.zip"
@@ -10796,8 +10805,8 @@
 "sling-slingstart-archetype-1.0.8": [
 "sling/sling-slingstart-archetype-1.0.8-source-release.zip"
 ],
-"slingfeature-maven-plugin-1.3.16": [
-"sling/slingfeature-maven-plugin-1.3.16-source-release.zip"
+"slingfeature-maven-plugin-1.4.0": [
+"sling/slingfeature-maven-plugin-1.4.0-source-release.zip"
 ],
 "slingstart-maven-plugin-1.9.12": [
 "sling/slingstart-maven-plugin-1.9.12-source-release.zip"
