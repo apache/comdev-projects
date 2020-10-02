@@ -1133,12 +1133,6 @@
 "apache-iceberg-0.7.0-incubating": "2019-10-25",
 "apache-iceberg-0.8.0-incubating": "2020-05-06"
 },
-"incubator-iotdb": {
-"apache-iotdb-0.10.0-incubating": "2020-06-28",
-"apache-iotdb-0.10.1-incubating": "2020-08-22",
-"apache-iotdb-0.8.2-incubating": "2019-12-14",
-"apache-iotdb-0.9.3-incubating": "2020-05-13"
-},
 "incubator-joshua": {
 "joshua-incubating-6.1": "2017-04-22"
 },
@@ -1333,6 +1327,12 @@
 "incubator-yunikorn": {
 "apache-yunikorn-0.8.0-incubating": "2020-05-04",
 "apache-yunikorn-0.9.0-incubating": "2020-08-26"
+},
+"iotdb": {
+"apache-iotdb-0.10.0-incubating": "2020-06-28",
+"apache-iotdb-0.10.1-incubating": "2020-08-22",
+"apache-iotdb-0.8.2-incubating": "2019-12-14",
+"apache-iotdb-0.9.3-incubating": "2020-05-13"
 },
 "isis": {
 "isis-1.17.0": "2019-01-06",
@@ -2668,7 +2668,6 @@
 "openwhisk-package-kafka-2.1.0": "2020-08-17",
 "openwhisk-runtime-docker-1.14.0": "2020-02-11",
 "openwhisk-runtime-dotnet-1.15.0": "2020-08-04",
-"openwhisk-runtime-go-1.15.0": "2020-01-17",
 "openwhisk-runtime-go-1.16.0": "2020-09-29",
 "openwhisk-runtime-java-1.14.0": "2020-02-11",
 "openwhisk-runtime-nodejs-1.16.0": "2020-07-27",
@@ -2682,7 +2681,8 @@
 },
 "orc": {
 "orc-1.5.12": "2020-09-30",
-"orc-1.6.4": "2020-09-14"
+"orc-1.6.4": "2020-09-14",
+"orc-1.6.5": "2020-10-01"
 },
 "parquet": {
 "apache-parquet-1.10.1": "2019-02-01",
