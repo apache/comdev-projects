@@ -76,8 +76,8 @@
 "apache-airflow-1.10.12": [
 "airflow/1.10.12/apache-airflow-1.10.12-source.tar.gz"
 ],
-"apache-airflow-backport-providers-2020.6.24": [
-"airflow/backport-providers/2020.6.24/apache-airflow-backport-providers-2020.6.24-source.tar.gz"
+"apache-airflow-backport-providers-2020.10.5": [
+"airflow/backport-providers/apache-airflow-backport-providers-2020.10.5-source.tar.gz"
 ]
 },
 "allura": {
@@ -766,11 +766,11 @@
 ]
 },
 "calcite": {
-"apache-calcite-1.24.0": [
-"calcite/apache-calcite-1.24.0/apache-calcite-1.24.0-src.tar.gz"
-],
 "apache-calcite-1.25.0": [
 "calcite/apache-calcite-1.25.0/apache-calcite-1.25.0-src.tar.gz"
+],
+"apache-calcite-1.26.0": [
+"calcite/apache-calcite-1.26.0/apache-calcite-1.26.0-src.tar.gz"
 ],
 "apache-calcite-avatica-1.16.0": [
 "calcite/apache-calcite-avatica-1.16.0/apache-calcite-avatica-1.16.0-src.tar.gz"
@@ -3148,6 +3148,10 @@
 "httpcomponents/httpclient/source/httpcomponents-client-4.5.12-src.tar.gz",
 "httpcomponents/httpclient/source/httpcomponents-client-4.5.12-src.zip"
 ],
+"httpcomponents-client-4.5.13": [
+"httpcomponents/httpclient/source/httpcomponents-client-4.5.13-src.tar.gz",
+"httpcomponents/httpclient/source/httpcomponents-client-4.5.13-src.zip"
+],
 "httpcomponents-client-5.0": [
 "httpcomponents/httpclient/source/httpcomponents-client-5.0-src.tar.gz",
 "httpcomponents/httpclient/source/httpcomponents-client-5.0-src.zip"
@@ -3167,6 +3171,10 @@
 "httpcomponents-client-5.0.2": [
 "httpcomponents/httpclient/source/httpcomponents-client-5.0.2-src.tar.gz",
 "httpcomponents/httpclient/source/httpcomponents-client-5.0.2-src.zip"
+],
+"httpcomponents-client-5.0.3": [
+"httpcomponents/httpclient/source/httpcomponents-client-5.0.3-src.tar.gz",
+"httpcomponents/httpclient/source/httpcomponents-client-5.0.3-src.zip"
 ],
 "httpcomponents-client-android-4.3.5.1": [
 "httpcomponents/httpclient-android/source/httpcomponents-client-android-4.3.5.1-src.tar.gz",
@@ -9994,8 +10002,8 @@
 "org.apache.sling.commons.osgi-2.4.2": [
 "sling/org.apache.sling.commons.osgi-2.4.2-source-release.zip"
 ],
-"org.apache.sling.commons.scheduler-2.7.6": [
-"sling/org.apache.sling.commons.scheduler-2.7.6-source-release.zip"
+"org.apache.sling.commons.scheduler-2.7.12": [
+"sling/org.apache.sling.commons.scheduler-2.7.12-source-release.zip"
 ],
 "org.apache.sling.commons.testing-2.1.2": [
 "sling/org.apache.sling.commons.testing-2.1.2-source-release.zip"
@@ -11353,19 +11361,6 @@
 "tomcat/tomcat-7/v7.0.106/bin/apache-tomcat-7.0.106.zip",
 "tomcat/tomcat-7/v7.0.106/src/apache-tomcat-7.0.106-src.tar.gz",
 "tomcat/tomcat-7/v7.0.106/src/apache-tomcat-7.0.106-src.zip"
-],
-"apache-tomcat-8.5.57": [
-"tomcat/tomcat-8/v8.5.57/bin/embed/apache-tomcat-8.5.57-embed.tar.gz",
-"tomcat/tomcat-8/v8.5.57/bin/embed/apache-tomcat-8.5.57-embed.zip",
-"tomcat/tomcat-8/v8.5.57/bin/apache-tomcat-8.5.57-deployer.tar.gz",
-"tomcat/tomcat-8/v8.5.57/bin/apache-tomcat-8.5.57-deployer.zip",
-"tomcat/tomcat-8/v8.5.57/bin/apache-tomcat-8.5.57-fulldocs.tar.gz",
-"tomcat/tomcat-8/v8.5.57/bin/apache-tomcat-8.5.57-windows-x64.zip",
-"tomcat/tomcat-8/v8.5.57/bin/apache-tomcat-8.5.57.exe",
-"tomcat/tomcat-8/v8.5.57/bin/apache-tomcat-8.5.57.tar.gz",
-"tomcat/tomcat-8/v8.5.57/bin/apache-tomcat-8.5.57.zip",
-"tomcat/tomcat-8/v8.5.57/src/apache-tomcat-8.5.57-src.tar.gz",
-"tomcat/tomcat-8/v8.5.57/src/apache-tomcat-8.5.57-src.zip"
 ],
 "apache-tomcat-8.5.58": [
 "tomcat/tomcat-8/v8.5.58/bin/embed/apache-tomcat-8.5.58-embed.tar.gz",
