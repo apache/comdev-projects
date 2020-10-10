@@ -2196,25 +2196,25 @@
 "felix/org.apache.felix.framework.security-2.6.1-source-release.tar.gz",
 "felix/org.apache.felix.framework.security-2.6.1-source-release.zip"
 ],
-"org.apache.felix.gogo.bom-1.0.2": [
-"felix/org.apache.felix.gogo.bom-1.0.2-source-release.tar.gz",
-"felix/org.apache.felix.gogo.bom-1.0.2-source-release.zip"
+"org.apache.felix.gogo.bom-1.0.4": [
+"felix/org.apache.felix.gogo.bom-1.0.4-source-release.tar.gz",
+"felix/org.apache.felix.gogo.bom-1.0.4-source-release.zip"
 ],
-"org.apache.felix.gogo.command-1.1.0": [
-"felix/org.apache.felix.gogo.command-1.1.0-source-release.tar.gz",
-"felix/org.apache.felix.gogo.command-1.1.0-source-release.zip"
+"org.apache.felix.gogo.command-1.1.2": [
+"felix/org.apache.felix.gogo.command-1.1.2-source-release.tar.gz",
+"felix/org.apache.felix.gogo.command-1.1.2-source-release.zip"
 ],
 "org.apache.felix.gogo.jline-1.1.4": [
 "felix/org.apache.felix.gogo.jline-1.1.4-source-release.tar.gz",
 "felix/org.apache.felix.gogo.jline-1.1.4-source-release.zip"
 ],
-"org.apache.felix.gogo.runtime-1.1.2": [
-"felix/org.apache.felix.gogo.runtime-1.1.2-source-release.tar.gz",
-"felix/org.apache.felix.gogo.runtime-1.1.2-source-release.zip"
+"org.apache.felix.gogo.runtime-1.1.4": [
+"felix/org.apache.felix.gogo.runtime-1.1.4-source-release.tar.gz",
+"felix/org.apache.felix.gogo.runtime-1.1.4-source-release.zip"
 ],
-"org.apache.felix.gogo.shell-1.1.2": [
-"felix/org.apache.felix.gogo.shell-1.1.2-source-release.tar.gz",
-"felix/org.apache.felix.gogo.shell-1.1.2-source-release.zip"
+"org.apache.felix.gogo.shell-1.1.4": [
+"felix/org.apache.felix.gogo.shell-1.1.4-source-release.tar.gz",
+"felix/org.apache.felix.gogo.shell-1.1.4-source-release.zip"
 ],
 "org.apache.felix.healthcheck.annotation-2.0.0": [
 "felix/org.apache.felix.healthcheck.annotation-2.0.0-source-release.tar.gz",
@@ -3920,6 +3920,9 @@
 ],
 "apache-tvm-v0.6.1-incubating": [
 "incubator/tvm/tvm-v0.6.1/apache-tvm-src-v0.6.1-incubating.tar.gz"
+],
+"apache-tvm-v0.7.0-incubating": [
+"incubator/tvm/tvm-v0.7.0/apache-tvm-src-v0.7.0-incubating.tar.gz"
 ]
 },
 "incubator-unomi": {
@@ -4615,11 +4618,6 @@
 "lucene/java/7.7.3/lucene-7.7.3.tgz",
 "lucene/java/7.7.3/lucene-7.7.3.zip"
 ],
-"lucene-8.6.2": [
-"lucene/java/8.6.2/lucene-8.6.2-src.tgz",
-"lucene/java/8.6.2/lucene-8.6.2.tgz",
-"lucene/java/8.6.2/lucene-8.6.2.zip"
-],
 "lucene-8.6.3": [
 "lucene/java/8.6.3/lucene-8.6.3-src.tgz",
 "lucene/java/8.6.3/lucene-8.6.3.tgz",
@@ -4638,11 +4636,6 @@
 "lucene/solr/7.7.3/solr-7.7.3-src.tgz",
 "lucene/solr/7.7.3/solr-7.7.3.tgz",
 "lucene/solr/7.7.3/solr-7.7.3.zip"
-],
-"solr-8.6.2": [
-"lucene/solr/8.6.2/solr-8.6.2-src.tgz",
-"lucene/solr/8.6.2/solr-8.6.2.tgz",
-"lucene/solr/8.6.2/solr-8.6.2.zip"
 ],
 "solr-8.6.3": [
 "lucene/solr/8.6.3/solr-8.6.3-src.tgz",
@@ -5023,8 +5016,8 @@
 "maven-reporting-impl-3.0.0": [
 "maven/reporting/maven-reporting-impl-3.0.0-source-release.zip"
 ],
-"maven-resolver-1.4.2": [
-"maven/resolver/maven-resolver-1.4.2-source-release.zip"
+"maven-resolver-1.6.1": [
+"maven/resolver/maven-resolver-1.6.1-source-release.zip"
 ],
 "maven-resolver-ant-tasks-1.2.1": [
 "maven/resolver/maven-resolver-ant-tasks-1.2.1-source-release.zip"
@@ -10202,8 +10195,8 @@
 "org.apache.sling.fsresource-2.1.16": [
 "sling/org.apache.sling.fsresource-2.1.16-source-release.zip"
 ],
-"org.apache.sling.graphql.core-0.0.4": [
-"sling/org.apache.sling.graphql.core-0.0.4-source-release.zip"
+"org.apache.sling.graphql.core-0.0.6": [
+"sling/org.apache.sling.graphql.core-0.0.6-source-release.zip"
 ],
 "org.apache.sling.hapi-1.1.0": [
 "sling/org.apache.sling.hapi-1.1.0-source-release.zip"
@@ -11372,6 +11365,19 @@
 "tomcat/tomcat-10/v10.0.0-M8/src/apache-tomcat-10.0.0-M8-src.tar.gz",
 "tomcat/tomcat-10/v10.0.0-M8/src/apache-tomcat-10.0.0-M8-src.zip"
 ],
+"apache-tomcat-10.0.0-M9": [
+"tomcat/tomcat-10/v10.0.0-M9/bin/embed/apache-tomcat-10.0.0-M9-embed.tar.gz",
+"tomcat/tomcat-10/v10.0.0-M9/bin/embed/apache-tomcat-10.0.0-M9-embed.zip",
+"tomcat/tomcat-10/v10.0.0-M9/bin/apache-tomcat-10.0.0-M9-deployer.tar.gz",
+"tomcat/tomcat-10/v10.0.0-M9/bin/apache-tomcat-10.0.0-M9-deployer.zip",
+"tomcat/tomcat-10/v10.0.0-M9/bin/apache-tomcat-10.0.0-M9-fulldocs.tar.gz",
+"tomcat/tomcat-10/v10.0.0-M9/bin/apache-tomcat-10.0.0-M9-windows-x64.zip",
+"tomcat/tomcat-10/v10.0.0-M9/bin/apache-tomcat-10.0.0-M9.exe",
+"tomcat/tomcat-10/v10.0.0-M9/bin/apache-tomcat-10.0.0-M9.tar.gz",
+"tomcat/tomcat-10/v10.0.0-M9/bin/apache-tomcat-10.0.0-M9.zip",
+"tomcat/tomcat-10/v10.0.0-M9/src/apache-tomcat-10.0.0-M9-src.tar.gz",
+"tomcat/tomcat-10/v10.0.0-M9/src/apache-tomcat-10.0.0-M9-src.zip"
+],
 "apache-tomcat-7.0.106": [
 "tomcat/tomcat-7/v7.0.106/bin/embed/apache-tomcat-7.0.106-embed.tar.gz",
 "tomcat/tomcat-7/v7.0.106/bin/embed/apache-tomcat-7.0.106-embed.zip",
@@ -11398,6 +11404,19 @@
 "tomcat/tomcat-8/v8.5.58/src/apache-tomcat-8.5.58-src.tar.gz",
 "tomcat/tomcat-8/v8.5.58/src/apache-tomcat-8.5.58-src.zip"
 ],
+"apache-tomcat-8.5.59": [
+"tomcat/tomcat-8/v8.5.59/bin/embed/apache-tomcat-8.5.59-embed.tar.gz",
+"tomcat/tomcat-8/v8.5.59/bin/embed/apache-tomcat-8.5.59-embed.zip",
+"tomcat/tomcat-8/v8.5.59/bin/apache-tomcat-8.5.59-deployer.tar.gz",
+"tomcat/tomcat-8/v8.5.59/bin/apache-tomcat-8.5.59-deployer.zip",
+"tomcat/tomcat-8/v8.5.59/bin/apache-tomcat-8.5.59-fulldocs.tar.gz",
+"tomcat/tomcat-8/v8.5.59/bin/apache-tomcat-8.5.59-windows-x64.zip",
+"tomcat/tomcat-8/v8.5.59/bin/apache-tomcat-8.5.59.exe",
+"tomcat/tomcat-8/v8.5.59/bin/apache-tomcat-8.5.59.tar.gz",
+"tomcat/tomcat-8/v8.5.59/bin/apache-tomcat-8.5.59.zip",
+"tomcat/tomcat-8/v8.5.59/src/apache-tomcat-8.5.59-src.tar.gz",
+"tomcat/tomcat-8/v8.5.59/src/apache-tomcat-8.5.59-src.zip"
+],
 "apache-tomcat-9.0.38": [
 "tomcat/tomcat-9/v9.0.38/bin/embed/apache-tomcat-9.0.38-embed.tar.gz",
 "tomcat/tomcat-9/v9.0.38/bin/embed/apache-tomcat-9.0.38-embed.zip",
@@ -11410,6 +11429,19 @@
 "tomcat/tomcat-9/v9.0.38/bin/apache-tomcat-9.0.38.zip",
 "tomcat/tomcat-9/v9.0.38/src/apache-tomcat-9.0.38-src.tar.gz",
 "tomcat/tomcat-9/v9.0.38/src/apache-tomcat-9.0.38-src.zip"
+],
+"apache-tomcat-9.0.39": [
+"tomcat/tomcat-9/v9.0.39/bin/embed/apache-tomcat-9.0.39-embed.tar.gz",
+"tomcat/tomcat-9/v9.0.39/bin/embed/apache-tomcat-9.0.39-embed.zip",
+"tomcat/tomcat-9/v9.0.39/bin/apache-tomcat-9.0.39-deployer.tar.gz",
+"tomcat/tomcat-9/v9.0.39/bin/apache-tomcat-9.0.39-deployer.zip",
+"tomcat/tomcat-9/v9.0.39/bin/apache-tomcat-9.0.39-fulldocs.tar.gz",
+"tomcat/tomcat-9/v9.0.39/bin/apache-tomcat-9.0.39-windows-x64.zip",
+"tomcat/tomcat-9/v9.0.39/bin/apache-tomcat-9.0.39.exe",
+"tomcat/tomcat-9/v9.0.39/bin/apache-tomcat-9.0.39.tar.gz",
+"tomcat/tomcat-9/v9.0.39/bin/apache-tomcat-9.0.39.zip",
+"tomcat/tomcat-9/v9.0.39/src/apache-tomcat-9.0.39-src.tar.gz",
+"tomcat/tomcat-9/v9.0.39/src/apache-tomcat-9.0.39-src.zip"
 ],
 "taglibs-standard-1.2.5": [
 "tomcat/taglibs/taglibs-standard-1.2.5/taglibs-standard-1.2.5-source-release.zip"
