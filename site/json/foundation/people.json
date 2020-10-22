@@ -834,7 +834,9 @@
 "adoroszlai": {
 "groups": [
 "ambari",
-"hadoop"
+"hadoop",
+"ozone",
+"ozone-pmc"
 ],
 "member": false,
 "name": "Attila Doroszlai"
@@ -921,6 +923,8 @@
 "hadoop",
 "hadoop-pmc",
 "incubator",
+"ozone",
+"ozone-pmc",
 "ratis"
 ],
 "member": false,
@@ -3910,6 +3914,8 @@
 "hadoop-pmc",
 "incubator",
 "incubator-pmc",
+"ozone",
+"ozone-pmc",
 "ratis"
 ],
 "member": true,
@@ -4728,7 +4734,9 @@
 "groups": [
 "ambari",
 "ambari-pmc",
-"hadoop"
+"hadoop",
+"ozone",
+"ozone-pmc"
 ],
 "member": false,
 "name": "Aravindan Vijayan"
@@ -5700,6 +5708,8 @@
 "groups": [
 "hadoop",
 "hadoop-pmc",
+"ozone",
+"ozone-pmc",
 "submarine"
 ],
 "member": false,
@@ -6026,7 +6036,6 @@
 "accumulo-pmc",
 "commons",
 "cxf",
-"empire-db-pmc",
 "felix",
 "incubator",
 "jena",
@@ -8681,6 +8690,13 @@
 ],
 "member": false,
 "name": "Chengxing Zhai"
+},
+"chenhang": {
+"groups": [
+"pulsar"
+],
+"member": false,
+"name": "Hang Chen"
 },
 "chenhao": {
 "groups": [
@@ -12660,7 +12676,9 @@
 },
 "dineshc": {
 "groups": [
-"hadoop"
+"hadoop",
+"ozone",
+"ozone-pmc"
 ],
 "member": false,
 "name": "Dinesh Chitlangia"
@@ -15047,6 +15065,8 @@
 "hadoop",
 "hadoop-pmc",
 "incubator",
+"ozone",
+"ozone-pmc",
 "ratis"
 ],
 "member": false,
@@ -19445,6 +19465,8 @@
 "hadoop",
 "hadoop-pmc",
 "incubator",
+"ozone",
+"ozone-pmc",
 "ratis"
 ],
 "member": false,
@@ -24984,6 +25006,8 @@
 "hive",
 "incubator",
 "incubator-pmc",
+"ozone",
+"ozone-pmc",
 "ratis",
 "tez",
 "tez-pmc"
@@ -27382,6 +27406,8 @@
 "incubator",
 "incubator-pmc",
 "nuttx",
+"ozone",
+"ozone-pmc",
 "tubemq",
 "yunikorn"
 ],
@@ -31004,7 +31030,9 @@
 },
 "licheng": {
 "groups": [
-"hadoop"
+"hadoop",
+"ozone",
+"ozone-pmc"
 ],
 "member": false,
 "name": "Li Cheng"
@@ -31659,6 +31687,8 @@
 "hadoop",
 "hadoop-pmc",
 "incubator",
+"ozone",
+"ozone-pmc",
 "ratis"
 ],
 "member": false,
@@ -36490,6 +36520,8 @@
 "hadoop",
 "hadoop-pmc",
 "incubator",
+"ozone",
+"ozone-pmc",
 "ratis"
 ],
 "member": false,
@@ -37184,7 +37216,9 @@
 "nanda": {
 "groups": [
 "hadoop",
-"hadoop-pmc"
+"hadoop-pmc",
+"ozone",
+"ozone-pmc"
 ],
 "member": false,
 "name": "Nanda kumar"
@@ -42318,6 +42352,8 @@
 "incubator",
 "mnemonic",
 "mnemonic-pmc",
+"ozone",
+"ozone-pmc",
 "submarine",
 "zookeeper",
 "zookeeper-pmc"
@@ -42870,6 +42906,13 @@
 ],
 "member": false,
 "name": "Ratandeep Ratti"
+},
+"rduan": {
+"groups": [
+"incubator"
+],
+"member": false,
+"name": "Duan Ran"
 },
 "rduartes": {
 "groups": [
@@ -45290,7 +45333,9 @@
 "sammichen": {
 "groups": [
 "hadoop",
-"hadoop-pmc"
+"hadoop-pmc",
+"ozone",
+"ozone-pmc"
 ],
 "member": false,
 "name": "Sammi Chen"
@@ -46961,6 +47006,8 @@
 "hadoop",
 "hadoop-pmc",
 "incubator",
+"ozone",
+"ozone-pmc",
 "ratis"
 ],
 "member": false,
@@ -47707,7 +47754,9 @@
 },
 "siyao": {
 "groups": [
-"hadoop"
+"hadoop",
+"ozone",
+"ozone-pmc"
 ],
 "member": false,
 "name": "Siyao Meng"
@@ -48417,7 +48466,9 @@
 },
 "sodonnell": {
 "groups": [
-"hadoop"
+"hadoop",
+"ozone",
+"ozone-pmc"
 ],
 "member": false,
 "name": "Stephen O'Donnell"
@@ -50166,6 +50217,8 @@
 "ambari-pmc",
 "hadoop",
 "incubator",
+"ozone",
+"ozone-pmc",
 "ratis"
 ],
 "member": false,
@@ -50416,6 +50469,8 @@
 "hadoop",
 "hadoop-pmc",
 "incubator",
+"ozone",
+"ozone-pmc",
 "ratis"
 ],
 "member": true,
@@ -53106,6 +53161,8 @@
 "liminal",
 "mnemonic",
 "mnemonic-pmc",
+"ozone",
+"ozone-pmc",
 "ratis",
 "spot"
 ],
@@ -54082,7 +54139,9 @@
 "groups": [
 "ambari",
 "ambari-pmc",
-"hadoop"
+"hadoop",
+"ozone",
+"ozone-pmc"
 ],
 "member": false,
 "name": "Vivek Ratnavel Subramanian"
@@ -56270,6 +56329,8 @@
 "hadoop",
 "hadoop-pmc",
 "incubator",
+"ozone",
+"ozone-pmc",
 "ratis"
 ],
 "member": false,
@@ -56959,7 +57020,9 @@
 "yqlin": {
 "groups": [
 "hadoop",
-"hadoop-pmc"
+"hadoop-pmc",
+"ozone",
+"ozone-pmc"
 ],
 "member": false,
 "name": "Yiqun Lin"

@@ -1298,7 +1298,7 @@
 "shortdesc": "Enterprise OSGi application programming model"
 },
 {
-"chair": "jacques",
+"chair": "wesm",
 "charter": "The mission of Apache Arrow is the creation and maintenance of software related to columnar in-memory processing and data interchange",
 "established": "2016-01",
 "group": "arrow",
@@ -1782,7 +1782,7 @@
 "shortdesc": "A home for dormant projects"
 },
 {
-"chair": "busbey",
+"chair": "iemejia",
 "charter": "The mission of Avro is the creation and maintenance of software related to A Serialization System",
 "established": "2010-04",
 "group": "avro",
@@ -5984,10 +5984,6 @@
 "date": "2012-01-24",
 "name": "Benjamin Venditti"
 },
-"bimargulies": {
-"date": "2012-04-04",
-"name": "Benson Margulies"
-},
 "dashorst": {
 "date": "2012-01-24",
 "name": "Martijn Dashorst"
@@ -7654,7 +7650,7 @@
 "shortdesc": "Continuous integration of open source projects"
 },
 {
-"chair": "vinodkv",
+"chair": "weichiu",
 "charter": "The mission of Hadoop is the creation and maintenance of software related to Distributed computing platform",
 "established": "2008-01",
 "group": "hadoop",
@@ -8856,7 +8852,7 @@
 "shortdesc": "Data warehouse infrastructure using the Apache Hadoop Database"
 },
 {
-"chair": "humbedooh",
+"chair": "jorton",
 "charter": "The mission of HTTP Server is the creation and maintenance of software related to Apache Web Server (httpd)",
 "established": "1995-02",
 "group": "httpd",
@@ -12460,7 +12456,7 @@
 "shortdesc": "Scalable, Big Data, SQL-driven machine learning framework for Data Scientists"
 },
 {
-"chair": "akm",
+"chair": "rawkintrevo",
 "charter": "The mission of Mahout is the creation and maintenance of software related to Scalable machine learning library",
 "established": "2010-04",
 "group": "mahout",
@@ -14564,140 +14560,6 @@
 "shortdesc": "A workflow scheduler system to manage Apache Hadoop jobs."
 },
 {
-"chair": "huikyole",
-"charter": "The mission of Open Climate Workbench is the creation and maintenance of software related to Climate model evaluation",
-"established": "2014-02",
-"group": "climate",
-"homepage": "http://climate.apache.org/",
-"id": "climate",
-"name": "Apache Open Climate Workbench",
-"rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/climate.rdf",
-"reporting": 2,
-"roster": {
-"ahart": {
-"date": "2014-02-19",
-"name": "Andrew Hart"
-},
-"boustani": {
-"date": "2014-02-19",
-"name": "Maziyar Boustani"
-},
-"cdouglas": {
-"date": "2014-02-19",
-"name": "Christopher Douglas"
-},
-"cjack": {
-"date": "2014-02-19",
-"name": "Chris Jack"
-},
-"crichton": {
-"date": "2014-02-19",
-"name": "Dan Crichton"
-},
-"dnadeau": {
-"date": "2014-02-19",
-"name": "Denis Nadeau"
-},
-"estani": {
-"date": "2014-02-19",
-"name": "estani"
-},
-"goodale": {
-"date": "2014-02-19",
-"name": "Cameron Goodale"
-},
-"goodman": {
-"date": "2014-02-19",
-"name": "Alex Goodman"
-},
-"huikyole": {
-"date": "2014-02-19",
-"name": "Huikyo Lee"
-},
-"jarifibrahim": {
-"date": "2016-04-26",
-"name": "Ibrahim Jarif"
-},
-"jasonevans": {
-"date": "2014-02-19",
-"name": "Jason Peter Evans"
-},
-"jkim": {
-"date": "2014-02-19",
-"name": "Jinwon Kim"
-},
-"joyce": {
-"date": "2014-02-19",
-"name": "Michael James Joyce"
-},
-"lcarriere": {
-"date": "2014-02-19",
-"name": "Laura Carriere"
-},
-"lewismc": {
-"date": "2014-07-07",
-"name": "Lewis John McGibbney"
-},
-"lfitaborrell": {
-"date": "2014-02-19",
-"name": "Lluis Fita Borrell"
-},
-"luca": {
-"date": "2014-02-19",
-"name": "Luca Cinquini"
-},
-"mattmann": {
-"date": "2014-02-19",
-"name": "Chris Mattmann"
-},
-"omkarr": {
-"date": "2016-01-21",
-"name": "Omkar Reddy"
-},
-"ploikith": {
-"date": "2014-02-19",
-"name": "Paul Loikith"
-},
-"pramirez": {
-"date": "2014-02-19",
-"name": "Paul Ramirez"
-},
-"pzimdars": {
-"date": "2014-02-19",
-"name": "Paul Zimdars"
-},
-"ramarao": {
-"date": "2014-02-19",
-"name": "M. V. S. Rama Rao"
-},
-"rlaidlaw": {
-"date": "2014-11-07",
-"name": "Ross Laidlaw"
-},
-"sanjay": {
-"date": "2014-02-19",
-"name": "J Sanjay"
-},
-"skhudiky": {
-"date": "2014-02-19",
-"name": "Shakeh Khudikyan"
-},
-"smarru": {
-"date": "2014-02-19",
-"name": "Suresh Marru"
-},
-"waliser": {
-"date": "2014-02-19",
-"name": "Duane Waliser"
-},
-"whitehall": {
-"date": "2014-02-19",
-"name": "Kim Whitehall"
-}
-},
-"shortdesc": "Climate model evaluation"
-},
-{
 "chair": "struberg",
 "charter": "The mission of OpenJPA is the creation and maintenance of software related to OpenJPA: Object Relational Mapping for Java",
 "established": "2007-05",
@@ -15326,6 +15188,118 @@
 }
 },
 "shortdesc": "the smallest, fastest columnar storage for Hadoop workloads"
+},
+{
+"chair": "sammichen",
+"established": "2020-10",
+"group": "ozone",
+"homepage": "http://ozone.apache.org",
+"id": "ozone",
+"name": "Apache Ozone",
+"reporting": 2,
+"roster": {
+"adoroszlai": {
+"date": "2020-10-21",
+"name": "Attila Doroszlai"
+},
+"aengineer": {
+"date": "2020-10-21",
+"name": "Anu Engineer"
+},
+"arp": {
+"date": "2020-10-21",
+"name": "Arpit Agarwal"
+},
+"avijayan": {
+"date": "2020-10-21",
+"name": "Aravindan Vijayan"
+},
+"bharat": {
+"date": "2020-10-21",
+"name": "Bharat Viswanadham"
+},
+"dineshc": {
+"date": "2020-10-21",
+"name": "Dinesh Chitlangia"
+},
+"elek": {
+"date": "2020-10-21",
+"name": "Marton Elek"
+},
+"hanishakoneru": {
+"date": "2020-10-21",
+"name": "Hanisha Koneru"
+},
+"jitendra": {
+"date": "2020-10-21",
+"name": "Jitendra Nath Pandey"
+},
+"junping_du": {
+"date": "2020-10-21",
+"name": "Junping Du"
+},
+"licheng": {
+"date": "2020-10-21",
+"name": "Li Cheng"
+},
+"ljain": {
+"date": "2020-10-21",
+"name": "Lokesh Jain"
+},
+"msingh": {
+"date": "2020-10-21",
+"name": "Mukul Kumar Singh"
+},
+"nanda": {
+"date": "2020-10-21",
+"name": "Nandakumar Vadivelu"
+},
+"rakeshr": {
+"date": "2020-10-21",
+"name": "Rakesh Radhakrishnan"
+},
+"sammichen": {
+"date": "2020-10-21",
+"name": "Sammi Chen"
+},
+"shashikant": {
+"date": "2020-10-21",
+"name": "Shashikant Banerjee"
+},
+"siyao": {
+"date": "2020-10-21",
+"name": "Siyao Meng"
+},
+"sodonnell": {
+"date": "2020-10-21",
+"name": "Stephen O'Donnell"
+},
+"swagle": {
+"date": "2020-10-21",
+"name": "Siddharth Wagle"
+},
+"szetszwo": {
+"date": "2020-10-21",
+"name": "Tsz-wo Sze"
+},
+"umamahesh": {
+"date": "2020-10-21",
+"name": "Uma Maheswara Rao G"
+},
+"vivekratnavel": {
+"date": "2020-10-21",
+"name": "Vivek Ratnavel Subramanian"
+},
+"xyao": {
+"date": "2020-10-21",
+"name": "Xiaoyu Yao"
+},
+"yqlin": {
+"date": "2020-10-21",
+"name": "Yiqun Lin"
+}
+},
+"shortdesc": "a distributed object store for Hadoop-based and Cloud-native environments"
 },
 {
 "chair": "julien",
