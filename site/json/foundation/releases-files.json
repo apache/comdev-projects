@@ -1285,6 +1285,9 @@
 "dataset-2.0.0": [
 "clerezza/dataset/dataset-2.0.0-source-release.zip"
 ],
+"jaxrs.rdf.providers-2.0.0": [
+"clerezza/jaxrs.rdf.providers/jaxrs.rdf.providers-2.0.0-source-release.zip"
+],
 "jaxrs.utils-0.7": [
 "clerezza/jaxrs.utils-0.7/jaxrs.utils-0.7-source-release.zip"
 ],
@@ -3284,9 +3287,6 @@
 ]
 },
 "ignite": {
-"apache-ignite-2.8.1": [
-"ignite/2.8.1/apache-ignite-2.8.1-src.zip"
-],
 "apache-ignite-2.9.0": [
 "ignite/2.9.0/apache-ignite-2.9.0-src.zip"
 ]
@@ -4083,9 +4083,9 @@
 "jackrabbit/2.20.1/jackrabbit-2.20.1-src.zip",
 "jackrabbit/2.20.1/jackrabbit-webapp-2.20.1.war"
 ],
-"jackrabbit-2.21.3": [
-"jackrabbit/2.21.3/jackrabbit-2.21.3-src.zip",
-"jackrabbit/2.21.3/jackrabbit-webapp-2.21.3.war"
+"jackrabbit-2.21.4": [
+"jackrabbit/2.21.4/jackrabbit-2.21.4-src.zip",
+"jackrabbit/2.21.4/jackrabbit-webapp-2.21.4.war"
 ],
 "jackrabbit-2.4.8": [
 "jackrabbit/2.4.8/jackrabbit-2.4.8-src.zip",
@@ -4189,8 +4189,8 @@
 "jackrabbit-jca-2.20.1": [
 "jackrabbit/2.20.1/jackrabbit-jca-2.20.1.rar"
 ],
-"jackrabbit-jca-2.21.3": [
-"jackrabbit/2.21.3/jackrabbit-jca-2.21.3.rar"
+"jackrabbit-jca-2.21.4": [
+"jackrabbit/2.21.4/jackrabbit-jca-2.21.4.rar"
 ],
 "jackrabbit-jca-2.4.8": [
 "jackrabbit/2.4.8/jackrabbit-jca-2.4.8.rar"
@@ -9392,12 +9392,6 @@
 "qpid": {
 "apache-qpid-broker-j-7.1.10": [
 "qpid/broker-j/7.1.10/apache-qpid-broker-j-7.1.10-src.tar.gz"
-],
-"apache-qpid-broker-j-7.1.9": [
-"qpid/broker-j/7.1.9/apache-qpid-broker-j-7.1.9-src.tar.gz"
-],
-"apache-qpid-broker-j-8.0.1": [
-"qpid/broker-j/8.0.1/apache-qpid-broker-j-8.0.1-src.tar.gz"
 ],
 "apache-qpid-broker-j-8.0.2": [
 "qpid/broker-j/8.0.2/apache-qpid-broker-j-8.0.2-src.tar.gz"
