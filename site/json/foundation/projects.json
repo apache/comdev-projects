@@ -1,204 +1,4 @@
 {
-"accumulo": {
-"bug-database": "https://github.com/apache/accumulo/issues",
-"category": "big-data",
-"created": "2012-03-26",
-"description": "The Apache Accumulo sorted, distributed key/value store is\n      based on Google's BigTable design. It is built on top of Apache Hadoop,\n      Apache Zookeeper, and Apache Thrift. It features a few novel improvements\n      on the BigTable design in the form of cell-level access labels and a\n      server-side programming mechanism that can modify key/value pairs at\n      various points in the data management process.",
-"doap": "https://accumulo.apache.org/doap/accumulo.rdf",
-"download-page": "https://accumulo.apache.org/downloads",
-"homepage": "https://accumulo.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "https://accumulo.apache.org/contact-us",
-"maintainer": [
-{
-"mbox": "mailto:mjwall@apache.org",
-"name": "Michael Wall"
-}
-],
-"name": "Apache Accumulo",
-"pmc": "accumulo",
-"programming-language": "Java",
-"release": [
-{
-"created": "2020-09-03",
-"name": "Apache Accumulo",
-"revision": "1.10.0"
-},
-{
-"created": "2019-08-02",
-"name": "Apache Accumulo",
-"revision": "2.0.0"
-},
-{
-"created": "2019-04-10",
-"name": "Apache Accumulo",
-"revision": "1.9.3"
-},
-{
-"created": "2019-01-31",
-"name": "Apache Accumulo",
-"revision": "2.0.0-alpha-2"
-},
-{
-"created": "2018-10-14",
-"name": "Apache Accumulo",
-"revision": "2.0.0-alpha-1"
-},
-{
-"created": "2018-07-19",
-"name": "Apache Accumulo",
-"revision": "1.9.2"
-},
-{
-"created": "2018-05-14",
-"name": "Apache Accumulo",
-"revision": "1.9.1"
-},
-{
-"created": "2018-04-18",
-"name": "Apache Accumulo",
-"revision": "1.9.0"
-},
-{
-"created": "2017-02-26",
-"name": "Apache Accumulo",
-"revision": "1.8.1"
-},
-{
-"created": "2016-09-06",
-"name": "Apache Accumulo",
-"revision": "1.8.0"
-},
-{
-"created": "2018-03-23",
-"name": "Apache Accumulo",
-"revision": "1.7.4"
-},
-{
-"created": "2017-03-26",
-"name": "Apache Accumulo",
-"revision": "1.7.3"
-},
-{
-"created": "2016-06-22",
-"name": "Apache Accumulo",
-"revision": "1.7.2"
-},
-{
-"created": "2016-02-26",
-"name": "Apache Accumulo",
-"revision": "1.7.1"
-},
-{
-"created": "2015-05-18",
-"name": "Apache Accumulo",
-"revision": "1.7.0"
-},
-{
-"created": "2016-09-18",
-"name": "Apache Accumulo",
-"revision": "1.6.6"
-},
-{
-"created": "2016-02-17",
-"name": "Apache Accumulo",
-"revision": "1.6.5"
-},
-{
-"created": "2015-10-03",
-"name": "Apache Accumulo",
-"revision": "1.6.4"
-},
-{
-"created": "2015-07-04",
-"name": "Apache Accumulo",
-"revision": "1.6.3"
-},
-{
-"created": "2015-02-16",
-"name": "Apache Accumulo",
-"revision": "1.6.2"
-},
-{
-"created": "2014-09-25",
-"name": "Apache Accumulo",
-"revision": "1.6.1"
-},
-{
-"created": "2014-05-02",
-"name": "Apache Accumulo",
-"revision": "1.6.0"
-},
-{
-"created": "2015-09-21",
-"name": "Apache Accumulo",
-"revision": "1.5.4"
-},
-{
-"created": "2015-06-25",
-"name": "Apache Accumulo",
-"revision": "1.5.3"
-},
-{
-"created": "2014-09-19",
-"name": "Apache Accumulo",
-"revision": "1.5.2"
-},
-{
-"created": "2014-03-06",
-"name": "Apache Accumulo",
-"revision": "1.5.1"
-},
-{
-"created": "2013-05-25",
-"name": "Apache Accumulo",
-"revision": "1.5.0"
-},
-{
-"created": "2014-04-04",
-"name": "Apache Accumulo",
-"revision": "1.4.5"
-},
-{
-"created": "2013-08-23",
-"name": "Apache Accumulo",
-"revision": "1.4.4"
-},
-{
-"created": "2013-03-18",
-"name": "Apache Accumulo",
-"revision": "1.4.3"
-},
-{
-"created": "2012-11-15",
-"name": "Apache Accumulo",
-"revision": "1.4.2"
-},
-{
-"created": "2012-07-03",
-"name": "Apache Accumulo",
-"revision": "1.4.1"
-},
-{
-"created": "2012-03-30",
-"name": "Apache Accumulo",
-"revision": "1.4.0"
-},
-{
-"created": "2012-07-06",
-"name": "Apache Accumulo",
-"revision": "1.3.6"
-},
-{
-"created": "2011-12-16",
-"name": "Apache Accumulo",
-"revision": "1.3.5-incubating"
-}
-],
-"repository": [
-"https://gitbox.apache.org/repos/asf/accumulo.git"
-]
-},
 "activemq": {
 "bug-database": "http://issues.apache.org/activemq/browse/AMQ",
 "category": "network-server, network-client",
@@ -2166,6 +1966,31 @@
 ],
 "shortdesc": "Regular Expression engine supporting various dialects"
 },
+"attic-polygene": {
+"bug-database": "https://issues.apache.org/jira/browse/POLYGENE",
+"category": "library, retired",
+"created": "2008-12-17",
+"description": "Apache Polygene is a community based effort exploring Composite Oriented Programming for domain centric application development. This includes evolved concepts from Aspect Oriented Programming, Dependency Injection and Domain Driven Design. Composite Oriented Programming allows developers to work with 'fragments', smaller than classes, and 'compose' fragments into larger 'composites' which acts like the regular objects. Polygene also tackles the enforcement of application composition, i.e. composites are declared in modules, modules are contained in layers and access between layers are controlled/enforced. Apache Polygene™ (Java Edition), first Apache Polygene sub-project, is an implementation of Composite Oriented Programming, using the standard Java platform, without the use of any pre-processors or new language elements. Everything you know from Java still applies and you can leverage both your experience and toolkits to become more productive with Composite Oriented Programming today.",
+"doap": "https://gitbox.apache.org/repos/asf?p=attic-polygene-java.git;f=doap.rdf;a=blob_plain;hb=develop",
+"download-page": "https://polygene.apache.org/download.html",
+"homepage": "https://polygene.apache.org/",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "https://www.apache.org/foundation/mailinglists.html",
+"maintainer": [
+{
+"mbox": "mailto:niclas@apache.org",
+"name": "Niclas Hedhman"
+}
+],
+"name": "Apache Polygene",
+"pmc": "attic",
+"programming-language": "Java, C#, Scala, Groovy, JavaScript",
+"repository": [
+"http://svn.apache.org/repos/asf/polygene/",
+"https://git-wip-us.apache.org/repos/asf/polygene-java.git"
+],
+"shortdesc": "Apache Polygene is a community based effort exploring Composite Oriented Programming for domain centric application development."
+},
 "attic-predictionio": {
 "bug-database": "https://issues.apache.org/jira/browse/PIO",
 "category": "retired, big-data",
@@ -2286,6 +2111,62 @@
 "http://svn.apache.org/repos/asf/stanbol/trunk/"
 ],
 "shortdesc": "Software components for semantic content management"
+},
+"attic-stratos": {
+"bug-database": "https://issues.apache.org/jira/browse/stratos",
+"category": "cloud, retired",
+"created": "2014-06-09",
+"description": "Apache Stratos is a highly-extensible Platform-as-a-Service (PaaS) framework that helps run Apache Tomcat, PHP, and MySQL applications and can be extended to support many more environments on all major cloud infrastructures. For developers, Stratos provides a cloud-based environment for developing, testing, and running scalable applications. IT providers benefit from high utilization rates, automated resource management, and platform-wide insight including monitoring and billing.",
+"doap": "https://gitbox.apache.org/repos/asf?p=attic-stratos.git;a=blob_plain;f=doap_Stratos.rdf;hb=HEAD",
+"download-page": "http://stratos.apache.org/releases/index.html",
+"homepage": "http://stratos.apache.org/",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "http://stratos.apache.org/community/mailing-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:lakmal@apache.org",
+"name": "Lakmal Warusawithana"
+}
+],
+"name": "Apache Stratos",
+"pmc": "attic",
+"programming-language": "Java",
+"release": [
+{
+"created": "2013-11-09",
+"name": "Apache Stratos 3.0.0-incubating",
+"revision": null
+},
+{
+"created": "2014-06-09",
+"name": "Apache Stratos 4.0.0",
+"revision": "4.0.0"
+},
+{
+"created": "2014-07-13",
+"name": "Apache Stgratos 4.1.1",
+"revision": "4.1.1"
+},
+{
+"created": "2014-09-02",
+"name": "Apache Stgratos 4.1.2",
+"revision": "4.1.2"
+},
+{
+"created": "2014-09-23",
+"name": "Apache Stgratos 4.1.3",
+"revision": "4.1.3"
+},
+{
+"created": "2014-10-22",
+"name": "Apache Stgratos 4.1.4",
+"revision": "4.1.4"
+}
+],
+"repository": [
+"https://git-wip-us.apache.org/repos/asf/stratos.git"
+],
+"shortdesc": "Apache Stratos is a highly-extensible Platform-as-a-Service (PaaS) framework that helps run Apache Tomcat, PHP, and MySQL applications and can be extended to support many more environments on all major cloud infrastructures. "
 },
 "attic-tajo": {
 "bug-database": "https://issues.apache.org/jira/browse/TAJO",
@@ -14764,6 +14645,37 @@
 ],
 "shortdesc": "STV Voting Tools"
 },
+"storm": {
+"bug-database": "https://issues.apache.org/jira/browse/STORM",
+"category": "big-data",
+"created": "2014-04-12",
+"description": "Apache Storm is a distributed real-time computation system. Similar to how Hadoop provides a set of general primitives for doing batch processing, Storm provides a set of general primitives for doing real-time computation.",
+"doap": "https://gitbox.apache.org/repos/asf?p=storm.git;a=blob_plain;f=doap_Storm.rdf;hb=HEAD",
+"download-page": "http://storm.apache.org/downloads.html",
+"homepage": "http://storm.apache.org/",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://storm.apache.org/community.html",
+"maintainer": [
+{
+"mbox": "mailto:ptgoetz@apache.org",
+"name": "P. Taylor Goetz"
+}
+],
+"name": "Apache Storm",
+"pmc": "storm",
+"programming-language": "Java",
+"release": [
+{
+"created": "2015-06-03",
+"name": "Apache Storm 0.9.5",
+"revision": "0.9.5"
+}
+],
+"repository": [
+"http://git-wip-us.apache.org/repos/asf/storm.git"
+],
+"shortdesc": "Apache Storm is a distributed real-time computation system."
+},
 "struts": {
 "bug-database": "https://issues.apache.org/jira/browse/WW/",
 "category": "web-framework",
@@ -15136,6 +15048,37 @@
 ],
 "shortdesc": "Apache Tez is an effort to develop a generic application framework which can be used to process arbitrarily complex directed-acyclic graphs (DAGs) of data-processing tasks and also a re-usable set of data-processing primitives which can be used by other projects."
 },
+"thrift": {
+"bug-database": "https://issues.apache.org/jira/browse/THRIFT",
+"category": "http, library, network-client, network-server",
+"created": "2012-04-14",
+"description": "Apache Thrift allows you to define data types and service interfaces in a simple definition file. Taking that file as input, the compiler generates code to be used to easily build RPC clients and servers that communicate seamlessly across programming languages. Instead of writing a load of boilerplate code to serialize and transport your objects and invoke remote methods, you can get right down to business. ",
+"doap": "https://gitbox.apache.org/repos/asf?p=thrift.git;a=blob_plain;f=doap.rdf;hb=HEAD",
+"download-page": "http://thrift.apache.org/download/",
+"homepage": "http://thrift.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://thrift.apache.org/mailing/",
+"maintainer": [
+{
+"mbox": "mailto:dev@thrift.apache.org",
+"name": "Apache Thrift PMC"
+}
+],
+"name": "Apache Thrift",
+"pmc": "thrift",
+"programming-language": "ActionScript, C, C#, C++, D, Dart, Delphi, Erlang, Go, Haskell, Haxe, Java, JavaScript, node.js, OCaml, Perl, PHP, Python, Rust, SmallTalk",
+"release": [
+{
+"created": "2009-12-11",
+"name": "Apache Thrift (incubating)",
+"revision": "0.2.0"
+}
+],
+"repository": [
+"https://github.com/apache/thrift.git"
+],
+"shortdesc": "Apache Thrift software provides a framework for scalable cross-language services development, combines a software stack with a code generation engine to build services that work efficiently and seamlessly between C++, Java, Python, PHP, Ruby, Erlang, Perl, Haskell, C#, JavaScript, Node.js, Smalltalk, OCaml and Delphi and other languages. "
+},
 "tika": {
 "account": {
 "OnlineAccount": {
@@ -15463,6 +15406,45 @@
 ],
 "shortdesc": "Apache TomEE is an all-Apache Java EE 6 Web Profile stack for Apache Tomcat",
 "vendor": "The Apache Software Foundation"
+},
+"trafficserver-traffic_server": {
+"bug-database": "https://github.com/apache/trafficserver/issues",
+"category": "http",
+"created": "2011-04-08",
+"description": "Apache Traffic Server is fast, scalable and extensible HTTP/1.1 compliant caching proxy server. ATS can be used as a reverse, forward or even transparent HTTP proxy.\n    ",
+"doap": "https://gitbox.apache.org/repos/asf?p=trafficserver.git;a=blob_plain;f=doc/doap.rdf;hb=HEAD",
+"download-page": "https://trafficserver.apache.org/downloads.html",
+"homepage": "https://trafficserver.apache.org",
+"implements": [
+{
+"body": "IETF",
+"id": "2616",
+"title": "HTTP/1.1",
+"url": "http://www.ietf.org/rfc/rfc2616.txt"
+}
+],
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "https://trafficserver.apache.org/",
+"maintainer": [
+{
+"mbox": "mailto:zwoop@apache.org",
+"name": "Leif Hedstrom"
+}
+],
+"name": "Apache Traffic Server",
+"pmc": "trafficserver",
+"programming-language": "C++",
+"release": [
+{
+"created": "2012-03-21",
+"name": "trafficserver",
+"revision": "3.0.4"
+}
+],
+"repository": [
+"https://git-wip-us.apache.org/repos/asf/trafficserver.git"
+],
+"shortdesc": "Apache Traffic Server is an HTTP proxy cache."
 },
 "trafodion": {
 "bug-database": "http://issues.apache.org/jira/browse/TRAFODION",
@@ -16133,6 +16115,23 @@
 "https://svn.apache.org/repos/asf/webservices/woden/"
 ],
 "shortdesc": "The Woden project is a subproject of the Apache Web Services to develop a Java class library for reading, manipulating, creating and writing WSDL documents, initially to support WSDL 2.0 but with the longer term aim of supporting past, present and future versions of WSDL"
+},
+"whimsy": {
+"bug-database": "https://issues.apache.org/jira/browse/WHIMSY",
+"category": "content",
+"created": "2015-06-25",
+"description": "The production Whimsy server also has a number of tools that automate some organizational processes, \n    like adding PMC members to official corporate rosters or reading, updating, and approving the monthly board agenda.",
+"doap": "https://gitbox.apache.org/repos/asf?p=whimsy.git;a=blob_plain;f=doap_Whimsy.rdf;hb=HEAD",
+"homepage": "http://whimsy.apache.org/",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://lists.apache.org/list.html?dev@whimsical.apache.org",
+"name": "Apache Whimsy",
+"pmc": "whimsy",
+"programming-language": "JavaScript, Ruby",
+"repository": [
+"https://gitbox.apache.org/repos/asf/whimsy.git"
+],
+"shortdesc": "Tools that display and visualize various bits of data related to ASF organizations and processes."
 },
 "wicket": {
 "bug-database": "http://issues.apache.org/jira/browse/WICKET",
