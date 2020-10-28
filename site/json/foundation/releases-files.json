@@ -173,6 +173,9 @@
 "apache-apisix-1.5": [
 "apisix/1.5/apache-apisix-1.5-src.tar.gz"
 ],
+"apache-apisix-2.0": [
+"apisix/2.0/apache-apisix-2.0-src.tgz"
+],
 "apache-apisix-dashboard-1.0-incubating": [
 "apisix/apisix/dashboard-1.0/apache-apisix-dashboard-1.0-incubating-src.tar.gz"
 ],
@@ -3714,18 +3717,18 @@
 },
 "incubator-streampipes": {
 "RELEASE_VALIDATION.md": [
-"incubator/streampipes/core/0.66.0/RELEASE_VALIDATION.md",
-"incubator/streampipes/extensions/0.66.0/RELEASE_VALIDATION.md",
-"incubator/streampipes/installer/0.66.0/RELEASE_VALIDATION.md"
+"incubator/streampipes/core/0.67.0/RELEASE_VALIDATION.md",
+"incubator/streampipes/extensions/0.67.0/RELEASE_VALIDATION.md",
+"incubator/streampipes/installer/0.67.0/RELEASE_VALIDATION.md"
 ],
-"apache-streampipes-0.66.0-incubating": [
-"incubator/streampipes/core/0.66.0/apache-streampipes-0.66.0-incubating-source-release.zip"
+"apache-streampipes-0.67.0-incubating": [
+"incubator/streampipes/core/0.67.0/apache-streampipes-0.67.0-incubating-source-release.zip"
 ],
-"apache-streampipes-extensions-0.66.0-incubating": [
-"incubator/streampipes/extensions/0.66.0/apache-streampipes-extensions-0.66.0-incubating-source-release.zip"
+"apache-streampipes-extensions-0.67.0-incubating": [
+"incubator/streampipes/extensions/0.67.0/apache-streampipes-extensions-0.67.0-incubating-source-release.zip"
 ],
-"apache-streampipes-installer-0.66.0-incubating": [
-"incubator/streampipes/installer/0.66.0/apache-streampipes-installer-0.66.0-incubating-source-release.zip"
+"apache-streampipes-installer-0.67.0-incubating": [
+"incubator/streampipes/installer/0.67.0/apache-streampipes-installer-0.67.0-incubating-source-release.zip"
 ]
 },
 "incubator-superset": {
@@ -9885,11 +9888,18 @@
 "skywalking/8.1.0/apache-skywalking-apm-8.1.0-src.tgz",
 "skywalking/8.1.0/apache-skywalking-apm-8.1.0.tar.gz"
 ],
+"apache-skywalking-apm-8.2.0": [
+"skywalking/8.2.0/apache-skywalking-apm-8.2.0-src.tgz",
+"skywalking/8.2.0/apache-skywalking-apm-8.2.0.tar.gz"
+],
 "apache-skywalking-apm-es7-8.0.1": [
 "skywalking/8.0.1/apache-skywalking-apm-es7-8.0.1.tar.gz"
 ],
 "apache-skywalking-apm-es7-8.1.0": [
 "skywalking/8.1.0/apache-skywalking-apm-es7-8.1.0.tar.gz"
+],
+"apache-skywalking-apm-es7-8.2.0": [
+"skywalking/8.2.0/apache-skywalking-apm-es7-8.2.0.tar.gz"
 ],
 "skywalking-3.0.0": [
 "skywalking/kubernetes/3.0.0/skywalking-3.0.0.tgz"
