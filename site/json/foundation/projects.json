@@ -2141,6 +2141,71 @@
 "shortdesc": "Apache Oltu is an OAuth protocol implementation in Java",
 "vendor": "The Apache Software Foundation"
 },
+"attic-open_climate_workbench": {
+"bug-database": "https://issues.apache.org/jira/browse/CLIMATE",
+"category": "retired, content",
+"created": "2013-07-29",
+"description": "Apache Open Climate Workbench is an effort to develop software that performs climate model evaluation using model outputs from a variety of different sources (the Earth System Grid Federation, the Coordinated Regional Downscaling Experiment, the U.S. National Climate Assessment and the North American Regional Climate Change Assessment Program) and temporal/spatial scales with remote sensing data from NASA, NOAA and other agencies. The toolkit includes capabilities for rebinning, metrics computation and visualization.",
+"doap": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/climate.rdf",
+"download-page": "http://climate.apache.org/",
+"homepage": "http://climate.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://climate.apache.org/community/mailing-lists.html",
+"name": "Apache Open Climate Workbench",
+"pmc": "attic",
+"programming-language": "Python",
+"release": [
+{
+"created": "2018-03-28",
+"name": "Apache Open Climate Workbench 1.3.0",
+"revision": "1.3.0"
+},
+{
+"created": "2017-04-20",
+"name": "Apache Open Climate Workbench 1.2.0",
+"revision": "1.2.0"
+},
+{
+"created": "2016-07-23",
+"name": "Apache Open Climate Workbench 1.1.0",
+"revision": "1.1.0"
+},
+{
+"created": "2015-09-03",
+"name": "Apache Open Climate Workbench 1.0",
+"revision": "1.0.0"
+},
+{
+"created": "2015-01-14",
+"name": "Apache Open Climate Workbench 0.5",
+"revision": "0.5"
+},
+{
+"created": "2014-08-06",
+"name": "Apache Open Climate Workbench 0.4",
+"revision": "0.4"
+},
+{
+"created": "2013-10-12",
+"name": "Apache Open Climate Workbench 0.3-incubating",
+"revision": "0.3-incubating"
+},
+{
+"created": "2013-08-19",
+"name": "Apache Open Climate Workbench 0.2-incubating",
+"revision": "0.2-incubating"
+},
+{
+"created": "2013-07-29",
+"name": "Apache Open Climate Workbench",
+"revision": "0.1-incubating"
+}
+],
+"repository": [
+"https://git-wip-us.apache.org/repos/asf/climate.git"
+],
+"shortdesc": "The Apache Open Climate Workbench(OCW) is a comprehensive suite of algorithms, libraries, and interfaces designed to standardize and streamline the process of interacting with large quantities of observational data (such as is provided by the RCMED) and conducting regional climate model evaluations."
+},
 "attic-oro": {
 "bug-database": "http://http://issues.apache.org/bugzilla/buglist.cgi?product=ORO",
 "category": "library, regexp, retired",
@@ -3666,71 +3731,6 @@
 "https://git-wip-us.apache.org/repos/asf?p=clerezza.git;a=summary"
 ],
 "shortdesc": "Clerezza is a service platform which provides a set of functionality for management of semantically linked data accessible through RESTful Web Services and in a secured way"
-},
-"climate-open_workbench": {
-"bug-database": "https://issues.apache.org/jira/browse/CLIMATE",
-"category": "content, retired",
-"created": "2013-07-29",
-"description": "Apache Open Climate Workbench is an effort to develop software that performs climate model evaluation using model outputs from a variety of different sources (the Earth System Grid Federation, the Coordinated Regional Downscaling Experiment, the U.S. National Climate Assessment and the North American Regional Climate Change Assessment Program) and temporal/spatial scales with remote sensing data from NASA, NOAA and other agencies. The toolkit includes capabilities for rebinning, metrics computation and visualization.",
-"doap": "https://gitbox.apache.org/repos/asf?p=climate.git;f=doap_CLIMATE.rdf;a=blob_plain;hb=HEAD",
-"download-page": "http://climate.apache.org/",
-"homepage": "http://climate.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://climate.apache.org/community/mailing-lists.html",
-"name": "Apache Open Climate Workbench",
-"pmc": "attic",
-"programming-language": "Python",
-"release": [
-{
-"created": "2018-03-28",
-"name": "Apache Open Climate Workbench 1.3.0",
-"revision": "1.3.0"
-},
-{
-"created": "2017-04-20",
-"name": "Apache Open Climate Workbench 1.2.0",
-"revision": "1.2.0"
-},
-{
-"created": "2016-07-23",
-"name": "Apache Open Climate Workbench 1.1.0",
-"revision": "1.1.0"
-},
-{
-"created": "2015-09-03",
-"name": "Apache Open Climate Workbench 1.0",
-"revision": "1.0.0"
-},
-{
-"created": "2015-01-14",
-"name": "Apache Open Climate Workbench 0.5",
-"revision": "0.5"
-},
-{
-"created": "2014-08-06",
-"name": "Apache Open Climate Workbench 0.4",
-"revision": "0.4"
-},
-{
-"created": "2013-10-12",
-"name": "Apache Open Climate Workbench 0.3-incubating",
-"revision": "0.3-incubating"
-},
-{
-"created": "2013-08-19",
-"name": "Apache Open Climate Workbench 0.2-incubating",
-"revision": "0.2-incubating"
-},
-{
-"created": "2013-07-29",
-"name": "Apache Open Climate Workbench",
-"revision": "0.1-incubating"
-}
-],
-"repository": [
-"https://git-wip-us.apache.org/repos/asf/climate.git"
-],
-"shortdesc": "The Apache Open Climate Workbench(OCW) is a comprehensive suite of algorithms, libraries, and interfaces designed to standardize and streamline the process of interacting with large quantities of observational data (such as is provided by the RCMED) and conducting regional climate model evaluations."
 },
 "cloudstack": {
 "bug-database": "https://issues.apache.org/jira/browse/CLOUDSTACK",
