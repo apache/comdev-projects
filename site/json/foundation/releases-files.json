@@ -1707,9 +1707,9 @@
 "commons/validator/source/commons-validator-1.7-src.tar.gz",
 "commons/validator/source/commons-validator-1.7-src.zip"
 ],
-"commons-vfs-2.6.0": [
-"commons/vfs/source/commons-vfs-2.6.0-src.tar.gz",
-"commons/vfs/source/commons-vfs-2.6.0-src.zip"
+"commons-vfs-2.7.0": [
+"commons/vfs/source/commons-vfs-2.7.0-src.tar.gz",
+"commons/vfs/source/commons-vfs-2.7.0-src.zip"
 ],
 "commons-weaver-2.0": [
 "commons/weaver/source/commons-weaver-2.0-src.tar.gz",
@@ -4485,13 +4485,13 @@
 "karaf/4.2.10/apache-karaf-minimal-4.2.10.tar.gz",
 "karaf/4.2.10/apache-karaf-minimal-4.2.10.zip"
 ],
-"apache-karaf-4.3.0.RC1": [
-"karaf/4.3.0.RC1/apache-karaf-4.3.0.RC1-src.tar.gz",
-"karaf/4.3.0.RC1/apache-karaf-4.3.0.RC1-src.zip",
-"karaf/4.3.0.RC1/apache-karaf-4.3.0.RC1.tar.gz",
-"karaf/4.3.0.RC1/apache-karaf-4.3.0.RC1.zip",
-"karaf/4.3.0.RC1/apache-karaf-minimal-4.3.0.RC1.tar.gz",
-"karaf/4.3.0.RC1/apache-karaf-minimal-4.3.0.RC1.zip"
+"apache-karaf-4.3.0": [
+"karaf/4.3.0/apache-karaf-4.3.0-src.tar.gz",
+"karaf/4.3.0/apache-karaf-4.3.0-src.zip",
+"karaf/4.3.0/apache-karaf-4.3.0.tar.gz",
+"karaf/4.3.0/apache-karaf-4.3.0.zip",
+"karaf/4.3.0/apache-karaf-minimal-4.3.0.tar.gz",
+"karaf/4.3.0/apache-karaf-minimal-4.3.0.zip"
 ],
 "apache-karaf-cave-3.0.0": [
 "karaf/cave/3.0.0/apache-karaf-cave-3.0.0-src.tar.gz",
@@ -9411,35 +9411,23 @@
 "apache-qpid-broker-j-8.0.2": [
 "qpid/broker-j/8.0.2/apache-qpid-broker-j-8.0.2-src.tar.gz"
 ],
-"apache-qpid-jms-0.53.0": [
-"qpid/jms/0.53.0/apache-qpid-jms-0.53.0-src.tar.gz"
-],
 "apache-qpid-jms-0.54.0": [
 "qpid/jms/0.54.0/apache-qpid-jms-0.54.0-src.tar.gz"
 ],
 "apache-qpid-jms-amqp-0-x-6.4.0": [
 "qpid/jms-amqp-0-x/6.4.0/apache-qpid-jms-amqp-0-x-6.4.0-src.tar.gz"
 ],
-"apache-qpid-proton-j-0.33.5": [
-"qpid/proton-j/0.33.5/apache-qpid-proton-j-0.33.5-src.tar.gz"
-],
 "apache-qpid-proton-j-0.33.6": [
 "qpid/proton-j/0.33.6/apache-qpid-proton-j-0.33.6-src.tar.gz"
 ],
-"qpid-dispatch-1.12.0": [
-"qpid/dispatch/1.12.0/qpid-dispatch-1.12.0.tar.gz"
-],
-"qpid-dispatch-1.13.0": [
-"qpid/dispatch/1.13.0/qpid-dispatch-1.13.0.tar.gz"
+"apache-qpid-proton-j-0.33.7": [
+"qpid/proton-j/0.33.7/apache-qpid-proton-j-0.33.7-src.tar.gz"
 ],
 "qpid-dispatch-1.14.0": [
 "qpid/dispatch/1.14.0/qpid-dispatch-1.14.0.tar.gz"
 ],
 "qpid-interop-test-0.2.0": [
 "qpid/interop-test/0.2.0/qpid-interop-test-0.2.0.tar.gz"
-],
-"qpid-proton-0.31.0": [
-"qpid/proton/0.31.0/qpid-proton-0.31.0.tar.gz"
 ],
 "qpid-proton-0.32.0": [
 "qpid/proton/0.32.0/qpid-proton-0.32.0.tar.gz"
@@ -9710,6 +9698,9 @@
 "apache-servicecomb-java-chassis-distribution-1.3.0": [
 "servicecomb/servicecomb-java-chassis/1.3.0/apache-servicecomb-java-chassis-distribution-1.3.0-src.zip"
 ],
+"apache-servicecomb-java-chassis-distribution-1.3.1": [
+"servicecomb/servicecomb-java-chassis/1.3.1/apache-servicecomb-java-chassis-distribution-1.3.1-src.zip"
+],
 "apache-servicecomb-java-chassis-distribution-2.0.0": [
 "servicecomb/servicecomb-java-chassis/2.0.0/apache-servicecomb-java-chassis-distribution-2.0.0-src.zip"
 ],
@@ -9724,6 +9715,9 @@
 ],
 "apache-servicecomb-java-chassis-distribution-2.1.1": [
 "servicecomb/servicecomb-java-chassis/2.1.1/apache-servicecomb-java-chassis-distribution-2.1.1-src.zip"
+],
+"apache-servicecomb-java-chassis-distribution-2.1.2": [
+"servicecomb/servicecomb-java-chassis/2.1.2/apache-servicecomb-java-chassis-distribution-2.1.2-src.zip"
 ],
 "apache-servicecomb-kie-0.1.0": [
 "servicecomb/servicecomb-kie/0.1.0/apache-servicecomb-kie-0.1.0-src.tar.gz"
@@ -9872,8 +9866,8 @@
 ]
 },
 "singa": {
-"apache-singa-3.0.0": [
-"singa/3.0.0/apache-singa-3.0.0.tar.gz"
+"apache-singa-3.1.0": [
+"singa/3.1.0/apache-singa-3.1.0.tar.gz"
 ]
 },
 "sis": {
@@ -9918,6 +9912,9 @@
 ],
 "skywalking-cli-0.4.0": [
 "skywalking/cli/0.4.0/skywalking-cli-0.4.0-src.tgz"
+],
+"skywalking-client-js-0.1.0": [
+"skywalking/client-js/0.1.0/skywalking-client-js-0.1.0-src.tgz"
 ],
 "skywalking-kubernetes-3.0.0": [
 "skywalking/kubernetes/3.0.0/skywalking-kubernetes-3.0.0-src.tgz"
