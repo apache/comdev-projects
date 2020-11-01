@@ -14704,6 +14704,37 @@
 ],
 "shortdesc": "A library for developing geospatial applications."
 },
+"skywalking": {
+"bug-database": "https://github.com/apache/skywalking/issues",
+"category": "observability",
+"created": "2019-04-17",
+"description": "Use Apache SkyWalking when you need an application performance monitor tool for distributed systems, especially designed for microservices, cloud native and container-based (Docker, K8s, Mesos) architectures.",
+"doap": "http://skywalking.apache.org/assets/doap_SkyWalking.rdf",
+"download-page": "http://skywalking.apache.org/downloads/",
+"homepage": "http://skywalking.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "https://lists.apache.org/list.html?dev@skywalking.apache.org",
+"maintainer": [
+{
+"mbox": "mailto:dev@skywalking.apache.org",
+"name": "Apache SkyWalking PMC"
+}
+],
+"name": "Apache SkyWalking",
+"pmc": "skywalking",
+"programming-language": "Java",
+"release": [
+{
+"created": "2020-03-22",
+"name": "Apache SkyWalking",
+"revision": "7.0.0"
+}
+],
+"repository": [
+"git://gitbox.apache.org/repos/asf/skywalking.git"
+],
+"shortdesc": "Apache SkyWalking software is the application performance management and monitoring (APM) tool."
+},
 "sling": {
 "description": "\n        Apache Sling is a web framework that uses a Java Content Repository, such as Apache Jackrabbit, \n        to store and manage content.\n        Sling applications use either scripts or Java servlets, selected based on simple name conventions, \n        to process HTTP requests in a RESTful way.\n        The embedded Apache Felix OSGi framework and console provide a dynamic runtime environment, where \n        code and content bundles can be loaded, unloaded and reconfigured at runtime.\n        As the first web framework dedicated to JSR-170 Java Content Repositories, Sling makes it very \n        simple to implement simple applications, while providing an enterprise-level framework for more complex applications.\n    ",
 "doap": "http://svn.apache.org/repos/asf/sling/site/doap/sling-doap.rdf",
