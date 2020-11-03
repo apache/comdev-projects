@@ -28,7 +28,7 @@
 },
 "airflow": {
 "apache-airflow-1.10.12": "2020-08-25",
-"apache-airflow-backport-providers-2020.10.5": "2020-10-06"
+"apache-airflow-backport-providers-2020.10.29": "2020-11-02"
 },
 "allura": {
 "allura-1.12.0": "2019-10-04"
@@ -970,6 +970,7 @@
 "hbase-2.2.5": "2020-05-26",
 "hbase-2.2.6": "2020-09-16",
 "hbase-2.3.2": "2020-09-21",
+"hbase-2.3.3": "2020-10-28",
 "hbase-connectors-1.0.0": "2019-05-03",
 "hbase-filesystem-1.0.0-alpha1": "2019-06-06",
 "hbase-operator-tools-1.0.0": "2019-09-24",
@@ -1553,11 +1554,13 @@
 "lucene": {
 "lucene-7.7.3": "2020-04-21",
 "lucene-8.6.3": "2020-10-04",
+"lucene-8.7.0": "2020-10-29",
 "pylucene-7.7.1": "2019-06-03",
 "pylucene-8.3.0": "2020-04-29",
 "pylucene-8.6.1": "2020-09-09",
 "solr-7.7.3": "2020-04-21",
-"solr-8.6.3": "2020-10-04"
+"solr-8.6.3": "2020-10-04",
+"solr-8.7.0": "2020-10-29"
 },
 "lucenenet": {
 "Apache-Lucene.Net-3.0.3-RC2": "2017-05-09",
@@ -3156,16 +3159,16 @@
 "org.apache.sling.extensions.threaddump-0.2.2": "2013-01-21",
 "org.apache.sling.extensions.webconsolebranding-1.0.2": "2017-05-22",
 "org.apache.sling.extensions.webconsolesecurityprovider-1.2.4": "2019-08-19",
-"org.apache.sling.feature-1.2.10": "2020-09-29",
-"org.apache.sling.feature.analyser-1.3.8": "2020-09-08",
+"org.apache.sling.feature-1.2.12": "2020-11-02",
+"org.apache.sling.feature.analyser-1.3.10": "2020-11-02",
 "org.apache.sling.feature.apiregions-1.1.6": "2020-07-20",
-"org.apache.sling.feature.cpconverter-1.0.14": "2020-09-14",
+"org.apache.sling.feature.cpconverter-1.0.16": "2020-11-02",
 "org.apache.sling.feature.diff-0.0.6": "2020-01-24",
 "org.apache.sling.feature.extension.apiregions-1.1.10": "2020-10-12",
 "org.apache.sling.feature.extension.content-1.0.6": "2020-01-24",
 "org.apache.sling.feature.extension.unpack-0.1.0": "2020-09-17",
 "org.apache.sling.feature.inventoryprinter-1.0.0": "2019-04-29",
-"org.apache.sling.feature.launcher-1.1.8": "2020-10-21",
+"org.apache.sling.feature.launcher-1.1.10": "2020-11-02",
 "org.apache.sling.feature.modelconverter-1.0.14": "2020-04-09",
 "org.apache.sling.featureflags-1.2.2": "2017-12-01",
 "org.apache.sling.fileoptim-0.9.4": "2019-09-17",
@@ -3355,7 +3358,7 @@
 "sling-archetype-1.0.4": "2020-05-18",
 "sling-archetype-6": "2020-05-12",
 "sling-bundle-archetype-1.0.6": "2018-02-03",
-"sling-feature-converter-maven-plugin-1.0.4": "2020-01-16",
+"sling-feature-converter-maven-plugin-1.0.6": "2020-11-02",
 "sling-initial-content-archetype-1.0.6": "2018-02-03",
 "sling-jcrinstall-bundle-archetype-1.0.6": "2018-02-03",
 "sling-kickstart-maven-plugin-0.0.8": "2020-09-23",
@@ -3364,7 +3367,7 @@
 "sling-maven-plugin.parent-2.4.2": "2019-06-06",
 "sling-servlet-archetype-1.0.4": "2015-10-19",
 "sling-slingstart-archetype-1.0.8": "2018-10-23",
-"slingfeature-maven-plugin-1.4.4": "2020-10-19",
+"slingfeature-maven-plugin-1.4.6": "2020-11-02",
 "slingstart-maven-plugin-1.9.12": "2020-05-03"
 },
 "spamassassin": {
@@ -3854,6 +3857,7 @@
 },
 "unomi": {
 "unomi-1.5.1": "2020-05-14",
+"unomi-1.5.2": "2020-10-28",
 "unomi-manual-1_4_x": "2020-05-15",
 "unomi-manual-1_5_x": "2020-05-15"
 },

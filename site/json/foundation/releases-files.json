@@ -76,8 +76,8 @@
 "apache-airflow-1.10.12": [
 "airflow/1.10.12/apache-airflow-1.10.12-source.tar.gz"
 ],
-"apache-airflow-backport-providers-2020.10.5": [
-"airflow/backport-providers/apache-airflow-backport-providers-2020.10.5-source.tar.gz"
+"apache-airflow-backport-providers-2020.10.29": [
+"airflow/backport-providers/apache-airflow-backport-providers-2020.10.29-source.tar.gz"
 ]
 },
 "allura": {
@@ -3043,6 +3043,7 @@
 "RELEASENOTES.md": [
 "hbase/2.2.5/RELEASENOTES.md",
 "hbase/2.2.6/RELEASENOTES.md",
+"hbase/2.3.3/RELEASENOTES.md",
 "hbase/hbase-filesystem-1.0.0-alpha1/RELEASENOTES.md",
 "hbase/hbase-operator-tools-1.0.0/RELEASENOTES.md",
 "hbase/hbase-thirdparty-3.4.0/RELEASENOTES.md"
@@ -3061,6 +3062,9 @@
 ],
 "hbase-2.3.2": [
 "hbase/2.3.2/hbase-2.3.2-src.tar.gz"
+],
+"hbase-2.3.3": [
+"hbase/2.3.3/hbase-2.3.3-src.tar.gz"
 ],
 "hbase-connectors-1.0.0": [
 "hbase/hbase-connectors-1.0.0/hbase-connectors-1.0.0-src.tar.gz"
@@ -4681,6 +4685,11 @@
 "lucene/java/8.6.3/lucene-8.6.3.tgz",
 "lucene/java/8.6.3/lucene-8.6.3.zip"
 ],
+"lucene-8.7.0": [
+"lucene/java/8.7.0/lucene-8.7.0-src.tgz",
+"lucene/java/8.7.0/lucene-8.7.0.tgz",
+"lucene/java/8.7.0/lucene-8.7.0.zip"
+],
 "pylucene-7.7.1": [
 "lucene/pylucene/pylucene-7.7.1-src.tar.gz"
 ],
@@ -4699,6 +4708,11 @@
 "lucene/solr/8.6.3/solr-8.6.3-src.tgz",
 "lucene/solr/8.6.3/solr-8.6.3.tgz",
 "lucene/solr/8.6.3/solr-8.6.3.zip"
+],
+"solr-8.7.0": [
+"lucene/solr/8.7.0/solr-8.7.0-src.tgz",
+"lucene/solr/8.7.0/solr-8.7.0.tgz",
+"lucene/solr/8.7.0/solr-8.7.0.zip"
 ]
 },
 "lucenenet": {
@@ -10200,19 +10214,19 @@
 "org.apache.sling.extensions.webconsolesecurityprovider-1.2.4": [
 "sling/org.apache.sling.extensions.webconsolesecurityprovider-1.2.4-source-release.zip"
 ],
-"org.apache.sling.feature-1.2.10": [
-"sling/org.apache.sling.feature-1.2.10-source-release.zip"
+"org.apache.sling.feature-1.2.12": [
+"sling/org.apache.sling.feature-1.2.12-source-release.zip"
 ],
-"org.apache.sling.feature.analyser-1.3.8": [
-"sling/org.apache.sling.feature.analyser-1.3.8-source-release.zip"
+"org.apache.sling.feature.analyser-1.3.10": [
+"sling/org.apache.sling.feature.analyser-1.3.10-source-release.zip"
 ],
 "org.apache.sling.feature.apiregions-1.1.6": [
 "sling/org.apache.sling.feature.apiregions-1.1.6-source-release.zip"
 ],
-"org.apache.sling.feature.cpconverter-1.0.14": [
-"sling/org.apache.sling.feature.cpconverter-1.0.14-source-release.zip",
-"sling/org.apache.sling.feature.cpconverter-1.0.14.tar.gz",
-"sling/org.apache.sling.feature.cpconverter-1.0.14.zip"
+"org.apache.sling.feature.cpconverter-1.0.16": [
+"sling/org.apache.sling.feature.cpconverter-1.0.16-source-release.zip",
+"sling/org.apache.sling.feature.cpconverter-1.0.16.tar.gz",
+"sling/org.apache.sling.feature.cpconverter-1.0.16.zip"
 ],
 "org.apache.sling.feature.diff-0.0.6": [
 "sling/org.apache.sling.feature.diff-0.0.6-source-release.zip"
@@ -10231,8 +10245,8 @@
 "org.apache.sling.feature.inventoryprinter-1.0.0": [
 "sling/org.apache.sling.feature.inventoryprinter-1.0.0-source-release.zip"
 ],
-"org.apache.sling.feature.launcher-1.1.8": [
-"sling/org.apache.sling.feature.launcher-1.1.8-source-release.zip"
+"org.apache.sling.feature.launcher-1.1.10": [
+"sling/org.apache.sling.feature.launcher-1.1.10-source-release.zip"
 ],
 "org.apache.sling.feature.modelconverter-1.0.14": [
 "sling/org.apache.sling.feature.modelconverter-1.0.14-source-release.zip",
@@ -10809,8 +10823,8 @@
 "sling-bundle-archetype-1.0.6": [
 "sling/sling-bundle-archetype-1.0.6-source-release.zip"
 ],
-"sling-feature-converter-maven-plugin-1.0.4": [
-"sling/sling-feature-converter-maven-plugin-1.0.4-source-release.zip"
+"sling-feature-converter-maven-plugin-1.0.6": [
+"sling/sling-feature-converter-maven-plugin-1.0.6-source-release.zip"
 ],
 "sling-initial-content-archetype-1.0.6": [
 "sling/sling-initial-content-archetype-1.0.6-source-release.zip"
@@ -10837,8 +10851,8 @@
 "sling-slingstart-archetype-1.0.8": [
 "sling/sling-slingstart-archetype-1.0.8-source-release.zip"
 ],
-"slingfeature-maven-plugin-1.4.4": [
-"sling/slingfeature-maven-plugin-1.4.4-source-release.zip"
+"slingfeature-maven-plugin-1.4.6": [
+"sling/slingfeature-maven-plugin-1.4.6-source-release.zip"
 ],
 "slingstart-maven-plugin-1.9.12": [
 "sling/slingstart-maven-plugin-1.9.12-source-release.zip"
@@ -12524,6 +12538,9 @@
 "unomi": {
 "unomi-1.5.1": [
 "unomi/1.5.1/unomi-1.5.1-src.zip"
+],
+"unomi-1.5.2": [
+"unomi/1.5.2/unomi-1.5.2-src.zip"
 ],
 "unomi-manual-1_4_x": [
 "unomi/1.4.0/unomi-manual-1_4_x.zip"
