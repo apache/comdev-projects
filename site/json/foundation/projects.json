@@ -13115,7 +13115,7 @@
 "bug-database": "https://bz.apache.org/ooo/",
 "category": "content",
 "created": "2013-01-03",
-"description": "Apache OpenOffice is an open-source, office-document productivity suite providing six productivity\n    applications (Writer, Calc, Impress, Draw, Math, Base) based around the OpenDocument Format (ODF). OpenOffice is\n    released on Windows, macOS, Linux 32-bit DEB+RPM, Linux 64-bit DEB+RPM and in dozens of languages.",
+"description": "Apache OpenOffice is an open-source, office-document productivity suite providing six productivity\n    applications (Writer, Calc, Impress, Draw, Math, Base) based around the OpenDocument Format (ODF). OpenOffice is\n    released on Windows, OS X, Linux 32-bit DEB+RPM, Linux 64-bit DEB+RPM and in dozens of languages.",
 "doap": "http://openoffice.apache.org/doap_openoffice.rdf",
 "download-page": "https://www.openoffice.org/download/",
 "homepage": "https://openoffice.apache.org",
@@ -13127,7 +13127,7 @@
 "url": "https://www.iso.org/standard/43485.html"
 }
 ],
-"license": "http://usefulinc.com/doap/licenses/asl20",
+"license": "https://spdx.org/licenses/Apache-2.0",
 "mailing-list": "https://openoffice.apache.org/mailing-lists.html",
 "maintainer": [
 {
@@ -13146,7 +13146,7 @@
 }
 ],
 "repository": [
-"http://svn.apache.org/repos/asf/openoffice/trunk"
+"https://gitbox.apache.org/repos/asf/openoffice.git"
 ],
 "shortdesc": "An open-source, office-document productivity suite"
 },
