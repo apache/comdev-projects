@@ -228,6 +228,7 @@
 },
 "bookkeeper": {
 "bookkeeper-4.11.1": "2020-10-06",
+"bookkeeper-4.12.0": "2020-11-11",
 "distributedlog-0.5.0": "2020-07-03"
 },
 "brooklyn": {
@@ -1502,7 +1503,8 @@
 "Apache-Lucene.Net-4.8.0-beta00009": "2020-07-03",
 "Apache-Lucene.Net-4.8.0-beta00010": "2020-07-19",
 "Apache-Lucene.Net-4.8.0-beta00011": "2020-07-24",
-"Apache-Lucene.Net-4.8.0-beta00012": "2020-09-19"
+"Apache-Lucene.Net-4.8.0-beta00012": "2020-09-19",
+"Apache-Lucene.Net-4.8.0-beta00013": "2020-11-16"
 },
 "madlib": {
 "apache-madlib-1.17.0": "2020-07-06"
@@ -2593,7 +2595,6 @@
 "apache-opennlp-1.9.3": "2020-08-02"
 },
 "openoffice": {
-"apache-openoffice-4.1.7-46059c9192": "2020-07-06",
 "apache-openoffice-4.1.8-18848f57b6": "2020-11-05"
 },
 "openwebbeans": {
@@ -3033,7 +3034,8 @@
 "skywalking-nginx-lua-0.3.0": "2020-10-19",
 "skywalking-python": "2020-07-03",
 "skywalking-python-0.2.0": "2020-07-25",
-"skywalking-python-v0.3.0": "2020-08-25"
+"skywalking-python-v0.3.0": "2020-08-25",
+"skywalking-swck-0.1.0": "2020-11-10"
 },
 "sling": {
 "adapter-annotations-1.0.0": "2020-07-03",
@@ -3045,6 +3047,7 @@
 "maven-launchpad-plugin-2.3.4": "2020-07-03",
 "maven-sling-plugin-2.4.2": "2020-07-03",
 "org.apache.sling.adapter-2.1.10": "2020-07-03",
+"org.apache.sling.adapter.annotations-2.0.0": "2020-11-16",
 "org.apache.sling.api-2.23.0": "2020-09-26",
 "org.apache.sling.auth.core-1.5.0": "2020-08-28",
 "org.apache.sling.auth.form-1.0.20": "2020-07-03",
@@ -3123,13 +3126,13 @@
 "org.apache.sling.extensions.threaddump-0.2.2": "2020-07-03",
 "org.apache.sling.extensions.webconsolebranding-1.0.2": "2020-07-03",
 "org.apache.sling.extensions.webconsolesecurityprovider-1.2.4": "2020-07-03",
-"org.apache.sling.feature-1.2.12": "2020-11-02",
-"org.apache.sling.feature.analyser-1.3.10": "2020-11-02",
+"org.apache.sling.feature-1.2.14": "2020-11-16",
+"org.apache.sling.feature.analyser-1.3.12": "2020-11-16",
 "org.apache.sling.feature.apiregions-1.1.6": "2020-07-20",
-"org.apache.sling.feature.cpconverter-1.0.16": "2020-11-02",
+"org.apache.sling.feature.cpconverter-1.0.18": "2020-11-16",
 "org.apache.sling.feature.diff-0.0.6": "2020-07-03",
-"org.apache.sling.feature.extension.apiregions-1.1.10": "2020-10-12",
-"org.apache.sling.feature.extension.content-1.0.6": "2020-07-03",
+"org.apache.sling.feature.extension.apiregions-1.1.12": "2020-11-16",
+"org.apache.sling.feature.extension.content-1.0.8": "2020-11-16",
 "org.apache.sling.feature.extension.unpack-0.1.0": "2020-09-17",
 "org.apache.sling.feature.inventoryprinter-1.0.0": "2020-07-03",
 "org.apache.sling.feature.launcher-1.1.10": "2020-11-02",
@@ -3322,7 +3325,7 @@
 "sling-archetype-1.0.4": "2020-07-03",
 "sling-archetype-6": "2020-07-03",
 "sling-bundle-archetype-1.0.6": "2020-07-03",
-"sling-feature-converter-maven-plugin-1.0.6": "2020-11-02",
+"sling-feature-converter-maven-plugin-1.0.8": "2020-11-16",
 "sling-initial-content-archetype-1.0.6": "2020-07-03",
 "sling-jcrinstall-bundle-archetype-1.0.6": "2020-07-03",
 "sling-kickstart-maven-plugin-0.0.8": "2020-09-23",
@@ -3331,7 +3334,7 @@
 "sling-maven-plugin.parent-2.4.2": "2020-07-03",
 "sling-servlet-archetype-1.0.4": "2020-07-03",
 "sling-slingstart-archetype-1.0.8": "2020-07-03",
-"slingfeature-maven-plugin-1.4.6": "2020-11-02",
+"slingfeature-maven-plugin-1.4.12": "2020-11-16",
 "slingstart-maven-plugin-1.9.12": "2020-07-03"
 },
 "spamassassin": {

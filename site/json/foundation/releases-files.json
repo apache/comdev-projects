@@ -645,6 +645,9 @@
 "bookkeeper-4.11.1": [
 "bookkeeper/bookkeeper-4.11.1/bookkeeper-4.11.1-src.tar.gz"
 ],
+"bookkeeper-4.12.0": [
+"bookkeeper/bookkeeper-4.12.0/bookkeeper-4.12.0-src.tar.gz"
+],
 "distributedlog-0.5.0": [
 "bookkeeper/distributedlog/0.5.0/distributedlog-0.5.0-src.tar.gz"
 ]
@@ -4514,6 +4517,9 @@
 ],
 "Apache-Lucene.Net-4.8.0-beta00012": [
 "lucenenet/4.8.0-beta00012/Apache-Lucene.Net-4.8.0-beta00012.src.zip"
+],
+"Apache-Lucene.Net-4.8.0-beta00013": [
+"lucenenet/4.8.0-beta00013/Apache-Lucene.Net-4.8.0-beta00013.src.zip"
 ]
 },
 "madlib": {
@@ -8568,11 +8574,6 @@
 ]
 },
 "openoffice": {
-"apache-openoffice-4.1.7-46059c9192": [
-"openoffice/4.1.7/source/apache-openoffice-4.1.7-46059c9192-src.tar.bz2",
-"openoffice/4.1.7/source/apache-openoffice-4.1.7-46059c9192-src.tar.gz",
-"openoffice/4.1.7/source/apache-openoffice-4.1.7-46059c9192-src.zip"
-],
 "apache-openoffice-4.1.8-18848f57b6": [
 "openoffice/4.1.8/source/apache-openoffice-4.1.8-18848f57b6-src.tar.bz2",
 "openoffice/4.1.8/source/apache-openoffice-4.1.8-18848f57b6-src.tar.gz",
@@ -9826,6 +9827,9 @@
 ],
 "skywalking-python-v0.3.0": [
 "skywalking/python/0.3.0/skywalking-python-src-v0.3.0.tgz"
+],
+"skywalking-swck-0.1.0": [
+"skywalking/swck/0.1.0/skywalking-swck-0.1.0-src.tgz"
 ]
 },
 "sling": {
@@ -9855,6 +9859,9 @@
 ],
 "org.apache.sling.adapter-2.1.10": [
 "sling/org.apache.sling.adapter-2.1.10-source-release.zip"
+],
+"org.apache.sling.adapter.annotations-2.0.0": [
+"sling/org.apache.sling.adapter.annotations-2.0.0-source-release.zip"
 ],
 "org.apache.sling.api-2.23.0": [
 "sling/org.apache.sling.api-2.23.0-source-release.zip"
@@ -10090,28 +10097,28 @@
 "org.apache.sling.extensions.webconsolesecurityprovider-1.2.4": [
 "sling/org.apache.sling.extensions.webconsolesecurityprovider-1.2.4-source-release.zip"
 ],
-"org.apache.sling.feature-1.2.12": [
-"sling/org.apache.sling.feature-1.2.12-source-release.zip"
+"org.apache.sling.feature-1.2.14": [
+"sling/org.apache.sling.feature-1.2.14-source-release.zip"
 ],
-"org.apache.sling.feature.analyser-1.3.10": [
-"sling/org.apache.sling.feature.analyser-1.3.10-source-release.zip"
+"org.apache.sling.feature.analyser-1.3.12": [
+"sling/org.apache.sling.feature.analyser-1.3.12-source-release.zip"
 ],
 "org.apache.sling.feature.apiregions-1.1.6": [
 "sling/org.apache.sling.feature.apiregions-1.1.6-source-release.zip"
 ],
-"org.apache.sling.feature.cpconverter-1.0.16": [
-"sling/org.apache.sling.feature.cpconverter-1.0.16-source-release.zip",
-"sling/org.apache.sling.feature.cpconverter-1.0.16.tar.gz",
-"sling/org.apache.sling.feature.cpconverter-1.0.16.zip"
+"org.apache.sling.feature.cpconverter-1.0.18": [
+"sling/org.apache.sling.feature.cpconverter-1.0.18-source-release.zip",
+"sling/org.apache.sling.feature.cpconverter-1.0.18.tar.gz",
+"sling/org.apache.sling.feature.cpconverter-1.0.18.zip"
 ],
 "org.apache.sling.feature.diff-0.0.6": [
 "sling/org.apache.sling.feature.diff-0.0.6-source-release.zip"
 ],
-"org.apache.sling.feature.extension.apiregions-1.1.10": [
-"sling/org.apache.sling.feature.extension.apiregions-1.1.10-source-release.zip"
+"org.apache.sling.feature.extension.apiregions-1.1.12": [
+"sling/org.apache.sling.feature.extension.apiregions-1.1.12-source-release.zip"
 ],
-"org.apache.sling.feature.extension.content-1.0.6": [
-"sling/org.apache.sling.feature.extension.content-1.0.6-source-release.zip"
+"org.apache.sling.feature.extension.content-1.0.8": [
+"sling/org.apache.sling.feature.extension.content-1.0.8-source-release.zip"
 ],
 "org.apache.sling.feature.extension.unpack-0.1.0": [
 "sling/org.apache.sling.feature.extension.unpack-0.1.0-source-release.zip",
@@ -10699,8 +10706,8 @@
 "sling-bundle-archetype-1.0.6": [
 "sling/sling-bundle-archetype-1.0.6-source-release.zip"
 ],
-"sling-feature-converter-maven-plugin-1.0.6": [
-"sling/sling-feature-converter-maven-plugin-1.0.6-source-release.zip"
+"sling-feature-converter-maven-plugin-1.0.8": [
+"sling/sling-feature-converter-maven-plugin-1.0.8-source-release.zip"
 ],
 "sling-initial-content-archetype-1.0.6": [
 "sling/sling-initial-content-archetype-1.0.6-source-release.zip"
@@ -10727,8 +10734,8 @@
 "sling-slingstart-archetype-1.0.8": [
 "sling/sling-slingstart-archetype-1.0.8-source-release.zip"
 ],
-"slingfeature-maven-plugin-1.4.6": [
-"sling/slingfeature-maven-plugin-1.4.6-source-release.zip"
+"slingfeature-maven-plugin-1.4.12": [
+"sling/slingfeature-maven-plugin-1.4.12-source-release.zip"
 ],
 "slingstart-maven-plugin-1.9.12": [
 "sling/slingstart-maven-plugin-1.9.12-source-release.zip"
