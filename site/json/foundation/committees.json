@@ -1,6 +1,6 @@
 [
 {
-"chair": "mjwall",
+"chair": "edcoleman",
 "charter": "The mission of Apache Accumulo is the creation and maintenance of software related to a robust, scalable, distributed key/value store with cell-based access control and customizable server-side processing.",
 "established": "2012-03",
 "group": "accumulo",
@@ -4942,7 +4942,7 @@
 "shortdesc": "Natural language processing (NLP) tool for information extraction from electronic medical record clinical free-text"
 },
 {
-"chair": "randgalt",
+"chair": "eolivelli",
 "charter": "The mission of Curator is the creation and maintenance of software related to Java libraries that make using Apache ZooKeeper easier",
 "established": "2013-09",
 "group": "curator",
@@ -5898,84 +5898,6 @@
 }
 },
 "shortdesc": "a high-performance, lightweight, java based RPC framework."
-},
-{
-"chair": "yonzhang2012",
-"charter": "The mission of Apache Eagle is the creation and maintenance of software related to a distributed monitoring solution for identifying security and performance issues in real time on big data platforms, including Apache Hadoop and Apache Spark.",
-"established": "2016-12",
-"group": "eagle",
-"homepage": "http://eagle.apache.org/",
-"id": "eagle",
-"name": "Apache Eagle",
-"rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/eagle.rdf",
-"reporting": 3,
-"roster": {
-"arunmanoharan": {
-"date": "2016-12-21",
-"name": "Manoharan Arun"
-},
-"cgupta": {
-"date": "2016-12-21",
-"name": "Gupta Chaitali"
-},
-"dazhou": {
-"date": "2016-12-21",
-"name": "Daniel Zhou"
-},
-"denglg": {
-"date": "2017-05-09",
-"name": "Deng Lingang"
-},
-"hao": {
-"date": "2016-12-21",
-"name": "Hao Chen"
-},
-"hdendukuri": {
-"date": "2016-12-21",
-"name": "Dendukuri Hemanth"
-},
-"jhyde": {
-"date": "2016-12-21",
-"name": "Julian Hyde"
-},
-"jilin": {
-"date": "2016-12-21",
-"name": "Jilin Jiang"
-},
-"jinhuwu": {
-"date": "2016-12-21",
-"name": "Jinhu Wu"
-},
-"libsun": {
-"date": "2016-12-21",
-"name": "Libin Sun"
-},
-"mw": {
-"date": "2016-12-21",
-"name": "Wu Michael"
-},
-"ptgoetz": {
-"date": "2016-12-21",
-"name": "P. Taylor Goetz"
-},
-"qingwzhao": {
-"date": "2016-12-21",
-"name": "Qingwen Zhao"
-},
-"ralphsu": {
-"date": "2016-12-21",
-"name": "Ralph Su"
-},
-"senthilec566": {
-"date": "2016-12-21",
-"name": "Kumar Senthil"
-},
-"yonzhang2012": {
-"date": "2016-12-21",
-"name": "Edward Zhang"
-}
-},
-"shortdesc": "open source analytics solution for identifying security and performance issues instantly on big data platforms"
 },
 {
 "chair": "doebele",
@@ -7772,6 +7694,10 @@
 "date": "2017-08-08",
 "name": "Kai Zheng"
 },
+"ebadger": {
+"date": "2020-11-18",
+"name": "Eric Badger"
+},
 "elek": {
 "date": "2019-07-29",
 "name": "Marton Elek"
@@ -9273,6 +9199,10 @@
 "akuznetsov": {
 "date": "2015-08-19",
 "name": "Alexey Kuznetsov"
+},
+"alexpl": {
+"date": "2020-11-18",
+"name": "Alex Plehanov"
 },
 "anovikov": {
 "date": "2015-08-19",
@@ -12618,64 +12548,6 @@
 }
 },
 "shortdesc": "Framework for connecting source content repositories to target repositories or indexes."
-},
-{
-"chair": "jakob",
-"charter": "The mission of Marmotta is the creation and maintenance of software related to An Open Platform for Linked Data",
-"established": "2013-11",
-"group": "marmotta",
-"homepage": "http://marmotta.apache.org/",
-"id": "marmotta",
-"name": "Apache Marmotta",
-"rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/marmotta.rdf",
-"reporting": 2,
-"roster": {
-"ansell": {
-"date": "2013-11-20",
-"name": "Peter Ansell"
-},
-"dglachs": {
-"date": "2013-11-20",
-"name": "Dietmar Glachs"
-},
-"fchrist": {
-"date": "2013-11-20",
-"name": "Fabian Christ"
-},
-"jakob": {
-"date": "2013-11-20",
-"name": "Jakob Frank"
-},
-"matienzo": {
-"date": "2016-08-18",
-"name": "Mark A. Matienzo"
-},
-"nandana": {
-"date": "2013-11-20",
-"name": "Nandana Mihindukulasooriya"
-},
-"rpalmieri": {
-"date": "2013-11-20",
-"name": "Raffaele Palmieri"
-},
-"rwesten": {
-"date": "2013-11-20",
-"name": "Rupert Westenthaler"
-},
-"sschaffert": {
-"date": "2013-11-20",
-"name": "Sebastian Schaffert"
-},
-"tkurz": {
-"date": "2013-11-20",
-"name": "Thomas Kurz"
-},
-"wikier": {
-"date": "2013-11-20",
-"name": "Sergio Fern\u00e1ndez"
-}
-},
-"shortdesc": "An Open Platform for Linked Data"
 },
 {
 "chair": "rfscholte",
@@ -19258,6 +19130,106 @@
 "shortdesc": "Version Control"
 },
 {
+"chair": "maximebeauchemin",
+"established": "2020-11",
+"group": "superset",
+"homepage": "http://superset.apache.org",
+"id": "superset",
+"name": "Apache Superset",
+"reporting": 2,
+"roster": {
+"beto": {
+"date": "2020-11-18",
+"name": "Beto Dealmeida"
+},
+"bkyryliuk": {
+"date": "2020-11-18",
+"name": "Bogdan Kyryliuk"
+},
+"ccwilliams": {
+"date": "2020-11-18",
+"name": "Chris Williams"
+},
+"craigrueda": {
+"date": "2020-11-18",
+"name": "Craig Rueda"
+},
+"dpgaspar": {
+"date": "2020-11-18",
+"name": "Daniel Gaspar"
+},
+"erikrit": {
+"date": "2020-11-18",
+"name": "Erik Ritter"
+},
+"felixcheung": {
+"date": "2020-11-18",
+"name": "Felix Cheung"
+},
+"graceguo": {
+"date": "2020-11-18",
+"name": "Grace Guo"
+},
+"jfeng": {
+"date": "2020-11-18",
+"name": "Jeff Feng"
+},
+"jim": {
+"date": "2020-11-18",
+"name": "Jim Jagielski"
+},
+"johnbodley": {
+"date": "2020-11-18",
+"name": "John Bodley"
+},
+"kristw": {
+"date": "2020-11-18",
+"name": "Krist Wongsuphasawat"
+},
+"maximebeauchemin": {
+"date": "2020-11-18",
+"name": "Maxime Beauchemin"
+},
+"michellet": {
+"date": "2020-11-18",
+"name": "Michelle Thomas"
+},
+"nishant": {
+"date": "2020-11-18",
+"name": "Nishant Bangarwa"
+},
+"rusackas": {
+"date": "2020-11-18",
+"name": "Evan Rusackas"
+},
+"serena": {
+"date": "2020-11-18",
+"name": "Serena Jiang"
+},
+"suddjian": {
+"date": "2020-11-18",
+"name": "Aaron Suddjian"
+},
+"tai": {
+"date": "2020-11-18",
+"name": "Tai Dupree"
+},
+"villebro": {
+"date": "2020-11-18",
+"name": "Ville Brofeldt"
+},
+"willbarrett": {
+"date": "2020-11-18",
+"name": "Will Barrett"
+},
+"yjc": {
+"date": "2020-11-18",
+"name": "Jesse Yang"
+}
+},
+"shortdesc": "data exploration, analysis, visualization, and dashboarding"
+},
+{
 "chair": "isudana",
 "charter": "The mission of Synapse is the creation and maintenance of software related to Enterprise Service Bus and Mediation Framework",
 "established": "2007-12",
@@ -20696,7 +20668,79 @@
 "shortdesc": "A Java Servlet Web Application Framework and associated component library"
 },
 {
-"chair": "schor",
+"chair": "tqchen",
+"established": "2020-11",
+"group": "tvm",
+"homepage": "http://tvm.apache.org",
+"id": "tvm",
+"name": "Apache TVM",
+"reporting": 3,
+"roster": {
+"bgchun": {
+"date": "2020-11-18",
+"name": "Byung-Gon Chun"
+},
+"eqy": {
+"date": "2020-11-18",
+"name": "Eddie Yan"
+},
+"haichen": {
+"date": "2020-11-18",
+"name": "Haichen Shen"
+},
+"hsaputra": {
+"date": "2020-11-18",
+"name": "Henry Saputra"
+},
+"jroesch": {
+"date": "2020-11-18",
+"name": "Jared Roesch"
+},
+"kamaci": {
+"date": "2020-11-18",
+"name": "Furkan Kamaci"
+},
+"liuyizhi": {
+"date": "2020-11-18",
+"name": "YiZhi Liu"
+},
+"lmzheng": {
+"date": "2020-11-18",
+"name": "Lianmin Zheng"
+},
+"masahi": {
+"date": "2020-11-18",
+"name": "Masahiro Masuda"
+},
+"moreau": {
+"date": "2020-11-18",
+"name": "Thierry Moreau"
+},
+"tnachen": {
+"date": "2020-11-18",
+"name": "Timothy Chen"
+},
+"tqchen": {
+"date": "2020-11-18",
+"name": "Tianqi Chen"
+},
+"weimer": {
+"date": "2020-11-18",
+"name": "Markus Weimer"
+},
+"zhic": {
+"date": "2020-11-18",
+"name": "Zhi Chen"
+},
+"ziheng": {
+"date": "2020-11-18",
+"name": "Ziheng Jiang"
+}
+},
+"shortdesc": "compilation of machine learning models to run on a wide range of hardware platforms"
+},
+{
+"chair": "rec",
 "charter": "Apache UIMA (*) software provides frameworks, tools and annotators, facilitating the analysis of unstructured content such as text, audio and video. (*) Unstructured Information Management Architecture.",
 "established": "2010-03",
 "group": "uima",
@@ -21208,7 +21252,7 @@
 "shortdesc": "Projects related to Web Services"
 },
 {
-"chair": "rubys",
+"chair": "curcuru",
 "charter": "The mission of Apache Whimsy is the creation and maintenance of software related to tools that help automate various administrative tasks or information lookup activities",
 "established": "2015-05",
 "group": "whimsy",

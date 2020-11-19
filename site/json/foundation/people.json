@@ -1934,7 +1934,8 @@
 },
 "alexpl": {
 "groups": [
-"ignite"
+"ignite",
+"ignite-pmc"
 ],
 "member": false,
 "name": "Alex Plehanov"
@@ -14584,7 +14585,8 @@
 },
 "ebadger": {
 "groups": [
-"hadoop"
+"hadoop",
+"hadoop-pmc"
 ],
 "member": false,
 "name": "Eric Badger"
@@ -27436,6 +27438,13 @@
 "member": true,
 "name": "Julien Le Dem"
 },
+"julietibs": {
+"groups": [
+"lucene"
+],
+"member": false,
+"name": "Julie Tibshirani"
+},
 "julius": {
 "groups": [
 "commons"
@@ -34088,7 +34097,8 @@
 },
 "mbrookhart": {
 "groups": [
-"incubator"
+"incubator",
+"tvm"
 ],
 "member": false,
 "name": "Matthew Brookhart"
@@ -40476,6 +40486,7 @@
 },
 "pfabrici": {
 "groups": [
+"hop",
 "incubator"
 ],
 "member": false,
@@ -49028,6 +49039,7 @@
 },
 "sramazzina": {
 "groups": [
+"hop",
 "incubator"
 ],
 "member": false,
@@ -55336,7 +55348,8 @@
 "mxnet",
 "nemo",
 "reef",
-"reef-pmc"
+"reef-pmc",
+"tvm"
 ],
 "member": true,
 "name": "Markus Weimer"
