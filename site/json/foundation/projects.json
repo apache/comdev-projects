@@ -1793,6 +1793,118 @@
 ],
 "shortdesc": "The Apache Lucy search engine library provides full-text search for dynamic programming languages."
 },
+"attic-marmotta": {
+"bug-database": "http://issues.apache.org/jira/browse/MARMOTTA",
+"category": "retired",
+"created": "2012-12-03, 2012-12-03",
+"description": "The goal of Apache Marmotta is to provide an open implementation of a Linked Data Platform that can be used, extended and deployed easily by organizations who want to publish Linked Data or build custom applications on Linked Data",
+"developer": [
+{
+"mbox": "mailto:dglachs@apache.org",
+"name": "Dietmar Glachs"
+},
+{
+"homepage": "http://verlinked.wordpress.com",
+"mbox": "mailto:fchrist@apache.org",
+"name": "Fabian Christ"
+},
+{
+"mbox": "mailto:jakob@apache.org",
+"name": "Jakob Frank"
+},
+{
+"homepage": "http://www.nandana.org",
+"mbox": "mailto:nandana@apache.org",
+"name": "Nandana Mihindukulasooriya"
+},
+{
+"homepage": "http://twitter.com/westei",
+"mbox": "mailto:rwesten@apache.org",
+"name": "Rupert Westenthaler"
+},
+{
+"homepage": "http://www.schaffert.eu",
+"mbox": "mailto:sschaffert@apache.org",
+"name": "Sebastian Schaffert"
+},
+{
+"homepage": "http://www.wikier.org",
+"mbox": "mailto:wikier@apache.org",
+"name": "Sergio Fernández",
+"sameAs": "http://www.wikier.org/foaf#wikier"
+},
+{
+"homepage": "http://twitter.com/tkurz",
+"mbox": "mailto:tkurz@apache.org",
+"name": "Thomas Kurz"
+},
+{
+"mbox": "mailto:rpalmieri@apache.org",
+"name": "Raffaele Palmieri"
+},
+{
+"mbox": "mailto:ansell@apache.org",
+"name": "Peter Ansell"
+}
+],
+"doap": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/marmotta.rdf",
+"download-page": "http://marmotta.apache.org/download.html",
+"homepage": "http://marmotta.apache.org",
+"implements": [
+{
+"body": "W3C",
+"id": "ldp",
+"title": "Linked Data Platform",
+"url": "http://www.w3.org/TR/ldp/"
+},
+{
+"body": "W3C",
+"id": "sparql",
+"title": "SPARQL 1.1",
+"url": "http://www.w3.org/TR/sparql11-overview/"
+}
+],
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://marmotta.apache.org/mail-lists.html",
+"modified": "2014-01-13",
+"name": "Apache Marmotta",
+"pmc": "attic",
+"programming-language": "Java",
+"release": [
+{
+"created": "2014-12-05",
+"name": "Apache Marmotta 3.3.0",
+"revision": "3.3.0"
+},
+{
+"created": "2014-05-20",
+"name": "Apache Marmotta 3.2.1",
+"revision": "3.2.1"
+},
+{
+"created": "2014-04-09",
+"name": "Apache Marmotta 3.2.0",
+"revision": "3.2.0"
+},
+{
+"created": "2014-01-21",
+"name": "Apache Marmotta 3.0.1",
+"revision": "3.0.1"
+},
+{
+"created": "2013-10-03",
+"name": "Apache Marmotta 3.1.0-incubating",
+"revision": "3.1.0-incubating"
+},
+{
+"created": "2013-04-26",
+"name": "Apache Marmotta 3.0.0-incubating",
+"revision": "3.0.0-incubating"
+}
+],
+"sameAs": "http://rdfohloh.wikier.org/project/marmotta",
+"shortdesc": "An Open Platform for Linked Data"
+},
 "attic-mrunit": {
 "bug-database": "http://issues.apache.org/jira/browse/MRUNIT",
 "category": "library, retired",
@@ -14557,6 +14669,37 @@
 "https://gitbox.apache.org/repos/asf/sis.git"
 ],
 "shortdesc": "A library for developing geospatial applications."
+},
+"skywalking": {
+"bug-database": "https://github.com/apache/skywalking/issues",
+"category": "observability",
+"created": "2019-04-17",
+"description": "Use Apache SkyWalking when you need an application performance monitor tool for distributed systems, especially designed for microservices, cloud native and container-based (Docker, K8s, Mesos) architectures.",
+"doap": "http://skywalking.apache.org/assets/doap_SkyWalking.rdf",
+"download-page": "http://skywalking.apache.org/downloads/",
+"homepage": "http://skywalking.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "https://lists.apache.org/list.html?dev@skywalking.apache.org",
+"maintainer": [
+{
+"mbox": "mailto:dev@skywalking.apache.org",
+"name": "Apache SkyWalking PMC"
+}
+],
+"name": "Apache SkyWalking",
+"pmc": "skywalking",
+"programming-language": "Java",
+"release": [
+{
+"created": "2020-10-27",
+"name": "Apache SkyWalking",
+"revision": "8.2.0"
+}
+],
+"repository": [
+"git://gitbox.apache.org/repos/asf/skywalking.git"
+],
+"shortdesc": "Apache SkyWalking software is the application performance management and monitoring (APM) tool."
 },
 "sling": {
 "description": "\n        Apache Sling is a web framework that uses a Java Content Repository, such as Apache Jackrabbit, \n        to store and manage content.\n        Sling applications use either scripts or Java servlets, selected based on simple name conventions, \n        to process HTTP requests in a RESTful way.\n        The embedded Apache Felix OSGi framework and console provide a dynamic runtime environment, where \n        code and content bundles can be loaded, unloaded and reconfigured at runtime.\n        As the first web framework dedicated to JSR-170 Java Content Repositories, Sling makes it very \n        simple to implement simple applications, while providing an enterprise-level framework for more complex applications.\n    ",
