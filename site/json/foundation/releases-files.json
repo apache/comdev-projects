@@ -158,6 +158,9 @@
 ],
 "apache-apisix-dashboard-2.0": [
 "apisix/dashboard-2.0/apache-apisix-dashboard-2.0-src.tgz"
+],
+"apache-apisix-dashboard-2.1": [
+"apisix/dashboard-2.1/apache-apisix-dashboard-2.1-src.tgz"
 ]
 },
 "apr": {
@@ -3523,6 +3526,9 @@
 ],
 "apache-superset-incubating-0.37.2": [
 "incubator/superset/0.37.2/apache-superset-incubating-0.37.2-source.tar.gz"
+],
+"apache-superset-incubating-0.38.0": [
+"incubator/superset/0.38.0/apache-superset-incubating-0.38.0-source.tar.gz"
 ]
 },
 "incubator-tamaya": {
@@ -8756,6 +8762,7 @@
 },
 "phoenix": {
 "RELEASENOTES.md": [
+"phoenix/phoenix-omid-1.0.2/RELEASENOTES.md",
 "phoenix/phoenix-thirdparty-1.0.0/RELEASENOTES.md"
 ],
 "apache-phoenix-4.14.3-HBase-1.3": [
@@ -8775,6 +8782,9 @@
 ],
 "apache-phoenix-5.0.0-HBase-2.0": [
 "phoenix/apache-phoenix-5.0.0-HBase-2.0/src/apache-phoenix-5.0.0-HBase-2.0-src.tar.gz"
+],
+"phoenix-omid-1.0.2": [
+"phoenix/phoenix-omid-1.0.2/phoenix-omid-1.0.2-src.tar.gz"
 ],
 "phoenix-thirdparty-1.0.0": [
 "phoenix/phoenix-thirdparty-1.0.0/phoenix-thirdparty-1.0.0-src.tar.gz"
@@ -9819,6 +9829,9 @@
 "skywalking-python-0.2.0": [
 "skywalking/python/0.2.0/skywalking-python-src-0.2.0.tgz"
 ],
+"skywalking-python-0.4.0": [
+"skywalking/python/0.4.0/skywalking-python-src-0.4.0.tgz"
+],
 "skywalking-python-v0.3.0": [
 "skywalking/python/0.3.0/skywalking-python-src-v0.3.0.tgz"
 ],
@@ -10122,8 +10135,8 @@
 "org.apache.sling.feature.inventoryprinter-1.0.0": [
 "sling/org.apache.sling.feature.inventoryprinter-1.0.0-source-release.zip"
 ],
-"org.apache.sling.feature.launcher-1.1.10": [
-"sling/org.apache.sling.feature.launcher-1.1.10-source-release.zip"
+"org.apache.sling.feature.launcher-1.1.12": [
+"sling/org.apache.sling.feature.launcher-1.1.12-source-release.zip"
 ],
 "org.apache.sling.feature.modelconverter-1.0.14": [
 "sling/org.apache.sling.feature.modelconverter-1.0.14-source-release.zip",
@@ -10728,8 +10741,8 @@
 "sling-slingstart-archetype-1.0.8": [
 "sling/sling-slingstart-archetype-1.0.8-source-release.zip"
 ],
-"slingfeature-maven-plugin-1.4.12": [
-"sling/slingfeature-maven-plugin-1.4.12-source-release.zip"
+"slingfeature-maven-plugin-1.4.16": [
+"sling/slingfeature-maven-plugin-1.4.16-source-release.zip"
 ],
 "slingstart-maven-plugin-1.9.12": [
 "sling/slingstart-maven-plugin-1.9.12-source-release.zip"
@@ -11319,6 +11332,19 @@
 "tomcat/tomcat-7/v7.0.106/bin/apache-tomcat-7.0.106.zip",
 "tomcat/tomcat-7/v7.0.106/src/apache-tomcat-7.0.106-src.tar.gz",
 "tomcat/tomcat-7/v7.0.106/src/apache-tomcat-7.0.106-src.zip"
+],
+"apache-tomcat-7.0.107": [
+"tomcat/tomcat-7/v7.0.107/bin/embed/apache-tomcat-7.0.107-embed.tar.gz",
+"tomcat/tomcat-7/v7.0.107/bin/embed/apache-tomcat-7.0.107-embed.zip",
+"tomcat/tomcat-7/v7.0.107/bin/apache-tomcat-7.0.107-deployer.tar.gz",
+"tomcat/tomcat-7/v7.0.107/bin/apache-tomcat-7.0.107-deployer.zip",
+"tomcat/tomcat-7/v7.0.107/bin/apache-tomcat-7.0.107-fulldocs.tar.gz",
+"tomcat/tomcat-7/v7.0.107/bin/apache-tomcat-7.0.107-windows-x64.zip",
+"tomcat/tomcat-7/v7.0.107/bin/apache-tomcat-7.0.107.exe",
+"tomcat/tomcat-7/v7.0.107/bin/apache-tomcat-7.0.107.tar.gz",
+"tomcat/tomcat-7/v7.0.107/bin/apache-tomcat-7.0.107.zip",
+"tomcat/tomcat-7/v7.0.107/src/apache-tomcat-7.0.107-src.tar.gz",
+"tomcat/tomcat-7/v7.0.107/src/apache-tomcat-7.0.107-src.zip"
 ],
 "apache-tomcat-8.5.60": [
 "tomcat/tomcat-8/v8.5.60/bin/embed/apache-tomcat-8.5.60-embed.tar.gz",
@@ -12371,6 +12397,9 @@
 "unomi-1.5.3": [
 "unomi/1.5.3/unomi-1.5.3-src.zip"
 ],
+"unomi-1.5.4": [
+"unomi/1.5.4/unomi-1.5.4-src.zip"
+],
 "unomi-manual-1_4_x": [
 "unomi/1.4.0/unomi-manual-1_4_x.zip"
 ],
@@ -12464,9 +12493,9 @@
 "wicket/7.17.0/apache-wicket-7.17.0.tar.gz",
 "wicket/7.17.0/apache-wicket-7.17.0.zip"
 ],
-"apache-wicket-8.10.0": [
-"wicket/8.10.0/apache-wicket-8.10.0.tar.gz",
-"wicket/8.10.0/apache-wicket-8.10.0.zip"
+"apache-wicket-8.11.0": [
+"wicket/8.11.0/apache-wicket-8.11.0.tar.gz",
+"wicket/8.11.0/apache-wicket-8.11.0.zip"
 ],
 "apache-wicket-9.2.0": [
 "wicket/9.2.0/apache-wicket-9.2.0.tar.gz",
