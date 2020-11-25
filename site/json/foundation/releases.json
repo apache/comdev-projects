@@ -29,7 +29,7 @@
 },
 "airflow": {
 "apache-airflow-1.10.12": "2020-08-25",
-"apache-airflow-backport-providers-2020.11.13": "2020-11-13"
+"apache-airflow-backport-providers-2020.11.23": "2020-11-24"
 },
 "allura": {
 "allura-1.12.0": "2020-07-06"
@@ -55,7 +55,6 @@
 },
 "apisix": {
 "apache-apisix-2.0": "2020-10-27",
-"apache-apisix-dashboard-2.0": "2020-11-21",
 "apache-apisix-dashboard-2.1": "2020-11-23"
 },
 "apr": {
@@ -1245,11 +1244,6 @@
 "tuweni-relayer-1.0.0-incubating": "2020-07-03",
 "tuweni-relayer-1.1.0-incubating": "2020-06-26"
 },
-"incubator-tvm": {
-"apache-tvm-v0.6.0-incubating": "2020-07-03",
-"apache-tvm-v0.6.1-incubating": "2020-07-10",
-"apache-tvm-v0.7.0-incubating": "2020-10-09"
-},
 "incubator-unomi": {
 "unomi-1.0.0-incubating": "2020-07-03",
 "unomi-1.1.0-incubating": "2020-07-03",
@@ -1628,6 +1622,7 @@
 },
 "mesos": {
 "mesos-1.10.0": "2020-07-03",
+"mesos-1.11.0": "2020-11-24",
 "mesos-1.8.1": "2020-07-03",
 "mesos-1.9.0": "2020-07-03"
 },
@@ -2600,6 +2595,7 @@
 "openwebbeans-2.0.20": "2020-11-15"
 },
 "openwhisk": {
+"BUILDING_FROM_SOURCE.md": "2020-11-24",
 "OpenWhisk-1.0.0": "2020-11-10",
 "openwhisk-apigateway-1.0.0": "2020-07-03",
 "openwhisk-catalog-0.11.0": "2020-07-03",
@@ -2607,6 +2603,7 @@
 "openwhisk-client-go-1.1.0": "2020-10-02",
 "openwhisk-client-js-3.21.3": "2020-11-05",
 "openwhisk-composer-0.12.0": "2020-07-03",
+"openwhisk-deploy-kube-1.0.0": "2020-11-24",
 "openwhisk-package-alarms-2.2.0": "2020-08-17",
 "openwhisk-package-kafka-2.1.0": "2020-08-17",
 "openwhisk-runtime-docker-1.14.0": "2020-07-03",
@@ -2843,6 +2840,7 @@
 "apache-qpid-broker-j-7.1.10": "2020-10-18",
 "apache-qpid-broker-j-8.0.2": "2020-10-18",
 "apache-qpid-jms-0.54.0": "2020-08-13",
+"apache-qpid-jms-0.55.0": "2020-11-20",
 "apache-qpid-jms-amqp-0-x-6.4.0": "2020-07-03",
 "apache-qpid-proton-j-0.33.7": "2020-10-26",
 "apache-qpid-proton-j-0.33.8": "2020-11-13",
@@ -3523,7 +3521,6 @@
 },
 "tomcat": {
 "apache-tomcat-10.0.0-M10": "2020-11-12",
-"apache-tomcat-7.0.106": "2020-09-16",
 "apache-tomcat-7.0.107": "2020-11-18",
 "apache-tomcat-8.5.60": "2020-11-12",
 "apache-tomcat-9.0.40": "2020-11-12",
@@ -3600,6 +3597,10 @@
 "apache-tomee-8.0.4-plume": "2020-07-22",
 "apache-tomee-8.0.4-plus": "2020-07-22",
 "apache-tomee-8.0.4-webprofile": "2020-09-25",
+"apache-tomee-8.0.5-microprofile": "2020-11-17",
+"apache-tomee-8.0.5-plume": "2020-11-17",
+"apache-tomee-8.0.5-plus": "2020-11-17",
+"apache-tomee-8.0.5-webprofile": "2020-11-17",
 "apache-tomee-9.0.0-M1": "2020-07-03",
 "apache-tomee-9.0.0-M1-microprofile": "2020-07-03",
 "apache-tomee-9.0.0-M1-plume": "2020-07-03",
@@ -3610,6 +3611,11 @@
 "apache-tomee-9.0.0-M2-plume": "2020-08-07",
 "apache-tomee-9.0.0-M2-plus": "2020-08-07",
 "apache-tomee-9.0.0-M2-webprofile": "2020-08-07",
+"apache-tomee-9.0.0-M3": "2020-11-17",
+"apache-tomee-9.0.0-M3-microprofile": "2020-11-17",
+"apache-tomee-9.0.0-M3-plume": "2020-11-17",
+"apache-tomee-9.0.0-M3-plus": "2020-11-17",
+"apache-tomee-9.0.0-M3-webprofile": "2020-11-17",
 "arquillian-tomee-moviefun-example-1.7.5": "2020-07-03",
 "bval-2.0.0-nonfinal-57300f3": "2020-07-03",
 "bval-2.0.1-83f28d8": "2020-07-03",
@@ -3631,6 +3637,7 @@
 "examples-8.0.2": "2020-07-03",
 "examples-8.0.3": "2020-07-03",
 "examples-8.0.4": "2020-07-22",
+"examples-8.0.5": "2020-11-17",
 "javaee-api-8.0": "2020-07-03",
 "openejb-4.6.0.2": "2020-07-03",
 "openejb-4.7.5": "2020-07-03",
@@ -3649,6 +3656,7 @@
 "openejb-8.0.2": "2020-07-03",
 "openejb-8.0.3": "2020-07-03",
 "openejb-8.0.4": "2020-07-22",
+"openejb-8.0.5": "2020-11-17",
 "openejb-provisionning-4.6.0.2": "2020-07-03",
 "openejb-provisionning-4.7.5": "2020-07-03",
 "openejb-provisionning-7.0.6": "2020-07-03",
@@ -3677,6 +3685,7 @@
 "tomee-8.0.2": "2020-07-03",
 "tomee-8.0.3": "2020-07-03",
 "tomee-8.0.4": "2020-07-22",
+"tomee-8.0.5": "2020-11-17",
 "tomee-jaxrs-1.6.0.2": "2020-07-03",
 "tomee-jaxrs-1.7.5": "2020-07-03",
 "tomee-microprofile-7.1.1": "2020-07-03",
@@ -3690,6 +3699,7 @@
 "tomee-microprofile-8.0.2": "2020-07-03",
 "tomee-microprofile-8.0.3": "2020-07-03",
 "tomee-microprofile-8.0.4": "2020-07-22",
+"tomee-microprofile-8.0.5": "2020-11-17",
 "tomee-patch-0.1": "2020-07-03",
 "tomee-plume-1.7.5": "2020-07-03",
 "tomee-plume-7.0.6": "2020-07-03",
@@ -3707,6 +3717,7 @@
 "tomee-plume-8.0.2": "2020-07-03",
 "tomee-plume-8.0.3": "2020-07-03",
 "tomee-plume-8.0.4": "2020-07-22",
+"tomee-plume-8.0.5": "2020-11-17",
 "tomee-plus-1.6.0.2": "2020-07-03",
 "tomee-plus-1.7.5": "2020-07-03",
 "tomee-plus-7.0.6": "2020-07-03",
@@ -3724,6 +3735,7 @@
 "tomee-plus-8.0.2": "2020-07-03",
 "tomee-plus-8.0.3": "2020-07-03",
 "tomee-plus-8.0.4": "2020-07-22",
+"tomee-plus-8.0.5": "2020-11-17",
 "tomee-webaccess-1.6.0.2": "2020-07-03",
 "tomee-webaccess-1.7.5": "2020-07-03",
 "tomee-webaccess-8.0.0-M3": "2020-07-03"
@@ -3780,6 +3792,11 @@
 "turbine-5.0-1.0.3": "2020-07-03",
 "turbine-6": "2020-07-03",
 "turbine-7": "2020-07-03"
+},
+"tvm": {
+"apache-tvm-v0.6.0-incubating": "2019-12-05",
+"apache-tvm-v0.6.1-incubating": "2020-07-10",
+"apache-tvm-v0.7.0-incubating": "2020-10-09"
 },
 "twill": {
 "apache-twill-0.10.0": "2020-07-06",

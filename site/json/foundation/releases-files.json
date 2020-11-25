@@ -80,8 +80,8 @@
 "apache-airflow-1.10.12": [
 "airflow/1.10.12/apache-airflow-1.10.12-source.tar.gz"
 ],
-"apache-airflow-backport-providers-2020.11.13": [
-"airflow/backport-providers/apache-airflow-backport-providers-2020.11.13-source.tar.gz"
+"apache-airflow-backport-providers-2020.11.23": [
+"airflow/backport-providers/apache-airflow-backport-providers-2020.11.23-source.tar.gz"
 ]
 },
 "allura": {
@@ -155,9 +155,6 @@
 "apisix": {
 "apache-apisix-2.0": [
 "apisix/2.0/apache-apisix-2.0-src.tgz"
-],
-"apache-apisix-dashboard-2.0": [
-"apisix/dashboard-2.0/apache-apisix-dashboard-2.0-src.tgz"
 ],
 "apache-apisix-dashboard-2.1": [
 "apisix/dashboard-2.1/apache-apisix-dashboard-2.1-src.tgz"
@@ -3737,17 +3734,6 @@
 "incubator/tuweni/1.1.0-incubating/tuweni-relayer-1.1.0-incubating.zip"
 ]
 },
-"incubator-tvm": {
-"apache-tvm-v0.6.0-incubating": [
-"incubator/tvm/tvm-v0.6.0/apache-tvm-src-v0.6.0-incubating.tar.gz"
-],
-"apache-tvm-v0.6.1-incubating": [
-"incubator/tvm/tvm-v0.6.1/apache-tvm-src-v0.6.1-incubating.tar.gz"
-],
-"apache-tvm-v0.7.0-incubating": [
-"incubator/tvm/tvm-v0.7.0/apache-tvm-src-v0.7.0-incubating.tar.gz"
-]
-},
 "incubator-unomi": {
 "unomi-1.0.0-incubating": [
 "incubator/unomi/1.0.0-incubating/unomi-1.0.0-incubating-src.tar.gz",
@@ -4918,6 +4904,9 @@
 "mesos": {
 "mesos-1.10.0": [
 "mesos/1.10.0/mesos-1.10.0.tar.gz"
+],
+"mesos-1.11.0": [
+"mesos/1.11.0/mesos-1.11.0.tar.gz"
 ],
 "mesos-1.8.1": [
 "mesos/1.8.1/mesos-1.8.1.tar.gz"
@@ -8583,6 +8572,9 @@
 ]
 },
 "openwhisk": {
+"BUILDING_FROM_SOURCE.md": [
+"openwhisk/BUILDING_FROM_SOURCE.md"
+],
 "OpenWhisk-1.0.0": [
 "openwhisk/OpenWhisk-1.0.0-sources.tar.gz"
 ],
@@ -8603,6 +8595,9 @@
 ],
 "openwhisk-composer-0.12.0": [
 "openwhisk/openwhisk-composer-0.12.0-sources.tar.gz"
+],
+"openwhisk-deploy-kube-1.0.0": [
+"openwhisk/openwhisk-deploy-kube-1.0.0-sources.tar.gz"
 ],
 "openwhisk-package-alarms-2.2.0": [
 "openwhisk/openwhisk-package-alarms-2.2.0-sources.tar.gz"
@@ -9284,6 +9279,9 @@
 ],
 "apache-qpid-jms-0.54.0": [
 "qpid/jms/0.54.0/apache-qpid-jms-0.54.0-src.tar.gz"
+],
+"apache-qpid-jms-0.55.0": [
+"qpid/jms/0.55.0/apache-qpid-jms-0.55.0-src.tar.gz"
 ],
 "apache-qpid-jms-amqp-0-x-6.4.0": [
 "qpid/jms-amqp-0-x/6.4.0/apache-qpid-jms-amqp-0-x-6.4.0-src.tar.gz"
@@ -11320,19 +11318,6 @@
 "tomcat/tomcat-10/v10.0.0-M10/src/apache-tomcat-10.0.0-M10-src.tar.gz",
 "tomcat/tomcat-10/v10.0.0-M10/src/apache-tomcat-10.0.0-M10-src.zip"
 ],
-"apache-tomcat-7.0.106": [
-"tomcat/tomcat-7/v7.0.106/bin/embed/apache-tomcat-7.0.106-embed.tar.gz",
-"tomcat/tomcat-7/v7.0.106/bin/embed/apache-tomcat-7.0.106-embed.zip",
-"tomcat/tomcat-7/v7.0.106/bin/apache-tomcat-7.0.106-deployer.tar.gz",
-"tomcat/tomcat-7/v7.0.106/bin/apache-tomcat-7.0.106-deployer.zip",
-"tomcat/tomcat-7/v7.0.106/bin/apache-tomcat-7.0.106-fulldocs.tar.gz",
-"tomcat/tomcat-7/v7.0.106/bin/apache-tomcat-7.0.106-windows-x64.zip",
-"tomcat/tomcat-7/v7.0.106/bin/apache-tomcat-7.0.106.exe",
-"tomcat/tomcat-7/v7.0.106/bin/apache-tomcat-7.0.106.tar.gz",
-"tomcat/tomcat-7/v7.0.106/bin/apache-tomcat-7.0.106.zip",
-"tomcat/tomcat-7/v7.0.106/src/apache-tomcat-7.0.106-src.tar.gz",
-"tomcat/tomcat-7/v7.0.106/src/apache-tomcat-7.0.106-src.zip"
-],
 "apache-tomcat-7.0.107": [
 "tomcat/tomcat-7/v7.0.107/bin/embed/apache-tomcat-7.0.107-embed.tar.gz",
 "tomcat/tomcat-7/v7.0.107/bin/embed/apache-tomcat-7.0.107-embed.zip",
@@ -11656,6 +11641,22 @@
 "tomee/tomee-8.0.4/apache-tomee-8.0.4-webprofile.tar.gz",
 "tomee/tomee-8.0.4/apache-tomee-8.0.4-webprofile.zip"
 ],
+"apache-tomee-8.0.5-microprofile": [
+"tomee/tomee-8.0.5/apache-tomee-8.0.5-microprofile.tar.gz",
+"tomee/tomee-8.0.5/apache-tomee-8.0.5-microprofile.zip"
+],
+"apache-tomee-8.0.5-plume": [
+"tomee/tomee-8.0.5/apache-tomee-8.0.5-plume.tar.gz",
+"tomee/tomee-8.0.5/apache-tomee-8.0.5-plume.zip"
+],
+"apache-tomee-8.0.5-plus": [
+"tomee/tomee-8.0.5/apache-tomee-8.0.5-plus.tar.gz",
+"tomee/tomee-8.0.5/apache-tomee-8.0.5-plus.zip"
+],
+"apache-tomee-8.0.5-webprofile": [
+"tomee/tomee-8.0.5/apache-tomee-8.0.5-webprofile.tar.gz",
+"tomee/tomee-8.0.5/apache-tomee-8.0.5-webprofile.zip"
+],
 "apache-tomee-9.0.0-M1": [
 "tomee/tomee-8.0.3/apache-tomee-9.0.0-M1-source-release.zip"
 ],
@@ -11685,6 +11686,21 @@
 ],
 "apache-tomee-9.0.0-M2-webprofile": [
 "tomee/tomee-9.0.0-M2/apache-tomee-9.0.0-M2-webprofile.zip"
+],
+"apache-tomee-9.0.0-M3": [
+"tomee/tomee-9.0.0-M3/apache-tomee-9.0.0-M3-source-release.zip"
+],
+"apache-tomee-9.0.0-M3-microprofile": [
+"tomee/tomee-9.0.0-M3/apache-tomee-9.0.0-M3-microprofile.zip"
+],
+"apache-tomee-9.0.0-M3-plume": [
+"tomee/tomee-9.0.0-M3/apache-tomee-9.0.0-M3-plume.zip"
+],
+"apache-tomee-9.0.0-M3-plus": [
+"tomee/tomee-9.0.0-M3/apache-tomee-9.0.0-M3-plus.zip"
+],
+"apache-tomee-9.0.0-M3-webprofile": [
+"tomee/tomee-9.0.0-M3/apache-tomee-9.0.0-M3-webprofile.zip"
 ],
 "arquillian-tomee-moviefun-example-1.7.5": [
 "tomee/tomee-1.7.5/arquillian-tomee-moviefun-example-1.7.5.war"
@@ -11767,6 +11783,10 @@
 "tomee/tomee-8.0.4/examples-8.0.4-src.tar.gz",
 "tomee/tomee-8.0.4/examples-8.0.4-src.zip"
 ],
+"examples-8.0.5": [
+"tomee/tomee-8.0.5/examples-8.0.5-src.tar.gz",
+"tomee/tomee-8.0.5/examples-8.0.5-src.zip"
+],
 "javaee-api-8.0": [
 "tomee/tomee-8.0.0-M1/javaee-api-8.0-source-release.zip"
 ],
@@ -11839,6 +11859,10 @@
 "openejb-8.0.4": [
 "tomee/tomee-8.0.4/openejb-standalone-8.0.4.tar.gz",
 "tomee/tomee-8.0.4/openejb-standalone-8.0.4.zip"
+],
+"openejb-8.0.5": [
+"tomee/tomee-8.0.5/openejb-standalone-8.0.5.tar.gz",
+"tomee/tomee-8.0.5/openejb-standalone-8.0.5.zip"
 ],
 "openejb-provisionning-4.6.0.2": [
 "tomee/tomee-1.6.0.2/openejb-provisionning-4.6.0.2.tar.gz",
@@ -11944,6 +11968,10 @@
 "tomee/tomee-8.0.4/tomee-project-8.0.4-source-release.zip",
 "tomee/tomee-8.0.4/tomee-webapp-8.0.4.war"
 ],
+"tomee-8.0.5": [
+"tomee/tomee-8.0.5/tomee-project-8.0.5-source-release.zip",
+"tomee/tomee-8.0.5/tomee-webapp-8.0.5.war"
+],
 "tomee-jaxrs-1.6.0.2": [
 "tomee/tomee-1.6.0.2/tomee-jaxrs-webapp-1.6.0.2.war"
 ],
@@ -11982,6 +12010,9 @@
 ],
 "tomee-microprofile-8.0.4": [
 "tomee/tomee-8.0.4/tomee-microprofile-webapp-8.0.4.war"
+],
+"tomee-microprofile-8.0.5": [
+"tomee/tomee-8.0.5/tomee-microprofile-webapp-8.0.5.war"
 ],
 "tomee-patch-0.1": [
 "tomee/tomee-8.0.3/tomee-patch-parent-0.1-source-release.zip"
@@ -12034,6 +12065,9 @@
 "tomee-plume-8.0.4": [
 "tomee/tomee-8.0.4/tomee-plume-webapp-8.0.4.war"
 ],
+"tomee-plume-8.0.5": [
+"tomee/tomee-8.0.5/tomee-plume-webapp-8.0.5.war"
+],
 "tomee-plus-1.6.0.2": [
 "tomee/tomee-1.6.0.2/tomee-plus-webapp-1.6.0.2.war"
 ],
@@ -12084,6 +12118,9 @@
 ],
 "tomee-plus-8.0.4": [
 "tomee/tomee-8.0.4/tomee-plus-webapp-8.0.4.war"
+],
+"tomee-plus-8.0.5": [
+"tomee/tomee-8.0.5/tomee-plus-webapp-8.0.5.war"
 ],
 "tomee-webaccess-1.6.0.2": [
 "tomee/tomee-1.6.0.2/tomee-webaccess-1.6.0.2.war"
@@ -12277,6 +12314,17 @@
 "turbine/maven/turbine-parent/turbine-parent-7-src.zip"
 ]
 },
+"tvm": {
+"apache-tvm-v0.6.0-incubating": [
+"tvm/tvm-v0.6.0/apache-tvm-src-v0.6.0-incubating.tar.gz"
+],
+"apache-tvm-v0.6.1-incubating": [
+"tvm/tvm-v0.6.1/apache-tvm-src-v0.6.1-incubating.tar.gz"
+],
+"apache-tvm-v0.7.0-incubating": [
+"tvm/tvm-v0.7.0/apache-tvm-src-v0.7.0-incubating.tar.gz"
+]
+},
 "twill": {
 "apache-twill-0.10.0": [
 "twill/0.10.0/src/apache-twill-0.10.0-source-release.tar.gz"
@@ -12405,7 +12453,8 @@
 ],
 "unomi-manual-1_5_x": [
 "unomi/1.5.0/unomi-manual-1_5_x.zip",
-"unomi/1.5.1/unomi-manual-1_5_x.zip"
+"unomi/1.5.1/unomi-manual-1_5_x.zip",
+"unomi/1.5.4/unomi-manual-1_5_x.zip"
 ]
 },
 "usergrid": {
