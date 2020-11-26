@@ -77,11 +77,14 @@
 ]
 },
 "airflow": {
-"apache-airflow-1.10.12": [
-"airflow/1.10.12/apache-airflow-1.10.12-source.tar.gz"
+"apache-airflow-1.10.13": [
+"airflow/1.10.13/apache-airflow-1.10.13-source.tar.gz"
 ],
 "apache-airflow-backport-providers-2020.11.23": [
 "airflow/backport-providers/apache-airflow-backport-providers-2020.11.23-source.tar.gz"
+],
+"apache-airflow-upgrade-check-1.0.0": [
+"airflow/upgrade-check/1.0.0/apache-airflow-upgrade-check-1.0.0-source.tar.gz"
 ]
 },
 "allura": {
@@ -3646,6 +3649,9 @@
 "incubator-tubemq": {
 "apache-tubemq-0.6.0-incubating": [
 "incubator/tubemq/0.6.0-incubating/apache-tubemq-0.6.0-incubating-src.tar.gz"
+],
+"apache-tubemq-0.7.0-incubating": [
+"incubator/tubemq/0.7.0-incubating-RC0/apache-tubemq-0.7.0-incubating-src.tar.gz"
 ]
 },
 "incubator-tuweni": {
@@ -3781,6 +3787,9 @@
 "iotdb": {
 "apache-iotdb-0.10.1-incubating": [
 "iotdb/0.10.1-incubating/apache-iotdb-0.10.1-incubating-source-release.zip"
+],
+"apache-iotdb-0.11.0": [
+"iotdb/0.11.0/apache-iotdb-0.11.0-source-release.zip"
 ],
 "apache-iotdb-0.8.2-incubating": [
 "iotdb/0.8.2-incubating/apache-iotdb-0.8.2-incubating-source-release.zip"
@@ -4786,8 +4795,8 @@
 "maven-jdeps-plugin-3.1.2": [
 "maven/plugins/maven-jdeps-plugin-3.1.2-source-release.zip"
 ],
-"maven-jlink-plugin-3.0.0-alpha-1": [
-"maven/plugins/maven-jlink-plugin-3.0.0-alpha-1-source-release.zip"
+"maven-jlink-plugin-3.0.0": [
+"maven/plugins/maven-jlink-plugin-3.0.0-source-release.zip"
 ],
 "maven-jmod-plugin-3.0.0-alpha-1": [
 "maven/plugins/maven-jmod-plugin-3.0.0-alpha-1-source-release.zip"
@@ -4813,8 +4822,8 @@
 "maven-plugin-tools-3.6.0": [
 "maven/plugin-tools/maven-plugin-tools-3.6.0-source-release.zip"
 ],
-"maven-pmd-plugin-3.13.0": [
-"maven/plugins/maven-pmd-plugin-3.13.0-source-release.zip"
+"maven-pmd-plugin-3.14.0": [
+"maven/plugins/maven-pmd-plugin-3.14.0-source-release.zip"
 ],
 "maven-rar-plugin-2.4": [
 "maven/plugins/maven-rar-plugin-2.4-source-release.zip"
@@ -4837,8 +4846,8 @@
 "maven-resolver-1.6.1": [
 "maven/resolver/maven-resolver-1.6.1-source-release.zip"
 ],
-"maven-resolver-ant-tasks-1.2.1": [
-"maven/resolver/maven-resolver-ant-tasks-1.2.1-source-release.zip"
+"maven-resolver-ant-tasks-1.3.0": [
+"maven/resolver/maven-resolver-ant-tasks-1.3.0-source-release.zip"
 ],
 "maven-resources-plugin-3.2.0": [
 "maven/plugins/maven-resources-plugin-3.2.0-source-release.zip"
