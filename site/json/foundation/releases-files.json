@@ -784,15 +784,6 @@
 "apache-camel-quarkus-1.4.0": [
 "camel/camel-quarkus/1.4.0/apache-camel-quarkus-1.4.0-src.zip"
 ],
-"camel-k-client-1.2.0-linux": [
-"camel/camel-k/1.2.0/camel-k-client-1.2.0-linux-64bit.tar.gz"
-],
-"camel-k-client-1.2.0-mac": [
-"camel/camel-k/1.2.0/camel-k-client-1.2.0-mac-64bit.tar.gz"
-],
-"camel-k-client-1.2.0-windows": [
-"camel/camel-k/1.2.0/camel-k-client-1.2.0-windows-64bit.tar.gz"
-],
 "camel-k-client-1.2.1-linux": [
 "camel/camel-k/1.2.1/camel-k-client-1.2.1-linux-64bit.tar.gz"
 ],
@@ -802,14 +793,8 @@
 "camel-k-client-1.2.1-windows": [
 "camel/camel-k/1.2.1/camel-k-client-1.2.1-windows-64bit.tar.gz"
 ],
-"camel-k-examples-1.2.0": [
-"camel/camel-k/1.2.0/camel-k-examples-1.2.0.tar.gz"
-],
 "camel-k-examples-1.2.1": [
 "camel/camel-k/1.2.1/camel-k-examples-1.2.1.tar.gz"
-],
-"camel-k-sources-1.2.0": [
-"camel/camel-k/1.2.0/camel-k-sources-1.2.0.tar.gz"
 ],
 "camel-k-sources-1.2.1": [
 "camel/camel-k/1.2.1/camel-k-sources-1.2.1.tar.gz"
@@ -3007,9 +2992,17 @@
 "httpcomponents/httpcore/source/httpcomponents-core-5.0.2-src.tar.gz",
 "httpcomponents/httpcore/source/httpcomponents-core-5.0.2-src.zip"
 ],
+"httpcomponents-core-5.0.3": [
+"httpcomponents/httpcore/source/httpcomponents-core-5.0.3-src.tar.gz",
+"httpcomponents/httpcore/source/httpcomponents-core-5.0.3-src.zip"
+],
 "httpcomponents-core-5.1-beta1": [
 "httpcomponents/httpcore/source/httpcomponents-core-5.1-beta1-src.tar.gz",
 "httpcomponents/httpcore/source/httpcomponents-core-5.1-beta1-src.zip"
+],
+"httpcomponents-core-5.1-beta2": [
+"httpcomponents/httpcore/source/httpcomponents-core-5.1-beta2-src.tar.gz",
+"httpcomponents/httpcore/source/httpcomponents-core-5.1-beta2-src.zip"
 ]
 },
 "httpd": {
@@ -3221,6 +3214,9 @@
 ],
 "apache-echarts-4.9.0-incubating": [
 "incubator/echarts/4.9.0/apache-echarts-4.9.0-incubating-src.zip"
+],
+"apache-echarts-5.0.0-incubating": [
+"incubator/echarts/5.0.0/apache-echarts-5.0.0-incubating-src.zip"
 ]
 },
 "incubator-flagon": {
@@ -3817,12 +3813,6 @@
 ],
 "apache-iotdb-0.11.0": [
 "iotdb/0.11.0/apache-iotdb-0.11.0-source-release.zip"
-],
-"apache-iotdb-0.8.2-incubating": [
-"iotdb/0.8.2-incubating/apache-iotdb-0.8.2-incubating-source-release.zip"
-],
-"apache-iotdb-0.9.3-incubating": [
-"iotdb/0.9.3-incubating/apache-iotdb-0.9.3-incubating-source-release.zip"
 ]
 },
 "isis": {
@@ -9927,6 +9917,10 @@
 "skywalking/8.2.0/apache-skywalking-apm-8.2.0-src.tgz",
 "skywalking/8.2.0/apache-skywalking-apm-8.2.0.tar.gz"
 ],
+"apache-skywalking-apm-8.3.0": [
+"skywalking/8.3.0/apache-skywalking-apm-8.3.0-src.tgz",
+"skywalking/8.3.0/apache-skywalking-apm-8.3.0.tar.gz"
+],
 "apache-skywalking-apm-es7-8.0.1": [
 "skywalking/8.0.1/apache-skywalking-apm-es7-8.0.1.tar.gz"
 ],
@@ -9935,6 +9929,9 @@
 ],
 "apache-skywalking-apm-es7-8.2.0": [
 "skywalking/8.2.0/apache-skywalking-apm-es7-8.2.0.tar.gz"
+],
+"apache-skywalking-apm-es7-8.3.0": [
+"skywalking/8.3.0/apache-skywalking-apm-es7-8.3.0.tar.gz"
 ],
 "skywalking-3.0.0": [
 "skywalking/kubernetes/3.0.0/skywalking-3.0.0.tgz"
@@ -12298,11 +12295,17 @@
 "trafficserver-7.1.11": [
 "trafficserver/trafficserver-7.1.11.tar.bz2"
 ],
+"trafficserver-7.1.12": [
+"trafficserver/trafficserver-7.1.12.tar.bz2"
+],
 "trafficserver-8.0.8": [
 "trafficserver/trafficserver-8.0.8.tar.bz2"
 ],
 "trafficserver-8.1.0": [
 "trafficserver/trafficserver-8.1.0.tar.bz2"
+],
+"trafficserver-8.1.1": [
+"trafficserver/trafficserver-8.1.1.tar.bz2"
 ]
 },
 "trafodion": {
