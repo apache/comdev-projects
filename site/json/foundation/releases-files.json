@@ -482,32 +482,32 @@
 ]
 },
 "avro": {
-"Avro-1.10.0": [
-"avro/avro-1.10.0/perl/Avro-1.10.0.tar.gz"
+"Avro-1.10.1": [
+"avro/avro-1.10.1/perl/Avro-1.10.1.tar.gz"
 ],
 "Avro-1.9.2": [
 "avro/avro-1.9.2/perl/Avro-1.9.2.tar.gz"
 ],
-"avro-1.10.0": [
-"avro/avro-1.10.0/avro-src-1.10.0.tar.gz"
+"avro-1.10.1": [
+"avro/avro-1.10.1/avro-src-1.10.1.tar.gz"
 ],
 "avro-1.9.2": [
 "avro/avro-1.9.2/avro-src-1.9.2.tar.gz"
 ],
-"avro-c-1.10.0": [
-"avro/avro-1.10.0/c/avro-c-1.10.0.tar.gz"
+"avro-c-1.10.1": [
+"avro/avro-1.10.1/c/avro-c-1.10.1.tar.gz"
 ],
 "avro-c-1.9.2": [
 "avro/avro-1.9.2/c/avro-c-1.9.2.tar.gz"
 ],
-"avro-csharp-1.10.0": [
-"avro/avro-1.10.0/csharp/avro-csharp-1.10.0.tar.gz"
+"avro-csharp-1.10.1": [
+"avro/avro-1.10.1/csharp/avro-csharp-1.10.1.tar.gz"
 ],
 "avro-csharp-1.9.2": [
 "avro/avro-1.9.2/csharp/avro-csharp-1.9.2.tar.gz"
 ],
-"avro-js-1.10.0": [
-"avro/avro-1.10.0/js/avro-js-1.10.0.tgz"
+"avro-js-1.10.1": [
+"avro/avro-1.10.1/js/avro-js-1.10.1.tgz"
 ],
 "avro-js-1.9.2": [
 "avro/avro-1.9.2/js/avro-js-1.9.2.tgz"
@@ -2581,8 +2581,8 @@
 "geronimo-microprofile-1.0.2": [
 "geronimo/microprofile-aggregator/geronimo-microprofile-1.0.2-source-release.zip"
 ],
-"geronimo-openapi-1.0.11": [
-"geronimo/openapi/geronimo-openapi-1.0.11-source-release.zip"
+"geronimo-openapi-1.0.14": [
+"geronimo/openapi/geronimo-openapi-1.0.14-source-release.zip"
 ],
 "geronimo-opentracing-1.0.2": [
 "geronimo/opentracing/geronimo-opentracing-parent-1.0.2-source-release.zip"
@@ -2642,26 +2642,26 @@
 ]
 },
 "groovy": {
-"apache-groovy-2.4.20": [
-"groovy/2.4.20/sources/apache-groovy-src-2.4.20.zip"
+"apache-groovy-2.4.21": [
+"groovy/2.4.21/sources/apache-groovy-src-2.4.21.zip"
 ],
-"apache-groovy-2.5.13": [
-"groovy/2.5.13/sources/apache-groovy-src-2.5.13.zip"
+"apache-groovy-2.5.14": [
+"groovy/2.5.14/sources/apache-groovy-src-2.5.14.zip"
 ],
-"apache-groovy-3.0.6": [
-"groovy/3.0.6/sources/apache-groovy-src-3.0.6.zip"
+"apache-groovy-3.0.7": [
+"groovy/3.0.7/sources/apache-groovy-src-3.0.7.zip"
 ],
 "apache-groovy-4.0.0-alpha-1": [
 "groovy/4.0.0-alpha-1/sources/apache-groovy-src-4.0.0-alpha-1.zip"
 ],
-"apache-groovy-sdk-2.4.20": [
-"groovy/2.4.20/distribution/apache-groovy-sdk-2.4.20.zip"
+"apache-groovy-sdk-2.4.21": [
+"groovy/2.4.21/distribution/apache-groovy-sdk-2.4.21.zip"
 ],
-"apache-groovy-sdk-2.5.13": [
-"groovy/2.5.13/distribution/apache-groovy-sdk-2.5.13.zip"
+"apache-groovy-sdk-2.5.14": [
+"groovy/2.5.14/distribution/apache-groovy-sdk-2.5.14.zip"
 ],
-"apache-groovy-sdk-3.0.6": [
-"groovy/3.0.6/distribution/apache-groovy-sdk-3.0.6.zip"
+"apache-groovy-sdk-3.0.7": [
+"groovy/3.0.7/distribution/apache-groovy-sdk-3.0.7.zip"
 ],
 "apache-groovy-sdk-4.0.0-alpha-1": [
 "groovy/4.0.0-alpha-1/distribution/apache-groovy-sdk-4.0.0-alpha-1.zip"
@@ -3362,11 +3362,17 @@
 ]
 },
 "incubator-nuttx": {
+"apache-nuttx-10.0.0-incubating": [
+"incubator/nuttx/10.0.0/apache-nuttx-10.0.0-incubating.tar.gz"
+],
 "apache-nuttx-9.0.0-incubating": [
 "incubator/nuttx/9.0.0/apache-nuttx-9.0.0-incubating.tar.gz"
 ],
 "apache-nuttx-9.1.0-incubating": [
 "incubator/nuttx/9.1.0/apache-nuttx-9.1.0-incubating.tar.gz"
+],
+"apache-nuttx-apps-10.0.0-incubating": [
+"incubator/nuttx/10.0.0/apache-nuttx-apps-10.0.0-incubating.tar.gz"
 ],
 "apache-nuttx-apps-9.0.0-incubating": [
 "incubator/nuttx/9.0.0/apache-nuttx-apps-9.0.0-incubating.tar.gz"
@@ -4107,6 +4113,10 @@
 "apache-jmeter-5.3": [
 "jmeter/source/apache-jmeter-5.3_src.tgz",
 "jmeter/source/apache-jmeter-5.3_src.zip"
+],
+"apache-jmeter-5.4": [
+"jmeter/source/apache-jmeter-5.4_src.tgz",
+"jmeter/source/apache-jmeter-5.4_src.zip"
 ]
 },
 "johnzon": {
@@ -12515,47 +12525,8 @@
 "uima-addons-2.3.1": [
 "uima/uima-addons-2.3.1-source-release.zip"
 ],
-"uima-as-2.10.2": [
-"uima/uima-as-2.10.2/uima-as-2.10.2-source-release.zip"
-],
 "uima-as-2.10.3": [
 "uima/uima-as-2.10.3/uima-as-2.10.3-source-release.zip"
-],
-"uima-as-2.4.2": [
-"uima/uima-as-2.4.2/uima-as-2.4.2-source-release.zip"
-],
-"uima-as-2.6.0": [
-"uima/uima-as-2.6.0/uima-as-2.6.0-source-release.zip"
-],
-"uima-as-2.8.1": [
-"uima/uima-as-2.8.1/uima-as-2.8.1-source-release.zip"
-],
-"uima-as-2.9.0": [
-"uima/uima-as-2.9.0/uima-as-2.9.0-source-release.zip"
-],
-"uima-ducc-1.0.0": [
-"uima/uima-ducc-1.0.0/uima-ducc-1.0.0-source-release.zip"
-],
-"uima-ducc-1.1.0": [
-"uima/uima-ducc-1.1.0/uima-ducc-1.1.0-source-release.zip"
-],
-"uima-ducc-2.0.0": [
-"uima/uima-ducc-2.0.0/uima-ducc-2.0.0-source-release.zip"
-],
-"uima-ducc-2.0.1": [
-"uima/uima-ducc-2.0.1/uima-ducc-2.0.1-source-release.zip"
-],
-"uima-ducc-2.1.0": [
-"uima/uima-ducc-2.1.0/uima-ducc-2.1.0-source-release.zip"
-],
-"uima-ducc-2.2.0": [
-"uima/uima-ducc-2.2.0/uima-ducc-2.2.0-source-release.zip"
-],
-"uima-ducc-2.2.1": [
-"uima/uima-ducc-2.2.1/uima-ducc-2.2.1-source-release.zip"
-],
-"uima-ducc-2.2.2": [
-"uima/uima-ducc-2.2.2/uima-ducc-2.2.2-source-release.zip"
 ],
 "uima-ducc-3.0.0": [
 "uima/uima-ducc-3.0.0/uima-ducc-3.0.0-source-release.zip"
@@ -12570,9 +12541,6 @@
 "uimafit-2.5.0": [
 "uima/uimafit-2.5.0/uimafit-2.5.0-source-release.zip"
 ],
-"uimafit-3.0.0": [
-"uima/uimafit-3.0.0/uimafit-3.0.0-source-release.zip"
-],
 "uimafit-3.1.0": [
 "uima/uimafit-3.1.0/uimafit-3.1.0-source-release.zip"
 ],
@@ -12581,9 +12549,6 @@
 ],
 "uimaj-2.10.4": [
 "uima/uimaj-2.10.4/uimaj-2.10.4-source-release.zip"
-],
-"uimaj-3.1.0": [
-"uima/uimaj-3.1.0/uimaj-3.1.0-source-release.zip"
 ],
 "uimaj-3.1.1": [
 "uima/uimaj-3.1.1/uimaj-3.1.1-source-release.zip"
