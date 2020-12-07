@@ -2651,9 +2651,6 @@
 "apache-groovy-3.0.7": [
 "groovy/3.0.7/sources/apache-groovy-src-3.0.7.zip"
 ],
-"apache-groovy-4.0.0-alpha-1": [
-"groovy/4.0.0-alpha-1/sources/apache-groovy-src-4.0.0-alpha-1.zip"
-],
 "apache-groovy-4.0.0-alpha-2": [
 "groovy/4.0.0-alpha-2/sources/apache-groovy-src-4.0.0-alpha-2.zip"
 ],
@@ -2665,9 +2662,6 @@
 ],
 "apache-groovy-sdk-3.0.7": [
 "groovy/3.0.7/distribution/apache-groovy-sdk-3.0.7.zip"
-],
-"apache-groovy-sdk-4.0.0-alpha-1": [
-"groovy/4.0.0-alpha-1/distribution/apache-groovy-sdk-4.0.0-alpha-1.zip"
 ],
 "apache-groovy-sdk-4.0.0-alpha-2": [
 "groovy/4.0.0-alpha-2/distribution/apache-groovy-sdk-4.0.0-alpha-2.zip"
@@ -4346,6 +4340,11 @@
 "knox/1.4.0/knox-1.4.0.tar.gz",
 "knox/1.4.0/knox-1.4.0.zip"
 ],
+"knox-1.5.0": [
+"knox/1.5.0/knox-1.5.0-src.zip",
+"knox/1.5.0/knox-1.5.0.tar.gz",
+"knox/1.5.0/knox-1.5.0.zip"
+],
 "knoxshell-1.2.0": [
 "knox/1.2.0/knoxshell-1.2.0.tar.gz",
 "knox/1.2.0/knoxshell-1.2.0.zip"
@@ -4357,6 +4356,10 @@
 "knoxshell-1.4.0": [
 "knox/1.4.0/knoxshell-1.4.0.tar.gz",
 "knox/1.4.0/knoxshell-1.4.0.zip"
+],
+"knoxshell-1.5.0": [
+"knox/1.5.0/knoxshell-1.5.0.tar.gz",
+"knox/1.5.0/knoxshell-1.5.0.zip"
 ]
 },
 "kudu": {
@@ -9343,12 +9346,6 @@
 ]
 },
 "openmeetings": {
-"apache-openmeetings-5.0.1": [
-"openmeetings/5.0.1/bin/apache-openmeetings-5.0.1.tar.gz",
-"openmeetings/5.0.1/bin/apache-openmeetings-5.0.1.zip",
-"openmeetings/5.0.1/src/apache-openmeetings-5.0.1-src.tar.gz",
-"openmeetings/5.0.1/src/apache-openmeetings-5.0.1-src.zip"
-],
 "apache-openmeetings-5.1.0": [
 "openmeetings/5.1.0/bin/apache-openmeetings-5.1.0.tar.gz",
 "openmeetings/5.1.0/bin/apache-openmeetings-5.1.0.zip",
@@ -11880,24 +11877,6 @@
 ]
 },
 "struts": {
-"struts-2.5.20": [
-"struts/2.5.20/struts-2.5.20-all.zip",
-"struts/2.5.20/struts-2.5.20-apps.zip",
-"struts/2.5.20/struts-2.5.20-lib.zip",
-"struts/2.5.20/struts-2.5.20-src.zip"
-],
-"struts-2.5.20-min": [
-"struts/2.5.20/struts-2.5.20-min-lib.zip"
-],
-"struts-2.5.22": [
-"struts/2.5.22/struts-2.5.22-all.zip",
-"struts/2.5.22/struts-2.5.22-apps.zip",
-"struts/2.5.22/struts-2.5.22-lib.zip",
-"struts/2.5.22/struts-2.5.22-src.zip"
-],
-"struts-2.5.22-min": [
-"struts/2.5.22/struts-2.5.22-min-lib.zip"
-],
 "struts-2.5.25": [
 "struts/2.5.25/struts-2.5.25-all.zip",
 "struts/2.5.25/struts-2.5.25-apps.zip",
@@ -11906,6 +11885,15 @@
 ],
 "struts-2.5.25-min": [
 "struts/2.5.25/struts-2.5.25-min-lib.zip"
+],
+"struts-2.5.26": [
+"struts/2.5.26/struts-2.5.26-all.zip",
+"struts/2.5.26/struts-2.5.26-apps.zip",
+"struts/2.5.26/struts-2.5.26-lib.zip",
+"struts/2.5.26/struts-2.5.26-src.zip"
+],
+"struts-2.5.26-min": [
+"struts/2.5.26/struts-2.5.26-min-lib.zip"
 ],
 "struts2-secure-jakarta-multipart-parser-plugin-1.1": [
 "struts/struts-extras/struts2-secure-jakarta-multipart-parser-plugin/1.1/struts2-secure-jakarta-multipart-parser-plugin-1.1-source-release.zip"
@@ -13633,13 +13621,9 @@
 },
 "yetus": {
 "RELEASENOTES.md": [
-"yetus/0.10.0/RELEASENOTES.md",
 "yetus/0.11.1/RELEASENOTES.md",
-"yetus/0.12.0/RELEASENOTES.md"
-],
-"apache-yetus-0.10.0": [
-"yetus/0.10.0/apache-yetus-0.10.0-site.tar.gz",
-"yetus/0.10.0/apache-yetus-0.10.0-src.tar.gz"
+"yetus/0.12.0/RELEASENOTES.md",
+"yetus/0.13.0/RELEASENOTES.md"
 ],
 "apache-yetus-0.11.1": [
 "yetus/0.11.1/apache-yetus-0.11.1-site.tar.gz",
@@ -13648,6 +13632,10 @@
 "apache-yetus-0.12.0": [
 "yetus/0.12.0/apache-yetus-0.12.0-site.tar.gz",
 "yetus/0.12.0/apache-yetus-0.12.0-src.tar.gz"
+],
+"apache-yetus-0.13.0": [
+"yetus/0.13.0/apache-yetus-0.13.0-site.tar.gz",
+"yetus/0.13.0/apache-yetus-0.13.0-src.tar.gz"
 ]
 },
 "zeppelin": {
