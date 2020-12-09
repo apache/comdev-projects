@@ -4017,8 +4017,8 @@
 "jackrabbit-oak-1.6.20": [
 "jackrabbit/oak/1.6.20/jackrabbit-oak-1.6.20-src.zip"
 ],
-"jackrabbit-oak-1.8.23": [
-"jackrabbit/oak/1.8.23/jackrabbit-oak-1.8.23-src.zip"
+"jackrabbit-oak-1.8.24": [
+"jackrabbit/oak/1.8.24/jackrabbit-oak-1.8.24-src.zip"
 ],
 "jackrabbit-ocm-2.0.0": [
 "jackrabbit/ocm/2.0.0/jackrabbit-ocm-2.0.0-source-release.zip"
@@ -11218,8 +11218,8 @@
 "org.apache.sling.jcr.resourcesecurity-1.0.2": [
 "sling/org.apache.sling.jcr.resourcesecurity-1.0.2-source-release.zip"
 ],
-"org.apache.sling.jcr.webconsole-1.0.2": [
-"sling/org.apache.sling.jcr.webconsole-1.0.2-source-release.zip"
+"org.apache.sling.jcr.webconsole-1.1.0": [
+"sling/org.apache.sling.jcr.webconsole-1.1.0-source-release.zip"
 ],
 "org.apache.sling.jcr.webdav-2.3.8": [
 "sling/org.apache.sling.jcr.webdav-2.3.8-source-release.zip"
@@ -12231,6 +12231,19 @@
 ]
 },
 "tomcat": {
+"apache-tomcat-10.0.0": [
+"tomcat/tomcat-10/v10.0.0/bin/embed/apache-tomcat-10.0.0-embed.tar.gz",
+"tomcat/tomcat-10/v10.0.0/bin/embed/apache-tomcat-10.0.0-embed.zip",
+"tomcat/tomcat-10/v10.0.0/bin/apache-tomcat-10.0.0-deployer.tar.gz",
+"tomcat/tomcat-10/v10.0.0/bin/apache-tomcat-10.0.0-deployer.zip",
+"tomcat/tomcat-10/v10.0.0/bin/apache-tomcat-10.0.0-fulldocs.tar.gz",
+"tomcat/tomcat-10/v10.0.0/bin/apache-tomcat-10.0.0-windows-x64.zip",
+"tomcat/tomcat-10/v10.0.0/bin/apache-tomcat-10.0.0.exe",
+"tomcat/tomcat-10/v10.0.0/bin/apache-tomcat-10.0.0.tar.gz",
+"tomcat/tomcat-10/v10.0.0/bin/apache-tomcat-10.0.0.zip",
+"tomcat/tomcat-10/v10.0.0/src/apache-tomcat-10.0.0-src.tar.gz",
+"tomcat/tomcat-10/v10.0.0/src/apache-tomcat-10.0.0-src.zip"
+],
 "apache-tomcat-10.0.0-M10": [
 "tomcat/tomcat-10/v10.0.0-M10/bin/embed/apache-tomcat-10.0.0-M10-embed.tar.gz",
 "tomcat/tomcat-10/v10.0.0-M10/bin/embed/apache-tomcat-10.0.0-M10-embed.zip",
@@ -12270,6 +12283,19 @@
 "tomcat/tomcat-8/v8.5.60/src/apache-tomcat-8.5.60-src.tar.gz",
 "tomcat/tomcat-8/v8.5.60/src/apache-tomcat-8.5.60-src.zip"
 ],
+"apache-tomcat-8.5.61": [
+"tomcat/tomcat-8/v8.5.61/bin/embed/apache-tomcat-8.5.61-embed.tar.gz",
+"tomcat/tomcat-8/v8.5.61/bin/embed/apache-tomcat-8.5.61-embed.zip",
+"tomcat/tomcat-8/v8.5.61/bin/apache-tomcat-8.5.61-deployer.tar.gz",
+"tomcat/tomcat-8/v8.5.61/bin/apache-tomcat-8.5.61-deployer.zip",
+"tomcat/tomcat-8/v8.5.61/bin/apache-tomcat-8.5.61-fulldocs.tar.gz",
+"tomcat/tomcat-8/v8.5.61/bin/apache-tomcat-8.5.61-windows-x64.zip",
+"tomcat/tomcat-8/v8.5.61/bin/apache-tomcat-8.5.61.exe",
+"tomcat/tomcat-8/v8.5.61/bin/apache-tomcat-8.5.61.tar.gz",
+"tomcat/tomcat-8/v8.5.61/bin/apache-tomcat-8.5.61.zip",
+"tomcat/tomcat-8/v8.5.61/src/apache-tomcat-8.5.61-src.tar.gz",
+"tomcat/tomcat-8/v8.5.61/src/apache-tomcat-8.5.61-src.zip"
+],
 "apache-tomcat-9.0.40": [
 "tomcat/tomcat-9/v9.0.40/bin/embed/apache-tomcat-9.0.40-embed.tar.gz",
 "tomcat/tomcat-9/v9.0.40/bin/embed/apache-tomcat-9.0.40-embed.zip",
@@ -12282,6 +12308,19 @@
 "tomcat/tomcat-9/v9.0.40/bin/apache-tomcat-9.0.40.zip",
 "tomcat/tomcat-9/v9.0.40/src/apache-tomcat-9.0.40-src.tar.gz",
 "tomcat/tomcat-9/v9.0.40/src/apache-tomcat-9.0.40-src.zip"
+],
+"apache-tomcat-9.0.41": [
+"tomcat/tomcat-9/v9.0.41/bin/embed/apache-tomcat-9.0.41-embed.tar.gz",
+"tomcat/tomcat-9/v9.0.41/bin/embed/apache-tomcat-9.0.41-embed.zip",
+"tomcat/tomcat-9/v9.0.41/bin/apache-tomcat-9.0.41-deployer.tar.gz",
+"tomcat/tomcat-9/v9.0.41/bin/apache-tomcat-9.0.41-deployer.zip",
+"tomcat/tomcat-9/v9.0.41/bin/apache-tomcat-9.0.41-fulldocs.tar.gz",
+"tomcat/tomcat-9/v9.0.41/bin/apache-tomcat-9.0.41-windows-x64.zip",
+"tomcat/tomcat-9/v9.0.41/bin/apache-tomcat-9.0.41.exe",
+"tomcat/tomcat-9/v9.0.41/bin/apache-tomcat-9.0.41.tar.gz",
+"tomcat/tomcat-9/v9.0.41/bin/apache-tomcat-9.0.41.zip",
+"tomcat/tomcat-9/v9.0.41/src/apache-tomcat-9.0.41-src.tar.gz",
+"tomcat/tomcat-9/v9.0.41/src/apache-tomcat-9.0.41-src.zip"
 ],
 "taglibs-standard-1.2.5": [
 "tomcat/taglibs/taglibs-standard-1.2.5/taglibs-standard-1.2.5-source-release.zip"
