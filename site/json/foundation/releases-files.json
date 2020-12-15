@@ -83,8 +83,15 @@
 "apache-airflow-backport-providers-2020.11.23": [
 "airflow/backport-providers/apache-airflow-backport-providers-2020.11.23-source.tar.gz"
 ],
+"apache-airflow-providers-1.0.0": [
+"airflow/providers/apache-airflow-providers-1.0.0-source.tar.gz"
+],
 "apache-airflow-upgrade-check-1.0.0": [
 "airflow/upgrade-check/1.0.0/apache-airflow-upgrade-check-1.0.0-source.tar.gz"
+],
+"apache-airflow-upgrade-check-1.1.0": [
+"airflow/upgrade-check/1.1.0/apache-airflow-upgrade-check-1.1.0-source.tar.gz",
+"airflow/upgrade-check/1.1.0/apache-airflow-upgrade-check-1.1.0.tar.gz"
 ]
 },
 "allura": {
@@ -9715,11 +9722,11 @@
 "santuario/c-library/xml-security-c-2.0.2.tar.gz",
 "santuario/c-library/xml-security-c-2.0.2.zip"
 ],
-"xmlsec-2.1.5": [
-"santuario/java-library/2_1_5/xmlsec-2.1.5-source-release.zip"
+"xmlsec-2.1.6": [
+"santuario/java-library/2_1_6/xmlsec-2.1.6-source-release.zip"
 ],
-"xmlsec-2.2.0": [
-"santuario/java-library/2_2_0/xmlsec-2.2.0-source-release.zip"
+"xmlsec-2.2.1": [
+"santuario/java-library/2_2_1/xmlsec-2.2.1-source-release.zip"
 ]
 },
 "sentry": {
@@ -11474,9 +11481,6 @@
 "apache-tinkerpop-3.3.11": [
 "tinkerpop/3.3.11/apache-tinkerpop-3.3.11-src.zip"
 ],
-"apache-tinkerpop-3.4.8": [
-"tinkerpop/3.4.8/apache-tinkerpop-3.4.8-src.zip"
-],
 "apache-tinkerpop-3.4.9": [
 "tinkerpop/3.4.9/apache-tinkerpop-3.4.9-src.zip"
 ]
@@ -12318,23 +12322,14 @@
 ]
 },
 "trafficserver": {
-"trafficserver-6.2.3": [
-"trafficserver/trafficserver-6.2.3.tar.bz2"
-],
-"trafficserver-7.1.11": [
-"trafficserver/trafficserver-7.1.11.tar.bz2"
-],
 "trafficserver-7.1.12": [
 "trafficserver/trafficserver-7.1.12.tar.bz2"
 ],
-"trafficserver-8.0.8": [
-"trafficserver/trafficserver-8.0.8.tar.bz2"
-],
-"trafficserver-8.1.0": [
-"trafficserver/trafficserver-8.1.0.tar.bz2"
-],
 "trafficserver-8.1.1": [
 "trafficserver/trafficserver-8.1.1.tar.bz2"
+],
+"trafficserver-9.0.0": [
+"trafficserver/trafficserver-9.0.0.tar.bz2"
 ]
 },
 "trafodion": {

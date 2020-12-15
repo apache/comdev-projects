@@ -30,7 +30,9 @@
 "airflow": {
 "apache-airflow-1.10.14": "2020-12-10",
 "apache-airflow-backport-providers-2020.11.23": "2020-11-24",
-"apache-airflow-upgrade-check-1.0.0": "2020-11-25"
+"apache-airflow-providers-1.0.0": "2020-12-14",
+"apache-airflow-upgrade-check-1.0.0": "2020-11-25",
+"apache-airflow-upgrade-check-1.1.0": "2020-12-14"
 },
 "allura": {
 "allura-1.12.0": "2020-07-06"
@@ -2980,8 +2982,8 @@
 },
 "santuario": {
 "xml-security-c-2.0.2": "2020-07-03",
-"xmlsec-2.1.5": "2020-07-03",
-"xmlsec-2.2.0": "2020-07-03"
+"xmlsec-2.1.6": "2020-12-14",
+"xmlsec-2.2.1": "2020-12-14"
 },
 "sentry": {
 "apache-sentry-1.7.1": "2020-07-06",
@@ -3568,7 +3570,6 @@
 },
 "tinkerpop": {
 "apache-tinkerpop-3.3.11": "2020-07-03",
-"apache-tinkerpop-3.4.8": "2020-08-07",
 "apache-tinkerpop-3.4.9": "2020-12-11"
 },
 "tomcat": {
@@ -3797,12 +3798,9 @@
 "apache-trafficcontrol-4.1.1": "2020-12-04"
 },
 "trafficserver": {
-"trafficserver-6.2.3": "2020-07-03",
-"trafficserver-7.1.11": "2020-07-03",
 "trafficserver-7.1.12": "2020-12-02",
-"trafficserver-8.0.8": "2020-07-03",
-"trafficserver-8.1.0": "2020-08-29",
-"trafficserver-8.1.1": "2020-12-02"
+"trafficserver-8.1.1": "2020-12-02",
+"trafficserver-9.0.0": "2020-12-14"
 },
 "trafodion": {
 "apache-trafodion-2.4.0": "2020-07-03",
