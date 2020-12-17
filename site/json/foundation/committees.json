@@ -2794,7 +2794,7 @@
 "shortdesc": "JSR-303 Bean Validation Implementation and Extensions"
 },
 {
-"chair": "zabetak",
+"chair": "hyuan",
 "charter": "The mission of Calcite is the creation and maintenance of software related to Dynamic data management framework",
 "established": "2015-10",
 "group": "calcite",
@@ -5204,6 +5204,66 @@
 "shortdesc": "well-tested libraries that help developers solve common data problems in Hadoop and similar distributed systems"
 },
 {
+"chair": "leerho",
+"established": "2020-12",
+"group": "datasketches",
+"homepage": "http://datasketches.apache.org",
+"id": "datasketches",
+"name": "Apache DataSketches",
+"reporting": 2,
+"roster": {
+"alsay": {
+"date": "2020-12-16",
+"name": "Alexander Saydakov"
+},
+"chenliang613": {
+"date": "2020-12-16",
+"name": "Liang Chen"
+},
+"edo": {
+"date": "2020-12-16",
+"name": "Edo Liberty"
+},
+"eshcar": {
+"date": "2020-12-16",
+"name": "Eshcar Hillel"
+},
+"evansye": {
+"date": "2020-12-16",
+"name": "Evans Ye"
+},
+"jmalkin": {
+"date": "2020-12-16",
+"name": "Jon Malkin"
+},
+"jthaler": {
+"date": "2020-12-16",
+"name": "Justin Thaler"
+},
+"kamaci": {
+"date": "2020-12-16",
+"name": "Furkan Kamaci"
+},
+"kenn": {
+"date": "2020-12-16",
+"name": "Kenneth Knowles"
+},
+"leerho": {
+"date": "2020-12-16",
+"name": "Lee Rhodes"
+},
+"leventov": {
+"date": "2020-12-16",
+"name": "Roman Leventov"
+},
+"wave": {
+"date": "2020-12-16",
+"name": "Dave Fisher"
+}
+},
+"shortdesc": "an open source, high-performance library of streaming algorithms commonly called \"sketches\" in the data sciences. Sketches are small, stateful programs that process massive data as a stream and can provide approximate answers, with mathematical guarantees, to computationally difficult queries orders-of-magnitude faster than traditional, exact methods"
+},
+{
 "chair": "bpendleton",
 "charter": "The mission of the Apache DB project is to create and maintain commercial-quality, open-source, database solutions based on software licensed to the Foundation, for distribution at no charge to the public.",
 "established": "2002-07",
@@ -5910,6 +5970,74 @@
 }
 },
 "shortdesc": "a high-performance, lightweight, java based RPC framework."
+},
+{
+"chair": "ovilia",
+"established": "2020-12",
+"group": "echarts",
+"homepage": "http://echarts.apache.org",
+"id": "echarts",
+"name": "Apache ECharts",
+"reporting": 3,
+"roster": {
+"dafo": {
+"date": "2020-12-16",
+"name": "Houjin Huang"
+},
+"deqingli": {
+"date": "2020-12-16",
+"name": "Deqing Li"
+},
+"errorrik": {
+"date": "2020-12-16",
+"name": "Dong Rui"
+},
+"kener": {
+"date": "2020-12-16",
+"name": "Kener Linfeng"
+},
+"kmcgrail": {
+"date": "2020-12-16",
+"name": "Kevin A. McGrail"
+},
+"ovilia": {
+"date": "2020-12-16",
+"name": "Wenli Zhang"
+},
+"shenyi": {
+"date": "2020-12-16",
+"name": "Shen Yi"
+},
+"sushuang": {
+"date": "2020-12-16",
+"name": "Shuang Su"
+},
+"susiwen8": {
+"date": "2020-12-16",
+"name": "Siwen Su"
+},
+"wangdd": {
+"date": "2020-12-16",
+"name": "Junting Wang"
+},
+"wangzx": {
+"date": "2020-12-16",
+"name": "Zhongxiang Wang"
+},
+"wave": {
+"date": "2020-12-16",
+"name": "Dave Fisher"
+},
+"wusheng": {
+"date": "2020-12-16",
+"name": "Sheng Wu"
+},
+"zakwu": {
+"date": "2020-12-16",
+"name": "Zak Wu"
+}
+},
+"shortdesc": "a charting and data visualization library written in JavaScript"
 },
 {
 "chair": "doebele",
@@ -12952,128 +13080,6 @@
 "shortdesc": "common interface for discovery, exploration of metadata and querying of different types of data sources"
 },
 {
-"chair": "cestella",
-"charter": "The mission of Apache Metron is the creation and maintenance of software related to a security analytics platform for big data use cases.",
-"established": "2017-04",
-"group": "metron",
-"homepage": "http://metron.apache.org/",
-"id": "metron",
-"name": "Apache Metron",
-"rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/metron.rdf",
-"reporting": 1,
-"roster": {
-"bjkolly": {
-"date": "2017-04-19",
-"name": "Brad Kolarov"
-},
-"cestella": {
-"date": "2017-04-19",
-"name": "Casey Stella"
-},
-"cporter": {
-"date": "2017-04-19",
-"name": "Charles Porter"
-},
-"dbhirko": {
-"date": "2017-04-19",
-"name": "Dave Hirko"
-},
-"ddutta": {
-"date": "2017-04-19",
-"name": "Debo Dutta"
-},
-"dev_warlord": {
-"date": "2017-04-19",
-"name": "Andrew Hartnett"
-},
-"discovery": {
-"date": "2017-04-19",
-"name": "Discovery Gerdes"
-},
-"gvetticaden": {
-"date": "2017-04-19",
-"name": "George Vetticaden"
-},
-"jsirota": {
-"date": "2017-04-19",
-"name": "James Sirota"
-},
-"kirankom": {
-"date": "2017-04-19",
-"name": "Kiran Komaravolu"
-},
-"leet": {
-"date": "2017-12-04",
-"name": "Justin Leet"
-},
-"lmccay": {
-"date": "2017-04-19",
-"name": "Larry McCay"
-},
-"lyle": {
-"date": "2017-04-19",
-"name": "David Lyle"
-},
-"mbittmann": {
-"date": "2017-04-19",
-"name": "Mark Bittmann"
-},
-"mmiklavcic": {
-"date": "2017-12-01",
-"name": "Michael Miklavcic"
-},
-"mperez": {
-"date": "2017-04-19",
-"name": "Michael Perez"
-},
-"nickallen": {
-"date": "2017-04-19",
-"name": "Nick Allen"
-},
-"otto": {
-"date": "2017-12-01",
-"name": "Otto Fowler"
-},
-"prhodes": {
-"date": "2017-04-19",
-"name": "Phillip Rhodes"
-},
-"ptgoetz": {
-"date": "2017-04-19",
-"name": "P. Taylor Goetz"
-},
-"reaperhulk": {
-"date": "2017-04-19",
-"name": "Paul Kehrer"
-},
-"rmerriman": {
-"date": "2017-04-19",
-"name": "Ryan Merriman"
-},
-"rurcioli": {
-"date": "2017-04-19",
-"name": "Ray Sting"
-},
-"sheetal_dolas": {
-"date": "2017-04-19",
-"name": "Sheetal Dolas"
-},
-"sirsean": {
-"date": "2017-04-19",
-"name": "Sean Schulte"
-},
-"smogg": {
-"date": "2017-04-19",
-"name": "Oskar Zabik"
-},
-"vinodkv": {
-"date": "2017-04-19",
-"name": "Vinod Kumar Vavilapalli"
-}
-},
-"shortdesc": "Real-time big data security"
-},
-{
 "chair": "gnodet",
 "charter": "The mission of MINA is the creation and maintenance of software related to Multipurpose Infrastructure for Network Application",
 "established": "2006-10",
@@ -17204,7 +17210,7 @@
 "shortdesc": "XML Security in Java and C++"
 },
 {
-"chair": "kalyan",
+"chair": "",
 "charter": "The mission of Sentry is the creation and maintenance of software related to Fine grained authorization to data and metadata in Apache Hadoop",
 "established": "2016-03",
 "group": "sentry",
@@ -17212,7 +17218,6 @@
 "id": "sentry",
 "name": "Apache Sentry",
 "rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/sentry.rdf",
-"reporting": 3,
 "roster": {
 "akolb": {
 "date": "2017-05-09",
