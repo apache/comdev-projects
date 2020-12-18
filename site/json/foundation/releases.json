@@ -29,6 +29,7 @@
 },
 "airflow": {
 "apache-airflow-1.10.14": "2020-12-10",
+"apache-airflow-2.0.0": "2020-12-17",
 "apache-airflow-backport-providers-2020.11.23": "2020-11-24",
 "apache-airflow-providers-1.0.0": "2020-12-14",
 "apache-airflow-upgrade-check-1.0.0": "2020-11-25",
@@ -655,7 +656,7 @@
 "org.apache.felix.dependencymanager-r15": "2020-07-03",
 "org.apache.felix.deployment.rp.autoconf-0.1.8": "2020-07-03",
 "org.apache.felix.deploymentadmin-0.9.10": "2020-07-03",
-"org.apache.felix.eventadmin-1.5.0": "2020-07-03",
+"org.apache.felix.eventadmin-1.6.0": "2020-12-17",
 "org.apache.felix.fileinstall-3.6.8": "2020-07-27",
 "org.apache.felix.framework-5.6.12": "2020-07-03",
 "org.apache.felix.framework-6.0.4": "2020-12-15",
@@ -729,7 +730,7 @@
 "org.apache.felix.useradmin.filestore-1.0.2": "2020-07-03",
 "org.apache.felix.useradmin.mongodb-1.0.1": "2020-07-03",
 "org.apache.felix.utils-1.11.0": "2020-07-03",
-"org.apache.felix.webconsole-4.5.4": "2020-07-20",
+"org.apache.felix.webconsole-4.6.0": "2020-12-17",
 "org.osgi.compendium-1.4.0": "2020-07-03",
 "org.osgi.core-1.4.0": "2020-07-03",
 "org.osgi.foundation-1.2.0": "2020-07-03",
@@ -761,10 +762,12 @@
 },
 "flink": {
 "apache-flink-1.11.2": "2020-09-10",
+"apache-flink-1.11.3": "2020-12-13",
 "apache-flink-1.12.0": "2020-12-02",
 "apache-flink-statefun-2.1.0": "2020-07-03",
 "apache-flink-statefun-2.2.1": "2020-11-04",
 "flink-1.11.2": "2020-09-10",
+"flink-1.11.3": "2020-12-13",
 "flink-1.12.0": "2020-12-02",
 "flink-shaded-10.0": "2020-07-03",
 "flink-shaded-11.0": "2020-07-03",
@@ -1162,10 +1165,6 @@
 "ratis-thirdparty-0.3.0-incubating": "2020-07-03",
 "ratis-thirdparty-0.4.0-incubating": "2020-07-03",
 "ratis-thirdparty-0.5.0-incubating": "2020-07-08"
-},
-"incubator-rya": {
-"rya-3.2.12-incubating": "2020-07-03",
-"rya-4.0.0-incubating": "2020-07-03"
 },
 "incubator-s2graph": {
 "apache-s2graph-0.1.0-incubating": "2020-07-03",
@@ -2901,8 +2900,8 @@
 "qpid": {
 "apache-qpid-broker-j-7.1.10": "2020-10-18",
 "apache-qpid-broker-j-8.0.2": "2020-10-18",
-"apache-qpid-jms-0.54.0": "2020-08-13",
 "apache-qpid-jms-0.55.0": "2020-11-20",
+"apache-qpid-jms-0.56.0": "2020-12-14",
 "apache-qpid-jms-amqp-0-x-6.4.0": "2020-07-03",
 "apache-qpid-proton-j-0.33.7": "2020-10-26",
 "apache-qpid-proton-j-0.33.8": "2020-11-13",
@@ -2958,6 +2957,10 @@
 "apache-royale-compiler-build-tools-1.2.0": "2020-07-03",
 "apache-royale-compiler-build-tools-1.2.1": "2020-11-23",
 "compiler-build-tools-1.2.0": "2020-07-03"
+},
+"rya": {
+"rya-3.2.12-incubating": "2018-03-04",
+"rya-4.0.0-incubating": "2019-07-26"
 },
 "samza": {
 "apache-samza-0.10.0": "2020-07-03",
@@ -3475,7 +3478,9 @@
 "submarine-dist-0.3.0": "2020-07-03",
 "submarine-dist-0.3.0-hadoop-2.9": "2020-07-03",
 "submarine-dist-0.4.0": "2020-07-06",
-"submarine-dist-0.4.0-hadoop-2.9": "2020-07-06"
+"submarine-dist-0.4.0-hadoop-2.9": "2020-07-06",
+"submarine-dist-0.5.0": "2020-12-17",
+"submarine-dist-0.5.0-hadoop-2.9": "2020-12-17"
 },
 "subversion": {
 "subversion-1.10.6": "2020-07-03",
