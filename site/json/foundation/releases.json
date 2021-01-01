@@ -591,6 +591,13 @@
 "apache-datafu-sources-1.5.0": "2020-07-06",
 "apache-datafu-sources-1.6.0": "2020-07-06"
 },
+"datasketches": {
+"apache-datasketches-hive-1.1.0-incubating": "2020-07-06",
+"apache-datasketches-java-1.3.0-incubating": "2020-05-07",
+"apache-datasketches-memory-1.2.0-incubating": "2019-11-21",
+"apache-datasketches-pig-1.0.0-incubating": "2019-10-19",
+"apache-datasketches-postgresql-1.3.0-incubating": "2019-10-29"
+},
 "db": {
 "DdlUtils-1.0": "2020-07-06",
 "db-derby-10.14.2.0": "2020-07-06",
@@ -770,12 +777,10 @@
 "blazeds-4.7.3": "2020-07-06"
 },
 "flink": {
-"apache-flink-1.11.2": "2020-09-10",
 "apache-flink-1.11.3": "2020-12-13",
 "apache-flink-1.12.0": "2020-12-02",
 "apache-flink-statefun-2.1.0": "2020-07-03",
-"apache-flink-statefun-2.2.1": "2020-11-04",
-"flink-1.11.2": "2020-09-10",
+"apache-flink-statefun-2.2.2": "2020-12-23",
 "flink-1.11.3": "2020-12-13",
 "flink-1.12.0": "2020-12-02",
 "flink-shaded-10.0": "2020-07-03",
@@ -783,7 +788,7 @@
 "flink-shaded-12.0": "2020-09-29",
 "flink-shaded-9.0": "2020-07-03",
 "flink-statefun-2.1.0": "2020-07-03",
-"flink-statefun-2.2.1": "2020-11-04"
+"flink-statefun-2.2.2": "2020-12-23"
 },
 "flume": {
 "apache-flume-1.4.0": "2020-07-06",
@@ -1020,13 +1025,6 @@
 "apache-dlab-2.2-RC2-incubating": "2019-12-20",
 "apache-dlab-2.3.0-incubating": "2020-05-05",
 "apache-dlab-2.4.0-incubating": "2020-09-28"
-},
-"incubator-datasketches": {
-"apache-datasketches-hive-1.1.0-incubating": "2020-07-06",
-"apache-datasketches-java-1.3.0-incubating": "2020-07-03",
-"apache-datasketches-memory-1.2.0-incubating": "2020-07-03",
-"apache-datasketches-pig-1.0.0-incubating": "2020-07-03",
-"apache-datasketches-postgresql-1.3.0-incubating": "2020-07-03"
 },
 "incubator-dolphinscheduler": {
 "apache-dolphinscheduler-incubating-1.2.0": "2020-07-03",
@@ -3025,6 +3023,7 @@
 "apache-servicecomb-java-chassis-distribution-1.2.1": "2020-07-03",
 "apache-servicecomb-java-chassis-distribution-1.3.0": "2020-07-03",
 "apache-servicecomb-java-chassis-distribution-1.3.1": "2020-10-30",
+"apache-servicecomb-java-chassis-distribution-1.3.2": "2020-12-31",
 "apache-servicecomb-java-chassis-distribution-2.0.0": "2020-07-03",
 "apache-servicecomb-java-chassis-distribution-2.0.1": "2020-07-03",
 "apache-servicecomb-java-chassis-distribution-2.0.2": "2020-07-03",
@@ -3061,6 +3060,7 @@
 "apache-shardingsphere-5.0.0-alpha": "2020-11-03",
 "apache-shardingsphere-5.0.0-alpha-shardingsphere-ui": "2020-11-17",
 "apache-shardingsphere-elasticjob-3.0.0-RC1": "2020-12-19",
+"apache-shardingsphere-elasticjob-3.0.0-RC1-ui": "2020-12-27",
 "apache-shardingsphere-elasticjob-3.0.0-alpha": "2020-08-04",
 "apache-shardingsphere-elasticjob-3.0.0-alpha-ui": "2020-08-11",
 "apache-shardingsphere-elasticjob-3.0.0-beta": "2020-10-31",
@@ -3300,7 +3300,7 @@
 "org.apache.sling.kickstart-0.0.12-validation.slingosgifeature": "2020-11-03",
 "org.apache.sling.kickstart-0.0.12-webconsole.slingosgifeature": "2020-11-03",
 "org.apache.sling.launchpad.api-1.2.0": "2020-07-03",
-"org.apache.sling.launchpad.base-6.0.4-2.6.38": "2020-12-21",
+"org.apache.sling.launchpad.base-7.0.0-2.7.0": "2020-12-31",
 "org.apache.sling.launchpad.content-2.0.12": "2020-07-03",
 "org.apache.sling.launchpad.installer-1.2.2": "2020-07-03",
 "org.apache.sling.launchpad.integration-tests-1.0.10": "2020-07-03",
