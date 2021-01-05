@@ -9414,7 +9414,7 @@
 },
 "jspwiki": {
 "category": "content",
-"description": "\n        Apache JSPWiki is a feature-rich and extensible WikiWiki engine built around the standard JEE \n        components (Java, servlets, JSP). It features:\n        - WikiMarkup/Structured Text\n        - File attachments \n        - Templates support\n        - Data storage through 3 WikiPage Providers, with the capability to plug new ones\n        - Security: Authorization and authentication fine grain control\n        - Easy plugin interface\n        - UTF-8 support\n        - JSP-based\n        - Easy-ish installation\n        - Page locking to prevent editing conflicts\n        - Support for Multiple Wikis\n    ",
+"description": "\n        Apache JSPWiki is a feature-rich and extensible WikiWiki engine built around the standard JEE \n        components (Java, servlets, JSP). It features:\n        - WikiMarkup/Structured Text\n        - File attachments \n        - Templates support\n        - Data storage through 2 WikiPage Providers, with the capability to plug new ones\n        - Security: Authorization and authentication fine grain control\n        - Easy plugin and page filter interfaces\n        - UTF-8 support\n        - JSP-based\n        - Easy-ish installation\n        - Page locking to prevent editing conflicts\n        - Support for Multiple Wikis\n        - Custom User Preferences\n    ",
 "doap": "http://svn.apache.org/repos/asf/jspwiki/site/doap/doap-jspwiki.rdf",
 "download-page": "http://jspwiki.apache.org/general/downloads.html",
 "homepage": "http://jspwiki.apache.org/",
@@ -9426,7 +9426,7 @@
 "repository": [
 "http://svn.apache.org/repos/asf/jspwiki/"
 ],
-"shortdesc": "A feature-rich and extensible WikiWiki engine built around the standard \n        J2EE components (Java, servlets, JSP).",
+"shortdesc": "A feature-rich and extensible WikiWiki engine built around the standard \n        JEE components (Java, servlets, JSP).",
 "shortname": "jspwiki"
 },
 "juddi-scout": {
