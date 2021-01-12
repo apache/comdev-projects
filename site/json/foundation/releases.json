@@ -67,7 +67,8 @@
 "apache-apisix-dashboard-2.1": "2020-11-23",
 "apache-apisix-dashboard-2.1.1": "2020-12-07",
 "apache-apisix-dashboard-2.2": "2020-12-16",
-"apache-apisix-ingress-controller-0.1.0-rc2": "2021-01-04"
+"apache-apisix-ingress-controller-0.1.0-rc2": "2021-01-04",
+"apisix-dashboard-2.3": "2021-01-11"
 },
 "apr": {
 "apr-1.6.5": "2020-07-06",
@@ -233,7 +234,7 @@
 },
 "bookkeeper": {
 "bookkeeper-4.11.1": "2020-10-06",
-"bookkeeper-4.12.0": "2020-11-11",
+"bookkeeper-4.12.1": "2020-12-28",
 "distributedlog-0.5.0": "2020-07-03"
 },
 "brooklyn": {
@@ -405,11 +406,13 @@
 "apache-cloudstack-4.12.0.0": "2020-07-03",
 "apache-cloudstack-4.13.1.0": "2020-07-03",
 "apache-cloudstack-4.14.0.0": "2020-07-03",
+"apache-cloudstack-4.15.0.0": "2021-01-05",
 "apache-cloudstack-cloudmonkey-5.3.2": "2020-07-03",
 "apache-cloudstack-cloudmonkey-5.3.3": "2020-07-03",
 "apache-cloudstack-cloudmonkey-6.0.0": "2020-07-03",
 "apache-cloudstack-cloudmonkey-6.1.0": "2020-07-01",
-"apache-cloudstack-ec2stack-0.8.0": "2020-07-03"
+"apache-cloudstack-ec2stack-0.8.0": "2020-07-03",
+"apache-cloudstack-primate-1.0": "2021-01-05"
 },
 "cocoon": {
 "cocoon-2.1.13": "2020-07-29",
@@ -652,6 +655,18 @@
 "apache-eagle-0.4.0-incubating": "2020-07-06",
 "apache-eagle-0.5.0": "2020-07-06"
 },
+"echarts": {
+"apache-echarts-4.1.0-incubating": "2019-03-26",
+"apache-echarts-4.2.1-incubating": "2019-03-20",
+"apache-echarts-4.3.0-incubating": "2019-09-16",
+"apache-echarts-4.4.0-incubating": "2019-10-14",
+"apache-echarts-4.5.0-incubating": "2019-11-16",
+"apache-echarts-4.6.0-incubating": "2020-01-01",
+"apache-echarts-4.7.0-incubating": "2020-03-18",
+"apache-echarts-4.8.0-incubating": "2020-05-26",
+"apache-echarts-4.9.0-incubating": "2020-08-28",
+"apache-echarts-5.0.0-incubating": "2020-12-02"
+},
 "empire-db": {
 "apache-empire-db-2.5.0": "2020-07-03"
 },
@@ -676,7 +691,7 @@
 "org.apache.felix.dependencymanager-r15": "2020-07-03",
 "org.apache.felix.deployment.rp.autoconf-0.1.8": "2020-07-03",
 "org.apache.felix.deploymentadmin-0.9.10": "2020-07-03",
-"org.apache.felix.eventadmin-1.6.0": "2020-12-17",
+"org.apache.felix.eventadmin-1.6.2": "2021-01-11",
 "org.apache.felix.fileinstall-3.6.8": "2020-07-27",
 "org.apache.felix.framework-5.6.12": "2020-07-03",
 "org.apache.felix.framework-7.0.0": "2020-12-25",
@@ -1005,7 +1020,9 @@
 "apache-iceberg-0.9.1": "2020-08-15"
 },
 "ignite": {
-"apache-ignite-2.9.1": "2020-12-14"
+"apache-ignite-2.9.1": "2020-12-14",
+"apache-ignite-3.0.0-alpha1": "2021-01-11",
+"ignite": "2021-01-11"
 },
 "impala": {
 "apache-impala-3.3.0": "2020-07-03",
@@ -1053,18 +1070,6 @@
 "apache-druid-0.15.1-incubating": "2020-07-03",
 "apache-druid-0.16.0-incubating": "2020-07-03",
 "apache-druid-0.16.1-incubating": "2020-07-03"
-},
-"incubator-echarts": {
-"apache-echarts-4.1.0-incubating": "2020-07-03",
-"apache-echarts-4.2.1-incubating": "2020-07-03",
-"apache-echarts-4.3.0-incubating": "2020-07-03",
-"apache-echarts-4.4.0-incubating": "2020-07-03",
-"apache-echarts-4.5.0-incubating": "2020-07-03",
-"apache-echarts-4.6.0-incubating": "2020-07-03",
-"apache-echarts-4.7.0-incubating": "2020-07-03",
-"apache-echarts-4.8.0-incubating": "2020-07-03",
-"apache-echarts-4.9.0-incubating": "2020-08-28",
-"apache-echarts-5.0.0-incubating": "2020-12-02"
 },
 "incubator-flagon": {
 "apache-flagon-useralejs-incubating-1.0.0": "2020-07-03",
@@ -1697,7 +1702,8 @@
 "DISCLAIMER": "2020-07-06",
 "apache-mnemonic-0.10.0-incubating": "2020-07-06",
 "apache-mnemonic-0.11.0": "2020-07-06",
-"apache-mnemonic-0.12.0": "2020-07-06"
+"apache-mnemonic-0.12.0": "2020-07-06",
+"apache-mnemonic-0.13.0": "2021-01-11"
 },
 "myfaces": {
 "myfaces-commons11-1.0.2": "2020-07-03",
