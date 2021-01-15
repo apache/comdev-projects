@@ -803,24 +803,16 @@
 },
 "camel": {
 "apache-camel-2.25.3": [
-"camel/apache-camel/2.25.3/apache-camel-2.25.3-src.zip",
-"camel/apache-camel/2.25.3/apache-camel-2.25.3.tar.gz",
-"camel/apache-camel/2.25.3/apache-camel-2.25.3.zip"
+"camel/apache-camel/2.25.3/apache-camel-2.25.3-src.zip"
 ],
 "apache-camel-3.4.5": [
-"camel/apache-camel/3.4.5/apache-camel-3.4.5-src.zip",
-"camel/apache-camel/3.4.5/apache-camel-3.4.5.tar.gz",
-"camel/apache-camel/3.4.5/apache-camel-3.4.5.zip"
+"camel/apache-camel/3.4.5/apache-camel-3.4.5-src.zip"
 ],
 "apache-camel-3.6.0": [
-"camel/apache-camel/3.6.0/apache-camel-3.6.0-src.zip",
-"camel/apache-camel/3.6.0/apache-camel-3.6.0.tar.gz",
-"camel/apache-camel/3.6.0/apache-camel-3.6.0.zip"
+"camel/apache-camel/3.6.0/apache-camel-3.6.0-src.zip"
 ],
 "apache-camel-3.7.0": [
-"camel/apache-camel/3.7.0/apache-camel-3.7.0-src.zip",
-"camel/apache-camel/3.7.0/apache-camel-3.7.0.tar.gz",
-"camel/apache-camel/3.7.0/apache-camel-3.7.0.zip"
+"camel/apache-camel/3.7.0/apache-camel-3.7.0-src.zip"
 ],
 "apache-camel-k-runtime-1.5.0": [
 "camel/camel-k-runtime/1.5.0/apache-camel-k-runtime-1.5.0-source-release.zip"
@@ -2821,10 +2813,12 @@
 "hadoop/common/current2/RELEASENOTES.md",
 "hadoop/common/hadoop-2.10.1/RELEASENOTES.md",
 "hadoop/common/hadoop-3.1.4/RELEASENOTES.md",
+"hadoop/common/hadoop-3.2.2/RELEASENOTES.md",
 "hadoop/common/hadoop-3.3.0/RELEASENOTES.md",
 "hadoop/core/current2/RELEASENOTES.md",
 "hadoop/core/hadoop-2.10.1/RELEASENOTES.md",
 "hadoop/core/hadoop-3.1.4/RELEASENOTES.md",
+"hadoop/core/hadoop-3.2.2/RELEASENOTES.md",
 "hadoop/core/hadoop-3.3.0/RELEASENOTES.md",
 "hadoop/thirdparty/thirdparty-1.0.0/RELEASENOTES.md"
 ],
@@ -2855,6 +2849,14 @@
 "hadoop/common/hadoop-3.2.1/hadoop-3.2.1.tar.gz",
 "hadoop/core/hadoop-3.2.1/hadoop-3.2.1-src.tar.gz",
 "hadoop/core/hadoop-3.2.1/hadoop-3.2.1.tar.gz"
+],
+"hadoop-3.2.2": [
+"hadoop/common/hadoop-3.2.2/hadoop-3.2.2-site.tar.gz",
+"hadoop/common/hadoop-3.2.2/hadoop-3.2.2-src.tar.gz",
+"hadoop/common/hadoop-3.2.2/hadoop-3.2.2.tar.gz",
+"hadoop/core/hadoop-3.2.2/hadoop-3.2.2-site.tar.gz",
+"hadoop/core/hadoop-3.2.2/hadoop-3.2.2-src.tar.gz",
+"hadoop/core/hadoop-3.2.2/hadoop-3.2.2.tar.gz"
 ],
 "hadoop-3.3.0": [
 "hadoop/common/hadoop-3.3.0/hadoop-3.3.0-site.tar.gz",
@@ -3934,9 +3936,9 @@
 "jackrabbit/2.20.2/jackrabbit-2.20.2-src.zip",
 "jackrabbit/2.20.2/jackrabbit-webapp-2.20.2.war"
 ],
-"jackrabbit-2.21.4": [
-"jackrabbit/2.21.4/jackrabbit-2.21.4-src.zip",
-"jackrabbit/2.21.4/jackrabbit-webapp-2.21.4.war"
+"jackrabbit-2.21.5": [
+"jackrabbit/2.21.5/jackrabbit-2.21.5-src.zip",
+"jackrabbit/2.21.5/jackrabbit-webapp-2.21.5.war"
 ],
 "jackrabbit-2.4.8": [
 "jackrabbit/2.4.8/jackrabbit-2.4.8-src.zip",
@@ -4040,8 +4042,8 @@
 "jackrabbit-jca-2.20.2": [
 "jackrabbit/2.20.2/jackrabbit-jca-2.20.2.rar"
 ],
-"jackrabbit-jca-2.21.4": [
-"jackrabbit/2.21.4/jackrabbit-jca-2.21.4.rar"
+"jackrabbit-jca-2.21.5": [
+"jackrabbit/2.21.5/jackrabbit-jca-2.21.5.rar"
 ],
 "jackrabbit-jca-2.4.8": [
 "jackrabbit/2.4.8/jackrabbit-jca-2.4.8.rar"
@@ -5407,6 +5409,9 @@
 "apache-netbeans-java-12.2.0.vsix": [
 "netbeans/netbeans-vscode-ext/12.2.0/apache-netbeans-java-12.2.0.vsix"
 ],
+"apache-netbeans-java-12.2.1.vsix": [
+"netbeans/netbeans-vscode-ext/12.2.1/apache-netbeans-java-12.2.1.vsix"
+],
 "bcpg.nbm": [
 "netbeans/netbeans/12.0/nbms/ide/bcpg.nbm",
 "netbeans/netbeans/12.2/nbms/ide/bcpg.nbm"
@@ -5493,6 +5498,9 @@
 ],
 "netbeans-12.2": [
 "netbeans/netbeans/12.2/netbeans-12.2-source.zip"
+],
+"netbeans-12.2.1": [
+"netbeans/netbeans-vscode-ext/12.2.1/netbeans-12.2.1-source.zip"
 ],
 "netbeans-2": [
 "netbeans/netbeans-parent/netbeans-parent-2/netbeans-parent-2-source-release.zip"
@@ -9809,6 +9817,9 @@
 "skywalking-client-js-0.2.0": [
 "skywalking/client-js/0.2.0/skywalking-client-js-0.2.0-src.tgz"
 ],
+"skywalking-client-js-0.3.0": [
+"skywalking/client-js/0.3.0/skywalking-client-js-0.3.0-src.tgz"
+],
 "skywalking-kubernetes-3.0.0": [
 "skywalking/kubernetes/3.0.0/skywalking-kubernetes-3.0.0-src.tgz"
 ],
@@ -12764,8 +12775,8 @@
 ]
 },
 "zookeeper": {
-"apache-zookeeper-3.5.8": [
-"zookeeper/zookeeper-3.5.8/apache-zookeeper-3.5.8.tar.gz"
+"apache-zookeeper-3.5.9": [
+"zookeeper/zookeeper-3.5.9/apache-zookeeper-3.5.9.tar.gz"
 ],
 "apache-zookeeper-3.6.2": [
 "zookeeper/zookeeper-3.6.2/apache-zookeeper-3.6.2.tar.gz"
