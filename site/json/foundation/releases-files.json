@@ -1751,6 +1751,10 @@
 "apache-ctakes-4.0.0": [
 "ctakes/ctakes-4.0.0/apache-ctakes-4.0.0-src.tar.gz",
 "ctakes/ctakes-4.0.0/apache-ctakes-4.0.0-src.zip"
+],
+"apache-ctakes-4.0.0.1": [
+"ctakes/ctakes-4.0.0.1/apache-ctakes-4.0.0.1-src.tar.gz",
+"ctakes/ctakes-4.0.0.1/apache-ctakes-4.0.0.1-src.zip"
 ]
 },
 "curator": {
@@ -1827,8 +1831,8 @@
 "apache-datasketches-java-1.3.0-incubating": [
 "datasketches/java/1.3.0-incubating/apache-datasketches-java-1.3.0-incubating-src.zip"
 ],
-"apache-datasketches-memory-1.2.0-incubating": [
-"datasketches/memory/1.2.0-incubating/apache-datasketches-memory-1.2.0-incubating-src.zip"
+"apache-datasketches-memory-1.3.0": [
+"datasketches/memory/1.3.0/apache-datasketches-memory-1.3.0-src.zip"
 ],
 "apache-datasketches-pig-1.0.0-incubating": [
 "datasketches/pig/1.0.0-incubating/apache-datasketches-pig-1.0.0-incubating-src.zip"
@@ -2920,6 +2924,7 @@
 "RELEASENOTES.md": [
 "hbase/2.2.6/RELEASENOTES.md",
 "hbase/2.3.3/RELEASENOTES.md",
+"hbase/2.3.4/RELEASENOTES.md",
 "hbase/2.4.0/RELEASENOTES.md",
 "hbase/hbase-filesystem-1.0.0-alpha1/RELEASENOTES.md",
 "hbase/hbase-operator-tools-1.0.0/RELEASENOTES.md",
@@ -2936,6 +2941,9 @@
 ],
 "hbase-2.3.3": [
 "hbase/2.3.3/hbase-2.3.3-src.tar.gz"
+],
+"hbase-2.3.4": [
+"hbase/2.3.4/hbase-2.3.4-src.tar.gz"
 ],
 "hbase-2.4.0": [
 "hbase/2.4.0/hbase-2.4.0-src.tar.gz"
@@ -3866,11 +3874,8 @@
 "apache-iotdb-0.10.1-incubating": [
 "iotdb/0.10.1-incubating/apache-iotdb-0.10.1-incubating-source-release.zip"
 ],
-"apache-iotdb-0.11.0": [
-"iotdb/0.11.0/apache-iotdb-0.11.0-source-release.zip"
-],
-"apache-iotdb-0.11.1": [
-"iotdb/0.11.1/apache-iotdb-0.11.1-source-release.zip"
+"apache-iotdb-0.11.2": [
+"iotdb/0.11.2/apache-iotdb-0.11.2-source-release.zip"
 ]
 },
 "isis": {
@@ -3905,6 +3910,9 @@
 ],
 "filevault-package-maven-plugin-1.1.4": [
 "jackrabbit/filevault-package-maven-plugin/1.1.4/filevault-package-maven-plugin-1.1.4-source-release.zip"
+],
+"filevault-package-maven-plugin-1.1.6": [
+"jackrabbit/filevault-package-maven-plugin/1.1.6/filevault-package-maven-plugin-1.1.6-source-release.zip"
 ],
 "jackrabbit-2.10.9": [
 "jackrabbit/2.10.9/jackrabbit-2.10.9-src.zip",
@@ -4017,6 +4025,9 @@
 ],
 "jackrabbit-filevault-3.4.6": [
 "jackrabbit/filevault/3.4.6/jackrabbit-filevault-3.4.6-src.zip"
+],
+"jackrabbit-filevault-3.4.8": [
+"jackrabbit/filevault/3.4.8/jackrabbit-filevault-3.4.8-src.zip"
 ],
 "jackrabbit-jca-2.10.9": [
 "jackrabbit/2.10.9/jackrabbit-jca-2.10.9.rar"
@@ -8792,11 +8803,11 @@
 "orc-1.5.12": [
 "orc/orc-1.5.12/orc-1.5.12.tar.gz"
 ],
-"orc-1.6.5": [
-"orc/orc-1.6.5/orc-1.6.5.tar.gz"
-],
 "orc-1.6.6": [
 "orc/orc-1.6.6/orc-1.6.6.tar.gz"
+],
+"orc-1.6.7": [
+"orc/orc-1.6.7/orc-1.6.7.tar.gz"
 ]
 },
 "parquet": {
@@ -9447,8 +9458,8 @@
 "rocketmq-client-go-2.0.0": [
 "rocketmq/rocketmq-client-go/2.0.0/rocketmq-client-go-2.0.0-source-release.tar.gz"
 ],
-"rocketmq-spring-all-2.1.1": [
-"rocketmq/rocketmq-spring/2.1.1/rocketmq-spring-all-2.1.1-source-release.zip"
+"rocketmq-spring-rocketmq-spring-all-2.2.0": [
+"rocketmq/rocketmq-spring/2.2.0/rocketmq-spring-rocketmq-spring-all-2.2.0.zip"
 ]
 },
 "roller": {
@@ -11428,8 +11439,8 @@
 "apache-tinkerpop-3.3.11": [
 "tinkerpop/3.3.11/apache-tinkerpop-3.3.11-src.zip"
 ],
-"apache-tinkerpop-3.4.9": [
-"tinkerpop/3.4.9/apache-tinkerpop-3.4.9-src.zip"
+"apache-tinkerpop-3.4.10": [
+"tinkerpop/3.4.10/apache-tinkerpop-3.4.10-src.zip"
 ]
 },
 "tomcat": {
