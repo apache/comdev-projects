@@ -443,9 +443,6 @@
 ]
 },
 "arrow": {
-"apache-arrow-0.17.1": [
-"arrow/arrow-0.17.1/apache-arrow-0.17.1.tar.gz"
-],
 "apache-arrow-1.0.0": [
 "arrow/arrow-1.0.0/apache-arrow-1.0.0.tar.gz"
 ],
@@ -454,6 +451,9 @@
 ],
 "apache-arrow-2.0.0": [
 "arrow/arrow-2.0.0/apache-arrow-2.0.0.tar.gz"
+],
+"apache-arrow-3.0.0": [
+"arrow/arrow-3.0.0/apache-arrow-3.0.0.tar.gz"
 ]
 },
 "asterixdb": {
@@ -2098,9 +2098,6 @@
 "felix/org.apache.felix.coordinator-1.0.2-source-release.tar.gz",
 "felix/org.apache.felix.coordinator-1.0.2-source-release.zip"
 ],
-"org.apache.felix.dependencymanager-r15": [
-"felix/org.apache.felix.dependencymanager-r15-src.zip"
-],
 "org.apache.felix.dependencymanager-r16": [
 "felix/org.apache.felix.dependencymanager-r16-src.zip"
 ],
@@ -2926,7 +2923,6 @@
 "hbase": {
 "RELEASENOTES.md": [
 "hbase/2.2.6/RELEASENOTES.md",
-"hbase/2.3.3/RELEASENOTES.md",
 "hbase/2.3.4/RELEASENOTES.md",
 "hbase/2.4.0/RELEASENOTES.md",
 "hbase/hbase-filesystem-1.0.0-alpha1/RELEASENOTES.md",
@@ -2941,9 +2937,6 @@
 ],
 "hbase-2.2.6": [
 "hbase/2.2.6/hbase-2.2.6-src.tar.gz"
-],
-"hbase-2.3.3": [
-"hbase/2.3.3/hbase-2.3.3-src.tar.gz"
 ],
 "hbase-2.3.4": [
 "hbase/2.3.4/hbase-2.3.4-src.tar.gz"
@@ -3354,6 +3347,11 @@
 "incubator/hivemall/0.6.0-incubating/hivemall-0.6.0-incubating-source-release.zip"
 ]
 },
+"incubator-hop": {
+"apache-hop-0.60-incubating": [
+"incubator/hop/0.60/apache-hop-0.60-incubating.tar.gz"
+]
+},
 "incubator-iceberg": {
 "apache-iceberg-0.7.0-incubating": [
 "incubator/iceberg/apache-iceberg-0.7.0-incubating/apache-iceberg-0.7.0-incubating.tar.gz"
@@ -3569,6 +3567,9 @@
 ],
 "ratis-thirdparty-0.5.0-incubating": [
 "incubator/ratis/thirdparty/0.5.0/ratis-thirdparty-0.5.0-incubating-src.tar.gz"
+],
+"ratis-thirdparty-0.6.0-incubating": [
+"incubator/ratis/thirdparty/0.6.0/rc0/ratis-thirdparty-0.6.0-incubating-src.tar.gz"
 ]
 },
 "incubator-s2graph": {
@@ -4495,6 +4496,11 @@
 "libcloud/apache-libcloud-3.3.0.tar.bz2",
 "libcloud/apache-libcloud-3.3.0.tar.gz",
 "libcloud/apache-libcloud-3.3.0.zip"
+],
+"apache-libcloud-3.3.1": [
+"libcloud/apache-libcloud-3.3.1.tar.bz2",
+"libcloud/apache-libcloud-3.3.1.tar.gz",
+"libcloud/apache-libcloud-3.3.1.zip"
 ]
 },
 "logging": {
@@ -8691,6 +8697,11 @@
 "openoffice/4.1.8/source/apache-openoffice-4.1.8-18848f57b6-src.tar.bz2",
 "openoffice/4.1.8/source/apache-openoffice-4.1.8-18848f57b6-src.tar.gz",
 "openoffice/4.1.8/source/apache-openoffice-4.1.8-18848f57b6-src.zip"
+],
+"apache-openoffice-4.1.9-561082130a": [
+"openoffice/4.1.9/source/apache-openoffice-4.1.9-561082130a-src.tar.bz2",
+"openoffice/4.1.9/source/apache-openoffice-4.1.9-561082130a-src.tar.gz",
+"openoffice/4.1.9/source/apache-openoffice-4.1.9-561082130a-src.zip"
 ]
 },
 "openwebbeans": {
@@ -11807,6 +11818,22 @@
 "tomee/tomee-8.0.5/apache-tomee-8.0.5-webprofile.tar.gz",
 "tomee/tomee-8.0.5/apache-tomee-8.0.5-webprofile.zip"
 ],
+"apache-tomee-8.0.6-microprofile": [
+"tomee/tomee-8.0.6/apache-tomee-8.0.6-microprofile.tar.gz",
+"tomee/tomee-8.0.6/apache-tomee-8.0.6-microprofile.zip"
+],
+"apache-tomee-8.0.6-plume": [
+"tomee/tomee-8.0.6/apache-tomee-8.0.6-plume.tar.gz",
+"tomee/tomee-8.0.6/apache-tomee-8.0.6-plume.zip"
+],
+"apache-tomee-8.0.6-plus": [
+"tomee/tomee-8.0.6/apache-tomee-8.0.6-plus.tar.gz",
+"tomee/tomee-8.0.6/apache-tomee-8.0.6-plus.zip"
+],
+"apache-tomee-8.0.6-webprofile": [
+"tomee/tomee-8.0.6/apache-tomee-8.0.6-webprofile.tar.gz",
+"tomee/tomee-8.0.6/apache-tomee-8.0.6-webprofile.zip"
+],
 "apache-tomee-9.0.0-M1": [
 "tomee/tomee-8.0.3/apache-tomee-9.0.0-M1-source-release.zip"
 ],
@@ -11937,6 +11964,10 @@
 "tomee/tomee-8.0.5/examples-8.0.5-src.tar.gz",
 "tomee/tomee-8.0.5/examples-8.0.5-src.zip"
 ],
+"examples-8.0.6": [
+"tomee/tomee-8.0.6/examples-8.0.6-src.tar.gz",
+"tomee/tomee-8.0.6/examples-8.0.6-src.zip"
+],
 "javaee-api-8.0": [
 "tomee/tomee-8.0.0-M1/javaee-api-8.0-source-release.zip"
 ],
@@ -12013,6 +12044,10 @@
 "openejb-8.0.5": [
 "tomee/tomee-8.0.5/openejb-standalone-8.0.5.tar.gz",
 "tomee/tomee-8.0.5/openejb-standalone-8.0.5.zip"
+],
+"openejb-8.0.6": [
+"tomee/tomee-8.0.6/openejb-standalone-8.0.6.tar.gz",
+"tomee/tomee-8.0.6/openejb-standalone-8.0.6.zip"
 ],
 "openejb-provisionning-4.6.0.2": [
 "tomee/tomee-1.6.0.2/openejb-provisionning-4.6.0.2.tar.gz",
@@ -12122,6 +12157,10 @@
 "tomee/tomee-8.0.5/tomee-project-8.0.5-source-release.zip",
 "tomee/tomee-8.0.5/tomee-webapp-8.0.5.war"
 ],
+"tomee-8.0.6": [
+"tomee/tomee-8.0.6/tomee-project-8.0.6-source-release.zip",
+"tomee/tomee-8.0.6/tomee-webapp-8.0.6.war"
+],
 "tomee-jaxrs-1.6.0.2": [
 "tomee/tomee-1.6.0.2/tomee-jaxrs-webapp-1.6.0.2.war"
 ],
@@ -12163,6 +12202,9 @@
 ],
 "tomee-microprofile-8.0.5": [
 "tomee/tomee-8.0.5/tomee-microprofile-webapp-8.0.5.war"
+],
+"tomee-microprofile-8.0.6": [
+"tomee/tomee-8.0.6/tomee-microprofile-webapp-8.0.6.war"
 ],
 "tomee-patch-0.1": [
 "tomee/tomee-8.0.3/tomee-patch-parent-0.1-source-release.zip"
@@ -12218,6 +12260,9 @@
 "tomee-plume-8.0.5": [
 "tomee/tomee-8.0.5/tomee-plume-webapp-8.0.5.war"
 ],
+"tomee-plume-8.0.6": [
+"tomee/tomee-8.0.6/tomee-plume-webapp-8.0.6.war"
+],
 "tomee-plus-1.6.0.2": [
 "tomee/tomee-1.6.0.2/tomee-plus-webapp-1.6.0.2.war"
 ],
@@ -12271,6 +12316,9 @@
 ],
 "tomee-plus-8.0.5": [
 "tomee/tomee-8.0.5/tomee-plus-webapp-8.0.5.war"
+],
+"tomee-plus-8.0.6": [
+"tomee/tomee-8.0.6/tomee-plus-webapp-8.0.6.war"
 ],
 "tomee-webaccess-1.6.0.2": [
 "tomee/tomee-1.6.0.2/tomee-webaccess-1.6.0.2.war"

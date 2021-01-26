@@ -153,10 +153,10 @@
 "tx-control-1.0.1": "2020-07-03"
 },
 "arrow": {
-"apache-arrow-0.17.1": "2020-07-03",
 "apache-arrow-1.0.0": "2020-07-24",
 "apache-arrow-1.0.1": "2020-08-21",
-"apache-arrow-2.0.0": "2020-10-19"
+"apache-arrow-2.0.0": "2020-10-19",
+"apache-arrow-3.0.0": "2021-01-25"
 },
 "asterixdb": {
 "apache-asterixdb-0.9.1": "2020-07-06",
@@ -688,7 +688,6 @@
 "org.apache.felix.connect-0.2.0": "2020-07-03",
 "org.apache.felix.converter-1.0.14": "2020-07-03",
 "org.apache.felix.coordinator-1.0.2": "2020-07-03",
-"org.apache.felix.dependencymanager-r15": "2020-07-03",
 "org.apache.felix.dependencymanager-r16": "2021-01-24",
 "org.apache.felix.deployment.rp.autoconf-0.1.8": "2020-07-03",
 "org.apache.felix.deploymentadmin-0.9.10": "2020-07-03",
@@ -937,7 +936,6 @@
 "hbase-1.4.13": "2020-07-03",
 "hbase-1.6.0": "2020-07-03",
 "hbase-2.2.6": "2020-09-16",
-"hbase-2.3.3": "2020-10-28",
 "hbase-2.3.4": "2021-01-15",
 "hbase-2.4.0": "2020-12-03",
 "hbase-connectors-1.0.0": "2020-07-03",
@@ -1090,6 +1088,9 @@
 "hivemall-0.5.2-incubating": "2020-07-03",
 "hivemall-0.6.0-incubating": "2020-07-03"
 },
+"incubator-hop": {
+"apache-hop-0.60-incubating": "2021-01-25"
+},
 "incubator-iceberg": {
 "apache-iceberg-0.7.0-incubating": "2020-07-03",
 "apache-iceberg-0.8.0-incubating": "2020-07-03"
@@ -1180,7 +1181,8 @@
 "ratis-thirdparty-0.2.0-incubating": "2020-07-03",
 "ratis-thirdparty-0.3.0-incubating": "2020-07-03",
 "ratis-thirdparty-0.4.0-incubating": "2020-07-03",
-"ratis-thirdparty-0.5.0-incubating": "2020-07-08"
+"ratis-thirdparty-0.5.0-incubating": "2020-07-08",
+"ratis-thirdparty-0.6.0-incubating": "2021-01-08"
 },
 "incubator-s2graph": {
 "apache-s2graph-0.1.0-incubating": "2020-07-03",
@@ -1495,7 +1497,8 @@
 "libcloud": {
 "apache-libcloud-2.8.3": "2020-07-03",
 "apache-libcloud-3.2.0": "2020-09-20",
-"apache-libcloud-3.3.0": "2021-01-02"
+"apache-libcloud-3.3.0": "2021-01-02",
+"apache-libcloud-3.3.1": "2021-01-25"
 },
 "logging": {
 "Apache_log4php-2.3.0": "2020-07-03",
@@ -2629,7 +2632,8 @@
 "apache-opennlp-1.9.3": "2020-08-02"
 },
 "openoffice": {
-"apache-openoffice-4.1.8-18848f57b6": "2020-11-05"
+"apache-openoffice-4.1.8-18848f57b6": "2020-11-05",
+"apache-openoffice-4.1.9-561082130a": "2021-01-10"
 },
 "openwebbeans": {
 "meecrowave-1.2.10": "2020-11-15",
@@ -3645,6 +3649,10 @@
 "apache-tomee-8.0.5-plume": "2020-11-17",
 "apache-tomee-8.0.5-plus": "2020-11-17",
 "apache-tomee-8.0.5-webprofile": "2020-11-17",
+"apache-tomee-8.0.6-microprofile": "2021-01-14",
+"apache-tomee-8.0.6-plume": "2021-01-14",
+"apache-tomee-8.0.6-plus": "2021-01-14",
+"apache-tomee-8.0.6-webprofile": "2021-01-14",
 "apache-tomee-9.0.0-M1": "2020-07-03",
 "apache-tomee-9.0.0-M1-microprofile": "2020-07-03",
 "apache-tomee-9.0.0-M1-plume": "2020-07-03",
@@ -3682,6 +3690,7 @@
 "examples-8.0.3": "2020-07-03",
 "examples-8.0.4": "2020-07-22",
 "examples-8.0.5": "2020-11-17",
+"examples-8.0.6": "2021-01-14",
 "javaee-api-8.0": "2020-07-03",
 "openejb-4.6.0.2": "2020-07-03",
 "openejb-4.7.5": "2020-07-03",
@@ -3701,6 +3710,7 @@
 "openejb-8.0.3": "2020-07-03",
 "openejb-8.0.4": "2020-07-22",
 "openejb-8.0.5": "2020-11-17",
+"openejb-8.0.6": "2021-01-14",
 "openejb-provisionning-4.6.0.2": "2020-07-03",
 "openejb-provisionning-4.7.5": "2020-07-03",
 "openejb-provisionning-7.0.6": "2020-07-03",
@@ -3730,6 +3740,7 @@
 "tomee-8.0.3": "2020-07-03",
 "tomee-8.0.4": "2020-07-22",
 "tomee-8.0.5": "2020-11-17",
+"tomee-8.0.6": "2021-01-14",
 "tomee-jaxrs-1.6.0.2": "2020-07-03",
 "tomee-jaxrs-1.7.5": "2020-07-03",
 "tomee-microprofile-7.1.1": "2020-07-03",
@@ -3744,6 +3755,7 @@
 "tomee-microprofile-8.0.3": "2020-07-03",
 "tomee-microprofile-8.0.4": "2020-07-22",
 "tomee-microprofile-8.0.5": "2020-11-17",
+"tomee-microprofile-8.0.6": "2021-01-14",
 "tomee-patch-0.1": "2020-07-03",
 "tomee-plume-1.7.5": "2020-07-03",
 "tomee-plume-7.0.6": "2020-07-03",
@@ -3762,6 +3774,7 @@
 "tomee-plume-8.0.3": "2020-07-03",
 "tomee-plume-8.0.4": "2020-07-22",
 "tomee-plume-8.0.5": "2020-11-17",
+"tomee-plume-8.0.6": "2021-01-14",
 "tomee-plus-1.6.0.2": "2020-07-03",
 "tomee-plus-1.7.5": "2020-07-03",
 "tomee-plus-7.0.6": "2020-07-03",
@@ -3780,6 +3793,7 @@
 "tomee-plus-8.0.3": "2020-07-03",
 "tomee-plus-8.0.4": "2020-07-22",
 "tomee-plus-8.0.5": "2020-11-17",
+"tomee-plus-8.0.6": "2021-01-14",
 "tomee-webaccess-1.6.0.2": "2020-07-03",
 "tomee-webaccess-1.7.5": "2020-07-03",
 "tomee-webaccess-8.0.0-M3": "2020-07-03"
