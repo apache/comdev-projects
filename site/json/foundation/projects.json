@@ -7966,7 +7966,7 @@
 "bug-database": "https://issues.apache.org/jira/browse/DAFFODIL",
 "category": "big-data, library, xml",
 "created": "2017-08-27",
-"description": "Apache Daffodil is an open-source implementation of\n        the DFDL specification that uses DFDL data descriptions to parse\n        fixed format data into an infoset, which is most commonly\n        represented as either XML or JSON. This allows the use of\n        well-established XML or JSON technologies and libraries to\n        consume, inspect, and manipulate fixed format data in existing\n        solutions. Daffodil is also capable of the reverse by\n        serializing or \"unparsing\" an XML or JSON infoset back to the\n        original data format.",
+"description": "Apache Daffodil is an open-source implementation of\n        the DFDL specification that uses DFDL data descriptions to parse\n        fixed format data into an infoset. This infoset is commonly converted\n        into XML or JSON to enable the use of\n        well-established XML or JSON technologies and libraries to\n        consume, inspect, and manipulate fixed format data in existing\n        solutions. Daffodil is also capable of serializing or \"unparsing\"\n        data back to the original data format.\n        The DFDL infoset can also be converted directly to/from the \n        data structures carried by data processing frameworks so as to bypass any\n        XML/JSON overheads. ",
 "doap": "https://daffodil.incubator.apache.org/doap.rdf",
 "download-page": "https://daffodil.apache.org/releases/",
 "homepage": "https://daffodil.apache.org",
@@ -8035,7 +8035,7 @@
 "https://github.com/apache/incubator-daffodil",
 "https://github.com/apache/incubator-daffodil-site"
 ],
-"shortdesc": "Apache Daffodil is an open-source implementation of the\n        Data Format Description Language to convert between fixed\n        format data and XML/JSON."
+"shortdesc": "Apache Daffodil is an open-source implementation of the\n        Data Format Description Language to convert between fixed format\n        data and XML, JSON, or other data structures."
 },
 "incubator-datafu": {
 "bug-database": "https://issues.apache.org/jira/browse/DATAFU",
@@ -12463,9 +12463,9 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2020-11-09",
+"created": "2019-12-02",
 "name": "Apache MyFaces for JSF 2.3",
-"revision": "2.3.7"
+"revision": "2.3.6"
 },
 {
 "created": "2020-07-09",
@@ -12543,10 +12543,10 @@
 "revision": "3.1.0"
 },
 {
-"created": "2020-11-03",
-"file-release": "http://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-tobago-4.5.1-dist.zip",
+"created": "2020-05-29",
+"file-release": "http://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-tobago-4.5.0-dist.zip",
 "name": "Latest stable release of 4.x",
-"revision": "4.5.1"
+"revision": "4.5.0"
 }
 ],
 "repository": [
