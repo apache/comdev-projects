@@ -847,17 +847,32 @@
 "camel-k-client-1.3.0-windows": [
 "camel/camel-k/1.3.0/camel-k-client-1.3.0-windows-64bit.tar.gz"
 ],
+"camel-k-client-1.3.1-linux": [
+"camel/camel-k/1.3.1/camel-k-client-1.3.1-linux-64bit.tar.gz"
+],
+"camel-k-client-1.3.1-mac": [
+"camel/camel-k/1.3.1/camel-k-client-1.3.1-mac-64bit.tar.gz"
+],
+"camel-k-client-1.3.1-windows": [
+"camel/camel-k/1.3.1/camel-k-client-1.3.1-windows-64bit.tar.gz"
+],
 "camel-k-examples-1.2.1": [
 "camel/camel-k/1.2.1/camel-k-examples-1.2.1.tar.gz"
 ],
 "camel-k-examples-1.3.0": [
 "camel/camel-k/1.3.0/camel-k-examples-1.3.0.tar.gz"
 ],
+"camel-k-examples-1.3.1": [
+"camel/camel-k/1.3.1/camel-k-examples-1.3.1.tar.gz"
+],
 "camel-k-sources-1.2.1": [
 "camel/camel-k/1.2.1/camel-k-sources-1.2.1.tar.gz"
 ],
 "camel-k-sources-1.3.0": [
 "camel/camel-k/1.3.0/camel-k-sources-1.3.0.tar.gz"
+],
+"camel-k-sources-1.3.1": [
+"camel/camel-k/1.3.1/camel-k-sources-1.3.1.tar.gz"
 ],
 "camel-kafka-connector-0.7.0": [
 "camel/camel-kafka-connector/0.7.0/camel-kafka-connector-0.7.0-src.zip"
@@ -1614,11 +1629,8 @@
 "cordova-firefoxos-3.6.3": [
 "cordova/platforms/cordova-firefoxos-3.6.3.tgz"
 ],
-"cordova-ios-6.1.0": [
-"cordova/platforms/cordova-ios-6.1.0.tgz"
-],
-"cordova-ios-6.1.1": [
-"cordova/platforms/cordova-ios-6.1.1.tgz"
+"cordova-ios-6.2.0": [
+"cordova/platforms/cordova-ios-6.2.0.tgz"
 ],
 "cordova-js-6.0.0": [
 "cordova/tools/cordova-js-6.0.0.tgz"
@@ -3141,7 +3153,13 @@
 ],
 "httpcomponents-core-5.1-beta2": [
 "httpcomponents/httpcore/source/httpcomponents-core-5.1-beta2-src.tar.gz",
-"httpcomponents/httpcore/source/httpcomponents-core-5.1-beta2-src.zip"
+"httpcomponents/httpcore/source/httpcomponents-core-5.1-beta2-src.zip",
+"httpcomponents/httpcore/httpcomponents-core-5.1-beta2-src.tar.gz",
+"httpcomponents/httpcore/httpcomponents-core-5.1-beta2-src.zip"
+],
+"httpcomponents-core-5.1-beta3": [
+"httpcomponents/httpcore/source/httpcomponents-core-5.1-beta3-src.tar.gz",
+"httpcomponents/httpcore/source/httpcomponents-core-5.1-beta3-src.zip"
 ]
 },
 "httpd": {
@@ -9826,10 +9844,6 @@
 ]
 },
 "skywalking": {
-"apache-skywalking-apm-8.0.1": [
-"skywalking/8.0.1/apache-skywalking-apm-8.0.1-src.tgz",
-"skywalking/8.0.1/apache-skywalking-apm-8.0.1.tar.gz"
-],
 "apache-skywalking-apm-8.1.0": [
 "skywalking/8.1.0/apache-skywalking-apm-8.1.0-src.tgz",
 "skywalking/8.1.0/apache-skywalking-apm-8.1.0.tar.gz"
@@ -9842,8 +9856,9 @@
 "skywalking/8.3.0/apache-skywalking-apm-8.3.0-src.tgz",
 "skywalking/8.3.0/apache-skywalking-apm-8.3.0.tar.gz"
 ],
-"apache-skywalking-apm-es7-8.0.1": [
-"skywalking/8.0.1/apache-skywalking-apm-es7-8.0.1.tar.gz"
+"apache-skywalking-apm-8.4.0": [
+"skywalking/8.4.0/apache-skywalking-apm-8.4.0-src.tgz",
+"skywalking/8.4.0/apache-skywalking-apm-8.4.0.tar.gz"
 ],
 "apache-skywalking-apm-es7-8.1.0": [
 "skywalking/8.1.0/apache-skywalking-apm-es7-8.1.0.tar.gz"
@@ -9854,11 +9869,8 @@
 "apache-skywalking-apm-es7-8.3.0": [
 "skywalking/8.3.0/apache-skywalking-apm-es7-8.3.0.tar.gz"
 ],
-"skywalking-3.0.0": [
-"skywalking/kubernetes/3.0.0/skywalking-3.0.0.tgz"
-],
-"skywalking-3.1.0": [
-"skywalking/kubernetes/3.1.0/skywalking-3.1.0.tgz"
+"apache-skywalking-apm-es7-8.4.0": [
+"skywalking/8.4.0/apache-skywalking-apm-es7-8.4.0.tar.gz"
 ],
 "skywalking-4.0.0": [
 "skywalking/kubernetes/4.0.0/skywalking-4.0.0.tgz"
@@ -9866,26 +9878,11 @@
 "skywalking-cli-0.5.0": [
 "skywalking/cli/0.5.0/skywalking-cli-0.5.0-src.tgz"
 ],
-"skywalking-client-js-0.1.0": [
-"skywalking/client-js/0.1.0/skywalking-client-js-0.1.0-src.tgz"
-],
-"skywalking-client-js-0.2.0": [
-"skywalking/client-js/0.2.0/skywalking-client-js-0.2.0-src.tgz"
-],
 "skywalking-client-js-0.3.0": [
 "skywalking/client-js/0.3.0/skywalking-client-js-0.3.0-src.tgz"
 ],
-"skywalking-kubernetes-3.0.0": [
-"skywalking/kubernetes/3.0.0/skywalking-kubernetes-3.0.0-src.tgz"
-],
-"skywalking-kubernetes-3.1.0": [
-"skywalking/kubernetes/3.1.0/skywalking-kubernetes-3.1.0-src.tgz"
-],
 "skywalking-kubernetes-4.0.0": [
 "skywalking/kubernetes/4.0.0/skywalking-kubernetes-4.0.0-src.tgz"
-],
-"skywalking-nginx-lua-0.2.0": [
-"skywalking/nginx-lua/0.2.0/skywalking-nginx-lua-0.2.0-src.tgz"
 ],
 "skywalking-nginx-lua-0.3.0": [
 "skywalking/nginx-lua/0.3.0/skywalking-nginx-lua-0.3.0-src.tgz"
@@ -9893,23 +9890,8 @@
 "skywalking-nodejs-0.1.0": [
 "skywalking/node-js/0.1.0/skywalking-nodejs-src-0.1.0.tgz"
 ],
-"skywalking-python": [
-"skywalking/python/0.1.0/skywalking-python-src.tgz"
-],
-"skywalking-python-0.2.0": [
-"skywalking/python/0.2.0/skywalking-python-src-0.2.0.tgz"
-],
-"skywalking-python-0.4.0": [
-"skywalking/python/0.4.0/skywalking-python-src-0.4.0.tgz"
-],
 "skywalking-python-0.5.0": [
 "skywalking/python/0.5.0/skywalking-python-src-0.5.0.tgz"
-],
-"skywalking-python-v0.3.0": [
-"skywalking/python/0.3.0/skywalking-python-src-v0.3.0.tgz"
-],
-"skywalking-swck-0.1.0": [
-"skywalking/swck/0.1.0/skywalking-swck-0.1.0-src.tgz"
 ],
 "skywalking-swck-0.2.0": [
 "skywalking/swck/0.2.0/skywalking-swck-0.2.0-src.tgz"
