@@ -12500,14 +12500,14 @@
 },
 "myfaces-tobago": {
 "bug-database": "http://issues.apache.org/jira/browse/TOBAGO",
-"category": "web-framework",
+"category": "https://projects.apache.org/projects.html?category#web-framework",
 "created": "2006-07-10",
 "description": "The goal of Tobago is to provide the community with a well designed set of user interface components based on JSF.",
-"doap": "http://myfaces.apache.org/tobago/doap_tobago.rdf",
-"download-page": "http://myfaces.apache.org/tobago/download.html",
-"homepage": "http://myfaces.apache.org/tobago",
+"doap": "https://gitbox.apache.org/repos/asf?p=myfaces-tobago.git;a=blob_plain;f=doap.rdf;hb=HEAD",
+"download-page": "http://tobago-vm.apache.org/download.html",
+"homepage": "http://myfaces.apache.org/#/tobago",
 "license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://myfaces.apache.org/tobago/mail-lists.html",
+"mailing-list": "http://myfaces.apache.org/#/community",
 "maintainer": [
 {
 "mbox": "mailto:bommel@apache.org",
@@ -12516,39 +12516,7 @@
 ],
 "name": "Apache Tobago",
 "pmc": "myfaces",
-"programming-language": "Java",
-"release": [
-{
-"created": "2015-07-16",
-"file-release": "http://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-tobago-1.0.42-dist.zip",
-"name": "Latest stable release of 1.0.x",
-"revision": "1.0.42"
-},
-{
-"created": "2014-03-25",
-"file-release": "http://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-tobago-1.5.13-dist.zip",
-"name": "Latest stable release of 1.5.x",
-"revision": "1.5.13"
-},
-{
-"created": "2020-02-16",
-"file-release": "http://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-tobago-2.4.2-dist.zip",
-"name": "Latest stable release of 2.x",
-"revision": "2.4.2"
-},
-{
-"created": "2018-09-26",
-"file-release": "http://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-tobago-3.1.0-dist.zip",
-"name": "Latest stable release of 3.x",
-"revision": "3.1.0"
-},
-{
-"created": "2020-11-03",
-"file-release": "http://www.apache.org/dyn/closer.lua/myfaces/binaries/myfaces-tobago-4.5.1-dist.zip",
-"name": "Latest stable release of 4.x",
-"revision": "4.5.1"
-}
-],
+"programming-language": "Java, TypeScript",
 "repository": [
 "https://gitbox.apache.org/repos/asf/myfaces-tobago.git"
 ],
