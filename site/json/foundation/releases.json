@@ -118,8 +118,7 @@
 "apache-airflow-providers-vertica-1.0.1": "2021-02-08",
 "apache-airflow-providers-yandex-1.0.1": "2021-02-08",
 "apache-airflow-providers-zendesk-1.0.1": "2021-02-08",
-"apache-airflow-upgrade-check-1.0.0": "2020-11-25",
-"apache-airflow-upgrade-check-1.1.0": "2020-12-14"
+"apache-airflow-upgrade-check-1.2.0": "2021-02-12"
 },
 "allura": {
 "allura-1.12.0": "2020-07-06"
@@ -151,6 +150,7 @@
 "apache-apisix-dashboard-2.1": "2020-11-23",
 "apache-apisix-dashboard-2.1.1": "2020-12-07",
 "apache-apisix-dashboard-2.2": "2020-12-16",
+"apache-apisix-dashboard-2.4": "2021-02-12",
 "apache-apisix-ingress-controller-0.1.0-rc2": "2021-01-04",
 "apache-apisix-ingress-controller-0.2.0": "2021-01-15",
 "apache-apisix-ingress-controller-0.3.0": "2021-02-10",
@@ -692,7 +692,7 @@
 },
 "datasketches": {
 "apache-datasketches-hive-1.1.0-incubating": "2020-07-06",
-"apache-datasketches-java-1.3.0-incubating": "2020-05-07",
+"apache-datasketches-java-2.0.0": "2021-02-12",
 "apache-datasketches-memory-1.3.0": "2021-01-22",
 "apache-datasketches-pig-1.0.0-incubating": "2019-10-19",
 "apache-datasketches-postgresql-1.3.0-incubating": "2019-10-29"
@@ -1579,13 +1579,11 @@
 },
 "lucene": {
 "lucene-7.7.3": "2020-07-03",
-"lucene-8.7.0": "2020-10-29",
 "lucene-8.8.0": "2021-01-25",
 "pylucene-7.7.1": "2020-07-03",
 "pylucene-8.3.0": "2020-07-03",
 "pylucene-8.6.1": "2020-09-09",
 "solr-7.7.3": "2020-07-03",
-"solr-8.7.0": "2020-10-29",
 "solr-8.8.0": "2021-01-25"
 },
 "lucenenet": {
@@ -2723,6 +2721,7 @@
 "openwhisk-runtime-docker-1.14.0": "2020-11-29",
 "openwhisk-runtime-dotnet-1.15.0": "2020-11-29",
 "openwhisk-runtime-go-1.16.0": "2020-11-29",
+"openwhisk-runtime-go-1.17.0": "2021-02-12",
 "openwhisk-runtime-java-1.15.0": "2020-11-29",
 "openwhisk-runtime-nodejs-1.16.0": "2020-11-29",
 "openwhisk-runtime-nodejs-1.17.0": "2020-12-16",
