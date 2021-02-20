@@ -6566,6 +6566,81 @@
 ],
 "shortdesc": "Apache CXF: An Open Source Service Framework"
 },
+"daffodil": {
+"bug-database": "https://issues.apache.org/jira/browse/DAFFODIL",
+"category": "big-data, library, xml",
+"created": "2017-08-27",
+"description": "Apache Daffodil is an open-source implementation of\n        the DFDL specification that uses DFDL data descriptions to parse\n        fixed format data into an infoset. This infoset is commonly converted\n        into XML or JSON to enable the use of\n        well-established XML or JSON technologies and libraries to\n        consume, inspect, and manipulate fixed format data in existing\n        solutions. Daffodil is also capable of serializing or \"unparsing\"\n        data back to the original data format.\n        The DFDL infoset can also be converted directly to/from the \n        data structures carried by data processing frameworks so as to bypass any\n        XML/JSON overheads. ",
+"doap": "https://daffodil.incubator.apache.org/doap.rdf",
+"download-page": "https://daffodil.apache.org/releases/",
+"homepage": "https://daffodil.apache.org",
+"implements": [
+{
+"body": "Open Grid Forum",
+"id": "DFDL",
+"title": "Data Format Description Language",
+"url": "https://daffodil.apache.org/docs/dfdl/"
+}
+],
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://daffodil.apache.org/community/#mailing-lists",
+"maintainer": [
+{
+"mbox": "mailto:dev@daffodil.apache.org",
+"name": "Apache Daffodil Community"
+}
+],
+"name": "Apache Daffodil",
+"pmc": "daffodil",
+"programming-language": "Scala, Java",
+"release": [
+{
+"created": "2020-11-20",
+"name": "Apache Daffodil",
+"revision": "3.0.0"
+},
+{
+"created": "2020-07-14",
+"name": "Apache Daffodil",
+"revision": "2.7.0"
+},
+{
+"created": "2020-04-24",
+"name": "Apache Daffodil",
+"revision": "2.6.0"
+},
+{
+"created": "2020-01-12",
+"name": "Apache Daffodil",
+"revision": "2.5.0"
+},
+{
+"created": "2019-07-12",
+"name": "Apache Daffodil",
+"revision": "2.4.0"
+},
+{
+"created": "2019-02-26",
+"name": "Apache Daffodil",
+"revision": "2.3.0"
+},
+{
+"created": "2018-09-04",
+"name": "Apache Daffodil",
+"revision": "2.2.0"
+},
+{
+"created": "2018-05-14",
+"name": "Apache Daffodil",
+"revision": "2.1.0"
+}
+],
+"repository": [
+"https://github.com/apache/daffodil",
+"https://github.com/apache/daffodil-site"
+],
+"shortdesc": "Apache Daffodil is an open-source implementation of the\n        Data Format Description Language to convert between fixed format\n        data and XML, JSON, or other data structures."
+},
 "db-derby": {
 "bug-database": "http://issues.apache.org/jira/browse/DERBY",
 "category": "database",
@@ -7961,81 +8036,6 @@
 "http://git@github.com:apache/incubator-annotator.git"
 ],
 "shortdesc": "Apache Annotator provides annotation enabling code for browsers, servers, and humans."
-},
-"incubator-daffodil": {
-"bug-database": "https://issues.apache.org/jira/browse/DAFFODIL",
-"category": "big-data, library, xml",
-"created": "2017-08-27",
-"description": "Apache Daffodil is an open-source implementation of\n        the DFDL specification that uses DFDL data descriptions to parse\n        fixed format data into an infoset. This infoset is commonly converted\n        into XML or JSON to enable the use of\n        well-established XML or JSON technologies and libraries to\n        consume, inspect, and manipulate fixed format data in existing\n        solutions. Daffodil is also capable of serializing or \"unparsing\"\n        data back to the original data format.\n        The DFDL infoset can also be converted directly to/from the \n        data structures carried by data processing frameworks so as to bypass any\n        XML/JSON overheads. ",
-"doap": "https://daffodil.incubator.apache.org/doap.rdf",
-"download-page": "https://daffodil.apache.org/releases/",
-"homepage": "https://daffodil.apache.org",
-"implements": [
-{
-"body": "Open Grid Forum",
-"id": "DFDL",
-"title": "Data Format Description Language",
-"url": "https://daffodil.apache.org/docs/dfdl/"
-}
-],
-"license": "http://spdx.org/licenses/Apache-2.0",
-"mailing-list": "https://daffodil.apache.org/community/#mailing-lists",
-"maintainer": [
-{
-"mbox": "mailto:dev@daffodil.apache.org",
-"name": "Apache Daffodil Community"
-}
-],
-"name": "Apache Daffodil",
-"pmc": "incubator",
-"programming-language": "Scala, Java",
-"release": [
-{
-"created": "2020-11-20",
-"name": "Apache Daffodil",
-"revision": "3.0.0"
-},
-{
-"created": "2020-07-14",
-"name": "Apache Daffodil",
-"revision": "2.7.0"
-},
-{
-"created": "2020-04-24",
-"name": "Apache Daffodil",
-"revision": "2.6.0"
-},
-{
-"created": "2020-01-12",
-"name": "Apache Daffodil",
-"revision": "2.5.0"
-},
-{
-"created": "2019-07-12",
-"name": "Apache Daffodil",
-"revision": "2.4.0"
-},
-{
-"created": "2019-02-26",
-"name": "Apache Daffodil",
-"revision": "2.3.0"
-},
-{
-"created": "2018-09-04",
-"name": "Apache Daffodil",
-"revision": "2.2.0"
-},
-{
-"created": "2018-05-14",
-"name": "Apache Daffodil",
-"revision": "2.1.0"
-}
-],
-"repository": [
-"https://github.com/apache/incubator-daffodil",
-"https://github.com/apache/incubator-daffodil-site"
-],
-"shortdesc": "Apache Daffodil is an open-source implementation of the\n        Data Format Description Language to convert between fixed format\n        data and XML, JSON, or other data structures."
 },
 "incubator-datafu": {
 "bug-database": "https://issues.apache.org/jira/browse/DATAFU",
@@ -12637,9 +12637,9 @@
 "programming-language": "Java, Groovy, JavaScript, XML, Freemarker",
 "release": [
 {
-"created": "2020-07-15",
+"created": "2021-01-09",
 "name": "Apache OFBiz R17.12",
-"revision": "17.12.04"
+"revision": "17.12.05"
 },
 {
 "created": "2019-08-20",
