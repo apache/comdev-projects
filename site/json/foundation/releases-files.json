@@ -563,14 +563,14 @@
 "org.apache.aries.blueprint.api-1.0.0": [
 "aries/org.apache.aries.blueprint.api-1.0.0-source-release.zip"
 ],
-"org.apache.aries.blueprint.cm-1.0.7": [
-"aries/org.apache.aries.blueprint.cm-1.0.7-source-release.zip"
+"org.apache.aries.blueprint.cm-1.3.2": [
+"aries/org.apache.aries.blueprint.cm-1.3.2-source-release.zip"
 ],
 "org.apache.aries.blueprint.compatibility-1.0.0": [
 "aries/org.apache.aries.blueprint.compatibility-1.0.0-source-release.zip"
 ],
-"org.apache.aries.blueprint.core-1.4.4": [
-"aries/org.apache.aries.blueprint.core-1.4.4-source-release.zip"
+"org.apache.aries.blueprint.core-1.10.3": [
+"aries/org.apache.aries.blueprint.core-1.10.3-source-release.zip"
 ],
 "org.apache.aries.blueprint.core.compatibility-1.0.0": [
 "aries/org.apache.aries.blueprint.core.compatibility-1.0.0-source-release.zip"
@@ -653,8 +653,8 @@
 "org.apache.aries.jpa.main-2.7.1": [
 "aries/org.apache.aries.jpa.main-2.7.1-source-release.zip"
 ],
-"org.apache.aries.proxy-1.1.8": [
-"aries/org.apache.aries.proxy-1.1.8-source-release.zip"
+"org.apache.aries.proxy-1.1.9": [
+"aries/org.apache.aries.proxy-1.1.9-source-release.zip"
 ],
 "org.apache.aries.rsa.main-1.13.0": [
 "aries/org.apache.aries.rsa.main-1.13.0-source-release.zip"
@@ -2184,6 +2184,9 @@
 "ApacheDirectoryStudio-2.0.0.v20200411-M15": [
 "directory/studio/2.0.0.v20200411-M15/ApacheDirectoryStudio-2.0.0.v20200411-M15-src.zip"
 ],
+"ApacheDirectoryStudio-2.0.0.v20210213-M16": [
+"directory/studio/2.0.0.v20210213-M16/ApacheDirectoryStudio-2.0.0.v20210213-M16-src.zip"
+],
 "apache-ldap-api-1.0.3": [
 "directory/api/dist/1.0.3/apache-ldap-api-1.0.3-src.tar.gz",
 "directory/api/dist/1.0.3/apache-ldap-api-1.0.3-src.zip"
@@ -2229,7 +2232,8 @@
 "directory/mavibot/dist/1.0.0-M8/mavibot-1.0.0-M8-src.zip"
 ],
 "p2.index": [
-"directory/studio/2.0.0.v20200411-M15/update/dependencies/p2.index"
+"directory/studio/2.0.0.v20200411-M15/update/dependencies/p2.index",
+"directory/studio/2.0.0.v20210213-M16/update/dependencies/p2.index"
 ]
 },
 "drill": {
@@ -3232,8 +3236,8 @@
 "hbase/2.3.4/RELEASENOTES.md",
 "hbase/2.4.1/RELEASENOTES.md",
 "hbase/hbase-filesystem-1.0.0-alpha1/RELEASENOTES.md",
-"hbase/hbase-operator-tools-1.0.0/RELEASENOTES.md",
-"hbase/hbase-thirdparty-3.4.1/RELEASENOTES.md"
+"hbase/hbase-operator-tools-1.1.0/RELEASENOTES.md",
+"hbase/hbase-thirdparty-3.5.0/RELEASENOTES.md"
 ],
 "hbase-1.4.13": [
 "hbase/1.4.13/hbase-1.4.13-src.tar.gz"
@@ -3256,11 +3260,11 @@
 "hbase-filesystem-1.0.0-alpha1": [
 "hbase/hbase-filesystem-1.0.0-alpha1/hbase-filesystem-1.0.0-alpha1-src.tar.gz"
 ],
-"hbase-operator-tools-1.0.0": [
-"hbase/hbase-operator-tools-1.0.0/hbase-operator-tools-1.0.0-src.tar.gz"
+"hbase-operator-tools-1.1.0": [
+"hbase/hbase-operator-tools-1.1.0/hbase-operator-tools-1.1.0-src.tar.gz"
 ],
-"hbase-thirdparty-3.4.1": [
-"hbase/hbase-thirdparty-3.4.1/hbase-thirdparty-3.4.1-src.tar.gz"
+"hbase-thirdparty-3.5.0": [
+"hbase/hbase-thirdparty-3.5.0/hbase-thirdparty-3.5.0-src.tar.gz"
 ]
 },
 "helix": {
@@ -5009,6 +5013,9 @@
 ],
 "maven-archiver-3.5.1": [
 "maven/shared/maven-archiver-3.5.1-source-release.zip"
+],
+"maven-artifact-plugin-3.0.0": [
+"maven/plugins/maven-artifact-plugin-3.0.0-source-release.zip"
 ],
 "maven-artifact-transfer-0.13.1": [
 "maven/shared/maven-artifact-transfer-0.13.1-source-release.zip"
