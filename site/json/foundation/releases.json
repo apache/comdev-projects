@@ -325,6 +325,7 @@
 "bookkeeper": {
 "bookkeeper-4.11.1": "2020-10-06",
 "bookkeeper-4.12.1": "2020-12-28",
+"bookkeeper-4.13.0": "2021-02-18",
 "distributedlog-0.5.0": "2020-07-03"
 },
 "brooklyn": {
@@ -1270,19 +1271,6 @@
 "incubator-ponymail": {
 "apache-pony-mail-0.10-incubating": "2020-07-03",
 "apache-pony-mail-0.11-incubating": "2020-07-03"
-},
-"incubator-ratis": {
-"apache-ratis-incubating-0.1.0-alpha": "2020-07-03",
-"apache-ratis-incubating-0.2.0": "2020-07-03",
-"apache-ratis-incubating-0.3.0": "2020-07-03",
-"apache-ratis-incubating-0.4.0-rc4": "2020-07-03",
-"apache-ratis-incubating-0.5.0": "2020-07-03",
-"apache-ratis-incubating-1.0.0": "2020-07-20",
-"ratis-thirdparty-0.2.0-incubating": "2020-07-03",
-"ratis-thirdparty-0.3.0-incubating": "2020-07-03",
-"ratis-thirdparty-0.4.0-incubating": "2020-07-03",
-"ratis-thirdparty-0.5.0-incubating": "2020-07-08",
-"ratis-thirdparty-0.6.0-incubating": "2021-01-08"
 },
 "incubator-s2graph": {
 "apache-s2graph-0.1.0-incubating": "2020-07-03",
@@ -2784,13 +2772,14 @@
 "mod_perl-2.0.11": "2020-07-06"
 },
 "phoenix": {
-"RELEASENOTES.md": "2021-02-05",
+"RELEASENOTES.md": "2021-02-16",
 "apache-phoenix-4.14.3-HBase-1.3": "2020-07-06",
 "apache-phoenix-4.14.3-HBase-1.4": "2020-07-06",
 "apache-phoenix-4.15.0-HBase-1.3": "2020-07-06",
 "apache-phoenix-4.15.0-HBase-1.4": "2020-07-06",
 "apache-phoenix-4.15.0-HBase-1.5": "2020-07-06",
 "apache-phoenix-5.0.0-HBase-2.0": "2020-07-06",
+"phoenix-4.16.0": "2021-02-16",
 "phoenix-5.1.0": "2021-02-05",
 "phoenix-omid-1.0.2": "2020-11-17",
 "phoenix-tephra-0.16.0": "2020-11-30",
@@ -2953,6 +2942,19 @@
 "apache-ranger-1.2.0": "2020-07-06",
 "apache-ranger-2.0.0": "2020-07-06",
 "apache-ranger-2.1.0": "2020-09-03"
+},
+"ratis": {
+"apache-ratis-incubating-0.1.0-alpha": "2017-05-03",
+"apache-ratis-incubating-0.2.0": "2018-06-28",
+"apache-ratis-incubating-0.3.0": "2019-04-09",
+"apache-ratis-incubating-0.4.0-rc4": "2019-09-23",
+"apache-ratis-incubating-0.5.0": "2020-02-19",
+"apache-ratis-incubating-1.0.0": "2020-07-20",
+"ratis-thirdparty-0.2.0-incubating": "2018-11-30",
+"ratis-thirdparty-0.3.0-incubating": "2020-04-28",
+"ratis-thirdparty-0.4.0-incubating": "2020-04-28",
+"ratis-thirdparty-0.5.0-incubating": "2020-07-08",
+"ratis-thirdparty-0.6.0-incubating": "2021-01-08"
 },
 "reef": {
 "apache-reef-0.10.0-incubating": "2020-07-06",
@@ -3602,7 +3604,9 @@
 "apache-tapestry-5.4.5": "2020-07-03",
 "apache-tapestry-5.5.0": "2020-07-03",
 "apache-tapestry-5.6.0": "2020-08-30",
-"apache-tapestry-5.6.1": "2020-09-12"
+"apache-tapestry-5.6.1": "2020-09-12",
+"apache-tapestry-5.6.2": "2021-02-24",
+"apache-tapestry-5.7.0": "2021-02-24"
 },
 "tcl": {
 "rivet-2.4.0": "2020-07-06",
