@@ -146,18 +146,9 @@
 "apache-any23-cli-2.4": "2020-09-21"
 },
 "apisix": {
-"apache-apisix-2.0": "2020-10-27",
-"apache-apisix-2.1": "2020-12-01",
-"apache-apisix-2.2": "2021-01-08",
 "apache-apisix-2.3": "2021-02-10",
-"apache-apisix-dashboard-2.1": "2020-11-23",
-"apache-apisix-dashboard-2.1.1": "2020-12-07",
-"apache-apisix-dashboard-2.2": "2020-12-16",
 "apache-apisix-dashboard-2.4": "2021-02-12",
-"apache-apisix-ingress-controller-0.1.0-rc2": "2021-01-04",
-"apache-apisix-ingress-controller-0.2.0": "2021-01-15",
-"apache-apisix-ingress-controller-0.3.0": "2021-02-10",
-"apisix-dashboard-2.3": "2021-01-11"
+"apache-apisix-ingress-controller-0.3.0": "2021-02-10"
 },
 "apr": {
 "apr-1.6.5": "2020-07-06",
@@ -395,7 +386,8 @@
 "camel-k-sources-1.3.1": "2021-02-04",
 "camel-kafka-connector-0.7.0": "2020-12-23",
 "camel-kafka-connector-0.7.1": "2021-01-28",
-"camel-kafka-connector-0.7.2": "2021-02-17"
+"camel-kafka-connector-0.7.2": "2021-02-17",
+"camel-kafka-connector-0.8.0": "2021-02-25"
 },
 "carbondata": {
 "apache-carbondata-1.4.1": "2020-07-03",
@@ -945,14 +937,18 @@
 "geode": {
 "apache-geode-1.11.0": "2020-07-06",
 "apache-geode-1.12.0": "2020-07-06",
+"apache-geode-1.12.1": "2021-02-18",
 "apache-geode-1.13.1": "2020-11-13",
 "apache-geode-benchmarks-1.12.0": "2020-07-06",
+"apache-geode-benchmarks-1.12.1": "2021-02-18",
 "apache-geode-benchmarks-1.13.1": "2020-11-13",
 "apache-geode-examples-1.11.0": "2020-07-06",
 "apache-geode-examples-1.12.0": "2020-07-06",
+"apache-geode-examples-1.12.1": "2021-02-18",
 "apache-geode-examples-1.13.1": "2020-11-13",
 "apache-geode-native-1.11.0": "2020-07-06",
 "apache-geode-native-1.12.0": "2020-07-06",
+"apache-geode-native-1.12.1": "2021-02-18",
 "apache-geode-native-1.13.1": "2020-11-13"
 },
 "geronimo": {
@@ -1247,12 +1243,6 @@
 "apache-nuttx-apps-9.1.0-incubating": "2020-07-23",
 "apache-nuttx-apps-9.1.1-incubating": "2020-12-09"
 },
-"incubator-omid": {
-"apache-omid-incubating-0.8.2.0": "2020-07-03",
-"apache-omid-incubating-0.9.0.0": "2020-07-03",
-"apache-omid-incubating-1.0.0": "2020-07-03",
-"apache-omid-incubating-1.0.1": "2020-07-03"
-},
 "incubator-pagespeed": {
 "mod-pagespeed-apache-incubating-beta-1.14.36.1-r0": "2020-07-03",
 "psol-1.14.36.1-apache-incubating-x64": "2020-07-03"
@@ -1285,9 +1275,6 @@
 "incubator-sedona": {
 "apache-sedona-1.0.0-incubating": "2021-02-06"
 },
-"incubator-singa": {
-"apache-singa-incubating-2.0.0": "2020-07-03"
-},
 "incubator-spot": {
 "apache-spot-1.0-incubating": "2020-07-03"
 },
@@ -1308,16 +1295,6 @@
 },
 "incubator-teaclave": {
 "apache-teaclave-0.1.0-incubating": "2020-10-10"
-},
-"incubator-tephra": {
-"apache-tephra-0.10.0-incubating": "2020-07-03",
-"apache-tephra-0.11.0-incubating": "2020-07-03",
-"apache-tephra-0.12.0-incubating": "2020-07-03",
-"apache-tephra-0.13.0-incubating": "2020-07-03",
-"apache-tephra-0.14.0-incubating": "2020-07-03",
-"apache-tephra-0.15.0-incubating": "2020-07-03",
-"apache-tephra-0.8.0-incubating": "2020-07-03",
-"apache-tephra-0.9.0-incubating": "2020-07-03"
 },
 "incubator-toree": {
 "PKG-INFO": "2020-07-03",
@@ -2678,8 +2655,7 @@
 "apache-oodt-1.9": "2020-07-06"
 },
 "oozie": {
-"oozie-5.1.0": "2020-07-06",
-"oozie-5.2.0": "2020-07-06"
+"oozie-5.2.1": "2021-02-25"
 },
 "openjpa": {
 "apache-openjpa-2.2.2": "2020-07-06",
@@ -2721,6 +2697,7 @@
 "openwhisk-runtime-nodejs-1.16.0": "2020-11-29",
 "openwhisk-runtime-nodejs-1.17.0": "2020-12-16",
 "openwhisk-runtime-php-1.15.0": "2020-11-29",
+"openwhisk-runtime-php-1.16.0": "2021-02-25",
 "openwhisk-runtime-python-1.15.0": "2020-11-29",
 "openwhisk-runtime-ruby-1.15.0": "2020-11-29",
 "openwhisk-runtime-rust-1.1.0": "2020-11-29",

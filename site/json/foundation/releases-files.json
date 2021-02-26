@@ -429,41 +429,14 @@
 ]
 },
 "apisix": {
-"apache-apisix-2.0": [
-"apisix/2.0/apache-apisix-2.0-src.tgz"
-],
-"apache-apisix-2.1": [
-"apisix/2.1/apache-apisix-2.1-src.tgz"
-],
-"apache-apisix-2.2": [
-"apisix/2.2/apache-apisix-2.2-src.tgz"
-],
 "apache-apisix-2.3": [
 "apisix/2.3/apache-apisix-2.3-src.tgz"
-],
-"apache-apisix-dashboard-2.1": [
-"apisix/dashboard-2.1/apache-apisix-dashboard-2.1-src.tgz"
-],
-"apache-apisix-dashboard-2.1.1": [
-"apisix/apisix-dashboard-2.1.1/apache-apisix-dashboard-2.1.1-src.tgz"
-],
-"apache-apisix-dashboard-2.2": [
-"apisix/apisix-dashboard-2.2/apache-apisix-dashboard-2.2-src.tgz"
 ],
 "apache-apisix-dashboard-2.4": [
 "apisix/dashboard/2.4/apache-apisix-dashboard-2.4-src.tgz"
 ],
-"apache-apisix-ingress-controller-0.1.0-rc2": [
-"apisix/apisix-ingress-controller-0.1.0-rc2/apache-apisix-ingress-controller-0.1.0-rc2-src.tar.gz"
-],
-"apache-apisix-ingress-controller-0.2.0": [
-"apisix/ingress-controller/0.2.0/apache-apisix-ingress-controller-0.2.0-src.tgz"
-],
 "apache-apisix-ingress-controller-0.3.0": [
 "apisix/ingress-controller/0.3.0/apache-apisix-ingress-controller-0.3.0-src.tgz"
-],
-"apisix-dashboard-2.3": [
-"apisix/dashboard/2.3/apisix-dashboard-2.3-src.tgz"
 ]
 },
 "apr": {
@@ -1158,6 +1131,9 @@
 ],
 "camel-kafka-connector-0.7.2": [
 "camel/camel-kafka-connector/0.7.2/camel-kafka-connector-0.7.2-src.zip"
+],
+"camel-kafka-connector-0.8.0": [
+"camel/camel-kafka-connector/0.8.0/camel-kafka-connector-0.8.0-src.zip"
 ]
 },
 "carbondata": {
@@ -2931,12 +2907,19 @@
 "geode/1.12.0/apache-geode-1.12.0-src.tgz",
 "geode/1.12.0/apache-geode-1.12.0.tgz"
 ],
+"apache-geode-1.12.1": [
+"geode/1.12.1/apache-geode-1.12.1-src.tgz",
+"geode/1.12.1/apache-geode-1.12.1.tgz"
+],
 "apache-geode-1.13.1": [
 "geode/1.13.1/apache-geode-1.13.1-src.tgz",
 "geode/1.13.1/apache-geode-1.13.1.tgz"
 ],
 "apache-geode-benchmarks-1.12.0": [
 "geode/1.12.0/apache-geode-benchmarks-1.12.0-src.tgz"
+],
+"apache-geode-benchmarks-1.12.1": [
+"geode/1.12.1/apache-geode-benchmarks-1.12.1-src.tgz"
 ],
 "apache-geode-benchmarks-1.13.1": [
 "geode/1.13.1/apache-geode-benchmarks-1.13.1-src.tgz"
@@ -2948,6 +2931,9 @@
 "apache-geode-examples-1.12.0": [
 "geode/1.12.0/apache-geode-examples-1.12.0.tar.gz"
 ],
+"apache-geode-examples-1.12.1": [
+"geode/1.12.1/apache-geode-examples-1.12.1-src.tgz"
+],
 "apache-geode-examples-1.13.1": [
 "geode/1.13.1/apache-geode-examples-1.13.1-src.tgz"
 ],
@@ -2956,6 +2942,9 @@
 ],
 "apache-geode-native-1.12.0": [
 "geode/1.12.0/apache-geode-native-1.12.0-src.tar.gz"
+],
+"apache-geode-native-1.12.1": [
+"geode/1.12.1/apache-geode-native-1.12.1-src.tgz"
 ],
 "apache-geode-native-1.13.1": [
 "geode/1.13.1/apache-geode-native-1.13.1-src.tgz"
@@ -3774,20 +3763,6 @@
 "incubator/nuttx/9.1.1/apache-nuttx-apps-9.1.1-incubating.tar.gz"
 ]
 },
-"incubator-omid": {
-"apache-omid-incubating-0.8.2.0": [
-"incubator/omid/omid-incubating-0.8.2.0/apache-omid-incubating-0.8.2.0-src.tar.gz"
-],
-"apache-omid-incubating-0.9.0.0": [
-"incubator/omid/omid-incubating-0.9.0.0/apache-omid-incubating-0.9.0.0-src.tar.gz"
-],
-"apache-omid-incubating-1.0.0": [
-"incubator/omid/omid-incubating-1.0.0/apache-omid-incubating-1.0.0-src.tar.gz"
-],
-"apache-omid-incubating-1.0.1": [
-"incubator/omid/omid-incubating-1.0.1/apache-omid-incubating-1.0.1-src.tar.gz"
-]
-},
 "incubator-pagespeed": {
 "mod-pagespeed-apache-incubating-beta-1.14.36.1-r0": [
 "incubator/pagespeed/1.14.36.1/mod-pagespeed-apache-incubating-beta-1.14.36.1-r0.tar.bz2"
@@ -3856,11 +3831,6 @@
 "incubator/sedona/1.0.0-incubating/apache-sedona-1.0.0-incubating-src.tar.gz"
 ]
 },
-"incubator-singa": {
-"apache-singa-incubating-2.0.0": [
-"incubator/singa/2.0.0/apache-singa-incubating-2.0.0.tar.gz"
-]
-},
 "incubator-spot": {
 "apache-spot-1.0-incubating": [
 "incubator/spot/1.0-incubating/apache-spot-1.0-incubating.tar.gz"
@@ -3908,32 +3878,6 @@
 "incubator-teaclave": {
 "apache-teaclave-0.1.0-incubating": [
 "incubator/teaclave/0.1.0/apache-teaclave-0.1.0-incubating.tar.gz"
-]
-},
-"incubator-tephra": {
-"apache-tephra-0.10.0-incubating": [
-"incubator/tephra/0.10.0-incubating/src/apache-tephra-0.10.0-incubating-source-release.tar.gz"
-],
-"apache-tephra-0.11.0-incubating": [
-"incubator/tephra/0.11.0-incubating/src/apache-tephra-0.11.0-incubating-source-release.tar.gz"
-],
-"apache-tephra-0.12.0-incubating": [
-"incubator/tephra/0.12.0-incubating/src/apache-tephra-0.12.0-incubating-source-release.tar.gz"
-],
-"apache-tephra-0.13.0-incubating": [
-"incubator/tephra/0.13.0-incubating/src/apache-tephra-0.13.0-incubating-source-release.tar.gz"
-],
-"apache-tephra-0.14.0-incubating": [
-"incubator/tephra/0.14.0-incubating/src/apache-tephra-0.14.0-incubating-source-release.tar.gz"
-],
-"apache-tephra-0.15.0-incubating": [
-"incubator/tephra/0.15.0-incubating/src/apache-tephra-0.15.0-incubating-source-release.tar.gz"
-],
-"apache-tephra-0.8.0-incubating": [
-"incubator/tephra/0.8.0-incubating/src/apache-tephra-0.8.0-incubating-source-release.tar.gz"
-],
-"apache-tephra-0.9.0-incubating": [
-"incubator/tephra/0.9.0-incubating/src/apache-tephra-0.9.0-incubating-source-release.tar.gz"
 ]
 },
 "incubator-toree": {
@@ -8824,11 +8768,8 @@
 ]
 },
 "oozie": {
-"oozie-5.1.0": [
-"oozie/5.1.0/oozie-5.1.0.tar.gz"
-],
-"oozie-5.2.0": [
-"oozie/5.2.0/oozie-5.2.0.tar.gz"
+"oozie-5.2.1": [
+"oozie/5.2.1/oozie-5.2.1.tar.gz"
 ]
 },
 "openjpa": {
@@ -8946,8 +8887,10 @@
 "openwhisk/openwhisk-runtime-nodejs-1.17.0-sources.tar.gz"
 ],
 "openwhisk-runtime-php-1.15.0": [
-"openwhisk/20.11/openwhisk-runtime-php-1.15.0-sources.tar.gz",
-"openwhisk/openwhisk-runtime-php-1.15.0-sources.tar.gz"
+"openwhisk/20.11/openwhisk-runtime-php-1.15.0-sources.tar.gz"
+],
+"openwhisk-runtime-php-1.16.0": [
+"openwhisk/openwhisk-runtime-php-1.16.0-sources.tar.gz"
 ],
 "openwhisk-runtime-python-1.15.0": [
 "openwhisk/20.11/openwhisk-runtime-python-1.15.0-sources.tar.gz",
