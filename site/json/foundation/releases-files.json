@@ -2903,10 +2903,6 @@
 "geode/1.11.0/apache-geode-1.11.0-src.tgz",
 "geode/1.11.0/apache-geode-1.11.0.tgz"
 ],
-"apache-geode-1.12.0": [
-"geode/1.12.0/apache-geode-1.12.0-src.tgz",
-"geode/1.12.0/apache-geode-1.12.0.tgz"
-],
 "apache-geode-1.12.1": [
 "geode/1.12.1/apache-geode-1.12.1-src.tgz",
 "geode/1.12.1/apache-geode-1.12.1.tgz"
@@ -2914,9 +2910,6 @@
 "apache-geode-1.13.1": [
 "geode/1.13.1/apache-geode-1.13.1-src.tgz",
 "geode/1.13.1/apache-geode-1.13.1.tgz"
-],
-"apache-geode-benchmarks-1.12.0": [
-"geode/1.12.0/apache-geode-benchmarks-1.12.0-src.tgz"
 ],
 "apache-geode-benchmarks-1.12.1": [
 "geode/1.12.1/apache-geode-benchmarks-1.12.1-src.tgz"
@@ -2928,9 +2921,6 @@
 "geode/1.11.0/apache-geode-examples-1.11.0.tar.gz",
 "geode/1.11.0/apache-geode-examples-1.11.0.zip"
 ],
-"apache-geode-examples-1.12.0": [
-"geode/1.12.0/apache-geode-examples-1.12.0.tar.gz"
-],
 "apache-geode-examples-1.12.1": [
 "geode/1.12.1/apache-geode-examples-1.12.1-src.tgz"
 ],
@@ -2939,9 +2929,6 @@
 ],
 "apache-geode-native-1.11.0": [
 "geode/1.11.0/apache-geode-native-1.11.0-src.tar.gz"
-],
-"apache-geode-native-1.12.0": [
-"geode/1.12.0/apache-geode-native-1.12.0-src.tar.gz"
 ],
 "apache-geode-native-1.12.1": [
 "geode/1.12.1/apache-geode-native-1.12.1-src.tgz"
@@ -8673,6 +8660,9 @@
 "nifi-minifi-cpp-0.7.0": [
 "nifi/nifi-minifi-cpp/0.7.0/nifi-minifi-cpp-0.7.0-source.tar.gz"
 ],
+"nifi-minifi-cpp-0.9.0": [
+"nifi/nifi-minifi-cpp/0.9.0/nifi-minifi-cpp-0.9.0-source.tar.gz"
+],
 "nifi-minifi-cpp-jni-0.6.0.msi": [
 "nifi/nifi-minifi-cpp/0.6.0/nifi-minifi-cpp-jni-0.6.0.msi"
 ],
@@ -10066,6 +10056,9 @@
 "apache-skywalking-apm-es7-8.4.0": [
 "skywalking/8.4.0/apache-skywalking-apm-es7-8.4.0.tar.gz"
 ],
+"apache-skywalking-satellite-0.1.0": [
+"skywalking/satellite/0.1.0/apache-skywalking-satellite-0.1.0-src.tgz"
+],
 "skywalking-4.0.0": [
 "skywalking/kubernetes/4.0.0/skywalking-4.0.0.tgz"
 ],
@@ -10074,6 +10067,9 @@
 ],
 "skywalking-client-js-0.3.0": [
 "skywalking/client-js/0.3.0/skywalking-client-js-0.3.0-src.tgz"
+],
+"skywalking-client-js-0.4.0": [
+"skywalking/client-js/0.4.0/skywalking-client-js-0.4.0-src.tgz"
 ],
 "skywalking-kubernetes-4.0.0": [
 "skywalking/kubernetes/4.0.0/skywalking-kubernetes-4.0.0-src.tgz"
@@ -10323,8 +10319,8 @@
 "org.apache.sling.dynamic-include-3.2.0": [
 "sling/org.apache.sling.dynamic-include-3.2.0-source-release.zip"
 ],
-"org.apache.sling.engine-2.7.2": [
-"sling/org.apache.sling.engine-2.7.2-source-release.zip"
+"org.apache.sling.engine-2.7.4": [
+"sling/org.apache.sling.engine-2.7.4-source-release.zip"
 ],
 "org.apache.sling.event-4.2.12": [
 "sling/org.apache.sling.event-4.2.12-source-release.zip"
@@ -10356,11 +10352,11 @@
 "org.apache.sling.extensions.webconsolesecurityprovider-1.2.4": [
 "sling/org.apache.sling.extensions.webconsolesecurityprovider-1.2.4-source-release.zip"
 ],
-"org.apache.sling.feature-1.2.18": [
-"sling/org.apache.sling.feature-1.2.18-source-release.zip"
+"org.apache.sling.feature-1.2.20": [
+"sling/org.apache.sling.feature-1.2.20-source-release.zip"
 ],
-"org.apache.sling.feature.analyser-1.3.16": [
-"sling/org.apache.sling.feature.analyser-1.3.16-source-release.zip"
+"org.apache.sling.feature.analyser-1.3.22": [
+"sling/org.apache.sling.feature.analyser-1.3.22-source-release.zip"
 ],
 "org.apache.sling.feature.apiregions-1.1.6": [
 "sling/org.apache.sling.feature.apiregions-1.1.6-source-release.zip"
@@ -10373,8 +10369,8 @@
 "org.apache.sling.feature.diff-0.0.6": [
 "sling/org.apache.sling.feature.diff-0.0.6-source-release.zip"
 ],
-"org.apache.sling.feature.extension.apiregions-1.1.16": [
-"sling/org.apache.sling.feature.extension.apiregions-1.1.16-source-release.zip"
+"org.apache.sling.feature.extension.apiregions-1.1.20": [
+"sling/org.apache.sling.feature.extension.apiregions-1.1.20-source-release.zip"
 ],
 "org.apache.sling.feature.extension.content-1.0.8": [
 "sling/org.apache.sling.feature.extension.content-1.0.8-source-release.zip"
@@ -10387,8 +10383,8 @@
 "org.apache.sling.feature.inventoryprinter-1.0.0": [
 "sling/org.apache.sling.feature.inventoryprinter-1.0.0-source-release.zip"
 ],
-"org.apache.sling.feature.launcher-1.1.14": [
-"sling/org.apache.sling.feature.launcher-1.1.14-source-release.zip"
+"org.apache.sling.feature.launcher-1.1.16": [
+"sling/org.apache.sling.feature.launcher-1.1.16-source-release.zip"
 ],
 "org.apache.sling.feature.modelconverter-1.0.14": [
 "sling/org.apache.sling.feature.modelconverter-1.0.14-source-release.zip",
@@ -10999,8 +10995,8 @@
 "sling-slingstart-archetype-1.0.8": [
 "sling/sling-slingstart-archetype-1.0.8-source-release.zip"
 ],
-"slingfeature-maven-plugin-1.4.20": [
-"sling/slingfeature-maven-plugin-1.4.20-source-release.zip"
+"slingfeature-maven-plugin-1.4.24": [
+"sling/slingfeature-maven-plugin-1.4.24-source-release.zip"
 ],
 "slingstart-maven-plugin-1.9.12": [
 "sling/slingstart-maven-plugin-1.9.12-source-release.zip"

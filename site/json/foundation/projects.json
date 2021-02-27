@@ -12425,6 +12425,62 @@
 ],
 "shortdesc": "A modular, full featured XMPP (Jabber) server"
 },
+"myfaces": {
+"bug-database": "http://issues.apache.org/jira/browse/MYFACES",
+"category": "web-framework, javaee",
+"created": "2006-02-28",
+"description": "MyFaces is the free open source implementation of Jakarta Server Faces, a web application framework that accomplishes the MVC paradigm. It is comparable to the well-known Struts Framework but has features and concepts that are beyond those of Struts - especially the component orientation.",
+"doap": "https://gitbox.apache.org/repos/asf?p=myfaces.git;a=blob_plain;f=doap_MyFaces.rdf;hb=HEAD",
+"download-page": "http://myfaces.apache.org/download.html",
+"homepage": "http://myfaces.apache.org",
+"implements": [
+{
+"body": "Jakarta EE",
+"id": "3.0",
+"title": "Jakarta Server Faces 3.0",
+"url": "https://jakarta.ee/specifications/faces/3.0/"
+},
+{
+"body": "Jakarta EE",
+"id": "2.3",
+"title": "Jakarta Server Faces 2.3",
+"url": "https://jakarta.ee/specifications/faces/2.3/"
+},
+{
+"body": "JCP",
+"id": "JSR 344",
+"title": "JavaServer Faces 2.2",
+"url": "http://www.jcp.org/en/jsr/detail?id=344"
+},
+{
+"body": "JCP",
+"id": "JSR 314",
+"title": "JavaServer Faces 2.0",
+"url": "http://www.jcp.org/en/jsr/detail?id=314"
+},
+{
+"body": "JCP",
+"id": "JSR 252",
+"title": "JavaServer Faces 1.2",
+"url": "https://jcp.org/en/jsr/detail?id=252"
+},
+{
+"body": "JCP",
+"id": "JSR 127",
+"title": "JavaServer Faces 1.0",
+"url": "http://www.jcp.org/en/jsr/detail?id=127"
+}
+],
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://myfaces.apache.org/mail-lists.html",
+"name": "Apache MyFaces",
+"pmc": "myfaces",
+"programming-language": "Java",
+"repository": [
+"https://gitbox.apache.org/repos/asf/myfaces.git"
+],
+"shortdesc": "The first free open source JSF implementation."
+},
 "myfaces-tobago": {
 "bug-database": "http://issues.apache.org/jira/browse/TOBAGO",
 "category": "https://projects.apache.org/projects.html?category#web-framework",
@@ -12910,9 +12966,9 @@
 "programming-language": "Java, JavaScript",
 "release": [
 {
-"created": "2019-12-06",
+"created": "2021-02-26",
 "name": "Apache Oozie",
-"revision": "5.2.0"
+"revision": "5.2.1"
 }
 ],
 "repository": [
