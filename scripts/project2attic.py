@@ -126,6 +126,7 @@ def update_project_xml(pid):
             w.write(l) # write the original line
     if found != 1:
         print("Could not find a unique match for %s - found %d" % (pid,found))
+        os.remove(xmlfilet)
     else:
         if re.search("//svn.apache.org/",source):
             os.system("svn cp %s %s" % (source.replace('http://','https://'), doapfile))
