@@ -11200,6 +11200,548 @@
 "shortdesc": "Apache Lucene is a high-performance, full-featured text search engine library",
 "wiki": "http://wiki.apache.org/lucene-java/"
 },
+"lucene-solr": {
+"bug-database": "http://issues.apache.org/jira/browse/SOLR",
+"category": "web-framework, network-server, search",
+"created": "2006-01-17",
+"description": "Solr is an open source enterprise search server based on the Lucene Java search library, with XML/HTTP and JSON, Ruby, and Python APIs, hit highlighting, faceted search, caching, replication, and a web administration interface.\n    ",
+"doap": "https://gitbox.apache.org/repos/asf?p=lucene-solr.git;a=blob_plain;f=dev-tools/doap/solr.rdf;hb=HEAD",
+"download-page": "http://lucene.apache.org/solr/downloads.html",
+"homepage": "http://lucene.apache.org/solr/",
+"license": "http://www.apache.org/licenses/LICENSE-2.0",
+"mailing-list": "http://lucene.apache.org/solr/discussion.html",
+"maintainer": [
+{
+"mbox": "mailto:dev@lucene.apache.org",
+"name": "Apache Solr Team"
+}
+],
+"name": "Apache Solr",
+"pmc": "lucene",
+"programming-language": "Java",
+"release": [
+{
+"created": "2021-02-22",
+"name": "solr-8.8.1",
+"revision": "8.8.1"
+},
+{
+"created": "2021-02-01",
+"name": "solr-8.8.0",
+"revision": "8.8.0"
+},
+{
+"created": "2020-11-03",
+"name": "solr-8.7.0",
+"revision": "8.7.0"
+},
+{
+"created": "2020-10-07",
+"name": "solr-8.6.3",
+"revision": "8.6.3"
+},
+{
+"created": "2020-09-01",
+"name": "solr-8.6.2",
+"revision": "8.6.2"
+},
+{
+"created": "2020-08-13",
+"name": "solr-8.6.1",
+"revision": "8.6.1"
+},
+{
+"created": "2020-07-15",
+"name": "solr-8.6.0",
+"revision": "8.6.0"
+},
+{
+"created": "2020-05-26",
+"name": "solr-8.5.2",
+"revision": "8.5.2"
+},
+{
+"created": "2020-04-16",
+"name": "solr-8.5.1",
+"revision": "8.5.1"
+},
+{
+"created": "2020-03-24",
+"name": "solr-8.5.0",
+"revision": "8.5.0"
+},
+{
+"created": "2020-01-13",
+"name": "solr-8.4.1",
+"revision": "8.4.1"
+},
+{
+"created": "2019-12-29",
+"name": "solr-8.4.0",
+"revision": "8.4.0"
+},
+{
+"created": "2019-12-03",
+"name": "solr-8.3.1",
+"revision": "8.3.1"
+},
+{
+"created": "2019-11-02",
+"name": "solr-8.3.0",
+"revision": "8.3.0"
+},
+{
+"created": "2019-07-26",
+"name": "solr-8.2.0",
+"revision": "8.2.0"
+},
+{
+"created": "2019-05-28",
+"name": "solr-8.1.1",
+"revision": "8.1.1"
+},
+{
+"created": "2019-05-16",
+"name": "solr-8.1.0",
+"revision": "8.1.0"
+},
+{
+"created": "2019-03-14",
+"name": "solr-8.0.0",
+"revision": "8.0.0"
+},
+{
+"created": "2020-04-28",
+"name": "solr-7.7.3",
+"revision": "7.7.3"
+},
+{
+"created": "2019-06-04",
+"name": "solr-7.7.2",
+"revision": "7.7.2"
+},
+{
+"created": "2019-03-01",
+"name": "solr-7.7.1",
+"revision": "7.7.1"
+},
+{
+"created": "2019-02-11",
+"name": "solr-7.7.0",
+"revision": "7.7.0"
+},
+{
+"created": "2018-12-14",
+"name": "solr-7.6.0",
+"revision": "7.6.0"
+},
+{
+"created": "2018-09-24",
+"name": "solr-7.5.0",
+"revision": "7.5.0"
+},
+{
+"created": "2018-06-27",
+"name": "solr-7.4.0",
+"revision": "7.4.0"
+},
+{
+"created": "2018-05-15",
+"name": "solr-7.3.1",
+"revision": "7.3.1"
+},
+{
+"created": "2018-04-04",
+"name": "solr-7.3.0",
+"revision": "7.3.0"
+},
+{
+"created": "2018-01-15",
+"name": "solr-7.2.1",
+"revision": "7.2.1"
+},
+{
+"created": "2017-12-21",
+"name": "solr-7.2.0",
+"revision": "7.2.0"
+},
+{
+"created": "2017-10-17",
+"name": "solr-7.1.0",
+"revision": "7.1.0"
+},
+{
+"created": "2017-10-06",
+"name": "solr-7.0.1",
+"revision": "7.0.1"
+},
+{
+"created": "2017-09-20",
+"name": "solr-7.0.0",
+"revision": "7.0.0"
+},
+{
+"created": "2018-04-05",
+"name": "solr-6.6.6",
+"revision": "6.6.6"
+},
+{
+"created": "2018-06-03",
+"name": "solr-6.6.5",
+"revision": "6.6.5"
+},
+{
+"created": "2018-05-18",
+"name": "solr-6.6.4",
+"revision": "6.6.4"
+},
+{
+"created": "2018-03-07",
+"name": "solr-6.6.3",
+"revision": "6.6.3"
+},
+{
+"created": "2017-10-18",
+"name": "solr-6.6.2",
+"revision": "6.6.2"
+},
+{
+"created": "2017-09-07",
+"name": "solr-6.6.1",
+"revision": "6.6.1"
+},
+{
+"created": "2017-06-06",
+"name": "solr-6.6.0",
+"revision": "6.6.0"
+},
+{
+"created": "2017-04-27",
+"name": "solr-6.5.1",
+"revision": "6.5.1"
+},
+{
+"created": "2017-03-27",
+"name": "solr-6.5.0",
+"revision": "6.5.0"
+},
+{
+"created": "2017-03-07",
+"name": "solr-6.4.2",
+"revision": "6.4.2"
+},
+{
+"created": "2017-02-06",
+"name": "solr-6.4.1",
+"revision": "6.4.1"
+},
+{
+"created": "2017-01-23",
+"name": "solr-6.4.0",
+"revision": "6.4.0"
+},
+{
+"created": "2016-11-08",
+"name": "solr-6.3.0",
+"revision": "6.3.0"
+},
+{
+"created": "2016-09-20",
+"name": "solr-6.2.1",
+"revision": "6.2.1"
+},
+{
+"created": "2016-08-25",
+"name": "solr-6.2.0",
+"revision": "6.2.0"
+},
+{
+"created": "2016-06-17",
+"name": "solr-6.1.0",
+"revision": "6.1.0"
+},
+{
+"created": "2016-05-28",
+"name": "solr-6.0.1",
+"revision": "6.0.1"
+},
+{
+"created": "2016-04-08",
+"name": "solr-6.0.0",
+"revision": "6.0.0"
+},
+{
+"created": "2017-10-24",
+"name": "solr-5.5.5",
+"revision": "5.5.5"
+},
+{
+"created": "2017-02-15",
+"name": "solr-5.5.4",
+"revision": "5.5.4"
+},
+{
+"created": "2016-09-09",
+"name": "solr-5.5.3",
+"revision": "5.5.3"
+},
+{
+"created": "2016-06-25",
+"name": "solr-5.5.2",
+"revision": "5.5.2"
+},
+{
+"created": "2016-05-05",
+"name": "solr-5.5.1",
+"revision": "5.5.1"
+},
+{
+"created": "2016-02-22",
+"name": "solr-5.5.0",
+"revision": "5.5.0"
+},
+{
+"created": "2016-01-23",
+"name": "solr-5.4.1",
+"revision": "5.4.1"
+},
+{
+"created": "2015-12-14",
+"name": "solr-5.4.0",
+"revision": "5.4.0"
+},
+{
+"created": "2016-01-23",
+"name": "solr-5.3.2",
+"revision": "5.3.2"
+},
+{
+"created": "2015-09-24",
+"name": "solr-5.3.1",
+"revision": "5.3.1"
+},
+{
+"created": "2015-08-21",
+"name": "solr-5.3.0",
+"revision": "5.3.0"
+},
+{
+"created": "2015-06-15",
+"name": "solr-5.2.1",
+"revision": "5.2.1"
+},
+{
+"created": "2015-06-07",
+"name": "solr-5.2.0",
+"revision": "5.2.0"
+},
+{
+"created": "2015-04-14",
+"name": "solr-5.1.0",
+"revision": "5.1.0"
+},
+{
+"created": "2015-02-20",
+"name": "solr-5.0.0",
+"revision": "5.0.0"
+},
+{
+"created": "2015-03-03",
+"name": "solr-4.10.4",
+"revision": "4.10.4"
+},
+{
+"created": "2014-12-29",
+"name": "solr-4.10.3",
+"revision": "4.10.3"
+},
+{
+"created": "2014-10-31",
+"name": "solr-4.10.2",
+"revision": "4.10.2"
+},
+{
+"created": "2014-09-29",
+"name": "solr-4.10.1",
+"revision": "4.10.1"
+},
+{
+"created": "2014-09-03",
+"name": "solr-4.10.0",
+"revision": "4.10.0"
+},
+{
+"created": "2014-09-22",
+"name": "solr-4.9.1",
+"revision": "4.9.1"
+},
+{
+"created": "2014-06-25",
+"name": "solr-4.9.0",
+"revision": "4.9.0"
+},
+{
+"created": "2014-05-20",
+"name": "solr-4.8.1",
+"revision": "4.8.1"
+},
+{
+"created": "2014-04-28",
+"name": "solr-4.8.0",
+"revision": "4.8.0"
+},
+{
+"created": "2014-04-15",
+"name": "solr-4.7.2",
+"revision": "4.7.2"
+},
+{
+"created": "2014-02-26",
+"name": "solr-4.7.1",
+"revision": "4.7.1"
+},
+{
+"created": "2014-02-26",
+"name": "solr-4.7.0",
+"revision": "4.7.0"
+},
+{
+"created": "2014-01-28",
+"name": "solr-4.6.1",
+"revision": "4.6.1"
+},
+{
+"created": "2013-11-22",
+"name": "solr-4.6.0",
+"revision": "4.6.0"
+},
+{
+"created": "2013-10-24",
+"name": "solr-4.5.1",
+"revision": "4.5.1"
+},
+{
+"created": "2013-10-05",
+"name": "solr-4.5",
+"revision": "4.5"
+},
+{
+"created": "2013-07-23",
+"name": "solr-4.4",
+"revision": "4.4"
+},
+{
+"created": "2013-06-18",
+"name": "solr-4.3.1",
+"revision": "4.3.1"
+},
+{
+"created": "2013-05-06",
+"name": "solr-4.3",
+"revision": "4.3"
+},
+{
+"created": "2013-04-03",
+"name": "solr-4.2.1",
+"revision": "4.2.1"
+},
+{
+"created": "2013-03-11",
+"name": "solr-4.2",
+"revision": "4.2"
+},
+{
+"created": "2013-01-22",
+"name": "solr-4.1",
+"revision": "4.1"
+},
+{
+"created": "2012-10-12",
+"name": "solr-4.0",
+"revision": "4.0"
+},
+{
+"created": "2012-08-13",
+"name": "solr-4.0-BETA",
+"revision": "4.0-BETA"
+},
+{
+"created": "2012-07-03",
+"name": "solr-4.0-ALPHA",
+"revision": "4.0-ALPHA"
+},
+{
+"created": "2012-12-25",
+"name": "solr-3.6.2",
+"revision": "3.6.2"
+},
+{
+"created": "2012-07-22",
+"name": "solr-3.6.1",
+"revision": "3.6.1"
+},
+{
+"created": "2012-04-12",
+"name": "solr-3.6",
+"revision": "3.6"
+},
+{
+"created": "2011-11-11",
+"name": "solr-3.5",
+"revision": "3.5"
+},
+{
+"created": "2011-09-15",
+"name": "solr-3.4",
+"revision": "3.4"
+},
+{
+"created": "2011-07-10",
+"name": "solr-3.3",
+"revision": "3.3"
+},
+{
+"created": "2011-06-03",
+"name": "solr-3.2",
+"revision": "3.2"
+},
+{
+"created": "2011-03-31",
+"name": "solr-3.1",
+"revision": "3.1"
+},
+{
+"created": "2010-6-25",
+"name": "solr-1.4.1",
+"revision": "1.4.1"
+},
+{
+"created": "2009-11-10",
+"name": "solr-1.4.0",
+"revision": "1.4.0"
+},
+{
+"created": "2008-09-16",
+"name": "solr-1.3.0",
+"revision": "1.3.0"
+},
+{
+"created": "2007-06-06",
+"name": "solr-1.2.0",
+"revision": "1.2.0"
+},
+{
+"created": "2006-12-22",
+"name": "solr-1.1.0",
+"revision": "1.1.0"
+}
+],
+"repository": [
+"https://git-wip-us.apache.org/repos/asf/lucene-solr.git"
+],
+"shortdesc": "Solr is a full-text search server",
+"wiki": "http://wiki.apache.org/solr/"
+},
 "lucenenet-lucenedotnet": {
 "bug-database": "https://github.com/apache/lucenenet/issues",
 "category": "database",
@@ -12684,6 +13226,31 @@
 "https://gitbox.apache.org/repos/asf/orc.git"
 ],
 "shortdesc": "A high-performance columnar file format for Hadoop workloads."
+},
+"parquet": {
+"bug-database": "https://issues.apache.org/jira/browse/PARQUET",
+"category": "big-data",
+"created": "2015-05-13",
+"description": "Apache Parquet is a general-purpose columnar storage format, built for Hadoop, usable with any choice of data processing framework, data model, or programming language.",
+"doap": "http://parquet.apache.org/doap_Parquet.rdf",
+"download-page": "https://parquet.apache.org/downloads/",
+"homepage": "http://parquet.apache.org",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://parquet.apache.org/community/",
+"name": "Apache Parquet",
+"pmc": "parquet",
+"programming-language": "Java",
+"release": [
+{
+"created": "2015-04-15",
+"name": "Parquet MR",
+"revision": "1.6.0"
+}
+],
+"repository": [
+"https://git-wip-us.apache.org/repos/asf/parquet-mr.git"
+],
+"shortdesc": "Apache Parquet is a general-purpose columnar storage format."
 },
 "pdfbox": {
 "bug-database": "https://issues.apache.org/jira/browse/PDFBOX",
