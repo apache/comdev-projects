@@ -1386,12 +1386,18 @@
 "20200202-2": [
 "clerezza/api-implementation/partial-release-202002/20200202-2-src.zip",
 "clerezza/ontologies/partial-release-202002/20200202-2-src.zip",
-"clerezza/partial-releases/partial-release-202002/20200202-2-src.zip"
+"clerezza/partial-releases/partial-release-202002/20200202-2-src.zip",
+"clerezza/representation/partial-release-202002/20200202-2-src.zip",
+"clerezza/sparql/partial-release-202002/20200202-2-src.zip",
+"clerezza/test.utils/partial-release-202002/20200202-2-src.zip"
 ],
 "20200220-3": [
 "clerezza/api-implementation/partial-release-202002/20200220-3-src.zip",
 "clerezza/ontologies/partial-release-202002/20200220-3-src.zip",
-"clerezza/partial-releases/partial-release-202002/20200220-3-src.zip"
+"clerezza/partial-releases/partial-release-202002/20200220-3-src.zip",
+"clerezza/representation/partial-release-202002/20200220-3-src.zip",
+"clerezza/sparql/partial-release-202002/20200220-3-src.zip",
+"clerezza/test.utils/partial-release-202002/20200220-3-src.zip"
 ],
 "api-2.0.0": [
 "clerezza/api/api-2.0.0-source-release.zip"
@@ -1984,20 +1990,6 @@
 "creadur/apache-rat-0.13/apache-rat-0.13-src.tar.bz2",
 "creadur/apache-rat-0.13/apache-rat-0.13-src.tar.gz",
 "creadur/apache-rat-0.13/apache-rat-0.13-src.zip"
-]
-},
-"crunch": {
-"apache-crunch-0.14.0": [
-"crunch/crunch-0.14.0/apache-crunch-0.14.0-src.tar.gz",
-"crunch/crunch-0.14.0/apache-crunch-0.14.0-src.zip"
-],
-"apache-crunch-0.15.0": [
-"crunch/crunch-0.15.0/apache-crunch-0.15.0-src.tar.gz",
-"crunch/crunch-0.15.0/apache-crunch-0.15.0-src.zip"
-],
-"apache-crunch-1.0.0": [
-"crunch/crunch-1.0.0/apache-crunch-1.0.0-src.tar.gz",
-"crunch/crunch-1.0.0/apache-crunch-1.0.0-src.zip"
 ]
 },
 "ctakes": {
@@ -9418,6 +9410,12 @@
 "openmeetings/5.1.0/bin/apache-openmeetings-5.1.0.zip",
 "openmeetings/5.1.0/src/apache-openmeetings-5.1.0-src.tar.gz",
 "openmeetings/5.1.0/src/apache-openmeetings-5.1.0-src.zip"
+],
+"apache-openmeetings-6.0.0": [
+"openmeetings/6.0.0/bin/apache-openmeetings-6.0.0.tar.gz",
+"openmeetings/6.0.0/bin/apache-openmeetings-6.0.0.zip",
+"openmeetings/6.0.0/src/apache-openmeetings-6.0.0-src.tar.gz",
+"openmeetings/6.0.0/src/apache-openmeetings-6.0.0-src.zip"
 ]
 },
 "opennlp": {
@@ -11746,50 +11744,6 @@
 "sqoop/1.99.7/sqoop-1.99.7.tar.gz"
 ]
 },
-"stanbol": {
-"apache-stanbol-0.12.0": [
-"stanbol/apache-stanbol-0.12.0-source-release.tar.gz",
-"stanbol/apache-stanbol-0.12.0-source-release.zip"
-],
-"apache-stanbol-1.0.0": [
-"stanbol/apache-stanbol-1.0.0-source-release.tar.gz",
-"stanbol/apache-stanbol-1.0.0-source-release.zip"
-],
-"apache-stanbol-commons-0.11.0": [
-"stanbol/apache-stanbol-commons-0.11.0-source-release.tar.gz",
-"stanbol/apache-stanbol-commons-0.11.0-source-release.zip"
-],
-"apache-stanbol-contenthub-0.10.0": [
-"stanbol/apache-stanbol-contenthub-0.10.0-source-release.tar.gz",
-"stanbol/apache-stanbol-contenthub-0.10.0-source-release.zip"
-],
-"apache-stanbol-data-1.1.0": [
-"stanbol/apache-stanbol-data-1.1.0-source-release.tar.gz",
-"stanbol/apache-stanbol-data-1.1.0-source-release.zip"
-],
-"apache-stanbol-enhancement-engines-0.10.0": [
-"stanbol/apache-stanbol-enhancement-engines-0.10.0-source-release.tar.gz",
-"stanbol/apache-stanbol-enhancement-engines-0.10.0-source-release.zip"
-],
-"apache-stanbol-enhancer-0.10.0": [
-"stanbol/apache-stanbol-enhancer-0.10.0-source-release.tar.gz",
-"stanbol/apache-stanbol-enhancer-0.10.0-source-release.zip"
-],
-"apache-stanbol-entityhub-0.11.0": [
-"stanbol/apache-stanbol-entityhub-0.11.0-source-release.tar.gz",
-"stanbol/apache-stanbol-entityhub-0.11.0-source-release.zip"
-],
-"org.apache.stanbol.commons.security.reactor-20140602": [
-"stanbol/org.apache.stanbol.commons.security.reactor-20140602-source-release.tar.gz"
-],
-"source-1.0.0": [
-"stanbol/source-assembly-1.0.0-source-release.zip"
-],
-"stanbol-3": [
-"stanbol/stanbol-parent-3-source-release.tar.gz",
-"stanbol/stanbol-parent-3-source-release.zip"
-]
-},
 "storm": {
 "apache-storm-1.2.3": [
 "storm/apache-storm-1.2.3/apache-storm-1.2.3-src.tar.gz",
@@ -12260,6 +12214,10 @@
 "thrift-0.14.0": [
 "thrift/0.14.0/thrift-0.14.0.exe",
 "thrift/0.14.0/thrift-0.14.0.tar.gz"
+],
+"thrift-0.14.1": [
+"thrift/0.14.1/thrift-0.14.1.exe",
+"thrift/0.14.1/thrift-0.14.1.tar.gz"
 ],
 "thrift-0.9.3": [
 "thrift/0.9.3/thrift-0.9.3.exe",
@@ -13585,116 +13543,17 @@
 ]
 },
 "xmlgraphics": {
-"batik-1.10": [
-"xmlgraphics/batik/source/batik-src-1.10.tar.gz",
-"xmlgraphics/batik/source/batik-src-1.10.zip"
-],
-"batik-1.11": [
-"xmlgraphics/batik/source/batik-src-1.11.tar.gz",
-"xmlgraphics/batik/source/batik-src-1.11.zip"
-],
-"batik-1.12": [
-"xmlgraphics/batik/source/batik-src-1.12.tar.gz",
-"xmlgraphics/batik/source/batik-src-1.12.zip"
-],
-"batik-1.13": [
-"xmlgraphics/batik/source/batik-src-1.13.tar.gz",
-"xmlgraphics/batik/source/batik-src-1.13.zip"
-],
 "batik-1.14": [
 "xmlgraphics/batik/source/batik-src-1.14.tar.gz",
 "xmlgraphics/batik/source/batik-src-1.14.zip"
-],
-"batik-1.7": [
-"xmlgraphics/batik/source/batik-src-1.7.zip"
-],
-"batik-1.8": [
-"xmlgraphics/batik/source/batik-src-1.8.tar.gz",
-"xmlgraphics/batik/source/batik-src-1.8.zip"
-],
-"batik-1.9": [
-"xmlgraphics/batik/source/batik-src-1.9.tar.gz",
-"xmlgraphics/batik/source/batik-src-1.9.zip"
-],
-"fop-1.1": [
-"xmlgraphics/fop/source/fop-1.1-src.tar.gz",
-"xmlgraphics/fop/source/fop-1.1-src.zip"
-],
-"fop-2.0": [
-"xmlgraphics/fop/source/fop-2.0-src.tar.gz",
-"xmlgraphics/fop/source/fop-2.0-src.zip"
-],
-"fop-2.1": [
-"xmlgraphics/fop/source/fop-2.1-src.tar.gz",
-"xmlgraphics/fop/source/fop-2.1-src.zip"
-],
-"fop-2.2": [
-"xmlgraphics/fop/source/fop-2.2-src.tar.gz",
-"xmlgraphics/fop/source/fop-2.2-src.zip"
-],
-"fop-2.3": [
-"xmlgraphics/fop/source/fop-2.3-src.tar.gz",
-"xmlgraphics/fop/source/fop-2.3-src.zip"
-],
-"fop-2.4": [
-"xmlgraphics/fop/source/fop-2.4-src.tar.gz",
-"xmlgraphics/fop/source/fop-2.4-src.zip"
-],
-"fop-2.5": [
-"xmlgraphics/fop/source/fop-2.5-src.tar.gz",
-"xmlgraphics/fop/source/fop-2.5-src.zip"
 ],
 "fop-2.6": [
 "xmlgraphics/fop/source/fop-2.6-src.tar.gz",
 "xmlgraphics/fop/source/fop-2.6-src.zip"
 ],
-"fop-pdf-images-2.2": [
-"xmlgraphics/fop-pdf-images/source/fop-pdf-images-2.2-src.tar.gz",
-"xmlgraphics/fop-pdf-images/source/fop-pdf-images-2.2-src.zip"
-],
-"fop-pdf-images-2.3": [
-"xmlgraphics/fop-pdf-images/source/fop-pdf-images-2.3-src.tar.gz",
-"xmlgraphics/fop-pdf-images/source/fop-pdf-images-2.3-src.zip"
-],
-"fop-pdf-images-2.4": [
-"xmlgraphics/fop-pdf-images/source/fop-pdf-images-2.4-src.tar.gz",
-"xmlgraphics/fop-pdf-images/source/fop-pdf-images-2.4-src.zip"
-],
-"fop-pdf-images-2.5": [
-"xmlgraphics/fop-pdf-images/source/fop-pdf-images-2.5-src.tar.gz",
-"xmlgraphics/fop-pdf-images/source/fop-pdf-images-2.5-src.zip"
-],
 "fop-pdf-images-2.6": [
 "xmlgraphics/fop-pdf-images/source/fop-pdf-images-2.6-src.tar.gz",
 "xmlgraphics/fop-pdf-images/source/fop-pdf-images-2.6-src.zip"
-],
-"xmlgraphics-commons-1.5": [
-"xmlgraphics/commons/source/xmlgraphics-commons-1.5-src.tar.gz",
-"xmlgraphics/commons/source/xmlgraphics-commons-1.5-src.zip"
-],
-"xmlgraphics-commons-2.0": [
-"xmlgraphics/commons/source/xmlgraphics-commons-2.0-src.tar.gz",
-"xmlgraphics/commons/source/xmlgraphics-commons-2.0-src.zip"
-],
-"xmlgraphics-commons-2.0.1": [
-"xmlgraphics/commons/source/xmlgraphics-commons-2.0.1-src.tar.gz",
-"xmlgraphics/commons/source/xmlgraphics-commons-2.0.1-src.zip"
-],
-"xmlgraphics-commons-2.1": [
-"xmlgraphics/commons/source/xmlgraphics-commons-2.1-src.tar.gz",
-"xmlgraphics/commons/source/xmlgraphics-commons-2.1-src.zip"
-],
-"xmlgraphics-commons-2.2": [
-"xmlgraphics/commons/source/xmlgraphics-commons-2.2-src.tar.gz",
-"xmlgraphics/commons/source/xmlgraphics-commons-2.2-src.zip"
-],
-"xmlgraphics-commons-2.3": [
-"xmlgraphics/commons/source/xmlgraphics-commons-2.3-src.tar.gz",
-"xmlgraphics/commons/source/xmlgraphics-commons-2.3-src.zip"
-],
-"xmlgraphics-commons-2.4": [
-"xmlgraphics/commons/source/xmlgraphics-commons-2.4-src.tar.gz",
-"xmlgraphics/commons/source/xmlgraphics-commons-2.4-src.zip"
 ],
 "xmlgraphics-commons-2.6": [
 "xmlgraphics/commons/source/xmlgraphics-commons-2.6-src.tar.gz",
