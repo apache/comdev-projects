@@ -696,8 +696,6 @@
 "olingo",
 "servicemix",
 "shiro",
-"stanbol",
-"stanbol-pmc",
 "steve",
 "steve-pmc",
 "tomee",
@@ -16912,6 +16910,8 @@
 "fpapon": {
 "groups": [
 "eventmesh",
+"geronimo",
+"geronimo-pmc",
 "hop",
 "incubator",
 "incubator-pmc",
@@ -18076,6 +18076,14 @@
 "member": false,
 "name": "Giuseppe Gerla"
 },
+"ggevay": {
+"groups": [
+"incubator",
+"wayang"
+],
+"member": false,
+"name": "Gábor Gévay"
+},
 "ggolden": {
 "groups": [
 "portals"
@@ -19132,7 +19140,6 @@
 "petri-pmc",
 "serf",
 "serf-pmc",
-"stanbol",
 "steve",
 "subversion",
 "subversion-pmc",
@@ -21187,8 +21194,6 @@
 "ponymail",
 "ranger",
 "ranger-pmc",
-"stanbol",
-"stanbol-pmc",
 "steve",
 "steve-pmc",
 "tac",
@@ -25158,7 +25163,6 @@
 "rocketmq",
 "rocketmq-pmc",
 "serf",
-"stanbol",
 "steve",
 "superset",
 "superset-pmc",
@@ -28837,7 +28841,6 @@
 "incubator",
 "oodt",
 "oodt-pmc",
-"stanbol",
 "steve"
 ],
 "member": true,
@@ -34001,7 +34004,6 @@
 "reef-pmc",
 "sis",
 "sis-pmc",
-"stanbol",
 "steve",
 "tajo",
 "tajo-pmc",
@@ -41126,7 +41128,6 @@
 "directory",
 "directory-pmc",
 "incubator",
-"stanbol",
 "steve",
 "trafodion",
 "trafodion-pmc",
@@ -43488,8 +43489,6 @@
 "kibble",
 "kibble-pmc",
 "ponymail",
-"stanbol",
-"stanbol-pmc",
 "steve",
 "steve-pmc",
 "systemds"
@@ -45398,8 +45397,6 @@
 "incubator-pmc",
 "jspwiki",
 "ponymail",
-"stanbol",
-"stanbol-pmc",
 "steve",
 "steve-pmc",
 "uima",
@@ -58443,6 +58440,7 @@
 },
 "zhangboyi": {
 "groups": [
+"dolphinscheduler",
 "incubator"
 ],
 "member": false,
@@ -58586,7 +58584,8 @@
 "zhangzc": {
 "groups": [
 "carbondata",
-"carbondata-pmc"
+"carbondata-pmc",
+"kylin"
 ],
 "member": false,
 "name": "Zhichao Zhang"
