@@ -14743,6 +14743,29 @@
 "shortdesc": "Solr is a full-text search server",
 "wiki": "https://cwiki.apache.org/confluence/display/SOLR/"
 },
+"solr-operator": {
+"bug-database": "https://github.com/apache/lucene-solr-operator/issues",
+"category": "cloud, search, go",
+"created": "2021-01-14",
+"doap": "https://solr.apache.org/doap/solr-operator.rdf",
+"download-page": "https://github.com/apache/lucene-solr-operator/releases",
+"homepage": "https://github.com/apache/lucene-solr-operator",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://solr.apache.org/community.html#mailing-lists-chat",
+"maintainer": [
+{
+"mbox": "mailto:dev@solr.apache.org",
+"name": "Apache Solr Team"
+}
+],
+"name": "Apache Solr Operator",
+"pmc": "solr",
+"programming-language": "Go",
+"repository": [
+"https://gitbox.apache.org/repos/asf/lucene-solr-operator.git"
+],
+"shortdesc": "Manages Solr resources in Kubernetes"
+},
 "spamassassin": {
 "bug-database": "https://issues.apache.org/SpamAssassin/",
 "category": "mail",
@@ -15542,19 +15565,19 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2021-02-02",
+"created": "2021-03-10",
 "name": "Latest Stable 10.0.x Release",
-"revision": "10.0.2"
+"revision": "10.0.4"
 },
 {
-"created": "2021-02-02",
+"created": "2021-03-10",
 "name": "Latest Stable 9.0.x Release",
-"revision": "9.0.43"
+"revision": "9.0.44"
 },
 {
-"created": "2021-02-03",
+"created": "2021-03-10",
 "name": "Latest Stable 8.5.x Release",
-"revision": "8.5.63"
+"revision": "8.5.64"
 },
 {
 "created": "2021-02-05",

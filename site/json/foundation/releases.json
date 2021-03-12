@@ -66,9 +66,9 @@
 "apache-airflow-backport-providers-tableau-2021.3.3": "2021-03-07",
 "apache-airflow-backport-providers-telegram-2021.3.3": "2021-03-07",
 "apache-airflow-providers-amazon-1.2.0": "2021-03-07",
-"apache-airflow-providers-apache-beam-1.0.0": "2021-02-08",
+"apache-airflow-providers-apache-beam-1.0.1": "2021-03-11",
 "apache-airflow-providers-apache-cassandra-1.0.1": "2021-02-08",
-"apache-airflow-providers-apache-druid-1.0.1": "2021-02-08",
+"apache-airflow-providers-apache-druid-1.1.0": "2021-03-11",
 "apache-airflow-providers-apache-hdfs-1.0.1": "2021-02-08",
 "apache-airflow-providers-apache-hive-1.0.2": "2021-03-07",
 "apache-airflow-providers-apache-kylin-1.0.1": "2021-02-08",
@@ -97,7 +97,7 @@
 "apache-airflow-providers-jdbc-1.0.1": "2021-02-08",
 "apache-airflow-providers-jenkins-1.1.0": "2021-03-07",
 "apache-airflow-providers-jira-1.0.1": "2021-02-08",
-"apache-airflow-providers-microsoft-azure-1.1.0": "2021-02-08",
+"apache-airflow-providers-microsoft-azure-1.2.0": "2021-03-11",
 "apache-airflow-providers-microsoft-mssql-1.0.1": "2021-02-08",
 "apache-airflow-providers-microsoft-winrm-1.0.1": "2021-02-08",
 "apache-airflow-providers-mongo-1.0.1": "2021-02-08",
@@ -121,7 +121,7 @@
 "apache-airflow-providers-sftp-1.1.1": "2021-03-07",
 "apache-airflow-providers-singularity-1.0.1": "2021-02-08",
 "apache-airflow-providers-slack-3.0.0": "2021-03-07",
-"apache-airflow-providers-snowflake-1.1.0": "2021-02-08",
+"apache-airflow-providers-snowflake-1.1.1": "2021-03-11",
 "apache-airflow-providers-sqlite-1.0.2": "2021-03-07",
 "apache-airflow-providers-ssh-1.2.0": "2021-03-07",
 "apache-airflow-providers-tableau-1.0.0": "2021-03-07",
@@ -154,7 +154,8 @@
 "apisix": {
 "apache-apisix-2.4": "2021-03-05",
 "apache-apisix-dashboard-2.4": "2021-02-12",
-"apache-apisix-ingress-controller-0.3.0": "2021-02-10"
+"apache-apisix-ingress-controller-0.3.0": "2021-02-10",
+"apache-apisix-ingress-controller-0.4.0": "2021-03-11"
 },
 "apr": {
 "apr-1.6.5": "2020-07-06",
@@ -1074,6 +1075,7 @@
 "httpcomponents-core-5.0.1": "2020-07-03",
 "httpcomponents-core-5.0.2": "2020-09-12",
 "httpcomponents-core-5.0.3": "2020-12-02",
+"httpcomponents-core-5.1": "2021-03-11",
 "httpcomponents-core-5.1-beta2": "2020-12-02",
 "httpcomponents-core-5.1-beta3": "2021-02-04"
 },
@@ -1342,13 +1344,14 @@
 "create-download-md.sh": "2020-07-03",
 "filevault-package-maven-plugin-1.1.6": "2021-01-11",
 "jackrabbit-2.12.11": "2020-09-07",
-"jackrabbit-2.14.8": "2020-07-03",
+"jackrabbit-2.14.9": "2021-03-08",
 "jackrabbit-2.16.7": "2021-02-06",
 "jackrabbit-2.20.2": "2020-11-02",
 "jackrabbit-2.21.5": "2021-01-11",
+"jackrabbit-filevault-3.2.8": "2021-03-11",
 "jackrabbit-filevault-3.4.10": "2021-02-26",
 "jackrabbit-jca-2.12.11": "2020-09-07",
-"jackrabbit-jca-2.14.8": "2020-07-03",
+"jackrabbit-jca-2.14.9": "2021-03-08",
 "jackrabbit-jca-2.16.7": "2021-02-06",
 "jackrabbit-jca-2.20.2": "2020-11-02",
 "jackrabbit-jca-2.21.5": "2021-01-11",
@@ -1655,11 +1658,6 @@
 "MetaModel-full-4.5.5": "2020-07-06",
 "MetaModel-full-5.0.1": "2020-07-06",
 "MetaModel-full-5.1.0": "2020-07-06"
-},
-"metron": {
-"COPYING": "2020-07-06",
-"apache-metron-bro-plugin-kafka_0.3.0": "2020-07-06",
-"apache-metron_0.7.1": "2020-07-06"
 },
 "mina": {
 "apache-ftpserver-1.1.1": "2020-07-03",
@@ -2770,9 +2768,6 @@
 "portlet-api_2.1.0_spec-1.0": "2020-07-06",
 "springmvc": "2020-07-06"
 },
-"predictionio": {
-"apache-predictionio-0.14.0": "2020-07-06"
-},
 "pulsar": {
 "Packages": "2021-01-13",
 "apache-pulsar": "2021-01-13",
@@ -2958,13 +2953,6 @@
 "xml-security-c-2.0.2": "2020-07-03",
 "xmlsec-2.1.6": "2020-12-14",
 "xmlsec-2.2.1": "2020-12-14"
-},
-"sentry": {
-"apache-sentry-1.7.1": "2020-07-06",
-"apache-sentry-1.8.0": "2020-07-06",
-"apache-sentry-2.0.0": "2020-07-06",
-"apache-sentry-2.0.1": "2020-07-06",
-"apache-sentry-2.1.0": "2020-07-06"
 },
 "serf": {
 "serf-1.3.9": "2020-07-06"
@@ -3187,7 +3175,7 @@
 "org.apache.sling.hc.samples-1.0.6": "2020-07-03",
 "org.apache.sling.hc.support-1.0.6": "2020-07-03",
 "org.apache.sling.hc.webconsole-2.0.0": "2020-07-03",
-"org.apache.sling.i18n-2.5.14": "2020-07-03",
+"org.apache.sling.i18n-2.5.16": "2021-03-11",
 "org.apache.sling.ide.p2update-1.2.2": "2020-07-03",
 "org.apache.sling.installer.console-1.1.0": "2020-07-03",
 "org.apache.sling.installer.core-3.11.4": "2020-07-03",
@@ -3568,12 +3556,9 @@
 "apache-tinkerpop-3.4.10": "2021-01-22"
 },
 "tomcat": {
-"apache-tomcat-10.0.2": "2021-01-28",
 "apache-tomcat-10.0.4": "2021-03-05",
 "apache-tomcat-7.0.108": "2021-01-28",
-"apache-tomcat-8.5.63": "2021-01-29",
 "apache-tomcat-8.5.64": "2021-03-04",
-"apache-tomcat-9.0.43": "2021-01-28",
 "apache-tomcat-9.0.44": "2021-03-04",
 "jakartaee-migration-0.2.0": "2021-02-11",
 "taglibs-standard-1.2.5": "2020-07-03",
@@ -3803,8 +3788,8 @@
 "tomee-webaccess-8.0.0-M3": "2020-07-03"
 },
 "trafficcontrol": {
-"apache-trafficcontrol-4.1.1": "2020-12-04",
-"apache-trafficcontrol-5.0.0": "2021-01-21"
+"apache-trafficcontrol-5.0.0": "2021-01-21",
+"apache-trafficcontrol-5.1.0": "2021-03-11"
 },
 "trafficserver": {
 "trafficserver-7.1.12": "2020-12-02",
