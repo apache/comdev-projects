@@ -1437,12 +1437,6 @@
 "clerezza/typehandlerspace-02/typehandlerspace-0.2-source-release.zip"
 ]
 },
-"climate": {
-"climate-1.3.0-rc1": [
-"climate/1.3.0/climate-1.3.0-rc1.tgz",
-"climate/1.3.0/climate-1.3.0-rc1.zip"
-]
-},
 "cloudstack": {
 "apache-cloudstack-4.14.1.0": [
 "cloudstack/releases/4.14.1.0/apache-cloudstack-4.14.1.0-src.tar.bz2"
@@ -2246,17 +2240,6 @@
 ],
 "dubbo-hessian-lite-3.2.9": [
 "dubbo/dubbo-hessian-lite/3.2.9/dubbo-hessian-lite-3.2.9-source-release.zip"
-]
-},
-"eagle": {
-"apache-eagle-0.3.0-incubating": [
-"eagle/apache-eagle-0.3.0-incubating/apache-eagle-0.3.0-incubating-src.tar.gz"
-],
-"apache-eagle-0.4.0-incubating": [
-"eagle/apache-eagle-0.4.0-incubating/apache-eagle-0.4.0-incubating-src.tar.gz"
-],
-"apache-eagle-0.5.0": [
-"eagle/apache-eagle-0.5.0/apache-eagle-0.5.0-src.tar.gz"
 ]
 },
 "echarts": {
@@ -4445,9 +4428,9 @@
 "logging/log4j/2.12.1/apache-log4j-2.12.1-src.tar.gz",
 "logging/log4j/2.12.1/apache-log4j-2.12.1-src.zip"
 ],
-"apache-log4j-2.14.0": [
-"logging/log4j/2.14.0/apache-log4j-2.14.0-src.tar.gz",
-"logging/log4j/2.14.0/apache-log4j-2.14.0-src.zip"
+"apache-log4j-2.14.1": [
+"logging/log4j/2.14.1/apache-log4j-2.14.1-src.tar.gz",
+"logging/log4j/2.14.1/apache-log4j-2.14.1-src.zip"
 ],
 "apache-log4j-2.3": [
 "logging/log4j/2.3/apache-log4j-2.3-site.zip",
@@ -4672,20 +4655,6 @@
 "apache-manifoldcf-solr-8.x-plugin-2.2": [
 "manifoldcf/apache-manifoldcf-solr-8.x-plugin-2.2/apache-manifoldcf-solr-8.x-plugin-2.2-src.tar.gz",
 "manifoldcf/apache-manifoldcf-solr-8.x-plugin-2.2/apache-manifoldcf-solr-8.x-plugin-2.2-src.zip"
-]
-},
-"marmotta": {
-"apache-marmotta-3.4.0": [
-"marmotta/3.4.0/apache-marmotta-3.4.0-installer.tar.gz",
-"marmotta/3.4.0/apache-marmotta-3.4.0-installer.zip",
-"marmotta/3.4.0/apache-marmotta-3.4.0-src.tar.gz",
-"marmotta/3.4.0/apache-marmotta-3.4.0-src.zip",
-"marmotta/3.4.0/apache-marmotta-3.4.0-webapp.tar.gz",
-"marmotta/3.4.0/apache-marmotta-3.4.0-webapp.zip"
-],
-"apache-marmotta-3.4.0-ldquery": [
-"marmotta/3.4.0/apache-marmotta-3.4.0-ldquery.tar.gz",
-"marmotta/3.4.0/apache-marmotta-3.4.0-ldquery.zip"
 ]
 },
 "maven": {
@@ -11474,26 +11443,29 @@
 "org.apache.sling.testing.hamcrest-1.0.2": [
 "sling/org.apache.sling.testing.hamcrest-1.0.2-source-release.zip"
 ],
-"org.apache.sling.testing.jcr-mock-1.5.0": [
-"sling/org.apache.sling.testing.jcr-mock-1.5.0-source-release.zip"
+"org.apache.sling.testing.jcr-mock-1.5.2": [
+"sling/org.apache.sling.testing.jcr-mock-1.5.2-source-release.zip"
 ],
 "org.apache.sling.testing.logging-mock-2.0.0": [
 "sling/org.apache.sling.testing.logging-mock-2.0.0-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock-3.0.0": [
-"sling/org.apache.sling.testing.osgi-mock-3.0.0-source-release.zip"
+"org.apache.sling.testing.osgi-mock-3.1.0": [
+"sling/org.apache.sling.testing.osgi-mock-3.1.0-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.core-3.0.0": [
-"sling/org.apache.sling.testing.osgi-mock.core-3.0.0-source-release.zip"
+"org.apache.sling.testing.osgi-mock.core-3.1.0": [
+"sling/org.apache.sling.testing.osgi-mock.core-3.1.0-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.junit4-3.0.0": [
-"sling/org.apache.sling.testing.osgi-mock.junit4-3.0.0-source-release.zip"
+"org.apache.sling.testing.osgi-mock.junit4-3.1.0": [
+"sling/org.apache.sling.testing.osgi-mock.junit4-3.1.0-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.junit5-3.0.0": [
-"sling/org.apache.sling.testing.osgi-mock.junit5-3.0.0-source-release.zip"
+"org.apache.sling.testing.osgi-mock.junit5-3.1.0": [
+"sling/org.apache.sling.testing.osgi-mock.junit5-3.1.0-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.parent-3.0.0": [
-"sling/org.apache.sling.testing.osgi-mock.parent-3.0.0-source-release.zip"
+"org.apache.sling.testing.osgi-mock.parent-3.1.0": [
+"sling/org.apache.sling.testing.osgi-mock.parent-3.1.0-source-release.zip"
+],
+"org.apache.sling.testing.osgi-mock.test-services-3.1.0": [
+"sling/org.apache.sling.testing.osgi-mock.test-services-3.1.0-source-release.zip"
 ],
 "org.apache.sling.testing.paxexam-3.1.0": [
 "sling/org.apache.sling.testing.paxexam-3.1.0-source-release.zip"
@@ -11516,8 +11488,8 @@
 "org.apache.sling.testing.serversetup-1.0.4": [
 "sling/org.apache.sling.testing.serversetup-1.0.4-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock-3.0.0": [
-"sling/org.apache.sling.testing.sling-mock-3.0.0-source-release.zip"
+"org.apache.sling.testing.sling-mock-3.0.2": [
+"sling/org.apache.sling.testing.sling-mock-3.0.2-source-release.zip"
 ],
 "org.apache.sling.testing.sling-mock-jackrabbit-1.0.0": [
 "sling/org.apache.sling.testing.sling-mock-jackrabbit-1.0.0-source-release.zip"
@@ -11525,17 +11497,17 @@
 "org.apache.sling.testing.sling-mock-oak-2.1.10-1.16.0": [
 "sling/org.apache.sling.testing.sling-mock-oak-2.1.10-1.16.0-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.core-3.0.0": [
-"sling/org.apache.sling.testing.sling-mock.core-3.0.0-source-release.zip"
+"org.apache.sling.testing.sling-mock.core-3.0.2": [
+"sling/org.apache.sling.testing.sling-mock.core-3.0.2-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.junit4-3.0.0": [
-"sling/org.apache.sling.testing.sling-mock.junit4-3.0.0-source-release.zip"
+"org.apache.sling.testing.sling-mock.junit4-3.0.2": [
+"sling/org.apache.sling.testing.sling-mock.junit4-3.0.2-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.junit5-3.0.0": [
-"sling/org.apache.sling.testing.sling-mock.junit5-3.0.0-source-release.zip"
+"org.apache.sling.testing.sling-mock.junit5-3.0.2": [
+"sling/org.apache.sling.testing.sling-mock.junit5-3.0.2-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.parent-3.0.0": [
-"sling/org.apache.sling.testing.sling-mock.parent-3.0.0-source-release.zip"
+"org.apache.sling.testing.sling-mock.parent-3.0.2": [
+"sling/org.apache.sling.testing.sling-mock.parent-3.0.2-source-release.zip"
 ],
 "org.apache.sling.testing.tools-1.0.16": [
 "sling/org.apache.sling.testing.tools-1.0.16-source-release.zip"
