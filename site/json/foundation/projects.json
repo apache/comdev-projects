@@ -6361,29 +6361,29 @@
 "shortdesc": "Java Common Components"
 },
 "cordova": {
-"bug-database": "https://issues.apache.org/jira/browse/CB",
-"category": "mobile, library",
+"bug-database": "https://github.com/apache/cordova",
+"category": "https://projects.apache.org/projects.html?category#mobile, https://projects.apache.org/projects.html?category#library",
 "created": "2013-01-11",
-"description": "Apache Cordova is a set of device APIs that allow a mobile app developer to access native device function such as the camera or accelerometer from JavaScript. Combined with an UI framework, this allows a smartphone app to be developed with just HTML, CSS, and JavaScript.",
+"description": "Apache Cordova is a tool to create cross-platform apps from standard web technologies (HTML, CSS, and JavaScript). Its primary purpose is to provide a bridge for native device API access and to bundle for distribution.",
 "doap": "http://svn.apache.org/repos/asf/cordova/site/public/infra/doap_Cordova.rdf",
-"download-page": "http://cordova.apache.org/#download",
-"homepage": "http://cordova.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://cordova.apache.org/#mailing-list",
+"download-page": "https://cordova.apache.org/#getstarted",
+"homepage": "https://cordova.apache.org",
+"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"mailing-list": "https://cordova.apache.org/contact/",
 "name": "Apache Cordova",
 "pmc": "cordova",
 "programming-language": "JavaScript, Java, Objective-C, C++, C#, node.js",
 "release": [
 {
-"created": "2016-08-12",
+"created": "2020-08-04",
 "name": "Latest Stable",
-"revision": "6.3.1"
+"revision": "10.0.0"
 }
 ],
 "repository": [
-"http://cordova.apache.org/#contribute"
+"https://cordova.apache.org/contribute/"
 ],
-"shortdesc": "A platform for building native mobile applications using HTML, CSS and JavaScript."
+"shortdesc": "A tool to create cross-platform apps from standard web technologies (HTML, CSS, and JavaScript)."
 },
 "couchdb": {
 "bug-database": "https://github.com/apache/couchdb/issues",
@@ -6494,9 +6494,9 @@
 "programming-language": "Java, Scala",
 "release": [
 {
-"created": "2014-07-22",
+"created": "2021-01-20",
 "name": "Apache cTAKES",
-"revision": "3.2.0"
+"revision": "4.0.0.1"
 }
 ],
 "repository": [
