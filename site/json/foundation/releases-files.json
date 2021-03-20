@@ -1430,11 +1430,11 @@
 "cayenne/4.1/cayenne-4.1-win.zip",
 "cayenne/4.1/cayenne-4.1.tar.gz"
 ],
-"cayenne-4.2.M2": [
-"cayenne/4.2.M2/cayenne-4.2.M2-macosx.dmg",
-"cayenne/4.2.M2/cayenne-4.2.M2-src.tar.gz",
-"cayenne/4.2.M2/cayenne-4.2.M2-win.zip",
-"cayenne/4.2.M2/cayenne-4.2.M2.tar.gz"
+"cayenne-4.2.M3": [
+"cayenne/4.2.M3/cayenne-4.2.M3-macosx.dmg",
+"cayenne/4.2.M3/cayenne-4.2.M3-src.tar.gz",
+"cayenne/4.2.M3/cayenne-4.2.M3-win.zip",
+"cayenne/4.2.M3/cayenne-4.2.M3.tar.gz"
 ]
 },
 "celix": {
@@ -2124,11 +2124,11 @@
 "cxf/3.2.14/apache-cxf-3.2.14.tar.gz",
 "cxf/3.2.14/apache-cxf-3.2.14.zip"
 ],
-"apache-cxf-3.3.8": [
-"cxf/3.3.8/apache-cxf-3.3.8-src.tar.gz",
-"cxf/3.3.8/apache-cxf-3.3.8-src.zip",
-"cxf/3.3.8/apache-cxf-3.3.8.tar.gz",
-"cxf/3.3.8/apache-cxf-3.3.8.zip"
+"apache-cxf-3.3.10": [
+"cxf/3.3.10/apache-cxf-3.3.10-src.tar.gz",
+"cxf/3.3.10/apache-cxf-3.3.10-src.zip",
+"cxf/3.3.10/apache-cxf-3.3.10.tar.gz",
+"cxf/3.3.10/apache-cxf-3.3.10.zip"
 ],
 "apache-cxf-3.3.9": [
 "cxf/3.3.9/apache-cxf-3.3.9-src.tar.gz",
@@ -2136,17 +2136,17 @@
 "cxf/3.3.9/apache-cxf-3.3.9.tar.gz",
 "cxf/3.3.9/apache-cxf-3.3.9.zip"
 ],
-"apache-cxf-3.4.1": [
-"cxf/3.4.1/apache-cxf-3.4.1-src.tar.gz",
-"cxf/3.4.1/apache-cxf-3.4.1-src.zip",
-"cxf/3.4.1/apache-cxf-3.4.1.tar.gz",
-"cxf/3.4.1/apache-cxf-3.4.1.zip"
-],
 "apache-cxf-3.4.2": [
 "cxf/3.4.2/apache-cxf-3.4.2-src.tar.gz",
 "cxf/3.4.2/apache-cxf-3.4.2-src.zip",
 "cxf/3.4.2/apache-cxf-3.4.2.tar.gz",
 "cxf/3.4.2/apache-cxf-3.4.2.zip"
+],
+"apache-cxf-3.4.3": [
+"cxf/3.4.3/apache-cxf-3.4.3-src.tar.gz",
+"cxf/3.4.3/apache-cxf-3.4.3-src.zip",
+"cxf/3.4.3/apache-cxf-3.4.3.tar.gz",
+"cxf/3.4.3/apache-cxf-3.4.3.zip"
 ],
 "apache-fediz-1.5.1": [
 "cxf/fediz/1.5.1/apache-fediz-1.5.1.zip"
@@ -3483,6 +3483,9 @@
 ],
 "libapreq2-2.15": [
 "httpd/libapreq/libapreq2-2.15.tar.gz"
+],
+"libapreq2-2.16": [
+"httpd/libapreq/libapreq2-2.16.tar.gz"
 ],
 "mod_fcgid-2.3.9": [
 "httpd/mod_fcgid/mod_fcgid-2.3.9.tar.bz2",
@@ -4973,8 +4976,8 @@
 "maven-reporting-impl-3.0.0": [
 "maven/reporting/maven-reporting-impl-3.0.0-source-release.zip"
 ],
-"maven-resolver-1.6.1": [
-"maven/resolver/maven-resolver-1.6.1-source-release.zip"
+"maven-resolver-1.6.2": [
+"maven/resolver/maven-resolver-1.6.2-source-release.zip"
 ],
 "maven-resolver-ant-tasks-1.3.0": [
 "maven/resolver/maven-resolver-ant-tasks-1.3.0-source-release.zip"
@@ -8573,8 +8576,8 @@
 "minifi-0.5.0": [
 "nifi/minifi/0.5.0/minifi-0.5.0-source-release.zip"
 ],
-"nifi-1.13.1": [
-"nifi/1.13.1/nifi-1.13.1-source-release.zip"
+"nifi-1.13.2": [
+"nifi/1.13.2/nifi-1.13.2-source-release.zip"
 ],
 "nifi-fds-0.1.0": [
 "nifi/nifi-fds/nifi-fds-0.1.0/nifi-fds-0.1.0-source-release.zip"
@@ -8626,6 +8629,9 @@
 "ofbiz": {
 "apache-ofbiz-17.12.05": [
 "ofbiz/apache-ofbiz-17.12.05.zip"
+],
+"apache-ofbiz-17.12.06": [
+"ofbiz/apache-ofbiz-17.12.06.zip"
 ]
 },
 "olingo": {
@@ -8845,8 +8851,10 @@
 "openwhisk/openwhisk-wskdebug-1.3.0-sources.tar.gz"
 ],
 "openwhisk-wskdeploy-1.1.0": [
-"openwhisk/20.11/openwhisk-wskdeploy-1.1.0-sources.tar.gz",
-"openwhisk/openwhisk-wskdeploy-1.1.0-sources.tar.gz"
+"openwhisk/20.11/openwhisk-wskdeploy-1.1.0-sources.tar.gz"
+],
+"openwhisk-wskdeploy-1.2.0": [
+"openwhisk/openwhisk-wskdeploy-1.2.0-sources.tar.gz"
 ]
 },
 "orc": {
@@ -8886,9 +8894,6 @@
 ],
 "pdfbox-1.8.16": [
 "pdfbox/1.8.16/pdfbox-1.8.16-src.zip"
-],
-"pdfbox-2.0.22": [
-"pdfbox/2.0.22/pdfbox-2.0.22-src.zip"
 ],
 "pdfbox-2.0.23": [
 "pdfbox/2.0.23/pdfbox-2.0.23-src.zip"

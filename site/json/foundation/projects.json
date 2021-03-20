@@ -3706,9 +3706,9 @@
 "revision": "4.1"
 },
 {
-"created": "2020-10-12",
+"created": "2020-03-19",
 "name": "Alpha",
-"revision": "4.2.M2"
+"revision": "4.2.M3"
 },
 {
 "created": "2019-10-14",
@@ -11210,6 +11210,37 @@
 "shortdesc": "Apache Lucene is a high-performance, full-featured text search engine library",
 "wiki": "http://wiki.apache.org/lucene-java/"
 },
+"lucene-pylucene": {
+"bug-database": "https://issues.apache.org/jira/projects/PYLUCENE",
+"category": "search, library, python, c++",
+"created": "2009-01-08",
+"description": "PyLucene is a Python extension for accessing Java Lucene TM. Its goal is to allow you to use Lucene's text indexing and searching capabilities from Python.",
+"doap": "https://lucene.apache.org/pylucene/doap.rdf",
+"download-page": "https://www.apache.org/dyn/closer.lua/lucene/pylucene/",
+"homepage": "https://lucene.apache.org/pylucene/index.html",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://lucene.apache.org/pylucene/mailing-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:dev@lucene.apache.org",
+"name": "Apache Lucene"
+}
+],
+"name": "Apache PyLucene",
+"pmc": "lucene",
+"programming-language": "C++, Python",
+"release": [
+{
+"created": "2009-04-03",
+"name": "pylucene-2.4.1-1",
+"revision": "2.4.1-1"
+}
+],
+"repository": [
+"https://svn.apache.org/repos/asf/lucene/pylucene/"
+],
+"shortdesc": "PyLucene is a Python extension for accessing Java Lucene."
+},
 "lucenenet-lucenedotnet": {
 "bug-database": "https://github.com/apache/lucenenet/issues",
 "category": "database",
@@ -12725,7 +12756,7 @@
 "category": "content, library",
 "created": "2010-12-19",
 "doap": "http://pdfbox.apache.org/doap_PDFBox.rdf",
-"download-page": "https://pdfbox.apache.org/download.cgi",
+"download-page": "https://pdfbox.apache.org/download.html",
 "homepage": "https://pdfbox.apache.org",
 "implements": [
 {
@@ -12747,6 +12778,11 @@
 "pmc": "pdfbox",
 "programming-language": "Java",
 "release": [
+{
+"created": "2021-03-18",
+"name": "Apache PDFBox",
+"revision": "2.0.23"
+},
 {
 "created": "2020-12-19",
 "name": "Apache PDFBox",
