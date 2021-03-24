@@ -311,6 +311,7 @@
 },
 "abhishek": {
 "groups": [
+"druid",
 "storm",
 "storm-pmc"
 ],
@@ -1174,8 +1175,6 @@
 },
 "ahart": {
 "groups": [
-"climate",
-"climate-pmc",
 "gora",
 "gora-pmc",
 "incubator",
@@ -2509,7 +2508,7 @@
 "cassandra",
 "cassandra-pmc"
 ],
-"member": false,
+"member": true,
 "name": "Aaron Morton"
 },
 "amoudi": {
@@ -2847,8 +2846,7 @@
 "any23-pmc",
 "incubator",
 "jena",
-"jena-pmc",
-"marmotta"
+"jena-pmc"
 ],
 "member": true,
 "name": "Andy Seaborne"
@@ -3262,9 +3260,7 @@
 "groups": [
 "any23",
 "any23-pmc",
-"incubator",
-"marmotta",
-"marmotta-pmc"
+"incubator"
 ],
 "member": false,
 "name": "Peter Ansell"
@@ -4014,8 +4010,6 @@
 },
 "arunmanoharan": {
 "groups": [
-"eagle",
-"eagle-pmc",
 "incubator"
 ],
 "member": false,
@@ -6750,8 +6744,6 @@
 },
 "boustani": {
 "groups": [
-"climate",
-"climate-pmc",
 "incubator"
 ],
 "member": true,
@@ -7051,8 +7043,6 @@
 "groups": [
 "creadur",
 "creadur-pmc",
-"drat",
-"drat-pmc",
 "incubator",
 "maven",
 "maven-pmc"
@@ -8139,8 +8129,6 @@
 "cdouglas": {
 "groups": [
 "atlas",
-"climate",
-"climate-pmc",
 "hadoop",
 "hadoop-pmc",
 "incubator",
@@ -8345,8 +8333,6 @@
 },
 "cgupta": {
 "groups": [
-"eagle",
-"eagle-pmc",
 "incubator"
 ],
 "member": false,
@@ -9377,8 +9363,6 @@
 },
 "cjack": {
 "groups": [
-"climate",
-"climate-pmc",
 "incubator"
 ],
 "member": false,
@@ -10306,8 +10290,6 @@
 },
 "crichton": {
 "groups": [
-"climate",
-"climate-pmc",
 "oodt",
 "oodt-pmc"
 ],
@@ -10557,13 +10539,6 @@
 ],
 "member": false,
 "name": "Chris Twiner"
-},
-"cuent": {
-"groups": [
-"marmotta"
-],
-"member": false,
-"name": "Xavier Sumba"
 },
 "cumminsh": {
 "groups": [
@@ -11512,8 +11487,6 @@
 },
 "dazhou": {
 "groups": [
-"eagle",
-"eagle-pmc",
 "hadoop",
 "incubator"
 ],
@@ -12027,14 +12000,6 @@
 "member": false,
 "name": "Denes Arvay"
 },
-"denglg": {
-"groups": [
-"eagle",
-"eagle-pmc"
-],
-"member": false,
-"name": "Lin Gang Deng"
-},
 "deni": {
 "groups": [
 "couchdb"
@@ -12369,9 +12334,7 @@
 },
 "dglachs": {
 "groups": [
-"incubator",
-"marmotta",
-"marmotta-pmc"
+"incubator"
 ],
 "member": false,
 "name": "Dietmar Glachs"
@@ -13438,8 +13401,6 @@
 },
 "dnadeau": {
 "groups": [
-"climate",
-"climate-pmc",
 "incubator"
 ],
 "member": false,
@@ -13602,7 +13563,8 @@
 },
 "donalevans": {
 "groups": [
-"geode"
+"geode",
+"geode-pmc"
 ],
 "member": false,
 "name": "Donal Evans"
@@ -15863,8 +15825,6 @@
 },
 "estani": {
 "groups": [
-"climate",
-"climate-pmc",
 "incubator"
 ],
 "member": false,
@@ -16262,9 +16222,7 @@
 "fchrist": {
 "groups": [
 "incubator",
-"incubator-pmc",
-"marmotta",
-"marmotta-pmc"
+"incubator-pmc"
 ],
 "member": true,
 "name": "Fabian Christ"
@@ -16880,14 +16838,6 @@
 "member": false,
 "name": "Francis De Brabandere"
 },
-"francus": {
-"groups": [
-"drat",
-"drat-pmc"
-],
-"member": false,
-"name": "Steven Francus"
-},
 "frankb": {
 "groups": [
 "ws"
@@ -16902,6 +16852,13 @@
 ],
 "member": false,
 "name": "Frank Bille"
+},
+"frankchen": {
+"groups": [
+"druid"
+],
+"member": false,
+"name": "Frank Chen"
 },
 "frankgh": {
 "groups": [
@@ -18514,8 +18471,6 @@
 },
 "goodale": {
 "groups": [
-"climate",
-"climate-pmc",
 "incubator",
 "oodt",
 "oodt-pmc"
@@ -18525,8 +18480,6 @@
 },
 "goodman": {
 "groups": [
-"climate",
-"climate-pmc",
 "incubator"
 ],
 "member": false,
@@ -19673,8 +19626,6 @@
 },
 "hao": {
 "groups": [
-"eagle",
-"eagle-pmc",
 "incubator"
 ],
 "member": false,
@@ -19989,8 +19940,6 @@
 },
 "hdendukuri": {
 "groups": [
-"eagle",
-"eagle-pmc",
 "incubator"
 ],
 "member": false,
@@ -21034,8 +20983,6 @@
 },
 "huikyole": {
 "groups": [
-"climate",
-"climate-pmc",
 "incubator"
 ],
 "member": false,
@@ -21508,14 +21455,6 @@
 ],
 "member": false,
 "name": "Alex Petrov"
-},
-"ifhaam": {
-"groups": [
-"drat",
-"drat-pmc"
-],
-"member": false,
-"name": "Ahmed Ifhaam"
 },
 "ifplusor": {
 "groups": [
@@ -22553,9 +22492,7 @@
 "jakob": {
 "groups": [
 "hawq",
-"incubator",
-"marmotta",
-"marmotta-pmc"
+"incubator"
 ],
 "member": false,
 "name": "Jakob Frank"
@@ -22873,14 +22810,6 @@
 "member": true,
 "name": "Jarek Jarcec Cecho"
 },
-"jarifibrahim": {
-"groups": [
-"climate",
-"climate-pmc"
-],
-"member": false,
-"name": "Ibrahim Jarif"
-},
 "jark": {
 "groups": [
 "flink",
@@ -22949,8 +22878,6 @@
 },
 "jasonevans": {
 "groups": [
-"climate",
-"climate-pmc",
 "incubator"
 ],
 "member": false,
@@ -23106,13 +23033,6 @@
 ],
 "member": false,
 "name": "Jay Doane"
-},
-"jaysen": {
-"groups": [
-"eagle"
-],
-"member": false,
-"name": "Jay Sen"
 },
 "jaysensharma": {
 "groups": [
@@ -24761,8 +24681,6 @@
 "drill-pmc",
 "druid",
 "druid-pmc",
-"eagle",
-"eagle-pmc",
 "hop",
 "incubator",
 "incubator-pmc",
@@ -24996,8 +24914,6 @@
 },
 "jilin": {
 "groups": [
-"eagle",
-"eagle-pmc",
 "incubator"
 ],
 "member": false,
@@ -25138,8 +25054,6 @@
 },
 "jinhuwu": {
 "groups": [
-"eagle",
-"eagle-pmc",
 "incubator"
 ],
 "member": false,
@@ -25293,13 +25207,6 @@
 "member": false,
 "name": "Juan Ramos"
 },
-"jjtang": {
-"groups": [
-"eagle"
-],
-"member": false,
-"name": "Ji Jun Tang"
-},
 "jkaluza": {
 "groups": [
 "httpd",
@@ -25374,8 +25281,6 @@
 },
 "jkim": {
 "groups": [
-"climate",
-"climate-pmc",
 "incubator"
 ],
 "member": false,
@@ -26747,10 +26652,6 @@
 },
 "joyce": {
 "groups": [
-"climate",
-"climate-pmc",
-"drat",
-"drat-pmc",
 "incubator",
 "nutch",
 "nutch-pmc",
@@ -28254,8 +28155,6 @@
 },
 "karanjeet": {
 "groups": [
-"drat",
-"drat-pmc",
 "nutch",
 "nutch-pmc"
 ],
@@ -28391,7 +28290,7 @@
 "groups": [
 "diversity"
 ],
-"member": false,
+"member": true,
 "name": "Katia Rojas"
 },
 "kaushalye": {
@@ -30698,8 +30597,6 @@
 },
 "lcarriere": {
 "groups": [
-"climate",
-"climate-pmc",
 "incubator"
 ],
 "member": false,
@@ -31019,11 +30916,7 @@
 "groups": [
 "any23",
 "any23-pmc",
-"climate",
-"climate-pmc",
 "ctakes",
-"drat",
-"drat-pmc",
 "flagon",
 "gora",
 "gora-pmc",
@@ -31062,8 +30955,6 @@
 },
 "lfitaborrell": {
 "groups": [
-"climate",
-"climate-pmc",
 "incubator"
 ],
 "member": false,
@@ -31274,8 +31165,6 @@
 },
 "libsun": {
 "groups": [
-"eagle",
-"eagle-pmc",
 "incubator"
 ],
 "member": false,
@@ -32343,8 +32232,6 @@
 },
 "luca": {
 "groups": [
-"climate",
-"climate-pmc",
 "oodt",
 "oodt-pmc"
 ],
@@ -32760,8 +32647,6 @@
 },
 "magicaltrout": {
 "groups": [
-"drat",
-"drat-pmc",
 "hop",
 "incubator",
 "incubator-pmc",
@@ -33684,14 +33569,6 @@
 "member": false,
 "name": "Matevž Bradač"
 },
-"matienzo": {
-"groups": [
-"marmotta",
-"marmotta-pmc"
-],
-"member": false,
-"name": "Mark A. Matienzo"
-},
 "matijhs": {
 "groups": [
 "oozie"
@@ -33794,12 +33671,8 @@
 "asterixdb-pmc",
 "bahir",
 "bahir-pmc",
-"climate",
-"climate-pmc",
 "ctakes",
 "ctakes-pmc",
-"drat",
-"drat-pmc",
 "gora",
 "gora-pmc",
 "incubator",
@@ -34073,7 +33946,8 @@
 },
 "maytasm": {
 "groups": [
-"druid"
+"druid",
+"druid-pmc"
 ],
 "member": false,
 "name": "Maytas Monsereenusorn"
@@ -35197,6 +35071,13 @@
 ],
 "member": false,
 "name": "Michael André Pearce"
+},
+"michaelschiff": {
+"groups": [
+"druid"
+],
+"member": false,
+"name": "Michael Schiff"
 },
 "michalslowikowski": {
 "groups": [
@@ -37260,8 +37141,6 @@
 },
 "mw": {
 "groups": [
-"eagle",
-"eagle-pmc",
 "incubator"
 ],
 "member": false,
@@ -37625,8 +37504,6 @@
 "axis-pmc",
 "incubator",
 "incubator-pmc",
-"marmotta",
-"marmotta-pmc",
 "ws",
 "ws-pmc"
 ],
@@ -37847,9 +37724,7 @@
 "ndoshi": {
 "groups": [
 "airavata",
-"airavata-pmc",
-"drat",
-"drat-pmc"
+"airavata-pmc"
 ],
 "member": false,
 "name": "Nipurn Doshi"
@@ -39495,8 +39370,6 @@
 },
 "omkarr": {
 "groups": [
-"climate",
-"climate-pmc",
 "nutch",
 "nutch-pmc"
 ],
@@ -40418,7 +40291,8 @@
 },
 "pds": {
 "groups": [
-"spamassassin"
+"spamassassin",
+"spamassassin-pmc"
 ],
 "member": false,
 "name": "Paul Stead"
@@ -41137,8 +41011,6 @@
 },
 "ploikith": {
 "groups": [
-"climate",
-"climate-pmc",
 "incubator"
 ],
 "member": false,
@@ -41399,8 +41271,6 @@
 "groups": [
 "creadur",
 "creadur-pmc",
-"drat",
-"drat-pmc",
 "incubator"
 ],
 "member": true,
@@ -41618,10 +41488,6 @@
 "groups": [
 "any23",
 "any23-pmc",
-"climate",
-"climate-pmc",
-"drat",
-"drat-pmc",
 "incubator",
 "joshua",
 "joshua-pmc",
@@ -41999,8 +41865,6 @@
 "datalab",
 "druid",
 "druid-pmc",
-"eagle",
-"eagle-pmc",
 "heron",
 "incubator",
 "incubator-pmc",
@@ -42248,8 +42112,6 @@
 },
 "pzimdars": {
 "groups": [
-"climate",
-"climate-pmc",
 "incubator",
 "oodt",
 "oodt-pmc",
@@ -42310,8 +42172,6 @@
 },
 "qingwzhao": {
 "groups": [
-"eagle",
-"eagle-pmc",
 "incubator"
 ],
 "member": false,
@@ -42832,8 +42692,6 @@
 },
 "ralphsu": {
 "groups": [
-"eagle",
-"eagle-pmc",
 "incubator"
 ],
 "member": false,
@@ -42864,8 +42722,6 @@
 },
 "ramarao": {
 "groups": [
-"climate",
-"climate-pmc",
 "incubator"
 ],
 "member": false,
@@ -43709,6 +43565,13 @@
 "member": true,
 "name": "Robert Scholte"
 },
+"rgao": {
+"groups": [
+"pulsar"
+],
+"member": false,
+"name": "Ran Gao"
+},
 "rgardler": {
 "groups": [
 "buildstream",
@@ -44263,8 +44126,6 @@
 },
 "rlaidlaw": {
 "groups": [
-"climate",
-"climate-pmc",
 "incubator",
 "oodt",
 "oodt-pmc",
@@ -44962,9 +44823,7 @@
 },
 "rpalmieri": {
 "groups": [
-"incubator",
-"marmotta",
-"marmotta-pmc"
+"incubator"
 ],
 "member": false,
 "name": "Raffaele Palmieri"
@@ -45359,9 +45218,7 @@
 "groups": [
 "clerezza",
 "clerezza-pmc",
-"incubator",
-"marmotta",
-"marmotta-pmc"
+"incubator"
 ],
 "member": true,
 "name": "Rupert Westenthaler"
@@ -46019,8 +45876,6 @@
 },
 "sanjay": {
 "groups": [
-"climate",
-"climate-pmc",
 "incubator"
 ],
 "member": false,
@@ -46967,8 +46822,6 @@
 },
 "senthilec566": {
 "groups": [
-"eagle",
-"eagle-pmc",
 "incubator"
 ],
 "member": false,
@@ -48378,8 +48231,6 @@
 },
 "skhudiky": {
 "groups": [
-"climate",
-"climate-pmc",
 "incubator",
 "oodt",
 "oodt-pmc"
@@ -48665,8 +48516,6 @@
 "groups": [
 "airavata",
 "airavata-pmc",
-"climate",
-"climate-pmc",
 "comdev",
 "comdev-pmc",
 "incubator",
@@ -49441,9 +49290,7 @@
 },
 "sschaffert": {
 "groups": [
-"incubator",
-"marmotta",
-"marmotta-pmc"
+"incubator"
 ],
 "member": false,
 "name": "Sebastian Schaffert"
@@ -50291,7 +50138,8 @@
 },
 "suneet": {
 "groups": [
-"druid"
+"druid",
+"druid-pmc"
 ],
 "member": false,
 "name": "Suneet Saldanha"
@@ -51779,8 +51627,6 @@
 },
 "thejanw": {
 "groups": [
-"drat",
-"drat-pmc",
 "tika",
 "tika-pmc"
 ],
@@ -52393,9 +52239,7 @@
 },
 "tkurz": {
 "groups": [
-"incubator",
-"marmotta",
-"marmotta-pmc"
+"incubator"
 ],
 "member": false,
 "name": "Thomas Kurz"
@@ -52972,8 +52816,6 @@
 },
 "tpalsulich": {
 "groups": [
-"drat",
-"drat-pmc",
 "oodt",
 "oodt-pmc",
 "tika",
@@ -55094,8 +54936,6 @@
 },
 "waliser": {
 "groups": [
-"climate",
-"climate-pmc",
 "incubator"
 ],
 "member": false,
@@ -55432,6 +55272,13 @@
 ],
 "member": false,
 "name": "Wellington Chevreuil"
+},
+"wcjtw": {
+"groups": [
+"submarine"
+],
+"member": false,
+"name": "Wen-Chien Juan"
 },
 "wcloeten": {
 "groups": [
@@ -55804,8 +55651,6 @@
 },
 "whitehall": {
 "groups": [
-"climate",
-"climate-pmc",
 "incubator"
 ],
 "member": true,
@@ -55865,8 +55710,6 @@
 "freemarker-pmc",
 "incubator",
 "incubator-pmc",
-"marmotta",
-"marmotta-pmc",
 "s2graph"
 ],
 "member": true,
@@ -56044,14 +55887,6 @@
 ],
 "member": false,
 "name": "Wolfgang Maass"
-},
-"wmb": {
-"groups": [
-"drat",
-"drat-pmc"
-],
-"member": false,
-"name": "Wayne Burke"
 },
 "woggle": {
 "groups": [
@@ -57574,8 +57409,6 @@
 },
 "yonzhang2012": {
 "groups": [
-"eagle",
-"eagle-pmc",
 "incubator"
 ],
 "member": false,
@@ -57888,6 +57721,13 @@
 "member": false,
 "name": "Youngwoo Kim"
 },
+"yyan": {
+"groups": [
+"iceberg"
+],
+"member": false,
+"name": "Yan Yan"
+},
 "yzang": {
 "groups": [
 "bookkeeper"
@@ -57936,6 +57776,13 @@
 ],
 "member": false,
 "name": "Zach Kimberg"
+},
+"zachjsh": {
+"groups": [
+"druid"
+],
+"member": false,
+"name": "Zach Sherman"
 },
 "zachsh": {
 "groups": [
@@ -58255,6 +58102,13 @@
 ],
 "member": false,
 "name": "Yonglun Zhang"
+},
+"zhangyue19921010": {
+"groups": [
+"druid"
+],
+"member": false,
+"name": "Yue Zhang"
 },
 "zhangyzhd": {
 "groups": [
