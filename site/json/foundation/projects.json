@@ -8259,48 +8259,6 @@
 ],
 "shortdesc": "Apache MXNet is a deep learning framework designed for both efficiency and flexibility."
 },
-"incubator-taverna": {
-"category": "network-client, content, http, osgi, xml",
-"created": "2014-12-11",
-"description": "Taverna include the Workbench (desktop client application), the Command Line Tool (for a quick execution of workflows from a terminal), the Server (for remote execution of workflows) and the Player (Web interface plugin for submitting workflows for remote execution). The Taverna Platform gives OSGi-based programmatic access to the Taverna workflow engine. ",
-"doap": "http://taverna.incubator.apache.org/doap.rdf",
-"download-page": "http://taverna.incubator.apache.org/download/",
-"homepage": "http://taverna.incubator.apache.org/",
-"implements": [
-{
-"body": "W3C",
-"id": "prov-o",
-"title": "PROV-O: The PROV Ontology",
-"url": "http://www.w3.org/TR/prov-o/"
-},
-{
-"body": "researchobject.org",
-"id": "bundle",
-"title": "Research Object Bundle 1.0",
-"url": "https://w3id.org/bundle/"
-}
-],
-"license": "http://spdx.org/licenses/Apache-2.0",
-"mailing-list": "http://taverna.incubator.apache.org/community/lists",
-"name": "Apache Taverna",
-"pmc": "incubator",
-"programming-language": "Java",
-"repository": [
-"https://git-wip-us.apache.org/repos/asf/incubator-taverna-commandline.git",
-"https://git-wip-us.apache.org/repos/asf/incubator-taverna-common-activities.git",
-"https://git-wip-us.apache.org/repos/asf/incubator-taverna-engine.git",
-"https://git-wip-us.apache.org/repos/asf/incubator-taverna-language.git",
-"https://git-wip-us.apache.org/repos/asf/incubator-taverna-maven-parent.git",
-"https://git-wip-us.apache.org/repos/asf/incubator-taverna-osgi.git",
-"https://git-wip-us.apache.org/repos/asf/incubator-taverna-plugin-bioinformatics.git",
-"https://git-wip-us.apache.org/repos/asf/incubator-taverna-plugin-component.git",
-"https://git-wip-us.apache.org/repos/asf/incubator-taverna-server.git",
-"https://git-wip-us.apache.org/repos/asf/incubator-taverna-workbench.git",
-"https://git-wip-us.apache.org/repos/asf/incubator-taverna-workbench-common-activities.git",
-"https://git-wip-us.apache.org/repos/asf/incubator-taverna-workbench-product.git"
-],
-"shortdesc": "Taverna is a domain-independent suite of tools used to design and execute data-driven scientific workflows,  combining WSDL/REST web services and local tools.  "
-},
 "isis": {
 "bug-database": "https://issues.apache.org/jira/browse/ISIS",
 "category": "web-framework",
@@ -8321,6 +8279,11 @@
 "pmc": "isis",
 "programming-language": "Java",
 "release": [
+{
+"created": "2021-03-28",
+"name": "isis",
+"revision": "2.0.0-M5"
+},
 {
 "created": "2020-10-17",
 "name": "isis",
