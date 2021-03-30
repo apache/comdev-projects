@@ -556,6 +556,9 @@
 "apache-apisix-dashboard-2.4": [
 "apisix/dashboard/2.4/apache-apisix-dashboard-2.4-src.tgz"
 ],
+"apache-apisix-dashboard-2.5": [
+"apisix/dashboard/2.5/apache-apisix-dashboard-2.5-src.tgz"
+],
 "apache-apisix-ingress-controller-0.3.0": [
 "apisix/ingress-controller/0.3.0/apache-apisix-ingress-controller-0.3.0-src.tgz"
 ],
@@ -1190,6 +1193,9 @@
 "apache-camel-quarkus-1.7.0": [
 "camel/camel-quarkus/1.7.0/apache-camel-quarkus-1.7.0-src.zip"
 ],
+"apache-camel-quarkus-1.8.0": [
+"camel/camel-quarkus/1.8.0/apache-camel-quarkus-1.8.0-src.zip"
+],
 "camel-k-client-1.2.1-linux": [
 "camel/camel-k/1.2.1/camel-k-client-1.2.1-linux-64bit.tar.gz"
 ],
@@ -1299,6 +1305,9 @@
 ],
 "apache-carbondata-2.1.0": [
 "carbondata/2.1.0/apache-carbondata-2.1.0-source-release.zip"
+],
+"apache-carbondata-2.1.1": [
+"carbondata/2.1.1/apache-carbondata-2.1.1-source-release.zip"
 ]
 },
 "cassandra": {
@@ -2347,9 +2356,6 @@
 "apache-druid-0.19.0": [
 "druid/0.19.0/apache-druid-0.19.0-src.tar.gz"
 ],
-"apache-druid-0.20.1": [
-"druid/0.20.1/apache-druid-0.20.1-src.tar.gz"
-],
 "apache-druid-0.20.2": [
 "druid/0.20.2/apache-druid-0.20.2-src.tar.gz"
 ]
@@ -2369,6 +2375,9 @@
 ],
 "apache-dubbo-3.0.0.preview": [
 "dubbo/3.0.0.preview/apache-dubbo-3.0.0.preview-src.zip"
+],
+"apache-dubbo-extensions-3.0.0-SNAPSHOT": [
+"dubbo/dubbo-spi-extensions/dubbo-api-docs/2.7.8.2/apache-dubbo-extensions-3.0.0-SNAPSHOT-src.zip"
 ],
 "dubbo-hessian-lite-3.2.9": [
 "dubbo/dubbo-hessian-lite/3.2.9/dubbo-hessian-lite-3.2.9-source-release.zip"
@@ -2437,10 +2446,6 @@
 "javax.servlet-1.0.0": [
 "felix/javax.servlet-1.0.0-project.tar.gz",
 "felix/javax.servlet-1.0.0-project.zip"
-],
-"maven-bundle-plugin-5.1.1": [
-"felix/maven-bundle-plugin-5.1.1-source-release.tar.gz",
-"felix/maven-bundle-plugin-5.1.1-source-release.zip"
 ],
 "maven-bundle-plugin-5.1.2": [
 "felix/maven-bundle-plugin-5.1.2-source-release.tar.gz",
@@ -2786,9 +2791,9 @@
 "felix/org.apache.felix.useradmin.mongodb-1.0.1-project.tar.gz",
 "felix/org.apache.felix.useradmin.mongodb-1.0.1-project.zip"
 ],
-"org.apache.felix.utils-1.11.0": [
-"felix/org.apache.felix.utils-1.11.0-source-release.tar.gz",
-"felix/org.apache.felix.utils-1.11.0-source-release.zip"
+"org.apache.felix.utils-1.11.8": [
+"felix/org.apache.felix.utils-1.11.8-source-release.tar.gz",
+"felix/org.apache.felix.utils-1.11.8-source-release.zip"
 ],
 "org.apache.felix.webconsole-4.6.0": [
 "felix/org.apache.felix.webconsole-4.6.0-source-release.tar.gz",
@@ -2998,15 +3003,15 @@
 "geode/1.12.1/apache-geode-1.12.1-src.tgz",
 "geode/1.12.1/apache-geode-1.12.1.tgz"
 ],
-"apache-geode-1.13.1": [
-"geode/1.13.1/apache-geode-1.13.1-src.tgz",
-"geode/1.13.1/apache-geode-1.13.1.tgz"
+"apache-geode-1.13.2": [
+"geode/1.13.2/apache-geode-1.13.2-src.tgz",
+"geode/1.13.2/apache-geode-1.13.2.tgz"
 ],
 "apache-geode-benchmarks-1.12.1": [
 "geode/1.12.1/apache-geode-benchmarks-1.12.1-src.tgz"
 ],
-"apache-geode-benchmarks-1.13.1": [
-"geode/1.13.1/apache-geode-benchmarks-1.13.1-src.tgz"
+"apache-geode-benchmarks-1.13.2": [
+"geode/1.13.2/apache-geode-benchmarks-1.13.2-src.tgz"
 ],
 "apache-geode-examples-1.11.0": [
 "geode/1.11.0/apache-geode-examples-1.11.0.tar.gz",
@@ -3015,8 +3020,8 @@
 "apache-geode-examples-1.12.1": [
 "geode/1.12.1/apache-geode-examples-1.12.1-src.tgz"
 ],
-"apache-geode-examples-1.13.1": [
-"geode/1.13.1/apache-geode-examples-1.13.1-src.tgz"
+"apache-geode-examples-1.13.2": [
+"geode/1.13.2/apache-geode-examples-1.13.2-src.tgz"
 ],
 "apache-geode-native-1.11.0": [
 "geode/1.11.0/apache-geode-native-1.11.0-src.tar.gz"
@@ -3024,8 +3029,8 @@
 "apache-geode-native-1.12.1": [
 "geode/1.12.1/apache-geode-native-1.12.1-src.tgz"
 ],
-"apache-geode-native-1.13.1": [
-"geode/1.13.1/apache-geode-native-1.13.1-src.tgz"
+"apache-geode-native-1.13.2": [
+"geode/1.13.2/apache-geode-native-1.13.2-src.tgz"
 ]
 },
 "geronimo": {
@@ -11371,40 +11376,6 @@
 "systemds/1.2.0/systemml-1.2.0-python.tar.gz"
 ]
 },
-"tajo": {
-"tajo-0.10.0": [
-"tajo/tajo-0.10.0/tajo-0.10.0-src.tar.gz",
-"tajo/tajo-0.10.0/tajo-0.10.0.tar.gz"
-],
-"tajo-0.10.1": [
-"tajo/tajo-0.10.1/tajo-0.10.1-src.tar.gz",
-"tajo/tajo-0.10.1/tajo-0.10.1.tar.gz"
-],
-"tajo-0.11.0": [
-"tajo/tajo-0.11.0/tajo-0.11.0-src.tar.gz",
-"tajo/tajo-0.11.0/tajo-0.11.0.tar.gz"
-],
-"tajo-0.11.1": [
-"tajo/tajo-0.11.1/tajo-0.11.1-src.tar.gz",
-"tajo/tajo-0.11.1/tajo-0.11.1.tar.gz"
-],
-"tajo-0.11.2": [
-"tajo/tajo-0.11.2/tajo-0.11.2-src.tar.gz",
-"tajo/tajo-0.11.2/tajo-0.11.2.tar.gz"
-],
-"tajo-0.11.3": [
-"tajo/tajo-0.11.3/tajo-0.11.3-src.tar.gz",
-"tajo/tajo-0.11.3/tajo-0.11.3.tar.gz"
-],
-"tajo-0.8.0": [
-"tajo/tajo-0.8.0/tajo-0.8.0-src.tar.gz",
-"tajo/tajo-0.8.0/tajo-0.8.0.tar.gz"
-],
-"tajo-0.9.0": [
-"tajo/tajo-0.9.0/tajo-0.9.0-src.tar.gz",
-"tajo/tajo-0.9.0/tajo-0.9.0.tar.gz"
-]
-},
 "tapestry": {
 "apache-tapestry-5.3.8": [
 "tapestry/apache-tapestry-5.3.8-javadocs.zip",
@@ -11557,8 +11528,8 @@
 ]
 },
 "tika": {
-"tika-2.0.0-ALPHA": [
-"tika/tika-2.0.0-ALPHA-src.zip"
+"tika-1.26": [
+"tika/tika-1.26-src.zip"
 ]
 },
 "tinkerpop": {
@@ -11639,6 +11610,10 @@
 "tomcat-native-1.2.26": [
 "tomcat/tomcat-connectors/native/1.2.26/source/tomcat-native-1.2.26-src.tar.gz",
 "tomcat/tomcat-connectors/native/1.2.26/source/tomcat-native-1.2.26-win32-src.zip"
+],
+"tomcat-native-1.2.27": [
+"tomcat/tomcat-connectors/native/1.2.27/source/tomcat-native-1.2.27-src.tar.gz",
+"tomcat/tomcat-connectors/native/1.2.27/source/tomcat-native-1.2.27-win32-src.zip"
 ]
 },
 "tomee": {

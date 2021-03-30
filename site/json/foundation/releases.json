@@ -189,6 +189,7 @@
 "apisix": {
 "apache-apisix-2.4": "2021-03-05",
 "apache-apisix-dashboard-2.4": "2021-02-12",
+"apache-apisix-dashboard-2.5": "2021-03-29",
 "apache-apisix-ingress-controller-0.3.0": "2021-02-10",
 "apache-apisix-ingress-controller-0.4.0": "2021-03-11"
 },
@@ -407,6 +408,7 @@
 "apache-camel-kafka-connector-0.6.1": "2020-11-30",
 "apache-camel-quarkus-1.6.0": "2021-01-19",
 "apache-camel-quarkus-1.7.0": "2021-02-23",
+"apache-camel-quarkus-1.8.0": "2021-03-29",
 "camel-k-client-1.2.1-linux": "2020-11-27",
 "camel-k-client-1.2.1-mac": "2020-11-27",
 "camel-k-client-1.2.1-windows": "2020-11-27",
@@ -444,7 +446,8 @@
 "apache-carbondata-1.6.1": "2020-07-03",
 "apache-carbondata-2.0.0": "2020-07-03",
 "apache-carbondata-2.0.1": "2020-07-03",
-"apache-carbondata-2.1.0": "2020-11-08"
+"apache-carbondata-2.1.0": "2020-11-08",
+"apache-carbondata-2.1.1": "2021-03-29"
 },
 "cassandra": {
 "apache-cassandra-2.1.22": "2020-08-28",
@@ -767,7 +770,6 @@
 "druid": {
 "apache-druid-0.18.1": "2020-07-03",
 "apache-druid-0.19.0": "2020-07-20",
-"apache-druid-0.20.1": "2021-01-29",
 "apache-druid-0.20.2": "2021-03-26"
 },
 "dubbo": {
@@ -776,6 +778,7 @@
 "apache-dubbo-2.7.8": "2020-08-03",
 "apache-dubbo-2.7.9": "2021-02-22",
 "apache-dubbo-3.0.0.preview": "2021-03-23",
+"apache-dubbo-extensions-3.0.0-SNAPSHOT": "2021-03-29",
 "dubbo-hessian-lite-3.2.9": "2020-07-24"
 },
 "echarts": {
@@ -800,7 +803,6 @@
 "atomos-distribution-1.0.0": "2021-02-23",
 "gogo-5": "2020-07-03",
 "javax.servlet-1.0.0": "2020-07-03",
-"maven-bundle-plugin-5.1.1": "2020-07-14",
 "maven-bundle-plugin-5.1.2": "2021-03-26",
 "maven-junit4osgi-plugin-1.0.0": "2020-07-03",
 "maven-scr-plugin-1.26.4": "2020-07-03",
@@ -888,7 +890,7 @@
 "org.apache.felix.useradmin-1.0.4": "2020-07-03",
 "org.apache.felix.useradmin.filestore-1.0.2": "2020-07-03",
 "org.apache.felix.useradmin.mongodb-1.0.1": "2020-07-03",
-"org.apache.felix.utils-1.11.0": "2020-07-03",
+"org.apache.felix.utils-1.11.8": "2021-03-29",
 "org.apache.felix.webconsole-4.6.0": "2020-12-17",
 "org.osgi.compendium-1.4.0": "2020-07-03",
 "org.osgi.core-1.4.0": "2020-07-03",
@@ -960,15 +962,15 @@
 "geode": {
 "apache-geode-1.11.0": "2020-07-06",
 "apache-geode-1.12.1": "2021-02-18",
-"apache-geode-1.13.1": "2020-11-13",
+"apache-geode-1.13.2": "2021-03-08",
 "apache-geode-benchmarks-1.12.1": "2021-02-18",
-"apache-geode-benchmarks-1.13.1": "2020-11-13",
+"apache-geode-benchmarks-1.13.2": "2021-03-08",
 "apache-geode-examples-1.11.0": "2020-07-06",
 "apache-geode-examples-1.12.1": "2021-02-18",
-"apache-geode-examples-1.13.1": "2020-11-13",
+"apache-geode-examples-1.13.2": "2021-03-08",
 "apache-geode-native-1.11.0": "2020-07-06",
 "apache-geode-native-1.12.1": "2021-02-18",
-"apache-geode-native-1.13.1": "2020-11-13"
+"apache-geode-native-1.13.2": "2021-03-08"
 },
 "geronimo": {
 "arthur-1.0.2": "2021-02-22",
@@ -3527,16 +3529,6 @@
 "systemml-1.2.0": "2020-07-03",
 "systemml-1.2.0-python": "2020-07-03"
 },
-"tajo": {
-"tajo-0.10.0": "2020-07-06",
-"tajo-0.10.1": "2020-07-06",
-"tajo-0.11.0": "2020-07-06",
-"tajo-0.11.1": "2020-07-06",
-"tajo-0.11.2": "2020-07-06",
-"tajo-0.11.3": "2020-07-06",
-"tajo-0.8.0": "2020-07-06",
-"tajo-0.9.0": "2020-07-06"
-},
 "tapestry": {
 "apache-tapestry-5.3.8": "2020-07-03",
 "apache-tapestry-5.4-beta-26": "2020-07-03",
@@ -3586,7 +3578,7 @@
 "thrift-0.9.3.1": "2020-07-06"
 },
 "tika": {
-"tika-2.0.0-ALPHA": "2021-01-16"
+"tika-1.26": "2021-03-29"
 },
 "tinkerpop": {
 "apache-tinkerpop-3.3.11": "2020-07-03",
@@ -3601,7 +3593,8 @@
 "taglibs-standard-1.2.5": "2020-07-03",
 "tomcat-connectors-1.2.48": "2020-07-03",
 "tomcat-maven-plugin-2.2": "2020-07-03",
-"tomcat-native-1.2.26": "2020-12-10"
+"tomcat-native-1.2.26": "2020-12-10",
+"tomcat-native-1.2.27": "2021-03-26"
 },
 "tomee": {
 "apache-tomee-1.7.5-jaxrs": "2020-07-03",
