@@ -406,9 +406,7 @@
 "apache-camel-k-runtime-1.5.0": "2020-10-12",
 "apache-camel-k-runtime-1.6.0": "2020-12-29",
 "apache-camel-kafka-connector-0.6.1": "2020-11-30",
-"apache-camel-quarkus-1.6.0": "2021-01-19",
-"apache-camel-quarkus-1.7.0": "2021-02-23",
-"apache-camel-quarkus-1.8.0": "2021-03-29",
+"apache-camel-quarkus-1.8.1": "2021-04-06",
 "camel-k-client-1.2.1-linux": "2020-11-27",
 "camel-k-client-1.2.1-mac": "2020-11-27",
 "camel-k-client-1.2.1-windows": "2020-11-27",
@@ -937,6 +935,7 @@
 "flink-shaded-10.0": "2020-07-03",
 "flink-shaded-11.0": "2020-07-03",
 "flink-shaded-12.0": "2020-09-29",
+"flink-shaded-13.0": "2021-03-31",
 "flink-shaded-9.0": "2020-07-03",
 "flink-statefun-2.1.0": "2020-07-03",
 "flink-statefun-2.2.2": "2020-12-23"
@@ -1139,7 +1138,8 @@
 "hudi-0.5.2-incubating": "2020-07-03",
 "hudi-0.5.3": "2020-07-03",
 "hudi-0.6.0": "2020-08-23",
-"hudi-0.7.0": "2021-01-26"
+"hudi-0.7.0": "2021-01-26",
+"hudi-0.8.0": "2021-04-06"
 },
 "iceberg": {
 "apache-iceberg-0.10.0": "2020-11-12",
@@ -3100,7 +3100,8 @@
 "skywalking-nginx-lua-0.4.1": "2021-03-03",
 "skywalking-nodejs-0.2.0": "2021-03-26",
 "skywalking-python-0.6.0": "2021-03-26",
-"skywalking-swck-0.2.0": "2021-01-21"
+"skywalking-swck-0.2.0": "2021-01-21",
+"skywalking-swck-0.3.0": "2021-03-26"
 },
 "sling": {
 "adapter-annotations-1.0.0": "2020-07-03",
@@ -3585,14 +3586,18 @@
 },
 "tomcat": {
 "apache-tomcat-10.0.4": "2021-03-05",
+"apache-tomcat-10.0.5": "2021-03-30",
 "apache-tomcat-7.0.108": "2021-01-28",
 "apache-tomcat-8.5.64": "2021-03-04",
+"apache-tomcat-8.5.65": "2021-03-30",
 "apache-tomcat-9.0.44": "2021-03-04",
+"apache-tomcat-9.0.45": "2021-03-30",
 "jakartaee-migration-0.2.0": "2021-02-11",
 "taglibs-standard-1.2.5": "2020-07-03",
 "tomcat-connectors-1.2.48": "2020-07-03",
 "tomcat-maven-plugin-2.2": "2020-07-03",
-"tomcat-native-1.2.27": "2021-03-26"
+"tomcat-native-1.2.27": "2021-03-26",
+"tomcat-native-1.2.28": "2021-04-01"
 },
 "tomee": {
 "apache-tomee-1.7.5-jaxrs": "2020-07-03",
@@ -3745,7 +3750,7 @@
 },
 "wicket": {
 "apache-wicket-6.30.0": "2020-07-03",
-"apache-wicket-7.17.0": "2020-07-16",
+"apache-wicket-7.18.0": "2021-04-02",
 "apache-wicket-8.12.0": "2021-03-30",
 "apache-wicket-9.3.0": "2021-03-25"
 },
