@@ -932,11 +932,8 @@
 "flink-1.10.3": "2021-01-21",
 "flink-1.11.3": "2020-12-13",
 "flink-1.12.2": "2021-02-26",
-"flink-shaded-10.0": "2020-07-03",
-"flink-shaded-11.0": "2020-07-03",
 "flink-shaded-12.0": "2020-09-29",
 "flink-shaded-13.0": "2021-03-31",
-"flink-shaded-9.0": "2020-07-03",
 "flink-statefun-2.1.0": "2020-07-03",
 "flink-statefun-2.2.2": "2020-12-23"
 },
@@ -1142,10 +1139,7 @@
 "hudi-0.8.0": "2021-04-06"
 },
 "iceberg": {
-"apache-iceberg-0.10.0": "2020-11-12",
-"apache-iceberg-0.11.0": "2021-01-26",
-"apache-iceberg-0.11.1": "2021-04-02",
-"apache-iceberg-0.9.1": "2020-08-15"
+"apache-iceberg-0.11.1": "2021-04-02"
 },
 "ignite": {
 "apache-ignite-2.10.0": "2021-03-11",
@@ -1189,11 +1183,6 @@
 "apache-doris-0.13.0-incubating": "2020-10-26",
 "apache-doris-0.9.0-incubating": "2020-07-03"
 },
-"incubator-druid": {
-"apache-druid-0.15.1-incubating": "2020-07-03",
-"apache-druid-0.16.0-incubating": "2020-07-03",
-"apache-druid-0.16.1-incubating": "2020-07-03"
-},
 "incubator-flagon": {
 "apache-flagon-useralejs-incubating-1.0.0": "2020-07-03",
 "apache-flagon-useralejs-incubating-2.0.0": "2020-07-03",
@@ -1212,10 +1201,6 @@
 },
 "incubator-hop": {
 "apache-hop-0.60-incubating": "2021-01-25"
-},
-"incubator-iceberg": {
-"apache-iceberg-0.7.0-incubating": "2020-07-03",
-"apache-iceberg-0.8.0-incubating": "2020-07-03"
 },
 "incubator-joshua": {
 "joshua-incubating-6.1": "2020-07-03"
@@ -1751,6 +1736,7 @@
 "apache-mynewt-blinky-1.6.0": "2020-07-06",
 "apache-mynewt-blinky-1.7.0": "2020-07-06",
 "apache-mynewt-blinky-1.8.0": "2020-07-06",
+"apache-mynewt-blinky-1.9.0": "2021-04-07",
 "apache-mynewt-core-1.3.0": "2020-07-06",
 "apache-mynewt-core-1.4.0": "2020-07-06",
 "apache-mynewt-core-1.4.1": "2020-07-06",
@@ -1758,6 +1744,8 @@
 "apache-mynewt-core-1.6.0": "2020-07-06",
 "apache-mynewt-core-1.7.0": "2020-07-06",
 "apache-mynewt-core-1.8.0": "2020-07-06",
+"apache-mynewt-core-1.9.0": "2021-04-07",
+"apache-mynewt-newmgr-1.9.0": "2021-04-07",
 "apache-mynewt-newt-1.3.0": "2020-07-06",
 "apache-mynewt-newt-1.4.0": "2020-07-06",
 "apache-mynewt-newt-1.4.1": "2020-07-06",
@@ -1765,6 +1753,7 @@
 "apache-mynewt-newt-1.6.0": "2020-07-06",
 "apache-mynewt-newt-1.7.0": "2020-07-06",
 "apache-mynewt-newt-1.8.0": "2020-07-06",
+"apache-mynewt-newt-1.9.0": "2021-04-07",
 "apache-mynewt-newtmgr-1.3.0": "2020-07-06",
 "apache-mynewt-newtmgr-1.4.0": "2020-07-06",
 "apache-mynewt-newtmgr-1.4.1": "2020-07-06",
@@ -1775,7 +1764,8 @@
 "apache-mynewt-nimble-1.0.0": "2020-07-06",
 "apache-mynewt-nimble-1.1.0": "2020-07-06",
 "apache-mynewt-nimble-1.2.0": "2020-07-06",
-"apache-mynewt-nimble-1.3.0": "2020-07-06"
+"apache-mynewt-nimble-1.3.0": "2020-07-06",
+"apache-mynewt-nimble-1.4.0": "2021-04-07"
 },
 "netbeans": {
 "apache-netbeans-jackpot-11.1": "2020-07-03",
@@ -3585,18 +3575,14 @@
 "apache-tinkerpop-3.4.10": "2021-01-22"
 },
 "tomcat": {
-"apache-tomcat-10.0.4": "2021-03-05",
 "apache-tomcat-10.0.5": "2021-03-30",
 "apache-tomcat-7.0.108": "2021-01-28",
-"apache-tomcat-8.5.64": "2021-03-04",
 "apache-tomcat-8.5.65": "2021-03-30",
-"apache-tomcat-9.0.44": "2021-03-04",
 "apache-tomcat-9.0.45": "2021-03-30",
 "jakartaee-migration-0.2.0": "2021-02-11",
 "taglibs-standard-1.2.5": "2020-07-03",
 "tomcat-connectors-1.2.48": "2020-07-03",
 "tomcat-maven-plugin-2.2": "2020-07-03",
-"tomcat-native-1.2.27": "2021-03-26",
 "tomcat-native-1.2.28": "2021-04-01"
 },
 "tomee": {
