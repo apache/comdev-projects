@@ -185,8 +185,8 @@
 "apache-airflow-backport-providers-grpc-2021.3.17": [
 "airflow/backport-providers/apache-airflow-backport-providers-grpc-2021.3.17.tar.gz"
 ],
-"apache-airflow-backport-providers-http-2021.3.3": [
-"airflow/backport-providers/apache-airflow-backport-providers-http-2021.3.3.tar.gz"
+"apache-airflow-backport-providers-http-2021.4.10": [
+"airflow/backport-providers/apache-airflow-backport-providers-http-2021.4.10.tar.gz"
 ],
 "apache-airflow-backport-providers-imap-2021.3.17": [
 "airflow/backport-providers/apache-airflow-backport-providers-imap-2021.3.17.tar.gz"
@@ -3708,6 +3708,17 @@
 "incubator-hop": {
 "apache-hop-0.60-incubating": [
 "incubator/hop/0.60/apache-hop-0.60-incubating.tar.gz"
+],
+"apache-hop-0.70-incubating": [
+"incubator/hop/0.70/apache-hop-0.70-incubating.tar.gz"
+],
+"apache-hop-client-0.70-incubating": [
+"incubator/hop/0.70/apache-hop-client-0.70-incubating.zip"
+]
+},
+"incubator-inlong": {
+"apache-tubemq-0.8.0-incubating": [
+"incubator/inlong/0.8.0-incubating/apache-tubemq-0.8.0-incubating-src.tar.gz"
 ]
 },
 "incubator-joshua": {
@@ -3933,11 +3944,6 @@
 "incubator-training": {
 "apache-training-navigating-ASF-incubation-1.0-incubating": [
 "incubator/training/ApacheWay/NavigatingASFIncubation/1.0/apache-training-navigating-ASF-incubation-1.0-incubating.tar.gz"
-]
-},
-"incubator-tubemq": {
-"apache-tubemq-0.8.0-incubating": [
-"incubator/tubemq/0.8.0-incubating/apache-tubemq-0.8.0-incubating-src.tar.gz"
 ]
 },
 "incubator-tuweni": {
@@ -4628,9 +4634,6 @@
 ]
 },
 "madlib": {
-"apache-madlib-1.17.0": [
-"madlib/1.17.0/apache-madlib-1.17.0-src.tar.gz"
-],
 "apache-madlib-1.18.0": [
 "madlib/1.18.0/apache-madlib-1.18.0-src.tar.gz"
 ]
@@ -12147,6 +12150,9 @@
 ]
 },
 "zookeeper": {
+"apache-zookeeper-3.5.9": [
+"zookeeper/zookeeper-3.5.9/apache-zookeeper-3.5.9.tar.gz"
+],
 "apache-zookeeper-3.6.2": [
 "zookeeper/zookeeper-3.6.2/apache-zookeeper-3.6.2.tar.gz"
 ],

@@ -64,7 +64,7 @@
 "apache-airflow-backport-providers-ftp-2021.3.17": "2021-03-17",
 "apache-airflow-backport-providers-google-2021.3.3": "2021-03-07",
 "apache-airflow-backport-providers-grpc-2021.3.17": "2021-03-17",
-"apache-airflow-backport-providers-http-2021.3.3": "2021-03-07",
+"apache-airflow-backport-providers-http-2021.4.10": "2021-04-10",
 "apache-airflow-backport-providers-imap-2021.3.17": "2021-03-17",
 "apache-airflow-backport-providers-jdbc-2021.3.17": "2021-03-17",
 "apache-airflow-backport-providers-jenkins-2021.3.3": "2021-03-07",
@@ -1204,7 +1204,12 @@
 "hivemall-0.6.0-incubating": "2020-07-03"
 },
 "incubator-hop": {
-"apache-hop-0.60-incubating": "2021-01-25"
+"apache-hop-0.60-incubating": "2021-01-25",
+"apache-hop-0.70-incubating": "2021-04-10",
+"apache-hop-client-0.70-incubating": "2021-04-10"
+},
+"incubator-inlong": {
+"apache-tubemq-0.8.0-incubating": "2021-02-19"
 },
 "incubator-joshua": {
 "joshua-incubating-6.1": "2020-07-03"
@@ -1302,9 +1307,6 @@
 },
 "incubator-training": {
 "apache-training-navigating-ASF-incubation-1.0-incubating": "2020-07-03"
-},
-"incubator-tubemq": {
-"apache-tubemq-0.8.0-incubating": "2021-02-19"
 },
 "incubator-tuweni": {
 "tuweni-0.10.0-incubating": "2020-07-03",
@@ -1527,7 +1529,6 @@
 "Apache-Lucene.Net-4.8.0-beta00014": "2021-03-28"
 },
 "madlib": {
-"apache-madlib-1.17.0": "2020-07-06",
 "apache-madlib-1.18.0": "2021-03-31"
 },
 "mahout": {
@@ -3758,6 +3759,7 @@
 "zeppelin-0.9.0-preview2": "2020-07-23"
 },
 "zookeeper": {
+"apache-zookeeper-3.5.9": "2021-01-14",
 "apache-zookeeper-3.6.2": "2020-09-09",
 "apache-zookeeper-3.7.0": "2021-03-27"
 }
