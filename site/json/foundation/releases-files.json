@@ -101,6 +101,9 @@
 "apache-airflow-2.0.1": [
 "airflow/2.0.1/apache-airflow-2.0.1-source.tar.gz"
 ],
+"apache-airflow-2.0.2": [
+"airflow/2.0.2/apache-airflow-2.0.2-source.tar.gz"
+],
 "apache-airflow-backport-providers-2021.2.5": [
 "airflow/backport-providers/apache-airflow-backport-providers-2021.2.5-source.tar.gz"
 ],
@@ -2116,10 +2119,6 @@
 "commons/geometry/source/commons-geometry-1.0-beta1-src.tar.gz",
 "commons/geometry/source/commons-geometry-1.0-beta1-src.zip"
 ],
-"commons-imaging-1.0-alpha1": [
-"commons/imaging/source/commons-imaging-1.0-alpha1-src.tar.gz",
-"commons/imaging/source/commons-imaging-1.0-alpha1-src.zip"
-],
 "commons-imaging-1.0-alpha2": [
 "commons/imaging/source/commons-imaging-1.0-alpha2-src.tar.gz",
 "commons/imaging/source/commons-imaging-1.0-alpha2-src.zip"
@@ -2163,10 +2162,6 @@
 "commons-lang-2.6": [
 "commons/lang/source/commons-lang-2.6-src.tar.gz",
 "commons/lang/source/commons-lang-2.6-src.zip"
-],
-"commons-lang3-3.11": [
-"commons/lang/source/commons-lang3-3.11-src.tar.gz",
-"commons/lang/source/commons-lang3-3.11-src.zip"
 ],
 "commons-lang3-3.12.0": [
 "commons/lang/source/commons-lang3-3.12.0-src.tar.gz",
@@ -3467,8 +3462,8 @@
 "apache-groovy-2.5.14": [
 "groovy/2.5.14/sources/apache-groovy-src-2.5.14.zip"
 ],
-"apache-groovy-3.0.7": [
-"groovy/3.0.7/sources/apache-groovy-src-3.0.7.zip"
+"apache-groovy-3.0.8": [
+"groovy/3.0.8/sources/apache-groovy-src-3.0.8.zip"
 ],
 "apache-groovy-4.0.0-alpha-3": [
 "groovy/4.0.0-alpha-3/sources/apache-groovy-src-4.0.0-alpha-3.zip"
@@ -3479,8 +3474,8 @@
 "apache-groovy-sdk-2.5.14": [
 "groovy/2.5.14/distribution/apache-groovy-sdk-2.5.14.zip"
 ],
-"apache-groovy-sdk-3.0.7": [
-"groovy/3.0.7/distribution/apache-groovy-sdk-3.0.7.zip"
+"apache-groovy-sdk-3.0.8": [
+"groovy/3.0.8/distribution/apache-groovy-sdk-3.0.8.zip"
 ],
 "apache-groovy-sdk-4.0.0-alpha-3": [
 "groovy/4.0.0-alpha-3/distribution/apache-groovy-sdk-4.0.0-alpha-3.zip"
@@ -3605,6 +3600,10 @@
 "hadoop-thirdparty-1.0.0": [
 "hadoop/thirdparty/thirdparty-1.0.0/hadoop-thirdparty-1.0.0-site.tar.gz",
 "hadoop/thirdparty/thirdparty-1.0.0/hadoop-thirdparty-1.0.0-src.tar.gz"
+],
+"ozone-1.1.0": [
+"hadoop/ozone/ozone-1.1.0/ozone-1.1.0-src.tar.gz",
+"hadoop/ozone/ozone-1.1.0/ozone-1.1.0.tar.gz"
 ]
 },
 "hawq": {
@@ -4585,17 +4584,26 @@
 "kafka-2.7.0": [
 "kafka/2.7.0/kafka-2.7.0-src.tgz"
 ],
+"kafka-2.8.0": [
+"kafka/2.8.0/kafka-2.8.0-src.tgz"
+],
 "kafka_2.12-2.6.1": [
 "kafka/2.6.1/kafka_2.12-2.6.1.tgz"
 ],
 "kafka_2.12-2.7.0": [
 "kafka/2.7.0/kafka_2.12-2.7.0.tgz"
 ],
+"kafka_2.12-2.8.0": [
+"kafka/2.8.0/kafka_2.12-2.8.0.tgz"
+],
 "kafka_2.13-2.6.1": [
 "kafka/2.6.1/kafka_2.13-2.6.1.tgz"
 ],
 "kafka_2.13-2.7.0": [
 "kafka/2.7.0/kafka_2.13-2.7.0.tgz"
+],
+"kafka_2.13-2.8.0": [
+"kafka/2.8.0/kafka_2.13-2.8.0.tgz"
 ]
 },
 "karaf": {
@@ -10503,8 +10511,8 @@
 "org.apache.sling.engine-2.7.4": [
 "sling/org.apache.sling.engine-2.7.4-source-release.zip"
 ],
-"org.apache.sling.event-4.2.12": [
-"sling/org.apache.sling.event-4.2.12-source-release.zip"
+"org.apache.sling.event-4.2.18": [
+"sling/org.apache.sling.event-4.2.18-source-release.zip"
 ],
 "org.apache.sling.event.api-1.0.0": [
 "sling/org.apache.sling.event.api-1.0.0-source-release.zip"
@@ -10689,17 +10697,17 @@
 "org.apache.sling.jcr.jcr-wrapper-2.0.0": [
 "sling/org.apache.sling.jcr.jcr-wrapper-2.0.0-source-release.zip"
 ],
-"org.apache.sling.jcr.maintenance-1.0.0": [
-"sling/org.apache.sling.jcr.maintenance-1.0.0-source-release.zip"
+"org.apache.sling.jcr.maintenance-1.0.2": [
+"sling/org.apache.sling.jcr.maintenance-1.0.2-source-release.zip"
 ],
-"org.apache.sling.jcr.maintenance-1.0.0-base.slingosgifeature": [
-"sling/org.apache.sling.jcr.maintenance-1.0.0-base.slingosgifeature"
+"org.apache.sling.jcr.maintenance-1.0.2-base.slingosgifeature": [
+"sling/org.apache.sling.jcr.maintenance-1.0.2-base.slingosgifeature"
 ],
-"org.apache.sling.jcr.maintenance-1.0.0-configuration.slingosgifeature": [
-"sling/org.apache.sling.jcr.maintenance-1.0.0-configuration.slingosgifeature"
+"org.apache.sling.jcr.maintenance-1.0.2-configuration.slingosgifeature": [
+"sling/org.apache.sling.jcr.maintenance-1.0.2-configuration.slingosgifeature"
 ],
-"org.apache.sling.jcr.maintenance-1.0.0-default.slingosgifeature": [
-"sling/org.apache.sling.jcr.maintenance-1.0.0-default.slingosgifeature"
+"org.apache.sling.jcr.maintenance-1.0.2-default.slingosgifeature": [
+"sling/org.apache.sling.jcr.maintenance-1.0.2-default.slingosgifeature"
 ],
 "org.apache.sling.jcr.oak.server-1.2.10": [
 "sling/org.apache.sling.jcr.oak.server-1.2.10-source-release.zip"
