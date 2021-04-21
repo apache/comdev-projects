@@ -4745,6 +4745,99 @@
 ],
 "shortdesc": "Common Configuration"
 },
+"commons-crypto": {
+"bug-database": "http://issues.apache.org/jira/browse/CRYPTO",
+"category": "library",
+"description": "Commons Crypto: a cryptographic library optimized with AES-NI.",
+"doap": "http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_crypto.rdf",
+"download-page": "http://commons.apache.org/crypto/download_crypto.cgi",
+"homepage": "http://commons.apache.org/crypto/",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://commons.apache.org/mail-lists.html",
+"name": "Apache Commons Crypto",
+"pmc": "commons",
+"programming-language": "Java, C",
+"release": [
+{
+"created": "2020-08-28",
+"name": "commons-crypto",
+"revision": "1.1.0"
+},
+{
+"created": "2016-07-22",
+"name": "commons-crypto",
+"revision": "1.0.0"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf/commons-crypto.git"
+],
+"shortdesc": "Commons Crypto"
+},
+"commons-csv": {
+"bug-database": "http://issues.apache.org/jira/browse/CSV",
+"category": "library",
+"description": "\n        The Apache Commons CSV library provides a simple interface for reading and writing\n        CSV files of various types.\n    ",
+"doap": "http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_csv.rdf",
+"download-page": "http://commons.apache.org/csv/download_csv.cgi",
+"homepage": "http://commons.apache.org/csv/",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://commons.apache.org/mail-lists.html",
+"name": "Apache Commons CSV",
+"pmc": "commons",
+"programming-language": "Java",
+"release": [
+{
+"created": "2020-02-01",
+"name": "commons-csv",
+"revision": "1.8"
+},
+{
+"created": "2019-06-01",
+"name": "commons-csv",
+"revision": "1.7"
+},
+{
+"created": "2018-09-25",
+"name": "commons-csv",
+"revision": "1.6"
+},
+{
+"created": "2017-09-03",
+"name": "commons-csv",
+"revision": "1.5"
+},
+{
+"created": "2015-05-28",
+"name": "commons-csv",
+"revision": "1.4"
+},
+{
+"created": "2015-05-09",
+"name": "commons-csv",
+"revision": "1.3"
+},
+{
+"created": "2015-08-24",
+"name": "commons-csv",
+"revision": "1.2"
+},
+{
+"created": "2014-11-21",
+"name": "commons-csv",
+"revision": "1.1"
+},
+{
+"created": "2014-08-14",
+"name": "commons-csv",
+"revision": "1.0"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf/commons-csv.git"
+],
+"shortdesc": "Java Common Components"
+},
 "commons-daemon": {
 "bug-database": "http://issues.apache.org/jira/browse/DAEMON",
 "category": "library",
@@ -5076,35 +5169,6 @@
 ],
 "shortdesc": "Rule based XML->Java object mapping module"
 },
-"commons-discovery": {
-"bug-database": "http://issues.apache.org/jira/browse/DISCOVERY",
-"category": "library",
-"description": "Commons Discovery",
-"doap": "http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_discovery.rdf",
-"download-page": "http://commons.apache.org/discovery/download_discovery.cgi",
-"homepage": "http://commons.apache.org/discovery/",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://commons.apache.org/mail-lists.html",
-"name": "Apache Commons Discovery",
-"pmc": "commons",
-"programming-language": "Java",
-"release": [
-{
-"created": "2011-05-05",
-"name": "commons-discovery",
-"revision": "0.5"
-},
-{
-"created": "2003-04-15",
-"name": "commons-discovery",
-"revision": "0.2"
-}
-],
-"repository": [
-"https://gitbox.apache.org/repos/asf/commons-discovery"
-],
-"shortdesc": "Commons Discovery"
-},
 "commons-email": {
 "bug-database": "http://issues.apache.org/jira/browse/EMAIL",
 "category": "library",
@@ -5306,6 +5370,59 @@
 "https://gitbox.apache.org/repos/asf/commons-functor"
 ],
 "shortdesc": "Commons Functor"
+},
+"commons-geometry": {
+"bug-database": "http://issues.apache.org/jira/browse/Geometry",
+"category": "library",
+"description": "Geometry.",
+"doap": "http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_geometry.rdf",
+"download-page": "http://commons.apache.org/geometry/download_geometry.cgi",
+"homepage": "http://commons.apache.org/geometry/",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://commons.apache.org/mail-lists.html",
+"name": "Apache Commons Geometry",
+"pmc": "commons",
+"programming-language": "Java",
+"release": [
+{
+"created": "2020-07-19",
+"name": "commons-geometry",
+"revision": "1.0-beta1"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf?p=commons-geometry.git"
+],
+"shortdesc": "Apache Commons Geometry"
+},
+"commons-imaging": {
+"bug-database": "http://issues.apache.org/jira/browse/IMAGING",
+"category": "library",
+"description": "\n      The Apache Commons Imaging library\n      reads and writes a variety of image formats,\n      including fast parsing of image info (size, color space, ICC profile, etc.) and metadata.\n      Previously known as Apache Commons Sanselan. \n    ",
+"doap": "http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_imaging.rdf",
+"download-page": "http://commons.apache.org/imaging/download_imaging.cgi",
+"homepage": "http://commons.apache.org/imaging/",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://commons.apache.org/mail-lists.html",
+"name": "Apache Commons Imaging",
+"pmc": "commons",
+"programming-language": "Java",
+"release": [
+{
+"created": "2020-08-01",
+"name": "commons-imaging",
+"revision": "1.0-alpha2"
+},
+{
+"created": "2019-04-28",
+"name": "commons-imaging",
+"revision": "1.0-alpha1"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf/commons-imaging"
+],
+"shortdesc": "Java Common Components"
 },
 "commons-io": {
 "bug-database": "http://issues.apache.org/jira/browse/IO",
@@ -5755,30 +5872,6 @@
 ],
 "shortdesc": "Java Common Components"
 },
-"commons-launcher": {
-"bug-database": "http://issues.apache.org/jira/browse/LAUNCHER",
-"category": "library",
-"description": "\n        Launcher are a set of Java classes which aim at making a cross\n        platform Java application launcher.\n  ",
-"doap": "http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_launcher.rdf",
-"download-page": "http://commons.apache.org/launcher/download_launcher.cgi",
-"homepage": "http://commons.apache.org/launcher/",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://commons.apache.org/mail-lists.html",
-"name": "Apache Commons Launcher",
-"pmc": "commons",
-"programming-language": "Java",
-"release": [
-{
-"created": "2004-08-22",
-"name": "commons-launcher",
-"revision": "1.1"
-}
-],
-"repository": [
-"https://gitbox.apache.org/repos/asf/commons-launcher"
-],
-"shortdesc": "Commons Launcher"
-},
 "commons-logging": {
 "bug-database": "http://issues.apache.org/jira/browse/LOGGING",
 "category": "library",
@@ -6006,6 +6099,30 @@
 ],
 "shortdesc": "Apache Commons Net"
 },
+"commons-numbers": {
+"bug-database": "http://issues.apache.org/jira/browse/NUMBERS",
+"category": "library",
+"description": "Number types and utilities.",
+"doap": "http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_numbers.rdf",
+"download-page": "http://commons.apache.org/numbers/download_numbers.cgi",
+"homepage": "http://commons.apache.org/numbers/",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://commons.apache.org/mail-lists.html",
+"name": "Apache Commons Numbers",
+"pmc": "commons",
+"programming-language": "Java",
+"release": [
+{
+"created": "2020-04-08",
+"name": "commons-numbers",
+"revision": "1.0-beta1"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf?p=commons-numbers.git"
+],
+"shortdesc": "Apache Commons Numbers"
+},
 "commons-ognl": {
 "bug-database": "http://issues.apache.org/jira/browse/OGNL",
 "category": "library",
@@ -6213,6 +6330,30 @@
 ],
 "shortdesc": "Commons Dynamic Proxy Library"
 },
+"commons-rdf": {
+"bug-database": "https://issues.apache.org/jira/browse/RNG",
+"category": "library",
+"description": "provide a type-safe, non-general API that covers RDF 1.1.",
+"doap": "http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_rdf.rdf",
+"download-page": "https://commons.apache.org/rng/download_rdf.cgi",
+"homepage": "https://commons.apache.org/rng/",
+"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"mailing-list": "https://commons.apache.org/mail-lists.html",
+"name": "Apache Commons RDF",
+"pmc": "commons",
+"programming-language": "Java",
+"release": [
+{
+"created": "2017-12-23",
+"name": "commons-rdf",
+"revision": "0.5.0"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf/commons-rdf.git"
+],
+"shortdesc": "Apache Commons RDF"
+},
 "commons-rng": {
 "bug-database": "https://issues.apache.org/jira/browse/RNG",
 "category": "library",
@@ -6296,6 +6437,109 @@
 ],
 "shortdesc": "A Java implementation of State Chart XML",
 "shortname": "Commons SCXML"
+},
+"commons-statistics": {
+"bug-database": "http://issues.apache.org/jira/browse/STATISTICS",
+"category": "library",
+"description": "Statistics.",
+"doap": "http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_statistics.rdf",
+"download-page": "http://commons.apache.org/statistics/download_statistics.cgi",
+"homepage": "http://commons.apache.org/statistics/",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://commons.apache.org/mail-lists.html",
+"name": "Apache Commons Statistics",
+"pmc": "commons",
+"programming-language": "Java",
+"release": [
+{
+"created": "2020-04-30",
+"name": "commons-statistics",
+"revision": "1.0-beta1"
+},
+{
+"created": "2018-01-03",
+"name": "commons-statistics",
+"revision": "0.1"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf/commons-statistics.git"
+],
+"shortdesc": "Apache Commons Statistics"
+},
+"commons-text": {
+"bug-database": "http://issues.apache.org/jira/browse/TEXT",
+"category": "library",
+"description": "\n        Apache Commons Text is a library focused on algorithms working on strings.\n    ",
+"doap": "http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_text.rdf",
+"download-page": "http://commons.apache.org/text/download_text.cgi",
+"homepage": "http://commons.apache.org/text/",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://commons.apache.org/mail-lists.html",
+"name": "Apache Commons Text",
+"pmc": "commons",
+"programming-language": "Java",
+"release": [
+{
+"created": "2020-07-21",
+"name": "commons-text",
+"revision": "1.9"
+},
+{
+"created": "2019-08-30",
+"name": "commons-text",
+"revision": "1.8"
+},
+{
+"created": "2019-06-30",
+"name": "commons-text",
+"revision": "1.7"
+},
+{
+"created": "2018-10-16",
+"name": "commons-text",
+"revision": "1.6"
+},
+{
+"created": "2018-10-04",
+"name": "commons-text",
+"revision": "1.5"
+},
+{
+"created": "2018-06-12",
+"name": "commons-text",
+"revision": "1.4"
+},
+{
+"created": "2018-03-21",
+"name": "commons-text",
+"revision": "1.3"
+},
+{
+"created": "2017-12-12",
+"name": "commons-text",
+"revision": "1.2"
+},
+{
+"created": "2017-05-23",
+"name": "commons-text",
+"revision": "1.1"
+},
+{
+"created": "2017-03-11",
+"name": "commons-text",
+"revision": "1.0"
+},
+{
+"created": "2017-02-09",
+"name": "commons-text",
+"revision": "1.0-beta-1"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf/commons-text.git"
+],
+"shortdesc": "Java Common Components"
 },
 "commons-validator": {
 "bug-database": "http://commons.apache.org/validator/issue-tracking.html",
