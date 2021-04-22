@@ -2350,7 +2350,7 @@
 "shortdesc": "Programming model, SDKs, and runners for defining and executing data processing pipelines"
 },
 {
-"chair": "junhe",
+"chair": "sekikn",
 "charter": "Bigtop is a project for the development of packaging and tests of the Apache Hadoop ecosystem. The primary goal of Bigtop is to build a community around the packaging and interoperability testing of Hadoop-related projects. This includes testing at various levels (packaging, platform, runtime, upgrade, etc...) developed by a community with a focus on the system as a whole, rather than individual projects. In short we strive to be for Hadoop what Debian is to Linux.",
 "established": "2012-09",
 "group": "bigtop",
@@ -4180,7 +4180,7 @@
 "shortdesc": "Reusable Java components"
 },
 {
-"chair": "sharan",
+"chair": "swapnilmmane",
 "charter": "The mission of Community Development is the creation and maintenance of software related to Resources to help people become involved with Apache projects",
 "established": "2009-11",
 "group": "comdev",
@@ -10422,6 +10422,10 @@
 "date": "2018-11-27",
 "name": "Kenneth Knowles"
 },
+"kezhenxu94": {
+"date": "2021-04-21",
+"name": "Zhenxu Ke"
+},
 "kfujino": {
 "date": "2020-09-28",
 "name": "Keiichi Fujino"
@@ -11974,7 +11978,7 @@
 "shortdesc": "Server-side OSGi distribution"
 },
 {
-"chair": "rbowen",
+"chair": "sharan",
 "charter": "The mission of Apache Kibble is the creation and maintenance of software related to an interactive project activity analyzer and aggregator",
 "established": "2017-10",
 "group": "kibble",
@@ -13134,7 +13138,7 @@
 "shortdesc": "Java project management and comprehension tools"
 },
 {
-"chair": "vinodkone",
+"chair": "qianzhang",
 "charter": "The mission of Mesos is the creation and maintenance of software related to a cluster manager that provides efficient resource isolation and sharing across distributed applications",
 "established": "2013-06",
 "group": "mesos",
@@ -15816,7 +15820,7 @@
 "shortdesc": "Java library for working with PDF documents"
 },
 {
-"chair": "gozer",
+"chair": "stevehay",
 "charter": "The mission of Perl is the creation and maintenance of software related to Dynamic websites using Perl",
 "established": "2000-03",
 "group": "perl",
@@ -17224,7 +17228,7 @@
 "shortdesc": "Retainable Evaluator Execution Framework"
 },
 {
-"chair": "board",
+"chair": "fielding",
 "charter": "The mission of River is the creation and maintenance of software related to Jini service oriented architecture",
 "established": "2011-01",
 "group": "river",
@@ -20828,7 +20832,7 @@
 "shortdesc": "Java EE Web Profile built on Apache Tomcat"
 },
 {
-"chair": "neuman",
+"chair": "friede",
 "charter": "The mission of Apache Traffic Control is the creation and maintenance of software related to building, monitoring, configuring, and provisioning a large scale content delivery network (CDN)",
 "established": "2018-05",
 "group": "trafficcontrol",
@@ -21138,80 +21142,6 @@
 }
 },
 "shortdesc": "A fast, scalable and extensible HTTP/1.1 compliant caching proxy server"
-},
-{
-"chair": "pierresmits",
-"charter": "The mission of Apache Trafodion is the creation and maintenance of software related to webscale SQL-on-Hadoop solution enabling transactional or operational workloads.",
-"established": "2017-12",
-"group": "trafodion",
-"homepage": "http://trafodion.apache.org/",
-"id": "trafodion",
-"name": "Apache Trafodion",
-"rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/trafodion.rdf",
-"reporting": 3,
-"roster": {
-"amanda": {
-"date": "2017-12-20",
-"name": "Amanda K Moran"
-},
-"ansharma": {
-"date": "2018-12-06",
-"name": "Anoop Sharma"
-},
-"dbirdsall": {
-"date": "2017-12-20",
-"name": "Dave Birdsall"
-},
-"gtapper": {
-"date": "2017-12-20",
-"name": "Gunnar Tapper"
-},
-"hzeller": {
-"date": "2018-12-06",
-"name": "Hans Zeller"
-},
-"jleroux": {
-"date": "2017-12-20",
-"name": "Jacques Le Roux"
-},
-"liuming": {
-"date": "2017-12-20",
-"name": "Ming Liu"
-},
-"pierresmits": {
-"date": "2017-12-20",
-"name": "Pierre Smits"
-},
-"rmarton": {
-"date": "2017-12-20",
-"name": "Roberta Marton"
-},
-"sandhya": {
-"date": "2018-08-14",
-"name": "Sandhya Sundaresan"
-},
-"sbroeder": {
-"date": "2018-06-18",
-"name": "Sean Broeder"
-},
-"selva": {
-"date": "2017-12-20",
-"name": "Selva Govindarajan"
-},
-"stack": {
-"date": "2017-12-20",
-"name": "Michael Stack"
-},
-"sureshs": {
-"date": "2017-12-20",
-"name": "Suresh Subbiah"
-},
-"svarnau": {
-"date": "2017-12-20",
-"name": "Steve Varnau"
-}
-},
-"shortdesc": "webscale SQL-on-Hadoop solution enabling transactional or operational workloads."
 },
 {
 "chair": "gk",
