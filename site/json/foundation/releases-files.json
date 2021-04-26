@@ -1365,6 +1365,8 @@
 "cassandra/debian/dists/311x/main/binary-i386/Packages.gz",
 "cassandra/debian/dists/40x/main/binary-amd64/Packages",
 "cassandra/debian/dists/40x/main/binary-amd64/Packages.gz",
+"cassandra/debian/dists/40x/main/binary-arm64/Packages",
+"cassandra/debian/dists/40x/main/binary-arm64/Packages.gz",
 "cassandra/debian/dists/40x/main/binary-i386/Packages",
 "cassandra/debian/dists/40x/main/binary-i386/Packages.gz"
 ],
@@ -1388,6 +1390,7 @@
 "cassandra/debian/dists/311x/main/source/Release",
 "cassandra/debian/dists/311x/Release",
 "cassandra/debian/dists/40x/main/binary-amd64/Release",
+"cassandra/debian/dists/40x/main/binary-arm64/Release",
 "cassandra/debian/dists/40x/main/binary-i386/Release",
 "cassandra/debian/dists/40x/main/source/Release",
 "cassandra/debian/dists/40x/Release"
@@ -1418,8 +1421,8 @@
 "apache-cassandra-3.11.10": [
 "cassandra/3.11.10/apache-cassandra-3.11.10-src.tar.gz"
 ],
-"apache-cassandra-4.0-beta4": [
-"cassandra/4.0-beta4/apache-cassandra-4.0-beta4-src.tar.gz"
+"apache-cassandra-4.0-rc1": [
+"cassandra/4.0-rc1/apache-cassandra-4.0-rc1-src.tar.gz"
 ],
 "cassandra-2.1.22-1": [
 "cassandra/redhat/21x/cassandra-2.1.22-1.src.rpm"
@@ -1445,11 +1448,11 @@
 "cassandra-3.11.10-1.noarch": [
 "cassandra/redhat/311x/cassandra-3.11.10-1.noarch.rpm"
 ],
-"cassandra-4.0~beta4-1": [
-"cassandra/redhat/40x/cassandra-4.0~beta4-1.src.rpm"
+"cassandra-4.0~rc1-1": [
+"cassandra/redhat/40x/cassandra-4.0~rc1-1.src.rpm"
 ],
-"cassandra-4.0~beta4-1.noarch": [
-"cassandra/redhat/40x/cassandra-4.0~beta4-1.noarch.rpm"
+"cassandra-4.0~rc1-1.noarch": [
+"cassandra/redhat/40x/cassandra-4.0~rc1-1.noarch.rpm"
 ],
 "cassandra-tools-2.1.22-1.noarch": [
 "cassandra/redhat/21x/cassandra-tools-2.1.22-1.noarch.rpm"
@@ -1463,8 +1466,8 @@
 "cassandra-tools-3.11.10-1.noarch": [
 "cassandra/redhat/311x/cassandra-tools-3.11.10-1.noarch.rpm"
 ],
-"cassandra-tools-4.0~beta4-1.noarch": [
-"cassandra/redhat/40x/cassandra-tools-4.0~beta4-1.noarch.rpm"
+"cassandra-tools-4.0~rc1-1.noarch": [
+"cassandra/redhat/40x/cassandra-tools-4.0~rc1-1.noarch.rpm"
 ],
 "cassandra-tools_2.1.21_all": [
 "cassandra/debian/pool/main/c/cassandra/cassandra-tools_2.1.21_all.deb"
@@ -1528,8 +1531,11 @@
 "cassandra/debian/pool/main/c/cassandra/cassandra-tools_4.0~beta3_all.deb"
 ],
 "cassandra-tools_4.0~beta4_all": [
-"cassandra/4.0-beta4/debian/cassandra-tools_4.0~beta4_all.deb",
 "cassandra/debian/pool/main/c/cassandra/cassandra-tools_4.0~beta4_all.deb"
+],
+"cassandra-tools_4.0~rc1_all": [
+"cassandra/4.0-rc1/debian/cassandra-tools_4.0~rc1_all.deb",
+"cassandra/debian/pool/main/c/cassandra/cassandra-tools_4.0~rc1_all.deb"
 ],
 "cassandra_2.1.21.diff": [
 "cassandra/debian/pool/main/c/cassandra/cassandra_2.1.21.diff.gz"
@@ -1718,16 +1724,25 @@
 "cassandra/debian/pool/main/c/cassandra/cassandra_4.0~beta3_all.deb"
 ],
 "cassandra_4.0~beta4": [
-"cassandra/4.0-beta4/debian/cassandra_4.0~beta4.tar.gz",
 "cassandra/debian/pool/main/c/cassandra/cassandra_4.0~beta4.tar.gz"
 ],
 "cassandra_4.0~beta4.dsc": [
-"cassandra/4.0-beta4/debian/cassandra_4.0~beta4.dsc",
 "cassandra/debian/pool/main/c/cassandra/cassandra_4.0~beta4.dsc"
 ],
 "cassandra_4.0~beta4_all": [
-"cassandra/4.0-beta4/debian/cassandra_4.0~beta4_all.deb",
 "cassandra/debian/pool/main/c/cassandra/cassandra_4.0~beta4_all.deb"
+],
+"cassandra_4.0~rc1": [
+"cassandra/4.0-rc1/debian/cassandra_4.0~rc1.tar.gz",
+"cassandra/debian/pool/main/c/cassandra/cassandra_4.0~rc1.tar.gz"
+],
+"cassandra_4.0~rc1.dsc": [
+"cassandra/4.0-rc1/debian/cassandra_4.0~rc1.dsc",
+"cassandra/debian/pool/main/c/cassandra/cassandra_4.0~rc1.dsc"
+],
+"cassandra_4.0~rc1_all": [
+"cassandra/4.0-rc1/debian/cassandra_4.0~rc1_all.deb",
+"cassandra/debian/pool/main/c/cassandra/cassandra_4.0~rc1_all.deb"
 ]
 },
 "cayenne": {
@@ -8798,6 +8813,9 @@
 ],
 "apache-ofbiz-17.12.06": [
 "ofbiz/apache-ofbiz-17.12.06.zip"
+],
+"apache-ofbiz-17.12.07": [
+"ofbiz/apache-ofbiz-17.12.07.zip"
 ]
 },
 "olingo": {
@@ -10280,6 +10298,9 @@
 ],
 "skywalking-nginx-lua-0.4.1": [
 "skywalking/nginx-lua/0.4.1/skywalking-nginx-lua-0.4.1-src.tgz"
+],
+"skywalking-nginx-lua-0.5.0": [
+"skywalking/nginx-lua/0.5.0/skywalking-nginx-lua-0.5.0-src.tgz"
 ],
 "skywalking-nodejs-0.2.0": [
 "skywalking/node-js/0.2.0/skywalking-nodejs-src-0.2.0.tgz"
