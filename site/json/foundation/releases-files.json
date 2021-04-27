@@ -809,9 +809,6 @@
 ]
 },
 "arrow": {
-"apache-arrow-1.0.0": [
-"arrow/arrow-1.0.0/apache-arrow-1.0.0.tar.gz"
-],
 "apache-arrow-1.0.1": [
 "arrow/arrow-1.0.1/apache-arrow-1.0.1.tar.gz"
 ],
@@ -820,6 +817,9 @@
 ],
 "apache-arrow-3.0.0": [
 "arrow/arrow-3.0.0/apache-arrow-3.0.0.tar.gz"
+],
+"apache-arrow-4.0.0": [
+"arrow/arrow-4.0.0/apache-arrow-4.0.0.tar.gz"
 ]
 },
 "asterixdb": {
@@ -2674,6 +2674,9 @@
 ],
 "apache-druid-0.20.2": [
 "druid/0.20.2/apache-druid-0.20.2-src.tar.gz"
+],
+"apache-druid-0.21.0": [
+"druid/0.21.0/apache-druid-0.21.0-src.tar.gz"
 ]
 },
 "dubbo": {
@@ -5232,8 +5235,8 @@
 "maven-plugin-testing-3.3.0": [
 "maven/plugin-testing/maven-plugin-testing-3.3.0-source-release.zip"
 ],
-"maven-plugin-tools-3.6.0": [
-"maven/plugin-tools/maven-plugin-tools-3.6.0-source-release.zip"
+"maven-plugin-tools-3.6.1": [
+"maven/plugin-tools/maven-plugin-tools-3.6.1-source-release.zip"
 ],
 "maven-pmd-plugin-3.14.0": [
 "maven/plugins/maven-pmd-plugin-3.14.0-source-release.zip"
@@ -11025,6 +11028,9 @@
 "org.apache.sling.scripting.jst-2.0.6": [
 "sling/org.apache.sling.scripting.jst-2.0.6-source-release.zip"
 ],
+"org.apache.sling.scripting.spi-1.0.2": [
+"sling/org.apache.sling.scripting.spi-1.0.2-source-release.zip"
+],
 "org.apache.sling.scripting.thymeleaf-2.0.2": [
 "sling/org.apache.sling.scripting.thymeleaf-2.0.2-source-release.zip"
 ],
@@ -11801,6 +11807,19 @@
 "tomcat/tomcat-7/v7.0.108/bin/apache-tomcat-7.0.108.zip",
 "tomcat/tomcat-7/v7.0.108/src/apache-tomcat-7.0.108-src.tar.gz",
 "tomcat/tomcat-7/v7.0.108/src/apache-tomcat-7.0.108-src.zip"
+],
+"apache-tomcat-7.0.109": [
+"tomcat/tomcat-7/v7.0.109/bin/embed/apache-tomcat-7.0.109-embed.tar.gz",
+"tomcat/tomcat-7/v7.0.109/bin/embed/apache-tomcat-7.0.109-embed.zip",
+"tomcat/tomcat-7/v7.0.109/bin/apache-tomcat-7.0.109-deployer.tar.gz",
+"tomcat/tomcat-7/v7.0.109/bin/apache-tomcat-7.0.109-deployer.zip",
+"tomcat/tomcat-7/v7.0.109/bin/apache-tomcat-7.0.109-fulldocs.tar.gz",
+"tomcat/tomcat-7/v7.0.109/bin/apache-tomcat-7.0.109-windows-x64.zip",
+"tomcat/tomcat-7/v7.0.109/bin/apache-tomcat-7.0.109.exe",
+"tomcat/tomcat-7/v7.0.109/bin/apache-tomcat-7.0.109.tar.gz",
+"tomcat/tomcat-7/v7.0.109/bin/apache-tomcat-7.0.109.zip",
+"tomcat/tomcat-7/v7.0.109/src/apache-tomcat-7.0.109-src.tar.gz",
+"tomcat/tomcat-7/v7.0.109/src/apache-tomcat-7.0.109-src.zip"
 ],
 "apache-tomcat-8.5.65": [
 "tomcat/tomcat-8/v8.5.65/bin/embed/apache-tomcat-8.5.65-embed.tar.gz",
