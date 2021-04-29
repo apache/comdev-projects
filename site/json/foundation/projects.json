@@ -2615,6 +2615,30 @@
 ],
 "shortdesc": "Apache Tiles™ is a templating framework built to simplify the development of web application user interfaces."
 },
+"attic-trafodion": {
+"bug-database": "http://issues.apache.org/jira/browse/TRAFODION",
+"category": "retired, big-data",
+"created": "2017-12-07",
+"description": "Trafodion builds on the scalability, elasticity, and flexibility of Hadoop. Trafodion extends Hadoop to provide guaranteed transactional integrity, enabling new kinds of big data applications to run on Hadoop.",
+"doap": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/trafodion.rdf",
+"download-page": "http://trafodion.apache.org/download.html",
+"homepage": "http://trafodion.apache.org",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "http://trafodion.apache.org/mail-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:svarnau@apache.org",
+"name": "Steve Varnau"
+}
+],
+"name": "Apache Trafodion",
+"pmc": "attic",
+"programming-language": "C++",
+"repository": [
+"http://git-wip-us.apache.org/repos/asf/trafodion.git"
+],
+"shortdesc": "Webscale SQL-on-Hadoop solution enabling transactional or operational workloads on Apache Hadoop."
+},
 "attic-tuscany": {
 "bug-database": "http://issues.apache.org/jira/browse/Tuscany",
 "category": "web-framework, retired",
@@ -13207,9 +13231,9 @@
 "programming-language": "C++",
 "release": [
 {
-"created": "2020-11-10",
-"name": "Apache OpenOffice 4.1.8",
-"revision": "4.1.8"
+"created": "2021-02-07",
+"name": "Apache OpenOffice 4.1.9",
+"revision": "4.1.9"
 }
 ],
 "repository": [
@@ -16292,30 +16316,6 @@
 "https://git-wip-us.apache.org/repos/asf/trafficserver.git"
 ],
 "shortdesc": "Apache Traffic Server is an HTTP proxy cache."
-},
-"trafodion": {
-"bug-database": "http://issues.apache.org/jira/browse/TRAFODION",
-"category": "big-data, retired",
-"created": "2017-12-07",
-"description": "Trafodion builds on the scalability, elasticity, and flexibility of Hadoop. Trafodion extends Hadoop to provide guaranteed transactional integrity, enabling new kinds of big data applications to run on Hadoop.",
-"doap": "https://gitbox.apache.org/repos/asf?p=trafodion.git;a=blob_plain;f=doap.rdf;hb=HEAD",
-"download-page": "http://trafodion.apache.org/download.html",
-"homepage": "http://trafodion.apache.org",
-"license": "http://spdx.org/licenses/Apache-2.0",
-"mailing-list": "http://trafodion.apache.org/mail-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:svarnau@apache.org",
-"name": "Steve Varnau"
-}
-],
-"name": "Apache Trafodion",
-"pmc": "attic",
-"programming-language": "C++",
-"repository": [
-"http://git-wip-us.apache.org/repos/asf/trafodion.git"
-],
-"shortdesc": "Webscale SQL-on-Hadoop solution enabling transactional or operational workloads on Apache Hadoop."
 },
 "turbine": {
 "bug-database": "http://issues.apache.org/jira/browse/TRB",
