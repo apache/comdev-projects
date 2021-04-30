@@ -1010,6 +1010,8 @@
 "apache-flink-1.11.3": "2020-12-13",
 "apache-flink-1.12.2": "2021-02-26",
 "apache-flink-1.12.3": "2021-04-28",
+"apache-flink-1.13.0": "2021-04-23",
+"apache-flink-libraries-1.13.0": "2021-04-23",
 "apache-flink-statefun-2.1.0": "2020-07-03",
 "apache-flink-statefun-2.2.2": "2020-12-23",
 "apache-flink-statefun-3.0.0": "2021-03-30",
@@ -1017,6 +1019,7 @@
 "flink-1.11.3": "2020-12-13",
 "flink-1.12.2": "2021-02-26",
 "flink-1.12.3": "2021-04-28",
+"flink-1.13.0": "2021-04-23",
 "flink-shaded-12.0": "2020-09-29",
 "flink-shaded-13.0": "2021-03-31",
 "flink-statefun-2.1.0": "2020-07-03",
@@ -1261,11 +1264,7 @@
 "apache-dlab-2.4.0-incubating": "2020-09-28"
 },
 "incubator-doris": {
-"apache-doris-0.10.0-incubating": "2020-07-03",
-"apache-doris-0.11.0-incubating": "2020-07-03",
-"apache-doris-0.12.0-incubating": "2020-07-03",
-"apache-doris-0.13.0-incubating": "2020-10-26",
-"apache-doris-0.9.0-incubating": "2020-07-03"
+"apache-doris-0.13.0-incubating": "2020-10-26"
 },
 "incubator-flagon": {
 "apache-flagon-useralejs-incubating-1.0.0": "2020-07-03",
@@ -1377,11 +1376,7 @@
 "apache-teaclave-0.2.0-incubating": "2021-03-02"
 },
 "incubator-toree": {
-"PKG-INFO": "2020-07-03",
-"apache-toree-0.1.0": "2020-07-03",
-"apache-toree-0.1.0-incubating": "2020-07-03",
-"toree-0.2.0": "2020-07-03",
-"toree-0.3.0": "2020-07-03",
+"PKG-INFO": "2020-07-16",
 "toree-0.4.0": "2020-07-16"
 },
 "incubator-training": {
@@ -2666,6 +2661,7 @@
 "apache-opennlp-1.9.3": "2020-08-02"
 },
 "openoffice": {
+"apache-openoffice-4.1.10-b1cdbd2c1b": "2021-04-20",
 "apache-openoffice-4.1.9-561082130a": "2021-01-10"
 },
 "openwebbeans": {
@@ -3455,6 +3451,17 @@
 "sling-slingstart-archetype-1.0.8": "2020-07-03",
 "slingfeature-maven-plugin-1.5.0": "2021-04-02",
 "slingstart-maven-plugin-1.9.12": "2020-07-03"
+},
+"solr": {
+"all.yaml": "2021-04-23",
+"index.yaml": "2021-04-23",
+"solr-operator-0.3.0": "2021-04-23",
+"solr-operator-0.3.0.tgz.prov": "2021-04-23",
+"solr-operator-v0.3.0": "2021-04-23",
+"solrbackups.yaml": "2021-04-23",
+"solrclouds.yaml": "2021-04-23",
+"solrprometheusexporters.yaml": "2021-04-23",
+"zookeeperclusters.yaml": "2021-04-23"
 },
 "spamassassin": {
 "Mail-SpamAssassin-3.3.2": "2020-07-06",

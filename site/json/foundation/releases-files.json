@@ -3237,6 +3237,12 @@
 "apache-flink-1.12.3": [
 "flink/flink-1.12.3/python/apache-flink-1.12.3.tar.gz"
 ],
+"apache-flink-1.13.0": [
+"flink/flink-1.13.0/python/apache-flink-1.13.0.tar.gz"
+],
+"apache-flink-libraries-1.13.0": [
+"flink/flink-1.13.0/python/apache-flink-libraries-1.13.0.tar.gz"
+],
 "apache-flink-statefun-2.1.0": [
 "flink/flink-statefun-2.1.0/apache-flink-statefun-2.1.0.tar.gz"
 ],
@@ -3257,6 +3263,9 @@
 ],
 "flink-1.12.3": [
 "flink/flink-1.12.3/flink-1.12.3-src.tgz"
+],
+"flink-1.13.0": [
+"flink/flink-1.13.0/flink-1.13.0-src.tgz"
 ],
 "flink-shaded-12.0": [
 "flink/flink-shaded-12.0/flink-shaded-12.0-src.tgz"
@@ -3974,20 +3983,8 @@
 ]
 },
 "incubator-doris": {
-"apache-doris-0.10.0-incubating": [
-"incubator/doris/0.10.0-incubating/apache-doris-0.10.0-incubating-src.tar.gz"
-],
-"apache-doris-0.11.0-incubating": [
-"incubator/doris/0.11.0-incubating/apache-doris-0.11.0-incubating-src.tar.gz"
-],
-"apache-doris-0.12.0-incubating": [
-"incubator/doris/0.12.0-incubating/apache-doris-0.12.0-incubating-src.tar.gz"
-],
 "apache-doris-0.13.0-incubating": [
 "incubator/doris/0.13.0-incubating/apache-doris-0.13.0-incubating-src.tar.gz"
-],
-"apache-doris-0.9.0-incubating": [
-"incubator/doris/0.9.0-incubating/apache-doris-0.9.0-incubating-src.tar.gz"
 ]
 },
 "incubator-flagon": {
@@ -4244,22 +4241,7 @@
 },
 "incubator-toree": {
 "PKG-INFO": [
-"incubator/toree/0.1.0-incubating/toree-pip/apache_toree.egg-info/PKG-INFO",
-"incubator/toree/0.2.0-incubating/toree-pip/toree.egg-info/PKG-INFO",
-"incubator/toree/0.3.0-incubating/toree-pip/toree.egg-info/PKG-INFO",
 "incubator/toree/0.4.0-incubating/toree-pip/toree.egg-info/PKG-INFO"
-],
-"apache-toree-0.1.0": [
-"incubator/toree/0.1.0-incubating/toree-pip/apache-toree-0.1.0.tar.gz"
-],
-"apache-toree-0.1.0-incubating": [
-"incubator/toree/0.1.0-incubating/toree-src/apache-toree-0.1.0-incubating-source-release.tar.gz"
-],
-"toree-0.2.0": [
-"incubator/toree/0.2.0-incubating/toree-pip/toree-0.2.0.tar.gz"
-],
-"toree-0.3.0": [
-"incubator/toree/0.3.0-incubating/toree-pip/toree-0.3.0.tar.gz"
 ],
 "toree-0.4.0": [
 "incubator/toree/0.4.0-incubating/toree-pip/toree-0.4.0.tar.gz"
@@ -8916,6 +8898,11 @@
 ]
 },
 "openoffice": {
+"apache-openoffice-4.1.10-b1cdbd2c1b": [
+"openoffice/4.1.10/source/apache-openoffice-4.1.10-b1cdbd2c1b-src.tar.bz2",
+"openoffice/4.1.10/source/apache-openoffice-4.1.10-b1cdbd2c1b-src.tar.gz",
+"openoffice/4.1.10/source/apache-openoffice-4.1.10-b1cdbd2c1b-src.zip"
+],
 "apache-openoffice-4.1.9-561082130a": [
 "openoffice/4.1.9/source/apache-openoffice-4.1.9-561082130a-src.tar.bz2",
 "openoffice/4.1.9/source/apache-openoffice-4.1.9-561082130a-src.tar.gz",
@@ -11238,6 +11225,35 @@
 ],
 "slingstart-maven-plugin-1.9.12": [
 "sling/slingstart-maven-plugin-1.9.12-source-release.zip"
+]
+},
+"solr": {
+"all.yaml": [
+"solr/solr-operator/v0.3.0/crds/all.yaml"
+],
+"index.yaml": [
+"solr/solr-operator/v0.3.0/helm-charts/index.yaml"
+],
+"solr-operator-0.3.0": [
+"solr/solr-operator/v0.3.0/helm-charts/solr-operator-0.3.0.tgz"
+],
+"solr-operator-0.3.0.tgz.prov": [
+"solr/solr-operator/v0.3.0/helm-charts/solr-operator-0.3.0.tgz.prov"
+],
+"solr-operator-v0.3.0": [
+"solr/solr-operator/v0.3.0/solr-operator-v0.3.0.tgz"
+],
+"solrbackups.yaml": [
+"solr/solr-operator/v0.3.0/crds/solrbackups.yaml"
+],
+"solrclouds.yaml": [
+"solr/solr-operator/v0.3.0/crds/solrclouds.yaml"
+],
+"solrprometheusexporters.yaml": [
+"solr/solr-operator/v0.3.0/crds/solrprometheusexporters.yaml"
+],
+"zookeeperclusters.yaml": [
+"solr/solr-operator/v0.3.0/crds/zookeeperclusters.yaml"
 ]
 },
 "spamassassin": {
