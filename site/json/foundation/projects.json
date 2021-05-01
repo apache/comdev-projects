@@ -15380,12 +15380,12 @@
 "wiki": "https://cwiki.apache.org/confluence/display/SOLR/"
 },
 "solr-operator": {
-"bug-database": "https://github.com/apache/lucene-solr-operator/issues",
+"bug-database": "https://github.com/apache/solr-operator/issues",
 "category": "cloud, search, go",
 "created": "2021-01-14",
 "doap": "https://solr.apache.org/doap/solr-operator.rdf",
-"download-page": "https://github.com/apache/lucene-solr-operator/releases",
-"homepage": "https://github.com/apache/lucene-solr-operator",
+"download-page": "https://solr.apache.org/operator/downloads.html",
+"homepage": "https://solr.apache.org/operator",
 "license": "https://spdx.org/licenses/Apache-2.0",
 "mailing-list": "https://solr.apache.org/community.html#mailing-lists-chat",
 "maintainer": [
@@ -15397,8 +15397,15 @@
 "name": "Apache Solr Operator",
 "pmc": "solr",
 "programming-language": "Go",
+"release": [
+{
+"created": "2021-04-29",
+"name": "solr-operator-v0.3.0",
+"revision": "v0.3.0"
+}
+],
 "repository": [
-"https://gitbox.apache.org/repos/asf/lucene-solr-operator.git"
+"https://gitbox.apache.org/repos/asf/solr-operator.git"
 ],
 "shortdesc": "Manages Solr resources in Kubernetes"
 },
