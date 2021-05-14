@@ -568,8 +568,8 @@
 "apache-apisix-dashboard-2.6": [
 "apisix/dashboard/2.6/apache-apisix-dashboard-2.6-src.tgz"
 ],
-"apache-apisix-ingress-controller-0.5.0": [
-"apisix/ingress-controller/0.5.0/apache-apisix-ingress-controller-0.5.0-src.tgz"
+"apache-apisix-ingress-controller-0.6.0": [
+"apisix/ingress-controller/0.6.0/apache-apisix-ingress-controller-0.6.0-src.tgz"
 ]
 },
 "apr": {
@@ -9041,6 +9041,7 @@
 "phoenix/phoenix-5.1.1/RELEASENOTES.md",
 "phoenix/phoenix-omid-1.0.2/RELEASENOTES.md",
 "phoenix/phoenix-tephra-0.16.0/RELEASENOTES.md",
+"phoenix/phoenix-tephra-0.16.1/RELEASENOTES.md",
 "phoenix/phoenix-thirdparty-1.0.0/RELEASENOTES.md",
 "phoenix/phoenix-thirdparty-1.1.0/RELEASENOTES.md"
 ],
@@ -9076,6 +9077,9 @@
 ],
 "phoenix-tephra-0.16.0": [
 "phoenix/phoenix-tephra-0.16.0/phoenix-tephra-0.16.0-src.tar.gz"
+],
+"phoenix-tephra-0.16.1": [
+"phoenix/phoenix-tephra-0.16.1/phoenix-tephra-0.16.1-src.tar.gz"
 ],
 "phoenix-thirdparty-1.0.0": [
 "phoenix/phoenix-thirdparty-1.0.0/phoenix-thirdparty-1.0.0-src.tar.gz"
@@ -9293,20 +9297,8 @@
 "pulsar/pulsar-2.7.1/DEB/apache-pulsar-client-dev.deb",
 "pulsar/pulsar-2.7.2/DEB/apache-pulsar-client-dev.deb"
 ],
-"apache-pulsar-client-go-0.1.0": [
-"pulsar/pulsar-client-go-0.1.0/apache-pulsar-client-go-0.1.0-src.tar.gz"
-],
-"apache-pulsar-client-go-0.1.1": [
-"pulsar/pulsar-client-go-0.1.1/apache-pulsar-client-go-0.1.1-src.tar.gz"
-],
-"apache-pulsar-client-go-0.2.0": [
-"pulsar/pulsar-client-go-0.2.0/apache-pulsar-client-go-0.2.0-src.tar.gz"
-],
-"apache-pulsar-client-go-0.3.0": [
-"pulsar/pulsar-client-go-0.3.0/apache-pulsar-client-go-0.3.0-src.tar.gz"
-],
-"apache-pulsar-client-go-0.4.0": [
-"pulsar/pulsar-client-go-0.4.0/apache-pulsar-client-go-0.4.0-src.tar.gz"
+"apache-pulsar-client-go-0.5.0": [
+"pulsar/pulsar-client-go-0.5.0/apache-pulsar-client-go-0.5.0-src.tar.gz"
 ],
 "apache-pulsar-cpp-client-2.7.1-deb": [
 "pulsar/pulsar-2.7.1/DEB/apache-pulsar-cpp-client-2.7.1-deb.tar.gz"
@@ -11759,19 +11751,6 @@
 ]
 },
 "tomcat": {
-"apache-tomcat-10.0.5": [
-"tomcat/tomcat-10/v10.0.5/bin/embed/apache-tomcat-10.0.5-embed.tar.gz",
-"tomcat/tomcat-10/v10.0.5/bin/embed/apache-tomcat-10.0.5-embed.zip",
-"tomcat/tomcat-10/v10.0.5/bin/apache-tomcat-10.0.5-deployer.tar.gz",
-"tomcat/tomcat-10/v10.0.5/bin/apache-tomcat-10.0.5-deployer.zip",
-"tomcat/tomcat-10/v10.0.5/bin/apache-tomcat-10.0.5-fulldocs.tar.gz",
-"tomcat/tomcat-10/v10.0.5/bin/apache-tomcat-10.0.5-windows-x64.zip",
-"tomcat/tomcat-10/v10.0.5/bin/apache-tomcat-10.0.5.exe",
-"tomcat/tomcat-10/v10.0.5/bin/apache-tomcat-10.0.5.tar.gz",
-"tomcat/tomcat-10/v10.0.5/bin/apache-tomcat-10.0.5.zip",
-"tomcat/tomcat-10/v10.0.5/src/apache-tomcat-10.0.5-src.tar.gz",
-"tomcat/tomcat-10/v10.0.5/src/apache-tomcat-10.0.5-src.zip"
-],
 "apache-tomcat-10.0.6": [
 "tomcat/tomcat-10/v10.0.6/bin/embed/apache-tomcat-10.0.6-embed.tar.gz",
 "tomcat/tomcat-10/v10.0.6/bin/embed/apache-tomcat-10.0.6-embed.zip",
@@ -11798,19 +11777,6 @@
 "tomcat/tomcat-7/v7.0.109/src/apache-tomcat-7.0.109-src.tar.gz",
 "tomcat/tomcat-7/v7.0.109/src/apache-tomcat-7.0.109-src.zip"
 ],
-"apache-tomcat-8.5.65": [
-"tomcat/tomcat-8/v8.5.65/bin/embed/apache-tomcat-8.5.65-embed.tar.gz",
-"tomcat/tomcat-8/v8.5.65/bin/embed/apache-tomcat-8.5.65-embed.zip",
-"tomcat/tomcat-8/v8.5.65/bin/apache-tomcat-8.5.65-deployer.tar.gz",
-"tomcat/tomcat-8/v8.5.65/bin/apache-tomcat-8.5.65-deployer.zip",
-"tomcat/tomcat-8/v8.5.65/bin/apache-tomcat-8.5.65-fulldocs.tar.gz",
-"tomcat/tomcat-8/v8.5.65/bin/apache-tomcat-8.5.65-windows-x64.zip",
-"tomcat/tomcat-8/v8.5.65/bin/apache-tomcat-8.5.65.exe",
-"tomcat/tomcat-8/v8.5.65/bin/apache-tomcat-8.5.65.tar.gz",
-"tomcat/tomcat-8/v8.5.65/bin/apache-tomcat-8.5.65.zip",
-"tomcat/tomcat-8/v8.5.65/src/apache-tomcat-8.5.65-src.tar.gz",
-"tomcat/tomcat-8/v8.5.65/src/apache-tomcat-8.5.65-src.zip"
-],
 "apache-tomcat-8.5.66": [
 "tomcat/tomcat-8/v8.5.66/bin/embed/apache-tomcat-8.5.66-embed.tar.gz",
 "tomcat/tomcat-8/v8.5.66/bin/embed/apache-tomcat-8.5.66-embed.zip",
@@ -11823,19 +11789,6 @@
 "tomcat/tomcat-8/v8.5.66/bin/apache-tomcat-8.5.66.zip",
 "tomcat/tomcat-8/v8.5.66/src/apache-tomcat-8.5.66-src.tar.gz",
 "tomcat/tomcat-8/v8.5.66/src/apache-tomcat-8.5.66-src.zip"
-],
-"apache-tomcat-9.0.45": [
-"tomcat/tomcat-9/v9.0.45/bin/embed/apache-tomcat-9.0.45-embed.tar.gz",
-"tomcat/tomcat-9/v9.0.45/bin/embed/apache-tomcat-9.0.45-embed.zip",
-"tomcat/tomcat-9/v9.0.45/bin/apache-tomcat-9.0.45-deployer.tar.gz",
-"tomcat/tomcat-9/v9.0.45/bin/apache-tomcat-9.0.45-deployer.zip",
-"tomcat/tomcat-9/v9.0.45/bin/apache-tomcat-9.0.45-fulldocs.tar.gz",
-"tomcat/tomcat-9/v9.0.45/bin/apache-tomcat-9.0.45-windows-x64.zip",
-"tomcat/tomcat-9/v9.0.45/bin/apache-tomcat-9.0.45.exe",
-"tomcat/tomcat-9/v9.0.45/bin/apache-tomcat-9.0.45.tar.gz",
-"tomcat/tomcat-9/v9.0.45/bin/apache-tomcat-9.0.45.zip",
-"tomcat/tomcat-9/v9.0.45/src/apache-tomcat-9.0.45-src.tar.gz",
-"tomcat/tomcat-9/v9.0.45/src/apache-tomcat-9.0.45-src.zip"
 ],
 "apache-tomcat-9.0.46": [
 "tomcat/tomcat-9/v9.0.46/bin/embed/apache-tomcat-9.0.46-embed.tar.gz",
