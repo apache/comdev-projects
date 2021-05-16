@@ -4514,13 +4514,13 @@
 "karaf/4.2.11/apache-karaf-minimal-4.2.11.tar.gz",
 "karaf/4.2.11/apache-karaf-minimal-4.2.11.zip"
 ],
-"apache-karaf-4.3.1": [
-"karaf/4.3.1/apache-karaf-4.3.1-src.tar.gz",
-"karaf/4.3.1/apache-karaf-4.3.1-src.zip",
-"karaf/4.3.1/apache-karaf-4.3.1.tar.gz",
-"karaf/4.3.1/apache-karaf-4.3.1.zip",
-"karaf/4.3.1/apache-karaf-minimal-4.3.1.tar.gz",
-"karaf/4.3.1/apache-karaf-minimal-4.3.1.zip"
+"apache-karaf-4.3.2": [
+"karaf/4.3.2/apache-karaf-4.3.2-src.tar.gz",
+"karaf/4.3.2/apache-karaf-4.3.2-src.zip",
+"karaf/4.3.2/apache-karaf-4.3.2.tar.gz",
+"karaf/4.3.2/apache-karaf-4.3.2.zip",
+"karaf/4.3.2/apache-karaf-minimal-4.3.2.tar.gz",
+"karaf/4.3.2/apache-karaf-minimal-4.3.2.zip"
 ],
 "apache-karaf-cave-3.0.0": [
 "karaf/cave/3.0.0/apache-karaf-cave-3.0.0-src.tar.gz",
@@ -4557,9 +4557,6 @@
 "apache-karaf-decanter-2.7.0": [
 "karaf/decanter/2.7.0/apache-karaf-decanter-2.7.0-src.tar.gz",
 "karaf/decanter/2.7.0/apache-karaf-decanter-2.7.0-src.zip"
-],
-"apache-karaf-latest": [
-"karaf/apache-karaf-latest.tar.gz"
 ],
 "winegrower-1.0.1": [
 "karaf/winegrower/1.0.1/winegrower-1.0.1-source-release.zip"
@@ -11893,20 +11890,37 @@
 "tomee/tomee-8.0.6/apache-tomee-8.0.6-webprofile.tar.gz",
 "tomee/tomee-8.0.6/apache-tomee-8.0.6-webprofile.zip"
 ],
-"apache-tomee-9.0.0-M3": [
-"tomee/tomee-9.0.0-M3/apache-tomee-9.0.0-M3-source-release.zip"
+"apache-tomee-8.0.7-microprofile": [
+"tomee/tomee-8.0.7/apache-tomee-8.0.7-microprofile.tar.gz",
+"tomee/tomee-8.0.7/apache-tomee-8.0.7-microprofile.zip"
 ],
-"apache-tomee-9.0.0-M3-microprofile": [
-"tomee/tomee-9.0.0-M3/apache-tomee-9.0.0-M3-microprofile.zip"
+"apache-tomee-8.0.7-plume": [
+"tomee/tomee-8.0.7/apache-tomee-8.0.7-plume.tar.gz",
+"tomee/tomee-8.0.7/apache-tomee-8.0.7-plume.zip"
 ],
-"apache-tomee-9.0.0-M3-plume": [
-"tomee/tomee-9.0.0-M3/apache-tomee-9.0.0-M3-plume.zip"
+"apache-tomee-8.0.7-plus": [
+"tomee/tomee-8.0.7/apache-tomee-8.0.7-plus.tar.gz",
+"tomee/tomee-8.0.7/apache-tomee-8.0.7-plus.zip"
 ],
-"apache-tomee-9.0.0-M3-plus": [
-"tomee/tomee-9.0.0-M3/apache-tomee-9.0.0-M3-plus.zip"
+"apache-tomee-8.0.7-webprofile": [
+"tomee/tomee-8.0.7/apache-tomee-8.0.7-webprofile.tar.gz",
+"tomee/tomee-8.0.7/apache-tomee-8.0.7-webprofile.zip"
 ],
-"apache-tomee-9.0.0-M3-webprofile": [
-"tomee/tomee-9.0.0-M3/apache-tomee-9.0.0-M3-webprofile.zip"
+"apache-tomee-9.0.0-M7-microprofile": [
+"tomee/tomee-9.0.0-M7/apache-tomee-9.0.0-M7-microprofile.tar.gz",
+"tomee/tomee-9.0.0-M7/apache-tomee-9.0.0-M7-microprofile.zip"
+],
+"apache-tomee-9.0.0-M7-plume": [
+"tomee/tomee-9.0.0-M7/apache-tomee-9.0.0-M7-plume.tar.gz",
+"tomee/tomee-9.0.0-M7/apache-tomee-9.0.0-M7-plume.zip"
+],
+"apache-tomee-9.0.0-M7-plus": [
+"tomee/tomee-9.0.0-M7/apache-tomee-9.0.0-M7-plus.tar.gz",
+"tomee/tomee-9.0.0-M7/apache-tomee-9.0.0-M7-plus.zip"
+],
+"apache-tomee-9.0.0-M7-webprofile": [
+"tomee/tomee-9.0.0-M7/apache-tomee-9.0.0-M7-webprofile.tar.gz",
+"tomee/tomee-9.0.0-M7/apache-tomee-9.0.0-M7-webprofile.zip"
 ],
 "arquillian-tomee-moviefun-example-1.7.5": [
 "tomee/tomee-1.7.5/arquillian-tomee-moviefun-example-1.7.5.war"
@@ -11966,6 +11980,12 @@
 "tomee-8.0.6": [
 "tomee/tomee-8.0.6/tomee-project-8.0.6-source-release.zip",
 "tomee/tomee-8.0.6/tomee-webapp-8.0.6.war"
+],
+"tomee-8.0.7": [
+"tomee/tomee-8.0.7/tomee-project-8.0.7-source-release.zip"
+],
+"tomee-9.0.0-M7": [
+"tomee/tomee-9.0.0-M7/tomee-project-9.0.0-M7-source-release.zip"
 ],
 "tomee-jaxrs-1.7.5": [
 "tomee/tomee-1.7.5/tomee-jaxrs-webapp-1.7.5.war"
