@@ -356,6 +356,7 @@
 "bookkeeper-4.11.1": "2020-10-06",
 "bookkeeper-4.12.1": "2020-12-28",
 "bookkeeper-4.13.0": "2021-02-18",
+"bookkeeper-4.14.0": "2021-05-10",
 "distributedlog-0.5.0": "2020-07-03"
 },
 "brooklyn": {
@@ -392,8 +393,8 @@
 "calcite": {
 "apache-calcite-1.25.0": "2020-08-22",
 "apache-calcite-1.26.0": "2020-10-06",
-"apache-calcite-avatica-1.16.0": "2020-07-03",
 "apache-calcite-avatica-1.17.0": "2020-07-03",
+"apache-calcite-avatica-1.18.0": "2021-05-18",
 "apache-calcite-avatica-go-4.0.0": "2020-07-03",
 "apache-calcite-avatica-go-5.0.0": "2020-07-14"
 },
@@ -793,7 +794,9 @@
 },
 "daffodil": {
 "apache-daffodil-3.0.0-incubating": "2021-02-19",
-"apache-daffodil-3.0.0.incubating-1.noarch": "2021-02-19"
+"apache-daffodil-3.0.0.incubating-1.noarch": "2021-02-19",
+"apache-daffodil-3.1.0": "2021-05-14",
+"apache-daffodil-3.1.0-1.noarch": "2021-05-14"
 },
 "datafu": {
 "apache-datafu-sources-1.5.0": "2020-07-06",
@@ -1135,7 +1138,8 @@
 "hadoop-ozone-0.5.0-beta": "2020-07-03",
 "hadoop-ozone-1.0.0": "2020-09-02",
 "hadoop-submarine-0.2.0": "2020-07-03",
-"hadoop-thirdparty-1.0.0": "2020-07-03"
+"hadoop-thirdparty-1.0.0": "2020-07-03",
+"hadoop-thirdparty-1.1.0": "2021-05-18"
 },
 "hawq": {
 "apache-hawq-2.4.0.0": "2020-07-06",
@@ -1282,7 +1286,8 @@
 "joshua-incubating-6.1": "2020-07-03"
 },
 "incubator-liminal": {
-"apache-liminal-0.0.1-INCUBATING": "2021-03-22"
+"apache-liminal-0.0.1-INCUBATING": "2021-03-22",
+"apache-liminal-0.0.2-INCUBATING": "2021-05-18"
 },
 "incubator-livy": {
 "apache-livy-0.6.0-incubating": "2020-07-03",
@@ -3663,10 +3668,6 @@
 "apache-tomee-8.0.6-plume": "2021-01-14",
 "apache-tomee-8.0.6-plus": "2021-01-14",
 "apache-tomee-8.0.6-webprofile": "2021-01-14",
-"apache-tomee-8.0.7-microprofile": "2021-05-15",
-"apache-tomee-8.0.7-plume": "2021-05-15",
-"apache-tomee-8.0.7-plus": "2021-05-15",
-"apache-tomee-8.0.7-webprofile": "2021-05-15",
 "apache-tomee-9.0.0-M7-microprofile": "2021-05-15",
 "apache-tomee-9.0.0-M7-plume": "2021-05-15",
 "apache-tomee-9.0.0-M7-plus": "2021-05-15",
@@ -3686,7 +3687,6 @@
 "tomee-7.0.9": "2020-08-05",
 "tomee-7.1.4": "2020-08-05",
 "tomee-8.0.6": "2021-01-14",
-"tomee-8.0.7": "2021-05-15",
 "tomee-9.0.0-M7": "2021-05-15",
 "tomee-jaxrs-1.7.5": "2020-07-03",
 "tomee-microprofile-7.1.4": "2020-08-05",
@@ -3760,6 +3760,7 @@
 "generate-sha512-checksums-for-files-with-sha1-checksum.sh": "2020-07-03",
 "ruta-2.8.1": "2020-07-03",
 "ruta-3.0.1": "2020-07-03",
+"ruta-3.1.0": "2021-05-18",
 "uima-addons-2.3.1": "2020-07-03",
 "uima-as-2.10.3": "2020-07-03",
 "uima-build-resources-6": "2021-02-17",
