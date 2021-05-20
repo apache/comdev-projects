@@ -95,6 +95,15 @@
 ]
 },
 "airflow": {
+"airflow-1.0.0": [
+"airflow/helm-chart/1.0.0/airflow-1.0.0.tgz"
+],
+"airflow-1.0.0.tgz.prov": [
+"airflow/helm-chart/1.0.0/airflow-1.0.0.tgz.prov"
+],
+"airflow-chart-1.0.0": [
+"airflow/helm-chart/1.0.0/airflow-chart-1.0.0-source.tar.gz"
+],
 "apache-airflow-1.10.15": [
 "airflow/1.10.15/apache-airflow-1.10.15-source.tar.gz"
 ],
@@ -2498,12 +2507,6 @@
 ]
 },
 "daffodil": {
-"apache-daffodil-3.0.0-incubating": [
-"daffodil/3.0.0/src/apache-daffodil-3.0.0-incubating-src.zip"
-],
-"apache-daffodil-3.0.0.incubating-1.noarch": [
-"daffodil/3.0.0/bin/apache-daffodil-3.0.0.incubating-1.noarch.rpm"
-],
 "apache-daffodil-3.1.0": [
 "daffodil/3.1.0/src/apache-daffodil-3.1.0-src.zip"
 ],
@@ -2846,9 +2849,9 @@
 "felix/org.apache.felix.eventadmin-1.6.2-source-release.tar.gz",
 "felix/org.apache.felix.eventadmin-1.6.2-source-release.zip"
 ],
-"org.apache.felix.fileinstall-3.6.8": [
-"felix/org.apache.felix.fileinstall-3.6.8-source-release.tar.gz",
-"felix/org.apache.felix.fileinstall-3.6.8-source-release.zip"
+"org.apache.felix.fileinstall-3.7.0": [
+"felix/org.apache.felix.fileinstall-3.7.0-source-release.tar.gz",
+"felix/org.apache.felix.fileinstall-3.7.0-source-release.zip"
 ],
 "org.apache.felix.framework-5.6.12": [
 "felix/org.apache.felix.framework-5.6.12-source-release.tar.gz",
