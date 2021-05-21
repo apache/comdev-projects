@@ -974,49 +974,17 @@
 "apache-beam-0f52187e344dad9bca4c183fe51151b733b24e35": [
 "beam/vendor/beam-vendor-calcite-1_26_0/0.1/apache-beam-0f52187e344dad9bca4c183fe51151b733b24e35-source-release.zip"
 ],
-"apache-beam-0fce2b88660f52dae638697e1472aa108c982ae6": [
-"beam/vendor/beam-vendor-bytebuddy-1_9_3/0.1/apache-beam-0fce2b88660f52dae638697e1472aa108c982ae6-source-release.zip",
-"beam/vendor/beam-vendor-grpc-1_21_0/0.1/apache-beam-0fce2b88660f52dae638697e1472aa108c982ae6-source-release.zip",
-"beam/vendor/beam-vendor-guava-26_0-jre/0.1/apache-beam-0fce2b88660f52dae638697e1472aa108c982ae6-source-release.zip"
-],
-"apache-beam-2.25.0": [
-"beam/2.25.0/python/apache-beam-2.25.0.zip",
-"beam/2.25.0/apache-beam-2.25.0-source-release.zip"
-],
-"apache-beam-2.26.0": [
-"beam/2.26.0/python/apache-beam-2.26.0.zip",
-"beam/2.26.0/apache-beam-2.26.0-source-release.zip"
-],
-"apache-beam-2.27.0": [
-"beam/2.27.0/python/apache-beam-2.27.0.zip",
-"beam/2.27.0/apache-beam-2.27.0-source-release.zip",
-"beam/latest/python/apache-beam-2.27.0.zip",
-"beam/latest/apache-beam-2.27.0-source-release.zip"
-],
-"apache-beam-2.28.0": [
-"beam/2.28.0/python/apache-beam-2.28.0.zip",
-"beam/2.28.0/apache-beam-2.28.0-source-release.zip"
-],
-"apache-beam-28d05d317a39b5d60a31988c69d1fb8a9c5006fc": [
-"beam/vendor/beam-vendor-grpc-1_26_0/0.3/apache-beam-28d05d317a39b5d60a31988c69d1fb8a9c5006fc-source-release.zip"
-],
-"apache-beam-63492776f154464f67533a6059f162e6b8cf7315": [
-"beam/vendor/beam-vendor-bytebuddy-1_10_8/apache-beam-63492776f154464f67533a6059f162e6b8cf7315-source-release.zip"
-],
-"apache-beam-664e25019fc1977e7041e4b834e8d9628b912473": [
-"beam/vendor/calcite/1_20_0/apache-beam-664e25019fc1977e7041e4b834e8d9628b912473-source-release.zip"
-],
-"apache-beam-91125d1d1fc1fe8c5684a486c9b6163c4ec41549": [
-"beam/vendor/beam-vendor-grpc-1_26_0/0.2/apache-beam-91125d1d1fc1fe8c5684a486c9b6163c4ec41549-source-release.zip"
+"apache-beam-2.29.0": [
+"beam/2.29.0/python/apache-beam-2.29.0.zip",
+"beam/2.29.0/apache-beam-2.29.0-source-release.zip",
+"beam/latest/python/apache-beam-2.29.0.zip",
+"beam/latest/apache-beam-2.29.0-source-release.zip"
 ],
 "apache-beam-c445ac198a3bc4e03d9d0833b6ccba4ed6ff43fd": [
 "beam/vendor/beam-vendor-grpc-1_36_0/0.1/apache-beam-c445ac198a3bc4e03d9d0833b6ccba4ed6ff43fd-source-release.zip"
 ],
-"apache-beam-e60d49bdf1ed85e8f3efa1da784227f381a9e085": [
-"beam/vendor/beam-vendor-grpc-1_26_0/0.1/apache-beam-e60d49bdf1ed85e8f3efa1da784227f381a9e085-source-release.zip"
-],
-"apache-beam-jupyterlab-sidepanel-v1.0.0": [
-"beam/extensions/jupyterlab-sidepanel/v1.0.0/apache-beam-jupyterlab-sidepanel-v1.0.0-source-release.zip"
+"apache-beam-d93c591deb21237ddb656583d74444ef7a4debba": [
+"beam/vendor/beam-vendor-bytebuddy-1_11_0/0.1/apache-beam-d93c591deb21237ddb656583d74444ef7a4debba-source-release.zip"
 ]
 },
 "bigtop": {
@@ -1180,6 +1148,9 @@
 "camel": {
 "apache-camel-2.25.3": [
 "camel/apache-camel/2.25.3/apache-camel-2.25.3-src.zip"
+],
+"apache-camel-3.10.0": [
+"camel/apache-camel/3.10.0/apache-camel-3.10.0-src.zip"
 ],
 "apache-camel-3.4.5": [
 "camel/apache-camel/3.4.5/apache-camel-3.4.5-src.zip"
@@ -3243,6 +3214,9 @@
 "apache-flink-1.12.3": [
 "flink/flink-1.12.3/python/apache-flink-1.12.3.tar.gz"
 ],
+"apache-flink-1.12.4": [
+"flink/flink-1.12.4/python/apache-flink-1.12.4.tar.gz"
+],
 "apache-flink-1.13.0": [
 "flink/flink-1.13.0/python/apache-flink-1.13.0.tar.gz"
 ],
@@ -3257,6 +3231,9 @@
 ],
 "flink-1.12.3": [
 "flink/flink-1.12.3/flink-1.12.3-src.tgz"
+],
+"flink-1.12.4": [
+"flink/flink-1.12.4/flink-1.12.4-src.tgz"
 ],
 "flink-1.13.0": [
 "flink/flink-1.13.0/flink-1.13.0-src.tgz"
@@ -8910,6 +8887,9 @@
 "openwhisk/20.11/openwhisk-runtime-swift-1.15.0-sources.tar.gz",
 "openwhisk/openwhisk-runtime-swift-1.15.0-sources.tar.gz"
 ],
+"openwhisk-runtime-swift-1.16.0": [
+"openwhisk/openwhisk-runtime-swift-1.16.0-sources.tar.gz"
+],
 "openwhisk-wskdebug-1.3.0": [
 "openwhisk/20.11/openwhisk-wskdebug-1.3.0-sources.tar.gz",
 "openwhisk/openwhisk-wskdebug-1.3.0-sources.tar.gz"
@@ -11254,9 +11234,6 @@
 ]
 },
 "spark": {
-"SparkR_2.4.7": [
-"spark/spark-2.4.7/SparkR_2.4.7.tar.gz"
-],
 "SparkR_2.4.8": [
 "spark/spark-2.4.8/SparkR_2.4.8.tar.gz"
 ],
@@ -11266,9 +11243,6 @@
 "SparkR_3.1.1": [
 "spark/spark-3.1.1/SparkR_3.1.1.tar.gz"
 ],
-"pyspark-2.4.7": [
-"spark/spark-2.4.7/pyspark-2.4.7.tar.gz"
-],
 "pyspark-2.4.8": [
 "spark/spark-2.4.8/pyspark-2.4.8.tar.gz"
 ],
@@ -11277,9 +11251,6 @@
 ],
 "pyspark-3.1.1": [
 "spark/spark-3.1.1/pyspark-3.1.1.tar.gz"
-],
-"spark-2.4.7": [
-"spark/spark-2.4.7/spark-2.4.7.tgz"
 ],
 "spark-2.4.8": [
 "spark/spark-2.4.8/spark-2.4.8.tgz"
