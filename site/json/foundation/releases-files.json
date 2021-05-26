@@ -1260,6 +1260,9 @@
 "camel-k-sources-1.4.0": [
 "camel/camel-k/1.4.0/camel-k-sources-1.4.0.tar.gz"
 ],
+"camel-kafka-connector-0.10.0": [
+"camel/camel-kafka-connector/0.10.0/camel-kafka-connector-0.10.0-src.zip"
+],
 "camel-kafka-connector-0.7.0": [
 "camel/camel-kafka-connector/0.7.0/camel-kafka-connector-0.7.0-src.zip"
 ],
@@ -2143,6 +2146,10 @@
 "commons/io/source/commons-io-2.8.0-src.tar.gz",
 "commons/io/source/commons-io-2.8.0-src.zip"
 ],
+"commons-io-2.9.0": [
+"commons/io/source/commons-io-2.9.0-src.tar.gz",
+"commons/io/source/commons-io-2.9.0-src.zip"
+],
 "commons-jci-1.1": [
 "commons/jci/source/commons-jci-1.1-src.tar.gz",
 "commons/jci/source/commons-jci-1.1-src.zip"
@@ -2586,6 +2593,10 @@
 "apache-ldap-api-2.0.1": [
 "directory/api/dist/2.0.1/apache-ldap-api-2.0.1-src.tar.gz",
 "directory/api/dist/2.0.1/apache-ldap-api-2.0.1-src.zip"
+],
+"apache-ldap-api-2.0.2": [
+"directory/api/dist/2.0.2/apache-ldap-api-2.0.2-src.tar.gz",
+"directory/api/dist/2.0.2/apache-ldap-api-2.0.2-src.zip"
 ],
 "apacheds-2.0.0.AM26": [
 "directory/apacheds/dist/2.0.0.AM26/apacheds-2.0.0.AM26-i386.deb",
@@ -3146,6 +3157,9 @@
 ],
 "apache-fineract-1.4.0": [
 "fineract/1.4.0/apache-fineract-1.4.0-src.tar.gz"
+],
+"apache-fineract-1.5.0": [
+"fineract/1.5.0/apache-fineract-1.5.0-src.tar.gz"
 ]
 },
 "flex": {
@@ -3844,6 +3858,10 @@
 "httpd/httpd-2.4.46.tar.bz2",
 "httpd/httpd-2.4.46.tar.gz"
 ],
+"httpd-2.4.48": [
+"httpd/httpd-2.4.48.tar.bz2",
+"httpd/httpd-2.4.48.tar.gz"
+],
 "libapreq-1.34": [
 "httpd/libapreq/libapreq-1.34.tar.gz"
 ],
@@ -4170,6 +4188,9 @@
 "incubator-sedona": {
 "apache-sedona-1.0.0-incubating": [
 "incubator/sedona/1.0.0-incubating/apache-sedona-1.0.0-incubating-src.tar.gz"
+],
+"apache-sedona-1.0.1-incubating": [
+"incubator/sedona/1.0.1-incubating/apache-sedona-1.0.1-incubating-src.tar.gz"
 ]
 },
 "incubator-spot": {
@@ -4272,6 +4293,9 @@
 ],
 "jackrabbit-filevault-3.4.10": [
 "jackrabbit/filevault/3.4.10/jackrabbit-filevault-3.4.10-src.zip"
+],
+"jackrabbit-filevault-3.5.0": [
+"jackrabbit/filevault/3.5.0/jackrabbit-filevault-3.5.0-src.zip"
 ],
 "jackrabbit-jca-2.14.9": [
 "jackrabbit/2.14.9/jackrabbit-jca-2.14.9.rar"
@@ -11119,11 +11143,11 @@
 "org.apache.sling.adapter.annotations-2.0.0": [
 "sling/org.apache.sling.adapter.annotations-2.0.0-source-release.zip"
 ],
-"org.apache.sling.api-2.23.4": [
-"sling/org.apache.sling.api-2.23.4-source-release.zip"
+"org.apache.sling.api-2.23.6": [
+"sling/org.apache.sling.api-2.23.6-source-release.zip"
 ],
-"org.apache.sling.auth.core-1.5.2": [
-"sling/org.apache.sling.auth.core-1.5.2-source-release.zip"
+"org.apache.sling.auth.core-1.5.4": [
+"sling/org.apache.sling.auth.core-1.5.4-source-release.zip"
 ],
 "org.apache.sling.auth.form-1.0.20": [
 "sling/org.apache.sling.auth.form-1.0.20-source-release.zip"
@@ -11509,8 +11533,8 @@
 "org.apache.sling.fsresource-2.1.16": [
 "sling/org.apache.sling.fsresource-2.1.16-source-release.zip"
 ],
-"org.apache.sling.graphql.core-0.0.8": [
-"sling/org.apache.sling.graphql.core-0.0.8-source-release.zip"
+"org.apache.sling.graphql.core-0.0.10": [
+"sling/org.apache.sling.graphql.core-0.0.10-source-release.zip"
 ],
 "org.apache.sling.hapi-1.1.0": [
 "sling/org.apache.sling.hapi-1.1.0-source-release.zip"
@@ -11885,6 +11909,9 @@
 "org.apache.sling.scripting.javascript-3.1.4": [
 "sling/org.apache.sling.scripting.javascript-3.1.4-source-release.zip"
 ],
+"org.apache.sling.scripting.jsp-2.5.2": [
+"sling/org.apache.sling.scripting.jsp-2.5.2-source-release.zip"
+],
 "org.apache.sling.scripting.jsp-api-1.0.2": [
 "sling/org.apache.sling.scripting.jsp-api-1.0.2-source-release.zip"
 ],
@@ -12051,8 +12078,8 @@
 "org.apache.sling.validation.test-services-1.0.4": [
 "sling/org.apache.sling.validation.test-services-1.0.4-source-release.zip"
 ],
-"org.apache.sling.xss-2.2.12": [
-"sling/org.apache.sling.xss-2.2.12-source-release.zip"
+"org.apache.sling.xss-2.2.14": [
+"sling/org.apache.sling.xss-2.2.14-source-release.zip"
 ],
 "org.apache.sling.xss.compat-1.1.0": [
 "sling/org.apache.sling.xss.compat-1.1.0-source-release.zip"
@@ -12669,6 +12696,9 @@
 "tika": {
 "tika-1.26": [
 "tika/tika-1.26-src.zip"
+],
+"tika-2.0.0-BETA": [
+"tika/tika-2.0.0-BETA-src.zip"
 ]
 },
 "tinkerpop": {
@@ -13265,8 +13295,8 @@
 "wss4j-2.2.6": [
 "ws/wss4j/2.2.6/wss4j-2.2.6-source-release.zip"
 ],
-"wss4j-2.3.1": [
-"ws/wss4j/2.3.1/wss4j-2.3.1-source-release.zip"
+"wss4j-2.3.2": [
+"ws/wss4j/2.3.2/wss4j-2.3.2-source-release.zip"
 ],
 "xmlschema-2.2.5": [
 "ws/xmlschema/2.2.5/xmlschema-2.2.5-source-release.zip"

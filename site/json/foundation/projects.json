@@ -15969,6 +15969,11 @@
 "programming-language": "Java",
 "release": [
 {
+"created": "2020-05-25",
+"name": "Apache Tika 2.0.0-BETA",
+"revision": "2.0.0-BETA"
+},
+{
 "created": "2020-03-29",
 "name": "Apache Tika 1.26",
 "revision": "1.26"
@@ -16289,6 +16294,42 @@
 ],
 "shortdesc": "Apache TomEE is an all-Apache Java EE 6 Web Profile stack for Apache Tomcat",
 "vendor": "The Apache Software Foundation"
+},
+"trafficcontrol-traffic_control": {
+"bug-database": "https://github.com/apache/trafficcontrol/issues",
+"category": "content, cloud, http, network-server",
+"created": "2021-05-19",
+"description": "With Apache Traffic Control, operators can setup a Content Delivery Network to quickly and efficiently deliver content to their users. Traffic Control is a highly distributed, scalable and redundant solution meeting the needs of operators from small to large.",
+"doap": "https://raw.githubusercontent.com/apache/trafficcontrol/master/doap_Traffic_Control.rdf",
+"download-page": "https://trafficcontrol.apache.org/releases/, https://github.com/apache/trafficcontrol/releases",
+"homepage": "https://trafficcontrol.apache.org",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://trafficcontrol.apache.org/mailing_lists/",
+"maintainer": [
+{
+"mbox": "mailto:dev@trafficcontrol.apache.org",
+"name": "Apache Traffic Control Team"
+}
+],
+"name": "Apache Traffic Control",
+"pmc": "trafficcontrol",
+"programming-language": "Go",
+"release": [
+{
+"created": "2021-05-17",
+"name": "Apache Traffic Control v5.1.2",
+"revision": "5.1.2"
+},
+{
+"created": "2020-12-04",
+"name": "Apache Traffic Control v4.1.1",
+"revision": "4.1.1"
+}
+],
+"repository": [
+"https://github.com/apache/trafficcontrol.git"
+],
+"shortdesc": "Apache Traffic Control allows you to build a large scale content delivery network using open source."
 },
 "trafficserver-traffic_server": {
 "bug-database": "https://github.com/apache/trafficserver/issues",
