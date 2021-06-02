@@ -832,6 +832,9 @@
 ],
 "apache-arrow-rs-4.1.0": [
 "arrow/arrow-4.1.0/apache-arrow-rs-4.1.0.tar.gz"
+],
+"apache-arrow-rs-4.2.0": [
+"arrow/arrow-rs-4.2.0/apache-arrow-rs-4.2.0.tar.gz"
 ]
 },
 "asterixdb": {
@@ -2220,6 +2223,10 @@
 "commons/pool/source/commons-pool-1.6-src.tar.gz",
 "commons/pool/source/commons-pool-1.6-src.zip"
 ],
+"commons-pool2-2.10.0": [
+"commons/pool/source/commons-pool2-2.10.0-src.tar.gz",
+"commons/pool/source/commons-pool2-2.10.0-src.zip"
+],
 "commons-pool2-2.4.3": [
 "commons/pool/source/commons-pool2-2.4.3-src.tar.gz",
 "commons/pool/source/commons-pool2-2.4.3-src.zip"
@@ -2227,10 +2234,6 @@
 "commons-pool2-2.6.2": [
 "commons/pool/source/commons-pool2-2.6.2-src.tar.gz",
 "commons/pool/source/commons-pool2-2.6.2-src.zip"
-],
-"commons-pool2-2.9.0": [
-"commons/pool/source/commons-pool2-2.9.0-src.tar.gz",
-"commons/pool/source/commons-pool2-2.9.0-src.zip"
 ],
 "commons-proxy-1.0": [
 "commons/proxy/source/commons-proxy-1.0-src.tar.gz",
@@ -3561,7 +3564,8 @@
 "hadoop/core/hadoop-3.2.2/RELEASENOTES.md",
 "hadoop/core/hadoop-3.3.0/RELEASENOTES.md",
 "hadoop/thirdparty/thirdparty-1.0.0/RELEASENOTES.md",
-"hadoop/thirdparty/thirdparty-1.1.0/RELEASENOTES.md"
+"hadoop/thirdparty/thirdparty-1.1.0/RELEASENOTES.md",
+"hadoop/thirdparty/thirdparty-1.1.1/RELEASENOTES.md"
 ],
 "hadoop-2.10.1": [
 "hadoop/common/current2/hadoop-2.10.1-site.tar.gz",
@@ -3646,6 +3650,10 @@
 "hadoop-thirdparty-1.1.0": [
 "hadoop/thirdparty/thirdparty-1.1.0/hadoop-thirdparty-1.1.0-site.tar.gz",
 "hadoop/thirdparty/thirdparty-1.1.0/hadoop-thirdparty-1.1.0-src.tar.gz"
+],
+"hadoop-thirdparty-1.1.1": [
+"hadoop/thirdparty/thirdparty-1.1.1/hadoop-thirdparty-1.1.1-site.tar.gz",
+"hadoop/thirdparty/thirdparty-1.1.1/hadoop-thirdparty-1.1.1-src.tar.gz"
 ]
 },
 "hawq": {
@@ -3662,6 +3670,7 @@
 "hbase/2.2.7/RELEASENOTES.md",
 "hbase/2.3.5/RELEASENOTES.md",
 "hbase/2.4.2/RELEASENOTES.md",
+"hbase/2.4.3/RELEASENOTES.md",
 "hbase/hbase-filesystem-1.0.0-alpha1/RELEASENOTES.md",
 "hbase/hbase-operator-tools-1.1.0/RELEASENOTES.md",
 "hbase/hbase-thirdparty-3.5.0/RELEASENOTES.md"
@@ -3683,6 +3692,9 @@
 ],
 "hbase-2.4.2": [
 "hbase/2.4.2/hbase-2.4.2-src.tar.gz"
+],
+"hbase-2.4.3": [
+"hbase/2.4.3/hbase-2.4.3-src.tar.gz"
 ],
 "hbase-connectors-1.0.0": [
 "hbase/hbase-connectors-1.0.0/hbase-connectors-1.0.0-src.tar.gz"
@@ -5412,9 +5424,9 @@
 "myfaces/source/myfaces-core-assembly-2.2.14-src.tar.gz",
 "myfaces/source/myfaces-core-assembly-2.2.14-src.zip"
 ],
-"myfaces-core-2.3-next-M5": [
-"myfaces/source/myfaces-core-assembly-2.3-next-M5-src.tar.gz",
-"myfaces/source/myfaces-core-assembly-2.3-next-M5-src.zip"
+"myfaces-core-2.3-next-M6": [
+"myfaces/source/myfaces-core-assembly-2.3-next-M6-src.tar.gz",
+"myfaces/source/myfaces-core-assembly-2.3-next-M6-src.zip"
 ],
 "myfaces-core-2.3.9": [
 "myfaces/source/myfaces-core-assembly-2.3.9-src.tar.gz",
@@ -12728,10 +12740,10 @@
 },
 "tika": {
 "tika-1.26": [
-"tika/tika-1.26-src.zip"
+"tika/1.26/tika-1.26-src.zip"
 ],
 "tika-2.0.0-BETA": [
-"tika/tika-2.0.0-BETA-src.zip"
+"tika/2.0.0-BETA/tika-2.0.0-BETA-src.zip"
 ]
 },
 "tinkerpop": {
