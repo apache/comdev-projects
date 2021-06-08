@@ -2190,6 +2190,10 @@
 "commons/jexl/source/commons-jexl-3.1-src.tar.gz",
 "commons/jexl/source/commons-jexl-3.1-src.zip"
 ],
+"commons-jexl-3.2": [
+"commons/jexl/source/commons-jexl-3.2-src.tar.gz",
+"commons/jexl/source/commons-jexl-3.2-src.zip"
+],
 "commons-jxpath-1.3": [
 "commons/jxpath/source/commons-jxpath-1.3-src.tar.gz",
 "commons/jxpath/source/commons-jxpath-1.3-src.zip"
@@ -3669,14 +3673,12 @@
 },
 "hbase": {
 "RELEASENOTES.md": [
-"hbase/2.2.6/RELEASENOTES.md",
 "hbase/2.2.7/RELEASENOTES.md",
 "hbase/2.3.5/RELEASENOTES.md",
-"hbase/2.4.2/RELEASENOTES.md",
 "hbase/2.4.3/RELEASENOTES.md",
 "hbase/hbase-filesystem-1.0.0-alpha1/RELEASENOTES.md",
 "hbase/hbase-operator-tools-1.1.0/RELEASENOTES.md",
-"hbase/hbase-thirdparty-3.5.0/RELEASENOTES.md"
+"hbase/hbase-thirdparty-3.5.1/RELEASENOTES.md"
 ],
 "hbase-1.4.13": [
 "hbase/1.4.13/hbase-1.4.13-src.tar.gz"
@@ -3684,17 +3686,11 @@
 "hbase-1.6.0": [
 "hbase/1.6.0/hbase-1.6.0-src.tar.gz"
 ],
-"hbase-2.2.6": [
-"hbase/2.2.6/hbase-2.2.6-src.tar.gz"
-],
 "hbase-2.2.7": [
 "hbase/2.2.7/hbase-2.2.7-src.tar.gz"
 ],
 "hbase-2.3.5": [
 "hbase/2.3.5/hbase-2.3.5-src.tar.gz"
-],
-"hbase-2.4.2": [
-"hbase/2.4.2/hbase-2.4.2-src.tar.gz"
 ],
 "hbase-2.4.3": [
 "hbase/2.4.3/hbase-2.4.3-src.tar.gz"
@@ -3708,8 +3704,8 @@
 "hbase-operator-tools-1.1.0": [
 "hbase/hbase-operator-tools-1.1.0/hbase-operator-tools-1.1.0-src.tar.gz"
 ],
-"hbase-thirdparty-3.5.0": [
-"hbase/hbase-thirdparty-3.5.0/hbase-thirdparty-3.5.0-src.tar.gz"
+"hbase-thirdparty-3.5.1": [
+"hbase/hbase-thirdparty-3.5.1/hbase-thirdparty-3.5.1-src.tar.gz"
 ]
 },
 "helix": {
@@ -4094,30 +4090,6 @@
 ]
 },
 "incubator-mxnet": {
-"apache-mxnet-1.3.0-incubating": [
-"incubator/mxnet/1.3.0/apache-mxnet-src-1.3.0-incubating.tar.gz"
-],
-"apache-mxnet-1.3.1-incubating": [
-"incubator/mxnet/1.3.1/apache-mxnet-src-1.3.1-incubating.tar.gz"
-],
-"apache-mxnet-1.4.0-incubating": [
-"incubator/mxnet/1.4.0/apache-mxnet-src-1.4.0-incubating.tar.gz"
-],
-"apache-mxnet-1.4.1-incubating": [
-"incubator/mxnet/1.4.1/apache-mxnet-src-1.4.1-incubating.tar.gz"
-],
-"apache-mxnet-1.5.0-incubating": [
-"incubator/mxnet/1.5.0/apache-mxnet-src-1.5.0-incubating.tar.gz"
-],
-"apache-mxnet-1.5.1-incubating": [
-"incubator/mxnet/1.5.1/apache-mxnet-src-1.5.1-incubating.tar.gz"
-],
-"apache-mxnet-1.6.0-incubating": [
-"incubator/mxnet/1.6.0/apache-mxnet-src-1.6.0-incubating.tar.gz"
-],
-"apache-mxnet-1.7.0-incubating": [
-"incubator/mxnet/1.7.0/apache-mxnet-src-1.7.0-incubating.tar.gz"
-],
 "apache-mxnet-1.8.0-incubating": [
 "incubator/mxnet/1.8.0/apache-mxnet-src-1.8.0-incubating.tar.gz"
 ]
@@ -4882,12 +4854,6 @@
 "manifoldcf/apache-manifoldcf-1.10/apache-manifoldcf-1.10-src.tar.gz",
 "manifoldcf/apache-manifoldcf-1.10/apache-manifoldcf-1.10-src.zip"
 ],
-"apache-manifoldcf-2.18": [
-"manifoldcf/apache-manifoldcf-2.18/apache-manifoldcf-2.18-lib.tar.gz",
-"manifoldcf/apache-manifoldcf-2.18/apache-manifoldcf-2.18-lib.zip",
-"manifoldcf/apache-manifoldcf-2.18/apache-manifoldcf-2.18-src.tar.gz",
-"manifoldcf/apache-manifoldcf-2.18/apache-manifoldcf-2.18-src.zip"
-],
 "apache-manifoldcf-2.19": [
 "manifoldcf/apache-manifoldcf-2.19/apache-manifoldcf-2.19-lib.tar.gz",
 "manifoldcf/apache-manifoldcf-2.19/apache-manifoldcf-2.19-lib.zip",
@@ -5407,9 +5373,9 @@
 "myfaces/source/myfaces-core-assembly-2.3.9-src.tar.gz",
 "myfaces/source/myfaces-core-assembly-2.3.9-src.zip"
 ],
-"myfaces-core-3.0.0": [
-"myfaces/source/myfaces-core-assembly-3.0.0-src.tar.gz",
-"myfaces/source/myfaces-core-assembly-3.0.0-src.zip"
+"myfaces-core-3.0.1": [
+"myfaces/source/myfaces-core-assembly-3.0.1-src.tar.gz",
+"myfaces/source/myfaces-core-assembly-3.0.1-src.zip"
 ],
 "myfaces-extcdi-1.0.6": [
 "myfaces/source/myfaces-extcdi-parent-1.0.6-source-release.zip"
@@ -9889,6 +9855,7 @@
 "phoenix/phoenix-4.16.1/RELEASENOTES.md",
 "phoenix/phoenix-5.1.0/RELEASENOTES.md",
 "phoenix/phoenix-5.1.1/RELEASENOTES.md",
+"phoenix/phoenix-5.1.2/RELEASENOTES.md",
 "phoenix/phoenix-omid-1.0.2/RELEASENOTES.md",
 "phoenix/phoenix-tephra-0.16.0/RELEASENOTES.md",
 "phoenix/phoenix-tephra-0.16.1/RELEASENOTES.md",
@@ -9924,6 +9891,9 @@
 ],
 "phoenix-5.1.1": [
 "phoenix/phoenix-5.1.1/phoenix-5.1.1-src.tar.gz"
+],
+"phoenix-5.1.2": [
+"phoenix/phoenix-5.1.2/phoenix-5.1.2-src.tar.gz"
 ],
 "phoenix-omid-1.0.2": [
 "phoenix/phoenix-omid-1.0.2/phoenix-omid-1.0.2-src.tar.gz"
@@ -11505,17 +11475,17 @@
 "org.apache.sling.discovery.api-1.0.4": [
 "sling/org.apache.sling.discovery.api-1.0.4-source-release.zip"
 ],
-"org.apache.sling.discovery.base-2.0.8": [
-"sling/org.apache.sling.discovery.base-2.0.8-source-release.zip"
+"org.apache.sling.discovery.base-2.0.10": [
+"sling/org.apache.sling.discovery.base-2.0.10-source-release.zip"
 ],
-"org.apache.sling.discovery.commons-1.0.20": [
-"sling/org.apache.sling.discovery.commons-1.0.20-source-release.zip"
+"org.apache.sling.discovery.commons-1.0.24": [
+"sling/org.apache.sling.discovery.commons-1.0.24-source-release.zip"
 ],
 "org.apache.sling.discovery.impl-1.2.12": [
 "sling/org.apache.sling.discovery.impl-1.2.12-source-release.zip"
 ],
-"org.apache.sling.discovery.oak-1.2.30": [
-"sling/org.apache.sling.discovery.oak-1.2.30-source-release.zip"
+"org.apache.sling.discovery.oak-1.2.34": [
+"sling/org.apache.sling.discovery.oak-1.2.34-source-release.zip"
 ],
 "org.apache.sling.discovery.standalone-1.0.2": [
 "sling/org.apache.sling.discovery.standalone-1.0.2-source-release.zip"
@@ -11550,8 +11520,8 @@
 "org.apache.sling.dynamic-include-3.2.0": [
 "sling/org.apache.sling.dynamic-include-3.2.0-source-release.zip"
 ],
-"org.apache.sling.engine-2.7.4": [
-"sling/org.apache.sling.engine-2.7.4-source-release.zip"
+"org.apache.sling.engine-2.7.6": [
+"sling/org.apache.sling.engine-2.7.6-source-release.zip"
 ],
 "org.apache.sling.event-4.2.20": [
 "sling/org.apache.sling.event-4.2.20-source-release.zip"
@@ -11592,10 +11562,10 @@
 "org.apache.sling.feature.apiregions-1.1.6": [
 "sling/org.apache.sling.feature.apiregions-1.1.6-source-release.zip"
 ],
-"org.apache.sling.feature.cpconverter-1.1.2": [
-"sling/org.apache.sling.feature.cpconverter-1.1.2-source-release.zip",
-"sling/org.apache.sling.feature.cpconverter-1.1.2.tar.gz",
-"sling/org.apache.sling.feature.cpconverter-1.1.2.zip"
+"org.apache.sling.feature.cpconverter-1.1.4": [
+"sling/org.apache.sling.feature.cpconverter-1.1.4-source-release.zip",
+"sling/org.apache.sling.feature.cpconverter-1.1.4.tar.gz",
+"sling/org.apache.sling.feature.cpconverter-1.1.4.zip"
 ],
 "org.apache.sling.feature.diff-0.0.6": [
 "sling/org.apache.sling.feature.diff-0.0.6-source-release.zip"
@@ -11709,8 +11679,8 @@
 "org.apache.sling.jcr.api-2.4.0": [
 "sling/org.apache.sling.jcr.api-2.4.0-source-release.zip"
 ],
-"org.apache.sling.jcr.base-3.1.6": [
-"sling/org.apache.sling.jcr.base-3.1.6-source-release.zip"
+"org.apache.sling.jcr.base-3.1.8": [
+"sling/org.apache.sling.jcr.base-3.1.8-source-release.zip"
 ],
 "org.apache.sling.jcr.classloader-3.2.4": [
 "sling/org.apache.sling.jcr.classloader-3.2.4-source-release.zip"
@@ -11971,8 +11941,8 @@
 "org.apache.sling.resourcemerger-1.4.0": [
 "sling/org.apache.sling.resourcemerger-1.4.0-source-release.zip"
 ],
-"org.apache.sling.resourceresolver-1.7.6": [
-"sling/org.apache.sling.resourceresolver-1.7.6-source-release.zip"
+"org.apache.sling.resourceresolver-1.7.8": [
+"sling/org.apache.sling.resourceresolver-1.7.8-source-release.zip"
 ],
 "org.apache.sling.rewriter-1.3.0": [
 "sling/org.apache.sling.rewriter-1.3.0-source-release.zip"
