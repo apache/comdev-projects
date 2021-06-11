@@ -983,11 +983,11 @@
 "apache-beam-0f52187e344dad9bca4c183fe51151b733b24e35": [
 "beam/vendor/beam-vendor-calcite-1_26_0/0.1/apache-beam-0f52187e344dad9bca4c183fe51151b733b24e35-source-release.zip"
 ],
-"apache-beam-2.29.0": [
-"beam/2.29.0/python/apache-beam-2.29.0.zip",
-"beam/2.29.0/apache-beam-2.29.0-source-release.zip",
-"beam/latest/python/apache-beam-2.29.0.zip",
-"beam/latest/apache-beam-2.29.0-source-release.zip"
+"apache-beam-2.30.0": [
+"beam/2.30.0/python/apache-beam-2.30.0.zip",
+"beam/2.30.0/apache-beam-2.30.0-source-release.zip",
+"beam/latest/python/apache-beam-2.30.0.zip",
+"beam/latest/apache-beam-2.30.0-source-release.zip"
 ],
 "apache-beam-c445ac198a3bc4e03d9d0833b6ccba4ed6ff43fd": [
 "beam/vendor/beam-vendor-grpc-1_36_0/0.1/apache-beam-c445ac198a3bc4e03d9d0833b6ccba4ed6ff43fd-source-release.zip"
@@ -9655,6 +9655,9 @@
 "openwhisk/20.11/openwhisk-deploy-kube-1.0.0-sources.tar.gz",
 "openwhisk/openwhisk-deploy-kube-1.0.0-sources.tar.gz"
 ],
+"openwhisk-intellij-plugin-1.0.1": [
+"openwhisk/openwhisk-intellij-plugin-1.0.1-sources.tar.gz"
+],
 "openwhisk-package-alarms-2.2.0": [
 "openwhisk/20.11/openwhisk-package-alarms-2.2.0-sources.tar.gz",
 "openwhisk/openwhisk-package-alarms-2.2.0-sources.tar.gz"
@@ -9719,6 +9722,9 @@
 "openwhisk-runtime-swift-1.16.0": [
 "openwhisk/openwhisk-runtime-swift-1.16.0-sources.tar.gz"
 ],
+"openwhisk-vscode-extension-1.1.0": [
+"openwhisk/openwhisk-vscode-extension-1.1.0-sources.tar.gz"
+],
 "openwhisk-wskdebug-1.3.0": [
 "openwhisk/20.11/openwhisk-wskdebug-1.3.0-sources.tar.gz",
 "openwhisk/openwhisk-wskdebug-1.3.0-sources.tar.gz"
@@ -9782,6 +9788,9 @@
 ],
 "pdfbox-2.0.23": [
 "pdfbox/2.0.23/pdfbox-2.0.23-src.zip"
+],
+"pdfbox-2.0.24": [
+"pdfbox/2.0.24/pdfbox-2.0.24-src.zip"
 ],
 "pdfbox-3.0.0-RC1": [
 "pdfbox/3.0.0-RC1/pdfbox-3.0.0-RC1-src.zip"
@@ -11148,12 +11157,12 @@
 ]
 },
 "skywalking": {
-"apache-skywalking-apm-8.5.0": [
-"skywalking/8.5.0/apache-skywalking-apm-8.5.0-src.tgz",
-"skywalking/8.5.0/apache-skywalking-apm-8.5.0.tar.gz"
+"apache-skywalking-apm-8.6.0": [
+"skywalking/8.6.0/apache-skywalking-apm-8.6.0-src.tgz",
+"skywalking/8.6.0/apache-skywalking-apm-8.6.0.tar.gz"
 ],
-"apache-skywalking-apm-es7-8.5.0": [
-"skywalking/8.5.0/apache-skywalking-apm-es7-8.5.0.tar.gz"
+"apache-skywalking-apm-es7-8.6.0": [
+"skywalking/8.6.0/apache-skywalking-apm-es7-8.6.0.tar.gz"
 ],
 "apache-skywalking-satellite-0.1.0": [
 "skywalking/satellite/0.1.0/apache-skywalking-satellite-0.1.0-src.tgz"
@@ -11163,9 +11172,6 @@
 ],
 "skywalking-cli-0.6.0": [
 "skywalking/cli/0.6.0/skywalking-cli-0.6.0-src.tgz"
-],
-"skywalking-client-js-0.4.0": [
-"skywalking/client-js/0.4.0/skywalking-client-js-0.4.0-src.tgz"
 ],
 "skywalking-client-js-0.5.1": [
 "skywalking/client-js/0.5.1/skywalking-client-js-0.5.1-src.tgz"
@@ -11706,14 +11712,14 @@
 "org.apache.sling.jcr.davex-1.3.10": [
 "sling/org.apache.sling.jcr.davex-1.3.10-source-release.zip"
 ],
-"org.apache.sling.jcr.jackrabbit.accessmanager-3.0.8": [
-"sling/org.apache.sling.jcr.jackrabbit.accessmanager-3.0.8-source-release.zip"
+"org.apache.sling.jcr.jackrabbit.accessmanager-3.0.10": [
+"sling/org.apache.sling.jcr.jackrabbit.accessmanager-3.0.10-source-release.zip"
 ],
 "org.apache.sling.jcr.jackrabbit.server-2.3.0": [
 "sling/org.apache.sling.jcr.jackrabbit.server-2.3.0-source-release.zip"
 ],
-"org.apache.sling.jcr.jackrabbit.usermanager-2.2.12": [
-"sling/org.apache.sling.jcr.jackrabbit.usermanager-2.2.12-source-release.zip"
+"org.apache.sling.jcr.jackrabbit.usermanager-2.2.14": [
+"sling/org.apache.sling.jcr.jackrabbit.usermanager-2.2.14-source-release.zip"
 ],
 "org.apache.sling.jcr.jcr-wrapper-2.0.0": [
 "sling/org.apache.sling.jcr.jcr-wrapper-2.0.0-source-release.zip"
@@ -11733,8 +11739,8 @@
 "org.apache.sling.jcr.oak.server-1.2.10": [
 "sling/org.apache.sling.jcr.oak.server-1.2.10-source-release.zip"
 ],
-"org.apache.sling.jcr.packageinit-1.0.2": [
-"sling/org.apache.sling.jcr.packageinit-1.0.2-source-release.zip"
+"org.apache.sling.jcr.packageinit-1.0.4": [
+"sling/org.apache.sling.jcr.packageinit-1.0.4-source-release.zip"
 ],
 "org.apache.sling.jcr.prefs-1.0.0": [
 "sling/org.apache.sling.jcr.prefs-1.0.0-project.tar.gz",
@@ -12025,8 +12031,8 @@
 "org.apache.sling.servlet-helpers-1.4.2": [
 "sling/org.apache.sling.servlet-helpers-1.4.2-source-release.zip"
 ],
-"org.apache.sling.servlets.annotations-1.2.4": [
-"sling/org.apache.sling.servlets.annotations-1.2.4-source-release.zip"
+"org.apache.sling.servlets.annotations-1.2.6": [
+"sling/org.apache.sling.servlets.annotations-1.2.6-source-release.zip"
 ],
 "org.apache.sling.servlets.compat-1.0.2": [
 "sling/org.apache.sling.servlets.compat-1.0.2-source-release.zip"
@@ -12034,8 +12040,8 @@
 "org.apache.sling.servlets.get-2.1.44": [
 "sling/org.apache.sling.servlets.get-2.1.44-source-release.zip"
 ],
-"org.apache.sling.servlets.post-2.4.2": [
-"sling/org.apache.sling.servlets.post-2.4.2-source-release.zip"
+"org.apache.sling.servlets.post-2.4.4": [
+"sling/org.apache.sling.servlets.post-2.4.4-source-release.zip"
 ],
 "org.apache.sling.servlets.resolver-2.7.14": [
 "sling/org.apache.sling.servlets.resolver-2.7.14-source-release.zip"
