@@ -583,6 +583,9 @@
 "apache-apisix-dashboard-2.6.1": [
 "apisix/dashboard/2.6.1/apache-apisix-dashboard-2.6.1-src.tgz"
 ],
+"apache-apisix-dashboard-2.7": [
+"apisix/dashboard/2.7/apache-apisix-dashboard-2.7-src.tgz"
+],
 "apache-apisix-ingress-controller-0.6.0": [
 "apisix/ingress-controller/0.6.0/apache-apisix-ingress-controller-0.6.0-src.tgz"
 ]
@@ -2946,9 +2949,9 @@
 "org.apache.felix.http.samples.bridge-2.3.2": [
 "felix/org.apache.felix.http.samples.bridge-2.3.2.war"
 ],
-"org.apache.felix.http.servlet-api-1.1.2": [
-"felix/org.apache.felix.http.servlet-api-1.1.2-source-release.tar.gz",
-"felix/org.apache.felix.http.servlet-api-1.1.2-source-release.zip"
+"org.apache.felix.http.servlet-api-1.1.4": [
+"felix/org.apache.felix.http.servlet-api-1.1.4-source-release.tar.gz",
+"felix/org.apache.felix.http.servlet-api-1.1.4-source-release.zip"
 ],
 "org.apache.felix.http.sslfilter-1.2.6": [
 "felix/org.apache.felix.http.sslfilter-1.2.6-source-release.tar.gz",
@@ -3572,14 +3575,14 @@
 "RELEASENOTES.md": [
 "hadoop/common/current2/RELEASENOTES.md",
 "hadoop/common/hadoop-2.10.1/RELEASENOTES.md",
-"hadoop/common/hadoop-3.1.4/RELEASENOTES.md",
 "hadoop/common/hadoop-3.2.2/RELEASENOTES.md",
 "hadoop/common/hadoop-3.3.0/RELEASENOTES.md",
+"hadoop/common/hadoop-3.3.1/RELEASENOTES.md",
 "hadoop/core/current2/RELEASENOTES.md",
 "hadoop/core/hadoop-2.10.1/RELEASENOTES.md",
-"hadoop/core/hadoop-3.1.4/RELEASENOTES.md",
 "hadoop/core/hadoop-3.2.2/RELEASENOTES.md",
 "hadoop/core/hadoop-3.3.0/RELEASENOTES.md",
+"hadoop/core/hadoop-3.3.1/RELEASENOTES.md",
 "hadoop/thirdparty/thirdparty-1.0.0/RELEASENOTES.md",
 "hadoop/thirdparty/thirdparty-1.1.0/RELEASENOTES.md",
 "hadoop/thirdparty/thirdparty-1.1.1/RELEASENOTES.md"
@@ -3597,20 +3600,6 @@
 "hadoop/core/hadoop-2.10.1/hadoop-2.10.1-site.tar.gz",
 "hadoop/core/hadoop-2.10.1/hadoop-2.10.1-src.tar.gz",
 "hadoop/core/hadoop-2.10.1/hadoop-2.10.1.tar.gz"
-],
-"hadoop-3.1.4": [
-"hadoop/common/hadoop-3.1.4/hadoop-3.1.4-site.tar.gz",
-"hadoop/common/hadoop-3.1.4/hadoop-3.1.4-src.tar.gz",
-"hadoop/common/hadoop-3.1.4/hadoop-3.1.4.tar.gz",
-"hadoop/core/hadoop-3.1.4/hadoop-3.1.4-site.tar.gz",
-"hadoop/core/hadoop-3.1.4/hadoop-3.1.4-src.tar.gz",
-"hadoop/core/hadoop-3.1.4/hadoop-3.1.4.tar.gz"
-],
-"hadoop-3.2.1": [
-"hadoop/common/hadoop-3.2.1/hadoop-3.2.1-src.tar.gz",
-"hadoop/common/hadoop-3.2.1/hadoop-3.2.1.tar.gz",
-"hadoop/core/hadoop-3.2.1/hadoop-3.2.1-src.tar.gz",
-"hadoop/core/hadoop-3.2.1/hadoop-3.2.1.tar.gz"
 ],
 "hadoop-3.2.2": [
 "hadoop/common/hadoop-3.2.2/hadoop-3.2.2-site.tar.gz",
@@ -3631,6 +3620,18 @@
 "hadoop-3.3.0-aarch64": [
 "hadoop/common/hadoop-3.3.0/hadoop-3.3.0-aarch64.tar.gz",
 "hadoop/core/hadoop-3.3.0/hadoop-3.3.0-aarch64.tar.gz"
+],
+"hadoop-3.3.1": [
+"hadoop/common/hadoop-3.3.1/hadoop-3.3.1-site.tar.gz",
+"hadoop/common/hadoop-3.3.1/hadoop-3.3.1-src.tar.gz",
+"hadoop/common/hadoop-3.3.1/hadoop-3.3.1.tar.gz",
+"hadoop/core/hadoop-3.3.1/hadoop-3.3.1-site.tar.gz",
+"hadoop/core/hadoop-3.3.1/hadoop-3.3.1-src.tar.gz",
+"hadoop/core/hadoop-3.3.1/hadoop-3.3.1.tar.gz"
+],
+"hadoop-3.3.1-aarch64": [
+"hadoop/common/hadoop-3.3.1/hadoop-3.3.1-aarch64.tar.gz",
+"hadoop/core/hadoop-3.3.1/hadoop-3.3.1-aarch64.tar.gz"
 ],
 "hadoop-ozone-0.2.1-alpha": [
 "hadoop/ozone/ozone-0.2.1-alpha/hadoop-ozone-0.2.1-alpha-src.tar.gz",
@@ -3685,7 +3686,7 @@
 "RELEASENOTES.md": [
 "hbase/2.2.7/RELEASENOTES.md",
 "hbase/2.3.5/RELEASENOTES.md",
-"hbase/2.4.3/RELEASENOTES.md",
+"hbase/2.4.4/RELEASENOTES.md",
 "hbase/hbase-filesystem-1.0.0-alpha1/RELEASENOTES.md",
 "hbase/hbase-operator-tools-1.1.0/RELEASENOTES.md",
 "hbase/hbase-thirdparty-3.5.1/RELEASENOTES.md"
@@ -3705,8 +3706,8 @@
 "hbase-2.3.5": [
 "hbase/2.3.5/hbase-2.3.5-src.tar.gz"
 ],
-"hbase-2.4.3": [
-"hbase/2.4.3/hbase-2.4.3-src.tar.gz"
+"hbase-2.4.4": [
+"hbase/2.4.4/hbase-2.4.4-src.tar.gz"
 ],
 "hbase-connectors-1.0.0": [
 "hbase/hbase-connectors-1.0.0/hbase-connectors-1.0.0-src.tar.gz"
@@ -4008,9 +4009,9 @@
 ]
 },
 "incubator-flagon": {
-"apache-flagon-useralejs-incubating-2.2.0": [
-"incubator/flagon/apache-flagon-useralejs-incubating-2.2.0/apache-flagon-useralejs-incubating-2.2.0-src.tar.gz",
-"incubator/flagon/apache-flagon-useralejs-incubating-2.2.0/apache-flagon-useralejs-incubating-2.2.0-src.zip"
+"apache-flagon-useralejs-incubating-2.1.1": [
+"incubator/flagon/apache-flagon-useralejs-incubating-2.1.1/apache-flagon-useralejs-incubating-2.1.1-src.tar.gz",
+"incubator/flagon/apache-flagon-useralejs-incubating-2.1.1/apache-flagon-useralejs-incubating-2.1.1-src.zip"
 ]
 },
 "incubator-heron": {
@@ -10132,14 +10133,16 @@
 "pulsar/pulsar-2.6.4/DEB/Packages.gz",
 "pulsar/pulsar-2.7.0/DEB/Packages.gz",
 "pulsar/pulsar-2.7.1/DEB/Packages.gz",
-"pulsar/pulsar-2.7.2/DEB/Packages.gz"
+"pulsar/pulsar-2.7.2/DEB/Packages.gz",
+"pulsar/pulsar-2.8.0/DEB/Packages.gz"
 ],
 "apache-pulsar": [
 "pulsar/pulsar-2.6.3/DEB/apache-pulsar-client.deb",
 "pulsar/pulsar-2.6.4/DEB/apache-pulsar-client.deb",
 "pulsar/pulsar-2.7.0/DEB/apache-pulsar-client.deb",
 "pulsar/pulsar-2.7.1/DEB/apache-pulsar-client.deb",
-"pulsar/pulsar-2.7.2/DEB/apache-pulsar-client.deb"
+"pulsar/pulsar-2.7.2/DEB/apache-pulsar-client.deb",
+"pulsar/pulsar-2.8.0/DEB/apache-pulsar-client.deb"
 ],
 "apache-pulsar-2.6.3": [
 "pulsar/pulsar-2.6.3/apache-pulsar-2.6.3-src.tar.gz"
@@ -10156,12 +10159,16 @@
 "apache-pulsar-2.7.2": [
 "pulsar/pulsar-2.7.2/apache-pulsar-2.7.2-src.tar.gz"
 ],
+"apache-pulsar-2.8.0": [
+"pulsar/pulsar-2.8.0/apache-pulsar-2.8.0-src.tar.gz"
+],
 "apache-pulsar-client-dev": [
 "pulsar/pulsar-2.6.3/DEB/apache-pulsar-client-dev.deb",
 "pulsar/pulsar-2.6.4/DEB/apache-pulsar-client-dev.deb",
 "pulsar/pulsar-2.7.0/DEB/apache-pulsar-client-dev.deb",
 "pulsar/pulsar-2.7.1/DEB/apache-pulsar-client-dev.deb",
-"pulsar/pulsar-2.7.2/DEB/apache-pulsar-client-dev.deb"
+"pulsar/pulsar-2.7.2/DEB/apache-pulsar-client-dev.deb",
+"pulsar/pulsar-2.8.0/DEB/apache-pulsar-client-dev.deb"
 ],
 "apache-pulsar-client-go-0.5.0": [
 "pulsar/pulsar-client-go-0.5.0/apache-pulsar-client-go-0.5.0-src.tar.gz"
@@ -10193,6 +10200,9 @@
 "pulsar-io-aerospike-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-aerospike-2.7.2.nar"
 ],
+"pulsar-io-aerospike-2.8.0.nar": [
+"pulsar/pulsar-2.8.0/connectors/pulsar-io-aerospike-2.8.0.nar"
+],
 "pulsar-io-canal-2.6.3.nar": [
 "pulsar/pulsar-2.6.3/connectors/pulsar-io-canal-2.6.3.nar"
 ],
@@ -10207,6 +10217,9 @@
 ],
 "pulsar-io-canal-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-canal-2.7.2.nar"
+],
+"pulsar-io-canal-2.8.0.nar": [
+"pulsar/pulsar-2.8.0/connectors/pulsar-io-canal-2.8.0.nar"
 ],
 "pulsar-io-cassandra-2.6.3.nar": [
 "pulsar/pulsar-2.6.3/connectors/pulsar-io-cassandra-2.6.3.nar"
@@ -10223,6 +10236,9 @@
 "pulsar-io-cassandra-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-cassandra-2.7.2.nar"
 ],
+"pulsar-io-cassandra-2.8.0.nar": [
+"pulsar/pulsar-2.8.0/connectors/pulsar-io-cassandra-2.8.0.nar"
+],
 "pulsar-io-data-generator-2.6.3.nar": [
 "pulsar/pulsar-2.6.3/connectors/pulsar-io-data-generator-2.6.3.nar"
 ],
@@ -10237,6 +10253,9 @@
 ],
 "pulsar-io-data-generator-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-data-generator-2.7.2.nar"
+],
+"pulsar-io-data-generator-2.8.0.nar": [
+"pulsar/pulsar-2.8.0/connectors/pulsar-io-data-generator-2.8.0.nar"
 ],
 "pulsar-io-debezium-mongodb-2.6.3.nar": [
 "pulsar/pulsar-2.6.3/connectors/pulsar-io-debezium-mongodb-2.6.3.nar"
@@ -10253,6 +10272,9 @@
 "pulsar-io-debezium-mongodb-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-debezium-mongodb-2.7.2.nar"
 ],
+"pulsar-io-debezium-mongodb-2.8.0.nar": [
+"pulsar/pulsar-2.8.0/connectors/pulsar-io-debezium-mongodb-2.8.0.nar"
+],
 "pulsar-io-debezium-mysql-2.6.3.nar": [
 "pulsar/pulsar-2.6.3/connectors/pulsar-io-debezium-mysql-2.6.3.nar"
 ],
@@ -10267,6 +10289,9 @@
 ],
 "pulsar-io-debezium-mysql-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-debezium-mysql-2.7.2.nar"
+],
+"pulsar-io-debezium-mysql-2.8.0.nar": [
+"pulsar/pulsar-2.8.0/connectors/pulsar-io-debezium-mysql-2.8.0.nar"
 ],
 "pulsar-io-debezium-postgres-2.6.3.nar": [
 "pulsar/pulsar-2.6.3/connectors/pulsar-io-debezium-postgres-2.6.3.nar"
@@ -10283,6 +10308,9 @@
 "pulsar-io-debezium-postgres-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-debezium-postgres-2.7.2.nar"
 ],
+"pulsar-io-debezium-postgres-2.8.0.nar": [
+"pulsar/pulsar-2.8.0/connectors/pulsar-io-debezium-postgres-2.8.0.nar"
+],
 "pulsar-io-dynamodb-2.6.3.nar": [
 "pulsar/pulsar-2.6.3/connectors/pulsar-io-dynamodb-2.6.3.nar"
 ],
@@ -10297,6 +10325,9 @@
 ],
 "pulsar-io-dynamodb-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-dynamodb-2.7.2.nar"
+],
+"pulsar-io-dynamodb-2.8.0.nar": [
+"pulsar/pulsar-2.8.0/connectors/pulsar-io-dynamodb-2.8.0.nar"
 ],
 "pulsar-io-elastic-search-2.6.3.nar": [
 "pulsar/pulsar-2.6.3/connectors/pulsar-io-elastic-search-2.6.3.nar"
@@ -10313,6 +10344,9 @@
 "pulsar-io-elastic-search-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-elastic-search-2.7.2.nar"
 ],
+"pulsar-io-elastic-search-2.8.0.nar": [
+"pulsar/pulsar-2.8.0/connectors/pulsar-io-elastic-search-2.8.0.nar"
+],
 "pulsar-io-file-2.6.3.nar": [
 "pulsar/pulsar-2.6.3/connectors/pulsar-io-file-2.6.3.nar"
 ],
@@ -10327,6 +10361,9 @@
 ],
 "pulsar-io-file-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-file-2.7.2.nar"
+],
+"pulsar-io-file-2.8.0.nar": [
+"pulsar/pulsar-2.8.0/connectors/pulsar-io-file-2.8.0.nar"
 ],
 "pulsar-io-flume-2.6.3.nar": [
 "pulsar/pulsar-2.6.3/connectors/pulsar-io-flume-2.6.3.nar"
@@ -10343,6 +10380,9 @@
 "pulsar-io-flume-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-flume-2.7.2.nar"
 ],
+"pulsar-io-flume-2.8.0.nar": [
+"pulsar/pulsar-2.8.0/connectors/pulsar-io-flume-2.8.0.nar"
+],
 "pulsar-io-hbase-2.6.3.nar": [
 "pulsar/pulsar-2.6.3/connectors/pulsar-io-hbase-2.6.3.nar"
 ],
@@ -10357,6 +10397,9 @@
 ],
 "pulsar-io-hbase-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-hbase-2.7.2.nar"
+],
+"pulsar-io-hbase-2.8.0.nar": [
+"pulsar/pulsar-2.8.0/connectors/pulsar-io-hbase-2.8.0.nar"
 ],
 "pulsar-io-hdfs2-2.6.3.nar": [
 "pulsar/pulsar-2.6.3/connectors/pulsar-io-hdfs2-2.6.3.nar"
@@ -10373,6 +10416,9 @@
 "pulsar-io-hdfs2-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-hdfs2-2.7.2.nar"
 ],
+"pulsar-io-hdfs2-2.8.0.nar": [
+"pulsar/pulsar-2.8.0/connectors/pulsar-io-hdfs2-2.8.0.nar"
+],
 "pulsar-io-hdfs3-2.6.3.nar": [
 "pulsar/pulsar-2.6.3/connectors/pulsar-io-hdfs3-2.6.3.nar"
 ],
@@ -10387,6 +10433,9 @@
 ],
 "pulsar-io-hdfs3-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-hdfs3-2.7.2.nar"
+],
+"pulsar-io-hdfs3-2.8.0.nar": [
+"pulsar/pulsar-2.8.0/connectors/pulsar-io-hdfs3-2.8.0.nar"
 ],
 "pulsar-io-influxdb-2.6.3.nar": [
 "pulsar/pulsar-2.6.3/connectors/pulsar-io-influxdb-2.6.3.nar"
@@ -10403,6 +10452,9 @@
 "pulsar-io-influxdb-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-influxdb-2.7.2.nar"
 ],
+"pulsar-io-influxdb-2.8.0.nar": [
+"pulsar/pulsar-2.8.0/connectors/pulsar-io-influxdb-2.8.0.nar"
+],
 "pulsar-io-jdbc-clickhouse-2.6.3.nar": [
 "pulsar/pulsar-2.6.3/connectors/pulsar-io-jdbc-clickhouse-2.6.3.nar"
 ],
@@ -10417,6 +10469,9 @@
 ],
 "pulsar-io-jdbc-clickhouse-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-jdbc-clickhouse-2.7.2.nar"
+],
+"pulsar-io-jdbc-clickhouse-2.8.0.nar": [
+"pulsar/pulsar-2.8.0/connectors/pulsar-io-jdbc-clickhouse-2.8.0.nar"
 ],
 "pulsar-io-jdbc-mariadb-2.6.3.nar": [
 "pulsar/pulsar-2.6.3/connectors/pulsar-io-jdbc-mariadb-2.6.3.nar"
@@ -10433,6 +10488,9 @@
 "pulsar-io-jdbc-mariadb-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-jdbc-mariadb-2.7.2.nar"
 ],
+"pulsar-io-jdbc-mariadb-2.8.0.nar": [
+"pulsar/pulsar-2.8.0/connectors/pulsar-io-jdbc-mariadb-2.8.0.nar"
+],
 "pulsar-io-jdbc-postgres-2.6.3.nar": [
 "pulsar/pulsar-2.6.3/connectors/pulsar-io-jdbc-postgres-2.6.3.nar"
 ],
@@ -10447,6 +10505,9 @@
 ],
 "pulsar-io-jdbc-postgres-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-jdbc-postgres-2.7.2.nar"
+],
+"pulsar-io-jdbc-postgres-2.8.0.nar": [
+"pulsar/pulsar-2.8.0/connectors/pulsar-io-jdbc-postgres-2.8.0.nar"
 ],
 "pulsar-io-jdbc-sqlite-2.6.3.nar": [
 "pulsar/pulsar-2.6.3/connectors/pulsar-io-jdbc-sqlite-2.6.3.nar"
@@ -10463,6 +10524,9 @@
 "pulsar-io-jdbc-sqlite-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-jdbc-sqlite-2.7.2.nar"
 ],
+"pulsar-io-jdbc-sqlite-2.8.0.nar": [
+"pulsar/pulsar-2.8.0/connectors/pulsar-io-jdbc-sqlite-2.8.0.nar"
+],
 "pulsar-io-kafka-2.6.3.nar": [
 "pulsar/pulsar-2.6.3/connectors/pulsar-io-kafka-2.6.3.nar"
 ],
@@ -10477,6 +10541,9 @@
 ],
 "pulsar-io-kafka-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-kafka-2.7.2.nar"
+],
+"pulsar-io-kafka-2.8.0.nar": [
+"pulsar/pulsar-2.8.0/connectors/pulsar-io-kafka-2.8.0.nar"
 ],
 "pulsar-io-kafka-connect-adaptor-2.6.3.nar": [
 "pulsar/pulsar-2.6.3/connectors/pulsar-io-kafka-connect-adaptor-2.6.3.nar"
@@ -10493,6 +10560,9 @@
 "pulsar-io-kafka-connect-adaptor-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-kafka-connect-adaptor-2.7.2.nar"
 ],
+"pulsar-io-kafka-connect-adaptor-nar-2.8.0.nar": [
+"pulsar/pulsar-2.8.0/connectors/pulsar-io-kafka-connect-adaptor-nar-2.8.0.nar"
+],
 "pulsar-io-kinesis-2.6.3.nar": [
 "pulsar/pulsar-2.6.3/connectors/pulsar-io-kinesis-2.6.3.nar"
 ],
@@ -10507,6 +10577,9 @@
 ],
 "pulsar-io-kinesis-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-kinesis-2.7.2.nar"
+],
+"pulsar-io-kinesis-2.8.0.nar": [
+"pulsar/pulsar-2.8.0/connectors/pulsar-io-kinesis-2.8.0.nar"
 ],
 "pulsar-io-mongo-2.6.3.nar": [
 "pulsar/pulsar-2.6.3/connectors/pulsar-io-mongo-2.6.3.nar"
@@ -10523,6 +10596,9 @@
 "pulsar-io-mongo-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-mongo-2.7.2.nar"
 ],
+"pulsar-io-mongo-2.8.0.nar": [
+"pulsar/pulsar-2.8.0/connectors/pulsar-io-mongo-2.8.0.nar"
+],
 "pulsar-io-netty-2.6.3.nar": [
 "pulsar/pulsar-2.6.3/connectors/pulsar-io-netty-2.6.3.nar"
 ],
@@ -10538,6 +10614,9 @@
 "pulsar-io-netty-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-netty-2.7.2.nar"
 ],
+"pulsar-io-netty-2.8.0.nar": [
+"pulsar/pulsar-2.8.0/connectors/pulsar-io-netty-2.8.0.nar"
+],
 "pulsar-io-nsq-2.7.0.nar": [
 "pulsar/pulsar-2.7.0/connectors/pulsar-io-nsq-2.7.0.nar"
 ],
@@ -10546,6 +10625,9 @@
 ],
 "pulsar-io-nsq-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-nsq-2.7.2.nar"
+],
+"pulsar-io-nsq-2.8.0.nar": [
+"pulsar/pulsar-2.8.0/connectors/pulsar-io-nsq-2.8.0.nar"
 ],
 "pulsar-io-rabbitmq-2.6.3.nar": [
 "pulsar/pulsar-2.6.3/connectors/pulsar-io-rabbitmq-2.6.3.nar"
@@ -10562,6 +10644,9 @@
 "pulsar-io-rabbitmq-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-rabbitmq-2.7.2.nar"
 ],
+"pulsar-io-rabbitmq-2.8.0.nar": [
+"pulsar/pulsar-2.8.0/connectors/pulsar-io-rabbitmq-2.8.0.nar"
+],
 "pulsar-io-redis-2.6.3.nar": [
 "pulsar/pulsar-2.6.3/connectors/pulsar-io-redis-2.6.3.nar"
 ],
@@ -10576,6 +10661,9 @@
 ],
 "pulsar-io-redis-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-redis-2.7.2.nar"
+],
+"pulsar-io-redis-2.8.0.nar": [
+"pulsar/pulsar-2.8.0/connectors/pulsar-io-redis-2.8.0.nar"
 ],
 "pulsar-io-solr-2.6.3.nar": [
 "pulsar/pulsar-2.6.3/connectors/pulsar-io-solr-2.6.3.nar"
@@ -10592,6 +10680,9 @@
 "pulsar-io-solr-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-solr-2.7.2.nar"
 ],
+"pulsar-io-solr-2.8.0.nar": [
+"pulsar/pulsar-2.8.0/connectors/pulsar-io-solr-2.8.0.nar"
+],
 "pulsar-io-twitter-2.6.3.nar": [
 "pulsar/pulsar-2.6.3/connectors/pulsar-io-twitter-2.6.3.nar"
 ],
@@ -10606,6 +10697,9 @@
 ],
 "pulsar-io-twitter-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-twitter-2.7.2.nar"
+],
+"pulsar-io-twitter-2.8.0.nar": [
+"pulsar/pulsar-2.8.0/connectors/pulsar-io-twitter-2.8.0.nar"
 ]
 },
 "qpid": {
@@ -10759,6 +10853,9 @@
 "rocketmq": {
 "rocketmq-all-4.8.0": [
 "rocketmq/4.8.0/rocketmq-all-4.8.0-source-release.zip"
+],
+"rocketmq-all-4.9.0": [
+"rocketmq/4.9.0/rocketmq-all-4.9.0-source-release.zip"
 ],
 "rocketmq-client-cpp-2.1.0": [
 "rocketmq/rocketmq-client-cpp/2.1.0/rocketmq-client-cpp-2.1.0-source-release.tar.gz"
@@ -12853,18 +12950,18 @@
 "tomcat/tomcat-7/v7.0.109/src/apache-tomcat-7.0.109-src.tar.gz",
 "tomcat/tomcat-7/v7.0.109/src/apache-tomcat-7.0.109-src.zip"
 ],
-"apache-tomcat-8.5.66": [
-"tomcat/tomcat-8/v8.5.66/bin/embed/apache-tomcat-8.5.66-embed.tar.gz",
-"tomcat/tomcat-8/v8.5.66/bin/embed/apache-tomcat-8.5.66-embed.zip",
-"tomcat/tomcat-8/v8.5.66/bin/apache-tomcat-8.5.66-deployer.tar.gz",
-"tomcat/tomcat-8/v8.5.66/bin/apache-tomcat-8.5.66-deployer.zip",
-"tomcat/tomcat-8/v8.5.66/bin/apache-tomcat-8.5.66-fulldocs.tar.gz",
-"tomcat/tomcat-8/v8.5.66/bin/apache-tomcat-8.5.66-windows-x64.zip",
-"tomcat/tomcat-8/v8.5.66/bin/apache-tomcat-8.5.66.exe",
-"tomcat/tomcat-8/v8.5.66/bin/apache-tomcat-8.5.66.tar.gz",
-"tomcat/tomcat-8/v8.5.66/bin/apache-tomcat-8.5.66.zip",
-"tomcat/tomcat-8/v8.5.66/src/apache-tomcat-8.5.66-src.tar.gz",
-"tomcat/tomcat-8/v8.5.66/src/apache-tomcat-8.5.66-src.zip"
+"apache-tomcat-8.5.68": [
+"tomcat/tomcat-8/v8.5.68/bin/embed/apache-tomcat-8.5.68-embed.tar.gz",
+"tomcat/tomcat-8/v8.5.68/bin/embed/apache-tomcat-8.5.68-embed.zip",
+"tomcat/tomcat-8/v8.5.68/bin/apache-tomcat-8.5.68-deployer.tar.gz",
+"tomcat/tomcat-8/v8.5.68/bin/apache-tomcat-8.5.68-deployer.zip",
+"tomcat/tomcat-8/v8.5.68/bin/apache-tomcat-8.5.68-fulldocs.tar.gz",
+"tomcat/tomcat-8/v8.5.68/bin/apache-tomcat-8.5.68-windows-x64.zip",
+"tomcat/tomcat-8/v8.5.68/bin/apache-tomcat-8.5.68.exe",
+"tomcat/tomcat-8/v8.5.68/bin/apache-tomcat-8.5.68.tar.gz",
+"tomcat/tomcat-8/v8.5.68/bin/apache-tomcat-8.5.68.zip",
+"tomcat/tomcat-8/v8.5.68/src/apache-tomcat-8.5.68-src.tar.gz",
+"tomcat/tomcat-8/v8.5.68/src/apache-tomcat-8.5.68-src.zip"
 ],
 "apache-tomcat-9.0.46": [
 "tomcat/tomcat-9/v9.0.46/bin/embed/apache-tomcat-9.0.46-embed.tar.gz",
@@ -12878,6 +12975,19 @@
 "tomcat/tomcat-9/v9.0.46/bin/apache-tomcat-9.0.46.zip",
 "tomcat/tomcat-9/v9.0.46/src/apache-tomcat-9.0.46-src.tar.gz",
 "tomcat/tomcat-9/v9.0.46/src/apache-tomcat-9.0.46-src.zip"
+],
+"apache-tomcat-9.0.48": [
+"tomcat/tomcat-9/v9.0.48/bin/embed/apache-tomcat-9.0.48-embed.tar.gz",
+"tomcat/tomcat-9/v9.0.48/bin/embed/apache-tomcat-9.0.48-embed.zip",
+"tomcat/tomcat-9/v9.0.48/bin/apache-tomcat-9.0.48-deployer.tar.gz",
+"tomcat/tomcat-9/v9.0.48/bin/apache-tomcat-9.0.48-deployer.zip",
+"tomcat/tomcat-9/v9.0.48/bin/apache-tomcat-9.0.48-fulldocs.tar.gz",
+"tomcat/tomcat-9/v9.0.48/bin/apache-tomcat-9.0.48-windows-x64.zip",
+"tomcat/tomcat-9/v9.0.48/bin/apache-tomcat-9.0.48.exe",
+"tomcat/tomcat-9/v9.0.48/bin/apache-tomcat-9.0.48.tar.gz",
+"tomcat/tomcat-9/v9.0.48/bin/apache-tomcat-9.0.48.zip",
+"tomcat/tomcat-9/v9.0.48/src/apache-tomcat-9.0.48-src.tar.gz",
+"tomcat/tomcat-9/v9.0.48/src/apache-tomcat-9.0.48-src.zip"
 ],
 "jakartaee-migration-1.0.0": [
 "tomcat/jakartaee-migration/v1.0.0/source/jakartaee-migration-1.0.0-src.tar.gz",
