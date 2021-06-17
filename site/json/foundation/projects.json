@@ -12161,7 +12161,7 @@
 },
 "metamodel": {
 "bug-database": "https://issues.apache.org/jira/browse/METAMODEL",
-"category": "database, big-data, library",
+"category": "database, big-data, library, retired",
 "created": "2014-11-27",
 "description": "With MetaModel you get a uniform connector and query API to many very different datastore types, including: Relational (JDBC) databases, CSV files, Excel spreadsheets, XML files, JSON files, Fixed width files, MongoDB, Apache CouchDB, Apache HBase, Apache Cassandra, ElasticSearch, OpenOffice.org databases, Salesforce.com, SugarCRM and even collections of plain old Java objects (POJOs).\n\nMetaModel isn't a data mapping framework. Instead we emphasize abstraction of metadata and ability to add data sources at runtime, making MetaModel great for generic data processing applications, less so for applications modeled around a particular domain.",
 "doap": "https://gitbox.apache.org/repos/asf?p=metamodel.git;f=doap_MetaModel.rdf;a=blob_plain;hb=HEAD",
@@ -12176,7 +12176,7 @@
 }
 ],
 "name": "Apache MetaModel",
-"pmc": "metamodel",
+"pmc": "attic",
 "programming-language": "Java",
 "release": [
 {
@@ -15461,7 +15461,7 @@
 },
 "sqoop": {
 "bug-database": "http://issues.apache.org/jira/browse/SQOOP",
-"category": "big-data",
+"category": "big-data, retired",
 "created": "2014-09-21",
 "doap": "http://sqoop.apache.org/doap/doap_Sqoop.rdf",
 "download-page": "http://sqoop.apache.org/",
@@ -15475,7 +15475,7 @@
 }
 ],
 "name": "Apache Sqoop",
-"pmc": "sqoop",
+"pmc": "attic",
 "programming-language": "Java",
 "release": [
 {

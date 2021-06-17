@@ -6750,6 +6750,10 @@
 "date": "2014-12-17",
 "name": "Aljoscha Krettek"
 },
+"arvid": {
+"date": "2021-06-16",
+"name": "Arvid Heise"
+},
 "chesnay": {
 "date": "2017-07-26",
 "name": "Chesnay Schepler"
@@ -6865,6 +6869,10 @@
 "warneke": {
 "date": "2014-12-17",
 "name": "Daniel Warneke"
+},
+"xtsong": {
+"date": "2021-06-16",
+"name": "Xintong Song"
 },
 "zhijiang": {
 "date": "2020-03-27",
@@ -13424,68 +13432,6 @@
 "shortdesc": "a cluster manager that provides efficient resource isolation and sharing across distributed applications"
 },
 {
-"chair": "kaspersor",
-"charter": "The mission of MetaModel is the creation and maintenance of software related to common interface for discovery, exploration of metadata and querying of different types of data sources",
-"established": "2014-11",
-"group": "metamodel",
-"homepage": "http://metamodel.apache.org/",
-"id": "metamodel",
-"name": "Apache MetaModel",
-"rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/metamodel.rdf",
-"reporting": 2,
-"roster": {
-"ankitkumar2711": {
-"date": "2014-11-19",
-"name": "Ankit Kumar"
-},
-"ardlema": {
-"date": "2014-11-19",
-"name": "Alberto Rodriguez"
-},
-"arjansh": {
-"date": "2019-08-29",
-"name": "Arjan Seijkens"
-},
-"arvind": {
-"date": "2014-11-19",
-"name": "Arvind Prabhakar"
-},
-"delostilos": {
-"date": "2014-11-19",
-"name": "Juan Jose van der Linden"
-},
-"hsaputra": {
-"date": "2014-11-19",
-"name": "Henry Saputra"
-},
-"kaspersor": {
-"date": "2014-11-19",
-"name": "Kasper S\u00f8rensen"
-},
-"losd": {
-"date": "2016-09-06",
-"name": "Dennis Du Kr\u00f8ger"
-},
-"mfranklin": {
-"date": "2014-11-19",
-"name": "Matt Franklin"
-},
-"nslater": {
-"date": "2014-11-19",
-"name": "Noah Slater"
-},
-"sarora": {
-"date": "2014-11-19",
-"name": "Sameer Arora"
-},
-"tomaszguzialek": {
-"date": "2014-11-19",
-"name": "Tomasz Guzia\u0142ek"
-}
-},
-"shortdesc": "common interface for discovery, exploration of metadata and querying of different types of data sources"
-},
-{
 "chair": "gnodet",
 "charter": "The mission of MINA is the creation and maintenance of software related to Multipurpose Infrastructure for Network Application",
 "established": "2006-10",
@@ -13820,7 +13766,7 @@
 "shortdesc": "JavaServer(tm) Faces implementation and components"
 },
 {
-"chair": "jmclean",
+"chair": "janc",
 "charter": "The mission of Apache Mynewt is the creation and maintenance of software related to an embedded OS optimized for networking and built for remote management of constrained devices that are incapable of running either Linux or Android",
 "established": "2017-06",
 "group": "mynewt",
@@ -19082,92 +19028,6 @@
 "shortdesc": "Fast and general engine for large-scale data processing"
 },
 {
-"chair": "venkatrangan",
-"charter": "The mission of Sqoop is the creation and maintenance of software related to Bulk Data Transfer for Apache Hadoop and Structured Datastores",
-"established": "2012-03",
-"group": "sqoop",
-"homepage": "http://sqoop.apache.org/",
-"id": "sqoop",
-"name": "Apache Sqoop",
-"rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/sqoop.rdf",
-"reporting": 1,
-"roster": {
-"abayer": {
-"date": "2012-03-21",
-"name": "Andrew Bayer"
-},
-"abe": {
-"date": "2015-03-16",
-"name": "Abraham Elmahrek"
-},
-"afine": {
-"date": "2016-11-29",
-"name": "Abraham Fine"
-},
-"ahmed": {
-"date": "2012-03-21",
-"name": "Ahmed Radwan"
-},
-"arvind": {
-"date": "2012-03-21",
-"name": "Arvind Prabhakar"
-},
-"blee": {
-"date": "2012-03-21",
-"name": "Bilung Lee"
-},
-"bogi": {
-"date": "2018-10-16",
-"name": "Boglarka Egyed"
-},
-"gcottman": {
-"date": "2012-03-21",
-"name": "Greg Cottman"
-},
-"guylemar": {
-"date": "2012-03-21",
-"name": "Guy le Mar"
-},
-"jarcec": {
-"date": "2012-03-21",
-"name": "Jarek Jarcec Cecho"
-},
-"jmhsieh": {
-"date": "2012-03-21",
-"name": "Jonathan Hsieh"
-},
-"kathleen": {
-"date": "2012-09-22",
-"name": "Kathleen Ting"
-},
-"kimballa": {
-"date": "2012-03-21",
-"name": "Aaron Kimball"
-},
-"olamy": {
-"date": "2012-03-21",
-"name": "Olivier Lamy"
-},
-"pzimdars": {
-"date": "2012-03-21",
-"name": "Paul Zimdars"
-},
-"rvs": {
-"date": "2012-03-21",
-"name": "Roman Shaposhnik"
-},
-"vasas": {
-"date": "2018-11-06",
-"name": "Vasas Szabolcs"
-},
-"venkatrangan": {
-"date": "2014-08-06",
-"name": "Venkat Ranganathan"
-}
-},
-"shortdesc": "Bulk Data Transfer for Apache Hadoop and Structured Datastores"
-},
-{
 "chair": "humbedooh",
 "charter": "The mission of Steve is the creation and maintenance of software related to Apache's Python based single transferable vote software system",
 "established": "2012-07",
@@ -20304,7 +20164,7 @@
 "shortdesc": "Dynamic websites using TCL"
 },
 {
-"chair": "jeagles",
+"chair": "abstractdog",
 "charter": "Apache Tez is an effort to develop a generic application framework which can be used to process arbitrarily complex DAGs of data-processing tasks and also a re-usable set of data-processing primitives which can be used by other projects.",
 "established": "2014-07",
 "group": "tez",
