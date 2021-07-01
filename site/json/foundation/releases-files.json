@@ -1212,6 +1212,9 @@
 "apache-camel-quarkus-1.8.1": [
 "camel/camel-quarkus/1.8.1/apache-camel-quarkus-1.8.1-src.zip"
 ],
+"apache-camel-quarkus-2.0.0": [
+"camel/camel-quarkus/2.0.0/apache-camel-quarkus-2.0.0-src.zip"
+],
 "camel-k-client-1.2.1-linux": [
 "camel/camel-k/1.2.1/camel-k-client-1.2.1-linux-64bit.tar.gz"
 ],
@@ -1437,8 +1440,8 @@
 "apache-cassandra-3.11.10": [
 "cassandra/3.11.10/apache-cassandra-3.11.10-src.tar.gz"
 ],
-"apache-cassandra-4.0-rc1": [
-"cassandra/4.0-rc1/apache-cassandra-4.0-rc1-src.tar.gz"
+"apache-cassandra-4.0-rc2": [
+"cassandra/4.0-rc2/apache-cassandra-4.0-rc2-src.tar.gz"
 ],
 "cassandra-2.1.22-1": [
 "cassandra/redhat/21x/cassandra-2.1.22-1.src.rpm"
@@ -1464,11 +1467,11 @@
 "cassandra-3.11.10-1.noarch": [
 "cassandra/redhat/311x/cassandra-3.11.10-1.noarch.rpm"
 ],
-"cassandra-4.0~rc1-1": [
-"cassandra/redhat/40x/cassandra-4.0~rc1-1.src.rpm"
+"cassandra-4.0~rc2-1": [
+"cassandra/redhat/40x/cassandra-4.0~rc2-1.src.rpm"
 ],
-"cassandra-4.0~rc1-1.noarch": [
-"cassandra/redhat/40x/cassandra-4.0~rc1-1.noarch.rpm"
+"cassandra-4.0~rc2-1.noarch": [
+"cassandra/redhat/40x/cassandra-4.0~rc2-1.noarch.rpm"
 ],
 "cassandra-tools-2.1.22-1.noarch": [
 "cassandra/redhat/21x/cassandra-tools-2.1.22-1.noarch.rpm"
@@ -1482,8 +1485,8 @@
 "cassandra-tools-3.11.10-1.noarch": [
 "cassandra/redhat/311x/cassandra-tools-3.11.10-1.noarch.rpm"
 ],
-"cassandra-tools-4.0~rc1-1.noarch": [
-"cassandra/redhat/40x/cassandra-tools-4.0~rc1-1.noarch.rpm"
+"cassandra-tools-4.0~rc2-1.noarch": [
+"cassandra/redhat/40x/cassandra-tools-4.0~rc2-1.noarch.rpm"
 ],
 "cassandra-tools_2.1.21_all": [
 "cassandra/debian/pool/main/c/cassandra/cassandra-tools_2.1.21_all.deb"
@@ -1550,8 +1553,11 @@
 "cassandra/debian/pool/main/c/cassandra/cassandra-tools_4.0~beta4_all.deb"
 ],
 "cassandra-tools_4.0~rc1_all": [
-"cassandra/4.0-rc1/debian/cassandra-tools_4.0~rc1_all.deb",
 "cassandra/debian/pool/main/c/cassandra/cassandra-tools_4.0~rc1_all.deb"
+],
+"cassandra-tools_4.0~rc2_all": [
+"cassandra/4.0-rc2/debian/cassandra-tools_4.0~rc2_all.deb",
+"cassandra/debian/pool/main/c/cassandra/cassandra-tools_4.0~rc2_all.deb"
 ],
 "cassandra_2.1.21.diff": [
 "cassandra/debian/pool/main/c/cassandra/cassandra_2.1.21.diff.gz"
@@ -1749,16 +1755,25 @@
 "cassandra/debian/pool/main/c/cassandra/cassandra_4.0~beta4_all.deb"
 ],
 "cassandra_4.0~rc1": [
-"cassandra/4.0-rc1/debian/cassandra_4.0~rc1.tar.gz",
 "cassandra/debian/pool/main/c/cassandra/cassandra_4.0~rc1.tar.gz"
 ],
 "cassandra_4.0~rc1.dsc": [
-"cassandra/4.0-rc1/debian/cassandra_4.0~rc1.dsc",
 "cassandra/debian/pool/main/c/cassandra/cassandra_4.0~rc1.dsc"
 ],
 "cassandra_4.0~rc1_all": [
-"cassandra/4.0-rc1/debian/cassandra_4.0~rc1_all.deb",
 "cassandra/debian/pool/main/c/cassandra/cassandra_4.0~rc1_all.deb"
+],
+"cassandra_4.0~rc2": [
+"cassandra/4.0-rc2/debian/cassandra_4.0~rc2.tar.gz",
+"cassandra/debian/pool/main/c/cassandra/cassandra_4.0~rc2.tar.gz"
+],
+"cassandra_4.0~rc2.dsc": [
+"cassandra/4.0-rc2/debian/cassandra_4.0~rc2.dsc",
+"cassandra/debian/pool/main/c/cassandra/cassandra_4.0~rc2.dsc"
+],
+"cassandra_4.0~rc2_all": [
+"cassandra/4.0-rc2/debian/cassandra_4.0~rc2_all.deb",
+"cassandra/debian/pool/main/c/cassandra/cassandra_4.0~rc2_all.deb"
 ]
 },
 "cayenne": {
@@ -2406,8 +2421,8 @@
 "cordova-plugin-vibration-3.1.1": [
 "cordova/plugins/cordova-plugin-vibration-3.1.1.tgz"
 ],
-"cordova-plugin-whitelist-1.3.4": [
-"cordova/plugins/cordova-plugin-whitelist-1.3.4.tgz"
+"cordova-plugin-whitelist-1.3.5": [
+"cordova/plugins/cordova-plugin-whitelist-1.3.5.tgz"
 ],
 "cordova-plugin-wkwebview-engine-1.2.2": [
 "cordova/plugins/cordova-plugin-wkwebview-engine-1.2.2.tgz"
@@ -3376,16 +3391,16 @@
 "geode/1.11.0/apache-geode-1.11.0-src.tgz",
 "geode/1.11.0/apache-geode-1.11.0.tgz"
 ],
-"apache-geode-1.12.2": [
-"geode/1.12.2/apache-geode-1.12.2-src.tgz",
-"geode/1.12.2/apache-geode-1.12.2.tgz"
+"apache-geode-1.12.3": [
+"geode/1.12.3/apache-geode-1.12.3-src.tgz",
+"geode/1.12.3/apache-geode-1.12.3.tgz"
 ],
 "apache-geode-1.13.3": [
 "geode/1.13.3/apache-geode-1.13.3-src.tgz",
 "geode/1.13.3/apache-geode-1.13.3.tgz"
 ],
-"apache-geode-benchmarks-1.12.2": [
-"geode/1.12.2/apache-geode-benchmarks-1.12.2-src.tgz"
+"apache-geode-benchmarks-1.12.3": [
+"geode/1.12.3/apache-geode-benchmarks-1.12.3-src.tgz"
 ],
 "apache-geode-benchmarks-1.13.3": [
 "geode/1.13.3/apache-geode-benchmarks-1.13.3-src.tgz"
@@ -3394,8 +3409,8 @@
 "geode/1.11.0/apache-geode-examples-1.11.0.tar.gz",
 "geode/1.11.0/apache-geode-examples-1.11.0.zip"
 ],
-"apache-geode-examples-1.12.2": [
-"geode/1.12.2/apache-geode-examples-1.12.2-src.tgz"
+"apache-geode-examples-1.12.3": [
+"geode/1.12.3/apache-geode-examples-1.12.3-src.tgz"
 ],
 "apache-geode-examples-1.13.3": [
 "geode/1.13.3/apache-geode-examples-1.13.3-src.tgz"
@@ -3403,8 +3418,8 @@
 "apache-geode-native-1.11.0": [
 "geode/1.11.0/apache-geode-native-1.11.0-src.tar.gz"
 ],
-"apache-geode-native-1.12.2": [
-"geode/1.12.2/apache-geode-native-1.12.2-src.tgz"
+"apache-geode-native-1.12.3": [
+"geode/1.12.3/apache-geode-native-1.12.3-src.tgz"
 ],
 "apache-geode-native-1.13.3": [
 "geode/1.13.3/apache-geode-native-1.13.3-src.tgz"
@@ -3978,16 +3993,9 @@
 "apache-ignite-2.9.1": [
 "ignite/2.9.1/apache-ignite-2.9.1-src.zip"
 ],
-"apache-ignite-3.0.0-alpha1": [
-"ignite/3.0.0-alpha1/apache-ignite-3.0.0-alpha1-src.zip"
-],
 "apache-ignite-3.0.0-alpha2": [
 "ignite/3.0.0-alpha2/apache-ignite-3.0.0-alpha2-src.zip",
 "ignite/3.0.0-alpha2/apache-ignite-3.0.0-alpha2.zip"
-],
-"ignite": [
-"ignite/3.0.0-alpha1/ignite",
-"ignite/3.0.0-alpha1/ignite.exe"
 ],
 "pyignite-0.4.0": [
 "ignite/pyignite/0.4.0/pyignite-0.4.0.tar.gz",
@@ -5023,8 +5031,8 @@
 "doxia-converter-1.2": [
 "maven/doxia/doxia-converter-1.2-source-release.zip"
 ],
-"doxia-sitetools-1.9.2": [
-"maven/doxia/doxia-sitetools-1.9.2-source-release.zip"
+"doxia-sitetools-1.10": [
+"maven/doxia/doxia-sitetools-1.10-source-release.zip"
 ],
 "enforcer-3.0.0-M3": [
 "maven/enforcer/enforcer-3.0.0-M3-source-release.zip"
@@ -10330,9 +10338,6 @@
 "apache-qpid-broker-j-8.0.5": [
 "qpid/broker-j/8.0.5/apache-qpid-broker-j-8.0.5-src.tar.gz"
 ],
-"apache-qpid-jms-0.58.0": [
-"qpid/jms/0.58.0/apache-qpid-jms-0.58.0-src.tar.gz"
-],
 "apache-qpid-jms-0.59.0": [
 "qpid/jms/0.59.0/apache-qpid-jms-0.59.0-src.tar.gz"
 ],
@@ -10351,20 +10356,17 @@
 "apache-qpid-protonj2-1.0.0-M2": [
 "qpid/protonj2/1.0.0-M2/apache-qpid-protonj2-1.0.0-M2-src.tar.gz"
 ],
-"qpid-dispatch-1.15.0": [
-"qpid/dispatch/1.15.0/qpid-dispatch-1.15.0.tar.gz"
-],
 "qpid-dispatch-1.16.0": [
 "qpid/dispatch/1.16.0/qpid-dispatch-1.16.0.tar.gz"
 ],
 "qpid-interop-test-0.2.0": [
 "qpid/interop-test/0.2.0/qpid-interop-test-0.2.0.tar.gz"
 ],
-"qpid-proton-0.33.0": [
-"qpid/proton/0.33.0/qpid-proton-0.33.0.tar.gz"
-],
 "qpid-proton-0.34.0": [
 "qpid/proton/0.34.0/qpid-proton-0.34.0.tar.gz"
+],
+"qpid-proton-0.35.0": [
+"qpid/proton/0.35.0/qpid-proton-0.35.0.tar.gz"
 ],
 "qpid-python-1.37.0": [
 "qpid/python/1.37.0/qpid-python-1.37.0.tar.gz"

@@ -7372,7 +7372,7 @@
 "category": "identity-management, Library, security, SDK",
 "created": "2015-10-24",
 "description": "Apache Fortress is a standards-based authorization system, written in Java, that provides role-based access control, delegated administration and password policy services using an LDAP backen.",
-"doap": "http://svn.apache.org/repos/asf/directory/site/trunk/content/doap_fortress.rdf",
+"doap": "https://raw.githubusercontent.com/apache/directory-site/master/static/doap_fortress.rdf",
 "download-page": "https://directory.apache.org/fortress/downloads.html",
 "homepage": "https://directory.apache.org/fortress/",
 "license": "http://spdx.org/licenses/Apache-2.0",
@@ -7393,7 +7393,7 @@
 "category": "identity-management, identity-provisioning, Kerberos, Library, security, SDK",
 "created": "2014-12-31",
 "description": "Apache Kerby is a Java Kerberos binding. It provides a rich, intuitive and interoperable implementation, library, KDC and various facilities that integrates PKI, OTP and token (OAuth2) as desired in modern environments such as cloud, Hadoop and mobile.",
-"doap": "http://svn.apache.org/repos/asf/directory/site/trunk/content/doap_kerby.rdf",
+"doap": "https://raw.githubusercontent.com/apache/directory-site/master/static/doap_kerby.rdf",
 "download-page": "https://directory.apache.org/kerby/downloads.html",
 "homepage": "https://directory.apache.org/kerby/",
 "license": "http://spdx.org/licenses/Apache-2.0",
@@ -15835,6 +15835,11 @@
 "pmc": "tez",
 "programming-language": "Java",
 "release": [
+{
+"created": "2021-07-01",
+"name": "Version 0.10.1",
+"revision": "0.10.1"
+},
 {
 "created": "2020-10-15",
 "name": "Version 0.10.0",
