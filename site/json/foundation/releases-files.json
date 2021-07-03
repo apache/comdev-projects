@@ -110,6 +110,10 @@
 "apache-airflow-2.1.0": [
 "airflow/2.1.0/apache-airflow-2.1.0-source.tar.gz"
 ],
+"apache-airflow-2.1.1": [
+"airflow/2.1.1/apache-airflow-2.1.1-source.tar.gz",
+"airflow/2.1.1/apache-airflow-2.1.1.tar.gz"
+],
 "apache-airflow-backport-providers-2021.2.5": [
 "airflow/backport-providers/apache-airflow-backport-providers-2021.2.5-source.tar.gz"
 ],
@@ -371,8 +375,8 @@
 "apache-airflow-providers-docker-2.0.0": [
 "airflow/providers/apache-airflow-providers-docker-2.0.0.tar.gz"
 ],
-"apache-airflow-providers-elasticsearch-2.0.1": [
-"airflow/providers/apache-airflow-providers-elasticsearch-2.0.1.tar.gz"
+"apache-airflow-providers-elasticsearch-2.0.2": [
+"airflow/providers/apache-airflow-providers-elasticsearch-2.0.2.tar.gz"
 ],
 "apache-airflow-providers-exasol-2.0.0": [
 "airflow/providers/apache-airflow-providers-exasol-2.0.0.tar.gz"
@@ -1917,20 +1921,14 @@
 ]
 },
 "cloudstack": {
-"apache-cloudstack-4.14.1.0": [
-"cloudstack/releases/4.14.1.0/apache-cloudstack-4.14.1.0-src.tar.bz2"
-],
-"apache-cloudstack-4.15.0.0": [
-"cloudstack/releases/4.15.0.0/apache-cloudstack-4.15.0.0-src.tar.bz2"
+"apache-cloudstack-4.15.1.0": [
+"cloudstack/releases/4.15.1.0/apache-cloudstack-4.15.1.0-src.tar.bz2"
 ],
 "apache-cloudstack-cloudmonkey-6.1.0": [
 "cloudstack/releases/cloudmonkey-6.1.0/apache-cloudstack-cloudmonkey-6.1.0-src.tar.bz2"
 ],
 "apache-cloudstack-ec2stack-0.8.0": [
 "cloudstack/releases/ec2stack-0.8.0/apache-cloudstack-ec2stack-0.8.0-src.tar.bz2"
-],
-"apache-cloudstack-primate-1.0": [
-"cloudstack/releases/4.15.0.0/apache-cloudstack-primate-1.0-src.tar.bz2"
 ]
 },
 "cocoon": {
@@ -5574,6 +5572,9 @@
 "netbeans/netbeans/12.3/nbms/ide/com-jcraft-jzlib.nbm",
 "netbeans/netbeans/12.4/nbms/ide/com-jcraft-jzlib.nbm"
 ],
+"launcher-12.5": [
+"netbeans/native/netbeans-launchers/12.5/launcher-12.5-source-release.zip"
+],
 "libs-c-kohlschutter-junixsocket.nbm": [
 "netbeans/netbeans/12.0/nbms/ide/libs-c-kohlschutter-junixsocket.nbm",
 "netbeans/netbeans/12.3/nbms/ide/libs-c-kohlschutter-junixsocket.nbm",
@@ -5661,6 +5662,9 @@
 ],
 "netbeans-html4j-1.7.1": [
 "netbeans/netbeans-html4j/netbeans-html4j-1.7.1/netbeans-html4j-1.7.1.zip"
+],
+"netbeans-html4j-1.7.2": [
+"netbeans/netbeans-html4j/netbeans-html4j-1.7.2/netbeans-html4j-1.7.2.zip"
 ],
 "netbeans-platform-12.0": [
 "netbeans/netbeans-platform/12.0/netbeans-platform-12.0-source.zip"
@@ -9763,6 +9767,9 @@
 ],
 "orc-1.6.8": [
 "orc/orc-1.6.8/orc-1.6.8.tar.gz"
+],
+"orc-1.6.9": [
+"orc/orc-1.6.9/orc-1.6.9.tar.gz"
 ]
 },
 "ozone": {
@@ -11319,8 +11326,8 @@
 "org.apache.sling.extensions.webconsolesecurityprovider-1.2.4": [
 "sling/org.apache.sling.extensions.webconsolesecurityprovider-1.2.4-source-release.zip"
 ],
-"org.apache.sling.feature-1.2.24": [
-"sling/org.apache.sling.feature-1.2.24-source-release.zip"
+"org.apache.sling.feature-1.2.26": [
+"sling/org.apache.sling.feature-1.2.26-source-release.zip"
 ],
 "org.apache.sling.feature.analyser-1.3.28": [
 "sling/org.apache.sling.feature.analyser-1.3.28-source-release.zip"
@@ -11336,8 +11343,8 @@
 "org.apache.sling.feature.diff-0.0.6": [
 "sling/org.apache.sling.feature.diff-0.0.6-source-release.zip"
 ],
-"org.apache.sling.feature.extension.apiregions-1.3.2": [
-"sling/org.apache.sling.feature.extension.apiregions-1.3.2-source-release.zip"
+"org.apache.sling.feature.extension.apiregions-1.3.4": [
+"sling/org.apache.sling.feature.extension.apiregions-1.3.4-source-release.zip"
 ],
 "org.apache.sling.feature.extension.content-1.0.10": [
 "sling/org.apache.sling.feature.extension.content-1.0.10-source-release.zip"
@@ -11974,8 +11981,8 @@
 "sling-slingstart-archetype-1.0.8": [
 "sling/sling-slingstart-archetype-1.0.8-source-release.zip"
 ],
-"slingfeature-maven-plugin-1.5.8": [
-"sling/slingfeature-maven-plugin-1.5.8-source-release.zip"
+"slingfeature-maven-plugin-1.5.10": [
+"sling/slingfeature-maven-plugin-1.5.10-source-release.zip"
 ],
 "slingstart-maven-plugin-1.9.12": [
 "sling/slingstart-maven-plugin-1.9.12-source-release.zip"
@@ -12218,6 +12225,9 @@
 ],
 "apache-superset-1.1.0": [
 "superset/1.1.0/apache-superset-1.1.0-source.tar.gz"
+],
+"apache-superset-1.2.0": [
+"superset/1.2.0/apache-superset-1.2.0-source.tar.gz"
 ],
 "apache-superset-incubating-0.34.0": [
 "superset/0.34.0/apache-superset-incubating-0.34.0-source.tar.gz"
@@ -12574,6 +12584,19 @@
 "tomcat/tomcat-10/v10.0.7/src/apache-tomcat-10.0.7-src.tar.gz",
 "tomcat/tomcat-10/v10.0.7/src/apache-tomcat-10.0.7-src.zip"
 ],
+"apache-tomcat-10.0.8": [
+"tomcat/tomcat-10/v10.0.8/bin/embed/apache-tomcat-10.0.8-embed.tar.gz",
+"tomcat/tomcat-10/v10.0.8/bin/embed/apache-tomcat-10.0.8-embed.zip",
+"tomcat/tomcat-10/v10.0.8/bin/apache-tomcat-10.0.8-deployer.tar.gz",
+"tomcat/tomcat-10/v10.0.8/bin/apache-tomcat-10.0.8-deployer.zip",
+"tomcat/tomcat-10/v10.0.8/bin/apache-tomcat-10.0.8-fulldocs.tar.gz",
+"tomcat/tomcat-10/v10.0.8/bin/apache-tomcat-10.0.8-windows-x64.zip",
+"tomcat/tomcat-10/v10.0.8/bin/apache-tomcat-10.0.8.exe",
+"tomcat/tomcat-10/v10.0.8/bin/apache-tomcat-10.0.8.tar.gz",
+"tomcat/tomcat-10/v10.0.8/bin/apache-tomcat-10.0.8.zip",
+"tomcat/tomcat-10/v10.0.8/src/apache-tomcat-10.0.8-src.tar.gz",
+"tomcat/tomcat-10/v10.0.8/src/apache-tomcat-10.0.8-src.zip"
+],
 "apache-tomcat-10.1.0-M1": [
 "tomcat/tomcat-10/v10.1.0-M1/bin/embed/apache-tomcat-10.1.0-M1-embed.tar.gz",
 "tomcat/tomcat-10/v10.1.0-M1/bin/embed/apache-tomcat-10.1.0-M1-embed.zip",
@@ -12586,6 +12609,19 @@
 "tomcat/tomcat-10/v10.1.0-M1/bin/apache-tomcat-10.1.0-M1.zip",
 "tomcat/tomcat-10/v10.1.0-M1/src/apache-tomcat-10.1.0-M1-src.tar.gz",
 "tomcat/tomcat-10/v10.1.0-M1/src/apache-tomcat-10.1.0-M1-src.zip"
+],
+"apache-tomcat-10.1.0-M2": [
+"tomcat/tomcat-10/v10.1.0-M2/bin/embed/apache-tomcat-10.1.0-M2-embed.tar.gz",
+"tomcat/tomcat-10/v10.1.0-M2/bin/embed/apache-tomcat-10.1.0-M2-embed.zip",
+"tomcat/tomcat-10/v10.1.0-M2/bin/apache-tomcat-10.1.0-M2-deployer.tar.gz",
+"tomcat/tomcat-10/v10.1.0-M2/bin/apache-tomcat-10.1.0-M2-deployer.zip",
+"tomcat/tomcat-10/v10.1.0-M2/bin/apache-tomcat-10.1.0-M2-fulldocs.tar.gz",
+"tomcat/tomcat-10/v10.1.0-M2/bin/apache-tomcat-10.1.0-M2-windows-x64.zip",
+"tomcat/tomcat-10/v10.1.0-M2/bin/apache-tomcat-10.1.0-M2.exe",
+"tomcat/tomcat-10/v10.1.0-M2/bin/apache-tomcat-10.1.0-M2.tar.gz",
+"tomcat/tomcat-10/v10.1.0-M2/bin/apache-tomcat-10.1.0-M2.zip",
+"tomcat/tomcat-10/v10.1.0-M2/src/apache-tomcat-10.1.0-M2-src.tar.gz",
+"tomcat/tomcat-10/v10.1.0-M2/src/apache-tomcat-10.1.0-M2-src.zip"
 ],
 "apache-tomcat-7.0.109": [
 "tomcat/tomcat-7/v7.0.109/bin/embed/apache-tomcat-7.0.109-embed.tar.gz",
@@ -12625,6 +12661,19 @@
 "tomcat/tomcat-9/v9.0.48/bin/apache-tomcat-9.0.48.zip",
 "tomcat/tomcat-9/v9.0.48/src/apache-tomcat-9.0.48-src.tar.gz",
 "tomcat/tomcat-9/v9.0.48/src/apache-tomcat-9.0.48-src.zip"
+],
+"apache-tomcat-9.0.50": [
+"tomcat/tomcat-9/v9.0.50/bin/embed/apache-tomcat-9.0.50-embed.tar.gz",
+"tomcat/tomcat-9/v9.0.50/bin/embed/apache-tomcat-9.0.50-embed.zip",
+"tomcat/tomcat-9/v9.0.50/bin/apache-tomcat-9.0.50-deployer.tar.gz",
+"tomcat/tomcat-9/v9.0.50/bin/apache-tomcat-9.0.50-deployer.zip",
+"tomcat/tomcat-9/v9.0.50/bin/apache-tomcat-9.0.50-fulldocs.tar.gz",
+"tomcat/tomcat-9/v9.0.50/bin/apache-tomcat-9.0.50-windows-x64.zip",
+"tomcat/tomcat-9/v9.0.50/bin/apache-tomcat-9.0.50.exe",
+"tomcat/tomcat-9/v9.0.50/bin/apache-tomcat-9.0.50.tar.gz",
+"tomcat/tomcat-9/v9.0.50/bin/apache-tomcat-9.0.50.zip",
+"tomcat/tomcat-9/v9.0.50/src/apache-tomcat-9.0.50-src.tar.gz",
+"tomcat/tomcat-9/v9.0.50/src/apache-tomcat-9.0.50-src.zip"
 ],
 "jakartaee-migration-1.0.0": [
 "tomcat/jakartaee-migration/v1.0.0/source/jakartaee-migration-1.0.0-src.tar.gz",
@@ -13061,6 +13110,9 @@
 ],
 "uimaj-2.10.4": [
 "uima/uimaj-2.10.4/uimaj-2.10.4-source-release.zip"
+],
+"uimaj-2.11.0": [
+"uima/uimaj-2.11.0/uimaj-2.11.0-source-release.zip"
 ],
 "uimaj-3.2.0": [
 "uima/uimaj-3.2.0/uimaj-3.2.0-source-release.zip"
