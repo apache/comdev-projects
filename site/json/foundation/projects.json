@@ -2511,6 +2511,36 @@
 ],
 "shortdesc": "Apache Shindig software is an OpenSocial container and helps you to start hosting OpenSocial apps quickly by providing the code to render gadgets, proxy requests, and handle REST and RPC requests."
 },
+"attic-sqoop": {
+"bug-database": "http://issues.apache.org/jira/browse/SQOOP",
+"category": "retired, big-data",
+"created": "2014-09-21",
+"doap": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/sqoop.rdf",
+"download-page": "http://sqoop.apache.org/",
+"homepage": "http://sqoop.apache.org",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "http://sqoop.apache.org/mail-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:dev@sqoop.apache.org",
+"name": "Apache Sqoop"
+}
+],
+"name": "Apache Sqoop",
+"pmc": "attic",
+"programming-language": "Java",
+"release": [
+{
+"created": "2014-08-20",
+"name": "Apache Sqoop 1.4.5",
+"revision": "1.4.5"
+}
+],
+"repository": [
+"https://git-wip-us.apache.org/repos/asf/sqoop.git"
+],
+"shortdesc": "Apache Sqoop(TM) is a tool designed for efficiently transferring bulk data between Apache Hadoop and structured datastores such as relational databases."
+},
 "attic-stanbol": {
 "bug-database": "https://issues.apache.org/jira/browse/STANBOL",
 "category": "retired, content",
@@ -15478,36 +15508,6 @@
 "pmc": "spark",
 "programming-language": "Java, Scala, Python, R, SQL, JDBC",
 "shortdesc": "Apache Spark is a fast and general engine for large-scale data processing."
-},
-"sqoop": {
-"bug-database": "http://issues.apache.org/jira/browse/SQOOP",
-"category": "big-data, retired",
-"created": "2014-09-21",
-"doap": "http://sqoop.apache.org/doap/doap_Sqoop.rdf",
-"download-page": "http://sqoop.apache.org/",
-"homepage": "http://sqoop.apache.org",
-"license": "http://spdx.org/licenses/Apache-2.0",
-"mailing-list": "http://sqoop.apache.org/mail-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:dev@sqoop.apache.org",
-"name": "Apache Sqoop"
-}
-],
-"name": "Apache Sqoop",
-"pmc": "attic",
-"programming-language": "Java",
-"release": [
-{
-"created": "2014-08-20",
-"name": "Apache Sqoop 1.4.5",
-"revision": "1.4.5"
-}
-],
-"repository": [
-"https://git-wip-us.apache.org/repos/asf/sqoop.git"
-],
-"shortdesc": "Apache Sqoop(TM) is a tool designed for efficiently transferring bulk data between Apache Hadoop and structured datastores such as relational databases."
 },
 "steve": {
 "bug-database": "https://issues.apache.org/jira/browse/STEVE",
