@@ -104,15 +104,9 @@
 "airflow-chart-1.0.0": [
 "airflow/helm-chart/1.0.0/airflow-chart-1.0.0-source.tar.gz"
 ],
-"apache-airflow-1.10.15": [
-"airflow/1.10.15/apache-airflow-1.10.15-source.tar.gz"
-],
-"apache-airflow-2.1.0": [
-"airflow/2.1.0/apache-airflow-2.1.0-source.tar.gz"
-],
-"apache-airflow-2.1.1": [
-"airflow/2.1.1/apache-airflow-2.1.1-source.tar.gz",
-"airflow/2.1.1/apache-airflow-2.1.1.tar.gz"
+"apache-airflow-2.1.2": [
+"airflow/2.1.2/apache-airflow-2.1.2-source.tar.gz",
+"airflow/2.1.2/apache-airflow-2.1.2.tar.gz"
 ],
 "apache-airflow-backport-providers-2021.2.5": [
 "airflow/backport-providers/apache-airflow-backport-providers-2021.2.5-source.tar.gz"
@@ -525,22 +519,11 @@
 ]
 },
 "ant": {
-"apache-ant-1.10.10": [
-"ant/source/apache-ant-1.10.10-src.tar.bz2",
-"ant/source/apache-ant-1.10.10-src.tar.gz",
-"ant/source/apache-ant-1.10.10-src.tar.xz",
-"ant/source/apache-ant-1.10.10-src.zip"
-],
 "apache-ant-1.10.11": [
 "ant/source/apache-ant-1.10.11-src.tar.bz2",
 "ant/source/apache-ant-1.10.11-src.tar.gz",
 "ant/source/apache-ant-1.10.11-src.tar.xz",
 "ant/source/apache-ant-1.10.11-src.zip"
-],
-"apache-ant-1.9.15": [
-"ant/source/apache-ant-1.9.15-src.tar.bz2",
-"ant/source/apache-ant-1.9.15-src.tar.gz",
-"ant/source/apache-ant-1.9.15-src.zip"
 ],
 "apache-ant-1.9.16": [
 "ant/source/apache-ant-1.9.16-src.tar.bz2",
@@ -598,8 +581,8 @@
 "apache-apisix-dashboard-2.7": [
 "apisix/dashboard/2.7/apache-apisix-dashboard-2.7-src.tgz"
 ],
-"apache-apisix-ingress-controller-1.0.0": [
-"apisix/ingress-controller/1.0.0/apache-apisix-ingress-controller-1.0.0-src.tgz"
+"apache-apisix-ingress-controller-1.1.0": [
+"apisix/ingress-controller/1.1.0/apache-apisix-ingress-controller-1.1.0-src.tgz"
 ],
 "apisix-java-plugin-runner-0.1.0": [
 "apisix/java-plugin-runner/0.1/apisix-java-plugin-runner-0.1.0-src.tgz"
@@ -2155,10 +2138,6 @@
 "commons/collections/source/commons-collections4-4.4-src.tar.gz",
 "commons/collections/source/commons-collections4-4.4-src.zip"
 ],
-"commons-compress-1.20": [
-"commons/compress/source/commons-compress-1.20-src.tar.gz",
-"commons/compress/source/commons-compress-1.20-src.zip"
-],
 "commons-compress-1.21": [
 "commons/compress/source/commons-compress-1.21-src.tar.gz",
 "commons/compress/source/commons-compress-1.21-src.zip"
@@ -2405,8 +2384,8 @@
 "cordova-ios-6.2.0": [
 "cordova/platforms/cordova-ios-6.2.0.tgz"
 ],
-"cordova-js-6.0.0": [
-"cordova/tools/cordova-js-6.0.0.tgz"
+"cordova-js-6.1.0": [
+"cordova/tools/cordova-js-6.1.0.tgz"
 ],
 "cordova-lib-10.0.0": [
 "cordova/tools/cordova-lib-10.0.0.tgz"
@@ -5044,8 +5023,8 @@
 ]
 },
 "maven": {
-"apache-23": [
-"maven/pom/apache-23-source-release.zip"
+"apache-24": [
+"maven/pom/apache-24-source-release.zip"
 ],
 "apache-maven-3.0.5": [
 "maven/maven-3/3.0.5/source/apache-maven-3.0.5-src.tar.gz",
@@ -9537,6 +9516,9 @@
 "nifi-1.13.2": [
 "nifi/1.13.2/nifi-1.13.2-source-release.zip"
 ],
+"nifi-1.14.0": [
+"nifi/1.14.0/nifi-1.14.0-source-release.zip"
+],
 "nifi-fds-0.2.0": [
 "nifi/nifi-fds/nifi-fds-0.2.0/nifi-fds-0.2.0-source-release.zip"
 ],
@@ -11071,6 +11053,9 @@
 ],
 "org.apache.sling.auth.openid-1.0.4": [
 "sling/org.apache.sling.auth.openid-1.0.4-source-release.zip"
+],
+"org.apache.sling.auth.saml2-0.2.6": [
+"sling/org.apache.sling.auth.saml2-0.2.6-source-release.zip"
 ],
 "org.apache.sling.auth.selector-1.0.6": [
 "sling/org.apache.sling.auth.selector-1.0.6-source-release.zip"
