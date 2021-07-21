@@ -2341,9 +2341,9 @@
 "commons/validator/source/commons-validator-1.7-src.tar.gz",
 "commons/validator/source/commons-validator-1.7-src.zip"
 ],
-"commons-vfs-2.8.0": [
-"commons/vfs/source/commons-vfs-2.8.0-src.tar.gz",
-"commons/vfs/source/commons-vfs-2.8.0-src.zip"
+"commons-vfs-2.9.0": [
+"commons/vfs/source/commons-vfs-2.9.0-src.tar.gz",
+"commons/vfs/source/commons-vfs-2.9.0-src.zip"
 ],
 "commons-weaver-2.0": [
 "commons/weaver/source/commons-weaver-2.0-src.tar.gz",
@@ -2357,8 +2357,8 @@
 "cordova-amazon-fireos-3.6.3": [
 "cordova/platforms/cordova-amazon-fireos-3.6.3.tgz"
 ],
-"cordova-android-9.1.0": [
-"cordova/platforms/cordova-android-9.1.0.tgz"
+"cordova-android-10.0.0": [
+"cordova/platforms/cordova-android-10.0.0.tgz"
 ],
 "cordova-app-hello-world-5.0.0": [
 "cordova/templates/cordova-app-hello-world-5.0.0.tgz"
@@ -2609,9 +2609,6 @@
 ],
 "apache-datasketches-pig-1.0.0-incubating": [
 "datasketches/pig/1.0.0-incubating/apache-datasketches-pig-1.0.0-incubating-src.zip"
-],
-"apache-datasketches-postgresql-1.3.0-incubating": [
-"datasketches/postgresql/1.3.0-incubating/apache-datasketches-postgresql-1.3.0-incubating-src.zip"
 ],
 "apache-datasketches-postgresql-1.4.0": [
 "datasketches/postgresql/1.4.0/apache-datasketches-postgresql-1.4.0-src.zip"
@@ -3783,6 +3780,7 @@
 "hbase/2.2.7/RELEASENOTES.md",
 "hbase/2.3.5/RELEASENOTES.md",
 "hbase/2.4.4/RELEASENOTES.md",
+"hbase/3.0.0-alpha-1/RELEASENOTES.md",
 "hbase/hbase-filesystem-1.0.0-alpha1/RELEASENOTES.md",
 "hbase/hbase-operator-tools-1.1.0/RELEASENOTES.md",
 "hbase/hbase-thirdparty-3.5.1/RELEASENOTES.md"
@@ -3804,6 +3802,9 @@
 ],
 "hbase-2.4.4": [
 "hbase/2.4.4/hbase-2.4.4-src.tar.gz"
+],
+"hbase-3.0.0-alpha-1": [
+"hbase/3.0.0-alpha-1/hbase-3.0.0-alpha-1-src.tar.gz"
 ],
 "hbase-connectors-1.0.0": [
 "hbase/hbase-connectors-1.0.0/hbase-connectors-1.0.0-src.tar.gz"
@@ -4413,11 +4414,8 @@
 "jackrabbit-jca-2.21.7": [
 "jackrabbit/2.21.7/jackrabbit-jca-2.21.7.rar"
 ],
-"jackrabbit-oak-1.22.7": [
-"jackrabbit/oak/1.22.7/jackrabbit-oak-1.22.7-src.zip"
-],
-"jackrabbit-oak-1.38.0": [
-"jackrabbit/oak/1.38.0/jackrabbit-oak-1.38.0-src.zip"
+"jackrabbit-oak-1.22.8": [
+"jackrabbit/oak/1.22.8/jackrabbit-oak-1.22.8-src.zip"
 ],
 "jackrabbit-oak-1.4.26": [
 "jackrabbit/oak/1.4.26/jackrabbit-oak-1.4.26-src.zip"
@@ -4433,9 +4431,6 @@
 ],
 "jackrabbit-ocm-2.0.0": [
 "jackrabbit/ocm/2.0.0/jackrabbit-ocm-2.0.0-source-release.zip"
-],
-"oak-segment-tar-0.0.16": [
-"jackrabbit/oak/oak-segment-tar/0.0.16/oak-segment-tar-0.0.16-source-release.zip"
 ]
 },
 "james": {
@@ -9656,6 +9651,12 @@
 "openmeetings/6.0.0/bin/apache-openmeetings-6.0.0.zip",
 "openmeetings/6.0.0/src/apache-openmeetings-6.0.0-src.tar.gz",
 "openmeetings/6.0.0/src/apache-openmeetings-6.0.0-src.zip"
+],
+"apache-openmeetings-6.1.0": [
+"openmeetings/6.1.0/bin/apache-openmeetings-6.1.0.tar.gz",
+"openmeetings/6.1.0/bin/apache-openmeetings-6.1.0.zip",
+"openmeetings/6.1.0/src/apache-openmeetings-6.1.0-src.tar.gz",
+"openmeetings/6.1.0/src/apache-openmeetings-6.1.0-src.zip"
 ]
 },
 "opennlp": {
@@ -10469,6 +10470,9 @@
 "ratis": {
 "apache-ratis-2.0.0": [
 "ratis/2.0.0/apache-ratis-2.0.0-src.tar.gz"
+],
+"apache-ratis-2.1.0": [
+"ratis/2.1.0/apache-ratis-2.1.0-src.tar.gz"
 ],
 "apache-ratis-incubating-0.1.0-alpha": [
 "ratis/0.1.0-alpha/apache-ratis-incubating-0.1.0-alpha-src.tar.gz"
