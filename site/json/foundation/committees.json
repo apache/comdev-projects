@@ -4040,10 +4040,6 @@
 "date": "2010-03-17",
 "name": "Bill Barker"
 },
-"bodewig": {
-"date": "2009-03-08",
-"name": "Stefan Bodewig"
-},
 "brentworden": {
 "date": "2007-06-20",
 "name": "Brent Worden"
@@ -9992,7 +9988,6 @@
 "id": "incubator",
 "name": "Apache Incubator",
 "rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/incubator.rdf",
-"reporting": 0,
 "roster": {
 "aajisaka": {
 "date": "2018-12-08",
@@ -12230,7 +12225,7 @@
 "shortdesc": "Simplify and normalize the deployment and implementation of secure Hadoop clusters"
 },
 {
-"chair": "adar",
+"chair": "awong",
 "charter": "The mission of Apache Kudu is the creation and maintenance of software related to a distributed columnar storage engine built for the Apache Hadoop ecosystem.",
 "established": "2016-07",
 "group": "kudu",
@@ -15498,7 +15493,7 @@
 "shortdesc": "a platform for building serverless applications with functions"
 },
 {
-"chair": "omalley",
+"chair": "dongjoon",
 "charter": "The mission of ORC is the creation and maintenance of software related to the smallest, fastest columnar storage for Hadoop workloads",
 "established": "2015-04",
 "group": "orc",
@@ -16224,6 +16219,62 @@
 }
 },
 "shortdesc": "Platform for analyzing large data sets"
+},
+{
+"chair": "kishoreg",
+"established": "2021-07",
+"group": "pinot",
+"homepage": "http://pinot.apache.org",
+"id": "pinot",
+"name": "Apache Pinot",
+"reporting": 2,
+"roster": {
+"felixcheung": {
+"date": "2021-07-21",
+"name": "Felix Cheung"
+},
+"jackie": {
+"date": "2021-07-21",
+"name": "Jackie Jiang"
+},
+"jim": {
+"date": "2021-07-21",
+"name": "Jim Jagielski"
+},
+"kishoreg": {
+"date": "2021-07-21",
+"name": "Kishore G"
+},
+"mayanks": {
+"date": "2021-07-21",
+"name": "Mayank Shrivastava"
+},
+"mcvsubbu": {
+"date": "2021-07-21",
+"name": "Subbu Subramaniam"
+},
+"nehapawar": {
+"date": "2021-07-21",
+"name": "Neha Pawar"
+},
+"olamy": {
+"date": "2021-07-21",
+"name": "Olivier Lamy"
+},
+"siddteotia": {
+"date": "2021-07-21",
+"name": "Siddharth Teotia"
+},
+"snlee": {
+"date": "2021-07-21",
+"name": "Seunghyun Lee"
+},
+"xiangfu": {
+"date": "2021-07-21",
+"name": "Xiang Fu"
+}
+},
+"shortdesc": "distributed OLAP data store to provide Real-time Analytics to power wide variety of analytical use case"
 },
 {
 "chair": "rwhitcomb",
