@@ -3893,6 +3893,9 @@
 ],
 "hive-storage-2.7.2": [
 "hive/hive-storage-2.7.2/hive-storage-2.7.2.tar.gz"
+],
+"hive-storage-2.8.0": [
+"hive/hive-storage-2.8.0/hive-storage-2.8.0.tar.gz"
 ]
 },
 "httpcomponents": {
@@ -4258,11 +4261,6 @@
 ],
 "apache-pegasus-2.2.0-incubating": [
 "incubator/pegasus/2.2.0/apache-pegasus-2.2.0-incubating-src.zip"
-]
-},
-"incubator-pinot": {
-"apache-pinot-incubating-0.7.1": [
-"incubator/pinot/apache-pinot-incubating-0.7.1/apache-pinot-incubating-0.7.1-src.tar.gz"
 ]
 },
 "incubator-ponymail": {
@@ -10012,6 +10010,11 @@
 "pig/pig-0.17.0/pig-0.17.0.tar.gz"
 ]
 },
+"pinot": {
+"apache-pinot-incubating-0.7.1": [
+"pinot/apache-pinot-incubating-0.7.1/apache-pinot-incubating-0.7.1-src.tar.gz"
+]
+},
 "pivot": {
 "apache-pivot-2.0.5": [
 "pivot/source/apache-pivot-2.0.5-src.tar.gz",
@@ -11108,110 +11111,110 @@
 "org.apache.sling.clam-1.1.0": [
 "sling/org.apache.sling.clam-1.1.0-source-release.zip"
 ],
-"org.apache.sling.cms-1.0.2": [
-"sling/org.apache.sling.cms-1.0.2-source-release.zip"
+"org.apache.sling.cms-1.0.4": [
+"sling/org.apache.sling.cms-1.0.4-source-release.zip"
 ],
-"org.apache.sling.cms.feature-1.0.2-author.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.0.2-author.slingosgifeature"
+"org.apache.sling.cms.feature-1.0.4-author.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.0.4-author.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.0.2-base.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.0.2-base.slingosgifeature"
+"org.apache.sling.cms.feature-1.0.4-base.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.0.4-base.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.0.2-boot.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.0.2-boot.slingosgifeature"
+"org.apache.sling.cms.feature-1.0.4-boot.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.0.4-boot.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.0.2-caconfig.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.0.2-caconfig.slingosgifeature"
+"org.apache.sling.cms.feature-1.0.4-caconfig.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.0.4-caconfig.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.0.2-cms.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.0.2-cms.slingosgifeature"
+"org.apache.sling.cms.feature-1.0.4-cms.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.0.4-cms.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.0.2-composite-runtime.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.0.2-composite-runtime.slingosgifeature"
+"org.apache.sling.cms.feature-1.0.4-composite-runtime.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.0.4-composite-runtime.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.0.2-composite-seed.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.0.2-composite-seed.slingosgifeature"
+"org.apache.sling.cms.feature-1.0.4-composite-seed.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.0.4-composite-seed.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.0.2-composum.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.0.2-composum.slingosgifeature"
+"org.apache.sling.cms.feature-1.0.4-composum.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.0.4-composum.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.0.2-discovery.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.0.2-discovery.slingosgifeature"
+"org.apache.sling.cms.feature-1.0.4-discovery.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.0.4-discovery.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.0.2-distribution.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.0.2-distribution.slingosgifeature"
+"org.apache.sling.cms.feature-1.0.4-distribution.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.0.4-distribution.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.0.2-event.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.0.2-event.slingosgifeature"
+"org.apache.sling.cms.feature-1.0.4-event.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.0.4-event.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.0.2-feature.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.0.2-feature.slingosgifeature"
+"org.apache.sling.cms.feature-1.0.4-feature.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.0.4-feature.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.0.2-framework-properties.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.0.2-framework-properties.slingosgifeature"
+"org.apache.sling.cms.feature-1.0.4-framework-properties.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.0.4-framework-properties.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.0.2-groovy.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.0.2-groovy.slingosgifeature"
+"org.apache.sling.cms.feature-1.0.4-groovy.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.0.4-groovy.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.0.2-healthcheck.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.0.2-healthcheck.slingosgifeature"
+"org.apache.sling.cms.feature-1.0.4-healthcheck.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.0.4-healthcheck.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.0.2-healthchecks.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.0.2-healthchecks.slingosgifeature"
+"org.apache.sling.cms.feature-1.0.4-healthchecks.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.0.4-healthchecks.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.0.2-maintenance.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.0.2-maintenance.slingosgifeature"
+"org.apache.sling.cms.feature-1.0.4-maintenance.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.0.4-maintenance.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.0.2-models-jacksonexporter.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.0.2-models-jacksonexporter.slingosgifeature"
+"org.apache.sling.cms.feature-1.0.4-models-jacksonexporter.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.0.4-models-jacksonexporter.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.0.2-oak_base.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.0.2-oak_base.slingosgifeature"
+"org.apache.sling.cms.feature-1.0.4-oak_base.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.0.4-oak_base.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.0.2-reference.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.0.2-reference.slingosgifeature"
+"org.apache.sling.cms.feature-1.0.4-reference.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.0.4-reference.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.0.2-renderer.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.0.2-renderer.slingosgifeature"
+"org.apache.sling.cms.feature-1.0.4-renderer.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.0.4-renderer.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.0.2-scripting.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.0.2-scripting.slingosgifeature"
+"org.apache.sling.cms.feature-1.0.4-scripting.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.0.4-scripting.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.0.2-segment.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.0.2-segment.slingosgifeature"
+"org.apache.sling.cms.feature-1.0.4-segment.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.0.4-segment.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.0.2-slingcms-author.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.0.2-slingcms-author.slingosgifeature"
+"org.apache.sling.cms.feature-1.0.4-slingcms-author.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.0.4-slingcms-author.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.0.2-slingcms-composite-runtime.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.0.2-slingcms-composite-runtime.slingosgifeature"
+"org.apache.sling.cms.feature-1.0.4-slingcms-composite-runtime.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.0.4-slingcms-composite-runtime.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.0.2-slingcms-composite-seed.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.0.2-slingcms-composite-seed.slingosgifeature"
+"org.apache.sling.cms.feature-1.0.4-slingcms-composite-seed.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.0.4-slingcms-composite-seed.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.0.2-slingcms-renderer.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.0.2-slingcms-renderer.slingosgifeature"
+"org.apache.sling.cms.feature-1.0.4-slingcms-renderer.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.0.4-slingcms-renderer.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.0.2-slingcms-standalone.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.0.2-slingcms-standalone.slingosgifeature"
+"org.apache.sling.cms.feature-1.0.4-slingcms-standalone.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.0.4-slingcms-standalone.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.0.2-slingcms-upgrade.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.0.2-slingcms-upgrade.slingosgifeature"
+"org.apache.sling.cms.feature-1.0.4-slingcms-upgrade.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.0.4-slingcms-upgrade.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.0.2-slingcms_standalone_far.far": [
-"sling/org.apache.sling.cms.feature-1.0.2-slingcms_standalone_far.far"
+"org.apache.sling.cms.feature-1.0.4-slingcms_standalone_far.far": [
+"sling/org.apache.sling.cms.feature-1.0.4-slingcms_standalone_far.far"
 ],
-"org.apache.sling.cms.feature-1.0.2-slingcms_upgrade_far.far": [
-"sling/org.apache.sling.cms.feature-1.0.2-slingcms_upgrade_far.far"
+"org.apache.sling.cms.feature-1.0.4-slingcms_upgrade_far.far": [
+"sling/org.apache.sling.cms.feature-1.0.4-slingcms_upgrade_far.far"
 ],
-"org.apache.sling.cms.feature-1.0.2-standalone.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.0.2-standalone.slingosgifeature"
+"org.apache.sling.cms.feature-1.0.4-standalone.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.0.4-standalone.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.0.2-validation.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.0.2-validation.slingosgifeature"
+"org.apache.sling.cms.feature-1.0.4-validation.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.0.4-validation.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.0.2-webconsole.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.0.2-webconsole.slingosgifeature"
+"org.apache.sling.cms.feature-1.0.4-webconsole.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.0.4-webconsole.slingosgifeature"
 ],
 "org.apache.sling.commons.clam-2.0.0": [
 "sling/org.apache.sling.commons.clam-2.0.0-source-release.zip"
