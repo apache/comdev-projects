@@ -160,6 +160,7 @@ files = []
 unreportedError = False # any errors not yet mailed?
 for s in itemlist :
     url = s.childNodes[0].data
+    rdf = None # avoid stale contents if read fails
     try:
         rdf = URLopen(url).read()
         rdfxml = ET.fromstring(rdf)
