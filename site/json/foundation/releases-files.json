@@ -1195,8 +1195,8 @@
 "apache-camel-3.10.0": [
 "camel/apache-camel/3.10.0/apache-camel-3.10.0-src.zip"
 ],
-"apache-camel-3.11.0": [
-"camel/apache-camel/3.11.0/apache-camel-3.11.0-src.zip"
+"apache-camel-3.11.1": [
+"camel/apache-camel/3.11.1/apache-camel-3.11.1-src.zip"
 ],
 "apache-camel-3.4.6": [
 "camel/apache-camel/3.4.6/apache-camel-3.4.6-src.zip"
@@ -1403,6 +1403,9 @@
 ],
 "apache-carbondata-2.1.1": [
 "carbondata/2.1.1/apache-carbondata-2.1.1-source-release.zip"
+],
+"apache-carbondata-2.2.0": [
+"carbondata/2.2.0/apache-carbondata-2.2.0-source-release.zip"
 ]
 },
 "cassandra": {
@@ -2842,6 +2845,9 @@
 "apache-dubbo-2.7.12": [
 "dubbo/2.7.12/apache-dubbo-2.7.12-src.zip"
 ],
+"apache-dubbo-2.7.13": [
+"dubbo/2.7.13/apache-dubbo-2.7.13-src.zip"
+],
 "apache-dubbo-2.7.7": [
 "dubbo/2.7.7/apache-dubbo-2.7.7-src.zip"
 ],
@@ -3400,6 +3406,9 @@
 ]
 },
 "flink": {
+"apache-flink-1.11.4": [
+"flink/flink-1.11.4/python/apache-flink-1.11.4.tar.gz"
+],
 "apache-flink-1.12.4": [
 "flink/flink-1.12.4/python/apache-flink-1.12.4.tar.gz"
 ],
@@ -3423,6 +3432,9 @@
 ],
 "apache-flink-statefun-3.0.0": [
 "flink/flink-statefun-3.0.0/apache-flink-statefun-3.0.0.tar.gz"
+],
+"flink-1.11.4": [
+"flink/flink-1.11.4/flink-1.11.4-src.tgz"
 ],
 "flink-1.12.4": [
 "flink/flink-1.12.4/flink-1.12.4-src.tgz"
@@ -4225,8 +4237,14 @@
 "apache-hop-0.70-incubating": [
 "incubator/hop/0.70/apache-hop-0.70-incubating.tar.gz"
 ],
+"apache-hop-0.99-incubating": [
+"incubator/hop/0.99/apache-hop-0.99-incubating-src.tar.gz"
+],
 "apache-hop-client-0.70-incubating": [
 "incubator/hop/0.70/apache-hop-client-0.70-incubating.zip"
+],
+"apache-hop-client-0.99-incubating": [
+"incubator/hop/0.99/apache-hop-client-0.99-incubating.zip"
 ]
 },
 "incubator-inlong": {
@@ -9716,8 +9734,8 @@
 ]
 },
 "openwebbeans": {
-"meecrowave-1.2.11": [
-"openwebbeans/meecrowave/1.2.11/meecrowave-1.2.11-source-release.zip"
+"meecrowave-1.2.12": [
+"openwebbeans/meecrowave/1.2.12/meecrowave-1.2.12-source-release.zip"
 ],
 "openwebbeans-1.2.8": [
 "openwebbeans/1.2.8/openwebbeans-1.2.8-source-release.zip"
@@ -12782,6 +12800,19 @@
 ]
 },
 "tomcat": {
+"apache-tomcat-10.0.10": [
+"tomcat/tomcat-10/v10.0.10/bin/embed/apache-tomcat-10.0.10-embed.tar.gz",
+"tomcat/tomcat-10/v10.0.10/bin/embed/apache-tomcat-10.0.10-embed.zip",
+"tomcat/tomcat-10/v10.0.10/bin/apache-tomcat-10.0.10-deployer.tar.gz",
+"tomcat/tomcat-10/v10.0.10/bin/apache-tomcat-10.0.10-deployer.zip",
+"tomcat/tomcat-10/v10.0.10/bin/apache-tomcat-10.0.10-fulldocs.tar.gz",
+"tomcat/tomcat-10/v10.0.10/bin/apache-tomcat-10.0.10-windows-x64.zip",
+"tomcat/tomcat-10/v10.0.10/bin/apache-tomcat-10.0.10.exe",
+"tomcat/tomcat-10/v10.0.10/bin/apache-tomcat-10.0.10.tar.gz",
+"tomcat/tomcat-10/v10.0.10/bin/apache-tomcat-10.0.10.zip",
+"tomcat/tomcat-10/v10.0.10/src/apache-tomcat-10.0.10-src.tar.gz",
+"tomcat/tomcat-10/v10.0.10/src/apache-tomcat-10.0.10-src.zip"
+],
 "apache-tomcat-10.0.8": [
 "tomcat/tomcat-10/v10.0.8/bin/embed/apache-tomcat-10.0.8-embed.tar.gz",
 "tomcat/tomcat-10/v10.0.8/bin/embed/apache-tomcat-10.0.8-embed.zip",
