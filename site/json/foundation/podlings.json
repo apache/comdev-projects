@@ -112,8 +112,16 @@
 "started": "2021-06"
 },
 "liminal": {
-"description": "Apache Linkis is a computation middleware project, which decouples the upper applications and the underlying data engines, provides standardized interfaces (REST, JDBC, WebSocket etc.) to easily connect to various underlying engines (Spark, Presto, Flink, etc.).",
+"description": "Apache Liminal is an end-to-end platform for data engineers and scientists, allowing them to build, train and deploy machine learning models in a robust and agile way.",
 "homepage": "http://liminal.incubator.apache.org/",
+"name": "Apache Liminal (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2020-05"
+},
+"linkis": {
+"description": "Apache Linkis is a computation middleware project, which decouples the upper applications and the underlying data engines, provides standardized interfaces (REST, JDBC, WebSocket etc.) to easily connect to various underlying engines (Spark, Presto, Flink, etc.).",
+"homepage": "http://linkis.incubator.apache.org/",
 "name": "Apache Linkis (Incubating)",
 "pmc": "incubator",
 "podling": true,
