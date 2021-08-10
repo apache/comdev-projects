@@ -2472,8 +2472,8 @@
 "cordova-plugin-battery-status-2.0.3": [
 "cordova/plugins/cordova-plugin-battery-status-2.0.3.tgz"
 ],
-"cordova-plugin-camera-5.0.2": [
-"cordova/plugins/cordova-plugin-camera-5.0.2.tgz"
+"cordova-plugin-camera-5.0.3": [
+"cordova/plugins/cordova-plugin-camera-5.0.3.tgz"
 ],
 "cordova-plugin-compat-1.2.0": [
 "cordova/plugins/cordova-plugin-compat-1.2.0.tgz"
@@ -2677,8 +2677,8 @@
 "apache-datasketches-pig-1.0.0-incubating": [
 "datasketches/pig/1.0.0-incubating/apache-datasketches-pig-1.0.0-incubating-src.zip"
 ],
-"apache-datasketches-postgresql-1.4.0": [
-"datasketches/postgresql/1.4.0/apache-datasketches-postgresql-1.4.0-src.zip"
+"apache-datasketches-postgresql-1.5.0": [
+"datasketches/postgresql/1.5.0/apache-datasketches-postgresql-1.5.0-src.zip"
 ]
 },
 "db": {
@@ -2887,6 +2887,9 @@
 ],
 "apache-dubbo-js-4.0.0": [
 "dubbo/dubbo-js/4.0.0/apache-dubbo-js-4.0.0-source-release.zip"
+],
+"dubbo-hessian-lite-3.2.11": [
+"dubbo/dubbo-hessian-lite/3.2.11/dubbo-hessian-lite-3.2.11-source-release.zip"
 ],
 "dubbo-hessian-lite-3.2.9": [
 "dubbo/dubbo-hessian-lite/3.2.9/dubbo-hessian-lite-3.2.9-source-release.zip"
@@ -3425,20 +3428,11 @@
 "apache-flink-1.11.4": [
 "flink/flink-1.11.4/python/apache-flink-1.11.4.tar.gz"
 ],
-"apache-flink-1.12.4": [
-"flink/flink-1.12.4/python/apache-flink-1.12.4.tar.gz"
-],
 "apache-flink-1.12.5": [
 "flink/flink-1.12.5/python/apache-flink-1.12.5.tar.gz"
 ],
-"apache-flink-1.13.1": [
-"flink/flink-1.13.1/python/apache-flink-1.13.1.tar.gz"
-],
 "apache-flink-1.13.2": [
 "flink/flink-1.13.2/python/apache-flink-1.13.2.tar.gz"
-],
-"apache-flink-libraries-1.13.1": [
-"flink/flink-1.13.1/python/apache-flink-libraries-1.13.1.tar.gz"
 ],
 "apache-flink-libraries-1.13.2": [
 "flink/flink-1.13.2/python/apache-flink-libraries-1.13.2.tar.gz"
@@ -3452,14 +3446,8 @@
 "flink-1.11.4": [
 "flink/flink-1.11.4/flink-1.11.4-src.tgz"
 ],
-"flink-1.12.4": [
-"flink/flink-1.12.4/flink-1.12.4-src.tgz"
-],
 "flink-1.12.5": [
 "flink/flink-1.12.5/flink-1.12.5-src.tgz"
-],
-"flink-1.13.1": [
-"flink/flink-1.13.1/flink-1.13.1-src.tgz"
 ],
 "flink-1.13.2": [
 "flink/flink-1.13.2/flink-1.13.2-src.tgz"
@@ -3913,56 +3901,8 @@
 ]
 },
 "helix": {
-"helix-0.6.6": [
-"helix/0.6.6/src/helix-0.6.6-src.zip"
-],
-"helix-0.6.7": [
-"helix/0.6.7/src/helix-0.6.7-src.zip"
-],
-"helix-0.6.8": [
-"helix/0.6.8/src/helix-0.6.8-src.zip"
-],
-"helix-0.6.9": [
-"helix/0.6.9/src/helix-0.6.9-src.zip"
-],
-"helix-0.7.1": [
-"helix/0.7.1/src/helix-0.7.1-src.zip"
-],
-"helix-0.8.0": [
-"helix/0.8.0/src/helix-0.8.0-src.zip"
-],
-"helix-0.8.1": [
-"helix/0.8.1/src/helix-0.8.1-src.zip"
-],
-"helix-0.8.2": [
-"helix/0.8.2/src/helix-0.8.2-src.zip"
-],
-"helix-0.8.3": [
-"helix/0.8.3/src/helix-0.8.3-src.zip"
-],
-"helix-0.8.4": [
-"helix/0.8.4/src/helix-0.8.4-src.zip"
-],
-"helix-0.9.0": [
-"helix/0.9.0/src/helix-0.9.0-src.zip"
-],
-"helix-0.9.0.1": [
-"helix/0.9.0.1/src/helix-0.9.0.1-src.zip"
-],
-"helix-0.9.1": [
-"helix/0.9.1/src/helix-0.9.1-src.zip"
-],
-"helix-0.9.4": [
-"helix/0.9.4/src/helix-0.9.4-src.zip"
-],
-"helix-0.9.7": [
-"helix/0.9.7/src/helix-0.9.7-src.zip"
-],
 "helix-0.9.8": [
 "helix/0.9.8/src/helix-0.9.8-src.zip"
-],
-"helix-1.0.0": [
-"helix/1.0.0/src/helix-1.0.0-src.zip"
 ],
 "helix-1.0.1": [
 "helix/1.0.1/src/helix-1.0.1-src.zip"
@@ -9649,6 +9589,9 @@
 "ofbiz": {
 "apache-ofbiz-17.12.07": [
 "ofbiz/apache-ofbiz-17.12.07.zip"
+],
+"apache-ofbiz-17.12.08": [
+"ofbiz/apache-ofbiz-17.12.08.zip"
 ]
 },
 "olingo": {
