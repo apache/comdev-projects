@@ -667,7 +667,8 @@
 "cloudstack": {
 "apache-cloudstack-4.15.1.0": "2021-06-28",
 "apache-cloudstack-cloudmonkey-6.1.0": "2020-07-01",
-"apache-cloudstack-ec2stack-0.8.0": "2020-07-03"
+"apache-cloudstack-ec2stack-0.8.0": "2020-07-03",
+"apache-cloudstack-kubernetes-provider-v1.0.0": "2021-08-04"
 },
 "cocoon": {
 "cocoon-2.1.13": "2020-07-29",
@@ -986,8 +987,8 @@
 "org.apache.felix.gogo.shell-1.1.4": "2020-10-09",
 "org.apache.felix.healthcheck.annotation-2.0.0": "2020-07-03",
 "org.apache.felix.healthcheck.api-2.0.4": "2020-07-15",
-"org.apache.felix.healthcheck.core-2.0.8": "2020-07-15",
-"org.apache.felix.healthcheck.generalchecks-2.0.6": "2020-07-15",
+"org.apache.felix.healthcheck.core-2.0.10": "2021-08-18",
+"org.apache.felix.healthcheck.generalchecks-2.0.8": "2021-08-18",
 "org.apache.felix.healthcheck.webconsoleplugin-2.0.2": "2020-07-15",
 "org.apache.felix.http.api-3.0.0": "2020-07-03",
 "org.apache.felix.http.base-4.1.2": "2020-10-11",
@@ -1028,6 +1029,7 @@
 "org.apache.felix.metatype-1.2.4": "2021-01-18",
 "org.apache.felix.prefs-1.1.0": "2020-07-03",
 "org.apache.felix.resolver-2.0.4": "2021-06-21",
+"org.apache.felix.rootcause-0.2.0": "2021-08-18",
 "org.apache.felix.scr-2.1.28": "2021-07-03",
 "org.apache.felix.scr.annotations-1.12.0": "2020-07-03",
 "org.apache.felix.scr.ant-1.18.0": "2020-07-03",
@@ -1039,7 +1041,7 @@
 "org.apache.felix.shell-1.4.3": "2020-07-03",
 "org.apache.felix.shell.remote-1.1.2": "2020-07-03",
 "org.apache.felix.shell.tui-1.4.1": "2020-07-03",
-"org.apache.felix.systemready-0.4.2": "2020-07-03",
+"org.apache.felix.systemready-0.5.0": "2021-08-18",
 "org.apache.felix.threaddump-1.0.0": "2020-07-03",
 "org.apache.felix.upnp.basedriver-0.8.0": "2020-07-03",
 "org.apache.felix.upnp.extra-0.4.0": "2020-07-03",
@@ -1217,7 +1219,9 @@
 },
 "hawq": {
 "apache-hawq-2.4.0.0": "2020-07-06",
-"apache-hawq-rpm-2.4.0.0": "2020-07-06"
+"apache-hawq-3.0.0.0": "2021-08-18",
+"apache-hawq-rpm-2.4.0.0": "2020-07-06",
+"apache-hawq-rpm-3.0.0.0": "2021-08-18"
 },
 "hbase": {
 "RELEASENOTES.md": "2021-04-16",
