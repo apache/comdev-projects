@@ -882,6 +882,9 @@
 ],
 "apache-arrow-rs-5.2.0": [
 "arrow/arrow-rs-5.2.0/apache-arrow-rs-5.2.0.tar.gz"
+],
+"apache-arrow-rs-5.3.0": [
+"arrow/arrow-rs-5.3.0/apache-arrow-rs-5.3.0.tar.gz"
 ]
 },
 "asterixdb": {
@@ -1279,6 +1282,9 @@
 "apache-camel-quarkus-2.1.0": [
 "camel/camel-quarkus/2.1.0/apache-camel-quarkus-2.1.0-src.zip"
 ],
+"apache-camel-quarkus-2.2.0": [
+"camel/camel-quarkus/2.2.0/apache-camel-quarkus-2.2.0-src.zip"
+],
 "camel-k-client-1.2.1-linux": [
 "camel/camel-k/1.2.1/camel-k-client-1.2.1-linux-64bit.tar.gz"
 ],
@@ -1342,6 +1348,15 @@
 "camel-k-client-1.5.0-windows": [
 "camel/camel-k/1.5.0/camel-k-client-1.5.0-windows-64bit.tar.gz"
 ],
+"camel-k-client-1.5.1-linux": [
+"camel/camel-k/1.5.1/camel-k-client-1.5.1-linux-64bit.tar.gz"
+],
+"camel-k-client-1.5.1-mac": [
+"camel/camel-k/1.5.1/camel-k-client-1.5.1-mac-64bit.tar.gz"
+],
+"camel-k-client-1.5.1-windows": [
+"camel/camel-k/1.5.1/camel-k-client-1.5.1-windows-64bit.tar.gz"
+],
 "camel-k-examples-1.2.1": [
 "camel/camel-k/1.2.1/camel-k-examples-1.2.1.tar.gz"
 ],
@@ -1363,6 +1378,9 @@
 "camel-k-examples-1.5.0": [
 "camel/camel-k/1.5.0/camel-k-examples-1.5.0.tar.gz"
 ],
+"camel-k-examples-1.5.1": [
+"camel/camel-k/1.5.1/camel-k-examples-1.5.1.tar.gz"
+],
 "camel-k-sources-1.2.1": [
 "camel/camel-k/1.2.1/camel-k-sources-1.2.1.tar.gz"
 ],
@@ -1383,6 +1401,9 @@
 ],
 "camel-k-sources-1.5.0": [
 "camel/camel-k/1.5.0/camel-k-sources-1.5.0.tar.gz"
+],
+"camel-k-sources-1.5.1": [
+"camel/camel-k/1.5.1/camel-k-sources-1.5.1.tar.gz"
 ],
 "camel-kafka-connector-0.10.0": [
 "camel/camel-kafka-connector/0.10.0/camel-kafka-connector-0.10.0-src.zip"
@@ -3123,9 +3144,9 @@
 "felix/org.apache.felix.healthcheck.core-2.0.10-source-release.tar.gz",
 "felix/org.apache.felix.healthcheck.core-2.0.10-source-release.zip"
 ],
-"org.apache.felix.healthcheck.generalchecks-2.0.10": [
-"felix/org.apache.felix.healthcheck.generalchecks-2.0.10-source-release.tar.gz",
-"felix/org.apache.felix.healthcheck.generalchecks-2.0.10-source-release.zip"
+"org.apache.felix.healthcheck.generalchecks-2.0.12": [
+"felix/org.apache.felix.healthcheck.generalchecks-2.0.12-source-release.tar.gz",
+"felix/org.apache.felix.healthcheck.generalchecks-2.0.12-source-release.zip"
 ],
 "org.apache.felix.healthcheck.webconsoleplugin-2.0.2": [
 "felix/org.apache.felix.healthcheck.webconsoleplugin-2.0.2-source-release.tar.gz",
@@ -9849,8 +9870,10 @@
 "openwhisk/openwhisk-intellij-plugin-1.0.1-sources.tar.gz"
 ],
 "openwhisk-package-alarms-2.2.0": [
-"openwhisk/20.11/openwhisk-package-alarms-2.2.0-sources.tar.gz",
-"openwhisk/openwhisk-package-alarms-2.2.0-sources.tar.gz"
+"openwhisk/20.11/openwhisk-package-alarms-2.2.0-sources.tar.gz"
+],
+"openwhisk-package-alarms-2.3.0": [
+"openwhisk/openwhisk-package-alarms-2.3.0-sources.tar.gz"
 ],
 "openwhisk-package-kafka-2.1.0": [
 "openwhisk/20.11/openwhisk-package-kafka-2.1.0-sources.tar.gz",
@@ -10838,6 +10861,10 @@
 "apache-royale-0.9.7": [
 "royale/0.9.7/apache-royale-0.9.7-src.tar.gz",
 "royale/0.9.7/apache-royale-0.9.7-src.zip"
+],
+"apache-royale-0.9.8": [
+"royale/0.9.8/apache-royale-0.9.8-src.tar.gz",
+"royale/0.9.8/apache-royale-0.9.8-src.zip"
 ],
 "apache-royale-compiler-build-tools-1.2.0": [
 "royale/compiler-build-tools/1.2.0/rc2/apache-royale-compiler-build-tools-1.2.0-source-release.zip",
@@ -12212,6 +12239,15 @@
 ],
 "org.apache.sling.testing.tools-1.0.16": [
 "sling/org.apache.sling.testing.tools-1.0.16-source-release.zip"
+],
+"org.apache.sling.thumbnails-1.0.0": [
+"sling/org.apache.sling.thumbnails-1.0.0-source-release.zip"
+],
+"org.apache.sling.thumbnails-1.0.0-base.slingosgifeature": [
+"sling/org.apache.sling.thumbnails-1.0.0-base.slingosgifeature"
+],
+"org.apache.sling.thumbnails-1.0.0-default.slingosgifeature": [
+"sling/org.apache.sling.thumbnails-1.0.0-default.slingosgifeature"
 ],
 "org.apache.sling.tooling.support.install-1.0.6": [
 "sling/org.apache.sling.tooling.support.install-1.0.6-source-release.zip"
