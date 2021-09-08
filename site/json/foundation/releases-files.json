@@ -594,17 +594,8 @@
 "apache-apisix-2.9": [
 "apisix/2.9/apache-apisix-2.9-src.tgz"
 ],
-"apache-apisix-dashboard-2.6": [
-"apisix/dashboard/2.6/apache-apisix-dashboard-2.6-src.tgz"
-],
-"apache-apisix-dashboard-2.6.1": [
-"apisix/dashboard/2.6.1/apache-apisix-dashboard-2.6.1-src.tgz"
-],
-"apache-apisix-dashboard-2.7": [
-"apisix/dashboard/2.7/apache-apisix-dashboard-2.7-src.tgz"
-],
-"apache-apisix-dashboard-2.7.1": [
-"apisix/dashboard/2.7.1/apache-apisix-dashboard-2.7.1-src.tgz"
+"apache-apisix-dashboard-2.8.0": [
+"apisix/dashboard/2.8.0/apache-apisix-dashboard-2.8.0-src.tgz"
 ],
 "apache-apisix-ingress-controller-1.2.0": [
 "apisix/ingress-controller/1.2.0/apache-apisix-ingress-controller-1.2.0-src.tgz"
@@ -1282,6 +1273,9 @@
 "apache-camel-k-runtime-1.8.0": [
 "camel/camel-k-runtime/1.8.0/apache-camel-k-runtime-1.8.0-source-release.zip"
 ],
+"apache-camel-k-runtime-1.9.0": [
+"camel/camel-k-runtime/1.9.0/apache-camel-k-runtime-1.9.0-source-release.zip"
+],
 "apache-camel-kafka-connector-0.6.1": [
 "camel/camel-kafka-connector/0.6.1/apache-camel-kafka-connector-0.6.1-src.zip"
 ],
@@ -1366,6 +1360,15 @@
 "camel-k-client-1.5.1-windows": [
 "camel/camel-k/1.5.1/camel-k-client-1.5.1-windows-64bit.tar.gz"
 ],
+"camel-k-client-1.6.0-linux": [
+"camel/camel-k/1.6.0/camel-k-client-1.6.0-linux-64bit.tar.gz"
+],
+"camel-k-client-1.6.0-mac": [
+"camel/camel-k/1.6.0/camel-k-client-1.6.0-mac-64bit.tar.gz"
+],
+"camel-k-client-1.6.0-windows": [
+"camel/camel-k/1.6.0/camel-k-client-1.6.0-windows-64bit.tar.gz"
+],
 "camel-k-examples-1.2.1": [
 "camel/camel-k/1.2.1/camel-k-examples-1.2.1.tar.gz"
 ],
@@ -1390,6 +1393,9 @@
 "camel-k-examples-1.5.1": [
 "camel/camel-k/1.5.1/camel-k-examples-1.5.1.tar.gz"
 ],
+"camel-k-examples-1.6.0": [
+"camel/camel-k/1.6.0/camel-k-examples-1.6.0.tar.gz"
+],
 "camel-k-sources-1.2.1": [
 "camel/camel-k/1.2.1/camel-k-sources-1.2.1.tar.gz"
 ],
@@ -1413,6 +1419,9 @@
 ],
 "camel-k-sources-1.5.1": [
 "camel/camel-k/1.5.1/camel-k-sources-1.5.1.tar.gz"
+],
+"camel-k-sources-1.6.0": [
+"camel/camel-k/1.6.0/camel-k-sources-1.6.0.tar.gz"
 ],
 "camel-kafka-connector-0.10.0": [
 "camel/camel-kafka-connector/0.10.0/camel-kafka-connector-0.10.0-src.zip"
@@ -1440,6 +1449,9 @@
 ],
 "camel-kamelets-sources-0.3.0": [
 "camel/camel-kamelets/0.3.0/camel-kamelets-sources-0.3.0.tar.gz"
+],
+"camel-kamelets-sources-0.4.0": [
+"camel/camel-kamelets/0.4.0/camel-kamelets-sources-0.4.0.tar.gz"
 ]
 },
 "carbondata": {
@@ -1570,8 +1582,8 @@
 "apache-cassandra-3.11.11": [
 "cassandra/3.11.11/apache-cassandra-3.11.11-src.tar.gz"
 ],
-"apache-cassandra-4.0.0": [
-"cassandra/4.0.0/apache-cassandra-4.0.0-src.tar.gz"
+"apache-cassandra-4.0.1": [
+"cassandra/4.0.1/apache-cassandra-4.0.1-src.tar.gz"
 ],
 "cassandra-2.1.22-1": [
 "cassandra/redhat/21x/cassandra-2.1.22-1.src.rpm"
@@ -1597,11 +1609,11 @@
 "cassandra-3.11.11-1.noarch": [
 "cassandra/redhat/311x/cassandra-3.11.11-1.noarch.rpm"
 ],
-"cassandra-4.0.0-1": [
-"cassandra/redhat/40x/cassandra-4.0.0-1.src.rpm"
+"cassandra-4.0.1-1": [
+"cassandra/redhat/40x/cassandra-4.0.1-1.src.rpm"
 ],
-"cassandra-4.0.0-1.noarch": [
-"cassandra/redhat/40x/cassandra-4.0.0-1.noarch.rpm"
+"cassandra-4.0.1-1.noarch": [
+"cassandra/redhat/40x/cassandra-4.0.1-1.noarch.rpm"
 ],
 "cassandra-tools-2.1.22-1.noarch": [
 "cassandra/redhat/21x/cassandra-tools-2.1.22-1.noarch.rpm"
@@ -1615,8 +1627,8 @@
 "cassandra-tools-3.11.11-1.noarch": [
 "cassandra/redhat/311x/cassandra-tools-3.11.11-1.noarch.rpm"
 ],
-"cassandra-tools-4.0.0-1.noarch": [
-"cassandra/redhat/40x/cassandra-tools-4.0.0-1.noarch.rpm"
+"cassandra-tools-4.0.1-1.noarch": [
+"cassandra/redhat/40x/cassandra-tools-4.0.1-1.noarch.rpm"
 ],
 "cassandra-tools_2.1.21_all": [
 "cassandra/debian/pool/main/c/cassandra/cassandra-tools_2.1.21_all.deb"
@@ -1677,8 +1689,11 @@
 "cassandra/debian/pool/main/c/cassandra/cassandra-tools_3.11.9_all.deb"
 ],
 "cassandra-tools_4.0.0_all": [
-"cassandra/4.0.0/debian/cassandra-tools_4.0.0_all.deb",
 "cassandra/debian/pool/main/c/cassandra/cassandra-tools_4.0.0_all.deb"
+],
+"cassandra-tools_4.0.1_all": [
+"cassandra/4.0.1/debian/cassandra-tools_4.0.1_all.deb",
+"cassandra/debian/pool/main/c/cassandra/cassandra-tools_4.0.1_all.deb"
 ],
 "cassandra-tools_4.0~beta1_all": [
 "cassandra/debian/pool/main/c/cassandra/cassandra-tools_4.0~beta1_all.deb"
@@ -1875,17 +1890,17 @@
 "cassandra_3.11.9_all": [
 "cassandra/debian/pool/main/c/cassandra/cassandra_3.11.9_all.deb"
 ],
-"cassandra_4.0.0": [
-"cassandra/4.0.0/debian/cassandra_4.0.0.tar.gz",
-"cassandra/debian/pool/main/c/cassandra/cassandra_4.0.0.tar.gz"
+"cassandra_4.0.1": [
+"cassandra/4.0.1/debian/cassandra_4.0.1.tar.gz",
+"cassandra/debian/pool/main/c/cassandra/cassandra_4.0.1.tar.gz"
 ],
-"cassandra_4.0.0.dsc": [
-"cassandra/4.0.0/debian/cassandra_4.0.0.dsc",
-"cassandra/debian/pool/main/c/cassandra/cassandra_4.0.0.dsc"
+"cassandra_4.0.1.dsc": [
+"cassandra/4.0.1/debian/cassandra_4.0.1.dsc",
+"cassandra/debian/pool/main/c/cassandra/cassandra_4.0.1.dsc"
 ],
-"cassandra_4.0.0_all": [
-"cassandra/4.0.0/debian/cassandra_4.0.0_all.deb",
-"cassandra/debian/pool/main/c/cassandra/cassandra_4.0.0_all.deb"
+"cassandra_4.0.1_all": [
+"cassandra/4.0.1/debian/cassandra_4.0.1_all.deb",
+"cassandra/debian/pool/main/c/cassandra/cassandra_4.0.1_all.deb"
 ],
 "cassandra_4.0~beta1": [
 "cassandra/debian/pool/main/c/cassandra/cassandra_4.0~beta1.tar.gz"
@@ -3327,6 +3342,10 @@
 "org.apache.felix.scr-2.1.28": [
 "felix/org.apache.felix.scr-2.1.28-source-release.tar.gz",
 "felix/org.apache.felix.scr-2.1.28-source-release.zip"
+],
+"org.apache.felix.scr-2.2.0-RC1": [
+"felix/org.apache.felix.scr-2.2.0-RC1-source-release.tar.gz",
+"felix/org.apache.felix.scr-2.2.0-RC1-source-release.zip"
 ],
 "org.apache.felix.scr.annotations-1.12.0": [
 "felix/org.apache.felix.scr.annotations-1.12.0-source-release.tar.gz",
@@ -4823,13 +4842,13 @@
 "karaf/4.2.11/apache-karaf-minimal-4.2.11.tar.gz",
 "karaf/4.2.11/apache-karaf-minimal-4.2.11.zip"
 ],
-"apache-karaf-4.3.2": [
-"karaf/4.3.2/apache-karaf-4.3.2-src.tar.gz",
-"karaf/4.3.2/apache-karaf-4.3.2-src.zip",
-"karaf/4.3.2/apache-karaf-4.3.2.tar.gz",
-"karaf/4.3.2/apache-karaf-4.3.2.zip",
-"karaf/4.3.2/apache-karaf-minimal-4.3.2.tar.gz",
-"karaf/4.3.2/apache-karaf-minimal-4.3.2.zip"
+"apache-karaf-4.3.3": [
+"karaf/4.3.3/apache-karaf-4.3.3-src.tar.gz",
+"karaf/4.3.3/apache-karaf-4.3.3-src.zip",
+"karaf/4.3.3/apache-karaf-4.3.3.tar.gz",
+"karaf/4.3.3/apache-karaf-4.3.3.zip",
+"karaf/4.3.3/apache-karaf-minimal-4.3.3.tar.gz",
+"karaf/4.3.3/apache-karaf-minimal-4.3.3.zip"
 ],
 "apache-karaf-cave-3.0.0": [
 "karaf/cave/3.0.0/apache-karaf-cave-3.0.0-src.tar.gz",
@@ -10364,12 +10383,14 @@
 "Packages": [
 "pulsar/pulsar-2.7.2/DEB/Packages.gz",
 "pulsar/pulsar-2.7.3/DEB/Packages.gz",
-"pulsar/pulsar-2.8.0/DEB/Packages.gz"
+"pulsar/pulsar-2.8.0/DEB/Packages.gz",
+"pulsar/pulsar-2.8.1/DEB/Packages.gz"
 ],
 "apache-pulsar": [
 "pulsar/pulsar-2.7.2/DEB/apache-pulsar-client.deb",
 "pulsar/pulsar-2.7.3/DEB/apache-pulsar-client.deb",
-"pulsar/pulsar-2.8.0/DEB/apache-pulsar-client.deb"
+"pulsar/pulsar-2.8.0/DEB/apache-pulsar-client.deb",
+"pulsar/pulsar-2.8.1/DEB/apache-pulsar-client.deb"
 ],
 "apache-pulsar-2.7.2": [
 "pulsar/pulsar-2.7.2/apache-pulsar-2.7.2-src.tar.gz"
@@ -10380,13 +10401,17 @@
 "apache-pulsar-2.8.0": [
 "pulsar/pulsar-2.8.0/apache-pulsar-2.8.0-src.tar.gz"
 ],
+"apache-pulsar-2.8.1": [
+"pulsar/pulsar-2.8.1/apache-pulsar-2.8.1-src.tar.gz"
+],
 "apache-pulsar-adapters-2.8.0": [
 "pulsar/pulsar-adapters-2.8.0/apache-pulsar-adapters-2.8.0-src.tar.gz"
 ],
 "apache-pulsar-client-dev": [
 "pulsar/pulsar-2.7.2/DEB/apache-pulsar-client-dev.deb",
 "pulsar/pulsar-2.7.3/DEB/apache-pulsar-client-dev.deb",
-"pulsar/pulsar-2.8.0/DEB/apache-pulsar-client-dev.deb"
+"pulsar/pulsar-2.8.0/DEB/apache-pulsar-client-dev.deb",
+"pulsar/pulsar-2.8.1/DEB/apache-pulsar-client-dev.deb"
 ],
 "apache-pulsar-client-go-0.5.0": [
 "pulsar/pulsar-client-go-0.5.0/apache-pulsar-client-go-0.5.0-src.tar.gz"
@@ -10409,6 +10434,9 @@
 "pulsar-io-aerospike-2.8.0.nar": [
 "pulsar/pulsar-2.8.0/connectors/pulsar-io-aerospike-2.8.0.nar"
 ],
+"pulsar-io-aerospike-2.8.1.nar": [
+"pulsar/pulsar-2.8.1/connectors/pulsar-io-aerospike-2.8.1.nar"
+],
 "pulsar-io-canal-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-canal-2.7.2.nar"
 ],
@@ -10417,6 +10445,9 @@
 ],
 "pulsar-io-canal-2.8.0.nar": [
 "pulsar/pulsar-2.8.0/connectors/pulsar-io-canal-2.8.0.nar"
+],
+"pulsar-io-canal-2.8.1.nar": [
+"pulsar/pulsar-2.8.1/connectors/pulsar-io-canal-2.8.1.nar"
 ],
 "pulsar-io-cassandra-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-cassandra-2.7.2.nar"
@@ -10427,6 +10458,9 @@
 "pulsar-io-cassandra-2.8.0.nar": [
 "pulsar/pulsar-2.8.0/connectors/pulsar-io-cassandra-2.8.0.nar"
 ],
+"pulsar-io-cassandra-2.8.1.nar": [
+"pulsar/pulsar-2.8.1/connectors/pulsar-io-cassandra-2.8.1.nar"
+],
 "pulsar-io-data-generator-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-data-generator-2.7.2.nar"
 ],
@@ -10435,6 +10469,9 @@
 ],
 "pulsar-io-data-generator-2.8.0.nar": [
 "pulsar/pulsar-2.8.0/connectors/pulsar-io-data-generator-2.8.0.nar"
+],
+"pulsar-io-data-generator-2.8.1.nar": [
+"pulsar/pulsar-2.8.1/connectors/pulsar-io-data-generator-2.8.1.nar"
 ],
 "pulsar-io-debezium-mongodb-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-debezium-mongodb-2.7.2.nar"
@@ -10445,6 +10482,9 @@
 "pulsar-io-debezium-mongodb-2.8.0.nar": [
 "pulsar/pulsar-2.8.0/connectors/pulsar-io-debezium-mongodb-2.8.0.nar"
 ],
+"pulsar-io-debezium-mongodb-2.8.1.nar": [
+"pulsar/pulsar-2.8.1/connectors/pulsar-io-debezium-mongodb-2.8.1.nar"
+],
 "pulsar-io-debezium-mysql-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-debezium-mysql-2.7.2.nar"
 ],
@@ -10453,6 +10493,9 @@
 ],
 "pulsar-io-debezium-mysql-2.8.0.nar": [
 "pulsar/pulsar-2.8.0/connectors/pulsar-io-debezium-mysql-2.8.0.nar"
+],
+"pulsar-io-debezium-mysql-2.8.1.nar": [
+"pulsar/pulsar-2.8.1/connectors/pulsar-io-debezium-mysql-2.8.1.nar"
 ],
 "pulsar-io-debezium-postgres-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-debezium-postgres-2.7.2.nar"
@@ -10463,6 +10506,9 @@
 "pulsar-io-debezium-postgres-2.8.0.nar": [
 "pulsar/pulsar-2.8.0/connectors/pulsar-io-debezium-postgres-2.8.0.nar"
 ],
+"pulsar-io-debezium-postgres-2.8.1.nar": [
+"pulsar/pulsar-2.8.1/connectors/pulsar-io-debezium-postgres-2.8.1.nar"
+],
 "pulsar-io-dynamodb-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-dynamodb-2.7.2.nar"
 ],
@@ -10471,6 +10517,9 @@
 ],
 "pulsar-io-dynamodb-2.8.0.nar": [
 "pulsar/pulsar-2.8.0/connectors/pulsar-io-dynamodb-2.8.0.nar"
+],
+"pulsar-io-dynamodb-2.8.1.nar": [
+"pulsar/pulsar-2.8.1/connectors/pulsar-io-dynamodb-2.8.1.nar"
 ],
 "pulsar-io-elastic-search-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-elastic-search-2.7.2.nar"
@@ -10481,6 +10530,9 @@
 "pulsar-io-elastic-search-2.8.0.nar": [
 "pulsar/pulsar-2.8.0/connectors/pulsar-io-elastic-search-2.8.0.nar"
 ],
+"pulsar-io-elastic-search-2.8.1.nar": [
+"pulsar/pulsar-2.8.1/connectors/pulsar-io-elastic-search-2.8.1.nar"
+],
 "pulsar-io-file-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-file-2.7.2.nar"
 ],
@@ -10489,6 +10541,9 @@
 ],
 "pulsar-io-file-2.8.0.nar": [
 "pulsar/pulsar-2.8.0/connectors/pulsar-io-file-2.8.0.nar"
+],
+"pulsar-io-file-2.8.1.nar": [
+"pulsar/pulsar-2.8.1/connectors/pulsar-io-file-2.8.1.nar"
 ],
 "pulsar-io-flume-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-flume-2.7.2.nar"
@@ -10499,6 +10554,9 @@
 "pulsar-io-flume-2.8.0.nar": [
 "pulsar/pulsar-2.8.0/connectors/pulsar-io-flume-2.8.0.nar"
 ],
+"pulsar-io-flume-2.8.1.nar": [
+"pulsar/pulsar-2.8.1/connectors/pulsar-io-flume-2.8.1.nar"
+],
 "pulsar-io-hbase-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-hbase-2.7.2.nar"
 ],
@@ -10507,6 +10565,9 @@
 ],
 "pulsar-io-hbase-2.8.0.nar": [
 "pulsar/pulsar-2.8.0/connectors/pulsar-io-hbase-2.8.0.nar"
+],
+"pulsar-io-hbase-2.8.1.nar": [
+"pulsar/pulsar-2.8.1/connectors/pulsar-io-hbase-2.8.1.nar"
 ],
 "pulsar-io-hdfs2-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-hdfs2-2.7.2.nar"
@@ -10517,6 +10578,9 @@
 "pulsar-io-hdfs2-2.8.0.nar": [
 "pulsar/pulsar-2.8.0/connectors/pulsar-io-hdfs2-2.8.0.nar"
 ],
+"pulsar-io-hdfs2-2.8.1.nar": [
+"pulsar/pulsar-2.8.1/connectors/pulsar-io-hdfs2-2.8.1.nar"
+],
 "pulsar-io-hdfs3-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-hdfs3-2.7.2.nar"
 ],
@@ -10525,6 +10589,9 @@
 ],
 "pulsar-io-hdfs3-2.8.0.nar": [
 "pulsar/pulsar-2.8.0/connectors/pulsar-io-hdfs3-2.8.0.nar"
+],
+"pulsar-io-hdfs3-2.8.1.nar": [
+"pulsar/pulsar-2.8.1/connectors/pulsar-io-hdfs3-2.8.1.nar"
 ],
 "pulsar-io-influxdb-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-influxdb-2.7.2.nar"
@@ -10535,6 +10602,9 @@
 "pulsar-io-influxdb-2.8.0.nar": [
 "pulsar/pulsar-2.8.0/connectors/pulsar-io-influxdb-2.8.0.nar"
 ],
+"pulsar-io-influxdb-2.8.1.nar": [
+"pulsar/pulsar-2.8.1/connectors/pulsar-io-influxdb-2.8.1.nar"
+],
 "pulsar-io-jdbc-clickhouse-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-jdbc-clickhouse-2.7.2.nar"
 ],
@@ -10543,6 +10613,9 @@
 ],
 "pulsar-io-jdbc-clickhouse-2.8.0.nar": [
 "pulsar/pulsar-2.8.0/connectors/pulsar-io-jdbc-clickhouse-2.8.0.nar"
+],
+"pulsar-io-jdbc-clickhouse-2.8.1.nar": [
+"pulsar/pulsar-2.8.1/connectors/pulsar-io-jdbc-clickhouse-2.8.1.nar"
 ],
 "pulsar-io-jdbc-mariadb-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-jdbc-mariadb-2.7.2.nar"
@@ -10553,6 +10626,9 @@
 "pulsar-io-jdbc-mariadb-2.8.0.nar": [
 "pulsar/pulsar-2.8.0/connectors/pulsar-io-jdbc-mariadb-2.8.0.nar"
 ],
+"pulsar-io-jdbc-mariadb-2.8.1.nar": [
+"pulsar/pulsar-2.8.1/connectors/pulsar-io-jdbc-mariadb-2.8.1.nar"
+],
 "pulsar-io-jdbc-postgres-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-jdbc-postgres-2.7.2.nar"
 ],
@@ -10561,6 +10637,9 @@
 ],
 "pulsar-io-jdbc-postgres-2.8.0.nar": [
 "pulsar/pulsar-2.8.0/connectors/pulsar-io-jdbc-postgres-2.8.0.nar"
+],
+"pulsar-io-jdbc-postgres-2.8.1.nar": [
+"pulsar/pulsar-2.8.1/connectors/pulsar-io-jdbc-postgres-2.8.1.nar"
 ],
 "pulsar-io-jdbc-sqlite-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-jdbc-sqlite-2.7.2.nar"
@@ -10571,6 +10650,9 @@
 "pulsar-io-jdbc-sqlite-2.8.0.nar": [
 "pulsar/pulsar-2.8.0/connectors/pulsar-io-jdbc-sqlite-2.8.0.nar"
 ],
+"pulsar-io-jdbc-sqlite-2.8.1.nar": [
+"pulsar/pulsar-2.8.1/connectors/pulsar-io-jdbc-sqlite-2.8.1.nar"
+],
 "pulsar-io-kafka-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-kafka-2.7.2.nar"
 ],
@@ -10579,6 +10661,9 @@
 ],
 "pulsar-io-kafka-2.8.0.nar": [
 "pulsar/pulsar-2.8.0/connectors/pulsar-io-kafka-2.8.0.nar"
+],
+"pulsar-io-kafka-2.8.1.nar": [
+"pulsar/pulsar-2.8.1/connectors/pulsar-io-kafka-2.8.1.nar"
 ],
 "pulsar-io-kafka-connect-adaptor-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-kafka-connect-adaptor-2.7.2.nar"
@@ -10589,6 +10674,9 @@
 "pulsar-io-kafka-connect-adaptor-2.8.0.nar": [
 "pulsar/pulsar-2.8.0/connectors/pulsar-io-kafka-connect-adaptor-2.8.0.nar"
 ],
+"pulsar-io-kafka-connect-adaptor-2.8.1.nar": [
+"pulsar/pulsar-2.8.1/connectors/pulsar-io-kafka-connect-adaptor-2.8.1.nar"
+],
 "pulsar-io-kinesis-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-kinesis-2.7.2.nar"
 ],
@@ -10597,6 +10685,9 @@
 ],
 "pulsar-io-kinesis-2.8.0.nar": [
 "pulsar/pulsar-2.8.0/connectors/pulsar-io-kinesis-2.8.0.nar"
+],
+"pulsar-io-kinesis-2.8.1.nar": [
+"pulsar/pulsar-2.8.1/connectors/pulsar-io-kinesis-2.8.1.nar"
 ],
 "pulsar-io-mongo-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-mongo-2.7.2.nar"
@@ -10607,6 +10698,9 @@
 "pulsar-io-mongo-2.8.0.nar": [
 "pulsar/pulsar-2.8.0/connectors/pulsar-io-mongo-2.8.0.nar"
 ],
+"pulsar-io-mongo-2.8.1.nar": [
+"pulsar/pulsar-2.8.1/connectors/pulsar-io-mongo-2.8.1.nar"
+],
 "pulsar-io-netty-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-netty-2.7.2.nar"
 ],
@@ -10615,6 +10709,9 @@
 ],
 "pulsar-io-netty-2.8.0.nar": [
 "pulsar/pulsar-2.8.0/connectors/pulsar-io-netty-2.8.0.nar"
+],
+"pulsar-io-netty-2.8.1.nar": [
+"pulsar/pulsar-2.8.1/connectors/pulsar-io-netty-2.8.1.nar"
 ],
 "pulsar-io-nsq-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-nsq-2.7.2.nar"
@@ -10625,6 +10722,9 @@
 "pulsar-io-nsq-2.8.0.nar": [
 "pulsar/pulsar-2.8.0/connectors/pulsar-io-nsq-2.8.0.nar"
 ],
+"pulsar-io-nsq-2.8.1.nar": [
+"pulsar/pulsar-2.8.1/connectors/pulsar-io-nsq-2.8.1.nar"
+],
 "pulsar-io-rabbitmq-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-rabbitmq-2.7.2.nar"
 ],
@@ -10633,6 +10733,9 @@
 ],
 "pulsar-io-rabbitmq-2.8.0.nar": [
 "pulsar/pulsar-2.8.0/connectors/pulsar-io-rabbitmq-2.8.0.nar"
+],
+"pulsar-io-rabbitmq-2.8.1.nar": [
+"pulsar/pulsar-2.8.1/connectors/pulsar-io-rabbitmq-2.8.1.nar"
 ],
 "pulsar-io-redis-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-redis-2.7.2.nar"
@@ -10643,6 +10746,9 @@
 "pulsar-io-redis-2.8.0.nar": [
 "pulsar/pulsar-2.8.0/connectors/pulsar-io-redis-2.8.0.nar"
 ],
+"pulsar-io-redis-2.8.1.nar": [
+"pulsar/pulsar-2.8.1/connectors/pulsar-io-redis-2.8.1.nar"
+],
 "pulsar-io-solr-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-solr-2.7.2.nar"
 ],
@@ -10652,6 +10758,9 @@
 "pulsar-io-solr-2.8.0.nar": [
 "pulsar/pulsar-2.8.0/connectors/pulsar-io-solr-2.8.0.nar"
 ],
+"pulsar-io-solr-2.8.1.nar": [
+"pulsar/pulsar-2.8.1/connectors/pulsar-io-solr-2.8.1.nar"
+],
 "pulsar-io-twitter-2.7.2.nar": [
 "pulsar/pulsar-2.7.2/connectors/pulsar-io-twitter-2.7.2.nar"
 ],
@@ -10660,6 +10769,9 @@
 ],
 "pulsar-io-twitter-2.8.0.nar": [
 "pulsar/pulsar-2.8.0/connectors/pulsar-io-twitter-2.8.0.nar"
+],
+"pulsar-io-twitter-2.8.1.nar": [
+"pulsar/pulsar-2.8.1/connectors/pulsar-io-twitter-2.8.1.nar"
 ]
 },
 "qpid": {
@@ -11254,8 +11366,8 @@
 ]
 },
 "singa": {
-"apache-singa-3.1.0": [
-"singa/3.1.0/apache-singa-3.1.0.tar.gz"
+"apache-singa-3.2.0": [
+"singa/3.2.0/apache-singa-3.2.0.tar.gz"
 ]
 },
 "sis": {
