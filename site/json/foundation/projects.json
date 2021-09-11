@@ -780,7 +780,7 @@
 "body": "W3C",
 "id": "W3C RDF/XML",
 "title": "RDF/XML",
-"url": "http://www.w3.org/TR/REC-rdf-syntax/"
+"url": "https://www.w3.org/TR/rdf-syntax-grammar/"
 },
 {
 "body": "W3C",
@@ -792,19 +792,19 @@
 "body": "W3C",
 "id": "W3C Notation 3",
 "title": "Notation 3",
-"url": "http://www.w3.org/DesignIssues/Notation3"
+"url": "https://www.w3.org/TeamSubmission/n3/"
 },
 {
 "body": "W3C",
 "id": "W3C RDFa Primer",
 "title": "RDFa Primer",
-"url": "http://www.w3.org/TR/xhtml-rdfa-primer/"
+"url": "https://www.w3.org/TR/rdfa-primer/"
 },
 {
 "body": "W3C",
 "id": "W3C RDFa1.1 prefix mechanism",
 "title": "RDFa1.1 prefix mechanism",
-"url": "http://www.w3.org/TR/2010/WD-rdfa-core-20100422/#scoping-of-prefix-mappings"
+"url": "https://www.w3.org/TR/rdfa-core/#scoping-of-prefix-mappings"
 },
 {
 "body": "Microformats",
@@ -816,7 +816,7 @@
 "body": "W3C",
 "id": "W3C HTML5 Microdata",
 "title": "HTML5 Microdata",
-"url": "http://dev.w3.org/html5/md/"
+"url": "https://html.spec.whatwg.org/multipage/microdata.html#microdata"
 },
 {
 "body": "IETF",
@@ -829,7 +829,7 @@
 "mailing-list": "http://any23.apache.org/mail-lists.html",
 "maintainer": [
 {
-"mbox": "mailto:any23@any23.apache.org",
+"mbox": "mailto:dev@any23.apache.org",
 "name": "Apache Any23 Development Team"
 }
 ],
@@ -837,6 +837,16 @@
 "pmc": "any23",
 "programming-language": "Java",
 "release": [
+{
+"created": "2021-09-10",
+"name": "Apache Any23 2.5",
+"revision": "2.5"
+},
+{
+"created": "2020-10-06",
+"name": "Apache Any23 2.4",
+"revision": "2.4"
+},
 {
 "created": "2019-03-04",
 "name": "Apache Any23 2.3",
@@ -9512,6 +9522,11 @@
 "pmc": "jclouds",
 "programming-language": "Java",
 "release": [
+{
+"created": "2021-09-10",
+"name": "Apache jclouds 2.4.0",
+"revision": "2.4.0"
+},
 {
 "created": "2021-03-06",
 "name": "Apache jclouds 2.3.0",
