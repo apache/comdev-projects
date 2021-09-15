@@ -2748,8 +2748,8 @@
 "apache-datasketches-java-2.0.0": [
 "datasketches/java/2.0.0/apache-datasketches-java-2.0.0-src.zip"
 ],
-"apache-datasketches-memory-1.3.0": [
-"datasketches/memory/1.3.0/apache-datasketches-memory-1.3.0-src.zip"
+"apache-datasketches-memory-2.0.0": [
+"datasketches/memory/2.0.0/apache-datasketches-memory-2.0.0-src.zip"
 ],
 "apache-datasketches-pig-1.0.0-incubating": [
 "datasketches/pig/1.0.0-incubating/apache-datasketches-pig-1.0.0-incubating-src.zip"
@@ -3980,7 +3980,6 @@
 "RELEASENOTES.md": [
 "hbase/2.2.7/RELEASENOTES.md",
 "hbase/2.3.6/RELEASENOTES.md",
-"hbase/2.4.5/RELEASENOTES.md",
 "hbase/2.4.6/RELEASENOTES.md",
 "hbase/3.0.0-alpha-1/RELEASENOTES.md",
 "hbase/hbase-filesystem-1.0.0-alpha1/RELEASENOTES.md",
@@ -4001,9 +4000,6 @@
 ],
 "hbase-2.3.6": [
 "hbase/2.3.6/hbase-2.3.6-src.tar.gz"
-],
-"hbase-2.4.5": [
-"hbase/2.4.5/hbase-2.4.5-src.tar.gz"
 ],
 "hbase-2.4.6": [
 "hbase/2.4.6/hbase-2.4.6-src.tar.gz"
@@ -4362,6 +4358,11 @@
 "joshua-incubating-6.1": [
 "incubator/joshua/6.1/joshua-incubating-6.1-src.tar.gz",
 "incubator/joshua/6.1/joshua-incubating-6.1-src.zip"
+]
+},
+"incubator-kyuubi": {
+"apache-kyuubi-1.3.0-incubating": [
+"incubator/kyuubi/kyuubi-1.3.0-incubating/apache-kyuubi-1.3.0-incubating-source.tgz"
 ]
 },
 "incubator-liminal": {
@@ -13876,19 +13877,6 @@
 "tomcat/tomcat-10/v10.1.0-M5/bin/apache-tomcat-10.1.0-M5.zip",
 "tomcat/tomcat-10/v10.1.0-M5/src/apache-tomcat-10.1.0-M5-src.tar.gz",
 "tomcat/tomcat-10/v10.1.0-M5/src/apache-tomcat-10.1.0-M5-src.zip"
-],
-"apache-tomcat-8.5.70": [
-"tomcat/tomcat-8/v8.5.70/bin/embed/apache-tomcat-8.5.70-embed.tar.gz",
-"tomcat/tomcat-8/v8.5.70/bin/embed/apache-tomcat-8.5.70-embed.zip",
-"tomcat/tomcat-8/v8.5.70/bin/apache-tomcat-8.5.70-deployer.tar.gz",
-"tomcat/tomcat-8/v8.5.70/bin/apache-tomcat-8.5.70-deployer.zip",
-"tomcat/tomcat-8/v8.5.70/bin/apache-tomcat-8.5.70-fulldocs.tar.gz",
-"tomcat/tomcat-8/v8.5.70/bin/apache-tomcat-8.5.70-windows-x64.zip",
-"tomcat/tomcat-8/v8.5.70/bin/apache-tomcat-8.5.70.exe",
-"tomcat/tomcat-8/v8.5.70/bin/apache-tomcat-8.5.70.tar.gz",
-"tomcat/tomcat-8/v8.5.70/bin/apache-tomcat-8.5.70.zip",
-"tomcat/tomcat-8/v8.5.70/src/apache-tomcat-8.5.70-src.tar.gz",
-"tomcat/tomcat-8/v8.5.70/src/apache-tomcat-8.5.70-src.zip"
 ],
 "apache-tomcat-8.5.71": [
 "tomcat/tomcat-8/v8.5.71/bin/embed/apache-tomcat-8.5.71-embed.tar.gz",
