@@ -685,7 +685,7 @@
 "typehandlerspace-0.2": "2020-07-03"
 },
 "cloudstack": {
-"apache-cloudstack-4.15.1.0": "2021-06-28",
+"apache-cloudstack-4.15.2.0": "2021-09-10",
 "apache-cloudstack-cloudmonkey-6.1.0": "2020-07-01",
 "apache-cloudstack-ec2stack-0.8.0": "2020-07-03",
 "apache-cloudstack-kubernetes-provider-v1.0.0": "2021-08-04"
@@ -882,7 +882,8 @@
 "apache-datasketches-java-2.0.0": "2021-02-12",
 "apache-datasketches-memory-2.0.0": "2021-09-14",
 "apache-datasketches-pig-1.0.0-incubating": "2019-10-19",
-"apache-datasketches-postgresql-1.5.0": "2021-08-09"
+"apache-datasketches-postgresql-1.5.0": "2021-08-09",
+"datasketches-1.5.0": "2021-09-17"
 },
 "db": {
 "DdlUtils-1.0": "2020-07-06",
@@ -1358,7 +1359,6 @@
 "batchee-0.5-incubating": "2020-07-03"
 },
 "incubator-brpc": {
-"apache-brpc-0.9.6-incubating": "2021-09-15",
 "apache-brpc-0.9.7-incubating": "2021-09-15",
 "apache-brpc-1.0.0-rc02-incubating": "2021-09-13"
 },
@@ -1378,8 +1378,6 @@
 "apache-flagon-useralejs-incubating-2.2.0": "2021-06-20"
 },
 "incubator-heron": {
-"apache-heron-v-0.20.0-incubating": "2020-07-03",
-"heron-0.20.3-incubating": "2021-01-18",
 "heron-0.20.4-incubating": "2021-05-23",
 "heron-0.20.4-incubating-debian10": "2021-05-23",
 "heron-install-0.20.4-incubating-centos7.sh": "2021-05-23",
@@ -1581,14 +1579,17 @@
 "kafka-2.7.0": "2020-12-19",
 "kafka-2.7.1": "2021-05-10",
 "kafka-2.8.0": "2021-04-19",
+"kafka-2.8.1": "2021-09-17",
 "kafka_2.12-2.6.2": "2021-04-20",
 "kafka_2.12-2.7.0": "2020-12-19",
 "kafka_2.12-2.7.1": "2021-05-10",
 "kafka_2.12-2.8.0": "2021-04-19",
+"kafka_2.12-2.8.1": "2021-09-17",
 "kafka_2.13-2.6.2": "2021-04-20",
 "kafka_2.13-2.7.0": "2020-12-19",
 "kafka_2.13-2.7.1": "2021-05-10",
-"kafka_2.13-2.8.0": "2021-04-19"
+"kafka_2.13-2.8.0": "2021-04-19",
+"kafka_2.13-2.8.1": "2021-09-17"
 },
 "karaf": {
 "apache-karaf-3.0.10": "2020-07-03",
@@ -1880,6 +1881,7 @@
 "apache-netbeans-java-12.4.0.vsix": "2021-05-19",
 "apache-netbeans-java-12.4.301": "2021-07-15",
 "apache-netbeans-java-12.4.301.vsix": "2021-07-15",
+"apache-netbeans-java-12.5.0.vsix": "2021-09-13",
 "bcpg.nbm": "2020-07-03",
 "bcprov.nbm": "2020-07-03",
 "com-google-gson.nbm": "2020-07-03",
@@ -3274,7 +3276,7 @@
 "skywalking": {
 "apache-skywalking-apm-8.7.0": "2021-07-30",
 "apache-skywalking-apm-es7-8.7.0": "2021-07-30",
-"apache-skywalking-satellite-0.1.0": "2021-02-26",
+"apache-skywalking-satellite-0.2.0": "2021-09-14",
 "skywalking-4.1.0": "2021-08-08",
 "skywalking-cli-0.6.0": "2021-02-05",
 "skywalking-cli-0.7.0": "2021-06-15",
@@ -3415,7 +3417,7 @@
 "org.apache.sling.extensions.webconsolebranding-1.0.2": "2020-07-03",
 "org.apache.sling.extensions.webconsolesecurityprovider-1.2.4": "2020-07-03",
 "org.apache.sling.feature-1.2.28": "2021-07-29",
-"org.apache.sling.feature.analyser-1.3.38": "2021-09-06",
+"org.apache.sling.feature.analyser-1.4.0": "2021-09-17",
 "org.apache.sling.feature.apiregions-1.1.8": "2021-06-08",
 "org.apache.sling.feature.cpconverter-1.1.10": "2021-09-06",
 "org.apache.sling.feature.diff-0.0.6": "2020-07-03",
@@ -3632,7 +3634,7 @@
 "sling-maven-plugin.parent-2.4.2": "2020-07-03",
 "sling-servlet-archetype-1.0.4": "2020-07-03",
 "sling-slingstart-archetype-1.0.8": "2020-07-03",
-"slingfeature-maven-plugin-1.5.12": "2021-07-29",
+"slingfeature-maven-plugin-1.5.16": "2021-09-17",
 "slingstart-maven-plugin-1.9.12": "2020-07-03"
 },
 "solr": {
