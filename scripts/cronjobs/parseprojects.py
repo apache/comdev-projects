@@ -223,7 +223,7 @@ for s in itemlist :
         committeeId = pmc
 
         if committeeId in retired:
-            printAtticMail("WARN: project from a retired committee but PMC not changed to Attic in %s" % url)
+            printAtticMail("WARN: project from a retired committee (%s) but PMC not changed to Attic in %s" % (committeeId, url))
             committeeId = 'attic'
         pjson['pmc'] = committeeId
 
