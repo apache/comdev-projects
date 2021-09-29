@@ -114,8 +114,17 @@
 "airflow-1.1.0.tgz.prov": [
 "airflow/helm-chart/1.1.0/airflow-1.1.0.tgz.prov"
 ],
+"airflow-1.2.0": [
+"airflow/helm-chart/1.2.0/airflow-1.2.0.tgz"
+],
+"airflow-1.2.0.tgz.prov": [
+"airflow/helm-chart/1.2.0/airflow-1.2.0.tgz.prov"
+],
 "airflow-chart-1.1.0": [
 "airflow/helm-chart/1.1.0/airflow-chart-1.1.0-source.tar.gz"
+],
+"airflow-chart-1.2.0": [
+"airflow/helm-chart/1.2.0/airflow-chart-1.2.0-source.tar.gz"
 ],
 "apache-airflow-2.1.4": [
 "airflow/2.1.4/apache-airflow-2.1.4-source.tar.gz",
@@ -591,8 +600,8 @@
 ]
 },
 "apisix": {
-"apache-apisix-2.9": [
-"apisix/2.9/apache-apisix-2.9-src.tgz"
+"apache-apisix-2.10.0": [
+"apisix/2.10.0/apache-apisix-2.10.0-src.tgz"
 ],
 "apache-apisix-dashboard-2.8.0": [
 "apisix/dashboard/2.8.0/apache-apisix-dashboard-2.8.0-src.tgz"
@@ -888,6 +897,9 @@
 ],
 "apache-arrow-rs-5.4.0": [
 "arrow/arrow-rs-5.4.0/apache-arrow-rs-5.4.0.tar.gz"
+],
+"apache-arrow-rs-5.5.0": [
+"arrow/arrow-rs-5.5.0/apache-arrow-rs-5.5.0.tar.gz"
 ]
 },
 "asterixdb": {
@@ -5080,11 +5092,6 @@
 "lucene/java/8.10.0/lucene-8.10.0.tgz",
 "lucene/java/8.10.0/lucene-8.10.0.zip"
 ],
-"lucene-8.9.0": [
-"lucene/java/8.9.0/lucene-8.9.0-src.tgz",
-"lucene/java/8.9.0/lucene-8.9.0.tgz",
-"lucene/java/8.9.0/lucene-8.9.0.zip"
-],
 "pylucene-7.7.1": [
 "lucene/pylucene/pylucene-7.7.1-src.tar.gz"
 ],
@@ -5103,11 +5110,6 @@
 "lucene/solr/8.10.0/solr-8.10.0-src.tgz",
 "lucene/solr/8.10.0/solr-8.10.0.tgz",
 "lucene/solr/8.10.0/solr-8.10.0.zip"
-],
-"solr-8.9.0": [
-"lucene/solr/8.9.0/solr-8.9.0-src.tgz",
-"lucene/solr/8.9.0/solr-8.9.0.tgz",
-"lucene/solr/8.9.0/solr-8.9.0.zip"
 ]
 },
 "lucenenet": {
@@ -12207,16 +12209,9 @@
 ]
 },
 "skywalking": {
-"apache-skywalking-apm-8.7.0": [
-"skywalking/8.7.0/apache-skywalking-apm-8.7.0-src.tgz",
-"skywalking/8.7.0/apache-skywalking-apm-8.7.0.tar.gz"
-],
 "apache-skywalking-apm-8.8.0": [
 "skywalking/8.8.0/apache-skywalking-apm-8.8.0-src.tgz",
 "skywalking/8.8.0/apache-skywalking-apm-8.8.0.tar.gz"
-],
-"apache-skywalking-apm-es7-8.7.0": [
-"skywalking/8.7.0/apache-skywalking-apm-es7-8.7.0.tar.gz"
 ],
 "apache-skywalking-satellite-0.2.0": [
 "skywalking/satellite/0.2.0/apache-skywalking-satellite-0.2.0-src.tgz"
@@ -12226,9 +12221,6 @@
 ],
 "skywalking-cli-0.8.0": [
 "skywalking/cli/0.8.0/skywalking-cli-0.8.0-src.tgz"
-],
-"skywalking-client-js-0.5.1": [
-"skywalking/client-js/0.5.1/skywalking-client-js-0.5.1-src.tgz"
 ],
 "skywalking-client-js-0.6.0": [
 "skywalking/client-js/0.6.0/skywalking-client-js-0.6.0-src.tgz"
@@ -13552,6 +13544,9 @@
 ],
 "apache-superset-1.3.0": [
 "superset/1.3.0/apache-superset-1.3.0-source.tar.gz"
+],
+"apache-superset-1.3.1": [
+"superset/1.3.1/apache-superset-1.3.1-source.tar.gz"
 ],
 "apache-superset-incubating-0.34.0": [
 "superset/0.34.0/apache-superset-incubating-0.34.0-source.tar.gz"
