@@ -2119,8 +2119,8 @@
 "apache-cloudstack-4.15.2.0": [
 "cloudstack/releases/4.15.2.0/apache-cloudstack-4.15.2.0-src.tar.bz2"
 ],
-"apache-cloudstack-cloudmonkey-6.1.0": [
-"cloudstack/releases/cloudmonkey-6.1.0/apache-cloudstack-cloudmonkey-6.1.0-src.tar.bz2"
+"apache-cloudstack-cloudmonkey-6.2.0": [
+"cloudstack/releases/cloudmonkey-6.2.0/apache-cloudstack-cloudmonkey-6.2.0-src.tar.bz2"
 ],
 "apache-cloudstack-ec2stack-0.8.0": [
 "cloudstack/releases/ec2stack-0.8.0/apache-cloudstack-ec2stack-0.8.0-src.tar.bz2"
@@ -4389,11 +4389,17 @@
 "apache-hop-0.99-incubating": [
 "incubator/hop/0.99/apache-hop-0.99-incubating-src.tar.gz"
 ],
+"apache-hop-1.0.0-incubating": [
+"incubator/hop/1.0.0/apache-hop-1.0.0-incubating-src.tar.gz"
+],
 "apache-hop-client-0.70-incubating": [
 "incubator/hop/0.70/apache-hop-client-0.70-incubating.zip"
 ],
 "apache-hop-client-0.99-incubating": [
 "incubator/hop/0.99/apache-hop-client-0.99-incubating.zip"
+],
+"apache-hop-client-1.0.0-incubating": [
+"incubator/hop/1.0.0/apache-hop-client-1.0.0-incubating.zip"
 ]
 },
 "incubator-inlong": {
@@ -5238,6 +5244,12 @@
 "manifoldcf/apache-manifoldcf-2.19/apache-manifoldcf-2.19-lib.zip",
 "manifoldcf/apache-manifoldcf-2.19/apache-manifoldcf-2.19-src.tar.gz",
 "manifoldcf/apache-manifoldcf-2.19/apache-manifoldcf-2.19-src.zip"
+],
+"apache-manifoldcf-2.20": [
+"manifoldcf/apache-manifoldcf-2.20/apache-manifoldcf-2.20-lib.tar.gz",
+"manifoldcf/apache-manifoldcf-2.20/apache-manifoldcf-2.20-lib.zip",
+"manifoldcf/apache-manifoldcf-2.20/apache-manifoldcf-2.20-src.tar.gz",
+"manifoldcf/apache-manifoldcf-2.20/apache-manifoldcf-2.20-src.zip"
 ],
 "apache-manifoldcf-elasticsearch-1.5-plugin-2.0.2": [
 "manifoldcf/apache-manifoldcf-elasticsearch-1.5-plugin-2.0.2/apache-manifoldcf-elasticsearch-1.5-plugin-2.0.2-src.tar.gz",
@@ -13503,6 +13515,12 @@
 ],
 "submarine-dist-0.5.0-hadoop-2.9": [
 "submarine/submarine-0.5.0/submarine-dist-0.5.0-hadoop-2.9.tar.gz"
+],
+"submarine-dist-0.6.0": [
+"submarine/submarine-0.6.0/submarine-dist-0.6.0-src.tar.gz"
+],
+"submarine-dist-0.6.0-hadoop-2.9": [
+"submarine/submarine-0.6.0/submarine-dist-0.6.0-hadoop-2.9.tar.gz"
 ]
 },
 "subversion": {
@@ -13912,6 +13930,19 @@
 "tomcat/tomcat-10/v10.0.11/src/apache-tomcat-10.0.11-src.tar.gz",
 "tomcat/tomcat-10/v10.0.11/src/apache-tomcat-10.0.11-src.zip"
 ],
+"apache-tomcat-10.0.12": [
+"tomcat/tomcat-10/v10.0.12/bin/embed/apache-tomcat-10.0.12-embed.tar.gz",
+"tomcat/tomcat-10/v10.0.12/bin/embed/apache-tomcat-10.0.12-embed.zip",
+"tomcat/tomcat-10/v10.0.12/bin/apache-tomcat-10.0.12-deployer.tar.gz",
+"tomcat/tomcat-10/v10.0.12/bin/apache-tomcat-10.0.12-deployer.zip",
+"tomcat/tomcat-10/v10.0.12/bin/apache-tomcat-10.0.12-fulldocs.tar.gz",
+"tomcat/tomcat-10/v10.0.12/bin/apache-tomcat-10.0.12-windows-x64.zip",
+"tomcat/tomcat-10/v10.0.12/bin/apache-tomcat-10.0.12.exe",
+"tomcat/tomcat-10/v10.0.12/bin/apache-tomcat-10.0.12.tar.gz",
+"tomcat/tomcat-10/v10.0.12/bin/apache-tomcat-10.0.12.zip",
+"tomcat/tomcat-10/v10.0.12/src/apache-tomcat-10.0.12-src.tar.gz",
+"tomcat/tomcat-10/v10.0.12/src/apache-tomcat-10.0.12-src.zip"
+],
 "apache-tomcat-10.1.0-M5": [
 "tomcat/tomcat-10/v10.1.0-M5/bin/embed/apache-tomcat-10.1.0-M5-embed.tar.gz",
 "tomcat/tomcat-10/v10.1.0-M5/bin/embed/apache-tomcat-10.1.0-M5-embed.zip",
@@ -13924,6 +13955,19 @@
 "tomcat/tomcat-10/v10.1.0-M5/bin/apache-tomcat-10.1.0-M5.zip",
 "tomcat/tomcat-10/v10.1.0-M5/src/apache-tomcat-10.1.0-M5-src.tar.gz",
 "tomcat/tomcat-10/v10.1.0-M5/src/apache-tomcat-10.1.0-M5-src.zip"
+],
+"apache-tomcat-10.1.0-M6": [
+"tomcat/tomcat-10/v10.1.0-M6/bin/embed/apache-tomcat-10.1.0-M6-embed.tar.gz",
+"tomcat/tomcat-10/v10.1.0-M6/bin/embed/apache-tomcat-10.1.0-M6-embed.zip",
+"tomcat/tomcat-10/v10.1.0-M6/bin/apache-tomcat-10.1.0-M6-deployer.tar.gz",
+"tomcat/tomcat-10/v10.1.0-M6/bin/apache-tomcat-10.1.0-M6-deployer.zip",
+"tomcat/tomcat-10/v10.1.0-M6/bin/apache-tomcat-10.1.0-M6-fulldocs.tar.gz",
+"tomcat/tomcat-10/v10.1.0-M6/bin/apache-tomcat-10.1.0-M6-windows-x64.zip",
+"tomcat/tomcat-10/v10.1.0-M6/bin/apache-tomcat-10.1.0-M6.exe",
+"tomcat/tomcat-10/v10.1.0-M6/bin/apache-tomcat-10.1.0-M6.tar.gz",
+"tomcat/tomcat-10/v10.1.0-M6/bin/apache-tomcat-10.1.0-M6.zip",
+"tomcat/tomcat-10/v10.1.0-M6/src/apache-tomcat-10.1.0-M6-src.tar.gz",
+"tomcat/tomcat-10/v10.1.0-M6/src/apache-tomcat-10.1.0-M6-src.zip"
 ],
 "apache-tomcat-8.5.71": [
 "tomcat/tomcat-8/v8.5.71/bin/embed/apache-tomcat-8.5.71-embed.tar.gz",
@@ -13950,6 +13994,19 @@
 "tomcat/tomcat-9/v9.0.53/bin/apache-tomcat-9.0.53.zip",
 "tomcat/tomcat-9/v9.0.53/src/apache-tomcat-9.0.53-src.tar.gz",
 "tomcat/tomcat-9/v9.0.53/src/apache-tomcat-9.0.53-src.zip"
+],
+"apache-tomcat-9.0.54": [
+"tomcat/tomcat-9/v9.0.54/bin/embed/apache-tomcat-9.0.54-embed.tar.gz",
+"tomcat/tomcat-9/v9.0.54/bin/embed/apache-tomcat-9.0.54-embed.zip",
+"tomcat/tomcat-9/v9.0.54/bin/apache-tomcat-9.0.54-deployer.tar.gz",
+"tomcat/tomcat-9/v9.0.54/bin/apache-tomcat-9.0.54-deployer.zip",
+"tomcat/tomcat-9/v9.0.54/bin/apache-tomcat-9.0.54-fulldocs.tar.gz",
+"tomcat/tomcat-9/v9.0.54/bin/apache-tomcat-9.0.54-windows-x64.zip",
+"tomcat/tomcat-9/v9.0.54/bin/apache-tomcat-9.0.54.exe",
+"tomcat/tomcat-9/v9.0.54/bin/apache-tomcat-9.0.54.tar.gz",
+"tomcat/tomcat-9/v9.0.54/bin/apache-tomcat-9.0.54.zip",
+"tomcat/tomcat-9/v9.0.54/src/apache-tomcat-9.0.54-src.tar.gz",
+"tomcat/tomcat-9/v9.0.54/src/apache-tomcat-9.0.54-src.zip"
 ],
 "jakartaee-migration-1.0.0": [
 "tomcat/jakartaee-migration/v1.0.0/source/jakartaee-migration-1.0.0-src.tar.gz",

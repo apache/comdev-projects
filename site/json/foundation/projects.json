@@ -681,6 +681,56 @@
 ],
 "shortdesc": "Apache Ivy is a very powerful dependency manager oriented toward Java dependency management, even though it could be used to manage dependencies of any kind."
 },
+"ant-ivyde": {
+"bug-database": "https://issues.apache.org/jira/browse/IVYDE",
+"category": "build-management",
+"created": "2010-11-16",
+"description": "IvyDE lets you manage your dependencies declared in an ivy.xml in your Java Eclipse projects. IvyDE will contribute to the classpath of your Java project, with the classpath container. It also bring an editor of ivy.xml files, with completion.",
+"doap": "https://gitbox.apache.org/repos/asf?p=ant-ivyde.git;a=blob_plain;f=doap_IvyDE.rdf;hb=HEAD",
+"download-page": "http://ant.apache.org/ivy/ivyde/download.cgi",
+"homepage": "http://ant.apache.org/ivyde/",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://ant.apache.org/ivy/ivyde/mailing-lists.html",
+"name": "Apache IvyDE",
+"pmc": "ant",
+"programming-language": "Java",
+"release": [
+{
+"created": "2013-11-22",
+"name": "Apache IvyDE",
+"revision": "2.2.0.final"
+},
+{
+"created": "2012-04-05",
+"name": "Apache IvyDE",
+"revision": "2.2.0.beta1"
+},
+{
+"created": "2010-08-18",
+"name": "Apache IvyDE",
+"revision": "2.1.0"
+},
+{
+"created": "2009-07-09",
+"name": "Apache IvyDE",
+"revision": "2.0.0-final"
+},
+{
+"created": "2008-12-08",
+"name": "Apache IvyDE",
+"revision": "2.0.0-beta1"
+},
+{
+"created": "2008-06-30",
+"name": "Apache IvyDE",
+"revision": "2.0.0-alpha1"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf/ant-ivyde.git"
+],
+"shortdesc": "Integrate Ivy in Eclipse with the IvyDE plugin."
+},
 "ant-props": {
 "bug-database": "http://issues.apache.org/bugzilla/buglist.cgi?product=Ant",
 "category": "build-management",
@@ -7007,6 +7057,50 @@
 ],
 "shortdesc": "A set of Java libraries that make using Apache ZooKeeper much easier."
 },
+"cxf": {
+"bug-database": "http://issues.apache.org/jira/browse/CXF",
+"category": "library, xml, network-client, network-server",
+"created": "2009-04-04",
+"description": "Apache CXF is an open source services framework. CXF helps you build and develop services using frontend programming APIs like JAX-WS and JAX-RS. These services can speak a variety of protocols such as SOAP, XML/HTTP, RESTful HTTP, or CORBA and work over a variety of transports such as HTTP, JMS or JBI.",
+"doap": "https://gitbox.apache.org/repos/asf?p=cxf.git;a=blob_plain;f=etc/cxf.rdf;hb=HEAD",
+"download-page": "http://cxf.apache.org/download.html",
+"homepage": "http://cxf.apache.org/",
+"implements": [
+{
+"body": "JCP",
+"id": "JSR 181",
+"title": "Web Services Metadata",
+"url": "http://www.jcp.org/en/jsr/detail?id=181"
+},
+{
+"body": "JCP",
+"id": "JSR 224",
+"title": "JAX-WS",
+"url": "http://www.jcp.org/en/jsr/detail?id=224"
+},
+{
+"body": "JCP",
+"id": "JSR 311",
+"title": "JAX-RS",
+"url": "http://www.jcp.org/en/jsr/detail?id=311"
+}
+],
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://cxf.apache.org/mailing-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:dkulp@apache.org",
+"name": "Daniel Kulp"
+}
+],
+"name": "Apache CXF",
+"pmc": "cxf",
+"programming-language": "Java",
+"repository": [
+"https://gitbox.apache.org/repos/asf/cxf.git"
+],
+"shortdesc": "Apache CXF: An Open Source Service Framework"
+},
 "daffodil": {
 "bug-database": "https://issues.apache.org/jira/browse/DAFFODIL",
 "category": "big-data, library, xml",
@@ -8501,6 +8595,29 @@
 ],
 "shortdesc": "Apache Annotator provides annotation enabling code for browsers, servers, and humans."
 },
+"incubator-datafu": {
+"bug-database": "https://issues.apache.org/jira/browse/DATAFU",
+"category": "big-data",
+"created": "2014-08-04",
+"description": "Apache DataFu consists of two libraries:\n\nApache DataFu Pig is a collection of useful user-defined functions for data analysis in Apache Pig.\n\nApache DataFu Hourglass is a library for incrementally processing data using Apache Hadoop MapReduce. This library was inspired by the prevelance of sliding window computations over daily tracking data. Computations such as these typically happen at regular intervals (e.g. daily, weekly), and therefore the sliding nature of the computations means that much of the work is unnecessarily repeated. DataFu's Hourglass was created to make these computations more efficient, yielding sometimes 50-95% reductions in computational resources.",
+"doap": "https://gitbox.apache.org/repos/asf?p=datafu.git;a=blob_plain;f=doap_DataFu.rdf;hb=HEAD",
+"homepage": "http://datafu.incubator.apache.org/",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "http://datafu.incubator.apache.org/community/mailing-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:mhayes@apache.org",
+"name": "Matthew Hayes"
+}
+],
+"name": "Apache DataFu",
+"pmc": "incubator",
+"programming-language": "Java",
+"repository": [
+"https://git-wip-us.apache.org/repos/asf/incubator-datafu.git"
+],
+"shortdesc": "Apache DataFu is a collection of libraries for working with large-scale data in Hadoop. The project was inspired by the need for stable, well-tested libraries for data mining and statistics."
+},
 "incubator-freemarker": {
 "bug-database": "https://issues.apache.org/jira/browse/FREEMARKER",
 "category": "Java, html, templating, content",
@@ -8676,6 +8793,37 @@
 "pmc": "incubator",
 "programming-language": "Python, Go, JavaScript, C",
 "shortdesc": "Core security infrastructure for decentralized networks."
+},
+"incubator-mxnet": {
+"bug-database": "https://github.com/apache/incubator-mxnet/labels/Bug",
+"category": "big-data",
+"created": "2020-09-15",
+"description": "Apache MXNet is a deep learning framework designed for both efficiency and flexibility. It's lightweight, Portable, Flexible Distributed/Mobile Deep Learning with dynamic, mutation-aware data-flow dependency scheduler; for Python, R, Julia, Scala, Go, Javascript and more",
+"doap": "https://gitbox.apache.org/repos/asf?p=incubator-mxnet.git;a=blob_plain;f=doap.rdf;hb=HEAD",
+"download-page": "https://mxnet.apache.org/get_started/download",
+"homepage": "https://mxnet.apache.org",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://lists.apache.org/list.html?dev@mxnet.apache.org",
+"maintainer": [
+{
+"mbox": "mailto:dev@mxnet.apache.org",
+"name": "ApacheMXNet Contributors"
+}
+],
+"name": "Apache MXNet",
+"pmc": "incubator",
+"programming-language": "C++",
+"release": [
+{
+"created": "2020-09-13",
+"name": "Apache MXNet (Incubating) 1.7.0",
+"revision": "1.7.0"
+}
+],
+"repository": [
+"https://github.com/apache/incubator-mxnet"
+],
+"shortdesc": "Apache MXNet is a deep learning framework designed for both efficiency and flexibility."
 },
 "isis": {
 "bug-database": "https://issues.apache.org/jira/browse/ISIS",
@@ -9873,6 +10021,30 @@
 "https://svn.apache.org/repos/asf/juddi/scout"
 ],
 "shortdesc": "Apache Scout is an implementation of the JSR 93 (JAXR)."
+},
+"kafka": {
+"bug-database": "https://issues.apache.org/jira/browse/KAFKA",
+"category": "https://projects.apache.org/projects.html?category#big-data",
+"created": "2014-04-12",
+"description": "A single Kafka broker can handle hundreds of megabytes of reads and writes per second from thousands of clients. Kafka is designed to allow a single cluster to serve as the central data backbone for a large organization. It can be elastically and transparently expanded without downtime. Data streams are partitioned and spread over a cluster of machines to allow data streams larger than the capability of any single machine and to allow clusters of co-ordinated consumers. Kafka has a modern cluster-centric design that offers strong durability and fault-tolerance guarantees. Messages are persisted on disk and replicated within the cluster to prevent data loss. Each broker can handle terabytes of messages without performance impact.",
+"doap": "https://gitbox.apache.org/repos/asf?p=kafka.git;a=blob_plain;f=doap_Kafka.rdf;hb=HEAD",
+"download-page": "https://kafka.apache.org/downloads.html",
+"homepage": "https://kafka.apache.org/",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "https://kafka.apache.org/contact.html",
+"maintainer": [
+{
+"mbox": "mailto:junrao@apache.org",
+"name": "Jun Rao"
+}
+],
+"name": "Apache Kafka",
+"pmc": "kafka",
+"programming-language": "Scala",
+"repository": [
+"https://gitbox.apache.org/repos/asf/kafka.git"
+],
+"shortdesc": "Apache Kafka is a distributed, fault tolerant, publish-subscribe messaging."
 },
 "karaf": {
 "bug-database": "https://issues.apache.org/jira/browse/KARAF",
@@ -12525,6 +12697,30 @@
 "https://gitbox.apache.org/repos/asf/myfaces.git"
 ],
 "shortdesc": "The first free open source JSF implementation."
+},
+"myfaces-tobago": {
+"bug-database": "http://issues.apache.org/jira/browse/TOBAGO",
+"category": "https://projects.apache.org/projects.html?category#web-framework",
+"created": "2006-07-10",
+"description": "The goal of Tobago is to provide the community with a well designed set of user interface components based on JSF.",
+"doap": "https://gitbox.apache.org/repos/asf?p=myfaces-tobago.git;a=blob_plain;f=doap.rdf;hb=HEAD",
+"download-page": "http://tobago-vm.apache.org/download.html",
+"homepage": "http://myfaces.apache.org/#/tobago",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://myfaces.apache.org/#/community",
+"maintainer": [
+{
+"mbox": "mailto:bommel@apache.org",
+"name": "Bernd Bohmann"
+}
+],
+"name": "Apache Tobago",
+"pmc": "myfaces",
+"programming-language": "Java, TypeScript",
+"repository": [
+"https://gitbox.apache.org/repos/asf/myfaces-tobago.git"
+],
+"shortdesc": "Set of user interface components based on JSF."
 },
 "nutch": {
 "bug-database": "https://issues.apache.org/jira/projects/NUTCH",
@@ -16642,6 +16838,76 @@
 "http://svn.apache.org/repos/asf/velocity/texen/trunk"
 ],
 "shortdesc": "Texen is a general purpose text generating utility based on Apache Velocity and Apache Ant."
+},
+"velocity-tools": {
+"bug-database": "http://issues.apache.org/jira/browse/VELTOOLS",
+"category": "library",
+"created": "2006-11-21",
+"description": "VelocityTools is a collection of Velocity subprojects with a common goal of creating tools and infrastructure for building both web and non-web applications using the Velocity template engine.",
+"doap": "https://gitbox.apache.org/repos/asf?p=velocity-site.git;a=blob_plain;f=site/doap_tools.rdf;hb=HEAD",
+"download-page": "http://velocity.apache.org/download.cgi#tools",
+"homepage": "http://velocity.apache.org/velocity/tools/",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://velocity.apache.org/mail-lists.html",
+"name": "Apache Velocity Tools",
+"pmc": "velocity",
+"programming-language": "Java",
+"release": [
+{
+"created": "2021-02-27",
+"name": "VelocityTools 3.1",
+"revision": "3.0"
+},
+{
+"created": "2018-10-09",
+"name": "VelocityTools 3.0",
+"revision": "3.0"
+},
+{
+"created": "2010-05-10",
+"name": "VelocityTools 2.0",
+"revision": "2.0"
+},
+{
+"created": "2009-05-27",
+"name": "VelocityTools 2.0-beta4",
+"revision": "2.0 beta4"
+},
+{
+"created": "2008-12-01",
+"name": "VelocityTools 2.0-beta3",
+"revision": "2.0 beta3"
+},
+{
+"created": "2008-07-11",
+"name": "VelocityTools 2.0-beta2",
+"revision": "2.0 beta2"
+},
+{
+"created": "2007-12-26",
+"name": "VelocityTools 2.0-beta1",
+"revision": "2.0 beta1"
+},
+{
+"created": "2007-11-26",
+"name": "VelocityTools 1.4",
+"revision": "1.4"
+},
+{
+"created": "2007-07-02",
+"name": "VelocityTools 2.0-alpha1",
+"revision": "2.0 alpha1"
+},
+{
+"created": "2007-02-08",
+"name": "VelocityTools 1.3",
+"revision": "1.3"
+}
+],
+"repository": [
+"http://svn.apache.org/repos/asf/velocity/tools/trunk"
+],
+"shortdesc": "Tools and infrastructure for the template engine"
 },
 "webservices-axiom": {
 "bug-database": "http://issues.apache.org/jira/browse/AXIOM",
