@@ -14811,17 +14811,17 @@
 "body": "Open Geospatial Consortium",
 "id": "OGC 09-083r3",
 "title": "GeoAPI",
-"url": "http://www.opengeospatial.org/standards/geoapi"
+"url": "https://www.ogc.org/standards/geoapi"
 },
 {
 "body": "Java Community Process",
 "id": "JSR-363",
 "title": "Units of Measurement API",
-"url": "https://www.jcp.org/aboutJava/communityprocess/final/jsr363/index.html"
+"url": "https://jcp.org/en/jsr/detail?id=363"
 },
 {
 "body": "International Organization for Standardization",
-"id": "ISO 19103:2005",
+"id": "ISO 19103:2015",
 "title": "Geographic information — Conceptual schema language"
 },
 {
@@ -14868,6 +14868,21 @@
 "body": "International Organization for Standardization",
 "id": "ISO 19136:2007",
 "title": "Geographic information — Geography Markup Language (GML)"
+},
+{
+"body": "International Organization for Standardization",
+"id": "ISO 19143:2010",
+"title": "Geographic information — Filter encoding"
+},
+{
+"body": "Open Geospatial Consortium",
+"id": "OGC 10-092r3",
+"title": "NetCDF Binary Encoding — Classic and 64-bit Offset Format"
+},
+{
+"body": "Open Geospatial Consortium",
+"id": "OGC 19-008r4",
+"title": "OGC GeoTIFF standard"
 }
 ],
 "license": "http://usefulinc.com/doap/licenses/asl20",
@@ -14876,6 +14891,11 @@
 "pmc": "sis",
 "programming-language": "Java",
 "release": [
+{
+"created": "2021-10-06",
+"name": "Apache SIS 1.1 — GeoTIFF, filters, raster reprojections",
+"revision": "1.1"
+},
 {
 "created": "2019-09-27",
 "name": "Apache SIS 1.0 — basic coverage support",
