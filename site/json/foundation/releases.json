@@ -44,7 +44,7 @@
 "airflow-1.2.0.tgz.prov": "2021-09-28",
 "airflow-chart-1.1.0": "2021-07-26",
 "airflow-chart-1.2.0": "2021-09-28",
-"apache-airflow-2.1.4": "2021-09-18",
+"apache-airflow-2.2.0": "2021-10-11",
 "apache-airflow-backport-providers-2021.2.5": "2021-02-10",
 "apache-airflow-backport-providers-2021.3.13": "2021-03-13",
 "apache-airflow-backport-providers-2021.3.17": "2021-03-17",
@@ -112,7 +112,7 @@
 "apache-airflow-client-2.1.0": "2021-05-31",
 "apache-airflow-providers-airbyte-2.1.1": "2021-09-03",
 "apache-airflow-providers-alibaba-1.0.0": "2021-09-03",
-"apache-airflow-providers-amazon-2.2.0": "2021-09-03",
+"apache-airflow-providers-amazon-2.3.0": "2021-10-11",
 "apache-airflow-providers-apache-beam-3.0.1": "2021-09-03",
 "apache-airflow-providers-apache-cassandra-2.1.0": "2021-10-05",
 "apache-airflow-providers-apache-drill-1.0.1": "2021-09-03",
@@ -882,7 +882,8 @@
 },
 "datafu": {
 "apache-datafu-sources-1.5.0": "2020-07-06",
-"apache-datafu-sources-1.6.0": "2020-07-06"
+"apache-datafu-sources-1.6.0": "2020-07-06",
+"apache-datafu-sources-1.6.1": "2021-10-11"
 },
 "datasketches": {
 "apache-datasketches-hive-1.1.0-incubating": "2020-07-06",
@@ -1531,7 +1532,7 @@
 "jackrabbit-jca-2.16.8": "2021-08-10",
 "jackrabbit-jca-2.20.3": "2021-06-08",
 "jackrabbit-jca-2.21.8": "2021-10-05",
-"jackrabbit-oak-1.22.8": "2021-07-15",
+"jackrabbit-oak-1.22.9": "2021-10-06",
 "jackrabbit-oak-1.4.26": "2020-07-03",
 "jackrabbit-oak-1.40.0": "2021-05-28",
 "jackrabbit-oak-1.6.21": "2021-05-28",
@@ -3248,7 +3249,8 @@
 "apache-shardingsphere-elasticjob-3.0.0-alpha-ui": "2020-08-11",
 "apache-shardingsphere-elasticjob-3.0.0-beta": "2020-10-31",
 "apache-shardingsphere-elasticjob-3.0.0-beta-ui": "2020-10-26",
-"apache-shardingsphere-elasticjob-3.0.0-ui": "2021-07-15"
+"apache-shardingsphere-elasticjob-3.0.0-ui": "2021-07-15",
+"apache-shardingsphere-elasticjob-3.0.1": "2021-10-04"
 },
 "shiro": {
 "shiro-root-1.1.0": "2020-07-03",
@@ -3621,7 +3623,7 @@
 "org.apache.sling.validation.api-1.0.0": "2017-04-12",
 "org.apache.sling.validation.core-1.0.4": "2017-12-21",
 "org.apache.sling.validation.test-services-1.0.4": "2017-12-21",
-"org.apache.sling.xss-2.2.14": "2021-05-25",
+"org.apache.sling.xss-2.2.16": "2021-10-11",
 "org.apache.sling.xss.compat-1.1.0": "2017-05-11",
 "scriptingbundle-maven-plugin-0.5.0": "2021-09-27",
 "sling-46": "2021-09-24",
@@ -3674,9 +3676,11 @@
 },
 "storm": {
 "apache-storm-1.2.3": "2020-07-03",
+"apache-storm-1.2.4": "2021-10-01",
 "apache-storm-2.0.0": "2020-07-03",
 "apache-storm-2.1.0": "2020-07-03",
 "apache-storm-2.2.0": "2020-07-03",
+"apache-storm-2.2.1": "2021-09-29",
 "apache-storm-2.3.0": "2021-09-24"
 },
 "streams": {
@@ -3751,20 +3755,20 @@
 },
 "syncope": {
 "apache-syncope-2.0.16": "2020-09-11",
-"apache-syncope-2.1.9": "2021-04-07",
+"apache-syncope-2.1.10": "2021-10-08",
 "apache-syncope-console-2.0.16": "2020-09-11",
-"apache-syncope-console-2.1.9": "2021-04-07",
+"apache-syncope-console-2.1.10": "2021-10-08",
 "apache-syncope-enduser-2.0.16": "2020-09-11",
-"apache-syncope-enduser-2.1.9": "2021-04-07",
+"apache-syncope-enduser-2.1.10": "2021-10-08",
 "org.apache.syncope.ide.eclipse.site-2.0.16": "2020-09-11",
-"org.apache.syncope.ide.eclipse.site-2.1.9": "2021-04-07",
+"org.apache.syncope.ide.eclipse.site-2.1.10": "2021-10-08",
 "syncope-2.0.16": "2020-09-11",
-"syncope-2.1.9": "2021-04-07",
+"syncope-2.1.10": "2021-10-08",
 "syncope-client-cli-2.0.16": "2020-09-11",
-"syncope-client-cli-2.1.9": "2021-04-07",
-"syncope-core-upgrade-2.1.9": "2021-04-07",
+"syncope-client-cli-2.1.10": "2021-10-08",
+"syncope-core-upgrade-2.1.10": "2021-10-08",
 "syncope-ide-netbeans-2.0.16.nbm": "2020-09-11",
-"syncope-ide-netbeans-2.1.9.nbm": "2021-04-07"
+"syncope-ide-netbeans-2.1.10.nbm": "2021-10-08"
 },
 "systemds": {
 "systemds-2.0.0": "2020-10-14",
@@ -3908,9 +3912,9 @@
 "tomee-webaccess-1.7.5": "2020-07-03"
 },
 "trafficcontrol": {
-"apache-trafficcontrol-4.1.1": "2021-04-01",
-"apache-trafficcontrol-5.0.0": "2021-01-21",
-"apache-trafficcontrol-5.1.2": "2021-05-18"
+"apache-trafficcontrol-5.1.3": "2021-10-11",
+"apache-trafficcontrol-6.0.0": "2021-10-11",
+"apache-trafficcontrol-6.0.0.tar.gz.b2": "2021-10-11"
 },
 "trafficserver": {
 "trafficserver-7.1.12": "2020-12-02",

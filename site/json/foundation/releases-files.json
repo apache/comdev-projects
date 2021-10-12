@@ -126,9 +126,9 @@
 "airflow-chart-1.2.0": [
 "airflow/helm-chart/1.2.0/airflow-chart-1.2.0-source.tar.gz"
 ],
-"apache-airflow-2.1.4": [
-"airflow/2.1.4/apache-airflow-2.1.4-source.tar.gz",
-"airflow/2.1.4/apache-airflow-2.1.4.tar.gz"
+"apache-airflow-2.2.0": [
+"airflow/2.2.0/apache-airflow-2.2.0-source.tar.gz",
+"airflow/2.2.0/apache-airflow-2.2.0.tar.gz"
 ],
 "apache-airflow-backport-providers-2021.2.5": [
 "airflow/backport-providers/apache-airflow-backport-providers-2021.2.5-source.tar.gz"
@@ -331,8 +331,8 @@
 "apache-airflow-providers-alibaba-1.0.0": [
 "airflow/providers/apache-airflow-providers-alibaba-1.0.0.tar.gz"
 ],
-"apache-airflow-providers-amazon-2.2.0": [
-"airflow/providers/apache-airflow-providers-amazon-2.2.0.tar.gz"
+"apache-airflow-providers-amazon-2.3.0": [
+"airflow/providers/apache-airflow-providers-amazon-2.3.0.tar.gz"
 ],
 "apache-airflow-providers-apache-beam-3.0.1": [
 "airflow/providers/apache-airflow-providers-apache-beam-3.0.1.tar.gz"
@@ -2763,6 +2763,9 @@
 ],
 "apache-datafu-sources-1.6.0": [
 "datafu/apache-datafu-1.6.0/apache-datafu-sources-1.6.0.tgz"
+],
+"apache-datafu-sources-1.6.1": [
+"datafu/apache-datafu-1.6.1/apache-datafu-sources-1.6.1.tgz"
 ]
 },
 "datasketches": {
@@ -4689,8 +4692,8 @@
 "jackrabbit-jca-2.21.8": [
 "jackrabbit/2.21.8/jackrabbit-jca-2.21.8.rar"
 ],
-"jackrabbit-oak-1.22.8": [
-"jackrabbit/oak/1.22.8/jackrabbit-oak-1.22.8-src.zip"
+"jackrabbit-oak-1.22.9": [
+"jackrabbit/oak/1.22.9/jackrabbit-oak-1.22.9-src.zip"
 ],
 "jackrabbit-oak-1.4.26": [
 "jackrabbit/oak/1.4.26/jackrabbit-oak-1.4.26-src.zip"
@@ -12143,6 +12146,9 @@
 ],
 "apache-shardingsphere-elasticjob-3.0.0-ui": [
 "shardingsphere/elasticjob-ui-3.0.0/apache-shardingsphere-elasticjob-3.0.0-ui-src.zip"
+],
+"apache-shardingsphere-elasticjob-3.0.1": [
+"shardingsphere/elasticjob-3.0.1/apache-shardingsphere-elasticjob-3.0.1-src.zip"
 ]
 },
 "shiro": {
@@ -13254,8 +13260,8 @@
 "org.apache.sling.validation.test-services-1.0.4": [
 "sling/org.apache.sling.validation.test-services-1.0.4-source-release.zip"
 ],
-"org.apache.sling.xss-2.2.14": [
-"sling/org.apache.sling.xss-2.2.14-source-release.zip"
+"org.apache.sling.xss-2.2.16": [
+"sling/org.apache.sling.xss-2.2.16-source-release.zip"
 ],
 "org.apache.sling.xss.compat-1.1.0": [
 "sling/org.apache.sling.xss.compat-1.1.0-source-release.zip"
@@ -13406,6 +13412,12 @@
 "storm/apache-storm-1.2.3/apache-storm-1.2.3.tar.gz",
 "storm/apache-storm-1.2.3/apache-storm-1.2.3.zip"
 ],
+"apache-storm-1.2.4": [
+"storm/apache-storm-1.2.4/apache-storm-1.2.4-src.tar.gz",
+"storm/apache-storm-1.2.4/apache-storm-1.2.4-src.zip",
+"storm/apache-storm-1.2.4/apache-storm-1.2.4.tar.gz",
+"storm/apache-storm-1.2.4/apache-storm-1.2.4.zip"
+],
 "apache-storm-2.0.0": [
 "storm/apache-storm-2.0.0/apache-storm-2.0.0-src.tar.gz",
 "storm/apache-storm-2.0.0/apache-storm-2.0.0-src.zip",
@@ -13423,6 +13435,12 @@
 "storm/apache-storm-2.2.0/apache-storm-2.2.0-src.zip",
 "storm/apache-storm-2.2.0/apache-storm-2.2.0.tar.gz",
 "storm/apache-storm-2.2.0/apache-storm-2.2.0.zip"
+],
+"apache-storm-2.2.1": [
+"storm/apache-storm-2.2.1/apache-storm-2.2.1-src.tar.gz",
+"storm/apache-storm-2.2.1/apache-storm-2.2.1-src.zip",
+"storm/apache-storm-2.2.1/apache-storm-2.2.1.tar.gz",
+"storm/apache-storm-2.2.1/apache-storm-2.2.1.zip"
 ],
 "apache-storm-2.3.0": [
 "storm/apache-storm-2.3.0/apache-storm-2.3.0-src.tar.gz",
@@ -13643,49 +13661,49 @@
 "apache-syncope-2.0.16": [
 "syncope/2.0.16/apache-syncope-2.0.16.deb"
 ],
-"apache-syncope-2.1.9": [
-"syncope/2.1.9/apache-syncope-2.1.9.deb"
+"apache-syncope-2.1.10": [
+"syncope/2.1.10/apache-syncope-2.1.10.deb"
 ],
 "apache-syncope-console-2.0.16": [
 "syncope/2.0.16/apache-syncope-console-2.0.16.deb"
 ],
-"apache-syncope-console-2.1.9": [
-"syncope/2.1.9/apache-syncope-console-2.1.9.deb"
+"apache-syncope-console-2.1.10": [
+"syncope/2.1.10/apache-syncope-console-2.1.10.deb"
 ],
 "apache-syncope-enduser-2.0.16": [
 "syncope/2.0.16/apache-syncope-enduser-2.0.16.deb"
 ],
-"apache-syncope-enduser-2.1.9": [
-"syncope/2.1.9/apache-syncope-enduser-2.1.9.deb"
+"apache-syncope-enduser-2.1.10": [
+"syncope/2.1.10/apache-syncope-enduser-2.1.10.deb"
 ],
 "org.apache.syncope.ide.eclipse.site-2.0.16": [
 "syncope/2.0.16/org.apache.syncope.ide.eclipse.site-2.0.16.zip"
 ],
-"org.apache.syncope.ide.eclipse.site-2.1.9": [
-"syncope/2.1.9/org.apache.syncope.ide.eclipse.site-2.1.9.zip"
+"org.apache.syncope.ide.eclipse.site-2.1.10": [
+"syncope/2.1.10/org.apache.syncope.ide.eclipse.site-2.1.10.zip"
 ],
 "syncope-2.0.16": [
 "syncope/2.0.16/syncope-2.0.16-source-release.zip",
 "syncope/2.0.16/syncope-standalone-2.0.16-distribution.zip"
 ],
-"syncope-2.1.9": [
-"syncope/2.1.9/syncope-2.1.9-source-release.zip",
-"syncope/2.1.9/syncope-standalone-2.1.9-distribution.zip"
+"syncope-2.1.10": [
+"syncope/2.1.10/syncope-2.1.10-source-release.zip",
+"syncope/2.1.10/syncope-standalone-2.1.10-distribution.zip"
 ],
 "syncope-client-cli-2.0.16": [
 "syncope/2.0.16/syncope-client-cli-2.0.16.zip"
 ],
-"syncope-client-cli-2.1.9": [
-"syncope/2.1.9/syncope-client-cli-2.1.9.zip"
+"syncope-client-cli-2.1.10": [
+"syncope/2.1.10/syncope-client-cli-2.1.10.zip"
 ],
-"syncope-core-upgrade-2.1.9": [
-"syncope/2.1.9/syncope-core-upgrade-2.1.9.zip"
+"syncope-core-upgrade-2.1.10": [
+"syncope/2.1.10/syncope-core-upgrade-2.1.10.zip"
 ],
 "syncope-ide-netbeans-2.0.16.nbm": [
 "syncope/2.0.16/syncope-ide-netbeans-2.0.16.nbm"
 ],
-"syncope-ide-netbeans-2.1.9.nbm": [
-"syncope/2.1.9/syncope-ide-netbeans-2.1.9.nbm"
+"syncope-ide-netbeans-2.1.10.nbm": [
+"syncope/2.1.10/syncope-ide-netbeans-2.1.10.nbm"
 ]
 },
 "systemds": {
@@ -14191,14 +14209,14 @@
 ]
 },
 "trafficcontrol": {
-"apache-trafficcontrol-4.1.1": [
-"trafficcontrol/4.1.1/apache-trafficcontrol-4.1.1.tar.gz"
+"apache-trafficcontrol-5.1.3": [
+"trafficcontrol/5.1.3/apache-trafficcontrol-5.1.3.tar.gz"
 ],
-"apache-trafficcontrol-5.0.0": [
-"trafficcontrol/5.0.0/apache-trafficcontrol-5.0.0.tar.gz"
+"apache-trafficcontrol-6.0.0": [
+"trafficcontrol/6.0.0/apache-trafficcontrol-6.0.0.tar.gz"
 ],
-"apache-trafficcontrol-5.1.2": [
-"trafficcontrol/5.1.2/apache-trafficcontrol-5.1.2.tar.gz"
+"apache-trafficcontrol-6.0.0.tar.gz.b2": [
+"trafficcontrol/6.0.0/apache-trafficcontrol-6.0.0.tar.gz.b2"
 ]
 },
 "trafficserver": {
