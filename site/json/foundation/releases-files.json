@@ -1070,15 +1070,11 @@
 "apache-beam-0f52187e344dad9bca4c183fe51151b733b24e35": [
 "beam/vendor/beam-vendor-calcite-1_26_0/0.1/apache-beam-0f52187e344dad9bca4c183fe51151b733b24e35-source-release.zip"
 ],
-"apache-beam-2.31.0": [
-"beam/2.31.0/python/apache-beam-2.31.0.zip",
-"beam/2.31.0/apache-beam-2.31.0-source-release.zip"
-],
-"apache-beam-2.32.0": [
-"beam/2.32.0/python/apache-beam-2.32.0.zip",
-"beam/2.32.0/apache-beam-2.32.0-source-release.zip",
-"beam/latest/python/apache-beam-2.32.0.zip",
-"beam/latest/apache-beam-2.32.0-source-release.zip"
+"apache-beam-2.33.0": [
+"beam/2.33.0/python/apache-beam-2.33.0.zip",
+"beam/2.33.0/apache-beam-2.33.0-source-release.zip",
+"beam/latest/python/apache-beam-2.33.0.zip",
+"beam/latest/apache-beam-2.33.0-source-release.zip"
 ],
 "apache-beam-c445ac198a3bc4e03d9d0833b6ccba4ed6ff43fd": [
 "beam/vendor/beam-vendor-grpc-1_36_0/0.1/apache-beam-c445ac198a3bc4e03d9d0833b6ccba4ed6ff43fd-source-release.zip"
@@ -11101,6 +11097,10 @@
 "xmlbeans-5.0.1-20210710": [
 "poi/xmlbeans/release/src/xmlbeans-src-5.0.1-20210710.tgz",
 "poi/xmlbeans/release/src/xmlbeans-src-5.0.1-20210710.zip"
+],
+"xmlbeans-5.0.2-20211013": [
+"poi/xmlbeans/dev/src/xmlbeans-src-5.0.2-20211013.tgz",
+"poi/xmlbeans/dev/src/xmlbeans-src-5.0.2-20211013.zip"
 ]
 },
 "portals": {
@@ -12251,6 +12251,9 @@
 "skywalking-client-js-0.6.0": [
 "skywalking/client-js/0.6.0/skywalking-client-js-0.6.0-src.tgz"
 ],
+"skywalking-client-js-0.7.0": [
+"skywalking/client-js/0.7.0/skywalking-client-js-0.7.0-src.tgz"
+],
 "skywalking-e2e-1.0.0": [
 "skywalking/infra-e2e/1.0.0/skywalking-e2e-1.0.0-src.tgz"
 ],
@@ -13386,6 +13389,9 @@
 "SparkR_3.1.2": [
 "spark/spark-3.1.2/SparkR_3.1.2.tar.gz"
 ],
+"SparkR_3.2.0": [
+"spark/spark-3.2.0/SparkR_3.2.0.tar.gz"
+],
 "pyspark-2.4.8": [
 "spark/spark-2.4.8/pyspark-2.4.8.tar.gz"
 ],
@@ -13395,6 +13401,9 @@
 "pyspark-3.1.2": [
 "spark/spark-3.1.2/pyspark-3.1.2.tar.gz"
 ],
+"pyspark-3.2.0": [
+"spark/spark-3.2.0/pyspark-3.2.0.tar.gz"
+],
 "spark-2.4.8": [
 "spark/spark-2.4.8/spark-2.4.8.tgz"
 ],
@@ -13403,6 +13412,9 @@
 ],
 "spark-3.1.2": [
 "spark/spark-3.1.2/spark-3.1.2.tgz"
+],
+"spark-3.2.0": [
+"spark/spark-3.2.0/spark-3.2.0.tgz"
 ]
 },
 "storm": {
