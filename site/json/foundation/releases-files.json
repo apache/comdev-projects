@@ -3699,9 +3699,9 @@
 ]
 },
 "geode": {
-"apache-geode-1.12.4": [
-"geode/1.12.4/apache-geode-1.12.4-src.tgz",
-"geode/1.12.4/apache-geode-1.12.4.tgz"
+"apache-geode-1.12.5": [
+"geode/1.12.5/apache-geode-1.12.5-src.tgz",
+"geode/1.12.5/apache-geode-1.12.5.tgz"
 ],
 "apache-geode-1.13.4": [
 "geode/1.13.4/apache-geode-1.13.4-src.tgz",
@@ -3711,8 +3711,8 @@
 "geode/1.14.0/apache-geode-1.14.0-src.tgz",
 "geode/1.14.0/apache-geode-1.14.0.tgz"
 ],
-"apache-geode-benchmarks-1.12.4": [
-"geode/1.12.4/apache-geode-benchmarks-1.12.4-src.tgz"
+"apache-geode-benchmarks-1.12.5": [
+"geode/1.12.5/apache-geode-benchmarks-1.12.5-src.tgz"
 ],
 "apache-geode-benchmarks-1.13.4": [
 "geode/1.13.4/apache-geode-benchmarks-1.13.4-src.tgz"
@@ -3720,8 +3720,8 @@
 "apache-geode-benchmarks-1.14.0": [
 "geode/1.14.0/apache-geode-benchmarks-1.14.0-src.tgz"
 ],
-"apache-geode-examples-1.12.4": [
-"geode/1.12.4/apache-geode-examples-1.12.4-src.tgz"
+"apache-geode-examples-1.12.5": [
+"geode/1.12.5/apache-geode-examples-1.12.5-src.tgz"
 ],
 "apache-geode-examples-1.13.4": [
 "geode/1.13.4/apache-geode-examples-1.13.4-src.tgz"
@@ -3729,8 +3729,8 @@
 "apache-geode-examples-1.14.0": [
 "geode/1.14.0/apache-geode-examples-1.14.0-src.tgz"
 ],
-"apache-geode-native-1.12.4": [
-"geode/1.12.4/apache-geode-native-1.12.4-src.tgz"
+"apache-geode-native-1.12.5": [
+"geode/1.12.5/apache-geode-native-1.12.5-src.tgz"
 ],
 "apache-geode-native-1.13.4": [
 "geode/1.13.4/apache-geode-native-1.13.4-src.tgz"
@@ -4055,8 +4055,8 @@
 "hbase/hbase-operator-tools-1.1.0/RELEASENOTES.md",
 "hbase/hbase-thirdparty-3.5.1/RELEASENOTES.md"
 ],
-"hbase-1.4.13": [
-"hbase/1.4.13/hbase-1.4.13-src.tar.gz"
+"hbase-1.4.14": [
+"hbase/1.4.14/hbase-1.4.14-src.tar.gz"
 ],
 "hbase-1.7.1": [
 "hbase/1.7.1/hbase-1.7.1-src.tar.gz"
@@ -4149,11 +4149,17 @@
 ],
 "httpcomponents-client-5.1": [
 "httpcomponents/httpclient/source/httpcomponents-client-5.1-src.tar.gz",
-"httpcomponents/httpclient/source/httpcomponents-client-5.1-src.zip"
+"httpcomponents/httpclient/source/httpcomponents-client-5.1-src.zip",
+"httpcomponents/httpclient/httpcomponents-client-5.1-src.tar.gz",
+"httpcomponents/httpclient/httpcomponents-client-5.1-src.zip"
 ],
 "httpcomponents-client-5.1-beta1": [
 "httpcomponents/httpclient/source/httpcomponents-client-5.1-beta1-src.tar.gz",
 "httpcomponents/httpclient/source/httpcomponents-client-5.1-beta1-src.zip"
+],
+"httpcomponents-client-5.1.1": [
+"httpcomponents/httpclient/source/httpcomponents-client-5.1.1-src.tar.gz",
+"httpcomponents/httpclient/source/httpcomponents-client-5.1.1-src.zip"
 ],
 "httpcomponents-client-android-4.3.5.1": [
 "httpcomponents/httpclient-android/source/httpcomponents-client-android-4.3.5.1-src.tar.gz",
@@ -4423,6 +4429,9 @@
 "incubator-kyuubi": {
 "apache-kyuubi-1.3.0-incubating": [
 "incubator/kyuubi/kyuubi-1.3.0-incubating/apache-kyuubi-1.3.0-incubating-source.tgz"
+],
+"apache-kyuubi-1.3.1-incubating": [
+"incubator/kyuubi/kyuubi-1.3.1-incubating/apache-kyuubi-1.3.1-incubating-source.tgz"
 ]
 },
 "incubator-liminal": {
@@ -11689,6 +11698,9 @@
 "apache-qpid-protonj2-1.0.0-M2": [
 "qpid/protonj2/1.0.0-M2/apache-qpid-protonj2-1.0.0-M2-src.tar.gz"
 ],
+"apache-qpid-protonj2-1.0.0-M3": [
+"qpid/protonj2/1.0.0-M3/apache-qpid-protonj2-1.0.0-M3-src.tar.gz"
+],
 "qpid-dispatch-1.17.0": [
 "qpid/dispatch/1.17.0/qpid-dispatch-1.17.0.tar.gz"
 ],
@@ -11994,10 +12006,10 @@
 ]
 },
 "santuario": {
-"xml-security-c-2.0.2": [
-"santuario/c-library/xml-security-c-2.0.2.tar.bz2",
-"santuario/c-library/xml-security-c-2.0.2.tar.gz",
-"santuario/c-library/xml-security-c-2.0.2.zip"
+"xml-security-c-2.0.3": [
+"santuario/c-library/xml-security-c-2.0.3.tar.bz2",
+"santuario/c-library/xml-security-c-2.0.3.tar.gz",
+"santuario/c-library/xml-security-c-2.0.3.zip"
 ],
 "xmlsec-2.1.7": [
 "santuario/java-library/2_1_7/xmlsec-2.1.7-source-release.zip"
