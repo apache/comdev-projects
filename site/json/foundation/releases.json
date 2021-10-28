@@ -33,7 +33,6 @@
 "activemq-cli-tools-0.1.0": "2020-07-03",
 "activemq-cli-tools-0.2.0": "2020-07-22",
 "activemq-cpp-library-3.9.5": "2020-07-03",
-"apache-artemis-2.18.0": "2021-08-09",
 "apache-artemis-2.19.0": "2021-10-11"
 },
 "airavata": {
@@ -337,11 +336,12 @@
 "apache-atlas-2.2.0": "2021-08-17"
 },
 "avro": {
-"Avro-1.10.2": "2021-03-09",
-"avro-1.10.2": "2021-03-09",
-"avro-c-1.10.2": "2021-03-09",
-"avro-csharp-1.10.2": "2021-03-09",
-"avro-js-1.10.2": "2021-03-09"
+"Avro-1.11.0": "2021-10-21",
+"avro-1.11.0": "2021-10-21",
+"avro-c-1.11.0": "2021-10-21",
+"avro-csharp-1.11.0": "2021-10-21",
+"avro-js-1.11.0": "2021-10-21",
+"avro-rs-0.13.0.crate": "2021-10-21"
 },
 "axis": {
 "axis-1_4": "2020-07-06",
@@ -446,6 +446,7 @@
 "apache-camel-k-runtime-1.7.0": "2021-04-20",
 "apache-camel-k-runtime-1.8.0": "2021-07-09",
 "apache-camel-k-runtime-1.9.0": "2021-09-07",
+"apache-camel-k-runtime-1.9.1": "2021-10-27",
 "apache-camel-kafka-connector-0.6.1": "2020-11-30",
 "apache-camel-quarkus-2.3.0": "2021-10-05",
 "camel-k-client-1.2.1-linux": "2020-11-27",
@@ -475,6 +476,10 @@
 "camel-k-client-1.6.0-linux": "2021-09-07",
 "camel-k-client-1.6.0-mac": "2021-09-07",
 "camel-k-client-1.6.0-windows": "2021-09-07",
+"camel-k-client-1.6.1-linux": "2021-10-27",
+"camel-k-client-1.6.1-mac": "2021-10-27",
+"camel-k-client-1.6.1-mac-arm64bit": "2021-10-27",
+"camel-k-client-1.6.1-windows": "2021-10-27",
 "camel-k-examples-1.2.1": "2020-11-27",
 "camel-k-examples-1.3.0": "2020-12-29",
 "camel-k-examples-1.3.1": "2021-02-04",
@@ -484,6 +489,7 @@
 "camel-k-examples-1.5.0": "2021-07-09",
 "camel-k-examples-1.5.1": "2021-08-31",
 "camel-k-examples-1.6.0": "2021-09-07",
+"camel-k-examples-1.6.1": "2021-10-27",
 "camel-k-sources-1.2.1": "2020-11-27",
 "camel-k-sources-1.3.0": "2020-12-29",
 "camel-k-sources-1.3.1": "2021-02-04",
@@ -493,6 +499,7 @@
 "camel-k-sources-1.5.0": "2021-07-09",
 "camel-k-sources-1.5.1": "2021-08-31",
 "camel-k-sources-1.6.0": "2021-09-07",
+"camel-k-sources-1.6.1": "2021-10-27",
 "camel-kafka-connector-0.10.0": "2021-05-25",
 "camel-kafka-connector-0.10.1": "2021-06-22",
 "camel-kafka-connector-0.11.0": "2021-09-24",
@@ -742,7 +749,7 @@
 "commons-beanutils-1.9.4": "2020-07-03",
 "commons-build-plugin-1.12": "2020-10-18",
 "commons-chain-1.2": "2020-07-03",
-"commons-cli-1.4": "2020-07-03",
+"commons-cli-1.5.0": "2021-10-27",
 "commons-codec-1.15": "2020-09-01",
 "commons-collections-3.2.2": "2020-07-03",
 "commons-collections4-4.1": "2020-07-03",
@@ -868,10 +875,7 @@
 "apache-curator-5.2.0": "2021-07-19"
 },
 "cxf": {
-"apache-cxf-3.2.14": "2020-07-03",
-"apache-cxf-3.3.11": "2021-06-08",
 "apache-cxf-3.3.12": "2021-10-04",
-"apache-cxf-3.4.4": "2021-06-08",
 "apache-cxf-3.4.5": "2021-10-04",
 "apache-fediz-1.5.1": "2020-11-30",
 "cxf-dosgi-main-2.3.0": "2020-07-03",

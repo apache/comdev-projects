@@ -4404,6 +4404,11 @@
 "programming-language": "Java",
 "release": [
 {
+"created": "2021-10-27",
+"name": "commons-cli",
+"revision": "1.5.0"
+},
+{
 "created": "2017-03-09",
 "name": "commons-cli",
 "revision": "1.4"
@@ -10029,7 +10034,7 @@
 },
 "kafka": {
 "bug-database": "https://issues.apache.org/jira/browse/KAFKA",
-"category": "https://projects.apache.org/projects.html?category#big-data",
+"category": "big-data",
 "created": "2014-04-12",
 "description": "A single Kafka broker can handle hundreds of megabytes of reads and writes per second from thousands of clients. Kafka is designed to allow a single cluster to serve as the central data backbone for a large organization. It can be elastically and transparently expanded without downtime. Data streams are partitioned and spread over a cluster of machines to allow data streams larger than the capability of any single machine and to allow clusters of co-ordinated consumers. Kafka has a modern cluster-centric design that offers strong durability and fault-tolerance guarantees. Messages are persisted on disk and replicated within the cluster to prevent data loss. Each broker can handle terabytes of messages without performance impact.",
 "doap": "https://gitbox.apache.org/repos/asf?p=kafka.git;a=blob_plain;f=doap_Kafka.rdf;hb=HEAD",

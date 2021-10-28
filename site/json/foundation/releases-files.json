@@ -42,7 +42,8 @@
 "activemq/apache-nms-amqp/1.8.2/Apache.NMS.AMQP-1.8.2-src.zip"
 ],
 "Apache.NMS.AMQP-2.0.0": [
-"activemq/apache-nms-activemq/2.0.0/Apache.NMS.AMQP-2.0.0-src.zip"
+"activemq/apache-nms-activemq/2.0.0/Apache.NMS.AMQP-2.0.0-src.zip",
+"activemq/apache-nms-amqp/2.0.0/Apache.NMS.AMQP-2.0.0-src.zip"
 ],
 "Apache.NMS.AMQP.1.8.0.nupkg": [
 "activemq/apache-nms-amqp/1.8.0/Apache.NMS.AMQP.1.8.0.nupkg"
@@ -57,10 +58,12 @@
 "activemq/apache-nms-amqp/1.8.2/Apache.NMS.AMQP.1.8.2.snupkg"
 ],
 "Apache.NMS.AMQP.2.0.0.nupkg": [
-"activemq/apache-nms-activemq/2.0.0/Apache.NMS.AMQP.2.0.0.nupkg"
+"activemq/apache-nms-activemq/2.0.0/Apache.NMS.AMQP.2.0.0.nupkg",
+"activemq/apache-nms-amqp/2.0.0/Apache.NMS.AMQP.2.0.0.nupkg"
 ],
 "Apache.NMS.AMQP.2.0.0.snupkg": [
-"activemq/apache-nms-activemq/2.0.0/Apache.NMS.AMQP.2.0.0.snupkg"
+"activemq/apache-nms-activemq/2.0.0/Apache.NMS.AMQP.2.0.0.snupkg",
+"activemq/apache-nms-amqp/2.0.0/Apache.NMS.AMQP.2.0.0.snupkg"
 ],
 "Apache.NMS.ActiveMQ-1.7.2": [
 "activemq/apache-nms/1.7.0/Apache.NMS.ActiveMQ-1.7.2-src.zip"
@@ -97,10 +100,6 @@
 "activemq/activemq-cpp/3.9.5/activemq-cpp-library-3.9.5-src.tar.bz2",
 "activemq/activemq-cpp/3.9.5/activemq-cpp-library-3.9.5-src.tar.gz",
 "activemq/activemq-cpp/3.9.5/activemq-cpp-library-3.9.5-src.zip"
-],
-"apache-artemis-2.18.0": [
-"activemq/activemq-artemis/2.18.0/apache-artemis-2.18.0-source-release.tar.gz",
-"activemq/activemq-artemis/2.18.0/apache-artemis-2.18.0-source-release.zip"
 ],
 "apache-artemis-2.19.0": [
 "activemq/activemq-artemis/2.19.0/apache-artemis-2.19.0-source-release.tar.gz",
@@ -985,20 +984,23 @@
 ]
 },
 "avro": {
-"Avro-1.10.2": [
-"avro/avro-1.10.2/perl/Avro-1.10.2.tar.gz"
+"Avro-1.11.0": [
+"avro/avro-1.11.0/perl/Avro-1.11.0.tar.gz"
 ],
-"avro-1.10.2": [
-"avro/avro-1.10.2/avro-src-1.10.2.tar.gz"
+"avro-1.11.0": [
+"avro/avro-1.11.0/avro-src-1.11.0.tar.gz"
 ],
-"avro-c-1.10.2": [
-"avro/avro-1.10.2/c/avro-c-1.10.2.tar.gz"
+"avro-c-1.11.0": [
+"avro/avro-1.11.0/c/avro-c-1.11.0.tar.gz"
 ],
-"avro-csharp-1.10.2": [
-"avro/avro-1.10.2/csharp/avro-csharp-1.10.2.tar.gz"
+"avro-csharp-1.11.0": [
+"avro/avro-1.11.0/csharp/avro-csharp-1.11.0.tar.gz"
 ],
-"avro-js-1.10.2": [
-"avro/avro-1.10.2/js/avro-js-1.10.2.tgz"
+"avro-js-1.11.0": [
+"avro/avro-1.11.0/js/avro-js-1.11.0.tgz"
+],
+"avro-rs-0.13.0.crate": [
+"avro/avro-1.11.0/rust/avro-rs-0.13.0.crate"
 ]
 },
 "axis": {
@@ -1307,6 +1309,9 @@
 "apache-camel-k-runtime-1.9.0": [
 "camel/camel-k-runtime/1.9.0/apache-camel-k-runtime-1.9.0-source-release.zip"
 ],
+"apache-camel-k-runtime-1.9.1": [
+"camel/camel-k-runtime/1.9.1/apache-camel-k-runtime-1.9.1-source-release.zip"
+],
 "apache-camel-kafka-connector-0.6.1": [
 "camel/camel-kafka-connector/0.6.1/apache-camel-kafka-connector-0.6.1-src.zip"
 ],
@@ -1394,6 +1399,18 @@
 "camel-k-client-1.6.0-windows": [
 "camel/camel-k/1.6.0/camel-k-client-1.6.0-windows-64bit.tar.gz"
 ],
+"camel-k-client-1.6.1-linux": [
+"camel/camel-k/1.6.1/camel-k-client-1.6.1-linux-64bit.tar.gz"
+],
+"camel-k-client-1.6.1-mac": [
+"camel/camel-k/1.6.1/camel-k-client-1.6.1-mac-64bit.tar.gz"
+],
+"camel-k-client-1.6.1-mac-arm64bit": [
+"camel/camel-k/1.6.1/camel-k-client-1.6.1-mac-arm64bit.tar.gz"
+],
+"camel-k-client-1.6.1-windows": [
+"camel/camel-k/1.6.1/camel-k-client-1.6.1-windows-64bit.tar.gz"
+],
 "camel-k-examples-1.2.1": [
 "camel/camel-k/1.2.1/camel-k-examples-1.2.1.tar.gz"
 ],
@@ -1421,6 +1438,9 @@
 "camel-k-examples-1.6.0": [
 "camel/camel-k/1.6.0/camel-k-examples-1.6.0.tar.gz"
 ],
+"camel-k-examples-1.6.1": [
+"camel/camel-k/1.6.1/camel-k-examples-1.6.1.tar.gz"
+],
 "camel-k-sources-1.2.1": [
 "camel/camel-k/1.2.1/camel-k-sources-1.2.1.tar.gz"
 ],
@@ -1447,6 +1467,9 @@
 ],
 "camel-k-sources-1.6.0": [
 "camel/camel-k/1.6.0/camel-k-sources-1.6.0.tar.gz"
+],
+"camel-k-sources-1.6.1": [
+"camel/camel-k/1.6.1/camel-k-sources-1.6.1.tar.gz"
 ],
 "camel-kafka-connector-0.10.0": [
 "camel/camel-kafka-connector/0.10.0/camel-kafka-connector-0.10.0-src.zip"
@@ -2295,9 +2318,9 @@
 "commons/chain/source/commons-chain-1.2-src.tar.gz",
 "commons/chain/source/commons-chain-1.2-src.zip"
 ],
-"commons-cli-1.4": [
-"commons/cli/source/commons-cli-1.4-src.tar.gz",
-"commons/cli/source/commons-cli-1.4-src.zip"
+"commons-cli-1.5.0": [
+"commons/cli/source/commons-cli-1.5.0-src.tar.gz",
+"commons/cli/source/commons-cli-1.5.0-src.zip"
 ],
 "commons-codec-1.15": [
 "commons/codec/source/commons-codec-1.15-src.tar.gz",
@@ -2712,29 +2735,11 @@
 ]
 },
 "cxf": {
-"apache-cxf-3.2.14": [
-"cxf/3.2.14/apache-cxf-3.2.14-src.tar.gz",
-"cxf/3.2.14/apache-cxf-3.2.14-src.zip",
-"cxf/3.2.14/apache-cxf-3.2.14.tar.gz",
-"cxf/3.2.14/apache-cxf-3.2.14.zip"
-],
-"apache-cxf-3.3.11": [
-"cxf/3.3.11/apache-cxf-3.3.11-src.tar.gz",
-"cxf/3.3.11/apache-cxf-3.3.11-src.zip",
-"cxf/3.3.11/apache-cxf-3.3.11.tar.gz",
-"cxf/3.3.11/apache-cxf-3.3.11.zip"
-],
 "apache-cxf-3.3.12": [
 "cxf/3.3.12/apache-cxf-3.3.12-src.tar.gz",
 "cxf/3.3.12/apache-cxf-3.3.12-src.zip",
 "cxf/3.3.12/apache-cxf-3.3.12.tar.gz",
 "cxf/3.3.12/apache-cxf-3.3.12.zip"
-],
-"apache-cxf-3.4.4": [
-"cxf/3.4.4/apache-cxf-3.4.4-src.tar.gz",
-"cxf/3.4.4/apache-cxf-3.4.4-src.zip",
-"cxf/3.4.4/apache-cxf-3.4.4.tar.gz",
-"cxf/3.4.4/apache-cxf-3.4.4.zip"
 ],
 "apache-cxf-3.4.5": [
 "cxf/3.4.5/apache-cxf-3.4.5-src.tar.gz",
