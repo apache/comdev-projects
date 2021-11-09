@@ -124,11 +124,20 @@
 "airflow-1.2.0.tgz.prov": [
 "airflow/helm-chart/1.2.0/airflow-1.2.0.tgz.prov"
 ],
+"airflow-1.3.0": [
+"airflow/helm-chart/1.3.0/airflow-1.3.0.tgz"
+],
+"airflow-1.3.0.tgz.prov": [
+"airflow/helm-chart/1.3.0/airflow-1.3.0.tgz.prov"
+],
 "airflow-chart-1.1.0": [
 "airflow/helm-chart/1.1.0/airflow-chart-1.1.0-source.tar.gz"
 ],
 "airflow-chart-1.2.0": [
 "airflow/helm-chart/1.2.0/airflow-chart-1.2.0-source.tar.gz"
+],
+"airflow-chart-1.3.0": [
+"airflow/helm-chart/1.3.0/airflow-chart-1.3.0-source.tar.gz"
 ],
 "apache-airflow-2.2.1": [
 "airflow/2.2.1/apache-airflow-2.2.1-source.tar.gz",
@@ -3046,9 +3055,6 @@
 "apache-dubbo-extensions-1.0.0": [
 "dubbo/dubbo-spi-extensions/1.0.0/apache-dubbo-extensions-1.0.0-src.zip"
 ],
-"apache-dubbo-extensions-3.0.0-SNAPSHOT": [
-"dubbo/dubbo-spi-extensions/dubbo-api-docs/2.7.8.2/apache-dubbo-extensions-3.0.0-SNAPSHOT-src.zip"
-],
 "apache-dubbo-js-4.0.0": [
 "dubbo/dubbo-js/4.0.0/apache-dubbo-js-4.0.0-source-release.zip"
 ],
@@ -3252,9 +3258,9 @@
 "felix/org.apache.felix.healthcheck.core-2.0.10-source-release.tar.gz",
 "felix/org.apache.felix.healthcheck.core-2.0.10-source-release.zip"
 ],
-"org.apache.felix.healthcheck.generalchecks-2.0.12": [
-"felix/org.apache.felix.healthcheck.generalchecks-2.0.12-source-release.tar.gz",
-"felix/org.apache.felix.healthcheck.generalchecks-2.0.12-source-release.zip"
+"org.apache.felix.healthcheck.generalchecks-2.0.14": [
+"felix/org.apache.felix.healthcheck.generalchecks-2.0.14-source-release.tar.gz",
+"felix/org.apache.felix.healthcheck.generalchecks-2.0.14-source-release.zip"
 ],
 "org.apache.felix.healthcheck.webconsoleplugin-2.0.2": [
 "felix/org.apache.felix.healthcheck.webconsoleplugin-2.0.2-source-release.tar.gz",
@@ -4305,8 +4311,8 @@
 "apache-iceberg-0.11.1": [
 "iceberg/apache-iceberg-0.11.1/apache-iceberg-0.11.1.tar.gz"
 ],
-"apache-iceberg-0.12.0": [
-"iceberg/apache-iceberg-0.12.0/apache-iceberg-0.12.0.tar.gz"
+"apache-iceberg-0.12.1": [
+"iceberg/apache-iceberg-0.12.1/apache-iceberg-0.12.1.tar.gz"
 ]
 },
 "ignite": {
@@ -4583,9 +4589,6 @@
 ]
 },
 "incubator-shenyu": {
-"apache-shenyu-incubating-2.4.0": [
-"incubator/shenyu/2.4.0/apache-shenyu-incubating-2.4.0-src.zip"
-],
 "apache-shenyu-incubating-2.4.1": [
 "incubator/shenyu/2.4.1/apache-shenyu-incubating-2.4.1-src.zip"
 ]
@@ -4742,8 +4745,8 @@
 "jackrabbit-oak-1.6.21": [
 "jackrabbit/oak/1.6.21/jackrabbit-oak-1.6.21-src.zip"
 ],
-"jackrabbit-oak-1.8.24": [
-"jackrabbit/oak/1.8.24/jackrabbit-oak-1.8.24-src.zip"
+"jackrabbit-oak-1.8.25": [
+"jackrabbit/oak/1.8.25/jackrabbit-oak-1.8.25-src.zip"
 ],
 "jackrabbit-ocm-2.0.0": [
 "jackrabbit/ocm/2.0.0/jackrabbit-ocm-2.0.0-source-release.zip"
@@ -9083,9 +9086,6 @@
 ]
 },
 "nifi": {
-"nifi-1.14.0": [
-"nifi/1.14.0/nifi-1.14.0-source-release.zip"
-],
 "nifi-1.15.0": [
 "nifi/1.15.0/nifi-1.15.0-source-release.zip"
 ],
@@ -9273,6 +9273,9 @@
 "openwhisk-client-js-3.21.4": [
 "openwhisk/openwhisk-client-js-3.21.4-sources.tar.gz"
 ],
+"openwhisk-client-js-3.21.5": [
+"openwhisk/openwhisk-client-js-3.21.5-sources.tar.gz"
+],
 "openwhisk-composer-0.12.0": [
 "openwhisk/20.11/openwhisk-composer-0.12.0-sources.tar.gz",
 "openwhisk/openwhisk-composer-0.12.0-sources.tar.gz"
@@ -9367,8 +9370,8 @@
 ]
 },
 "orc": {
-"orc-1.6.11": [
-"orc/orc-1.6.11/orc-1.6.11.tar.gz"
+"orc-1.6.12": [
+"orc/orc-1.6.12/orc-1.6.12.tar.gz"
 ],
 "orc-1.7.0": [
 "orc/orc-1.7.0/orc-1.7.0.tar.gz"
@@ -10641,6 +10644,9 @@
 ],
 "apache-shardingsphere-4.1.1-shardingsphere-ui": [
 "shardingsphere/shardingsphere-ui-4.1.1/apache-shardingsphere-4.1.1-shardingsphere-ui-src.zip"
+],
+"apache-shardingsphere-5.0.0": [
+"shardingsphere/5.0.0/apache-shardingsphere-5.0.0-src.zip"
 ],
 "apache-shardingsphere-5.0.0-alpha": [
 "shardingsphere/5.0.0-alpha/apache-shardingsphere-5.0.0-alpha-src.zip"
