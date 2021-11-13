@@ -351,8 +351,8 @@
 ]
 },
 "ambari": {
-"apache-ambari-2.7.5": [
-"ambari/ambari-2.7.5/apache-ambari-2.7.5-src.tar.gz"
+"apache-ambari-2.7.6": [
+"ambari/ambari-2.7.6/apache-ambari-2.7.6-src.tar.gz"
 ]
 },
 "ant": {
@@ -1090,6 +1090,9 @@
 "apache-camel-3.12.0": [
 "camel/apache-camel/3.12.0/apache-camel-3.12.0-src.zip"
 ],
+"apache-camel-3.13.0": [
+"camel/apache-camel/3.13.0/apache-camel-3.13.0-src.zip"
+],
 "apache-camel-3.4.6": [
 "camel/apache-camel/3.4.6/apache-camel-3.4.6-src.zip"
 ],
@@ -1126,8 +1129,8 @@
 "apache-camel-kafka-connector-0.6.1": [
 "camel/camel-kafka-connector/0.6.1/apache-camel-kafka-connector-0.6.1-src.zip"
 ],
-"apache-camel-quarkus-2.3.0": [
-"camel/camel-quarkus/2.3.0/apache-camel-quarkus-2.3.0-src.zip"
+"apache-camel-quarkus-2.4.0": [
+"camel/camel-quarkus/2.4.0/apache-camel-quarkus-2.4.0-src.zip"
 ],
 "camel-k-client-1.2.1-linux": [
 "camel/camel-k/1.2.1/camel-k-client-1.2.1-linux-64bit.tar.gz"
@@ -4692,8 +4695,14 @@
 "kafka-2.6.2": [
 "kafka/2.6.2/kafka-2.6.2-src.tgz"
 ],
+"kafka-2.6.3": [
+"kafka/2.6.3/kafka-2.6.3-src.tgz"
+],
 "kafka-2.7.1": [
 "kafka/2.7.1/kafka-2.7.1-src.tgz"
+],
+"kafka-2.7.2": [
+"kafka/2.7.2/kafka-2.7.2-src.tgz"
 ],
 "kafka-2.8.1": [
 "kafka/2.8.1/kafka-2.8.1-src.tgz"
@@ -4704,8 +4713,14 @@
 "kafka_2.12-2.6.2": [
 "kafka/2.6.2/kafka_2.12-2.6.2.tgz"
 ],
+"kafka_2.12-2.6.3": [
+"kafka/2.6.3/kafka_2.12-2.6.3.tgz"
+],
 "kafka_2.12-2.7.1": [
 "kafka/2.7.1/kafka_2.12-2.7.1.tgz"
+],
+"kafka_2.12-2.7.2": [
+"kafka/2.7.2/kafka_2.12-2.7.2.tgz"
 ],
 "kafka_2.12-2.8.1": [
 "kafka/2.8.1/kafka_2.12-2.8.1.tgz"
@@ -4716,8 +4731,14 @@
 "kafka_2.13-2.6.2": [
 "kafka/2.6.2/kafka_2.13-2.6.2.tgz"
 ],
+"kafka_2.13-2.6.3": [
+"kafka/2.6.3/kafka_2.13-2.6.3.tgz"
+],
 "kafka_2.13-2.7.1": [
 "kafka/2.7.1/kafka_2.13-2.7.1.tgz"
+],
+"kafka_2.13-2.7.2": [
+"kafka/2.7.2/kafka_2.13-2.7.2.tgz"
 ],
 "kafka_2.13-2.8.1": [
 "kafka/2.8.1/kafka_2.13-2.8.1.tgz"
@@ -10649,14 +10670,14 @@
 "maven-sling-plugin-2.4.2": [
 "sling/maven-sling-plugin-2.4.2-source-release.zip"
 ],
-"org.apache.sling.adapter-2.1.10": [
-"sling/org.apache.sling.adapter-2.1.10-source-release.zip"
+"org.apache.sling.adapter-2.2.0": [
+"sling/org.apache.sling.adapter-2.2.0-source-release.zip"
 ],
 "org.apache.sling.adapter.annotations-2.0.0": [
 "sling/org.apache.sling.adapter.annotations-2.0.0-source-release.zip"
 ],
-"org.apache.sling.api-2.23.6": [
-"sling/org.apache.sling.api-2.23.6-source-release.zip"
+"org.apache.sling.api-2.24.0": [
+"sling/org.apache.sling.api-2.24.0-source-release.zip"
 ],
 "org.apache.sling.auth.core-1.5.6": [
 "sling/org.apache.sling.auth.core-1.5.6-source-release.zip"
@@ -10970,8 +10991,8 @@
 "org.apache.sling.dynamic-include-3.2.0": [
 "sling/org.apache.sling.dynamic-include-3.2.0-source-release.zip"
 ],
-"org.apache.sling.engine-2.7.10": [
-"sling/org.apache.sling.engine-2.7.10-source-release.zip"
+"org.apache.sling.engine-2.8.0": [
+"sling/org.apache.sling.engine-2.8.0-source-release.zip"
 ],
 "org.apache.sling.event-4.2.24": [
 "sling/org.apache.sling.event-4.2.24-source-release.zip"
@@ -11187,11 +11208,11 @@
 "org.apache.sling.jcr.repoinit-1.1.36": [
 "sling/org.apache.sling.jcr.repoinit-1.1.36-source-release.zip"
 ],
-"org.apache.sling.jcr.resource-3.0.22": [
-"sling/org.apache.sling.jcr.resource-3.0.22-source-release.zip"
+"org.apache.sling.jcr.resource-3.1.0": [
+"sling/org.apache.sling.jcr.resource-3.1.0-source-release.zip"
 ],
-"org.apache.sling.jcr.resourcesecurity-1.0.2": [
-"sling/org.apache.sling.jcr.resourcesecurity-1.0.2-source-release.zip"
+"org.apache.sling.jcr.resourcesecurity-1.1.0": [
+"sling/org.apache.sling.jcr.resourcesecurity-1.1.0-source-release.zip"
 ],
 "org.apache.sling.jcr.webconsole-1.1.0": [
 "sling/org.apache.sling.jcr.webconsole-1.1.0-source-release.zip"
@@ -11379,8 +11400,8 @@
 "org.apache.sling.resource.presence-0.0.2": [
 "sling/org.apache.sling.resource.presence-0.0.2-source-release.zip"
 ],
-"org.apache.sling.resourceaccesssecurity-1.0.0": [
-"sling/org.apache.sling.resourceaccesssecurity-1.0.0-source-release.zip"
+"org.apache.sling.resourceaccesssecurity-1.1.0": [
+"sling/org.apache.sling.resourceaccesssecurity-1.1.0-source-release.zip"
 ],
 "org.apache.sling.resourcebuilder-1.0.4": [
 "sling/org.apache.sling.resourcebuilder-1.0.4-source-release.zip"
@@ -11391,8 +11412,8 @@
 "org.apache.sling.resourcemerger-1.4.0": [
 "sling/org.apache.sling.resourcemerger-1.4.0-source-release.zip"
 ],
-"org.apache.sling.resourceresolver-1.7.10": [
-"sling/org.apache.sling.resourceresolver-1.7.10-source-release.zip"
+"org.apache.sling.resourceresolver-1.8.0": [
+"sling/org.apache.sling.resourceresolver-1.8.0-source-release.zip"
 ],
 "org.apache.sling.rewriter-1.3.0": [
 "sling/org.apache.sling.rewriter-1.3.0-source-release.zip"
@@ -11475,11 +11496,11 @@
 "org.apache.sling.servlets.get-2.1.44": [
 "sling/org.apache.sling.servlets.get-2.1.44-source-release.zip"
 ],
-"org.apache.sling.servlets.post-2.4.6": [
-"sling/org.apache.sling.servlets.post-2.4.6-source-release.zip"
+"org.apache.sling.servlets.post-2.5.0": [
+"sling/org.apache.sling.servlets.post-2.5.0-source-release.zip"
 ],
-"org.apache.sling.servlets.resolver-2.8.2": [
-"sling/org.apache.sling.servlets.resolver-2.8.2-source-release.zip"
+"org.apache.sling.servlets.resolver-2.9.0": [
+"sling/org.apache.sling.servlets.resolver-2.9.0-source-release.zip"
 ],
 "org.apache.sling.settings-1.4.2": [
 "sling/org.apache.sling.settings-1.4.2-source-release.zip"
@@ -12910,11 +12931,11 @@
 "woden-1.0M10": [
 "ws/woden/1.0M10/woden-1.0M10-src.zip"
 ],
-"wss4j-2.2.7": [
-"ws/wss4j/2.2.7/wss4j-2.2.7-source-release.zip"
-],
 "wss4j-2.3.3": [
 "ws/wss4j/2.3.3/wss4j-2.3.3-source-release.zip"
+],
+"wss4j-2.4.0": [
+"ws/wss4j/2.4.0/wss4j-2.4.0-source-release.zip"
 ],
 "xmlschema-2.2.5": [
 "ws/xmlschema/2.2.5/xmlschema-2.2.5-source-release.zip"
