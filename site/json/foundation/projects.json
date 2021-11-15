@@ -15890,6 +15890,37 @@
 ],
 "shortdesc": "Component oriented framework for creating dynamic, robust, highly scalable web applications in Java."
 },
+"tcl-rivet": {
+"bug-database": "https://issues.apache.org/bugzilla/buglist.cgi?quicksearch=Rivet",
+"category": "content",
+"created": "2021-11-13",
+"description": "Apache Rivet is a system for creating dynamic web content via the Tcl programming language integrated with Apache Web Server. It is designed to be fast, powerful and extensible, consume few system resources, be easy to learn, and to provide the user with a platform that can also be used for other programming tasks outside the web (GUI's, system administration tasks, text processing, database manipulation, XML, and so on). In order to meet these goals Tcl programming language was chosen to combine with the Apache HTTP Server.",
+"doap": "http://tcl.apache.org/rivet/doap_rivet.rdf",
+"download-page": "https://downloads.apache.org/tcl/rivet/",
+"homepage": "https://tcl.apache.org/rivet",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://mail-archives.apache.org/mod_mbox/tcl-rivet-dev/",
+"maintainer": [
+{
+"mbox": "mailto:mxmanghi@apache.org",
+"name": "Massimo Manghi"
+}
+],
+"name": "Apache rivet",
+"pmc": "tcl",
+"programming-language": "Tcl",
+"release": [
+{
+"created": "2021-11-13",
+"name": "rivet-3.2.1",
+"revision": "3.2.1"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf/tcl-rivet.git"
+],
+"shortdesc": "Server-side Tcl programming system combining ease of use and power"
+},
 "tcl-websh": {
 "bug-database": "http://issues.apache.org/bugzilla/buglist.cgi?product=WebSH",
 "category": "web-framework, httpd-module",
