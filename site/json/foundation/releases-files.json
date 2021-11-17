@@ -3939,6 +3939,9 @@
 "helix-0.9.8": [
 "helix/0.9.8/src/helix-0.9.8-src.zip"
 ],
+"helix-0.9.9": [
+"helix/0.9.9/src/helix-0.9.9-src.zip"
+],
 "helix-1.0.1": [
 "helix/1.0.1/src/helix-1.0.1-src.zip"
 ],
@@ -3994,6 +3997,10 @@
 "httpcomponents-client-5.1.1": [
 "httpcomponents/httpclient/source/httpcomponents-client-5.1.1-src.tar.gz",
 "httpcomponents/httpclient/source/httpcomponents-client-5.1.1-src.zip"
+],
+"httpcomponents-client-5.1.2": [
+"httpcomponents/httpclient/source/httpcomponents-client-5.1.2-src.tar.gz",
+"httpcomponents/httpclient/source/httpcomponents-client-5.1.2-src.zip"
 ],
 "httpcomponents-client-5.2-alpha1": [
 "httpcomponents/httpclient/source/httpcomponents-client-5.2-alpha1-src.tar.gz",
@@ -11698,10 +11705,12 @@
 },
 "solr": {
 "all.yaml": [
-"solr/solr-operator/v0.4.0/crds/all.yaml"
+"solr/solr-operator/v0.4.0/crds/all.yaml",
+"solr/solr-operator/v0.5.0/crds/all.yaml"
 ],
 "index.yaml": [
-"solr/solr-operator/v0.4.0/helm-charts/index.yaml"
+"solr/solr-operator/v0.4.0/helm-charts/index.yaml",
+"solr/solr-operator/v0.5.0/helm-charts/index.yaml"
 ],
 "solr-0.4.0": [
 "solr/solr-operator/v0.4.0/helm-charts/solr-0.4.0.tgz"
@@ -11709,26 +11718,45 @@
 "solr-0.4.0.tgz.prov": [
 "solr/solr-operator/v0.4.0/helm-charts/solr-0.4.0.tgz.prov"
 ],
+"solr-0.5.0": [
+"solr/solr-operator/v0.5.0/helm-charts/solr-0.5.0.tgz"
+],
+"solr-0.5.0.tgz.prov": [
+"solr/solr-operator/v0.5.0/helm-charts/solr-0.5.0.tgz.prov"
+],
 "solr-operator-0.4.0": [
 "solr/solr-operator/v0.4.0/helm-charts/solr-operator-0.4.0.tgz"
 ],
 "solr-operator-0.4.0.tgz.prov": [
 "solr/solr-operator/v0.4.0/helm-charts/solr-operator-0.4.0.tgz.prov"
 ],
+"solr-operator-0.5.0": [
+"solr/solr-operator/v0.5.0/helm-charts/solr-operator-0.5.0.tgz"
+],
+"solr-operator-0.5.0.tgz.prov": [
+"solr/solr-operator/v0.5.0/helm-charts/solr-operator-0.5.0.tgz.prov"
+],
 "solr-operator-v0.4.0": [
 "solr/solr-operator/v0.4.0/solr-operator-v0.4.0.tgz"
 ],
+"solr-operator-v0.5.0": [
+"solr/solr-operator/v0.5.0/solr-operator-v0.5.0.tgz"
+],
 "solrbackups.yaml": [
-"solr/solr-operator/v0.4.0/crds/solrbackups.yaml"
+"solr/solr-operator/v0.4.0/crds/solrbackups.yaml",
+"solr/solr-operator/v0.5.0/crds/solrbackups.yaml"
 ],
 "solrclouds.yaml": [
-"solr/solr-operator/v0.4.0/crds/solrclouds.yaml"
+"solr/solr-operator/v0.4.0/crds/solrclouds.yaml",
+"solr/solr-operator/v0.5.0/crds/solrclouds.yaml"
 ],
 "solrprometheusexporters.yaml": [
-"solr/solr-operator/v0.4.0/crds/solrprometheusexporters.yaml"
+"solr/solr-operator/v0.4.0/crds/solrprometheusexporters.yaml",
+"solr/solr-operator/v0.5.0/crds/solrprometheusexporters.yaml"
 ],
 "zookeeperclusters.yaml": [
-"solr/solr-operator/v0.4.0/crds/zookeeperclusters.yaml"
+"solr/solr-operator/v0.4.0/crds/zookeeperclusters.yaml",
+"solr/solr-operator/v0.5.0/crds/zookeeperclusters.yaml"
 ]
 },
 "spamassassin": {
