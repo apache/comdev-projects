@@ -680,6 +680,9 @@
 "apache-arrow-datafusion-5.0.0": [
 "arrow/arrow-datafusion-5.0.0/apache-arrow-datafusion-5.0.0.tar.gz"
 ],
+"apache-arrow-datafusion-6.0.0": [
+"arrow/arrow-datafusion-6.0.0/apache-arrow-datafusion-6.0.0.tar.gz"
+],
 "apache-arrow-rs-4.1.0": [
 "arrow/arrow-4.1.0/apache-arrow-rs-4.1.0.tar.gz"
 ],
@@ -718,6 +721,9 @@
 ],
 "apache-arrow-rs-6.2.0": [
 "arrow/arrow-rs-6.2.0/apache-arrow-rs-6.2.0.tar.gz"
+],
+"datafusion-0.4.0": [
+"arrow/arrow-datafusion-6.0.0/python/datafusion-0.4.0.tar.gz"
 ]
 },
 "asterixdb": {
@@ -4974,11 +4980,6 @@
 "lucene/java/7.7.3/lucene-7.7.3.tgz",
 "lucene/java/7.7.3/lucene-7.7.3.zip"
 ],
-"lucene-8.10.1": [
-"lucene/java/8.10.1/lucene-8.10.1-src.tgz",
-"lucene/java/8.10.1/lucene-8.10.1.tgz",
-"lucene/java/8.10.1/lucene-8.10.1.zip"
-],
 "lucene-8.11.0": [
 "lucene/java/8.11.0/lucene-8.11.0-src.tgz",
 "lucene/java/8.11.0/lucene-8.11.0.tgz",
@@ -4997,11 +4998,6 @@
 "lucene/solr/7.7.3/solr-7.7.3-src.tgz",
 "lucene/solr/7.7.3/solr-7.7.3.tgz",
 "lucene/solr/7.7.3/solr-7.7.3.zip"
-],
-"solr-8.10.1": [
-"lucene/solr/8.10.1/solr-8.10.1-src.tgz",
-"lucene/solr/8.10.1/solr-8.10.1.tgz",
-"lucene/solr/8.10.1/solr-8.10.1.zip"
 ],
 "solr-8.11.0": [
 "lucene/solr/8.11.0/solr-8.11.0-src.tgz",
@@ -9406,11 +9402,8 @@
 ]
 },
 "pinot": {
-"apache-pinot-0.8.0": [
-"pinot/apache-pinot-0.8.0/apache-pinot-0.8.0-src.tar.gz"
-],
-"apache-pinot-incubating-0.7.1": [
-"pinot/apache-pinot-incubating-0.7.1/apache-pinot-incubating-0.7.1-src.tar.gz"
+"apache-pinot-0.9.0": [
+"pinot/apache-pinot-0.9.0/apache-pinot-0.9.0-src.tar.gz"
 ]
 },
 "pivot": {
@@ -11705,18 +11698,10 @@
 },
 "solr": {
 "all.yaml": [
-"solr/solr-operator/v0.4.0/crds/all.yaml",
 "solr/solr-operator/v0.5.0/crds/all.yaml"
 ],
 "index.yaml": [
-"solr/solr-operator/v0.4.0/helm-charts/index.yaml",
 "solr/solr-operator/v0.5.0/helm-charts/index.yaml"
-],
-"solr-0.4.0": [
-"solr/solr-operator/v0.4.0/helm-charts/solr-0.4.0.tgz"
-],
-"solr-0.4.0.tgz.prov": [
-"solr/solr-operator/v0.4.0/helm-charts/solr-0.4.0.tgz.prov"
 ],
 "solr-0.5.0": [
 "solr/solr-operator/v0.5.0/helm-charts/solr-0.5.0.tgz"
@@ -11724,38 +11709,25 @@
 "solr-0.5.0.tgz.prov": [
 "solr/solr-operator/v0.5.0/helm-charts/solr-0.5.0.tgz.prov"
 ],
-"solr-operator-0.4.0": [
-"solr/solr-operator/v0.4.0/helm-charts/solr-operator-0.4.0.tgz"
-],
-"solr-operator-0.4.0.tgz.prov": [
-"solr/solr-operator/v0.4.0/helm-charts/solr-operator-0.4.0.tgz.prov"
-],
 "solr-operator-0.5.0": [
 "solr/solr-operator/v0.5.0/helm-charts/solr-operator-0.5.0.tgz"
 ],
 "solr-operator-0.5.0.tgz.prov": [
 "solr/solr-operator/v0.5.0/helm-charts/solr-operator-0.5.0.tgz.prov"
 ],
-"solr-operator-v0.4.0": [
-"solr/solr-operator/v0.4.0/solr-operator-v0.4.0.tgz"
-],
 "solr-operator-v0.5.0": [
 "solr/solr-operator/v0.5.0/solr-operator-v0.5.0.tgz"
 ],
 "solrbackups.yaml": [
-"solr/solr-operator/v0.4.0/crds/solrbackups.yaml",
 "solr/solr-operator/v0.5.0/crds/solrbackups.yaml"
 ],
 "solrclouds.yaml": [
-"solr/solr-operator/v0.4.0/crds/solrclouds.yaml",
 "solr/solr-operator/v0.5.0/crds/solrclouds.yaml"
 ],
 "solrprometheusexporters.yaml": [
-"solr/solr-operator/v0.4.0/crds/solrprometheusexporters.yaml",
 "solr/solr-operator/v0.5.0/crds/solrprometheusexporters.yaml"
 ],
 "zookeeperclusters.yaml": [
-"solr/solr-operator/v0.4.0/crds/zookeeperclusters.yaml",
 "solr/solr-operator/v0.5.0/crds/zookeeperclusters.yaml"
 ]
 },
@@ -12389,18 +12361,18 @@
 "tomcat/tomcat-10/v10.1.0-M7/src/apache-tomcat-10.1.0-M7-src.tar.gz",
 "tomcat/tomcat-10/v10.1.0-M7/src/apache-tomcat-10.1.0-M7-src.zip"
 ],
-"apache-tomcat-8.5.72": [
-"tomcat/tomcat-8/v8.5.72/bin/embed/apache-tomcat-8.5.72-embed.tar.gz",
-"tomcat/tomcat-8/v8.5.72/bin/embed/apache-tomcat-8.5.72-embed.zip",
-"tomcat/tomcat-8/v8.5.72/bin/apache-tomcat-8.5.72-deployer.tar.gz",
-"tomcat/tomcat-8/v8.5.72/bin/apache-tomcat-8.5.72-deployer.zip",
-"tomcat/tomcat-8/v8.5.72/bin/apache-tomcat-8.5.72-fulldocs.tar.gz",
-"tomcat/tomcat-8/v8.5.72/bin/apache-tomcat-8.5.72-windows-x64.zip",
-"tomcat/tomcat-8/v8.5.72/bin/apache-tomcat-8.5.72.exe",
-"tomcat/tomcat-8/v8.5.72/bin/apache-tomcat-8.5.72.tar.gz",
-"tomcat/tomcat-8/v8.5.72/bin/apache-tomcat-8.5.72.zip",
-"tomcat/tomcat-8/v8.5.72/src/apache-tomcat-8.5.72-src.tar.gz",
-"tomcat/tomcat-8/v8.5.72/src/apache-tomcat-8.5.72-src.zip"
+"apache-tomcat-8.5.73": [
+"tomcat/tomcat-8/v8.5.73/bin/embed/apache-tomcat-8.5.73-embed.tar.gz",
+"tomcat/tomcat-8/v8.5.73/bin/embed/apache-tomcat-8.5.73-embed.zip",
+"tomcat/tomcat-8/v8.5.73/bin/apache-tomcat-8.5.73-deployer.tar.gz",
+"tomcat/tomcat-8/v8.5.73/bin/apache-tomcat-8.5.73-deployer.zip",
+"tomcat/tomcat-8/v8.5.73/bin/apache-tomcat-8.5.73-fulldocs.tar.gz",
+"tomcat/tomcat-8/v8.5.73/bin/apache-tomcat-8.5.73-windows-x64.zip",
+"tomcat/tomcat-8/v8.5.73/bin/apache-tomcat-8.5.73.exe",
+"tomcat/tomcat-8/v8.5.73/bin/apache-tomcat-8.5.73.tar.gz",
+"tomcat/tomcat-8/v8.5.73/bin/apache-tomcat-8.5.73.zip",
+"tomcat/tomcat-8/v8.5.73/src/apache-tomcat-8.5.73-src.tar.gz",
+"tomcat/tomcat-8/v8.5.73/src/apache-tomcat-8.5.73-src.zip"
 ],
 "apache-tomcat-9.0.54": [
 "tomcat/tomcat-9/v9.0.54/bin/embed/apache-tomcat-9.0.54-embed.tar.gz",

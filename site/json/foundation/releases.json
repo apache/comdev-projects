@@ -231,6 +231,7 @@
 "apache-arrow-5.0.0": "2021-07-28",
 "apache-arrow-6.0.0": "2021-10-26",
 "apache-arrow-datafusion-5.0.0": "2021-08-14",
+"apache-arrow-datafusion-6.0.0": "2021-11-17",
 "apache-arrow-rs-4.1.0": "2021-05-22",
 "apache-arrow-rs-4.2.0": "2021-06-01",
 "apache-arrow-rs-4.3.0": "2021-06-14",
@@ -243,7 +244,8 @@
 "apache-arrow-rs-5.5.0": "2021-09-28",
 "apache-arrow-rs-6.0.0": "2021-10-17",
 "apache-arrow-rs-6.1.0": "2021-11-03",
-"apache-arrow-rs-6.2.0": "2021-11-15"
+"apache-arrow-rs-6.2.0": "2021-11-15",
+"datafusion-0.4.0": "2021-11-17"
 },
 "asterixdb": {
 "apache-asterixdb-0.9.1": "2020-07-06",
@@ -1240,7 +1242,7 @@
 },
 "helix": {
 "helix-0.9.8": "2020-10-12",
-"helix-0.9.9": "2021-11-15",
+"helix-0.9.9": "2021-11-17",
 "helix-1.0.1": "2020-07-15",
 "helix-1.0.2": "2021-06-09"
 },
@@ -1625,13 +1627,11 @@
 },
 "lucene": {
 "lucene-7.7.3": "2020-07-03",
-"lucene-8.10.1": "2021-10-12",
 "lucene-8.11.0": "2021-11-09",
 "pylucene-7.7.1": "2020-07-03",
 "pylucene-8.8.1": "2021-03-09",
 "pylucene-8.9.0": "2021-06-22",
 "solr-7.7.3": "2020-07-03",
-"solr-8.10.1": "2021-10-12",
 "solr-8.11.0": "2021-11-09"
 },
 "lucenenet": {
@@ -2844,8 +2844,7 @@
 "pig-0.17.0": "2020-07-06"
 },
 "pinot": {
-"apache-pinot-0.8.0": "2021-08-10",
-"apache-pinot-incubating-0.7.1": "2021-04-07"
+"apache-pinot-0.9.0": "2021-11-13"
 },
 "pivot": {
 "apache-pivot-2.0.5": "2020-07-06"
@@ -3620,22 +3619,17 @@
 "slingstart-maven-plugin-1.9.12": "2020-05-03"
 },
 "solr": {
-"all.yaml": "2021-09-07",
-"index.yaml": "2021-09-07",
-"solr-0.4.0": "2021-09-07",
-"solr-0.4.0.tgz.prov": "2021-09-07",
+"all.yaml": "2021-11-11",
+"index.yaml": "2021-11-11",
 "solr-0.5.0": "2021-11-11",
 "solr-0.5.0.tgz.prov": "2021-11-11",
-"solr-operator-0.4.0": "2021-09-07",
-"solr-operator-0.4.0.tgz.prov": "2021-09-07",
 "solr-operator-0.5.0": "2021-11-11",
 "solr-operator-0.5.0.tgz.prov": "2021-11-11",
-"solr-operator-v0.4.0": "2021-09-07",
 "solr-operator-v0.5.0": "2021-11-11",
-"solrbackups.yaml": "2021-09-07",
-"solrclouds.yaml": "2021-09-07",
-"solrprometheusexporters.yaml": "2021-09-07",
-"zookeeperclusters.yaml": "2021-09-07"
+"solrbackups.yaml": "2021-11-11",
+"solrclouds.yaml": "2021-11-11",
+"solrprometheusexporters.yaml": "2021-11-11",
+"zookeeperclusters.yaml": "2021-11-11"
 },
 "spamassassin": {
 "Mail-SpamAssassin-3.3.2": "2020-07-06",
@@ -3834,7 +3828,7 @@
 "apache-tomcat-10.0.12": "2021-09-28",
 "apache-tomcat-10.0.13": "2021-11-09",
 "apache-tomcat-10.1.0-M7": "2021-11-08",
-"apache-tomcat-8.5.72": "2021-10-01",
+"apache-tomcat-8.5.73": "2021-11-11",
 "apache-tomcat-9.0.54": "2021-09-28",
 "apache-tomcat-9.0.55": "2021-11-10",
 "jakartaee-migration-1.0.0": "2021-05-04",
