@@ -3927,7 +3927,8 @@
 "hbase/3.0.0-alpha-1/RELEASENOTES.md",
 "hbase/hbase-filesystem-1.0.0-alpha1/RELEASENOTES.md",
 "hbase/hbase-operator-tools-1.1.0/RELEASENOTES.md",
-"hbase/hbase-thirdparty-3.5.1/RELEASENOTES.md"
+"hbase/hbase-thirdparty-3.5.1/RELEASENOTES.md",
+"hbase/hbase-thirdparty-4.0.0/RELEASENOTES.md"
 ],
 "hbase-1.7.1": [
 "hbase/1.7.1/hbase-1.7.1-src.tar.gz"
@@ -3952,6 +3953,9 @@
 ],
 "hbase-thirdparty-3.5.1": [
 "hbase/hbase-thirdparty-3.5.1/hbase-thirdparty-3.5.1-src.tar.gz"
+],
+"hbase-thirdparty-4.0.0": [
+"hbase/hbase-thirdparty-4.0.0/hbase-thirdparty-4.0.0-src.tar.gz"
 ]
 },
 "helix": {
@@ -4000,6 +4004,10 @@
 "httpcomponents-asyncclient-4.1.4": [
 "httpcomponents/httpasyncclient/source/httpcomponents-asyncclient-4.1.4-src.tar.gz",
 "httpcomponents/httpasyncclient/source/httpcomponents-asyncclient-4.1.4-src.zip"
+],
+"httpcomponents-asyncclient-4.1.5": [
+"httpcomponents/httpasyncclient/source/httpcomponents-asyncclient-4.1.5-src.tar.gz",
+"httpcomponents/httpasyncclient/source/httpcomponents-asyncclient-4.1.5-src.zip"
 ],
 "httpcomponents-client-4.5.13": [
 "httpcomponents/httpclient/source/httpcomponents-client-4.5.13-src.tar.gz",
@@ -4265,6 +4273,9 @@
 ],
 "apache-kyuubi-1.3.1-incubating": [
 "incubator/kyuubi/kyuubi-1.3.1-incubating/apache-kyuubi-1.3.1-incubating-source.tgz"
+],
+"apache-kyuubi-1.4.0-incubating": [
+"incubator/kyuubi/kyuubi-1.4.0-incubating/apache-kyuubi-1.4.0-incubating-source.tgz"
 ]
 },
 "incubator-liminal": {
@@ -4517,9 +4528,9 @@
 "jackrabbit/2.20.4/jackrabbit-2.20.4-src.zip",
 "jackrabbit/2.20.4/jackrabbit-webapp-2.20.4.war"
 ],
-"jackrabbit-2.21.8": [
-"jackrabbit/2.21.8/jackrabbit-2.21.8-src.zip",
-"jackrabbit/2.21.8/jackrabbit-webapp-2.21.8.war"
+"jackrabbit-2.21.9": [
+"jackrabbit/2.21.9/jackrabbit-2.21.9-src.zip",
+"jackrabbit/2.21.9/jackrabbit-webapp-2.21.9.war"
 ],
 "jackrabbit-filevault-3.2.8": [
 "jackrabbit/filevault/3.2.8/jackrabbit-filevault-3.2.8-src.zip"
@@ -4539,8 +4550,8 @@
 "jackrabbit-jca-2.20.4": [
 "jackrabbit/2.20.4/jackrabbit-jca-2.20.4.rar"
 ],
-"jackrabbit-jca-2.21.8": [
-"jackrabbit/2.21.8/jackrabbit-jca-2.21.8.rar"
+"jackrabbit-jca-2.21.9": [
+"jackrabbit/2.21.9/jackrabbit-jca-2.21.9.rar"
 ],
 "jackrabbit-oak-1.22.9": [
 "jackrabbit/oak/1.22.9/jackrabbit-oak-1.22.9-src.zip"
@@ -8140,9 +8151,6 @@
 "apache-ofbiz-17.12.08": [
 "ofbiz/apache-ofbiz-17.12.08.zip"
 ],
-"apache-ofbiz-18.12.01": [
-"ofbiz/apache-ofbiz-18.12.01.zip"
-],
 "apache-ofbiz-18.12.02": [
 "ofbiz/apache-ofbiz-18.12.02.zip"
 ]
@@ -10666,17 +10674,17 @@
 "sling/org.apache.sling.launchpad.testing-war-11-source-release.zip",
 "sling/org.apache.sling.launchpad.testing-war-11-webapp.war"
 ],
-"org.apache.sling.models.api-1.3.8": [
-"sling/org.apache.sling.models.api-1.3.8-source-release.zip"
+"org.apache.sling.models.api-1.4.0": [
+"sling/org.apache.sling.models.api-1.4.0-source-release.zip"
 ],
-"org.apache.sling.models.impl-1.4.16": [
-"sling/org.apache.sling.models.impl-1.4.16-source-release.zip"
+"org.apache.sling.models.impl-1.5.0": [
+"sling/org.apache.sling.models.impl-1.5.0-source-release.zip"
 ],
-"org.apache.sling.models.jacksonexporter-1.0.8": [
-"sling/org.apache.sling.models.jacksonexporter-1.0.8-source-release.zip"
+"org.apache.sling.models.jacksonexporter-1.1.0": [
+"sling/org.apache.sling.models.jacksonexporter-1.1.0-source-release.zip"
 ],
-"org.apache.sling.models.validation-impl-1.0.0": [
-"sling/org.apache.sling.models.validation-impl-1.0.0-source-release.zip"
+"org.apache.sling.models.validation-impl-1.1.0": [
+"sling/org.apache.sling.models.validation-impl-1.1.0-source-release.zip"
 ],
 "org.apache.sling.nosql.couchbase-client-1.0.2": [
 "sling/org.apache.sling.nosql.couchbase-client-1.0.2-source-release.zip"
@@ -10844,8 +10852,8 @@
 "org.apache.sling.tenant-1.1.4": [
 "sling/org.apache.sling.tenant-1.1.4-source-release.zip"
 ],
-"org.apache.sling.testing.caconfig-mock-plugin-1.3.4": [
-"sling/org.apache.sling.testing.caconfig-mock-plugin-1.3.4-source-release.zip"
+"org.apache.sling.testing.caconfig-mock-plugin-1.3.6": [
+"sling/org.apache.sling.testing.caconfig-mock-plugin-1.3.6-source-release.zip"
 ],
 "org.apache.sling.testing.clients-2.0.10": [
 "sling/org.apache.sling.testing.clients-2.0.10-source-release.zip"
@@ -10862,23 +10870,23 @@
 "org.apache.sling.testing.logging-mock-2.0.0": [
 "sling/org.apache.sling.testing.logging-mock-2.0.0-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock-3.2.0": [
-"sling/org.apache.sling.testing.osgi-mock-3.2.0-source-release.zip"
+"org.apache.sling.testing.osgi-mock-3.2.2": [
+"sling/org.apache.sling.testing.osgi-mock-3.2.2-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.core-3.2.0": [
-"sling/org.apache.sling.testing.osgi-mock.core-3.2.0-source-release.zip"
+"org.apache.sling.testing.osgi-mock.core-3.2.2": [
+"sling/org.apache.sling.testing.osgi-mock.core-3.2.2-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.junit4-3.2.0": [
-"sling/org.apache.sling.testing.osgi-mock.junit4-3.2.0-source-release.zip"
+"org.apache.sling.testing.osgi-mock.junit4-3.2.2": [
+"sling/org.apache.sling.testing.osgi-mock.junit4-3.2.2-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.junit5-3.2.0": [
-"sling/org.apache.sling.testing.osgi-mock.junit5-3.2.0-source-release.zip"
+"org.apache.sling.testing.osgi-mock.junit5-3.2.2": [
+"sling/org.apache.sling.testing.osgi-mock.junit5-3.2.2-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.parent-3.2.0": [
-"sling/org.apache.sling.testing.osgi-mock.parent-3.2.0-source-release.zip"
+"org.apache.sling.testing.osgi-mock.parent-3.2.2": [
+"sling/org.apache.sling.testing.osgi-mock.parent-3.2.2-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.test-services-3.2.0": [
-"sling/org.apache.sling.testing.osgi-mock.test-services-3.2.0-source-release.zip"
+"org.apache.sling.testing.osgi-mock.test-services-3.2.2": [
+"sling/org.apache.sling.testing.osgi-mock.test-services-3.2.2-source-release.zip"
 ],
 "org.apache.sling.testing.paxexam-3.1.0": [
 "sling/org.apache.sling.testing.paxexam-3.1.0-source-release.zip"
