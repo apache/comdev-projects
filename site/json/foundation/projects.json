@@ -10640,116 +10640,6 @@
 ],
 "shortdesc": "Apache log4cxx provides logging services for C++."
 },
-"logging-log4j_2": {
-"bug-database": "https://issues.apache.org/jira/browse/LOG4J2",
-"category": "library",
-"chair": {
-"Person": {
-"mbox": "mailto:mattsicker@apache.org",
-"name": "Matt Sicker"
-}
-},
-"charter": "The Apache Logging Services Project creates and maintains open-source software related to the logging of\n              application behavior and released at no charge to the public.",
-"created": "1999-01-01",
-"description": "Apache Log4j 2",
-"doap": "https://logging.apache.org/log4j/2.x/doap_log4j.rdf",
-"download-page": "https://logging.apache.org/log4j/2.x/download.html",
-"helper": [
-{
-"homepage": "https://www.behance.net/muradersoy",
-"mbox": "mailto:muradersoy@gmail.com",
-"name": "Murad Ersoy"
-}
-],
-"homepage": "https://logging.apache.org/log4j/2.x/",
-"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
-"mailing-list": "https://logging.apache.org/log4j/2.x//mail-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:bruce.brouwer@gmail.com",
-"name": "Bruce Brouwer"
-},
-{
-"mbox": "mailto:ckozak@apache.org",
-"name": "Carter Kozak"
-},
-{
-"mbox": "mailto:ggregory@apache.org",
-"name": "Gary Gregory"
-},
-{
-"mbox": "mailto:mattsicker@apache.org",
-"name": "Matt Sicker"
-},
-{
-"mbox": "mailto:mikes@apache.org",
-"name": "Mikael Ståldal"
-},
-{
-"mbox": "mailto:nickwilliams@apache.org",
-"name": "Nick Williams"
-},
-{
-"mbox": "mailto:rgoers@apache.org",
-"name": "Ralph Goers"
-},
-{
-"mbox": "mailto:rpopma@apache.org",
-"name": "Remko Popma"
-},
-{
-"mbox": "mailto:sdeboy@apache.org",
-"name": "Scott Deboy"
-},
-{
-"mbox": "mailto:vy@apache.org",
-"name": "Volkan Yazıcı"
-}
-],
-"member": [
-{
-"mbox": "mailto:ckozak@apache.org",
-"name": "Carter Kozak"
-},
-{
-"mbox": "mailto:ggregory@apache.org",
-"name": "Gary Gregory"
-},
-{
-"mbox": "mailto:mikes@apache.org",
-"name": "Mikael Ståldal"
-},
-{
-"mbox": "mailto:nickwilliams@apache.org",
-"name": "Nick Williams"
-},
-{
-"mbox": "mailto:rgoers@apache.org",
-"name": "Ralph Goers"
-},
-{
-"mbox": "mailto:rpopma@apache.org",
-"name": "Remko Popma"
-},
-{
-"mbox": "mailto:sdeboy@apache.org",
-"name": "Scott Deboy"
-},
-{
-"mbox": "mailto:vy@apache.org",
-"name": "Volkan Yazıcı"
-}
-],
-"name": "Apache Log4j 2",
-"pmc": "logging",
-"programming-language": "Java",
-"repository": [
-"git:https://gitbox.apache.org/repos/asf/logging-log4j2.git",
-"git:https://gitbox.apache.org/repos/asf/logging-log4j2.git"
-],
-"shortdesc": "Apache Log4j 2",
-"vendor": "The Apache Software Foundation"
-},
 "logging-log4net": {
 "bug-database": "https://issues.apache.org/jira/browse/LOG4NET",
 "category": "library",
@@ -12754,6 +12644,11 @@
 "pmc": "ofbiz",
 "programming-language": "Java, Groovy, JavaScript, XML, Freemarker",
 "release": [
+{
+"created": "2021-12-12",
+"name": "Apache OFBiz R18.12",
+"revision": "18.12.03"
+},
 {
 "created": "2021-08-18",
 "name": "Apache OFBiz R17.12",
