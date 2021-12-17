@@ -1118,6 +1118,9 @@
 "apache-camel-3.13.0": [
 "camel/apache-camel/3.13.0/apache-camel-3.13.0-src.zip"
 ],
+"apache-camel-3.14.0": [
+"camel/apache-camel/3.14.0/apache-camel-3.14.0-src.zip"
+],
 "apache-camel-3.4.6": [
 "camel/apache-camel/3.4.6/apache-camel-3.4.6-src.zip"
 ],
@@ -2457,8 +2460,8 @@
 "cordova-js-6.1.0": [
 "cordova/tools/cordova-js-6.1.0.tgz"
 ],
-"cordova-lib-10.1.0": [
-"cordova/tools/cordova-lib-10.1.0.tgz"
+"cordova-lib-11.0.0": [
+"cordova/tools/cordova-lib-11.0.0.tgz"
 ],
 "cordova-osx-6.0.0": [
 "cordova/platforms/cordova-osx-6.0.0.tgz"
@@ -3483,20 +3486,23 @@
 ]
 },
 "flink": {
-"apache-flink-1.12.5": [
-"flink/flink-1.12.5/python/apache-flink-1.12.5.tar.gz"
+"apache-flink-1.11.6": [
+"flink/flink-1.11.6/python/apache-flink-1.11.6.tar.gz"
 ],
-"apache-flink-1.13.3": [
-"flink/flink-1.13.3/python/apache-flink-1.13.3.tar.gz"
+"apache-flink-1.12.7": [
+"flink/flink-1.12.7/python/apache-flink-1.12.7.tar.gz"
 ],
-"apache-flink-1.14.0": [
-"flink/flink-1.14.0/python/apache-flink-1.14.0.tar.gz"
+"apache-flink-1.13.5": [
+"flink/flink-1.13.5/python/apache-flink-1.13.5.tar.gz"
 ],
-"apache-flink-libraries-1.13.3": [
-"flink/flink-1.13.3/python/apache-flink-libraries-1.13.3.tar.gz"
+"apache-flink-1.14.2": [
+"flink/flink-1.14.2/python/apache-flink-1.14.2.tar.gz"
 ],
-"apache-flink-libraries-1.14.0": [
-"flink/flink-1.14.0/python/apache-flink-libraries-1.14.0.tar.gz"
+"apache-flink-libraries-1.13.5": [
+"flink/flink-1.13.5/python/apache-flink-libraries-1.13.5.tar.gz"
+],
+"apache-flink-libraries-1.14.2": [
+"flink/flink-1.14.2/python/apache-flink-libraries-1.14.2.tar.gz"
 ],
 "apache-flink-statefun-2.2.2": [
 "flink/flink-statefun-2.2.2/apache-flink-statefun-2.2.2.tar.gz"
@@ -3507,14 +3513,17 @@
 "apache-flink-statefun-3.1.0": [
 "flink/flink-statefun-3.1.0/apache-flink-statefun-3.1.0.tar.gz"
 ],
-"flink-1.12.5": [
-"flink/flink-1.12.5/flink-1.12.5-src.tgz"
+"flink-1.11.6": [
+"flink/flink-1.11.6/flink-1.11.6-src.tgz"
 ],
-"flink-1.13.3": [
-"flink/flink-1.13.3/flink-1.13.3-src.tgz"
+"flink-1.12.7": [
+"flink/flink-1.12.7/flink-1.12.7-src.tgz"
 ],
-"flink-1.14.0": [
-"flink/flink-1.14.0/flink-1.14.0-src.tgz"
+"flink-1.13.5": [
+"flink/flink-1.13.5/flink-1.13.5-src.tgz"
+],
+"flink-1.14.2": [
+"flink/flink-1.14.2/flink-1.14.2-src.tgz"
 ],
 "flink-shaded-12.0": [
 "flink/flink-shaded-12.0/flink-shaded-12.0-src.tgz"
@@ -4695,6 +4704,10 @@
 "apache-jmeter-5.4.1": [
 "jmeter/source/apache-jmeter-5.4.1_src.tgz",
 "jmeter/source/apache-jmeter-5.4.1_src.zip"
+],
+"apache-jmeter-5.4.2": [
+"jmeter/source/apache-jmeter-5.4.2_src.tgz",
+"jmeter/source/apache-jmeter-5.4.2_src.zip"
 ]
 },
 "johnzon": {
@@ -5027,6 +5040,11 @@
 ]
 },
 "lucene": {
+"lucene-8.11.1": [
+"lucene/java/8.11.1/lucene-8.11.1-src.tgz",
+"lucene/java/8.11.1/lucene-8.11.1.tgz",
+"lucene/java/8.11.1/lucene-8.11.1.zip"
+],
 "lucene-9.0.0": [
 "lucene/java/9.0.0/lucene-9.0.0-src.tgz",
 "lucene/java/9.0.0/lucene-9.0.0.tgz"
@@ -5052,6 +5070,11 @@
 "lucene/solr/8.11.0/solr-8.11.0-src.tgz",
 "lucene/solr/8.11.0/solr-8.11.0.tgz",
 "lucene/solr/8.11.0/solr-8.11.0.zip"
+],
+"solr-8.11.1": [
+"lucene/solr/8.11.1/solr-8.11.1-src.tgz",
+"lucene/solr/8.11.1/solr-8.11.1.tgz",
+"lucene/solr/8.11.1/solr-8.11.1.zip"
 ]
 },
 "lucenenet": {
@@ -5488,6 +5511,9 @@
 ],
 "maven-war-plugin-3.3.2": [
 "maven/plugins/maven-war-plugin-3.3.2-source-release.zip"
+],
+"maven-wrapper-3.1.0": [
+"maven/wrapper/maven-wrapper-parent-3.1.0-source-release.zip"
 ],
 "maven-wrapper-plugin-3.0.2": [
 "maven/plugins/maven-wrapper-plugin-3.0.2-source-release.zip"
@@ -8508,6 +8534,9 @@
 ],
 "pdfbox-2.0.24": [
 "pdfbox/2.0.24/pdfbox-2.0.24-src.zip"
+],
+"pdfbox-2.0.25": [
+"pdfbox/2.0.25/pdfbox-2.0.25-src.zip"
 ],
 "pdfbox-3.0.0-alpha2": [
 "pdfbox/3.0.0-alpha2/pdfbox-3.0.0-alpha2-src.zip"
@@ -11683,8 +11712,8 @@
 "tika-1.27": [
 "tika/1.27/tika-1.27-src.zip"
 ],
-"tika-2.1.0": [
-"tika/2.1.0/tika-2.1.0-src.zip"
+"tika-2.2.0": [
+"tika/2.2.0/tika-2.2.0-src.zip"
 ]
 },
 "tinkerpop": {
