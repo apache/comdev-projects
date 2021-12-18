@@ -2829,6 +2829,9 @@
 "apache-dolphinscheduler-2.0.0-alpha": [
 "dolphinscheduler/2.0.0-alpha/apache-dolphinscheduler-2.0.0-alpha-src.tar.gz"
 ],
+"apache-dolphinscheduler-2.0.1": [
+"dolphinscheduler/2.0.1/apache-dolphinscheduler-2.0.1-src.tar.gz"
+],
 "apache-dolphinscheduler-incubating-1.3.3": [
 "dolphinscheduler/1.3.3/apache-dolphinscheduler-incubating-1.3.3-src.zip"
 ],
@@ -4358,6 +4361,9 @@
 "incubator-mxnet": {
 "apache-mxnet-1.8.0-incubating": [
 "incubator/mxnet/1.8.0/apache-mxnet-src-1.8.0-incubating.tar.gz"
+],
+"apache-mxnet-1.9.0-incubating": [
+"incubator/mxnet/1.9.0/apache-mxnet-src-1.9.0-incubating.tar.gz"
 ]
 },
 "incubator-nemo": {
@@ -4643,6 +4649,9 @@
 "james-3.6.0": [
 "james/server/3.6.0/james-project-3.6.0-source-release.zip"
 ],
+"james-3.6.1": [
+"james/server/3.6.1/james-project-3.6.1-source-release.zip"
+],
 "james-mime4j-sources-0.8.5": [
 "james/mime4j/0.8.5/james-mime4j-sources-0.8.5.zip"
 ],
@@ -4651,6 +4660,9 @@
 ],
 "james-server-app-3.6.0": [
 "james/server/3.6.0/james-server-app-3.6.0-app.zip"
+],
+"james-server-app-3.6.1": [
+"james/server/3.6.1/james-server-app-3.6.1-app.zip"
 ]
 },
 "jclouds": {
@@ -5066,11 +5078,6 @@
 "lucene/solr/7.7.3/solr-7.7.3.tgz",
 "lucene/solr/7.7.3/solr-7.7.3.zip"
 ],
-"solr-8.11.0": [
-"lucene/solr/8.11.0/solr-8.11.0-src.tgz",
-"lucene/solr/8.11.0/solr-8.11.0.tgz",
-"lucene/solr/8.11.0/solr-8.11.0.zip"
-],
 "solr-8.11.1": [
 "lucene/solr/8.11.1/solr-8.11.1-src.tgz",
 "lucene/solr/8.11.1/solr-8.11.1.tgz",
@@ -5287,8 +5294,8 @@
 "doxia-converter-1.2": [
 "maven/doxia/doxia-converter-1.2-source-release.zip"
 ],
-"doxia-sitetools-1.10": [
-"maven/doxia/doxia-sitetools-1.10-source-release.zip"
+"doxia-sitetools-1.11.1": [
+"maven/doxia/doxia-sitetools-1.11.1-source-release.zip"
 ],
 "enforcer-3.0.0": [
 "maven/enforcer/enforcer-3.0.0-source-release.zip"
@@ -8225,9 +8232,6 @@
 "apache-ofbiz-17.12.08": [
 "ofbiz/apache-ofbiz-17.12.08.zip"
 ],
-"apache-ofbiz-18.12.02": [
-"ofbiz/apache-ofbiz-18.12.02.zip"
-],
 "apache-ofbiz-18.12.03": [
 "ofbiz/apache-ofbiz-18.12.03.zip"
 ]
@@ -8532,9 +8536,6 @@
 "pdfbox-1.8.16": [
 "pdfbox/1.8.16/pdfbox-1.8.16-src.zip"
 ],
-"pdfbox-2.0.24": [
-"pdfbox/2.0.24/pdfbox-2.0.24-src.zip"
-],
 "pdfbox-2.0.25": [
 "pdfbox/2.0.25/pdfbox-2.0.25-src.zip"
 ],
@@ -8715,8 +8716,8 @@
 ]
 },
 "plc4x": {
-"apache-plc4x-0.9.0": [
-"plc4x/0.9.0/apache-plc4x-0.9.0-source-release.zip"
+"apache-plc4x-0.9.1": [
+"plc4x/0.9.1/apache-plc4x-0.9.1-source-release.zip"
 ],
 "apache-plc4x-code-generation-1.4.0": [
 "plc4x/build-tools/code-generation/1.4.0/apache-plc4x-code-generation-1.4.0-source-release.zip"
@@ -9391,8 +9392,14 @@
 "apache-qpid-jms-0.59.0": [
 "qpid/jms/0.59.0/apache-qpid-jms-0.59.0-src.tar.gz"
 ],
+"apache-qpid-jms-0.60.1": [
+"qpid/jms/0.60.1/apache-qpid-jms-0.60.1-src.tar.gz"
+],
 "apache-qpid-jms-1.3.0": [
 "qpid/jms/1.3.0/apache-qpid-jms-1.3.0-src.tar.gz"
+],
+"apache-qpid-jms-1.4.1": [
+"qpid/jms/1.4.1/apache-qpid-jms-1.4.1-src.tar.gz"
 ],
 "apache-qpid-jms-amqp-0-x-6.4.0": [
 "qpid/jms-amqp-0-x/6.4.0/apache-qpid-jms-amqp-0-x-6.4.0-src.tar.gz"
@@ -11286,6 +11293,15 @@
 ],
 "struts-2.5.28-min": [
 "struts/2.5.28/struts-2.5.28-min-lib.zip"
+],
+"struts-2.5.28.1": [
+"struts/2.5.28.1/struts-2.5.28.1-all.zip",
+"struts/2.5.28.1/struts-2.5.28.1-apps.zip",
+"struts/2.5.28.1/struts-2.5.28.1-lib.zip",
+"struts/2.5.28.1/struts-2.5.28.1-src.zip"
+],
+"struts-2.5.28.1-min": [
+"struts/2.5.28.1/struts-2.5.28.1-min-lib.zip"
 ],
 "struts2-secure-jakarta-multipart-parser-plugin-1.1": [
 "struts/struts-extras/struts2-secure-jakarta-multipart-parser-plugin/1.1/struts2-secure-jakarta-multipart-parser-plugin-1.1-source-release.zip"
