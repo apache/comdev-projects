@@ -125,9 +125,9 @@
 "airflow-chart-1.3.0": [
 "airflow/helm-chart/1.3.0/airflow-chart-1.3.0-source.tar.gz"
 ],
-"apache-airflow-2.2.2": [
-"airflow/2.2.2/apache-airflow-2.2.2-source.tar.gz",
-"airflow/2.2.2/apache-airflow-2.2.2.tar.gz"
+"apache-airflow-2.2.3": [
+"airflow/2.2.3/apache-airflow-2.2.3-source.tar.gz",
+"airflow/2.2.3/apache-airflow-2.2.3.tar.gz"
 ],
 "apache-airflow-client-2.1.0": [
 "airflow/clients/python/2.1.0/apache-airflow-client-2.1.0-source.tar.gz"
@@ -1166,6 +1166,9 @@
 ],
 "apache-camel-quarkus-2.5.0": [
 "camel/camel-quarkus/2.5.0/apache-camel-quarkus-2.5.0-src.zip"
+],
+"apache-camel-quarkus-2.6.0": [
+"camel/camel-quarkus/2.6.0/apache-camel-quarkus-2.6.0-src.zip"
 ],
 "camel-k-client-1.2.1-linux": [
 "camel/camel-k/1.2.1/camel-k-client-1.2.1-linux-64bit.tar.gz"
@@ -2419,8 +2422,8 @@
 ]
 },
 "cordova": {
-"cordova-10.0.0": [
-"cordova/tools/cordova-10.0.0.tgz"
+"cordova-11.0.0": [
+"cordova/tools/cordova-11.0.0.tgz"
 ],
 "cordova-amazon-fireos-3.6.3": [
 "cordova/platforms/cordova-amazon-fireos-3.6.3.tgz"
@@ -3520,6 +3523,9 @@
 "apache-flink-statefun-3.1.0": [
 "flink/flink-statefun-3.1.0/apache-flink-statefun-3.1.0.tar.gz"
 ],
+"apache-flink-statefun-3.1.1": [
+"flink/flink-statefun-3.1.1/apache-flink-statefun-3.1.1.tar.gz"
+],
 "flink-1.11.6": [
 "flink/flink-1.11.6/flink-1.11.6-src.tgz"
 ],
@@ -3549,6 +3555,9 @@
 ],
 "flink-statefun-3.1.0": [
 "flink/flink-statefun-3.1.0/flink-statefun-3.1.0-src.tgz"
+],
+"flink-statefun-3.1.1": [
+"flink/flink-statefun-3.1.1/flink-statefun-3.1.1-src.tgz"
 ]
 },
 "flume": {
@@ -4169,6 +4178,12 @@
 "ignite": {
 "apache-ignite-2.11.0": [
 "ignite/2.11.0/apache-ignite-2.11.0-src.zip"
+],
+"apache-ignite-2.11.1": [
+"ignite/2.11.1/apache-ignite-2.11.1-src.zip"
+],
+"apache-ignite-2.11.1-nuget": [
+"ignite/2.11.1/apache-ignite-2.11.1-nuget.zip"
 ],
 "apache-ignite-3.0.0-alpha3": [
 "ignite/3.0.0-alpha3/apache-ignite-3.0.0-alpha3-src.zip",
@@ -5005,18 +5020,17 @@
 "logging/log4cxx/0.12.1/apache-log4cxx-0.12.1.tar.gz",
 "logging/log4cxx/0.12.1/apache-log4cxx-0.12.1.zip"
 ],
-"apache-log4j-2.12.2": [
-"logging/log4j/2.12.2/apache-log4j-2.12.2-src.tar.gz",
-"logging/log4j/2.12.2/apache-log4j-2.12.2-src.zip"
+"apache-log4j-2.12.3": [
+"logging/log4j/2.12.3/apache-log4j-2.12.3-src.tar.gz",
+"logging/log4j/2.12.3/apache-log4j-2.12.3-src.zip"
 ],
 "apache-log4j-2.17.0": [
 "logging/log4j/2.17.0/apache-log4j-2.17.0-src.tar.gz",
 "logging/log4j/2.17.0/apache-log4j-2.17.0-src.zip"
 ],
-"apache-log4j-2.3": [
-"logging/log4j/2.3/apache-log4j-2.3-site.zip",
-"logging/log4j/2.3/apache-log4j-2.3-src.tar.gz",
-"logging/log4j/2.3/apache-log4j-2.3-src.zip"
+"apache-log4j-2.3.1": [
+"logging/log4j/2.3.1/apache-log4j-2.3.1-src.tar.gz",
+"logging/log4j/2.3.1/apache-log4j-2.3.1-src.zip"
 ],
 "apache-log4j-api-kotlin-1.1.0": [
 "logging/log4j/kotlin/1.1.0/apache-log4j-api-kotlin-1.1.0-src.tar.bz2",
@@ -8509,6 +8523,10 @@
 "ozone-1.2.0": [
 "ozone/1.2.0/ozone-1.2.0-src.tar.gz",
 "ozone/1.2.0/ozone-1.2.0.tar.gz"
+],
+"ozone-1.2.1": [
+"ozone/1.2.1/ozone-1.2.1-src.tar.gz",
+"ozone/1.2.1/ozone-1.2.1.tar.gz"
 ]
 },
 "parquet": {
@@ -10174,8 +10192,8 @@
 "apache-sling-jar-resource-bundle-1.0.2": [
 "sling/apache-sling-jar-resource-bundle-1.0.2-source-release.zip"
 ],
-"feature-launcher-maven-plugin-0.1.0": [
-"sling/feature-launcher-maven-plugin-0.1.0-source-release.zip"
+"feature-launcher-maven-plugin-0.1.2": [
+"sling/feature-launcher-maven-plugin-0.1.2-source-release.zip"
 ],
 "htl-maven-plugin-2.0.4-1.4.0": [
 "sling/htl-maven-plugin-2.0.4-1.4.0-source-release.zip"
@@ -10183,8 +10201,8 @@
 "javaversion-maven-plugin-1.0.0": [
 "sling/javaversion-maven-plugin-1.0.0-source-release.zip"
 ],
-"jspc-maven-plugin-2.3.0": [
-"sling/jspc-maven-plugin-2.3.0-source-release.zip"
+"jspc-maven-plugin-2.3.2": [
+"sling/jspc-maven-plugin-2.3.2-source-release.zip"
 ],
 "maven-launchpad-plugin-2.3.4": [
 "sling/maven-launchpad-plugin-2.3.4-source-release.zip"
@@ -10390,8 +10408,8 @@
 "org.apache.sling.commons.fsclassloader-1.0.14": [
 "sling/org.apache.sling.commons.fsclassloader-1.0.14-source-release.zip"
 ],
-"org.apache.sling.commons.johnzon-1.2.6": [
-"sling/org.apache.sling.commons.johnzon-1.2.6-source-release.zip"
+"org.apache.sling.commons.johnzon-1.2.14": [
+"sling/org.apache.sling.commons.johnzon-1.2.14-source-release.zip"
 ],
 "org.apache.sling.commons.json-2.0.20": [
 "sling/org.apache.sling.commons.json-2.0.20-source-release.zip"
@@ -10489,14 +10507,14 @@
 "org.apache.sling.distribution.api-0.5.0": [
 "sling/org.apache.sling.distribution.api-0.5.0-source-release.zip"
 ],
-"org.apache.sling.distribution.core-0.4.6": [
-"sling/org.apache.sling.distribution.core-0.4.6-source-release.zip"
+"org.apache.sling.distribution.core-0.4.8": [
+"sling/org.apache.sling.distribution.core-0.4.8-source-release.zip"
 ],
 "org.apache.sling.distribution.it-0.1.2": [
 "sling/org.apache.sling.distribution.it-0.1.2-source-release.zip"
 ],
-"org.apache.sling.distribution.journal-0.1.20": [
-"sling/org.apache.sling.distribution.journal-0.1.20-source-release.zip"
+"org.apache.sling.distribution.journal-0.1.22": [
+"sling/org.apache.sling.distribution.journal-0.1.22-source-release.zip"
 ],
 "org.apache.sling.distribution.journal.it-0.1.2": [
 "sling/org.apache.sling.distribution.journal.it-0.1.2-source-release.zip"
@@ -10832,9 +10850,9 @@
 "org.apache.sling.launchpad.api-1.2.0": [
 "sling/org.apache.sling.launchpad.api-1.2.0-source-release.zip"
 ],
-"org.apache.sling.launchpad.base-7.0.1-2.7.4": [
-"sling/org.apache.sling.launchpad.base-7.0.1-2.7.4-source-release.zip",
-"sling/org.apache.sling.launchpad.base-7.0.1-2.7.4-webapp.war"
+"org.apache.sling.launchpad.base-7.0.3-2.7.6": [
+"sling/org.apache.sling.launchpad.base-7.0.3-2.7.6-source-release.zip",
+"sling/org.apache.sling.launchpad.base-7.0.3-2.7.6-webapp.war"
 ],
 "org.apache.sling.launchpad.content-2.0.12": [
 "sling/org.apache.sling.launchpad.content-2.0.12-source-release.zip"
@@ -10958,8 +10976,8 @@
 "org.apache.sling.scripting.console-1.0.0": [
 "sling/org.apache.sling.scripting.console-1.0.0-source-release.zip"
 ],
-"org.apache.sling.scripting.core-2.4.0": [
-"sling/org.apache.sling.scripting.core-2.4.0-source-release.zip"
+"org.apache.sling.scripting.core-2.4.2": [
+"sling/org.apache.sling.scripting.core-2.4.2-source-release.zip"
 ],
 "org.apache.sling.scripting.el-api-1.0.4": [
 "sling/org.apache.sling.scripting.el-api-1.0.4-source-release.zip"
@@ -11021,8 +11039,8 @@
 "org.apache.sling.servlets.post-2.5.0": [
 "sling/org.apache.sling.servlets.post-2.5.0-source-release.zip"
 ],
-"org.apache.sling.servlets.resolver-2.9.0": [
-"sling/org.apache.sling.servlets.resolver-2.9.0-source-release.zip"
+"org.apache.sling.servlets.resolver-2.9.2": [
+"sling/org.apache.sling.servlets.resolver-2.9.2-source-release.zip"
 ],
 "org.apache.sling.settings-1.4.2": [
 "sling/org.apache.sling.settings-1.4.2-source-release.zip"
@@ -11163,8 +11181,8 @@
 "org.apache.sling.xss.compat-1.1.0": [
 "sling/org.apache.sling.xss.compat-1.1.0-source-release.zip"
 ],
-"scriptingbundle-maven-plugin-0.5.0": [
-"sling/scriptingbundle-maven-plugin-0.5.0-source-release.zip"
+"scriptingbundle-maven-plugin-0.5.2": [
+"sling/scriptingbundle-maven-plugin-0.5.2-source-release.zip"
 ],
 "sling-46": [
 "sling/sling-46-source-release.zip"
