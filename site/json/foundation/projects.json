@@ -15455,6 +15455,16 @@
 "programming-language": "Go",
 "release": [
 {
+"created": "2021-11-16",
+"name": "solr-operator-v0.5.0",
+"revision": "v0.5.0"
+},
+{
+"created": "2021-09-13",
+"name": "solr-operator-v0.4.0",
+"revision": "v0.4.0"
+},
+{
 "created": "2021-04-29",
 "name": "solr-operator-v0.3.0",
 "revision": "v0.3.0"
@@ -16502,6 +16512,71 @@
 ],
 "shortdesc": "Annotator components and a\n      scalable integration and deployment framework for\n      Unstructured Information analysis",
 "shortname": "UIMA"
+},
+"vcl": {
+"bug-database": "https://issues.apache.org/jira/browse/VCL",
+"category": "cloud",
+"created": "2012-10-01",
+"description": "VCL is a modular cloud computing platform which dynamically provisions and brokers remote access to compute resources including virtual machines, bare-metal computers, and resources in other cloud platforms. A self-service web portal is used to request resources and for administration.",
+"doap": "https://raw.githubusercontent.com/apache/vcl/master/doap_vcl.rdf",
+"download-page": "http://vcl.apache.org/downloads/download.cgi",
+"homepage": "http://vcl.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://vcl.apache.org/comm/index.html#mail-list",
+"name": "Apache VCL",
+"pmc": "vcl",
+"programming-language": "BASH, JavaScript, Perl, PHP, SQL",
+"release": [
+{
+"created": "2019-07-25",
+"name": "Apache VCL 2.5.1",
+"revision": "2.5.1"
+},
+{
+"created": "2017-07-27",
+"name": "Apache VCL 2.5",
+"revision": "2.5"
+},
+{
+"created": "2015-04-16",
+"name": "Apache VCL 2.4.2",
+"revision": "2.4.2"
+},
+{
+"created": "2013-03-25",
+"name": "Apache VCL 2.3.2",
+"revision": "2.3.2"
+},
+{
+"created": "2012-12-20",
+"name": "Apache VCL 2.3.1",
+"revision": "2.3.1"
+},
+{
+"created": "2012-07-20",
+"name": "Apache VCL 2.3",
+"revision": "2.3.0"
+},
+{
+"created": "2011-04-08",
+"name": "Apache VCL 2.2.1",
+"revision": "2.2.1"
+},
+{
+"created": "2010-10-05",
+"name": "Apache VCL 2.2",
+"revision": "2.2.0"
+},
+{
+"created": "2009-12-04",
+"name": "Apache VCL 2.1",
+"revision": "2.1.0"
+}
+],
+"repository": [
+"https://git-wip-us.apache.org/repos/asf/vcl"
+],
+"shortdesc": "A cloud computing platform for provisioning and brokering access to dedicated remote compute resources."
 },
 "velocity": {
 "bug-database": "http://issues.apache.org/jira/browse/VELOCITY",
