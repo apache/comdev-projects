@@ -3706,6 +3706,13 @@
 ],
 "apache-geode-native-1.14.2": [
 "geode/1.14.2/apache-geode-native-1.14.2-src.tgz"
+],
+"apache-kafka-connect-geode-1.1.0": [
+"geode/kafka-connector-1.1.0/apache-kafka-connect-geode-1.1.0.zip"
+],
+"geode-kafka-connector-rel-v1.1.0": [
+"geode/kafka-connector-1.1.0/geode-kafka-connector-rel-v1.1.0.tar.gz",
+"geode/kafka-connector-1.1.0/geode-kafka-connector-rel-v1.1.0.zip"
 ]
 },
 "geronimo": {
@@ -4247,6 +4254,12 @@
 ],
 "apache-ignite-2.11.1-nuget": [
 "ignite/2.11.1/apache-ignite-2.11.1-nuget.zip"
+],
+"apache-ignite-2.12.0": [
+"ignite/2.12.0/apache-ignite-2.12.0-src.zip"
+],
+"apache-ignite-2.12.0-nuget": [
+"ignite/2.12.0/apache-ignite-2.12.0-nuget.zip"
 ],
 "apache-ignite-3.0.0-alpha3": [
 "ignite/3.0.0-alpha3/apache-ignite-3.0.0-alpha3-src.zip",
@@ -4912,21 +4925,21 @@
 "karaf/4.1.7/apache-karaf-minimal-4.1.7.tar.gz",
 "karaf/4.1.7/apache-karaf-minimal-4.1.7.zip"
 ],
-"apache-karaf-4.2.14": [
-"karaf/4.2.14/apache-karaf-4.2.14-src.tar.gz",
-"karaf/4.2.14/apache-karaf-4.2.14-src.zip",
-"karaf/4.2.14/apache-karaf-4.2.14.tar.gz",
-"karaf/4.2.14/apache-karaf-4.2.14.zip",
-"karaf/4.2.14/apache-karaf-minimal-4.2.14.tar.gz",
-"karaf/4.2.14/apache-karaf-minimal-4.2.14.zip"
+"apache-karaf-4.2.15": [
+"karaf/4.2.15/apache-karaf-4.2.15-src.tar.gz",
+"karaf/4.2.15/apache-karaf-4.2.15-src.zip",
+"karaf/4.2.15/apache-karaf-4.2.15.tar.gz",
+"karaf/4.2.15/apache-karaf-4.2.15.zip",
+"karaf/4.2.15/apache-karaf-minimal-4.2.15.tar.gz",
+"karaf/4.2.15/apache-karaf-minimal-4.2.15.zip"
 ],
-"apache-karaf-4.3.5": [
-"karaf/4.3.5/apache-karaf-4.3.5-src.tar.gz",
-"karaf/4.3.5/apache-karaf-4.3.5-src.zip",
-"karaf/4.3.5/apache-karaf-4.3.5.tar.gz",
-"karaf/4.3.5/apache-karaf-4.3.5.zip",
-"karaf/4.3.5/apache-karaf-minimal-4.3.5.tar.gz",
-"karaf/4.3.5/apache-karaf-minimal-4.3.5.zip"
+"apache-karaf-4.3.6": [
+"karaf/4.3.6/apache-karaf-4.3.6-src.tar.gz",
+"karaf/4.3.6/apache-karaf-4.3.6-src.zip",
+"karaf/4.3.6/apache-karaf-4.3.6.tar.gz",
+"karaf/4.3.6/apache-karaf-4.3.6.zip",
+"karaf/4.3.6/apache-karaf-minimal-4.3.6.tar.gz",
+"karaf/4.3.6/apache-karaf-minimal-4.3.6.zip"
 ],
 "apache-karaf-cave-3.0.0": [
 "karaf/cave/3.0.0/apache-karaf-cave-3.0.0-src.tar.gz",
@@ -8813,9 +8826,9 @@
 ]
 },
 "poi": {
-"poi-5.1.0-20211024": [
-"poi/release/src/poi-src-5.1.0-20211024.tgz",
-"poi/release/src/poi-src-5.1.0-20211024.zip"
+"poi-5.2.0-20220106": [
+"poi/release/src/poi-src-5.2.0-20220106.tgz",
+"poi/release/src/poi-src-5.2.0-20220106.zip"
 ],
 "xmlbeans-5.0.3-20211229": [
 "poi/xmlbeans/release/src/xmlbeans-src-5.0.3-20211229.tgz",
@@ -10419,8 +10432,8 @@
 "skywalking-python-0.7.0": [
 "skywalking/python/0.7.0/skywalking-python-src-0.7.0.tgz"
 ],
-"skywalking-swck-0.5.0": [
-"skywalking/swck/0.5.0/skywalking-swck-0.5.0-src.tgz"
+"skywalking-swck-0.6.0": [
+"skywalking/swck/0.6.0/skywalking-swck-0.6.0-src.tgz"
 ]
 },
 "sling": {
@@ -10766,8 +10779,8 @@
 "org.apache.sling.distribution.sample-0.1.6": [
 "sling/org.apache.sling.distribution.sample-0.1.6-source-release.zip"
 ],
-"org.apache.sling.dynamic-include-3.2.0": [
-"sling/org.apache.sling.dynamic-include-3.2.0-source-release.zip"
+"org.apache.sling.dynamic-include-3.3.0": [
+"sling/org.apache.sling.dynamic-include-3.3.0-source-release.zip"
 ],
 "org.apache.sling.engine-2.8.0": [
 "sling/org.apache.sling.engine-2.8.0-source-release.zip"
@@ -11416,8 +11429,8 @@
 "org.apache.sling.validation.test-services-1.0.4": [
 "sling/org.apache.sling.validation.test-services-1.0.4-source-release.zip"
 ],
-"org.apache.sling.xss-2.2.16": [
-"sling/org.apache.sling.xss-2.2.16-source-release.zip"
+"org.apache.sling.xss-2.2.18": [
+"sling/org.apache.sling.xss-2.2.18-source-release.zip"
 ],
 "org.apache.sling.xss.compat-1.1.0": [
 "sling/org.apache.sling.xss.compat-1.1.0-source-release.zip"
@@ -12113,11 +12126,11 @@
 ]
 },
 "tinkerpop": {
-"apache-tinkerpop-3.4.12": [
-"tinkerpop/3.4.12/apache-tinkerpop-3.4.12-src.zip"
+"apache-tinkerpop-3.4.13": [
+"tinkerpop/3.4.13/apache-tinkerpop-3.4.13-src.zip"
 ],
-"apache-tinkerpop-3.5.1": [
-"tinkerpop/3.5.1/apache-tinkerpop-3.5.1-src.zip"
+"apache-tinkerpop-3.5.2": [
+"tinkerpop/3.5.2/apache-tinkerpop-3.5.2-src.zip"
 ]
 },
 "tomcat": {
