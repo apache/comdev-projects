@@ -1114,8 +1114,10 @@
 "apache-flink-1.12.7": "2021-12-15",
 "apache-flink-1.13.5": "2021-12-15",
 "apache-flink-1.14.2": "2021-12-15",
+"apache-flink-1.14.3": "2022-01-11",
 "apache-flink-libraries-1.13.5": "2021-12-15",
 "apache-flink-libraries-1.14.2": "2021-12-15",
+"apache-flink-libraries-1.14.3": "2022-01-11",
 "apache-flink-ml-2.0.0": "2021-12-30",
 "apache-flink-statefun-2.2.2": "2020-12-23",
 "apache-flink-statefun-3.0.0": "2021-03-30",
@@ -1125,6 +1127,7 @@
 "flink-1.12.7": "2021-12-15",
 "flink-1.13.5": "2021-12-15",
 "flink-1.14.2": "2021-12-15",
+"flink-1.14.3": "2022-01-11",
 "flink-ml-2.0.0": "2021-12-30",
 "flink-shaded-12.0": "2020-09-29",
 "flink-shaded-13.0": "2021-03-31",
@@ -1296,6 +1299,10 @@
 "hive-storage-2.7.3": "2021-08-03",
 "hive-storage-2.8.1": "2021-08-03"
 },
+"hop": {
+"apache-hop-1.0.0-incubating": "2021-10-01",
+"apache-hop-client-1.0.0-incubating": "2021-10-01"
+},
 "httpcomponents": {
 "commons-httpclient-3.1": "2020-07-03",
 "httpcomponents-12": "2020-09-06",
@@ -1401,10 +1408,6 @@
 },
 "incubator-hivemall": {
 "hivemall-0.6.0-incubating": "2020-07-03"
-},
-"incubator-hop": {
-"apache-hop-1.0.0-incubating": "2021-10-01",
-"apache-hop-client-1.0.0-incubating": "2021-10-01"
 },
 "incubator-inlong": {
 "apache-inlong-0.12.0-incubating": "2021-12-22"
@@ -1797,7 +1800,7 @@
 "maven-pdf-plugin-1.5.1": "2021-12-02",
 "maven-plugin-3.3.0": "2020-07-03",
 "maven-plugin-testing-3.3.0": "2020-07-03",
-"maven-plugin-tools-3.6.2": "2021-11-26",
+"maven-plugin-tools-3.6.4": "2022-01-17",
 "maven-pmd-plugin-3.15.0": "2021-09-11",
 "maven-rar-plugin-2.4": "2020-07-03",
 "maven-release-3.0.0-M5": "2022-01-05",
@@ -1918,6 +1921,8 @@
 "apache-netbeans-java-12.5.301": "2021-10-14",
 "apache-netbeans-java-12.5.301.vsix": "2021-10-14",
 "apache-netbeans-java-12.6.0.vsix": "2021-11-23",
+"apache-netbeans-java-12.6.301": "2022-01-12",
+"apache-netbeans-java-12.6.301.vsix": "2022-01-12",
 "bcpg.nbm": "2021-11-22",
 "bcprov.nbm": "2021-11-22",
 "com-google-gson.nbm": "2021-11-22",
