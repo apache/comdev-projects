@@ -3606,14 +3606,11 @@
 "flink-ml-2.0.0": [
 "flink/flink-ml-2.0.0/flink-ml-2.0.0-src.tgz"
 ],
-"flink-shaded-12.0": [
-"flink/flink-shaded-12.0/flink-shaded-12.0-src.tgz"
-],
-"flink-shaded-13.0": [
-"flink/flink-shaded-13.0/flink-shaded-13.0-src.tgz"
-],
 "flink-shaded-14.0": [
 "flink/flink-shaded-14.0/flink-shaded-14.0-src.tgz"
+],
+"flink-shaded-15.0": [
+"flink/flink-shaded-15.0/flink-shaded-15.0-src.tgz"
 ],
 "flink-statefun-2.2.2": [
 "flink/flink-statefun-2.2.2/flink-statefun-2.2.2-src.tgz"
@@ -4890,6 +4887,9 @@
 "kafka-3.0.0": [
 "kafka/3.0.0/kafka-3.0.0-src.tgz"
 ],
+"kafka-3.1.0": [
+"kafka/3.1.0/kafka-3.1.0-src.tgz"
+],
 "kafka_2.12-2.6.3": [
 "kafka/2.6.3/kafka_2.12-2.6.3.tgz"
 ],
@@ -4902,6 +4902,9 @@
 "kafka_2.12-3.0.0": [
 "kafka/3.0.0/kafka_2.12-3.0.0.tgz"
 ],
+"kafka_2.12-3.1.0": [
+"kafka/3.1.0/kafka_2.12-3.1.0.tgz"
+],
 "kafka_2.13-2.6.3": [
 "kafka/2.6.3/kafka_2.13-2.6.3.tgz"
 ],
@@ -4913,6 +4916,9 @@
 ],
 "kafka_2.13-3.0.0": [
 "kafka/3.0.0/kafka_2.13-3.0.0.tgz"
+],
+"kafka_2.13-3.1.0": [
+"kafka/3.1.0/kafka_2.13-3.1.0.tgz"
 ]
 },
 "karaf": {
@@ -5408,8 +5414,8 @@
 "apache-source-release-descriptor-1.0.6": [
 "maven/resources/apache-source-release-assembly-descriptor-1.0.6-source-release.zip"
 ],
-"doxia-1.11.1": [
-"maven/doxia/doxia-1.11.1-source-release.zip"
+"doxia-2.0.0-M1": [
+"maven/doxia/doxia-2.0.0-M1-source-release.zip"
 ],
 "doxia-converter-1.2": [
 "maven/doxia/doxia-converter-1.2-source-release.zip"
@@ -8608,8 +8614,8 @@
 ]
 },
 "orc": {
-"orc-1.6.12": [
-"orc/orc-1.6.12/orc-1.6.12.tar.gz"
+"orc-1.6.13": [
+"orc/orc-1.6.13/orc-1.6.13.tar.gz"
 ],
 "orc-1.7.2": [
 "orc/orc-1.7.2/orc-1.7.2.tar.gz"
@@ -9006,45 +9012,10 @@
 },
 "pulsar": {
 "Packages": [
-"pulsar/pulsar-2.7.2/DEB/Packages.gz",
-"pulsar/pulsar-2.7.3/DEB/Packages.gz",
-"pulsar/pulsar-2.7.4/DEB/Packages.gz",
-"pulsar/pulsar-2.8.0/DEB/Packages.gz",
-"pulsar/pulsar-2.8.1/DEB/Packages.gz",
-"pulsar/pulsar-2.8.2/DEB/Packages.gz",
-"pulsar/pulsar-2.9.0/DEB/Packages.gz",
 "pulsar/pulsar-2.9.1/DEB/Packages.gz"
 ],
 "apache-pulsar": [
-"pulsar/pulsar-2.7.2/DEB/apache-pulsar-client.deb",
-"pulsar/pulsar-2.7.3/DEB/apache-pulsar-client.deb",
-"pulsar/pulsar-2.7.4/DEB/apache-pulsar-client.deb",
-"pulsar/pulsar-2.8.0/DEB/apache-pulsar-client.deb",
-"pulsar/pulsar-2.8.1/DEB/apache-pulsar-client.deb",
-"pulsar/pulsar-2.8.2/DEB/apache-pulsar-client.deb",
-"pulsar/pulsar-2.9.0/DEB/apache-pulsar-client.deb",
 "pulsar/pulsar-2.9.1/DEB/apache-pulsar-client.deb"
-],
-"apache-pulsar-2.7.2": [
-"pulsar/pulsar-2.7.2/apache-pulsar-2.7.2-src.tar.gz"
-],
-"apache-pulsar-2.7.3": [
-"pulsar/pulsar-2.7.3/apache-pulsar-2.7.3-src.tar.gz"
-],
-"apache-pulsar-2.7.4": [
-"pulsar/pulsar-2.7.4/apache-pulsar-2.7.4-src.tar.gz"
-],
-"apache-pulsar-2.8.0": [
-"pulsar/pulsar-2.8.0/apache-pulsar-2.8.0-src.tar.gz"
-],
-"apache-pulsar-2.8.1": [
-"pulsar/pulsar-2.8.1/apache-pulsar-2.8.1-src.tar.gz"
-],
-"apache-pulsar-2.8.2": [
-"pulsar/pulsar-2.8.2/apache-pulsar-2.8.2-src.tar.gz"
-],
-"apache-pulsar-2.9.0": [
-"pulsar/pulsar-2.9.0/apache-pulsar-2.9.0-src.tar.gz"
 ],
 "apache-pulsar-2.9.1": [
 "pulsar/pulsar-2.9.1/apache-pulsar-2.9.1-src.tar.gz"
@@ -9053,13 +9024,6 @@
 "pulsar/pulsar-adapters-2.8.0/apache-pulsar-adapters-2.8.0-src.tar.gz"
 ],
 "apache-pulsar-client-dev": [
-"pulsar/pulsar-2.7.2/DEB/apache-pulsar-client-dev.deb",
-"pulsar/pulsar-2.7.3/DEB/apache-pulsar-client-dev.deb",
-"pulsar/pulsar-2.7.4/DEB/apache-pulsar-client-dev.deb",
-"pulsar/pulsar-2.8.0/DEB/apache-pulsar-client-dev.deb",
-"pulsar/pulsar-2.8.1/DEB/apache-pulsar-client-dev.deb",
-"pulsar/pulsar-2.8.2/DEB/apache-pulsar-client-dev.deb",
-"pulsar/pulsar-2.9.0/DEB/apache-pulsar-client-dev.deb",
 "pulsar/pulsar-2.9.1/DEB/apache-pulsar-client-dev.deb"
 ],
 "apache-pulsar-client-go-0.5.0": [
@@ -9080,716 +9044,98 @@
 "pulsar-client-node-1.5.0": [
 "pulsar/pulsar-client-node/pulsar-client-node-1.5.0/pulsar-client-node-1.5.0.tar.gz"
 ],
-"pulsar-io-aerospike-2.7.2.nar": [
-"pulsar/pulsar-2.7.2/connectors/pulsar-io-aerospike-2.7.2.nar"
-],
-"pulsar-io-aerospike-2.7.3.nar": [
-"pulsar/pulsar-2.7.3/connectors/pulsar-io-aerospike-2.7.3.nar"
-],
-"pulsar-io-aerospike-2.7.4.nar": [
-"pulsar/pulsar-2.7.4/connectors/pulsar-io-aerospike-2.7.4.nar"
-],
-"pulsar-io-aerospike-2.8.0.nar": [
-"pulsar/pulsar-2.8.0/connectors/pulsar-io-aerospike-2.8.0.nar"
-],
-"pulsar-io-aerospike-2.8.1.nar": [
-"pulsar/pulsar-2.8.1/connectors/pulsar-io-aerospike-2.8.1.nar"
-],
-"pulsar-io-aerospike-2.8.2.nar": [
-"pulsar/pulsar-2.8.2/connectors/pulsar-io-aerospike-2.8.2.nar"
-],
-"pulsar-io-aerospike-2.9.0.nar": [
-"pulsar/pulsar-2.9.0/connectors/pulsar-io-aerospike-2.9.0.nar"
-],
 "pulsar-io-aerospike-2.9.1.nar": [
 "pulsar/pulsar-2.9.1/connectors/pulsar-io-aerospike-2.9.1.nar"
-],
-"pulsar-io-batch-data-generator-2.9.0.nar": [
-"pulsar/pulsar-2.9.0/connectors/pulsar-io-batch-data-generator-2.9.0.nar"
 ],
 "pulsar-io-batch-data-generator-2.9.1.nar": [
 "pulsar/pulsar-2.9.1/connectors/pulsar-io-batch-data-generator-2.9.1.nar"
 ],
-"pulsar-io-canal-2.7.2.nar": [
-"pulsar/pulsar-2.7.2/connectors/pulsar-io-canal-2.7.2.nar"
-],
-"pulsar-io-canal-2.7.3.nar": [
-"pulsar/pulsar-2.7.3/connectors/pulsar-io-canal-2.7.3.nar"
-],
-"pulsar-io-canal-2.7.4.nar": [
-"pulsar/pulsar-2.7.4/connectors/pulsar-io-canal-2.7.4.nar"
-],
-"pulsar-io-canal-2.8.0.nar": [
-"pulsar/pulsar-2.8.0/connectors/pulsar-io-canal-2.8.0.nar"
-],
-"pulsar-io-canal-2.8.1.nar": [
-"pulsar/pulsar-2.8.1/connectors/pulsar-io-canal-2.8.1.nar"
-],
-"pulsar-io-canal-2.8.2.nar": [
-"pulsar/pulsar-2.8.2/connectors/pulsar-io-canal-2.8.2.nar"
-],
-"pulsar-io-canal-2.9.0.nar": [
-"pulsar/pulsar-2.9.0/connectors/pulsar-io-canal-2.9.0.nar"
-],
 "pulsar-io-canal-2.9.1.nar": [
 "pulsar/pulsar-2.9.1/connectors/pulsar-io-canal-2.9.1.nar"
-],
-"pulsar-io-cassandra-2.7.2.nar": [
-"pulsar/pulsar-2.7.2/connectors/pulsar-io-cassandra-2.7.2.nar"
-],
-"pulsar-io-cassandra-2.7.3.nar": [
-"pulsar/pulsar-2.7.3/connectors/pulsar-io-cassandra-2.7.3.nar"
-],
-"pulsar-io-cassandra-2.7.4.nar": [
-"pulsar/pulsar-2.7.4/connectors/pulsar-io-cassandra-2.7.4.nar"
-],
-"pulsar-io-cassandra-2.8.0.nar": [
-"pulsar/pulsar-2.8.0/connectors/pulsar-io-cassandra-2.8.0.nar"
-],
-"pulsar-io-cassandra-2.8.1.nar": [
-"pulsar/pulsar-2.8.1/connectors/pulsar-io-cassandra-2.8.1.nar"
-],
-"pulsar-io-cassandra-2.8.2.nar": [
-"pulsar/pulsar-2.8.2/connectors/pulsar-io-cassandra-2.8.2.nar"
-],
-"pulsar-io-cassandra-2.9.0.nar": [
-"pulsar/pulsar-2.9.0/connectors/pulsar-io-cassandra-2.9.0.nar"
 ],
 "pulsar-io-cassandra-2.9.1.nar": [
 "pulsar/pulsar-2.9.1/connectors/pulsar-io-cassandra-2.9.1.nar"
 ],
-"pulsar-io-data-generator-2.7.2.nar": [
-"pulsar/pulsar-2.7.2/connectors/pulsar-io-data-generator-2.7.2.nar"
-],
-"pulsar-io-data-generator-2.7.3.nar": [
-"pulsar/pulsar-2.7.3/connectors/pulsar-io-data-generator-2.7.3.nar"
-],
-"pulsar-io-data-generator-2.7.4.nar": [
-"pulsar/pulsar-2.7.4/connectors/pulsar-io-data-generator-2.7.4.nar"
-],
-"pulsar-io-data-generator-2.8.0.nar": [
-"pulsar/pulsar-2.8.0/connectors/pulsar-io-data-generator-2.8.0.nar"
-],
-"pulsar-io-data-generator-2.8.1.nar": [
-"pulsar/pulsar-2.8.1/connectors/pulsar-io-data-generator-2.8.1.nar"
-],
-"pulsar-io-data-generator-2.8.2.nar": [
-"pulsar/pulsar-2.8.2/connectors/pulsar-io-data-generator-2.8.2.nar"
-],
-"pulsar-io-data-generator-2.9.0.nar": [
-"pulsar/pulsar-2.9.0/connectors/pulsar-io-data-generator-2.9.0.nar"
-],
 "pulsar-io-data-generator-2.9.1.nar": [
 "pulsar/pulsar-2.9.1/connectors/pulsar-io-data-generator-2.9.1.nar"
-],
-"pulsar-io-debezium-mongodb-2.7.2.nar": [
-"pulsar/pulsar-2.7.2/connectors/pulsar-io-debezium-mongodb-2.7.2.nar"
-],
-"pulsar-io-debezium-mongodb-2.7.3.nar": [
-"pulsar/pulsar-2.7.3/connectors/pulsar-io-debezium-mongodb-2.7.3.nar"
-],
-"pulsar-io-debezium-mongodb-2.7.4.nar": [
-"pulsar/pulsar-2.7.4/connectors/pulsar-io-debezium-mongodb-2.7.4.nar"
-],
-"pulsar-io-debezium-mongodb-2.8.0.nar": [
-"pulsar/pulsar-2.8.0/connectors/pulsar-io-debezium-mongodb-2.8.0.nar"
-],
-"pulsar-io-debezium-mongodb-2.8.1.nar": [
-"pulsar/pulsar-2.8.1/connectors/pulsar-io-debezium-mongodb-2.8.1.nar"
-],
-"pulsar-io-debezium-mongodb-2.8.2.nar": [
-"pulsar/pulsar-2.8.2/connectors/pulsar-io-debezium-mongodb-2.8.2.nar"
-],
-"pulsar-io-debezium-mongodb-2.9.0.nar": [
-"pulsar/pulsar-2.9.0/connectors/pulsar-io-debezium-mongodb-2.9.0.nar"
 ],
 "pulsar-io-debezium-mongodb-2.9.1.nar": [
 "pulsar/pulsar-2.9.1/connectors/pulsar-io-debezium-mongodb-2.9.1.nar"
 ],
-"pulsar-io-debezium-mssql-2.9.0.nar": [
-"pulsar/pulsar-2.9.0/connectors/pulsar-io-debezium-mssql-2.9.0.nar"
-],
 "pulsar-io-debezium-mssql-2.9.1.nar": [
 "pulsar/pulsar-2.9.1/connectors/pulsar-io-debezium-mssql-2.9.1.nar"
-],
-"pulsar-io-debezium-mysql-2.7.2.nar": [
-"pulsar/pulsar-2.7.2/connectors/pulsar-io-debezium-mysql-2.7.2.nar"
-],
-"pulsar-io-debezium-mysql-2.7.3.nar": [
-"pulsar/pulsar-2.7.3/connectors/pulsar-io-debezium-mysql-2.7.3.nar"
-],
-"pulsar-io-debezium-mysql-2.7.4.nar": [
-"pulsar/pulsar-2.7.4/connectors/pulsar-io-debezium-mysql-2.7.4.nar"
-],
-"pulsar-io-debezium-mysql-2.8.0.nar": [
-"pulsar/pulsar-2.8.0/connectors/pulsar-io-debezium-mysql-2.8.0.nar"
-],
-"pulsar-io-debezium-mysql-2.8.1.nar": [
-"pulsar/pulsar-2.8.1/connectors/pulsar-io-debezium-mysql-2.8.1.nar"
-],
-"pulsar-io-debezium-mysql-2.8.2.nar": [
-"pulsar/pulsar-2.8.2/connectors/pulsar-io-debezium-mysql-2.8.2.nar"
-],
-"pulsar-io-debezium-mysql-2.9.0.nar": [
-"pulsar/pulsar-2.9.0/connectors/pulsar-io-debezium-mysql-2.9.0.nar"
 ],
 "pulsar-io-debezium-mysql-2.9.1.nar": [
 "pulsar/pulsar-2.9.1/connectors/pulsar-io-debezium-mysql-2.9.1.nar"
 ],
-"pulsar-io-debezium-oracle-2.9.0.nar": [
-"pulsar/pulsar-2.9.0/connectors/pulsar-io-debezium-oracle-2.9.0.nar"
-],
 "pulsar-io-debezium-oracle-2.9.1.nar": [
 "pulsar/pulsar-2.9.1/connectors/pulsar-io-debezium-oracle-2.9.1.nar"
-],
-"pulsar-io-debezium-postgres-2.7.2.nar": [
-"pulsar/pulsar-2.7.2/connectors/pulsar-io-debezium-postgres-2.7.2.nar"
-],
-"pulsar-io-debezium-postgres-2.7.3.nar": [
-"pulsar/pulsar-2.7.3/connectors/pulsar-io-debezium-postgres-2.7.3.nar"
-],
-"pulsar-io-debezium-postgres-2.7.4.nar": [
-"pulsar/pulsar-2.7.4/connectors/pulsar-io-debezium-postgres-2.7.4.nar"
-],
-"pulsar-io-debezium-postgres-2.8.0.nar": [
-"pulsar/pulsar-2.8.0/connectors/pulsar-io-debezium-postgres-2.8.0.nar"
-],
-"pulsar-io-debezium-postgres-2.8.1.nar": [
-"pulsar/pulsar-2.8.1/connectors/pulsar-io-debezium-postgres-2.8.1.nar"
-],
-"pulsar-io-debezium-postgres-2.8.2.nar": [
-"pulsar/pulsar-2.8.2/connectors/pulsar-io-debezium-postgres-2.8.2.nar"
-],
-"pulsar-io-debezium-postgres-2.9.0.nar": [
-"pulsar/pulsar-2.9.0/connectors/pulsar-io-debezium-postgres-2.9.0.nar"
 ],
 "pulsar-io-debezium-postgres-2.9.1.nar": [
 "pulsar/pulsar-2.9.1/connectors/pulsar-io-debezium-postgres-2.9.1.nar"
 ],
-"pulsar-io-dynamodb-2.7.2.nar": [
-"pulsar/pulsar-2.7.2/connectors/pulsar-io-dynamodb-2.7.2.nar"
-],
-"pulsar-io-dynamodb-2.7.3.nar": [
-"pulsar/pulsar-2.7.3/connectors/pulsar-io-dynamodb-2.7.3.nar"
-],
-"pulsar-io-dynamodb-2.7.4.nar": [
-"pulsar/pulsar-2.7.4/connectors/pulsar-io-dynamodb-2.7.4.nar"
-],
-"pulsar-io-dynamodb-2.8.0.nar": [
-"pulsar/pulsar-2.8.0/connectors/pulsar-io-dynamodb-2.8.0.nar"
-],
-"pulsar-io-dynamodb-2.8.1.nar": [
-"pulsar/pulsar-2.8.1/connectors/pulsar-io-dynamodb-2.8.1.nar"
-],
-"pulsar-io-dynamodb-2.8.2.nar": [
-"pulsar/pulsar-2.8.2/connectors/pulsar-io-dynamodb-2.8.2.nar"
-],
-"pulsar-io-dynamodb-2.9.0.nar": [
-"pulsar/pulsar-2.9.0/connectors/pulsar-io-dynamodb-2.9.0.nar"
-],
 "pulsar-io-dynamodb-2.9.1.nar": [
 "pulsar/pulsar-2.9.1/connectors/pulsar-io-dynamodb-2.9.1.nar"
-],
-"pulsar-io-elastic-search-2.7.2.nar": [
-"pulsar/pulsar-2.7.2/connectors/pulsar-io-elastic-search-2.7.2.nar"
-],
-"pulsar-io-elastic-search-2.7.3.nar": [
-"pulsar/pulsar-2.7.3/connectors/pulsar-io-elastic-search-2.7.3.nar"
-],
-"pulsar-io-elastic-search-2.7.4.nar": [
-"pulsar/pulsar-2.7.4/connectors/pulsar-io-elastic-search-2.7.4.nar"
-],
-"pulsar-io-elastic-search-2.8.0.nar": [
-"pulsar/pulsar-2.8.0/connectors/pulsar-io-elastic-search-2.8.0.nar"
-],
-"pulsar-io-elastic-search-2.8.1.nar": [
-"pulsar/pulsar-2.8.1/connectors/pulsar-io-elastic-search-2.8.1.nar"
-],
-"pulsar-io-elastic-search-2.8.2.nar": [
-"pulsar/pulsar-2.8.2/connectors/pulsar-io-elastic-search-2.8.2.nar"
-],
-"pulsar-io-elastic-search-2.9.0.nar": [
-"pulsar/pulsar-2.9.0/connectors/pulsar-io-elastic-search-2.9.0.nar"
 ],
 "pulsar-io-elastic-search-2.9.1.nar": [
 "pulsar/pulsar-2.9.1/connectors/pulsar-io-elastic-search-2.9.1.nar"
 ],
-"pulsar-io-file-2.7.2.nar": [
-"pulsar/pulsar-2.7.2/connectors/pulsar-io-file-2.7.2.nar"
-],
-"pulsar-io-file-2.7.3.nar": [
-"pulsar/pulsar-2.7.3/connectors/pulsar-io-file-2.7.3.nar"
-],
-"pulsar-io-file-2.7.4.nar": [
-"pulsar/pulsar-2.7.4/connectors/pulsar-io-file-2.7.4.nar"
-],
-"pulsar-io-file-2.8.0.nar": [
-"pulsar/pulsar-2.8.0/connectors/pulsar-io-file-2.8.0.nar"
-],
-"pulsar-io-file-2.8.1.nar": [
-"pulsar/pulsar-2.8.1/connectors/pulsar-io-file-2.8.1.nar"
-],
-"pulsar-io-file-2.8.2.nar": [
-"pulsar/pulsar-2.8.2/connectors/pulsar-io-file-2.8.2.nar"
-],
-"pulsar-io-file-2.9.0.nar": [
-"pulsar/pulsar-2.9.0/connectors/pulsar-io-file-2.9.0.nar"
-],
 "pulsar-io-file-2.9.1.nar": [
 "pulsar/pulsar-2.9.1/connectors/pulsar-io-file-2.9.1.nar"
-],
-"pulsar-io-flume-2.7.2.nar": [
-"pulsar/pulsar-2.7.2/connectors/pulsar-io-flume-2.7.2.nar"
-],
-"pulsar-io-flume-2.7.3.nar": [
-"pulsar/pulsar-2.7.3/connectors/pulsar-io-flume-2.7.3.nar"
-],
-"pulsar-io-flume-2.7.4.nar": [
-"pulsar/pulsar-2.7.4/connectors/pulsar-io-flume-2.7.4.nar"
-],
-"pulsar-io-flume-2.8.0.nar": [
-"pulsar/pulsar-2.8.0/connectors/pulsar-io-flume-2.8.0.nar"
-],
-"pulsar-io-flume-2.8.1.nar": [
-"pulsar/pulsar-2.8.1/connectors/pulsar-io-flume-2.8.1.nar"
-],
-"pulsar-io-flume-2.8.2.nar": [
-"pulsar/pulsar-2.8.2/connectors/pulsar-io-flume-2.8.2.nar"
-],
-"pulsar-io-flume-2.9.0.nar": [
-"pulsar/pulsar-2.9.0/connectors/pulsar-io-flume-2.9.0.nar"
 ],
 "pulsar-io-flume-2.9.1.nar": [
 "pulsar/pulsar-2.9.1/connectors/pulsar-io-flume-2.9.1.nar"
 ],
-"pulsar-io-hbase-2.7.2.nar": [
-"pulsar/pulsar-2.7.2/connectors/pulsar-io-hbase-2.7.2.nar"
-],
-"pulsar-io-hbase-2.7.3.nar": [
-"pulsar/pulsar-2.7.3/connectors/pulsar-io-hbase-2.7.3.nar"
-],
-"pulsar-io-hbase-2.7.4.nar": [
-"pulsar/pulsar-2.7.4/connectors/pulsar-io-hbase-2.7.4.nar"
-],
-"pulsar-io-hbase-2.8.0.nar": [
-"pulsar/pulsar-2.8.0/connectors/pulsar-io-hbase-2.8.0.nar"
-],
-"pulsar-io-hbase-2.8.1.nar": [
-"pulsar/pulsar-2.8.1/connectors/pulsar-io-hbase-2.8.1.nar"
-],
-"pulsar-io-hbase-2.8.2.nar": [
-"pulsar/pulsar-2.8.2/connectors/pulsar-io-hbase-2.8.2.nar"
-],
-"pulsar-io-hbase-2.9.0.nar": [
-"pulsar/pulsar-2.9.0/connectors/pulsar-io-hbase-2.9.0.nar"
-],
 "pulsar-io-hbase-2.9.1.nar": [
 "pulsar/pulsar-2.9.1/connectors/pulsar-io-hbase-2.9.1.nar"
-],
-"pulsar-io-hdfs2-2.7.2.nar": [
-"pulsar/pulsar-2.7.2/connectors/pulsar-io-hdfs2-2.7.2.nar"
-],
-"pulsar-io-hdfs2-2.7.3.nar": [
-"pulsar/pulsar-2.7.3/connectors/pulsar-io-hdfs2-2.7.3.nar"
-],
-"pulsar-io-hdfs2-2.7.4.nar": [
-"pulsar/pulsar-2.7.4/connectors/pulsar-io-hdfs2-2.7.4.nar"
-],
-"pulsar-io-hdfs2-2.8.0.nar": [
-"pulsar/pulsar-2.8.0/connectors/pulsar-io-hdfs2-2.8.0.nar"
-],
-"pulsar-io-hdfs2-2.8.1.nar": [
-"pulsar/pulsar-2.8.1/connectors/pulsar-io-hdfs2-2.8.1.nar"
-],
-"pulsar-io-hdfs2-2.8.2.nar": [
-"pulsar/pulsar-2.8.2/connectors/pulsar-io-hdfs2-2.8.2.nar"
-],
-"pulsar-io-hdfs2-2.9.0.nar": [
-"pulsar/pulsar-2.9.0/connectors/pulsar-io-hdfs2-2.9.0.nar"
 ],
 "pulsar-io-hdfs2-2.9.1.nar": [
 "pulsar/pulsar-2.9.1/connectors/pulsar-io-hdfs2-2.9.1.nar"
 ],
-"pulsar-io-hdfs3-2.7.2.nar": [
-"pulsar/pulsar-2.7.2/connectors/pulsar-io-hdfs3-2.7.2.nar"
-],
-"pulsar-io-hdfs3-2.7.3.nar": [
-"pulsar/pulsar-2.7.3/connectors/pulsar-io-hdfs3-2.7.3.nar"
-],
-"pulsar-io-hdfs3-2.7.4.nar": [
-"pulsar/pulsar-2.7.4/connectors/pulsar-io-hdfs3-2.7.4.nar"
-],
-"pulsar-io-hdfs3-2.8.0.nar": [
-"pulsar/pulsar-2.8.0/connectors/pulsar-io-hdfs3-2.8.0.nar"
-],
-"pulsar-io-hdfs3-2.8.1.nar": [
-"pulsar/pulsar-2.8.1/connectors/pulsar-io-hdfs3-2.8.1.nar"
-],
-"pulsar-io-hdfs3-2.8.2.nar": [
-"pulsar/pulsar-2.8.2/connectors/pulsar-io-hdfs3-2.8.2.nar"
-],
-"pulsar-io-hdfs3-2.9.0.nar": [
-"pulsar/pulsar-2.9.0/connectors/pulsar-io-hdfs3-2.9.0.nar"
-],
 "pulsar-io-hdfs3-2.9.1.nar": [
 "pulsar/pulsar-2.9.1/connectors/pulsar-io-hdfs3-2.9.1.nar"
-],
-"pulsar-io-influxdb-2.7.2.nar": [
-"pulsar/pulsar-2.7.2/connectors/pulsar-io-influxdb-2.7.2.nar"
-],
-"pulsar-io-influxdb-2.7.3.nar": [
-"pulsar/pulsar-2.7.3/connectors/pulsar-io-influxdb-2.7.3.nar"
-],
-"pulsar-io-influxdb-2.7.4.nar": [
-"pulsar/pulsar-2.7.4/connectors/pulsar-io-influxdb-2.7.4.nar"
-],
-"pulsar-io-influxdb-2.8.0.nar": [
-"pulsar/pulsar-2.8.0/connectors/pulsar-io-influxdb-2.8.0.nar"
-],
-"pulsar-io-influxdb-2.8.1.nar": [
-"pulsar/pulsar-2.8.1/connectors/pulsar-io-influxdb-2.8.1.nar"
-],
-"pulsar-io-influxdb-2.8.2.nar": [
-"pulsar/pulsar-2.8.2/connectors/pulsar-io-influxdb-2.8.2.nar"
-],
-"pulsar-io-influxdb-2.9.0.nar": [
-"pulsar/pulsar-2.9.0/connectors/pulsar-io-influxdb-2.9.0.nar"
 ],
 "pulsar-io-influxdb-2.9.1.nar": [
 "pulsar/pulsar-2.9.1/connectors/pulsar-io-influxdb-2.9.1.nar"
 ],
-"pulsar-io-jdbc-clickhouse-2.7.2.nar": [
-"pulsar/pulsar-2.7.2/connectors/pulsar-io-jdbc-clickhouse-2.7.2.nar"
-],
-"pulsar-io-jdbc-clickhouse-2.7.3.nar": [
-"pulsar/pulsar-2.7.3/connectors/pulsar-io-jdbc-clickhouse-2.7.3.nar"
-],
-"pulsar-io-jdbc-clickhouse-2.7.4.nar": [
-"pulsar/pulsar-2.7.4/connectors/pulsar-io-jdbc-clickhouse-2.7.4.nar"
-],
-"pulsar-io-jdbc-clickhouse-2.8.0.nar": [
-"pulsar/pulsar-2.8.0/connectors/pulsar-io-jdbc-clickhouse-2.8.0.nar"
-],
-"pulsar-io-jdbc-clickhouse-2.8.1.nar": [
-"pulsar/pulsar-2.8.1/connectors/pulsar-io-jdbc-clickhouse-2.8.1.nar"
-],
-"pulsar-io-jdbc-clickhouse-2.8.2.nar": [
-"pulsar/pulsar-2.8.2/connectors/pulsar-io-jdbc-clickhouse-2.8.2.nar"
-],
-"pulsar-io-jdbc-clickhouse-2.9.0.nar": [
-"pulsar/pulsar-2.9.0/connectors/pulsar-io-jdbc-clickhouse-2.9.0.nar"
-],
 "pulsar-io-jdbc-clickhouse-2.9.1.nar": [
 "pulsar/pulsar-2.9.1/connectors/pulsar-io-jdbc-clickhouse-2.9.1.nar"
-],
-"pulsar-io-jdbc-mariadb-2.7.2.nar": [
-"pulsar/pulsar-2.7.2/connectors/pulsar-io-jdbc-mariadb-2.7.2.nar"
-],
-"pulsar-io-jdbc-mariadb-2.7.3.nar": [
-"pulsar/pulsar-2.7.3/connectors/pulsar-io-jdbc-mariadb-2.7.3.nar"
-],
-"pulsar-io-jdbc-mariadb-2.7.4.nar": [
-"pulsar/pulsar-2.7.4/connectors/pulsar-io-jdbc-mariadb-2.7.4.nar"
-],
-"pulsar-io-jdbc-mariadb-2.8.0.nar": [
-"pulsar/pulsar-2.8.0/connectors/pulsar-io-jdbc-mariadb-2.8.0.nar"
-],
-"pulsar-io-jdbc-mariadb-2.8.1.nar": [
-"pulsar/pulsar-2.8.1/connectors/pulsar-io-jdbc-mariadb-2.8.1.nar"
-],
-"pulsar-io-jdbc-mariadb-2.8.2.nar": [
-"pulsar/pulsar-2.8.2/connectors/pulsar-io-jdbc-mariadb-2.8.2.nar"
-],
-"pulsar-io-jdbc-mariadb-2.9.0.nar": [
-"pulsar/pulsar-2.9.0/connectors/pulsar-io-jdbc-mariadb-2.9.0.nar"
 ],
 "pulsar-io-jdbc-mariadb-2.9.1.nar": [
 "pulsar/pulsar-2.9.1/connectors/pulsar-io-jdbc-mariadb-2.9.1.nar"
 ],
-"pulsar-io-jdbc-postgres-2.7.2.nar": [
-"pulsar/pulsar-2.7.2/connectors/pulsar-io-jdbc-postgres-2.7.2.nar"
-],
-"pulsar-io-jdbc-postgres-2.7.3.nar": [
-"pulsar/pulsar-2.7.3/connectors/pulsar-io-jdbc-postgres-2.7.3.nar"
-],
-"pulsar-io-jdbc-postgres-2.7.4.nar": [
-"pulsar/pulsar-2.7.4/connectors/pulsar-io-jdbc-postgres-2.7.4.nar"
-],
-"pulsar-io-jdbc-postgres-2.8.0.nar": [
-"pulsar/pulsar-2.8.0/connectors/pulsar-io-jdbc-postgres-2.8.0.nar"
-],
-"pulsar-io-jdbc-postgres-2.8.1.nar": [
-"pulsar/pulsar-2.8.1/connectors/pulsar-io-jdbc-postgres-2.8.1.nar"
-],
-"pulsar-io-jdbc-postgres-2.8.2.nar": [
-"pulsar/pulsar-2.8.2/connectors/pulsar-io-jdbc-postgres-2.8.2.nar"
-],
-"pulsar-io-jdbc-postgres-2.9.0.nar": [
-"pulsar/pulsar-2.9.0/connectors/pulsar-io-jdbc-postgres-2.9.0.nar"
-],
 "pulsar-io-jdbc-postgres-2.9.1.nar": [
 "pulsar/pulsar-2.9.1/connectors/pulsar-io-jdbc-postgres-2.9.1.nar"
-],
-"pulsar-io-jdbc-sqlite-2.7.2.nar": [
-"pulsar/pulsar-2.7.2/connectors/pulsar-io-jdbc-sqlite-2.7.2.nar"
-],
-"pulsar-io-jdbc-sqlite-2.7.3.nar": [
-"pulsar/pulsar-2.7.3/connectors/pulsar-io-jdbc-sqlite-2.7.3.nar"
-],
-"pulsar-io-jdbc-sqlite-2.7.4.nar": [
-"pulsar/pulsar-2.7.4/connectors/pulsar-io-jdbc-sqlite-2.7.4.nar"
-],
-"pulsar-io-jdbc-sqlite-2.8.0.nar": [
-"pulsar/pulsar-2.8.0/connectors/pulsar-io-jdbc-sqlite-2.8.0.nar"
-],
-"pulsar-io-jdbc-sqlite-2.8.1.nar": [
-"pulsar/pulsar-2.8.1/connectors/pulsar-io-jdbc-sqlite-2.8.1.nar"
-],
-"pulsar-io-jdbc-sqlite-2.8.2.nar": [
-"pulsar/pulsar-2.8.2/connectors/pulsar-io-jdbc-sqlite-2.8.2.nar"
-],
-"pulsar-io-jdbc-sqlite-2.9.0.nar": [
-"pulsar/pulsar-2.9.0/connectors/pulsar-io-jdbc-sqlite-2.9.0.nar"
 ],
 "pulsar-io-jdbc-sqlite-2.9.1.nar": [
 "pulsar/pulsar-2.9.1/connectors/pulsar-io-jdbc-sqlite-2.9.1.nar"
 ],
-"pulsar-io-kafka-2.7.2.nar": [
-"pulsar/pulsar-2.7.2/connectors/pulsar-io-kafka-2.7.2.nar"
-],
-"pulsar-io-kafka-2.7.3.nar": [
-"pulsar/pulsar-2.7.3/connectors/pulsar-io-kafka-2.7.3.nar"
-],
-"pulsar-io-kafka-2.7.4.nar": [
-"pulsar/pulsar-2.7.4/connectors/pulsar-io-kafka-2.7.4.nar"
-],
-"pulsar-io-kafka-2.8.0.nar": [
-"pulsar/pulsar-2.8.0/connectors/pulsar-io-kafka-2.8.0.nar"
-],
-"pulsar-io-kafka-2.8.1.nar": [
-"pulsar/pulsar-2.8.1/connectors/pulsar-io-kafka-2.8.1.nar"
-],
-"pulsar-io-kafka-2.8.2.nar": [
-"pulsar/pulsar-2.8.2/connectors/pulsar-io-kafka-2.8.2.nar"
-],
-"pulsar-io-kafka-2.9.0.nar": [
-"pulsar/pulsar-2.9.0/connectors/pulsar-io-kafka-2.9.0.nar"
-],
 "pulsar-io-kafka-2.9.1.nar": [
 "pulsar/pulsar-2.9.1/connectors/pulsar-io-kafka-2.9.1.nar"
-],
-"pulsar-io-kafka-connect-adaptor-2.7.2.nar": [
-"pulsar/pulsar-2.7.2/connectors/pulsar-io-kafka-connect-adaptor-2.7.2.nar"
-],
-"pulsar-io-kafka-connect-adaptor-2.7.3.nar": [
-"pulsar/pulsar-2.7.3/connectors/pulsar-io-kafka-connect-adaptor-2.7.3.nar"
-],
-"pulsar-io-kafka-connect-adaptor-2.7.4.nar": [
-"pulsar/pulsar-2.7.4/connectors/pulsar-io-kafka-connect-adaptor-2.7.4.nar"
-],
-"pulsar-io-kafka-connect-adaptor-2.8.0.nar": [
-"pulsar/pulsar-2.8.0/connectors/pulsar-io-kafka-connect-adaptor-2.8.0.nar"
-],
-"pulsar-io-kafka-connect-adaptor-2.8.1.nar": [
-"pulsar/pulsar-2.8.1/connectors/pulsar-io-kafka-connect-adaptor-2.8.1.nar"
-],
-"pulsar-io-kafka-connect-adaptor-2.8.2.nar": [
-"pulsar/pulsar-2.8.2/connectors/pulsar-io-kafka-connect-adaptor-2.8.2.nar"
-],
-"pulsar-io-kafka-connect-adaptor-2.9.0.nar": [
-"pulsar/pulsar-2.9.0/connectors/pulsar-io-kafka-connect-adaptor-2.9.0.nar"
 ],
 "pulsar-io-kafka-connect-adaptor-2.9.1.nar": [
 "pulsar/pulsar-2.9.1/connectors/pulsar-io-kafka-connect-adaptor-2.9.1.nar"
 ],
-"pulsar-io-kinesis-2.7.2.nar": [
-"pulsar/pulsar-2.7.2/connectors/pulsar-io-kinesis-2.7.2.nar"
-],
-"pulsar-io-kinesis-2.7.3.nar": [
-"pulsar/pulsar-2.7.3/connectors/pulsar-io-kinesis-2.7.3.nar"
-],
-"pulsar-io-kinesis-2.7.4.nar": [
-"pulsar/pulsar-2.7.4/connectors/pulsar-io-kinesis-2.7.4.nar"
-],
-"pulsar-io-kinesis-2.8.0.nar": [
-"pulsar/pulsar-2.8.0/connectors/pulsar-io-kinesis-2.8.0.nar"
-],
-"pulsar-io-kinesis-2.8.1.nar": [
-"pulsar/pulsar-2.8.1/connectors/pulsar-io-kinesis-2.8.1.nar"
-],
-"pulsar-io-kinesis-2.8.2.nar": [
-"pulsar/pulsar-2.8.2/connectors/pulsar-io-kinesis-2.8.2.nar"
-],
-"pulsar-io-kinesis-2.9.0.nar": [
-"pulsar/pulsar-2.9.0/connectors/pulsar-io-kinesis-2.9.0.nar"
-],
 "pulsar-io-kinesis-2.9.1.nar": [
 "pulsar/pulsar-2.9.1/connectors/pulsar-io-kinesis-2.9.1.nar"
-],
-"pulsar-io-mongo-2.7.2.nar": [
-"pulsar/pulsar-2.7.2/connectors/pulsar-io-mongo-2.7.2.nar"
-],
-"pulsar-io-mongo-2.7.3.nar": [
-"pulsar/pulsar-2.7.3/connectors/pulsar-io-mongo-2.7.3.nar"
-],
-"pulsar-io-mongo-2.7.4.nar": [
-"pulsar/pulsar-2.7.4/connectors/pulsar-io-mongo-2.7.4.nar"
-],
-"pulsar-io-mongo-2.8.0.nar": [
-"pulsar/pulsar-2.8.0/connectors/pulsar-io-mongo-2.8.0.nar"
-],
-"pulsar-io-mongo-2.8.1.nar": [
-"pulsar/pulsar-2.8.1/connectors/pulsar-io-mongo-2.8.1.nar"
-],
-"pulsar-io-mongo-2.8.2.nar": [
-"pulsar/pulsar-2.8.2/connectors/pulsar-io-mongo-2.8.2.nar"
-],
-"pulsar-io-mongo-2.9.0.nar": [
-"pulsar/pulsar-2.9.0/connectors/pulsar-io-mongo-2.9.0.nar"
 ],
 "pulsar-io-mongo-2.9.1.nar": [
 "pulsar/pulsar-2.9.1/connectors/pulsar-io-mongo-2.9.1.nar"
 ],
-"pulsar-io-netty-2.7.2.nar": [
-"pulsar/pulsar-2.7.2/connectors/pulsar-io-netty-2.7.2.nar"
-],
-"pulsar-io-netty-2.7.3.nar": [
-"pulsar/pulsar-2.7.3/connectors/pulsar-io-netty-2.7.3.nar"
-],
-"pulsar-io-netty-2.7.4.nar": [
-"pulsar/pulsar-2.7.4/connectors/pulsar-io-netty-2.7.4.nar"
-],
-"pulsar-io-netty-2.8.0.nar": [
-"pulsar/pulsar-2.8.0/connectors/pulsar-io-netty-2.8.0.nar"
-],
-"pulsar-io-netty-2.8.1.nar": [
-"pulsar/pulsar-2.8.1/connectors/pulsar-io-netty-2.8.1.nar"
-],
-"pulsar-io-netty-2.8.2.nar": [
-"pulsar/pulsar-2.8.2/connectors/pulsar-io-netty-2.8.2.nar"
-],
-"pulsar-io-netty-2.9.0.nar": [
-"pulsar/pulsar-2.9.0/connectors/pulsar-io-netty-2.9.0.nar"
-],
 "pulsar-io-netty-2.9.1.nar": [
 "pulsar/pulsar-2.9.1/connectors/pulsar-io-netty-2.9.1.nar"
-],
-"pulsar-io-nsq-2.7.2.nar": [
-"pulsar/pulsar-2.7.2/connectors/pulsar-io-nsq-2.7.2.nar"
-],
-"pulsar-io-nsq-2.7.3.nar": [
-"pulsar/pulsar-2.7.3/connectors/pulsar-io-nsq-2.7.3.nar"
-],
-"pulsar-io-nsq-2.7.4.nar": [
-"pulsar/pulsar-2.7.4/connectors/pulsar-io-nsq-2.7.4.nar"
-],
-"pulsar-io-nsq-2.8.0.nar": [
-"pulsar/pulsar-2.8.0/connectors/pulsar-io-nsq-2.8.0.nar"
-],
-"pulsar-io-nsq-2.8.1.nar": [
-"pulsar/pulsar-2.8.1/connectors/pulsar-io-nsq-2.8.1.nar"
-],
-"pulsar-io-nsq-2.8.2.nar": [
-"pulsar/pulsar-2.8.2/connectors/pulsar-io-nsq-2.8.2.nar"
-],
-"pulsar-io-nsq-2.9.0.nar": [
-"pulsar/pulsar-2.9.0/connectors/pulsar-io-nsq-2.9.0.nar"
 ],
 "pulsar-io-nsq-2.9.1.nar": [
 "pulsar/pulsar-2.9.1/connectors/pulsar-io-nsq-2.9.1.nar"
 ],
-"pulsar-io-rabbitmq-2.7.2.nar": [
-"pulsar/pulsar-2.7.2/connectors/pulsar-io-rabbitmq-2.7.2.nar"
-],
-"pulsar-io-rabbitmq-2.7.3.nar": [
-"pulsar/pulsar-2.7.3/connectors/pulsar-io-rabbitmq-2.7.3.nar"
-],
-"pulsar-io-rabbitmq-2.7.4.nar": [
-"pulsar/pulsar-2.7.4/connectors/pulsar-io-rabbitmq-2.7.4.nar"
-],
-"pulsar-io-rabbitmq-2.8.0.nar": [
-"pulsar/pulsar-2.8.0/connectors/pulsar-io-rabbitmq-2.8.0.nar"
-],
-"pulsar-io-rabbitmq-2.8.1.nar": [
-"pulsar/pulsar-2.8.1/connectors/pulsar-io-rabbitmq-2.8.1.nar"
-],
-"pulsar-io-rabbitmq-2.8.2.nar": [
-"pulsar/pulsar-2.8.2/connectors/pulsar-io-rabbitmq-2.8.2.nar"
-],
-"pulsar-io-rabbitmq-2.9.0.nar": [
-"pulsar/pulsar-2.9.0/connectors/pulsar-io-rabbitmq-2.9.0.nar"
-],
 "pulsar-io-rabbitmq-2.9.1.nar": [
 "pulsar/pulsar-2.9.1/connectors/pulsar-io-rabbitmq-2.9.1.nar"
-],
-"pulsar-io-redis-2.7.2.nar": [
-"pulsar/pulsar-2.7.2/connectors/pulsar-io-redis-2.7.2.nar"
-],
-"pulsar-io-redis-2.7.3.nar": [
-"pulsar/pulsar-2.7.3/connectors/pulsar-io-redis-2.7.3.nar"
-],
-"pulsar-io-redis-2.7.4.nar": [
-"pulsar/pulsar-2.7.4/connectors/pulsar-io-redis-2.7.4.nar"
-],
-"pulsar-io-redis-2.8.0.nar": [
-"pulsar/pulsar-2.8.0/connectors/pulsar-io-redis-2.8.0.nar"
-],
-"pulsar-io-redis-2.8.1.nar": [
-"pulsar/pulsar-2.8.1/connectors/pulsar-io-redis-2.8.1.nar"
-],
-"pulsar-io-redis-2.8.2.nar": [
-"pulsar/pulsar-2.8.2/connectors/pulsar-io-redis-2.8.2.nar"
-],
-"pulsar-io-redis-2.9.0.nar": [
-"pulsar/pulsar-2.9.0/connectors/pulsar-io-redis-2.9.0.nar"
 ],
 "pulsar-io-redis-2.9.1.nar": [
 "pulsar/pulsar-2.9.1/connectors/pulsar-io-redis-2.9.1.nar"
 ],
-"pulsar-io-solr-2.7.2.nar": [
-"pulsar/pulsar-2.7.2/connectors/pulsar-io-solr-2.7.2.nar"
-],
-"pulsar-io-solr-2.7.3.nar": [
-"pulsar/pulsar-2.7.3/connectors/pulsar-io-solr-2.7.3.nar"
-],
-"pulsar-io-solr-2.7.4.nar": [
-"pulsar/pulsar-2.7.4/connectors/pulsar-io-solr-2.7.4.nar"
-],
-"pulsar-io-solr-2.8.0.nar": [
-"pulsar/pulsar-2.8.0/connectors/pulsar-io-solr-2.8.0.nar"
-],
-"pulsar-io-solr-2.8.1.nar": [
-"pulsar/pulsar-2.8.1/connectors/pulsar-io-solr-2.8.1.nar"
-],
-"pulsar-io-solr-2.8.2.nar": [
-"pulsar/pulsar-2.8.2/connectors/pulsar-io-solr-2.8.2.nar"
-],
-"pulsar-io-solr-2.9.0.nar": [
-"pulsar/pulsar-2.9.0/connectors/pulsar-io-solr-2.9.0.nar"
-],
 "pulsar-io-solr-2.9.1.nar": [
 "pulsar/pulsar-2.9.1/connectors/pulsar-io-solr-2.9.1.nar"
-],
-"pulsar-io-twitter-2.7.2.nar": [
-"pulsar/pulsar-2.7.2/connectors/pulsar-io-twitter-2.7.2.nar"
-],
-"pulsar-io-twitter-2.7.3.nar": [
-"pulsar/pulsar-2.7.3/connectors/pulsar-io-twitter-2.7.3.nar"
-],
-"pulsar-io-twitter-2.7.4.nar": [
-"pulsar/pulsar-2.7.4/connectors/pulsar-io-twitter-2.7.4.nar"
-],
-"pulsar-io-twitter-2.8.0.nar": [
-"pulsar/pulsar-2.8.0/connectors/pulsar-io-twitter-2.8.0.nar"
-],
-"pulsar-io-twitter-2.8.1.nar": [
-"pulsar/pulsar-2.8.1/connectors/pulsar-io-twitter-2.8.1.nar"
-],
-"pulsar-io-twitter-2.8.2.nar": [
-"pulsar/pulsar-2.8.2/connectors/pulsar-io-twitter-2.8.2.nar"
-],
-"pulsar-io-twitter-2.9.0.nar": [
-"pulsar/pulsar-2.9.0/connectors/pulsar-io-twitter-2.9.0.nar"
 ],
 "pulsar-io-twitter-2.9.1.nar": [
 "pulsar/pulsar-2.9.1/connectors/pulsar-io-twitter-2.9.1.nar"
@@ -12372,6 +11718,9 @@
 ],
 "tomee-microprofile-7.1.4": [
 "tomee/tomee-7.1.4/tomee-microprofile-webapp-7.1.4.war"
+],
+"tomee-patch-0.8": [
+"tomee/tomee-patch-plugin-0.8/tomee-patch-parent-0.8-source-release.zip"
 ],
 "tomee-plume-1.7.5": [
 "tomee/tomee-1.7.5/tomee-plume-webapp-1.7.5.war"
