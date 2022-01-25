@@ -145,7 +145,7 @@
 },
 "apisix": {
 "apache-apisix-2.10.3": "2022-01-09",
-"apache-apisix-2.11.0": "2021-11-29",
+"apache-apisix-2.12.0": "2022-01-24",
 "apache-apisix-dashboard-2.10.0": "2021-12-15",
 "apache-apisix-dashboard-2.10.1": "2021-12-23",
 "apache-apisix-ingress-controller-1.4.0": "2022-01-03",
@@ -410,6 +410,7 @@
 "apache-camel-kafka-connector-0.6.1": "2020-11-30",
 "apache-camel-quarkus-2.5.0": "2021-11-22",
 "apache-camel-quarkus-2.6.0": "2021-12-21",
+"camel-k-1.8.0": "2022-01-19",
 "camel-k-client-1.2.1-linux": "2020-11-27",
 "camel-k-client-1.2.1-mac": "2020-11-27",
 "camel-k-client-1.2.1-windows": "2020-11-27",
@@ -445,6 +446,10 @@
 "camel-k-client-1.7.0-mac": "2021-11-15",
 "camel-k-client-1.7.0-mac-arm64bit": "2021-11-15",
 "camel-k-client-1.7.0-windows": "2021-11-15",
+"camel-k-client-1.8.0-linux": "2022-01-19",
+"camel-k-client-1.8.0-mac": "2022-01-19",
+"camel-k-client-1.8.0-mac-arm64bit": "2022-01-19",
+"camel-k-client-1.8.0-windows": "2022-01-19",
 "camel-k-examples-1.2.1": "2020-11-27",
 "camel-k-examples-1.3.0": "2020-12-29",
 "camel-k-examples-1.3.1": "2021-02-04",
@@ -456,6 +461,8 @@
 "camel-k-examples-1.6.0": "2021-09-07",
 "camel-k-examples-1.6.1": "2021-10-27",
 "camel-k-examples-1.7.0": "2021-11-15",
+"camel-k-examples-1.8.0": "2022-01-19",
+"camel-k-runtime-1.11.0": "2022-01-18",
 "camel-k-sources-1.2.1": "2020-11-27",
 "camel-k-sources-1.3.0": "2020-12-29",
 "camel-k-sources-1.3.1": "2021-02-04",
@@ -476,6 +483,8 @@
 "camel-kafka-connector-0.7.3": "2021-03-15",
 "camel-kafka-connector-0.8.0": "2021-02-25",
 "camel-kafka-connector-0.9.0": "2021-04-02",
+"camel-kafka-connector-1.0.0": "2022-01-24",
+"camel-kamelets-0.7.0": "2022-01-18",
 "camel-kamelets-sources-0.3.0": "2021-07-09",
 "camel-kamelets-sources-0.4.0": "2021-09-07",
 "camel-kamelets-sources-0.5.0": "2021-11-15",
@@ -1303,7 +1312,9 @@
 },
 "hop": {
 "apache-hop-1.0.0-incubating": "2021-10-01",
-"apache-hop-client-1.0.0-incubating": "2021-10-01"
+"apache-hop-1.1.0": "2022-01-24",
+"apache-hop-client-1.0.0-incubating": "2021-10-01",
+"apache-hop-client-1.1.0": "2022-01-24"
 },
 "httpcomponents": {
 "commons-httpclient-3.1": "2020-07-03",
@@ -1479,7 +1490,7 @@
 "apache-sedona-1.1.1-incubating": "2021-11-23"
 },
 "incubator-shenyu": {
-"apache-shenyu-incubating-2.4.1": "2021-10-17"
+"apache-shenyu-incubating-2.4.2": "2022-01-18"
 },
 "incubator-spot": {
 "apache-spot-1.0-incubating": "2020-07-03"
@@ -1540,7 +1551,7 @@
 "jackrabbit-jca-2.16.9": "2022-01-04",
 "jackrabbit-jca-2.20.4": "2021-11-02",
 "jackrabbit-jca-2.21.9": "2021-12-06",
-"jackrabbit-oak-1.22.9": "2021-10-06",
+"jackrabbit-oak-1.22.10": "2022-01-20",
 "jackrabbit-oak-1.4.26": "2020-07-03",
 "jackrabbit-oak-1.40.0": "2021-05-28",
 "jackrabbit-oak-1.42.0": "2022-01-07",
@@ -3956,7 +3967,8 @@
 "DocBook-Framework-1.0": "2020-07-06",
 "anakia-1.0": "2020-07-06",
 "texen-1.0": "2020-07-06",
-"velocity-dvsl-1.0": "2020-07-06"
+"velocity-dvsl-1.0": "2020-07-06",
+"velocity-engine-examples-2.3": "2021-03-07"
 },
 "wicket": {
 "apache-wicket-6.30.0": "2020-07-03",
@@ -3984,8 +3996,12 @@
 "XML-Xerces-2.7.0-0": "2020-07-06",
 "Xerces-J-src.2.12.1": "2020-07-06",
 "Xerces-J-src.2.12.1-xml-schema-1.1": "2020-07-06",
+"Xerces-J-src.2.12.2": "2022-01-24",
+"Xerces-J-src.2.12.2-xml-schema-1.1": "2022-01-24",
 "Xerces-J-tools.2.12.1": "2020-07-06",
 "Xerces-J-tools.2.12.1-xml-schema-1.1": "2020-07-06",
+"Xerces-J-tools.2.12.2": "2022-01-24",
+"Xerces-J-tools.2.12.2-xml-schema-1.1": "2022-01-24",
 "xerces-c-3.2.3": "2020-07-06",
 "xml-commons-external-1.2.06": "2020-07-06",
 "xml-commons-external-1.3.05": "2020-07-06",

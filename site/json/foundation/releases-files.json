@@ -431,8 +431,8 @@
 "apache-apisix-2.10.3": [
 "apisix/2.10.3/apache-apisix-2.10.3-src.tgz"
 ],
-"apache-apisix-2.11.0": [
-"apisix/2.11.0/apache-apisix-2.11.0-src.tgz"
+"apache-apisix-2.12.0": [
+"apisix/2.12.0/apache-apisix-2.12.0-src.tgz"
 ],
 "apache-apisix-dashboard-2.10.0": [
 "apisix/dashboard/2.10.0/apache-apisix-dashboard-2.10.0-src.tgz"
@@ -1202,6 +1202,9 @@
 "apache-camel-quarkus-2.6.0": [
 "camel/camel-quarkus/2.6.0/apache-camel-quarkus-2.6.0-src.zip"
 ],
+"camel-k-1.8.0": [
+"camel/camel-k/1.8.0/camel-k-1.8.0-sources.tar.gz"
+],
 "camel-k-client-1.2.1-linux": [
 "camel/camel-k/1.2.1/camel-k-client-1.2.1-linux-64bit.tar.gz"
 ],
@@ -1307,6 +1310,18 @@
 "camel-k-client-1.7.0-windows": [
 "camel/camel-k/1.7.0/camel-k-client-1.7.0-windows-64bit.tar.gz"
 ],
+"camel-k-client-1.8.0-linux": [
+"camel/camel-k/1.8.0/camel-k-client-1.8.0-linux-64bit.tar.gz"
+],
+"camel-k-client-1.8.0-mac": [
+"camel/camel-k/1.8.0/camel-k-client-1.8.0-mac-64bit.tar.gz"
+],
+"camel-k-client-1.8.0-mac-arm64bit": [
+"camel/camel-k/1.8.0/camel-k-client-1.8.0-mac-arm64bit.tar.gz"
+],
+"camel-k-client-1.8.0-windows": [
+"camel/camel-k/1.8.0/camel-k-client-1.8.0-windows-64bit.tar.gz"
+],
 "camel-k-examples-1.2.1": [
 "camel/camel-k/1.2.1/camel-k-examples-1.2.1.tar.gz"
 ],
@@ -1339,6 +1354,12 @@
 ],
 "camel-k-examples-1.7.0": [
 "camel/camel-k/1.7.0/camel-k-examples-1.7.0.tar.gz"
+],
+"camel-k-examples-1.8.0": [
+"camel/camel-k/1.8.0/camel-k-examples-1.8.0.tar.gz"
+],
+"camel-k-runtime-1.11.0": [
+"camel/camel-k-runtime/1.11.0/camel-k-runtime-project-1.11.0-source-release.zip"
 ],
 "camel-k-sources-1.2.1": [
 "camel/camel-k/1.2.1/camel-k-sources-1.2.1.tar.gz"
@@ -1399,6 +1420,12 @@
 ],
 "camel-kafka-connector-0.9.0": [
 "camel/camel-kafka-connector/0.9.0/camel-kafka-connector-0.9.0-src.zip"
+],
+"camel-kafka-connector-1.0.0": [
+"camel/camel-kafka-connector/1.0.0/camel-kafka-connector-1.0.0-src.zip"
+],
+"camel-kamelets-0.7.0": [
+"camel/camel-kamelets/0.7.0/camel-kamelets-0.7.0.tar.gz"
 ],
 "camel-kamelets-sources-0.3.0": [
 "camel/camel-kamelets/0.3.0/camel-kamelets-sources-0.3.0.tar.gz"
@@ -4131,8 +4158,14 @@
 "apache-hop-1.0.0-incubating": [
 "hop/1.0.0/apache-hop-1.0.0-incubating-src.tar.gz"
 ],
+"apache-hop-1.1.0": [
+"hop/1.1.0/apache-hop-1.1.0-src.tar.gz"
+],
 "apache-hop-client-1.0.0-incubating": [
 "hop/1.0.0/apache-hop-client-1.0.0-incubating.zip"
+],
+"apache-hop-client-1.1.0": [
+"hop/1.1.0/apache-hop-client-1.1.0.zip"
 ]
 },
 "httpcomponents": {
@@ -4563,8 +4596,8 @@
 ]
 },
 "incubator-shenyu": {
-"apache-shenyu-incubating-2.4.1": [
-"incubator/shenyu/2.4.1/apache-shenyu-incubating-2.4.1-src.zip"
+"apache-shenyu-incubating-2.4.2": [
+"incubator/shenyu/2.4.2/apache-shenyu-incubating-2.4.2-src.zip"
 ]
 },
 "incubator-spot": {
@@ -4710,8 +4743,8 @@
 "jackrabbit-jca-2.21.9": [
 "jackrabbit/2.21.9/jackrabbit-jca-2.21.9.rar"
 ],
-"jackrabbit-oak-1.22.9": [
-"jackrabbit/oak/1.22.9/jackrabbit-oak-1.22.9-src.zip"
+"jackrabbit-oak-1.22.10": [
+"jackrabbit/oak/1.22.10/jackrabbit-oak-1.22.10-src.zip"
 ],
 "jackrabbit-oak-1.4.26": [
 "jackrabbit/oak/1.4.26/jackrabbit-oak-1.4.26-src.zip"
@@ -12045,6 +12078,9 @@
 "velocity/dvsl/1.0/velocity-dvsl-1.0-src.zip",
 "velocity/dvsl/1.0/velocity-dvsl-1.0.tar.gz",
 "velocity/dvsl/1.0/velocity-dvsl-1.0.zip"
+],
+"velocity-engine-examples-2.3": [
+"velocity/engine/2.3/velocity-engine-examples-2.3.zip"
 ]
 },
 "wicket": {
@@ -12120,6 +12156,14 @@
 "xerces/j/source/Xerces-J-src.2.12.1-xml-schema-1.1.tar.gz",
 "xerces/j/source/Xerces-J-src.2.12.1-xml-schema-1.1.zip"
 ],
+"Xerces-J-src.2.12.2": [
+"xerces/j/source/Xerces-J-src.2.12.2.tar.gz",
+"xerces/j/source/Xerces-J-src.2.12.2.zip"
+],
+"Xerces-J-src.2.12.2-xml-schema-1.1": [
+"xerces/j/source/Xerces-J-src.2.12.2-xml-schema-1.1.tar.gz",
+"xerces/j/source/Xerces-J-src.2.12.2-xml-schema-1.1.zip"
+],
 "Xerces-J-tools.2.12.1": [
 "xerces/j/source/Xerces-J-tools.2.12.1.tar.gz",
 "xerces/j/source/Xerces-J-tools.2.12.1.zip"
@@ -12127,6 +12171,14 @@
 "Xerces-J-tools.2.12.1-xml-schema-1.1": [
 "xerces/j/source/Xerces-J-tools.2.12.1-xml-schema-1.1.tar.gz",
 "xerces/j/source/Xerces-J-tools.2.12.1-xml-schema-1.1.zip"
+],
+"Xerces-J-tools.2.12.2": [
+"xerces/j/source/Xerces-J-tools.2.12.2.tar.gz",
+"xerces/j/source/Xerces-J-tools.2.12.2.zip"
+],
+"Xerces-J-tools.2.12.2-xml-schema-1.1": [
+"xerces/j/source/Xerces-J-tools.2.12.2-xml-schema-1.1.tar.gz",
+"xerces/j/source/Xerces-J-tools.2.12.2-xml-schema-1.1.zip"
 ],
 "xerces-c-3.2.3": [
 "xerces/c/3/sources/xerces-c-3.2.3.tar.bz2",
