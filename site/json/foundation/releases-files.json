@@ -3922,6 +3922,9 @@
 "apache-groovy-3.0.9": [
 "groovy/3.0.9/sources/apache-groovy-src-3.0.9.zip"
 ],
+"apache-groovy-4.0.0": [
+"groovy/4.0.0/sources/apache-groovy-src-4.0.0.zip"
+],
 "apache-groovy-4.0.0-rc-2": [
 "groovy/4.0.0-rc-2/sources/apache-groovy-src-4.0.0-rc-2.zip"
 ],
@@ -3933,6 +3936,9 @@
 ],
 "apache-groovy-sdk-3.0.9": [
 "groovy/3.0.9/distribution/apache-groovy-sdk-3.0.9.zip"
+],
+"apache-groovy-sdk-4.0.0": [
+"groovy/4.0.0/distribution/apache-groovy-sdk-4.0.0.zip"
 ],
 "apache-groovy-sdk-4.0.0-rc-2": [
 "groovy/4.0.0-rc-2/distribution/apache-groovy-sdk-4.0.0-rc-2.zip"
@@ -4331,9 +4337,9 @@
 "apache-ignite-2.12.0-nuget": [
 "ignite/2.12.0/apache-ignite-2.12.0-nuget.zip"
 ],
-"apache-ignite-3.0.0-alpha3": [
-"ignite/3.0.0-alpha3/apache-ignite-3.0.0-alpha3-src.zip",
-"ignite/3.0.0-alpha3/apache-ignite-3.0.0-alpha3.zip"
+"apache-ignite-3.0.0-alpha4": [
+"ignite/3.0.0-alpha4/apache-ignite-3.0.0-alpha4-src.zip",
+"ignite/3.0.0-alpha4/apache-ignite-3.0.0-alpha4.zip"
 ],
 "ignite-performance-statistics-ext-1.0.0": [
 "ignite/ignite-extensions/ignite-performance-statistics-ext/1.0.0/ignite-performance-statistics-ext-1.0.0-src.zip"
@@ -4483,6 +4489,11 @@
 ],
 "apache-liminal-0.0.3-incubating": [
 "incubator/liminal/0.0.3-INCUBATING/apache-liminal-0.0.3-incubating-source.tar.gz"
+]
+},
+"incubator-linkis": {
+"apache-linkis-1.0.3-incubating": [
+"incubator/linkis/release-1.0.3/apache-linkis-1.0.3-incubating-src.tar.gz"
 ]
 },
 "incubator-livy": {
@@ -4939,12 +4950,6 @@
 ]
 },
 "kafka": {
-"kafka-2.6.3": [
-"kafka/2.6.3/kafka-2.6.3-src.tgz"
-],
-"kafka-2.7.2": [
-"kafka/2.7.2/kafka-2.7.2-src.tgz"
-],
 "kafka-2.8.1": [
 "kafka/2.8.1/kafka-2.8.1-src.tgz"
 ],
@@ -4954,12 +4959,6 @@
 "kafka-3.1.0": [
 "kafka/3.1.0/kafka-3.1.0-src.tgz"
 ],
-"kafka_2.12-2.6.3": [
-"kafka/2.6.3/kafka_2.12-2.6.3.tgz"
-],
-"kafka_2.12-2.7.2": [
-"kafka/2.7.2/kafka_2.12-2.7.2.tgz"
-],
 "kafka_2.12-2.8.1": [
 "kafka/2.8.1/kafka_2.12-2.8.1.tgz"
 ],
@@ -4968,12 +4967,6 @@
 ],
 "kafka_2.12-3.1.0": [
 "kafka/3.1.0/kafka_2.12-3.1.0.tgz"
-],
-"kafka_2.13-2.6.3": [
-"kafka/2.6.3/kafka_2.13-2.6.3.tgz"
-],
-"kafka_2.13-2.7.2": [
-"kafka/2.7.2/kafka_2.13-2.7.2.tgz"
 ],
 "kafka_2.13-2.8.1": [
 "kafka/2.8.1/kafka_2.13-2.8.1.tgz"
@@ -8391,6 +8384,9 @@
 "nifi-fds-0.2.0": [
 "nifi/nifi-fds/nifi-fds-0.2.0/nifi-fds-0.2.0-source-release.zip"
 ],
+"nifi-fds-0.3.0": [
+"nifi/nifi-fds/nifi-fds-0.3.0/nifi-fds-0.3.0-source-release.zip"
+],
 "nifi-minifi-cpp-0.10.0": [
 "nifi/nifi-minifi-cpp/0.10.0/nifi-minifi-cpp-0.10.0-source.tar.gz"
 ],
@@ -10120,8 +10116,8 @@
 "org.apache.sling.commons.messaging.mail-2.0.0": [
 "sling/org.apache.sling.commons.messaging.mail-2.0.0-source-release.zip"
 ],
-"org.apache.sling.commons.metrics-1.2.8": [
-"sling/org.apache.sling.commons.metrics-1.2.8-source-release.zip"
+"org.apache.sling.commons.metrics-1.2.10": [
+"sling/org.apache.sling.commons.metrics-1.2.10-source-release.zip"
 ],
 "org.apache.sling.commons.metrics-rrd4j-1.0.4": [
 "sling/org.apache.sling.commons.metrics-rrd4j-1.0.4-source-release.zip"
