@@ -1165,6 +1165,65 @@
 ],
 "shortdesc": "Beehive makes J2EE programming easier by building a simple object model on J2EE and Struts"
 },
+"attic-chemistry": {
+"bug-database": "https://issues.apache.org/jira/browse/CMIS",
+"category": "retired, library",
+"created": "2011-02-22",
+"description": "Apache Chemistry provides open source implementations of the Content Management Interoperability Services (CMIS) specification. Libraries are available for Java, Python, PHP and .NET.",
+"doap": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/chemistry.rdf",
+"download-page": "http://chemistry.apache.org/",
+"homepage": "http://chemistry.apache.org",
+"implements": [
+{
+"body": "OASIS",
+"id": "CMIS",
+"title": "OASIS Content Management Interoperability Services (CMIS)",
+"url": "http://www.oasis-open.org/committees/cmis"
+}
+],
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://mail-archives.apache.org/mod_mbox/chemistry-dev/",
+"maintainer": [
+{
+"mbox": "mailto:fmui@apache.org",
+"name": "Florian Müller"
+}
+],
+"name": "Apache Chemistry",
+"pmc": "attic",
+"programming-language": "Java, Python, PHP, C#, Objective-C",
+"release": [
+{
+"created": "2012-12-19",
+"name": "cmislib",
+"revision": "0.5.1"
+},
+{
+"created": "2015-04-13",
+"name": "DotCMIS",
+"revision": "0.7"
+},
+{
+"created": "2017-04-05",
+"name": "OpenCMIS",
+"revision": "1.1.0"
+},
+{
+"created": "2017-07-31",
+"name": "ObjectiveCMIS",
+"revision": "0.6"
+},
+{
+"created": "2017-07-25",
+"name": "PortCMIS",
+"revision": "0.3"
+}
+],
+"repository": [
+"https://svn.apache.org/repos/asf/chemistry/"
+],
+"shortdesc": "Apache Chemistry provides open source implementations of the Content Management Interoperability Services (CMIS) specification."
+},
 "attic-chukwa": {
 "bug-database": "https://issues.apache.org/jira/browse/CHUKWA/",
 "category": "retired, hadoop",
@@ -2496,6 +2555,37 @@
 "http://svn.apache.org/repos/asf/jakarta/regexp/"
 ],
 "shortdesc": "Regular Expression engine"
+},
+"attic-river": {
+"bug-database": "https://issues.apache.org/jira/browse/RIVER",
+"category": "retired, javaee",
+"created": "2012-04-14",
+"description": "Apache River software provides a JINI service, which is a service oriented architecture that defines a programming model which both exploits and extends Java technology to enable the construction of secure, distributed systems consisting of federations of services and clients. Jini technology can be used to build adaptive network systems that are scalable, evolvable and flexible as typically required in dynamic computing environments.",
+"doap": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/river.rdf",
+"download-page": "http://river.apache.org/downloads.html",
+"homepage": "http://river.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://river.apache.org/mailing-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:dev@river.apache.org",
+"name": "Apache River PMC"
+}
+],
+"name": "Apache River",
+"pmc": "attic",
+"programming-language": "Java",
+"release": [
+{
+"created": "2011-06-20",
+"name": "Apache River 2.2.0",
+"revision": "2.2.0"
+}
+],
+"repository": [
+"http://svn.apache.org/repos/asf/river"
+],
+"shortdesc": "Apache River software provides a standards-compilani JINI service."
 },
 "attic-shale": {
 "bug-database": "http://issues.apache.org/struts/",
@@ -3884,65 +3974,6 @@
 "https://gitbox.apache.org/repos/asf/celix-site.git"
 ],
 "shortdesc": "OSGi framework implementation in C and C++."
-},
-"chemistry": {
-"bug-database": "https://issues.apache.org/jira/browse/CMIS",
-"category": "library, retired",
-"created": "2011-02-22",
-"description": "Apache Chemistry provides open source implementations of the Content Management Interoperability Services (CMIS) specification. Libraries are available for Java, Python, PHP and .NET.",
-"doap": "http://svn.apache.org/repos/asf/chemistry/doap_chemistry.rdf",
-"download-page": "http://chemistry.apache.org/",
-"homepage": "http://chemistry.apache.org",
-"implements": [
-{
-"body": "OASIS",
-"id": "CMIS",
-"title": "OASIS Content Management Interoperability Services (CMIS)",
-"url": "http://www.oasis-open.org/committees/cmis"
-}
-],
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://mail-archives.apache.org/mod_mbox/chemistry-dev/",
-"maintainer": [
-{
-"mbox": "mailto:fmui@apache.org",
-"name": "Florian Müller"
-}
-],
-"name": "Apache Chemistry",
-"pmc": "attic",
-"programming-language": "Java, Python, PHP, C#, Objective-C",
-"release": [
-{
-"created": "2012-12-19",
-"name": "cmislib",
-"revision": "0.5.1"
-},
-{
-"created": "2015-04-13",
-"name": "DotCMIS",
-"revision": "0.7"
-},
-{
-"created": "2017-04-05",
-"name": "OpenCMIS",
-"revision": "1.1.0"
-},
-{
-"created": "2017-07-31",
-"name": "ObjectiveCMIS",
-"revision": "0.6"
-},
-{
-"created": "2017-07-25",
-"name": "PortCMIS",
-"revision": "0.3"
-}
-],
-"repository": [
-"https://svn.apache.org/repos/asf/chemistry/"
-],
-"shortdesc": "Apache Chemistry provides open source implementations of the Content Management Interoperability Services (CMIS) specification."
 },
 "clerezza": {
 "bug-database": "https://issues.apache.org/jira/browse/CLEREZZA",
@@ -14314,37 +14345,6 @@
 "https://git-wip-us.apache.org/repos/asf/reef.git"
 ],
 "shortdesc": "\n      Apache REEF (Retainable Evaluator Execution Framework) is \n      a scale-out computing fabric that eases the development of Big Data \n      applications on top of resource managers such as Apache YARN and Mesos.\n    "
-},
-"river": {
-"bug-database": "https://issues.apache.org/jira/browse/RIVER",
-"category": "javaee, retired",
-"created": "2012-04-14",
-"description": "Apache River software provides a JINI service, which is a service oriented architecture that defines a programming model which both exploits and extends Java technology to enable the construction of secure, distributed systems consisting of federations of services and clients. Jini technology can be used to build adaptive network systems that are scalable, evolvable and flexible as typically required in dynamic computing environments.",
-"doap": "http://svn.apache.org/repos/asf/river/doap_river.rdf",
-"download-page": "http://river.apache.org/downloads.html",
-"homepage": "http://river.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://river.apache.org/mailing-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:dev@river.apache.org",
-"name": "Apache River PMC"
-}
-],
-"name": "Apache River",
-"pmc": "attic",
-"programming-language": "Java",
-"release": [
-{
-"created": "2011-06-20",
-"name": "Apache River 2.2.0",
-"revision": "2.2.0"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/river"
-],
-"shortdesc": "Apache River software provides a standards-compilani JINI service."
 },
 "roller": {
 "bug-database": "https://issues.apache.org/jira/browse/ROL",
