@@ -217,8 +217,8 @@
 "apache-airflow-providers-docker-2.4.1": [
 "airflow/providers/apache-airflow-providers-docker-2.4.1.tar.gz"
 ],
-"apache-airflow-providers-elasticsearch-2.1.0": [
-"airflow/providers/apache-airflow-providers-elasticsearch-2.1.0.tar.gz"
+"apache-airflow-providers-elasticsearch-2.2.0": [
+"airflow/providers/apache-airflow-providers-elasticsearch-2.2.0.tar.gz"
 ],
 "apache-airflow-providers-exasol-2.1.0": [
 "airflow/providers/apache-airflow-providers-exasol-2.1.0.tar.gz"
@@ -232,8 +232,8 @@
 "apache-airflow-providers-github-1.0.0": [
 "airflow/providers/apache-airflow-providers-github-1.0.0.tar.gz"
 ],
-"apache-airflow-providers-google-6.3.0": [
-"airflow/providers/apache-airflow-providers-google-6.3.0.tar.gz"
+"apache-airflow-providers-google-6.4.0": [
+"airflow/providers/apache-airflow-providers-google-6.4.0.tar.gz"
 ],
 "apache-airflow-providers-grpc-2.0.1": [
 "airflow/providers/apache-airflow-providers-grpc-2.0.1.tar.gz"
@@ -289,8 +289,8 @@
 "apache-airflow-providers-opsgenie-3.0.0": [
 "airflow/providers/apache-airflow-providers-opsgenie-3.0.0.tar.gz"
 ],
-"apache-airflow-providers-oracle-2.1.0": [
-"airflow/providers/apache-airflow-providers-oracle-2.1.0.tar.gz"
+"apache-airflow-providers-oracle-2.2.0": [
+"airflow/providers/apache-airflow-providers-oracle-2.2.0.tar.gz"
 ],
 "apache-airflow-providers-pagerduty-2.1.0": [
 "airflow/providers/apache-airflow-providers-pagerduty-2.1.0.tar.gz"
@@ -3186,11 +3186,6 @@
 ]
 },
 "empire-db": {
-"apache-empire-db-2.5.0": [
-"empire-db/2.5.0/apache-empire-db-2.5.0-dist.tar.bz2",
-"empire-db/2.5.0/apache-empire-db-2.5.0-dist.tar.gz",
-"empire-db/2.5.0/apache-empire-db-2.5.0-dist.zip"
-],
 "apache-empire-db-2.5.1": [
 "empire-db/2.5.1/apache-empire-db-2.5.1-dist.tar.bz2",
 "empire-db/2.5.1/apache-empire-db-2.5.1-dist.tar.gz",
@@ -3681,17 +3676,11 @@
 "apache-flink-1.12.7": [
 "flink/flink-1.12.7/python/apache-flink-1.12.7.tar.gz"
 ],
-"apache-flink-1.13.5": [
-"flink/flink-1.13.5/python/apache-flink-1.13.5.tar.gz"
-],
 "apache-flink-1.13.6": [
 "flink/flink-1.13.6/python/apache-flink-1.13.6.tar.gz"
 ],
 "apache-flink-1.14.3": [
 "flink/flink-1.14.3/python/apache-flink-1.14.3.tar.gz"
-],
-"apache-flink-libraries-1.13.5": [
-"flink/flink-1.13.5/python/apache-flink-libraries-1.13.5.tar.gz"
 ],
 "apache-flink-libraries-1.13.6": [
 "flink/flink-1.13.6/python/apache-flink-libraries-1.13.6.tar.gz"
@@ -3716,9 +3705,6 @@
 ],
 "flink-1.12.7": [
 "flink/flink-1.12.7/flink-1.12.7-src.tgz"
-],
-"flink-1.13.5": [
-"flink/flink-1.13.5/flink-1.13.5-src.tgz"
 ],
 "flink-1.13.6": [
 "flink/flink-1.13.6/flink-1.13.6-src.tgz"
@@ -4554,8 +4540,8 @@
 ]
 },
 "incubator-inlong": {
-"apache-inlong-0.12.0-incubating": [
-"incubator/inlong/0.12.0-incubating/apache-inlong-0.12.0-incubating-src.tar.gz"
+"apache-inlong-1.0.0-incubating": [
+"incubator/inlong/1.0.0-incubating/apache-inlong-1.0.0-incubating-src.tar.gz"
 ]
 },
 "incubator-kyuubi": {
@@ -5849,6 +5835,11 @@
 "mina/mina/2.0.22/apache-mina-2.0.22-src.tar.bz2",
 "mina/mina/2.0.22/apache-mina-2.0.22-src.tar.gz",
 "mina/mina/2.0.22/apache-mina-2.0.22-src.zip"
+],
+"apache-mina-2.0.23": [
+"mina/mina/2.0.23/apache-mina-2.0.23-src.tar.bz2",
+"mina/mina/2.0.23/apache-mina-2.0.23-src.tar.gz",
+"mina/mina/2.0.23/apache-mina-2.0.23-src.zip"
 ],
 "apache-mina-2.1.3": [
 "mina/mina/2.1.3/apache-mina-2.1.3-src.tar.bz2",
@@ -10817,8 +10808,8 @@
 "org.apache.sling.scripting.thymeleaf-2.0.2": [
 "sling/org.apache.sling.scripting.thymeleaf-2.0.2-source-release.zip"
 ],
-"org.apache.sling.security-1.1.22": [
-"sling/org.apache.sling.security-1.1.22-source-release.zip"
+"org.apache.sling.security-1.1.24": [
+"sling/org.apache.sling.security-1.1.24-source-release.zip"
 ],
 "org.apache.sling.serviceuser.webconsole-1.0.2": [
 "sling/org.apache.sling.serviceuser.webconsole-1.0.2-source-release.zip"
@@ -11103,6 +11094,9 @@
 "SparkR_3.1.2": [
 "spark/spark-3.1.2/SparkR_3.1.2.tar.gz"
 ],
+"SparkR_3.1.3": [
+"spark/spark-3.1.3/SparkR_3.1.3.tar.gz"
+],
 "SparkR_3.2.1": [
 "spark/spark-3.2.1/SparkR_3.2.1.tar.gz"
 ],
@@ -11115,6 +11109,9 @@
 "pyspark-3.1.2": [
 "spark/spark-3.1.2/pyspark-3.1.2.tar.gz"
 ],
+"pyspark-3.1.3": [
+"spark/spark-3.1.3/pyspark-3.1.3.tar.gz"
+],
 "pyspark-3.2.1": [
 "spark/spark-3.2.1/pyspark-3.2.1.tar.gz"
 ],
@@ -11126,6 +11123,9 @@
 ],
 "spark-3.1.2": [
 "spark/spark-3.1.2/spark-3.1.2.tgz"
+],
+"spark-3.1.3": [
+"spark/spark-3.1.3/spark-3.1.3.tgz"
 ],
 "spark-3.2.1": [
 "spark/spark-3.2.1/spark-3.2.1.tgz"
@@ -12262,8 +12262,8 @@
 "wss4j-2.3.3": [
 "ws/wss4j/2.3.3/wss4j-2.3.3-source-release.zip"
 ],
-"wss4j-2.4.0": [
-"ws/wss4j/2.4.0/wss4j-2.4.0-source-release.zip"
+"wss4j-2.4.1": [
+"ws/wss4j/2.4.1/wss4j-2.4.1-source-release.zip"
 ],
 "xmlschema-2.2.5": [
 "ws/xmlschema/2.2.5/xmlschema-2.2.5-source-release.zip"
