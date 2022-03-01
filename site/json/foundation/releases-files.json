@@ -1349,6 +1349,18 @@
 "camel-k-client-1.8.0-windows": [
 "camel/camel-k/1.8.0/camel-k-client-1.8.0-windows-64bit.tar.gz"
 ],
+"camel-k-client-1.8.1-linux": [
+"camel/camel-k/1.8.1/camel-k-client-1.8.1-linux-64bit.tar.gz"
+],
+"camel-k-client-1.8.1-mac": [
+"camel/camel-k/1.8.1/camel-k-client-1.8.1-mac-64bit.tar.gz"
+],
+"camel-k-client-1.8.1-mac-arm64bit": [
+"camel/camel-k/1.8.1/camel-k-client-1.8.1-mac-arm64bit.tar.gz"
+],
+"camel-k-client-1.8.1-windows": [
+"camel/camel-k/1.8.1/camel-k-client-1.8.1-windows-64bit.tar.gz"
+],
 "camel-k-examples-1.2.1": [
 "camel/camel-k/1.2.1/camel-k-examples-1.2.1.tar.gz"
 ],
@@ -1385,8 +1397,14 @@
 "camel-k-examples-1.8.0": [
 "camel/camel-k/1.8.0/camel-k-examples-1.8.0.tar.gz"
 ],
+"camel-k-examples-1.8.1": [
+"camel/camel-k/1.8.1/camel-k-examples-1.8.1.tar.gz"
+],
 "camel-k-runtime-1.11.0": [
 "camel/camel-k-runtime/1.11.0/camel-k-runtime-project-1.11.0-source-release.zip"
+],
+"camel-k-runtime-1.12.0": [
+"camel/camel-k-runtime/1.12.0/camel-k-runtime-project-1.12.0-source-release.zip"
 ],
 "camel-k-sources-1.2.1": [
 "camel/camel-k/1.2.1/camel-k-sources-1.2.1.tar.gz"
@@ -1453,6 +1471,9 @@
 ],
 "camel-kamelets-0.7.0": [
 "camel/camel-kamelets/0.7.0/camel-kamelets-0.7.0.tar.gz"
+],
+"camel-kamelets-0.7.1": [
+"camel/camel-kamelets/0.7.1/camel-kamelets-0.7.1.tar.gz"
 ],
 "camel-kamelets-sources-0.3.0": [
 "camel/camel-kamelets/0.3.0/camel-kamelets-sources-0.3.0.tar.gz"
@@ -4765,8 +4786,8 @@
 "isis-1.17.0": [
 "isis/isis-core/isis-1.17.0-source-release.zip"
 ],
-"isis-2.0.0-M6": [
-"isis/isis-parent/isis-parent-2.0.0-M6-source-release.zip"
+"isis-2.0.0-M7": [
+"isis/isis-parent/isis-parent-2.0.0-M7-source-release.zip"
 ]
 },
 "jackrabbit": {
@@ -5781,54 +5802,15 @@
 ]
 },
 "mina": {
-"apache-ftpserver-1.1.1": [
-"mina/ftpserver/1.1.1/dist/apache-ftpserver-1.1.1.tar.bz2",
-"mina/ftpserver/1.1.1/dist/apache-ftpserver-1.1.1.tar.gz",
-"mina/ftpserver/1.1.1/dist/apache-ftpserver-1.1.1.zip",
-"mina/ftpserver/1.1.1/apache-ftpserver-1.1.1-source-release.zip",
-"mina/ftpserver/1.1.1/apache-ftpserver-1.1.1-src.tar.bz2",
-"mina/ftpserver/1.1.1/apache-ftpserver-1.1.1-src.tar.gz",
-"mina/ftpserver/1.1.1/apache-ftpserver-1.1.1-src.zip"
-],
-"apache-ftpserver-1.1.2": [
-"mina/ftpserver/1.1.2/apache-ftpserver-1.1.2-src.tar.bz2",
-"mina/ftpserver/1.1.2/apache-ftpserver-1.1.2-src.tar.gz",
-"mina/ftpserver/1.1.2/apache-ftpserver-1.1.2-src.zip"
-],
 "apache-ftpserver-1.1.3": [
 "mina/ftpserver/1.1.3/apache-ftpserver-1.1.3-src.tar.bz2",
 "mina/ftpserver/1.1.3/apache-ftpserver-1.1.3-src.tar.gz",
 "mina/ftpserver/1.1.3/apache-ftpserver-1.1.3-src.zip"
 ],
-"apache-mina-2.0.21": [
-"mina/mina/2.0.21/apache-mina-2.0.21-src.tar.bz2",
-"mina/mina/2.0.21/apache-mina-2.0.21-src.tar.gz",
-"mina/mina/2.0.21/apache-mina-2.0.21-src.zip"
-],
-"apache-mina-2.0.22": [
-"mina/mina/2.0.22/apache-mina-2.0.22-src.tar.bz2",
-"mina/mina/2.0.22/apache-mina-2.0.22-src.tar.gz",
-"mina/mina/2.0.22/apache-mina-2.0.22-src.zip"
-],
 "apache-mina-2.0.23": [
 "mina/mina/2.0.23/apache-mina-2.0.23-src.tar.bz2",
 "mina/mina/2.0.23/apache-mina-2.0.23-src.tar.gz",
 "mina/mina/2.0.23/apache-mina-2.0.23-src.zip"
-],
-"apache-mina-2.1.3": [
-"mina/mina/2.1.3/apache-mina-2.1.3-src.tar.bz2",
-"mina/mina/2.1.3/apache-mina-2.1.3-src.tar.gz",
-"mina/mina/2.1.3/apache-mina-2.1.3-src.zip"
-],
-"apache-mina-2.1.4": [
-"mina/mina/2.1.4/apache-mina-2.1.4-src.tar.bz2",
-"mina/mina/2.1.4/apache-mina-2.1.4-src.tar.gz",
-"mina/mina/2.1.4/apache-mina-2.1.4-src.zip"
-],
-"apache-mina-2.1.5": [
-"mina/mina/2.1.5/apache-mina-2.1.5-src.tar.bz2",
-"mina/mina/2.1.5/apache-mina-2.1.5-src.tar.gz",
-"mina/mina/2.1.5/apache-mina-2.1.5-src.zip"
 ],
 "apache-mina-2.1.6": [
 "mina/mina/2.1.6/apache-mina-2.1.6-src.tar.bz2",
@@ -11657,6 +11639,19 @@
 "tomcat/tomcat-10/v10.0.16/src/apache-tomcat-10.0.16-src.tar.gz",
 "tomcat/tomcat-10/v10.0.16/src/apache-tomcat-10.0.16-src.zip"
 ],
+"apache-tomcat-10.0.17": [
+"tomcat/tomcat-10/v10.0.17/bin/embed/apache-tomcat-10.0.17-embed.tar.gz",
+"tomcat/tomcat-10/v10.0.17/bin/embed/apache-tomcat-10.0.17-embed.zip",
+"tomcat/tomcat-10/v10.0.17/bin/apache-tomcat-10.0.17-deployer.tar.gz",
+"tomcat/tomcat-10/v10.0.17/bin/apache-tomcat-10.0.17-deployer.zip",
+"tomcat/tomcat-10/v10.0.17/bin/apache-tomcat-10.0.17-fulldocs.tar.gz",
+"tomcat/tomcat-10/v10.0.17/bin/apache-tomcat-10.0.17-windows-x64.zip",
+"tomcat/tomcat-10/v10.0.17/bin/apache-tomcat-10.0.17.exe",
+"tomcat/tomcat-10/v10.0.17/bin/apache-tomcat-10.0.17.tar.gz",
+"tomcat/tomcat-10/v10.0.17/bin/apache-tomcat-10.0.17.zip",
+"tomcat/tomcat-10/v10.0.17/src/apache-tomcat-10.0.17-src.tar.gz",
+"tomcat/tomcat-10/v10.0.17/src/apache-tomcat-10.0.17-src.zip"
+],
 "apache-tomcat-10.1.0-M10": [
 "tomcat/tomcat-10/v10.1.0-M10/bin/embed/apache-tomcat-10.1.0-M10-embed.tar.gz",
 "tomcat/tomcat-10/v10.1.0-M10/bin/embed/apache-tomcat-10.1.0-M10-embed.zip",
@@ -11670,18 +11665,31 @@
 "tomcat/tomcat-10/v10.1.0-M10/src/apache-tomcat-10.1.0-M10-src.tar.gz",
 "tomcat/tomcat-10/v10.1.0-M10/src/apache-tomcat-10.1.0-M10-src.zip"
 ],
-"apache-tomcat-8.5.75": [
-"tomcat/tomcat-8/v8.5.75/bin/embed/apache-tomcat-8.5.75-embed.tar.gz",
-"tomcat/tomcat-8/v8.5.75/bin/embed/apache-tomcat-8.5.75-embed.zip",
-"tomcat/tomcat-8/v8.5.75/bin/apache-tomcat-8.5.75-deployer.tar.gz",
-"tomcat/tomcat-8/v8.5.75/bin/apache-tomcat-8.5.75-deployer.zip",
-"tomcat/tomcat-8/v8.5.75/bin/apache-tomcat-8.5.75-fulldocs.tar.gz",
-"tomcat/tomcat-8/v8.5.75/bin/apache-tomcat-8.5.75-windows-x64.zip",
-"tomcat/tomcat-8/v8.5.75/bin/apache-tomcat-8.5.75.exe",
-"tomcat/tomcat-8/v8.5.75/bin/apache-tomcat-8.5.75.tar.gz",
-"tomcat/tomcat-8/v8.5.75/bin/apache-tomcat-8.5.75.zip",
-"tomcat/tomcat-8/v8.5.75/src/apache-tomcat-8.5.75-src.tar.gz",
-"tomcat/tomcat-8/v8.5.75/src/apache-tomcat-8.5.75-src.zip"
+"apache-tomcat-10.1.0-M11": [
+"tomcat/tomcat-10/v10.1.0-M11/bin/embed/apache-tomcat-10.1.0-M11-embed.tar.gz",
+"tomcat/tomcat-10/v10.1.0-M11/bin/embed/apache-tomcat-10.1.0-M11-embed.zip",
+"tomcat/tomcat-10/v10.1.0-M11/bin/apache-tomcat-10.1.0-M11-deployer.tar.gz",
+"tomcat/tomcat-10/v10.1.0-M11/bin/apache-tomcat-10.1.0-M11-deployer.zip",
+"tomcat/tomcat-10/v10.1.0-M11/bin/apache-tomcat-10.1.0-M11-fulldocs.tar.gz",
+"tomcat/tomcat-10/v10.1.0-M11/bin/apache-tomcat-10.1.0-M11-windows-x64.zip",
+"tomcat/tomcat-10/v10.1.0-M11/bin/apache-tomcat-10.1.0-M11.exe",
+"tomcat/tomcat-10/v10.1.0-M11/bin/apache-tomcat-10.1.0-M11.tar.gz",
+"tomcat/tomcat-10/v10.1.0-M11/bin/apache-tomcat-10.1.0-M11.zip",
+"tomcat/tomcat-10/v10.1.0-M11/src/apache-tomcat-10.1.0-M11-src.tar.gz",
+"tomcat/tomcat-10/v10.1.0-M11/src/apache-tomcat-10.1.0-M11-src.zip"
+],
+"apache-tomcat-8.5.76": [
+"tomcat/tomcat-8/v8.5.76/bin/embed/apache-tomcat-8.5.76-embed.tar.gz",
+"tomcat/tomcat-8/v8.5.76/bin/embed/apache-tomcat-8.5.76-embed.zip",
+"tomcat/tomcat-8/v8.5.76/bin/apache-tomcat-8.5.76-deployer.tar.gz",
+"tomcat/tomcat-8/v8.5.76/bin/apache-tomcat-8.5.76-deployer.zip",
+"tomcat/tomcat-8/v8.5.76/bin/apache-tomcat-8.5.76-fulldocs.tar.gz",
+"tomcat/tomcat-8/v8.5.76/bin/apache-tomcat-8.5.76-windows-x64.zip",
+"tomcat/tomcat-8/v8.5.76/bin/apache-tomcat-8.5.76.exe",
+"tomcat/tomcat-8/v8.5.76/bin/apache-tomcat-8.5.76.tar.gz",
+"tomcat/tomcat-8/v8.5.76/bin/apache-tomcat-8.5.76.zip",
+"tomcat/tomcat-8/v8.5.76/src/apache-tomcat-8.5.76-src.tar.gz",
+"tomcat/tomcat-8/v8.5.76/src/apache-tomcat-8.5.76-src.zip"
 ],
 "apache-tomcat-9.0.58": [
 "tomcat/tomcat-9/v9.0.58/bin/embed/apache-tomcat-9.0.58-embed.tar.gz",
@@ -11695,6 +11703,19 @@
 "tomcat/tomcat-9/v9.0.58/bin/apache-tomcat-9.0.58.zip",
 "tomcat/tomcat-9/v9.0.58/src/apache-tomcat-9.0.58-src.tar.gz",
 "tomcat/tomcat-9/v9.0.58/src/apache-tomcat-9.0.58-src.zip"
+],
+"apache-tomcat-9.0.59": [
+"tomcat/tomcat-9/v9.0.59/bin/embed/apache-tomcat-9.0.59-embed.tar.gz",
+"tomcat/tomcat-9/v9.0.59/bin/embed/apache-tomcat-9.0.59-embed.zip",
+"tomcat/tomcat-9/v9.0.59/bin/apache-tomcat-9.0.59-deployer.tar.gz",
+"tomcat/tomcat-9/v9.0.59/bin/apache-tomcat-9.0.59-deployer.zip",
+"tomcat/tomcat-9/v9.0.59/bin/apache-tomcat-9.0.59-fulldocs.tar.gz",
+"tomcat/tomcat-9/v9.0.59/bin/apache-tomcat-9.0.59-windows-x64.zip",
+"tomcat/tomcat-9/v9.0.59/bin/apache-tomcat-9.0.59.exe",
+"tomcat/tomcat-9/v9.0.59/bin/apache-tomcat-9.0.59.tar.gz",
+"tomcat/tomcat-9/v9.0.59/bin/apache-tomcat-9.0.59.zip",
+"tomcat/tomcat-9/v9.0.59/src/apache-tomcat-9.0.59-src.tar.gz",
+"tomcat/tomcat-9/v9.0.59/src/apache-tomcat-9.0.59-src.zip"
 ],
 "jakartaee-migration-1.0.0": [
 "tomcat/jakartaee-migration/v1.0.0/source/jakartaee-migration-1.0.0-src.tar.gz",
@@ -12157,6 +12178,9 @@
 "unomi-1.5.7": [
 "unomi/1.5.7/unomi-1.5.7-src.zip"
 ],
+"unomi-1.6.0": [
+"unomi/1.6.0/unomi-1.6.0-src.zip"
+],
 "unomi-manual-1_5_x": [
 "unomi/1.5.4/unomi-manual-1_5_x.zip",
 "unomi/1.5.5/unomi-manual-1_5_x.zip",
@@ -12376,6 +12400,9 @@
 "zeppelin": {
 "zeppelin-0.10.0": [
 "zeppelin/zeppelin-0.10.0/zeppelin-0.10.0.tgz"
+],
+"zeppelin-0.10.1": [
+"zeppelin/zeppelin-0.10.1/zeppelin-0.10.1.tgz"
 ],
 "zeppelin-0.8.2": [
 "zeppelin/zeppelin-0.8.2/zeppelin-0.8.2.tgz"

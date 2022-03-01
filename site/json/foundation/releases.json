@@ -457,6 +457,10 @@
 "camel-k-client-1.8.0-mac": "2022-01-19",
 "camel-k-client-1.8.0-mac-arm64bit": "2022-01-19",
 "camel-k-client-1.8.0-windows": "2022-01-19",
+"camel-k-client-1.8.1-linux": "2022-02-21",
+"camel-k-client-1.8.1-mac": "2022-02-21",
+"camel-k-client-1.8.1-mac-arm64bit": "2022-02-21",
+"camel-k-client-1.8.1-windows": "2022-02-21",
 "camel-k-examples-1.2.1": "2020-11-27",
 "camel-k-examples-1.3.0": "2020-12-29",
 "camel-k-examples-1.3.1": "2021-02-04",
@@ -469,7 +473,9 @@
 "camel-k-examples-1.6.1": "2021-10-27",
 "camel-k-examples-1.7.0": "2021-11-15",
 "camel-k-examples-1.8.0": "2022-01-19",
+"camel-k-examples-1.8.1": "2022-02-21",
 "camel-k-runtime-1.11.0": "2022-01-18",
+"camel-k-runtime-1.12.0": "2022-02-21",
 "camel-k-sources-1.2.1": "2020-11-27",
 "camel-k-sources-1.3.0": "2020-12-29",
 "camel-k-sources-1.3.1": "2021-02-04",
@@ -492,6 +498,7 @@
 "camel-kafka-connector-0.9.0": "2021-04-02",
 "camel-kafka-connector-1.0.0": "2022-01-24",
 "camel-kamelets-0.7.0": "2022-01-18",
+"camel-kamelets-0.7.1": "2022-02-21",
 "camel-kamelets-sources-0.3.0": "2021-07-09",
 "camel-kamelets-sources-0.4.0": "2021-09-07",
 "camel-kamelets-sources-0.5.0": "2021-11-15",
@@ -1556,7 +1563,7 @@
 },
 "isis": {
 "isis-1.17.0": "2020-07-06",
-"isis-2.0.0-M6": "2021-08-25"
+"isis-2.0.0-M7": "2022-02-28"
 },
 "jackrabbit": {
 "create-download-md.sh": "2020-07-03",
@@ -1876,15 +1883,8 @@
 "mesos-1.9.0": "2020-07-03"
 },
 "mina": {
-"apache-ftpserver-1.1.1": "2020-07-03",
-"apache-ftpserver-1.1.2": "2022-01-03",
 "apache-ftpserver-1.1.3": "2022-02-25",
-"apache-mina-2.0.21": "2020-07-03",
-"apache-mina-2.0.22": "2021-10-24",
 "apache-mina-2.0.23": "2022-02-18",
-"apache-mina-2.1.3": "2020-07-03",
-"apache-mina-2.1.4": "2020-08-24",
-"apache-mina-2.1.5": "2021-10-24",
 "apache-mina-2.1.6": "2022-02-11",
 "apache-mina-3.0.0-M2": "2020-07-03",
 "apache-sshd-1.7.0": "2020-07-03",
@@ -3848,9 +3848,12 @@
 },
 "tomcat": {
 "apache-tomcat-10.0.16": "2022-01-15",
+"apache-tomcat-10.0.17": "2022-02-21",
 "apache-tomcat-10.1.0-M10": "2022-01-15",
-"apache-tomcat-8.5.75": "2022-01-17",
+"apache-tomcat-10.1.0-M11": "2022-02-21",
+"apache-tomcat-8.5.76": "2022-02-23",
 "apache-tomcat-9.0.58": "2022-01-15",
+"apache-tomcat-9.0.59": "2022-02-21",
 "jakartaee-migration-1.0.0": "2021-05-04",
 "taglibs-standard-1.2.5": "2020-07-03",
 "tomcat-connectors-1.2.48": "2020-07-03",
@@ -3989,6 +3992,7 @@
 "unomi-1.5.5": "2021-04-24",
 "unomi-1.5.6": "2021-05-05",
 "unomi-1.5.7": "2021-07-23",
+"unomi-1.6.0": "2022-02-22",
 "unomi-manual-1_5_x": "2020-11-24"
 },
 "vcl": {
@@ -4057,6 +4061,7 @@
 },
 "zeppelin": {
 "zeppelin-0.10.0": "2021-08-17",
+"zeppelin-0.10.1": "2022-02-24",
 "zeppelin-0.8.2": "2020-07-03",
 "zeppelin-0.9.0": "2020-12-20",
 "zeppelin-0.9.0-preview1": "2020-07-03",
