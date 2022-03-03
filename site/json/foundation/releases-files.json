@@ -1448,6 +1448,9 @@
 "camel-kafka-connector-0.11.0": [
 "camel/camel-kafka-connector/0.11.0/camel-kafka-connector-0.11.0-src.zip"
 ],
+"camel-kafka-connector-0.11.5": [
+"camel/camel-kafka-connector/0.11.5/camel-kafka-connector-0.11.5-src.zip"
+],
 "camel-kafka-connector-0.7.0": [
 "camel/camel-kafka-connector/0.7.0/camel-kafka-connector-0.7.0-src.zip"
 ],
@@ -4060,11 +4063,13 @@
 "hadoop/common/hadoop-3.2.2/RELEASENOTES.md",
 "hadoop/common/hadoop-3.3.0/RELEASENOTES.md",
 "hadoop/common/hadoop-3.3.1/RELEASENOTES.md",
+"hadoop/common/hadoop-3.3.2/RELEASENOTES.md",
 "hadoop/core/current2/RELEASENOTES.md",
 "hadoop/core/hadoop-2.10.1/RELEASENOTES.md",
 "hadoop/core/hadoop-3.2.2/RELEASENOTES.md",
 "hadoop/core/hadoop-3.3.0/RELEASENOTES.md",
 "hadoop/core/hadoop-3.3.1/RELEASENOTES.md",
+"hadoop/core/hadoop-3.3.2/RELEASENOTES.md",
 "hadoop/thirdparty/thirdparty-1.0.0/RELEASENOTES.md",
 "hadoop/thirdparty/thirdparty-1.1.0/RELEASENOTES.md",
 "hadoop/thirdparty/thirdparty-1.1.1/RELEASENOTES.md"
@@ -4114,6 +4119,14 @@
 "hadoop-3.3.1-aarch64": [
 "hadoop/common/hadoop-3.3.1/hadoop-3.3.1-aarch64.tar.gz",
 "hadoop/core/hadoop-3.3.1/hadoop-3.3.1-aarch64.tar.gz"
+],
+"hadoop-3.3.2": [
+"hadoop/common/hadoop-3.3.2/hadoop-3.3.2-site.tar.gz",
+"hadoop/common/hadoop-3.3.2/hadoop-3.3.2-src.tar.gz",
+"hadoop/common/hadoop-3.3.2/hadoop-3.3.2.tar.gz",
+"hadoop/core/hadoop-3.3.2/hadoop-3.3.2-site.tar.gz",
+"hadoop/core/hadoop-3.3.2/hadoop-3.3.2-src.tar.gz",
+"hadoop/core/hadoop-3.3.2/hadoop-3.3.2.tar.gz"
 ],
 "hadoop-ozone-0.2.1-alpha": [
 "hadoop/ozone/ozone-0.2.1-alpha/hadoop-ozone-0.2.1-alpha-src.tar.gz",
@@ -4844,6 +4857,9 @@
 "jackrabbit-filevault-3.5.8": [
 "jackrabbit/filevault/3.5.8/jackrabbit-filevault-3.5.8-src.zip"
 ],
+"jackrabbit-filevault-3.6.0": [
+"jackrabbit/filevault/3.6.0/jackrabbit-filevault-3.6.0-src.zip"
+],
 "jackrabbit-jca-2.14.10": [
 "jackrabbit/2.14.10/jackrabbit-jca-2.14.10.rar"
 ],
@@ -4909,6 +4925,9 @@
 "james-3.6.2": [
 "james/server/3.6.2/james-project-3.6.2-source-release.zip"
 ],
+"james-3.7.0": [
+"james/server/3.7.0/james-project-3.7.0-source-release.zip"
+],
 "james-mime4j-sources-0.8.5": [
 "james/mime4j/0.8.5/james-mime4j-sources-0.8.5.zip"
 ],
@@ -4921,16 +4940,22 @@
 "james-server-app-3.6.2": [
 "james/server/3.6.2/james-server-app-3.6.2-app.zip"
 ],
+"james-server-app-3.7.0": [
+"james/server/3.7.0/james-server-app-3.7.0-app.zip"
+],
 "james-server-cassandra-guice": [
-"james/server/3.6.2/james-server-cassandra-guice.zip"
+"james/server/3.6.2/james-server-cassandra-guice.zip",
+"james/server/3.7.0/james-server-cassandra-guice.zip"
 ],
 "james-server-distributed-guice": [
 "james/server/3.6.1/james-server-distributed-guice.zip",
-"james/server/3.6.2/james-server-distributed-guice.zip"
+"james/server/3.6.2/james-server-distributed-guice.zip",
+"james/server/3.7.0/james-server-distributed-guice.zip"
 ],
 "james-server-jpa-guice": [
 "james/server/3.6.1/james-server-jpa-guice.zip",
-"james/server/3.6.2/james-server-jpa-guice.zip"
+"james/server/3.6.2/james-server-jpa-guice.zip",
+"james/server/3.7.0/james-server-jpa-guice.zip"
 ]
 },
 "jclouds": {
