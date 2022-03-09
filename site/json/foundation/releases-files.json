@@ -719,6 +719,9 @@
 "apache-arrow-julia-2.2.1": [
 "arrow/arrow-julia-2.2.1/apache-arrow-julia-2.2.1.tar.gz"
 ],
+"apache-arrow-rs-10.0.0": [
+"arrow/arrow-rs-10.0.0/apache-arrow-rs-10.0.0.tar.gz"
+],
 "apache-arrow-rs-4.2.0": [
 "arrow/arrow-rs-4.2.0/apache-arrow-rs-4.2.0.tar.gz"
 ],
@@ -1178,8 +1181,8 @@
 "apache-camel-3.13.0": [
 "camel/apache-camel/3.13.0/apache-camel-3.13.0-src.zip"
 ],
-"apache-camel-3.14.1": [
-"camel/apache-camel/3.14.1/apache-camel-3.14.1-src.zip"
+"apache-camel-3.14.2": [
+"camel/apache-camel/3.14.2/apache-camel-3.14.2-src.zip"
 ],
 "apache-camel-3.15.0": [
 "camel/apache-camel/3.15.0/apache-camel-3.15.0-src.zip"
@@ -3894,14 +3897,14 @@
 "geronimo-atinject_1.0_spec-1.2": [
 "geronimo/specs/geronimo-atinject_1.0_spec-1.2-source-release.zip"
 ],
-"geronimo-config-1.2.2": [
-"geronimo/config/geronimo-config-1.2.2-source-release.zip"
+"geronimo-config-1.2.3": [
+"geronimo/config/geronimo-config-1.2.3-source-release.zip"
 ],
 "geronimo-el_2.2_spec-1.1": [
 "geronimo/specs/geronimo-el_2.2_spec-1.1-source-release.zip"
 ],
-"geronimo-health-2.0.0": [
-"geronimo/health/geronimo-health-parent-2.0.0-source-release.zip"
+"geronimo-health-2.0.1": [
+"geronimo/health/geronimo-health-parent-2.0.1-source-release.zip"
 ],
 "geronimo-interceptor_1.2_spec-1.2": [
 "geronimo/specs/geronimo-interceptor_1.2_spec-1.2-source-release.zip"
@@ -3936,20 +3939,23 @@
 "geronimo-jwt-auth-1.0.4": [
 "geronimo/jwt-auth/geronimo-jwt-auth-1.0.4-source-release.zip"
 ],
-"geronimo-metrics-1.0.5": [
-"geronimo/metrics/geronimo-metrics-parent-1.0.5-source-release.zip"
+"geronimo-metrics-1.0.6": [
+"geronimo/metrics/geronimo-metrics-parent-1.0.6-source-release.zip"
 ],
 "geronimo-microprofile-1.0.2": [
 "geronimo/microprofile-aggregator/geronimo-microprofile-1.0.2-source-release.zip"
 ],
-"geronimo-openapi-1.0.14": [
-"geronimo/openapi/geronimo-openapi-1.0.14-source-release.zip"
+"geronimo-openapi-1.0.15": [
+"geronimo/openapi/geronimo-openapi-1.0.15-source-release.zip"
 ],
-"geronimo-opentracing-1.0.2": [
-"geronimo/opentracing/geronimo-opentracing-parent-1.0.2-source-release.zip"
+"geronimo-opentracing-1.0.3": [
+"geronimo/opentracing/geronimo-opentracing-parent-1.0.3-source-release.zip"
 ],
 "geronimo-security_1.0_spec-1.0": [
 "geronimo/specs/geronimo-security_1.0_spec-1.0-source-release.zip"
+],
+"geronimo-txmanager-3.1.5": [
+"geronimo/transaction-manager/geronimo-txmanager-parent-3.1.5-source-release.zip"
 ],
 "geronimo-validation_2.0_spec-1.0": [
 "geronimo/specs/validation/geronimo-validation_2.0_spec-1.0-source-release.zip"
@@ -4023,29 +4029,20 @@
 "apache-groovy-2.4.21": [
 "groovy/2.4.21/sources/apache-groovy-src-2.4.21.zip"
 ],
-"apache-groovy-2.5.15": [
-"groovy/2.5.15/sources/apache-groovy-src-2.5.15.zip"
-],
 "apache-groovy-2.5.16": [
 "groovy/2.5.16/sources/apache-groovy-src-2.5.16.zip"
 ],
 "apache-groovy-3.0.10": [
 "groovy/3.0.10/sources/apache-groovy-src-3.0.10.zip"
 ],
-"apache-groovy-3.0.9": [
-"groovy/3.0.9/sources/apache-groovy-src-3.0.9.zip"
-],
-"apache-groovy-4.0.0": [
-"groovy/4.0.0/sources/apache-groovy-src-4.0.0.zip"
-],
 "apache-groovy-4.0.0-rc-2": [
 "groovy/4.0.0-rc-2/sources/apache-groovy-src-4.0.0-rc-2.zip"
 ],
+"apache-groovy-4.0.1": [
+"groovy/4.0.1/sources/apache-groovy-src-4.0.1.zip"
+],
 "apache-groovy-sdk-2.4.21": [
 "groovy/2.4.21/distribution/apache-groovy-sdk-2.4.21.zip"
-],
-"apache-groovy-sdk-2.5.15": [
-"groovy/2.5.15/distribution/apache-groovy-sdk-2.5.15.zip"
 ],
 "apache-groovy-sdk-2.5.16": [
 "groovy/2.5.16/distribution/apache-groovy-sdk-2.5.16.zip"
@@ -4053,14 +4050,11 @@
 "apache-groovy-sdk-3.0.10": [
 "groovy/3.0.10/distribution/apache-groovy-sdk-3.0.10.zip"
 ],
-"apache-groovy-sdk-3.0.9": [
-"groovy/3.0.9/distribution/apache-groovy-sdk-3.0.9.zip"
-],
-"apache-groovy-sdk-4.0.0": [
-"groovy/4.0.0/distribution/apache-groovy-sdk-4.0.0.zip"
-],
 "apache-groovy-sdk-4.0.0-rc-2": [
 "groovy/4.0.0-rc-2/distribution/apache-groovy-sdk-4.0.0-rc-2.zip"
+],
+"apache-groovy-sdk-4.0.1": [
+"groovy/4.0.1/distribution/apache-groovy-sdk-4.0.1.zip"
 ]
 },
 "guacamole": {
@@ -4856,17 +4850,14 @@
 "apache-iotdb-0.11.4": [
 "iotdb/0.11.4/apache-iotdb-0.11.4-source-release.zip"
 ],
-"apache-iotdb-0.12.1": [
-"iotdb/0.12.1/apache-iotdb-0.12.1-source-release.zip"
-],
-"apache-iotdb-0.12.2": [
-"iotdb/0.12.2/apache-iotdb-0.12.2-source-release.zip"
-],
 "apache-iotdb-0.12.3": [
 "iotdb/0.12.3/apache-iotdb-0.12.3-source-release.zip"
 ],
 "apache-iotdb-0.12.4": [
 "iotdb/0.12.4/apache-iotdb-0.12.4-source-release.zip"
+],
+"apache-iotdb-0.12.5": [
+"iotdb/0.12.5/apache-iotdb-0.12.5-source-release.zip"
 ]
 },
 "isis": {
@@ -5479,6 +5470,9 @@
 "madlib": {
 "apache-madlib-1.18.0": [
 "madlib/1.18.0/apache-madlib-1.18.0-src.tar.gz"
+],
+"apache-madlib-1.19.0": [
+"madlib/1.19.0/apache-madlib-1.19.0-src.tar.gz"
 ]
 },
 "mahout": {
