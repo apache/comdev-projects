@@ -7676,12 +7676,12 @@
 "bug-database": "https://issues.apache.org/jira/browse/EMPIREDB",
 "category": "database",
 "created": "2011-01-16",
-"description": "Apache Empire-db is a relational database abstraction layer that allows developers to take a much more SQL-centric approach in application development than traditional Object/Relational mapping frameworks (ORM). With its unique object orientated command API it allows the creation of SQL-statements of any complexity that take full advantage of all DBMS features which leads to highly efficient database operations and code. Additionally by eliminating the use of error-prone string operations it also offers an unprecedented level of ease-of-use and compile-time-safety.",
+"description": "\n\tApache Empire-db is intended for developers who strive to have full SQL freedom when \n\tformulating queries and DML-Statements - without ever having to use string literals -\n\tand who also want to be able to control when and how statements are executed. \n\n\tUnlike other approaches Empire-db does not rely on Java Annotations or Mapping-files\n\tfor building queries but rather uses a Java Object model that is easy to access and\n\textend. For Data Access and Data Interchange developers can choose between traditional \n\tJava Beans and a more sophisticated dynamic interface provided by Record and DataListEntriy classes.\n\n\tEmpire-db is DBMS vendor independent and provides handlers for Oracle, Microsoft SQLServer, \n\tPostgreSQL, MySQL, HsqlDB, Derby, H2 and more.\t\n\t",
 "doap": "http://empire-db.apache.org/doap_Empire-db.rdf",
-"download-page": "https://empire-db.apache.org/downloads/latest.htm",
+"download-page": "https://empire-db.apache.org/pages/download.html",
 "homepage": "https://empire-db.apache.org",
 "license": "https://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "https://empire-db.apache.org/community/mailing_lists.htm",
+"mailing-list": "https://empire-db.apache.org/pages/community.html",
 "maintainer": [
 {
 "mbox": "mailto:doebele@apache.org",
@@ -7693,12 +7693,12 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2020-05-12",
-"name": "apache-empire-db-2.5.0",
-"revision": "2.5.0"
+"created": "2022-03-11",
+"name": "apache-empire-db-3.0.0",
+"revision": "3.0.0"
 }
 ],
-"shortdesc": "Apache Empire-db is a lightweight relational database abstraction layer and data persistence component"
+"shortdesc": "\n\tApache Empire-db is a lightweight data persistence library that provides an alternative approach for \n\trelational database access compared to Object-Relational-Mapping (ORM) as offered by JDO and JPA\n\t"
 },
 "felix": {
 "bug-database": "https://issues.apache.org/jira/browse/FELIX",
@@ -8091,6 +8091,85 @@
 "https://gitbox.apache.org/repos/asf/groovy.git"
 ],
 "shortdesc": "A multi-faceted language for the Java platform"
+},
+"guacamole": {
+"bug-database": "https://issues.apache.org/jira/browse/GUACAMOLE",
+"category": "network-client, network-server",
+"created": "2017-11-15",
+"description": "Apache Guacamole is a clientless remote desktop gateway\n            which supports standard protocols like VNC, RDP, and SSH. We call\n            it \"clientless\" because no plugins or client software are required.\n            Once Guacamole is installed on a server, all you need to access\n            your desktops is a web browser.",
+"doap": "http://guacamole.apache.org/doap.rdf",
+"download-page": "http://guacamole.apache.org/releases/",
+"homepage": "http://guacamole.apache.org",
+"license": "http://www.apache.org/licenses/LICENSE-2.0",
+"mailing-list": "http://guacamole.apache.org/support/#mailing-lists",
+"maintainer": [
+{
+"mbox": "mailto:dev@guacamole.apache.org",
+"name": "Apache Guacamole Community"
+}
+],
+"name": "Apache Guacamole",
+"pmc": "guacamole",
+"programming-language": "C, Java, JavaScript",
+"release": [
+{
+"created": "2022-01-01",
+"name": "Apache Guacamole",
+"revision": "1.4.0"
+},
+{
+"created": "2021-01-01",
+"name": "Apache Guacamole",
+"revision": "1.3.0"
+},
+{
+"created": "2020-06-28",
+"name": "Apache Guacamole",
+"revision": "1.2.0"
+},
+{
+"created": "2020-01-29",
+"name": "Apache Guacamole",
+"revision": "1.1.0"
+},
+{
+"created": "2019-01-08",
+"name": "Apache Guacamole",
+"revision": "1.0.0"
+},
+{
+"created": "2018-01-18",
+"name": "Apache Guacamole",
+"revision": "0.9.14"
+},
+{
+"created": "2017-07-30",
+"name": "Apache Guacamole",
+"revision": "0.9.13-incubating"
+},
+{
+"created": "2017-04-01",
+"name": "Apache Guacamole",
+"revision": "0.9.12-incubating"
+},
+{
+"created": "2017-02-02",
+"name": "Apache Guacamole",
+"revision": "0.9.11-incubating"
+},
+{
+"created": "2016-12-29",
+"name": "Apache Guacamole",
+"revision": "0.9.10-incubating"
+}
+],
+"repository": [
+"https://git-wip-us.apache.org/repos/asf/incubator-guacamole-client.git",
+"https://git-wip-us.apache.org/repos/asf/incubator-guacamole-manual.git",
+"https://git-wip-us.apache.org/repos/asf/incubator-guacamole-server.git",
+"https://git-wip-us.apache.org/repos/asf/incubator-guacamole-website.git"
+],
+"shortdesc": "Clientless remote desktop gateway."
 },
 "gump": {
 "bug-database": "http://issues.apache.org/jira/secure/BrowseProject.jspa?id=10457",
