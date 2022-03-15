@@ -83,6 +83,9 @@
 "activemq-5.16.4": [
 "activemq/5.16.4/activemq-parent-5.16.4-source-release.zip"
 ],
+"activemq-5.17.0": [
+"activemq/5.17.0/activemq-parent-5.17.0-source-release.zip"
+],
 "activemq-artemis-native-1.0.2": [
 "activemq/activemq-artemis-native/1.0.2/activemq-artemis-native-1.0.2-source-release.tar.gz",
 "activemq/activemq-artemis-native/1.0.2/activemq-artemis-native-1.0.2-source-release.zip"
@@ -1210,6 +1213,12 @@
 "apache-camel-k-runtime-1.10.0": [
 "camel/camel-k-runtime/1.10.0/apache-camel-k-runtime-1.10.0-source-release.zip"
 ],
+"apache-camel-k-runtime-1.11.0": [
+"camel/camel-k-runtime/1.11.0/apache-camel-k-runtime-1.11.0-source-release.zip"
+],
+"apache-camel-k-runtime-1.12.0": [
+"camel/camel-k-runtime/1.12.0/apache-camel-k-runtime-1.12.0-source-release.zip"
+],
 "apache-camel-k-runtime-1.5.0": [
 "camel/camel-k-runtime/1.5.0/apache-camel-k-runtime-1.5.0-source-release.zip"
 ],
@@ -1231,23 +1240,17 @@
 "apache-camel-kafka-connector-0.6.1": [
 "camel/camel-kafka-connector/0.6.1/apache-camel-kafka-connector-0.6.1-src.zip"
 ],
-"apache-camel-quarkus-2.5.0": [
-"camel/camel-quarkus/2.5.0/apache-camel-quarkus-2.5.0-src.zip"
-],
-"apache-camel-quarkus-2.6.0": [
-"camel/camel-quarkus/2.6.0/apache-camel-quarkus-2.6.0-src.zip"
-],
 "apache-camel-quarkus-2.7.0": [
 "camel/camel-quarkus/2.7.0/apache-camel-quarkus-2.7.0-src.zip"
+],
+"apache-camel-quarkus-2.8.0-M1": [
+"camel/camel-quarkus/2.8.0-M1/apache-camel-quarkus-2.8.0-M1-src.zip"
 ],
 "camel-k-1.8.0": [
 "camel/camel-k/1.8.0/camel-k-1.8.0-sources.tar.gz"
 ],
 "camel-k-1.8.1": [
 "camel/camel-k/1.8.1/camel-k-1.8.1-sources.tar.gz"
-],
-"camel-k-1.8.2": [
-"camel/camel-k/1.8.2/camel-k-1.8.2-sources.tar.gz"
 ],
 "camel-k-client-1.2.1-linux": [
 "camel/camel-k/1.2.1/camel-k-client-1.2.1-linux-64bit.tar.gz"
@@ -1432,12 +1435,6 @@
 "camel-k-examples-1.8.2": [
 "camel/camel-k/1.8.2/camel-k-examples-1.8.2.tar.gz"
 ],
-"camel-k-runtime-1.11.0": [
-"camel/camel-k-runtime/1.11.0/camel-k-runtime-project-1.11.0-source-release.zip"
-],
-"camel-k-runtime-1.12.0": [
-"camel/camel-k-runtime/1.12.0/camel-k-runtime-project-1.12.0-source-release.zip"
-],
 "camel-k-sources-1.2.1": [
 "camel/camel-k/1.2.1/camel-k-sources-1.2.1.tar.gz"
 ],
@@ -1470,6 +1467,9 @@
 ],
 "camel-k-sources-1.7.0": [
 "camel/camel-k/1.7.0/camel-k-sources-1.7.0.tar.gz"
+],
+"camel-k-sources-1.8.2": [
+"camel/camel-k/1.8.2/camel-k-sources-1.8.2.tar.gz"
 ],
 "camel-kafka-connector-0.10.0": [
 "camel/camel-kafka-connector/0.10.0/camel-kafka-connector-0.10.0-src.zip"
@@ -1507,9 +1507,6 @@
 "camel-kamelets-0.7.0": [
 "camel/camel-kamelets/0.7.0/camel-kamelets-0.7.0.tar.gz"
 ],
-"camel-kamelets-0.7.1": [
-"camel/camel-kamelets/0.7.1/camel-kamelets-0.7.1.tar.gz"
-],
 "camel-kamelets-sources-0.3.0": [
 "camel/camel-kamelets/0.3.0/camel-kamelets-sources-0.3.0.tar.gz"
 ],
@@ -1521,6 +1518,9 @@
 ],
 "camel-kamelets-sources-0.6.0": [
 "camel/camel-kamelets/0.6.0/camel-kamelets-sources-0.6.0.tar.gz"
+],
+"camel-kamelets-sources-0.7.1": [
+"camel/camel-kamelets/0.7.1/camel-kamelets-sources-0.7.1.tar.gz"
 ]
 },
 "carbondata": {
@@ -4432,6 +4432,10 @@
 "httpd/httpd-2.4.52.tar.bz2",
 "httpd/httpd-2.4.52.tar.gz"
 ],
+"httpd-2.4.53": [
+"httpd/httpd-2.4.53.tar.bz2",
+"httpd/httpd-2.4.53.tar.gz"
+],
 "libapreq-1.34": [
 "httpd/libapreq/libapreq-1.34.tar.gz"
 ],
@@ -5138,9 +5142,6 @@
 "kafka-2.8.1": [
 "kafka/2.8.1/kafka-2.8.1-src.tgz"
 ],
-"kafka-3.0.0": [
-"kafka/3.0.0/kafka-3.0.0-src.tgz"
-],
 "kafka-3.0.1": [
 "kafka/3.0.1/kafka-3.0.1-src.tgz"
 ],
@@ -5150,9 +5151,6 @@
 "kafka_2.12-2.8.1": [
 "kafka/2.8.1/kafka_2.12-2.8.1.tgz"
 ],
-"kafka_2.12-3.0.0": [
-"kafka/3.0.0/kafka_2.12-3.0.0.tgz"
-],
 "kafka_2.12-3.0.1": [
 "kafka/3.0.1/kafka_2.12-3.0.1.tgz"
 ],
@@ -5161,9 +5159,6 @@
 ],
 "kafka_2.13-2.8.1": [
 "kafka/2.8.1/kafka_2.13-2.8.1.tgz"
-],
-"kafka_2.13-3.0.0": [
-"kafka/3.0.0/kafka_2.13-3.0.0.tgz"
 ],
 "kafka_2.13-3.0.1": [
 "kafka/3.0.1/kafka_2.13-3.0.1.tgz"
@@ -11202,17 +11197,17 @@
 "org.apache.sling.discovery.api-1.0.4": [
 "sling/org.apache.sling.discovery.api-1.0.4-source-release.zip"
 ],
-"org.apache.sling.discovery.base-2.0.10": [
-"sling/org.apache.sling.discovery.base-2.0.10-source-release.zip"
+"org.apache.sling.discovery.base-2.0.12": [
+"sling/org.apache.sling.discovery.base-2.0.12-source-release.zip"
 ],
-"org.apache.sling.discovery.commons-1.0.24": [
-"sling/org.apache.sling.discovery.commons-1.0.24-source-release.zip"
+"org.apache.sling.discovery.commons-1.0.26": [
+"sling/org.apache.sling.discovery.commons-1.0.26-source-release.zip"
 ],
 "org.apache.sling.discovery.impl-1.2.12": [
 "sling/org.apache.sling.discovery.impl-1.2.12-source-release.zip"
 ],
-"org.apache.sling.discovery.oak-1.2.34": [
-"sling/org.apache.sling.discovery.oak-1.2.34-source-release.zip"
+"org.apache.sling.discovery.oak-1.2.36": [
+"sling/org.apache.sling.discovery.oak-1.2.36-source-release.zip"
 ],
 "org.apache.sling.discovery.standalone-1.0.2": [
 "sling/org.apache.sling.discovery.standalone-1.0.2-source-release.zip"
@@ -11223,14 +11218,14 @@
 "org.apache.sling.distribution.api-0.6.0": [
 "sling/org.apache.sling.distribution.api-0.6.0-source-release.zip"
 ],
-"org.apache.sling.distribution.core-0.4.8": [
-"sling/org.apache.sling.distribution.core-0.4.8-source-release.zip"
+"org.apache.sling.distribution.core-0.5.0": [
+"sling/org.apache.sling.distribution.core-0.5.0-source-release.zip"
 ],
 "org.apache.sling.distribution.it-0.1.2": [
 "sling/org.apache.sling.distribution.it-0.1.2-source-release.zip"
 ],
-"org.apache.sling.distribution.journal-0.1.22": [
-"sling/org.apache.sling.distribution.journal-0.1.22-source-release.zip"
+"org.apache.sling.distribution.journal-0.1.24": [
+"sling/org.apache.sling.distribution.journal-0.1.24-source-release.zip"
 ],
 "org.apache.sling.distribution.journal.it-0.1.2": [
 "sling/org.apache.sling.distribution.journal.it-0.1.2-source-release.zip"
@@ -11289,10 +11284,10 @@
 "org.apache.sling.feature.apiregions-1.1.8": [
 "sling/org.apache.sling.feature.apiregions-1.1.8-source-release.zip"
 ],
-"org.apache.sling.feature.cpconverter-1.1.10": [
-"sling/org.apache.sling.feature.cpconverter-1.1.10-source-release.zip",
-"sling/org.apache.sling.feature.cpconverter-1.1.10.tar.gz",
-"sling/org.apache.sling.feature.cpconverter-1.1.10.zip"
+"org.apache.sling.feature.cpconverter-1.1.12": [
+"sling/org.apache.sling.feature.cpconverter-1.1.12-source-release.zip",
+"sling/org.apache.sling.feature.cpconverter-1.1.12.tar.gz",
+"sling/org.apache.sling.feature.cpconverter-1.1.12.zip"
 ],
 "org.apache.sling.feature.diff-0.0.6": [
 "sling/org.apache.sling.feature.diff-0.0.6-source-release.zip"
@@ -11578,8 +11573,8 @@
 "org.apache.sling.launchpad.installer-1.2.2": [
 "sling/org.apache.sling.launchpad.installer-1.2.2-source-release.zip"
 ],
-"org.apache.sling.launchpad.integration-tests-1.0.10": [
-"sling/org.apache.sling.launchpad.integration-tests-1.0.10-source-release.zip"
+"org.apache.sling.launchpad.integration-tests-12": [
+"sling/org.apache.sling.launchpad.integration-tests-12-source-release.zip"
 ],
 "org.apache.sling.launchpad.startupmanager-1.0.0": [
 "sling/org.apache.sling.launchpad.startupmanager-1.0.0-source-release.zip"
@@ -11587,18 +11582,24 @@
 "org.apache.sling.launchpad.test-bundles-0.0.6": [
 "sling/org.apache.sling.launchpad.test-bundles-0.0.6-source-release.zip"
 ],
-"org.apache.sling.launchpad.test-fragment-2.0.16": [
-"sling/org.apache.sling.launchpad.test-fragment-2.0.16-source-release.zip"
+"org.apache.sling.launchpad.test-fragment-12": [
+"sling/org.apache.sling.launchpad.test-fragment-12-source-release.zip"
 ],
-"org.apache.sling.launchpad.test-services-2.0.16": [
-"sling/org.apache.sling.launchpad.test-services-2.0.16-source-release.zip"
+"org.apache.sling.launchpad.test-services-12": [
+"sling/org.apache.sling.launchpad.test-services-12-source-release.zip"
 ],
 "org.apache.sling.launchpad.test-services-war-2.0.16": [
 "sling/org.apache.sling.launchpad.test-services-war-2.0.16-source-release.zip",
 "sling/org.apache.sling.launchpad.test-services-war-2.0.16.war"
 ],
-"org.apache.sling.launchpad.testing-11": [
-"sling/org.apache.sling.launchpad.testing-11-source-release.zip"
+"org.apache.sling.launchpad.testing-12": [
+"sling/org.apache.sling.launchpad.testing-12-source-release.zip"
+],
+"org.apache.sling.launchpad.testing-12-model.slingosgifeature": [
+"sling/org.apache.sling.launchpad.testing-12-model.slingosgifeature"
+],
+"org.apache.sling.launchpad.testing-12-testing-oak_tar.slingosgifeature": [
+"sling/org.apache.sling.launchpad.testing-12-testing-oak_tar.slingosgifeature"
 ],
 "org.apache.sling.launchpad.testing-war-11": [
 "sling/org.apache.sling.launchpad.testing-war-11-source-release.zip",
@@ -12616,18 +12617,31 @@
 "tomcat/tomcat-10/v10.0.17/src/apache-tomcat-10.0.17-src.tar.gz",
 "tomcat/tomcat-10/v10.0.17/src/apache-tomcat-10.0.17-src.zip"
 ],
-"apache-tomcat-10.1.0-M11": [
-"tomcat/tomcat-10/v10.1.0-M11/bin/embed/apache-tomcat-10.1.0-M11-embed.tar.gz",
-"tomcat/tomcat-10/v10.1.0-M11/bin/embed/apache-tomcat-10.1.0-M11-embed.zip",
-"tomcat/tomcat-10/v10.1.0-M11/bin/apache-tomcat-10.1.0-M11-deployer.tar.gz",
-"tomcat/tomcat-10/v10.1.0-M11/bin/apache-tomcat-10.1.0-M11-deployer.zip",
-"tomcat/tomcat-10/v10.1.0-M11/bin/apache-tomcat-10.1.0-M11-fulldocs.tar.gz",
-"tomcat/tomcat-10/v10.1.0-M11/bin/apache-tomcat-10.1.0-M11-windows-x64.zip",
-"tomcat/tomcat-10/v10.1.0-M11/bin/apache-tomcat-10.1.0-M11.exe",
-"tomcat/tomcat-10/v10.1.0-M11/bin/apache-tomcat-10.1.0-M11.tar.gz",
-"tomcat/tomcat-10/v10.1.0-M11/bin/apache-tomcat-10.1.0-M11.zip",
-"tomcat/tomcat-10/v10.1.0-M11/src/apache-tomcat-10.1.0-M11-src.tar.gz",
-"tomcat/tomcat-10/v10.1.0-M11/src/apache-tomcat-10.1.0-M11-src.zip"
+"apache-tomcat-10.0.18": [
+"tomcat/tomcat-10/v10.0.18/bin/embed/apache-tomcat-10.0.18-embed.tar.gz",
+"tomcat/tomcat-10/v10.0.18/bin/embed/apache-tomcat-10.0.18-embed.zip",
+"tomcat/tomcat-10/v10.0.18/bin/apache-tomcat-10.0.18-deployer.tar.gz",
+"tomcat/tomcat-10/v10.0.18/bin/apache-tomcat-10.0.18-deployer.zip",
+"tomcat/tomcat-10/v10.0.18/bin/apache-tomcat-10.0.18-fulldocs.tar.gz",
+"tomcat/tomcat-10/v10.0.18/bin/apache-tomcat-10.0.18-windows-x64.zip",
+"tomcat/tomcat-10/v10.0.18/bin/apache-tomcat-10.0.18.exe",
+"tomcat/tomcat-10/v10.0.18/bin/apache-tomcat-10.0.18.tar.gz",
+"tomcat/tomcat-10/v10.0.18/bin/apache-tomcat-10.0.18.zip",
+"tomcat/tomcat-10/v10.0.18/src/apache-tomcat-10.0.18-src.tar.gz",
+"tomcat/tomcat-10/v10.0.18/src/apache-tomcat-10.0.18-src.zip"
+],
+"apache-tomcat-10.1.0-M12": [
+"tomcat/tomcat-10/v10.1.0-M12/bin/embed/apache-tomcat-10.1.0-M12-embed.tar.gz",
+"tomcat/tomcat-10/v10.1.0-M12/bin/embed/apache-tomcat-10.1.0-M12-embed.zip",
+"tomcat/tomcat-10/v10.1.0-M12/bin/apache-tomcat-10.1.0-M12-deployer.tar.gz",
+"tomcat/tomcat-10/v10.1.0-M12/bin/apache-tomcat-10.1.0-M12-deployer.zip",
+"tomcat/tomcat-10/v10.1.0-M12/bin/apache-tomcat-10.1.0-M12-fulldocs.tar.gz",
+"tomcat/tomcat-10/v10.1.0-M12/bin/apache-tomcat-10.1.0-M12-windows-x64.zip",
+"tomcat/tomcat-10/v10.1.0-M12/bin/apache-tomcat-10.1.0-M12.exe",
+"tomcat/tomcat-10/v10.1.0-M12/bin/apache-tomcat-10.1.0-M12.tar.gz",
+"tomcat/tomcat-10/v10.1.0-M12/bin/apache-tomcat-10.1.0-M12.zip",
+"tomcat/tomcat-10/v10.1.0-M12/src/apache-tomcat-10.1.0-M12-src.tar.gz",
+"tomcat/tomcat-10/v10.1.0-M12/src/apache-tomcat-10.1.0-M12-src.zip"
 ],
 "apache-tomcat-8.5.76": [
 "tomcat/tomcat-8/v8.5.76/bin/embed/apache-tomcat-8.5.76-embed.tar.gz",
@@ -12654,6 +12668,19 @@
 "tomcat/tomcat-9/v9.0.59/bin/apache-tomcat-9.0.59.zip",
 "tomcat/tomcat-9/v9.0.59/src/apache-tomcat-9.0.59-src.tar.gz",
 "tomcat/tomcat-9/v9.0.59/src/apache-tomcat-9.0.59-src.zip"
+],
+"apache-tomcat-9.0.60": [
+"tomcat/tomcat-9/v9.0.60/bin/embed/apache-tomcat-9.0.60-embed.tar.gz",
+"tomcat/tomcat-9/v9.0.60/bin/embed/apache-tomcat-9.0.60-embed.zip",
+"tomcat/tomcat-9/v9.0.60/bin/apache-tomcat-9.0.60-deployer.tar.gz",
+"tomcat/tomcat-9/v9.0.60/bin/apache-tomcat-9.0.60-deployer.zip",
+"tomcat/tomcat-9/v9.0.60/bin/apache-tomcat-9.0.60-fulldocs.tar.gz",
+"tomcat/tomcat-9/v9.0.60/bin/apache-tomcat-9.0.60-windows-x64.zip",
+"tomcat/tomcat-9/v9.0.60/bin/apache-tomcat-9.0.60.exe",
+"tomcat/tomcat-9/v9.0.60/bin/apache-tomcat-9.0.60.tar.gz",
+"tomcat/tomcat-9/v9.0.60/bin/apache-tomcat-9.0.60.zip",
+"tomcat/tomcat-9/v9.0.60/src/apache-tomcat-9.0.60-src.tar.gz",
+"tomcat/tomcat-9/v9.0.60/src/apache-tomcat-9.0.60-src.zip"
 ],
 "jakartaee-migration-1.0.0": [
 "tomcat/jakartaee-migration/v1.0.0/source/jakartaee-migration-1.0.0-src.tar.gz",

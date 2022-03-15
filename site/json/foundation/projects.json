@@ -7676,7 +7676,7 @@
 "bug-database": "https://issues.apache.org/jira/browse/EMPIREDB",
 "category": "database",
 "created": "2011-01-16",
-"description": "\n\tApache Empire-db is intended for developers who strive to have full SQL freedom when \n\tformulating queries and DML-Statements - without ever having to use string literals -\n\tand who also want to be able to control when and how statements are executed. \n\n\tUnlike other approaches Empire-db does not rely on Java Annotations or Mapping-files\n\tfor building queries but rather uses a Java Object model that is easy to access and\n\textend. For Data Access and Data Interchange developers can choose between traditional \n\tJava Beans and a more sophisticated dynamic interface provided by Record and DataListEntriy classes.\n\n\tEmpire-db is DBMS vendor independent and provides handlers for Oracle, Microsoft SQLServer, \n\tPostgreSQL, MySQL, HsqlDB, Derby, H2 and more.\t\n\t",
+"description": "\n\tApache Empire-db is intended for developers who strive to have full SQL freedom when \n\tformulating queries and DML-Statements - without ever having to use string literals -\n\tand who also want to be able to control when and how statements are executed. \n\n\tUnlike other approaches Empire-db does not rely on Java Annotations or Mapping-files\n\tfor building queries but rather uses a Java Object model that is easy to access and\n\textend. For Data Access and Data Interchange developers can choose between traditional \n\tJava Beans and a more sophisticated dynamic interface provided by Record and \n\tDataListEntriy classes.\n\n\tEmpire-db is DBMS vendor independent and provides handlers for Oracle, Microsoft SQLServer, \n\tPostgreSQL, MySQL, HsqlDB, Derby, H2 and more.\t\n\t",
 "doap": "http://empire-db.apache.org/doap_Empire-db.rdf",
 "download-page": "https://empire-db.apache.org/pages/download.html",
 "homepage": "https://empire-db.apache.org",
@@ -7698,7 +7698,7 @@
 "revision": "3.0.0"
 }
 ],
-"shortdesc": "\n\tApache Empire-db is a lightweight data persistence library that provides an alternative approach for \n\trelational database access compared to Object-Relational-Mapping (ORM) as offered by JDO and JPA\n\t"
+"shortdesc": "\n\tApache Empire-db is a relational database access library that provides an alternative \n\tapproach to Object-Relational-Mapping (ORM) as offered by JDO and JPA\n\t"
 },
 "felix": {
 "bug-database": "https://issues.apache.org/jira/browse/FELIX",
@@ -16405,14 +16405,14 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2022-02-28",
+"created": "2022-03-14",
 "name": "Latest Stable 10.0.x Release",
-"revision": "10.0.17"
+"revision": "10.0.18"
 },
 {
-"created": "2022-02-28",
+"created": "2022-03-14",
 "name": "Latest Stable 9.0.x Release",
-"revision": "9.0.59"
+"revision": "9.0.60"
 },
 {
 "created": "2022-02-28",
