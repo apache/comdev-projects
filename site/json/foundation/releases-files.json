@@ -2439,9 +2439,9 @@
 "commons/proxy/source/commons-proxy-1.0-src.tar.gz",
 "commons/proxy/source/commons-proxy-1.0-src.zip"
 ],
-"commons-release-plugin-1.7": [
-"commons/commons-release-plugin/source/commons-release-plugin-1.7-src.tar.gz",
-"commons/commons-release-plugin/source/commons-release-plugin-1.7-src.zip"
+"commons-release-plugin-1.8.0": [
+"commons/commons-release-plugin/source/commons-release-plugin-1.8.0-src.tar.gz",
+"commons/commons-release-plugin/source/commons-release-plugin-1.8.0-src.zip"
 ],
 "commons-rng-1.4": [
 "commons/rng/source/commons-rng-1.4-src.tar.gz",
@@ -2652,6 +2652,9 @@
 ],
 "apache-curator-5.2.0": [
 "curator/5.2.0/apache-curator-5.2.0-source-release.zip"
+],
+"apache-curator-5.2.1": [
+"curator/5.2.1/apache-curator-5.2.1-source-release.zip"
 ]
 },
 "cxf": {
@@ -3065,63 +3068,6 @@
 ]
 },
 "echarts": {
-"apache-echarts-4.1.0-incubating": [
-"echarts/4.1.0/apache-echarts-4.1.0-incubating-src.zip"
-],
-"apache-echarts-4.2.1-incubating": [
-"echarts/4.2.1/apache-echarts-4.2.1-incubating-src.zip"
-],
-"apache-echarts-4.3.0-incubating": [
-"echarts/4.3.0/apache-echarts-4.3.0-incubating-src.zip"
-],
-"apache-echarts-4.4.0-incubating": [
-"echarts/4.4.0/apache-echarts-4.4.0-incubating-src.zip"
-],
-"apache-echarts-4.5.0-incubating": [
-"echarts/4.5.0/apache-echarts-4.5.0-incubating-src.zip"
-],
-"apache-echarts-4.6.0-incubating": [
-"echarts/4.6.0/apache-echarts-4.6.0-incubating-src.zip"
-],
-"apache-echarts-4.7.0-incubating": [
-"echarts/4.7.0/apache-echarts-4.7.0-incubating-src.zip"
-],
-"apache-echarts-4.8.0-incubating": [
-"echarts/4.8.0/apache-echarts-4.8.0-incubating-src.zip"
-],
-"apache-echarts-4.9.0-incubating": [
-"echarts/4.9.0/apache-echarts-4.9.0-incubating-src.zip"
-],
-"apache-echarts-5.0.0-incubating": [
-"echarts/5.0.0/apache-echarts-5.0.0-incubating-src.zip"
-],
-"apache-echarts-5.0.1": [
-"echarts/5.0.1/apache-echarts-5.0.1-src.zip"
-],
-"apache-echarts-5.0.2": [
-"echarts/5.0.2/apache-echarts-5.0.2-src.zip"
-],
-"apache-echarts-5.1.0": [
-"echarts/5.1.0/apache-echarts-5.1.0-src.zip"
-],
-"apache-echarts-5.1.1": [
-"echarts/5.1.1/apache-echarts-5.1.1-src.zip"
-],
-"apache-echarts-5.1.2": [
-"echarts/5.1.2/apache-echarts-5.1.2-src.zip"
-],
-"apache-echarts-5.2.0": [
-"echarts/5.2.0/apache-echarts-5.2.0-src.zip"
-],
-"apache-echarts-5.2.1": [
-"echarts/5.2.1/apache-echarts-5.2.1-src.zip"
-],
-"apache-echarts-5.2.2": [
-"echarts/5.2.2/apache-echarts-5.2.2-src.zip"
-],
-"apache-echarts-5.3.0": [
-"echarts/5.3.0/apache-echarts-5.3.0-src.zip"
-],
 "apache-echarts-5.3.1": [
 "echarts/5.3.1/apache-echarts-5.3.1-src.zip"
 ]
@@ -4118,25 +4064,16 @@
 },
 "hbase": {
 "RELEASENOTES.md": [
-"hbase/2.3.7/RELEASENOTES.md",
 "hbase/2.4.10/RELEASENOTES.md",
-"hbase/2.4.9/RELEASENOTES.md",
 "hbase/3.0.0-alpha-2/RELEASENOTES.md",
 "hbase/hbase-filesystem-1.0.0-alpha1/RELEASENOTES.md",
-"hbase/hbase-operator-tools-1.1.0/RELEASENOTES.md",
 "hbase/hbase-operator-tools-1.2.0/RELEASENOTES.md"
 ],
 "hbase-1.7.1": [
 "hbase/1.7.1/hbase-1.7.1-src.tar.gz"
 ],
-"hbase-2.3.7": [
-"hbase/2.3.7/hbase-2.3.7-src.tar.gz"
-],
 "hbase-2.4.10": [
 "hbase/2.4.10/hbase-2.4.10-src.tar.gz"
-],
-"hbase-2.4.9": [
-"hbase/2.4.9/hbase-2.4.9-src.tar.gz"
 ],
 "hbase-3.0.0-alpha-2": [
 "hbase/3.0.0-alpha-2/hbase-3.0.0-alpha-2-src.tar.gz"
@@ -4146,9 +4083,6 @@
 ],
 "hbase-filesystem-1.0.0-alpha1": [
 "hbase/hbase-filesystem-1.0.0-alpha1/hbase-filesystem-1.0.0-alpha1-src.tar.gz"
-],
-"hbase-operator-tools-1.1.0": [
-"hbase/hbase-operator-tools-1.1.0/hbase-operator-tools-1.1.0-src.tar.gz"
 ],
 "hbase-operator-tools-1.2.0": [
 "hbase/hbase-operator-tools-1.2.0/hbase-operator-tools-1.2.0-src.tar.gz"
@@ -4294,6 +4228,10 @@
 "httpcomponents-core-5.2-alpha2": [
 "httpcomponents/httpcore/source/httpcomponents-core-5.2-alpha2-src.tar.gz",
 "httpcomponents/httpcore/source/httpcomponents-core-5.2-alpha2-src.zip"
+],
+"httpcomponents-core-5.2-beta1": [
+"httpcomponents/httpcore/source/httpcomponents-core-5.2-beta1-src.tar.gz",
+"httpcomponents/httpcore/source/httpcomponents-core-5.2-beta1-src.zip"
 ]
 },
 "httpd": {
@@ -4440,14 +4378,8 @@
 ]
 },
 "incubator-brpc": {
-"apache-brpc-0.9.7-incubating": [
-"incubator/brpc/0.9.7/apache-brpc-0.9.7-incubating-src.tar.gz"
-],
 "apache-brpc-1.0.0-incubating": [
 "incubator/brpc/1.0.0/apache-brpc-1.0.0-incubating-src.tar.gz"
-],
-"apache-brpc-1.0.0-rc02-incubating": [
-"incubator/brpc/1.0.0-rc02/apache-brpc-1.0.0-rc02-incubating-src.tar.gz"
 ]
 },
 "incubator-crail": {
@@ -4909,30 +4841,6 @@
 ]
 },
 "jmeter": {
-"apache-jmeter-5.2": [
-"jmeter/source/apache-jmeter-5.2_src.tgz",
-"jmeter/source/apache-jmeter-5.2_src.zip"
-],
-"apache-jmeter-5.2.1": [
-"jmeter/source/apache-jmeter-5.2.1_src.tgz",
-"jmeter/source/apache-jmeter-5.2.1_src.zip"
-],
-"apache-jmeter-5.3": [
-"jmeter/source/apache-jmeter-5.3_src.tgz",
-"jmeter/source/apache-jmeter-5.3_src.zip"
-],
-"apache-jmeter-5.4": [
-"jmeter/source/apache-jmeter-5.4_src.tgz",
-"jmeter/source/apache-jmeter-5.4_src.zip"
-],
-"apache-jmeter-5.4.1": [
-"jmeter/source/apache-jmeter-5.4.1_src.tgz",
-"jmeter/source/apache-jmeter-5.4.1_src.zip"
-],
-"apache-jmeter-5.4.2": [
-"jmeter/source/apache-jmeter-5.4.2_src.tgz",
-"jmeter/source/apache-jmeter-5.4.2_src.zip"
-],
 "apache-jmeter-5.4.3": [
 "jmeter/source/apache-jmeter-5.4.3_src.tgz",
 "jmeter/source/apache-jmeter-5.4.3_src.zip"
@@ -5916,20 +5824,8 @@
 "myfaces/source/myfaces-test-assembly-1.0.7-src.tar.gz",
 "myfaces/source/myfaces-test-assembly-1.0.7-src.zip"
 ],
-"myfaces-tobago-1.0.42": [
-"myfaces/source/myfaces-tobago-1.0.42-source-release.zip"
-],
-"myfaces-tobago-1.5.13": [
-"myfaces/source/myfaces-tobago-1.5.13-source-release.zip"
-],
-"myfaces-tobago-2.4.4": [
-"myfaces/source/myfaces-tobago-2.4.4-source-release.zip"
-],
 "myfaces-tobago-2.4.5": [
 "myfaces/source/myfaces-tobago-2.4.5-source-release.zip"
-],
-"myfaces-tobago-3.1.1": [
-"myfaces/source/myfaces-tobago-3.1.1-source-release.zip"
 ],
 "myfaces-tobago-4.5.4": [
 "myfaces/source/myfaces-tobago-4.5.4-source-release.zip"
@@ -10592,56 +10488,8 @@
 ]
 },
 "shardingsphere": {
-"apache-shardingsphere-4.1.0": [
-"shardingsphere/4.1.0/apache-shardingsphere-4.1.0-src.zip"
-],
-"apache-shardingsphere-4.1.0-shardingsphere-ui": [
-"shardingsphere/shardingsphere-ui-4.1.0/apache-shardingsphere-4.1.0-shardingsphere-ui-src.zip"
-],
-"apache-shardingsphere-4.1.1": [
-"shardingsphere/4.1.1/apache-shardingsphere-4.1.1-src.zip"
-],
-"apache-shardingsphere-4.1.1-shardingsphere-ui": [
-"shardingsphere/shardingsphere-ui-4.1.1/apache-shardingsphere-4.1.1-shardingsphere-ui-src.zip"
-],
-"apache-shardingsphere-5.0.0": [
-"shardingsphere/5.0.0/apache-shardingsphere-5.0.0-src.zip"
-],
-"apache-shardingsphere-5.0.0-alpha": [
-"shardingsphere/5.0.0-alpha/apache-shardingsphere-5.0.0-alpha-src.zip"
-],
-"apache-shardingsphere-5.0.0-alpha-shardingsphere-ui": [
-"shardingsphere/shardingsphere-ui-5.0.0-alpha/apache-shardingsphere-5.0.0-alpha-shardingsphere-ui-src.zip"
-],
-"apache-shardingsphere-5.0.0-beta": [
-"shardingsphere/5.0.0-beta/apache-shardingsphere-5.0.0-beta-src.zip"
-],
 "apache-shardingsphere-5.1.0": [
 "shardingsphere/5.1.0/apache-shardingsphere-5.1.0-src.zip"
-],
-"apache-shardingsphere-elasticjob-3.0.0": [
-"shardingsphere/elasticjob-3.0.0/apache-shardingsphere-elasticjob-3.0.0-src.zip"
-],
-"apache-shardingsphere-elasticjob-3.0.0-RC1": [
-"shardingsphere/elasticjob-3.0.0-RC1/apache-shardingsphere-elasticjob-3.0.0-RC1-src.zip"
-],
-"apache-shardingsphere-elasticjob-3.0.0-RC1-ui": [
-"shardingsphere/elasticjob-ui-3.0.0-RC1/apache-shardingsphere-elasticjob-3.0.0-RC1-ui-src.zip"
-],
-"apache-shardingsphere-elasticjob-3.0.0-alpha": [
-"shardingsphere/elasticjob-3.0.0-alpha/apache-shardingsphere-elasticjob-3.0.0-alpha-src.zip"
-],
-"apache-shardingsphere-elasticjob-3.0.0-alpha-ui": [
-"shardingsphere/elasticjob-ui-3.0.0-alpha/apache-shardingsphere-elasticjob-3.0.0-alpha-ui-src.zip"
-],
-"apache-shardingsphere-elasticjob-3.0.0-beta": [
-"shardingsphere/elasticjob-3.0.0-beta/apache-shardingsphere-elasticjob-3.0.0-beta-src.zip"
-],
-"apache-shardingsphere-elasticjob-3.0.0-beta-ui": [
-"shardingsphere/elasticjob-ui-3.0.0-beta/apache-shardingsphere-elasticjob-3.0.0-beta-ui-src.zip"
-],
-"apache-shardingsphere-elasticjob-3.0.0-ui": [
-"shardingsphere/elasticjob-ui-3.0.0/apache-shardingsphere-elasticjob-3.0.0-ui-src.zip"
 ],
 "apache-shardingsphere-elasticjob-3.0.1": [
 "shardingsphere/elasticjob-3.0.1/apache-shardingsphere-elasticjob-3.0.1-src.zip"
@@ -12201,41 +12049,9 @@
 "systemds/2.1.0/systemds-2.1.0-src.tgz",
 "systemds/2.1.0/systemds-2.1.0-src.zip"
 ],
-"systemds-2.2.0": [
-"systemds/2.2.0/systemds-2.2.0-src.tgz",
-"systemds/2.2.0/systemds-2.2.0-src.zip"
-],
 "systemds-2.2.1": [
 "systemds/2.2.1/systemds-2.2.1-src.tgz",
 "systemds/2.2.1/systemds-2.2.1-src.zip"
-],
-"systemml-0.14.0-incubating": [
-"systemds/0.14.0-incubating/systemml-0.14.0-incubating-src.tgz",
-"systemds/0.14.0-incubating/systemml-0.14.0-incubating-src.zip"
-],
-"systemml-0.14.0-incubating-python": [
-"systemds/0.14.0-incubating/systemml-0.14.0-incubating-python.tgz"
-],
-"systemml-0.15.0": [
-"systemds/0.15.0/systemml-0.15.0-src.tgz",
-"systemds/0.15.0/systemml-0.15.0-src.zip"
-],
-"systemml-0.15.0-python": [
-"systemds/0.15.0/systemml-0.15.0-python.tgz"
-],
-"systemml-1.0.0": [
-"systemds/1.0.0/systemml-1.0.0-src.tgz",
-"systemds/1.0.0/systemml-1.0.0-src.zip"
-],
-"systemml-1.0.0-python": [
-"systemds/1.0.0/systemml-1.0.0-python.tar.gz"
-],
-"systemml-1.1.0": [
-"systemds/1.1.0/systemml-1.1.0-src.tgz",
-"systemds/1.1.0/systemml-1.1.0-src.zip"
-],
-"systemml-1.1.0-python": [
-"systemds/1.1.0/systemml-1.1.0-python.tar.gz"
 ],
 "systemml-1.2.0": [
 "systemds/1.2.0/systemml-1.2.0-src.tgz",
@@ -12443,18 +12259,18 @@
 "tomcat/tomcat-10/v10.1.0-M12/src/apache-tomcat-10.1.0-M12-src.tar.gz",
 "tomcat/tomcat-10/v10.1.0-M12/src/apache-tomcat-10.1.0-M12-src.zip"
 ],
-"apache-tomcat-8.5.76": [
-"tomcat/tomcat-8/v8.5.76/bin/embed/apache-tomcat-8.5.76-embed.tar.gz",
-"tomcat/tomcat-8/v8.5.76/bin/embed/apache-tomcat-8.5.76-embed.zip",
-"tomcat/tomcat-8/v8.5.76/bin/apache-tomcat-8.5.76-deployer.tar.gz",
-"tomcat/tomcat-8/v8.5.76/bin/apache-tomcat-8.5.76-deployer.zip",
-"tomcat/tomcat-8/v8.5.76/bin/apache-tomcat-8.5.76-fulldocs.tar.gz",
-"tomcat/tomcat-8/v8.5.76/bin/apache-tomcat-8.5.76-windows-x64.zip",
-"tomcat/tomcat-8/v8.5.76/bin/apache-tomcat-8.5.76.exe",
-"tomcat/tomcat-8/v8.5.76/bin/apache-tomcat-8.5.76.tar.gz",
-"tomcat/tomcat-8/v8.5.76/bin/apache-tomcat-8.5.76.zip",
-"tomcat/tomcat-8/v8.5.76/src/apache-tomcat-8.5.76-src.tar.gz",
-"tomcat/tomcat-8/v8.5.76/src/apache-tomcat-8.5.76-src.zip"
+"apache-tomcat-8.5.77": [
+"tomcat/tomcat-8/v8.5.77/bin/embed/apache-tomcat-8.5.77-embed.tar.gz",
+"tomcat/tomcat-8/v8.5.77/bin/embed/apache-tomcat-8.5.77-embed.zip",
+"tomcat/tomcat-8/v8.5.77/bin/apache-tomcat-8.5.77-deployer.tar.gz",
+"tomcat/tomcat-8/v8.5.77/bin/apache-tomcat-8.5.77-deployer.zip",
+"tomcat/tomcat-8/v8.5.77/bin/apache-tomcat-8.5.77-fulldocs.tar.gz",
+"tomcat/tomcat-8/v8.5.77/bin/apache-tomcat-8.5.77-windows-x64.zip",
+"tomcat/tomcat-8/v8.5.77/bin/apache-tomcat-8.5.77.exe",
+"tomcat/tomcat-8/v8.5.77/bin/apache-tomcat-8.5.77.tar.gz",
+"tomcat/tomcat-8/v8.5.77/bin/apache-tomcat-8.5.77.zip",
+"tomcat/tomcat-8/v8.5.77/src/apache-tomcat-8.5.77-src.tar.gz",
+"tomcat/tomcat-8/v8.5.77/src/apache-tomcat-8.5.77-src.zip"
 ],
 "apache-tomcat-9.0.59": [
 "tomcat/tomcat-9/v9.0.59/bin/embed/apache-tomcat-9.0.59-embed.tar.gz",
