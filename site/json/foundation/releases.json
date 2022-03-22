@@ -239,7 +239,7 @@
 "apache-arrow-7.0.0": "2022-02-03",
 "apache-arrow-datafusion-7.0.0": "2022-02-17",
 "apache-arrow-julia-2.2.1": "2022-03-06",
-"apache-arrow-rs-10.0.0": "2022-03-08"
+"apache-arrow-rs-11.0.0": "2022-03-21"
 },
 "asterixdb": {
 "apache-asterixdb-0.9.6": "2020-10-14",
@@ -846,7 +846,9 @@
 },
 "daffodil": {
 "apache-daffodil-3.2.1": "2021-12-20",
-"apache-daffodil-3.2.1-1.noarch": "2021-12-20"
+"apache-daffodil-3.2.1-1.noarch": "2021-12-20",
+"apache-daffodil-3.3.0": "2022-03-17",
+"apache-daffodil-3.3.0-1.noarch": "2022-03-17"
 },
 "datafu": {
 "apache-datafu-sources-1.5.0": "2020-07-06",
@@ -1428,7 +1430,8 @@
 },
 "incubator-mxnet": {
 "apache-mxnet-1.8.0-incubating": "2021-03-03",
-"apache-mxnet-1.9.0-incubating": "2021-12-17"
+"apache-mxnet-1.9.0-incubating": "2021-12-17",
+"apache-mxnet-2.0.0.beta1-incubating": "2022-03-22"
 },
 "incubator-nemo": {
 "apache-nemo-0.3-incubating-rc1": "2020-11-25"
@@ -1476,10 +1479,8 @@
 "apache-spot-1.0-incubating": "2020-07-03"
 },
 "incubator-streampipes": {
-"RELEASE_VALIDATION.md": "2021-07-22",
-"apache-streampipes-0.68.0-incubating": "2021-07-22",
-"apache-streampipes-extensions-0.68.0-incubating": "2021-07-22",
-"apache-streampipes-installer-0.68.0-incubating": "2021-07-22"
+"RELEASE_VALIDATION.md": "2022-03-04",
+"apache-streampipes-0.69.0-incubating": "2022-03-04"
 },
 "incubator-teaclave": {
 "apache-teaclave-0.3.0-incubating": "2021-08-23",
@@ -1674,6 +1675,7 @@
 "lucene": {
 "lucene-8.11.1": "2021-12-14",
 "lucene-9.0.0": "2021-12-01",
+"lucene-9.1.0": "2022-03-16",
 "pylucene-7.7.1": "2020-07-03",
 "pylucene-8.11.0": "2021-12-15",
 "pylucene-8.8.1": "2021-03-09",
@@ -3053,8 +3055,8 @@
 "qpid-dispatch-1.18.0": "2021-11-16",
 "qpid-interop-test-0.2.0": "2020-07-03",
 "qpid-interop-test-0.3.0": "2021-11-05",
-"qpid-proton-0.35.0": "2021-06-25",
 "qpid-proton-0.36.0": "2021-11-01",
+"qpid-proton-0.37.0": "2022-03-15",
 "qpid-python-1.37.0": "2020-07-03"
 },
 "ranger": {
@@ -3614,17 +3616,17 @@
 "slingstart-maven-plugin-1.9.12": "2020-05-03"
 },
 "solr": {
-"all.yaml": "2021-11-11",
-"index.yaml": "2021-11-11",
-"solr-0.5.0": "2021-11-11",
-"solr-0.5.0.tgz.prov": "2021-11-11",
-"solr-operator-0.5.0": "2021-11-11",
-"solr-operator-0.5.0.tgz.prov": "2021-11-11",
-"solr-operator-v0.5.0": "2021-11-11",
-"solrbackups.yaml": "2021-11-11",
-"solrclouds.yaml": "2021-11-11",
-"solrprometheusexporters.yaml": "2021-11-11",
-"zookeeperclusters.yaml": "2021-11-11"
+"all.yaml": "2022-03-15",
+"index.yaml": "2022-03-15",
+"solr-0.5.1": "2022-03-15",
+"solr-0.5.1.tgz.prov": "2022-03-15",
+"solr-operator-0.5.1": "2022-03-15",
+"solr-operator-0.5.1.tgz.prov": "2022-03-15",
+"solr-operator-v0.5.1": "2022-03-15",
+"solrbackups.yaml": "2022-03-15",
+"solrclouds.yaml": "2022-03-15",
+"solrprometheusexporters.yaml": "2022-03-15",
+"zookeeperclusters.yaml": "2022-03-15"
 },
 "spamassassin": {
 "Mail-SpamAssassin-3.3.2": "2020-07-06",
@@ -3730,20 +3732,20 @@
 },
 "syncope": {
 "apache-syncope-2.0.16": "2020-09-11",
-"apache-syncope-2.1.10": "2021-10-08",
+"apache-syncope-2.1.11": "2022-03-18",
 "apache-syncope-console-2.0.16": "2020-09-11",
-"apache-syncope-console-2.1.10": "2021-10-08",
+"apache-syncope-console-2.1.11": "2022-03-18",
 "apache-syncope-enduser-2.0.16": "2020-09-11",
-"apache-syncope-enduser-2.1.10": "2021-10-08",
+"apache-syncope-enduser-2.1.11": "2022-03-18",
 "org.apache.syncope.ide.eclipse.site-2.0.16": "2020-09-11",
-"org.apache.syncope.ide.eclipse.site-2.1.10": "2021-10-08",
+"org.apache.syncope.ide.eclipse.site-2.1.11": "2022-03-18",
 "syncope-2.0.16": "2020-09-11",
-"syncope-2.1.10": "2021-10-08",
+"syncope-2.1.11": "2022-03-18",
 "syncope-client-cli-2.0.16": "2020-09-11",
-"syncope-client-cli-2.1.10": "2021-10-08",
-"syncope-core-upgrade-2.1.10": "2021-10-08",
+"syncope-client-cli-2.1.11": "2022-03-18",
+"syncope-core-upgrade-2.1.11": "2022-03-18",
 "syncope-ide-netbeans-2.0.16.nbm": "2020-09-11",
-"syncope-ide-netbeans-2.1.10.nbm": "2021-10-08"
+"syncope-ide-netbeans-2.1.11.nbm": "2022-03-18"
 },
 "systemds": {
 "systemds-2.0.0": "2020-10-14",

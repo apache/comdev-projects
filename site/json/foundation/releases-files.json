@@ -710,8 +710,8 @@
 "apache-arrow-julia-2.2.1": [
 "arrow/arrow-julia-2.2.1/apache-arrow-julia-2.2.1.tar.gz"
 ],
-"apache-arrow-rs-10.0.0": [
-"arrow/arrow-rs-10.0.0/apache-arrow-rs-10.0.0.tar.gz"
+"apache-arrow-rs-11.0.0": [
+"arrow/arrow-rs-11.0.0/apache-arrow-rs-11.0.0.tar.gz"
 ]
 },
 "asterixdb": {
@@ -2664,6 +2664,12 @@
 ],
 "apache-daffodil-3.2.1-1.noarch": [
 "daffodil/3.2.1/bin/apache-daffodil-3.2.1-1.noarch.rpm"
+],
+"apache-daffodil-3.3.0": [
+"daffodil/3.3.0/src/apache-daffodil-3.3.0-src.zip"
+],
+"apache-daffodil-3.3.0-1.noarch": [
+"daffodil/3.3.0/bin/apache-daffodil-3.3.0-1.noarch.rpm"
 ]
 },
 "datafu": {
@@ -4458,6 +4464,9 @@
 ],
 "apache-mxnet-1.9.0-incubating": [
 "incubator/mxnet/1.9.0/apache-mxnet-src-1.9.0-incubating.tar.gz"
+],
+"apache-mxnet-2.0.0.beta1-incubating": [
+"incubator/mxnet/2.0.0.beta1/apache-mxnet-src-2.0.0.beta1-incubating.tar.gz"
 ]
 },
 "incubator-nemo": {
@@ -4557,18 +4566,10 @@
 },
 "incubator-streampipes": {
 "RELEASE_VALIDATION.md": [
-"incubator/streampipes/core/0.68.0/RELEASE_VALIDATION.md",
-"incubator/streampipes/extensions/0.68.0/RELEASE_VALIDATION.md",
-"incubator/streampipes/installer/0.68.0/RELEASE_VALIDATION.md"
+"incubator/streampipes/0.69.0/RELEASE_VALIDATION.md"
 ],
-"apache-streampipes-0.68.0-incubating": [
-"incubator/streampipes/core/0.68.0/apache-streampipes-0.68.0-incubating-source-release.zip"
-],
-"apache-streampipes-extensions-0.68.0-incubating": [
-"incubator/streampipes/extensions/0.68.0/apache-streampipes-extensions-0.68.0-incubating-source-release.zip"
-],
-"apache-streampipes-installer-0.68.0-incubating": [
-"incubator/streampipes/installer/0.68.0/apache-streampipes-installer-0.68.0-incubating-source-release.zip"
+"apache-streampipes-0.69.0-incubating": [
+"incubator/streampipes/0.69.0/apache-streampipes-0.69.0-incubating-source-release.zip"
 ]
 },
 "incubator-teaclave": {
@@ -5146,6 +5147,10 @@
 "lucene-9.0.0": [
 "lucene/java/9.0.0/lucene-9.0.0-src.tgz",
 "lucene/java/9.0.0/lucene-9.0.0.tgz"
+],
+"lucene-9.1.0": [
+"lucene/java/9.1.0/lucene-9.1.0-src.tgz",
+"lucene/java/9.1.0/lucene-9.1.0.tgz"
 ],
 "pylucene-7.7.1": [
 "lucene/pylucene/pylucene-7.7.1-src.tar.gz"
@@ -10052,11 +10057,11 @@
 "qpid-interop-test-0.3.0": [
 "qpid/interop-test/0.3.0/qpid-interop-test-0.3.0.tar.gz"
 ],
-"qpid-proton-0.35.0": [
-"qpid/proton/0.35.0/qpid-proton-0.35.0.tar.gz"
-],
 "qpid-proton-0.36.0": [
 "qpid/proton/0.36.0/qpid-proton-0.36.0.tar.gz"
+],
+"qpid-proton-0.37.0": [
+"qpid/proton/0.37.0/qpid-proton-0.37.0.tar.gz"
 ],
 "qpid-python-1.37.0": [
 "qpid/python/1.37.0/qpid-python-1.37.0.tar.gz"
@@ -11695,37 +11700,37 @@
 },
 "solr": {
 "all.yaml": [
-"solr/solr-operator/v0.5.0/crds/all.yaml"
+"solr/solr-operator/v0.5.1/crds/all.yaml"
 ],
 "index.yaml": [
-"solr/solr-operator/v0.5.0/helm-charts/index.yaml"
+"solr/solr-operator/v0.5.1/helm-charts/index.yaml"
 ],
-"solr-0.5.0": [
-"solr/solr-operator/v0.5.0/helm-charts/solr-0.5.0.tgz"
+"solr-0.5.1": [
+"solr/solr-operator/v0.5.1/helm-charts/solr-0.5.1.tgz"
 ],
-"solr-0.5.0.tgz.prov": [
-"solr/solr-operator/v0.5.0/helm-charts/solr-0.5.0.tgz.prov"
+"solr-0.5.1.tgz.prov": [
+"solr/solr-operator/v0.5.1/helm-charts/solr-0.5.1.tgz.prov"
 ],
-"solr-operator-0.5.0": [
-"solr/solr-operator/v0.5.0/helm-charts/solr-operator-0.5.0.tgz"
+"solr-operator-0.5.1": [
+"solr/solr-operator/v0.5.1/helm-charts/solr-operator-0.5.1.tgz"
 ],
-"solr-operator-0.5.0.tgz.prov": [
-"solr/solr-operator/v0.5.0/helm-charts/solr-operator-0.5.0.tgz.prov"
+"solr-operator-0.5.1.tgz.prov": [
+"solr/solr-operator/v0.5.1/helm-charts/solr-operator-0.5.1.tgz.prov"
 ],
-"solr-operator-v0.5.0": [
-"solr/solr-operator/v0.5.0/solr-operator-v0.5.0.tgz"
+"solr-operator-v0.5.1": [
+"solr/solr-operator/v0.5.1/solr-operator-v0.5.1.tgz"
 ],
 "solrbackups.yaml": [
-"solr/solr-operator/v0.5.0/crds/solrbackups.yaml"
+"solr/solr-operator/v0.5.1/crds/solrbackups.yaml"
 ],
 "solrclouds.yaml": [
-"solr/solr-operator/v0.5.0/crds/solrclouds.yaml"
+"solr/solr-operator/v0.5.1/crds/solrclouds.yaml"
 ],
 "solrprometheusexporters.yaml": [
-"solr/solr-operator/v0.5.0/crds/solrprometheusexporters.yaml"
+"solr/solr-operator/v0.5.1/crds/solrprometheusexporters.yaml"
 ],
 "zookeeperclusters.yaml": [
-"solr/solr-operator/v0.5.0/crds/zookeeperclusters.yaml"
+"solr/solr-operator/v0.5.1/crds/zookeeperclusters.yaml"
 ]
 },
 "spamassassin": {
@@ -12040,49 +12045,49 @@
 "apache-syncope-2.0.16": [
 "syncope/2.0.16/apache-syncope-2.0.16.deb"
 ],
-"apache-syncope-2.1.10": [
-"syncope/2.1.10/apache-syncope-2.1.10.deb"
+"apache-syncope-2.1.11": [
+"syncope/2.1.11/apache-syncope-2.1.11.deb"
 ],
 "apache-syncope-console-2.0.16": [
 "syncope/2.0.16/apache-syncope-console-2.0.16.deb"
 ],
-"apache-syncope-console-2.1.10": [
-"syncope/2.1.10/apache-syncope-console-2.1.10.deb"
+"apache-syncope-console-2.1.11": [
+"syncope/2.1.11/apache-syncope-console-2.1.11.deb"
 ],
 "apache-syncope-enduser-2.0.16": [
 "syncope/2.0.16/apache-syncope-enduser-2.0.16.deb"
 ],
-"apache-syncope-enduser-2.1.10": [
-"syncope/2.1.10/apache-syncope-enduser-2.1.10.deb"
+"apache-syncope-enduser-2.1.11": [
+"syncope/2.1.11/apache-syncope-enduser-2.1.11.deb"
 ],
 "org.apache.syncope.ide.eclipse.site-2.0.16": [
 "syncope/2.0.16/org.apache.syncope.ide.eclipse.site-2.0.16.zip"
 ],
-"org.apache.syncope.ide.eclipse.site-2.1.10": [
-"syncope/2.1.10/org.apache.syncope.ide.eclipse.site-2.1.10.zip"
+"org.apache.syncope.ide.eclipse.site-2.1.11": [
+"syncope/2.1.11/org.apache.syncope.ide.eclipse.site-2.1.11.zip"
 ],
 "syncope-2.0.16": [
 "syncope/2.0.16/syncope-2.0.16-source-release.zip",
 "syncope/2.0.16/syncope-standalone-2.0.16-distribution.zip"
 ],
-"syncope-2.1.10": [
-"syncope/2.1.10/syncope-2.1.10-source-release.zip",
-"syncope/2.1.10/syncope-standalone-2.1.10-distribution.zip"
+"syncope-2.1.11": [
+"syncope/2.1.11/syncope-2.1.11-source-release.zip",
+"syncope/2.1.11/syncope-standalone-2.1.11-distribution.zip"
 ],
 "syncope-client-cli-2.0.16": [
 "syncope/2.0.16/syncope-client-cli-2.0.16.zip"
 ],
-"syncope-client-cli-2.1.10": [
-"syncope/2.1.10/syncope-client-cli-2.1.10.zip"
+"syncope-client-cli-2.1.11": [
+"syncope/2.1.11/syncope-client-cli-2.1.11.zip"
 ],
-"syncope-core-upgrade-2.1.10": [
-"syncope/2.1.10/syncope-core-upgrade-2.1.10.zip"
+"syncope-core-upgrade-2.1.11": [
+"syncope/2.1.11/syncope-core-upgrade-2.1.11.zip"
 ],
 "syncope-ide-netbeans-2.0.16.nbm": [
 "syncope/2.0.16/syncope-ide-netbeans-2.0.16.nbm"
 ],
-"syncope-ide-netbeans-2.1.10.nbm": [
-"syncope/2.1.10/syncope-ide-netbeans-2.1.10.nbm"
+"syncope-ide-netbeans-2.1.11.nbm": [
+"syncope/2.1.11/syncope-ide-netbeans-2.1.11.nbm"
 ]
 },
 "systemds": {
