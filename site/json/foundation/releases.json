@@ -813,6 +813,7 @@
 "apache-dubbo-2.7.15": "2021-12-29",
 "apache-dubbo-3.0.5": "2021-12-30",
 "apache-dubbo-3.0.6": "2022-03-04",
+"apache-dubbo-3.0.7": "2022-04-01",
 "apache-dubbo-admin-0.4.0": "2021-11-22",
 "apache-dubbo-extensions-1.0.1": "2022-03-22",
 "apache-dubbo-extensions-3.0.0-SNAPSHOT": "2021-03-29",
@@ -820,7 +821,7 @@
 "dubbo-hessian-lite-3.2.12": "2021-11-28"
 },
 "echarts": {
-"apache-echarts-5.3.1": "2022-03-07"
+"apache-echarts-5.3.2": "2022-04-01"
 },
 "empire-db": {
 "apache-empire-db-2.5.1": "2022-01-22",
@@ -836,7 +837,7 @@
 "maven-scr-plugin-1.26.4": "2020-07-03",
 "org.apache.felix.bundlerepository-2.0.10": "2020-07-03",
 "org.apache.felix.cm.json-1.0.6": "2021-02-03",
-"org.apache.felix.configadmin-1.9.22": "2021-05-07",
+"org.apache.felix.configadmin-1.9.24": "2022-04-01",
 "org.apache.felix.configurator-1.0.14": "2021-03-06",
 "org.apache.felix.connect-0.1.0": "2020-07-03",
 "org.apache.felix.connect-0.2.0": "2020-07-03",
@@ -1207,7 +1208,6 @@
 "apache-age-0.7.0-incubating": "2022-02-04"
 },
 "incubator-annotator": {
-"apache-annotator-0.1.0-incubating": "2020-07-08",
 "apache-annotator-0.2.0-incubating": "2021-09-01"
 },
 "incubator-batchee": {
@@ -1388,6 +1388,7 @@
 "james-3.7.0": "2022-03-02",
 "james-mime4j-sources-0.8.5": "2021-07-13",
 "james-mime4j-sources-0.8.6": "2021-09-26",
+"james-mime4j-sources-0.8.7": "2022-04-01",
 "james-server-app-3.6.1": "2021-12-17",
 "james-server-app-3.6.2": "2022-01-27",
 "james-server-app-3.7.0": "2022-03-02",
@@ -3050,7 +3051,7 @@
 "maven-sling-plugin-2.4.2": "2019-06-06",
 "org.apache.sling.adapter-2.2.0": "2021-11-12",
 "org.apache.sling.adapter.annotations-2.0.0": "2020-11-16",
-"org.apache.sling.api-2.24.0": "2021-11-12",
+"org.apache.sling.api-2.25.0": "2022-04-01",
 "org.apache.sling.auth.core-1.5.6": "2021-07-19",
 "org.apache.sling.auth.form-1.0.24": "2021-06-12",
 "org.apache.sling.auth.openid-1.0.4": "2014-08-11",
@@ -3155,7 +3156,7 @@
 "org.apache.sling.distribution.journal.messages-0.4.0": "2022-01-11",
 "org.apache.sling.distribution.sample-0.1.6": "2016-02-08",
 "org.apache.sling.dynamic-include-3.3.0": "2022-01-14",
-"org.apache.sling.engine-2.8.0": "2021-11-12",
+"org.apache.sling.engine-2.9.0": "2022-04-01",
 "org.apache.sling.event-4.3.0": "2022-03-10",
 "org.apache.sling.event.api-1.0.0": "2017-04-19",
 "org.apache.sling.event.dea-1.1.4": "2018-11-09",
@@ -3324,7 +3325,7 @@
 "org.apache.sling.servlets.compat-1.0.2": "2014-07-14",
 "org.apache.sling.servlets.get-2.1.44": "2021-06-02",
 "org.apache.sling.servlets.post-2.5.0": "2021-11-12",
-"org.apache.sling.servlets.resolver-2.9.2": "2021-12-21",
+"org.apache.sling.servlets.resolver-2.9.4": "2022-04-01",
 "org.apache.sling.settings-1.4.2": "2020-11-15",
 "org.apache.sling.sitemap-1.0.6": "2022-02-01",
 "org.apache.sling.starter-12": "2022-03-18",
@@ -3412,7 +3413,7 @@
 "sling-maven-plugin.parent-2.4.2": "2019-06-06",
 "sling-servlet-archetype-1.0.4": "2015-10-19",
 "sling-slingstart-archetype-1.0.8": "2018-10-23",
-"slingfeature-maven-plugin-1.6.2": "2022-03-18",
+"slingfeature-maven-plugin-1.6.4": "2022-04-01",
 "slingstart-maven-plugin-1.9.12": "2020-05-03"
 },
 "solr": {
@@ -3557,9 +3558,6 @@
 "systemml-1.2.0-python": "2020-07-03"
 },
 "tapestry": {
-"apache-tapestry-5.3.8": "2020-07-03",
-"apache-tapestry-5.4.5": "2020-07-03",
-"apache-tapestry-5.5.0": "2020-07-03",
 "apache-tapestry-5.6.4": "2021-04-14",
 "apache-tapestry-5.7.3": "2021-08-13",
 "apache-tapestry-5.8.0": "2022-01-25"
@@ -3596,17 +3594,14 @@
 "apache-tinkerpop-3.5.2": "2022-01-14"
 },
 "tomcat": {
-"apache-tomcat-10.0.17": "2022-02-21",
-"apache-tomcat-10.0.18": "2022-03-09",
-"apache-tomcat-10.1.0-M12": "2022-03-09",
-"apache-tomcat-8.5.77": "2022-03-13",
-"apache-tomcat-9.0.59": "2022-02-21",
-"apache-tomcat-9.0.60": "2022-03-09",
+"apache-tomcat-10.0.20": "2022-03-31",
+"apache-tomcat-10.1.0-M14": "2022-03-31",
+"apache-tomcat-8.5.78": "2022-03-31",
+"apache-tomcat-9.0.62": "2022-03-31",
 "jakartaee-migration-1.0.0": "2021-05-04",
 "taglibs-standard-1.2.5": "2020-07-03",
 "tomcat-connectors-1.2.48": "2020-07-03",
 "tomcat-maven-plugin-2.2": "2020-07-03",
-"tomcat-native-1.2.31": "2021-08-26",
 "tomcat-native-1.2.32": "2022-03-17"
 },
 "tomee": {
