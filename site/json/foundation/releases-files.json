@@ -138,9 +138,9 @@
 "airflow-chart-1.5.0": [
 "airflow/helm-chart/1.5.0/airflow-chart-1.5.0-source.tar.gz"
 ],
-"apache-airflow-2.2.4": [
-"airflow/2.2.4/apache-airflow-2.2.4-source.tar.gz",
-"airflow/2.2.4/apache-airflow-2.2.4.tar.gz"
+"apache-airflow-2.2.5": [
+"airflow/2.2.5/apache-airflow-2.2.5-source.tar.gz",
+"airflow/2.2.5/apache-airflow-2.2.5.tar.gz"
 ],
 "apache-airflow-client-2.1.0": [
 "airflow/clients/python/2.1.0/apache-airflow-client-2.1.0-source.tar.gz"
@@ -377,12 +377,6 @@
 ]
 },
 "ant": {
-"apache-ant-1.10.11": [
-"ant/source/apache-ant-1.10.11-src.tar.bz2",
-"ant/source/apache-ant-1.10.11-src.tar.gz",
-"ant/source/apache-ant-1.10.11-src.tar.xz",
-"ant/source/apache-ant-1.10.11-src.zip"
-],
 "apache-ant-1.10.12": [
 "ant/source/apache-ant-1.10.12-src.tar.bz2",
 "ant/source/apache-ant-1.10.12-src.tar.gz",
@@ -703,6 +697,9 @@
 ],
 "apache-arrow-rs-11.0.0": [
 "arrow/arrow-rs-11.0.0/apache-arrow-rs-11.0.0.tar.gz"
+],
+"apache-arrow-rs-11.1.0": [
+"arrow/arrow-rs-11.1.0/apache-arrow-rs-11.1.0.tar.gz"
 ]
 },
 "asterixdb": {
@@ -2227,9 +2224,6 @@
 "apache-couchdb-3.1.2": [
 "couchdb/source/3.1.2/apache-couchdb-3.1.2.tar.gz"
 ],
-"apache-couchdb-3.2.0": [
-"couchdb/source/3.2.0/apache-couchdb-3.2.0.tar.gz"
-],
 "apache-couchdb-3.2.1": [
 "couchdb/source/3.2.1/apache-couchdb-3.2.1.tar.gz"
 ]
@@ -2242,10 +2236,6 @@
 ]
 },
 "ctakes": {
-"apache-ctakes-3.2.2": [
-"ctakes/ctakes-3.2.2/apache-ctakes-3.2.2-src.tar.gz",
-"ctakes/ctakes-3.2.2/apache-ctakes-3.2.2-src.zip"
-],
 "apache-ctakes-4.0.0": [
 "ctakes/ctakes-4.0.0/apache-ctakes-4.0.0-src.tar.gz",
 "ctakes/ctakes-4.0.0/apache-ctakes-4.0.0-src.zip"
@@ -2273,35 +2263,17 @@
 ]
 },
 "cxf": {
-"apache-cxf-3.3.12": [
-"cxf/3.3.12/apache-cxf-3.3.12-src.tar.gz",
-"cxf/3.3.12/apache-cxf-3.3.12-src.zip",
-"cxf/3.3.12/apache-cxf-3.3.12.tar.gz",
-"cxf/3.3.12/apache-cxf-3.3.12.zip"
-],
 "apache-cxf-3.3.13": [
 "cxf/3.3.13/apache-cxf-3.3.13-src.tar.gz",
 "cxf/3.3.13/apache-cxf-3.3.13-src.zip",
 "cxf/3.3.13/apache-cxf-3.3.13.tar.gz",
 "cxf/3.3.13/apache-cxf-3.3.13.zip"
 ],
-"apache-cxf-3.4.5": [
-"cxf/3.4.5/apache-cxf-3.4.5-src.tar.gz",
-"cxf/3.4.5/apache-cxf-3.4.5-src.zip",
-"cxf/3.4.5/apache-cxf-3.4.5.tar.gz",
-"cxf/3.4.5/apache-cxf-3.4.5.zip"
-],
 "apache-cxf-3.4.6": [
 "cxf/3.4.6/apache-cxf-3.4.6-src.tar.gz",
 "cxf/3.4.6/apache-cxf-3.4.6-src.zip",
 "cxf/3.4.6/apache-cxf-3.4.6.tar.gz",
 "cxf/3.4.6/apache-cxf-3.4.6.zip"
-],
-"apache-cxf-3.5.0": [
-"cxf/3.5.0/apache-cxf-3.5.0-src.tar.gz",
-"cxf/3.5.0/apache-cxf-3.5.0-src.zip",
-"cxf/3.5.0/apache-cxf-3.5.0.tar.gz",
-"cxf/3.5.0/apache-cxf-3.5.0.zip"
 ],
 "apache-cxf-3.5.1": [
 "cxf/3.5.1/apache-cxf-3.5.1-src.tar.gz",
@@ -2335,6 +2307,12 @@
 ],
 "apache-daffodil-3.3.0-1.noarch": [
 "daffodil/3.3.0/bin/apache-daffodil-3.3.0-1.noarch.rpm"
+],
+"apache-daffodil-vscode-1.0.0": [
+"daffodil/daffodil-vscode/1.0.0/src/apache-daffodil-vscode-1.0.0-src.zip"
+],
+"apache-daffodil-vscode-1.0.0.vsix": [
+"daffodil/daffodil-vscode/1.0.0/bin/apache-daffodil-vscode-1.0.0.vsix"
 ]
 },
 "datafu": {
@@ -2429,9 +2407,6 @@
 ]
 },
 "directory": {
-"ApacheDirectoryStudio-2.0.0.v20210213-M16": [
-"directory/studio/2.0.0.v20210213-M16/ApacheDirectoryStudio-2.0.0.v20210213-M16-src.zip"
-],
 "ApacheDirectoryStudio-2.0.0.v20210717-M17": [
 "directory/studio/2.0.0.v20210717-M17/ApacheDirectoryStudio-2.0.0.v20210717-M17-src.zip"
 ],
@@ -2455,43 +2430,15 @@
 "directory/apacheds/dist/2.0.0.AM26/apacheds-2.0.0.AM26.zip",
 "directory/apacheds/dist/2.0.0.AM26/apacheds-parent-2.0.0.AM26-source-release.zip"
 ],
-"fortress-core-2.0.5": [
-"directory/fortress/dist/2.0.5/fortress-core-2.0.5-source-release.zip"
-],
-"fortress-core-2.0.6": [
-"directory/fortress/dist/2.0.6/fortress-core-2.0.6-source-release.zip"
-],
 "fortress-core-2.0.7": [
 "directory/fortress/dist/2.0.7/fortress-core-2.0.7-source-release.zip"
-],
-"fortress-realm-2.0.5": [
-"directory/fortress/dist/2.0.5/fortress-realm-2.0.5-source-release.zip"
-],
-"fortress-realm-2.0.6": [
-"directory/fortress/dist/2.0.6/fortress-realm-2.0.6-source-release.zip"
 ],
 "fortress-realm-2.0.7": [
 "directory/fortress/dist/2.0.7/fortress-realm-2.0.7-source-release.zip"
 ],
-"fortress-rest-2.0.5": [
-"directory/fortress/dist/2.0.5/fortress-rest-2.0.5-source-release.zip",
-"directory/fortress/dist/2.0.5/fortress-rest-2.0.5.war"
-],
-"fortress-rest-2.0.6": [
-"directory/fortress/dist/2.0.6/fortress-rest-2.0.6-source-release.zip",
-"directory/fortress/dist/2.0.6/fortress-rest-2.0.6.war"
-],
 "fortress-rest-2.0.7": [
 "directory/fortress/dist/2.0.7/fortress-rest-2.0.7-source-release.zip",
 "directory/fortress/dist/2.0.7/fortress-rest-2.0.7.war"
-],
-"fortress-web-2.0.5": [
-"directory/fortress/dist/2.0.5/fortress-web-2.0.5-source-release.zip",
-"directory/fortress/dist/2.0.5/fortress-web-2.0.5.war"
-],
-"fortress-web-2.0.6": [
-"directory/fortress/dist/2.0.6/fortress-web-2.0.6-source-release.zip",
-"directory/fortress/dist/2.0.6/fortress-web-2.0.6.war"
 ],
 "fortress-web-2.0.7": [
 "directory/fortress/dist/2.0.7/fortress-web-2.0.7-source-release.zip",
@@ -2512,7 +2459,6 @@
 "directory/mavibot/dist/1.0.0-M8/mavibot-1.0.0-M8-src.zip"
 ],
 "p2.index": [
-"directory/studio/2.0.0.v20210213-M16/update/dependencies/p2.index",
 "directory/studio/2.0.0.v20210717-M17/update/dependencies/p2.index"
 ]
 },
@@ -3711,14 +3657,6 @@
 ]
 },
 "httpd": {
-"httpd-2.4.51": [
-"httpd/httpd-2.4.51.tar.bz2",
-"httpd/httpd-2.4.51.tar.gz"
-],
-"httpd-2.4.52": [
-"httpd/httpd-2.4.52.tar.bz2",
-"httpd/httpd-2.4.52.tar.gz"
-],
 "httpd-2.4.53": [
 "httpd/httpd-2.4.53.tar.bz2",
 "httpd/httpd-2.4.53.tar.gz"
@@ -3770,15 +3708,6 @@
 ]
 },
 "ignite": {
-"apache-ignite-2.11.0": [
-"ignite/2.11.0/apache-ignite-2.11.0-src.zip"
-],
-"apache-ignite-2.11.1": [
-"ignite/2.11.1/apache-ignite-2.11.1-src.zip"
-],
-"apache-ignite-2.11.1-nuget": [
-"ignite/2.11.1/apache-ignite-2.11.1-nuget.zip"
-],
 "apache-ignite-2.12.0": [
 "ignite/2.12.0/apache-ignite-2.12.0-src.zip"
 ],
@@ -3800,18 +3729,6 @@
 ],
 "ignite-spring-tx-ext-1.0.0": [
 "ignite/ignite-extensions/ignite-spring-tx-ext/1.0.0/ignite-spring-tx-ext-1.0.0-src.zip"
-],
-"pyignite-0.4.0": [
-"ignite/pyignite/0.4.0/pyignite-0.4.0.tar.gz",
-"ignite/pyignite/0.4.0/pyignite-0.4.0.zip"
-],
-"pyignite-0.5.0": [
-"ignite/pyignite/0.5.0/pyignite-0.5.0.tar.gz",
-"ignite/pyignite/0.5.0/pyignite-0.5.0.zip"
-],
-"pyignite-0.5.1": [
-"ignite/pyignite/0.5.1/pyignite-0.5.1.tar.gz",
-"ignite/pyignite/0.5.1/pyignite-0.5.1.zip"
 ],
 "pyignite-0.5.2": [
 "ignite/pyignite/0.5.2/pyignite-0.5.2.tar.gz",
@@ -4702,52 +4619,9 @@
 ]
 },
 "mahout": {
-"apache-mahout-distribution-0.11.0": [
-"mahout/0.11.0/apache-mahout-distribution-0.11.0-src.tar.gz",
-"mahout/0.11.0/apache-mahout-distribution-0.11.0-src.zip",
-"mahout/0.11.0/apache-mahout-distribution-0.11.0.tar.gz",
-"mahout/0.11.0/apache-mahout-distribution-0.11.0.zip"
-],
-"apache-mahout-distribution-0.11.1": [
-"mahout/0.11.1/apache-mahout-distribution-0.11.1-src.tar.gz",
-"mahout/0.11.1/apache-mahout-distribution-0.11.1-src.zip",
-"mahout/0.11.1/apache-mahout-distribution-0.11.1.tar.gz",
-"mahout/0.11.1/apache-mahout-distribution-0.11.1.zip"
-],
-"apache-mahout-distribution-0.11.2": [
-"mahout/0.11.2/apache-mahout-distribution-0.11.2-src.tar.gz",
-"mahout/0.11.2/apache-mahout-distribution-0.11.2-src.zip",
-"mahout/0.11.2/apache-mahout-distribution-0.11.2.tar.gz",
-"mahout/0.11.2/apache-mahout-distribution-0.11.2.zip"
-],
-"apache-mahout-distribution-0.12.0": [
-"mahout/0.12.0/apache-mahout-distribution-0.12.0-src.tar.gz",
-"mahout/0.12.0/apache-mahout-distribution-0.12.0-src.zip",
-"mahout/0.12.0/apache-mahout-distribution-0.12.0.tar.gz",
-"mahout/0.12.0/apache-mahout-distribution-0.12.0.zip"
-],
-"apache-mahout-distribution-0.12.1": [
-"mahout/0.12.1/apache-mahout-distribution-0.12.1-src.tar.gz",
-"mahout/0.12.1/apache-mahout-distribution-0.12.1-src.zip",
-"mahout/0.12.1/apache-mahout-distribution-0.12.1.tar.gz",
-"mahout/0.12.1/apache-mahout-distribution-0.12.1.zip"
-],
-"apache-mahout-distribution-0.12.2": [
-"mahout/0.12.2/apache-mahout-distribution-0.12.2-src.tar.gz",
-"mahout/0.12.2/apache-mahout-distribution-0.12.2-src.zip",
-"mahout/0.12.2/apache-mahout-distribution-0.12.2.tar.gz",
-"mahout/0.12.2/apache-mahout-distribution-0.12.2.zip"
-],
-"apache-mahout-distribution-0.13.0": [
-"mahout/0.13.0/apache-mahout-distribution-0.13.0-src.tar.gz",
-"mahout/0.13.0/apache-mahout-distribution-0.13.0.tar.gz"
-],
 "apache-mahout-distribution-14.1": [
 "mahout/14.1/apache-mahout-distribution-14.1.tar.bz2",
 "mahout/14.1/apache-mahout-distribution-14.1.tar.gz"
-],
-"mahout-0.14.0": [
-"mahout/0.14.0/mahout-0.14.0-source-release.zip"
 ],
 "mahout-14.1": [
 "mahout/14.1/mahout-14.1-source-release.zip"
@@ -4895,8 +4769,8 @@
 "maven-checkstyle-plugin-3.1.2": [
 "maven/plugins/maven-checkstyle-plugin-3.1.2-source-release.zip"
 ],
-"maven-clean-plugin-3.1.0": [
-"maven/plugins/maven-clean-plugin-3.1.0-source-release.zip"
+"maven-clean-plugin-3.2.0": [
+"maven/plugins/maven-clean-plugin-3.2.0-source-release.zip"
 ],
 "maven-common-artifact-filters-3.2.0": [
 "maven/shared/maven-common-artifact-filters-3.2.0-source-release.zip"
@@ -5087,8 +4961,8 @@
 "maven-wrapper-plugin-3.0.2": [
 "maven/plugins/maven-wrapper-plugin-3.0.2-source-release.zip"
 ],
-"surefire-3.0.0-M5": [
-"maven/surefire/surefire-3.0.0-M5-source-release.zip"
+"surefire-3.0.0-M6": [
+"maven/surefire/surefire-3.0.0-M6-source-release.zip"
 ],
 "wagon-3.5.1": [
 "maven/wagon/wagon-3.5.1-source-release.zip"
@@ -5109,11 +4983,6 @@
 ]
 },
 "mina": {
-"apache-ftpserver-1.1.3": [
-"mina/ftpserver/1.1.3/apache-ftpserver-1.1.3-src.tar.bz2",
-"mina/ftpserver/1.1.3/apache-ftpserver-1.1.3-src.tar.gz",
-"mina/ftpserver/1.1.3/apache-ftpserver-1.1.3-src.zip"
-],
 "apache-ftpserver-1.1.4": [
 "mina/ftpserver/1.1.4/apache-ftpserver-1.1.4-src.tar.bz2",
 "mina/ftpserver/1.1.4/apache-ftpserver-1.1.4-src.tar.gz",
@@ -7698,9 +7567,6 @@
 ]
 },
 "nifi": {
-"nifi-1.15.3": [
-"nifi/1.15.3/nifi-1.15.3-source-release.zip"
-],
 "nifi-1.16.0": [
 "nifi/1.16.0/nifi-1.16.0-source-release.zip"
 ],
@@ -8718,15 +8584,6 @@
 "apache-qpid-protonj2-1.0.0-M4": [
 "qpid/protonj2/1.0.0-M4/apache-qpid-protonj2-1.0.0-M4-src.tar.gz"
 ],
-"qpid-dispatch-1.17.0": [
-"qpid/dispatch/1.17.0/qpid-dispatch-1.17.0.tar.gz"
-],
-"qpid-dispatch-1.17.1": [
-"qpid/dispatch/1.17.1/qpid-dispatch-1.17.1.tar.gz"
-],
-"qpid-dispatch-1.18.0": [
-"qpid/dispatch/1.18.0/qpid-dispatch-1.18.0.tar.gz"
-],
 "qpid-dispatch-1.19.0": [
 "qpid/dispatch/1.19.0/qpid-dispatch-1.19.0.tar.gz"
 ],
@@ -8860,89 +8717,11 @@
 ]
 },
 "samza": {
-"apache-samza-0.10.0": [
-"samza/0.10.0/apache-samza-0.10.0-src.tgz"
-],
-"apache-samza-0.10.1": [
-"samza/0.10.1/apache-samza-0.10.1-src.tgz"
-],
-"apache-samza-0.11.0": [
-"samza/0.11.0/apache-samza-0.11.0-src.tgz"
-],
-"apache-samza-0.12.0": [
-"samza/0.12.0/apache-samza-0.12.0-src.tgz"
-],
-"apache-samza-0.13.0": [
-"samza/0.13.0/apache-samza-0.13.0-src.tgz"
-],
-"apache-samza-0.13.1": [
-"samza/0.13.1/apache-samza-0.13.1-src.tgz"
-],
-"apache-samza-0.14.0": [
-"samza/0.14.0/apache-samza-0.14.0-src.tgz"
-],
-"apache-samza-0.14.1": [
-"samza/0.14.1/apache-samza-0.14.1-src.tgz"
-],
-"apache-samza-0.9.0": [
-"samza/0.9.0/apache-samza-0.9.0-src.tgz"
-],
-"apache-samza-0.9.1": [
-"samza/0.9.1/apache-samza-0.9.1-src.tgz"
-],
-"apache-samza-1.0.0": [
-"samza/1.0.0/apache-samza-1.0.0-src.tgz"
-],
-"apache-samza-1.1.0": [
-"samza/1.1.0/apache-samza-1.1.0-src.tgz"
-],
-"apache-samza-1.2.0": [
-"samza/1.2.0/apache-samza-1.2.0-src.tgz"
-],
-"apache-samza-1.3.0": [
-"samza/1.3.0/apache-samza-1.3.0-src.tgz"
-],
-"apache-samza-1.3.1": [
-"samza/1.3.1/apache-samza-1.3.1-src.tgz"
-],
-"apache-samza-1.4.0": [
-"samza/1.4.0/apache-samza-1.4.0-src.tgz"
-],
-"apache-samza-1.5.0": [
-"samza/1.5.0/apache-samza-1.5.0-src.tgz"
-],
-"apache-samza-1.5.1": [
-"samza/1.5.1/apache-samza-1.5.1-src.tgz"
-],
 "apache-samza-1.6.0": [
 "samza/1.6.0/apache-samza-1.6.0-src.tgz"
 ],
-"samza-tools-0.14.0": [
-"samza/0.14.0/samza-tools-0.14.0.tgz"
-],
-"samza-tools-0.14.1": [
-"samza/0.14.1/samza-tools-0.14.1.tgz"
-],
-"samza-tools-1.0.0": [
-"samza/1.0.0/samza-tools-1.0.0.tgz"
-],
-"samza-tools_2.11-1.1.0": [
-"samza/1.1.0/samza-tools_2.11-1.1.0.tgz"
-],
-"samza-tools_2.11-1.2.0": [
-"samza/1.2.0/samza-tools_2.11-1.2.0.tgz"
-],
-"samza-tools_2.11-1.3.0": [
-"samza/1.3.0/samza-tools_2.11-1.3.0.tgz"
-],
-"samza-tools_2.11-1.3.1": [
-"samza/1.3.1/samza-tools_2.11-1.3.1.tgz"
-],
-"samza-tools_2.11-1.5.0": [
-"samza/1.5.0/samza-tools_2.11-1.5.0.tgz"
-],
-"samza-tools_2.11-1.5.1": [
-"samza/1.5.1/samza-tools_2.11-1.5.1.tgz"
+"apache-samza-1.7.0": [
+"samza/1.7.0/apache-samza-1.7.0-src.tgz"
 ]
 },
 "santuario": {
@@ -10376,62 +10155,11 @@
 ]
 },
 "streams": {
-"apache-streams-0.5.1": [
-"streams/releases/0.5.1/apache-streams-0.5.1-source-release.zip"
-],
-"apache-streams-0.6.0": [
-"streams/releases/0.6.0/apache-streams-0.6.0-source-release.zip"
-],
 "apache-streams-0.6.1": [
 "streams/releases/0.6.1/apache-streams-0.6.1-source-release.zip"
-],
-"streams-0.2-incubating": [
-"streams/releases/0.2-incubating/streams-project/streams-project-0.2-incubating-source-release.zip"
-],
-"streams-0.3-incubating": [
-"streams/releases/0.3-incubating/streams-project-0.3-incubating-source-release.zip"
-],
-"streams-0.4-incubating": [
-"streams/releases/0.4-incubating/streams-project-0.4-incubating-source-release.zip"
-],
-"streams-0.4.1-incubating": [
-"streams/releases/0.4.1-incubating/streams-project-0.4.1-incubating-source-release.zip"
-],
-"streams-0.5-incubating": [
-"streams/releases/0.5-incubating/streams-project-0.5-incubating-source-release.zip"
-],
-"streams-examples-0.3-incubating": [
-"streams/releases/0.3-incubating/streams-examples-0.3-incubating-source-release.zip"
-],
-"streams-examples-0.4-incubating": [
-"streams/releases/0.4-incubating/streams-examples-0.4-incubating-source-release.zip"
-],
-"streams-examples-0.4.1-incubating": [
-"streams/releases/0.4.1-incubating/streams-examples-0.4.1-incubating-source-release.zip"
-],
-"streams-examples-0.5-incubating": [
-"streams/releases/0.5-incubating/streams-examples-0.5-incubating-source-release.zip"
-],
-"streams-master-0.3-incubating": [
-"streams/releases/0.3-incubating/streams-master-0.3-incubating-source-release.zip"
-],
-"streams-master-0.4-incubating": [
-"streams/releases/0.4-incubating/streams-master-0.4-incubating-source-release.zip"
-],
-"streams-master-0.4.1-incubating": [
-"streams/releases/0.4.1-incubating/streams-master-0.4.1-incubating-source-release.zip"
 ]
 },
 "struts": {
-"struts-2.5.28.3": [
-"struts/2.5.28.3/struts-2.5.28.3-all.zip",
-"struts/2.5.28.3/struts-2.5.28.3-apps.zip",
-"struts/2.5.28.3/struts-2.5.28.3-lib.zip",
-"struts/2.5.28.3/struts-2.5.28.3-src.zip"
-],
-"struts-2.5.28.3-min": [
-"struts/2.5.28.3/struts-2.5.28.3-min-lib.zip"
-],
 "struts-2.5.29": [
 "struts/2.5.29/struts-2.5.29-all.zip",
 "struts/2.5.29/struts-2.5.29-apps.zip",
@@ -10440,6 +10168,15 @@
 ],
 "struts-2.5.29-min": [
 "struts/2.5.29/struts-2.5.29-min-lib.zip"
+],
+"struts-2.5.30": [
+"struts/2.5.30/struts-2.5.30-all.zip",
+"struts/2.5.30/struts-2.5.30-apps.zip",
+"struts/2.5.30/struts-2.5.30-lib.zip",
+"struts/2.5.30/struts-2.5.30-src.zip"
+],
+"struts-2.5.30-min": [
+"struts/2.5.30/struts-2.5.30-min-lib.zip"
 ],
 "struts2-secure-jakarta-multipart-parser-plugin-1.1": [
 "struts/struts-extras/struts2-secure-jakarta-multipart-parser-plugin/1.1/struts2-secure-jakarta-multipart-parser-plugin-1.1-source-release.zip"
@@ -10497,68 +10234,8 @@
 ]
 },
 "superset": {
-"apache-superset-0.38.1": [
-"superset/0.38.1/apache-superset-0.38.1-source.tar.gz"
-],
-"apache-superset-1.0.0": [
-"superset/1.0.0/apache-superset-1.0.0-source.tar.gz"
-],
-"apache-superset-1.0.1": [
-"superset/1.0.1/apache-superset-1.0.1-source.tar.gz"
-],
-"apache-superset-1.1.0": [
-"superset/1.1.0/apache-superset-1.1.0-source.tar.gz"
-],
-"apache-superset-1.2.0": [
-"superset/1.2.0/apache-superset-1.2.0-source.tar.gz"
-],
-"apache-superset-1.3.0": [
-"superset/1.3.0/apache-superset-1.3.0-source.tar.gz"
-],
-"apache-superset-1.3.1": [
-"superset/1.3.1/apache-superset-1.3.1-source.tar.gz"
-],
-"apache-superset-1.3.2": [
-"superset/1.3.2/apache-superset-1.3.2-source.tar.gz"
-],
-"apache-superset-1.4.0": [
-"superset/1.4.0/apache-superset-1.4.0-source.tar.gz"
-],
-"apache-superset-1.4.1": [
-"superset/1.4.1/apache-superset-1.4.1-source.tar.gz"
-],
 "apache-superset-1.4.2": [
 "superset/1.4.2/apache-superset-1.4.2-source.tar.gz"
-],
-"apache-superset-incubating-0.34.0": [
-"superset/0.34.0/apache-superset-incubating-0.34.0-source.tar.gz"
-],
-"apache-superset-incubating-0.34.1": [
-"superset/0.34.1/apache-superset-incubating-0.34.1-source.tar.gz"
-],
-"apache-superset-incubating-0.35.0": [
-"superset/0.35.0/apache-superset-incubating-0.35.0-source.tar.gz"
-],
-"apache-superset-incubating-0.35.1": [
-"superset/0.35.1/apache-superset-incubating-0.35.1-source.tar.gz"
-],
-"apache-superset-incubating-0.35.2": [
-"superset/0.35.2/apache-superset-incubating-0.35.2-source.tar.gz"
-],
-"apache-superset-incubating-0.36.0": [
-"superset/0.36.0/apache-superset-incubating-0.36.0-source.tar.gz"
-],
-"apache-superset-incubating-0.37.0": [
-"superset/0.37.0/apache-superset-incubating-0.37.0-source.tar.gz"
-],
-"apache-superset-incubating-0.37.1": [
-"superset/0.37.1/apache-superset-incubating-0.37.1-source.tar.gz"
-],
-"apache-superset-incubating-0.37.2": [
-"superset/0.37.2/apache-superset-incubating-0.37.2-source.tar.gz"
-],
-"apache-superset-incubating-0.38.0": [
-"superset/0.38.0/apache-superset-incubating-0.38.0-source.tar.gz"
 ]
 },
 "synapse": {
