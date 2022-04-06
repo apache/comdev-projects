@@ -427,6 +427,9 @@
 ]
 },
 "apisix": {
+"apache-apisix-2.10.5": [
+"apisix/2.10.5/apache-apisix-2.10.5-src.tgz"
+],
 "apache-apisix-2.13.0": [
 "apisix/2.13.0/apache-apisix-2.13.0-src.tgz"
 ],
@@ -2316,12 +2319,6 @@
 ]
 },
 "datafu": {
-"apache-datafu-sources-1.5.0": [
-"datafu/apache-datafu-1.5.0/apache-datafu-sources-1.5.0.tgz"
-],
-"apache-datafu-sources-1.6.0": [
-"datafu/apache-datafu-1.6.0/apache-datafu-sources-1.6.0.tgz"
-],
 "apache-datafu-sources-1.6.1": [
 "datafu/apache-datafu-1.6.1/apache-datafu-sources-1.6.1.tgz"
 ]
@@ -3746,6 +3743,9 @@
 "incubator-age": {
 "apache-age-0.7.0-incubating": [
 "incubator/age/0.7.0/apache-age-0.7.0-incubating-src.tar.gz"
+],
+"apache-age-viewer-1.0.0-rc2-incubating": [
+"incubator/age/viewer/apache-age-viewer-1.0.0-incubating-rc2/apache-age-viewer-1.0.0-rc2-incubating-src.tar.gz"
 ]
 },
 "incubator-annotator": {
@@ -4135,26 +4135,17 @@
 "james/server/james-2.3.2.1-src.tar.gz",
 "james/server/james-2.3.2.1-src.zip"
 ],
-"james-3.6.1": [
-"james/server/3.6.1/james-project-3.6.1-source-release.zip"
-],
 "james-3.6.2": [
 "james/server/3.6.2/james-project-3.6.2-source-release.zip"
 ],
 "james-3.7.0": [
 "james/server/3.7.0/james-project-3.7.0-source-release.zip"
 ],
-"james-mime4j-sources-0.8.5": [
-"james/mime4j/0.8.5/james-mime4j-sources-0.8.5.zip"
-],
 "james-mime4j-sources-0.8.6": [
 "james/mime4j/0.8.6/james-mime4j-sources-0.8.6.zip"
 ],
 "james-mime4j-sources-0.8.7": [
 "james/mime4j/0.8.7/james-mime4j-sources-0.8.7.zip"
-],
-"james-server-app-3.6.1": [
-"james/server/3.6.1/james-server-app-3.6.1-app.zip"
 ],
 "james-server-app-3.6.2": [
 "james/server/3.6.2/james-server-app-3.6.2-app.zip"
@@ -4167,12 +4158,10 @@
 "james/server/3.7.0/james-server-cassandra-guice.zip"
 ],
 "james-server-distributed-guice": [
-"james/server/3.6.1/james-server-distributed-guice.zip",
 "james/server/3.6.2/james-server-distributed-guice.zip",
 "james/server/3.7.0/james-server-distributed-guice.zip"
 ],
 "james-server-jpa-guice": [
-"james/server/3.6.1/james-server-jpa-guice.zip",
 "james/server/3.6.2/james-server-jpa-guice.zip",
 "james/server/3.7.0/james-server-jpa-guice.zip"
 ]
@@ -4232,21 +4221,6 @@
 ]
 },
 "juneau": {
-"apache-juneau-7.0.1": [
-"juneau/source/juneau-7.0.1/apache-juneau-7.0.1-src.zip"
-],
-"apache-juneau-8.0.0": [
-"juneau/source/juneau-8.0.0/apache-juneau-8.0.0-src.zip"
-],
-"apache-juneau-8.1.0": [
-"juneau/source/juneau-8.1.0/apache-juneau-8.1.0-src.zip"
-],
-"apache-juneau-8.1.2": [
-"juneau/source/juneau-8.1.2/apache-juneau-8.1.2-src.zip"
-],
-"apache-juneau-8.1.3": [
-"juneau/source/juneau-8.1.3/apache-juneau-8.1.3-src.zip"
-],
 "apache-juneau-8.2.0": [
 "juneau/source/juneau-8.2.0/apache-juneau-8.2.0-src.zip"
 ]
@@ -7890,10 +7864,6 @@
 "ozone/1.1.0/ozone-1.1.0-src.tar.gz",
 "ozone/1.1.0/ozone-1.1.0.tar.gz"
 ],
-"ozone-1.2.0": [
-"ozone/1.2.0/ozone-1.2.0-src.tar.gz",
-"ozone/1.2.0/ozone-1.2.0.tar.gz"
-],
 "ozone-1.2.1": [
 "ozone/1.2.1/ozone-1.2.1-src.tar.gz",
 "ozone/1.2.1/ozone-1.2.1.tar.gz"
@@ -9686,8 +9656,8 @@
 "org.apache.sling.scripting.console-1.0.0": [
 "sling/org.apache.sling.scripting.console-1.0.0-source-release.zip"
 ],
-"org.apache.sling.scripting.core-2.4.4": [
-"sling/org.apache.sling.scripting.core-2.4.4-source-release.zip"
+"org.apache.sling.scripting.core-2.4.6": [
+"sling/org.apache.sling.scripting.core-2.4.6-source-release.zip"
 ],
 "org.apache.sling.scripting.el-api-1.0.4": [
 "sling/org.apache.sling.scripting.el-api-1.0.4-source-release.zip"

@@ -143,6 +143,7 @@
 "apache-any23-cli-2.7": "2022-03-03"
 },
 "apisix": {
+"apache-apisix-2.10.5": "2022-04-05",
 "apache-apisix-2.13.0": "2022-03-24",
 "apache-apisix-dashboard-2.10.0": "2021-12-15",
 "apache-apisix-dashboard-2.10.1": "2021-12-23",
@@ -737,8 +738,6 @@
 "apache-daffodil-vscode-1.0.0.vsix": "2022-03-31"
 },
 "datafu": {
-"apache-datafu-sources-1.5.0": "2020-07-06",
-"apache-datafu-sources-1.6.0": "2020-07-06",
 "apache-datafu-sources-1.6.1": "2021-10-11"
 },
 "datasketches": {
@@ -1182,7 +1181,8 @@
 "apache-impala-4.0.0": "2021-07-12"
 },
 "incubator-age": {
-"apache-age-0.7.0-incubating": "2022-02-04"
+"apache-age-0.7.0-incubating": "2022-02-04",
+"apache-age-viewer-1.0.0-rc2-incubating": "2022-04-05"
 },
 "incubator-annotator": {
 "apache-annotator-0.2.0-incubating": "2021-09-01"
@@ -1360,18 +1360,15 @@
 "apache-jspf-sources-1.0.1": "2020-07-06",
 "hupa-0.0.2": "2021-07-19",
 "james-2.3.2.1": "2020-07-06",
-"james-3.6.1": "2021-12-17",
 "james-3.6.2": "2022-01-27",
 "james-3.7.0": "2022-03-02",
-"james-mime4j-sources-0.8.5": "2021-07-13",
 "james-mime4j-sources-0.8.6": "2021-09-26",
 "james-mime4j-sources-0.8.7": "2022-04-01",
-"james-server-app-3.6.1": "2021-12-17",
 "james-server-app-3.6.2": "2022-01-27",
 "james-server-app-3.7.0": "2022-03-02",
 "james-server-cassandra-guice": "2022-01-27",
-"james-server-distributed-guice": "2021-12-25",
-"james-server-jpa-guice": "2021-12-25"
+"james-server-distributed-guice": "2022-01-27",
+"james-server-jpa-guice": "2022-02-07"
 },
 "jclouds": {
 "jclouds-2.4.0": "2021-09-10",
@@ -1399,11 +1396,6 @@
 "scout-1.2.8": "2020-07-06"
 },
 "juneau": {
-"apache-juneau-7.0.1": "2020-07-06",
-"apache-juneau-8.0.0": "2020-07-06",
-"apache-juneau-8.1.0": "2020-07-06",
-"apache-juneau-8.1.2": "2020-07-06",
-"apache-juneau-8.1.3": "2020-07-06",
 "apache-juneau-8.2.0": "2020-10-02"
 },
 "kafka": {
@@ -2607,7 +2599,6 @@
 },
 "ozone": {
 "ozone-1.1.0": "2021-04-17",
-"ozone-1.2.0": "2021-11-17",
 "ozone-1.2.1": "2021-12-18"
 },
 "parquet": {
@@ -3228,7 +3219,7 @@
 "org.apache.sling.scripting.api-2.2.0": "2017-05-01",
 "org.apache.sling.scripting.bundle.tracker-0.1.0": "2019-09-01",
 "org.apache.sling.scripting.console-1.0.0": "2013-03-05",
-"org.apache.sling.scripting.core-2.4.4": "2022-02-14",
+"org.apache.sling.scripting.core-2.4.6": "2022-04-05",
 "org.apache.sling.scripting.el-api-1.0.4": "2020-11-27",
 "org.apache.sling.scripting.freemarker-1.0.4": "2020-10-08",
 "org.apache.sling.scripting.groovy-1.2.0": "2020-04-07",
