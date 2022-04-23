@@ -208,8 +208,8 @@
 "apache-airflow-providers-cncf-kubernetes-4.0.0": [
 "airflow/providers/apache-airflow-providers-cncf-kubernetes-4.0.0.tar.gz"
 ],
-"apache-airflow-providers-databricks-2.5.0": [
-"airflow/providers/apache-airflow-providers-databricks-2.5.0.tar.gz"
+"apache-airflow-providers-databricks-2.6.0": [
+"airflow/providers/apache-airflow-providers-databricks-2.6.0.tar.gz"
 ],
 "apache-airflow-providers-datadog-2.0.4": [
 "airflow/providers/apache-airflow-providers-datadog-2.0.4.tar.gz"
@@ -3250,8 +3250,8 @@
 "apache-groovy-3.0.10": [
 "groovy/3.0.10/sources/apache-groovy-src-3.0.10.zip"
 ],
-"apache-groovy-4.0.1": [
-"groovy/4.0.1/sources/apache-groovy-src-4.0.1.zip"
+"apache-groovy-4.0.2": [
+"groovy/4.0.2/sources/apache-groovy-src-4.0.2.zip"
 ],
 "apache-groovy-sdk-2.4.21": [
 "groovy/2.4.21/distribution/apache-groovy-sdk-2.4.21.zip"
@@ -3262,8 +3262,8 @@
 "apache-groovy-sdk-3.0.10": [
 "groovy/3.0.10/distribution/apache-groovy-sdk-3.0.10.zip"
 ],
-"apache-groovy-sdk-4.0.1": [
-"groovy/4.0.1/distribution/apache-groovy-sdk-4.0.1.zip"
+"apache-groovy-sdk-4.0.2": [
+"groovy/4.0.2/distribution/apache-groovy-sdk-4.0.2.zip"
 ]
 },
 "guacamole": {
@@ -3646,14 +3646,11 @@
 ]
 },
 "incubator-age": {
-"apache-age-0.7.0-incubating": [
-"incubator/age/0.7.0/apache-age-0.7.0-incubating-src.tar.gz"
-],
 "apache-age-1.0.0-incubating": [
 "incubator/age/1.0.0/apache-age-1.0.0-incubating-src.tar.gz"
 ],
 "apache-age-viewer-1.0.0-incubating": [
-"incubator/age/viewer/1.0.0/apache-age-viewer-1.0.0-incubating.zip"
+"incubator/age/viewer-1.0.0/apache-age-viewer-1.0.0-incubating.zip"
 ]
 },
 "incubator-annotator": {
@@ -4228,6 +4225,14 @@
 "karaf/4.3.6/apache-karaf-4.3.6.zip",
 "karaf/4.3.6/apache-karaf-minimal-4.3.6.tar.gz",
 "karaf/4.3.6/apache-karaf-minimal-4.3.6.zip"
+],
+"apache-karaf-4.4.0": [
+"karaf/4.4.0/apache-karaf-4.4.0-src.tar.gz",
+"karaf/4.4.0/apache-karaf-4.4.0-src.zip",
+"karaf/4.4.0/apache-karaf-4.4.0.tar.gz",
+"karaf/4.4.0/apache-karaf-4.4.0.zip",
+"karaf/4.4.0/apache-karaf-minimal-4.4.0.tar.gz",
+"karaf/4.4.0/apache-karaf-minimal-4.4.0.zip"
 ],
 "apache-karaf-cave-3.0.0": [
 "karaf/cave/3.0.0/apache-karaf-cave-3.0.0-src.tar.gz",
