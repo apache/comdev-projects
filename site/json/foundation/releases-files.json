@@ -14,9 +14,6 @@
 "Apache.NMS-1.5.1": [
 "activemq/apache-nms/1.5.0/Apache.NMS-1.5.1-src.zip"
 ],
-"Apache.NMS-1.7.1": [
-"activemq/apache-nms/1.7.0/Apache.NMS-1.7.1-src.zip"
-],
 "Apache.NMS-1.8.0": [
 "activemq/apache-nms-api/1.8.0/Apache.NMS-1.8.0-src.zip"
 ],
@@ -32,41 +29,14 @@
 "Apache.NMS.2.0.0.snupkg": [
 "activemq/apache-nms-api/2.0.0/Apache.NMS.2.0.0.snupkg"
 ],
-"Apache.NMS.AMQP-1.8.0": [
-"activemq/apache-nms-amqp/1.8.0/Apache.NMS.AMQP-1.8.0-src.zip"
-],
-"Apache.NMS.AMQP-1.8.1": [
-"activemq/apache-nms-amqp/1.8.1/Apache.NMS.AMQP-1.8.1-src.zip"
-],
-"Apache.NMS.AMQP-1.8.2": [
-"activemq/apache-nms-amqp/1.8.2/Apache.NMS.AMQP-1.8.2-src.zip"
-],
 "Apache.NMS.AMQP-2.0.0": [
-"activemq/apache-nms-activemq/2.0.0/Apache.NMS.AMQP-2.0.0-src.zip",
 "activemq/apache-nms-amqp/2.0.0/Apache.NMS.AMQP-2.0.0-src.zip"
 ],
-"Apache.NMS.AMQP.1.8.0.nupkg": [
-"activemq/apache-nms-amqp/1.8.0/Apache.NMS.AMQP.1.8.0.nupkg"
-],
-"Apache.NMS.AMQP.1.8.1.nupkg": [
-"activemq/apache-nms-amqp/1.8.1/Apache.NMS.AMQP.1.8.1.nupkg"
-],
-"Apache.NMS.AMQP.1.8.2.nupkg": [
-"activemq/apache-nms-amqp/1.8.2/Apache.NMS.AMQP.1.8.2.nupkg"
-],
-"Apache.NMS.AMQP.1.8.2.snupkg": [
-"activemq/apache-nms-amqp/1.8.2/Apache.NMS.AMQP.1.8.2.snupkg"
-],
 "Apache.NMS.AMQP.2.0.0.nupkg": [
-"activemq/apache-nms-activemq/2.0.0/Apache.NMS.AMQP.2.0.0.nupkg",
 "activemq/apache-nms-amqp/2.0.0/Apache.NMS.AMQP.2.0.0.nupkg"
 ],
 "Apache.NMS.AMQP.2.0.0.snupkg": [
-"activemq/apache-nms-activemq/2.0.0/Apache.NMS.AMQP.2.0.0.snupkg",
 "activemq/apache-nms-amqp/2.0.0/Apache.NMS.AMQP.2.0.0.snupkg"
-],
-"Apache.NMS.ActiveMQ-1.7.2": [
-"activemq/apache-nms/1.7.0/Apache.NMS.ActiveMQ-1.7.2-src.zip"
 ],
 "Apache.NMS.ActiveMQ-1.8.0": [
 "activemq/apache-nms-activemq/1.8.0/Apache.NMS.ActiveMQ-1.8.0-src.zip"
@@ -967,9 +937,6 @@
 "apache-camel-quarkus-2.8.0": [
 "camel/camel-quarkus/2.8.0/apache-camel-quarkus-2.8.0-src.zip"
 ],
-"camel-k-1.9.0": [
-"camel/camel-k/1.9.0/camel-k-1.9.0-sources.tar.gz"
-],
 "camel-k-client-1.8.2-linux": [
 "camel/camel-k/1.8.2/camel-k-client-1.8.2-linux-64bit.tar.gz"
 ],
@@ -1002,6 +969,9 @@
 ],
 "camel-k-sources-1.8.2": [
 "camel/camel-k/1.8.2/camel-k-sources-1.8.2.tar.gz"
+],
+"camel-k-sources-1.9.0": [
+"camel/camel-k/1.9.0/camel-k-sources-1.9.0.tar.gz"
 ],
 "camel-kafka-connector-1.0.0": [
 "camel/camel-kafka-connector/1.0.0/camel-kafka-connector-1.0.0-src.zip"
@@ -8644,11 +8614,11 @@
 "apache-qpid-jms-0.61.0": [
 "qpid/jms/0.61.0/apache-qpid-jms-0.61.0-src.tar.gz"
 ],
-"apache-qpid-jms-1.5.0": [
-"qpid/jms/1.5.0/apache-qpid-jms-1.5.0-src.tar.gz"
-],
 "apache-qpid-jms-1.6.0": [
 "qpid/jms/1.6.0/apache-qpid-jms-1.6.0-src.tar.gz"
+],
+"apache-qpid-jms-2.0.0": [
+"qpid/jms/2.0.0/apache-qpid-jms-2.0.0-src.tar.gz"
 ],
 "apache-qpid-jms-amqp-0-x-6.4.0": [
 "qpid/jms-amqp-0-x/6.4.0/apache-qpid-jms-amqp-0-x-6.4.0-src.tar.gz"
@@ -8656,23 +8626,14 @@
 "apache-qpid-proton-j-0.33.10": [
 "qpid/proton-j/0.33.10/apache-qpid-proton-j-0.33.10-src.tar.gz"
 ],
-"apache-qpid-protonj2-1.0.0-M4": [
-"qpid/protonj2/1.0.0-M4/apache-qpid-protonj2-1.0.0-M4-src.tar.gz"
-],
 "apache-qpid-protonj2-1.0.0-M5": [
 "qpid/protonj2/1.0.0-M5/apache-qpid-protonj2-1.0.0-M5-src.tar.gz"
 ],
 "qpid-dispatch-1.19.0": [
 "qpid/dispatch/1.19.0/qpid-dispatch-1.19.0.tar.gz"
 ],
-"qpid-interop-test-0.2.0": [
-"qpid/interop-test/0.2.0/qpid-interop-test-0.2.0.tar.gz"
-],
 "qpid-interop-test-0.3.0": [
 "qpid/interop-test/0.3.0/qpid-interop-test-0.3.0.tar.gz"
-],
-"qpid-proton-0.36.0": [
-"qpid/proton/0.36.0/qpid-proton-0.36.0.tar.gz"
 ],
 "qpid-proton-0.37.0": [
 "qpid/proton/0.37.0/qpid-proton-0.37.0.tar.gz"
