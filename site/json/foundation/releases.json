@@ -716,7 +716,7 @@
 },
 "datasketches": {
 "apache-datasketches-hive-1.2.0": "2022-03-07",
-"apache-datasketches-java-3.1.0": "2022-01-26",
+"apache-datasketches-java-3.2.0": "2022-04-27",
 "apache-datasketches-memory-2.0.0": "2021-09-14",
 "apache-datasketches-pig-1.1.0": "2022-02-17",
 "apache-datasketches-postgresql-1.5.0": "2021-08-09",
@@ -794,7 +794,7 @@
 "atomos-distribution-1.0.0": "2021-02-23",
 "gogo-5": "2020-07-03",
 "javax.servlet-1.0.0": "2020-07-03",
-"maven-bundle-plugin-5.1.4": "2022-01-06",
+"maven-bundle-plugin-5.1.5": "2022-04-28",
 "maven-junit4osgi-plugin-1.0.0": "2020-07-03",
 "maven-scr-plugin-1.26.4": "2020-07-03",
 "org.apache.felix.bundlerepository-2.0.10": "2020-07-03",
@@ -1436,10 +1436,7 @@
 "apache-kudu-1.16.0": "2022-04-11"
 },
 "kylin": {
-"apache-kylin-3.1.2": "2021-04-27",
 "apache-kylin-3.1.3": "2022-01-05",
-"apache-kylin-4.0.0": "2021-08-30",
-"apache-kylin-4.0.0-beta": "2021-02-07",
 "apache-kylin-4.0.1": "2022-01-05"
 },
 "libcloud": {
@@ -1468,8 +1465,7 @@
 "lucene-9.1.0": "2022-03-16",
 "pylucene-7.7.1": "2020-07-03",
 "pylucene-8.11.0": "2021-12-15",
-"pylucene-8.8.1": "2021-03-09",
-"pylucene-8.9.0": "2021-06-22",
+"pylucene-9.1.0": "2022-04-27",
 "solr-7.7.3": "2020-07-03",
 "solr-8.11.1": "2021-12-14"
 },
@@ -1556,7 +1552,7 @@
 "maven-gpg-plugin-3.0.1": "2021-05-08",
 "maven-help-plugin-3.2.0": "2020-07-03",
 "maven-indexer-6.1.1": "2022-02-17",
-"maven-info-reports-plugin-3.2.2": "2022-02-25",
+"maven-info-reports-plugin-3.3.0": "2022-04-27",
 "maven-install-plugin-3.0.0-M1": "2020-07-03",
 "maven-invoker-3.2.0": "2022-04-10",
 "maven-invoker-plugin-3.2.2": "2021-02-21",
@@ -1579,7 +1575,7 @@
 "maven-release-3.0.0-M5": "2022-01-05",
 "maven-remote-resources-plugin-1.7.0": "2020-07-03",
 "maven-reporting-api-4.0.0-M1": "2022-04-20",
-"maven-reporting-exec-1.6.0": "2022-02-13",
+"maven-reporting-exec-2.0.0-M1": "2022-04-27",
 "maven-reporting-impl-4.0.0-M1": "2022-04-23",
 "maven-resolver-1.8.0": "2022-04-20",
 "maven-resolver-ant-tasks-1.4.0": "2021-11-26",
@@ -2858,7 +2854,6 @@
 "qpid": {
 "apache-qpid-broker-j-7.1.12": "2021-02-14",
 "apache-qpid-broker-j-8.0.6": "2021-08-24",
-"apache-qpid-jms-0.61.0": "2021-12-20",
 "apache-qpid-jms-1.6.0": "2022-03-28",
 "apache-qpid-jms-2.0.0": "2022-04-22",
 "apache-qpid-jms-amqp-0-x-6.4.0": "2020-07-03",
@@ -3430,7 +3425,8 @@
 "subversion-1.14.2": "2022-04-10"
 },
 "superset": {
-"apache-superset-1.4.2": "2022-03-29"
+"apache-superset-1.4.2": "2022-03-29",
+"apache-superset-1.5.0": "2022-04-28"
 },
 "synapse": {
 "synapse-distribution-3.0.1": "2020-07-06"
