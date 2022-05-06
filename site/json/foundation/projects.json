@@ -924,15 +924,15 @@
 "shortdesc": "\n    Cross-platform library easing many progamming tasks in C. \n    "
 },
 "archiva": {
-"bug-database": "http://issues.apache.org/jira/browse/MRM",
+"bug-database": "https://issues.apache.org/jira/browse/MRM",
 "category": "build-management",
 "created": "2012-04-14",
 "description": "Archiva is the perfect companion for build tools such as Maven, Continuum, and ANT. Archiva offers several capabilities, amongst which remote repository proxying,\nsecurity access management, build artifact storage, delivery, browsing, indexing and usage reporting, extensible scanning functionality and many more!",
 "doap": "https://gitbox.apache.org/repos/asf?p=archiva.git;a=blob_plain;f=doap_Archiva.rdf;hb=HEAD",
-"download-page": "http://archiva.apache.org/download.html",
-"homepage": "http://archiva.apache.org",
+"download-page": "https://archiva.apache.org/download.html",
+"homepage": "https://archiva.apache.org",
 "license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://archiva.apache.org/mail-lists.html",
+"mailing-list": "https://archiva.apache.org/mailing-lists.html",
 "maintainer": [
 {
 "mbox": "mailto:dev@archiva.apache.org",
@@ -944,45 +944,15 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2020-06-19",
-"file-release": "http://archive.apache.org/dist/archiva/2.2.5/binaries/apache-archiva-2.2.5.war",
-"name": "Apache Archiva 2.2.5",
-"revision": "2.2.5"
-},
-{
-"created": "2019-04-30",
-"file-release": "http://archive.apache.org/dist/archiva/2.2.4/binaries/apache-archiva-2.2.4.war",
-"name": "Apache Archiva 2.2.4",
-"revision": "2.2.4"
-},
-{
-"created": "2017-05-16",
-"file-release": "http://archive.apache.org/dist/archiva/2.2.3/binaries/apache-archiva-2.2.3.war",
-"name": "Apache Archiva 2.2.3",
-"revision": "2.2.3"
-},
-{
-"created": "2015-03-02",
-"file-release": "http://archive.apache.org/dist/archiva/2.2.0/binaries/apache-archiva-2.2.0.war",
-"name": "Apache Archiva 2.2.x",
-"revision": "2.2.0"
-},
-{
-"created": "2014-09-04",
-"file-release": "http://archive.apache.org/dist/archiva/2.1.1/binaries/apache-archiva-2.1.1.war",
-"name": "Apache Archiva 2.1.x",
-"revision": "2.1.1"
-},
-{
-"created": "2014-07-01",
-"file-release": "http://archive.apache.org/dist/archiva/1.3.9/binaries/apache-archiva-1.3.9.war",
-"name": "Apache Archiva 1.3.x",
-"revision": "1.3.9"
+"created": "2021-12-19",
+"file-release": "https://archive.apache.org/dist/archiva/2.2.7/binaries/apache-archiva-2.2.7.war",
+"name": "Apache Archiva 2.2.7",
+"revision": "2.2.7"
 }
 ],
 "repository": [
 "https://gitbox.apache.org/repos/asf/archiva.git",
-"https://svn.apache.org/viewvc/archiva/parent/"
+"https://gitbox.apache.org/repos/asf/archiva-parent.git"
 ],
 "shortdesc": "Apache Archiva software is an extensible repository management tool that helps taking care of your own personal or enterprise-wide build artifact repository."
 },
@@ -13476,6 +13446,11 @@
 "created": "2022-03-01",
 "name": "Apache PDFBox JBIG2 ImageIO Plugin",
 "revision": "3.0.4"
+},
+{
+"created": "2022-04-21",
+"name": "Apache PDFBox",
+"revision": "2.0.26"
 },
 {
 "created": "2021-12-16",
