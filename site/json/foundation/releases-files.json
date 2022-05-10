@@ -826,6 +826,9 @@
 "bookkeeper-4.14.4": [
 "bookkeeper/bookkeeper-4.14.4/bookkeeper-4.14.4-src.tar.gz"
 ],
+"bookkeeper-4.15.0": [
+"bookkeeper/bookkeeper-4.15.0/bookkeeper-4.15.0-src.tar.gz"
+],
 "distributedlog-0.5.0": [
 "bookkeeper/distributedlog/0.5.0/distributedlog-0.5.0-src.tar.gz"
 ]
@@ -934,8 +937,8 @@
 "apache-camel-quarkus-2.7.1": [
 "camel/camel-quarkus/2.7.1/apache-camel-quarkus-2.7.1-src.zip"
 ],
-"apache-camel-quarkus-2.8.0": [
-"camel/camel-quarkus/2.8.0/apache-camel-quarkus-2.8.0-src.zip"
+"apache-camel-quarkus-2.9.0": [
+"camel/camel-quarkus/2.9.0/apache-camel-quarkus-2.9.0-src.zip"
 ],
 "camel-k-client-1.8.2-linux": [
 "camel/camel-k/1.8.2/camel-k-client-1.8.2-linux-64bit.tar.gz"
@@ -1828,11 +1831,11 @@
 "commons/csv/source/commons-csv-1.9.0-src.tar.gz",
 "commons/csv/source/commons-csv-1.9.0-src.zip"
 ],
-"commons-daemon-1.3.0": [
-"commons/daemon/source/commons-daemon-1.3.0-native-src.tar.gz",
-"commons/daemon/source/commons-daemon-1.3.0-native-src.zip",
-"commons/daemon/source/commons-daemon-1.3.0-src.tar.gz",
-"commons/daemon/source/commons-daemon-1.3.0-src.zip"
+"commons-daemon-1.3.1": [
+"commons/daemon/source/commons-daemon-1.3.1-native-src.tar.gz",
+"commons/daemon/source/commons-daemon-1.3.1-native-src.zip",
+"commons/daemon/source/commons-daemon-1.3.1-src.tar.gz",
+"commons/daemon/source/commons-daemon-1.3.1-src.zip"
 ],
 "commons-dbcp2-2.4.0": [
 "commons/dbcp/source/commons-dbcp2-2.4.0-src.tar.gz",
@@ -2346,8 +2349,8 @@
 "kerby-all-1.1.1": [
 "directory/kerby/dist/1.1.1/kerby-all-1.1.1-source-release.zip"
 ],
-"kerby-all-2.0.1": [
-"directory/kerby/dist/2.0.1/kerby-all-2.0.1-source-release.zip"
+"kerby-all-2.0.2": [
+"directory/kerby/dist/2.0.2/kerby-all-2.0.2-source-release.zip"
 ],
 "mavibot-1.0.0-M8": [
 "directory/mavibot/dist/1.0.0-M8/mavibot-1.0.0-M8-src.tar.bz2",
@@ -7475,8 +7478,8 @@
 "slf4j-jdk14.nbm": [
 "netbeans/netbeans/13/nbms/ide/slf4j-jdk14.nbm"
 ],
-"utilities-1": [
-"netbeans/netbeans-maven-utilities/utilities-parent/utilities-parent-1/utilities-parent-1-source-release.zip"
+"utilities-2": [
+"netbeans/netbeans-maven-utilities/utilities-parent/utilities-parent-2/utilities-parent-2-source-release.zip"
 ]
 },
 "nifi": {
@@ -9690,8 +9693,8 @@
 "org.apache.sling.resourcemerger-1.4.0": [
 "sling/org.apache.sling.resourcemerger-1.4.0-source-release.zip"
 ],
-"org.apache.sling.resourceresolver-1.8.4": [
-"sling/org.apache.sling.resourceresolver-1.8.4-source-release.zip"
+"org.apache.sling.resourceresolver-1.8.6": [
+"sling/org.apache.sling.resourceresolver-1.8.6-source-release.zip"
 ],
 "org.apache.sling.rewriter-1.3.2": [
 "sling/org.apache.sling.rewriter-1.3.2-source-release.zip"
@@ -9888,35 +9891,35 @@
 "org.apache.sling.testing.hamcrest-1.0.2": [
 "sling/org.apache.sling.testing.hamcrest-1.0.2-source-release.zip"
 ],
-"org.apache.sling.testing.jcr-mock-1.5.4": [
-"sling/org.apache.sling.testing.jcr-mock-1.5.4-source-release.zip"
+"org.apache.sling.testing.jcr-mock-1.6.0": [
+"sling/org.apache.sling.testing.jcr-mock-1.6.0-source-release.zip"
 ],
 "org.apache.sling.testing.logging-mock-2.0.0": [
 "sling/org.apache.sling.testing.logging-mock-2.0.0-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock-3.2.2": [
-"sling/org.apache.sling.testing.osgi-mock-3.2.2-source-release.zip"
+"org.apache.sling.testing.osgi-mock-3.3.0": [
+"sling/org.apache.sling.testing.osgi-mock-3.3.0-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.core-3.2.2": [
-"sling/org.apache.sling.testing.osgi-mock.core-3.2.2-source-release.zip"
+"org.apache.sling.testing.osgi-mock.core-3.3.0": [
+"sling/org.apache.sling.testing.osgi-mock.core-3.3.0-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.junit4-3.2.2": [
-"sling/org.apache.sling.testing.osgi-mock.junit4-3.2.2-source-release.zip"
+"org.apache.sling.testing.osgi-mock.junit4-3.3.0": [
+"sling/org.apache.sling.testing.osgi-mock.junit4-3.3.0-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.junit5-3.2.2": [
-"sling/org.apache.sling.testing.osgi-mock.junit5-3.2.2-source-release.zip"
+"org.apache.sling.testing.osgi-mock.junit5-3.3.0": [
+"sling/org.apache.sling.testing.osgi-mock.junit5-3.3.0-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.parent-3.2.2": [
-"sling/org.apache.sling.testing.osgi-mock.parent-3.2.2-source-release.zip"
+"org.apache.sling.testing.osgi-mock.parent-3.3.0": [
+"sling/org.apache.sling.testing.osgi-mock.parent-3.3.0-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.test-services-3.2.2": [
-"sling/org.apache.sling.testing.osgi-mock.test-services-3.2.2-source-release.zip"
+"org.apache.sling.testing.osgi-mock.test-services-3.3.0": [
+"sling/org.apache.sling.testing.osgi-mock.test-services-3.3.0-source-release.zip"
 ],
 "org.apache.sling.testing.paxexam-3.1.0": [
 "sling/org.apache.sling.testing.paxexam-3.1.0-source-release.zip"
 ],
-"org.apache.sling.testing.resourceresolver-mock-1.2.6": [
-"sling/org.apache.sling.testing.resourceresolver-mock-1.2.6-source-release.zip"
+"org.apache.sling.testing.resourceresolver-mock-1.3.0": [
+"sling/org.apache.sling.testing.resourceresolver-mock-1.3.0-source-release.zip"
 ],
 "org.apache.sling.testing.rules-1.0.8": [
 "sling/org.apache.sling.testing.rules-1.0.8-source-release.zip"
@@ -9933,8 +9936,8 @@
 "org.apache.sling.testing.serversetup-1.0.4": [
 "sling/org.apache.sling.testing.serversetup-1.0.4-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock-3.2.2": [
-"sling/org.apache.sling.testing.sling-mock-3.2.2-source-release.zip"
+"org.apache.sling.testing.sling-mock-3.3.0": [
+"sling/org.apache.sling.testing.sling-mock-3.3.0-source-release.zip"
 ],
 "org.apache.sling.testing.sling-mock-jackrabbit-1.0.0": [
 "sling/org.apache.sling.testing.sling-mock-jackrabbit-1.0.0-source-release.zip"
@@ -9942,17 +9945,17 @@
 "org.apache.sling.testing.sling-mock-oak-3.1.2-1.40.0": [
 "sling/org.apache.sling.testing.sling-mock-oak-3.1.2-1.40.0-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.core-3.2.2": [
-"sling/org.apache.sling.testing.sling-mock.core-3.2.2-source-release.zip"
+"org.apache.sling.testing.sling-mock.core-3.3.0": [
+"sling/org.apache.sling.testing.sling-mock.core-3.3.0-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.junit4-3.2.2": [
-"sling/org.apache.sling.testing.sling-mock.junit4-3.2.2-source-release.zip"
+"org.apache.sling.testing.sling-mock.junit4-3.3.0": [
+"sling/org.apache.sling.testing.sling-mock.junit4-3.3.0-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.junit5-3.2.2": [
-"sling/org.apache.sling.testing.sling-mock.junit5-3.2.2-source-release.zip"
+"org.apache.sling.testing.sling-mock.junit5-3.3.0": [
+"sling/org.apache.sling.testing.sling-mock.junit5-3.3.0-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.parent-3.2.2": [
-"sling/org.apache.sling.testing.sling-mock.parent-3.2.2-source-release.zip"
+"org.apache.sling.testing.sling-mock.parent-3.3.0": [
+"sling/org.apache.sling.testing.sling-mock.parent-3.3.0-source-release.zip"
 ],
 "org.apache.sling.testing.tools-1.0.16": [
 "sling/org.apache.sling.testing.tools-1.0.16-source-release.zip"
@@ -10462,9 +10465,9 @@
 "tomcat-maven-plugin-2.2": [
 "tomcat/maven-plugin/v2.2/tomcat-maven-plugin-2.2-source-release.zip"
 ],
-"tomcat-native-1.2.32": [
-"tomcat/tomcat-connectors/native/1.2.32/source/tomcat-native-1.2.32-src.tar.gz",
-"tomcat/tomcat-connectors/native/1.2.32/source/tomcat-native-1.2.32-win32-src.zip"
+"tomcat-native-1.2.33": [
+"tomcat/tomcat-connectors/native/1.2.33/source/tomcat-native-1.2.33-src.tar.gz",
+"tomcat/tomcat-connectors/native/1.2.33/source/tomcat-native-1.2.33-win32-src.zip"
 ]
 },
 "tomee": {
@@ -10643,6 +10646,9 @@
 ],
 "tomee-patch-0.8": [
 "tomee/tomee-patch-plugin-0.8/tomee-patch-parent-0.8-source-release.zip"
+],
+"tomee-patch-0.9": [
+"tomee/tomee-patch-plugin-0.9/tomee-patch-parent-0.9-source-release.zip"
 ],
 "tomee-plume-1.7.5": [
 "tomee/tomee-1.7.5/tomee-plume-webapp-1.7.5.war"
@@ -10891,6 +10897,9 @@
 ],
 "uimaj-3.2.0": [
 "uima/uimaj-3.2.0/uimaj-3.2.0-source-release.zip"
+],
+"uimaj-3.3.0": [
+"uima/uimaj-3.3.0/uimaj-3.3.0-source-release.zip"
 ]
 },
 "unomi": {
