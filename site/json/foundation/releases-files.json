@@ -2843,12 +2843,8 @@
 ]
 },
 "fineract": {
-"apache-fineract-1.5.0": [
-"fineract/1.5.0/apache-fineract-1.5.0-src.tar.gz"
-],
-"apache-fineract-1.6.0": [
-"fineract/1.6.0/apache-fineract-1.6.0-src.tar.gz",
-"fineract/1.6.0/apache-fineract-src-1.6.0.tar.gz"
+"apache-fineract-1.7.0": [
+"fineract/1.7.0/apache-fineract-1.7.0-src.tar.gz"
 ]
 },
 "flex": {
@@ -3598,6 +3594,15 @@
 "ignite/3.0.0-alpha4/apache-ignite-3.0.0-alpha4-src.zip",
 "ignite/3.0.0-alpha4/apache-ignite-3.0.0-alpha4.zip"
 ],
+"ignite-aws-ext": [
+"ignite/ignite-extensions/ignite-aws-ext/1.0.0/ignite-aws-ext-src.zip"
+],
+"ignite-azure-ext": [
+"ignite/ignite-extensions/ignite-azure-ext/1.0.0/ignite-azure-ext-src.zip"
+],
+"ignite-gce-ext": [
+"ignite/ignite-extensions/ignite-gce-ext/1.0.0/ignite-gce-ext-src.zip"
+],
 "ignite-performance-statistics-ext-1.0.0": [
 "ignite/ignite-extensions/ignite-performance-statistics-ext/1.0.0/ignite-performance-statistics-ext-1.0.0-src.zip"
 ],
@@ -4147,6 +4152,9 @@
 "kafka-3.1.0": [
 "kafka/3.1.0/kafka-3.1.0-src.tgz"
 ],
+"kafka-3.1.1": [
+"kafka/3.1.1/kafka-3.1.1-src.tgz"
+],
 "kafka-3.2.0": [
 "kafka/3.2.0/kafka-3.2.0-src.tgz"
 ],
@@ -4159,6 +4167,9 @@
 "kafka_2.12-3.1.0": [
 "kafka/3.1.0/kafka_2.12-3.1.0.tgz"
 ],
+"kafka_2.12-3.1.1": [
+"kafka/3.1.1/kafka_2.12-3.1.1.tgz"
+],
 "kafka_2.12-3.2.0": [
 "kafka/3.2.0/kafka_2.12-3.2.0.tgz"
 ],
@@ -4170,6 +4181,9 @@
 ],
 "kafka_2.13-3.1.0": [
 "kafka/3.1.0/kafka_2.13-3.1.0.tgz"
+],
+"kafka_2.13-3.1.1": [
+"kafka/3.1.1/kafka_2.13-3.1.1.tgz"
 ],
 "kafka_2.13-3.2.0": [
 "kafka/3.2.0/kafka_2.13-3.2.0.tgz"
@@ -4446,11 +4460,6 @@
 "pylucene-9.1.0": [
 "lucene/pylucene/pylucene-9.1.0-src.tar.gz"
 ],
-"solr-7.7.3": [
-"lucene/solr/7.7.3/solr-7.7.3-src.tgz",
-"lucene/solr/7.7.3/solr-7.7.3.tgz",
-"lucene/solr/7.7.3/solr-7.7.3.zip"
-],
 "solr-8.11.1": [
 "lucene/solr/8.11.1/solr-8.11.1-src.tgz",
 "lucene/solr/8.11.1/solr-8.11.1.tgz",
@@ -4539,6 +4548,12 @@
 "manifoldcf/apache-manifoldcf-2.22/apache-manifoldcf-2.22-lib.zip",
 "manifoldcf/apache-manifoldcf-2.22/apache-manifoldcf-2.22-src.tar.gz",
 "manifoldcf/apache-manifoldcf-2.22/apache-manifoldcf-2.22-src.zip"
+],
+"apache-manifoldcf-2.22.1": [
+"manifoldcf/apache-manifoldcf-2.22.1/apache-manifoldcf-2.22.1-lib.tar.gz",
+"manifoldcf/apache-manifoldcf-2.22.1/apache-manifoldcf-2.22.1-lib.zip",
+"manifoldcf/apache-manifoldcf-2.22.1/apache-manifoldcf-2.22.1-src.tar.gz",
+"manifoldcf/apache-manifoldcf-2.22.1/apache-manifoldcf-2.22.1-src.zip"
 ],
 "apache-manifoldcf-elasticsearch-1.5-plugin-2.0.2": [
 "manifoldcf/apache-manifoldcf-elasticsearch-1.5-plugin-2.0.2/apache-manifoldcf-elasticsearch-1.5-plugin-2.0.2-src.tar.gz",
@@ -8784,11 +8799,8 @@
 ]
 },
 "servicecomb": {
-"apache-servicecomb-java-chassis-distribution-2.7.0": [
-"servicecomb/servicecomb-java-chassis/2.7.0/apache-servicecomb-java-chassis-distribution-2.7.0-src.zip"
-],
-"apache-servicecomb-java-chassis-distribution-2.7.1": [
-"servicecomb/servicecomb-java-chassis/2.7.1/apache-servicecomb-java-chassis-distribution-2.7.1-src.zip"
+"apache-servicecomb-java-chassis-distribution-2.7.2": [
+"servicecomb/servicecomb-java-chassis/2.7.2/apache-servicecomb-java-chassis-distribution-2.7.2-src.zip"
 ],
 "apache-servicecomb-kie-0.2.0": [
 "servicecomb/servicecomb-kie/0.2.0/apache-servicecomb-kie-0.2.0-src.tar.gz"
@@ -11178,9 +11190,6 @@
 ],
 "apache-zookeeper-3.6.3": [
 "zookeeper/zookeeper-3.6.3/apache-zookeeper-3.6.3.tar.gz"
-],
-"apache-zookeeper-3.7.0": [
-"zookeeper/zookeeper-3.7.0/apache-zookeeper-3.7.0.tar.gz"
 ],
 "apache-zookeeper-3.7.1": [
 "zookeeper/zookeeper-3.7.1/apache-zookeeper-3.7.1.tar.gz"
