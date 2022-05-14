@@ -669,6 +669,9 @@
 "apache-asterixdb-0.9.7.1": [
 "asterixdb/asterixdb-0.9.7.1/apache-asterixdb-0.9.7.1-source-release.zip"
 ],
+"apache-asterixdb-0.9.8": [
+"asterixdb/asterixdb-0.9.8/apache-asterixdb-0.9.8-source-release.zip"
+],
 "apache-asterixdb-jdbc-0.9.7.1": [
 "asterixdb/asterixdb-jdbc-0.9.7.1/apache-asterixdb-jdbc-0.9.7.1-source-release.zip"
 ],
@@ -677,6 +680,9 @@
 ],
 "apache-hyracks-0.3.7.1": [
 "asterixdb/hyracks-0.3.7.1/apache-hyracks-0.3.7.1-source-release.zip"
+],
+"apache-hyracks-0.3.8": [
+"asterixdb/asterixdb-0.9.8/apache-hyracks-0.3.8-source-release.zip"
 ],
 "asterixdb_jdbc.taco": [
 "asterixdb/asterixdb-jdbc-0.9.7.1/asterixdb_jdbc.taco"
@@ -813,8 +819,8 @@
 "bookkeeper-4.13.0": [
 "bookkeeper/bookkeeper-4.13.0/bookkeeper-4.13.0-src.tar.gz"
 ],
-"bookkeeper-4.14.4": [
-"bookkeeper/bookkeeper-4.14.4/bookkeeper-4.14.4-src.tar.gz"
+"bookkeeper-4.14.5": [
+"bookkeeper/bookkeeper-4.14.5/bookkeeper-4.14.5-src.tar.gz"
 ],
 "bookkeeper-4.15.0": [
 "bookkeeper/bookkeeper-4.15.0/bookkeeper-4.15.0-src.tar.gz"
@@ -954,17 +960,35 @@
 "camel-k-client-1.9.0-windows": [
 "camel/camel-k/1.9.0/camel-k-client-1.9.0-windows-64bit.tar.gz"
 ],
+"camel-k-client-1.9.1-linux": [
+"camel/camel-k/1.9.1/camel-k-client-1.9.1-linux-64bit.tar.gz"
+],
+"camel-k-client-1.9.1-mac": [
+"camel/camel-k/1.9.1/camel-k-client-1.9.1-mac-64bit.tar.gz"
+],
+"camel-k-client-1.9.1-mac-arm64bit": [
+"camel/camel-k/1.9.1/camel-k-client-1.9.1-mac-arm64bit.tar.gz"
+],
+"camel-k-client-1.9.1-windows": [
+"camel/camel-k/1.9.1/camel-k-client-1.9.1-windows-64bit.tar.gz"
+],
 "camel-k-examples-1.8.2": [
 "camel/camel-k/1.8.2/camel-k-examples-1.8.2.tar.gz"
 ],
 "camel-k-examples-1.9.0": [
 "camel/camel-k/1.9.0/camel-k-examples-1.9.0.tar.gz"
 ],
+"camel-k-examples-1.9.1": [
+"camel/camel-k/1.9.1/camel-k-examples-1.9.1.tar.gz"
+],
 "camel-k-sources-1.8.2": [
 "camel/camel-k/1.8.2/camel-k-sources-1.8.2.tar.gz"
 ],
 "camel-k-sources-1.9.0": [
 "camel/camel-k/1.9.0/camel-k-sources-1.9.0.tar.gz"
+],
+"camel-k-sources-1.9.1": [
+"camel/camel-k/1.9.1/camel-k-sources-1.9.1.tar.gz"
 ],
 "camel-kafka-connector-1.0.0": [
 "camel/camel-kafka-connector/1.0.0/camel-kafka-connector-1.0.0-src.zip"
@@ -974,6 +998,9 @@
 ],
 "camel-kamelets-sources-0.8.0": [
 "camel/camel-kamelets/0.8.0/camel-kamelets-sources-0.8.0.tar.gz"
+],
+"camel-kamelets-sources-0.8.1": [
+"camel/camel-kamelets/0.8.1/camel-kamelets-sources-0.8.1.tar.gz"
 ]
 },
 "carbondata": {
@@ -1080,6 +1107,9 @@
 "apache-cassandra-3.0.26": [
 "cassandra/3.0.26/apache-cassandra-3.0.26-src.tar.gz"
 ],
+"apache-cassandra-3.0.27": [
+"cassandra/3.0.27/apache-cassandra-3.0.27-src.tar.gz"
+],
 "apache-cassandra-3.11.12": [
 "cassandra/3.11.12/apache-cassandra-3.11.12-src.tar.gz"
 ],
@@ -1098,11 +1128,11 @@
 "cassandra-2.2.19-1.noarch": [
 "cassandra/redhat/22x/cassandra-2.2.19-1.noarch.rpm"
 ],
-"cassandra-3.0.26-1": [
-"cassandra/redhat/30x/cassandra-3.0.26-1.src.rpm"
+"cassandra-3.0.27-1": [
+"cassandra/redhat/30x/cassandra-3.0.27-1.src.rpm"
 ],
-"cassandra-3.0.26-1.noarch": [
-"cassandra/redhat/30x/cassandra-3.0.26-1.noarch.rpm"
+"cassandra-3.0.27-1.noarch": [
+"cassandra/redhat/30x/cassandra-3.0.27-1.noarch.rpm"
 ],
 "cassandra-3.11.12-1": [
 "cassandra/redhat/311x/cassandra-3.11.12-1.src.rpm"
@@ -1122,8 +1152,8 @@
 "cassandra-tools-2.2.19-1.noarch": [
 "cassandra/redhat/22x/cassandra-tools-2.2.19-1.noarch.rpm"
 ],
-"cassandra-tools-3.0.26-1.noarch": [
-"cassandra/redhat/30x/cassandra-tools-3.0.26-1.noarch.rpm"
+"cassandra-tools-3.0.27-1.noarch": [
+"cassandra/redhat/30x/cassandra-tools-3.0.27-1.noarch.rpm"
 ],
 "cassandra-tools-3.11.12-1.noarch": [
 "cassandra/redhat/311x/cassandra-tools-3.11.12-1.noarch.rpm"
@@ -1172,6 +1202,10 @@
 "cassandra-tools_3.0.26_all": [
 "cassandra/3.0.26/debian/cassandra-tools_3.0.26_all.deb",
 "cassandra/debian/pool/main/c/cassandra/cassandra-tools_3.0.26_all.deb"
+],
+"cassandra-tools_3.0.27_all": [
+"cassandra/3.0.27/debian/cassandra-tools_3.0.27_all.deb",
+"cassandra/debian/pool/main/c/cassandra/cassandra-tools_3.0.27_all.deb"
 ],
 "cassandra-tools_3.11.10_all": [
 "cassandra/debian/pool/main/c/cassandra/cassandra-tools_3.11.10_all.deb"
@@ -1354,6 +1388,18 @@
 "cassandra_3.0.26_all": [
 "cassandra/3.0.26/debian/cassandra_3.0.26_all.deb",
 "cassandra/debian/pool/main/c/cassandra/cassandra_3.0.26_all.deb"
+],
+"cassandra_3.0.27": [
+"cassandra/3.0.27/debian/cassandra_3.0.27.tar.gz",
+"cassandra/debian/pool/main/c/cassandra/cassandra_3.0.27.tar.gz"
+],
+"cassandra_3.0.27.dsc": [
+"cassandra/3.0.27/debian/cassandra_3.0.27.dsc",
+"cassandra/debian/pool/main/c/cassandra/cassandra_3.0.27.dsc"
+],
+"cassandra_3.0.27_all": [
+"cassandra/3.0.27/debian/cassandra_3.0.27_all.deb",
+"cassandra/debian/pool/main/c/cassandra/cassandra_3.0.27_all.deb"
 ],
 "cassandra_3.11.10": [
 "cassandra/debian/pool/main/c/cassandra/cassandra_3.11.10.tar.gz"
@@ -2461,9 +2507,9 @@
 "felix/javax.servlet-1.0.0-project.tar.gz",
 "felix/javax.servlet-1.0.0-project.zip"
 ],
-"maven-bundle-plugin-5.1.5": [
-"felix/maven-bundle-plugin-5.1.5-source-release.tar.gz",
-"felix/maven-bundle-plugin-5.1.5-source-release.zip"
+"maven-bundle-plugin-5.1.6": [
+"felix/maven-bundle-plugin-5.1.6-source-release.tar.gz",
+"felix/maven-bundle-plugin-5.1.6-source-release.zip"
 ],
 "maven-junit4osgi-plugin-1.0.0": [
 "felix/maven-junit4osgi-plugin-1.0.0-project.tar.gz",
