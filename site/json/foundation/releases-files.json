@@ -1104,17 +1104,14 @@
 "apache-cassandra-2.2.19": [
 "cassandra/2.2.19/apache-cassandra-2.2.19-src.tar.gz"
 ],
-"apache-cassandra-3.0.26": [
-"cassandra/3.0.26/apache-cassandra-3.0.26-src.tar.gz"
-],
 "apache-cassandra-3.0.27": [
 "cassandra/3.0.27/apache-cassandra-3.0.27-src.tar.gz"
 ],
-"apache-cassandra-3.11.12": [
-"cassandra/3.11.12/apache-cassandra-3.11.12-src.tar.gz"
+"apache-cassandra-3.11.13": [
+"cassandra/3.11.13/apache-cassandra-3.11.13-src.tar.gz"
 ],
-"apache-cassandra-4.0.3": [
-"cassandra/4.0.3/apache-cassandra-4.0.3-src.tar.gz"
+"apache-cassandra-4.0.4": [
+"cassandra/4.0.4/apache-cassandra-4.0.4-src.tar.gz"
 ],
 "cassandra-2.1.22-1": [
 "cassandra/redhat/21x/cassandra-2.1.22-1.src.rpm"
@@ -1134,17 +1131,17 @@
 "cassandra-3.0.27-1.noarch": [
 "cassandra/redhat/30x/cassandra-3.0.27-1.noarch.rpm"
 ],
-"cassandra-3.11.12-1": [
-"cassandra/redhat/311x/cassandra-3.11.12-1.src.rpm"
+"cassandra-3.11.13-1": [
+"cassandra/redhat/311x/cassandra-3.11.13-1.src.rpm"
 ],
-"cassandra-3.11.12-1.noarch": [
-"cassandra/redhat/311x/cassandra-3.11.12-1.noarch.rpm"
+"cassandra-3.11.13-1.noarch": [
+"cassandra/redhat/311x/cassandra-3.11.13-1.noarch.rpm"
 ],
-"cassandra-4.0.3-1": [
-"cassandra/redhat/40x/cassandra-4.0.3-1.src.rpm"
+"cassandra-4.0.4-1": [
+"cassandra/redhat/40x/cassandra-4.0.4-1.src.rpm"
 ],
-"cassandra-4.0.3-1.noarch": [
-"cassandra/redhat/40x/cassandra-4.0.3-1.noarch.rpm"
+"cassandra-4.0.4-1.noarch": [
+"cassandra/redhat/40x/cassandra-4.0.4-1.noarch.rpm"
 ],
 "cassandra-tools-2.1.22-1.noarch": [
 "cassandra/redhat/21x/cassandra-tools-2.1.22-1.noarch.rpm"
@@ -1155,11 +1152,11 @@
 "cassandra-tools-3.0.27-1.noarch": [
 "cassandra/redhat/30x/cassandra-tools-3.0.27-1.noarch.rpm"
 ],
-"cassandra-tools-3.11.12-1.noarch": [
-"cassandra/redhat/311x/cassandra-tools-3.11.12-1.noarch.rpm"
+"cassandra-tools-3.11.13-1.noarch": [
+"cassandra/redhat/311x/cassandra-tools-3.11.13-1.noarch.rpm"
 ],
-"cassandra-tools-4.0.3-1.noarch": [
-"cassandra/redhat/40x/cassandra-tools-4.0.3-1.noarch.rpm"
+"cassandra-tools-4.0.4-1.noarch": [
+"cassandra/redhat/40x/cassandra-tools-4.0.4-1.noarch.rpm"
 ],
 "cassandra-tools_2.1.21_all": [
 "cassandra/debian/pool/main/c/cassandra/cassandra-tools_2.1.21_all.deb"
@@ -1200,7 +1197,6 @@
 "cassandra/debian/pool/main/c/cassandra/cassandra-tools_3.0.25_all.deb"
 ],
 "cassandra-tools_3.0.26_all": [
-"cassandra/3.0.26/debian/cassandra-tools_3.0.26_all.deb",
 "cassandra/debian/pool/main/c/cassandra/cassandra-tools_3.0.26_all.deb"
 ],
 "cassandra-tools_3.0.27_all": [
@@ -1214,8 +1210,11 @@
 "cassandra/debian/pool/main/c/cassandra/cassandra-tools_3.11.11_all.deb"
 ],
 "cassandra-tools_3.11.12_all": [
-"cassandra/3.11.12/debian/cassandra-tools_3.11.12_all.deb",
 "cassandra/debian/pool/main/c/cassandra/cassandra-tools_3.11.12_all.deb"
+],
+"cassandra-tools_3.11.13_all": [
+"cassandra/3.11.13/debian/cassandra-tools_3.11.13_all.deb",
+"cassandra/debian/pool/main/c/cassandra/cassandra-tools_3.11.13_all.deb"
 ],
 "cassandra-tools_3.11.6_all": [
 "cassandra/debian/pool/main/c/cassandra/cassandra-tools_3.11.6_all.deb"
@@ -1239,8 +1238,11 @@
 "cassandra/debian/pool/main/c/cassandra/cassandra-tools_4.0.2_all.deb"
 ],
 "cassandra-tools_4.0.3_all": [
-"cassandra/4.0.3/debian/cassandra-tools_4.0.3_all.deb",
 "cassandra/debian/pool/main/c/cassandra/cassandra-tools_4.0.3_all.deb"
+],
+"cassandra-tools_4.0.4_all": [
+"cassandra/4.0.4/debian/cassandra-tools_4.0.4_all.deb",
+"cassandra/debian/pool/main/c/cassandra/cassandra-tools_4.0.4_all.deb"
 ],
 "cassandra-tools_4.0~beta1_all": [
 "cassandra/debian/pool/main/c/cassandra/cassandra-tools_4.0~beta1_all.deb"
@@ -1378,15 +1380,12 @@
 "cassandra/debian/pool/main/c/cassandra/cassandra_3.0.25_all.deb"
 ],
 "cassandra_3.0.26": [
-"cassandra/3.0.26/debian/cassandra_3.0.26.tar.gz",
 "cassandra/debian/pool/main/c/cassandra/cassandra_3.0.26.tar.gz"
 ],
 "cassandra_3.0.26.dsc": [
-"cassandra/3.0.26/debian/cassandra_3.0.26.dsc",
 "cassandra/debian/pool/main/c/cassandra/cassandra_3.0.26.dsc"
 ],
 "cassandra_3.0.26_all": [
-"cassandra/3.0.26/debian/cassandra_3.0.26_all.deb",
 "cassandra/debian/pool/main/c/cassandra/cassandra_3.0.26_all.deb"
 ],
 "cassandra_3.0.27": [
@@ -1420,16 +1419,25 @@
 "cassandra/debian/pool/main/c/cassandra/cassandra_3.11.11_all.deb"
 ],
 "cassandra_3.11.12": [
-"cassandra/3.11.12/debian/cassandra_3.11.12.tar.gz",
 "cassandra/debian/pool/main/c/cassandra/cassandra_3.11.12.tar.gz"
 ],
 "cassandra_3.11.12.dsc": [
-"cassandra/3.11.12/debian/cassandra_3.11.12.dsc",
 "cassandra/debian/pool/main/c/cassandra/cassandra_3.11.12.dsc"
 ],
 "cassandra_3.11.12_all": [
-"cassandra/3.11.12/debian/cassandra_3.11.12_all.deb",
 "cassandra/debian/pool/main/c/cassandra/cassandra_3.11.12_all.deb"
+],
+"cassandra_3.11.13": [
+"cassandra/3.11.13/debian/cassandra_3.11.13.tar.gz",
+"cassandra/debian/pool/main/c/cassandra/cassandra_3.11.13.tar.gz"
+],
+"cassandra_3.11.13.dsc": [
+"cassandra/3.11.13/debian/cassandra_3.11.13.dsc",
+"cassandra/debian/pool/main/c/cassandra/cassandra_3.11.13.dsc"
+],
+"cassandra_3.11.13_all": [
+"cassandra/3.11.13/debian/cassandra_3.11.13_all.deb",
+"cassandra/debian/pool/main/c/cassandra/cassandra_3.11.13_all.deb"
 ],
 "cassandra_3.11.6": [
 "cassandra/debian/pool/main/c/cassandra/cassandra_3.11.6.tar.gz"
@@ -1486,16 +1494,25 @@
 "cassandra/debian/pool/main/c/cassandra/cassandra_4.0.2_all.deb"
 ],
 "cassandra_4.0.3": [
-"cassandra/4.0.3/debian/cassandra_4.0.3.tar.gz",
 "cassandra/debian/pool/main/c/cassandra/cassandra_4.0.3.tar.gz"
 ],
 "cassandra_4.0.3.dsc": [
-"cassandra/4.0.3/debian/cassandra_4.0.3.dsc",
 "cassandra/debian/pool/main/c/cassandra/cassandra_4.0.3.dsc"
 ],
 "cassandra_4.0.3_all": [
-"cassandra/4.0.3/debian/cassandra_4.0.3_all.deb",
 "cassandra/debian/pool/main/c/cassandra/cassandra_4.0.3_all.deb"
+],
+"cassandra_4.0.4": [
+"cassandra/4.0.4/debian/cassandra_4.0.4.tar.gz",
+"cassandra/debian/pool/main/c/cassandra/cassandra_4.0.4.tar.gz"
+],
+"cassandra_4.0.4.dsc": [
+"cassandra/4.0.4/debian/cassandra_4.0.4.dsc",
+"cassandra/debian/pool/main/c/cassandra/cassandra_4.0.4.dsc"
+],
+"cassandra_4.0.4_all": [
+"cassandra/4.0.4/debian/cassandra_4.0.4_all.deb",
+"cassandra/debian/pool/main/c/cassandra/cassandra_4.0.4_all.deb"
 ],
 "cassandra_4.0~beta1": [
 "cassandra/debian/pool/main/c/cassandra/cassandra_4.0~beta1.tar.gz"
@@ -4920,8 +4937,8 @@
 "maven-war-plugin-3.3.2": [
 "maven/plugins/maven-war-plugin-3.3.2-source-release.zip"
 ],
-"maven-wrapper-3.1.0": [
-"maven/wrapper/maven-wrapper-parent-3.1.0-source-release.zip"
+"maven-wrapper-3.1.1": [
+"maven/wrapper/maven-wrapper-3.1.1-source-release.zip"
 ],
 "maven-wrapper-plugin-3.0.2": [
 "maven/plugins/maven-wrapper-plugin-3.0.2-source-release.zip"
@@ -9781,8 +9798,8 @@
 "org.apache.sling.scripting.console-1.0.0": [
 "sling/org.apache.sling.scripting.console-1.0.0-source-release.zip"
 ],
-"org.apache.sling.scripting.core-2.4.6": [
-"sling/org.apache.sling.scripting.core-2.4.6-source-release.zip"
+"org.apache.sling.scripting.core-2.4.8": [
+"sling/org.apache.sling.scripting.core-2.4.8-source-release.zip"
 ],
 "org.apache.sling.scripting.el-api-1.0.4": [
 "sling/org.apache.sling.scripting.el-api-1.0.4-source-release.zip"
@@ -9799,8 +9816,8 @@
 "org.apache.sling.scripting.javascript-3.1.4": [
 "sling/org.apache.sling.scripting.javascript-3.1.4-source-release.zip"
 ],
-"org.apache.sling.scripting.jsp-2.5.4": [
-"sling/org.apache.sling.scripting.jsp-2.5.4-source-release.zip"
+"org.apache.sling.scripting.jsp-2.6.0": [
+"sling/org.apache.sling.scripting.jsp-2.6.0-source-release.zip"
 ],
 "org.apache.sling.scripting.jsp-api-1.0.2": [
 "sling/org.apache.sling.scripting.jsp-api-1.0.2-source-release.zip"
@@ -9844,8 +9861,8 @@
 "org.apache.sling.servlets.post-2.5.0": [
 "sling/org.apache.sling.servlets.post-2.5.0-source-release.zip"
 ],
-"org.apache.sling.servlets.resolver-2.9.4": [
-"sling/org.apache.sling.servlets.resolver-2.9.4-source-release.zip"
+"org.apache.sling.servlets.resolver-2.9.6": [
+"sling/org.apache.sling.servlets.resolver-2.9.6-source-release.zip"
 ],
 "org.apache.sling.settings-1.4.2": [
 "sling/org.apache.sling.settings-1.4.2-source-release.zip"
