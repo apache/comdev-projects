@@ -300,6 +300,66 @@
 "shortdesc": "Distributed Messaging System"
 },
 {
+"chair": "eya",
+"established": "2022-05",
+"group": "age",
+"homepage": "http://age.apache.org",
+"id": "age",
+"name": "Apache AGE",
+"reporting": 2,
+"roster": {
+"dehowef": {
+"date": "2022-05-18",
+"name": "Dehowe Feng"
+},
+"djkevincr": {
+"date": "2022-05-18",
+"name": "Kevin Ratnasekera"
+},
+"emotionbug": {
+"date": "2022-05-18",
+"name": "Alex Kwak"
+},
+"eya": {
+"date": "2022-05-18",
+"name": "Eya Badal"
+},
+"felixcheung": {
+"date": "2022-05-18",
+"name": "Felix Cheung"
+},
+"jasper": {
+"date": "2022-05-18",
+"name": "Jasper Blues"
+},
+"jgemignani": {
+"date": "2022-05-18",
+"name": "John Gemignani"
+},
+"joshinnis": {
+"date": "2022-05-18",
+"name": "Josh Innis"
+},
+"panjuan": {
+"date": "2022-05-18",
+"name": "Juan Pan"
+},
+"pdpotter": {
+"date": "2022-05-18",
+"name": "Pieterjan De Potter"
+},
+"sorrell": {
+"date": "2022-05-18",
+"name": "Nick Sorrell"
+},
+"vongosling": {
+"date": "2022-05-18",
+"name": "Von Gosling"
+}
+},
+"shortdesc": "a multi-model database that enables graph and relational models built on PostgreSQL"
+},
+{
 "chair": "smarru",
 "charter": "The mission of Apache Airavata is the creation and maintenance of software related to executing and managing computational jobs on distributed computing resources including local clusters, supercomputers, national grids, academic and commercial clouds.",
 "established": "2012-09",
@@ -2196,7 +2256,7 @@
 "shortdesc": "Programming model, SDKs, and runners for defining and executing data processing pipelines"
 },
 {
-"chair": "sekikn",
+"chair": "guyuqi",
 "charter": "Bigtop is a project for the development of packaging and tests of the Apache Hadoop ecosystem. The primary goal of Bigtop is to build a community around the packaging and interoperability testing of Hadoop-related projects. This includes testing at various levels (packaging, platform, runtime, upgrade, etc...) developed by a community with a focus on the system as a whole, rather than individual projects. In short we strive to be for Hadoop what Debian is to Linux.",
 "established": "2012-09",
 "group": "bigtop",
@@ -5598,6 +5658,106 @@
 }
 },
 "shortdesc": "a distributed and extensible workflow scheduler platform with powerful DAG visual interfaces"
+},
+{
+"chair": "morningman",
+"established": "2022-05",
+"group": "doris",
+"homepage": "http://doris.apache.org",
+"id": "doris",
+"name": "Apache Doris",
+"reporting": 1,
+"roster": {
+"caiconghui": {
+"date": "2022-05-18",
+"name": "Conghui Cai"
+},
+"chenhao": {
+"date": "2022-05-18",
+"name": "Hao Chen"
+},
+"gaodayue": {
+"date": "2022-05-18",
+"name": "Dayue Gao"
+},
+"jiafengzheng": {
+"date": "2022-05-18",
+"name": "Jiafeng Zhang"
+},
+"kangkaisen": {
+"date": "2022-05-18",
+"name": "Kaisen Kang"
+},
+"lichaoyong": {
+"date": "2022-05-18",
+"name": "Chaoyong Li"
+},
+"lide": {
+"date": "2022-05-18",
+"name": "De Li"
+},
+"lihaopeng": {
+"date": "2022-05-18",
+"name": "HaoPeng Li"
+},
+"lingbin": {
+"date": "2022-05-18",
+"name": "Bin Ling"
+},
+"lingmiao": {
+"date": "2022-05-18",
+"name": "Ling Miao"
+},
+"liuhangyuan": {
+"date": "2022-05-18",
+"name": "Hangyuan Liu"
+},
+"maruyue": {
+"date": "2022-05-18",
+"name": "Ruyue Ma"
+},
+"morningman": {
+"date": "2022-05-18",
+"name": "Mingyu Chen"
+},
+"ningjiang": {
+"date": "2022-05-18",
+"name": "Willem Ning Jiang"
+},
+"shaofengshi": {
+"date": "2022-05-18",
+"name": "Shao Feng Shi"
+},
+"sijie": {
+"date": "2022-05-18",
+"name": "Sijie Guo"
+},
+"wangbo": {
+"date": "2022-05-18",
+"name": "Bo Wang"
+},
+"weizuo": {
+"date": "2022-05-18",
+"name": "Zuo Wei"
+},
+"wenming": {
+"date": "2022-05-18",
+"name": "Ming Wen"
+},
+"yangzhg": {
+"date": "2022-05-18",
+"name": "Zhengguo Yang"
+},
+"zhaoc": {
+"date": "2022-05-18",
+"name": "Chun Zhao"
+},
+"zshao": {
+"date": "2022-05-18",
+"name": "Zheng Shao"
+}
+},
+"shortdesc": "a MPP-based interactive SQL data warehousing for reporting and analysis"
 },
 {
 "chair": "cgivre",
@@ -9878,6 +10038,7 @@
 "id": "incubator",
 "name": "Apache Incubator",
 "rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/incubator.rdf",
+"reporting": 0,
 "roster": {
 "aajisaka": {
 "date": "2018-12-08",
@@ -15925,7 +16086,7 @@
 "shortdesc": "assessment of, education in, and adoption of the Foundation's policies and procedures for collaborative development and the pros and cons of joining the Foundation"
 },
 {
-"chair": "ankit",
+"chair": "rajeshbabu",
 "charter": "The mission of Phoenix is the creation and maintenance of software related to High performance relational database layer over Apache HBase for low latency applications",
 "established": "2014-05",
 "group": "phoenix",
