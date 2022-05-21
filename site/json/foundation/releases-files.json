@@ -80,23 +80,23 @@
 ]
 },
 "airflow": {
-"airflow-1.4.0": [
-"airflow/helm-chart/1.4.0/airflow-1.4.0.tgz"
-],
-"airflow-1.4.0.tgz.prov": [
-"airflow/helm-chart/1.4.0/airflow-1.4.0.tgz.prov"
-],
 "airflow-1.5.0": [
 "airflow/helm-chart/1.5.0/airflow-1.5.0.tgz"
 ],
 "airflow-1.5.0.tgz.prov": [
 "airflow/helm-chart/1.5.0/airflow-1.5.0.tgz.prov"
 ],
-"airflow-chart-1.4.0": [
-"airflow/helm-chart/1.4.0/airflow-chart-1.4.0-source.tar.gz"
+"airflow-1.6.0": [
+"airflow/helm-chart/1.6.0/airflow-1.6.0.tgz"
+],
+"airflow-1.6.0.tgz.prov": [
+"airflow/helm-chart/1.6.0/airflow-1.6.0.tgz.prov"
 ],
 "airflow-chart-1.5.0": [
 "airflow/helm-chart/1.5.0/airflow-chart-1.5.0-source.tar.gz"
+],
+"airflow-chart-1.6.0": [
+"airflow/helm-chart/1.6.0/airflow-chart-1.6.0-source.tar.gz"
 ],
 "apache-airflow-2.3.0": [
 "airflow/2.3.0/apache-airflow-2.3.0-source.tar.gz",
@@ -8887,8 +8887,8 @@
 ]
 },
 "servicecomb": {
-"apache-servicecomb-java-chassis-distribution-2.7.2": [
-"servicecomb/servicecomb-java-chassis/2.7.2/apache-servicecomb-java-chassis-distribution-2.7.2-src.zip"
+"apache-servicecomb-java-chassis-distribution-2.7.3": [
+"servicecomb/servicecomb-java-chassis/2.7.3/apache-servicecomb-java-chassis-distribution-2.7.3-src.zip"
 ],
 "apache-servicecomb-kie-0.2.0": [
 "servicecomb/servicecomb-kie/0.2.0/apache-servicecomb-kie-0.2.0-src.tar.gz"
@@ -8946,10 +8946,6 @@
 ]
 },
 "sis": {
-"apache-sis-1.1": [
-"sis/1.1/apache-sis-1.1-doc.zip",
-"sis/1.1/apache-sis-1.1-src.zip"
-],
 "apache-sis-1.2": [
 "sis/1.2/apache-sis-1.2-doc.zip",
 "sis/1.2/apache-sis-1.2-src.zip"
@@ -9413,10 +9409,10 @@
 "org.apache.sling.feature.apiregions-1.1.8": [
 "sling/org.apache.sling.feature.apiregions-1.1.8-source-release.zip"
 ],
-"org.apache.sling.feature.cpconverter-1.1.14": [
-"sling/org.apache.sling.feature.cpconverter-1.1.14-source-release.zip",
-"sling/org.apache.sling.feature.cpconverter-1.1.14.tar.gz",
-"sling/org.apache.sling.feature.cpconverter-1.1.14.zip"
+"org.apache.sling.feature.cpconverter-1.1.16": [
+"sling/org.apache.sling.feature.cpconverter-1.1.16-source-release.zip",
+"sling/org.apache.sling.feature.cpconverter-1.1.16.tar.gz",
+"sling/org.apache.sling.feature.cpconverter-1.1.16.zip"
 ],
 "org.apache.sling.feature.diff-0.0.6": [
 "sling/org.apache.sling.feature.diff-0.0.6-source-release.zip"
