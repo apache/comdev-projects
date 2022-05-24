@@ -984,6 +984,18 @@
 "camel-k-client-1.9.1-windows": [
 "camel/camel-k/1.9.1/camel-k-client-1.9.1-windows-64bit.tar.gz"
 ],
+"camel-k-client-1.9.2-linux": [
+"camel/camel-k/1.9.2/camel-k-client-1.9.2-linux-64bit.tar.gz"
+],
+"camel-k-client-1.9.2-mac": [
+"camel/camel-k/1.9.2/camel-k-client-1.9.2-mac-64bit.tar.gz"
+],
+"camel-k-client-1.9.2-mac-arm64bit": [
+"camel/camel-k/1.9.2/camel-k-client-1.9.2-mac-arm64bit.tar.gz"
+],
+"camel-k-client-1.9.2-windows": [
+"camel/camel-k/1.9.2/camel-k-client-1.9.2-windows-64bit.tar.gz"
+],
 "camel-k-examples-1.8.2": [
 "camel/camel-k/1.8.2/camel-k-examples-1.8.2.tar.gz"
 ],
@@ -993,6 +1005,9 @@
 "camel-k-examples-1.9.1": [
 "camel/camel-k/1.9.1/camel-k-examples-1.9.1.tar.gz"
 ],
+"camel-k-examples-1.9.2": [
+"camel/camel-k/1.9.2/camel-k-examples-1.9.2.tar.gz"
+],
 "camel-k-sources-1.8.2": [
 "camel/camel-k/1.8.2/camel-k-sources-1.8.2.tar.gz"
 ],
@@ -1001,6 +1016,9 @@
 ],
 "camel-k-sources-1.9.1": [
 "camel/camel-k/1.9.1/camel-k-sources-1.9.1.tar.gz"
+],
+"camel-k-sources-1.9.2": [
+"camel/camel-k/1.9.2/camel-k-sources-1.9.2.tar.gz"
 ],
 "camel-kafka-connector-1.0.0": [
 "camel/camel-kafka-connector/1.0.0/camel-kafka-connector-1.0.0-src.zip"
@@ -2901,9 +2919,9 @@
 "felix/org.apache.felix.utils-1.11.8-source-release.tar.gz",
 "felix/org.apache.felix.utils-1.11.8-source-release.zip"
 ],
-"org.apache.felix.webconsole-4.8.0": [
-"felix/org.apache.felix.webconsole-4.8.0-source-release.tar.gz",
-"felix/org.apache.felix.webconsole-4.8.0-source-release.zip"
+"org.apache.felix.webconsole-4.8.2": [
+"felix/org.apache.felix.webconsole-4.8.2-source-release.tar.gz",
+"felix/org.apache.felix.webconsole-4.8.2-source-release.zip"
 ],
 "org.osgi.compendium-1.4.0": [
 "felix/org.osgi.compendium-1.4.0-project.tar.gz",
@@ -9373,8 +9391,8 @@
 "org.apache.sling.engine-2.9.0": [
 "sling/org.apache.sling.engine-2.9.0-source-release.zip"
 ],
-"org.apache.sling.event-4.3.0": [
-"sling/org.apache.sling.event-4.3.0-source-release.zip"
+"org.apache.sling.event-4.3.2": [
+"sling/org.apache.sling.event-4.3.2-source-release.zip"
 ],
 "org.apache.sling.event.api-1.0.0": [
 "sling/org.apache.sling.event.api-1.0.0-source-release.zip"
@@ -10576,6 +10594,19 @@
 "tomcat/tomcat-8/v8.5.78/bin/apache-tomcat-8.5.78.zip",
 "tomcat/tomcat-8/v8.5.78/src/apache-tomcat-8.5.78-src.tar.gz",
 "tomcat/tomcat-8/v8.5.78/src/apache-tomcat-8.5.78-src.zip"
+],
+"apache-tomcat-8.5.79": [
+"tomcat/tomcat-8/v8.5.79/bin/embed/apache-tomcat-8.5.79-embed.tar.gz",
+"tomcat/tomcat-8/v8.5.79/bin/embed/apache-tomcat-8.5.79-embed.zip",
+"tomcat/tomcat-8/v8.5.79/bin/apache-tomcat-8.5.79-deployer.tar.gz",
+"tomcat/tomcat-8/v8.5.79/bin/apache-tomcat-8.5.79-deployer.zip",
+"tomcat/tomcat-8/v8.5.79/bin/apache-tomcat-8.5.79-fulldocs.tar.gz",
+"tomcat/tomcat-8/v8.5.79/bin/apache-tomcat-8.5.79-windows-x64.zip",
+"tomcat/tomcat-8/v8.5.79/bin/apache-tomcat-8.5.79.exe",
+"tomcat/tomcat-8/v8.5.79/bin/apache-tomcat-8.5.79.tar.gz",
+"tomcat/tomcat-8/v8.5.79/bin/apache-tomcat-8.5.79.zip",
+"tomcat/tomcat-8/v8.5.79/src/apache-tomcat-8.5.79-src.tar.gz",
+"tomcat/tomcat-8/v8.5.79/src/apache-tomcat-8.5.79-src.zip"
 ],
 "apache-tomcat-9.0.62": [
 "tomcat/tomcat-9/v9.0.62/bin/embed/apache-tomcat-9.0.62-embed.tar.gz",
