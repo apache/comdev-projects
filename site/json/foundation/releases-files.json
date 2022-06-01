@@ -3442,12 +3442,14 @@
 "RELEASENOTES.md": [
 "hadoop/common/current2/RELEASENOTES.md",
 "hadoop/common/hadoop-2.10.1/RELEASENOTES.md",
+"hadoop/common/hadoop-2.10.2/RELEASENOTES.md",
 "hadoop/common/hadoop-3.2.3/RELEASENOTES.md",
 "hadoop/common/hadoop-3.3.1/RELEASENOTES.md",
 "hadoop/common/hadoop-3.3.2/RELEASENOTES.md",
 "hadoop/common/hadoop-3.3.3/RELEASENOTES.md",
 "hadoop/core/current2/RELEASENOTES.md",
 "hadoop/core/hadoop-2.10.1/RELEASENOTES.md",
+"hadoop/core/hadoop-2.10.2/RELEASENOTES.md",
 "hadoop/core/hadoop-3.2.3/RELEASENOTES.md",
 "hadoop/core/hadoop-3.3.1/RELEASENOTES.md",
 "hadoop/core/hadoop-3.3.2/RELEASENOTES.md",
@@ -3457,18 +3459,26 @@
 "hadoop/thirdparty/thirdparty-1.1.1/RELEASENOTES.md"
 ],
 "hadoop-2.10.1": [
-"hadoop/common/current2/hadoop-2.10.1-site.tar.gz",
-"hadoop/common/current2/hadoop-2.10.1-src.tar.gz",
-"hadoop/common/current2/hadoop-2.10.1.tar.gz",
 "hadoop/common/hadoop-2.10.1/hadoop-2.10.1-site.tar.gz",
 "hadoop/common/hadoop-2.10.1/hadoop-2.10.1-src.tar.gz",
 "hadoop/common/hadoop-2.10.1/hadoop-2.10.1.tar.gz",
-"hadoop/core/current2/hadoop-2.10.1-site.tar.gz",
-"hadoop/core/current2/hadoop-2.10.1-src.tar.gz",
-"hadoop/core/current2/hadoop-2.10.1.tar.gz",
 "hadoop/core/hadoop-2.10.1/hadoop-2.10.1-site.tar.gz",
 "hadoop/core/hadoop-2.10.1/hadoop-2.10.1-src.tar.gz",
 "hadoop/core/hadoop-2.10.1/hadoop-2.10.1.tar.gz"
+],
+"hadoop-2.10.2": [
+"hadoop/common/current2/hadoop-2.10.2-site.tar.gz",
+"hadoop/common/current2/hadoop-2.10.2-src.tar.gz",
+"hadoop/common/current2/hadoop-2.10.2.tar.gz",
+"hadoop/common/hadoop-2.10.2/hadoop-2.10.2-site.tar.gz",
+"hadoop/common/hadoop-2.10.2/hadoop-2.10.2-src.tar.gz",
+"hadoop/common/hadoop-2.10.2/hadoop-2.10.2.tar.gz",
+"hadoop/core/current2/hadoop-2.10.2-site.tar.gz",
+"hadoop/core/current2/hadoop-2.10.2-src.tar.gz",
+"hadoop/core/current2/hadoop-2.10.2.tar.gz",
+"hadoop/core/hadoop-2.10.2/hadoop-2.10.2-site.tar.gz",
+"hadoop/core/hadoop-2.10.2/hadoop-2.10.2-src.tar.gz",
+"hadoop/core/hadoop-2.10.2/hadoop-2.10.2.tar.gz"
 ],
 "hadoop-3.2.3": [
 "hadoop/common/hadoop-3.2.3/hadoop-3.2.3-site.tar.gz",
@@ -7687,6 +7697,9 @@
 ],
 "nifi-minifi-cpp-0.11.0": [
 "nifi/nifi-minifi-cpp/0.11.0/nifi-minifi-cpp-0.11.0-source.tar.gz"
+],
+"nifi-minifi-cpp-0.12.0": [
+"nifi/nifi-minifi-cpp/0.12.0/nifi-minifi-cpp-0.12.0-source.tar.gz"
 ],
 "nifi-minifi-cpp-0.9.0": [
 "nifi/nifi-minifi-cpp/0.9.0/nifi-minifi-cpp-0.9.0-source.tar.gz"
