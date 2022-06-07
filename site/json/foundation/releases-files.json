@@ -1754,8 +1754,8 @@
 ]
 },
 "cloudstack": {
-"apache-cloudstack-4.16.1.0": [
-"cloudstack/releases/4.16.1.0/apache-cloudstack-4.16.1.0-src.tar.bz2"
+"apache-cloudstack-4.17.0.0": [
+"cloudstack/releases/4.17.0.0/apache-cloudstack-4.17.0.0-src.tar.bz2"
 ],
 "apache-cloudstack-cloudmonkey-6.2.0": [
 "cloudstack/releases/cloudmonkey-6.2.0/apache-cloudstack-cloudmonkey-6.2.0-src.tar.bz2"
@@ -2354,8 +2354,8 @@
 "apache-datasketches-hive-1.2.0": [
 "datasketches/hive/1.2.0/apache-datasketches-hive-1.2.0-src.zip"
 ],
-"apache-datasketches-java-3.2.0": [
-"datasketches/java/3.2.0/apache-datasketches-java-3.2.0-src.zip"
+"apache-datasketches-java-3.3.0": [
+"datasketches/java/3.3.0/apache-datasketches-java-3.3.0-src.zip"
 ],
 "apache-datasketches-memory-2.1.0": [
 "datasketches/memory/2.1.0/apache-datasketches-memory-2.1.0-src.zip"
@@ -2386,6 +2386,14 @@
 "db/derby/db-derby-10.15.2.0/db-derby-10.15.2.0-lib.zip",
 "db/derby/db-derby-10.15.2.0/db-derby-10.15.2.0-src.tar.gz",
 "db/derby/db-derby-10.15.2.0/db-derby-10.15.2.0-src.zip"
+],
+"db-derby-10.16.1.1": [
+"db/derby/db-derby-10.16.1.1/db-derby-10.16.1.1-lib-debug.tar.gz",
+"db/derby/db-derby-10.16.1.1/db-derby-10.16.1.1-lib-debug.zip",
+"db/derby/db-derby-10.16.1.1/db-derby-10.16.1.1-lib.tar.gz",
+"db/derby/db-derby-10.16.1.1/db-derby-10.16.1.1-lib.zip",
+"db/derby/db-derby-10.16.1.1/db-derby-10.16.1.1-src.tar.gz",
+"db/derby/db-derby-10.16.1.1/db-derby-10.16.1.1-src.zip"
 ],
 "jdo-3.1": [
 "db/jdo/3.1/jdo-3.1-source-release.zip",
@@ -5046,8 +5054,8 @@
 "maven-wrapper-3.1.1": [
 "maven/wrapper/maven-wrapper-3.1.1-source-release.zip"
 ],
-"surefire-3.0.0-M6": [
-"maven/surefire/surefire-3.0.0-M6-source-release.zip"
+"surefire-3.0.0-M7": [
+"maven/surefire/surefire-3.0.0-M7-source-release.zip"
 ],
 "wagon-3.5.1": [
 "maven/wagon/wagon-3.5.1-source-release.zip"
@@ -5181,6 +5189,14 @@
 "myfaces/source/myfaces-core-assembly-2.3-next-M6-src.tar.gz",
 "myfaces/source/myfaces-core-assembly-2.3-next-M6-src.zip"
 ],
+"myfaces-core-2.3-next-M7": [
+"myfaces/source/myfaces-core-assembly-2.3-next-M7-src.tar.gz",
+"myfaces/source/myfaces-core-assembly-2.3-next-M7-src.zip"
+],
+"myfaces-core-2.3.10": [
+"myfaces/source/myfaces-core-assembly-2.3.10-src.tar.gz",
+"myfaces/source/myfaces-core-assembly-2.3.10-src.zip"
+],
 "myfaces-core-2.3.9": [
 "myfaces/source/myfaces-core-assembly-2.3.9-src.tar.gz",
 "myfaces/source/myfaces-core-assembly-2.3.9-src.zip"
@@ -5188,6 +5204,10 @@
 "myfaces-core-3.0.1": [
 "myfaces/source/myfaces-core-assembly-3.0.1-src.tar.gz",
 "myfaces/source/myfaces-core-assembly-3.0.1-src.zip"
+],
+"myfaces-core-3.0.2": [
+"myfaces/source/myfaces-core-assembly-3.0.2-src.tar.gz",
+"myfaces/source/myfaces-core-assembly-3.0.2-src.zip"
 ],
 "myfaces-extcdi-1.0.6": [
 "myfaces/source/myfaces-extcdi-parent-1.0.6-source-release.zip"
@@ -9070,7 +9090,7 @@
 "skywalking/kubernetes/4.2.0/skywalking-4.2.0.tgz"
 ],
 "skywalking-banyandb-0.1.0": [
-"skywalking/banyandb/skywalking-banyandb-0.1.0-src.tgz"
+"skywalking/banyandb/0.1.0/skywalking-banyandb-0.1.0-src.tgz"
 ],
 "skywalking-cli-0.10.0": [
 "skywalking/cli/0.10.0/skywalking-cli-0.10.0-src.tgz"
@@ -10421,6 +10441,15 @@
 ],
 "struts-2.5.30-min": [
 "struts/2.5.30/struts-2.5.30-min-lib.zip"
+],
+"struts-6.0.0": [
+"struts/6.0.0/struts-6.0.0-all.zip",
+"struts/6.0.0/struts-6.0.0-apps.zip",
+"struts/6.0.0/struts-6.0.0-lib.zip",
+"struts/6.0.0/struts-6.0.0-src.zip"
+],
+"struts-6.0.0-min": [
+"struts/6.0.0/struts-6.0.0-min-lib.zip"
 ],
 "struts2-secure-jakarta-multipart-parser-plugin-1.1": [
 "struts/struts-extras/struts2-secure-jakarta-multipart-parser-plugin/1.1/struts2-secure-jakarta-multipart-parser-plugin-1.1-source-release.zip"
