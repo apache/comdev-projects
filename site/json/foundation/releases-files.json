@@ -690,6 +690,9 @@
 "apache-asterixdb-jdbc-0.9.7.1": [
 "asterixdb/asterixdb-jdbc-0.9.7.1/apache-asterixdb-jdbc-0.9.7.1-source-release.zip"
 ],
+"apache-asterixdb-jdbc-0.9.8": [
+"asterixdb/asterixdb-jdbc-0.9.8/apache-asterixdb-jdbc-0.9.8-source-release.zip"
+],
 "apache-hyracks-0.3.6": [
 "asterixdb/hyracks-0.3.6/apache-hyracks-0.3.6-source-release.zip"
 ],
@@ -700,7 +703,8 @@
 "asterixdb/asterixdb-0.9.8/apache-hyracks-0.3.8-source-release.zip"
 ],
 "asterixdb_jdbc.taco": [
-"asterixdb/asterixdb-jdbc-0.9.7.1/asterixdb_jdbc.taco"
+"asterixdb/asterixdb-jdbc-0.9.7.1/asterixdb_jdbc.taco",
+"asterixdb/asterixdb-jdbc-0.9.8/asterixdb_jdbc.taco"
 ]
 },
 "atlas": {
@@ -3665,6 +3669,10 @@
 "httpcomponents/httpclient/source/httpcomponents-client-5.2-alpha1-src.tar.gz",
 "httpcomponents/httpclient/source/httpcomponents-client-5.2-alpha1-src.zip"
 ],
+"httpcomponents-client-5.2-beta1": [
+"httpcomponents/httpclient/source/httpcomponents-client-5.2-beta1-src.tar.gz",
+"httpcomponents/httpclient/source/httpcomponents-client-5.2-beta1-src.zip"
+],
 "httpcomponents-client-android-4.3.5.1": [
 "httpcomponents/httpclient-android/source/httpcomponents-client-android-4.3.5.1-src.tar.gz",
 "httpcomponents/httpclient-android/source/httpcomponents-client-android-4.3.5.1-src.zip"
@@ -4004,9 +4012,6 @@
 "apache-nuttx-10.2.0-incubating": [
 "incubator/nuttx/10.2.0/apache-nuttx-10.2.0-incubating.tar.gz"
 ],
-"apache-nuttx-10.3.0-incubating": [
-"incubator/nuttx/10.3.0/apache-nuttx-10.3.0-incubating.tar.gz"
-],
 "apache-nuttx-9.1.1-incubating": [
 "incubator/nuttx/9.1.1/apache-nuttx-9.1.1-incubating.tar.gz"
 ],
@@ -4018,9 +4023,6 @@
 ],
 "apache-nuttx-apps-10.2.0-incubating": [
 "incubator/nuttx/10.2.0/apache-nuttx-apps-10.2.0-incubating.tar.gz"
-],
-"apache-nuttx-apps-10.3.0-incubating": [
-"incubator/nuttx/10.3.0/apache-nuttx-apps-10.3.0-incubating.tar.gz"
 ],
 "apache-nuttx-apps-9.1.1-incubating": [
 "incubator/nuttx/9.1.1/apache-nuttx-apps-9.1.1-incubating.tar.gz"
@@ -5357,8 +5359,8 @@
 "libs-c-kohlschutter-junixsocket.nbm": [
 "netbeans/netbeans/13/nbms/ide/libs-c-kohlschutter-junixsocket.nbm"
 ],
-"nb-repository-plugin-1.6": [
-"netbeans/netbeans-maven-utilities/nb-repository-plugin/nb-repository-plugin-1.6/nb-repository-plugin-1.6-source-release.zip"
+"nb-repository-plugin-1.7": [
+"netbeans/netbeans-maven-utilities/nb-repository-plugin/nb-repository-plugin-1.7/nb-repository-plugin-1.7-source-release.zip"
 ],
 "nb-shared-1.4": [
 "netbeans/netbeans-maven-utilities/nb-shared/nb-shared-1.4/nb-shared-1.4-source-release.zip"
@@ -5369,8 +5371,8 @@
 "nbm-maven-harness-13.0": [
 "netbeans/netbeans-maven-utilities/nbm-maven-harness/nbm-maven-harness-13.0/nbm-maven-harness-13.0-source-release.zip"
 ],
-"nbm-maven-plugin-4.7": [
-"netbeans/netbeans-maven-utilities/nbm-maven-plugin/nbm-maven-plugin-4.7/nbm-maven-plugin-4.7-source-release.zip"
+"nbm-maven-plugin-4.8": [
+"netbeans/netbeans-maven-utilities/nbm-maven-plugin/nbm-maven-plugin-4.8/nbm-maven-plugin-4.8-source-release.zip"
 ],
 "nbm-suite-root-1.12": [
 "netbeans/netbeans-maven-archetypes/nbm-suite-root/nbm-suite-root-1.12/nbm-suite-root-1.12-source-release.zip"
@@ -7884,6 +7886,9 @@
 ],
 "openwebbeans-2.0.26": [
 "openwebbeans/2.0.26/openwebbeans-2.0.26-source-release.zip"
+],
+"openwebbeans-2.0.27": [
+"openwebbeans/2.0.27/openwebbeans-2.0.27-source-release.zip"
 ]
 },
 "openwhisk": {
@@ -9618,6 +9623,9 @@
 "org.apache.sling.ide.p2update-1.2.2": [
 "sling/org.apache.sling.ide.p2update-1.2.2.zip"
 ],
+"org.apache.sling.installer.console-1.0.4": [
+"sling/org.apache.sling.installer.console-1.0.4-source-release.zip"
+],
 "org.apache.sling.installer.console-1.1.0": [
 "sling/org.apache.sling.installer.console-1.1.0-source-release.zip"
 ],
@@ -10228,8 +10236,8 @@
 "scriptingbundle-maven-plugin-0.5.2": [
 "sling/scriptingbundle-maven-plugin-0.5.2-source-release.zip"
 ],
-"sling-47": [
-"sling/sling-47-source-release.zip"
+"sling-48": [
+"sling/sling-48-source-release.zip"
 ],
 "sling-6": [
 "sling/sling-6-source-release.tar.gz",
@@ -10241,8 +10249,8 @@
 "sling-archetype-7": [
 "sling/sling-archetype-parent-7-source-release.zip"
 ],
-"sling-bundle-47": [
-"sling/sling-bundle-parent-47-source-release.zip"
+"sling-bundle-48": [
+"sling/sling-bundle-parent-48-source-release.zip"
 ],
 "sling-bundle-archetype-1.0.6": [
 "sling/sling-bundle-archetype-1.0.6-source-release.zip"
@@ -10501,6 +10509,9 @@
 ],
 "apache-superset-1.5.0": [
 "superset/1.5.0/apache-superset-1.5.0-source.tar.gz"
+],
+"apache-superset-1.5.1": [
+"superset/1.5.1/apache-superset-1.5.1-source.tar.gz"
 ]
 },
 "synapse": {
@@ -10809,22 +10820,6 @@
 "tomee/tomee-7.1.4/apache-tomee-7.1.4-webprofile.tar.gz",
 "tomee/tomee-7.1.4/apache-tomee-7.1.4-webprofile.zip"
 ],
-"apache-tomee-8.0.10-microprofile": [
-"tomee/tomee-8.0.10/apache-tomee-8.0.10-microprofile.tar.gz",
-"tomee/tomee-8.0.10/apache-tomee-8.0.10-microprofile.zip"
-],
-"apache-tomee-8.0.10-plume": [
-"tomee/tomee-8.0.10/apache-tomee-8.0.10-plume.tar.gz",
-"tomee/tomee-8.0.10/apache-tomee-8.0.10-plume.zip"
-],
-"apache-tomee-8.0.10-plus": [
-"tomee/tomee-8.0.10/apache-tomee-8.0.10-plus.tar.gz",
-"tomee/tomee-8.0.10/apache-tomee-8.0.10-plus.zip"
-],
-"apache-tomee-8.0.10-webprofile": [
-"tomee/tomee-8.0.10/apache-tomee-8.0.10-webprofile.tar.gz",
-"tomee/tomee-8.0.10/apache-tomee-8.0.10-webprofile.zip"
-],
 "apache-tomee-8.0.11-microprofile": [
 "tomee/tomee-8.0.11/apache-tomee-8.0.11-microprofile.tar.gz",
 "tomee/tomee-8.0.11/apache-tomee-8.0.11-microprofile.zip"
@@ -10840,22 +10835,6 @@
 "apache-tomee-8.0.11-webprofile": [
 "tomee/tomee-8.0.11/apache-tomee-8.0.11-webprofile.tar.gz",
 "tomee/tomee-8.0.11/apache-tomee-8.0.11-webprofile.zip"
-],
-"apache-tomee-8.0.9-microprofile": [
-"tomee/tomee-8.0.9/apache-tomee-8.0.9-microprofile.tar.gz",
-"tomee/tomee-8.0.9/apache-tomee-8.0.9-microprofile.zip"
-],
-"apache-tomee-8.0.9-plume": [
-"tomee/tomee-8.0.9/apache-tomee-8.0.9-plume.tar.gz",
-"tomee/tomee-8.0.9/apache-tomee-8.0.9-plume.zip"
-],
-"apache-tomee-8.0.9-plus": [
-"tomee/tomee-8.0.9/apache-tomee-8.0.9-plus.tar.gz",
-"tomee/tomee-8.0.9/apache-tomee-8.0.9-plus.zip"
-],
-"apache-tomee-8.0.9-webprofile": [
-"tomee/tomee-8.0.9/apache-tomee-8.0.9-webprofile.tar.gz",
-"tomee/tomee-8.0.9/apache-tomee-8.0.9-webprofile.zip"
 ],
 "apache-tomee-9.0.0-M7-microprofile": [
 "tomee/tomee-9.0.0-M7/apache-tomee-9.0.0-M7-microprofile.tar.gz",
@@ -10887,6 +10866,9 @@
 "examples-7.1.4": [
 "tomee/tomee-7.1.4/examples-7.1.4-src.tar.gz",
 "tomee/tomee-7.1.4/examples-7.1.4-src.zip"
+],
+"javaee-api-8.0-6": [
+"tomee/javaee-api-8.0-6/javaee-api-8.0-6-source-release.zip"
 ],
 "openejb-4.7.5": [
 "tomee/tomee-1.7.5/openejb-4.7.5-source-release.zip",
@@ -10920,14 +10902,8 @@
 "tomee/tomee-7.1.4/tomee-project-7.1.4-source-release.zip",
 "tomee/tomee-7.1.4/tomee-webapp-7.1.4.war"
 ],
-"tomee-8.0.10": [
-"tomee/tomee-8.0.10/tomee-project-8.0.10-source-release.zip"
-],
 "tomee-8.0.11": [
 "tomee/tomee-8.0.11/tomee-project-8.0.11-source-release.zip"
-],
-"tomee-8.0.9": [
-"tomee/tomee-8.0.9/tomee-project-8.0.9-source-release.zip"
 ],
 "tomee-9.0.0-M7": [
 "tomee/tomee-9.0.0-M7/tomee-project-9.0.0-M7-source-release.zip"
@@ -10937,9 +10913,6 @@
 ],
 "tomee-microprofile-7.1.4": [
 "tomee/tomee-7.1.4/tomee-microprofile-webapp-7.1.4.war"
-],
-"tomee-patch-0.8": [
-"tomee/tomee-patch-plugin-0.8/tomee-patch-parent-0.8-source-release.zip"
 ],
 "tomee-patch-0.9": [
 "tomee/tomee-patch-plugin-0.9/tomee-patch-parent-0.9-source-release.zip"
