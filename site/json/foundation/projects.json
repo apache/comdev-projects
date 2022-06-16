@@ -3957,7 +3957,7 @@
 },
 "clerezza": {
 "bug-database": "https://issues.apache.org/jira/browse/CLEREZZA",
-"category": "osgi, content",
+"category": "osgi, content, retired",
 "created": "2013-02-27",
 "description": "Clerezza allows to easily develop semantic web applications by providing tools to manipulate RDF data, create RESTful Web Services and Renderlets using ScalaServerPages. Contents are stored as triples based on W3C RDF specification. These triples are stored via Clerezza’s Smart Content Binding (SCB). SCB defines a technology-agnostic layer to access and modify triple stores. It provides a java implementation of the graph data model specified by W3C RDF and functionalities to operate on that data model. SCB offers a service interface to access multiple named graphs and it can use various providers to manage RDF graphs in a technology specific manner, e.g., using Jena or Sesame. It also provides for adaptors that allow an application to use various APIs (including the Jena api) to process RDF graphs. Furthermore, SCB offers a serialization and a parsing service to convert a graph into a certain representation (format) and vice versa.",
 "doap": "https://clerezza.apache.org/doap.rdf",
@@ -3966,7 +3966,7 @@
 "license": "http://usefulinc.com/doap/licenses/asl20",
 "mailing-list": "http://clerezza.apache.org/mailinglists/",
 "name": "Apache Clerezza",
-"pmc": "clerezza",
+"pmc": "attic",
 "programming-language": "Java, Scala",
 "release": [
 {
