@@ -1062,35 +1062,6 @@
 ],
 "shortdesc": "Apache ACE is a distribution framework that allows you to centrally manage and distribute software components, configuration data and other artifacts to target systems. It is built using OSGi and can be deployed in different topologies. The target systems are usually also OSGi based, but don't have to be."
 },
-"attic-ambari": {
-"bug-database": "https://issues.apache.org/jira/browse/AMBARI",
-"category": "retired, big-data",
-"created": "2014-04-10",
-"description": "Apache Ambari makes Hadoop cluster provisioning, managing, and monitoring dead simple.",
-"doap": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/ambari.rdf",
-"homepage": "http://ambari.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://ambari.apache.org/mail-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:yusaku@apache.org",
-"name": "Yusaku Sako"
-}
-],
-"name": "Apache Ambari",
-"pmc": "attic",
-"programming-language": "Java, Python, JavaScript",
-"release": [
-{
-"created": "2014-04-08",
-"name": "Apache Ambari",
-"revision": "1.5.0"
-}
-],
-"repository": [
-"https://git-wip-us.apache.org/repos/asf/ambari.git"
-]
-},
 "attic-apex": {
 "bug-database": "https://issues.apache.org/jira/browse/APEXCORE, https://issues.apache.org/jira/browse/APEXMALHAR",
 "category": "retired, big-data",
@@ -16220,6 +16191,11 @@
 "pmc": "tika",
 "programming-language": "Java",
 "release": [
+{
+"created": "2022-06-16",
+"name": "Apache Tika 1.28.4",
+"revision": "1.28.4"
+},
 {
 "created": "2022-05-27",
 "name": "Apache Tika 1.28.3",
