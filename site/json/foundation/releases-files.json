@@ -2547,6 +2547,32 @@
 "dolphinscheduler/3.0.0-beta-1/python/apache-dolphinscheduler-python-3.0.0-beta-1.tar.gz"
 ]
 },
+"doris": {
+"apache-doris-0.15.0-incubating": [
+"doris/0.15.0-incubating/apache-doris-0.15.0-incubating-src.tar.gz"
+],
+"apache-doris-1.0.0-incubating": [
+"doris/1.0/1.0.0-incubating/apache-doris-1.0.0-incubating-src.tar.gz"
+],
+"apache-doris-flink-connector-1.11_2.12-1.0.3-incubating": [
+"doris/flink-connector/1.0.3/apache-doris-flink-connector-1.11_2.12-1.0.3-incubating-src.tar.gz"
+],
+"apache-doris-flink-connector-1.12_2.12-1.0.3-incubating": [
+"doris/flink-connector/1.0.3/apache-doris-flink-connector-1.12_2.12-1.0.3-incubating-src.tar.gz"
+],
+"apache-doris-flink-connector-1.13_2.12-1.0.3-incubating": [
+"doris/flink-connector/1.0.3/apache-doris-flink-connector-1.13_2.12-1.0.3-incubating-src.tar.gz"
+],
+"apache-doris-flink-connector-1.14_2.12-1.0.3-incubating": [
+"doris/flink-connector/1.0.3/apache-doris-flink-connector-1.14_2.12-1.0.3-incubating-src.tar.gz"
+],
+"apache-doris-spark-connector-2.3_2.11-1.0.1-incubating": [
+"doris/spark-connector/1.0.1/apache-doris-spark-connector-2.3_2.11-1.0.1-incubating-src.tar.gz"
+],
+"apache-doris-spark-connector-3.1_2.12-1.0.1-incubating": [
+"doris/spark-connector/1.0.1/apache-doris-spark-connector-3.1_2.12-1.0.1-incubating-src.tar.gz"
+]
+},
 "drill": {
 "apache-drill-1.19.0": [
 "drill/drill-1.19.0/apache-drill-1.19.0-src.tar.gz",
@@ -2928,9 +2954,9 @@
 "felix/org.apache.felix.rootcause-0.2.0-source-release.tar.gz",
 "felix/org.apache.felix.rootcause-0.2.0-source-release.zip"
 ],
-"org.apache.felix.scr-2.2.0": [
-"felix/org.apache.felix.scr-2.2.0-source-release.tar.gz",
-"felix/org.apache.felix.scr-2.2.0-source-release.zip"
+"org.apache.felix.scr-2.2.2": [
+"felix/org.apache.felix.scr-2.2.2-source-release.tar.gz",
+"felix/org.apache.felix.scr-2.2.2-source-release.zip"
 ],
 "org.apache.felix.scr.annotations-1.12.0": [
 "felix/org.apache.felix.scr.annotations-1.12.0-source-release.tar.gz",
@@ -3886,32 +3912,6 @@
 "incubator/datalab/2.5.1/apache-datalab-2.5.1-incubating.tar.gz"
 ]
 },
-"incubator-doris": {
-"apache-doris-0.15.0-incubating": [
-"incubator/doris/0.15.0-incubating/apache-doris-0.15.0-incubating-src.tar.gz"
-],
-"apache-doris-1.0.0-incubating": [
-"incubator/doris/1.0/1.0.0-incubating/apache-doris-1.0.0-incubating-src.tar.gz"
-],
-"apache-doris-flink-connector-1.11_2.12-1.0.3-incubating": [
-"incubator/doris/flink-connector/1.0.3/apache-doris-flink-connector-1.11_2.12-1.0.3-incubating-src.tar.gz"
-],
-"apache-doris-flink-connector-1.12_2.12-1.0.3-incubating": [
-"incubator/doris/flink-connector/1.0.3/apache-doris-flink-connector-1.12_2.12-1.0.3-incubating-src.tar.gz"
-],
-"apache-doris-flink-connector-1.13_2.12-1.0.3-incubating": [
-"incubator/doris/flink-connector/1.0.3/apache-doris-flink-connector-1.13_2.12-1.0.3-incubating-src.tar.gz"
-],
-"apache-doris-flink-connector-1.14_2.12-1.0.3-incubating": [
-"incubator/doris/flink-connector/1.0.3/apache-doris-flink-connector-1.14_2.12-1.0.3-incubating-src.tar.gz"
-],
-"apache-doris-spark-connector-2.3_2.11-1.0.1-incubating": [
-"incubator/doris/spark-connector/1.0.1/apache-doris-spark-connector-2.3_2.11-1.0.1-incubating-src.tar.gz"
-],
-"apache-doris-spark-connector-3.1_2.12-1.0.1-incubating": [
-"incubator/doris/spark-connector/1.0.1/apache-doris-spark-connector-3.1_2.12-1.0.1-incubating-src.tar.gz"
-]
-},
 "incubator-eventmesh": {
 "apache-eventmesh-1.4.0-incubating": [
 "incubator/eventmesh/1.4.0-incubating/apache-eventmesh-1.4.0-incubating-source.tar.gz"
@@ -3959,6 +3959,9 @@
 ],
 "apache-kyuubi-1.5.1-incubating": [
 "incubator/kyuubi/kyuubi-1.5.1-incubating/apache-kyuubi-1.5.1-incubating-source.tgz"
+],
+"apache-kyuubi-1.5.2-incubating": [
+"incubator/kyuubi/kyuubi-1.5.2-incubating/apache-kyuubi-1.5.2-incubating-source.tgz"
 ]
 },
 "incubator-liminal": {
@@ -4663,6 +4666,11 @@
 "lucene/java/8.11.1/lucene-8.11.1.tgz",
 "lucene/java/8.11.1/lucene-8.11.1.zip"
 ],
+"lucene-8.11.2": [
+"lucene/java/8.11.2/lucene-8.11.2-src.tgz",
+"lucene/java/8.11.2/lucene-8.11.2.tgz",
+"lucene/java/8.11.2/lucene-8.11.2.zip"
+],
 "lucene-9.2.0": [
 "lucene/java/9.2.0/lucene-9.2.0-src.tgz",
 "lucene/java/9.2.0/lucene-9.2.0.tgz"
@@ -4680,6 +4688,11 @@
 "lucene/solr/8.11.1/solr-8.11.1-src.tgz",
 "lucene/solr/8.11.1/solr-8.11.1.tgz",
 "lucene/solr/8.11.1/solr-8.11.1.zip"
+],
+"solr-8.11.2": [
+"lucene/solr/8.11.2/solr-8.11.2-src.tgz",
+"lucene/solr/8.11.2/solr-8.11.2.tgz",
+"lucene/solr/8.11.2/solr-8.11.2.zip"
 ]
 },
 "lucenenet": {
@@ -5214,6 +5227,10 @@
 "myfaces-core-2.2.14": [
 "myfaces/source/myfaces-core-assembly-2.2.14-src.tar.gz",
 "myfaces/source/myfaces-core-assembly-2.2.14-src.zip"
+],
+"myfaces-core-2.2.15": [
+"myfaces/source/myfaces-core-assembly-2.2.15-src.tar.gz",
+"myfaces/source/myfaces-core-assembly-2.2.15-src.zip"
 ],
 "myfaces-core-2.3-next-M6": [
 "myfaces/source/myfaces-core-assembly-2.3-next-M6-src.tar.gz",
@@ -8060,6 +8077,9 @@
 ],
 "orc-1.7.4": [
 "orc/orc-1.7.4/orc-1.7.4.tar.gz"
+],
+"orc-1.7.5": [
+"orc/orc-1.7.5/orc-1.7.5.tar.gz"
 ]
 },
 "ozone": {
@@ -9071,14 +9091,17 @@
 ]
 },
 "shardingsphere": {
-"apache-shardingsphere-5.1.1": [
-"shardingsphere/5.1.1/apache-shardingsphere-5.1.1-src.zip"
+"apache-shardingsphere-5.1.2": [
+"shardingsphere/5.1.2/apache-shardingsphere-5.1.2-src.zip"
 ],
 "apache-shardingsphere-elasticjob-3.0.1": [
 "shardingsphere/elasticjob-3.0.1/apache-shardingsphere-elasticjob-3.0.1-src.zip"
 ],
 "apache-shardingsphere-elasticjob-3.0.1-ui": [
 "shardingsphere/elasticjob-ui-3.0.1/apache-shardingsphere-elasticjob-3.0.1-ui-src.zip"
+],
+"apache-shardingsphere-proxy-1.1.0-chart": [
+"shardingsphere/5.1.2/apache-shardingsphere-proxy-1.1.0-chart.tgz"
 ]
 },
 "shiro": {
@@ -10669,11 +10692,11 @@
 ]
 },
 "tika": {
-"tika-1.28.3": [
-"tika/1.28.3/tika-1.28.3-src.zip"
+"tika-1.28.4": [
+"tika/1.28.4/tika-1.28.4-src.zip"
 ],
-"tika-2.4.0": [
-"tika/2.4.0/tika-2.4.0-src.zip"
+"tika-2.4.1": [
+"tika/2.4.1/tika-2.4.1-src.zip"
 ]
 },
 "tinkerpop": {
