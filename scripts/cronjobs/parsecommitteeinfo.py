@@ -1,4 +1,7 @@
 """
+Parse committee data to generate JSON files
+
+N.B. Must be run from scripts/cronjobs directory
 
 Reads:
 ../../data/committees.xml
@@ -75,7 +78,7 @@ def handleChild(el):
 pmcs = {}
 pmcDataUrls = {} # id -> url
 
-skipImageTest = len(sys.argv) >= 2 and sys.argv[1] == '--skipImageTest'
+skipImageTest = len(sys.argv) >= 2 and sys.argv[1] == '--skipImageTest' # speeds up testing considerably
 
 # get PMC Data from /data/committees.xml
 print("Reading PMC Data (/data/committees.xml)")
@@ -130,7 +133,8 @@ for loc in xmldoc.getElementsByTagName('location') :
 committeeCount = 0
 committeesList = []
 committeesMap = {}
-addedCommittees = []
+addedCommittees = [] # new committees detected
+rebootedCommittees = [] # retired committees restarted
 
 # temporary fix to ensure comparisons of generated files work better
 # The original code relied on the order in the physical file
@@ -228,23 +232,35 @@ for group in sorted(committees, key=keyorder):
 with open("../../site/json/foundation/committees-retired.json", "r") as f:
     committeesRetired = json.loads(f.read())
     f.close()
+committeesRetiredIds = [item['id'] for item in committeesRetired]
 
 with open("../../site/json/foundation/committees.json", "r") as f:
     committeesPrevious = json.loads(f.read())
     f.close()
+committeesPreviousIds = [item['id'] for item in committeesPrevious]
 
 for currId in committeesMap:
-    if not currId in [item['id'] for item in committeesPrevious]:
+    if currId not in committeesPreviousIds:
         addedCommittees.append(currId)
+    if currId in committeesRetiredIds: # detect rebooted committees
+      rebootedCommittees.append(currId)
 
 print("found %s new committees from %s committees in committee_info.txt" % (len(addedCommittees), committeeCount))
 addedCommittees.sort()
 for added in addedCommittees:
     print("- %s" % added)
 
+print("found %s rebooted committees from %s committees in committee_info.txt" % (len(rebootedCommittees), committeeCount))
+rebootedCommittees.sort()
+for added in rebootedCommittees:
+    print("- %s" % added)
+
+# Drop the rebooted committees from the retired list
+committeesRetired = [x for x in committeesRetired if x['id'] not in rebootedCommittees]
+
 for previous in committeesPrevious:
     prevId = previous['id']
-    if not prevId in committeesMap:
+    if prevId not in committeesMap:
         print("found retired committee: %s %s" % (prevId, previous['name']))
         previous['retired'] = datetime.date.today().strftime('%Y-%m')
         # remove data that is not useful in a retired committee
