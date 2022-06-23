@@ -78,7 +78,7 @@
 "apache-airflow-providers-facebook-3.0.0": "2022-06-13",
 "apache-airflow-providers-ftp-3.0.0": "2022-06-13",
 "apache-airflow-providers-github-2.0.0": "2022-06-13",
-"apache-airflow-providers-google-8.0.0": "2022-06-13",
+"apache-airflow-providers-google-8.1.0": "2022-06-22",
 "apache-airflow-providers-grpc-3.0.0": "2022-06-13",
 "apache-airflow-providers-hashicorp-3.0.0": "2022-06-13",
 "apache-airflow-providers-http-3.0.0": "2022-06-13",
@@ -97,7 +97,7 @@
 "apache-airflow-providers-odbc-3.0.0": "2022-06-13",
 "apache-airflow-providers-openfaas-3.0.0": "2022-06-13",
 "apache-airflow-providers-opsgenie-4.0.0": "2022-06-13",
-"apache-airflow-providers-oracle-3.0.0": "2022-06-13",
+"apache-airflow-providers-oracle-3.1.0": "2022-06-22",
 "apache-airflow-providers-pagerduty-3.0.0": "2022-06-13",
 "apache-airflow-providers-papermill-3.0.0": "2022-06-13",
 "apache-airflow-providers-plexus-3.0.0": "2022-06-13",
@@ -982,11 +982,9 @@
 "apache-flink-1.11.6": "2021-12-15",
 "apache-flink-1.12.7": "2021-12-15",
 "apache-flink-1.13.6": "2022-02-05",
-"apache-flink-1.14.4": "2022-02-25",
 "apache-flink-1.14.5": "2022-06-10",
 "apache-flink-1.15.0": "2022-04-21",
 "apache-flink-libraries-1.13.6": "2022-02-05",
-"apache-flink-libraries-1.14.4": "2022-02-25",
 "apache-flink-libraries-1.14.5": "2022-06-10",
 "apache-flink-libraries-1.15.0": "2022-04-21",
 "apache-flink-ml-2.0.0": "2021-12-30",
@@ -994,7 +992,6 @@
 "flink-1.11.6": "2021-12-15",
 "flink-1.12.7": "2021-12-15",
 "flink-1.13.6": "2022-02-04",
-"flink-1.14.4": "2022-02-25",
 "flink-1.14.5": "2022-06-10",
 "flink-1.15.0": "2022-04-21",
 "flink-kubernetes-operator-0.1.0": "2022-03-30",
@@ -1023,18 +1020,18 @@
 "apache-freemarker-gae-2.3.31": "2021-02-16"
 },
 "geode": {
-"apache-geode-1.12.9": "2022-03-03",
 "apache-geode-1.13.8": "2022-03-04",
 "apache-geode-1.14.4": "2022-03-05",
-"apache-geode-benchmarks-1.12.9": "2022-03-03",
+"apache-geode-1.15.0": "2022-06-16",
 "apache-geode-benchmarks-1.13.8": "2022-03-04",
 "apache-geode-benchmarks-1.14.4": "2022-03-05",
-"apache-geode-examples-1.12.9": "2022-03-03",
+"apache-geode-benchmarks-1.15.0": "2022-06-15",
 "apache-geode-examples-1.13.8": "2022-03-04",
 "apache-geode-examples-1.14.4": "2022-03-05",
-"apache-geode-native-1.12.9": "2022-03-03",
+"apache-geode-examples-1.15.0": "2022-06-15",
 "apache-geode-native-1.13.8": "2022-03-04",
 "apache-geode-native-1.14.4": "2022-03-05",
+"apache-geode-native-1.15.0": "2022-06-15",
 "apache-kafka-connect-geode-1.1.0": "2021-12-16",
 "geode-kafka-connector-rel-v1.1.0": "2021-12-16"
 },
@@ -1140,7 +1137,7 @@
 "hbase-connectors-1.0.0": "2019-05-03",
 "hbase-filesystem-1.0.0-alpha1": "2019-06-06",
 "hbase-operator-tools-1.2.0": "2021-12-20",
-"hbase-thirdparty-4.1.0": "2022-03-12"
+"hbase-thirdparty-4.1.1": "2022-06-22"
 },
 "helix": {
 "helix-0.9.10": "2021-12-11",
@@ -1303,10 +1300,12 @@
 "apache-nuttx-10.0.1-incubating": "2020-12-09",
 "apache-nuttx-10.1.0-incubating": "2021-05-26",
 "apache-nuttx-10.2.0-incubating": "2021-11-23",
+"apache-nuttx-10.3.0-incubating": "2022-06-22",
 "apache-nuttx-9.1.1-incubating": "2020-12-09",
 "apache-nuttx-apps-10.0.1-incubating": "2020-12-09",
 "apache-nuttx-apps-10.1.0-incubating": "2021-05-26",
 "apache-nuttx-apps-10.2.0-incubating": "2021-11-23",
+"apache-nuttx-apps-10.3.0-incubating": "2022-06-22",
 "apache-nuttx-apps-9.1.1-incubating": "2020-12-09"
 },
 "incubator-pagespeed": {
@@ -1528,13 +1527,11 @@
 "log4j-1.2.17": "2013-01-31"
 },
 "lucene": {
-"lucene-8.11.1": "2021-12-14",
 "lucene-8.11.2": "2022-06-13",
 "lucene-9.2.0": "2022-05-19",
 "pylucene-7.7.1": "2019-06-03",
 "pylucene-8.11.0": "2021-12-15",
 "pylucene-9.1.0": "2022-04-27",
-"solr-8.11.1": "2021-12-14",
 "solr-8.11.2": "2022-06-13"
 },
 "lucenenet": {
