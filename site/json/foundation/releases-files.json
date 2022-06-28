@@ -421,6 +421,9 @@
 "apache-apisix-2.13.1": [
 "apisix/2.13.1/apache-apisix-2.13.1-src.tgz"
 ],
+"apache-apisix-2.13.2": [
+"apisix/2.13.2/apache-apisix-2.13.2-src.tgz"
+],
 "apache-apisix-2.14.1": [
 "apisix/2.14.1/apache-apisix-2.14.1-src.tgz"
 ],
@@ -689,8 +692,8 @@
 "apache-arrow-julia-2.3.0": [
 "arrow/arrow-julia-2.3.0/apache-arrow-julia-2.3.0.tar.gz"
 ],
-"apache-arrow-rs-16.0.0": [
-"arrow/arrow-rs-16.0.0/apache-arrow-rs-16.0.0.tar.gz"
+"apache-arrow-rs-17.0.0": [
+"arrow/arrow-rs-17.0.0/apache-arrow-rs-17.0.0.tar.gz"
 ]
 },
 "asterixdb": {
@@ -3188,6 +3191,12 @@
 "flink-kubernetes-operator-1.0.0-helm": [
 "flink/flink-kubernetes-operator-1.0.0/flink-kubernetes-operator-1.0.0-helm.tgz"
 ],
+"flink-kubernetes-operator-1.0.1": [
+"flink/flink-kubernetes-operator-1.0.1/flink-kubernetes-operator-1.0.1-src.tgz"
+],
+"flink-kubernetes-operator-1.0.1-helm": [
+"flink/flink-kubernetes-operator-1.0.1/flink-kubernetes-operator-1.0.1-helm.tgz"
+],
 "flink-ml-2.0.0": [
 "flink/flink-ml-2.0.0/flink-ml-2.0.0-src.tgz"
 ],
@@ -3205,7 +3214,8 @@
 ],
 "index.yaml": [
 "flink/flink-kubernetes-operator-0.1.0/index.yaml",
-"flink/flink-kubernetes-operator-1.0.0/index.yaml"
+"flink/flink-kubernetes-operator-1.0.0/index.yaml",
+"flink/flink-kubernetes-operator-1.0.1/index.yaml"
 ]
 },
 "flume": {
@@ -3609,6 +3619,7 @@
 "RELEASENOTES.md": [
 "hbase/2.4.12/RELEASENOTES.md",
 "hbase/3.0.0-alpha-2/RELEASENOTES.md",
+"hbase/3.0.0-alpha-3/RELEASENOTES.md",
 "hbase/hbase-filesystem-1.0.0-alpha1/RELEASENOTES.md",
 "hbase/hbase-operator-tools-1.2.0/RELEASENOTES.md",
 "hbase/hbase-thirdparty-4.1.1/RELEASENOTES.md"
@@ -3621,6 +3632,9 @@
 ],
 "hbase-3.0.0-alpha-2": [
 "hbase/3.0.0-alpha-2/hbase-3.0.0-alpha-2-src.tar.gz"
+],
+"hbase-3.0.0-alpha-3": [
+"hbase/3.0.0-alpha-3/hbase-3.0.0-alpha-3-src.tar.gz"
 ],
 "hbase-connectors-1.0.0": [
 "hbase/hbase-connectors-1.0.0/hbase-connectors-1.0.0-src.tar.gz"
@@ -9228,8 +9242,8 @@
 "jspc-maven-plugin-2.3.4": [
 "sling/jspc-maven-plugin-2.3.4-source-release.zip"
 ],
-"maven-enforcer-rules-1.0.0": [
-"sling/maven-enforcer-rules-1.0.0-source-release.zip"
+"maven-enforcer-rules-1.1.0": [
+"sling/maven-enforcer-rules-1.1.0-source-release.zip"
 ],
 "maven-launchpad-plugin-2.3.4": [
 "sling/maven-launchpad-plugin-2.3.4-source-release.zip"
@@ -9561,8 +9575,8 @@
 "org.apache.sling.engine-2.9.0": [
 "sling/org.apache.sling.engine-2.9.0-source-release.zip"
 ],
-"org.apache.sling.event-4.3.2": [
-"sling/org.apache.sling.event-4.3.2-source-release.zip"
+"org.apache.sling.event-4.3.6": [
+"sling/org.apache.sling.event-4.3.6-source-release.zip"
 ],
 "org.apache.sling.event.api-1.0.0": [
 "sling/org.apache.sling.event.api-1.0.0-source-release.zip"
