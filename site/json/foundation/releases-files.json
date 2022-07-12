@@ -701,8 +701,8 @@
 "apache-arrow-julia-2.3.0": [
 "arrow/arrow-julia-2.3.0/apache-arrow-julia-2.3.0.tar.gz"
 ],
-"apache-arrow-rs-17.0.0": [
-"arrow/arrow-rs-17.0.0/apache-arrow-rs-17.0.0.tar.gz"
+"apache-arrow-rs-18.0.0": [
+"arrow/arrow-rs-18.0.0/apache-arrow-rs-18.0.0.tar.gz"
 ]
 },
 "asterixdb": {
@@ -1724,72 +1724,6 @@
 "celix/celix-2.2.1/celix-2.2.1.tar.gz"
 ]
 },
-"clerezza": {
-"201505-1.0.0": [
-"clerezza/partial-releases/partial-release-201505/201505-1.0.0-src.zip"
-],
-"201508-1": [
-"clerezza/partial-releases/partial-release-201508/201508-1-src.zip"
-],
-"201604-1": [
-"clerezza/partial-releases/partial-release-201604/201604-1-src.zip"
-],
-"20200202-2": [
-"clerezza/api-implementation/partial-release-202002/20200202-2-src.zip",
-"clerezza/ontologies/partial-release-202002/20200202-2-src.zip",
-"clerezza/partial-releases/partial-release-202002/20200202-2-src.zip",
-"clerezza/representation/partial-release-202002/20200202-2-src.zip",
-"clerezza/sparql/partial-release-202002/20200202-2-src.zip",
-"clerezza/test.utils/partial-release-202002/20200202-2-src.zip"
-],
-"20200220-3": [
-"clerezza/api-implementation/partial-release-202002/20200220-3-src.zip",
-"clerezza/ontologies/partial-release-202002/20200220-3-src.zip",
-"clerezza/partial-releases/partial-release-202002/20200220-3-src.zip",
-"clerezza/representation/partial-release-202002/20200220-3-src.zip",
-"clerezza/sparql/partial-release-202002/20200220-3-src.zip",
-"clerezza/test.utils/partial-release-202002/20200220-3-src.zip"
-],
-"api-2.0.0": [
-"clerezza/api/api-2.0.0-source-release.zip"
-],
-"api.utils-2.0.0": [
-"clerezza/api.utils/api.utils-2.0.0-source-release.zip"
-],
-"clerezza-6": [
-"clerezza/parent-6/clerezza-6-source-release.zip"
-],
-"clerezza-8": [
-"clerezza/parent-8/clerezza-8-source-release.zip"
-],
-"commons-reactor-0.1": [
-"clerezza/rdf-core-0.1/commons-reactor-0.1-source-release.zip"
-],
-"commons-reactor-0.2": [
-"clerezza/rdf-core-0.2/commons-reactor-0.2-source-release.zip"
-],
-"dataset-2.0.0": [
-"clerezza/dataset/dataset-2.0.0-source-release.zip"
-],
-"jaxrs.rdf.providers-2.0.0": [
-"clerezza/jaxrs.rdf.providers/jaxrs.rdf.providers-2.0.0-source-release.zip"
-],
-"jaxrs.utils-0.7": [
-"clerezza/jaxrs.utils-0.7/jaxrs.utils-0.7-source-release.zip"
-],
-"rdf.rdfjson-1.0.0": [
-"clerezza/rdfjson-1.0.0/rdf.rdfjson-1.0.0-source-release.zip"
-],
-"reactor-0.3": [
-"clerezza/partial-releases/partial-release-201407/reactor-0.3-source-release.zip"
-],
-"release20130710-reactor-0.3": [
-"clerezza/partial-releases/partial-release-20130710/release20130710-reactor-0.3-source-release.zip"
-],
-"typehandlerspace-0.2": [
-"clerezza/typehandlerspace-02/typehandlerspace-0.2-source-release.zip"
-]
-},
 "cloudstack": {
 "apache-cloudstack-4.17.0.0": [
 "cloudstack/releases/4.17.0.0/apache-cloudstack-4.17.0.0-src.tar.bz2"
@@ -2580,14 +2514,29 @@
 "apache-doris-flink-connector-1.13_2.12-1.0.3-incubating": [
 "doris/flink-connector/1.0.3/apache-doris-flink-connector-1.13_2.12-1.0.3-incubating-src.tar.gz"
 ],
+"apache-doris-flink-connector-1.14_2.11-1.1.0": [
+"doris/flink-connector/1.1.0/apache-doris-flink-connector-1.14_2.11-1.1.0-src.tar.gz"
+],
 "apache-doris-flink-connector-1.14_2.12-1.0.3-incubating": [
 "doris/flink-connector/1.0.3/apache-doris-flink-connector-1.14_2.12-1.0.3-incubating-src.tar.gz"
+],
+"apache-doris-flink-connector-1.14_2.12-1.1.0": [
+"doris/flink-connector/1.1.0/apache-doris-flink-connector-1.14_2.12-1.1.0-src.tar.gz"
 ],
 "apache-doris-spark-connector-2.3_2.11-1.0.1-incubating": [
 "doris/spark-connector/1.0.1/apache-doris-spark-connector-2.3_2.11-1.0.1-incubating-src.tar.gz"
 ],
+"apache-doris-spark-connector-2.3_2.11-1.1.0": [
+"doris/spark-connector/1.1.0/apache-doris-spark-connector-2.3_2.11-1.1.0-src.tar.gz"
+],
 "apache-doris-spark-connector-3.1_2.12-1.0.1-incubating": [
 "doris/spark-connector/1.0.1/apache-doris-spark-connector-3.1_2.12-1.0.1-incubating-src.tar.gz"
+],
+"apache-doris-spark-connector-3.1_2.12-1.1.0": [
+"doris/spark-connector/1.1.0/apache-doris-spark-connector-3.1_2.12-1.1.0-src.tar.gz"
+],
+"apache-doris-spark-connector-3.2_2.12-1.1.0": [
+"doris/spark-connector/1.1.0/apache-doris-spark-connector-3.2_2.12-1.1.0-src.tar.gz"
 ]
 },
 "drill": {
@@ -3171,6 +3120,9 @@
 "apache-flink-ml-2.0.0": [
 "flink/flink-ml-2.0.0/apache-flink-ml-2.0.0.tar.gz"
 ],
+"apache-flink-ml-2.1.0": [
+"flink/flink-ml-2.1.0/apache-flink-ml-2.1.0.tar.gz"
+],
 "apache-flink-statefun-3.2.0": [
 "flink/flink-statefun-3.2.0/apache-flink-statefun-3.2.0.tar.gz"
 ],
@@ -3206,6 +3158,9 @@
 ],
 "flink-ml-2.0.0": [
 "flink/flink-ml-2.0.0/flink-ml-2.0.0-src.tgz"
+],
+"flink-ml-2.1.0": [
+"flink/flink-ml-2.1.0/flink-ml-2.1.0-src.tgz"
 ],
 "flink-shaded-14.0": [
 "flink/flink-shaded-14.0/flink-shaded-14.0-src.tgz"
@@ -9709,8 +9664,8 @@
 "org.apache.sling.jcr.registration-1.0.6": [
 "sling/org.apache.sling.jcr.registration-1.0.6-source-release.zip"
 ],
-"org.apache.sling.jcr.repoinit-1.1.38": [
-"sling/org.apache.sling.jcr.repoinit-1.1.38-source-release.zip"
+"org.apache.sling.jcr.repoinit-1.1.40": [
+"sling/org.apache.sling.jcr.repoinit-1.1.40-source-release.zip"
 ],
 "org.apache.sling.jcr.resource-3.2.0": [
 "sling/org.apache.sling.jcr.resource-3.2.0-source-release.zip"
@@ -9901,8 +9856,8 @@
 "org.apache.sling.query-4.0.4": [
 "sling/org.apache.sling.query-4.0.4-source-release.zip"
 ],
-"org.apache.sling.repoinit.parser-1.6.14": [
-"sling/org.apache.sling.repoinit.parser-1.6.14-source-release.zip"
+"org.apache.sling.repoinit.parser-1.7.0": [
+"sling/org.apache.sling.repoinit.parser-1.7.0-source-release.zip"
 ],
 "org.apache.sling.resource.filter-1.0.0": [
 "sling/org.apache.sling.resource.filter-1.0.0-source-release.zip"
@@ -10725,9 +10680,9 @@
 "tomcat/tomcat-9/v9.0.64/src/apache-tomcat-9.0.64-src.tar.gz",
 "tomcat/tomcat-9/v9.0.64/src/apache-tomcat-9.0.64-src.zip"
 ],
-"jakartaee-migration-1.0.0": [
-"tomcat/jakartaee-migration/v1.0.0/source/jakartaee-migration-1.0.0-src.tar.gz",
-"tomcat/jakartaee-migration/v1.0.0/source/jakartaee-migration-1.0.0-src.zip"
+"jakartaee-migration-1.0.1": [
+"tomcat/jakartaee-migration/v1.0.1/source/jakartaee-migration-1.0.1-src.tar.gz",
+"tomcat/jakartaee-migration/v1.0.1/source/jakartaee-migration-1.0.1-src.zip"
 ],
 "taglibs-standard-1.2.5": [
 "tomcat/taglibs/taglibs-standard-1.2.5/taglibs-standard-1.2.5-source-release.zip"

@@ -241,7 +241,7 @@
 "apache-arrow-datafusion-8.0.0": "2022-05-16",
 "apache-arrow-datafusion-9.0.0": "2022-06-13",
 "apache-arrow-julia-2.3.0": "2022-04-09",
-"apache-arrow-rs-17.0.0": "2022-06-27"
+"apache-arrow-rs-18.0.0": "2022-07-11"
 },
 "asterixdb": {
 "apache-asterixdb-0.9.6": "2020-10-14",
@@ -562,26 +562,6 @@
 "celix": {
 "celix-2.2.1": "2020-05-17"
 },
-"clerezza": {
-"201505-1.0.0": "2020-02-12",
-"201508-1": "2020-02-12",
-"201604-1": "2020-02-12",
-"20200202-2": "2020-02-12",
-"20200220-3": "2020-04-23",
-"api-2.0.0": "2020-02-02",
-"api.utils-2.0.0": "2020-07-11",
-"clerezza-6": "2015-03-30",
-"clerezza-8": "2019-11-09",
-"commons-reactor-0.1": "2015-04-13",
-"commons-reactor-0.2": "2015-11-15",
-"dataset-2.0.0": "2020-05-13",
-"jaxrs.rdf.providers-2.0.0": "2020-10-22",
-"jaxrs.utils-0.7": "2015-03-05",
-"rdf.rdfjson-1.0.0": "2015-05-28",
-"reactor-0.3": "2020-02-12",
-"release20130710-reactor-0.3": "2020-02-12",
-"typehandlerspace-0.2": "2015-02-16"
-},
 "cloudstack": {
 "apache-cloudstack-4.17.0.0": "2022-05-31",
 "apache-cloudstack-cloudmonkey-6.2.0": "2021-09-23",
@@ -824,9 +804,14 @@
 "apache-doris-flink-connector-1.11_2.12-1.0.3-incubating": "2022-03-19",
 "apache-doris-flink-connector-1.12_2.12-1.0.3-incubating": "2022-03-19",
 "apache-doris-flink-connector-1.13_2.12-1.0.3-incubating": "2022-03-19",
+"apache-doris-flink-connector-1.14_2.11-1.1.0": "2022-07-11",
 "apache-doris-flink-connector-1.14_2.12-1.0.3-incubating": "2022-03-19",
+"apache-doris-flink-connector-1.14_2.12-1.1.0": "2022-07-11",
 "apache-doris-spark-connector-2.3_2.11-1.0.1-incubating": "2022-03-19",
-"apache-doris-spark-connector-3.1_2.12-1.0.1-incubating": "2022-03-19"
+"apache-doris-spark-connector-2.3_2.11-1.1.0": "2022-07-11",
+"apache-doris-spark-connector-3.1_2.12-1.0.1-incubating": "2022-03-19",
+"apache-doris-spark-connector-3.1_2.12-1.1.0": "2022-07-11",
+"apache-doris-spark-connector-3.2_2.12-1.1.0": "2022-07-11"
 },
 "drill": {
 "apache-drill-1.19.0": "2021-06-09",
@@ -992,6 +977,7 @@
 "apache-flink-libraries-1.15.0": "2022-04-21",
 "apache-flink-libraries-1.15.1": "2022-06-22",
 "apache-flink-ml-2.0.0": "2021-12-30",
+"apache-flink-ml-2.1.0": "2022-07-01",
 "apache-flink-statefun-3.2.0": "2022-01-25",
 "flink-1.11.6": "2021-12-15",
 "flink-1.12.7": "2021-12-15",
@@ -1004,6 +990,7 @@
 "flink-kubernetes-operator-1.0.1": "2022-06-23",
 "flink-kubernetes-operator-1.0.1-helm": "2022-06-23",
 "flink-ml-2.0.0": "2021-12-30",
+"flink-ml-2.1.0": "2022-07-01",
 "flink-shaded-14.0": "2021-07-15",
 "flink-shaded-15.0": "2022-01-18",
 "flink-statefun-3.2.0": "2022-01-25",
@@ -3226,7 +3213,7 @@
 "org.apache.sling.jcr.packageinit-1.0.4": "2021-06-10",
 "org.apache.sling.jcr.prefs-1.0.0": "2013-01-21",
 "org.apache.sling.jcr.registration-1.0.6": "2018-08-14",
-"org.apache.sling.jcr.repoinit-1.1.38": "2022-03-07",
+"org.apache.sling.jcr.repoinit-1.1.40": "2022-07-11",
 "org.apache.sling.jcr.resource-3.2.0": "2022-01-22",
 "org.apache.sling.jcr.resourcesecurity-1.1.0": "2021-11-12",
 "org.apache.sling.jcr.webconsole-1.1.0": "2020-12-08",
@@ -3289,7 +3276,7 @@
 "org.apache.sling.pipes-4.4.2": "2022-04-25",
 "org.apache.sling.provisioning.model-1.8.6": "2020-04-09",
 "org.apache.sling.query-4.0.4": "2022-05-02",
-"org.apache.sling.repoinit.parser-1.6.14": "2022-03-07",
+"org.apache.sling.repoinit.parser-1.7.0": "2022-07-11",
 "org.apache.sling.resource.filter-1.0.0": "2018-09-09",
 "org.apache.sling.resource.inventory-1.0.8": "2017-06-06",
 "org.apache.sling.resource.presence-0.0.2": "2017-03-20",
@@ -3557,7 +3544,7 @@
 "apache-tomcat-8.5.79": "2022-05-16",
 "apache-tomcat-8.5.81": "2022-06-08",
 "apache-tomcat-9.0.64": "2022-06-02",
-"jakartaee-migration-1.0.0": "2021-05-04",
+"jakartaee-migration-1.0.1": "2022-07-05",
 "taglibs-standard-1.2.5": "2015-03-10",
 "tomcat-connectors-1.2.48": "2020-03-06",
 "tomcat-maven-plugin-2.2": "2013-11-07",
