@@ -327,8 +327,8 @@
 "apache-airflow-providers-sendgrid-3.0.0": [
 "airflow/providers/apache-airflow-providers-sendgrid-3.0.0.tar.gz"
 ],
-"apache-airflow-providers-sftp-3.0.0": [
-"airflow/providers/apache-airflow-providers-sftp-3.0.0.tar.gz"
+"apache-airflow-providers-sftp-4.0.0": [
+"airflow/providers/apache-airflow-providers-sftp-4.0.0.tar.gz"
 ],
 "apache-airflow-providers-singularity-3.0.0": [
 "airflow/providers/apache-airflow-providers-singularity-3.0.0.tar.gz"
@@ -348,8 +348,8 @@
 "apache-airflow-providers-tableau-3.0.1": [
 "airflow/providers/apache-airflow-providers-tableau-3.0.1.tar.gz"
 ],
-"apache-airflow-providers-tabular-1.0.0": [
-"airflow/providers/apache-airflow-providers-tabular-1.0.0.tar.gz"
+"apache-airflow-providers-tabular-1.0.1": [
+"airflow/providers/apache-airflow-providers-tabular-1.0.1.tar.gz"
 ],
 "apache-airflow-providers-telegram-3.0.0": [
 "airflow/providers/apache-airflow-providers-telegram-3.0.0.tar.gz"
@@ -806,6 +806,10 @@
 "axis/axis2/java/core/1.8.0/axis2-1.8.0-src.zip",
 "axis/axis2/java/core/1.8.0/axis2-1.8.0-war.zip"
 ],
+"axis2-1.8.2": [
+"axis/axis2/java/core/1.8.2/axis2-1.8.2-src.zip",
+"axis/axis2/java/core/1.8.2/axis2-1.8.2-war.zip"
+],
 "axis2-eclipse-codegen-plugin-1.8.0": [
 "axis/axis2/java/core/1.8.0/axis2-eclipse-codegen-plugin-1.8.0.zip"
 ],
@@ -814,6 +818,9 @@
 ],
 "axis2-idea-plugin-1.8.0": [
 "axis/axis2/java/core/1.8.0/axis2-idea-plugin-1.8.0.zip"
+],
+"axis2-idea-plugin-1.8.2": [
+"axis/axis2/java/core/1.8.2/axis2-idea-plugin-1.8.2.zip"
 ],
 "rampart-dist-1.7.1": [
 "axis/axis2/java/rampart/1.7.1/rampart-dist-1.7.1-src.zip"
@@ -2539,6 +2546,15 @@
 ]
 },
 "doris": {
+"apache-doris-0.12.0-incubating": [
+"doris/0.12.0-incubating/apache-doris-0.12.0-incubating-src.tar.gz"
+],
+"apache-doris-0.13.0-incubating": [
+"doris/0.13.0-incubating/apache-doris-0.13.0-incubating-src.tar.gz"
+],
+"apache-doris-0.14.0-incubating": [
+"doris/0.14.0-incubating/apache-doris-0.14.0-incubating-src.tar.gz"
+],
 "apache-doris-0.15.0-incubating": [
 "doris/0.15.0-incubating/apache-doris-0.15.0-incubating-src.tar.gz"
 ],
@@ -2615,9 +2631,6 @@
 ]
 },
 "dubbo": {
-"apache-dubbo-2.6.12": [
-"dubbo/2.6.12/apache-dubbo-2.6.12-source-release.zip"
-],
 "apache-dubbo-2.7.16": [
 "dubbo/2.7.16/apache-dubbo-2.7.16-src.zip"
 ],
@@ -4939,8 +4952,8 @@
 "maven-clean-plugin-3.2.0": [
 "maven/plugins/maven-clean-plugin-3.2.0-source-release.zip"
 ],
-"maven-common-artifact-filters-3.3.0": [
-"maven/shared/maven-common-artifact-filters-3.3.0-source-release.zip"
+"maven-common-artifact-filters-3.3.1": [
+"maven/shared/maven-common-artifact-filters-3.3.1-source-release.zip"
 ],
 "maven-compiler-plugin-3.10.1": [
 "maven/plugins/maven-compiler-plugin-3.10.1-source-release.zip"
@@ -5048,14 +5061,14 @@
 "maven-pmd-plugin-3.17.0": [
 "maven/plugins/maven-pmd-plugin-3.17.0-source-release.zip"
 ],
-"maven-rar-plugin-2.4": [
-"maven/plugins/maven-rar-plugin-2.4-source-release.zip"
+"maven-rar-plugin-3.0.0": [
+"maven/plugins/maven-rar-plugin-3.0.0-source-release.zip"
 ],
 "maven-release-3.0.0-M6": [
 "maven/release/maven-release-3.0.0-M6-source-release.zip"
 ],
-"maven-remote-resources-plugin-1.7.0": [
-"maven/plugins/maven-remote-resources-plugin-1.7.0-source-release.zip"
+"maven-remote-resources-plugin-3.0.0": [
+"maven/plugins/maven-remote-resources-plugin-3.0.0-source-release.zip"
 ],
 "maven-reporting-api-4.0.0-M2": [
 "maven/reporting/maven-reporting-api-4.0.0-M2-source-release.zip"
@@ -10791,6 +10804,19 @@
 "tomcat/tomcat-10/v10.1.0-M16/src/apache-tomcat-10.1.0-M16-src.tar.gz",
 "tomcat/tomcat-10/v10.1.0-M16/src/apache-tomcat-10.1.0-M16-src.zip"
 ],
+"apache-tomcat-10.1.0-M17": [
+"tomcat/tomcat-10/v10.1.0-M17/bin/embed/apache-tomcat-10.1.0-M17-embed.tar.gz",
+"tomcat/tomcat-10/v10.1.0-M17/bin/embed/apache-tomcat-10.1.0-M17-embed.zip",
+"tomcat/tomcat-10/v10.1.0-M17/bin/apache-tomcat-10.1.0-M17-deployer.tar.gz",
+"tomcat/tomcat-10/v10.1.0-M17/bin/apache-tomcat-10.1.0-M17-deployer.zip",
+"tomcat/tomcat-10/v10.1.0-M17/bin/apache-tomcat-10.1.0-M17-fulldocs.tar.gz",
+"tomcat/tomcat-10/v10.1.0-M17/bin/apache-tomcat-10.1.0-M17-windows-x64.zip",
+"tomcat/tomcat-10/v10.1.0-M17/bin/apache-tomcat-10.1.0-M17.exe",
+"tomcat/tomcat-10/v10.1.0-M17/bin/apache-tomcat-10.1.0-M17.tar.gz",
+"tomcat/tomcat-10/v10.1.0-M17/bin/apache-tomcat-10.1.0-M17.zip",
+"tomcat/tomcat-10/v10.1.0-M17/src/apache-tomcat-10.1.0-M17-src.tar.gz",
+"tomcat/tomcat-10/v10.1.0-M17/src/apache-tomcat-10.1.0-M17-src.zip"
+],
 "apache-tomcat-8.5.79": [
 "tomcat/tomcat-8/v8.5.79/bin/embed/apache-tomcat-8.5.79-embed.tar.gz",
 "tomcat/tomcat-8/v8.5.79/bin/embed/apache-tomcat-8.5.79-embed.zip",
@@ -10829,6 +10855,19 @@
 "tomcat/tomcat-9/v9.0.64/bin/apache-tomcat-9.0.64.zip",
 "tomcat/tomcat-9/v9.0.64/src/apache-tomcat-9.0.64-src.tar.gz",
 "tomcat/tomcat-9/v9.0.64/src/apache-tomcat-9.0.64-src.zip"
+],
+"apache-tomcat-9.0.65": [
+"tomcat/tomcat-9/v9.0.65/bin/embed/apache-tomcat-9.0.65-embed.tar.gz",
+"tomcat/tomcat-9/v9.0.65/bin/embed/apache-tomcat-9.0.65-embed.zip",
+"tomcat/tomcat-9/v9.0.65/bin/apache-tomcat-9.0.65-deployer.tar.gz",
+"tomcat/tomcat-9/v9.0.65/bin/apache-tomcat-9.0.65-deployer.zip",
+"tomcat/tomcat-9/v9.0.65/bin/apache-tomcat-9.0.65-fulldocs.tar.gz",
+"tomcat/tomcat-9/v9.0.65/bin/apache-tomcat-9.0.65-windows-x64.zip",
+"tomcat/tomcat-9/v9.0.65/bin/apache-tomcat-9.0.65.exe",
+"tomcat/tomcat-9/v9.0.65/bin/apache-tomcat-9.0.65.tar.gz",
+"tomcat/tomcat-9/v9.0.65/bin/apache-tomcat-9.0.65.zip",
+"tomcat/tomcat-9/v9.0.65/src/apache-tomcat-9.0.65-src.tar.gz",
+"tomcat/tomcat-9/v9.0.65/src/apache-tomcat-9.0.65-src.zip"
 ],
 "jakartaee-migration-1.0.1": [
 "tomcat/jakartaee-migration/v1.0.1/source/jakartaee-migration-1.0.1-src.tar.gz",

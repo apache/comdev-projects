@@ -2672,48 +2672,6 @@
 "shortdesc": "Framework for modeling, monitoring, and managing applications through autonomic blueprints"
 },
 {
-"chair": "toulmean",
-"charter": "Apache Buildr software is a build system for Java-based applications, including support for Scala, Groovy and a growing number of JVM languages and tools.",
-"established": "2008-11",
-"group": "buildr",
-"homepage": "http://buildr.apache.org/",
-"id": "buildr",
-"name": "Apache Buildr",
-"rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/buildr.rdf",
-"reporting": 2,
-"roster": {
-"assaf": {
-"date": "2008-11-16",
-"name": "Assaf Arkin"
-},
-"boisvert": {
-"date": "2008-11-16",
-"name": "Alex Boisvert"
-},
-"donaldp": {
-"date": "2013-10-16",
-"name": "Peter Donald"
-},
-"lacton": {
-"date": "2008-11-16",
-"name": "Antoine Contal"
-},
-"mriou": {
-"date": "2008-11-16",
-"name": "Matthieu Riou"
-},
-"toulmean": {
-"date": "2010-09-29",
-"name": "Antoine Toulme"
-},
-"vborja": {
-"date": "2008-11-16",
-"name": "Victor Hugo Borja"
-}
-},
-"shortdesc": "Simple and intuitive build system for Java applications"
-},
-{
 "chair": "mbenson",
 "charter": "The mission of BVal is the creation and maintenance of software related to Apache BVal: JSR-303 Bean Validation Implementation and Extensions",
 "established": "2012-02",
@@ -6016,7 +5974,7 @@
 "shortdesc": "analytical database software"
 },
 {
-"chair": "iluo",
+"chair": "liujun",
 "charter": "The mission of Apache Dubbo is the creation and maintenance of software related to a high-performance, lightweight, java based RPC framework.",
 "established": "2019-05",
 "group": "dubbo",
@@ -17540,108 +17498,6 @@
 "shortdesc": "a highly customizable Raft protocol implementation in Java"
 },
 {
-"chair": "motus",
-"charter": "The mission of REEF is the creation and maintenance of software related to Retainable Evaluator Execution Framework",
-"established": "2015-11",
-"group": "reef",
-"homepage": "http://reef.apache.org/",
-"id": "reef",
-"name": "Apache REEF",
-"rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/reef.rdf",
-"reporting": 2,
-"roster": {
-"afchung90": {
-"date": "2015-11-18",
-"name": "Andrew Chung"
-},
-"bgchun": {
-"date": "2015-11-18",
-"name": "Byung-Gon Chun"
-},
-"cdouglas": {
-"date": "2015-11-18",
-"name": "Chris Douglas"
-},
-"chobrian": {
-"date": "2015-11-18",
-"name": "Brian Cho"
-},
-"dongjoon": {
-"date": "2015-11-18",
-"name": "Dongjoon Hyun"
-},
-"dougservice": {
-"date": "2017-09-29",
-"name": "Doug Service"
-},
-"gwkim": {
-"date": "2015-11-18",
-"name": "Geon-Woo Kim"
-},
-"gwlee": {
-"date": "2015-11-18",
-"name": "Gyewon Lee"
-},
-"johnyangk": {
-"date": "2015-11-18",
-"name": "Youngseok Yang"
-},
-"jsjason": {
-"date": "2015-11-18",
-"name": "Joo Seong Jeong"
-},
-"juliaw": {
-"date": "2015-11-18",
-"name": "Julia Wang"
-},
-"mariia": {
-"date": "2015-11-18",
-"name": "Mariia Mykhailova"
-},
-"mattmann": {
-"date": "2015-11-18",
-"name": "Chris Mattmann"
-},
-"motus": {
-"date": "2015-11-18",
-"name": "Sergiy Matusevych"
-},
-"sezgin": {
-"date": "2015-11-18",
-"name": "Beysim Sezgin"
-},
-"shravan": {
-"date": "2015-11-18",
-"name": "Shravan M Narayanamurthy"
-},
-"shulmanb": {
-"date": "2015-11-18",
-"name": "Boris Shulman"
-},
-"taegeonum": {
-"date": "2015-11-18",
-"name": "Tae-Geon Um"
-},
-"tcondie": {
-"date": "2015-11-18",
-"name": "Tyson Condie"
-},
-"weimer": {
-"date": "2015-11-18",
-"name": "Markus Weimer"
-},
-"yingdachen": {
-"date": "2015-11-18",
-"name": "Yingda Chen"
-},
-"yunseong": {
-"date": "2015-11-18",
-"name": "Yunseong Lee"
-}
-},
-"shortdesc": "Retainable Evaluator Execution Framework"
-},
-{
 "chair": "vintagewang",
 "charter": "The mission of Apache RocketMQ is the creation and maintenance of software related to a fast, low latency, reliable, scalable, distributed, easy to use message-oriented middleware, especially for processing large amounts of streaming data",
 "established": "2017-09",
@@ -18348,6 +18204,110 @@
 }
 },
 "shortdesc": "a database clustering system providing data sharding, distributed transactions, and distributed database management"
+},
+{
+"chair": "xiaoyu",
+"established": "2022-07",
+"group": "shenyu",
+"homepage": "http://shenyu.apache.org",
+"id": "shenyu",
+"name": "Apache Shenyu",
+"reporting": 2,
+"roster": {
+"asxing": {
+"date": "2022-07-20",
+"name": "Asxing"
+},
+"atri": {
+"date": "2022-07-20",
+"name": "Atri Sharma"
+},
+"dengliming": {
+"date": "2022-07-20",
+"name": "Liming Deng"
+},
+"djkevincr": {
+"date": "2022-07-20",
+"name": "Kevin Ratnasekera"
+},
+"fengzhenbing": {
+"date": "2022-07-20",
+"name": "Zhenbing Feng"
+},
+"impactcn": {
+"date": "2022-07-20",
+"name": "SiYing Zheng"
+},
+"jincheng": {
+"date": "2022-07-20",
+"name": "Jincheng Sun"
+},
+"jmclean": {
+"date": "2022-07-20",
+"name": "Justin Mclean"
+},
+"jooks": {
+"date": "2022-07-20",
+"name": "Kunshuai Zhu"
+},
+"kevinclair": {
+"date": "2022-07-20",
+"name": "MingJie Song"
+},
+"likeguo": {
+"date": "2022-07-20",
+"name": "Keguo Li"
+},
+"lw1243925457": {
+"date": "2022-07-20",
+"name": "Wei Liu"
+},
+"midnight2104": {
+"date": "2022-07-20",
+"name": "Liang Liu"
+},
+"ningjiang": {
+"date": "2022-07-20",
+"name": "Willem Ning Jiang"
+},
+"nuoyan": {
+"date": "2022-07-20",
+"name": "JianMing Ding"
+},
+"qicz": {
+"date": "2022-07-20",
+"name": "Congqi Zhu"
+},
+"sabersola": {
+"date": "2022-07-20",
+"name": "Lei Zhang"
+},
+"tydhot": {
+"date": "2022-07-20",
+"name": "Tang Yudong"
+},
+"xiaoyu": {
+"date": "2022-07-20",
+"name": "Yu Xiao"
+},
+"yui": {
+"date": "2022-07-20",
+"name": "Yi Liu"
+},
+"zhangduo": {
+"date": "2022-07-20",
+"name": "Duo Zhang"
+},
+"zhangyonglun": {
+"date": "2022-07-20",
+"name": "Yonglun Zhang"
+},
+"zhangzicheng": {
+"date": "2022-07-20",
+"name": "ZiCheng Zhang"
+}
+},
+"shortdesc": "a Java native API Gateway for service proxy, protocol conversion and API governance"
 },
 {
 "chair": "bdemers",

@@ -3567,7 +3567,7 @@
 },
 "buildr": {
 "bug-database": "http://issues.apache.org/jira/browse/Buildr",
-"category": "build-management",
+"category": "build-management, retired",
 "created": "2012-10-07",
 "description": "We wanted something that's simple and intuitive to use, so we only need to tell it what to do, and it takes care of the rest.  But also something we can easily extend for those one-off tasks, with a language that's a joy to use.",
 "doap": "https://gitbox.apache.org/repos/asf?p=buildr.git;a=blob_plain;f=doap.rdf;hb=HEAD",
@@ -3582,7 +3582,7 @@
 }
 ],
 "name": "Apache Buildr",
-"pmc": "buildr",
+"pmc": "attic",
 "programming-language": "Ruby",
 "release": [
 {
@@ -14489,7 +14489,7 @@
 },
 "reef": {
 "bug-database": "http://issues.apache.org/jira/browse/REEF",
-"category": "big-data",
+"category": "big-data, retired",
 "created": "2014-08-12",
 "description": "\n      Apache REEF (Retainable Evaluator Execution Framework) is a development\n      framework that provides a control-plane for scheduling and coordinating\n      task-level (data-plane) work on cluster resources obtained from a\n      Resource Manager. REEF provides mechanisms that facilitate resource\n      reuse for data caching, and state management abstractions that greatly\n      ease the development of elastic data processing workflows on cloud\n      platforms that support a Resource Manager service.\n    ",
 "doap": "http://reef.apache.org/doap.rdf",
@@ -14498,7 +14498,7 @@
 "license": "http://www.apache.org/licenses/LICENSE-2.0",
 "mailing-list": "http://reef.apache.org/mailing-list.html",
 "name": "Apache REEF",
-"pmc": "reef",
+"pmc": "attic",
 "programming-language": "Java, C#, C++",
 "release": [
 {
@@ -16569,9 +16569,9 @@
 "revision": "10.0.22"
 },
 {
-"created": "2022-06-09",
+"created": "2022-07-20",
 "name": "Latest Stable 9.0.x Release",
-"revision": "9.0.64"
+"revision": "9.0.65"
 },
 {
 "created": "2022-05-11",
