@@ -793,9 +793,13 @@
 "apache-ldap-api-2.1.0": "2021-06-25",
 "apacheds-2.0.0.AM26": "2020-03-07",
 "fortress-core-2.0.7": "2021-12-12",
+"fortress-core-2.0.8": "2022-07-21",
 "fortress-realm-2.0.7": "2021-12-12",
+"fortress-realm-2.0.8": "2022-07-21",
 "fortress-rest-2.0.7": "2021-12-12",
+"fortress-rest-2.0.8": "2022-07-21",
 "fortress-web-2.0.7": "2021-12-12",
+"fortress-web-2.0.8": "2022-07-21",
 "kerby-all-1.0.1": "2017-09-04",
 "kerby-all-1.1.1": "2018-05-25",
 "kerby-all-2.0.2": "2022-05-09",
@@ -845,7 +849,7 @@
 },
 "dubbo": {
 "apache-dubbo-2.7.16": "2022-07-06",
-"apache-dubbo-3.0.9": "2022-06-23",
+"apache-dubbo-3.0.10": "2022-07-21",
 "apache-dubbo-admin-0.4.0": "2021-11-22",
 "apache-dubbo-extensions-1.0.1": "2022-03-22",
 "apache-dubbo-extensions-3.0.0-SNAPSHOT": "2021-03-29",
@@ -1338,10 +1342,6 @@
 "incubator-sedona": {
 "apache-sedona-1.1.1-incubating": "2021-11-23",
 "apache-sedona-1.2.0-incubating": "2022-04-15"
-},
-"incubator-shenyu": {
-"apache-shenyu-incubating-2.4.2": "2022-01-18",
-"apache-shenyu-incubating-2.4.3": "2022-04-07"
 },
 "incubator-spot": {
 "apache-spot-1.0-incubating": "2017-08-16"
@@ -2751,7 +2751,8 @@
 },
 "plc4x": {
 "apache-plc4x-0.9.1": "2021-12-14",
-"apache-plc4x-code-generation-1.4.0": "2020-12-13"
+"apache-plc4x-code-generation-1.4.0": "2020-12-13",
+"apache-plc4x-code-generation-1.5.0": "2021-09-08"
 },
 "poi": {
 "poi-5.2.2-20220312": "2022-03-19",
@@ -3042,6 +3043,10 @@
 "apache-shardingsphere-elasticjob-3.0.1-ui": "2021-12-27",
 "apache-shardingsphere-proxy-1.1.0-chart": "2022-06-13"
 },
+"shenyu": {
+"apache-shenyu-incubating-2.4.2": "2022-01-18",
+"apache-shenyu-incubating-2.4.3": "2022-04-07"
+},
 "shiro": {
 "shiro-root-1.9.1": "2022-06-23"
 },
@@ -3058,7 +3063,7 @@
 "apache-skywalking-rover-0.2.0": "2022-06-09",
 "apache-skywalking-satellite-1.0.0": "2022-05-17",
 "apache-skywalking-satellite-1.0.1": "2022-07-06",
-"skywalking-0.2.0.crate": "2022-07-03",
+"skywalking-0.3.0.crate": "2022-07-19",
 "skywalking-4.1.0": "2021-08-08",
 "skywalking-4.2.0": "2021-12-02",
 "skywalking-banyandb-0.1.0": "2022-06-06",
@@ -3596,7 +3601,6 @@
 "apache-tomcat-10.1.0-M17": "2022-07-13",
 "apache-tomcat-8.5.79": "2022-05-16",
 "apache-tomcat-8.5.81": "2022-06-08",
-"apache-tomcat-9.0.64": "2022-06-02",
 "apache-tomcat-9.0.65": "2022-07-14",
 "jakartaee-migration-1.0.1": "2022-07-05",
 "taglibs-standard-1.2.5": "2015-03-10",
