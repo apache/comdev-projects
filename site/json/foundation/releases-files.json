@@ -3547,6 +3547,7 @@
 "hadoop/common/hadoop-2.10.1/RELEASENOTES.md",
 "hadoop/common/hadoop-2.10.2/RELEASENOTES.md",
 "hadoop/common/hadoop-3.2.3/RELEASENOTES.md",
+"hadoop/common/hadoop-3.2.4/RELEASENOTES.md",
 "hadoop/common/hadoop-3.3.1/RELEASENOTES.md",
 "hadoop/common/hadoop-3.3.2/RELEASENOTES.md",
 "hadoop/common/hadoop-3.3.3/RELEASENOTES.md",
@@ -3554,6 +3555,7 @@
 "hadoop/core/hadoop-2.10.1/RELEASENOTES.md",
 "hadoop/core/hadoop-2.10.2/RELEASENOTES.md",
 "hadoop/core/hadoop-3.2.3/RELEASENOTES.md",
+"hadoop/core/hadoop-3.2.4/RELEASENOTES.md",
 "hadoop/core/hadoop-3.3.1/RELEASENOTES.md",
 "hadoop/core/hadoop-3.3.2/RELEASENOTES.md",
 "hadoop/core/hadoop-3.3.3/RELEASENOTES.md",
@@ -3590,6 +3592,14 @@
 "hadoop/core/hadoop-3.2.3/hadoop-3.2.3-site.tar.gz",
 "hadoop/core/hadoop-3.2.3/hadoop-3.2.3-src.tar.gz",
 "hadoop/core/hadoop-3.2.3/hadoop-3.2.3.tar.gz"
+],
+"hadoop-3.2.4": [
+"hadoop/common/hadoop-3.2.4/hadoop-3.2.4-site.tar.gz",
+"hadoop/common/hadoop-3.2.4/hadoop-3.2.4-src.tar.gz",
+"hadoop/common/hadoop-3.2.4/hadoop-3.2.4.tar.gz",
+"hadoop/core/hadoop-3.2.4/hadoop-3.2.4-site.tar.gz",
+"hadoop/core/hadoop-3.2.4/hadoop-3.2.4-src.tar.gz",
+"hadoop/core/hadoop-3.2.4/hadoop-3.2.4.tar.gz"
 ],
 "hadoop-3.3.1": [
 "hadoop/common/hadoop-3.3.1/hadoop-3.3.1-site.tar.gz",
@@ -5079,8 +5089,8 @@
 "maven-reporting-api-4.0.0-M2": [
 "maven/reporting/maven-reporting-api-4.0.0-M2-source-release.zip"
 ],
-"maven-reporting-exec-2.0.0-M1": [
-"maven/reporting/maven-reporting-exec-2.0.0-M1-source-release.zip"
+"maven-reporting-exec-2.0.0-M2": [
+"maven/reporting/maven-reporting-exec-2.0.0-M2-source-release.zip"
 ],
 "maven-reporting-impl-4.0.0-M2": [
 "maven/reporting/maven-reporting-impl-4.0.0-M2-source-release.zip"
@@ -5209,11 +5219,11 @@
 "mina/sshd/1.7.0/apache-sshd-1.7.0.tar.gz",
 "mina/sshd/1.7.0/apache-sshd-1.7.0.zip"
 ],
-"apache-sshd-2.8.0": [
-"mina/sshd/2.8.0/apache-sshd-2.8.0-src.tar.gz",
-"mina/sshd/2.8.0/apache-sshd-2.8.0-src.zip",
-"mina/sshd/2.8.0/apache-sshd-2.8.0.tar.gz",
-"mina/sshd/2.8.0/apache-sshd-2.8.0.zip"
+"apache-sshd-2.9.0": [
+"mina/sshd/2.9.0/apache-sshd-2.9.0-src.tar.gz",
+"mina/sshd/2.9.0/apache-sshd-2.9.0-src.zip",
+"mina/sshd/2.9.0/apache-sshd-2.9.0.tar.gz",
+"mina/sshd/2.9.0/apache-sshd-2.9.0.zip"
 ],
 "vysper-0.7": [
 "mina/vysper/0.7/vysper-0.7-src.tar.gz",
@@ -7833,8 +7843,8 @@
 "nifi-minifi-cpp-0.9.0": [
 "nifi/nifi-minifi-cpp/0.9.0/nifi-minifi-cpp-0.9.0-source.tar.gz"
 ],
-"nifi-nar-maven-plugin-1.3.4": [
-"nifi/nifi-nar-maven-plugin-1.3.4/nifi-nar-maven-plugin-1.3.4-source-release.zip"
+"nifi-nar-maven-plugin-1.3.5": [
+"nifi/nifi-nar-maven-plugin-1.3.5/nifi-nar-maven-plugin-1.3.5-source-release.zip"
 ]
 },
 "nutch": {
@@ -7989,6 +7999,11 @@
 "openoffice/4.1.12/source/apache-openoffice-4.1.12-60e0a1c111-src.tar.bz2",
 "openoffice/4.1.12/source/apache-openoffice-4.1.12-60e0a1c111-src.tar.gz",
 "openoffice/4.1.12/source/apache-openoffice-4.1.12-60e0a1c111-src.zip"
+],
+"apache-openoffice-4.1.13-281f0d3533": [
+"openoffice/4.1.13/source/apache-openoffice-4.1.13-281f0d3533-src.tar.bz2",
+"openoffice/4.1.13/source/apache-openoffice-4.1.13-281f0d3533-src.tar.gz",
+"openoffice/4.1.13/source/apache-openoffice-4.1.13-281f0d3533-src.zip"
 ]
 },
 "openwebbeans": {
