@@ -824,6 +824,7 @@
 "apache-doris-0.15.0-incubating": "2021-11-29",
 "apache-doris-1.0.0-incubating": "2022-04-18",
 "apache-doris-1.1.0": "2022-07-10",
+"apache-doris-1.1.1": "2022-07-25",
 "apache-doris-flink-connector-1.11_2.12-1.0.3-incubating": "2022-03-19",
 "apache-doris-flink-connector-1.12_2.12-1.0.3-incubating": "2022-03-19",
 "apache-doris-flink-connector-1.13_2.12-1.0.3-incubating": "2022-03-19",
@@ -882,7 +883,7 @@
 "org.apache.felix.dependencymanager-r16": "2021-01-24",
 "org.apache.felix.deployment.rp.autoconf-0.1.8": "2016-01-20",
 "org.apache.felix.deploymentadmin-0.9.10": "2016-01-20",
-"org.apache.felix.eventadmin-1.6.2": "2021-01-11",
+"org.apache.felix.eventadmin-1.6.4": "2022-07-29",
 "org.apache.felix.fileinstall-3.7.4": "2022-01-06",
 "org.apache.felix.framework-5.6.12": "2019-02-04",
 "org.apache.felix.framework-6.0.5": "2021-06-21",
@@ -1239,7 +1240,8 @@
 },
 "incubator-brpc": {
 "apache-brpc-1.0.0-incubating": "2021-10-31",
-"apache-brpc-1.1.0-incubating": "2022-03-29"
+"apache-brpc-1.1.0-incubating": "2022-03-29",
+"apache-brpc-1.2.0-incubating": "2022-07-11"
 },
 "incubator-datalab": {
 "apache-datalab-2.5.1-incubating": "2021-11-24"
@@ -1453,16 +1455,19 @@
 "kafka-3.1.0": "2022-01-21",
 "kafka-3.1.1": "2022-05-12",
 "kafka-3.2.0": "2022-05-10",
+"kafka-3.2.1": "2022-07-29",
 "kafka_2.12-2.8.1": "2021-09-17",
 "kafka_2.12-3.0.1": "2022-03-11",
 "kafka_2.12-3.1.0": "2022-01-21",
 "kafka_2.12-3.1.1": "2022-05-12",
 "kafka_2.12-3.2.0": "2022-05-10",
+"kafka_2.12-3.2.1": "2022-07-29",
 "kafka_2.13-2.8.1": "2021-09-17",
 "kafka_2.13-3.0.1": "2022-03-11",
 "kafka_2.13-3.1.0": "2022-01-21",
 "kafka_2.13-3.1.1": "2022-05-12",
-"kafka_2.13-3.2.0": "2022-05-10"
+"kafka_2.13-3.2.0": "2022-05-10",
+"kafka_2.13-3.2.1": "2022-07-29"
 },
 "karaf": {
 "apache-karaf-3.0.10": "2020-01-11",
@@ -1525,12 +1530,12 @@
 "apache-log4j-audit-1.0.1": "2018-12-11",
 "apache-log4j-extras-1.2.17": "2013-10-19",
 "apache-log4net-source-2.0.14": "2021-12-31",
+"apache-log4net-source-2.0.15": "2022-07-29",
 "apache-log4php-2.3.0": "2013-01-31",
 "log4j-1.2.17": "2013-01-31"
 },
 "lucene": {
 "lucene-8.11.2": "2022-06-13",
-"lucene-9.2.0": "2022-05-19",
 "lucene-9.3.0": "2022-07-25",
 "pylucene-7.7.1": "2019-06-03",
 "pylucene-8.11.0": "2021-12-15",
@@ -2984,7 +2989,7 @@
 "rocketmq": {
 "rocketmq-all-4.9.4": "2022-06-24",
 "rocketmq-client-cpp-2.1.0": "2020-03-26",
-"rocketmq-client-go-2.1.0": "2021-03-23",
+"rocketmq-client-go-2.1.1": "2022-07-29",
 "rocketmq-dashboard-1.0.0": "2021-10-08",
 "rocketmq-spring-rocketmq-spring-all-2.2.2": "2022-04-14",
 "rocketmq-streams-1.0.1-preview": "2022-05-27"
