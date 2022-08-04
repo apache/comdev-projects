@@ -142,6 +142,9 @@
 "apache-airflow-client-2.2.0": [
 "airflow/clients/python/2.2.0/apache-airflow-client-2.2.0-source.tar.gz"
 ],
+"apache-airflow-client-2.3.0": [
+"airflow/clients/python/2.3.0/apache-airflow-client-2.3.0-source.tar.gz"
+],
 "apache-airflow-providers-airbyte-3.1.0": [
 "airflow/providers/apache-airflow-providers-airbyte-3.1.0.tar.gz"
 ],
@@ -708,6 +711,9 @@
 ],
 "apache-arrow-8.0.1": [
 "arrow/arrow-8.0.1/apache-arrow-8.0.1.tar.gz"
+],
+"apache-arrow-9.0.0": [
+"arrow/arrow-9.0.0/apache-arrow-9.0.0.tar.gz"
 ],
 "apache-arrow-datafusion-10.0.0": [
 "arrow/arrow-datafusion-10.0.0/apache-arrow-datafusion-10.0.0.tar.gz"
@@ -2635,6 +2641,12 @@
 "drill/drill-1.20.0/apache-drill-1.20.0-src.tar.gz",
 "drill/drill-1.20.0/apache-drill-1.20.0-src.zip",
 "drill/drill-1.20.0/apache-drill-1.20.0.tar.gz"
+],
+"apache-drill-1.20.2": [
+"drill/1.20.2/apache-drill-1.20.2-hadoop2.tar.gz",
+"drill/1.20.2/apache-drill-1.20.2-src.tar.gz",
+"drill/1.20.2/apache-drill-1.20.2-src.zip",
+"drill/1.20.2/apache-drill-1.20.2.tar.gz"
 ]
 },
 "druid": {
@@ -3669,7 +3681,6 @@
 "hbase": {
 "RELEASENOTES.md": [
 "hbase/2.4.13/RELEASENOTES.md",
-"hbase/3.0.0-alpha-2/RELEASENOTES.md",
 "hbase/3.0.0-alpha-3/RELEASENOTES.md",
 "hbase/hbase-filesystem-1.0.0-alpha1/RELEASENOTES.md",
 "hbase/hbase-operator-tools-1.2.0/RELEASENOTES.md",
@@ -3680,9 +3691,6 @@
 ],
 "hbase-2.4.13": [
 "hbase/2.4.13/hbase-2.4.13-src.tar.gz"
-],
-"hbase-3.0.0-alpha-2": [
-"hbase/3.0.0-alpha-2/hbase-3.0.0-alpha-2-src.tar.gz"
 ],
 "hbase-3.0.0-alpha-3": [
 "hbase/3.0.0-alpha-3/hbase-3.0.0-alpha-3-src.tar.gz"
@@ -3977,6 +3985,11 @@
 "incubator-hivemall": {
 "hivemall-0.6.0-incubating": [
 "incubator/hivemall/0.6.0-incubating/hivemall-0.6.0-incubating-source-release.zip"
+]
+},
+"incubator-kvrocks": {
+"apache-kvrocks-2.1.0-incubating": [
+"incubator/kvrocks/2.1.0/apache-kvrocks-2.1.0-incubating-src.tar.gz"
 ]
 },
 "incubator-kyuubi": {
@@ -9034,11 +9047,6 @@
 "ratis/thirdparty/1.0.1/ratis-thirdparty-1.0.1-src.tar.gz"
 ]
 },
-"reef": {
-"apache-reef-0.16.1": [
-"reef/0.16.1/apache-reef-0.16.1.tar.gz"
-]
-},
 "rocketmq": {
 "rocketmq-all-4.9.4": [
 "rocketmq/4.9.4/rocketmq-all-4.9.4-source-release.zip"
@@ -9528,8 +9536,8 @@
 "org.apache.sling.commons.messaging.mail-2.0.0": [
 "sling/org.apache.sling.commons.messaging.mail-2.0.0-source-release.zip"
 ],
-"org.apache.sling.commons.metrics-1.2.10": [
-"sling/org.apache.sling.commons.metrics-1.2.10-source-release.zip"
+"org.apache.sling.commons.metrics-1.2.12": [
+"sling/org.apache.sling.commons.metrics-1.2.12-source-release.zip"
 ],
 "org.apache.sling.commons.metrics-rrd4j-1.0.6": [
 "sling/org.apache.sling.commons.metrics-rrd4j-1.0.6-source-release.zip"
@@ -9585,17 +9593,17 @@
 "org.apache.sling.discovery.api-1.0.4": [
 "sling/org.apache.sling.discovery.api-1.0.4-source-release.zip"
 ],
-"org.apache.sling.discovery.base-2.0.12": [
-"sling/org.apache.sling.discovery.base-2.0.12-source-release.zip"
+"org.apache.sling.discovery.base-2.0.14": [
+"sling/org.apache.sling.discovery.base-2.0.14-source-release.zip"
 ],
-"org.apache.sling.discovery.commons-1.0.26": [
-"sling/org.apache.sling.discovery.commons-1.0.26-source-release.zip"
+"org.apache.sling.discovery.commons-1.0.28": [
+"sling/org.apache.sling.discovery.commons-1.0.28-source-release.zip"
 ],
 "org.apache.sling.discovery.impl-1.2.12": [
 "sling/org.apache.sling.discovery.impl-1.2.12-source-release.zip"
 ],
-"org.apache.sling.discovery.oak-1.2.36": [
-"sling/org.apache.sling.discovery.oak-1.2.36-source-release.zip"
+"org.apache.sling.discovery.oak-1.2.40": [
+"sling/org.apache.sling.discovery.oak-1.2.40-source-release.zip"
 ],
 "org.apache.sling.discovery.standalone-1.0.2": [
 "sling/org.apache.sling.discovery.standalone-1.0.2-source-release.zip"

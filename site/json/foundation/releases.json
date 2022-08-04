@@ -50,6 +50,7 @@
 "apache-airflow-2.3.3": "2022-07-09",
 "apache-airflow-client-2.1.0": "2021-05-31",
 "apache-airflow-client-2.2.0": "2021-12-01",
+"apache-airflow-client-2.3.0": "2022-08-03",
 "apache-airflow-providers-airbyte-3.1.0": "2022-07-16",
 "apache-airflow-providers-alibaba-2.0.1": "2022-07-16",
 "apache-airflow-providers-amazon-4.1.0": "2022-07-16",
@@ -243,6 +244,7 @@
 "apache-arrow-7.0.1": "2022-07-14",
 "apache-arrow-8.0.0": "2022-05-03",
 "apache-arrow-8.0.1": "2022-07-14",
+"apache-arrow-9.0.0": "2022-07-29",
 "apache-arrow-datafusion-10.0.0": "2022-07-15",
 "apache-arrow-datafusion-7.0.0": "2022-02-17",
 "apache-arrow-datafusion-7.1.0": "2022-04-18",
@@ -841,7 +843,8 @@
 },
 "drill": {
 "apache-drill-1.19.0": "2021-06-09",
-"apache-drill-1.20.0": "2022-02-23"
+"apache-drill-1.20.0": "2022-02-23",
+"apache-drill-1.20.2": "2022-08-01"
 },
 "druid": {
 "apache-druid-0.20.2": "2021-03-26",
@@ -1152,7 +1155,6 @@
 "RELEASENOTES.md": "2022-06-23",
 "hbase-1.7.1": "2021-07-16",
 "hbase-2.4.13": "2022-06-23",
-"hbase-3.0.0-alpha-2": "2021-12-23",
 "hbase-3.0.0-alpha-3": "2022-06-27",
 "hbase-connectors-1.0.0": "2019-05-03",
 "hbase-filesystem-1.0.0-alpha1": "2019-06-06",
@@ -1267,6 +1269,9 @@
 },
 "incubator-hivemall": {
 "hivemall-0.6.0-incubating": "2019-12-19"
+},
+"incubator-kvrocks": {
+"apache-kvrocks-2.1.0-incubating": "2022-08-03"
 },
 "incubator-kyuubi": {
 "apache-kyuubi-1.4.1-incubating": "2022-01-23",
@@ -2985,9 +2990,6 @@
 "ratis-thirdparty-1.0.0": "2022-04-27",
 "ratis-thirdparty-1.0.1": "2022-07-04"
 },
-"reef": {
-"apache-reef-0.16.1": "2022-02-09"
-},
 "rocketmq": {
 "rocketmq-all-4.9.4": "2022-06-24",
 "rocketmq-client-cpp-2.1.0": "2020-03-26",
@@ -3168,7 +3170,7 @@
 "org.apache.sling.commons.logservice-1.1.0": "2019-08-30",
 "org.apache.sling.commons.messaging-1.0.2": "2021-11-01",
 "org.apache.sling.commons.messaging.mail-2.0.0": "2021-12-12",
-"org.apache.sling.commons.metrics-1.2.10": "2022-01-28",
+"org.apache.sling.commons.metrics-1.2.12": "2022-08-03",
 "org.apache.sling.commons.metrics-rrd4j-1.0.6": "2022-04-26",
 "org.apache.sling.commons.mime-2.2.2": "2019-09-30",
 "org.apache.sling.commons.osgi-2.4.2": "2020-08-09",
@@ -3187,10 +3189,10 @@
 "org.apache.sling.crankstart.test.services-1.0.0": "2014-09-05",
 "org.apache.sling.datasource-1.0.4": "2019-02-26",
 "org.apache.sling.discovery.api-1.0.4": "2016-04-29",
-"org.apache.sling.discovery.base-2.0.12": "2022-03-14",
-"org.apache.sling.discovery.commons-1.0.26": "2022-03-14",
+"org.apache.sling.discovery.base-2.0.14": "2022-08-03",
+"org.apache.sling.discovery.commons-1.0.28": "2022-08-03",
 "org.apache.sling.discovery.impl-1.2.12": "2017-05-11",
-"org.apache.sling.discovery.oak-1.2.36": "2022-03-14",
+"org.apache.sling.discovery.oak-1.2.40": "2022-08-03",
 "org.apache.sling.discovery.standalone-1.0.2": "2016-01-03",
 "org.apache.sling.discovery.support-1.0.6": "2020-08-18",
 "org.apache.sling.distribution.api-0.7.0": "2022-04-29",
