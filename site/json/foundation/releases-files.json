@@ -3573,6 +3573,7 @@
 "hadoop/common/hadoop-3.3.1/RELEASENOTES.md",
 "hadoop/common/hadoop-3.3.2/RELEASENOTES.md",
 "hadoop/common/hadoop-3.3.3/RELEASENOTES.md",
+"hadoop/common/hadoop-3.3.4/RELEASENOTES.md",
 "hadoop/core/current2/RELEASENOTES.md",
 "hadoop/core/hadoop-2.10.1/RELEASENOTES.md",
 "hadoop/core/hadoop-2.10.2/RELEASENOTES.md",
@@ -3581,6 +3582,7 @@
 "hadoop/core/hadoop-3.3.1/RELEASENOTES.md",
 "hadoop/core/hadoop-3.3.2/RELEASENOTES.md",
 "hadoop/core/hadoop-3.3.3/RELEASENOTES.md",
+"hadoop/core/hadoop-3.3.4/RELEASENOTES.md",
 "hadoop/thirdparty/thirdparty-1.0.0/RELEASENOTES.md",
 "hadoop/thirdparty/thirdparty-1.1.0/RELEASENOTES.md",
 "hadoop/thirdparty/thirdparty-1.1.1/RELEASENOTES.md"
@@ -3650,6 +3652,14 @@
 "hadoop/core/hadoop-3.3.3/hadoop-3.3.3-site.tar.gz",
 "hadoop/core/hadoop-3.3.3/hadoop-3.3.3-src.tar.gz",
 "hadoop/core/hadoop-3.3.3/hadoop-3.3.3.tar.gz"
+],
+"hadoop-3.3.4": [
+"hadoop/common/hadoop-3.3.4/hadoop-3.3.4-site.tar.gz",
+"hadoop/common/hadoop-3.3.4/hadoop-3.3.4-src.tar.gz",
+"hadoop/common/hadoop-3.3.4/hadoop-3.3.4.tar.gz",
+"hadoop/core/hadoop-3.3.4/hadoop-3.3.4-site.tar.gz",
+"hadoop/core/hadoop-3.3.4/hadoop-3.3.4-src.tar.gz",
+"hadoop/core/hadoop-3.3.4/hadoop-3.3.4.tar.gz"
 ],
 "hadoop-thirdparty-1.0.0": [
 "hadoop/thirdparty/thirdparty-1.0.0/hadoop-thirdparty-1.0.0-site.tar.gz",
@@ -4133,6 +4143,9 @@
 ],
 "apache-seatunnel-incubating-2.1.2": [
 "incubator/seatunnel/2.1.2/apache-seatunnel-incubating-2.1.2-src.tar.gz"
+],
+"apache-seatunnel-incubating-2.1.3": [
+"incubator/seatunnel/2.1.3/apache-seatunnel-incubating-2.1.3-src.tar.gz"
 ]
 },
 "incubator-sedona": {
@@ -4222,8 +4235,8 @@
 "apache-iotdb-0.12.6": [
 "iotdb/0.12.6/apache-iotdb-0.12.6-source-release.zip"
 ],
-"apache-iotdb-0.13.0": [
-"iotdb/0.13.0/apache-iotdb-0.13.0-source-release.zip"
+"apache-iotdb-0.13.1": [
+"iotdb/0.13.1/apache-iotdb-0.13.1-source-release.zip"
 ],
 "apache-iotdb-0.14.0-preview1": [
 "iotdb/0.14.0-preview1/apache-iotdb-0.14.0-preview1-source-release.zip"
@@ -4806,6 +4819,12 @@
 ],
 "apache-madlib-1.19.0": [
 "madlib/1.19.0/apache-madlib-1.19.0-src.tar.gz"
+],
+"apache-madlib-1.20.0": [
+"madlib/1.20.0/apache-madlib-1.20.0-src.tar.gz"
+],
+"apache-madlib-1.20.0-CentOS7": [
+"madlib/1.20.0/apache-madlib-1.20.0-CentOS7.rpm"
 ]
 },
 "mahout": {
@@ -5130,6 +5149,9 @@
 ],
 "maven-shared-utils-3.3.4": [
 "maven/shared/maven-shared-utils-3.3.4-source-release.zip"
+],
+"maven-site-plugin-3.12.1": [
+"maven/plugins/maven-site-plugin-3.12.1-source-release.zip"
 ],
 "maven-site-plugin-4.0.0-M3": [
 "maven/plugins/maven-site-plugin-4.0.0-M3-source-release.zip"
@@ -9668,8 +9690,8 @@
 "org.apache.sling.extensions.webconsolebranding-1.0.2": [
 "sling/org.apache.sling.extensions.webconsolebranding-1.0.2-source-release.zip"
 ],
-"org.apache.sling.extensions.webconsolesecurityprovider-1.2.4": [
-"sling/org.apache.sling.extensions.webconsolesecurityprovider-1.2.4-source-release.zip"
+"org.apache.sling.extensions.webconsolesecurityprovider-1.2.6": [
+"sling/org.apache.sling.extensions.webconsolesecurityprovider-1.2.6-source-release.zip"
 ],
 "org.apache.sling.feature-1.2.30": [
 "sling/org.apache.sling.feature-1.2.30-source-release.zip"
