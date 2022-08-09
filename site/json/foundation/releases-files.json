@@ -729,8 +729,8 @@
 "apache-arrow-julia-2.3.0": [
 "arrow/arrow-julia-2.3.0/apache-arrow-julia-2.3.0.tar.gz"
 ],
-"apache-arrow-rs-19.0.0": [
-"arrow/arrow-rs-19.0.0/apache-arrow-rs-19.0.0.tar.gz"
+"apache-arrow-rs-20.0.0": [
+"arrow/arrow-rs-20.0.0/apache-arrow-rs-20.0.0.tar.gz"
 ]
 },
 "asterixdb": {
@@ -880,6 +880,9 @@
 ],
 "apache-beam-d93c591deb21237ddb656583d74444ef7a4debba": [
 "beam/vendor/beam-vendor-bytebuddy-1_11_0/0.1/apache-beam-d93c591deb21237ddb656583d74444ef7a4debba-source-release.zip"
+],
+"apache-beam-db8db0b6ed0fe1e4891f207f0f7f811798e54db1": [
+"beam/vendor/beam-vendor-grpc-1_48_1/0.1/apache-beam-db8db0b6ed0fe1e4891f207f0f7f811798e54db1-source-release.zip"
 ],
 "apache-beam-f2468baf6224127634d0d5ab03a9fdd730bb8dfe": [
 "beam/vendor/beam-vendor-calcite-1_28_0/0.2/apache-beam-f2468baf6224127634d0d5ab03a9fdd730bb8dfe-source-release.zip"
@@ -2482,6 +2485,10 @@
 "directory/api/dist/2.1.0/apache-ldap-api-2.1.0-src.tar.gz",
 "directory/api/dist/2.1.0/apache-ldap-api-2.1.0-src.zip"
 ],
+"apache-ldap-api-2.1.1": [
+"directory/api/dist/2.1.1/apache-ldap-api-2.1.1-src.tar.gz",
+"directory/api/dist/2.1.1/apache-ldap-api-2.1.1-src.zip"
+],
 "apacheds-2.0.0.AM26": [
 "directory/apacheds/dist/2.0.0.AM26/apacheds-2.0.0.AM26-i386.deb",
 "directory/apacheds/dist/2.0.0.AM26/apacheds-2.0.0.AM26-i386.rpm",
@@ -2546,6 +2553,9 @@
 "apache-dolphinscheduler-2.0.6": [
 "dolphinscheduler/2.0.6/apache-dolphinscheduler-2.0.6-src.tar.gz"
 ],
+"apache-dolphinscheduler-3.0.0": [
+"dolphinscheduler/3.0.0/apache-dolphinscheduler-3.0.0-src.tar.gz"
+],
 "apache-dolphinscheduler-3.0.0-alpha": [
 "dolphinscheduler/3.0.0-alpha/apache-dolphinscheduler-3.0.0-alpha-src.tar.gz"
 ],
@@ -2557,6 +2567,9 @@
 ],
 "apache-dolphinscheduler-3.0.0a0": [
 "dolphinscheduler/3.0.0-alpha/python/apache-dolphinscheduler-3.0.0a0.tar.gz"
+],
+"apache-dolphinscheduler-python-3.0.0": [
+"dolphinscheduler/3.0.0/python/apache-dolphinscheduler-python-3.0.0.tar.gz"
 ],
 "apache-dolphinscheduler-python-3.0.0-beta-1": [
 "dolphinscheduler/3.0.0-beta-1/python/apache-dolphinscheduler-python-3.0.0-beta-1.tar.gz"
@@ -2677,6 +2690,9 @@
 ],
 "apache-dubbo-js-4.0.0": [
 "dubbo/dubbo-js/4.0.0/apache-dubbo-js-4.0.0-source-release.zip"
+],
+"dubbo-go-pixiu-v0.5.1-rc2": [
+"dubbo/dubbo-go-pixiu/v0.5.1-rc2/dubbo-go-pixiu-v0.5.1-rc2-src.tar.gz"
 ],
 "dubbo-hessian-lite-3.2.12": [
 "dubbo/dubbo-hessian-lite/3.2.12/dubbo-hessian-lite-3.2.12-source-release.zip"
@@ -3952,6 +3968,9 @@
 "incubator-devlake": {
 "apache-devlake-0.11.0-incubating": [
 "incubator/devlake/0.11.0-incubating/apache-devlake-0.11.0-incubating-src.tar.gz"
+],
+"apache-devlake-0.12.0-incubating": [
+"incubator/devlake/0.12.0-incubating/apache-devlake-0.12.0-incubating-src.tar.gz"
 ]
 },
 "incubator-eventmesh": {
@@ -9159,8 +9178,8 @@
 "apache-servicecomb-mesher-1.6.3-linux-arm64": [
 "servicecomb/servicecomb-mesher/1.6.3/apache-servicecomb-mesher-1.6.3-linux-arm64.tar.gz"
 ],
-"apache-servicecomb-pack-distribution-0.7.0": [
-"servicecomb/servicecomb-pack/0.7.0/apache-servicecomb-pack-distribution-0.7.0-src.zip"
+"apache-servicecomb-pack-distribution-0.7.1": [
+"servicecomb/servicecomb-pack/0.7.1/apache-servicecomb-pack-distribution-0.7.1-src.zip"
 ],
 "apache-servicecomb-saga-actuator-distribution-0.3.0": [
 "servicecomb/servicecomb-saga-actuator/0.3.0/apache-servicecomb-saga-actuator-distribution-0.3.0-src.zip"
@@ -10394,8 +10413,8 @@
 "scriptingbundle-maven-plugin-0.5.2": [
 "sling/scriptingbundle-maven-plugin-0.5.2-source-release.zip"
 ],
-"sling-48": [
-"sling/sling-48-source-release.zip"
+"sling-49": [
+"sling/sling-49-source-release.zip"
 ],
 "sling-6": [
 "sling/sling-6-source-release.tar.gz",
@@ -10407,8 +10426,8 @@
 "sling-archetype-7": [
 "sling/sling-archetype-parent-7-source-release.zip"
 ],
-"sling-bundle-48": [
-"sling/sling-bundle-parent-48-source-release.zip"
+"sling-bundle-49": [
+"sling/sling-bundle-parent-49-source-release.zip"
 ],
 "sling-bundle-archetype-1.0.6": [
 "sling/sling-bundle-archetype-1.0.6-source-release.zip"
@@ -10682,52 +10701,34 @@
 ]
 },
 "syncope": {
-"apache-syncope-2.0.16": [
-"syncope/2.0.16/apache-syncope-2.0.16.deb"
+"apache-syncope-2.1.12": [
+"syncope/2.1.12/apache-syncope-2.1.12.deb"
 ],
-"apache-syncope-2.1.11": [
-"syncope/2.1.11/apache-syncope-2.1.11.deb"
+"apache-syncope-console-2.1.12": [
+"syncope/2.1.12/apache-syncope-console-2.1.12.deb"
 ],
-"apache-syncope-console-2.0.16": [
-"syncope/2.0.16/apache-syncope-console-2.0.16.deb"
+"apache-syncope-enduser-2.1.12": [
+"syncope/2.1.12/apache-syncope-enduser-2.1.12.deb"
 ],
-"apache-syncope-console-2.1.11": [
-"syncope/2.1.11/apache-syncope-console-2.1.11.deb"
+"org.apache.syncope.ide.eclipse.site-2.1.12": [
+"syncope/2.1.12/org.apache.syncope.ide.eclipse.site-2.1.12.zip"
 ],
-"apache-syncope-enduser-2.0.16": [
-"syncope/2.0.16/apache-syncope-enduser-2.0.16.deb"
+"syncope-2.1.12": [
+"syncope/2.1.12/syncope-2.1.12-source-release.zip",
+"syncope/2.1.12/syncope-standalone-2.1.12-distribution.zip"
 ],
-"apache-syncope-enduser-2.1.11": [
-"syncope/2.1.11/apache-syncope-enduser-2.1.11.deb"
+"syncope-3.0.0-M0": [
+"syncope/3.0.0-M0/syncope-3.0.0-M0-source-release.zip",
+"syncope/3.0.0-M0/syncope-standalone-3.0.0-M0-distribution.zip"
 ],
-"org.apache.syncope.ide.eclipse.site-2.0.16": [
-"syncope/2.0.16/org.apache.syncope.ide.eclipse.site-2.0.16.zip"
+"syncope-client-cli-2.1.12": [
+"syncope/2.1.12/syncope-client-cli-2.1.12.zip"
 ],
-"org.apache.syncope.ide.eclipse.site-2.1.11": [
-"syncope/2.1.11/org.apache.syncope.ide.eclipse.site-2.1.11.zip"
+"syncope-core-upgrade-2.1.12": [
+"syncope/2.1.12/syncope-core-upgrade-2.1.12.zip"
 ],
-"syncope-2.0.16": [
-"syncope/2.0.16/syncope-2.0.16-source-release.zip",
-"syncope/2.0.16/syncope-standalone-2.0.16-distribution.zip"
-],
-"syncope-2.1.11": [
-"syncope/2.1.11/syncope-2.1.11-source-release.zip",
-"syncope/2.1.11/syncope-standalone-2.1.11-distribution.zip"
-],
-"syncope-client-cli-2.0.16": [
-"syncope/2.0.16/syncope-client-cli-2.0.16.zip"
-],
-"syncope-client-cli-2.1.11": [
-"syncope/2.1.11/syncope-client-cli-2.1.11.zip"
-],
-"syncope-core-upgrade-2.1.11": [
-"syncope/2.1.11/syncope-core-upgrade-2.1.11.zip"
-],
-"syncope-ide-netbeans-2.0.16.nbm": [
-"syncope/2.0.16/syncope-ide-netbeans-2.0.16.nbm"
-],
-"syncope-ide-netbeans-2.1.11.nbm": [
-"syncope/2.1.11/syncope-ide-netbeans-2.1.11.nbm"
+"syncope-ide-netbeans-2.1.12.nbm": [
+"syncope/2.1.12/syncope-ide-netbeans-2.1.12.nbm"
 ]
 },
 "systemds": {
@@ -11327,6 +11328,9 @@
 ],
 "uimaj-3.3.0": [
 "uima/uimaj-3.3.0/uimaj-3.3.0-source-release.zip"
+],
+"uimaj-io-json-0.4.0": [
+"uima/uimaj-io-json-0.4.0/uimaj-io-json-0.4.0-source-release.zip"
 ]
 },
 "unomi": {

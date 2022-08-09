@@ -250,7 +250,7 @@
 "apache-arrow-datafusion-8.0.0": "2022-05-16",
 "apache-arrow-datafusion-9.0.0": "2022-06-13",
 "apache-arrow-julia-2.3.0": "2022-04-09",
-"apache-arrow-rs-19.0.0": "2022-07-26"
+"apache-arrow-rs-20.0.0": "2022-08-08"
 },
 "asterixdb": {
 "apache-asterixdb-0.9.6": "2020-10-14",
@@ -305,6 +305,7 @@
 "apache-beam-37fd13e738185822af132fe2e457b618e766802f": "2021-11-03",
 "apache-beam-c445ac198a3bc4e03d9d0833b6ccba4ed6ff43fd": "2021-03-16",
 "apache-beam-d93c591deb21237ddb656583d74444ef7a4debba": "2021-05-20",
+"apache-beam-db8db0b6ed0fe1e4891f207f0f7f811798e54db1": "2022-08-08",
 "apache-beam-f2468baf6224127634d0d5ab03a9fdd730bb8dfe": "2022-01-18",
 "apache-beam-jupyterlab-sidepanel-v2.0.0": "2021-10-20"
 },
@@ -793,6 +794,7 @@
 "apache-ldap-api-1.0.3": "2019-04-19",
 "apache-ldap-api-2.0.2": "2021-05-22",
 "apache-ldap-api-2.1.0": "2021-06-25",
+"apache-ldap-api-2.1.1": "2022-08-08",
 "apacheds-2.0.0.AM26": "2020-03-07",
 "fortress-core-2.0.7": "2021-12-12",
 "fortress-core-2.0.8": "2022-07-21",
@@ -812,10 +814,12 @@
 "apache-dolphinscheduler-1.3.9": "2021-10-18",
 "apache-dolphinscheduler-2.0.5": "2022-03-02",
 "apache-dolphinscheduler-2.0.6": "2022-07-04",
+"apache-dolphinscheduler-3.0.0": "2022-08-05",
 "apache-dolphinscheduler-3.0.0-alpha": "2022-04-14",
 "apache-dolphinscheduler-3.0.0-beta-1": "2022-05-26",
 "apache-dolphinscheduler-3.0.0-beta-2": "2022-06-28",
 "apache-dolphinscheduler-3.0.0a0": "2022-04-14",
+"apache-dolphinscheduler-python-3.0.0": "2022-08-05",
 "apache-dolphinscheduler-python-3.0.0-beta-1": "2022-05-26",
 "apache-dolphinscheduler-python-3.0.0-beta-2": "2022-06-28"
 },
@@ -858,6 +862,7 @@
 "apache-dubbo-extensions-1.0.2": "2022-08-02",
 "apache-dubbo-extensions-3.0.0-SNAPSHOT": "2021-03-29",
 "apache-dubbo-js-4.0.0": "2021-07-25",
+"dubbo-go-pixiu-v0.5.1-rc2": "2022-08-08",
 "dubbo-hessian-lite-3.2.12": "2021-11-28"
 },
 "echarts": {
@@ -1250,7 +1255,8 @@
 "apache-datalab-2.5.1-incubating": "2021-11-24"
 },
 "incubator-devlake": {
-"apache-devlake-0.11.0-incubating": "2022-06-29"
+"apache-devlake-0.11.0-incubating": "2022-06-29",
+"apache-devlake-0.12.0-incubating": "2022-07-28"
 },
 "incubator-eventmesh": {
 "apache-eventmesh-1.4.0-incubating": "2022-03-30",
@@ -3033,7 +3039,7 @@
 "apache-servicecomb-kie-0.2.0-linux-arm64": "2021-02-23",
 "apache-servicecomb-mesher-1.6.3": "2019-09-09",
 "apache-servicecomb-mesher-1.6.3-linux-arm64": "2019-09-09",
-"apache-servicecomb-pack-distribution-0.7.0": "2022-05-16",
+"apache-servicecomb-pack-distribution-0.7.1": "2022-08-08",
 "apache-servicecomb-saga-actuator-distribution-0.3.0": "2018-12-18",
 "apache-servicecomb-saga-distribution-0.2.1": "2018-11-24",
 "apache-servicecomb-service-center-2.1.0": "2022-03-25",
@@ -3450,11 +3456,11 @@
 "org.apache.sling.xss-2.2.20": "2022-05-24",
 "org.apache.sling.xss.compat-1.1.0": "2017-05-11",
 "scriptingbundle-maven-plugin-0.5.2": "2021-12-21",
-"sling-48": "2022-06-07",
+"sling-49": "2022-08-08",
 "sling-6": "2013-01-21",
 "sling-archetype-1.0.8": "2022-03-18",
 "sling-archetype-7": "2021-07-16",
-"sling-bundle-48": "2022-06-07",
+"sling-bundle-49": "2022-08-08",
 "sling-bundle-archetype-1.0.6": "2018-02-03",
 "sling-feature-converter-maven-plugin-1.0.10": "2020-11-30",
 "sling-initial-content-archetype-1.0.6": "2018-02-03",
@@ -3549,21 +3555,15 @@
 "synapse-distribution-3.0.1": "2017-12-09"
 },
 "syncope": {
-"apache-syncope-2.0.16": "2020-09-11",
-"apache-syncope-2.1.11": "2022-03-18",
-"apache-syncope-console-2.0.16": "2020-09-11",
-"apache-syncope-console-2.1.11": "2022-03-18",
-"apache-syncope-enduser-2.0.16": "2020-09-11",
-"apache-syncope-enduser-2.1.11": "2022-03-18",
-"org.apache.syncope.ide.eclipse.site-2.0.16": "2020-09-11",
-"org.apache.syncope.ide.eclipse.site-2.1.11": "2022-03-18",
-"syncope-2.0.16": "2020-09-11",
-"syncope-2.1.11": "2022-03-18",
-"syncope-client-cli-2.0.16": "2020-09-11",
-"syncope-client-cli-2.1.11": "2022-03-18",
-"syncope-core-upgrade-2.1.11": "2022-03-18",
-"syncope-ide-netbeans-2.0.16.nbm": "2020-09-11",
-"syncope-ide-netbeans-2.1.11.nbm": "2022-03-18"
+"apache-syncope-2.1.12": "2022-08-05",
+"apache-syncope-console-2.1.12": "2022-08-05",
+"apache-syncope-enduser-2.1.12": "2022-08-05",
+"org.apache.syncope.ide.eclipse.site-2.1.12": "2022-08-05",
+"syncope-2.1.12": "2022-08-05",
+"syncope-3.0.0-M0": "2022-08-05",
+"syncope-client-cli-2.1.12": "2022-08-05",
+"syncope-core-upgrade-2.1.12": "2022-08-05",
+"syncope-ide-netbeans-2.1.12.nbm": "2022-08-05"
 },
 "systemds": {
 "systemds-2.0.0": "2020-10-14",
@@ -3740,7 +3740,8 @@
 "uimafit-3.3.0": "2022-05-30",
 "uimaj-2.11.0": "2021-06-09",
 "uimaj-3.2.0": "2021-04-28",
-"uimaj-3.3.0": "2022-04-29"
+"uimaj-3.3.0": "2022-04-29",
+"uimaj-io-json-0.4.0": "2022-07-13"
 },
 "unomi": {
 "unomi-1.5.4": "2020-11-21",
