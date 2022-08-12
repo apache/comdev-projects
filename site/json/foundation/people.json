@@ -7142,6 +7142,8 @@
 },
 "brahma": {
 "groups": [
+"ambari",
+"ambari-pmc",
 "hadoop",
 "hadoop-pmc"
 ],
@@ -20121,6 +20123,8 @@
 },
 "guyuqi": {
 "groups": [
+"ambari",
+"ambari-pmc",
 "bigtop",
 "bigtop-pmc"
 ],
@@ -23417,6 +23421,8 @@
 },
 "iwasakims": {
 "groups": [
+"ambari",
+"ambari-pmc",
 "bigtop",
 "bigtop-pmc",
 "hadoop",
@@ -28898,6 +28904,8 @@
 },
 "junhe": {
 "groups": [
+"ambari",
+"ambari-pmc",
 "bigtop",
 "bigtop-pmc"
 ],
@@ -35492,6 +35500,14 @@
 "member": false,
 "name": "Masaori Koshiba"
 },
+"masatana": {
+"groups": [
+"ambari",
+"ambari-pmc"
+],
+"member": false,
+"name": "Masahiro Tanaka"
+},
 "masayuki": {
 "groups": [
 "incubator",
@@ -41526,8 +41542,6 @@
 "incubator-pmc",
 "knox",
 "knox-pmc",
-"kylin",
-"kylin-pmc",
 "orc",
 "orc-pmc",
 "ranger",
@@ -49241,6 +49255,8 @@
 "groups": [
 "airflow",
 "airflow-pmc",
+"ambari",
+"ambari-pmc",
 "avro",
 "bigtop",
 "bigtop-pmc",
@@ -58430,6 +58446,8 @@
 },
 "weichiu": {
 "groups": [
+"ambari",
+"ambari-pmc",
 "hadoop",
 "hadoop-pmc",
 "hbase",
