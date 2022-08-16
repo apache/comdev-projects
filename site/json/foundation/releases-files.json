@@ -2387,8 +2387,8 @@
 "apache-datasketches-java-3.3.0": [
 "datasketches/java/3.3.0/apache-datasketches-java-3.3.0-src.zip"
 ],
-"apache-datasketches-memory-2.1.0": [
-"datasketches/memory/2.1.0/apache-datasketches-memory-2.1.0-src.zip"
+"apache-datasketches-memory-2.2.0": [
+"datasketches/memory/2.2.0/apache-datasketches-memory-2.2.0-src.zip"
 ],
 "apache-datasketches-pig-1.1.0": [
 "datasketches/pig/1.1.0/apache-datasketches-pig-1.1.0-src.zip"
@@ -2579,6 +2579,9 @@
 ],
 "apache-dolphinscheduler-python-3.0.0-beta-2": [
 "dolphinscheduler/3.0.0-beta-2/python/apache-dolphinscheduler-python-3.0.0-beta-2.tar.gz"
+],
+"dolphinscheduler-operator-0.1.0": [
+"dolphinscheduler/operator/0.1.0/dolphinscheduler-operator-0.1.0-src.tgz"
 ]
 },
 "doris": {
@@ -2606,8 +2609,14 @@
 "apache-doris-flink-connector-1.11_2.12-1.0.3-incubating": [
 "doris/flink-connector/1.0.3/apache-doris-flink-connector-1.11_2.12-1.0.3-incubating-src.tar.gz"
 ],
+"apache-doris-flink-connector-1.12_2.11-1.0.3": [
+"doris/flink-connector/1.0.3/apache-doris-flink-connector-1.12_2.11-1.0.3-src.tar.gz"
+],
 "apache-doris-flink-connector-1.12_2.12-1.0.3-incubating": [
 "doris/flink-connector/1.0.3/apache-doris-flink-connector-1.12_2.12-1.0.3-incubating-src.tar.gz"
+],
+"apache-doris-flink-connector-1.13_2.11-1.0.3": [
+"doris/flink-connector/1.0.3/apache-doris-flink-connector-1.13_2.11-1.0.3-src.tar.gz"
 ],
 "apache-doris-flink-connector-1.13_2.12-1.0.3-incubating": [
 "doris/flink-connector/1.0.3/apache-doris-flink-connector-1.13_2.12-1.0.3-incubating-src.tar.gz"
@@ -2620,6 +2629,9 @@
 ],
 "apache-doris-flink-connector-1.14_2.12-1.1.0": [
 "doris/flink-connector/1.1.0/apache-doris-flink-connector-1.14_2.12-1.1.0-src.tar.gz"
+],
+"apache-doris-flink-connector-1.15-1.2.0": [
+"doris/flink-connector/1.2.0/apache-doris-flink-connector-1.15-1.2.0-src.tar.gz"
 ],
 "apache-doris-spark-connector-2.3_2.11-1.0.1-incubating": [
 "doris/spark-connector/1.0.1/apache-doris-spark-connector-2.3_2.11-1.0.1-incubating-src.tar.gz"
@@ -9878,8 +9890,8 @@
 "org.apache.sling.jcr.jackrabbit.server-2.3.0": [
 "sling/org.apache.sling.jcr.jackrabbit.server-2.3.0-source-release.zip"
 ],
-"org.apache.sling.jcr.jackrabbit.usermanager-2.2.22": [
-"sling/org.apache.sling.jcr.jackrabbit.usermanager-2.2.22-source-release.zip"
+"org.apache.sling.jcr.jackrabbit.usermanager-2.2.24": [
+"sling/org.apache.sling.jcr.jackrabbit.usermanager-2.2.24-source-release.zip"
 ],
 "org.apache.sling.jcr.jcr-wrapper-2.0.0": [
 "sling/org.apache.sling.jcr.jcr-wrapper-2.0.0-source-release.zip"
@@ -10487,18 +10499,10 @@
 },
 "solr": {
 "all.yaml": [
-"solr/solr-operator/v0.5.1/crds/all.yaml",
 "solr/solr-operator/v0.6.0/crds/all.yaml"
 ],
 "index.yaml": [
-"solr/solr-operator/v0.5.1/helm-charts/index.yaml",
 "solr/solr-operator/v0.6.0/helm-charts/index.yaml"
-],
-"solr-0.5.1": [
-"solr/solr-operator/v0.5.1/helm-charts/solr-0.5.1.tgz"
-],
-"solr-0.5.1.tgz.prov": [
-"solr/solr-operator/v0.5.1/helm-charts/solr-0.5.1.tgz.prov"
 ],
 "solr-0.6.0": [
 "solr/solr-operator/v0.6.0/helm-charts/solr-0.6.0.tgz"
@@ -10510,38 +10514,25 @@
 "solr/solr/9.0.0/solr-9.0.0-src.tgz",
 "solr/solr/9.0.0/solr-9.0.0.tgz"
 ],
-"solr-operator-0.5.1": [
-"solr/solr-operator/v0.5.1/helm-charts/solr-operator-0.5.1.tgz"
-],
-"solr-operator-0.5.1.tgz.prov": [
-"solr/solr-operator/v0.5.1/helm-charts/solr-operator-0.5.1.tgz.prov"
-],
 "solr-operator-0.6.0": [
 "solr/solr-operator/v0.6.0/helm-charts/solr-operator-0.6.0.tgz"
 ],
 "solr-operator-0.6.0.tgz.prov": [
 "solr/solr-operator/v0.6.0/helm-charts/solr-operator-0.6.0.tgz.prov"
 ],
-"solr-operator-v0.5.1": [
-"solr/solr-operator/v0.5.1/solr-operator-v0.5.1.tgz"
-],
 "solr-operator-v0.6.0": [
 "solr/solr-operator/v0.6.0/solr-operator-v0.6.0.tgz"
 ],
 "solrbackups.yaml": [
-"solr/solr-operator/v0.5.1/crds/solrbackups.yaml",
 "solr/solr-operator/v0.6.0/crds/solrbackups.yaml"
 ],
 "solrclouds.yaml": [
-"solr/solr-operator/v0.5.1/crds/solrclouds.yaml",
 "solr/solr-operator/v0.6.0/crds/solrclouds.yaml"
 ],
 "solrprometheusexporters.yaml": [
-"solr/solr-operator/v0.5.1/crds/solrprometheusexporters.yaml",
 "solr/solr-operator/v0.6.0/crds/solrprometheusexporters.yaml"
 ],
 "zookeeperclusters.yaml": [
-"solr/solr-operator/v0.5.1/crds/zookeeperclusters.yaml",
 "solr/solr-operator/v0.6.0/crds/zookeeperclusters.yaml"
 ]
 },

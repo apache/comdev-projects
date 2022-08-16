@@ -767,7 +767,7 @@
 "datasketches": {
 "apache-datasketches-hive-1.2.0": "2022-03-07",
 "apache-datasketches-java-3.3.0": "2022-06-06",
-"apache-datasketches-memory-2.1.0": "2022-05-19",
+"apache-datasketches-memory-2.2.0": "2022-08-15",
 "apache-datasketches-pig-1.1.0": "2022-02-17",
 "apache-datasketches-postgresql-1.5.0": "2021-08-09",
 "datasketches-1.5.0": "2021-09-17"
@@ -822,7 +822,8 @@
 "apache-dolphinscheduler-3.0.0a0": "2022-04-14",
 "apache-dolphinscheduler-python-3.0.0": "2022-08-05",
 "apache-dolphinscheduler-python-3.0.0-beta-1": "2022-05-26",
-"apache-dolphinscheduler-python-3.0.0-beta-2": "2022-06-28"
+"apache-dolphinscheduler-python-3.0.0-beta-2": "2022-06-28",
+"dolphinscheduler-operator-0.1.0": "2022-08-15"
 },
 "doris": {
 "apache-doris-0.12.0-incubating": "2022-07-20",
@@ -833,11 +834,14 @@
 "apache-doris-1.1.0": "2022-07-10",
 "apache-doris-1.1.1": "2022-07-25",
 "apache-doris-flink-connector-1.11_2.12-1.0.3-incubating": "2022-03-19",
+"apache-doris-flink-connector-1.12_2.11-1.0.3": "2022-08-15",
 "apache-doris-flink-connector-1.12_2.12-1.0.3-incubating": "2022-03-19",
+"apache-doris-flink-connector-1.13_2.11-1.0.3": "2022-08-15",
 "apache-doris-flink-connector-1.13_2.12-1.0.3-incubating": "2022-03-19",
 "apache-doris-flink-connector-1.14_2.11-1.1.0": "2022-07-11",
 "apache-doris-flink-connector-1.14_2.12-1.0.3-incubating": "2022-03-19",
 "apache-doris-flink-connector-1.14_2.12-1.1.0": "2022-07-11",
+"apache-doris-flink-connector-1.15-1.2.0": "2022-08-08",
 "apache-doris-spark-connector-2.3_2.11-1.0.1-incubating": "2022-03-19",
 "apache-doris-spark-connector-2.3_2.11-1.1.0": "2022-07-11",
 "apache-doris-spark-connector-3.1_2.12-1.0.1-incubating": "2022-03-19",
@@ -3279,7 +3283,7 @@
 "org.apache.sling.jcr.davex-1.3.10": "2017-11-20",
 "org.apache.sling.jcr.jackrabbit.accessmanager-3.0.10": "2021-06-10",
 "org.apache.sling.jcr.jackrabbit.server-2.3.0": "2015-08-17",
-"org.apache.sling.jcr.jackrabbit.usermanager-2.2.22": "2022-05-05",
+"org.apache.sling.jcr.jackrabbit.usermanager-2.2.24": "2022-08-15",
 "org.apache.sling.jcr.jcr-wrapper-2.0.0": "2013-01-21",
 "org.apache.sling.jcr.maintenance-1.0.2": "2021-04-19",
 "org.apache.sling.jcr.maintenance-1.0.2-base.slingosgifeature": "2021-04-19",
@@ -3481,23 +3485,18 @@
 "slingstart-maven-plugin-1.9.12": "2020-05-03"
 },
 "solr": {
-"all.yaml": "2022-03-15",
-"index.yaml": "2022-03-15",
-"solr-0.5.1": "2022-03-15",
-"solr-0.5.1.tgz.prov": "2022-03-15",
+"all.yaml": "2022-08-07",
+"index.yaml": "2022-08-07",
 "solr-0.6.0": "2022-08-07",
 "solr-0.6.0.tgz.prov": "2022-08-07",
 "solr-9.0.0": "2022-05-05",
-"solr-operator-0.5.1": "2022-03-15",
-"solr-operator-0.5.1.tgz.prov": "2022-03-15",
 "solr-operator-0.6.0": "2022-08-07",
 "solr-operator-0.6.0.tgz.prov": "2022-08-07",
-"solr-operator-v0.5.1": "2022-03-15",
 "solr-operator-v0.6.0": "2022-08-07",
-"solrbackups.yaml": "2022-03-15",
-"solrclouds.yaml": "2022-03-15",
-"solrprometheusexporters.yaml": "2022-03-15",
-"zookeeperclusters.yaml": "2022-03-15"
+"solrbackups.yaml": "2022-08-07",
+"solrclouds.yaml": "2022-08-07",
+"solrprometheusexporters.yaml": "2022-08-07",
+"zookeeperclusters.yaml": "2022-08-07"
 },
 "spamassassin": {
 "Mail-SpamAssassin-3.3.2": "2014-02-20",
