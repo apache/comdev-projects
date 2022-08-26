@@ -1116,9 +1116,6 @@
 "apache-carbondata-1.6.1": [
 "carbondata/1.6.1/apache-carbondata-1.6.1-source-release.zip"
 ],
-"apache-carbondata-2.0.1": [
-"carbondata/2.0.1/apache-carbondata-2.0.1-source-release.zip"
-],
 "apache-carbondata-2.1.1": [
 "carbondata/2.1.1/apache-carbondata-2.1.1-source-release.zip"
 ],
@@ -1230,8 +1227,8 @@
 "apache-cassandra-3.11.13": [
 "cassandra/3.11.13/apache-cassandra-3.11.13-src.tar.gz"
 ],
-"apache-cassandra-4.0.5": [
-"cassandra/4.0.5/apache-cassandra-4.0.5-src.tar.gz"
+"apache-cassandra-4.0.6": [
+"cassandra/4.0.6/apache-cassandra-4.0.6-src.tar.gz"
 ],
 "apache-cassandra-4.1-alpha1": [
 "cassandra/4.1-alpha1/apache-cassandra-4.1-alpha1-src.tar.gz"
@@ -1376,7 +1373,6 @@
 "cassandra/debian/pool/main/c/cassandra/cassandra-tools_4.0.4_all.deb"
 ],
 "cassandra-tools_4.0.5_all": [
-"cassandra/4.0.5/debian/cassandra-tools_4.0.5_all.deb",
 "cassandra/debian/pool/main/c/cassandra/cassandra-tools_4.0.5_all.deb"
 ],
 "cassandra-tools_4.0~beta1_all": [
@@ -1651,15 +1647,12 @@
 "cassandra/debian/pool/main/c/cassandra/cassandra_4.0.4_all.deb"
 ],
 "cassandra_4.0.5": [
-"cassandra/4.0.5/debian/cassandra_4.0.5.tar.gz",
 "cassandra/debian/pool/main/c/cassandra/cassandra_4.0.5.tar.gz"
 ],
 "cassandra_4.0.5.dsc": [
-"cassandra/4.0.5/debian/cassandra_4.0.5.dsc",
 "cassandra/debian/pool/main/c/cassandra/cassandra_4.0.5.dsc"
 ],
 "cassandra_4.0.5_all": [
-"cassandra/4.0.5/debian/cassandra_4.0.5_all.deb",
 "cassandra/debian/pool/main/c/cassandra/cassandra_4.0.5_all.deb"
 ],
 "cassandra_4.0~beta1": [
@@ -3211,12 +3204,6 @@
 "apache-flink-1.14.5": [
 "flink/flink-1.14.5/python/apache-flink-1.14.5.tar.gz"
 ],
-"apache-flink-1.15.0": [
-"flink/flink-1.15.0/python/apache-flink-1.15.0.tar.gz"
-],
-"apache-flink-1.15.1": [
-"flink/flink-1.15.1/python/apache-flink-1.15.1.tar.gz"
-],
 "apache-flink-1.15.2": [
 "flink/flink-1.15.2/python/apache-flink-1.15.2.tar.gz"
 ],
@@ -3225,12 +3212,6 @@
 ],
 "apache-flink-libraries-1.14.5": [
 "flink/flink-1.14.5/python/apache-flink-libraries-1.14.5.tar.gz"
-],
-"apache-flink-libraries-1.15.0": [
-"flink/flink-1.15.0/python/apache-flink-libraries-1.15.0.tar.gz"
-],
-"apache-flink-libraries-1.15.1": [
-"flink/flink-1.15.1/python/apache-flink-libraries-1.15.1.tar.gz"
 ],
 "apache-flink-libraries-1.15.2": [
 "flink/flink-1.15.2/python/apache-flink-libraries-1.15.2.tar.gz"
@@ -3255,12 +3236,6 @@
 ],
 "flink-1.14.5": [
 "flink/flink-1.14.5/flink-1.14.5-src.tgz"
-],
-"flink-1.15.0": [
-"flink/flink-1.15.0/flink-1.15.0-src.tgz"
-],
-"flink-1.15.1": [
-"flink/flink-1.15.1/flink-1.15.1-src.tgz"
 ],
 "flink-1.15.2": [
 "flink/flink-1.15.2/flink-1.15.2-src.tgz"
@@ -3851,14 +3826,11 @@
 "libapreq-1.34": [
 "httpd/libapreq/libapreq-1.34.tar.gz"
 ],
-"libapreq2-2.13": [
-"httpd/libapreq/libapreq2-2.13.tar.gz"
-],
-"libapreq2-2.15": [
-"httpd/libapreq/libapreq2-2.15.tar.gz"
-],
 "libapreq2-2.16": [
 "httpd/libapreq/libapreq2-2.16.tar.gz"
+],
+"libapreq2-2.17": [
+"httpd/libapreq/libapreq2-2.17.tar.gz"
 ],
 "mod_fcgid-2.3.9": [
 "httpd/mod_fcgid/mod_fcgid-2.3.9.tar.bz2",
@@ -4419,8 +4391,8 @@
 ]
 },
 "jena": {
-"jena-4.5.0": [
-"jena/source/jena-4.5.0-source-release.zip"
+"jena-4.6.0": [
+"jena/source/jena-4.6.0-source-release.zip"
 ]
 },
 "jmeter": {
@@ -5028,8 +5000,8 @@
 "maven-dependency-plugin-3.3.0": [
 "maven/plugins/maven-dependency-plugin-3.3.0-source-release.zip"
 ],
-"maven-dependency-tree-3.1.1": [
-"maven/shared/maven-dependency-tree-3.1.1-source-release.zip"
+"maven-dependency-tree-3.2.0": [
+"maven/shared/maven-dependency-tree-3.2.0-source-release.zip"
 ],
 "maven-deploy-plugin-3.0.0": [
 "maven/plugins/maven-deploy-plugin-3.0.0-source-release.zip"
@@ -9241,11 +9213,8 @@
 ]
 },
 "shenyu": {
-"apache-shenyu-incubating-2.4.2": [
-"shenyu/2.4.2/apache-shenyu-incubating-2.4.2-src.zip"
-],
-"apache-shenyu-incubating-2.4.3": [
-"shenyu/2.4.3/apache-shenyu-incubating-2.4.3-src.zip"
+"apache-shenyu-2.5.0": [
+"shenyu/2.5.0/apache-shenyu-2.5.0-src.zip"
 ]
 },
 "shiro": {
@@ -10614,15 +10583,6 @@
 ]
 },
 "struts": {
-"struts-2.5.29": [
-"struts/2.5.29/struts-2.5.29-all.zip",
-"struts/2.5.29/struts-2.5.29-apps.zip",
-"struts/2.5.29/struts-2.5.29-lib.zip",
-"struts/2.5.29/struts-2.5.29-src.zip"
-],
-"struts-2.5.29-min": [
-"struts/2.5.29/struts-2.5.29-min-lib.zip"
-],
 "struts-2.5.30": [
 "struts/2.5.30/struts-2.5.30-all.zip",
 "struts/2.5.30/struts-2.5.30-apps.zip",
@@ -11088,20 +11048,17 @@
 ]
 },
 "trafficcontrol": {
-"apache-trafficcontrol-5.1.6": [
-"trafficcontrol/5.1.6/apache-trafficcontrol-5.1.6.tar.gz"
-],
 "apache-trafficcontrol-6.1.0": [
 "trafficcontrol/6.1.0/apache-trafficcontrol-6.1.0.tar.gz"
 ],
 "apache-trafficcontrol-6.1.0.tar.gz.b2": [
 "trafficcontrol/6.1.0/apache-trafficcontrol-6.1.0.tar.gz.b2"
 ],
-"apache-trafficcontrol-7.0.0": [
-"trafficcontrol/7.0.0/apache-trafficcontrol-7.0.0.tar.gz"
+"apache-trafficcontrol-7.0.1": [
+"trafficcontrol/7.0.1/apache-trafficcontrol-7.0.1.tar.gz"
 ],
-"apache-trafficcontrol-7.0.0.tar.gz.b2": [
-"trafficcontrol/7.0.0/apache-trafficcontrol-7.0.0.tar.gz.b2"
+"apache-trafficcontrol-7.0.1.tar.gz.b2": [
+"trafficcontrol/7.0.1/apache-trafficcontrol-7.0.1.tar.gz.b2"
 ]
 },
 "trafficserver": {

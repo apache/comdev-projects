@@ -391,7 +391,6 @@
 "carbondata": {
 "apache-carbondata-1.5.4": "2019-05-29",
 "apache-carbondata-1.6.1": "2019-10-24",
-"apache-carbondata-2.0.1": "2020-06-01",
 "apache-carbondata-2.1.1": "2021-03-29",
 "apache-carbondata-2.2.0": "2021-08-05",
 "apache-carbondata-2.3.0": "2022-03-12"
@@ -406,7 +405,7 @@
 "apache-cassandra-2.2.19": "2020-10-29",
 "apache-cassandra-3.0.27": "2022-05-06",
 "apache-cassandra-3.11.13": "2022-05-06",
-"apache-cassandra-4.0.5": "2022-07-12",
+"apache-cassandra-4.0.6": "2022-08-18",
 "apache-cassandra-4.1-alpha1": "2022-05-20",
 "cassandra-2.1.22-1": "2020-08-28",
 "cassandra-2.1.22-1.noarch": "2020-08-28",
@@ -453,7 +452,7 @@
 "cassandra-tools_4.0.2_all": "2022-02-10",
 "cassandra-tools_4.0.3_all": "2022-02-16",
 "cassandra-tools_4.0.4_all": "2022-05-14",
-"cassandra-tools_4.0.5_all": "2022-07-12",
+"cassandra-tools_4.0.5_all": "2022-07-18",
 "cassandra-tools_4.0~beta1_all": "2020-07-20",
 "cassandra-tools_4.0~beta2_all": "2020-08-31",
 "cassandra-tools_4.0~beta3_all": "2020-11-04",
@@ -540,9 +539,9 @@
 "cassandra_4.0.4": "2022-05-14",
 "cassandra_4.0.4.dsc": "2022-05-14",
 "cassandra_4.0.4_all": "2022-05-14",
-"cassandra_4.0.5": "2022-07-12",
-"cassandra_4.0.5.dsc": "2022-07-12",
-"cassandra_4.0.5_all": "2022-07-12",
+"cassandra_4.0.5": "2022-07-18",
+"cassandra_4.0.5.dsc": "2022-07-18",
+"cassandra_4.0.5_all": "2022-07-18",
 "cassandra_4.0~beta1": "2020-07-20",
 "cassandra_4.0~beta1.dsc": "2020-07-20",
 "cassandra_4.0~beta1_all": "2020-07-20",
@@ -1004,13 +1003,9 @@
 "apache-flink-1.12.7": "2021-12-15",
 "apache-flink-1.13.6": "2022-02-05",
 "apache-flink-1.14.5": "2022-06-10",
-"apache-flink-1.15.0": "2022-04-21",
-"apache-flink-1.15.1": "2022-06-22",
 "apache-flink-1.15.2": "2022-08-17",
 "apache-flink-libraries-1.13.6": "2022-02-05",
 "apache-flink-libraries-1.14.5": "2022-06-10",
-"apache-flink-libraries-1.15.0": "2022-04-21",
-"apache-flink-libraries-1.15.1": "2022-06-22",
 "apache-flink-libraries-1.15.2": "2022-08-17",
 "apache-flink-ml-2.0.0": "2021-12-30",
 "apache-flink-ml-2.1.0": "2022-07-01",
@@ -1019,8 +1014,6 @@
 "flink-1.12.7": "2021-12-15",
 "flink-1.13.6": "2022-02-04",
 "flink-1.14.5": "2022-06-10",
-"flink-1.15.0": "2022-04-21",
-"flink-1.15.1": "2022-06-22",
 "flink-1.15.2": "2022-08-17",
 "flink-kubernetes-operator-1.0.1": "2022-06-23",
 "flink-kubernetes-operator-1.0.1-helm": "2022-06-23",
@@ -1207,9 +1200,8 @@
 "httpd": {
 "httpd-2.4.54": "2022-06-08",
 "libapreq-1.34": "2009-10-03",
-"libapreq2-2.13": "2010-12-02",
-"libapreq2-2.15": "2020-11-13",
 "libapreq2-2.16": "2021-03-19",
+"libapreq2-2.17": "2022-08-25",
 "mod_fcgid-2.3.9": "2013-10-07",
 "mod_fcgid-2.3.9-crlf": "2013-10-07",
 "mod_ftp-0.9.6-beta": "2009-10-08",
@@ -1446,7 +1438,7 @@
 "jclouds-labs-openstack-2.4.0": "2021-09-10"
 },
 "jena": {
-"jena-4.5.0": "2022-05-01"
+"jena-4.6.0": "2022-08-20"
 },
 "jmeter": {
 "apache-jmeter-5.4.3": "2021-12-24",
@@ -1635,7 +1627,7 @@
 "maven-default-skin-1.3": "2019-07-31",
 "maven-dependency-analyzer-1.13.0": "2022-08-24",
 "maven-dependency-plugin-3.3.0": "2022-03-11",
-"maven-dependency-tree-3.1.1": "2022-05-17",
+"maven-dependency-tree-3.2.0": "2022-08-25",
 "maven-deploy-plugin-3.0.0": "2022-07-19",
 "maven-doap-plugin-1.2": "2015-03-16",
 "maven-docck-plugin-1.1": "2015-04-08",
@@ -3063,8 +3055,7 @@
 "apache-shardingsphere-proxy-1.1.0-chart": "2022-06-13"
 },
 "shenyu": {
-"apache-shenyu-incubating-2.4.2": "2022-01-18",
-"apache-shenyu-incubating-2.4.3": "2022-04-07"
+"apache-shenyu-2.5.0": "2022-08-20"
 },
 "shiro": {
 "shiro-root-1.9.1": "2022-06-23"
@@ -3523,8 +3514,6 @@
 "apache-streams-0.6.1": "2020-03-21"
 },
 "struts": {
-"struts-2.5.29": "2022-01-13",
-"struts-2.5.29-min": "2022-01-13",
 "struts-2.5.30": "2022-03-15",
 "struts-2.5.30-min": "2022-03-15",
 "struts-6.0.0": "2022-06-02",
@@ -3667,11 +3656,10 @@
 "tomee-webaccess-1.7.5": "2017-10-24"
 },
 "trafficcontrol": {
-"apache-trafficcontrol-5.1.6": "2022-02-04",
 "apache-trafficcontrol-6.1.0": "2022-02-04",
 "apache-trafficcontrol-6.1.0.tar.gz.b2": "2022-02-04",
-"apache-trafficcontrol-7.0.0": "2022-08-09",
-"apache-trafficcontrol-7.0.0.tar.gz.b2": "2022-08-09"
+"apache-trafficcontrol-7.0.1": "2022-08-25",
+"apache-trafficcontrol-7.0.1.tar.gz.b2": "2022-08-25"
 },
 "trafficserver": {
 "trafficserver-7.1.12": "2020-12-02",
