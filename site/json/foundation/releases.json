@@ -54,6 +54,7 @@
 "apache-airflow-providers-airbyte-3.1.0": "2022-07-16",
 "apache-airflow-providers-alibaba-2.0.1": "2022-07-16",
 "apache-airflow-providers-amazon-5.0.0": "2022-08-14",
+"apache-airflow-providers-amazon-5.1.0": "2022-09-08",
 "apache-airflow-providers-apache-beam-4.0.0": "2022-06-13",
 "apache-airflow-providers-apache-cassandra-3.0.0": "2022-06-13",
 "apache-airflow-providers-apache-drill-2.2.0": "2022-08-14",
@@ -72,6 +73,7 @@
 "apache-airflow-providers-cloudant-3.0.0": "2022-06-13",
 "apache-airflow-providers-cncf-kubernetes-4.3.0": "2022-08-14",
 "apache-airflow-providers-common-sql-1.1.0": "2022-08-18",
+"apache-airflow-providers-common-sql-1.2.0": "2022-09-08",
 "apache-airflow-providers-databricks-3.2.0": "2022-08-18",
 "apache-airflow-providers-datadog-3.0.0": "2022-06-13",
 "apache-airflow-providers-dbt-cloud-2.1.0": "2022-08-14",
@@ -107,7 +109,9 @@
 "apache-airflow-providers-papermill-3.0.0": "2022-06-13",
 "apache-airflow-providers-plexus-3.0.0": "2022-06-13",
 "apache-airflow-providers-postgres-5.2.0": "2022-08-14",
+"apache-airflow-providers-postgres-5.2.1": "2022-09-08",
 "apache-airflow-providers-presto-4.0.0": "2022-08-14",
+"apache-airflow-providers-presto-4.0.1": "2022-09-08",
 "apache-airflow-providers-qubole-3.2.0": "2022-08-14",
 "apache-airflow-providers-redis-3.0.0": "2022-06-13",
 "apache-airflow-providers-salesforce-5.1.0": "2022-08-14",
@@ -119,11 +123,13 @@
 "apache-airflow-providers-slack-5.1.0": "2022-07-16",
 "apache-airflow-providers-snowflake-3.2.0": "2022-08-14",
 "apache-airflow-providers-sqlite-3.2.0": "2022-08-14",
+"apache-airflow-providers-sqlite-3.2.1": "2022-09-08",
 "apache-airflow-providers-ssh-3.1.0": "2022-07-16",
 "apache-airflow-providers-tableau-3.0.1": "2022-07-16",
 "apache-airflow-providers-tabular-1.0.1": "2022-07-20",
 "apache-airflow-providers-telegram-3.0.0": "2022-06-13",
 "apache-airflow-providers-trino-4.0.0": "2022-08-14",
+"apache-airflow-providers-trino-4.0.1": "2022-09-08",
 "apache-airflow-providers-vertica-3.2.0": "2022-08-14",
 "apache-airflow-providers-yandex-3.1.0": "2022-08-14",
 "apache-airflow-providers-zendesk-4.0.0": "2022-06-13",
@@ -353,7 +359,7 @@
 "apache-camel-3.14.5": "2022-08-20",
 "apache-camel-3.16.0": "2022-03-28",
 "apache-camel-3.17.0": "2022-05-19",
-"apache-camel-3.18.1": "2022-08-11",
+"apache-camel-3.18.2": "2022-09-08",
 "apache-camel-k-runtime-1.12.0": "2022-03-14",
 "apache-camel-k-runtime-1.13.0": "2022-04-19",
 "apache-camel-quarkus-2.12.0": "2022-08-31",
@@ -864,7 +870,7 @@
 "apache-dubbo-extensions-3.0.0-SNAPSHOT": "2021-03-29",
 "apache-dubbo-js-4.0.0": "2021-07-25",
 "dubbo-go-pixiu-v0.5.1-rc2": "2022-08-08",
-"dubbo-hessian-lite-3.2.12": "2021-11-28"
+"dubbo-hessian-lite-3.2.13": "2022-09-08"
 },
 "echarts": {
 "apache-echarts-5.3.3": "2022-06-14"
@@ -1369,8 +1375,8 @@
 "apache-yunikorn-0.12.2-incubating": "2022-02-03"
 },
 "inlong": {
-"apache-inlong-1.2.0-incubating": "2022-06-13",
-"apache-inlong-1.2.0-incubating-sort-connectors": "2022-06-13"
+"apache-inlong-1.3.0": "2022-09-03",
+"apache-inlong-1.3.0-sort-connectors": "2022-09-03"
 },
 "iotdb": {
 "apache-iotdb-0.12.6": "2022-07-13",
@@ -1586,7 +1592,8 @@
 "apache-manifoldcf-solr-5.x-plugin-2.2": "2015-07-20",
 "apache-manifoldcf-solr-6.x-plugin-2.2": "2016-05-10",
 "apache-manifoldcf-solr-7.x-plugin-2.2.1": "2018-02-25",
-"apache-manifoldcf-solr-8.x-plugin-2.2": "2019-12-18"
+"apache-manifoldcf-solr-8.x-plugin-2.2": "2019-12-18",
+"apache-manifoldcf-solr-9.x-plugin-2.2": "2022-09-04"
 },
 "maven": {
 "apache-27": "2022-07-14",
@@ -1680,6 +1687,7 @@
 "maven-verifier-plugin-1.1": "2015-04-14",
 "maven-war-plugin-3.3.2": "2021-09-10",
 "maven-wrapper-3.1.1": "2022-05-14",
+"placeholder": "2022-09-08",
 "surefire-3.0.0-M7": "2022-06-06",
 "wagon-3.5.2": "2022-06-26"
 },
@@ -2750,7 +2758,7 @@
 "pig-0.17.0": "2017-06-16"
 },
 "pinot": {
-"apache-pinot-0.10.0": "2022-03-21"
+"apache-pinot-0.11.0": "2022-09-04"
 },
 "pivot": {
 "apache-pivot-2.0.5": "2017-07-08"
@@ -2883,22 +2891,15 @@
 "pulsar-io-twitter-2.8.4.nar": "2022-08-11"
 },
 "qpid": {
-"apache-qpid-broker-j-7.1.12": "2021-02-14",
 "apache-qpid-broker-j-8.0.6": "2021-08-24",
 "apache-qpid-jms-1.6.0": "2022-03-28",
 "apache-qpid-jms-2.0.0": "2022-04-22",
 "apache-qpid-jms-amqp-0-x-6.4.0": "2020-05-28",
-"apache-qpid-proton-j-0.33.10": "2021-10-14",
 "apache-qpid-proton-j-0.34.0": "2022-08-30",
-"apache-qpid-protonj2-1.0.0-M5": "2022-04-05",
-"apache-qpid-protonj2-1.0.0-M6": "2022-05-23",
-"apache-qpid-protonj2-1.0.0-M7": "2022-06-27",
 "apache-qpid-protonj2-1.0.0-M8": "2022-08-23",
 "qpid-dispatch-1.19.0": "2022-03-17",
 "qpid-interop-test-0.3.0": "2021-11-05",
 "qpid-proton-0.37.0": "2022-03-15",
-"qpid-proton-dotnet-1.0.0-M1": "2022-05-26",
-"qpid-proton-dotnet-1.0.0-M2": "2022-07-11",
 "qpid-proton-dotnet-1.0.0-M3": "2022-08-08",
 "qpid-python-1.37.0": "2017-11-22"
 },
@@ -2978,10 +2979,9 @@
 "apache-servicemix-7.0.1": "2017-05-26"
 },
 "shardingsphere": {
-"apache-shardingsphere-5.1.2": "2022-06-13",
+"apache-shardingsphere-5.2.0": "2022-09-05",
 "apache-shardingsphere-elasticjob-3.0.1": "2021-10-04",
-"apache-shardingsphere-elasticjob-3.0.1-ui": "2021-12-27",
-"apache-shardingsphere-proxy-1.1.0-chart": "2022-06-13"
+"apache-shardingsphere-elasticjob-3.0.1-ui": "2021-12-27"
 },
 "shenyu": {
 "apache-shenyu-2.5.0": "2022-08-20"

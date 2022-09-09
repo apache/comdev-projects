@@ -154,6 +154,9 @@
 "apache-airflow-providers-amazon-5.0.0": [
 "airflow/providers/apache-airflow-providers-amazon-5.0.0.tar.gz"
 ],
+"apache-airflow-providers-amazon-5.1.0": [
+"airflow/providers/apache-airflow-providers-amazon-5.1.0.tar.gz"
+],
 "apache-airflow-providers-apache-beam-4.0.0": [
 "airflow/providers/apache-airflow-providers-apache-beam-4.0.0.tar.gz"
 ],
@@ -207,6 +210,9 @@
 ],
 "apache-airflow-providers-common-sql-1.1.0": [
 "airflow/providers/apache-airflow-providers-common-sql-1.1.0.tar.gz"
+],
+"apache-airflow-providers-common-sql-1.2.0": [
+"airflow/providers/apache-airflow-providers-common-sql-1.2.0.tar.gz"
 ],
 "apache-airflow-providers-databricks-3.2.0": [
 "airflow/providers/apache-airflow-providers-databricks-3.2.0.tar.gz"
@@ -313,8 +319,14 @@
 "apache-airflow-providers-postgres-5.2.0": [
 "airflow/providers/apache-airflow-providers-postgres-5.2.0.tar.gz"
 ],
+"apache-airflow-providers-postgres-5.2.1": [
+"airflow/providers/apache-airflow-providers-postgres-5.2.1.tar.gz"
+],
 "apache-airflow-providers-presto-4.0.0": [
 "airflow/providers/apache-airflow-providers-presto-4.0.0.tar.gz"
+],
+"apache-airflow-providers-presto-4.0.1": [
+"airflow/providers/apache-airflow-providers-presto-4.0.1.tar.gz"
 ],
 "apache-airflow-providers-qubole-3.2.0": [
 "airflow/providers/apache-airflow-providers-qubole-3.2.0.tar.gz"
@@ -349,6 +361,9 @@
 "apache-airflow-providers-sqlite-3.2.0": [
 "airflow/providers/apache-airflow-providers-sqlite-3.2.0.tar.gz"
 ],
+"apache-airflow-providers-sqlite-3.2.1": [
+"airflow/providers/apache-airflow-providers-sqlite-3.2.1.tar.gz"
+],
 "apache-airflow-providers-ssh-3.1.0": [
 "airflow/providers/apache-airflow-providers-ssh-3.1.0.tar.gz"
 ],
@@ -363,6 +378,9 @@
 ],
 "apache-airflow-providers-trino-4.0.0": [
 "airflow/providers/apache-airflow-providers-trino-4.0.0.tar.gz"
+],
+"apache-airflow-providers-trino-4.0.1": [
+"airflow/providers/apache-airflow-providers-trino-4.0.1.tar.gz"
 ],
 "apache-airflow-providers-vertica-3.2.0": [
 "airflow/providers/apache-airflow-providers-vertica-3.2.0.tar.gz"
@@ -1005,8 +1023,8 @@
 "apache-camel-3.17.0": [
 "camel/apache-camel/3.17.0/apache-camel-3.17.0-src.zip"
 ],
-"apache-camel-3.18.1": [
-"camel/apache-camel/3.18.1/apache-camel-3.18.1-src.zip"
+"apache-camel-3.18.2": [
+"camel/apache-camel/3.18.2/apache-camel-3.18.2-src.zip"
 ],
 "apache-camel-k-runtime-1.12.0": [
 "camel/camel-k-runtime/1.12.0/apache-camel-k-runtime-1.12.0-source-release.zip"
@@ -2694,8 +2712,8 @@
 "dubbo-go-pixiu-v0.5.1-rc2": [
 "dubbo/dubbo-go-pixiu/v0.5.1-rc2/dubbo-go-pixiu-v0.5.1-rc2-src.tar.gz"
 ],
-"dubbo-hessian-lite-3.2.12": [
-"dubbo/dubbo-hessian-lite/3.2.12/dubbo-hessian-lite-3.2.12-source-release.zip"
+"dubbo-hessian-lite-3.2.13": [
+"dubbo/dubbo-hessian-lite/3.2.13/dubbo-hessian-lite-3.2.13-source-release.zip"
 ]
 },
 "echarts": {
@@ -4202,11 +4220,11 @@
 ]
 },
 "inlong": {
-"apache-inlong-1.2.0-incubating": [
-"inlong/1.2.0-incubating/apache-inlong-1.2.0-incubating-src.tar.gz"
+"apache-inlong-1.3.0": [
+"inlong/1.3.0/apache-inlong-1.3.0-src.tar.gz"
 ],
-"apache-inlong-1.2.0-incubating-sort-connectors": [
-"inlong/1.2.0-incubating/apache-inlong-1.2.0-incubating-sort-connectors.tar.gz"
+"apache-inlong-1.3.0-sort-connectors": [
+"inlong/1.3.0/apache-inlong-1.3.0-sort-connectors.tar.gz"
 ]
 },
 "iotdb": {
@@ -4883,6 +4901,10 @@
 "apache-manifoldcf-solr-8.x-plugin-2.2": [
 "manifoldcf/apache-manifoldcf-solr-8.x-plugin-2.2/apache-manifoldcf-solr-8.x-plugin-2.2-src.tar.gz",
 "manifoldcf/apache-manifoldcf-solr-8.x-plugin-2.2/apache-manifoldcf-solr-8.x-plugin-2.2-src.zip"
+],
+"apache-manifoldcf-solr-9.x-plugin-2.2": [
+"manifoldcf/apache-manifoldcf-solr-9.x-plugin-2.2/apache-manifoldcf-solr-9.x-plugin-2.2-src.tar.gz",
+"manifoldcf/apache-manifoldcf-solr-9.x-plugin-2.2/apache-manifoldcf-solr-9.x-plugin-2.2-src.zip"
 ]
 },
 "maven": {
@@ -5166,6 +5188,9 @@
 ],
 "maven-wrapper-3.1.1": [
 "maven/wrapper/maven-wrapper-3.1.1-source-release.zip"
+],
+"placeholder": [
+"maven/mvnd/0.8.1/placeholder"
 ],
 "surefire-3.0.0-M7": [
 "maven/surefire/surefire-3.0.0-M7-source-release.zip"
@@ -8353,8 +8378,8 @@
 ]
 },
 "pinot": {
-"apache-pinot-0.10.0": [
-"pinot/apache-pinot-0.10.0/apache-pinot-0.10.0-src.tar.gz"
+"apache-pinot-0.11.0": [
+"pinot/apache-pinot-0.11.0/apache-pinot-0.11.0-src.tar.gz"
 ]
 },
 "pivot": {
@@ -8747,9 +8772,6 @@
 ]
 },
 "qpid": {
-"apache-qpid-broker-j-7.1.12": [
-"qpid/broker-j/7.1.12/apache-qpid-broker-j-7.1.12-src.tar.gz"
-],
 "apache-qpid-broker-j-8.0.6": [
 "qpid/broker-j/8.0.6/apache-qpid-broker-j-8.0.6-src.tar.gz"
 ],
@@ -8762,20 +8784,8 @@
 "apache-qpid-jms-amqp-0-x-6.4.0": [
 "qpid/jms-amqp-0-x/6.4.0/apache-qpid-jms-amqp-0-x-6.4.0-src.tar.gz"
 ],
-"apache-qpid-proton-j-0.33.10": [
-"qpid/proton-j/0.33.10/apache-qpid-proton-j-0.33.10-src.tar.gz"
-],
 "apache-qpid-proton-j-0.34.0": [
 "qpid/proton-j/0.34.0/apache-qpid-proton-j-0.34.0-src.tar.gz"
-],
-"apache-qpid-protonj2-1.0.0-M5": [
-"qpid/protonj2/1.0.0-M5/apache-qpid-protonj2-1.0.0-M5-src.tar.gz"
-],
-"apache-qpid-protonj2-1.0.0-M6": [
-"qpid/protonj2/1.0.0-M6/apache-qpid-protonj2-1.0.0-M6-src.tar.gz"
-],
-"apache-qpid-protonj2-1.0.0-M7": [
-"qpid/protonj2/1.0.0-M7/apache-qpid-protonj2-1.0.0-M7-src.tar.gz"
 ],
 "apache-qpid-protonj2-1.0.0-M8": [
 "qpid/protonj2/1.0.0-M8/apache-qpid-protonj2-1.0.0-M8-src.tar.gz"
@@ -8788,12 +8798,6 @@
 ],
 "qpid-proton-0.37.0": [
 "qpid/proton/0.37.0/qpid-proton-0.37.0.tar.gz"
-],
-"qpid-proton-dotnet-1.0.0-M1": [
-"qpid/proton-dotnet/1.0.0-M1/qpid-proton-dotnet-src-1.0.0-M1.tar.gz"
-],
-"qpid-proton-dotnet-1.0.0-M2": [
-"qpid/proton-dotnet/1.0.0-M2/qpid-proton-dotnet-src-1.0.0-M2.tar.gz"
 ],
 "qpid-proton-dotnet-1.0.0-M3": [
 "qpid/proton-dotnet/1.0.0-M3/qpid-proton-dotnet-src-1.0.0-M3.tar.gz"
@@ -8992,17 +8996,14 @@
 ]
 },
 "shardingsphere": {
-"apache-shardingsphere-5.1.2": [
-"shardingsphere/5.1.2/apache-shardingsphere-5.1.2-src.zip"
+"apache-shardingsphere-5.2.0": [
+"shardingsphere/5.2.0/apache-shardingsphere-5.2.0-src.zip"
 ],
 "apache-shardingsphere-elasticjob-3.0.1": [
 "shardingsphere/elasticjob-3.0.1/apache-shardingsphere-elasticjob-3.0.1-src.zip"
 ],
 "apache-shardingsphere-elasticjob-3.0.1-ui": [
 "shardingsphere/elasticjob-ui-3.0.1/apache-shardingsphere-elasticjob-3.0.1-ui-src.zip"
-],
-"apache-shardingsphere-proxy-1.1.0-chart": [
-"shardingsphere/5.1.2/apache-shardingsphere-proxy-1.1.0-chart.tgz"
 ]
 },
 "shenyu": {
