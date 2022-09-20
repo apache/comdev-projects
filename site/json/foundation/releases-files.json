@@ -132,9 +132,9 @@
 "airflow-chart-1.6.0": [
 "airflow/helm-chart/1.6.0/airflow-chart-1.6.0-source.tar.gz"
 ],
-"apache-airflow-2.3.4": [
-"airflow/2.3.4/apache-airflow-2.3.4-source.tar.gz",
-"airflow/2.3.4/apache-airflow-2.3.4.tar.gz"
+"apache-airflow-2.4.0": [
+"airflow/2.4.0/apache-airflow-2.4.0-source.tar.gz",
+"airflow/2.4.0/apache-airflow-2.4.0.tar.gz"
 ],
 "apache-airflow-client-2.1.0": [
 "airflow/clients/python/2.1.0/apache-airflow-client-2.1.0-source.tar.gz"
@@ -727,6 +727,9 @@
 "apache-arrow-9.0.0": [
 "arrow/arrow-9.0.0/apache-arrow-9.0.0.tar.gz"
 ],
+"apache-arrow-ballista-0.8.0": [
+"arrow/arrow-ballista-0.8.0/apache-arrow-ballista-0.8.0.tar.gz"
+],
 "apache-arrow-datafusion-12.0.0": [
 "arrow/arrow-datafusion-12.0.0/apache-arrow-datafusion-12.0.0.tar.gz"
 ],
@@ -739,8 +742,8 @@
 "apache-arrow-object-store-rs-0.5.0": [
 "arrow/arrow-object-store-rs-0.5.0/apache-arrow-object-store-rs-0.5.0.tar.gz"
 ],
-"apache-arrow-rs-22.0.0": [
-"arrow/arrow-rs-22.0.0/apache-arrow-rs-22.0.0.tar.gz"
+"apache-arrow-rs-23.0.0": [
+"arrow/arrow-rs-23.0.0/apache-arrow-rs-23.0.0.tar.gz"
 ]
 },
 "asterixdb": {
@@ -1118,6 +1121,9 @@
 ],
 "camel-kafka-connector-1.0.0": [
 "camel/camel-kafka-connector/1.0.0/camel-kafka-connector-1.0.0-src.zip"
+],
+"camel-kafka-connector-3.18.1": [
+"camel/camel-kafka-connector/3.18.1/camel-kafka-connector-3.18.1-src.zip"
 ],
 "camel-kamelets-sources-0.7.1": [
 "camel/camel-kamelets/0.7.1/camel-kamelets-sources-0.7.1.tar.gz"
@@ -1788,6 +1794,9 @@
 ],
 "apache-cloudstack-4.17.0.1": [
 "cloudstack/releases/4.17.0.1/apache-cloudstack-4.17.0.1-src.tar.bz2"
+],
+"apache-cloudstack-4.17.1.0": [
+"cloudstack/releases/4.17.1.0/apache-cloudstack-4.17.1.0-src.tar.bz2"
 ],
 "apache-cloudstack-cloudmonkey-6.2.0": [
 "cloudstack/releases/cloudmonkey-6.2.0/apache-cloudstack-cloudmonkey-6.2.0-src.tar.bz2"
@@ -4296,6 +4305,9 @@
 "jackrabbit-filevault-3.6.0": [
 "jackrabbit/filevault/3.6.0/jackrabbit-filevault-3.6.0-src.zip"
 ],
+"jackrabbit-filevault-3.6.4": [
+"jackrabbit/filevault/3.6.4/jackrabbit-filevault-3.6.4-src.zip"
+],
 "jackrabbit-jca-2.14.10": [
 "jackrabbit/2.14.10/jackrabbit-jca-2.14.10.rar"
 ],
@@ -5141,6 +5153,10 @@
 "maven/mvnd/0.8.0/maven-mvnd-0.8.0-src.tar.gz",
 "maven/mvnd/0.8.0/maven-mvnd-0.8.0-src.zip"
 ],
+"maven-mvnd-0.8.1": [
+"maven/mvnd/0.8.1/maven-mvnd-0.8.1-src.tar.gz",
+"maven/mvnd/0.8.1/maven-mvnd-0.8.1-src.zip"
+],
 "maven-patch-plugin-1.2": [
 "maven/plugins/maven-patch-plugin-1.2-source-release.zip"
 ],
@@ -5248,9 +5264,6 @@
 ],
 "maven-wrapper-3.1.1": [
 "maven/wrapper/maven-wrapper-3.1.1-source-release.zip"
-],
-"placeholder": [
-"maven/mvnd/0.8.1/placeholder"
 ],
 "surefire-3.0.0-M7": [
 "maven/surefire/surefire-3.0.0-M7-source-release.zip"
@@ -8997,11 +9010,11 @@
 "xmlsec-2.2.4": [
 "santuario/java-library/2_2_4/xmlsec-2.2.4-source-release.zip"
 ],
-"xmlsec-2.3.1": [
-"santuario/java-library/2_3_1/xmlsec-2.3.1-source-release.zip"
+"xmlsec-2.3.2": [
+"santuario/java-library/2_3_2/xmlsec-2.3.2-source-release.zip"
 ],
-"xmlsec-3.0.0": [
-"santuario/java-library/3_0_0/xmlsec-3.0.0-source-release.zip"
+"xmlsec-3.0.1": [
+"santuario/java-library/3_0_1/xmlsec-3.0.1-source-release.zip"
 ]
 },
 "serf": {
@@ -9953,8 +9966,8 @@
 "org.apache.sling.resourceresolver-1.10.0": [
 "sling/org.apache.sling.resourceresolver-1.10.0-source-release.zip"
 ],
-"org.apache.sling.rewriter-1.3.2": [
-"sling/org.apache.sling.rewriter-1.3.2-source-release.zip"
+"org.apache.sling.rewriter-1.3.4": [
+"sling/org.apache.sling.rewriter-1.3.4-source-release.zip"
 ],
 "org.apache.sling.sample.slingshot-0.9.0": [
 "sling/org.apache.sling.sample.slingshot-0.9.0-source-release.zip"

@@ -47,7 +47,7 @@
 "airflow-1.6.0.tgz.prov": "2022-05-20",
 "airflow-chart-1.5.0": "2022-03-11",
 "airflow-chart-1.6.0": "2022-05-20",
-"apache-airflow-2.3.4": "2022-08-23",
+"apache-airflow-2.4.0": "2022-09-19",
 "apache-airflow-client-2.1.0": "2021-05-31",
 "apache-airflow-client-2.2.0": "2021-12-01",
 "apache-airflow-client-2.3.0": "2022-08-03",
@@ -249,11 +249,12 @@
 "apache-arrow-8.0.0": "2022-05-03",
 "apache-arrow-8.0.1": "2022-07-14",
 "apache-arrow-9.0.0": "2022-07-29",
+"apache-arrow-ballista-0.8.0": "2022-09-19",
 "apache-arrow-datafusion-12.0.0": "2022-09-15",
 "apache-arrow-julia-2.3.0": "2022-04-09",
 "apache-arrow-object-store-rs-0.4.0": "2022-08-13",
 "apache-arrow-object-store-rs-0.5.0": "2022-09-11",
-"apache-arrow-rs-22.0.0": "2022-09-05"
+"apache-arrow-rs-23.0.0": "2022-09-19"
 },
 "asterixdb": {
 "apache-asterixdb-0.9.6": "2020-10-14",
@@ -391,6 +392,7 @@
 "camel-k-sources-1.9.1": "2022-05-09",
 "camel-k-sources-1.9.2": "2022-05-17",
 "camel-kafka-connector-1.0.0": "2022-01-24",
+"camel-kafka-connector-3.18.1": "2022-09-19",
 "camel-kamelets-sources-0.7.1": "2022-03-14",
 "camel-kamelets-sources-0.8.0": "2022-04-13",
 "camel-kamelets-sources-0.8.1": "2022-05-09"
@@ -585,6 +587,7 @@
 "apache-cloudstack-4.16.1.1": "2022-07-14",
 "apache-cloudstack-4.17.0.0": "2022-05-31",
 "apache-cloudstack-4.17.0.1": "2022-07-15",
+"apache-cloudstack-4.17.1.0": "2022-09-14",
 "apache-cloudstack-cloudmonkey-6.2.0": "2021-09-23",
 "apache-cloudstack-ec2stack-0.8.0": "2015-08-26",
 "apache-cloudstack-kubernetes-provider-v1.0.0": "2021-08-04",
@@ -1403,6 +1406,7 @@
 "jackrabbit-filevault-3.4.10": "2021-02-26",
 "jackrabbit-filevault-3.5.8": "2021-12-17",
 "jackrabbit-filevault-3.6.0": "2022-02-26",
+"jackrabbit-filevault-3.6.4": "2022-09-16",
 "jackrabbit-jca-2.14.10": "2021-09-06",
 "jackrabbit-jca-2.16.10": "2022-09-07",
 "jackrabbit-jca-2.20.6": "2022-07-04",
@@ -1671,6 +1675,7 @@
 "maven-linkcheck-plugin-1.2": "2014-10-11",
 "maven-mapping-3.0.0": "2015-11-24",
 "maven-mvnd-0.8.0": "2022-05-04",
+"maven-mvnd-0.8.1": "2022-09-19",
 "maven-patch-plugin-1.2": "2015-03-09",
 "maven-pdf-plugin-1.6.1": "2022-08-19",
 "maven-plugin-3.4.2": "2022-07-23",
@@ -1707,7 +1712,6 @@
 "maven-verifier-plugin-1.1": "2015-04-14",
 "maven-war-plugin-3.3.2": "2021-09-10",
 "maven-wrapper-3.1.1": "2022-05-14",
-"placeholder": "2022-09-08",
 "surefire-3.0.0-M7": "2022-06-06",
 "wagon-3.5.2": "2022-06-26"
 },
@@ -2975,8 +2979,8 @@
 "santuario": {
 "xml-security-c-2.0.4": "2021-11-04",
 "xmlsec-2.2.4": "2022-05-03",
-"xmlsec-2.3.1": "2022-05-03",
-"xmlsec-3.0.0": "2022-05-03"
+"xmlsec-2.3.2": "2022-09-19",
+"xmlsec-3.0.1": "2022-09-19"
 },
 "serf": {
 "serf-1.3.9": "2016-08-31"
@@ -3301,7 +3305,7 @@
 "org.apache.sling.resourcecollection-1.0.2": "2019-02-26",
 "org.apache.sling.resourcemerger-1.4.0": "2021-03-15",
 "org.apache.sling.resourceresolver-1.10.0": "2022-08-12",
-"org.apache.sling.rewriter-1.3.2": "2022-02-17",
+"org.apache.sling.rewriter-1.3.4": "2022-09-19",
 "org.apache.sling.sample.slingshot-0.9.0": "2018-09-17",
 "org.apache.sling.sample.slingshot-0.9.0-mar.mar": "2018-09-17",
 "org.apache.sling.samples.path-based.rtp-2.0.4": "2013-01-21",
