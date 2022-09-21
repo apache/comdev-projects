@@ -4468,101 +4468,38 @@
 ]
 },
 "kafka": {
-"kafka-2.8.1": [
-"kafka/2.8.1/kafka-2.8.1-src.tgz"
-],
 "kafka-2.8.2": [
 "kafka/2.8.2/kafka-2.8.2-src.tgz"
-],
-"kafka-3.0.1": [
-"kafka/3.0.1/kafka-3.0.1-src.tgz"
 ],
 "kafka-3.0.2": [
 "kafka/3.0.2/kafka-3.0.2-src.tgz"
 ],
-"kafka-3.1.0": [
-"kafka/3.1.0/kafka-3.1.0-src.tgz"
-],
-"kafka-3.1.1": [
-"kafka/3.1.1/kafka-3.1.1-src.tgz"
-],
 "kafka-3.1.2": [
 "kafka/3.1.2/kafka-3.1.2-src.tgz"
-],
-"kafka-3.2.0": [
-"kafka/3.2.0/kafka-3.2.0-src.tgz"
-],
-"kafka-3.2.1": [
-"kafka/3.2.1/kafka-3.2.1-src.tgz"
-],
-"kafka-3.2.2": [
-"kafka/3.2.2/kafka-3.2.2-src.tgz"
 ],
 "kafka-3.2.3": [
 "kafka/3.2.3/kafka-3.2.3-src.tgz"
 ],
-"kafka_2.12-2.8.1": [
-"kafka/2.8.1/kafka_2.12-2.8.1.tgz"
-],
 "kafka_2.12-2.8.2": [
 "kafka/2.8.2/kafka_2.12-2.8.2.tgz"
-],
-"kafka_2.12-3.0.1": [
-"kafka/3.0.1/kafka_2.12-3.0.1.tgz"
 ],
 "kafka_2.12-3.0.2": [
 "kafka/3.0.2/kafka_2.12-3.0.2.tgz"
 ],
-"kafka_2.12-3.1.0": [
-"kafka/3.1.0/kafka_2.12-3.1.0.tgz"
-],
-"kafka_2.12-3.1.1": [
-"kafka/3.1.1/kafka_2.12-3.1.1.tgz"
-],
 "kafka_2.12-3.1.2": [
 "kafka/3.1.2/kafka_2.12-3.1.2.tgz"
-],
-"kafka_2.12-3.2.0": [
-"kafka/3.2.0/kafka_2.12-3.2.0.tgz"
-],
-"kafka_2.12-3.2.1": [
-"kafka/3.2.1/kafka_2.12-3.2.1.tgz"
-],
-"kafka_2.12-3.2.2": [
-"kafka/3.2.2/kafka_2.12-3.2.2.tgz"
 ],
 "kafka_2.12-3.2.3": [
 "kafka/3.2.3/kafka_2.12-3.2.3.tgz"
 ],
-"kafka_2.13-2.8.1": [
-"kafka/2.8.1/kafka_2.13-2.8.1.tgz"
-],
 "kafka_2.13-2.8.2": [
 "kafka/2.8.2/kafka_2.13-2.8.2.tgz"
-],
-"kafka_2.13-3.0.1": [
-"kafka/3.0.1/kafka_2.13-3.0.1.tgz"
 ],
 "kafka_2.13-3.0.2": [
 "kafka/3.0.2/kafka_2.13-3.0.2.tgz"
 ],
-"kafka_2.13-3.1.0": [
-"kafka/3.1.0/kafka_2.13-3.1.0.tgz"
-],
-"kafka_2.13-3.1.1": [
-"kafka/3.1.1/kafka_2.13-3.1.1.tgz"
-],
 "kafka_2.13-3.1.2": [
 "kafka/3.1.2/kafka_2.13-3.1.2.tgz"
-],
-"kafka_2.13-3.2.0": [
-"kafka/3.2.0/kafka_2.13-3.2.0.tgz"
-],
-"kafka_2.13-3.2.1": [
-"kafka/3.2.1/kafka_2.13-3.2.1.tgz"
-],
-"kafka_2.13-3.2.2": [
-"kafka/3.2.2/kafka_2.13-3.2.2.tgz"
 ],
 "kafka_2.13-3.2.3": [
 "kafka/3.2.3/kafka_2.13-3.2.3.tgz"
@@ -8847,8 +8784,14 @@
 "apache-qpid-jms-1.6.0": [
 "qpid/jms/1.6.0/apache-qpid-jms-1.6.0-src.tar.gz"
 ],
+"apache-qpid-jms-1.7.0": [
+"qpid/jms/1.7.0/apache-qpid-jms-1.7.0-src.tar.gz"
+],
 "apache-qpid-jms-2.0.0": [
 "qpid/jms/2.0.0/apache-qpid-jms-2.0.0-src.tar.gz"
+],
+"apache-qpid-jms-2.1.0": [
+"qpid/jms/2.1.0/apache-qpid-jms-2.1.0-src.tar.gz"
 ],
 "apache-qpid-jms-amqp-0-x-6.4.0": [
 "qpid/jms-amqp-0-x/6.4.0/apache-qpid-jms-amqp-0-x-6.4.0-src.tar.gz"
@@ -9121,17 +9064,14 @@
 "skywalking-0.4.0.crate": [
 "skywalking/rust/0.4.0/skywalking-0.4.0.crate"
 ],
-"skywalking-4.1.0": [
-"skywalking/kubernetes/4.1.0/skywalking-4.1.0.tgz"
-],
-"skywalking-4.2.0": [
-"skywalking/kubernetes/4.2.0/skywalking-4.2.0.tgz"
+"skywalking-4.3.0": [
+"skywalking/kubernetes/4.3.0/skywalking-4.3.0.tgz"
 ],
 "skywalking-banyandb-0.1.0": [
 "skywalking/banyandb/0.1.0/skywalking-banyandb-0.1.0-src.tgz"
 ],
-"skywalking-cli-0.10.0": [
-"skywalking/cli/0.10.0/skywalking-cli-0.10.0-src.tgz"
+"skywalking-cli-0.11.0": [
+"skywalking/cli/0.11.0/skywalking-cli-0.11.0-src.tgz"
 ],
 "skywalking-client-js-0.8.0": [
 "skywalking/client-js/0.8.0/skywalking-client-js-0.8.0-src.tgz"
@@ -9151,11 +9091,8 @@
 "skywalking-kong-0.2.0": [
 "skywalking/kong/0.2.0/skywalking-kong-0.2.0-src.tgz"
 ],
-"skywalking-kubernetes-4.1.0": [
-"skywalking/kubernetes/4.1.0/skywalking-kubernetes-4.1.0-src.tgz"
-],
-"skywalking-kubernetes-4.2.0": [
-"skywalking/kubernetes/4.2.0/skywalking-kubernetes-4.2.0-src.tgz"
+"skywalking-kubernetes-4.3.0": [
+"skywalking/kubernetes/4.3.0/skywalking-kubernetes-4.3.0-src.tgz"
 ],
 "skywalking-kubernetes-event-exporter-1.0.0": [
 "skywalking/kubernetes-event-exporter/1.0.0/skywalking-kubernetes-event-exporter-1.0.0-src.tgz"
@@ -9216,8 +9153,8 @@
 "org.apache.sling.api-2.27.0": [
 "sling/org.apache.sling.api-2.27.0-source-release.zip"
 ],
-"org.apache.sling.auth.core-1.5.6": [
-"sling/org.apache.sling.auth.core-1.5.6-source-release.zip"
+"org.apache.sling.auth.core-1.5.8": [
+"sling/org.apache.sling.auth.core-1.5.8-source-release.zip"
 ],
 "org.apache.sling.auth.form-1.0.24": [
 "sling/org.apache.sling.auth.form-1.0.24-source-release.zip"
@@ -10032,8 +9969,8 @@
 "org.apache.sling.serviceuser.webconsole-1.0.2": [
 "sling/org.apache.sling.serviceuser.webconsole-1.0.2-source-release.zip"
 ],
-"org.apache.sling.serviceusermapper-1.5.4": [
-"sling/org.apache.sling.serviceusermapper-1.5.4-source-release.zip"
+"org.apache.sling.serviceusermapper-1.5.6": [
+"sling/org.apache.sling.serviceusermapper-1.5.6-source-release.zip"
 ],
 "org.apache.sling.servlet-helpers-1.4.2": [
 "sling/org.apache.sling.servlet-helpers-1.4.2-source-release.zip"
@@ -10714,6 +10651,10 @@
 "jakartaee-migration-1.0.3": [
 "tomcat/jakartaee-migration/v1.0.3/source/jakartaee-migration-1.0.3-src.tar.gz",
 "tomcat/jakartaee-migration/v1.0.3/source/jakartaee-migration-1.0.3-src.zip"
+],
+"jakartaee-migration-1.0.4": [
+"tomcat/jakartaee-migration/v1.0.4/source/jakartaee-migration-1.0.4-src.tar.gz",
+"tomcat/jakartaee-migration/v1.0.4/source/jakartaee-migration-1.0.4-src.zip"
 ],
 "taglibs-standard-1.2.5": [
 "tomcat/taglibs/taglibs-standard-1.2.5/taglibs-standard-1.2.5-source-release.zip"
