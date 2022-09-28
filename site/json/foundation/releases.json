@@ -71,7 +71,7 @@
 "apache-airflow-providers-asana-2.0.1": "2022-07-16",
 "apache-airflow-providers-celery-3.0.0": "2022-06-13",
 "apache-airflow-providers-cloudant-3.0.0": "2022-06-13",
-"apache-airflow-providers-cncf-kubernetes-4.3.0": "2022-08-14",
+"apache-airflow-providers-cncf-kubernetes-4.4.0": "2022-09-27",
 "apache-airflow-providers-common-sql-1.1.0": "2022-08-18",
 "apache-airflow-providers-common-sql-1.2.0": "2022-09-08",
 "apache-airflow-providers-databricks-3.2.0": "2022-08-18",
@@ -586,8 +586,6 @@
 },
 "cloudstack": {
 "apache-cloudstack-4.16.1.1": "2022-07-14",
-"apache-cloudstack-4.17.0.0": "2022-05-31",
-"apache-cloudstack-4.17.0.1": "2022-07-15",
 "apache-cloudstack-4.17.1.0": "2022-09-23",
 "apache-cloudstack-cloudmonkey-6.2.0": "2021-09-23",
 "apache-cloudstack-ec2stack-0.8.0": "2015-08-26",
@@ -1016,14 +1014,14 @@
 "blazeds-4.7.3": "2017-04-01"
 },
 "flink": {
-"apache-flink-1.14.5": "2022-06-10",
+"apache-flink-1.14.6": "2022-09-10",
 "apache-flink-1.15.2": "2022-08-17",
-"apache-flink-libraries-1.14.5": "2022-06-10",
+"apache-flink-libraries-1.14.6": "2022-09-10",
 "apache-flink-libraries-1.15.2": "2022-08-17",
 "apache-flink-ml-2.0.0": "2021-12-30",
 "apache-flink-ml-2.1.0": "2022-07-01",
 "apache-flink-statefun-3.2.0": "2022-01-25",
-"flink-1.14.5": "2022-06-10",
+"flink-1.14.6": "2022-09-10",
 "flink-1.15.2": "2022-08-17",
 "flink-kubernetes-operator-1.0.1": "2022-06-23",
 "flink-kubernetes-operator-1.0.1-helm": "2022-06-23",
@@ -2902,10 +2900,12 @@
 "apache-qpid-jms-amqp-0-x-6.4.0": "2020-05-28",
 "apache-qpid-proton-j-0.34.0": "2022-08-30",
 "apache-qpid-protonj2-1.0.0-M8": "2022-08-23",
+"apache-qpid-protonj2-1.0.0-M9": "2022-09-20",
 "qpid-dispatch-1.19.0": "2022-03-17",
 "qpid-interop-test-0.3.0": "2021-11-05",
 "qpid-proton-0.37.0": "2022-03-15",
 "qpid-proton-dotnet-1.0.0-M3": "2022-08-08",
+"qpid-proton-dotnet-1.0.0-M4": "2022-09-21",
 "qpid-python-1.37.0": "2017-11-22"
 },
 "ranger": {
@@ -3475,6 +3475,7 @@
 "apache-superset-1.4.2": "2022-03-29",
 "apache-superset-1.5.0": "2022-04-28",
 "apache-superset-1.5.1": "2022-06-07",
+"apache-superset-1.5.2": "2022-09-27",
 "apache-superset-2.0.0": "2022-07-14"
 },
 "synapse": {
@@ -3530,8 +3531,8 @@
 },
 "tomcat": {
 "apache-tomcat-10.0.23": "2022-07-14",
+"apache-tomcat-10.0.26": "2022-09-23",
 "apache-tomcat-10.1.0": "2022-09-23",
-"apache-tomcat-10.1.0-M17": "2022-07-13",
 "apache-tomcat-8.5.82": "2022-08-08",
 "apache-tomcat-9.0.67": "2022-09-23",
 "jakartaee-migration-1.0.3": "2022-09-06",
