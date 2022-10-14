@@ -352,8 +352,8 @@
 "apache-calcite-1.32.0": "2022-09-10",
 "apache-calcite-avatica-1.21.0": "2022-05-08",
 "apache-calcite-avatica-1.22.0": "2022-07-27",
-"apache-calcite-avatica-go-5.0.0": "2020-07-14",
-"apache-calcite-avatica-go-5.1.0": "2022-03-27"
+"apache-calcite-avatica-go-5.1.0": "2022-03-27",
+"apache-calcite-avatica-go-5.2.0": "2022-10-13"
 },
 "camel": {
 "apache-camel-2.25.4": "2021-05-28",
@@ -365,8 +365,13 @@
 "apache-camel-3.19.0": "2022-10-03",
 "apache-camel-k-runtime-1.12.0": "2022-03-14",
 "apache-camel-k-runtime-1.13.0": "2022-04-19",
+"apache-camel-k-runtime-1.15.0": "2022-09-29",
 "apache-camel-quarkus-2.13.0": "2022-09-26",
 "apache-camel-quarkus-2.7.2": "2022-07-04",
+"camel-k-client-1.10.1-linux": "2022-10-10",
+"camel-k-client-1.10.1-mac": "2022-10-10",
+"camel-k-client-1.10.1-mac-arm64bit": "2022-10-10",
+"camel-k-client-1.10.1-windows": "2022-10-10",
 "camel-k-client-1.8.2-linux": "2022-03-03",
 "camel-k-client-1.8.2-mac": "2022-03-03",
 "camel-k-client-1.8.2-mac-arm64bit": "2022-03-03",
@@ -383,10 +388,12 @@
 "camel-k-client-1.9.2-mac": "2022-05-17",
 "camel-k-client-1.9.2-mac-arm64bit": "2022-05-17",
 "camel-k-client-1.9.2-windows": "2022-05-17",
+"camel-k-examples-1.10.1": "2022-10-10",
 "camel-k-examples-1.8.2": "2022-03-03",
 "camel-k-examples-1.9.0": "2022-04-21",
 "camel-k-examples-1.9.1": "2022-05-09",
 "camel-k-examples-1.9.2": "2022-05-17",
+"camel-k-sources-1.10.1": "2022-10-10",
 "camel-k-sources-1.8.2": "2022-03-14",
 "camel-k-sources-1.9.0": "2022-04-27",
 "camel-k-sources-1.9.1": "2022-05-09",
@@ -395,7 +402,8 @@
 "camel-kafka-connector-3.18.1": "2022-09-19",
 "camel-kamelets-sources-0.7.1": "2022-03-14",
 "camel-kamelets-sources-0.8.0": "2022-04-13",
-"camel-kamelets-sources-0.8.1": "2022-05-09"
+"camel-kamelets-sources-0.8.1": "2022-05-09",
+"camel-kamelets-sources-0.9.1": "2022-10-05"
 },
 "carbondata": {
 "apache-carbondata-1.5.4": "2019-05-29",
@@ -627,7 +635,6 @@
 "commons": {
 "CONTRIBUTING.md": "2020-07-19",
 "apache-commons-rdf-0.5.0": "2017-12-23",
-"bcel-6.5.0": "2020-06-08",
 "bcel-6.6.0": "2022-10-12",
 "bsf-2.4.0": "2013-03-03",
 "bsf-3.1": "2013-03-03",
@@ -1038,7 +1045,7 @@
 "flink-shaded-16.0": "2022-09-27",
 "flink-statefun-3.2.0": "2022-01-25",
 "flink-table-store-0.1.0": "2022-04-29",
-"flink-table-store-0.2.0": "2022-08-24",
+"flink-table-store-0.2.1": "2022-10-08",
 "index.yaml": "2022-07-20"
 },
 "flume": {
@@ -1330,11 +1337,13 @@
 "apache-nuttx-10.1.0-incubating": "2021-05-26",
 "apache-nuttx-10.2.0-incubating": "2021-11-23",
 "apache-nuttx-10.3.0-incubating": "2022-06-22",
+"apache-nuttx-11.0.0-incubating": "2022-10-13",
 "apache-nuttx-9.1.1-incubating": "2020-12-09",
 "apache-nuttx-apps-10.0.1-incubating": "2020-12-09",
 "apache-nuttx-apps-10.1.0-incubating": "2021-05-26",
 "apache-nuttx-apps-10.2.0-incubating": "2021-11-23",
 "apache-nuttx-apps-10.3.0-incubating": "2022-06-22",
+"apache-nuttx-apps-11.0.0-incubating": "2022-10-13",
 "apache-nuttx-apps-9.1.1-incubating": "2020-12-09"
 },
 "incubator-pagespeed": {
@@ -1364,8 +1373,8 @@
 "apache-spot-1.0-incubating": "2017-08-16"
 },
 "incubator-streampipes": {
-"RELEASE_VALIDATION.md": "2022-03-04",
-"apache-streampipes-0.69.0-incubating": "2022-03-04"
+"RELEASE_VALIDATION.md": "2022-09-07",
+"apache-streampipes-0.70.0-incubating": "2022-09-07"
 },
 "incubator-teaclave": {
 "apache-teaclave-0.3.0-incubating": "2021-08-23",
@@ -3029,7 +3038,7 @@
 "skywalking-4.3.0": "2022-09-17",
 "skywalking-banyandb-0.1.0": "2022-06-06",
 "skywalking-cli-0.11.0": "2022-09-17",
-"skywalking-client-js-0.8.0": "2022-04-07",
+"skywalking-client-js-0.9.0": "2022-10-10",
 "skywalking-e2e-1.0.0": "2021-09-12",
 "skywalking-e2e-1.1.0": "2021-11-07",
 "skywalking-e2e-1.2.0": "2022-07-04",

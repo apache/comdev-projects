@@ -1006,11 +1006,11 @@
 "apache-calcite-avatica-1.22.0": [
 "calcite/apache-calcite-avatica-1.22.0/apache-calcite-avatica-1.22.0-src.tar.gz"
 ],
-"apache-calcite-avatica-go-5.0.0": [
-"calcite/apache-calcite-avatica-go-5.0.0/apache-calcite-avatica-go-5.0.0-src.tar.gz"
-],
 "apache-calcite-avatica-go-5.1.0": [
 "calcite/apache-calcite-avatica-go-5.1.0/apache-calcite-avatica-go-5.1.0-src.tar.gz"
+],
+"apache-calcite-avatica-go-5.2.0": [
+"calcite/apache-calcite-avatica-go-5.2.0/apache-calcite-avatica-go-5.2.0-src.tar.gz"
 ]
 },
 "camel": {
@@ -1041,11 +1041,26 @@
 "apache-camel-k-runtime-1.13.0": [
 "camel/camel-k-runtime/1.13.0/apache-camel-k-runtime-1.13.0-source-release.zip"
 ],
+"apache-camel-k-runtime-1.15.0": [
+"camel/camel-k-runtime/1.15.0/apache-camel-k-runtime-1.15.0-source-release.zip"
+],
 "apache-camel-quarkus-2.13.0": [
 "camel/camel-quarkus/2.13.0/apache-camel-quarkus-2.13.0-src.zip"
 ],
 "apache-camel-quarkus-2.7.2": [
 "camel/camel-quarkus/2.7.2/apache-camel-quarkus-2.7.2-src.zip"
+],
+"camel-k-client-1.10.1-linux": [
+"camel/camel-k/1.10.1/camel-k-client-1.10.1-linux-64bit.tar.gz"
+],
+"camel-k-client-1.10.1-mac": [
+"camel/camel-k/1.10.1/camel-k-client-1.10.1-mac-64bit.tar.gz"
+],
+"camel-k-client-1.10.1-mac-arm64bit": [
+"camel/camel-k/1.10.1/camel-k-client-1.10.1-mac-arm64bit.tar.gz"
+],
+"camel-k-client-1.10.1-windows": [
+"camel/camel-k/1.10.1/camel-k-client-1.10.1-windows-64bit.tar.gz"
 ],
 "camel-k-client-1.8.2-linux": [
 "camel/camel-k/1.8.2/camel-k-client-1.8.2-linux-64bit.tar.gz"
@@ -1095,6 +1110,9 @@
 "camel-k-client-1.9.2-windows": [
 "camel/camel-k/1.9.2/camel-k-client-1.9.2-windows-64bit.tar.gz"
 ],
+"camel-k-examples-1.10.1": [
+"camel/camel-k/1.10.1/camel-k-examples-1.10.1.tar.gz"
+],
 "camel-k-examples-1.8.2": [
 "camel/camel-k/1.8.2/camel-k-examples-1.8.2.tar.gz"
 ],
@@ -1106,6 +1124,9 @@
 ],
 "camel-k-examples-1.9.2": [
 "camel/camel-k/1.9.2/camel-k-examples-1.9.2.tar.gz"
+],
+"camel-k-sources-1.10.1": [
+"camel/camel-k/1.10.1/camel-k-sources-1.10.1.tar.gz"
 ],
 "camel-k-sources-1.8.2": [
 "camel/camel-k/1.8.2/camel-k-sources-1.8.2.tar.gz"
@@ -1133,6 +1154,9 @@
 ],
 "camel-kamelets-sources-0.8.1": [
 "camel/camel-kamelets/0.8.1/camel-kamelets-sources-0.8.1.tar.gz"
+],
+"camel-kamelets-sources-0.9.1": [
+"camel/camel-kamelets/0.9.1/camel-kamelets-sources-0.9.1.tar.gz"
 ]
 },
 "carbondata": {
@@ -1923,10 +1947,6 @@
 ],
 "apache-commons-rdf-0.5.0": [
 "commons/rdf/source/apache-commons-rdf-0.5.0-source-release.zip"
-],
-"bcel-6.5.0": [
-"commons/bcel/source/bcel-6.5.0-src.tar.gz",
-"commons/bcel/source/bcel-6.5.0-src.zip"
 ],
 "bcel-6.6.0": [
 "commons/bcel/source/bcel-6.6.0-src.tar.gz",
@@ -3311,8 +3331,8 @@
 "flink-table-store-0.1.0": [
 "flink/flink-table-store-0.1.0/flink-table-store-0.1.0-src.tgz"
 ],
-"flink-table-store-0.2.0": [
-"flink/flink-table-store-0.2.0/flink-table-store-0.2.0-src.tgz"
+"flink-table-store-0.2.1": [
+"flink/flink-table-store-0.2.1/flink-table-store-0.2.1-src.tgz"
 ],
 "index.yaml": [
 "flink/flink-kubernetes-operator-1.1.0/index.yaml",
@@ -4141,6 +4161,9 @@
 "apache-nuttx-10.3.0-incubating": [
 "incubator/nuttx/10.3.0/apache-nuttx-10.3.0-incubating.tar.gz"
 ],
+"apache-nuttx-11.0.0-incubating": [
+"incubator/nuttx/11.0.0/apache-nuttx-11.0.0-incubating.tar.gz"
+],
 "apache-nuttx-9.1.1-incubating": [
 "incubator/nuttx/9.1.1/apache-nuttx-9.1.1-incubating.tar.gz"
 ],
@@ -4155,6 +4178,9 @@
 ],
 "apache-nuttx-apps-10.3.0-incubating": [
 "incubator/nuttx/10.3.0/apache-nuttx-apps-10.3.0-incubating.tar.gz"
+],
+"apache-nuttx-apps-11.0.0-incubating": [
+"incubator/nuttx/11.0.0/apache-nuttx-apps-11.0.0-incubating.tar.gz"
 ],
 "apache-nuttx-apps-9.1.1-incubating": [
 "incubator/nuttx/9.1.1/apache-nuttx-apps-9.1.1-incubating.tar.gz"
@@ -4216,10 +4242,10 @@
 },
 "incubator-streampipes": {
 "RELEASE_VALIDATION.md": [
-"incubator/streampipes/0.69.0/RELEASE_VALIDATION.md"
+"incubator/streampipes/0.70.0/RELEASE_VALIDATION.md"
 ],
-"apache-streampipes-0.69.0-incubating": [
-"incubator/streampipes/0.69.0/apache-streampipes-0.69.0-incubating-source-release.zip"
+"apache-streampipes-0.70.0-incubating": [
+"incubator/streampipes/0.70.0/apache-streampipes-0.70.0-incubating-source-release.zip"
 ]
 },
 "incubator-teaclave": {
@@ -9135,8 +9161,8 @@
 "skywalking-cli-0.11.0": [
 "skywalking/cli/0.11.0/skywalking-cli-0.11.0-src.tgz"
 ],
-"skywalking-client-js-0.8.0": [
-"skywalking/client-js/0.8.0/skywalking-client-js-0.8.0-src.tgz"
+"skywalking-client-js-0.9.0": [
+"skywalking/client-js/0.9.0/skywalking-client-js-0.9.0-src.tgz"
 ],
 "skywalking-e2e-1.0.0": [
 "skywalking/infra-e2e/1.0.0/skywalking-e2e-1.0.0-src.tgz"
