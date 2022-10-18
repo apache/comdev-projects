@@ -733,8 +733,8 @@
 "apache-arrow-object-store-rs-0.5.1": [
 "arrow/arrow-object-store-rs-0.5.1/apache-arrow-object-store-rs-0.5.1.tar.gz"
 ],
-"apache-arrow-rs-24.0.0": [
-"arrow/arrow-rs-24.0.0/apache-arrow-rs-24.0.0.tar.gz"
+"apache-arrow-rs-25.0.0": [
+"arrow/arrow-rs-25.0.0/apache-arrow-rs-25.0.0.tar.gz"
 ]
 },
 "asterixdb": {
@@ -871,6 +871,10 @@
 "apache-beam-2.41.0": [
 "beam/2.41.0/python/apache-beam-2.41.0.zip",
 "beam/2.41.0/apache-beam-2.41.0-source-release.zip"
+],
+"apache-beam-2.42.0": [
+"beam/2.42.0/python/apache-beam-2.42.0.zip",
+"beam/2.42.0/apache-beam-2.42.0-source-release.zip"
 ],
 "apache-beam-37fd13e738185822af132fe2e457b618e766802f": [
 "beam/vendor/beam-vendor-grpc-1_36_0/0.2/apache-beam-37fd13e738185822af132fe2e457b618e766802f-source-release.zip"
@@ -3945,14 +3949,14 @@
 ]
 },
 "iceberg": {
-"apache-iceberg-0.13.2": [
-"iceberg/apache-iceberg-0.13.2/apache-iceberg-0.13.2.tar.gz"
-],
-"apache-iceberg-0.14.0": [
-"iceberg/apache-iceberg-0.14.0/apache-iceberg-0.14.0.tar.gz"
-],
 "apache-iceberg-0.14.1": [
 "iceberg/apache-iceberg-0.14.1/apache-iceberg-0.14.1.tar.gz"
+],
+"apache-iceberg-1.0.0": [
+"iceberg/apache-iceberg-1.0.0/apache-iceberg-1.0.0.tar.gz"
+],
+"pyiceberg-0.1.0": [
+"iceberg/pyiceberg-0.1.0/pyiceberg-0.1.0.tar.gz"
 ]
 },
 "ignite": {
@@ -4320,9 +4324,6 @@
 "apache-iotdb-0.13.2": [
 "iotdb/0.13.2/apache-iotdb-0.13.2-source-release.zip"
 ],
-"apache-iotdb-0.14.0-preview2": [
-"iotdb/0.14.0-preview2/apache-iotdb-0.14.0-preview2-source-release.zip"
-],
 "apache-iotdb-0.14.0-preview3": [
 "iotdb/0.14.0-preview3/apache-iotdb-0.14.0-preview3-source-release.zip"
 ]
@@ -4382,8 +4383,8 @@
 "jackrabbit-jca-2.21.13": [
 "jackrabbit/2.21.13/jackrabbit-jca-2.21.13.rar"
 ],
-"jackrabbit-oak-1.22.12": [
-"jackrabbit/oak/1.22.12/jackrabbit-oak-1.22.12-src.zip"
+"jackrabbit-oak-1.22.13": [
+"jackrabbit/oak/1.22.13/jackrabbit-oak-1.22.13-src.zip"
 ],
 "jackrabbit-oak-1.4.26": [
 "jackrabbit/oak/1.4.26/jackrabbit-oak-1.4.26-src.zip"
@@ -8423,6 +8424,7 @@
 "phoenix/phoenix-4.16.1/RELEASENOTES.md",
 "phoenix/phoenix-5.1.2/RELEASENOTES.md",
 "phoenix/phoenix-omid-1.0.2/RELEASENOTES.md",
+"phoenix/phoenix-omid-1.1.0/RELEASENOTES.md",
 "phoenix/phoenix-queryserver-6.0.0/RELEASENOTES.md",
 "phoenix/phoenix-tephra-0.16.1/RELEASENOTES.md",
 "phoenix/phoenix-thirdparty-1.1.0/RELEASENOTES.md",
@@ -8436,6 +8438,9 @@
 ],
 "phoenix-omid-1.0.2": [
 "phoenix/phoenix-omid-1.0.2/phoenix-omid-1.0.2-src.tar.gz"
+],
+"phoenix-omid-1.1.0": [
+"phoenix/phoenix-omid-1.1.0/phoenix-omid-1.1.0-src.tar.gz"
 ],
 "phoenix-queryserver-6.0.0": [
 "phoenix/phoenix-queryserver-6.0.0/phoenix-queryserver-6.0.0-src.tar.gz"
@@ -9067,8 +9072,11 @@
 ]
 },
 "servicecomb": {
-"apache-servicecomb-java-chassis-distribution-2.7.10": [
-"servicecomb/servicecomb-java-chassis/2.7.10/apache-servicecomb-java-chassis-distribution-2.7.10-src.zip"
+"apache-servicecomb-java-chassis-distribution-1.3.9": [
+"servicecomb/servicecomb-java-chassis/1.3.9/apache-servicecomb-java-chassis-distribution-1.3.9-src.zip"
+],
+"apache-servicecomb-java-chassis-distribution-2.8.0": [
+"servicecomb/servicecomb-java-chassis/2.8.0/apache-servicecomb-java-chassis-distribution-2.8.0-src.zip"
 ],
 "apache-servicecomb-kie-0.2.0": [
 "servicecomb/servicecomb-kie/0.2.0/apache-servicecomb-kie-0.2.0-src.tar.gz"
@@ -9118,6 +9126,9 @@
 "shenyu": {
 "apache-shenyu-2.5.0": [
 "shenyu/2.5.0/apache-shenyu-2.5.0-src.zip"
+],
+"shenyu-client-golang-v1.0.0": [
+"shenyu/shenyu-client-golang/v1.0.0/shenyu-client-golang-v1.0.0-src.tar.gz"
 ]
 },
 "shiro": {
@@ -10595,9 +10606,9 @@
 "syncope/2.1.12/syncope-2.1.12-source-release.zip",
 "syncope/2.1.12/syncope-standalone-2.1.12-distribution.zip"
 ],
-"syncope-3.0.0-M0": [
-"syncope/3.0.0-M0/syncope-3.0.0-M0-source-release.zip",
-"syncope/3.0.0-M0/syncope-standalone-3.0.0-M0-distribution.zip"
+"syncope-3.0.0-M1": [
+"syncope/3.0.0-M1/syncope-3.0.0-M1-source-release.zip",
+"syncope/3.0.0-M1/syncope-standalone-3.0.0-M1-distribution.zip"
 ],
 "syncope-client-cli-2.1.12": [
 "syncope/2.1.12/syncope-client-cli-2.1.12.zip"
@@ -11145,6 +11156,9 @@
 ]
 },
 "tvm": {
+"apache-tvm-v0.10.0": [
+"tvm/tvm-v0.10.0/apache-tvm-src-v0.10.0.tar.gz"
+],
 "apache-tvm-v0.6.0-incubating": [
 "tvm/tvm-v0.6.0/apache-tvm-src-v0.6.0-incubating.tar.gz"
 ],
@@ -11407,11 +11421,11 @@
 "xerces/j/source/Xerces-J-tools.2.12.2-xml-schema-1.1.tar.gz",
 "xerces/j/source/Xerces-J-tools.2.12.2-xml-schema-1.1.zip"
 ],
-"xerces-c-3.2.3": [
-"xerces/c/3/sources/xerces-c-3.2.3.tar.bz2",
-"xerces/c/3/sources/xerces-c-3.2.3.tar.gz",
-"xerces/c/3/sources/xerces-c-3.2.3.tar.xz",
-"xerces/c/3/sources/xerces-c-3.2.3.zip"
+"xerces-c-3.2.4": [
+"xerces/c/3/sources/xerces-c-3.2.4.tar.bz2",
+"xerces/c/3/sources/xerces-c-3.2.4.tar.gz",
+"xerces/c/3/sources/xerces-c-3.2.4.tar.xz",
+"xerces/c/3/sources/xerces-c-3.2.4.zip"
 ],
 "xml-commons-external-1.2.06": [
 "xerces/xml-commons/source/xml-commons-external-1.2.06-src.tar.gz",
