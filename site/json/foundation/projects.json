@@ -1,35 +1,4 @@
 {
-"Unknown-flex": {
-"bug-database": "https://issues.apache.org/jira/browse/FLEX",
-"category": "web-framework",
-"created": "2013-01-06",
-"description": "Apache Flex® is a highly productive, open source application framework for building and maintaining expressive web applications that deploy consistently on all major browsers, desktops and devices (including smartphones, tablets and tv). It provides a modern, standards-based language and programming model that supports common design patterns suitable for developers from many backgrounds. Flex applications can be deployed to the ubiquitous Adobe® Flash® Player in the browser, Adobe® AIR™ on desktop and mobile or to native Android™, IOS™, QNX®, Windows® or Mac® applications.",
-"doap": "http://flex.apache.org/doap_Flex.rdf",
-"download-page": "http://flex.apache.org/download-source.html",
-"homepage": "http://flex.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://flex.apache.org/community-mailinglists.html",
-"maintainer": [
-{
-"mbox": "mailto:aharui@apache.org",
-"name": "Alex Harui"
-}
-],
-"name": "Apache Flex",
-"pmc": "Unknown",
-"programming-language": "ActionScript",
-"release": [
-{
-"created": "2016-01-11",
-"name": "Apache Flex SDK 4.15.0",
-"revision": "4.15.0"
-}
-],
-"repository": [
-"https://git-wip-us.apache.org/repos/asf/flex-sdk.git"
-],
-"shortdesc": "Apache Flex® is a highly productive, open source application framework for building and maintaining expressive web applications that deploy consistently on all major browsers, desktops and devices (including smartphones, tablets and tv)."
-},
 "accumulo": {
 "bug-database": "https://github.com/apache/accumulo/issues",
 "category": "big-data",
@@ -7777,6 +7746,37 @@
 ],
 "shortdesc": "OSGi framework implementation and related technologies."
 },
+"flex": {
+"bug-database": "https://issues.apache.org/jira/browse/FLEX",
+"category": "web-framework",
+"created": "2013-01-06",
+"description": "Apache Flex® is a highly productive, open source application framework for building and maintaining expressive web applications that deploy consistently on all major browsers, desktops and devices (including smartphones, tablets and tv). It provides a modern, standards-based language and programming model that supports common design patterns suitable for developers from many backgrounds. Flex applications can be deployed to the ubiquitous Adobe® Flash® Player in the browser, Adobe® AIR™ on desktop and mobile or to native Android™, IOS™, QNX®, Windows® or Mac® applications.",
+"doap": "http://flex.apache.org/doap_Flex.rdf",
+"download-page": "http://flex.apache.org/download-source.html",
+"homepage": "http://flex.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://flex.apache.org/community-mailinglists.html",
+"maintainer": [
+{
+"mbox": "mailto:aharui@apache.org",
+"name": "Alex Harui"
+}
+],
+"name": "Apache Flex",
+"pmc": "flex",
+"programming-language": "ActionScript",
+"release": [
+{
+"created": "2016-01-11",
+"name": "Apache Flex SDK 4.15.0",
+"revision": "4.15.0"
+}
+],
+"repository": [
+"https://git-wip-us.apache.org/repos/asf/flex-sdk.git"
+],
+"shortdesc": "Apache Flex® is a highly productive, open source application framework for building and maintaining expressive web applications that deploy consistently on all major browsers, desktops and devices (including smartphones, tablets and tv)."
+},
 "flink": {
 "bug-database": "https://issues.apache.org/jira/browse/FLINK",
 "category": "big-data",
@@ -14708,6 +14708,31 @@
 "https://svn.apache.org/repos/asf/santuario"
 ],
 "shortdesc": "Library implementing XML Digital Signature Specification & XML Encryption Specification"
+},
+"serf": {
+"bug-database": "https://issues.apache.org/jira/browse/SERF/",
+"category": "library",
+"created": "2015-08-19",
+"description": "The serf library is a high performance C-based HTTP client library built upon the Apache Portable Runtime (APR) library",
+"doap": "http://serf.apache.org/doap.rdf",
+"download-page": "http://serf.apache.org/download",
+"homepage": "http://serf.apache.org/",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://serf.apache.org/contribute#mailing-lists",
+"name": "Apache Serf",
+"pmc": "serf",
+"programming-language": "C",
+"release": [
+{
+"created": "2016-09-01",
+"name": "Recommended current 1.3 release",
+"revision": "1.3.9"
+}
+],
+"repository": [
+"http://svn.apache.org/repos/asf/serf/trunk"
+],
+"shortdesc": "High performance C-based HTTP client library built upon the Apache Portable Runtime (APR) library."
 },
 "servicemix": {
 "bug-database": "http://issues.apache.org/activemq/browse/SM",
