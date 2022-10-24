@@ -1299,14 +1299,14 @@
 "apache-cassandra-2.2.19": [
 "cassandra/2.2.19/apache-cassandra-2.2.19-src.tar.gz"
 ],
-"apache-cassandra-3.0.27": [
-"cassandra/3.0.27/apache-cassandra-3.0.27-src.tar.gz"
+"apache-cassandra-3.0.28": [
+"cassandra/3.0.28/apache-cassandra-3.0.28-src.tar.gz"
 ],
-"apache-cassandra-3.11.13": [
-"cassandra/3.11.13/apache-cassandra-3.11.13-src.tar.gz"
+"apache-cassandra-3.11.14": [
+"cassandra/3.11.14/apache-cassandra-3.11.14-src.tar.gz"
 ],
-"apache-cassandra-4.0.6": [
-"cassandra/4.0.6/apache-cassandra-4.0.6-src.tar.gz"
+"apache-cassandra-4.0.7": [
+"cassandra/4.0.7/apache-cassandra-4.0.7-src.tar.gz"
 ],
 "apache-cassandra-4.1-beta1": [
 "cassandra/4.1-beta1/apache-cassandra-4.1-beta1-src.tar.gz"
@@ -1407,7 +1407,6 @@
 "cassandra/debian/pool/main/c/cassandra/cassandra-tools_3.0.26_all.deb"
 ],
 "cassandra-tools_3.0.27_all": [
-"cassandra/3.0.27/debian/cassandra-tools_3.0.27_all.deb",
 "cassandra/debian/pool/main/c/cassandra/cassandra-tools_3.0.27_all.deb"
 ],
 "cassandra-tools_3.11.10_all": [
@@ -1420,7 +1419,6 @@
 "cassandra/debian/pool/main/c/cassandra/cassandra-tools_3.11.12_all.deb"
 ],
 "cassandra-tools_3.11.13_all": [
-"cassandra/3.11.13/debian/cassandra-tools_3.11.13_all.deb",
 "cassandra/debian/pool/main/c/cassandra/cassandra-tools_3.11.13_all.deb"
 ],
 "cassandra-tools_3.11.6_all": [
@@ -1601,15 +1599,12 @@
 "cassandra/debian/pool/main/c/cassandra/cassandra_3.0.26_all.deb"
 ],
 "cassandra_3.0.27": [
-"cassandra/3.0.27/debian/cassandra_3.0.27.tar.gz",
 "cassandra/debian/pool/main/c/cassandra/cassandra_3.0.27.tar.gz"
 ],
 "cassandra_3.0.27.dsc": [
-"cassandra/3.0.27/debian/cassandra_3.0.27.dsc",
 "cassandra/debian/pool/main/c/cassandra/cassandra_3.0.27.dsc"
 ],
 "cassandra_3.0.27_all": [
-"cassandra/3.0.27/debian/cassandra_3.0.27_all.deb",
 "cassandra/debian/pool/main/c/cassandra/cassandra_3.0.27_all.deb"
 ],
 "cassandra_3.11.10": [
@@ -1640,15 +1635,12 @@
 "cassandra/debian/pool/main/c/cassandra/cassandra_3.11.12_all.deb"
 ],
 "cassandra_3.11.13": [
-"cassandra/3.11.13/debian/cassandra_3.11.13.tar.gz",
 "cassandra/debian/pool/main/c/cassandra/cassandra_3.11.13.tar.gz"
 ],
 "cassandra_3.11.13.dsc": [
-"cassandra/3.11.13/debian/cassandra_3.11.13.dsc",
 "cassandra/debian/pool/main/c/cassandra/cassandra_3.11.13.dsc"
 ],
 "cassandra_3.11.13_all": [
-"cassandra/3.11.13/debian/cassandra_3.11.13_all.deb",
 "cassandra/debian/pool/main/c/cassandra/cassandra_3.11.13_all.deb"
 ],
 "cassandra_3.11.6": [
@@ -2624,6 +2616,9 @@
 ],
 "apache-dolphinscheduler-2.0.6": [
 "dolphinscheduler/2.0.6/apache-dolphinscheduler-2.0.6-src.tar.gz"
+],
+"apache-dolphinscheduler-2.0.7": [
+"dolphinscheduler/2.0.7/apache-dolphinscheduler-2.0.7-src.tar.gz"
 ],
 "apache-dolphinscheduler-3.0.0": [
 "dolphinscheduler/3.0.0/apache-dolphinscheduler-3.0.0-src.tar.gz"
@@ -4667,21 +4662,21 @@
 "karaf/4.2.16/apache-karaf-minimal-4.2.16.tar.gz",
 "karaf/4.2.16/apache-karaf-minimal-4.2.16.zip"
 ],
-"apache-karaf-4.3.7": [
-"karaf/4.3.7/apache-karaf-4.3.7-src.tar.gz",
-"karaf/4.3.7/apache-karaf-4.3.7-src.zip",
-"karaf/4.3.7/apache-karaf-4.3.7.tar.gz",
-"karaf/4.3.7/apache-karaf-4.3.7.zip",
-"karaf/4.3.7/apache-karaf-minimal-4.3.7.tar.gz",
-"karaf/4.3.7/apache-karaf-minimal-4.3.7.zip"
+"apache-karaf-4.3.8": [
+"karaf/4.3.8/apache-karaf-4.3.8-src.tar.gz",
+"karaf/4.3.8/apache-karaf-4.3.8-src.zip",
+"karaf/4.3.8/apache-karaf-4.3.8.tar.gz",
+"karaf/4.3.8/apache-karaf-4.3.8.zip",
+"karaf/4.3.8/apache-karaf-minimal-4.3.8.tar.gz",
+"karaf/4.3.8/apache-karaf-minimal-4.3.8.zip"
 ],
-"apache-karaf-4.4.1": [
-"karaf/4.4.1/apache-karaf-4.4.1-src.tar.gz",
-"karaf/4.4.1/apache-karaf-4.4.1-src.zip",
-"karaf/4.4.1/apache-karaf-4.4.1.tar.gz",
-"karaf/4.4.1/apache-karaf-4.4.1.zip",
-"karaf/4.4.1/apache-karaf-minimal-4.4.1.tar.gz",
-"karaf/4.4.1/apache-karaf-minimal-4.4.1.zip"
+"apache-karaf-4.4.2": [
+"karaf/4.4.2/apache-karaf-4.4.2-src.tar.gz",
+"karaf/4.4.2/apache-karaf-4.4.2-src.zip",
+"karaf/4.4.2/apache-karaf-4.4.2.tar.gz",
+"karaf/4.4.2/apache-karaf-4.4.2.zip",
+"karaf/4.4.2/apache-karaf-minimal-4.4.2.tar.gz",
+"karaf/4.4.2/apache-karaf-minimal-4.4.2.zip"
 ],
 "apache-karaf-cave-3.0.0": [
 "karaf/cave/3.0.0/apache-karaf-cave-3.0.0-src.tar.gz",
@@ -9284,6 +9279,9 @@
 ],
 "apache-shardingsphere-elasticjob-3.0.1-ui": [
 "shardingsphere/elasticjob-ui-3.0.1/apache-shardingsphere-elasticjob-3.0.1-ui-src.zip"
+],
+"apache-shardingsphere-elasticjob-3.0.2": [
+"shardingsphere/elasticjob-3.0.2/apache-shardingsphere-elasticjob-3.0.2-src.zip"
 ]
 },
 "shenyu": {
