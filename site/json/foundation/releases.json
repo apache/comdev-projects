@@ -1061,7 +1061,7 @@
 "index.yaml": "2022-07-20"
 },
 "flume": {
-"apache-flume-1.10.1": "2022-08-20"
+"apache-flume-1.11.0": "2022-10-25"
 },
 "fluo": {
 "build-resources-2.0.0": "2017-09-14",
@@ -1285,7 +1285,8 @@
 "incubator-brpc": {
 "apache-brpc-1.0.0-incubating": "2021-10-31",
 "apache-brpc-1.1.0-incubating": "2022-03-29",
-"apache-brpc-1.2.0-incubating": "2022-07-11"
+"apache-brpc-1.2.0-incubating": "2022-07-11",
+"apache-brpc-1.3.0-incubating": "2022-10-11"
 },
 "incubator-datalab": {
 "apache-datalab-2.5.1-incubating": "2021-11-24"
@@ -1327,7 +1328,7 @@
 "apache-liminal-0.0.4-incubating": "2022-03-06"
 },
 "incubator-linkis": {
-"apache-linkis-1.2.0-incubating": "2022-08-20"
+"apache-linkis-1.3.0-incubating": "2022-10-17"
 },
 "incubator-livy": {
 "apache-livy-0.6.0-incubating": "2019-03-19",
@@ -1595,7 +1596,6 @@
 },
 "lucene": {
 "lucene-8.11.2": "2022-06-13",
-"lucene-9.4.0": "2022-09-27",
 "lucene-9.4.1": "2022-10-20",
 "pylucene-7.7.1": "2019-06-03",
 "pylucene-8.11.0": "2021-12-15",
@@ -2805,7 +2805,8 @@
 "phoenix-thirdparty-1.1.0": "2021-01-29",
 "phoenix-thirdparty-2.0.0": "2022-04-11",
 "python-phoenixdb-1.1.0": "2021-08-18",
-"python-phoenixdb-1.2.0": "2022-07-12"
+"python-phoenixdb-1.2.0": "2022-07-12",
+"python-phoenixdb-1.2.1": "2022-10-13"
 },
 "pig": {
 "pig-0.16.0": "2016-06-07",
@@ -3059,8 +3060,7 @@
 "serf-1.3.9": "2016-08-31"
 },
 "servicecomb": {
-"apache-servicecomb-java-chassis-distribution-1.3.9": "2022-10-17",
-"apache-servicecomb-java-chassis-distribution-2.8.0": "2022-10-17",
+"apache-servicecomb-java-chassis-distribution-2.8.1": "2022-10-25",
 "apache-servicecomb-kie-0.2.0": "2021-02-23",
 "apache-servicecomb-kie-0.2.0-linux-arm64": "2021-02-23",
 "apache-servicecomb-mesher-1.6.3": "2019-09-09",
@@ -3523,12 +3523,15 @@
 "SparkR_3.1.3": "2022-02-06",
 "SparkR_3.2.2": "2022-07-11",
 "SparkR_3.3.0": "2022-06-09",
+"SparkR_3.3.1": "2022-10-15",
 "pyspark-3.1.3": "2022-02-06",
 "pyspark-3.2.2": "2022-07-11",
 "pyspark-3.3.0": "2022-06-09",
+"pyspark-3.3.1": "2022-10-15",
 "spark-3.1.3": "2022-02-06",
 "spark-3.2.2": "2022-07-11",
-"spark-3.3.0": "2022-06-09"
+"spark-3.3.0": "2022-06-09",
+"spark-3.3.1": "2022-10-15"
 },
 "storm": {
 "apache-storm-1.2.4": "2021-10-01",
@@ -3830,7 +3833,7 @@
 "xml-commons-resolver-1.2": "2014-10-30"
 },
 "xmlgraphics": {
-"batik-1.15": "2022-09-22",
+"batik-1.16": "2022-10-25",
 "fop-2.7": "2022-01-20",
 "fop-pdf-images-2.7": "2022-01-20",
 "xmlgraphics-commons-2.7": "2022-01-20"
