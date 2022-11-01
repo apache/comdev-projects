@@ -363,7 +363,7 @@
 "apache-camel-3.14.5": "2022-08-20",
 "apache-camel-3.16.0": "2022-03-28",
 "apache-camel-3.17.0": "2022-05-19",
-"apache-camel-3.18.2": "2022-09-08",
+"apache-camel-3.18.3": "2022-10-31",
 "apache-camel-3.19.0": "2022-10-03",
 "apache-camel-k-runtime-1.12.0": "2022-03-14",
 "apache-camel-k-runtime-1.13.0": "2022-04-19",
@@ -660,6 +660,7 @@
 "commons-collections4-4.2": "2018-07-11",
 "commons-collections4-4.4": "2019-07-09",
 "commons-compress-1.21": "2021-07-12",
+"commons-compress-1.22": "2022-10-31",
 "commons-configuration-1.10": "2013-10-28",
 "commons-configuration2-2.8.0": "2022-07-04",
 "commons-crypto-1.1.0": "2020-09-01",
@@ -1388,7 +1389,8 @@
 "apache-seatunnel-incubating-2.1.1": "2022-04-18",
 "apache-seatunnel-incubating-2.1.2": "2022-06-07",
 "apache-seatunnel-incubating-2.1.3": "2022-07-27",
-"apache-seatunnel-incubating-2.2.0-beta": "2022-09-26"
+"apache-seatunnel-incubating-2.2.0-beta": "2022-09-26",
+"apache-seatunnel-incubating-2.3.0-beta": "2022-10-24"
 },
 "incubator-sedona": {
 "apache-sedona-1.2.0-incubating": "2022-04-15",
@@ -2994,6 +2996,7 @@
 "apache-qpid-jms-2.1.0": "2022-09-16",
 "apache-qpid-jms-amqp-0-x-6.4.0": "2020-05-28",
 "apache-qpid-proton-j-0.34.0": "2022-08-30",
+"apache-qpid-protonj2-1.0.0-M10": "2022-10-26",
 "apache-qpid-protonj2-1.0.0-M8": "2022-08-23",
 "apache-qpid-protonj2-1.0.0-M9": "2022-09-20",
 "qpid-dispatch-1.19.0": "2022-03-17",
@@ -3087,7 +3090,8 @@
 "apache-shardingsphere-5.2.1": "2022-10-15",
 "apache-shardingsphere-elasticjob-3.0.1": "2021-10-04",
 "apache-shardingsphere-elasticjob-3.0.1-ui": "2021-12-27",
-"apache-shardingsphere-elasticjob-3.0.2": "2022-10-18"
+"apache-shardingsphere-elasticjob-3.0.2": "2022-10-18",
+"apache-shardingsphere-elasticjob-3.0.2-ui": "2022-10-26"
 },
 "shenyu": {
 "apache-shenyu-2.5.0": "2022-08-20",
@@ -3236,7 +3240,7 @@
 "org.apache.sling.discovery.base-2.0.14": "2022-08-03",
 "org.apache.sling.discovery.commons-1.0.28": "2022-08-03",
 "org.apache.sling.discovery.impl-1.2.12": "2017-05-11",
-"org.apache.sling.discovery.oak-1.2.40": "2022-08-03",
+"org.apache.sling.discovery.oak-1.2.42": "2022-10-31",
 "org.apache.sling.discovery.standalone-1.0.2": "2016-01-03",
 "org.apache.sling.discovery.support-1.0.6": "2020-08-18",
 "org.apache.sling.distribution.api-0.7.0": "2022-04-29",
@@ -3259,10 +3263,10 @@
 "org.apache.sling.extensions.threaddump-0.2.2": "2013-01-21",
 "org.apache.sling.extensions.webconsolebranding-1.0.2": "2017-05-22",
 "org.apache.sling.extensions.webconsolesecurityprovider-1.2.6": "2022-08-04",
-"org.apache.sling.feature-1.2.30": "2022-01-15",
+"org.apache.sling.feature-1.3.0": "2022-10-31",
 "org.apache.sling.feature.analyser-1.6.8": "2022-09-23",
 "org.apache.sling.feature.apiregions-1.1.8": "2021-06-08",
-"org.apache.sling.feature.cpconverter-1.1.20": "2022-10-16",
+"org.apache.sling.feature.cpconverter-1.1.22": "2022-10-31",
 "org.apache.sling.feature.diff-0.0.6": "2020-01-24",
 "org.apache.sling.feature.extension.apiregions-1.6.2": "2022-06-16",
 "org.apache.sling.feature.extension.content-1.0.10": "2021-03-16",
@@ -3488,7 +3492,7 @@
 "org.apache.sling.validation.api-1.0.0": "2017-04-12",
 "org.apache.sling.validation.core-1.0.4": "2017-12-21",
 "org.apache.sling.validation.test-services-1.0.4": "2017-12-21",
-"org.apache.sling.xss-2.3.0": "2022-10-04",
+"org.apache.sling.xss-2.3.2": "2022-10-31",
 "org.apache.sling.xss.compat-1.1.0": "2017-05-11",
 "scriptingbundle-maven-plugin-0.5.2": "2021-12-21",
 "sling-49": "2022-08-08",
@@ -3589,7 +3593,7 @@
 "apache-syncope-enduser-2.1.12": "2022-08-05",
 "org.apache.syncope.ide.eclipse.site-2.1.12": "2022-08-05",
 "syncope-2.1.12": "2022-08-05",
-"syncope-3.0.0-M1": "2022-10-14",
+"syncope-3.0.0-M2": "2022-10-27",
 "syncope-client-cli-2.1.12": "2022-08-05",
 "syncope-core-upgrade-2.1.12": "2022-08-05",
 "syncope-ide-netbeans-2.1.12.nbm": "2022-08-05"
@@ -3767,6 +3771,7 @@
 "uimaj-2.11.0": "2021-06-09",
 "uimaj-3.2.0": "2021-04-28",
 "uimaj-3.3.0": "2022-04-29",
+"uimaj-3.3.1": "2022-10-19",
 "uimaj-io-json-0.4.0": "2022-07-13"
 },
 "unomi": {
