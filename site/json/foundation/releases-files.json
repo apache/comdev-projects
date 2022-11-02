@@ -6,6 +6,9 @@
 "accumulo-2.0.1": [
 "accumulo/2.0.1/accumulo-2.0.1-src.tar.gz"
 ],
+"accumulo-2.1.0": [
+"accumulo/2.1.0/accumulo-2.1.0-src.tar.gz"
+],
 "accumulo2-maven-plugin-1.0.0": [
 "accumulo/accumulo2-maven-plugin/1.0.0/accumulo2-maven-plugin-1.0.0-source-release.tar.gz"
 ]
@@ -2026,10 +2029,6 @@
 "commons/collections/source/commons-collections4-4.4-src.tar.gz",
 "commons/collections/source/commons-collections4-4.4-src.zip"
 ],
-"commons-compress-1.21": [
-"commons/compress/source/commons-compress-1.21-src.tar.gz",
-"commons/compress/source/commons-compress-1.21-src.zip"
-],
 "commons-compress-1.22": [
 "commons/compress/source/commons-compress-1.22-src.tar.gz",
 "commons/compress/source/commons-compress-1.22-src.zip"
@@ -2156,9 +2155,9 @@
 "commons/net/source/commons-net-3.8.0-src.tar.gz",
 "commons/net/source/commons-net-3.8.0-src.zip"
 ],
-"commons-numbers-1.0": [
-"commons/numbers/source/commons-numbers-1.0-src.tar.gz",
-"commons/numbers/source/commons-numbers-1.0-src.zip"
+"commons-numbers-1.1": [
+"commons/numbers/source/commons-numbers-1.1-src.tar.gz",
+"commons/numbers/source/commons-numbers-1.1-src.zip"
 ],
 "commons-pool2-2.11.1": [
 "commons/pool/source/commons-pool2-2.11.1-src.tar.gz",
@@ -3894,6 +3893,9 @@
 ],
 "httpcomponents-12": [
 "httpcomponents/httpcomponents-parent/httpcomponents-parent-12-source-release.zip"
+],
+"httpcomponents-13": [
+"httpcomponents/httpcomponents-parent/httpcomponents-parent-13-source-release.zip"
 ],
 "httpcomponents-asyncclient-4.1.4": [
 "httpcomponents/httpasyncclient/source/httpcomponents-asyncclient-4.1.4-src.tar.gz",
@@ -8732,21 +8734,16 @@
 "pulsar/pulsar-client-cpp-3.0.0/apk-x86_64/x86_64/APKINDEX.tar.gz"
 ],
 "Packages": [
-"pulsar/pulsar-2.10.1/DEB/Packages.gz",
 "pulsar/pulsar-2.10.2/DEB/Packages.gz",
 "pulsar/pulsar-2.8.4/DEB/Packages.gz",
 "pulsar/pulsar-client-cpp-3.0.0/deb-arm64/Packages.gz",
 "pulsar/pulsar-client-cpp-3.0.0/deb-x86_64/Packages.gz"
 ],
 "apache-pulsar": [
-"pulsar/pulsar-2.10.1/DEB/apache-pulsar-client.deb",
 "pulsar/pulsar-2.10.2/DEB/apache-pulsar-client.deb",
 "pulsar/pulsar-2.8.4/DEB/apache-pulsar-client.deb",
 "pulsar/pulsar-client-cpp-3.0.0/deb-arm64/apache-pulsar-client.deb",
 "pulsar/pulsar-client-cpp-3.0.0/deb-x86_64/apache-pulsar-client.deb"
-],
-"apache-pulsar-2.10.1": [
-"pulsar/pulsar-2.10.1/apache-pulsar-2.10.1-src.tar.gz"
 ],
 "apache-pulsar-2.10.2": [
 "pulsar/pulsar-2.10.2/apache-pulsar-2.10.2-src.tar.gz"
@@ -8771,7 +8768,6 @@
 "pulsar/pulsar-client-cpp-3.0.0/rpm-arm64/aarch64/apache-pulsar-client-debuginfo-3.0.0-1.aarch64.rpm"
 ],
 "apache-pulsar-client-dev": [
-"pulsar/pulsar-2.10.1/DEB/apache-pulsar-client-dev.deb",
 "pulsar/pulsar-2.10.2/DEB/apache-pulsar-client-dev.deb",
 "pulsar/pulsar-2.8.4/DEB/apache-pulsar-client-dev.deb",
 "pulsar/pulsar-client-cpp-3.0.0/deb-arm64/apache-pulsar-client-dev.deb",
@@ -8796,23 +8792,14 @@
 "pulsar-client-node-1.7.0": [
 "pulsar/pulsar-client-node/pulsar-client-node-1.7.0/pulsar-client-node-1.7.0.tar.gz"
 ],
-"pulsar-io-aerospike-2.10.1.nar": [
-"pulsar/pulsar-2.10.1/connectors/pulsar-io-aerospike-2.10.1.nar"
-],
 "pulsar-io-aerospike-2.10.2.nar": [
 "pulsar/pulsar-2.10.2/connectors/pulsar-io-aerospike-2.10.2.nar"
 ],
 "pulsar-io-aerospike-2.8.4.nar": [
 "pulsar/pulsar-2.8.4/connectors/pulsar-io-aerospike-2.8.4.nar"
 ],
-"pulsar-io-batch-data-generator-2.10.1.nar": [
-"pulsar/pulsar-2.10.1/connectors/pulsar-io-batch-data-generator-2.10.1.nar"
-],
 "pulsar-io-batch-data-generator-2.10.2.nar": [
 "pulsar/pulsar-2.10.2/connectors/pulsar-io-batch-data-generator-2.10.2.nar"
-],
-"pulsar-io-canal-2.10.1.nar": [
-"pulsar/pulsar-2.10.1/connectors/pulsar-io-canal-2.10.1.nar"
 ],
 "pulsar-io-canal-2.10.2.nar": [
 "pulsar/pulsar-2.10.2/connectors/pulsar-io-canal-2.10.2.nar"
@@ -8820,17 +8807,11 @@
 "pulsar-io-canal-2.8.4.nar": [
 "pulsar/pulsar-2.8.4/connectors/pulsar-io-canal-2.8.4.nar"
 ],
-"pulsar-io-cassandra-2.10.1.nar": [
-"pulsar/pulsar-2.10.1/connectors/pulsar-io-cassandra-2.10.1.nar"
-],
 "pulsar-io-cassandra-2.10.2.nar": [
 "pulsar/pulsar-2.10.2/connectors/pulsar-io-cassandra-2.10.2.nar"
 ],
 "pulsar-io-cassandra-2.8.4.nar": [
 "pulsar/pulsar-2.8.4/connectors/pulsar-io-cassandra-2.8.4.nar"
-],
-"pulsar-io-data-generator-2.10.1.nar": [
-"pulsar/pulsar-2.10.1/connectors/pulsar-io-data-generator-2.10.1.nar"
 ],
 "pulsar-io-data-generator-2.10.2.nar": [
 "pulsar/pulsar-2.10.2/connectors/pulsar-io-data-generator-2.10.2.nar"
@@ -8838,23 +8819,14 @@
 "pulsar-io-data-generator-2.8.4.nar": [
 "pulsar/pulsar-2.8.4/connectors/pulsar-io-data-generator-2.8.4.nar"
 ],
-"pulsar-io-debezium-mongodb-2.10.1.nar": [
-"pulsar/pulsar-2.10.1/connectors/pulsar-io-debezium-mongodb-2.10.1.nar"
-],
 "pulsar-io-debezium-mongodb-2.10.2.nar": [
 "pulsar/pulsar-2.10.2/connectors/pulsar-io-debezium-mongodb-2.10.2.nar"
 ],
 "pulsar-io-debezium-mongodb-2.8.4.nar": [
 "pulsar/pulsar-2.8.4/connectors/pulsar-io-debezium-mongodb-2.8.4.nar"
 ],
-"pulsar-io-debezium-mssql-2.10.1.nar": [
-"pulsar/pulsar-2.10.1/connectors/pulsar-io-debezium-mssql-2.10.1.nar"
-],
 "pulsar-io-debezium-mssql-2.10.2.nar": [
 "pulsar/pulsar-2.10.2/connectors/pulsar-io-debezium-mssql-2.10.2.nar"
-],
-"pulsar-io-debezium-mysql-2.10.1.nar": [
-"pulsar/pulsar-2.10.1/connectors/pulsar-io-debezium-mysql-2.10.1.nar"
 ],
 "pulsar-io-debezium-mysql-2.10.2.nar": [
 "pulsar/pulsar-2.10.2/connectors/pulsar-io-debezium-mysql-2.10.2.nar"
@@ -8862,14 +8834,8 @@
 "pulsar-io-debezium-mysql-2.8.4.nar": [
 "pulsar/pulsar-2.8.4/connectors/pulsar-io-debezium-mysql-2.8.4.nar"
 ],
-"pulsar-io-debezium-oracle-2.10.1.nar": [
-"pulsar/pulsar-2.10.1/connectors/pulsar-io-debezium-oracle-2.10.1.nar"
-],
 "pulsar-io-debezium-oracle-2.10.2.nar": [
 "pulsar/pulsar-2.10.2/connectors/pulsar-io-debezium-oracle-2.10.2.nar"
-],
-"pulsar-io-debezium-postgres-2.10.1.nar": [
-"pulsar/pulsar-2.10.1/connectors/pulsar-io-debezium-postgres-2.10.1.nar"
 ],
 "pulsar-io-debezium-postgres-2.10.2.nar": [
 "pulsar/pulsar-2.10.2/connectors/pulsar-io-debezium-postgres-2.10.2.nar"
@@ -8877,17 +8843,11 @@
 "pulsar-io-debezium-postgres-2.8.4.nar": [
 "pulsar/pulsar-2.8.4/connectors/pulsar-io-debezium-postgres-2.8.4.nar"
 ],
-"pulsar-io-dynamodb-2.10.1.nar": [
-"pulsar/pulsar-2.10.1/connectors/pulsar-io-dynamodb-2.10.1.nar"
-],
 "pulsar-io-dynamodb-2.10.2.nar": [
 "pulsar/pulsar-2.10.2/connectors/pulsar-io-dynamodb-2.10.2.nar"
 ],
 "pulsar-io-dynamodb-2.8.4.nar": [
 "pulsar/pulsar-2.8.4/connectors/pulsar-io-dynamodb-2.8.4.nar"
-],
-"pulsar-io-elastic-search-2.10.1.nar": [
-"pulsar/pulsar-2.10.1/connectors/pulsar-io-elastic-search-2.10.1.nar"
 ],
 "pulsar-io-elastic-search-2.10.2.nar": [
 "pulsar/pulsar-2.10.2/connectors/pulsar-io-elastic-search-2.10.2.nar"
@@ -8895,17 +8855,11 @@
 "pulsar-io-elastic-search-2.8.4.nar": [
 "pulsar/pulsar-2.8.4/connectors/pulsar-io-elastic-search-2.8.4.nar"
 ],
-"pulsar-io-file-2.10.1.nar": [
-"pulsar/pulsar-2.10.1/connectors/pulsar-io-file-2.10.1.nar"
-],
 "pulsar-io-file-2.10.2.nar": [
 "pulsar/pulsar-2.10.2/connectors/pulsar-io-file-2.10.2.nar"
 ],
 "pulsar-io-file-2.8.4.nar": [
 "pulsar/pulsar-2.8.4/connectors/pulsar-io-file-2.8.4.nar"
-],
-"pulsar-io-flume-2.10.1.nar": [
-"pulsar/pulsar-2.10.1/connectors/pulsar-io-flume-2.10.1.nar"
 ],
 "pulsar-io-flume-2.10.2.nar": [
 "pulsar/pulsar-2.10.2/connectors/pulsar-io-flume-2.10.2.nar"
@@ -8913,17 +8867,11 @@
 "pulsar-io-flume-2.8.4.nar": [
 "pulsar/pulsar-2.8.4/connectors/pulsar-io-flume-2.8.4.nar"
 ],
-"pulsar-io-hbase-2.10.1.nar": [
-"pulsar/pulsar-2.10.1/connectors/pulsar-io-hbase-2.10.1.nar"
-],
 "pulsar-io-hbase-2.10.2.nar": [
 "pulsar/pulsar-2.10.2/connectors/pulsar-io-hbase-2.10.2.nar"
 ],
 "pulsar-io-hbase-2.8.4.nar": [
 "pulsar/pulsar-2.8.4/connectors/pulsar-io-hbase-2.8.4.nar"
-],
-"pulsar-io-hdfs2-2.10.1.nar": [
-"pulsar/pulsar-2.10.1/connectors/pulsar-io-hdfs2-2.10.1.nar"
 ],
 "pulsar-io-hdfs2-2.10.2.nar": [
 "pulsar/pulsar-2.10.2/connectors/pulsar-io-hdfs2-2.10.2.nar"
@@ -8931,17 +8879,11 @@
 "pulsar-io-hdfs2-2.8.4.nar": [
 "pulsar/pulsar-2.8.4/connectors/pulsar-io-hdfs2-2.8.4.nar"
 ],
-"pulsar-io-hdfs3-2.10.1.nar": [
-"pulsar/pulsar-2.10.1/connectors/pulsar-io-hdfs3-2.10.1.nar"
-],
 "pulsar-io-hdfs3-2.10.2.nar": [
 "pulsar/pulsar-2.10.2/connectors/pulsar-io-hdfs3-2.10.2.nar"
 ],
 "pulsar-io-hdfs3-2.8.4.nar": [
 "pulsar/pulsar-2.8.4/connectors/pulsar-io-hdfs3-2.8.4.nar"
-],
-"pulsar-io-influxdb-2.10.1.nar": [
-"pulsar/pulsar-2.10.1/connectors/pulsar-io-influxdb-2.10.1.nar"
 ],
 "pulsar-io-influxdb-2.10.2.nar": [
 "pulsar/pulsar-2.10.2/connectors/pulsar-io-influxdb-2.10.2.nar"
@@ -8949,17 +8891,11 @@
 "pulsar-io-influxdb-2.8.4.nar": [
 "pulsar/pulsar-2.8.4/connectors/pulsar-io-influxdb-2.8.4.nar"
 ],
-"pulsar-io-jdbc-clickhouse-2.10.1.nar": [
-"pulsar/pulsar-2.10.1/connectors/pulsar-io-jdbc-clickhouse-2.10.1.nar"
-],
 "pulsar-io-jdbc-clickhouse-2.10.2.nar": [
 "pulsar/pulsar-2.10.2/connectors/pulsar-io-jdbc-clickhouse-2.10.2.nar"
 ],
 "pulsar-io-jdbc-clickhouse-2.8.4.nar": [
 "pulsar/pulsar-2.8.4/connectors/pulsar-io-jdbc-clickhouse-2.8.4.nar"
-],
-"pulsar-io-jdbc-mariadb-2.10.1.nar": [
-"pulsar/pulsar-2.10.1/connectors/pulsar-io-jdbc-mariadb-2.10.1.nar"
 ],
 "pulsar-io-jdbc-mariadb-2.10.2.nar": [
 "pulsar/pulsar-2.10.2/connectors/pulsar-io-jdbc-mariadb-2.10.2.nar"
@@ -8967,17 +8903,11 @@
 "pulsar-io-jdbc-mariadb-2.8.4.nar": [
 "pulsar/pulsar-2.8.4/connectors/pulsar-io-jdbc-mariadb-2.8.4.nar"
 ],
-"pulsar-io-jdbc-postgres-2.10.1.nar": [
-"pulsar/pulsar-2.10.1/connectors/pulsar-io-jdbc-postgres-2.10.1.nar"
-],
 "pulsar-io-jdbc-postgres-2.10.2.nar": [
 "pulsar/pulsar-2.10.2/connectors/pulsar-io-jdbc-postgres-2.10.2.nar"
 ],
 "pulsar-io-jdbc-postgres-2.8.4.nar": [
 "pulsar/pulsar-2.8.4/connectors/pulsar-io-jdbc-postgres-2.8.4.nar"
-],
-"pulsar-io-jdbc-sqlite-2.10.1.nar": [
-"pulsar/pulsar-2.10.1/connectors/pulsar-io-jdbc-sqlite-2.10.1.nar"
 ],
 "pulsar-io-jdbc-sqlite-2.10.2.nar": [
 "pulsar/pulsar-2.10.2/connectors/pulsar-io-jdbc-sqlite-2.10.2.nar"
@@ -8985,17 +8915,11 @@
 "pulsar-io-jdbc-sqlite-2.8.4.nar": [
 "pulsar/pulsar-2.8.4/connectors/pulsar-io-jdbc-sqlite-2.8.4.nar"
 ],
-"pulsar-io-kafka-2.10.1.nar": [
-"pulsar/pulsar-2.10.1/connectors/pulsar-io-kafka-2.10.1.nar"
-],
 "pulsar-io-kafka-2.10.2.nar": [
 "pulsar/pulsar-2.10.2/connectors/pulsar-io-kafka-2.10.2.nar"
 ],
 "pulsar-io-kafka-2.8.4.nar": [
 "pulsar/pulsar-2.8.4/connectors/pulsar-io-kafka-2.8.4.nar"
-],
-"pulsar-io-kafka-connect-adaptor-2.10.1.nar": [
-"pulsar/pulsar-2.10.1/connectors/pulsar-io-kafka-connect-adaptor-2.10.1.nar"
 ],
 "pulsar-io-kafka-connect-adaptor-2.10.2.nar": [
 "pulsar/pulsar-2.10.2/connectors/pulsar-io-kafka-connect-adaptor-2.10.2.nar"
@@ -9003,17 +8927,11 @@
 "pulsar-io-kafka-connect-adaptor-2.8.4.nar": [
 "pulsar/pulsar-2.8.4/connectors/pulsar-io-kafka-connect-adaptor-2.8.4.nar"
 ],
-"pulsar-io-kinesis-2.10.1.nar": [
-"pulsar/pulsar-2.10.1/connectors/pulsar-io-kinesis-2.10.1.nar"
-],
 "pulsar-io-kinesis-2.10.2.nar": [
 "pulsar/pulsar-2.10.2/connectors/pulsar-io-kinesis-2.10.2.nar"
 ],
 "pulsar-io-kinesis-2.8.4.nar": [
 "pulsar/pulsar-2.8.4/connectors/pulsar-io-kinesis-2.8.4.nar"
-],
-"pulsar-io-mongo-2.10.1.nar": [
-"pulsar/pulsar-2.10.1/connectors/pulsar-io-mongo-2.10.1.nar"
 ],
 "pulsar-io-mongo-2.10.2.nar": [
 "pulsar/pulsar-2.10.2/connectors/pulsar-io-mongo-2.10.2.nar"
@@ -9021,17 +8939,11 @@
 "pulsar-io-mongo-2.8.4.nar": [
 "pulsar/pulsar-2.8.4/connectors/pulsar-io-mongo-2.8.4.nar"
 ],
-"pulsar-io-netty-2.10.1.nar": [
-"pulsar/pulsar-2.10.1/connectors/pulsar-io-netty-2.10.1.nar"
-],
 "pulsar-io-netty-2.10.2.nar": [
 "pulsar/pulsar-2.10.2/connectors/pulsar-io-netty-2.10.2.nar"
 ],
 "pulsar-io-netty-2.8.4.nar": [
 "pulsar/pulsar-2.8.4/connectors/pulsar-io-netty-2.8.4.nar"
-],
-"pulsar-io-nsq-2.10.1.nar": [
-"pulsar/pulsar-2.10.1/connectors/pulsar-io-nsq-2.10.1.nar"
 ],
 "pulsar-io-nsq-2.10.2.nar": [
 "pulsar/pulsar-2.10.2/connectors/pulsar-io-nsq-2.10.2.nar"
@@ -9039,17 +8951,11 @@
 "pulsar-io-nsq-2.8.4.nar": [
 "pulsar/pulsar-2.8.4/connectors/pulsar-io-nsq-2.8.4.nar"
 ],
-"pulsar-io-rabbitmq-2.10.1.nar": [
-"pulsar/pulsar-2.10.1/connectors/pulsar-io-rabbitmq-2.10.1.nar"
-],
 "pulsar-io-rabbitmq-2.10.2.nar": [
 "pulsar/pulsar-2.10.2/connectors/pulsar-io-rabbitmq-2.10.2.nar"
 ],
 "pulsar-io-rabbitmq-2.8.4.nar": [
 "pulsar/pulsar-2.8.4/connectors/pulsar-io-rabbitmq-2.8.4.nar"
-],
-"pulsar-io-redis-2.10.1.nar": [
-"pulsar/pulsar-2.10.1/connectors/pulsar-io-redis-2.10.1.nar"
 ],
 "pulsar-io-redis-2.10.2.nar": [
 "pulsar/pulsar-2.10.2/connectors/pulsar-io-redis-2.10.2.nar"
@@ -9057,17 +8963,11 @@
 "pulsar-io-redis-2.8.4.nar": [
 "pulsar/pulsar-2.8.4/connectors/pulsar-io-redis-2.8.4.nar"
 ],
-"pulsar-io-solr-2.10.1.nar": [
-"pulsar/pulsar-2.10.1/connectors/pulsar-io-solr-2.10.1.nar"
-],
 "pulsar-io-solr-2.10.2.nar": [
 "pulsar/pulsar-2.10.2/connectors/pulsar-io-solr-2.10.2.nar"
 ],
 "pulsar-io-solr-2.8.4.nar": [
 "pulsar/pulsar-2.8.4/connectors/pulsar-io-solr-2.8.4.nar"
-],
-"pulsar-io-twitter-2.10.1.nar": [
-"pulsar/pulsar-2.10.1/connectors/pulsar-io-twitter-2.10.1.nar"
 ],
 "pulsar-io-twitter-2.10.2.nar": [
 "pulsar/pulsar-2.10.2/connectors/pulsar-io-twitter-2.10.2.nar"
@@ -9546,113 +9446,113 @@
 "org.apache.sling.clam-1.1.0": [
 "sling/org.apache.sling.clam-1.1.0-source-release.zip"
 ],
-"org.apache.sling.cms-1.1.0": [
-"sling/org.apache.sling.cms-1.1.0-source-release.zip"
+"org.apache.sling.cms-1.1.2": [
+"sling/org.apache.sling.cms-1.1.2-source-release.zip"
 ],
-"org.apache.sling.cms.feature-1.1.0-author.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.1.0-author.slingosgifeature"
+"org.apache.sling.cms.feature-1.1.2-author.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.1.2-author.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.1.0-base.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.1.0-base.slingosgifeature"
+"org.apache.sling.cms.feature-1.1.2-base.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.1.2-base.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.1.0-boot.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.1.0-boot.slingosgifeature"
+"org.apache.sling.cms.feature-1.1.2-boot.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.1.2-boot.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.1.0-caconfig.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.1.0-caconfig.slingosgifeature"
+"org.apache.sling.cms.feature-1.1.2-caconfig.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.1.2-caconfig.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.1.0-cms.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.1.0-cms.slingosgifeature"
+"org.apache.sling.cms.feature-1.1.2-cms.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.1.2-cms.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.1.0-composite-runtime.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.1.0-composite-runtime.slingosgifeature"
+"org.apache.sling.cms.feature-1.1.2-composite-runtime.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.1.2-composite-runtime.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.1.0-composite-seed.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.1.0-composite-seed.slingosgifeature"
+"org.apache.sling.cms.feature-1.1.2-composite-seed.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.1.2-composite-seed.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.1.0-composum.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.1.0-composum.slingosgifeature"
+"org.apache.sling.cms.feature-1.1.2-composum.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.1.2-composum.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.1.0-discovery.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.1.0-discovery.slingosgifeature"
+"org.apache.sling.cms.feature-1.1.2-discovery.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.1.2-discovery.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.1.0-distribution.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.1.0-distribution.slingosgifeature"
+"org.apache.sling.cms.feature-1.1.2-distribution.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.1.2-distribution.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.1.0-event.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.1.0-event.slingosgifeature"
+"org.apache.sling.cms.feature-1.1.2-event.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.1.2-event.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.1.0-feature.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.1.0-feature.slingosgifeature"
+"org.apache.sling.cms.feature-1.1.2-feature.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.1.2-feature.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.1.0-framework-properties.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.1.0-framework-properties.slingosgifeature"
+"org.apache.sling.cms.feature-1.1.2-framework-properties.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.1.2-framework-properties.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.1.0-groovy.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.1.0-groovy.slingosgifeature"
+"org.apache.sling.cms.feature-1.1.2-groovy.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.1.2-groovy.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.1.0-healthcheck.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.1.0-healthcheck.slingosgifeature"
+"org.apache.sling.cms.feature-1.1.2-healthcheck.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.1.2-healthcheck.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.1.0-healthchecks.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.1.0-healthchecks.slingosgifeature"
+"org.apache.sling.cms.feature-1.1.2-healthchecks.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.1.2-healthchecks.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.1.0-maintenance.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.1.0-maintenance.slingosgifeature"
+"org.apache.sling.cms.feature-1.1.2-maintenance.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.1.2-maintenance.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.1.0-models-jacksonexporter.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.1.0-models-jacksonexporter.slingosgifeature"
+"org.apache.sling.cms.feature-1.1.2-models-jacksonexporter.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.1.2-models-jacksonexporter.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.1.0-oak_base.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.1.0-oak_base.slingosgifeature"
+"org.apache.sling.cms.feature-1.1.2-oak_base.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.1.2-oak_base.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.1.0-reference.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.1.0-reference.slingosgifeature"
+"org.apache.sling.cms.feature-1.1.2-reference.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.1.2-reference.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.1.0-renderer.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.1.0-renderer.slingosgifeature"
+"org.apache.sling.cms.feature-1.1.2-renderer.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.1.2-renderer.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.1.0-scripting.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.1.0-scripting.slingosgifeature"
+"org.apache.sling.cms.feature-1.1.2-scripting.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.1.2-scripting.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.1.0-segment.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.1.0-segment.slingosgifeature"
+"org.apache.sling.cms.feature-1.1.2-segment.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.1.2-segment.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.1.0-slingcms-author.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.1.0-slingcms-author.slingosgifeature"
+"org.apache.sling.cms.feature-1.1.2-slingcms-author.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.1.2-slingcms-author.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.1.0-slingcms-composite-runtime.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.1.0-slingcms-composite-runtime.slingosgifeature"
+"org.apache.sling.cms.feature-1.1.2-slingcms-composite-runtime.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.1.2-slingcms-composite-runtime.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.1.0-slingcms-composite-seed.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.1.0-slingcms-composite-seed.slingosgifeature"
+"org.apache.sling.cms.feature-1.1.2-slingcms-composite-seed.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.1.2-slingcms-composite-seed.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.1.0-slingcms-renderer.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.1.0-slingcms-renderer.slingosgifeature"
+"org.apache.sling.cms.feature-1.1.2-slingcms-renderer.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.1.2-slingcms-renderer.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.1.0-slingcms-standalone.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.1.0-slingcms-standalone.slingosgifeature"
+"org.apache.sling.cms.feature-1.1.2-slingcms-standalone.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.1.2-slingcms-standalone.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.1.0-slingcms-upgrade.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.1.0-slingcms-upgrade.slingosgifeature"
+"org.apache.sling.cms.feature-1.1.2-slingcms-upgrade.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.1.2-slingcms-upgrade.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.1.0-slingcms_standalone_far.far": [
-"sling/org.apache.sling.cms.feature-1.1.0-slingcms_standalone_far.far"
+"org.apache.sling.cms.feature-1.1.2-slingcms_standalone_far.far": [
+"sling/org.apache.sling.cms.feature-1.1.2-slingcms_standalone_far.far"
 ],
-"org.apache.sling.cms.feature-1.1.0-slingcms_upgrade_far.far": [
-"sling/org.apache.sling.cms.feature-1.1.0-slingcms_upgrade_far.far"
+"org.apache.sling.cms.feature-1.1.2-slingcms_upgrade_far.far": [
+"sling/org.apache.sling.cms.feature-1.1.2-slingcms_upgrade_far.far"
 ],
-"org.apache.sling.cms.feature-1.1.0-standalone.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.1.0-standalone.slingosgifeature"
+"org.apache.sling.cms.feature-1.1.2-standalone.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.1.2-standalone.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.1.0-thumbnails.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.1.0-thumbnails.slingosgifeature"
+"org.apache.sling.cms.feature-1.1.2-thumbnails.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.1.2-thumbnails.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.1.0-validation.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.1.0-validation.slingosgifeature"
+"org.apache.sling.cms.feature-1.1.2-validation.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.1.2-validation.slingosgifeature"
 ],
-"org.apache.sling.cms.feature-1.1.0-webconsole.slingosgifeature": [
-"sling/org.apache.sling.cms.feature-1.1.0-webconsole.slingosgifeature"
+"org.apache.sling.cms.feature-1.1.2-webconsole.slingosgifeature": [
+"sling/org.apache.sling.cms.feature-1.1.2-webconsole.slingosgifeature"
 ],
 "org.apache.sling.commons.clam-2.0.0": [
 "sling/org.apache.sling.commons.clam-2.0.0-source-release.zip"
