@@ -739,8 +739,8 @@
 "apache-arrow-object-store-rs-0.5.1": [
 "arrow/arrow-object-store-rs-0.5.1/apache-arrow-object-store-rs-0.5.1.tar.gz"
 ],
-"apache-arrow-rs-25.0.0": [
-"arrow/arrow-rs-25.0.0/apache-arrow-rs-25.0.0.tar.gz"
+"apache-arrow-rs-26.0.0": [
+"arrow/arrow-rs-26.0.0/apache-arrow-rs-26.0.0.tar.gz"
 ]
 },
 "asterixdb": {
@@ -2372,8 +2372,8 @@
 ]
 },
 "curator": {
-"apache-curator-5.3.0": [
-"curator/5.3.0/apache-curator-5.3.0-source-release.zip"
+"apache-curator-5.4.0": [
+"curator/5.4.0/apache-curator-5.4.0-source-release.zip"
 ]
 },
 "cxf": {
@@ -4205,14 +4205,6 @@
 "incubator/milagro/apache-milagro-dta-0.1.0-incubating/apache-milagro-dta-0.1.0-incubating-src.tar.gz"
 ]
 },
-"incubator-mxnet": {
-"apache-mxnet-1.9.1-incubating": [
-"incubator/mxnet/1.9.1/apache-mxnet-src-1.9.1-incubating.tar.gz"
-],
-"apache-mxnet-2.0.0.beta1-incubating": [
-"incubator/mxnet/2.0.0.beta1/apache-mxnet-src-2.0.0.beta1-incubating.tar.gz"
-]
-},
 "incubator-nemo": {
 "apache-nemo-0.4-incubating-rc1": [
 "incubator/nemo/0.4-incubating/apache-nemo-0.4-incubating-rc1.tar.gz"
@@ -5458,6 +5450,14 @@
 ],
 "apache-mnemonic-0.16.0": [
 "mnemonic/0.16.0/src/apache-mnemonic-0.16.0-src.tar.gz"
+]
+},
+"mxnet": {
+"apache-mxnet-1.9.1-incubating": [
+"mxnet/1.9.1/apache-mxnet-src-1.9.1-incubating.tar.gz"
+],
+"apache-mxnet-2.0.0.beta1-incubating": [
+"mxnet/2.0.0.beta1/apache-mxnet-src-2.0.0.beta1-incubating.tar.gz"
 ]
 },
 "myfaces": {
@@ -8789,6 +8789,15 @@
 "apache-pulsar-manager-0.3.0": [
 "pulsar/pulsar-manager/pulsar-manager-0.3.0/apache-pulsar-manager-0.3.0-src.tar.gz"
 ],
+"pulsar-3.0.0": [
+"pulsar/helm-chart/3.0.0/pulsar-3.0.0.tgz"
+],
+"pulsar-3.0.0.tgz.prov": [
+"pulsar/helm-chart/3.0.0/pulsar-3.0.0.tgz.prov"
+],
+"pulsar-chart-3.0.0": [
+"pulsar/helm-chart/3.0.0/pulsar-chart-3.0.0-source.tar.gz"
+],
 "pulsar-client-node-1.7.0": [
 "pulsar/pulsar-client-node/pulsar-client-node-1.7.0/pulsar-client-node-1.7.0.tar.gz"
 ],
@@ -9251,6 +9260,9 @@
 ],
 "shenyu-client-golang-v1.0.0": [
 "shenyu/shenyu-client-golang/v1.0.0/shenyu-client-golang-v1.0.0-src.tar.gz"
+],
+"shenyu-nginx-1.0.0-1": [
+"shenyu/shenyu-nginx/1.0.0-1/shenyu-nginx-1.0.0-1-src.tar.gz"
 ]
 },
 "shiro": {
@@ -10968,21 +10980,21 @@
 "tomee/tomee-8.0.13/apache-tomee-8.0.13-webprofile.tar.gz",
 "tomee/tomee-8.0.13/apache-tomee-8.0.13-webprofile.zip"
 ],
-"apache-tomee-9.0.0-M8-microprofile": [
-"tomee/tomee-9.0.0-M8/apache-tomee-9.0.0-M8-microprofile.tar.gz",
-"tomee/tomee-9.0.0-M8/apache-tomee-9.0.0-M8-microprofile.zip"
+"apache-tomee-9.0.0.RC1-microprofile": [
+"tomee/tomee-9.0.0.RC1/apache-tomee-9.0.0.RC1-microprofile.tar.gz",
+"tomee/tomee-9.0.0.RC1/apache-tomee-9.0.0.RC1-microprofile.zip"
 ],
-"apache-tomee-9.0.0-M8-plume": [
-"tomee/tomee-9.0.0-M8/apache-tomee-9.0.0-M8-plume.tar.gz",
-"tomee/tomee-9.0.0-M8/apache-tomee-9.0.0-M8-plume.zip"
+"apache-tomee-9.0.0.RC1-plume": [
+"tomee/tomee-9.0.0.RC1/apache-tomee-9.0.0.RC1-plume.tar.gz",
+"tomee/tomee-9.0.0.RC1/apache-tomee-9.0.0.RC1-plume.zip"
 ],
-"apache-tomee-9.0.0-M8-plus": [
-"tomee/tomee-9.0.0-M8/apache-tomee-9.0.0-M8-plus.tar.gz",
-"tomee/tomee-9.0.0-M8/apache-tomee-9.0.0-M8-plus.zip"
+"apache-tomee-9.0.0.RC1-plus": [
+"tomee/tomee-9.0.0.RC1/apache-tomee-9.0.0.RC1-plus.tar.gz",
+"tomee/tomee-9.0.0.RC1/apache-tomee-9.0.0.RC1-plus.zip"
 ],
-"apache-tomee-9.0.0-M8-webprofile": [
-"tomee/tomee-9.0.0-M8/apache-tomee-9.0.0-M8-webprofile.tar.gz",
-"tomee/tomee-9.0.0-M8/apache-tomee-9.0.0-M8-webprofile.zip"
+"apache-tomee-9.0.0.RC1-webprofile": [
+"tomee/tomee-9.0.0.RC1/apache-tomee-9.0.0.RC1-webprofile.tar.gz",
+"tomee/tomee-9.0.0.RC1/apache-tomee-9.0.0.RC1-webprofile.zip"
 ],
 "arquillian-tomee-moviefun-example-1.7.5": [
 "tomee/tomee-1.7.5/arquillian-tomee-moviefun-example-1.7.5.war"
@@ -11039,6 +11051,9 @@
 ],
 "tomee-8.0.13": [
 "tomee/tomee-8.0.13/tomee-project-8.0.13-source-release.zip"
+],
+"tomee-9.0.0.RC1": [
+"tomee/tomee-9.0.0.RC1/tomee-project-9.0.0.RC1-source-release.zip"
 ],
 "tomee-jaxrs-1.7.5": [
 "tomee/tomee-1.7.5/tomee-jaxrs-webapp-1.7.5.war"

@@ -253,7 +253,7 @@
 "apache-arrow-object-store-rs-0.4.0": "2022-08-13",
 "apache-arrow-object-store-rs-0.5.0": "2022-09-11",
 "apache-arrow-object-store-rs-0.5.1": "2022-10-10",
-"apache-arrow-rs-25.0.0": "2022-10-17"
+"apache-arrow-rs-26.0.0": "2022-11-03"
 },
 "asterixdb": {
 "apache-asterixdb-0.9.6": "2020-10-14",
@@ -765,7 +765,7 @@
 "apache-ctakes-4.0.0.1": "2021-01-22"
 },
 "curator": {
-"apache-curator-5.3.0": "2022-07-04"
+"apache-curator-5.4.0": "2022-11-03"
 },
 "cxf": {
 "apache-cxf-3.3.13": "2022-03-01",
@@ -1349,10 +1349,6 @@
 "apache-milagro-crypto-js-1.0.0-incubating": "2019-08-27",
 "apache-milagro-dta-0.1.0-incubating": "2019-10-03"
 },
-"incubator-mxnet": {
-"apache-mxnet-1.9.1-incubating": "2022-05-10",
-"apache-mxnet-2.0.0.beta1-incubating": "2022-03-22"
-},
 "incubator-nemo": {
 "apache-nemo-0.4-incubating-rc1": "2022-09-05"
 },
@@ -1776,6 +1772,10 @@
 "apache-mnemonic-0.14.0": "2021-03-28",
 "apache-mnemonic-0.15.0": "2021-07-04",
 "apache-mnemonic-0.16.0": "2021-10-22"
+},
+"mxnet": {
+"apache-mxnet-1.9.1-incubating": "2022-05-10",
+"apache-mxnet-2.0.0.beta1-incubating": "2022-03-22"
 },
 "myfaces": {
 "myfaces-commons11-1.0.2": "2014-10-30",
@@ -2895,6 +2895,9 @@
 "apache-pulsar-client-go-0.8.1": "2022-03-08",
 "apache-pulsar-client-go-0.9.0-candidate-2": "2022-09-29",
 "apache-pulsar-manager-0.3.0": "2022-05-10",
+"pulsar-3.0.0": "2022-11-03",
+"pulsar-3.0.0.tgz.prov": "2022-11-03",
+"pulsar-chart-3.0.0": "2022-11-03",
 "pulsar-client-node-1.7.0": "2022-10-06",
 "pulsar-io-aerospike-2.10.2.nar": "2022-10-13",
 "pulsar-io-aerospike-2.8.4.nar": "2022-08-11",
@@ -3064,7 +3067,8 @@
 "shenyu": {
 "apache-shenyu-2.5.0": "2022-08-20",
 "shenyu-client-dotnet-v1.0.0": "2022-10-12",
-"shenyu-client-golang-v1.0.0": "2022-10-12"
+"shenyu-client-golang-v1.0.0": "2022-10-12",
+"shenyu-nginx-1.0.0-1": "2022-10-31"
 },
 "shiro": {
 "shiro-root-1.10.0": "2022-10-07",
@@ -3630,10 +3634,10 @@
 "apache-tomee-8.0.13-plume": "2022-10-11",
 "apache-tomee-8.0.13-plus": "2022-10-11",
 "apache-tomee-8.0.13-webprofile": "2022-10-11",
-"apache-tomee-9.0.0-M8-microprofile": "2022-07-05",
-"apache-tomee-9.0.0-M8-plume": "2022-07-05",
-"apache-tomee-9.0.0-M8-plus": "2022-07-05",
-"apache-tomee-9.0.0-M8-webprofile": "2022-07-05",
+"apache-tomee-9.0.0.RC1-microprofile": "2022-11-03",
+"apache-tomee-9.0.0.RC1-plume": "2022-11-03",
+"apache-tomee-9.0.0.RC1-plus": "2022-11-03",
+"apache-tomee-9.0.0.RC1-webprofile": "2022-11-03",
 "arquillian-tomee-moviefun-example-1.7.5": "2017-10-24",
 "examples-4.7.5": "2017-10-24",
 "examples-7.0.9": "2020-08-05",
@@ -3649,6 +3653,7 @@
 "tomee-7.0.9": "2020-08-05",
 "tomee-7.1.4": "2020-08-05",
 "tomee-8.0.13": "2022-10-11",
+"tomee-9.0.0.RC1": "2022-11-03",
 "tomee-jaxrs-1.7.5": "2017-10-24",
 "tomee-microprofile-7.1.4": "2020-08-05",
 "tomee-patch-0.9": "2022-05-09",
