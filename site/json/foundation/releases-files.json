@@ -2434,12 +2434,6 @@
 ]
 },
 "daffodil": {
-"apache-daffodil-3.3.0": [
-"daffodil/3.3.0/src/apache-daffodil-3.3.0-src.zip"
-],
-"apache-daffodil-3.3.0-1.noarch": [
-"daffodil/3.3.0/bin/apache-daffodil-3.3.0-1.noarch.rpm"
-],
 "apache-daffodil-3.4.0": [
 "daffodil/3.4.0/src/apache-daffodil-3.4.0-src.zip"
 ],
@@ -2800,8 +2794,11 @@
 "apache-dubbo-3.0.12": [
 "dubbo/3.0.12/apache-dubbo-3.0.12-src.zip"
 ],
-"apache-dubbo-3.1.1": [
-"dubbo/3.1.1/apache-dubbo-3.1.1-src.zip"
+"apache-dubbo-3.1.2": [
+"dubbo/3.1.2/apache-dubbo-3.1.2-src.zip"
+],
+"apache-dubbo-3.2.0-beta.1": [
+"dubbo/3.2.0-beta.1/apache-dubbo-3.2.0-beta.1-src.zip"
 ],
 "apache-dubbo-admin-0.4.0": [
 "dubbo/dubbo-admin/0.4.0/apache-dubbo-admin-0.4.0-source-release.zip"
@@ -3321,17 +3318,11 @@
 ]
 },
 "flink": {
-"apache-flink-1.14.6": [
-"flink/flink-1.14.6/python/apache-flink-1.14.6.tar.gz"
-],
 "apache-flink-1.15.2": [
 "flink/flink-1.15.2/python/apache-flink-1.15.2.tar.gz"
 ],
 "apache-flink-1.16.0": [
 "flink/flink-1.16.0/python/apache-flink-1.16.0.tar.gz"
-],
-"apache-flink-libraries-1.14.6": [
-"flink/flink-1.14.6/python/apache-flink-libraries-1.14.6.tar.gz"
 ],
 "apache-flink-libraries-1.15.2": [
 "flink/flink-1.15.2/python/apache-flink-libraries-1.15.2.tar.gz"
@@ -3347,9 +3338,6 @@
 ],
 "apache-flink-statefun-3.2.0": [
 "flink/flink-statefun-3.2.0/apache-flink-statefun-3.2.0.tar.gz"
-],
-"flink-1.14.6": [
-"flink/flink-1.14.6/flink-1.14.6-src.tgz"
 ],
 "flink-1.15.2": [
 "flink/flink-1.15.2/flink-1.15.2-src.tgz"
@@ -3374,9 +3362,6 @@
 ],
 "flink-ml-2.1.0": [
 "flink/flink-ml-2.1.0/flink-ml-2.1.0-src.tgz"
-],
-"flink-shaded-14.0": [
-"flink/flink-shaded-14.0/flink-shaded-14.0-src.tgz"
 ],
 "flink-shaded-15.0": [
 "flink/flink-shaded-15.0/flink-shaded-15.0-src.tgz"
@@ -9113,6 +9098,9 @@
 ],
 "ratis-thirdparty-1.0.2": [
 "ratis/thirdparty/1.0.2/ratis-thirdparty-1.0.2-src.tar.gz"
+],
+"ratis-thirdparty-1.0.3": [
+"ratis/thirdparty/1.0.3/ratis-thirdparty-1.0.3-src.tar.gz"
 ]
 },
 "rocketmq": {
@@ -9228,8 +9216,11 @@
 ]
 },
 "servicecomb": {
-"apache-servicecomb-java-chassis-distribution-2.8.1": [
-"servicecomb/servicecomb-java-chassis/2.8.1/apache-servicecomb-java-chassis-distribution-2.8.1-src.zip"
+"apache-servicecomb-java-chassis-distribution-1.3.10": [
+"servicecomb/servicecomb-java-chassis/1.3.10/apache-servicecomb-java-chassis-distribution-1.3.10-src.zip"
+],
+"apache-servicecomb-java-chassis-distribution-2.8.2": [
+"servicecomb/servicecomb-java-chassis/2.8.2/apache-servicecomb-java-chassis-distribution-2.8.2-src.zip"
 ],
 "apache-servicecomb-kie-0.2.0": [
 "servicecomb/servicecomb-kie/0.2.0/apache-servicecomb-kie-0.2.0-src.tar.gz"
@@ -10927,6 +10918,10 @@
 "tomcat/jakartaee-migration/v1.0.4/source/jakartaee-migration-1.0.4-src.tar.gz",
 "tomcat/jakartaee-migration/v1.0.4/source/jakartaee-migration-1.0.4-src.zip"
 ],
+"jakartaee-migration-1.0.5": [
+"tomcat/jakartaee-migration/v1.0.5/source/jakartaee-migration-1.0.5-src.tar.gz",
+"tomcat/jakartaee-migration/v1.0.5/source/jakartaee-migration-1.0.5-src.zip"
+],
 "taglibs-standard-1.2.5": [
 "tomcat/taglibs/taglibs-standard-1.2.5/taglibs-standard-1.2.5-source-release.zip"
 ],
@@ -10941,9 +10936,9 @@
 "tomcat/tomcat-connectors/native/1.2.35/source/tomcat-native-1.2.35-src.tar.gz",
 "tomcat/tomcat-connectors/native/1.2.35/source/tomcat-native-1.2.35-win32-src.zip"
 ],
-"tomcat-native-2.0.1": [
-"tomcat/tomcat-connectors/native/2.0.1/source/tomcat-native-2.0.1-src.tar.gz",
-"tomcat/tomcat-connectors/native/2.0.1/source/tomcat-native-2.0.1-win32-src.zip"
+"tomcat-native-2.0.2": [
+"tomcat/tomcat-connectors/native/2.0.2/source/tomcat-native-2.0.2-src.tar.gz",
+"tomcat/tomcat-connectors/native/2.0.2/source/tomcat-native-2.0.2-win32-src.zip"
 ]
 },
 "tomee": {
