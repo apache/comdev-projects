@@ -68,10 +68,6 @@
 "activemq-5.17.2": [
 "activemq/5.17.2/activemq-parent-5.17.2-source-release.zip"
 ],
-"activemq-artemis-native-1.0.2": [
-"activemq/activemq-artemis-native/1.0.2/activemq-artemis-native-1.0.2-source-release.tar.gz",
-"activemq/activemq-artemis-native/1.0.2/activemq-artemis-native-1.0.2-source-release.zip"
-],
 "activemq-artemis-native-2.0.0": [
 "activemq/activemq-artemis-native/2.0.0/activemq-artemis-native-2.0.0-source-release.tar.gz",
 "activemq/activemq-artemis-native/2.0.0/activemq-artemis-native-2.0.0-source-release.zip"
@@ -86,14 +82,6 @@
 "activemq/activemq-cpp/3.9.5/activemq-cpp-library-3.9.5-src.tar.bz2",
 "activemq/activemq-cpp/3.9.5/activemq-cpp-library-3.9.5-src.tar.gz",
 "activemq/activemq-cpp/3.9.5/activemq-cpp-library-3.9.5-src.zip"
-],
-"apache-artemis-2.19.1": [
-"activemq/activemq-artemis/2.19.1/apache-artemis-2.19.1-source-release.tar.gz",
-"activemq/activemq-artemis/2.19.1/apache-artemis-2.19.1-source-release.zip"
-],
-"apache-artemis-2.25.0": [
-"activemq/activemq-artemis/2.25.0/apache-artemis-2.25.0-source-release.tar.gz",
-"activemq/activemq-artemis/2.25.0/apache-artemis-2.25.0-source-release.zip"
 ],
 "apache-artemis-2.26.0": [
 "activemq/activemq-artemis/2.26.0/apache-artemis-2.26.0-source-release.tar.gz",
@@ -2876,13 +2864,13 @@
 "felix/org.apache.felix.bundlerepository-2.0.10-source-release.tar.gz",
 "felix/org.apache.felix.bundlerepository-2.0.10-source-release.zip"
 ],
-"org.apache.felix.cm.json-1.0.6": [
-"felix/org.apache.felix.cm.json-1.0.6-source-release.tar.gz",
-"felix/org.apache.felix.cm.json-1.0.6-source-release.zip"
+"org.apache.felix.cm.json-1.0.8": [
+"felix/org.apache.felix.cm.json-1.0.8-source-release.tar.gz",
+"felix/org.apache.felix.cm.json-1.0.8-source-release.zip"
 ],
-"org.apache.felix.configadmin-1.9.24": [
-"felix/org.apache.felix.configadmin-1.9.24-source-release.tar.gz",
-"felix/org.apache.felix.configadmin-1.9.24-source-release.zip"
+"org.apache.felix.configadmin-1.9.26": [
+"felix/org.apache.felix.configadmin-1.9.26-source-release.tar.gz",
+"felix/org.apache.felix.configadmin-1.9.26-source-release.zip"
 ],
 "org.apache.felix.configurator-1.0.16": [
 "felix/org.apache.felix.configurator-1.0.16-source-release.tar.gz",
@@ -3344,6 +3332,9 @@
 ],
 "flink-1.16.0": [
 "flink/flink-1.16.0/flink-1.16.0-src.tgz"
+],
+"flink-connector-elasticsearch-3.0.0": [
+"flink/flink-connector-elasticsearch-3.0.0/flink-connector-elasticsearch-3.0.0-src.tgz"
 ],
 "flink-kubernetes-operator-1.1.0": [
 "flink/flink-kubernetes-operator-1.1.0/flink-kubernetes-operator-1.1.0-src.tgz"
@@ -9314,9 +9305,9 @@
 "apache-skywalking-banyandb-java-client-0.1.0": [
 "skywalking/banyandb-java-client/0.1.0/apache-skywalking-banyandb-java-client-0.1.0-src.tgz"
 ],
-"apache-skywalking-java-agent-8.12.0": [
-"skywalking/java-agent/8.12.0/apache-skywalking-java-agent-8.12.0-src.tgz",
-"skywalking/java-agent/8.12.0/apache-skywalking-java-agent-8.12.0.tgz"
+"apache-skywalking-java-agent-8.13.0": [
+"skywalking/java-agent/8.13.0/apache-skywalking-java-agent-8.13.0-src.tgz",
+"skywalking/java-agent/8.13.0/apache-skywalking-java-agent-8.13.0.tgz"
 ],
 "apache-skywalking-rover-0.3.0": [
 "skywalking/rover/0.3.0/apache-skywalking-rover-0.3.0-src.tgz"
@@ -9333,8 +9324,8 @@
 "skywalking-4.3.0": [
 "skywalking/kubernetes/4.3.0/skywalking-4.3.0.tgz"
 ],
-"skywalking-banyandb-0.1.0": [
-"skywalking/banyandb/0.1.0/skywalking-banyandb-0.1.0-src.tgz"
+"skywalking-banyandb-0.2.0": [
+"skywalking/banyandb/0.2.0/skywalking-banyandb-0.2.0-src.tgz"
 ],
 "skywalking-cli-0.11.0": [
 "skywalking/cli/0.11.0/skywalking-cli-0.11.0-src.tgz"
@@ -11595,17 +11586,17 @@
 "xmlgraphics/batik/source/batik-src-1.16.tar.gz",
 "xmlgraphics/batik/source/batik-src-1.16.zip"
 ],
-"fop-2.7": [
-"xmlgraphics/fop/source/fop-2.7-src.tar.gz",
-"xmlgraphics/fop/source/fop-2.7-src.zip"
+"fop-2.8": [
+"xmlgraphics/fop/source/fop-2.8-src.tar.gz",
+"xmlgraphics/fop/source/fop-2.8-src.zip"
 ],
-"fop-pdf-images-2.7": [
-"xmlgraphics/fop-pdf-images/source/fop-pdf-images-2.7-src.tar.gz",
-"xmlgraphics/fop-pdf-images/source/fop-pdf-images-2.7-src.zip"
+"fop-pdf-images-2.8": [
+"xmlgraphics/fop-pdf-images/source/fop-pdf-images-2.8-src.tar.gz",
+"xmlgraphics/fop-pdf-images/source/fop-pdf-images-2.8-src.zip"
 ],
-"xmlgraphics-commons-2.7": [
-"xmlgraphics/commons/source/xmlgraphics-commons-2.7-src.tar.gz",
-"xmlgraphics/commons/source/xmlgraphics-commons-2.7-src.zip"
+"xmlgraphics-commons-2.8": [
+"xmlgraphics/commons/source/xmlgraphics-commons-2.8-src.tar.gz",
+"xmlgraphics/commons/source/xmlgraphics-commons-2.8-src.zip"
 ]
 },
 "yetus": {
