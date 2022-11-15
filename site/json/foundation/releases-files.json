@@ -86,6 +86,10 @@
 "apache-artemis-2.26.0": [
 "activemq/activemq-artemis/2.26.0/apache-artemis-2.26.0-source-release.tar.gz",
 "activemq/activemq-artemis/2.26.0/apache-artemis-2.26.0-source-release.zip"
+],
+"apache-artemis-2.27.0": [
+"activemq/activemq-artemis/2.27.0/apache-artemis-2.27.0-source-release.tar.gz",
+"activemq/activemq-artemis/2.27.0/apache-artemis-2.27.0-source-release.zip"
 ]
 },
 "age": {
@@ -120,9 +124,9 @@
 "airflow-chart-1.7.0": [
 "airflow/helm-chart/1.7.0/airflow-chart-1.7.0-source.tar.gz"
 ],
-"apache-airflow-2.4.2": [
-"airflow/2.4.2/apache-airflow-2.4.2-source.tar.gz",
-"airflow/2.4.2/apache-airflow-2.4.2.tar.gz"
+"apache-airflow-2.4.3": [
+"airflow/2.4.3/apache-airflow-2.4.3-source.tar.gz",
+"airflow/2.4.3/apache-airflow-2.4.3.tar.gz"
 ],
 "apache-airflow-client-2.1.0": [
 "airflow/clients/python/2.1.0/apache-airflow-client-2.1.0-source.tar.gz"
@@ -727,8 +731,8 @@
 "apache-arrow-object-store-rs-0.5.1": [
 "arrow/arrow-object-store-rs-0.5.1/apache-arrow-object-store-rs-0.5.1.tar.gz"
 ],
-"apache-arrow-rs-26.0.0": [
-"arrow/arrow-rs-26.0.0/apache-arrow-rs-26.0.0.tar.gz"
+"apache-arrow-rs-27.0.0": [
+"arrow/arrow-rs-27.0.0/apache-arrow-rs-27.0.0.tar.gz"
 ]
 },
 "asterixdb": {
@@ -924,6 +928,9 @@
 "bookkeeper-4.15.2": [
 "bookkeeper/bookkeeper-4.15.2/bookkeeper-4.15.2-src.tar.gz"
 ],
+"bookkeeper-4.15.3": [
+"bookkeeper/bookkeeper-4.15.3/bookkeeper-4.15.3-src.tar.gz"
+],
 "distributedlog-0.5.0": [
 "bookkeeper/distributedlog/0.5.0/distributedlog-0.5.0-src.tar.gz"
 ]
@@ -1075,6 +1082,18 @@
 "camel-k-client-1.10.2-windows": [
 "camel/camel-k/1.10.2/camel-k-client-1.10.2-windows-64bit.tar.gz"
 ],
+"camel-k-client-1.10.3-linux": [
+"camel/camel-k/1.10.3/camel-k-client-1.10.3-linux-64bit.tar.gz"
+],
+"camel-k-client-1.10.3-mac": [
+"camel/camel-k/1.10.3/camel-k-client-1.10.3-mac-64bit.tar.gz"
+],
+"camel-k-client-1.10.3-mac-arm64bit": [
+"camel/camel-k/1.10.3/camel-k-client-1.10.3-mac-arm64bit.tar.gz"
+],
+"camel-k-client-1.10.3-windows": [
+"camel/camel-k/1.10.3/camel-k-client-1.10.3-windows-64bit.tar.gz"
+],
 "camel-k-client-1.8.2-linux": [
 "camel/camel-k/1.8.2/camel-k-client-1.8.2-linux-64bit.tar.gz"
 ],
@@ -1129,6 +1148,9 @@
 "camel-k-examples-1.10.2": [
 "camel/camel-k/1.10.2/camel-k-examples-1.10.2.tar.gz"
 ],
+"camel-k-examples-1.10.3": [
+"camel/camel-k/1.10.3/camel-k-examples-1.10.3.tar.gz"
+],
 "camel-k-examples-1.8.2": [
 "camel/camel-k/1.8.2/camel-k-examples-1.8.2.tar.gz"
 ],
@@ -1144,11 +1166,17 @@
 "camel-k-runtime-1.15.1": [
 "camel/camel-k-runtime/1.15.1/camel-k-runtime-project-1.15.1-source-release.zip"
 ],
+"camel-k-runtime-1.15.2": [
+"camel/camel-k-runtime/1.15.2/camel-k-runtime-project-1.15.2-source-release.zip"
+],
 "camel-k-sources-1.10.1": [
 "camel/camel-k/1.10.1/camel-k-sources-1.10.1.tar.gz"
 ],
 "camel-k-sources-1.10.2": [
 "camel/camel-k/1.10.2/camel-k-sources-1.10.2.tar.gz"
+],
+"camel-k-sources-1.10.3": [
+"camel/camel-k/1.10.3/camel-k-sources-1.10.3.tar.gz"
 ],
 "camel-k-sources-1.8.2": [
 "camel/camel-k/1.8.2/camel-k-sources-1.8.2.tar.gz"
@@ -3855,6 +3883,9 @@
 ],
 "apache-hive-4.0.0-alpha-1": [
 "hive/hive-4.0.0-alpha-1/apache-hive-4.0.0-alpha-1-src.tar.gz"
+],
+"apache-hive-4.0.0-alpha-2": [
+"hive/hive-4.0.0-alpha-2/apache-hive-4.0.0-alpha-2-src.tar.gz"
 ],
 "hive-metastore-3.0.0": [
 "hive/hive-standalone-metastore-3.0.0/hive-standalone-metastore-3.0.0-src.tar.gz"
@@ -9739,8 +9770,8 @@
 "org.apache.sling.dynamic-include-3.3.0": [
 "sling/org.apache.sling.dynamic-include-3.3.0-source-release.zip"
 ],
-"org.apache.sling.engine-2.12.0": [
-"sling/org.apache.sling.engine-2.12.0-source-release.zip"
+"org.apache.sling.engine-2.12.2": [
+"sling/org.apache.sling.engine-2.12.2-source-release.zip"
 ],
 "org.apache.sling.event-4.3.6": [
 "sling/org.apache.sling.event-4.3.6-source-release.zip"
@@ -9961,8 +9992,8 @@
 "org.apache.sling.jcr.repoinit-1.1.42": [
 "sling/org.apache.sling.jcr.repoinit-1.1.42-source-release.zip"
 ],
-"org.apache.sling.jcr.resource-3.2.2": [
-"sling/org.apache.sling.jcr.resource-3.2.2-source-release.zip"
+"org.apache.sling.jcr.resource-3.2.4": [
+"sling/org.apache.sling.jcr.resource-3.2.4-source-release.zip"
 ],
 "org.apache.sling.jcr.resourcesecurity-1.1.0": [
 "sling/org.apache.sling.jcr.resourcesecurity-1.1.0-source-release.zip"
@@ -10766,9 +10797,9 @@
 "syncope/2.1.12/syncope-2.1.12-source-release.zip",
 "syncope/2.1.12/syncope-standalone-2.1.12-distribution.zip"
 ],
-"syncope-3.0.0-M2": [
-"syncope/3.0.0-M2/syncope-3.0.0-M2-source-release.zip",
-"syncope/3.0.0-M2/syncope-standalone-3.0.0-M2-distribution.zip"
+"syncope-3.0.0": [
+"syncope/3.0.0/syncope-3.0.0-source-release.zip",
+"syncope/3.0.0/syncope-standalone-3.0.0-distribution.zip"
 ],
 "syncope-client-cli-2.1.12": [
 "syncope/2.1.12/syncope-client-cli-2.1.12.zip"
@@ -10896,6 +10927,19 @@
 "tomcat/tomcat-10/v10.1.1/src/apache-tomcat-10.1.1-src.tar.gz",
 "tomcat/tomcat-10/v10.1.1/src/apache-tomcat-10.1.1-src.zip"
 ],
+"apache-tomcat-10.1.2": [
+"tomcat/tomcat-10/v10.1.2/bin/embed/apache-tomcat-10.1.2-embed.tar.gz",
+"tomcat/tomcat-10/v10.1.2/bin/embed/apache-tomcat-10.1.2-embed.zip",
+"tomcat/tomcat-10/v10.1.2/bin/apache-tomcat-10.1.2-deployer.tar.gz",
+"tomcat/tomcat-10/v10.1.2/bin/apache-tomcat-10.1.2-deployer.zip",
+"tomcat/tomcat-10/v10.1.2/bin/apache-tomcat-10.1.2-fulldocs.tar.gz",
+"tomcat/tomcat-10/v10.1.2/bin/apache-tomcat-10.1.2-windows-x64.zip",
+"tomcat/tomcat-10/v10.1.2/bin/apache-tomcat-10.1.2.exe",
+"tomcat/tomcat-10/v10.1.2/bin/apache-tomcat-10.1.2.tar.gz",
+"tomcat/tomcat-10/v10.1.2/bin/apache-tomcat-10.1.2.zip",
+"tomcat/tomcat-10/v10.1.2/src/apache-tomcat-10.1.2-src.tar.gz",
+"tomcat/tomcat-10/v10.1.2/src/apache-tomcat-10.1.2-src.zip"
+],
 "apache-tomcat-8.5.83": [
 "tomcat/tomcat-8/v8.5.83/bin/embed/apache-tomcat-8.5.83-embed.tar.gz",
 "tomcat/tomcat-8/v8.5.83/bin/embed/apache-tomcat-8.5.83-embed.zip",
@@ -10921,6 +10965,19 @@
 "tomcat/tomcat-9/v9.0.68/bin/apache-tomcat-9.0.68.zip",
 "tomcat/tomcat-9/v9.0.68/src/apache-tomcat-9.0.68-src.tar.gz",
 "tomcat/tomcat-9/v9.0.68/src/apache-tomcat-9.0.68-src.zip"
+],
+"apache-tomcat-9.0.69": [
+"tomcat/tomcat-9/v9.0.69/bin/embed/apache-tomcat-9.0.69-embed.tar.gz",
+"tomcat/tomcat-9/v9.0.69/bin/embed/apache-tomcat-9.0.69-embed.zip",
+"tomcat/tomcat-9/v9.0.69/bin/apache-tomcat-9.0.69-deployer.tar.gz",
+"tomcat/tomcat-9/v9.0.69/bin/apache-tomcat-9.0.69-deployer.zip",
+"tomcat/tomcat-9/v9.0.69/bin/apache-tomcat-9.0.69-fulldocs.tar.gz",
+"tomcat/tomcat-9/v9.0.69/bin/apache-tomcat-9.0.69-windows-x64.zip",
+"tomcat/tomcat-9/v9.0.69/bin/apache-tomcat-9.0.69.exe",
+"tomcat/tomcat-9/v9.0.69/bin/apache-tomcat-9.0.69.tar.gz",
+"tomcat/tomcat-9/v9.0.69/bin/apache-tomcat-9.0.69.zip",
+"tomcat/tomcat-9/v9.0.69/src/apache-tomcat-9.0.69-src.tar.gz",
+"tomcat/tomcat-9/v9.0.69/src/apache-tomcat-9.0.69-src.zip"
 ],
 "jakartaee-migration-1.0.4": [
 "tomcat/jakartaee-migration/v1.0.4/source/jakartaee-migration-1.0.4-src.tar.gz",
