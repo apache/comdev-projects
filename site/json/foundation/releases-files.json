@@ -438,8 +438,8 @@
 "apache-apisix-2.13.3": [
 "apisix/2.13.3/apache-apisix-2.13.3-src.tgz"
 ],
-"apache-apisix-2.15.0": [
-"apisix/2.15.0/apache-apisix-2.15.0-src.tgz"
+"apache-apisix-2.15.1": [
+"apisix/2.15.1/apache-apisix-2.15.1-src.tgz"
 ],
 "apache-apisix-2.99.0": [
 "apisix/2.99.0/apache-apisix-2.99.0-src.tgz"
@@ -4060,6 +4060,15 @@
 "ignite/3.0.0-alpha5/apache-ignite-3.0.0-alpha5-src.zip",
 "ignite/3.0.0-alpha5/apache-ignite-3.0.0-alpha5.zip"
 ],
+"apache-ignite-3.0.0-beta1": [
+"ignite/3.0.0-beta1/apache-ignite-3.0.0-beta1-src.zip"
+],
+"apache-ignite-3.0.0-beta1-cpp": [
+"ignite/3.0.0-beta1/apache-ignite-3.0.0-beta1-cpp.zip"
+],
+"apache-ignite-3.0.0-beta1-nuget": [
+"ignite/3.0.0-beta1/apache-ignite-3.0.0-beta1-nuget.zip"
+],
 "ignite-aws-ext": [
 "ignite/ignite-extensions/ignite-aws-ext/1.0.0/ignite-aws-ext-src.zip"
 ],
@@ -4089,6 +4098,27 @@
 ],
 "ignite-zookeeper-ip-finder-ext": [
 "ignite/ignite-extensions/ignite-zookeeper-ip-finder-ext/1.0.0/ignite-zookeeper-ip-finder-ext-src.zip"
+],
+"ignite3-3.0.0-beta1": [
+"ignite/3.0.0-beta1/ignite3-3.0.0-beta1.zip"
+],
+"ignite3-cli-3.0.0-beta1": [
+"ignite/3.0.0-beta1/ignite3-cli-3.0.0-beta1.zip"
+],
+"ignite3-cli-3.0.0~beta1.noarch": [
+"ignite/3.0.0-beta1/ignite3-cli-3.0.0~beta1.noarch.rpm"
+],
+"ignite3-cli_3.0.0~beta1_all": [
+"ignite/3.0.0-beta1/ignite3-cli_3.0.0~beta1_all.deb"
+],
+"ignite3-db-3.0.0-beta1": [
+"ignite/3.0.0-beta1/ignite3-db-3.0.0-beta1.zip"
+],
+"ignite3-db-3.0.0~beta1.noarch": [
+"ignite/3.0.0-beta1/ignite3-db-3.0.0~beta1.noarch.rpm"
+],
+"ignite3-db_3.0.0~beta1_all": [
+"ignite/3.0.0-beta1/ignite3-db_3.0.0~beta1_all.deb"
 ],
 "pyignite-0.6.0": [
 "ignite/pyignite/0.6.0/pyignite-0.6.0.zip"
@@ -4193,6 +4223,9 @@
 "incubator-kvrocks": {
 "apache-kvrocks-2.1.0-incubating": [
 "incubator/kvrocks/2.1.0/apache-kvrocks-2.1.0-incubating-src.tar.gz"
+],
+"apache-kvrocks-2.2.0-incubating": [
+"incubator/kvrocks/2.2.0/apache-kvrocks-2.2.0-incubating-src.tar.gz"
 ]
 },
 "incubator-kyuubi": {
@@ -5242,8 +5275,8 @@
 "maven-info-reports-plugin-3.4.1": [
 "maven/plugins/maven-project-info-reports-plugin-3.4.1-source-release.zip"
 ],
-"maven-install-plugin-3.0.1": [
-"maven/plugins/maven-install-plugin-3.0.1-source-release.zip"
+"maven-install-plugin-3.1.0": [
+"maven/plugins/maven-install-plugin-3.1.0-source-release.zip"
 ],
 "maven-invoker-3.2.0": [
 "maven/shared/maven-invoker-3.2.0-source-release.zip"
@@ -5328,8 +5361,8 @@
 "maven-reporting-impl-4.0.0-M2": [
 "maven/reporting/maven-reporting-impl-4.0.0-M2-source-release.zip"
 ],
-"maven-resolver-1.9.0": [
-"maven/resolver/maven-resolver-1.9.0-source-release.zip"
+"maven-resolver-1.9.1": [
+"maven/resolver/maven-resolver-1.9.1-source-release.zip"
 ],
 "maven-resolver-ant-tasks-1.4.0": [
 "maven/resolver/maven-resolver-ant-tasks-1.4.0-source-release.zip"
@@ -10572,6 +10605,10 @@
 "solr/solr/9.0.0/solr-9.0.0-src.tgz",
 "solr/solr/9.0.0/solr-9.0.0.tgz"
 ],
+"solr-9.1.0": [
+"solr/solr/9.1.0/solr-9.1.0-src.tgz",
+"solr/solr/9.1.0/solr-9.1.0.tgz"
+],
 "solr-operator-0.6.0": [
 "solr/solr-operator/v0.6.0/helm-charts/solr-operator-0.6.0.tgz"
 ],
@@ -11447,6 +11484,9 @@
 ],
 "unomi-1.6.1": [
 "unomi/1.6.1/unomi-1.6.1-src.zip"
+],
+"unomi-1.7.0": [
+"unomi/1.7.0/unomi-1.7.0-src.zip"
 ],
 "unomi-2.0.0": [
 "unomi/2.0.0/unomi-2.0.0-src.zip"
