@@ -709,8 +709,8 @@
 "apache-arrow-9.0.0": [
 "arrow/arrow-9.0.0/apache-arrow-9.0.0.tar.gz"
 ],
-"apache-arrow-ballista-0.9.0": [
-"arrow/arrow-ballista-0.9.0/apache-arrow-ballista-0.9.0.tar.gz"
+"apache-arrow-ballista-0.10.0": [
+"arrow/arrow-ballista-0.10.0/apache-arrow-ballista-0.10.0.tar.gz"
 ],
 "apache-arrow-datafusion-14.0.0": [
 "arrow/arrow-datafusion-14.0.0/apache-arrow-datafusion-14.0.0.tar.gz"
@@ -2397,23 +2397,11 @@
 "cxf/3.3.13/apache-cxf-3.3.13.tar.gz",
 "cxf/3.3.13/apache-cxf-3.3.13.zip"
 ],
-"apache-cxf-3.4.8": [
-"cxf/3.4.8/apache-cxf-3.4.8-src.tar.gz",
-"cxf/3.4.8/apache-cxf-3.4.8-src.zip",
-"cxf/3.4.8/apache-cxf-3.4.8.tar.gz",
-"cxf/3.4.8/apache-cxf-3.4.8.zip"
-],
 "apache-cxf-3.4.9": [
 "cxf/3.4.9/apache-cxf-3.4.9-src.tar.gz",
 "cxf/3.4.9/apache-cxf-3.4.9-src.zip",
 "cxf/3.4.9/apache-cxf-3.4.9.tar.gz",
 "cxf/3.4.9/apache-cxf-3.4.9.zip"
-],
-"apache-cxf-3.5.3": [
-"cxf/3.5.3/apache-cxf-3.5.3-src.tar.gz",
-"cxf/3.5.3/apache-cxf-3.5.3-src.zip",
-"cxf/3.5.3/apache-cxf-3.5.3.tar.gz",
-"cxf/3.5.3/apache-cxf-3.5.3.zip"
 ],
 "apache-cxf-3.5.4": [
 "cxf/3.5.4/apache-cxf-3.5.4-src.tar.gz",
@@ -2426,13 +2414,6 @@
 ],
 "apache-fediz-1.6.0": [
 "cxf/fediz/1.6.0/apache-fediz-1.6.0.zip"
-],
-"cxf-dosgi-main-2.3.0": [
-"cxf/dosgi/2.3.0/cxf-dosgi-main-2.3.0-source-release.zip"
-],
-"cxf-dosgi-multibundle-distribution-2.3.0-dir": [
-"cxf/dosgi/2.3.0/cxf-dosgi-multibundle-distribution-2.3.0-dir.tar.gz",
-"cxf/dosgi/2.3.0/cxf-dosgi-multibundle-distribution-2.3.0-dir.zip"
 ],
 "fediz-1.5.1": [
 "cxf/fediz/1.5.1/fediz-1.5.1-source-release.zip"
@@ -2661,6 +2642,9 @@
 "apache-dolphinscheduler-3.0.1": [
 "dolphinscheduler/3.0.1/apache-dolphinscheduler-3.0.1-src.tar.gz"
 ],
+"apache-dolphinscheduler-3.0.2": [
+"dolphinscheduler/3.0.2/apache-dolphinscheduler-3.0.2-src.tar.gz"
+],
 "apache-dolphinscheduler-3.1.0": [
 "dolphinscheduler/3.1.0/apache-dolphinscheduler-3.1.0-src.tar.gz"
 ],
@@ -2802,6 +2786,9 @@
 ],
 "apache-druid-24.0.0": [
 "druid/24.0.0/apache-druid-24.0.0-src.tar.gz"
+],
+"apache-druid-24.0.1": [
+"druid/24.0.1/apache-druid-24.0.1-src.tar.gz"
 ]
 },
 "dubbo": {
@@ -4971,6 +4958,10 @@
 "lucene-9.4.1": [
 "lucene/java/9.4.1/lucene-9.4.1-src.tgz",
 "lucene/java/9.4.1/lucene-9.4.1.tgz"
+],
+"lucene-9.4.2": [
+"lucene/java/9.4.2/lucene-9.4.2-src.tgz",
+"lucene/java/9.4.2/lucene-9.4.2.tgz"
 ],
 "pylucene-7.7.1": [
 "lucene/pylucene/pylucene-7.7.1-src.tar.gz"
@@ -9270,8 +9261,8 @@
 "apache-servicecomb-java-chassis-distribution-1.3.10": [
 "servicecomb/servicecomb-java-chassis/1.3.10/apache-servicecomb-java-chassis-distribution-1.3.10-src.zip"
 ],
-"apache-servicecomb-java-chassis-distribution-2.8.2": [
-"servicecomb/servicecomb-java-chassis/2.8.2/apache-servicecomb-java-chassis-distribution-2.8.2-src.zip"
+"apache-servicecomb-java-chassis-distribution-2.8.3": [
+"servicecomb/servicecomb-java-chassis/2.8.3/apache-servicecomb-java-chassis-distribution-2.8.3-src.zip"
 ],
 "apache-servicecomb-kie-0.2.0": [
 "servicecomb/servicecomb-kie/0.2.0/apache-servicecomb-kie-0.2.0-src.tar.gz"
@@ -9824,10 +9815,10 @@
 "org.apache.sling.feature.apiregions-1.1.8": [
 "sling/org.apache.sling.feature.apiregions-1.1.8-source-release.zip"
 ],
-"org.apache.sling.feature.cpconverter-1.1.22": [
-"sling/org.apache.sling.feature.cpconverter-1.1.22-source-release.zip",
-"sling/org.apache.sling.feature.cpconverter-1.1.22.tar.gz",
-"sling/org.apache.sling.feature.cpconverter-1.1.22.zip"
+"org.apache.sling.feature.cpconverter-1.1.24": [
+"sling/org.apache.sling.feature.cpconverter-1.1.24-source-release.zip",
+"sling/org.apache.sling.feature.cpconverter-1.1.24.tar.gz",
+"sling/org.apache.sling.feature.cpconverter-1.1.24.zip"
 ],
 "org.apache.sling.feature.diff-0.0.6": [
 "sling/org.apache.sling.feature.diff-0.0.6-source-release.zip"
@@ -10977,6 +10968,19 @@
 "tomcat/tomcat-8/v8.5.83/src/apache-tomcat-8.5.83-src.tar.gz",
 "tomcat/tomcat-8/v8.5.83/src/apache-tomcat-8.5.83-src.zip"
 ],
+"apache-tomcat-8.5.84": [
+"tomcat/tomcat-8/v8.5.84/bin/embed/apache-tomcat-8.5.84-embed.tar.gz",
+"tomcat/tomcat-8/v8.5.84/bin/embed/apache-tomcat-8.5.84-embed.zip",
+"tomcat/tomcat-8/v8.5.84/bin/apache-tomcat-8.5.84-deployer.tar.gz",
+"tomcat/tomcat-8/v8.5.84/bin/apache-tomcat-8.5.84-deployer.zip",
+"tomcat/tomcat-8/v8.5.84/bin/apache-tomcat-8.5.84-fulldocs.tar.gz",
+"tomcat/tomcat-8/v8.5.84/bin/apache-tomcat-8.5.84-windows-x64.zip",
+"tomcat/tomcat-8/v8.5.84/bin/apache-tomcat-8.5.84.exe",
+"tomcat/tomcat-8/v8.5.84/bin/apache-tomcat-8.5.84.tar.gz",
+"tomcat/tomcat-8/v8.5.84/bin/apache-tomcat-8.5.84.zip",
+"tomcat/tomcat-8/v8.5.84/src/apache-tomcat-8.5.84-src.tar.gz",
+"tomcat/tomcat-8/v8.5.84/src/apache-tomcat-8.5.84-src.zip"
+],
 "apache-tomcat-9.0.68": [
 "tomcat/tomcat-9/v9.0.68/bin/embed/apache-tomcat-9.0.68-embed.tar.gz",
 "tomcat/tomcat-9/v9.0.68/bin/embed/apache-tomcat-9.0.68-embed.zip",
@@ -11481,6 +11485,9 @@
 ],
 "unomi-1.7.0": [
 "unomi/1.7.0/unomi-1.7.0-src.zip"
+],
+"unomi-1.7.1": [
+"unomi/1.7.1/unomi-1.7.1-src.zip"
 ],
 "unomi-2.0.0": [
 "unomi/2.0.0/unomi-2.0.0-src.zip"
