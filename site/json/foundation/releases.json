@@ -28,7 +28,8 @@
 "activemq-cli-tools-0.1.0": "2017-05-12",
 "activemq-cli-tools-0.2.0": "2020-07-22",
 "activemq-cpp-library-3.9.5": "2019-01-25",
-"apache-artemis-2.27.0": "2022-11-09"
+"apache-artemis-2.27.0": "2022-11-09",
+"apache-artemis-2.27.1": "2022-11-28"
 },
 "age": {
 "apache-age-1.1.0": "2022-08-16",
@@ -44,7 +45,7 @@
 "airflow-1.7.0.tgz.prov": "2022-10-14",
 "airflow-chart-1.6.0": "2022-05-20",
 "airflow-chart-1.7.0": "2022-10-14",
-"apache-airflow-2.4.3": "2022-11-14",
+"apache-airflow-2.5.0": "2022-12-02",
 "apache-airflow-client-2.1.0": "2021-05-31",
 "apache-airflow-client-2.2.0": "2021-12-01",
 "apache-airflow-client-2.3.0": "2022-08-03",
@@ -77,7 +78,7 @@
 "apache-airflow-providers-discord-3.1.0": "2022-11-18",
 "apache-airflow-providers-docker-3.3.0": "2022-11-18",
 "apache-airflow-providers-elasticsearch-4.3.1": "2022-11-29",
-"apache-airflow-providers-exasol-4.1.1": "2022-11-29",
+"apache-airflow-providers-exasol-4.1.2": "2022-12-02",
 "apache-airflow-providers-facebook-3.1.0": "2022-11-18",
 "apache-airflow-providers-ftp-3.2.0": "2022-11-18",
 "apache-airflow-providers-github-2.2.0": "2022-11-18",
@@ -115,7 +116,7 @@
 "apache-airflow-providers-sftp-4.2.0": "2022-11-18",
 "apache-airflow-providers-singularity-3.1.0": "2022-11-18",
 "apache-airflow-providers-slack-7.1.0": "2022-11-29",
-"apache-airflow-providers-snowflake-4.0.1": "2022-11-29",
+"apache-airflow-providers-snowflake-4.0.2": "2022-12-02",
 "apache-airflow-providers-sqlite-3.3.1": "2022-11-29",
 "apache-airflow-providers-ssh-3.3.0": "2022-11-18",
 "apache-airflow-providers-tableau-4.0.0": "2022-11-18",
@@ -124,7 +125,7 @@
 "apache-airflow-providers-trino-4.3.0": "2022-11-29",
 "apache-airflow-providers-vertica-3.3.1": "2022-11-29",
 "apache-airflow-providers-yandex-3.2.0": "2022-11-29",
-"apache-airflow-providers-zendesk-4.1.0": "2022-11-18",
+"apache-airflow-providers-zendesk-4.2.0": "2022-12-02",
 "apache-airflow-upgrade-check-1.4.0": "2021-06-26"
 },
 "allura": {
@@ -699,7 +700,6 @@
 "commons-logging-1.2": "2014-07-09",
 "commons-math-2.2": "2013-03-03",
 "commons-math3-3.6.1": "2016-03-21",
-"commons-net-3.8.0": "2021-02-19",
 "commons-net-3.9.0": "2022-12-01",
 "commons-numbers-1.1": "2022-11-01",
 "commons-pool2-2.11.1": "2021-08-17",
@@ -1066,6 +1066,7 @@
 "apache-flink-statefun-3.2.0": "2022-01-25",
 "flink-1.15.3": "2022-11-10",
 "flink-1.16.0": "2022-10-20",
+"flink-connector-aws-3.0.0": "2022-11-28",
 "flink-connector-cassandra-3.0.0": "2022-11-25",
 "flink-connector-elasticsearch-3.0.0": "2022-11-03",
 "flink-kubernetes-operator-1.1.0": "2022-07-20",
@@ -1424,7 +1425,6 @@
 "apache-seatunnel-incubating-2.3.0-beta": "2022-10-24"
 },
 "incubator-sedona": {
-"apache-sedona-1.2.0-incubating": "2022-04-15",
 "apache-sedona-1.2.1-incubating": "2022-08-30",
 "apache-sedona-1.3.0-incubating": "2022-12-01"
 },
@@ -1465,7 +1465,7 @@
 "iotdb": {
 "apache-iotdb-0.12.6": "2022-07-13",
 "apache-iotdb-0.13.3": "2022-10-21",
-"apache-iotdb-0.14.0-preview3": "2022-10-14"
+"apache-iotdb-1.0.0": "2022-12-02"
 },
 "isis": {
 "isis-bom-2.0.0-M9": "2022-10-18"
@@ -1749,9 +1749,9 @@
 "maven-release-3.0.0-M7": "2022-11-02",
 "maven-remote-resources-plugin-3.0.0": "2022-07-20",
 "maven-reporting-api-4.0.0-M3": "2022-11-26",
-"maven-reporting-exec-2.0.0-M2": "2022-07-22",
+"maven-reporting-exec-2.0.0-M3": "2022-12-02",
 "maven-reporting-impl-3.2.0": "2022-08-09",
-"maven-reporting-impl-4.0.0-M2": "2022-07-08",
+"maven-reporting-impl-4.0.0-M3": "2022-12-02",
 "maven-resolver-1.9.2": "2022-11-26",
 "maven-resolver-ant-tasks-1.4.0": "2021-11-26",
 "maven-resources-plugin-3.3.0": "2022-07-25",
@@ -1869,6 +1869,7 @@
 "apache-netbeans-java-15.0.0.vsix": "2022-09-02",
 "apache-netbeans-java-15.0.301": "2022-10-14",
 "apache-netbeans-java-15.0.301.vsix": "2022-10-14",
+"apache-netbeans-java-16.0.0.vsix": "2022-12-02",
 "bcpg.nbm": "2022-08-27",
 "bcpkix.nbm": "2022-08-27",
 "bcprov.nbm": "2022-08-27",
@@ -2788,9 +2789,9 @@
 "openwhisk-wskdeploy-1.2.0": "2021-03-19"
 },
 "orc": {
-"orc-1.7.6": "2022-08-15",
 "orc-1.7.7": "2022-11-14",
-"orc-1.8.0": "2022-08-27"
+"orc-1.8.0": "2022-08-27",
+"orc-1.8.1": "2022-11-29"
 },
 "ozone": {
 "ozone-1.1.0": "2021-04-17",
