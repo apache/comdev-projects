@@ -720,8 +720,8 @@
 "apache-arrow-ballista-0.10.0": [
 "arrow/arrow-ballista-0.10.0/apache-arrow-ballista-0.10.0.tar.gz"
 ],
-"apache-arrow-datafusion-14.0.0": [
-"arrow/arrow-datafusion-14.0.0/apache-arrow-datafusion-14.0.0.tar.gz"
+"apache-arrow-datafusion-15.0.0": [
+"arrow/arrow-datafusion-15.0.0/apache-arrow-datafusion-15.0.0.tar.gz"
 ],
 "apache-arrow-datafusion-python-0.7.0": [
 "arrow/arrow-datafusion-python-0.7.0/apache-arrow-datafusion-python-0.7.0.tar.gz"
@@ -737,6 +737,9 @@
 ],
 "apache-arrow-object-store-rs-0.5.1": [
 "arrow/arrow-object-store-rs-0.5.1/apache-arrow-object-store-rs-0.5.1.tar.gz"
+],
+"apache-arrow-object-store-rs-0.5.2": [
+"arrow/arrow-object-store-rs-0.5.2/apache-arrow-object-store-rs-0.5.2.tar.gz"
 ],
 "apache-arrow-rs-28.0.0": [
 "arrow/arrow-rs-28.0.0/apache-arrow-rs-28.0.0.tar.gz"
@@ -1850,11 +1853,11 @@
 "cayenne/4.1.1/cayenne-4.1.1-win.zip",
 "cayenne/4.1.1/cayenne-4.1.1.tar.gz"
 ],
-"cayenne-4.2.RC1": [
-"cayenne/4.2.RC1/cayenne-4.2.RC1-macosx.dmg",
-"cayenne/4.2.RC1/cayenne-4.2.RC1-src.tar.gz",
-"cayenne/4.2.RC1/cayenne-4.2.RC1-win.zip",
-"cayenne/4.2.RC1/cayenne-4.2.RC1.tar.gz"
+"cayenne-4.2.RC2": [
+"cayenne/4.2.RC2/cayenne-4.2.RC2-macosx.dmg",
+"cayenne/4.2.RC2/cayenne-4.2.RC2-src.tar.gz",
+"cayenne/4.2.RC2/cayenne-4.2.RC2-win.zip",
+"cayenne/4.2.RC2/cayenne-4.2.RC2.tar.gz"
 ]
 },
 "celix": {
@@ -2736,14 +2739,26 @@
 "apache-doris-flink-connector-1.14_2.11-1.1.0": [
 "doris/flink-connector/1.1.0/apache-doris-flink-connector-1.14_2.11-1.1.0-src.tar.gz"
 ],
+"apache-doris-flink-connector-1.14_2.11-1.1.1": [
+"doris/flink-connector/1.1.1/apache-doris-flink-connector-1.14_2.11-1.1.1-src.tar.gz"
+],
 "apache-doris-flink-connector-1.14_2.12-1.0.3-incubating": [
 "doris/flink-connector/1.0.3/apache-doris-flink-connector-1.14_2.12-1.0.3-incubating-src.tar.gz"
 ],
 "apache-doris-flink-connector-1.14_2.12-1.1.0": [
 "doris/flink-connector/1.1.0/apache-doris-flink-connector-1.14_2.12-1.1.0-src.tar.gz"
 ],
+"apache-doris-flink-connector-1.14_2.12-1.1.1": [
+"doris/flink-connector/1.1.1/apache-doris-flink-connector-1.14_2.12-1.1.1-src.tar.gz"
+],
 "apache-doris-flink-connector-1.15-1.2.0": [
 "doris/flink-connector/1.2.0/apache-doris-flink-connector-1.15-1.2.0-src.tar.gz"
+],
+"apache-doris-flink-connector-1.15-1.2.1": [
+"doris/flink-connector/1.2.1/apache-doris-flink-connector-1.15-1.2.1-src.tar.gz"
+],
+"apache-doris-flink-connector-1.16-1.3.0": [
+"doris/flink-connector/1.3.0/apache-doris-flink-connector-1.16-1.3.0-src.tar.gz"
 ],
 "apache-doris-spark-connector-2.3_2.11-1.0.1-incubating": [
 "doris/spark-connector/1.0.1/apache-doris-spark-connector-2.3_2.11-1.0.1-incubating-src.tar.gz"
@@ -3846,7 +3861,6 @@
 "hbase": {
 "RELEASENOTES.md": [
 "hbase/2.4.15/RELEASENOTES.md",
-"hbase/2.5.1/RELEASENOTES.md",
 "hbase/2.5.2/RELEASENOTES.md",
 "hbase/3.0.0-alpha-3/RELEASENOTES.md",
 "hbase/hbase-filesystem-1.0.0-alpha1/RELEASENOTES.md",
@@ -3855,9 +3869,6 @@
 ],
 "hbase-2.4.15": [
 "hbase/2.4.15/hbase-2.4.15-src.tar.gz"
-],
-"hbase-2.5.1": [
-"hbase/2.5.1/hbase-2.5.1-src.tar.gz"
 ],
 "hbase-2.5.2": [
 "hbase/2.5.2/hbase-2.5.2-src.tar.gz"
@@ -4528,17 +4539,8 @@
 "jackrabbit-filevault-3.2.8": [
 "jackrabbit/filevault/3.2.8/jackrabbit-filevault-3.2.8-src.zip"
 ],
-"jackrabbit-filevault-3.4.10": [
-"jackrabbit/filevault/3.4.10/jackrabbit-filevault-3.4.10-src.zip"
-],
-"jackrabbit-filevault-3.5.8": [
-"jackrabbit/filevault/3.5.8/jackrabbit-filevault-3.5.8-src.zip"
-],
-"jackrabbit-filevault-3.6.0": [
-"jackrabbit/filevault/3.6.0/jackrabbit-filevault-3.6.0-src.zip"
-],
-"jackrabbit-filevault-3.6.4": [
-"jackrabbit/filevault/3.6.4/jackrabbit-filevault-3.6.4-src.zip"
+"jackrabbit-filevault-3.6.6": [
+"jackrabbit/filevault/3.6.6/jackrabbit-filevault-3.6.6-src.zip"
 ],
 "jackrabbit-jca-2.14.10": [
 "jackrabbit/2.14.10/jackrabbit-jca-2.14.10.rar"
@@ -5435,11 +5437,8 @@
 "maven-shared-utils-3.3.4": [
 "maven/shared/maven-shared-utils-3.3.4-source-release.zip"
 ],
-"maven-site-plugin-3.12.1": [
-"maven/plugins/maven-site-plugin-3.12.1-source-release.zip"
-],
-"maven-site-plugin-4.0.0-M3": [
-"maven/plugins/maven-site-plugin-4.0.0-M3-source-release.zip"
+"maven-site-plugin-4.0.0-M4": [
+"maven/plugins/maven-site-plugin-4.0.0-M4-source-release.zip"
 ],
 "maven-source-plugin-3.2.1": [
 "maven/plugins/maven-source-plugin-3.2.1-source-release.zip"
@@ -5756,6 +5755,9 @@
 ]
 },
 "netbeans": {
+"apache-netbeans-16-0.noarch": [
+"netbeans/netbeans-installers/16/apache-netbeans-16-0.noarch.rpm"
+],
 "apache-netbeans-jackpot-13.0": [
 "netbeans/netbeans-jackpot/netbeans-jackpot-13.0/apache-netbeans-jackpot-13.0.zip"
 ],
@@ -5831,6 +5833,9 @@
 ],
 "nbm-suite-root-1.12": [
 "netbeans/netbeans-maven-archetypes/nbm-suite-root/nbm-suite-root-1.12/nbm-suite-root-1.12-source-release.zip"
+],
+"nbpackage-1.0-beta2": [
+"netbeans/netbeans-nbpackage/1.0-beta2/nbpackage-1.0-beta2-src.zip"
 ],
 "net-java-html-boot-fx.nbm": [
 "netbeans/netbeans/15/nbms/platform/net-java-html-boot-fx.nbm",
@@ -11274,23 +11279,23 @@
 "org.apache.sling.testing.logging-mock-2.0.0": [
 "sling/org.apache.sling.testing.logging-mock-2.0.0-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock-3.3.2": [
-"sling/org.apache.sling.testing.osgi-mock-3.3.2-source-release.zip"
+"org.apache.sling.testing.osgi-mock-3.3.4": [
+"sling/org.apache.sling.testing.osgi-mock-3.3.4-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.core-3.3.2": [
-"sling/org.apache.sling.testing.osgi-mock.core-3.3.2-source-release.zip"
+"org.apache.sling.testing.osgi-mock.core-3.3.4": [
+"sling/org.apache.sling.testing.osgi-mock.core-3.3.4-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.junit4-3.3.2": [
-"sling/org.apache.sling.testing.osgi-mock.junit4-3.3.2-source-release.zip"
+"org.apache.sling.testing.osgi-mock.junit4-3.3.4": [
+"sling/org.apache.sling.testing.osgi-mock.junit4-3.3.4-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.junit5-3.3.2": [
-"sling/org.apache.sling.testing.osgi-mock.junit5-3.3.2-source-release.zip"
+"org.apache.sling.testing.osgi-mock.junit5-3.3.4": [
+"sling/org.apache.sling.testing.osgi-mock.junit5-3.3.4-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.parent-3.3.2": [
-"sling/org.apache.sling.testing.osgi-mock.parent-3.3.2-source-release.zip"
+"org.apache.sling.testing.osgi-mock.parent-3.3.4": [
+"sling/org.apache.sling.testing.osgi-mock.parent-3.3.4-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.test-services-3.3.2": [
-"sling/org.apache.sling.testing.osgi-mock.test-services-3.3.2-source-release.zip"
+"org.apache.sling.testing.osgi-mock.test-services-3.3.4": [
+"sling/org.apache.sling.testing.osgi-mock.test-services-3.3.4-source-release.zip"
 ],
 "org.apache.sling.testing.paxexam-3.1.0": [
 "sling/org.apache.sling.testing.paxexam-3.1.0-source-release.zip"
@@ -11813,6 +11818,19 @@
 "tomcat/tomcat-10/v10.1.2/src/apache-tomcat-10.1.2-src.tar.gz",
 "tomcat/tomcat-10/v10.1.2/src/apache-tomcat-10.1.2-src.zip"
 ],
+"apache-tomcat-11.0.0-M1": [
+"tomcat/tomcat-11/v11.0.0-M1/bin/embed/apache-tomcat-11.0.0-M1-embed.tar.gz",
+"tomcat/tomcat-11/v11.0.0-M1/bin/embed/apache-tomcat-11.0.0-M1-embed.zip",
+"tomcat/tomcat-11/v11.0.0-M1/bin/apache-tomcat-11.0.0-M1-deployer.tar.gz",
+"tomcat/tomcat-11/v11.0.0-M1/bin/apache-tomcat-11.0.0-M1-deployer.zip",
+"tomcat/tomcat-11/v11.0.0-M1/bin/apache-tomcat-11.0.0-M1-fulldocs.tar.gz",
+"tomcat/tomcat-11/v11.0.0-M1/bin/apache-tomcat-11.0.0-M1-windows-x64.zip",
+"tomcat/tomcat-11/v11.0.0-M1/bin/apache-tomcat-11.0.0-M1.exe",
+"tomcat/tomcat-11/v11.0.0-M1/bin/apache-tomcat-11.0.0-M1.tar.gz",
+"tomcat/tomcat-11/v11.0.0-M1/bin/apache-tomcat-11.0.0-M1.zip",
+"tomcat/tomcat-11/v11.0.0-M1/src/apache-tomcat-11.0.0-M1-src.tar.gz",
+"tomcat/tomcat-11/v11.0.0-M1/src/apache-tomcat-11.0.0-M1-src.zip"
+],
 "apache-tomcat-8.5.84": [
 "tomcat/tomcat-8/v8.5.84/bin/embed/apache-tomcat-8.5.84-embed.tar.gz",
 "tomcat/tomcat-8/v8.5.84/bin/embed/apache-tomcat-8.5.84-embed.zip",
@@ -11826,22 +11844,22 @@
 "tomcat/tomcat-8/v8.5.84/src/apache-tomcat-8.5.84-src.tar.gz",
 "tomcat/tomcat-8/v8.5.84/src/apache-tomcat-8.5.84-src.zip"
 ],
-"apache-tomcat-9.0.69": [
-"tomcat/tomcat-9/v9.0.69/bin/embed/apache-tomcat-9.0.69-embed.tar.gz",
-"tomcat/tomcat-9/v9.0.69/bin/embed/apache-tomcat-9.0.69-embed.zip",
-"tomcat/tomcat-9/v9.0.69/bin/apache-tomcat-9.0.69-deployer.tar.gz",
-"tomcat/tomcat-9/v9.0.69/bin/apache-tomcat-9.0.69-deployer.zip",
-"tomcat/tomcat-9/v9.0.69/bin/apache-tomcat-9.0.69-fulldocs.tar.gz",
-"tomcat/tomcat-9/v9.0.69/bin/apache-tomcat-9.0.69-windows-x64.zip",
-"tomcat/tomcat-9/v9.0.69/bin/apache-tomcat-9.0.69.exe",
-"tomcat/tomcat-9/v9.0.69/bin/apache-tomcat-9.0.69.tar.gz",
-"tomcat/tomcat-9/v9.0.69/bin/apache-tomcat-9.0.69.zip",
-"tomcat/tomcat-9/v9.0.69/src/apache-tomcat-9.0.69-src.tar.gz",
-"tomcat/tomcat-9/v9.0.69/src/apache-tomcat-9.0.69-src.zip"
+"apache-tomcat-9.0.70": [
+"tomcat/tomcat-9/v9.0.70/bin/embed/apache-tomcat-9.0.70-embed.tar.gz",
+"tomcat/tomcat-9/v9.0.70/bin/embed/apache-tomcat-9.0.70-embed.zip",
+"tomcat/tomcat-9/v9.0.70/bin/apache-tomcat-9.0.70-deployer.tar.gz",
+"tomcat/tomcat-9/v9.0.70/bin/apache-tomcat-9.0.70-deployer.zip",
+"tomcat/tomcat-9/v9.0.70/bin/apache-tomcat-9.0.70-fulldocs.tar.gz",
+"tomcat/tomcat-9/v9.0.70/bin/apache-tomcat-9.0.70-windows-x64.zip",
+"tomcat/tomcat-9/v9.0.70/bin/apache-tomcat-9.0.70.exe",
+"tomcat/tomcat-9/v9.0.70/bin/apache-tomcat-9.0.70.tar.gz",
+"tomcat/tomcat-9/v9.0.70/bin/apache-tomcat-9.0.70.zip",
+"tomcat/tomcat-9/v9.0.70/src/apache-tomcat-9.0.70-src.tar.gz",
+"tomcat/tomcat-9/v9.0.70/src/apache-tomcat-9.0.70-src.zip"
 ],
-"jakartaee-migration-1.0.5": [
-"tomcat/jakartaee-migration/v1.0.5/source/jakartaee-migration-1.0.5-src.tar.gz",
-"tomcat/jakartaee-migration/v1.0.5/source/jakartaee-migration-1.0.5-src.zip"
+"jakartaee-migration-1.0.6": [
+"tomcat/jakartaee-migration/v1.0.6/source/jakartaee-migration-1.0.6-src.tar.gz",
+"tomcat/jakartaee-migration/v1.0.6/source/jakartaee-migration-1.0.6-src.zip"
 ],
 "taglibs-standard-1.2.5": [
 "tomcat/taglibs/taglibs-standard-1.2.5/taglibs-standard-1.2.5-source-release.zip"
