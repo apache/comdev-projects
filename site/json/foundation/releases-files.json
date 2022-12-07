@@ -2001,16 +2001,12 @@
 ]
 },
 "commons": {
-"CONTRIBUTING.md": [
-"commons/geometry/CONTRIBUTING.md",
-"commons/rng/CONTRIBUTING.md"
-],
 "apache-commons-rdf-0.5.0": [
 "commons/rdf/source/apache-commons-rdf-0.5.0-source-release.zip"
 ],
-"bcel-6.6.1": [
-"commons/bcel/source/bcel-6.6.1-src.tar.gz",
-"commons/bcel/source/bcel-6.6.1-src.zip"
+"bcel-6.7.0": [
+"commons/bcel/source/bcel-6.7.0-src.tar.gz",
+"commons/bcel/source/bcel-6.7.0-src.zip"
 ],
 "bsf-2.4.0": [
 "commons/bsf/source/bsf-src-2.4.0.tar.gz",
@@ -2213,6 +2209,10 @@
 "commons-scxml-0.9": [
 "commons/scxml/source/commons-scxml-0.9-src.tar.gz",
 "commons/scxml/source/commons-scxml-0.9-src.zip"
+],
+"commons-statistics-1.0": [
+"commons/statistics/source/commons-statistics-1.0-src.tar.gz",
+"commons/statistics/source/commons-statistics-1.0-src.zip"
 ],
 "commons-text-1.10.0": [
 "commons/text/source/commons-text-1.10.0-src.tar.gz",
@@ -2446,11 +2446,11 @@
 "apache-daffodil-3.4.0-1.noarch": [
 "daffodil/3.4.0/bin/apache-daffodil-3.4.0-1.noarch.rpm"
 ],
-"apache-daffodil-vscode-1.1.0": [
-"daffodil/daffodil-vscode/1.1.0/src/apache-daffodil-vscode-1.1.0-src.zip"
+"apache-daffodil-vscode-1.2.0": [
+"daffodil/daffodil-vscode/1.2.0/src/apache-daffodil-vscode-1.2.0-src.zip"
 ],
-"apache-daffodil-vscode-1.1.0.vsix": [
-"daffodil/daffodil-vscode/1.1.0/bin/apache-daffodil-vscode-1.1.0.vsix"
+"apache-daffodil-vscode-1.2.0.vsix": [
+"daffodil/daffodil-vscode/1.2.0/bin/apache-daffodil-vscode-1.2.0.vsix"
 ]
 },
 "datafu": {
@@ -3934,11 +3934,17 @@
 "apache-hop-2.1.0": [
 "hop/2.1.0/apache-hop-2.1.0-src.tar.gz"
 ],
+"apache-hop-2.2.0": [
+"hop/2.2.0/apache-hop-2.2.0-src.tar.gz"
+],
 "apache-hop-client-2.0.0": [
 "hop/2.0.0/apache-hop-client-2.0.0.zip"
 ],
 "apache-hop-client-2.1.0": [
 "hop/2.1.0/apache-hop-client-2.1.0.zip"
+],
+"apache-hop-client-2.2.0": [
+"hop/2.2.0/apache-hop-client-2.2.0.zip"
 ],
 "hop-0.1.0": [
 "hop/2.1.0/hop-0.1.0.tgz"
