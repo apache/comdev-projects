@@ -2822,6 +2822,9 @@
 ],
 "apache-echarts-5.4.0": [
 "echarts/5.4.0/apache-echarts-5.4.0-src.zip"
+],
+"apache-echarts-5.4.1": [
+"echarts/5.4.1/apache-echarts-5.4.1-src.zip"
 ]
 },
 "empire-db": {
@@ -3357,6 +3360,9 @@
 ],
 "flink-connector-aws-3.0.0": [
 "flink/flink-connector-aws-3.0.0/flink-connector-aws-3.0.0-src.tgz"
+],
+"flink-connector-aws-4.0.0": [
+"flink/flink-connector-aws-4.0.0/flink-connector-aws-4.0.0-src.tgz"
 ],
 "flink-connector-cassandra-3.0.0": [
 "flink/flink-connector-cassandra-3.0.0/flink-connector-cassandra-3.0.0-src.tgz"
@@ -4451,6 +4457,9 @@
 "incubator-uniffle": {
 "apache-uniffle-0.6.0-incubating": [
 "incubator/uniffle/0.6.0/apache-uniffle-0.6.0-incubating-src.tar.gz"
+],
+"apache-uniffle-0.6.1-incubating": [
+"incubator/uniffle/0.6.1/apache-uniffle-0.6.1-incubating-src.tar.gz"
 ]
 },
 "incubator-wayang": {
@@ -9359,14 +9368,8 @@
 ]
 },
 "shardingsphere": {
-"apache-shardingsphere-5.2.1": [
-"shardingsphere/5.2.1/apache-shardingsphere-5.2.1-src.zip"
-],
-"apache-shardingsphere-elasticjob-3.0.1": [
-"shardingsphere/elasticjob-3.0.1/apache-shardingsphere-elasticjob-3.0.1-src.zip"
-],
-"apache-shardingsphere-elasticjob-3.0.1-ui": [
-"shardingsphere/elasticjob-ui-3.0.1/apache-shardingsphere-elasticjob-3.0.1-ui-src.zip"
+"apache-shardingsphere-5.3.0": [
+"shardingsphere/5.3.0/apache-shardingsphere-5.3.0-src.zip"
 ],
 "apache-shardingsphere-elasticjob-3.0.2": [
 "shardingsphere/elasticjob-3.0.2/apache-shardingsphere-elasticjob-3.0.2-src.zip"
@@ -9475,8 +9478,8 @@
 "skywalking-nginx-lua-0.6.0": [
 "skywalking/nginx-lua/0.6.0/skywalking-nginx-lua-0.6.0-src.tgz"
 ],
-"skywalking-nodejs-0.5.1": [
-"skywalking/node-js/0.5.1/skywalking-nodejs-src-0.5.1.tgz"
+"skywalking-nodejs-0.6.0": [
+"skywalking/node-js/0.6.0/skywalking-nodejs-src-0.6.0.tgz"
 ],
 "skywalking-python-0.8.0": [
 "skywalking/python/0.8.0/skywalking-python-src-0.8.0.tgz"
@@ -9864,8 +9867,8 @@
 "org.apache.sling.extensions.webconsolebranding-1.0.2": [
 "sling/org.apache.sling.extensions.webconsolebranding-1.0.2-source-release.zip"
 ],
-"org.apache.sling.extensions.webconsolesecurityprovider-1.2.6": [
-"sling/org.apache.sling.extensions.webconsolesecurityprovider-1.2.6-source-release.zip"
+"org.apache.sling.extensions.webconsolesecurityprovider-1.2.8": [
+"sling/org.apache.sling.extensions.webconsolesecurityprovider-1.2.8-source-release.zip"
 ],
 "org.apache.sling.feature-1.3.0": [
 "sling/org.apache.sling.feature-1.3.0-source-release.zip"
@@ -9884,8 +9887,8 @@
 "org.apache.sling.feature.diff-0.0.6": [
 "sling/org.apache.sling.feature.diff-0.0.6-source-release.zip"
 ],
-"org.apache.sling.feature.extension.apiregions-1.6.2": [
-"sling/org.apache.sling.feature.extension.apiregions-1.6.2-source-release.zip"
+"org.apache.sling.feature.extension.apiregions-1.6.4": [
+"sling/org.apache.sling.feature.extension.apiregions-1.6.4-source-release.zip"
 ],
 "org.apache.sling.feature.extension.content-1.0.10": [
 "sling/org.apache.sling.feature.extension.content-1.0.10-source-release.zip"
@@ -9898,10 +9901,10 @@
 "org.apache.sling.feature.inventoryprinter-1.0.0": [
 "sling/org.apache.sling.feature.inventoryprinter-1.0.0-source-release.zip"
 ],
-"org.apache.sling.feature.launcher-1.2.0": [
-"sling/org.apache.sling.feature.launcher-1.2.0-source-release.zip",
-"sling/org.apache.sling.feature.launcher-1.2.0.tar.gz",
-"sling/org.apache.sling.feature.launcher-1.2.0.zip"
+"org.apache.sling.feature.launcher-1.2.2": [
+"sling/org.apache.sling.feature.launcher-1.2.2-source-release.zip",
+"sling/org.apache.sling.feature.launcher-1.2.2.tar.gz",
+"sling/org.apache.sling.feature.launcher-1.2.2.zip"
 ],
 "org.apache.sling.feature.modelconverter-1.0.14": [
 "sling/org.apache.sling.feature.modelconverter-1.0.14-source-release.zip",
@@ -11011,6 +11014,19 @@
 "tomcat/tomcat-10/v10.1.2/bin/apache-tomcat-10.1.2.zip",
 "tomcat/tomcat-10/v10.1.2/src/apache-tomcat-10.1.2-src.tar.gz",
 "tomcat/tomcat-10/v10.1.2/src/apache-tomcat-10.1.2-src.zip"
+],
+"apache-tomcat-10.1.4": [
+"tomcat/tomcat-10/v10.1.4/bin/embed/apache-tomcat-10.1.4-embed.tar.gz",
+"tomcat/tomcat-10/v10.1.4/bin/embed/apache-tomcat-10.1.4-embed.zip",
+"tomcat/tomcat-10/v10.1.4/bin/apache-tomcat-10.1.4-deployer.tar.gz",
+"tomcat/tomcat-10/v10.1.4/bin/apache-tomcat-10.1.4-deployer.zip",
+"tomcat/tomcat-10/v10.1.4/bin/apache-tomcat-10.1.4-fulldocs.tar.gz",
+"tomcat/tomcat-10/v10.1.4/bin/apache-tomcat-10.1.4-windows-x64.zip",
+"tomcat/tomcat-10/v10.1.4/bin/apache-tomcat-10.1.4.exe",
+"tomcat/tomcat-10/v10.1.4/bin/apache-tomcat-10.1.4.tar.gz",
+"tomcat/tomcat-10/v10.1.4/bin/apache-tomcat-10.1.4.zip",
+"tomcat/tomcat-10/v10.1.4/src/apache-tomcat-10.1.4-src.tar.gz",
+"tomcat/tomcat-10/v10.1.4/src/apache-tomcat-10.1.4-src.zip"
 ],
 "apache-tomcat-11.0.0-M1": [
 "tomcat/tomcat-11/v11.0.0-M1/bin/embed/apache-tomcat-11.0.0-M1-embed.tar.gz",
