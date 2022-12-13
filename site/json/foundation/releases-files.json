@@ -741,8 +741,8 @@
 "apache-arrow-object-store-rs-0.5.2": [
 "arrow/arrow-object-store-rs-0.5.2/apache-arrow-object-store-rs-0.5.2.tar.gz"
 ],
-"apache-arrow-rs-28.0.0": [
-"arrow/arrow-rs-28.0.0/apache-arrow-rs-28.0.0.tar.gz"
+"apache-arrow-rs-29.0.0": [
+"arrow/arrow-rs-29.0.0/apache-arrow-rs-29.0.0.tar.gz"
 ]
 },
 "asterixdb": {
@@ -1058,6 +1058,9 @@
 "apache-camel-k-runtime-1.15.0": [
 "camel/camel-k-runtime/1.15.0/apache-camel-k-runtime-1.15.0-source-release.zip"
 ],
+"apache-camel-k-runtime-1.16.0": [
+"camel/camel-k-runtime/1.16.0/apache-camel-k-runtime-1.16.0-source-release.zip"
+],
 "apache-camel-quarkus-2.13.1": [
 "camel/camel-quarkus/2.13.1/apache-camel-quarkus-2.13.1-src.zip"
 ],
@@ -1102,6 +1105,18 @@
 ],
 "camel-k-client-1.10.3-windows": [
 "camel/camel-k/1.10.3/camel-k-client-1.10.3-windows-64bit.tar.gz"
+],
+"camel-k-client-1.11.0-linux": [
+"camel/camel-k/1.11.0/camel-k-client-1.11.0-linux-64bit.tar.gz"
+],
+"camel-k-client-1.11.0-mac": [
+"camel/camel-k/1.11.0/camel-k-client-1.11.0-mac-64bit.tar.gz"
+],
+"camel-k-client-1.11.0-mac-arm64bit": [
+"camel/camel-k/1.11.0/camel-k-client-1.11.0-mac-arm64bit.tar.gz"
+],
+"camel-k-client-1.11.0-windows": [
+"camel/camel-k/1.11.0/camel-k-client-1.11.0-windows-64bit.tar.gz"
 ],
 "camel-k-client-1.8.2-linux": [
 "camel/camel-k/1.8.2/camel-k-client-1.8.2-linux-64bit.tar.gz"
@@ -1160,6 +1175,9 @@
 "camel-k-examples-1.10.3": [
 "camel/camel-k/1.10.3/camel-k-examples-1.10.3.tar.gz"
 ],
+"camel-k-examples-1.11.0": [
+"camel/camel-k/1.11.0/camel-k-examples-1.11.0.tar.gz"
+],
 "camel-k-examples-1.8.2": [
 "camel/camel-k/1.8.2/camel-k-examples-1.8.2.tar.gz"
 ],
@@ -1187,6 +1205,9 @@
 "camel-k-sources-1.10.3": [
 "camel/camel-k/1.10.3/camel-k-sources-1.10.3.tar.gz"
 ],
+"camel-k-sources-1.11.0": [
+"camel/camel-k/1.11.0/camel-k-sources-1.11.0.tar.gz"
+],
 "camel-k-sources-1.8.2": [
 "camel/camel-k/1.8.2/camel-k-sources-1.8.2.tar.gz"
 ],
@@ -1207,6 +1228,9 @@
 ],
 "camel-kafka-connector-3.18.2": [
 "camel/camel-kafka-connector/3.18.2/camel-kafka-connector-3.18.2-src.zip"
+],
+"camel-kamelets-sources-0.10.0": [
+"camel/camel-kamelets/0.10.0/camel-kamelets-sources-0.10.0.tar.gz"
 ],
 "camel-kamelets-sources-0.7.1": [
 "camel/camel-kamelets/0.7.1/camel-kamelets-sources-0.7.1.tar.gz"
@@ -5662,6 +5686,9 @@
 "myfaces-tobago-5.3.0": [
 "myfaces/source/myfaces-tobago-5.3.0-source-release.zip"
 ],
+"myfaces-tobago-5.4.0": [
+"myfaces/source/myfaces-tobago-5.4.0-source-release.zip"
+],
 "portlet-bridge-1.0.0": [
 "myfaces/source/portlet-bridge-1.0.0-src-all.tar.gz",
 "myfaces/source/portlet-bridge-1.0.0-src-all.zip"
@@ -8155,6 +8182,9 @@
 "nifi-minifi-cpp-0.12.0": [
 "nifi/nifi-minifi-cpp/0.12.0/nifi-minifi-cpp-0.12.0-source.tar.gz"
 ],
+"nifi-minifi-cpp-0.13.0": [
+"nifi/nifi-minifi-cpp/0.13.0/nifi-minifi-cpp-0.13.0-source.tar.gz"
+],
 "nifi-minifi-cpp-0.9.0": [
 "nifi/nifi-minifi-cpp/0.9.0/nifi-minifi-cpp-0.9.0-source.tar.gz"
 ],
@@ -8849,19 +8879,25 @@
 "pulsar": {
 "APKINDEX": [
 "pulsar/pulsar-client-cpp-3.0.0/apk-arm64/aarch64/APKINDEX.tar.gz",
-"pulsar/pulsar-client-cpp-3.0.0/apk-x86_64/x86_64/APKINDEX.tar.gz"
+"pulsar/pulsar-client-cpp-3.0.0/apk-x86_64/x86_64/APKINDEX.tar.gz",
+"pulsar/pulsar-client-cpp-3.1.0/apk-arm64/aarch64/APKINDEX.tar.gz",
+"pulsar/pulsar-client-cpp-3.1.0/apk-x86_64/x86_64/APKINDEX.tar.gz"
 ],
 "Packages": [
 "pulsar/pulsar-2.10.2/DEB/Packages.gz",
 "pulsar/pulsar-2.8.4/DEB/Packages.gz",
 "pulsar/pulsar-client-cpp-3.0.0/deb-arm64/Packages.gz",
-"pulsar/pulsar-client-cpp-3.0.0/deb-x86_64/Packages.gz"
+"pulsar/pulsar-client-cpp-3.0.0/deb-x86_64/Packages.gz",
+"pulsar/pulsar-client-cpp-3.1.0/deb-arm64/Packages.gz",
+"pulsar/pulsar-client-cpp-3.1.0/deb-x86_64/Packages.gz"
 ],
 "apache-pulsar": [
 "pulsar/pulsar-2.10.2/DEB/apache-pulsar-client.deb",
 "pulsar/pulsar-2.8.4/DEB/apache-pulsar-client.deb",
 "pulsar/pulsar-client-cpp-3.0.0/deb-arm64/apache-pulsar-client.deb",
-"pulsar/pulsar-client-cpp-3.0.0/deb-x86_64/apache-pulsar-client.deb"
+"pulsar/pulsar-client-cpp-3.0.0/deb-x86_64/apache-pulsar-client.deb",
+"pulsar/pulsar-client-cpp-3.1.0/deb-arm64/apache-pulsar-client.deb",
+"pulsar/pulsar-client-cpp-3.1.0/deb-x86_64/apache-pulsar-client.deb"
 ],
 "apache-pulsar-2.10.2": [
 "pulsar/pulsar-2.10.2/apache-pulsar-2.10.2-src.tar.gz"
@@ -8879,24 +8915,46 @@
 "pulsar/pulsar-client-cpp-3.0.0/apk-arm64/aarch64/apache-pulsar-client-3.0.0-r0.apk",
 "pulsar/pulsar-client-cpp-3.0.0/apk-x86_64/x86_64/apache-pulsar-client-3.0.0-r0.apk"
 ],
+"apache-pulsar-client-3.1.0-1.aarch64": [
+"pulsar/pulsar-client-cpp-3.1.0/rpm-arm64/aarch64/apache-pulsar-client-3.1.0-1.aarch64.rpm"
+],
+"apache-pulsar-client-3.1.0-r0.apk": [
+"pulsar/pulsar-client-cpp-3.1.0/apk-arm64/aarch64/apache-pulsar-client-3.1.0-r0.apk",
+"pulsar/pulsar-client-cpp-3.1.0/apk-x86_64/x86_64/apache-pulsar-client-3.1.0-r0.apk"
+],
 "apache-pulsar-client-cpp-3.0.0": [
 "pulsar/pulsar-client-cpp-3.0.0/apache-pulsar-client-cpp-3.0.0.tar.gz"
 ],
+"apache-pulsar-client-cpp-3.1.0": [
+"pulsar/pulsar-client-cpp-3.1.0/apache-pulsar-client-cpp-3.1.0.tar.gz"
+],
 "apache-pulsar-client-debuginfo-3.0.0-1.aarch64": [
 "pulsar/pulsar-client-cpp-3.0.0/rpm-arm64/aarch64/apache-pulsar-client-debuginfo-3.0.0-1.aarch64.rpm"
+],
+"apache-pulsar-client-debuginfo-3.1.0-1.aarch64": [
+"pulsar/pulsar-client-cpp-3.1.0/rpm-arm64/aarch64/apache-pulsar-client-debuginfo-3.1.0-1.aarch64.rpm"
 ],
 "apache-pulsar-client-dev": [
 "pulsar/pulsar-2.10.2/DEB/apache-pulsar-client-dev.deb",
 "pulsar/pulsar-2.8.4/DEB/apache-pulsar-client-dev.deb",
 "pulsar/pulsar-client-cpp-3.0.0/deb-arm64/apache-pulsar-client-dev.deb",
-"pulsar/pulsar-client-cpp-3.0.0/deb-x86_64/apache-pulsar-client-dev.deb"
+"pulsar/pulsar-client-cpp-3.0.0/deb-x86_64/apache-pulsar-client-dev.deb",
+"pulsar/pulsar-client-cpp-3.1.0/deb-arm64/apache-pulsar-client-dev.deb",
+"pulsar/pulsar-client-cpp-3.1.0/deb-x86_64/apache-pulsar-client-dev.deb"
 ],
 "apache-pulsar-client-dev-3.0.0-r0.apk": [
 "pulsar/pulsar-client-cpp-3.0.0/apk-arm64/aarch64/apache-pulsar-client-dev-3.0.0-r0.apk",
 "pulsar/pulsar-client-cpp-3.0.0/apk-x86_64/x86_64/apache-pulsar-client-dev-3.0.0-r0.apk"
 ],
+"apache-pulsar-client-dev-3.1.0-r0.apk": [
+"pulsar/pulsar-client-cpp-3.1.0/apk-arm64/aarch64/apache-pulsar-client-dev-3.1.0-r0.apk",
+"pulsar/pulsar-client-cpp-3.1.0/apk-x86_64/x86_64/apache-pulsar-client-dev-3.1.0-r0.apk"
+],
 "apache-pulsar-client-devel-3.0.0-1.aarch64": [
 "pulsar/pulsar-client-cpp-3.0.0/rpm-arm64/aarch64/apache-pulsar-client-devel-3.0.0-1.aarch64.rpm"
+],
+"apache-pulsar-client-devel-3.1.0-1.aarch64": [
+"pulsar/pulsar-client-cpp-3.1.0/rpm-arm64/aarch64/apache-pulsar-client-devel-3.1.0-1.aarch64.rpm"
 ],
 "apache-pulsar-client-go-0.8.1": [
 "pulsar/pulsar-client-go-0.8.1/apache-pulsar-client-go-0.8.1-src.tar.gz"
@@ -8918,6 +8976,9 @@
 ],
 "pulsar-client-node-1.7.0": [
 "pulsar/pulsar-client-node/pulsar-client-node-1.7.0/pulsar-client-node-1.7.0.tar.gz"
+],
+"pulsar-client-reactive-0.1.0": [
+"pulsar/pulsar-client-reactive-0.1.0/pulsar-client-reactive-0.1.0-src.tar.gz"
 ],
 "pulsar-io-aerospike-2.10.2.nar": [
 "pulsar/pulsar-2.10.2/connectors/pulsar-io-aerospike-2.10.2.nar"
@@ -9101,6 +9162,9 @@
 ],
 "pulsar-io-twitter-2.8.4.nar": [
 "pulsar/pulsar-2.8.4/connectors/pulsar-io-twitter-2.8.4.nar"
+],
+"x64-windows-static": [
+"pulsar/pulsar-client-cpp-3.1.0/x64-windows-static.tar.gz"
 ]
 },
 "qpid": {
@@ -9139,6 +9203,9 @@
 ],
 "qpid-proton-dotnet-1.0.0-M6": [
 "qpid/proton-dotnet/1.0.0-M6/qpid-proton-dotnet-src-1.0.0-M6.tar.gz"
+],
+"qpid-proton-dotnet-1.0.0-M7": [
+"qpid/proton-dotnet/1.0.0-M7/qpid-proton-dotnet-src-1.0.0-M7.tar.gz"
 ],
 "qpid-python-1.37.0": [
 "qpid/python/1.37.0/qpid-python-1.37.0.tar.gz"
@@ -10866,34 +10933,34 @@
 ]
 },
 "syncope": {
-"apache-syncope-2.1.12": [
-"syncope/2.1.12/apache-syncope-2.1.12.deb"
+"apache-syncope-2.1.13": [
+"syncope/2.1.13/apache-syncope-2.1.13.deb"
 ],
-"apache-syncope-console-2.1.12": [
-"syncope/2.1.12/apache-syncope-console-2.1.12.deb"
+"apache-syncope-console-2.1.13": [
+"syncope/2.1.13/apache-syncope-console-2.1.13.deb"
 ],
-"apache-syncope-enduser-2.1.12": [
-"syncope/2.1.12/apache-syncope-enduser-2.1.12.deb"
+"apache-syncope-enduser-2.1.13": [
+"syncope/2.1.13/apache-syncope-enduser-2.1.13.deb"
 ],
-"org.apache.syncope.ide.eclipse.site-2.1.12": [
-"syncope/2.1.12/org.apache.syncope.ide.eclipse.site-2.1.12.zip"
+"org.apache.syncope.ide.eclipse.site-2.1.13": [
+"syncope/2.1.13/org.apache.syncope.ide.eclipse.site-2.1.13.zip"
 ],
-"syncope-2.1.12": [
-"syncope/2.1.12/syncope-2.1.12-source-release.zip",
-"syncope/2.1.12/syncope-standalone-2.1.12-distribution.zip"
+"syncope-2.1.13": [
+"syncope/2.1.13/syncope-2.1.13-source-release.zip",
+"syncope/2.1.13/syncope-standalone-2.1.13-distribution.zip"
 ],
 "syncope-3.0.0": [
 "syncope/3.0.0/syncope-3.0.0-source-release.zip",
 "syncope/3.0.0/syncope-standalone-3.0.0-distribution.zip"
 ],
-"syncope-client-cli-2.1.12": [
-"syncope/2.1.12/syncope-client-cli-2.1.12.zip"
+"syncope-client-cli-2.1.13": [
+"syncope/2.1.13/syncope-client-cli-2.1.13.zip"
 ],
-"syncope-core-upgrade-2.1.12": [
-"syncope/2.1.12/syncope-core-upgrade-2.1.12.zip"
+"syncope-core-upgrade-2.1.13": [
+"syncope/2.1.13/syncope-core-upgrade-2.1.13.zip"
 ],
-"syncope-ide-netbeans-2.1.12.nbm": [
-"syncope/2.1.12/syncope-ide-netbeans-2.1.12.nbm"
+"syncope-ide-netbeans-2.1.13.nbm": [
+"syncope/2.1.13/syncope-ide-netbeans-2.1.13.nbm"
 ]
 },
 "systemds": {
