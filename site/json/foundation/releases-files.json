@@ -1070,8 +1070,8 @@
 "apache-camel-quarkus-2.13.1": [
 "camel/camel-quarkus/2.13.1/apache-camel-quarkus-2.13.1-src.zip"
 ],
-"apache-camel-quarkus-2.14.0": [
-"camel/camel-quarkus/2.14.0/apache-camel-quarkus-2.14.0-src.zip"
+"apache-camel-quarkus-2.15.0": [
+"camel/camel-quarkus/2.15.0/apache-camel-quarkus-2.15.0-src.zip"
 ],
 "apache-camel-quarkus-2.7.2": [
 "camel/camel-quarkus/2.7.2/apache-camel-quarkus-2.7.2-src.zip"
@@ -3904,6 +3904,9 @@
 ],
 "helix-1.0.4": [
 "helix/1.0.4/src/helix-1.0.4-src.zip"
+],
+"helix-1.1.0": [
+"helix/1.1.0/src/helix-1.1.0-src.zip"
 ]
 },
 "hive": {
@@ -4368,44 +4371,6 @@
 ],
 "apache-nlpcraft-java-client-incubating-0.9.0": [
 "incubator/nlpcraft/java-client/apache-nlpcraft-java-client-incubating-0.9.0.zip"
-]
-},
-"incubator-nuttx": {
-"apache-nuttx-10.0.1-incubating": [
-"incubator/nuttx/10.0.1/apache-nuttx-10.0.1-incubating.tar.gz"
-],
-"apache-nuttx-10.1.0-incubating": [
-"incubator/nuttx/10.1.0/apache-nuttx-10.1.0-incubating.tar.gz"
-],
-"apache-nuttx-10.2.0-incubating": [
-"incubator/nuttx/10.2.0/apache-nuttx-10.2.0-incubating.tar.gz"
-],
-"apache-nuttx-10.3.0-incubating": [
-"incubator/nuttx/10.3.0/apache-nuttx-10.3.0-incubating.tar.gz"
-],
-"apache-nuttx-11.0.0-incubating": [
-"incubator/nuttx/11.0.0/apache-nuttx-11.0.0-incubating.tar.gz"
-],
-"apache-nuttx-9.1.1-incubating": [
-"incubator/nuttx/9.1.1/apache-nuttx-9.1.1-incubating.tar.gz"
-],
-"apache-nuttx-apps-10.0.1-incubating": [
-"incubator/nuttx/10.0.1/apache-nuttx-apps-10.0.1-incubating.tar.gz"
-],
-"apache-nuttx-apps-10.1.0-incubating": [
-"incubator/nuttx/10.1.0/apache-nuttx-apps-10.1.0-incubating.tar.gz"
-],
-"apache-nuttx-apps-10.2.0-incubating": [
-"incubator/nuttx/10.2.0/apache-nuttx-apps-10.2.0-incubating.tar.gz"
-],
-"apache-nuttx-apps-10.3.0-incubating": [
-"incubator/nuttx/10.3.0/apache-nuttx-apps-10.3.0-incubating.tar.gz"
-],
-"apache-nuttx-apps-11.0.0-incubating": [
-"incubator/nuttx/11.0.0/apache-nuttx-apps-11.0.0-incubating.tar.gz"
-],
-"apache-nuttx-apps-9.1.1-incubating": [
-"incubator/nuttx/9.1.1/apache-nuttx-apps-9.1.1-incubating.tar.gz"
 ]
 },
 "incubator-pagespeed": {
@@ -5232,9 +5197,9 @@
 "maven/maven-3/3.8.6/source/apache-maven-3.8.6-src.tar.gz",
 "maven/maven-3/3.8.6/source/apache-maven-3.8.6-src.zip"
 ],
-"apache-maven-4.0.0-alpha-2": [
-"maven/maven-4/4.0.0-alpha-2/source/apache-maven-4.0.0-alpha-2-src.tar.gz",
-"maven/maven-4/4.0.0-alpha-2/source/apache-maven-4.0.0-alpha-2-src.zip"
+"apache-maven-4.0.0-alpha-3": [
+"maven/maven-4/4.0.0-alpha-3/source/apache-maven-4.0.0-alpha-3-src.tar.gz",
+"maven/maven-4/4.0.0-alpha-3/source/apache-maven-4.0.0-alpha-3-src.zip"
 ],
 "apache-source-release-descriptor-1.0.6": [
 "maven/resources/apache-source-release-assembly-descriptor-1.0.6-source-release.zip"
@@ -8225,6 +8190,44 @@
 "apache-nutch-2.4": [
 "nutch/2.4/apache-nutch-2.4-src.tar.gz",
 "nutch/2.4/apache-nutch-2.4-src.zip"
+]
+},
+"nuttx": {
+"apache-nuttx-10.0.1-incubating": [
+"nuttx/10.0.1/apache-nuttx-10.0.1-incubating.tar.gz"
+],
+"apache-nuttx-10.1.0-incubating": [
+"nuttx/10.1.0/apache-nuttx-10.1.0-incubating.tar.gz"
+],
+"apache-nuttx-10.2.0-incubating": [
+"nuttx/10.2.0/apache-nuttx-10.2.0-incubating.tar.gz"
+],
+"apache-nuttx-10.3.0-incubating": [
+"nuttx/10.3.0/apache-nuttx-10.3.0-incubating.tar.gz"
+],
+"apache-nuttx-11.0.0-incubating": [
+"nuttx/11.0.0/apache-nuttx-11.0.0-incubating.tar.gz"
+],
+"apache-nuttx-9.1.1-incubating": [
+"nuttx/9.1.1/apache-nuttx-9.1.1-incubating.tar.gz"
+],
+"apache-nuttx-apps-10.0.1-incubating": [
+"nuttx/10.0.1/apache-nuttx-apps-10.0.1-incubating.tar.gz"
+],
+"apache-nuttx-apps-10.1.0-incubating": [
+"nuttx/10.1.0/apache-nuttx-apps-10.1.0-incubating.tar.gz"
+],
+"apache-nuttx-apps-10.2.0-incubating": [
+"nuttx/10.2.0/apache-nuttx-apps-10.2.0-incubating.tar.gz"
+],
+"apache-nuttx-apps-10.3.0-incubating": [
+"nuttx/10.3.0/apache-nuttx-apps-10.3.0-incubating.tar.gz"
+],
+"apache-nuttx-apps-11.0.0-incubating": [
+"nuttx/11.0.0/apache-nuttx-apps-11.0.0-incubating.tar.gz"
+],
+"apache-nuttx-apps-9.1.1-incubating": [
+"nuttx/9.1.1/apache-nuttx-apps-9.1.1-incubating.tar.gz"
 ]
 },
 "ofbiz": {
@@ -11370,6 +11373,9 @@
 "trafficserver-8.1.5": [
 "trafficserver/trafficserver-8.1.5.tar.bz2"
 ],
+"trafficserver-8.1.6": [
+"trafficserver/trafficserver-8.1.6.tar.bz2"
+],
 "trafficserver-9.0.2": [
 "trafficserver/trafficserver-9.0.2.tar.bz2"
 ],
@@ -11378,6 +11384,9 @@
 ],
 "trafficserver-9.1.3": [
 "trafficserver/trafficserver-9.1.3.tar.bz2"
+],
+"trafficserver-9.1.4": [
+"trafficserver/trafficserver-9.1.4.tar.bz2"
 ]
 },
 "turbine": {
