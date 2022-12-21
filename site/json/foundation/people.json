@@ -5203,6 +5203,7 @@
 "hadoop",
 "hadoop-pmc",
 "hive",
+"hive-pmc",
 "ozone",
 "submarine"
 ],
@@ -27495,6 +27496,7 @@
 "jlprat": {
 "groups": [
 "incubator",
+"kafka",
 "pekko"
 ],
 "member": false,
@@ -29245,8 +29247,7 @@
 },
 "jstewart": {
 "groups": [
-"geode",
-"geode-pmc"
+"geode"
 ],
 "member": false,
 "name": "Jared Stewart"
@@ -33989,6 +33990,13 @@
 ],
 "member": false,
 "name": "Lior Schachter"
+},
+"lipenglin": {
+"groups": [
+"impala"
+],
+"member": false,
+"name": "Li Penglin"
 },
 "liqiang": {
 "groups": [
@@ -44267,7 +44275,8 @@
 "pifta": {
 "groups": [
 "hadoop",
-"ozone"
+"ozone",
+"ozone-pmc"
 ],
 "member": false,
 "name": "István Fajth"
@@ -47639,7 +47648,8 @@
 },
 "ritesh": {
 "groups": [
-"ozone"
+"ozone",
+"ozone-pmc"
 ],
 "member": false,
 "name": "Ritesh Shukla"
