@@ -1300,7 +1300,7 @@
 "shortdesc": "Enterprise OSGi application programming model"
 },
 {
-"chair": "kou",
+"chair": "alamb",
 "charter": "The mission of Apache Arrow is the creation and maintenance of software related to columnar in-memory processing and data interchange",
 "established": "2016-01",
 "group": "arrow",
@@ -2754,6 +2754,72 @@
 }
 },
 "shortdesc": "Framework for modeling, monitoring, and managing applications through autonomic blueprints"
+},
+{
+"chair": "jamesge",
+"charter": "The mission of Apache bRPC is the creation and maintenance of software related to an industrial-grade RPC framework for building reliable and high-performance services",
+"established": "2022-12",
+"group": "brpc",
+"homepage": "http://brpc.apache.org",
+"id": "brpc",
+"name": "Apache bRPC",
+"rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/brpc.rdf",
+"reporting": 1,
+"roster": {
+"caidj": {
+"date": "2022-12-21",
+"name": "Cai Daojin"
+},
+"fisherman": {
+"date": "2022-12-21",
+"name": "Yao Wang"
+},
+"jamesge": {
+"date": "2022-12-21",
+"name": "James Ge"
+},
+"jbonofre": {
+"date": "2022-12-21",
+"name": "Jean-Baptiste Onofr\u00e9"
+},
+"jerrytan": {
+"date": "2022-12-21",
+"name": "Jerry Tan"
+},
+"jiashunzhu": {
+"date": "2022-12-21",
+"name": "Jiashun Zhu"
+},
+"jrjbear": {
+"date": "2022-12-21",
+"name": "Bear Jiang"
+},
+"leander": {
+"date": "2022-12-21",
+"name": "He Lei"
+},
+"lorinlee": {
+"date": "2022-12-21",
+"name": "Lorin Lee"
+},
+"panjuan": {
+"date": "2022-12-21",
+"name": "Juan Pan"
+},
+"vongosling": {
+"date": "2022-12-21",
+"name": "Von Gosling"
+},
+"wwbmmm": {
+"date": "2022-12-21",
+"name": "Wang Weibing"
+},
+"zychen": {
+"date": "2022-12-21",
+"name": "Zhangyi Chen"
+}
+},
+"shortdesc": "an industrial-grade RPC framework for building reliable and high-performance services"
 },
 {
 "chair": "tvb",
@@ -12740,6 +12806,68 @@
 "shortdesc": "Extreme OLAP Engine for Big Data"
 },
 {
+"chair": "yao",
+"charter": "The mission of Apache Kyuubi is the creation and maintenance of software related to a distributed and multi-tenant gateway to provide serverless SQL on data warehouses and lakehouses",
+"established": "2022-12",
+"group": "kyuubi",
+"homepage": "http://kyuubi.apache.org",
+"id": "kyuubi",
+"name": "Apache Kyuubi",
+"rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/kyuubi.rdf",
+"reporting": 3,
+"roster": {
+"aajisaka": {
+"date": "2022-12-21",
+"name": "Akira Ajisaka"
+},
+"chengpan": {
+"date": "2022-12-21",
+"name": "Cheng Pan"
+},
+"csy": {
+"date": "2022-12-21",
+"name": "Shaoyun Chen"
+},
+"feiwang": {
+"date": "2022-12-21",
+"name": "Fei Wang"
+},
+"hongdd": {
+"date": "2022-12-21",
+"name": "Dongdong Hong"
+},
+"jhx1008": {
+"date": "2022-12-21",
+"name": "Hongxiang Jiang"
+},
+"ningjiang": {
+"date": "2022-12-21",
+"name": "Willem Ning Jiang"
+},
+"ulyssesyou": {
+"date": "2022-12-21",
+"name": "XiDuo You"
+},
+"vinoyang": {
+"date": "2022-12-21",
+"name": "Vino Yang"
+},
+"yao": {
+"date": "2022-12-21",
+"name": "Kent Yao"
+},
+"zhangduo": {
+"date": "2022-12-21",
+"name": "Duo Zhang"
+},
+"zjffdu": {
+"date": "2022-12-21",
+"name": "Jeff Zhang"
+}
+},
+"shortdesc": "a distributed and multi-tenant gateway to provide serverless SQL on data warehouses and lakehouses"
+},
+{
 "chair": "tomaz",
 "charter": "The mission of Libcloud is the creation and maintenance of software related to Unified interface to the cloud",
 "established": "2011-05",
@@ -12816,6 +12944,112 @@
 }
 },
 "shortdesc": "Unified interface to the cloud"
+},
+{
+"chair": "shuaidi",
+"charter": "The mission of Apache Linkis is the creation and maintenance of software related to a distributed computation middleware to facilitate connection, governance and orchestration between the upper applications and the underlying data engines",
+"established": "2022-12",
+"group": "linkis",
+"homepage": "http://linkis.apache.org",
+"id": "linkis",
+"name": "Apache Linkis",
+"rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/linkis.rdf",
+"reporting": 3,
+"roster": {
+"alexkun": {
+"date": "2022-12-21",
+"name": "Alex Young"
+},
+"brianrongzhang": {
+"date": "2022-12-21",
+"name": "Rong Zhang"
+},
+"cooperyang": {
+"date": "2022-12-21",
+"name": "Zhiyue Yang"
+},
+"davidhua": {
+"date": "2022-12-21",
+"name": "Deyi Hua"
+},
+"enjoyyin": {
+"date": "2022-12-21",
+"name": "Qiang Yin"
+},
+"jackxu2011": {
+"date": "2022-12-21",
+"name": "Ling Xu"
+},
+"jackyxie": {
+"date": "2022-12-21",
+"name": "Jacky Xie"
+},
+"jshao": {
+"date": "2022-12-21",
+"name": "Jerry Shao"
+},
+"junping_du": {
+"date": "2022-12-21",
+"name": "Junping Du"
+},
+"kirkzhou": {
+"date": "2022-12-21",
+"name": "Ke Zhou"
+},
+"leebai": {
+"date": "2022-12-21",
+"name": "Le Bai"
+},
+"legendtkl": {
+"date": "2022-12-21",
+"name": "Kelu Tao"
+},
+"leojie": {
+"date": "2022-12-21",
+"name": "Longping Jie"
+},
+"liangqilang": {
+"date": "2022-12-21",
+"name": "Hui Zhu"
+},
+"lidongdai": {
+"date": "2022-12-21",
+"name": "Lidong Dai"
+},
+"peacewong": {
+"date": "2022-12-21",
+"name": "Heping Wang"
+},
+"seayi": {
+"date": "2022-12-21",
+"name": "Xiaohua Yi"
+},
+"shaofengshi": {
+"date": "2022-12-21",
+"name": "Shao Feng Shi"
+},
+"shuaidi": {
+"date": "2022-12-21",
+"name": "Shuai Di"
+},
+"wangxiaogang": {
+"date": "2022-12-21",
+"name": "Xiaogang Wang"
+},
+"wangzhen": {
+"date": "2022-12-21",
+"name": "Zhen Wang"
+},
+"zhangduo": {
+"date": "2022-12-21",
+"name": "Duo Zhang"
+},
+"zhanghuajin": {
+"date": "2022-12-21",
+"name": "HuaJin Zhang"
+}
+},
+"shortdesc": "a distributed computation middleware to facilitate connection, governance and orchestration between the upper applications and the underlying data engines"
 },
 {
 "chair": "rgrabowski",
@@ -18340,6 +18574,84 @@
 "shortdesc": "XML Security in Java and C++"
 },
 {
+"chair": "jiayu",
+"charter": "The mission of Apache Sedona is the creation and maintenance of software related to a big geospatial data processing engine. It provides an easy to use APIs for spatial data scientists to manage, wrangle, and process geospatial data",
+"established": "2022-12",
+"group": "sedona",
+"homepage": "http://sedona.apache.org",
+"id": "sedona",
+"name": "Apache Sedona",
+"rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/sedona.rdf",
+"reporting": 2,
+"roster": {
+"felixcheung": {
+"date": "2022-12-21",
+"name": "Felix Cheung"
+},
+"imbruced": {
+"date": "2022-12-21",
+"name": "Pawe\u0142 Koci\u0144ski"
+},
+"jbonofre": {
+"date": "2022-12-21",
+"name": "Jean-Baptiste Onofr\u00e9"
+},
+"jiayu": {
+"date": "2022-12-21",
+"name": "Jia Yu"
+},
+"jinxuanw": {
+"date": "2022-12-21",
+"name": "Jinxuan Wu"
+},
+"kanchanchy": {
+"date": "2022-12-21",
+"name": "Kanchan Chowdhury"
+},
+"kimahriman": {
+"date": "2022-12-21",
+"name": "Adam Binford"
+},
+"malka": {
+"date": "2022-12-21",
+"name": "Netanel Malka"
+},
+"mosarwat": {
+"date": "2022-12-21",
+"name": "Mo Sarwat"
+},
+"percivall": {
+"date": "2022-12-21",
+"name": "George Percivall"
+},
+"sekikn": {
+"date": "2022-12-21",
+"name": "Kengo Seki"
+},
+"sunilg": {
+"date": "2022-12-21",
+"name": "Sunil G"
+},
+"swakai": {
+"date": "2022-12-21",
+"name": "Sachio Wakai"
+},
+"vongosling": {
+"date": "2022-12-21",
+"name": "Von Gosling"
+},
+"yitaoli": {
+"date": "2022-12-21",
+"name": "Yitao Li"
+},
+"zongsizhang": {
+"date": "2022-12-21",
+"name": "Zongsi Zhang"
+}
+},
+"shortdesc": "a big geospatial data processing engine. It provides an easy to use APIs for spatial data scientists to manage, wrangle, and process geospatial data"
+},
+{
 "chair": "jerenkrantz",
 "charter": "The mission of the Apache Serf project is creating and maintening of software related to HTTP and associated protocols.",
 "established": "2015-08",
@@ -19421,6 +19733,10 @@
 "kwright": {
 "date": "2021-02-17",
 "name": "Karl Wright"
+},
+"magibney": {
+"date": "2022-12-21",
+"name": "Michael Gibney"
 },
 "markrmiller": {
 "date": "2021-02-17",
