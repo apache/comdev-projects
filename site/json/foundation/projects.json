@@ -8714,37 +8714,6 @@
 ],
 "shortdesc": "\n      mod_ftp is an FTP protocol module hosted within Apache HTTP Server.\n    "
 },
-"hudi": {
-"bug-database": "https://issues.apache.org/jira/browse/HUDI",
-"category": "library",
-"created": "2019-12-31",
-"description": "Hudi (pronounced “Hoodie”) brings stream processing to big data, providing upserts, deletes and incremental data streams.",
-"doap": "https://gitbox.apache.org/repos/asf?p=hudi.git;a=blob_plain;f=doap_HUDI.rdf;hb=HEAD",
-"download-page": "https://hudi.apache.org/community.html",
-"homepage": "https://hudi.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "https://hudi.apache.org/community.html",
-"maintainer": [
-{
-"mbox": "mailto:dev@hudi.apache.org",
-"name": "Apache Hudi PMC"
-}
-],
-"name": "Apache Hudi",
-"pmc": "hudi",
-"programming-language": "Java, Scala",
-"release": [
-{
-"created": "2022-10-18",
-"name": "Apache Hudi 0.12.1",
-"revision": "0.12.1"
-}
-],
-"repository": [
-"https://github.com/apache/hudi.git"
-],
-"shortdesc": "Ingests and Manages storage of large analytical datasets"
-},
 "ignite": {
 "bug-database": "https://issues.apache.org/jira/browse/IGNITE",
 "category": "big-data, sql, cloud, database, distributed-sql-database, data-management-platform, hadoop, network-server, network-client, osgi, IoT",
@@ -8925,7 +8894,7 @@
 "shortdesc": "FreeMarker is a template engine, i.e. a generic tool to generate text output based on templates. FreeMarker is implemented in Java as a class library for programmers."
 },
 "incubator-linkis": {
-"bug-database": "https://github.com/apache/incubator-linkis/issues",
+"bug-database": "https://github.com/apache/linkis/issues",
 "category": "big-data",
 "created": "2022-02-08",
 "description": "Apache Linkis is a computation middleware project, which decouples the upper applications and the underlying data engines, provides standardized interfaces (REST, JDBC etc.) to easily connect to various underlying engines (Spark, Presto, Flink, etc.).",
@@ -8938,7 +8907,7 @@
 "pmc": "incubator",
 "programming-language": "Java, Scala",
 "repository": [
-"https://github.com/apache/incubator-linkis"
+"https://github.com/apache/linkis"
 ],
 "shortdesc": "Apache Linkis builds a layer of computation middleware between upper applications and underlying engines."
 },

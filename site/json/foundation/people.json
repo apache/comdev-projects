@@ -454,7 +454,8 @@
 "acassis": {
 "groups": [
 "incubator",
-"nuttx"
+"nuttx",
+"nuttx-pmc"
 ],
 "member": false,
 "name": "Alan Carvalho de Assis"
@@ -1249,7 +1250,8 @@
 "aguettouche": {
 "groups": [
 "incubator",
-"nuttx"
+"nuttx",
+"nuttx-pmc"
 ],
 "member": false,
 "name": "Abdelatif Guettouche"
@@ -2041,7 +2043,8 @@
 "alexkun": {
 "groups": [
 "incubator",
-"linkis"
+"linkis",
+"linkis-pmc"
 ],
 "member": false,
 "name": "Alex Young"
@@ -3588,7 +3591,8 @@
 "antmerlino": {
 "groups": [
 "incubator",
-"nuttx"
+"nuttx",
+"nuttx-pmc"
 ],
 "member": false,
 "name": "Anthony Merlino"
@@ -4628,6 +4632,7 @@
 "incubator",
 "incubator-pmc",
 "nuttx",
+"nuttx-pmc",
 "servicecomb",
 "servicecomb-pmc"
 ],
@@ -7563,7 +7568,8 @@
 "brianrongzhang": {
 "groups": [
 "incubator",
-"linkis"
+"linkis",
+"linkis-pmc"
 ],
 "member": false,
 "name": "Rong Zhang"
@@ -7884,7 +7890,8 @@
 "btashton": {
 "groups": [
 "incubator",
-"nuttx"
+"nuttx",
+"nuttx-pmc"
 ],
 "member": false,
 "name": "Brennan Ashton"
@@ -10847,7 +10854,8 @@
 "cooperyang": {
 "groups": [
 "incubator",
-"linkis"
+"linkis",
+"linkis-pmc"
 ],
 "member": false,
 "name": "Zhiyue Yang"
@@ -12191,7 +12199,8 @@
 "davidhua": {
 "groups": [
 "incubator",
-"linkis"
+"linkis",
+"linkis-pmc"
 ],
 "member": false,
 "name": "Deyi Hua"
@@ -12232,7 +12241,8 @@
 "davids5": {
 "groups": [
 "incubator",
-"nuttx"
+"nuttx",
+"nuttx-pmc"
 ],
 "member": false,
 "name": "David Sidrane"
@@ -16403,7 +16413,8 @@
 "enjoyyin": {
 "groups": [
 "incubator",
-"linkis"
+"linkis",
+"linkis-pmc"
 ],
 "member": false,
 "name": "Qiang Yin"
@@ -18005,6 +18016,7 @@
 "incubator",
 "incubator-pmc",
 "nuttx",
+"nuttx-pmc",
 "zookeeper",
 "zookeeper-pmc"
 ],
@@ -19667,7 +19679,8 @@
 "gnutt": {
 "groups": [
 "incubator",
-"nuttx"
+"nuttx",
+"nuttx-pmc"
 ],
 "member": false,
 "name": "Gregory Nutt"
@@ -20602,7 +20615,8 @@
 "gustavonihei": {
 "groups": [
 "incubator",
-"nuttx"
+"nuttx",
+"nuttx-pmc"
 ],
 "member": false,
 "name": "Gustavo Henrique Nihei"
@@ -21210,6 +21224,7 @@
 "incubator",
 "incubator-pmc",
 "nuttx",
+"nuttx-pmc",
 "subversion",
 "subversion-pmc"
 ],
@@ -21496,6 +21511,13 @@
 ],
 "member": false,
 "name": "Sabine Heider"
+},
+"heiming": {
+"groups": [
+"iotdb"
+],
+"member": false,
+"name": "Haiming Zhu"
 },
 "heiths": {
 "groups": [
@@ -24094,7 +24116,8 @@
 "jackxu2011": {
 "groups": [
 "incubator",
-"linkis"
+"linkis",
+"linkis-pmc"
 ],
 "member": false,
 "name": "Ling Xu"
@@ -24118,7 +24141,8 @@
 "jackyxie": {
 "groups": [
 "incubator",
-"linkis"
+"linkis",
+"linkis-pmc"
 ],
 "member": false,
 "name": "Jacky Xie"
@@ -25858,7 +25882,8 @@
 "jerpelea": {
 "groups": [
 "incubator",
-"nuttx"
+"nuttx",
+"nuttx-pmc"
 ],
 "member": false,
 "name": "Alin Jerpelea"
@@ -27108,6 +27133,13 @@
 "member": false,
 "name": "JinyLeeChina"
 },
+"jinzhenxiao": {
+"groups": [
+"shenyu"
+],
+"member": false,
+"name": "Jin Zhenxiao"
+},
 "jiriondrusek": {
 "groups": [
 "camel"
@@ -27547,6 +27579,13 @@
 "member": false,
 "name": "Josh Mahonin"
 },
+"jmakai": {
+"groups": [
+"oozie"
+],
+"member": false,
+"name": "János Makai"
+},
 "jmakes": {
 "groups": [
 "samza",
@@ -27678,6 +27717,7 @@
 "mynewt",
 "mynewt-pmc",
 "nuttx",
+"nuttx-pmc",
 "pekko",
 "plc4x",
 "plc4x-pmc",
@@ -28316,6 +28356,13 @@
 ],
 "member": false,
 "name": "Pavel Kovalenko"
+},
+"jolshan": {
+"groups": [
+"kafka"
+],
+"member": false,
+"name": "Justine Olshan"
 },
 "jolynch": {
 "groups": [
@@ -29106,6 +29153,7 @@
 "inlong",
 "inlong-pmc",
 "linkis",
+"linkis-pmc",
 "livy",
 "spark",
 "spark-pmc",
@@ -29636,7 +29684,9 @@
 "inlong",
 "inlong-pmc",
 "linkis",
+"linkis-pmc",
 "nuttx",
+"nuttx-pmc",
 "ozone",
 "ozone-pmc",
 "uniffle",
@@ -31348,7 +31398,8 @@
 "kirkzhou": {
 "groups": [
 "incubator",
-"linkis"
+"linkis",
+"linkis-pmc"
 ],
 "member": false,
 "name": "Ke Zhou"
@@ -33059,7 +33110,8 @@
 "leebai": {
 "groups": [
 "incubator",
-"linkis"
+"linkis",
+"linkis-pmc"
 ],
 "member": false,
 "name": "Le Bai"
@@ -33112,7 +33164,8 @@
 "legendtkl": {
 "groups": [
 "incubator",
-"linkis"
+"linkis",
+"linkis-pmc"
 ],
 "member": false,
 "name": "Kelu Tao"
@@ -33240,7 +33293,8 @@
 "leojie": {
 "groups": [
 "incubator",
-"linkis"
+"linkis",
+"linkis-pmc"
 ],
 "member": false,
 "name": "Longping Jie"
@@ -33567,7 +33621,8 @@
 "liangqilang": {
 "groups": [
 "incubator",
-"linkis"
+"linkis",
+"linkis-pmc"
 ],
 "member": false,
 "name": "Hui Zhu"
@@ -33671,6 +33726,7 @@
 "incubator",
 "incubator-pmc",
 "linkis",
+"linkis-pmc",
 "seatunnel"
 ],
 "member": true,
@@ -35097,7 +35153,8 @@
 "lupyuen": {
 "groups": [
 "incubator",
-"nuttx"
+"nuttx",
+"nuttx-pmc"
 ],
 "member": false,
 "name": "Lup Yuen Lee"
@@ -36449,7 +36506,8 @@
 "masayuki": {
 "groups": [
 "incubator",
-"nuttx"
+"nuttx",
+"nuttx-pmc"
 ],
 "member": false,
 "name": "Masayuki Ishikawa"
@@ -43703,7 +43761,8 @@
 "peacewong": {
 "groups": [
 "incubator",
-"linkis"
+"linkis",
+"linkis-pmc"
 ],
 "member": false,
 "name": "Heping Wang"
@@ -49778,7 +49837,8 @@
 "sara": {
 "groups": [
 "incubator",
-"nuttx"
+"nuttx",
+"nuttx-pmc"
 ],
 "member": false,
 "name": "Sara Monteiro"
@@ -50483,7 +50543,8 @@
 "seayi": {
 "groups": [
 "incubator",
-"linkis"
+"linkis",
+"linkis-pmc"
 ],
 "member": false,
 "name": "Xiaohua Yi"
@@ -51139,7 +51200,8 @@
 "incubator-pmc",
 "kylin",
 "kylin-pmc",
-"linkis"
+"linkis",
+"linkis-pmc"
 ],
 "member": true,
 "name": "Shao Feng Shi"
@@ -51638,7 +51700,8 @@
 "shuaidi": {
 "groups": [
 "incubator",
-"linkis"
+"linkis",
+"linkis-pmc"
 ],
 "member": false,
 "name": "Shuai Di"
@@ -58965,6 +59028,13 @@
 "member": false,
 "name": "Vivek Bhaskar"
 },
+"vivo": {
+"groups": [
+"helix"
+],
+"member": false,
+"name": "Vivo Xu"
+},
 "vj": {
 "groups": [
 "ignite",
@@ -59721,7 +59791,8 @@
 "wangxiaogang": {
 "groups": [
 "incubator",
-"linkis"
+"linkis",
+"linkis-pmc"
 ],
 "member": false,
 "name": "Xiaogang Wang"
@@ -59800,7 +59871,8 @@
 "groups": [
 "incubator",
 "kyuubi",
-"linkis"
+"linkis",
+"linkis-pmc"
 ],
 "member": false,
 "name": "Zhen Wang"
@@ -60494,6 +60566,13 @@
 ],
 "member": false,
 "name": "William Feng"
+},
+"williamsong": {
+"groups": [
+"ratis"
+],
+"member": false,
+"name": "William Song"
 },
 "willianleite": {
 "groups": [
@@ -61276,7 +61355,8 @@
 "xiaoxiang": {
 "groups": [
 "incubator",
-"nuttx"
+"nuttx",
+"nuttx-pmc"
 ],
 "member": false,
 "name": "Xiang Xiao"
@@ -63351,7 +63431,9 @@
 "incubator-pmc",
 "kyuubi",
 "linkis",
+"linkis-pmc",
 "nuttx",
+"nuttx-pmc",
 "pegasus",
 "shenyu",
 "shenyu-pmc",
@@ -63363,7 +63445,8 @@
 "zhanghuajin": {
 "groups": [
 "incubator",
-"linkis"
+"linkis",
+"linkis-pmc"
 ],
 "member": false,
 "name": "HuaJin Zhang"
