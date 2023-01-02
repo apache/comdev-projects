@@ -60,15 +60,26 @@ siteMap = {
     'ws':'webservices'
 }
 
+mailDomains = {
+  'comdev': 'community',
+  'httpcomponents': 'hc',
+  'whimsy': 'whimsical'
+}
+
 # Print to log and send an email (intended for WARN messages)
-def printMail(msg, file=sys.stdout, body=''):
+def printMail(msg, file=sys.stdout, body='', project=None):
     print(msg, file=file)
     if body == None: # sendmail barfs if body is missing
         body = ''
     if body == '':
         body=msg
     try:
-        sendmail.sendMail(msg, body=body)
+        if project:
+          domain = mailDomains.get(project, project)
+          recipients = [f'private@{domain}.apache.org', sendmail.__RECIPIENTS__]
+          sendmail.sendMail(msg, body=body, recipients=recipients)
+        else:
+          sendmail.sendMail(msg, body=body)
     except ConnectionRefusedError:
         print("*** Failed to send the email", file=file)
 
@@ -267,7 +278,9 @@ for s in itemlist :
                 unreportedError = True
         else:
             printMail("Error when processing doap file %s:" % url, file=sys.stderr,
-                      body=("URL: %s\n%s\nSource: %s" % (url,str(err),PROJECTS_SVN)))
+                      body=("URL: %s\n%s\nSource: %s" % (url,str(err),PROJECTS_SVN)),
+                      project=committeeId
+                     )
         print("-"*60, file=sys.stderr)
         traceback.print_exc()
         if isinstance(err, OSError): # OSError is parent of HTTPError/URLError 
@@ -293,7 +306,7 @@ if save:
 
 # Drop any obsolete files
 for f in os.listdir(PROJECTS_DIR):
-    if re.match(r'.*\.json$', f) and not f in files:
+    if re.match(r'.*\.json$', f) and f not in files:
         print("Deleting obsolete file projects/%s" %f)
         os.remove(join(PROJECTS_DIR,f))
 
