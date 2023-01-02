@@ -74,7 +74,7 @@ def printMail(msg, file=sys.stdout, body='', project=None):
     if body == '':
         body=msg
     try:
-        if project:
+        if project != None:
           domain = mailDomains.get(project, project)
           recipients = [f'private@{domain}.apache.org', sendmail.__RECIPIENTS__]
           sendmail.sendMail(msg, body=body, recipients=recipients)
