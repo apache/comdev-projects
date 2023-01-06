@@ -13666,7 +13666,7 @@
 "created": "2015-05-12",
 "description": "ORC is a self-describing type-aware columnar file format designed for\nHadoop workloads. It is optimized for large streaming reads, but with\nintegrated support for finding required rows quickly. Storing data in\na columnar format lets the reader read, decompress, and process only\nthe values that are required for the current query.",
 "doap": "http://orc.apache.org/doap_orc.rdf",
-"download-page": "https://orc.apache.org/docs/releases.html",
+"download-page": "https://orc.apache.org/releases",
 "homepage": "https://orc.apache.org",
 "license": "http://spdx.org/licenses/Apache-2.0",
 "mailing-list": "https://orc.apache.org/develop",
@@ -13681,9 +13681,9 @@
 "programming-language": "Java, C++",
 "release": [
 {
-"created": "2022-04-14",
+"created": "2022-11-17",
 "name": "Stable release",
-"revision": "1.6.14"
+"revision": "1.7.7"
 }
 ],
 "repository": [
