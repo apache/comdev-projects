@@ -4625,10 +4625,16 @@
 "james-server-app-3.7.2": [
 "james/server/3.7.2/james-server-app-3.7.2-app.zip"
 ],
+"james-server-cassandra": [
+"james/server/3.7.3/james-server-cassandra-app.zip"
+],
 "james-server-cassandra-guice": [
 "james/server/3.6.2/james-server-cassandra-guice.zip",
 "james/server/3.7.2/james-server-cassandra-guice.zip",
 "james/server/3.7.3/james-server-cassandra-guice.zip"
+],
+"james-server-distributed": [
+"james/server/3.7.3/james-server-distributed-app.zip"
 ],
 "james-server-distributed-guice": [
 "james/server/3.6.2/james-server-distributed-guice.zip",
@@ -4978,6 +4984,10 @@
 "apache-log4cxx-0.13.0": [
 "logging/log4cxx/0.13.0/apache-log4cxx-0.13.0.tar.gz",
 "logging/log4cxx/0.13.0/apache-log4cxx-0.13.0.zip"
+],
+"apache-log4cxx-1.0.0": [
+"logging/log4cxx/1.0.0/apache-log4cxx-1.0.0.tar.gz",
+"logging/log4cxx/1.0.0/apache-log4cxx-1.0.0.zip"
 ],
 "apache-log4j-2.12.4": [
 "logging/log4j/2.12.4/apache-log4j-2.12.4-src.tar.gz",
@@ -9800,14 +9810,14 @@
 "skywalking/9.3.0/apache-skywalking-apm-9.3.0-src.tgz",
 "skywalking/9.3.0/apache-skywalking-apm-9.3.0.tar.gz"
 ],
-"apache-skywalking-banyandb-java-client-0.1.0": [
-"skywalking/banyandb-java-client/0.1.0/apache-skywalking-banyandb-java-client-0.1.0-src.tgz"
-],
-"apache-skywalking-banyandb-java-client-0.2.0": [
-"skywalking/banyandb-java-client/0.2.0/apache-skywalking-banyandb-java-client-0.2.0-src.tgz"
-],
 "apache-skywalking-banyandb-java-client-0.2.1": [
 "skywalking/banyandb-java-client/0.2.1/apache-skywalking-banyandb-java-client-0.2.1-src.tgz"
+],
+"apache-skywalking-banyandb-java-client-0.3.0-rc0": [
+"skywalking/banyandb-java-client/0.3.0-rc0/apache-skywalking-banyandb-java-client-0.3.0-rc0-src.tgz"
+],
+"apache-skywalking-banyandb-java-client-0.3.0-rc1": [
+"skywalking/banyandb-java-client/0.3.0-rc1/apache-skywalking-banyandb-java-client-0.3.0-rc1-src.tgz"
 ],
 "apache-skywalking-java-agent-8.13.0": [
 "skywalking/java-agent/8.13.0/apache-skywalking-java-agent-8.13.0-src.tgz",
@@ -9824,6 +9834,9 @@
 ],
 "apache-skywalking-satellite-1.0.1": [
 "skywalking/satellite/1.0.1/apache-skywalking-satellite-1.0.1-src.tgz"
+],
+"apache-skywalking-satellite-1.1.0": [
+"skywalking/satellite/1.1.0/apache-skywalking-satellite-1.1.0-src.tgz"
 ],
 "skywalking-0.4.0.crate": [
 "skywalking/rust/0.4.0/skywalking-0.4.0.crate"
