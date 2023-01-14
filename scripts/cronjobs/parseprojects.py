@@ -1,3 +1,5 @@
+#!/usr/bin/env python3 
+
 """
 
 Reads:
@@ -16,7 +18,7 @@ Deletes any obsolete files from:
 
 """
 
-import errtee
+import errtee # N.B. this is imported for its side-effect
 import sys
 if sys.hexversion < 0x03000000:
     raise ImportError("This script requires Python 3")
@@ -271,7 +273,16 @@ for s in itemlist :
         if isinstance(err, OSError): # OSError is parent of HTTPError/URLError
             # Only mail 404 errors individually
             if isinstance(err, urllib.error.HTTPError) and err.code == 404:
-                printMail("Cannot find doap file: %s" % url, file=sys.stderr,
+                # Try to determine relevant project from URL
+                m = re.match(r"https?://([^.]+)\.", url, re.IGNORECASE)
+                if m:
+                    committeeId = m.group(1)
+                    printMail("Cannot find doap file: %s" % url, file=sys.stderr,
+                          body=("URL: %s\n%s\nSource: %s" % (url,str(err),PROJECTS_SVN)),
+                          project=committeeId
+                          )
+                else:
+                    printMail("Cannot find doap file: %s" % url, file=sys.stderr,
                           body=("URL: %s\n%s\nSource: %s" % (url,str(err),PROJECTS_SVN)))
             else:
                 print("Error when processing doap file %s:" % url, file=sys.stderr)
