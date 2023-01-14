@@ -1304,6 +1304,9 @@
 ],
 "camel-kamelets-sources-3.20.0": [
 "camel/camel-kamelets/3.20.0/camel-kamelets-sources-3.20.0.tar.gz"
+],
+"camel-kamelets-sources-3.20.1": [
+"camel/camel-kamelets/3.20.1/camel-kamelets-sources-3.20.1.tar.gz"
 ]
 },
 "carbondata": {
@@ -2866,8 +2869,8 @@
 ]
 },
 "dubbo": {
-"apache-dubbo-2.7.19": [
-"dubbo/2.7.19/apache-dubbo-2.7.19-src.zip"
+"apache-dubbo-2.7.20": [
+"dubbo/2.7.20/apache-dubbo-2.7.20-src.zip"
 ],
 "apache-dubbo-3.0.12": [
 "dubbo/3.0.12/apache-dubbo-3.0.12-src.zip"
@@ -3495,11 +3498,11 @@
 "flink-statefun-3.2.0": [
 "flink/flink-statefun-3.2.0/flink-statefun-3.2.0-src.tgz"
 ],
-"flink-table-store-0.1.0": [
-"flink/flink-table-store-0.1.0/flink-table-store-0.1.0-src.tgz"
-],
 "flink-table-store-0.2.1": [
 "flink/flink-table-store-0.2.1/flink-table-store-0.2.1-src.tgz"
+],
+"flink-table-store-0.3.0": [
+"flink/flink-table-store-0.3.0/flink-table-store-0.3.0-src.tgz"
 ],
 "index.yaml": [
 "flink/flink-kubernetes-operator-1.2.0/index.yaml",
@@ -5053,6 +5056,9 @@
 "logging/log4j/extras/1.2.17/apache-log4j-extras-1.2.17-source-release.zip",
 "logging/log4j/extras/1.2.17/apache-log4j-extras-1.2.17-src.tar.gz",
 "logging/log4j/extras/1.2.17/apache-log4j-extras-1.2.17-src.zip"
+],
+"apache-log4j-tools-0.1.0": [
+"logging/log4j-tools/0.1.0/apache-log4j-tools-0.1.0-src.zip"
 ],
 "apache-log4net-source-2.0.14": [
 "logging/log4net/source/apache-log4net-source-2.0.14.zip"
@@ -8619,6 +8625,9 @@
 ],
 "orc-1.8.1": [
 "orc/orc-1.8.1/orc-1.8.1.tar.gz"
+],
+"orc-1.8.2": [
+"orc/orc-1.8.2/orc-1.8.2.tar.gz"
 ]
 },
 "ozone": {
@@ -9620,11 +9629,11 @@
 "apache-qpid-broker-j-9.0.0": [
 "qpid/broker-j/9.0.0/apache-qpid-broker-j-9.0.0-src.tar.gz"
 ],
-"apache-qpid-jms-1.7.0": [
-"qpid/jms/1.7.0/apache-qpid-jms-1.7.0-src.tar.gz"
+"apache-qpid-jms-1.8.0": [
+"qpid/jms/1.8.0/apache-qpid-jms-1.8.0-src.tar.gz"
 ],
-"apache-qpid-jms-2.1.0": [
-"qpid/jms/2.1.0/apache-qpid-jms-2.1.0-src.tar.gz"
+"apache-qpid-jms-2.2.0": [
+"qpid/jms/2.2.0/apache-qpid-jms-2.2.0-src.tar.gz"
 ],
 "apache-qpid-jms-amqp-0-x-6.4.0": [
 "qpid/jms-amqp-0-x/6.4.0/apache-qpid-jms-amqp-0-x-6.4.0-src.tar.gz"
@@ -9637,6 +9646,9 @@
 ],
 "apache-qpid-protonj2-1.0.0-M11": [
 "qpid/protonj2/1.0.0-M11/apache-qpid-protonj2-1.0.0-M11-src.tar.gz"
+],
+"apache-qpid-protonj2-1.0.0-M12": [
+"qpid/protonj2/1.0.0-M12/apache-qpid-protonj2-1.0.0-M12-src.tar.gz"
 ],
 "qpid-dispatch-1.19.0": [
 "qpid/dispatch/1.19.0/qpid-dispatch-1.19.0.tar.gz"
@@ -9821,6 +9833,9 @@
 ],
 "apache-samza-1.7.0": [
 "samza/1.7.0/apache-samza-1.7.0-src.tgz"
+],
+"apache-samza-1.8.0": [
+"samza/1.8.0/apache-samza-1.8.0-src.tgz"
 ]
 },
 "santuario": {
@@ -9925,6 +9940,9 @@
 "shiro": {
 "shiro-root-1.10.1": [
 "shiro/1.10.1/shiro-root-1.10.1-source-release.zip"
+],
+"shiro-root-1.11.0": [
+"shiro/1.11.0/shiro-root-1.11.0-source-release.zip"
 ]
 },
 "singa": {
@@ -11394,6 +11412,9 @@
 "apache-superset-1.5.2": [
 "superset/1.5.2/apache-superset-1.5.2-source.tar.gz"
 ],
+"apache-superset-1.5.3": [
+"superset/1.5.3/apache-superset-1.5.3-source.tar.gz"
+],
 "apache-superset-2.0.0": [
 "superset/2.0.0/apache-superset-2.0.0-source.tar.gz"
 ],
@@ -11541,31 +11562,18 @@
 "tomcat/tomcat-10/v10.0.27/src/apache-tomcat-10.0.27-src.tar.gz",
 "tomcat/tomcat-10/v10.0.27/src/apache-tomcat-10.0.27-src.zip"
 ],
-"apache-tomcat-10.1.2": [
-"tomcat/tomcat-10/v10.1.2/bin/embed/apache-tomcat-10.1.2-embed.tar.gz",
-"tomcat/tomcat-10/v10.1.2/bin/embed/apache-tomcat-10.1.2-embed.zip",
-"tomcat/tomcat-10/v10.1.2/bin/apache-tomcat-10.1.2-deployer.tar.gz",
-"tomcat/tomcat-10/v10.1.2/bin/apache-tomcat-10.1.2-deployer.zip",
-"tomcat/tomcat-10/v10.1.2/bin/apache-tomcat-10.1.2-fulldocs.tar.gz",
-"tomcat/tomcat-10/v10.1.2/bin/apache-tomcat-10.1.2-windows-x64.zip",
-"tomcat/tomcat-10/v10.1.2/bin/apache-tomcat-10.1.2.exe",
-"tomcat/tomcat-10/v10.1.2/bin/apache-tomcat-10.1.2.tar.gz",
-"tomcat/tomcat-10/v10.1.2/bin/apache-tomcat-10.1.2.zip",
-"tomcat/tomcat-10/v10.1.2/src/apache-tomcat-10.1.2-src.tar.gz",
-"tomcat/tomcat-10/v10.1.2/src/apache-tomcat-10.1.2-src.zip"
-],
-"apache-tomcat-10.1.4": [
-"tomcat/tomcat-10/v10.1.4/bin/embed/apache-tomcat-10.1.4-embed.tar.gz",
-"tomcat/tomcat-10/v10.1.4/bin/embed/apache-tomcat-10.1.4-embed.zip",
-"tomcat/tomcat-10/v10.1.4/bin/apache-tomcat-10.1.4-deployer.tar.gz",
-"tomcat/tomcat-10/v10.1.4/bin/apache-tomcat-10.1.4-deployer.zip",
-"tomcat/tomcat-10/v10.1.4/bin/apache-tomcat-10.1.4-fulldocs.tar.gz",
-"tomcat/tomcat-10/v10.1.4/bin/apache-tomcat-10.1.4-windows-x64.zip",
-"tomcat/tomcat-10/v10.1.4/bin/apache-tomcat-10.1.4.exe",
-"tomcat/tomcat-10/v10.1.4/bin/apache-tomcat-10.1.4.tar.gz",
-"tomcat/tomcat-10/v10.1.4/bin/apache-tomcat-10.1.4.zip",
-"tomcat/tomcat-10/v10.1.4/src/apache-tomcat-10.1.4-src.tar.gz",
-"tomcat/tomcat-10/v10.1.4/src/apache-tomcat-10.1.4-src.zip"
+"apache-tomcat-10.1.5": [
+"tomcat/tomcat-10/v10.1.5/bin/embed/apache-tomcat-10.1.5-embed.tar.gz",
+"tomcat/tomcat-10/v10.1.5/bin/embed/apache-tomcat-10.1.5-embed.zip",
+"tomcat/tomcat-10/v10.1.5/bin/apache-tomcat-10.1.5-deployer.tar.gz",
+"tomcat/tomcat-10/v10.1.5/bin/apache-tomcat-10.1.5-deployer.zip",
+"tomcat/tomcat-10/v10.1.5/bin/apache-tomcat-10.1.5-fulldocs.tar.gz",
+"tomcat/tomcat-10/v10.1.5/bin/apache-tomcat-10.1.5-windows-x64.zip",
+"tomcat/tomcat-10/v10.1.5/bin/apache-tomcat-10.1.5.exe",
+"tomcat/tomcat-10/v10.1.5/bin/apache-tomcat-10.1.5.tar.gz",
+"tomcat/tomcat-10/v10.1.5/bin/apache-tomcat-10.1.5.zip",
+"tomcat/tomcat-10/v10.1.5/src/apache-tomcat-10.1.5-src.tar.gz",
+"tomcat/tomcat-10/v10.1.5/src/apache-tomcat-10.1.5-src.zip"
 ],
 "apache-tomcat-11.0.0-M1": [
 "tomcat/tomcat-11/v11.0.0-M1/bin/embed/apache-tomcat-11.0.0-M1-embed.tar.gz",
@@ -11593,18 +11601,18 @@
 "tomcat/tomcat-8/v8.5.84/src/apache-tomcat-8.5.84-src.tar.gz",
 "tomcat/tomcat-8/v8.5.84/src/apache-tomcat-8.5.84-src.zip"
 ],
-"apache-tomcat-9.0.70": [
-"tomcat/tomcat-9/v9.0.70/bin/embed/apache-tomcat-9.0.70-embed.tar.gz",
-"tomcat/tomcat-9/v9.0.70/bin/embed/apache-tomcat-9.0.70-embed.zip",
-"tomcat/tomcat-9/v9.0.70/bin/apache-tomcat-9.0.70-deployer.tar.gz",
-"tomcat/tomcat-9/v9.0.70/bin/apache-tomcat-9.0.70-deployer.zip",
-"tomcat/tomcat-9/v9.0.70/bin/apache-tomcat-9.0.70-fulldocs.tar.gz",
-"tomcat/tomcat-9/v9.0.70/bin/apache-tomcat-9.0.70-windows-x64.zip",
-"tomcat/tomcat-9/v9.0.70/bin/apache-tomcat-9.0.70.exe",
-"tomcat/tomcat-9/v9.0.70/bin/apache-tomcat-9.0.70.tar.gz",
-"tomcat/tomcat-9/v9.0.70/bin/apache-tomcat-9.0.70.zip",
-"tomcat/tomcat-9/v9.0.70/src/apache-tomcat-9.0.70-src.tar.gz",
-"tomcat/tomcat-9/v9.0.70/src/apache-tomcat-9.0.70-src.zip"
+"apache-tomcat-9.0.71": [
+"tomcat/tomcat-9/v9.0.71/bin/embed/apache-tomcat-9.0.71-embed.tar.gz",
+"tomcat/tomcat-9/v9.0.71/bin/embed/apache-tomcat-9.0.71-embed.zip",
+"tomcat/tomcat-9/v9.0.71/bin/apache-tomcat-9.0.71-deployer.tar.gz",
+"tomcat/tomcat-9/v9.0.71/bin/apache-tomcat-9.0.71-deployer.zip",
+"tomcat/tomcat-9/v9.0.71/bin/apache-tomcat-9.0.71-fulldocs.tar.gz",
+"tomcat/tomcat-9/v9.0.71/bin/apache-tomcat-9.0.71-windows-x64.zip",
+"tomcat/tomcat-9/v9.0.71/bin/apache-tomcat-9.0.71.exe",
+"tomcat/tomcat-9/v9.0.71/bin/apache-tomcat-9.0.71.tar.gz",
+"tomcat/tomcat-9/v9.0.71/bin/apache-tomcat-9.0.71.zip",
+"tomcat/tomcat-9/v9.0.71/src/apache-tomcat-9.0.71-src.tar.gz",
+"tomcat/tomcat-9/v9.0.71/src/apache-tomcat-9.0.71-src.zip"
 ],
 "jakartaee-migration-1.0.6": [
 "tomcat/jakartaee-migration/v1.0.6/source/jakartaee-migration-1.0.6-src.tar.gz",
