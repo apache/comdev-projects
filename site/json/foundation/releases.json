@@ -755,7 +755,7 @@
 "cordova-common-4.1.0": "2022-11-15",
 "cordova-create-4.1.0": "2023-01-10",
 "cordova-electron-3.1.0": "2022-05-30",
-"cordova-eslint-config-4.0.0": "2021-10-31",
+"cordova-eslint-config-5.0.0": "2023-01-18",
 "cordova-fetch-3.1.0": "2022-12-13",
 "cordova-firefoxos-3.6.3": "2014-09-16",
 "cordova-ios-6.2.0": "2021-02-04",
@@ -1432,6 +1432,11 @@
 "incubator-ponymail": {
 "apache-pony-mail-0.11-incubating": "2019-03-25"
 },
+"incubator-sdap": {
+"apache-sdap-ingester-1.0.0-incubating": "2023-01-04",
+"apache-sdap-nexus-1.0.0-incubating": "2023-01-04",
+"apache-sdap-nexusproto-1.0.0-incubating": "2023-01-04"
+},
 "incubator-seatunnel": {
 "apache-seatunnel-incubating-2.1.0": "2022-03-11",
 "apache-seatunnel-incubating-2.1.1": "2022-04-18",
@@ -1447,6 +1452,7 @@
 "incubator-teaclave": {
 "apache-teaclave-0.3.0-incubating": "2021-08-23",
 "apache-teaclave-0.4.0-incubating": "2022-04-18",
+"apache-teaclave-java-tee-sdk-0.1.0-incubating": "2023-01-18",
 "apache-teaclave-trustzone-sdk-0.1.0-incubating": "2021-06-11",
 "apache-teaclave-trustzone-sdk-0.2.0-incubating": "2022-04-18"
 },
@@ -3664,7 +3670,7 @@
 "org.apache.sling.testing.osgi-mock.test-services-3.3.4": "2022-12-05",
 "org.apache.sling.testing.paxexam-3.1.0": "2019-09-03",
 "org.apache.sling.testing.resourceresolver-mock-1.4.0": "2022-09-02",
-"org.apache.sling.testing.rules-1.0.8": "2018-04-11",
+"org.apache.sling.testing.rules-2.0.2": "2023-01-18",
 "org.apache.sling.testing.samples.failingtests-1.0.6": "2013-01-21",
 "org.apache.sling.testing.samples.integrationtests-1.0.6": "2013-01-21",
 "org.apache.sling.testing.samples.sampletests-1.0.6": "2013-01-21",
@@ -3747,8 +3753,7 @@
 "apache-storm-2.4.0": "2022-03-10"
 },
 "streampipes": {
-"RELEASE_VALIDATION.md": "2022-09-07",
-"apache-streampipes-0.70.0-incubating": "2022-09-07",
+"RELEASE_VALIDATION.md": "2023-01-09",
 "apache-streampipes-0.90.0": "2023-01-09"
 },
 "streams": {

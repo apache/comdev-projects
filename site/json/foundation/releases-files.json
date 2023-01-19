@@ -2345,8 +2345,8 @@
 "cordova-electron-3.1.0": [
 "cordova/platforms/cordova-electron-3.1.0.tgz"
 ],
-"cordova-eslint-config-4.0.0": [
-"cordova/tools/cordova-eslint-config-4.0.0.tgz"
+"cordova-eslint-config-5.0.0": [
+"cordova/tools/cordova-eslint-config-5.0.0.tgz"
 ],
 "cordova-fetch-3.1.0": [
 "cordova/tools/cordova-fetch-3.1.0.tgz"
@@ -4440,6 +4440,17 @@
 "incubator/ponymail/apache-pony-mail-0.11-incubating.tar.gz"
 ]
 },
+"incubator-sdap": {
+"apache-sdap-ingester-1.0.0-incubating": [
+"incubator/sdap/1.0.0-incubating/apache-sdap-ingester-1.0.0-incubating-src.tar.gz"
+],
+"apache-sdap-nexus-1.0.0-incubating": [
+"incubator/sdap/1.0.0-incubating/apache-sdap-nexus-1.0.0-incubating-src.tar.gz"
+],
+"apache-sdap-nexusproto-1.0.0-incubating": [
+"incubator/sdap/1.0.0-incubating/apache-sdap-nexusproto-1.0.0-incubating-src.tar.gz"
+]
+},
 "incubator-seatunnel": {
 "apache-seatunnel-incubating-2.1.0": [
 "incubator/seatunnel/2.1.0/apache-seatunnel-incubating-2.1.0-src.tar.gz"
@@ -4474,6 +4485,9 @@
 ],
 "apache-teaclave-0.4.0-incubating": [
 "incubator/teaclave/0.4.0/apache-teaclave-0.4.0-incubating.tar.gz"
+],
+"apache-teaclave-java-tee-sdk-0.1.0-incubating": [
+"incubator/teaclave/java-tee-sdk-v0.1.0/apache-teaclave-java-tee-sdk-0.1.0-incubating.tar.gz"
 ],
 "apache-teaclave-trustzone-sdk-0.1.0-incubating": [
 "incubator/teaclave/trustzone-sdk-0.1.0/apache-teaclave-trustzone-sdk-0.1.0-incubating.tar.gz"
@@ -11076,8 +11090,8 @@
 "org.apache.sling.testing.resourceresolver-mock-1.4.0": [
 "sling/org.apache.sling.testing.resourceresolver-mock-1.4.0-source-release.zip"
 ],
-"org.apache.sling.testing.rules-1.0.8": [
-"sling/org.apache.sling.testing.rules-1.0.8-source-release.zip"
+"org.apache.sling.testing.rules-2.0.2": [
+"sling/org.apache.sling.testing.rules-2.0.2-source-release.zip"
 ],
 "org.apache.sling.testing.samples.failingtests-1.0.6": [
 "sling/org.apache.sling.testing.samples.failingtests-1.0.6-source-release.zip"
@@ -11329,11 +11343,7 @@
 },
 "streampipes": {
 "RELEASE_VALIDATION.md": [
-"streampipes/0.70.0/RELEASE_VALIDATION.md",
 "streampipes/0.90.0/RELEASE_VALIDATION.md"
-],
-"apache-streampipes-0.70.0-incubating": [
-"streampipes/0.70.0/apache-streampipes-0.70.0-incubating-source-release.zip"
 ],
 "apache-streampipes-0.90.0": [
 "streampipes/0.90.0/apache-streampipes-0.90.0-source-release.zip"
