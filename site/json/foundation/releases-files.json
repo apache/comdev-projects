@@ -153,8 +153,8 @@
 "apache-airflow-providers-apache-beam-4.1.1": [
 "airflow/providers/apache-airflow-providers-apache-beam-4.1.1.tar.gz"
 ],
-"apache-airflow-providers-apache-cassandra-3.1.0": [
-"airflow/providers/apache-airflow-providers-apache-cassandra-3.1.0.tar.gz"
+"apache-airflow-providers-apache-cassandra-3.1.1": [
+"airflow/providers/apache-airflow-providers-apache-cassandra-3.1.1.tar.gz"
 ],
 "apache-airflow-providers-apache-drill-2.3.1": [
 "airflow/providers/apache-airflow-providers-apache-drill-2.3.1.tar.gz"
@@ -228,8 +228,8 @@
 "apache-airflow-providers-discord-3.1.0": [
 "airflow/providers/apache-airflow-providers-discord-3.1.0.tar.gz"
 ],
-"apache-airflow-providers-docker-3.4.0": [
-"airflow/providers/apache-airflow-providers-docker-3.4.0.tar.gz"
+"apache-airflow-providers-docker-3.5.0": [
+"airflow/providers/apache-airflow-providers-docker-3.5.0.tar.gz"
 ],
 "apache-airflow-providers-elasticsearch-4.3.3": [
 "airflow/providers/apache-airflow-providers-elasticsearch-4.3.3.tar.gz"
@@ -309,8 +309,8 @@
 "apache-airflow-providers-pagerduty-3.1.0": [
 "airflow/providers/apache-airflow-providers-pagerduty-3.1.0.tar.gz"
 ],
-"apache-airflow-providers-papermill-3.1.0": [
-"airflow/providers/apache-airflow-providers-papermill-3.1.0.tar.gz"
+"apache-airflow-providers-papermill-3.1.1": [
+"airflow/providers/apache-airflow-providers-papermill-3.1.1.tar.gz"
 ],
 "apache-airflow-providers-plexus-3.1.0": [
 "airflow/providers/apache-airflow-providers-plexus-3.1.0.tar.gz"
@@ -5772,6 +5772,14 @@
 "myfaces-core-4.0.0-RC2": [
 "myfaces/source/myfaces-core-assembly-4.0.0-RC2-src.tar.gz",
 "myfaces/source/myfaces-core-assembly-4.0.0-RC2-src.zip"
+],
+"myfaces-core-4.0.0-RC3": [
+"myfaces/source/myfaces-core-assembly-4.0.0-RC3-src.tar.gz",
+"myfaces/source/myfaces-core-assembly-4.0.0-RC3-src.zip"
+],
+"myfaces-core-4.0.0-RC4": [
+"myfaces/source/myfaces-core-assembly-4.0.0-RC4-src.tar.gz",
+"myfaces/source/myfaces-core-assembly-4.0.0-RC4-src.zip"
 ],
 "myfaces-extcdi-1.0.6": [
 "myfaces/source/myfaces-extcdi-parent-1.0.6-source-release.zip"
@@ -11582,20 +11590,17 @@
 ]
 },
 "tinkerpop": {
-"apache-tinkerpop-3.4.13": [
-"tinkerpop/3.4.13/apache-tinkerpop-3.4.13-src.zip"
-],
-"apache-tinkerpop-3.5.3": [
-"tinkerpop/3.5.3/apache-tinkerpop-3.5.3-src.zip"
-],
 "apache-tinkerpop-3.5.4": [
 "tinkerpop/3.5.4/apache-tinkerpop-3.5.4-src.zip"
 ],
-"apache-tinkerpop-3.6.0": [
-"tinkerpop/3.6.0/apache-tinkerpop-3.6.0-src.zip"
+"apache-tinkerpop-3.5.5": [
+"tinkerpop/3.5.5/apache-tinkerpop-3.5.5-src.zip"
 ],
 "apache-tinkerpop-3.6.1": [
 "tinkerpop/3.6.1/apache-tinkerpop-3.6.1-src.zip"
+],
+"apache-tinkerpop-3.6.2": [
+"tinkerpop/3.6.2/apache-tinkerpop-3.6.2-src.zip"
 ]
 },
 "tomcat": {
