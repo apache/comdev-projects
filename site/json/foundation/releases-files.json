@@ -1931,6 +1931,11 @@
 "cassandra/debian/pool/main/c/cassandra/cassandra_4.1~alpha1_all.deb"
 ]
 },
+"causeway": {
+"isis-bom-2.0.0-M9": [
+"causeway/isis-bom-2.0.0-M9-source-release.zip"
+]
+},
 "cayenne": {
 "cayenne-3.0.2": [
 "cayenne/cayenne-3.0.2-macosx.dmg",
@@ -4581,11 +4586,6 @@
 "iotdb/1.0.0/apache-iotdb-1.0.0-source-release.zip"
 ]
 },
-"isis": {
-"isis-bom-2.0.0-M9": [
-"isis/isis-bom-2.0.0-M9-source-release.zip"
-]
-},
 "jackrabbit": {
 "create-download-md.sh": [
 "jackrabbit/create-download-md.sh"
@@ -4636,8 +4636,8 @@
 "jackrabbit-oak-1.4.26": [
 "jackrabbit/oak/1.4.26/jackrabbit-oak-1.4.26-src.zip"
 ],
-"jackrabbit-oak-1.46.0": [
-"jackrabbit/oak/1.46.0/jackrabbit-oak-1.46.0-src.zip"
+"jackrabbit-oak-1.48.0": [
+"jackrabbit/oak/1.48.0/jackrabbit-oak-1.48.0-src.zip"
 ],
 "jackrabbit-oak-1.6.23": [
 "jackrabbit/oak/1.6.23/jackrabbit-oak-1.6.23-src.zip"
@@ -9062,7 +9062,9 @@
 "pulsar/pulsar-client-cpp-3.0.0/apk-arm64/aarch64/APKINDEX.tar.gz",
 "pulsar/pulsar-client-cpp-3.0.0/apk-x86_64/x86_64/APKINDEX.tar.gz",
 "pulsar/pulsar-client-cpp-3.1.0/apk-arm64/aarch64/APKINDEX.tar.gz",
-"pulsar/pulsar-client-cpp-3.1.0/apk-x86_64/x86_64/APKINDEX.tar.gz"
+"pulsar/pulsar-client-cpp-3.1.0/apk-x86_64/x86_64/APKINDEX.tar.gz",
+"pulsar/pulsar-client-cpp-3.1.1/apk-arm64/aarch64/APKINDEX.tar.gz",
+"pulsar/pulsar-client-cpp-3.1.1/apk-x86_64/x86_64/APKINDEX.tar.gz"
 ],
 "Packages": [
 "pulsar/pulsar-2.10.2/DEB/Packages.gz",
@@ -9072,7 +9074,9 @@
 "pulsar/pulsar-client-cpp-3.0.0/deb-arm64/Packages.gz",
 "pulsar/pulsar-client-cpp-3.0.0/deb-x86_64/Packages.gz",
 "pulsar/pulsar-client-cpp-3.1.0/deb-arm64/Packages.gz",
-"pulsar/pulsar-client-cpp-3.1.0/deb-x86_64/Packages.gz"
+"pulsar/pulsar-client-cpp-3.1.0/deb-x86_64/Packages.gz",
+"pulsar/pulsar-client-cpp-3.1.1/deb-arm64/Packages.gz",
+"pulsar/pulsar-client-cpp-3.1.1/deb-x86_64/Packages.gz"
 ],
 "apache-pulsar": [
 "pulsar/pulsar-2.10.2/DEB/apache-pulsar-client.deb",
@@ -9082,7 +9086,9 @@
 "pulsar/pulsar-client-cpp-3.0.0/deb-arm64/apache-pulsar-client.deb",
 "pulsar/pulsar-client-cpp-3.0.0/deb-x86_64/apache-pulsar-client.deb",
 "pulsar/pulsar-client-cpp-3.1.0/deb-arm64/apache-pulsar-client.deb",
-"pulsar/pulsar-client-cpp-3.1.0/deb-x86_64/apache-pulsar-client.deb"
+"pulsar/pulsar-client-cpp-3.1.0/deb-x86_64/apache-pulsar-client.deb",
+"pulsar/pulsar-client-cpp-3.1.1/deb-arm64/apache-pulsar-client.deb",
+"pulsar/pulsar-client-cpp-3.1.1/deb-x86_64/apache-pulsar-client.deb"
 ],
 "apache-pulsar-2.10.2": [
 "pulsar/pulsar-2.10.2/apache-pulsar-2.10.2-src.tar.gz"
@@ -9116,17 +9122,30 @@
 "pulsar/pulsar-client-cpp-3.1.0/apk-arm64/aarch64/apache-pulsar-client-3.1.0-r0.apk",
 "pulsar/pulsar-client-cpp-3.1.0/apk-x86_64/x86_64/apache-pulsar-client-3.1.0-r0.apk"
 ],
+"apache-pulsar-client-3.1.1-1.aarch64": [
+"pulsar/pulsar-client-cpp-3.1.1/rpm-arm64/aarch64/apache-pulsar-client-3.1.1-1.aarch64.rpm"
+],
+"apache-pulsar-client-3.1.1-r0.apk": [
+"pulsar/pulsar-client-cpp-3.1.1/apk-arm64/aarch64/apache-pulsar-client-3.1.1-r0.apk",
+"pulsar/pulsar-client-cpp-3.1.1/apk-x86_64/x86_64/apache-pulsar-client-3.1.1-r0.apk"
+],
 "apache-pulsar-client-cpp-3.0.0": [
 "pulsar/pulsar-client-cpp-3.0.0/apache-pulsar-client-cpp-3.0.0.tar.gz"
 ],
 "apache-pulsar-client-cpp-3.1.0": [
 "pulsar/pulsar-client-cpp-3.1.0/apache-pulsar-client-cpp-3.1.0.tar.gz"
 ],
+"apache-pulsar-client-cpp-3.1.1": [
+"pulsar/pulsar-client-cpp-3.1.1/apache-pulsar-client-cpp-3.1.1.tar.gz"
+],
 "apache-pulsar-client-debuginfo-3.0.0-1.aarch64": [
 "pulsar/pulsar-client-cpp-3.0.0/rpm-arm64/aarch64/apache-pulsar-client-debuginfo-3.0.0-1.aarch64.rpm"
 ],
 "apache-pulsar-client-debuginfo-3.1.0-1.aarch64": [
 "pulsar/pulsar-client-cpp-3.1.0/rpm-arm64/aarch64/apache-pulsar-client-debuginfo-3.1.0-1.aarch64.rpm"
+],
+"apache-pulsar-client-debuginfo-3.1.1-1.aarch64": [
+"pulsar/pulsar-client-cpp-3.1.1/rpm-arm64/aarch64/apache-pulsar-client-debuginfo-3.1.1-1.aarch64.rpm"
 ],
 "apache-pulsar-client-dev": [
 "pulsar/pulsar-2.10.2/DEB/apache-pulsar-client-dev.deb",
@@ -9136,7 +9155,9 @@
 "pulsar/pulsar-client-cpp-3.0.0/deb-arm64/apache-pulsar-client-dev.deb",
 "pulsar/pulsar-client-cpp-3.0.0/deb-x86_64/apache-pulsar-client-dev.deb",
 "pulsar/pulsar-client-cpp-3.1.0/deb-arm64/apache-pulsar-client-dev.deb",
-"pulsar/pulsar-client-cpp-3.1.0/deb-x86_64/apache-pulsar-client-dev.deb"
+"pulsar/pulsar-client-cpp-3.1.0/deb-x86_64/apache-pulsar-client-dev.deb",
+"pulsar/pulsar-client-cpp-3.1.1/deb-arm64/apache-pulsar-client-dev.deb",
+"pulsar/pulsar-client-cpp-3.1.1/deb-x86_64/apache-pulsar-client-dev.deb"
 ],
 "apache-pulsar-client-dev-3.0.0-r0.apk": [
 "pulsar/pulsar-client-cpp-3.0.0/apk-arm64/aarch64/apache-pulsar-client-dev-3.0.0-r0.apk",
@@ -9146,11 +9167,18 @@
 "pulsar/pulsar-client-cpp-3.1.0/apk-arm64/aarch64/apache-pulsar-client-dev-3.1.0-r0.apk",
 "pulsar/pulsar-client-cpp-3.1.0/apk-x86_64/x86_64/apache-pulsar-client-dev-3.1.0-r0.apk"
 ],
+"apache-pulsar-client-dev-3.1.1-r0.apk": [
+"pulsar/pulsar-client-cpp-3.1.1/apk-arm64/aarch64/apache-pulsar-client-dev-3.1.1-r0.apk",
+"pulsar/pulsar-client-cpp-3.1.1/apk-x86_64/x86_64/apache-pulsar-client-dev-3.1.1-r0.apk"
+],
 "apache-pulsar-client-devel-3.0.0-1.aarch64": [
 "pulsar/pulsar-client-cpp-3.0.0/rpm-arm64/aarch64/apache-pulsar-client-devel-3.0.0-1.aarch64.rpm"
 ],
 "apache-pulsar-client-devel-3.1.0-1.aarch64": [
 "pulsar/pulsar-client-cpp-3.1.0/rpm-arm64/aarch64/apache-pulsar-client-devel-3.1.0-1.aarch64.rpm"
+],
+"apache-pulsar-client-devel-3.1.1-1.aarch64": [
+"pulsar/pulsar-client-cpp-3.1.1/rpm-arm64/aarch64/apache-pulsar-client-devel-3.1.1-1.aarch64.rpm"
 ],
 "apache-pulsar-client-go-0.8.1": [
 "pulsar/pulsar-client-go-0.8.1/apache-pulsar-client-go-0.8.1-src.tar.gz"
@@ -9684,7 +9712,8 @@
 "pulsar/pulsar-2.9.4/connectors/pulsar-io-twitter-2.9.4.nar"
 ],
 "x64-windows-static": [
-"pulsar/pulsar-client-cpp-3.1.0/x64-windows-static.tar.gz"
+"pulsar/pulsar-client-cpp-3.1.0/x64-windows-static.tar.gz",
+"pulsar/pulsar-client-cpp-3.1.1/x64-windows-static.tar.gz"
 ]
 },
 "qpid": {

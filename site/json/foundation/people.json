@@ -382,6 +382,7 @@
 "abstractdog": {
 "groups": [
 "hive",
+"hive-pmc",
 "tez",
 "tez-pmc"
 ],
@@ -1364,8 +1365,8 @@
 },
 "ahuber": {
 "groups": [
-"isis",
-"isis-pmc"
+"causeway",
+"causeway-pmc"
 ],
 "member": false,
 "name": "Andi Huber"
@@ -5959,6 +5960,13 @@
 "member": false,
 "name": "Ben Weidig"
 },
+"benwtrent": {
+"groups": [
+"lucene"
+],
+"member": false,
+"name": "Ben Trent"
+},
 "bereng": {
 "groups": [
 "cassandra"
@@ -6341,8 +6349,8 @@
 "groups": [
 "camel",
 "camel-pmc",
-"isis",
-"isis-pmc",
+"causeway",
+"causeway-pmc",
 "ofbiz",
 "ofbiz-pmc"
 ],
@@ -11852,9 +11860,9 @@
 },
 "danhaywood": {
 "groups": [
-"incubator",
-"isis",
-"isis-pmc"
+"causeway",
+"causeway-pmc",
+"incubator"
 ],
 "member": true,
 "name": "Daniel Keir Haywood"
@@ -13037,6 +13045,14 @@
 "member": false,
 "name": "Deshani Geethika"
 },
+"desmax74": {
+"groups": [
+"incubator",
+"kie"
+],
+"member": false,
+"name": "Max Dessì"
+},
 "desruisseaux": {
 "groups": [
 "baremaps",
@@ -13488,6 +13504,13 @@
 ],
 "member": false,
 "name": "Dick Carter"
+},
+"diegomedina24": {
+"groups": [
+"superset"
+],
+"member": false,
+"name": "Diego Medina"
 },
 "diegopucci": {
 "groups": [
@@ -15114,9 +15137,9 @@
 },
 "dslaughter": {
 "groups": [
-"incubator",
-"isis",
-"isis-pmc"
+"causeway",
+"causeway-pmc",
+"incubator"
 ],
 "member": false,
 "name": "David Slaughter"
@@ -15784,6 +15807,14 @@
 "member": false,
 "name": "Edouard De Oliveira"
 },
+"ederign": {
+"groups": [
+"incubator",
+"kie"
+],
+"member": false,
+"name": "Eder Ignatowicz"
+},
 "edgarpoce": {
 "groups": [
 "jackrabbit",
@@ -15936,6 +15967,14 @@
 ],
 "member": false,
 "name": "Eoghan Glynn"
+},
+"egonzalez": {
+"groups": [
+"incubator",
+"kie"
+],
+"member": false,
+"name": "Enrique Gonzalez Martinez"
 },
 "egorov": {
 "groups": [
@@ -17340,6 +17379,14 @@
 ],
 "member": false,
 "name": "Rui Fan"
+},
+"fantonangeli": {
+"groups": [
+"incubator",
+"kie"
+],
+"member": false,
+"name": "Fabrizio Antonangeli"
 },
 "fanyuzhen": {
 "groups": [
@@ -21422,6 +21469,14 @@
 "member": false,
 "name": "Harmeet Bedi"
 },
+"hbelmiro": {
+"groups": [
+"incubator",
+"kie"
+],
+"member": false,
+"name": "Helber Belmiro"
+},
 "hbetts": {
 "groups": [
 "libcloud"
@@ -25459,9 +25514,9 @@
 },
 "jcvanderwal": {
 "groups": [
-"incubator",
-"isis",
-"isis-pmc"
+"causeway",
+"causeway-pmc",
+"incubator"
 ],
 "member": false,
 "name": "Jeroen van der Wal"
@@ -25564,8 +25619,8 @@
 },
 "jdoornenbal": {
 "groups": [
-"isis",
-"isis-pmc"
+"causeway",
+"causeway-pmc"
 ],
 "member": false,
 "name": "Johan Doornenbal"
@@ -28160,8 +28215,8 @@
 },
 "joergrade": {
 "groups": [
-"isis",
-"isis-pmc"
+"causeway",
+"causeway-pmc"
 ],
 "member": false,
 "name": "Jörg Rade"
@@ -28479,6 +28534,14 @@
 ],
 "member": false,
 "name": "Joey Lynch"
+},
+"jomarko": {
+"groups": [
+"incubator",
+"kie"
+],
+"member": false,
+"name": "Jozef Marko"
 },
 "jon": {
 "groups": [
@@ -31098,9 +31161,9 @@
 },
 "kevin": {
 "groups": [
-"incubator",
-"isis",
-"isis-pmc"
+"causeway",
+"causeway-pmc",
+"incubator"
 ],
 "member": false,
 "name": "Kevin Meyer"
@@ -31836,6 +31899,15 @@
 ],
 "member": false,
 "name": "Karan Singh Malhi"
+},
+"kmarlis": {
+"groups": [
+"incubator",
+"kie",
+"sdap"
+],
+"member": false,
+"name": "Kevin Marlis"
 },
 "kmarsden": {
 "groups": [
@@ -32900,6 +32972,14 @@
 "member": false,
 "name": "Lamber Liu"
 },
+"lampajr": {
+"groups": [
+"incubator",
+"kie"
+],
+"member": false,
+"name": "Andrea Lamparelli"
+},
 "lanchengxiang": {
 "groups": [
 "shardingsphere"
@@ -33768,6 +33848,7 @@
 "libenchao": {
 "groups": [
 "calcite",
+"calcite-pmc",
 "flink"
 ],
 "member": false,
@@ -33861,6 +33942,13 @@
 ],
 "member": false,
 "name": "Li Gao"
+},
+"ligd": {
+"groups": [
+"nuttx"
+],
+"member": false,
+"name": "Guiding Li"
 },
 "lightguardjp": {
 "groups": [
@@ -35656,8 +35744,8 @@
 },
 "madytyoo": {
 "groups": [
-"isis",
-"isis-pmc"
+"causeway",
+"causeway-pmc"
 ],
 "member": false,
 "name": "Maurizio Taverna"
@@ -36235,6 +36323,14 @@
 ],
 "member": false,
 "name": "Marino A. Jonsson"
+},
+"mariofusco": {
+"groups": [
+"incubator",
+"kie"
+],
+"member": false,
+"name": "Mario Fusco"
 },
 "marios": {
 "groups": [
@@ -38054,8 +38150,8 @@
 "groups": [
 "avro",
 "avro-pmc",
-"isis",
-"isis-pmc",
+"causeway",
+"causeway-pmc",
 "tomcat",
 "tomcat-pmc",
 "wicket",
@@ -39353,6 +39449,14 @@
 "member": false,
 "name": "Matthieu Morel"
 },
+"mmortari": {
+"groups": [
+"incubator",
+"kie"
+],
+"member": false,
+"name": "Matteo Mortari"
+},
 "mmoser": {
 "groups": [
 "maven"
@@ -39370,12 +39474,12 @@
 },
 "mnour": {
 "groups": [
+"causeway",
+"causeway-pmc",
 "cloudstack",
 "cloudstack-pmc",
 "incubator",
 "incubator-pmc",
-"isis",
-"isis-pmc",
 "jclouds",
 "tomee"
 ],
@@ -43075,8 +43179,8 @@
 },
 "oscarbou": {
 "groups": [
-"isis",
-"isis-pmc"
+"causeway",
+"causeway-pmc"
 ],
 "member": false,
 "name": "Óscar Bou"
@@ -43940,6 +44044,14 @@
 ],
 "member": false,
 "name": "Pedro Henrique Oliveira dos Santos"
+},
+"pefernan": {
+"groups": [
+"incubator",
+"kie"
+],
+"member": false,
+"name": "Pere Fernandez"
 },
 "pei": {
 "groups": [
@@ -47434,6 +47546,14 @@
 "member": false,
 "name": "RGB.ES"
 },
+"rgdoliveira": {
+"groups": [
+"incubator",
+"kie"
+],
+"member": false,
+"name": "Roberto Oliveira"
+},
 "rgielen": {
 "groups": [
 "struts",
@@ -48127,9 +48247,9 @@
 },
 "rmatthews": {
 "groups": [
-"incubator",
-"isis",
-"isis-pmc"
+"causeway",
+"causeway-pmc",
+"incubator"
 ],
 "member": false,
 "name": "Robert Charles Matthews"
@@ -48928,6 +49048,14 @@
 ],
 "member": false,
 "name": "Reema Taneja"
+},
+"ruben": {
+"groups": [
+"incubator",
+"kie"
+],
+"member": false,
+"name": "Ruben Romero Montes"
 },
 "rubenql": {
 "groups": [
@@ -53321,6 +53449,13 @@
 "member": false,
 "name": "Sailaja Polavarapu"
 },
+"spolti": {
+"groups": [
+"incubator"
+],
+"member": false,
+"name": "Filippe Spolti"
+},
 "spoole": {
 "groups": [
 "incubator"
@@ -54220,6 +54355,8 @@
 "groups": [
 "bval",
 "bval-pmc",
+"causeway",
+"causeway-pmc",
 "commons",
 "deltaspike",
 "deltaspike-pmc",
@@ -54227,8 +54364,6 @@
 "geronimo-pmc",
 "incubator",
 "incubator-pmc",
-"isis",
-"isis-pmc",
 "johnzon",
 "johnzon-pmc",
 "maven",
@@ -56128,9 +56263,9 @@
 },
 "themalkolm": {
 "groups": [
-"incubator",
-"isis",
-"isis-pmc"
+"causeway",
+"causeway-pmc",
+"incubator"
 ],
 "member": false,
 "name": "Alexander Krasnukhin"
@@ -56381,6 +56516,14 @@
 ],
 "member": false,
 "name": "Tiago Aurélio Rodrigues Espinha"
+},
+"tiagodolphine": {
+"groups": [
+"incubator",
+"kie"
+],
+"member": false,
+"name": "Tiago Dolphine"
 },
 "tianchen": {
 "groups": [
@@ -56766,6 +56909,14 @@
 ],
 "member": false,
 "name": "Ted Kirby"
+},
+"tkobayas": {
+"groups": [
+"incubator",
+"kie"
+],
+"member": false,
+"name": "Toshiya Kobayashi"
 },
 "tkonolige": {
 "groups": [
@@ -62395,6 +62546,13 @@
 ],
 "member": false,
 "name": "Yasser Zamani"
+},
+"yaxingcai": {
+"groups": [
+"tvm"
+],
+"member": false,
+"name": "Yaxing Cai"
 },
 "ycai": {
 "groups": [
