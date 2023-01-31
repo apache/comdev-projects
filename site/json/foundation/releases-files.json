@@ -747,11 +747,8 @@
 "apache-arrow-ballista-0.10.0": [
 "arrow/arrow-ballista-0.10.0/apache-arrow-ballista-0.10.0.tar.gz"
 ],
-"apache-arrow-datafusion-16.0.0": [
-"arrow/arrow-datafusion-16.0.0/apache-arrow-datafusion-16.0.0.tar.gz"
-],
-"apache-arrow-datafusion-16.1.0": [
-"arrow/arrow-datafusion-16.1.0/apache-arrow-datafusion-16.1.0.tar.gz"
+"apache-arrow-datafusion-17.0.0": [
+"arrow/arrow-datafusion-17.0.0/apache-arrow-datafusion-17.0.0.tar.gz"
 ],
 "apache-arrow-datafusion-python-0.7.0": [
 "arrow/arrow-datafusion-python-0.7.0/apache-arrow-datafusion-python-0.7.0.tar.gz"
@@ -774,8 +771,8 @@
 "apache-arrow-object-store-rs-0.5.3": [
 "arrow/arrow-object-store-rs-0.5.3/apache-arrow-object-store-rs-0.5.3.tar.gz"
 ],
-"apache-arrow-rs-31.0.0": [
-"arrow/arrow-rs-31.0.0/apache-arrow-rs-31.0.0.tar.gz"
+"apache-arrow-rs-32.0.0": [
+"arrow/arrow-rs-32.0.0/apache-arrow-rs-32.0.0.tar.gz"
 ]
 },
 "asterixdb": {
@@ -1197,6 +1194,18 @@
 "camel-k-client-1.11.0-windows": [
 "camel/camel-k/1.11.0/camel-k-client-1.11.0-windows-64bit.tar.gz"
 ],
+"camel-k-client-1.11.1-linux": [
+"camel/camel-k/1.11.1/camel-k-client-1.11.1-linux-64bit.tar.gz"
+],
+"camel-k-client-1.11.1-mac": [
+"camel/camel-k/1.11.1/camel-k-client-1.11.1-mac-64bit.tar.gz"
+],
+"camel-k-client-1.11.1-mac-arm64bit": [
+"camel/camel-k/1.11.1/camel-k-client-1.11.1-mac-arm64bit.tar.gz"
+],
+"camel-k-client-1.11.1-windows": [
+"camel/camel-k/1.11.1/camel-k-client-1.11.1-windows-64bit.tar.gz"
+],
 "camel-k-client-1.8.2-linux": [
 "camel/camel-k/1.8.2/camel-k-client-1.8.2-linux-64bit.tar.gz"
 ],
@@ -1260,6 +1269,9 @@
 "camel-k-examples-1.11.0": [
 "camel/camel-k/1.11.0/camel-k-examples-1.11.0.tar.gz"
 ],
+"camel-k-examples-1.11.1": [
+"camel/camel-k/1.11.1/camel-k-examples-1.11.1.tar.gz"
+],
 "camel-k-examples-1.8.2": [
 "camel/camel-k/1.8.2/camel-k-examples-1.8.2.tar.gz"
 ],
@@ -1293,6 +1305,9 @@
 "camel-k-sources-1.11.0": [
 "camel/camel-k/1.11.0/camel-k-sources-1.11.0.tar.gz"
 ],
+"camel-k-sources-1.11.1": [
+"camel/camel-k/1.11.1/camel-k-sources-1.11.1.tar.gz"
+],
 "camel-k-sources-1.8.2": [
 "camel/camel-k/1.8.2/camel-k-sources-1.8.2.tar.gz"
 ],
@@ -1316,6 +1331,9 @@
 ],
 "camel-kafka-connector-3.19.0": [
 "camel/camel-kafka-connector/3.19.0/camel-kafka-connector-3.19.0-src.zip"
+],
+"camel-kafka-connector-3.20.0": [
+"camel/camel-kafka-connector/3.20.0/camel-kafka-connector-3.20.0-src.zip"
 ],
 "camel-kamelets-sources-0.10.0": [
 "camel/camel-kamelets/0.10.0/camel-kamelets-sources-0.10.0.tar.gz"
@@ -1346,6 +1364,9 @@
 ],
 "camel-kamelets-sources-3.20.1": [
 "camel/camel-kamelets/3.20.1/camel-kamelets-sources-3.20.1.tar.gz"
+],
+"camel-kamelets-sources-3.20.1.1": [
+"camel/camel-kamelets/3.20.1.1/camel-kamelets-sources-3.20.1.1.tar.gz"
 ]
 },
 "carbondata": {
@@ -2922,14 +2943,14 @@
 "apache-dubbo-2.7.21": [
 "dubbo/2.7.21/apache-dubbo-2.7.21-src.zip"
 ],
-"apache-dubbo-3.0.12": [
-"dubbo/3.0.12/apache-dubbo-3.0.12-src.zip"
+"apache-dubbo-3.0.13": [
+"dubbo/3.0.13/apache-dubbo-3.0.13-src.zip"
 ],
 "apache-dubbo-3.1.5": [
 "dubbo/3.1.5/apache-dubbo-3.1.5-src.zip"
 ],
-"apache-dubbo-3.2.0-beta.3": [
-"dubbo/3.2.0-beta.3/apache-dubbo-3.2.0-beta.3-src.zip"
+"apache-dubbo-3.2.0-beta.4": [
+"dubbo/3.2.0-beta.4/apache-dubbo-3.2.0-beta.4-src.zip"
 ],
 "apache-dubbo-admin-0.4.0": [
 "dubbo/dubbo-admin/0.4.0/apache-dubbo-admin-0.4.0-source-release.zip"
@@ -3479,11 +3500,17 @@
 "apache-flink-1.16.0": [
 "flink/flink-1.16.0/python/apache-flink-1.16.0.tar.gz"
 ],
+"apache-flink-1.16.1": [
+"flink/flink-1.16.1/python/apache-flink-1.16.1.tar.gz"
+],
 "apache-flink-libraries-1.15.3": [
 "flink/flink-1.15.3/python/apache-flink-libraries-1.15.3.tar.gz"
 ],
 "apache-flink-libraries-1.16.0": [
 "flink/flink-1.16.0/python/apache-flink-libraries-1.16.0.tar.gz"
+],
+"apache-flink-libraries-1.16.1": [
+"flink/flink-1.16.1/python/apache-flink-libraries-1.16.1.tar.gz"
 ],
 "apache-flink-ml-2.0.0": [
 "flink/flink-ml-2.0.0/apache-flink-ml-2.0.0.tar.gz"
@@ -3499,6 +3526,9 @@
 ],
 "flink-1.16.0": [
 "flink/flink-1.16.0/flink-1.16.0-src.tgz"
+],
+"flink-1.16.1": [
+"flink/flink-1.16.1/flink-1.16.1-src.tgz"
 ],
 "flink-connector-aws-3.0.0": [
 "flink/flink-connector-aws-3.0.0/flink-connector-aws-3.0.0-src.tgz"
@@ -5141,9 +5171,9 @@
 "lucene/java/8.11.2/lucene-8.11.2.tgz",
 "lucene/java/8.11.2/lucene-8.11.2.zip"
 ],
-"lucene-9.4.2": [
-"lucene/java/9.4.2/lucene-9.4.2-src.tgz",
-"lucene/java/9.4.2/lucene-9.4.2.tgz"
+"lucene-9.5.0": [
+"lucene/java/9.5.0/lucene-9.5.0-src.tgz",
+"lucene/java/9.5.0/lucene-9.5.0.tgz"
 ],
 "pylucene-7.7.1": [
 "lucene/pylucene/pylucene-7.7.1-src.tar.gz"
@@ -5831,6 +5861,9 @@
 ],
 "myfaces-tobago-5.4.0": [
 "myfaces/source/myfaces-tobago-5.4.0-source-release.zip"
+],
+"myfaces-tobago-5.5.0": [
+"myfaces/source/myfaces-tobago-5.5.0-source-release.zip"
 ],
 "portlet-bridge-1.0.0": [
 "myfaces/source/portlet-bridge-1.0.0-src-all.tar.gz",
@@ -10713,8 +10746,8 @@
 "org.apache.sling.jcr.registration-1.0.6": [
 "sling/org.apache.sling.jcr.registration-1.0.6-source-release.zip"
 ],
-"org.apache.sling.jcr.repoinit-1.1.42": [
-"sling/org.apache.sling.jcr.repoinit-1.1.42-source-release.zip"
+"org.apache.sling.jcr.repoinit-1.1.44": [
+"sling/org.apache.sling.jcr.repoinit-1.1.44-source-release.zip"
 ],
 "org.apache.sling.jcr.resource-3.2.4": [
 "sling/org.apache.sling.jcr.resource-3.2.4-source-release.zip"
@@ -10905,8 +10938,11 @@
 "org.apache.sling.query-4.0.4": [
 "sling/org.apache.sling.query-4.0.4-source-release.zip"
 ],
-"org.apache.sling.repoinit.parser-1.8.0": [
-"sling/org.apache.sling.repoinit.parser-1.8.0-source-release.zip"
+"org.apache.sling.repoinit.filevault.validator-1.0.0": [
+"sling/org.apache.sling.repoinit.filevault.validator-1.0.0-source-release.zip"
+],
+"org.apache.sling.repoinit.parser-1.9.0": [
+"sling/org.apache.sling.repoinit.parser-1.9.0-source-release.zip"
 ],
 "org.apache.sling.resource.filter-1.0.0": [
 "sling/org.apache.sling.resource.filter-1.0.0-source-release.zip"
@@ -11226,8 +11262,8 @@
 "org.apache.sling.validation.test-services-1.0.4": [
 "sling/org.apache.sling.validation.test-services-1.0.4-source-release.zip"
 ],
-"org.apache.sling.xss-2.3.2": [
-"sling/org.apache.sling.xss-2.3.2-source-release.zip"
+"org.apache.sling.xss-2.3.4": [
+"sling/org.apache.sling.xss-2.3.4-source-release.zip"
 ],
 "org.apache.sling.xss.compat-1.1.0": [
 "sling/org.apache.sling.xss.compat-1.1.0-source-release.zip"
@@ -12465,6 +12501,9 @@
 ],
 "apache-zookeeper-3.8.0": [
 "zookeeper/zookeeper-3.8.0/apache-zookeeper-3.8.0.tar.gz"
+],
+"apache-zookeeper-3.8.1": [
+"zookeeper/zookeeper-3.8.1/apache-zookeeper-3.8.1.tar.gz"
 ]
 }
 }
