@@ -4155,6 +4155,26 @@
 ],
 "shortdesc": "Web development framework: separation of concerns, component-based."
 },
+"comdev-age": {
+"category": "database",
+"created": "2023-01-31",
+"description": "The goal of Apache AGE® is to provide graph data processing and analytics capability to all relational databases.\n\nThrough Apache AGE, PostgreSQL users will gain access to graph query modeling within the existing relational database.\n\nUsers can read and write graph data in nodes and edges. They can also use various algorithms such as variable length and edge traversal when analyzing data.",
+"doap": "https://age.apache.org/doap_AGE.rdf",
+"download-page": "https://age.apache.org/?l=versions#",
+"homepage": "https://age.apache.org/",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://lists.apache.org/list.html?dev@age.apache.org",
+"maintainer": [
+{
+"mbox": "mailto:badaleya@gmail.com",
+"name": "eya badal "
+}
+],
+"name": "Apache AGE",
+"pmc": "comdev",
+"programming-language": "C",
+"shortdesc": "Apache AGE® is a PostgreSQL extension that provides graph database functionality.\n"
+},
 "comdev-community_development": {
 "bug-database": "https://issues.apache.org/jira/browse/COMDEV",
 "created": "2009",

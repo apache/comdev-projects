@@ -32,6 +32,8 @@
 },
 "age": {
 "apache-age-1.1.0": "2022-08-16",
+"apache-age-1.1.1": "2023-02-01",
+"apache-age-1.2.0": "2023-02-01",
 "apache-age-viewer-1.0.0-rc2-incubating": "2022-04-26"
 },
 "airavata": {
@@ -49,6 +51,7 @@
 "apache-airflow-client-2.2.0": "2021-12-01",
 "apache-airflow-client-2.3.0": "2022-08-03",
 "apache-airflow-client-2.5.0": "2023-01-21",
+"apache-airflow-client-2.5.1": "2023-02-01",
 "apache-airflow-providers-airbyte-3.2.0": "2022-11-18",
 "apache-airflow-providers-alibaba-2.2.0": "2022-11-18",
 "apache-airflow-providers-amazon-7.1.0": "2023-01-17",
@@ -169,9 +172,9 @@
 },
 "apr": {
 "apr-1.6.5": "2018-09-14",
-"apr-1.7.1": "2023-01-31",
+"apr-1.7.2": "2023-02-01",
 "apr-iconv-1.2.2": "2017-10-22",
-"apr-util-1.6.2": "2023-01-31"
+"apr-util-1.6.3": "2023-02-01"
 },
 "archiva": {
 "apache-archiva-2.2.8": "2022-05-20",
@@ -723,7 +726,7 @@
 "commons-configuration-1.10": "2013-10-28",
 "commons-configuration2-2.8.0": "2022-07-04",
 "commons-crypto-1.2.0": "2023-01-22",
-"commons-csv-1.9.0": "2021-07-30",
+"commons-csv-1.10.0": "2023-02-01",
 "commons-daemon-1.3.3": "2022-11-23",
 "commons-dbcp2-2.4.0": "2018-06-16",
 "commons-dbcp2-2.9.0": "2021-08-03",
@@ -804,7 +807,7 @@
 "cordova-plugin-vibration-3.1.1": "2019-07-02",
 "cordova-plugin-whitelist-1.3.5": "2021-06-30",
 "cordova-plugin-wkwebview-engine-1.2.2": "2021-02-06",
-"cordova-serve-4.0.0": "2020-04-13",
+"cordova-serve-4.0.1": "2023-02-01",
 "cordova-ubuntu-4.3.4": "2016-06-08",
 "cordova-webos-3.7.0": "2015-08-18",
 "cordova-windows-7.0.1": "2020-01-06",
@@ -1108,16 +1111,13 @@
 },
 "flink": {
 "apache-flink-1.15.3": "2022-11-10",
-"apache-flink-1.16.0": "2022-10-20",
 "apache-flink-1.16.1": "2023-01-19",
 "apache-flink-libraries-1.15.3": "2022-11-10",
-"apache-flink-libraries-1.16.0": "2022-10-20",
 "apache-flink-libraries-1.16.1": "2023-01-19",
 "apache-flink-ml-2.0.0": "2021-12-30",
 "apache-flink-ml-2.1.0": "2022-07-01",
 "apache-flink-statefun-3.2.0": "2022-01-25",
 "flink-1.15.3": "2022-11-10",
-"flink-1.16.0": "2022-10-20",
 "flink-1.16.1": "2023-01-19",
 "flink-connector-aws-3.0.0": "2022-11-28",
 "flink-connector-aws-4.0.0": "2022-12-05",
@@ -1298,9 +1298,11 @@
 "apache-hop-2.0.0": "2022-06-02",
 "apache-hop-2.1.0": "2022-10-14",
 "apache-hop-2.2.0": "2022-12-06",
+"apache-hop-2.3.0": "2023-02-01",
 "apache-hop-client-2.0.0": "2022-06-02",
 "apache-hop-client-2.1.0": "2022-10-14",
 "apache-hop-client-2.2.0": "2022-12-06",
+"apache-hop-client-2.3.0": "2023-02-01",
 "hop-0.1.0": "2022-10-14"
 },
 "httpcomponents": {
@@ -1796,8 +1798,12 @@
 "maven-mapping-3.0.0": "2015-11-24",
 "maven-mvnd-0.8.2": "2022-10-10",
 "maven-mvnd-0.8.2-darwin-aarch64": "2022-10-10",
+"maven-mvnd-0.9.0": "2023-01-25",
+"maven-mvnd-0.9.0-darwin-aarch64": "2023-01-25",
 "maven-mvnd-1.0.0-m1": "2022-12-16",
 "maven-mvnd-1.0.0-m1-darwin-aarch64": "2022-12-16",
+"maven-mvnd-1.0.0-m4": "2023-01-28",
+"maven-mvnd-1.0.0-m4-darwin-aarch64": "2023-01-28",
 "maven-patch-plugin-1.2": "2015-03-09",
 "maven-pdf-plugin-1.6.1": "2022-08-19",
 "maven-plugin-3.4.2": "2022-07-23",
