@@ -12280,9 +12280,15 @@
 "revision": "4.0.0-alpha-2"
 },
 {
+"created": "2023-01-31",
+"file-release": "http://archive.apache.org/dist/maven/maven-3/3.9.0/source/apache-maven-3.9.0-src.tar.gz",
+"name": "Latest stable release",
+"revision": "3.9.0"
+},
+{
 "created": "2022-12-24",
 "file-release": "http://archive.apache.org/dist/maven/maven-3/3.8.7/source/apache-maven-3.8.7-src.tar.gz",
-"name": "Latest stable release",
+"name": "Apache Maven 3.8.7",
 "revision": "3.8.7"
 },
 {
@@ -12909,8 +12915,14 @@
 "implements": [
 {
 "body": "Jakarta EE",
+"id": "4.0",
+"title": "Jakarta Faces 4.0",
+"url": "https://jakarta.ee/specifications/faces/4.0/"
+},
+{
+"body": "Jakarta EE",
 "id": "3.0",
-"title": "Jakarta Server Faces 3.0",
+"title": "Jakarta Faces 3.0",
 "url": "https://jakarta.ee/specifications/faces/3.0/"
 },
 {
@@ -16532,6 +16544,11 @@
 "pmc": "tika",
 "programming-language": "Java",
 "release": [
+{
+"created": "2023-02-03",
+"name": "Apache Tika 2.7.0",
+"revision": "2.7.0"
+},
 {
 "created": "2022-11-07",
 "name": "Apache Tika 2.6.0",
