@@ -3955,6 +3955,592 @@
 ],
 "shortdesc": "The Apache Cassandra database is the right choice when you need scalability and high availability without compromising performance."
 },
+"causeway": {
+"bug-database": "https://issues.apache.org/jira/browse/CAUSEWAY",
+"category": "web-framework",
+"created": "2013-01-03",
+"description": "Apache Causeway is a framework for rapidly developing domain-driven apps in Java. Write your business logic in entities, domain services and repositories, and the framework dynamically (at runtime) generates a representation of that domain model as a webapp or as a RESTful API. For prototyping or production.",
+"doap": "https://causeway.apache.org/doap_causeway.rdf",
+"download-page": "http://causeway.apache.org/downloads.html",
+"homepage": "http://causeway.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://causeway.apache.org/support.html",
+"maintainer": [
+{
+"mbox": "mailto:danhaywood@apache.org",
+"name": "Dan Haywood"
+}
+],
+"name": "Apache Causeway",
+"pmc": "causeway",
+"programming-language": "Java",
+"release": [
+{
+"created": "2022-10-18",
+"name": "isis",
+"revision": "2.0.0-M9"
+},
+{
+"created": "2022-10-06",
+"name": "isis",
+"revision": "2.0.0-M8"
+},
+{
+"created": "2022-02-28",
+"name": "isis",
+"revision": "2.0.0-M7"
+},
+{
+"created": "2021-08-26",
+"name": "isis",
+"revision": "2.0.0-M6"
+},
+{
+"created": "2021-03-28",
+"name": "isis",
+"revision": "2.0.0-M5"
+},
+{
+"created": "2020-10-17",
+"name": "isis",
+"revision": "2.0.0-M4"
+},
+{
+"created": "2020-03-27",
+"name": "isis",
+"revision": "2.0.0-M3"
+},
+{
+"created": "2019-01-22",
+"name": "isis",
+"revision": "2.0.0-M2"
+},
+{
+"created": "2019-01-22",
+"name": "helloworld-archetype",
+"revision": "2.0.0-M2"
+},
+{
+"created": "2019-01-22",
+"name": "simpleapp-archetype",
+"revision": "2.0.0-M2"
+},
+{
+"created": "2019-01-06",
+"name": "isis",
+"revision": "1.17.0"
+},
+{
+"created": "2019-01-06",
+"name": "helloworld-archetype",
+"revision": "1.17.0"
+},
+{
+"created": "2019-01-06",
+"name": "simpleapp-archetype",
+"revision": "1.17.0"
+},
+{
+"created": "2018-07-31",
+"name": "isis",
+"revision": "2.0.0-M1"
+},
+{
+"created": "2018-07-31",
+"name": "helloworld-archetype",
+"revision": "2.0.0-M1"
+},
+{
+"created": "2018-07-31",
+"name": "simpleapp-archetype",
+"revision": "2.0.0-M1"
+},
+{
+"created": "2018-03-05",
+"name": "isis",
+"revision": "1.16.2"
+},
+{
+"created": "2018-03-05",
+"name": "helloworld-archetype",
+"revision": "1.16.2"
+},
+{
+"created": "2018-03-05",
+"name": "simpleapp-archetype",
+"revision": "1.16.2"
+},
+{
+"created": "2018-02-22",
+"name": "isis",
+"revision": "1.16.1"
+},
+{
+"created": "2018-02-22",
+"name": "helloworld-archetype",
+"revision": "1.16.1"
+},
+{
+"created": "2018-02-22",
+"name": "simpleapp-archetype",
+"revision": "1.16.1"
+},
+{
+"created": "2018-01-08",
+"name": "isis",
+"revision": "1.16.0"
+},
+{
+"created": "2018-01-08",
+"name": "helloworld-archetype",
+"revision": "1.16.0"
+},
+{
+"created": "2018-01-08",
+"name": "simpleapp-archetype",
+"revision": "1.16.0"
+},
+{
+"created": "2017-09-25",
+"name": "isis",
+"revision": "1.15.1"
+},
+{
+"created": "2017-09-25",
+"name": "helloworld-archetype",
+"revision": "1.15.1"
+},
+{
+"created": "2017-09-25",
+"name": "simpleapp-archetype",
+"revision": "1.15.1"
+},
+{
+"created": "2017-08-14",
+"name": "isis",
+"revision": "1.15.0"
+},
+{
+"created": "2017-08-14",
+"name": "helloworld-archetype",
+"revision": "1.15.0"
+},
+{
+"created": "2017-08-14",
+"name": "simpleapp-archetype",
+"revision": "1.15.0"
+},
+{
+"created": "2017-02-19",
+"name": "isis",
+"revision": "1.14.0"
+},
+{
+"created": "2017-02-19",
+"name": "simpleapp-archetype",
+"revision": "1.14.0"
+},
+{
+"created": "2017-01-03",
+"name": "simpleapp-archetype",
+"revision": "1.13.2.1"
+},
+{
+"created": "2016-12-14",
+"name": "isis",
+"revision": "1.13.2"
+},
+{
+"created": "2016-12-14",
+"name": "simpleapp-archetype",
+"revision": "1.13.2"
+},
+{
+"created": "2016-10-30",
+"name": "isis",
+"revision": "1.13.1"
+},
+{
+"created": "2016-10-30",
+"name": "simpleapp-archetype",
+"revision": "1.13.1"
+},
+{
+"created": "2016-07-11",
+"name": "isis",
+"revision": "1.13.0"
+},
+{
+"created": "2016-07-11",
+"name": "simpleapp-archetype",
+"revision": "1.13.0"
+},
+{
+"created": "2016-06-06",
+"name": "isis",
+"revision": "1.12.2"
+},
+{
+"created": "2016-06-06",
+"name": "simpleapp-archetype",
+"revision": "1.12.2"
+},
+{
+"created": "2016-04-12",
+"name": "isis",
+"revision": "1.12.1"
+},
+{
+"created": "2016-04-12",
+"name": "simpleapp-archetype",
+"revision": "1.12.1"
+},
+{
+"created": "2016-03-29",
+"name": "isis",
+"revision": "1.12.0"
+},
+{
+"created": "2016-03-29",
+"name": "simpleapp-archetype",
+"revision": "1.12.0"
+},
+{
+"created": "2016-01-17",
+"name": "isis",
+"revision": "1.11.1"
+},
+{
+"created": "2016-01-17",
+"name": "simpleapp-archetype",
+"revision": "1.11.1"
+},
+{
+"created": "2016-01-02",
+"name": "isis",
+"revision": "1.11.0"
+},
+{
+"created": "2016-01-02",
+"name": "simpleapp-archetype",
+"revision": "1.11.0"
+},
+{
+"created": "2015-11-10",
+"name": "isis",
+"revision": "1.10.0"
+},
+{
+"created": "2015-11-10",
+"name": "simpleapp-archetype",
+"revision": "1.10.0"
+},
+{
+"created": "2015-09-01",
+"name": "isis",
+"revision": "1.9.0"
+},
+{
+"created": "2015-09-01",
+"name": "simpleapp-archetype",
+"revision": "1.9.0"
+},
+{
+"created": "2015-02-23",
+"name": "isis",
+"revision": "1.8.0"
+},
+{
+"created": "2015-02-23",
+"name": "simpleapp-archetype",
+"revision": "1.8.0"
+},
+{
+"created": "2014-10-18",
+"name": "isis",
+"revision": "1.7.0"
+},
+{
+"created": "2014-10-18",
+"name": "isis-viewer-wicket",
+"revision": "1.7.0"
+},
+{
+"created": "2014-10-18",
+"name": "todoapp-archetype",
+"revision": "1.7.0"
+},
+{
+"created": "2014-10-18",
+"name": "simpleapp-archetype",
+"revision": "1.7.0"
+},
+{
+"created": "2014-07-25",
+"name": "isis",
+"revision": "1.6.0"
+},
+{
+"created": "2014-07-25",
+"name": "isis-viewer-wicket",
+"revision": "1.6.0"
+},
+{
+"created": "2014-07-25",
+"name": "todoapp-archetype",
+"revision": "1.6.0"
+},
+{
+"created": "2014-07-25",
+"name": "simpleapp-archetype",
+"revision": "1.6.0"
+},
+{
+"created": "2014-06-08",
+"name": "isis",
+"revision": "1.5.0"
+},
+{
+"created": "2014-06-08",
+"name": "isis-security-shiro",
+"revision": "1.5.0"
+},
+{
+"created": "2014-06-08",
+"name": "isis-objectstore-jdo",
+"revision": "1.5.0"
+},
+{
+"created": "2014-06-08",
+"name": "isis-viewer-restfulobjects",
+"revision": "2.3.0"
+},
+{
+"created": "2014-06-08",
+"name": "isis-viewer-wicket",
+"revision": "1.5.0"
+},
+{
+"created": "2014-06-08",
+"name": "quickstart_wicket-restful_jdo-archetype",
+"revision": "1.5.0"
+},
+{
+"created": "2014-06-08",
+"name": "simple_wicket-restful_jdo-archetype",
+"revision": "1.5.0"
+},
+{
+"created": "2014-03-14",
+"name": "isis-objectstore-jdo",
+"revision": "1.4.1"
+},
+{
+"created": "2014-03-14",
+"name": "isis-viewer-wicket",
+"revision": "1.4.1"
+},
+{
+"created": "2014-03-14",
+"name": "quickstart_wicket-restful_jdo-archetype",
+"revision": "1.4.1"
+},
+{
+"created": "2014-03-14",
+"name": "simple_wicket-restful_jdo-archetype",
+"revision": "1.4.1"
+},
+{
+"created": "2014-03-11",
+"name": "isis",
+"revision": "1.4.0"
+},
+{
+"created": "2014-03-11",
+"name": "isis-security-shiro",
+"revision": "1.4.0"
+},
+{
+"created": "2014-03-11",
+"name": "isis-security-file",
+"revision": "1.4.0"
+},
+{
+"created": "2014-03-11",
+"name": "isis-objectstore-jdo",
+"revision": "1.4.0"
+},
+{
+"created": "2014-03-11",
+"name": "isis-viewer-restfulobjects",
+"revision": "2.2.0"
+},
+{
+"created": "2014-03-11",
+"name": "isis-viewer-wicket",
+"revision": "1.4.0"
+},
+{
+"created": "2014-03-11",
+"name": "quickstart_wicket-restful_jdo-archetype",
+"revision": "1.4.0"
+},
+{
+"created": "2014-03-11",
+"name": "simple_wicket-restful_jdo-archetype",
+"revision": "1.4.0"
+},
+{
+"created": "2013-11-07",
+"name": "isis-viewer-wicket",
+"revision": "1.3.1"
+},
+{
+"created": "2013-11-07",
+"name": "quickstart_wicket-restful_jdo-archetype",
+"revision": "1.3.1"
+},
+{
+"created": "2013-11-07",
+"name": "simple_wicket-restful_jdo-archetype",
+"revision": "1.3.1"
+},
+{
+"created": "2013-10-25",
+"name": "isis",
+"revision": "1.3.0"
+},
+{
+"created": "2013-10-25",
+"name": "isis-security-shiro",
+"revision": "1.3.0"
+},
+{
+"created": "2013-10-25",
+"name": "isis-objectstore-jdo",
+"revision": "1.3.0"
+},
+{
+"created": "2013-10-25",
+"name": "isis-viewer-restfulobjects",
+"revision": "2.1.0"
+},
+{
+"created": "2013-10-25",
+"name": "isis-viewer-wicket",
+"revision": "1.3.0"
+},
+{
+"created": "2013-10-25",
+"name": "quickstart_wicket-restful_jdo-archetype",
+"revision": "1.3.0"
+},
+{
+"created": "2013-10-25",
+"name": "simple_wicket-restful_jdo-archetype",
+"revision": "1.3.0"
+},
+{
+"created": "2013-05-31",
+"name": "isis",
+"revision": "1.2.0"
+},
+{
+"created": "2013-05-31",
+"name": "isis-security-file",
+"revision": "1.0.1"
+},
+{
+"created": "2013-05-31",
+"name": "isis-security-shiro",
+"revision": "1.1.1"
+},
+{
+"created": "2013-05-31",
+"name": "isis-objectstore-jdo",
+"revision": "1.1.0"
+},
+{
+"created": "2013-05-31",
+"name": "isis-viewer-restfulobjects",
+"revision": "2.0.0"
+},
+{
+"created": "2013-05-31",
+"name": "isis-viewer-wicket",
+"revision": "1.2.0"
+},
+{
+"created": "2013-05-31",
+"name": "quickstart_wicket-restful_jdo-archetype",
+"revision": "1.0.3"
+},
+{
+"created": "2013-01-31",
+"name": "isis",
+"revision": "1.1.0"
+},
+{
+"created": "2013-01-31",
+"name": "isis-security-shiro",
+"revision": "1.1.0"
+},
+{
+"created": "2013-01-13",
+"name": "isis-viewer-wicket",
+"revision": "1.1.0"
+},
+{
+"created": "2013-01-31",
+"name": "quickstart_wicket-restful_jdo-archetype",
+"revision": "1.0.2"
+},
+{
+"created": "2013-01-10",
+"name": "isis-security-shiro",
+"revision": "1.0.0"
+},
+{
+"created": "2013-01-10",
+"name": "quickstart_wicket-restful_jdo-archetype",
+"revision": "1.0.1"
+},
+{
+"created": "2012-12-24",
+"name": "isis",
+"revision": "1.0.0"
+},
+{
+"created": "2012-12-24",
+"name": "isis-objectstore-jdo",
+"revision": "1.0.0"
+},
+{
+"created": "2012-12-24",
+"name": "isis-security-file",
+"revision": "1.0.0"
+},
+{
+"created": "2012-12-24",
+"name": "isis-viewer-restfulobjects",
+"revision": "1.0.0"
+},
+{
+"created": "2012-12-24",
+"name": "isis-viewer-wicket",
+"revision": "1.0.0"
+},
+{
+"created": "2012-12-24",
+"name": "quickstart_wicket-restful_jdo-archetype",
+"revision": "1.0.0"
+}
+],
+"repository": [
+"https://github.com/apache/causeway.git"
+],
+"shortdesc": "Apache Causeway is a framework for rapidly developing domain-driven apps in Java"
+},
 "cayenne": {
 "bug-database": "http://issues.apache.org/jira/browse/CAY",
 "category": "database, library, network-server, network-client, xml, web-framework",
@@ -4154,26 +4740,6 @@
 "http://svn.apache.org/repos/asf/cocoon/trunk/"
 ],
 "shortdesc": "Web development framework: separation of concerns, component-based."
-},
-"comdev-age": {
-"category": "database",
-"created": "2023-01-31",
-"description": "The goal of Apache AGE® is to provide graph data processing and analytics capability to all relational databases.\n\nThrough Apache AGE, PostgreSQL users will gain access to graph query modeling within the existing relational database.\n\nUsers can read and write graph data in nodes and edges. They can also use various algorithms such as variable length and edge traversal when analyzing data.",
-"doap": "https://age.apache.org/doap_AGE.rdf",
-"download-page": "https://age.apache.org/download?",
-"homepage": "https://age.apache.org/",
-"license": "https://spdx.org/licenses/Apache-2.0",
-"mailing-list": "https://lists.apache.org/list.html?dev@age.apache.org",
-"maintainer": [
-{
-"mbox": "mailto:badaleya@gmail.com",
-"name": "eya badal "
-}
-],
-"name": "Apache AGE",
-"pmc": "comdev",
-"programming-language": "C",
-"shortdesc": "Apache AGE® is a PostgreSQL extension that provides graph database functionality.\n"
 },
 "comdev-community_development": {
 "bug-database": "https://issues.apache.org/jira/browse/COMDEV",
@@ -9048,592 +9614,6 @@
 "https://github.com/apache/iotdb.git"
 ],
 "shortdesc": "Apache IoTDB is an IoT native database with high performance for data management and analysis, on the edge and the cloud."
-},
-"isis": {
-"bug-database": "https://issues.apache.org/jira/browse/ISIS",
-"category": "web-framework, retired",
-"created": "2013-01-03",
-"description": "Apache Isis is a framework for rapidly developing domain-driven apps in Java. Write your business logic in entities, domain services and repositories, and the framework dynamically (at runtime) generates a representation of that domain model as a webapp or as a RESTful API. For prototyping or production.",
-"doap": "http://causeway.apache.org/doap_isis.rdf",
-"download-page": "http://isis.apache.org/downloads.html",
-"homepage": "http://isis.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://isis.apache.org/support.html",
-"maintainer": [
-{
-"mbox": "mailto:danhaywood@apache.org",
-"name": "Dan Haywood"
-}
-],
-"name": "Apache Isis",
-"pmc": "attic",
-"programming-language": "Java",
-"release": [
-{
-"created": "2022-10-06",
-"name": "isis",
-"revision": "2.0.0-M8"
-},
-{
-"created": "2022-10-18",
-"name": "isis",
-"revision": "2.0.0-M9"
-},
-{
-"created": "2022-02-28",
-"name": "isis",
-"revision": "2.0.0-M7"
-},
-{
-"created": "2021-08-26",
-"name": "isis",
-"revision": "2.0.0-M6"
-},
-{
-"created": "2021-03-28",
-"name": "isis",
-"revision": "2.0.0-M5"
-},
-{
-"created": "2020-10-17",
-"name": "isis",
-"revision": "2.0.0-M4"
-},
-{
-"created": "2020-03-27",
-"name": "isis",
-"revision": "2.0.0-M3"
-},
-{
-"created": "2019-01-22",
-"name": "isis",
-"revision": "2.0.0-M2"
-},
-{
-"created": "2019-01-22",
-"name": "helloworld-archetype",
-"revision": "2.0.0-M2"
-},
-{
-"created": "2019-01-22",
-"name": "simpleapp-archetype",
-"revision": "2.0.0-M2"
-},
-{
-"created": "2019-01-06",
-"name": "isis",
-"revision": "1.17.0"
-},
-{
-"created": "2019-01-06",
-"name": "helloworld-archetype",
-"revision": "1.17.0"
-},
-{
-"created": "2019-01-06",
-"name": "simpleapp-archetype",
-"revision": "1.17.0"
-},
-{
-"created": "2018-07-31",
-"name": "isis",
-"revision": "2.0.0-M1"
-},
-{
-"created": "2018-07-31",
-"name": "helloworld-archetype",
-"revision": "2.0.0-M1"
-},
-{
-"created": "2018-07-31",
-"name": "simpleapp-archetype",
-"revision": "2.0.0-M1"
-},
-{
-"created": "2018-03-05",
-"name": "isis",
-"revision": "1.16.2"
-},
-{
-"created": "2018-03-05",
-"name": "helloworld-archetype",
-"revision": "1.16.2"
-},
-{
-"created": "2018-03-05",
-"name": "simpleapp-archetype",
-"revision": "1.16.2"
-},
-{
-"created": "2018-02-22",
-"name": "isis",
-"revision": "1.16.1"
-},
-{
-"created": "2018-02-22",
-"name": "helloworld-archetype",
-"revision": "1.16.1"
-},
-{
-"created": "2018-02-22",
-"name": "simpleapp-archetype",
-"revision": "1.16.1"
-},
-{
-"created": "2018-01-08",
-"name": "isis",
-"revision": "1.16.0"
-},
-{
-"created": "2018-01-08",
-"name": "helloworld-archetype",
-"revision": "1.16.0"
-},
-{
-"created": "2018-01-08",
-"name": "simpleapp-archetype",
-"revision": "1.16.0"
-},
-{
-"created": "2017-09-25",
-"name": "isis",
-"revision": "1.15.1"
-},
-{
-"created": "2017-09-25",
-"name": "helloworld-archetype",
-"revision": "1.15.1"
-},
-{
-"created": "2017-09-25",
-"name": "simpleapp-archetype",
-"revision": "1.15.1"
-},
-{
-"created": "2017-08-14",
-"name": "isis",
-"revision": "1.15.0"
-},
-{
-"created": "2017-08-14",
-"name": "helloworld-archetype",
-"revision": "1.15.0"
-},
-{
-"created": "2017-08-14",
-"name": "simpleapp-archetype",
-"revision": "1.15.0"
-},
-{
-"created": "2017-02-19",
-"name": "isis",
-"revision": "1.14.0"
-},
-{
-"created": "2017-02-19",
-"name": "simpleapp-archetype",
-"revision": "1.14.0"
-},
-{
-"created": "2017-01-03",
-"name": "simpleapp-archetype",
-"revision": "1.13.2.1"
-},
-{
-"created": "2016-12-14",
-"name": "isis",
-"revision": "1.13.2"
-},
-{
-"created": "2016-12-14",
-"name": "simpleapp-archetype",
-"revision": "1.13.2"
-},
-{
-"created": "2016-10-30",
-"name": "isis",
-"revision": "1.13.1"
-},
-{
-"created": "2016-10-30",
-"name": "simpleapp-archetype",
-"revision": "1.13.1"
-},
-{
-"created": "2016-07-11",
-"name": "isis",
-"revision": "1.13.0"
-},
-{
-"created": "2016-07-11",
-"name": "simpleapp-archetype",
-"revision": "1.13.0"
-},
-{
-"created": "2016-06-06",
-"name": "isis",
-"revision": "1.12.2"
-},
-{
-"created": "2016-06-06",
-"name": "simpleapp-archetype",
-"revision": "1.12.2"
-},
-{
-"created": "2016-04-12",
-"name": "isis",
-"revision": "1.12.1"
-},
-{
-"created": "2016-04-12",
-"name": "simpleapp-archetype",
-"revision": "1.12.1"
-},
-{
-"created": "2016-03-29",
-"name": "isis",
-"revision": "1.12.0"
-},
-{
-"created": "2016-03-29",
-"name": "simpleapp-archetype",
-"revision": "1.12.0"
-},
-{
-"created": "2016-01-17",
-"name": "isis",
-"revision": "1.11.1"
-},
-{
-"created": "2016-01-17",
-"name": "simpleapp-archetype",
-"revision": "1.11.1"
-},
-{
-"created": "2016-01-02",
-"name": "isis",
-"revision": "1.11.0"
-},
-{
-"created": "2016-01-02",
-"name": "simpleapp-archetype",
-"revision": "1.11.0"
-},
-{
-"created": "2015-11-10",
-"name": "isis",
-"revision": "1.10.0"
-},
-{
-"created": "2015-11-10",
-"name": "simpleapp-archetype",
-"revision": "1.10.0"
-},
-{
-"created": "2015-09-01",
-"name": "isis",
-"revision": "1.9.0"
-},
-{
-"created": "2015-09-01",
-"name": "simpleapp-archetype",
-"revision": "1.9.0"
-},
-{
-"created": "2015-02-23",
-"name": "isis",
-"revision": "1.8.0"
-},
-{
-"created": "2015-02-23",
-"name": "simpleapp-archetype",
-"revision": "1.8.0"
-},
-{
-"created": "2014-10-18",
-"name": "isis",
-"revision": "1.7.0"
-},
-{
-"created": "2014-10-18",
-"name": "isis-viewer-wicket",
-"revision": "1.7.0"
-},
-{
-"created": "2014-10-18",
-"name": "todoapp-archetype",
-"revision": "1.7.0"
-},
-{
-"created": "2014-10-18",
-"name": "simpleapp-archetype",
-"revision": "1.7.0"
-},
-{
-"created": "2014-07-25",
-"name": "isis",
-"revision": "1.6.0"
-},
-{
-"created": "2014-07-25",
-"name": "isis-viewer-wicket",
-"revision": "1.6.0"
-},
-{
-"created": "2014-07-25",
-"name": "todoapp-archetype",
-"revision": "1.6.0"
-},
-{
-"created": "2014-07-25",
-"name": "simpleapp-archetype",
-"revision": "1.6.0"
-},
-{
-"created": "2014-06-08",
-"name": "isis",
-"revision": "1.5.0"
-},
-{
-"created": "2014-06-08",
-"name": "isis-security-shiro",
-"revision": "1.5.0"
-},
-{
-"created": "2014-06-08",
-"name": "isis-objectstore-jdo",
-"revision": "1.5.0"
-},
-{
-"created": "2014-06-08",
-"name": "isis-viewer-restfulobjects",
-"revision": "2.3.0"
-},
-{
-"created": "2014-06-08",
-"name": "isis-viewer-wicket",
-"revision": "1.5.0"
-},
-{
-"created": "2014-06-08",
-"name": "quickstart_wicket-restful_jdo-archetype",
-"revision": "1.5.0"
-},
-{
-"created": "2014-06-08",
-"name": "simple_wicket-restful_jdo-archetype",
-"revision": "1.5.0"
-},
-{
-"created": "2014-03-14",
-"name": "isis-objectstore-jdo",
-"revision": "1.4.1"
-},
-{
-"created": "2014-03-14",
-"name": "isis-viewer-wicket",
-"revision": "1.4.1"
-},
-{
-"created": "2014-03-14",
-"name": "quickstart_wicket-restful_jdo-archetype",
-"revision": "1.4.1"
-},
-{
-"created": "2014-03-14",
-"name": "simple_wicket-restful_jdo-archetype",
-"revision": "1.4.1"
-},
-{
-"created": "2014-03-11",
-"name": "isis",
-"revision": "1.4.0"
-},
-{
-"created": "2014-03-11",
-"name": "isis-security-shiro",
-"revision": "1.4.0"
-},
-{
-"created": "2014-03-11",
-"name": "isis-security-file",
-"revision": "1.4.0"
-},
-{
-"created": "2014-03-11",
-"name": "isis-objectstore-jdo",
-"revision": "1.4.0"
-},
-{
-"created": "2014-03-11",
-"name": "isis-viewer-restfulobjects",
-"revision": "2.2.0"
-},
-{
-"created": "2014-03-11",
-"name": "isis-viewer-wicket",
-"revision": "1.4.0"
-},
-{
-"created": "2014-03-11",
-"name": "quickstart_wicket-restful_jdo-archetype",
-"revision": "1.4.0"
-},
-{
-"created": "2014-03-11",
-"name": "simple_wicket-restful_jdo-archetype",
-"revision": "1.4.0"
-},
-{
-"created": "2013-11-07",
-"name": "isis-viewer-wicket",
-"revision": "1.3.1"
-},
-{
-"created": "2013-11-07",
-"name": "quickstart_wicket-restful_jdo-archetype",
-"revision": "1.3.1"
-},
-{
-"created": "2013-11-07",
-"name": "simple_wicket-restful_jdo-archetype",
-"revision": "1.3.1"
-},
-{
-"created": "2013-10-25",
-"name": "isis",
-"revision": "1.3.0"
-},
-{
-"created": "2013-10-25",
-"name": "isis-security-shiro",
-"revision": "1.3.0"
-},
-{
-"created": "2013-10-25",
-"name": "isis-objectstore-jdo",
-"revision": "1.3.0"
-},
-{
-"created": "2013-10-25",
-"name": "isis-viewer-restfulobjects",
-"revision": "2.1.0"
-},
-{
-"created": "2013-10-25",
-"name": "isis-viewer-wicket",
-"revision": "1.3.0"
-},
-{
-"created": "2013-10-25",
-"name": "quickstart_wicket-restful_jdo-archetype",
-"revision": "1.3.0"
-},
-{
-"created": "2013-10-25",
-"name": "simple_wicket-restful_jdo-archetype",
-"revision": "1.3.0"
-},
-{
-"created": "2013-05-31",
-"name": "isis",
-"revision": "1.2.0"
-},
-{
-"created": "2013-05-31",
-"name": "isis-security-file",
-"revision": "1.0.1"
-},
-{
-"created": "2013-05-31",
-"name": "isis-security-shiro",
-"revision": "1.1.1"
-},
-{
-"created": "2013-05-31",
-"name": "isis-objectstore-jdo",
-"revision": "1.1.0"
-},
-{
-"created": "2013-05-31",
-"name": "isis-viewer-restfulobjects",
-"revision": "2.0.0"
-},
-{
-"created": "2013-05-31",
-"name": "isis-viewer-wicket",
-"revision": "1.2.0"
-},
-{
-"created": "2013-05-31",
-"name": "quickstart_wicket-restful_jdo-archetype",
-"revision": "1.0.3"
-},
-{
-"created": "2013-01-31",
-"name": "isis",
-"revision": "1.1.0"
-},
-{
-"created": "2013-01-31",
-"name": "isis-security-shiro",
-"revision": "1.1.0"
-},
-{
-"created": "2013-01-13",
-"name": "isis-viewer-wicket",
-"revision": "1.1.0"
-},
-{
-"created": "2013-01-31",
-"name": "quickstart_wicket-restful_jdo-archetype",
-"revision": "1.0.2"
-},
-{
-"created": "2013-01-10",
-"name": "isis-security-shiro",
-"revision": "1.0.0"
-},
-{
-"created": "2013-01-10",
-"name": "quickstart_wicket-restful_jdo-archetype",
-"revision": "1.0.1"
-},
-{
-"created": "2012-12-24",
-"name": "isis",
-"revision": "1.0.0"
-},
-{
-"created": "2012-12-24",
-"name": "isis-objectstore-jdo",
-"revision": "1.0.0"
-},
-{
-"created": "2012-12-24",
-"name": "isis-security-file",
-"revision": "1.0.0"
-},
-{
-"created": "2012-12-24",
-"name": "isis-viewer-restfulobjects",
-"revision": "1.0.0"
-},
-{
-"created": "2012-12-24",
-"name": "isis-viewer-wicket",
-"revision": "1.0.0"
-},
-{
-"created": "2012-12-24",
-"name": "quickstart_wicket-restful_jdo-archetype",
-"revision": "1.0.0"
-}
-],
-"repository": [
-"https://github.com/apache/isis.git"
-],
-"shortdesc": "Apache Isis is a framework for rapidly developing domain-driven apps in Java"
 },
 "jackrabbit": {
 "bug-database": "http://issues.apache.org/jira/browse/JCR",
