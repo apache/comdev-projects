@@ -71,8 +71,8 @@
 "Apache.NMS.ActiveMQ.2.0.1.snupkg": [
 "activemq/apache-nms-activemq/2.0.1/Apache.NMS.ActiveMQ.2.0.1.snupkg"
 ],
-"activemq-5.16.5": [
-"activemq/5.16.5/activemq-parent-5.16.5-source-release.zip"
+"activemq-5.16.6": [
+"activemq/5.16.6/activemq-parent-5.16.6-source-release.zip"
 ],
 "activemq-5.17.3": [
 "activemq/5.17.3/activemq-parent-5.17.3-source-release.zip"
@@ -933,9 +933,9 @@
 "apache-beam-1688ac1374ff02286ba8e59c9379bf7bb5875646": [
 "beam/vendor/beam-vendor-grpc-1_43_2/0.1/apache-beam-1688ac1374ff02286ba8e59c9379bf7bb5875646-source-release.zip"
 ],
-"apache-beam-2.44.0": [
-"beam/2.44.0/python/apache-beam-2.44.0.zip",
-"beam/2.44.0/apache-beam-2.44.0-source-release.zip"
+"apache-beam-2.45.0": [
+"beam/2.45.0/python/apache-beam-2.45.0.zip",
+"beam/2.45.0/apache-beam-2.45.0-source-release.zip"
 ],
 "apache-beam-37fd13e738185822af132fe2e457b618e766802f": [
 "beam/vendor/beam-vendor-grpc-1_36_0/0.2/apache-beam-37fd13e738185822af132fe2e457b618e766802f-source-release.zip"
@@ -9192,7 +9192,9 @@
 "pulsar/pulsar-client-cpp-3.1.0/apk-arm64/aarch64/APKINDEX.tar.gz",
 "pulsar/pulsar-client-cpp-3.1.0/apk-x86_64/x86_64/APKINDEX.tar.gz",
 "pulsar/pulsar-client-cpp-3.1.1/apk-arm64/aarch64/APKINDEX.tar.gz",
-"pulsar/pulsar-client-cpp-3.1.1/apk-x86_64/x86_64/APKINDEX.tar.gz"
+"pulsar/pulsar-client-cpp-3.1.1/apk-x86_64/x86_64/APKINDEX.tar.gz",
+"pulsar/pulsar-client-cpp-3.1.2/apk-arm64/aarch64/APKINDEX.tar.gz",
+"pulsar/pulsar-client-cpp-3.1.2/apk-x86_64/x86_64/APKINDEX.tar.gz"
 ],
 "Packages": [
 "pulsar/pulsar-2.10.2/DEB/Packages.gz",
@@ -9204,7 +9206,9 @@
 "pulsar/pulsar-client-cpp-3.1.0/deb-arm64/Packages.gz",
 "pulsar/pulsar-client-cpp-3.1.0/deb-x86_64/Packages.gz",
 "pulsar/pulsar-client-cpp-3.1.1/deb-arm64/Packages.gz",
-"pulsar/pulsar-client-cpp-3.1.1/deb-x86_64/Packages.gz"
+"pulsar/pulsar-client-cpp-3.1.1/deb-x86_64/Packages.gz",
+"pulsar/pulsar-client-cpp-3.1.2/deb-arm64/Packages.gz",
+"pulsar/pulsar-client-cpp-3.1.2/deb-x86_64/Packages.gz"
 ],
 "apache-pulsar": [
 "pulsar/pulsar-2.10.2/DEB/apache-pulsar-client.deb",
@@ -9216,7 +9220,9 @@
 "pulsar/pulsar-client-cpp-3.1.0/deb-arm64/apache-pulsar-client.deb",
 "pulsar/pulsar-client-cpp-3.1.0/deb-x86_64/apache-pulsar-client.deb",
 "pulsar/pulsar-client-cpp-3.1.1/deb-arm64/apache-pulsar-client.deb",
-"pulsar/pulsar-client-cpp-3.1.1/deb-x86_64/apache-pulsar-client.deb"
+"pulsar/pulsar-client-cpp-3.1.1/deb-x86_64/apache-pulsar-client.deb",
+"pulsar/pulsar-client-cpp-3.1.2/deb-arm64/apache-pulsar-client.deb",
+"pulsar/pulsar-client-cpp-3.1.2/deb-x86_64/apache-pulsar-client.deb"
 ],
 "apache-pulsar-2.10.2": [
 "pulsar/pulsar-2.10.2/apache-pulsar-2.10.2-src.tar.gz"
@@ -9257,6 +9263,13 @@
 "pulsar/pulsar-client-cpp-3.1.1/apk-arm64/aarch64/apache-pulsar-client-3.1.1-r0.apk",
 "pulsar/pulsar-client-cpp-3.1.1/apk-x86_64/x86_64/apache-pulsar-client-3.1.1-r0.apk"
 ],
+"apache-pulsar-client-3.1.2-1.aarch64": [
+"pulsar/pulsar-client-cpp-3.1.2/rpm-arm64/aarch64/apache-pulsar-client-3.1.2-1.aarch64.rpm"
+],
+"apache-pulsar-client-3.1.2-r0.apk": [
+"pulsar/pulsar-client-cpp-3.1.2/apk-arm64/aarch64/apache-pulsar-client-3.1.2-r0.apk",
+"pulsar/pulsar-client-cpp-3.1.2/apk-x86_64/x86_64/apache-pulsar-client-3.1.2-r0.apk"
+],
 "apache-pulsar-client-cpp-3.0.0": [
 "pulsar/pulsar-client-cpp-3.0.0/apache-pulsar-client-cpp-3.0.0.tar.gz"
 ],
@@ -9266,6 +9279,9 @@
 "apache-pulsar-client-cpp-3.1.1": [
 "pulsar/pulsar-client-cpp-3.1.1/apache-pulsar-client-cpp-3.1.1.tar.gz"
 ],
+"apache-pulsar-client-cpp-3.1.2": [
+"pulsar/pulsar-client-cpp-3.1.2/apache-pulsar-client-cpp-3.1.2.tar.gz"
+],
 "apache-pulsar-client-debuginfo-3.0.0-1.aarch64": [
 "pulsar/pulsar-client-cpp-3.0.0/rpm-arm64/aarch64/apache-pulsar-client-debuginfo-3.0.0-1.aarch64.rpm"
 ],
@@ -9274,6 +9290,9 @@
 ],
 "apache-pulsar-client-debuginfo-3.1.1-1.aarch64": [
 "pulsar/pulsar-client-cpp-3.1.1/rpm-arm64/aarch64/apache-pulsar-client-debuginfo-3.1.1-1.aarch64.rpm"
+],
+"apache-pulsar-client-debuginfo-3.1.2-1.aarch64": [
+"pulsar/pulsar-client-cpp-3.1.2/rpm-arm64/aarch64/apache-pulsar-client-debuginfo-3.1.2-1.aarch64.rpm"
 ],
 "apache-pulsar-client-dev": [
 "pulsar/pulsar-2.10.2/DEB/apache-pulsar-client-dev.deb",
@@ -9285,7 +9304,9 @@
 "pulsar/pulsar-client-cpp-3.1.0/deb-arm64/apache-pulsar-client-dev.deb",
 "pulsar/pulsar-client-cpp-3.1.0/deb-x86_64/apache-pulsar-client-dev.deb",
 "pulsar/pulsar-client-cpp-3.1.1/deb-arm64/apache-pulsar-client-dev.deb",
-"pulsar/pulsar-client-cpp-3.1.1/deb-x86_64/apache-pulsar-client-dev.deb"
+"pulsar/pulsar-client-cpp-3.1.1/deb-x86_64/apache-pulsar-client-dev.deb",
+"pulsar/pulsar-client-cpp-3.1.2/deb-arm64/apache-pulsar-client-dev.deb",
+"pulsar/pulsar-client-cpp-3.1.2/deb-x86_64/apache-pulsar-client-dev.deb"
 ],
 "apache-pulsar-client-dev-3.0.0-r0.apk": [
 "pulsar/pulsar-client-cpp-3.0.0/apk-arm64/aarch64/apache-pulsar-client-dev-3.0.0-r0.apk",
@@ -9299,6 +9320,10 @@
 "pulsar/pulsar-client-cpp-3.1.1/apk-arm64/aarch64/apache-pulsar-client-dev-3.1.1-r0.apk",
 "pulsar/pulsar-client-cpp-3.1.1/apk-x86_64/x86_64/apache-pulsar-client-dev-3.1.1-r0.apk"
 ],
+"apache-pulsar-client-dev-3.1.2-r0.apk": [
+"pulsar/pulsar-client-cpp-3.1.2/apk-arm64/aarch64/apache-pulsar-client-dev-3.1.2-r0.apk",
+"pulsar/pulsar-client-cpp-3.1.2/apk-x86_64/x86_64/apache-pulsar-client-dev-3.1.2-r0.apk"
+],
 "apache-pulsar-client-devel-3.0.0-1.aarch64": [
 "pulsar/pulsar-client-cpp-3.0.0/rpm-arm64/aarch64/apache-pulsar-client-devel-3.0.0-1.aarch64.rpm"
 ],
@@ -9307,6 +9332,9 @@
 ],
 "apache-pulsar-client-devel-3.1.1-1.aarch64": [
 "pulsar/pulsar-client-cpp-3.1.1/rpm-arm64/aarch64/apache-pulsar-client-devel-3.1.1-1.aarch64.rpm"
+],
+"apache-pulsar-client-devel-3.1.2-1.aarch64": [
+"pulsar/pulsar-client-cpp-3.1.2/rpm-arm64/aarch64/apache-pulsar-client-devel-3.1.2-1.aarch64.rpm"
 ],
 "apache-pulsar-client-go-0.8.1": [
 "pulsar/pulsar-client-go-0.8.1/apache-pulsar-client-go-0.8.1-src.tar.gz"
@@ -9844,7 +9872,8 @@
 ],
 "x64-windows-static": [
 "pulsar/pulsar-client-cpp-3.1.0/x64-windows-static.tar.gz",
-"pulsar/pulsar-client-cpp-3.1.1/x64-windows-static.tar.gz"
+"pulsar/pulsar-client-cpp-3.1.1/x64-windows-static.tar.gz",
+"pulsar/pulsar-client-cpp-3.1.2/x64-windows-static.tar.gz"
 ]
 },
 "qpid": {
