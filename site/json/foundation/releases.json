@@ -1134,10 +1134,10 @@
 "flink-connector-opensearch-1.0.0": "2022-12-16",
 "flink-connector-pulsar-3.0.0": "2022-12-15",
 "flink-connector-rabbitmq-3.0.0": "2022-12-13",
-"flink-kubernetes-operator-1.2.0": "2022-09-30",
-"flink-kubernetes-operator-1.2.0-helm": "2022-09-30",
 "flink-kubernetes-operator-1.3.1": "2023-01-04",
 "flink-kubernetes-operator-1.3.1-helm": "2023-01-04",
+"flink-kubernetes-operator-1.4.0": "2023-02-15",
+"flink-kubernetes-operator-1.4.0-helm": "2023-02-15",
 "flink-ml-2.0.0": "2021-12-30",
 "flink-ml-2.1.0": "2022-07-01",
 "flink-shaded-15.0": "2022-01-18",
@@ -1145,7 +1145,7 @@
 "flink-statefun-3.2.0": "2022-01-25",
 "flink-table-store-0.2.1": "2022-10-08",
 "flink-table-store-0.3.0": "2023-01-09",
-"index.yaml": "2022-09-30"
+"index.yaml": "2023-01-04"
 },
 "flume": {
 "apache-flume-1.11.0": "2022-10-25"
@@ -1420,9 +1420,16 @@
 "heron-install-0.20.5-incubating-ubuntu22.04.sh": "2022-07-09",
 "heronpy-0.20.5rc4": "2022-07-09"
 },
+"incubator-hugegraph": {
+"apache-hugegraph-commons-incubating-1.0.0": "2023-02-10",
+"apache-hugegraph-computer-incubating-1.0.0": "2023-02-10",
+"apache-hugegraph-incubating-1.0.0": "2023-02-10",
+"apache-hugegraph-toolchain-incubating-1.0.0": "2023-02-10"
+},
 "incubator-kvrocks": {
 "apache-kvrocks-2.1.0-incubating": "2022-08-03",
-"apache-kvrocks-2.2.0-incubating": "2022-11-10"
+"apache-kvrocks-2.2.0-incubating": "2022-11-10",
+"apache-kvrocks-2.3.0-incubating": "2023-02-15"
 },
 "incubator-liminal": {
 "apache-liminal-0.0.4-incubating": "2022-03-06",
@@ -1817,7 +1824,7 @@
 "maven-mvnd-1.0.0-m4-darwin-aarch64": "2023-01-28",
 "maven-patch-plugin-1.2": "2015-03-09",
 "maven-pdf-plugin-1.6.1": "2022-08-19",
-"maven-plugin-3.4.2": "2022-07-23",
+"maven-plugin-3.5.0": "2023-02-22",
 "maven-plugin-testing-3.3.0": "2014-12-30",
 "maven-plugin-tools-3.7.1": "2023-01-16",
 "maven-pmd-plugin-3.20.0": "2023-01-11",
