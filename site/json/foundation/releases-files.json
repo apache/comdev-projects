@@ -1050,11 +1050,11 @@
 ]
 },
 "buildstream": {
-"apache-buildstream-2.0.0": [
-"buildstream/apache-buildstream-2.0.0.tar.gz"
+"apache-buildstream-2.0.1": [
+"buildstream/apache-buildstream-2.0.1.tar.gz"
 ],
-"apache-buildstream-plugins-2.0.0": [
-"buildstream/apache-buildstream-plugins-2.0.0.tar.gz"
+"apache-buildstream-plugins-2.0.1": [
+"buildstream/apache-buildstream-plugins-2.0.1.tar.gz"
 ]
 },
 "bval": {
@@ -2503,8 +2503,8 @@
 "cordova-plugin-network-information-3.0.0": [
 "cordova/plugins/cordova-plugin-network-information-3.0.0.tgz"
 ],
-"cordova-plugin-screen-orientation-3.0.2": [
-"cordova/plugins/cordova-plugin-screen-orientation-3.0.2.tgz"
+"cordova-plugin-screen-orientation-3.0.3": [
+"cordova/plugins/cordova-plugin-screen-orientation-3.0.3.tgz"
 ],
 "cordova-plugin-splashscreen-6.0.2": [
 "cordova/plugins/cordova-plugin-splashscreen-6.0.2.tgz"
@@ -2813,8 +2813,8 @@
 "apache-dolphinscheduler-3.0.4": [
 "dolphinscheduler/3.0.4/apache-dolphinscheduler-3.0.4-src.tar.gz"
 ],
-"apache-dolphinscheduler-3.1.3": [
-"dolphinscheduler/3.1.3/apache-dolphinscheduler-3.1.3-src.tar.gz"
+"apache-dolphinscheduler-3.1.4": [
+"dolphinscheduler/3.1.4/apache-dolphinscheduler-3.1.4-src.tar.gz"
 ],
 "apache-dolphinscheduler-4.0.0": [
 "dolphinscheduler/python/4.0.0/apache-dolphinscheduler-4.0.0.tar.gz"
@@ -3173,13 +3173,13 @@
 "felix/org.apache.felix.http.api-3.0.0-source-release.tar.gz",
 "felix/org.apache.felix.http.api-3.0.0-source-release.zip"
 ],
-"org.apache.felix.http.base-5.0.0": [
-"felix/org.apache.felix.http.base-5.0.0-source-release.tar.gz",
-"felix/org.apache.felix.http.base-5.0.0-source-release.zip"
+"org.apache.felix.http.base-5.0.2": [
+"felix/org.apache.felix.http.base-5.0.2-source-release.tar.gz",
+"felix/org.apache.felix.http.base-5.0.2-source-release.zip"
 ],
-"org.apache.felix.http.bridge-5.0.0": [
-"felix/org.apache.felix.http.bridge-5.0.0-source-release.tar.gz",
-"felix/org.apache.felix.http.bridge-5.0.0-source-release.zip"
+"org.apache.felix.http.bridge-5.0.4": [
+"felix/org.apache.felix.http.bridge-5.0.4-source-release.tar.gz",
+"felix/org.apache.felix.http.bridge-5.0.4-source-release.zip"
 ],
 "org.apache.felix.http.bundle-3.0.0": [
 "felix/org.apache.felix.http.bundle-3.0.0-source-release.tar.gz",
@@ -3189,9 +3189,9 @@
 "felix/org.apache.felix.http.inventoryprinter-1.0.0-source-release.tar.gz",
 "felix/org.apache.felix.http.inventoryprinter-1.0.0-source-release.zip"
 ],
-"org.apache.felix.http.jetty-5.0.0": [
-"felix/org.apache.felix.http.jetty-5.0.0-source-release.tar.gz",
-"felix/org.apache.felix.http.jetty-5.0.0-source-release.zip"
+"org.apache.felix.http.jetty-5.0.4": [
+"felix/org.apache.felix.http.jetty-5.0.4-source-release.tar.gz",
+"felix/org.apache.felix.http.jetty-5.0.4-source-release.zip"
 ],
 "org.apache.felix.http.proxy-4.0.0": [
 "felix/org.apache.felix.http.proxy-4.0.0-source-release.tar.gz",
@@ -3414,9 +3414,9 @@
 "felix/org.apache.felix.utils-1.11.8-source-release.tar.gz",
 "felix/org.apache.felix.utils-1.11.8-source-release.zip"
 ],
-"org.apache.felix.webconsole-4.8.4": [
-"felix/org.apache.felix.webconsole-4.8.4-source-release.tar.gz",
-"felix/org.apache.felix.webconsole-4.8.4-source-release.zip"
+"org.apache.felix.webconsole-4.8.8": [
+"felix/org.apache.felix.webconsole-4.8.8-source-release.tar.gz",
+"felix/org.apache.felix.webconsole-4.8.8-source-release.zip"
 ],
 "org.osgi.compendium-1.4.0": [
 "felix/org.osgi.compendium-1.4.0-project.tar.gz",
@@ -4996,9 +4996,9 @@
 "karaf/cellar/4.2.1/apache-karaf-cellar-4.2.1-src.tar.gz",
 "karaf/cellar/4.2.1/apache-karaf-cellar-4.2.1-src.zip"
 ],
-"apache-karaf-decanter-2.9.0": [
-"karaf/decanter/2.9.0/apache-karaf-decanter-2.9.0-src.tar.gz",
-"karaf/decanter/2.9.0/apache-karaf-decanter-2.9.0-src.zip"
+"apache-karaf-decanter-2.10.0": [
+"karaf/decanter/2.10.0/apache-karaf-decanter-2.10.0-src.tar.gz",
+"karaf/decanter/2.10.0/apache-karaf-decanter-2.10.0-src.zip"
 ],
 "minho-0.1": [
 "karaf/minho/0.1/minho-0.1-source-release.zip"
@@ -5038,6 +5038,11 @@
 "knox/1.6.1/knox-1.6.1.tar.gz",
 "knox/1.6.1/knox-1.6.1.zip"
 ],
+"knox-2.0.0": [
+"knox/2.0.0/knox-2.0.0-src.zip",
+"knox/2.0.0/knox-2.0.0.tar.gz",
+"knox/2.0.0/knox-2.0.0.zip"
+],
 "knoxshell-1.2.0": [
 "knox/1.2.0/knoxshell-1.2.0.tar.gz",
 "knox/1.2.0/knoxshell-1.2.0.zip"
@@ -5061,6 +5066,10 @@
 "knoxshell-1.6.1": [
 "knox/1.6.1/knoxshell-1.6.1.tar.gz",
 "knox/1.6.1/knoxshell-1.6.1.zip"
+],
+"knoxshell-2.0.0": [
+"knox/2.0.0/knoxshell-2.0.0.tar.gz",
+"knox/2.0.0/knoxshell-2.0.0.zip"
 ]
 },
 "kudu": {
@@ -10928,11 +10937,11 @@
 ]
 },
 "servicecomb": {
-"apache-servicecomb-java-chassis-distribution-1.3.10": [
-"servicecomb/servicecomb-java-chassis/1.3.10/apache-servicecomb-java-chassis-distribution-1.3.10-src.zip"
+"apache-servicecomb-java-chassis-distribution-1.3.11": [
+"servicecomb/servicecomb-java-chassis/1.3.11/apache-servicecomb-java-chassis-distribution-1.3.11-src.zip"
 ],
-"apache-servicecomb-java-chassis-distribution-2.8.5": [
-"servicecomb/servicecomb-java-chassis/2.8.5/apache-servicecomb-java-chassis-distribution-2.8.5-src.zip"
+"apache-servicecomb-java-chassis-distribution-2.8.6": [
+"servicecomb/servicecomb-java-chassis/2.8.6/apache-servicecomb-java-chassis-distribution-2.8.6-src.zip"
 ],
 "apache-servicecomb-kie-0.2.0": [
 "servicecomb/servicecomb-kie/0.2.0/apache-servicecomb-kie-0.2.0-src.tar.gz"
@@ -11453,8 +11462,8 @@
 "org.apache.sling.dynamic-include-3.3.0": [
 "sling/org.apache.sling.dynamic-include-3.3.0-source-release.zip"
 ],
-"org.apache.sling.engine-2.13.0": [
-"sling/org.apache.sling.engine-2.13.0-source-release.zip"
+"org.apache.sling.engine-2.14.0": [
+"sling/org.apache.sling.engine-2.14.0-source-release.zip"
 ],
 "org.apache.sling.event-4.3.6": [
 "sling/org.apache.sling.event-4.3.6-source-release.zip"
@@ -12598,31 +12607,18 @@
 ]
 },
 "tomcat": {
-"apache-tomcat-10.1.5": [
-"tomcat/tomcat-10/v10.1.5/bin/embed/apache-tomcat-10.1.5-embed.tar.gz",
-"tomcat/tomcat-10/v10.1.5/bin/embed/apache-tomcat-10.1.5-embed.zip",
-"tomcat/tomcat-10/v10.1.5/bin/apache-tomcat-10.1.5-deployer.tar.gz",
-"tomcat/tomcat-10/v10.1.5/bin/apache-tomcat-10.1.5-deployer.zip",
-"tomcat/tomcat-10/v10.1.5/bin/apache-tomcat-10.1.5-fulldocs.tar.gz",
-"tomcat/tomcat-10/v10.1.5/bin/apache-tomcat-10.1.5-windows-x64.zip",
-"tomcat/tomcat-10/v10.1.5/bin/apache-tomcat-10.1.5.exe",
-"tomcat/tomcat-10/v10.1.5/bin/apache-tomcat-10.1.5.tar.gz",
-"tomcat/tomcat-10/v10.1.5/bin/apache-tomcat-10.1.5.zip",
-"tomcat/tomcat-10/v10.1.5/src/apache-tomcat-10.1.5-src.tar.gz",
-"tomcat/tomcat-10/v10.1.5/src/apache-tomcat-10.1.5-src.zip"
-],
-"apache-tomcat-11.0.0-M1": [
-"tomcat/tomcat-11/v11.0.0-M1/bin/embed/apache-tomcat-11.0.0-M1-embed.tar.gz",
-"tomcat/tomcat-11/v11.0.0-M1/bin/embed/apache-tomcat-11.0.0-M1-embed.zip",
-"tomcat/tomcat-11/v11.0.0-M1/bin/apache-tomcat-11.0.0-M1-deployer.tar.gz",
-"tomcat/tomcat-11/v11.0.0-M1/bin/apache-tomcat-11.0.0-M1-deployer.zip",
-"tomcat/tomcat-11/v11.0.0-M1/bin/apache-tomcat-11.0.0-M1-fulldocs.tar.gz",
-"tomcat/tomcat-11/v11.0.0-M1/bin/apache-tomcat-11.0.0-M1-windows-x64.zip",
-"tomcat/tomcat-11/v11.0.0-M1/bin/apache-tomcat-11.0.0-M1.exe",
-"tomcat/tomcat-11/v11.0.0-M1/bin/apache-tomcat-11.0.0-M1.tar.gz",
-"tomcat/tomcat-11/v11.0.0-M1/bin/apache-tomcat-11.0.0-M1.zip",
-"tomcat/tomcat-11/v11.0.0-M1/src/apache-tomcat-11.0.0-M1-src.tar.gz",
-"tomcat/tomcat-11/v11.0.0-M1/src/apache-tomcat-11.0.0-M1-src.zip"
+"apache-tomcat-10.1.6": [
+"tomcat/tomcat-10/v10.1.6/bin/embed/apache-tomcat-10.1.6-embed.tar.gz",
+"tomcat/tomcat-10/v10.1.6/bin/embed/apache-tomcat-10.1.6-embed.zip",
+"tomcat/tomcat-10/v10.1.6/bin/apache-tomcat-10.1.6-deployer.tar.gz",
+"tomcat/tomcat-10/v10.1.6/bin/apache-tomcat-10.1.6-deployer.zip",
+"tomcat/tomcat-10/v10.1.6/bin/apache-tomcat-10.1.6-fulldocs.tar.gz",
+"tomcat/tomcat-10/v10.1.6/bin/apache-tomcat-10.1.6-windows-x64.zip",
+"tomcat/tomcat-10/v10.1.6/bin/apache-tomcat-10.1.6.exe",
+"tomcat/tomcat-10/v10.1.6/bin/apache-tomcat-10.1.6.tar.gz",
+"tomcat/tomcat-10/v10.1.6/bin/apache-tomcat-10.1.6.zip",
+"tomcat/tomcat-10/v10.1.6/src/apache-tomcat-10.1.6-src.tar.gz",
+"tomcat/tomcat-10/v10.1.6/src/apache-tomcat-10.1.6-src.zip"
 ],
 "apache-tomcat-11.0.0-M3": [
 "tomcat/tomcat-11/v11.0.0-M3/bin/embed/apache-tomcat-11.0.0-M3-embed.tar.gz",
@@ -12637,31 +12633,18 @@
 "tomcat/tomcat-11/v11.0.0-M3/src/apache-tomcat-11.0.0-M3-src.tar.gz",
 "tomcat/tomcat-11/v11.0.0-M3/src/apache-tomcat-11.0.0-M3-src.zip"
 ],
-"apache-tomcat-8.5.85": [
-"tomcat/tomcat-8/v8.5.85/bin/embed/apache-tomcat-8.5.85-embed.tar.gz",
-"tomcat/tomcat-8/v8.5.85/bin/embed/apache-tomcat-8.5.85-embed.zip",
-"tomcat/tomcat-8/v8.5.85/bin/apache-tomcat-8.5.85-deployer.tar.gz",
-"tomcat/tomcat-8/v8.5.85/bin/apache-tomcat-8.5.85-deployer.zip",
-"tomcat/tomcat-8/v8.5.85/bin/apache-tomcat-8.5.85-fulldocs.tar.gz",
-"tomcat/tomcat-8/v8.5.85/bin/apache-tomcat-8.5.85-windows-x64.zip",
-"tomcat/tomcat-8/v8.5.85/bin/apache-tomcat-8.5.85.exe",
-"tomcat/tomcat-8/v8.5.85/bin/apache-tomcat-8.5.85.tar.gz",
-"tomcat/tomcat-8/v8.5.85/bin/apache-tomcat-8.5.85.zip",
-"tomcat/tomcat-8/v8.5.85/src/apache-tomcat-8.5.85-src.tar.gz",
-"tomcat/tomcat-8/v8.5.85/src/apache-tomcat-8.5.85-src.zip"
-],
-"apache-tomcat-9.0.71": [
-"tomcat/tomcat-9/v9.0.71/bin/embed/apache-tomcat-9.0.71-embed.tar.gz",
-"tomcat/tomcat-9/v9.0.71/bin/embed/apache-tomcat-9.0.71-embed.zip",
-"tomcat/tomcat-9/v9.0.71/bin/apache-tomcat-9.0.71-deployer.tar.gz",
-"tomcat/tomcat-9/v9.0.71/bin/apache-tomcat-9.0.71-deployer.zip",
-"tomcat/tomcat-9/v9.0.71/bin/apache-tomcat-9.0.71-fulldocs.tar.gz",
-"tomcat/tomcat-9/v9.0.71/bin/apache-tomcat-9.0.71-windows-x64.zip",
-"tomcat/tomcat-9/v9.0.71/bin/apache-tomcat-9.0.71.exe",
-"tomcat/tomcat-9/v9.0.71/bin/apache-tomcat-9.0.71.tar.gz",
-"tomcat/tomcat-9/v9.0.71/bin/apache-tomcat-9.0.71.zip",
-"tomcat/tomcat-9/v9.0.71/src/apache-tomcat-9.0.71-src.tar.gz",
-"tomcat/tomcat-9/v9.0.71/src/apache-tomcat-9.0.71-src.zip"
+"apache-tomcat-8.5.86": [
+"tomcat/tomcat-8/v8.5.86/bin/embed/apache-tomcat-8.5.86-embed.tar.gz",
+"tomcat/tomcat-8/v8.5.86/bin/embed/apache-tomcat-8.5.86-embed.zip",
+"tomcat/tomcat-8/v8.5.86/bin/apache-tomcat-8.5.86-deployer.tar.gz",
+"tomcat/tomcat-8/v8.5.86/bin/apache-tomcat-8.5.86-deployer.zip",
+"tomcat/tomcat-8/v8.5.86/bin/apache-tomcat-8.5.86-fulldocs.tar.gz",
+"tomcat/tomcat-8/v8.5.86/bin/apache-tomcat-8.5.86-windows-x64.zip",
+"tomcat/tomcat-8/v8.5.86/bin/apache-tomcat-8.5.86.exe",
+"tomcat/tomcat-8/v8.5.86/bin/apache-tomcat-8.5.86.tar.gz",
+"tomcat/tomcat-8/v8.5.86/bin/apache-tomcat-8.5.86.zip",
+"tomcat/tomcat-8/v8.5.86/src/apache-tomcat-8.5.86-src.tar.gz",
+"tomcat/tomcat-8/v8.5.86/src/apache-tomcat-8.5.86-src.zip"
 ],
 "apache-tomcat-9.0.72": [
 "tomcat/tomcat-9/v9.0.72/bin/embed/apache-tomcat-9.0.72-embed.tar.gz",
@@ -13078,6 +13061,9 @@
 "uima/uima-addons/ConceptMapper-2.10.2/ConceptMapper-2.10.2-source-release.zip"
 ],
 "DEPENDENCIES": [
+"uima/archive-eclipse-update-site/ruta-3.2.0/META-INF/DEPENDENCIES",
+"uima/archive-eclipse-update-site/uimaj-3.4.0/META-INF/DEPENDENCIES",
+"uima/archive-eclipse-update-site/uimaj-3.4.1/META-INF/DEPENDENCIES",
 "uima/eclipse-update-site-v3/ruta/META-INF/DEPENDENCIES",
 "uima/eclipse-update-site-v3/uimaj/META-INF/DEPENDENCIES"
 ],
@@ -13085,6 +13071,9 @@
 "uima/generate-sha512-checksums-for-files-with-sha1-checksum.sh"
 ],
 "p2.index": [
+"uima/archive-eclipse-update-site/ruta-3.2.0/p2.index",
+"uima/archive-eclipse-update-site/uimaj-3.4.0/p2.index",
+"uima/archive-eclipse-update-site/uimaj-3.4.1/p2.index",
 "uima/eclipse-update-site-v3/ruta/p2.index",
 "uima/eclipse-update-site-v3/uimaj/p2.index"
 ],
@@ -13096,6 +13085,9 @@
 ],
 "ruta-3.2.0": [
 "uima/ruta-3.2.0/ruta-3.2.0-source-release.zip"
+],
+"ruta-3.3.0": [
+"uima/ruta-3.3.0/ruta-3.3.0-source-release.zip"
 ],
 "uima-as-2.10.3": [
 "uima/uima-as-2.10.3/uima-as-2.10.3-source-release.zip"
@@ -13132,6 +13124,9 @@
 ],
 "uimaj-3.4.0": [
 "uima/uimaj-3.4.0/uimaj-3.4.0-source-release.zip"
+],
+"uimaj-3.4.1": [
+"uima/uimaj-3.4.1/uimaj-3.4.1-source-release.zip"
 ],
 "uimaj-io-json-0.4.0": [
 "uima/uimaj-io-json-0.4.0/uimaj-io-json-0.4.0-source-release.zip"

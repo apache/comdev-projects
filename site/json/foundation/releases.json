@@ -366,8 +366,8 @@
 "apache-brpc-1.4.0": "2023-01-24"
 },
 "buildstream": {
-"apache-buildstream-2.0.0": "2022-12-22",
-"apache-buildstream-plugins-2.0.0": "2022-12-22"
+"apache-buildstream-2.0.1": "2023-02-24",
+"apache-buildstream-plugins-2.0.1": "2023-02-24"
 },
 "bval": {
 "bval-0.5": "2012-09-21",
@@ -809,7 +809,7 @@
 "cordova-plugin-media-6.1.0": "2022-09-09",
 "cordova-plugin-media-capture-4.0.0": "2022-05-30",
 "cordova-plugin-network-information-3.0.0": "2021-06-05",
-"cordova-plugin-screen-orientation-3.0.2": "2019-07-02",
+"cordova-plugin-screen-orientation-3.0.3": "2023-02-24",
 "cordova-plugin-splashscreen-6.0.2": "2022-07-16",
 "cordova-plugin-statusbar-3.0.0": "2021-12-01",
 "cordova-plugin-test-framework-1.1.6": "2017-11-11",
@@ -910,7 +910,7 @@
 "dolphinscheduler": {
 "apache-dolphinscheduler-2.0.8": "2023-02-05",
 "apache-dolphinscheduler-3.0.4": "2022-12-28",
-"apache-dolphinscheduler-3.1.3": "2023-01-04",
+"apache-dolphinscheduler-3.1.4": "2023-02-21",
 "apache-dolphinscheduler-4.0.0": "2022-12-16",
 "dolphinscheduler-operator-0.1.0": "2022-08-15"
 },
@@ -1024,11 +1024,11 @@
 "org.apache.felix.healthcheck.generalchecks-3.0.4": "2022-07-10",
 "org.apache.felix.healthcheck.webconsoleplugin-2.0.2": "2020-07-15",
 "org.apache.felix.http.api-3.0.0": "2015-08-10",
-"org.apache.felix.http.base-5.0.0": "2022-12-27",
-"org.apache.felix.http.bridge-5.0.0": "2022-12-27",
+"org.apache.felix.http.base-5.0.2": "2023-02-24",
+"org.apache.felix.http.bridge-5.0.4": "2023-02-24",
 "org.apache.felix.http.bundle-3.0.0": "2015-02-02",
 "org.apache.felix.http.inventoryprinter-1.0.0": "2022-12-27",
-"org.apache.felix.http.jetty-5.0.0": "2022-12-27",
+"org.apache.felix.http.jetty-5.0.4": "2023-02-24",
 "org.apache.felix.http.proxy-4.0.0": "2022-12-27",
 "org.apache.felix.http.samples.bridge-2.3.2": "2014-11-11",
 "org.apache.felix.http.servlet-api-2.1.0": "2022-11-02",
@@ -1085,7 +1085,7 @@
 "org.apache.felix.useradmin.filestore-1.0.2": "2012-12-28",
 "org.apache.felix.useradmin.mongodb-1.0.1": "2012-12-28",
 "org.apache.felix.utils-1.11.8": "2021-03-29",
-"org.apache.felix.webconsole-4.8.4": "2022-09-05",
+"org.apache.felix.webconsole-4.8.8": "2023-02-24",
 "org.osgi.compendium-1.4.0": "2012-12-28",
 "org.osgi.core-1.4.0": "2012-12-28",
 "org.osgi.foundation-1.2.0": "2012-12-28",
@@ -1634,7 +1634,7 @@
 "apache-karaf-cellar-4.0.5": "2018-10-14",
 "apache-karaf-cellar-4.1.2": "2018-10-14",
 "apache-karaf-cellar-4.2.1": "2020-08-21",
-"apache-karaf-decanter-2.9.0": "2022-02-15",
+"apache-karaf-decanter-2.10.0": "2023-02-20",
 "minho-0.1": "2023-01-04",
 "winegrower-1.0.1": "2020-11-22"
 },
@@ -1645,12 +1645,14 @@
 "knox-1.5.0": "2020-11-22",
 "knox-1.6.0": "2021-11-03",
 "knox-1.6.1": "2021-12-15",
+"knox-2.0.0": "2023-02-09",
 "knoxshell-1.2.0": "2018-12-04",
 "knoxshell-1.3.0": "2019-07-17",
 "knoxshell-1.4.0": "2020-04-22",
 "knoxshell-1.5.0": "2020-11-22",
 "knoxshell-1.6.0": "2021-11-03",
-"knoxshell-1.6.1": "2021-12-15"
+"knoxshell-1.6.1": "2021-12-15",
+"knoxshell-2.0.0": "2023-02-09"
 },
 "kudu": {
 "apache-kudu-1.11.1": "2019-11-20",
@@ -3344,8 +3346,8 @@
 "serf-1.3.9": "2016-08-31"
 },
 "servicecomb": {
-"apache-servicecomb-java-chassis-distribution-1.3.10": "2022-11-08",
-"apache-servicecomb-java-chassis-distribution-2.8.5": "2023-02-02",
+"apache-servicecomb-java-chassis-distribution-1.3.11": "2023-02-24",
+"apache-servicecomb-java-chassis-distribution-2.8.6": "2023-02-24",
 "apache-servicecomb-kie-0.2.0": "2021-02-23",
 "apache-servicecomb-kie-0.2.0-linux-arm64": "2021-02-23",
 "apache-servicecomb-mesher-1.6.3": "2019-09-09",
@@ -3528,7 +3530,7 @@
 "org.apache.sling.distribution.journal.messages-0.5.0": "2022-05-03",
 "org.apache.sling.distribution.sample-0.1.6": "2016-02-08",
 "org.apache.sling.dynamic-include-3.3.0": "2022-01-14",
-"org.apache.sling.engine-2.13.0": "2022-12-03",
+"org.apache.sling.engine-2.14.0": "2023-02-24",
 "org.apache.sling.event-4.3.6": "2022-06-27",
 "org.apache.sling.event.api-1.0.0": "2017-04-19",
 "org.apache.sling.event.dea-1.1.4": "2018-11-09",
@@ -3916,11 +3918,9 @@
 "apache-tinkerpop-3.6.2": "2023-01-26"
 },
 "tomcat": {
-"apache-tomcat-10.1.5": "2023-01-09",
-"apache-tomcat-11.0.0-M1": "2022-12-01",
+"apache-tomcat-10.1.6": "2023-02-19",
 "apache-tomcat-11.0.0-M3": "2023-02-17",
-"apache-tomcat-8.5.85": "2023-01-11",
-"apache-tomcat-9.0.71": "2023-01-09",
+"apache-tomcat-8.5.86": "2023-02-18",
 "apache-tomcat-9.0.72": "2023-02-18",
 "jakartaee-migration-1.0.6": "2022-12-02",
 "taglibs-standard-1.2.5": "2015-03-10",
@@ -4046,6 +4046,7 @@
 "ruta-2.8.1": "2020-04-11",
 "ruta-3.1.0": "2021-05-18",
 "ruta-3.2.0": "2022-06-10",
+"ruta-3.3.0": "2023-02-13",
 "uima-as-2.10.3": "2018-04-17",
 "uima-build-resources-6": "2021-02-17",
 "uima-ducc-3.0.0": "2019-04-25",
@@ -4058,6 +4059,7 @@
 "uimaj-3.3.0": "2022-04-29",
 "uimaj-3.3.1": "2022-10-19",
 "uimaj-3.4.0": "2023-01-26",
+"uimaj-3.4.1": "2023-02-19",
 "uimaj-io-json-0.4.0": "2022-07-13"
 },
 "unomi": {
