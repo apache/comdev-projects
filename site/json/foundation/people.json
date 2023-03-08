@@ -14317,7 +14317,7 @@
 "velocity-pmc",
 "ws"
 ],
-"member": true,
+"member": false,
 "name": "Daniel Rall"
 },
 "dls": {
@@ -15081,7 +15081,8 @@
 },
 "drdub": {
 "groups": [
-"uima"
+"uima",
+"uima-pmc"
 ],
 "member": false,
 "name": "Pablo Duboue"
@@ -42117,7 +42118,8 @@
 "nilotpalnandi": {
 "groups": [
 "hadoop",
-"ozone"
+"ozone",
+"ozone-pmc"
 ],
 "member": false,
 "name": "Nilotpal Nandi"
@@ -55024,7 +55026,8 @@
 },
 "sundyli": {
 "groups": [
-"incubator"
+"incubator",
+"opendal"
 ],
 "member": false,
 "name": "Sundy Li"
@@ -60870,6 +60873,7 @@
 "incubator",
 "incubator-pmc",
 "ozone",
+"ozone-pmc",
 "submarine",
 "submarine-pmc",
 "yunikorn",
