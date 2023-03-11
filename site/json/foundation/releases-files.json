@@ -270,8 +270,8 @@
 "apache-airflow-providers-grpc-3.1.0": [
 "airflow/providers/apache-airflow-providers-grpc-3.1.0.tar.gz"
 ],
-"apache-airflow-providers-hashicorp-3.2.0": [
-"airflow/providers/apache-airflow-providers-hashicorp-3.2.0.tar.gz"
+"apache-airflow-providers-hashicorp-3.3.0": [
+"airflow/providers/apache-airflow-providers-hashicorp-3.3.0.tar.gz"
 ],
 "apache-airflow-providers-http-4.2.0": [
 "airflow/providers/apache-airflow-providers-http-4.2.0.tar.gz"
@@ -948,9 +948,9 @@
 "apache-beam-1688ac1374ff02286ba8e59c9379bf7bb5875646": [
 "beam/vendor/beam-vendor-grpc-1_43_2/0.1/apache-beam-1688ac1374ff02286ba8e59c9379bf7bb5875646-source-release.zip"
 ],
-"apache-beam-2.45.0": [
-"beam/2.45.0/python/apache-beam-2.45.0.zip",
-"beam/2.45.0/apache-beam-2.45.0-source-release.zip"
+"apache-beam-2.46.0": [
+"beam/2.46.0/python/apache-beam-2.46.0.zip",
+"beam/2.46.0/apache-beam-2.46.0-source-release.zip"
 ],
 "apache-beam-37fd13e738185822af132fe2e457b618e766802f": [
 "beam/vendor/beam-vendor-grpc-1_36_0/0.2/apache-beam-37fd13e738185822af132fe2e457b618e766802f-source-release.zip"
@@ -1158,8 +1158,8 @@
 "apache-camel-3.20.2": [
 "camel/apache-camel/3.20.2/apache-camel-3.20.2-src.zip"
 ],
-"apache-camel-4.0.0-M1": [
-"camel/apache-camel/4.0.0-M1/apache-camel-4.0.0-M1-src.zip"
+"apache-camel-4.0.0-M2": [
+"camel/apache-camel/4.0.0-M2/apache-camel-4.0.0-M2-src.zip"
 ],
 "apache-camel-k-runtime-1.12.0": [
 "camel/camel-k-runtime/1.12.0/apache-camel-k-runtime-1.12.0-source-release.zip"
@@ -4675,9 +4675,9 @@
 "jackrabbit/2.16.10/jackrabbit-2.16.10-src.zip",
 "jackrabbit/2.16.10/jackrabbit-webapp-2.16.10.war"
 ],
-"jackrabbit-2.20.8": [
-"jackrabbit/2.20.8/jackrabbit-2.20.8-src.zip",
-"jackrabbit/2.20.8/jackrabbit-webapp-2.20.8.war"
+"jackrabbit-2.20.9": [
+"jackrabbit/2.20.9/jackrabbit-2.20.9-src.zip",
+"jackrabbit/2.20.9/jackrabbit-webapp-2.20.9.war"
 ],
 "jackrabbit-2.21.15": [
 "jackrabbit/2.21.15/jackrabbit-2.21.15-src.zip",
@@ -4695,8 +4695,8 @@
 "jackrabbit-jca-2.16.10": [
 "jackrabbit/2.16.10/jackrabbit-jca-2.16.10.rar"
 ],
-"jackrabbit-jca-2.20.8": [
-"jackrabbit/2.20.8/jackrabbit-jca-2.20.8.rar"
+"jackrabbit-jca-2.20.9": [
+"jackrabbit/2.20.9/jackrabbit-jca-2.20.9.rar"
 ],
 "jackrabbit-jca-2.21.15": [
 "jackrabbit/2.21.15/jackrabbit-jca-2.21.15.rar"
@@ -10054,6 +10054,9 @@
 "rocketmq-eventbridge-1.0.0": [
 "rocketmq/rocketmq-eventbridge/1.0.0/rocketmq-eventbridge-1.0.0-source-release.zip"
 ],
+"rocketmq-mqtt-1.0.1": [
+"rocketmq/rocketmq-mqtt/1.0.1/rocketmq-mqtt-1.0.1-source-release.zip"
+],
 "rocketmq-proto-2.0.0": [
 "rocketmq/2.0.0/rocketmq-proto-2.0.0-source-release.zip",
 "rocketmq/rocketmq-proto/2.0.0/rocketmq-proto-2.0.0-source-release.zip"
@@ -11634,6 +11637,15 @@
 ],
 "struts-6.1.1-min": [
 "struts/6.1.1/struts-6.1.1-min-lib.zip"
+],
+"struts-6.1.2": [
+"struts/6.1.2/struts-6.1.2-all.zip",
+"struts/6.1.2/struts-6.1.2-apps.zip",
+"struts/6.1.2/struts-6.1.2-lib.zip",
+"struts/6.1.2/struts-6.1.2-src.zip"
+],
+"struts-6.1.2-min": [
+"struts/6.1.2/struts-6.1.2-min-lib.zip"
 ],
 "struts2-secure-jakarta-multipart-parser-plugin-1.1": [
 "struts/struts-extras/struts2-secure-jakarta-multipart-parser-plugin/1.1/struts2-secure-jakarta-multipart-parser-plugin-1.1-source-release.zip"
