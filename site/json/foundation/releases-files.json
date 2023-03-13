@@ -53,6 +53,9 @@
 "Apache.NMS.ActiveMQ-2.0.1": [
 "activemq/apache-nms-activemq/2.0.1/Apache.NMS.ActiveMQ-2.0.1-src.zip"
 ],
+"Apache.NMS.ActiveMQ-2.1.0": [
+"activemq/apache-nms-activemq/2.1.0/Apache.NMS.ActiveMQ-2.1.0-src.zip"
+],
 "Apache.NMS.ActiveMQ.1.8.0.nupkg": [
 "activemq/apache-nms-activemq/1.8.0/Apache.NMS.ActiveMQ.1.8.0.nupkg"
 ],
@@ -70,6 +73,12 @@
 ],
 "Apache.NMS.ActiveMQ.2.0.1.snupkg": [
 "activemq/apache-nms-activemq/2.0.1/Apache.NMS.ActiveMQ.2.0.1.snupkg"
+],
+"Apache.NMS.ActiveMQ.2.1.0.nupkg": [
+"activemq/apache-nms-activemq/2.1.0/Apache.NMS.ActiveMQ.2.1.0.nupkg"
+],
+"Apache.NMS.ActiveMQ.2.1.0.snupkg": [
+"activemq/apache-nms-activemq/2.1.0/Apache.NMS.ActiveMQ.2.1.0.snupkg"
 ],
 "activemq-5.16.6": [
 "activemq/5.16.6/activemq-parent-5.16.6-source-release.zip"
@@ -3007,8 +3016,8 @@
 "apache-dubbo-3.0.14": [
 "dubbo/3.0.14/apache-dubbo-3.0.14-src.zip"
 ],
-"apache-dubbo-3.1.6": [
-"dubbo/3.1.6/apache-dubbo-3.1.6-src.zip"
+"apache-dubbo-3.1.7": [
+"dubbo/3.1.7/apache-dubbo-3.1.7-src.zip"
 ],
 "apache-dubbo-3.2.0-beta.5": [
 "dubbo/3.2.0-beta.5/apache-dubbo-3.2.0-beta.5-src.zip"
@@ -3209,9 +3218,17 @@
 "felix/org.apache.felix.http.api-3.0.0-source-release.tar.gz",
 "felix/org.apache.felix.http.api-3.0.0-source-release.zip"
 ],
+"org.apache.felix.http.base-4.2.6": [
+"felix/org.apache.felix.http.base-4.2.6-source-release.tar.gz",
+"felix/org.apache.felix.http.base-4.2.6-source-release.zip"
+],
 "org.apache.felix.http.base-5.0.2": [
 "felix/org.apache.felix.http.base-5.0.2-source-release.tar.gz",
 "felix/org.apache.felix.http.base-5.0.2-source-release.zip"
+],
+"org.apache.felix.http.bridge-4.2.8": [
+"felix/org.apache.felix.http.bridge-4.2.8-source-release.tar.gz",
+"felix/org.apache.felix.http.bridge-4.2.8-source-release.zip"
 ],
 "org.apache.felix.http.bridge-5.0.4": [
 "felix/org.apache.felix.http.bridge-5.0.4-source-release.tar.gz",
@@ -3225,9 +3242,9 @@
 "felix/org.apache.felix.http.inventoryprinter-1.0.0-source-release.tar.gz",
 "felix/org.apache.felix.http.inventoryprinter-1.0.0-source-release.zip"
 ],
-"org.apache.felix.http.jetty-4.2.8": [
-"felix/org.apache.felix.http.jetty-4.2.8-source-release.tar.gz",
-"felix/org.apache.felix.http.jetty-4.2.8-source-release.zip"
+"org.apache.felix.http.jetty-4.2.10": [
+"felix/org.apache.felix.http.jetty-4.2.10-source-release.tar.gz",
+"felix/org.apache.felix.http.jetty-4.2.10-source-release.zip"
 ],
 "org.apache.felix.http.jetty-5.0.4": [
 "felix/org.apache.felix.http.jetty-5.0.4-source-release.tar.gz",
@@ -3876,11 +3893,11 @@
 "apache-groovy-2.5.21": [
 "groovy/2.5.21/sources/apache-groovy-src-2.5.21.zip"
 ],
-"apache-groovy-3.0.15": [
-"groovy/3.0.15/sources/apache-groovy-src-3.0.15.zip"
+"apache-groovy-3.0.16": [
+"groovy/3.0.16/sources/apache-groovy-src-3.0.16.zip"
 ],
-"apache-groovy-4.0.9": [
-"groovy/4.0.9/sources/apache-groovy-src-4.0.9.zip"
+"apache-groovy-4.0.10": [
+"groovy/4.0.10/sources/apache-groovy-src-4.0.10.zip"
 ],
 "apache-groovy-sdk-2.4.21": [
 "groovy/2.4.21/distribution/apache-groovy-sdk-2.4.21.zip"
@@ -3888,11 +3905,11 @@
 "apache-groovy-sdk-2.5.21": [
 "groovy/2.5.21/distribution/apache-groovy-sdk-2.5.21.zip"
 ],
-"apache-groovy-sdk-3.0.15": [
-"groovy/3.0.15/distribution/apache-groovy-sdk-3.0.15.zip"
+"apache-groovy-sdk-3.0.16": [
+"groovy/3.0.16/distribution/apache-groovy-sdk-3.0.16.zip"
 ],
-"apache-groovy-sdk-4.0.9": [
-"groovy/4.0.9/distribution/apache-groovy-sdk-4.0.9.zip"
+"apache-groovy-sdk-4.0.10": [
+"groovy/4.0.10/distribution/apache-groovy-sdk-4.0.10.zip"
 ]
 },
 "guacamole": {
@@ -5704,8 +5721,8 @@
 "maven-war-plugin-3.3.2": [
 "maven/plugins/maven-war-plugin-3.3.2-source-release.zip"
 ],
-"maven-wrapper-3.1.1": [
-"maven/wrapper/maven-wrapper-3.1.1-source-release.zip"
+"maven-wrapper-3.2.0": [
+"maven/wrapper/maven-wrapper-3.2.0-source-release.zip"
 ],
 "surefire-3.0.0-M9": [
 "maven/surefire/surefire-3.0.0-M9-source-release.zip"
@@ -9014,8 +9031,8 @@
 ]
 },
 "pinot": {
-"apache-pinot-0.12.0": [
-"pinot/apache-pinot-0.12.0/apache-pinot-0.12.0-src.tar.gz"
+"apache-pinot-0.12.1": [
+"pinot/apache-pinot-0.12.1/apache-pinot-0.12.1-src.tar.gz"
 ]
 },
 "pivot": {
@@ -10221,6 +10238,12 @@
 "shiro": {
 "shiro-root-1.10.1": [
 "shiro/1.10.1/shiro-root-1.10.1-source-release.zip"
+],
+"shiro-root-1.11.0": [
+"shiro/1.11.0/shiro-root-1.11.0-source-release.zip"
+],
+"shiro-root-2.0.0-alpha-1": [
+"shiro/2.0.0-alpha-1/shiro-root-2.0.0-alpha-1-source-release.zip"
 ]
 },
 "singa": {
