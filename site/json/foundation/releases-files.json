@@ -148,9 +148,9 @@
 "airflow-chart-1.8.0": [
 "airflow/helm-chart/1.8.0/airflow-chart-1.8.0-source.tar.gz"
 ],
-"apache-airflow-2.5.1": [
-"airflow/2.5.1/apache-airflow-2.5.1-source.tar.gz",
-"airflow/2.5.1/apache-airflow-2.5.1.tar.gz"
+"apache-airflow-2.5.2": [
+"airflow/2.5.2/apache-airflow-2.5.2-source.tar.gz",
+"airflow/2.5.2/apache-airflow-2.5.2.tar.gz"
 ],
 "apache-airflow-client-2.1.0": [
 "airflow/clients/python/2.1.0/apache-airflow-client-2.1.0-source.tar.gz"
@@ -783,14 +783,8 @@
 "apache-arrow-ballista-0.11.0": [
 "arrow/arrow-ballista-0.11.0/apache-arrow-ballista-0.11.0.tar.gz"
 ],
-"apache-arrow-datafusion-18.0.0": [
-"arrow/arrow-datafusion-18.0.0/apache-arrow-datafusion-18.0.0.tar.gz"
-],
-"apache-arrow-datafusion-19.0.0": [
-"arrow/arrow-datafusion-19.0.0/apache-arrow-datafusion-19.0.0.tar.gz"
-],
-"apache-arrow-datafusion-python-0.7.0": [
-"arrow/arrow-datafusion-python-0.7.0/apache-arrow-datafusion-python-0.7.0.tar.gz"
+"apache-arrow-datafusion-20.0.0": [
+"arrow/arrow-datafusion-20.0.0/apache-arrow-datafusion-20.0.0.tar.gz"
 ],
 "apache-arrow-datafusion-python-0.8.0": [
 "arrow/arrow-datafusion-python-0.8.0/apache-arrow-datafusion-python-0.8.0.tar.gz"
@@ -1027,6 +1021,9 @@
 "bookkeeper-4.15.3": [
 "bookkeeper/bookkeeper-4.15.3/bookkeeper-4.15.3-src.tar.gz"
 ],
+"bookkeeper-4.15.4": [
+"bookkeeper/bookkeeper-4.15.4/bookkeeper-4.15.4-src.tar.gz"
+],
 "distributedlog-0.5.0": [
 "bookkeeper/distributedlog/0.5.0/distributedlog-0.5.0-src.tar.gz"
 ]
@@ -1108,26 +1105,11 @@
 ]
 },
 "calcite": {
-"apache-calcite-1.27.0": [
-"calcite/apache-calcite-1.27.0/apache-calcite-1.27.0-src.tar.gz"
-],
-"apache-calcite-1.28.0": [
-"calcite/apache-calcite-1.28.0/apache-calcite-1.28.0-src.tar.gz"
-],
-"apache-calcite-1.29.0": [
-"calcite/apache-calcite-1.29.0/apache-calcite-1.29.0-src.tar.gz"
-],
-"apache-calcite-1.30.0": [
-"calcite/apache-calcite-1.30.0/apache-calcite-1.30.0-src.tar.gz"
-],
-"apache-calcite-1.31.0": [
-"calcite/apache-calcite-1.31.0/apache-calcite-1.31.0-src.tar.gz"
-],
-"apache-calcite-1.32.0": [
-"calcite/apache-calcite-1.32.0/apache-calcite-1.32.0-src.tar.gz"
-],
 "apache-calcite-1.33.0": [
 "calcite/apache-calcite-1.33.0/apache-calcite-1.33.0-src.tar.gz"
+],
+"apache-calcite-1.34.0": [
+"calcite/apache-calcite-1.34.0/apache-calcite-1.34.0-src.tar.gz"
 ],
 "apache-calcite-avatica-1.21.0": [
 "calcite/apache-calcite-avatica-1.21.0/apache-calcite-avatica-1.21.0-src.tar.gz"
@@ -3566,11 +3548,17 @@
 "apache-flink-1.15.3": [
 "flink/flink-1.15.3/python/apache-flink-1.15.3.tar.gz"
 ],
+"apache-flink-1.15.4": [
+"flink/flink-1.15.4/python/apache-flink-1.15.4.tar.gz"
+],
 "apache-flink-1.16.1": [
 "flink/flink-1.16.1/python/apache-flink-1.16.1.tar.gz"
 ],
 "apache-flink-libraries-1.15.3": [
 "flink/flink-1.15.3/python/apache-flink-libraries-1.15.3.tar.gz"
+],
+"apache-flink-libraries-1.15.4": [
+"flink/flink-1.15.4/python/apache-flink-libraries-1.15.4.tar.gz"
 ],
 "apache-flink-libraries-1.16.1": [
 "flink/flink-1.16.1/python/apache-flink-libraries-1.16.1.tar.gz"
@@ -3586,6 +3574,9 @@
 ],
 "flink-1.15.3": [
 "flink/flink-1.15.3/flink-1.15.3-src.tgz"
+],
+"flink-1.15.4": [
+"flink/flink-1.15.4/flink-1.15.4-src.tgz"
 ],
 "flink-1.16.1": [
 "flink/flink-1.16.1/flink-1.16.1-src.tgz"
@@ -5433,9 +5424,9 @@
 "maven/maven-3/3.6.3/source/apache-maven-3.6.3-src.tar.gz",
 "maven/maven-3/3.6.3/source/apache-maven-3.6.3-src.zip"
 ],
-"apache-maven-3.8.7": [
-"maven/maven-3/3.8.7/source/apache-maven-3.8.7-src.tar.gz",
-"maven/maven-3/3.8.7/source/apache-maven-3.8.7-src.zip"
+"apache-maven-3.8.8": [
+"maven/maven-3/3.8.8/source/apache-maven-3.8.8-src.tar.gz",
+"maven/maven-3/3.8.8/source/apache-maven-3.8.8-src.zip"
 ],
 "apache-maven-3.9.0": [
 "maven/maven-3/3.9.0/source/apache-maven-3.9.0-src.tar.gz",
@@ -5727,8 +5718,8 @@
 "maven-wrapper-3.2.0": [
 "maven/wrapper/maven-wrapper-3.2.0-source-release.zip"
 ],
-"surefire-3.0.0-M9": [
-"maven/surefire/surefire-3.0.0-M9-source-release.zip"
+"surefire-3.0.0": [
+"maven/surefire/surefire-3.0.0-source-release.zip"
 ],
 "wagon-3.5.3": [
 "maven/wagon/wagon-3.5.3-source-release.zip"
@@ -9428,6 +9419,9 @@
 "pulsar-client-python-3.0.0": [
 "pulsar/pulsar-client-python-3.0.0/pulsar-client-python-3.0.0.tar.gz"
 ],
+"pulsar-client-python-3.1.0": [
+"pulsar/pulsar-client-python-3.1.0/pulsar-client-python-3.1.0.tar.gz"
+],
 "pulsar-client-reactive-0.1.0": [
 "pulsar/pulsar-client-reactive-0.1.0/pulsar-client-reactive-0.1.0-src.tar.gz"
 ],
@@ -11140,8 +11134,8 @@
 "org.apache.sling.resourcebuilder-1.0.4": [
 "sling/org.apache.sling.resourcebuilder-1.0.4-source-release.zip"
 ],
-"org.apache.sling.resourcecollection-1.0.2": [
-"sling/org.apache.sling.resourcecollection-1.0.2-source-release.zip"
+"org.apache.sling.resourcecollection-1.0.4": [
+"sling/org.apache.sling.resourcecollection-1.0.4-source-release.zip"
 ],
 "org.apache.sling.resourcemerger-1.4.0": [
 "sling/org.apache.sling.resourcemerger-1.4.0-source-release.zip"
