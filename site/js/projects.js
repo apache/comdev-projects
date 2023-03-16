@@ -263,6 +263,24 @@ function appendLiInnerHTML(ul,html) {
     return appendElementWithInnerHTML(ul,'li',html);
 }
 
+function projectIdToUnixGroup(projectId, pmcName) {
+    // Rerig the unix name and committee id
+    var unixgroup = projectId.split("-")[0];
+    /*
+      Temp hack for podling names. TODO need to sort out generated names
+    */
+    if (projectId.indexOf("incubator-") === 0) {
+      unixgroup = projectId.split("-")[1]
+    }
+    // special cases
+    if (unixgroup === "empire") unixgroup = "empire-db";
+    if (unixgroup === "community") unixgroup = "comdev";
+    if (pmcName === "attic") {
+      unixgroup = "attic";
+    }
+    return unixgroup;
+}
+
 function renderProjectPage(project, projectId) {
     var obj = document.getElementById('contents');
 
@@ -278,20 +296,7 @@ function renderProjectPage(project, projectId) {
     fixProjectName(project);
     var isIncubating = project && (project.podling || (project.pmc == 'incubator'));
 
-    // Rerig the unix name and committee id
-    var unixgroup = projectId.split("-")[0];
-    /*
-      Temp hack for podling names. TODO need to sort out generated names
-    */
-    if (projectId.indexOf("incubator-") == 0) {
-        unixgroup = projectId.split("-")[1]
-    }
-    // special cases
-    if (unixgroup == "empire") unixgroup = "empire-db";
-    if (unixgroup == "community") unixgroup = "comdev";
-    if (project && project.pmc == "attic") {
-        unixgroup = "attic";
-    }
+    var unixgroup = projectIdToUnixGroup(projectId, project && project.pmc);
 
     var committeeId = isIncubating ? 'incubator' : unixgroup;
     if (!committees[unixgroup]) {
@@ -825,9 +830,10 @@ function renderProjectsByNumber() {
 
     var lens = [];
     var lcount = {};
-    for (i in projects) {
-        if (unixgroups[i] && i != 'incubator') {
-            var len = unixgroups[i].length;
+    for (projectId in projects) {
+        let unixGroup = projectIdToUnixGroup(projectId);
+        if (unixgroups[unixGroup] && projectId !== 'incubator') {
+            let len = unixgroups[unixGroup].length;
             if (lens.indexOf(len) < 0) {
                     lens.push(len);
                     lcount[len] = 0;
@@ -842,15 +848,16 @@ function renderProjectsByNumber() {
 
     for (l in lens) {
         var len = lens[l];
-        var i;
-        for (i in projectsSorted) {
-            i = projectsSorted[i];
-            if (unixgroups[i]) {
-                var xlen = unixgroups[i].length;
+        var projectId;
+        for (projectId in projectsSorted) {
+            projectId = projectsSorted[projectId];
+            let unixGroup = projectIdToUnixGroup(projectId);
+            if (unixgroups[unixGroup]) {
+                var xlen = unixgroups[unixGroup].length;
                 if (xlen == len) {
-                    var html = projectIcon(projects[i].name) + projectLink(i) + ": " + len + " committers";
-                    if (unixgroups[i+'-pmc']) {
-                        html += ", " + unixgroups[i+'-pmc'].length + " PMC members";
+                    var html = projectIcon(projects[projectId].name) + projectLink(projectId) + ": " + len + " committers";
+                    if (unixgroups[unixGroup+'-pmc']) {
+                        html += ", " + unixgroups[unixGroup+'-pmc'].length + " PMC members";
                     }
                     appendLiInnerHTML(ul,html);
                 }
