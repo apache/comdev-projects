@@ -548,8 +548,8 @@
 ]
 },
 "archiva": {
-"apache-archiva-2.2.8": [
-"archiva/2.2.8/src/apache-archiva-2.2.8-src.zip"
+"apache-archiva-2.2.10": [
+"archiva/2.2.10/src/apache-archiva-2.2.10-src.zip"
 ],
 "apache-archiva-2.2.9": [
 "archiva/2.2.9/src/apache-archiva-2.2.9-src.zip"
@@ -777,17 +777,14 @@
 "apache-arrow-adbc-0.2.0": [
 "arrow/apache-arrow-adbc-0.2.0/apache-arrow-adbc-0.2.0.tar.gz"
 ],
-"apache-arrow-ballista-0.10.0": [
-"arrow/arrow-ballista-0.10.0/apache-arrow-ballista-0.10.0.tar.gz"
-],
 "apache-arrow-ballista-0.11.0": [
 "arrow/arrow-ballista-0.11.0/apache-arrow-ballista-0.11.0.tar.gz"
 ],
 "apache-arrow-datafusion-20.0.0": [
 "arrow/arrow-datafusion-20.0.0/apache-arrow-datafusion-20.0.0.tar.gz"
 ],
-"apache-arrow-datafusion-python-0.8.0": [
-"arrow/arrow-datafusion-python-0.8.0/apache-arrow-datafusion-python-0.8.0.tar.gz"
+"apache-arrow-datafusion-python-20.0.0": [
+"arrow/arrow-datafusion-python-20.0.0/apache-arrow-datafusion-python-20.0.0.tar.gz"
 ],
 "apache-arrow-julia-2.5.0": [
 "arrow/arrow-julia-2.5.0/apache-arrow-julia-2.5.0.tar.gz"
@@ -1167,9 +1164,6 @@
 "apache-camel-k-runtime-1.16.0": [
 "camel/camel-k-runtime/1.16.0/apache-camel-k-runtime-1.16.0-source-release.zip"
 ],
-"apache-camel-quarkus-2.13.1": [
-"camel/camel-quarkus/2.13.1/apache-camel-quarkus-2.13.1-src.zip"
-],
 "apache-camel-quarkus-2.13.2": [
 "camel/camel-quarkus/2.13.2/apache-camel-quarkus-2.13.2-src.zip"
 ],
@@ -1178,6 +1172,9 @@
 ],
 "apache-camel-quarkus-2.7.2": [
 "camel/camel-quarkus/2.7.2/apache-camel-quarkus-2.7.2-src.zip"
+],
+"apache-camel-quarkus-3.0.0-M1": [
+"camel/camel-quarkus/3.0.0-M1/apache-camel-quarkus-3.0.0-M1-src.zip"
 ],
 "camel-k-client-1.10.1-linux": [
 "camel/camel-k/1.10.1/camel-k-client-1.10.1-linux-64bit.tar.gz"
@@ -2899,6 +2896,9 @@
 "apache-doris-1.2.2": [
 "doris/1.2/1.2.2-rc01/apache-doris-1.2.2-src.tar.gz"
 ],
+"apache-doris-1.2.3": [
+"doris/1.2/1.2.3-rc02/apache-doris-1.2.3-src.tar.gz"
+],
 "apache-doris-flink-connector-1.11_2.12-1.0.3-incubating": [
 "doris/flink-connector/1.0.3/apache-doris-flink-connector-1.11_2.12-1.0.3-incubating-src.tar.gz"
 ],
@@ -4280,6 +4280,9 @@
 "apache-iceberg-1.1.0": [
 "iceberg/apache-iceberg-1.1.0/apache-iceberg-1.1.0.tar.gz"
 ],
+"apache-iceberg-1.2.0": [
+"iceberg/apache-iceberg-1.2.0/apache-iceberg-1.2.0.tar.gz"
+],
 "pyiceberg-0.1.0": [
 "iceberg/pyiceberg-0.1.0/pyiceberg-0.1.0.tar.gz"
 ]
@@ -5420,6 +5423,10 @@
 "maven/maven-4/4.0.0-alpha-4/source/apache-maven-4.0.0-alpha-4-src.tar.gz",
 "maven/maven-4/4.0.0-alpha-4/source/apache-maven-4.0.0-alpha-4-src.zip"
 ],
+"apache-maven-4.0.0-alpha-5": [
+"maven/maven-4/4.0.0-alpha-5/source/apache-maven-4.0.0-alpha-5-src.tar.gz",
+"maven/maven-4/4.0.0-alpha-5/source/apache-maven-4.0.0-alpha-5-src.zip"
+],
 "apache-source-release-descriptor-1.0.6": [
 "maven/resources/apache-source-release-assembly-descriptor-1.0.6-source-release.zip"
 ],
@@ -5620,8 +5627,8 @@
 "maven-rar-plugin-3.0.0": [
 "maven/plugins/maven-rar-plugin-3.0.0-source-release.zip"
 ],
-"maven-release-3.0.0-M7": [
-"maven/release/maven-release-3.0.0-M7-source-release.zip"
+"maven-release-3.0.0": [
+"maven/release/maven-release-3.0.0-source-release.zip"
 ],
 "maven-remote-resources-plugin-3.0.0": [
 "maven/plugins/maven-remote-resources-plugin-3.0.0-source-release.zip"
@@ -10014,6 +10021,9 @@
 ],
 "rocketmq-client-csharp-5.0.0": [
 "rocketmq/rocketmq-clients/rocketmq-client-csharp/5.0.0/rocketmq-client-csharp-5.0.0-source-release.tar.gz"
+],
+"rocketmq-client-csharp-5.1.0-rc1": [
+"rocketmq/rocketmq-clients/rocketmq-client-csharp/5.1.0/rocketmq-client-csharp-5.1.0-rc1-source-release.zip"
 ],
 "rocketmq-client-go-2.1.1": [
 "rocketmq/rocketmq-client-go/2.1.1/rocketmq-client-go-2.1.1-source-release.tar.gz"
