@@ -2251,9 +2251,9 @@
 "commons/collections/source/commons-collections4-4.4-src.tar.gz",
 "commons/collections/source/commons-collections4-4.4-src.zip"
 ],
-"commons-compress-1.22": [
-"commons/compress/source/commons-compress-1.22-src.tar.gz",
-"commons/compress/source/commons-compress-1.22-src.zip"
+"commons-compress-1.23.0": [
+"commons/compress/source/commons-compress-1.23.0-src.tar.gz",
+"commons/compress/source/commons-compress-1.23.0-src.zip"
 ],
 "commons-configuration-1.10": [
 "commons/configuration/source/commons-configuration-1.10-src.tar.gz",
@@ -3898,6 +3898,7 @@
 "hadoop/common/hadoop-3.3.2/RELEASENOTES.md",
 "hadoop/common/hadoop-3.3.3/RELEASENOTES.md",
 "hadoop/common/hadoop-3.3.4/RELEASENOTES.md",
+"hadoop/common/hadoop-3.3.5/RELEASENOTES.md",
 "hadoop/core/current2/RELEASENOTES.md",
 "hadoop/core/hadoop-2.10.1/RELEASENOTES.md",
 "hadoop/core/hadoop-2.10.2/RELEASENOTES.md",
@@ -3907,6 +3908,7 @@
 "hadoop/core/hadoop-3.3.2/RELEASENOTES.md",
 "hadoop/core/hadoop-3.3.3/RELEASENOTES.md",
 "hadoop/core/hadoop-3.3.4/RELEASENOTES.md",
+"hadoop/core/hadoop-3.3.5/RELEASENOTES.md",
 "hadoop/thirdparty/thirdparty-1.0.0/RELEASENOTES.md",
 "hadoop/thirdparty/thirdparty-1.1.0/RELEASENOTES.md",
 "hadoop/thirdparty/thirdparty-1.1.1/RELEASENOTES.md"
@@ -3984,6 +3986,18 @@
 "hadoop/core/hadoop-3.3.4/hadoop-3.3.4-site.tar.gz",
 "hadoop/core/hadoop-3.3.4/hadoop-3.3.4-src.tar.gz",
 "hadoop/core/hadoop-3.3.4/hadoop-3.3.4.tar.gz"
+],
+"hadoop-3.3.5": [
+"hadoop/common/hadoop-3.3.5/hadoop-3.3.5-site.tar.gz",
+"hadoop/common/hadoop-3.3.5/hadoop-3.3.5-src.tar.gz",
+"hadoop/common/hadoop-3.3.5/hadoop-3.3.5.tar.gz",
+"hadoop/core/hadoop-3.3.5/hadoop-3.3.5-site.tar.gz",
+"hadoop/core/hadoop-3.3.5/hadoop-3.3.5-src.tar.gz",
+"hadoop/core/hadoop-3.3.5/hadoop-3.3.5.tar.gz"
+],
+"hadoop-arm64-3.3.5": [
+"hadoop/common/hadoop-3.3.5/hadoop-arm64-3.3.5.tar.gz",
+"hadoop/core/hadoop-3.3.5/hadoop-arm64-3.3.5.tar.gz"
 ],
 "hadoop-thirdparty-1.0.0": [
 "hadoop/thirdparty/thirdparty-1.0.0/hadoop-thirdparty-1.0.0-site.tar.gz",
@@ -5427,14 +5441,14 @@
 "apache-source-release-descriptor-1.0.6": [
 "maven/resources/apache-source-release-assembly-descriptor-1.0.6-source-release.zip"
 ],
-"doxia-2.0.0-M5": [
-"maven/doxia/doxia-2.0.0-M5-source-release.zip"
+"doxia-2.0.0-M6": [
+"maven/doxia/doxia-2.0.0-M6-source-release.zip"
 ],
 "doxia-converter-1.3": [
 "maven/doxia/doxia-converter-1.3-source-release.zip"
 ],
-"doxia-sitetools-2.0.0-M5": [
-"maven/doxia/doxia-sitetools-2.0.0-M5-source-release.zip"
+"doxia-sitetools-2.0.0-M6": [
+"maven/doxia/doxia-sitetools-2.0.0-M6-source-release.zip"
 ],
 "enforcer-3.2.1": [
 "maven/enforcer/enforcer-3.2.1-source-release.zip"
@@ -5630,14 +5644,14 @@
 "maven-remote-resources-plugin-3.0.0": [
 "maven/plugins/maven-remote-resources-plugin-3.0.0-source-release.zip"
 ],
-"maven-reporting-api-4.0.0-M4": [
-"maven/reporting/maven-reporting-api-4.0.0-M4-source-release.zip"
+"maven-reporting-api-4.0.0-M5": [
+"maven/reporting/maven-reporting-api-4.0.0-M5-source-release.zip"
 ],
-"maven-reporting-exec-2.0.0-M4": [
-"maven/reporting/maven-reporting-exec-2.0.0-M4-source-release.zip"
+"maven-reporting-exec-2.0.0-M5": [
+"maven/reporting/maven-reporting-exec-2.0.0-M5-source-release.zip"
 ],
-"maven-reporting-impl-4.0.0-M4": [
-"maven/reporting/maven-reporting-impl-4.0.0-M4-source-release.zip"
+"maven-reporting-impl-4.0.0-M5": [
+"maven/reporting/maven-reporting-impl-4.0.0-M5-source-release.zip"
 ],
 "maven-resolver-1.9.7": [
 "maven/resolver/maven-resolver-1.9.7-source-release.zip"
@@ -5678,8 +5692,8 @@
 "maven-shared-utils-3.3.4": [
 "maven/shared/maven-shared-utils-3.3.4-source-release.zip"
 ],
-"maven-site-plugin-4.0.0-M5": [
-"maven/plugins/maven-site-plugin-4.0.0-M5-source-release.zip"
+"maven-site-plugin-4.0.0-M6": [
+"maven/plugins/maven-site-plugin-4.0.0-M6-source-release.zip"
 ],
 "maven-source-plugin-3.2.1": [
 "maven/plugins/maven-source-plugin-3.2.1-source-release.zip"
