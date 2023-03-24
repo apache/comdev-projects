@@ -3039,8 +3039,8 @@
 ]
 },
 "echarts": {
-"apache-echarts-5.4.1": [
-"echarts/5.4.1/apache-echarts-5.4.1-src.zip"
+"apache-echarts-5.4.2": [
+"echarts/5.4.2/apache-echarts-5.4.2-src.zip"
 ]
 },
 "empire-db": {
@@ -3533,11 +3533,17 @@
 "apache-flink-1.16.1": [
 "flink/flink-1.16.1/python/apache-flink-1.16.1.tar.gz"
 ],
+"apache-flink-1.17.0": [
+"flink/flink-1.17.0/python/apache-flink-1.17.0.tar.gz"
+],
 "apache-flink-libraries-1.15.4": [
 "flink/flink-1.15.4/python/apache-flink-libraries-1.15.4.tar.gz"
 ],
 "apache-flink-libraries-1.16.1": [
 "flink/flink-1.16.1/python/apache-flink-libraries-1.16.1.tar.gz"
+],
+"apache-flink-libraries-1.17.0": [
+"flink/flink-1.17.0/python/apache-flink-libraries-1.17.0.tar.gz"
 ],
 "apache-flink-ml-2.0.0": [
 "flink/flink-ml-2.0.0/apache-flink-ml-2.0.0.tar.gz"
@@ -3553,6 +3559,9 @@
 ],
 "flink-1.16.1": [
 "flink/flink-1.16.1/flink-1.16.1-src.tgz"
+],
+"flink-1.17.0": [
+"flink/flink-1.17.0/flink-1.17.0-src.tgz"
 ],
 "flink-connector-1.0.0": [
 "flink/flink-connector-parent-1.0.0/flink-connector-parent-1.0.0-src.tgz"
@@ -4708,8 +4717,8 @@
 "jackrabbit-oak-1.4.26": [
 "jackrabbit/oak/1.4.26/jackrabbit-oak-1.4.26-src.zip"
 ],
-"jackrabbit-oak-1.48.0": [
-"jackrabbit/oak/1.48.0/jackrabbit-oak-1.48.0-src.zip"
+"jackrabbit-oak-1.50.0": [
+"jackrabbit/oak/1.50.0/jackrabbit-oak-1.50.0-src.zip"
 ],
 "jackrabbit-oak-1.6.23": [
 "jackrabbit/oak/1.6.23/jackrabbit-oak-1.6.23-src.zip"
@@ -4750,11 +4759,11 @@
 "james-3.6.2": [
 "james/server/3.6.2/james-project-3.6.2-source-release.zip"
 ],
-"james-3.7.2": [
-"james/server/3.7.2/james-project-3.7.2-source-release.zip"
-],
 "james-3.7.3": [
 "james/server/3.7.3/james-project-3.7.3-source-release.zip"
+],
+"james-3.7.4": [
+"james/server/3.7.4/james-project-3.7.4-source-release.zip"
 ],
 "james-mime4j-sources-0.8.8": [
 "james/mime4j/0.8.8/james-mime4j-sources-0.8.8.zip"
@@ -4765,32 +4774,34 @@
 "james-server-app-3.6.2": [
 "james/server/3.6.2/james-server-app-3.6.2-app.zip"
 ],
-"james-server-app-3.7.2": [
-"james/server/3.7.2/james-server-app-3.7.2-app.zip"
-],
 "james-server-cassandra": [
-"james/server/3.7.3/james-server-cassandra-app.zip"
+"james/server/3.7.3/james-server-cassandra-app.zip",
+"james/server/3.7.4/james-server-cassandra-app.zip"
 ],
 "james-server-cassandra-guice": [
 "james/server/3.6.2/james-server-cassandra-guice.zip",
-"james/server/3.7.2/james-server-cassandra-guice.zip",
-"james/server/3.7.3/james-server-cassandra-guice.zip"
+"james/server/3.7.3/james-server-cassandra-guice.zip",
+"james/server/3.7.4/james-server-cassandra-guice.zip"
 ],
 "james-server-distributed": [
-"james/server/3.7.3/james-server-distributed-app.zip"
+"james/server/3.7.3/james-server-distributed-app.zip",
+"james/server/3.7.4/james-server-distributed-app.zip"
 ],
 "james-server-distributed-guice": [
 "james/server/3.6.2/james-server-distributed-guice.zip",
-"james/server/3.7.2/james-server-distributed-guice.zip",
-"james/server/3.7.3/james-server-distributed-guice.zip"
+"james/server/3.7.3/james-server-distributed-guice.zip",
+"james/server/3.7.4/james-server-distributed-guice.zip"
 ],
 "james-server-jpa-guice": [
 "james/server/3.6.2/james-server-jpa-guice.zip",
-"james/server/3.7.2/james-server-jpa-guice.zip",
-"james/server/3.7.3/james-server-jpa-guice.zip"
+"james/server/3.7.3/james-server-jpa-guice.zip",
+"james/server/3.7.4/james-server-jpa-guice.zip"
 ],
 "james-server-spring-app-3.7.3": [
 "james/server/3.7.3/james-server-spring-app-3.7.3-app.zip"
+],
+"james-server-spring-app-3.7.4": [
+"james/server/3.7.4/james-server-spring-app-3.7.4-app.zip"
 ]
 },
 "jclouds": {
