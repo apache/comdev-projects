@@ -95,6 +95,9 @@
 "activemq-5.17.4": [
 "activemq/5.17.4/activemq-parent-5.17.4-source-release.zip"
 ],
+"activemq-5.18.0": [
+"activemq/5.18.0/activemq-parent-5.18.0-source-release.zip"
+],
 "activemq-artemis-native-2.0.0": [
 "activemq/activemq-artemis-native/2.0.0/activemq-artemis-native-2.0.0-source-release.tar.gz",
 "activemq/activemq-artemis-native/2.0.0/activemq-artemis-native-2.0.0-source-release.zip"
@@ -3482,8 +3485,14 @@
 "apache-fineract-1.7.2": [
 "fineract/1.7.2/apache-fineract-1.7.2-src.tar.gz"
 ],
+"apache-fineract-1.7.3": [
+"fineract/1.7.3/apache-fineract-1.7.3-src.tar.gz"
+],
 "apache-fineract-1.8.3": [
 "fineract/1.8.3/apache-fineract-1.8.3-src.tar.gz"
+],
+"apache-fineract-1.8.4": [
+"fineract/1.8.4/apache-fineract-1.8.4-src.tar.gz"
 ]
 },
 "flex": {
@@ -4004,9 +4013,9 @@
 "hadoop/core/hadoop-3.3.5/hadoop-3.3.5-src.tar.gz",
 "hadoop/core/hadoop-3.3.5/hadoop-3.3.5.tar.gz"
 ],
-"hadoop-arm64-3.3.5": [
-"hadoop/common/hadoop-3.3.5/hadoop-arm64-3.3.5.tar.gz",
-"hadoop/core/hadoop-3.3.5/hadoop-arm64-3.3.5.tar.gz"
+"hadoop-3.3.5-aarch64": [
+"hadoop/common/hadoop-3.3.5/hadoop-3.3.5-aarch64.tar.gz",
+"hadoop/core/hadoop-3.3.5/hadoop-3.3.5-aarch64.tar.gz"
 ],
 "hadoop-thirdparty-1.0.0": [
 "hadoop/thirdparty/thirdparty-1.0.0/hadoop-thirdparty-1.0.0-site.tar.gz",
@@ -4648,6 +4657,12 @@
 ],
 "apache-inlong-1.5.0-sort-connectors": [
 "inlong/1.5.0/apache-inlong-1.5.0-sort-connectors.tar.gz"
+],
+"apache-inlong-1.6.0": [
+"inlong/1.6.0/apache-inlong-1.6.0-src.tar.gz"
+],
+"apache-inlong-1.6.0-sort-connectors": [
+"inlong/1.6.0/apache-inlong-1.6.0-sort-connectors.tar.gz"
 ]
 },
 "iotdb": {
@@ -5521,8 +5536,8 @@
 "maven-dependency-tree-3.2.1": [
 "maven/shared/maven-dependency-tree-3.2.1-source-release.zip"
 ],
-"maven-deploy-plugin-3.1.0": [
-"maven/plugins/maven-deploy-plugin-3.1.0-source-release.zip"
+"maven-deploy-plugin-3.1.1": [
+"maven/plugins/maven-deploy-plugin-3.1.1-source-release.zip"
 ],
 "maven-doap-plugin-1.2": [
 "maven/plugins/maven-doap-plugin-1.2-source-release.zip"
@@ -5536,8 +5551,8 @@
 "maven-ejb-plugin-3.2.1": [
 "maven/plugins/maven-ejb-plugin-3.2.1-source-release.zip"
 ],
-"maven-filtering-3.3.0": [
-"maven/shared/maven-filtering-3.3.0-source-release.zip"
+"maven-filtering-3.3.1": [
+"maven/shared/maven-filtering-3.3.1-source-release.zip"
 ],
 "maven-fluido-skin-1.11.2": [
 "maven/skins/maven-fluido-skin-1.11.2-source-release.zip"
@@ -5557,8 +5572,8 @@
 "maven-info-reports-plugin-3.4.2": [
 "maven/plugins/maven-project-info-reports-plugin-3.4.2-source-release.zip"
 ],
-"maven-install-plugin-3.1.0": [
-"maven/plugins/maven-install-plugin-3.1.0-source-release.zip"
+"maven-install-plugin-3.1.1": [
+"maven/plugins/maven-install-plugin-3.1.1-source-release.zip"
 ],
 "maven-invoker-3.2.0": [
 "maven/shared/maven-invoker-3.2.0-source-release.zip"
@@ -5670,8 +5685,8 @@
 "maven-resolver-ant-tasks-1.4.0": [
 "maven/resolver/maven-resolver-ant-tasks-1.4.0-source-release.zip"
 ],
-"maven-resources-plugin-3.3.0": [
-"maven/plugins/maven-resources-plugin-3.3.0-source-release.zip"
+"maven-resources-plugin-3.3.1": [
+"maven/plugins/maven-resources-plugin-3.3.1-source-release.zip"
 ],
 "maven-scm-2.0.0": [
 "maven/scm/maven-scm-2.0.0-source-release.zip"
@@ -11347,8 +11362,8 @@
 "org.apache.sling.testing.hamcrest-1.0.2": [
 "sling/org.apache.sling.testing.hamcrest-1.0.2-source-release.zip"
 ],
-"org.apache.sling.testing.jcr-mock-1.6.4": [
-"sling/org.apache.sling.testing.jcr-mock-1.6.4-source-release.zip"
+"org.apache.sling.testing.jcr-mock-1.6.6": [
+"sling/org.apache.sling.testing.jcr-mock-1.6.6-source-release.zip"
 ],
 "org.apache.sling.testing.logging-mock-2.0.0": [
 "sling/org.apache.sling.testing.logging-mock-2.0.0-source-release.zip"
@@ -11522,6 +11537,10 @@
 "solr-9.1.1": [
 "solr/solr/9.1.1/solr-9.1.1-src.tgz",
 "solr/solr/9.1.1/solr-9.1.1.tgz"
+],
+"solr-9.2.0": [
+"solr/solr/9.2.0/solr-9.2.0-src.tgz",
+"solr/solr/9.2.0/solr-9.2.0.tgz"
 ],
 "solr-operator-0.6.0": [
 "solr/solr-operator/v0.6.0/helm-charts/solr-operator-0.6.0.tgz"

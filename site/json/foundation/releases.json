@@ -33,6 +33,7 @@
 "Apache.NMS.ActiveMQ.2.1.0.snupkg": "2023-03-12",
 "activemq-5.16.6": "2023-02-10",
 "activemq-5.17.4": "2023-02-22",
+"activemq-5.18.0": "2023-03-19",
 "activemq-artemis-native-2.0.0": "2022-07-12",
 "activemq-cli-tools-0.1.0": "2017-05-12",
 "activemq-cli-tools-0.2.0": "2020-07-22",
@@ -1106,7 +1107,9 @@
 },
 "fineract": {
 "apache-fineract-1.7.2": "2022-11-30",
-"apache-fineract-1.8.3": "2023-01-16"
+"apache-fineract-1.7.3": "2023-03-24",
+"apache-fineract-1.8.3": "2023-01-16",
+"apache-fineract-1.8.4": "2023-03-24"
 },
 "flex": {
 "apache-flex-falconjx-0.8.0": "2017-06-20",
@@ -1265,7 +1268,7 @@
 "hadoop-3.3.3": "2022-05-11",
 "hadoop-3.3.4": "2022-07-29",
 "hadoop-3.3.5": "2023-03-15",
-"hadoop-arm64-3.3.5": "2023-03-15",
+"hadoop-3.3.5-aarch64": "2023-03-24",
 "hadoop-thirdparty-1.0.0": "2020-03-18",
 "hadoop-thirdparty-1.1.0": "2021-05-18",
 "hadoop-thirdparty-1.1.1": "2021-06-01"
@@ -1516,7 +1519,9 @@
 },
 "inlong": {
 "apache-inlong-1.5.0": "2023-01-10",
-"apache-inlong-1.5.0-sort-connectors": "2023-01-10"
+"apache-inlong-1.5.0-sort-connectors": "2023-01-10",
+"apache-inlong-1.6.0": "2023-03-20",
+"apache-inlong-1.6.0-sort-connectors": "2023-03-20"
 },
 "iotdb": {
 "apache-iotdb-0.12.6": "2022-07-13",
@@ -1792,19 +1797,19 @@
 "maven-dependency-analyzer-1.13.0": "2022-08-24",
 "maven-dependency-plugin-3.5.0": "2023-01-11",
 "maven-dependency-tree-3.2.1": "2022-11-29",
-"maven-deploy-plugin-3.1.0": "2023-02-09",
+"maven-deploy-plugin-3.1.1": "2023-03-24",
 "maven-doap-plugin-1.2": "2015-03-16",
 "maven-docck-plugin-1.1": "2015-04-08",
 "maven-ear-plugin-3.3.0": "2022-10-22",
 "maven-ejb-plugin-3.2.1": "2022-04-21",
-"maven-filtering-3.3.0": "2022-06-14",
+"maven-filtering-3.3.1": "2023-03-24",
 "maven-fluido-skin-1.11.2": "2023-01-19",
 "maven-fluido-skin-2.0.0-M3": "2023-02-15",
 "maven-gpg-plugin-3.0.1": "2021-05-08",
 "maven-help-plugin-3.4.0": "2023-03-18",
 "maven-indexer-7.0.1": "2023-02-27",
 "maven-info-reports-plugin-3.4.2": "2023-01-11",
-"maven-install-plugin-3.1.0": "2022-11-17",
+"maven-install-plugin-3.1.1": "2023-03-24",
 "maven-invoker-3.2.0": "2022-04-10",
 "maven-invoker-plugin-3.5.0": "2023-02-15",
 "maven-jar-plugin-3.3.0": "2022-09-16",
@@ -1839,7 +1844,7 @@
 "maven-reporting-impl-4.0.0-M5": "2023-03-22",
 "maven-resolver-1.9.7": "2023-03-11",
 "maven-resolver-ant-tasks-1.4.0": "2021-11-26",
-"maven-resources-plugin-3.3.0": "2022-07-25",
+"maven-resources-plugin-3.3.1": "2023-03-24",
 "maven-scm-2.0.0": "2023-03-17",
 "maven-scm-publish-plugin-3.1.0": "2020-12-26",
 "maven-script-interpreter-1.4": "2022-12-21",
@@ -3740,7 +3745,7 @@
 "org.apache.sling.testing.clients-3.0.18": "2022-12-08",
 "org.apache.sling.testing.email-1.0.0": "2017-06-20",
 "org.apache.sling.testing.hamcrest-1.0.2": "2017-01-07",
-"org.apache.sling.testing.jcr-mock-1.6.4": "2023-03-06",
+"org.apache.sling.testing.jcr-mock-1.6.6": "2023-03-24",
 "org.apache.sling.testing.logging-mock-2.0.0": "2016-09-19",
 "org.apache.sling.testing.osgi-mock-3.3.4": "2022-12-05",
 "org.apache.sling.testing.osgi-mock.core-3.3.4": "2022-12-05",
@@ -3799,6 +3804,7 @@
 "solr-0.6.0": "2022-08-07",
 "solr-0.6.0.tgz.prov": "2022-08-07",
 "solr-9.1.1": "2023-01-18",
+"solr-9.2.0": "2023-03-21",
 "solr-operator-0.6.0": "2022-08-07",
 "solr-operator-0.6.0.tgz.prov": "2022-08-07",
 "solr-operator-v0.6.0": "2022-08-07",
