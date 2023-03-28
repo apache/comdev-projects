@@ -792,8 +792,8 @@
 "apache-arrow-ballista-0.11.0": [
 "arrow/arrow-ballista-0.11.0/apache-arrow-ballista-0.11.0.tar.gz"
 ],
-"apache-arrow-datafusion-20.0.0": [
-"arrow/arrow-datafusion-20.0.0/apache-arrow-datafusion-20.0.0.tar.gz"
+"apache-arrow-datafusion-21.0.0": [
+"arrow/arrow-datafusion-21.0.0/apache-arrow-datafusion-21.0.0.tar.gz"
 ],
 "apache-arrow-datafusion-python-20.0.0": [
 "arrow/arrow-datafusion-python-20.0.0/apache-arrow-datafusion-python-20.0.0.tar.gz"
@@ -2352,6 +2352,10 @@
 "commons/jexl/source/commons-jexl-3.2.1-src.tar.gz",
 "commons/jexl/source/commons-jexl-3.2.1-src.zip"
 ],
+"commons-jexl-3.3": [
+"commons/jexl/source/commons-jexl-3.3-src.tar.gz",
+"commons/jexl/source/commons-jexl-3.3-src.zip"
+],
 "commons-jxpath-1.3": [
 "commons/jxpath/source/commons-jxpath-1.3-src.tar.gz",
 "commons/jxpath/source/commons-jxpath-1.3-src.zip"
@@ -2949,6 +2953,9 @@
 ],
 "apache-doris-spark-connector-3.2_2.12-1.1.0": [
 "doris/spark-connector/1.1.0/apache-doris-spark-connector-3.2_2.12-1.1.0-src.tar.gz"
+],
+"doris-shade-1.0.0": [
+"doris/doris-shade/doris-shade-1.0.0-src.tar.gz"
 ]
 },
 "drill": {
@@ -3055,6 +3062,11 @@
 "apache-empire-db-3.0.0": [
 "empire-db/3.0.0/apache-empire-db-3.0.0-dist.tar.gz",
 "empire-db/3.0.0/apache-empire-db-3.0.0-dist.zip"
+]
+},
+"eventmesh": {
+"apache-eventmesh-1.8.0-incubating": [
+"eventmesh/1.8.0-incubating/apache-eventmesh-1.8.0-incubating-source.tar.gz"
 ]
 },
 "felix": {
@@ -4431,11 +4443,6 @@
 "incubator-devlake": {
 "apache-devlake-0.15.0-incubating": [
 "incubator/devlake/0.15.0-incubating/apache-devlake-0.15.0-incubating-src.tar.gz"
-]
-},
-"incubator-eventmesh": {
-"apache-eventmesh-1.8.0-incubating": [
-"incubator/eventmesh/1.8.0-incubating/apache-eventmesh-1.8.0-incubating-source.tar.gz"
 ]
 },
 "incubator-flagon": {
@@ -11371,23 +11378,23 @@
 "org.apache.sling.testing.logging-mock-2.0.0": [
 "sling/org.apache.sling.testing.logging-mock-2.0.0-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock-3.3.4": [
-"sling/org.apache.sling.testing.osgi-mock-3.3.4-source-release.zip"
+"org.apache.sling.testing.osgi-mock-3.3.6": [
+"sling/org.apache.sling.testing.osgi-mock-3.3.6-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.core-3.3.4": [
-"sling/org.apache.sling.testing.osgi-mock.core-3.3.4-source-release.zip"
+"org.apache.sling.testing.osgi-mock.core-3.3.6": [
+"sling/org.apache.sling.testing.osgi-mock.core-3.3.6-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.junit4-3.3.4": [
-"sling/org.apache.sling.testing.osgi-mock.junit4-3.3.4-source-release.zip"
+"org.apache.sling.testing.osgi-mock.junit4-3.3.6": [
+"sling/org.apache.sling.testing.osgi-mock.junit4-3.3.6-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.junit5-3.3.4": [
-"sling/org.apache.sling.testing.osgi-mock.junit5-3.3.4-source-release.zip"
+"org.apache.sling.testing.osgi-mock.junit5-3.3.6": [
+"sling/org.apache.sling.testing.osgi-mock.junit5-3.3.6-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.parent-3.3.4": [
-"sling/org.apache.sling.testing.osgi-mock.parent-3.3.4-source-release.zip"
+"org.apache.sling.testing.osgi-mock.parent-3.3.6": [
+"sling/org.apache.sling.testing.osgi-mock.parent-3.3.6-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.test-services-3.3.4": [
-"sling/org.apache.sling.testing.osgi-mock.test-services-3.3.4-source-release.zip"
+"org.apache.sling.testing.osgi-mock.test-services-3.3.6": [
+"sling/org.apache.sling.testing.osgi-mock.test-services-3.3.6-source-release.zip"
 ],
 "org.apache.sling.testing.paxexam-3.1.0": [
 "sling/org.apache.sling.testing.paxexam-3.1.0-source-release.zip"
@@ -11410,8 +11417,8 @@
 "org.apache.sling.testing.serversetup-1.0.4": [
 "sling/org.apache.sling.testing.serversetup-1.0.4-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock-3.4.2": [
-"sling/org.apache.sling.testing.sling-mock-3.4.2-source-release.zip"
+"org.apache.sling.testing.sling-mock-3.4.4": [
+"sling/org.apache.sling.testing.sling-mock-3.4.4-source-release.zip"
 ],
 "org.apache.sling.testing.sling-mock-jackrabbit-1.0.0": [
 "sling/org.apache.sling.testing.sling-mock-jackrabbit-1.0.0-source-release.zip"
@@ -11419,17 +11426,17 @@
 "org.apache.sling.testing.sling-mock-oak-3.1.8-1.44.0": [
 "sling/org.apache.sling.testing.sling-mock-oak-3.1.8-1.44.0-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.core-3.4.2": [
-"sling/org.apache.sling.testing.sling-mock.core-3.4.2-source-release.zip"
+"org.apache.sling.testing.sling-mock.core-3.4.4": [
+"sling/org.apache.sling.testing.sling-mock.core-3.4.4-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.junit4-3.4.2": [
-"sling/org.apache.sling.testing.sling-mock.junit4-3.4.2-source-release.zip"
+"org.apache.sling.testing.sling-mock.junit4-3.4.4": [
+"sling/org.apache.sling.testing.sling-mock.junit4-3.4.4-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.junit5-3.4.2": [
-"sling/org.apache.sling.testing.sling-mock.junit5-3.4.2-source-release.zip"
+"org.apache.sling.testing.sling-mock.junit5-3.4.4": [
+"sling/org.apache.sling.testing.sling-mock.junit5-3.4.4-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.parent-3.4.2": [
-"sling/org.apache.sling.testing.sling-mock.parent-3.4.2-source-release.zip"
+"org.apache.sling.testing.sling-mock.parent-3.4.4": [
+"sling/org.apache.sling.testing.sling-mock.parent-3.4.4-source-release.zip"
 ],
 "org.apache.sling.testing.tools-1.0.16": [
 "sling/org.apache.sling.testing.tools-1.0.16-source-release.zip"
@@ -11536,10 +11543,6 @@
 ],
 "solr-0.6.0.tgz.prov": [
 "solr/solr-operator/v0.6.0/helm-charts/solr-0.6.0.tgz.prov"
-],
-"solr-9.1.1": [
-"solr/solr/9.1.1/solr-9.1.1-src.tgz",
-"solr/solr/9.1.1/solr-9.1.1.tgz"
 ],
 "solr-9.2.0": [
 "solr/solr/9.2.0/solr-9.2.0-src.tgz",
