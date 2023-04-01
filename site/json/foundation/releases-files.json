@@ -160,9 +160,9 @@
 "airflow-chart-1.8.0": [
 "airflow/helm-chart/1.8.0/airflow-chart-1.8.0-source.tar.gz"
 ],
-"apache-airflow-2.5.2": [
-"airflow/2.5.2/apache-airflow-2.5.2-source.tar.gz",
-"airflow/2.5.2/apache-airflow-2.5.2.tar.gz"
+"apache-airflow-2.5.3": [
+"airflow/2.5.3/apache-airflow-2.5.3-source.tar.gz",
+"airflow/2.5.3/apache-airflow-2.5.3.tar.gz"
 ],
 "apache-airflow-client-2.1.0": [
 "airflow/clients/python/2.1.0/apache-airflow-client-2.1.0-source.tar.gz"
@@ -543,10 +543,10 @@
 "apr/apr-1.6.5.tar.bz2",
 "apr/apr-1.6.5.tar.gz"
 ],
-"apr-1.7.2": [
-"apr/apr-1.7.2-win32-src.zip",
-"apr/apr-1.7.2.tar.bz2",
-"apr/apr-1.7.2.tar.gz"
+"apr-1.7.3": [
+"apr/apr-1.7.3-win32-src.zip",
+"apr/apr-1.7.3.tar.bz2",
+"apr/apr-1.7.3.tar.gz"
 ],
 "apr-iconv-1.2.2": [
 "apr/apr-iconv-1.2.2-win32-src.zip",
@@ -3608,6 +3608,9 @@
 "flink-connector-jdbc-3.0.0": [
 "flink/flink-connector-jdbc-3.0.0/flink-connector-jdbc-3.0.0-src.tgz"
 ],
+"flink-connector-mongodb-1.0.0": [
+"flink/flink-connector-mongodb-1.0.0/flink-connector-mongodb-1.0.0-src.tgz"
+],
 "flink-connector-opensearch-1.0.0": [
 "flink/flink-connector-opensearch-1.0.0/flink-connector-opensearch-1.0.0-src.tgz"
 ],
@@ -3890,32 +3893,26 @@
 "apache-groovy-2.4.21": [
 "groovy/2.4.21/sources/apache-groovy-src-2.4.21.zip"
 ],
-"apache-groovy-2.5.21": [
-"groovy/2.5.21/sources/apache-groovy-src-2.5.21.zip"
-],
 "apache-groovy-2.5.22": [
 "groovy/2.5.22/sources/apache-groovy-src-2.5.22.zip"
 ],
-"apache-groovy-3.0.16": [
-"groovy/3.0.16/sources/apache-groovy-src-3.0.16.zip"
+"apache-groovy-3.0.17": [
+"groovy/3.0.17/sources/apache-groovy-src-3.0.17.zip"
 ],
-"apache-groovy-4.0.10": [
-"groovy/4.0.10/sources/apache-groovy-src-4.0.10.zip"
+"apache-groovy-4.0.11": [
+"groovy/4.0.11/sources/apache-groovy-src-4.0.11.zip"
 ],
 "apache-groovy-sdk-2.4.21": [
 "groovy/2.4.21/distribution/apache-groovy-sdk-2.4.21.zip"
 ],
-"apache-groovy-sdk-2.5.21": [
-"groovy/2.5.21/distribution/apache-groovy-sdk-2.5.21.zip"
-],
 "apache-groovy-sdk-2.5.22": [
 "groovy/2.5.22/distribution/apache-groovy-sdk-2.5.22.zip"
 ],
-"apache-groovy-sdk-3.0.16": [
-"groovy/3.0.16/distribution/apache-groovy-sdk-3.0.16.zip"
+"apache-groovy-sdk-3.0.17": [
+"groovy/3.0.17/distribution/apache-groovy-sdk-3.0.17.zip"
 ],
-"apache-groovy-sdk-4.0.10": [
-"groovy/4.0.10/distribution/apache-groovy-sdk-4.0.10.zip"
+"apache-groovy-sdk-4.0.11": [
+"groovy/4.0.11/distribution/apache-groovy-sdk-4.0.11.zip"
 ]
 },
 "guacamole": {
@@ -4158,6 +4155,9 @@
 "apache-hop-2.3.0": [
 "hop/2.3.0/apache-hop-2.3.0-src.tar.gz"
 ],
+"apache-hop-2.4.0": [
+"hop/2.4.0/apache-hop-2.4.0-src.tar.gz"
+],
 "apache-hop-client-2.0.0": [
 "hop/2.0.0/apache-hop-client-2.0.0.zip"
 ],
@@ -4169,6 +4169,9 @@
 ],
 "apache-hop-client-2.3.0": [
 "hop/2.3.0/apache-hop-client-2.3.0.zip"
+],
+"apache-hop-client-2.4.0": [
+"hop/2.4.0/apache-hop-client-2.4.0.zip"
 ],
 "hop-0.1.0": [
 "hop/2.1.0/hop-0.1.0.tgz"
@@ -5576,11 +5579,8 @@
 "maven-filtering-3.3.1": [
 "maven/shared/maven-filtering-3.3.1-source-release.zip"
 ],
-"maven-fluido-skin-1.11.2": [
-"maven/skins/maven-fluido-skin-1.11.2-source-release.zip"
-],
-"maven-fluido-skin-2.0.0-M3": [
-"maven/skins/maven-fluido-skin-2.0.0-M3-source-release.zip"
+"maven-fluido-skin-2.0.0-M5": [
+"maven/skins/maven-fluido-skin-2.0.0-M5-source-release.zip"
 ],
 "maven-gpg-plugin-3.0.1": [
 "maven/plugins/maven-gpg-plugin-3.0.1-source-release.zip"
@@ -5645,6 +5645,18 @@
 "maven-mvnd-0.9.0-darwin-aarch64": [
 "maven/mvnd/0.9.0/maven-mvnd-0.9.0-darwin-aarch64.tar.gz",
 "maven/mvnd/0.9.0/maven-mvnd-0.9.0-darwin-aarch64.zip"
+],
+"maven-mvnd-1.0-m6": [
+"maven/mvnd/1.0-m6/maven-mvnd-1.0-m6-src.tar.gz",
+"maven/mvnd/1.0-m6/maven-mvnd-1.0-m6-src.zip"
+],
+"maven-mvnd-1.0-m6-m39-darwin-aarch64": [
+"maven/mvnd/1.0-m6/maven-mvnd-1.0-m6-m39-darwin-aarch64.tar.gz",
+"maven/mvnd/1.0-m6/maven-mvnd-1.0-m6-m39-darwin-aarch64.zip"
+],
+"maven-mvnd-1.0-m6-m40-darwin-aarch64": [
+"maven/mvnd/1.0-m6/maven-mvnd-1.0-m6-m40-darwin-aarch64.tar.gz",
+"maven/mvnd/1.0-m6/maven-mvnd-1.0-m6-m40-darwin-aarch64.zip"
 ],
 "maven-mvnd-1.0.0-m1": [
 "maven/mvnd/1.0.0-m1/maven-mvnd-1.0.0-m1-src.tar.gz",
@@ -9979,6 +9991,9 @@
 "apache-qpid-protonj2-1.0.0-M12": [
 "qpid/protonj2/1.0.0-M12/apache-qpid-protonj2-1.0.0-M12-src.tar.gz"
 ],
+"apache-qpid-protonj2-1.0.0-M13": [
+"qpid/protonj2/1.0.0-M13/apache-qpid-protonj2-1.0.0-M13-src.tar.gz"
+],
 "qpid-dispatch-1.19.0": [
 "qpid/dispatch/1.19.0/qpid-dispatch-1.19.0.tar.gz"
 ],
@@ -10028,6 +10043,9 @@
 ],
 "apache-ranger-2.3.0": [
 "ranger/2.3.0/apache-ranger-2.3.0.tar.gz"
+],
+"apache-ranger-2.4.0": [
+"ranger/2.4.0/apache-ranger-2.4.0.tar.gz"
 ]
 },
 "ratis": {
@@ -10069,8 +10087,8 @@
 ]
 },
 "rocketmq": {
-"rocketmq-all-4.9.4": [
-"rocketmq/4.9.4/rocketmq-all-4.9.4-source-release.zip"
+"rocketmq-all-4.9.5": [
+"rocketmq/4.9.5/rocketmq-all-4.9.5-source-release.zip"
 ],
 "rocketmq-all-5.0.0": [
 "rocketmq/5.0.0/rocketmq-all-5.0.0-source-release.zip"
@@ -10274,6 +10292,9 @@
 ],
 "apache-shardingsphere-elasticjob-3.0.2-ui": [
 "shardingsphere/elasticjob-ui-3.0.2/apache-shardingsphere-elasticjob-3.0.2-ui-src.zip"
+],
+"apache-shardingsphere-elasticjob-3.0.3": [
+"shardingsphere/elasticjob-3.0.3/apache-shardingsphere-elasticjob-3.0.3-src.zip"
 ]
 },
 "shenyu": {
@@ -11123,14 +11144,14 @@
 "sling/org.apache.sling.launchpad.testing-war-11-source-release.zip",
 "sling/org.apache.sling.launchpad.testing-war-11-webapp.war"
 ],
-"org.apache.sling.models.api-1.4.2": [
-"sling/org.apache.sling.models.api-1.4.2-source-release.zip"
+"org.apache.sling.models.api-1.5.0": [
+"sling/org.apache.sling.models.api-1.5.0-source-release.zip"
 ],
 "org.apache.sling.models.caconfig-1.0.2": [
 "sling/org.apache.sling.models.caconfig-1.0.2-source-release.zip"
 ],
-"org.apache.sling.models.impl-1.5.4": [
-"sling/org.apache.sling.models.impl-1.5.4-source-release.zip"
+"org.apache.sling.models.impl-1.6.0": [
+"sling/org.apache.sling.models.impl-1.6.0-source-release.zip"
 ],
 "org.apache.sling.models.jacksonexporter-1.1.2": [
 "sling/org.apache.sling.models.jacksonexporter-1.1.2-source-release.zip"
@@ -11381,8 +11402,8 @@
 "org.apache.sling.tenant-1.1.6": [
 "sling/org.apache.sling.tenant-1.1.6-source-release.zip"
 ],
-"org.apache.sling.testing.caconfig-mock-plugin-1.4.0": [
-"sling/org.apache.sling.testing.caconfig-mock-plugin-1.4.0-source-release.zip"
+"org.apache.sling.testing.caconfig-mock-plugin-1.4.2": [
+"sling/org.apache.sling.testing.caconfig-mock-plugin-1.4.2-source-release.zip"
 ],
 "org.apache.sling.testing.clients-3.0.18": [
 "sling/org.apache.sling.testing.clients-3.0.18-source-release.zip"

@@ -57,7 +57,7 @@
 "airflow-1.8.0.tgz.prov": "2023-02-06",
 "airflow-chart-1.7.0": "2022-10-14",
 "airflow-chart-1.8.0": "2023-02-06",
-"apache-airflow-2.5.2": "2023-03-14",
+"apache-airflow-2.5.3": "2023-03-31",
 "apache-airflow-client-2.1.0": "2021-05-31",
 "apache-airflow-client-2.2.0": "2021-12-01",
 "apache-airflow-client-2.3.0": "2022-08-03",
@@ -185,7 +185,7 @@
 },
 "apr": {
 "apr-1.6.5": "2018-09-14",
-"apr-1.7.2": "2023-02-01",
+"apr-1.7.3": "2023-03-31",
 "apr-iconv-1.2.2": "2017-10-22",
 "apr-util-1.6.3": "2023-02-01"
 },
@@ -1149,6 +1149,7 @@
 "flink-connector-elasticsearch-3.0.0": "2022-11-03",
 "flink-connector-gcp-pubsub-3.0.0": "2023-01-20",
 "flink-connector-jdbc-3.0.0": "2022-12-14",
+"flink-connector-mongodb-1.0.0": "2023-03-16",
 "flink-connector-opensearch-1.0.0": "2022-12-16",
 "flink-connector-pulsar-3.0.0": "2022-12-15",
 "flink-connector-rabbitmq-3.0.0": "2022-12-13",
@@ -1250,15 +1251,13 @@
 },
 "groovy": {
 "apache-groovy-2.4.21": "2020-12-03",
-"apache-groovy-2.5.21": "2023-01-22",
 "apache-groovy-2.5.22": "2023-03-30",
-"apache-groovy-3.0.16": "2023-03-12",
-"apache-groovy-4.0.10": "2023-03-12",
+"apache-groovy-3.0.17": "2023-03-31",
+"apache-groovy-4.0.11": "2023-03-31",
 "apache-groovy-sdk-2.4.21": "2020-12-03",
-"apache-groovy-sdk-2.5.21": "2023-01-22",
 "apache-groovy-sdk-2.5.22": "2023-03-30",
-"apache-groovy-sdk-3.0.16": "2023-03-12",
-"apache-groovy-sdk-4.0.10": "2023-03-12"
+"apache-groovy-sdk-3.0.17": "2023-03-31",
+"apache-groovy-sdk-4.0.11": "2023-03-31"
 },
 "guacamole": {
 "guacamole-client-1.5.0": "2023-02-14",
@@ -1320,10 +1319,12 @@
 "apache-hop-2.1.0": "2022-10-14",
 "apache-hop-2.2.0": "2022-12-06",
 "apache-hop-2.3.0": "2023-02-01",
+"apache-hop-2.4.0": "2023-03-31",
 "apache-hop-client-2.0.0": "2022-06-02",
 "apache-hop-client-2.1.0": "2022-10-14",
 "apache-hop-client-2.2.0": "2022-12-06",
 "apache-hop-client-2.3.0": "2023-02-01",
+"apache-hop-client-2.4.0": "2023-03-31",
 "hop-0.1.0": "2022-10-14"
 },
 "httpcomponents": {
@@ -1810,8 +1811,7 @@
 "maven-ear-plugin-3.3.0": "2022-10-22",
 "maven-ejb-plugin-3.2.1": "2022-04-21",
 "maven-filtering-3.3.1": "2023-03-24",
-"maven-fluido-skin-1.11.2": "2023-01-19",
-"maven-fluido-skin-2.0.0-M3": "2023-02-15",
+"maven-fluido-skin-2.0.0-M5": "2023-03-31",
 "maven-gpg-plugin-3.0.1": "2021-05-08",
 "maven-help-plugin-3.4.0": "2023-03-18",
 "maven-indexer-7.0.1": "2023-02-27",
@@ -1832,6 +1832,9 @@
 "maven-mvnd-0.8.2-darwin-aarch64": "2022-10-10",
 "maven-mvnd-0.9.0": "2023-01-25",
 "maven-mvnd-0.9.0-darwin-aarch64": "2023-01-25",
+"maven-mvnd-1.0-m6": "2023-03-23",
+"maven-mvnd-1.0-m6-m39-darwin-aarch64": "2023-03-23",
+"maven-mvnd-1.0-m6-m40-darwin-aarch64": "2023-03-23",
 "maven-mvnd-1.0.0-m1": "2022-12-16",
 "maven-mvnd-1.0.0-m1-darwin-aarch64": "2022-12-16",
 "maven-mvnd-1.0.0-m4": "2023-01-28",
@@ -3267,6 +3270,7 @@
 "apache-qpid-protonj2-1.0.0-M10": "2022-10-26",
 "apache-qpid-protonj2-1.0.0-M11": "2022-11-08",
 "apache-qpid-protonj2-1.0.0-M12": "2023-01-10",
+"apache-qpid-protonj2-1.0.0-M13": "2023-03-27",
 "qpid-dispatch-1.19.0": "2022-03-17",
 "qpid-interop-test-0.3.0": "2021-11-05",
 "qpid-proton-0.38.0": "2022-11-07",
@@ -3284,7 +3288,8 @@
 "apache-ranger-2.0.0": "2019-08-07",
 "apache-ranger-2.1.0": "2020-09-03",
 "apache-ranger-2.2.0": "2021-11-01",
-"apache-ranger-2.3.0": "2022-07-06"
+"apache-ranger-2.3.0": "2022-07-06",
+"apache-ranger-2.4.0": "2023-03-31"
 },
 "ratis": {
 "apache-ratis-2.0.0": "2021-03-24",
@@ -3301,7 +3306,7 @@
 "ratis-thirdparty-1.0.4": "2023-03-17"
 },
 "rocketmq": {
-"rocketmq-all-4.9.4": "2022-06-24",
+"rocketmq-all-4.9.5": "2023-03-31",
 "rocketmq-all-5.0.0": "2022-09-22",
 "rocketmq-all-5.1.0": "2023-02-20",
 "rocketmq-client-cpp-2.1.0": "2020-03-26",
@@ -3379,7 +3384,8 @@
 "apache-shardingsphere-5.3.1": "2023-01-06",
 "apache-shardingsphere-5.3.2": "2023-03-26",
 "apache-shardingsphere-elasticjob-3.0.2": "2022-10-18",
-"apache-shardingsphere-elasticjob-3.0.2-ui": "2022-10-26"
+"apache-shardingsphere-elasticjob-3.0.2-ui": "2022-10-26",
+"apache-shardingsphere-elasticjob-3.0.3": "2023-03-21"
 },
 "shenyu": {
 "apache-shenyu-2.5.1": "2023-01-30",
@@ -3665,9 +3671,9 @@
 "org.apache.sling.launchpad.testing-12-model.slingosgifeature": "2022-03-14",
 "org.apache.sling.launchpad.testing-12-testing-oak_tar.slingosgifeature": "2022-03-14",
 "org.apache.sling.launchpad.testing-war-11": "2018-10-23",
-"org.apache.sling.models.api-1.4.2": "2022-05-03",
+"org.apache.sling.models.api-1.5.0": "2023-03-31",
 "org.apache.sling.models.caconfig-1.0.2": "2022-08-12",
-"org.apache.sling.models.impl-1.5.4": "2022-11-25",
+"org.apache.sling.models.impl-1.6.0": "2023-03-31",
 "org.apache.sling.models.jacksonexporter-1.1.2": "2021-12-18",
 "org.apache.sling.models.validation-impl-1.1.0": "2021-12-10",
 "org.apache.sling.nosql.couchbase-client-1.0.2": "2016-02-27",
@@ -3751,7 +3757,7 @@
 "org.apache.sling.starter.startup-1.0.6": "2018-05-22",
 "org.apache.sling.superimposing-0.2.0": "2014-10-03",
 "org.apache.sling.tenant-1.1.6": "2022-02-12",
-"org.apache.sling.testing.caconfig-mock-plugin-1.4.0": "2022-01-07",
+"org.apache.sling.testing.caconfig-mock-plugin-1.4.2": "2023-03-31",
 "org.apache.sling.testing.clients-3.0.18": "2022-12-08",
 "org.apache.sling.testing.email-1.0.0": "2017-06-20",
 "org.apache.sling.testing.hamcrest-1.0.2": "2017-01-07",
