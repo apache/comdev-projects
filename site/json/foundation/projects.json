@@ -9214,7 +9214,7 @@
 "bug-database": "http://httpd.apache.org/bug_report.html",
 "category": "network-server, http, httpd-module",
 "description": "\n      The Apache HTTP Server is an open-source HTTP server for modern\n      operating systems including UNIX, Microsoft Windows, Mac OS/X and Netware.\n      The goal of this project is to provide a secure, efficient and\n      extensible server that provides HTTP services observing the current\n      HTTP standards. Apache has been the most popular web server on the\n      Internet since April of 1996.\n    ",
-"doap": "http://svn.apache.org/repos/asf/httpd/site/trunk/content/doap.rdf",
+"doap": "https://raw.githubusercontent.com/apache/httpd-site/main/content/doap.rdf",
 "download-page": "http://httpd.apache.org/download.cgi",
 "homepage": "http://httpd.apache.org/",
 "implements": [
@@ -9256,9 +9256,9 @@
 "programming-language": "C",
 "release": [
 {
-"created": "2021-06-01",
+"created": "2023-03-07",
 "name": "Recommended current 2.4 release",
-"revision": "2.4.48"
+"revision": "2.4.56"
 }
 ],
 "repository": [
@@ -9270,7 +9270,7 @@
 "bug-database": "http://httpd.apache.org/bug_report.html",
 "category": "network-server, ftp, httpd-module",
 "description": "\n      mod_ftp is an FTP Protocol module to serve httpd content over the FTP\n      protocol (whereever the HTTP protocol could also be used). It provides\n      both RETR/REST retrieval and STOR/APPE upload, using the same user/permissions\n      model as httpd (so it shares the same security considerations as mod_dav\n      plus mod_dav_fs). \n    ",
-"doap": "http://svn.apache.org/repos/asf/httpd/site/trunk/content/mod_ftp/doap.rdf",
+"doap": "https://raw.githubusercontent.com/apache/httpd-site/main/content/mod_ftp/doap.rdf",
 "download-page": "http://httpd.apache.org/download.cgi",
 "homepage": "http://httpd.apache.org/mod_ftp/",
 "implements": [
@@ -9639,6 +9639,11 @@
 "pmc": "iotdb",
 "programming-language": "Java, Python, C++, Go",
 "release": [
+{
+"created": "2023-04-03",
+"name": "apache-iotdb-1.1.0",
+"revision": "1.1.0"
+},
 {
 "created": "2023-02-22",
 "name": "apache-iotdb-1.0.1",
