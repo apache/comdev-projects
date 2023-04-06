@@ -777,6 +777,9 @@
 "apache-arrow-datafusion-python-20.0.0": [
 "arrow/arrow-datafusion-python-20.0.0/apache-arrow-datafusion-python-20.0.0.tar.gz"
 ],
+"apache-arrow-datafusion-python-21.0.0": [
+"arrow/arrow-datafusion-python-21.0.0/apache-arrow-datafusion-python-21.0.0.tar.gz"
+],
 "apache-arrow-julia-2.5.0": [
 "arrow/arrow-julia-2.5.0/apache-arrow-julia-2.5.0.tar.gz"
 ],
@@ -2756,14 +2759,6 @@
 "directory/api/dist/2.0.2/apache-ldap-api-2.0.2-src.tar.gz",
 "directory/api/dist/2.0.2/apache-ldap-api-2.0.2-src.zip"
 ],
-"apache-ldap-api-2.1.0": [
-"directory/api/dist/2.1.0/apache-ldap-api-2.1.0-src.tar.gz",
-"directory/api/dist/2.1.0/apache-ldap-api-2.1.0-src.zip"
-],
-"apache-ldap-api-2.1.1": [
-"directory/api/dist/2.1.1/apache-ldap-api-2.1.1-src.tar.gz",
-"directory/api/dist/2.1.1/apache-ldap-api-2.1.1-src.zip"
-],
 "apache-ldap-api-2.1.2": [
 "directory/api/dist/2.1.2/apache-ldap-api-2.1.2-src.tar.gz",
 "directory/api/dist/2.1.2/apache-ldap-api-2.1.2-src.zip"
@@ -4425,6 +4420,11 @@
 "incubator/annotator/source/0.2.0/apache-annotator-0.2.0-incubating.tar.gz"
 ]
 },
+"incubator-baremaps": {
+"baremaps-0.7.1-incubating": [
+"incubator/baremaps/0.7.1/baremaps-0.7.1-incubating-src.tar.gz"
+]
+},
 "incubator-celeborn": {
 "apache-celeborn-0.2.0-incubating": [
 "incubator/celeborn/celeborn-0.2.0-incubating/apache-celeborn-0.2.0-incubating-source.tgz"
@@ -4712,10 +4712,6 @@
 "jackrabbit/2.20.9/jackrabbit-2.20.9-src.zip",
 "jackrabbit/2.20.9/jackrabbit-webapp-2.20.9.war"
 ],
-"jackrabbit-2.21.15": [
-"jackrabbit/2.21.15/jackrabbit-2.21.15-src.zip",
-"jackrabbit/2.21.15/jackrabbit-webapp-2.21.15.war"
-],
 "jackrabbit-2.21.16": [
 "jackrabbit/2.21.16/jackrabbit-2.21.16-src.zip",
 "jackrabbit/2.21.16/jackrabbit-webapp-2.21.16.war"
@@ -4734,9 +4730,6 @@
 ],
 "jackrabbit-jca-2.20.9": [
 "jackrabbit/2.20.9/jackrabbit-jca-2.20.9.rar"
-],
-"jackrabbit-jca-2.21.15": [
-"jackrabbit/2.21.15/jackrabbit-jca-2.21.15.rar"
 ],
 "jackrabbit-jca-2.21.16": [
 "jackrabbit/2.21.16/jackrabbit-jca-2.21.16.rar"
@@ -5459,8 +5452,8 @@
 "maven/maven-4/4.0.0-alpha-5/source/apache-maven-4.0.0-alpha-5-src.tar.gz",
 "maven/maven-4/4.0.0-alpha-5/source/apache-maven-4.0.0-alpha-5-src.zip"
 ],
-"apache-source-release-descriptor-1.0.6": [
-"maven/resources/apache-source-release-assembly-descriptor-1.0.6-source-release.zip"
+"apache-resource-bundles-1.5": [
+"maven/resources/apache-resource-bundles-1.5-source-release.zip"
 ],
 "doxia-2.0.0-M6": [
 "maven/doxia/doxia-2.0.0-M6-source-release.zip"
@@ -10883,8 +10876,8 @@
 "org.apache.sling.jcr.api-2.4.0": [
 "sling/org.apache.sling.jcr.api-2.4.0-source-release.zip"
 ],
-"org.apache.sling.jcr.base-3.1.12": [
-"sling/org.apache.sling.jcr.base-3.1.12-source-release.zip"
+"org.apache.sling.jcr.base-3.1.14": [
+"sling/org.apache.sling.jcr.base-3.1.14-source-release.zip"
 ],
 "org.apache.sling.jcr.classloader-3.2.4": [
 "sling/org.apache.sling.jcr.classloader-3.2.4-source-release.zip"
