@@ -1,6 +1,7 @@
 {
 "accumulo": {
 "accumulo-1.10.2": "2022-02-13",
+"accumulo-1.10.3": "2023-04-13",
 "accumulo-2.1.0": "2022-11-01",
 "accumulo2-maven-plugin-1.0.0": "2019-08-07"
 },
@@ -98,7 +99,7 @@
 "apache-airflow-providers-facebook-3.1.0": "2022-11-18",
 "apache-airflow-providers-ftp-3.3.1": "2023-02-11",
 "apache-airflow-providers-github-2.2.1": "2023-03-06",
-"apache-airflow-providers-google-8.12.0": "2023-04-06",
+"apache-airflow-providers-google-9.0.0": "2023-04-13",
 "apache-airflow-providers-grpc-3.1.0": "2022-11-18",
 "apache-airflow-providers-hashicorp-3.3.1": "2023-04-06",
 "apache-airflow-providers-http-4.3.0": "2023-04-06",
@@ -107,7 +108,7 @@
 "apache-airflow-providers-jdbc-3.3.0": "2022-11-29",
 "apache-airflow-providers-jenkins-3.2.1": "2023-04-06",
 "apache-airflow-providers-jira-3.1.0": "2022-10-01",
-"apache-airflow-providers-microsoft-azure-5.3.0": "2023-04-06",
+"apache-airflow-providers-microsoft-azure-5.3.1": "2023-04-13",
 "apache-airflow-providers-microsoft-mssql-3.3.2": "2023-01-05",
 "apache-airflow-providers-microsoft-psrp-2.2.0": "2023-01-17",
 "apache-airflow-providers-microsoft-winrm-3.1.1": "2023-01-05",
@@ -796,7 +797,7 @@
 "cordova-create-4.1.0": "2023-01-10",
 "cordova-electron-3.1.0": "2022-05-30",
 "cordova-eslint-config-5.0.0": "2023-01-18",
-"cordova-fetch-3.1.0": "2022-12-13",
+"cordova-fetch-4.0.0": "2023-04-13",
 "cordova-firefoxos-3.6.3": "2014-09-16",
 "cordova-ios-6.2.0": "2021-02-04",
 "cordova-js-6.1.0": "2021-07-14",
@@ -1251,7 +1252,9 @@
 },
 "guacamole": {
 "guacamole-client-1.5.0": "2023-02-14",
-"guacamole-server-1.5.0": "2023-02-14"
+"guacamole-client-1.5.1": "2023-04-10",
+"guacamole-server-1.5.0": "2023-02-14",
+"guacamole-server-1.5.1": "2023-04-10"
 },
 "hadoop": {
 "RELEASENOTES.md": "2022-05-31",
@@ -1902,6 +1905,7 @@
 "myfaces-core-2.2.15": "2022-06-16",
 "myfaces-core-2.3-next-M6": "2021-06-01",
 "myfaces-core-2.3-next-M7": "2022-06-06",
+"myfaces-core-2.3-next-M8": "2023-04-13",
 "myfaces-core-2.3.10": "2022-06-06",
 "myfaces-core-2.3.9": "2021-04-23",
 "myfaces-core-3.0.1": "2021-06-07",
@@ -2915,7 +2919,7 @@
 "pdfbox": {
 "jbig2-imageio-3.0.4": "2022-02-26",
 "pdfbox-1.8.17": "2022-09-12",
-"pdfbox-2.0.27": "2022-09-26",
+"pdfbox-2.0.28": "2023-04-10",
 "pdfbox-3.0.0-alpha3": "2022-05-02"
 },
 "perl": {
@@ -3252,6 +3256,7 @@
 "apache-qpid-protonj2-1.0.0-M11": "2022-11-08",
 "apache-qpid-protonj2-1.0.0-M12": "2023-01-10",
 "apache-qpid-protonj2-1.0.0-M13": "2023-03-27",
+"apache-qpid-protonj2-1.0.0-M14": "2023-04-10",
 "qpid-dispatch-1.19.0": "2022-03-17",
 "qpid-interop-test-0.3.0": "2021-11-05",
 "qpid-proton-0.38.0": "2022-11-07",
@@ -3817,12 +3822,15 @@
 "Mail-SpamAssassin-rules-4.0.0.r1905950": "2022-12-17"
 },
 "spark": {
-"SparkR_3.2.3": "2022-11-14",
+"SparkR_3.2.4": "2023-04-09",
 "SparkR_3.3.2": "2023-02-10",
-"pyspark-3.2.3": "2022-11-14",
+"SparkR_3.4.0": "2023-04-07",
+"pyspark-3.2.4": "2023-04-09",
 "pyspark-3.3.2": "2023-02-10",
-"spark-3.2.3": "2022-11-14",
-"spark-3.3.2": "2023-02-10"
+"pyspark-3.4.0": "2023-04-07",
+"spark-3.2.4": "2023-04-09",
+"spark-3.3.2": "2023-02-10",
+"spark-3.4.0": "2023-04-07"
 },
 "storm": {
 "apache-storm-1.2.4": "2021-10-01",
