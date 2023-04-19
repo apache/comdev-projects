@@ -1003,6 +1003,9 @@
 "bookkeeper-4.16.0": [
 "bookkeeper/bookkeeper-4.16.0/bookkeeper-4.16.0-src.tar.gz"
 ],
+"bookkeeper-4.16.1": [
+"bookkeeper/bookkeeper-4.16.1/bookkeeper-4.16.1-src.tar.gz"
+],
 "distributedlog-0.5.0": [
 "bookkeeper/distributedlog/0.5.0/distributedlog-0.5.0-src.tar.gz"
 ]
@@ -1146,8 +1149,8 @@
 "apache-camel-k-runtime-1.16.0": [
 "camel/camel-k-runtime/1.16.0/apache-camel-k-runtime-1.16.0-source-release.zip"
 ],
-"apache-camel-quarkus-2.13.2": [
-"camel/camel-quarkus/2.13.2/apache-camel-quarkus-2.13.2-src.zip"
+"apache-camel-quarkus-2.13.3": [
+"camel/camel-quarkus/2.13.3/apache-camel-quarkus-2.13.3-src.zip"
 ],
 "apache-camel-quarkus-2.16.0": [
 "camel/camel-quarkus/2.16.0/apache-camel-quarkus-2.16.0-src.zip"
@@ -3649,6 +3652,9 @@
 "fluo-1.2.0": [
 "fluo/fluo/1.2.0/fluo-1.2.0-source-release.tar.gz"
 ],
+"fluo-2.0.0": [
+"fluo/fluo/2.0.0/fluo-2.0.0-source-release.tar.gz"
+],
 "fluo-3": [
 "fluo/fluo-parent/3/fluo-parent-3-source-release.tar.gz"
 ],
@@ -5460,8 +5466,8 @@
 "doxia-converter-1.3": [
 "maven/doxia/doxia-converter-1.3-source-release.zip"
 ],
-"doxia-sitetools-2.0.0-M7": [
-"maven/doxia/doxia-sitetools-2.0.0-M7-source-release.zip"
+"doxia-sitetools-2.0.0-M8": [
+"maven/doxia/doxia-sitetools-2.0.0-M8-source-release.zip"
 ],
 "enforcer-3.3.0": [
 "maven/enforcer/enforcer-3.3.0-source-release.zip"
@@ -5553,8 +5559,8 @@
 "maven-indexer-7.0.1": [
 "maven/indexer/maven-indexer-7.0.1-source-release.zip"
 ],
-"maven-info-reports-plugin-3.4.2": [
-"maven/plugins/maven-project-info-reports-plugin-3.4.2-source-release.zip"
+"maven-info-reports-plugin-3.4.3": [
+"maven/plugins/maven-project-info-reports-plugin-3.4.3-source-release.zip"
 ],
 "maven-install-plugin-3.1.1": [
 "maven/plugins/maven-install-plugin-3.1.1-source-release.zip"
@@ -5634,11 +5640,11 @@
 "maven-reporting-api-4.0.0-M6": [
 "maven/reporting/maven-reporting-api-4.0.0-M6-source-release.zip"
 ],
-"maven-reporting-exec-2.0.0-M6": [
-"maven/reporting/maven-reporting-exec-2.0.0-M6-source-release.zip"
+"maven-reporting-exec-2.0.0-M7": [
+"maven/reporting/maven-reporting-exec-2.0.0-M7-source-release.zip"
 ],
-"maven-reporting-impl-4.0.0-M6": [
-"maven/reporting/maven-reporting-impl-4.0.0-M6-source-release.zip"
+"maven-reporting-impl-4.0.0-M7": [
+"maven/reporting/maven-reporting-impl-4.0.0-M7-source-release.zip"
 ],
 "maven-resolver-1.9.8": [
 "maven/resolver/maven-resolver-1.9.8-source-release.zip"
@@ -5670,8 +5676,8 @@
 "maven-shared-io-3.0.0": [
 "maven/shared/maven-shared-io-3.0.0-source-release.zip"
 ],
-"maven-shared-jar-1.2": [
-"maven/shared/maven-shared-jar-1.2-source-release.zip"
+"maven-shared-jar-3.0.0": [
+"maven/shared/maven-shared-jar-3.0.0-source-release.zip"
 ],
 "maven-shared-resources-5": [
 "maven/shared/maven-shared-resources-5-source-release.zip"
@@ -11965,19 +11971,6 @@
 "tomcat/tomcat-8/v8.5.87/src/apache-tomcat-8.5.87-src.tar.gz",
 "tomcat/tomcat-8/v8.5.87/src/apache-tomcat-8.5.87-src.zip"
 ],
-"apache-tomcat-9.0.72": [
-"tomcat/tomcat-9/v9.0.72/bin/embed/apache-tomcat-9.0.72-embed.tar.gz",
-"tomcat/tomcat-9/v9.0.72/bin/embed/apache-tomcat-9.0.72-embed.zip",
-"tomcat/tomcat-9/v9.0.72/bin/apache-tomcat-9.0.72-deployer.tar.gz",
-"tomcat/tomcat-9/v9.0.72/bin/apache-tomcat-9.0.72-deployer.zip",
-"tomcat/tomcat-9/v9.0.72/bin/apache-tomcat-9.0.72-fulldocs.tar.gz",
-"tomcat/tomcat-9/v9.0.72/bin/apache-tomcat-9.0.72-windows-x64.zip",
-"tomcat/tomcat-9/v9.0.72/bin/apache-tomcat-9.0.72.exe",
-"tomcat/tomcat-9/v9.0.72/bin/apache-tomcat-9.0.72.tar.gz",
-"tomcat/tomcat-9/v9.0.72/bin/apache-tomcat-9.0.72.zip",
-"tomcat/tomcat-9/v9.0.72/src/apache-tomcat-9.0.72-src.tar.gz",
-"tomcat/tomcat-9/v9.0.72/src/apache-tomcat-9.0.72-src.zip"
-],
 "apache-tomcat-9.0.73": [
 "tomcat/tomcat-9/v9.0.73/bin/embed/apache-tomcat-9.0.73-embed.tar.gz",
 "tomcat/tomcat-9/v9.0.73/bin/embed/apache-tomcat-9.0.73-embed.zip",
@@ -11990,6 +11983,19 @@
 "tomcat/tomcat-9/v9.0.73/bin/apache-tomcat-9.0.73.zip",
 "tomcat/tomcat-9/v9.0.73/src/apache-tomcat-9.0.73-src.tar.gz",
 "tomcat/tomcat-9/v9.0.73/src/apache-tomcat-9.0.73-src.zip"
+],
+"apache-tomcat-9.0.74": [
+"tomcat/tomcat-9/v9.0.74/bin/embed/apache-tomcat-9.0.74-embed.tar.gz",
+"tomcat/tomcat-9/v9.0.74/bin/embed/apache-tomcat-9.0.74-embed.zip",
+"tomcat/tomcat-9/v9.0.74/bin/apache-tomcat-9.0.74-deployer.tar.gz",
+"tomcat/tomcat-9/v9.0.74/bin/apache-tomcat-9.0.74-deployer.zip",
+"tomcat/tomcat-9/v9.0.74/bin/apache-tomcat-9.0.74-fulldocs.tar.gz",
+"tomcat/tomcat-9/v9.0.74/bin/apache-tomcat-9.0.74-windows-x64.zip",
+"tomcat/tomcat-9/v9.0.74/bin/apache-tomcat-9.0.74.exe",
+"tomcat/tomcat-9/v9.0.74/bin/apache-tomcat-9.0.74.tar.gz",
+"tomcat/tomcat-9/v9.0.74/bin/apache-tomcat-9.0.74.zip",
+"tomcat/tomcat-9/v9.0.74/src/apache-tomcat-9.0.74-src.tar.gz",
+"tomcat/tomcat-9/v9.0.74/src/apache-tomcat-9.0.74-src.zip"
 ],
 "jakartaee-migration-1.0.6": [
 "tomcat/jakartaee-migration/v1.0.6/source/jakartaee-migration-1.0.6-src.tar.gz",
@@ -12604,9 +12610,9 @@
 "wicket/8.14.0/apache-wicket-8.14.0.tar.gz",
 "wicket/8.14.0/apache-wicket-8.14.0.zip"
 ],
-"apache-wicket-9.12.0": [
-"wicket/9.12.0/apache-wicket-9.12.0.tar.gz",
-"wicket/9.12.0/apache-wicket-9.12.0.zip"
+"apache-wicket-9.13.0": [
+"wicket/9.13.0/apache-wicket-9.13.0.tar.gz",
+"wicket/9.13.0/apache-wicket-9.13.0.zip"
 ]
 },
 "ws": {
