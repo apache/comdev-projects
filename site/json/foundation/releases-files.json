@@ -195,8 +195,8 @@
 "apache-airflow-providers-amazon-7.4.1": [
 "airflow/providers/apache-airflow-providers-amazon-7.4.1.tar.gz"
 ],
-"apache-airflow-providers-apache-beam-4.3.0": [
-"airflow/providers/apache-airflow-providers-apache-beam-4.3.0.tar.gz"
+"apache-airflow-providers-apache-beam-5.0.0": [
+"airflow/providers/apache-airflow-providers-apache-beam-5.0.0.tar.gz"
 ],
 "apache-airflow-providers-apache-cassandra-3.1.1": [
 "airflow/providers/apache-airflow-providers-apache-cassandra-3.1.1.tar.gz"
@@ -218,6 +218,9 @@
 ],
 "apache-airflow-providers-apache-impala-1.0.0": [
 "airflow/providers/apache-airflow-providers-apache-impala-1.0.0.tar.gz"
+],
+"apache-airflow-providers-apache-kafka-1.0.0": [
+"airflow/providers/apache-airflow-providers-apache-kafka-1.0.0.tar.gz"
 ],
 "apache-airflow-providers-apache-kylin-3.1.0": [
 "airflow/providers/apache-airflow-providers-apache-kylin-3.1.0.tar.gz"
@@ -252,20 +255,20 @@
 "apache-airflow-providers-cloudant-3.1.0": [
 "airflow/providers/apache-airflow-providers-cloudant-3.1.0.tar.gz"
 ],
-"apache-airflow-providers-cncf-kubernetes-6.0.0": [
-"airflow/providers/apache-airflow-providers-cncf-kubernetes-6.0.0.tar.gz"
+"apache-airflow-providers-cncf-kubernetes-6.1.0": [
+"airflow/providers/apache-airflow-providers-cncf-kubernetes-6.1.0.tar.gz"
 ],
 "apache-airflow-providers-common-sql-1.4.0": [
 "airflow/providers/apache-airflow-providers-common-sql-1.4.0.tar.gz"
 ],
-"apache-airflow-providers-databricks-4.0.1": [
-"airflow/providers/apache-airflow-providers-databricks-4.0.1.tar.gz"
+"apache-airflow-providers-databricks-4.1.0": [
+"airflow/providers/apache-airflow-providers-databricks-4.1.0.tar.gz"
 ],
 "apache-airflow-providers-datadog-3.2.0": [
 "airflow/providers/apache-airflow-providers-datadog-3.2.0.tar.gz"
 ],
-"apache-airflow-providers-dbt-cloud-3.1.0": [
-"airflow/providers/apache-airflow-providers-dbt-cloud-3.1.0.tar.gz"
+"apache-airflow-providers-dbt-cloud-3.1.1": [
+"airflow/providers/apache-airflow-providers-dbt-cloud-3.1.1.tar.gz"
 ],
 "apache-airflow-providers-dingding-3.1.0": [
 "airflow/providers/apache-airflow-providers-dingding-3.1.0.tar.gz"
@@ -273,8 +276,8 @@
 "apache-airflow-providers-discord-3.1.0": [
 "airflow/providers/apache-airflow-providers-discord-3.1.0.tar.gz"
 ],
-"apache-airflow-providers-docker-3.5.1": [
-"airflow/providers/apache-airflow-providers-docker-3.5.1.tar.gz"
+"apache-airflow-providers-docker-3.6.0": [
+"airflow/providers/apache-airflow-providers-docker-3.6.0.tar.gz"
 ],
 "apache-airflow-providers-elasticsearch-4.4.0": [
 "airflow/providers/apache-airflow-providers-elasticsearch-4.4.0.tar.gz"
@@ -291,8 +294,8 @@
 "apache-airflow-providers-github-2.2.1": [
 "airflow/providers/apache-airflow-providers-github-2.2.1.tar.gz"
 ],
-"apache-airflow-providers-google-9.0.0": [
-"airflow/providers/apache-airflow-providers-google-9.0.0.tar.gz"
+"apache-airflow-providers-google-10.0.0": [
+"airflow/providers/apache-airflow-providers-google-10.0.0.tar.gz"
 ],
 "apache-airflow-providers-grpc-3.1.0": [
 "airflow/providers/apache-airflow-providers-grpc-3.1.0.tar.gz"
@@ -318,8 +321,8 @@
 "apache-airflow-providers-jira-3.1.0": [
 "airflow/providers/apache-airflow-providers-jira-3.1.0.tar.gz"
 ],
-"apache-airflow-providers-microsoft-azure-5.3.1": [
-"airflow/providers/apache-airflow-providers-microsoft-azure-5.3.1.tar.gz"
+"apache-airflow-providers-microsoft-azure-6.0.0": [
+"airflow/providers/apache-airflow-providers-microsoft-azure-6.0.0.tar.gz"
 ],
 "apache-airflow-providers-microsoft-mssql-3.3.2": [
 "airflow/providers/apache-airflow-providers-microsoft-mssql-3.3.2.tar.gz"
@@ -333,8 +336,8 @@
 "apache-airflow-providers-mongo-3.1.1": [
 "airflow/providers/apache-airflow-providers-mongo-3.1.1.tar.gz"
 ],
-"apache-airflow-providers-mysql-4.0.2": [
-"airflow/providers/apache-airflow-providers-mysql-4.0.2.tar.gz"
+"apache-airflow-providers-mysql-5.0.0": [
+"airflow/providers/apache-airflow-providers-mysql-5.0.0.tar.gz"
 ],
 "apache-airflow-providers-neo4j-3.2.1": [
 "airflow/providers/apache-airflow-providers-neo4j-3.2.1.tar.gz"
@@ -363,8 +366,8 @@
 "apache-airflow-providers-postgres-5.4.0": [
 "airflow/providers/apache-airflow-providers-postgres-5.4.0.tar.gz"
 ],
-"apache-airflow-providers-presto-4.2.2": [
-"airflow/providers/apache-airflow-providers-presto-4.2.2.tar.gz"
+"apache-airflow-providers-presto-5.0.0": [
+"airflow/providers/apache-airflow-providers-presto-5.0.0.tar.gz"
 ],
 "apache-airflow-providers-qubole-3.3.1": [
 "airflow/providers/apache-airflow-providers-qubole-3.3.1.tar.gz"
@@ -396,11 +399,11 @@
 "apache-airflow-providers-smtp-1.0.1": [
 "airflow/providers/apache-airflow-providers-smtp-1.0.1.tar.gz"
 ],
-"apache-airflow-providers-snowflake-4.0.4": [
-"airflow/providers/apache-airflow-providers-snowflake-4.0.4.tar.gz"
+"apache-airflow-providers-snowflake-4.0.5": [
+"airflow/providers/apache-airflow-providers-snowflake-4.0.5.tar.gz"
 ],
-"apache-airflow-providers-sqlite-3.3.1": [
-"airflow/providers/apache-airflow-providers-sqlite-3.3.1.tar.gz"
+"apache-airflow-providers-sqlite-3.3.2": [
+"airflow/providers/apache-airflow-providers-sqlite-3.3.2.tar.gz"
 ],
 "apache-airflow-providers-ssh-3.6.0": [
 "airflow/providers/apache-airflow-providers-ssh-3.6.0.tar.gz"
@@ -414,8 +417,8 @@
 "apache-airflow-providers-telegram-4.0.0": [
 "airflow/providers/apache-airflow-providers-telegram-4.0.0.tar.gz"
 ],
-"apache-airflow-providers-trino-4.3.2": [
-"airflow/providers/apache-airflow-providers-trino-4.3.2.tar.gz"
+"apache-airflow-providers-trino-5.0.0": [
+"airflow/providers/apache-airflow-providers-trino-5.0.0.tar.gz"
 ],
 "apache-airflow-providers-vertica-3.3.1": [
 "airflow/providers/apache-airflow-providers-vertica-3.3.1.tar.gz"
@@ -777,8 +780,8 @@
 "apache-arrow-ballista-0.11.0": [
 "arrow/arrow-ballista-0.11.0/apache-arrow-ballista-0.11.0.tar.gz"
 ],
-"apache-arrow-datafusion-22.0.0": [
-"arrow/arrow-datafusion-22.0.0/apache-arrow-datafusion-22.0.0.tar.gz"
+"apache-arrow-datafusion-23.0.0": [
+"arrow/arrow-datafusion-23.0.0/apache-arrow-datafusion-23.0.0.tar.gz"
 ],
 "apache-arrow-datafusion-python-22.0.0": [
 "arrow/arrow-datafusion-python-22.0.0/apache-arrow-datafusion-python-22.0.0.tar.gz"
@@ -3527,9 +3530,6 @@
 "flink-connector-aws-3.0.0": [
 "flink/flink-connector-aws-3.0.0/flink-connector-aws-3.0.0-src.tgz"
 ],
-"flink-connector-aws-4.0.0": [
-"flink/flink-connector-aws-4.0.0/flink-connector-aws-4.0.0-src.tgz"
-],
 "flink-connector-aws-4.1.0": [
 "flink/flink-connector-aws-4.1.0/flink-connector-aws-4.1.0-src.tgz"
 ],
@@ -3548,8 +3548,8 @@
 "flink-connector-kafka-3.0.0": [
 "flink/flink-connector-kafka-3.0.0/flink-connector-kafka-3.0.0-src.tgz"
 ],
-"flink-connector-mongodb-1.0.0": [
-"flink/flink-connector-mongodb-1.0.0/flink-connector-mongodb-1.0.0-src.tgz"
+"flink-connector-mongodb-1.0.1": [
+"flink/flink-connector-mongodb-1.0.1/flink-connector-mongodb-1.0.1-src.tgz"
 ],
 "flink-connector-opensearch-1.0.0": [
 "flink/flink-connector-opensearch-1.0.0/flink-connector-opensearch-1.0.0-src.tgz"
@@ -11790,41 +11790,41 @@
 },
 "solr": {
 "all.yaml": [
-"solr/solr-operator/v0.6.0/crds/all.yaml"
+"solr/solr-operator/v0.7.0/crds/all.yaml"
 ],
 "index.yaml": [
-"solr/solr-operator/v0.6.0/helm-charts/index.yaml"
+"solr/solr-operator/v0.7.0/helm-charts/index.yaml"
 ],
-"solr-0.6.0": [
-"solr/solr-operator/v0.6.0/helm-charts/solr-0.6.0.tgz"
+"solr-0.7.0": [
+"solr/solr-operator/v0.7.0/helm-charts/solr-0.7.0.tgz"
 ],
-"solr-0.6.0.tgz.prov": [
-"solr/solr-operator/v0.6.0/helm-charts/solr-0.6.0.tgz.prov"
+"solr-0.7.0.tgz.prov": [
+"solr/solr-operator/v0.7.0/helm-charts/solr-0.7.0.tgz.prov"
 ],
 "solr-9.2.0": [
 "solr/solr/9.2.0/solr-9.2.0-src.tgz",
 "solr/solr/9.2.0/solr-9.2.0.tgz"
 ],
-"solr-operator-0.6.0": [
-"solr/solr-operator/v0.6.0/helm-charts/solr-operator-0.6.0.tgz"
+"solr-operator-0.7.0": [
+"solr/solr-operator/v0.7.0/helm-charts/solr-operator-0.7.0.tgz"
 ],
-"solr-operator-0.6.0.tgz.prov": [
-"solr/solr-operator/v0.6.0/helm-charts/solr-operator-0.6.0.tgz.prov"
+"solr-operator-0.7.0.tgz.prov": [
+"solr/solr-operator/v0.7.0/helm-charts/solr-operator-0.7.0.tgz.prov"
 ],
-"solr-operator-v0.6.0": [
-"solr/solr-operator/v0.6.0/solr-operator-v0.6.0.tgz"
+"solr-operator-v0.7.0": [
+"solr/solr-operator/v0.7.0/solr-operator-v0.7.0.tgz"
 ],
 "solrbackups.yaml": [
-"solr/solr-operator/v0.6.0/crds/solrbackups.yaml"
+"solr/solr-operator/v0.7.0/crds/solrbackups.yaml"
 ],
 "solrclouds.yaml": [
-"solr/solr-operator/v0.6.0/crds/solrclouds.yaml"
+"solr/solr-operator/v0.7.0/crds/solrclouds.yaml"
 ],
 "solrprometheusexporters.yaml": [
-"solr/solr-operator/v0.6.0/crds/solrprometheusexporters.yaml"
+"solr/solr-operator/v0.7.0/crds/solrprometheusexporters.yaml"
 ],
 "zookeeperclusters.yaml": [
-"solr/solr-operator/v0.6.0/crds/zookeeperclusters.yaml"
+"solr/solr-operator/v0.7.0/crds/zookeeperclusters.yaml"
 ]
 },
 "spamassassin": {
