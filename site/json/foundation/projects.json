@@ -661,6 +661,111 @@
 ],
 "shortdesc": "Support for Mono and Microsoft .NET development using Ant"
 },
+"ant-ivy": {
+"bug-database": "https://issues.apache.org/jira/browse/IVY",
+"category": "build-management",
+"created": "2010-11-16",
+"description": "Apache Ivy is a very powerful dependency manager oriented toward Java dependency management, even though it could be used to manage dependencies of any kind.",
+"doap": "https://gitbox.apache.org/repos/asf?p=ant-ivy.git;a=blob_plain;f=doap_Ivy.rdf;hb=HEAD",
+"download-page": "http://ant.apache.org/ivy/download.cgi",
+"homepage": "http://ant.apache.org/ivy/",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://ant.apache.org/ivy/mailing-lists.html",
+"name": "Apache Ivy",
+"pmc": "ant",
+"programming-language": "Java",
+"release": [
+{
+"created": "2022-11-04",
+"name": "Apache Ivy 2.5.1",
+"revision": "2.5.1"
+},
+{
+"created": "2019-10-20",
+"name": "Apache Ivy 2.5.0",
+"revision": "2.5.0"
+},
+{
+"created": "2014-12-26",
+"name": "Apache Ivy 2.4.0",
+"revision": "2.4.0"
+},
+{
+"created": "2013-01-24",
+"name": "Apache Ivy 2.3.0",
+"revision": "2.3.0"
+},
+{
+"created": "2010-10-07",
+"name": "Apache Ivy 2.2.0",
+"revision": "2.2.0"
+},
+{
+"created": "2009-10-13",
+"name": "Apache Ivy 2.1.0",
+"revision": "2.1.0"
+},
+{
+"created": "2009-01-22",
+"name": "Apache Ivy 2.0.0",
+"revision": "2.0.0"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf/ant-ivy.git"
+],
+"shortdesc": "Apache Ivy is a very powerful dependency manager oriented toward Java dependency management, even though it could be used to manage dependencies of any kind."
+},
+"ant-ivyde": {
+"bug-database": "https://issues.apache.org/jira/browse/IVYDE",
+"category": "build-management",
+"created": "2010-11-16",
+"description": "IvyDE lets you manage your dependencies declared in an ivy.xml in your Java Eclipse projects. IvyDE will contribute to the classpath of your Java project, with the classpath container. It also bring an editor of ivy.xml files, with completion.",
+"doap": "https://gitbox.apache.org/repos/asf?p=ant-ivyde.git;a=blob_plain;f=doap_IvyDE.rdf;hb=HEAD",
+"download-page": "http://ant.apache.org/ivy/ivyde/download.cgi",
+"homepage": "http://ant.apache.org/ivyde/",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://ant.apache.org/ivy/ivyde/mailing-lists.html",
+"name": "Apache IvyDE",
+"pmc": "ant",
+"programming-language": "Java",
+"release": [
+{
+"created": "2013-11-22",
+"name": "Apache IvyDE",
+"revision": "2.2.0.final"
+},
+{
+"created": "2012-04-05",
+"name": "Apache IvyDE",
+"revision": "2.2.0.beta1"
+},
+{
+"created": "2010-08-18",
+"name": "Apache IvyDE",
+"revision": "2.1.0"
+},
+{
+"created": "2009-07-09",
+"name": "Apache IvyDE",
+"revision": "2.0.0-final"
+},
+{
+"created": "2008-12-08",
+"name": "Apache IvyDE",
+"revision": "2.0.0-beta1"
+},
+{
+"created": "2008-06-30",
+"name": "Apache IvyDE",
+"revision": "2.0.0-alpha1"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf/ant-ivyde.git"
+],
+"shortdesc": "Integrate Ivy in Eclipse with the IvyDE plugin."
+},
 "ant-props": {
 "bug-database": "http://issues.apache.org/bugzilla/buglist.cgi?product=Ant",
 "category": "build-management",
@@ -697,6 +802,147 @@
 ],
 "shortdesc": "Microsoft Visual Source Safe support for Apache Ant."
 },
+"any23": {
+"bug-database": "https://issues.apache.org/jira/browse/ANY23",
+"category": "content",
+"created": "2012-05-31",
+"description": "Apache Any23 is used in major Web of Data applications. It is written in Java and licensed under the Apache License v2.0. Apache Any23 can be used in various ways:\n* As a library in Java applications that consume structured data from the Web.\n* As a command-line tool for extracting and converting between the supported formats.\n* As online service API available at any23.org.",
+"doap": "https://gitbox.apache.org/repos/asf?p=any23-committers.git;a=blob_plain;f=doap_Any23.rdf;hb=HEAD",
+"download-page": "http://any23.apache.org//download.html",
+"homepage": "http://any23.apache.org",
+"implements": [
+{
+"body": "W3C",
+"id": "W3C RDF/XML",
+"title": "RDF/XML",
+"url": "https://www.w3.org/TR/rdf-syntax-grammar/"
+},
+{
+"body": "W3C",
+"id": "W3C Turtle",
+"title": "Turtle - Terse RDF Triple Language",
+"url": "http://www.w3.org/TeamSubmission/turtle/"
+},
+{
+"body": "W3C",
+"id": "W3C Notation 3",
+"title": "Notation 3",
+"url": "https://www.w3.org/TeamSubmission/n3/"
+},
+{
+"body": "W3C",
+"id": "W3C RDFa Primer",
+"title": "RDFa Primer",
+"url": "https://www.w3.org/TR/rdfa-primer/"
+},
+{
+"body": "W3C",
+"id": "W3C RDFa1.1 prefix mechanism",
+"title": "RDFa1.1 prefix mechanism",
+"url": "https://www.w3.org/TR/rdfa-core/#scoping-of-prefix-mappings"
+},
+{
+"body": "Microformats",
+"id": "Microformats",
+"title": "Microformats",
+"url": "http://microformats.org/"
+},
+{
+"body": "W3C",
+"id": "W3C HTML5 Microdata",
+"title": "HTML5 Microdata",
+"url": "https://html.spec.whatwg.org/multipage/microdata.html#microdata"
+},
+{
+"body": "IETF",
+"id": "IETF W3C",
+"title": "CSV",
+"url": "http://www.ietf.org/rfc/rfc4180.txt"
+}
+],
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://any23.apache.org/mail-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:dev@any23.apache.org",
+"name": "Apache Any23 Development Team"
+}
+],
+"name": "Apache Any23",
+"pmc": "any23",
+"programming-language": "Java",
+"release": [
+{
+"created": "2022-03-03",
+"name": "Apache Any23 2.7",
+"revision": "2.7"
+},
+{
+"created": "2022-01-07",
+"name": "Apache Any23 2.6",
+"revision": "2.6"
+},
+{
+"created": "2021-09-10",
+"name": "Apache Any23 2.5",
+"revision": "2.5"
+},
+{
+"created": "2020-10-06",
+"name": "Apache Any23 2.4",
+"revision": "2.4"
+},
+{
+"created": "2019-03-04",
+"name": "Apache Any23 2.3",
+"revision": "2.3"
+},
+{
+"created": "2018-03-01",
+"name": "Apache Any23 2.2",
+"revision": "2.2"
+},
+{
+"created": "2017-11-01",
+"name": "Apache Any23 2.1",
+"revision": "2.1"
+},
+{
+"created": "2017-02-26",
+"name": "Apache Any23 2.0",
+"revision": "2.0"
+},
+{
+"created": "2014-10-29",
+"name": "Apache Any23 1.1",
+"revision": "1.1"
+},
+{
+"created": "2014-05-16",
+"name": "Apache Any23 1.0",
+"revision": "1.0"
+},
+{
+"created": "2013-10-28",
+"name": "Apache Any23 0.9.0",
+"revision": "0.9.0"
+},
+{
+"created": "2013-05-01",
+"name": "Apache Any23 0.8.0",
+"revision": "0.8.0"
+},
+{
+"created": "2012-07-16",
+"name": "Apache Any23 0.7.0-incubating",
+"revision": "0.7.0-incubating"
+}
+],
+"repository": [
+"https://git-wip-us.apache.org/repos/asf/any23.git"
+],
+"shortdesc": "Anything To Triples (Any23) is a library, a web service and a command line tool that extracts structured data in RDF format from a variety of Web documents."
+},
 "apr-portable_runtime": {
 "bug-database": "https://issues.apache.org/bugzilla/",
 "category": "library",
@@ -730,6 +976,39 @@
 "https://svn.apache.org/repos/asf/apr/apr/trunk"
 ],
 "shortdesc": "\n    Cross-platform library easing many progamming tasks in C. \n    "
+},
+"archiva": {
+"bug-database": "https://issues.apache.org/jira/browse/MRM",
+"category": "build-management",
+"created": "2012-04-14",
+"description": "Archiva is the perfect companion for build tools such as Maven, Continuum, and ANT. Archiva offers several capabilities, amongst which remote repository proxying,\nsecurity access management, build artifact storage, delivery, browsing, indexing and usage reporting, extensible scanning functionality and many more!",
+"doap": "https://gitbox.apache.org/repos/asf?p=archiva.git;a=blob_plain;f=doap_Archiva.rdf;hb=HEAD",
+"download-page": "https://archiva.apache.org/download.html",
+"homepage": "https://archiva.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "https://archiva.apache.org/mailing-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:dev@archiva.apache.org",
+"name": "Apache Archiva PMC"
+}
+],
+"name": "Apache Archiva",
+"pmc": "archiva",
+"programming-language": "Java",
+"release": [
+{
+"created": "2021-12-19",
+"file-release": "https://archive.apache.org/dist/archiva/2.2.7/binaries/apache-archiva-2.2.7.war",
+"name": "Apache Archiva 2.2.7",
+"revision": "2.2.7"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf/archiva.git",
+"https://gitbox.apache.org/repos/asf/archiva-parent.git"
+],
+"shortdesc": "Apache Archiva software is an extensible repository management tool that helps taking care of your own personal or enterprise-wide build artifact repository."
 },
 "aries": {
 "bug-database": "http://issues.apache.org/jira/browse/ARIES",
@@ -1962,6 +2241,145 @@
 "sameAs": "http://rdfohloh.wikier.org/project/marmotta",
 "shortdesc": "An Open Platform for Linked Data"
 },
+"attic-metamodel": {
+"bug-database": "https://issues.apache.org/jira/browse/METAMODEL",
+"category": "database, big-data, library, retired",
+"created": "2014-11-27",
+"description": "With MetaModel you get a uniform connector and query API to many very different datastore types, including: Relational (JDBC) databases, CSV files, Excel spreadsheets, XML files, JSON files, Fixed width files, MongoDB, Apache CouchDB, Apache HBase, Apache Cassandra, ElasticSearch, OpenOffice.org databases, Salesforce.com, SugarCRM and even collections of plain old Java objects (POJOs).\n\nMetaModel isn't a data mapping framework. Instead we emphasize abstraction of metadata and ability to add data sources at runtime, making MetaModel great for generic data processing applications, less so for applications modeled around a particular domain.",
+"doap": "https://gitbox.apache.org/repos/asf?p=metamodel.git;f=doap_MetaModel.rdf;a=blob_plain;hb=HEAD",
+"download-page": "http://metamodel.apache.org/#download",
+"homepage": "http://metamodel.apache.org",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "http://metamodel.apache.org/#community",
+"maintainer": [
+{
+"mbox": "mailto:kaspersor@apache.org",
+"name": "Kasper Sørensen"
+}
+],
+"name": "Apache MetaModel",
+"pmc": "attic",
+"programming-language": "Java",
+"release": [
+{
+"created": "2014-12-14",
+"name": "MetaModel 4.3.1",
+"revision": "4.3.1"
+}
+],
+"repository": [
+"https://git-wip-us.apache.org/repos/asf/metamodel.git"
+],
+"shortdesc": "Providing a common interface for discovery, exploration of metadata and querying of different types of data sources."
+},
+"attic-mrunit": {
+"bug-database": "http://issues.apache.org/jira/browse/MRUNIT",
+"category": "library, retired",
+"chair": {
+"Person": {
+"name": "Brock Noland"
+}
+},
+"charter": "Apache MRUnit is a Java library that helps developers unit test Apache Hadoop map reduce jobs.",
+"created": "2009-01-01",
+"description": "The Apache MRUnit is a Java library that helps developers unit test Apache Hadoop map reduce jobs.",
+"doap": "https://gitbox.apache.org/repos/asf?p=mrunit.git;f=doap_mrunit.rdf;a=blob_plain;hb=HEAD",
+"download-page": "http://mrunit.apache.org/general/downloads.html",
+"homepage": "http://mrunit.apache.org",
+"license": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+"mailing-list": "http://mrunit.apache.org/mail-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:brock@apache.org",
+"name": "Brock Noland"
+},
+{
+"mbox": "mailto:cos@apache.org",
+"name": "Konstantin Boudnik"
+},
+{
+"mbox": "mailto:dbeech@apache.org",
+"name": "Dave Beech"
+},
+{
+"mbox": "mailto:dechouxb@apache.org",
+"name": "Bertrand Dechoux"
+},
+{
+"mbox": "mailto:esammer@apache.org",
+"name": "Eric Sammer"
+},
+{
+"mbox": "mailto:gwu@apache.org",
+"name": "Garrett Wu"
+},
+{
+"mbox": "mailto:jarcec@apache.org",
+"name": "Jarek Jarcec Cecho"
+},
+{
+"mbox": "mailto:jdonofrio@apache.org",
+"name": "Jim Donofrio"
+},
+{
+"mbox": "mailto:kimballa@apache.org",
+"name": "Aaron Kimball"
+},
+{
+"mbox": "mailto:kinley@apache.org",
+"name": "James Robert Kinley"
+},
+{
+"mbox": "mailto:mattmann@apache.org",
+"name": "Chris Mattmann"
+},
+{
+"mbox": "mailto:nigel@apache.org",
+"name": "Nigel Daley"
+},
+{
+"mbox": "mailto:phunt@apache.org",
+"name": "Patrick D. Hunt"
+}
+],
+"name": "Apache MRUnit",
+"pmc": "attic",
+"programming-language": "Java",
+"release": [
+{
+"name": "Latest stable release",
+"revision": "1.1.0"
+},
+{
+"name": "Apache MRUnit - 1.0.0",
+"revision": "1.0.0"
+},
+{
+"name": "Apache MRUnit - 0.9.0-incubating",
+"revision": "0.9.0-incubating"
+},
+{
+"name": "Apache MRUnit - 0.8.1-incubating",
+"revision": "0.8.1-incubating"
+},
+{
+"file-release": "http://repo.maven.apache.org/maven2/org/apache/mrunit/mrunit/0.8.0-incubating/mrunit-0.8.0-incubating.jar",
+"name": "Apache MRUnit - 0.8.0-incubating",
+"revision": "0.8.0-incubating"
+},
+{
+"file-release": "http://repo.maven.apache.org/maven2/org/apache/mrunit/mrunit/0.5.0-incubating/mrunit-0.5.0-incubating.jar",
+"name": "Apache MRUnit - 0.5.0-incubating",
+"revision": "0.5.0-incubating"
+}
+],
+"repository": [
+"git:http://git-wip-us.apache.org/repos/asf/mrunit.git",
+"git:https://git-wip-us.apache.org/repos/asf/mrunit.git"
+],
+"shortdesc": "Apache MRUnit is a Java library that helps developers unit test Apache Hadoop map reduce jobs.",
+"vendor": "The Apache Software Foundation"
+},
 "attic-ode": {
 "bug-database": "https://issues.apache.org/jira/browse/ODE",
 "category": "retired, xml, network-server",
@@ -2292,6 +2710,31 @@
 ],
 "shortdesc": "Regular Expression engine supporting various dialects"
 },
+"attic-polygene": {
+"bug-database": "https://issues.apache.org/jira/browse/POLYGENE",
+"category": "library, retired",
+"created": "2008-12-17",
+"description": "Apache Polygene is a community based effort exploring Composite Oriented Programming for domain centric application development. This includes evolved concepts from Aspect Oriented Programming, Dependency Injection and Domain Driven Design. Composite Oriented Programming allows developers to work with 'fragments', smaller than classes, and 'compose' fragments into larger 'composites' which acts like the regular objects. Polygene also tackles the enforcement of application composition, i.e. composites are declared in modules, modules are contained in layers and access between layers are controlled/enforced. Apache Polygene™ (Java Edition), first Apache Polygene sub-project, is an implementation of Composite Oriented Programming, using the standard Java platform, without the use of any pre-processors or new language elements. Everything you know from Java still applies and you can leverage both your experience and toolkits to become more productive with Composite Oriented Programming today.",
+"doap": "https://gitbox.apache.org/repos/asf?p=polygene-java.git;f=doap.rdf;a=blob_plain;hb=refs/heads/develop",
+"download-page": "https://polygene.apache.org/download.html",
+"homepage": "https://polygene.apache.org/",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "https://www.apache.org/foundation/mailinglists.html",
+"maintainer": [
+{
+"mbox": "mailto:niclas@apache.org",
+"name": "Niclas Hedhman"
+}
+],
+"name": "Apache Polygene",
+"pmc": "attic",
+"programming-language": "Java, C#, Scala, Groovy, JavaScript",
+"repository": [
+"http://svn.apache.org/repos/asf/polygene/",
+"https://git-wip-us.apache.org/repos/asf/polygene-java.git"
+],
+"shortdesc": "Apache Polygene is a community based effort exploring Composite Oriented Programming for domain centric application development."
+},
 "attic-predictionio": {
 "bug-database": "https://issues.apache.org/jira/browse/PIO",
 "category": "retired, big-data",
@@ -2498,6 +2941,62 @@
 "http://svn.apache.org/repos/asf/stanbol/trunk/"
 ],
 "shortdesc": "Software components for semantic content management"
+},
+"attic-stratos": {
+"bug-database": "https://issues.apache.org/jira/browse/stratos",
+"category": "cloud, retired",
+"created": "2014-06-09",
+"description": "Apache Stratos is a highly-extensible Platform-as-a-Service (PaaS) framework that helps run Apache Tomcat, PHP, and MySQL applications and can be extended to support many more environments on all major cloud infrastructures. For developers, Stratos provides a cloud-based environment for developing, testing, and running scalable applications. IT providers benefit from high utilization rates, automated resource management, and platform-wide insight including monitoring and billing.",
+"doap": "https://gitbox.apache.org/repos/asf?p=stratos.git;a=blob_plain;f=doap_Stratos.rdf;hb=HEAD",
+"download-page": "http://stratos.apache.org/releases/index.html",
+"homepage": "http://stratos.apache.org/",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "http://stratos.apache.org/community/mailing-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:lakmal@apache.org",
+"name": "Lakmal Warusawithana"
+}
+],
+"name": "Apache Stratos",
+"pmc": "attic",
+"programming-language": "Java",
+"release": [
+{
+"created": "2013-11-09",
+"name": "Apache Stratos 3.0.0-incubating",
+"revision": null
+},
+{
+"created": "2014-06-09",
+"name": "Apache Stratos 4.0.0",
+"revision": "4.0.0"
+},
+{
+"created": "2014-07-13",
+"name": "Apache Stgratos 4.1.1",
+"revision": "4.1.1"
+},
+{
+"created": "2014-09-02",
+"name": "Apache Stgratos 4.1.2",
+"revision": "4.1.2"
+},
+{
+"created": "2014-09-23",
+"name": "Apache Stgratos 4.1.3",
+"revision": "4.1.3"
+},
+{
+"created": "2014-10-22",
+"name": "Apache Stgratos 4.1.4",
+"revision": "4.1.4"
+}
+],
+"repository": [
+"https://git-wip-us.apache.org/repos/asf/stratos.git"
+],
+"shortdesc": "Apache Stratos is a highly-extensible Platform-as-a-Service (PaaS) framework that helps run Apache Tomcat, PHP, and MySQL applications and can be extended to support many more environments on all major cloud infrastructures. "
 },
 "attic-tajo": {
 "bug-database": "https://issues.apache.org/jira/browse/TAJO",
@@ -3200,6 +3699,109 @@
 ],
 "shortdesc": "A reliable replicated log service"
 },
+"brooklyn": {
+"bug-database": "https://issues.apache.org/jira/browse/BROOKLYN/",
+"category": "cloud",
+"created": "2016-02-23",
+"description": "Brooklyn is about deploying and managing applications: composing a full stack for an application;\n        deploying to cloud and non-cloud targets; using monitoring tools to collect key health/performance metrics;\n        responding to situations such as a failing node; and adding or removing capacity to match demand.",
+"doap": "https://gitbox.apache.org/repos/asf?p=brooklyn.git;a=blob_plain;f=doap_Brooklyn.rdf;hb=HEAD",
+"download-page": "http://brooklyn.apache.org/download/index.html",
+"homepage": "http://brooklyn.apache.org",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "http://brooklyn.apache.org/community/mailing-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:aledsage@apache.org",
+"name": "Aled Sage"
+},
+{
+"mbox": "mailto:andreaturli@apache.org",
+"name": "Andrea Turli"
+},
+{
+"mbox": "mailto:cipi@apache.org",
+"name": "Ciprian Ciubotariu"
+},
+{
+"mbox": "mailto:drigodwin@apache.org",
+"name": "Duncan Godwin"
+},
+{
+"mbox": "mailto:geomacy@apache.org",
+"name": "Geoff Macartney"
+},
+{
+"mbox": "mailto:grkvlt@apache.org",
+"name": "Andrew Kennedy"
+},
+{
+"mbox": "mailto:hadrian@apache.org",
+"name": "Hadrian Zbarcea"
+},
+{
+"mbox": "mailto:heneveld@apache.org",
+"name": "Alex Heneveld"
+},
+{
+"mbox": "mailto:jbonofre@apache.org",
+"name": "Jean-Baptiste Onofré"
+},
+{
+"mbox": "mailto:m4rkmckenna@apache.org",
+"name": "Mark McKenna"
+},
+{
+"mbox": "mailto:olamy@apache.org",
+"name": "Olivier Lamy"
+},
+{
+"mbox": "mailto:richard@apache.org",
+"name": "Richard Downer"
+},
+{
+"mbox": "mailto:sjcorbett@apache.org",
+"name": "Sam Corbett"
+},
+{
+"mbox": "mailto:svet@apache.org",
+"name": "Svetoslav Neykov"
+}
+],
+"name": "Apache Brooklyn",
+"pmc": "brooklyn",
+"programming-language": "Java",
+"release": [
+{
+"created": "2017-05-18",
+"name": "0.11.0",
+"revision": "0.11.0"
+},
+{
+"created": "2016-12-26",
+"name": "0.10.0",
+"revision": "0.10.0"
+},
+{
+"created": "2016-04-18",
+"name": "0.9.0",
+"revision": "0.9.0"
+},
+{
+"created": "2015-09-14",
+"name": "0.8.0-incubating",
+"revision": "0.8.0-incubating"
+},
+{
+"created": "2015-07-15",
+"name": "0.7.0-incubating",
+"revision": "0.7.0-incubating"
+}
+],
+"repository": [
+"https://git-wip-us.apache.org/repos/asf/brooklyn.git"
+],
+"shortdesc": "Apache Brooklyn is a framework for modeling, monitoring, and managing applications through autonomic blueprints."
+},
 "bval": {
 "bug-database": "http://issues.apache.org/jira/browse/BVAL",
 "category": "javaee, library",
@@ -3274,6 +3876,51 @@
 ],
 "shortdesc": "Bean Validation API Implementation"
 },
+"calcite": {
+"bug-database": "https://issues.apache.org/jira/browse/CALCITE",
+"category": "big-data, hadoop, sql, geospatial",
+"created": "2015-05-27",
+"description": "Calcite is a framework for writing data management\n      systems.  It converts queries, represented in relational algebra,\n      into an efficient executable form using pluggable query\n      transformation rules. There is an optional SQL parser and JDBC\n      driver. Calcite does not store data or have a preferred execution\n      engine. Data formats, execution algorithms, planning rules,\n      operator types, metadata, and cost model are added at runtime as\n      plugins.",
+"doap": "https://gitbox.apache.org/repos/asf?p=calcite.git;a=blob_plain;f=site/doap_calcite.rdf;hb=HEAD",
+"download-page": "https://calcite.apache.org/downloads",
+"homepage": "https://calcite.apache.org",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://calcite.apache.org/develop",
+"maintainer": [
+{
+"mbox": "mailto:jhyde@apache.org",
+"name": "Julian Hyde"
+}
+],
+"name": "Apache Calcite",
+"pmc": "calcite",
+"programming-language": "Java",
+"repository": [
+"https://gitbox.apache.org/repos/asf/calcite.git"
+],
+"shortdesc": "A dynamic data management framework."
+},
+"camel": {
+"bug-database": "https://issues.apache.org/jira/browse/CAMEL",
+"category": "integration, cloud, java, library",
+"created": "2008-12-17",
+"description": "Camel is an Open Source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data",
+"doap": "https://gitbox.apache.org/repos/asf?p=camel.git;a=blob_plain;f=doap.rdf;hb=HEAD",
+"download-page": "https://camel.apache.org/download.html",
+"homepage": "https://camel.apache.org/",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "https://camel.apache.org/mailing-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:acosentino@apache.org",
+"name": "Andrea Cosentino"
+}
+],
+"name": "Apache Camel",
+"pmc": "camel",
+"programming-language": "Java",
+"shortdesc": "Apache Camel is an integration framework"
+},
 "carbondata": {
 "bug-database": "https://issues.apache.org/jira/browse/CARBONDATA",
 "category": "big-data",
@@ -3288,6 +3935,30 @@
 "pmc": "carbondata",
 "programming-language": "Java, Scala",
 "shortdesc": "Apache CarbonData is an indexed columnar data format for fast analytics on big data platform, e.g. Apache Hadoop, Apache Spark, etc."
+},
+"cassandra": {
+"bug-database": "https://issues.apache.org/jira/browse/CASSANDRA",
+"category": "database",
+"created": "2012-04-10",
+"description": "Linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure make Apache Cassandra the perfect platform for mission-critical data. Cassandra's support for replicating across multiple datacenters is best-in-class.\n\nCassandra is in use at Netflix, Twitter, Urban Airship, Constant Contact, Reddit, Cisco, OpenX, Digg, CloudKick, Ooyala, and more companies that have large, active data sets.\n\nCassandra provides full Hadoop integration, including with Pig and Hive.",
+"doap": "https://gitbox.apache.org/repos/asf?p=cassandra-website.git;a=blob_plain;f=doap.rdf;hb=HEAD",
+"download-page": "http://cassandra.apache.org/download/",
+"homepage": "http://cassandra.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://cassandra.apache.org/",
+"maintainer": [
+{
+"mbox": "mailto:dev@cassandra.apache.org",
+"name": "Apache Cassandra PMC"
+}
+],
+"name": "Apache Cassandra",
+"pmc": "cassandra",
+"programming-language": "Java",
+"repository": [
+"http://git-wip-us.apache.org/repos/asf?p=cassandra.git"
+],
+"shortdesc": "The Apache Cassandra database is the right choice when you need scalability and high availability without compromising performance."
 },
 "causeway": {
 "bug-database": "https://issues.apache.org/jira/browse/CAUSEWAY",
@@ -3940,6 +4611,25 @@
 "https://github.com/apache/cayenne"
 ],
 "shortdesc": "User-friendly Java ORM with tools"
+},
+"celix": {
+"bug-database": "https://github.com/apache/celix/issues",
+"category": "network-server",
+"created": "2010-11-17",
+"description": "\n      Apache Celix is a framework for C, C++14 and C++17 to develop dynamic modular software applications using component\n      and in-process service-oriented programming.\n      Apache Celix is inspired by the OSGi specification adapted for C and C++.\n    ",
+"doap": "https://gitbox.apache.org/repos/asf?p=celix.git;a=blob_plain;f=doap/doap_Celix.rdf;hb=refs/heads/master",
+"download-page": "https://celix.apache.org/download.cgi",
+"homepage": "https://celix.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "https://celix.apache.org/support/mailing-list.html",
+"name": "Apache Celix",
+"pmc": "celix",
+"programming-language": "C, C++",
+"repository": [
+"https://gitbox.apache.org/repos/asf/celix.git",
+"https://gitbox.apache.org/repos/asf/celix-site.git"
+],
+"shortdesc": "Dynamic Service framework for C and C++ inspired by OSGi."
 },
 "cloudstack": {
 "bug-database": "https://issues.apache.org/jira/browse/CLOUDSTACK",
@@ -7126,6 +7816,68 @@
 ],
 "shortdesc": "Apache clinical Text Analysis and Knowledge Extraction System (cTAKES) is an open-source natural language processing system for information extraction from electronic medical record clinical free-text."
 },
+"curator": {
+"bug-database": "http://issues.apache.org/jira/browse/CURATOR",
+"category": "database",
+"created": "2011-02-06",
+"description": "Apache Curator is a Java/JVM client library for Apache ZooKeeper, a distributed coordination service. \n    It includes a highlevel API framework and utilities to make using Apache ZooKeeper much easier and more reliable. It also \n    includes recipes for common use cases and extensions such as service discovery and a Java 8 asynchronous DSL.",
+"doap": "https://gitbox.apache.org/repos/asf?p=curator.git;f=doap.rdf;a=blob_plain;hb=HEAD",
+"download-page": "http://www.apache.org/dyn/closer.cgi/curator/",
+"homepage": "http://curator.apache.org/",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://curator.apache.org/mailing-lists.html",
+"name": "Apache Curator",
+"pmc": "curator",
+"programming-language": "Java",
+"repository": [
+"https://gitbox.apache.org/repos/asf/curator.git"
+],
+"shortdesc": "A set of Java libraries that make using Apache ZooKeeper much easier."
+},
+"cxf": {
+"bug-database": "http://issues.apache.org/jira/browse/CXF",
+"category": "library, xml, network-client, network-server",
+"created": "2009-04-04",
+"description": "Apache CXF is an open source services framework. CXF helps you build and develop services using frontend programming APIs like JAX-WS and JAX-RS. These services can speak a variety of protocols such as SOAP, XML/HTTP, RESTful HTTP, or CORBA and work over a variety of transports such as HTTP, JMS or JBI.",
+"doap": "https://gitbox.apache.org/repos/asf?p=cxf.git;a=blob_plain;f=etc/cxf.rdf;hb=HEAD",
+"download-page": "http://cxf.apache.org/download.html",
+"homepage": "http://cxf.apache.org/",
+"implements": [
+{
+"body": "JCP",
+"id": "JSR 181",
+"title": "Web Services Metadata",
+"url": "http://www.jcp.org/en/jsr/detail?id=181"
+},
+{
+"body": "JCP",
+"id": "JSR 224",
+"title": "JAX-WS",
+"url": "http://www.jcp.org/en/jsr/detail?id=224"
+},
+{
+"body": "JCP",
+"id": "JSR 311",
+"title": "JAX-RS",
+"url": "http://www.jcp.org/en/jsr/detail?id=311"
+}
+],
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://cxf.apache.org/mailing-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:dkulp@apache.org",
+"name": "Daniel Kulp"
+}
+],
+"name": "Apache CXF",
+"pmc": "cxf",
+"programming-language": "Java",
+"repository": [
+"https://gitbox.apache.org/repos/asf/cxf.git"
+],
+"shortdesc": "Apache CXF: An Open Source Service Framework"
+},
 "daffodil": {
 "bug-database": "https://issues.apache.org/jira/browse/DAFFODIL",
 "category": "big-data, library, xml",
@@ -7426,6 +8178,29 @@
 ],
 "shortdesc": "Torque is an object-relational mapper for Java."
 },
+"deltaspike": {
+"bug-database": "https://issues.apache.org/jira/browse/DELTASPIKE",
+"category": "javaee",
+"created": "2014-04-11",
+"description": "Apache DeltaSpike is  a suite of portable CDI (Contexts & Dependency\nInjection) extensions intended to make application development easier when\nworking with CDI and Java EE.  Some of its key features include:\n\n- A core runtime that supports component configuration, type safe messaging\nand internationalization, and exception handling.\n- A suite of utilities to make programmatic bean lookup easier.\n- A plugin for Java SE to bootstrap both JBoss Weld and Apache OpenWebBeans\noutside of a container.\n- JSF integration, including backporting of JSF 2.2 features for Java EE 6.\n- JPA integration and transaction support.\n- A Data module, to create an easy to use repository pattern on top of JPA.\n- Quartz integration\n\nTesting support is also provided, to allow you to do low level unit testing\nof your CDI enabled projects.",
+"doap": "https://gitbox.apache.org/repos/asf?p=deltaspike.git;f=doap_DeltaSpike.rdf;a=blob_plain;hb=HEAD",
+"homepage": "http://deltaspike.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://deltaspike.apache.org/community.html#Mailinglists",
+"maintainer": [
+{
+"mbox": "mailto:struberg@apache.org",
+"name": "Mark Struberg"
+}
+],
+"name": "Apache DeltaSpike",
+"pmc": "deltaspike",
+"programming-language": "Java",
+"repository": [
+"https://git-wip-us.apache.org/repos/asf/deltaspike.git"
+],
+"shortdesc": "DeltaSpike is a collection of portable Extensions for CDI Containers"
+},
 "directory": {
 "bug-database": "http://issues.apache.org/jira/browse/DIR",
 "category": "network-server, network-client",
@@ -7602,6 +8377,37 @@
 ],
 "shortdesc": "The Eclipse based LDAP browser and directory client"
 },
+"drill": {
+"bug-database": "https://issues.apache.org/jira/browse/DRILL/",
+"category": "big-data",
+"created": "2015-01-04",
+"description": "Apache Drill is a distributed MPP query layer that supports SQL and alternative query languages against NoSQL and Hadoop data storage systems. It was inspired in part by Google's Dremel.",
+"doap": "https://gitbox.apache.org/repos/asf?p=drill-site.git;a=blob_plain;f=doap_Drill.rdf;hb=refs/heads/master",
+"download-page": "http://drill.apache.org/download/",
+"homepage": "http://drill.apache.org",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "http://drill.apache.org/community/#mailinglists",
+"maintainer": [
+{
+"mbox": "mailto:jacques@apache.org",
+"name": "Jacques Nadeau"
+}
+],
+"name": "Apache Drill",
+"pmc": "drill",
+"programming-language": "Java",
+"release": [
+{
+"created": "2014-12-23",
+"name": "0.7.0",
+"revision": "0.7.0"
+}
+],
+"repository": [
+"git://git.apache.org/drill.git"
+],
+"shortdesc": "A distributed SQL MPP for Hadoop and NoSQL"
+},
 "empire-db": {
 "bug-database": "https://issues.apache.org/jira/browse/EMPIREDB",
 "category": "database",
@@ -7629,6 +8435,37 @@
 }
 ],
 "shortdesc": "\n\tApache Empire-db is a relational database access library that provides an alternative \n\tapproach to Object-Relational-Mapping (ORM) as offered by JDO and JPA\n\t"
+},
+"felix": {
+"bug-database": "https://issues.apache.org/jira/browse/FELIX",
+"category": "network-server",
+"created": "2007-06-27",
+"doap": "https://gitbox.apache.org/repos/asf?p=felix-dev.git;a=blob_plain;f=doap/doap_Felix.rdf;hb=HEAD",
+"download-page": "http://felix.apache.org/downloads.cgi",
+"homepage": "http://felix.apache.org",
+"implements": [
+{
+"body": "OSGi Alliance",
+"id": "OSGi R6",
+"title": "OSGi R6 Specification",
+"url": "http://www.osgi.org"
+}
+],
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://felix.apache.org/mailinglists.html",
+"maintainer": [
+{
+"mbox": "mailto:dev@felix.apache.org",
+"name": "Felix PMC"
+}
+],
+"name": "Apache Felix",
+"pmc": "felix",
+"programming-language": "Java",
+"repository": [
+"https://svn.apache.org/repos/asf/felix"
+],
+"shortdesc": "OSGi framework implementation and related technologies."
 },
 "flex": {
 "bug-database": "https://issues.apache.org/jira/browse/FLEX",
@@ -7679,6 +8516,37 @@
 "https://gitbox.apache.org/repos/asf/flink.git"
 ],
 "shortdesc": "Fast and reliable large-scale data processing"
+},
+"flume": {
+"bug-database": "https://issues.apache.org/jira/browse/FLUME",
+"category": "big-data",
+"created": "2014-06-13",
+"description": "Apache Flume is a distributed, reliable, and available system for efficiently collecting, aggregating and moving large amounts of log data from many different sources to a centralized data store",
+"doap": "https://gitbox.apache.org/repos/asf?p=flume.git;a=blob_plain;f=doap_Flume.rdf;hb=b082429",
+"download-page": "http://flume.apache.org/download.html",
+"homepage": "http://flume.apache.org",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "http://flume.apache.org/mailinglists.html",
+"maintainer": [
+{
+"mbox": "mailto:dev@flume.apache.org",
+"name": "Apache Flume Developers"
+}
+],
+"name": "Apache Flume",
+"pmc": "flume",
+"programming-language": "Java",
+"release": [
+{
+"created": "2014-05-20",
+"name": "Apache Flume",
+"revision": "1.5.0"
+}
+],
+"repository": [
+"https://git-wip-us.apache.org/repos/asf?p=flume.git"
+],
+"shortdesc": "Apache Flume is a distributed, reliable, and available system for efficiently collecting, aggregating and moving large amounts of log data from many different sources to a centralized data store."
 },
 "fluo": {
 "bug-database": "https://github.com/apache/fluo/issues",
@@ -7935,6 +8803,30 @@
 "https://svn.apache.org/repos/asf/gora/trunk/"
 ],
 "shortdesc": "The Apache Gora open source framework provides an in-memory data model and persistence for big data. Gora supports persisting to column stores, key value stores, document stores and RDBMSs, and analyzing the data with extensive Apache Hadoop MapReduce support."
+},
+"groovy": {
+"bug-database": "https://issues.apache.org/jira/browse/GROOVY",
+"category": "library",
+"created": "2015-12-23",
+"description": "Apache Groovy is a powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform aimed at improving developer productivity thanks to a concise, familiar and easy to learn syntax. It integrates smoothly with any Java program, and immediately delivers to your application powerful features, including scripting capabilities, Domain-Specific Language authoring, runtime and compile-time meta-programming and functional programming.",
+"doap": "https://gitbox.apache.org/repos/asf?p=groovy.git;a=blob_plain;f=DOAP.rdf",
+"download-page": "http://groovy-lang.org/download.html",
+"homepage": "http://groovy.apache.org",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "http://groovy-lang.org/mailing-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:dev@groovy.apache.org",
+"name": "Groovy Team"
+}
+],
+"name": "Apache Groovy",
+"pmc": "groovy",
+"programming-language": "Java",
+"repository": [
+"https://gitbox.apache.org/repos/asf/groovy.git"
+],
+"shortdesc": "A multi-faceted language for the Java platform"
 },
 "guacamole": {
 "bug-database": "https://issues.apache.org/jira/browse/GUACAMOLE",
@@ -8463,6 +9355,69 @@
 ],
 "shortdesc": "\n      mod_ftp is an FTP protocol module hosted within Apache HTTP Server.\n    "
 },
+"hudi": {
+"bug-database": "https://issues.apache.org/jira/browse/HUDI",
+"category": "library",
+"created": "2019-12-31",
+"description": "Hudi (pronounced “Hoodie”) brings stream processing to big data, providing upserts, deletes and incremental data streams.",
+"doap": "https://gitbox.apache.org/repos/asf?p=hudi.git;a=blob_plain;f=doap_HUDI.rdf;hb=HEAD",
+"download-page": "https://hudi.apache.org/community.html",
+"homepage": "https://hudi.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "https://hudi.apache.org/community.html",
+"maintainer": [
+{
+"mbox": "mailto:dev@hudi.apache.org",
+"name": "Apache Hudi PMC"
+}
+],
+"name": "Apache Hudi",
+"pmc": "hudi",
+"programming-language": "Java, Scala",
+"release": [
+{
+"created": "2023-04-23",
+"name": "Apache Hudi 0.12.3",
+"revision": "0.12.3"
+}
+],
+"repository": [
+"https://github.com/apache/hudi.git"
+],
+"shortdesc": "Ingests and Manages storage of large analytical datasets"
+},
+"ignite": {
+"bug-database": "https://issues.apache.org/jira/browse/IGNITE",
+"category": "big-data, sql, cloud, database, distributed-sql-database, data-management-platform, hadoop, network-server, network-client, osgi, IoT",
+"created": "2014-10-01",
+"description": "Apache Ignite is a distributed database for high-performance computing with in-memory speed.",
+"doap": "https://gitbox.apache.org/repos/asf?p=ignite.git;a=blob_plain;f=doap_Ignite.rdf;hb=HEAD",
+"download-page": "https://ignite.apache.org/download",
+"homepage": "http://ignite.apache.org",
+"implements": [
+{
+"body": "JCP",
+"id": "107",
+"title": "JCACHE - Java Temporary Caching API",
+"url": "https://jcp.org/en/jsr/detail?id=107"
+}
+],
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://ignite.apache.org/community/resources.html#mail-lists",
+"maintainer": [
+{
+"mbox": "mailto:dmagda@apache.org",
+"name": "Denis Magda"
+}
+],
+"name": "Apache Ignite",
+"pmc": "ignite",
+"programming-language": "Java, C#, C++, SQL, JDBC, ODBC",
+"repository": [
+"https://gitbox.apache.org/repos/asf/ignite.git"
+],
+"shortdesc": "Apache Ignite is a distributed database for high-performance computing with in-memory speed."
+},
 "incubator-annotator": {
 "bug-database": "https://github.com/apache/incubator-annotator/issues",
 "category": "content",
@@ -8488,6 +9443,133 @@
 ],
 "shortdesc": "Apache Annotator provides annotation enabling code for browsers, servers, and humans."
 },
+"incubator-datafu": {
+"bug-database": "https://issues.apache.org/jira/browse/DATAFU",
+"category": "big-data",
+"created": "2014-08-04",
+"description": "Apache DataFu consists of two libraries:\n\nApache DataFu Pig is a collection of useful user-defined functions for data analysis in Apache Pig.\n\nApache DataFu Hourglass is a library for incrementally processing data using Apache Hadoop MapReduce. This library was inspired by the prevelance of sliding window computations over daily tracking data. Computations such as these typically happen at regular intervals (e.g. daily, weekly), and therefore the sliding nature of the computations means that much of the work is unnecessarily repeated. DataFu's Hourglass was created to make these computations more efficient, yielding sometimes 50-95% reductions in computational resources.",
+"doap": "https://gitbox.apache.org/repos/asf?p=datafu.git;a=blob_plain;f=doap_DataFu.rdf;hb=HEAD",
+"homepage": "http://datafu.incubator.apache.org/",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "http://datafu.incubator.apache.org/community/mailing-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:mhayes@apache.org",
+"name": "Matthew Hayes"
+}
+],
+"name": "Apache DataFu",
+"pmc": "incubator",
+"programming-language": "Java",
+"repository": [
+"https://git-wip-us.apache.org/repos/asf/incubator-datafu.git"
+],
+"shortdesc": "Apache DataFu is a collection of libraries for working with large-scale data in Hadoop. The project was inspired by the need for stable, well-tested libraries for data mining and statistics."
+},
+"incubator-freemarker": {
+"bug-database": "https://issues.apache.org/jira/browse/FREEMARKER",
+"category": "Java, html, templating, content",
+"created": "2015-09-02",
+"description": "\n          Apache FreeMarker is a template engine: a Java library to generate text output (HTML web pages, e-mails, configuration files, source code, etc.) based on templates and changing data.\n          Templates are written in the FreeMarker Template Language (FTL), which is a simple, specialized language (not a full-blown programming language).\n          Usually, a general-purpose programming language (like Java) is used to prepare the data (issue database queries, do business calculations). Then, Apache FreeMarker displays\n          that prepared data using templates. In the template you are focusing on how to present the data, and outside the template you are focusing on what data to present.\n    ",
+"developer": [
+{
+"mbox": "mailto:ddekany@apache.org",
+"name": "Dániel Dékány",
+"nick": "ddekany"
+},
+{
+"mbox": "mailto:nanlei@apache.org",
+"name": "Nan Lei",
+"nick": "nanlei"
+},
+{
+"mbox": "mailto:woonsan@apache.org",
+"name": "Woonsan Ko",
+"nick": "woonsan"
+},
+{
+"mbox": "mailto:jacopoc@apache.org",
+"name": "Jacopo Cappellato",
+"nick": "jacopoc"
+},
+{
+"mbox": "mailto:jonesde@apache.org",
+"name": "David E. Jones",
+"nick": "jonesde"
+},
+{
+"homepage": "https://www.wikier.org",
+"mbox": "mailto:wikier@apache.org",
+"name": "Sergio Fernández",
+"nick": "wikier",
+"sameAs": "http://www.wikier.org/foaf#wikier"
+},
+{
+"mbox": "mailto:jleroux@apache.org",
+"name": "Jacques Le Roux",
+"nick": "jleroux"
+}
+],
+"doap": "https://gitbox.apache.org/repos/asf?p=freemarker-site.git;a=blob_plain;f=doap.rdf;hb=HEAD",
+"download-page": "https://freemarker.apache.org/freemarkerdownload.html",
+"homepage": "https://freemarker.apache.org",
+"license": "https://www.apache.org/licenses/LICENSE-2.0",
+"mailing-list": "https://freemarker.apache.org/mailing-lists.html",
+"name": "Apache FreeMarker",
+"pmc": "incubator",
+"programming-language": "Java",
+"release": [
+{
+"created": "2023-01-14",
+"name": "Apache FreeMarker",
+"revision": "2.3.32"
+},
+{
+"created": "2021-02-16",
+"name": "Apache FreeMarker",
+"revision": "2.3.31"
+},
+{
+"created": "2020-03-05",
+"name": "Apache FreeMarker",
+"revision": "2.3.30"
+},
+{
+"created": "2019-08-17",
+"name": "Apache FreeMarker",
+"revision": "2.3.29"
+},
+{
+"created": "2018-04-04",
+"name": "Apache FreeMarker",
+"revision": "2.3.28"
+},
+{
+"created": "2017-11-03",
+"name": "Apache FreeMarker",
+"revision": "2.3.27-incubating"
+},
+{
+"created": "2017-03-25",
+"name": "Apache FreeMarker",
+"revision": "2.3.26-incubating"
+},
+{
+"created": "2016-06-26",
+"name": "Apache FreeMarker",
+"revision": "2.3.25-incubating"
+},
+{
+"created": "2016-03-28",
+"name": "Apache FreeMarker",
+"revision": "2.3.24-incubating"
+}
+],
+"repository": [
+"git://git.apache.org/incubator-freemarker.git"
+],
+"shortdesc": "FreeMarker is a template engine, i.e. a generic tool to generate text output based on templates. FreeMarker is implemented in Java as a class library for programmers."
+},
 "incubator-linkis": {
 "bug-database": "https://github.com/apache/linkis/issues",
 "category": "big-data",
@@ -8505,6 +9587,93 @@
 "https://github.com/apache/linkis"
 ],
 "shortdesc": "Apache Linkis builds a layer of computation middleware between upper applications and underlying engines."
+},
+"incubator-milagro": {
+"bug-database": "https://issues.apache.org/jira/browse/MILAGRO",
+"category": "cloud",
+"created": "2016-05-18",
+"description": "Milagro is crypto libraries and core security infrastructure for decentralized networks and distributed systems.",
+"doap": "https://gitbox.apache.org/repos/asf?p=incubator-milagro.git;a=blob_plain;f=doap_Milagro.rdf;hb=HEAD",
+"download-page": "http://milagro.incubator.apache.org/",
+"homepage": "http://milagro.incubator.apache.org/",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://lists.apache.org/list.html?dev@milagro.apache.org",
+"name": "Apache Milagro",
+"pmc": "incubator",
+"programming-language": "Python, Go, JavaScript, C",
+"shortdesc": "Core security infrastructure for decentralized networks."
+},
+"incubator-mxnet": {
+"bug-database": "https://github.com/apache/mxnet/labels/Bug",
+"category": "big-data",
+"created": "2020-09-15",
+"description": "Apache MXNet is a deep learning framework designed for both efficiency and flexibility. It's lightweight, Portable, Flexible Distributed/Mobile Deep Learning with dynamic, mutation-aware data-flow dependency scheduler; for Python, R, Julia, Scala, Go, Javascript and more",
+"doap": "https://gitbox.apache.org/repos/asf?p=mxnet.git;a=blob_plain;f=doap.rdf;hb=HEAD",
+"download-page": "https://mxnet.apache.org/get_started/download",
+"homepage": "https://mxnet.apache.org",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://lists.apache.org/list.html?dev@mxnet.apache.org",
+"maintainer": [
+{
+"mbox": "mailto:dev@mxnet.apache.org",
+"name": "ApacheMXNet Contributors"
+}
+],
+"name": "Apache MXNet",
+"pmc": "incubator",
+"programming-language": "C++",
+"release": [
+{
+"created": "2020-09-13",
+"name": "Apache MXNet (Incubating) 1.7.0",
+"revision": "1.7.0"
+}
+],
+"repository": [
+"https://github.com/apache/mxnet"
+],
+"shortdesc": "Apache MXNet is a deep learning framework designed for both efficiency and flexibility."
+},
+"iotdb": {
+"bug-database": "https://issues.apache.org/jira/projects/IOTDB",
+"category": "database, iot, java, python, c++, go",
+"created": "2020-07-11",
+"description": "Apache IoTDB (Database for Internet of Things) is an integrated data management engine designed for time series data. It provides users with services for data collection, storage and analysis. Due to its light-weight architecture, high performance and rich feature set together with its deep integration with Apache Hadoop, Spark and Flink. Apache IoTDB can meet the requirements of massive data storage, high-speed data ingestion and complex data analysis in the IoT industrial fields.",
+"doap": "https://gitbox.apache.org/repos/asf?p=iotdb.git;a=blob_plain;f=site/iotdb-doap.rdf;hb=HEAD",
+"download-page": "http://iotdb.apache.org/Download/",
+"homepage": "http://iotdb.apache.org",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://iotdb.apache.org/Development/ContributeGuide.html",
+"maintainer": [
+{
+"mbox": "mailto:dev@iotdb.apache.org",
+"name": "IoTDB PMC"
+}
+],
+"name": "Apache IoTDB",
+"pmc": "iotdb",
+"programming-language": "Java, Python, C++, Go",
+"release": [
+{
+"created": "2023-04-03",
+"name": "apache-iotdb-1.1.0",
+"revision": "1.1.0"
+},
+{
+"created": "2023-02-22",
+"name": "apache-iotdb-1.0.1",
+"revision": "1.0.1"
+},
+{
+"created": "2022-12-03",
+"name": "apache-iotdb-1.0.0",
+"revision": "1.0.0"
+}
+],
+"repository": [
+"https://github.com/apache/iotdb.git"
+],
+"shortdesc": "Apache IoTDB is an IoT native database with high performance for data management and analysis, on the edge and the cloud."
 },
 "jackrabbit": {
 "bug-database": "http://issues.apache.org/jira/browse/JCR",
@@ -8635,6 +9804,152 @@
 ],
 "shortdesc": "The Apache Java Enterprise Mail Server (a.k.a. Apache James) is a 100% pure Java SMTP and POP3 Mail server and NNTP News server. We have designed James to be a complete and portable enterprise mail engine solution based on currently available open protocols. "
 },
+"jclouds": {
+"bug-database": "https://issues.apache.org/jira/browse/JCLOUDS",
+"category": "cloud, library",
+"created": "2014-04-11",
+"description": "Apache jclouds is an open source multi-cloud toolkit for the Java platform that gives you the freedom to create applications that are portable across clouds while giving you full control to use cloud-specific features.",
+"doap": "https://gitbox.apache.org/repos/asf?p=jclouds-site.git;a=blob_plain;f=doap_jclouds.rdf;hb=HEAD",
+"download-page": "http://jclouds.apache.org/start/install/",
+"homepage": "http://jclouds.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://jclouds.apache.org/community/",
+"maintainer": [
+{
+"mbox": "mailto:private@jclouds.apache.org",
+"name": "Apache jclouds PMC"
+}
+],
+"name": "Apache jclouds",
+"pmc": "jclouds",
+"programming-language": "Java",
+"release": [
+{
+"created": "2022-03-26",
+"name": "Apache jclouds 2.5.0",
+"revision": "2.5.0"
+},
+{
+"created": "2021-09-10",
+"name": "Apache jclouds 2.4.0",
+"revision": "2.4.0"
+},
+{
+"created": "2021-03-06",
+"name": "Apache jclouds 2.3.0",
+"revision": "2.3.0"
+},
+{
+"created": "2020-05-14",
+"name": "Apache jclouds 2.2.1",
+"revision": "2.2.1"
+},
+{
+"created": "2019-10-21",
+"name": "Apache jclouds 2.2.0",
+"revision": "2.2.0"
+},
+{
+"created": "2019-10-21",
+"name": "Apache jclouds 2.1.3",
+"revision": "2.1.3"
+},
+{
+"created": "2018-02-07",
+"name": "Apache jclouds 2.1.2",
+"revision": "2.1.2"
+},
+{
+"created": "2018-08-16",
+"name": "Apache jclouds 2.1.1",
+"revision": "2.1.1"
+},
+{
+"created": "2018-02-21",
+"name": "Apache jclouds 2.1.0",
+"revision": "2.1.0"
+},
+{
+"created": "2017-11-30",
+"name": "Apache jclouds 2.0.3",
+"revision": "2.0.3"
+},
+{
+"created": "2017-07-06",
+"name": "Apache jclouds 2.0.2",
+"revision": "2.0.2"
+},
+{
+"created": "2017-02-27",
+"name": "Apache jclouds 2.0.1",
+"revision": "2.0.1"
+},
+{
+"created": "2016-11-15",
+"name": "Apache jclouds 2.0.0",
+"revision": "2.0.0"
+},
+{
+"created": "2016-11-23",
+"name": "Apache jclouds 1.9.3",
+"revision": "1.9.3"
+},
+{
+"created": "2016-01-16",
+"name": "Apache jclouds 1.9.2",
+"revision": "1.9.2"
+},
+{
+"created": "2015-08-06",
+"name": "Apache jclouds 1.9.1",
+"revision": "1.9.1"
+},
+{
+"created": "2015-03-29",
+"name": "Apache jclouds 1.9.0",
+"revision": "1.9.0"
+},
+{
+"created": "2014-10-25",
+"name": "Apache jclouds 1.8.1",
+"revision": "1.8.1"
+},
+{
+"created": "2014-08-05",
+"name": "Apache jclouds 1.8.0",
+"revision": "1.8.0"
+},
+{
+"created": "2014-05-30",
+"name": "Apache jclouds 1.7.3",
+"revision": "1.7.3"
+},
+{
+"created": "2014-04-15",
+"name": "Apache jclouds 1.7.2",
+"revision": "1.7.2"
+},
+{
+"created": "2014-02-11",
+"name": "Apache jclouds 1.7.1",
+"revision": "1.7.1"
+},
+{
+"created": "2013-12-23",
+"name": "Apache jclouds 1.7.0",
+"revision": "1.7.0"
+},
+{
+"created": "2013-11-30",
+"name": "Apache jclouds 1.6.3",
+"revision": "1.6.3"
+}
+],
+"repository": [
+"https://git-wip-us.apache.org/repos/asf/jclouds.git"
+],
+"shortdesc": "The Java Multi-Cloud Toolkit"
+},
 "jena": {
 "bug-database": "https://issues.apache.org/jira/browse/JENA",
 "category": "library",
@@ -8725,6 +10040,231 @@
 ],
 "shortdesc": "A framework for developing Semantic Web and Linked Data applications in Java."
 },
+"jmeter": {
+"bug-database": "https://bz.apache.org/bugzilla/",
+"category": "testing",
+"created": "2006-02-17",
+"description": "Apache JMeter may be used to test performance both on static and dynamic resources (files, Servlets, Perl scripts, Java Objects, Data Bases and Queries, FTP Servers and more). It can be used to simulate a heavy load on a server, network or object to test its strength or to analyze overall performance under different load types. You can use it to make a graphical analysis of performance or to test your server/script/object behavior under heavy concurrent load. ",
+"doap": "https://gitbox.apache.org/repos/asf?p=jmeter.git;a=blob_plain;f=doap_JMeter.rdf;hb=HEAD",
+"download-page": "http://jmeter.apache.org/download_jmeter.cgi",
+"homepage": "http://jmeter.apache.org/index.html",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "http://jmeter.apache.org/mail2.html",
+"name": "Apache JMeter",
+"pmc": "jmeter",
+"programming-language": "Java",
+"release": [
+{
+"created": "2003-08-07",
+"name": "Apache Jakarta JMeter",
+"revision": "1.9"
+},
+{
+"created": "2004-04-04",
+"name": "Apache Jakarta JMeter",
+"revision": "2.0.0"
+},
+{
+"created": "2004-05-24",
+"name": "Apache Jakarta JMeter",
+"revision": "2.0.1"
+},
+{
+"created": "2004-11-19",
+"name": "Apache Jakarta JMeter",
+"revision": "2.0.2"
+},
+{
+"created": "2005-03-23",
+"name": "Apache Jakarta JMeter",
+"revision": "2.0.3"
+},
+{
+"created": "2005-08-24",
+"name": "Apache Jakarta JMeter",
+"revision": "2.1"
+},
+{
+"created": "2005-10-04",
+"name": "Apache Jakarta JMeter",
+"revision": "2.1.1"
+},
+{
+"created": "2006-06-14",
+"name": "Apache Jakarta JMeter",
+"revision": "2.2"
+},
+{
+"created": "2007-09-04",
+"name": "Apache Jakarta JMeter",
+"revision": "2.3RC4"
+},
+{
+"created": "2007-09-29",
+"name": "Apache Jakarta JMeter",
+"revision": "2.3 final"
+},
+{
+"created": "2007-11-30",
+"name": "Apache Jakarta JMeter",
+"revision": "2.3.1 final"
+},
+{
+"created": "2008-06-14",
+"name": "Apache Jakarta JMeter",
+"revision": "2.3.2 final"
+},
+{
+"created": "2009-05-24",
+"name": "Apache Jakarta JMeter",
+"revision": "2.3.3 final"
+},
+{
+"created": "2009-06-21",
+"name": "Apache Jakarta JMeter",
+"revision": "2.3.4 final"
+},
+{
+"created": "2010-07-12",
+"name": "Apache Jakarta JMeter",
+"revision": "2.4 final"
+},
+{
+"created": "2011-08-17",
+"name": "Apache Jakarta JMeter",
+"revision": "2.5 final"
+},
+{
+"created": "2011-10-03",
+"name": "Apache Jakarta JMeter",
+"revision": "2.5.1 final"
+},
+{
+"created": "2012-02-01",
+"name": "Apache JMeter",
+"revision": "2.6 final"
+},
+{
+"created": "2012-05-27",
+"name": "Apache JMeter",
+"revision": "2.7 final"
+},
+{
+"created": "2012-10-06",
+"name": "Apache JMeter",
+"revision": "2.8 final"
+},
+{
+"created": "2013-01-28",
+"name": "Apache JMeter",
+"revision": "2.9 final"
+},
+{
+"created": "2013-10-21",
+"name": "Apache JMeter",
+"revision": "2.10 final"
+},
+{
+"created": "2014-01-05",
+"name": "Apache JMeter",
+"revision": "2.11 final"
+},
+{
+"created": "2014-11-10",
+"name": "Apache JMeter",
+"revision": "2.12 final"
+},
+{
+"created": "2015-03-14",
+"name": "Apache JMeter",
+"revision": "2.13 final"
+},
+{
+"created": "2016-05-17",
+"name": "Apache JMeter",
+"revision": "3.0 final"
+},
+{
+"created": "2016-11-19",
+"name": "Apache JMeter",
+"revision": "3.1 final"
+},
+{
+"created": "2017-04-13",
+"name": "Apache JMeter",
+"revision": "3.2 final"
+},
+{
+"created": "2017-09-21",
+"name": "Apache JMeter",
+"revision": "3.3 final"
+},
+{
+"created": "2018-02-10",
+"name": "Apache JMeter",
+"revision": "4.0 final"
+},
+{
+"created": "2018-09-18",
+"name": "Apache JMeter",
+"revision": "5.0 final"
+},
+{
+"created": "2019-02-18",
+"name": "Apache JMeter",
+"revision": "5.1 final"
+},
+{
+"created": "2019-03-13",
+"name": "Apache JMeter",
+"revision": "5.1.1 final"
+},
+{
+"created": "2019-11-03",
+"name": "Apache JMeter",
+"revision": "5.2 final"
+},
+{
+"created": "2019-11-24",
+"name": "Apache JMeter",
+"revision": "5.2.1 final"
+},
+{
+"created": "2020-05-15",
+"name": "Apache JMeter",
+"revision": "5.3 final"
+},
+{
+"created": "2020-12-03",
+"name": "Apache JMeter",
+"revision": "5.4 final"
+},
+{
+"created": "2021-01-20",
+"name": "Apache JMeter",
+"revision": "5.4.1 final"
+},
+{
+"created": "2021-12-16",
+"name": "Apache JMeter",
+"revision": "5.4.2 final"
+},
+{
+"created": "2021-12-24",
+"name": "Apache JMeter",
+"revision": "5.4.3 final"
+},
+{
+"created": "2022-06-14",
+"name": "Apache JMeter",
+"revision": "5.5 final"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf/jmeter.git"
+],
+"shortdesc": "Pure Java application for load and functional testing"
+},
 "jspwiki": {
 "category": "content",
 "description": "\n        Apache JSPWiki is a feature-rich and extensible WikiWiki engine built around the standard JEE \n        components (Java, servlets, JSP). It features:\n        - WikiMarkup/Structured Text\n        - File attachments \n        - Templates support\n        - Data storage through 2 WikiPage Providers, with the capability to plug new ones\n        - Security: Authorization and authentication fine grain control\n        - Easy plugin and page filter interfaces\n        - UTF-8 support\n        - JSP-based\n        - Easy-ish installation\n        - Page locking to prevent editing conflicts\n        - Support for Multiple Wikis\n        - Custom User Preferences\n    ",
@@ -8741,6 +10281,30 @@
 ],
 "shortdesc": "A feature-rich and extensible WikiWiki engine built around the standard \n        JEE components (Java, servlets, JSP).",
 "shortname": "jspwiki"
+},
+"kafka": {
+"bug-database": "https://issues.apache.org/jira/browse/KAFKA",
+"category": "big-data",
+"created": "2014-04-12",
+"description": "A single Kafka broker can handle hundreds of megabytes of reads and writes per second from thousands of clients. Kafka is designed to allow a single cluster to serve as the central data backbone for a large organization. It can be elastically and transparently expanded without downtime. Data streams are partitioned and spread over a cluster of machines to allow data streams larger than the capability of any single machine and to allow clusters of co-ordinated consumers. Kafka has a modern cluster-centric design that offers strong durability and fault-tolerance guarantees. Messages are persisted on disk and replicated within the cluster to prevent data loss. Each broker can handle terabytes of messages without performance impact.",
+"doap": "https://gitbox.apache.org/repos/asf?p=kafka.git;a=blob_plain;f=doap_Kafka.rdf;hb=HEAD",
+"download-page": "https://kafka.apache.org/downloads.html",
+"homepage": "https://kafka.apache.org/",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "https://kafka.apache.org/contact.html",
+"maintainer": [
+{
+"mbox": "mailto:junrao@apache.org",
+"name": "Jun Rao"
+}
+],
+"name": "Apache Kafka",
+"pmc": "kafka",
+"programming-language": "Scala",
+"repository": [
+"https://gitbox.apache.org/repos/asf/kafka.git"
+],
+"shortdesc": "Apache Kafka is a distributed, fault tolerant, publish-subscribe messaging."
 },
 "karaf": {
 "bug-database": "https://issues.apache.org/jira/browse/KARAF",
@@ -8792,6 +10356,122 @@
 ],
 "shortdesc": "Apache Kibble is a suite of tools for collecting, aggregating and visualizing activity in software projects. "
 },
+"knox": {
+"bug-database": "https://issues.apache.org/jira/browse/KNOX",
+"category": "big-data",
+"created": "2014-06-12",
+"description": "The Apache Knox Gateway is a REST API Gateway for interacting with Hadoop clusters.\n\nThe Knox Gateway provides a single access point for all REST interactions with Hadoop clusters.\n\nIn this capacity, the Knox Gateway is able to provide valuable functionality to aid in the control,\nintegration, monitoring and automation of critical administrative and analytical needs of the enterprise.\n\nAuthentication (LDAP and Active Directory Authentication Provider)\nFederation/SSO (HTTP Header Based Identity Federation)\nAuthorization (Service Level Authorization)\nAuditing\nWhile there are a number of benefits for unsecured Hadoop clusters,\nthe Knox Gateway also complements the kerberos secured cluster quite nicely.\n\nCoupled with proper network isolation of a Kerberos secured Hadoop cluster,\nthe Knox Gateway provides the enterprise with a solution that:\n\nIntegrates well with enterprise identity management solutions\nProtects the details of the Hadoop cluster deployment (hosts and ports are hidden from endusers)\nSimplifies the number of services that clients need to interact with",
+"doap": "https://gitbox.apache.org/repos/asf?p=knox.git;a=blob_plain;f=doap_Knox.rdf",
+"download-page": "https://cwiki.apache.org/confluence/display/KNOX/Release+1.2.0",
+"homepage": "https://knox.apache.org",
+"license": "https://www.apache.org/licenses/LICENSE-2.0",
+"mailing-list": "https://knox.apache.org/mail-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:dev@knox.apache.org",
+"name": "Apache Knox Team"
+}
+],
+"name": "Apache Knox",
+"pmc": "knox",
+"programming-language": "Java",
+"release": [
+{
+"created": "2018/12/18",
+"name": "Apache Knox Gateway 1.2.0",
+"revision": "1.2.0"
+},
+{
+"created": "2018/07/30",
+"name": "Apache Knox Gateway 1.1.0",
+"revision": "1.1.0"
+},
+{
+"created": "2018/02/07",
+"name": "Apache Knox Gateway 1.0.0",
+"revision": "1.0.0"
+},
+{
+"created": "2017/12/14",
+"name": "Apache Knox Gateway 0.14.0",
+"revision": "0.14.0"
+},
+{
+"created": "2017/08/19",
+"name": "Apache Knox Gateway 0.13.0",
+"revision": "0.13.0"
+},
+{
+"created": "2017/03/20",
+"name": "Apache Knox Gateway 0.12.0",
+"revision": "0.12.0"
+},
+{
+"created": "2016/12/28",
+"name": "Apache Knox Gateway 0.11.0",
+"revision": "0.11.0"
+},
+{
+"created": "2016/11/07",
+"name": "Apache Knox Gateway 0.10.0",
+"revision": "0.10.0"
+},
+{
+"created": "2016/08/04",
+"name": "Apache Knox Gateway 0.9.1",
+"revision": "0.9.1"
+},
+{
+"created": "2016/04/24",
+"name": "Apache Knox Gateway 0.9.0",
+"revision": "0.9.0"
+},
+{
+"created": "2016/02/04",
+"name": "Apache Knox Gateway 0.8.0",
+"revision": "0.8.0"
+},
+{
+"created": "2015/12/23",
+"name": "Apache Knox Gateway 0.7.0",
+"revision": "0.7.0"
+},
+{
+"created": "2015/04/30",
+"name": "Apache Knox Gateway 0.6.0",
+"revision": "0.6.0"
+},
+{
+"created": "2014/11/06",
+"name": "Apache Knox Gateway 0.5.0",
+"revision": "0.5.0"
+},
+{
+"created": "2014/04/15",
+"name": "Apache Knox Gateway 0.4.0",
+"revision": "0.4.0"
+},
+{
+"created": "2013/10/22",
+"name": "Apache Knox Gateway 0.3.0",
+"revision": "0.3.0"
+},
+{
+"created": "2013/04/23",
+"name": "Apache Knox Gateway 0.2.0",
+"revision": "0.2.0"
+},
+{
+"created": "2012/12/30",
+"name": "Apache Knox Gateway 0.1.0",
+"revision": "0.1.0"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf/knox.git"
+],
+"shortdesc": "A REST API Gateway for Hadoop Services"
+},
 "kudu": {
 "bug-database": "https://issues.apache.org/jira/projects/KUDU/issues",
 "category": "big-data",
@@ -8810,6 +10490,387 @@
 ],
 "shortdesc": "Columnar storage manager"
 },
+"libcloud": {
+"bug-database": "https://issues.apache.org/jira/browse/LIBCLOUD",
+"category": "cloud, library",
+"created": "2011-05-29",
+"description": "Apache Libcloud is a standard Python library that abstracts away differences among multiple cloud provider APIs. It allows users to manage cloud servers, cloud storage and load-balancers.",
+"doap": "https://gitbox.apache.org/repos/asf?p=libcloud.git;a=blob_plain;f=doap_libcloud.rdf;hb=HEAD",
+"download-page": "http://libcloud.apache.org/downloads.html",
+"homepage": "http://libcloud.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://libcloud.apache.org/devinfo.html",
+"maintainer": [
+{
+"mbox": "mailto:tomaz@apache.org",
+"name": "Tomaz Muraus"
+}
+],
+"name": "Apache Libcloud",
+"pmc": "libcloud",
+"programming-language": "Python",
+"release": [
+{
+"created": "2010-02-09",
+"name": "0.2.0",
+"revision": "0.2.0"
+},
+{
+"created": "2010-05-11",
+"name": "0.3.0",
+"revision": "0.3.0"
+},
+{
+"created": "2010-10-12",
+"name": "0.4.0",
+"revision": "0.4.0"
+},
+{
+"created": "2011-01-17",
+"name": "0.4.1",
+"revision": "0.4.0"
+},
+{
+"created": "2011-05-25",
+"name": "0.5.0",
+"revision": "0.5.0"
+},
+{
+"created": "2011-07-05",
+"name": "0.5.2",
+"revision": "0.5.2"
+},
+{
+"created": "2011-10-19",
+"name": "0.6.0-beta1",
+"revision": "0.6.0-beta1"
+},
+{
+"created": "2011-11-09",
+"name": "0.6.1",
+"revision": "0.6.1"
+},
+{
+"created": "2011-11-17",
+"name": "0.6.2",
+"revision": "0.6.2"
+},
+{
+"created": "2011-12-09",
+"name": "0.7.1",
+"revision": "0.7.1"
+},
+{
+"created": "2012-02-08",
+"name": "0.8.0",
+"revision": "0.8.0"
+},
+{
+"created": "2012-04-01",
+"name": "0.9.1",
+"revision": "0.9.1"
+},
+{
+"created": "2012-05-24",
+"name": "0.10.1",
+"revision": "0.10.1"
+},
+{
+"created": "2012-07-30",
+"name": "0.11.0",
+"revision": "0.11.0"
+},
+{
+"created": "2012-08-01",
+"name": "0.11.1",
+"revision": "0.11.1"
+},
+{
+"created": "2012-09-25",
+"name": "0.11.3",
+"revision": "0.11.3"
+},
+{
+"created": "2012-11-19",
+"name": "0.11.4",
+"revision": "0.11.4"
+},
+{
+"created": "2013-02-19",
+"name": "0.12.1",
+"revision": "0.12.1"
+},
+{
+"created": "2013-03-11",
+"name": "0.12.3",
+"revision": "0.12.3"
+},
+{
+"created": "2013-04-22",
+"name": "0.12.4",
+"revision": "0.12.3"
+},
+{
+"created": "2013-07-01",
+"name": "0.13.0",
+"revision": "0.13.0"
+},
+{
+"created": "2013-09-05",
+"name": "0.13.1",
+"revision": "v0.13.1"
+},
+{
+"created": "2013-09-18",
+"name": "0.13.2",
+"revision": "v0.13.2"
+},
+{
+"created": "2013-12-31",
+"name": "0.13.3",
+"revision": "v0.13.3"
+},
+{
+"created": "2013-11-21",
+"name": "0.14.0-beta3",
+"revision": "v0.14.0-beta3"
+},
+{
+"created": "2014-01-22",
+"name": "0.14.0",
+"revision": "v0.14.0"
+},
+{
+"created": "2014-02-08",
+"name": "0.14.1",
+"revision": "v0.14.1"
+},
+{
+"created": "2014-06-26",
+"name": "0.15.0",
+"revision": "v0.15.0"
+},
+{
+"created": "2014-07-10",
+"name": "0.15.1",
+"revision": "v0.15.1"
+},
+{
+"created": "2014-11-12",
+"name": "0.16.0",
+"revision": "v0.16.0"
+},
+{
+"created": "2015-02-18",
+"name": "0.17.0",
+"revision": "v0.17.0"
+},
+{
+"created": "2015-08-12",
+"name": "0.18.0",
+"revision": "v0.18.0"
+},
+{
+"created": "2015-10-30",
+"name": "0.19.0",
+"revision": "v0.19.0"
+},
+{
+"created": "2015-12-15",
+"name": "0.20.0",
+"revision": "v0.20.0"
+},
+{
+"created": "2016-01-19",
+"name": "0.20.1",
+"revision": "v0.20.1"
+},
+{
+"created": "2016-01-26",
+"name": "1.0.0-pre1",
+"revision": "v1.0.0-pre1"
+},
+{
+"created": "2016-04-11",
+"name": "1.0.0-rc2",
+"revision": "v1.0.0-rc2"
+},
+{
+"created": "2016-06-21",
+"name": "1.0.0",
+"revision": "v1.0.0"
+},
+{
+"created": "2016-07-07",
+"name": "1.1.0",
+"revision": "v1.1.0"
+},
+{
+"created": "2016-09-15",
+"name": "1.2.0",
+"revision": "v1.2.0"
+},
+{
+"created": "2016-09-23",
+"name": "1.2.1",
+"revision": "v1.2.1"
+},
+{
+"created": "2016-10-14",
+"name": "1.3.0",
+"revision": "v1.3.0"
+},
+{
+"created": "2016-11-27",
+"name": "1.4.0",
+"revision": "v1.4.0"
+},
+{
+"created": "2016-12-28",
+"name": "1.5.0",
+"revision": "v1.5.0"
+},
+{
+"created": "2017-04-08",
+"name": "2.0.0rc2",
+"revision": "v2.0.0rc2"
+},
+{
+"created": "2017-04-25",
+"name": "2.0.0",
+"revision": "v2.0.0"
+},
+{
+"created": "2017-07-17",
+"name": "2.1.0",
+"revision": "v2.1.0"
+},
+{
+"created": "2017-09-04",
+"name": "2.2.0",
+"revision": "v2.2.0"
+},
+{
+"created": "2017-09-21",
+"name": "2.2.1",
+"revision": "v2.2.1"
+},
+{
+"created": "2018-02-08",
+"name": "2.3.0",
+"revision": "v2.3.0"
+},
+{
+"created": "2018-11-08",
+"name": "2.4.0",
+"revision": "v2.4.0"
+},
+{
+"created": "2019-05-30",
+"name": "2.5.0",
+"revision": "v2.5.0"
+},
+{
+"created": "2019-08-28",
+"name": "2.6.0",
+"revision": "v2.6.0"
+},
+{
+"created": "2019-11-18",
+"name": "2.6.1",
+"revision": "v2.6.1"
+},
+{
+"created": "2019-12-09",
+"name": "2.7.0",
+"revision": "v2.7.0"
+},
+{
+"created": "2020-01-02",
+"name": "2.8.0",
+"revision": "v2.8.0"
+},
+{
+"created": "2020-01-29",
+"name": "3.0.0-rc1",
+"revision": "v3.0.0-rc1"
+},
+{
+"created": "2020-03-03",
+"name": "3.0.0-rc1",
+"revision": "v3.0.0-rc1"
+},
+{
+"created": "2020-04-15",
+"name": "2.8.2",
+"revision": "v2.8.2"
+},
+{
+"created": "2020-04-15",
+"name": "3.0.0",
+"revision": "v3.0.0"
+},
+{
+"created": "2020-06-12",
+"name": "2.8.3",
+"revision": "v2.8.3"
+},
+{
+"created": "2020-06-12",
+"name": "3.1.0",
+"revision": "v3.1.0"
+},
+{
+"created": "2020-09-20",
+"name": "3.2.0",
+"revision": "v3.2.0"
+},
+{
+"created": "2021-01-02",
+"name": "3.3.0",
+"revision": "v3.3.0"
+},
+{
+"created": "2021-01-25",
+"name": "3.3.1",
+"revision": "v3.3.1"
+},
+{
+"created": "2021-11-11",
+"name": "3.4.0",
+"revision": "v3.4.0"
+},
+{
+"created": "2021-11-15",
+"name": "3.4.1",
+"revision": "v3.4.1"
+},
+{
+"created": "2022-03-11",
+"name": "3.5.0",
+"revision": "v3.5.0"
+},
+{
+"created": "2022-05-26",
+"name": "3.6.0",
+"revision": "v3.6.0"
+},
+{
+"created": "2022-10-10",
+"name": "3.6.1",
+"revision": "v3.6.1"
+},
+{
+"created": "2023-01-08",
+"name": "3.7.0",
+"revision": "v3.7.0"
+}
+],
+"repository": [
+"https://svn.apache.org/repos/asf/libcloud/trunk/"
+],
+"shortdesc": "Apache Libcloud is a standard Python library that abstracts away differences among multiple cloud provider APIs."
+},
 "logging-chainsaw": {
 "bug-database": "http://issues.apache.org/bugzilla",
 "category": "network-client",
@@ -8826,6 +10887,23 @@
 "http://svn.apache.org/repos/asf/logging/chainsaw/trunk/"
 ],
 "shortdesc": "Apache Chainsaw is a GUI log viewer."
+},
+"logging-log4cxx": {
+"bug-database": "https://issues.apache.org/jira/browse/LOGCXX",
+"category": "library",
+"created": "2007-02-09",
+"doap": "https://gitbox.apache.org/repos/asf?p=logging-log4cxx.git;a=blob_plain;f=doap_log4cxx.rdf;hb=HEAD",
+"download-page": "https://logging.apache.org/log4cxx/latest_stable/download.html",
+"homepage": "https://logging.apache.org/log4cxx",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://logging.apache.org/mailing-lists.html",
+"name": "Apache log4cxx",
+"pmc": "logging",
+"programming-language": "C++",
+"repository": [
+"https://gitbox.apache.org/repos/asf/logging-log4cxx.git"
+],
+"shortdesc": "Apache log4cxx provides logging services for C++."
 },
 "logging-log4j": {
 "bug-database": "https://github.com/apache/logging-log4j2/issues",
@@ -8940,6 +11018,803 @@
 ],
 "shortdesc": "Apache log4php is a logging framework for PHP.",
 "shortname": "log4php"
+},
+"lucene-core": {
+"bug-database": "https://github.com/apache/lucene/issues",
+"category": "database, library, search",
+"created": "2001-09-01",
+"description": "Apache Lucene is a high-performance, full-featured text search engine library written entirely in Java. It is a technology suitable for nearly any application that requires full-text search, especially cross-platform.\n    ",
+"doap": "http://lucene.apache.org/core/doap.rdf",
+"download-page": "http://lucene.apache.org/core/downloads.html",
+"homepage": "http://lucene.apache.org/core/",
+"license": "http://www.apache.org/licenses/LICENSE-2.0",
+"mailing-list": "http://lucene.apache.org/core/discussion.html",
+"maintainer": [
+{
+"mbox": "mailto:dev@lucene.apache.org",
+"name": "Apache Lucene Team"
+}
+],
+"name": "Apache Lucene Core",
+"pmc": "lucene",
+"programming-language": "Java",
+"release": [
+{
+"created": "2023-01-30",
+"name": "lucene-9.5.0",
+"revision": "9.5.0"
+},
+{
+"created": "2022-11-21",
+"name": "lucene-9.4.2",
+"revision": "9.4.2"
+},
+{
+"created": "2022-10-24",
+"name": "lucene-9.4.1",
+"revision": "9.4.1"
+},
+{
+"created": "2022-09-30",
+"name": "lucene-9.4.0",
+"revision": "9.4.0"
+},
+{
+"created": "2022-07-29",
+"name": "lucene-9.3.0",
+"revision": "9.3.0"
+},
+{
+"created": "2022-05-23",
+"name": "lucene-9.2.0",
+"revision": "9.2.0"
+},
+{
+"created": "2022-03-22",
+"name": "lucene-9.1.0",
+"revision": "9.1.0"
+},
+{
+"created": "2021-12-07",
+"name": "lucene-9.0.0",
+"revision": "9.0.0"
+},
+{
+"created": "2022-06-17",
+"name": "lucene-8.11.2",
+"revision": "8.11.2"
+},
+{
+"created": "2021-12-16",
+"name": "lucene-8.11.1",
+"revision": "8.11.1"
+},
+{
+"created": "2021-11-16",
+"name": "lucene-8.11.0",
+"revision": "8.11.0"
+},
+{
+"created": "2021-10-18",
+"name": "lucene-8.10.1",
+"revision": "8.10.1"
+},
+{
+"created": "2021-09-27",
+"name": "lucene-8.10.0",
+"revision": "8.10.0"
+},
+{
+"created": "2021-06-16",
+"name": "lucene-8.9.0",
+"revision": "8.9.0"
+},
+{
+"created": "2021-04-12",
+"name": "lucene-8.8.2",
+"revision": "8.8.2"
+},
+{
+"created": "2021-02-22",
+"name": "lucene-8.8.1",
+"revision": "8.8.1"
+},
+{
+"created": "2021-02-01",
+"name": "lucene-8.8.0",
+"revision": "8.8.0"
+},
+{
+"created": "2020-11-03",
+"name": "lucene-8.7.0",
+"revision": "8.7.0"
+},
+{
+"created": "2020-10-07",
+"name": "lucene-8.6.3",
+"revision": "8.6.3"
+},
+{
+"created": "2020-09-01",
+"name": "lucene-8.6.2",
+"revision": "8.6.2"
+},
+{
+"created": "2020-08-13",
+"name": "lucene-8.6.1",
+"revision": "8.6.1"
+},
+{
+"created": "2020-07-15",
+"name": "lucene-8.6.0",
+"revision": "8.6.0"
+},
+{
+"created": "2020-05-26",
+"name": "lucene-8.5.2",
+"revision": "8.5.2"
+},
+{
+"created": "2020-04-16",
+"name": "lucene-8.5.1",
+"revision": "8.5.1"
+},
+{
+"created": "2020-03-24",
+"name": "lucene-8.5.0",
+"revision": "8.5.0"
+},
+{
+"created": "2020-01-13",
+"name": "lucene-8.4.1",
+"revision": "8.4.1"
+},
+{
+"created": "2019-12-29",
+"name": "lucene-8.4.0",
+"revision": "8.4.0"
+},
+{
+"created": "2019-12-03",
+"name": "lucene-8.3.1",
+"revision": "8.3.1"
+},
+{
+"created": "2019-11-02",
+"name": "lucene-8.3.0",
+"revision": "8.3.0"
+},
+{
+"created": "2019-07-26",
+"name": "lucene-8.2.0",
+"revision": "8.2.0"
+},
+{
+"created": "2019-05-28",
+"name": "lucene-8.1.1",
+"revision": "8.1.1"
+},
+{
+"created": "2019-05-16",
+"name": "lucene-8.1.0",
+"revision": "8.1.0"
+},
+{
+"created": "2019-03-14",
+"name": "lucene-8.0.0",
+"revision": "8.0.0"
+},
+{
+"created": "2020-04-28",
+"name": "lucene-7.7.3",
+"revision": "7.7.3"
+},
+{
+"created": "2019-06-04",
+"name": "lucene-7.7.2",
+"revision": "7.7.2"
+},
+{
+"created": "2019-03-01",
+"name": "lucene-7.7.1",
+"revision": "7.7.1"
+},
+{
+"created": "2019-02-11",
+"name": "lucene-7.7.0",
+"revision": "7.7.0"
+},
+{
+"created": "2018-12-14",
+"name": "lucene-7.6.0",
+"revision": "7.6.0"
+},
+{
+"created": "2018-09-24",
+"name": "lucene-7.5.0",
+"revision": "7.5.0"
+},
+{
+"created": "2018-06-27",
+"name": "lucene-7.4.0",
+"revision": "7.4.0"
+},
+{
+"created": "2018-05-15",
+"name": "lucene-7.3.1",
+"revision": "7.3.1"
+},
+{
+"created": "2018-04-04",
+"name": "lucene-7.3.0",
+"revision": "7.3.0"
+},
+{
+"created": "2018-01-15",
+"name": "lucene-7.2.1",
+"revision": "7.2.1"
+},
+{
+"created": "2017-12-21",
+"name": "lucene-7.2.0",
+"revision": "7.2.0"
+},
+{
+"created": "2017-10-17",
+"name": "lucene-7.1.0",
+"revision": "7.1.0"
+},
+{
+"created": "2017-10-06",
+"name": "lucene-7.0.1",
+"revision": "7.0.1"
+},
+{
+"created": "2017-09-20",
+"name": "lucene-7.0.0",
+"revision": "7.0.0"
+},
+{
+"created": "2018-04-05",
+"name": "lucene-6.6.6",
+"revision": "6.6.6"
+},
+{
+"created": "2018-06-03",
+"name": "lucene-6.6.5",
+"revision": "6.6.5"
+},
+{
+"created": "2018-05-18",
+"name": "lucene-6.6.4",
+"revision": "6.6.4"
+},
+{
+"created": "2018-03-07",
+"name": "lucene-6.6.3",
+"revision": "6.6.3"
+},
+{
+"created": "2017-10-18",
+"name": "lucene-6.6.2",
+"revision": "6.6.2"
+},
+{
+"created": "2017-09-07",
+"name": "lucene-6.6.1",
+"revision": "6.6.1"
+},
+{
+"created": "2017-06-06",
+"name": "lucene-6.6.0",
+"revision": "6.6.0"
+},
+{
+"created": "2017-04-27",
+"name": "lucene-6.5.1",
+"revision": "6.5.1"
+},
+{
+"created": "2017-03-27",
+"name": "lucene-6.5.0",
+"revision": "6.5.0"
+},
+{
+"created": "2017-03-07",
+"name": "lucene-6.4.2",
+"revision": "6.4.2"
+},
+{
+"created": "2017-02-06",
+"name": "lucene-6.4.1",
+"revision": "6.4.1"
+},
+{
+"created": "2017-01-23",
+"name": "lucene-6.4.0",
+"revision": "6.4.0"
+},
+{
+"created": "2016-11-08",
+"name": "lucene-6.3.0",
+"revision": "6.3.0"
+},
+{
+"created": "2016-09-20",
+"name": "lucene-6.2.1",
+"revision": "6.2.1"
+},
+{
+"created": "2016-08-25",
+"name": "lucene-6.2.0",
+"revision": "6.2.0"
+},
+{
+"created": "2016-06-17",
+"name": "lucene-6.1.0",
+"revision": "6.1.0"
+},
+{
+"created": "2016-05-28",
+"name": "lucene-6.0.1",
+"revision": "6.0.1"
+},
+{
+"created": "2016-04-08",
+"name": "lucene-6.0.0",
+"revision": "6.0.0"
+},
+{
+"created": "2017-10-24",
+"name": "lucene-5.5.5",
+"revision": "5.5.5"
+},
+{
+"created": "2017-02-15",
+"name": "lucene-5.5.4",
+"revision": "5.5.4"
+},
+{
+"created": "2016-09-09",
+"name": "lucene-5.5.3",
+"revision": "5.5.3"
+},
+{
+"created": "2016-06-25",
+"name": "lucene-5.5.2",
+"revision": "5.5.2"
+},
+{
+"created": "2016-05-05",
+"name": "lucene-5.5.1",
+"revision": "5.5.1"
+},
+{
+"created": "2016-02-22",
+"name": "lucene-5.5.0",
+"revision": "5.5.0"
+},
+{
+"created": "2016-01-23",
+"name": "lucene-5.4.1",
+"revision": "5.4.1"
+},
+{
+"created": "2015-12-14",
+"name": "lucene-5.4.0",
+"revision": "5.4.0"
+},
+{
+"created": "2016-01-23",
+"name": "lucene-5.3.2",
+"revision": "5.3.2"
+},
+{
+"created": "2015-09-24",
+"name": "lucene-5.3.1",
+"revision": "5.3.1"
+},
+{
+"created": "2015-08-21",
+"name": "lucene-5.3.0",
+"revision": "5.3.0"
+},
+{
+"created": "2015-06-15",
+"name": "lucene-5.2.1",
+"revision": "5.2.1"
+},
+{
+"created": "2015-06-07",
+"name": "lucene-5.2.0",
+"revision": "5.2.0"
+},
+{
+"created": "2015-04-14",
+"name": "lucene-5.1.0",
+"revision": "5.1.0"
+},
+{
+"created": "2015-02-20",
+"name": "lucene-5.0.0",
+"revision": "5.0.0"
+},
+{
+"created": "2015-03-03",
+"name": "lucene-4.10.4",
+"revision": "4.10.4"
+},
+{
+"created": "2014-12-29",
+"name": "lucene-4.10.3",
+"revision": "4.10.3"
+},
+{
+"created": "2014-10-31",
+"name": "lucene-4.10.2",
+"revision": "4.10.2"
+},
+{
+"created": "2014-09-29",
+"name": "lucene-4.10.1",
+"revision": "4.10.1"
+},
+{
+"created": "2014-09-03",
+"name": "lucene-4.10.0",
+"revision": "4.10.0"
+},
+{
+"created": "2014-09-22",
+"name": "lucene-4.9.1",
+"revision": "4.9.1"
+},
+{
+"created": "2014-06-25",
+"name": "lucene-4.9.0",
+"revision": "4.9.0"
+},
+{
+"created": "2014-05-20",
+"name": "lucene-4.8.1",
+"revision": "4.8.1"
+},
+{
+"created": "2014-04-28",
+"name": "lucene-4.8.0",
+"revision": "4.8.0"
+},
+{
+"created": "2014-04-15",
+"name": "lucene-4.7.2",
+"revision": "4.7.2"
+},
+{
+"created": "2014-04-02",
+"name": "lucene-4.7.1",
+"revision": "4.7.1"
+},
+{
+"created": "2014-02-26",
+"name": "lucene-4.7.0",
+"revision": "4.7.0"
+},
+{
+"created": "2014-01-28",
+"name": "lucene-4.6.1",
+"revision": "4.6.1"
+},
+{
+"created": "2013-11-22",
+"name": "lucene-4.6.0",
+"revision": "4.6.0"
+},
+{
+"created": "2013-10-24",
+"name": "lucene-4.5.1",
+"revision": "4.5.1"
+},
+{
+"created": "2013-10-05",
+"name": "lucene-4.5",
+"revision": "4.5"
+},
+{
+"created": "2013-07-23",
+"name": "lucene-4.4",
+"revision": "4.4"
+},
+{
+"created": "2013-06-18",
+"name": "lucene-4.3.1",
+"revision": "4.3.1"
+},
+{
+"created": "2013-05-06",
+"name": "lucene-4.3",
+"revision": "4.3"
+},
+{
+"created": "2013-04-03",
+"name": "lucene-4.2.1",
+"revision": "4.2.1"
+},
+{
+"created": "2013-03-11",
+"name": "lucene-4.2",
+"revision": "4.2"
+},
+{
+"created": "2013-01-22",
+"name": "lucene-4.1",
+"revision": "4.1"
+},
+{
+"created": "2012-10-12",
+"name": "lucene-4.0",
+"revision": "4.0"
+},
+{
+"created": "2012-08-13",
+"name": "lucene-4.0-BETA",
+"revision": "4.0-BETA"
+},
+{
+"created": "2012-07-03",
+"name": "lucene-4.0-ALPHA",
+"revision": "4.0-ALPHA"
+},
+{
+"created": "2012-12-25",
+"name": "lucene-3.6.2",
+"revision": "3.6.2"
+},
+{
+"created": "2012-07-22",
+"name": "lucene-3.6.1",
+"revision": "3.6.1"
+},
+{
+"created": "2012-04-12",
+"name": "lucene-3.6",
+"revision": "3.6"
+},
+{
+"created": "2011-11-11",
+"name": "lucene-3.5",
+"revision": "3.5"
+},
+{
+"created": "2011-09-15",
+"name": "lucene-3.4",
+"revision": "3.4"
+},
+{
+"created": "2011-07-10",
+"name": "lucene-3.3",
+"revision": "3.3"
+},
+{
+"created": "2011-06-03",
+"name": "lucene-3.2",
+"revision": "3.2"
+},
+{
+"created": "2011-03-31",
+"name": "lucene-3.1",
+"revision": "3.1"
+},
+{
+"created": "2010-12-03",
+"name": "lucene-3.0.3",
+"revision": "3.0.3"
+},
+{
+"created": "2010-06-18",
+"name": "lucene-3.0.2",
+"revision": "3.0.2"
+},
+{
+"created": "2010-02-26",
+"name": "lucene-3.0.1",
+"revision": "3.0.1"
+},
+{
+"created": "2009-11-25",
+"name": "lucene-3.0",
+"revision": "3.0"
+},
+{
+"created": "2010-12-03",
+"name": "lucene-2.9.4",
+"revision": "2.9.4"
+},
+{
+"created": "2010-06-18",
+"name": "lucene-2.9.3",
+"revision": "2.9.3"
+},
+{
+"created": "2010-02-26",
+"name": "lucene-2.9.2",
+"revision": "2.9.2"
+},
+{
+"created": "2009-11-06",
+"name": "lucene-2.9.1",
+"revision": "2.9.1"
+},
+{
+"created": "2009-09-25",
+"name": "lucene-2.9",
+"revision": "2.9"
+},
+{
+"created": "2009-03-09",
+"name": "lucene-2.4.1",
+"revision": "2.4.1"
+},
+{
+"created": "2008-10-08",
+"name": "lucene-2.4",
+"revision": "2.4"
+},
+{
+"created": "2008-05-06",
+"name": "lucene-2.3.2",
+"revision": "2.3.2"
+},
+{
+"created": "2008-02-22",
+"name": "lucene-2.3.1",
+"revision": "2.3.1"
+},
+{
+"created": "2008-01-23",
+"name": "lucene-2.3",
+"revision": "2.3"
+},
+{
+"created": "2007-06-19",
+"name": "lucene-2.2",
+"revision": "2.2"
+},
+{
+"created": "2007-02-17",
+"name": "lucene-2.1",
+"revision": "2.1"
+},
+{
+"created": "2006-05-26",
+"name": "lucene-2.0.0",
+"revision": "2.0.0"
+},
+{
+"created": "2006-03-02",
+"name": "lucene-1.9.1",
+"revision": "1.9.1"
+},
+{
+"created": "2006-02-27",
+"name": "lucene-1.9-final",
+"revision": "1.9 final"
+},
+{
+"created": "2006-02-21",
+"name": "lucene-1.9-rc1",
+"revision": "1.9 RC1"
+},
+{
+"created": "2004-12-07",
+"name": "lucene-1.4.3",
+"revision": "1.4.3"
+},
+{
+"created": "2004-10-01",
+"name": "lucene-1.4.2",
+"revision": "1.4.2"
+},
+{
+"created": "2004-08-02",
+"name": "lucene-1.4.1",
+"revision": "1.4.1"
+},
+{
+"created": "2004-07-01",
+"name": "lucene-1.4-final",
+"revision": "1.4 final"
+},
+{
+"created": "2004-05-11",
+"name": "lucene-1.4-rc3",
+"revision": "1.4 RC3"
+},
+{
+"created": "2004-03-30",
+"name": "lucene-1.4-rc2",
+"revision": "1.4 RC2"
+},
+{
+"created": "2004-03-29",
+"name": "lucene-1.4-rc1",
+"revision": "1.4 RC1"
+},
+{
+"created": "2003-12-26",
+"name": "lucene-1.3-final",
+"revision": "1.3 final"
+},
+{
+"created": "2003-11-25",
+"name": "lucene-1.3-rc3",
+"revision": "1.3 RC3"
+},
+{
+"created": "2003-10-22",
+"name": "lucene-1.3-rc2",
+"revision": "1.3 RC2"
+},
+{
+"created": "2003-03-24",
+"name": "lucene-1.3-rc1",
+"revision": "1.3 RC1"
+},
+{
+"created": "2002-06-13",
+"name": "lucene-1.2-final",
+"revision": "1.2 final"
+},
+{
+"created": "2002-05-14",
+"name": "lucene-1.2-rc5",
+"revision": "1.2 RC5"
+},
+{
+"created": "2002-02-14",
+"name": "lucene-1.2-rc4",
+"revision": "1.2 RC4"
+},
+{
+"created": "2002-01-27",
+"name": "lucene-1.2-rc3",
+"revision": "1.2 RC3"
+},
+{
+"created": "2001-10-19",
+"name": "lucene-1.2-rc2",
+"revision": "1.2 RC2"
+},
+{
+"created": "2001-10-02",
+"name": "lucene-1.2-rc1",
+"revision": "1.2 RC1"
+},
+{
+"created": "2001-06-02",
+"name": "lucene-1.01b",
+"revision": "1.01b"
+},
+{
+"created": "2000-10-04",
+"name": "lucene-1.0",
+"revision": "1.0"
+},
+{
+"created": "2000-04-19",
+"name": "lucene-0.04",
+"revision": "0.04"
+},
+{
+"created": "2000-03-30",
+"name": "lucene-0.01",
+"revision": "0.01"
+}
+],
+"repository": [
+"https://git-wip-us.apache.org/repos/asf/lucene.git"
+],
+"shortdesc": "Apache Lucene is a high-performance, full-featured text search engine library",
+"wiki": "http://wiki.apache.org/lucene-java/"
 },
 "lucene-pylucene": {
 "bug-database": "https://issues.apache.org/jira/projects/PYLUCENE",
@@ -9248,6 +12123,249 @@
 "https://svn.apache.org/repos/asf/manifoldcf"
 ],
 "shortdesc": "Open-source software for transferring content between repositories or search indexes"
+},
+"maven": {
+"bug-database": "https://issues.apache.org/jira/browse/MNG",
+"category": "build-management",
+"created": "2001",
+"description": "Maven is a project development management and comprehension tool. Based on the concept of a project object model: builds, dependency management, documentation creation, site publication, and distribution publication are all controlled from the declarative file. Maven can be extended by plugins to utilise a number of other development tools for reporting or the build process.",
+"doap": "https://gitbox.apache.org/repos/asf?p=maven.git;a=blob_plain;f=doap_Maven.rdf;hb=HEAD",
+"download-page": "https://maven.apache.org/download.html",
+"homepage": "https://maven.apache.org/",
+"license": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+"mailing-list": "https://maven.apache.org/mailing-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:dev@maven.apache.org",
+"name": "Apache Maven PMC"
+}
+],
+"name": "Apache Maven",
+"pmc": "maven",
+"programming-language": "Java",
+"release": [
+{
+"created": "2023-01-31",
+"file-release": "http://archive.apache.org/dist/maven/maven-4/4.0.0-alpha-4/source/apache-maven-4.0.0-alpha-4-src.tar.gz",
+"name": "Apache Maven 4.0.0-alpha-4",
+"revision": "4.0.0-alpha-4"
+},
+{
+"created": "2022-12-15",
+"file-release": "http://archive.apache.org/dist/maven/maven-4/4.0.0-alpha-3/source/apache-maven-4.0.0-alpha-3-src.tar.gz",
+"name": "Apache Maven 4.0.0-alpha-3",
+"revision": "4.0.0-alpha-3"
+},
+{
+"created": "2022-10-15",
+"file-release": "http://archive.apache.org/dist/maven/maven-4/4.0.0-alpha-2/source/apache-maven-4.0.0-alpha-2-src.tar.gz",
+"name": "Apache Maven 4.0.0-alpha-2",
+"revision": "4.0.0-alpha-2"
+},
+{
+"created": "2023-03-15",
+"file-release": "https://archive.apache.org/dist/maven/maven-3/3.9.1/source/apache-maven-3.9.1-src.tar.gz",
+"name": "Latest stable release",
+"revision": "3.9.1"
+},
+{
+"created": "2023-01-31",
+"file-release": "https://archive.apache.org/dist/maven/maven-3/3.9.0/source/apache-maven-3.9.0-src.tar.gz",
+"name": "Apache Maven 3.9.0",
+"revision": "3.9.0"
+},
+{
+"created": "2023-03-08",
+"file-release": "http://archive.apache.org/dist/maven/maven-3/3.8.8/source/apache-maven-3.8.8-src.tar.gz",
+"name": "Apache Maven 3.8.8",
+"revision": "3.8.8"
+},
+{
+"created": "2022-12-24",
+"file-release": "http://archive.apache.org/dist/maven/maven-3/3.8.7/source/apache-maven-3.8.7-src.tar.gz",
+"name": "Apache Maven 3.8.7",
+"revision": "3.8.7"
+},
+{
+"created": "2022-06-06",
+"file-release": "http://archive.apache.org/dist/maven/maven-3/3.8.6/source/apache-maven-3.8.6-src.tar.gz",
+"name": "Apache Maven 3.8.6",
+"revision": "3.8.6"
+},
+{
+"created": "2022-03-05",
+"file-release": "http://archive.apache.org/dist/maven/maven-3/3.8.5/source/apache-maven-3.8.5-src.tar.gz",
+"name": "Apache Maven 3.8.5",
+"revision": "3.8.5"
+},
+{
+"created": "2021-11-14",
+"file-release": "http://archive.apache.org/dist/maven/maven-3/3.8.4/source/apache-maven-3.8.4-src.tar.gz",
+"name": "Apache Maven 3.8.4",
+"revision": "3.8.4"
+},
+{
+"created": "2021-09-27",
+"file-release": "http://archive.apache.org/dist/maven/maven-3/3.8.3/source/apache-maven-3.8.3-src.tar.gz",
+"name": "Apache Maven 3.8.3",
+"revision": "3.8.3"
+},
+{
+"created": "2021-08-04",
+"file-release": "http://archive.apache.org/dist/maven/maven-3/3.8.2/source/apache-maven-3.8.2-src.tar.gz",
+"name": "Apache Maven 3.8.2",
+"revision": "3.8.2"
+},
+{
+"created": "2021-04-04",
+"file-release": "http://archive.apache.org/dist/maven/maven-3/3.8.1/source/apache-maven-3.8.1-src.tar.gz",
+"name": "Apache Maven 3.8.1",
+"revision": "3.8.1"
+},
+{
+"created": "2019-11-19",
+"file-release": "http://archive.apache.org/dist/maven/maven-3/3.6.3/source/apache-maven-3.6.3-src.tar.gz",
+"name": "Apache Maven 3.6.3",
+"revision": "3.6.3"
+},
+{
+"created": "2019-08-27",
+"file-release": "http://archive.apache.org/dist/maven/maven-3/3.6.2/source/apache-maven-3.6.2-src.tar.gz",
+"name": "Apache Maven 3.6.2",
+"revision": "3.6.2"
+},
+{
+"created": "2019-04-04",
+"file-release": "http://archive.apache.org/dist/maven/maven-3/3.6.1/source/apache-maven-3.6.1-src.tar.gz",
+"name": "Apache Maven 3.6.1",
+"revision": "3.6.1"
+},
+{
+"created": "2018-10-23",
+"file-release": "http://archive.apache.org/dist/maven/maven-3/3.6.0/source/apache-maven-3.6.0-src.tar.gz",
+"name": "Apache Maven 3.6.0",
+"revision": "3.6.0"
+},
+{
+"created": "2018-06-21",
+"file-release": "http://archive.apache.org/dist/maven/maven-3/3.5.4/source/apache-maven-3.5.4-src.tar.gz",
+"name": "Apache Maven 3.5.4",
+"revision": "3.5.4"
+},
+{
+"created": "2018-03-08",
+"file-release": "http://archive.apache.org/dist/maven/maven-3/3.5.3/source/apache-maven-3.5.3-src.tar.gz",
+"name": "Apache Maven 3.5.3",
+"revision": "3.5.3"
+},
+{
+"created": "2017-10-24",
+"file-release": "http://archive.apache.org/dist/maven/maven-3/3.5.2/source/apache-maven-3.5.2-src.tar.gz",
+"name": "Apache Maven 3.5.2",
+"revision": "3.5.2"
+},
+{
+"created": "2017-04-07",
+"file-release": "http://archive.apache.org/dist/maven/maven-3/3.5.0/source/apache-maven-3.5.0-src.tar.gz",
+"name": "Apache Maven 3.5.0",
+"revision": "3.5.0"
+},
+{
+"created": "2015-11-14",
+"file-release": "http://archive.apache.org/dist/maven/maven-3/3.3.9/source/apache-maven-3.3.9-src.tar.gz",
+"name": "Apache Maven 3.3.9",
+"revision": "3.3.9"
+},
+{
+"created": "2015-04-28",
+"file-release": "http://archive.apache.org/dist/maven/maven-3/3.3.3/source/apache-maven-3.3.3-src.tar.gz",
+"name": "Apache Maven 3.3.3",
+"revision": "3.3.3"
+},
+{
+"created": "2015-03-18",
+"file-release": "http://archive.apache.org/dist/maven/maven-3/3.3.1/source/apache-maven-3.3.1-src.tar.gz",
+"name": "Apache Maven 3.3.1",
+"revision": "3.3.1"
+},
+{
+"created": "2014-12-20",
+"file-release": "http://archive.apache.org/dist/maven/maven-3/3.2.5/source/apache-maven-3.2.5-src.tar.gz",
+"name": "Apache Maven 3.2.5",
+"revision": "3.2.5"
+},
+{
+"created": "2014-08-17",
+"file-release": "http://archive.apache.org/dist/maven/maven-3/3.2.3/source/apache-maven-3.2.3-src.tar.gz",
+"name": "Apache Maven 3.2.3",
+"revision": "3.2.3"
+},
+{
+"created": "2014-06-25",
+"file-release": "http://archive.apache.org/dist/maven/maven-3/3.2.2/source/apache-maven-3.2.2-src.tar.gz",
+"name": "Apache Maven 3.2.2",
+"revision": "3.2.2"
+},
+{
+"created": "2014-02-21",
+"file-release": "http://archive.apache.org/dist/maven/maven-3/3.2.1/source/apache-maven-3.2.1-src.tar.gz",
+"name": "Apache Maven 3.2.1",
+"revision": "3.2.1"
+},
+{
+"created": "2013-10-04",
+"file-release": "http://archive.apache.org/dist/maven/maven-3/3.1.1/source/apache-maven-3.1.1-src.tar.gz",
+"name": "Apache Maven 3.1.1",
+"revision": "3.1.1"
+},
+{
+"created": "2013-07-15",
+"file-release": "http://archive.apache.org/dist/maven/maven-3/3.1.0/source/apache-maven-3.1.0-src.tar.gz",
+"name": "Apache Maven 3.1.0",
+"revision": "3.1.0"
+},
+{
+"created": "2013-02-23",
+"file-release": "http://archive.apache.org/dist/maven/maven-3/3.0.5/source/apache-maven-3.0.5-src.tar.gz",
+"name": "Apache Maven 3.0.5",
+"revision": "3.0.5"
+},
+{
+"created": "2012-01-20",
+"file-release": "http://archive.apache.org/dist/maven/source/apache-maven-3.0.4-src.tar.gz",
+"name": "Apache Maven 3.0.4",
+"revision": "3.0.4"
+},
+{
+"created": "2011-03-03",
+"file-release": "http://archive.apache.org/dist/maven/source/apache-maven-3.0.3-src.tar.gz",
+"name": "Apache Maven 3.0.3",
+"revision": "3.0.3"
+},
+{
+"created": "2011-01-12",
+"file-release": "http://archive.apache.org/dist/maven/source/apache-maven-3.0.2-src.tar.gz",
+"name": "Apache Maven 3.0.2",
+"revision": "3.0.2"
+},
+{
+"created": "2010-11-23",
+"file-release": "http://archive.apache.org/dist/maven/source/apache-maven-3.0.1-src.tar.gz",
+"name": "Apache Maven 3.0.1",
+"revision": "3.0.1"
+},
+{
+"created": "2010-10-04",
+"file-release": "http://archive.apache.org/dist/maven/source/apache-maven-3.0-src.tar.gz",
+"name": "Apache Maven 3.0",
+"revision": "3.0"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf/maven.git",
+"https://gitbox.apache.org/repos/asf/maven-integration-testing.git"
+],
+"shortdesc": "Maven is a project development management and comprehension tool."
 },
 "maven-doxia": {
 "bug-database": "https://issues.apache.org/jira/browse/DOXIA, https://issues.apache.org/jira/browse/DOXIASITETOOLS, https://issues.apache.org/jira/browse/DOXIATOOLS",
@@ -9680,6 +12798,92 @@
 "https://svn.apache.org/repos/asf/mina/vysper"
 ],
 "shortdesc": "A modular, full featured XMPP (Jabber) server"
+},
+"myfaces": {
+"bug-database": "http://issues.apache.org/jira/browse/MYFACES",
+"category": "web-framework, javaee",
+"created": "2006-02-28",
+"description": "MyFaces is the free open source implementation of Jakarta Server Faces, a web application framework that accomplishes the MVC paradigm. It is comparable to the well-known Struts Framework but has features and concepts that are beyond those of Struts - especially the component orientation.",
+"doap": "https://gitbox.apache.org/repos/asf?p=myfaces.git;a=blob_plain;f=doap_MyFaces.rdf;hb=HEAD",
+"download-page": "http://myfaces.apache.org/download.html",
+"homepage": "http://myfaces.apache.org",
+"implements": [
+{
+"body": "Jakarta EE",
+"id": "4.0",
+"title": "Jakarta Faces 4.0",
+"url": "https://jakarta.ee/specifications/faces/4.0/"
+},
+{
+"body": "Jakarta EE",
+"id": "3.0",
+"title": "Jakarta Faces 3.0",
+"url": "https://jakarta.ee/specifications/faces/3.0/"
+},
+{
+"body": "Jakarta EE",
+"id": "2.3",
+"title": "Jakarta Server Faces 2.3",
+"url": "https://jakarta.ee/specifications/faces/2.3/"
+},
+{
+"body": "JCP",
+"id": "JSR 344",
+"title": "JavaServer Faces 2.2",
+"url": "http://www.jcp.org/en/jsr/detail?id=344"
+},
+{
+"body": "JCP",
+"id": "JSR 314",
+"title": "JavaServer Faces 2.0",
+"url": "http://www.jcp.org/en/jsr/detail?id=314"
+},
+{
+"body": "JCP",
+"id": "JSR 252",
+"title": "JavaServer Faces 1.2",
+"url": "https://jcp.org/en/jsr/detail?id=252"
+},
+{
+"body": "JCP",
+"id": "JSR 127",
+"title": "JavaServer Faces 1.0",
+"url": "http://www.jcp.org/en/jsr/detail?id=127"
+}
+],
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://myfaces.apache.org/mail-lists.html",
+"name": "Apache MyFaces",
+"pmc": "myfaces",
+"programming-language": "Java",
+"repository": [
+"https://gitbox.apache.org/repos/asf/myfaces.git"
+],
+"shortdesc": "The first free open source JSF implementation."
+},
+"myfaces-tobago": {
+"bug-database": "http://issues.apache.org/jira/browse/TOBAGO",
+"category": "web-framework",
+"created": "2006-07-10",
+"description": "The goal of Tobago is to provide the community with a well designed set of user interface components based on JSF.",
+"doap": "https://gitbox.apache.org/repos/asf?p=myfaces-tobago.git;a=blob_plain;f=doap.rdf;hb=HEAD",
+"download-page": "http://tobago-vm.apache.org/download.html",
+"homepage": "http://myfaces.apache.org/#/tobago",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://myfaces.apache.org/#/community",
+"maintainer": [
+{
+"mbox": "mailto:bommel@apache.org",
+"name": "Bernd Bohmann"
+}
+],
+"name": "Apache Tobago",
+"pmc": "myfaces",
+"programming-language": "Java, TypeScript",
+"repository": [
+"https://gitbox.apache.org/repos/asf/myfaces-tobago.git"
+],
+"shortdesc": "Set of user interface components based on JSF."
 },
 "netbeans": {
 "bug-database": "https://github.com/apache/netbeans/issues",
@@ -10335,9 +13539,9 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2023-02-23",
+"created": "2023-04-22",
 "name": "Apache OpenNLP",
-"revision": "2.1.1"
+"revision": "2.2.0"
 }
 ],
 "repository": [
@@ -12089,6 +15293,603 @@
 "shortdesc": "Innovative Web framework based on JCR and OSGi",
 "shortname": "sling"
 },
+"solr": {
+"bug-database": "http://issues.apache.org/jira/browse/SOLR",
+"category": "web-framework, network-server, search, java",
+"created": "2006-01-17",
+"description": "Solr is an open source enterprise search server based on the Lucene Java search library, with Rest-like JSON/HTTP APIs, high performance, high availability, powerful analytics, hit highlighting, faceted search, caching, replication, and a web administration interface.\n    ",
+"doap": "https://solr.apache.org/doap/solr.rdf",
+"download-page": "https://solr.apache.org/downloads.html",
+"homepage": "http://solr.apache.org",
+"license": "http://www.apache.org/licenses/LICENSE-2.0",
+"mailing-list": "https://solr.apache.org/community.html#mailing-lists-chat",
+"maintainer": [
+{
+"mbox": "mailto:dev@solr.apache.org",
+"name": "Apache Solr Team"
+}
+],
+"name": "Apache Solr",
+"pmc": "solr",
+"programming-language": "Java",
+"release": [
+{
+"created": "2023-03-24",
+"name": "solr-9.2.0",
+"revision": "9.2.0"
+},
+{
+"created": "2023-01-25",
+"name": "solr-9.1.1",
+"revision": "9.1.1"
+},
+{
+"created": "2022-11-20",
+"name": "solr-9.1.0",
+"revision": "9.1.0"
+},
+{
+"created": "2022-05-12",
+"name": "solr-9.0.0",
+"revision": "9.0.0"
+},
+{
+"created": "2022-06-17",
+"name": "solr-8.11.2",
+"revision": "8.11.2"
+},
+{
+"created": "2021-12-16",
+"name": "solr-8.11.1",
+"revision": "8.11.1"
+},
+{
+"created": "2021-11-16",
+"name": "solr-8.11.0",
+"revision": "8.11.0"
+},
+{
+"created": "2021-10-18",
+"name": "solr-8.10.1",
+"revision": "8.10.1"
+},
+{
+"created": "2021-09-27",
+"name": "solr-8.10.0",
+"revision": "8.10.0"
+},
+{
+"created": "2021-06-16",
+"name": "solr-8.9.0",
+"revision": "8.9.0"
+},
+{
+"created": "2021-04-12",
+"name": "solr-8.8.2",
+"revision": "8.8.2"
+},
+{
+"created": "2021-02-22",
+"name": "solr-8.8.1",
+"revision": "8.8.1"
+},
+{
+"created": "2021-02-01",
+"name": "solr-8.8.0",
+"revision": "8.8.0"
+},
+{
+"created": "2020-11-03",
+"name": "solr-8.7.0",
+"revision": "8.7.0"
+},
+{
+"created": "2020-10-07",
+"name": "solr-8.6.3",
+"revision": "8.6.3"
+},
+{
+"created": "2020-09-01",
+"name": "solr-8.6.2",
+"revision": "8.6.2"
+},
+{
+"created": "2020-08-13",
+"name": "solr-8.6.1",
+"revision": "8.6.1"
+},
+{
+"created": "2020-07-15",
+"name": "solr-8.6.0",
+"revision": "8.6.0"
+},
+{
+"created": "2020-05-26",
+"name": "solr-8.5.2",
+"revision": "8.5.2"
+},
+{
+"created": "2020-04-16",
+"name": "solr-8.5.1",
+"revision": "8.5.1"
+},
+{
+"created": "2020-03-24",
+"name": "solr-8.5.0",
+"revision": "8.5.0"
+},
+{
+"created": "2020-01-13",
+"name": "solr-8.4.1",
+"revision": "8.4.1"
+},
+{
+"created": "2019-12-29",
+"name": "solr-8.4.0",
+"revision": "8.4.0"
+},
+{
+"created": "2019-12-03",
+"name": "solr-8.3.1",
+"revision": "8.3.1"
+},
+{
+"created": "2019-11-02",
+"name": "solr-8.3.0",
+"revision": "8.3.0"
+},
+{
+"created": "2019-07-26",
+"name": "solr-8.2.0",
+"revision": "8.2.0"
+},
+{
+"created": "2019-05-28",
+"name": "solr-8.1.1",
+"revision": "8.1.1"
+},
+{
+"created": "2019-05-16",
+"name": "solr-8.1.0",
+"revision": "8.1.0"
+},
+{
+"created": "2019-03-14",
+"name": "solr-8.0.0",
+"revision": "8.0.0"
+},
+{
+"created": "2020-04-28",
+"name": "solr-7.7.3",
+"revision": "7.7.3"
+},
+{
+"created": "2019-06-04",
+"name": "solr-7.7.2",
+"revision": "7.7.2"
+},
+{
+"created": "2019-03-01",
+"name": "solr-7.7.1",
+"revision": "7.7.1"
+},
+{
+"created": "2019-02-11",
+"name": "solr-7.7.0",
+"revision": "7.7.0"
+},
+{
+"created": "2018-12-14",
+"name": "solr-7.6.0",
+"revision": "7.6.0"
+},
+{
+"created": "2018-09-24",
+"name": "solr-7.5.0",
+"revision": "7.5.0"
+},
+{
+"created": "2018-06-27",
+"name": "solr-7.4.0",
+"revision": "7.4.0"
+},
+{
+"created": "2018-05-15",
+"name": "solr-7.3.1",
+"revision": "7.3.1"
+},
+{
+"created": "2018-04-04",
+"name": "solr-7.3.0",
+"revision": "7.3.0"
+},
+{
+"created": "2018-01-15",
+"name": "solr-7.2.1",
+"revision": "7.2.1"
+},
+{
+"created": "2017-12-21",
+"name": "solr-7.2.0",
+"revision": "7.2.0"
+},
+{
+"created": "2017-10-17",
+"name": "solr-7.1.0",
+"revision": "7.1.0"
+},
+{
+"created": "2017-10-06",
+"name": "solr-7.0.1",
+"revision": "7.0.1"
+},
+{
+"created": "2017-09-20",
+"name": "solr-7.0.0",
+"revision": "7.0.0"
+},
+{
+"created": "2018-04-05",
+"name": "solr-6.6.6",
+"revision": "6.6.6"
+},
+{
+"created": "2018-06-03",
+"name": "solr-6.6.5",
+"revision": "6.6.5"
+},
+{
+"created": "2018-05-18",
+"name": "solr-6.6.4",
+"revision": "6.6.4"
+},
+{
+"created": "2018-03-07",
+"name": "solr-6.6.3",
+"revision": "6.6.3"
+},
+{
+"created": "2017-10-18",
+"name": "solr-6.6.2",
+"revision": "6.6.2"
+},
+{
+"created": "2017-09-07",
+"name": "solr-6.6.1",
+"revision": "6.6.1"
+},
+{
+"created": "2017-06-06",
+"name": "solr-6.6.0",
+"revision": "6.6.0"
+},
+{
+"created": "2017-04-27",
+"name": "solr-6.5.1",
+"revision": "6.5.1"
+},
+{
+"created": "2017-03-27",
+"name": "solr-6.5.0",
+"revision": "6.5.0"
+},
+{
+"created": "2017-03-07",
+"name": "solr-6.4.2",
+"revision": "6.4.2"
+},
+{
+"created": "2017-02-06",
+"name": "solr-6.4.1",
+"revision": "6.4.1"
+},
+{
+"created": "2017-01-23",
+"name": "solr-6.4.0",
+"revision": "6.4.0"
+},
+{
+"created": "2016-11-08",
+"name": "solr-6.3.0",
+"revision": "6.3.0"
+},
+{
+"created": "2016-09-20",
+"name": "solr-6.2.1",
+"revision": "6.2.1"
+},
+{
+"created": "2016-08-25",
+"name": "solr-6.2.0",
+"revision": "6.2.0"
+},
+{
+"created": "2016-06-17",
+"name": "solr-6.1.0",
+"revision": "6.1.0"
+},
+{
+"created": "2016-05-28",
+"name": "solr-6.0.1",
+"revision": "6.0.1"
+},
+{
+"created": "2016-04-08",
+"name": "solr-6.0.0",
+"revision": "6.0.0"
+},
+{
+"created": "2017-10-24",
+"name": "solr-5.5.5",
+"revision": "5.5.5"
+},
+{
+"created": "2017-02-15",
+"name": "solr-5.5.4",
+"revision": "5.5.4"
+},
+{
+"created": "2016-09-09",
+"name": "solr-5.5.3",
+"revision": "5.5.3"
+},
+{
+"created": "2016-06-25",
+"name": "solr-5.5.2",
+"revision": "5.5.2"
+},
+{
+"created": "2016-05-05",
+"name": "solr-5.5.1",
+"revision": "5.5.1"
+},
+{
+"created": "2016-02-22",
+"name": "solr-5.5.0",
+"revision": "5.5.0"
+},
+{
+"created": "2016-01-23",
+"name": "solr-5.4.1",
+"revision": "5.4.1"
+},
+{
+"created": "2015-12-14",
+"name": "solr-5.4.0",
+"revision": "5.4.0"
+},
+{
+"created": "2016-01-23",
+"name": "solr-5.3.2",
+"revision": "5.3.2"
+},
+{
+"created": "2015-09-24",
+"name": "solr-5.3.1",
+"revision": "5.3.1"
+},
+{
+"created": "2015-08-21",
+"name": "solr-5.3.0",
+"revision": "5.3.0"
+},
+{
+"created": "2015-06-15",
+"name": "solr-5.2.1",
+"revision": "5.2.1"
+},
+{
+"created": "2015-06-07",
+"name": "solr-5.2.0",
+"revision": "5.2.0"
+},
+{
+"created": "2015-04-14",
+"name": "solr-5.1.0",
+"revision": "5.1.0"
+},
+{
+"created": "2015-02-20",
+"name": "solr-5.0.0",
+"revision": "5.0.0"
+},
+{
+"created": "2015-03-03",
+"name": "solr-4.10.4",
+"revision": "4.10.4"
+},
+{
+"created": "2014-12-29",
+"name": "solr-4.10.3",
+"revision": "4.10.3"
+},
+{
+"created": "2014-10-31",
+"name": "solr-4.10.2",
+"revision": "4.10.2"
+},
+{
+"created": "2014-09-29",
+"name": "solr-4.10.1",
+"revision": "4.10.1"
+},
+{
+"created": "2014-09-03",
+"name": "solr-4.10.0",
+"revision": "4.10.0"
+},
+{
+"created": "2014-09-22",
+"name": "solr-4.9.1",
+"revision": "4.9.1"
+},
+{
+"created": "2014-06-25",
+"name": "solr-4.9.0",
+"revision": "4.9.0"
+},
+{
+"created": "2014-05-20",
+"name": "solr-4.8.1",
+"revision": "4.8.1"
+},
+{
+"created": "2014-04-28",
+"name": "solr-4.8.0",
+"revision": "4.8.0"
+},
+{
+"created": "2014-04-15",
+"name": "solr-4.7.2",
+"revision": "4.7.2"
+},
+{
+"created": "2014-02-26",
+"name": "solr-4.7.1",
+"revision": "4.7.1"
+},
+{
+"created": "2014-02-26",
+"name": "solr-4.7.0",
+"revision": "4.7.0"
+},
+{
+"created": "2014-01-28",
+"name": "solr-4.6.1",
+"revision": "4.6.1"
+},
+{
+"created": "2013-11-22",
+"name": "solr-4.6.0",
+"revision": "4.6.0"
+},
+{
+"created": "2013-10-24",
+"name": "solr-4.5.1",
+"revision": "4.5.1"
+},
+{
+"created": "2013-10-05",
+"name": "solr-4.5",
+"revision": "4.5"
+},
+{
+"created": "2013-07-23",
+"name": "solr-4.4",
+"revision": "4.4"
+},
+{
+"created": "2013-06-18",
+"name": "solr-4.3.1",
+"revision": "4.3.1"
+},
+{
+"created": "2013-05-06",
+"name": "solr-4.3",
+"revision": "4.3"
+},
+{
+"created": "2013-04-03",
+"name": "solr-4.2.1",
+"revision": "4.2.1"
+},
+{
+"created": "2013-03-11",
+"name": "solr-4.2",
+"revision": "4.2"
+},
+{
+"created": "2013-01-22",
+"name": "solr-4.1",
+"revision": "4.1"
+},
+{
+"created": "2012-10-12",
+"name": "solr-4.0",
+"revision": "4.0"
+},
+{
+"created": "2012-08-13",
+"name": "solr-4.0-BETA",
+"revision": "4.0-BETA"
+},
+{
+"created": "2012-07-03",
+"name": "solr-4.0-ALPHA",
+"revision": "4.0-ALPHA"
+},
+{
+"created": "2012-12-25",
+"name": "solr-3.6.2",
+"revision": "3.6.2"
+},
+{
+"created": "2012-07-22",
+"name": "solr-3.6.1",
+"revision": "3.6.1"
+},
+{
+"created": "2012-04-12",
+"name": "solr-3.6",
+"revision": "3.6"
+},
+{
+"created": "2011-11-11",
+"name": "solr-3.5",
+"revision": "3.5"
+},
+{
+"created": "2011-09-15",
+"name": "solr-3.4",
+"revision": "3.4"
+},
+{
+"created": "2011-07-10",
+"name": "solr-3.3",
+"revision": "3.3"
+},
+{
+"created": "2011-06-03",
+"name": "solr-3.2",
+"revision": "3.2"
+},
+{
+"created": "2011-03-31",
+"name": "solr-3.1",
+"revision": "3.1"
+},
+{
+"created": "2010-6-25",
+"name": "solr-1.4.1",
+"revision": "1.4.1"
+},
+{
+"created": "2009-11-10",
+"name": "solr-1.4.0",
+"revision": "1.4.0"
+},
+{
+"created": "2008-09-16",
+"name": "solr-1.3.0",
+"revision": "1.3.0"
+},
+{
+"created": "2007-06-06",
+"name": "solr-1.2.0",
+"revision": "1.2.0"
+},
+{
+"created": "2006-12-22",
+"name": "solr-1.1.0",
+"revision": "1.1.0"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf?p=solr.git"
+],
+"shortdesc": "Solr is a full-text search server",
+"wiki": "https://cwiki.apache.org/confluence/display/SOLR/"
+},
 "solr-operator": {
 "bug-database": "https://github.com/apache/solr-operator/issues",
 "category": "cloud, search, go",
@@ -12207,6 +16008,37 @@
 "https://svn.apache.org/repos/asf/steve/trunk"
 ],
 "shortdesc": "STV Voting Tools"
+},
+"storm": {
+"bug-database": "https://issues.apache.org/jira/browse/STORM",
+"category": "big-data",
+"created": "2014-04-12",
+"description": "Apache Storm is a distributed real-time computation system. Similar to how Hadoop provides a set of general primitives for doing batch processing, Storm provides a set of general primitives for doing real-time computation.",
+"doap": "https://gitbox.apache.org/repos/asf?p=storm.git;a=blob_plain;f=doap_Storm.rdf;hb=HEAD",
+"download-page": "http://storm.apache.org/downloads.html",
+"homepage": "http://storm.apache.org/",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://storm.apache.org/community.html",
+"maintainer": [
+{
+"mbox": "mailto:ptgoetz@apache.org",
+"name": "P. Taylor Goetz"
+}
+],
+"name": "Apache Storm",
+"pmc": "storm",
+"programming-language": "Java",
+"release": [
+{
+"created": "2015-06-03",
+"name": "Apache Storm 0.9.5",
+"revision": "0.9.5"
+}
+],
+"repository": [
+"http://git-wip-us.apache.org/repos/asf/storm.git"
+],
+"shortdesc": "Apache Storm is a distributed real-time computation system."
 },
 "struts": {
 "bug-database": "https://issues.apache.org/jira/browse/WW/",
@@ -12448,6 +16280,173 @@
 "http://svn.apache.org/repos/asf/tcl/websh/trunk"
 ],
 "shortdesc": "Websh is a rapid development environment for building powerful, fast, and reliable web applications in Tcl"
+},
+"tez": {
+"bug-database": "https://issues.apache.org/jira/browse/TEZ",
+"category": "big-data",
+"created": "2014-11-21",
+"description": null,
+"doap": "https://gitbox.apache.org/repos/asf?p=tez.git;f=Tez_DOAP.rdf;a=blob_plain;hb=HEAD",
+"download-page": "http://tez.apache.org/releases/",
+"homepage": "http://tez.apache.org",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "http://tez.apache.org/mail-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:dev@tez.apache.org",
+"name": "Apache Tez PMC"
+}
+],
+"name": "Apache Tez",
+"pmc": "tez",
+"programming-language": "Java",
+"release": [
+{
+"created": "2022-07-30",
+"name": "Version 0.10.2",
+"revision": "0.10.2"
+},
+{
+"created": "2021-07-01",
+"name": "Version 0.10.1",
+"revision": "0.10.1"
+},
+{
+"created": "2020-10-15",
+"name": "Version 0.10.0",
+"revision": "0.10.0"
+},
+{
+"created": "2019-03-29",
+"name": "Version 0.9.2",
+"revision": "0.9.2"
+},
+{
+"created": "2018-01-04",
+"name": "Version 0.9.1",
+"revision": "0.9.1"
+},
+{
+"created": "2017-07-27",
+"name": "Version 0.9.0",
+"revision": "0.9.0"
+},
+{
+"created": "2017-03-13",
+"name": "Version 0.8.5",
+"revision": "0.8.5"
+},
+{
+"created": "2016-07-08",
+"name": "Version 0.8.4",
+"revision": "0.8.4"
+},
+{
+"created": "2016-05-10",
+"name": "Version 0.7.1",
+"revision": "0.7.1"
+},
+{
+"created": "2016-04-15",
+"name": "Version 0.8.3",
+"revision": "0.8.3"
+},
+{
+"created": "2016-01-19",
+"name": "Version 0.8.2",
+"revision": "0.8.2"
+},
+{
+"created": "2015-10-12",
+"name": "Version 0.8.1-alpha",
+"revision": "0.8.1-alpha"
+},
+{
+"created": "2015-09-01",
+"name": "Version 0.8.0-alpha",
+"revision": "0.8.0-alpha"
+},
+{
+"created": "2015-08-07",
+"name": "Version 0.6.2",
+"revision": "0.6.2"
+},
+{
+"created": "2015-05-18",
+"name": "Version 0.7.0",
+"revision": "0.7.0"
+},
+{
+"created": "2015-05-18",
+"name": "Version 0.6.1",
+"revision": "0.6.1"
+},
+{
+"created": "2015-01-23",
+"name": "Version 0.6.0",
+"revision": "0.6.0"
+},
+{
+"created": "2014-12-10",
+"name": "Version 0.5.3",
+"revision": "0.5.3"
+},
+{
+"created": "2014-11-07",
+"name": "Version 0.5.2",
+"revision": "0.5.2"
+},
+{
+"created": "2014-10-08",
+"name": "Version 0.5.1",
+"revision": "0.5.1"
+},
+{
+"created": "2014-09-04",
+"name": "Version 0.5.0",
+"revision": "0.5.0"
+},
+{
+"created": "2014-07-15",
+"name": "Version 0.4.1-incubating",
+"revision": "0.4.1-incubating"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf/tez.git"
+],
+"shortdesc": "Apache Tez is an effort to develop a generic application framework which can be used to process arbitrarily complex directed-acyclic graphs (DAGs) of data-processing tasks and also a re-usable set of data-processing primitives which can be used by other projects."
+},
+"thrift": {
+"bug-database": "https://issues.apache.org/jira/browse/THRIFT",
+"category": "http, library, network-client, network-server",
+"created": "2012-04-14",
+"description": "Apache Thrift allows you to define data types and service interfaces in a simple definition file. Taking that file as input, the compiler generates code to be used to easily build RPC clients and servers that communicate seamlessly across programming languages. Instead of writing a load of boilerplate code to serialize and transport your objects and invoke remote methods, you can get right down to business. ",
+"doap": "https://gitbox.apache.org/repos/asf?p=thrift.git;a=blob_plain;f=doap.rdf;hb=HEAD",
+"download-page": "http://thrift.apache.org/download/",
+"homepage": "http://thrift.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://thrift.apache.org/mailing/",
+"maintainer": [
+{
+"mbox": "mailto:dev@thrift.apache.org",
+"name": "Apache Thrift PMC"
+}
+],
+"name": "Apache Thrift",
+"pmc": "thrift",
+"programming-language": "C, C#, C++, D, Dart, Delphi, Erlang, Go, Haxe, Java, JavaScript, node.js, OCaml, Perl, PHP, Python, Rust, SmallTalk",
+"release": [
+{
+"created": "2009-12-11",
+"name": "Apache Thrift (incubating)",
+"revision": "0.2.0"
+}
+],
+"repository": [
+"https://github.com/apache/thrift.git"
+],
+"shortdesc": "Apache Thrift software provides a framework for scalable cross-language services development, combines a software stack with a code generation engine to build services that work efficiently and seamlessly between C++, Java, Python, PHP, Ruby, Erlang, Perl, Haskell, C#, JavaScript, Node.js, Smalltalk, OCaml and Delphi and other languages. "
 },
 "tika": {
 "account": {
@@ -12923,6 +16922,45 @@
 ],
 "shortdesc": "Apache Traffic Control allows you to build a large scale content delivery network using open source."
 },
+"trafficserver-traffic_server": {
+"bug-database": "https://github.com/apache/trafficserver/issues",
+"category": "http",
+"created": "2011-04-08",
+"description": "Apache Traffic Server is fast, scalable and extensible HTTP/1.1 compliant caching proxy server. ATS can be used as a reverse, forward or even transparent HTTP proxy.\n    ",
+"doap": "https://gitbox.apache.org/repos/asf?p=trafficserver.git;a=blob_plain;f=doc/doap.rdf;hb=HEAD",
+"download-page": "https://trafficserver.apache.org/downloads.html",
+"homepage": "https://trafficserver.apache.org",
+"implements": [
+{
+"body": "IETF",
+"id": "2616",
+"title": "HTTP/1.1",
+"url": "http://www.ietf.org/rfc/rfc2616.txt"
+}
+],
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "https://trafficserver.apache.org/",
+"maintainer": [
+{
+"mbox": "mailto:zwoop@apache.org",
+"name": "Leif Hedstrom"
+}
+],
+"name": "Apache Traffic Server",
+"pmc": "trafficserver",
+"programming-language": "C++",
+"release": [
+{
+"created": "2012-03-21",
+"name": "trafficserver",
+"revision": "3.0.4"
+}
+],
+"repository": [
+"https://git-wip-us.apache.org/repos/asf/trafficserver.git"
+],
+"shortdesc": "Apache Traffic Server is an HTTP proxy cache."
+},
 "turbine": {
 "bug-database": "http://issues.apache.org/jira/browse/TRB",
 "category": "web-framework",
@@ -13074,6 +17112,256 @@
 "https://git-wip-us.apache.org/repos/asf/vcl"
 ],
 "shortdesc": "A cloud computing platform for provisioning and brokering access to dedicated remote compute resources."
+},
+"velocity": {
+"bug-database": "http://issues.apache.org/jira/browse/VELOCITY",
+"category": "library",
+"created": "2006-11-21",
+"description": "Velocity is a Java-based template engine. It permits anyone to use a simple yet powerful template language to reference objects defined in Java code.\n\nWhen Velocity is used for web development, Web designers can work in parallel with Java programmers to develop web sites according to the Model-View-Controller (MVC) model, meaning that web page designers can focus solely on creating a site that looks good, and programmers can focus solely on writing top-notch code. Velocity separates Java code from the web pages, making the web site more maintainable over its lifespan and providing a viable alternative to Java Server Pages (JSPs) or PHP. ",
+"doap": "https://gitbox.apache.org/repos/asf?p=velocity-site.git;a=blob_plain;f=site/doap_engine.rdf;hb=HEAD",
+"download-page": "http://velocity.apache.org/download.cgi",
+"homepage": "http://velocity.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://velocity.apache.org/mail-lists.html",
+"name": "Apache Velocity",
+"pmc": "velocity",
+"programming-language": "Java",
+"release": [
+{
+"created": "2021-02-27",
+"name": "Velocity 2.3",
+"revision": "2.3"
+},
+{
+"created": "2020-02-02",
+"name": "Velocity 2.2",
+"revision": "2.2"
+},
+{
+"created": "2019-03-31",
+"name": "Velocity 2.1",
+"revision": "2.1"
+},
+{
+"created": "2017-08-06",
+"name": "Velocity 2.0",
+"revision": "2.0"
+},
+{
+"created": "2010-11-29",
+"name": "Velocity 1.7",
+"revision": "1.7"
+},
+{
+"created": "2010-05-10",
+"name": "Velocity 1.6.4",
+"revision": "1.6.4"
+},
+{
+"created": "2010-04-16",
+"name": "Velocity 1.7 beta1",
+"revision": "1.7 beta1"
+},
+{
+"created": "2009-12-16",
+"name": "Velocity 1.6.3",
+"revision": "1.6.3"
+},
+{
+"created": "2009-03-18",
+"name": "Velocity 1.6.2",
+"revision": "1.6.2"
+},
+{
+"created": "2008-12-15",
+"name": "Velocity 1.6.1",
+"revision": "1.6.1"
+},
+{
+"created": "2008-12-01",
+"name": "Velocity 1.6",
+"revision": "1.6"
+},
+{
+"created": "2008-10-27",
+"name": "Velocity 1.6 beta2",
+"revision": "1.6 beta2"
+},
+{
+"created": "2008-09-22",
+"name": "Velocity 1.6 beta1",
+"revision": "1.6 beta1"
+},
+{
+"created": "2007-03-06",
+"name": "Latest Stable Release",
+"revision": "1.5"
+},
+{
+"created": "2006-11-24",
+"name": "Velocity 1.5 beta2",
+"revision": "1.5 beta2"
+},
+{
+"created": "2006-09-13",
+"name": "Velocity 1.5 beta1",
+"revision": "1.5 beta1"
+},
+{
+"created": "2004-04-14",
+"name": "Velocity 1.4",
+"revision": "1.4"
+}
+],
+"repository": [
+"http://svn.apache.org/repos/asf/velocity/engine/trunk"
+],
+"shortdesc": "Java-based template engine"
+},
+"velocity-anakia": {
+"bug-database": "http://issues.apache.org/jira/browse/ANAKIA",
+"category": "library",
+"created": "2006-11-21",
+"description": "Anakia is an XML transformation tool that uses JDOM and Velocity to transform XML documents into the format of your choice. It provides an alternative to using Ant's style task and XSL to process XML files.",
+"doap": "https://gitbox.apache.org/repos/asf?p=velocity-site.git;a=blob_plain;f=site/doap_anakia.rdf;hb=HEAD",
+"download-page": "http://velocity.apache.org/download.cgi",
+"homepage": "http://velocity.apache.org/anakia/",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://velocity.apache.org/mail-lists.html",
+"name": "Apache Anakia",
+"pmc": "velocity",
+"programming-language": "Java",
+"release": [
+{
+"created": "2007-04-28",
+"name": "Latest Stable Release",
+"revision": "1.0"
+}
+],
+"repository": [
+"http://svn.apache.org/repos/asf/velocity/anakia/trunk"
+],
+"shortdesc": "Anakia uses Apache Velocity to generate documents based on XML source files."
+},
+"velocity-dvsl": {
+"bug-database": "http://issues.apache.org/jira/browse/VELOCITY",
+"category": "library",
+"created": "2006-11-21",
+"description": "DVSL (Declarative Velocity Style Language) is a tool modeled after XSLT and is intended for general XML transformations using the Velocity Template Language as the templating language for the transformations. The key differences are that it incorporates easy access to Java objects and allows you to use the Velocity template language and it's features for expressing the transformation templates.",
+"doap": "https://gitbox.apache.org/repos/asf?p=velocity-site.git;a=blob_plain;f=site/doap_dvsl.rdf;hb=HEAD",
+"download-page": "http://velocity.apache.org/download.cgi",
+"homepage": "http://velocity.apache.org/dvsl/devel/",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://velocity.apache.org/mail-lists.html",
+"name": "Apache Velocity DVSL",
+"pmc": "velocity",
+"programming-language": "Java",
+"release": [
+{
+"created": "2007-08-13",
+"name": "Latest Stable Release",
+"revision": "1.0"
+}
+],
+"repository": [
+"http://svn.apache.org/repos/asf/velocity/dvsl/trunk"
+],
+"shortdesc": "A tool modeled after XSLT and intended for general XML transformations using the Velocity Template Language."
+},
+"velocity-texen": {
+"bug-database": "http://issues.apache.org/jira/browse/TEXEN",
+"category": "library",
+"created": "2006-11-21",
+"description": "Texen is a general purpose text generating utility. It is capable of producing almost any sort of text output. Driven by Ant, essentially an Ant Task, Texen uses a control template, an optional set of worker templates, and control context to govern the generated output. Although TexenTask can be used directly, it is usually subclassed to initialize your control context before generating any output.",
+"doap": "https://gitbox.apache.org/repos/asf?p=velocity-site.git;a=blob_plain;f=site/doap_texen.rdf;hb=HEAD",
+"download-page": "http://velocity.apache.org/download.cgi",
+"homepage": "http://velocity.apache.org/texen/",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://velocity.apache.org/mail-lists.html",
+"name": "Apache Texen",
+"pmc": "velocity",
+"programming-language": "Java",
+"release": [
+{
+"created": "2007-04-28",
+"name": "Latest Stable Release",
+"revision": "1.0"
+}
+],
+"repository": [
+"http://svn.apache.org/repos/asf/velocity/texen/trunk"
+],
+"shortdesc": "Texen is a general purpose text generating utility based on Apache Velocity and Apache Ant."
+},
+"velocity-tools": {
+"bug-database": "http://issues.apache.org/jira/browse/VELTOOLS",
+"category": "library",
+"created": "2006-11-21",
+"description": "VelocityTools is a collection of Velocity subprojects with a common goal of creating tools and infrastructure for building both web and non-web applications using the Velocity template engine.",
+"doap": "https://gitbox.apache.org/repos/asf?p=velocity-site.git;a=blob_plain;f=site/doap_tools.rdf;hb=HEAD",
+"download-page": "http://velocity.apache.org/download.cgi#tools",
+"homepage": "http://velocity.apache.org/velocity/tools/",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://velocity.apache.org/mail-lists.html",
+"name": "Apache Velocity Tools",
+"pmc": "velocity",
+"programming-language": "Java",
+"release": [
+{
+"created": "2021-02-27",
+"name": "VelocityTools 3.1",
+"revision": "3.0"
+},
+{
+"created": "2018-10-09",
+"name": "VelocityTools 3.0",
+"revision": "3.0"
+},
+{
+"created": "2010-05-10",
+"name": "VelocityTools 2.0",
+"revision": "2.0"
+},
+{
+"created": "2009-05-27",
+"name": "VelocityTools 2.0-beta4",
+"revision": "2.0 beta4"
+},
+{
+"created": "2008-12-01",
+"name": "VelocityTools 2.0-beta3",
+"revision": "2.0 beta3"
+},
+{
+"created": "2008-07-11",
+"name": "VelocityTools 2.0-beta2",
+"revision": "2.0 beta2"
+},
+{
+"created": "2007-12-26",
+"name": "VelocityTools 2.0-beta1",
+"revision": "2.0 beta1"
+},
+{
+"created": "2007-11-26",
+"name": "VelocityTools 1.4",
+"revision": "1.4"
+},
+{
+"created": "2007-07-02",
+"name": "VelocityTools 2.0-alpha1",
+"revision": "2.0 alpha1"
+},
+{
+"created": "2007-02-08",
+"name": "VelocityTools 1.3",
+"revision": "1.3"
+}
+],
+"repository": [
+"http://svn.apache.org/repos/asf/velocity/tools/trunk"
+],
+"shortdesc": "Tools and infrastructure for the template engine"
 },
 "webservices-axiom": {
 "bug-database": "http://issues.apache.org/jira/browse/AXIOM",
@@ -13328,6 +17616,24 @@
 "https://svn.apache.org/repos/asf/webservices/woden/"
 ],
 "shortdesc": "The Woden project is a subproject of the Apache Web Services to develop a Java class library for reading, manipulating, creating and writing WSDL documents, initially to support WSDL 2.0 but with the longer term aim of supporting past, present and future versions of WSDL"
+},
+"whimsy": {
+"bug-database": "https://issues.apache.org/jira/browse/WHIMSY",
+"category": "content",
+"created": "2015-06-25",
+"description": "The production Whimsy server also has a number of tools that automate some organizational processes,\n    like adding PMC members to official corporate rosters or reading, updating, and approving the monthly board agenda.",
+"doap": "https://gitbox.apache.org/repos/asf?p=whimsy.git;a=blob_plain;f=doap_Whimsy.rdf;hb=HEAD",
+"homepage": "http://whimsy.apache.org/",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://lists.apache.org/list.html?dev@whimsical.apache.org",
+"name": "Apache Whimsy",
+"pmc": "whimsy",
+"programming-language": "JavaScript, Ruby",
+"repository": [
+"https://github.com/apache/whimsy.git",
+"https://gitbox.apache.org/repos/asf/whimsy.git"
+],
+"shortdesc": "Tools that display and visualize various bits of data related to ASF organizations and processes."
 },
 "wicket": {
 "bug-database": "http://issues.apache.org/jira/browse/WICKET",
