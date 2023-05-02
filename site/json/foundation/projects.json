@@ -15314,6 +15314,11 @@
 "programming-language": "Java",
 "release": [
 {
+"created": "2023-05-01",
+"name": "solr-9.2.1",
+"revision": "9.2.1"
+},
+{
 "created": "2023-03-24",
 "name": "solr-9.2.0",
 "revision": "9.2.0"
@@ -17368,7 +17373,7 @@
 "category": "library, xml",
 "created": "2010-05-30",
 "description": "Apache Axiom is a StAX-based, XML Infoset compliant object model which supports on-demand building of the object tree. It supports a novel \"pull-through\" model which allows one to turn off the tree building and directly access the underlying pull event stream. It also has built in support for XML Optimized Packaging (XOP) and MTOM, the combination of which allows XML to carry binary data efficiently and in a transparent manner. The combination of these is an easy to use API with a very high performant architecture!",
-"doap": "http://svn.apache.org/repos/asf/webservices/axiom/trunk/etc/axiom.rdf",
+"doap": "https://gitbox.apache.org/repos/asf?p=ws-axiom.git;a=blob_plain;f=etc/axiom.rdf;hb=HEAD",
 "download-page": "http://ws.apache.org/axiom/download.cgi",
 "homepage": "http://ws.apache.org/axiom/",
 "implements": [
@@ -17419,7 +17424,7 @@
 "mailing-list": "http://ws.apache.org/axiom/mail-lists.html",
 "maintainer": [
 {
-"mbox": "mailto:dev@ws.apache.org?subject=[Axiom]",
+"mbox": "mailto:dev@ws.apache.org?subject=%5BAxiom%5D",
 "name": "Axiom Development Team"
 }
 ],
