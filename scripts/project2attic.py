@@ -93,10 +93,10 @@ def update_doap(doap, source):
                 catWrite = False
                 w.write('    <category rdf:resource="http://projects.apache.org/category/retired" />\n')
             w.write(l) # write the original line
-            
+
     os.system("diff %s*" % (infile))
     os.rename(tmpfile,infile)
-    
+
 def update_project_xml(pid):
     xmlfile = join(datadir,'projects.xml')
     xmlfilet = join(datadir,'projects.xml.t')
@@ -114,7 +114,9 @@ def update_project_xml(pid):
                 # http://svn.apache.org/repos/asf/tomee/tomee/trunk/doap_tomee.rdf
                 # https://gitbox.apache.org/repos/asf?p=trafficserver.git;
                 # http://zookeeper.apache.org/doap.rdf
-                regex = "(repos/asf/%s/|p=%s\.git|^https?://%s\.apache)" % (pid,pid,pid)
+                # https://raw.githubusercontent.com/apache/oodt/master/doap_oodt.rdf
+                # https://raw.githubusercontent.com/apache/directory-site/master/static/doap_fortress.rdf
+                regex = f"(repos/asf/{pid}/|p={pid}\.git|^https?://{pid}\.apache|githubusercontent\.com/apache/{pid}(-site)?/)"
                 if re.search(regex,url,flags=re.IGNORECASE):
                     print("Found %s at %s" % (pid,url))
                     l = l.replace('<location>','<!-- retired: location>').replace('</location>','</location -->')
@@ -128,15 +130,14 @@ def update_project_xml(pid):
         print("Could not find a unique match for %s - found %d" % (pid,found))
         os.remove(xmlfilet)
     else:
-        if re.search("//svn.apache.org/",source):
+        if "//svn.apache.org/" in source:
             os.system("svn cp %s %s" % (source.replace('http://','https://'), doapfile))
         else:
             os.system("wget -O %s '%s'" % (doapfile,source))
             os.system("svn add %s" % (doapfile))
-            pass
         update_doap(doapfile, source)
         os.system("diff %s %s" % (xmlfile,xmlfilet))
-        
+
         os.rename(xmlfilet,xmlfile)
         os.system("svn status %s" % dirname(doapfile))
 
