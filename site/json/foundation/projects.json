@@ -2620,6 +2620,87 @@
 "shortdesc": "Apache Oltu is an OAuth protocol implementation in Java",
 "vendor": "The Apache Software Foundation"
 },
+"attic-oodt": {
+"bug-database": "https://issues.apache.org/jira/browse/OODT",
+"category": "retired, big-data",
+"created": "2012-04-14",
+"description": "Apache OODT software is component based, and offers a software architecture beyond simple science applications.",
+"doap": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/oodt.rdf",
+"download-page": "http://oodt.apache.org/download.html",
+"homepage": "http://oodt.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://oodt.apache.org/contact.html",
+"maintainer": [
+{
+"mbox": "mailto:dev@oodt.apache.org",
+"name": "Apache OODT PMC"
+}
+],
+"name": "Apache OODT",
+"pmc": "attic",
+"programming-language": "Java",
+"release": [
+{
+"created": "2015-09-13",
+"name": "Apache OODT 0.10",
+"revision": "0.10"
+},
+{
+"created": "2015-06-06",
+"name": "Apache OODT 0.9",
+"revision": "0.9"
+},
+{
+"created": "2015-01-07",
+"name": "Apache OODT 0.8.1",
+"revision": "0.8.1"
+},
+{
+"created": "2014-12-01",
+"name": "Apache OODT 0.8",
+"revision": "0.8"
+},
+{
+"created": "2014-09-01",
+"name": "Apache OODT 0.7",
+"revision": "0.7"
+},
+{
+"created": "2013-07-01",
+"name": "Apache OODT 0.6",
+"revision": "0.6"
+},
+{
+"created": "2012-10-01",
+"name": "Apache OODT 0.5",
+"revision": "0.5"
+},
+{
+"created": "2012-06-01",
+"name": "Apache OODT 0.4",
+"revision": "0.4"
+},
+{
+"created": "2011-06-01",
+"name": "Apache OODT 0.3",
+"revision": "0.3"
+},
+{
+"created": "2011-02-08",
+"name": "Apache OODT 0.2",
+"revision": "0.2"
+},
+{
+"created": "2010-11-09",
+"name": "Apache OODT 0.1-incubating",
+"revision": "0.1-incubating"
+}
+],
+"repository": [
+"https://git-wip-us.apache.org/repos/asf/oodt.git"
+],
+"shortdesc": "Apache OODT software provides metadata for middleware (and vice versa):\n-    Transparent access to distributed resources\n-    Data discovery and query optimization\n-    Distributed processing and virtual archives\n."
+},
 "attic-open_climate_workbench": {
 "bug-database": "https://issues.apache.org/jira/browse/CLIMATE",
 "category": "retired, content",
@@ -13290,87 +13371,6 @@
 }
 ],
 "shortdesc": "Apache Olingo is a Java and JavaScript library that implements the Open Data Protocol (OData). Apache Olingo serves client and server aspects of OData. It currently supports OData 2.0 and OData 4.0 (beta). The latter is the OASIS version of the protocol: OASIS Open Data Protocol (OData) TC.\n    "
-},
-"oodt": {
-"bug-database": "https://issues.apache.org/jira/browse/OODT",
-"category": "big-data, retired",
-"created": "2012-04-14",
-"description": "Apache OODT software is component based, and offers a software architecture beyond simple science applications.",
-"doap": "https://raw.githubusercontent.com/apache/oodt/master/doap_oodt.rdf",
-"download-page": "http://oodt.apache.org/download.html",
-"homepage": "http://oodt.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://oodt.apache.org/contact.html",
-"maintainer": [
-{
-"mbox": "mailto:dev@oodt.apache.org",
-"name": "Apache OODT PMC"
-}
-],
-"name": "Apache OODT",
-"pmc": "attic",
-"programming-language": "Java",
-"release": [
-{
-"created": "2015-09-13",
-"name": "Apache OODT 0.10",
-"revision": "0.10"
-},
-{
-"created": "2015-06-06",
-"name": "Apache OODT 0.9",
-"revision": "0.9"
-},
-{
-"created": "2015-01-07",
-"name": "Apache OODT 0.8.1",
-"revision": "0.8.1"
-},
-{
-"created": "2014-12-01",
-"name": "Apache OODT 0.8",
-"revision": "0.8"
-},
-{
-"created": "2014-09-01",
-"name": "Apache OODT 0.7",
-"revision": "0.7"
-},
-{
-"created": "2013-07-01",
-"name": "Apache OODT 0.6",
-"revision": "0.6"
-},
-{
-"created": "2012-10-01",
-"name": "Apache OODT 0.5",
-"revision": "0.5"
-},
-{
-"created": "2012-06-01",
-"name": "Apache OODT 0.4",
-"revision": "0.4"
-},
-{
-"created": "2011-06-01",
-"name": "Apache OODT 0.3",
-"revision": "0.3"
-},
-{
-"created": "2011-02-08",
-"name": "Apache OODT 0.2",
-"revision": "0.2"
-},
-{
-"created": "2010-11-09",
-"name": "Apache OODT 0.1-incubating",
-"revision": "0.1-incubating"
-}
-],
-"repository": [
-"https://git-wip-us.apache.org/repos/asf/oodt.git"
-],
-"shortdesc": "Apache OODT software provides metadata for middleware (and vice versa):\n-    Transparent access to distributed resources\n-    Data discovery and query optimization\n-    Distributed processing and virtual archives\n."
 },
 "oozie": {
 "bug-database": "https://issues.apache.org/jira/browse/OOZIE",
