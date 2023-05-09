@@ -261,7 +261,6 @@
 "tx-control-1.0.1": "2019-02-27"
 },
 "arrow": {
-"apache-arrow-11.0.0": "2023-01-18",
 "apache-arrow-12.0.0": "2023-04-21",
 "apache-arrow-adbc-0.3.0": "2023-03-17",
 "apache-arrow-ballista-0.11.0": "2023-02-28",
@@ -835,7 +834,10 @@
 "cxf": {
 "apache-cxf-3.4.10": "2022-12-13",
 "apache-cxf-3.5.5": "2022-12-13",
+"apache-cxf-3.5.6": "2023-05-08",
+"apache-cxf-3.6.0": "2023-05-08",
 "apache-cxf-4.0.0": "2022-12-22",
+"apache-cxf-4.0.1": "2023-05-08",
 "apache-fediz-1.5.1": "2020-11-30",
 "apache-fediz-1.6.1": "2022-12-23",
 "fediz-1.5.1": "2020-11-30",
@@ -1108,13 +1110,17 @@
 "flink-connector-aws-4.1.0": "2023-03-16",
 "flink-connector-cassandra-3.0.0": "2022-11-25",
 "flink-connector-elasticsearch-3.0.0": "2022-11-03",
+"flink-connector-elasticsearch-3.0.1": "2023-04-13",
 "flink-connector-gcp-pubsub-3.0.0": "2023-01-20",
 "flink-connector-jdbc-3.1.0": "2023-04-13",
 "flink-connector-kafka-3.0.0": "2023-04-12",
 "flink-connector-mongodb-1.0.1": "2023-04-13",
 "flink-connector-opensearch-1.0.0": "2022-12-16",
+"flink-connector-opensearch-1.0.1": "2023-04-13",
 "flink-connector-pulsar-3.0.0": "2022-12-15",
+"flink-connector-pulsar-4.0.0": "2023-04-13",
 "flink-connector-rabbitmq-3.0.0": "2022-12-13",
+"flink-connector-rabbitmq-3.0.1": "2023-04-13",
 "flink-kubernetes-operator-1.3.1": "2023-01-04",
 "flink-kubernetes-operator-1.3.1-helm": "2023-01-04",
 "flink-kubernetes-operator-1.4.0": "2023-02-15",
@@ -1123,6 +1129,7 @@
 "flink-ml-2.2.0": "2023-04-12",
 "flink-shaded-15.0": "2022-01-18",
 "flink-shaded-16.1": "2022-11-08",
+"flink-shaded-17.0": "2023-04-20",
 "flink-statefun-3.2.0": "2022-01-25",
 "flink-table-store-0.2.1": "2022-10-08",
 "flink-table-store-0.3.0": "2023-01-09",
@@ -1214,11 +1221,11 @@
 "apache-groovy-2.4.21": "2020-12-03",
 "apache-groovy-2.5.22": "2023-03-30",
 "apache-groovy-3.0.17": "2023-03-31",
-"apache-groovy-4.0.11": "2023-03-31",
+"apache-groovy-4.0.12": "2023-05-08",
 "apache-groovy-sdk-2.4.21": "2020-12-03",
 "apache-groovy-sdk-2.5.22": "2023-03-30",
 "apache-groovy-sdk-3.0.17": "2023-03-31",
-"apache-groovy-sdk-4.0.11": "2023-03-31"
+"apache-groovy-sdk-4.0.12": "2023-05-08"
 },
 "guacamole": {
 "guacamole-client-1.5.0": "2023-02-14",
@@ -1252,7 +1259,7 @@
 "hbase": {
 "RELEASENOTES.md": "2023-03-31",
 "hbase-2.4.17": "2023-03-31",
-"hbase-2.5.3": "2023-02-01",
+"hbase-2.5.4": "2023-04-06",
 "hbase-3.0.0-alpha-3": "2022-06-27",
 "hbase-connectors-1.0.0": "2019-05-03",
 "hbase-filesystem-1.0.0-alpha1": "2019-06-06",
@@ -1503,13 +1510,13 @@
 "filevault-package-maven-plugin-1.3.2": "2022-12-12",
 "jackrabbit-2.14.10": "2021-09-06",
 "jackrabbit-2.16.10": "2022-09-07",
-"jackrabbit-2.20.9": "2023-03-06",
+"jackrabbit-2.20.10": "2023-05-03",
 "jackrabbit-2.21.16": "2023-03-30",
 "jackrabbit-filevault-3.2.8": "2021-03-11",
 "jackrabbit-filevault-3.6.8": "2023-01-05",
 "jackrabbit-jca-2.14.10": "2021-09-06",
 "jackrabbit-jca-2.16.10": "2022-09-07",
-"jackrabbit-jca-2.20.9": "2023-03-06",
+"jackrabbit-jca-2.20.10": "2023-05-03",
 "jackrabbit-jca-2.21.16": "2023-03-30",
 "jackrabbit-oak-1.22.15": "2023-04-04",
 "jackrabbit-oak-1.4.26": "2020-02-17",
@@ -3663,7 +3670,7 @@
 "org.apache.sling.feature-2.0.0": "2023-02-13",
 "org.apache.sling.feature.analyser-2.0.0": "2023-02-13",
 "org.apache.sling.feature.apiregions-1.1.8": "2021-06-08",
-"org.apache.sling.feature.cpconverter-1.3.0": "2023-02-13",
+"org.apache.sling.feature.cpconverter-1.3.2": "2023-05-08",
 "org.apache.sling.feature.diff-0.1.0": "2023-02-13",
 "org.apache.sling.feature.extension.apiregions-2.0.0": "2023-02-13",
 "org.apache.sling.feature.extension.content-1.0.10": "2021-03-16",
@@ -3997,15 +4004,15 @@
 "synapse-distribution-3.0.1": "2017-12-09"
 },
 "syncope": {
-"apache-syncope-2.1.13": "2022-12-09",
-"apache-syncope-console-2.1.13": "2022-12-09",
-"apache-syncope-enduser-2.1.13": "2022-12-09",
-"org.apache.syncope.ide.eclipse.site-2.1.13": "2022-12-09",
-"syncope-2.1.13": "2022-12-09",
-"syncope-3.0.2": "2023-02-17",
-"syncope-client-cli-2.1.13": "2022-12-09",
-"syncope-core-upgrade-2.1.13": "2022-12-09",
-"syncope-ide-netbeans-2.1.13.nbm": "2022-12-09"
+"apache-syncope-2.1.14": "2023-05-05",
+"apache-syncope-console-2.1.14": "2023-05-05",
+"apache-syncope-enduser-2.1.14": "2023-05-05",
+"org.apache.syncope.ide.eclipse.site-2.1.14": "2023-05-05",
+"syncope-2.1.14": "2023-05-05",
+"syncope-3.0.3": "2023-05-05",
+"syncope-client-cli-2.1.14": "2023-05-05",
+"syncope-core-upgrade-2.1.14": "2023-05-05",
+"syncope-ide-netbeans-2.1.14.nbm": "2023-05-05"
 },
 "systemds": {
 "systemds-2.0.0": "2020-10-14",
@@ -4038,11 +4045,7 @@
 "tika-2.7.0": "2023-01-31"
 },
 "tinkerpop": {
-"apache-tinkerpop-3.5.4": "2022-07-26",
-"apache-tinkerpop-3.5.5": "2023-01-26",
 "apache-tinkerpop-3.5.6": "2023-05-05",
-"apache-tinkerpop-3.6.1": "2022-07-26",
-"apache-tinkerpop-3.6.2": "2023-01-26",
 "apache-tinkerpop-3.6.3": "2023-05-05"
 },
 "tomcat": {

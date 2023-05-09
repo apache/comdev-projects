@@ -766,9 +766,6 @@
 ]
 },
 "arrow": {
-"apache-arrow-11.0.0": [
-"arrow/arrow-11.0.0/apache-arrow-11.0.0.tar.gz"
-],
 "apache-arrow-12.0.0": [
 "arrow/arrow-12.0.0/apache-arrow-12.0.0.tar.gz"
 ],
@@ -2573,11 +2570,29 @@
 "cxf/3.5.5/apache-cxf-3.5.5.tar.gz",
 "cxf/3.5.5/apache-cxf-3.5.5.zip"
 ],
+"apache-cxf-3.5.6": [
+"cxf/3.5.6/apache-cxf-3.5.6-src.tar.gz",
+"cxf/3.5.6/apache-cxf-3.5.6-src.zip",
+"cxf/3.5.6/apache-cxf-3.5.6.tar.gz",
+"cxf/3.5.6/apache-cxf-3.5.6.zip"
+],
+"apache-cxf-3.6.0": [
+"cxf/3.6.0/apache-cxf-3.6.0-src.tar.gz",
+"cxf/3.6.0/apache-cxf-3.6.0-src.zip",
+"cxf/3.6.0/apache-cxf-3.6.0.tar.gz",
+"cxf/3.6.0/apache-cxf-3.6.0.zip"
+],
 "apache-cxf-4.0.0": [
 "cxf/4.0.0/apache-cxf-4.0.0-src.tar.gz",
 "cxf/4.0.0/apache-cxf-4.0.0-src.zip",
 "cxf/4.0.0/apache-cxf-4.0.0.tar.gz",
 "cxf/4.0.0/apache-cxf-4.0.0.zip"
+],
+"apache-cxf-4.0.1": [
+"cxf/4.0.1/apache-cxf-4.0.1-src.tar.gz",
+"cxf/4.0.1/apache-cxf-4.0.1-src.zip",
+"cxf/4.0.1/apache-cxf-4.0.1.tar.gz",
+"cxf/4.0.1/apache-cxf-4.0.1.zip"
 ],
 "apache-fediz-1.5.1": [
 "cxf/fediz/1.5.1/apache-fediz-1.5.1.zip"
@@ -3480,6 +3495,9 @@
 "flink-connector-elasticsearch-3.0.0": [
 "flink/flink-connector-elasticsearch-3.0.0/flink-connector-elasticsearch-3.0.0-src.tgz"
 ],
+"flink-connector-elasticsearch-3.0.1": [
+"flink/flink-connector-elasticsearch-3.0.1/flink-connector-elasticsearch-3.0.1-src.tgz"
+],
 "flink-connector-gcp-pubsub-3.0.0": [
 "flink/flink-connector-gcp-pubsub-3.0.0/flink-connector-gcp-pubsub-3.0.0-src.tgz"
 ],
@@ -3495,11 +3513,20 @@
 "flink-connector-opensearch-1.0.0": [
 "flink/flink-connector-opensearch-1.0.0/flink-connector-opensearch-1.0.0-src.tgz"
 ],
+"flink-connector-opensearch-1.0.1": [
+"flink/flink-connector-opensearch-1.0.1/flink-connector-opensearch-1.0.1-src.tgz"
+],
 "flink-connector-pulsar-3.0.0": [
 "flink/flink-connector-pulsar-3.0.0/flink-connector-pulsar-3.0.0-src.tgz"
 ],
+"flink-connector-pulsar-4.0.0": [
+"flink/flink-connector-pulsar-4.0.0/flink-connector-pulsar-4.0.0-src.tgz"
+],
 "flink-connector-rabbitmq-3.0.0": [
 "flink/flink-connector-rabbitmq-3.0.0/flink-connector-rabbitmq-3.0.0-src.tgz"
+],
+"flink-connector-rabbitmq-3.0.1": [
+"flink/flink-connector-rabbitmq-3.0.1/flink-connector-rabbitmq-3.0.1-src.tgz"
 ],
 "flink-kubernetes-operator-1.3.1": [
 "flink/flink-kubernetes-operator-1.3.1/flink-kubernetes-operator-1.3.1-src.tgz"
@@ -3524,6 +3551,9 @@
 ],
 "flink-shaded-16.1": [
 "flink/flink-shaded-16.1/flink-shaded-16.1-src.tgz"
+],
+"flink-shaded-17.0": [
+"flink/flink-shaded-17.0/flink-shaded-17.0-src.tgz"
 ],
 "flink-statefun-3.2.0": [
 "flink/flink-statefun-3.2.0/flink-statefun-3.2.0-src.tgz"
@@ -3778,8 +3808,8 @@
 "apache-groovy-3.0.17": [
 "groovy/3.0.17/sources/apache-groovy-src-3.0.17.zip"
 ],
-"apache-groovy-4.0.11": [
-"groovy/4.0.11/sources/apache-groovy-src-4.0.11.zip"
+"apache-groovy-4.0.12": [
+"groovy/4.0.12/sources/apache-groovy-src-4.0.12.zip"
 ],
 "apache-groovy-sdk-2.4.21": [
 "groovy/2.4.21/distribution/apache-groovy-sdk-2.4.21.zip"
@@ -3790,8 +3820,8 @@
 "apache-groovy-sdk-3.0.17": [
 "groovy/3.0.17/distribution/apache-groovy-sdk-3.0.17.zip"
 ],
-"apache-groovy-sdk-4.0.11": [
-"groovy/4.0.11/distribution/apache-groovy-sdk-4.0.11.zip"
+"apache-groovy-sdk-4.0.12": [
+"groovy/4.0.12/distribution/apache-groovy-sdk-4.0.12.zip"
 ]
 },
 "guacamole": {
@@ -3950,7 +3980,7 @@
 "hbase": {
 "RELEASENOTES.md": [
 "hbase/2.4.17/RELEASENOTES.md",
-"hbase/2.5.3/RELEASENOTES.md",
+"hbase/2.5.4/RELEASENOTES.md",
 "hbase/3.0.0-alpha-3/RELEASENOTES.md",
 "hbase/hbase-filesystem-1.0.0-alpha1/RELEASENOTES.md",
 "hbase/hbase-operator-tools-1.2.0/RELEASENOTES.md",
@@ -3959,8 +3989,8 @@
 "hbase-2.4.17": [
 "hbase/2.4.17/hbase-2.4.17-src.tar.gz"
 ],
-"hbase-2.5.3": [
-"hbase/2.5.3/hbase-2.5.3-src.tar.gz"
+"hbase-2.5.4": [
+"hbase/2.5.4/hbase-2.5.4-src.tar.gz"
 ],
 "hbase-3.0.0-alpha-3": [
 "hbase/3.0.0-alpha-3/hbase-3.0.0-alpha-3-src.tar.gz"
@@ -4603,9 +4633,9 @@
 "jackrabbit/2.16.10/jackrabbit-2.16.10-src.zip",
 "jackrabbit/2.16.10/jackrabbit-webapp-2.16.10.war"
 ],
-"jackrabbit-2.20.9": [
-"jackrabbit/2.20.9/jackrabbit-2.20.9-src.zip",
-"jackrabbit/2.20.9/jackrabbit-webapp-2.20.9.war"
+"jackrabbit-2.20.10": [
+"jackrabbit/2.20.10/jackrabbit-2.20.10-src.zip",
+"jackrabbit/2.20.10/jackrabbit-webapp-2.20.10.war"
 ],
 "jackrabbit-2.21.16": [
 "jackrabbit/2.21.16/jackrabbit-2.21.16-src.zip",
@@ -4623,8 +4653,8 @@
 "jackrabbit-jca-2.16.10": [
 "jackrabbit/2.16.10/jackrabbit-jca-2.16.10.rar"
 ],
-"jackrabbit-jca-2.20.9": [
-"jackrabbit/2.20.9/jackrabbit-jca-2.20.9.rar"
+"jackrabbit-jca-2.20.10": [
+"jackrabbit/2.20.10/jackrabbit-jca-2.20.10.rar"
 ],
 "jackrabbit-jca-2.21.16": [
 "jackrabbit/2.21.16/jackrabbit-jca-2.21.16.rar"
@@ -11104,10 +11134,10 @@
 "org.apache.sling.feature.apiregions-1.1.8": [
 "sling/org.apache.sling.feature.apiregions-1.1.8-source-release.zip"
 ],
-"org.apache.sling.feature.cpconverter-1.3.0": [
-"sling/org.apache.sling.feature.cpconverter-1.3.0-source-release.zip",
-"sling/org.apache.sling.feature.cpconverter-1.3.0.tar.gz",
-"sling/org.apache.sling.feature.cpconverter-1.3.0.zip"
+"org.apache.sling.feature.cpconverter-1.3.2": [
+"sling/org.apache.sling.feature.cpconverter-1.3.2-source-release.zip",
+"sling/org.apache.sling.feature.cpconverter-1.3.2.tar.gz",
+"sling/org.apache.sling.feature.cpconverter-1.3.2.zip"
 ],
 "org.apache.sling.feature.diff-0.1.0": [
 "sling/org.apache.sling.feature.diff-0.1.0-source-release.zip"
@@ -12111,34 +12141,34 @@
 ]
 },
 "syncope": {
-"apache-syncope-2.1.13": [
-"syncope/2.1.13/apache-syncope-2.1.13.deb"
+"apache-syncope-2.1.14": [
+"syncope/2.1.14/apache-syncope-2.1.14.deb"
 ],
-"apache-syncope-console-2.1.13": [
-"syncope/2.1.13/apache-syncope-console-2.1.13.deb"
+"apache-syncope-console-2.1.14": [
+"syncope/2.1.14/apache-syncope-console-2.1.14.deb"
 ],
-"apache-syncope-enduser-2.1.13": [
-"syncope/2.1.13/apache-syncope-enduser-2.1.13.deb"
+"apache-syncope-enduser-2.1.14": [
+"syncope/2.1.14/apache-syncope-enduser-2.1.14.deb"
 ],
-"org.apache.syncope.ide.eclipse.site-2.1.13": [
-"syncope/2.1.13/org.apache.syncope.ide.eclipse.site-2.1.13.zip"
+"org.apache.syncope.ide.eclipse.site-2.1.14": [
+"syncope/2.1.14/org.apache.syncope.ide.eclipse.site-2.1.14.zip"
 ],
-"syncope-2.1.13": [
-"syncope/2.1.13/syncope-2.1.13-source-release.zip",
-"syncope/2.1.13/syncope-standalone-2.1.13-distribution.zip"
+"syncope-2.1.14": [
+"syncope/2.1.14/syncope-2.1.14-source-release.zip",
+"syncope/2.1.14/syncope-standalone-2.1.14-distribution.zip"
 ],
-"syncope-3.0.2": [
-"syncope/3.0.2/syncope-3.0.2-source-release.zip",
-"syncope/3.0.2/syncope-standalone-3.0.2-distribution.zip"
+"syncope-3.0.3": [
+"syncope/3.0.3/syncope-3.0.3-source-release.zip",
+"syncope/3.0.3/syncope-standalone-3.0.3-distribution.zip"
 ],
-"syncope-client-cli-2.1.13": [
-"syncope/2.1.13/syncope-client-cli-2.1.13.zip"
+"syncope-client-cli-2.1.14": [
+"syncope/2.1.14/syncope-client-cli-2.1.14.zip"
 ],
-"syncope-core-upgrade-2.1.13": [
-"syncope/2.1.13/syncope-core-upgrade-2.1.13.zip"
+"syncope-core-upgrade-2.1.14": [
+"syncope/2.1.14/syncope-core-upgrade-2.1.14.zip"
 ],
-"syncope-ide-netbeans-2.1.13.nbm": [
-"syncope/2.1.13/syncope-ide-netbeans-2.1.13.nbm"
+"syncope-ide-netbeans-2.1.14.nbm": [
+"syncope/2.1.14/syncope-ide-netbeans-2.1.14.nbm"
 ]
 },
 "systemds": {
@@ -12218,20 +12248,8 @@
 ]
 },
 "tinkerpop": {
-"apache-tinkerpop-3.5.4": [
-"tinkerpop/3.5.4/apache-tinkerpop-3.5.4-src.zip"
-],
-"apache-tinkerpop-3.5.5": [
-"tinkerpop/3.5.5/apache-tinkerpop-3.5.5-src.zip"
-],
 "apache-tinkerpop-3.5.6": [
 "tinkerpop/3.5.6/apache-tinkerpop-3.5.6-src.zip"
-],
-"apache-tinkerpop-3.6.1": [
-"tinkerpop/3.6.1/apache-tinkerpop-3.6.1-src.zip"
-],
-"apache-tinkerpop-3.6.2": [
-"tinkerpop/3.6.2/apache-tinkerpop-3.6.2-src.zip"
 ],
 "apache-tinkerpop-3.6.3": [
 "tinkerpop/3.6.3/apache-tinkerpop-3.6.3-src.zip"
