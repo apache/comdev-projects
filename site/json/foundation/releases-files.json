@@ -135,10 +135,8 @@
 "apache-age-1.1.0": [
 "age/1.1.0/apache-age-1.1.0-src.tar.gz"
 ],
-"apache-age-1.2.0": [
-"age/PG11/1.2.0/apache-age-1.2.0-src.tar.gz"
-],
 "apache-age-1.3.0": [
+"age/PG11/1.3.0/apache-age-1.3.0-src.tar.gz",
 "age/PG12/1.3.0/apache-age-1.3.0-src.tar.gz",
 "age/PG13/1.3.0/apache-age-1.3.0-src.tar.gz"
 ],
@@ -1437,6 +1435,9 @@
 ],
 "camel-kamelets-sources-3.20.3": [
 "camel/camel-kamelets/3.20.3/camel-kamelets-sources-3.20.3.tar.gz"
+],
+"camel-kamelets-sources-3.20.4": [
+"camel/camel-kamelets/3.20.4/camel-kamelets-sources-3.20.4.tar.gz"
 ],
 "camel-kamelets-sources-4.0.0-M1": [
 "camel/camel-kamelets/4.0.0-M1/camel-kamelets-sources-4.0.0-M1.tar.gz"
@@ -4303,17 +4304,11 @@
 ]
 },
 "inlong": {
-"apache-inlong-1.5.0": [
-"inlong/1.5.0/apache-inlong-1.5.0-src.tar.gz"
+"apache-inlong-1.7.0": [
+"inlong/1.7.0/apache-inlong-1.7.0-src.tar.gz"
 ],
-"apache-inlong-1.5.0-sort-connectors": [
-"inlong/1.5.0/apache-inlong-1.5.0-sort-connectors.tar.gz"
-],
-"apache-inlong-1.6.0": [
-"inlong/1.6.0/apache-inlong-1.6.0-src.tar.gz"
-],
-"apache-inlong-1.6.0-sort-connectors": [
-"inlong/1.6.0/apache-inlong-1.6.0-sort-connectors.tar.gz"
+"apache-inlong-1.7.0-sort-connectors": [
+"inlong/1.7.0/apache-inlong-1.7.0-sort-connectors.tar.gz"
 ]
 },
 "iotdb": {
@@ -10164,6 +10159,9 @@
 "rocketmq-all-5.1.0": [
 "rocketmq/5.1.0/rocketmq-all-5.1.0-source-release.zip"
 ],
+"rocketmq-all-5.1.1": [
+"rocketmq/5.1.1/rocketmq-all-5.1.1-source-release.zip"
+],
 "rocketmq-client-cpp-2.1.0": [
 "rocketmq/rocketmq-client-cpp/2.1.0/rocketmq-client-cpp-2.1.0-source-release.tar.gz"
 ],
@@ -10983,14 +10981,14 @@
 "org.apache.sling.installer.console-1.0.4": [
 "sling/org.apache.sling.installer.console-1.0.4-source-release.zip"
 ],
-"org.apache.sling.installer.console-1.1.0": [
-"sling/org.apache.sling.installer.console-1.1.0-source-release.zip"
+"org.apache.sling.installer.console-1.1.2": [
+"sling/org.apache.sling.installer.console-1.1.2-source-release.zip"
 ],
 "org.apache.sling.installer.core-3.12.0": [
 "sling/org.apache.sling.installer.core-3.12.0-source-release.zip"
 ],
-"org.apache.sling.installer.factory.configuration-1.4.2": [
-"sling/org.apache.sling.installer.factory.configuration-1.4.2-source-release.zip"
+"org.apache.sling.installer.factory.configuration-1.4.4": [
+"sling/org.apache.sling.installer.factory.configuration-1.4.4-source-release.zip"
 ],
 "org.apache.sling.installer.factory.feature-0.7.0": [
 "sling/org.apache.sling.installer.factory.feature-0.7.0-source-release.zip"
@@ -11476,8 +11474,8 @@
 "org.apache.sling.tenant-1.1.6": [
 "sling/org.apache.sling.tenant-1.1.6-source-release.zip"
 ],
-"org.apache.sling.testing.caconfig-mock-plugin-1.4.2": [
-"sling/org.apache.sling.testing.caconfig-mock-plugin-1.4.2-source-release.zip"
+"org.apache.sling.testing.caconfig-mock-plugin-1.5.0": [
+"sling/org.apache.sling.testing.caconfig-mock-plugin-1.5.0-source-release.zip"
 ],
 "org.apache.sling.testing.clients-3.0.18": [
 "sling/org.apache.sling.testing.clients-3.0.18-source-release.zip"
@@ -11488,35 +11486,35 @@
 "org.apache.sling.testing.hamcrest-1.0.2": [
 "sling/org.apache.sling.testing.hamcrest-1.0.2-source-release.zip"
 ],
-"org.apache.sling.testing.jcr-mock-1.6.8": [
-"sling/org.apache.sling.testing.jcr-mock-1.6.8-source-release.zip"
+"org.apache.sling.testing.jcr-mock-1.6.10": [
+"sling/org.apache.sling.testing.jcr-mock-1.6.10-source-release.zip"
 ],
 "org.apache.sling.testing.logging-mock-2.0.0": [
 "sling/org.apache.sling.testing.logging-mock-2.0.0-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock-3.3.6": [
-"sling/org.apache.sling.testing.osgi-mock-3.3.6-source-release.zip"
+"org.apache.sling.testing.osgi-mock-3.3.8": [
+"sling/org.apache.sling.testing.osgi-mock-3.3.8-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.core-3.3.6": [
-"sling/org.apache.sling.testing.osgi-mock.core-3.3.6-source-release.zip"
+"org.apache.sling.testing.osgi-mock.core-3.3.8": [
+"sling/org.apache.sling.testing.osgi-mock.core-3.3.8-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.junit4-3.3.6": [
-"sling/org.apache.sling.testing.osgi-mock.junit4-3.3.6-source-release.zip"
+"org.apache.sling.testing.osgi-mock.junit4-3.3.8": [
+"sling/org.apache.sling.testing.osgi-mock.junit4-3.3.8-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.junit5-3.3.6": [
-"sling/org.apache.sling.testing.osgi-mock.junit5-3.3.6-source-release.zip"
+"org.apache.sling.testing.osgi-mock.junit5-3.3.8": [
+"sling/org.apache.sling.testing.osgi-mock.junit5-3.3.8-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.parent-3.3.6": [
-"sling/org.apache.sling.testing.osgi-mock.parent-3.3.6-source-release.zip"
+"org.apache.sling.testing.osgi-mock.parent-3.3.8": [
+"sling/org.apache.sling.testing.osgi-mock.parent-3.3.8-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.test-services-3.3.6": [
-"sling/org.apache.sling.testing.osgi-mock.test-services-3.3.6-source-release.zip"
+"org.apache.sling.testing.osgi-mock.test-services-3.3.8": [
+"sling/org.apache.sling.testing.osgi-mock.test-services-3.3.8-source-release.zip"
 ],
 "org.apache.sling.testing.paxexam-3.1.0": [
 "sling/org.apache.sling.testing.paxexam-3.1.0-source-release.zip"
 ],
-"org.apache.sling.testing.resourceresolver-mock-1.4.0": [
-"sling/org.apache.sling.testing.resourceresolver-mock-1.4.0-source-release.zip"
+"org.apache.sling.testing.resourceresolver-mock-1.4.2": [
+"sling/org.apache.sling.testing.resourceresolver-mock-1.4.2-source-release.zip"
 ],
 "org.apache.sling.testing.rules-2.0.2": [
 "sling/org.apache.sling.testing.rules-2.0.2-source-release.zip"
@@ -11533,26 +11531,26 @@
 "org.apache.sling.testing.serversetup-1.0.4": [
 "sling/org.apache.sling.testing.serversetup-1.0.4-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock-3.4.8": [
-"sling/org.apache.sling.testing.sling-mock-3.4.8-source-release.zip"
+"org.apache.sling.testing.sling-mock-3.4.10": [
+"sling/org.apache.sling.testing.sling-mock-3.4.10-source-release.zip"
 ],
 "org.apache.sling.testing.sling-mock-jackrabbit-1.0.0": [
 "sling/org.apache.sling.testing.sling-mock-jackrabbit-1.0.0-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock-oak-3.1.8-1.44.0": [
-"sling/org.apache.sling.testing.sling-mock-oak-3.1.8-1.44.0-source-release.zip"
+"org.apache.sling.testing.sling-mock-oak-3.1.10-1.44.0": [
+"sling/org.apache.sling.testing.sling-mock-oak-3.1.10-1.44.0-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.core-3.4.8": [
-"sling/org.apache.sling.testing.sling-mock.core-3.4.8-source-release.zip"
+"org.apache.sling.testing.sling-mock.core-3.4.10": [
+"sling/org.apache.sling.testing.sling-mock.core-3.4.10-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.junit4-3.4.8": [
-"sling/org.apache.sling.testing.sling-mock.junit4-3.4.8-source-release.zip"
+"org.apache.sling.testing.sling-mock.junit4-3.4.10": [
+"sling/org.apache.sling.testing.sling-mock.junit4-3.4.10-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.junit5-3.4.8": [
-"sling/org.apache.sling.testing.sling-mock.junit5-3.4.8-source-release.zip"
+"org.apache.sling.testing.sling-mock.junit5-3.4.10": [
+"sling/org.apache.sling.testing.sling-mock.junit5-3.4.10-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.parent-3.4.8": [
-"sling/org.apache.sling.testing.sling-mock.parent-3.4.8-source-release.zip"
+"org.apache.sling.testing.sling-mock.parent-3.4.10": [
+"sling/org.apache.sling.testing.sling-mock.parent-3.4.10-source-release.zip"
 ],
 "org.apache.sling.testing.tools-1.0.16": [
 "sling/org.apache.sling.testing.tools-1.0.16-source-release.zip"
@@ -12036,6 +12034,19 @@
 "tomcat/tomcat-10/v10.1.8/src/apache-tomcat-10.1.8-src.tar.gz",
 "tomcat/tomcat-10/v10.1.8/src/apache-tomcat-10.1.8-src.zip"
 ],
+"apache-tomcat-10.1.9": [
+"tomcat/tomcat-10/v10.1.9/bin/embed/apache-tomcat-10.1.9-embed.tar.gz",
+"tomcat/tomcat-10/v10.1.9/bin/embed/apache-tomcat-10.1.9-embed.zip",
+"tomcat/tomcat-10/v10.1.9/bin/apache-tomcat-10.1.9-deployer.tar.gz",
+"tomcat/tomcat-10/v10.1.9/bin/apache-tomcat-10.1.9-deployer.zip",
+"tomcat/tomcat-10/v10.1.9/bin/apache-tomcat-10.1.9-fulldocs.tar.gz",
+"tomcat/tomcat-10/v10.1.9/bin/apache-tomcat-10.1.9-windows-x64.zip",
+"tomcat/tomcat-10/v10.1.9/bin/apache-tomcat-10.1.9.exe",
+"tomcat/tomcat-10/v10.1.9/bin/apache-tomcat-10.1.9.tar.gz",
+"tomcat/tomcat-10/v10.1.9/bin/apache-tomcat-10.1.9.zip",
+"tomcat/tomcat-10/v10.1.9/src/apache-tomcat-10.1.9-src.tar.gz",
+"tomcat/tomcat-10/v10.1.9/src/apache-tomcat-10.1.9-src.zip"
+],
 "apache-tomcat-11.0.0-M5": [
 "tomcat/tomcat-11/v11.0.0-M5/bin/embed/apache-tomcat-11.0.0-M5-embed.tar.gz",
 "tomcat/tomcat-11/v11.0.0-M5/bin/embed/apache-tomcat-11.0.0-M5-embed.zip",
@@ -12074,6 +12085,19 @@
 "tomcat/tomcat-8/v8.5.88/bin/apache-tomcat-8.5.88.zip",
 "tomcat/tomcat-8/v8.5.88/src/apache-tomcat-8.5.88-src.tar.gz",
 "tomcat/tomcat-8/v8.5.88/src/apache-tomcat-8.5.88-src.zip"
+],
+"apache-tomcat-8.5.89": [
+"tomcat/tomcat-8/v8.5.89/bin/embed/apache-tomcat-8.5.89-embed.tar.gz",
+"tomcat/tomcat-8/v8.5.89/bin/embed/apache-tomcat-8.5.89-embed.zip",
+"tomcat/tomcat-8/v8.5.89/bin/apache-tomcat-8.5.89-deployer.tar.gz",
+"tomcat/tomcat-8/v8.5.89/bin/apache-tomcat-8.5.89-deployer.zip",
+"tomcat/tomcat-8/v8.5.89/bin/apache-tomcat-8.5.89-fulldocs.tar.gz",
+"tomcat/tomcat-8/v8.5.89/bin/apache-tomcat-8.5.89-windows-x64.zip",
+"tomcat/tomcat-8/v8.5.89/bin/apache-tomcat-8.5.89.exe",
+"tomcat/tomcat-8/v8.5.89/bin/apache-tomcat-8.5.89.tar.gz",
+"tomcat/tomcat-8/v8.5.89/bin/apache-tomcat-8.5.89.zip",
+"tomcat/tomcat-8/v8.5.89/src/apache-tomcat-8.5.89-src.tar.gz",
+"tomcat/tomcat-8/v8.5.89/src/apache-tomcat-8.5.89-src.zip"
 ],
 "apache-tomcat-9.0.74": [
 "tomcat/tomcat-9/v9.0.74/bin/embed/apache-tomcat-9.0.74-embed.tar.gz",
