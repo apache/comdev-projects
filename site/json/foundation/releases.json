@@ -267,7 +267,7 @@
 "apache-arrow-12.0.0": "2023-04-21",
 "apache-arrow-adbc-0.4.0": "2023-05-08",
 "apache-arrow-ballista-0.11.0": "2023-02-28",
-"apache-arrow-datafusion-24.0.0": "2023-05-09",
+"apache-arrow-datafusion-25.0.0": "2023-05-23",
 "apache-arrow-datafusion-python-24.0.0": "2023-05-13",
 "apache-arrow-julia-2.5.2": "2023-04-18",
 "apache-arrow-nanoarrow-0.1.0": "2023-03-01",
@@ -612,7 +612,7 @@
 "bcel-6.7.0": "2022-12-06",
 "bsf-2.4.0": "2013-03-03",
 "bsf-3.1": "2013-03-03",
-"commons-57": "2023-04-26",
+"commons-58": "2023-05-23",
 "commons-beanutils-1.9.4": "2019-08-14",
 "commons-build-plugin-1.12": "2020-10-18",
 "commons-chain-1.2": "2013-03-03",
@@ -666,9 +666,9 @@
 "commons-weaver-2.0": "2018-09-07"
 },
 "cordova": {
-"cordova-11.1.0": "2023-01-16",
+"cordova-12.0.0": "2023-05-23",
 "cordova-amazon-fireos-3.6.3": "2014-09-16",
-"cordova-android-11.0.0": "2022-07-12",
+"cordova-android-12.0.0": "2023-05-23",
 "cordova-app-hello-world-6.0.0": "2021-10-31",
 "cordova-blackberry10-3.8.0": "2015-09-05",
 "cordova-browser-7.0.0": "2023-05-16",
@@ -681,7 +681,7 @@
 "cordova-firefoxos-3.6.3": "2014-09-16",
 "cordova-ios-6.3.0": "2023-04-17",
 "cordova-js-6.1.0": "2021-07-14",
-"cordova-lib-12.0.0": "2023-05-16",
+"cordova-lib-12.0.1": "2023-05-23",
 "cordova-osx-7.0.0": "2022-03-12",
 "cordova-plugin-battery-status-2.0.3": "2019-07-02",
 "cordova-plugin-camera-6.0.0": "2021-08-23",
@@ -1464,7 +1464,7 @@
 "johnzon-1.2.18": "2022-05-11"
 },
 "jspwiki": {
-"jspwiki-builder-2.11.3": "2022-08-02"
+"jspwiki-builder-2.12.0": "2023-05-23"
 },
 "juneau": {
 "apache-juneau-8.2.0": "2020-10-02",
@@ -2744,12 +2744,14 @@
 "openwhisk-package-alarms-2.3.0": "2021-08-31",
 "openwhisk-package-kafka-2.1.0": "2020-11-29",
 "openwhisk-runtime-docker-1.14.0": "2020-11-29",
+"openwhisk-runtime-docker-1.15.0": "2023-05-23",
 "openwhisk-runtime-dotnet-1.15.0": "2020-11-29",
 "openwhisk-runtime-dotnet-1.17.0": "2023-05-15",
 "openwhisk-runtime-go-1.16.0": "2020-11-29",
 "openwhisk-runtime-go-1.22.0": "2023-04-25",
 "openwhisk-runtime-java-1.15.0": "2020-11-29",
 "openwhisk-runtime-java-1.17.0": "2021-08-11",
+"openwhisk-runtime-java-1.18.0": "2023-05-23",
 "openwhisk-runtime-nodejs-1.16.0": "2020-11-29",
 "openwhisk-runtime-nodejs-1.21.0": "2023-05-02",
 "openwhisk-runtime-php-1.15.0": "2020-11-29",
@@ -3348,6 +3350,7 @@
 "rename": "2022-04-06"
 },
 "royale": {
+"apache-royale-0.9.10": "2023-05-13",
 "apache-royale-0.9.9": "2022-03-17",
 "apache-royale-compiler-build-tools-1.2.1": "2020-11-23"
 },
