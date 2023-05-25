@@ -2600,6 +2600,9 @@
 ],
 "apache-druid-25.0.0": [
 "druid/25.0.0/apache-druid-25.0.0-src.tar.gz"
+],
+"apache-druid-26.0.0": [
+"druid/26.0.0/apache-druid-26.0.0-src.tar.gz"
 ]
 },
 "dubbo": {
@@ -3941,6 +3944,9 @@
 ],
 "hudi-0.13.0": [
 "hudi/0.13.0/hudi-0.13.0.src.tgz"
+],
+"hudi-0.13.1": [
+"hudi/0.13.1/hudi-0.13.1.src.tgz"
 ],
 "hudi-0.9.0": [
 "hudi/0.9.0/hudi-0.9.0.src.tgz"
@@ -5539,6 +5545,10 @@
 "myfaces-core-4.0.0-RC5": [
 "myfaces/source/myfaces-core-assembly-4.0.0-RC5-src.tar.gz",
 "myfaces/source/myfaces-core-assembly-4.0.0-RC5-src.zip"
+],
+"myfaces-core-4.0.1": [
+"myfaces/source/myfaces-core-assembly-4.0.1-src.tar.gz",
+"myfaces/source/myfaces-core-assembly-4.0.1-src.zip"
 ],
 "myfaces-extcdi-1.0.6": [
 "myfaces/source/myfaces-extcdi-parent-1.0.6-source-release.zip"
@@ -8383,8 +8393,7 @@
 "openwhisk/openwhisk-package-kafka-2.1.0-sources.tar.gz"
 ],
 "openwhisk-runtime-docker-1.14.0": [
-"openwhisk/20.11/openwhisk-runtime-docker-1.14.0-sources.tar.gz",
-"openwhisk/openwhisk-runtime-docker-1.14.0-sources.tar.gz"
+"openwhisk/20.11/openwhisk-runtime-docker-1.14.0-sources.tar.gz"
 ],
 "openwhisk-runtime-docker-1.15.0": [
 "openwhisk/openwhisk-runtime-docker-1.15.0-sources.tar.gz"
@@ -8403,9 +8412,6 @@
 ],
 "openwhisk-runtime-java-1.15.0": [
 "openwhisk/20.11/openwhisk-runtime-java-1.15.0-sources.tar.gz"
-],
-"openwhisk-runtime-java-1.17.0": [
-"openwhisk/openwhisk-runtime-java-1.17.0-sources.tar.gz"
 ],
 "openwhisk-runtime-java-1.18.0": [
 "openwhisk/openwhisk-runtime-java-1.18.0-sources.tar.gz"
@@ -10016,14 +10022,8 @@
 "apache-qpid-broker-j-9.0.0": [
 "qpid/broker-j/9.0.0/apache-qpid-broker-j-9.0.0-src.tar.gz"
 ],
-"apache-qpid-jms-1.8.0": [
-"qpid/jms/1.8.0/apache-qpid-jms-1.8.0-src.tar.gz"
-],
 "apache-qpid-jms-1.9.0": [
 "qpid/jms/1.9.0/apache-qpid-jms-1.9.0-src.tar.gz"
-],
-"apache-qpid-jms-2.2.0": [
-"qpid/jms/2.2.0/apache-qpid-jms-2.2.0-src.tar.gz"
 ],
 "apache-qpid-jms-2.3.0": [
 "qpid/jms/2.3.0/apache-qpid-jms-2.3.0-src.tar.gz"
@@ -10033,21 +10033,6 @@
 ],
 "apache-qpid-proton-j-0.34.1": [
 "qpid/proton-j/0.34.1/apache-qpid-proton-j-0.34.1-src.tar.gz"
-],
-"apache-qpid-protonj2-1.0.0-M10": [
-"qpid/protonj2/1.0.0-M10/apache-qpid-protonj2-1.0.0-M10-src.tar.gz"
-],
-"apache-qpid-protonj2-1.0.0-M11": [
-"qpid/protonj2/1.0.0-M11/apache-qpid-protonj2-1.0.0-M11-src.tar.gz"
-],
-"apache-qpid-protonj2-1.0.0-M12": [
-"qpid/protonj2/1.0.0-M12/apache-qpid-protonj2-1.0.0-M12-src.tar.gz"
-],
-"apache-qpid-protonj2-1.0.0-M13": [
-"qpid/protonj2/1.0.0-M13/apache-qpid-protonj2-1.0.0-M13-src.tar.gz"
-],
-"apache-qpid-protonj2-1.0.0-M14": [
-"qpid/protonj2/1.0.0-M14/apache-qpid-protonj2-1.0.0-M14-src.tar.gz"
 ],
 "apache-qpid-protonj2-1.0.0-M15": [
 "qpid/protonj2/1.0.0-M15/apache-qpid-protonj2-1.0.0-M15-src.tar.gz"
@@ -10060,9 +10045,6 @@
 ],
 "qpid-proton-0.38.0": [
 "qpid/proton/0.38.0/qpid-proton-0.38.0.tar.gz"
-],
-"qpid-proton-dotnet-1.0.0-M7": [
-"qpid/proton-dotnet/1.0.0-M7/qpid-proton-dotnet-src-1.0.0-M7.tar.gz"
 ],
 "qpid-proton-dotnet-1.0.0-M8": [
 "qpid/proton-dotnet/1.0.0-M8/qpid-proton-dotnet-src-1.0.0-M8.tar.gz"
