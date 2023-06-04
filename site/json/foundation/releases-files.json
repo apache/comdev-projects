@@ -944,6 +944,9 @@
 ]
 },
 "beam": {
+"apache-beam-": [
+"beam/2.48.0/apache-beam--source-release.zip"
+],
 "apache-beam-0f52187e344dad9bca4c183fe51151b733b24e35": [
 "beam/vendor/beam-vendor-calcite-1_26_0/0.1/apache-beam-0f52187e344dad9bca4c183fe51151b733b24e35-source-release.zip"
 ],
@@ -953,6 +956,10 @@
 "apache-beam-2.46.0": [
 "beam/2.46.0/python/apache-beam-2.46.0.zip",
 "beam/2.46.0/apache-beam-2.46.0-source-release.zip"
+],
+"apache-beam-2.48.0": [
+"beam/2.48.0/python/apache-beam-2.48.0.zip",
+"beam/2.48.0/apache-beam-2.48.0-source-release.zip"
 ],
 "apache-beam-37fd13e738185822af132fe2e457b618e766802f": [
 "beam/vendor/beam-vendor-grpc-1_36_0/0.2/apache-beam-37fd13e738185822af132fe2e457b618e766802f-source-release.zip"
@@ -4895,11 +4902,11 @@
 "pylucene-8.11.0": [
 "lucene/pylucene/pylucene-8.11.0-src.tar.gz"
 ],
-"pylucene-9.1.0": [
-"lucene/pylucene/pylucene-9.1.0-src.tar.gz"
-],
 "pylucene-9.4.1": [
 "lucene/pylucene/pylucene-9.4.1-src.tar.gz"
+],
+"pylucene-9.6.0": [
+"lucene/pylucene/pylucene-9.6.0-src.tar.gz"
 ],
 "solr-8.11.2": [
 "lucene/solr/8.11.2/solr-8.11.2-src.tgz",
@@ -5268,8 +5275,8 @@
 "maven-rar-plugin-3.0.0": [
 "maven/plugins/maven-rar-plugin-3.0.0-source-release.zip"
 ],
-"maven-release-3.0.0": [
-"maven/release/maven-release-3.0.0-source-release.zip"
+"maven-release-3.0.1": [
+"maven/release/maven-release-3.0.1-source-release.zip"
 ],
 "maven-remote-resources-plugin-3.1.0": [
 "maven/plugins/maven-remote-resources-plugin-3.1.0-source-release.zip"
@@ -11262,9 +11269,9 @@
 "apache-skywalking-banyandb-java-client-0.4.0-rc0": [
 "skywalking/banyandb-java-client/0.4.0-rc0/apache-skywalking-banyandb-java-client-0.4.0-rc0-src.tgz"
 ],
-"apache-skywalking-java-agent-8.15.0": [
-"skywalking/java-agent/8.15.0/apache-skywalking-java-agent-8.15.0-src.tgz",
-"skywalking/java-agent/8.15.0/apache-skywalking-java-agent-8.15.0.tgz"
+"apache-skywalking-java-agent-8.16.0": [
+"skywalking/java-agent/8.16.0/apache-skywalking-java-agent-8.16.0-src.tgz",
+"skywalking/java-agent/8.16.0/apache-skywalking-java-agent-8.16.0.tgz"
 ],
 "apache-skywalking-rover-0.3.0": [
 "skywalking/rover/0.3.0/apache-skywalking-rover-0.3.0-src.tgz"
