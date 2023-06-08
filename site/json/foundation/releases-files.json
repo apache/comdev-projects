@@ -788,11 +788,8 @@
 "apache-arrow-ballista-0.11.0": [
 "arrow/arrow-ballista-0.11.0/apache-arrow-ballista-0.11.0.tar.gz"
 ],
-"apache-arrow-datafusion-25.0.0": [
-"arrow/arrow-datafusion-25.0.0/apache-arrow-datafusion-25.0.0.tar.gz"
-],
-"apache-arrow-datafusion-python-24.0.0": [
-"arrow/arrow-datafusion-python-24.0.0/apache-arrow-datafusion-python-24.0.0.tar.gz"
+"apache-arrow-datafusion-26.0.0": [
+"arrow/arrow-datafusion-26.0.0/apache-arrow-datafusion-26.0.0.tar.gz"
 ],
 "apache-arrow-datafusion-python-25.0.0": [
 "arrow/arrow-datafusion-python-25.0.0/apache-arrow-datafusion-python-25.0.0.tar.gz"
@@ -1972,9 +1969,9 @@
 "commons/imaging/source/commons-imaging-1.0-alpha3-src.tar.gz",
 "commons/imaging/source/commons-imaging-1.0-alpha3-src.zip"
 ],
-"commons-io-2.12.0": [
-"commons/io/source/commons-io-2.12.0-src.tar.gz",
-"commons/io/source/commons-io-2.12.0-src.zip"
+"commons-io-2.13.0": [
+"commons/io/source/commons-io-2.13.0-src.tar.gz",
+"commons/io/source/commons-io-2.13.0-src.zip"
 ],
 "commons-jci-1.1": [
 "commons/jci/source/commons-jci-1.1-src.tar.gz",
@@ -3239,6 +3236,9 @@
 "flink-connector-pulsar-3.0.0": [
 "flink/flink-connector-pulsar-3.0.0/flink-connector-pulsar-3.0.0-src.tgz"
 ],
+"flink-connector-pulsar-3.0.1": [
+"flink/flink-connector-pulsar-3.0.1/flink-connector-pulsar-3.0.1-src.tgz"
+],
 "flink-connector-pulsar-4.0.0": [
 "flink/flink-connector-pulsar-4.0.0/flink-connector-pulsar-4.0.0-src.tgz"
 ],
@@ -3692,7 +3692,7 @@
 "RELEASENOTES.md": [
 "hbase/2.4.17/RELEASENOTES.md",
 "hbase/2.5.4/RELEASENOTES.md",
-"hbase/3.0.0-alpha-3/RELEASENOTES.md",
+"hbase/3.0.0-alpha-4/RELEASENOTES.md",
 "hbase/hbase-filesystem-1.0.0-alpha1/RELEASENOTES.md",
 "hbase/hbase-operator-tools-1.2.0/RELEASENOTES.md",
 "hbase/hbase-thirdparty-4.1.4/RELEASENOTES.md"
@@ -3703,8 +3703,8 @@
 "hbase-2.5.4": [
 "hbase/2.5.4/hbase-2.5.4-src.tar.gz"
 ],
-"hbase-3.0.0-alpha-3": [
-"hbase/3.0.0-alpha-3/hbase-3.0.0-alpha-3-src.tar.gz"
+"hbase-3.0.0-alpha-4": [
+"hbase/3.0.0-alpha-4/hbase-3.0.0-alpha-4-src.tar.gz"
 ],
 "hbase-connectors-1.0.0": [
 "hbase/hbase-connectors-1.0.0/hbase-connectors-1.0.0-src.tar.gz"
@@ -4187,6 +4187,14 @@
 "incubator-opendal": {
 "apache-opendal-incubating-0.36.0": [
 "incubator/opendal/0.36.0/apache-opendal-incubating-0.36.0-src.tar.gz"
+]
+},
+"incubator-paimon": {
+"apache-paimon-0.4.0-incubating": [
+"incubator/paimon/paimon-0.4.0-incubating/apache-paimon-0.4.0-incubating-src.tgz"
+],
+"apache-paimon-shade-0.4.0-incubating": [
+"incubator/paimon/paimon-0.4.0-incubating/apache-paimon-shade-0.4.0-incubating-src.tgz"
 ]
 },
 "incubator-pegasus": {
@@ -12251,8 +12259,8 @@
 "org.apache.sling.servlets.post-2.5.0": [
 "sling/org.apache.sling.servlets.post-2.5.0-source-release.zip"
 ],
-"org.apache.sling.servlets.resolver-2.9.10": [
-"sling/org.apache.sling.servlets.resolver-2.9.10-source-release.zip"
+"org.apache.sling.servlets.resolver-2.9.12": [
+"sling/org.apache.sling.servlets.resolver-2.9.12-source-release.zip"
 ],
 "org.apache.sling.settings-1.4.2": [
 "sling/org.apache.sling.settings-1.4.2-source-release.zip"

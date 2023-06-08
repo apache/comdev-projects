@@ -268,8 +268,7 @@
 "apache-arrow-12.0.0": "2023-04-21",
 "apache-arrow-adbc-0.4.0": "2023-05-08",
 "apache-arrow-ballista-0.11.0": "2023-02-28",
-"apache-arrow-datafusion-25.0.0": "2023-05-23",
-"apache-arrow-datafusion-python-24.0.0": "2023-05-13",
+"apache-arrow-datafusion-26.0.0": "2023-06-07",
 "apache-arrow-datafusion-python-25.0.0": "2023-05-29",
 "apache-arrow-julia-2.6.0": "2023-06-03",
 "apache-arrow-nanoarrow-0.1.0": "2023-03-01",
@@ -639,7 +638,7 @@
 "commons-fileupload-1.5": "2023-02-01",
 "commons-geometry-1.0": "2021-08-21",
 "commons-imaging-1.0-alpha3": "2022-05-19",
-"commons-io-2.12.0": "2023-05-16",
+"commons-io-2.13.0": "2023-06-07",
 "commons-jci-1.1": "2013-10-14",
 "commons-jcs3-dist-3.1": "2022-02-13",
 "commons-jelly-1.0": "2013-03-03",
@@ -1024,6 +1023,7 @@
 "flink-connector-mongodb-1.0.1": "2023-04-13",
 "flink-connector-opensearch-1.0.1": "2023-04-13",
 "flink-connector-pulsar-3.0.0": "2022-12-15",
+"flink-connector-pulsar-3.0.1": "2023-05-25",
 "flink-connector-pulsar-4.0.0": "2023-04-13",
 "flink-connector-rabbitmq-3.0.1": "2023-04-13",
 "flink-kubernetes-operator-1.4.0": "2023-02-15",
@@ -1163,7 +1163,7 @@
 "RELEASENOTES.md": "2023-03-31",
 "hbase-2.4.17": "2023-03-31",
 "hbase-2.5.4": "2023-04-06",
-"hbase-3.0.0-alpha-3": "2022-06-27",
+"hbase-3.0.0-alpha-4": "2023-06-07",
 "hbase-connectors-1.0.0": "2019-05-03",
 "hbase-filesystem-1.0.0-alpha1": "2019-06-06",
 "hbase-operator-tools-1.2.0": "2021-12-20",
@@ -1344,6 +1344,10 @@
 },
 "incubator-opendal": {
 "apache-opendal-incubating-0.36.0": "2023-05-30"
+},
+"incubator-paimon": {
+"apache-paimon-0.4.0-incubating": "2023-06-07",
+"apache-paimon-shade-0.4.0-incubating": "2023-06-07"
 },
 "incubator-pegasus": {
 "apache-pegasus-2.4.0-incubating": "2022-10-30"
@@ -3768,7 +3772,7 @@
 "org.apache.sling.servlets.compat-1.0.2": "2014-07-14",
 "org.apache.sling.servlets.get-2.1.44": "2021-06-02",
 "org.apache.sling.servlets.post-2.5.0": "2021-11-12",
-"org.apache.sling.servlets.resolver-2.9.10": "2022-12-03",
+"org.apache.sling.servlets.resolver-2.9.12": "2023-06-07",
 "org.apache.sling.settings-1.4.2": "2020-11-15",
 "org.apache.sling.sitemap-1.0.6": "2022-02-01",
 "org.apache.sling.starter-12": "2022-03-18",
