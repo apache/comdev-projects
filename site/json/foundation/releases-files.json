@@ -794,8 +794,8 @@
 "apache-arrow-datafusion-python-25.0.0": [
 "arrow/arrow-datafusion-python-25.0.0/apache-arrow-datafusion-python-25.0.0.tar.gz"
 ],
-"apache-arrow-julia-2.6.1": [
-"arrow/arrow-julia-2.6.1/apache-arrow-julia-2.6.1.tar.gz"
+"apache-arrow-julia-2.6.2": [
+"arrow/arrow-julia-2.6.2/apache-arrow-julia-2.6.2.tar.gz"
 ],
 "apache-arrow-nanoarrow-0.1.0": [
 "arrow/apache-arrow-nanoarrow-0.1.0/apache-arrow-nanoarrow-0.1.0.tar.gz"
@@ -1179,6 +1179,9 @@
 "apache-camel-k-runtime-1.16.0": [
 "camel/camel-k-runtime/1.16.0/apache-camel-k-runtime-1.16.0-source-release.zip"
 ],
+"apache-camel-k-runtime-1.17.1": [
+"camel/camel-k-runtime/1.17.1/apache-camel-k-runtime-1.17.1-source-release.zip"
+],
 "apache-camel-quarkus-2.13.3": [
 "camel/camel-quarkus/2.13.3/apache-camel-quarkus-2.13.3-src.zip"
 ],
@@ -1274,6 +1277,18 @@
 ],
 "camel-k-client-1.12.0-windows": [
 "camel/camel-k/1.12.0/camel-k-client-1.12.0-windows-64bit.tar.gz"
+],
+"camel-k-client-1.12.1-linux": [
+"camel/camel-k/1.12.1/camel-k-client-1.12.1-linux-64bit.tar.gz"
+],
+"camel-k-client-1.12.1-mac": [
+"camel/camel-k/1.12.1/camel-k-client-1.12.1-mac-64bit.tar.gz"
+],
+"camel-k-client-1.12.1-mac-arm64bit": [
+"camel/camel-k/1.12.1/camel-k-client-1.12.1-mac-arm64bit.tar.gz"
+],
+"camel-k-client-1.12.1-windows": [
+"camel/camel-k/1.12.1/camel-k-client-1.12.1-windows-64bit.tar.gz"
 ],
 "camel-k-client-1.8.2-linux": [
 "camel/camel-k/1.8.2/camel-k-client-1.8.2-linux-64bit.tar.gz"
@@ -1379,6 +1394,9 @@
 ],
 "camel-k-sources-1.12.0": [
 "camel/camel-k/1.12.0/camel-k-sources-1.12.0.tar.gz"
+],
+"camel-k-sources-1.12.1": [
+"camel/camel-k/1.12.1/camel-k-sources-1.12.1.tar.gz"
 ],
 "camel-k-sources-1.8.2": [
 "camel/camel-k/1.8.2/camel-k-sources-1.8.2.tar.gz"
@@ -2296,6 +2314,12 @@
 "cxf/3.6.0/apache-cxf-3.6.0.tar.gz",
 "cxf/3.6.0/apache-cxf-3.6.0.zip"
 ],
+"apache-cxf-3.6.1": [
+"cxf/3.6.1/apache-cxf-3.6.1-src.tar.gz",
+"cxf/3.6.1/apache-cxf-3.6.1-src.zip",
+"cxf/3.6.1/apache-cxf-3.6.1.tar.gz",
+"cxf/3.6.1/apache-cxf-3.6.1.zip"
+],
 "apache-cxf-4.0.0": [
 "cxf/4.0.0/apache-cxf-4.0.0-src.tar.gz",
 "cxf/4.0.0/apache-cxf-4.0.0-src.zip",
@@ -2307,6 +2331,12 @@
 "cxf/4.0.1/apache-cxf-4.0.1-src.zip",
 "cxf/4.0.1/apache-cxf-4.0.1.tar.gz",
 "cxf/4.0.1/apache-cxf-4.0.1.zip"
+],
+"apache-cxf-4.0.2": [
+"cxf/4.0.2/apache-cxf-4.0.2-src.tar.gz",
+"cxf/4.0.2/apache-cxf-4.0.2-src.zip",
+"cxf/4.0.2/apache-cxf-4.0.2.tar.gz",
+"cxf/4.0.2/apache-cxf-4.0.2.zip"
 ],
 "apache-fediz-1.5.1": [
 "cxf/fediz/1.5.1/apache-fediz-1.5.1.zip"
@@ -3782,6 +3812,9 @@
 "apache-hop-2.4.0": [
 "hop/2.4.0/apache-hop-2.4.0-src.tar.gz"
 ],
+"apache-hop-2.5.0": [
+"hop/2.5.0/apache-hop-2.5.0-src.tar.gz"
+],
 "apache-hop-client-2.0.0": [
 "hop/2.0.0/apache-hop-client-2.0.0.zip"
 ],
@@ -3796,6 +3829,9 @@
 ],
 "apache-hop-client-2.4.0": [
 "hop/2.4.0/apache-hop-client-2.4.0.zip"
+],
+"apache-hop-client-2.5.0": [
+"hop/2.5.0/apache-hop-client-2.5.0.zip"
 ],
 "hop-0.1.0": [
 "hop/2.1.0/hop-0.1.0.tgz"
@@ -8127,32 +8163,17 @@
 ]
 },
 "nifi": {
-"nifi-1.21.0": [
-"nifi/1.21.0/nifi-1.21.0-source-release.zip"
-],
-"nifi-fds-0.2.0": [
-"nifi/nifi-fds/nifi-fds-0.2.0/nifi-fds-0.2.0-source-release.zip"
+"nifi-1.22.0": [
+"nifi/1.22.0/nifi-1.22.0-source-release.zip"
 ],
 "nifi-fds-0.3.0": [
 "nifi/nifi-fds/nifi-fds-0.3.0/nifi-fds-0.3.0-source-release.zip"
 ],
-"nifi-minifi-cpp-0.10.0": [
-"nifi/nifi-minifi-cpp/0.10.0/nifi-minifi-cpp-0.10.0-source.tar.gz"
-],
-"nifi-minifi-cpp-0.11.0": [
-"nifi/nifi-minifi-cpp/0.11.0/nifi-minifi-cpp-0.11.0-source.tar.gz"
-],
-"nifi-minifi-cpp-0.12.0": [
-"nifi/nifi-minifi-cpp/0.12.0/nifi-minifi-cpp-0.12.0-source.tar.gz"
-],
-"nifi-minifi-cpp-0.13.0": [
-"nifi/nifi-minifi-cpp/0.13.0/nifi-minifi-cpp-0.13.0-source.tar.gz"
+"nifi-kafka-connector-1.22.0": [
+"nifi/1.22.0/nifi-kafka-connector-assembly-1.22.0.zip"
 ],
 "nifi-minifi-cpp-0.14.0": [
 "nifi/nifi-minifi-cpp/0.14.0/nifi-minifi-cpp-0.14.0-source.tar.gz"
-],
-"nifi-minifi-cpp-0.9.0": [
-"nifi/nifi-minifi-cpp/0.9.0/nifi-minifi-cpp-0.9.0-source.tar.gz"
 ],
 "nifi-nar-maven-plugin-1.5.0": [
 "nifi/nifi-nar-maven-plugin-1.5.0/nifi-nar-maven-plugin-1.5.0-source-release.zip"
@@ -10914,8 +10935,8 @@
 "org.apache.sling.dynamic-include-3.3.0": [
 "sling/org.apache.sling.dynamic-include-3.3.0-source-release.zip"
 ],
-"org.apache.sling.engine-2.15.0": [
-"sling/org.apache.sling.engine-2.15.0-source-release.zip"
+"org.apache.sling.engine-2.15.2": [
+"sling/org.apache.sling.engine-2.15.2-source-release.zip"
 ],
 "org.apache.sling.event-4.3.12": [
 "sling/org.apache.sling.event-4.3.12-source-release.zip"
@@ -12085,6 +12106,19 @@
 ]
 },
 "tomcat": {
+"apache-tomcat-10.1.10": [
+"tomcat/tomcat-10/v10.1.10/bin/embed/apache-tomcat-10.1.10-embed.tar.gz",
+"tomcat/tomcat-10/v10.1.10/bin/embed/apache-tomcat-10.1.10-embed.zip",
+"tomcat/tomcat-10/v10.1.10/bin/apache-tomcat-10.1.10-deployer.tar.gz",
+"tomcat/tomcat-10/v10.1.10/bin/apache-tomcat-10.1.10-deployer.zip",
+"tomcat/tomcat-10/v10.1.10/bin/apache-tomcat-10.1.10-fulldocs.tar.gz",
+"tomcat/tomcat-10/v10.1.10/bin/apache-tomcat-10.1.10-windows-x64.zip",
+"tomcat/tomcat-10/v10.1.10/bin/apache-tomcat-10.1.10.exe",
+"tomcat/tomcat-10/v10.1.10/bin/apache-tomcat-10.1.10.tar.gz",
+"tomcat/tomcat-10/v10.1.10/bin/apache-tomcat-10.1.10.zip",
+"tomcat/tomcat-10/v10.1.10/src/apache-tomcat-10.1.10-src.tar.gz",
+"tomcat/tomcat-10/v10.1.10/src/apache-tomcat-10.1.10-src.zip"
+],
 "apache-tomcat-10.1.8": [
 "tomcat/tomcat-10/v10.1.8/bin/embed/apache-tomcat-10.1.8-embed.tar.gz",
 "tomcat/tomcat-10/v10.1.8/bin/embed/apache-tomcat-10.1.8-embed.zip",
@@ -12149,6 +12183,19 @@
 "tomcat/tomcat-8/v8.5.89/bin/apache-tomcat-8.5.89.zip",
 "tomcat/tomcat-8/v8.5.89/src/apache-tomcat-8.5.89-src.tar.gz",
 "tomcat/tomcat-8/v8.5.89/src/apache-tomcat-8.5.89-src.zip"
+],
+"apache-tomcat-8.5.90": [
+"tomcat/tomcat-8/v8.5.90/bin/embed/apache-tomcat-8.5.90-embed.tar.gz",
+"tomcat/tomcat-8/v8.5.90/bin/embed/apache-tomcat-8.5.90-embed.zip",
+"tomcat/tomcat-8/v8.5.90/bin/apache-tomcat-8.5.90-deployer.tar.gz",
+"tomcat/tomcat-8/v8.5.90/bin/apache-tomcat-8.5.90-deployer.zip",
+"tomcat/tomcat-8/v8.5.90/bin/apache-tomcat-8.5.90-fulldocs.tar.gz",
+"tomcat/tomcat-8/v8.5.90/bin/apache-tomcat-8.5.90-windows-x64.zip",
+"tomcat/tomcat-8/v8.5.90/bin/apache-tomcat-8.5.90.exe",
+"tomcat/tomcat-8/v8.5.90/bin/apache-tomcat-8.5.90.tar.gz",
+"tomcat/tomcat-8/v8.5.90/bin/apache-tomcat-8.5.90.zip",
+"tomcat/tomcat-8/v8.5.90/src/apache-tomcat-8.5.90-src.tar.gz",
+"tomcat/tomcat-8/v8.5.90/src/apache-tomcat-8.5.90-src.zip"
 ],
 "apache-tomcat-9.0.76": [
 "tomcat/tomcat-9/v9.0.76/bin/embed/apache-tomcat-9.0.76-embed.tar.gz",
@@ -12255,21 +12302,21 @@
 "tomee/tomee-8.0.15/apache-tomee-8.0.15-webprofile.tar.gz",
 "tomee/tomee-8.0.15/apache-tomee-8.0.15-webprofile.zip"
 ],
-"apache-tomee-9.0.0-microprofile": [
-"tomee/tomee-9.0.0/apache-tomee-9.0.0-microprofile.tar.gz",
-"tomee/tomee-9.0.0/apache-tomee-9.0.0-microprofile.zip"
+"apache-tomee-9.1.0-microprofile": [
+"tomee/tomee-9.1.0/apache-tomee-9.1.0-microprofile.tar.gz",
+"tomee/tomee-9.1.0/apache-tomee-9.1.0-microprofile.zip"
 ],
-"apache-tomee-9.0.0-plume": [
-"tomee/tomee-9.0.0/apache-tomee-9.0.0-plume.tar.gz",
-"tomee/tomee-9.0.0/apache-tomee-9.0.0-plume.zip"
+"apache-tomee-9.1.0-plume": [
+"tomee/tomee-9.1.0/apache-tomee-9.1.0-plume.tar.gz",
+"tomee/tomee-9.1.0/apache-tomee-9.1.0-plume.zip"
 ],
-"apache-tomee-9.0.0-plus": [
-"tomee/tomee-9.0.0/apache-tomee-9.0.0-plus.tar.gz",
-"tomee/tomee-9.0.0/apache-tomee-9.0.0-plus.zip"
+"apache-tomee-9.1.0-plus": [
+"tomee/tomee-9.1.0/apache-tomee-9.1.0-plus.tar.gz",
+"tomee/tomee-9.1.0/apache-tomee-9.1.0-plus.zip"
 ],
-"apache-tomee-9.0.0-webprofile": [
-"tomee/tomee-9.0.0/apache-tomee-9.0.0-webprofile.tar.gz",
-"tomee/tomee-9.0.0/apache-tomee-9.0.0-webprofile.zip"
+"apache-tomee-9.1.0-webprofile": [
+"tomee/tomee-9.1.0/apache-tomee-9.1.0-webprofile.tar.gz",
+"tomee/tomee-9.1.0/apache-tomee-9.1.0-webprofile.zip"
 ],
 "arquillian-tomee-moviefun-example-1.7.5": [
 "tomee/tomee-1.7.5/arquillian-tomee-moviefun-example-1.7.5.war"
@@ -12330,8 +12377,8 @@
 "tomee-8.0.15": [
 "tomee/tomee-8.0.15/tomee-project-8.0.15-source-release.zip"
 ],
-"tomee-9.0.0": [
-"tomee/tomee-9.0.0/tomee-project-9.0.0-source-release.zip"
+"tomee-9.1.0": [
+"tomee/tomee-9.1.0/tomee-project-9.1.0-source-release.zip"
 ],
 "tomee-jaxrs-1.7.5": [
 "tomee/tomee-1.7.5/tomee-jaxrs-webapp-1.7.5.war"
@@ -12385,6 +12432,9 @@
 "trafficserver-8.1.6": [
 "trafficserver/trafficserver-8.1.6.tar.bz2"
 ],
+"trafficserver-8.1.7": [
+"trafficserver/trafficserver-8.1.7.tar.bz2"
+],
 "trafficserver-9.0.2": [
 "trafficserver/trafficserver-9.0.2.tar.bz2"
 ],
@@ -12393,6 +12443,9 @@
 ],
 "trafficserver-9.2.0": [
 "trafficserver/trafficserver-9.2.0.tar.bz2"
+],
+"trafficserver-9.2.1": [
+"trafficserver/trafficserver-9.2.1.tar.bz2"
 ]
 },
 "turbine": {
