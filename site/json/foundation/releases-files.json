@@ -782,6 +782,9 @@
 "apache-arrow-12.0.0": [
 "arrow/arrow-12.0.0/apache-arrow-12.0.0.tar.gz"
 ],
+"apache-arrow-12.0.1": [
+"arrow/arrow-12.0.1/apache-arrow-12.0.1.tar.gz"
+],
 "apache-arrow-adbc-0.4.0": [
 "arrow/apache-arrow-adbc-0.4.0/apache-arrow-adbc-0.4.0.tar.gz"
 ],
@@ -2377,8 +2380,8 @@
 "apache-datasketches-hive-1.2.0": [
 "datasketches/hive/1.2.0/apache-datasketches-hive-1.2.0-src.zip"
 ],
-"apache-datasketches-java-4.0.0": [
-"datasketches/java/4.0.0/apache-datasketches-java-4.0.0-src.zip"
+"apache-datasketches-java-4.1.0": [
+"datasketches/java/4.1.0/apache-datasketches-java-4.1.0-src.zip"
 ],
 "apache-datasketches-memory-2.2.0": [
 "datasketches/memory/2.2.0/apache-datasketches-memory-2.2.0-src.zip"
@@ -3724,7 +3727,7 @@
 "hbase": {
 "RELEASENOTES.md": [
 "hbase/2.4.17/RELEASENOTES.md",
-"hbase/2.5.4/RELEASENOTES.md",
+"hbase/2.5.5/RELEASENOTES.md",
 "hbase/3.0.0-alpha-4/RELEASENOTES.md",
 "hbase/hbase-filesystem-1.0.0-alpha1/RELEASENOTES.md",
 "hbase/hbase-operator-tools-1.2.0/RELEASENOTES.md",
@@ -3733,8 +3736,8 @@
 "hbase-2.4.17": [
 "hbase/2.4.17/hbase-2.4.17-src.tar.gz"
 ],
-"hbase-2.5.4": [
-"hbase/2.5.4/hbase-2.5.4-src.tar.gz"
+"hbase-2.5.5": [
+"hbase/2.5.5/hbase-2.5.5-src.tar.gz"
 ],
 "hbase-3.0.0-alpha-4": [
 "hbase/3.0.0-alpha-4/hbase-3.0.0-alpha-4-src.tar.gz"
@@ -4601,6 +4604,9 @@
 "kafka-3.4.1": [
 "kafka/3.4.1/kafka-3.4.1-src.tgz"
 ],
+"kafka-3.5.0": [
+"kafka/3.5.0/kafka-3.5.0-src.tgz"
+],
 "kafka_2.12-2.8.2": [
 "kafka/2.8.2/kafka_2.12-2.8.2.tgz"
 ],
@@ -4622,6 +4628,9 @@
 "kafka_2.12-3.4.1": [
 "kafka/3.4.1/kafka_2.12-3.4.1.tgz"
 ],
+"kafka_2.12-3.5.0": [
+"kafka/3.5.0/kafka_2.12-3.5.0.tgz"
+],
 "kafka_2.13-2.8.2": [
 "kafka/2.8.2/kafka_2.13-2.8.2.tgz"
 ],
@@ -4642,6 +4651,9 @@
 ],
 "kafka_2.13-3.4.1": [
 "kafka/3.4.1/kafka_2.13-3.4.1.tgz"
+],
+"kafka_2.13-3.5.0": [
+"kafka/3.5.0/kafka_2.13-3.5.0.tgz"
 ]
 },
 "karaf": {
@@ -11871,6 +11883,15 @@
 "struts-2.5.30-min": [
 "struts/2.5.30/struts-2.5.30-min-lib.zip"
 ],
+"struts-2.5.31": [
+"struts/2.5.31/struts-2.5.31-all.zip",
+"struts/2.5.31/struts-2.5.31-apps.zip",
+"struts/2.5.31/struts-2.5.31-lib.zip",
+"struts/2.5.31/struts-2.5.31-src.zip"
+],
+"struts-2.5.31-min": [
+"struts/2.5.31/struts-2.5.31-min-lib.zip"
+],
 "struts-6.0.0": [
 "struts/6.0.0/struts-6.0.0-all.zip",
 "struts/6.0.0/struts-6.0.0-apps.zip",
@@ -11906,6 +11927,15 @@
 ],
 "struts-6.1.2-min": [
 "struts/6.1.2/struts-6.1.2-min-lib.zip"
+],
+"struts-6.1.2.1": [
+"struts/6.1.2.1/struts-6.1.2.1-all.zip",
+"struts/6.1.2.1/struts-6.1.2.1-apps.zip",
+"struts/6.1.2.1/struts-6.1.2.1-lib.zip",
+"struts/6.1.2.1/struts-6.1.2.1-src.zip"
+],
+"struts-6.1.2.1-min": [
+"struts/6.1.2.1/struts-6.1.2.1-min-lib.zip"
 ],
 "struts2-secure-jakarta-multipart-parser-plugin-1.1": [
 "struts/struts-extras/struts2-secure-jakarta-multipart-parser-plugin/1.1/struts2-secure-jakarta-multipart-parser-plugin-1.1-source-release.zip"
