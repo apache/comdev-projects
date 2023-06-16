@@ -1,4 +1,4 @@
-#!/usr/bin/env python3 
+#!/usr/bin/env python3
 
 """
 
@@ -55,13 +55,14 @@ with open(projectsList, "r") as f:
     data  = f.read()
     f.close()
 xmldoc = minidom.parseString(data)
-itemlist = xmldoc.getElementsByTagName('location') 
+itemlist = xmldoc.getElementsByTagName('location')
 
 siteMap = {
     'hc': 'httpcomponents',
     'ws':'webservices'
 }
 
+# convert from project to mail domain
 mailDomains = {
   'comdev': 'community',
   'httpcomponents': 'hc',
@@ -77,13 +78,13 @@ def printMail(msg, file=sys.stdout, body='', project=None):
         body=msg
     try:
         if project != None:
-          domain = mailDomains.get(project, project)
-          recipients = [f'private@{domain}.apache.org', sendmail.__RECIPIENTS__]
-          sendmail.sendMail(msg, body=body, recipients=recipients)
+            domain = mailDomains.get(project, project)
+            recipients = [f'private@{domain}.apache.org', sendmail.__RECIPIENTS__]
+            sendmail.sendMail(msg, body=body, recipients=recipients)
         else:
-          sendmail.sendMail(msg, body=body)
+            sendmail.sendMail(msg, body=body)
     except ConnectionRefusedError:
-        print("*** Failed to send the email", file=file)
+        print(f"*** Failed to send the email to {recipients}", file=file)
 
 ATTIC = 'Attic <general@attic.apache.org>'
 # Print to log and send a conditional email to Attic
@@ -132,6 +133,8 @@ def name2fileName(s, pmc):
     return retval
 
 # Process external PMC descriptor file to extract the PMC name
+# @return None if not found in file
+# @throws exceptions for missing and unparseable files
 def getPMC(url):
     print("Parsing PMC descriptor file %s" % url)
     rdf = URLopen(url).read()
@@ -144,7 +147,37 @@ def getPMC(url):
         print("Found pmc: %s" % a)
         return a
     printMail("WARN: could not find asfext:pmc in %s " % url)
-    return 'Unknown'
+    return None
+
+# Try to convert URL to committeeeId
+# @return None if not recognised
+# Sample URLs:
+# http://svn.apache.org/repos/asf/abdera/java/trunk/doap_Abdera.rdf
+# https://accumulo.apache.org/doap/accumulo.rdf
+# https://gitbox.apache.org/repos/asf?p=ant-ivy.git;
+# https://raw.githubusercontent.com/apache/httpd-site/main/content/doap.rdf
+# https://raw.githubusercontent.com/apache/vcl/master/doap_vcl.rdf
+# https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/sqoop.rdf
+
+REGEXES = (
+    r"^https?://svn\.apache\.org/repos/asf/comdev/projects\.apache\.org/trunk/data/projects-override/([^.]+)\.rdf",
+    r"^https?://svn\.apache\.org/repos/asf/([^/]+)/",
+    r"^https?://gitbox\.apache\.org/repos/asf\?p=([^.;]+)\.git;",
+    r"^https?://([^/]+)\.apache\.org/", # must be after svn and gitbox
+    r"^https?://raw\.githubusercontent\.com/apache/([^/]+)/",
+)
+
+def getPMCfromURL(url):
+    for regex in REGEXES:
+        m = re.search(regex, url, flags=re.IGNORECASE)
+        if m:
+            pmc = m.group(1)
+            # PMC names cannot contain '-' apart from empire-db
+            # so anything after '-' must be a sub-repo
+            if pmc != 'empire-db' and '-' in pmc:
+                pmc = pmc.split('-',1)[0]
+            return pmc
+    return None
 
 def handleChild(el):
     retval = None
@@ -173,7 +206,11 @@ files = []
 unreportedError = False # any errors not yet mailed?
 for s in itemlist :
     url = s.childNodes[0].data
-    rdf = None # avoid stale contents if read fails
+    # init variables here to avoid stale contents if read or parsing fails
+    rdf = None
+    prname = None
+    committeeId = None
+    projectJsonFilename = None
     try:
         rdf = URLopen(url).read()
         rdfxml = ET.fromstring(rdf)
@@ -181,9 +218,6 @@ for s in itemlist :
         pjson = {
             'doap': url
         }
-        prname = None
-        committeeId = None
-        projectJsonFilename = None
         for el in project:
             k, v = handleChild(el)
             if not save:
@@ -211,29 +245,26 @@ for s in itemlist :
         else:
             printMail("WARN: no homepage defined in %s, pmc = %s" % (url, pjson['pmc']))
 
-        pmc = 'Unknown'
         if not 'pmc' in pjson:
             printMail("WARN: no asfext:pmc in %s" % url)
         else:
             pmcrdf = pjson['pmc']
             pmcrdf = pmcrdf.replace('/anakia', '').replace('/texen', '') # temporary hack
-            # Extract the pmc name if it is a shortcut
+            # Extract the PMC name if it is a shortcut
             m = re.match(r"https?://([^.]+)\.apache\.org/?$", pmcrdf, re.IGNORECASE)
             if m:
-                pmc = m.group(1)
+                committeeId = m.group(1)
             else:
                 # Not a shortcut, so read the descriptor file
                 try:
-                    pmc = getPMC(pmcrdf)
+                    committeeId = getPMC(pmcrdf)
                 except:
                     printMail("WARN: invalid asfext:pmc '%s' in %s" % (pmcrdf, url))
-            
+
         if pjson['name']:
-            projectJsonFilename = name2fileName(pjson['name'], pmc)
+            projectJsonFilename = name2fileName(pjson['name'], committeeId)
         else:
             printMail("WARN: no name defined in %s, pmc = %s" % (url, pjson['pmc']))
-
-        committeeId = pmc
 
         if committeeId in retired:
             printAtticMail("WARN: project from a retired committee (%s) but PMC not changed to Attic in %s" % (committeeId, url))
@@ -270,39 +301,37 @@ for s in itemlist :
         else:
             printMail("WARN: project ignored since unable to extract project json filename from %s" % url)
     except Exception as err:
+        if committeeId is None:
+            # Try to determine relevant project from URL
+            committeeId = getPMCfromURL(url)
         if isinstance(err, OSError): # OSError is parent of HTTPError/URLError
             # Only mail 404 errors individually
             if isinstance(err, urllib.error.HTTPError) and err.code == 404:
-                # Try to determine relevant project from URL
-                m = re.match(r"https?://([^.]+)\.", url, re.IGNORECASE)
-                if m:
-                    committeeId = m.group(1)
-                    printMail("Cannot find doap file: %s" % url, file=sys.stderr,
-                          body=("URL: %s\n%s\nSource: %s" % (url,str(err),PROJECTS_SVN)),
-                          project=committeeId
-                          )
-                else:
-                    printMail("Cannot find doap file: %s" % url, file=sys.stderr,
-                          body=("URL: %s\n%s\nSource: %s" % (url,str(err),PROJECTS_SVN)))
-            else:
+                printMail("Cannot find doap file: %s" % url, file=sys.stderr,
+                        body=("URL: %s\n%s\nSource: %s" % (url,str(err),PROJECTS_SVN)),
+                        project=committeeId # project is ignored if it is None
+                        )
+            else: # This is likely to be a transient error
                 print("Error when processing doap file %s:" % url, file=sys.stderr)
                 unreportedError = True
         else:
             printMail("Error when processing doap file %s:" % url, file=sys.stderr,
-                      body=("URL: %s\n%s\nSource: %s" % (url,str(err),PROJECTS_SVN)),
-                      project=committeeId
-                     )
+                body=("URL: %s\n%s\nSource: %s" % (url,str(err),PROJECTS_SVN)),
+                project=committeeId # project is ignored if it is None
+                )
         print("-"*60, file=sys.stderr)
         traceback.print_exc()
-        if isinstance(err, OSError): # OSError is parent of HTTPError/URLError 
+        if isinstance(err, OSError): # OSError is parent of HTTPError/URLError
             print("URL: '%s'" % err.filename, file=sys.stderr)
         print("-"*60, file=sys.stderr)
         failures.append(url)
         if rdf is not None:
+            # TODO better conversion to file name
             urlname = url.split('/')[-1]
-            rem = re.search(r';f=([^;]+);.*',urlname) # better name for Git files
+            rem = re.search(r';f=([^;]+);',urlname) # better name for Git files
             if rem:
                 urlname = rem.group(1)
+            urlname = urlname.split(';')[0] # trim any trailing qualifiers
             urlname = join(FAILURES_DIR, urlname)
             print("Saving invalid data in %s " % urlname)
             with open (urlname, "wb") as f:
