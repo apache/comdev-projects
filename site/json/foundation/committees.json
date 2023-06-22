@@ -880,76 +880,6 @@
 "shortdesc": "Java-based build tool"
 },
 {
-"chair": "lewismc",
-"charter": "The mission of Apache Any23 is the creation and maintenance of software related to automatic crawling, parsing, analyzing, producing, validating and converting RDF (Resource Description Framework) data",
-"established": "2012-08",
-"group": "any23",
-"homepage": "http://any23.apache.org/",
-"id": "any23",
-"name": "Apache Any23",
-"rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/any23.rdf",
-"reporting": 3,
-"roster": {
-"andy": {
-"date": "2012-08-28",
-"name": "Andy Seaborne"
-},
-"ansell": {
-"date": "2012-08-28",
-"name": "Peter Ansell"
-},
-"dpalmisano": {
-"date": "2012-08-28",
-"name": "Davide Palmisano"
-},
-"giovanni": {
-"date": "2012-08-28",
-"name": "Giovanni Tummarello"
-},
-"hansbrende": {
-"date": "2018-02-26",
-"name": "Hans Brende"
-},
-"jgrzebyta": {
-"date": "2017-08-31",
-"name": "Jacek Grzebyta"
-},
-"lewismc": {
-"date": "2012-08-28",
-"name": "Lewis John McGibbney"
-},
-"mattmann": {
-"date": "2013-05-26",
-"name": "Chris Mattmann"
-},
-"mostarda": {
-"date": "2012-08-28",
-"name": "Michele Mostarda"
-},
-"pramirez": {
-"date": "2012-08-28",
-"name": "Paul Ramirez"
-},
-"scor": {
-"date": "2014-09-08",
-"name": "Stephane Corlosquet"
-},
-"simonetripodi": {
-"date": "2012-08-28",
-"name": "Simone Tripodi"
-},
-"szydan": {
-"date": "2012-08-28",
-"name": "Szymon Danielczyk"
-},
-"tommaso": {
-"date": "2012-08-28",
-"name": "Tommaso Teofili"
-}
-},
-"shortdesc": "Anything to Triples"
-},
-{
 "chair": "wenming",
 "charter": "The mission of Apache APISIX is the creation and maintenance of software related to a cloud-native microservices API gateway",
 "established": "2020-07",
@@ -2600,7 +2530,7 @@
 "shortdesc": "Issue tracking, wiki and repository browser"
 },
 {
-"chair": "sijie",
+"chair": "eolivelli",
 "charter": "The mission of BookKeeper is the creation and maintenance of software related to Replicated log service which can be used to build replicated state machines",
 "established": "2014-11",
 "group": "bookkeeper",
@@ -2686,7 +2616,7 @@
 "shortdesc": "Replicated log service which can be used to build replicated state machines"
 },
 {
-"chair": "geomacy",
+"chair": "jcabrerizo",
 "charter": "The mission of Apache Brooklyn is the creation and maintenance of software related to a software framework for modeling, monitoring and managing cloud applications through autonomic blueprints.",
 "established": "2015-11",
 "group": "brooklyn",
@@ -12338,6 +12268,10 @@
 "rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/jspwiki.rdf",
 "reporting": 1,
 "roster": {
+"abernal": {
+"date": "2023-06-21",
+"name": "Arturo Bernal"
+},
 "ajaquith": {
 "date": "2013-07-17",
 "name": "Andrew R. Jaquith"
@@ -12952,6 +12886,58 @@
 }
 },
 "shortdesc": "A distributed columnar storage engine built for the Apache Hadoop ecosystem"
+},
+{
+"chair": "hulk",
+"established": "2023-06",
+"group": "kvrocks",
+"homepage": "http://kvrocks.apache.org",
+"id": "kvrocks",
+"name": "Apache Kvrocks",
+"reporting": 3,
+"roster": {
+"alfejik": {
+"date": "2023-06-21",
+"name": "Alfejik Liu"
+},
+"chenliang613": {
+"date": "2023-06-21",
+"name": "Liang Chen"
+},
+"hexiaoqiao": {
+"date": "2023-06-21",
+"name": "Xiaoqiao He"
+},
+"hulk": {
+"date": "2023-06-21",
+"name": "Hulk Lin"
+},
+"jbonofre": {
+"date": "2023-06-21",
+"name": "Jean-Baptiste Onofr\u00e9"
+},
+"tison": {
+"date": "2023-06-21",
+"name": "Zili Chen"
+},
+"torwig": {
+"date": "2023-06-21",
+"name": "Yaroslav Stepanchuk"
+},
+"twice": {
+"date": "2023-06-21",
+"name": "Mingyang Liu"
+},
+"vongosling": {
+"date": "2023-06-21",
+"name": "Von Gosling"
+},
+"wangyuan": {
+"date": "2023-06-21",
+"name": "Yuan Wang"
+}
+},
+"shortdesc": "a distributed key-value NoSQL database, supporting the rich data structure"
 },
 {
 "chair": "shaofengshi",
@@ -18702,7 +18688,7 @@
 "shortdesc": "XML Security in Java and C++"
 },
 {
-"chair": "kirs",
+"chair": "gaojun2048",
 "charter": "The mission of Apache SeaTunnel is the creation and maintenance of software related to a very easy-to-use ultra-high-performance distributed data integration platform that supports real-time synchronization of massive data",
 "established": "2023-05",
 "group": "seatunnel",
