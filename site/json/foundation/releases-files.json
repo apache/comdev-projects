@@ -154,11 +154,11 @@
 ]
 },
 "airflow": {
-"airflow-1.8.0": [
-"airflow/helm-chart/1.8.0/airflow-1.8.0.tgz"
+"airflow-1.10.0": [
+"airflow/helm-chart/1.10.0/airflow-1.10.0.tgz"
 ],
-"airflow-1.8.0.tgz.prov": [
-"airflow/helm-chart/1.8.0/airflow-1.8.0.tgz.prov"
+"airflow-1.10.0.tgz.prov": [
+"airflow/helm-chart/1.10.0/airflow-1.10.0.tgz.prov"
 ],
 "airflow-1.9.0": [
 "airflow/helm-chart/1.9.0/airflow-1.9.0.tgz"
@@ -166,8 +166,8 @@
 "airflow-1.9.0.tgz.prov": [
 "airflow/helm-chart/1.9.0/airflow-1.9.0.tgz.prov"
 ],
-"airflow-chart-1.8.0": [
-"airflow/helm-chart/1.8.0/airflow-chart-1.8.0-source.tar.gz"
+"airflow-chart-1.10.0": [
+"airflow/helm-chart/1.10.0/airflow-chart-1.10.0-source.tar.gz"
 ],
 "airflow-chart-1.9.0": [
 "airflow/helm-chart/1.9.0/airflow-chart-1.9.0-source.tar.gz"
@@ -3285,6 +3285,9 @@
 "flink-connector-jdbc-3.1.0": [
 "flink/flink-connector-jdbc-3.1.0/flink-connector-jdbc-3.1.0-src.tgz"
 ],
+"flink-connector-jdbc-3.1.1": [
+"flink/flink-connector-jdbc-3.1.1/flink-connector-jdbc-3.1.1-src.tgz"
+],
 "flink-connector-kafka-3.0.0": [
 "flink/flink-connector-kafka-3.0.0/flink-connector-kafka-3.0.0-src.tgz"
 ],
@@ -4584,6 +4587,10 @@
 "apache-johnzon-1.2.20": [
 "johnzon/johnzon-1.2.20/apache-johnzon-1.2.20-src.tar.gz",
 "johnzon/johnzon-1.2.20/apache-johnzon-1.2.20-src.zip"
+],
+"apache-johnzon-1.2.21": [
+"johnzon/johnzon-1.2.21/apache-johnzon-1.2.21-src.tar.gz",
+"johnzon/johnzon-1.2.21/apache-johnzon-1.2.21-src.zip"
 ],
 "johnzon-1.1.13": [
 "johnzon/johnzon-1.1.13/johnzon-1.1.13-source-release.zip"
@@ -10118,14 +10125,8 @@
 "qpid-interop-test-0.3.0": [
 "qpid/interop-test/0.3.0/qpid-interop-test-0.3.0.tar.gz"
 ],
-"qpid-proton-0.38.0": [
-"qpid/proton/0.38.0/qpid-proton-0.38.0.tar.gz"
-],
 "qpid-proton-0.39.0": [
 "qpid/proton/0.39.0/qpid-proton-0.39.0.tar.gz"
-],
-"qpid-proton-dotnet-1.0.0-M8": [
-"qpid/proton-dotnet/1.0.0-M8/qpid-proton-dotnet-src-1.0.0-M8.tar.gz"
 ],
 "qpid-proton-dotnet-1.0.0-M9": [
 "qpid/proton-dotnet/1.0.0-M9/qpid-proton-dotnet-src-1.0.0-M9.tar.gz"
