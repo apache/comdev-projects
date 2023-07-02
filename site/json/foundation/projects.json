@@ -3428,7 +3428,7 @@
 "category": "xml, http, network-server, network-client",
 "created": "2007-06-08",
 "description": "Apache Axis2 is a toolkit for creating and using Web Services, including SOAP, MTOM, XML/HTTP and advanced WS-* standards such as WSRM and WSSecurity.\n    Axis2 includes a very fast runtime engine, together with tooling support for WSDL and WS-Policy, and plugin support for WS-Addressing, WS-ReliableMessaging, WS-Security, \n    WS-Eventing, WS-Transactions, WS-Trust and WS-SecureConversation.\n    Axis2 runs either standalone or hosted in Tomcat or other servlet containers. \n    ",
-"doap": "http://svn.apache.org/repos/asf/axis/axis2/java/core/trunk/etc/doap_Axis2.rdf",
+"doap": "https://gitbox.apache.org/repos/asf?p=axis-axis2-java-core.git;a=blob_plain;f=etc/doap_Axis2.rdf;hb=HEAD",
 "download-page": "http://axis.apache.org/axis2/java/core/download.cgi",
 "homepage": "http://axis.apache.org/axis2/java/core",
 "implements": [
@@ -3479,7 +3479,7 @@
 "mailing-list": "http://axis.apache.org/axis2/java/core/mail-lists.html",
 "maintainer": [
 {
-"mbox": "mailto:java-dev@axis.apache.org?subject=[Axis2]",
+"mbox": "mailto:java-dev@axis.apache.org?subject=%5BAxis2%5D",
 "name": "Axis2 Development Team"
 }
 ],
@@ -3631,6 +3631,11 @@
 "created": "2018-11-16",
 "name": "Apache Axis2",
 "revision": "1.7.9"
+},
+{
+"created": "2021-08-01",
+"name": "Apache Axis2",
+"revision": "1.8.0"
 }
 ],
 "repository": [
@@ -13774,6 +13779,11 @@
 "pmc": "pdfbox",
 "programming-language": "Java",
 "release": [
+{
+"created": "2023-07-01",
+"name": "Apache PDFBox",
+"revision": "2.0.29"
+},
 {
 "created": "2023-04-13",
 "name": "Apache PDFBox",
