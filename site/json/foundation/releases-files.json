@@ -101,11 +101,11 @@
 "activemq-5.16.6": [
 "activemq/5.16.6/activemq-parent-5.16.6-source-release.zip"
 ],
-"activemq-5.17.4": [
-"activemq/5.17.4/activemq-parent-5.17.4-source-release.zip"
+"activemq-5.17.5": [
+"activemq/5.17.5/activemq-parent-5.17.5-source-release.zip"
 ],
-"activemq-5.18.1": [
-"activemq/5.18.1/activemq-parent-5.18.1-source-release.zip"
+"activemq-5.18.2": [
+"activemq/5.18.2/activemq-parent-5.18.2-source-release.zip"
 ],
 "activemq-artemis-native-2.0.0": [
 "activemq/activemq-artemis-native/2.0.0/activemq-artemis-native-2.0.0-source-release.tar.gz",
@@ -507,16 +507,6 @@
 "ant/ivyde/2.2.0.final/apache-ivyde-sources-2.2.0.final-201311091524-RELEASE.zip"
 ]
 },
-"any23": {
-"apache-any23-2.7": [
-"any23/2.7/apache-any23-2.7-src.tar.gz",
-"any23/2.7/apache-any23-2.7-src.zip"
-],
-"apache-any23-cli-2.7": [
-"any23/2.7/apache-any23-cli-2.7.tar.gz",
-"any23/2.7/apache-any23-cli-2.7.zip"
-]
-},
 "apisix": {
 "apache-apisix-2.10.5": [
 "apisix/2.10.5/apache-apisix-2.10.5-src.tgz"
@@ -819,8 +809,8 @@
 "apache-arrow-object-store-rs-0.6.1": [
 "arrow/arrow-object-store-rs-0.6.1/apache-arrow-object-store-rs-0.6.1.tar.gz"
 ],
-"apache-arrow-rs-42.0.0": [
-"arrow/arrow-rs-42.0.0/apache-arrow-rs-42.0.0.tar.gz"
+"apache-arrow-rs-43.0.0": [
+"arrow/arrow-rs-43.0.0/apache-arrow-rs-43.0.0.tar.gz"
 ]
 },
 "asterixdb": {
@@ -883,23 +873,23 @@
 ]
 },
 "avro": {
-"Avro-1.11.1": [
-"avro/avro-1.11.1/perl/Avro-1.11.1.tar.gz"
+"Avro-1.11.2": [
+"avro/avro-1.11.2/perl/Avro-1.11.2.tar.gz"
 ],
 "apache-avro": [
-"avro/avro-1.11.1/rust/apache-avro.tgz"
+"avro/avro-1.11.2/rust/apache-avro.tgz"
 ],
-"avro-1.11.1": [
-"avro/avro-1.11.1/avro-src-1.11.1.tar.gz"
+"avro-1.11.2": [
+"avro/avro-1.11.2/avro-src-1.11.2.tar.gz"
 ],
-"avro-c-1.11.1": [
-"avro/avro-1.11.1/c/avro-c-1.11.1.tar.gz"
+"avro-c-1.11.2": [
+"avro/avro-1.11.2/c/avro-c-1.11.2.tar.gz"
 ],
-"avro-csharp-1.11.1": [
-"avro/avro-1.11.1/csharp/avro-csharp-1.11.1.tar.gz"
+"avro-csharp-1.11.2": [
+"avro/avro-1.11.2/csharp/avro-csharp-1.11.2.tar.gz"
 ],
-"avro-js-1.11.1": [
-"avro/avro-1.11.1/js/avro-js-1.11.1.tgz"
+"avro-js-1.11.2": [
+"avro/avro-1.11.2/js/avro-js-1.11.2.tgz"
 ]
 },
 "axis": {
@@ -1186,8 +1176,8 @@
 "apache-camel-3.21.0": [
 "camel/apache-camel/3.21.0/apache-camel-3.21.0-src.zip"
 ],
-"apache-camel-4.0.0-M3": [
-"camel/apache-camel/4.0.0-M3/apache-camel-4.0.0-M3-src.zip"
+"apache-camel-4.0.0-RC1": [
+"camel/apache-camel/4.0.0-RC1/apache-camel-4.0.0-RC1-src.zip"
 ],
 "apache-camel-k-runtime-1.12.0": [
 "camel/camel-k-runtime/1.12.0/apache-camel-k-runtime-1.12.0-source-release.zip"
@@ -2586,6 +2576,9 @@
 ],
 "apache-doris-1.2.5": [
 "doris/1.2/1.2.5-rc01/apache-doris-1.2.5-src.tar.gz"
+],
+"apache-doris-2.0-beta": [
+"doris/2.0/2.0-beta/apache-doris-2.0-beta-src.tar.gz"
 ],
 "apache-doris-2.0.0-alpha1": [
 "doris/2.0/2.0.0-alpha1/apache-doris-2.0.0-alpha1-src.tar.gz"
@@ -8369,11 +8362,6 @@
 "olingo/odata2/2.0.12/olingo-odata2-spring-2.0.12-source-release.zip"
 ]
 },
-"oodt": {
-"apache-oodt-1.9.1": [
-"oodt/apache-oodt-1.9.1-src.zip"
-]
-},
 "oozie": {
 "oozie-5.2.1": [
 "oozie/5.2.1/oozie-5.2.1.tar.gz"
@@ -10576,8 +10564,8 @@
 "skywalking-0.7.0.crate": [
 "skywalking/rust/0.7.0/skywalking-0.7.0.crate"
 ],
-"skywalking-banyandb-0.3.1": [
-"skywalking/banyandb/0.3.1/skywalking-banyandb-0.3.1-src.tgz"
+"skywalking-banyandb-0.4.0": [
+"skywalking/banyandb/0.4.0/skywalking-banyandb-0.4.0-src.tgz"
 ],
 "skywalking-cli-0.11.0": [
 "skywalking/cli/0.11.0/skywalking-cli-0.11.0-src.tgz"
@@ -11713,8 +11701,8 @@
 "org.apache.sling.validation.test-services-1.0.4": [
 "sling/org.apache.sling.validation.test-services-1.0.4-source-release.zip"
 ],
-"org.apache.sling.xss-2.3.6": [
-"sling/org.apache.sling.xss-2.3.6-source-release.zip"
+"org.apache.sling.xss-2.3.8": [
+"sling/org.apache.sling.xss-2.3.8-source-release.zip"
 ],
 "org.apache.sling.xss.compat-1.1.0": [
 "sling/org.apache.sling.xss.compat-1.1.0-source-release.zip"
