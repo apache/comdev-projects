@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl"?>
+<!-- Copied from https://gitbox.apache.org/repos/asf?p=any23-committers.git;a=blob_plain;f=doap_Any23.rdf;hb=HEAD -->
+<rdf:RDF xml:lang="en"
+         xmlns="http://usefulinc.com/ns/doap#" 
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+         xmlns:asfext="http://projects.apache.org/ns/asfext#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one or more
+    contributor license agreements.  See the NOTICE file distributed with
+    this work for additional information regarding copyright ownership.
+    The ASF licenses this file to You under the Apache License, Version 2.0
+    (the "License"); you may not use this file except in compliance with
+    the License.  You may obtain a copy of the License at
+   
+         http://www.apache.org/licenses/LICENSE-2.0
+   
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+  <Project rdf:about="http://any23.apache.org">
+    <created>2012-05-31</created>
+    <license rdf:resource="http://usefulinc.com/doap/licenses/asl20" />
+    <name>Apache Any23</name>
+    <homepage rdf:resource="http://any23.apache.org" />
+    <asfext:pmc rdf:resource="http://attic.apache.org/" />
+    <shortdesc>Anything To Triples (Any23) is a library, a web service and a command line tool that extracts structured data in RDF format from a variety of Web documents.</shortdesc>
+    <description>Apache Any23 is used in major Web of Data applications. It is written in Java and licensed under the Apache License v2.0. Apache Any23 can be used in various ways:
+* As a library in Java applications that consume structured data from the Web.
+* As a command-line tool for extracting and converting between the supported formats.
+* As online service API available at any23.org.</description>
+    <bug-database rdf:resource="https://issues.apache.org/jira/browse/ANY23" />
+    <mailing-list rdf:resource="http://any23.apache.org/mail-lists.html" />
+    <download-page rdf:resource="http://any23.apache.org//download.html" />
+    <programming-language>Java</programming-language>
+    <category rdf:resource="http://projects.apache.org/category/retired" />
+    <category rdf:resource="http://projects.apache.org/category/content" />
+    <release>
+      <Version>
+        <name>Apache Any23 2.7</name>
+        <created>2022-03-03</created>
+        <revision>2.7</revision>
+      </Version>
+    </release>
+    <release>
+      <Version>
+        <name>Apache Any23 2.6</name>
+        <created>2022-01-07</created>
+        <revision>2.6</revision>
+      </Version>
+    </release>
+    <release>
+      <Version>
+        <name>Apache Any23 2.5</name>
+        <created>2021-09-10</created>
+        <revision>2.5</revision>
+      </Version>
+    </release>
+    <release>
+      <Version>
+        <name>Apache Any23 2.4</name>
+        <created>2020-10-06</created>
+        <revision>2.4</revision>
+      </Version>
+    </release>
+    <release>
+      <Version>
+        <name>Apache Any23 2.3</name>
+        <created>2019-03-04</created>
+        <revision>2.3</revision>
+      </Version>
+    </release>
+    <release>
+      <Version>
+        <name>Apache Any23 2.2</name>
+        <created>2018-03-01</created>
+        <revision>2.2</revision>
+      </Version>
+    </release>
+    <release>
+      <Version>
+        <name>Apache Any23 2.1</name>
+        <created>2017-11-01</created>
+        <revision>2.1</revision>
+      </Version>
+    </release>
+    <release>
+      <Version>
+        <name>Apache Any23 2.0</name>
+        <created>2017-02-26</created>
+        <revision>2.0</revision>
+      </Version>
+    </release>
+    <release>
+      <Version>
+        <name>Apache Any23 1.1</name>
+        <created>2014-10-29</created>
+        <revision>1.1</revision>
+      </Version>
+    </release>
+    <release>
+      <Version>
+        <name>Apache Any23 1.0</name>
+        <created>2014-05-16</created>
+        <revision>1.0</revision>
+      </Version>
+    </release>
+    <release>
+      <Version>
+        <name>Apache Any23 0.9.0</name>
+        <created>2013-10-28</created>
+        <revision>0.9.0</revision>
+      </Version>
+    </release>
+    <release>
+      <Version>
+        <name>Apache Any23 0.8.0</name>
+        <created>2013-05-01</created>
+        <revision>0.8.0</revision>
+      </Version>
+    </release>
+    <release>
+      <Version>
+        <name>Apache Any23 0.7.0-incubating</name>
+        <created>2012-07-16</created>
+        <revision>0.7.0-incubating</revision>
+      </Version>
+    </release>
+    <repository>
+      <GitRepository>
+        <location rdf:resource="https://git-wip-us.apache.org/repos/asf/any23.git"/>
+        <browse rdf:resource="https://git-wip-us.apache.org/repos/asf/any23.git"/>
+      </GitRepository>
+    </repository>
+    <maintainer>
+      <foaf:Person>
+        <foaf:name>Apache Any23 Development Team</foaf:name>
+          <foaf:mbox rdf:resource="mailto:dev@any23.apache.org"/>
+      </foaf:Person>
+    </maintainer>
+    <asfext:implements><asfext:Standard>
+      <asfext:title>RDF/XML</asfext:title>
+      <asfext:body>W3C</asfext:body>
+      <asfext:id>W3C RDF/XML</asfext:id>
+      <asfext:url rdf:resource="https://www.w3.org/TR/rdf-syntax-grammar/"/>
+    </asfext:Standard></asfext:implements>
+    <asfext:implements><asfext:Standard>
+      <asfext:title>Turtle - Terse RDF Triple Language</asfext:title>
+      <asfext:body>W3C</asfext:body>
+      <asfext:id>W3C Turtle</asfext:id>
+      <asfext:url rdf:resource="http://www.w3.org/TeamSubmission/turtle/"/>
+    </asfext:Standard></asfext:implements>
+    <asfext:implements><asfext:Standard>
+      <asfext:title>Notation 3</asfext:title>
+      <asfext:body>W3C</asfext:body>
+      <asfext:id>W3C Notation 3</asfext:id>
+      <asfext:url rdf:resource="https://www.w3.org/TeamSubmission/n3/"/>
+    </asfext:Standard></asfext:implements>
+    <asfext:implements><asfext:Standard>
+      <asfext:title>RDFa Primer</asfext:title>
+      <asfext:body>W3C</asfext:body>
+      <asfext:id>W3C RDFa Primer</asfext:id>
+      <asfext:url rdf:resource="https://www.w3.org/TR/rdfa-primer/"/>
+    </asfext:Standard></asfext:implements>
+    <asfext:implements><asfext:Standard>
+      <asfext:title>RDFa1.1 prefix mechanism</asfext:title>
+      <asfext:body>W3C</asfext:body>
+      <asfext:id>W3C RDFa1.1 prefix mechanism</asfext:id>
+      <asfext:url rdf:resource="https://www.w3.org/TR/rdfa-core/#scoping-of-prefix-mappings"/>
+    </asfext:Standard></asfext:implements>
+    <asfext:implements><asfext:Standard>
+      <asfext:title>Microformats</asfext:title>
+      <asfext:body>Microformats</asfext:body>
+      <asfext:id>Microformats</asfext:id>
+      <asfext:url rdf:resource="http://microformats.org/"/>
+    </asfext:Standard></asfext:implements>
+    <asfext:implements><asfext:Standard>
+      <asfext:title>HTML5 Microdata</asfext:title>
+      <asfext:body>W3C</asfext:body>
+      <asfext:id>W3C HTML5 Microdata</asfext:id>
+      <asfext:url rdf:resource="https://html.spec.whatwg.org/multipage/microdata.html#microdata"/>
+    </asfext:Standard></asfext:implements>
+    <asfext:implements><asfext:Standard>
+      <asfext:title>CSV</asfext:title>
+      <asfext:body>IETF</asfext:body>
+      <asfext:id>IETF W3C</asfext:id>
+      <asfext:url rdf:resource="http://www.ietf.org/rfc/rfc4180.txt"/>
+    </asfext:Standard></asfext:implements>
+  </Project>
+</rdf:RDF>
