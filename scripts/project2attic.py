@@ -104,30 +104,56 @@ def update_project_xml(pid):
     print("Updating projects.xml")
     found = 0
     source = None
+    # match one of:
+    # http://svn.apache.org/repos/asf/tomee/tomee/trunk/doap_tomee.rdf
+    # https://gitbox.apache.org/repos/asf?p=trafficserver.git;
+    # https://gitbox.apache.org/repos/asf?p=any23-committers.git;a=blob_plain;f=doap_Any23.rdf;hb=HEAD
+    # https://raw.githubusercontent.com/apache/oodt/master/doap_oodt.rdf
+    # https://raw.githubusercontent.com/apache/directory-site/master/static/doap_fortress.rdf
+    # http://zookeeper.apache.org/doap.rdf
+    # https://daffodil.incubator.apache.org/doap.rdf
+    # Parse each line to extract the project name.
+    repore = '([-a-z0-9]+)' # repo regex
+    lines2match = [
+        f"^https?://svn\.apache\.org/repos/asf/{repore}/",
+        f"^https?://gitbox\.apache\.org/repos/asf\?p={repore}\.git",
+        f"^https?://raw\.githubusercontent\.com/apache/{repore}/",
+        f"^https?://{repore}(?:\.incubator)?\.apache\.org/",
+    ]
+    #                         1          2                      3                                                             4
     with open(xmlfile,'r') as r, open(xmlfilet,'w') as w:
         for l in r:
             m = re.search("^(\s+)<location>(.+)<",l)
             if m:
                 indent = m.group(1)
                 url = m.group(2)
-                # match one of:
-                # http://svn.apache.org/repos/asf/tomee/tomee/trunk/doap_tomee.rdf
-                # https://gitbox.apache.org/repos/asf?p=trafficserver.git;
-                # http://zookeeper.apache.org/doap.rdf
-                # https://raw.githubusercontent.com/apache/oodt/master/doap_oodt.rdf
-                # https://raw.githubusercontent.com/apache/directory-site/master/static/doap_fortress.rdf
-                regex = f"(repos/asf/{pid}/|p={pid}\.git|^https?://{pid}\.apache|githubusercontent\.com/apache/{pid}(-site)?/)"
-                if re.search(regex,url,flags=re.IGNORECASE):
-                    print("Found %s at %s" % (pid,url))
-                    l = l.replace('<location>','<!-- retired: location>').replace('</location>','</location -->')
+                if '/data/projects-override/' in url: # already handled
                     w.write(l) # write the original line
-                    w.write("%s<location>%s/%s.rdf</location>\n" % (indent, OVERRIDE_DIR, pid))
-                    found += 1
-                    source = url
                     continue
+                m2 = None
+                for line in lines2match:
+                    m2 = re.search(line, url, flags=re.IGNORECASE)
+                    if m2:
+                        break
+                if m2:
+                    reponame = m2.group(1)
+                    if reponame.startswith('empire-db'):
+                        reponame = 'empire-db'
+                    else:
+                        reponame = reponame.split('-')[0]
+                    if reponame == pid:
+                        print("Found %s at %s" % (pid,url))
+                        l = l.replace('<location>','<!-- retired: location>').replace('</location>','</location -->')
+                        w.write(l) # write the original line
+                        w.write("%s<location>%s/%s.rdf</location>\n" % (indent, OVERRIDE_DIR, pid))
+                        found += 1
+                        source = url
+                        continue
+                else:
+                    print("??? cannot parse: "+url)
             w.write(l) # write the original line
-    if found != 1:
-        print("Could not find a unique match for %s - found %d" % (pid,found))
+    if found == 0:
+        print("Could not find a match for %s" % pid)
         os.remove(xmlfilet)
     else:
         if "//svn.apache.org/" in source:
