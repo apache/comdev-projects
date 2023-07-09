@@ -807,147 +807,6 @@
 ],
 "shortdesc": "Microsoft Visual Source Safe support for Apache Ant."
 },
-"any23": {
-"bug-database": "https://issues.apache.org/jira/browse/ANY23",
-"category": "content, retired",
-"created": "2012-05-31",
-"description": "Apache Any23 is used in major Web of Data applications. It is written in Java and licensed under the Apache License v2.0. Apache Any23 can be used in various ways:\n* As a library in Java applications that consume structured data from the Web.\n* As a command-line tool for extracting and converting between the supported formats.\n* As online service API available at any23.org.",
-"doap": "https://gitbox.apache.org/repos/asf?p=any23-committers.git;a=blob_plain;f=doap_Any23.rdf;hb=HEAD",
-"download-page": "http://any23.apache.org//download.html",
-"homepage": "http://any23.apache.org",
-"implements": [
-{
-"body": "W3C",
-"id": "W3C RDF/XML",
-"title": "RDF/XML",
-"url": "https://www.w3.org/TR/rdf-syntax-grammar/"
-},
-{
-"body": "W3C",
-"id": "W3C Turtle",
-"title": "Turtle - Terse RDF Triple Language",
-"url": "http://www.w3.org/TeamSubmission/turtle/"
-},
-{
-"body": "W3C",
-"id": "W3C Notation 3",
-"title": "Notation 3",
-"url": "https://www.w3.org/TeamSubmission/n3/"
-},
-{
-"body": "W3C",
-"id": "W3C RDFa Primer",
-"title": "RDFa Primer",
-"url": "https://www.w3.org/TR/rdfa-primer/"
-},
-{
-"body": "W3C",
-"id": "W3C RDFa1.1 prefix mechanism",
-"title": "RDFa1.1 prefix mechanism",
-"url": "https://www.w3.org/TR/rdfa-core/#scoping-of-prefix-mappings"
-},
-{
-"body": "Microformats",
-"id": "Microformats",
-"title": "Microformats",
-"url": "http://microformats.org/"
-},
-{
-"body": "W3C",
-"id": "W3C HTML5 Microdata",
-"title": "HTML5 Microdata",
-"url": "https://html.spec.whatwg.org/multipage/microdata.html#microdata"
-},
-{
-"body": "IETF",
-"id": "IETF W3C",
-"title": "CSV",
-"url": "http://www.ietf.org/rfc/rfc4180.txt"
-}
-],
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://any23.apache.org/mail-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:dev@any23.apache.org",
-"name": "Apache Any23 Development Team"
-}
-],
-"name": "Apache Any23",
-"pmc": "attic",
-"programming-language": "Java",
-"release": [
-{
-"created": "2022-03-03",
-"name": "Apache Any23 2.7",
-"revision": "2.7"
-},
-{
-"created": "2022-01-07",
-"name": "Apache Any23 2.6",
-"revision": "2.6"
-},
-{
-"created": "2021-09-10",
-"name": "Apache Any23 2.5",
-"revision": "2.5"
-},
-{
-"created": "2020-10-06",
-"name": "Apache Any23 2.4",
-"revision": "2.4"
-},
-{
-"created": "2019-03-04",
-"name": "Apache Any23 2.3",
-"revision": "2.3"
-},
-{
-"created": "2018-03-01",
-"name": "Apache Any23 2.2",
-"revision": "2.2"
-},
-{
-"created": "2017-11-01",
-"name": "Apache Any23 2.1",
-"revision": "2.1"
-},
-{
-"created": "2017-02-26",
-"name": "Apache Any23 2.0",
-"revision": "2.0"
-},
-{
-"created": "2014-10-29",
-"name": "Apache Any23 1.1",
-"revision": "1.1"
-},
-{
-"created": "2014-05-16",
-"name": "Apache Any23 1.0",
-"revision": "1.0"
-},
-{
-"created": "2013-10-28",
-"name": "Apache Any23 0.9.0",
-"revision": "0.9.0"
-},
-{
-"created": "2013-05-01",
-"name": "Apache Any23 0.8.0",
-"revision": "0.8.0"
-},
-{
-"created": "2012-07-16",
-"name": "Apache Any23 0.7.0-incubating",
-"revision": "0.7.0-incubating"
-}
-],
-"repository": [
-"https://git-wip-us.apache.org/repos/asf/any23.git"
-],
-"shortdesc": "Anything To Triples (Any23) is a library, a web service and a command line tool that extracts structured data in RDF format from a variety of Web documents."
-},
 "apr-portable_runtime": {
 "bug-database": "https://issues.apache.org/bugzilla/",
 "category": "library",
@@ -1120,6 +979,147 @@
 "http://svn.apache.org/repos/asf/ace"
 ],
 "shortdesc": "Apache ACE is a distribution framework that allows you to centrally manage and distribute software components, configuration data and other artifacts to target systems. It is built using OSGi and can be deployed in different topologies. The target systems are usually also OSGi based, but don't have to be."
+},
+"attic-any23": {
+"bug-database": "https://issues.apache.org/jira/browse/ANY23",
+"category": "retired, content",
+"created": "2012-05-31",
+"description": "Apache Any23 is used in major Web of Data applications. It is written in Java and licensed under the Apache License v2.0. Apache Any23 can be used in various ways:\n* As a library in Java applications that consume structured data from the Web.\n* As a command-line tool for extracting and converting between the supported formats.\n* As online service API available at any23.org.",
+"doap": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/any23.rdf",
+"download-page": "http://any23.apache.org//download.html",
+"homepage": "http://any23.apache.org",
+"implements": [
+{
+"body": "W3C",
+"id": "W3C RDF/XML",
+"title": "RDF/XML",
+"url": "https://www.w3.org/TR/rdf-syntax-grammar/"
+},
+{
+"body": "W3C",
+"id": "W3C Turtle",
+"title": "Turtle - Terse RDF Triple Language",
+"url": "http://www.w3.org/TeamSubmission/turtle/"
+},
+{
+"body": "W3C",
+"id": "W3C Notation 3",
+"title": "Notation 3",
+"url": "https://www.w3.org/TeamSubmission/n3/"
+},
+{
+"body": "W3C",
+"id": "W3C RDFa Primer",
+"title": "RDFa Primer",
+"url": "https://www.w3.org/TR/rdfa-primer/"
+},
+{
+"body": "W3C",
+"id": "W3C RDFa1.1 prefix mechanism",
+"title": "RDFa1.1 prefix mechanism",
+"url": "https://www.w3.org/TR/rdfa-core/#scoping-of-prefix-mappings"
+},
+{
+"body": "Microformats",
+"id": "Microformats",
+"title": "Microformats",
+"url": "http://microformats.org/"
+},
+{
+"body": "W3C",
+"id": "W3C HTML5 Microdata",
+"title": "HTML5 Microdata",
+"url": "https://html.spec.whatwg.org/multipage/microdata.html#microdata"
+},
+{
+"body": "IETF",
+"id": "IETF W3C",
+"title": "CSV",
+"url": "http://www.ietf.org/rfc/rfc4180.txt"
+}
+],
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://any23.apache.org/mail-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:dev@any23.apache.org",
+"name": "Apache Any23 Development Team"
+}
+],
+"name": "Apache Any23",
+"pmc": "attic",
+"programming-language": "Java",
+"release": [
+{
+"created": "2022-03-03",
+"name": "Apache Any23 2.7",
+"revision": "2.7"
+},
+{
+"created": "2022-01-07",
+"name": "Apache Any23 2.6",
+"revision": "2.6"
+},
+{
+"created": "2021-09-10",
+"name": "Apache Any23 2.5",
+"revision": "2.5"
+},
+{
+"created": "2020-10-06",
+"name": "Apache Any23 2.4",
+"revision": "2.4"
+},
+{
+"created": "2019-03-04",
+"name": "Apache Any23 2.3",
+"revision": "2.3"
+},
+{
+"created": "2018-03-01",
+"name": "Apache Any23 2.2",
+"revision": "2.2"
+},
+{
+"created": "2017-11-01",
+"name": "Apache Any23 2.1",
+"revision": "2.1"
+},
+{
+"created": "2017-02-26",
+"name": "Apache Any23 2.0",
+"revision": "2.0"
+},
+{
+"created": "2014-10-29",
+"name": "Apache Any23 1.1",
+"revision": "1.1"
+},
+{
+"created": "2014-05-16",
+"name": "Apache Any23 1.0",
+"revision": "1.0"
+},
+{
+"created": "2013-10-28",
+"name": "Apache Any23 0.9.0",
+"revision": "0.9.0"
+},
+{
+"created": "2013-05-01",
+"name": "Apache Any23 0.8.0",
+"revision": "0.8.0"
+},
+{
+"created": "2012-07-16",
+"name": "Apache Any23 0.7.0-incubating",
+"revision": "0.7.0-incubating"
+}
+],
+"repository": [
+"https://git-wip-us.apache.org/repos/asf/any23.git"
+],
+"shortdesc": "Anything To Triples (Any23) is a library, a web service and a command line tool that extracts structured data in RDF format from a variety of Web documents."
 },
 "attic-apex": {
 "bug-database": "https://issues.apache.org/jira/browse/APEXCORE, https://issues.apache.org/jira/browse/APEXMALHAR",
