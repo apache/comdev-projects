@@ -60,7 +60,7 @@
 "airflow-1.9.0.tgz.prov": "2023-04-14",
 "airflow-chart-1.10.0": "2023-06-27",
 "airflow-chart-1.9.0": "2023-04-14",
-"apache-airflow-2.6.2": "2023-06-17",
+"apache-airflow-2.6.3": "2023-07-10",
 "apache-airflow-client-2.1.0": "2021-05-31",
 "apache-airflow-client-2.2.0": "2021-12-01",
 "apache-airflow-client-2.3.0": "2022-08-03",
@@ -70,7 +70,7 @@
 "apache-airflow-client-2.6.2": "2023-06-25",
 "apache-airflow-providers-airbyte-3.3.1": "2023-06-23",
 "apache-airflow-providers-alibaba-2.5.0": "2023-07-09",
-"apache-airflow-providers-amazon-8.2.0": "2023-06-23",
+"apache-airflow-providers-amazon-8.3.0": "2023-07-10",
 "apache-airflow-providers-apache-beam-5.1.1": "2023-06-23",
 "apache-airflow-providers-apache-cassandra-3.2.1": "2023-06-23",
 "apache-airflow-providers-apache-drill-2.4.1": "2023-06-23",
@@ -417,6 +417,7 @@
 "apache-camel-k-runtime-1.15.0": "2022-09-29",
 "apache-camel-k-runtime-1.16.0": "2022-11-28",
 "apache-camel-k-runtime-1.17.1": "2023-05-29",
+"apache-camel-k-runtime-2.16.0": "2023-07-04",
 "apache-camel-quarkus-2.13.3": "2023-04-18",
 "apache-camel-quarkus-2.16.0": "2023-01-24",
 "apache-camel-quarkus-3.0.0-RC1": "2023-07-07",
@@ -517,6 +518,7 @@
 "camel-kamelets-sources-4.0.0-M1": "2023-02-28",
 "camel-kamelets-sources-4.0.0-M2": "2023-04-13",
 "camel-kamelets-sources-4.0.0-M3": "2023-05-11",
+"camel-kamelets-sources-4.0.0-RC1": "2023-07-05",
 "camel-karavan-3.20.1": "2023-04-09",
 "camel-karavan-3.21.0": "2023-07-09"
 },
@@ -694,7 +696,7 @@
 "cordova-eslint-config-5.0.0": "2023-01-18",
 "cordova-fetch-4.0.0": "2023-04-13",
 "cordova-firefoxos-3.6.3": "2014-09-16",
-"cordova-ios-6.3.0": "2023-04-17",
+"cordova-ios-7.0.0": "2023-07-10",
 "cordova-js-6.1.0": "2021-07-14",
 "cordova-lib-12.0.1": "2023-05-23",
 "cordova-osx-7.0.0": "2022-03-12",
@@ -705,7 +707,7 @@
 "cordova-plugin-contacts-3.0.1": "2017-12-20",
 "cordova-plugin-device-2.1.0": "2022-04-11",
 "cordova-plugin-dialogs-2.0.2": "2019-07-02",
-"cordova-plugin-file-7.0.0": "2022-04-11",
+"cordova-plugin-file-8.0.0": "2023-07-10",
 "cordova-plugin-geolocation-4.1.0": "2020-11-20",
 "cordova-plugin-globalization-1.11.0": "2018-04-17",
 "cordova-plugin-inappbrowser-5.0.0": "2021-02-16",
@@ -1374,6 +1376,9 @@
 "incubator-pegasus": {
 "apache-pegasus-2.4.0-incubating": "2022-10-30"
 },
+"incubator-pekko": {
+"incubating-pekko-1.0.0-20230629": "2023-07-10"
+},
 "incubator-ponymail": {
 "apache-pony-mail-0.11-incubating": "2019-03-25"
 },
@@ -1413,7 +1418,8 @@
 "incubator-uniffle": {
 "apache-uniffle-0.6.0-incubating": "2022-10-13",
 "apache-uniffle-0.6.1-incubating": "2022-12-01",
-"apache-uniffle-0.7.0-incubating": "2023-03-17"
+"apache-uniffle-0.7.0-incubating": "2023-03-17",
+"apache-uniffle-0.7.1-incubating": "2023-06-16"
 },
 "incubator-wayang": {
 "apache-wayang-0.6.0-incubating": "2021-12-01",
@@ -1489,7 +1495,8 @@
 },
 "jmeter": {
 "apache-jmeter-5.5": "2022-06-14",
-"apache-jmeter-5.6": "2023-06-23"
+"apache-jmeter-5.6": "2023-06-23",
+"apache-jmeter-5.6.1": "2023-07-10"
 },
 "johnzon": {
 "apache-johnzon-1.0.2": "2018-12-18",
@@ -1672,7 +1679,7 @@
 "apache-resource-bundles-1.5": "2023-04-05",
 "doxia-2.0.0-M7": "2023-06-24",
 "doxia-converter-1.3": "2023-01-14",
-"doxia-sitetools-2.0.0-M10": "2023-04-29",
+"doxia-sitetools-2.0.0-M11": "2023-07-10",
 "enforcer-3.3.0": "2023-04-04",
 "file-management-3.1.0": "2022-07-01",
 "jxr-3.3.0": "2022-08-19",
@@ -1730,8 +1737,8 @@
 "maven-release-3.0.1": "2023-06-03",
 "maven-remote-resources-plugin-3.1.0": "2023-05-11",
 "maven-reporting-api-4.0.0-M7": "2023-07-09",
-"maven-reporting-exec-2.0.0-M8": "2023-04-29",
-"maven-reporting-impl-4.0.0-M8": "2023-04-29",
+"maven-reporting-exec-2.0.0-M9": "2023-07-10",
+"maven-reporting-impl-4.0.0-M9": "2023-07-10",
 "maven-resolver-1.9.13": "2023-06-23",
 "maven-resolver-ant-tasks-1.4.0": "2021-11-26",
 "maven-resources-plugin-3.3.1": "2023-03-24",
@@ -1745,7 +1752,7 @@
 "maven-shared-jar-3.0.0": "2023-04-18",
 "maven-shared-resources-5": "2022-11-22",
 "maven-shared-utils-3.4.2": "2023-05-15",
-"maven-site-plugin-4.0.0-M8": "2023-05-02",
+"maven-site-plugin-4.0.0-M9": "2023-07-10",
 "maven-source-plugin-3.3.0": "2023-05-21",
 "maven-stage-plugin-1.0": "2015-03-03",
 "maven-toolchains-plugin-3.1.0": "2022-06-20",
@@ -1887,7 +1894,7 @@
 "net-java-html-sound.nbm": "2023-05-22",
 "net-java-html.nbm": "2023-05-22",
 "netbeans-18": "2023-05-22",
-"netbeans-3": "2022-04-27",
+"netbeans-4": "2023-07-05",
 "netbeans-html4j-1.8.1": "2022-07-07",
 "org-apache-commons-codec.nbm": "2023-05-22",
 "org-apache-commons-httpclient.nbm": "2023-05-22",
@@ -2977,11 +2984,13 @@
 "apache-pulsar-client-devel-3.1.2-1.aarch64": "2023-02-08",
 "apache-pulsar-client-devel-3.2.0-1.aarch64": "2023-05-06",
 "apache-pulsar-client-go-0.10.0": "2023-03-27",
+"apache-pulsar-client-go-0.11.0": "2023-07-04",
 "apache-pulsar-client-go-0.8.1": "2022-03-08",
 "apache-pulsar-client-go-0.9.0-candidate-2": "2022-09-29",
 "apache-pulsar-client-node-1.8.0": "2022-12-23",
 "apache-pulsar-client-node-1.8.1": "2023-02-25",
 "apache-pulsar-client-node-1.8.2": "2023-04-14",
+"apache-pulsar-client-node-1.9.0": "2023-07-04",
 "apache-pulsar-manager-0.3.0": "2022-05-10",
 "apache-pulsar-manager-0.4.0": "2023-05-05",
 "napi-darwin-unknown-arm64": "2022-12-23",
@@ -3490,7 +3499,7 @@
 "sling": {
 "adapter-annotations-1.0.0": "2013-01-21",
 "apache-sling-jar-resource-bundle-1.0.2": "2020-05-14",
-"feature-launcher-maven-plugin-0.1.4": "2022-11-23",
+"feature-launcher-maven-plugin-0.1.6": "2023-07-10",
 "htl-maven-plugin-2.0.4-1.4.0": "2021-10-08",
 "javaversion-maven-plugin-1.0.0": "2017-09-04",
 "jspc-maven-plugin-2.3.4": "2022-04-12",
@@ -3862,7 +3871,7 @@
 "sling-maven-plugin-3.0.2": "2022-08-21",
 "sling-servlet-archetype-1.0.4": "2015-10-19",
 "sling-slingstart-archetype-1.0.8": "2018-10-23",
-"slingfeature-maven-plugin-1.7.0": "2023-06-05",
+"slingfeature-maven-plugin-1.7.2": "2023-07-10",
 "slingstart-maven-plugin-1.9.12": "2020-05-03"
 },
 "solr": {
@@ -3928,6 +3937,8 @@
 "struts-6.1.2-min": "2023-03-08",
 "struts-6.1.2.1": "2023-06-13",
 "struts-6.1.2.1-min": "2023-06-13",
+"struts-6.2.0": "2023-06-28",
+"struts-6.2.0-min": "2023-06-28",
 "struts2-secure-jakarta-multipart-parser-plugin-1.1": "2017-03-22",
 "struts2-secure-jakarta-stream-multipart-parser-plugin-1.1": "2017-03-22"
 },
@@ -3965,7 +3976,7 @@
 "apache-syncope-enduser-2.1.14": "2023-05-05",
 "org.apache.syncope.ide.eclipse.site-2.1.14": "2023-05-05",
 "syncope-2.1.14": "2023-05-05",
-"syncope-3.0.3": "2023-05-05",
+"syncope-3.0.4": "2023-07-07",
 "syncope-client-cli-2.1.14": "2023-05-05",
 "syncope-core-upgrade-2.1.14": "2023-05-05",
 "syncope-ide-netbeans-2.1.14.nbm": "2023-05-05"
@@ -4007,11 +4018,15 @@
 },
 "tomcat": {
 "apache-tomcat-10.1.10": "2023-06-02",
+"apache-tomcat-10.1.11": "2023-07-06",
 "apache-tomcat-10.1.8": "2023-04-14",
 "apache-tomcat-10.1.9": "2023-05-09",
 "apache-tomcat-11.0.0-M7": "2023-06-02",
+"apache-tomcat-11.0.0-M9": "2023-07-04",
 "apache-tomcat-8.5.90": "2023-06-02",
+"apache-tomcat-8.5.91": "2023-07-06",
 "apache-tomcat-9.0.76": "2023-06-05",
+"apache-tomcat-9.0.78": "2023-07-04",
 "jakartaee-migration-1.0.6": "2022-12-02",
 "jakartaee-migration-1.0.7": "2023-04-26",
 "taglibs-standard-1.2.5": "2015-03-10",
