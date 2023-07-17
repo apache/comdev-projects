@@ -204,8 +204,8 @@
 "apache-airflow-providers-alibaba-2.5.0": [
 "airflow/providers/apache-airflow-providers-alibaba-2.5.0.tar.gz"
 ],
-"apache-airflow-providers-amazon-8.3.0": [
-"airflow/providers/apache-airflow-providers-amazon-8.3.0.tar.gz"
+"apache-airflow-providers-amazon-8.3.1": [
+"airflow/providers/apache-airflow-providers-amazon-8.3.1.tar.gz"
 ],
 "apache-airflow-providers-apache-beam-5.1.1": [
 "airflow/providers/apache-airflow-providers-apache-beam-5.1.1.tar.gz"
@@ -270,8 +270,8 @@
 "apache-airflow-providers-cloudant-3.2.1": [
 "airflow/providers/apache-airflow-providers-cloudant-3.2.1.tar.gz"
 ],
-"apache-airflow-providers-cncf-kubernetes-7.2.0": [
-"airflow/providers/apache-airflow-providers-cncf-kubernetes-7.2.0.tar.gz"
+"apache-airflow-providers-cncf-kubernetes-7.3.0": [
+"airflow/providers/apache-airflow-providers-cncf-kubernetes-7.3.0.tar.gz"
 ],
 "apache-airflow-providers-common-sql-1.6.0": [
 "airflow/providers/apache-airflow-providers-common-sql-1.6.0.tar.gz"
@@ -309,8 +309,8 @@
 "apache-airflow-providers-github-2.3.1": [
 "airflow/providers/apache-airflow-providers-github-2.3.1.tar.gz"
 ],
-"apache-airflow-providers-google-10.3.0": [
-"airflow/providers/apache-airflow-providers-google-10.3.0.tar.gz"
+"apache-airflow-providers-google-10.4.0": [
+"airflow/providers/apache-airflow-providers-google-10.4.0.tar.gz"
 ],
 "apache-airflow-providers-grpc-3.2.1": [
 "airflow/providers/apache-airflow-providers-grpc-3.2.1.tar.gz"
@@ -318,8 +318,8 @@
 "apache-airflow-providers-hashicorp-3.4.2": [
 "airflow/providers/apache-airflow-providers-hashicorp-3.4.2.tar.gz"
 ],
-"apache-airflow-providers-http-4.4.2": [
-"airflow/providers/apache-airflow-providers-http-4.4.2.tar.gz"
+"apache-airflow-providers-http-4.5.0": [
+"airflow/providers/apache-airflow-providers-http-4.5.0.tar.gz"
 ],
 "apache-airflow-providers-imap-3.2.2": [
 "airflow/providers/apache-airflow-providers-imap-3.2.2.tar.gz"
@@ -336,8 +336,8 @@
 "apache-airflow-providers-jira-3.1.0": [
 "airflow/providers/apache-airflow-providers-jira-3.1.0.tar.gz"
 ],
-"apache-airflow-providers-microsoft-azure-6.2.0": [
-"airflow/providers/apache-airflow-providers-microsoft-azure-6.2.0.tar.gz"
+"apache-airflow-providers-microsoft-azure-6.2.1": [
+"airflow/providers/apache-airflow-providers-microsoft-azure-6.2.1.tar.gz"
 ],
 "apache-airflow-providers-microsoft-mssql-3.4.1": [
 "airflow/providers/apache-airflow-providers-microsoft-mssql-3.4.1.tar.gz"
@@ -402,8 +402,8 @@
 "apache-airflow-providers-sendgrid-3.2.1": [
 "airflow/providers/apache-airflow-providers-sendgrid-3.2.1.tar.gz"
 ],
-"apache-airflow-providers-sftp-4.3.1": [
-"airflow/providers/apache-airflow-providers-sftp-4.3.1.tar.gz"
+"apache-airflow-providers-sftp-4.4.0": [
+"airflow/providers/apache-airflow-providers-sftp-4.4.0.tar.gz"
 ],
 "apache-airflow-providers-singularity-3.2.1": [
 "airflow/providers/apache-airflow-providers-singularity-3.2.1.tar.gz"
@@ -414,8 +414,8 @@
 "apache-airflow-providers-smtp-1.2.0": [
 "airflow/providers/apache-airflow-providers-smtp-1.2.0.tar.gz"
 ],
-"apache-airflow-providers-snowflake-4.3.0": [
-"airflow/providers/apache-airflow-providers-snowflake-4.3.0.tar.gz"
+"apache-airflow-providers-snowflake-4.3.1": [
+"airflow/providers/apache-airflow-providers-snowflake-4.3.1.tar.gz"
 ],
 "apache-airflow-providers-sqlite-3.4.2": [
 "airflow/providers/apache-airflow-providers-sqlite-3.4.2.tar.gz"
@@ -10632,9 +10632,9 @@
 "skywalking-e2e-1.2.0": [
 "skywalking/infra-e2e/1.2.0/skywalking-e2e-1.2.0-src.tgz"
 ],
-"skywalking-helm-4.4.0": [
-"skywalking/kubernetes/4.4.0/skywalking-helm-4.4.0-src.tgz",
-"skywalking/kubernetes/4.4.0/skywalking-helm-4.4.0.tgz"
+"skywalking-helm-4.5.0": [
+"skywalking/kubernetes/4.5.0/skywalking-helm-4.5.0-src.tgz",
+"skywalking/kubernetes/4.5.0/skywalking-helm-4.5.0.tgz"
 ],
 "skywalking-kong-0.1.1": [
 "skywalking/kong/0.1.1/skywalking-kong-0.1.1-src.tgz"
@@ -11955,15 +11955,6 @@
 ]
 },
 "struts": {
-"struts-2.5.30": [
-"struts/2.5.30/struts-2.5.30-all.zip",
-"struts/2.5.30/struts-2.5.30-apps.zip",
-"struts/2.5.30/struts-2.5.30-lib.zip",
-"struts/2.5.30/struts-2.5.30-src.zip"
-],
-"struts-2.5.30-min": [
-"struts/2.5.30/struts-2.5.30-min-lib.zip"
-],
 "struts-2.5.31": [
 "struts/2.5.31/struts-2.5.31-all.zip",
 "struts/2.5.31/struts-2.5.31-apps.zip",
@@ -11972,42 +11963,6 @@
 ],
 "struts-2.5.31-min": [
 "struts/2.5.31/struts-2.5.31-min-lib.zip"
-],
-"struts-6.0.0": [
-"struts/6.0.0/struts-6.0.0-all.zip",
-"struts/6.0.0/struts-6.0.0-apps.zip",
-"struts/6.0.0/struts-6.0.0-lib.zip",
-"struts/6.0.0/struts-6.0.0-src.zip"
-],
-"struts-6.0.0-min": [
-"struts/6.0.0/struts-6.0.0-min-lib.zip"
-],
-"struts-6.0.3": [
-"struts/6.0.3/struts-6.0.3-all.zip",
-"struts/6.0.3/struts-6.0.3-apps.zip",
-"struts/6.0.3/struts-6.0.3-lib.zip",
-"struts/6.0.3/struts-6.0.3-src.zip"
-],
-"struts-6.0.3-min": [
-"struts/6.0.3/struts-6.0.3-min-lib.zip"
-],
-"struts-6.1.1": [
-"struts/6.1.1/struts-6.1.1-all.zip",
-"struts/6.1.1/struts-6.1.1-apps.zip",
-"struts/6.1.1/struts-6.1.1-lib.zip",
-"struts/6.1.1/struts-6.1.1-src.zip"
-],
-"struts-6.1.1-min": [
-"struts/6.1.1/struts-6.1.1-min-lib.zip"
-],
-"struts-6.1.2": [
-"struts/6.1.2/struts-6.1.2-all.zip",
-"struts/6.1.2/struts-6.1.2-apps.zip",
-"struts/6.1.2/struts-6.1.2-lib.zip",
-"struts/6.1.2/struts-6.1.2-src.zip"
-],
-"struts-6.1.2-min": [
-"struts/6.1.2/struts-6.1.2-min-lib.zip"
 ],
 "struts-6.1.2.1": [
 "struts/6.1.2.1/struts-6.1.2.1-all.zip",
@@ -12176,9 +12131,9 @@
 "tapestry/apache-tapestry-5.6.4-apidocs.zip",
 "tapestry/apache-tapestry-5.6.4-sources.zip"
 ],
-"apache-tapestry-5.8.2": [
-"tapestry/apache-tapestry-5.8.2-apidocs.zip",
-"tapestry/apache-tapestry-5.8.2-sources.zip"
+"apache-tapestry-5.8.3": [
+"tapestry/apache-tapestry-5.8.3-apidocs.zip",
+"tapestry/apache-tapestry-5.8.3-sources.zip"
 ]
 },
 "tcl": {
