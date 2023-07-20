@@ -250,6 +250,26 @@
 "programming-language": "Java, C, C++, Ruby, Perl, Python, PHP, C#",
 "shortdesc": "ActiveMQ is the most popular and powerful open source Message Broker."
 },
+"age": {
+"category": "database",
+"created": "2023-02-15",
+"description": "The goal of Apache AGE® is to provide graph data processing and analytics capability to all relational databases.\n\nThrough Apache AGE, PostgreSQL users will gain access to graph query modeling within the existing relational database.\n",
+"doap": "https://age.apache.org/age-doap.rdf",
+"download-page": "https://age.apache.org/download",
+"homepage": "https://age.apache.org/",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://lists.apache.org/list.html?dev@age.apache.org",
+"maintainer": [
+{
+"mbox": "mailto:badaleya@gmail.com",
+"name": "Eya Badal "
+}
+],
+"name": "Apache AGE",
+"pmc": "age",
+"programming-language": "C",
+"shortdesc": "Apache AGE® is a PostgreSQL extension that provides graph database functionality.\n"
+},
 "airavata": {
 "bug-database": "https://issues.apache.org/jira/browse/airavata",
 "category": "network-server, cloud, big-data",
@@ -4847,26 +4867,6 @@
 ],
 "shortdesc": "Web development framework: separation of concerns, component-based."
 },
-"comdev-age": {
-"category": "database",
-"created": "2023-02-15",
-"description": "The goal of Apache AGE® is to provide graph data processing and analytics capability to all relational databases.\n\nThrough Apache AGE, PostgreSQL users will gain access to graph query modeling within the existing relational database.\n",
-"doap": "https://age.apache.org/age-doap.rdf",
-"download-page": "https://age.apache.org/download",
-"homepage": "https://age.apache.org/",
-"license": "https://spdx.org/licenses/Apache-2.0",
-"mailing-list": "https://lists.apache.org/list.html?dev@age.apache.org",
-"maintainer": [
-{
-"mbox": "mailto:badaleya@gmail.com",
-"name": "Eya Badal "
-}
-],
-"name": "Apache AGE",
-"pmc": "comdev",
-"programming-language": "C",
-"shortdesc": "Apache AGE® is a PostgreSQL extension that provides graph database functionality.\n"
-},
 "comdev-community_development": {
 "bug-database": "https://issues.apache.org/jira/browse/COMDEV",
 "created": "2009",
@@ -7540,11 +7540,11 @@
 "shortdesc": "Java Common Components"
 },
 "commons-validator": {
-"bug-database": "http://commons.apache.org/validator/issue-tracking.html",
+"bug-database": "https://issues.apache.org/jira/browse/VALIDATOR",
 "category": "library",
 "description": "\n    Commons Validator provides the building blocks for both client side validation\n    and server side data validation. It may be used standalone or with a framework like\n    Struts.\n  ",
 "doap": "http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_validator.rdf",
-"download-page": "http://commons.apache.org/validator/downloads.html",
+"download-page": "http://commons.apache.org/validator/download_validator.cgi",
 "homepage": "http://commons.apache.org/validator/",
 "license": "http://usefulinc.com/doap/licenses/asl20",
 "mailing-list": "http://commons.apache.org/mail-lists.html",
@@ -10152,7 +10152,7 @@
 "shortdesc": "A framework for developing Semantic Web and Linked Data applications in Java."
 },
 "jmeter": {
-"bug-database": "https://bz.apache.org/bugzilla/",
+"bug-database": "https://github.com/apache/jmeter/issues",
 "category": "testing",
 "created": "2006-02-17",
 "description": "Apache JMeter may be used to test performance both on static and dynamic resources (files, Servlets, Perl scripts, Java Objects, Data Bases and Queries, FTP Servers and more). It can be used to simulate a heavy load on a server, network or object to test its strength or to analyze overall performance under different load types. You can use it to make a graphical analysis of performance or to test your server/script/object behavior under heavy concurrent load. ",
@@ -10998,7 +10998,7 @@
 "shortdesc": "Apache Libcloud is a standard Python library that abstracts away differences among multiple cloud provider APIs."
 },
 "logging-chainsaw": {
-"bug-database": "http://issues.apache.org/bugzilla",
+"bug-database": "https://github.com/apache/logging-chainsaw/issues",
 "category": "network-client",
 "created": "2007-02-09",
 "doap": "https://raw.githubusercontent.com/apache/logging-chainsaw/master/doap_chainsaw.rdf",
