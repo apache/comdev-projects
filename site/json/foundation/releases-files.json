@@ -294,8 +294,8 @@
 "apache-airflow-providers-docker-3.7.1": [
 "airflow/providers/apache-airflow-providers-docker-3.7.1.tar.gz"
 ],
-"apache-airflow-providers-elasticsearch-4.5.1": [
-"airflow/providers/apache-airflow-providers-elasticsearch-4.5.1.tar.gz"
+"apache-airflow-providers-elasticsearch-5.0.0": [
+"airflow/providers/apache-airflow-providers-elasticsearch-5.0.0.tar.gz"
 ],
 "apache-airflow-providers-exasol-4.2.1": [
 "airflow/providers/apache-airflow-providers-exasol-4.2.1.tar.gz"
@@ -2894,9 +2894,9 @@
 "felix/org.apache.felix.healthcheck.generalchecks-3.0.6-source-release.tar.gz",
 "felix/org.apache.felix.healthcheck.generalchecks-3.0.6-source-release.zip"
 ],
-"org.apache.felix.healthcheck.webconsoleplugin-2.0.2": [
-"felix/org.apache.felix.healthcheck.webconsoleplugin-2.0.2-source-release.tar.gz",
-"felix/org.apache.felix.healthcheck.webconsoleplugin-2.0.2-source-release.zip"
+"org.apache.felix.healthcheck.webconsoleplugin-2.1.0": [
+"felix/org.apache.felix.healthcheck.webconsoleplugin-2.1.0-source-release.tar.gz",
+"felix/org.apache.felix.healthcheck.webconsoleplugin-2.1.0-source-release.zip"
 ],
 "org.apache.felix.http.api-3.0.0": [
 "felix/org.apache.felix.http.api-3.0.0-source-release.tar.gz",
@@ -4284,6 +4284,9 @@
 ],
 "apache-opendal-incubating-0.38.0": [
 "incubator/opendal/0.38.0/apache-opendal-incubating-0.38.0-src.tar.gz"
+],
+"apache-opendal-incubating-0.38.1": [
+"incubator/opendal/0.38.1/apache-opendal-incubating-0.38.1-src.tar.gz"
 ]
 },
 "incubator-paimon": {
@@ -4679,17 +4682,26 @@
 "kafka-3.5.0": [
 "kafka/3.5.0/kafka-3.5.0-src.tgz"
 ],
+"kafka-3.5.1": [
+"kafka/3.5.1/kafka-3.5.1-src.tgz"
+],
 "kafka_2.12-3.4.1": [
 "kafka/3.4.1/kafka_2.12-3.4.1.tgz"
 ],
 "kafka_2.12-3.5.0": [
 "kafka/3.5.0/kafka_2.12-3.5.0.tgz"
 ],
+"kafka_2.12-3.5.1": [
+"kafka/3.5.1/kafka_2.12-3.5.1.tgz"
+],
 "kafka_2.13-3.4.1": [
 "kafka/3.4.1/kafka_2.13-3.4.1.tgz"
 ],
 "kafka_2.13-3.5.0": [
 "kafka/3.5.0/kafka_2.13-3.5.0.tgz"
+],
+"kafka_2.13-3.5.1": [
+"kafka/3.5.1/kafka_2.13-3.5.1.tgz"
 ]
 },
 "karaf": {
@@ -5376,6 +5388,18 @@
 "maven-mvnd-1.0-m6-m40-darwin-aarch64": [
 "maven/mvnd/1.0-m6/maven-mvnd-1.0-m6-m40-darwin-aarch64.tar.gz",
 "maven/mvnd/1.0-m6/maven-mvnd-1.0-m6-m40-darwin-aarch64.zip"
+],
+"maven-mvnd-1.0-m7": [
+"maven/mvnd/1.0-m7/maven-mvnd-1.0-m7-src.tar.gz",
+"maven/mvnd/1.0-m7/maven-mvnd-1.0-m7-src.zip"
+],
+"maven-mvnd-1.0-m7-m39-darwin-aarch64": [
+"maven/mvnd/1.0-m7/maven-mvnd-1.0-m7-m39-darwin-aarch64.tar.gz",
+"maven/mvnd/1.0-m7/maven-mvnd-1.0-m7-m39-darwin-aarch64.zip"
+],
+"maven-mvnd-1.0-m7-m40-darwin-aarch64": [
+"maven/mvnd/1.0-m7/maven-mvnd-1.0-m7-m40-darwin-aarch64.tar.gz",
+"maven/mvnd/1.0-m7/maven-mvnd-1.0-m7-m40-darwin-aarch64.zip"
 ],
 "maven-patch-plugin-1.2": [
 "maven/plugins/maven-patch-plugin-1.2-source-release.zip"
@@ -11893,8 +11917,8 @@
 "scriptingbundle-maven-plugin-0.5.2": [
 "sling/scriptingbundle-maven-plugin-0.5.2-source-release.zip"
 ],
-"sling-51": [
-"sling/sling-51-source-release.zip"
+"sling-52": [
+"sling/sling-52-source-release.zip"
 ],
 "sling-6": [
 "sling/sling-6-source-release.tar.gz",
@@ -11906,8 +11930,8 @@
 "sling-archetype-7": [
 "sling/sling-archetype-parent-7-source-release.zip"
 ],
-"sling-bundle-51": [
-"sling/sling-bundle-parent-51-source-release.zip"
+"sling-bundle-52": [
+"sling/sling-bundle-parent-52-source-release.zip"
 ],
 "sling-bundle-archetype-1.0.6": [
 "sling/sling-bundle-archetype-1.0.6-source-release.zip"
@@ -11946,41 +11970,44 @@
 },
 "solr": {
 "all.yaml": [
-"solr/solr-operator/v0.7.0/crds/all.yaml"
+"solr/solr-operator/v0.7.1/crds/all.yaml"
 ],
 "index.yaml": [
-"solr/solr-operator/v0.7.0/helm-charts/index.yaml"
+"solr/solr-operator/v0.7.1/helm-charts/index.yaml"
 ],
-"solr-0.7.0": [
-"solr/solr-operator/v0.7.0/helm-charts/solr-0.7.0.tgz"
+"solr-0.7.1": [
+"solr/solr-operator/v0.7.1/helm-charts/solr-0.7.1.tgz"
 ],
-"solr-0.7.0.tgz.prov": [
-"solr/solr-operator/v0.7.0/helm-charts/solr-0.7.0.tgz.prov"
+"solr-0.7.1.tgz.prov": [
+"solr/solr-operator/v0.7.1/helm-charts/solr-0.7.1.tgz.prov"
 ],
-"solr-9.2.1": [
-"solr/solr/9.2.1/solr-9.2.1-src.tgz",
-"solr/solr/9.2.1/solr-9.2.1.tgz"
+"solr-9.3.0": [
+"solr/solr/9.3.0/solr-9.3.0-src.tgz",
+"solr/solr/9.3.0/solr-9.3.0.tgz"
 ],
-"solr-operator-0.7.0": [
-"solr/solr-operator/v0.7.0/helm-charts/solr-operator-0.7.0.tgz"
+"solr-9.3.0-slim": [
+"solr/solr/9.3.0/solr-9.3.0-slim.tgz"
 ],
-"solr-operator-0.7.0.tgz.prov": [
-"solr/solr-operator/v0.7.0/helm-charts/solr-operator-0.7.0.tgz.prov"
+"solr-operator-0.7.1": [
+"solr/solr-operator/v0.7.1/helm-charts/solr-operator-0.7.1.tgz"
 ],
-"solr-operator-v0.7.0": [
-"solr/solr-operator/v0.7.0/solr-operator-v0.7.0.tgz"
+"solr-operator-0.7.1.tgz.prov": [
+"solr/solr-operator/v0.7.1/helm-charts/solr-operator-0.7.1.tgz.prov"
+],
+"solr-operator-v0.7.1": [
+"solr/solr-operator/v0.7.1/solr-operator-v0.7.1.tgz"
 ],
 "solrbackups.yaml": [
-"solr/solr-operator/v0.7.0/crds/solrbackups.yaml"
+"solr/solr-operator/v0.7.1/crds/solrbackups.yaml"
 ],
 "solrclouds.yaml": [
-"solr/solr-operator/v0.7.0/crds/solrclouds.yaml"
+"solr/solr-operator/v0.7.1/crds/solrclouds.yaml"
 ],
 "solrprometheusexporters.yaml": [
-"solr/solr-operator/v0.7.0/crds/solrprometheusexporters.yaml"
+"solr/solr-operator/v0.7.1/crds/solrprometheusexporters.yaml"
 ],
 "zookeeperclusters.yaml": [
-"solr/solr-operator/v0.7.0/crds/zookeeperclusters.yaml"
+"solr/solr-operator/v0.7.1/crds/zookeeperclusters.yaml"
 ]
 },
 "spamassassin": {

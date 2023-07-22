@@ -100,7 +100,7 @@
 "apache-airflow-providers-dingding-3.2.1": "2023-06-23",
 "apache-airflow-providers-discord-3.3.0": "2023-06-23",
 "apache-airflow-providers-docker-3.7.1": "2023-06-23",
-"apache-airflow-providers-elasticsearch-4.5.1": "2023-06-23",
+"apache-airflow-providers-elasticsearch-5.0.0": "2023-07-21",
 "apache-airflow-providers-exasol-4.2.1": "2023-06-23",
 "apache-airflow-providers-facebook-3.2.1": "2023-06-23",
 "apache-airflow-providers-ftp-3.4.2": "2023-06-23",
@@ -927,7 +927,7 @@
 "org.apache.felix.healthcheck.api-2.0.4": "2020-07-15",
 "org.apache.felix.healthcheck.core-2.0.14": "2022-02-17",
 "org.apache.felix.healthcheck.generalchecks-3.0.6": "2023-07-08",
-"org.apache.felix.healthcheck.webconsoleplugin-2.0.2": "2020-07-15",
+"org.apache.felix.healthcheck.webconsoleplugin-2.1.0": "2023-07-21",
 "org.apache.felix.http.api-3.0.0": "2015-08-10",
 "org.apache.felix.http.base-4.2.6": "2023-03-12",
 "org.apache.felix.http.base-5.0.2": "2023-02-24",
@@ -1368,7 +1368,8 @@
 "incubator-opendal": {
 "apache-opendal-incubating-0.36.0": "2023-05-30",
 "apache-opendal-incubating-0.37.0": "2023-06-06",
-"apache-opendal-incubating-0.38.0": "2023-06-28"
+"apache-opendal-incubating-0.38.0": "2023-06-28",
+"apache-opendal-incubating-0.38.1": "2023-07-15"
 },
 "incubator-paimon": {
 "apache-paimon-0.4.0-incubating": "2023-06-07",
@@ -1522,10 +1523,13 @@
 "kafka": {
 "kafka-3.4.1": "2023-06-06",
 "kafka-3.5.0": "2023-06-13",
+"kafka-3.5.1": "2023-07-21",
 "kafka_2.12-3.4.1": "2023-06-06",
 "kafka_2.12-3.5.0": "2023-06-13",
+"kafka_2.12-3.5.1": "2023-07-21",
 "kafka_2.13-3.4.1": "2023-06-06",
-"kafka_2.13-3.5.0": "2023-06-13"
+"kafka_2.13-3.5.0": "2023-06-13",
+"kafka_2.13-3.5.1": "2023-07-21"
 },
 "karaf": {
 "apache-karaf-3.0.10": "2020-01-11",
@@ -1733,6 +1737,9 @@
 "maven-mvnd-1.0-m6": "2023-03-23",
 "maven-mvnd-1.0-m6-m39-darwin-aarch64": "2023-03-23",
 "maven-mvnd-1.0-m6-m40-darwin-aarch64": "2023-03-23",
+"maven-mvnd-1.0-m7": "2023-07-11",
+"maven-mvnd-1.0-m7-m39-darwin-aarch64": "2023-07-11",
+"maven-mvnd-1.0-m7-m40-darwin-aarch64": "2023-07-11",
 "maven-patch-plugin-1.2": "2015-03-09",
 "maven-pdf-plugin-1.6.1": "2022-08-19",
 "maven-plugin-3.6.0": "2023-05-15",
@@ -3905,11 +3912,11 @@
 "org.apache.sling.xss-2.3.8": "2023-07-03",
 "org.apache.sling.xss.compat-1.1.0": "2017-05-11",
 "scriptingbundle-maven-plugin-0.5.2": "2021-12-21",
-"sling-51": "2023-07-13",
+"sling-52": "2023-07-21",
 "sling-6": "2013-01-21",
 "sling-archetype-1.0.12": "2023-07-17",
 "sling-archetype-7": "2021-07-16",
-"sling-bundle-51": "2023-07-13",
+"sling-bundle-52": "2023-07-21",
 "sling-bundle-archetype-1.0.6": "2018-02-03",
 "sling-feature-converter-maven-plugin-1.0.10": "2020-11-30",
 "sling-initial-content-archetype-1.0.6": "2018-02-03",
@@ -3923,18 +3930,19 @@
 "slingstart-maven-plugin-1.9.12": "2020-05-03"
 },
 "solr": {
-"all.yaml": "2023-04-19",
-"index.yaml": "2023-04-19",
-"solr-0.7.0": "2023-04-19",
-"solr-0.7.0.tgz.prov": "2023-04-19",
-"solr-9.2.1": "2023-04-24",
-"solr-operator-0.7.0": "2023-04-19",
-"solr-operator-0.7.0.tgz.prov": "2023-04-19",
-"solr-operator-v0.7.0": "2023-04-19",
-"solrbackups.yaml": "2023-04-19",
-"solrclouds.yaml": "2023-04-19",
-"solrprometheusexporters.yaml": "2023-04-19",
-"zookeeperclusters.yaml": "2023-04-19"
+"all.yaml": "2023-07-17",
+"index.yaml": "2023-07-17",
+"solr-0.7.1": "2023-07-17",
+"solr-0.7.1.tgz.prov": "2023-07-17",
+"solr-9.3.0": "2023-07-17",
+"solr-9.3.0-slim": "2023-07-17",
+"solr-operator-0.7.1": "2023-07-17",
+"solr-operator-0.7.1.tgz.prov": "2023-07-17",
+"solr-operator-v0.7.1": "2023-07-17",
+"solrbackups.yaml": "2023-07-17",
+"solrclouds.yaml": "2023-07-17",
+"solrprometheusexporters.yaml": "2023-07-17",
+"zookeeperclusters.yaml": "2023-07-17"
 },
 "spamassassin": {
 "Mail-SpamAssassin-3.4.6": "2021-04-12",
