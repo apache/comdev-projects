@@ -1346,6 +1346,12 @@
 "camel-k-client-1.9.2-windows": [
 "camel/camel-k/1.9.2/camel-k-client-1.9.2-windows-64bit.tar.gz"
 ],
+"camel-k-client-2.0.0-darwin-arm64": [
+"camel/camel-k/2.0.0/camel-k-client-2.0.0-darwin-arm64.tar.gz"
+],
+"camel-k-client-2.0.0-linux-arm64": [
+"camel/camel-k/2.0.0/camel-k-client-2.0.0-linux-arm64.tar.gz"
+],
 "camel-k-examples-1.10.1": [
 "camel/camel-k/1.10.1/camel-k-examples-1.10.1.tar.gz"
 ],
@@ -1417,6 +1423,9 @@
 ],
 "camel-k-sources-1.9.2": [
 "camel/camel-k/1.9.2/camel-k-sources-1.9.2.tar.gz"
+],
+"camel-k-sources-2.0.0": [
+"camel/camel-k/2.0.0/camel-k-sources-2.0.0.tar.gz"
 ],
 "camel-kafka-connector-1.0.0": [
 "camel/camel-kafka-connector/1.0.0/camel-kafka-connector-1.0.0-src.zip"
@@ -1624,8 +1633,8 @@
 "apache-cassandra-4.0.11": [
 "cassandra/4.0.11/apache-cassandra-4.0.11-src.tar.gz"
 ],
-"apache-cassandra-4.1.2": [
-"cassandra/4.1.2/apache-cassandra-4.1.2-src.tar.gz"
+"apache-cassandra-4.1.3": [
+"cassandra/4.1.3/apache-cassandra-4.1.3-src.tar.gz"
 ],
 "cassandra-2.1.22-1": [
 "cassandra/redhat/21x/cassandra-2.1.22-1.src.rpm"
@@ -4199,8 +4208,8 @@
 ]
 },
 "incubator-devlake": {
-"apache-devlake-0.16.0-incubating": [
-"incubator/devlake/0.16.0-incubating/apache-devlake-0.16.0-incubating-src.tar.gz"
+"apache-devlake-0.17.0-incubating": [
+"incubator/devlake/0.17.0-incubating/apache-devlake-0.17.0-incubating-src.tar.gz"
 ]
 },
 "incubator-hugegraph": {
@@ -4303,6 +4312,10 @@
 ]
 },
 "incubator-pekko": {
+"apache-pekko-1.0.1-incubating-20230718": [
+"incubator/pekko/1.0.1/apache-pekko-1.0.1-incubating-src-20230718.tgz",
+"incubator/pekko/1.0.1/apache-pekko-1.0.1-incubating-src-20230718.zip"
+],
 "incubating-pekko-1.0.0-20230629": [
 "incubator/pekko/1.0.0/incubating-pekko-src-1.0.0-20230629.tgz",
 "incubator/pekko/1.0.0/incubating-pekko-src-1.0.0-20230629.zip"
@@ -4406,12 +4419,14 @@
 ]
 },
 "incubator-wayang": {
+"DISCLAIMER": [
+"incubator/wayang/0.6.0/DISCLAIMER"
+],
+"DISCLAIMER-WIP": [
+"incubator/wayang/0.6.0/DISCLAIMER-WIP"
+],
 "apache-wayang-0.6.0-incubating": [
 "incubator/wayang/0.6.0/apache-wayang-0.6.0-incubating-source-release.zip"
-],
-"wayang-0.7.0": [
-"incubator/wayang/0.7.0/rc1/wayang-0.7.0-source-release.zip",
-"incubator/wayang/0.7.0/rc2/wayang-0.7.0-source-release.zip"
 ]
 },
 "incubator-yunikorn": {
@@ -4420,11 +4435,14 @@
 ]
 },
 "inlong": {
-"apache-inlong-1.7.0": [
-"inlong/1.7.0/apache-inlong-1.7.0-src.tar.gz"
+"apache-inlong-1.8.0": [
+"inlong/1.8.0/apache-inlong-1.8.0-src.tar.gz"
 ],
-"apache-inlong-1.7.0-sort-connectors": [
-"inlong/1.7.0/apache-inlong-1.7.0-sort-connectors.tar.gz"
+"apache-inlong-1.8.0-sort-connectors-flink-v1.13": [
+"inlong/1.8.0/apache-inlong-1.8.0-sort-connectors-flink-v1.13.tar.gz"
+],
+"apache-inlong-1.8.0-sort-connectors-flink-v1.15": [
+"inlong/1.8.0/apache-inlong-1.8.0-sort-connectors-flink-v1.15.tar.gz"
 ]
 },
 "iotdb": {
@@ -4448,6 +4466,9 @@
 "filevault-package-maven-plugin-1.3.2": [
 "jackrabbit/filevault-package-maven-plugin/1.3.2/filevault-package-maven-plugin-1.3.2-source-release.zip"
 ],
+"filevault-package-maven-plugin-1.3.4": [
+"jackrabbit/filevault-package-maven-plugin/1.3.4/filevault-package-maven-plugin-1.3.4-source-release.zip"
+],
 "jackrabbit-2.14.10": [
 "jackrabbit/2.14.10/jackrabbit-2.14.10-src.zip",
 "jackrabbit/2.14.10/jackrabbit-webapp-2.14.10.war"
@@ -4456,17 +4477,13 @@
 "jackrabbit/2.16.10/jackrabbit-2.16.10-src.zip",
 "jackrabbit/2.16.10/jackrabbit-webapp-2.16.10.war"
 ],
-"jackrabbit-2.20.10": [
-"jackrabbit/2.20.10/jackrabbit-2.20.10-src.zip",
-"jackrabbit/2.20.10/jackrabbit-webapp-2.20.10.war"
+"jackrabbit-2.20.11": [
+"jackrabbit/2.20.11/jackrabbit-2.20.11-src.zip",
+"jackrabbit/2.20.11/jackrabbit-webapp-2.20.11.war"
 ],
-"jackrabbit-2.21.16": [
-"jackrabbit/2.21.16/jackrabbit-2.21.16-src.zip",
-"jackrabbit/2.21.16/jackrabbit-webapp-2.21.16.war"
-],
-"jackrabbit-2.21.17": [
-"jackrabbit/2.21.17/jackrabbit-2.21.17-src.zip",
-"jackrabbit/2.21.17/jackrabbit-webapp-2.21.17.war"
+"jackrabbit-2.21.18": [
+"jackrabbit/2.21.18/jackrabbit-2.21.18-src.zip",
+"jackrabbit/2.21.18/jackrabbit-webapp-2.21.18.war"
 ],
 "jackrabbit-filevault-3.2.8": [
 "jackrabbit/filevault/3.2.8/jackrabbit-filevault-3.2.8-src.zip"
@@ -4483,14 +4500,11 @@
 "jackrabbit-jca-2.16.10": [
 "jackrabbit/2.16.10/jackrabbit-jca-2.16.10.rar"
 ],
-"jackrabbit-jca-2.20.10": [
-"jackrabbit/2.20.10/jackrabbit-jca-2.20.10.rar"
+"jackrabbit-jca-2.20.11": [
+"jackrabbit/2.20.11/jackrabbit-jca-2.20.11.rar"
 ],
-"jackrabbit-jca-2.21.16": [
-"jackrabbit/2.21.16/jackrabbit-jca-2.21.16.rar"
-],
-"jackrabbit-jca-2.21.17": [
-"jackrabbit/2.21.17/jackrabbit-jca-2.21.17.rar"
+"jackrabbit-jca-2.21.18": [
+"jackrabbit/2.21.18/jackrabbit-jca-2.21.18.rar"
 ],
 "jackrabbit-oak-1.22.16": [
 "jackrabbit/oak/1.22.16/jackrabbit-oak-1.22.16-src.zip"
@@ -4498,8 +4512,8 @@
 "jackrabbit-oak-1.4.26": [
 "jackrabbit/oak/1.4.26/jackrabbit-oak-1.4.26-src.zip"
 ],
-"jackrabbit-oak-1.52.0": [
-"jackrabbit/oak/1.52.0/jackrabbit-oak-1.52.0-src.zip"
+"jackrabbit-oak-1.54.0": [
+"jackrabbit/oak/1.54.0/jackrabbit-oak-1.54.0-src.zip"
 ],
 "jackrabbit-oak-1.6.23": [
 "jackrabbit/oak/1.6.23/jackrabbit-oak-1.6.23-src.zip"
@@ -11491,9 +11505,9 @@
 "org.apache.sling.launchpad.api-1.2.0": [
 "sling/org.apache.sling.launchpad.api-1.2.0-source-release.zip"
 ],
-"org.apache.sling.launchpad.base-7.0.3-2.7.6": [
-"sling/org.apache.sling.launchpad.base-7.0.3-2.7.6-source-release.zip",
-"sling/org.apache.sling.launchpad.base-7.0.3-2.7.6-webapp.war"
+"org.apache.sling.launchpad.base-7.0.5-2.7.8": [
+"sling/org.apache.sling.launchpad.base-7.0.5-2.7.8-source-release.zip",
+"sling/org.apache.sling.launchpad.base-7.0.5-2.7.8-webapp.war"
 ],
 "org.apache.sling.launchpad.content-2.0.12": [
 "sling/org.apache.sling.launchpad.content-2.0.12-source-release.zip"

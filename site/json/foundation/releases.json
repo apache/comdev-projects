@@ -467,6 +467,8 @@
 "camel-k-client-1.9.2-mac": "2022-05-17",
 "camel-k-client-1.9.2-mac-arm64bit": "2022-05-17",
 "camel-k-client-1.9.2-windows": "2022-05-17",
+"camel-k-client-2.0.0-darwin-arm64": "2023-07-17",
+"camel-k-client-2.0.0-linux-arm64": "2023-07-17",
 "camel-k-examples-1.10.1": "2022-10-10",
 "camel-k-examples-1.10.2": "2022-10-18",
 "camel-k-examples-1.10.3": "2022-11-11",
@@ -491,6 +493,7 @@
 "camel-k-sources-1.9.0": "2022-04-27",
 "camel-k-sources-1.9.1": "2022-05-09",
 "camel-k-sources-1.9.2": "2022-05-17",
+"camel-k-sources-2.0.0": "2023-07-17",
 "camel-kafka-connector-1.0.0": "2022-01-24",
 "camel-kafka-connector-3.18.1": "2022-09-19",
 "camel-kafka-connector-3.18.2": "2022-10-21",
@@ -538,7 +541,7 @@
 "apache-cassandra-3.0.29": "2023-05-05",
 "apache-cassandra-3.11.15": "2023-04-28",
 "apache-cassandra-4.0.11": "2023-07-12",
-"apache-cassandra-4.1.2": "2023-05-25",
+"apache-cassandra-4.1.3": "2023-07-18",
 "cassandra-2.1.22-1": "2020-08-28",
 "cassandra-2.1.22-1.noarch": "2020-08-28",
 "cassandra-2.2.19-1": "2020-10-29",
@@ -1332,7 +1335,7 @@
 "apache-datalab-2.6.0-incubating": "2022-11-30"
 },
 "incubator-devlake": {
-"apache-devlake-0.16.0-incubating": "2023-04-22"
+"apache-devlake-0.17.0-incubating": "2023-07-14"
 },
 "incubator-hugegraph": {
 "apache-hugegraph-commons-incubating-1.0.0": "2023-02-10",
@@ -1379,6 +1382,7 @@
 "apache-pegasus-2.4.0-incubating": "2022-10-30"
 },
 "incubator-pekko": {
+"apache-pekko-1.0.1-incubating-20230718": "2023-07-24",
 "incubating-pekko-1.0.0-20230629": "2023-07-10"
 },
 "incubator-ponymail": {
@@ -1424,15 +1428,17 @@
 "apache-uniffle-0.7.1-incubating": "2023-06-16"
 },
 "incubator-wayang": {
-"apache-wayang-0.6.0-incubating": "2021-12-01",
-"wayang-0.7.0": "2023-07-04"
+"DISCLAIMER": "2021-11-26",
+"DISCLAIMER-WIP": "2021-12-01",
+"apache-wayang-0.6.0-incubating": "2021-11-26"
 },
 "incubator-yunikorn": {
 "apache-yunikorn-0.12.2-incubating": "2022-02-03"
 },
 "inlong": {
-"apache-inlong-1.7.0": "2023-05-16",
-"apache-inlong-1.7.0-sort-connectors": "2023-05-16"
+"apache-inlong-1.8.0": "2023-07-20",
+"apache-inlong-1.8.0-sort-connectors-flink-v1.13": "2023-07-20",
+"apache-inlong-1.8.0-sort-connectors-flink-v1.15": "2023-07-20"
 },
 "iotdb": {
 "apache-iotdb-0.13.4": "2023-02-13",
@@ -1443,22 +1449,21 @@
 "create-download-md.sh": "2019-11-29",
 "filevault-package-maven-plugin-1.3.0": "2022-03-17",
 "filevault-package-maven-plugin-1.3.2": "2022-12-12",
+"filevault-package-maven-plugin-1.3.4": "2023-07-20",
 "jackrabbit-2.14.10": "2021-09-06",
 "jackrabbit-2.16.10": "2022-09-07",
-"jackrabbit-2.20.10": "2023-05-03",
-"jackrabbit-2.21.16": "2023-03-30",
-"jackrabbit-2.21.17": "2023-07-13",
+"jackrabbit-2.20.11": "2023-07-19",
+"jackrabbit-2.21.18": "2023-07-19",
 "jackrabbit-filevault-3.2.8": "2021-03-11",
 "jackrabbit-filevault-3.6.8": "2023-01-05",
 "jackrabbit-filevault-3.7.0": "2023-07-14",
 "jackrabbit-jca-2.14.10": "2021-09-06",
 "jackrabbit-jca-2.16.10": "2022-09-07",
-"jackrabbit-jca-2.20.10": "2023-05-03",
-"jackrabbit-jca-2.21.16": "2023-03-30",
-"jackrabbit-jca-2.21.17": "2023-07-13",
+"jackrabbit-jca-2.20.11": "2023-07-19",
+"jackrabbit-jca-2.21.18": "2023-07-19",
 "jackrabbit-oak-1.22.16": "2023-07-14",
 "jackrabbit-oak-1.4.26": "2020-02-17",
-"jackrabbit-oak-1.52.0": "2023-05-10",
+"jackrabbit-oak-1.54.0": "2023-07-19",
 "jackrabbit-oak-1.6.23": "2022-03-11",
 "jackrabbit-oak-1.8.26": "2022-02-01",
 "jackrabbit-ocm-2.0.0": "2012-12-17"
@@ -3771,7 +3776,7 @@
 "org.apache.sling.kickstart-0.0.12-validation.slingosgifeature": "2020-11-03",
 "org.apache.sling.kickstart-0.0.12-webconsole.slingosgifeature": "2020-11-03",
 "org.apache.sling.launchpad.api-1.2.0": "2015-06-29",
-"org.apache.sling.launchpad.base-7.0.3-2.7.6": "2021-12-21",
+"org.apache.sling.launchpad.base-7.0.5-2.7.8": "2023-07-24",
 "org.apache.sling.launchpad.content-2.0.12": "2017-05-29",
 "org.apache.sling.launchpad.installer-1.2.2": "2015-01-12",
 "org.apache.sling.launchpad.integration-tests-12": "2022-03-14",
