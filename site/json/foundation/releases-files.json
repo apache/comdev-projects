@@ -4338,6 +4338,10 @@
 "incubator/pekko/1.0.1/apache-pekko-1.0.1-incubating-src-20230718.tgz",
 "incubator/pekko/1.0.1/apache-pekko-1.0.1-incubating-src-20230718.zip"
 ],
+"apache-pekko-connectors-kafka-1.0.0-incubating-20230726": [
+"incubator/pekko/CONNECTORS-KAFKA-1.0.0/apache-pekko-connectors-kafka-1.0.0-incubating-src-20230726.tgz",
+"incubator/pekko/CONNECTORS-KAFKA-1.0.0/apache-pekko-connectors-kafka-1.0.0-incubating-src-20230726.zip"
+],
 "apache-pekko-http-1.0.0-incubating-20230726": [
 "incubator/pekko/HTTP-1.0.0/apache-pekko-http-1.0.0-incubating-src-20230726.tgz",
 "incubator/pekko/HTTP-1.0.0/apache-pekko-http-1.0.0-incubating-src-20230726.zip"
@@ -5264,9 +5268,9 @@
 "maven/maven-3/3.8.8/source/apache-maven-3.8.8-src.tar.gz",
 "maven/maven-3/3.8.8/source/apache-maven-3.8.8-src.zip"
 ],
-"apache-maven-3.9.3": [
-"maven/maven-3/3.9.3/source/apache-maven-3.9.3-src.tar.gz",
-"maven/maven-3/3.9.3/source/apache-maven-3.9.3-src.zip"
+"apache-maven-3.9.4": [
+"maven/maven-3/3.9.4/source/apache-maven-3.9.4-src.tar.gz",
+"maven/maven-3/3.9.4/source/apache-maven-3.9.4-src.zip"
 ],
 "apache-maven-4.0.0-alpha-5": [
 "maven/maven-4/4.0.0-alpha-5/source/apache-maven-4.0.0-alpha-5-src.tar.gz",
@@ -5943,8 +5947,8 @@
 "nbm-suite-root-1.12": [
 "netbeans/netbeans-maven-archetypes/nbm-suite-root/nbm-suite-root-1.12/nbm-suite-root-1.12-source-release.zip"
 ],
-"nbpackage-1.0-beta2": [
-"netbeans/netbeans-nbpackage/1.0-beta2/nbpackage-1.0-beta2-src.zip"
+"nbpackage-1.0-beta3": [
+"netbeans/netbeans-nbpackage/1.0-beta3/nbpackage-1.0-beta3-source-release.zip"
 ],
 "net-java-html-boot-fx.nbm": [
 "netbeans/netbeans/18/nbms/platform/net-java-html-boot-fx.nbm"
@@ -8509,13 +8513,9 @@
 ]
 },
 "opennlp": {
-"apache-opennlp-2.1.1": [
-"opennlp/opennlp-2.1.1/apache-opennlp-2.1.1-src.tar.gz",
-"opennlp/opennlp-2.1.1/apache-opennlp-2.1.1-src.zip"
-],
-"apache-opennlp-2.2.0": [
-"opennlp/opennlp-2.2.0/apache-opennlp-2.2.0-src.tar.gz",
-"opennlp/opennlp-2.2.0/apache-opennlp-2.2.0-src.zip"
+"apache-opennlp-2.3.0": [
+"opennlp/opennlp-2.3.0/apache-opennlp-2.3.0-src.tar.gz",
+"opennlp/opennlp-2.3.0/apache-opennlp-2.3.0-src.zip"
 ],
 "opennlp-training-eval-logs-1.0-1.9.3": [
 "opennlp/models/ud-models-1.0/opennlp-training-eval-logs-1.0-1.9.3.zip"
@@ -12777,6 +12777,9 @@
 "trafficserver-8.1.7": [
 "trafficserver/trafficserver-8.1.7.tar.bz2"
 ],
+"trafficserver-8.1.8": [
+"trafficserver/trafficserver-8.1.8.tar.bz2"
+],
 "trafficserver-9.0.2": [
 "trafficserver/trafficserver-9.0.2.tar.bz2"
 ],
@@ -12788,6 +12791,9 @@
 ],
 "trafficserver-9.2.1": [
 "trafficserver/trafficserver-9.2.1.tar.bz2"
+],
+"trafficserver-9.2.2": [
+"trafficserver/trafficserver-9.2.2.tar.bz2"
 ]
 },
 "turbine": {
@@ -13373,17 +13379,14 @@
 ]
 },
 "zookeeper": {
-"apache-zookeeper-3.5.10": [
-"zookeeper/zookeeper-3.5.10/apache-zookeeper-3.5.10.tar.gz"
-],
-"apache-zookeeper-3.6.4": [
-"zookeeper/zookeeper-3.6.4/apache-zookeeper-3.6.4.tar.gz"
-],
 "apache-zookeeper-3.7.1": [
 "zookeeper/zookeeper-3.7.1/apache-zookeeper-3.7.1.tar.gz"
 ],
 "apache-zookeeper-3.8.2": [
 "zookeeper/zookeeper-3.8.2/apache-zookeeper-3.8.2.tar.gz"
+],
+"apache-zookeeper-3.9.0": [
+"zookeeper/zookeeper-3.9.0/apache-zookeeper-3.9.0.tar.gz"
 ]
 }
 }

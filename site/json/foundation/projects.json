@@ -12330,14 +12330,21 @@
 "revision": "4.0.0-alpha-2"
 },
 {
+"created": "2023-08-03",
+"file-release": "https://archive.apache.org/dist/maven/maven-3/3.9.4/source/apache-maven-3.9.4-src.tar.gz",
+"name": "Latest stable release",
+"revision": "3.9.4"
+},
+{
 "created": "2023-06-26",
 "file-release": "https://archive.apache.org/dist/maven/maven-3/3.9.3/source/apache-maven-3.9.3-src.tar.gz",
-"name": "Latest stable release",
+"name": "Apache Maven 3.9.3",
 "revision": "3.9.3"
 },
 {
 "created": "2023-05-11",
 "file-release": "https://archive.apache.org/dist/maven/maven-3/3.9.2/source/apache-maven-3.9.2-src.tar.gz",
+"name": "Apache Maven 3.9.2",
 "revision": "3.9.2"
 },
 {
@@ -13619,7 +13626,7 @@
 "bug-database": "https://issues.apache.org/jira/browse/OPENNLP",
 "category": "library",
 "created": "2012-04-14",
-"description": "Apache OpenNLP software supports the most common NLP tasks, such as tokenization, sentence segmentation, part-of-speech tagging, named entity extraction, chunking, parsing, and coreference resolution. These tasks are usually required to build more advanced text processing services. OpenNLP also includes maximum entropy and perceptron based machine learning..",
+"description": "Apache OpenNLP software supports the most common NLP tasks, such as tokenization, sentence segmentation, part-of-speech tagging, named entity extraction, chunking, parsing, and coreference resolution. These tasks are usually required to build more advanced text processing services. OpenNLP also includes maximum entropy and perceptron based machine learning.",
 "doap": "http://opennlp.apache.org/doap_opennlp.rdf",
 "download-page": "http://opennlp.apache.org/download.html",
 "homepage": "http://opennlp.apache.org",
@@ -13636,16 +13643,15 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2023-04-22",
+"created": "2023-07-31",
 "name": "Apache OpenNLP",
-"revision": "2.2.0"
+"revision": "2.3.0"
 }
 ],
 "repository": [
-"https://github.com/apache/opennlp.git",
-"http://svn.apache.org/repos/asf/opennlp"
+"https://github.com/apache/opennlp.git"
 ],
-"shortdesc": "Apache OpenNLP library software is a machine learning based toolkit for the processing of natural language text.."
+"shortdesc": "Apache OpenNLP library software is a machine learning based toolkit for the processing of natural language text."
 },
 "openoffice": {
 "bug-database": "https://bz.apache.org/ooo/",
