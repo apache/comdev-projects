@@ -76,6 +76,7 @@ def printMail(msg, file=sys.stdout, body='', project=None):
         body = ''
     if body == '':
         body=msg
+    recipients = sendmail.__RECIPIENTS__ # This is the default
     try:
         if project != None:
             domain = mailDomains.get(project, project)
