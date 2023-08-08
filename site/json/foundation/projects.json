@@ -1,4 +1,35 @@
 {
+"None-pinot": {
+"bug-database": "https://github.com/apache/pinot/issues",
+"category": "big-data",
+"created": "2023-08-07",
+"description": "Apache Pinot is a real-time distributed online analytical processing (OLAP) datastore. Use Pinot to ingest and immediately query data from streaming or batch data sources (including, Apache Kafka, Amazon Kinesis, Hadoop HDFS, Amazon S3, Azure ADLS, and Google Cloud Storage).\nApache Pinot includes the following:\nUltra low-latency analytics even at extremely high throughput.\nColumnar data store with several smart indexing and pre-aggregation techniques.\nScaling up and out with no upper bound.\nConsistent performance based on the size of your cluster and an expected query per second (QPS) threshold.\nIt's perfect for user-facing real-time analytics and other analytical use cases, including internal dashboards, anomaly detection, and ad hoc data exploration.",
+"doap": "https://gitbox.apache.org/repos/asf?p=pinot.git;a=blob_plain;f=doap_Pinot.rdf;hb=HEAD",
+"download-page": "https://pinot.apache.org/download",
+"homepage": "https://pinot.apache.org",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://docs.pinot.apache.org/community-1/community",
+"maintainer": [
+{
+"mbox": "mailto:dev@pinot.apache.org",
+"name": "Apache Pinot Team"
+}
+],
+"name": "Apache Pinot",
+"pmc": null,
+"programming-language": "Java",
+"release": [
+{
+"created": "2023-02-28",
+"name": "0.12.1",
+"revision": "0.12.1"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf/pinot.git"
+],
+"shortdesc": "Apache Pinot is a real-time distributed OLAP datastore purpose-built for low-latency, high-throughput analytics."
+},
 "accumulo": {
 "bug-database": "https://github.com/apache/accumulo/issues",
 "category": "big-data",
