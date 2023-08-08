@@ -147,7 +147,6 @@ def getPMC(url):
     if t == 'asfext:pmc':
         print("Found pmc: %s" % a)
         return a
-    printMail("WARN: could not find asfext:pmc in %s " % url)
     return None
 
 # Try to convert URL to committeeeId
@@ -248,8 +247,9 @@ for s in itemlist :
         else:
             printMail("WARN: no homepage defined in %s, pmc = %s" % (url, pjson['pmc']))
 
+        projectid = getPMCfromURL(url) # default id for emails
         if not 'pmc' in pjson:
-            printMail("WARN: no asfext:pmc in %s" % url)
+            printMail("WARN: no asfext:pmc in %s" % url, project=projectid)
         else:
             pmcrdf = pjson['pmc']
             pmcrdf = pmcrdf.replace('/anakia', '').replace('/texen', '') # temporary hack
@@ -261,13 +261,16 @@ for s in itemlist :
                 # Not a shortcut, so read the descriptor file
                 try:
                     committeeId = getPMC(pmcrdf)
-                except:
-                    printMail("WARN: invalid asfext:pmc '%s' in %s" % (pmcrdf, url))
+                    if not committeeId:
+                        printMail("WARN: could not find asfext:pmc in %s " % url, project=projectid)
+                except Exception as e:
+                    printMail("WARN: invalid asfext:pmc '%s' in %s (%s)" % (pmcrdf, url, e), project=projectid)
 
-        if pjson['name']:
+        projectid = committeeId or projectid # use committeeId if set
+        if 'name' in pjson:
             projectJsonFilename = name2fileName(pjson['name'], committeeId)
         else:
-            printMail("WARN: no name defined in %s, pmc = %s" % (url, pjson['pmc']))
+            printMail("WARN: no name defined in %s, pmc = %s" % (url, pjson['pmc']), project=projectid)
 
         if committeeId in retired:
             printAtticMail("WARN: project from a retired committee (%s) but PMC not changed to Attic in %s" % (committeeId, url))
@@ -302,17 +305,14 @@ for s in itemlist :
                 json.dump(pjson, f, sort_keys=True, indent=0, ensure_ascii=False)
                 f.close()
         else:
-            printMail("WARN: project ignored since unable to extract project json filename from %s" % url)
+            printMail("WARN: project ignored since unable to extract project json filename from %s" % url, project=projectid)
     except Exception as err:
-        if committeeId is None:
-            # Try to determine relevant project from URL
-            committeeId = getPMCfromURL(url)
         if isinstance(err, OSError): # OSError is parent of HTTPError/URLError
             # Only mail 404 errors individually
             if isinstance(err, urllib.error.HTTPError) and err.code == 404:
                 printMail("Cannot find doap file: %s" % url, file=sys.stderr,
                         body=("URL: %s\n%s\nSource: %s" % (url,str(err),PROJECTS_SVN)),
-                        project=committeeId # project is ignored if it is None
+                        project=projectid # project is ignored if it is None
                         )
             else: # This is likely to be a transient error
                 print("Error when processing doap file %s:" % url, file=sys.stderr)
@@ -320,7 +320,7 @@ for s in itemlist :
         else:
             printMail("Error when processing doap file %s:" % url, file=sys.stderr,
                 body=("URL: %s\n%s\nSource: %s" % (url,str(err),PROJECTS_SVN)),
-                project=committeeId # project is ignored if it is None
+                project=projectid # project is ignored if it is None
                 )
         print("-"*60, file=sys.stderr)
         traceback.print_exc()
