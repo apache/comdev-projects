@@ -174,7 +174,9 @@ def getPMCfromURL(url):
             pmc = m.group(1)
             # PMC names cannot contain '-' apart from empire-db
             # so anything after '-' must be a sub-repo
-            if pmc != 'empire-db' and '-' in pmc:
+            if pmc.startswith('empire-db'):
+                pmc = 'empire-db' # allow for empire-db sub repos
+            elif '-' in pmc:
                 pmc = pmc.split('-',1)[0]
             return pmc
     return None
