@@ -250,6 +250,30 @@
 "programming-language": "Java, C, C++, Ruby, Perl, Python, PHP, C#",
 "shortdesc": "ActiveMQ is the most popular and powerful open source Message Broker."
 },
+"age": {
+"bug-database": "https://github.com/apache/age/labels/Bug",
+"category": "database",
+"created": "2023-02-15",
+"description": "The goal of Apache AGE® is to provide graph data processing and analytics capability to all relational databases.\n\nThrough Apache AGE, PostgreSQL users will gain access to graph query modeling within the existing relational database.\n",
+"doap": "https://age.apache.org/age-doap.rdf",
+"download-page": "https://age.apache.org/download",
+"homepage": "https://age.apache.org/",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://lists.apache.org/list.html?dev@age.apache.org",
+"maintainer": [
+{
+"mbox": "mailto:badaleya@gmail.com",
+"name": "Eya Badal "
+}
+],
+"name": "Apache AGE",
+"pmc": "age",
+"programming-language": "C",
+"repository": [
+"https://github.com/apache/age"
+],
+"shortdesc": "Apache AGE® is a PostgreSQL extension that provides graph database functionality.\n"
+},
 "airavata": {
 "bug-database": "https://issues.apache.org/jira/browse/airavata",
 "category": "network-server, cloud, big-data",
@@ -4846,30 +4870,6 @@
 "http://svn.apache.org/repos/asf/cocoon/trunk/"
 ],
 "shortdesc": "Web development framework: separation of concerns, component-based."
-},
-"comdev-age": {
-"bug-database": "https://github.com/apache/age/labels/Bug",
-"category": "database",
-"created": "2023-02-15",
-"description": "The goal of Apache AGE® is to provide graph data processing and analytics capability to all relational databases.\n\nThrough Apache AGE, PostgreSQL users will gain access to graph query modeling within the existing relational database.\n",
-"doap": "https://age.apache.org/age-doap.rdf",
-"download-page": "https://age.apache.org/download",
-"homepage": "https://age.apache.org/",
-"license": "https://spdx.org/licenses/Apache-2.0",
-"mailing-list": "https://lists.apache.org/list.html?dev@age.apache.org",
-"maintainer": [
-{
-"mbox": "mailto:badaleya@gmail.com",
-"name": "Eya Badal "
-}
-],
-"name": "Apache AGE",
-"pmc": "comdev",
-"programming-language": "C",
-"repository": [
-"https://github.com/apache/age"
-],
-"shortdesc": "Apache AGE® is a PostgreSQL extension that provides graph database functionality.\n"
 },
 "comdev-community_development": {
 "bug-database": "https://issues.apache.org/jira/browse/COMDEV",
@@ -16993,9 +16993,9 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2023-07-10",
+"created": "2023-08-14",
 "name": "Latest Stable 10.1.x Release",
-"revision": "10.1.11"
+"revision": "10.1.12"
 },
 {
 "created": "2022-10-10",
@@ -17008,9 +17008,9 @@
 "revision": "9.0.78"
 },
 {
-"created": "2023-07-10",
+"created": "2023-08-14",
 "name": "Latest Stable 8.5.x Release",
-"revision": "8.5.91"
+"revision": "8.5.92"
 }
 ],
 "repository": [
