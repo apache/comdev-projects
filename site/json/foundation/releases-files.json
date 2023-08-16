@@ -3327,8 +3327,8 @@
 "flink-connector-kafka-3.0.0": [
 "flink/flink-connector-kafka-3.0.0/flink-connector-kafka-3.0.0-src.tgz"
 ],
-"flink-connector-mongodb-1.0.1": [
-"flink/flink-connector-mongodb-1.0.1/flink-connector-mongodb-1.0.1-src.tgz"
+"flink-connector-mongodb-1.0.2": [
+"flink/flink-connector-mongodb-1.0.2/flink-connector-mongodb-1.0.2-src.tgz"
 ],
 "flink-connector-opensearch-1.0.1": [
 "flink/flink-connector-opensearch-1.0.1/flink-connector-opensearch-1.0.1-src.tgz"
@@ -3357,6 +3357,12 @@
 "flink-kubernetes-operator-1.5.0-helm": [
 "flink/flink-kubernetes-operator-1.5.0/flink-kubernetes-operator-1.5.0-helm.tgz"
 ],
+"flink-kubernetes-operator-1.6.0": [
+"flink/flink-kubernetes-operator-1.6.0/flink-kubernetes-operator-1.6.0-src.tgz"
+],
+"flink-kubernetes-operator-1.6.0-helm": [
+"flink/flink-kubernetes-operator-1.6.0/flink-kubernetes-operator-1.6.0-helm.tgz"
+],
 "flink-ml-2.2.0": [
 "flink/flink-ml-2.2.0/flink-ml-2.2.0-src.tgz"
 ],
@@ -3383,7 +3389,8 @@
 ],
 "index.yaml": [
 "flink/flink-kubernetes-operator-1.4.0/index.yaml",
-"flink/flink-kubernetes-operator-1.5.0/index.yaml"
+"flink/flink-kubernetes-operator-1.5.0/index.yaml",
+"flink/flink-kubernetes-operator-1.6.0/index.yaml"
 ]
 },
 "flume": {
@@ -12854,6 +12861,19 @@
 "tomcat/tomcat-9/v9.0.78/bin/apache-tomcat-9.0.78.zip",
 "tomcat/tomcat-9/v9.0.78/src/apache-tomcat-9.0.78-src.tar.gz",
 "tomcat/tomcat-9/v9.0.78/src/apache-tomcat-9.0.78-src.zip"
+],
+"apache-tomcat-9.0.79": [
+"tomcat/tomcat-9/v9.0.79/bin/embed/apache-tomcat-9.0.79-embed.tar.gz",
+"tomcat/tomcat-9/v9.0.79/bin/embed/apache-tomcat-9.0.79-embed.zip",
+"tomcat/tomcat-9/v9.0.79/bin/apache-tomcat-9.0.79-deployer.tar.gz",
+"tomcat/tomcat-9/v9.0.79/bin/apache-tomcat-9.0.79-deployer.zip",
+"tomcat/tomcat-9/v9.0.79/bin/apache-tomcat-9.0.79-fulldocs.tar.gz",
+"tomcat/tomcat-9/v9.0.79/bin/apache-tomcat-9.0.79-windows-x64.zip",
+"tomcat/tomcat-9/v9.0.79/bin/apache-tomcat-9.0.79.exe",
+"tomcat/tomcat-9/v9.0.79/bin/apache-tomcat-9.0.79.tar.gz",
+"tomcat/tomcat-9/v9.0.79/bin/apache-tomcat-9.0.79.zip",
+"tomcat/tomcat-9/v9.0.79/src/apache-tomcat-9.0.79-src.tar.gz",
+"tomcat/tomcat-9/v9.0.79/src/apache-tomcat-9.0.79-src.zip"
 ],
 "jakartaee-migration-1.0.7": [
 "tomcat/jakartaee-migration/v1.0.7/source/jakartaee-migration-1.0.7-src.tar.gz",
