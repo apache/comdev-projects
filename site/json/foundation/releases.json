@@ -1,7 +1,6 @@
 {
 "accumulo": {
 "accumulo-1.10.3": "2023-04-13",
-"accumulo-2.1.1": "2023-06-19",
 "accumulo-2.1.2": "2023-08-21",
 "accumulo-3.0.0": "2023-08-21",
 "accumulo2-maven-plugin-1.0.0": "2019-08-07"
@@ -169,7 +168,6 @@
 "apache-ant-antunit-1.4.1": "2021-07-07",
 "apache-ant-compress-1.5": "2017-06-13",
 "apache-ant-dotnet-1.1": "2012-03-11",
-"apache-ivy-2.5.1": "2022-11-04",
 "apache-ivy-2.5.2": "2023-08-17",
 "apache-ivyde-2.2.0.final-201311091524-RELEASE": "2013-11-09",
 "apache-ivyde-sources-2.2.0.final-201311091524-RELEASE": "2013-11-09"
@@ -346,7 +344,6 @@
 "apache-beam-jupyterlab-sidepanel-v3.0.0": "2022-10-11"
 },
 "bigtop": {
-"bigtop-3.2.0": "2022-12-29",
 "bigtop-3.2.1": "2023-08-03"
 },
 "bloodhound": {
@@ -510,6 +507,7 @@
 "camel-kafka-connector-3.19.0": "2022-12-17",
 "camel-kafka-connector-3.20.0": "2023-01-30",
 "camel-kafka-connector-3.20.3": "2023-05-03",
+"camel-kafka-connector-3.20.6": "2023-08-22",
 "camel-kamelets-sources-0.10.0": "2022-12-05",
 "camel-kamelets-sources-0.7.1": "2022-03-14",
 "camel-kamelets-sources-0.8.0": "2022-04-13",
@@ -1161,13 +1159,15 @@
 },
 "groovy": {
 "apache-groovy-2.4.21": "2020-12-03",
-"apache-groovy-2.5.22": "2023-03-30",
-"apache-groovy-3.0.18": "2023-06-29",
-"apache-groovy-4.0.13": "2023-06-29",
+"apache-groovy-2.5.23": "2023-08-22",
+"apache-groovy-3.0.19": "2023-08-22",
+"apache-groovy-4.0.14": "2023-08-22",
+"apache-groovy-5.0.0-alpha-1": "2023-08-22",
 "apache-groovy-sdk-2.4.21": "2020-12-03",
-"apache-groovy-sdk-2.5.22": "2023-03-30",
-"apache-groovy-sdk-3.0.18": "2023-06-29",
-"apache-groovy-sdk-4.0.13": "2023-06-29"
+"apache-groovy-sdk-2.5.23": "2023-08-22",
+"apache-groovy-sdk-3.0.19": "2023-08-22",
+"apache-groovy-sdk-4.0.14": "2023-08-22",
+"apache-groovy-sdk-5.0.0-alpha-1": "2023-08-22"
 },
 "guacamole": {
 "guacamole-client-1.5.2": "2023-05-20",
@@ -1721,7 +1721,7 @@
 "doxia-2.0.0-M7": "2023-06-24",
 "doxia-converter-1.3": "2023-01-14",
 "doxia-sitetools-2.0.0-M11": "2023-07-10",
-"enforcer-3.3.0": "2023-04-04",
+"enforcer-3.4.0": "2023-08-22",
 "file-management-3.1.0": "2022-07-01",
 "jxr-3.3.0": "2022-08-19",
 "maven-40": "2023-06-15",
@@ -1729,7 +1729,7 @@
 "maven-antrun-plugin-3.1.0": "2022-04-21",
 "maven-archetype-3.2.1": "2021-12-30",
 "maven-archetype-bundles-1.4": "2018-12-13",
-"maven-archiver-3.6.0": "2022-06-26",
+"maven-archiver-3.6.1": "2023-08-22",
 "maven-artifact-plugin-3.4.1": "2023-03-07",
 "maven-artifact-transfer-0.13.1": "2020-12-26",
 "maven-build-cache-extension-1.0.1": "2023-06-09",
@@ -2714,9 +2714,9 @@
 "utilities-2": "2022-05-04"
 },
 "nifi": {
-"nifi-1.23.1": "2023-08-15",
+"nifi-1.23.2": "2023-08-21",
 "nifi-fds-0.3.0": "2022-01-25",
-"nifi-kafka-connector-1.23.1": "2023-08-15",
+"nifi-kafka-connector-1.23.2": "2023-08-21",
 "nifi-minifi-cpp-0.14.0": "2023-04-12",
 "nifi-nar-maven-plugin-1.5.1": "2023-06-14"
 },

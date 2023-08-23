@@ -3,9 +3,6 @@
 "accumulo-1.10.3": [
 "accumulo/1.10.3/accumulo-1.10.3-src.tar.gz"
 ],
-"accumulo-2.1.1": [
-"accumulo/2.1.1/accumulo-2.1.1-src.tar.gz"
-],
 "accumulo-2.1.2": [
 "accumulo/2.1.2/accumulo-2.1.2-src.tar.gz"
 ],
@@ -500,10 +497,6 @@
 "ant/antlibs/dotnet/source/apache-ant-dotnet-1.1-src.tar.bz2",
 "ant/antlibs/dotnet/source/apache-ant-dotnet-1.1-src.tar.gz",
 "ant/antlibs/dotnet/source/apache-ant-dotnet-1.1-src.zip"
-],
-"apache-ivy-2.5.1": [
-"ant/ivy/2.5.1/apache-ivy-2.5.1-src.tar.gz",
-"ant/ivy/2.5.1/apache-ivy-2.5.1-src.zip"
 ],
 "apache-ivy-2.5.2": [
 "ant/ivy/2.5.2/apache-ivy-2.5.2-src.tar.gz",
@@ -1006,9 +999,6 @@
 ]
 },
 "bigtop": {
-"bigtop-3.2.0": [
-"bigtop/bigtop-3.2.0/bigtop-3.2.0-project.tar.gz"
-],
 "bigtop-3.2.1": [
 "bigtop/bigtop-3.2.1/bigtop-3.2.1-project.tar.gz"
 ]
@@ -1473,6 +1463,9 @@
 ],
 "camel-kafka-connector-3.20.3": [
 "camel/camel-kafka-connector/3.20.3/camel-kafka-connector-3.20.3-src.zip"
+],
+"camel-kafka-connector-3.20.6": [
+"camel/camel-kafka-connector/3.20.6/camel-kafka-connector-3.20.6-src.zip"
 ],
 "camel-kamelets-sources-0.10.0": [
 "camel/camel-kamelets/0.10.0/camel-kamelets-sources-0.10.0.tar.gz"
@@ -3639,26 +3632,32 @@
 "apache-groovy-2.4.21": [
 "groovy/2.4.21/sources/apache-groovy-src-2.4.21.zip"
 ],
-"apache-groovy-2.5.22": [
-"groovy/2.5.22/sources/apache-groovy-src-2.5.22.zip"
+"apache-groovy-2.5.23": [
+"groovy/2.5.23/sources/apache-groovy-src-2.5.23.zip"
 ],
-"apache-groovy-3.0.18": [
-"groovy/3.0.18/sources/apache-groovy-src-3.0.18.zip"
+"apache-groovy-3.0.19": [
+"groovy/3.0.19/sources/apache-groovy-src-3.0.19.zip"
 ],
-"apache-groovy-4.0.13": [
-"groovy/4.0.13/sources/apache-groovy-src-4.0.13.zip"
+"apache-groovy-4.0.14": [
+"groovy/4.0.14/sources/apache-groovy-src-4.0.14.zip"
+],
+"apache-groovy-5.0.0-alpha-1": [
+"groovy/5.0.0-alpha-1/sources/apache-groovy-src-5.0.0-alpha-1.zip"
 ],
 "apache-groovy-sdk-2.4.21": [
 "groovy/2.4.21/distribution/apache-groovy-sdk-2.4.21.zip"
 ],
-"apache-groovy-sdk-2.5.22": [
-"groovy/2.5.22/distribution/apache-groovy-sdk-2.5.22.zip"
+"apache-groovy-sdk-2.5.23": [
+"groovy/2.5.23/distribution/apache-groovy-sdk-2.5.23.zip"
 ],
-"apache-groovy-sdk-3.0.18": [
-"groovy/3.0.18/distribution/apache-groovy-sdk-3.0.18.zip"
+"apache-groovy-sdk-3.0.19": [
+"groovy/3.0.19/distribution/apache-groovy-sdk-3.0.19.zip"
 ],
-"apache-groovy-sdk-4.0.13": [
-"groovy/4.0.13/distribution/apache-groovy-sdk-4.0.13.zip"
+"apache-groovy-sdk-4.0.14": [
+"groovy/4.0.14/distribution/apache-groovy-sdk-4.0.14.zip"
+],
+"apache-groovy-sdk-5.0.0-alpha-1": [
+"groovy/5.0.0-alpha-1/distribution/apache-groovy-sdk-5.0.0-alpha-1.zip"
 ]
 },
 "guacamole": {
@@ -5338,8 +5337,8 @@
 "doxia-sitetools-2.0.0-M11": [
 "maven/doxia/doxia-sitetools-2.0.0-M11-source-release.zip"
 ],
-"enforcer-3.3.0": [
-"maven/enforcer/enforcer-3.3.0-source-release.zip"
+"enforcer-3.4.0": [
+"maven/enforcer/enforcer-3.4.0-source-release.zip"
 ],
 "file-management-3.1.0": [
 "maven/shared/file-management-3.1.0-source-release.zip"
@@ -5362,8 +5361,8 @@
 "maven-archetype-bundles-1.4": [
 "maven/archetype/maven-archetype-bundles-1.4-source-release.zip"
 ],
-"maven-archiver-3.6.0": [
-"maven/shared/maven-archiver-3.6.0-source-release.zip"
+"maven-archiver-3.6.1": [
+"maven/shared/maven-archiver-3.6.1-source-release.zip"
 ],
 "maven-artifact-plugin-3.4.1": [
 "maven/plugins/maven-artifact-plugin-3.4.1-source-release.zip"
@@ -8347,14 +8346,14 @@
 ]
 },
 "nifi": {
-"nifi-1.23.1": [
-"nifi/1.23.1/nifi-1.23.1-source-release.zip"
+"nifi-1.23.2": [
+"nifi/1.23.2/nifi-1.23.2-source-release.zip"
 ],
 "nifi-fds-0.3.0": [
 "nifi/nifi-fds/nifi-fds-0.3.0/nifi-fds-0.3.0-source-release.zip"
 ],
-"nifi-kafka-connector-1.23.1": [
-"nifi/1.23.1/nifi-kafka-connector-assembly-1.23.1.zip"
+"nifi-kafka-connector-1.23.2": [
+"nifi/1.23.2/nifi-kafka-connector-assembly-1.23.2.zip"
 ],
 "nifi-minifi-cpp-0.14.0": [
 "nifi/nifi-minifi-cpp/0.14.0/nifi-minifi-cpp-0.14.0-source.tar.gz"
