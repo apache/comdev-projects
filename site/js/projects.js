@@ -1104,14 +1104,24 @@ function renderFrontPage() {
     var curPodlings = 0;
     for (i in podlings) curPodlings++;
 
-    var nsubs = 0; // number of projects with DOAP that do not have same name than a committee
-    for (i in projects) {
-        i = projects[i];
-        if (i.pmc != 'incubator' && !isCommittee(i.name)) {
-            nsubs++;
+    // The projects list contains 1 entry for each podling, as well as 1 entry for each DOAP.
+    // Each podling relates to a single project, but a PMC may have one or more projects.
+    // However not all projects may have registered DOAPs.
+    // In order to find these missing projects, we need to find projects that have not registered DOAPs
+
+    var projectsWithDoaps = {}; // ids of projects which have registered DOAPS
+    var numProjects = 0; // total projects run by active PMCs
+    for (j in projects) {
+        i = projects[j];
+        projectsWithDoaps[i.pmc] = 1; // which projects have got DOAPs
+        if (i.pmc != 'attic' && i.pmc != 'incubator') {
+            numProjects++; // found a project run by an active PMC (not podling or retired)
         }
     }
-    var initiatives = curPodlings + numcommittees + nsubs; // podlings + committees + sub-projects
+    var numprojectsWithDoaps = 0; // how many projects have registered DOAPs
+    for (i in projectsWithDoaps) numprojectsWithDoaps++;
+    numProjects += (numcommittees - numprojectsWithDoaps); // Add in projects without DOAPs
+    var initiatives = numProjects + curPodlings; // both PMC and podlings
     initiatives -= initiatives % 50; // round down to nearest 50
     var obj = document.getElementById('details');
     obj.innerHTML = ""
@@ -1121,7 +1131,7 @@ function renderFrontPage() {
     obj.innerHTML
         += "<h3 style='text-align: center;'>There are currently <span style='color: #269;'>" + initiatives + "+</span> open source initiatives at the ASF:</h3>"
         + "<ul style='width: 400px; margin: 0 auto; font-size: 18px; color: #269; font-weight: bold;'>"
-        + "<li>" + numcommittees + " committees managing " + (numcommittees + nsubs) + " projects</li>"
+        + "<li>" + numcommittees + " committees managing " + numProjects + " projects</li>"
         + "<li>5 special committees*</li>"
         + "<li>" + curPodlings + " incubating podlings</li></ul>"
         + "<p><small>*Infrastructure, Travel Assistance, Security Team, Legal Affairs and Brand Management</small></p>";
