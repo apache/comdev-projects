@@ -631,7 +631,10 @@ function renderCommitteePage(committeeId) {
         }
     }
     if (repos.length > 0) {
-        appendElementWithInnerHTML(obj, 'h4', "Repositories managed by this Committee <font size='-2'>(from <a href='https://git.apache.org/'>ASF Git mirrors</a>)</font>:");
+        appendElementWithInnerHTML(obj, 'h4', 
+            "Repositories managed by this Committee <font size='-2'>" +
+            "(from <a href='https://gitbox.apache.org/repositories.json'>ASF Git repos</a>" +
+            " and <a href='https://svn.apache.org/repos/asf/'>ASF SVN repos</a>)</font>:");
 
         ul = document.createElement('ul');
         for (var r in repos.sort()) {
