@@ -8158,6 +8158,29 @@
 ],
 "shortdesc": "Apache Daffodil is an open-source implementation of the\n        Data Format Description Language to convert between fixed format\n        data and XML, JSON, or other data structures."
 },
+"datafu": {
+"bug-database": "https://issues.apache.org/jira/browse/DATAFU",
+"category": "big-data",
+"created": "2014-08-04",
+"description": "Apache DataFu consists of two libraries:\n\nApache DataFu Pig is a collection of useful user-defined functions for data analysis in Apache Pig.\n\nApache DataFu Hourglass is a library for incrementally processing data using Apache Hadoop MapReduce. This library was inspired by the prevelance of sliding window computations over daily tracking data. Computations such as these typically happen at regular intervals (e.g. daily, weekly), and therefore the sliding nature of the computations means that much of the work is unnecessarily repeated. DataFu's Hourglass was created to make these computations more efficient, yielding sometimes 50-95% reductions in computational resources.",
+"doap": "https://gitbox.apache.org/repos/asf?p=datafu.git;a=blob_plain;f=doap_DataFu.rdf;hb=HEAD",
+"homepage": "http://datafu.apache.org/",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "http://datafu.apache.org/community/mailing-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:mhayes@apache.org",
+"name": "Matthew Hayes"
+}
+],
+"name": "Apache DataFu",
+"pmc": "datafu",
+"programming-language": "Java",
+"repository": [
+"https://git.apache.org/repos/asf/datafu.git"
+],
+"shortdesc": "Apache DataFu is a collection of libraries for working with large-scale data in Hadoop. The project was inspired by the need for stable, well-tested libraries for data mining and statistics."
+},
 "db-derby": {
 "bug-database": "http://issues.apache.org/jira/browse/DERBY",
 "category": "database",
@@ -9632,29 +9655,6 @@
 "http://git@github.com:apache/incubator-annotator.git"
 ],
 "shortdesc": "Apache Annotator provides annotation enabling code for browsers, servers, and humans."
-},
-"incubator-datafu": {
-"bug-database": "https://issues.apache.org/jira/browse/DATAFU",
-"category": "big-data",
-"created": "2014-08-04",
-"description": "Apache DataFu consists of two libraries:\n\nApache DataFu Pig is a collection of useful user-defined functions for data analysis in Apache Pig.\n\nApache DataFu Hourglass is a library for incrementally processing data using Apache Hadoop MapReduce. This library was inspired by the prevelance of sliding window computations over daily tracking data. Computations such as these typically happen at regular intervals (e.g. daily, weekly), and therefore the sliding nature of the computations means that much of the work is unnecessarily repeated. DataFu's Hourglass was created to make these computations more efficient, yielding sometimes 50-95% reductions in computational resources.",
-"doap": "https://gitbox.apache.org/repos/asf?p=datafu.git;a=blob_plain;f=doap_DataFu.rdf;hb=HEAD",
-"homepage": "http://datafu.incubator.apache.org/",
-"license": "http://spdx.org/licenses/Apache-2.0",
-"mailing-list": "http://datafu.incubator.apache.org/community/mailing-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:mhayes@apache.org",
-"name": "Matthew Hayes"
-}
-],
-"name": "Apache DataFu",
-"pmc": "incubator",
-"programming-language": "Java",
-"repository": [
-"https://git-wip-us.apache.org/repos/asf/incubator-datafu.git"
-],
-"shortdesc": "Apache DataFu is a collection of libraries for working with large-scale data in Hadoop. The project was inspired by the need for stable, well-tested libraries for data mining and statistics."
 },
 "incubator-freemarker": {
 "bug-database": "https://issues.apache.org/jira/browse/FREEMARKER",
@@ -16723,6 +16723,11 @@
 "pmc": "tika",
 "programming-language": "Java",
 "release": [
+{
+"created": "2023-08-28",
+"name": "Apache Tika 2.9.0",
+"revision": "2.9.0"
+},
 {
 "created": "2023-05-15",
 "name": "Apache Tika 2.8.0",
