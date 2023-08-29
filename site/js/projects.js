@@ -906,12 +906,17 @@ function renderProjectsByCommittee() {
                 if (committees[project.pmc]) {
                     var xlpmc = project.pmc;
                     if (xlpmc == lpmc) {
-                        appendLiInnerHTML(cul, projectIcon(project.name) + projectLink(i));
+                        if (project.doap) {
+                            appendLiInnerHTML(cul, projectIcon(project.name) + projectLink(i));
+                        } else {
+                            c=0;
+                            appendLiInnerHTML(cul, "<b>Please <a href='https://projects.apache.org/create.html'>create a DOAP</a> file</b>");
+                        }
                     }
                 }
             }
         }
-        li.innerHTML = "<h3>" + committeeIcon() + "<a id='" + lpmc + "' href='committee.html?"+ lpmc + "'>" + committees[lpmc].name + " Committee</a>" + (c>1?(" (" + c + ")"):"") + (c>0?":": "") + "</h3>";
+        li.innerHTML = "<h3>" + committeeIcon() + "<a id='" + lpmc + "' href='committee.html?"+ lpmc + "'>" + committees[lpmc].name + " Committee</a>" + (c!=1?(" (" + c + ")"):"") + (c>0?":": "") + "</h3>";
         li.appendChild(cul);
         ul.appendChild(li);
     }
