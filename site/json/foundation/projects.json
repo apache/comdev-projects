@@ -8861,6 +8861,110 @@
 "https://gitbox.apache.org/repos/asf/fluo-yarn.git"
 ]
 },
+"freemarker": {
+"bug-database": "https://issues.apache.org/jira/browse/FREEMARKER",
+"category": "Java, html, templating, content",
+"created": "2015-09-02",
+"description": "\n          Apache FreeMarker is a template engine: a Java library to generate text output (HTML web pages, e-mails, configuration files, source code, etc.) based on templates and changing data.\n          Templates are written in the FreeMarker Template Language (FTL), which is a simple, specialized language (not a full-blown programming language).\n          Usually, a general-purpose programming language (like Java) is used to prepare the data (issue database queries, do business calculations). Then, Apache FreeMarker displays\n          that prepared data using templates. In the template you are focusing on how to present the data, and outside the template you are focusing on what data to present.\n    ",
+"developer": [
+{
+"mbox": "mailto:ddekany@apache.org",
+"name": "Dániel Dékány",
+"nick": "ddekany"
+},
+{
+"mbox": "mailto:nanlei@apache.org",
+"name": "Nan Lei",
+"nick": "nanlei"
+},
+{
+"mbox": "mailto:woonsan@apache.org",
+"name": "Woonsan Ko",
+"nick": "woonsan"
+},
+{
+"mbox": "mailto:jacopoc@apache.org",
+"name": "Jacopo Cappellato",
+"nick": "jacopoc"
+},
+{
+"mbox": "mailto:jonesde@apache.org",
+"name": "David E. Jones",
+"nick": "jonesde"
+},
+{
+"homepage": "https://www.wikier.org",
+"mbox": "mailto:wikier@apache.org",
+"name": "Sergio Fernández",
+"nick": "wikier",
+"sameAs": "http://www.wikier.org/foaf#wikier"
+},
+{
+"mbox": "mailto:jleroux@apache.org",
+"name": "Jacques Le Roux",
+"nick": "jleroux"
+}
+],
+"doap": "https://gitbox.apache.org/repos/asf?p=freemarker-site.git;a=blob_plain;f=doap.rdf;hb=HEAD",
+"download-page": "https://freemarker.apache.org/freemarkerdownload.html",
+"homepage": "https://freemarker.apache.org",
+"license": "https://www.apache.org/licenses/LICENSE-2.0",
+"mailing-list": "https://freemarker.apache.org/mailing-lists.html",
+"name": "Apache FreeMarker",
+"pmc": "freemarker",
+"programming-language": "Java",
+"release": [
+{
+"created": "2023-01-14",
+"name": "Apache FreeMarker",
+"revision": "2.3.32"
+},
+{
+"created": "2021-02-16",
+"name": "Apache FreeMarker",
+"revision": "2.3.31"
+},
+{
+"created": "2020-03-05",
+"name": "Apache FreeMarker",
+"revision": "2.3.30"
+},
+{
+"created": "2019-08-17",
+"name": "Apache FreeMarker",
+"revision": "2.3.29"
+},
+{
+"created": "2018-04-04",
+"name": "Apache FreeMarker",
+"revision": "2.3.28"
+},
+{
+"created": "2017-11-03",
+"name": "Apache FreeMarker",
+"revision": "2.3.27-incubating"
+},
+{
+"created": "2017-03-25",
+"name": "Apache FreeMarker",
+"revision": "2.3.26-incubating"
+},
+{
+"created": "2016-06-26",
+"name": "Apache FreeMarker",
+"revision": "2.3.25-incubating"
+},
+{
+"created": "2016-03-28",
+"name": "Apache FreeMarker",
+"revision": "2.3.24-incubating"
+}
+],
+"repository": [
+"git://git.apache.org/freemarker.git"
+],
+"shortdesc": "FreeMarker is a template engine, i.e. a generic tool to generate text output based on templates. FreeMarker is implemented in Java as a class library for programmers."
+},
 "geode": {
 "bug-database": "https://issues.apache.org/jira/browse/GEODE",
 "category": "database",
@@ -9655,110 +9759,6 @@
 "http://git@github.com:apache/incubator-annotator.git"
 ],
 "shortdesc": "Apache Annotator provides annotation enabling code for browsers, servers, and humans."
-},
-"incubator-freemarker": {
-"bug-database": "https://issues.apache.org/jira/browse/FREEMARKER",
-"category": "Java, html, templating, content",
-"created": "2015-09-02",
-"description": "\n          Apache FreeMarker is a template engine: a Java library to generate text output (HTML web pages, e-mails, configuration files, source code, etc.) based on templates and changing data.\n          Templates are written in the FreeMarker Template Language (FTL), which is a simple, specialized language (not a full-blown programming language).\n          Usually, a general-purpose programming language (like Java) is used to prepare the data (issue database queries, do business calculations). Then, Apache FreeMarker displays\n          that prepared data using templates. In the template you are focusing on how to present the data, and outside the template you are focusing on what data to present.\n    ",
-"developer": [
-{
-"mbox": "mailto:ddekany@apache.org",
-"name": "Dániel Dékány",
-"nick": "ddekany"
-},
-{
-"mbox": "mailto:nanlei@apache.org",
-"name": "Nan Lei",
-"nick": "nanlei"
-},
-{
-"mbox": "mailto:woonsan@apache.org",
-"name": "Woonsan Ko",
-"nick": "woonsan"
-},
-{
-"mbox": "mailto:jacopoc@apache.org",
-"name": "Jacopo Cappellato",
-"nick": "jacopoc"
-},
-{
-"mbox": "mailto:jonesde@apache.org",
-"name": "David E. Jones",
-"nick": "jonesde"
-},
-{
-"homepage": "https://www.wikier.org",
-"mbox": "mailto:wikier@apache.org",
-"name": "Sergio Fernández",
-"nick": "wikier",
-"sameAs": "http://www.wikier.org/foaf#wikier"
-},
-{
-"mbox": "mailto:jleroux@apache.org",
-"name": "Jacques Le Roux",
-"nick": "jleroux"
-}
-],
-"doap": "https://gitbox.apache.org/repos/asf?p=freemarker-site.git;a=blob_plain;f=doap.rdf;hb=HEAD",
-"download-page": "https://freemarker.apache.org/freemarkerdownload.html",
-"homepage": "https://freemarker.apache.org",
-"license": "https://www.apache.org/licenses/LICENSE-2.0",
-"mailing-list": "https://freemarker.apache.org/mailing-lists.html",
-"name": "Apache FreeMarker",
-"pmc": "incubator",
-"programming-language": "Java",
-"release": [
-{
-"created": "2023-01-14",
-"name": "Apache FreeMarker",
-"revision": "2.3.32"
-},
-{
-"created": "2021-02-16",
-"name": "Apache FreeMarker",
-"revision": "2.3.31"
-},
-{
-"created": "2020-03-05",
-"name": "Apache FreeMarker",
-"revision": "2.3.30"
-},
-{
-"created": "2019-08-17",
-"name": "Apache FreeMarker",
-"revision": "2.3.29"
-},
-{
-"created": "2018-04-04",
-"name": "Apache FreeMarker",
-"revision": "2.3.28"
-},
-{
-"created": "2017-11-03",
-"name": "Apache FreeMarker",
-"revision": "2.3.27-incubating"
-},
-{
-"created": "2017-03-25",
-"name": "Apache FreeMarker",
-"revision": "2.3.26-incubating"
-},
-{
-"created": "2016-06-26",
-"name": "Apache FreeMarker",
-"revision": "2.3.25-incubating"
-},
-{
-"created": "2016-03-28",
-"name": "Apache FreeMarker",
-"revision": "2.3.24-incubating"
-}
-],
-"repository": [
-"git://git.apache.org/incubator-freemarker.git"
-],
-"shortdesc": "FreeMarker is a template engine, i.e. a generic tool to generate text output based on templates. FreeMarker is implemented in Java as a class library for programmers."
 },
 "incubator-linkis": {
 "bug-database": "https://github.com/apache/linkis/issues",
