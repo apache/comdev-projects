@@ -910,7 +910,11 @@ function renderProjectsByCommittee() {
                             appendLiInnerHTML(cul, projectIcon(project.name) + projectLink(i));
                         } else {
                             c=0;
-                            appendLiInnerHTML(cul, "<b>Please <a href='https://projects.apache.org/create.html'>create a DOAP</a> file</b>");
+                            if (xlpmc == 'incubator') {
+                                appendLiInnerHTML(cul, "<b>"+ project.name + ": please <a href='https://projects.apache.org/create.html'>create a DOAP</a> file</b>");
+                            } else {
+                                appendLiInnerHTML(cul, "<b>Please <a href='https://projects.apache.org/create.html'>create a DOAP</a> file</b>");
+                            }
                         }
                     }
                 }
