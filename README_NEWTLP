@@ -6,6 +6,7 @@ Checklist for adding a new TLP, i.e. a new committee with at least one project:
 The script scripts/newtlp.py can be used to do the above:
 
 * update site/create.html
+This can be done using scripts/update_create.py
 
 2. add projects managed by the committee:
 * create the project DOAP somewhere in the project SVN or Git space
