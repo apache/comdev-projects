@@ -47,6 +47,22 @@
     Changes checked into the HTML are reflected immediately on the production server.
   </p>
 
+  <h2>DOAP files</h2>
+  <p>
+    The data for individual projects is stored in <a href="doap.html">DOAP files</a>.
+    (<b>D</b>escription <b>O</b>f <b>A</b> <b>P</b>roject).<br>
+    Project DOAP files are created and maintained by PMCs.
+  </p>
+  <p>
+    There is a <a href="doap.html">description of DOAP files</a>.
+    This includes a link to a tool to create an initial DOAP for a project.
+  </p>
+  <p>
+    Once a DOAP has been created, it should be added to the 
+    <a href="https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects.xml">data/projects.xml</a>
+    in SVN.
+  </p>
+
   <h2>How The Code Works</h2>
   <p>The data about Apache projects on this site is generated at least daily by cronjobs running Python scripts from various data sources.
     Various cronjobs check authoritative ASF data sources for updates, and then cache data needed by this website (and possibly other websites) in 
