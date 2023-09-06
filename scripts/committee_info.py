@@ -225,3 +225,18 @@ def pmcdates():
         if ent == 'ws':
             dates['webservices'] = dates[ent]
     return dates
+
+"""
+Return dict of ids and names
+"""
+def pmcnames():
+    names = {}
+    
+    cttes = cidata['committees']
+    for ent in cttes:
+        ctte = cttes[ent]
+        if not ctte['pmc']:
+            continue
+        names[ent] = ctte['display_name']
+
+    return names
