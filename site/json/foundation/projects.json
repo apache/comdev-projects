@@ -315,6 +315,24 @@
 ],
 "shortdesc": "Apache Airavata is a distributed system software framework to manage simple to\n            composite applications with complex execution and workflow patterns on diverse\n            computational resources. "
 },
+"airflow": {
+"bug-database": "https://github.com/apache/airflow/issues",
+"category": "big-data",
+"created": "2023-09-04",
+"description": "The mission of Apache Airflow is the creation and maintenance of software\nrelated to workflow automation and scheduling that can be used to author and\nmanage data pipelines.\n",
+"doap": "https://raw.githubusercontent.com/apache/airflow/main/doap_airflow.rdf",
+"download-page": "https://airflow.apache.org/docs/apache-airflow/stable/installation/index.html",
+"homepage": "https://airflow.apache.org",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://lists.apache.org/list.html?dev@airflow.apache.org",
+"name": "Apache Airflow",
+"pmc": "airflow",
+"programming-language": "Python, JavaScript",
+"repository": [
+"https://github.com/apache/airflow.git"
+],
+"shortdesc": "Workflow automation platform"
+},
 "allura": {
 "bug-database": "https://forge-allura.apache.org/p/allura/tickets/",
 "category": "content",
@@ -967,62 +985,6 @@
 "https://svn.apache.org/repos/asf/aries/"
 ],
 "shortdesc": "OSGi Enterprise Programming Model"
-},
-"attic-abdera": {
-"bug-database": "https://issues.apache.org/jira/browse/ABDERA",
-"category": "xml, retired",
-"created": "2008-12-25",
-"description": "The goal of the Apache Abdera project is to build a functionally-complete, high-performance implementation of the IETF Atom Syndication Format (RFC 4287) and Atom Publishing Protocol (RFC 5023) specifications.",
-"doap": "http://svn.apache.org/repos/asf/abdera/java/trunk/doap_Abdera.rdf",
-"download-page": "http://abdera.apache.org/#downloads",
-"homepage": "http://abdera.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://abdera.apache.org/project.html#lists",
-"name": "Apache Abdera",
-"pmc": "attic",
-"programming-language": "Java",
-"release": [
-{
-"created": "2008-04-11",
-"name": "Apache Abdera 0.4",
-"revision": "1.7.1"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/abdera"
-],
-"shortdesc": "An open source Atom implementation"
-},
-"attic-ace": {
-"bug-database": "https://issues.apache.org/jira/browse/ace",
-"category": "retired",
-"created": "2012-04-14",
-"description": "When assembling software out of reusable components, the task of deploying software onto an ever increasing number of targets is not trivial to solve. This becomes even harder when these targets require different components based on who's using them.\n\nApache ACE allows you to group those components and assign them to a managed set of targets. This allows you to distribute updates and new components easily, while keeping a full history of what was installed where during what period. It also helps you setup an automated development, QA/testing, staging and production environment.",
-"doap": "http://svn.apache.org/repos/asf/ace/doap.rdf",
-"download-page": "http://ace.apache.org/downloads.html",
-"homepage": "http://ace.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://ace.apache.org/get-involved/mailing-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:dev@ace.apache.org",
-"name": "Apache ACE PMC"
-}
-],
-"name": "Apache ACE",
-"pmc": "attic",
-"programming-language": "Java",
-"release": [
-{
-"created": "2011-12-13",
-"name": "Apache ACE 0.8.1",
-"revision": "0.8.1"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/ace"
-],
-"shortdesc": "Apache ACE is a distribution framework that allows you to centrally manage and distribute software components, configuration data and other artifacts to target systems. It is built using OSGi and can be deployed in different topologies. The target systems are usually also OSGi based, but don't have to be."
 },
 "attic-any23": {
 "bug-database": "https://issues.apache.org/jira/browse/ANY23",
@@ -8611,6 +8573,37 @@
 ],
 "shortdesc": "A distributed SQL MPP for Hadoop and NoSQL"
 },
+"echarts": {
+"bug-database": "https://github.com/apache/echarts/issues",
+"category": "library",
+"created": "2021-01-26",
+"description": "Apache ECharts is a free, powerful charting and visualization library offering easy ways to add intuitive, interactive, and highly customizable charts to your commercial products. It is written in pure JavaScript and based on zrender, which is a whole new lightweight canvas library.",
+"doap": "https://echarts.apache.org/doap_ECharts.rdf",
+"download-page": "https://echarts.apache.org/download.html",
+"homepage": "https://echarts.apache.org",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://echarts.apache.org/maillist.html",
+"maintainer": [
+{
+"mbox": "mailto:dev@echarts.apache.org",
+"name": "Apache ECharts PMC"
+}
+],
+"name": "Apache ECharts",
+"pmc": "echarts",
+"programming-language": "JavaScript",
+"release": [
+{
+"created": "2023-07-18",
+"name": "apache-echarts-5.4.3",
+"revision": "5.4.3"
+}
+],
+"repository": [
+"git://gitbox.apache.org/repos/asf/echarts.git"
+],
+"shortdesc": "A powerful, interactive charting and visualization library for browser"
+},
 "empire-db": {
 "bug-database": "https://issues.apache.org/jira/browse/EMPIREDB",
 "category": "database",
@@ -13182,6 +13175,24 @@
 ],
 "shortdesc": "Apache NetBeans is Development Environment, Tooling Platform and Application Framework."
 },
+"nifi": {
+"bug-database": "https://issues.apache.org/jira/projects/NIFI",
+"category": "big-data",
+"created": "2023-09-05",
+"description": "The mission of NiFi is the creation and maintenance of software related to providing an easy to use, powerful, and reliable system to process and distribute data.\n\nApache NiFi MiNiFi is an edge data collection agent built to seamlessly integrate with and leverage the command and control of NiFi. There are both Java and C++ implementations.\n\nApache NiFi Registry is a centralized registry for key configuration items including flow versions, assets, and extensions for Apache NiFi and Apache MiNiFi.",
+"doap": "https://raw.githubusercontent.com/apache/nifi/main/doap.rdf",
+"download-page": "https://nifi.apache.org/download.html",
+"homepage": "https://nifi.apache.org/",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://nifi.apache.org/mailing_lists.html",
+"name": "Apache NiFi",
+"pmc": "nifi",
+"programming-language": "Java",
+"repository": [
+"https://github.com/apache/nifi"
+],
+"shortdesc": "NiFi is an easy to use, powerful, and reliable system to process and\ndistribute data"
+},
 "nutch": {
 "bug-database": "https://issues.apache.org/jira/projects/NUTCH",
 "category": "web-framework",
@@ -17280,6 +17291,27 @@
 "http://svn.apache.org/repos/asf/turbine/core/trunk/"
 ],
 "shortdesc": "Turbine is a servlet based framework that allows Java developers to quickly build web applications."
+},
+"tvm": {
+"bug-database": "https://github.com/apache/tvm/issues",
+"category": "big-data",
+"created": "2023-09-05",
+"description": "Apache TVM is an open source machine learning compiler framework for CPUs, GPUs, and machine learning accelerators. It aims to enable machine learning engineers to optimize and run computations efficiently on any hardware backend.",
+"doap": "https://tvm.apache.org/doap.rdf",
+"download-page": "https://tvm.apache.org/download",
+"homepage": "https://tvm.apache.org/",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://tvm.apache.org/community",
+"maintainer": [
+{
+"mbox": "mailto:dev@tvm.apache.org",
+"name": "Apache TVM Developers"
+}
+],
+"name": "Apache TVM",
+"pmc": "tvm",
+"programming-language": "C++, Python",
+"shortdesc": "An End to End Machine Learning Compiler Framework for CPUs, GPUs and accelerators"
 },
 "uima": {
 "bug-database": "https://issues.apache.org/jira/browse/UIMA",
