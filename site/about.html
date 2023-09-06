@@ -58,9 +58,13 @@
     This includes a link to a tool to create an initial DOAP for a project.
   </p>
   <p>
-    Once a DOAP has been created, it should be added to the 
+    Once a DOAP has been created, it should be stored in a suitable place in a PMC repo.<br>
+    Then add the URL for the DOAP to the file
     <a href="https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects.xml">data/projects.xml</a>
-    in SVN.
+    in SVN.<br>
+    If using Git, please ensure the URL points to the plain DOAP file, not some HTML version.
+    The raw link will look something like:
+    <code>https://raw.githubusercontent.com/apache/<projectrepo>/main/doap_<project>.rdf</code>
   </p>
 
   <h2>How The Code Works</h2>
