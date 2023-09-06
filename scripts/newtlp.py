@@ -9,7 +9,6 @@ committee-info.json from Whimsy
 
 Updates:
 data/committees.xml
-site/create.html
 
 Creates:
 data/committees/<pmc>.rdf
@@ -37,7 +36,6 @@ DATADIR = os.path.join(committee_info.COMDEV_HOME,'data')
 RDFDIR = os.path.join(DATADIR,'committees')
 RETIREDDIR = os.path.join(DATADIR,'committees-retired')
 OVERRIDEDIR = os.path.join(DATADIR,'projects-override')
-SITEDIR = os.path.join(committee_info.COMDEV_HOME,'site')
 
 
 print("Reading _template.rdf")
@@ -73,55 +71,6 @@ def update_xml(pid):
             w.write(l) # write the original line
     os.rename(xmlfilet,xmlfile)
 
-# <select name="pmc">
-# ...
-# <!-- B -->
-# <option value="bahir">Bahir</option>
-# ...
-# </select>
-def update_html(pid, name):
-    FILE='create.html'
-    htmlfile = os.path.join(SITEDIR,FILE)
-    htmlfilet = os.path.join(SITEDIR,FILE+'.t')
-    cap = pid[0:1].upper()
-    print(f"Updating {FILE} to add {pid} under {cap}")
-    notYetFound = True
-    with open(htmlfile,'r') as r, open(htmlfilet,'w') as w:
-        foundCap = False # look for the starting comment for the letter of the alphabet
-        for l in r:
-            w.write(l)
-            if f"<!-- {cap} -->" in l:
-                foundCap = True
-                break
-        if not foundCap:
-            print(f"ERROR: {FILE} does not contain <!-- %s -->" % cap)
-            w.close()
-            os.remove(htmlfilet)
-            return
-        for l in r:
-            if notYetFound:
-                m = re.search("^(\\s+)<option value=\"(.+)\">", l)
-                if m:
-                    indent = m.group(1)
-                    mid = m.group(2)
-                    if mid > pid: # found insertion point
-                        w.write("%s<option value=\"%s\">%s</option>\n" % (indent, pid, name))
-                        notYetFound = False
-                    elif mid == pid:
-                        print(f"ERROR: {FILE} already contains %s" % pid)
-                        w.close()
-                        os.remove(htmlfilet)
-                        return
-                    else:
-                        # print(l)
-                        pass
-                else:
-                    if re.search("^\s*(</select>\s*)$", l): # EOS
-                        w.write("%s<option value=\"%s\">%s</option\n" % (indent, pid, name))
-                        notYetFound = False
-            w.write(l) # write the original line
-    os.rename(htmlfilet,htmlfile)
-
 for arg in sys.argv[1:]:
     print("Processing "+arg)
     outfile = os.path.join(RDFDIR,"%s.%s"%(arg,'rdf'))
@@ -151,7 +100,6 @@ for arg in sys.argv[1:]:
                 o.write(out)
             os.system("svn add %s" % outfile)
             update_xml(arg)
-            update_html(arg, cttee['fullname'].replace('Apache ', ''))
         else:
             print("No description found for "+arg)
     except KeyError:
