@@ -220,7 +220,8 @@ function renderProjectPage(project, projectId) {
         var pls = "";
         for (i in arr) {
             var cat = arr[i];
-            pls += "<a href='projects.html?category#" + cat + "'>" + cat + "</a> &nbsp; ";
+             // categories are downcased so fix up the anchor
+            pls += "<a href='projects.html?category#" + cat.toLowerCase() + "'>" + cat + "</a> &nbsp; ";
         }
         appendLiInnerHTML(ul, "<b>Category:</b> " + pls);
     }
