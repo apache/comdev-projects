@@ -609,11 +609,22 @@ function renderProjectsByLanguage() {
 
     // Construct language list
     lingos.sort();
+    var toc = document.createElement('p');
+    var toch = document.createElement('h3');
+    toch.textContent = 'TOC';
+    toc.appendChild(toch);
     var ul = document.createElement('ul');
 
     var l;
     for (l in lingos) {
         var lang = lingos[l];
+        var tocitem = document.createElement('a');
+        tocitem.href="#" + lang;
+        tocitem.innerHTML=lang;
+        if (l > 0) { // divider
+            toc.appendChild(document.createTextNode(', '));
+        }
+        toc.appendChild(tocitem);
         var li = document.createElement('li');
         li.innerHTML = "<h3><a id='" + lang + "'>" + lang + " (" + lcount[lang] + ")</a>"+linkToHere(lang)+":</h3>";
         var cul = document.createElement('ul');
@@ -633,6 +644,7 @@ function renderProjectsByLanguage() {
         ul.appendChild(li);
     }
 
+    obj.appendChild(toc);
     obj.appendChild(ul);
 
     if (location.hash.length > 1) {
@@ -665,13 +677,24 @@ function renderProjectsByCategory() {
     cats.sort();
 
     // Construct category list
+    var toc = document.createElement('p');
+    var toch = document.createElement('h3');
+    toch.textContent = 'TOC';
+    toc.appendChild(toch);
     var ul = document.createElement('ul');
 
     var l;
     for (l in cats) {
-        var lang = cats[l];
+        var cat = cats[l];
+        var tocitem = document.createElement('a');
+        tocitem.href="#" + cat;
+        tocitem.innerHTML=cat;
+        if (l > 0) { // divider
+            toc.appendChild(document.createTextNode(', '));
+        }
+        toc.appendChild(tocitem);
         var li = document.createElement('li');
-        li.innerHTML = "<h3><a id='" + lang + "'>" + lang + " (" + ccount[lang] + ")</a>"+linkToHere(lang)+":</h3>";
+        li.innerHTML = "<h3><a id='" + cat + "'>" + cat + " (" + ccount[cat] + ")</a>"+linkToHere(cat)+":</h3>";
         var cul = document.createElement('ul');
         for (i in projectsSorted) {
             i = projectsSorted[i];
@@ -680,7 +703,7 @@ function renderProjectsByCategory() {
                 var a = project.category.split(/,\s*/);
                 for (x in a) {
                     x = a[x].toLowerCase(); // must agree with downcase above
-                    if (x == lang) {
+                    if (x == cat) {
                         appendLiInnerHTML(cul, projectIcon(project.name) + projectLink(i));
                     }
                 }
@@ -690,6 +713,7 @@ function renderProjectsByCategory() {
         ul.appendChild(li);
     }
 
+    obj.appendChild(toc);
     obj.appendChild(ul);
 
     if (location.hash.length > 1) {
