@@ -25,7 +25,7 @@ if sys.hexversion < 0x03000000:
 from xml.dom import minidom
 import xml.etree.ElementTree as ET
 import re
-from urlutils import URLopen
+import urlutils
 import urllib.error
 import json
 import os
@@ -50,6 +50,15 @@ if os.path.exists("parseprojects-failures.xml"):
         save = False
     else:
         print("Previous run failed, ignoring restart data")
+
+filecache = None
+if '--test' in sys.argv:
+    import hashlib
+    import tempfile
+    tmpdir = os.path.join(tempfile.gettempdir(), 'projects.apache.org')
+    os.mkdir(tmpdir)
+    print("Test mode; will cache DOAPs under {tmpdir}")
+    filecache = urlutils.UrlCache(cachedir=tmpdir, interval=-1, silent=True)
 
 with open(projectsList, "r") as f:
     data  = f.read()
@@ -138,7 +147,7 @@ def name2fileName(s, pmc):
 # @throws exceptions for missing and unparseable files
 def getPMC(url):
     print("Parsing PMC descriptor file %s" % url)
-    rdf = URLopen(url).read()
+    rdf = urlutils.URLopen(url).read()
     md = minidom.parseString(rdf)
     pmc = (md.getElementsByTagName('asfext:pmc') or md.getElementsByTagName('asfext:PMC'))[0]
     t = pmc.tagName.lower()
@@ -214,7 +223,11 @@ for s in itemlist :
     committeeId = None
     projectJsonFilename = None
     try:
-        rdf = URLopen(url).read()
+        if filecache:
+            tmp = hashlib.sha256(url.encode()).hexdigest()
+            rdf = filecache.get(url, tmp).read()
+        else:
+            rdf = urlutils.URLopen(url).read()
         rdfxml = ET.fromstring(rdf)
         project = rdfxml[0]
         pjson = {
