@@ -96,18 +96,20 @@ Also if the DOAP is always referenced by the site URL it is very unlikely to cha
 Once you have decided where the file will be stored,
 you can directly edit the file to get your project listed:<br>
 <code>https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects.xml</code><br>
-For example, add one of the following entries:
+For example, add an entry like one of the following:
 </p>
 <pre>
   &lt;location&gt;https://svn.apache.org/repos/asf/httpd/site/trunk/content/doap.rdf&lt;/location&gt;
 or
   &lt;location&gt;https://gitbox.apache.org/repos/asf?p=kafka.git;a=blob_plain;f=doap_Kafka.rdf;hb=HEAD&lt;/location&gt;
+or
+  &lt;location&gt;https://raw.githubusercontent.com/apache/logging-chainsaw/master/doap_chainsaw.rdf&lt;/location&gt;
 </pre>
-Please keep the file in alphabetical order by TLP id (i.e. httpd, kafka in the above examples)
 
-<p>
-Please note: the script to create the projects-old web-site currently runs every few hours.
-</p>
+If using Git, make sure that the URL links to the raw DOAP content as per the above examples.
+<br>
+Please keep the file in alphabetical order by TLP id (i.e. httpd, kafka, logging in the above examples)
+
       </div>
 </div>
 <h2>DOAP Creation Form</h2>
