@@ -36,11 +36,43 @@ import sendmail
 URL_TIMEOUT = 60.0 # timeout for URL requests (may need tweaking)
 
 PROJECTS_DIR = '../../site/json/projects'
-
+SITEDIR = '../../site'
 projectsList = "../../data/projects.xml"
 PROJECTS_SVN = 'https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects.xml'
 
 FAILURES_DIR = '../../failures'
+
+# grab the validation criteria
+validation = {}
+with open(os.path.join(SITEDIR, "validation.json")) as f:
+    validation = json.loads(f.read())
+langs = {}
+lang = validation['languages'].keys()
+cats = validation['categories'].keys()
+# dict of lower-case names to canonical names
+VALID_LANG = dict(zip([j.lower() for j in lang], lang))
+VALID_CATS = dict(zip([j.lower() for j in cats], cats))
+
+"""
+Validate and canonicalise languages and categories
+TODO send mails to projects when valid entries better established
+"""
+def validate(json, tag, valid, pid, url):
+    if tag in json:
+        outvals = []
+        invals = [x.strip() for x in json[tag].split(',')]
+        for val in invals:
+            canon = valid.get(val.lower())
+            if canon is None:
+                printMail(f"ERROR: unexpected value '{val}' for {pid} in {url}")#, project=pid)
+                outvals.append(val) # TODO flag this to show invalid entries
+            elif canon != val:
+                printMail(f"WARN: '{val}' should be '{canon}' for {pid} in {url}")#, project=pid)
+                outvals.append(canon)
+            else:
+                outvals.append(val)
+        if outvals != invals:
+            json[tag] = ", ".join(outvals)
 
 save = True
 if os.path.exists("parseprojects-failures.xml"):
@@ -53,11 +85,12 @@ if os.path.exists("parseprojects-failures.xml"):
 
 filecache = None
 if '--test' in sys.argv:
-    import hashlib
+    import hashlib # for names
     import tempfile
     tmpdir = os.path.join(tempfile.gettempdir(), 'projects.apache.org')
-    os.mkdir(tmpdir)
-    print("Test mode; will cache DOAPs under {tmpdir}")
+    if not os.path.isdir(tmpdir):
+        os.mkdir(tmpdir)
+    print(f"Test mode; will cache DOAPs under {tmpdir}")
     filecache = urlutils.UrlCache(cachedir=tmpdir, interval=-1, silent=True)
 
 with open(projectsList, "r") as f:
@@ -308,6 +341,8 @@ for s in itemlist :
             #            add[e] = pjson[k][e]
             #        pjson[k] = None
 
+            validate(pjson, 'category', VALID_CATS, projectid, url)
+            validate(pjson, 'programming-language', VALID_LANG, projectid, url)
             projects[projectJsonFilename] = pjson
             #for e in add:
             #    pjson[e] = add[e]
