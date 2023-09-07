@@ -22,6 +22,8 @@ TODO: it would probably be more efficient to parse the output of
 svn ls -R https://dist.apache.org/repos/dist/release/
 Could cache the output based on the last changed date
 
+Or use https://downloads.apache.org/zzz/find-ls.gz
+
 Or use an rsync listing:
 rsync --list-only -r rsync.apache.org::apache-dist
 Note that rsync excludes hashes, sigs and KEYS files; however they are not needed here.
@@ -42,6 +44,7 @@ x = 0
 #    print("Could not read releases.json, assuming blank slate")
 
 def getDirList(url):
+    print(url)
     try:
         data = URLopen(url).read().decode('utf-8')
         for entry, xd, xdate in re.findall(r"<a href=\"([^\"/]+)(/?)\">\S+</a>\s+(\d\d\d\d-\d\d-\d\d)", data, re.MULTILINE | re.UNICODE):
