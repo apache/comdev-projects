@@ -60,7 +60,7 @@ TODO send mails to projects when valid entries better established
 def validate(json, tag, valid, pid, url):
     if tag in json:
         outvals = []
-        invals = [x.strip() for x in json[tag].split(',')]
+        invals = re.split(r',\s*', json[tag]) # allow for missing space after comma
         for val in invals:
             canon = valid.get(val.lower())
             if canon is None:
