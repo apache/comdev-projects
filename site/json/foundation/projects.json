@@ -11,8 +11,8 @@
 "mailing-list": "https://accumulo.apache.org/contact-us",
 "maintainer": [
 {
-"mbox": "mailto:mjwall@apache.org",
-"name": "Michael Wall"
+"mbox": "mailto:edcoleman@apache.org",
+"name": "Ed Coleman"
 }
 ],
 "name": "Apache Accumulo",
@@ -324,7 +324,7 @@
 "download-page": "https://airflow.apache.org/docs/apache-airflow/stable/installation/index.html",
 "homepage": "https://airflow.apache.org",
 "license": "https://spdx.org/licenses/Apache-2.0",
-"mailing-list": "https://lists.apache.org/list.html?dev@airflow.apache.org",
+"mailing-list": "dev@airflow.apache.org",
 "name": "Apache Airflow",
 "pmc": "airflow",
 "programming-language": "Python, JavaScript",
@@ -8542,6 +8542,24 @@
 ],
 "shortdesc": "The Eclipse based LDAP browser and directory client"
 },
+"doris": {
+"bug-database": "https://github.com/apache/doris/issues",
+"category": "database",
+"created": "2018-07-08",
+"description": "Apache Doris is an easy-to-use, high-performance and real-time analytical database based on MPP architecture, known for its extreme speed and ease of use. It only requires a sub-second response time to return query results under massive data and can support not only high-concurrent point query scenarios but also high-throughput complex analysis scenarios.\n                 All this makes Apache Doris an ideal tool for scenarios including report analysis, ad-hoc query, unified data warehouse, and data lake query acceleration. On Apache Doris, users can build various applications, such as user behavior analysis, AB test platform, log retrieval analysis, user portrait analysis, and order analysis.",
+"doap": "https://gitbox.apache.org/repos/asf?p=doris.git;a=blob_plain;f=doap_Doris.rdf;hb=HEAD",
+"download-page": "https://doris.apache.org/download",
+"homepage": "https://doris.apache.org/",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "https://lists.apache.org/list.html?dev@doris.apache.org",
+"name": "Apache Doris",
+"pmc": "doris",
+"programming-language": "C++,Java",
+"repository": [
+"https://gitbox.apache.org/repos/asf/doris.git"
+],
+"shortdesc": "Apache Doris is a new-generation open-source real-time data warehouse based on MPP architecture, with easier use and higher performance for big data analytics."
+},
 "drill": {
 "bug-database": "https://issues.apache.org/jira/browse/DRILL/",
 "category": "big-data",
@@ -9816,6 +9834,31 @@
 "https://github.com/apache/mxnet"
 ],
 "shortdesc": "Apache MXNet is a deep learning framework designed for both efficiency and flexibility."
+},
+"inlong": {
+"bug-database": "https://github.com/apache/inlong/issues",
+"category": "big-data",
+"created": "2023-09-06",
+"description": "Apache InLong is a one-stop, full-scenario integration framework for massive data that supports Data Ingestion, Data Synchronization, and Data Subscription, and it provides automatic, safe, reliable, and high-performance data transmission capabilities to facilitate the construction of streaming-based data analysis, modeling, and applications.",
+"doap": "https://raw.githubusercontent.com/apache/inlong/master/doap_InLong.rdf",
+"download-page": "https://inlong.apache.org/downloads",
+"homepage": "https://inlong.apache.org",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://lists.apache.org/list.html?dev@inlong.apache.org",
+"maintainer": [
+{
+"mbox": "mailto:dockerzhang@apache.org",
+"name": "Charles Zhang"
+}
+],
+"name": "Apache InLong",
+"pmc": "inlong",
+"programming-language": "Java",
+"repository": [
+"https://dist.apache.org/repos/dist/release/inlong/",
+"https://git@github.com:apache/inlong.git"
+],
+"shortdesc": "Apache InLong - a one-stop, full-scenario integration framework for massive data"
 },
 "iotdb": {
 "bug-database": "https://issues.apache.org/jira/projects/IOTDB",
@@ -15169,15 +15212,25 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2023-05-10",
+"created": "2023-07-29",
+"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/2.0.0-alpha-3/shiro-root-2.0.0-alpha-3.pom",
+"name": "Apache Shiro - 2.0.0-alpha-3",
+"revision": "2.0.0-alpha-3"
+},
+{
 "file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/2.0.0-alpha-2/shiro-root-2.0.0-alpha-2.pom",
-"name": "Latest stable release",
+"name": "Apache Shiro - 2.0.0-alpha-2",
 "revision": "2.0.0-alpha-2"
 },
 {
 "file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/2.0.0-alpha-1/shiro-root-2.0.0-alpha-1.pom",
 "name": "Apache Shiro - 2.0.0-alpha-1",
 "revision": "2.0.0-alpha-1"
+},
+{
+"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.12.0/shiro-root-1.12.0.pom",
+"name": "Apache Shiro - 1.12.0",
+"revision": "1.12.0"
 },
 {
 "file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.11.0/shiro-root-1.11.0.pom",
@@ -17934,9 +17987,9 @@
 "wicket": {
 "bug-database": "http://issues.apache.org/jira/browse/WICKET",
 "category": "web-framework",
-"created": "2010-06-21",
-"description": "With proper mark-up/logic separation, a POJO data model, and a refreshing lack of XML, Apache Wicket makes developing web-apps simple and enjoyable again. Swap the boilerplate, complex debugging and brittle code for powerful, reusable components written with plain Java and HTML.",
-"doap": "http://svn.apache.org/repos/asf/wicket/common/site/trunk/_site/doap.rdf",
+"created": "2004-04-01",
+"description": "Write maintainable, secure and scalable web applications using just Java and HTML. Invented in 2004, Wicket is one of the few survivors of the Java serverside web framework wars of the mid 2000's, and a proud member of the Apache Software Foundation.",
+"doap": "https://gitbox.apache.org/repos/asf?p=wicket-site.git;a=blob_plain;f=content/doap.rdf;hb=HEAD",
 "download-page": "http://wicket.apache.org",
 "homepage": "http://wicket.apache.org",
 "license": "http://usefulinc.com/doap/licenses/asl20",
@@ -17946,13 +17999,13 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2015-02-02",
+"created": "2023-05-18",
 "name": "Latest Stable Release",
-"revision": "6.19.0"
+"revision": "9.14.0"
 }
 ],
 "repository": [
-"http://svn.apache.org/repos/asf/wicket/trunk"
+"https://github.com/apache/wicket"
 ],
 "shortdesc": "Apache Wicket is an open source Java component oriented web application framework."
 },
@@ -18880,6 +18933,56 @@
 "https://github.com/apache/yetus.git"
 ],
 "shortdesc": "A collection of libraries and tools that enable contribution and release processes for software projects."
+},
+"yunikorn": {
+"bug-database": "https://issues.apache.org/jira/projects/YUNIKORN/issues",
+"category": "cloud",
+"created": "2020-01-21",
+"doap": "https://gitbox.apache.org/repos/asf?p=yunikorn-site.git;a=blob_plain;f=doap_YuniKorn.rdf;hb=HEAD",
+"download-page": "https://yunikorn.apache.org/community/download",
+"homepage": "https://yunikorn.apache.org",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://yunikorn.apache.org/community/get_involved",
+"maintainer": [
+{
+"mbox": "mailto:dev@yunikorn.apache.org",
+"name": "Apache YuniKorn developers"
+}
+],
+"name": "Apache YuniKorn",
+"pmc": "yunikorn",
+"programming-language": "Go, JavaScript",
+"release": [
+{
+"created": "2023-06-12",
+"name": "YuniKorn 1.3.0",
+"revision": "1.3.0"
+},
+{
+"created": "2023-02-02",
+"name": "YuniKorn 1.2.0",
+"revision": "1.2.0"
+},
+{
+"created": "2022-09-08",
+"name": "YuniKorn 1.1.0",
+"revision": "1.1.0"
+},
+{
+"created": "2022-05-03",
+"name": "YuniKorn 1.0.0",
+"revision": "1.0.0"
+}
+],
+"repository": [
+"https://github.com/apache/yunikorn-core.git",
+"https://github.com/apache/yunikorn-k8shim.git",
+"https://github.com/apache/yunikorn-scheduler-interface.git",
+"https://github.com/apache/yunikorn-web.git",
+"https://github.com/apache/yunikorn-site.git",
+"https://github.com/apache/yunikorn-release.git"
+],
+"shortdesc": "A light-weight universal resource scheduler for container orchestrator systems."
 },
 "zeppelin": {
 "bug-database": "https://issues.apache.org/jira/browse/ZEPPELIN",

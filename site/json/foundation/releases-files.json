@@ -2211,8 +2211,8 @@
 "cordova-firefoxos-3.6.3": [
 "cordova/platforms/cordova-firefoxos-3.6.3.tgz"
 ],
-"cordova-ios-7.0.0": [
-"cordova/platforms/cordova-ios-7.0.0.tgz"
+"cordova-ios-7.0.1": [
+"cordova/platforms/cordova-ios-7.0.1.tgz"
 ],
 "cordova-js-6.1.0": [
 "cordova/tools/cordova-js-6.1.0.tgz"
@@ -2562,11 +2562,17 @@
 "fortress-core-2.0.8": [
 "directory/fortress/dist/2.0.8/fortress-core-2.0.8-source-release.zip"
 ],
+"fortress-core-3.0.0": [
+"directory/fortress/dist/3.0.0/fortress-core-3.0.0-source-release.zip"
+],
 "fortress-realm-2.0.7": [
 "directory/fortress/dist/2.0.7/fortress-realm-2.0.7-source-release.zip"
 ],
 "fortress-realm-2.0.8": [
 "directory/fortress/dist/2.0.8/fortress-realm-2.0.8-source-release.zip"
+],
+"fortress-realm-3.0.0": [
+"directory/fortress/dist/3.0.0/fortress-realm-3.0.0-source-release.zip"
 ],
 "fortress-rest-2.0.7": [
 "directory/fortress/dist/2.0.7/fortress-rest-2.0.7-source-release.zip",
@@ -2576,6 +2582,10 @@
 "directory/fortress/dist/2.0.8/fortress-rest-2.0.8-source-release.zip",
 "directory/fortress/dist/2.0.8/fortress-rest-2.0.8.war"
 ],
+"fortress-rest-3.0.0": [
+"directory/fortress/dist/3.0.0/fortress-rest-3.0.0-source-release.zip",
+"directory/fortress/dist/3.0.0/fortress-rest-3.0.0.war"
+],
 "fortress-web-2.0.7": [
 "directory/fortress/dist/2.0.7/fortress-web-2.0.7-source-release.zip",
 "directory/fortress/dist/2.0.7/fortress-web-2.0.7.war"
@@ -2583,6 +2593,10 @@
 "fortress-web-2.0.8": [
 "directory/fortress/dist/2.0.8/fortress-web-2.0.8-source-release.zip",
 "directory/fortress/dist/2.0.8/fortress-web-2.0.8.war"
+],
+"fortress-web-3.0.0": [
+"directory/fortress/dist/3.0.0/fortress-web-3.0.0-source-release.zip",
+"directory/fortress/dist/3.0.0/fortress-web-3.0.0.war"
 ],
 "kerby-all-2.0.3": [
 "directory/kerby/dist/2.0.3/kerby-all-2.0.3-source-release.zip"
@@ -2949,9 +2963,9 @@
 "felix/org.apache.felix.healthcheck.generalchecks-3.0.8-source-release.tar.gz",
 "felix/org.apache.felix.healthcheck.generalchecks-3.0.8-source-release.zip"
 ],
-"org.apache.felix.healthcheck.webconsoleplugin-2.1.0": [
-"felix/org.apache.felix.healthcheck.webconsoleplugin-2.1.0-source-release.tar.gz",
-"felix/org.apache.felix.healthcheck.webconsoleplugin-2.1.0-source-release.zip"
+"org.apache.felix.healthcheck.webconsoleplugin-2.2.0": [
+"felix/org.apache.felix.healthcheck.webconsoleplugin-2.2.0-source-release.tar.gz",
+"felix/org.apache.felix.healthcheck.webconsoleplugin-2.2.0-source-release.zip"
 ],
 "org.apache.felix.http.api-3.0.0": [
 "felix/org.apache.felix.http.api-3.0.0-source-release.tar.gz",
@@ -3004,9 +3018,9 @@
 "felix/org.apache.felix.http.sslfilter-2.0.2-source-release.tar.gz",
 "felix/org.apache.felix.http.sslfilter-2.0.2-source-release.zip"
 ],
-"org.apache.felix.http.webconsoleplugin-1.0.0": [
-"felix/org.apache.felix.http.webconsoleplugin-1.0.0-source-release.tar.gz",
-"felix/org.apache.felix.http.webconsoleplugin-1.0.0-source-release.zip"
+"org.apache.felix.http.webconsoleplugin-1.1.0": [
+"felix/org.apache.felix.http.webconsoleplugin-1.1.0-source-release.tar.gz",
+"felix/org.apache.felix.http.webconsoleplugin-1.1.0-source-release.zip"
 ],
 "org.apache.felix.http.whiteboard-4.0.0": [
 "felix/org.apache.felix.http.whiteboard-4.0.0-source-release.tar.gz",
@@ -3214,9 +3228,9 @@
 "felix/org.apache.felix.utils-1.11.8-source-release.tar.gz",
 "felix/org.apache.felix.utils-1.11.8-source-release.zip"
 ],
-"org.apache.felix.webconsole-4.9.0": [
-"felix/org.apache.felix.webconsole-4.9.0-source-release.tar.gz",
-"felix/org.apache.felix.webconsole-4.9.0-source-release.zip"
+"org.apache.felix.webconsole-4.9.2": [
+"felix/org.apache.felix.webconsole-4.9.2-source-release.tar.gz",
+"felix/org.apache.felix.webconsole-4.9.2-source-release.zip"
 ],
 "org.osgi.compendium-1.4.0": [
 "felix/org.osgi.compendium-1.4.0-project.tar.gz",
@@ -4383,6 +4397,9 @@
 "incubator-paimon": {
 "apache-paimon-0.4.0-incubating": [
 "incubator/paimon/paimon-0.4.0-incubating/apache-paimon-0.4.0-incubating-src.tgz"
+],
+"apache-paimon-0.5.0-incubating": [
+"incubator/paimon/paimon-0.5.0-incubating/apache-paimon-0.5.0-incubating-src.tgz"
 ],
 "apache-paimon-shade-0.4.0-incubating": [
 "incubator/paimon/paimon-0.4.0-incubating/apache-paimon-shade-0.4.0-incubating-src.tgz"
@@ -11783,8 +11800,8 @@
 "rocketmq-client-csharp-5.1.0-rc1": [
 "rocketmq/rocketmq-clients/rocketmq-client-csharp/5.1.0/rocketmq-client-csharp-5.1.0-rc1-source-release.zip"
 ],
-"rocketmq-client-go-2.1.1": [
-"rocketmq/rocketmq-client-go/2.1.1/rocketmq-client-go-2.1.1-source-release.tar.gz"
+"rocketmq-client-go-2.1.2.rc2": [
+"rocketmq/rocketmq-client-go/2.1.2/rocketmq-client-go-2.1.2.rc2.tar.gz"
 ],
 "rocketmq-client-golang-5.0.0": [
 "rocketmq/rocketmq-clients/rocketmq-client-golang/5.0.0/rocketmq-client-golang-5.0.0-source-release.tar.gz"
@@ -11898,6 +11915,9 @@
 ],
 "xmlsec-3.0.2": [
 "santuario/java-library/3_0_2/xmlsec-3.0.2-source-release.zip"
+],
+"xmlsec-4.0.0-M1": [
+"santuario/java-library/4_0_0-M1/xmlsec-4.0.0-M1-source-release.zip"
 ]
 },
 "seatunnel": {
