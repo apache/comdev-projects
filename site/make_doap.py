@@ -93,8 +93,11 @@ for line in formData:
     field = line[0]
     val = form.getvalue(field)
     if val:
-        addData(val, line)
-
+        if type(val) is list:
+            for v in val:
+              addData(v, line)
+        else:
+          addData(val, line)
 if form.getvalue('relname'):
     print("""    <release>
       <Version>
