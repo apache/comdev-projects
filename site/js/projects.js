@@ -1212,7 +1212,7 @@ function renderLanguageChart() {
     for (var i in projects) {
         i = projects[i];
         if (i['programming-language']) {
-            var a = i['programming-language'].split(", ");
+            var a = i['programming-language'].split(/,\s*/);
             for (var x in a) {
                 x = a[x];
                 if (lingos.indexOf(x) < 0) {
@@ -1265,7 +1265,7 @@ function renderLanguageChart() {
     for (i in projects) {
         i = projects[i];
         if (i.category) {
-            var a = i.category.split(", ");
+            var a = i.category.split(/,\s*/);
             for (x in a) {
                 if (cats.indexOf(a[x]) < 0) {
                     cats.push(a[x]);
