@@ -539,7 +539,7 @@ function projectIcon() {
 
 function committeeLink(id) {
     var committee = committees[id];
-    return "<a href='committee.html?" + id + "'>" + committee.name + "</a>";
+    return "<a href='committee.html?" + id + "'>" + committee.name + "</a> - " + committee.shortdesc;
 }
 
 function projectLink(id) {
