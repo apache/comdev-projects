@@ -67,7 +67,7 @@ def validate(json, tag, valid, pid, url):
                 printMail(f"ERROR: unexpected value '{val}' for {pid} in {url}")#, project=pid)
                 outvals.append(val) # TODO flag this to show invalid entries
             elif canon != val:
-                printMail(f"WARN: '{val}' should be '{canon}' for {pid} in {url}")#, project=pid)
+                print(f"WARN: '{val}' should be '{canon}' for {pid} in {url}")
                 outvals.append(canon)
             else:
                 outvals.append(val)
