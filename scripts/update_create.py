@@ -18,15 +18,17 @@ cats = validation['categories']
 
 createfile = os.path.join(SITEDIR, "create.html")
 createfilet = os.path.join(SITEDIR, "create.html.t")
+sections = 0
 with open(createfile,'r') as r, open(createfilet,'w') as w:
     section = None
     line = 0
     for l in r:
         # start of a section?
-        m = re.match('^\s+<select name="(cat|lang|pmc)">', l)
+        m = re.match('^\s+<select name="(cat|lang|pmc)"', l)
         if m:
             section = m.group(1)
             line = 0
+            sections += 1
          # end of section, dump its data
         if section and '</select>' in l:
             if section == 'cat':
@@ -43,6 +45,8 @@ with open(createfile,'r') as r, open(createfilet,'w') as w:
                         w.write(f"\n      <!-- {cap} -->\n")
                         lastcap = cap
                     w.write(f'        <option value="{k}">{v}</option>\n')
+            else:
+                print(f"unrecognised section {section}")
             section = None
             line = 0
         if section:
@@ -54,3 +58,5 @@ with open(createfile,'r') as r, open(createfilet,'w') as w:
                     continue
         w.write(l) # write the original line
 os.rename(createfilet, createfile)
+assert sections == 3, f"Expected to find 3 sections, found {sections}"
+print(f"All done, saw {sections} sections")
