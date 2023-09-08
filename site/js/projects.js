@@ -378,6 +378,14 @@ function buildProjectPage() {
     GetAsyncJSON("json/projects/" + projectId + ".json?" + Math.random(), projectId, renderProjectPage)
 }
 
+// extract committee name from repo name
+function repoToCommittee(reponame) {
+    if (reponame.startsWith('empire-db')) {
+        return 'empire-db';
+    }
+    return reponame.split('-')[0];
+}
+
 function renderCommitteePage(committeeId) {
     var obj = document.getElementById('contents');
 
@@ -490,15 +498,8 @@ function renderCommitteePage(committeeId) {
 
     var repos = [];
     for (var r in repositories) {
-        if (r.startsWith(committeeId)) {
+        if (committeeId == repoToCommittee(r)) {
             repos.push(r);
-        }
-    }
-    if (committeeId === "logging") {
-        for (var r in repositories) {
-            if (r.startsWith("log4")) {
-                repos.push(r);
-            }
         }
     }
     if (repos.length > 0) {
