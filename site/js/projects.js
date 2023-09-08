@@ -619,7 +619,7 @@ function renderCommitteePage(committeeId) {
 
     var repos = [];
     for (var r in repositories) {
-        if (r.startsWith(committeeId)) {
+        if (r.startsWith(committeeId + "-")) {
             repos.push(r);
         }
     }
