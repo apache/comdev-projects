@@ -89,7 +89,7 @@ def parseDir(committeeId, path):
             if ("/%s" % f) not in path and f.lower() not in ['binaries', 'repos', 'updatesite', 'current', 'stable', 'stable1', 'stable2', 'binary', 'notes', 'doc', 'eclipse', 'patches', 'docs', 'changes', 'features', 'tmp', 'cpp', 'php', 'ruby', 'py', 'py3', 'issuesfixed', 'images', 'styles', 'wikipages']:
                 parseDir(committeeId, "%s/%s" % (path, f))
         # Note: this eliminates binary archives; not sure whether that is intentional or not.
-        elif not re.search(r"(MD5SUM|SHA1SUM|\.md5|\.mds|\.sh1|\.sh2|\.sha|\.asc|\.sig|\.bin|\.pom|\.jar|\.whl|\.pdf|\.xml|\.xsd|\.html|\.txt|\.cfg|\.ish|\.pl|RELEASE.NOTES|LICENSE|KEYS|CHANGELOG|NOTICE|MANIFEST|Changes|readme|x86|amd64|-manual\.|-docs\.|-docs-|-doc-|Announcement|current|-deps|-dependencies|binary|-bin-|-bin\.|-javadoc-|-distro|rat_report|\.png|\.jpg|\.gif|\.sqlite)", f, flags=re.IGNORECASE):
+        elif not re.search(r"(MD5SUM|SHA1SUM|\.md5|\.mds|\.sh1|\.sh2|\.sha|\.asc|\.sig|\.bin|\.pom|\.jar|\.whl|\.pdf|\.xml|\.xsd|\.html|\.txt|\.cfg|\.ish|\.pl|RELEASE.NOTES|LICENSE|KEYS|CHANGELOG|NOTICE|MANIFEST|Changes|readme|x86|amd64|-manual\.|-docs\.|-docs-|-doc-|Announcement|current|-deps|-dependencies|binary|-bin-|-bin\.|-javadoc-|-distro|rat_report|\.png|\.jpg|\.gif|\.sqlite|\.yaml|\.yml|\.prov)", f, flags=re.IGNORECASE):
             filename = cleanFilename(f)
             if len(filename) > 1:
                 if filename not in releases[committeeId]:
