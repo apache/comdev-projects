@@ -64,7 +64,7 @@ def validate(json, tag, valid, pid, url):
         for val in invals:
             canon = valid.get(val.lower())
             if canon is None:
-                printMail(f"ERROR: unexpected value '{val}' for {pid} in {url}")#, project=pid)
+                printNotice(f"ERROR: unexpected value '{val}' for {pid} in {url}")#, project=pid)
                 outvals.append(val) # TODO flag this to show invalid entries
             elif canon != val:
                 print(f"WARN: '{val}' should be '{canon}' for {pid} in {url}")
@@ -126,6 +126,22 @@ def printMail(msg, file=sys.stdout, body='', project=None):
             sendmail.sendMail(msg, body=body, recipients=recipients)
         else:
             sendmail.sendMail(msg, body=body)
+    except ConnectionRefusedError:
+        print(f"*** Failed to send the email to {recipients}", file=file)
+
+# Print to log and send a notice email
+def printNotice(msg, file=sys.stdout, body='', project=None):
+    print(msg, file=file)
+    if body == None: # sendmail barfs if body is missing
+        body = ''
+    if body == '':
+        body=msg
+    recipients = 'notifications@community.apache.org'
+    if project != None:
+        domain = mailDomains.get(project, project)
+        recipients = [f'private@{domain}.apache.org', recipients]
+    try:
+        sendmail.sendMail(msg, body=body, recipients=recipients)
     except ConnectionRefusedError:
         print(f"*** Failed to send the email to {recipients}", file=file)
 
