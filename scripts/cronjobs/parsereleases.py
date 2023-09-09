@@ -1,7 +1,6 @@
-import errtee
+import errtee # this is imported for its side-effects
 import re
 import json
-import os
 from urlutils import URLopen
 """
 Reads the list of files in http://www.apache.org/dist/
@@ -32,8 +31,6 @@ Note that rsync excludes hashes, sigs and KEYS files; however they are not neede
 releases = {}
 files = {}
 mainurl = "https://downloads.apache.org/"
-
-x = 0
 
 # don't try to maintain history for the moment...
 #try:
