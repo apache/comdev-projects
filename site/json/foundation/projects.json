@@ -11,8 +11,8 @@
 "mailing-list": "https://accumulo.apache.org/contact-us",
 "maintainer": [
 {
-"mbox": "mailto:edcoleman@apache.org",
-"name": "Ed Coleman"
+"mbox": "mailto:dev@accumulo.apache.org",
+"name": "Apache Accumulo PMC"
 }
 ],
 "name": "Apache Accumulo",
@@ -8720,6 +8720,24 @@
 ],
 "shortdesc": "\n\tApache Empire-db is a relational database access library that provides an alternative \n\tapproach to Object-Relational-Mapping (ORM) as offered by JDO and JPA\n\t"
 },
+"eventmesh": {
+"bug-database": "https://github.com/apache/eventmesh/issues",
+"category": "cloud",
+"created": "2023-09-08",
+"description": "EventMesh is a new generation serverless event middleware for building distributed event-driven applications.",
+"doap": "http://eventmesh.apache.org/doap_EventMesh.rdf",
+"download-page": "https://eventmesh.apache.org/download",
+"homepage": "https://eventmesh.apache.org",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://eventmesh.apache.org/community/how-to-subscribe",
+"name": "Apache EventMesh",
+"pmc": "eventmesh",
+"programming-language": "Java",
+"repository": [
+"https://github.com/apache/eventmesh"
+],
+"shortdesc": "EventMesh is a new generation serverless event middleware for building distributed event-driven applications."
+},
 "felix": {
 "bug-database": "https://issues.apache.org/jira/browse/FELIX",
 "category": "network-server",
@@ -9622,62 +9640,6 @@
 "http://svn.apache.org/repos/asf/httpcomponents/httpcore/trunk"
 ],
 "shortdesc": "\nHTTP transport library including support for asynchronous execution based on Java NIO.\n    "
-},
-"httpd-http_server": {
-"bug-database": "http://httpd.apache.org/bug_report.html",
-"category": "network-server, http, httpd-module",
-"description": "\n      The Apache HTTP Server is an open-source HTTP server for modern\n      operating systems including UNIX, Microsoft Windows, Mac OS/X and Netware.\n      The goal of this project is to provide a secure, efficient and\n      extensible server that provides HTTP services observing the current\n      HTTP standards. Apache has been the most popular web server on the\n      Internet since April of 1996.\n    ",
-"doap": "https://raw.githubusercontent.com/apache/httpd-site/main/content/doap.rdf",
-"download-page": "http://httpd.apache.org/download.cgi",
-"homepage": "http://httpd.apache.org/",
-"implements": [
-{
-"body": "IETF",
-"id": "RFC 2616",
-"title": "Hypertext Transfer Protocol -- HTTP/1.1",
-"url": "http://www.ietf.org/rfc/rfc2616.txt"
-},
-{
-"body": "IETF",
-"id": "RFC 2617",
-"title": "HTTP Authentication: Basic and Digest Access Authentication",
-"url": "http://www.ietf.org/rfc/rfc2617.txt"
-},
-{
-"body": "IETF",
-"id": "RFC 2518",
-"title": "HTTP Extensions for Distributed Authoring -- WEBDAV",
-"url": "http://www.ietf.org/rfc/rfc2518.txt"
-},
-{
-"body": "IETF",
-"id": "RFC 3253",
-"title": "Versioning Extensions to WebDAV",
-"url": "http://www.ietf.org/rfc/rfc3253.txt"
-},
-{
-"body": "IETF",
-"id": "RFC 3986",
-"title": "Uniform Resource Identifier (URI): Generic Syntax",
-"url": "http://www.ietf.org/rfc/rfc3986.txt"
-}
-],
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://httpd.apache.org/lists.html",
-"name": "Apache HTTP Server",
-"pmc": "httpd",
-"programming-language": "C",
-"release": [
-{
-"created": "2023-04-06",
-"name": "Recommended current 2.4 release",
-"revision": "2.4.57"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/httpd/httpd/"
-],
-"shortdesc": "\n      The Apache HTTP Server application 'httpd'.\n    "
 },
 "httpd-mod_ftp": {
 "bug-database": "http://httpd.apache.org/bug_report.html",
@@ -13965,6 +13927,37 @@
 "https://gitbox.apache.org/repos/asf/orc.git"
 ],
 "shortdesc": "A high-performance columnar file format for Hadoop workloads."
+},
+"ozone": {
+"bug-database": "https://issues.apache.org/jira/projects/HDDS",
+"category": "big-data",
+"created": "2020-10-21",
+"description": "Apache Ozone is a highly scalable, distributed storage for Analytics, Big data and Cloud Native applications. Ozone supports S3 compatible object APIs as well as a Hadoop Compatible File System implementation. It is optimized for both efficient object store and file system operations.\nIt is built on a highly available, replicated block storage layer called Hadoop Distributed Data Store (HDDS).\nApplications using frameworks like Apache Spark, YARN and Hive work natively without any modifications. ",
+"doap": "https://ozone.apache.org/doap_ozone.rdf",
+"download-page": "https://ozone.apache.org/downloads/",
+"homepage": "https://ozone.apache.org/",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://ozone.apache.org/community/",
+"maintainer": [
+{
+"mbox": "mailto:sammichen@apache.org",
+"name": "Sammi Chen"
+}
+],
+"name": "Apache Ozone",
+"pmc": "ozone",
+"programming-language": "Java",
+"release": [
+{
+"created": "2022-12-18 ",
+"name": "Stable Release",
+"revision": "1.3.0"
+}
+],
+"repository": [
+"https://github.com/apache/ozone.git"
+],
+"shortdesc": "A highly scalable, distributed storage for Analytics, Big data and Cloud Native applications."
 },
 "parquet": {
 "bug-database": "https://issues.apache.org/jira/browse/PARQUET",
