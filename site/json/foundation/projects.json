@@ -9641,6 +9641,62 @@
 ],
 "shortdesc": "\nHTTP transport library including support for asynchronous execution based on Java NIO.\n    "
 },
+"httpd-http_server": {
+"bug-database": "http://httpd.apache.org/bug_report.html",
+"category": "network-server, http, httpd-module",
+"description": "\n      The Apache HTTP Server is an open-source HTTP server for modern\n      operating systems including UNIX, Microsoft Windows, Mac OS/X and Netware.\n      The goal of this project is to provide a secure, efficient and\n      extensible server that provides HTTP services observing the current\n      HTTP standards. Apache has been the most popular web server on the\n      Internet since April of 1996.\n    ",
+"doap": "https://raw.githubusercontent.com/apache/httpd-site/main/content/doap.rdf",
+"download-page": "http://httpd.apache.org/download.cgi",
+"homepage": "http://httpd.apache.org/",
+"implements": [
+{
+"body": "IETF",
+"id": "RFC 2616",
+"title": "Hypertext Transfer Protocol -- HTTP/1.1",
+"url": "http://www.ietf.org/rfc/rfc2616.txt"
+},
+{
+"body": "IETF",
+"id": "RFC 2617",
+"title": "HTTP Authentication: Basic and Digest Access Authentication",
+"url": "http://www.ietf.org/rfc/rfc2617.txt"
+},
+{
+"body": "IETF",
+"id": "RFC 2518",
+"title": "HTTP Extensions for Distributed Authoring -- WEBDAV",
+"url": "http://www.ietf.org/rfc/rfc2518.txt"
+},
+{
+"body": "IETF",
+"id": "RFC 3253",
+"title": "Versioning Extensions to WebDAV",
+"url": "http://www.ietf.org/rfc/rfc3253.txt"
+},
+{
+"body": "IETF",
+"id": "RFC 3986",
+"title": "Uniform Resource Identifier (URI): Generic Syntax",
+"url": "http://www.ietf.org/rfc/rfc3986.txt"
+}
+],
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://httpd.apache.org/lists.html",
+"name": "Apache HTTP Server",
+"pmc": "httpd",
+"programming-language": "C",
+"release": [
+{
+"created": "2023-04-06",
+"name": "Recommended current 2.4 release",
+"revision": "2.4.57"
+}
+],
+"repository": [
+"http://svn.apache.org/repos/asf/httpd/httpd/"
+],
+"shortdesc": "\n      The Apache HTTP Server application 'httpd'.\n    "
+},
 "httpd-mod_ftp": {
 "bug-database": "http://httpd.apache.org/bug_report.html",
 "category": "network-server, ftp, httpd-module",
