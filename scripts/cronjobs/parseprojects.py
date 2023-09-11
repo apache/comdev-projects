@@ -53,6 +53,9 @@ cats = validation['categories'].keys()
 VALID_LANG = dict(zip([j.lower() for j in lang], lang))
 VALID_CATS = dict(zip([j.lower() for j in cats], cats))
 
+# Canonicalise without adding to suggested languages
+VALID_LANG['bash'] = 'Bash'
+
 """
 Validate and canonicalise languages and categories
 TODO send mails to projects when valid entries better established
@@ -64,8 +67,11 @@ def validate(json, tag, valid, pid, url):
         for val in invals:
             canon = valid.get(val.lower())
             if canon is None:
-                printNotice(f"ERROR: unexpected value '{val}' for {pid} in {url}")#, project=pid)
-                outvals.append(val) # TODO flag this to show invalid entries
+                if len(val) > 30: # can this be a legal value?
+                    printNotice(f"ERROR: illegal (overlong: {len(val)} >30) value '{val}' for {pid} in {url}")#, project=pid)
+                else:
+                    print(f"WARN: unexpected value '{val}' for {pid} in {url}")#, project=pid)
+                    outvals.append(val) # TODO flag this to show invalid entries
             elif canon != val:
                 print(f"WARN: '{val}' should be '{canon}' for {pid} in {url}")
                 outvals.append(canon)
