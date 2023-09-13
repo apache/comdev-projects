@@ -48,7 +48,7 @@ def cleanFilename(filename):
                    '-32bit', '-64bit', '-amd64', '-i386', '_i386', '.i386', '-x86_64', '-minimal', '-jettyconfig', '-py2.py3-none-any', 'newkey', 'oldkey', 'jars', '-jre13', '-hadoop1', '-hadoop2', '-project',
                    '-with-dependencies', '-client', '-server', '-doc', '-docs', 'server-webapps', '-full', '-all', '-standard', '-for-javaee', '-for-tomcat',
                    'hadoop1-scala2', '-deployer', '-fulldocs', '-windows-i64', '-windows-x64', '-embed', '-apps', '-app', '-ref', '-installer', '-bundle', '-java']:
-        if filename[len(filename)-len(suffix):] == suffix:
+        if filename.endswith(suffix):
             filename = filename[0:len(filename)-len(suffix)]
     for repl in ['-assembly-', '-minimal-', '-doc-', '-src-', '-webapp-', '-standalone-', '-parent-', '-project-', '-win32-']:
         filename = filename.replace(repl, '-')
