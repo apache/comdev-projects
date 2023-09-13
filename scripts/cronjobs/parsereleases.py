@@ -3,9 +3,7 @@
 import errtee # this is imported for its side-effects
 from collections import defaultdict
 import gzip
-import re
 import json
-from datetime import datetime
 from urlutils import UrlCache
 
 """
@@ -68,7 +66,8 @@ VALID_TYPES = ['tgz', 'gz', 'zip', 'xz', 'bz2']
 TAR_TYPES = ['gz', 'xz', 'bz2']
 
 # file name stems that finish with these strings are not source archives:
-NON_SOURCE_ENDS = ['-amd64', '.bin', '-bin', '-binary', '-deps', '-docs', '-javadoc', '-lib', '-manual', '-x86', 'x86_64']
+NON_SOURCE_ENDS = ['-amd64', '-aarch64',  '-arm64', '.bin', '-bin', '-binary', '-deps', '-docs', '-javadoc',
+                    '-lib', '-lib-debug', '-manual', '-site', '-x64', '-x86', 'x86_64', '-ia32']
 
 # stems that match these strings are not source archives:
 NON_SOURCE_MATCH = ['-bin-', '-binary-', '-docs-', 'x86-windows', 'x64-windows']
@@ -82,6 +81,11 @@ CTTEE_FILTERS = {
         "DIRS": ['helm-charts']
     }
 }
+
+# Don't visit these directories
+SKIP_DIRS = ['META', 'aarch64current', 'bin', 'binaries', 'binary', 'changes', 'cpp', 'css', 'doc', 'docs',
+             'eclipse', 'features', 'hidden', 'images', 'issuesfixed', 'notes', 'patches', 'php', 'py', 'py3',
+             'repos', 'ruby', 'stable', 'stable1', 'stable2', 'styles', 'tmp', 'updatesite', 'website', 'wikipages']
 
 def parseFile(committeeId, file, date, path):
     parts = file.split('.')
@@ -99,9 +103,6 @@ def parseFile(committeeId, file, date, path):
             files[committeeId][filename] = []
             print(f"                  - {filename}\t\t\t{file}")
         files[committeeId][filename].append(path)
-
-# Don't visit these directories
-SKIP_DIRS=['hidden', 'css', 'META', 'website', 'binaries', 'repos', 'updatesite', 'current', 'stable', 'stable1', 'stable2', 'binary', 'notes', 'doc', 'eclipse', 'patches', 'docs', 'changes', 'features', 'tmp', 'cpp', 'php', 'ruby', 'py', 'py3', 'issuesfixed', 'images', 'styles', 'wikipages']
 
 def main():
     uc = UrlCache(silent=True)
