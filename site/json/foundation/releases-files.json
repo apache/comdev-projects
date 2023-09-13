@@ -832,7 +832,8 @@
 "avro/avro-1.11.2/rust/apache-avro.tgz"
 ],
 "avro-1.11.2": [
-"avro/avro-1.11.2/avro-src-1.11.2.tar.gz"
+"avro/avro-1.11.2/avro-src-1.11.2.tar.gz",
+"avro/avro-1.11.2/avro-doc-1.11.2.tar.gz"
 ],
 "avro-c-1.11.2": [
 "avro/avro-1.11.2/c/avro-c-1.11.2.tar.gz"
@@ -868,6 +869,12 @@
 ],
 "axis2-idea-plugin-1.8.2": [
 "axis/axis2/java/core/1.8.2/axis2-idea-plugin-1.8.2.zip"
+],
+"axis2.eclipse.codegen.plugin-1.8.2": [
+"axis/axis2/java/core/1.8.2/axis2.eclipse.codegen.plugin-1.8.2-dist.zip"
+],
+"axis2.eclipse.service.plugin-1.8.2": [
+"axis/axis2/java/core/1.8.2/axis2.eclipse.service.plugin-1.8.2-dist.zip"
 ],
 "rampart-dist-1.7.1": [
 "axis/axis2/java/rampart/1.7.1/rampart-dist-1.7.1-src.zip"
@@ -2018,6 +2025,9 @@
 "cordova-plugin-file-8.0.0": [
 "cordova/plugins/cordova-plugin-file-8.0.0.tgz"
 ],
+"cordova-plugin-file-transfer-2.0.0": [
+"cordova/plugins/cordova-plugin-file-transfer-2.0.0.tgz"
+],
 "cordova-plugin-geolocation-4.1.0": [
 "cordova/plugins/cordova-plugin-geolocation-4.1.0.tgz"
 ],
@@ -2030,8 +2040,8 @@
 "cordova-plugin-legacy-whitelist-1.1.2": [
 "cordova/plugins/cordova-plugin-legacy-whitelist-1.1.2.tgz"
 ],
-"cordova-plugin-media-6.1.0": [
-"cordova/plugins/cordova-plugin-media-6.1.0.tgz"
+"cordova-plugin-media-7.0.0": [
+"cordova/plugins/cordova-plugin-media-7.0.0.tgz"
 ],
 "cordova-plugin-media-capture-5.0.0": [
 "cordova/plugins/cordova-plugin-media-capture-5.0.0.tgz"
@@ -2233,22 +2243,16 @@
 "db/derby/db-derby-10.14.2.0/db-derby-10.14.2.0-lib-debug.zip",
 "db/derby/db-derby-10.14.2.0/db-derby-10.14.2.0-src.zip",
 "db/derby/db-derby-10.14.2.0/db-derby-10.14.2.0-src.tar.gz",
-"db/derby/db-derby-10.14.2.0/db-derby-10.14.2.0-lib.tar.gz",
-"db/derby/db-derby-10.14.2.0/db-derby-10.14.2.0-lib-debug.tar.gz",
-"db/derby/db-derby-10.14.2.0/db-derby-10.14.2.0-lib.zip"
+"db/derby/db-derby-10.14.2.0/db-derby-10.14.2.0-lib-debug.tar.gz"
 ],
 "db-derby-10.15.2.0": [
-"db/derby/db-derby-10.15.2.0/db-derby-10.15.2.0-lib.zip",
 "db/derby/db-derby-10.15.2.0/db-derby-10.15.2.0-src.tar.gz",
-"db/derby/db-derby-10.15.2.0/db-derby-10.15.2.0-lib.tar.gz",
 "db/derby/db-derby-10.15.2.0/db-derby-10.15.2.0-src.zip",
 "db/derby/db-derby-10.15.2.0/db-derby-10.15.2.0-lib-debug.tar.gz",
 "db/derby/db-derby-10.15.2.0/db-derby-10.15.2.0-lib-debug.zip"
 ],
 "db-derby-10.16.1.1": [
 "db/derby/db-derby-10.16.1.1/db-derby-10.16.1.1-lib-debug.tar.gz",
-"db/derby/db-derby-10.16.1.1/db-derby-10.16.1.1-lib.tar.gz",
-"db/derby/db-derby-10.16.1.1/db-derby-10.16.1.1-lib.zip",
 "db/derby/db-derby-10.16.1.1/db-derby-10.16.1.1-src.tar.gz",
 "db/derby/db-derby-10.16.1.1/db-derby-10.16.1.1-src.zip",
 "db/derby/db-derby-10.16.1.1/db-derby-10.16.1.1-lib-debug.zip"
@@ -2600,6 +2604,10 @@
 "felix/org.apache.felix.configadmin-1.9.26-source-release.zip",
 "felix/org.apache.felix.configadmin-1.9.26-source-release.tar.gz"
 ],
+"org.apache.felix.configadmin.plugin.interpolation-1.2.8": [
+"felix/org.apache.felix.configadmin.plugin.interpolation-1.2.8-source-release.tar.gz",
+"felix/org.apache.felix.configadmin.plugin.interpolation-1.2.8-source-release.zip"
+],
 "org.apache.felix.configurator-1.0.18": [
 "felix/org.apache.felix.configurator-1.0.18-source-release.zip",
 "felix/org.apache.felix.configurator-1.0.18-source-release.tar.gz"
@@ -2909,6 +2917,10 @@
 "felix/org.apache.felix.scr.generator-1.18.4-source-release.zip",
 "felix/org.apache.felix.scr.generator-1.18.4-source-release.tar.gz"
 ],
+"org.apache.felix.servicediagnostics.plugin-0.1.3": [
+"felix/org.apache.felix.servicediagnostics.plugin-0.1.3-source-release.tar.gz",
+"felix/org.apache.felix.servicediagnostics.plugin-0.1.3-source-release.zip"
+],
 "org.apache.felix.shell-1.4.3": [
 "felix/org.apache.felix.shell-1.4.3-source-release.zip",
 "felix/org.apache.felix.shell-1.4.3-source-release.tar.gz"
@@ -2960,6 +2972,42 @@
 "org.apache.felix.webconsole-4.9.4": [
 "felix/org.apache.felix.webconsole-4.9.4-source-release.zip",
 "felix/org.apache.felix.webconsole-4.9.4-source-release.tar.gz"
+],
+"org.apache.felix.webconsole.plugins.ds-2.3.0": [
+"felix/org.apache.felix.webconsole.plugins.ds-2.3.0-source-release.tar.gz",
+"felix/org.apache.felix.webconsole.plugins.ds-2.3.0-source-release.zip"
+],
+"org.apache.felix.webconsole.plugins.event-1.2.0": [
+"felix/org.apache.felix.webconsole.plugins.event-1.2.0-source-release.zip",
+"felix/org.apache.felix.webconsole.plugins.event-1.2.0-source-release.tar.gz"
+],
+"org.apache.felix.webconsole.plugins.memoryusage-1.1.0": [
+"felix/org.apache.felix.webconsole.plugins.memoryusage-1.1.0-source-release.tar.gz",
+"felix/org.apache.felix.webconsole.plugins.memoryusage-1.1.0-source-release.zip"
+],
+"org.apache.felix.webconsole.plugins.obr-1.1.0": [
+"felix/org.apache.felix.webconsole.plugins.obr-1.1.0-source-release.tar.gz",
+"felix/org.apache.felix.webconsole.plugins.obr-1.1.0-source-release.zip"
+],
+"org.apache.felix.webconsole.plugins.packageadmin-1.1.0": [
+"felix/org.apache.felix.webconsole.plugins.packageadmin-1.1.0-source-release.zip",
+"felix/org.apache.felix.webconsole.plugins.packageadmin-1.1.0-source-release.tar.gz"
+],
+"org.apache.felix.webconsole.plugins.scriptconsole-1.0.2": [
+"felix/org.apache.felix.webconsole.plugins.scriptconsole-1.0.2-source-release.zip",
+"felix/org.apache.felix.webconsole.plugins.scriptconsole-1.0.2-source-release.tar.gz"
+],
+"org.apache.felix.webconsole.plugins.subsystems-0.1.0": [
+"felix/org.apache.felix.webconsole.plugins.subsystems-0.1.0-source-release.zip",
+"felix/org.apache.felix.webconsole.plugins.subsystems-0.1.0-source-release.tar.gz"
+],
+"org.apache.felix.webconsole.plugins.upnp-1.0.6": [
+"felix/org.apache.felix.webconsole.plugins.upnp-1.0.6-source-release.tar.gz",
+"felix/org.apache.felix.webconsole.plugins.upnp-1.0.6-source-release.zip"
+],
+"org.apache.felix.webconsole.plugins.useradmin-1.0.2": [
+"felix/org.apache.felix.webconsole.plugins.useradmin-1.0.2-source-release.zip",
+"felix/org.apache.felix.webconsole.plugins.useradmin-1.0.2-source-release.tar.gz"
 ],
 "org.osgi.compendium-1.4.0": [
 "felix/org.osgi.compendium-1.4.0-project.zip",
@@ -4914,27 +4962,19 @@
 "manifoldcf": {
 "apache-manifoldcf-1.10": [
 "manifoldcf/apache-manifoldcf-1.10/apache-manifoldcf-1.10-src.zip",
-"manifoldcf/apache-manifoldcf-1.10/apache-manifoldcf-1.10-lib.zip",
-"manifoldcf/apache-manifoldcf-1.10/apache-manifoldcf-1.10-src.tar.gz",
-"manifoldcf/apache-manifoldcf-1.10/apache-manifoldcf-1.10-lib.tar.gz"
+"manifoldcf/apache-manifoldcf-1.10/apache-manifoldcf-1.10-src.tar.gz"
 ],
 "apache-manifoldcf-2.23": [
-"manifoldcf/apache-manifoldcf-2.23/apache-manifoldcf-2.23-lib.zip",
 "manifoldcf/apache-manifoldcf-2.23/apache-manifoldcf-2.23-src.zip",
-"manifoldcf/apache-manifoldcf-2.23/apache-manifoldcf-2.23-lib.tar.gz",
 "manifoldcf/apache-manifoldcf-2.23/apache-manifoldcf-2.23-src.tar.gz"
 ],
 "apache-manifoldcf-2.24": [
 "manifoldcf/apache-manifoldcf-2.24/apache-manifoldcf-2.24-src.tar.gz",
-"manifoldcf/apache-manifoldcf-2.24/apache-manifoldcf-2.24-lib.tar.gz",
-"manifoldcf/apache-manifoldcf-2.24/apache-manifoldcf-2.24-lib.zip",
 "manifoldcf/apache-manifoldcf-2.24/apache-manifoldcf-2.24-src.zip"
 ],
 "apache-manifoldcf-2.25": [
 "manifoldcf/apache-manifoldcf-2.25/apache-manifoldcf-2.25-src.tar.gz",
-"manifoldcf/apache-manifoldcf-2.25/apache-manifoldcf-2.25-src.zip",
-"manifoldcf/apache-manifoldcf-2.25/apache-manifoldcf-2.25-lib.tar.gz",
-"manifoldcf/apache-manifoldcf-2.25/apache-manifoldcf-2.25-lib.zip"
+"manifoldcf/apache-manifoldcf-2.25/apache-manifoldcf-2.25-src.zip"
 ],
 "apache-manifoldcf-elasticsearch-1.5-plugin-2.0.2": [
 "manifoldcf/apache-manifoldcf-elasticsearch-1.5-plugin-2.0.2/apache-manifoldcf-elasticsearch-1.5-plugin-2.0.2-src.tar.gz",
@@ -5057,6 +5097,12 @@
 "maven-build-cache-extension-1.0.1": [
 "maven/buildcache/maven-build-cache-extension-1.0.1-source-release.zip"
 ],
+"maven-changelog-plugin-2.3": [
+"maven/plugins/maven-changelog-plugin-2.3-source-release.zip"
+],
+"maven-changes-plugin-2.12.1": [
+"maven/plugins/maven-changes-plugin-2.12.1-source-release.zip"
+],
 "maven-checkstyle-plugin-3.3.0": [
 "maven/plugins/maven-checkstyle-plugin-3.3.0-source-release.zip"
 ],
@@ -5131,6 +5177,9 @@
 ],
 "maven-jarsigner-plugin-3.0.0": [
 "maven/plugins/maven-jarsigner-plugin-3.0.0-source-release.zip"
+],
+"maven-javadoc-plugin-3.5.0": [
+"maven/plugins/maven-javadoc-plugin-3.5.0-source-release.zip"
 ],
 "maven-jdeprscan-plugin-3.0.0-alpha-1": [
 "maven/plugins/maven-jdeprscan-plugin-3.0.0-alpha-1-source-release.zip"
@@ -5751,45 +5800,8 @@
 "Olingo-OData-4.9.0": [
 "olingo/odata4/4.9.0/Olingo-OData-4.9.0-source-release.zip"
 ],
-"Olingo-OData-Client-for-Android-4.7.1": [
-"olingo/odata4/4.7.1/Olingo-OData-Client-for-Android-4.7.1-lib.zip"
-],
-"Olingo-OData-Client-for-Android-4.8.0": [
-"olingo/odata4/4.8.0/Olingo-OData-Client-for-Android-4.8.0-lib.zip"
-],
-"Olingo-OData-Client-for-Android-4.9.0": [
-"olingo/odata4/4.9.0/Olingo-OData-Client-for-Android-4.9.0-lib.zip"
-],
-"Olingo-OData-Client-for-Java-4.7.1": [
-"olingo/odata4/4.7.1/Olingo-OData-Client-for-Java-4.7.1-lib.zip"
-],
-"Olingo-OData-Client-for-Java-4.8.0": [
-"olingo/odata4/4.8.0/Olingo-OData-Client-for-Java-4.8.0-lib.zip"
-],
-"Olingo-OData-Client-for-Java-4.9.0": [
-"olingo/odata4/4.9.0/Olingo-OData-Client-for-Java-4.9.0-lib.zip"
-],
-"Olingo-OData-Server-Extension-for-Java-4.7.1": [
-"olingo/odata4/4.7.1/Olingo-OData-Server-Extension-for-Java-4.7.1-lib.zip"
-],
-"Olingo-OData-Server-Extension-for-Java-4.8.0": [
-"olingo/odata4/4.8.0/Olingo-OData-Server-Extension-for-Java-4.8.0-lib.zip"
-],
-"Olingo-OData-Server-Extension-for-Java-4.9.0": [
-"olingo/odata4/4.9.0/Olingo-OData-Server-Extension-for-Java-4.9.0-lib.zip"
-],
-"Olingo-OData-Server-for-Java-4.7.1": [
-"olingo/odata4/4.7.1/Olingo-OData-Server-for-Java-4.7.1-lib.zip"
-],
-"Olingo-OData-Server-for-Java-4.8.0": [
-"olingo/odata4/4.8.0/Olingo-OData-Server-for-Java-4.8.0-lib.zip"
-],
-"Olingo-OData-Server-for-Java-4.9.0": [
-"olingo/odata4/4.9.0/Olingo-OData-Server-for-Java-4.9.0-lib.zip"
-],
 "odatajs-4.0.0": [
 "olingo/odatajs/odatajs-4.0.0/odatajs-4.0.0-doc.zip",
-"olingo/odatajs/odatajs-4.0.0/odatajs-4.0.0-lib.zip",
 "olingo/odatajs/odatajs-4.0.0/odatajs-4.0.0-sources.zip"
 ],
 "olingo-odata2-2.0.11": [
@@ -5809,12 +5821,6 @@
 ],
 "olingo-odata2-dist-jpa-2.0.12-jpa": [
 "olingo/odata2/2.0.12/olingo-odata2-dist-jpa-2.0.12-jpa.zip"
-],
-"olingo-odata2-dist-lib-2.0.11": [
-"olingo/odata2/2.0.11/olingo-odata2-dist-lib-2.0.11-lib.zip"
-],
-"olingo-odata2-dist-lib-2.0.12": [
-"olingo/odata2/2.0.12/olingo-odata2-dist-lib-2.0.12-lib.zip"
 ],
 "olingo-odata2-dist-ref-2.0.11": [
 "olingo/odata2/2.0.11/olingo-odata2-dist-ref-2.0.11-ref.zip"
@@ -6505,13 +6511,6 @@
 ],
 "pulsar-dotpulsar-3.0.0": [
 "pulsar/pulsar-dotpulsar-3.0.0/pulsar-dotpulsar-3.0.0-src.tar.gz"
-],
-"x64-windows-static": [
-"pulsar/pulsar-client-cpp-3.1.2/x64-windows-static.tar.gz",
-"pulsar/pulsar-client-cpp-3.2.0/x64-windows-static.tar.gz",
-"pulsar/pulsar-client-cpp-3.3.0/x64-windows-static.tar.gz",
-"pulsar/pulsar-client-cpp-3.1.1/x64-windows-static.tar.gz",
-"pulsar/pulsar-client-cpp-3.1.0/x64-windows-static.tar.gz"
 ]
 },
 "qpid": {
@@ -7013,6 +7012,9 @@
 "skywalking-kubernetes-event-exporter-1.0.0": [
 "skywalking/kubernetes-event-exporter/1.0.0/skywalking-kubernetes-event-exporter-1.0.0-src.tgz"
 ],
+"skywalking-license-eye-0.5.0": [
+"skywalking/eyes/0.5.0/skywalking-license-eye-0.5.0-src.tgz"
+],
 "skywalking-nginx-lua-0.4.1": [
 "skywalking/nginx-lua/0.4.1/skywalking-nginx-lua-0.4.1-src.tgz"
 ],
@@ -7102,6 +7104,9 @@
 "org.apache.sling.bnd.models-1.0.0": [
 "sling/org.apache.sling.bnd.models-1.0.0-source-release.zip"
 ],
+"org.apache.sling.bnd.plugin.headers.parameters.remove-1.0.0": [
+"sling/org.apache.sling.bnd.plugin.headers.parameters.remove-1.0.0-source-release.zip"
+],
 "org.apache.sling.bundleresource.impl-2.3.4": [
 "sling/org.apache.sling.bundleresource.impl-2.3.4-source-release.zip"
 ],
@@ -7152,6 +7157,9 @@
 ],
 "org.apache.sling.commons.fsclassloader-1.0.14": [
 "sling/org.apache.sling.commons.fsclassloader-1.0.14-source-release.zip"
+],
+"org.apache.sling.commons.html-1.1.0": [
+"sling/org.apache.sling.commons.html-1.1.0-source-release.zip"
 ],
 "org.apache.sling.commons.johnzon-1.2.16": [
 "sling/org.apache.sling.commons.johnzon-1.2.16-source-release.zip"
@@ -7206,6 +7214,12 @@
 ],
 "org.apache.sling.contentparser.testutils-2.0.0": [
 "sling/org.apache.sling.contentparser.testutils-2.0.0-source-release.zip"
+],
+"org.apache.sling.contentparser.xml-2.0.0": [
+"sling/org.apache.sling.contentparser.xml-2.0.0-source-release.zip"
+],
+"org.apache.sling.contentparser.xml-jcr-2.0.0": [
+"sling/org.apache.sling.contentparser.xml-jcr-2.0.0-source-release.zip"
 ],
 "org.apache.sling.crankstart.api-1.0.0": [
 "sling/org.apache.sling.crankstart.api-1.0.0-source-release.zip"
@@ -7362,6 +7376,9 @@
 "org.apache.sling.fragment.ws-1.0.2": [
 "sling/org.apache.sling.fragment.ws-1.0.2-source-release.zip"
 ],
+"org.apache.sling.fragment.xml-1.0.2": [
+"sling/org.apache.sling.fragment.xml-1.0.2-source-release.zip"
+],
 "org.apache.sling.fsresource-2.2.0": [
 "sling/org.apache.sling.fsresource-2.2.0-source-release.zip"
 ],
@@ -7427,6 +7444,12 @@
 ],
 "org.apache.sling.installer.hc-2.1.0": [
 "sling/org.apache.sling.installer.hc-2.1.0-source-release.zip"
+],
+"org.apache.sling.installer.provider.file-1.3.4": [
+"sling/org.apache.sling.installer.provider.file-1.3.4-source-release.zip"
+],
+"org.apache.sling.installer.provider.jcr-3.3.0": [
+"sling/org.apache.sling.installer.provider.jcr-3.3.0-source-release.zip"
 ],
 "org.apache.sling.javax.activation-0.3.0": [
 "sling/org.apache.sling.javax.activation-0.3.0-source-release.zip"
@@ -7494,6 +7517,9 @@
 ],
 "org.apache.sling.jcr.webdav-2.3.8": [
 "sling/org.apache.sling.jcr.webdav-2.3.8-source-release.zip"
+],
+"org.apache.sling.jmx.provider-1.0.2": [
+"sling/org.apache.sling.jmx.provider-1.0.2-source-release.zip"
 ],
 "org.apache.sling.junit.core-1.1.6": [
 "sling/org.apache.sling.junit.core-1.1.6-source-release.zip"
@@ -7591,6 +7617,9 @@
 "org.apache.sling.pipes-4.5.0": [
 "sling/org.apache.sling.pipes-4.5.0-source-release.zip"
 ],
+"org.apache.sling.provisioning.model-1.8.6": [
+"sling/org.apache.sling.provisioning.model-1.8.6-source-release.zip"
+],
 "org.apache.sling.query-4.0.4": [
 "sling/org.apache.sling.query-4.0.4-source-release.zip"
 ],
@@ -7677,6 +7706,33 @@
 ],
 "org.apache.sling.scripting.jst-2.0.6": [
 "sling/org.apache.sling.scripting.jst-2.0.6-source-release.zip"
+],
+"org.apache.sling.scripting.sightly-1.4.22-1.4.0": [
+"sling/org.apache.sling.scripting.sightly-1.4.22-1.4.0-source-release.zip"
+],
+"org.apache.sling.scripting.sightly.compiler-1.2.14-1.4.0": [
+"sling/org.apache.sling.scripting.sightly.compiler-1.2.14-1.4.0-source-release.zip"
+],
+"org.apache.sling.scripting.sightly.compiler.java-1.2.2-1.4.0": [
+"sling/org.apache.sling.scripting.sightly.compiler.java-1.2.2-1.4.0-source-release.zip"
+],
+"org.apache.sling.scripting.sightly.js.provider-1.2.8": [
+"sling/org.apache.sling.scripting.sightly.js.provider-1.2.8-source-release.zip"
+],
+"org.apache.sling.scripting.sightly.models.provider-1.0.10": [
+"sling/org.apache.sling.scripting.sightly.models.provider-1.0.10-source-release.zip"
+],
+"org.apache.sling.scripting.sightly.repl-1.0.10": [
+"sling/org.apache.sling.scripting.sightly.repl-1.0.10-source-release.zip"
+],
+"org.apache.sling.scripting.sightly.runtime-1.2.6-1.4.0": [
+"sling/org.apache.sling.scripting.sightly.runtime-1.2.6-1.4.0-source-release.zip"
+],
+"org.apache.sling.scripting.sightly.testing-1.0.32-1.4.0": [
+"sling/org.apache.sling.scripting.sightly.testing-1.0.32-1.4.0-source-release.zip"
+],
+"org.apache.sling.scripting.sightly.testing-content-1.0.30-1.4.0": [
+"sling/org.apache.sling.scripting.sightly.testing-content-1.0.30-1.4.0-source-release.zip"
 ],
 "org.apache.sling.scripting.spi-1.0.4": [
 "sling/org.apache.sling.scripting.spi-1.0.4-source-release.zip"
@@ -8035,38 +8091,37 @@
 "struts-2.5.31": [
 "struts/2.5.31/struts-2.5.31-all.zip",
 "struts/2.5.31/struts-2.5.31-apps.zip",
-"struts/2.5.31/struts-2.5.31-lib.zip",
 "struts/2.5.31/struts-2.5.31-src.zip"
 ],
-"struts-2.5.31-min": [
-"struts/2.5.31/struts-2.5.31-min-lib.zip"
+"struts-2.5.32": [
+"struts/2.5.32/struts-2.5.32-apps.zip",
+"struts/2.5.32/struts-2.5.32-all.zip",
+"struts/2.5.32/struts-2.5.32-src.zip"
 ],
 "struts-6.1.2.1": [
 "struts/6.1.2.1/struts-6.1.2.1-all.zip",
 "struts/6.1.2.1/struts-6.1.2.1-src.zip",
-"struts/6.1.2.1/struts-6.1.2.1-lib.zip",
 "struts/6.1.2.1/struts-6.1.2.1-apps.zip"
 ],
-"struts-6.1.2.1-min": [
-"struts/6.1.2.1/struts-6.1.2.1-min-lib.zip"
+"struts-6.1.2.2": [
+"struts/6.1.2.2/struts-6.1.2.2-src.zip",
+"struts/6.1.2.2/struts-6.1.2.2-all.zip",
+"struts/6.1.2.2/struts-6.1.2.2-apps.zip"
 ],
 "struts-6.2.0": [
 "struts/6.2.0/struts-6.2.0-all.zip",
 "struts/6.2.0/struts-6.2.0-src.zip",
-"struts/6.2.0/struts-6.2.0-apps.zip",
-"struts/6.2.0/struts-6.2.0-lib.zip"
-],
-"struts-6.2.0-min": [
-"struts/6.2.0/struts-6.2.0-min-lib.zip"
+"struts/6.2.0/struts-6.2.0-apps.zip"
 ],
 "struts-6.3.0": [
 "struts/6.3.0/struts-6.3.0-all.zip",
 "struts/6.3.0/struts-6.3.0-apps.zip",
-"struts/6.3.0/struts-6.3.0-lib.zip",
 "struts/6.3.0/struts-6.3.0-src.zip"
 ],
-"struts-6.3.0-min": [
-"struts/6.3.0/struts-6.3.0-min-lib.zip"
+"struts-6.3.0.1": [
+"struts/6.3.0.1/struts-6.3.0.1-all.zip",
+"struts/6.3.0.1/struts-6.3.0.1-apps.zip",
+"struts/6.3.0.1/struts-6.3.0.1-src.zip"
 ],
 "struts2-secure-jakarta-multipart-parser-plugin-1.1": [
 "struts/struts-extras/struts2-secure-jakarta-multipart-parser-plugin/1.1/struts2-secure-jakarta-multipart-parser-plugin-1.1-source-release.zip"
