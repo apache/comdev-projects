@@ -84,19 +84,28 @@ VALID_TYPES = ['tgz', 'gz', 'zip', 'xz', 'bz2']
 # for gz, xz and bz2, the next extension must be tar
 TAR_TYPES = ['gz', 'xz', 'bz2']
 
+# file name stems that finish with these strings are not source archives:
+NON_SOURCE_ENDS = ['-amd64', '.bin', '-bin', '-binary', '-deps', '-docs', '-javadoc', '-lib', '-manual', '-x86', 'x86_64']
+
+# stems that match these strings are not source archives:
+NON_SOURCE_MATCH = ['-bin-', '-binary-', '-docs-', 'x86-windows', 'x64-windows']
+# Warning: beware of accidentally matching Maven plugins!
+
 def parseFile(committeeId, file, date, path):
     parts = file.split('.')
     ext = parts.pop() # final extension
     if not ext in VALID_TYPES or (ext in TAR_TYPES and parts.pop() != 'tar'):
         return
-    if not re.search(r"(MD5SUM|SHA1SUM|\.s?nupkg|\.md5|\.mds|\.sh1|\.sh2|\.sha|\.asc|\.sig|\.bin|\.pom|\.jar|\.whl|\.pdf|\.xml|\.xsd|\.html|\.txt|\.cfg|\.ish|\.pl|RELEASE.NOTES|LICENSE|KEYS|CHANGELOG|NOTICE|MANIFEST|Changes|readme|x86|amd64|-manual\.|-docs\.|-docs-|-doc-|Announcement|current|-deps|-dependencies|binary|-bin-|-bin\.|-javadoc-|-distro|rat_report|\.png|\.jpg|\.gif|\.sqlite|\.yaml|\.yml|\.prov)", file, flags=re.IGNORECASE):
-        filename = cleanFilename(file)
-        if len(filename) > 1:
-            if filename not in releases[committeeId]:
-                releases[committeeId][filename] = date
-                files[committeeId][filename] = []
-                print(f"                  - {filename}\t\t\t{file}")
-            files[committeeId][filename].append(path)
+    stem = ".".join(parts) # the filename stem without the archive suffice(s)
+    if any(stem.endswith(end) for end in NON_SOURCE_ENDS) or any(mat in stem for mat in NON_SOURCE_MATCH):
+        return
+    filename = cleanFilename(stem)
+    if len(filename) > 1:
+        if filename not in releases[committeeId]:
+            releases[committeeId][filename] = date
+            files[committeeId][filename] = []
+            print(f"                  - {filename}\t\t\t{file}")
+        files[committeeId][filename].append(path)
 
 # Don't visit these directories
 SKIP_DIRS=['hidden', 'css', 'META', 'website', 'binaries', 'repos', 'updatesite', 'current', 'stable', 'stable1', 'stable2', 'binary', 'notes', 'doc', 'eclipse', 'patches', 'docs', 'changes', 'features', 'tmp', 'cpp', 'php', 'ruby', 'py', 'py3', 'issuesfixed', 'images', 'styles', 'wikipages']
