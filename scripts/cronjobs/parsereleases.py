@@ -74,13 +74,23 @@ NON_SOURCE_ENDS = ['-amd64', '.bin', '-bin', '-binary', '-deps', '-docs', '-java
 NON_SOURCE_MATCH = ['-bin-', '-binary-', '-docs-', 'x86-windows', 'x64-windows']
 # Warning: beware of accidentally matching Maven plugins!
 
+# filters for dirs, matches and ends that may only apply to certain PMCs
+CTTEE_FILTERS = {
+    "solr": {
+        "ENDS": ['-slim'],
+        "MATCH": [],
+        "DIRS": ['helm-charts']
+    }
+}
+
 def parseFile(committeeId, file, date, path):
     parts = file.split('.')
     ext = parts.pop() # final extension
     if not ext in VALID_TYPES or (ext in TAR_TYPES and parts.pop() != 'tar'):
         return
     stem = ".".join(parts) # the filename stem without the archive suffice(s)
-    if any(stem.endswith(end) for end in NON_SOURCE_ENDS) or any(mat in stem for mat in NON_SOURCE_MATCH):
+    if (any(stem.endswith(end) for end in NON_SOURCE_ENDS + CTTEE_FILTERS.get(committeeId,{}).get('ENDS',[])) or 
+        any(mat in stem for mat in NON_SOURCE_MATCH + CTTEE_FILTERS.get(committeeId,{}).get('MATCH',[]))):
         return
     filename = cleanFilename(stem)
     if len(filename) > 1:
@@ -111,11 +121,10 @@ def main():
             # Ignore invisible files
             if file.startswith('.') or file in ['favicon.ico', 'META']:
                 continue
-            if any( seg in SKIP_DIRS for seg in segs):
+            committeeId = segs[0]
+            if any( seg in SKIP_DIRS + CTTEE_FILTERS.get(committeeId,{}).get('DIRS',[])  for seg in segs):
                 # print('SKIP', segs)
                 continue
-
-            committeeId = segs[0]
             if committeeId in ['zzz']:
                 continue
             if committeeId == 'incubator':
