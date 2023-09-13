@@ -4,7 +4,7 @@
 """
 
 import os
-from os.path import dirname, abspath, join, getmtime, basename
+from os.path import join, getmtime, basename
 import shutil
 import io
 import errno
@@ -121,7 +121,7 @@ def findRelPath(relpath):
         dir = join(d,relpath)
         if os.path.isdir(dir):
             return dir
-    raise OSError("Cannot find path " + path)
+    raise OSError("Cannot find path " + relpath)
 
 class UrlCache(object):
     """
