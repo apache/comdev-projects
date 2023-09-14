@@ -39,16 +39,17 @@ def cleanFilename(filename):
         Strips extensions such as .tgz etc, then suffixes such as -sources
         Replaces qualifiers such as -assembly-, -parent- by '-'
         Returns the simplified filename .
+
+        N.B. the ordering is significant, as the list is only scanned once
     """
-    for suffix in ['.tgz', '.gz', '.bz2', '.xz', '.zip', '.rar', '.tar', 'tar', '.deb', '.rpm', '.dmg', '.egg', '.gem', '.pom', '.war', '.exe',
-                   '-scala2.11', '-cdh4', '-hadoop1', '-hadoop2', '-hadoop2.3', '-hadoop2.4', '-all',
-                   '-src', '_src', '.src', '-sources', '_sources', '-source', '-bin', '-dist',
-                   '-source-release', '-source-relase', '-apidocs', '-javadocs', '-javadoc', '_javadoc', '-tests', '-test', '-debug', '-uber',
-                   '-macosx', '-distribution', '-example', '-manual', '-native', '-win', '-win32', '-linux', '-pack', '-packaged', '-lib', '-current', '-embedded',
-                   '-py', '-py2', '-py2.6', '-py2.7', '-no', 'unix-distro', 'windows-distro', 'with', '-dep', '-standalone', '-war', '-webapp', '-dom', '-om', '-manual', '-site',
-                   '-32bit', '-64bit', '-amd64', '-i386', '_i386', '.i386', '-x86_64', '-minimal', '-jettyconfig', '-py2.py3-none-any', 'newkey', 'oldkey', 'jars', '-jre13', '-hadoop1', '-hadoop2', '-project',
-                   '-with-dependencies', '-client', '-server', '-doc', '-docs', 'server-webapps', '-full', '-all', '-standard', '-for-javaee', '-for-tomcat',
-                   'hadoop1-scala2', '-deployer', '-fulldocs', '-windows-i64', '-windows-x64', '-embed', '-apps', '-app', '-ref', '-installer', '-bundle', '-java']:
+    for suffix in ['-all', '-src', '_src', '.src', '-sources', '_sources', '-source', '-bin', '-dist',
+                   '-source-release', '-source-relase', '-tests', '-test', '-debug', '-uber',
+                   '-macosx', '-distribution', '-example', '-native', '-win', '-win32', '-linux', '-pack', '-packaged', '-current', '-embedded',
+                   '-py', '-py2', '-py2.6', '-py2.7', '-no', 'unix-distro', 'windows-distro', 'with', '-dep', '-standalone', '-webapp', '-dom', '-om',
+                   '-32bit', '-i386', '_i386', '.i386', '-minimal', '-jettyconfig', '-py2.py3-none-any', 'newkey', 'oldkey', 'jars', '-jre13', '-hadoop1', '-hadoop2', '-project',
+                   '-with-dependencies', '-client', '-server', 'server-webapps', '-full', '-all', '-standard', '-for-javaee', '-for-tomcat',
+                   'hadoop1-scala2', '-deployer', '-fulldocs', '-embed', '-apps', '-app', '-ref', '-installer', '-bundle', '-java']:
+        # The above list could be simplified further
         if filename.endswith(suffix):
             filename = filename[0:len(filename)-len(suffix)]
     for repl in ['-assembly-', '-minimal-', '-doc-', '-src-', '-webapp-', '-standalone-', '-parent-', '-project-', '-win32-']:
@@ -67,8 +68,9 @@ VALID_TYPES = ['tgz', 'gz', 'zip', 'xz', 'bz2']
 TAR_TYPES = ['gz', 'xz', 'bz2']
 
 # file name stems that finish with these strings are not source archives:
-NON_SOURCE_ENDS = ['-amd64', '-aarch64',  '-arm64', '.bin', '-bin', '-binary', '-deps', '-docs', '-javadoc',
-                    '-lib', '-lib-debug', '-manual', '-site', '-x64', '-x86', 'x86_64', '-ia32']
+NON_SOURCE_ENDS = ['-amd64', '-aarch64',  '-arm64', '.bin', '-bin', '-binary', '-deps', '-docs', '-javadoc', '-doc',
+                    '-lib', '-lib-debug', '-manual', '-site', '-x64', '-x86', 'x86_64', '-ia32', '-i64',
+                    '-war', '-64bit', '-arm64bit', '-doc', '-apidocs', '-bundle']
 
 # stems that match these strings are not source archives:
 NON_SOURCE_MATCH = ['-bin-', '-binary-', '-docs-', 'x86-windows', 'x64-windows']
