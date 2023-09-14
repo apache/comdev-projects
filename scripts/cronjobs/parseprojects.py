@@ -82,7 +82,7 @@ def validate(json, tag, valid, pid, url):
                     else:
                         topid = None
                     printNotice(f"ERROR: illegal (overlong: {len(val)} >30) value '{val}' for {pid} in {url}",
-                                body = f'Error in {url}\nUnexpected value:{val}\n{SYNTAX_MSG[tag]}',
+                                body = f'Error in {url}\nUnexpected value: "{val}"\n{SYNTAX_MSG[tag]}',
                                 project=topid)
                 else:
                     print(f"WARN: unexpected value '{val}' for {pid} in {url}")#, project=pid)
