@@ -8661,6 +8661,21 @@
 ],
 "shortdesc": "A distributed SQL MPP for Hadoop and NoSQL"
 },
+"druid": {
+"bug-database": "https://github.com/apache/druid/issues",
+"category": "big-data, database",
+"created": "2012-10-23",
+"description": "Apache Druid is a high performance real-time analytics database. Druid's main value add is to reduce time to insight and action.\n\nApache Druid is designed for workflows where fast queries and ingest really matter. Druid excels at powering UIs, running operational (ad-hoc) queries, or handling high concurrency. Consider Druid as an open source alternative to data warehouses for a variety of use cases.",
+"doap": "https://raw.githubusercontent.com/apache/druid/master/doap_Druid.rdf",
+"download-page": "https://druid.apache.org/downloads/",
+"homepage": "https://druid.apache.org/",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://lists.apache.org/list.html?dev@druid.apache.org",
+"name": "Apache Druid",
+"pmc": "druid",
+"programming-language": "Java",
+"shortdesc": "High performance, real-time analytics database for sub-second queries at scale and under load."
+},
 "echarts": {
 "bug-database": "https://github.com/apache/echarts/issues",
 "category": "library, data-visualization",
@@ -9176,6 +9191,31 @@
 "https://gitbox.apache.org/repos/asf/giraph.git"
 ],
 "shortdesc": "Apache Giraph is an iterative graph processing system built for high scalability. "
+},
+"gobblin": {
+"bug-database": "https://issues.apache.org/jira/projects/GOBBLIN/issues",
+"category": "big-data",
+"created": "2023-09-13",
+"description": "A distributed data integration framework that simplifies common aspects of big data integration such as data ingestion, replication, organization and lifecycle management for both streaming and batch data ecosystems.",
+"doap": "https://gobblin.apache.org/doap_Gobblin.rdf",
+"download-page": "https://gobblin.apache.org/download",
+"homepage": "https://gobblin.apache.org",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://gobblin.apache.org/mailing-lists",
+"name": "Apache Gobblin",
+"pmc": "gobblin",
+"programming-language": "Java",
+"release": [
+{
+"created": "2022-02-03",
+"name": "Apache Gobblin 0.16.0",
+"revision": "0.16.0"
+}
+],
+"repository": [
+"https://github.com/apache/gobblin"
+],
+"shortdesc": "Distributed data integration framework"
 },
 "gora": {
 "bug-database": "https://issues.apache.org/jira/browse/GORA",

@@ -64,9 +64,9 @@
 "activemq/activemq-cli-tools/0.2.0/activemq-cli-tools-parent-0.2.0-source-release.zip"
 ],
 "activemq-cpp-library-3.9.5": [
-"activemq/activemq-cpp/3.9.5/activemq-cpp-library-3.9.5-src.zip",
+"activemq/activemq-cpp/3.9.5/activemq-cpp-library-3.9.5-src.tar.bz2",
 "activemq/activemq-cpp/3.9.5/activemq-cpp-library-3.9.5-src.tar.gz",
-"activemq/activemq-cpp/3.9.5/activemq-cpp-library-3.9.5-src.tar.bz2"
+"activemq/activemq-cpp/3.9.5/activemq-cpp-library-3.9.5-src.zip"
 ],
 "apache-artemis-2.30.0": [
 "activemq/activemq-artemis/2.30.0/apache-artemis-2.30.0-source-release.tar.gz",
@@ -79,8 +79,8 @@
 ],
 "apache-age-1.3.0": [
 "age/PG11/1.3.0/apache-age-1.3.0-src.tar.gz",
-"age/PG13/1.3.0/apache-age-1.3.0-src.tar.gz",
-"age/PG12/1.3.0/apache-age-1.3.0-src.tar.gz"
+"age/PG12/1.3.0/apache-age-1.3.0-src.tar.gz",
+"age/PG13/1.3.0/apache-age-1.3.0-src.tar.gz"
 ],
 "apache-age-1.4.0": [
 "age/PG14/1.4.0/apache-age-1.4.0-src.tar.gz"
@@ -121,8 +121,8 @@
 "airflow/clients/python/2.3.0/apache-airflow-client-2.3.0-source.tar.gz"
 ],
 "apache-airflow-client-2.5.0": [
-"airflow/clients/python/2.5.0/apache-airflow-client-2.5.0-source.tar.gz",
-"airflow/clients/go/2.5.0/apache-airflow-client-2.5.0-source.tar.gz"
+"airflow/clients/go/2.5.0/apache-airflow-client-2.5.0-source.tar.gz",
+"airflow/clients/python/2.5.0/apache-airflow-client-2.5.0-source.tar.gz"
 ],
 "apache-airflow-client-2.5.1": [
 "airflow/clients/python/2.5.1/apache-airflow-client-2.5.1-source.tar.gz"
@@ -417,41 +417,41 @@
 ],
 "apache-ant-1.10.14": [
 "ant/source/apache-ant-1.10.14-src.tar.bz2",
-"ant/source/apache-ant-1.10.14-src.zip",
 "ant/source/apache-ant-1.10.14-src.tar.gz",
-"ant/source/apache-ant-1.10.14-src.tar.xz"
+"ant/source/apache-ant-1.10.14-src.tar.xz",
+"ant/source/apache-ant-1.10.14-src.zip"
 ],
 "apache-ant-1.9.16": [
 "ant/source/apache-ant-1.9.16-src.tar.bz2",
-"ant/source/apache-ant-1.9.16-src.zip",
-"ant/source/apache-ant-1.9.16-src.tar.gz"
+"ant/source/apache-ant-1.9.16-src.tar.gz",
+"ant/source/apache-ant-1.9.16-src.zip"
 ],
 "apache-ant-antunit-1.4.1": [
-"ant/antlibs/antunit/source/apache-ant-antunit-1.4.1-src.tar.gz",
 "ant/antlibs/antunit/source/apache-ant-antunit-1.4.1-src.tar.bz2",
+"ant/antlibs/antunit/source/apache-ant-antunit-1.4.1-src.tar.gz",
 "ant/antlibs/antunit/source/apache-ant-antunit-1.4.1-src.zip"
 ],
 "apache-ant-compress-1.5": [
-"ant/antlibs/compress/source/apache-ant-compress-1.5-src.zip",
 "ant/antlibs/compress/source/apache-ant-compress-1.5-src.tar.bz2",
-"ant/antlibs/compress/source/apache-ant-compress-1.5-src.tar.gz"
+"ant/antlibs/compress/source/apache-ant-compress-1.5-src.tar.gz",
+"ant/antlibs/compress/source/apache-ant-compress-1.5-src.zip"
 ],
 "apache-ant-dotnet-1.1": [
+"ant/antlibs/dotnet/source/apache-ant-dotnet-1.1-src.tar.bz2",
 "ant/antlibs/dotnet/source/apache-ant-dotnet-1.1-src.tar.gz",
-"ant/antlibs/dotnet/source/apache-ant-dotnet-1.1-src.zip",
-"ant/antlibs/dotnet/source/apache-ant-dotnet-1.1-src.tar.bz2"
+"ant/antlibs/dotnet/source/apache-ant-dotnet-1.1-src.zip"
 ],
 "apache-ivy-2.5.2": [
-"ant/ivy/2.5.2/apache-ivy-2.5.2-src.zip",
-"ant/ivy/2.5.2/apache-ivy-2.5.2-src.tar.gz"
+"ant/ivy/2.5.2/apache-ivy-2.5.2-src.tar.gz",
+"ant/ivy/2.5.2/apache-ivy-2.5.2-src.zip"
 ],
 "apache-ivyde-2.2.0.final-201311091524-RELEASE": [
 "ant/ivyde/2.2.0.final/apache-ivyde-2.2.0.final-201311091524-RELEASE.tar.gz",
 "ant/ivyde/2.2.0.final/apache-ivyde-2.2.0.final-201311091524-RELEASE.zip"
 ],
 "apache-ivyde-sources-2.2.0.final-201311091524-RELEASE": [
-"ant/ivyde/2.2.0.final/apache-ivyde-sources-2.2.0.final-201311091524-RELEASE.zip",
-"ant/ivyde/2.2.0.final/apache-ivyde-sources-2.2.0.final-201311091524-RELEASE.tar.gz"
+"ant/ivyde/2.2.0.final/apache-ivyde-sources-2.2.0.final-201311091524-RELEASE.tar.gz",
+"ant/ivyde/2.2.0.final/apache-ivyde-sources-2.2.0.final-201311091524-RELEASE.zip"
 ]
 },
 "apisix": {
@@ -514,19 +514,19 @@
 "apr/apr-1.6.5.tar.gz"
 ],
 "apr-1.7.4": [
-"apr/apr-1.7.4.tar.gz",
+"apr/apr-1.7.4-win32-src.zip",
 "apr/apr-1.7.4.tar.bz2",
-"apr/apr-1.7.4-win32-src.zip"
+"apr/apr-1.7.4.tar.gz"
 ],
 "apr-iconv-1.2.2": [
+"apr/apr-iconv-1.2.2-win32-src.zip",
 "apr/apr-iconv-1.2.2.tar.bz2",
-"apr/apr-iconv-1.2.2.tar.gz",
-"apr/apr-iconv-1.2.2-win32-src.zip"
+"apr/apr-iconv-1.2.2.tar.gz"
 ],
 "apr-util-1.6.3": [
-"apr/apr-util-1.6.3.tar.gz",
+"apr/apr-util-1.6.3-win32-src.zip",
 "apr/apr-util-1.6.3.tar.bz2",
-"apr/apr-util-1.6.3-win32-src.zip"
+"apr/apr-util-1.6.3.tar.gz"
 ]
 },
 "archiva": {
@@ -832,8 +832,8 @@
 "avro/avro-1.11.2/rust/apache-avro.tgz"
 ],
 "avro-1.11.2": [
-"avro/avro-1.11.2/avro-src-1.11.2.tar.gz",
-"avro/avro-1.11.2/avro-doc-1.11.2.tar.gz"
+"avro/avro-1.11.2/avro-doc-1.11.2.tar.gz",
+"avro/avro-1.11.2/avro-src-1.11.2.tar.gz"
 ],
 "avro-c-1.11.2": [
 "avro/avro-1.11.2/c/avro-c-1.11.2.tar.gz"
@@ -851,8 +851,8 @@
 "axis/axis/java/1.4/axis-src-1_4.zip"
 ],
 "axis2-1.8.0": [
-"axis/axis2/java/core/1.8.0/axis2-1.8.0-war.zip",
-"axis/axis2/java/core/1.8.0/axis2-1.8.0-src.zip"
+"axis/axis2/java/core/1.8.0/axis2-1.8.0-src.zip",
+"axis/axis2/java/core/1.8.0/axis2-1.8.0-war.zip"
 ],
 "axis2-1.8.2": [
 "axis/axis2/java/core/1.8.2/axis2-1.8.2-src.zip",
@@ -901,8 +901,8 @@
 "bahir/bahir-spark/2.4.0/apache-bahir-2.4.0-src.zip"
 ],
 "apache-bahir-flink-1.0": [
-"bahir/bahir-flink/1.0/apache-bahir-flink-1.0-src.zip",
-"bahir/bahir-flink/1.0/apache-bahir-flink-1.0-src.tgz"
+"bahir/bahir-flink/1.0/apache-bahir-flink-1.0-src.tgz",
+"bahir/bahir-flink/1.0/apache-bahir-flink-1.0-src.zip"
 ]
 },
 "beam": {
@@ -913,8 +913,8 @@
 "beam/vendor/beam-vendor-grpc-1_43_2/0.1/apache-beam-1688ac1374ff02286ba8e59c9379bf7bb5875646-source-release.zip"
 ],
 "apache-beam-2.50.0": [
-"beam/2.50.0/python/apache-beam-2.50.0.zip",
-"beam/2.50.0/apache-beam-2.50.0-source-release.zip"
+"beam/2.50.0/apache-beam-2.50.0-source-release.zip",
+"beam/2.50.0/python/apache-beam-2.50.0.zip"
 ],
 "apache-beam-37fd13e738185822af132fe2e457b618e766802f": [
 "beam/vendor/beam-vendor-grpc-1_36_0/0.2/apache-beam-37fd13e738185822af132fe2e457b618e766802f-source-release.zip"
@@ -1013,18 +1013,18 @@
 "brooklyn/apache-brooklyn-1.0.0/apache-brooklyn-1.0.0-src.zip"
 ],
 "apache-brooklyn-1.0.0-classic": [
-"brooklyn/apache-brooklyn-1.0.0/apache-brooklyn-1.0.0-classic.zip",
-"brooklyn/apache-brooklyn-1.0.0/apache-brooklyn-1.0.0-classic.tar.gz"
+"brooklyn/apache-brooklyn-1.0.0/apache-brooklyn-1.0.0-classic.tar.gz",
+"brooklyn/apache-brooklyn-1.0.0/apache-brooklyn-1.0.0-classic.zip"
 ],
 "apache-brooklyn-1.0.0-client-cli": [
 "brooklyn/apache-brooklyn-1.0.0/apache-brooklyn-1.0.0-client-cli-linux.tar.gz",
-"brooklyn/apache-brooklyn-1.0.0/apache-brooklyn-1.0.0-client-cli-macosx.zip",
 "brooklyn/apache-brooklyn-1.0.0/apache-brooklyn-1.0.0-client-cli-linux.zip",
-"brooklyn/apache-brooklyn-1.0.0/apache-brooklyn-1.0.0-client-cli-macosx.tar.gz"
+"brooklyn/apache-brooklyn-1.0.0/apache-brooklyn-1.0.0-client-cli-macosx.tar.gz",
+"brooklyn/apache-brooklyn-1.0.0/apache-brooklyn-1.0.0-client-cli-macosx.zip"
 ],
 "apache-brooklyn-1.0.0-client-cli-windows": [
-"brooklyn/apache-brooklyn-1.0.0/apache-brooklyn-1.0.0-client-cli-windows.zip",
-"brooklyn/apache-brooklyn-1.0.0/apache-brooklyn-1.0.0-client-cli-windows.tar.gz"
+"brooklyn/apache-brooklyn-1.0.0/apache-brooklyn-1.0.0-client-cli-windows.tar.gz",
+"brooklyn/apache-brooklyn-1.0.0/apache-brooklyn-1.0.0-client-cli-windows.zip"
 ],
 "apache-brooklyn-1.0.0-vagrant": [
 "brooklyn/apache-brooklyn-1.0.0/apache-brooklyn-1.0.0-vagrant.tar.gz",
@@ -1310,18 +1310,6 @@
 "camel-k-client-1.9.2-windows": [
 "camel/camel-k/1.9.2/camel-k-client-1.9.2-windows-64bit.tar.gz"
 ],
-"camel-k-client-2.0.0-darwin-arm64": [
-"camel/camel-k/2.0.0/camel-k-client-2.0.0-darwin-arm64.tar.gz"
-],
-"camel-k-client-2.0.0-linux-arm64": [
-"camel/camel-k/2.0.0/camel-k-client-2.0.0-linux-arm64.tar.gz"
-],
-"camel-k-client-2.0.1-darwin-arm64": [
-"camel/camel-k/2.0.1/camel-k-client-2.0.1-darwin-arm64.tar.gz"
-],
-"camel-k-client-2.0.1-linux-arm64": [
-"camel/camel-k/2.0.1/camel-k-client-2.0.1-linux-arm64.tar.gz"
-],
 "camel-k-examples-1.10.1": [
 "camel/camel-k/1.10.1/camel-k-examples-1.10.1.tar.gz"
 ],
@@ -1547,28 +1535,28 @@
 },
 "cayenne": {
 "cayenne-3.0.2": [
-"cayenne/cayenne-3.0.2.tar.gz",
 "cayenne/cayenne-3.0.2-src.tar.gz",
-"cayenne/cayenne-3.0.2-win.zip"
+"cayenne/cayenne-3.0.2-win.zip",
+"cayenne/cayenne-3.0.2.tar.gz"
 ],
 "cayenne-3.1.3": [
-"cayenne/3.1.3/cayenne-3.1.3-win.zip",
 "cayenne/3.1.3/cayenne-3.1.3-src.tar.gz",
+"cayenne/3.1.3/cayenne-3.1.3-win.zip",
 "cayenne/3.1.3/cayenne-3.1.3.tar.gz"
 ],
 "cayenne-4.0.3": [
 "cayenne/4.0.3/cayenne-4.0.3-src.tar.gz",
-"cayenne/4.0.3/cayenne-4.0.3.tar.gz",
-"cayenne/4.0.3/cayenne-4.0.3-win.zip"
+"cayenne/4.0.3/cayenne-4.0.3-win.zip",
+"cayenne/4.0.3/cayenne-4.0.3.tar.gz"
 ],
 "cayenne-4.1.1": [
 "cayenne/4.1.1/cayenne-4.1.1-src.tar.gz",
-"cayenne/4.1.1/cayenne-4.1.1.tar.gz",
-"cayenne/4.1.1/cayenne-4.1.1-win.zip"
+"cayenne/4.1.1/cayenne-4.1.1-win.zip",
+"cayenne/4.1.1/cayenne-4.1.1.tar.gz"
 ],
 "cayenne-4.2": [
-"cayenne/4.2/cayenne-4.2-win.zip",
 "cayenne/4.2/cayenne-4.2-src.tar.gz",
+"cayenne/4.2/cayenne-4.2-win.zip",
 "cayenne/4.2/cayenne-4.2.tar.gz"
 ]
 },
@@ -1609,12 +1597,12 @@
 "cocoon/2.1/cocoon-2.1.13-src.zip"
 ],
 "cocoon-2.2.0": [
-"cocoon/2.2/cocoon-2.2.0.zip",
-"cocoon/2.2/cocoon-2.2.0.tar.gz"
+"cocoon/2.2/cocoon-2.2.0.tar.gz",
+"cocoon/2.2/cocoon-2.2.0.zip"
 ],
 "cocoon-ajax-block-1.0.0": [
-"cocoon/2.2/cocoon-ajax-block/cocoon-ajax-block-1.0.0.zip",
-"cocoon/2.2/cocoon-ajax-block/cocoon-ajax-block-1.0.0.tar.gz"
+"cocoon/2.2/cocoon-ajax-block/cocoon-ajax-block-1.0.0.tar.gz",
+"cocoon/2.2/cocoon-ajax-block/cocoon-ajax-block-1.0.0.zip"
 ],
 "cocoon-all-3.0.0-alpha-3": [
 "cocoon/3.0/cocoon-all-3.0.0-alpha-3-dist.tar.gz",
@@ -1629,15 +1617,15 @@
 "cocoon/2.2/cocoon-auth-block/cocoon-auth-block-1.0.0.zip"
 ],
 "cocoon-batik-block-1.0.0": [
-"cocoon/2.2/cocoon-batik-block/cocoon-batik-block-1.0.0.zip",
-"cocoon/2.2/cocoon-batik-block/cocoon-batik-block-1.0.0.tar.gz"
+"cocoon/2.2/cocoon-batik-block/cocoon-batik-block-1.0.0.tar.gz",
+"cocoon/2.2/cocoon-batik-block/cocoon-batik-block-1.0.0.zip"
 ],
 "cocoon-block-deployment-1.2.1": [
 "cocoon/subprojects/block-deployment/1.2.1/cocoon-block-deployment-1.2.1-source-release.zip"
 ],
 "cocoon-captcha-block-1.0.0": [
-"cocoon/2.2/cocoon-captcha-block/cocoon-captcha-block-1.0.0.zip",
-"cocoon/2.2/cocoon-captcha-block/cocoon-captcha-block-1.0.0.tar.gz"
+"cocoon/2.2/cocoon-captcha-block/cocoon-captcha-block-1.0.0.tar.gz",
+"cocoon/2.2/cocoon-captcha-block/cocoon-captcha-block-1.0.0.zip"
 ],
 "cocoon-configuration-api-1.0.4": [
 "cocoon/subprojects/configuration/configuration-api/1.0.4/cocoon-configuration-api-1.0.4-source-release.zip"
@@ -1655,8 +1643,8 @@
 "cocoon/2.2/cocoon-databases-hsqldb-server-block/cocoon-databases-hsqldb-server-block-1.0.0.zip"
 ],
 "cocoon-databases-impl-block-1.0.0": [
-"cocoon/2.2/cocoon-databases-impl-block/cocoon-databases-impl-block-1.0.0.zip",
-"cocoon/2.2/cocoon-databases-impl-block/cocoon-databases-impl-block-1.0.0.tar.gz"
+"cocoon/2.2/cocoon-databases-impl-block/cocoon-databases-impl-block-1.0.0.tar.gz",
+"cocoon/2.2/cocoon-databases-impl-block/cocoon-databases-impl-block-1.0.0.zip"
 ],
 "cocoon-flowscript-block-1.0.0": [
 "cocoon/2.2/cocoon-flowscript-block/cocoon-flowscript-block-1.0.0.tar.gz",
@@ -1671,8 +1659,8 @@
 "cocoon/2.2/cocoon-forms-block/cocoon-forms-block-1.1.0.zip"
 ],
 "cocoon-getting-started-2.2.0": [
-"cocoon/2.2/cocoon-getting-started/cocoon-getting-started-2.2.0.zip",
-"cocoon/2.2/cocoon-getting-started/cocoon-getting-started-2.2.0.tar.gz"
+"cocoon/2.2/cocoon-getting-started/cocoon-getting-started-2.2.0.tar.gz",
+"cocoon/2.2/cocoon-getting-started/cocoon-getting-started-2.2.0.zip"
 ],
 "cocoon-html-block-1.0.0": [
 "cocoon/2.2/cocoon-html-block/cocoon-html-block-1.0.0.tar.gz",
@@ -1685,12 +1673,12 @@
 "cocoon/subprojects/jnet/1.2.2/cocoon-jnet-1.2.2-source-release.zip"
 ],
 "cocoon-linkrewriter-block-1.0.0": [
-"cocoon/2.2/cocoon-linkrewriter-block/cocoon-linkrewriter-block-1.0.0.zip",
-"cocoon/2.2/cocoon-linkrewriter-block/cocoon-linkrewriter-block-1.0.0.tar.gz"
+"cocoon/2.2/cocoon-linkrewriter-block/cocoon-linkrewriter-block-1.0.0.tar.gz",
+"cocoon/2.2/cocoon-linkrewriter-block/cocoon-linkrewriter-block-1.0.0.zip"
 ],
 "cocoon-mail-block-1.0.0": [
-"cocoon/2.2/cocoon-mail-block/cocoon-mail-block-1.0.0.zip",
-"cocoon/2.2/cocoon-mail-block/cocoon-mail-block-1.0.0.tar.gz"
+"cocoon/2.2/cocoon-mail-block/cocoon-mail-block-1.0.0.tar.gz",
+"cocoon/2.2/cocoon-mail-block/cocoon-mail-block-1.0.0.zip"
 ],
 "cocoon-maven-plugin-1.0.2": [
 "cocoon/subprojects/maven-plugin/1.0.2/cocoon-maven-plugin-1.0.2-source-release.zip"
@@ -1735,20 +1723,20 @@
 "commons/bsf/source/bsf-3.1-src.zip"
 ],
 "commons-62": [
-"commons/commons-parent/commons-parent-62-src.zip",
-"commons/commons-parent/commons-parent-62-src.tar.gz"
+"commons/commons-parent/commons-parent-62-src.tar.gz",
+"commons/commons-parent/commons-parent-62-src.zip"
 ],
 "commons-beanutils-1.9.4": [
-"commons/beanutils/source/commons-beanutils-1.9.4-src.zip",
-"commons/beanutils/source/commons-beanutils-1.9.4-src.tar.gz"
+"commons/beanutils/source/commons-beanutils-1.9.4-src.tar.gz",
+"commons/beanutils/source/commons-beanutils-1.9.4-src.zip"
 ],
 "commons-build-plugin-1.13": [
 "commons/build-plugin/source/commons-build-plugin-1.13-src.tar.gz",
 "commons/build-plugin/source/commons-build-plugin-1.13-src.zip"
 ],
 "commons-chain-1.2": [
-"commons/chain/source/commons-chain-1.2-src.zip",
-"commons/chain/source/commons-chain-1.2-src.tar.gz"
+"commons/chain/source/commons-chain-1.2-src.tar.gz",
+"commons/chain/source/commons-chain-1.2-src.zip"
 ],
 "commons-cli-1.5.0": [
 "commons/cli/source/commons-cli-1.5.0-src.tar.gz",
@@ -1771,12 +1759,12 @@
 "commons/configuration/source/commons-configuration-1.10-src.zip"
 ],
 "commons-configuration2-2.9.0": [
-"commons/configuration/source/commons-configuration2-2.9.0-src.zip",
-"commons/configuration/source/commons-configuration2-2.9.0-src.tar.gz"
+"commons/configuration/source/commons-configuration2-2.9.0-src.tar.gz",
+"commons/configuration/source/commons-configuration2-2.9.0-src.zip"
 ],
 "commons-crypto-1.2.0": [
-"commons/crypto/source/commons-crypto-1.2.0-src.zip",
-"commons/crypto/source/commons-crypto-1.2.0-src.tar.gz"
+"commons/crypto/source/commons-crypto-1.2.0-src.tar.gz",
+"commons/crypto/source/commons-crypto-1.2.0-src.zip"
 ],
 "commons-csv-1.10.0": [
 "commons/csv/source/commons-csv-1.10.0-src.tar.gz",
@@ -1785,68 +1773,68 @@
 "commons-daemon-1.3.4": [
 "commons/daemon/source/commons-daemon-1.3.4-native-src.tar.gz",
 "commons/daemon/source/commons-daemon-1.3.4-native-src.zip",
-"commons/daemon/source/commons-daemon-1.3.4-src.zip",
-"commons/daemon/source/commons-daemon-1.3.4-src.tar.gz"
+"commons/daemon/source/commons-daemon-1.3.4-src.tar.gz",
+"commons/daemon/source/commons-daemon-1.3.4-src.zip"
 ],
 "commons-dbcp2-2.10.0": [
-"commons/dbcp/source/commons-dbcp2-2.10.0-src.zip",
-"commons/dbcp/source/commons-dbcp2-2.10.0-src.tar.gz"
+"commons/dbcp/source/commons-dbcp2-2.10.0-src.tar.gz",
+"commons/dbcp/source/commons-dbcp2-2.10.0-src.zip"
 ],
 "commons-dbcp2-2.4.0": [
-"commons/dbcp/source/commons-dbcp2-2.4.0-src.zip",
-"commons/dbcp/source/commons-dbcp2-2.4.0-src.tar.gz"
+"commons/dbcp/source/commons-dbcp2-2.4.0-src.tar.gz",
+"commons/dbcp/source/commons-dbcp2-2.4.0-src.zip"
 ],
 "commons-dbutils-1.8.0": [
-"commons/dbutils/source/commons-dbutils-1.8.0-src.zip",
-"commons/dbutils/source/commons-dbutils-1.8.0-src.tar.gz"
+"commons/dbutils/source/commons-dbutils-1.8.0-src.tar.gz",
+"commons/dbutils/source/commons-dbutils-1.8.0-src.zip"
 ],
 "commons-digester-2.1": [
 "commons/digester/source/commons-digester-2.1-src.tar.gz",
 "commons/digester/source/commons-digester-2.1-src.zip"
 ],
 "commons-digester3-3.2": [
-"commons/digester/source/commons-digester3-3.2-src.zip",
-"commons/digester/source/commons-digester3-3.2-src.tar.gz"
+"commons/digester/source/commons-digester3-3.2-src.tar.gz",
+"commons/digester/source/commons-digester3-3.2-src.zip"
 ],
 "commons-email-1.5": [
-"commons/email/source/commons-email-1.5-src.zip",
-"commons/email/source/commons-email-1.5-src.tar.gz"
+"commons/email/source/commons-email-1.5-src.tar.gz",
+"commons/email/source/commons-email-1.5-src.zip"
 ],
 "commons-exec-1.3": [
 "commons/exec/source/commons-exec-1.3-src.tar.gz",
 "commons/exec/source/commons-exec-1.3-src.zip"
 ],
 "commons-fileupload-1.5": [
-"commons/fileupload/source/commons-fileupload-1.5-src.zip",
-"commons/fileupload/source/commons-fileupload-1.5-src.tar.gz"
+"commons/fileupload/source/commons-fileupload-1.5-src.tar.gz",
+"commons/fileupload/source/commons-fileupload-1.5-src.zip"
 ],
 "commons-fileupload2-2.0.0-M1": [
 "commons/fileupload/source/commons-fileupload2-2.0.0-M1-src.tar.gz",
 "commons/fileupload/source/commons-fileupload2-2.0.0-M1-src.zip"
 ],
 "commons-geometry-1.0": [
-"commons/geometry/source/commons-geometry-1.0-src.zip",
-"commons/geometry/source/commons-geometry-1.0-src.tar.gz"
+"commons/geometry/source/commons-geometry-1.0-src.tar.gz",
+"commons/geometry/source/commons-geometry-1.0-src.zip"
 ],
 "commons-imaging-1.0-alpha3": [
-"commons/imaging/source/commons-imaging-1.0-alpha3-src.zip",
-"commons/imaging/source/commons-imaging-1.0-alpha3-src.tar.gz"
+"commons/imaging/source/commons-imaging-1.0-alpha3-src.tar.gz",
+"commons/imaging/source/commons-imaging-1.0-alpha3-src.zip"
 ],
 "commons-io-2.13.0": [
-"commons/io/source/commons-io-2.13.0-src.zip",
-"commons/io/source/commons-io-2.13.0-src.tar.gz"
+"commons/io/source/commons-io-2.13.0-src.tar.gz",
+"commons/io/source/commons-io-2.13.0-src.zip"
 ],
 "commons-jci-1.1": [
-"commons/jci/source/commons-jci-1.1-src.zip",
-"commons/jci/source/commons-jci-1.1-src.tar.gz"
+"commons/jci/source/commons-jci-1.1-src.tar.gz",
+"commons/jci/source/commons-jci-1.1-src.zip"
 ],
 "commons-jcs3-dist-3.1": [
 "commons/jcs/source/commons-jcs3-dist-3.1-src.tar.gz",
 "commons/jcs/source/commons-jcs3-dist-3.1-src.zip"
 ],
 "commons-jelly-1.0": [
-"commons/jelly/source/commons-jelly-1.0-src.zip",
-"commons/jelly/source/commons-jelly-1.0-src.tar.gz"
+"commons/jelly/source/commons-jelly-1.0-src.tar.gz",
+"commons/jelly/source/commons-jelly-1.0-src.zip"
 ],
 "commons-jelly-1.0.1": [
 "commons/jelly/source/commons-jelly-1.0.1-src.tar.gz",
@@ -1865,24 +1853,24 @@
 "commons/jexl/source/commons-jexl-3.2.1-src.zip"
 ],
 "commons-jexl-3.3": [
-"commons/jexl/source/commons-jexl-3.3-src.zip",
-"commons/jexl/source/commons-jexl-3.3-src.tar.gz"
+"commons/jexl/source/commons-jexl-3.3-src.tar.gz",
+"commons/jexl/source/commons-jexl-3.3-src.zip"
 ],
 "commons-jxpath-1.3": [
 "commons/jxpath/source/commons-jxpath-1.3-src.tar.gz",
 "commons/jxpath/source/commons-jxpath-1.3-src.zip"
 ],
 "commons-lang-2.6": [
-"commons/lang/source/commons-lang-2.6-src.zip",
-"commons/lang/source/commons-lang-2.6-src.tar.gz"
+"commons/lang/source/commons-lang-2.6-src.tar.gz",
+"commons/lang/source/commons-lang-2.6-src.zip"
 ],
 "commons-lang3-3.13.0": [
-"commons/lang/source/commons-lang3-3.13.0-src.zip",
-"commons/lang/source/commons-lang3-3.13.0-src.tar.gz"
+"commons/lang/source/commons-lang3-3.13.0-src.tar.gz",
+"commons/lang/source/commons-lang3-3.13.0-src.zip"
 ],
 "commons-logging-1.2": [
-"commons/logging/source/commons-logging-1.2-src.zip",
-"commons/logging/source/commons-logging-1.2-src.tar.gz"
+"commons/logging/source/commons-logging-1.2-src.tar.gz",
+"commons/logging/source/commons-logging-1.2-src.zip"
 ],
 "commons-math-2.2": [
 "commons/math/source/commons-math-2.2-src.tar.gz",
@@ -1893,20 +1881,20 @@
 "commons/math/source/commons-math3-3.6.1-src.zip"
 ],
 "commons-math4-4.0-beta1": [
-"commons/math/source/commons-math4-4.0-beta1-src.zip",
-"commons/math/source/commons-math4-4.0-beta1-src.tar.gz"
+"commons/math/source/commons-math4-4.0-beta1-src.tar.gz",
+"commons/math/source/commons-math4-4.0-beta1-src.zip"
 ],
 "commons-net-3.9.0": [
 "commons/net/source/commons-net-3.9.0-src.tar.gz",
 "commons/net/source/commons-net-3.9.0-src.zip"
 ],
 "commons-numbers-1.1": [
-"commons/numbers/source/commons-numbers-1.1-src.zip",
-"commons/numbers/source/commons-numbers-1.1-src.tar.gz"
+"commons/numbers/source/commons-numbers-1.1-src.tar.gz",
+"commons/numbers/source/commons-numbers-1.1-src.zip"
 ],
 "commons-pool2-2.11.1": [
-"commons/pool/source/commons-pool2-2.11.1-src.zip",
-"commons/pool/source/commons-pool2-2.11.1-src.tar.gz"
+"commons/pool/source/commons-pool2-2.11.1-src.tar.gz",
+"commons/pool/source/commons-pool2-2.11.1-src.zip"
 ],
 "commons-pool2-2.6.2": [
 "commons/pool/source/commons-pool2-2.6.2-src.tar.gz",
@@ -1917,32 +1905,32 @@
 "commons/proxy/source/commons-proxy-1.0-src.zip"
 ],
 "commons-release-plugin-1.8.1": [
-"commons/release-plugin/source/commons-release-plugin-1.8.1-src.zip",
-"commons/release-plugin/source/commons-release-plugin-1.8.1-src.tar.gz"
+"commons/release-plugin/source/commons-release-plugin-1.8.1-src.tar.gz",
+"commons/release-plugin/source/commons-release-plugin-1.8.1-src.zip"
 ],
 "commons-rng-1.5": [
-"commons/rng/source/commons-rng-1.5-src.zip",
-"commons/rng/source/commons-rng-1.5-src.tar.gz"
+"commons/rng/source/commons-rng-1.5-src.tar.gz",
+"commons/rng/source/commons-rng-1.5-src.zip"
 ],
 "commons-scxml-0.9": [
 "commons/scxml/source/commons-scxml-0.9-src.tar.gz",
 "commons/scxml/source/commons-scxml-0.9-src.zip"
 ],
 "commons-statistics-1.0": [
-"commons/statistics/source/commons-statistics-1.0-src.zip",
-"commons/statistics/source/commons-statistics-1.0-src.tar.gz"
+"commons/statistics/source/commons-statistics-1.0-src.tar.gz",
+"commons/statistics/source/commons-statistics-1.0-src.zip"
 ],
 "commons-text-1.10.0": [
-"commons/text/source/commons-text-1.10.0-src.zip",
-"commons/text/source/commons-text-1.10.0-src.tar.gz"
+"commons/text/source/commons-text-1.10.0-src.tar.gz",
+"commons/text/source/commons-text-1.10.0-src.zip"
 ],
 "commons-validator-1.7": [
-"commons/validator/source/commons-validator-1.7-src.zip",
-"commons/validator/source/commons-validator-1.7-src.tar.gz"
+"commons/validator/source/commons-validator-1.7-src.tar.gz",
+"commons/validator/source/commons-validator-1.7-src.zip"
 ],
 "commons-vfs-2.9.0": [
-"commons/vfs/source/commons-vfs-2.9.0-src.zip",
-"commons/vfs/source/commons-vfs-2.9.0-src.tar.gz"
+"commons/vfs/source/commons-vfs-2.9.0-src.tar.gz",
+"commons/vfs/source/commons-vfs-2.9.0-src.zip"
 ],
 "commons-weaver-2.0": [
 "commons/weaver/source/commons-weaver-2.0-src.tar.gz",
@@ -2111,8 +2099,8 @@
 },
 "creadur": {
 "apache-rat-0.15": [
-"creadur/apache-rat-0.15/apache-rat-0.15-src.tar.gz",
 "creadur/apache-rat-0.15/apache-rat-0.15-src.tar.bz2",
+"creadur/apache-rat-0.15/apache-rat-0.15-src.tar.gz",
 "creadur/apache-rat-0.15/apache-rat-0.15-src.zip"
 ],
 "apache-tentacles-0.1": [
@@ -2140,51 +2128,51 @@
 "cxf": {
 "apache-cxf-3.4.10": [
 "cxf/3.4.10/apache-cxf-3.4.10-src.tar.gz",
-"cxf/3.4.10/apache-cxf-3.4.10.zip",
 "cxf/3.4.10/apache-cxf-3.4.10-src.zip",
-"cxf/3.4.10/apache-cxf-3.4.10.tar.gz"
+"cxf/3.4.10/apache-cxf-3.4.10.tar.gz",
+"cxf/3.4.10/apache-cxf-3.4.10.zip"
 ],
 "apache-cxf-3.5.5": [
-"cxf/3.5.5/apache-cxf-3.5.5.zip",
-"cxf/3.5.5/apache-cxf-3.5.5.tar.gz",
+"cxf/3.5.5/apache-cxf-3.5.5-src.tar.gz",
 "cxf/3.5.5/apache-cxf-3.5.5-src.zip",
-"cxf/3.5.5/apache-cxf-3.5.5-src.tar.gz"
+"cxf/3.5.5/apache-cxf-3.5.5.tar.gz",
+"cxf/3.5.5/apache-cxf-3.5.5.zip"
 ],
 "apache-cxf-3.5.6": [
 "cxf/3.5.6/apache-cxf-3.5.6-src.tar.gz",
-"cxf/3.5.6/apache-cxf-3.5.6.zip",
+"cxf/3.5.6/apache-cxf-3.5.6-src.zip",
 "cxf/3.5.6/apache-cxf-3.5.6.tar.gz",
-"cxf/3.5.6/apache-cxf-3.5.6-src.zip"
+"cxf/3.5.6/apache-cxf-3.5.6.zip"
 ],
 "apache-cxf-3.6.0": [
-"cxf/3.6.0/apache-cxf-3.6.0.tar.gz",
 "cxf/3.6.0/apache-cxf-3.6.0-src.tar.gz",
 "cxf/3.6.0/apache-cxf-3.6.0-src.zip",
+"cxf/3.6.0/apache-cxf-3.6.0.tar.gz",
 "cxf/3.6.0/apache-cxf-3.6.0.zip"
 ],
 "apache-cxf-3.6.1": [
-"cxf/3.6.1/apache-cxf-3.6.1.zip",
+"cxf/3.6.1/apache-cxf-3.6.1-src.tar.gz",
 "cxf/3.6.1/apache-cxf-3.6.1-src.zip",
 "cxf/3.6.1/apache-cxf-3.6.1.tar.gz",
-"cxf/3.6.1/apache-cxf-3.6.1-src.tar.gz"
+"cxf/3.6.1/apache-cxf-3.6.1.zip"
 ],
 "apache-cxf-4.0.0": [
 "cxf/4.0.0/apache-cxf-4.0.0-src.tar.gz",
-"cxf/4.0.0/apache-cxf-4.0.0.tar.gz",
 "cxf/4.0.0/apache-cxf-4.0.0-src.zip",
+"cxf/4.0.0/apache-cxf-4.0.0.tar.gz",
 "cxf/4.0.0/apache-cxf-4.0.0.zip"
 ],
 "apache-cxf-4.0.1": [
+"cxf/4.0.1/apache-cxf-4.0.1-src.tar.gz",
 "cxf/4.0.1/apache-cxf-4.0.1-src.zip",
 "cxf/4.0.1/apache-cxf-4.0.1.tar.gz",
-"cxf/4.0.1/apache-cxf-4.0.1-src.tar.gz",
 "cxf/4.0.1/apache-cxf-4.0.1.zip"
 ],
 "apache-cxf-4.0.2": [
-"cxf/4.0.2/apache-cxf-4.0.2.zip",
-"cxf/4.0.2/apache-cxf-4.0.2-src.zip",
 "cxf/4.0.2/apache-cxf-4.0.2-src.tar.gz",
-"cxf/4.0.2/apache-cxf-4.0.2.tar.gz"
+"cxf/4.0.2/apache-cxf-4.0.2-src.zip",
+"cxf/4.0.2/apache-cxf-4.0.2.tar.gz",
+"cxf/4.0.2/apache-cxf-4.0.2.zip"
 ],
 "apache-fediz-1.5.1": [
 "cxf/fediz/1.5.1/apache-fediz-1.5.1.zip"
@@ -2240,22 +2228,16 @@
 },
 "db": {
 "db-derby-10.14.2.0": [
-"db/derby/db-derby-10.14.2.0/db-derby-10.14.2.0-lib-debug.zip",
-"db/derby/db-derby-10.14.2.0/db-derby-10.14.2.0-src.zip",
 "db/derby/db-derby-10.14.2.0/db-derby-10.14.2.0-src.tar.gz",
-"db/derby/db-derby-10.14.2.0/db-derby-10.14.2.0-lib-debug.tar.gz"
+"db/derby/db-derby-10.14.2.0/db-derby-10.14.2.0-src.zip"
 ],
 "db-derby-10.15.2.0": [
 "db/derby/db-derby-10.15.2.0/db-derby-10.15.2.0-src.tar.gz",
-"db/derby/db-derby-10.15.2.0/db-derby-10.15.2.0-src.zip",
-"db/derby/db-derby-10.15.2.0/db-derby-10.15.2.0-lib-debug.tar.gz",
-"db/derby/db-derby-10.15.2.0/db-derby-10.15.2.0-lib-debug.zip"
+"db/derby/db-derby-10.15.2.0/db-derby-10.15.2.0-src.zip"
 ],
 "db-derby-10.16.1.1": [
-"db/derby/db-derby-10.16.1.1/db-derby-10.16.1.1-lib-debug.tar.gz",
 "db/derby/db-derby-10.16.1.1/db-derby-10.16.1.1-src.tar.gz",
-"db/derby/db-derby-10.16.1.1/db-derby-10.16.1.1-src.zip",
-"db/derby/db-derby-10.16.1.1/db-derby-10.16.1.1-lib-debug.zip"
+"db/derby/db-derby-10.16.1.1/db-derby-10.16.1.1-src.zip"
 ],
 "jdo-3.1": [
 "db/jdo/3.1/jdo-3.1-source-release.zip",
@@ -2268,18 +2250,18 @@
 "db/jdo/3.1-rc1/jdo-3.1-rc1-src.zip"
 ],
 "jdo-3.2": [
-"db/jdo/3.2/jdo-3.2-source-release.zip",
-"db/jdo/3.2/jdo-3.2-source-release.tar.gz"
+"db/jdo/3.2/jdo-3.2-source-release.tar.gz",
+"db/jdo/3.2/jdo-3.2-source-release.zip"
 ],
 "jdo-3.2.1": [
-"db/jdo/3.2.1/jdo-3.2.1-source-release.zip",
-"db/jdo/3.2.1/jdo-3.2.1-source-release.tar.gz"
+"db/jdo/3.2.1/jdo-3.2.1-source-release.tar.gz",
+"db/jdo/3.2.1/jdo-3.2.1-source-release.zip"
 ],
 "jdo-api-3.0.1": [
 "db/jdo/3.0.1/jdo-api-3.0.1-src.tar.gz",
 "db/jdo/3.0.1/jdo-api-3.0.1-src.zip",
-"db/jdo/3.0.1/jdo-api-3.0.1.zip",
-"db/jdo/3.0.1/jdo-api-3.0.1.tar.gz"
+"db/jdo/3.0.1/jdo-api-3.0.1.tar.gz",
+"db/jdo/3.0.1/jdo-api-3.0.1.zip"
 ],
 "jdo-tck-3.0.1": [
 "db/jdo/3.0.1/jdo-tck-3.0.1-src.tar.gz",
@@ -2300,8 +2282,8 @@
 "deltaspike/1.9.6/deltaspike-1.9.6-source-release.zip"
 ],
 "distribution-full-1.9.6": [
-"deltaspike/1.9.6/distribution-full-1.9.6.zip",
-"deltaspike/1.9.6/distribution-full-1.9.6.tar.gz"
+"deltaspike/1.9.6/distribution-full-1.9.6.tar.gz",
+"deltaspike/1.9.6/distribution-full-1.9.6.zip"
 ]
 },
 "directory": {
@@ -2309,21 +2291,21 @@
 "directory/studio/2.0.0.v20210717-M17/ApacheDirectoryStudio-2.0.0.v20210717-M17-src.zip"
 ],
 "apache-ldap-api-1.0.3": [
-"directory/api/dist/1.0.3/apache-ldap-api-1.0.3-src.zip",
-"directory/api/dist/1.0.3/apache-ldap-api-1.0.3-src.tar.gz"
+"directory/api/dist/1.0.3/apache-ldap-api-1.0.3-src.tar.gz",
+"directory/api/dist/1.0.3/apache-ldap-api-1.0.3-src.zip"
 ],
 "apache-ldap-api-2.0.2": [
 "directory/api/dist/2.0.2/apache-ldap-api-2.0.2-src.tar.gz",
 "directory/api/dist/2.0.2/apache-ldap-api-2.0.2-src.zip"
 ],
 "apache-ldap-api-2.1.4": [
-"directory/api/dist/2.1.4/apache-ldap-api-2.1.4-src.zip",
-"directory/api/dist/2.1.4/apache-ldap-api-2.1.4-src.tar.gz"
+"directory/api/dist/2.1.4/apache-ldap-api-2.1.4-src.tar.gz",
+"directory/api/dist/2.1.4/apache-ldap-api-2.1.4-src.zip"
 ],
 "apacheds-2.0.0.AM26": [
-"directory/apacheds/dist/2.0.0.AM26/apacheds-parent-2.0.0.AM26-source-release.zip",
 "directory/apacheds/dist/2.0.0.AM26/apacheds-2.0.0.AM26.tar.gz",
-"directory/apacheds/dist/2.0.0.AM26/apacheds-2.0.0.AM26.zip"
+"directory/apacheds/dist/2.0.0.AM26/apacheds-2.0.0.AM26.zip",
+"directory/apacheds/dist/2.0.0.AM26/apacheds-parent-2.0.0.AM26-source-release.zip"
 ],
 "fortress-core-3.0.0": [
 "directory/fortress/dist/3.0.0/fortress-core-3.0.0-source-release.zip"
@@ -2341,9 +2323,9 @@
 "directory/kerby/dist/2.0.3/kerby-all-2.0.3-source-release.zip"
 ],
 "mavibot-1.0.0-M8": [
-"directory/mavibot/dist/1.0.0-M8/mavibot-1.0.0-M8-src.zip",
+"directory/mavibot/dist/1.0.0-M8/mavibot-1.0.0-M8-src.tar.bz2",
 "directory/mavibot/dist/1.0.0-M8/mavibot-1.0.0-M8-src.tar.gz",
-"directory/mavibot/dist/1.0.0-M8/mavibot-1.0.0-M8-src.tar.bz2"
+"directory/mavibot/dist/1.0.0-M8/mavibot-1.0.0-M8-src.zip"
 ]
 },
 "dolphinscheduler": {
@@ -2469,16 +2451,16 @@
 },
 "drill": {
 "apache-drill-1.20.3": [
-"drill/1.20.3/apache-drill-1.20.3.tar.gz",
-"drill/1.20.3/apache-drill-1.20.3-src.zip",
 "drill/1.20.3/apache-drill-1.20.3-hadoop2.tar.gz",
-"drill/1.20.3/apache-drill-1.20.3-src.tar.gz"
+"drill/1.20.3/apache-drill-1.20.3-src.tar.gz",
+"drill/1.20.3/apache-drill-1.20.3-src.zip",
+"drill/1.20.3/apache-drill-1.20.3.tar.gz"
 ],
 "apache-drill-1.21.1": [
-"drill/1.21.1/apache-drill-1.21.1.tar.gz",
-"drill/1.21.1/apache-drill-1.21.1-src.tar.gz",
 "drill/1.21.1/apache-drill-1.21.1-hadoop2.tar.gz",
-"drill/1.21.1/apache-drill-1.21.1-src.zip"
+"drill/1.21.1/apache-drill-1.21.1-src.tar.gz",
+"drill/1.21.1/apache-drill-1.21.1-src.zip",
+"drill/1.21.1/apache-drill-1.21.1.tar.gz"
 ]
 },
 "druid": {
@@ -2563,10 +2545,10 @@
 },
 "felix": {
 "apache-felix-karaf-1.6.0": [
-"felix/apache-felix-karaf-1.6.0.tar.gz",
-"felix/apache-felix-karaf-1.6.0.zip",
 "felix/apache-felix-karaf-1.6.0-src.tar.gz",
-"felix/apache-felix-karaf-1.6.0-src.zip"
+"felix/apache-felix-karaf-1.6.0-src.zip",
+"felix/apache-felix-karaf-1.6.0.tar.gz",
+"felix/apache-felix-karaf-1.6.0.zip"
 ],
 "atomos-distribution-1.0.0": [
 "felix/atomos-distribution-1.0.0-source-release.tar.gz",
@@ -2585,36 +2567,36 @@
 "felix/maven-bundle-plugin-5.1.9-source-release.zip"
 ],
 "maven-junit4osgi-plugin-1.0.0": [
-"felix/maven-junit4osgi-plugin-1.0.0-project.zip",
-"felix/maven-junit4osgi-plugin-1.0.0-project.tar.gz"
+"felix/maven-junit4osgi-plugin-1.0.0-project.tar.gz",
+"felix/maven-junit4osgi-plugin-1.0.0-project.zip"
 ],
 "maven-scr-plugin-1.26.4": [
-"felix/maven-scr-plugin-1.26.4-source-release.zip",
-"felix/maven-scr-plugin-1.26.4-source-release.tar.gz"
+"felix/maven-scr-plugin-1.26.4-source-release.tar.gz",
+"felix/maven-scr-plugin-1.26.4-source-release.zip"
 ],
 "org.apache.felix.bundlerepository-2.0.10": [
-"felix/org.apache.felix.bundlerepository-2.0.10-source-release.zip",
-"felix/org.apache.felix.bundlerepository-2.0.10-source-release.tar.gz"
+"felix/org.apache.felix.bundlerepository-2.0.10-source-release.tar.gz",
+"felix/org.apache.felix.bundlerepository-2.0.10-source-release.zip"
 ],
 "org.apache.felix.cm.json-2.0.0": [
 "felix/org.apache.felix.cm.json-2.0.0-source-release.tar.gz",
 "felix/org.apache.felix.cm.json-2.0.0-source-release.zip"
 ],
 "org.apache.felix.configadmin-1.9.26": [
-"felix/org.apache.felix.configadmin-1.9.26-source-release.zip",
-"felix/org.apache.felix.configadmin-1.9.26-source-release.tar.gz"
+"felix/org.apache.felix.configadmin-1.9.26-source-release.tar.gz",
+"felix/org.apache.felix.configadmin-1.9.26-source-release.zip"
 ],
 "org.apache.felix.configadmin.plugin.interpolation-1.2.8": [
 "felix/org.apache.felix.configadmin.plugin.interpolation-1.2.8-source-release.tar.gz",
 "felix/org.apache.felix.configadmin.plugin.interpolation-1.2.8-source-release.zip"
 ],
 "org.apache.felix.configurator-1.0.18": [
-"felix/org.apache.felix.configurator-1.0.18-source-release.zip",
-"felix/org.apache.felix.configurator-1.0.18-source-release.tar.gz"
+"felix/org.apache.felix.configurator-1.0.18-source-release.tar.gz",
+"felix/org.apache.felix.configurator-1.0.18-source-release.zip"
 ],
 "org.apache.felix.connect-0.1.0": [
-"felix/org.apache.felix.connect-0.1.0-source-release.zip",
-"felix/org.apache.felix.connect-0.1.0-source-release.tar.gz"
+"felix/org.apache.felix.connect-0.1.0-source-release.tar.gz",
+"felix/org.apache.felix.connect-0.1.0-source-release.zip"
 ],
 "org.apache.felix.connect-0.2.0": [
 "felix/org.apache.felix.connect-0.2.0-source-release.tar.gz",
@@ -2636,24 +2618,24 @@
 "felix/org.apache.felix.deployment.rp.autoconf-0.1.8-source-release.zip"
 ],
 "org.apache.felix.deploymentadmin-0.9.10": [
-"felix/org.apache.felix.deploymentadmin-0.9.10-source-release.zip",
-"felix/org.apache.felix.deploymentadmin-0.9.10-source-release.tar.gz"
+"felix/org.apache.felix.deploymentadmin-0.9.10-source-release.tar.gz",
+"felix/org.apache.felix.deploymentadmin-0.9.10-source-release.zip"
 ],
 "org.apache.felix.eventadmin-1.6.4": [
 "felix/org.apache.felix.eventadmin-1.6.4-source-release.tar.gz",
 "felix/org.apache.felix.eventadmin-1.6.4-source-release.zip"
 ],
 "org.apache.felix.feature-1.0.2": [
-"felix/org.apache.felix.feature-1.0.2-source-release.zip",
-"felix/org.apache.felix.feature-1.0.2-source-release.tar.gz"
+"felix/org.apache.felix.feature-1.0.2-source-release.tar.gz",
+"felix/org.apache.felix.feature-1.0.2-source-release.zip"
 ],
 "org.apache.felix.fileinstall-3.7.4": [
 "felix/org.apache.felix.fileinstall-3.7.4-source-release.tar.gz",
 "felix/org.apache.felix.fileinstall-3.7.4-source-release.zip"
 ],
 "org.apache.felix.framework-5.6.12": [
-"felix/org.apache.felix.framework-5.6.12-source-release.zip",
-"felix/org.apache.felix.framework-5.6.12-source-release.tar.gz"
+"felix/org.apache.felix.framework-5.6.12-source-release.tar.gz",
+"felix/org.apache.felix.framework-5.6.12-source-release.zip"
 ],
 "org.apache.felix.framework-6.0.5": [
 "felix/org.apache.felix.framework-6.0.5-source-release.tar.gz",
@@ -2668,8 +2650,8 @@
 "felix/org.apache.felix.framework.security-2.8.4-source-release.zip"
 ],
 "org.apache.felix.gogo.bom-1.0.6": [
-"felix/org.apache.felix.gogo.bom-1.0.6-source-release.zip",
-"felix/org.apache.felix.gogo.bom-1.0.6-source-release.tar.gz"
+"felix/org.apache.felix.gogo.bom-1.0.6-source-release.tar.gz",
+"felix/org.apache.felix.gogo.bom-1.0.6-source-release.zip"
 ],
 "org.apache.felix.gogo.command-1.1.2": [
 "felix/org.apache.felix.gogo.command-1.1.2-source-release.tar.gz",
@@ -2688,24 +2670,24 @@
 "felix/org.apache.felix.gogo.shell-1.1.4-source-release.zip"
 ],
 "org.apache.felix.healthcheck.annotation-2.0.0": [
-"felix/org.apache.felix.healthcheck.annotation-2.0.0-source-release.zip",
-"felix/org.apache.felix.healthcheck.annotation-2.0.0-source-release.tar.gz"
+"felix/org.apache.felix.healthcheck.annotation-2.0.0-source-release.tar.gz",
+"felix/org.apache.felix.healthcheck.annotation-2.0.0-source-release.zip"
 ],
 "org.apache.felix.healthcheck.api-2.0.4": [
-"felix/org.apache.felix.healthcheck.api-2.0.4-source-release.zip",
-"felix/org.apache.felix.healthcheck.api-2.0.4-source-release.tar.gz"
+"felix/org.apache.felix.healthcheck.api-2.0.4-source-release.tar.gz",
+"felix/org.apache.felix.healthcheck.api-2.0.4-source-release.zip"
 ],
 "org.apache.felix.healthcheck.core-2.1.0": [
-"felix/org.apache.felix.healthcheck.core-2.1.0-source-release.zip",
-"felix/org.apache.felix.healthcheck.core-2.1.0-source-release.tar.gz"
+"felix/org.apache.felix.healthcheck.core-2.1.0-source-release.tar.gz",
+"felix/org.apache.felix.healthcheck.core-2.1.0-source-release.zip"
 ],
 "org.apache.felix.healthcheck.generalchecks-3.0.8": [
 "felix/org.apache.felix.healthcheck.generalchecks-3.0.8-source-release.tar.gz",
 "felix/org.apache.felix.healthcheck.generalchecks-3.0.8-source-release.zip"
 ],
 "org.apache.felix.healthcheck.webconsoleplugin-2.2.0": [
-"felix/org.apache.felix.healthcheck.webconsoleplugin-2.2.0-source-release.zip",
-"felix/org.apache.felix.healthcheck.webconsoleplugin-2.2.0-source-release.tar.gz"
+"felix/org.apache.felix.healthcheck.webconsoleplugin-2.2.0-source-release.tar.gz",
+"felix/org.apache.felix.healthcheck.webconsoleplugin-2.2.0-source-release.zip"
 ],
 "org.apache.felix.http.api-3.0.0": [
 "felix/org.apache.felix.http.api-3.0.0-source-release.tar.gz",
@@ -2716,36 +2698,36 @@
 "felix/org.apache.felix.http.base-4.2.10-source-release.zip"
 ],
 "org.apache.felix.http.base-5.1.0": [
-"felix/org.apache.felix.http.base-5.1.0-source-release.zip",
-"felix/org.apache.felix.http.base-5.1.0-source-release.tar.gz"
+"felix/org.apache.felix.http.base-5.1.0-source-release.tar.gz",
+"felix/org.apache.felix.http.base-5.1.0-source-release.zip"
 ],
 "org.apache.felix.http.bridge-4.2.12": [
-"felix/org.apache.felix.http.bridge-4.2.12-source-release.zip",
-"felix/org.apache.felix.http.bridge-4.2.12-source-release.tar.gz"
+"felix/org.apache.felix.http.bridge-4.2.12-source-release.tar.gz",
+"felix/org.apache.felix.http.bridge-4.2.12-source-release.zip"
 ],
 "org.apache.felix.http.bridge-5.1.0": [
-"felix/org.apache.felix.http.bridge-5.1.0-source-release.zip",
-"felix/org.apache.felix.http.bridge-5.1.0-source-release.tar.gz"
+"felix/org.apache.felix.http.bridge-5.1.0-source-release.tar.gz",
+"felix/org.apache.felix.http.bridge-5.1.0-source-release.zip"
 ],
 "org.apache.felix.http.bundle-3.0.0": [
 "felix/org.apache.felix.http.bundle-3.0.0-source-release.tar.gz",
 "felix/org.apache.felix.http.bundle-3.0.0-source-release.zip"
 ],
 "org.apache.felix.http.inventoryprinter-1.0.0": [
-"felix/org.apache.felix.http.inventoryprinter-1.0.0-source-release.zip",
-"felix/org.apache.felix.http.inventoryprinter-1.0.0-source-release.tar.gz"
+"felix/org.apache.felix.http.inventoryprinter-1.0.0-source-release.tar.gz",
+"felix/org.apache.felix.http.inventoryprinter-1.0.0-source-release.zip"
 ],
 "org.apache.felix.http.jetty-4.2.18": [
 "felix/org.apache.felix.http.jetty-4.2.18-source-release.tar.gz",
 "felix/org.apache.felix.http.jetty-4.2.18-source-release.zip"
 ],
 "org.apache.felix.http.jetty-5.1.0": [
-"felix/org.apache.felix.http.jetty-5.1.0-source-release.zip",
-"felix/org.apache.felix.http.jetty-5.1.0-source-release.tar.gz"
+"felix/org.apache.felix.http.jetty-5.1.0-source-release.tar.gz",
+"felix/org.apache.felix.http.jetty-5.1.0-source-release.zip"
 ],
 "org.apache.felix.http.proxy-4.0.0": [
-"felix/org.apache.felix.http.proxy-4.0.0-source-release.zip",
-"felix/org.apache.felix.http.proxy-4.0.0-source-release.tar.gz"
+"felix/org.apache.felix.http.proxy-4.0.0-source-release.tar.gz",
+"felix/org.apache.felix.http.proxy-4.0.0-source-release.zip"
 ],
 "org.apache.felix.http.servlet-api-2.1.0": [
 "felix/org.apache.felix.http.servlet-api-2.1.0-source-release.tar.gz",
@@ -2756,32 +2738,32 @@
 "felix/org.apache.felix.http.sslfilter-2.0.2-source-release.zip"
 ],
 "org.apache.felix.http.webconsoleplugin-1.1.0": [
-"felix/org.apache.felix.http.webconsoleplugin-1.1.0-source-release.zip",
-"felix/org.apache.felix.http.webconsoleplugin-1.1.0-source-release.tar.gz"
+"felix/org.apache.felix.http.webconsoleplugin-1.1.0-source-release.tar.gz",
+"felix/org.apache.felix.http.webconsoleplugin-1.1.0-source-release.zip"
 ],
 "org.apache.felix.http.whiteboard-4.0.0": [
-"felix/org.apache.felix.http.whiteboard-4.0.0-source-release.zip",
-"felix/org.apache.felix.http.whiteboard-4.0.0-source-release.tar.gz"
+"felix/org.apache.felix.http.whiteboard-4.0.0-source-release.tar.gz",
+"felix/org.apache.felix.http.whiteboard-4.0.0-source-release.zip"
 ],
 "org.apache.felix.http.wrappers-1.0.0": [
-"felix/org.apache.felix.http.wrappers-1.0.0-source-release.zip",
-"felix/org.apache.felix.http.wrappers-1.0.0-source-release.tar.gz"
+"felix/org.apache.felix.http.wrappers-1.0.0-source-release.tar.gz",
+"felix/org.apache.felix.http.wrappers-1.0.0-source-release.zip"
 ],
 "org.apache.felix.httplite.complete-0.1.4": [
 "felix/org.apache.felix.httplite.complete-0.1.4-source-release.tar.gz",
 "felix/org.apache.felix.httplite.complete-0.1.4-source-release.zip"
 ],
 "org.apache.felix.httplite.core-0.1.4": [
-"felix/org.apache.felix.httplite.core-0.1.4-source-release.zip",
-"felix/org.apache.felix.httplite.core-0.1.4-source-release.tar.gz"
+"felix/org.apache.felix.httplite.core-0.1.4-source-release.tar.gz",
+"felix/org.apache.felix.httplite.core-0.1.4-source-release.zip"
 ],
 "org.apache.felix.inventory-2.0.0": [
 "felix/org.apache.felix.inventory-2.0.0-source-release.tar.gz",
 "felix/org.apache.felix.inventory-2.0.0-source-release.zip"
 ],
 "org.apache.felix.ipojo.arch-1.6.0": [
-"felix/org.apache.felix.ipojo.arch-1.6.0-project.zip",
-"felix/org.apache.felix.ipojo.arch-1.6.0-project.tar.gz"
+"felix/org.apache.felix.ipojo.arch-1.6.0-project.tar.gz",
+"felix/org.apache.felix.ipojo.arch-1.6.0-project.zip"
 ],
 "org.apache.felix.ipojo.distribution.10mintutorial-1.12.1": [
 "felix/org.apache.felix.ipojo.distribution.10mintutorial-1.12.1.zip"
@@ -2796,24 +2778,24 @@
 "felix/org.apache.felix.ipojo.features-1.12.1.zip"
 ],
 "org.apache.felix.ipojo.handler.eventadmin-1.8.0": [
-"felix/org.apache.felix.ipojo.handler.eventadmin-1.8.0-project.zip",
-"felix/org.apache.felix.ipojo.handler.eventadmin-1.8.0-project.tar.gz"
+"felix/org.apache.felix.ipojo.handler.eventadmin-1.8.0-project.tar.gz",
+"felix/org.apache.felix.ipojo.handler.eventadmin-1.8.0-project.zip"
 ],
 "org.apache.felix.ipojo.handler.extender-1.4.0": [
-"felix/org.apache.felix.ipojo.handler.extender-1.4.0-project.zip",
-"felix/org.apache.felix.ipojo.handler.extender-1.4.0-project.tar.gz"
+"felix/org.apache.felix.ipojo.handler.extender-1.4.0-project.tar.gz",
+"felix/org.apache.felix.ipojo.handler.extender-1.4.0-project.zip"
 ],
 "org.apache.felix.ipojo.handler.jmx-1.4.0": [
 "felix/org.apache.felix.ipojo.handler.jmx-1.4.0-project.tar.gz",
 "felix/org.apache.felix.ipojo.handler.jmx-1.4.0-project.zip"
 ],
 "org.apache.felix.ipojo.handler.temporal-1.6.0": [
-"felix/org.apache.felix.ipojo.handler.temporal-1.6.0-project.zip",
-"felix/org.apache.felix.ipojo.handler.temporal-1.6.0-project.tar.gz"
+"felix/org.apache.felix.ipojo.handler.temporal-1.6.0-project.tar.gz",
+"felix/org.apache.felix.ipojo.handler.temporal-1.6.0-project.zip"
 ],
 "org.apache.felix.ipojo.handler.whiteboard-1.6.0": [
-"felix/org.apache.felix.ipojo.handler.whiteboard-1.6.0-project.zip",
-"felix/org.apache.felix.ipojo.handler.whiteboard-1.6.0-project.tar.gz"
+"felix/org.apache.felix.ipojo.handler.whiteboard-1.6.0-project.tar.gz",
+"felix/org.apache.felix.ipojo.handler.whiteboard-1.6.0-project.zip"
 ],
 "org.apache.felix.ipojo.junit4osgi-1.0.0": [
 "felix/org.apache.felix.ipojo.junit4osgi-1.0.0-project.tar.gz",
@@ -2824,36 +2806,36 @@
 "felix/org.apache.felix.ipojo.junit4osgi.felix-command-1.0.0-project.zip"
 ],
 "org.apache.felix.ipojo.junit4osgi.swing-gui-1.0.0": [
-"felix/org.apache.felix.ipojo.junit4osgi.swing-gui-1.0.0-project.zip",
-"felix/org.apache.felix.ipojo.junit4osgi.swing-gui-1.0.0-project.tar.gz"
+"felix/org.apache.felix.ipojo.junit4osgi.swing-gui-1.0.0-project.tar.gz",
+"felix/org.apache.felix.ipojo.junit4osgi.swing-gui-1.0.0-project.zip"
 ],
 "org.apache.felix.ipojo.manipulator-1.12.1": [
-"felix/org.apache.felix.ipojo.manipulator-project-1.12.1-source-release.zip",
-"felix/org.apache.felix.ipojo.manipulator-project-1.12.1-source-release.tar.gz"
+"felix/org.apache.felix.ipojo.manipulator-project-1.12.1-source-release.tar.gz",
+"felix/org.apache.felix.ipojo.manipulator-project-1.12.1-source-release.zip"
 ],
 "org.apache.felix.ipojo.metadata-1.6.0": [
-"felix/org.apache.felix.ipojo.metadata-1.6.0-project.zip",
-"felix/org.apache.felix.ipojo.metadata-1.6.0-project.tar.gz"
+"felix/org.apache.felix.ipojo.metadata-1.6.0-project.tar.gz",
+"felix/org.apache.felix.ipojo.metadata-1.6.0-project.zip"
 ],
 "org.apache.felix.ipojo.runtime-1.12.1": [
 "felix/org.apache.felix.ipojo.runtime-project-1.12.1-source-release.tar.gz",
 "felix/org.apache.felix.ipojo.runtime-project-1.12.1-source-release.zip"
 ],
 "org.apache.felix.ipojo.webconsole-1.7.0": [
-"felix/org.apache.felix.ipojo.webconsole-1.7.0-source-release.zip",
-"felix/org.apache.felix.ipojo.webconsole-1.7.0-source-release.tar.gz"
+"felix/org.apache.felix.ipojo.webconsole-1.7.0-source-release.tar.gz",
+"felix/org.apache.felix.ipojo.webconsole-1.7.0-source-release.zip"
 ],
 "org.apache.felix.jaas-1.0.2": [
 "felix/org.apache.felix.jaas-1.0.2-source-release.tar.gz",
 "felix/org.apache.felix.jaas-1.0.2-source-release.zip"
 ],
 "org.apache.felix.log-1.3.0": [
-"felix/org.apache.felix.log-1.3.0-source-release.zip",
-"felix/org.apache.felix.log-1.3.0-source-release.tar.gz"
+"felix/org.apache.felix.log-1.3.0-source-release.tar.gz",
+"felix/org.apache.felix.log-1.3.0-source-release.zip"
 ],
 "org.apache.felix.log.extension-1.0.0": [
-"felix/org.apache.felix.log.extension-1.0.0-source-release.zip",
-"felix/org.apache.felix.log.extension-1.0.0-source-release.tar.gz"
+"felix/org.apache.felix.log.extension-1.0.0-source-release.tar.gz",
+"felix/org.apache.felix.log.extension-1.0.0-source-release.zip"
 ],
 "org.apache.felix.logback-1.0.6": [
 "felix/org.apache.felix.logback-1.0.6-source-release.tar.gz",
@@ -2864,18 +2846,18 @@
 "felix/org.apache.felix.main-7.0.5-source-release.zip"
 ],
 "org.apache.felix.main.distribution-7.0.5": [
+"felix/org.apache.felix.main.distribution-7.0.5-source-release.tar.gz",
 "felix/org.apache.felix.main.distribution-7.0.5-source-release.zip",
 "felix/org.apache.felix.main.distribution-7.0.5.tar.gz",
-"felix/org.apache.felix.main.distribution-7.0.5.zip",
-"felix/org.apache.felix.main.distribution-7.0.5-source-release.tar.gz"
+"felix/org.apache.felix.main.distribution-7.0.5.zip"
 ],
 "org.apache.felix.metatype-1.2.4": [
-"felix/org.apache.felix.metatype-1.2.4-source-release.zip",
-"felix/org.apache.felix.metatype-1.2.4-source-release.tar.gz"
+"felix/org.apache.felix.metatype-1.2.4-source-release.tar.gz",
+"felix/org.apache.felix.metatype-1.2.4-source-release.zip"
 ],
 "org.apache.felix.prefs-1.1.0": [
-"felix/org.apache.felix.prefs-1.1.0-source-release.zip",
-"felix/org.apache.felix.prefs-1.1.0-source-release.tar.gz"
+"felix/org.apache.felix.prefs-1.1.0-source-release.tar.gz",
+"felix/org.apache.felix.prefs-1.1.0-source-release.zip"
 ],
 "org.apache.felix.resolver-2.0.4": [
 "felix/org.apache.felix.resolver-2.0.4-source-release.tar.gz",
@@ -2906,24 +2888,24 @@
 "felix/org.apache.felix.scr.compat-1.0.4-source-release.zip"
 ],
 "org.apache.felix.scr.ds-annotations-1.2.10": [
-"felix/org.apache.felix.scr.ds-annotations-1.2.10-source-release.zip",
-"felix/org.apache.felix.scr.ds-annotations-1.2.10-source-release.tar.gz"
+"felix/org.apache.felix.scr.ds-annotations-1.2.10-source-release.tar.gz",
+"felix/org.apache.felix.scr.ds-annotations-1.2.10-source-release.zip"
 ],
 "org.apache.felix.scr.ext.anno-1.0.0": [
 "felix/org.apache.felix.scr.ext.anno-1.0.0-source-release.tar.gz",
 "felix/org.apache.felix.scr.ext.anno-1.0.0-source-release.zip"
 ],
 "org.apache.felix.scr.generator-1.18.4": [
-"felix/org.apache.felix.scr.generator-1.18.4-source-release.zip",
-"felix/org.apache.felix.scr.generator-1.18.4-source-release.tar.gz"
+"felix/org.apache.felix.scr.generator-1.18.4-source-release.tar.gz",
+"felix/org.apache.felix.scr.generator-1.18.4-source-release.zip"
 ],
 "org.apache.felix.servicediagnostics.plugin-0.1.3": [
 "felix/org.apache.felix.servicediagnostics.plugin-0.1.3-source-release.tar.gz",
 "felix/org.apache.felix.servicediagnostics.plugin-0.1.3-source-release.zip"
 ],
 "org.apache.felix.shell-1.4.3": [
-"felix/org.apache.felix.shell-1.4.3-source-release.zip",
-"felix/org.apache.felix.shell-1.4.3-source-release.tar.gz"
+"felix/org.apache.felix.shell-1.4.3-source-release.tar.gz",
+"felix/org.apache.felix.shell-1.4.3-source-release.zip"
 ],
 "org.apache.felix.shell.remote-1.1.2": [
 "felix/org.apache.felix.shell.remote-1.1.2-project.tar.gz",
@@ -2942,44 +2924,44 @@
 "felix/org.apache.felix.threaddump-1.0.0-source-release.zip"
 ],
 "org.apache.felix.upnp.basedriver-0.8.0": [
-"felix/org.apache.felix.upnp.basedriver-0.8.0-project.zip",
-"felix/org.apache.felix.upnp.basedriver-0.8.0-project.tar.gz"
+"felix/org.apache.felix.upnp.basedriver-0.8.0-project.tar.gz",
+"felix/org.apache.felix.upnp.basedriver-0.8.0-project.zip"
 ],
 "org.apache.felix.upnp.extra-0.4.0": [
-"felix/org.apache.felix.upnp.extra-0.4.0-project.zip",
-"felix/org.apache.felix.upnp.extra-0.4.0-project.tar.gz"
+"felix/org.apache.felix.upnp.extra-0.4.0-project.tar.gz",
+"felix/org.apache.felix.upnp.extra-0.4.0-project.zip"
 ],
 "org.apache.felix.upnp.tester-0.4.0": [
-"felix/org.apache.felix.upnp.tester-0.4.0-project.zip",
-"felix/org.apache.felix.upnp.tester-0.4.0-project.tar.gz"
+"felix/org.apache.felix.upnp.tester-0.4.0-project.tar.gz",
+"felix/org.apache.felix.upnp.tester-0.4.0-project.zip"
 ],
 "org.apache.felix.useradmin-1.0.4": [
-"felix/org.apache.felix.useradmin-1.0.4-source-release.zip",
-"felix/org.apache.felix.useradmin-1.0.4-source-release.tar.gz"
+"felix/org.apache.felix.useradmin-1.0.4-source-release.tar.gz",
+"felix/org.apache.felix.useradmin-1.0.4-source-release.zip"
 ],
 "org.apache.felix.useradmin.filestore-1.0.2": [
 "felix/org.apache.felix.useradmin.filestore-1.0.2-project.tar.gz",
 "felix/org.apache.felix.useradmin.filestore-1.0.2-project.zip"
 ],
 "org.apache.felix.useradmin.mongodb-1.0.1": [
-"felix/org.apache.felix.useradmin.mongodb-1.0.1-project.zip",
-"felix/org.apache.felix.useradmin.mongodb-1.0.1-project.tar.gz"
+"felix/org.apache.felix.useradmin.mongodb-1.0.1-project.tar.gz",
+"felix/org.apache.felix.useradmin.mongodb-1.0.1-project.zip"
 ],
 "org.apache.felix.utils-1.11.8": [
-"felix/org.apache.felix.utils-1.11.8-source-release.zip",
-"felix/org.apache.felix.utils-1.11.8-source-release.tar.gz"
+"felix/org.apache.felix.utils-1.11.8-source-release.tar.gz",
+"felix/org.apache.felix.utils-1.11.8-source-release.zip"
 ],
 "org.apache.felix.webconsole-4.9.4": [
-"felix/org.apache.felix.webconsole-4.9.4-source-release.zip",
-"felix/org.apache.felix.webconsole-4.9.4-source-release.tar.gz"
+"felix/org.apache.felix.webconsole-4.9.4-source-release.tar.gz",
+"felix/org.apache.felix.webconsole-4.9.4-source-release.zip"
 ],
 "org.apache.felix.webconsole.plugins.ds-2.3.0": [
 "felix/org.apache.felix.webconsole.plugins.ds-2.3.0-source-release.tar.gz",
 "felix/org.apache.felix.webconsole.plugins.ds-2.3.0-source-release.zip"
 ],
 "org.apache.felix.webconsole.plugins.event-1.2.0": [
-"felix/org.apache.felix.webconsole.plugins.event-1.2.0-source-release.zip",
-"felix/org.apache.felix.webconsole.plugins.event-1.2.0-source-release.tar.gz"
+"felix/org.apache.felix.webconsole.plugins.event-1.2.0-source-release.tar.gz",
+"felix/org.apache.felix.webconsole.plugins.event-1.2.0-source-release.zip"
 ],
 "org.apache.felix.webconsole.plugins.memoryusage-1.1.0": [
 "felix/org.apache.felix.webconsole.plugins.memoryusage-1.1.0-source-release.tar.gz",
@@ -2990,40 +2972,40 @@
 "felix/org.apache.felix.webconsole.plugins.obr-1.1.0-source-release.zip"
 ],
 "org.apache.felix.webconsole.plugins.packageadmin-1.1.0": [
-"felix/org.apache.felix.webconsole.plugins.packageadmin-1.1.0-source-release.zip",
-"felix/org.apache.felix.webconsole.plugins.packageadmin-1.1.0-source-release.tar.gz"
+"felix/org.apache.felix.webconsole.plugins.packageadmin-1.1.0-source-release.tar.gz",
+"felix/org.apache.felix.webconsole.plugins.packageadmin-1.1.0-source-release.zip"
 ],
 "org.apache.felix.webconsole.plugins.scriptconsole-1.0.2": [
-"felix/org.apache.felix.webconsole.plugins.scriptconsole-1.0.2-source-release.zip",
-"felix/org.apache.felix.webconsole.plugins.scriptconsole-1.0.2-source-release.tar.gz"
+"felix/org.apache.felix.webconsole.plugins.scriptconsole-1.0.2-source-release.tar.gz",
+"felix/org.apache.felix.webconsole.plugins.scriptconsole-1.0.2-source-release.zip"
 ],
 "org.apache.felix.webconsole.plugins.subsystems-0.1.0": [
-"felix/org.apache.felix.webconsole.plugins.subsystems-0.1.0-source-release.zip",
-"felix/org.apache.felix.webconsole.plugins.subsystems-0.1.0-source-release.tar.gz"
+"felix/org.apache.felix.webconsole.plugins.subsystems-0.1.0-source-release.tar.gz",
+"felix/org.apache.felix.webconsole.plugins.subsystems-0.1.0-source-release.zip"
 ],
 "org.apache.felix.webconsole.plugins.upnp-1.0.6": [
 "felix/org.apache.felix.webconsole.plugins.upnp-1.0.6-source-release.tar.gz",
 "felix/org.apache.felix.webconsole.plugins.upnp-1.0.6-source-release.zip"
 ],
 "org.apache.felix.webconsole.plugins.useradmin-1.0.2": [
-"felix/org.apache.felix.webconsole.plugins.useradmin-1.0.2-source-release.zip",
-"felix/org.apache.felix.webconsole.plugins.useradmin-1.0.2-source-release.tar.gz"
+"felix/org.apache.felix.webconsole.plugins.useradmin-1.0.2-source-release.tar.gz",
+"felix/org.apache.felix.webconsole.plugins.useradmin-1.0.2-source-release.zip"
 ],
 "org.osgi.compendium-1.4.0": [
-"felix/org.osgi.compendium-1.4.0-project.zip",
-"felix/org.osgi.compendium-1.4.0-project.tar.gz"
+"felix/org.osgi.compendium-1.4.0-project.tar.gz",
+"felix/org.osgi.compendium-1.4.0-project.zip"
 ],
 "org.osgi.core-1.4.0": [
-"felix/org.osgi.core-1.4.0-project.zip",
-"felix/org.osgi.core-1.4.0-project.tar.gz"
+"felix/org.osgi.core-1.4.0-project.tar.gz",
+"felix/org.osgi.core-1.4.0-project.zip"
 ],
 "org.osgi.foundation-1.2.0": [
 "felix/org.osgi.foundation-1.2.0-project.tar.gz",
 "felix/org.osgi.foundation-1.2.0-project.zip"
 ],
 "org.osgi.service.obr-1.0.2": [
-"felix/org.osgi.service.obr-1.0.2-project.zip",
-"felix/org.osgi.service.obr-1.0.2-project.tar.gz"
+"felix/org.osgi.service.obr-1.0.2-project.tar.gz",
+"felix/org.osgi.service.obr-1.0.2-project.zip"
 ],
 "osgicheck-maven-plugin-0.1.0": [
 "felix/osgicheck-maven-plugin-0.1.0-source-release.tar.gz",
@@ -3046,26 +3028,26 @@
 },
 "flagon": {
 "apache-flagon-useralejs-incubating-2.3.0": [
-"flagon/apache-flagon-useralejs-incubating-2.3.0/apache-flagon-useralejs-incubating-2.3.0-src.zip",
-"flagon/apache-flagon-useralejs-incubating-2.3.0/apache-flagon-useralejs-incubating-2.3.0-src.tar.gz"
+"flagon/apache-flagon-useralejs-incubating-2.3.0/apache-flagon-useralejs-incubating-2.3.0-src.tar.gz",
+"flagon/apache-flagon-useralejs-incubating-2.3.0/apache-flagon-useralejs-incubating-2.3.0-src.zip"
 ]
 },
 "flex": {
 "apache-flex-falconjx-0.8.0": [
-"flex/falcon/0.8.0/apache-flex-falconjx-0.8.0-src.zip",
-"flex/falcon/0.8.0/apache-flex-falconjx-0.8.0-src.tar.gz"
+"flex/falcon/0.8.0/apache-flex-falconjx-0.8.0-src.tar.gz",
+"flex/falcon/0.8.0/apache-flex-falconjx-0.8.0-src.zip"
 ],
 "apache-flex-flexjs-0.8.0": [
-"flex/flexjs/0.8.0/apache-flex-flexjs-0.8.0-src.zip",
-"flex/flexjs/0.8.0/apache-flex-flexjs-0.8.0-src.tar.gz"
+"flex/flexjs/0.8.0/apache-flex-flexjs-0.8.0-src.tar.gz",
+"flex/flexjs/0.8.0/apache-flex-flexjs-0.8.0-src.zip"
 ],
 "apache-flex-flexunit-4.2.0-4.12.0": [
-"flex/flexunit/4.2.0/apache-flex-flexunit-4.2.0-4.12.0-src.zip",
-"flex/flexunit/4.2.0/apache-flex-flexunit-4.2.0-4.12.0-src.tar.gz"
+"flex/flexunit/4.2.0/apache-flex-flexunit-4.2.0-4.12.0-src.tar.gz",
+"flex/flexunit/4.2.0/apache-flex-flexunit-4.2.0-4.12.0-src.zip"
 ],
 "apache-flex-sdk-4.16.1": [
-"flex/4.16.1/apache-flex-sdk-4.16.1-src.zip",
-"flex/4.16.1/apache-flex-sdk-4.16.1-src.tar.gz"
+"flex/4.16.1/apache-flex-sdk-4.16.1-src.tar.gz",
+"flex/4.16.1/apache-flex-sdk-4.16.1-src.zip"
 ],
 "apache-flex-sdk-converter-1.1.0": [
 "flex/flex-maven-tools/flex-sdk-converter/1.1.0/apache-flex-sdk-converter-1.1.0-source-release.zip"
@@ -3083,12 +3065,12 @@
 "flex/squiggly/1.1/apache-flex-squiggly-1.1-src.zip"
 ],
 "apache-flex-tour-de-flex-component-explorer-1.2": [
-"flex/tourdeflex/1.2/apache-flex-tour-de-flex-component-explorer-1.2-src.zip",
-"flex/tourdeflex/1.2/apache-flex-tour-de-flex-component-explorer-1.2-src.tar.gz"
+"flex/tourdeflex/1.2/apache-flex-tour-de-flex-component-explorer-1.2-src.tar.gz",
+"flex/tourdeflex/1.2/apache-flex-tour-de-flex-component-explorer-1.2-src.zip"
 ],
 "blazeds-4.8.0": [
-"flex/BlazeDS/4.8.0/blazeds-4.8.0-source-release.zip",
-"flex/BlazeDS/4.8.0/blazeds-4.8.0-source-release.tar.gz"
+"flex/BlazeDS/4.8.0/blazeds-4.8.0-source-release.tar.gz",
+"flex/BlazeDS/4.8.0/blazeds-4.8.0-source-release.zip"
 ]
 },
 "flink": {
@@ -3249,12 +3231,12 @@
 },
 "geode": {
 "apache-geode-1.13.8": [
-"geode/1.13.8/apache-geode-1.13.8.tgz",
-"geode/1.13.8/apache-geode-1.13.8-src.tgz"
+"geode/1.13.8/apache-geode-1.13.8-src.tgz",
+"geode/1.13.8/apache-geode-1.13.8.tgz"
 ],
 "apache-geode-1.14.4": [
-"geode/1.14.4/apache-geode-1.14.4.tgz",
-"geode/1.14.4/apache-geode-1.14.4-src.tgz"
+"geode/1.14.4/apache-geode-1.14.4-src.tgz",
+"geode/1.14.4/apache-geode-1.14.4.tgz"
 ],
 "apache-geode-1.15.1": [
 "geode/1.15.1/apache-geode-1.15.1-src.tgz",
@@ -3386,25 +3368,25 @@
 "giraph/giraph-1.0.0/giraph-1.0.0.tar.gz"
 ],
 "giraph-dist-1.1.0": [
-"giraph/giraph-1.1.0/giraph-dist-1.1.0-src.zip",
+"giraph/giraph-1.1.0/giraph-dist-1.1.0-src.tar.bz2",
 "giraph/giraph-1.1.0/giraph-dist-1.1.0-src.tar.gz",
-"giraph/giraph-1.1.0/giraph-dist-1.1.0-src.tar.bz2"
+"giraph/giraph-1.1.0/giraph-dist-1.1.0-src.zip"
 ],
 "giraph-dist-1.2.0": [
-"giraph/giraph-1.2.0/giraph-dist-1.2.0-hadoop2-src.tar.gz",
 "giraph/giraph-1.2.0/giraph-dist-1.2.0-hadoop2-src.tar.bz2",
+"giraph/giraph-1.2.0/giraph-dist-1.2.0-hadoop2-src.tar.gz",
 "giraph/giraph-1.2.0/giraph-dist-1.2.0-hadoop2-src.zip",
 "giraph/giraph-1.2.0/giraph-dist-1.2.0-src.tar.bz2",
-"giraph/giraph-1.2.0/giraph-dist-1.2.0-src.zip",
-"giraph/giraph-1.2.0/giraph-dist-1.2.0-src.tar.gz"
+"giraph/giraph-1.2.0/giraph-dist-1.2.0-src.tar.gz",
+"giraph/giraph-1.2.0/giraph-dist-1.2.0-src.zip"
 ],
 "giraph-dist-1.3.0": [
+"giraph/giraph-1.3.0/giraph-dist-1.3.0-hadoop1-src.tar.bz2",
 "giraph/giraph-1.3.0/giraph-dist-1.3.0-hadoop1-src.tar.gz",
-"giraph/giraph-1.3.0/giraph-dist-1.3.0-hadoop2-src.tar.gz",
-"giraph/giraph-1.3.0/giraph-dist-1.3.0-hadoop2-src.zip",
-"giraph/giraph-1.3.0/giraph-dist-1.3.0-hadoop2-src.tar.bz2",
 "giraph/giraph-1.3.0/giraph-dist-1.3.0-hadoop1-src.zip",
-"giraph/giraph-1.3.0/giraph-dist-1.3.0-hadoop1-src.tar.bz2"
+"giraph/giraph-1.3.0/giraph-dist-1.3.0-hadoop2-src.tar.bz2",
+"giraph/giraph-1.3.0/giraph-dist-1.3.0-hadoop2-src.tar.gz",
+"giraph/giraph-1.3.0/giraph-dist-1.3.0-hadoop2-src.zip"
 ]
 },
 "gobblin": {
@@ -3490,75 +3472,53 @@
 },
 "hadoop": {
 "hadoop-2.10.1": [
-"hadoop/common/hadoop-2.10.1/hadoop-2.10.1.tar.gz",
 "hadoop/common/hadoop-2.10.1/hadoop-2.10.1-src.tar.gz",
-"hadoop/common/hadoop-2.10.1/hadoop-2.10.1-site.tar.gz"
+"hadoop/common/hadoop-2.10.1/hadoop-2.10.1.tar.gz"
 ],
 "hadoop-2.10.2": [
-"hadoop/common/hadoop-2.10.2/hadoop-2.10.2.tar.gz",
-"hadoop/common/hadoop-2.10.2/hadoop-2.10.2-site.tar.gz",
-"hadoop/common/hadoop-2.10.2/hadoop-2.10.2-src.tar.gz"
+"hadoop/common/hadoop-2.10.2/hadoop-2.10.2-src.tar.gz",
+"hadoop/common/hadoop-2.10.2/hadoop-2.10.2.tar.gz"
 ],
 "hadoop-3.2.3": [
 "hadoop/common/hadoop-3.2.3/hadoop-3.2.3-src.tar.gz",
-"hadoop/common/hadoop-3.2.3/hadoop-3.2.3.tar.gz",
-"hadoop/common/hadoop-3.2.3/hadoop-3.2.3-site.tar.gz"
+"hadoop/common/hadoop-3.2.3/hadoop-3.2.3.tar.gz"
 ],
 "hadoop-3.2.4": [
-"hadoop/common/hadoop-3.2.4/hadoop-3.2.4-site.tar.gz",
 "hadoop/common/hadoop-3.2.4/hadoop-3.2.4-src.tar.gz",
 "hadoop/common/hadoop-3.2.4/hadoop-3.2.4.tar.gz"
 ],
 "hadoop-3.3.1": [
-"hadoop/common/hadoop-3.3.1/hadoop-3.3.1-site.tar.gz",
 "hadoop/common/hadoop-3.3.1/hadoop-3.3.1-src.tar.gz",
 "hadoop/common/hadoop-3.3.1/hadoop-3.3.1.tar.gz"
 ],
-"hadoop-3.3.1-aarch64": [
-"hadoop/common/hadoop-3.3.1/hadoop-3.3.1-aarch64.tar.gz"
-],
 "hadoop-3.3.2": [
-"hadoop/common/hadoop-3.3.2/hadoop-3.3.2.tar.gz",
-"hadoop/common/hadoop-3.3.2/hadoop-3.3.2-site.tar.gz",
-"hadoop/common/hadoop-3.3.2/hadoop-3.3.2-src.tar.gz"
+"hadoop/common/hadoop-3.3.2/hadoop-3.3.2-src.tar.gz",
+"hadoop/common/hadoop-3.3.2/hadoop-3.3.2.tar.gz"
 ],
 "hadoop-3.3.3": [
-"hadoop/common/hadoop-3.3.3/hadoop-3.3.3.tar.gz",
 "hadoop/common/hadoop-3.3.3/hadoop-3.3.3-src.tar.gz",
-"hadoop/common/hadoop-3.3.3/hadoop-3.3.3-site.tar.gz"
+"hadoop/common/hadoop-3.3.3/hadoop-3.3.3.tar.gz"
 ],
 "hadoop-3.3.4": [
 "hadoop/common/hadoop-3.3.4/hadoop-3.3.4-src.tar.gz",
-"hadoop/common/hadoop-3.3.4/hadoop-3.3.4.tar.gz",
-"hadoop/common/hadoop-3.3.4/hadoop-3.3.4-site.tar.gz"
+"hadoop/common/hadoop-3.3.4/hadoop-3.3.4.tar.gz"
 ],
 "hadoop-3.3.5": [
 "hadoop/common/hadoop-3.3.5/hadoop-3.3.5-src.tar.gz",
-"hadoop/common/hadoop-3.3.5/hadoop-3.3.5-site.tar.gz",
 "hadoop/common/hadoop-3.3.5/hadoop-3.3.5.tar.gz"
-],
-"hadoop-3.3.5-aarch64": [
-"hadoop/common/hadoop-3.3.5/hadoop-3.3.5-aarch64.tar.gz"
 ],
 "hadoop-3.3.6": [
 "hadoop/common/hadoop-3.3.6/hadoop-3.3.6-src.tar.gz",
-"hadoop/common/hadoop-3.3.6/hadoop-3.3.6.tar.gz",
-"hadoop/common/hadoop-3.3.6/hadoop-3.3.6-site.tar.gz"
-],
-"hadoop-3.3.6-aarch64": [
-"hadoop/common/hadoop-3.3.6/hadoop-3.3.6-aarch64.tar.gz"
+"hadoop/common/hadoop-3.3.6/hadoop-3.3.6.tar.gz"
 ],
 "hadoop-thirdparty-1.0.0": [
-"hadoop/thirdparty/thirdparty-1.0.0/hadoop-thirdparty-1.0.0-site.tar.gz",
 "hadoop/thirdparty/thirdparty-1.0.0/hadoop-thirdparty-1.0.0-src.tar.gz"
 ],
 "hadoop-thirdparty-1.1.0": [
-"hadoop/thirdparty/thirdparty-1.1.0/hadoop-thirdparty-1.1.0-src.tar.gz",
-"hadoop/thirdparty/thirdparty-1.1.0/hadoop-thirdparty-1.1.0-site.tar.gz"
+"hadoop/thirdparty/thirdparty-1.1.0/hadoop-thirdparty-1.1.0-src.tar.gz"
 ],
 "hadoop-thirdparty-1.1.1": [
-"hadoop/thirdparty/thirdparty-1.1.1/hadoop-thirdparty-1.1.1-src.tar.gz",
-"hadoop/thirdparty/thirdparty-1.1.1/hadoop-thirdparty-1.1.1-site.tar.gz"
+"hadoop/thirdparty/thirdparty-1.1.1/hadoop-thirdparty-1.1.1-src.tar.gz"
 ]
 },
 "hawq": {
@@ -3693,8 +3653,8 @@
 },
 "httpcomponents": {
 "commons-httpclient-3.1": [
-"httpcomponents/commons-httpclient/source/commons-httpclient-3.1-src.zip",
-"httpcomponents/commons-httpclient/source/commons-httpclient-3.1-src.tar.gz"
+"httpcomponents/commons-httpclient/source/commons-httpclient-3.1-src.tar.gz",
+"httpcomponents/commons-httpclient/source/commons-httpclient-3.1-src.zip"
 ],
 "httpcomponents-12": [
 "httpcomponents/httpcomponents-parent/httpcomponents-parent-12-source-release.zip"
@@ -3703,68 +3663,68 @@
 "httpcomponents/httpcomponents-parent/httpcomponents-parent-13-source-release.zip"
 ],
 "httpcomponents-asyncclient-4.1.4": [
-"httpcomponents/httpasyncclient/source/httpcomponents-asyncclient-4.1.4-src.zip",
-"httpcomponents/httpasyncclient/source/httpcomponents-asyncclient-4.1.4-src.tar.gz"
+"httpcomponents/httpasyncclient/source/httpcomponents-asyncclient-4.1.4-src.tar.gz",
+"httpcomponents/httpasyncclient/source/httpcomponents-asyncclient-4.1.4-src.zip"
 ],
 "httpcomponents-asyncclient-4.1.5": [
-"httpcomponents/httpasyncclient/source/httpcomponents-asyncclient-4.1.5-src.zip",
-"httpcomponents/httpasyncclient/source/httpcomponents-asyncclient-4.1.5-src.tar.gz"
+"httpcomponents/httpasyncclient/source/httpcomponents-asyncclient-4.1.5-src.tar.gz",
+"httpcomponents/httpasyncclient/source/httpcomponents-asyncclient-4.1.5-src.zip"
 ],
 "httpcomponents-client-4.5.13": [
-"httpcomponents/httpclient/source/httpcomponents-client-4.5.13-src.zip",
-"httpcomponents/httpclient/source/httpcomponents-client-4.5.13-src.tar.gz"
+"httpcomponents/httpclient/source/httpcomponents-client-4.5.13-src.tar.gz",
+"httpcomponents/httpclient/source/httpcomponents-client-4.5.13-src.zip"
 ],
 "httpcomponents-client-4.5.14": [
-"httpcomponents/httpclient/source/httpcomponents-client-4.5.14-src.zip",
-"httpcomponents/httpclient/source/httpcomponents-client-4.5.14-src.tar.gz"
+"httpcomponents/httpclient/source/httpcomponents-client-4.5.14-src.tar.gz",
+"httpcomponents/httpclient/source/httpcomponents-client-4.5.14-src.zip"
 ],
 "httpcomponents-client-5.0.4": [
-"httpcomponents/httpclient/source/httpcomponents-client-5.0.4-src.zip",
-"httpcomponents/httpclient/source/httpcomponents-client-5.0.4-src.tar.gz"
+"httpcomponents/httpclient/source/httpcomponents-client-5.0.4-src.tar.gz",
+"httpcomponents/httpclient/source/httpcomponents-client-5.0.4-src.zip"
 ],
 "httpcomponents-client-5.1.3": [
 "httpcomponents/httpclient/source/httpcomponents-client-5.1.3-src.tar.gz",
 "httpcomponents/httpclient/source/httpcomponents-client-5.1.3-src.zip"
 ],
 "httpcomponents-client-5.1.4": [
-"httpcomponents/httpclient/source/httpcomponents-client-5.1.4-src.zip",
-"httpcomponents/httpclient/source/httpcomponents-client-5.1.4-src.tar.gz"
+"httpcomponents/httpclient/source/httpcomponents-client-5.1.4-src.tar.gz",
+"httpcomponents/httpclient/source/httpcomponents-client-5.1.4-src.zip"
 ],
 "httpcomponents-client-5.2": [
-"httpcomponents/httpclient/source/httpcomponents-client-5.2-src.zip",
-"httpcomponents/httpclient/source/httpcomponents-client-5.2-src.tar.gz"
+"httpcomponents/httpclient/source/httpcomponents-client-5.2-src.tar.gz",
+"httpcomponents/httpclient/source/httpcomponents-client-5.2-src.zip"
 ],
 "httpcomponents-client-5.2-beta1": [
 "httpcomponents/httpclient/source/httpcomponents-client-5.2-beta1-src.tar.gz",
 "httpcomponents/httpclient/source/httpcomponents-client-5.2-beta1-src.zip"
 ],
 "httpcomponents-client-5.2.1": [
-"httpcomponents/httpclient/source/httpcomponents-client-5.2.1-src.zip",
-"httpcomponents/httpclient/source/httpcomponents-client-5.2.1-src.tar.gz"
+"httpcomponents/httpclient/source/httpcomponents-client-5.2.1-src.tar.gz",
+"httpcomponents/httpclient/source/httpcomponents-client-5.2.1-src.zip"
 ],
 "httpcomponents-client-5.3-alpha1": [
 "httpcomponents/httpclient/source/httpcomponents-client-5.3-alpha1-src.tar.gz",
 "httpcomponents/httpclient/source/httpcomponents-client-5.3-alpha1-src.zip"
 ],
 "httpcomponents-client-android-4.3.5.1": [
-"httpcomponents/httpclient-android/source/httpcomponents-client-android-4.3.5.1-src.zip",
-"httpcomponents/httpclient-android/source/httpcomponents-client-android-4.3.5.1-src.tar.gz"
+"httpcomponents/httpclient-android/source/httpcomponents-client-android-4.3.5.1-src.tar.gz",
+"httpcomponents/httpclient-android/source/httpcomponents-client-android-4.3.5.1-src.zip"
 ],
 "httpcomponents-core-4.4.15": [
 "httpcomponents/httpcore/source/httpcomponents-core-4.4.15-src.tar.gz",
 "httpcomponents/httpcore/source/httpcomponents-core-4.4.15-src.zip"
 ],
 "httpcomponents-core-4.4.16": [
-"httpcomponents/httpcore/source/httpcomponents-core-4.4.16-src.zip",
-"httpcomponents/httpcore/source/httpcomponents-core-4.4.16-src.tar.gz"
+"httpcomponents/httpcore/source/httpcomponents-core-4.4.16-src.tar.gz",
+"httpcomponents/httpcore/source/httpcomponents-core-4.4.16-src.zip"
 ],
 "httpcomponents-core-5.0.4": [
 "httpcomponents/httpcore/source/httpcomponents-core-5.0.4-src.tar.gz",
 "httpcomponents/httpcore/source/httpcomponents-core-5.0.4-src.zip"
 ],
 "httpcomponents-core-5.1.4": [
-"httpcomponents/httpcore/source/httpcomponents-core-5.1.4-src.zip",
-"httpcomponents/httpcore/source/httpcomponents-core-5.1.4-src.tar.gz"
+"httpcomponents/httpcore/source/httpcomponents-core-5.1.4-src.tar.gz",
+"httpcomponents/httpcore/source/httpcomponents-core-5.1.4-src.zip"
 ],
 "httpcomponents-core-5.1.5": [
 "httpcomponents/httpcore/source/httpcomponents-core-5.1.5-src.tar.gz",
@@ -3775,16 +3735,16 @@
 "httpcomponents/httpcore/source/httpcomponents-core-5.2-src.zip"
 ],
 "httpcomponents-core-5.2-beta2": [
-"httpcomponents/httpcore/source/httpcomponents-core-5.2-beta2-src.zip",
-"httpcomponents/httpcore/source/httpcomponents-core-5.2-beta2-src.tar.gz"
+"httpcomponents/httpcore/source/httpcomponents-core-5.2-beta2-src.tar.gz",
+"httpcomponents/httpcore/source/httpcomponents-core-5.2-beta2-src.zip"
 ],
 "httpcomponents-core-5.2.1": [
 "httpcomponents/httpcore/source/httpcomponents-core-5.2.1-src.tar.gz",
 "httpcomponents/httpcore/source/httpcomponents-core-5.2.1-src.zip"
 ],
 "httpcomponents-core-5.2.2": [
-"httpcomponents/httpcore/source/httpcomponents-core-5.2.2-src.zip",
-"httpcomponents/httpcore/source/httpcomponents-core-5.2.2-src.tar.gz"
+"httpcomponents/httpcore/source/httpcomponents-core-5.2.2-src.tar.gz",
+"httpcomponents/httpcore/source/httpcomponents-core-5.2.2-src.zip"
 ]
 },
 "httpd": {
@@ -3809,8 +3769,8 @@
 "httpd/mod_fcgid/mod_fcgid-2.3.9-crlf.zip"
 ],
 "mod_ftp-0.9.6-beta": [
-"httpd/mod_ftp/mod_ftp-0.9.6-beta.tar.gz",
-"httpd/mod_ftp/mod_ftp-0.9.6-beta.tar.bz2"
+"httpd/mod_ftp/mod_ftp-0.9.6-beta.tar.bz2",
+"httpd/mod_ftp/mod_ftp-0.9.6-beta.tar.gz"
 ],
 "mod_ftp-0.9.6-beta-crlf": [
 "httpd/mod_ftp/mod_ftp-0.9.6-beta-crlf.zip"
@@ -3914,8 +3874,8 @@
 "ignite/ignite-extensions/ignite-performance-statistics-ext/1.0.0/ignite-performance-statistics-ext-1.0.0-src.zip"
 ],
 "ignite-spark-ext": [
-"ignite/ignite-extensions/ignite-spark-ext/3.0.0/ignite-spark-ext-src.zip",
-"ignite/ignite-extensions/ignite-spark-ext/2.0.0/ignite-spark-ext-src.zip"
+"ignite/ignite-extensions/ignite-spark-ext/2.0.0/ignite-spark-ext-src.zip",
+"ignite/ignite-extensions/ignite-spark-ext/3.0.0/ignite-spark-ext-src.zip"
 ],
 "ignite-spring-cache-ext-1.0.0": [
 "ignite/ignite-extensions/ignite-spring-cache-ext/1.0.0/ignite-spring-cache-ext-1.0.0-src.zip"
@@ -3998,16 +3958,16 @@
 "incubator/hugegraph/1.0.0/apache-hugegraph-commons-incubating-1.0.0-src.tar.gz"
 ],
 "apache-hugegraph-computer-incubating-1.0.0": [
-"incubator/hugegraph/1.0.0/apache-hugegraph-computer-incubating-1.0.0.tar.gz",
-"incubator/hugegraph/1.0.0/apache-hugegraph-computer-incubating-1.0.0-src.tar.gz"
+"incubator/hugegraph/1.0.0/apache-hugegraph-computer-incubating-1.0.0-src.tar.gz",
+"incubator/hugegraph/1.0.0/apache-hugegraph-computer-incubating-1.0.0.tar.gz"
 ],
 "apache-hugegraph-incubating-1.0.0": [
-"incubator/hugegraph/1.0.0/apache-hugegraph-incubating-1.0.0.tar.gz",
-"incubator/hugegraph/1.0.0/apache-hugegraph-incubating-1.0.0-src.tar.gz"
+"incubator/hugegraph/1.0.0/apache-hugegraph-incubating-1.0.0-src.tar.gz",
+"incubator/hugegraph/1.0.0/apache-hugegraph-incubating-1.0.0.tar.gz"
 ],
 "apache-hugegraph-toolchain-incubating-1.0.0": [
-"incubator/hugegraph/1.0.0/apache-hugegraph-toolchain-incubating-1.0.0.tar.gz",
-"incubator/hugegraph/1.0.0/apache-hugegraph-toolchain-incubating-1.0.0-src.tar.gz"
+"incubator/hugegraph/1.0.0/apache-hugegraph-toolchain-incubating-1.0.0-src.tar.gz",
+"incubator/hugegraph/1.0.0/apache-hugegraph-toolchain-incubating-1.0.0.tar.gz"
 ]
 },
 "incubator-liminal": {
@@ -4129,8 +4089,8 @@
 "incubator/pekko/GRPC-1.0.0/apache-pekko-grpc-1.0.0-incubating-src-20230812.tgz"
 ],
 "apache-pekko-http-1.0.0-incubating-20230726": [
-"incubator/pekko/HTTP-1.0.0/apache-pekko-http-1.0.0-incubating-src-20230726.zip",
-"incubator/pekko/HTTP-1.0.0/apache-pekko-http-1.0.0-incubating-src-20230726.tgz"
+"incubator/pekko/HTTP-1.0.0/apache-pekko-http-1.0.0-incubating-src-20230726.tgz",
+"incubator/pekko/HTTP-1.0.0/apache-pekko-http-1.0.0-incubating-src-20230726.zip"
 ],
 "apache-pekko-management-1.0.0-incubating-20230805": [
 "incubator/pekko/MANAGEMENT-1.0.0/apache-pekko-management-1.0.0-incubating-src-20230805.tgz"
@@ -4324,8 +4284,8 @@
 },
 "james": {
 "apache-james-mpt-0.1": [
-"james/mpt/0.1/apache-james-mpt-0.1-src.zip",
-"james/mpt/0.1/apache-james-mpt-0.1-src.tar.gz"
+"james/mpt/0.1/apache-james-mpt-0.1-src.tar.gz",
+"james/mpt/0.1/apache-james-mpt-0.1-src.zip"
 ],
 "apache-jdkim-0.3": [
 "james/jdkim/apache-jdkim-project-0.3-source-release.zip"
@@ -4374,31 +4334,31 @@
 ],
 "james-server-cassandra": [
 "james/server/3.7.3/james-server-cassandra-app.zip",
-"james/server/3.8.0/james-server-cassandra-app.zip",
-"james/server/3.7.4/james-server-cassandra-app.zip"
+"james/server/3.7.4/james-server-cassandra-app.zip",
+"james/server/3.8.0/james-server-cassandra-app.zip"
 ],
 "james-server-cassandra-guice": [
+"james/server/3.6.2/james-server-cassandra-guice.zip",
 "james/server/3.7.3/james-server-cassandra-guice.zip",
-"james/server/3.8.0/james-server-cassandra-guice.zip",
 "james/server/3.7.4/james-server-cassandra-guice.zip",
-"james/server/3.6.2/james-server-cassandra-guice.zip"
+"james/server/3.8.0/james-server-cassandra-guice.zip"
 ],
 "james-server-distributed": [
 "james/server/3.7.3/james-server-distributed-app.zip",
-"james/server/3.8.0/james-server-distributed-app.zip",
-"james/server/3.7.4/james-server-distributed-app.zip"
+"james/server/3.7.4/james-server-distributed-app.zip",
+"james/server/3.8.0/james-server-distributed-app.zip"
 ],
 "james-server-distributed-guice": [
+"james/server/3.6.2/james-server-distributed-guice.zip",
 "james/server/3.7.3/james-server-distributed-guice.zip",
-"james/server/3.8.0/james-server-distributed-guice.zip",
 "james/server/3.7.4/james-server-distributed-guice.zip",
-"james/server/3.6.2/james-server-distributed-guice.zip"
+"james/server/3.8.0/james-server-distributed-guice.zip"
 ],
 "james-server-jpa-guice": [
+"james/server/3.6.2/james-server-jpa-guice.zip",
 "james/server/3.7.3/james-server-jpa-guice.zip",
-"james/server/3.8.0/james-server-jpa-guice.zip",
 "james/server/3.7.4/james-server-jpa-guice.zip",
-"james/server/3.6.2/james-server-jpa-guice.zip"
+"james/server/3.8.0/james-server-jpa-guice.zip"
 ],
 "james-server-spring-app-3.7.3": [
 "james/server/3.7.3/james-server-spring-app-3.7.3-app.zip"
@@ -4431,16 +4391,16 @@
 },
 "jmeter": {
 "apache-jmeter-5.5": [
-"jmeter/source/apache-jmeter-5.5_src.zip",
-"jmeter/source/apache-jmeter-5.5_src.tgz"
+"jmeter/source/apache-jmeter-5.5_src.tgz",
+"jmeter/source/apache-jmeter-5.5_src.zip"
 ],
 "apache-jmeter-5.6": [
-"jmeter/source/apache-jmeter-5.6_src.zip",
-"jmeter/source/apache-jmeter-5.6_src.tgz"
+"jmeter/source/apache-jmeter-5.6_src.tgz",
+"jmeter/source/apache-jmeter-5.6_src.zip"
 ],
 "apache-jmeter-5.6.1": [
-"jmeter/source/apache-jmeter-5.6.1_src.zip",
-"jmeter/source/apache-jmeter-5.6.1_src.tgz"
+"jmeter/source/apache-jmeter-5.6.1_src.tgz",
+"jmeter/source/apache-jmeter-5.6.1_src.zip"
 ],
 "apache-jmeter-5.6.2": [
 "jmeter/source/apache-jmeter-5.6.2_src.tgz",
@@ -4453,8 +4413,8 @@
 "johnzon/johnzon-1.0.2/apache-johnzon-1.0.2-src.zip"
 ],
 "apache-johnzon-1.2.20": [
-"johnzon/johnzon-1.2.20/apache-johnzon-1.2.20-src.zip",
-"johnzon/johnzon-1.2.20/apache-johnzon-1.2.20-src.tar.gz"
+"johnzon/johnzon-1.2.20/apache-johnzon-1.2.20-src.tar.gz",
+"johnzon/johnzon-1.2.20/apache-johnzon-1.2.20-src.zip"
 ],
 "apache-johnzon-1.2.21": [
 "johnzon/johnzon-1.2.21/apache-johnzon-1.2.21-src.tar.gz",
@@ -4517,72 +4477,72 @@
 },
 "karaf": {
 "apache-karaf-3.0.10": [
-"karaf/3.0.10/apache-karaf-3.0.10.tar.gz",
-"karaf/3.0.10/apache-karaf-minimal-3.0.10.tar.gz",
-"karaf/3.0.10/apache-karaf-minimal-3.0.10.zip",
 "karaf/3.0.10/apache-karaf-3.0.10-src.tar.gz",
 "karaf/3.0.10/apache-karaf-3.0.10-src.zip",
-"karaf/3.0.10/apache-karaf-3.0.10.zip"
+"karaf/3.0.10/apache-karaf-3.0.10.tar.gz",
+"karaf/3.0.10/apache-karaf-3.0.10.zip",
+"karaf/3.0.10/apache-karaf-minimal-3.0.10.tar.gz",
+"karaf/3.0.10/apache-karaf-minimal-3.0.10.zip"
 ],
 "apache-karaf-4.0.10": [
 "karaf/4.0.10/apache-karaf-4.0.10-src.tar.gz",
-"karaf/4.0.10/apache-karaf-4.0.10.tar.gz",
 "karaf/4.0.10/apache-karaf-4.0.10-src.zip",
+"karaf/4.0.10/apache-karaf-4.0.10.tar.gz",
+"karaf/4.0.10/apache-karaf-4.0.10.zip",
 "karaf/4.0.10/apache-karaf-minimal-4.0.10.tar.gz",
-"karaf/4.0.10/apache-karaf-minimal-4.0.10.zip",
-"karaf/4.0.10/apache-karaf-4.0.10.zip"
+"karaf/4.0.10/apache-karaf-minimal-4.0.10.zip"
 ],
 "apache-karaf-4.1.7": [
-"karaf/4.1.7/apache-karaf-4.1.7.tar.gz",
-"karaf/4.1.7/apache-karaf-minimal-4.1.7.tar.gz",
-"karaf/4.1.7/apache-karaf-4.1.7.zip",
 "karaf/4.1.7/apache-karaf-4.1.7-src.tar.gz",
 "karaf/4.1.7/apache-karaf-4.1.7-src.zip",
+"karaf/4.1.7/apache-karaf-4.1.7.tar.gz",
+"karaf/4.1.7/apache-karaf-4.1.7.zip",
+"karaf/4.1.7/apache-karaf-minimal-4.1.7.tar.gz",
 "karaf/4.1.7/apache-karaf-minimal-4.1.7.zip"
 ],
 "apache-karaf-4.2.16": [
-"karaf/4.2.16/apache-karaf-minimal-4.2.16.tar.gz",
-"karaf/4.2.16/apache-karaf-4.2.16.zip",
-"karaf/4.2.16/apache-karaf-minimal-4.2.16.zip",
+"karaf/4.2.16/apache-karaf-4.2.16-src.tar.gz",
 "karaf/4.2.16/apache-karaf-4.2.16-src.zip",
 "karaf/4.2.16/apache-karaf-4.2.16.tar.gz",
-"karaf/4.2.16/apache-karaf-4.2.16-src.tar.gz"
+"karaf/4.2.16/apache-karaf-4.2.16.zip",
+"karaf/4.2.16/apache-karaf-minimal-4.2.16.tar.gz",
+"karaf/4.2.16/apache-karaf-minimal-4.2.16.zip"
 ],
 "apache-karaf-4.3.9": [
-"karaf/4.3.9/apache-karaf-4.3.9.zip",
-"karaf/4.3.9/apache-karaf-4.3.9-src.zip",
-"karaf/4.3.9/apache-karaf-minimal-4.3.9.tar.gz",
-"karaf/4.3.9/apache-karaf-4.3.9.tar.gz",
 "karaf/4.3.9/apache-karaf-4.3.9-src.tar.gz",
+"karaf/4.3.9/apache-karaf-4.3.9-src.zip",
+"karaf/4.3.9/apache-karaf-4.3.9.tar.gz",
+"karaf/4.3.9/apache-karaf-4.3.9.zip",
+"karaf/4.3.9/apache-karaf-minimal-4.3.9.tar.gz",
 "karaf/4.3.9/apache-karaf-minimal-4.3.9.zip"
 ],
 "apache-karaf-4.4.3": [
 "karaf/4.4.3/apache-karaf-4.4.3-src.tar.gz",
-"karaf/4.4.3/apache-karaf-minimal-4.4.3.zip",
-"karaf/4.4.3/apache-karaf-4.4.3.zip",
 "karaf/4.4.3/apache-karaf-4.4.3-src.zip",
 "karaf/4.4.3/apache-karaf-4.4.3.tar.gz",
-"karaf/4.4.3/apache-karaf-minimal-4.4.3.tar.gz"
+"karaf/4.4.3/apache-karaf-4.4.3.zip",
+"karaf/4.4.3/apache-karaf-minimal-4.4.3.tar.gz",
+"karaf/4.4.3/apache-karaf-minimal-4.4.3.zip"
 ],
 "apache-karaf-cave-3.0.0": [
-"karaf/cave/3.0.0/apache-karaf-cave-3.0.0-src.zip",
-"karaf/cave/3.0.0/apache-karaf-cave-3.0.0-src.tar.gz"
+"karaf/cave/3.0.0/apache-karaf-cave-3.0.0-src.tar.gz",
+"karaf/cave/3.0.0/apache-karaf-cave-3.0.0-src.zip"
 ],
 "apache-karaf-cave-4.0.0": [
-"karaf/cave/4.0.0/apache-karaf-cave-4.0.0-src.zip",
-"karaf/cave/4.0.0/apache-karaf-cave-4.0.0-src.tar.gz"
+"karaf/cave/4.0.0/apache-karaf-cave-4.0.0-src.tar.gz",
+"karaf/cave/4.0.0/apache-karaf-cave-4.0.0-src.zip"
 ],
 "apache-karaf-cave-4.1.1": [
-"karaf/cave/4.1.1/apache-karaf-cave-4.1.1-src.zip",
-"karaf/cave/4.1.1/apache-karaf-cave-4.1.1-src.tar.gz"
+"karaf/cave/4.1.1/apache-karaf-cave-4.1.1-src.tar.gz",
+"karaf/cave/4.1.1/apache-karaf-cave-4.1.1-src.zip"
 ],
 "apache-karaf-cave-4.2.1": [
 "karaf/cave/4.2.1/apache-karaf-cave-4.2.1-src.tar.gz",
 "karaf/cave/4.2.1/apache-karaf-cave-4.2.1-src.zip"
 ],
 "apache-karaf-cellar-3.0.3": [
-"karaf/cellar/3.0.3/apache-karaf-cellar-3.0.3-src.zip",
-"karaf/cellar/3.0.3/apache-karaf-cellar-3.0.3-src.tar.gz"
+"karaf/cellar/3.0.3/apache-karaf-cellar-3.0.3-src.tar.gz",
+"karaf/cellar/3.0.3/apache-karaf-cellar-3.0.3-src.zip"
 ],
 "apache-karaf-cellar-4.0.5": [
 "karaf/cellar/4.0.5/apache-karaf-cellar-4.0.5-src.tar.gz",
@@ -4593,12 +4553,12 @@
 "karaf/cellar/4.1.2/apache-karaf-cellar-4.1.2-src.zip"
 ],
 "apache-karaf-cellar-4.2.1": [
-"karaf/cellar/4.2.1/apache-karaf-cellar-4.2.1-src.zip",
-"karaf/cellar/4.2.1/apache-karaf-cellar-4.2.1-src.tar.gz"
+"karaf/cellar/4.2.1/apache-karaf-cellar-4.2.1-src.tar.gz",
+"karaf/cellar/4.2.1/apache-karaf-cellar-4.2.1-src.zip"
 ],
 "apache-karaf-decanter-2.10.0": [
-"karaf/decanter/2.10.0/apache-karaf-decanter-2.10.0-src.zip",
-"karaf/decanter/2.10.0/apache-karaf-decanter-2.10.0-src.tar.gz"
+"karaf/decanter/2.10.0/apache-karaf-decanter-2.10.0-src.tar.gz",
+"karaf/decanter/2.10.0/apache-karaf-decanter-2.10.0-src.zip"
 ],
 "minho-0.1": [
 "karaf/minho/0.1/minho-0.1-source-release.zip"
@@ -4610,23 +4570,23 @@
 "knox": {
 "knox-1.2.0": [
 "knox/1.2.0/knox-1.2.0-src.zip",
-"knox/1.2.0/knox-1.2.0.zip",
-"knox/1.2.0/knox-1.2.0.tar.gz"
+"knox/1.2.0/knox-1.2.0.tar.gz",
+"knox/1.2.0/knox-1.2.0.zip"
 ],
 "knox-1.3.0": [
-"knox/1.3.0/knox-1.3.0.tar.gz",
 "knox/1.3.0/knox-1.3.0-src.zip",
+"knox/1.3.0/knox-1.3.0.tar.gz",
 "knox/1.3.0/knox-1.3.0.zip"
 ],
 "knox-1.4.0": [
+"knox/1.4.0/knox-1.4.0-src.zip",
 "knox/1.4.0/knox-1.4.0.tar.gz",
-"knox/1.4.0/knox-1.4.0.zip",
-"knox/1.4.0/knox-1.4.0-src.zip"
+"knox/1.4.0/knox-1.4.0.zip"
 ],
 "knox-1.5.0": [
-"knox/1.5.0/knox-1.5.0.zip",
+"knox/1.5.0/knox-1.5.0-src.zip",
 "knox/1.5.0/knox-1.5.0.tar.gz",
-"knox/1.5.0/knox-1.5.0-src.zip"
+"knox/1.5.0/knox-1.5.0.zip"
 ],
 "knox-1.6.0": [
 "knox/1.6.0/knox-1.6.0-src.zip",
@@ -4634,13 +4594,13 @@
 "knox/1.6.0/knox-1.6.0.zip"
 ],
 "knox-1.6.1": [
-"knox/1.6.1/knox-1.6.1.zip",
+"knox/1.6.1/knox-1.6.1-src.zip",
 "knox/1.6.1/knox-1.6.1.tar.gz",
-"knox/1.6.1/knox-1.6.1-src.zip"
+"knox/1.6.1/knox-1.6.1.zip"
 ],
 "knox-2.0.0": [
-"knox/2.0.0/knox-2.0.0.tar.gz",
 "knox/2.0.0/knox-2.0.0-src.zip",
+"knox/2.0.0/knox-2.0.0.tar.gz",
 "knox/2.0.0/knox-2.0.0.zip"
 ],
 "knoxshell-1.2.0": [
@@ -4652,8 +4612,8 @@
 "knox/1.3.0/knoxshell-1.3.0.zip"
 ],
 "knoxshell-1.4.0": [
-"knox/1.4.0/knoxshell-1.4.0.zip",
-"knox/1.4.0/knoxshell-1.4.0.tar.gz"
+"knox/1.4.0/knoxshell-1.4.0.tar.gz",
+"knox/1.4.0/knoxshell-1.4.0.zip"
 ],
 "knoxshell-1.5.0": [
 "knox/1.5.0/knoxshell-1.5.0.tar.gz",
@@ -4664,12 +4624,12 @@
 "knox/1.6.0/knoxshell-1.6.0.zip"
 ],
 "knoxshell-1.6.1": [
-"knox/1.6.1/knoxshell-1.6.1.zip",
-"knox/1.6.1/knoxshell-1.6.1.tar.gz"
+"knox/1.6.1/knoxshell-1.6.1.tar.gz",
+"knox/1.6.1/knoxshell-1.6.1.zip"
 ],
 "knoxshell-2.0.0": [
-"knox/2.0.0/knoxshell-2.0.0.zip",
-"knox/2.0.0/knoxshell-2.0.0.tar.gz"
+"knox/2.0.0/knoxshell-2.0.0.tar.gz",
+"knox/2.0.0/knoxshell-2.0.0.zip"
 ]
 },
 "kudu": {
@@ -4748,14 +4708,14 @@
 },
 "libcloud": {
 "apache-libcloud-3.6.1": [
-"libcloud/apache-libcloud-3.6.1.tar.gz",
 "libcloud/apache-libcloud-3.6.1.tar.bz2",
+"libcloud/apache-libcloud-3.6.1.tar.gz",
 "libcloud/apache-libcloud-3.6.1.zip"
 ],
 "apache-libcloud-3.7.0": [
-"libcloud/apache-libcloud-3.7.0.zip",
 "libcloud/apache-libcloud-3.7.0.tar.bz2",
-"libcloud/apache-libcloud-3.7.0.tar.gz"
+"libcloud/apache-libcloud-3.7.0.tar.gz",
+"libcloud/apache-libcloud-3.7.0.zip"
 ],
 "apache-libcloud-3.8.0": [
 "libcloud/apache-libcloud-3.8.0.tar.gz"
@@ -4774,54 +4734,52 @@
 "logging/log4php/2.3.0/Apache_log4php-2.3.0.tgz"
 ],
 "apache-chainsaw-2.0.0": [
-"logging/chainsaw/2.0.0/apache-chainsaw-2.0.0-standalone.zip",
-"logging/chainsaw/2.0.0/apache-chainsaw-2.0.0-standalone.tar.gz"
+"logging/chainsaw/2.0.0/apache-chainsaw-2.0.0-standalone.tar.gz",
+"logging/chainsaw/2.0.0/apache-chainsaw-2.0.0-standalone.zip"
 ],
 "apache-chainsaw-2.1.0": [
-"logging/chainsaw/2.1.0/apache-chainsaw-2.1.0-src.zip",
-"logging/chainsaw/2.1.0/apache-chainsaw-2.1.0-standalone.zip",
 "logging/chainsaw/2.1.0/apache-chainsaw-2.1.0-src.tar.gz",
-"logging/chainsaw/2.1.0/apache-chainsaw-2.1.0-standalone.tar.gz"
+"logging/chainsaw/2.1.0/apache-chainsaw-2.1.0-src.zip",
+"logging/chainsaw/2.1.0/apache-chainsaw-2.1.0-standalone.tar.gz",
+"logging/chainsaw/2.1.0/apache-chainsaw-2.1.0-standalone.zip"
 ],
 "apache-log4cxx-1.1.0": [
-"logging/log4cxx/1.1.0/apache-log4cxx-1.1.0.zip",
-"logging/log4cxx/1.1.0/apache-log4cxx-1.1.0.tar.gz"
+"logging/log4cxx/1.1.0/apache-log4cxx-1.1.0.tar.gz",
+"logging/log4cxx/1.1.0/apache-log4cxx-1.1.0.zip"
 ],
 "apache-log4j-2.12.4": [
 "logging/log4j/2.12.4/apache-log4j-2.12.4-src.tar.gz",
 "logging/log4j/2.12.4/apache-log4j-2.12.4-src.zip"
 ],
 "apache-log4j-2.20.0": [
-"logging/log4j/2.20.0/apache-log4j-2.20.0-src.zip",
-"logging/log4j/2.20.0/apache-log4j-2.20.0-src.tar.gz"
+"logging/log4j/2.20.0/apache-log4j-2.20.0-src.tar.gz",
+"logging/log4j/2.20.0/apache-log4j-2.20.0-src.zip"
 ],
 "apache-log4j-2.3.2": [
-"logging/log4j/2.3.2/apache-log4j-2.3.2-src.zip",
-"logging/log4j/2.3.2/apache-log4j-2.3.2-src.tar.gz"
+"logging/log4j/2.3.2/apache-log4j-2.3.2-src.tar.gz",
+"logging/log4j/2.3.2/apache-log4j-2.3.2-src.zip"
 ],
 "apache-log4j-3.0.0-alpha1": [
 "logging/log4j/3.0.0-alpha1/apache-log4j-3.0.0-alpha1-src.tar.gz",
 "logging/log4j/3.0.0-alpha1/apache-log4j-3.0.0-alpha1-src.zip"
 ],
 "apache-log4j-api-kotlin-1.1.0": [
-"logging/log4j/kotlin/1.1.0/apache-log4j-api-kotlin-1.1.0-src.tar.gz",
 "logging/log4j/kotlin/1.1.0/apache-log4j-api-kotlin-1.1.0-src.tar.bz2",
+"logging/log4j/kotlin/1.1.0/apache-log4j-api-kotlin-1.1.0-src.tar.gz",
 "logging/log4j/kotlin/1.1.0/apache-log4j-api-kotlin-1.1.0-src.zip"
 ],
 "apache-log4j-api-kotlin-1.2.0": [
-"logging/log4j/kotlin/1.2.0/apache-log4j-api-kotlin-1.2.0-src.zip",
 "logging/log4j/kotlin/1.2.0/apache-log4j-api-kotlin-1.2.0-src.tar.bz2",
-"logging/log4j/kotlin/1.2.0/apache-log4j-api-kotlin-1.2.0-src.tar.gz"
+"logging/log4j/kotlin/1.2.0/apache-log4j-api-kotlin-1.2.0-src.tar.gz",
+"logging/log4j/kotlin/1.2.0/apache-log4j-api-kotlin-1.2.0-src.zip"
 ],
 "apache-log4j-api-scala-12.0": [
 "logging/log4j/scala/12.0/apache-log4j-api-scala-12.0-src.tar.gz",
-"logging/log4j/scala/12.0/apache-log4j-api-scala-12.0-site.tar.gz",
-"logging/log4j/scala/12.0/apache-log4j-api-scala-12.0-src.zip",
-"logging/log4j/scala/12.0/apache-log4j-api-scala-12.0-site.zip"
+"logging/log4j/scala/12.0/apache-log4j-api-scala-12.0-src.zip"
 ],
 "apache-log4j-audit-1.0.1": [
-"logging/log4j-audit/apache-log4j-audit-1.0.1-src.zip",
-"logging/log4j-audit/apache-log4j-audit-1.0.1-src.tar.gz"
+"logging/log4j-audit/apache-log4j-audit-1.0.1-src.tar.gz",
+"logging/log4j-audit/apache-log4j-audit-1.0.1-src.zip"
 ],
 "apache-log4j-extras-1.2.17": [
 "logging/log4j/extras/1.2.17/apache-log4j-extras-1.2.17-source-release.zip",
@@ -4841,26 +4799,26 @@
 "logging/log4net/source/apache-log4net-source-2.0.15.zip"
 ],
 "apache-log4php-2.3.0": [
-"logging/log4php/2.3.0/apache-log4php-2.3.0-src.zip",
-"logging/log4php/2.3.0/apache-log4php-2.3.0-src.tar.gz"
+"logging/log4php/2.3.0/apache-log4php-2.3.0-src.tar.gz",
+"logging/log4php/2.3.0/apache-log4php-2.3.0-src.zip"
 ],
 "apache-logging-10.0.0": [
 "logging/logging-parent/10.0.0/apache-logging-parent-10.0.0-src.zip"
 ],
 "log4j-1.2.17": [
-"logging/log4j/1.2.17/log4j-1.2.17.zip",
-"logging/log4j/1.2.17/log4j-1.2.17.tar.gz"
+"logging/log4j/1.2.17/log4j-1.2.17.tar.gz",
+"logging/log4j/1.2.17/log4j-1.2.17.zip"
 ]
 },
 "lucene": {
 "lucene-8.11.2": [
-"lucene/java/8.11.2/lucene-8.11.2.zip",
+"lucene/java/8.11.2/lucene-8.11.2-src.tgz",
 "lucene/java/8.11.2/lucene-8.11.2.tgz",
-"lucene/java/8.11.2/lucene-8.11.2-src.tgz"
+"lucene/java/8.11.2/lucene-8.11.2.zip"
 ],
 "lucene-9.7.0": [
-"lucene/java/9.7.0/lucene-9.7.0.tgz",
-"lucene/java/9.7.0/lucene-9.7.0-src.tgz"
+"lucene/java/9.7.0/lucene-9.7.0-src.tgz",
+"lucene/java/9.7.0/lucene-9.7.0.tgz"
 ],
 "pylucene-7.7.1": [
 "lucene/pylucene/pylucene-7.7.1-src.tar.gz"
@@ -4878,9 +4836,9 @@
 "lucene/pylucene/pylucene-9.7.0-src.tar.gz"
 ],
 "solr-8.11.2": [
-"lucene/solr/8.11.2/solr-8.11.2.zip",
 "lucene/solr/8.11.2/solr-8.11.2-src.tgz",
-"lucene/solr/8.11.2/solr-8.11.2.tgz"
+"lucene/solr/8.11.2/solr-8.11.2.tgz",
+"lucene/solr/8.11.2/solr-8.11.2.zip"
 ]
 },
 "lucenenet": {
@@ -4961,12 +4919,12 @@
 },
 "manifoldcf": {
 "apache-manifoldcf-1.10": [
-"manifoldcf/apache-manifoldcf-1.10/apache-manifoldcf-1.10-src.zip",
-"manifoldcf/apache-manifoldcf-1.10/apache-manifoldcf-1.10-src.tar.gz"
+"manifoldcf/apache-manifoldcf-1.10/apache-manifoldcf-1.10-src.tar.gz",
+"manifoldcf/apache-manifoldcf-1.10/apache-manifoldcf-1.10-src.zip"
 ],
 "apache-manifoldcf-2.23": [
-"manifoldcf/apache-manifoldcf-2.23/apache-manifoldcf-2.23-src.zip",
-"manifoldcf/apache-manifoldcf-2.23/apache-manifoldcf-2.23-src.tar.gz"
+"manifoldcf/apache-manifoldcf-2.23/apache-manifoldcf-2.23-src.tar.gz",
+"manifoldcf/apache-manifoldcf-2.23/apache-manifoldcf-2.23-src.zip"
 ],
 "apache-manifoldcf-2.24": [
 "manifoldcf/apache-manifoldcf-2.24/apache-manifoldcf-2.24-src.tar.gz",
@@ -4981,8 +4939,8 @@
 "manifoldcf/apache-manifoldcf-elasticsearch-1.5-plugin-2.0.2/apache-manifoldcf-elasticsearch-1.5-plugin-2.0.2-src.zip"
 ],
 "apache-manifoldcf-elasticsearch-plugin-2.1": [
-"manifoldcf/apache-manifoldcf-elasticsearch-plugin-2.1/apache-manifoldcf-elasticsearch-plugin-2.1-src.zip",
-"manifoldcf/apache-manifoldcf-elasticsearch-plugin-2.1/apache-manifoldcf-elasticsearch-plugin-2.1-src.tar.gz"
+"manifoldcf/apache-manifoldcf-elasticsearch-plugin-2.1/apache-manifoldcf-elasticsearch-plugin-2.1-src.tar.gz",
+"manifoldcf/apache-manifoldcf-elasticsearch-plugin-2.1/apache-manifoldcf-elasticsearch-plugin-2.1-src.zip"
 ],
 "apache-manifoldcf-sharepoint-2007-plugin-0.5": [
 "manifoldcf/apache-manifoldcf-sharepoint-2007-plugin-0.5/apache-manifoldcf-sharepoint-2007-plugin-0.5-src.tar.gz",
@@ -5001,12 +4959,12 @@
 "manifoldcf/apache-manifoldcf-sharepoint-2016-plugin-0.1/apache-manifoldcf-sharepoint-2016-plugin-0.1-src.zip"
 ],
 "apache-manifoldcf-solr-3.x-plugin-2.2": [
-"manifoldcf/apache-manifoldcf-solr-3.x-plugin-2.2/apache-manifoldcf-solr-3.x-plugin-2.2-src.zip",
-"manifoldcf/apache-manifoldcf-solr-3.x-plugin-2.2/apache-manifoldcf-solr-3.x-plugin-2.2-src.tar.gz"
+"manifoldcf/apache-manifoldcf-solr-3.x-plugin-2.2/apache-manifoldcf-solr-3.x-plugin-2.2-src.tar.gz",
+"manifoldcf/apache-manifoldcf-solr-3.x-plugin-2.2/apache-manifoldcf-solr-3.x-plugin-2.2-src.zip"
 ],
 "apache-manifoldcf-solr-4.x-plugin-2.2": [
-"manifoldcf/apache-manifoldcf-solr-4.x-plugin-2.2/apache-manifoldcf-solr-4.x-plugin-2.2-src.zip",
-"manifoldcf/apache-manifoldcf-solr-4.x-plugin-2.2/apache-manifoldcf-solr-4.x-plugin-2.2-src.tar.gz"
+"manifoldcf/apache-manifoldcf-solr-4.x-plugin-2.2/apache-manifoldcf-solr-4.x-plugin-2.2-src.tar.gz",
+"manifoldcf/apache-manifoldcf-solr-4.x-plugin-2.2/apache-manifoldcf-solr-4.x-plugin-2.2-src.zip"
 ],
 "apache-manifoldcf-solr-5.x-plugin-2.2": [
 "manifoldcf/apache-manifoldcf-solr-5.x-plugin-2.2/apache-manifoldcf-solr-5.x-plugin-2.2-src.tar.gz",
@@ -5017,16 +4975,16 @@
 "manifoldcf/apache-manifoldcf-solr-6.x-plugin-2.2/apache-manifoldcf-solr-6.x-plugin-2.2-src.zip"
 ],
 "apache-manifoldcf-solr-7.x-plugin-2.2.1": [
-"manifoldcf/apache-manifoldcf-solr-7.x-plugin-2.2.1/apache-manifoldcf-solr-7.x-plugin-2.2.1-src.zip",
-"manifoldcf/apache-manifoldcf-solr-7.x-plugin-2.2.1/apache-manifoldcf-solr-7.x-plugin-2.2.1-src.tar.gz"
+"manifoldcf/apache-manifoldcf-solr-7.x-plugin-2.2.1/apache-manifoldcf-solr-7.x-plugin-2.2.1-src.tar.gz",
+"manifoldcf/apache-manifoldcf-solr-7.x-plugin-2.2.1/apache-manifoldcf-solr-7.x-plugin-2.2.1-src.zip"
 ],
 "apache-manifoldcf-solr-8.x-plugin-2.2": [
-"manifoldcf/apache-manifoldcf-solr-8.x-plugin-2.2/apache-manifoldcf-solr-8.x-plugin-2.2-src.zip",
-"manifoldcf/apache-manifoldcf-solr-8.x-plugin-2.2/apache-manifoldcf-solr-8.x-plugin-2.2-src.tar.gz"
+"manifoldcf/apache-manifoldcf-solr-8.x-plugin-2.2/apache-manifoldcf-solr-8.x-plugin-2.2-src.tar.gz",
+"manifoldcf/apache-manifoldcf-solr-8.x-plugin-2.2/apache-manifoldcf-solr-8.x-plugin-2.2-src.zip"
 ],
 "apache-manifoldcf-solr-9.x-plugin-2.2": [
-"manifoldcf/apache-manifoldcf-solr-9.x-plugin-2.2/apache-manifoldcf-solr-9.x-plugin-2.2-src.zip",
-"manifoldcf/apache-manifoldcf-solr-9.x-plugin-2.2/apache-manifoldcf-solr-9.x-plugin-2.2-src.tar.gz"
+"manifoldcf/apache-manifoldcf-solr-9.x-plugin-2.2/apache-manifoldcf-solr-9.x-plugin-2.2-src.tar.gz",
+"manifoldcf/apache-manifoldcf-solr-9.x-plugin-2.2/apache-manifoldcf-solr-9.x-plugin-2.2-src.zip"
 ]
 },
 "maven": {
@@ -5046,8 +5004,8 @@
 "maven/maven-4/4.0.0-alpha-5/source/apache-maven-4.0.0-alpha-5-src.zip"
 ],
 "apache-maven-4.0.0-alpha-7": [
-"maven/maven-4/4.0.0-alpha-7/source/apache-maven-4.0.0-alpha-7-src.zip",
-"maven/maven-4/4.0.0-alpha-7/source/apache-maven-4.0.0-alpha-7-src.tar.gz"
+"maven/maven-4/4.0.0-alpha-7/source/apache-maven-4.0.0-alpha-7-src.tar.gz",
+"maven/maven-4/4.0.0-alpha-7/source/apache-maven-4.0.0-alpha-7-src.zip"
 ],
 "apache-resource-bundles-1.5": [
 "maven/resources/apache-resource-bundles-1.5-source-release.zip"
@@ -5203,25 +5161,9 @@
 "maven/mvnd/1.0-m6/maven-mvnd-1.0-m6-src.tar.gz",
 "maven/mvnd/1.0-m6/maven-mvnd-1.0-m6-src.zip"
 ],
-"maven-mvnd-1.0-m6-m39-darwin-aarch64": [
-"maven/mvnd/1.0-m6/maven-mvnd-1.0-m6-m39-darwin-aarch64.tar.gz",
-"maven/mvnd/1.0-m6/maven-mvnd-1.0-m6-m39-darwin-aarch64.zip"
-],
-"maven-mvnd-1.0-m6-m40-darwin-aarch64": [
-"maven/mvnd/1.0-m6/maven-mvnd-1.0-m6-m40-darwin-aarch64.tar.gz",
-"maven/mvnd/1.0-m6/maven-mvnd-1.0-m6-m40-darwin-aarch64.zip"
-],
 "maven-mvnd-1.0-m7": [
 "maven/mvnd/1.0-m7/maven-mvnd-1.0-m7-src.tar.gz",
 "maven/mvnd/1.0-m7/maven-mvnd-1.0-m7-src.zip"
-],
-"maven-mvnd-1.0-m7-m39-darwin-aarch64": [
-"maven/mvnd/1.0-m7/maven-mvnd-1.0-m7-m39-darwin-aarch64.zip",
-"maven/mvnd/1.0-m7/maven-mvnd-1.0-m7-m39-darwin-aarch64.tar.gz"
-],
-"maven-mvnd-1.0-m7-m40-darwin-aarch64": [
-"maven/mvnd/1.0-m7/maven-mvnd-1.0-m7-m40-darwin-aarch64.zip",
-"maven/mvnd/1.0-m7/maven-mvnd-1.0-m7-m40-darwin-aarch64.tar.gz"
 ],
 "maven-patch-plugin-1.2": [
 "maven/plugins/maven-patch-plugin-1.2-source-release.zip"
@@ -5350,19 +5292,19 @@
 "mina/ftpserver/1.1.4/apache-ftpserver-1.1.4-src.zip"
 ],
 "apache-ftpserver-1.2.0": [
+"mina/ftpserver/1.2.0/apache-ftpserver-1.2.0-src.tar.bz2",
 "mina/ftpserver/1.2.0/apache-ftpserver-1.2.0-src.tar.gz",
-"mina/ftpserver/1.2.0/apache-ftpserver-1.2.0-src.zip",
-"mina/ftpserver/1.2.0/apache-ftpserver-1.2.0-src.tar.bz2"
+"mina/ftpserver/1.2.0/apache-ftpserver-1.2.0-src.zip"
 ],
 "apache-mina-2.0.25": [
-"mina/mina/2.0.25/apache-mina-2.0.25-src.tar.gz",
 "mina/mina/2.0.25/apache-mina-2.0.25-src.tar.bz2",
+"mina/mina/2.0.25/apache-mina-2.0.25-src.tar.gz",
 "mina/mina/2.0.25/apache-mina-2.0.25-src.zip"
 ],
 "apache-mina-2.1.8": [
-"mina/mina/2.1.8/apache-mina-2.1.8-src.zip",
 "mina/mina/2.1.8/apache-mina-2.1.8-src.tar.bz2",
-"mina/mina/2.1.8/apache-mina-2.1.8-src.tar.gz"
+"mina/mina/2.1.8/apache-mina-2.1.8-src.tar.gz",
+"mina/mina/2.1.8/apache-mina-2.1.8-src.zip"
 ],
 "apache-mina-2.2.3": [
 "mina/mina/2.2.3/apache-mina-2.2.3-src.tar.bz2",
@@ -5370,31 +5312,31 @@
 "mina/mina/2.2.3/apache-mina-2.2.3-src.zip"
 ],
 "apache-mina-3.0.0-M2": [
-"mina/mina/3.0.0-M2/apache-mina-3.0.0-M2-src.zip",
 "mina/mina/3.0.0-M2/apache-mina-3.0.0-M2-src.tar.bz2",
-"mina/mina/3.0.0-M2/apache-mina-3.0.0-M2-src.tar.gz"
+"mina/mina/3.0.0-M2/apache-mina-3.0.0-M2-src.tar.gz",
+"mina/mina/3.0.0-M2/apache-mina-3.0.0-M2-src.zip"
 ],
 "apache-sshd-1.7.0": [
 "mina/sshd/1.7.0/apache-sshd-1.7.0-src.tar.gz",
+"mina/sshd/1.7.0/apache-sshd-1.7.0-src.zip",
 "mina/sshd/1.7.0/apache-sshd-1.7.0.tar.gz",
-"mina/sshd/1.7.0/apache-sshd-1.7.0.zip",
-"mina/sshd/1.7.0/apache-sshd-1.7.0-src.zip"
+"mina/sshd/1.7.0/apache-sshd-1.7.0.zip"
 ],
 "apache-sshd-2.10.0": [
-"mina/sshd/2.10.0/apache-sshd-2.10.0-src.zip",
 "mina/sshd/2.10.0/apache-sshd-2.10.0-src.tar.gz",
+"mina/sshd/2.10.0/apache-sshd-2.10.0-src.zip",
 "mina/sshd/2.10.0/apache-sshd-2.10.0.tar.gz",
 "mina/sshd/2.10.0/apache-sshd-2.10.0.zip"
 ],
 "apache-sshd-2.9.2": [
-"mina/sshd/2.9.2/apache-sshd-2.9.2-src.zip",
 "mina/sshd/2.9.2/apache-sshd-2.9.2-src.tar.gz",
-"mina/sshd/2.9.2/apache-sshd-2.9.2.zip",
-"mina/sshd/2.9.2/apache-sshd-2.9.2.tar.gz"
+"mina/sshd/2.9.2/apache-sshd-2.9.2-src.zip",
+"mina/sshd/2.9.2/apache-sshd-2.9.2.tar.gz",
+"mina/sshd/2.9.2/apache-sshd-2.9.2.zip"
 ],
 "vysper-0.7": [
-"mina/vysper/0.7/vysper-0.7-src.zip",
-"mina/vysper/0.7/vysper-0.7-src.tar.gz"
+"mina/vysper/0.7/vysper-0.7-src.tar.gz",
+"mina/vysper/0.7/vysper-0.7-src.zip"
 ]
 },
 "mnemonic": {
@@ -5430,8 +5372,8 @@
 },
 "myfaces": {
 "myfaces-commons11-1.0.2": [
-"myfaces/source/myfaces-commons11-1.0.2-src.zip",
-"myfaces/source/myfaces-commons11-1.0.2-src.tar.gz"
+"myfaces/source/myfaces-commons11-1.0.2-src.tar.gz",
+"myfaces/source/myfaces-commons11-1.0.2-src.zip"
 ],
 "myfaces-commons12-1.0.2": [
 "myfaces/source/myfaces-commons12-1.0.2-src.tar.gz",
@@ -5442,12 +5384,12 @@
 "myfaces/source/myfaces-commons20-1.0.2-src.zip"
 ],
 "myfaces-commons20-1.0.2.1": [
-"myfaces/source/myfaces-commons20-1.0.2.1-src.zip",
-"myfaces/source/myfaces-commons20-1.0.2.1-src.tar.gz"
+"myfaces/source/myfaces-commons20-1.0.2.1-src.tar.gz",
+"myfaces/source/myfaces-commons20-1.0.2.1-src.zip"
 ],
 "myfaces-core-1.1.10": [
-"myfaces/source/myfaces-core-assembly-1.1.10-src.zip",
-"myfaces/source/myfaces-core-assembly-1.1.10-src.tar.gz"
+"myfaces/source/myfaces-core-assembly-1.1.10-src.tar.gz",
+"myfaces/source/myfaces-core-assembly-1.1.10-src.zip"
 ],
 "myfaces-core-1.2.12": [
 "myfaces/source/myfaces-core-assembly-1.2.12-src.tar.gz",
@@ -5462,36 +5404,36 @@
 "myfaces/source/myfaces-core-assembly-2.0.25-src.zip"
 ],
 "myfaces-core-2.1.18": [
-"myfaces/source/myfaces-core-assembly-2.1.18-src.zip",
-"myfaces/source/myfaces-core-assembly-2.1.18-src.tar.gz"
+"myfaces/source/myfaces-core-assembly-2.1.18-src.tar.gz",
+"myfaces/source/myfaces-core-assembly-2.1.18-src.zip"
 ],
 "myfaces-core-2.2.14": [
-"myfaces/source/myfaces-core-assembly-2.2.14-src.zip",
-"myfaces/source/myfaces-core-assembly-2.2.14-src.tar.gz"
+"myfaces/source/myfaces-core-assembly-2.2.14-src.tar.gz",
+"myfaces/source/myfaces-core-assembly-2.2.14-src.zip"
 ],
 "myfaces-core-2.2.15": [
-"myfaces/source/myfaces-core-assembly-2.2.15-src.zip",
-"myfaces/source/myfaces-core-assembly-2.2.15-src.tar.gz"
+"myfaces/source/myfaces-core-assembly-2.2.15-src.tar.gz",
+"myfaces/source/myfaces-core-assembly-2.2.15-src.zip"
 ],
 "myfaces-core-2.3-next-M6": [
-"myfaces/source/myfaces-core-assembly-2.3-next-M6-src.zip",
-"myfaces/source/myfaces-core-assembly-2.3-next-M6-src.tar.gz"
+"myfaces/source/myfaces-core-assembly-2.3-next-M6-src.tar.gz",
+"myfaces/source/myfaces-core-assembly-2.3-next-M6-src.zip"
 ],
 "myfaces-core-2.3-next-M7": [
 "myfaces/source/myfaces-core-assembly-2.3-next-M7-src.tar.gz",
 "myfaces/source/myfaces-core-assembly-2.3-next-M7-src.zip"
 ],
 "myfaces-core-2.3-next-M8": [
-"myfaces/source/myfaces-core-assembly-2.3-next-M8-src.zip",
-"myfaces/source/myfaces-core-assembly-2.3-next-M8-src.tar.gz"
+"myfaces/source/myfaces-core-assembly-2.3-next-M8-src.tar.gz",
+"myfaces/source/myfaces-core-assembly-2.3-next-M8-src.zip"
 ],
 "myfaces-core-2.3.10": [
-"myfaces/source/myfaces-core-assembly-2.3.10-src.zip",
-"myfaces/source/myfaces-core-assembly-2.3.10-src.tar.gz"
+"myfaces/source/myfaces-core-assembly-2.3.10-src.tar.gz",
+"myfaces/source/myfaces-core-assembly-2.3.10-src.zip"
 ],
 "myfaces-core-2.3.9": [
-"myfaces/source/myfaces-core-assembly-2.3.9-src.zip",
-"myfaces/source/myfaces-core-assembly-2.3.9-src.tar.gz"
+"myfaces/source/myfaces-core-assembly-2.3.9-src.tar.gz",
+"myfaces/source/myfaces-core-assembly-2.3.9-src.zip"
 ],
 "myfaces-core-3.0.1": [
 "myfaces/source/myfaces-core-assembly-3.0.1-src.tar.gz",
@@ -5502,32 +5444,32 @@
 "myfaces/source/myfaces-core-assembly-3.0.2-src.zip"
 ],
 "myfaces-core-4.0.0": [
-"myfaces/source/myfaces-core-assembly-4.0.0-src.zip",
-"myfaces/source/myfaces-core-assembly-4.0.0-src.tar.gz"
+"myfaces/source/myfaces-core-assembly-4.0.0-src.tar.gz",
+"myfaces/source/myfaces-core-assembly-4.0.0-src.zip"
 ],
 "myfaces-core-4.0.0-RC1": [
 "myfaces/source/myfaces-core-assembly-4.0.0-RC1-src.tar.gz",
 "myfaces/source/myfaces-core-assembly-4.0.0-RC1-src.zip"
 ],
 "myfaces-core-4.0.0-RC2": [
-"myfaces/source/myfaces-core-assembly-4.0.0-RC2-src.zip",
-"myfaces/source/myfaces-core-assembly-4.0.0-RC2-src.tar.gz"
+"myfaces/source/myfaces-core-assembly-4.0.0-RC2-src.tar.gz",
+"myfaces/source/myfaces-core-assembly-4.0.0-RC2-src.zip"
 ],
 "myfaces-core-4.0.0-RC3": [
 "myfaces/source/myfaces-core-assembly-4.0.0-RC3-src.tar.gz",
 "myfaces/source/myfaces-core-assembly-4.0.0-RC3-src.zip"
 ],
 "myfaces-core-4.0.0-RC4": [
-"myfaces/source/myfaces-core-assembly-4.0.0-RC4-src.zip",
-"myfaces/source/myfaces-core-assembly-4.0.0-RC4-src.tar.gz"
+"myfaces/source/myfaces-core-assembly-4.0.0-RC4-src.tar.gz",
+"myfaces/source/myfaces-core-assembly-4.0.0-RC4-src.zip"
 ],
 "myfaces-core-4.0.0-RC5": [
 "myfaces/source/myfaces-core-assembly-4.0.0-RC5-src.tar.gz",
 "myfaces/source/myfaces-core-assembly-4.0.0-RC5-src.zip"
 ],
 "myfaces-core-4.0.1": [
-"myfaces/source/myfaces-core-assembly-4.0.1-src.zip",
-"myfaces/source/myfaces-core-assembly-4.0.1-src.tar.gz"
+"myfaces/source/myfaces-core-assembly-4.0.1-src.tar.gz",
+"myfaces/source/myfaces-core-assembly-4.0.1-src.zip"
 ],
 "myfaces-extcdi-1.0.6": [
 "myfaces/source/myfaces-extcdi-parent-1.0.6-source-release.zip"
@@ -5550,8 +5492,8 @@
 "myfaces/source/myfaces-extval-module-2.0.8-source-release.zip"
 ],
 "myfaces-test-1.0.7": [
-"myfaces/source/myfaces-test-assembly-1.0.7-src.zip",
-"myfaces/source/myfaces-test-assembly-1.0.7-src.tar.gz"
+"myfaces/source/myfaces-test-assembly-1.0.7-src.tar.gz",
+"myfaces/source/myfaces-test-assembly-1.0.7-src.zip"
 ],
 "myfaces-tobago-2.5.0": [
 "myfaces/source/myfaces-tobago-2.5.0-source-release.zip"
@@ -5587,16 +5529,16 @@
 "myfaces/source/myfaces-tobago-5.7.2-source-release.zip"
 ],
 "portlet-bridge-1.0.0": [
-"myfaces/source/portlet-bridge-1.0.0-src-all.zip",
-"myfaces/source/portlet-bridge-1.0.0-src-all.tar.gz"
+"myfaces/source/portlet-bridge-1.0.0-src-all.tar.gz",
+"myfaces/source/portlet-bridge-1.0.0-src-all.zip"
 ],
 "portlet-bridge-2.0.0": [
-"myfaces/source/portlet-bridge-2.0.0-src-all.zip",
-"myfaces/source/portlet-bridge-2.0.0-src-all.tar.gz"
+"myfaces/source/portlet-bridge-2.0.0-src-all.tar.gz",
+"myfaces/source/portlet-bridge-2.0.0-src-all.zip"
 ],
 "tomahawk-1.1.14": [
-"myfaces/source/tomahawk-1.1.14-src.zip",
-"myfaces/source/tomahawk-1.1.14-src.tar.gz"
+"myfaces/source/tomahawk-1.1.14-src.tar.gz",
+"myfaces/source/tomahawk-1.1.14-src.zip"
 ],
 "tomahawk12-1.1.14": [
 "myfaces/source/tomahawk12-1.1.14-src.tar.gz",
@@ -5607,8 +5549,8 @@
 "myfaces/source/tomahawk20-1.1.14-src.zip"
 ],
 "tomahawk21-1.1.14": [
-"myfaces/source/tomahawk21-1.1.14-src.zip",
-"myfaces/source/tomahawk21-1.1.14-src.tar.gz"
+"myfaces/source/tomahawk21-1.1.14-src.tar.gz",
+"myfaces/source/tomahawk21-1.1.14-src.zip"
 ],
 "trinidad-1.0.13": [
 "myfaces/source/trinidad-1.0.13-src-all.zip"
@@ -5853,16 +5795,14 @@
 },
 "openmeetings": {
 "apache-openmeetings-7.1.0": [
-"openmeetings/7.1.0/bin/apache-openmeetings-7.1.0.zip",
-"openmeetings/7.1.0/bin/apache-openmeetings-7.1.0.tar.gz",
-"openmeetings/7.1.0/src/apache-openmeetings-7.1.0-src.zip",
-"openmeetings/7.1.0/src/apache-openmeetings-7.1.0-src.tar.gz"
+"openmeetings/7.1.0/src/apache-openmeetings-7.1.0-src.tar.gz",
+"openmeetings/7.1.0/src/apache-openmeetings-7.1.0-src.zip"
 ]
 },
 "opennlp": {
 "apache-opennlp-2.3.0": [
-"opennlp/opennlp-2.3.0/apache-opennlp-2.3.0-src.zip",
-"opennlp/opennlp-2.3.0/apache-opennlp-2.3.0-src.tar.gz"
+"opennlp/opennlp-2.3.0/apache-opennlp-2.3.0-src.tar.gz",
+"opennlp/opennlp-2.3.0/apache-opennlp-2.3.0-src.zip"
 ],
 "opennlp-training-eval-logs-1.0-1.9.3": [
 "opennlp/models/ud-models-1.0/opennlp-training-eval-logs-1.0-1.9.3.zip"
@@ -5870,8 +5810,8 @@
 },
 "openoffice": {
 "apache-openoffice-4.1.14-a0d24fb625": [
-"openoffice/4.1.14/source/apache-openoffice-4.1.14-a0d24fb625-src.tar.gz",
 "openoffice/4.1.14/source/apache-openoffice-4.1.14-a0d24fb625-src.tar.bz2",
+"openoffice/4.1.14/source/apache-openoffice-4.1.14-a0d24fb625-src.tar.gz",
 "openoffice/4.1.14/source/apache-openoffice-4.1.14-a0d24fb625-src.zip"
 ]
 },
@@ -5923,8 +5863,8 @@
 "openwhisk/openwhisk-client-js-3.21.7-sources.tar.gz"
 ],
 "openwhisk-composer-0.12.0": [
-"openwhisk/openwhisk-composer-0.12.0-sources.tar.gz",
-"openwhisk/20.11/openwhisk-composer-0.12.0-sources.tar.gz"
+"openwhisk/20.11/openwhisk-composer-0.12.0-sources.tar.gz",
+"openwhisk/openwhisk-composer-0.12.0-sources.tar.gz"
 ],
 "openwhisk-deploy-kube-1.0.0": [
 "openwhisk/20.11/openwhisk-deploy-kube-1.0.0-sources.tar.gz",
@@ -6045,8 +5985,8 @@
 "ozone/1.1.0/ozone-1.1.0.tar.gz"
 ],
 "ozone-1.2.1": [
-"ozone/1.2.1/ozone-1.2.1.tar.gz",
-"ozone/1.2.1/ozone-1.2.1-src.tar.gz"
+"ozone/1.2.1/ozone-1.2.1-src.tar.gz",
+"ozone/1.2.1/ozone-1.2.1.tar.gz"
 ],
 "ozone-1.3.0": [
 "ozone/1.3.0/ozone-1.3.0-src.tar.gz",
@@ -6154,8 +6094,8 @@
 "pig/pig-0.16.0/pig-0.16.0.tar.gz"
 ],
 "pig-0.17.0": [
-"pig/pig-0.17.0/pig-0.17.0.tar.gz",
-"pig/pig-0.17.0/pig-0.17.0-src.tar.gz"
+"pig/pig-0.17.0/pig-0.17.0-src.tar.gz",
+"pig/pig-0.17.0/pig-0.17.0.tar.gz"
 ]
 },
 "pinot": {
@@ -6165,8 +6105,8 @@
 },
 "pivot": {
 "apache-pivot-2.0.5": [
-"pivot/source/apache-pivot-2.0.5-src.zip",
-"pivot/source/apache-pivot-2.0.5-src.tar.gz"
+"pivot/source/apache-pivot-2.0.5-src.tar.gz",
+"pivot/source/apache-pivot-2.0.5-src.zip"
 ]
 },
 "plc4x": {
@@ -6185,12 +6125,12 @@
 },
 "poi": {
 "poi-5.2.3-20220909": [
-"poi/release/src/poi-src-5.2.3-20220909.zip",
-"poi/release/src/poi-src-5.2.3-20220909.tgz"
+"poi/release/src/poi-src-5.2.3-20220909.tgz",
+"poi/release/src/poi-src-5.2.3-20220909.zip"
 ],
 "xmlbeans-5.1.1-20220819": [
-"poi/xmlbeans/release/src/xmlbeans-src-5.1.1-20220819.zip",
-"poi/xmlbeans/release/src/xmlbeans-src-5.1.1-20220819.tgz"
+"poi/xmlbeans/release/src/xmlbeans-src-5.1.1-20220819.tgz",
+"poi/xmlbeans/release/src/xmlbeans-src-5.1.1-20220819.zip"
 ]
 },
 "portals": {
@@ -6210,9 +6150,9 @@
 "portals/applications/sources/apa-gems-1.2-source-release.zip"
 ],
 "apa-logging-1.0": [
-"portals/applications/sources/apa-logging-1.0-project.zip",
+"portals/applications/sources/apa-logging-1.0-project.tar.bz2",
 "portals/applications/sources/apa-logging-1.0-project.tar.gz",
-"portals/applications/sources/apa-logging-1.0-project.tar.bz2"
+"portals/applications/sources/apa-logging-1.0-project.zip"
 ],
 "apa-logging-1.1": [
 "portals/applications/sources/apa-logging-1.1-source-release.zip"
@@ -6257,14 +6197,14 @@
 "portals/jetspeed-2/sources/jetspeed-2-2.3.1-source-release.zip"
 ],
 "pluto-2.0.3": [
+"portals/pluto/pluto-2.0.3-bundle.tar.gz",
 "portals/pluto/pluto-2.0.3-bundle.zip",
-"portals/pluto/pluto-2.0.3-source-release.zip",
-"portals/pluto/pluto-2.0.3-bundle.tar.gz"
+"portals/pluto/pluto-2.0.3-source-release.zip"
 ],
 "pluto-2.1.0-M3": [
-"portals/pluto/pluto-2.1.0-M3-source-release.zip",
+"portals/pluto/pluto-2.1.0-M3-bundle.tar.gz",
 "portals/pluto/pluto-2.1.0-M3-bundle.zip",
-"portals/pluto/pluto-2.1.0-M3-bundle.tar.gz"
+"portals/pluto/pluto-2.1.0-M3-source-release.zip"
 ],
 "pluto-3.0.0": [
 "portals/pluto/pluto-3.0.0-source-release.zip"
@@ -6292,10 +6232,10 @@
 ],
 "portals-bridges-1.0.4": [
 "portals/bridges/portals-bridges-1.0.4-src.tar.bz2",
-"portals/bridges/portals-bridges-1.0.4.tar.gz",
 "portals/bridges/portals-bridges-1.0.4-src.tar.gz",
-"portals/bridges/portals-bridges-1.0.4.tar.bz2",
 "portals/bridges/portals-bridges-1.0.4-src.zip",
+"portals/bridges/portals-bridges-1.0.4.tar.bz2",
+"portals/bridges/portals-bridges-1.0.4.tar.gz",
 "portals/bridges/portals-bridges-1.0.4.zip"
 ],
 "portals-bridges-common-2.0": [
@@ -6327,16 +6267,16 @@
 "APKINDEX": [
 "pulsar/pulsar-client-cpp-3.0.0/apk-arm64/aarch64/APKINDEX.tar.gz",
 "pulsar/pulsar-client-cpp-3.0.0/apk-x86_64/x86_64/APKINDEX.tar.gz",
+"pulsar/pulsar-client-cpp-3.1.0/apk-arm64/aarch64/APKINDEX.tar.gz",
+"pulsar/pulsar-client-cpp-3.1.0/apk-x86_64/x86_64/APKINDEX.tar.gz",
+"pulsar/pulsar-client-cpp-3.1.1/apk-arm64/aarch64/APKINDEX.tar.gz",
+"pulsar/pulsar-client-cpp-3.1.1/apk-x86_64/x86_64/APKINDEX.tar.gz",
 "pulsar/pulsar-client-cpp-3.1.2/apk-arm64/aarch64/APKINDEX.tar.gz",
 "pulsar/pulsar-client-cpp-3.1.2/apk-x86_64/x86_64/APKINDEX.tar.gz",
 "pulsar/pulsar-client-cpp-3.2.0/apk-arm64/aarch64/APKINDEX.tar.gz",
 "pulsar/pulsar-client-cpp-3.2.0/apk-x86_64/x86_64/APKINDEX.tar.gz",
 "pulsar/pulsar-client-cpp-3.3.0/apk-arm64/aarch64/APKINDEX.tar.gz",
-"pulsar/pulsar-client-cpp-3.3.0/apk-x86_64/x86_64/APKINDEX.tar.gz",
-"pulsar/pulsar-client-cpp-3.1.1/apk-arm64/aarch64/APKINDEX.tar.gz",
-"pulsar/pulsar-client-cpp-3.1.1/apk-x86_64/x86_64/APKINDEX.tar.gz",
-"pulsar/pulsar-client-cpp-3.1.0/apk-arm64/aarch64/APKINDEX.tar.gz",
-"pulsar/pulsar-client-cpp-3.1.0/apk-x86_64/x86_64/APKINDEX.tar.gz"
+"pulsar/pulsar-client-cpp-3.3.0/apk-x86_64/x86_64/APKINDEX.tar.gz"
 ],
 "apache-pulsar-2.10.2": [
 "pulsar/pulsar-2.10.2/apache-pulsar-2.10.2-src.tar.gz"
@@ -6430,54 +6370,6 @@
 ],
 "apache-pulsar-manager-0.4.0": [
 "pulsar/pulsar-manager/pulsar-manager-0.4.0/apache-pulsar-manager-0.4.0-src.tar.gz"
-],
-"napi-darwin-unknown-arm64": [
-"pulsar/pulsar-client-node/pulsar-client-node-1.8.1/napi-darwin-unknown-arm64.tar.gz",
-"pulsar/pulsar-client-node/pulsar-client-node-1.8.0/napi-darwin-unknown-arm64.tar.gz",
-"pulsar/pulsar-client-node/pulsar-client-node-1.9.0/napi-darwin-unknown-arm64.tar.gz",
-"pulsar/pulsar-client-node/pulsar-client-node-1.8.2/napi-darwin-unknown-arm64.tar.gz"
-],
-"napi-darwin-unknown-x64": [
-"pulsar/pulsar-client-node/pulsar-client-node-1.8.1/napi-darwin-unknown-x64.tar.gz",
-"pulsar/pulsar-client-node/pulsar-client-node-1.8.0/napi-darwin-unknown-x64.tar.gz",
-"pulsar/pulsar-client-node/pulsar-client-node-1.9.0/napi-darwin-unknown-x64.tar.gz",
-"pulsar/pulsar-client-node/pulsar-client-node-1.8.2/napi-darwin-unknown-x64.tar.gz"
-],
-"napi-linux-glibc-arm64": [
-"pulsar/pulsar-client-node/pulsar-client-node-1.8.1/napi-linux-glibc-arm64.tar.gz",
-"pulsar/pulsar-client-node/pulsar-client-node-1.8.0/napi-linux-glibc-arm64.tar.gz",
-"pulsar/pulsar-client-node/pulsar-client-node-1.9.0/napi-linux-glibc-arm64.tar.gz",
-"pulsar/pulsar-client-node/pulsar-client-node-1.8.2/napi-linux-glibc-arm64.tar.gz"
-],
-"napi-linux-glibc-x64": [
-"pulsar/pulsar-client-node/pulsar-client-node-1.8.1/napi-linux-glibc-x64.tar.gz",
-"pulsar/pulsar-client-node/pulsar-client-node-1.8.0/napi-linux-glibc-x64.tar.gz",
-"pulsar/pulsar-client-node/pulsar-client-node-1.9.0/napi-linux-glibc-x64.tar.gz",
-"pulsar/pulsar-client-node/pulsar-client-node-1.8.2/napi-linux-glibc-x64.tar.gz"
-],
-"napi-linux-musl-arm64": [
-"pulsar/pulsar-client-node/pulsar-client-node-1.8.1/napi-linux-musl-arm64.tar.gz",
-"pulsar/pulsar-client-node/pulsar-client-node-1.8.0/napi-linux-musl-arm64.tar.gz",
-"pulsar/pulsar-client-node/pulsar-client-node-1.9.0/napi-linux-musl-arm64.tar.gz",
-"pulsar/pulsar-client-node/pulsar-client-node-1.8.2/napi-linux-musl-arm64.tar.gz"
-],
-"napi-linux-musl-x64": [
-"pulsar/pulsar-client-node/pulsar-client-node-1.8.1/napi-linux-musl-x64.tar.gz",
-"pulsar/pulsar-client-node/pulsar-client-node-1.8.0/napi-linux-musl-x64.tar.gz",
-"pulsar/pulsar-client-node/pulsar-client-node-1.9.0/napi-linux-musl-x64.tar.gz",
-"pulsar/pulsar-client-node/pulsar-client-node-1.8.2/napi-linux-musl-x64.tar.gz"
-],
-"napi-unknown-ia32": [
-"pulsar/pulsar-client-node/pulsar-client-node-1.8.1/napi-win32-unknown-ia32.tar.gz",
-"pulsar/pulsar-client-node/pulsar-client-node-1.8.0/napi-win32-unknown-ia32.tar.gz",
-"pulsar/pulsar-client-node/pulsar-client-node-1.9.0/napi-win32-unknown-ia32.tar.gz",
-"pulsar/pulsar-client-node/pulsar-client-node-1.8.2/napi-win32-unknown-ia32.tar.gz"
-],
-"napi-unknown-x64": [
-"pulsar/pulsar-client-node/pulsar-client-node-1.8.1/napi-win32-unknown-x64.tar.gz",
-"pulsar/pulsar-client-node/pulsar-client-node-1.8.0/napi-win32-unknown-x64.tar.gz",
-"pulsar/pulsar-client-node/pulsar-client-node-1.9.0/napi-win32-unknown-x64.tar.gz",
-"pulsar/pulsar-client-node/pulsar-client-node-1.8.2/napi-win32-unknown-x64.tar.gz"
 ],
 "pulsar-3.0.0": [
 "pulsar/helm-chart/3.0.0/pulsar-3.0.0.tgz"
@@ -6704,8 +6596,8 @@
 "rocketmq/rocketmq-mqtt/1.0.1/rocketmq-mqtt-1.0.1-source-release.zip"
 ],
 "rocketmq-proto-2.0.0": [
-"rocketmq/rocketmq-proto/2.0.0/rocketmq-proto-2.0.0-source-release.zip",
-"rocketmq/2.0.0/rocketmq-proto-2.0.0-source-release.zip"
+"rocketmq/2.0.0/rocketmq-proto-2.0.0-source-release.zip",
+"rocketmq/rocketmq-proto/2.0.0/rocketmq-proto-2.0.0-source-release.zip"
 ],
 "rocketmq-proto-2.0.1": [
 "rocketmq/rocketmq-proto/2.0.1/rocketmq-proto-2.0.1-source-release.zip"
@@ -6732,18 +6624,18 @@
 "roller/roller-6.1/v6.1.1/apache-roller-6.1.1-source.zip"
 ],
 "apache-roller-6.1.2": [
-"roller/roller-6.1/v6.1.2/apache-roller-6.1.2-source.zip",
-"roller/roller-6.1/v6.1.2/apache-roller-6.1.2-source.tar.gz"
+"roller/roller-6.1/v6.1.2/apache-roller-6.1.2-source.tar.gz",
+"roller/roller-6.1/v6.1.2/apache-roller-6.1.2-source.zip"
 ]
 },
 "royale": {
 "apache-royale-0.9.10": [
-"royale/0.9.10/apache-royale-0.9.10-src.zip",
-"royale/0.9.10/apache-royale-0.9.10-src.tar.gz"
+"royale/0.9.10/apache-royale-0.9.10-src.tar.gz",
+"royale/0.9.10/apache-royale-0.9.10-src.zip"
 ],
 "apache-royale-0.9.9": [
-"royale/0.9.9/apache-royale-0.9.9-src.zip",
-"royale/0.9.9/apache-royale-0.9.9-src.tar.gz"
+"royale/0.9.9/apache-royale-0.9.9-src.tar.gz",
+"royale/0.9.9/apache-royale-0.9.9-src.zip"
 ],
 "apache-royale-compiler-build-tools-1.2.1": [
 "royale/compiler-build-tools/1.2.1/apache-royale-compiler-build-tools-1.2.1-source-release.zip"
@@ -6767,8 +6659,8 @@
 },
 "santuario": {
 "xml-security-c-2.0.4": [
-"santuario/c-library/xml-security-c-2.0.4.tar.gz",
 "santuario/c-library/xml-security-c-2.0.4.tar.bz2",
+"santuario/c-library/xml-security-c-2.0.4.tar.gz",
 "santuario/c-library/xml-security-c-2.0.4.zip"
 ],
 "xmlsec-2.2.5": [
@@ -6849,14 +6741,8 @@
 "apache-servicecomb-kie-0.2.0": [
 "servicecomb/servicecomb-kie/0.2.0/apache-servicecomb-kie-0.2.0-src.tar.gz"
 ],
-"apache-servicecomb-kie-0.2.0-linux-arm64": [
-"servicecomb/servicecomb-kie/0.2.0/apache-servicecomb-kie-0.2.0-linux-arm64.tar.gz"
-],
 "apache-servicecomb-mesher-1.6.3": [
 "servicecomb/servicecomb-mesher/1.6.3/apache-servicecomb-mesher-1.6.3-src.tar.gz"
-],
-"apache-servicecomb-mesher-1.6.3-linux-arm64": [
-"servicecomb/servicecomb-mesher/1.6.3/apache-servicecomb-mesher-1.6.3-linux-arm64.tar.gz"
 ],
 "apache-servicecomb-pack-distribution-0.7.1": [
 "servicecomb/servicecomb-pack/0.7.1/apache-servicecomb-pack-distribution-0.7.1-src.zip"
@@ -6876,8 +6762,8 @@
 },
 "servicemix": {
 "apache-servicemix-7.0.1": [
-"servicemix/servicemix-7/7.0.1/apache-servicemix-7.0.1.zip",
-"servicemix/servicemix-7/7.0.1/apache-servicemix-7.0.1-src.zip"
+"servicemix/servicemix-7/7.0.1/apache-servicemix-7.0.1-src.zip",
+"servicemix/servicemix-7/7.0.1/apache-servicemix-7.0.1.zip"
 ]
 },
 "shardingsphere": {
@@ -6938,8 +6824,8 @@
 },
 "skywalking": {
 "apache-skywalking-apm-9.6.0": [
-"skywalking/9.6.0/apache-skywalking-apm-9.6.0.tar.gz",
-"skywalking/9.6.0/apache-skywalking-apm-9.6.0-src.tgz"
+"skywalking/9.6.0/apache-skywalking-apm-9.6.0-src.tgz",
+"skywalking/9.6.0/apache-skywalking-apm-9.6.0.tar.gz"
 ],
 "apache-skywalking-banyandb-java-client-0.3.1": [
 "skywalking/banyandb-java-client/0.3.1/apache-skywalking-banyandb-java-client-0.3.1-src.tgz"
@@ -7333,9 +7219,9 @@
 "sling/org.apache.sling.feature.apiregions-1.1.10-source-release.zip"
 ],
 "org.apache.sling.feature.cpconverter-1.3.2": [
-"sling/org.apache.sling.feature.cpconverter-1.3.2.zip",
 "sling/org.apache.sling.feature.cpconverter-1.3.2-source-release.zip",
-"sling/org.apache.sling.feature.cpconverter-1.3.2.tar.gz"
+"sling/org.apache.sling.feature.cpconverter-1.3.2.tar.gz",
+"sling/org.apache.sling.feature.cpconverter-1.3.2.zip"
 ],
 "org.apache.sling.feature.diff-0.1.0": [
 "sling/org.apache.sling.feature.diff-0.1.0-source-release.zip"
@@ -7355,14 +7241,14 @@
 "sling/org.apache.sling.feature.inventoryprinter-1.0.0-source-release.zip"
 ],
 "org.apache.sling.feature.launcher-1.3.0": [
-"sling/org.apache.sling.feature.launcher-1.3.0.zip",
 "sling/org.apache.sling.feature.launcher-1.3.0-source-release.zip",
-"sling/org.apache.sling.feature.launcher-1.3.0.tar.gz"
+"sling/org.apache.sling.feature.launcher-1.3.0.tar.gz",
+"sling/org.apache.sling.feature.launcher-1.3.0.zip"
 ],
 "org.apache.sling.feature.modelconverter-1.0.14": [
-"sling/org.apache.sling.feature.modelconverter-1.0.14.zip",
+"sling/org.apache.sling.feature.modelconverter-1.0.14-source-release.zip",
 "sling/org.apache.sling.feature.modelconverter-1.0.14.tar.gz",
-"sling/org.apache.sling.feature.modelconverter-1.0.14-source-release.zip"
+"sling/org.apache.sling.feature.modelconverter-1.0.14.zip"
 ],
 "org.apache.sling.featureflags-1.2.2": [
 "sling/org.apache.sling.featureflags-1.2.2-source-release.zip"
@@ -7497,8 +7383,8 @@
 "sling/org.apache.sling.jcr.packageinit-1.0.4-source-release.zip"
 ],
 "org.apache.sling.jcr.prefs-1.0.0": [
-"sling/org.apache.sling.jcr.prefs-1.0.0-project.zip",
-"sling/org.apache.sling.jcr.prefs-1.0.0-project.tar.gz"
+"sling/org.apache.sling.jcr.prefs-1.0.0-project.tar.gz",
+"sling/org.apache.sling.jcr.prefs-1.0.0-project.zip"
 ],
 "org.apache.sling.jcr.registration-1.0.6": [
 "sling/org.apache.sling.jcr.registration-1.0.6-source-release.zip"
@@ -7957,18 +7843,9 @@
 ]
 },
 "solr": {
-"solr-0.7.1": [
-"solr/solr-operator/v0.7.1/helm-charts/solr-0.7.1.tgz"
-],
 "solr-9.3.0": [
 "solr/solr/9.3.0/solr-9.3.0-src.tgz",
 "solr/solr/9.3.0/solr-9.3.0.tgz"
-],
-"solr-9.3.0-slim": [
-"solr/solr/9.3.0/solr-9.3.0-slim.tgz"
-],
-"solr-operator-0.7.1": [
-"solr/solr-operator/v0.7.1/helm-charts/solr-operator-0.7.1.tgz"
 ],
 "solr-operator-v0.7.1": [
 "solr/solr-operator/v0.7.1/solr-operator-v0.7.1.tgz"
@@ -7976,14 +7853,14 @@
 },
 "spamassassin": {
 "Mail-SpamAssassin-3.4.6": [
-"spamassassin/source/Mail-SpamAssassin-3.4.6.tar.gz",
 "spamassassin/source/Mail-SpamAssassin-3.4.6.tar.bz2",
+"spamassassin/source/Mail-SpamAssassin-3.4.6.tar.gz",
 "spamassassin/source/Mail-SpamAssassin-3.4.6.zip"
 ],
 "Mail-SpamAssassin-4.0.0": [
 "spamassassin/source/Mail-SpamAssassin-4.0.0.tar.bz2",
-"spamassassin/source/Mail-SpamAssassin-4.0.0.zip",
-"spamassassin/source/Mail-SpamAssassin-4.0.0.tar.gz"
+"spamassassin/source/Mail-SpamAssassin-4.0.0.tar.gz",
+"spamassassin/source/Mail-SpamAssassin-4.0.0.zip"
 ],
 "Mail-SpamAssassin-rules-3.4.6.r1888502": [
 "spamassassin/source/Mail-SpamAssassin-rules-3.4.6.r1888502.tgz"
@@ -8041,40 +7918,40 @@
 },
 "storm": {
 "apache-storm-1.2.4": [
-"storm/apache-storm-1.2.4/apache-storm-1.2.4-src.zip",
 "storm/apache-storm-1.2.4/apache-storm-1.2.4-src.tar.gz",
+"storm/apache-storm-1.2.4/apache-storm-1.2.4-src.zip",
 "storm/apache-storm-1.2.4/apache-storm-1.2.4.tar.gz",
 "storm/apache-storm-1.2.4/apache-storm-1.2.4.zip"
 ],
 "apache-storm-2.1.1": [
-"storm/apache-storm-2.1.1/apache-storm-2.1.1-src.zip",
 "storm/apache-storm-2.1.1/apache-storm-2.1.1-src.tar.gz",
+"storm/apache-storm-2.1.1/apache-storm-2.1.1-src.zip",
 "storm/apache-storm-2.1.1/apache-storm-2.1.1.tar.gz",
 "storm/apache-storm-2.1.1/apache-storm-2.1.1.zip"
 ],
 "apache-storm-2.2.1": [
 "storm/apache-storm-2.2.1/apache-storm-2.2.1-src.tar.gz",
 "storm/apache-storm-2.2.1/apache-storm-2.2.1-src.zip",
-"storm/apache-storm-2.2.1/apache-storm-2.2.1.zip",
-"storm/apache-storm-2.2.1/apache-storm-2.2.1.tar.gz"
+"storm/apache-storm-2.2.1/apache-storm-2.2.1.tar.gz",
+"storm/apache-storm-2.2.1/apache-storm-2.2.1.zip"
 ],
 "apache-storm-2.3.0": [
-"storm/apache-storm-2.3.0/apache-storm-2.3.0.tar.gz",
-"storm/apache-storm-2.3.0/apache-storm-2.3.0-src.zip",
 "storm/apache-storm-2.3.0/apache-storm-2.3.0-src.tar.gz",
+"storm/apache-storm-2.3.0/apache-storm-2.3.0-src.zip",
+"storm/apache-storm-2.3.0/apache-storm-2.3.0.tar.gz",
 "storm/apache-storm-2.3.0/apache-storm-2.3.0.zip"
 ],
 "apache-storm-2.4.0": [
 "storm/apache-storm-2.4.0/apache-storm-2.4.0-src.tar.gz",
-"storm/apache-storm-2.4.0/apache-storm-2.4.0.zip",
 "storm/apache-storm-2.4.0/apache-storm-2.4.0-src.zip",
-"storm/apache-storm-2.4.0/apache-storm-2.4.0.tar.gz"
+"storm/apache-storm-2.4.0/apache-storm-2.4.0.tar.gz",
+"storm/apache-storm-2.4.0/apache-storm-2.4.0.zip"
 ],
 "apache-storm-2.5.0": [
-"storm/apache-storm-2.5.0/apache-storm-2.5.0-src.zip",
 "storm/apache-storm-2.5.0/apache-storm-2.5.0-src.tar.gz",
-"storm/apache-storm-2.5.0/apache-storm-2.5.0.zip",
-"storm/apache-storm-2.5.0/apache-storm-2.5.0.tar.gz"
+"storm/apache-storm-2.5.0/apache-storm-2.5.0-src.zip",
+"storm/apache-storm-2.5.0/apache-storm-2.5.0.tar.gz",
+"storm/apache-storm-2.5.0/apache-storm-2.5.0.zip"
 ]
 },
 "streampipes": {
@@ -8094,24 +7971,24 @@
 "struts/2.5.31/struts-2.5.31-src.zip"
 ],
 "struts-2.5.32": [
-"struts/2.5.32/struts-2.5.32-apps.zip",
 "struts/2.5.32/struts-2.5.32-all.zip",
+"struts/2.5.32/struts-2.5.32-apps.zip",
 "struts/2.5.32/struts-2.5.32-src.zip"
 ],
 "struts-6.1.2.1": [
 "struts/6.1.2.1/struts-6.1.2.1-all.zip",
-"struts/6.1.2.1/struts-6.1.2.1-src.zip",
-"struts/6.1.2.1/struts-6.1.2.1-apps.zip"
+"struts/6.1.2.1/struts-6.1.2.1-apps.zip",
+"struts/6.1.2.1/struts-6.1.2.1-src.zip"
 ],
 "struts-6.1.2.2": [
-"struts/6.1.2.2/struts-6.1.2.2-src.zip",
 "struts/6.1.2.2/struts-6.1.2.2-all.zip",
-"struts/6.1.2.2/struts-6.1.2.2-apps.zip"
+"struts/6.1.2.2/struts-6.1.2.2-apps.zip",
+"struts/6.1.2.2/struts-6.1.2.2-src.zip"
 ],
 "struts-6.2.0": [
 "struts/6.2.0/struts-6.2.0-all.zip",
-"struts/6.2.0/struts-6.2.0-src.zip",
-"struts/6.2.0/struts-6.2.0-apps.zip"
+"struts/6.2.0/struts-6.2.0-apps.zip",
+"struts/6.2.0/struts-6.2.0-src.zip"
 ],
 "struts-6.3.0": [
 "struts/6.3.0/struts-6.3.0-all.zip",
@@ -8156,14 +8033,14 @@
 "submarine/submarine-0.6.0/submarine-dist-0.6.0-hadoop-2.9.tar.gz"
 ],
 "submarine-dist-0.7.0": [
-"submarine/submarine-0.7.0/submarine-dist-0.7.0.tar.gz",
-"submarine/submarine-0.7.0/submarine-dist-0.7.0-src.tar.gz"
+"submarine/submarine-0.7.0/submarine-dist-0.7.0-src.tar.gz",
+"submarine/submarine-0.7.0/submarine-dist-0.7.0.tar.gz"
 ]
 },
 "subversion": {
 "subversion-1.14.2": [
-"subversion/subversion-1.14.2.tar.gz",
 "subversion/subversion-1.14.2.tar.bz2",
+"subversion/subversion-1.14.2.tar.gz",
 "subversion/subversion-1.14.2.zip"
 ]
 },
@@ -8198,8 +8075,8 @@
 },
 "synapse": {
 "synapse-distribution-3.0.1": [
-"synapse/3.0.1/synapse-distribution-3.0.1-src.zip",
-"synapse/3.0.1/synapse-distribution-3.0.1-src.tar.gz"
+"synapse/3.0.1/synapse-distribution-3.0.1-src.tar.gz",
+"synapse/3.0.1/synapse-distribution-3.0.1-src.zip"
 ],
 "synapse-distribution-3.0.2": [
 "synapse/3.0.2/synapse-distribution-3.0.2-src.tar.gz",
@@ -8211,12 +8088,12 @@
 "syncope/2.1.14/org.apache.syncope.ide.eclipse.site-2.1.14.zip"
 ],
 "syncope-2.1.14": [
-"syncope/2.1.14/syncope-standalone-2.1.14-distribution.zip",
-"syncope/2.1.14/syncope-2.1.14-source-release.zip"
+"syncope/2.1.14/syncope-2.1.14-source-release.zip",
+"syncope/2.1.14/syncope-standalone-2.1.14-distribution.zip"
 ],
 "syncope-3.0.4": [
-"syncope/3.0.4/syncope-standalone-3.0.4-distribution.zip",
-"syncope/3.0.4/syncope-3.0.4-source-release.zip"
+"syncope/3.0.4/syncope-3.0.4-source-release.zip",
+"syncope/3.0.4/syncope-standalone-3.0.4-distribution.zip"
 ],
 "syncope-client-cli-2.1.14": [
 "syncope/2.1.14/syncope-client-cli-2.1.14.zip"
@@ -8227,32 +8104,32 @@
 },
 "systemds": {
 "systemds-2.0.0": [
-"systemds/2.0.0/systemds-2.0.0-src.zip",
-"systemds/2.0.0/systemds-2.0.0-src.tgz"
+"systemds/2.0.0/systemds-2.0.0-src.tgz",
+"systemds/2.0.0/systemds-2.0.0-src.zip"
 ],
 "systemds-2.1.0": [
-"systemds/2.1.0/systemds-2.1.0-src.zip",
-"systemds/2.1.0/systemds-2.1.0-src.tgz"
+"systemds/2.1.0/systemds-2.1.0-src.tgz",
+"systemds/2.1.0/systemds-2.1.0-src.zip"
 ],
 "systemds-2.2.1": [
 "systemds/2.2.1/systemds-2.2.1-src.tgz",
 "systemds/2.2.1/systemds-2.2.1-src.zip"
 ],
 "systemds-2.2.2": [
-"systemds/2.2.2/systemds-2.2.2-src.zip",
-"systemds/2.2.2/systemds-2.2.2-src.tgz"
+"systemds/2.2.2/systemds-2.2.2-src.tgz",
+"systemds/2.2.2/systemds-2.2.2-src.zip"
 ],
 "systemds-3.0.0": [
-"systemds/3.0.0/systemds-3.0.0-src.zip",
-"systemds/3.0.0/systemds-3.0.0-src.tgz"
+"systemds/3.0.0/systemds-3.0.0-src.tgz",
+"systemds/3.0.0/systemds-3.0.0-src.zip"
 ],
 "systemds-3.1.0": [
-"systemds/3.1.0/systemds-3.1.0-src.zip",
-"systemds/3.1.0/systemds-3.1.0-src.tgz"
+"systemds/3.1.0/systemds-3.1.0-src.tgz",
+"systemds/3.1.0/systemds-3.1.0-src.zip"
 ],
 "systemml-1.2.0": [
-"systemds/1.2.0/systemml-1.2.0-src.zip",
-"systemds/1.2.0/systemml-1.2.0-src.tgz"
+"systemds/1.2.0/systemml-1.2.0-src.tgz",
+"systemds/1.2.0/systemml-1.2.0-src.zip"
 ],
 "systemml-1.2.0-python": [
 "systemds/1.2.0/systemml-1.2.0-python.tar.gz"
@@ -8264,8 +8141,8 @@
 "tapestry/apache-tapestry-5.6.4-sources.zip"
 ],
 "apache-tapestry-5.8.3": [
-"tapestry/apache-tapestry-5.8.3-sources.zip",
-"tapestry/apache-tapestry-5.8.3-apidocs.zip"
+"tapestry/apache-tapestry-5.8.3-apidocs.zip",
+"tapestry/apache-tapestry-5.8.3-sources.zip"
 ]
 },
 "tcl": {
@@ -8319,56 +8196,24 @@
 },
 "tomcat": {
 "apache-tomcat-10.1.13": [
-"tomcat/tomcat-10/v10.1.13/bin/apache-tomcat-10.1.13-deployer.zip",
-"tomcat/tomcat-10/v10.1.13/bin/apache-tomcat-10.1.13-windows-x64.zip",
-"tomcat/tomcat-10/v10.1.13/bin/apache-tomcat-10.1.13-deployer.tar.gz",
-"tomcat/tomcat-10/v10.1.13/bin/apache-tomcat-10.1.13.tar.gz",
-"tomcat/tomcat-10/v10.1.13/bin/apache-tomcat-10.1.13-fulldocs.tar.gz",
-"tomcat/tomcat-10/v10.1.13/bin/embed/apache-tomcat-10.1.13-embed.zip",
-"tomcat/tomcat-10/v10.1.13/bin/embed/apache-tomcat-10.1.13-embed.tar.gz",
-"tomcat/tomcat-10/v10.1.13/bin/apache-tomcat-10.1.13.zip",
-"tomcat/tomcat-10/v10.1.13/src/apache-tomcat-10.1.13-src.zip",
-"tomcat/tomcat-10/v10.1.13/src/apache-tomcat-10.1.13-src.tar.gz"
+"tomcat/tomcat-10/v10.1.13/src/apache-tomcat-10.1.13-src.tar.gz",
+"tomcat/tomcat-10/v10.1.13/src/apache-tomcat-10.1.13-src.zip"
 ],
 "apache-tomcat-11.0.0-M11": [
-"tomcat/tomcat-11/v11.0.0-M11/bin/apache-tomcat-11.0.0-M11.tar.gz",
-"tomcat/tomcat-11/v11.0.0-M11/bin/apache-tomcat-11.0.0-M11-deployer.zip",
-"tomcat/tomcat-11/v11.0.0-M11/bin/apache-tomcat-11.0.0-M11.zip",
-"tomcat/tomcat-11/v11.0.0-M11/bin/apache-tomcat-11.0.0-M11-fulldocs.tar.gz",
-"tomcat/tomcat-11/v11.0.0-M11/bin/apache-tomcat-11.0.0-M11-deployer.tar.gz",
-"tomcat/tomcat-11/v11.0.0-M11/bin/embed/apache-tomcat-11.0.0-M11-embed.zip",
-"tomcat/tomcat-11/v11.0.0-M11/bin/embed/apache-tomcat-11.0.0-M11-embed.tar.gz",
-"tomcat/tomcat-11/v11.0.0-M11/bin/apache-tomcat-11.0.0-M11-windows-x64.zip",
-"tomcat/tomcat-11/v11.0.0-M11/src/apache-tomcat-11.0.0-M11-src.zip",
-"tomcat/tomcat-11/v11.0.0-M11/src/apache-tomcat-11.0.0-M11-src.tar.gz"
+"tomcat/tomcat-11/v11.0.0-M11/src/apache-tomcat-11.0.0-M11-src.tar.gz",
+"tomcat/tomcat-11/v11.0.0-M11/src/apache-tomcat-11.0.0-M11-src.zip"
 ],
 "apache-tomcat-8.5.93": [
-"tomcat/tomcat-8/v8.5.93/bin/apache-tomcat-8.5.93-windows-x64.zip",
-"tomcat/tomcat-8/v8.5.93/bin/apache-tomcat-8.5.93-deployer.zip",
-"tomcat/tomcat-8/v8.5.93/bin/embed/apache-tomcat-8.5.93-embed.tar.gz",
-"tomcat/tomcat-8/v8.5.93/bin/embed/apache-tomcat-8.5.93-embed.zip",
-"tomcat/tomcat-8/v8.5.93/bin/apache-tomcat-8.5.93.tar.gz",
-"tomcat/tomcat-8/v8.5.93/bin/apache-tomcat-8.5.93-deployer.tar.gz",
-"tomcat/tomcat-8/v8.5.93/bin/apache-tomcat-8.5.93.zip",
-"tomcat/tomcat-8/v8.5.93/bin/apache-tomcat-8.5.93-fulldocs.tar.gz",
-"tomcat/tomcat-8/v8.5.93/src/apache-tomcat-8.5.93-src.zip",
-"tomcat/tomcat-8/v8.5.93/src/apache-tomcat-8.5.93-src.tar.gz"
+"tomcat/tomcat-8/v8.5.93/src/apache-tomcat-8.5.93-src.tar.gz",
+"tomcat/tomcat-8/v8.5.93/src/apache-tomcat-8.5.93-src.zip"
 ],
 "apache-tomcat-9.0.80": [
-"tomcat/tomcat-9/v9.0.80/bin/apache-tomcat-9.0.80.tar.gz",
-"tomcat/tomcat-9/v9.0.80/bin/apache-tomcat-9.0.80-deployer.zip",
-"tomcat/tomcat-9/v9.0.80/bin/apache-tomcat-9.0.80-fulldocs.tar.gz",
-"tomcat/tomcat-9/v9.0.80/bin/apache-tomcat-9.0.80-windows-x64.zip",
-"tomcat/tomcat-9/v9.0.80/bin/embed/apache-tomcat-9.0.80-embed.zip",
-"tomcat/tomcat-9/v9.0.80/bin/embed/apache-tomcat-9.0.80-embed.tar.gz",
-"tomcat/tomcat-9/v9.0.80/bin/apache-tomcat-9.0.80-deployer.tar.gz",
-"tomcat/tomcat-9/v9.0.80/bin/apache-tomcat-9.0.80.zip",
 "tomcat/tomcat-9/v9.0.80/src/apache-tomcat-9.0.80-src.tar.gz",
 "tomcat/tomcat-9/v9.0.80/src/apache-tomcat-9.0.80-src.zip"
 ],
 "jakartaee-migration-1.0.7": [
-"tomcat/jakartaee-migration/v1.0.7/source/jakartaee-migration-1.0.7-src.zip",
-"tomcat/jakartaee-migration/v1.0.7/source/jakartaee-migration-1.0.7-src.tar.gz"
+"tomcat/jakartaee-migration/v1.0.7/source/jakartaee-migration-1.0.7-src.tar.gz",
+"tomcat/jakartaee-migration/v1.0.7/source/jakartaee-migration-1.0.7-src.zip"
 ],
 "taglibs-standard-1.2.5": [
 "tomcat/taglibs/taglibs-standard-1.2.5/taglibs-standard-1.2.5-source-release.zip"
@@ -8391,8 +8236,8 @@
 },
 "tomee": {
 "apache-tomee-1.7.5-jaxrs": [
-"tomee/tomee-1.7.5/apache-tomee-1.7.5-jaxrs.zip",
-"tomee/tomee-1.7.5/apache-tomee-1.7.5-jaxrs.tar.gz"
+"tomee/tomee-1.7.5/apache-tomee-1.7.5-jaxrs.tar.gz",
+"tomee/tomee-1.7.5/apache-tomee-1.7.5-jaxrs.zip"
 ],
 "apache-tomee-1.7.5-plume": [
 "tomee/tomee-1.7.5/apache-tomee-1.7.5-plume.tar.gz",
@@ -8415,16 +8260,16 @@
 "tomee/tomee-7.0.9/apache-tomee-7.0.9-plus.zip"
 ],
 "apache-tomee-7.0.9-webprofile": [
-"tomee/tomee-7.0.9/apache-tomee-7.0.9-webprofile.zip",
-"tomee/tomee-7.0.9/apache-tomee-7.0.9-webprofile.tar.gz"
+"tomee/tomee-7.0.9/apache-tomee-7.0.9-webprofile.tar.gz",
+"tomee/tomee-7.0.9/apache-tomee-7.0.9-webprofile.zip"
 ],
 "apache-tomee-7.1.4-microprofile": [
-"tomee/tomee-7.1.4/apache-tomee-7.1.4-microprofile.zip",
-"tomee/tomee-7.1.4/apache-tomee-7.1.4-microprofile.tar.gz"
+"tomee/tomee-7.1.4/apache-tomee-7.1.4-microprofile.tar.gz",
+"tomee/tomee-7.1.4/apache-tomee-7.1.4-microprofile.zip"
 ],
 "apache-tomee-7.1.4-plume": [
-"tomee/tomee-7.1.4/apache-tomee-7.1.4-plume.zip",
-"tomee/tomee-7.1.4/apache-tomee-7.1.4-plume.tar.gz"
+"tomee/tomee-7.1.4/apache-tomee-7.1.4-plume.tar.gz",
+"tomee/tomee-7.1.4/apache-tomee-7.1.4-plume.zip"
 ],
 "apache-tomee-7.1.4-plus": [
 "tomee/tomee-7.1.4/apache-tomee-7.1.4-plus.tar.gz",
@@ -8439,8 +8284,8 @@
 "tomee/tomee-8.0.15/apache-tomee-8.0.15-microprofile.zip"
 ],
 "apache-tomee-8.0.15-plume": [
-"tomee/tomee-8.0.15/apache-tomee-8.0.15-plume.zip",
-"tomee/tomee-8.0.15/apache-tomee-8.0.15-plume.tar.gz"
+"tomee/tomee-8.0.15/apache-tomee-8.0.15-plume.tar.gz",
+"tomee/tomee-8.0.15/apache-tomee-8.0.15-plume.zip"
 ],
 "apache-tomee-8.0.15-plus": [
 "tomee/tomee-8.0.15/apache-tomee-8.0.15-plus.tar.gz",
@@ -8455,20 +8300,20 @@
 "tomee/tomee-9.1.0/apache-tomee-9.1.0-microprofile.zip"
 ],
 "apache-tomee-9.1.0-plume": [
-"tomee/tomee-9.1.0/apache-tomee-9.1.0-plume.zip",
-"tomee/tomee-9.1.0/apache-tomee-9.1.0-plume.tar.gz"
+"tomee/tomee-9.1.0/apache-tomee-9.1.0-plume.tar.gz",
+"tomee/tomee-9.1.0/apache-tomee-9.1.0-plume.zip"
 ],
 "apache-tomee-9.1.0-plus": [
-"tomee/tomee-9.1.0/apache-tomee-9.1.0-plus.zip",
-"tomee/tomee-9.1.0/apache-tomee-9.1.0-plus.tar.gz"
+"tomee/tomee-9.1.0/apache-tomee-9.1.0-plus.tar.gz",
+"tomee/tomee-9.1.0/apache-tomee-9.1.0-plus.zip"
 ],
 "apache-tomee-9.1.0-webprofile": [
 "tomee/tomee-9.1.0/apache-tomee-9.1.0-webprofile.tar.gz",
 "tomee/tomee-9.1.0/apache-tomee-9.1.0-webprofile.zip"
 ],
 "examples-4.7.5": [
-"tomee/tomee-1.7.5/examples-4.7.5-src.zip",
-"tomee/tomee-1.7.5/examples-4.7.5-src.tar.gz"
+"tomee/tomee-1.7.5/examples-4.7.5-src.tar.gz",
+"tomee/tomee-1.7.5/examples-4.7.5-src.zip"
 ],
 "examples-7.0.9": [
 "tomee/tomee-7.0.9/examples-7.0.9-src.tar.gz",
@@ -8488,21 +8333,21 @@
 "tomee/javaee-api-8.0-6/javaee-api-8.0-6-source-release.zip"
 ],
 "openejb-4.7.5": [
-"tomee/tomee-1.7.5/openejb-standalone-4.7.5.zip",
 "tomee/tomee-1.7.5/openejb-4.7.5-source-release.zip",
-"tomee/tomee-1.7.5/openejb-standalone-4.7.5.tar.gz"
+"tomee/tomee-1.7.5/openejb-standalone-4.7.5.tar.gz",
+"tomee/tomee-1.7.5/openejb-standalone-4.7.5.zip"
 ],
 "openejb-7.0.9": [
 "tomee/tomee-7.0.9/openejb-standalone-7.0.9.tar.gz",
 "tomee/tomee-7.0.9/openejb-standalone-7.0.9.zip"
 ],
 "openejb-7.1.4": [
-"tomee/tomee-7.1.4/openejb-standalone-7.1.4.zip",
-"tomee/tomee-7.1.4/openejb-standalone-7.1.4.tar.gz"
+"tomee/tomee-7.1.4/openejb-standalone-7.1.4.tar.gz",
+"tomee/tomee-7.1.4/openejb-standalone-7.1.4.zip"
 ],
 "openejb-provisionning-4.7.5": [
-"tomee/tomee-1.7.5/openejb-provisionning-4.7.5.zip",
-"tomee/tomee-1.7.5/openejb-provisionning-4.7.5.tar.gz"
+"tomee/tomee-1.7.5/openejb-provisionning-4.7.5.tar.gz",
+"tomee/tomee-1.7.5/openejb-provisionning-4.7.5.zip"
 ],
 "openejb-ssh-4.7.5": [
 "tomee/tomee-1.7.5/openejb-ssh-4.7.5.tar.gz",
@@ -8567,46 +8412,46 @@
 "turbine/fulcrum/fulcrum-cache/source/fulcrum-cache-2.0.0-src.zip"
 ],
 "fulcrum-crypto-1.0.8": [
-"turbine/fulcrum/fulcrum-crypto/source/fulcrum-crypto-1.0.8-src.zip",
-"turbine/fulcrum/fulcrum-crypto/source/fulcrum-crypto-1.0.8-src.tar.gz"
+"turbine/fulcrum/fulcrum-crypto/source/fulcrum-crypto-1.0.8-src.tar.gz",
+"turbine/fulcrum/fulcrum-crypto/source/fulcrum-crypto-1.0.8-src.zip"
 ],
 "fulcrum-factory-1.1.1": [
 "turbine/fulcrum/fulcrum-factory/source/fulcrum-factory-1.1.1-src.tar.gz",
 "turbine/fulcrum/fulcrum-factory/source/fulcrum-factory-1.1.1-src.zip"
 ],
 "fulcrum-hsqldb-1.0.0": [
-"turbine/fulcrum/fulcrum-hsqldb/source/fulcrum-hsqldb-1.0.0-src.tar.gz",
 "turbine/fulcrum/fulcrum-hsqldb/source/fulcrum-hsqldb-1.0.0-src.tar.bz2",
+"turbine/fulcrum/fulcrum-hsqldb/source/fulcrum-hsqldb-1.0.0-src.tar.gz",
 "turbine/fulcrum/fulcrum-hsqldb/source/fulcrum-hsqldb-1.0.0-src.zip"
 ],
 "fulcrum-intake-3.0.0": [
-"turbine/fulcrum/fulcrum-intake/source/fulcrum-intake-3.0.0-src.zip",
-"turbine/fulcrum/fulcrum-intake/source/fulcrum-intake-3.0.0-src.tar.gz"
+"turbine/fulcrum/fulcrum-intake/source/fulcrum-intake-3.0.0-src.tar.gz",
+"turbine/fulcrum/fulcrum-intake/source/fulcrum-intake-3.0.0-src.zip"
 ],
 "fulcrum-jetty-1.0.0": [
-"turbine/fulcrum/fulcrum-jetty/source/fulcrum-jetty-1.0.0-src.zip",
 "turbine/fulcrum/fulcrum-jetty/source/fulcrum-jetty-1.0.0-src.tar.bz2",
-"turbine/fulcrum/fulcrum-jetty/source/fulcrum-jetty-1.0.0-src.tar.gz"
+"turbine/fulcrum/fulcrum-jetty/source/fulcrum-jetty-1.0.0-src.tar.gz",
+"turbine/fulcrum/fulcrum-jetty/source/fulcrum-jetty-1.0.0-src.zip"
 ],
 "fulcrum-json-dist-1.1.1": [
-"turbine/fulcrum/fulcrum-json/source/fulcrum-json-dist-1.1.1-src.zip",
-"turbine/fulcrum/fulcrum-json/source/fulcrum-json-dist-1.1.1-src.tar.gz"
+"turbine/fulcrum/fulcrum-json/source/fulcrum-json-dist-1.1.1-src.tar.gz",
+"turbine/fulcrum/fulcrum-json/source/fulcrum-json-dist-1.1.1-src.zip"
 ],
 "fulcrum-json-dist-2.0.1": [
-"turbine/fulcrum/fulcrum-json/source/fulcrum-json-dist-2.0.1-src.zip",
-"turbine/fulcrum/fulcrum-json/source/fulcrum-json-dist-2.0.1-src.tar.gz"
+"turbine/fulcrum/fulcrum-json/source/fulcrum-json-dist-2.0.1-src.tar.gz",
+"turbine/fulcrum/fulcrum-json/source/fulcrum-json-dist-2.0.1-src.zip"
 ],
 "fulcrum-localization-1.0.7": [
-"turbine/fulcrum/fulcrum-localization/source/fulcrum-localization-1.0.7-src.zip",
-"turbine/fulcrum/fulcrum-localization/source/fulcrum-localization-1.0.7-src.tar.gz"
+"turbine/fulcrum/fulcrum-localization/source/fulcrum-localization-1.0.7-src.tar.gz",
+"turbine/fulcrum/fulcrum-localization/source/fulcrum-localization-1.0.7-src.zip"
 ],
 "fulcrum-mimetype-1.0.6": [
 "turbine/fulcrum/fulcrum-mimetype/source/fulcrum-mimetype-1.0.6-src.tar.gz",
 "turbine/fulcrum/fulcrum-mimetype/source/fulcrum-mimetype-1.0.6-src.zip"
 ],
 "fulcrum-parser-2.0.1": [
-"turbine/fulcrum/fulcrum-parser/source/fulcrum-parser-2.0.1-src.zip",
-"turbine/fulcrum/fulcrum-parser/source/fulcrum-parser-2.0.1-src.tar.gz"
+"turbine/fulcrum/fulcrum-parser/source/fulcrum-parser-2.0.1-src.tar.gz",
+"turbine/fulcrum/fulcrum-parser/source/fulcrum-parser-2.0.1-src.zip"
 ],
 "fulcrum-pbe-1.0.1": [
 "turbine/fulcrum/fulcrum-pbe/source/fulcrum-pbe-1.0.1-src.tar.bz2",
@@ -8618,17 +8463,17 @@
 "turbine/fulcrum/fulcrum-pool/source/fulcrum-pool-1.0.5-src.zip"
 ],
 "fulcrum-quartz-1.1.2": [
-"turbine/fulcrum/fulcrum-quartz/source/fulcrum-quartz-1.1.2-src.zip",
-"turbine/fulcrum/fulcrum-quartz/source/fulcrum-quartz-1.1.2-src.tar.gz"
+"turbine/fulcrum/fulcrum-quartz/source/fulcrum-quartz-1.1.2-src.tar.gz",
+"turbine/fulcrum/fulcrum-quartz/source/fulcrum-quartz-1.1.2-src.zip"
 ],
 "fulcrum-security-dist-2.1.0": [
-"turbine/fulcrum/fulcrum-security/source/fulcrum-security-dist-2.1.0-src.zip",
-"turbine/fulcrum/fulcrum-security/source/fulcrum-security-dist-2.1.0-src.tar.gz"
+"turbine/fulcrum/fulcrum-security/source/fulcrum-security-dist-2.1.0-src.tar.gz",
+"turbine/fulcrum/fulcrum-security/source/fulcrum-security-dist-2.1.0-src.zip"
 ],
 "fulcrum-spring-1.0.0": [
-"turbine/fulcrum/fulcrum-spring/source/fulcrum-spring-1.0.0-src.zip",
 "turbine/fulcrum/fulcrum-spring/source/fulcrum-spring-1.0.0-src.tar.bz2",
-"turbine/fulcrum/fulcrum-spring/source/fulcrum-spring-1.0.0-src.tar.gz"
+"turbine/fulcrum/fulcrum-spring/source/fulcrum-spring-1.0.0-src.tar.gz",
+"turbine/fulcrum/fulcrum-spring/source/fulcrum-spring-1.0.0-src.zip"
 ],
 "fulcrum-testcontainer-1.0.9": [
 "turbine/fulcrum/fulcrum-testcontainer/source/fulcrum-testcontainer-1.0.9-src.tar.gz",
@@ -8640,32 +8485,32 @@
 ],
 "fulcrum-upload-1.0.5": [
 "turbine/fulcrum/fulcrum-upload/source/fulcrum-upload-1.0.5-src.tar.bz2",
-"turbine/fulcrum/fulcrum-upload/source/fulcrum-upload-1.0.5-src.zip",
-"turbine/fulcrum/fulcrum-upload/source/fulcrum-upload-1.0.5-src.tar.gz"
+"turbine/fulcrum/fulcrum-upload/source/fulcrum-upload-1.0.5-src.tar.gz",
+"turbine/fulcrum/fulcrum-upload/source/fulcrum-upload-1.0.5-src.zip"
 ],
 "fulcrum-xslt-1.1.1": [
 "turbine/fulcrum/fulcrum-xslt/source/fulcrum-xslt-1.1.1-src.tar.gz",
 "turbine/fulcrum/fulcrum-xslt/source/fulcrum-xslt-1.1.1-src.zip"
 ],
 "fulcrum-yaafi-2.0.0": [
-"turbine/fulcrum/fulcrum-yaafi/source/fulcrum-yaafi-2.0.0-src.zip",
-"turbine/fulcrum/fulcrum-yaafi/source/fulcrum-yaafi-2.0.0-src.tar.gz"
+"turbine/fulcrum/fulcrum-yaafi/source/fulcrum-yaafi-2.0.0-src.tar.gz",
+"turbine/fulcrum/fulcrum-yaafi/source/fulcrum-yaafi-2.0.0-src.zip"
 ],
 "fulcrum-yaafi-crypto-1.0.7": [
-"turbine/fulcrum/fulcrum-yaafi-crypto/source/fulcrum-yaafi-crypto-1.0.7-src.zip",
-"turbine/fulcrum/fulcrum-yaafi-crypto/source/fulcrum-yaafi-crypto-1.0.7-src.tar.gz"
+"turbine/fulcrum/fulcrum-yaafi-crypto/source/fulcrum-yaafi-crypto-1.0.7-src.tar.gz",
+"turbine/fulcrum/fulcrum-yaafi-crypto/source/fulcrum-yaafi-crypto-1.0.7-src.zip"
 ],
 "fulcrum-yaafi-crypto-2.0.1": [
 "turbine/fulcrum/fulcrum-yaafi-crypto/source/fulcrum-yaafi-crypto-2.0.1-src.tar.gz",
 "turbine/fulcrum/fulcrum-yaafi-crypto/source/fulcrum-yaafi-crypto-2.0.1-src.zip"
 ],
 "maven-turbine-plugin-1.3": [
-"turbine/meta-1.3/source/maven-turbine-plugin-1.3-src.zip",
-"turbine/meta-1.3/source/maven-turbine-plugin-1.3-src.tar.gz"
+"turbine/meta-1.3/source/maven-turbine-plugin-1.3-src.tar.gz",
+"turbine/meta-1.3/source/maven-turbine-plugin-1.3-src.zip"
 ],
 "stratum-1.0": [
-"turbine/stratum-1.0/source/stratum-1.0-src.zip",
-"turbine/stratum-1.0/source/stratum-1.0-src.tar.gz"
+"turbine/stratum-1.0/source/stratum-1.0-src.tar.gz",
+"turbine/stratum-1.0/source/stratum-1.0-src.zip"
 ],
 "turbine-1.0.2": [
 "turbine/maven/turbine-parent-assembly/turbine-parent-assembly-1.0.2-source-release.zip"
@@ -8675,8 +8520,8 @@
 "turbine/maven/turbine-parent/turbine-parent-12-src.zip"
 ],
 "turbine-2.3.3": [
-"turbine/turbine-2.3.3/source/turbine-2.3.3-src.zip",
-"turbine/turbine-2.3.3/source/turbine-2.3.3-src.tar.gz"
+"turbine/turbine-2.3.3/source/turbine-2.3.3-src.tar.gz",
+"turbine/turbine-2.3.3/source/turbine-2.3.3-src.zip"
 ],
 "turbine-2.3.3-1.0.0": [
 "turbine/maven/turbine-webapp-2.3.3-1.0.0-source-release.zip"
@@ -8697,15 +8542,15 @@
 "turbine/turbine-4.0/source/turbine-4.0.1-source.zip"
 ],
 "turbine-5.0": [
-"turbine/turbine-5.0/source/turbine-5.0-source.zip",
-"turbine/turbine-5.0/source/turbine-5.0-source.tar.gz"
+"turbine/turbine-5.0/source/turbine-5.0-source.tar.gz",
+"turbine/turbine-5.0/source/turbine-5.0-source.zip"
 ],
 "turbine-5.0-1.0.3": [
 "turbine/maven/turbine-webapp-5.0-1.0.3-source-release.zip"
 ],
 "turbine-5.1": [
-"turbine/turbine-5.1/source/turbine-5.1-source.zip",
-"turbine/turbine-5.1/source/turbine-5.1-source.tar.gz"
+"turbine/turbine-5.1/source/turbine-5.1-source.tar.gz",
+"turbine/turbine-5.1/source/turbine-5.1-source.zip"
 ],
 "turbine-5.1-2.0.0": [
 "turbine/maven/turbine-webapp-5.1-2.0.0-source-release.zip"
@@ -8858,16 +8703,16 @@
 "unomi/2.4.0/unomi-2.4.0-src.zip"
 ],
 "unomi-manual-1_5_x": [
-"unomi/1.5.6/unomi-manual-1_5_x.zip",
 "unomi/1.5.4/unomi-manual-1_5_x.zip",
-"unomi/1.5.5/unomi-manual-1_5_x.zip"
+"unomi/1.5.5/unomi-manual-1_5_x.zip",
+"unomi/1.5.6/unomi-manual-1_5_x.zip"
 ],
 "unomi-manual-1_6_x": [
 "unomi/1.6.0/unomi-manual-1_6_x.zip"
 ],
 "unomi-manual-1_7_x": [
-"unomi/1.7.1/unomi-manual-1_7_x.zip",
-"unomi/1.7.0/unomi-manual-1_7_x.zip"
+"unomi/1.7.0/unomi-manual-1_7_x.zip",
+"unomi/1.7.1/unomi-manual-1_7_x.zip"
 ],
 "unomi-manual-1_9_x": [
 "unomi/1.9.0/unomi-manual-1_9_x.zip"
@@ -8915,17 +8760,17 @@
 "velocity/docbook/1.0/DocBook-Framework-1.0.zip"
 ],
 "anakia-1.0": [
-"velocity/anakia/1.0/anakia-1.0.zip",
-"velocity/anakia/1.0/anakia-1.0.tar.gz"
+"velocity/anakia/1.0/anakia-1.0.tar.gz",
+"velocity/anakia/1.0/anakia-1.0.zip"
 ],
 "texen-1.0": [
-"velocity/texen/1.0/texen-1.0.zip",
-"velocity/texen/1.0/texen-1.0.tar.gz"
+"velocity/texen/1.0/texen-1.0.tar.gz",
+"velocity/texen/1.0/texen-1.0.zip"
 ],
 "velocity-dvsl-1.0": [
 "velocity/dvsl/1.0/velocity-dvsl-1.0-src.tar.gz",
-"velocity/dvsl/1.0/velocity-dvsl-1.0.tar.gz",
 "velocity/dvsl/1.0/velocity-dvsl-1.0-src.zip",
+"velocity/dvsl/1.0/velocity-dvsl-1.0.tar.gz",
 "velocity/dvsl/1.0/velocity-dvsl-1.0.zip"
 ],
 "velocity-engine-examples-2.3": [
@@ -8938,12 +8783,12 @@
 "wicket/10.0.0-M1/apache-wicket-10.0.0-M1.zip"
 ],
 "apache-wicket-6.30.0": [
-"wicket/6.30.0/apache-wicket-6.30.0.zip",
-"wicket/6.30.0/apache-wicket-6.30.0.tar.gz"
+"wicket/6.30.0/apache-wicket-6.30.0.tar.gz",
+"wicket/6.30.0/apache-wicket-6.30.0.zip"
 ],
 "apache-wicket-7.18.0": [
-"wicket/7.18.0/apache-wicket-7.18.0.zip",
-"wicket/7.18.0/apache-wicket-7.18.0.tar.gz"
+"wicket/7.18.0/apache-wicket-7.18.0.tar.gz",
+"wicket/7.18.0/apache-wicket-7.18.0.zip"
 ],
 "apache-wicket-8.15.0": [
 "wicket/8.15.0/apache-wicket-8.15.0.tar.gz",
@@ -9014,26 +8859,26 @@
 "xerces/j/source/Xerces-J-src.2.12.2.zip"
 ],
 "Xerces-J-src.2.12.2-xml-schema-1.1": [
-"xerces/j/source/Xerces-J-src.2.12.2-xml-schema-1.1.zip",
-"xerces/j/source/Xerces-J-src.2.12.2-xml-schema-1.1.tar.gz"
+"xerces/j/source/Xerces-J-src.2.12.2-xml-schema-1.1.tar.gz",
+"xerces/j/source/Xerces-J-src.2.12.2-xml-schema-1.1.zip"
 ],
 "Xerces-J-tools.2.12.2": [
 "xerces/j/source/Xerces-J-tools.2.12.2.tar.gz",
 "xerces/j/source/Xerces-J-tools.2.12.2.zip"
 ],
 "Xerces-J-tools.2.12.2-xml-schema-1.1": [
-"xerces/j/source/Xerces-J-tools.2.12.2-xml-schema-1.1.zip",
-"xerces/j/source/Xerces-J-tools.2.12.2-xml-schema-1.1.tar.gz"
+"xerces/j/source/Xerces-J-tools.2.12.2-xml-schema-1.1.tar.gz",
+"xerces/j/source/Xerces-J-tools.2.12.2-xml-schema-1.1.zip"
 ],
 "xerces-c-3.2.4": [
-"xerces/c/3/sources/xerces-c-3.2.4.tar.xz",
-"xerces/c/3/sources/xerces-c-3.2.4.zip",
+"xerces/c/3/sources/xerces-c-3.2.4.tar.bz2",
 "xerces/c/3/sources/xerces-c-3.2.4.tar.gz",
-"xerces/c/3/sources/xerces-c-3.2.4.tar.bz2"
+"xerces/c/3/sources/xerces-c-3.2.4.tar.xz",
+"xerces/c/3/sources/xerces-c-3.2.4.zip"
 ],
 "xml-commons-external-1.2.06": [
-"xerces/xml-commons/source/xml-commons-external-1.2.06-src.zip",
-"xerces/xml-commons/source/xml-commons-external-1.2.06-src.tar.gz"
+"xerces/xml-commons/source/xml-commons-external-1.2.06-src.tar.gz",
+"xerces/xml-commons/source/xml-commons-external-1.2.06-src.zip"
 ],
 "xml-commons-external-1.3.05": [
 "xerces/xml-commons/source/xml-commons-external-1.3.05-src.tar.gz",
@@ -9046,12 +8891,12 @@
 },
 "xmlgraphics": {
 "batik-1.17": [
-"xmlgraphics/batik/source/batik-src-1.17.zip",
-"xmlgraphics/batik/source/batik-src-1.17.tar.gz"
+"xmlgraphics/batik/source/batik-src-1.17.tar.gz",
+"xmlgraphics/batik/source/batik-src-1.17.zip"
 ],
 "fop-2.9": [
-"xmlgraphics/fop/source/fop-2.9-src.zip",
-"xmlgraphics/fop/source/fop-2.9-src.tar.gz"
+"xmlgraphics/fop/source/fop-2.9-src.tar.gz",
+"xmlgraphics/fop/source/fop-2.9-src.zip"
 ],
 "fop-pdf-images-2.9": [
 "xmlgraphics/fop-pdf-images/source/fop-pdf-images-2.9-src.tar.gz",
@@ -9064,16 +8909,13 @@
 },
 "yetus": {
 "apache-yetus-0.12.0": [
-"yetus/0.12.0/apache-yetus-0.12.0-site.tar.gz",
 "yetus/0.12.0/apache-yetus-0.12.0-src.tar.gz"
 ],
 "apache-yetus-0.13.0": [
-"yetus/0.13.0/apache-yetus-0.13.0-site.tar.gz",
 "yetus/0.13.0/apache-yetus-0.13.0-src.tar.gz"
 ],
 "apache-yetus-0.14.1": [
-"yetus/0.14.1/apache-yetus-0.14.1-src.tar.gz",
-"yetus/0.14.1/apache-yetus-0.14.1-site.tar.gz"
+"yetus/0.14.1/apache-yetus-0.14.1-src.tar.gz"
 ]
 },
 "yunikorn": {
