@@ -4,6 +4,7 @@ import errtee # this is imported for its side-effects
 from collections import defaultdict
 import gzip
 import json
+from os.path import dirname, join, realpath
 from urlutils import UrlCache
 
 """
@@ -136,11 +137,15 @@ def main():
             parseFile(committeeId, file, stamp, path)
 
 if __name__ == '__main__':
+    mypath = realpath(__file__)
+    assert '/scripts/cronjobs/' in mypath, "Expected this source file to be under scripts/cronjobs !"
+    myhome = dirname(dirname(dirname(mypath))) # home dir is ../..
+    jsondir = join(myhome, 'site', 'json', 'foundation') # where the JSON files go
     main()
     print("Writing releases.json")
-    with open("../../site/json/foundation/releases.json", "w") as f:
+    with open(join(jsondir, "releases.json"), "w") as f:
         json.dump(releases, f, sort_keys=True, indent=0)
     print("Writing releases-files.json")
-    with open("../../site/json/foundation/releases-files.json", "w") as f:
+    with open(join(jsondir, "releases-files.json"), "w") as f:
         json.dump(files, f, sort_keys=True, indent=0)
     print("All done!")
