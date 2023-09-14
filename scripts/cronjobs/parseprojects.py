@@ -31,6 +31,7 @@ import json
 import os
 from os.path import join
 import traceback
+from datetime import datetime
 import sendmail
 
 URL_TIMEOUT = 60.0 # timeout for URL requests (may need tweaking)
@@ -56,8 +57,15 @@ VALID_CATS = dict(zip([j.lower() for j in cats], cats))
 # Canonicalise without adding to suggested languages
 VALID_LANG['bash'] = 'Bash'
 
+SYNTAX_MSG = {
+    "category": 'The expected syntax is <category rdf:resource="http://projects.apache.org/category/{category}" />'
+            '\nEach category should be listed in a separate tag',
+    "programming-language": 'The expected syntax is <programming-language>{language}</programming-language>'
+            '\nEach language should be listed in a separate tag',
+}
 """
 Validate and canonicalise languages and categories
+
 TODO send mails to projects when valid entries better established
 """
 def validate(json, tag, valid, pid, url):
@@ -68,7 +76,14 @@ def validate(json, tag, valid, pid, url):
             canon = valid.get(val.lower())
             if canon is None:
                 if len(val) > 30: # can this be a legal value?
-                    printNotice(f"ERROR: illegal (overlong: {len(val)} >30) value '{val}' for {pid} in {url}")#, project=pid)
+                    # only warn the project once a week
+                    if datetime.today().weekday() == 4: # Monday=0
+                        topid = pid
+                    else:
+                        topid = None
+                    printNotice(f"ERROR: illegal (overlong: {len(val)} >30) value '{val}' for {pid} in {url}",
+                                body = f'Error in {url}\nUnexpected value:{val}\n{SYNTAX_MSG[tag]}',
+                                project=topid)
                 else:
                     print(f"WARN: unexpected value '{val}' for {pid} in {url}")#, project=pid)
                     outvals.append(val) # TODO flag this to show invalid entries
