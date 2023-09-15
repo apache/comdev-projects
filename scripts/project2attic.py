@@ -45,9 +45,9 @@ def update_pmc_xml(pmc):
     xmlfilet = join(datadir,'committees.xml.t')
     print("Updating committees.xml")
     found = 0
-    with open(xmlfile,'r') as r, open(xmlfilet,'w') as w:
+    with open(xmlfile,'r', encoding='utf-8') as r, open(xmlfilet,'w', encoding='utf-8') as w:
         for l in r:
-            m = re.search("^(\s+)<location>(.+)</location",l)
+            m = re.search(r"^(\s+)<location>(.+)</location",l)
             if m:
                 indent = m.group(1)
                 url = m.group(2)
@@ -55,12 +55,12 @@ def update_pmc_xml(pmc):
                 # committees/<pmc>.rdf
                 # https://ofbiz.apache.org/<pmc>/...
                 # http://svn.apache.org/repos/asf/<pmc>/...
-                regex = "^(committees/%s\.rdf|https?://%s\.apache\.org/.+|https?://svn.apache.org/repos/asf/%s/.+)$" % (pmc,pmc,pmc)
+                regex = r"^(committees/%s\.rdf|https?://%s\.apache\.org/.+|https?://svn.apache.org/repos/asf/%s/.+)$" % (pmc,pmc,pmc)
                 if re.search(regex, url, flags=re.IGNORECASE):
                     print("Found %s at %s" % (pmc, url))
                     if url.startswith('committees/'):
                         new = url.replace('committees/','committees-retired/')
-                        subprocess.run(["svn", "mv", "data/%s" % url, "data/%s" % new])
+                        subprocess.run(["svn", "mv", "data/%s" % url, "data/%s" % new], check=True)
                         url = new
                     w.write("%s<!-- Retired: location>%s</location -->\n" % (indent, url))
                     found += 1
@@ -82,7 +82,7 @@ def update_doap(doap, source):
     infile = doap
     tmpfile = doap + '.t'
     catWrite = True
-    with open(infile,'r') as r, open(tmpfile,'w') as w:
+    with open(infile,'r', encoding='utf-8') as r, open(tmpfile,'w', encoding='utf-8') as w:
         for l in r:
             if re.search("<rdf:RDF",l):
                 w.write("<!-- Copied from %s -->\n" % source)
@@ -115,15 +115,15 @@ def update_project_xml(pid):
     # Parse each line to extract the project name.
     repore = '([-a-z0-9]+)' # repo regex
     lines2match = [
-        f"^https?://svn\.apache\.org/repos/asf/{repore}/",
-        f"^https?://gitbox\.apache\.org/repos/asf\?p={repore}\.git",
-        f"^https?://raw\.githubusercontent\.com/apache/{repore}/",
-        f"^https?://{repore}(?:\.incubator)?\.apache\.org/",
+        fr"^https?://svn\.apache\.org/repos/asf/{repore}/",
+        fr"^https?://gitbox\.apache\.org/repos/asf\?p={repore}\.git",
+        fr"^https?://raw\.githubusercontent\.com/apache/{repore}/",
+        fr"^https?://{repore}(?:\.incubator)?\.apache\.org/",
     ]
     #                         1          2                      3                                                             4
-    with open(xmlfile,'r') as r, open(xmlfilet,'w') as w:
+    with open(xmlfile,'r', encoding='utf-8') as r, open(xmlfilet,'w', encoding='utf-8') as w:
         for l in r:
-            m = re.search("^(\s+)<location>(.+)<",l)
+            m = re.search(r"^(\s+)<location>(.+)<",l)
             if m:
                 indent = m.group(1)
                 url = m.group(2)

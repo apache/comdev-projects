@@ -46,10 +46,10 @@ def file_mtime(filename):
     return t
 
 # download url as file if the cached copy is too old
-def get_url_if_newer(url, dir, name):
-    path=join(dir,name)
+def get_url_if_newer(url, folder, name):
+    path=join(folder,name)
     fileTime = file_mtime(path)
-    check = join(dir,".checked_"+name)
+    check = join(folder,".checked_"+name)
     if fileTime >= 0:
         checkTime = file_mtime(check)
         now = time.time()
@@ -70,7 +70,7 @@ def get_url_if_newer(url, dir, name):
         lastMod = response.headers['Last-Modified']
         lastModT = calendar.timegm(time.strptime(lastMod, HTTP_TIME_FORMAT))
         outFile = path + ".tmp"
-        with open(outFile,'wb') as f:
+        with open(outFile,'wb', encoding='utf-8') as f:
             f.write(response.read())
             f.close()
 
@@ -84,7 +84,7 @@ def get_url_if_newer(url, dir, name):
         else:
             print("Cached copy of %s is up to date" % path)
 
-    with open(check,'a'):
+    with open(check,'a', encoding='utf-8'):
         os.utime(check, None) # touch the marker file
 
 def update_cache():
@@ -98,11 +98,11 @@ update_cache() # done when loading
 
 def chairs():
 
-    committees = cidata['committees']
+    cttees = cidata['committees']
 
     chairjson={}
-    for ctte in committees:
-        c = committees[ctte]
+    for ctte in cttees:
+        c = cttees[ctte]
         if not c['pmc']:
             continue
         chs = c['chair']
@@ -117,20 +117,20 @@ def chairs():
 
 def cycles():
 
-    committees = cidata['committees']
+    cttees = cidata['committees']
 
-    cycles={}
-    for ctte in committees:
-        c = committees[ctte]
+    reportcycles={}
+    for ctte in cttees:
+        c = cttees[ctte]
         if not c['pmc']:
             continue
-        cycles[ctte] = c['report']
+        reportcycles[ctte] = c['report']
         # Duplicate some entries for now so the code can find them (the existing json has the duplicates)
         if ctte == 'ws': # Special processing
-            cycles['webservices'] = cycles[ctte]
+            reportcycles['webservices'] = reportcycles[ctte]
         if ctte == 'httpd': # Special processing
-            cycles['http server'] = cycles[ctte]
-    return cycles
+            reportcycles['http server'] = reportcycles[ctte]
+    return reportcycles
 
 """
 Returns an array of entries of the form:
@@ -156,7 +156,7 @@ Returns an array of entries of the form:
 """
 def committees():
 
-    committees = {}
+    cttees = {}
     cttes = cidata['committees']
     for ent in cttes:
         ctte = cttes[ent]
@@ -190,8 +190,8 @@ def committees():
                     c['reporting'] = 0
             else:
                 c[key] = ctte[key]
-        committees[ent]=c
-    return committees
+        cttees[ent]=c
+    return cttees
 
 def pmcdates():
     dates = {}
@@ -210,16 +210,16 @@ def pmcdates():
                 date = calendar.timegm(time.strptime(est[0:7], '%m/%Y'))
             except Exception as e:
                 print("Date parse error for %s: %s %s" % (ent, est, e))
-                pass
         dates[ent] = {'pmc': [est, date], 'roster': {} }
         ids = {}
-        for id in roster:
-            rid = roster[id]
+        for idk in roster:
+            rid = roster[idk]
             try:
                 date = calendar.timegm(time.strptime(rid['date'], '%Y-%m-%d'))
-            except:
+            except Exception:
+                print("Date parse error for %s: %s %s" % (ent, rid['date'], e))
                 date = 0
-            ids[id] = [rid['name'], date]
+            ids[idk] = [rid['name'], date]
         dates[ent]['roster'] = ids
         # The 'CI' internal name for Web Services is 'ws' but reporter code originally used 'webservices'
         if ent == 'ws':

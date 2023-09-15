@@ -40,7 +40,7 @@ OVERRIDEDIR = os.path.join(DATADIR,'projects-override')
 
 print("Reading _template.rdf")
 tmpfile = os.path.join(RDFDIR,'_template.rdf')
-with open(tmpfile,'r') as t:
+with open(tmpfile,'r', encoding='utf-8') as t:
     template = Template(t.read())
 
 
@@ -49,7 +49,7 @@ def update_xml(pid):
     xmlfilet = os.path.join(DATADIR,'committees.xml.t')
     print("Updating committees.xml")
     notYetFound = True
-    with open(xmlfile,'r') as r, open(xmlfilet,'w') as w:
+    with open(xmlfile,'r', encoding='utf-8') as r, open(xmlfilet,'w', encoding='utf-8') as w:
         for l in r:
             if notYetFound:
                 m = re.search("^(\\s+)<location>committees/(.+)\\.rdf<",l)
@@ -96,7 +96,7 @@ for arg in sys.argv[1:]:
             }
             out = template.substitute(data)
             print("Creating "+outfile)
-            with open(outfile,'w') as o:
+            with open(outfile,'w', encoding='utf-8') as o:
                 o.write(out)
             os.system("svn add %s" % outfile)
             update_xml(arg)

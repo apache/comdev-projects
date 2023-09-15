@@ -11,7 +11,7 @@ import committee_info
 SITEDIR = os.path.join(committee_info.COMDEV_HOME, 'site')
 
 validation = {}
-with open(os.path.join(SITEDIR, "validation.json")) as f:
+with open(os.path.join(SITEDIR, "validation.json"), encoding='utf-8') as f:
     validation = json.loads(f.read())
 lang = validation['languages']
 cats = validation['categories']
@@ -19,12 +19,12 @@ cats = validation['categories']
 createfile = os.path.join(SITEDIR, "create.html")
 createfilet = os.path.join(SITEDIR, "create.html.t")
 sections = 0
-with open(createfile,'r') as r, open(createfilet,'w') as w:
+with open(createfile,'r', encoding='utf-8') as r, open(createfilet,'w', encoding='utf-8') as w:
     section = None
     line = 0
     for l in r:
         # start of a section?
-        m = re.match('^\s+<select name="(cat|lang|pmc)"', l)
+        m = re.match(r'^\s+<select name="(cat|lang|pmc)"', l)
         if m:
             section = m.group(1)
             line = 0
@@ -51,10 +51,10 @@ with open(createfile,'r') as r, open(createfilet,'w') as w:
             line = 0
         if section:
             line = line + 1
-            if re.match('^\s*<option value="\w', l): # an existing option line
+            if re.match(r'^\s*<option value="\w', l): # an existing option line
                 continue # drop the line
             if section == 'pmc':
-                if re.match("      <!-- [A-Z] -->", l) or (re.match("\s*$", l) and line > 2):
+                if re.match("      <!-- [A-Z] -->", l) or (re.match(r"\s*$", l) and line > 2):
                     continue
         w.write(l) # write the original line
 os.rename(createfilet, createfile)
