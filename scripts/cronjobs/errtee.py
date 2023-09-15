@@ -33,4 +33,4 @@ if __name__ == '__main__': # simple test
     sys.stderr.write("STDERR2\n")
     sys.stderr=ErrTee() # enable for testing
     sys.stderr.write("STDERR3 (should also appear on STDOUT)\n")
-    raise Exception("STDERR4 (should also appear on STDOUT)")
+    raise ValueError("STDERR4 (should also appear on STDOUT)")

@@ -18,7 +18,7 @@ Deletes any obsolete files from:
 
 """
 
-import errtee # N.B. this is imported for its side-effect
+import errtee  # pylint: disable=unused-import
 import sys
 if sys.hexversion < 0x03000000:
     raise ImportError("This script requires Python 3")
@@ -45,7 +45,7 @@ FAILURES_DIR = '../../failures'
 
 # grab the validation criteria
 validation = {}
-with open(os.path.join(SITEDIR, "validation.json")) as f:
+with open(os.path.join(SITEDIR, "validation.json"), encoding='utf-8') as f:
     validation = json.loads(f.read())
 langs = {}
 lang = validation['languages'].keys()
@@ -114,7 +114,7 @@ if '--test' in sys.argv:
     print(f"Test mode; will cache DOAPs under {tmpdir}")
     filecache = urlutils.UrlCache(cachedir=tmpdir, interval=-1, silent=True)
 
-with open(projectsList, "r") as f:
+with open(projectsList, "r", encoding='utf-8') as f:
     data  = f.read()
     f.close()
 xmldoc = minidom.parseString(data)
@@ -170,9 +170,8 @@ ATTIC = 'Attic <general@attic.apache.org>'
 # Print to log and send a conditional email to Attic
 def printAtticMail(msg, file=sys.stdout):
     print(msg, file=file)
-    import datetime
     # Only send the mail once a week
-    if datetime.datetime.now().day % 7 != 0:
+    if datetime.now().day % 7 != 0:
         print("Not sending the email to '" + str(ATTIC) +"'" , file=file)
         return
     try:
@@ -185,7 +184,7 @@ def site2committee(s):
         return siteMap[s]
     return s
 
-with open("../../site/json/foundation/committees-retired.json", "r") as f:
+with open("../../site/json/foundation/committees-retired.json", "r", encoding='utf-8') as f:
     committeesRetired = json.loads(f.read())
     f.close()
 retired = []
@@ -422,7 +421,7 @@ for s in itemlist :
             urlname = urlname.split(';')[0] # trim any trailing qualifiers
             urlname = join(FAILURES_DIR, urlname)
             print("Saving invalid data in %s " % urlname)
-            with open (urlname, "wb") as f:
+            with open (urlname, "wb", encoding='utf-8') as f:
                 f.write(rdf)
                 f.close()
 
@@ -439,7 +438,7 @@ for f in os.listdir(PROJECTS_DIR):
         os.remove(join(PROJECTS_DIR,f))
 
 if len(failures) > 0:
-    with open ("parseprojects-failures.xml", "w") as f:
+    with open ("parseprojects-failures.xml", "w", encoding='utf-8') as f:
         f.write("<doapFiles>\n")
         for fail in failures:
             f.write("<location>%s</location>\n" % fail)

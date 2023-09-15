@@ -35,7 +35,7 @@ class SVNRepoParser(HTMLParser):
 
 # Parse svn repos
 try:
-    svnResponse = requests.get("https://svn.apache.org/repos/asf/")
+    svnResponse = requests.get("https://svn.apache.org/repos/asf/", timeout=120)
     svnResponse.raise_for_status()
 
     parser = SVNRepoParser()
@@ -46,7 +46,7 @@ except requests.exceptions.RequestException as e:  # This is the correct syntax
 
 # Parse git repos
 try:
-    gitResponse = requests.get("https://gitbox.apache.org/repositories.json")
+    gitResponse = requests.get("https://gitbox.apache.org/repositories.json", timeout=120)
     gitResponse.raise_for_status()
     gitData = json.loads(gitResponse.content.decode("utf-8"))
     
@@ -57,7 +57,7 @@ except requests.exceptions.RequestException as e:  # This is the correct syntax
     print("ERROR: Unable to retrieve git repos: %s", e)
 
 print("Writing json/foundation/repositories.json...")
-with open("../../site/json/foundation/repositories.json", "w") as f:
+with open("../../site/json/foundation/repositories.json", "w", encoding='utf-8') as f:
     json.dump(repos, f, sort_keys=True, indent=0)
     f.close()
 

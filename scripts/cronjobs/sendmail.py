@@ -24,7 +24,7 @@ def sendMail(subject, body='', recipients=__RECIPIENTS__, sender=__SENDER__, por
     smtp.sendmail(sender, recipients, msg.as_string())
     smtp.quit()
 
-if __name__ == '__main__':
+def main():
     import sys
     port = 25
     if len(sys.argv) > 1: # argv[0] is the script name
@@ -37,3 +37,6 @@ if __name__ == '__main__':
     print("Sent")
     sendMail('Another Test message, please ignore', "Thanks again!", recipients=['a.b.c','d.e.f'], port=port)
     print("Sent second")
+
+if __name__ == '__main__':
+    main()

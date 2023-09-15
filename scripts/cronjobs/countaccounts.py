@@ -64,7 +64,7 @@ def loadJson(url):
     return j
 
 js = {}
-with open("../../site/json/foundation/accounts-evolution.json") as f:
+with open("../../site/json/foundation/accounts-evolution.json", "r", encoding='utf-8') as f:
     js = json.loads(f.read())
     f.close()
 
@@ -101,7 +101,7 @@ for p in ldappeople:
             if stamp.startswith(tym1):
                 js[ym1] += 1
 
-with open("../../site/json/foundation/accounts-evolution.json", "w") as f:
+with open("../../site/json/foundation/accounts-evolution.json", "w", encoding='utf-8') as f:
     json.dump(js, f, sort_keys=True, indent=0)
     f.close()
 

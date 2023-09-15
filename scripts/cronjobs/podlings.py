@@ -1,4 +1,4 @@
-import errtee
+import errtee # pylint: disable=unused-import
 from xml.dom import minidom
 import re
 import json

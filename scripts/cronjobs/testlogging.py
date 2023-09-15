@@ -2,7 +2,7 @@
 
 import sys
 import os
-import errtee
+import errtee # pylint: disable=unused-import
 
 print("Stdout1")
 if 'ERRTEE' in os.environ:
@@ -11,4 +11,4 @@ else:
     print("ERRTEE is not defined")
 print("Stderr2", file=sys.stderr) # should appear in log file if ERRTEE is defined
 print("Stdout3")
-raise Exception("Except") # should appear in log file if ERRTEE is defined
+raise ValueError("Except") # should appear in log file if ERRTEE is defined

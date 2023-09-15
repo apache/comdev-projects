@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-import errtee # this is imported for its side-effects
+import errtee # pylint: disable=unused-import
 from collections import defaultdict
 import gzip
 import json
@@ -145,9 +145,9 @@ if __name__ == '__main__':
     jsondir = join(myhome, 'site', 'json', 'foundation') # where the JSON files go
     main()
     print("Writing releases.json")
-    with open(join(jsondir, "releases.json"), "w") as f:
+    with open(join(jsondir, "releases.json"), "w", encoding='utf-8') as f:
         json.dump(releases, f, sort_keys=True, indent=0)
     print("Writing releases-files.json")
-    with open(join(jsondir, "releases-files.json"), "w") as f:
+    with open(join(jsondir, "releases-files.json"), "w", encoding='utf-8') as f:
         json.dump(files, f, sort_keys=True, indent=0)
     print("All done!")

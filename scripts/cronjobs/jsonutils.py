@@ -24,4 +24,4 @@ def read_utf8(path):
     Read and parse JSON from the given file path assuming UTF-8 encoding
     """
     with open(path, "rb") as f:
-        input = json.loads(f.read().decode('UTF-8', errors='replace'))
+        return json.loads(f.read().decode('UTF-8', errors='replace'))

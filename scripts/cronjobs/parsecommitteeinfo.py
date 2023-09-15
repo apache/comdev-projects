@@ -13,13 +13,12 @@ Updates:
 
 """
 
-import errtee
+import errtee # pylint: disable=unused-import
 import re
 import json
 import sys
 if sys.hexversion < 0x03000000:
     raise ImportError("This script requires Python 3")
-import io
 import os
 import os.path
 import xml.etree.ElementTree as ET
@@ -82,7 +81,7 @@ skipImageTest = len(sys.argv) >= 2 and sys.argv[1] == '--skipImageTest' # speeds
 
 # get PMC Data from /data/committees.xml
 print("Reading PMC Data (/data/committees.xml)")
-with open("../../data/committees.xml", "r") as f:
+with open("../../data/committees.xml", "r", encoding='utf-8') as f:
     xmldoc = minidom.parseString(f.read())
     f.close()
 
@@ -220,7 +219,7 @@ for group in sorted(committees, key=keyorder):
                     committee['charter'] = compress(pmcs[committeeId]['charter'])
 
             committeesList.append(committee)
-            committeesMap[committeeId] = committee;
+            committeesMap[committeeId] = committee
         else:
             print("INFO: %s ignored - not yet in section 3" % fullName)
     else:
@@ -229,12 +228,12 @@ for group in sorted(committees, key=keyorder):
 
 
 # detect retired committees to add to committees-retired.json
-with open("../../site/json/foundation/committees-retired.json", "r") as f:
+with open("../../site/json/foundation/committees-retired.json", "r", encoding='utf-8') as f:
     committeesRetired = json.loads(f.read())
     f.close()
 committeesRetiredIds = [item['id'] for item in committeesRetired]
 
-with open("../../site/json/foundation/committees.json", "r") as f:
+with open("../../site/json/foundation/committees.json", "r", encoding='utf-8') as f:
     committeesPrevious = json.loads(f.read())
     f.close()
 committeesPreviousIds = [item['id'] for item in committeesPrevious]
@@ -271,12 +270,12 @@ for previous in committeesPrevious:
         committeesRetired.append(previous)
 
 print("Writing json/foundation/committees.json...")
-with open("../../site/json/foundation/committees.json", "w") as f:
+with open("../../site/json/foundation/committees.json", "w", encoding='utf-8') as f:
     json.dump(committeesList, f, sort_keys=True, indent=0)
     f.close()
 
 print("Writing json/foundation/committees-retired.json...")
-with open("../../site/json/foundation/committees-retired.json", "w") as f:
+with open("../../site/json/foundation/committees-retired.json", "w", encoding='utf-8') as f:
     json.dump(committeesRetired, f, sort_keys=True, indent=0)
     f.close()
 

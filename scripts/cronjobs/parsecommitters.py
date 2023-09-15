@@ -20,9 +20,8 @@ Creates:
 
 """
 
-import errtee
+import errtee # pylint: disable=unused-import
 import sys
-import io
 import json
 from urlutils import UrlCache
 

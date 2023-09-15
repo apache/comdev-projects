@@ -15,7 +15,7 @@ try:
     from urllib.error import HTTPError
     from urllib.parse import urlparse
     _PY3 = True
-except:
+except ImportError:
     from urllib2 import urlopen, Request
     from urllib2 import HTTPError
     from urlparse import urlparse
@@ -113,14 +113,14 @@ def URLexists(url):
     try:
         getIfNewer(url, method='HEAD', silent=True)
         return True
-    except:
+    except Exception: # narrow this
         return False
 
 def findRelPath(relpath):
     for d in ['./','../','../../']: # we may located at same level or 1 or 2 below
-        dir = join(d,relpath)
-        if os.path.isdir(dir):
-            return dir
+        folder = join(d,relpath)
+        if os.path.isdir(folder):
+            return folder
     raise OSError("Cannot find path " + relpath)
 
 class UrlCache(object):
@@ -272,7 +272,7 @@ class UrlCache(object):
                 if useFileModTime:
                     os.utime(check, None) # touch the marker file
                 else:
-                    with open(check,'a'):
+                    with open(check,'a', encoding='utf-8'):
                         os.utime(check, None) # touch the marker file
 
         if encoding:
@@ -280,7 +280,7 @@ class UrlCache(object):
         else:
             return open(target, 'rb')
 
-if __name__ == '__main__':
+def main():
     print(URLexists('https://www.apache.org/'))
     print(URLexists('https://www.apache.org/__'))
     print(URLexists('https://__.apache.org/'))
@@ -289,16 +289,19 @@ if __name__ == '__main__':
 
     try:
         fc = UrlCache(cachedir='x')
-        raise Error("Expected OSError")
-    except OSError as e:
-        print('Expected: %s' % e)
+        raise AssertionError("Expected OSError")
+    except OSError as ex:
+        print('Expected: %s' % ex)
     fc = UrlCache(interval=0)
     name = "_wao.html"
-    fc._deleteCacheFile(name)
+    fc._deleteCacheFile(name) # pylint: disable=protected-access
     icla_info = fc.get("http://www.apache.org/", name, encoding='utf-8')
     print(icla_info.readline().rstrip())
     print(icla_info.readline().rstrip())
     print(icla_info.readline().rstrip())
     print(icla_info.readline().rstrip())
     icla_info = fc.get("http://www.apache.org/", name, encoding='utf-8')
-    fc._deleteCacheFile(name)
+    fc._deleteCacheFile(name) # pylint: disable=protected-access
+
+if __name__ == '__main__':
+    main()
