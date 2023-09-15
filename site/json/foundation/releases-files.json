@@ -223,8 +223,8 @@
 "apache-airflow-providers-datadog-3.3.2": [
 "airflow/providers/apache-airflow-providers-datadog-3.3.2.tar.gz"
 ],
-"apache-airflow-providers-dbt-cloud-3.2.3": [
-"airflow/providers/apache-airflow-providers-dbt-cloud-3.2.3.tar.gz"
+"apache-airflow-providers-dbt-cloud-3.3.0": [
+"airflow/providers/apache-airflow-providers-dbt-cloud-3.3.0.tar.gz"
 ],
 "apache-airflow-providers-dingding-3.2.1": [
 "airflow/providers/apache-airflow-providers-dingding-3.2.1.tar.gz"
@@ -395,6 +395,9 @@
 "allura": {
 "allura-1.14.0": [
 "allura/allura-1.14.0.tar.gz"
+],
+"allura-1.15.0": [
+"allura/allura-1.15.0.tar.gz"
 ]
 },
 "ambari": {
@@ -851,12 +854,10 @@
 "axis/axis/java/1.4/axis-src-1_4.zip"
 ],
 "axis2-1.8.0": [
-"axis/axis2/java/core/1.8.0/axis2-1.8.0-src.zip",
-"axis/axis2/java/core/1.8.0/axis2-1.8.0-war.zip"
+"axis/axis2/java/core/1.8.0/axis2-1.8.0-src.zip"
 ],
 "axis2-1.8.2": [
-"axis/axis2/java/core/1.8.2/axis2-1.8.2-src.zip",
-"axis/axis2/java/core/1.8.2/axis2-1.8.2-war.zip"
+"axis/axis2/java/core/1.8.2/axis2-1.8.2-src.zip"
 ],
 "axis2-eclipse-codegen-plugin-1.8.0": [
 "axis/axis2/java/core/1.8.0/axis2-eclipse-codegen-plugin-1.8.0.zip"
@@ -1165,150 +1166,6 @@
 ],
 "apache-camel-quarkus-3.2.0": [
 "camel/camel-quarkus/3.2.0/apache-camel-quarkus-3.2.0-src.zip"
-],
-"camel-k-client-1.10.1-linux": [
-"camel/camel-k/1.10.1/camel-k-client-1.10.1-linux-64bit.tar.gz"
-],
-"camel-k-client-1.10.1-mac": [
-"camel/camel-k/1.10.1/camel-k-client-1.10.1-mac-64bit.tar.gz"
-],
-"camel-k-client-1.10.1-mac-arm64bit": [
-"camel/camel-k/1.10.1/camel-k-client-1.10.1-mac-arm64bit.tar.gz"
-],
-"camel-k-client-1.10.1-windows": [
-"camel/camel-k/1.10.1/camel-k-client-1.10.1-windows-64bit.tar.gz"
-],
-"camel-k-client-1.10.2-linux": [
-"camel/camel-k/1.10.2/camel-k-client-1.10.2-linux-64bit.tar.gz"
-],
-"camel-k-client-1.10.2-mac": [
-"camel/camel-k/1.10.2/camel-k-client-1.10.2-mac-64bit.tar.gz"
-],
-"camel-k-client-1.10.2-mac-arm64bit": [
-"camel/camel-k/1.10.2/camel-k-client-1.10.2-mac-arm64bit.tar.gz"
-],
-"camel-k-client-1.10.2-windows": [
-"camel/camel-k/1.10.2/camel-k-client-1.10.2-windows-64bit.tar.gz"
-],
-"camel-k-client-1.10.3-linux": [
-"camel/camel-k/1.10.3/camel-k-client-1.10.3-linux-64bit.tar.gz"
-],
-"camel-k-client-1.10.3-mac": [
-"camel/camel-k/1.10.3/camel-k-client-1.10.3-mac-64bit.tar.gz"
-],
-"camel-k-client-1.10.3-mac-arm64bit": [
-"camel/camel-k/1.10.3/camel-k-client-1.10.3-mac-arm64bit.tar.gz"
-],
-"camel-k-client-1.10.3-windows": [
-"camel/camel-k/1.10.3/camel-k-client-1.10.3-windows-64bit.tar.gz"
-],
-"camel-k-client-1.10.4-linux": [
-"camel/camel-k/1.10.4/camel-k-client-1.10.4-linux-64bit.tar.gz"
-],
-"camel-k-client-1.10.4-mac": [
-"camel/camel-k/1.10.4/camel-k-client-1.10.4-mac-64bit.tar.gz"
-],
-"camel-k-client-1.10.4-mac-arm64bit": [
-"camel/camel-k/1.10.4/camel-k-client-1.10.4-mac-arm64bit.tar.gz"
-],
-"camel-k-client-1.10.4-windows": [
-"camel/camel-k/1.10.4/camel-k-client-1.10.4-windows-64bit.tar.gz"
-],
-"camel-k-client-1.11.0-linux": [
-"camel/camel-k/1.11.0/camel-k-client-1.11.0-linux-64bit.tar.gz"
-],
-"camel-k-client-1.11.0-mac": [
-"camel/camel-k/1.11.0/camel-k-client-1.11.0-mac-64bit.tar.gz"
-],
-"camel-k-client-1.11.0-mac-arm64bit": [
-"camel/camel-k/1.11.0/camel-k-client-1.11.0-mac-arm64bit.tar.gz"
-],
-"camel-k-client-1.11.0-windows": [
-"camel/camel-k/1.11.0/camel-k-client-1.11.0-windows-64bit.tar.gz"
-],
-"camel-k-client-1.11.1-linux": [
-"camel/camel-k/1.11.1/camel-k-client-1.11.1-linux-64bit.tar.gz"
-],
-"camel-k-client-1.11.1-mac": [
-"camel/camel-k/1.11.1/camel-k-client-1.11.1-mac-64bit.tar.gz"
-],
-"camel-k-client-1.11.1-mac-arm64bit": [
-"camel/camel-k/1.11.1/camel-k-client-1.11.1-mac-arm64bit.tar.gz"
-],
-"camel-k-client-1.11.1-windows": [
-"camel/camel-k/1.11.1/camel-k-client-1.11.1-windows-64bit.tar.gz"
-],
-"camel-k-client-1.12.0-linux": [
-"camel/camel-k/1.12.0/camel-k-client-1.12.0-linux-64bit.tar.gz"
-],
-"camel-k-client-1.12.0-mac": [
-"camel/camel-k/1.12.0/camel-k-client-1.12.0-mac-64bit.tar.gz"
-],
-"camel-k-client-1.12.0-mac-arm64bit": [
-"camel/camel-k/1.12.0/camel-k-client-1.12.0-mac-arm64bit.tar.gz"
-],
-"camel-k-client-1.12.0-windows": [
-"camel/camel-k/1.12.0/camel-k-client-1.12.0-windows-64bit.tar.gz"
-],
-"camel-k-client-1.12.1-linux": [
-"camel/camel-k/1.12.1/camel-k-client-1.12.1-linux-64bit.tar.gz"
-],
-"camel-k-client-1.12.1-mac": [
-"camel/camel-k/1.12.1/camel-k-client-1.12.1-mac-64bit.tar.gz"
-],
-"camel-k-client-1.12.1-mac-arm64bit": [
-"camel/camel-k/1.12.1/camel-k-client-1.12.1-mac-arm64bit.tar.gz"
-],
-"camel-k-client-1.12.1-windows": [
-"camel/camel-k/1.12.1/camel-k-client-1.12.1-windows-64bit.tar.gz"
-],
-"camel-k-client-1.8.2-linux": [
-"camel/camel-k/1.8.2/camel-k-client-1.8.2-linux-64bit.tar.gz"
-],
-"camel-k-client-1.8.2-mac": [
-"camel/camel-k/1.8.2/camel-k-client-1.8.2-mac-64bit.tar.gz"
-],
-"camel-k-client-1.8.2-mac-arm64bit": [
-"camel/camel-k/1.8.2/camel-k-client-1.8.2-mac-arm64bit.tar.gz"
-],
-"camel-k-client-1.8.2-windows": [
-"camel/camel-k/1.8.2/camel-k-client-1.8.2-windows-64bit.tar.gz"
-],
-"camel-k-client-1.9.0-linux": [
-"camel/camel-k/1.9.0/camel-k-client-1.9.0-linux-64bit.tar.gz"
-],
-"camel-k-client-1.9.0-mac": [
-"camel/camel-k/1.9.0/camel-k-client-1.9.0-mac-64bit.tar.gz"
-],
-"camel-k-client-1.9.0-mac-arm64bit": [
-"camel/camel-k/1.9.0/camel-k-client-1.9.0-mac-arm64bit.tar.gz"
-],
-"camel-k-client-1.9.0-windows": [
-"camel/camel-k/1.9.0/camel-k-client-1.9.0-windows-64bit.tar.gz"
-],
-"camel-k-client-1.9.1-linux": [
-"camel/camel-k/1.9.1/camel-k-client-1.9.1-linux-64bit.tar.gz"
-],
-"camel-k-client-1.9.1-mac": [
-"camel/camel-k/1.9.1/camel-k-client-1.9.1-mac-64bit.tar.gz"
-],
-"camel-k-client-1.9.1-mac-arm64bit": [
-"camel/camel-k/1.9.1/camel-k-client-1.9.1-mac-arm64bit.tar.gz"
-],
-"camel-k-client-1.9.1-windows": [
-"camel/camel-k/1.9.1/camel-k-client-1.9.1-windows-64bit.tar.gz"
-],
-"camel-k-client-1.9.2-linux": [
-"camel/camel-k/1.9.2/camel-k-client-1.9.2-linux-64bit.tar.gz"
-],
-"camel-k-client-1.9.2-mac": [
-"camel/camel-k/1.9.2/camel-k-client-1.9.2-mac-64bit.tar.gz"
-],
-"camel-k-client-1.9.2-mac-arm64bit": [
-"camel/camel-k/1.9.2/camel-k-client-1.9.2-mac-arm64bit.tar.gz"
-],
-"camel-k-client-1.9.2-windows": [
-"camel/camel-k/1.9.2/camel-k-client-1.9.2-windows-64bit.tar.gz"
 ],
 "camel-k-examples-1.10.1": [
 "camel/camel-k/1.10.1/camel-k-examples-1.10.1.tar.gz"
@@ -1784,9 +1641,9 @@
 "commons/dbcp/source/commons-dbcp2-2.4.0-src.tar.gz",
 "commons/dbcp/source/commons-dbcp2-2.4.0-src.zip"
 ],
-"commons-dbutils-1.8.0": [
-"commons/dbutils/source/commons-dbutils-1.8.0-src.tar.gz",
-"commons/dbutils/source/commons-dbutils-1.8.0-src.zip"
+"commons-dbutils-1.8.1": [
+"commons/dbutils/source/commons-dbutils-1.8.1-src.tar.gz",
+"commons/dbutils/source/commons-dbutils-1.8.1-src.zip"
 ],
 "commons-digester-2.1": [
 "commons/digester/source/commons-digester-2.1-src.tar.gz",
@@ -3434,11 +3291,11 @@
 "apache-groovy-3.0.19": [
 "groovy/3.0.19/sources/apache-groovy-src-3.0.19.zip"
 ],
-"apache-groovy-4.0.14": [
-"groovy/4.0.14/sources/apache-groovy-src-4.0.14.zip"
+"apache-groovy-4.0.15": [
+"groovy/4.0.15/sources/apache-groovy-src-4.0.15.zip"
 ],
-"apache-groovy-5.0.0-alpha-1": [
-"groovy/5.0.0-alpha-1/sources/apache-groovy-src-5.0.0-alpha-1.zip"
+"apache-groovy-5.0.0-alpha-2": [
+"groovy/5.0.0-alpha-2/sources/apache-groovy-src-5.0.0-alpha-2.zip"
 ],
 "apache-groovy-sdk-2.4.21": [
 "groovy/2.4.21/distribution/apache-groovy-sdk-2.4.21.zip"
@@ -3449,11 +3306,11 @@
 "apache-groovy-sdk-3.0.19": [
 "groovy/3.0.19/distribution/apache-groovy-sdk-3.0.19.zip"
 ],
-"apache-groovy-sdk-4.0.14": [
-"groovy/4.0.14/distribution/apache-groovy-sdk-4.0.14.zip"
+"apache-groovy-sdk-4.0.15": [
+"groovy/4.0.15/distribution/apache-groovy-sdk-4.0.15.zip"
 ],
-"apache-groovy-sdk-5.0.0-alpha-1": [
-"groovy/5.0.0-alpha-1/distribution/apache-groovy-sdk-5.0.0-alpha-1.zip"
+"apache-groovy-sdk-5.0.0-alpha-2": [
+"groovy/5.0.0-alpha-2/distribution/apache-groovy-sdk-5.0.0-alpha-2.zip"
 ]
 },
 "guacamole": {
@@ -5743,7 +5600,6 @@
 "olingo/odata4/4.9.0/Olingo-OData-4.9.0-source-release.zip"
 ],
 "odatajs-4.0.0": [
-"olingo/odatajs/odatajs-4.0.0/odatajs-4.0.0-doc.zip",
 "olingo/odatajs/odatajs-4.0.0/odatajs-4.0.0-sources.zip"
 ],
 "olingo-odata2-2.0.11": [
@@ -6101,6 +5957,9 @@
 "pinot": {
 "apache-pinot-0.12.1": [
 "pinot/apache-pinot-0.12.1/apache-pinot-0.12.1-src.tar.gz"
+],
+"apache-pinot-1.0.0": [
+"pinot/apache-pinot-1.0.0/apache-pinot-1.0.0-src.tar.gz"
 ]
 },
 "pivot": {
@@ -6197,13 +6056,9 @@
 "portals/jetspeed-2/sources/jetspeed-2-2.3.1-source-release.zip"
 ],
 "pluto-2.0.3": [
-"portals/pluto/pluto-2.0.3-bundle.tar.gz",
-"portals/pluto/pluto-2.0.3-bundle.zip",
 "portals/pluto/pluto-2.0.3-source-release.zip"
 ],
 "pluto-2.1.0-M3": [
-"portals/pluto/pluto-2.1.0-M3-bundle.tar.gz",
-"portals/pluto/pluto-2.1.0-M3-bundle.zip",
 "portals/pluto/pluto-2.1.0-M3-source-release.zip"
 ],
 "pluto-3.0.0": [
@@ -6818,7 +6673,6 @@
 },
 "sis": {
 "apache-sis-1.3": [
-"sis/1.3/apache-sis-1.3-doc.zip",
 "sis/1.3/apache-sis-1.3-src.zip"
 ]
 },
@@ -8137,11 +7991,9 @@
 },
 "tapestry": {
 "apache-tapestry-5.6.4": [
-"tapestry/apache-tapestry-5.6.4-apidocs.zip",
 "tapestry/apache-tapestry-5.6.4-sources.zip"
 ],
 "apache-tapestry-5.8.3": [
-"tapestry/apache-tapestry-5.8.3-apidocs.zip",
 "tapestry/apache-tapestry-5.8.3-sources.zip"
 ]
 },
