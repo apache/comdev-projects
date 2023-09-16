@@ -78,12 +78,9 @@ def validate(json, tag, valid, pid, url):
                 if len(val) > 30: # can this be a legal value?
                     # only warn the project once a week
                     if datetime.today().weekday() == 4: # Monday=0
-                        topid = pid
-                    else:
-                        topid = None
-                    printNotice(f"ERROR: illegal (overlong: {len(val)} >30) value '{val}' for {pid} in {url}",
+                        printNotice(f"ERROR: illegal (overlong: {len(val)} >30) value '{val}' for {pid} in {url}",
                                 body = f'Error in {url}\nUnexpected value: "{val}"\n{SYNTAX_MSG[tag]}',
-                                project=topid)
+                                project=pid)
                 else:
                     print(f"WARN: unexpected value '{val}' for {pid} in {url}")#, project=pid)
                     outvals.append(val) # TODO flag this to show invalid entries
