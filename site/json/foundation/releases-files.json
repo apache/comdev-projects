@@ -142,8 +142,8 @@
 "apache-airflow-providers-alibaba-2.5.3": [
 "airflow/providers/apache-airflow-providers-alibaba-2.5.3.tar.gz"
 ],
-"apache-airflow-providers-amazon-8.7.0": [
-"airflow/providers/apache-airflow-providers-amazon-8.7.0.tar.gz"
+"apache-airflow-providers-amazon-8.7.1": [
+"airflow/providers/apache-airflow-providers-amazon-8.7.1.tar.gz"
 ],
 "apache-airflow-providers-apache-beam-5.2.3": [
 "airflow/providers/apache-airflow-providers-apache-beam-5.2.3.tar.gz"
@@ -208,8 +208,8 @@
 "apache-airflow-providers-cloudant-3.2.1": [
 "airflow/providers/apache-airflow-providers-cloudant-3.2.1.tar.gz"
 ],
-"apache-airflow-providers-cncf-kubernetes-7.5.1": [
-"airflow/providers/apache-airflow-providers-cncf-kubernetes-7.5.1.tar.gz"
+"apache-airflow-providers-cncf-kubernetes-7.6.0": [
+"airflow/providers/apache-airflow-providers-cncf-kubernetes-7.6.0.tar.gz"
 ],
 "apache-airflow-providers-common-sql-1.7.2": [
 "airflow/providers/apache-airflow-providers-common-sql-1.7.2.tar.gz"
@@ -250,8 +250,8 @@
 "apache-airflow-providers-github-2.3.2": [
 "airflow/providers/apache-airflow-providers-github-2.3.2.tar.gz"
 ],
-"apache-airflow-providers-google-10.8.0": [
-"airflow/providers/apache-airflow-providers-google-10.8.0.tar.gz"
+"apache-airflow-providers-google-10.9.0": [
+"airflow/providers/apache-airflow-providers-google-10.9.0.tar.gz"
 ],
 "apache-airflow-providers-grpc-3.2.2": [
 "airflow/providers/apache-airflow-providers-grpc-3.2.2.tar.gz"
@@ -393,9 +393,6 @@
 ]
 },
 "allura": {
-"allura-1.14.0": [
-"allura/allura-1.14.0.tar.gz"
-],
 "allura-1.15.0": [
 "allura/allura-1.15.0.tar.gz"
 ]
@@ -750,8 +747,8 @@
 "apache-arrow-datafusion-31.0.0": [
 "arrow/arrow-datafusion-31.0.0/apache-arrow-datafusion-31.0.0.tar.gz"
 ],
-"apache-arrow-datafusion-python-28.0.0": [
-"arrow/arrow-datafusion-python-28.0.0/apache-arrow-datafusion-python-28.0.0.tar.gz"
+"apache-arrow-datafusion-python-31.0.0": [
+"arrow/arrow-datafusion-python-31.0.0/apache-arrow-datafusion-python-31.0.0.tar.gz"
 ],
 "apache-arrow-flight-sql-postgresql-0.1.0": [
 "arrow/apache-arrow-flight-sql-postgresql-0.1.0/apache-arrow-flight-sql-postgresql-0.1.0.tar.gz"
@@ -1166,6 +1163,9 @@
 ],
 "apache-camel-quarkus-3.2.0": [
 "camel/camel-quarkus/3.2.0/apache-camel-quarkus-3.2.0-src.zip"
+],
+"apache-camel-quarkus-3.4.0": [
+"camel/camel-quarkus/3.4.0/apache-camel-quarkus-3.4.0-src.zip"
 ],
 "camel-k-examples-1.10.1": [
 "camel/camel-k/1.10.1/camel-k-examples-1.10.1.tar.gz"
@@ -1685,9 +1685,9 @@
 "commons/jci/source/commons-jci-1.1-src.tar.gz",
 "commons/jci/source/commons-jci-1.1-src.zip"
 ],
-"commons-jcs3-dist-3.1": [
-"commons/jcs/source/commons-jcs3-dist-3.1-src.tar.gz",
-"commons/jcs/source/commons-jcs3-dist-3.1-src.zip"
+"commons-jcs3-dist-3.2": [
+"commons/jcs/source/commons-jcs3-dist-3.2-src.tar.gz",
+"commons/jcs/source/commons-jcs3-dist-3.2-src.zip"
 ],
 "commons-jelly-1.0": [
 "commons/jelly/source/commons-jelly-1.0-src.tar.gz",
@@ -1989,23 +1989,17 @@
 "cxf/3.4.10/apache-cxf-3.4.10.tar.gz",
 "cxf/3.4.10/apache-cxf-3.4.10.zip"
 ],
-"apache-cxf-3.5.5": [
-"cxf/3.5.5/apache-cxf-3.5.5-src.tar.gz",
-"cxf/3.5.5/apache-cxf-3.5.5-src.zip",
-"cxf/3.5.5/apache-cxf-3.5.5.tar.gz",
-"cxf/3.5.5/apache-cxf-3.5.5.zip"
-],
 "apache-cxf-3.5.6": [
 "cxf/3.5.6/apache-cxf-3.5.6-src.tar.gz",
 "cxf/3.5.6/apache-cxf-3.5.6-src.zip",
 "cxf/3.5.6/apache-cxf-3.5.6.tar.gz",
 "cxf/3.5.6/apache-cxf-3.5.6.zip"
 ],
-"apache-cxf-3.6.0": [
-"cxf/3.6.0/apache-cxf-3.6.0-src.tar.gz",
-"cxf/3.6.0/apache-cxf-3.6.0-src.zip",
-"cxf/3.6.0/apache-cxf-3.6.0.tar.gz",
-"cxf/3.6.0/apache-cxf-3.6.0.zip"
+"apache-cxf-3.5.7": [
+"cxf/3.5.7/apache-cxf-3.5.7-src.tar.gz",
+"cxf/3.5.7/apache-cxf-3.5.7-src.zip",
+"cxf/3.5.7/apache-cxf-3.5.7.tar.gz",
+"cxf/3.5.7/apache-cxf-3.5.7.zip"
 ],
 "apache-cxf-3.6.1": [
 "cxf/3.6.1/apache-cxf-3.6.1-src.tar.gz",
@@ -2013,23 +2007,29 @@
 "cxf/3.6.1/apache-cxf-3.6.1.tar.gz",
 "cxf/3.6.1/apache-cxf-3.6.1.zip"
 ],
+"apache-cxf-3.6.2": [
+"cxf/3.6.2/apache-cxf-3.6.2-src.tar.gz",
+"cxf/3.6.2/apache-cxf-3.6.2-src.zip",
+"cxf/3.6.2/apache-cxf-3.6.2.tar.gz",
+"cxf/3.6.2/apache-cxf-3.6.2.zip"
+],
 "apache-cxf-4.0.0": [
 "cxf/4.0.0/apache-cxf-4.0.0-src.tar.gz",
 "cxf/4.0.0/apache-cxf-4.0.0-src.zip",
 "cxf/4.0.0/apache-cxf-4.0.0.tar.gz",
 "cxf/4.0.0/apache-cxf-4.0.0.zip"
 ],
-"apache-cxf-4.0.1": [
-"cxf/4.0.1/apache-cxf-4.0.1-src.tar.gz",
-"cxf/4.0.1/apache-cxf-4.0.1-src.zip",
-"cxf/4.0.1/apache-cxf-4.0.1.tar.gz",
-"cxf/4.0.1/apache-cxf-4.0.1.zip"
-],
 "apache-cxf-4.0.2": [
 "cxf/4.0.2/apache-cxf-4.0.2-src.tar.gz",
 "cxf/4.0.2/apache-cxf-4.0.2-src.zip",
 "cxf/4.0.2/apache-cxf-4.0.2.tar.gz",
 "cxf/4.0.2/apache-cxf-4.0.2.zip"
+],
+"apache-cxf-4.0.3": [
+"cxf/4.0.3/apache-cxf-4.0.3-src.tar.gz",
+"cxf/4.0.3/apache-cxf-4.0.3-src.zip",
+"cxf/4.0.3/apache-cxf-4.0.3.tar.gz",
+"cxf/4.0.3/apache-cxf-4.0.3.zip"
 ],
 "apache-fediz-1.5.1": [
 "cxf/fediz/1.5.1/apache-fediz-1.5.1.zip"
@@ -4652,6 +4652,9 @@
 "logging/log4j/extras/1.2.17/apache-log4j-extras-1.2.17-src.tar.gz",
 "logging/log4j/extras/1.2.17/apache-log4j-extras-1.2.17-src.zip"
 ],
+"apache-log4j-jmx-gui-2.21.0": [
+"logging/log4j-jmx-gui/2.21.0/apache-log4j-jmx-gui-2.21.0-src.zip"
+],
 "apache-log4j-tools-0.4.0": [
 "logging/log4j-tools/0.4.0/apache-log4j-tools-0.4.0.zip"
 ],
@@ -5454,6 +5457,9 @@
 "netbeans": {
 "apache-netbeans-jackpot-13.0": [
 "netbeans/netbeans-jackpot/netbeans-jackpot-13.0/apache-netbeans-jackpot-13.0.zip"
+],
+"apache-netbeans-java-19.0.301": [
+"netbeans/netbeans-vscode-ext/19.0.301/apache-netbeans-java-19.0.301-source.zip"
 ],
 "launcher-12.5": [
 "netbeans/native/netbeans-launchers/12.5/launcher-12.5-source-release.zip"
@@ -7931,6 +7937,9 @@
 ],
 "apache-superset-2.1.1": [
 "superset/2.1.1/apache-superset-2.1.1-source.tar.gz"
+],
+"apache-superset-3.0.0": [
+"superset/3.0.0/apache-superset-3.0.0-source.tar.gz"
 ]
 },
 "synapse": {
@@ -8652,9 +8661,9 @@
 "wicket/8.15.0/apache-wicket-8.15.0.tar.gz",
 "wicket/8.15.0/apache-wicket-8.15.0.zip"
 ],
-"apache-wicket-9.14.0": [
-"wicket/9.14.0/apache-wicket-9.14.0.tar.gz",
-"wicket/9.14.0/apache-wicket-9.14.0.zip"
+"apache-wicket-9.15.0": [
+"wicket/9.15.0/apache-wicket-9.15.0.tar.gz",
+"wicket/9.15.0/apache-wicket-9.15.0.zip"
 ]
 },
 "ws": {

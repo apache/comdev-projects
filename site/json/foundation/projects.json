@@ -6566,6 +6566,11 @@
 "programming-language": "Java",
 "release": [
 {
+"created": "2023-08-22",
+"name": "commons-jcs",
+"revision": "3.2"
+},
+{
 "created": "2022-02-13",
 "name": "commons-jcs",
 "revision": "3.1"
@@ -7842,10 +7847,10 @@
 },
 "cordova": {
 "bug-database": "https://github.com/apache/cordova",
-"category": "",
+"category": "mobile, library",
 "created": "2013-01-11",
 "description": "Apache Cordova is a tool to create cross-platform apps from standard web technologies (HTML, CSS, and JavaScript). Its primary purpose is to provide a bridge for native device API access and to bundle for distribution.",
-"doap": "http://svn.apache.org/repos/asf/cordova/site/public/infra/doap_Cordova.rdf",
+"doap": "https://cordova.apache.org/infra/doap_Cordova.rdf",
 "download-page": "https://cordova.apache.org/#getstarted",
 "homepage": "https://cordova.apache.org",
 "license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
@@ -7855,9 +7860,9 @@
 "programming-language": "JavaScript, Java, Objective-C, C++, C#, node.js",
 "release": [
 {
-"created": "2020-08-04",
+"created": "2021-12-21",
 "name": "Latest Stable",
-"revision": "10.0.0"
+"revision": "11.0.0"
 }
 ],
 "repository": [
@@ -13314,6 +13319,24 @@
 ],
 "shortdesc": "Set of user interface components based on JSF."
 },
+"mynewt": {
+"bug-database": "https://github.com/apache/mynewt-core/issues",
+"category": "iot",
+"created": "2023-09-08",
+"description": "Apache Mynewt is a community-driven module OS for constrained, embedded applications. Mynewt provides a real-time operating system, flash file system, network stacks, and support utilities for real-world embedded systems. Its goal is to make it easy to develop applications for microcontroller environments where power and cost are driving factors.",
+"doap": "https://raw.githubusercontent.com/apache/mynewt-site/master/doap.rdf",
+"download-page": "https://mynewt.apache.org/download",
+"homepage": "https://mynewt.apache.org",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://mynewt.apache.org/community",
+"name": "Apache Mynewt",
+"pmc": "mynewt",
+"programming-language": "C, Go",
+"repository": [
+"https://github.com/apache/mynewt-core.git"
+],
+"shortdesc": "Apache Mynewt is a community-driven module OS for constrained, embedded applications."
+},
 "netbeans": {
 "bug-database": "https://github.com/apache/netbeans/issues",
 "category": "java, groovy, php, ide",
@@ -18180,9 +18203,9 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2023-05-18",
+"created": "2023-09-18",
 "name": "Latest Stable Release",
-"revision": "9.14.0"
+"revision": "9.15.0"
 }
 ],
 "repository": [
