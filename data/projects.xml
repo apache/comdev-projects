@@ -1,317 +1,374 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-	<title></title>
-	<meta name="generator" content="LibreOffice 7.5.5.2 (Windows)"/>
-	<meta name="created" content="00:00:00"/>
-	<meta name="changedby" content="Andrew Wetmore"/>
-	<meta name="changed" content="2023-09-28T11:21:25.341000000"/>
-</head>
-<body lang="en-CA" dir="ltr"><p>https://accumulo.apache.org/doap/accumulo.rdf
-http://svn.apache.org/repos/asf/activemq/trunk/doap.rdf
-https://svn.apache.org/repos/asf/airavata/airavata_doap.rdf
-https://raw.githubusercontent.com/apache/airflow/main/doap_airflow.rdf
-https://svn.apache.org/repos/asf/allura/doap_Allura.rdf
-http://ambari.apache.org/doap.rdf
-https://annotator.apache.org/doap.rdf
-https://ant.apache.org/doap_Ant.rdf
-https://ant.apache.org/antlibs/antunit/doap_AntUnit.rdf
-https://ant.apache.org/antlibs/compress/doap_CompressAntlib.rdf
-https://ant.apache.org/antlibs/dotnet/doap_DotnetAntlib.rdf
-https://ant.apache.org/antlibs/props/doap_PropsAntlib.rdf
-https://ant.apache.org/antlibs/vss/doap_VSSAntlib.rdf
-https://gitbox.apache.org/repos/asf?p=ant-ivy.git;a=blob_plain;f=doap_Ivy.rdf;hb=HEAD
-https://gitbox.apache.org/repos/asf?p=ant-ivyde.git;a=blob_plain;f=doap_IvyDE.rdf;hb=HEAD
-https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/any23.rdf
-http://svn.apache.org/repos/asf/apr/site/trunk/doap.rdf
-https://gitbox.apache.org/repos/asf?p=archiva.git;a=blob_plain;f=doap_Archiva.rdf;hb=HEAD
-http://svn.apache.org/repos/asf/aries/doap_aries.rdf
-https://arrow.apache.org/arrow.rdf
-https://causeway.apache.org/doap_causeway.rdf
-https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/Apex.rdf
-http://svn.apache.org/repos/asf/beehive/site/doap.rdf
-http://svn.apache.org/repos/asf/click/trunk/click/documentation/doap/click.rdf
-http://svn.apache.org/repos/asf/continuum/trunk/doap_Continuum.rdf
-http://deltacloud.apache.org/doap_Deltacloud.rdf
-https://svn.apache.org/repos/asf/directmemory/trunk/doap_DirectMemory.rdf
-http://svn.apache.org/repos/asf/esme/site/trunk/doap/doap_ESME.rdf
-http://svn.apache.org/repos/asf/excalibur/trunk/doap_Excalibur.rdf
-https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/Forrest.rdf
-http://geode.apache.org/doap_Geode.rdf
-http://svn.apache.org/repos/asf/harmony/standard/doap_Harmony.rdf
-http://svn.apache.org/repos/asf/hivemind/hivemind2/trunk/doap_Hivemind.rdf
-http://svn.apache.org/repos/asf/jakarta/cactus/trunk/doap_Jakarta_Cactus.rdf
-http://svn.apache.org/repos/asf/jakarta/ecs/trunk/doap_ECS.rdf
-http://svn.apache.org/repos/asf/jakarta/oro/trunk/doap_ORO.rdf
-http://svn.apache.org/repos/asf/jakarta/regexp/trunk/doap_Regexp.rdf
-https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/lens.rdf
-http://svn.apache.org/repos/asf/lenya/site/doap_Lenya.rdf
-https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/ODE.rdf
-http://svn.apache.org/repos/asf/shale/framework/trunk/src/site/resources/doap_Shale.rdf
-http://svn.apache.org/repos/asf/shindig/trunk/doap_shindig.rdf
-http://svn.apache.org/repos/asf/tuscany/etc/doap_Tuscany.rdf
-https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/vxquery.rdf
-http://svn.apache.org/repos/asf/whirr/trunk/doap_Whirr.rdf
-http://svn.apache.org/repos/asf/xml/xindice/trunk/doap_Xindice.rdf
-https://age.apache.org/age-doap.rdf http://avro.apache.org/avro.rdf
-https://gitbox.apache.org/repos/asf?p=axis-axis2-java-core.git;a=blob_plain;f=etc/doap_Axis2.rdf;hb=HEAD
-http://svn.apache.org/repos/asf/axis/axis2/java/sandesha/trunk/etc/sandesha2.rdf
-http://beam.apache.org/downloads/beam-doap.rdf
-http://svn.apache.org/repos/asf/bigtop/site/trunk/content/resources/bigtop.rdf
-http://svn.apache.org/repos/asf/bloodhound/site/doap.rdf
-https://svn.apache.org/repos/asf/bookkeeper/site/trunk/content/doap_BookKeeper.rdf
-https://gitbox.apache.org/repos/asf?p=brooklyn.git;a=blob_plain;f=doap_Brooklyn.rdf;hb=HEAD
-https://raw.githubusercontent.com/apache/brpc-website/master/doap_bRPC.rdf
-https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/buildr.rdf
-http://svn.apache.org/repos/asf/bval/site/doap_bval.rdf
-https://gitbox.apache.org/repos/asf?p=calcite.git;a=blob_plain;f=site/doap_calcite.rdf;hb=HEAD
-https://gitbox.apache.org/repos/asf?p=camel.git;a=blob_plain;f=doap.rdf;hb=HEAD
-http://carbondata.apache.org/carbondata-doap.rdf
-https://gitbox.apache.org/repos/asf?p=cassandra-website.git;a=blob_plain;f=doap.rdf;hb=HEAD
-https://cayenne.apache.org/doap/cayenne.rdf
-https://gitbox.apache.org/repos/asf?p=celix.git;a=blob_plain;f=doap/doap_Celix.rdf;hb=refs/heads/master
-https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/chemistry.rdf
-https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/chukwa.rdf
-https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/clerezza.rdf
-https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/climate.rdf
-http://svn.apache.org/repos/asf/cloudstack/doap_CloudStack.rdf
-http://svn.apache.org/repos/asf/cocoon/site/site/doap.rdf
-https://community.apache.org/doap_ComDev.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_bcel.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_beanutils.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_bsf.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_chain.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_cli.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_codec.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_collections.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_compress.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_configuration.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_crypto.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_csv.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_daemon.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_dbcp.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_dbutils.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_digester.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_email.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_exec.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_fileupload.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_functor.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_geometry.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_imaging.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_io.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_jci.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_jcs.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_jelly.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_jexl.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_jxpath.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_lang.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_logging.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_math.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_net.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_numbers.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_ognl.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_pool.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_proxy.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_rdf.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_rng.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_scxml.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_statistics.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_text.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_validator.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_vfs.rdf
-http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_weaver.rdf
-https://cordova.apache.org/infra/doap_Cordova.rdf
-http://couchdb.apache.org/couchdb-doap.rdf
-http://svn.apache.org/repos/asf/creadur/rat/doap_RAT.rdf
-http://svn.apache.org/repos/asf/creadur/tentacles/doap_tentacles.rdf
-http://svn.apache.org/repos/asf/creadur/whisker/doap_whisker.rdf
-https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/crunch.rdf
-http://svn.apache.org/repos/asf/ctakes/site/doap_cTAKES.rdf
-https://gitbox.apache.org/repos/asf?p=curator.git;f=doap.rdf;a=blob_plain;hb=HEAD
-https://gitbox.apache.org/repos/asf?p=cxf.git;a=blob_plain;f=etc/cxf.rdf;hb=HEAD
-https://daffodil.incubator.apache.org/doap.rdf
-https://raw.githubusercontent.com/apache/inlong/master/doap_InLong.rdf
-http://svn.apache.org/repos/asf/db/derby/site/trunk/doap_Derby.rdf
-http://svn.apache.org/repos/asf/db/torque/trunks/doap_Torque.rdf
-https://gitbox.apache.org/repos/asf?p=doris.git;a=blob_plain;f=doap_Doris.rdf;hb=HEAD
-https://gitbox.apache.org/repos/asf?p=deltaspike.git;f=doap_DeltaSpike.rdf;a=blob_plain;hb=HEAD
-http://svn.apache.org/repos/asf/devicemap/trunk/doap_DeviceMap.rdf
-http://svn.apache.org/repos/asf/directory/apacheds/trunk/doap_apacheds.rdf
-http://svn.apache.org/repos/asf/directory/project/trunk/resources/doap_Directory.rdf
-http://svn.apache.org/repos/asf/directory/studio/trunk/doap_dirstudio.rdf
-https://raw.githubusercontent.com/apache/directory-site/master/static/doap_fortress.rdf
-https://raw.githubusercontent.com/apache/directory-site/master/static/doap_kerby.rdf
-https://raw.githubusercontent.com/apache/druid/master/doap_Druid.rdf
-https://gitbox.apache.org/repos/asf?p=drill-site.git;a=blob_plain;f=doap_Drill.rdf;hb=refs/heads/master
-https://echarts.apache.org/doap_ECharts.rdf
-https://gitbox.apache.org/repos/asf?p=freemarker-site.git;a=blob_plain;f=doap.rdf;hb=HEAD
-http://empire-db.apache.org/doap_Empire-db.rdf
-http://svn.apache.org/repos/asf/etch/site/trunk/infra/doap_Etch.rdf
-http://eventmesh.apache.org/doap_EventMesh.rdf
-https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/falcon.rdf
-https://gitbox.apache.org/repos/asf?p=felix-dev.git;a=blob_plain;f=doap/doap_Felix.rdf;hb=HEAD
-https://fluo.apache.org/doap/fluo.rdf
-https://fluo.apache.org/doap/fluo-recipes.rdf
-https://fluo.apache.org/doap/fluo-yarn.rdf
-http://flex.apache.org/doap_Flex.rdf
-http://flink.apache.org/doap_flink.rdf
-https://gitbox.apache.org/repos/asf?p=flume.git;a=blob_plain;f=doap_Flume.rdf;hb=b082429
-http://svn.apache.org/repos/asf/geronimo/site/trunk/doap_Geronimo.rdf
-http://giraph.apache.org/doap_Giraph.rdf
-https://gobblin.apache.org/doap_Gobblin.rdf
-http://svn.apache.org/repos/asf/gora/cms_site/trunk/content/current/doap_Gora.rdf
-https://gitbox.apache.org/repos/asf?p=groovy.git;a=blob_plain;f=DOAP.rdf
-http://guacamole.apache.org/doap.rdf
-http://svn.apache.org/repos/asf/gump/site/doap_Gump.rdf
-https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/hama.rdf
-http://hbase.apache.org/doap_Hbase.rdf
-http://svn.apache.org/repos/asf/helix/doap_Helix.rdf
-http://hive.apache.org/doap_Hive.rdf
-https://raw.githubusercontent.com/apache/incubator-hop-website/master/static/doap_Hop.rdf
-http://svn.apache.org/repos/asf/httpcomponents/httpclient/trunk/doap_HttpComponents_Client.rdf
-http://svn.apache.org/repos/asf/httpcomponents/httpcore/trunk/doap_HttpComponents_Core.rdf
-http://svn.apache.org/repos/asf/httpcomponents/oac.hc3x/trunk/doap_httpclient.rdf
-https://raw.githubusercontent.com/apache/httpd-site/main/content/doap.rdf
-https://raw.githubusercontent.com/apache/httpd-site/main/content/mod_ftp/doap.rdf
-https://gitbox.apache.org/repos/asf?p=hudi.git;a=blob_plain;f=doap_HUDI.rdf;hb=HEAD
-https://gitbox.apache.org/repos/asf?p=ignite.git;a=blob_plain;f=doap_Ignite.rdf;hb=HEAD
-https://gitbox.apache.org/repos/asf?p=iotdb.git;a=blob_plain;f=iotdb-doap.rdf;hb=HEAD
-https://gitbox.apache.org/repos/asf?p=datafu.git;a=blob_plain;f=doap_DataFu.rdf;hb=HEAD
-https://gitbox.apache.org/repos/asf?p=logging-log4cxx.git;a=blob_plain;f=doap_log4cxx.rdf;hb=HEAD
-https://gitbox.apache.org/repos/asf?p=incubator-milagro.git;a=blob_plain;f=doap_Milagro.rdf;hb=HEAD
-http://jackrabbit.apache.org/doap_Jackrabbit.rdf
-http://svn.apache.org/repos/asf/james/site/trunk/doap_JAMES.rdf
-https://gitbox.apache.org/repos/asf?p=jclouds-site.git;a=blob_plain;f=doap_jclouds.rdf;hb=HEAD
-https://raw.githubusercontent.com/apache/db-jdo-site/main/doap__JDO.rdf
-http://jena.apache.org/about_jena/jena.rdf
-https://gitbox.apache.org/repos/asf?p=jmeter.git;a=blob_plain;f=doap_JMeter.rdf;hb=HEAD
-http://svn.apache.org/repos/asf/jspwiki/site/doap/doap-jspwiki.rdf
-https://gitbox.apache.org/repos/asf?p=kafka.git;a=blob_plain;f=doap_Kafka.rdf;hb=HEAD
-http://svn.apache.org/repos/asf/karaf/doap.rdf
-https://kibble.apache.org/doap.rdf
-https://gitbox.apache.org/repos/asf?p=knox.git;a=blob_plain;f=doap_Knox.rdf
-https://kudu.apache.org/doap_Kudu.rdf
-https://gitbox.apache.org/repos/asf?p=libcloud.git;a=blob_plain;f=doap_libcloud.rdf;hb=HEAD
-https://raw.githubusercontent.com/apache/logging-chainsaw/master/doap_chainsaw.rdf
-https://logging.apache.org/doaps/doap_Log4j.rdf
-http://logging.apache.org/log4net/doap_log4net.rdf
-https://raw.githubusercontent.com/apache/logging-log4php/master/doap_log4php.rdf
-http://lucene.apache.org/core/doap.rdf
-https://lucene.apache.org/pylucene/doap.rdf
-http://lucenenet.apache.org/doap_Lucene_Net.rdf
-http://lucy.apache.org/doap.rdf http://linkis.apache.org/doap.rdf
-http://svn.apache.org/repos/asf/mahout/trunk/doap_Mahout.rdf
-http://manifoldcf.apache.org/doap_ManifoldCF.rdf
-https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/marmotta.rdf
-https://gitbox.apache.org/repos/asf?p=maven.git;a=blob_plain;f=doap_Maven.rdf;hb=HEAD
-http://svn.apache.org/repos/asf/maven/doxia/site/trunk/content/resources/doap_Doxia.rdf
-http://svn.apache.org/repos/asf/mesos/site/doap.rdf
-https://gitbox.apache.org/repos/asf?p=metamodel.git;f=doap_MetaModel.rdf;a=blob_plain;hb=HEAD
-http://svn.apache.org/repos/asf/mina/metadata/doap.rdf
-http://svn.apache.org/repos/asf/mina/metadata/ftpserver.rdf
-http://svn.apache.org/repos/asf/mina/metadata/sshd.rdf
-http://svn.apache.org/repos/asf/mina/metadata/vysper.rdf
-https://gitbox.apache.org/repos/asf?p=mxnet.git;a=blob_plain;f=doap.rdf;hb=HEAD
-https://gitbox.apache.org/repos/asf?p=mrunit.git;f=doap_mrunit.rdf;a=blob_plain;hb=HEAD
-https://gitbox.apache.org/repos/asf?p=myfaces.git;a=blob_plain;f=doap_MyFaces.rdf;hb=HEAD
-https://gitbox.apache.org/repos/asf?p=myfaces-tobago.git;a=blob_plain;f=doap.rdf;hb=HEAD
-https://raw.githubusercontent.com/apache/mynewt-site/master/doap.rdf
-https://netbeans.apache.org/doap_NetBeans.rdf
-https://raw.githubusercontent.com/apache/nifi/main/doap.rdf
-http://nutch.apache.org/doap.rdf
-https://ofbiz.apache.org/doap_OFBiz.rdf
-http://olingo.apache.org/doap_Olingo.rdf
-http://svn.apache.org/repos/asf/oltu/site/doap_org.apache.oltu.parent.rdf
-https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/oodt.rdf
-http://svn.apache.org/repos/asf/oozie/site/trunk/doap_Oozie.rdf
-http://svn.apache.org/repos/asf/openjpa/site/doap_OpenJPA.rdf
-http://openmeetings.apache.org/doap.rdf
-http://opennlp.apache.org/doap_opennlp.rdf
-http://openoffice.apache.org/doap_openoffice.rdf
-http://svn.apache.org/repos/asf/openwebbeans/docs/doap_OpenWebBeans.rdf
-http://orc.apache.org/doap_orc.rdf
-https://ozone.apache.org/doap_ozone.rdf
-http://parquet.apache.org/doap_Parquet.rdf
-http://pdfbox.apache.org/doap_PDFBox.rdf
-http://svn.apache.org/repos/asf/perl/modperl/docs/trunk/doap_Perl.rdf
-http://petri.apache.org/petri.rdf
-https://seatunnel.apache.org/doap.rdf
-http://svn.apache.org/repos/asf/phoenix/doap_phoenix.rdf
-http://svn.apache.org/repos/asf/pig/trunk/doap_Pig.rdf
-https://gitbox.apache.org/repos/asf?p=pinot.git;a=blob_plain;f=doap_Pinot.rdf;hb=HEAD
-http://svn.apache.org/repos/asf/pivot/infra/doap/doap_Pivot.rdf
-http://plc4x.apache.org/plc4x-doap.rdf
-http://svn.apache.org/repos/asf/poi/trunk/doap_POI.rdf
-https://gitbox.apache.org/repos/asf?p=polygene-java.git;f=doap.rdf;a=blob_plain;hb=refs/heads/develop
-http://svn.apache.org/repos/asf/portals/doap_portals.rdf
-https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/predictionio.rdf
-http://svn.apache.org/repos/asf/qpid/doap_qpid.rdf
-https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/reef.rdf
-https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/river.rdf
-http://svn.apache.org/repos/asf/roller/trunk/doap_roller.rdf
-http://samza.apache.org/doap_Samza.rdf
-http://svn.apache.org/repos/asf/santuario/doap_Santuario.rdf
-http://serf.apache.org/doap.rdf
-http://svn.apache.org/repos/asf/servicemix/doap.rdf
-https://shiro.apache.org/static/current/doap_shiro-root.rdf
-http://sis.apache.org/DOAP.rdf
-http://skywalking.apache.org/assets/doap_SkyWalking.rdf
-http://svn.apache.org/repos/asf/sling/site/doap/sling-doap.rdf
-https://solr.apache.org/doap/solr.rdf
-https://solr.apache.org/doap/solr-operator.rdf
-http://spamassassin.apache.org/doap.rdf
-http://spark.apache.org/doap.rdf
-https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/sqoop.rdf
-https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/stanbol.rdf
-http://svn.apache.org/repos/asf/steve/trunk/doap_steve.rdf
-https://gitbox.apache.org/repos/asf?p=storm.git;a=blob_plain;f=doap_Storm.rdf;hb=HEAD
-https://gitbox.apache.org/repos/asf?p=stratos.git;a=blob_plain;f=doap_Stratos.rdf;hb=HEAD
-http://struts.apache.org/doap_Struts.rdf
-http://subversion.apache.org/doap.rdf
-http://svn.apache.org/repos/asf/synapse/site/doap_Synapse.rdf
-http://svn.apache.org/repos/asf/syncope/doap_Syncope.rdf
-https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/tajo.rdf
-https://tapestry.apache.org/doap.rdf
-http://tcl.apache.org/rivet/doap_rivet.rdf
-http://svn.apache.org/repos/asf/tcl/websh/trunk/doap_websh.rdf
-https://gitbox.apache.org/repos/asf?p=tez.git;f=Tez_DOAP.rdf;a=blob_plain;hb=HEAD
-https://gitbox.apache.org/repos/asf?p=thrift.git;a=blob_plain;f=doap.rdf;hb=HEAD
-http://svn.apache.org/repos/asf/tika/site/src/site/resources/doap.rdf
-http://svn.apache.org/repos/asf/tiles/site/doap_Tiles.rdf
-http://svn.apache.org/repos/asf/tomcat/site/trunk/docs/doap_Tomcat.rdf
-http://svn.apache.org/repos/asf/tomee/tomee/trunk/doap_tomee.rdf
-https://raw.githubusercontent.com/apache/trafficcontrol/master/doap_Traffic_Control.rdf
-https://gitbox.apache.org/repos/asf?p=trafficserver.git;a=blob_plain;f=doc/doap.rdf;hb=HEAD
-https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/trafodion.rdf
-http://svn.apache.org/repos/asf/turbine/site/doap/doap_Turbine.rdf
-https://tvm.apache.org/doap.rdf
-http://svn.apache.org/repos/asf/uima/site/trunk/uima-website/docs/doap/uima.rdf
-https://raw.githubusercontent.com/apache/vcl/master/doap_vcl.rdf
-https://gitbox.apache.org/repos/asf?p=velocity-site.git;a=blob_plain;f=site/doap_anakia.rdf;hb=HEAD
-https://gitbox.apache.org/repos/asf?p=velocity-site.git;a=blob_plain;f=site/doap_dvsl.rdf;hb=HEAD
-https://gitbox.apache.org/repos/asf?p=velocity-site.git;a=blob_plain;f=site/doap_engine.rdf;hb=HEAD
-https://gitbox.apache.org/repos/asf?p=velocity-site.git;a=blob_plain;f=site/doap_texen.rdf;hb=HEAD
-https://gitbox.apache.org/repos/asf?p=velocity-site.git;a=blob_plain;f=site/doap_tools.rdf;hb=HEAD
-https://gitbox.apache.org/repos/asf?p=ws-axiom.git;a=blob_plain;f=etc/axiom.rdf;hb=HEAD
-http://svn.apache.org/repos/asf/webservices/woden/trunk/java/etc/doap_Woden.rdf
-https://gitbox.apache.org/repos/asf?p=whimsy.git;a=blob_plain;f=doap_Whimsy.rdf;hb=HEAD
-https://gitbox.apache.org/repos/asf?p=wicket-site.git;a=blob_plain;f=content/doap.rdf;hb=HEAD
-http://svn.apache.org/repos/asf/wink/etc/doap_Wink.rdf
-http://svn.apache.org/repos/asf/wookie/site/trunk/doap_wookie.rdf.xml
-http://svn.apache.org/repos/asf/xalan/pmc/doap_Xalan_for_C++_XSLT_Processor.rdf
-http://svn.apache.org/repos/asf/xalan/pmc/doap_Xalan_for_Java_XSLT_Processor.rdf
-http://svn.apache.org/repos/asf/xerces/pmc/doap_Xerces_C++_XML_Parser.rdf
-http://svn.apache.org/repos/asf/xerces/pmc/doap_Xerces_Java_XML_Parser.rdf
-http://svn.apache.org/repos/asf/xerces/pmc/doap_Xerces_Perl_XML_Parser.rdf
-http://svn.apache.org/repos/asf/xerces/xml-commons/trunk/doap_XML_Commons_External.xml
-http://svn.apache.org/repos/asf/xerces/xml-commons/trunk/doap_XML_Commons_Resolver.xml
-http://svn.apache.org/repos/asf/xmlbeans/trunk/xkit/doap_XMLBeans.rdf
-http://svn.apache.org/repos/asf/xmlgraphics/site/trunk/content/batik/doap.rdf
-http://svn.apache.org/repos/asf/xmlgraphics/site/trunk/content/commons/doap.rdf
-http://svn.apache.org/repos/asf/xmlgraphics/site/trunk/content/fop/doap.rdf
-http://yetus.apache.org/doap_yetus.rdf
-https://gitbox.apache.org/repos/asf?p=yunikorn-site.git;a=blob_plain;f=doap_YuniKorn.rdf;hb=HEAD
-http://zeppelin.apache.org/doap.rdf
-http://zookeeper.apache.org/doap.rdf
-https://github.com/apache/royale-asjs/blob/develop/doap_Royale.rdf
+<?xml version="1.0"?>
+<!--
+   Licensed to the Apache Software Foundation (ASF) under one or more
+   contributor license agreements.  See the NOTICE file distributed with
+   this work for additional information regarding copyright ownership.
+   The ASF licenses this file to You under the Apache License, Version 2.0
+   (the "License"); you may not use this file except in compliance with
+   the License.  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<!--
+    Project DOAP files
+    ==================
+
+    Each PMC (committee) may manage one or more projects, each of which should have a DOAP listed here.
+
+    This list may include projects that have been retired.
+
+    The PMC descriptor files are listed in the file committees.xml (in this directory)
+-->
+<doapFiles>
+  <!-- was in projects-old https://svn.apache.org/repos/asf/infrastructure/site-tools/trunk/projects/files.xml -->
+  <!-- This file is ordered by committee and then by project managed by corresponding PMC -->
+  <!-- retired: location>http://svn.apache.org/repos/asf/abdera/java/trunk/doap_Abdera.rdf</location -->
+  <location>https://accumulo.apache.org/doap/accumulo.rdf</location>
+  <!-- retired: location>http://svn.apache.org/repos/asf/ace/doap.rdf</location -->
+  <location>http://svn.apache.org/repos/asf/activemq/trunk/doap.rdf</location>
+  <location>https://svn.apache.org/repos/asf/airavata/airavata_doap.rdf</location>
+  <location>https://raw.githubusercontent.com/apache/airflow/main/doap_airflow.rdf</location>
+  <location>https://svn.apache.org/repos/asf/allura/doap_Allura.rdf</location>
+  <location>http://ambari.apache.org/doap.rdf</location>
+  <location>https://annotator.apache.org/doap.rdf</location>
+  <location>https://ant.apache.org/doap_Ant.rdf</location>
+  <location>https://ant.apache.org/antlibs/antunit/doap_AntUnit.rdf</location>
+  <location>https://ant.apache.org/antlibs/compress/doap_CompressAntlib.rdf</location>
+  <location>https://ant.apache.org/antlibs/dotnet/doap_DotnetAntlib.rdf</location>
+  <location>https://ant.apache.org/antlibs/props/doap_PropsAntlib.rdf</location>
+  <location>https://ant.apache.org/antlibs/vss/doap_VSSAntlib.rdf</location>
+  <location>https://gitbox.apache.org/repos/asf?p=ant-ivy.git;a=blob_plain;f=doap_Ivy.rdf;hb=HEAD</location>
+  <location>https://gitbox.apache.org/repos/asf?p=ant-ivyde.git;a=blob_plain;f=doap_IvyDE.rdf;hb=HEAD</location>
+  <!-- retired: location>https://gitbox.apache.org/repos/asf?p=any23-committers.git;a=blob_plain;f=doap_Any23.rdf;hb=HEAD</location -->
+  <location>https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/any23.rdf</location>
+  <location>http://svn.apache.org/repos/asf/apr/site/trunk/doap.rdf</location>
+  <location>https://gitbox.apache.org/repos/asf?p=archiva.git;a=blob_plain;f=doap_Archiva.rdf;hb=HEAD</location>
+  <location>http://svn.apache.org/repos/asf/aries/doap_aries.rdf</location>
+  <location>https://arrow.apache.org/arrow.rdf</location>
+  <!-- Attic -->
+  <!-- retired: location>https://raw.githubusercontent.com/apache/apex-site/master/doap_Apex.rdf</location -->
+  <location>https://causeway.apache.org/doap_causeway.rdf</location>
+  <location>https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/Apex.rdf</location>
+  <location>http://svn.apache.org/repos/asf/beehive/site/doap.rdf</location>
+  <location>http://svn.apache.org/repos/asf/click/trunk/click/documentation/doap/click.rdf</location>
+  <location>http://svn.apache.org/repos/asf/continuum/trunk/doap_Continuum.rdf</location>
+  <location>http://deltacloud.apache.org/doap_Deltacloud.rdf</location>
+  <location>https://svn.apache.org/repos/asf/directmemory/trunk/doap_DirectMemory.rdf</location>
+  <location>http://svn.apache.org/repos/asf/esme/site/trunk/doap/doap_ESME.rdf</location>
+  <location>http://svn.apache.org/repos/asf/excalibur/trunk/doap_Excalibur.rdf</location>
+  <!-- retired: location>http://forrest.apache.org/doap_Forrest.rdf</location -->
+  <location>https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/Forrest.rdf</location>
+  <location>http://geode.apache.org/doap_Geode.rdf</location>
+  <location>http://svn.apache.org/repos/asf/harmony/standard/doap_Harmony.rdf</location>
+  <location>http://svn.apache.org/repos/asf/hivemind/hivemind2/trunk/doap_Hivemind.rdf</location>
+  <location>http://svn.apache.org/repos/asf/jakarta/cactus/trunk/doap_Jakarta_Cactus.rdf</location>
+  <location>http://svn.apache.org/repos/asf/jakarta/ecs/trunk/doap_ECS.rdf</location>
+  <!-- Attic uncomment when DOAP points to attic location>https://svn.apache.org/repos/asf/onami/site/doap_org.apache.onami.parent.rdf</location-->
+  <location>http://svn.apache.org/repos/asf/jakarta/oro/trunk/doap_ORO.rdf</location>
+  <!-- Attic uncomment when DOAP points to attic location>http://svn.apache.org/repos/asf/rave/doap.rdf</location-->
+  <location>http://svn.apache.org/repos/asf/jakarta/regexp/trunk/doap_Regexp.rdf</location>
+  <!-- retired: location>http://svn.apache.org/repos/asf/lens/doap.rdf</location -->
+  <location>https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/lens.rdf</location>
+  <location>http://svn.apache.org/repos/asf/lenya/site/doap_Lenya.rdf</location>
+  <!-- retired: location>http://svn.apache.org/repos/asf/ode/trunk/doap_ODE.rdf</location -->
+  <location>https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/ODE.rdf</location>
+  <location>http://svn.apache.org/repos/asf/shale/framework/trunk/src/site/resources/doap_Shale.rdf</location>
+  <location>http://svn.apache.org/repos/asf/shindig/trunk/doap_shindig.rdf</location>
+  <location>http://svn.apache.org/repos/asf/tuscany/etc/doap_Tuscany.rdf</location>
+  <!-- retired: location>https://gitbox.apache.org/repos/asf?p=vxquery.git;f=doap.rdf;a=blob_plain;hb=HEAD</location -->
+  <location>https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/vxquery.rdf</location>
+  <location>http://svn.apache.org/repos/asf/whirr/trunk/doap_Whirr.rdf</location>
+  <location>http://svn.apache.org/repos/asf/xml/xindice/trunk/doap_Xindice.rdf</location>
+  <!-- end of Attic -->
+  <location>https://age.apache.org/age-doap.rdf</location>
+  <location>http://avro.apache.org/avro.rdf</location>
+  <location>https://gitbox.apache.org/repos/asf?p=axis-axis2-java-core.git;a=blob_plain;f=etc/doap_Axis2.rdf;hb=HEAD</location>
+  <location>http://svn.apache.org/repos/asf/axis/axis2/java/sandesha/trunk/etc/sandesha2.rdf</location>
+  <location>http://beam.apache.org/downloads/beam-doap.rdf</location>
+  <location>http://svn.apache.org/repos/asf/bigtop/site/trunk/content/resources/bigtop.rdf</location>
+  <location>http://svn.apache.org/repos/asf/bloodhound/site/doap.rdf</location>
+  <location>https://svn.apache.org/repos/asf/bookkeeper/site/trunk/content/doap_BookKeeper.rdf</location>
+  <location>https://gitbox.apache.org/repos/asf?p=brooklyn.git;a=blob_plain;f=doap_Brooklyn.rdf;hb=HEAD</location>
+  <location>https://raw.githubusercontent.com/apache/brpc-website/master/doap_bRPC.rdf</location>
+  <!-- retired: location>https://gitbox.apache.org/repos/asf?p=buildr.git;a=blob_plain;f=doap.rdf;hb=HEAD</location -->
+  <location>https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/buildr.rdf</location>
+  <location>http://svn.apache.org/repos/asf/bval/site/doap_bval.rdf</location>
+  <location>https://gitbox.apache.org/repos/asf?p=calcite.git;a=blob_plain;f=site/doap_calcite.rdf;hb=HEAD</location>
+  <location>https://gitbox.apache.org/repos/asf?p=camel.git;a=blob_plain;f=doap.rdf;hb=HEAD</location>
+  <location>http://carbondata.apache.org/carbondata-doap.rdf</location>
+  <location>https://gitbox.apache.org/repos/asf?p=cassandra-website.git;a=blob_plain;f=doap.rdf;hb=HEAD</location>
+  <location>https://cayenne.apache.org/doap/cayenne.rdf</location>
+  <location>https://gitbox.apache.org/repos/asf?p=celix.git;a=blob_plain;f=doap/doap_Celix.rdf;hb=refs/heads/master</location>
+  <!-- retired: location>http://svn.apache.org/repos/asf/chemistry/doap_chemistry.rdf</location -->
+  <location>https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/chemistry.rdf</location>
+  <!-- retired: location>http://svn.apache.org/repos/asf/chukwa/site/src/site/doap.rdf</location -->
+  <location>https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/chukwa.rdf</location>
+  <!-- retired: location>https://clerezza.apache.org/doap.rdf</location -->
+  <location>https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/clerezza.rdf</location>
+  <!-- retired: location>https://gitbox.apache.org/repos/asf?p=climate.git;f=doap_CLIMATE.rdf;a=blob_plain;hb=HEAD</location -->
+  <location>https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/climate.rdf</location>
+  <location>http://svn.apache.org/repos/asf/cloudstack/doap_CloudStack.rdf</location>
+  <location>http://svn.apache.org/repos/asf/cocoon/site/site/doap.rdf</location>
+  <location>https://community.apache.org/doap_ComDev.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_bcel.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_beanutils.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_bsf.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_chain.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_cli.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_codec.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_collections.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_compress.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_configuration.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_crypto.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_csv.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_daemon.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_dbcp.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_dbutils.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_digester.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_email.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_exec.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_fileupload.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_functor.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_geometry.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_imaging.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_io.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_jci.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_jcs.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_jelly.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_jexl.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_jxpath.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_lang.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_logging.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_math.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_net.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_numbers.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_ognl.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_pool.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_proxy.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_rdf.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_rng.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_scxml.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_statistics.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_text.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_validator.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_vfs.rdf</location>
+  <location>http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_weaver.rdf</location>
+  <location>https://cordova.apache.org/infra/doap_Cordova.rdf</location>
+  <location>http://couchdb.apache.org/couchdb-doap.rdf</location>
+  <location>http://svn.apache.org/repos/asf/creadur/rat/doap_RAT.rdf</location>
+  <location>http://svn.apache.org/repos/asf/creadur/tentacles/doap_tentacles.rdf</location>
+  <location>http://svn.apache.org/repos/asf/creadur/whisker/doap_whisker.rdf</location>
+  <!-- retired: location>https://gitbox.apache.org/repos/asf?p=crunch.git;f=doap.rdf;a=blob_plain;hb=HEAD</location -->
+  <location>https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/crunch.rdf</location>
+  <location>http://svn.apache.org/repos/asf/ctakes/site/doap_cTAKES.rdf</location>
+  <location>https://gitbox.apache.org/repos/asf?p=curator.git;f=doap.rdf;a=blob_plain;hb=HEAD</location>
+  <location>https://gitbox.apache.org/repos/asf?p=cxf.git;a=blob_plain;f=etc/cxf.rdf;hb=HEAD</location>
+  <location>https://daffodil.incubator.apache.org/doap.rdf</location>
+  <location>https://raw.githubusercontent.com/apache/inlong/master/doap_InLong.rdf</location>
+  <location>http://svn.apache.org/repos/asf/db/derby/site/trunk/doap_Derby.rdf</location>
+  <location>http://svn.apache.org/repos/asf/db/torque/trunks/doap_Torque.rdf</location>
+  <location>https://gitbox.apache.org/repos/asf?p=doris.git;a=blob_plain;f=doap_Doris.rdf;hb=HEAD</location>
+  <location>https://gitbox.apache.org/repos/asf?p=deltaspike.git;f=doap_DeltaSpike.rdf;a=blob_plain;hb=HEAD</location>
+  <location>http://svn.apache.org/repos/asf/devicemap/trunk/doap_DeviceMap.rdf</location>
+  <location>http://svn.apache.org/repos/asf/directory/apacheds/trunk/doap_apacheds.rdf</location>
+  <location>http://svn.apache.org/repos/asf/directory/project/trunk/resources/doap_Directory.rdf</location>
+  <location>http://svn.apache.org/repos/asf/directory/studio/trunk/doap_dirstudio.rdf</location>
+  <location>https://raw.githubusercontent.com/apache/directory-site/master/static/doap_fortress.rdf</location>
+  <location>https://raw.githubusercontent.com/apache/directory-site/master/static/doap_kerby.rdf</location>
+  <location>https://raw.githubusercontent.com/apache/druid/master/doap_Druid.rdf</location>
+  <location>https://gitbox.apache.org/repos/asf?p=drill-site.git;a=blob_plain;f=doap_Drill.rdf;hb=refs/heads/master</location>
+  <location>https://echarts.apache.org/doap_ECharts.rdf</location>
+  <location>https://gitbox.apache.org/repos/asf?p=freemarker-site.git;a=blob_plain;f=doap.rdf;hb=HEAD</location>
+  <location>http://empire-db.apache.org/doap_Empire-db.rdf</location>
+  <location>http://svn.apache.org/repos/asf/etch/site/trunk/infra/doap_Etch.rdf</location>
+  <location>http://eventmesh.apache.org/doap_EventMesh.rdf</location>
+  <!-- retired: location>https://svn.apache.org/repos/asf/falcon/trunk/falcon.rdf</location -->
+  <location>https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/falcon.rdf</location>
+  <location>https://gitbox.apache.org/repos/asf?p=felix-dev.git;a=blob_plain;f=doap/doap_Felix.rdf;hb=HEAD</location>
+  <location>https://fluo.apache.org/doap/fluo.rdf</location>
+  <location>https://fluo.apache.org/doap/fluo-recipes.rdf</location>
+  <location>https://fluo.apache.org/doap/fluo-yarn.rdf</location>
+  <location>http://flex.apache.org/doap_Flex.rdf</location>
+  <location>http://flink.apache.org/doap_flink.rdf</location>
+  <location>https://gitbox.apache.org/repos/asf?p=flume.git;a=blob_plain;f=doap_Flume.rdf;hb=b082429</location>
+  <location>http://svn.apache.org/repos/asf/geronimo/site/trunk/doap_Geronimo.rdf</location>
+  <location>http://giraph.apache.org/doap_Giraph.rdf</location>
+  <location>https://gobblin.apache.org/doap_Gobblin.rdf</location>
+  <location>http://svn.apache.org/repos/asf/gora/cms_site/trunk/content/current/doap_Gora.rdf</location>
+  <location>https://gitbox.apache.org/repos/asf?p=groovy.git;a=blob_plain;f=DOAP.rdf</location>
+  <location>http://guacamole.apache.org/doap.rdf</location>
+  <location>http://svn.apache.org/repos/asf/gump/site/doap_Gump.rdf</location>
+  <!-- Moved 2018-09-08 location>http://hadoop.apache.org/doap.rdf</location-->
+  <!-- retired: location>https://svn.apache.org/repos/asf/hama/trunk/src/site/resources/doap_Hama.rdf</location -->
+  <location>https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/hama.rdf</location>
+  <location>http://hbase.apache.org/doap_Hbase.rdf</location>
+  <location>http://svn.apache.org/repos/asf/helix/doap_Helix.rdf</location>
+  <location>http://hive.apache.org/doap_Hive.rdf</location>
+  <location>https://raw.githubusercontent.com/apache/incubator-hop-website/master/static/doap_Hop.rdf</location>
+  <location>http://svn.apache.org/repos/asf/httpcomponents/httpclient/trunk/doap_HttpComponents_Client.rdf</location>
+  <location>http://svn.apache.org/repos/asf/httpcomponents/httpcore/trunk/doap_HttpComponents_Core.rdf</location>
+  <location>http://svn.apache.org/repos/asf/httpcomponents/oac.hc3x/trunk/doap_httpclient.rdf</location>
+  <location>https://raw.githubusercontent.com/apache/httpd-site/main/content/doap.rdf</location>
+  <location>https://raw.githubusercontent.com/apache/httpd-site/main/content/mod_ftp/doap.rdf</location>
+  <location>https://gitbox.apache.org/repos/asf?p=hudi.git;a=blob_plain;f=doap_HUDI.rdf;hb=HEAD</location>
+  <location>https://gitbox.apache.org/repos/asf?p=ignite.git;a=blob_plain;f=doap_Ignite.rdf;hb=HEAD</location>
+  <location>https://gitbox.apache.org/repos/asf?p=iotdb.git;a=blob_plain;f=iotdb-doap.rdf;hb=HEAD</location>
+  <location>https://gitbox.apache.org/repos/asf?p=datafu.git;a=blob_plain;f=doap_DataFu.rdf;hb=HEAD</location>
+  <location>https://gitbox.apache.org/repos/asf?p=logging-log4cxx.git;a=blob_plain;f=doap_log4cxx.rdf;hb=HEAD</location>
+  <location>https://gitbox.apache.org/repos/asf?p=incubator-milagro.git;a=blob_plain;f=doap_Milagro.rdf;hb=HEAD</location>
+  <!-- retired: location>http://taverna.incubator.apache.org/doap.rdf</location-->
+  <location>http://jackrabbit.apache.org/doap_Jackrabbit.rdf</location>
+  <location>http://svn.apache.org/repos/asf/james/site/trunk/doap_JAMES.rdf</location>
+  <location>https://gitbox.apache.org/repos/asf?p=jclouds-site.git;a=blob_plain;f=doap_jclouds.rdf;hb=HEAD</location>
+  <location>https://raw.githubusercontent.com/apache/db-jdo-site/main/doap__JDO.rdf</location>
+  <location>http://jena.apache.org/about_jena/jena.rdf</location>
+  <location>https://gitbox.apache.org/repos/asf?p=jmeter.git;a=blob_plain;f=doap_JMeter.rdf;hb=HEAD</location>
+  <location>http://svn.apache.org/repos/asf/jspwiki/site/doap/doap-jspwiki.rdf</location>
+  <!-- retired: location>https://gitbox.apache.org/repos/asf?p=juddi-scout.git;a=blob_plain;f=doap_Scout.rdf;hb=refs/heads/master</location -->
+  <location>https://gitbox.apache.org/repos/asf?p=kafka.git;a=blob_plain;f=doap_Kafka.rdf;hb=HEAD</location>
+  <location>http://svn.apache.org/repos/asf/karaf/doap.rdf</location>
+  <location>https://kibble.apache.org/doap.rdf</location>
+  <location>https://gitbox.apache.org/repos/asf?p=knox.git;a=blob_plain;f=doap_Knox.rdf</location>
+  <location>https://kudu.apache.org/doap_Kudu.rdf</location>
+  <location>https://gitbox.apache.org/repos/asf?p=libcloud.git;a=blob_plain;f=doap_libcloud.rdf;hb=HEAD</location>
+  <location>https://raw.githubusercontent.com/apache/logging-chainsaw/master/doap_chainsaw.rdf</location>
+  <location>https://logging.apache.org/doaps/doap_Log4j.rdf</location>
+  <location>http://logging.apache.org/log4net/doap_log4net.rdf</location>
+  <location>https://raw.githubusercontent.com/apache/logging-log4php/master/doap_log4php.rdf</location>
+  <location>http://lucene.apache.org/core/doap.rdf</location>
+  <location>https://lucene.apache.org/pylucene/doap.rdf</location>
+  <location>http://lucenenet.apache.org/doap_Lucene_Net.rdf</location>
+  <location>http://lucy.apache.org/doap.rdf</location>
+  <location>http://linkis.apache.org/doap.rdf</location>
+  <location>http://svn.apache.org/repos/asf/mahout/trunk/doap_Mahout.rdf</location>
+  <location>http://manifoldcf.apache.org/doap_ManifoldCF.rdf</location>
+  <!-- retired: location>http://marmotta.apache.org/doap.rdf</location -->
+  <location>https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/marmotta.rdf</location>
+  <location>https://gitbox.apache.org/repos/asf?p=maven.git;a=blob_plain;f=doap_Maven.rdf;hb=HEAD</location>
+  <location>http://svn.apache.org/repos/asf/maven/doxia/site/trunk/content/resources/doap_Doxia.rdf</location>
+  <location>http://svn.apache.org/repos/asf/mesos/site/doap.rdf</location>
+  <location>https://gitbox.apache.org/repos/asf?p=metamodel.git;f=doap_MetaModel.rdf;a=blob_plain;hb=HEAD</location>
+  <location>http://svn.apache.org/repos/asf/mina/metadata/doap.rdf</location>
+  <location>http://svn.apache.org/repos/asf/mina/metadata/ftpserver.rdf</location>
+  <location>http://svn.apache.org/repos/asf/mina/metadata/sshd.rdf</location>
+  <location>http://svn.apache.org/repos/asf/mina/metadata/vysper.rdf</location>
+  <location>https://gitbox.apache.org/repos/asf?p=mxnet.git;a=blob_plain;f=doap.rdf;hb=HEAD</location>
+  <location>https://gitbox.apache.org/repos/asf?p=mrunit.git;f=doap_mrunit.rdf;a=blob_plain;hb=HEAD</location>
+  <location>https://gitbox.apache.org/repos/asf?p=myfaces.git;a=blob_plain;f=doap_MyFaces.rdf;hb=HEAD</location>
+  <location>https://gitbox.apache.org/repos/asf?p=myfaces-tobago.git;a=blob_plain;f=doap.rdf;hb=HEAD</location>
+  <location>https://raw.githubusercontent.com/apache/mynewt-site/master/doap.rdf</location>
+  <location>https://netbeans.apache.org/doap_NetBeans.rdf</location>
+  <location>https://raw.githubusercontent.com/apache/nifi/main/doap.rdf</location>
+  <location>http://nutch.apache.org/doap.rdf</location>
+  <location>https://ofbiz.apache.org/doap_OFBiz.rdf</location>
+  <location>http://olingo.apache.org/doap_Olingo.rdf</location>
+  <location>http://svn.apache.org/repos/asf/oltu/site/doap_org.apache.oltu.parent.rdf</location>
+  <!-- retired: location>https://raw.githubusercontent.com/apache/oodt/master/doap_oodt.rdf</location -->
+  <location>https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/oodt.rdf</location>
+  <location>http://svn.apache.org/repos/asf/oozie/site/trunk/doap_Oozie.rdf</location>
+  <location>http://svn.apache.org/repos/asf/openjpa/site/doap_OpenJPA.rdf</location>
+  <location>http://openmeetings.apache.org/doap.rdf</location>
+  <location>http://opennlp.apache.org/doap_opennlp.rdf</location>
+  <location>http://openoffice.apache.org/doap_openoffice.rdf</location>
+  <location>http://svn.apache.org/repos/asf/openwebbeans/docs/doap_OpenWebBeans.rdf</location>
+  <location>http://orc.apache.org/doap_orc.rdf</location>
+  <location>https://ozone.apache.org/doap_ozone.rdf</location>
+  <location>http://parquet.apache.org/doap_Parquet.rdf</location>
+  <location>http://pdfbox.apache.org/doap_PDFBox.rdf</location>
+  <location>http://svn.apache.org/repos/asf/perl/modperl/docs/trunk/doap_Perl.rdf</location>
+  <location>http://petri.apache.org/petri.rdf</location>
+  <location>https://seatunnel.apache.org/doap.rdf</location>
+  <location>http://svn.apache.org/repos/asf/phoenix/doap_phoenix.rdf</location>
+  <location>http://svn.apache.org/repos/asf/pig/trunk/doap_Pig.rdf</location>
+  <location>https://gitbox.apache.org/repos/asf?p=pinot.git;a=blob_plain;f=doap_Pinot.rdf;hb=HEAD</location>
+  <location>http://svn.apache.org/repos/asf/pivot/infra/doap/doap_Pivot.rdf</location>
+  <location>http://plc4x.apache.org/plc4x-doap.rdf</location>
+  <location>http://svn.apache.org/repos/asf/poi/trunk/doap_POI.rdf</location>
+  <location>https://gitbox.apache.org/repos/asf?p=polygene-java.git;f=doap.rdf;a=blob_plain;hb=refs/heads/develop</location>
+  <location>http://svn.apache.org/repos/asf/portals/doap_portals.rdf</location>
+  <!-- retired: location>https://gitbox.apache.org/repos/asf?p=predictionio.git;a=blob_plain;f=doap.rdf;hb=refs/heads/develop</location -->
+  <location>https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/predictionio.rdf</location>
+  <location>http://svn.apache.org/repos/asf/qpid/doap_qpid.rdf</location>
+  <!-- retired location>http://edgent.incubator.apache.org/doap_Edgent.rdf</location -->
+  <!-- retired: location>http://reef.apache.org/doap.rdf</location -->
+  <location>https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/reef.rdf</location>
+  <!-- retired location>http://svn.apache.org/repos/asf/river/doap_river.rdf</location -->
+  <location>https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/river.rdf</location>
+  <location>http://svn.apache.org/repos/asf/roller/trunk/doap_roller.rdf</location>
+  <location>http://samza.apache.org/doap_Samza.rdf</location>
+  <location>http://svn.apache.org/repos/asf/santuario/doap_Santuario.rdf</location>
+  <location>http://serf.apache.org/doap.rdf</location>
+  <location>http://svn.apache.org/repos/asf/servicemix/doap.rdf</location>
+  <location>https://shiro.apache.org/static/current/doap_shiro-root.rdf</location>
+  <location>http://sis.apache.org/DOAP.rdf</location>
+  <location>http://skywalking.apache.org/assets/doap_SkyWalking.rdf</location>
+  <location>http://svn.apache.org/repos/asf/sling/site/doap/sling-doap.rdf</location>
+  <location>https://solr.apache.org/doap/solr.rdf</location>
+  <location>https://solr.apache.org/doap/solr-operator.rdf</location>
+  <location>http://spamassassin.apache.org/doap.rdf</location>
+  <location>http://spark.apache.org/doap.rdf</location>
+  <!-- retired: location>http://sqoop.apache.org/doap/doap_Sqoop.rdf</location -->
+  <location>https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/sqoop.rdf</location>
+  <!-- retired: location>http://stanbol.apache.org/doap.rdf</location -->
+  <location>https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/stanbol.rdf</location>
+  <location>http://svn.apache.org/repos/asf/steve/trunk/doap_steve.rdf</location>
+  <location>https://gitbox.apache.org/repos/asf?p=storm.git;a=blob_plain;f=doap_Storm.rdf;hb=HEAD</location>
+  <location>https://gitbox.apache.org/repos/asf?p=stratos.git;a=blob_plain;f=doap_Stratos.rdf;hb=HEAD</location>
+  <location>http://struts.apache.org/doap_Struts.rdf</location>
+  <location>http://subversion.apache.org/doap.rdf</location>
+  <location>http://svn.apache.org/repos/asf/synapse/site/doap_Synapse.rdf</location>
+  <location>http://svn.apache.org/repos/asf/syncope/doap_Syncope.rdf</location>
+  <!-- retired: location>https://gitbox.apache.org/repos/asf?p=tajo.git;f=doap_Tajo.rdf;a=blob_plain;hb=HEAD</location -->
+  <location>https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/tajo.rdf</location>
+  <location>https://tapestry.apache.org/doap.rdf</location>
+  <location>http://tcl.apache.org/rivet/doap_rivet.rdf</location>
+  <location>http://svn.apache.org/repos/asf/tcl/websh/trunk/doap_websh.rdf</location>
+  <location>https://gitbox.apache.org/repos/asf?p=tez.git;f=Tez_DOAP.rdf;a=blob_plain;hb=HEAD</location>
+  <location>https://gitbox.apache.org/repos/asf?p=thrift.git;a=blob_plain;f=doap.rdf;hb=HEAD</location>
+  <location>http://svn.apache.org/repos/asf/tika/site/src/site/resources/doap.rdf</location>
+  <location>http://svn.apache.org/repos/asf/tiles/site/doap_Tiles.rdf</location>
+  <location>http://svn.apache.org/repos/asf/tomcat/site/trunk/docs/doap_Tomcat.rdf</location>
+  <!-- disappeared 2020-04-29 location>http://svn.apache.org/repos/asf/tomcat/taglibs/rdc/trunk/doap_rdc.rdf</location-->
+  <location>http://svn.apache.org/repos/asf/tomee/tomee/trunk/doap_tomee.rdf</location>
+  <location>https://raw.githubusercontent.com/apache/trafficcontrol/master/doap_Traffic_Control.rdf</location>
+  <location>https://gitbox.apache.org/repos/asf?p=trafficserver.git;a=blob_plain;f=doc/doap.rdf;hb=HEAD</location>
+  <!-- retired: location>https://gitbox.apache.org/repos/asf?p=trafodion.git;a=blob_plain;f=doap.rdf;hb=HEAD</location -->
+  <location>https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/trafodion.rdf</location>
+  <location>http://svn.apache.org/repos/asf/turbine/site/doap/doap_Turbine.rdf</location>
+  <location>https://tvm.apache.org/doap.rdf</location>
+  <location>http://svn.apache.org/repos/asf/uima/site/trunk/uima-website/docs/doap/uima.rdf</location>
+  <location>https://raw.githubusercontent.com/apache/vcl/master/doap_vcl.rdf</location>
+  <location>https://gitbox.apache.org/repos/asf?p=velocity-site.git;a=blob_plain;f=site/doap_anakia.rdf;hb=HEAD</location>
+  <location>https://gitbox.apache.org/repos/asf?p=velocity-site.git;a=blob_plain;f=site/doap_dvsl.rdf;hb=HEAD</location>
+  <location>https://gitbox.apache.org/repos/asf?p=velocity-site.git;a=blob_plain;f=site/doap_engine.rdf;hb=HEAD</location>
+  <location>https://gitbox.apache.org/repos/asf?p=velocity-site.git;a=blob_plain;f=site/doap_texen.rdf;hb=HEAD</location>
+  <location>https://gitbox.apache.org/repos/asf?p=velocity-site.git;a=blob_plain;f=site/doap_tools.rdf;hb=HEAD</location>
+  <location>https://gitbox.apache.org/repos/asf?p=ws-axiom.git;a=blob_plain;f=etc/axiom.rdf;hb=HEAD</location>
+  <location>http://svn.apache.org/repos/asf/webservices/woden/trunk/java/etc/doap_Woden.rdf</location>
+  <location>https://gitbox.apache.org/repos/asf?p=whimsy.git;a=blob_plain;f=doap_Whimsy.rdf;hb=HEAD</location>
+  <location>https://gitbox.apache.org/repos/asf?p=wicket-site.git;a=blob_plain;f=content/doap.rdf;hb=HEAD</location>
+  <location>http://svn.apache.org/repos/asf/wink/etc/doap_Wink.rdf</location>
+  <location>http://svn.apache.org/repos/asf/wookie/site/trunk/doap_wookie.rdf.xml</location>
+  <location>http://svn.apache.org/repos/asf/xalan/pmc/doap_Xalan_for_C++_XSLT_Processor.rdf</location>
+  <location>http://svn.apache.org/repos/asf/xalan/pmc/doap_Xalan_for_Java_XSLT_Processor.rdf</location>
+  <location>http://svn.apache.org/repos/asf/xerces/pmc/doap_Xerces_C++_XML_Parser.rdf</location>
+  <location>http://svn.apache.org/repos/asf/xerces/pmc/doap_Xerces_Java_XML_Parser.rdf</location>
+  <location>http://svn.apache.org/repos/asf/xerces/pmc/doap_Xerces_Perl_XML_Parser.rdf</location>
+  <location>http://svn.apache.org/repos/asf/xerces/xml-commons/trunk/doap_XML_Commons_External.xml</location>
+  <location>http://svn.apache.org/repos/asf/xerces/xml-commons/trunk/doap_XML_Commons_Resolver.xml</location>
+  <location>http://svn.apache.org/repos/asf/xmlbeans/trunk/xkit/doap_XMLBeans.rdf</location>
+  <location>http://svn.apache.org/repos/asf/xmlgraphics/site/trunk/content/batik/doap.rdf</location>
+  <location>http://svn.apache.org/repos/asf/xmlgraphics/site/trunk/content/commons/doap.rdf</location>
+  <location>http://svn.apache.org/repos/asf/xmlgraphics/site/trunk/content/fop/doap.rdf</location>
+  <location>http://yetus.apache.org/doap_yetus.rdf</location>
+  <location>https://gitbox.apache.org/repos/asf?p=yunikorn-site.git;a=blob_plain;f=doap_YuniKorn.rdf;hb=HEAD</location>
+  <location>http://zeppelin.apache.org/doap.rdf</location>
+  <location>http://zookeeper.apache.org/doap.rdf</location>
+  <!-- This file is ordered by committee and then by project managed by corresponding PMC -->
+</doapFiles>
