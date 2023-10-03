@@ -106,11 +106,17 @@
 "airflow-1.10.0": [
 "airflow/helm-chart/1.10.0/airflow-1.10.0.tgz"
 ],
+"airflow-1.11.0": [
+"airflow/helm-chart/1.11.0/airflow-1.11.0.tgz"
+],
 "airflow-1.9.0": [
 "airflow/helm-chart/1.9.0/airflow-1.9.0.tgz"
 ],
 "airflow-chart-1.10.0": [
 "airflow/helm-chart/1.10.0/airflow-chart-1.10.0-source.tar.gz"
+],
+"airflow-chart-1.11.0": [
+"airflow/helm-chart/1.11.0/airflow-chart-1.11.0-source.tar.gz"
 ],
 "airflow-chart-1.9.0": [
 "airflow/helm-chart/1.9.0/airflow-chart-1.9.0-source.tar.gz"
@@ -1148,8 +1154,8 @@
 "apache-camel-3.19.0": [
 "camel/apache-camel/3.19.0/apache-camel-3.19.0-src.zip"
 ],
-"apache-camel-3.20.6": [
-"camel/apache-camel/3.20.6/apache-camel-3.20.6-src.zip"
+"apache-camel-3.20.7": [
+"camel/apache-camel/3.20.7/apache-camel-3.20.7-src.zip"
 ],
 "apache-camel-3.21.0": [
 "camel/apache-camel/3.21.0/apache-camel-3.21.0-src.zip"
@@ -2592,17 +2598,17 @@
 "felix/org.apache.felix.http.base-4.2.10-source-release.tar.gz",
 "felix/org.apache.felix.http.base-4.2.10-source-release.zip"
 ],
-"org.apache.felix.http.base-5.1.0": [
-"felix/org.apache.felix.http.base-5.1.0-source-release.tar.gz",
-"felix/org.apache.felix.http.base-5.1.0-source-release.zip"
+"org.apache.felix.http.base-5.1.2": [
+"felix/org.apache.felix.http.base-5.1.2-source-release.tar.gz",
+"felix/org.apache.felix.http.base-5.1.2-source-release.zip"
 ],
 "org.apache.felix.http.bridge-4.2.12": [
 "felix/org.apache.felix.http.bridge-4.2.12-source-release.tar.gz",
 "felix/org.apache.felix.http.bridge-4.2.12-source-release.zip"
 ],
-"org.apache.felix.http.bridge-5.1.0": [
-"felix/org.apache.felix.http.bridge-5.1.0-source-release.tar.gz",
-"felix/org.apache.felix.http.bridge-5.1.0-source-release.zip"
+"org.apache.felix.http.bridge-5.1.2": [
+"felix/org.apache.felix.http.bridge-5.1.2-source-release.tar.gz",
+"felix/org.apache.felix.http.bridge-5.1.2-source-release.zip"
 ],
 "org.apache.felix.http.bundle-3.0.0": [
 "felix/org.apache.felix.http.bundle-3.0.0-source-release.tar.gz",
@@ -2616,17 +2622,17 @@
 "felix/org.apache.felix.http.jetty-4.2.18-source-release.tar.gz",
 "felix/org.apache.felix.http.jetty-4.2.18-source-release.zip"
 ],
-"org.apache.felix.http.jetty-5.1.0": [
-"felix/org.apache.felix.http.jetty-5.1.0-source-release.tar.gz",
-"felix/org.apache.felix.http.jetty-5.1.0-source-release.zip"
+"org.apache.felix.http.jetty-5.1.2": [
+"felix/org.apache.felix.http.jetty-5.1.2-source-release.tar.gz",
+"felix/org.apache.felix.http.jetty-5.1.2-source-release.zip"
 ],
 "org.apache.felix.http.proxy-4.0.0": [
 "felix/org.apache.felix.http.proxy-4.0.0-source-release.tar.gz",
 "felix/org.apache.felix.http.proxy-4.0.0-source-release.zip"
 ],
-"org.apache.felix.http.servlet-api-2.1.0": [
-"felix/org.apache.felix.http.servlet-api-2.1.0-source-release.tar.gz",
-"felix/org.apache.felix.http.servlet-api-2.1.0-source-release.zip"
+"org.apache.felix.http.servlet-api-3.0.0": [
+"felix/org.apache.felix.http.servlet-api-3.0.0-source-release.tar.gz",
+"felix/org.apache.felix.http.servlet-api-3.0.0-source-release.zip"
 ],
 "org.apache.felix.http.sslfilter-2.0.2": [
 "felix/org.apache.felix.http.sslfilter-2.0.2-source-release.tar.gz",
@@ -2640,9 +2646,9 @@
 "felix/org.apache.felix.http.whiteboard-4.0.0-source-release.tar.gz",
 "felix/org.apache.felix.http.whiteboard-4.0.0-source-release.zip"
 ],
-"org.apache.felix.http.wrappers-1.1.0": [
-"felix/org.apache.felix.http.wrappers-1.1.0-source-release.tar.gz",
-"felix/org.apache.felix.http.wrappers-1.1.0-source-release.zip"
+"org.apache.felix.http.wrappers-1.1.2": [
+"felix/org.apache.felix.http.wrappers-1.1.2-source-release.tar.gz",
+"felix/org.apache.felix.http.wrappers-1.1.2-source-release.zip"
 ],
 "org.apache.felix.httplite.complete-0.1.4": [
 "felix/org.apache.felix.httplite.complete-0.1.4-source-release.tar.gz",
@@ -3831,6 +3837,9 @@
 ],
 "apache-impala-4.2.0": [
 "impala/4.2.0/apache-impala-4.2.0.tar.gz"
+],
+"apache-impala-4.3.0": [
+"impala/4.3.0/apache-impala-4.3.0.tar.gz"
 ]
 },
 "incubator-annotator": {
@@ -4972,8 +4981,8 @@
 "maven-archiver-3.6.1": [
 "maven/shared/maven-archiver-3.6.1-source-release.zip"
 ],
-"maven-artifact-plugin-3.4.1": [
-"maven/plugins/maven-artifact-plugin-3.4.1-source-release.zip"
+"maven-artifact-plugin-3.5.0": [
+"maven/plugins/maven-artifact-plugin-3.5.0-source-release.zip"
 ],
 "maven-artifact-transfer-0.13.1": [
 "maven/shared/maven-artifact-transfer-0.13.1-source-release.zip"
@@ -8016,9 +8025,9 @@
 "syncope/2.1.14/syncope-2.1.14-source-release.zip",
 "syncope/2.1.14/syncope-standalone-2.1.14-distribution.zip"
 ],
-"syncope-3.0.4": [
-"syncope/3.0.4/syncope-3.0.4-source-release.zip",
-"syncope/3.0.4/syncope-standalone-3.0.4-distribution.zip"
+"syncope-3.0.5": [
+"syncope/3.0.5/syncope-3.0.5-source-release.zip",
+"syncope/3.0.5/syncope-standalone-3.0.5-distribution.zip"
 ],
 "syncope-client-cli-2.1.14": [
 "syncope/2.1.14/syncope-client-cli-2.1.14.zip"
@@ -8155,6 +8164,10 @@
 "tomcat-native-2.0.5": [
 "tomcat/tomcat-connectors/native/2.0.5/source/tomcat-native-2.0.5-src.tar.gz",
 "tomcat/tomcat-connectors/native/2.0.5/source/tomcat-native-2.0.5-win32-src.zip"
+],
+"tomcat-native-2.0.6": [
+"tomcat/tomcat-connectors/native/2.0.6/source/tomcat-native-2.0.6-src.tar.gz",
+"tomcat/tomcat-connectors/native/2.0.6/source/tomcat-native-2.0.6-win32-src.zip"
 ]
 },
 "tomee": {

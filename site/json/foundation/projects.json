@@ -988,22 +988,22 @@
 },
 "arrow": {
 "bug-database": "https://github.com/apache/arrow/issues",
-"category": "library, big-data",
+"category": "big-data, database, data-engineering, library, network-client, network-server",
 "created": "2016-02-17",
-"description": "Apache Arrow is a cross-language development platform for in-memory data.",
+"description": "Apache Arrow defines a language-independent columnar memory format for flat and hierarchical data, organized for efficient analytic operations on modern hardware like CPUs and GPUs. The Arrow memory format also supports zero-copy reads for lightning-fast data access without serialization overhead.\n\nArrow's libraries implement the format and provide building blocks for a range of use cases, including high performance analytics. Many popular projects use Arrow to ship columnar data efficiently or as the basis for analytic engines.\n\nLibraries are available for C, C++, C#, Go, Java, JavaScript, Julia, MATLAB, Python, R, Ruby, and Rust.\n\nApache Arrow is software created by and for the developer community. We are dedicated to open, kind communication and consensus decision making. Our committers come from a range of organizations and backgrounds, and we welcome all to participate with us.",
 "doap": "https://arrow.apache.org/arrow.rdf",
 "download-page": "http://arrow.apache.org/release/",
-"homepage": "http://arrow.apache.org/",
-"license": "http://usefulinc.com/doap/licenses/asl20",
+"homepage": "https://arrow.apache.org",
+"license": "https://spdx.org/licenses/Apache-2.0",
 "mailing-list": "http://mail-archives.apache.org/mod_mbox/arrow-dev/",
-"name": "Apache arrow",
+"name": "Apache Arrow",
 "pmc": "arrow",
 "programming-language": "C, C++, C#, Go, Java, JavaScript, Julia, MATLAB, Python, R, Ruby, Rust",
 "release": [
 {
-"created": "2022-10-31",
+"created": "2023-08-23",
 "name": "Apache Arrow",
-"revision": "10.0.0"
+"revision": "13.0.0"
 }
 ],
 "repository": [
@@ -1911,6 +1911,30 @@
 ],
 "shortdesc": "\n      Aggregated multi-channel documentation framework, separation of concerns.\n    "
 },
+"attic-giraph": {
+"bug-database": "https://issues.apache.org/jira/browse/GIRAPH",
+"category": "retired, big-data",
+"created": "2014-06-30",
+"description": "Apache Giraph is an iterative graph processing system built for high scalability. For example, it is currently used at Facebook to analyze the social graph formed by users and their connections. ",
+"doap": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/giraph.rdf",
+"download-page": "http://www.apache.org/dyn/closer.cgi/giraph",
+"homepage": "http://giraph.apache.org",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "http://giraph.apache.org/mail-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:aching@apache.org",
+"name": "Avery Ching"
+}
+],
+"name": "Apache Giraph",
+"pmc": "attic",
+"programming-language": "Java",
+"repository": [
+"https://gitbox.apache.org/repos/asf/giraph.git"
+],
+"shortdesc": "Apache Giraph is an iterative graph processing system built for high scalability. "
+},
 "attic-hama": {
 "bug-database": "https://issues.apache.org/jira/browse/HAMA",
 "category": "retired, big-data",
@@ -2415,6 +2439,37 @@
 ],
 "shortdesc": "Apache MRUnit is a Java library that helps developers unit test Apache Hadoop map reduce jobs.",
 "vendor": "The Apache Software Foundation"
+},
+"attic-mxnet": {
+"bug-database": "https://github.com/apache/mxnet/labels/Bug",
+"category": "retired, big-data",
+"created": "2020-09-15",
+"description": "Apache MXNet is a deep learning framework designed for both efficiency and flexibility. It's lightweight, Portable, Flexible Distributed/Mobile Deep Learning with dynamic, mutation-aware data-flow dependency scheduler; for Python, R, Julia, Scala, Go, Javascript and more",
+"doap": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/mxnet.rdf",
+"download-page": "https://mxnet.apache.org/get_started/download",
+"homepage": "https://mxnet.apache.org",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://lists.apache.org/list.html?dev@mxnet.apache.org",
+"maintainer": [
+{
+"mbox": "mailto:dev@mxnet.apache.org",
+"name": "ApacheMXNet Contributors"
+}
+],
+"name": "Apache MXNet",
+"pmc": "attic",
+"programming-language": "C++",
+"release": [
+{
+"created": "2020-09-13",
+"name": "Apache MXNet (Incubating) 1.7.0",
+"revision": "1.7.0"
+}
+],
+"repository": [
+"https://github.com/apache/mxnet"
+],
+"shortdesc": "Apache MXNet is a deep learning framework designed for both efficiency and flexibility."
 },
 "attic-ode": {
 "bug-database": "https://issues.apache.org/jira/browse/ODE",
@@ -9198,30 +9253,6 @@
 ],
 "shortdesc": "Java EE Application Server"
 },
-"giraph": {
-"bug-database": "https://issues.apache.org/jira/browse/GIRAPH",
-"category": "big-data",
-"created": "2014-06-30",
-"description": "Apache Giraph is an iterative graph processing system built for high scalability. For example, it is currently used at Facebook to analyze the social graph formed by users and their connections. ",
-"doap": "http://giraph.apache.org/doap_Giraph.rdf",
-"download-page": "http://www.apache.org/dyn/closer.cgi/giraph",
-"homepage": "http://giraph.apache.org",
-"license": "http://spdx.org/licenses/Apache-2.0",
-"mailing-list": "http://giraph.apache.org/mail-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:aching@apache.org",
-"name": "Avery Ching"
-}
-],
-"name": "Apache Giraph",
-"pmc": "giraph",
-"programming-language": "Java",
-"repository": [
-"https://gitbox.apache.org/repos/asf/giraph.git"
-],
-"shortdesc": "Apache Giraph is an iterative graph processing system built for high scalability. "
-},
 "gobblin": {
 "bug-database": "https://issues.apache.org/jira/projects/GOBBLIN/issues",
 "category": "big-data",
@@ -9862,9 +9893,9 @@
 "programming-language": "Java, Scala",
 "release": [
 {
-"created": "2023-05-25",
-"name": "Apache Hudi 0.13.1",
-"revision": "0.13.1"
+"created": "2023-09-28",
+"name": "Apache Hudi 0.14.0",
+"revision": "0.14.0"
 }
 ],
 "repository": [
@@ -9943,37 +9974,6 @@
 "pmc": "incubator",
 "programming-language": "Python, Go, JavaScript, C",
 "shortdesc": "Core security infrastructure for decentralized networks."
-},
-"incubator-mxnet": {
-"bug-database": "https://github.com/apache/mxnet/labels/Bug",
-"category": "big-data",
-"created": "2020-09-15",
-"description": "Apache MXNet is a deep learning framework designed for both efficiency and flexibility. It's lightweight, Portable, Flexible Distributed/Mobile Deep Learning with dynamic, mutation-aware data-flow dependency scheduler; for Python, R, Julia, Scala, Go, Javascript and more",
-"doap": "https://gitbox.apache.org/repos/asf?p=mxnet.git;a=blob_plain;f=doap.rdf;hb=HEAD",
-"download-page": "https://mxnet.apache.org/get_started/download",
-"homepage": "https://mxnet.apache.org",
-"license": "https://spdx.org/licenses/Apache-2.0",
-"mailing-list": "https://lists.apache.org/list.html?dev@mxnet.apache.org",
-"maintainer": [
-{
-"mbox": "mailto:dev@mxnet.apache.org",
-"name": "ApacheMXNet Contributors"
-}
-],
-"name": "Apache MXNet",
-"pmc": "incubator",
-"programming-language": "C++",
-"release": [
-{
-"created": "2020-09-13",
-"name": "Apache MXNet (Incubating) 1.7.0",
-"revision": "1.7.0"
-}
-],
-"repository": [
-"https://github.com/apache/mxnet"
-],
-"shortdesc": "Apache MXNet is a deep learning framework designed for both efficiency and flexibility."
 },
 "inlong": {
 "bug-database": "https://github.com/apache/inlong/issues",
@@ -11448,6 +11448,11 @@
 "pmc": "lucene",
 "programming-language": "Java",
 "release": [
+{
+"created": "2023-09-28",
+"name": "lucene-9.8.0",
+"revision": "9.8.0"
+},
 {
 "created": "2023-06-25",
 "name": "lucene-9.7.0",
@@ -14763,6 +14768,11 @@
 "pmc": "poi",
 "programming-language": "Java",
 "release": [
+{
+"created": "2023-09-28",
+"name": "Apache POI 5.2.4",
+"revision": "5.2.4"
+},
 {
 "created": "2022-09-16",
 "name": "Apache POI 5.2.3",
