@@ -9938,6 +9938,31 @@
 ],
 "shortdesc": "Ingests and Manages storage of large analytical datasets"
 },
+"iceberg": {
+"bug-database": "https://github.com/apache/iceberg/issues",
+"category": "big-data, database, data-engineering",
+"created": "2023-09-14",
+"description": "Iceberg brings the reliability and simplicity of SQL tables to big data, while making it possible for engines like Spark, Trino, Flink, Presto, Hive and Impala to safely work with the same tables, at the same time.",
+"doap": "https://raw.githubusercontent.com/apache/iceberg/main/doap.rdf",
+"download-page": "https://iceberg.apache.org/releases/",
+"homepage": "https://iceberg.apache.org",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://iceberg.apache.org/community/",
+"name": "Apache Iceberg",
+"pmc": "iceberg",
+"programming-language": "Java, Python, Go, Rust",
+"release": [
+{
+"created": "2023-10-04",
+"name": "1.4.0",
+"revision": "1.4.0"
+}
+],
+"repository": [
+"https://github.com/apache/iceberg"
+],
+"shortdesc": "Iceberg is a high-performance format for huge analytic tables."
+},
 "ignite": {
 "bug-database": "https://issues.apache.org/jira/browse/IGNITE",
 "category": "big-data, sql, cloud, database, distributed-sql-database, data-management-platform, hadoop, network-server, network-client, osgi, iot",
