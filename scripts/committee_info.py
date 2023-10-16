@@ -70,7 +70,7 @@ def get_url_if_newer(url, folder, name):
         lastMod = response.headers['Last-Modified']
         lastModT = calendar.timegm(time.strptime(lastMod, HTTP_TIME_FORMAT))
         outFile = path + ".tmp"
-        with open(outFile,'wb', encoding='utf-8') as f:
+        with open(outFile,'wb') as f:
             f.write(response.read())
             f.close()
 
