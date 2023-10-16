@@ -450,7 +450,7 @@ function renderCommitteePage(committeeId) {
             pmcl.push(linkCommitterIndex(i));
         }
         if (pmcl.length > 0) {
-            appendLiInnerHTML(ul, "<b>PMC Roster <font size='-1'>(from committee-info.txt)</font> (" + pmcl.length + "):</b> <blockquote>" + pmcl.join(",&nbsp; ") + "</blockquote>");
+            appendLiInnerHTML(ul, "<b>PMC Roster <font size='-1'>(from committee-info.txt; updated daily)</font> (" + pmcl.length + "):</b> <blockquote>" + pmcl.join(",&nbsp; ") + "</blockquote>");
         } else {
             appendLiInnerHTML(ul, "<b>PMC Roster not found in committee-info.txt (check that Section 3 has been updated)</b>");
         }
@@ -463,7 +463,7 @@ function renderCommitteePage(committeeId) {
         for (i in commitgroup) {
             commitl.push(linkCommitterIndex(commitgroup[i]));
         }
-        appendLiInnerHTML(ul, "<b>Committers (" + commitgroup.length + "):</b> <blockquote>" + commitl.join(",&nbsp; ") + "</blockquote>");
+        appendLiInnerHTML(ul, "<b>Committers; updated daily (" + commitgroup.length + "):</b> <blockquote>" + commitl.join(",&nbsp; ") + "</blockquote>");
     }
 
     // rdf
