@@ -144,6 +144,9 @@
 "apache-airflow-client-2.7.0": [
 "airflow/clients/python/2.7.0/apache-airflow-client-2.7.0-source.tar.gz"
 ],
+"apache-airflow-client-2.7.2": [
+"airflow/clients/python/2.7.2/apache-airflow-client-2.7.2-source.tar.gz"
+],
 "apache-airflow-providers-airbyte-3.3.2": [
 "airflow/providers/apache-airflow-providers-airbyte-3.3.2.tar.gz"
 ],
@@ -4009,6 +4012,9 @@
 ],
 "apache-opendal-incubating-0.40.0": [
 "incubator/opendal/0.40.0/apache-opendal-incubating-0.40.0-src.tar.gz"
+],
+"apache-opendal-incubating-0.41.0": [
+"incubator/opendal/0.41.0/apache-opendal-incubating-0.41.0-src.tar.gz"
 ]
 },
 "incubator-paimon": {
@@ -4241,8 +4247,8 @@
 "jackrabbit-oak-1.4.26": [
 "jackrabbit/oak/1.4.26/jackrabbit-oak-1.4.26-src.zip"
 ],
-"jackrabbit-oak-1.56.0": [
-"jackrabbit/oak/1.56.0/jackrabbit-oak-1.56.0-src.zip"
+"jackrabbit-oak-1.58.0": [
+"jackrabbit/oak/1.58.0/jackrabbit-oak-1.58.0-src.zip"
 ],
 "jackrabbit-oak-1.6.23": [
 "jackrabbit/oak/1.6.23/jackrabbit-oak-1.6.23-src.zip"
@@ -4735,6 +4741,9 @@
 "apache-log4j-2.20.0": [
 "logging/log4j/2.20.0/apache-log4j-2.20.0-src.tar.gz",
 "logging/log4j/2.20.0/apache-log4j-2.20.0-src.zip"
+],
+"apache-log4j-2.21.0": [
+"logging/log4j/2.21.0/apache-log4j-2.21.0-src.zip"
 ],
 "apache-log4j-2.3.2": [
 "logging/log4j/2.3.2/apache-log4j-2.3.2-src.tar.gz",
@@ -6729,6 +6738,9 @@
 ],
 "apache-seatunnel-incubating-2.3.1": [
 "seatunnel/2.3.1/apache-seatunnel-incubating-2.3.1-src.tar.gz"
+],
+"apache-seatunnel-web-1.0.0": [
+"seatunnel/seatunnel-web/1.0.0/apache-seatunnel-web-1.0.0-src.tar.gz"
 ]
 },
 "sedona": {
@@ -7217,8 +7229,8 @@
 "org.apache.sling.engine-2.15.6": [
 "sling/org.apache.sling.engine-2.15.6-source-release.zip"
 ],
-"org.apache.sling.event-4.3.12": [
-"sling/org.apache.sling.event-4.3.12-source-release.zip"
+"org.apache.sling.event-4.3.14": [
+"sling/org.apache.sling.event-4.3.14-source-release.zip"
 ],
 "org.apache.sling.event.api-1.0.4": [
 "sling/org.apache.sling.event.api-1.0.4-source-release.zip"
@@ -7775,8 +7787,8 @@
 "org.apache.sling.testing.serversetup-1.0.4": [
 "sling/org.apache.sling.testing.serversetup-1.0.4-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock-3.4.12": [
-"sling/org.apache.sling.testing.sling-mock-3.4.12-source-release.zip"
+"org.apache.sling.testing.sling-mock-3.4.14": [
+"sling/org.apache.sling.testing.sling-mock-3.4.14-source-release.zip"
 ],
 "org.apache.sling.testing.sling-mock-jackrabbit-1.0.0": [
 "sling/org.apache.sling.testing.sling-mock-jackrabbit-1.0.0-source-release.zip"
@@ -7784,17 +7796,17 @@
 "org.apache.sling.testing.sling-mock-oak-3.1.10-1.44.0": [
 "sling/org.apache.sling.testing.sling-mock-oak-3.1.10-1.44.0-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.core-3.4.12": [
-"sling/org.apache.sling.testing.sling-mock.core-3.4.12-source-release.zip"
+"org.apache.sling.testing.sling-mock.core-3.4.14": [
+"sling/org.apache.sling.testing.sling-mock.core-3.4.14-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.junit4-3.4.12": [
-"sling/org.apache.sling.testing.sling-mock.junit4-3.4.12-source-release.zip"
+"org.apache.sling.testing.sling-mock.junit4-3.4.14": [
+"sling/org.apache.sling.testing.sling-mock.junit4-3.4.14-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.junit5-3.4.12": [
-"sling/org.apache.sling.testing.sling-mock.junit5-3.4.12-source-release.zip"
+"org.apache.sling.testing.sling-mock.junit5-3.4.14": [
+"sling/org.apache.sling.testing.sling-mock.junit5-3.4.14-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.parent-3.4.12": [
-"sling/org.apache.sling.testing.sling-mock.parent-3.4.12-source-release.zip"
+"org.apache.sling.testing.sling-mock.parent-3.4.14": [
+"sling/org.apache.sling.testing.sling-mock.parent-3.4.14-source-release.zip"
 ],
 "org.apache.sling.testing.tools-1.0.16": [
 "sling/org.apache.sling.testing.tools-1.0.16-source-release.zip"
@@ -8235,6 +8247,10 @@
 "tomcat/tomcat-10/v10.1.14/src/apache-tomcat-10.1.14-src.tar.gz",
 "tomcat/tomcat-10/v10.1.14/src/apache-tomcat-10.1.14-src.zip"
 ],
+"apache-tomcat-10.1.15": [
+"tomcat/tomcat-10/v10.1.15/src/apache-tomcat-10.1.15-src.tar.gz",
+"tomcat/tomcat-10/v10.1.15/src/apache-tomcat-10.1.15-src.zip"
+],
 "apache-tomcat-11.0.0-M13": [
 "tomcat/tomcat-11/v11.0.0-M13/src/apache-tomcat-11.0.0-M13-src.tar.gz",
 "tomcat/tomcat-11/v11.0.0-M13/src/apache-tomcat-11.0.0-M13-src.zip"
@@ -8242,6 +8258,10 @@
 "apache-tomcat-8.5.94": [
 "tomcat/tomcat-8/v8.5.94/src/apache-tomcat-8.5.94-src.tar.gz",
 "tomcat/tomcat-8/v8.5.94/src/apache-tomcat-8.5.94-src.zip"
+],
+"apache-tomcat-8.5.95": [
+"tomcat/tomcat-8/v8.5.95/src/apache-tomcat-8.5.95-src.tar.gz",
+"tomcat/tomcat-8/v8.5.95/src/apache-tomcat-8.5.95-src.zip"
 ],
 "apache-tomcat-9.0.82": [
 "tomcat/tomcat-9/v9.0.82/src/apache-tomcat-9.0.82-src.tar.gz",
@@ -8335,21 +8355,21 @@
 "tomee/tomee-8.0.15/apache-tomee-8.0.15-webprofile.tar.gz",
 "tomee/tomee-8.0.15/apache-tomee-8.0.15-webprofile.zip"
 ],
-"apache-tomee-9.1.0-microprofile": [
-"tomee/tomee-9.1.0/apache-tomee-9.1.0-microprofile.tar.gz",
-"tomee/tomee-9.1.0/apache-tomee-9.1.0-microprofile.zip"
+"apache-tomee-9.1.1-microprofile": [
+"tomee/tomee-9.1.1/apache-tomee-9.1.1-microprofile.tar.gz",
+"tomee/tomee-9.1.1/apache-tomee-9.1.1-microprofile.zip"
 ],
-"apache-tomee-9.1.0-plume": [
-"tomee/tomee-9.1.0/apache-tomee-9.1.0-plume.tar.gz",
-"tomee/tomee-9.1.0/apache-tomee-9.1.0-plume.zip"
+"apache-tomee-9.1.1-plume": [
+"tomee/tomee-9.1.1/apache-tomee-9.1.1-plume.tar.gz",
+"tomee/tomee-9.1.1/apache-tomee-9.1.1-plume.zip"
 ],
-"apache-tomee-9.1.0-plus": [
-"tomee/tomee-9.1.0/apache-tomee-9.1.0-plus.tar.gz",
-"tomee/tomee-9.1.0/apache-tomee-9.1.0-plus.zip"
+"apache-tomee-9.1.1-plus": [
+"tomee/tomee-9.1.1/apache-tomee-9.1.1-plus.tar.gz",
+"tomee/tomee-9.1.1/apache-tomee-9.1.1-plus.zip"
 ],
-"apache-tomee-9.1.0-webprofile": [
-"tomee/tomee-9.1.0/apache-tomee-9.1.0-webprofile.tar.gz",
-"tomee/tomee-9.1.0/apache-tomee-9.1.0-webprofile.zip"
+"apache-tomee-9.1.1-webprofile": [
+"tomee/tomee-9.1.1/apache-tomee-9.1.1-webprofile.tar.gz",
+"tomee/tomee-9.1.1/apache-tomee-9.1.1-webprofile.zip"
 ],
 "examples-4.7.5": [
 "tomee/tomee-1.7.5/examples-4.7.5-src.tar.gz",
@@ -8402,8 +8422,8 @@
 "tomee-8.0.15": [
 "tomee/tomee-8.0.15/tomee-project-8.0.15-source-release.zip"
 ],
-"tomee-9.1.0": [
-"tomee/tomee-9.1.0/tomee-project-9.1.0-source-release.zip"
+"tomee-9.1.1": [
+"tomee/tomee-9.1.1/tomee-project-9.1.1-source-release.zip"
 ],
 "tomee-patch-0.10": [
 "tomee/tomee-patch-plugin-0.10/tomee-patch-parent-0.10-source-release.zip"
@@ -8824,9 +8844,9 @@
 ]
 },
 "wicket": {
-"apache-wicket-10.0.0-M1": [
-"wicket/10.0.0-M1/apache-wicket-10.0.0-M1.tar.gz",
-"wicket/10.0.0-M1/apache-wicket-10.0.0-M1.zip"
+"apache-wicket-10.0.0-M2": [
+"wicket/10.0.0-M2/apache-wicket-10.0.0-M2.tar.gz",
+"wicket/10.0.0-M2/apache-wicket-10.0.0-M2.zip"
 ],
 "apache-wicket-6.30.0": [
 "wicket/6.30.0/apache-wicket-6.30.0.tar.gz",

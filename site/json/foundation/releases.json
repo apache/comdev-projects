@@ -50,6 +50,7 @@
 "apache-airflow-client-2.6.1": "2023-05-22",
 "apache-airflow-client-2.6.2": "2023-06-25",
 "apache-airflow-client-2.7.0": "2023-08-24",
+"apache-airflow-client-2.7.2": "2023-10-16",
 "apache-airflow-providers-airbyte-3.3.2": "2023-09-12",
 "apache-airflow-providers-alibaba-2.5.3": "2023-09-12",
 "apache-airflow-providers-amazon-8.7.1": "2023-09-18",
@@ -1335,7 +1336,8 @@
 "apache-opendal-incubating-0.38.0": "2023-06-28",
 "apache-opendal-incubating-0.38.1": "2023-07-15",
 "apache-opendal-incubating-0.39.0": "2023-07-31",
-"apache-opendal-incubating-0.40.0": "2023-09-18"
+"apache-opendal-incubating-0.40.0": "2023-09-18",
+"apache-opendal-incubating-0.41.0": "2023-10-08"
 },
 "incubator-paimon": {
 "apache-paimon-0.4.0-incubating": "2023-06-07",
@@ -1433,7 +1435,7 @@
 "jackrabbit-filevault-3.7.0": "2023-07-14",
 "jackrabbit-oak-1.22.17": "2023-09-12",
 "jackrabbit-oak-1.4.26": "2020-02-17",
-"jackrabbit-oak-1.56.0": "2023-08-29",
+"jackrabbit-oak-1.58.0": "2023-10-10",
 "jackrabbit-oak-1.6.23": "2022-03-11",
 "jackrabbit-oak-1.8.26": "2022-02-01",
 "jackrabbit-ocm-2.0.0": "2012-12-17"
@@ -1590,6 +1592,7 @@
 "apache-log4cxx-1.1.0": "2023-05-06",
 "apache-log4j-2.12.4": "2021-12-29",
 "apache-log4j-2.20.0": "2023-02-21",
+"apache-log4j-2.21.0": "2023-10-16",
 "apache-log4j-2.3.2": "2021-12-29",
 "apache-log4j-3.0.0-alpha1": "2023-06-21",
 "apache-log4j-api-kotlin-1.1.0": "2021-09-11",
@@ -2270,7 +2273,8 @@
 "apache-seatunnel-incubating-2.2.0-beta": "2022-09-26",
 "apache-seatunnel-incubating-2.3.0": "2022-12-23",
 "apache-seatunnel-incubating-2.3.0-beta": "2022-10-24",
-"apache-seatunnel-incubating-2.3.1": "2023-03-19"
+"apache-seatunnel-incubating-2.3.1": "2023-03-19",
+"apache-seatunnel-web-1.0.0": "2023-10-11"
 },
 "sedona": {
 "apache-sedona-1.2.1-incubating": "2022-08-30",
@@ -2446,7 +2450,7 @@
 "org.apache.sling.distribution.sample-0.1.6": "2016-02-08",
 "org.apache.sling.dynamic-include-3.3.0": "2022-01-14",
 "org.apache.sling.engine-2.15.6": "2023-08-21",
-"org.apache.sling.event-4.3.12": "2023-05-12",
+"org.apache.sling.event-4.3.14": "2023-10-16",
 "org.apache.sling.event.api-1.0.4": "2023-05-12",
 "org.apache.sling.event.dea-1.1.4": "2018-11-09",
 "org.apache.sling.extensions.classloader-leak-detector-1.0.0": "2014-05-23",
@@ -2629,13 +2633,13 @@
 "org.apache.sling.testing.samples.integrationtests-1.0.6": "2013-01-21",
 "org.apache.sling.testing.samples.sampletests-1.0.6": "2013-01-21",
 "org.apache.sling.testing.serversetup-1.0.4": "2020-10-15",
-"org.apache.sling.testing.sling-mock-3.4.12": "2023-08-21",
+"org.apache.sling.testing.sling-mock-3.4.14": "2023-10-16",
 "org.apache.sling.testing.sling-mock-jackrabbit-1.0.0": "2015-10-12",
 "org.apache.sling.testing.sling-mock-oak-3.1.10-1.44.0": "2023-05-19",
-"org.apache.sling.testing.sling-mock.core-3.4.12": "2023-08-21",
-"org.apache.sling.testing.sling-mock.junit4-3.4.12": "2023-08-21",
-"org.apache.sling.testing.sling-mock.junit5-3.4.12": "2023-08-21",
-"org.apache.sling.testing.sling-mock.parent-3.4.12": "2023-08-21",
+"org.apache.sling.testing.sling-mock.core-3.4.14": "2023-10-16",
+"org.apache.sling.testing.sling-mock.junit4-3.4.14": "2023-10-16",
+"org.apache.sling.testing.sling-mock.junit5-3.4.14": "2023-10-16",
+"org.apache.sling.testing.sling-mock.parent-3.4.14": "2023-10-16",
 "org.apache.sling.testing.tools-1.0.16": "2017-05-11",
 "org.apache.sling.thumbnails-1.0.0": "2021-08-31",
 "org.apache.sling.tooling.support.install-1.1.0": "2022-11-28",
@@ -2791,8 +2795,10 @@
 },
 "tomcat": {
 "apache-tomcat-10.1.14": "2023-10-09",
+"apache-tomcat-10.1.15": "2023-10-12",
 "apache-tomcat-11.0.0-M13": "2023-10-11",
 "apache-tomcat-8.5.94": "2023-10-09",
+"apache-tomcat-8.5.95": "2023-10-12",
 "apache-tomcat-9.0.82": "2023-10-11",
 "jakartaee-migration-1.0.7": "2023-04-26",
 "taglibs-standard-1.2.5": "2015-03-10",
@@ -2818,10 +2824,10 @@
 "apache-tomee-8.0.15-plume": "2023-05-16",
 "apache-tomee-8.0.15-plus": "2023-05-16",
 "apache-tomee-8.0.15-webprofile": "2023-05-16",
-"apache-tomee-9.1.0-microprofile": "2023-06-12",
-"apache-tomee-9.1.0-plume": "2023-06-12",
-"apache-tomee-9.1.0-plus": "2023-06-12",
-"apache-tomee-9.1.0-webprofile": "2023-06-12",
+"apache-tomee-9.1.1-microprofile": "2023-10-16",
+"apache-tomee-9.1.1-plume": "2023-10-16",
+"apache-tomee-9.1.1-plus": "2023-10-16",
+"apache-tomee-9.1.1-webprofile": "2023-10-16",
 "examples-4.7.5": "2017-10-24",
 "examples-7.0.9": "2020-08-05",
 "examples-7.1.4": "2020-08-05",
@@ -2836,7 +2842,7 @@
 "tomee-7.0.9": "2020-08-05",
 "tomee-7.1.4": "2020-08-05",
 "tomee-8.0.15": "2023-05-16",
-"tomee-9.1.0": "2023-06-12",
+"tomee-9.1.1": "2023-10-16",
 "tomee-patch-0.10": "2023-01-10"
 },
 "trafficcontrol": {
@@ -2973,7 +2979,7 @@
 "velocity-engine-examples-2.3": "2021-03-07"
 },
 "wicket": {
-"apache-wicket-10.0.0-M1": "2023-06-12",
+"apache-wicket-10.0.0-M2": "2023-10-12",
 "apache-wicket-6.30.0": "2018-12-05",
 "apache-wicket-7.18.0": "2021-04-02",
 "apache-wicket-8.15.0": "2023-04-26",
