@@ -53,7 +53,7 @@
 "apache-airflow-client-2.7.2": "2023-10-16",
 "apache-airflow-providers-airbyte-3.4.0": "2023-10-17",
 "apache-airflow-providers-alibaba-2.6.0": "2023-10-17",
-"apache-airflow-providers-amazon-8.8.0": "2023-10-17",
+"apache-airflow-providers-amazon-8.9.0": "2023-10-21",
 "apache-airflow-providers-apache-beam-5.3.0": "2023-10-17",
 "apache-airflow-providers-apache-cassandra-3.3.0": "2023-10-17",
 "apache-airflow-providers-apache-drill-2.5.0": "2023-10-17",
@@ -73,7 +73,7 @@
 "apache-airflow-providers-arangodb-2.3.0": "2023-10-17",
 "apache-airflow-providers-asana-2.3.0": "2023-10-17",
 "apache-airflow-providers-atlassian-jira-2.2.0": "2023-10-17",
-"apache-airflow-providers-celery-3.4.0": "2023-10-17",
+"apache-airflow-providers-celery-3.4.1": "2023-10-21",
 "apache-airflow-providers-cloudant-3.3.0": "2023-10-17",
 "apache-airflow-providers-cncf-kubernetes-7.7.0": "2023-10-17",
 "apache-airflow-providers-common-sql-1.8.0": "2023-10-17",
@@ -89,7 +89,7 @@
 "apache-airflow-providers-facebook-3.3.0": "2023-10-17",
 "apache-airflow-providers-ftp-3.6.0": "2023-10-17",
 "apache-airflow-providers-github-2.4.0": "2023-10-17",
-"apache-airflow-providers-google-10.10.0": "2023-10-17",
+"apache-airflow-providers-google-10.10.1": "2023-10-21",
 "apache-airflow-providers-grpc-3.3.0": "2023-10-17",
 "apache-airflow-providers-hashicorp-3.5.0": "2023-10-17",
 "apache-airflow-providers-http-4.6.0": "2023-10-17",
@@ -108,12 +108,13 @@
 "apache-airflow-providers-odbc-4.1.0": "2023-10-17",
 "apache-airflow-providers-openfaas-3.3.0": "2023-10-17",
 "apache-airflow-providers-openlineage-1.1.1": "2023-10-17",
+"apache-airflow-providers-opensearch-1.0.0": "2023-10-21",
 "apache-airflow-providers-opsgenie-5.2.0": "2023-10-17",
 "apache-airflow-providers-oracle-3.8.0": "2023-10-17",
 "apache-airflow-providers-pagerduty-3.4.0": "2023-10-17",
 "apache-airflow-providers-papermill-3.4.0": "2023-10-17",
 "apache-airflow-providers-plexus-3.3.0": "2023-10-17",
-"apache-airflow-providers-postgres-5.7.0": "2023-10-17",
+"apache-airflow-providers-postgres-5.7.1": "2023-10-21",
 "apache-airflow-providers-presto-5.2.0": "2023-10-17",
 "apache-airflow-providers-qubole-3.4.2": "2023-08-14",
 "apache-airflow-providers-redis-3.4.0": "2023-10-17",
@@ -1135,6 +1136,7 @@
 "hbase": {
 "hbase-2.4.17": "2023-03-31",
 "hbase-2.5.5": "2023-06-02",
+"hbase-2.5.6": "2023-10-15",
 "hbase-3.0.0-alpha-4": "2023-06-07",
 "hbase-connectors-1.0.0": "2019-05-03",
 "hbase-filesystem-1.0.0-alpha1": "2019-06-06",
@@ -2035,7 +2037,7 @@
 "perl": {
 "apxs_win32": "2019-07-03",
 "mod_perl-1.31": "2013-11-22",
-"mod_perl-2.0.12": "2022-01-30"
+"mod_perl-2.0.13": "2023-10-21"
 },
 "phoenix": {
 "phoenix-4.16.1": "2021-05-15",
@@ -2300,9 +2302,8 @@
 "apache-servicemix-7.0.1": "2017-05-26"
 },
 "shardingsphere": {
-"apache-shardingsphere-5.4.0": "2023-07-04",
+"apache-shardingsphere-5.4.1": "2023-10-17",
 "apache-shardingsphere-elasticjob-3.0.2-ui": "2022-10-26",
-"apache-shardingsphere-elasticjob-3.0.3": "2023-03-21",
 "apache-shardingsphere-elasticjob-3.0.4": "2023-10-14"
 },
 "shenyu": {
