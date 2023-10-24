@@ -267,7 +267,7 @@
 "apache-arrow-nanoarrow-0.2.0": "2023-06-19",
 "apache-arrow-nanoarrow-0.3.0": "2023-09-26",
 "apache-arrow-object-store-rs-0.7.1": "2023-09-29",
-"apache-arrow-rs-47.0.0": "2023-09-22"
+"apache-arrow-rs-48.0.0": "2023-10-23"
 },
 "asterixdb": {
 "apache-asterixdb-0.9.6": "2020-10-14",
@@ -445,6 +445,7 @@
 "camel-k-sources-1.9.2": "2022-05-17",
 "camel-k-sources-2.0.0": "2023-07-17",
 "camel-k-sources-2.0.1": "2023-08-30",
+"camel-k-sources-2.1.0": "2023-10-16",
 "camel-kafka-connector-1.0.0": "2022-01-24",
 "camel-kafka-connector-3.18.1": "2022-09-19",
 "camel-kafka-connector-3.18.2": "2022-10-21",
@@ -1068,7 +1069,7 @@
 "geronimo-openapi-1.0.15": "2022-03-08",
 "geronimo-opentracing-1.0.3": "2022-03-08",
 "geronimo-security_1.0_spec-1.0": "2019-09-11",
-"geronimo-txmanager-3.1.5": "2022-03-08",
+"geronimo-txmanager-4.0.0": "2023-10-23",
 "geronimo-validation_2.0_spec-1.0": "2018-10-04",
 "safeguard-1.2.1": "2019-02-28",
 "xbean-4.24": "2023-10-17"
@@ -1241,6 +1242,7 @@
 "apache-iceberg-1.3.0": "2023-05-30",
 "apache-iceberg-1.3.1": "2023-07-25",
 "apache-iceberg-1.4.0": "2023-10-04",
+"apache-iceberg-1.4.1": "2023-10-23",
 "pyiceberg-0.1.0": "2022-10-17"
 },
 "ignite": {
@@ -1286,9 +1288,6 @@
 "apache-celeborn-0.2.1-incubating": "2023-03-17",
 "apache-celeborn-0.3.0-incubating": "2023-07-18",
 "apache-celeborn-0.3.1-incubating": "2023-09-28"
-},
-"incubator-datalab": {
-"apache-datalab-2.6.0-incubating": "2022-11-30"
 },
 "incubator-devlake": {
 "apache-devlake-0.18.0-incubating": "2023-09-01"
@@ -1352,6 +1351,7 @@
 "apache-pekko-connectors-1.0.0-incubating-20230828": "2023-08-27",
 "apache-pekko-connectors-kafka-1.0.0-incubating-20230726": "2023-07-26",
 "apache-pekko-grpc-1.0.0-incubating-20230812": "2023-08-12",
+"apache-pekko-grpc-1.0.1-incubating-20231005": "2023-10-05",
 "apache-pekko-http-1.0.0-incubating-20230726": "2023-08-01",
 "apache-pekko-management-1.0.0-incubating-20230805": "2023-08-05",
 "apache-pekko-persistence-cassandra-1.0.0-incubating-20230916": "2023-09-16",
@@ -1683,7 +1683,7 @@
 "doxia-sitetools-2.0.0-M13": "2023-10-17",
 "enforcer-3.4.1": "2023-09-10",
 "file-management-3.1.0": "2022-07-01",
-"jxr-3.3.0": "2022-08-19",
+"jxr-3.3.1": "2023-10-23",
 "maven-40": "2023-06-15",
 "maven-acr-plugin-3.1.0": "2018-06-23",
 "maven-antrun-plugin-3.1.0": "2022-04-21",
@@ -1701,7 +1701,7 @@
 "maven-compiler-plugin-3.11.0": "2023-02-27",
 "maven-default-skin-1.3": "2019-07-31",
 "maven-dependency-analyzer-1.13.2": "2023-05-05",
-"maven-dependency-plugin-3.6.0": "2023-05-22",
+"maven-dependency-plugin-3.6.1": "2023-10-23",
 "maven-dependency-tree-3.2.1": "2022-11-29",
 "maven-deploy-plugin-3.1.1": "2023-03-24",
 "maven-doap-plugin-1.2": "2015-03-16",
@@ -1762,7 +1762,7 @@
 "maven-verifier-plugin-1.1": "2015-04-14",
 "maven-war-plugin-3.4.0": "2023-06-15",
 "maven-wrapper-3.2.0": "2023-03-12",
-"surefire-3.1.2": "2023-06-06",
+"surefire-3.2.1": "2023-10-23",
 "wagon-3.5.3": "2022-12-22"
 },
 "mesos": {
@@ -2331,6 +2331,7 @@
 "apache-skywalking-banyandb-java-client-0.5.0": "2023-09-25",
 "apache-skywalking-go-0.1.0": "2023-06-04",
 "apache-skywalking-go-0.2.0": "2023-07-31",
+"apache-skywalking-go-0.3.0": "2023-10-18",
 "apache-skywalking-java-agent-9.0.0": "2023-08-29",
 "apache-skywalking-rover-0.3.0": "2022-09-07",
 "apache-skywalking-rover-0.4.0": "2022-12-09",
@@ -2339,7 +2340,7 @@
 "apache-skywalking-satellite-1.0.1": "2022-07-06",
 "apache-skywalking-satellite-1.1.0": "2022-12-30",
 "apache-skywalking-satellite-1.2.0": "2023-06-19",
-"skywalking-banyandb-0.4.0": "2023-06-29",
+"skywalking-banyandb-0.5.0": "2023-10-17",
 "skywalking-banyandb-helm-0.1.0": "2023-09-22",
 "skywalking-cli-0.11.0": "2022-09-17",
 "skywalking-cli-0.12.0": "2023-06-20",
