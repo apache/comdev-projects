@@ -283,6 +283,7 @@ files = []
 unreportedError = False # any errors not yet mailed?
 for s in itemlist :
     url = s.childNodes[0].data
+    projectid = getPMCfromURL(url) # default id for emails
     # init variables here to avoid stale contents if read or parsing fails
     rdf = None
     prname = None
@@ -326,7 +327,6 @@ for s in itemlist :
         else:
             printMail("WARN: no homepage defined in %s, pmc = %s" % (url, pjson['pmc']))
 
-        projectid = getPMCfromURL(url) # default id for emails
         if not 'pmc' in pjson:
             printMail("WARN: no asfext:pmc in %s" % url, project=projectid)
         else:
@@ -418,7 +418,7 @@ for s in itemlist :
             urlname = urlname.split(';')[0] # trim any trailing qualifiers
             urlname = join(FAILURES_DIR, urlname)
             print("Saving invalid data in %s " % urlname)
-            with open (urlname, "wb", encoding='utf-8') as f:
+            with open (urlname, "wb") as f:
                 f.write(rdf)
                 f.close()
 
