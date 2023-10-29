@@ -13479,10 +13479,10 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2023-09-01",
-"file-release": "https://archive.apache.org/dist/netbeans/netbeans/19/netbeans-19-bin.zip",
-"name": "Apache NetBeans 19",
-"revision": "19"
+"created": "2022-01-20",
+"file-release": "https://archive.apache.org/dist/netbeans/netbeans/13/netbeans-13-bin.zip",
+"name": "Apache NetBeans 13",
+"revision": "13"
 }
 ],
 "repository": [
@@ -15312,6 +15312,28 @@
 "https://svn.apache.org/repos/asf/roller/"
 ],
 "shortdesc": "Apache Roller is a full-featured, multi-user and group blog server suitable for blog sites large and small."
+},
+"royale": {
+"bug-database": "https://github.com/apache/royale-asjs/issues",
+"category": "web-framework",
+"created": "2023-09-05",
+"description": "Apache Royale implements the principles of Apache Flex to support development of applications designed for JavaScript instead of Adobe Flash/AIR runtimes. Apache Royale improves developer productivity in creating applications to run wherever JavaScript runs, including on browsers, in Apache Cordova applications, on Node, and on other platforms.",
+"doap": "https://raw.githubusercontent.com/apache/royale-asjs/develop/doap_Royale.rdf",
+"download-page": "https://royale.apache.org/download/",
+"homepage": "https://royale.apache.org",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://royale.apache.org/mailing-lists/",
+"name": "Apache Royale",
+"pmc": "royale",
+"programming-language": "ActionScript",
+"release": [
+{
+"created": "2023-06-05",
+"name": "Apache Royale",
+"revision": "0.9.10"
+}
+],
+"shortdesc": "Compiles programs written in ActionScript and MXML into JavaScript and HTML that can run wherever JavaScript runs."
 },
 "samza": {
 "bug-database": "https://issues.apache.org/jira/browse/SAMZA",
