@@ -1160,8 +1160,8 @@
 "apache-camel-3.20.7": [
 "camel/apache-camel/3.20.7/apache-camel-3.20.7-src.zip"
 ],
-"apache-camel-3.21.0": [
-"camel/apache-camel/3.21.0/apache-camel-3.21.0-src.zip"
+"apache-camel-3.21.2": [
+"camel/apache-camel/3.21.2/apache-camel-3.21.2-src.zip"
 ],
 "apache-camel-4.0.2": [
 "camel/apache-camel/4.0.2/apache-camel-4.0.2-src.zip"
@@ -1372,6 +1372,9 @@
 ],
 "camel-kamelets-sources-4.0.1": [
 "camel/camel-kamelets/4.0.1/camel-kamelets-sources-4.0.1.tar.gz"
+],
+"camel-kamelets-sources-4.1.0": [
+"camel/camel-kamelets/4.1.0/camel-kamelets-sources-4.1.0.tar.gz"
 ],
 "camel-karavan-3.20.1": [
 "camel/camel-karavan/3.20.1/camel-karavan-3.20.1.zip"
@@ -3060,6 +3063,9 @@
 "flink-connector-kafka-3.0.0": [
 "flink/flink-connector-kafka-3.0.0/flink-connector-kafka-3.0.0-src.tgz"
 ],
+"flink-connector-kafka-3.0.1": [
+"flink/flink-connector-kafka-3.0.1/flink-connector-kafka-3.0.1-src.tgz"
+],
 "flink-connector-mongodb-1.0.2": [
 "flink/flink-connector-mongodb-1.0.2/flink-connector-mongodb-1.0.2-src.tgz"
 ],
@@ -3290,32 +3296,6 @@
 ],
 "xbean-4.24": [
 "geronimo/xbean/xbean-4.24-source-release.zip"
-]
-},
-"giraph": {
-"giraph-1.0.0": [
-"giraph/giraph-1.0.0/giraph-1.0.0.tar.gz"
-],
-"giraph-dist-1.1.0": [
-"giraph/giraph-1.1.0/giraph-dist-1.1.0-src.tar.bz2",
-"giraph/giraph-1.1.0/giraph-dist-1.1.0-src.tar.gz",
-"giraph/giraph-1.1.0/giraph-dist-1.1.0-src.zip"
-],
-"giraph-dist-1.2.0": [
-"giraph/giraph-1.2.0/giraph-dist-1.2.0-hadoop2-src.tar.bz2",
-"giraph/giraph-1.2.0/giraph-dist-1.2.0-hadoop2-src.tar.gz",
-"giraph/giraph-1.2.0/giraph-dist-1.2.0-hadoop2-src.zip",
-"giraph/giraph-1.2.0/giraph-dist-1.2.0-src.tar.bz2",
-"giraph/giraph-1.2.0/giraph-dist-1.2.0-src.tar.gz",
-"giraph/giraph-1.2.0/giraph-dist-1.2.0-src.zip"
-],
-"giraph-dist-1.3.0": [
-"giraph/giraph-1.3.0/giraph-dist-1.3.0-hadoop1-src.tar.bz2",
-"giraph/giraph-1.3.0/giraph-dist-1.3.0-hadoop1-src.tar.gz",
-"giraph/giraph-1.3.0/giraph-dist-1.3.0-hadoop1-src.zip",
-"giraph/giraph-1.3.0/giraph-dist-1.3.0-hadoop2-src.tar.bz2",
-"giraph/giraph-1.3.0/giraph-dist-1.3.0-hadoop2-src.tar.gz",
-"giraph/giraph-1.3.0/giraph-dist-1.3.0-hadoop2-src.zip"
 ]
 },
 "gobblin": {
@@ -4073,6 +4053,9 @@
 ],
 "apache-pekko-persistence-jdbc-1.0.0-incubating-20230829": [
 "incubator/pekko/PERSISTENCE-JDBC-1.0.0/apache-pekko-persistence-jdbc-1.0.0-incubating-src-20230829.tgz"
+],
+"apache-pekko-projection-1.0.0-incubating-20231012": [
+"incubator/pekko/PROJECTION-1.0.0/apache-pekko-projection-1.0.0-incubating-src-20231012.tgz"
 ],
 "apache-pekko-sbt-paradox-1.0.0-incubating-20230819": [
 "incubator/pekko/SBT-PARADOX-1.0.0/apache-pekko-sbt-paradox-1.0.0-incubating-src-20230819.tgz"
@@ -6460,29 +6443,17 @@
 "apache-qpid-broker-j-9.1.0": [
 "qpid/broker-j/9.1.0/apache-qpid-broker-j-9.1.0-src.tar.gz"
 ],
-"apache-qpid-jms-1.10.0": [
-"qpid/jms/1.10.0/apache-qpid-jms-1.10.0-src.tar.gz"
+"apache-qpid-jms-1.11.0": [
+"qpid/jms/1.11.0/apache-qpid-jms-1.11.0-src.tar.gz"
 ],
-"apache-qpid-jms-1.9.0": [
-"qpid/jms/1.9.0/apache-qpid-jms-1.9.0-src.tar.gz"
-],
-"apache-qpid-jms-2.3.0": [
-"qpid/jms/2.3.0/apache-qpid-jms-2.3.0-src.tar.gz"
-],
-"apache-qpid-jms-2.4.0": [
-"qpid/jms/2.4.0/apache-qpid-jms-2.4.0-src.tar.gz"
+"apache-qpid-jms-2.5.0": [
+"qpid/jms/2.5.0/apache-qpid-jms-2.5.0-src.tar.gz"
 ],
 "apache-qpid-jms-amqp-0-x-6.4.0": [
 "qpid/jms-amqp-0-x/6.4.0/apache-qpid-jms-amqp-0-x-6.4.0-src.tar.gz"
 ],
 "apache-qpid-proton-j-0.34.1": [
 "qpid/proton-j/0.34.1/apache-qpid-proton-j-0.34.1-src.tar.gz"
-],
-"apache-qpid-protonj2-1.0.0-M15": [
-"qpid/protonj2/1.0.0-M15/apache-qpid-protonj2-1.0.0-M15-src.tar.gz"
-],
-"apache-qpid-protonj2-1.0.0-M16": [
-"qpid/protonj2/1.0.0-M16/apache-qpid-protonj2-1.0.0-M16-src.tar.gz"
 ],
 "apache-qpid-protonj2-1.0.0-M17": [
 "qpid/protonj2/1.0.0-M17/apache-qpid-protonj2-1.0.0-M17-src.tar.gz"
