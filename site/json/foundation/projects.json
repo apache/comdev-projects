@@ -10961,6 +10961,36 @@
 ],
 "shortdesc": "Columnar storage manager"
 },
+"kylin": {
+"bug-database": "https://issues.apache.org/jira/projects/KYLIN/issues",
+"category": "big-data",
+"created": "2023-10-31",
+"description": "Apache Kylin is an open source, distributed Analytical Data Warehouse for Big Data; it was designed to provide OLAP (Online Analytical Processing) capability in the big data era. By renovating the multi-dimensional cube and precalculation technology on Hadoop and Spark, Kylin is able to achieve near constant query speed regardless of the ever-growing data volume. Reducing query latency from minutes to sub-second, Kylin brings online analytics back to big data.",
+"doap": "https://raw.githubusercontent.com/apache/kylin/document/website/doap_Kylin.rdf",
+"download-page": "https://kylin.apache.org/download/",
+"homepage": "https://kylin.apache.org",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://kylin.apache.org/community/",
+"name": "Apache Kylin",
+"pmc": "kylin",
+"programming-language": "Java, Scala",
+"release": [
+{
+"created": "2022-12-22",
+"name": "Kylin 4.0.3",
+"revision": "4.0.3"
+},
+{
+"created": "2023-08-30",
+"name": "Kylin 5.0.0-beta",
+"revision": "5.0.0-beta"
+}
+],
+"repository": [
+"https://github.com/apache/kylin"
+],
+"shortdesc": "Apache Kylin is an open source, distributed Analytical Data Warehouse for Big Data."
+},
 "libcloud": {
 "bug-database": "https://issues.apache.org/jira/browse/LIBCLOUD",
 "category": "cloud, library",
