@@ -1085,6 +1085,9 @@
 ],
 "apache-brpc-1.6.1": [
 "brpc/1.6.1/apache-brpc-1.6.1-src.tar.gz"
+],
+"apache-brpc-1.7.0": [
+"brpc/1.7.0/apache-brpc-1.7.0-src.tar.gz"
 ]
 },
 "buildstream": {
@@ -3776,6 +3779,9 @@
 "apache-iceberg-1.4.1": [
 "iceberg/apache-iceberg-1.4.1/apache-iceberg-1.4.1.tar.gz"
 ],
+"apache-iceberg-1.4.2": [
+"iceberg/apache-iceberg-1.4.2/apache-iceberg-1.4.2.tar.gz"
+],
 "pyiceberg-0.1.0": [
 "iceberg/pyiceberg-0.1.0/pyiceberg-0.1.0.tar.gz"
 ]
@@ -5192,8 +5198,8 @@
 "maven-plugin-tools-3.10.1": [
 "maven/plugin-tools/maven-plugin-tools-3.10.1-source-release.zip"
 ],
-"maven-pmd-plugin-3.21.0": [
-"maven/plugins/maven-pmd-plugin-3.21.0-source-release.zip"
+"maven-pmd-plugin-3.21.2": [
+"maven/plugins/maven-pmd-plugin-3.21.2-source-release.zip"
 ],
 "maven-rar-plugin-3.0.0": [
 "maven/plugins/maven-rar-plugin-3.0.0-source-release.zip"
@@ -8295,65 +8301,21 @@
 ]
 },
 "tomee": {
-"apache-tomee-1.7.5-jaxrs": [
-"tomee/tomee-1.7.5/apache-tomee-1.7.5-jaxrs.tar.gz",
-"tomee/tomee-1.7.5/apache-tomee-1.7.5-jaxrs.zip"
+"apache-tomee-8.0.16-microprofile": [
+"tomee/tomee-8.0.16/apache-tomee-8.0.16-microprofile.tar.gz",
+"tomee/tomee-8.0.16/apache-tomee-8.0.16-microprofile.zip"
 ],
-"apache-tomee-1.7.5-plume": [
-"tomee/tomee-1.7.5/apache-tomee-1.7.5-plume.tar.gz",
-"tomee/tomee-1.7.5/apache-tomee-1.7.5-plume.zip"
+"apache-tomee-8.0.16-plume": [
+"tomee/tomee-8.0.16/apache-tomee-8.0.16-plume.tar.gz",
+"tomee/tomee-8.0.16/apache-tomee-8.0.16-plume.zip"
 ],
-"apache-tomee-1.7.5-plus": [
-"tomee/tomee-1.7.5/apache-tomee-1.7.5-plus.tar.gz",
-"tomee/tomee-1.7.5/apache-tomee-1.7.5-plus.zip"
+"apache-tomee-8.0.16-plus": [
+"tomee/tomee-8.0.16/apache-tomee-8.0.16-plus.tar.gz",
+"tomee/tomee-8.0.16/apache-tomee-8.0.16-plus.zip"
 ],
-"apache-tomee-1.7.5-webprofile": [
-"tomee/tomee-1.7.5/apache-tomee-1.7.5-webprofile.tar.gz",
-"tomee/tomee-1.7.5/apache-tomee-1.7.5-webprofile.zip"
-],
-"apache-tomee-7.0.9-plume": [
-"tomee/tomee-7.0.9/apache-tomee-7.0.9-plume.tar.gz",
-"tomee/tomee-7.0.9/apache-tomee-7.0.9-plume.zip"
-],
-"apache-tomee-7.0.9-plus": [
-"tomee/tomee-7.0.9/apache-tomee-7.0.9-plus.tar.gz",
-"tomee/tomee-7.0.9/apache-tomee-7.0.9-plus.zip"
-],
-"apache-tomee-7.0.9-webprofile": [
-"tomee/tomee-7.0.9/apache-tomee-7.0.9-webprofile.tar.gz",
-"tomee/tomee-7.0.9/apache-tomee-7.0.9-webprofile.zip"
-],
-"apache-tomee-7.1.4-microprofile": [
-"tomee/tomee-7.1.4/apache-tomee-7.1.4-microprofile.tar.gz",
-"tomee/tomee-7.1.4/apache-tomee-7.1.4-microprofile.zip"
-],
-"apache-tomee-7.1.4-plume": [
-"tomee/tomee-7.1.4/apache-tomee-7.1.4-plume.tar.gz",
-"tomee/tomee-7.1.4/apache-tomee-7.1.4-plume.zip"
-],
-"apache-tomee-7.1.4-plus": [
-"tomee/tomee-7.1.4/apache-tomee-7.1.4-plus.tar.gz",
-"tomee/tomee-7.1.4/apache-tomee-7.1.4-plus.zip"
-],
-"apache-tomee-7.1.4-webprofile": [
-"tomee/tomee-7.1.4/apache-tomee-7.1.4-webprofile.tar.gz",
-"tomee/tomee-7.1.4/apache-tomee-7.1.4-webprofile.zip"
-],
-"apache-tomee-8.0.15-microprofile": [
-"tomee/tomee-8.0.15/apache-tomee-8.0.15-microprofile.tar.gz",
-"tomee/tomee-8.0.15/apache-tomee-8.0.15-microprofile.zip"
-],
-"apache-tomee-8.0.15-plume": [
-"tomee/tomee-8.0.15/apache-tomee-8.0.15-plume.tar.gz",
-"tomee/tomee-8.0.15/apache-tomee-8.0.15-plume.zip"
-],
-"apache-tomee-8.0.15-plus": [
-"tomee/tomee-8.0.15/apache-tomee-8.0.15-plus.tar.gz",
-"tomee/tomee-8.0.15/apache-tomee-8.0.15-plus.zip"
-],
-"apache-tomee-8.0.15-webprofile": [
-"tomee/tomee-8.0.15/apache-tomee-8.0.15-webprofile.tar.gz",
-"tomee/tomee-8.0.15/apache-tomee-8.0.15-webprofile.zip"
+"apache-tomee-8.0.16-webprofile": [
+"tomee/tomee-8.0.16/apache-tomee-8.0.16-webprofile.tar.gz",
+"tomee/tomee-8.0.16/apache-tomee-8.0.16-webprofile.zip"
 ],
 "apache-tomee-9.1.1-microprofile": [
 "tomee/tomee-9.1.1/apache-tomee-9.1.1-microprofile.tar.gz",
@@ -8371,18 +8333,6 @@
 "tomee/tomee-9.1.1/apache-tomee-9.1.1-webprofile.tar.gz",
 "tomee/tomee-9.1.1/apache-tomee-9.1.1-webprofile.zip"
 ],
-"examples-4.7.5": [
-"tomee/tomee-1.7.5/examples-4.7.5-src.tar.gz",
-"tomee/tomee-1.7.5/examples-4.7.5-src.zip"
-],
-"examples-7.0.9": [
-"tomee/tomee-7.0.9/examples-7.0.9-src.tar.gz",
-"tomee/tomee-7.0.9/examples-7.0.9-src.zip"
-],
-"examples-7.1.4": [
-"tomee/tomee-7.1.4/examples-7.1.4-src.tar.gz",
-"tomee/tomee-7.1.4/examples-7.1.4-src.zip"
-],
 "jakartaee-api-10.0-M2": [
 "tomee/jakartaee-api-10.0-M2/jakartaee-api-10.0-M2-source-release.zip"
 ],
@@ -8392,35 +8342,8 @@
 "javaee-api-8.0-6": [
 "tomee/javaee-api-8.0-6/javaee-api-8.0-6-source-release.zip"
 ],
-"openejb-4.7.5": [
-"tomee/tomee-1.7.5/openejb-4.7.5-source-release.zip",
-"tomee/tomee-1.7.5/openejb-standalone-4.7.5.tar.gz",
-"tomee/tomee-1.7.5/openejb-standalone-4.7.5.zip"
-],
-"openejb-7.0.9": [
-"tomee/tomee-7.0.9/openejb-standalone-7.0.9.tar.gz",
-"tomee/tomee-7.0.9/openejb-standalone-7.0.9.zip"
-],
-"openejb-7.1.4": [
-"tomee/tomee-7.1.4/openejb-standalone-7.1.4.tar.gz",
-"tomee/tomee-7.1.4/openejb-standalone-7.1.4.zip"
-],
-"openejb-provisionning-4.7.5": [
-"tomee/tomee-1.7.5/openejb-provisionning-4.7.5.tar.gz",
-"tomee/tomee-1.7.5/openejb-provisionning-4.7.5.zip"
-],
-"openejb-ssh-4.7.5": [
-"tomee/tomee-1.7.5/openejb-ssh-4.7.5.tar.gz",
-"tomee/tomee-1.7.5/openejb-ssh-4.7.5.zip"
-],
-"tomee-7.0.9": [
-"tomee/tomee-7.0.9/tomee-project-7.0.9-source-release.zip"
-],
-"tomee-7.1.4": [
-"tomee/tomee-7.1.4/tomee-project-7.1.4-source-release.zip"
-],
-"tomee-8.0.15": [
-"tomee/tomee-8.0.15/tomee-project-8.0.15-source-release.zip"
+"tomee-8.0.16": [
+"tomee/tomee-8.0.16/tomee-project-8.0.16-source-release.zip"
 ],
 "tomee-9.1.1": [
 "tomee/tomee-9.1.1/tomee-project-9.1.1-source-release.zip"
