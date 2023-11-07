@@ -40,7 +40,7 @@
 "airflow-1.11.0": "2023-10-02",
 "airflow-chart-1.10.0": "2023-06-27",
 "airflow-chart-1.11.0": "2023-10-02",
-"apache-airflow-2.7.2": "2023-10-12",
+"apache-airflow-2.7.3": "2023-11-06",
 "apache-airflow-client-2.1.0": "2021-05-31",
 "apache-airflow-client-2.2.0": "2021-12-01",
 "apache-airflow-client-2.3.0": "2022-08-03",
@@ -139,7 +139,7 @@
 "apache-airflow-upgrade-check-1.4.0": "2021-06-26"
 },
 "allura": {
-"allura-1.15.0": "2023-09-14"
+"allura-1.16.0": "2023-11-06"
 },
 "ambari": {
 "apache-ambari-2.6.2": "2022-07-04",
@@ -267,7 +267,7 @@
 "apache-arrow-nanoarrow-0.1.0": "2023-03-01",
 "apache-arrow-nanoarrow-0.2.0": "2023-06-19",
 "apache-arrow-nanoarrow-0.3.0": "2023-09-26",
-"apache-arrow-object-store-rs-0.7.1": "2023-09-29",
+"apache-arrow-object-store-rs-0.8.0": "2023-11-06",
 "apache-arrow-rs-48.0.0": "2023-10-23"
 },
 "asterixdb": {
@@ -481,7 +481,8 @@
 "camel-kamelets-sources-4.1.0": "2023-10-23",
 "camel-karavan-3.20.1": "2023-04-09",
 "camel-karavan-3.21.0": "2023-07-09",
-"camel-karavan-4.0.0": "2023-09-25"
+"camel-karavan-4.0.0": "2023-09-25",
+"camel-karavan-4.1.0": "2023-11-06"
 },
 "carbondata": {
 "apache-carbondata-1.5.4": "2019-05-29",
@@ -699,7 +700,6 @@
 "fediz-1.6.1": "2022-12-23"
 },
 "daffodil": {
-"apache-daffodil-3.5.0": "2023-06-21",
 "apache-daffodil-3.6.0": "2023-10-31",
 "apache-daffodil-vscode-1.3.1": "2023-09-05"
 },
@@ -873,7 +873,7 @@
 "org.apache.felix.http.api-3.0.0": "2015-08-10",
 "org.apache.felix.http.base-4.2.10": "2023-08-21",
 "org.apache.felix.http.base-5.1.2": "2023-10-02",
-"org.apache.felix.http.bridge-4.2.12": "2023-08-21",
+"org.apache.felix.http.bridge-4.2.14": "2023-11-06",
 "org.apache.felix.http.bridge-5.1.2": "2023-10-02",
 "org.apache.felix.http.bundle-3.0.0": "2015-02-02",
 "org.apache.felix.http.inventoryprinter-1.0.0": "2022-12-27",
@@ -1580,6 +1580,7 @@
 "apache-kyuubi-1.5.2-incubating": "2022-06-09",
 "apache-kyuubi-1.6.1-incubating": "2022-11-07",
 "apache-kyuubi-1.7.3": "2023-09-18",
+"apache-kyuubi-1.8.0": "2023-11-03",
 "apache-kyuubi-shaded-0.1.0": "2023-05-18"
 },
 "libcloud": {
@@ -1727,7 +1728,7 @@
 "maven-jar-plugin-3.3.0": "2022-09-16",
 "maven-jarsigner-3.0.0": "2018-10-31",
 "maven-jarsigner-plugin-3.0.0": "2018-11-06",
-"maven-javadoc-plugin-3.6.0": "2023-09-15",
+"maven-javadoc-plugin-3.6.2": "2023-11-06",
 "maven-jdeprscan-plugin-3.0.0-alpha-1": "2017-11-15",
 "maven-jdeps-plugin-3.1.2": "2019-06-20",
 "maven-jlink-plugin-3.1.0": "2020-12-28",
@@ -1740,7 +1741,7 @@
 "maven-pdf-plugin-1.6.1": "2022-08-19",
 "maven-plugin-3.6.0": "2023-05-15",
 "maven-plugin-testing-4.0.0-alpha-1": "2023-02-27",
-"maven-plugin-tools-3.10.1": "2023-10-20",
+"maven-plugin-tools-3.10.2": "2023-11-06",
 "maven-pmd-plugin-3.21.2": "2023-11-02",
 "maven-rar-plugin-3.0.0": "2022-07-20",
 "maven-release-3.0.1": "2023-06-03",
@@ -1749,6 +1750,7 @@
 "maven-reporting-exec-2.0.0-M11": "2023-10-17",
 "maven-reporting-impl-4.0.0-M11": "2023-10-17",
 "maven-resolver-1.9.16": "2023-09-25",
+"maven-resolver-2.0.0-alpha-1": "2023-11-06",
 "maven-resolver-ant-tasks-1.5.0": "2023-09-11",
 "maven-resources-plugin-3.3.1": "2023-03-24",
 "maven-scm-2.0.1": "2023-05-18",
@@ -1769,7 +1771,7 @@
 "maven-verifier-plugin-1.1": "2015-04-14",
 "maven-war-plugin-3.4.0": "2023-06-15",
 "maven-wrapper-3.2.0": "2023-03-12",
-"surefire-3.2.1": "2023-10-23",
+"surefire-3.2.2": "2023-11-06",
 "wagon-3.5.3": "2022-12-22"
 },
 "mesos": {
@@ -2917,6 +2919,7 @@
 "uimaj-3.3.1": "2022-10-19",
 "uimaj-3.4.0": "2023-01-26",
 "uimaj-3.4.1": "2023-02-19",
+"uimaj-3.5.0": "2023-11-01",
 "uimaj-io-json-0.4.0": "2022-07-13",
 "uimaj-io-json-0.5.0": "2023-03-03"
 },
