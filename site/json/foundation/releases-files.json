@@ -529,6 +529,9 @@
 "apache-apisix-ingress-controller-1.7.0": [
 "apisix/ingress-controller/1.7.0/apache-apisix-ingress-controller-1.7.0-src.tgz"
 ],
+"apache-apisix-ingress-controller-1.7.1": [
+"apisix/ingress-controller/1.7.1/apache-apisix-ingress-controller-1.7.1-src.tgz"
+],
 "apisix-go-plugin-runner-0.4.0": [
 "apisix/go-plugin-runner/0.4.0/apisix-go-plugin-runner-0.4.0-src.tgz"
 ],
@@ -714,8 +717,8 @@
 "org.apache.aries.jpa.main-2.7.3": [
 "aries/org.apache.aries.jpa.main-2.7.3-source-release.zip"
 ],
-"org.apache.aries.proxy-1.1.13": [
-"aries/org.apache.aries.proxy-1.1.13-source-release.zip"
+"org.apache.aries.proxy-1.1.14": [
+"aries/org.apache.aries.proxy-1.1.14-source-release.zip"
 ],
 "org.apache.aries.rsa.main-1.13.0": [
 "aries/org.apache.aries.rsa.main-1.13.0-source-release.zip"
@@ -753,8 +756,8 @@
 "parent-1.0.0": [
 "aries/parent-1.0.0-source-release.zip"
 ],
-"spifly-1.3.6": [
-"aries/spifly-1.3.6-source-release.zip"
+"spifly-1.3.7": [
+"aries/spifly-1.3.7-source-release.zip"
 ],
 "tx-control-1.0.1": [
 "aries/tx-control-1.0.1-source-release.zip"
@@ -797,8 +800,8 @@
 "apache-arrow-object-store-rs-0.8.0": [
 "arrow/arrow-object-store-rs-0.8.0/apache-arrow-object-store-rs-0.8.0.tar.gz"
 ],
-"apache-arrow-rs-48.0.0": [
-"arrow/arrow-rs-48.0.0/apache-arrow-rs-48.0.0.tar.gz"
+"apache-arrow-rs-49.0.0": [
+"arrow/arrow-rs-49.0.0/apache-arrow-rs-49.0.0.tar.gz"
 ]
 },
 "asterixdb": {
@@ -2418,8 +2421,8 @@
 "apache-dubbo-3.1.11": [
 "dubbo/3.1.11/apache-dubbo-3.1.11-src.zip"
 ],
-"apache-dubbo-3.2.7": [
-"dubbo/3.2.7/apache-dubbo-3.2.7.zip"
+"apache-dubbo-3.2.8": [
+"dubbo/3.2.8/apache-dubbo-3.2.8.zip"
 ],
 "apache-dubbo-3.3.0-beta.1": [
 "dubbo/3.3.0-beta.1/apache-dubbo-3.3.0-beta.1.zip"
@@ -2515,9 +2518,9 @@
 "felix/org.apache.felix.bundlerepository-2.0.10-source-release.tar.gz",
 "felix/org.apache.felix.bundlerepository-2.0.10-source-release.zip"
 ],
-"org.apache.felix.cm.json-2.0.0": [
-"felix/org.apache.felix.cm.json-2.0.0-source-release.tar.gz",
-"felix/org.apache.felix.cm.json-2.0.0-source-release.zip"
+"org.apache.felix.cm.json-2.0.2": [
+"felix/org.apache.felix.cm.json-2.0.2-source-release.tar.gz",
+"felix/org.apache.felix.cm.json-2.0.2-source-release.zip"
 ],
 "org.apache.felix.configadmin-1.9.26": [
 "felix/org.apache.felix.configadmin-1.9.26-source-release.tar.gz",
@@ -6348,7 +6351,9 @@
 "pulsar/pulsar-client-cpp-3.2.0/apk-arm64/aarch64/APKINDEX.tar.gz",
 "pulsar/pulsar-client-cpp-3.2.0/apk-x86_64/x86_64/APKINDEX.tar.gz",
 "pulsar/pulsar-client-cpp-3.3.0/apk-arm64/aarch64/APKINDEX.tar.gz",
-"pulsar/pulsar-client-cpp-3.3.0/apk-x86_64/x86_64/APKINDEX.tar.gz"
+"pulsar/pulsar-client-cpp-3.3.0/apk-x86_64/x86_64/APKINDEX.tar.gz",
+"pulsar/pulsar-client-cpp-3.4.0/apk-arm64/aarch64/APKINDEX.tar.gz",
+"pulsar/pulsar-client-cpp-3.4.0/apk-x86_64/x86_64/APKINDEX.tar.gz"
 ],
 "apache-pulsar-2.10.2": [
 "pulsar/pulsar-2.10.2/apache-pulsar-2.10.2-src.tar.gz"
@@ -6415,6 +6420,9 @@
 ],
 "apache-pulsar-client-cpp-3.3.0": [
 "pulsar/pulsar-client-cpp-3.3.0/apache-pulsar-client-cpp-3.3.0.tar.gz"
+],
+"apache-pulsar-client-cpp-3.4.0": [
+"pulsar/pulsar-client-cpp-3.4.0/apache-pulsar-client-cpp-3.4.0.tar.gz"
 ],
 "apache-pulsar-client-go-0.10.0": [
 "pulsar/pulsar-client-go-0.10.0/apache-pulsar-client-go-0.10.0-src.tar.gz"
@@ -6972,14 +6980,8 @@
 "skywalking-client-js-0.10.0": [
 "skywalking/client-js/0.10.0/skywalking-client-js-0.10.0-src.tgz"
 ],
-"skywalking-e2e-1.0.0": [
-"skywalking/infra-e2e/1.0.0/skywalking-e2e-1.0.0-src.tgz"
-],
-"skywalking-e2e-1.1.0": [
-"skywalking/infra-e2e/1.1.0/skywalking-e2e-1.1.0-src.tgz"
-],
-"skywalking-e2e-1.2.0": [
-"skywalking/infra-e2e/1.2.0/skywalking-e2e-1.2.0-src.tgz"
+"skywalking-e2e-1.3.0": [
+"skywalking/infra-e2e/1.3.0/skywalking-e2e-1.3.0-src.tgz"
 ],
 "skywalking-helm-4.5.0": [
 "skywalking/kubernetes/4.5.0/skywalking-helm-4.5.0-src.tgz",
@@ -7881,8 +7883,8 @@
 "org.apache.sling.validation.test-services-1.0.4": [
 "sling/org.apache.sling.validation.test-services-1.0.4-source-release.zip"
 ],
-"org.apache.sling.xss-2.3.8": [
-"sling/org.apache.sling.xss-2.3.8-source-release.zip"
+"org.apache.sling.xss-2.4.0": [
+"sling/org.apache.sling.xss-2.4.0-source-release.zip"
 ],
 "org.apache.sling.xss.compat-1.1.0": [
 "sling/org.apache.sling.xss.compat-1.1.0-source-release.zip"
@@ -8659,6 +8661,9 @@
 ],
 "uimafit-3.4.0": [
 "uima/uimafit-3.4.0/uimafit-3.4.0-source-release.zip"
+],
+"uimafit-3.5.0": [
+"uima/uimafit-3.5.0/uimafit-3.5.0-source-release.zip"
 ],
 "uimaj-2.11.0": [
 "uima/uimaj-2.11.0/uimaj-2.11.0-source-release.zip"
