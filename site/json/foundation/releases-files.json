@@ -47,17 +47,14 @@
 "Apache.NMS.ActiveMQ-2.1.0": [
 "activemq/apache-nms-activemq/2.1.0/Apache.NMS.ActiveMQ-2.1.0-src.zip"
 ],
-"activemq-5.15.16": [
-"activemq/5.15.16/activemq-parent-5.15.16-source-release.zip"
-],
-"activemq-5.16.7": [
-"activemq/5.16.7/activemq-parent-5.16.7-source-release.zip"
-],
 "activemq-5.17.6": [
 "activemq/5.17.6/activemq-parent-5.17.6-source-release.zip"
 ],
 "activemq-5.18.3": [
 "activemq/5.18.3/activemq-parent-5.18.3-source-release.zip"
+],
+"activemq-6.0.0": [
+"activemq/6.0.0/activemq-parent-6.0.0-source-release.zip"
 ],
 "activemq-artemis-native-2.0.0": [
 "activemq/activemq-artemis-native/2.0.0/activemq-artemis-native-2.0.0-source-release.tar.gz",
@@ -3140,6 +3137,9 @@
 "flink-shaded-16.1": [
 "flink/flink-shaded-16.1/flink-shaded-16.1-src.tgz"
 ],
+"flink-shaded-16.2": [
+"flink/flink-shaded-16.2/flink-shaded-16.2-src.tgz"
+],
 "flink-shaded-17.0": [
 "flink/flink-shaded-17.0/flink-shaded-17.0-src.tgz"
 ],
@@ -4089,6 +4089,9 @@
 "apache-pekko-persistence-cassandra-1.0.0-incubating-20230916": [
 "incubator/pekko/PERSISTENCE_CASSANDRA-1.0.0/apache-pekko-persistence-cassandra-1.0.0-incubating-src-20230916.tgz"
 ],
+"apache-pekko-persistence-dynamodb-1.0.0-incubating-20231110": [
+"incubator/pekko/PERSISTENCE-DYNAMODB-1.0.0/apache-pekko-persistence-dynamodb-1.0.0-incubating-src-20231110.tgz"
+],
 "apache-pekko-persistence-jdbc-1.0.0-incubating-20230829": [
 "incubator/pekko/PERSISTENCE-JDBC-1.0.0/apache-pekko-persistence-jdbc-1.0.0-incubating-src-20230829.tgz"
 ],
@@ -4175,12 +4178,6 @@
 "incubator-training": {
 "apache-training-navigating-ASF-incubation-1.0-incubating": [
 "incubator/training/ApacheWay/NavigatingASFIncubation/1.0/apache-training-navigating-ASF-incubation-1.0-incubating.tar.gz"
-]
-},
-"incubator-tuweni": {
-"tuweni-2.3.1-incubating": [
-"incubator/tuweni/2.3.1-incubating/tuweni-src-2.3.1-incubating.tgz",
-"incubator/tuweni/2.3.1-incubating/tuweni-src-2.3.1-incubating.zip"
 ]
 },
 "incubator-uniffle": {
@@ -5433,14 +5430,6 @@
 ],
 "apache-mnemonic-0.16.0": [
 "mnemonic/0.16.0/src/apache-mnemonic-0.16.0-src.tar.gz"
-]
-},
-"mxnet": {
-"apache-mxnet-1.9.1-incubating": [
-"mxnet/1.9.1/apache-mxnet-src-1.9.1-incubating.tar.gz"
-],
-"apache-mxnet-2.0.0.beta1-incubating": [
-"mxnet/2.0.0.beta1/apache-mxnet-src-2.0.0.beta1-incubating.tar.gz"
 ]
 },
 "myfaces": {
@@ -6922,8 +6911,8 @@
 ]
 },
 "singa": {
-"apache-singa-4.0.0": [
-"singa/4.0.0/apache-singa-4.0.0.tar.gz"
+"apache-singa-4.1.0": [
+"singa/4.1.0/apache-singa-4.1.0.tar.gz"
 ]
 },
 "sis": {
@@ -7292,8 +7281,8 @@
 "org.apache.sling.dynamic-include-3.3.0": [
 "sling/org.apache.sling.dynamic-include-3.3.0-source-release.zip"
 ],
-"org.apache.sling.engine-2.15.6": [
-"sling/org.apache.sling.engine-2.15.6-source-release.zip"
+"org.apache.sling.engine-2.15.8": [
+"sling/org.apache.sling.engine-2.15.8-source-release.zip"
 ],
 "org.apache.sling.event-4.3.14": [
 "sling/org.apache.sling.event-4.3.14-source-release.zip"
@@ -7505,8 +7494,8 @@
 "org.apache.sling.jcr.registration-1.0.6": [
 "sling/org.apache.sling.jcr.registration-1.0.6-source-release.zip"
 ],
-"org.apache.sling.jcr.repoinit-1.1.44": [
-"sling/org.apache.sling.jcr.repoinit-1.1.44-source-release.zip"
+"org.apache.sling.jcr.repoinit-1.1.46": [
+"sling/org.apache.sling.jcr.repoinit-1.1.46-source-release.zip"
 ],
 "org.apache.sling.jcr.resource-3.2.4": [
 "sling/org.apache.sling.jcr.resource-3.2.4-source-release.zip"
@@ -7652,8 +7641,8 @@
 "org.apache.sling.resourcemerger-1.4.4": [
 "sling/org.apache.sling.resourcemerger-1.4.4-source-release.zip"
 ],
-"org.apache.sling.resourceresolver-1.11.2": [
-"sling/org.apache.sling.resourceresolver-1.11.2-source-release.zip"
+"org.apache.sling.resourceresolver-1.11.4": [
+"sling/org.apache.sling.resourceresolver-1.11.4-source-release.zip"
 ],
 "org.apache.sling.rewriter-1.3.6": [
 "sling/org.apache.sling.rewriter-1.3.6-source-release.zip"
