@@ -473,14 +473,6 @@
 "apache-ivy-2.5.2": [
 "ant/ivy/2.5.2/apache-ivy-2.5.2-src.tar.gz",
 "ant/ivy/2.5.2/apache-ivy-2.5.2-src.zip"
-],
-"apache-ivyde-2.2.0.final-201311091524-RELEASE": [
-"ant/ivyde/2.2.0.final/apache-ivyde-2.2.0.final-201311091524-RELEASE.tar.gz",
-"ant/ivyde/2.2.0.final/apache-ivyde-2.2.0.final-201311091524-RELEASE.zip"
-],
-"apache-ivyde-sources-2.2.0.final-201311091524-RELEASE": [
-"ant/ivyde/2.2.0.final/apache-ivyde-sources-2.2.0.final-201311091524-RELEASE.tar.gz",
-"ant/ivyde/2.2.0.final/apache-ivyde-sources-2.2.0.final-201311091524-RELEASE.zip"
 ]
 },
 "apisix": {
@@ -5693,11 +5685,17 @@
 "nifi-1.23.2": [
 "nifi/1.23.2/nifi-1.23.2-source-release.zip"
 ],
+"nifi-2.0.0-M1": [
+"nifi/2.0.0-M1/nifi-2.0.0-M1-source-release.zip"
+],
 "nifi-fds-0.3.0": [
 "nifi/nifi-fds/nifi-fds-0.3.0/nifi-fds-0.3.0-source-release.zip"
 ],
 "nifi-kafka-connector-1.23.2": [
 "nifi/1.23.2/nifi-kafka-connector-assembly-1.23.2.zip"
+],
+"nifi-kafka-connector-2.0.0-M1": [
+"nifi/2.0.0-M1/nifi-kafka-connector-assembly-2.0.0-M1.zip"
 ],
 "nifi-minifi-cpp-0.14.0": [
 "nifi/nifi-minifi-cpp/0.14.0/nifi-minifi-cpp-0.14.0-source.tar.gz"
@@ -6330,7 +6328,9 @@
 "pulsar/pulsar-client-cpp-3.3.0/apk-arm64/aarch64/APKINDEX.tar.gz",
 "pulsar/pulsar-client-cpp-3.3.0/apk-x86_64/x86_64/APKINDEX.tar.gz",
 "pulsar/pulsar-client-cpp-3.4.0/apk-arm64/aarch64/APKINDEX.tar.gz",
-"pulsar/pulsar-client-cpp-3.4.0/apk-x86_64/x86_64/APKINDEX.tar.gz"
+"pulsar/pulsar-client-cpp-3.4.0/apk-x86_64/x86_64/APKINDEX.tar.gz",
+"pulsar/pulsar-client-cpp-3.4.1/apk-arm64/aarch64/APKINDEX.tar.gz",
+"pulsar/pulsar-client-cpp-3.4.1/apk-x86_64/x86_64/APKINDEX.tar.gz"
 ],
 "apache-pulsar-2.10.2": [
 "pulsar/pulsar-2.10.2/apache-pulsar-2.10.2-src.tar.gz"
@@ -6400,6 +6400,9 @@
 ],
 "apache-pulsar-client-cpp-3.4.0": [
 "pulsar/pulsar-client-cpp-3.4.0/apache-pulsar-client-cpp-3.4.0.tar.gz"
+],
+"apache-pulsar-client-cpp-3.4.1": [
+"pulsar/pulsar-client-cpp-3.4.1/apache-pulsar-client-cpp-3.4.1.tar.gz"
 ],
 "apache-pulsar-client-go-0.10.0": [
 "pulsar/pulsar-client-go-0.10.0/apache-pulsar-client-go-0.10.0-src.tar.gz"
@@ -8797,9 +8800,9 @@
 "wicket/8.15.0/apache-wicket-8.15.0.tar.gz",
 "wicket/8.15.0/apache-wicket-8.15.0.zip"
 ],
-"apache-wicket-9.15.0": [
-"wicket/9.15.0/apache-wicket-9.15.0.tar.gz",
-"wicket/9.15.0/apache-wicket-9.15.0.zip"
+"apache-wicket-9.16.0": [
+"wicket/9.16.0/apache-wicket-9.16.0.tar.gz",
+"wicket/9.16.0/apache-wicket-9.16.0.zip"
 ]
 },
 "ws": {
