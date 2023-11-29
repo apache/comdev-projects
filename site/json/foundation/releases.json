@@ -141,7 +141,26 @@
 "apache-airflow-providers-weaviate-1.0.0": "2023-11-12",
 "apache-airflow-providers-yandex-3.6.0": "2023-11-12",
 "apache-airflow-providers-zendesk-4.4.0": "2023-10-17",
-"apache-airflow-upgrade-check-1.4.0": "2021-06-26"
+"apache-airflow-upgrade-check-1.4.0": "2021-06-26",
+"apache_airflow_providers_amazon-8.12.0": "2023-11-28",
+"apache_airflow_providers_apache_impala-1.2.1": "2023-11-28",
+"apache_airflow_providers_atlassian_jira-2.3.0": "2023-11-28",
+"apache_airflow_providers_cncf_kubernetes-7.10.0": "2023-11-28",
+"apache_airflow_providers_common_io-1.1.0": "2023-11-28",
+"apache_airflow_providers_common_sql-1.8.1": "2023-11-28",
+"apache_airflow_providers_databricks-5.0.1": "2023-11-28",
+"apache_airflow_providers_dbt_cloud-3.4.1": "2023-11-28",
+"apache_airflow_providers_docker-3.8.2": "2023-11-28",
+"apache_airflow_providers_elasticsearch-5.2.0": "2023-11-28",
+"apache_airflow_providers_google-10.12.0": "2023-11-28",
+"apache_airflow_providers_microsoft_azure-8.3.0": "2023-11-28",
+"apache_airflow_providers_odbc-4.2.0": "2023-11-28",
+"apache_airflow_providers_openai-1.0.1": "2023-11-28",
+"apache_airflow_providers_opsgenie-5.3.0": "2023-11-28",
+"apache_airflow_providers_papermill-3.5.0": "2023-11-28",
+"apache_airflow_providers_redis-3.4.1": "2023-11-28",
+"apache_airflow_providers_snowflake-5.1.2": "2023-11-28",
+"apache_airflow_providers_trino-5.4.1": "2023-11-28"
 },
 "allura": {
 "allura-1.16.0": "2023-11-06"
@@ -980,17 +999,17 @@
 "blazeds-4.8.0": "2023-04-17"
 },
 "flink": {
-"apache-flink-1.16.2": "2023-05-18",
-"apache-flink-1.17.1": "2023-05-19",
+"apache-flink-1.16.3": "2023-11-13",
+"apache-flink-1.17.2": "2023-11-13",
 "apache-flink-1.18.0": "2023-10-19",
-"apache-flink-libraries-1.16.2": "2023-05-18",
-"apache-flink-libraries-1.17.1": "2023-05-19",
+"apache-flink-libraries-1.16.3": "2023-11-13",
+"apache-flink-libraries-1.17.2": "2023-11-13",
 "apache-flink-libraries-1.18.0": "2023-10-19",
 "apache-flink-ml-2.2.0": "2023-04-12",
 "apache-flink-ml-2.3.0": "2023-06-29",
 "apache-flink-statefun-3.3.0": "2023-09-12",
-"flink-1.16.2": "2023-05-18",
-"flink-1.17.1": "2023-05-19",
+"flink-1.16.3": "2023-11-13",
+"flink-1.17.2": "2023-11-13",
 "flink-1.18.0": "2023-10-19",
 "flink-connector-1.0.0": "2023-03-15",
 "flink-connector-aws-3.0.0": "2022-11-28",
@@ -2137,6 +2156,7 @@
 "apache-pulsar-2.9.5": "2023-04-10",
 "apache-pulsar-3.0.0": "2023-04-27",
 "apache-pulsar-3.0.1": "2023-07-26",
+"apache-pulsar-3.0.2": "2023-11-18",
 "apache-pulsar-3.1.0": "2023-08-03",
 "apache-pulsar-3.1.1": "2023-09-27",
 "apache-pulsar-adapters-2.11.0": "2023-03-02",
@@ -2172,7 +2192,8 @@
 "pulsar-client-reactive-0.3.0": "2023-04-18",
 "pulsar-client-reactive-0.4.0": "2023-09-26",
 "pulsar-client-reactive-0.5.0": "2023-11-15",
-"pulsar-dotpulsar-3.0.0": "2023-08-31"
+"pulsar-dotpulsar-3.0.0": "2023-08-31",
+"pulsar-dotpulsar-3.1.0-rc.1": "2023-11-20"
 },
 "qpid": {
 "apache-qpid-broker-j-9.1.0": "2023-09-08",
@@ -2272,7 +2293,7 @@
 "xmlsec-2.2.6": "2023-10-19",
 "xmlsec-2.3.4": "2023-10-19",
 "xmlsec-3.0.3": "2023-10-19",
-"xmlsec-4.0.0": "2023-10-19"
+"xmlsec-4.0.1": "2023-11-28"
 },
 "seatunnel": {
 "apache-seatunnel-2.3.2": "2023-06-13",

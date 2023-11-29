@@ -419,6 +419,63 @@
 ],
 "apache-airflow-upgrade-check-1.4.0": [
 "airflow/upgrade-check/1.4.0/apache-airflow-upgrade-check-1.4.0-source.tar.gz"
+],
+"apache_airflow_providers_amazon-8.12.0": [
+"airflow/providers/apache_airflow_providers_amazon-8.12.0.tar.gz"
+],
+"apache_airflow_providers_apache_impala-1.2.1": [
+"airflow/providers/apache_airflow_providers_apache_impala-1.2.1.tar.gz"
+],
+"apache_airflow_providers_atlassian_jira-2.3.0": [
+"airflow/providers/apache_airflow_providers_atlassian_jira-2.3.0.tar.gz"
+],
+"apache_airflow_providers_cncf_kubernetes-7.10.0": [
+"airflow/providers/apache_airflow_providers_cncf_kubernetes-7.10.0.tar.gz"
+],
+"apache_airflow_providers_common_io-1.1.0": [
+"airflow/providers/apache_airflow_providers_common_io-1.1.0.tar.gz"
+],
+"apache_airflow_providers_common_sql-1.8.1": [
+"airflow/providers/apache_airflow_providers_common_sql-1.8.1.tar.gz"
+],
+"apache_airflow_providers_databricks-5.0.1": [
+"airflow/providers/apache_airflow_providers_databricks-5.0.1.tar.gz"
+],
+"apache_airflow_providers_dbt_cloud-3.4.1": [
+"airflow/providers/apache_airflow_providers_dbt_cloud-3.4.1.tar.gz"
+],
+"apache_airflow_providers_docker-3.8.2": [
+"airflow/providers/apache_airflow_providers_docker-3.8.2.tar.gz"
+],
+"apache_airflow_providers_elasticsearch-5.2.0": [
+"airflow/providers/apache_airflow_providers_elasticsearch-5.2.0.tar.gz"
+],
+"apache_airflow_providers_google-10.12.0": [
+"airflow/providers/apache_airflow_providers_google-10.12.0.tar.gz"
+],
+"apache_airflow_providers_microsoft_azure-8.3.0": [
+"airflow/providers/apache_airflow_providers_microsoft_azure-8.3.0.tar.gz"
+],
+"apache_airflow_providers_odbc-4.2.0": [
+"airflow/providers/apache_airflow_providers_odbc-4.2.0.tar.gz"
+],
+"apache_airflow_providers_openai-1.0.1": [
+"airflow/providers/apache_airflow_providers_openai-1.0.1.tar.gz"
+],
+"apache_airflow_providers_opsgenie-5.3.0": [
+"airflow/providers/apache_airflow_providers_opsgenie-5.3.0.tar.gz"
+],
+"apache_airflow_providers_papermill-3.5.0": [
+"airflow/providers/apache_airflow_providers_papermill-3.5.0.tar.gz"
+],
+"apache_airflow_providers_redis-3.4.1": [
+"airflow/providers/apache_airflow_providers_redis-3.4.1.tar.gz"
+],
+"apache_airflow_providers_snowflake-5.1.2": [
+"airflow/providers/apache_airflow_providers_snowflake-5.1.2.tar.gz"
+],
+"apache_airflow_providers_trino-5.4.1": [
+"airflow/providers/apache_airflow_providers_trino-5.4.1.tar.gz"
 ]
 },
 "allura": {
@@ -3020,20 +3077,20 @@
 ]
 },
 "flink": {
-"apache-flink-1.16.2": [
-"flink/flink-1.16.2/python/apache-flink-1.16.2.tar.gz"
+"apache-flink-1.16.3": [
+"flink/flink-1.16.3/python/apache-flink-1.16.3.tar.gz"
 ],
-"apache-flink-1.17.1": [
-"flink/flink-1.17.1/python/apache-flink-1.17.1.tar.gz"
+"apache-flink-1.17.2": [
+"flink/flink-1.17.2/python/apache-flink-1.17.2.tar.gz"
 ],
 "apache-flink-1.18.0": [
 "flink/flink-1.18.0/python/apache-flink-1.18.0.tar.gz"
 ],
-"apache-flink-libraries-1.16.2": [
-"flink/flink-1.16.2/python/apache-flink-libraries-1.16.2.tar.gz"
+"apache-flink-libraries-1.16.3": [
+"flink/flink-1.16.3/python/apache-flink-libraries-1.16.3.tar.gz"
 ],
-"apache-flink-libraries-1.17.1": [
-"flink/flink-1.17.1/python/apache-flink-libraries-1.17.1.tar.gz"
+"apache-flink-libraries-1.17.2": [
+"flink/flink-1.17.2/python/apache-flink-libraries-1.17.2.tar.gz"
 ],
 "apache-flink-libraries-1.18.0": [
 "flink/flink-1.18.0/python/apache-flink-libraries-1.18.0.tar.gz"
@@ -3047,11 +3104,11 @@
 "apache-flink-statefun-3.3.0": [
 "flink/flink-statefun-3.3.0/apache-flink-statefun-3.3.0.tar.gz"
 ],
-"flink-1.16.2": [
-"flink/flink-1.16.2/flink-1.16.2-src.tgz"
+"flink-1.16.3": [
+"flink/flink-1.16.3/flink-1.16.3-src.tgz"
 ],
-"flink-1.17.1": [
-"flink/flink-1.17.1/flink-1.17.1-src.tgz"
+"flink-1.17.2": [
+"flink/flink-1.17.2/flink-1.17.2-src.tgz"
 ],
 "flink-1.18.0": [
 "flink/flink-1.18.0/flink-1.18.0-src.tgz"
@@ -6372,6 +6429,9 @@
 "apache-pulsar-3.0.1": [
 "pulsar/pulsar-3.0.1/apache-pulsar-3.0.1-src.tar.gz"
 ],
+"apache-pulsar-3.0.2": [
+"pulsar/pulsar-3.0.2/apache-pulsar-3.0.2-src.tar.gz"
+],
 "apache-pulsar-3.1.0": [
 "pulsar/pulsar-3.1.0/apache-pulsar-3.1.0-src.tar.gz"
 ],
@@ -6479,6 +6539,9 @@
 ],
 "pulsar-dotpulsar-3.0.0": [
 "pulsar/pulsar-dotpulsar-3.0.0/pulsar-dotpulsar-3.0.0-src.tar.gz"
+],
+"pulsar-dotpulsar-3.1.0-rc.1": [
+"pulsar/pulsar-dotpulsar-3.1.0/pulsar-dotpulsar-3.1.0-rc.1.tar.gz"
 ]
 },
 "qpid": {
@@ -6748,8 +6811,8 @@
 "xmlsec-3.0.3": [
 "santuario/java-library/3_0_3/xmlsec-3.0.3-source-release.zip"
 ],
-"xmlsec-4.0.0": [
-"santuario/java-library/4_0_0/xmlsec-4.0.0-source-release.zip"
+"xmlsec-4.0.1": [
+"santuario/java-library/4_0_1/xmlsec-4.0.1-source-release.zip"
 ]
 },
 "seatunnel": {
