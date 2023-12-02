@@ -3491,26 +3491,26 @@
 },
 "avro": {
 "bug-database": "https://issues.apache.org/jira/browse/AVRO",
-"category": "library, big-data",
+"category": "library, big-data, data-engineering, integration",
 "created": "2011-01-11",
 "description": "Apache Avro is a data serialization system.",
 "doap": "http://avro.apache.org/avro.rdf",
-"download-page": "http://avro.apache.org/releases.html",
-"homepage": "http://avro.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://avro.apache.org/mailing_lists.html",
+"download-page": "https://avro.apache.org/releases.html",
+"homepage": "https://avro.apache.org",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://avro.apache.org/mailing_lists.html",
 "name": "Apache Avro",
 "pmc": "avro",
-"programming-language": "C, C++, C#, Java, PHP, Python, Ruby",
+"programming-language": "C, C#, C++, Java, JavaScript, Perl, PHP, Python, Ruby, Rust",
 "release": [
 {
-"created": "2012-10-20",
-"name": "Avro 1.7.2",
-"revision": "1.7.2"
+"created": "2023-09-17",
+"name": "Avro 1.11.3",
+"revision": "1.11.3"
 }
 ],
 "repository": [
-"http://svn.apache.org/repos/asf/avro/"
+"https://github.com/apache/avro.git"
 ],
 "shortdesc": "Apache Avro is a data serialization system."
 },
@@ -12744,9 +12744,15 @@
 "revision": "4.0.0-alpha-2"
 },
 {
+"created": "2023-12-01",
+"file-release": "https://archive.apache.org/dist/maven/maven-3/3.9.6/source/apache-maven-3.9.6-src.tar.gz",
+"name": "Latest stable release",
+"revision": "3.9.6"
+},
+{
 "created": "2023-10-04",
 "file-release": "https://archive.apache.org/dist/maven/maven-3/3.9.5/source/apache-maven-3.9.5-src.tar.gz",
-"name": "Latest stable release",
+"name": "Apache Maven 3.9.5",
 "revision": "3.9.5"
 },
 {
