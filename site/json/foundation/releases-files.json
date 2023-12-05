@@ -2053,17 +2053,14 @@
 "apache-couchdb-2.3.1": [
 "couchdb/source/2.3.1/apache-couchdb-2.3.1.tar.gz"
 ],
-"apache-couchdb-3.2.2": [
-"couchdb/source/3.2.2/apache-couchdb-3.2.2.tar.gz"
-],
 "apache-couchdb-3.2.3": [
 "couchdb/source/3.2.3/apache-couchdb-3.2.3.tar.gz"
 ],
-"apache-couchdb-3.3.1": [
-"couchdb/source/3.3.1/apache-couchdb-3.3.1.tar.gz"
-],
 "apache-couchdb-3.3.2": [
 "couchdb/source/3.3.2/apache-couchdb-3.3.2.tar.gz"
+],
+"apache-couchdb-3.3.3": [
+"couchdb/source/3.3.3/apache-couchdb-3.3.3.tar.gz"
 ]
 },
 "creadur": {
@@ -2412,6 +2409,9 @@
 "apache-doris-flink-connector-1.4.0": [
 "doris/flink-connector/1.4.0/apache-doris-flink-connector-1.4.0-src.tar.gz"
 ],
+"apache-doris-flink-connector-1.5.0": [
+"doris/flink-connector/1.5.0/apache-doris-flink-connector-1.5.0-src.tar.gz"
+],
 "apache-doris-sdk-1.0.0": [
 "doris/doris-sdk/1.0.0/apache-doris-sdk-1.0.0-src.tar.gz"
 ],
@@ -2423,6 +2423,9 @@
 ],
 "apache-doris-spark-connector-1.2.0": [
 "doris/spark-connector/1.2.0/apache-doris-spark-connector-1.2.0-src.tar.gz"
+],
+"apache-doris-spark-connector-1.3.0": [
+"doris/spark-connector/1.3.0/apache-doris-spark-connector-1.3.0-src.tar.gz"
 ],
 "apache-doris-spark-connector-2.3_2.11-1.0.1-incubating": [
 "doris/spark-connector/1.0.1/apache-doris-spark-connector-2.3_2.11-1.0.1-incubating-src.tar.gz"
@@ -4130,10 +4133,6 @@
 ]
 },
 "incubator-pekko": {
-"apache-pekko-1.0.1-incubating-20230718": [
-"incubator/pekko/1.0.1/apache-pekko-1.0.1-incubating-src-20230718.tgz",
-"incubator/pekko/1.0.1/apache-pekko-1.0.1-incubating-src-20230718.zip"
-],
 "apache-pekko-1.0.2-incubating-20231115": [
 "incubator/pekko/1.0.2/apache-pekko-1.0.2-incubating-src-20231115.tgz"
 ],
@@ -4906,6 +4905,10 @@
 "lucene-9.8.0": [
 "lucene/java/9.8.0/lucene-9.8.0-src.tgz",
 "lucene/java/9.8.0/lucene-9.8.0.tgz"
+],
+"lucene-9.9.0": [
+"lucene/java/9.9.0/lucene-9.9.0-src.tgz",
+"lucene/java/9.9.0/lucene-9.9.0.tgz"
 ],
 "pylucene-7.7.1": [
 "lucene/pylucene/pylucene-7.7.1-src.tar.gz"
@@ -5869,11 +5872,11 @@
 ]
 },
 "ofbiz": {
-"apache-ofbiz-18.12.08": [
-"ofbiz/apache-ofbiz-18.12.08.zip"
-],
 "apache-ofbiz-18.12.09": [
 "ofbiz/apache-ofbiz-18.12.09.zip"
+],
+"apache-ofbiz-18.12.10": [
+"ofbiz/apache-ofbiz-18.12.10.zip"
 ]
 },
 "olingo": {
@@ -5995,9 +5998,6 @@
 ],
 "openwhisk-client-js-3.21.3": [
 "openwhisk/20.11/openwhisk-client-js-3.21.3-sources.tar.gz"
-],
-"openwhisk-client-js-3.21.7": [
-"openwhisk/openwhisk-client-js-3.21.7-sources.tar.gz"
 ],
 "openwhisk-client-js-3.21.8": [
 "openwhisk/openwhisk-client-js-3.21.8-sources.tar.gz"
@@ -7054,6 +7054,9 @@
 ],
 "skywalking-cli-0.12.0": [
 "skywalking/cli/0.12.0/skywalking-cli-0.12.0-src.tgz"
+],
+"skywalking-cli-0.13.0": [
+"skywalking/cli/0.13.0/skywalking-cli-0.13.0-src.tgz"
 ],
 "skywalking-client-js-0.10.0": [
 "skywalking/client-js/0.10.0/skywalking-client-js-0.10.0-src.tgz"
@@ -8340,14 +8343,23 @@
 "apache-tinkerpop-3.5.7": [
 "tinkerpop/3.5.7/apache-tinkerpop-3.5.7-src.zip"
 ],
+"apache-tinkerpop-3.5.8": [
+"tinkerpop/3.5.8/apache-tinkerpop-3.5.8-src.zip"
+],
 "apache-tinkerpop-3.6.4": [
 "tinkerpop/3.6.4/apache-tinkerpop-3.6.4-src.zip"
 ],
 "apache-tinkerpop-3.6.5": [
 "tinkerpop/3.6.5/apache-tinkerpop-3.6.5-src.zip"
 ],
+"apache-tinkerpop-3.6.6": [
+"tinkerpop/3.6.6/apache-tinkerpop-3.6.6-src.zip"
+],
 "apache-tinkerpop-3.7.0": [
 "tinkerpop/3.7.0/apache-tinkerpop-3.7.0-src.zip"
+],
+"apache-tinkerpop-3.7.1": [
+"tinkerpop/3.7.1/apache-tinkerpop-3.7.1-src.zip"
 ]
 },
 "tomcat": {

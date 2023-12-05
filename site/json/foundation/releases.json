@@ -689,10 +689,9 @@
 },
 "couchdb": {
 "apache-couchdb-2.3.1": "2019-03-09",
-"apache-couchdb-3.2.2": "2022-04-18",
 "apache-couchdb-3.2.3": "2023-04-25",
-"apache-couchdb-3.3.1": "2023-01-10",
-"apache-couchdb-3.3.2": "2023-04-25"
+"apache-couchdb-3.3.2": "2023-04-25",
+"apache-couchdb-3.3.3": "2023-12-04"
 },
 "creadur": {
 "apache-rat-0.15": "2022-09-17",
@@ -807,10 +806,12 @@
 "apache-doris-flink-connector-1.15-1.2.1": "2022-11-30",
 "apache-doris-flink-connector-1.16-1.3.0": "2022-11-30",
 "apache-doris-flink-connector-1.4.0": "2023-06-13",
+"apache-doris-flink-connector-1.5.0": "2023-11-30",
 "apache-doris-sdk-1.0.0": "2023-05-10",
 "apache-doris-shade-1.0.1": "2023-06-13",
 "apache-doris-shade-1.0.2": "2023-09-28",
 "apache-doris-spark-connector-1.2.0": "2023-06-05",
+"apache-doris-spark-connector-1.3.0": "2023-11-27",
 "apache-doris-spark-connector-2.3_2.11-1.0.1-incubating": "2022-03-19",
 "apache-doris-spark-connector-2.3_2.11-1.1.0": "2022-07-11",
 "apache-doris-spark-connector-3.1_2.12-1.0.1-incubating": "2022-03-19",
@@ -1382,7 +1383,6 @@
 "apache-pegasus-2.4.0-incubating": "2022-10-30"
 },
 "incubator-pekko": {
-"apache-pekko-1.0.1-incubating-20230718": "2023-07-24",
 "apache-pekko-1.0.2-incubating-20231115": "2023-11-15",
 "apache-pekko-connectors-1.0.1-incubating-20231028": "2023-10-28",
 "apache-pekko-connectors-kafka-1.0.0-incubating-20230726": "2023-07-26",
@@ -1646,6 +1646,7 @@
 "lucene": {
 "lucene-8.11.2": "2022-06-13",
 "lucene-9.8.0": "2023-09-22",
+"lucene-9.9.0": "2023-11-30",
 "pylucene-7.7.1": "2019-06-03",
 "pylucene-8.11.0": "2021-12-15",
 "pylucene-9.4.1": "2022-11-07",
@@ -1955,8 +1956,8 @@
 "apache-nuttx-apps-9.1.1-incubating": "2020-12-09"
 },
 "ofbiz": {
-"apache-ofbiz-18.12.08": "2023-06-01",
-"apache-ofbiz-18.12.09": "2023-11-05"
+"apache-ofbiz-18.12.09": "2023-11-05",
+"apache-ofbiz-18.12.10": "2023-12-04"
 },
 "olingo": {
 "Olingo-OData-4.10.0": "2023-10-22",
@@ -2006,7 +2007,6 @@
 "openwhisk-client-go-1.1.0": "2020-11-29",
 "openwhisk-client-go-1.2.0": "2021-03-15",
 "openwhisk-client-js-3.21.3": "2020-11-29",
-"openwhisk-client-js-3.21.7": "2022-08-22",
 "openwhisk-client-js-3.21.8": "2023-12-01",
 "openwhisk-composer-0.12.0": "2020-11-29",
 "openwhisk-deploy-kube-1.0.0": "2020-11-29",
@@ -2388,6 +2388,7 @@
 "skywalking-banyandb-helm-0.1.0": "2023-09-22",
 "skywalking-cli-0.11.0": "2022-09-17",
 "skywalking-cli-0.12.0": "2023-06-20",
+"skywalking-cli-0.13.0": "2023-11-29",
 "skywalking-client-js-0.10.0": "2023-04-16",
 "skywalking-e2e-1.3.0": "2023-11-08",
 "skywalking-helm-4.5.0": "2023-07-10",
@@ -2826,9 +2827,12 @@
 "tinkerpop": {
 "apache-tinkerpop-3.5.6": "2023-05-05",
 "apache-tinkerpop-3.5.7": "2023-08-04",
+"apache-tinkerpop-3.5.8": "2023-12-04",
 "apache-tinkerpop-3.6.4": "2023-05-17",
 "apache-tinkerpop-3.6.5": "2023-08-04",
-"apache-tinkerpop-3.7.0": "2023-08-04"
+"apache-tinkerpop-3.6.6": "2023-12-04",
+"apache-tinkerpop-3.7.0": "2023-08-04",
+"apache-tinkerpop-3.7.1": "2023-12-04"
 },
 "tomcat": {
 "apache-tomcat-10.1.16": "2023-11-10",
