@@ -11609,6 +11609,11 @@
 "programming-language": "Java",
 "release": [
 {
+"created": "2023-12-04",
+"name": "lucene-9.9.0",
+"revision": "9.9.0"
+},
+{
 "created": "2023-09-28",
 "name": "lucene-9.8.0",
 "revision": "9.8.0"
@@ -12686,37 +12691,6 @@
 "http://svn.apache.org/repos/asf/mahout/trunk"
 ],
 "shortdesc": "Scalable machine learning library"
-},
-"manifoldcf": {
-"bug-database": "https://issues.apache.org/jira/browse/CONNECTORS",
-"category": "content",
-"created": "2012-05-17",
-"description": "ManifoldCF is an effort to provide an open source framework for connecting source content repositories like Microsoft Sharepoint and EMC Documentum, to target repositories or indexes, such as Apache Solr , OpenSearchServer or ElasticSearch. ManifoldCF also defines a security model for target repositories that permits them to enforce source-repository security policies.",
-"doap": "http://manifoldcf.apache.org/doap_ManifoldCF.rdf",
-"download-page": "http://manifoldcf.apache.org/en_US/download.html",
-"homepage": "http://manifoldcf.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://manifoldcf.apache.org/en_US/mail.html",
-"maintainer": [
-{
-"mbox": "mailto:kwright@apache.org",
-"name": "Karl Wright"
-}
-],
-"name": "Apache ManifoldCF",
-"pmc": "manifoldcf",
-"programming-language": "Java",
-"release": [
-{
-"created": "2012-05-21",
-"name": "apache-manifoldcf",
-"revision": "0.5.1"
-}
-],
-"repository": [
-"https://svn.apache.org/repos/asf/manifoldcf"
-],
-"shortdesc": "Open-source software for transferring content between repositories or search indexes"
 },
 "maven": {
 "bug-database": "https://issues.apache.org/jira/browse/MNG",
@@ -17325,6 +17299,11 @@
 "pmc": "tika",
 "programming-language": "Java",
 "release": [
+{
+"created": "2023-12-13",
+"name": "Apache Tika 3.0.0-BETA",
+"revision": "3.0.0-BETA"
+},
 {
 "created": "2023-10-20",
 "name": "Apache Tika 2.9.1",
