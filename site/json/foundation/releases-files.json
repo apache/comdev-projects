@@ -735,9 +735,6 @@
 ]
 },
 "arrow": {
-"apache-arrow-14.0.1": [
-"arrow/arrow-14.0.1/apache-arrow-14.0.1.tar.gz"
-],
 "apache-arrow-14.0.2": [
 "arrow/arrow-14.0.2/apache-arrow-14.0.2.tar.gz"
 ],
@@ -997,6 +994,9 @@
 ],
 "bookkeeper-4.15.4": [
 "bookkeeper/bookkeeper-4.15.4/bookkeeper-4.15.4-src.tar.gz"
+],
+"bookkeeper-4.15.5": [
+"bookkeeper/bookkeeper-4.15.5/bookkeeper-4.15.5-src.tar.gz"
 ],
 "bookkeeper-4.16.0": [
 "bookkeeper/bookkeeper-4.16.0/bookkeeper-4.16.0-src.tar.gz"
@@ -2311,6 +2311,9 @@
 "apache-doris-2.0.2": [
 "doris/2.0/2.0.2/apache-doris-2.0.2-src.tar.gz"
 ],
+"apache-doris-2.0.2.1": [
+"doris/2.0/2.0.2.1/apache-doris-2.0.2.1-src.tar.gz"
+],
 "apache-doris-2.0.3": [
 "doris/2.0/2.0.3/apache-doris-2.0.3-src.tar.gz"
 ],
@@ -2431,8 +2434,8 @@
 "apache-dubbo-3.1.11": [
 "dubbo/3.1.11/apache-dubbo-3.1.11-src.zip"
 ],
-"apache-dubbo-3.2.9": [
-"dubbo/3.2.9/apache-dubbo-3.2.9.zip"
+"apache-dubbo-3.2.10": [
+"dubbo/3.2.10/apache-dubbo-3.2.10.zip"
 ],
 "apache-dubbo-3.3.0-beta.1": [
 "dubbo/3.3.0-beta.1/apache-dubbo-3.3.0-beta.1.zip"
@@ -4282,8 +4285,8 @@
 "jackrabbit-2.20.13": [
 "jackrabbit/2.20.13/jackrabbit-2.20.13-src.zip"
 ],
-"jackrabbit-2.21.21": [
-"jackrabbit/2.21.21/jackrabbit-2.21.21-src.zip"
+"jackrabbit-2.21.22": [
+"jackrabbit/2.21.22/jackrabbit-2.21.22-src.zip"
 ],
 "jackrabbit-filevault-3.2.8": [
 "jackrabbit/filevault/3.2.8/jackrabbit-filevault-3.2.8-src.zip"
@@ -4738,6 +4741,9 @@
 ],
 "apache-kvrocks-2.6.0": [
 "kvrocks/2.6.0/apache-kvrocks-2.6.0-src.tar.gz"
+],
+"apache-kvrocks-2.7.0": [
+"kvrocks/2.7.0/apache-kvrocks-2.7.0-src.tar.gz"
 ]
 },
 "kylin": {
@@ -6934,6 +6940,9 @@
 ],
 "shenyu-nginx-1.0.0-1": [
 "shenyu/shenyu-nginx/1.0.0-1/shenyu-nginx-1.0.0-1-src.tar.gz"
+],
+"shenyu-wasm-1.0.0": [
+"shenyu/shenyu-wasm/1.0.0/shenyu-wasm-1.0.0-source-release.zip"
 ]
 },
 "shiro": {
@@ -8410,21 +8419,20 @@
 "tomee/tomee-8.0.16/apache-tomee-8.0.16-webprofile.tar.gz",
 "tomee/tomee-8.0.16/apache-tomee-8.0.16-webprofile.zip"
 ],
-"apache-tomee-9.1.1-microprofile": [
-"tomee/tomee-9.1.1/apache-tomee-9.1.1-microprofile.tar.gz",
-"tomee/tomee-9.1.1/apache-tomee-9.1.1-microprofile.zip"
+"apache-tomee-9.1.2-microprofile": [
+"tomee/tomee-9.1.2/apache-tomee-9.1.2-microprofile.zip"
 ],
-"apache-tomee-9.1.1-plume": [
-"tomee/tomee-9.1.1/apache-tomee-9.1.1-plume.tar.gz",
-"tomee/tomee-9.1.1/apache-tomee-9.1.1-plume.zip"
+"apache-tomee-9.1.2-plume": [
+"tomee/tomee-9.1.2/apache-tomee-9.1.2-plume.tar.gz",
+"tomee/tomee-9.1.2/apache-tomee-9.1.2-plume.zip"
 ],
-"apache-tomee-9.1.1-plus": [
-"tomee/tomee-9.1.1/apache-tomee-9.1.1-plus.tar.gz",
-"tomee/tomee-9.1.1/apache-tomee-9.1.1-plus.zip"
+"apache-tomee-9.1.2-plus": [
+"tomee/tomee-9.1.2/apache-tomee-9.1.2-plus.tar.gz",
+"tomee/tomee-9.1.2/apache-tomee-9.1.2-plus.zip"
 ],
-"apache-tomee-9.1.1-webprofile": [
-"tomee/tomee-9.1.1/apache-tomee-9.1.1-webprofile.tar.gz",
-"tomee/tomee-9.1.1/apache-tomee-9.1.1-webprofile.zip"
+"apache-tomee-9.1.2-webprofile": [
+"tomee/tomee-9.1.2/apache-tomee-9.1.2-webprofile.tar.gz",
+"tomee/tomee-9.1.2/apache-tomee-9.1.2-webprofile.zip"
 ],
 "jakartaee-api-10.0-M2": [
 "tomee/jakartaee-api-10.0-M2/jakartaee-api-10.0-M2-source-release.zip"
@@ -8438,8 +8446,8 @@
 "tomee-8.0.16": [
 "tomee/tomee-8.0.16/tomee-project-8.0.16-source-release.zip"
 ],
-"tomee-9.1.1": [
-"tomee/tomee-9.1.1/tomee-project-9.1.1-source-release.zip"
+"tomee-9.1.2": [
+"tomee/tomee-9.1.2/tomee-project-9.1.2-source-release.zip"
 ],
 "tomee-patch-0.10": [
 "tomee/tomee-patch-plugin-0.10/tomee-patch-parent-0.10-source-release.zip"
