@@ -409,6 +409,7 @@ for s in itemlist :
             print("URL: '%s'" % err.filename, file=sys.stderr)
         print("-"*60, file=sys.stderr)
         failures.append(url)
+        failures.append(str(err))
         if rdf is not None:
             # TODO better conversion to file name
             urlname = url.split('/')[-1]
@@ -443,7 +444,7 @@ if len(failures) > 0:
         f.close()
         if unreportedError:
             s = "\n".join(failures)
-            printMail("ERROR: one or more errors detected - see also the parseprojects.py log file",
+            printMail("ERROR: one or more errors detected - see also the /var/log/parseprojects.log file",
                       body="URLs:\n%s" % s)
 else:
     if os.path.exists("parseprojects-failures.xml"):
