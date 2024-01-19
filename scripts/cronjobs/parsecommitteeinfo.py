@@ -22,7 +22,7 @@ if sys.hexversion < 0x03000000:
 import os
 import os.path
 import xml.etree.ElementTree as ET
-import xml.dom.minidom as minidom
+from xml.dom import minidom
 import datetime
 import sendmail
 
@@ -167,10 +167,7 @@ for group in sorted(committees, key=keyorder):
     if ctte['pmc']: # we only want PMCs
         if ctte['established']: # only want ones with entries in section 3
             # Fix up name where PMC RDF does not agree with LDAP group
-            if group in group_ids:
-                committeeId = group_ids[group]
-            else:
-                committeeId = group
+            committeeId = group_ids.get(group, group)
 
             img = "http://www.apache.org/logos/res/%s/default.png" % committeeId
             if not skipImageTest and not URLexists(img):
@@ -242,7 +239,7 @@ for currId in committeesMap:
     if currId not in committeesPreviousIds:
         addedCommittees.append(currId)
     if currId in committeesRetiredIds: # detect rebooted committees
-      rebootedCommittees.append(currId)
+        rebootedCommittees.append(currId)
 
 print("found %s new committees from %s committees in committee_info.txt" % (len(addedCommittees), committeeCount))
 addedCommittees.sort()
