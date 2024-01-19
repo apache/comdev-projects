@@ -2202,68 +2202,6 @@
 "shortdesc": "Java SOAP Engine"
 },
 {
-"chair": "eskabetxe",
-"charter": "The mission of Bahir is the creation and maintenance of software related to Extensions to distributed analytic platforms such as Apache Spark",
-"established": "2016-05",
-"group": "bahir",
-"homepage": "http://bahir.apache.org/",
-"id": "bahir",
-"name": "Apache Bahir",
-"rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/bahir.rdf",
-"reporting": 3,
-"roster": {
-"ckadner": {
-"date": "2017-03-14",
-"name": "Christian Kadner"
-},
-"eskabetxe": {
-"date": "2020-07-10",
-"name": "Jo\u00e3o Boto"
-},
-"jbonofre": {
-"date": "2016-05-18",
-"name": "Jean-Baptiste Onofr\u00e9"
-},
-"lresende": {
-"date": "2016-05-18",
-"name": "Luciano Resende"
-},
-"mattmann": {
-"date": "2016-05-18",
-"name": "Chris Mattmann"
-},
-"mridulm80": {
-"date": "2016-05-18",
-"name": "Mridul Muralidharan"
-},
-"prashant": {
-"date": "2018-10-20",
-"name": "Prashant Sharma"
-},
-"rmetzger": {
-"date": "2017-04-06",
-"name": "Robert Metzger"
-},
-"rxin": {
-"date": "2016-05-18",
-"name": "Reynold Xin"
-},
-"stevel": {
-"date": "2016-05-18",
-"name": "Steve Loughran"
-},
-"tedyu": {
-"date": "2018-06-25",
-"name": "Zhihong Yu"
-},
-"vanzin": {
-"date": "2016-05-18",
-"name": "Marcelo Masiero Vanzin"
-}
-},
-"shortdesc": "Extensions to distributed analytic platforms such as Apache Spark"
-},
-{
 "chair": "kenn",
 "charter": "The mission of Apache Beam is the creation and maintenance of software related to a unified programming model for both batch and streaming data processing, enabling efficient execution across diverse distributed execution engines and providing extensibility points for connecting to different technologies and user communities.",
 "established": "2016-12",
@@ -2382,7 +2320,7 @@
 "shortdesc": "Programming model, SDKs, and runners for defining and executing data processing pipelines"
 },
 {
-"chair": "guyuqi",
+"chair": "iwasakims",
 "charter": "Bigtop is a project for the development of packaging and tests of the Apache Hadoop ecosystem. The primary goal of Bigtop is to build a community around the packaging and interoperability testing of Hadoop-related projects. This includes testing at various levels (packaging, platform, runtime, upgrade, etc...) developed by a community with a focus on the system as a whole, rather than individual projects. In short we strive to be for Hadoop what Debian is to Linux.",
 "established": "2012-09",
 "group": "bigtop",
@@ -10506,7 +10444,6 @@
 "id": "incubator",
 "name": "Apache Incubator",
 "rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/incubator.rdf",
-"reporting": 0,
 "roster": {
 "aajisaka": {
 "date": "2018-12-08",
@@ -10803,6 +10740,10 @@
 "evansye": {
 "date": "2019-10-30",
 "name": "Evans Ye"
+},
+"eya": {
+"date": "2024-01-17",
+"name": "Eya Badal"
 },
 "fanningpj": {
 "date": "2022-10-03",
@@ -13586,7 +13527,7 @@
 "shortdesc": "Cross-language logging services"
 },
 {
-"chair": "gsmiller",
+"chair": "chegar",
 "charter": "The mission of Lucene is the creation and maintenance of software related to Search engine library",
 "established": "2005-01",
 "group": "lucene",
@@ -15884,6 +15825,74 @@
 }
 },
 "shortdesc": "A workflow scheduler system to manage Apache Hadoop jobs."
+},
+{
+"chair": "xuanwo",
+"established": "2024-01",
+"group": "opendal",
+"homepage": "http://opendal.apache.org",
+"id": "opendal",
+"name": "Apache OpenDAL",
+"reporting": 3,
+"roster": {
+"cailue": {
+"date": "2024-01-17",
+"name": "Cai Lue"
+},
+"gxd": {
+"date": "2024-01-17",
+"name": "Xiangdong"
+},
+"hexiaoqiao": {
+"date": "2024-01-17",
+"name": "Xiaoqiao He"
+},
+"junouyang": {
+"date": "2024-01-17",
+"name": "Jun Ouyang"
+},
+"manjusaka": {
+"date": "2024-01-17",
+"name": "Zheao Li"
+},
+"ningjiang": {
+"date": "2024-01-17",
+"name": "Willem Ning Jiang"
+},
+"psiace": {
+"date": "2024-01-17",
+"name": "Chojan Shang"
+},
+"silver": {
+"date": "2024-01-17",
+"name": "Mingzhuo Yin"
+},
+"sundyli": {
+"date": "2024-01-17",
+"name": "Sundy Li"
+},
+"suyanhanx": {
+"date": "2024-01-17",
+"name": "Han Xu"
+},
+"tedliu": {
+"date": "2024-01-17",
+"name": "Ted Liu"
+},
+"tison": {
+"date": "2024-01-17",
+"name": "Zili Chen"
+},
+"wusheng": {
+"date": "2024-01-17",
+"name": "Sheng Wu"
+},
+"xuanwo": {
+"date": "2024-01-17",
+"name": "Hao Ding"
+}
+},
+"shortdesc": "the creation and maintenance of software related to Open Data Access Layer: Access data freely, painlessly, and efficiently"
 },
 {
 "chair": "struberg",

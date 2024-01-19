@@ -2242,6 +2242,9 @@
 "directory/mavibot/dist/1.0.0-M8/mavibot-1.0.0-M8-src.tar.bz2",
 "directory/mavibot/dist/1.0.0-M8/mavibot-1.0.0-M8-src.tar.gz",
 "directory/mavibot/dist/1.0.0-M8/mavibot-1.0.0-M8-src.zip"
+],
+"scimple-1.0.0-M1": [
+"directory/scimple/dist/1.0.0-M1/scimple-1.0.0-M1-source-release.zip"
 ]
 },
 "dolphinscheduler": {
@@ -2533,9 +2536,9 @@
 "felix/org.apache.felix.bundlerepository-2.0.10-source-release.tar.gz",
 "felix/org.apache.felix.bundlerepository-2.0.10-source-release.zip"
 ],
-"org.apache.felix.cm.json-2.0.4": [
-"felix/org.apache.felix.cm.json-2.0.4-source-release.tar.gz",
-"felix/org.apache.felix.cm.json-2.0.4-source-release.zip"
+"org.apache.felix.cm.json-2.0.6": [
+"felix/org.apache.felix.cm.json-2.0.6-source-release.tar.gz",
+"felix/org.apache.felix.cm.json-2.0.6-source-release.zip"
 ],
 "org.apache.felix.configadmin-1.9.26": [
 "felix/org.apache.felix.configadmin-1.9.26-source-release.tar.gz",
@@ -2983,6 +2986,9 @@
 ],
 "apache-fineract-1.8.4": [
 "fineract/1.8.4/apache-fineract-1.8.4-src.tar.gz"
+],
+"apache-fineract-1.9.0": [
+"fineract/1.9.0/apache-fineract-1.9.0-src.tar.gz"
 ]
 },
 "flagon": {
@@ -3967,8 +3973,8 @@
 ]
 },
 "incubator-devlake": {
-"apache-devlake-0.18.0-incubating": [
-"incubator/devlake/0.18.0-incubating/apache-devlake-0.18.0-incubating-src.tar.gz"
+"apache-devlake-0.19.0-incubating": [
+"incubator/devlake/0.19.0-incubating/apache-devlake-0.19.0-incubating-src.tar.gz"
 ]
 },
 "incubator-horaedb": {
@@ -4080,11 +4086,6 @@
 "incubator/nlpcraft/java-client/apache-nlpcraft-java-client-incubating-0.9.0.zip"
 ]
 },
-"incubator-opendal": {
-"apache-opendal-incubating-0.44.1": [
-"incubator/opendal/0.44.1/apache-opendal-incubating-0.44.1-src.tar.gz"
-]
-},
 "incubator-paimon": {
 "apache-paimon-0.4.0-incubating": [
 "incubator/paimon/paimon-0.4.0-incubating/apache-paimon-0.4.0-incubating-src.tgz"
@@ -4117,9 +4118,6 @@
 "apache-pekko-connectors-kafka-1.0.0-incubating-20230726": [
 "incubator/pekko/CONNECTORS-KAFKA-1.0.0/apache-pekko-connectors-kafka-1.0.0-incubating-src-20230726.tgz",
 "incubator/pekko/CONNECTORS-KAFKA-1.0.0/apache-pekko-connectors-kafka-1.0.0-incubating-src-20230726.zip"
-],
-"apache-pekko-grpc-1.0.1-incubating-20231005": [
-"incubator/pekko/GRPC-1.0.1/apache-pekko-grpc-1.0.1-incubating-src-20231005.tgz"
 ],
 "apache-pekko-grpc-1.0.2-incubating-20231229": [
 "incubator/pekko/GRPC-1.0.2/apache-pekko-grpc-1.0.2-incubating-src-20231229.tgz"
@@ -5468,6 +5466,12 @@
 "mina/sshd/2.11.0/apache-sshd-2.11.0.tar.gz",
 "mina/sshd/2.11.0/apache-sshd-2.11.0.zip"
 ],
+"apache-sshd-2.12.0": [
+"mina/sshd/2.12.0/apache-sshd-2.12.0-src.tar.gz",
+"mina/sshd/2.12.0/apache-sshd-2.12.0-src.zip",
+"mina/sshd/2.12.0/apache-sshd-2.12.0.tar.gz",
+"mina/sshd/2.12.0/apache-sshd-2.12.0.zip"
+],
 "apache-sshd-2.9.2": [
 "mina/sshd/2.9.2/apache-sshd-2.9.2-src.tar.gz",
 "mina/sshd/2.9.2/apache-sshd-2.9.2-src.zip",
@@ -5949,6 +5953,11 @@
 "oozie/5.2.1/oozie-5.2.1.tar.gz"
 ]
 },
+"opendal": {
+"apache-opendal-incubating-0.44.1": [
+"opendal/0.44.1/apache-opendal-incubating-0.44.1-src.tar.gz"
+]
+},
 "openjpa": {
 "apache-openjpa-2.2.2": [
 "openjpa/2.2.2/apache-openjpa-2.2.2-source.zip"
@@ -6152,6 +6161,10 @@
 "ozone-1.3.0": [
 "ozone/1.3.0/ozone-1.3.0-src.tar.gz",
 "ozone/1.3.0/ozone-1.3.0.tar.gz"
+],
+"ozone-1.4.0": [
+"ozone/1.4.0/ozone-1.4.0-src.tar.gz",
+"ozone/1.4.0/ozone-1.4.0.tar.gz"
 ]
 },
 "parquet": {
@@ -6964,6 +6977,9 @@
 ],
 "apache-sedona-1.5.0": [
 "sedona/1.5.0/apache-sedona-1.5.0-src.tar.gz"
+],
+"apache-sedona-1.5.1": [
+"sedona/1.5.1/apache-sedona-1.5.1-src.tar.gz"
 ]
 },
 "serf": {
@@ -7022,8 +7038,8 @@
 ]
 },
 "shenyu": {
-"apache-shenyu-2.6.0": [
-"shenyu/2.6.0/apache-shenyu-2.6.0-src.zip"
+"apache-shenyu-2.6.1": [
+"shenyu/2.6.1/apache-shenyu-2.6.1-src.zip"
 ],
 "shenyu-client-dotnet-v1.0.0": [
 "shenyu/shenyu-client-dotnet/v1.0.0/shenyu-client-dotnet-v1.0.0-src.tar.gz"
@@ -7790,8 +7806,8 @@
 "org.apache.sling.resourceresolver-1.11.4": [
 "sling/org.apache.sling.resourceresolver-1.11.4-source-release.zip"
 ],
-"org.apache.sling.rewriter-1.3.6": [
-"sling/org.apache.sling.rewriter-1.3.6-source-release.zip"
+"org.apache.sling.rewriter-1.3.8": [
+"sling/org.apache.sling.rewriter-1.3.8-source-release.zip"
 ],
 "org.apache.sling.sample.slingshot-0.9.0": [
 "sling/org.apache.sling.sample.slingshot-0.9.0-source-release.zip"
@@ -8094,9 +8110,9 @@
 ]
 },
 "solr": {
-"solr-9.4.0": [
-"solr/solr/9.4.0/solr-9.4.0-src.tgz",
-"solr/solr/9.4.0/solr-9.4.0.tgz"
+"solr-9.4.1": [
+"solr/solr/9.4.1/solr-9.4.1-src.tgz",
+"solr/solr/9.4.1/solr-9.4.1.tgz"
 ],
 "solr-operator-v0.7.1": [
 "solr/solr-operator/v0.7.1/solr-operator-v0.7.1.tgz"
@@ -8319,6 +8335,12 @@
 ],
 "apache-superset-3.0.2": [
 "superset/3.0.2/apache-superset-3.0.2-source.tar.gz"
+],
+"apache-superset-3.0.3": [
+"superset/3.0.3/apache-superset-3.0.3-source.tar.gz"
+],
+"apache-superset-3.1.0": [
+"superset/3.1.0/apache-superset-3.1.0-source.tar.gz"
 ]
 },
 "synapse": {
