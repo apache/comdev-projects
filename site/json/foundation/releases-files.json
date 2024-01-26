@@ -727,8 +727,8 @@
 "apache-arrow-ballista-0.11.0": [
 "arrow/arrow-ballista-0.11.0/apache-arrow-ballista-0.11.0.tar.gz"
 ],
-"apache-arrow-datafusion-34.0.0": [
-"arrow/arrow-datafusion-34.0.0/apache-arrow-datafusion-34.0.0.tar.gz"
+"apache-arrow-datafusion-35.0.0": [
+"arrow/arrow-datafusion-35.0.0/apache-arrow-datafusion-35.0.0.tar.gz"
 ],
 "apache-arrow-datafusion-python-34.0.0": [
 "arrow/arrow-datafusion-python-34.0.0/apache-arrow-datafusion-python-34.0.0.tar.gz"
@@ -4121,8 +4121,8 @@
 "apache-pekko-1.0.2-incubating-20231115": [
 "incubator/pekko/1.0.2/apache-pekko-1.0.2-incubating-src-20231115.tgz"
 ],
-"apache-pekko-connectors-1.0.1-incubating-20231028": [
-"incubator/pekko/CONNECTORS-1.0.1/apache-pekko-connectors-1.0.1-incubating-src-20231028.tgz"
+"apache-pekko-connectors-1.0.2-incubating-20240109": [
+"incubator/pekko/CONNECTORS-1.0.2/apache-pekko-connectors-1.0.2-incubating-src-20240109.tgz"
 ],
 "apache-pekko-connectors-kafka-1.0.0-incubating-20230726": [
 "incubator/pekko/CONNECTORS-KAFKA-1.0.0/apache-pekko-connectors-kafka-1.0.0-incubating-src-20230726.tgz",
@@ -6601,11 +6601,17 @@
 "pulsar-3.1.0": [
 "pulsar/helm-chart/3.1.0/pulsar-3.1.0.tgz"
 ],
+"pulsar-3.2.0": [
+"pulsar/helm-chart/3.2.0/pulsar-3.2.0.tgz"
+],
 "pulsar-chart-3.0.0": [
 "pulsar/helm-chart/3.0.0/pulsar-chart-3.0.0-source.tar.gz"
 ],
 "pulsar-chart-3.1.0": [
 "pulsar/helm-chart/3.1.0/pulsar-chart-3.1.0-source.tar.gz"
+],
+"pulsar-chart-3.2.0": [
+"pulsar/helm-chart/3.2.0/pulsar-chart-3.2.0-source.tar.gz"
 ],
 "pulsar-client-node-1.7.0": [
 "pulsar/pulsar-client-node/pulsar-client-node-1.7.0/pulsar-client-node-1.7.0.tar.gz"
@@ -6821,6 +6827,9 @@
 ],
 "rocketmq-client-golang-5.0.0": [
 "rocketmq/rocketmq-clients/rocketmq-client-golang/5.0.0/rocketmq-client-golang-5.0.0-source-release.tar.gz"
+],
+"rocketmq-client-golang-v5.1.0": [
+"rocketmq/rocketmq-clients/rocketmq-client-golang/5.1.0/rocketmq-client-golang-v5.1.0-source-release.zip"
 ],
 "rocketmq-client-java-5.0.0": [
 "rocketmq/rocketmq-clients/rocketmq-client-java/5.0.0/rocketmq-client-java-5.0.0-source-release.zip"
@@ -7962,29 +7971,29 @@
 "org.apache.sling.testing.hamcrest-1.0.2": [
 "sling/org.apache.sling.testing.hamcrest-1.0.2-source-release.zip"
 ],
-"org.apache.sling.testing.jcr-mock-1.6.12": [
-"sling/org.apache.sling.testing.jcr-mock-1.6.12-source-release.zip"
+"org.apache.sling.testing.jcr-mock-1.6.14": [
+"sling/org.apache.sling.testing.jcr-mock-1.6.14-source-release.zip"
 ],
 "org.apache.sling.testing.logging-mock-2.0.0": [
 "sling/org.apache.sling.testing.logging-mock-2.0.0-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock-3.4.0": [
-"sling/org.apache.sling.testing.osgi-mock-3.4.0-source-release.zip"
+"org.apache.sling.testing.osgi-mock-3.4.2": [
+"sling/org.apache.sling.testing.osgi-mock-3.4.2-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.core-3.4.0": [
-"sling/org.apache.sling.testing.osgi-mock.core-3.4.0-source-release.zip"
+"org.apache.sling.testing.osgi-mock.core-3.4.2": [
+"sling/org.apache.sling.testing.osgi-mock.core-3.4.2-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.junit4-3.4.0": [
-"sling/org.apache.sling.testing.osgi-mock.junit4-3.4.0-source-release.zip"
+"org.apache.sling.testing.osgi-mock.junit4-3.4.2": [
+"sling/org.apache.sling.testing.osgi-mock.junit4-3.4.2-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.junit5-3.4.0": [
-"sling/org.apache.sling.testing.osgi-mock.junit5-3.4.0-source-release.zip"
+"org.apache.sling.testing.osgi-mock.junit5-3.4.2": [
+"sling/org.apache.sling.testing.osgi-mock.junit5-3.4.2-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.parent-3.4.0": [
-"sling/org.apache.sling.testing.osgi-mock.parent-3.4.0-source-release.zip"
+"org.apache.sling.testing.osgi-mock.parent-3.4.2": [
+"sling/org.apache.sling.testing.osgi-mock.parent-3.4.2-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.test-services-3.4.0": [
-"sling/org.apache.sling.testing.osgi-mock.test-services-3.4.0-source-release.zip"
+"org.apache.sling.testing.osgi-mock.test-services-3.4.2": [
+"sling/org.apache.sling.testing.osgi-mock.test-services-3.4.2-source-release.zip"
 ],
 "org.apache.sling.testing.paxexam-3.1.0": [
 "sling/org.apache.sling.testing.paxexam-3.1.0-source-release.zip"
@@ -7992,8 +8001,8 @@
 "org.apache.sling.testing.paxexam-4.0.0": [
 "sling/org.apache.sling.testing.paxexam-4.0.0-source-release.zip"
 ],
-"org.apache.sling.testing.resourceresolver-mock-1.4.4": [
-"sling/org.apache.sling.testing.resourceresolver-mock-1.4.4-source-release.zip"
+"org.apache.sling.testing.resourceresolver-mock-1.4.6": [
+"sling/org.apache.sling.testing.resourceresolver-mock-1.4.6-source-release.zip"
 ],
 "org.apache.sling.testing.rules-2.0.2": [
 "sling/org.apache.sling.testing.rules-2.0.2-source-release.zip"
@@ -8010,8 +8019,8 @@
 "org.apache.sling.testing.serversetup-1.0.4": [
 "sling/org.apache.sling.testing.serversetup-1.0.4-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock-3.4.16": [
-"sling/org.apache.sling.testing.sling-mock-3.4.16-source-release.zip"
+"org.apache.sling.testing.sling-mock-3.4.18": [
+"sling/org.apache.sling.testing.sling-mock-3.4.18-source-release.zip"
 ],
 "org.apache.sling.testing.sling-mock-jackrabbit-1.0.0": [
 "sling/org.apache.sling.testing.sling-mock-jackrabbit-1.0.0-source-release.zip"
@@ -8019,17 +8028,17 @@
 "org.apache.sling.testing.sling-mock-oak-3.1.10-1.44.0": [
 "sling/org.apache.sling.testing.sling-mock-oak-3.1.10-1.44.0-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.core-3.4.16": [
-"sling/org.apache.sling.testing.sling-mock.core-3.4.16-source-release.zip"
+"org.apache.sling.testing.sling-mock.core-3.4.18": [
+"sling/org.apache.sling.testing.sling-mock.core-3.4.18-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.junit4-3.4.16": [
-"sling/org.apache.sling.testing.sling-mock.junit4-3.4.16-source-release.zip"
+"org.apache.sling.testing.sling-mock.junit4-3.4.18": [
+"sling/org.apache.sling.testing.sling-mock.junit4-3.4.18-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.junit5-3.4.16": [
-"sling/org.apache.sling.testing.sling-mock.junit5-3.4.16-source-release.zip"
+"org.apache.sling.testing.sling-mock.junit5-3.4.18": [
+"sling/org.apache.sling.testing.sling-mock.junit5-3.4.18-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.parent-3.4.16": [
-"sling/org.apache.sling.testing.sling-mock.parent-3.4.16-source-release.zip"
+"org.apache.sling.testing.sling-mock.parent-3.4.18": [
+"sling/org.apache.sling.testing.sling-mock.parent-3.4.18-source-release.zip"
 ],
 "org.apache.sling.testing.tools-1.0.16": [
 "sling/org.apache.sling.testing.tools-1.0.16-source-release.zip"
