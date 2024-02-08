@@ -250,7 +250,7 @@
 "arrow": {
 "apache-arrow-15.0.0": "2024-01-16",
 "apache-arrow-adbc-0.9.0": "2024-01-03",
-"apache-arrow-ballista-0.11.0": "2023-02-28",
+"apache-arrow-ballista-0.12.0": "2024-02-07",
 "apache-arrow-datafusion-35.0.0": "2024-01-25",
 "apache-arrow-datafusion-python-35.0.0": "2024-02-04",
 "apache-arrow-flight-sql-postgresql-0.1.0": "2023-09-13",
@@ -717,14 +717,14 @@
 "apache-datafu-sources-2.0.0": "2024-01-14"
 },
 "datasketches": {
-"apache-datasketches-cpp-4.1.0": "2023-05-03",
 "apache-datasketches-hive-1.2.0": "2022-03-07",
 "apache-datasketches-java-5.0.1": "2024-01-02",
 "apache-datasketches-memory-2.2.0": "2022-08-15",
 "apache-datasketches-pig-1.1.0": "2022-02-17",
 "apache-datasketches-postgresql-1.7.0": "2023-12-14",
+"apache-datasketches-python-5.0.0": "2024-02-07",
 "datasketches-1.7.0": "2023-12-14",
-"datasketches-4.1.0": "2023-05-03"
+"datasketches-5.0.0": "2024-02-07"
 },
 "db": {
 "db-derby-10.14.2.0": "2018-05-03",
@@ -1151,7 +1151,8 @@
 "hadoop-3.3.6": "2023-06-25",
 "hadoop-thirdparty-1.0.0": "2020-03-18",
 "hadoop-thirdparty-1.1.0": "2021-05-18",
-"hadoop-thirdparty-1.1.1": "2021-06-01"
+"hadoop-thirdparty-1.1.1": "2021-06-01",
+"hadoop-thirdparty-1.2.0": "2024-02-07"
 },
 "hawq": {
 "apache-hawq-2.4.0.0": "2018-09-13",
@@ -1399,6 +1400,7 @@
 "apache-pekko-connectors-kafka-1.0.0-incubating-20230726": "2023-07-26",
 "apache-pekko-grpc-1.0.2-incubating-20231229": "2023-12-29",
 "apache-pekko-http-1.0.0-incubating-20230726": "2023-08-01",
+"apache-pekko-http-1.0.1-incubating-20240128": "2024-01-28",
 "apache-pekko-management-1.0.0-incubating-20230805": "2023-08-05",
 "apache-pekko-persistence-cassandra-1.0.0-incubating-20230916": "2023-09-16",
 "apache-pekko-persistence-dynamodb-1.0.0-incubating-20231110": "2023-11-10",
@@ -2059,9 +2061,9 @@
 "openwhisk-runtime-nodejs-1.16.0": "2020-11-29",
 "openwhisk-runtime-nodejs-1.22.0": "2023-09-21",
 "openwhisk-runtime-php-1.15.0": "2020-11-29",
-"openwhisk-runtime-php-1.19.0": "2023-09-10",
+"openwhisk-runtime-php-1.20.0": "2024-02-07",
 "openwhisk-runtime-python-1.15.0": "2020-11-29",
-"openwhisk-runtime-python-1.18.0": "2023-05-29",
+"openwhisk-runtime-python-1.19.0": "2024-02-07",
 "openwhisk-runtime-ruby-1.15.0": "2020-11-29",
 "openwhisk-runtime-ruby-1.17.0": "2021-08-11",
 "openwhisk-runtime-rust-1.1.0": "2020-11-29",

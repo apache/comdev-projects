@@ -734,8 +734,8 @@
 "apache-arrow-adbc-0.9.0": [
 "arrow/apache-arrow-adbc-0.9.0/apache-arrow-adbc-0.9.0.tar.gz"
 ],
-"apache-arrow-ballista-0.11.0": [
-"arrow/arrow-ballista-0.11.0/apache-arrow-ballista-0.11.0.tar.gz"
+"apache-arrow-ballista-0.12.0": [
+"arrow/arrow-ballista-0.12.0/apache-arrow-ballista-0.12.0.tar.gz"
 ],
 "apache-arrow-datafusion-35.0.0": [
 "arrow/arrow-datafusion-35.0.0/apache-arrow-datafusion-35.0.0.tar.gz"
@@ -2137,9 +2137,6 @@
 ]
 },
 "datasketches": {
-"apache-datasketches-cpp-4.1.0": [
-"datasketches/cpppy/4.1.0/apache-datasketches-cpp-4.1.0-src.zip"
-],
 "apache-datasketches-hive-1.2.0": [
 "datasketches/hive/1.2.0/apache-datasketches-hive-1.2.0-src.zip"
 ],
@@ -2155,11 +2152,14 @@
 "apache-datasketches-postgresql-1.7.0": [
 "datasketches/postgresql/1.7.0/apache-datasketches-postgresql-1.7.0-src.zip"
 ],
+"apache-datasketches-python-5.0.0": [
+"datasketches/python/5.0.0/apache-datasketches-python-5.0.0-src.zip"
+],
 "datasketches-1.7.0": [
 "datasketches/postgresql/1.7.0/pgxn.org/datasketches-1.7.0.zip"
 ],
-"datasketches-4.1.0": [
-"datasketches/cpppy/4.1.0/pypi/datasketches-4.1.0.tar.gz"
+"datasketches-5.0.0": [
+"datasketches/python/5.0.0/pypi/datasketches-5.0.0.tar.gz"
 ]
 },
 "db": {
@@ -3503,6 +3503,9 @@
 ],
 "hadoop-thirdparty-1.1.1": [
 "hadoop/thirdparty/thirdparty-1.1.1/hadoop-thirdparty-1.1.1-src.tar.gz"
+],
+"hadoop-thirdparty-1.2.0": [
+"hadoop/thirdparty/thirdparty-1.2.0/hadoop-thirdparty-1.2.0-src.tar.gz"
 ]
 },
 "hawq": {
@@ -4183,6 +4186,9 @@
 "apache-pekko-http-1.0.0-incubating-20230726": [
 "incubator/pekko/HTTP-1.0.0/apache-pekko-http-1.0.0-incubating-src-20230726.tgz",
 "incubator/pekko/HTTP-1.0.0/apache-pekko-http-1.0.0-incubating-src-20230726.zip"
+],
+"apache-pekko-http-1.0.1-incubating-20240128": [
+"incubator/pekko/HTTP-1.0.1/apache-pekko-http-1.0.1-incubating-src-20240128.tgz"
 ],
 "apache-pekko-management-1.0.0-incubating-20230805": [
 "incubator/pekko/MANAGEMENT-1.0.0/apache-pekko-management-1.0.0-incubating-src-20230805.tgz"
@@ -6167,14 +6173,14 @@
 "openwhisk-runtime-php-1.15.0": [
 "openwhisk/20.11/openwhisk-runtime-php-1.15.0-sources.tar.gz"
 ],
-"openwhisk-runtime-php-1.19.0": [
-"openwhisk/openwhisk-runtime-php-1.19.0-sources.tar.gz"
+"openwhisk-runtime-php-1.20.0": [
+"openwhisk/openwhisk-runtime-php-1.20.0-sources.tar.gz"
 ],
 "openwhisk-runtime-python-1.15.0": [
 "openwhisk/20.11/openwhisk-runtime-python-1.15.0-sources.tar.gz"
 ],
-"openwhisk-runtime-python-1.18.0": [
-"openwhisk/openwhisk-runtime-python-1.18.0-sources.tar.gz"
+"openwhisk-runtime-python-1.19.0": [
+"openwhisk/openwhisk-runtime-python-1.19.0-sources.tar.gz"
 ],
 "openwhisk-runtime-ruby-1.15.0": [
 "openwhisk/20.11/openwhisk-runtime-ruby-1.15.0-sources.tar.gz"
