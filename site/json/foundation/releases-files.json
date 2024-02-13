@@ -80,17 +80,17 @@
 ]
 },
 "airflow": {
-"airflow-1.10.0": [
-"airflow/helm-chart/1.10.0/airflow-1.10.0.tgz"
-],
 "airflow-1.11.0": [
 "airflow/helm-chart/1.11.0/airflow-1.11.0.tgz"
 ],
-"airflow-chart-1.10.0": [
-"airflow/helm-chart/1.10.0/airflow-chart-1.10.0-source.tar.gz"
+"airflow-1.12.0": [
+"airflow/helm-chart/1.12.0/airflow-1.12.0.tgz"
 ],
 "airflow-chart-1.11.0": [
 "airflow/helm-chart/1.11.0/airflow-chart-1.11.0-source.tar.gz"
+],
+"airflow-chart-1.12.0": [
+"airflow/helm-chart/1.12.0/airflow-chart-1.12.0-source.tar.gz"
 ],
 "apache-airflow-2.8.1": [
 "airflow/2.8.1/apache-airflow-2.8.1-source.tar.gz"
@@ -4423,17 +4423,20 @@
 "apache-jspf-sources-1.0.3": [
 "james/jspf/1.0.3/apache-jspf-sources-1.0.3.zip"
 ],
-"james-3.6.2": [
-"james/server/3.6.2/james-project-3.6.2-source-release.zip"
-],
 "james-3.7.3": [
 "james/server/3.7.3/james-project-3.7.3-source-release.zip"
 ],
 "james-3.7.4": [
 "james/server/3.7.4/james-project-3.7.4-source-release.zip"
 ],
+"james-3.7.5": [
+"james/server/3.7.5/james-project-3.7.5-source-release.zip"
+],
 "james-3.8.0": [
 "james/server/3.8.0/james-project-3.8.0-source-release.zip"
+],
+"james-3.8.1": [
+"james/server/3.8.1/james-project-3.8.1-source-release.zip"
 ],
 "james-mime4j-sources-0.8.10": [
 "james/mime4j/0.8.10/james-mime4j-sources-0.8.10.zip"
@@ -4441,41 +4444,41 @@
 "james-mime4j-sources-0.8.9": [
 "james/mime4j/0.8.9/james-mime4j-sources-0.8.9.zip"
 ],
-"james-server-app-3.6.2": [
-"james/server/3.6.2/james-server-app-3.6.2-app.zip"
-],
 "james-server-app-3.8.0": [
 "james/server/3.8.0/james-server-app-3.8.0-app.zip"
 ],
 "james-server-cassandra": [
 "james/server/3.7.3/james-server-cassandra-app.zip",
 "james/server/3.7.4/james-server-cassandra-app.zip",
-"james/server/3.8.0/james-server-cassandra-app.zip"
+"james/server/3.7.5/james-server-cassandra-app.zip",
+"james/server/3.8.0/james-server-cassandra-app.zip",
+"james/server/3.8.1/james-server-cassandra-app.zip"
 ],
 "james-server-cassandra-guice": [
-"james/server/3.6.2/james-server-cassandra-guice.zip",
 "james/server/3.7.3/james-server-cassandra-guice.zip",
 "james/server/3.7.4/james-server-cassandra-guice.zip",
+"james/server/3.7.5/james-server-cassandra-guice.zip",
 "james/server/3.8.0/james-server-cassandra-guice.zip",
 "james/server/3.8.1/james-server-cassandra-guice.zip"
 ],
 "james-server-distributed": [
 "james/server/3.7.3/james-server-distributed-app.zip",
 "james/server/3.7.4/james-server-distributed-app.zip",
+"james/server/3.7.5/james-server-distributed-app.zip",
 "james/server/3.8.0/james-server-distributed-app.zip",
 "james/server/3.8.1/james-server-distributed-app.zip"
 ],
 "james-server-distributed-guice": [
-"james/server/3.6.2/james-server-distributed-guice.zip",
 "james/server/3.7.3/james-server-distributed-guice.zip",
 "james/server/3.7.4/james-server-distributed-guice.zip",
+"james/server/3.7.5/james-server-distributed-guice.zip",
 "james/server/3.8.0/james-server-distributed-guice.zip",
 "james/server/3.8.1/james-server-distributed-guice.zip"
 ],
 "james-server-jpa-guice": [
-"james/server/3.6.2/james-server-jpa-guice.zip",
 "james/server/3.7.3/james-server-jpa-guice.zip",
 "james/server/3.7.4/james-server-jpa-guice.zip",
+"james/server/3.7.5/james-server-jpa-guice.zip",
 "james/server/3.8.0/james-server-jpa-guice.zip",
 "james/server/3.8.1/james-server-jpa-guice.zip"
 ],
@@ -4484,6 +4487,9 @@
 ],
 "james-server-spring-app-3.7.4": [
 "james/server/3.7.4/james-server-spring-app-3.7.4-app.zip"
+],
+"james-server-spring-app-3.7.5": [
+"james/server/3.7.5/james-server-spring-app-3.7.5-app.zip"
 ],
 "james-server-spring-app-3.8.1": [
 "james/server/3.8.1/james-server-spring-app-3.8.1-app.zip"
@@ -6755,8 +6761,8 @@
 ]
 },
 "qpid": {
-"apache-qpid-broker-j-9.1.0": [
-"qpid/broker-j/9.1.0/apache-qpid-broker-j-9.1.0-src.tar.gz"
+"apache-qpid-broker-j-9.2.0": [
+"qpid/broker-j/9.2.0/apache-qpid-broker-j-9.2.0-src.tar.gz"
 ],
 "apache-qpid-jms-1.11.0": [
 "qpid/jms/1.11.0/apache-qpid-jms-1.11.0-src.tar.gz"
@@ -8223,9 +8229,9 @@
 ]
 },
 "solr": {
-"solr-9.4.1": [
-"solr/solr/9.4.1/solr-9.4.1-src.tgz",
-"solr/solr/9.4.1/solr-9.4.1.tgz"
+"solr-9.5.0": [
+"solr/solr/9.5.0/solr-9.5.0-src.tgz",
+"solr/solr/9.5.0/solr-9.5.0.tgz"
 ],
 "solr-operator-v0.7.1": [
 "solr/solr-operator/v0.7.1/solr-operator-v0.7.1.tgz"
