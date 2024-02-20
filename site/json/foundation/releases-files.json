@@ -746,6 +746,9 @@
 "apache-arrow-datafusion-35.0.0": [
 "arrow/arrow-datafusion-35.0.0/apache-arrow-datafusion-35.0.0.tar.gz"
 ],
+"apache-arrow-datafusion-36.0.0": [
+"arrow/arrow-datafusion-36.0.0/apache-arrow-datafusion-36.0.0.tar.gz"
+],
 "apache-arrow-datafusion-python-35.0.0": [
 "arrow/arrow-datafusion-python-35.0.0/apache-arrow-datafusion-python-35.0.0.tar.gz"
 ],
@@ -1044,6 +1047,28 @@
 "apache-brooklyn-1.0.0-vagrant": [
 "brooklyn/apache-brooklyn-1.0.0/apache-brooklyn-1.0.0-vagrant.tar.gz",
 "brooklyn/apache-brooklyn-1.0.0/apache-brooklyn-1.0.0-vagrant.zip"
+],
+"apache-brooklyn-1.1.0": [
+"brooklyn/apache-brooklyn-1.1.0/apache-brooklyn-1.1.0-src.tar.gz",
+"brooklyn/apache-brooklyn-1.1.0/apache-brooklyn-1.1.0-src.zip"
+],
+"apache-brooklyn-1.1.0-classic": [
+"brooklyn/apache-brooklyn-1.1.0/apache-brooklyn-1.1.0-classic.tar.gz",
+"brooklyn/apache-brooklyn-1.1.0/apache-brooklyn-1.1.0-classic.zip"
+],
+"apache-brooklyn-1.1.0-client-cli": [
+"brooklyn/apache-brooklyn-1.1.0/apache-brooklyn-1.1.0-client-cli-linux.tar.gz",
+"brooklyn/apache-brooklyn-1.1.0/apache-brooklyn-1.1.0-client-cli-linux.zip",
+"brooklyn/apache-brooklyn-1.1.0/apache-brooklyn-1.1.0-client-cli-macosx.tar.gz",
+"brooklyn/apache-brooklyn-1.1.0/apache-brooklyn-1.1.0-client-cli-macosx.zip"
+],
+"apache-brooklyn-1.1.0-client-cli-windows": [
+"brooklyn/apache-brooklyn-1.1.0/apache-brooklyn-1.1.0-client-cli-windows.tar.gz",
+"brooklyn/apache-brooklyn-1.1.0/apache-brooklyn-1.1.0-client-cli-windows.zip"
+],
+"apache-brooklyn-1.1.0-vagrant": [
+"brooklyn/apache-brooklyn-1.1.0/apache-brooklyn-1.1.0-vagrant.tar.gz",
+"brooklyn/apache-brooklyn-1.1.0/apache-brooklyn-1.1.0-vagrant.zip"
 ]
 },
 "brpc": {
@@ -1699,9 +1724,9 @@
 "commons/collections/source/commons-collections4-4.4-src.tar.gz",
 "commons/collections/source/commons-collections4-4.4-src.zip"
 ],
-"commons-compress-1.25.0": [
-"commons/compress/source/commons-compress-1.25.0-src.tar.gz",
-"commons/compress/source/commons-compress-1.25.0-src.zip"
+"commons-compress-1.26.0": [
+"commons/compress/source/commons-compress-1.26.0-src.tar.gz",
+"commons/compress/source/commons-compress-1.26.0-src.zip"
 ],
 "commons-configuration-1.10": [
 "commons/configuration/source/commons-configuration-1.10-src.tar.gz",
@@ -2487,6 +2512,9 @@
 ],
 "apache-druid-28.0.1": [
 "druid/28.0.1/apache-druid-28.0.1-src.tar.gz"
+],
+"apache-druid-29.0.0": [
+"druid/29.0.0/apache-druid-29.0.0-src.tar.gz"
 ]
 },
 "dubbo": {
@@ -3176,6 +3204,9 @@
 ],
 "flink-connector-mongodb-1.0.2": [
 "flink/flink-connector-mongodb-1.0.2/flink-connector-mongodb-1.0.2-src.tgz"
+],
+"flink-connector-mongodb-1.1.0": [
+"flink/flink-connector-mongodb-1.1.0/flink-connector-mongodb-1.1.0-src.tgz"
 ],
 "flink-connector-opensearch-1.1.0": [
 "flink/flink-connector-opensearch-1.1.0/flink-connector-opensearch-1.1.0-src.tgz"
@@ -3906,6 +3937,9 @@
 ],
 "pyiceberg-0.1.0": [
 "iceberg/pyiceberg-0.1.0/pyiceberg-0.1.0.tar.gz"
+],
+"pyiceberg-0.6.0": [
+"iceberg/pyiceberg-0.6.0/pyiceberg-0.6.0.tar.gz"
 ]
 },
 "ignite": {
@@ -6918,6 +6952,9 @@
 "rocketmq-all-4.9.7": [
 "rocketmq/4.9.7/rocketmq-all-4.9.7-source-release.zip"
 ],
+"rocketmq-all-4.9.8": [
+"rocketmq/4.9.8/rocketmq-all-4.9.8-source-release.zip"
+],
 "rocketmq-all-5.0.0": [
 "rocketmq/5.0.0/rocketmq-all-5.0.0-source-release.zip"
 ],
@@ -6935,6 +6972,9 @@
 ],
 "rocketmq-all-5.1.4": [
 "rocketmq/5.1.4/rocketmq-all-5.1.4-source-release.zip"
+],
+"rocketmq-all-5.2.0": [
+"rocketmq/5.2.0/rocketmq-all-5.2.0-source-release.zip"
 ],
 "rocketmq-client-cpp-2.1.0": [
 "rocketmq/rocketmq-client-cpp/2.1.0/rocketmq-client-cpp-2.1.0-source-release.tar.gz"
@@ -7077,6 +7117,9 @@
 ],
 "apache-seatunnel-2.3.3": [
 "seatunnel/2.3.3/apache-seatunnel-2.3.3-src.tar.gz"
+],
+"apache-seatunnel-2.3.4": [
+"seatunnel/2.3.4/apache-seatunnel-2.3.4-src.tar.gz"
 ],
 "apache-seatunnel-incubating-2.1.0": [
 "seatunnel/2.1.0/apache-seatunnel-incubating-2.1.0-src.tar.gz"
@@ -8629,17 +8672,29 @@
 "tomcat/tomcat-10/v10.1.18/src/apache-tomcat-10.1.18-src.tar.gz",
 "tomcat/tomcat-10/v10.1.18/src/apache-tomcat-10.1.18-src.zip"
 ],
-"apache-tomcat-11.0.0-M16": [
-"tomcat/tomcat-11/v11.0.0-M16/src/apache-tomcat-11.0.0-M16-src.tar.gz",
-"tomcat/tomcat-11/v11.0.0-M16/src/apache-tomcat-11.0.0-M16-src.zip"
+"apache-tomcat-10.1.19": [
+"tomcat/tomcat-10/v10.1.19/src/apache-tomcat-10.1.19-src.tar.gz",
+"tomcat/tomcat-10/v10.1.19/src/apache-tomcat-10.1.19-src.zip"
+],
+"apache-tomcat-11.0.0-M17": [
+"tomcat/tomcat-11/v11.0.0-M17/src/apache-tomcat-11.0.0-M17-src.tar.gz",
+"tomcat/tomcat-11/v11.0.0-M17/src/apache-tomcat-11.0.0-M17-src.zip"
 ],
 "apache-tomcat-8.5.98": [
 "tomcat/tomcat-8/v8.5.98/src/apache-tomcat-8.5.98-src.tar.gz",
 "tomcat/tomcat-8/v8.5.98/src/apache-tomcat-8.5.98-src.zip"
 ],
+"apache-tomcat-8.5.99": [
+"tomcat/tomcat-8/v8.5.99/src/apache-tomcat-8.5.99-src.tar.gz",
+"tomcat/tomcat-8/v8.5.99/src/apache-tomcat-8.5.99-src.zip"
+],
 "apache-tomcat-9.0.85": [
 "tomcat/tomcat-9/v9.0.85/src/apache-tomcat-9.0.85-src.tar.gz",
 "tomcat/tomcat-9/v9.0.85/src/apache-tomcat-9.0.85-src.zip"
+],
+"apache-tomcat-9.0.86": [
+"tomcat/tomcat-9/v9.0.86/src/apache-tomcat-9.0.86-src.tar.gz",
+"tomcat/tomcat-9/v9.0.86/src/apache-tomcat-9.0.86-src.zip"
 ],
 "jakartaee-migration-1.0.8": [
 "tomcat/jakartaee-migration/v1.0.8/source/jakartaee-migration-1.0.8-src.tar.gz",

@@ -254,6 +254,7 @@
 "apache-arrow-adbc-0.9.0": "2024-01-03",
 "apache-arrow-ballista-0.12.0": "2024-02-07",
 "apache-arrow-datafusion-35.0.0": "2024-01-25",
+"apache-arrow-datafusion-36.0.0": "2024-02-19",
 "apache-arrow-datafusion-python-35.0.0": "2024-02-04",
 "apache-arrow-flight-sql-postgresql-0.1.0": "2023-09-13",
 "apache-arrow-julia-2.7.1": "2024-01-31",
@@ -361,7 +362,12 @@
 "apache-brooklyn-1.0.0-classic": "2020-03-02",
 "apache-brooklyn-1.0.0-client-cli": "2020-03-02",
 "apache-brooklyn-1.0.0-client-cli-windows": "2020-03-02",
-"apache-brooklyn-1.0.0-vagrant": "2020-03-02"
+"apache-brooklyn-1.0.0-vagrant": "2020-03-02",
+"apache-brooklyn-1.1.0": "2024-02-19",
+"apache-brooklyn-1.1.0-classic": "2024-02-19",
+"apache-brooklyn-1.1.0-client-cli": "2024-02-19",
+"apache-brooklyn-1.1.0-client-cli-windows": "2024-02-19",
+"apache-brooklyn-1.1.0-vagrant": "2024-02-19"
 },
 "brpc": {
 "apache-brpc-1.0.0-incubating": "2021-10-31",
@@ -584,7 +590,7 @@
 "commons-cli-1.6.0": "2023-10-26",
 "commons-codec-1.16.1": "2024-02-08",
 "commons-collections4-4.4": "2019-07-09",
-"commons-compress-1.25.0": "2023-11-15",
+"commons-compress-1.26.0": "2024-02-19",
 "commons-configuration-1.10": "2013-10-28",
 "commons-configuration2-2.9.0": "2023-03-29",
 "commons-crypto-1.2.0": "2023-01-22",
@@ -833,7 +839,8 @@
 "apache-druid-26.0.0": "2023-05-19",
 "apache-druid-27.0.0": "2023-08-04",
 "apache-druid-28.0.0": "2023-11-06",
-"apache-druid-28.0.1": "2023-12-10"
+"apache-druid-28.0.1": "2023-12-10",
+"apache-druid-29.0.0": "2024-02-13"
 },
 "dubbo": {
 "apache-dubbo-3.1.11": "2023-07-31",
@@ -1033,6 +1040,7 @@
 "flink-connector-kafka-3.0.2": "2023-11-24",
 "flink-connector-kafka-3.1.0": "2024-01-26",
 "flink-connector-mongodb-1.0.2": "2023-08-04",
+"flink-connector-mongodb-1.1.0": "2024-01-30",
 "flink-connector-opensearch-1.1.0": "2023-11-03",
 "flink-connector-pulsar-3.0.0": "2022-12-15",
 "flink-connector-pulsar-3.0.1": "2023-05-25",
@@ -1287,7 +1295,8 @@
 "apache-iceberg-1.4.1": "2023-10-23",
 "apache-iceberg-1.4.2": "2023-11-02",
 "apache-iceberg-1.4.3": "2023-12-27",
-"pyiceberg-0.1.0": "2022-10-17"
+"pyiceberg-0.1.0": "2022-10-17",
+"pyiceberg-0.6.0": "2024-02-19"
 },
 "ignite": {
 "apache-ignite-2.16.0": "2023-12-17",
@@ -2320,12 +2329,14 @@
 "rocketmq-all-4.9.5": "2023-03-31",
 "rocketmq-all-4.9.6": "2023-05-21",
 "rocketmq-all-4.9.7": "2023-06-17",
+"rocketmq-all-4.9.8": "2024-02-19",
 "rocketmq-all-5.0.0": "2022-09-22",
 "rocketmq-all-5.1.0": "2023-02-20",
 "rocketmq-all-5.1.1": "2023-05-19",
 "rocketmq-all-5.1.2": "2023-06-17",
 "rocketmq-all-5.1.3": "2023-06-28",
 "rocketmq-all-5.1.4": "2023-10-09",
+"rocketmq-all-5.2.0": "2024-02-19",
 "rocketmq-client-cpp-2.1.0": "2020-03-26",
 "rocketmq-client-cpp-5.0.0": "2022-08-10",
 "rocketmq-client-csharp-5.0.0": "2022-09-22",
@@ -2379,6 +2390,7 @@
 "seatunnel": {
 "apache-seatunnel-2.3.2": "2023-06-13",
 "apache-seatunnel-2.3.3": "2023-08-17",
+"apache-seatunnel-2.3.4": "2024-02-02",
 "apache-seatunnel-incubating-2.1.0": "2022-03-11",
 "apache-seatunnel-incubating-2.1.1": "2022-04-18",
 "apache-seatunnel-incubating-2.1.2": "2022-06-07",
@@ -2916,9 +2928,12 @@
 },
 "tomcat": {
 "apache-tomcat-10.1.18": "2024-01-05",
-"apache-tomcat-11.0.0-M16": "2024-01-04",
+"apache-tomcat-10.1.19": "2024-02-14",
+"apache-tomcat-11.0.0-M17": "2024-02-13",
 "apache-tomcat-8.5.98": "2024-01-05",
+"apache-tomcat-8.5.99": "2024-02-14",
 "apache-tomcat-9.0.85": "2024-01-05",
+"apache-tomcat-9.0.86": "2024-02-14",
 "jakartaee-migration-1.0.8": "2024-02-02",
 "taglibs-standard-1.2.5": "2015-03-10",
 "tomcat-connectors-1.2.49": "2023-09-11",
