@@ -188,8 +188,8 @@
 "apache_airflow_providers_cloudant-3.4.1": [
 "airflow/providers/apache_airflow_providers_cloudant-3.4.1.tar.gz"
 ],
-"apache_airflow_providers_cncf_kubernetes-7.14.0": [
-"airflow/providers/apache_airflow_providers_cncf_kubernetes-7.14.0.tar.gz"
+"apache_airflow_providers_cncf_kubernetes-8.0.0": [
+"airflow/providers/apache_airflow_providers_cncf_kubernetes-8.0.0.tar.gz"
 ],
 "apache_airflow_providers_cohere-1.1.2": [
 "airflow/providers/apache_airflow_providers_cohere-1.1.2.tar.gz"
@@ -3935,6 +3935,9 @@
 "apache-iceberg-1.4.3": [
 "iceberg/apache-iceberg-1.4.3/apache-iceberg-1.4.3.tar.gz"
 ],
+"apache-iceberg-rust-0.2.0": [
+"iceberg/iceberg-rust-0.2.0/apache-iceberg-rust-0.2.0-src.tar.gz"
+],
 "pyiceberg-0.1.0": [
 "iceberg/pyiceberg-0.1.0/pyiceberg-0.1.0.tar.gz"
 ],
@@ -5038,9 +5041,9 @@
 "lucene/java/8.11.3/lucene-8.11.3.tgz",
 "lucene/java/8.11.3/lucene-8.11.3.zip"
 ],
-"lucene-9.9.2": [
-"lucene/java/9.9.2/lucene-9.9.2-src.tgz",
-"lucene/java/9.9.2/lucene-9.9.2.tgz"
+"lucene-9.10.0": [
+"lucene/java/9.10.0/lucene-9.10.0-src.tgz",
+"lucene/java/9.10.0/lucene-9.10.0.tgz"
 ],
 "pylucene-7.7.1": [
 "lucene/pylucene/pylucene-7.7.1-src.tar.gz"
@@ -5479,8 +5482,8 @@
 "maven-scripting-plugin-3.0.0": [
 "maven/plugins/maven-scripting-plugin-3.0.0-source-release.zip"
 ],
-"maven-shade-plugin-3.5.1": [
-"maven/plugins/maven-shade-plugin-3.5.1-source-release.zip"
+"maven-shade-plugin-3.5.2": [
+"maven/plugins/maven-shade-plugin-3.5.2-source-release.zip"
 ],
 "maven-shared-incremental-1.1": [
 "maven/shared/maven-shared-incremental-1.1-source-release.zip"
@@ -5915,6 +5918,9 @@
 "netbeans-20": [
 "netbeans/netbeans/20/netbeans-20-source.zip"
 ],
+"netbeans-21": [
+"netbeans/netbeans/21/netbeans-21-source.zip"
+],
 "netbeans-4": [
 "netbeans/netbeans-parent/netbeans-parent-4/netbeans-parent-4-source-release.zip"
 ],
@@ -6225,9 +6231,6 @@
 "openwhisk-runtime-go-1.16.0": [
 "openwhisk/20.11/openwhisk-runtime-go-1.16.0-sources.tar.gz"
 ],
-"openwhisk-runtime-go-1.23.0": [
-"openwhisk/openwhisk-runtime-go-1.23.0-sources.tar.gz"
-],
 "openwhisk-runtime-go-1.24.0": [
 "openwhisk/openwhisk-runtime-go-1.24.0-sources.tar.gz"
 ],
@@ -6450,8 +6453,8 @@
 ]
 },
 "plc4x": {
-"apache-plc4x-0.11.0": [
-"plc4x/0.11.0/apache-plc4x-0.11.0-source-release.zip"
+"apache-plc4x-0.12.0": [
+"plc4x/0.12.0/apache-plc4x-0.12.0-source-release.zip"
 ],
 "apache-plc4x-code-generation-1.5.0": [
 "plc4x/plc4x/build-tools/code-generation/1.5.0/rc1/apache-plc4x-code-generation-1.5.0-source-release.zip"
@@ -6808,6 +6811,9 @@
 ],
 "pulsar-client-reactive-0.5.2": [
 "pulsar/pulsar-client-reactive-0.5.2/pulsar-client-reactive-0.5.2-src.tar.gz"
+],
+"pulsar-client-reactive-0.5.3": [
+"pulsar/pulsar-client-reactive-0.5.3/pulsar-client-reactive-0.5.3-src.tar.gz"
 ],
 "pulsar-dotpulsar-3.0.0": [
 "pulsar/pulsar-dotpulsar-3.0.0/pulsar-dotpulsar-3.0.0-src.tar.gz"
@@ -8523,8 +8529,14 @@
 "apache-superset-3.0.3": [
 "superset/3.0.3/apache-superset-3.0.3-source.tar.gz"
 ],
+"apache-superset-3.0.4": [
+"superset/3.0.4/apache-superset-3.0.4-source.tar.gz"
+],
 "apache-superset-3.1.0": [
 "superset/3.1.0/apache-superset-3.1.0-source.tar.gz"
+],
+"apache-superset-3.1.1": [
+"superset/3.1.1/apache-superset-3.1.1-source.tar.gz"
 ]
 },
 "synapse": {
@@ -8816,6 +8828,11 @@
 ],
 "trafficserver-9.2.3": [
 "trafficserver/trafficserver-9.2.3.tar.bz2"
+]
+},
+"tsfile": {
+"apache-tsfile-1.0.0": [
+"tsfile/1.0.0/apache-tsfile-1.0.0-source-release.zip"
 ]
 },
 "turbine": {

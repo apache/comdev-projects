@@ -65,7 +65,7 @@
 "apache_airflow_providers_atlassian_jira-2.5.1": "2024-01-27",
 "apache_airflow_providers_celery-3.6.0": "2024-02-15",
 "apache_airflow_providers_cloudant-3.4.1": "2023-12-27",
-"apache_airflow_providers_cncf_kubernetes-7.14.0": "2024-01-27",
+"apache_airflow_providers_cncf_kubernetes-8.0.0": "2024-02-20",
 "apache_airflow_providers_cohere-1.1.2": "2024-01-27",
 "apache_airflow_providers_common_io-1.3.0": "2024-02-15",
 "apache_airflow_providers_common_sql-1.11.0": "2024-02-18",
@@ -1295,6 +1295,7 @@
 "apache-iceberg-1.4.1": "2023-10-23",
 "apache-iceberg-1.4.2": "2023-11-02",
 "apache-iceberg-1.4.3": "2023-12-27",
+"apache-iceberg-rust-0.2.0": "2024-02-15",
 "pyiceberg-0.1.0": "2022-10-17",
 "pyiceberg-0.6.0": "2024-02-19"
 },
@@ -1686,7 +1687,7 @@
 },
 "lucene": {
 "lucene-8.11.3": "2024-02-05",
-"lucene-9.9.2": "2024-01-25",
+"lucene-9.10.0": "2024-02-14",
 "pylucene-7.7.1": "2019-06-03",
 "pylucene-8.11.0": "2021-12-15",
 "pylucene-9.4.1": "2022-11-07",
@@ -1828,7 +1829,7 @@
 "maven-scm-publish-plugin-3.2.1": "2023-03-28",
 "maven-script-interpreter-1.4": "2022-12-21",
 "maven-scripting-plugin-3.0.0": "2021-03-01",
-"maven-shade-plugin-3.5.1": "2023-09-24",
+"maven-shade-plugin-3.5.2": "2024-02-20",
 "maven-shared-incremental-1.1": "2013-04-24",
 "maven-shared-io-3.0.0": "2015-12-23",
 "maven-shared-jar-3.0.0": "2023-04-18",
@@ -1958,6 +1959,7 @@
 "nbm-suite-root-1.12": "2019-10-10",
 "nbpackage-1.0-beta4": "2024-02-12",
 "netbeans-20": "2023-11-23",
+"netbeans-21": "2024-02-16",
 "netbeans-4": "2023-07-05",
 "netbeans-archetype-1.0.0": "2023-07-11",
 "netbeans-html4j-1.8.1": "2022-07-07",
@@ -2075,7 +2077,6 @@
 "openwhisk-runtime-dotnet-1.15.0": "2020-11-29",
 "openwhisk-runtime-dotnet-1.17.0": "2023-05-15",
 "openwhisk-runtime-go-1.16.0": "2020-11-29",
-"openwhisk-runtime-go-1.23.0": "2023-09-15",
 "openwhisk-runtime-go-1.24.0": "2024-02-16",
 "openwhisk-runtime-java-1.15.0": "2020-11-29",
 "openwhisk-runtime-java-1.19.0": "2023-09-21",
@@ -2161,7 +2162,7 @@
 "apache-pivot-2.0.5": "2017-07-08"
 },
 "plc4x": {
-"apache-plc4x-0.11.0": "2023-10-02",
+"apache-plc4x-0.12.0": "2024-02-16",
 "apache-plc4x-code-generation-1.5.0": "2021-09-08",
 "apache-plc4x-code-generation-1.6.0": "2022-09-22",
 "apache-plc4x-site-skin-1.1.0": "2021-09-08"
@@ -2276,6 +2277,7 @@
 "pulsar-client-reactive-0.5.0": "2023-11-15",
 "pulsar-client-reactive-0.5.1": "2023-12-13",
 "pulsar-client-reactive-0.5.2": "2024-01-12",
+"pulsar-client-reactive-0.5.3": "2024-02-16",
 "pulsar-dotpulsar-3.0.0": "2023-08-31",
 "pulsar-dotpulsar-3.1.0-rc.1": "2023-11-20",
 "pulsar-dotpulsar-3.1.1": "2023-12-07",
@@ -2869,7 +2871,9 @@
 "apache-superset-3.0.1": "2023-10-18",
 "apache-superset-3.0.2": "2023-11-22",
 "apache-superset-3.0.3": "2024-01-17",
-"apache-superset-3.1.0": "2024-01-18"
+"apache-superset-3.0.4": "2024-02-20",
+"apache-superset-3.1.0": "2024-01-18",
+"apache-superset-3.1.1": "2024-02-20"
 },
 "synapse": {
 "synapse-distribution-3.0.1": "2017-12-09",
@@ -2974,6 +2978,9 @@
 "trafficserver-9.2.1": "2023-06-12",
 "trafficserver-9.2.2": "2023-08-03",
 "trafficserver-9.2.3": "2023-10-09"
+},
+"tsfile": {
+"apache-tsfile-1.0.0": "2024-02-20"
 },
 "turbine": {
 "fulcrum-cache-2.0.0": "2021-06-08",

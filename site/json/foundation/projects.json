@@ -11619,6 +11619,11 @@
 "programming-language": "Java",
 "release": [
 {
+"created": "2024-02-20",
+"name": "lucene-9.10.0",
+"revision": "9.10.0"
+},
+{
 "created": "2024-01-29",
 "name": "lucene-9.9.2",
 "revision": "9.9.2"
@@ -17950,6 +17955,30 @@
 "https://git-wip-us.apache.org/repos/asf/trafficserver.git"
 ],
 "shortdesc": "Apache Traffic Server is an HTTP proxy cache."
+},
+"tsfile": {
+"bug-database": "https://github.com/apache/tsfile/issues",
+"category": "big-data, database, iot",
+"created": "2024-02-20",
+"description": "TsFile is a columnar storage file format designed for time series data, which supports efficient compression, high throughput of read and write, and compatibility with various frameworks, such as Spark and Flink. It is easy to integrate TsFile into IoT big data processing frameworks.",
+"doap": "https://raw.githubusercontent.com/apache/tsfile/develop/doap_tsfile.rdf",
+"homepage": "https://tsfile.apache.org",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://lists.apache.org/list.html?dev@tsfile.apache.org",
+"name": "Apache TsFile",
+"pmc": "tsfile",
+"programming-language": "Java",
+"release": [
+{
+"created": "2024-02-20",
+"name": "Apache TsFile",
+"revision": "1.0.0"
+}
+],
+"repository": [
+"https://github.com/apache/tsfile.git"
+],
+"shortdesc": "TsFile, A File Format for Internet of Things"
 },
 "turbine": {
 "bug-database": "http://issues.apache.org/jira/browse/TRB",
