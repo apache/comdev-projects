@@ -910,7 +910,7 @@
 },
 "archiva": {
 "bug-database": "https://issues.apache.org/jira/browse/MRM",
-"category": "build-management",
+"category": "build-management, retired",
 "created": "2012-04-14",
 "description": "Archiva is the perfect companion for build tools such as Maven, Continuum, and ANT. Archiva offers several capabilities, amongst which remote repository proxying,\nsecurity access management, build artifact storage, delivery, browsing, indexing and usage reporting, extensible scanning functionality and many more!",
 "doap": "https://gitbox.apache.org/repos/asf?p=archiva.git;a=blob_plain;f=doap_Archiva.rdf;hb=HEAD",
@@ -925,7 +925,7 @@
 }
 ],
 "name": "Apache Archiva",
-"pmc": "archiva",
+"pmc": "attic",
 "programming-language": "Java",
 "release": [
 {
@@ -17964,7 +17964,7 @@
 "doap": "https://raw.githubusercontent.com/apache/tsfile/develop/doap_tsfile.rdf",
 "homepage": "https://tsfile.apache.org",
 "license": "https://spdx.org/licenses/Apache-2.0",
-"mailing-list": "https://lists.apache.org/list.html?dev@tsfile.apache.org",
+"mailing-list": "dev@tsfile.apache.org",
 "name": "Apache TsFile",
 "pmc": "tsfile",
 "programming-language": "Java",
@@ -17978,7 +17978,7 @@
 "repository": [
 "https://github.com/apache/tsfile.git"
 ],
-"shortdesc": "TsFile, A File Format for Internet of Things"
+"shortdesc": "The mission of Apache TsFile is the creation and maintenance of software related to a columnar storage file format designed for time series data."
 },
 "turbine": {
 "bug-database": "http://issues.apache.org/jira/browse/TRB",
