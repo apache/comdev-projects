@@ -95,8 +95,8 @@
 "airflow-chart-1.12.0": [
 "airflow/helm-chart/1.12.0/airflow-chart-1.12.0-source.tar.gz"
 ],
-"apache-airflow-2.8.1": [
-"airflow/2.8.1/apache-airflow-2.8.1-source.tar.gz"
+"apache-airflow-2.8.2": [
+"airflow/2.8.2/apache-airflow-2.8.2-source.tar.gz"
 ],
 "apache-airflow-client-2.5.0": [
 "airflow/clients/go/2.5.0/apache-airflow-client-2.5.0-source.tar.gz"
@@ -113,8 +113,8 @@
 "apache-airflow-upgrade-check-1.4.0": [
 "airflow/upgrade-check/1.4.0/apache-airflow-upgrade-check-1.4.0-source.tar.gz"
 ],
-"apache_airflow-2.8.1": [
-"airflow/2.8.1/apache_airflow-2.8.1.tar.gz"
+"apache_airflow-2.8.2": [
+"airflow/2.8.2/apache_airflow-2.8.2.tar.gz"
 ],
 "apache_airflow_providers_airbyte-3.6.0": [
 "airflow/providers/apache_airflow_providers_airbyte-3.6.0.tar.gz"
@@ -1236,8 +1236,8 @@
 "apache-camel-quarkus-3.2.3": [
 "camel/camel-quarkus/3.2.3/apache-camel-quarkus-3.2.3-src.zip"
 ],
-"apache-camel-quarkus-3.7.0": [
-"camel/camel-quarkus/3.7.0/apache-camel-quarkus-3.7.0-src.zip"
+"apache-camel-quarkus-3.8.0": [
+"camel/camel-quarkus/3.8.0/apache-camel-quarkus-3.8.0-src.zip"
 ],
 "camel-k-examples-1.10.1": [
 "camel/camel-k/1.10.1/camel-k-examples-1.10.1.tar.gz"
@@ -4390,6 +4390,9 @@
 "inlong": {
 "apache-inlong-1.10.0": [
 "inlong/1.10.0/apache-inlong-1.10.0-src.tar.gz"
+],
+"apache-inlong-1.11.0": [
+"inlong/1.11.0/apache-inlong-1.11.0-src.tar.gz"
 ]
 },
 "iotdb": {
@@ -4425,8 +4428,8 @@
 "jackrabbit-2.20.14": [
 "jackrabbit/2.20.14/jackrabbit-2.20.14-src.zip"
 ],
-"jackrabbit-2.21.24": [
-"jackrabbit/2.21.24/jackrabbit-2.21.24-src.zip"
+"jackrabbit-2.21.25": [
+"jackrabbit/2.21.25/jackrabbit-2.21.25-src.zip"
 ],
 "jackrabbit-filevault-3.2.8": [
 "jackrabbit/filevault/3.2.8/jackrabbit-filevault-3.2.8-src.zip"
@@ -4660,6 +4663,9 @@
 "kafka-3.6.1": [
 "kafka/3.6.1/kafka-3.6.1-src.tgz"
 ],
+"kafka-3.7.0": [
+"kafka/3.7.0/kafka-3.7.0-src.tgz"
+],
 "kafka_2.12-3.4.1": [
 "kafka/3.4.1/kafka_2.12-3.4.1.tgz"
 ],
@@ -4678,6 +4684,9 @@
 "kafka_2.12-3.6.1": [
 "kafka/3.6.1/kafka_2.12-3.6.1.tgz"
 ],
+"kafka_2.12-3.7.0": [
+"kafka/3.7.0/kafka_2.12-3.7.0.tgz"
+],
 "kafka_2.13-3.4.1": [
 "kafka/3.4.1/kafka_2.13-3.4.1.tgz"
 ],
@@ -4695,6 +4704,9 @@
 ],
 "kafka_2.13-3.6.1": [
 "kafka/3.6.1/kafka_2.13-3.6.1.tgz"
+],
+"kafka_2.13-3.7.0": [
+"kafka/3.7.0/kafka_2.13-3.7.0.tgz"
 ]
 },
 "karaf": {
@@ -5473,8 +5485,8 @@
 "maven-resolver-1.9.18": [
 "maven/resolver/maven-resolver-1.9.18-source-release.zip"
 ],
-"maven-resolver-2.0.0-alpha-7": [
-"maven/resolver/maven-resolver-2.0.0-alpha-7-source-release.zip"
+"maven-resolver-2.0.0-alpha-8": [
+"maven/resolver/maven-resolver-2.0.0-alpha-8-source-release.zip"
 ],
 "maven-resolver-ant-tasks-1.5.0": [
 "maven/resolver/maven-resolver-ant-tasks-1.5.0-source-release.zip"
@@ -8698,10 +8710,6 @@
 ]
 },
 "tomcat": {
-"apache-tomcat-10.1.18": [
-"tomcat/tomcat-10/v10.1.18/src/apache-tomcat-10.1.18-src.tar.gz",
-"tomcat/tomcat-10/v10.1.18/src/apache-tomcat-10.1.18-src.zip"
-],
 "apache-tomcat-10.1.19": [
 "tomcat/tomcat-10/v10.1.19/src/apache-tomcat-10.1.19-src.tar.gz",
 "tomcat/tomcat-10/v10.1.19/src/apache-tomcat-10.1.19-src.zip"
@@ -8709,10 +8717,6 @@
 "apache-tomcat-11.0.0-M17": [
 "tomcat/tomcat-11/v11.0.0-M17/src/apache-tomcat-11.0.0-M17-src.tar.gz",
 "tomcat/tomcat-11/v11.0.0-M17/src/apache-tomcat-11.0.0-M17-src.zip"
-],
-"apache-tomcat-8.5.98": [
-"tomcat/tomcat-8/v8.5.98/src/apache-tomcat-8.5.98-src.tar.gz",
-"tomcat/tomcat-8/v8.5.98/src/apache-tomcat-8.5.98-src.zip"
 ],
 "apache-tomcat-8.5.99": [
 "tomcat/tomcat-8/v8.5.99/src/apache-tomcat-8.5.99-src.tar.gz",

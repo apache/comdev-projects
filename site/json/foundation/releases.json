@@ -34,13 +34,13 @@
 "airflow-1.12.0": "2024-02-12",
 "airflow-chart-1.11.0": "2023-10-02",
 "airflow-chart-1.12.0": "2024-02-12",
-"apache-airflow-2.8.1": "2024-01-19",
+"apache-airflow-2.8.2": "2024-02-26",
 "apache-airflow-client-2.5.0": "2023-02-03",
 "apache-airflow-client-2.8.0": "2023-12-23",
 "apache-airflow-providers-jira-3.1.0": "2022-10-01",
 "apache-airflow-providers-qubole-3.4.3": "2023-11-12",
 "apache-airflow-upgrade-check-1.4.0": "2021-06-26",
-"apache_airflow-2.8.1": "2024-01-19",
+"apache_airflow-2.8.2": "2024-02-26",
 "apache_airflow_providers_airbyte-3.6.0": "2024-01-27",
 "apache_airflow_providers_alibaba-2.7.2": "2024-01-27",
 "apache_airflow_providers_amazon-8.18.0": "2024-02-18",
@@ -430,7 +430,7 @@
 "apache-camel-k-runtime-3.6.0": "2023-12-11",
 "apache-camel-quarkus-2.13.3": "2023-04-18",
 "apache-camel-quarkus-3.2.3": "2023-12-05",
-"apache-camel-quarkus-3.7.0": "2024-01-31",
+"apache-camel-quarkus-3.8.0": "2024-02-26",
 "camel-k-examples-1.10.1": "2022-10-10",
 "camel-k-examples-1.10.2": "2022-10-18",
 "camel-k-examples-1.10.3": "2022-11-11",
@@ -1479,7 +1479,8 @@
 "apache-yunikorn-0.12.2-incubating": "2022-02-03"
 },
 "inlong": {
-"apache-inlong-1.10.0": "2023-12-13"
+"apache-inlong-1.10.0": "2023-12-13",
+"apache-inlong-1.11.0": "2024-02-21"
 },
 "iotdb": {
 "apache-iotdb-0.13.4": "2023-02-13",
@@ -1494,7 +1495,7 @@
 "jackrabbit-2.14.10": "2021-09-06",
 "jackrabbit-2.16.10": "2022-09-07",
 "jackrabbit-2.20.14": "2024-01-06",
-"jackrabbit-2.21.24": "2024-02-17",
+"jackrabbit-2.21.25": "2024-02-22",
 "jackrabbit-filevault-3.2.8": "2021-03-11",
 "jackrabbit-filevault-3.6.8": "2023-01-05",
 "jackrabbit-filevault-3.7.2": "2023-10-31",
@@ -1573,18 +1574,21 @@
 "kafka-3.5.2": "2023-12-08",
 "kafka-3.6.0": "2023-10-04",
 "kafka-3.6.1": "2023-12-05",
+"kafka-3.7.0": "2024-02-26",
 "kafka_2.12-3.4.1": "2023-06-06",
 "kafka_2.12-3.5.0": "2023-06-13",
 "kafka_2.12-3.5.1": "2023-07-21",
 "kafka_2.12-3.5.2": "2023-12-08",
 "kafka_2.12-3.6.0": "2023-10-04",
 "kafka_2.12-3.6.1": "2023-12-05",
+"kafka_2.12-3.7.0": "2024-02-26",
 "kafka_2.13-3.4.1": "2023-06-06",
 "kafka_2.13-3.5.0": "2023-06-13",
 "kafka_2.13-3.5.1": "2023-07-21",
 "kafka_2.13-3.5.2": "2023-12-08",
 "kafka_2.13-3.6.0": "2023-10-04",
-"kafka_2.13-3.6.1": "2023-12-05"
+"kafka_2.13-3.6.1": "2023-12-05",
+"kafka_2.13-3.7.0": "2024-02-26"
 },
 "karaf": {
 "apache-karaf-3.0.10": "2020-01-11",
@@ -1826,7 +1830,7 @@
 "maven-reporting-exec-2.0.0-M12": "2023-11-24",
 "maven-reporting-impl-4.0.0-M13": "2023-12-13",
 "maven-resolver-1.9.18": "2023-11-25",
-"maven-resolver-2.0.0-alpha-7": "2024-01-29",
+"maven-resolver-2.0.0-alpha-8": "2024-02-26",
 "maven-resolver-ant-tasks-1.5.0": "2023-09-11",
 "maven-resources-plugin-3.3.1": "2023-03-24",
 "maven-scm-2.0.1": "2023-05-18",
@@ -2937,10 +2941,8 @@
 "apache-tinkerpop-3.7.1": "2023-12-04"
 },
 "tomcat": {
-"apache-tomcat-10.1.18": "2024-01-05",
 "apache-tomcat-10.1.19": "2024-02-14",
 "apache-tomcat-11.0.0-M17": "2024-02-13",
-"apache-tomcat-8.5.98": "2024-01-05",
 "apache-tomcat-8.5.99": "2024-02-14",
 "apache-tomcat-9.0.85": "2024-01-05",
 "apache-tomcat-9.0.86": "2024-02-14",
