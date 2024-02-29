@@ -908,39 +908,6 @@
 ],
 "shortdesc": "\n    Cross-platform library easing many progamming tasks in C. \n    "
 },
-"archiva": {
-"bug-database": "https://issues.apache.org/jira/browse/MRM",
-"category": "build-management, retired",
-"created": "2012-04-14",
-"description": "Archiva is the perfect companion for build tools such as Maven, Continuum, and ANT. Archiva offers several capabilities, amongst which remote repository proxying,\nsecurity access management, build artifact storage, delivery, browsing, indexing and usage reporting, extensible scanning functionality and many more!",
-"doap": "https://gitbox.apache.org/repos/asf?p=archiva.git;a=blob_plain;f=doap_Archiva.rdf;hb=HEAD",
-"download-page": "https://archiva.apache.org/download.html",
-"homepage": "https://archiva.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "https://archiva.apache.org/mailing-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:dev@archiva.apache.org",
-"name": "Apache Archiva PMC"
-}
-],
-"name": "Apache Archiva",
-"pmc": "attic",
-"programming-language": "Java",
-"release": [
-{
-"created": "2021-12-19",
-"file-release": "https://archive.apache.org/dist/archiva/2.2.7/binaries/apache-archiva-2.2.7.war",
-"name": "Apache Archiva 2.2.7",
-"revision": "2.2.7"
-}
-],
-"repository": [
-"https://gitbox.apache.org/repos/asf/archiva.git",
-"https://gitbox.apache.org/repos/asf/archiva-parent.git"
-],
-"shortdesc": "Apache Archiva software is an extensible repository management tool that helps taking care of your own personal or enterprise-wide build artifact repository."
-},
 "aries": {
 "bug-database": "http://issues.apache.org/jira/browse/ARIES",
 "category": "library",
@@ -1174,6 +1141,39 @@
 "https://github.com/apache/apex-malhar.git"
 ],
 "shortdesc": "Enterprise-grade unified stream and batch processing engine."
+},
+"attic-archiva": {
+"bug-database": "https://issues.apache.org/jira/browse/MRM",
+"category": "retired, build-management",
+"created": "2012-04-14",
+"description": "Archiva is the perfect companion for build tools such as Maven, Continuum, and ANT. Archiva offers several capabilities, amongst which remote repository proxying,\nsecurity access management, build artifact storage, delivery, browsing, indexing and usage reporting, extensible scanning functionality and many more!",
+"doap": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/archiva.rdf",
+"download-page": "https://archiva.apache.org/download.html",
+"homepage": "https://archiva.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "https://archiva.apache.org/mailing-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:dev@archiva.apache.org",
+"name": "Apache Archiva PMC"
+}
+],
+"name": "Apache Archiva",
+"pmc": "attic",
+"programming-language": "Java",
+"release": [
+{
+"created": "2021-12-19",
+"file-release": "https://archive.apache.org/dist/archiva/2.2.7/binaries/apache-archiva-2.2.7.war",
+"name": "Apache Archiva 2.2.7",
+"revision": "2.2.7"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf/archiva.git",
+"https://gitbox.apache.org/repos/asf/archiva-parent.git"
+],
+"shortdesc": "Apache Archiva software is an extensible repository management tool that helps taking care of your own personal or enterprise-wide build artifact repository."
 },
 "attic-beehive": {
 "bug-database": "http://issues.apache.org/jira/browse/BEEHIVE",
@@ -13827,9 +13827,9 @@
 "programming-language": "Java, Groovy, JavaScript, XML, Freemarker",
 "release": [
 {
-"created": "2023-12-21",
+"created": "2024-02-28",
 "name": "Apache OFBiz R18.12",
-"revision": "18.12.11"
+"revision": "18.12.12"
 },
 {
 "created": "2022-01-15",
@@ -15760,6 +15760,11 @@
 "name": "Les Hazlewood"
 },
 {
+"homepage": "https://hope.nyc.ny.us",
+"mbox": "mailto:lprimak@apache.org",
+"name": "Lenny Primak"
+},
+{
 "homepage": "https://www.cacoethes.co.uk/",
 "mbox": "mailto:p.ledbrook@cacoethes.co.uk",
 "name": "Peter Ledbrook"
@@ -15774,168 +15779,183 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2023-07-29",
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/2.0.0-alpha-3/shiro-root-2.0.0-alpha-3.pom",
+"created": "2024-02-28",
+"file-release": "https://nexus.hope.nyc.ny.us/repository/maven-public-jitpack/org/apache/shiro/shiro-root/2.0.0/shiro-root-2.0.0.pom",
 "name": "Latest stable release",
+"revision": "2.0.0"
+},
+{
+"file-release": "https://nexus.hope.nyc.ny.us/repository/maven-public-jitpack/org/apache/shiro/shiro-root/2.0.0-alpha-4/shiro-root-2.0.0-alpha-4.pom",
+"name": "Apache Shiro - 2.0.0-alpha-4",
+"revision": "2.0.0-alpha-4"
+},
+{
+"file-release": "https://nexus.hope.nyc.ny.us/repository/maven-public-jitpack/org/apache/shiro/shiro-root/2.0.0-alpha-3/shiro-root-2.0.0-alpha-3.pom",
+"name": "Apache Shiro - 2.0.0-alpha-3",
 "revision": "2.0.0-alpha-3"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/2.0.0-alpha-2/shiro-root-2.0.0-alpha-2.pom",
+"file-release": "https://nexus.hope.nyc.ny.us/repository/maven-public-jitpack/org/apache/shiro/shiro-root/2.0.0-alpha-2/shiro-root-2.0.0-alpha-2.pom",
 "name": "Apache Shiro - 2.0.0-alpha-2",
 "revision": "2.0.0-alpha-2"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/2.0.0-alpha-1/shiro-root-2.0.0-alpha-1.pom",
+"file-release": "https://nexus.hope.nyc.ny.us/repository/maven-public-jitpack/org/apache/shiro/shiro-root/2.0.0-alpha-1/shiro-root-2.0.0-alpha-1.pom",
 "name": "Apache Shiro - 2.0.0-alpha-1",
 "revision": "2.0.0-alpha-1"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.12.0/shiro-root-1.12.0.pom",
+"file-release": "https://nexus.hope.nyc.ny.us/repository/maven-public-jitpack/org/apache/shiro/shiro-root/1.13.0/shiro-root-1.13.0.pom",
+"name": "Apache Shiro - 1.13.0",
+"revision": "1.13.0"
+},
+{
+"file-release": "https://nexus.hope.nyc.ny.us/repository/maven-public-jitpack/org/apache/shiro/shiro-root/1.12.0/shiro-root-1.12.0.pom",
 "name": "Apache Shiro - 1.12.0",
 "revision": "1.12.0"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.11.0/shiro-root-1.11.0.pom",
+"file-release": "https://nexus.hope.nyc.ny.us/repository/maven-public-jitpack/org/apache/shiro/shiro-root/1.11.0/shiro-root-1.11.0.pom",
 "name": "Apache Shiro - 1.11.0",
 "revision": "1.11.0"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.10.1/shiro-root-1.10.1.pom",
+"file-release": "https://nexus.hope.nyc.ny.us/repository/maven-public-jitpack/org/apache/shiro/shiro-root/1.10.1/shiro-root-1.10.1.pom",
 "name": "Apache Shiro - 1.10.1",
 "revision": "1.10.1"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.10.0/shiro-root-1.10.0.pom",
+"file-release": "https://nexus.hope.nyc.ny.us/repository/maven-public-jitpack/org/apache/shiro/shiro-root/1.10.0/shiro-root-1.10.0.pom",
 "name": "Apache Shiro - 1.10.0",
 "revision": "1.10.0"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.9.1/shiro-root-1.9.1.pom",
+"file-release": "https://nexus.hope.nyc.ny.us/repository/maven-public-jitpack/org/apache/shiro/shiro-root/1.9.1/shiro-root-1.9.1.pom",
 "name": "Apache Shiro - 1.9.1",
 "revision": "1.9.1"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.9.0/shiro-root-1.9.0.pom",
+"file-release": "https://nexus.hope.nyc.ny.us/repository/maven-public-jitpack/org/apache/shiro/shiro-root/1.9.0/shiro-root-1.9.0.pom",
 "name": "Apache Shiro - 1.9.0",
 "revision": "1.9.0"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.8.0/shiro-root-1.8.0.pom",
+"file-release": "https://nexus.hope.nyc.ny.us/repository/maven-public-jitpack/org/apache/shiro/shiro-root/1.8.0/shiro-root-1.8.0.pom",
 "name": "Apache Shiro - 1.8.0",
 "revision": "1.8.0"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.7.1/shiro-root-1.7.1.pom",
+"file-release": "https://nexus.hope.nyc.ny.us/repository/maven-public-jitpack/org/apache/shiro/shiro-root/1.7.1/shiro-root-1.7.1.pom",
 "name": "Apache Shiro - 1.7.1",
 "revision": "1.7.1"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.7.0/shiro-root-1.7.0.pom",
+"file-release": "https://nexus.hope.nyc.ny.us/repository/maven-public-jitpack/org/apache/shiro/shiro-root/1.7.0/shiro-root-1.7.0.pom",
 "name": "Apache Shiro - 1.7.0",
 "revision": "1.7.0"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.6.0/shiro-root-1.6.0.pom",
+"file-release": "https://nexus.hope.nyc.ny.us/repository/maven-public-jitpack/org/apache/shiro/shiro-root/1.6.0/shiro-root-1.6.0.pom",
 "name": "Apache Shiro - 1.6.0",
 "revision": "1.6.0"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.5.3/shiro-root-1.5.3.pom",
+"file-release": "https://nexus.hope.nyc.ny.us/repository/maven-public-jitpack/org/apache/shiro/shiro-root/1.5.3/shiro-root-1.5.3.pom",
 "name": "Apache Shiro - 1.5.3",
 "revision": "1.5.3"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.5.2/shiro-root-1.5.2.pom",
+"file-release": "https://nexus.hope.nyc.ny.us/repository/maven-public-jitpack/org/apache/shiro/shiro-root/1.5.2/shiro-root-1.5.2.pom",
 "name": "Apache Shiro - 1.5.2",
 "revision": "1.5.2"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.5.1/shiro-root-1.5.1.pom",
+"file-release": "https://nexus.hope.nyc.ny.us/repository/maven-public-jitpack/org/apache/shiro/shiro-root/1.5.1/shiro-root-1.5.1.pom",
 "name": "Apache Shiro - 1.5.1",
 "revision": "1.5.1"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.5.0/shiro-root-1.5.0.pom",
+"file-release": "https://nexus.hope.nyc.ny.us/repository/maven-public-jitpack/org/apache/shiro/shiro-root/1.5.0/shiro-root-1.5.0.pom",
 "name": "Apache Shiro - 1.5.0",
 "revision": "1.5.0"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.4.2/shiro-root-1.4.2.pom",
+"file-release": "https://nexus.hope.nyc.ny.us/repository/maven-public-jitpack/org/apache/shiro/shiro-root/1.4.2/shiro-root-1.4.2.pom",
 "name": "Apache Shiro - 1.4.2",
 "revision": "1.4.2"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.4.1/shiro-root-1.4.1.pom",
+"file-release": "https://nexus.hope.nyc.ny.us/repository/maven-public-jitpack/org/apache/shiro/shiro-root/1.4.1/shiro-root-1.4.1.pom",
 "name": "Apache Shiro - 1.4.1",
 "revision": "1.4.1"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.4.0/shiro-root-1.4.0.pom",
+"file-release": "https://nexus.hope.nyc.ny.us/repository/maven-public-jitpack/org/apache/shiro/shiro-root/1.4.0/shiro-root-1.4.0.pom",
 "name": "Apache Shiro - 1.4.0",
 "revision": "1.4.0"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.4.0-RC2/shiro-root-1.4.0-RC2.pom",
+"file-release": "https://nexus.hope.nyc.ny.us/repository/maven-public-jitpack/org/apache/shiro/shiro-root/1.4.0-RC2/shiro-root-1.4.0-RC2.pom",
 "name": "Apache Shiro - 1.4.0-RC2",
 "revision": "1.4.0-RC2"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.3.2/shiro-root-1.3.2.pom",
+"file-release": "https://nexus.hope.nyc.ny.us/repository/maven-public-jitpack/org/apache/shiro/shiro-root/1.3.2/shiro-root-1.3.2.pom",
 "name": "Apache Shiro - 1.3.2",
 "revision": "1.3.2"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.3.1/shiro-root-1.3.1.pom",
+"file-release": "https://nexus.hope.nyc.ny.us/repository/maven-public-jitpack/org/apache/shiro/shiro-root/1.3.1/shiro-root-1.3.1.pom",
 "name": "Apache Shiro - 1.3.1",
 "revision": "1.3.1"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.3.0/shiro-root-1.3.0.pom",
+"file-release": "https://nexus.hope.nyc.ny.us/repository/maven-public-jitpack/org/apache/shiro/shiro-root/1.3.0/shiro-root-1.3.0.pom",
 "name": "Apache Shiro - 1.3.0",
 "revision": "1.3.0"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.2.6/shiro-root-1.2.6.pom",
+"file-release": "https://nexus.hope.nyc.ny.us/repository/maven-public-jitpack/org/apache/shiro/shiro-root/1.2.6/shiro-root-1.2.6.pom",
 "name": "Apache Shiro - 1.2.6",
 "revision": "1.2.6"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.2.5/shiro-root-1.2.5.pom",
+"file-release": "https://nexus.hope.nyc.ny.us/repository/maven-public-jitpack/org/apache/shiro/shiro-root/1.2.5/shiro-root-1.2.5.pom",
 "name": "Apache Shiro - 1.2.5",
 "revision": "1.2.5"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.2.4/shiro-root-1.2.4.pom",
+"file-release": "https://nexus.hope.nyc.ny.us/repository/maven-public-jitpack/org/apache/shiro/shiro-root/1.2.4/shiro-root-1.2.4.pom",
 "name": "Apache Shiro - 1.2.4",
 "revision": "1.2.4"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.2.3/shiro-root-1.2.3.pom",
+"file-release": "https://nexus.hope.nyc.ny.us/repository/maven-public-jitpack/org/apache/shiro/shiro-root/1.2.3/shiro-root-1.2.3.pom",
 "name": "Apache Shiro - 1.2.3",
 "revision": "1.2.3"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.2.2/shiro-root-1.2.2.pom",
+"file-release": "https://nexus.hope.nyc.ny.us/repository/maven-public-jitpack/org/apache/shiro/shiro-root/1.2.2/shiro-root-1.2.2.pom",
 "name": "Apache Shiro - 1.2.2",
 "revision": "1.2.2"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.2.1/shiro-root-1.2.1.pom",
+"file-release": "https://nexus.hope.nyc.ny.us/repository/maven-public-jitpack/org/apache/shiro/shiro-root/1.2.1/shiro-root-1.2.1.pom",
 "name": "Apache Shiro - 1.2.1",
 "revision": "1.2.1"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.2.0/shiro-root-1.2.0.pom",
+"file-release": "https://nexus.hope.nyc.ny.us/repository/maven-public-jitpack/org/apache/shiro/shiro-root/1.2.0/shiro-root-1.2.0.pom",
 "name": "Apache Shiro - 1.2.0",
 "revision": "1.2.0"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.1.0/shiro-root-1.1.0.pom",
+"file-release": "https://nexus.hope.nyc.ny.us/repository/maven-public-jitpack/org/apache/shiro/shiro-root/1.1.0/shiro-root-1.1.0.pom",
 "name": "Apache Shiro - 1.1.0",
 "revision": "1.1.0"
 },
 {
-"file-release": "https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.0.0-incubating/shiro-root-1.0.0-incubating.pom",
+"file-release": "https://nexus.hope.nyc.ny.us/repository/maven-public-jitpack/org/apache/shiro/shiro-root/1.0.0-incubating/shiro-root-1.0.0-incubating.pom",
 "name": "Apache Shiro - 1.0.0-incubating",
 "revision": "1.0.0-incubating"
 }
