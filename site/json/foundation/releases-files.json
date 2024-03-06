@@ -83,17 +83,17 @@
 ]
 },
 "airflow": {
-"airflow-1.11.0": [
-"airflow/helm-chart/1.11.0/airflow-1.11.0.tgz"
-],
 "airflow-1.12.0": [
 "airflow/helm-chart/1.12.0/airflow-1.12.0.tgz"
 ],
-"airflow-chart-1.11.0": [
-"airflow/helm-chart/1.11.0/airflow-chart-1.11.0-source.tar.gz"
+"airflow-1.13.0": [
+"airflow/helm-chart/1.13.0/airflow-1.13.0.tgz"
 ],
 "airflow-chart-1.12.0": [
 "airflow/helm-chart/1.12.0/airflow-chart-1.12.0-source.tar.gz"
+],
+"airflow-chart-1.13.0": [
+"airflow/helm-chart/1.13.0/airflow-chart-1.13.0-source.tar.gz"
 ],
 "apache-airflow-2.8.2": [
 "airflow/2.8.2/apache-airflow-2.8.2-source.tar.gz"
@@ -776,8 +776,8 @@
 "apache-arrow-nanoarrow-0.4.0": [
 "arrow/apache-arrow-nanoarrow-0.4.0/apache-arrow-nanoarrow-0.4.0.tar.gz"
 ],
-"apache-arrow-object-store-rs-0.9.0": [
-"arrow/arrow-object-store-rs-0.9.0/apache-arrow-object-store-rs-0.9.0.tar.gz"
+"apache-arrow-object-store-rs-0.9.1": [
+"arrow/arrow-object-store-rs-0.9.1/apache-arrow-object-store-rs-0.9.1.tar.gz"
 ],
 "apache-arrow-rs-50.0.0": [
 "arrow/arrow-rs-50.0.0/apache-arrow-rs-50.0.0.tar.gz"
@@ -799,6 +799,12 @@
 "apache-asterixdb-0.9.8.1": [
 "asterixdb/asterixdb-0.9.8.1/apache-asterixdb-0.9.8.1-source-release.zip"
 ],
+"apache-asterixdb-0.9.8.2": [
+"asterixdb/asterixdb-0.9.8.2/apache-asterixdb-0.9.8.2-source-release.zip"
+],
+"apache-asterixdb-0.9.9": [
+"asterixdb/asterixdb-0.9.9/apache-asterixdb-0.9.9-source-release.zip"
+],
 "apache-asterixdb-jdbc-0.9.7.1": [
 "asterixdb/asterixdb-jdbc-0.9.7.1/apache-asterixdb-jdbc-0.9.7.1-source-release.zip"
 ],
@@ -819,6 +825,12 @@
 ],
 "apache-hyracks-0.3.8.1": [
 "asterixdb/asterixdb-0.9.8.1/apache-hyracks-0.3.8.1-source-release.zip"
+],
+"apache-hyracks-0.3.8.2": [
+"asterixdb/asterixdb-0.9.8.2/apache-hyracks-0.3.8.2-source-release.zip"
+],
+"apache-hyracks-0.3.9": [
+"asterixdb/asterixdb-0.9.9/apache-hyracks-0.3.9-source-release.zip"
 ]
 },
 "atlas": {
@@ -1715,9 +1727,9 @@
 "commons/bsf/source/bsf-3.1-src.tar.gz",
 "commons/bsf/source/bsf-3.1-src.zip"
 ],
-"commons-66": [
-"commons/parent/source/commons-parent-66-src.tar.gz",
-"commons/parent/source/commons-parent-66-src.zip"
+"commons-67": [
+"commons/parent/source/commons-parent-67-src.tar.gz",
+"commons/parent/source/commons-parent-67-src.zip"
 ],
 "commons-beanutils-1.9.4": [
 "commons/beanutils/source/commons-beanutils-1.9.4-src.tar.gz",
@@ -2538,9 +2550,6 @@
 "dubbo": {
 "apache-dubbo-3.1.11": [
 "dubbo/3.1.11/apache-dubbo-3.1.11-src.zip"
-],
-"apache-dubbo-3.2.10": [
-"dubbo/3.2.10/apache-dubbo-3.2.10.zip"
 ],
 "apache-dubbo-3.2.11": [
 "dubbo/3.2.11/apache-dubbo-3.2.11-src.zip"
@@ -4085,18 +4094,6 @@
 ]
 },
 "incubator-celeborn": {
-"apache-celeborn-0.2.0-incubating": [
-"incubator/celeborn/celeborn-0.2.0-incubating/apache-celeborn-0.2.0-incubating-source.tgz"
-],
-"apache-celeborn-0.2.1-incubating": [
-"incubator/celeborn/celeborn-0.2.1-incubating/apache-celeborn-0.2.1-incubating-source.tgz"
-],
-"apache-celeborn-0.3.0-incubating": [
-"incubator/celeborn/celeborn-0.3.0-incubating/apache-celeborn-0.3.0-incubating-source.tgz"
-],
-"apache-celeborn-0.3.1-incubating": [
-"incubator/celeborn/celeborn-0.3.1-incubating/apache-celeborn-0.3.1-incubating-source.tgz"
-],
 "apache-celeborn-0.3.2-incubating": [
 "incubator/celeborn/celeborn-0.3.2-incubating/apache-celeborn-0.3.2-incubating-source.tgz"
 ],
@@ -4518,8 +4515,8 @@
 "james-mime4j-sources-0.8.10": [
 "james/mime4j/0.8.10/james-mime4j-sources-0.8.10.zip"
 ],
-"james-mime4j-sources-0.8.9": [
-"james/mime4j/0.8.9/james-mime4j-sources-0.8.9.zip"
+"james-mime4j-sources-0.8.11": [
+"james/mime4j/0.8.11/james-mime4j-sources-0.8.11.zip"
 ],
 "james-server-app-3.8.0": [
 "james/server/3.8.0/james-server-app-3.8.0-app.zip"
