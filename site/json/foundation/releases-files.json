@@ -64,10 +64,10 @@
 "age/1.1.0/apache-age-1.1.0-src.tar.gz"
 ],
 "apache-age-1.4.0": [
-"age/PG11/1.4.0/apache-age-1.4.0-src.tar.gz",
-"age/PG12/1.4.0/apache-age-1.4.0-src.tar.gz"
+"age/PG11/1.4.0/apache-age-1.4.0-src.tar.gz"
 ],
 "apache-age-1.5.0": [
+"age/PG12/1.5.0/apache-age-1.5.0-src.tar.gz",
 "age/PG13/1.5.0/apache-age-1.5.0-src.tar.gz",
 "age/PG14/1.5.0/apache-age-1.5.0-src.tar.gz",
 "age/PG15/1.5.0/apache-age-1.5.0-src.tar.gz",
@@ -95,8 +95,8 @@
 "airflow-chart-1.13.0": [
 "airflow/helm-chart/1.13.0/airflow-chart-1.13.0-source.tar.gz"
 ],
-"apache-airflow-2.8.2": [
-"airflow/2.8.2/apache-airflow-2.8.2-source.tar.gz"
+"apache-airflow-2.8.3": [
+"airflow/2.8.3/apache-airflow-2.8.3-source.tar.gz"
 ],
 "apache-airflow-client-2.5.0": [
 "airflow/clients/go/2.5.0/apache-airflow-client-2.5.0-source.tar.gz"
@@ -113,8 +113,8 @@
 "apache-airflow-upgrade-check-1.4.0": [
 "airflow/upgrade-check/1.4.0/apache-airflow-upgrade-check-1.4.0-source.tar.gz"
 ],
-"apache_airflow-2.8.2": [
-"airflow/2.8.2/apache_airflow-2.8.2.tar.gz"
+"apache_airflow-2.8.3": [
+"airflow/2.8.3/apache_airflow-2.8.3.tar.gz"
 ],
 "apache_airflow_providers_airbyte-3.6.0": [
 "airflow/providers/apache_airflow_providers_airbyte-3.6.0.tar.gz"
@@ -1968,8 +1968,8 @@
 "cordova-create-5.0.0": [
 "cordova/tools/cordova-create-5.0.0.tgz"
 ],
-"cordova-electron-3.1.0": [
-"cordova/platforms/cordova-electron-3.1.0.tgz"
+"cordova-electron-4.0.0": [
+"cordova/platforms/cordova-electron-4.0.0.tgz"
 ],
 "cordova-eslint-config-5.0.0": [
 "cordova/tools/cordova-eslint-config-5.0.0.tgz"
@@ -2421,6 +2421,9 @@
 ],
 "apache-doris-2.0.5": [
 "doris/2.0/2.0.5/apache-doris-2.0.5-src.tar.gz"
+],
+"apache-doris-2.0.6": [
+"doris/2.0/2.0.6/apache-doris-2.0.6-src.tar.gz"
 ],
 "apache-doris-2.1.0": [
 "doris/2.1/2.1.0/apache-doris-2.1.0-src.tar.gz"
@@ -3816,6 +3819,10 @@
 "httpcomponents/httpclient/source/httpcomponents-client-5.4-alpha1-src.tar.gz",
 "httpcomponents/httpclient/source/httpcomponents-client-5.4-alpha1-src.zip"
 ],
+"httpcomponents-client-5.4-alpha2": [
+"httpcomponents/httpclient/source/httpcomponents-client-5.4-alpha2-src.tar.gz",
+"httpcomponents/httpclient/source/httpcomponents-client-5.4-alpha2-src.zip"
+],
 "httpcomponents-client-android-4.3.5.1": [
 "httpcomponents/httpclient-android/source/httpcomponents-client-android-4.3.5.1-src.tar.gz",
 "httpcomponents/httpclient-android/source/httpcomponents-client-android-4.3.5.1-src.zip"
@@ -3979,6 +3986,9 @@
 ],
 "apache-iceberg-1.4.3": [
 "iceberg/apache-iceberg-1.4.3/apache-iceberg-1.4.3.tar.gz"
+],
+"apache-iceberg-1.5.0": [
+"iceberg/apache-iceberg-1.5.0/apache-iceberg-1.5.0.tar.gz"
 ],
 "apache-iceberg-rust-0.2.0": [
 "iceberg/iceberg-rust-0.2.0/apache-iceberg-rust-0.2.0-src.tar.gz"
@@ -5372,8 +5382,8 @@
 "maven-fluido-skin-2.0.0-M8": [
 "maven/skins/maven-fluido-skin-2.0.0-M8-source-release.zip"
 ],
-"maven-gpg-plugin-3.1.0": [
-"maven/plugins/maven-gpg-plugin-3.1.0-source-release.zip"
+"maven-gpg-plugin-3.2.0": [
+"maven/plugins/maven-gpg-plugin-3.2.0-source-release.zip"
 ],
 "maven-help-plugin-3.4.0": [
 "maven/plugins/maven-help-plugin-3.4.0-source-release.zip"
@@ -9514,8 +9524,8 @@
 "apache-zookeeper-3.8.4": [
 "zookeeper/zookeeper-3.8.4/apache-zookeeper-3.8.4.tar.gz"
 ],
-"apache-zookeeper-3.9.1": [
-"zookeeper/zookeeper-3.9.1/apache-zookeeper-3.9.1.tar.gz"
+"apache-zookeeper-3.9.2": [
+"zookeeper/zookeeper-3.9.2/apache-zookeeper-3.9.2.tar.gz"
 ]
 }
 }
