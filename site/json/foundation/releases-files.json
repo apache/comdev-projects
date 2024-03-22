@@ -2501,6 +2501,9 @@
 "apache-doris-flink-connector-1.5.2": [
 "doris/flink-connector/1.5.2/apache-doris-flink-connector-1.5.2-src.tar.gz"
 ],
+"apache-doris-kafka-connector-1.0.0": [
+"doris/kafka-connector/1.0.0-rc01/apache-doris-kafka-connector-1.0.0-src.tar.gz"
+],
 "apache-doris-sdk-1.0.0": [
 "doris/doris-sdk/1.0.0/apache-doris-sdk-1.0.0-src.tar.gz"
 ],
@@ -4231,20 +4234,6 @@
 ],
 "livy-0.5.0-incubating": [
 "incubator/livy/0.5.0-incubating/livy-0.5.0-incubating-src.zip"
-]
-},
-"incubator-milagro": {
-"apache-milagro-crypto-c-2.0.1-incubating": [
-"incubator/milagro/apache-milagro-crypto-c-2.0.1-incubating/apache-milagro-crypto-c-2.0.1-incubating-src.tar.gz"
-],
-"apache-milagro-crypto-js-1.0.0-incubating": [
-"incubator/milagro/apache-milagro-crypto-js-1.0.0-incubating/apache-milagro-crypto-js-1.0.0-incubating-src.tar.gz"
-],
-"apache-milagro-dta-0.1.0-incubating": [
-"incubator/milagro/apache-milagro-dta-0.1.0-incubating/apache-milagro-dta-0.1.0-incubating-src.tar.gz"
-],
-"apache-milagro-mpc-0.1-incubating": [
-"incubator/milagro/apache-milagro-mpc-0.1-incubating/apache-milagro-mpc-0.1-incubating-src.tar.gz"
 ]
 },
 "incubator-nemo": {
@@ -6426,8 +6415,8 @@
 "orc-1.8.6": [
 "orc/orc-1.8.6/orc-1.8.6.tar.gz"
 ],
-"orc-1.9.2": [
-"orc/orc-1.9.2/orc-1.9.2.tar.gz"
+"orc-1.9.3": [
+"orc/orc-1.9.3/orc-1.9.3.tar.gz"
 ],
 "orc-2.0.0": [
 "orc/orc-2.0.0/orc-2.0.0.tar.gz"
@@ -6920,6 +6909,9 @@
 "pulsar-3.3.0": [
 "pulsar/helm-chart/3.3.0/pulsar-3.3.0.tgz"
 ],
+"pulsar-3.3.1": [
+"pulsar/helm-chart/3.3.1/pulsar-3.3.1.tgz"
+],
 "pulsar-chart-3.0.0": [
 "pulsar/helm-chart/3.0.0/pulsar-chart-3.0.0-source.tar.gz"
 ],
@@ -6931,6 +6923,9 @@
 ],
 "pulsar-chart-3.3.0": [
 "pulsar/helm-chart/3.3.0/pulsar-chart-3.3.0-source.tar.gz"
+],
+"pulsar-chart-3.3.1": [
+"pulsar/helm-chart/3.3.1/pulsar-chart-3.3.1-source.tar.gz"
 ],
 "pulsar-client-node-1.7.0": [
 "pulsar/pulsar-client-node/pulsar-client-node-1.7.0/pulsar-client-node-1.7.0.tar.gz"
