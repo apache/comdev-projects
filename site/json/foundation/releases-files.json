@@ -3320,6 +3320,12 @@
 "flink-kubernetes-operator-1.7.0-helm": [
 "flink/flink-kubernetes-operator-1.7.0/flink-kubernetes-operator-1.7.0-helm.tgz"
 ],
+"flink-kubernetes-operator-1.8.0": [
+"flink/flink-kubernetes-operator-1.8.0/flink-kubernetes-operator-1.8.0-src.tgz"
+],
+"flink-kubernetes-operator-1.8.0-helm": [
+"flink/flink-kubernetes-operator-1.8.0/flink-kubernetes-operator-1.8.0-helm.tgz"
+],
 "flink-ml-2.2.0": [
 "flink/flink-ml-2.2.0/flink-ml-2.2.0-src.tgz"
 ],
@@ -4267,29 +4273,6 @@
 "incubator/nlpcraft/java-client/apache-nlpcraft-java-client-incubating-0.9.0.zip"
 ]
 },
-"incubator-paimon": {
-"apache-paimon-0.4.0-incubating": [
-"incubator/paimon/paimon-0.4.0-incubating/apache-paimon-0.4.0-incubating-src.tgz"
-],
-"apache-paimon-0.5.0-incubating": [
-"incubator/paimon/paimon-0.5.0-incubating/apache-paimon-0.5.0-incubating-src.tgz"
-],
-"apache-paimon-0.6.0-incubating": [
-"incubator/paimon/paimon-0.6.0-incubating/apache-paimon-0.6.0-incubating-src.tgz"
-],
-"apache-paimon-0.6.1-incubating": [
-"incubator/paimon/paimon-0.6.1-incubating/apache-paimon-0.6.1-incubating-src.tgz"
-],
-"apache-paimon-0.7.0-incubating": [
-"incubator/paimon/paimon-0.7.0-incubating/apache-paimon-0.7.0-incubating-src.tgz"
-],
-"apache-paimon-shade-0.4.0-incubating": [
-"incubator/paimon/paimon-0.4.0-incubating/apache-paimon-shade-0.4.0-incubating-src.tgz"
-],
-"apache-paimon-shade-0.6.0-incubating": [
-"incubator/paimon/paimon-shade-0.6.0-incubating/apache-paimon-shade-0.6.0-incubating-src.tgz"
-]
-},
 "incubator-pegasus": {
 "apache-pegasus-2.4.0-incubating": [
 "incubator/pegasus/2.4.0/apache-pegasus-2.4.0-incubating-src.zip"
@@ -5072,8 +5055,8 @@
 "apache-log4j-scala-13.1.0": [
 "logging/log4j-scala/13.1.0/apache-log4j-scala-13.1.0-src.zip"
 ],
-"apache-log4j-tools-0.7.0": [
-"logging/log4j-tools/0.7.0/apache-log4j-tools-0.7.0-src.zip"
+"apache-log4j-tools-0.8.0": [
+"logging/log4j-tools/0.8.0/apache-log4j-tools-0.8.0-src.zip"
 ],
 "apache-log4j-transform-0.1.0": [
 "logging/log4j-transform/0.1.0/apache-log4j-transform-0.1.0-src.zip"
@@ -6443,6 +6426,29 @@
 "ozone/1.4.0/ozone-1.4.0.tar.gz"
 ]
 },
+"paimon": {
+"apache-paimon-0.4.0-incubating": [
+"paimon/paimon-0.4.0-incubating/apache-paimon-0.4.0-incubating-src.tgz"
+],
+"apache-paimon-0.5.0-incubating": [
+"paimon/paimon-0.5.0-incubating/apache-paimon-0.5.0-incubating-src.tgz"
+],
+"apache-paimon-0.6.0-incubating": [
+"paimon/paimon-0.6.0-incubating/apache-paimon-0.6.0-incubating-src.tgz"
+],
+"apache-paimon-0.6.1-incubating": [
+"paimon/paimon-0.6.1-incubating/apache-paimon-0.6.1-incubating-src.tgz"
+],
+"apache-paimon-0.7.0-incubating": [
+"paimon/paimon-0.7.0-incubating/apache-paimon-0.7.0-incubating-src.tgz"
+],
+"apache-paimon-shade-0.4.0-incubating": [
+"paimon/paimon-0.4.0-incubating/apache-paimon-shade-0.4.0-incubating-src.tgz"
+],
+"apache-paimon-shade-0.6.0-incubating": [
+"paimon/paimon-shade-0.6.0-incubating/apache-paimon-shade-0.6.0-incubating-src.tgz"
+]
+},
 "parquet": {
 "apache-parquet-1.10.1": [
 "parquet/apache-parquet-1.10.1/apache-parquet-1.10.1.tar.gz"
@@ -6563,6 +6569,9 @@
 ],
 "apache-pinot-1.0.0": [
 "pinot/apache-pinot-1.0.0/apache-pinot-1.0.0-src.tar.gz"
+],
+"apache-pinot-1.1.0": [
+"pinot/apache-pinot-1.1.0/apache-pinot-1.1.0-src.tar.gz"
 ]
 },
 "pivot": {
@@ -7437,8 +7446,8 @@
 ]
 },
 "singa": {
-"apache-singa-4.1.0": [
-"singa/4.1.0/apache-singa-4.1.0.tar.gz"
+"apache-singa-4.2.0": [
+"singa/4.2.0/apache-singa-4.2.0.tar.gz"
 ]
 },
 "sis": {
@@ -8811,8 +8820,8 @@
 ]
 },
 "thrift": {
-"thrift-0.19.0": [
-"thrift/0.19.0/thrift-0.19.0.tar.gz"
+"thrift-0.20.0": [
+"thrift/0.20.0/thrift-0.20.0.tar.gz"
 ]
 },
 "tika": {
