@@ -4780,15 +4780,15 @@
 "shortdesc": "Apache Causeway is a framework for rapidly developing domain-driven apps in Java"
 },
 "cayenne": {
-"bug-database": "http://issues.apache.org/jira/browse/CAY",
+"bug-database": "https://issues.apache.org/jira/browse/CAY",
 "category": "database, library, network-server, network-client, xml, web-framework",
 "created": "2007-01-07",
 "description": "Cayenne is a powerful, full-featured, opensource framework created for developers working with relational databases. it seamlessly maps any relational database to Java objects, reducing development time and adding considerable functionality to any application which requires a database. Developers using Cayenne will be able to concentrate on the core business requirements and the data model instead of the SQL details. The application can then be easily moved to any JDBC-capable database. In addition to management of persistent Java objects mapped to relational databases, Cayenne provides a plethora of features including single method call queries and updates (including atomic updates of all modified objects), seamless integration of multiple databases into a single virtual data source, three tier persistence with caching on the remote client, paging of results, record locking, and many more features.",
 "doap": "https://cayenne.apache.org/doap/cayenne.rdf",
-"download-page": "http://cayenne.apache.org/download.html",
-"homepage": "http://cayenne.apache.org",
+"download-page": "https://cayenne.apache.org/download.html",
+"homepage": "https://cayenne.apache.org",
 "license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://cayenne.apache.org/mailing-lists.html",
+"mailing-list": "https://cayenne.apache.org/mailing-lists.html",
 "maintainer": [
 {
 "mbox": "mailto:ari@ish.com.au",
@@ -8903,7 +8903,7 @@
 "bug-database": "https://issues.apache.org/jira/projects/FINERACT/issues/",
 "created": "2023-07-12",
 "description": "At Apache Fineract, our mission is to build, maintain and enhance a cloud-ready core banking system for robust, scalable, and secure operations of financial institutions.",
-"doap": " http://fineract.apache.org/doap_Fineract.rdf",
+"doap": "http://fineract.apache.org/doap_Fineract.rdf",
 "download-page": "https://fineract.apache.org",
 "homepage": "https://fineract.apache.org",
 "license": "https://spdx.org/licenses/Apache-2.0",
@@ -11431,6 +11431,37 @@
 ],
 "shortdesc": "Apache Chainsaw is a GUI log viewer."
 },
+"logging-flume": {
+"bug-database": "https://issues.apache.org/jira/browse/FLUME",
+"category": "big-data",
+"created": "2014-06-13",
+"description": "Apache Flume is a distributed, reliable, and available system for efficiently collecting, aggregating and moving large amounts of log data from many different sources to a centralized data store",
+"doap": "https://gitbox.apache.org/repos/asf?p=flume.git;a=blob_plain;f=doap_Flume.rdf;hb=HEAD",
+"download-page": "http://flume.apache.org/download.html",
+"homepage": "http://flume.apache.org",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "http://flume.apache.org/mailinglists.html",
+"maintainer": [
+{
+"mbox": "mailto:dev@logging.apache.org",
+"name": "Apache Logging Services"
+}
+],
+"name": "Apache Flume",
+"pmc": "logging",
+"programming-language": "Java",
+"release": [
+{
+"created": "2014-05-20",
+"name": "Apache Flume",
+"revision": "1.5.0"
+}
+],
+"repository": [
+"https://git-wip-us.apache.org/repos/asf?p=flume.git"
+],
+"shortdesc": "Apache Flume is a distributed, reliable, and available system for efficiently collecting, aggregating and moving large amounts of log data from many different sources to a centralized data store."
+},
 "logging-log4cxx": {
 "bug-database": "https://issues.apache.org/jira/browse/LOGCXX",
 "category": "library",
@@ -11466,81 +11497,19 @@
 "shortdesc": "Apache log4j provides logging services for Java."
 },
 "logging-log4net": {
-"bug-database": "https://issues.apache.org/jira/browse/LOG4NET",
+"bug-database": "https://github.com/apache/logging-log4net/issues",
 "category": "library",
 "created": "2007-02-09",
 "doap": "http://logging.apache.org/log4net/doap_log4net.rdf",
-"download-page": "http://logging.apache.org/log4net/download_log4net.cgi",
+"download-page": "https://logging.apache.org/log4net/download_log4net.html",
 "homepage": "http://logging.apache.org/log4net/",
 "license": "http://usefulinc.com/doap/licenses/asl20",
 "mailing-list": "http://logging.apache.org/log4net/mail-lists.html",
 "name": "Apache log4net",
 "pmc": "logging",
 "programming-language": "C#",
-"release": [
-{
-"created": "2005-03-21",
-"name": "Apache log4net 1.2.9",
-"revision": "1.2.9"
-},
-{
-"created": "2006-04-19",
-"name": "Apache log4net 1.2.10",
-"revision": "1.2.10"
-},
-{
-"created": "2011-10-12",
-"name": "Apache log4net 1.2.11",
-"revision": "1.2.11"
-},
-{
-"created": "2013-09-12",
-"name": "Apache log4net 1.2.12",
-"revision": "1.2.12"
-},
-{
-"created": "2013-11-21",
-"name": "Apache log4net 1.2.13",
-"revision": "1.2.13"
-},
-{
-"created": "2015-11-11",
-"name": "Apache log4net 1.2.14",
-"revision": "1.2.14"
-},
-{
-"created": "2015-12-09",
-"name": "Apache log4net 1.2.15",
-"revision": "1.2.15"
-},
-{
-"created": "2016-12-25",
-"name": "Apache log4net 2.0.6",
-"revision": "2.0.6"
-},
-{
-"created": "2017-01-05",
-"name": "Apache log4net 2.0.7",
-"revision": "2.0.7"
-},
-{
-"created": "2017-03-11",
-"name": "Apache log4net 2.0.8",
-"revision": "2.0.8"
-},
-{
-"created": "2019-08-25",
-"name": "Apache log4net 2.0.9",
-"revision": "2.0.9"
-},
-{
-"created": "2019-09.12",
-"name": "Apache log4net 2.0.10",
-"revision": "2.0.10"
-}
-],
 "repository": [
-"https://git-wip-us.apache.org/repos/asf/logging-log4net.git"
+"https://github.com/apache/logging-log4net"
 ],
 "shortdesc": "Apache log4net provides logging services for .NET."
 },
@@ -14840,9 +14809,9 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2023-09-23",
-"name": "1.0.0",
-"revision": "1.0.0"
+"created": "2024-03-24",
+"name": "1.1.0",
+"revision": "1.1.0"
 }
 ],
 "repository": [
@@ -17808,9 +17777,9 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2024-02-19",
+"created": "2024-03-25",
 "name": "Latest Stable 10.1.x Release",
-"revision": "10.1.19"
+"revision": "10.1.20"
 },
 {
 "created": "2022-10-10",
@@ -17823,9 +17792,9 @@
 "revision": "9.0.87"
 },
 {
-"created": "2024-02-19",
+"created": "2024-03-25",
 "name": "Latest Stable 8.5.x Release",
-"revision": "8.5.99"
+"revision": "8.5.100"
 }
 ],
 "repository": [

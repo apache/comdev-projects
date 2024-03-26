@@ -29,17 +29,17 @@
 "airavata-0.17": "2019-03-21"
 },
 "airflow": {
-"airflow-1.12.0": "2024-02-12",
 "airflow-1.13.0": "2024-03-05",
-"airflow-chart-1.12.0": "2024-02-12",
+"airflow-1.13.1": "2024-03-25",
 "airflow-chart-1.13.0": "2024-03-05",
-"apache-airflow-2.8.3": "2024-03-11",
+"airflow-chart-1.13.1": "2024-03-25",
+"apache-airflow-2.8.4": "2024-03-25",
 "apache-airflow-client-2.5.0": "2023-02-03",
 "apache-airflow-client-2.8.0": "2023-12-23",
 "apache-airflow-providers-jira-3.1.0": "2022-10-01",
 "apache-airflow-providers-qubole-3.4.3": "2023-11-12",
 "apache-airflow-upgrade-check-1.4.0": "2021-06-26",
-"apache_airflow-2.8.3": "2024-03-11",
+"apache_airflow-2.8.4": "2024-03-25",
 "apache_airflow_providers_airbyte-3.6.0": "2024-01-27",
 "apache_airflow_providers_alibaba-2.7.2": "2024-01-27",
 "apache_airflow_providers_amazon-8.19.0": "2024-03-08",
@@ -250,8 +250,6 @@
 "tx-control-1.0.1": "2019-02-27"
 },
 "arrow": {
-"apache-arrow-15.0.0": "2024-01-16",
-"apache-arrow-15.0.1": "2024-02-23",
 "apache-arrow-15.0.2": "2024-03-13",
 "apache-arrow-adbc-0.10.0": "2024-02-18",
 "apache-arrow-ballista-0.12.0": "2024-02-07",
@@ -326,7 +324,7 @@
 "beam": {
 "apache-beam-0f52187e344dad9bca4c183fe51151b733b24e35": "2021-03-08",
 "apache-beam-1688ac1374ff02286ba8e59c9379bf7bb5875646": "2022-01-18",
-"apache-beam-2.54.0": "2024-02-14",
+"apache-beam-2.55.0": "2024-03-25",
 "apache-beam-2d08b32e674a1046ba7be0ae5f1e4b7b05b73488": "2024-02-22",
 "apache-beam-37fd13e738185822af132fe2e457b618e766802f": "2021-11-03",
 "apache-beam-52b4a9cb58e486745ded7d53a5b6e2d2312e9551": "2024-01-23",
@@ -438,6 +436,7 @@
 "apache-camel-quarkus-2.13.3": "2023-04-18",
 "apache-camel-quarkus-3.2.3": "2023-12-05",
 "apache-camel-quarkus-3.8.1": "2024-03-19",
+"apache-camel-quarkus-3.9.0": "2024-03-25",
 "camel-k-examples-1.10.1": "2022-10-10",
 "camel-k-examples-1.10.2": "2022-10-18",
 "camel-k-examples-1.10.3": "2022-11-11",
@@ -720,21 +719,13 @@
 "apache-curator-5.6.0": "2024-01-02"
 },
 "cxf": {
-"apache-cxf-3.4.10": "2022-12-13",
-"apache-cxf-3.5.6": "2023-05-08",
-"apache-cxf-3.5.7": "2023-09-18",
 "apache-cxf-3.5.8": "2024-03-12",
-"apache-cxf-3.6.1": "2023-06-12",
-"apache-cxf-3.6.2": "2023-09-18",
 "apache-cxf-3.6.3": "2024-03-12",
-"apache-cxf-4.0.0": "2022-12-22",
-"apache-cxf-4.0.2": "2023-06-12",
-"apache-cxf-4.0.3": "2023-09-18",
 "apache-cxf-4.0.4": "2024-03-12",
 "apache-fediz-1.5.1": "2020-11-30",
-"apache-fediz-1.6.1": "2022-12-23",
+"apache-fediz-1.6.2": "2024-03-25",
 "fediz-1.5.1": "2020-11-30",
-"fediz-1.6.1": "2022-12-23"
+"fediz-1.6.2": "2024-03-25"
 },
 "daffodil": {
 "apache-daffodil-3.6.0": "2023-10-31",
@@ -1686,7 +1677,7 @@
 "apache-log4j-scala-13.1.0": "2024-02-06",
 "apache-log4j-tools-0.8.0": "2024-03-22",
 "apache-log4j-transform-0.1.0": "2023-05-05",
-"apache-log4net-source-2.0.16": "2024-03-08",
+"apache-log4net-source-2.0.17": "2024-03-25",
 "apache-log4php-2.3.0": "2013-01-31",
 "apache-logging-10.6.0": "2024-01-15",
 "log4j-1.2.17": "2013-01-31"
@@ -2985,8 +2976,10 @@
 },
 "tomcat": {
 "apache-tomcat-10.1.19": "2024-02-14",
+"apache-tomcat-10.1.20": "2024-03-19",
 "apache-tomcat-11.0.0-M17": "2024-02-13",
 "apache-tomcat-11.0.0-M18": "2024-03-09",
+"apache-tomcat-8.5.100": "2024-03-19",
 "apache-tomcat-8.5.99": "2024-02-14",
 "apache-tomcat-9.0.85": "2024-01-05",
 "apache-tomcat-9.0.86": "2024-02-14",
