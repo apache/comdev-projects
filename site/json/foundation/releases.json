@@ -556,9 +556,8 @@
 "apache-cloudstack-4.17.2.0": "2022-12-14",
 "apache-cloudstack-4.18.0.0": "2023-03-11",
 "apache-cloudstack-4.18.1.0": "2023-09-07",
-"apache-cloudstack-4.18.1.1": "2024-03-27",
 "apache-cloudstack-4.19.0.0": "2024-01-29",
-"apache-cloudstack-4.19.0.1": "2024-03-27",
+"apache-cloudstack-4.19.0.1": "2024-04-02",
 "apache-cloudstack-cloudmonkey-6.3.0": "2023-05-05",
 "apache-cloudstack-cloudmonkey-6.4.0": "2024-03-21",
 "apache-cloudstack-ec2stack-0.8.0": "2015-08-26",
@@ -609,7 +608,7 @@
 "commons-build-plugin-1.13": "2023-06-28",
 "commons-cli-1.6.0": "2023-10-26",
 "commons-codec-1.16.1": "2024-02-08",
-"commons-collections4-4.4": "2019-07-09",
+"commons-collections4-4.5.0-M1": "2024-04-02",
 "commons-compress-1.26.1": "2024-03-08",
 "commons-configuration-1.10": "2013-10-28",
 "commons-configuration2-2.10.1": "2024-03-20",
@@ -626,7 +625,7 @@
 "commons-fileupload-1.5": "2023-02-01",
 "commons-fileupload2-2.0.0-M2": "2023-12-27",
 "commons-geometry-1.0": "2021-08-21",
-"commons-imaging-1.0-alpha3": "2022-05-19",
+"commons-imaging-1.0.0-alpha4": "2024-04-02",
 "commons-io-2.16.0": "2024-03-28",
 "commons-jci-1.1": "2013-10-14",
 "commons-jcs3-dist-3.2": "2023-09-18",
@@ -862,7 +861,8 @@
 "apache-druid-27.0.0": "2023-08-04",
 "apache-druid-28.0.0": "2023-11-06",
 "apache-druid-28.0.1": "2023-12-10",
-"apache-druid-29.0.0": "2024-02-13"
+"apache-druid-29.0.0": "2024-02-13",
+"apache-druid-29.0.1": "2024-03-20"
 },
 "dubbo": {
 "apache-dubbo-3.1.11": "2023-07-31",
@@ -1385,14 +1385,18 @@
 "v2.0.0": "2024-01-03"
 },
 "incubator-hugegraph": {
+"apache-hugegraph-ai-incubating-1.3.0": "2024-03-25",
 "apache-hugegraph-commons-incubating-1.0.0": "2023-02-10",
 "apache-hugegraph-commons-incubating-1.2.0": "2023-12-17",
+"apache-hugegraph-commons-incubating-1.3.0": "2024-03-21",
 "apache-hugegraph-computer-incubating-1.0.0": "2023-02-10",
 "apache-hugegraph-computer-incubating-1.2.0": "2023-12-19",
 "apache-hugegraph-incubating-1.0.0": "2023-02-10",
 "apache-hugegraph-incubating-1.2.0": "2023-12-19",
+"apache-hugegraph-incubating-1.3.0": "2024-03-24",
 "apache-hugegraph-toolchain-incubating-1.0.0": "2023-02-10",
-"apache-hugegraph-toolchain-incubating-1.2.0": "2023-12-19"
+"apache-hugegraph-toolchain-incubating-1.2.0": "2023-12-19",
+"apache-hugegraph-toolchain-incubating-1.3.0": "2024-03-24"
 },
 "incubator-liminal": {
 "apache-liminal-0.0.4-incubating": "2022-03-06",
@@ -1778,7 +1782,7 @@
 "maven-archetype-3.2.1": "2021-12-30",
 "maven-archetype-bundles-1.4": "2018-12-13",
 "maven-archiver-3.6.2": "2024-03-28",
-"maven-artifact-plugin-3.5.0": "2023-10-02",
+"maven-artifact-plugin-3.5.1": "2024-04-02",
 "maven-artifact-transfer-0.13.1": "2020-12-26",
 "maven-build-cache-extension-1.1.0": "2023-11-30",
 "maven-changelog-plugin-2.3": "2014-06-28",
@@ -1822,7 +1826,7 @@
 "maven-pdf-plugin-1.6.1": "2022-08-19",
 "maven-plugin-3.7.1": "2024-03-18",
 "maven-plugin-testing-4.0.0-alpha-2": "2023-11-11",
-"maven-plugin-tools-3.11.0": "2024-01-10",
+"maven-plugin-tools-3.12.0": "2024-04-02",
 "maven-pmd-plugin-3.21.2": "2023-11-02",
 "maven-rar-plugin-3.0.0": "2022-07-20",
 "maven-release-3.0.1": "2023-06-03",
@@ -1831,7 +1835,7 @@
 "maven-reporting-exec-2.0.0-M12": "2023-11-24",
 "maven-reporting-impl-4.0.0-M13": "2023-12-13",
 "maven-resolver-1.9.18": "2023-11-25",
-"maven-resolver-2.0.0-alpha-8": "2024-02-26",
+"maven-resolver-2.0.0-alpha-10": "2024-04-02",
 "maven-resolver-ant-tasks-1.5.0": "2023-09-11",
 "maven-resources-plugin-3.3.1": "2023-03-24",
 "maven-scm-2.0.1": "2023-05-18",
@@ -1845,7 +1849,7 @@
 "maven-shared-resources-5": "2022-11-22",
 "maven-shared-utils-3.4.2": "2023-05-15",
 "maven-site-plugin-4.0.0-M13": "2023-12-17",
-"maven-source-plugin-3.3.0": "2023-05-21",
+"maven-source-plugin-3.3.1": "2024-04-02",
 "maven-stage-plugin-1.0": "2015-03-03",
 "maven-toolchains-plugin-3.1.0": "2022-06-20",
 "maven-verifier-2.0.0-M1": "2022-09-26",
@@ -2271,12 +2275,14 @@
 "apache-pulsar-3.0.1": "2023-07-26",
 "apache-pulsar-3.0.2": "2023-11-18",
 "apache-pulsar-3.0.3": "2024-03-08",
+"apache-pulsar-3.0.4": "2024-03-28",
 "apache-pulsar-3.1.0": "2023-08-03",
 "apache-pulsar-3.1.1": "2023-09-27",
 "apache-pulsar-3.1.2": "2023-12-09",
 "apache-pulsar-3.1.3": "2024-03-07",
 "apache-pulsar-3.2.0": "2024-01-27",
 "apache-pulsar-3.2.1": "2024-03-07",
+"apache-pulsar-3.2.2": "2024-03-28",
 "apache-pulsar-adapters-2.11.0": "2023-03-02",
 "apache-pulsar-adapters-2.8.0": "2021-06-26",
 "apache-pulsar-client-cpp-3.0.0": "2022-10-21",
@@ -2974,7 +2980,7 @@
 "thrift-0.20.0": "2024-03-12"
 },
 "tika": {
-"tika-2.9.1": "2023-10-20",
+"tika-2.9.2": "2024-04-02",
 "tika-3.0.0-BETA": "2023-12-13"
 },
 "tinkerpop": {

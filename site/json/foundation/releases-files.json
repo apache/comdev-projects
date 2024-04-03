@@ -1597,9 +1597,6 @@
 "apache-cloudstack-4.18.1.0": [
 "cloudstack/releases/4.18.1.0/apache-cloudstack-4.18.1.0-src.tar.bz2"
 ],
-"apache-cloudstack-4.18.1.1": [
-"cloudstack/releases/4.18.1.1/apache-cloudstack-4.18.1.1-src.tar.bz2"
-],
 "apache-cloudstack-4.19.0.0": [
 "cloudstack/releases/4.19.0.0/apache-cloudstack-4.19.0.0-src.tar.bz2"
 ],
@@ -1776,9 +1773,9 @@
 "commons/codec/source/commons-codec-1.16.1-src.tar.gz",
 "commons/codec/source/commons-codec-1.16.1-src.zip"
 ],
-"commons-collections4-4.4": [
-"commons/collections/source/commons-collections4-4.4-src.tar.gz",
-"commons/collections/source/commons-collections4-4.4-src.zip"
+"commons-collections4-4.5.0-M1": [
+"commons/collections/source/commons-collections4-4.5.0-M1-src.tar.gz",
+"commons/collections/source/commons-collections4-4.5.0-M1-src.zip"
 ],
 "commons-compress-1.26.1": [
 "commons/compress/source/commons-compress-1.26.1-src.tar.gz",
@@ -1846,9 +1843,9 @@
 "commons/geometry/source/commons-geometry-1.0-src.tar.gz",
 "commons/geometry/source/commons-geometry-1.0-src.zip"
 ],
-"commons-imaging-1.0-alpha3": [
-"commons/imaging/source/commons-imaging-1.0-alpha3-src.tar.gz",
-"commons/imaging/source/commons-imaging-1.0-alpha3-src.zip"
+"commons-imaging-1.0.0-alpha4": [
+"commons/imaging/source/commons-imaging-1.0.0-alpha4-src.tar.gz",
+"commons/imaging/source/commons-imaging-1.0.0-alpha4-src.zip"
 ],
 "commons-io-2.16.0": [
 "commons/io/source/commons-io-2.16.0-src.tar.gz",
@@ -2562,6 +2559,9 @@
 ],
 "apache-druid-29.0.0": [
 "druid/29.0.0/apache-druid-29.0.0-src.tar.gz"
+],
+"apache-druid-29.0.1": [
+"druid/29.0.1/apache-druid-29.0.1-src.tar.gz"
 ]
 },
 "dubbo": {
@@ -4159,11 +4159,17 @@
 ]
 },
 "incubator-hugegraph": {
+"apache-hugegraph-ai-incubating-1.3.0": [
+"incubator/hugegraph/1.3.0/apache-hugegraph-ai-incubating-1.3.0-src.tar.gz"
+],
 "apache-hugegraph-commons-incubating-1.0.0": [
 "incubator/hugegraph/1.0.0/apache-hugegraph-commons-incubating-1.0.0-src.tar.gz"
 ],
 "apache-hugegraph-commons-incubating-1.2.0": [
 "incubator/hugegraph/1.2.0/apache-hugegraph-commons-incubating-1.2.0-src.tar.gz"
+],
+"apache-hugegraph-commons-incubating-1.3.0": [
+"incubator/hugegraph/1.3.0/apache-hugegraph-commons-incubating-1.3.0-src.tar.gz"
 ],
 "apache-hugegraph-computer-incubating-1.0.0": [
 "incubator/hugegraph/1.0.0/apache-hugegraph-computer-incubating-1.0.0-src.tar.gz",
@@ -4180,6 +4186,10 @@
 "incubator/hugegraph/1.2.0/apache-hugegraph-incubating-1.2.0-src.tar.gz",
 "incubator/hugegraph/1.2.0/apache-hugegraph-incubating-1.2.0.tar.gz"
 ],
+"apache-hugegraph-incubating-1.3.0": [
+"incubator/hugegraph/1.3.0/apache-hugegraph-incubating-1.3.0-src.tar.gz",
+"incubator/hugegraph/1.3.0/apache-hugegraph-incubating-1.3.0.tar.gz"
+],
 "apache-hugegraph-toolchain-incubating-1.0.0": [
 "incubator/hugegraph/1.0.0/apache-hugegraph-toolchain-incubating-1.0.0-src.tar.gz",
 "incubator/hugegraph/1.0.0/apache-hugegraph-toolchain-incubating-1.0.0.tar.gz"
@@ -4187,6 +4197,10 @@
 "apache-hugegraph-toolchain-incubating-1.2.0": [
 "incubator/hugegraph/1.2.0/apache-hugegraph-toolchain-incubating-1.2.0-src.tar.gz",
 "incubator/hugegraph/1.2.0/apache-hugegraph-toolchain-incubating-1.2.0.tar.gz"
+],
+"apache-hugegraph-toolchain-incubating-1.3.0": [
+"incubator/hugegraph/1.3.0/apache-hugegraph-toolchain-incubating-1.3.0-src.tar.gz",
+"incubator/hugegraph/1.3.0/apache-hugegraph-toolchain-incubating-1.3.0.tar.gz"
 ]
 },
 "incubator-liminal": {
@@ -5322,8 +5336,8 @@
 "maven-archiver-3.6.2": [
 "maven/shared/maven-archiver-3.6.2-source-release.zip"
 ],
-"maven-artifact-plugin-3.5.0": [
-"maven/plugins/maven-artifact-plugin-3.5.0-source-release.zip"
+"maven-artifact-plugin-3.5.1": [
+"maven/plugins/maven-artifact-plugin-3.5.1-source-release.zip"
 ],
 "maven-artifact-transfer-0.13.1": [
 "maven/shared/maven-artifact-transfer-0.13.1-source-release.zip"
@@ -5457,8 +5471,8 @@
 "maven-plugin-testing-4.0.0-alpha-2": [
 "maven/plugin-testing/maven-plugin-testing-4.0.0-alpha-2-source-release.zip"
 ],
-"maven-plugin-tools-3.11.0": [
-"maven/plugin-tools/maven-plugin-tools-3.11.0-source-release.zip"
+"maven-plugin-tools-3.12.0": [
+"maven/plugin-tools/maven-plugin-tools-3.12.0-source-release.zip"
 ],
 "maven-pmd-plugin-3.21.2": [
 "maven/plugins/maven-pmd-plugin-3.21.2-source-release.zip"
@@ -5484,8 +5498,8 @@
 "maven-resolver-1.9.18": [
 "maven/resolver/maven-resolver-1.9.18-source-release.zip"
 ],
-"maven-resolver-2.0.0-alpha-8": [
-"maven/resolver/maven-resolver-2.0.0-alpha-8-source-release.zip"
+"maven-resolver-2.0.0-alpha-10": [
+"maven/resolver/maven-resolver-2.0.0-alpha-10-source-release.zip"
 ],
 "maven-resolver-ant-tasks-1.5.0": [
 "maven/resolver/maven-resolver-ant-tasks-1.5.0-source-release.zip"
@@ -5526,8 +5540,8 @@
 "maven-site-plugin-4.0.0-M13": [
 "maven/plugins/maven-site-plugin-4.0.0-M13-source-release.zip"
 ],
-"maven-source-plugin-3.3.0": [
-"maven/plugins/maven-source-plugin-3.3.0-source-release.zip"
+"maven-source-plugin-3.3.1": [
+"maven/plugins/maven-source-plugin-3.3.1-source-release.zip"
 ],
 "maven-stage-plugin-1.0": [
 "maven/plugins/maven-stage-plugin-1.0-source-release.zip"
@@ -6790,6 +6804,9 @@
 "apache-pulsar-3.0.3": [
 "pulsar/pulsar-3.0.3/apache-pulsar-3.0.3-src.tar.gz"
 ],
+"apache-pulsar-3.0.4": [
+"pulsar/pulsar-3.0.4/apache-pulsar-3.0.4-src.tar.gz"
+],
 "apache-pulsar-3.1.0": [
 "pulsar/pulsar-3.1.0/apache-pulsar-3.1.0-src.tar.gz"
 ],
@@ -6807,6 +6824,9 @@
 ],
 "apache-pulsar-3.2.1": [
 "pulsar/pulsar-3.2.1/apache-pulsar-3.2.1-src.tar.gz"
+],
+"apache-pulsar-3.2.2": [
+"pulsar/pulsar-3.2.2/apache-pulsar-3.2.2-src.tar.gz"
 ],
 "apache-pulsar-adapters-2.11.0": [
 "pulsar/pulsar-adapters-2.11.0/apache-pulsar-adapters-2.11.0-src.tar.gz"
@@ -8814,8 +8834,8 @@
 ]
 },
 "tika": {
-"tika-2.9.1": [
-"tika/2.9.1/tika-2.9.1-src.zip"
+"tika-2.9.2": [
+"tika/2.9.2/tika-2.9.2-src.zip"
 ],
 "tika-3.0.0-BETA": [
 "tika/3.0.0-BETA/tika-3.0.0-BETA-src.zip"
