@@ -224,8 +224,8 @@
 "apache_airflow_providers_exasol-4.4.3": [
 "airflow/providers/apache_airflow_providers_exasol-4.4.3.tar.gz"
 ],
-"apache_airflow_providers_fab-1.0.0": [
-"airflow/providers/apache_airflow_providers_fab-1.0.0.tar.gz"
+"apache_airflow_providers_fab-1.0.2": [
+"airflow/providers/apache_airflow_providers_fab-1.0.2.tar.gz"
 ],
 "apache_airflow_providers_facebook-3.4.0": [
 "airflow/providers/apache_airflow_providers_facebook-3.4.0.tar.gz"
@@ -813,6 +813,9 @@
 ],
 "apache-asterixdb-jdbc-0.9.8.2": [
 "asterixdb/asterixdb-jdbc-0.9.8.2/apache-asterixdb-jdbc-0.9.8.2-source-release.zip"
+],
+"apache-asterixdb-jdbc-0.9.8.3": [
+"asterixdb/asterixdb-jdbc-0.9.8.3/apache-asterixdb-jdbc-0.9.8.3-source-release.zip"
 ],
 "apache-hyracks-0.3.6": [
 "asterixdb/hyracks-0.3.6/apache-hyracks-0.3.6-source-release.zip"
@@ -1537,11 +1540,11 @@
 ]
 },
 "causeway": {
-"causeway-bom-2.0.0-RC3": [
-"causeway/causeway-bom-2.0.0-RC3-source-release.zip"
+"causeway-bom-2.0.0": [
+"causeway/causeway-bom-2.0.0-source-release.zip"
 ],
-"causeway-bom-2.0.0-RC4": [
-"causeway/causeway-bom-2.0.0-RC4-source-release.zip"
+"causeway-bom-3.0.0": [
+"causeway/causeway-bom-3.0.0-source-release.zip"
 ]
 },
 "cayenne": {
@@ -1596,6 +1599,9 @@
 ],
 "apache-cloudstack-4.18.1.0": [
 "cloudstack/releases/4.18.1.0/apache-cloudstack-4.18.1.0-src.tar.bz2"
+],
+"apache-cloudstack-4.18.1.1": [
+"cloudstack/releases/4.18.1.1/apache-cloudstack-4.18.1.1-src.tar.bz2"
 ],
 "apache-cloudstack-4.19.0.0": [
 "cloudstack/releases/4.19.0.0/apache-cloudstack-4.19.0.0-src.tar.bz2"
@@ -2000,8 +2006,8 @@
 "cordova-firefoxos-3.6.3": [
 "cordova/platforms/cordova-firefoxos-3.6.3.tgz"
 ],
-"cordova-ios-7.0.1": [
-"cordova/platforms/cordova-ios-7.0.1.tgz"
+"cordova-ios-7.1.0": [
+"cordova/platforms/cordova-ios-7.1.0.tgz"
 ],
 "cordova-js-6.1.0": [
 "cordova/tools/cordova-js-6.1.0.tgz"
@@ -2421,6 +2427,9 @@
 "apache-doris-2.1.0": [
 "doris/2.1/2.1.0/apache-doris-2.1.0-src.tar.gz"
 ],
+"apache-doris-2.1.1-rc05": [
+"doris/2.1/2.1.1/apache-doris-2.1.1-rc05-src.tar.gz"
+],
 "apache-doris-flink-connector-1.11_2.12-1.0.3-incubating": [
 "doris/flink-connector/1.0.3/apache-doris-flink-connector-1.11_2.12-1.0.3-incubating-src.tar.gz"
 ],
@@ -2539,9 +2548,6 @@
 ]
 },
 "druid": {
-"apache-druid-24.0.2": [
-"druid/24.0.2/apache-druid-24.0.2-src.tar.gz"
-],
 "apache-druid-25.0.0": [
 "druid/25.0.0/apache-druid-25.0.0-src.tar.gz"
 ],
@@ -2551,14 +2557,8 @@
 "apache-druid-27.0.0": [
 "druid/27.0.0/apache-druid-27.0.0-src.tar.gz"
 ],
-"apache-druid-28.0.0": [
-"druid/28.0.0/apache-druid-28.0.0-src.tar.gz"
-],
 "apache-druid-28.0.1": [
 "druid/28.0.1/apache-druid-28.0.1-src.tar.gz"
-],
-"apache-druid-29.0.0": [
-"druid/29.0.0/apache-druid-29.0.0-src.tar.gz"
 ],
 "apache-druid-29.0.1": [
 "druid/29.0.1/apache-druid-29.0.1-src.tar.gz"
@@ -3124,12 +3124,16 @@
 ]
 },
 "flagon": {
+"apache-flagon-useralejs-2.4.0": [
+"flagon/useralejs/2.4.0/apache-flagon-useralejs-2.4.0-src.tar.gz",
+"flagon/useralejs/2.4.0/apache-flagon-useralejs-2.4.0-src.zip"
+],
 "apache-flagon-useralejs-incubating-2.3.0": [
-"flagon/apache-flagon-useralejs-incubating-2.3.0/apache-flagon-useralejs-incubating-2.3.0-src.tar.gz",
-"flagon/apache-flagon-useralejs-incubating-2.3.0/apache-flagon-useralejs-incubating-2.3.0-src.zip"
+"flagon/useralejs/2.3.0/apache-flagon-useralejs-incubating-2.3.0-src.tar.gz",
+"flagon/useralejs/2.3.0/apache-flagon-useralejs-incubating-2.3.0-src.zip"
 ],
 "flagon_distill-0.1.0": [
-"flagon/apache-flagon-distill-0.1.0/flagon_distill-0.1.0.tar.gz"
+"flagon/distill/0.1.0/flagon_distill-0.1.0.tar.gz"
 ]
 },
 "flex": {
@@ -7484,13 +7488,9 @@
 "apache-skywalking-go-0.4.0": [
 "skywalking/go/0.4.0/apache-skywalking-go-0.4.0-src.tgz"
 ],
-"apache-skywalking-java-agent-9.0.0": [
-"skywalking/java-agent/9.0.0/apache-skywalking-java-agent-9.0.0-src.tgz",
-"skywalking/java-agent/9.0.0/apache-skywalking-java-agent-9.0.0.tgz"
-],
-"apache-skywalking-java-agent-9.1.0": [
-"skywalking/java-agent/9.1.0/apache-skywalking-java-agent-9.1.0-src.tgz",
-"skywalking/java-agent/9.1.0/apache-skywalking-java-agent-9.1.0.tgz"
+"apache-skywalking-java-agent-9.2.0": [
+"skywalking/java-agent/9.2.0/apache-skywalking-java-agent-9.2.0-src.tgz",
+"skywalking/java-agent/9.2.0/apache-skywalking-java-agent-9.2.0.tgz"
 ],
 "apache-skywalking-rover-0.3.0": [
 "skywalking/rover/0.3.0/apache-skywalking-rover-0.3.0-src.tgz"
@@ -8721,6 +8721,9 @@
 ],
 "apache-superset-3.1.1": [
 "superset/3.1.1/apache-superset-3.1.1-source.tar.gz"
+],
+"apache-superset-3.1.2": [
+"superset/3.1.2/apache-superset-3.1.2-source.tar.gz"
 ]
 },
 "synapse": {
@@ -8989,11 +8992,17 @@
 ],
 "apache-trafficcontrol-8.0.0": [
 "trafficcontrol/8.0.0/apache-trafficcontrol-8.0.0.tar.gz"
+],
+"apache-trafficcontrol-8.0.1": [
+"trafficcontrol/8.0.1/apache-trafficcontrol-8.0.1.tar.gz"
 ]
 },
 "trafficserver": {
 "trafficserver-7.1.12": [
 "trafficserver/trafficserver-7.1.12.tar.bz2"
+],
+"trafficserver-8.1.10": [
+"trafficserver/trafficserver-8.1.10.tar.bz2"
 ],
 "trafficserver-8.1.6": [
 "trafficserver/trafficserver-8.1.6.tar.bz2"
@@ -9024,6 +9033,9 @@
 ],
 "trafficserver-9.2.3": [
 "trafficserver/trafficserver-9.2.3.tar.bz2"
+],
+"trafficserver-9.2.4": [
+"trafficserver/trafficserver-9.2.4.tar.bz2"
 ]
 },
 "tsfile": {
