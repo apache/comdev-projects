@@ -38,8 +38,8 @@
 "activemq-6.0.1": [
 "activemq/6.0.1/activemq-parent-6.0.1-source-release.zip"
 ],
-"activemq-6.1.0": [
-"activemq/6.1.0/activemq-parent-6.1.0-source-release.zip"
+"activemq-6.1.1": [
+"activemq/6.1.1/activemq-parent-6.1.1-source-release.zip"
 ],
 "activemq-artemis-native-2.0.0": [
 "activemq/activemq-artemis-native/2.0.0/activemq-artemis-native-2.0.0-source-release.tar.gz",
@@ -1165,11 +1165,11 @@
 "apache-calcite-1.36.0": [
 "calcite/apache-calcite-1.36.0/apache-calcite-1.36.0-src.tar.gz"
 ],
-"apache-calcite-avatica-1.23.0": [
-"calcite/apache-calcite-avatica-1.23.0/apache-calcite-avatica-1.23.0-src.tar.gz"
-],
 "apache-calcite-avatica-1.24.0": [
 "calcite/apache-calcite-avatica-1.24.0/apache-calcite-avatica-1.24.0-src.tar.gz"
+],
+"apache-calcite-avatica-1.25.0": [
+"calcite/apache-calcite-avatica-1.25.0/apache-calcite-avatica-1.25.0-src.tar.gz"
 ],
 "apache-calcite-avatica-go-5.2.0": [
 "calcite/apache-calcite-avatica-go-5.2.0/apache-calcite-avatica-go-5.2.0-src.tar.gz"
@@ -3589,11 +3589,17 @@
 "guacamole-client-1.5.4": [
 "guacamole/1.5.4/source/guacamole-client-1.5.4.tar.gz"
 ],
+"guacamole-client-1.5.5": [
+"guacamole/1.5.5/source/guacamole-client-1.5.5.tar.gz"
+],
 "guacamole-server-1.5.3": [
 "guacamole/1.5.3/source/guacamole-server-1.5.3.tar.gz"
 ],
 "guacamole-server-1.5.4": [
 "guacamole/1.5.4/source/guacamole-server-1.5.4.tar.gz"
+],
+"guacamole-server-1.5.5": [
+"guacamole/1.5.5/source/guacamole-server-1.5.5.tar.gz"
 ]
 },
 "hadoop": {
@@ -4691,9 +4697,6 @@
 "kafka-3.5.2": [
 "kafka/3.5.2/kafka-3.5.2-src.tgz"
 ],
-"kafka-3.6.1": [
-"kafka/3.6.1/kafka-3.6.1-src.tgz"
-],
 "kafka-3.6.2": [
 "kafka/3.6.2/kafka-3.6.2-src.tgz"
 ],
@@ -4703,9 +4706,6 @@
 "kafka_2.12-3.5.2": [
 "kafka/3.5.2/kafka_2.12-3.5.2.tgz"
 ],
-"kafka_2.12-3.6.1": [
-"kafka/3.6.1/kafka_2.12-3.6.1.tgz"
-],
 "kafka_2.12-3.6.2": [
 "kafka/3.6.2/kafka_2.12-3.6.2.tgz"
 ],
@@ -4714,9 +4714,6 @@
 ],
 "kafka_2.13-3.5.2": [
 "kafka/3.5.2/kafka_2.13-3.5.2.tgz"
-],
-"kafka_2.13-3.6.1": [
-"kafka/3.6.1/kafka_2.13-3.6.1.tgz"
 ],
 "kafka_2.13-3.6.2": [
 "kafka/3.6.2/kafka_2.13-3.6.2.tgz"
@@ -6069,6 +6066,9 @@
 "apache-nuttx-12.4.0": [
 "nuttx/12.4.0/apache-nuttx-12.4.0.tar.gz"
 ],
+"apache-nuttx-12.5.0": [
+"nuttx/12.5.0/apache-nuttx-12.5.0.tar.gz"
+],
 "apache-nuttx-9.1.1-incubating": [
 "nuttx/9.1.1/apache-nuttx-9.1.1-incubating.tar.gz"
 ],
@@ -6104,6 +6104,9 @@
 ],
 "apache-nuttx-apps-12.4.0": [
 "nuttx/12.4.0/apache-nuttx-apps-12.4.0.tar.gz"
+],
+"apache-nuttx-apps-12.5.0": [
+"nuttx/12.5.0/apache-nuttx-apps-12.5.0.tar.gz"
 ],
 "apache-nuttx-apps-9.1.1-incubating": [
 "nuttx/9.1.1/apache-nuttx-apps-9.1.1-incubating.tar.gz"
@@ -8558,11 +8561,11 @@
 "storm/apache-storm-1.2.4/apache-storm-1.2.4.tar.gz",
 "storm/apache-storm-1.2.4/apache-storm-1.2.4.zip"
 ],
-"apache-storm-2.6.1": [
-"storm/apache-storm-2.6.1/apache-storm-2.6.1-src.tar.gz",
-"storm/apache-storm-2.6.1/apache-storm-2.6.1-src.zip",
-"storm/apache-storm-2.6.1/apache-storm-2.6.1.tar.gz",
-"storm/apache-storm-2.6.1/apache-storm-2.6.1.zip"
+"apache-storm-2.6.2": [
+"storm/apache-storm-2.6.2/apache-storm-2.6.2-src.tar.gz",
+"storm/apache-storm-2.6.2/apache-storm-2.6.2-src.zip",
+"storm/apache-storm-2.6.2/apache-storm-2.6.2.tar.gz",
+"storm/apache-storm-2.6.2/apache-storm-2.6.2.zip"
 ]
 },
 "streampipes": {
