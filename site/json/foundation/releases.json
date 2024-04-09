@@ -33,13 +33,13 @@
 "airflow-1.13.1": "2024-03-25",
 "airflow-chart-1.13.0": "2024-03-05",
 "airflow-chart-1.13.1": "2024-03-25",
-"apache-airflow-2.8.4": "2024-03-25",
+"apache-airflow-2.9.0": "2024-04-08",
 "apache-airflow-client-2.5.0": "2023-02-03",
 "apache-airflow-client-2.8.0": "2023-12-23",
 "apache-airflow-providers-jira-3.1.0": "2022-10-01",
 "apache-airflow-providers-qubole-3.4.3": "2023-11-12",
 "apache-airflow-upgrade-check-1.4.0": "2021-06-26",
-"apache_airflow-2.8.4": "2024-03-25",
+"apache_airflow-2.9.0": "2024-04-08",
 "apache_airflow_providers_airbyte-3.6.0": "2024-01-27",
 "apache_airflow_providers_alibaba-2.7.2": "2024-01-27",
 "apache_airflow_providers_amazon-8.19.0": "2024-03-08",
@@ -327,6 +327,7 @@
 "apache-beam-0f52187e344dad9bca4c183fe51151b733b24e35": "2021-03-08",
 "apache-beam-1688ac1374ff02286ba8e59c9379bf7bb5875646": "2022-01-18",
 "apache-beam-2.55.0": "2024-03-25",
+"apache-beam-2.55.1": "2024-04-08",
 "apache-beam-2d08b32e674a1046ba7be0ae5f1e4b7b05b73488": "2024-02-22",
 "apache-beam-37fd13e738185822af132fe2e457b618e766802f": "2021-11-03",
 "apache-beam-52b4a9cb58e486745ded7d53a5b6e2d2312e9551": "2024-01-23",
@@ -469,6 +470,7 @@
 "camel-k-sources-2.0.1": "2023-08-30",
 "camel-k-sources-2.1.0": "2023-10-16",
 "camel-k-sources-2.2.0": "2024-01-03",
+"camel-k-sources-2.3.0": "2024-04-02",
 "camel-kafka-connector-1.0.0": "2022-01-24",
 "camel-kafka-connector-3.18.1": "2022-09-19",
 "camel-kafka-connector-3.18.2": "2022-10-21",
@@ -507,6 +509,7 @@
 "camel-kamelets-sources-4.3.0": "2023-12-19",
 "camel-kamelets-sources-4.4.0": "2024-02-19",
 "camel-kamelets-sources-4.4.1": "2024-03-22",
+"camel-kamelets-sources-4.5.0": "2024-04-02",
 "camel-karavan-3.20.1": "2023-04-09",
 "camel-karavan-3.21.0": "2023-07-09",
 "camel-karavan-4.0.0": "2023-09-25",
@@ -629,7 +632,7 @@
 "commons-fileupload2-2.0.0-M2": "2023-12-27",
 "commons-geometry-1.0": "2021-08-21",
 "commons-imaging-1.0.0-alpha4": "2024-04-02",
-"commons-io-2.16.0": "2024-03-28",
+"commons-io-2.16.1": "2024-04-08",
 "commons-jci-1.1": "2013-10-14",
 "commons-jcs3-dist-3.2": "2023-09-18",
 "commons-jelly-1.0": "2013-03-03",
@@ -751,20 +754,18 @@
 "apache-datasketches-pig-1.1.0": "2022-02-17",
 "apache-datasketches-postgresql-1.7.0": "2023-12-14",
 "apache-datasketches-python-5.0.1": "2024-02-13",
+"apache-datasketches-python-5.0.2": "2024-04-08",
 "datasketches-1.7.0": "2023-12-14",
-"datasketches-5.0.1": "2024-02-13"
+"datasketches-5.0.1": "2024-02-13",
+"datasketches-5.0.2": "2024-04-08"
 },
 "db": {
 "db-derby-10.14.2.0": "2018-05-03",
 "db-derby-10.15.2.0": "2020-02-22",
 "db-derby-10.16.1.1": "2022-05-19",
 "db-derby-10.17.1.0": "2023-10-22",
-"jdo-3.1": "2015-03-20",
-"jdo-3.1-rc1": "2014-02-21",
 "jdo-3.2": "2022-02-01",
 "jdo-3.2.1": "2022-05-25",
-"jdo-api-3.0.1": "2014-04-18",
-"jdo-tck-3.0.1": "2014-04-18",
 "torque-4.0": "2014-04-16",
 "torque-5.0": "2020-09-22",
 "torque-5.1": "2022-01-31"
@@ -1844,7 +1845,7 @@
 "maven-resources-plugin-3.3.1": "2023-03-24",
 "maven-scm-2.0.1": "2023-05-18",
 "maven-scm-publish-plugin-3.2.1": "2023-03-28",
-"maven-script-interpreter-1.4": "2022-12-21",
+"maven-script-interpreter-1.5": "2024-04-08",
 "maven-scripting-plugin-3.0.0": "2021-03-01",
 "maven-shade-plugin-3.5.2": "2024-02-20",
 "maven-shared-incremental-1.1": "2013-04-24",
@@ -2344,7 +2345,8 @@
 "pulsar-dotpulsar-3.0.0": "2023-08-31",
 "pulsar-dotpulsar-3.1.0-rc.1": "2023-11-20",
 "pulsar-dotpulsar-3.1.1": "2023-12-07",
-"pulsar-dotpulsar-3.1.2": "2024-01-26"
+"pulsar-dotpulsar-3.1.2": "2024-01-26",
+"pulsar-dotpulsar-3.2.0": "2024-04-08"
 },
 "qpid": {
 "apache-qpid-broker-j-9.2.0": "2024-02-08",
@@ -2942,7 +2944,8 @@
 "apache-superset-3.0.4": "2024-02-20",
 "apache-superset-3.1.0": "2024-01-18",
 "apache-superset-3.1.1": "2024-02-20",
-"apache-superset-3.1.2": "2024-04-03"
+"apache-superset-3.1.2": "2024-04-03",
+"apache-superset-4.0.0": "2024-04-08"
 },
 "synapse": {
 "synapse-distribution-3.0.1": "2017-12-09",
@@ -3019,6 +3022,10 @@
 "tomcat-native-2.0.7": "2024-02-04"
 },
 "tomee": {
+"apache-tomee-10.0.0-M1-microprofile": "2024-04-02",
+"apache-tomee-10.0.0-M1-plume": "2024-04-02",
+"apache-tomee-10.0.0-M1-plus": "2024-04-02",
+"apache-tomee-10.0.0-M1-webprofile": "2024-04-02",
 "apache-tomee-8.0.16-microprofile": "2023-11-02",
 "apache-tomee-8.0.16-plume": "2023-11-02",
 "apache-tomee-8.0.16-plus": "2023-11-02",
@@ -3030,6 +3037,7 @@
 "jakartaee-api-10.0-M2": "2023-10-05",
 "jakartaee-api-9.1.1": "2023-05-22",
 "javaee-api-8.0-6": "2022-06-07",
+"tomee-10.0.0-M1": "2024-04-02",
 "tomee-8.0.16": "2023-11-02",
 "tomee-9.1.2": "2023-12-19",
 "tomee-patch-0.10": "2023-01-10"
