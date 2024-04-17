@@ -9,6 +9,17 @@
    <script src="js/jquery.js" type="text/javascript"></script>
    <script src="js/jquery.dataTables.min.js" type="text/javascript"></script>
    <script src="js/script.js" type="text/javascript"></script>
+   <script>
+    var loadError=false;
+    window.onload = function() {
+      if (loadError) {
+         document.getElementById("contents").innerHTML = "Sorry, the data could not be loaded from https://www.snoot.io/";
+      };
+    };
+    function failed(item) {
+        loadError=true;
+    }
+   </script>
    <style type="text/css">
       .snoot-widget img {
          vertical-align: middle;
@@ -133,8 +144,8 @@
    Copyright&copy; 2020, the Apache Software Foundation. Licensed under the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a><br/>
    Apache&reg; and the Apache feather logo are trademarks of The Apache Software Foundation.
 </div>
-<script src="https://www.snoot.io/js/snoot.all.3.js"></script>
-<script src="https://www.snoot.io/publish/bundle.js"></script>
-<script src="https://www.snoot.io/js/worldmap.js"></script>
+<script src="https://www.snoot.io/js/snoot.all.3.js" onerror="failed(this)"></script>
+<script src="https://www.snoot.io/publish/bundle.js" onerror="failed(this)"></script>
+<script src="https://www.snoot.io/js/worldmap.js" onerror="failed(this)"></script>
 </body>
 </html>
