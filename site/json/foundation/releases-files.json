@@ -731,6 +731,9 @@
 "apache-arrow-15.0.2": [
 "arrow/arrow-15.0.2/apache-arrow-15.0.2.tar.gz"
 ],
+"apache-arrow-16.0.0": [
+"arrow/arrow-16.0.0/apache-arrow-16.0.0.tar.gz"
+],
 "apache-arrow-adbc-0.11.0": [
 "arrow/apache-arrow-adbc-0.11.0/apache-arrow-adbc-0.11.0.tar.gz"
 ],
@@ -5414,8 +5417,8 @@
 "maven-invoker-plugin-3.6.1": [
 "maven/plugins/maven-invoker-plugin-3.6.1-source-release.zip"
 ],
-"maven-jar-plugin-3.4.0": [
-"maven/plugins/maven-jar-plugin-3.4.0-source-release.zip"
+"maven-jar-plugin-3.4.1": [
+"maven/plugins/maven-jar-plugin-3.4.1-source-release.zip"
 ],
 "maven-jarsigner-3.0.0": [
 "maven/shared/maven-jarsigner-3.0.0-source-release.zip"
@@ -5555,8 +5558,8 @@
 "maven-war-plugin-3.4.0": [
 "maven/plugins/maven-war-plugin-3.4.0-source-release.zip"
 ],
-"maven-wrapper-3.2.0": [
-"maven/wrapper/maven-wrapper-3.2.0-source-release.zip"
+"maven-wrapper-3.3.0": [
+"maven/wrapper/maven-wrapper-3.3.0-source-release.zip"
 ],
 "surefire-3.2.5": [
 "maven/surefire/surefire-3.2.5-source-release.zip"
@@ -6778,6 +6781,9 @@
 "pulsar-3.3.1": [
 "pulsar/helm-chart/3.3.1/pulsar-3.3.1.tgz"
 ],
+"pulsar-3.4.0": [
+"pulsar/helm-chart/3.4.0/pulsar-3.4.0.tgz"
+],
 "pulsar-chart-3.0.0": [
 "pulsar/helm-chart/3.0.0/pulsar-chart-3.0.0-source.tar.gz"
 ],
@@ -6792,6 +6798,9 @@
 ],
 "pulsar-chart-3.3.1": [
 "pulsar/helm-chart/3.3.1/pulsar-chart-3.3.1-source.tar.gz"
+],
+"pulsar-chart-3.4.0": [
+"pulsar/helm-chart/3.4.0/pulsar-chart-3.4.0-source.tar.gz"
 ],
 "pulsar-client-reactive-0.5.4": [
 "pulsar/pulsar-client-reactive-0.5.4/pulsar-client-reactive-0.5.4-src.tar.gz"
@@ -8378,50 +8387,15 @@
 ]
 },
 "struts": {
-"struts-2.5.31": [
-"struts/2.5.31/struts-2.5.31-all.zip",
-"struts/2.5.31/struts-2.5.31-apps.zip",
-"struts/2.5.31/struts-2.5.31-src.zip"
-],
-"struts-2.5.32": [
-"struts/2.5.32/struts-2.5.32-all.zip",
-"struts/2.5.32/struts-2.5.32-apps.zip",
-"struts/2.5.32/struts-2.5.32-src.zip"
-],
 "struts-2.5.33": [
 "struts/2.5.33/struts-2.5.33-all.zip",
 "struts/2.5.33/struts-2.5.33-apps.zip",
 "struts/2.5.33/struts-2.5.33-src.zip"
 ],
-"struts-6.1.2.1": [
-"struts/6.1.2.1/struts-6.1.2.1-all.zip",
-"struts/6.1.2.1/struts-6.1.2.1-apps.zip",
-"struts/6.1.2.1/struts-6.1.2.1-src.zip"
-],
-"struts-6.1.2.2": [
-"struts/6.1.2.2/struts-6.1.2.2-all.zip",
-"struts/6.1.2.2/struts-6.1.2.2-apps.zip",
-"struts/6.1.2.2/struts-6.1.2.2-src.zip"
-],
-"struts-6.2.0": [
-"struts/6.2.0/struts-6.2.0-all.zip",
-"struts/6.2.0/struts-6.2.0-apps.zip",
-"struts/6.2.0/struts-6.2.0-src.zip"
-],
-"struts-6.3.0": [
-"struts/6.3.0/struts-6.3.0-all.zip",
-"struts/6.3.0/struts-6.3.0-apps.zip",
-"struts/6.3.0/struts-6.3.0-src.zip"
-],
-"struts-6.3.0.1": [
-"struts/6.3.0.1/struts-6.3.0.1-all.zip",
-"struts/6.3.0.1/struts-6.3.0.1-apps.zip",
-"struts/6.3.0.1/struts-6.3.0.1-src.zip"
-],
-"struts-6.3.0.2": [
-"struts/6.3.0.2/struts-6.3.0.2-all.zip",
-"struts/6.3.0.2/struts-6.3.0.2-apps.zip",
-"struts/6.3.0.2/struts-6.3.0.2-src.zip"
+"struts-6.4.0": [
+"struts/6.4.0/struts-6.4.0-all.zip",
+"struts/6.4.0/struts-6.4.0-apps.zip",
+"struts/6.4.0/struts-6.4.0-src.zip"
 ],
 "struts2-secure-jakarta-multipart-parser-plugin-1.1": [
 "struts/struts-extras/struts2-secure-jakarta-multipart-parser-plugin/1.1/struts2-secure-jakarta-multipart-parser-plugin-1.1-source-release.zip"
