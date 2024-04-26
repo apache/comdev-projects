@@ -178,24 +178,6 @@
 "apr-iconv-1.2.2": "2017-10-22",
 "apr-util-1.6.3": "2023-02-01"
 },
-"archiva": {
-"apache-archiva-2.2.10": "2023-03-16",
-"apache-archiva-2.2.9": "2022-10-04",
-"archiva-15": "2015-03-01",
-"archiva-16": "2016-05-28",
-"archiva-18": "2017-05-16",
-"expression-evaluator-2.1": "2014-07-18",
-"modello-plugins-1.0": "2014-07-18",
-"redback-2.6.2": "2022-05-20",
-"redback-components-2.4": "2015-03-01",
-"spring-apacheds-2.1": "2014-07-18",
-"spring-cache-2.2": "2014-07-18",
-"spring-jdo2-2.2": "2014-07-18",
-"spring-quartz-2.1": "2014-07-18",
-"spring-registry-2.4": "2015-03-01",
-"spring-taskqueue-2.1": "2014-07-18",
-"spring-utils-2.1": "2014-07-18"
-},
 "aries": {
 "blueprint-maven-plugin-1.1.0": "2015-03-03",
 "integration-1.0.1": "2019-01-09",
@@ -318,12 +300,6 @@
 "sandesha2-1.4": "2013-05-04",
 "sandesha2-1.6.2": "2013-05-04"
 },
-"bahir": {
-"apache-bahir-2.2.3": "2019-05-19",
-"apache-bahir-2.3.4": "2019-09-11",
-"apache-bahir-2.4.0": "2019-09-13",
-"apache-bahir-flink-1.0": "2017-05-17"
-},
 "beam": {
 "apache-beam-0f52187e344dad9bca4c183fe51151b733b24e35": "2021-03-08",
 "apache-beam-1688ac1374ff02286ba8e59c9379bf7bb5875646": "2022-01-18",
@@ -431,7 +407,7 @@
 "apache-camel-4.1.0": "2023-10-11",
 "apache-camel-4.2.0": "2023-11-14",
 "apache-camel-4.3.0": "2023-12-18",
-"apache-camel-4.4.1": "2024-03-14",
+"apache-camel-4.4.2": "2024-04-25",
 "apache-camel-4.5.0": "2024-03-28",
 "apache-camel-k-runtime-1.12.0": "2022-03-14",
 "apache-camel-k-runtime-1.13.0": "2022-04-19",
@@ -1341,6 +1317,7 @@
 "apache-iceberg-1.4.2": "2023-11-02",
 "apache-iceberg-1.4.3": "2023-12-27",
 "apache-iceberg-1.5.0": "2024-03-11",
+"apache-iceberg-1.5.1": "2024-04-18",
 "apache-iceberg-rust-0.2.0": "2024-02-15",
 "pyiceberg-0.1.0": "2022-10-17",
 "pyiceberg-0.6.0": "2024-02-19"
@@ -1456,15 +1433,6 @@
 },
 "incubator-ponymail": {
 "apache-pony-mail-0.11-incubating": "2019-03-25"
-},
-"incubator-sdap": {
-"apache-sdap-ingester-1.0.0-incubating": "2023-01-04",
-"apache-sdap-ingester-1.1.0-incubating": "2023-04-26",
-"apache-sdap-ingester-1.2.0-incubating": "2024-03-05",
-"apache-sdap-nexus-1.0.0-incubating": "2023-01-04",
-"apache-sdap-nexus-1.1.0-incubating": "2023-04-26",
-"apache-sdap-nexus-1.2.0-incubating": "2024-03-05",
-"apache-sdap-nexusproto-1.0.0-incubating": "2023-01-04"
 },
 "incubator-streampark": {
 "apache-streampark-2.0.0-incubating": "2023-02-14",
@@ -1835,7 +1803,7 @@
 "maven-plugin-3.7.1": "2024-03-18",
 "maven-plugin-testing-4.0.0-alpha-2": "2023-11-11",
 "maven-plugin-tools-3.12.0": "2024-04-02",
-"maven-pmd-plugin-3.21.2": "2023-11-02",
+"maven-pmd-plugin-3.22.0": "2024-04-25",
 "maven-rar-plugin-3.0.0": "2022-07-20",
 "maven-release-3.0.1": "2023-06-03",
 "maven-remote-resources-plugin-3.2.0": "2024-03-10",
@@ -1863,7 +1831,7 @@
 "maven-verifier-2.0.0-M1": "2022-09-26",
 "maven-verifier-plugin-1.1": "2015-04-14",
 "maven-war-plugin-3.4.0": "2023-06-15",
-"maven-wrapper-3.3.0": "2024-04-20",
+"maven-wrapper-3.3.1": "2024-04-25",
 "surefire-3.2.5": "2024-01-09",
 "wagon-3.5.3": "2022-12-22"
 },
@@ -2002,8 +1970,7 @@
 "nifi-nar-maven-plugin-1.5.1": "2023-06-14"
 },
 "nutch": {
-"apache-nutch-1.19": "2022-08-22",
-"apache-nutch-2.4": "2019-09-24"
+"apache-nutch-1.20": "2024-04-09"
 },
 "nuttx": {
 "apache-nuttx-10.0.1-incubating": "2020-12-09",
@@ -2085,7 +2052,7 @@
 "apache-openmeetings-7.2.0": "2023-12-19"
 },
 "opennlp": {
-"apache-opennlp-2.3.2": "2024-01-31",
+"apache-opennlp-2.3.3": "2024-04-25",
 "opennlp-training-eval-logs-1.0-1.9.3": "2021-05-29"
 },
 "openoffice": {
@@ -2290,7 +2257,8 @@
 "pulsar-chart-3.3.1": "2024-03-15",
 "pulsar-chart-3.4.0": "2024-04-02",
 "pulsar-client-reactive-0.5.4": "2024-04-10",
-"pulsar-dotpulsar-3.2.0": "2024-04-08"
+"pulsar-dotpulsar-3.2.0": "2024-04-08",
+"pulsar-dotpulsar-3.2.1": "2024-04-19"
 },
 "qpid": {
 "apache-qpid-broker-j-9.2.0": "2024-02-08",
@@ -2402,6 +2370,15 @@
 "xmlsec-2.3.4": "2023-10-19",
 "xmlsec-3.0.4": "2024-02-22",
 "xmlsec-4.0.2": "2024-02-22"
+},
+"sdap": {
+"apache-sdap-ingester-1.0.0-incubating": "2023-01-04",
+"apache-sdap-ingester-1.1.0-incubating": "2023-04-26",
+"apache-sdap-ingester-1.2.0-incubating": "2024-03-05",
+"apache-sdap-nexus-1.0.0-incubating": "2023-01-04",
+"apache-sdap-nexus-1.1.0-incubating": "2023-04-26",
+"apache-sdap-nexus-1.2.0-incubating": "2024-03-05",
+"apache-sdap-nexusproto-1.0.0-incubating": "2023-01-04"
 },
 "seatunnel": {
 "apache-seatunnel-2.3.2": "2023-06-13",
@@ -2668,7 +2645,7 @@
 "org.apache.sling.junit.healthcheck-1.0.6": "2013-09-30",
 "org.apache.sling.junit.remote-1.0.12": "2017-06-06",
 "org.apache.sling.junit.scriptable-1.0.14": "2022-09-29",
-"org.apache.sling.junit.teleporter-1.0.22": "2020-07-21",
+"org.apache.sling.junit.teleporter-1.0.26": "2024-04-25",
 "org.apache.sling.karaf-repoinit-0.2.0": "2017-03-20",
 "org.apache.sling.kickstart-0.0.12": "2020-11-03",
 "org.apache.sling.launchpad.api-1.2.0": "2015-06-29",

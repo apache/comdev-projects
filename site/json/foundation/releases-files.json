@@ -528,56 +528,6 @@
 "apr/apr-util-1.6.3.tar.gz"
 ]
 },
-"archiva": {
-"apache-archiva-2.2.10": [
-"archiva/2.2.10/src/apache-archiva-2.2.10-src.zip"
-],
-"apache-archiva-2.2.9": [
-"archiva/2.2.9/src/apache-archiva-2.2.9-src.zip"
-],
-"archiva-15": [
-"archiva/pom/archiva-parent-15-source-release.zip"
-],
-"archiva-16": [
-"archiva/pom/archiva-parent-16-source-release.zip"
-],
-"archiva-18": [
-"archiva/pom/archiva-parent-18-source-release.zip"
-],
-"expression-evaluator-2.1": [
-"archiva/redback-components/expression-evaluator-2.1-source-release.zip"
-],
-"modello-plugins-1.0": [
-"archiva/redback-components/modello-plugins-1.0-source-release.zip"
-],
-"redback-2.6.2": [
-"archiva/redback-core/redback-2.6.2-source-release.zip"
-],
-"redback-components-2.4": [
-"archiva/pom/redback-components-2.4-source-release.zip"
-],
-"spring-apacheds-2.1": [
-"archiva/redback-components/spring-apacheds-2.1-source-release.zip"
-],
-"spring-cache-2.2": [
-"archiva/redback-components/spring-cache-2.2-source-release.zip"
-],
-"spring-jdo2-2.2": [
-"archiva/redback-components/spring-jdo2-2.2-source-release.zip"
-],
-"spring-quartz-2.1": [
-"archiva/redback-components/spring-quartz-2.1-source-release.zip"
-],
-"spring-registry-2.4": [
-"archiva/redback-components/spring-registry-2.4-source-release.zip"
-],
-"spring-taskqueue-2.1": [
-"archiva/redback-components/spring-taskqueue-2.1-source-release.zip"
-],
-"spring-utils-2.1": [
-"archiva/redback-components/spring-utils-2.1-source-release.zip"
-]
-},
 "aries": {
 "blueprint-maven-plugin-1.1.0": [
 "aries/blueprint-maven-plugin-1.1.0-source-release.zip"
@@ -923,24 +873,6 @@
 "axis/axis2/java/sandesha/1.6.2/sandesha2-1.6.2-src.zip"
 ]
 },
-"bahir": {
-"apache-bahir-2.2.3": [
-"bahir/bahir-spark/2.2.3/apache-bahir-2.2.3-src.tar.gz",
-"bahir/bahir-spark/2.2.3/apache-bahir-2.2.3-src.zip"
-],
-"apache-bahir-2.3.4": [
-"bahir/bahir-spark/2.3.4/apache-bahir-2.3.4-src.tar.gz",
-"bahir/bahir-spark/2.3.4/apache-bahir-2.3.4-src.zip"
-],
-"apache-bahir-2.4.0": [
-"bahir/bahir-spark/2.4.0/apache-bahir-2.4.0-src.tar.gz",
-"bahir/bahir-spark/2.4.0/apache-bahir-2.4.0-src.zip"
-],
-"apache-bahir-flink-1.0": [
-"bahir/bahir-flink/1.0/apache-bahir-flink-1.0-src.tgz",
-"bahir/bahir-flink/1.0/apache-bahir-flink-1.0-src.zip"
-]
-},
 "beam": {
 "apache-beam-0f52187e344dad9bca4c183fe51151b733b24e35": [
 "beam/vendor/beam-vendor-calcite-1_26_0/0.1/apache-beam-0f52187e344dad9bca4c183fe51151b733b24e35-source-release.zip"
@@ -1240,8 +1172,8 @@
 "apache-camel-4.3.0": [
 "camel/apache-camel/4.3.0/apache-camel-4.3.0-src.zip"
 ],
-"apache-camel-4.4.1": [
-"camel/apache-camel/4.4.1/apache-camel-4.4.1-src.zip"
+"apache-camel-4.4.2": [
+"camel/apache-camel/4.4.2/apache-camel-4.4.2-src.zip"
 ],
 "apache-camel-4.5.0": [
 "camel/apache-camel/4.5.0/apache-camel-4.5.0-src.zip"
@@ -4051,6 +3983,9 @@
 "apache-iceberg-1.5.0": [
 "iceberg/apache-iceberg-1.5.0/apache-iceberg-1.5.0.tar.gz"
 ],
+"apache-iceberg-1.5.1": [
+"iceberg/apache-iceberg-1.5.1/apache-iceberg-1.5.1.tar.gz"
+],
 "apache-iceberg-rust-0.2.0": [
 "iceberg/iceberg-rust-0.2.0/apache-iceberg-rust-0.2.0-src.tar.gz"
 ],
@@ -4346,29 +4281,6 @@
 "incubator-ponymail": {
 "apache-pony-mail-0.11-incubating": [
 "incubator/ponymail/apache-pony-mail-0.11-incubating.tar.gz"
-]
-},
-"incubator-sdap": {
-"apache-sdap-ingester-1.0.0-incubating": [
-"incubator/sdap/1.0.0-incubating/apache-sdap-ingester-1.0.0-incubating-src.tar.gz"
-],
-"apache-sdap-ingester-1.1.0-incubating": [
-"incubator/sdap/1.1.0-incubating/apache-sdap-ingester-1.1.0-incubating-src.tar.gz"
-],
-"apache-sdap-ingester-1.2.0-incubating": [
-"incubator/sdap/1.2.0-incubating/apache-sdap-ingester-1.2.0-incubating-src.tar.gz"
-],
-"apache-sdap-nexus-1.0.0-incubating": [
-"incubator/sdap/1.0.0-incubating/apache-sdap-nexus-1.0.0-incubating-src.tar.gz"
-],
-"apache-sdap-nexus-1.1.0-incubating": [
-"incubator/sdap/1.1.0-incubating/apache-sdap-nexus-1.1.0-incubating-src.tar.gz"
-],
-"apache-sdap-nexus-1.2.0-incubating": [
-"incubator/sdap/1.2.0-incubating/apache-sdap-nexus-1.2.0-incubating-src.tar.gz"
-],
-"apache-sdap-nexusproto-1.0.0-incubating": [
-"incubator/sdap/1.0.0-incubating/apache-sdap-nexusproto-1.0.0-incubating-src.tar.gz"
 ]
 },
 "incubator-streampark": {
@@ -5489,8 +5401,8 @@
 "maven-plugin-tools-3.12.0": [
 "maven/plugin-tools/maven-plugin-tools-3.12.0-source-release.zip"
 ],
-"maven-pmd-plugin-3.21.2": [
-"maven/plugins/maven-pmd-plugin-3.21.2-source-release.zip"
+"maven-pmd-plugin-3.22.0": [
+"maven/plugins/maven-pmd-plugin-3.22.0-source-release.zip"
 ],
 "maven-rar-plugin-3.0.0": [
 "maven/plugins/maven-rar-plugin-3.0.0-source-release.zip"
@@ -5573,8 +5485,8 @@
 "maven-war-plugin-3.4.0": [
 "maven/plugins/maven-war-plugin-3.4.0-source-release.zip"
 ],
-"maven-wrapper-3.3.0": [
-"maven/wrapper/maven-wrapper-3.3.0-source-release.zip"
+"maven-wrapper-3.3.1": [
+"maven/wrapper/maven-wrapper-3.3.1-source-release.zip"
 ],
 "surefire-3.2.5": [
 "maven/surefire/surefire-3.2.5-source-release.zip"
@@ -6028,13 +5940,9 @@
 ]
 },
 "nutch": {
-"apache-nutch-1.19": [
-"nutch/1.19/apache-nutch-1.19-src.tar.gz",
-"nutch/1.19/apache-nutch-1.19-src.zip"
-],
-"apache-nutch-2.4": [
-"nutch/2.4/apache-nutch-2.4-src.tar.gz",
-"nutch/2.4/apache-nutch-2.4-src.zip"
+"apache-nutch-1.20": [
+"nutch/1.20/apache-nutch-1.20-src.tar.gz",
+"nutch/1.20/apache-nutch-1.20-src.zip"
 ]
 },
 "nuttx": {
@@ -6248,9 +6156,9 @@
 ]
 },
 "opennlp": {
-"apache-opennlp-2.3.2": [
-"opennlp/opennlp-2.3.2/apache-opennlp-2.3.2-src.tar.gz",
-"opennlp/opennlp-2.3.2/apache-opennlp-2.3.2-src.zip"
+"apache-opennlp-2.3.3": [
+"opennlp/opennlp-2.3.3/apache-opennlp-2.3.3-src.tar.gz",
+"opennlp/opennlp-2.3.3/apache-opennlp-2.3.3-src.zip"
 ],
 "opennlp-training-eval-logs-1.0-1.9.3": [
 "opennlp/models/ud-models-1.0/opennlp-training-eval-logs-1.0-1.9.3.zip"
@@ -6822,6 +6730,9 @@
 ],
 "pulsar-dotpulsar-3.2.0": [
 "pulsar/pulsar-dotpulsar-3.2.0/pulsar-dotpulsar-3.2.0-src.tar.gz"
+],
+"pulsar-dotpulsar-3.2.1": [
+"pulsar/pulsar-dotpulsar-3.2.1/pulsar-dotpulsar-3.2.1-src.tar.gz"
 ]
 },
 "qpid": {
@@ -7126,6 +7037,29 @@
 ],
 "xmlsec-4.0.2": [
 "santuario/java-library/4_0_2/xmlsec-4.0.2-source-release.zip"
+]
+},
+"sdap": {
+"apache-sdap-ingester-1.0.0-incubating": [
+"sdap/1.0.0-incubating/apache-sdap-ingester-1.0.0-incubating-src.tar.gz"
+],
+"apache-sdap-ingester-1.1.0-incubating": [
+"sdap/1.1.0-incubating/apache-sdap-ingester-1.1.0-incubating-src.tar.gz"
+],
+"apache-sdap-ingester-1.2.0-incubating": [
+"sdap/1.2.0-incubating/apache-sdap-ingester-1.2.0-incubating-src.tar.gz"
+],
+"apache-sdap-nexus-1.0.0-incubating": [
+"sdap/1.0.0-incubating/apache-sdap-nexus-1.0.0-incubating-src.tar.gz"
+],
+"apache-sdap-nexus-1.1.0-incubating": [
+"sdap/1.1.0-incubating/apache-sdap-nexus-1.1.0-incubating-src.tar.gz"
+],
+"apache-sdap-nexus-1.2.0-incubating": [
+"sdap/1.2.0-incubating/apache-sdap-nexus-1.2.0-incubating-src.tar.gz"
+],
+"apache-sdap-nexusproto-1.0.0-incubating": [
+"sdap/1.0.0-incubating/apache-sdap-nexusproto-1.0.0-incubating-src.tar.gz"
 ]
 },
 "seatunnel": {
@@ -7892,8 +7826,8 @@
 "org.apache.sling.junit.scriptable-1.0.14": [
 "sling/org.apache.sling.junit.scriptable-1.0.14-source-release.zip"
 ],
-"org.apache.sling.junit.teleporter-1.0.22": [
-"sling/org.apache.sling.junit.teleporter-1.0.22-source-release.zip"
+"org.apache.sling.junit.teleporter-1.0.26": [
+"sling/org.apache.sling.junit.teleporter-1.0.26-source-release.zip"
 ],
 "org.apache.sling.karaf-repoinit-0.2.0": [
 "sling/org.apache.sling.karaf-repoinit-0.2.0-source-release.zip"

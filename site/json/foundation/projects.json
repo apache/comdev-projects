@@ -8304,6 +8304,24 @@
 ],
 "shortdesc": "Apache DataFu is a collection of libraries for working with large-scale data in Hadoop. The project was inspired by the need for stable, well-tested libraries for data mining and statistics."
 },
+"datafusion": {
+"bug-database": "https://github.com/apache/datafusion/issues",
+"category": "big-data, database, data-engineering, library",
+"created": "2024-04-17",
+"description": "\n        Apache DataFusion is a fast, extensible query engine for building high-quality data-centric systems\n        in Rust, using the Apache Arrow in-memory format. Python Bindings are also available. DataFusion offers SQL\n        and Dataframe APIs, excellent performance, built-in support for CSV, Parquet, JSON, and Avro,\n        extensive customization, and a great community.\n    ",
+"doap": "https://raw.githubusercontent.com/apache/datafusion/main/doap.rdf",
+"download-page": "https://github.com/apache/datafusion/releases",
+"homepage": "https://datafusion.apache.org",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://lists.apache.org/list.html?dev@datafusion.apache.org",
+"name": "Apache DataFusion",
+"pmc": "datafusion",
+"programming-language": "Python, Rust",
+"repository": [
+"https://github.com/apache/datafusion.git"
+],
+"shortdesc": "Apache DataFusion is a fast, extensible query engine for building high-quality data-centric systems in Rust."
+},
 "db-_jdo": {
 "bug-database": "https://issues.apache.org/jira/projects/JDO",
 "category": "database",
@@ -14134,9 +14152,9 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2024-02-04",
+"created": "2024-04-25",
 "name": "Apache OpenNLP",
-"revision": "2.3.2"
+"revision": "2.3.3"
 }
 ],
 "repository": [
