@@ -681,9 +681,6 @@
 ]
 },
 "arrow": {
-"apache-arrow-15.0.2": [
-"arrow/arrow-15.0.2/apache-arrow-15.0.2.tar.gz"
-],
 "apache-arrow-16.0.0": [
 "arrow/arrow-16.0.0/apache-arrow-16.0.0.tar.gz"
 ],
@@ -2462,6 +2459,9 @@
 ],
 "apache-doris-shade-2.0.0": [
 "doris/doris-shade/2.0.0/apache-doris-shade-2.0.0-src.tar.gz"
+],
+"apache-doris-shade-2.0.1": [
+"doris/doris-shade/2.0.1/apache-doris-shade-2.0.1-src.tar.gz"
 ],
 "apache-doris-spark-connector-1.2.0": [
 "doris/spark-connector/1.2.0/apache-doris-spark-connector-1.2.0-src.tar.gz"
@@ -5314,8 +5314,8 @@
 "maven-dependency-tree-3.2.1": [
 "maven/shared/maven-dependency-tree-3.2.1-source-release.zip"
 ],
-"maven-deploy-plugin-3.1.1": [
-"maven/plugins/maven-deploy-plugin-3.1.1-source-release.zip"
+"maven-deploy-plugin-3.1.2": [
+"maven/plugins/maven-deploy-plugin-3.1.2-source-release.zip"
 ],
 "maven-doap-plugin-1.2": [
 "maven/plugins/maven-doap-plugin-1.2-source-release.zip"
@@ -5347,8 +5347,8 @@
 "maven-info-reports-plugin-3.5.0": [
 "maven/plugins/maven-project-info-reports-plugin-3.5.0-source-release.zip"
 ],
-"maven-install-plugin-3.1.1": [
-"maven/plugins/maven-install-plugin-3.1.1-source-release.zip"
+"maven-install-plugin-3.1.2": [
+"maven/plugins/maven-install-plugin-3.1.2-source-release.zip"
 ],
 "maven-invoker-3.2.0": [
 "maven/shared/maven-invoker-3.2.0-source-release.zip"
@@ -5431,14 +5431,14 @@
 "maven-reporting-exec-2.0.0-M12": [
 "maven/reporting/maven-reporting-exec-2.0.0-M12-source-release.zip"
 ],
-"maven-reporting-impl-4.0.0-M13": [
-"maven/reporting/maven-reporting-impl-4.0.0-M13-source-release.zip"
+"maven-reporting-impl-4.0.0-M14": [
+"maven/reporting/maven-reporting-impl-4.0.0-M14-source-release.zip"
 ],
-"maven-resolver-1.9.19": [
-"maven/resolver/maven-resolver-1.9.19-source-release.zip"
+"maven-resolver-1.9.20": [
+"maven/resolver/maven-resolver-1.9.20-source-release.zip"
 ],
-"maven-resolver-2.0.0-alpha-10": [
-"maven/resolver/maven-resolver-2.0.0-alpha-10-source-release.zip"
+"maven-resolver-2.0.0-alpha-11": [
+"maven/resolver/maven-resolver-2.0.0-alpha-11-source-release.zip"
 ],
 "maven-resolver-ant-tasks-1.5.0": [
 "maven/resolver/maven-resolver-ant-tasks-1.5.0-source-release.zip"
@@ -5730,6 +5730,10 @@
 "myfaces-core-4.1.0-RC1": [
 "myfaces/source/myfaces-core-assembly-4.1.0-RC1-src.tar.gz",
 "myfaces/source/myfaces-core-assembly-4.1.0-RC1-src.zip"
+],
+"myfaces-core-4.1.0-RC2": [
+"myfaces/source/myfaces-core-assembly-4.1.0-RC2-src.tar.gz",
+"myfaces/source/myfaces-core-assembly-4.1.0-RC2-src.zip"
 ],
 "myfaces-extcdi-1.0.6": [
 "myfaces/source/myfaces-extcdi-parent-1.0.6-source-release.zip"
@@ -7504,8 +7508,8 @@
 "org.apache.sling.commons.johnzon-2.0.0": [
 "sling/org.apache.sling.commons.johnzon-2.0.0-source-release.zip"
 ],
-"org.apache.sling.commons.json-2.0.26": [
-"sling/org.apache.sling.commons.json-2.0.26-source-release.zip"
+"org.apache.sling.commons.json-2.0.28": [
+"sling/org.apache.sling.commons.json-2.0.28-source-release.zip"
 ],
 "org.apache.sling.commons.log-5.5.0": [
 "sling/org.apache.sling.commons.log-5.5.0-source-release.zip"
@@ -7633,8 +7637,8 @@
 "org.apache.sling.dynamic-include-3.3.0": [
 "sling/org.apache.sling.dynamic-include-3.3.0-source-release.zip"
 ],
-"org.apache.sling.engine-2.15.10": [
-"sling/org.apache.sling.engine-2.15.10-source-release.zip"
+"org.apache.sling.engine-2.15.14": [
+"sling/org.apache.sling.engine-2.15.14-source-release.zip"
 ],
 "org.apache.sling.event-4.3.14": [
 "sling/org.apache.sling.event-4.3.14-source-release.zip"
@@ -8002,8 +8006,8 @@
 "org.apache.sling.resourceresolver-1.11.6": [
 "sling/org.apache.sling.resourceresolver-1.11.6-source-release.zip"
 ],
-"org.apache.sling.rewriter-1.4.0": [
-"sling/org.apache.sling.rewriter-1.4.0-source-release.zip"
+"org.apache.sling.rewriter-1.4.2": [
+"sling/org.apache.sling.rewriter-1.4.2-source-release.zip"
 ],
 "org.apache.sling.sample.slingshot-0.9.0": [
 "sling/org.apache.sling.sample.slingshot-0.9.0-source-release.zip"
