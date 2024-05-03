@@ -33,11 +33,11 @@
 "airflow-chart-1.13.1": "2024-03-25",
 "apache-airflow-2.9.0": "2024-04-08",
 "apache-airflow-client-2.5.0": "2023-02-03",
-"apache-airflow-client-2.8.0": "2023-12-23",
 "apache-airflow-providers-jira-3.1.0": "2022-10-01",
 "apache-airflow-providers-qubole-3.4.3": "2023-11-12",
 "apache-airflow-upgrade-check-1.4.0": "2021-06-26",
 "apache_airflow-2.9.0": "2024-04-08",
+"apache_airflow_client-2.9.0": "2024-05-02",
 "apache_airflow_providers_airbyte-3.7.0": "2024-04-13",
 "apache_airflow_providers_alibaba-2.7.3": "2024-04-13",
 "apache_airflow_providers_amazon-8.20.0": "2024-04-13",
@@ -302,8 +302,7 @@
 "beam": {
 "apache-beam-0f52187e344dad9bca4c183fe51151b733b24e35": "2021-03-08",
 "apache-beam-1688ac1374ff02286ba8e59c9379bf7bb5875646": "2022-01-18",
-"apache-beam-2.55.0": "2024-03-25",
-"apache-beam-2.55.1": "2024-04-08",
+"apache-beam-2.56.0": "2024-05-02",
 "apache-beam-2d08b32e674a1046ba7be0ae5f1e4b7b05b73488": "2024-02-22",
 "apache-beam-37fd13e738185822af132fe2e457b618e766802f": "2021-11-03",
 "apache-beam-52b4a9cb58e486745ded7d53a5b6e2d2312e9551": "2024-01-23",
@@ -314,7 +313,8 @@
 "apache-beam-ef2ca7aa49ec75c3ab4e3a94b7ad8162e1c81c1e": "2023-08-08",
 "apache-beam-f2468baf6224127634d0d5ab03a9fdd730bb8dfe": "2022-01-18",
 "apache-beam-jupyterlab-sidepanel-v2.0.0": "2021-10-20",
-"apache-beam-jupyterlab-sidepanel-v3.0.0": "2022-10-11"
+"apache-beam-jupyterlab-sidepanel-v3.0.0": "2022-10-11",
+"apache_beam-2.56.0": "2024-05-02"
 },
 "bigtop": {
 "bigtop-3.2.1": "2023-08-03"
@@ -602,7 +602,7 @@
 "commons-configuration-1.10": "2013-10-28",
 "commons-configuration2-2.10.1": "2024-03-20",
 "commons-crypto-1.2.0": "2023-01-22",
-"commons-csv-1.10.0": "2023-02-01",
+"commons-csv-1.11.0": "2024-05-02",
 "commons-daemon-1.3.4": "2023-05-12",
 "commons-dbcp2-2.12.0": "2024-03-04",
 "commons-dbcp2-2.4.0": "2018-06-16",
@@ -1479,7 +1479,8 @@
 "apache-yunikorn-0.12.2-incubating": "2022-02-03"
 },
 "inlong": {
-"apache-inlong-1.11.0": "2024-04-14"
+"apache-inlong-1.11.0": "2024-04-14",
+"apache-inlong-1.12.0": "2024-04-26"
 },
 "iotdb": {
 "apache-iotdb-0.13.4": "2023-02-13",
