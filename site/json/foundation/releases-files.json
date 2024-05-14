@@ -2184,6 +2184,9 @@
 "datafusion": {
 "apache-datafusion-38.0.0": [
 "datafusion/datafusion-38.0.0/apache-datafusion-38.0.0.tar.gz"
+],
+"apache-datafusion-python-37.1.0": [
+"datafusion/datafusion-python-37.1.0/apache-datafusion-python-37.1.0.tar.gz"
 ]
 },
 "datasketches": {
@@ -2477,6 +2480,9 @@
 ],
 "apache-doris-shade-2.0.1": [
 "doris/doris-shade/2.0.1/apache-doris-shade-2.0.1-src.tar.gz"
+],
+"apache-doris-shade-2.0.2": [
+"doris/doris-shade/2.0.2/apache-doris-shade-2.0.2-src.tar.gz"
 ],
 "apache-doris-spark-connector-1.2.0": [
 "doris/spark-connector/1.2.0/apache-doris-spark-connector-1.2.0-src.tar.gz"
@@ -4445,8 +4451,8 @@
 "jackrabbit-2.16.10": [
 "jackrabbit/2.16.10/jackrabbit-2.16.10-src.zip"
 ],
-"jackrabbit-2.20.15": [
-"jackrabbit/2.20.15/jackrabbit-2.20.15-src.zip"
+"jackrabbit-2.20.16": [
+"jackrabbit/2.20.16/jackrabbit-2.20.16-src.zip"
 ],
 "jackrabbit-2.21.26-beta": [
 "jackrabbit/2.21.26-beta/jackrabbit-2.21.26-beta-src.zip"
@@ -4460,8 +4466,8 @@
 "jackrabbit-filevault-3.7.2": [
 "jackrabbit/filevault/3.7.2/jackrabbit-filevault-3.7.2-src.zip"
 ],
-"jackrabbit-oak-1.22.19": [
-"jackrabbit/oak/1.22.19/jackrabbit-oak-1.22.19-src.zip"
+"jackrabbit-oak-1.22.20": [
+"jackrabbit/oak/1.22.20/jackrabbit-oak-1.22.20-src.zip"
 ],
 "jackrabbit-oak-1.4.26": [
 "jackrabbit/oak/1.4.26/jackrabbit-oak-1.4.26-src.zip"
@@ -5310,8 +5316,8 @@
 "maven-artifact-transfer-0.13.1": [
 "maven/shared/maven-artifact-transfer-0.13.1-source-release.zip"
 ],
-"maven-build-cache-extension-1.1.0": [
-"maven/buildcache/maven-build-cache-extension-1.1.0-source-release.zip"
+"maven-build-cache-extension-1.2.0": [
+"maven/buildcache/maven-build-cache-extension-1.2.0-source-release.zip"
 ],
 "maven-changelog-plugin-2.3": [
 "maven/plugins/maven-changelog-plugin-2.3-source-release.zip"
@@ -5930,8 +5936,8 @@
 "nbm-suite-root-1.12": [
 "netbeans/netbeans-maven-archetypes/nbm-suite-root/nbm-suite-root-1.12/nbm-suite-root-1.12-source-release.zip"
 ],
-"nbpackage-1.0-beta4": [
-"netbeans/netbeans-nbpackage/1.0-beta4/nbpackage-1.0-beta4-source-release.zip"
+"nbpackage-1.0-beta5": [
+"netbeans/netbeans-nbpackage/1.0-beta5/nbpackage-1.0-beta5-source-release.zip"
 ],
 "netbeans-21": [
 "netbeans/netbeans/21/netbeans-21-source.zip"
@@ -7368,9 +7374,9 @@
 ]
 },
 "skywalking": {
-"apache-skywalking-apm-9.7.0": [
-"skywalking/9.7.0/apache-skywalking-apm-9.7.0-src.tgz",
-"skywalking/9.7.0/apache-skywalking-apm-9.7.0.tar.gz"
+"apache-skywalking-apm-10.0.0": [
+"skywalking/10.0.0/apache-skywalking-apm-10.0.0-src.tgz",
+"skywalking/10.0.0/apache-skywalking-apm-10.0.0.tar.gz"
 ],
 "apache-skywalking-banyandb-java-client-0.6.0": [
 "skywalking/banyandb-java-client/0.6.0/apache-skywalking-banyandb-java-client-0.6.0-src.tgz"
@@ -7406,8 +7412,8 @@
 "apache-skywalking-satellite-1.2.0": [
 "skywalking/satellite/1.2.0/apache-skywalking-satellite-1.2.0-src.tgz"
 ],
-"skywalking-banyandb-0.5.0": [
-"skywalking/banyandb/0.5.0/skywalking-banyandb-0.5.0-src.tgz"
+"skywalking-banyandb-0.6.0": [
+"skywalking/banyandb/0.6.0/skywalking-banyandb-0.6.0-src.tgz"
 ],
 "skywalking-banyandb-helm-0.1.0": [
 "skywalking/banyandb-helm/skywalking-banyandb-helm-0.1.0-src.tgz",
@@ -8609,6 +8615,9 @@
 ],
 "apache-superset-4.0.0": [
 "superset/4.0.0/apache-superset-4.0.0-source.tar.gz"
+],
+"apache-superset-4.0.1": [
+"superset/4.0.1/apache-superset-4.0.1-source.tar.gz"
 ]
 },
 "synapse": {
@@ -8765,9 +8774,9 @@
 ]
 },
 "tomcat": {
-"apache-tomcat-10.1.23": [
-"tomcat/tomcat-10/v10.1.23/src/apache-tomcat-10.1.23-src.tar.gz",
-"tomcat/tomcat-10/v10.1.23/src/apache-tomcat-10.1.23-src.zip"
+"apache-tomcat-10.1.24": [
+"tomcat/tomcat-10/v10.1.24/src/apache-tomcat-10.1.24-src.tar.gz",
+"tomcat/tomcat-10/v10.1.24/src/apache-tomcat-10.1.24-src.zip"
 ],
 "apache-tomcat-11.0.0-M19": [
 "tomcat/tomcat-11/v11.0.0-M19/src/apache-tomcat-11.0.0-M19-src.tar.gz",
@@ -8780,10 +8789,6 @@
 "apache-tomcat-8.5.100": [
 "tomcat/tomcat-8/v8.5.100/src/apache-tomcat-8.5.100-src.tar.gz",
 "tomcat/tomcat-8/v8.5.100/src/apache-tomcat-8.5.100-src.zip"
-],
-"apache-tomcat-8.5.99": [
-"tomcat/tomcat-8/v8.5.99/src/apache-tomcat-8.5.99-src.tar.gz",
-"tomcat/tomcat-8/v8.5.99/src/apache-tomcat-8.5.99-src.zip"
 ],
 "apache-tomcat-9.0.88": [
 "tomcat/tomcat-9/v9.0.88/src/apache-tomcat-9.0.88-src.tar.gz",
