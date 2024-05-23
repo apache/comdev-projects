@@ -1,36 +1,4 @@
 {
-"None-ctakes": {
-"bug-database": "https://github.com/apache/ctakes/issues",
-"category": "content, library",
-"created": "2013-03-20",
-"description": "Apache clinical Text Analysis and Knowledge Extraction System (cTAKES) is an open-source natural language processing system for information extraction from electronic medical record clinical free-text. It processes clinical notes, identifying types of clinical named entities from various dictionaries including the Unified Medical Language System (UMLS) - medications, diseases/disorders, signs/symptoms, anatomical sites and procedures. Each named entity has attributes for the text span, the ontology mapping code, subject (patient, family member, etc.) and context (negated/not negated, conditional, generic, degree of certainty). Some of the attributes are expressed as relations, for example the location of a clinical condition (locationOf relation) or the severity of a clinical condition (degreeOf relation).",
-"doap": "http://svn.apache.org/repos/asf/ctakes/site/doap_cTAKES.rdf",
-"download-page": "https://github.com/apache/ctakes/releases",
-"homepage": "https://github.com/apache/ctakes",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://ctakes.apache.org/mailing-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:dev@ctakes.apache.org",
-"name": "Apache cTAKES PMC"
-}
-],
-"name": "Apache cTAKES",
-"pmc": null,
-"programming-language": "Java, Scala, Python",
-"release": [
-{
-"created": "2024-05-16",
-"name": "Apache cTAKES",
-"revision": "5.1.0"
-}
-],
-"repository": [
-"https://github.com/apache/ctakes",
-"https://svn.apache.org/repos/asf/ctakes/ctakes-models/trunk/"
-],
-"shortdesc": "Apache clinical Text Analysis and Knowledge Extraction System (cTAKES) is an open-source natural language processing system for information extraction from electronic medical record clinical free-text."
-},
 "accumulo": {
 "bug-database": "https://github.com/apache/accumulo/issues",
 "category": "big-data",
@@ -8105,6 +8073,31 @@
 ],
 "shortdesc": "Apache Whisker assists assembled applications to maintain correct legal documentation. "
 },
+"ctakes": {
+"bug-database": "https://github.com/apache/ctakes/issues",
+"category": "content, library",
+"created": "2024-05-22",
+"description": "Apache clinical Text Analysis and Knowledge Extraction System (cTAKES) is an open-source natural language processing system for information extraction from electronic medical record clinical free-text. It processes clinical notes, identifying types of clinical named entities from various dictionaries including the Unified Medical Language System (UMLS) - medications, diseases/disorders, signs/symptoms, anatomical sites and procedures. Each named entity has attributes for the text span, the ontology mapping code, subject (patient, family member, etc.) and context (negated/not negated, conditional, generic, degree of certainty). Some of the attributes are expressed as relations, for example the location of a clinical condition (locationOf relation) or the severity of a clinical condition (degreeOf relation).",
+"doap": "http://svn.apache.org/repos/asf/ctakes/site/doap_cTAKES.rdf",
+"download-page": "https://github.com/apache/ctakes/releases",
+"homepage": "https://github.com/apache/ctakes",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"name": "Apache cTAKES",
+"pmc": "ctakes",
+"programming-language": "Java, Python, Scala",
+"release": [
+{
+"created": "2024-05-16",
+"name": "cTAKES",
+"revision": "5.1.0"
+}
+],
+"repository": [
+"https://svn.apache.org/repos/asf/ctakes/ctakes-models/trunk/",
+"https://github.com/apache/ctakes"
+],
+"shortdesc": "Apache clinical Text Analysis and Knowledge Extraction System (cTAKES) is an open-source natural language processing system for information extraction from electronic medical record clinical free-text."
+},
 "curator": {
 "bug-database": "http://issues.apache.org/jira/browse/CURATOR",
 "category": "database",
@@ -14328,7 +14321,7 @@
 }
 ],
 "repository": [
-"https://git.apache.org/repos/asf?p=parquet-mr.git"
+"https://git.apache.org/repos/asf?p=parquet-java.git"
 ],
 "shortdesc": "Apache Parquet is a general-purpose columnar storage format."
 },
