@@ -3175,6 +3175,71 @@
 ],
 "shortdesc": "Apache Stratos is a highly-extensible Platform-as-a-Service (PaaS) framework that helps run Apache Tomcat, PHP, and MySQL applications and can be extended to support many more environments on all major cloud infrastructures. "
 },
+"attic-submarine": {
+"category": "retired, cloud, java, python, go",
+"created": "2023-09-08",
+"description": "Apache Submarine (Submarine for short) is an End-to-End Machine Learning Platform to allow data scientists to create end-to-end machine learning workflows. On Submarine, data scientists can finish each stage in the ML model lifecycle, including data exploration, data pipeline creation, model training, serving, and monitoring.",
+"doap": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/submarine.rdf",
+"download-page": "https://submarine.apache.org/docs/next/download",
+"homepage": "https://submarine.apache.org",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://issues.apache.org/jira/projects/SUBMARINE",
+"maintainer": [
+{
+"mbox": "mailto:dev@submarine.apache.org",
+"name": "Apache Submarine PMC"
+}
+],
+"name": "Apache Submarine",
+"pmc": "attic",
+"programming-language": "Java",
+"release": [
+{
+"created": "2019-01-16",
+"name": "Apache Submarine 0.1.0",
+"revision": "0.1.0"
+},
+{
+"created": "2019-07-02",
+"name": "Apache Submarine 0.2.0",
+"revision": "0.2.0"
+},
+{
+"created": "2020-02-01",
+"name": "Apache Submarine 0.3.0",
+"revision": "0.3.0"
+},
+{
+"created": "2020-07-05",
+"name": "Apache Submarine 0.4.0",
+"revision": "0.4.0"
+},
+{
+"created": "2020-12-17",
+"name": "Apache Submarine 0.5.0",
+"revision": "0.5.0"
+},
+{
+"created": "2021-10-21",
+"name": "Apache Submarine 0.6.0",
+"revision": "0.6.0"
+},
+{
+"created": "2022-04-25",
+"name": "Apache Submarine 0.7.0",
+"revision": "0.7.0"
+},
+{
+"created": "2023-09-23",
+"name": "Apache Submarine 0.8.0",
+"revision": "0.8.0"
+}
+],
+"repository": [
+"https://github.com/apache/submarine.git"
+],
+"shortdesc": "Submarine is Cloud Native Machine Learning Platform."
+},
 "attic-tajo": {
 "bug-database": "https://issues.apache.org/jira/browse/TAJO",
 "category": "retired, big-data",
@@ -16971,71 +17036,6 @@
 "pmc": "struts",
 "programming-language": "Java",
 "shortdesc": "Apache Struts is a free open-source framework for creating Java web applications."
-},
-"submarine": {
-"category": "cloud, java, python, go, retired",
-"created": "2023-09-08",
-"description": "Apache Submarine (Submarine for short) is an End-to-End Machine Learning Platform to allow data scientists to create end-to-end machine learning workflows. On Submarine, data scientists can finish each stage in the ML model lifecycle, including data exploration, data pipeline creation, model training, serving, and monitoring.",
-"doap": "https://gitbox.apache.org/repos/asf?p=submarine.git;a=blob_plain;f=doap_Submarine.rdf;hb=HEAD",
-"download-page": "https://submarine.apache.org/docs/next/download",
-"homepage": "https://submarine.apache.org",
-"license": "https://spdx.org/licenses/Apache-2.0",
-"mailing-list": "https://issues.apache.org/jira/projects/SUBMARINE",
-"maintainer": [
-{
-"mbox": "mailto:dev@submarine.apache.org",
-"name": "Apache Submarine PMC"
-}
-],
-"name": "Apache Submarine",
-"pmc": "attic",
-"programming-language": "Java",
-"release": [
-{
-"created": "2019-01-16",
-"name": "Apache Submarine 0.1.0",
-"revision": "0.1.0"
-},
-{
-"created": "2019-07-02",
-"name": "Apache Submarine 0.2.0",
-"revision": "0.2.0"
-},
-{
-"created": "2020-02-01",
-"name": "Apache Submarine 0.3.0",
-"revision": "0.3.0"
-},
-{
-"created": "2020-07-05",
-"name": "Apache Submarine 0.4.0",
-"revision": "0.4.0"
-},
-{
-"created": "2020-12-17",
-"name": "Apache Submarine 0.5.0",
-"revision": "0.5.0"
-},
-{
-"created": "2021-10-21",
-"name": "Apache Submarine 0.6.0",
-"revision": "0.6.0"
-},
-{
-"created": "2022-04-25",
-"name": "Apache Submarine 0.7.0",
-"revision": "0.7.0"
-},
-{
-"created": "2023-09-23",
-"name": "Apache Submarine 0.8.0",
-"revision": "0.8.0"
-}
-],
-"repository": [
-"https://github.com/apache/submarine.git"
-],
-"shortdesc": "Submarine is Cloud Native Machine Learning Platform."
 },
 "subversion": {
 "bug-database": "https://issues.apache.org/jira/browse/SVN",
