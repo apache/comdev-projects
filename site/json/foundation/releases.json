@@ -32,12 +32,12 @@
 "airflow-1.13.1": "2024-03-25",
 "airflow-chart-1.13.0": "2024-03-05",
 "airflow-chart-1.13.1": "2024-03-25",
-"apache-airflow-2.9.1": "2024-05-06",
+"apache-airflow-2.9.2": "2024-06-10",
 "apache-airflow-client-2.5.0": "2023-02-03",
 "apache-airflow-providers-jira-3.1.0": "2022-10-01",
 "apache-airflow-providers-qubole-3.4.3": "2023-11-12",
 "apache-airflow-upgrade-check-1.4.0": "2021-06-26",
-"apache_airflow-2.9.1": "2024-05-06",
+"apache_airflow-2.9.2": "2024-06-10",
 "apache_airflow_client-2.9.0": "2024-05-02",
 "apache_airflow_providers_airbyte-3.8.1": "2024-05-30",
 "apache_airflow_providers_alibaba-2.8.1": "2024-05-30",
@@ -134,7 +134,7 @@
 "apache_airflow_providers_zendesk-4.7.1": "2024-05-30"
 },
 "allura": {
-"allura-1.16.0": "2023-11-06"
+"allura-1.17.0": "2024-06-10"
 },
 "ambari": {
 "apache-ambari-2.6.2": "2022-07-04",
@@ -460,6 +460,7 @@
 "camel-k-sources-2.3.0": "2024-04-02",
 "camel-k-sources-2.3.1": "2024-04-29",
 "camel-k-sources-2.3.2": "2024-05-28",
+"camel-k-sources-2.3.3": "2024-06-07",
 "camel-kafka-connector-1.0.0": "2022-01-24",
 "camel-kafka-connector-3.18.1": "2022-09-19",
 "camel-kafka-connector-3.18.2": "2022-10-21",
@@ -607,7 +608,7 @@
 "bcel-6.9.0": "2024-04-27",
 "bsf-2.4.0": "2013-03-03",
 "bsf-3.1": "2013-03-03",
-"commons-70": "2024-05-15",
+"commons-71": "2024-06-10",
 "commons-beanutils-1.9.4": "2019-08-14",
 "commons-build-plugin-1.14.0": "2024-04-15",
 "commons-cli-1.8.0": "2024-05-23",
@@ -615,7 +616,7 @@
 "commons-collections4-4.5.0-M1": "2024-04-02",
 "commons-compress-1.26.2": "2024-05-23",
 "commons-configuration-1.10": "2013-10-28",
-"commons-configuration2-2.10.1": "2024-03-20",
+"commons-configuration2-2.11.0": "2024-06-10",
 "commons-crypto-1.2.0": "2023-01-22",
 "commons-csv-1.11.0": "2024-05-02",
 "commons-daemon-1.4.0": "2024-05-24",
@@ -646,7 +647,7 @@
 "commons-math-2.2": "2013-03-03",
 "commons-math3-3.6.1": "2016-03-21",
 "commons-math4-4.0-beta1": "2022-12-19",
-"commons-net-3.11.0": "2024-05-31",
+"commons-net-3.11.1": "2024-06-10",
 "commons-numbers-1.1": "2022-11-01",
 "commons-pool2-2.12.0": "2023-09-30",
 "commons-pool2-2.6.2": "2019-04-11",
@@ -748,6 +749,7 @@
 },
 "datafusion": {
 "apache-datafusion-38.0.0": "2024-05-10",
+"apache-datafusion-39.0.0": "2024-06-10",
 "apache-datafusion-python-38.0.1": "2024-05-30"
 },
 "datasketches": {
@@ -955,8 +957,8 @@
 "org.apache.felix.http.bundle-3.0.0": "2015-02-02",
 "org.apache.felix.http.inventoryprinter-1.0.0": "2022-12-27",
 "org.apache.felix.http.jetty-4.2.26": "2024-03-04",
-"org.apache.felix.http.jetty-5.1.14": "2024-05-27",
-"org.apache.felix.http.jetty12-1.0.6": "2024-05-27",
+"org.apache.felix.http.jetty-5.1.16": "2024-06-10",
+"org.apache.felix.http.jetty12-1.0.8": "2024-06-10",
 "org.apache.felix.http.proxy-4.0.0": "2022-12-27",
 "org.apache.felix.http.servlet-api-3.0.0": "2023-10-02",
 "org.apache.felix.http.sslfilter-2.0.2": "2023-08-31",
@@ -993,7 +995,7 @@
 "org.apache.felix.prefs-1.1.0": "2016-10-15",
 "org.apache.felix.resolver-2.0.4": "2021-06-21",
 "org.apache.felix.rootcause-0.2.0": "2021-08-18",
-"org.apache.felix.scr-2.2.10": "2024-01-22",
+"org.apache.felix.scr-2.2.12": "2024-06-10",
 "org.apache.felix.scr.annotations-1.12.0": "2016-10-18",
 "org.apache.felix.scr.ant-1.18.0": "2018-01-15",
 "org.apache.felix.scr.bnd-1.9.6": "2019-12-07",
@@ -1421,6 +1423,9 @@
 "incubator-fury": {
 "apache-fury-0.5.0-incubating": "2024-04-27",
 "apache-fury-0.5.1-incubating": "2024-05-20"
+},
+"incubator-hertzbeat": {
+"apache-hertzbeat-1.6.0-incubating": "2024-06-02"
 },
 "incubator-horaedb": {
 "v2.0.0": "2024-01-03"
@@ -2091,29 +2096,23 @@
 "oozie-5.2.1": "2021-02-25"
 },
 "opendal": {
-"apache-opendal-bindings-c-0.44.3": "2024-02-28",
-"apache-opendal-bindings-c-0.44.4": "2024-05-02",
-"apache-opendal-bindings-cpp-0.44.3": "2024-02-28",
-"apache-opendal-bindings-dotnet-0.1.1": "2024-02-28",
-"apache-opendal-bindings-go-0.0.0": "2024-02-28",
-"apache-opendal-bindings-haskell-0.44.3": "2024-02-28",
-"apache-opendal-bindings-java-0.45.1": "2024-02-28",
-"apache-opendal-bindings-lua-0.1.1": "2024-02-28",
-"apache-opendal-bindings-nodejs-0.45.1": "2024-02-28",
-"apache-opendal-bindings-nodejs-0.46.0": "2024-05-02",
-"apache-opendal-bindings-ocaml-0.0.0": "2024-02-28",
-"apache-opendal-bindings-php-0.1.1": "2024-02-28",
-"apache-opendal-bindings-python-0.45.1": "2024-02-28",
-"apache-opendal-bindings-python-0.45.2": "2024-05-02",
-"apache-opendal-bindings-ruby-0.1.1": "2024-02-28",
-"apache-opendal-bindings-swift-0.0.0": "2024-02-28",
-"apache-opendal-bindings-zig-0.0.0": "2024-02-28",
-"apache-opendal-core-0.45.1": "2024-02-28",
-"apache-opendal-core-0.46.0": "2024-05-02",
-"apache-opendal-integrations-dav-server-0.0.1": "2024-02-28",
-"apache-opendal-integrations-dav-server-0.0.2": "2024-05-02",
-"apache-opendal-integrations-object_store-0.43.0": "2024-02-28",
-"apache-opendal-integrations-object_store-0.43.1": "2024-05-02"
+"apache-opendal-bindings-c-0.44.5": "2024-06-07",
+"apache-opendal-bindings-cpp-0.45.3": "2024-06-07",
+"apache-opendal-bindings-dotnet-0.1.1": "2024-06-07",
+"apache-opendal-bindings-go-0.0.0": "2024-06-07",
+"apache-opendal-bindings-haskell-0.44.3": "2024-06-07",
+"apache-opendal-bindings-java-0.46.0": "2024-06-07",
+"apache-opendal-bindings-lua-0.1.1": "2024-06-07",
+"apache-opendal-bindings-nodejs-0.46.1": "2024-06-07",
+"apache-opendal-bindings-ocaml-0.0.0": "2024-06-07",
+"apache-opendal-bindings-php-0.1.1": "2024-06-07",
+"apache-opendal-bindings-python-0.45.3": "2024-06-07",
+"apache-opendal-bindings-ruby-0.1.1": "2024-06-07",
+"apache-opendal-bindings-swift-0.0.0": "2024-06-07",
+"apache-opendal-bindings-zig-0.0.0": "2024-06-07",
+"apache-opendal-core-0.47.0": "2024-06-07",
+"apache-opendal-integrations-dav-server-0.0.2": "2024-06-07",
+"apache-opendal-integrations-object_store-0.44.0": "2024-06-07"
 },
 "openjpa": {
 "apache-openjpa-2.2.2": "2014-12-16",
@@ -2359,7 +2358,8 @@
 "pulsar-client-reactive-0.5.5": "2024-05-15",
 "pulsar-dotpulsar-3.1.2": "2024-01-26",
 "pulsar-dotpulsar-3.2.0": "2024-04-08",
-"pulsar-dotpulsar-3.2.1": "2024-04-19"
+"pulsar-dotpulsar-3.2.1": "2024-04-19",
+"pulsar-dotpulsar-3.3.0": "2024-06-07"
 },
 "qpid": {
 "apache-qpid-broker-j-9.2.0": "2024-02-08",
