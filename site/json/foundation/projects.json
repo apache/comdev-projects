@@ -4880,9 +4880,9 @@
 "revision": "5.0-SNAPSHOT"
 },
 {
-"created": "2023-05-25",
+"created": "2024-06-20",
 "name": "Stable",
-"revision": "4.2"
+"revision": "4.2.1"
 },
 {
 "created": "2021-12-24",
@@ -9607,15 +9607,15 @@
 "shortdesc": "The Apache Hadoop software library is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models"
 },
 "hbase": {
-"bug-database": "http://issues.apache.org/jira/browse/HBASE",
-"category": "database",
+"bug-database": "https://issues.apache.org/jira/browse/HBASE",
+"category": "",
 "created": "2012-04-14",
 "description": "Use Apache HBase software when you need random, realtime read/write access to your Big Data. This project's goal is the hosting of very large tables -- billions of rows X millions of columns -- atop clusters of commodity hardware. HBase is an open-source, distributed, versioned, column-oriented store modeled after Google's Bigtable: A Distributed Storage System for Structured Data by Chang et al. Just as Bigtable leverages the distributed data storage provided by the Google File System, HBase provides Bigtable-like capabilities on top of Hadoop and HDFS. ",
 "doap": "http://hbase.apache.org/doap_Hbase.rdf",
-"download-page": "http://www.apache.org/dyn/closer.lua/hbase/",
-"homepage": "http://hbase.apache.org",
+"download-page": "https://hbase.apache.org/downloads.html",
+"homepage": "https://hbase.apache.org",
 "license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://hbase.apache.org/mail-lists.html",
+"mailing-list": "https://hbase.apache.org/mailing-lists.html",
 "maintainer": [
 {
 "mbox": "mailto:dev@hbase.apache.org",
@@ -9627,9 +9627,9 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2015-07-23",
-"name": "Apache hbase ",
-"revision": "2.0.0-SNAPSHOT"
+"created": "2024-05-17",
+"name": "Apache HBase",
+"revision": "2.6.0"
 }
 ],
 "repository": [
