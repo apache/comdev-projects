@@ -1512,6 +1512,10 @@
 "cassandra/cassandra-java-driver/4.18.0/apache-cassandra-java-driver-4.18.0-source.tar.gz",
 "cassandra/cassandra-java-driver/4.18.0/apache-cassandra-java-driver-4.18.0.tar.gz"
 ],
+"apache-cassandra-java-driver-4.18.1": [
+"cassandra/cassandra-java-driver/4.18.1/apache-cassandra-java-driver-4.18.1-source.tar.gz",
+"cassandra/cassandra-java-driver/4.18.1/apache-cassandra-java-driver-4.18.1.tar.gz"
+],
 "cassandra_2.1.22": [
 "cassandra/2.1.22/debian/cassandra_2.1.22.tar.gz"
 ],
@@ -2206,12 +2210,12 @@
 ],
 "apache-datafusion-python-38.0.1": [
 "datafusion/datafusion-python-38.0.1/apache-datafusion-python-38.0.1.tar.gz"
+],
+"apache-datafusion-python-39.0.0": [
+"datafusion/datafusion-python-39.0.0/apache-datafusion-python-39.0.0.tar.gz"
 ]
 },
 "datasketches": {
-"apache-datasketches-hive-1.2.0": [
-"datasketches/hive/1.2.0/apache-datasketches-hive-1.2.0-src.zip"
-],
 "apache-datasketches-hive-2.0.0": [
 "datasketches/hive/2.0.0/apache-datasketches-hive-2.0.0-src.zip"
 ],
@@ -2532,6 +2536,9 @@
 ],
 "apache-doris-shade-2.1.0": [
 "doris/doris-shade/2.1.0/apache-doris-shade-2.1.0-src.tar.gz"
+],
+"apache-doris-shade-2.1.1": [
+"doris/doris-shade/2.1.1/apache-doris-shade-2.1.1-src.tar.gz"
 ],
 "apache-doris-spark-connector-1.2.0": [
 "doris/spark-connector/1.2.0/apache-doris-spark-connector-1.2.0-src.tar.gz"
@@ -3376,12 +3383,6 @@
 "flink-connector-rabbitmq-3.0.1": [
 "flink/flink-connector-rabbitmq-3.0.1/flink-connector-rabbitmq-3.0.1-src.tgz"
 ],
-"flink-kubernetes-operator-1.6.1": [
-"flink/flink-kubernetes-operator-1.6.1/flink-kubernetes-operator-1.6.1-src.tgz"
-],
-"flink-kubernetes-operator-1.6.1-helm": [
-"flink/flink-kubernetes-operator-1.6.1/flink-kubernetes-operator-1.6.1-helm.tgz"
-],
 "flink-kubernetes-operator-1.7.0": [
 "flink/flink-kubernetes-operator-1.7.0/flink-kubernetes-operator-1.7.0-src.tgz"
 ],
@@ -3393,6 +3394,12 @@
 ],
 "flink-kubernetes-operator-1.8.0-helm": [
 "flink/flink-kubernetes-operator-1.8.0/flink-kubernetes-operator-1.8.0-helm.tgz"
+],
+"flink-kubernetes-operator-1.9.0": [
+"flink/flink-kubernetes-operator-1.9.0/flink-kubernetes-operator-1.9.0-src.tgz"
+],
+"flink-kubernetes-operator-1.9.0-helm": [
+"flink/flink-kubernetes-operator-1.9.0/flink-kubernetes-operator-1.9.0-helm.tgz"
 ],
 "flink-ml-2.2.0": [
 "flink/flink-ml-2.2.0/flink-ml-2.2.0-src.tgz"
@@ -4007,6 +4014,10 @@
 "httpcomponents-core-5.2.4": [
 "httpcomponents/httpcore/source/httpcomponents-core-5.2.4-src.tar.gz",
 "httpcomponents/httpcore/source/httpcomponents-core-5.2.4-src.zip"
+],
+"httpcomponents-core-5.2.5": [
+"httpcomponents/httpcore/source/httpcomponents-core-5.2.5-src.tar.gz",
+"httpcomponents/httpcore/source/httpcomponents-core-5.2.5-src.zip"
 ],
 "httpcomponents-core-5.3-alpha1": [
 "httpcomponents/httpcore/source/httpcomponents-core-5.3-alpha1-src.tar.gz",
@@ -6939,13 +6950,13 @@
 ]
 },
 "poi": {
+"apache-poi-5.3.0-20240625": [
+"poi/release/src/apache-poi-src-5.3.0-20240625.tgz",
+"poi/release/src/apache-poi-src-5.3.0-20240625.zip"
+],
 "apache-xmlbeans-5.2.1-20240522": [
 "poi/xmlbeans/release/src/apache-xmlbeans-src-5.2.1-20240522.tgz",
 "poi/xmlbeans/release/src/apache-xmlbeans-src-5.2.1-20240522.zip"
-],
-"poi-5.2.5-20231118": [
-"poi/release/src/poi-src-5.2.5-20231118.tgz",
-"poi/release/src/poi-src-5.2.5-20231118.zip"
 ]
 },
 "portals": {
@@ -7737,6 +7748,9 @@
 ],
 "apache-skywalking-banyandb-java-client-0.7.0-rc0": [
 "skywalking/banyandb-java-client/0.7.0-rc0/apache-skywalking-banyandb-java-client-0.7.0-rc0-src.tgz"
+],
+"apache-skywalking-banyandb-java-client-0.7.0-rc1": [
+"skywalking/banyandb-java-client/0.7.0-rc1/apache-skywalking-banyandb-java-client-0.7.0-rc1-src.tgz"
 ],
 "apache-skywalking-go-0.1.0": [
 "skywalking/go/0.1.0/apache-skywalking-go-0.1.0-src.tgz"
@@ -8989,6 +9003,9 @@
 ],
 "apache-superset-4.0.1": [
 "superset/4.0.1/apache-superset-4.0.1-source.tar.gz"
+],
+"apache-superset-4.0.2": [
+"superset/4.0.2/apache-superset-4.0.2-source.tar.gz"
 ]
 },
 "synapse": {
