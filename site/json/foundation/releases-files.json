@@ -90,8 +90,8 @@
 "airflow-chart-1.14.0": [
 "airflow/helm-chart/1.14.0/airflow-chart-1.14.0-source.tar.gz"
 ],
-"apache-airflow-2.9.2": [
-"airflow/2.9.2/apache-airflow-2.9.2-source.tar.gz"
+"apache-airflow-2.9.3": [
+"airflow/2.9.3/apache-airflow-2.9.3-source.tar.gz"
 ],
 "apache-airflow-client-2.5.0": [
 "airflow/clients/go/2.5.0/apache-airflow-client-2.5.0-source.tar.gz"
@@ -105,8 +105,8 @@
 "apache-airflow-upgrade-check-1.4.0": [
 "airflow/upgrade-check/1.4.0/apache-airflow-upgrade-check-1.4.0-source.tar.gz"
 ],
-"apache_airflow-2.9.2": [
-"airflow/2.9.2/apache_airflow-2.9.2.tar.gz"
+"apache_airflow-2.9.3": [
+"airflow/2.9.3/apache_airflow-2.9.3.tar.gz"
 ],
 "apache_airflow_client-2.9.0": [
 "airflow/clients/python/2.9.0/apache_airflow_client-2.9.0.tar.gz"
@@ -699,6 +699,9 @@
 ],
 "apache-arrow-16.1.0": [
 "arrow/arrow-16.1.0/apache-arrow-16.1.0.tar.gz"
+],
+"apache-arrow-17.0.0": [
+"arrow/arrow-17.0.0/apache-arrow-17.0.0.tar.gz"
 ],
 "apache-arrow-adbc-13": [
 "arrow/apache-arrow-adbc-13/apache-arrow-adbc-13.tar.gz"
@@ -2352,8 +2355,8 @@
 "apache-dolphinscheduler-3.2.0": [
 "dolphinscheduler/3.2.0/apache-dolphinscheduler-3.2.0-src.tar.gz"
 ],
-"apache-dolphinscheduler-3.2.1": [
-"dolphinscheduler/3.2.1/apache-dolphinscheduler-3.2.1-src.tar.gz"
+"apache-dolphinscheduler-3.2.2": [
+"dolphinscheduler/3.2.2/apache-dolphinscheduler-3.2.2-src.tar.gz"
 ],
 "dolphinscheduler-operator-0.1.0": [
 "dolphinscheduler/operator/0.1.0/dolphinscheduler-operator-0.1.0-src.tgz"
@@ -2510,8 +2513,14 @@
 "apache-doris-flink-connector-1.6.1": [
 "doris/flink-connector/1.6.1/apache-doris-flink-connector-1.6.1-src.tar.gz"
 ],
+"apache-doris-flink-connector-1.6.2": [
+"doris/flink-connector/1.6.2/apache-doris-flink-connector-1.6.2-src.tar.gz"
+],
 "apache-doris-kafka-connector-1.0.0": [
 "doris/kafka-connector/1.0.0-rc01/apache-doris-kafka-connector-1.0.0-src.tar.gz"
+],
+"apache-doris-kafka-connector-1.1.0": [
+"doris/kafka-connector/1.1.0-rc01/apache-doris-kafka-connector-1.1.0-src.tar.gz"
 ],
 "apache-doris-sdk-1.0.0": [
 "doris/doris-sdk/1.0.0/apache-doris-sdk-1.0.0-src.tar.gz"
@@ -3766,6 +3775,9 @@
 "hbase-2.5.8": [
 "hbase/2.5.8/hbase-2.5.8-src.tar.gz"
 ],
+"hbase-2.5.9": [
+"hbase/2.5.9/hbase-2.5.9-src.tar.gz"
+],
 "hbase-2.6.0": [
 "hbase/2.6.0/hbase-2.6.0-src.tar.gz"
 ],
@@ -4118,6 +4130,9 @@
 ],
 "hudi-1.0.0-beta2": [
 "hudi/1.0.0-beta2/hudi-1.0.0-beta2.src.tgz"
+],
+"hudi-rs-0.1.0": [
+"hudi/hudi-rs-0.1.0/hudi-rs-0.1.0.src.tgz"
 ]
 },
 "iceberg": {
@@ -4695,6 +4710,9 @@
 ],
 "apache-jspf-sources-1.0.4": [
 "james/jspf/1.0.4/apache-jspf-sources-1.0.4.zip"
+],
+"apache-jspf-sources-1.0.5": [
+"james/jspf/1.0.5/apache-jspf-sources-1.0.5.zip"
 ],
 "james-3.7.3": [
 "james/server/3.7.3/james-project-3.7.3-source-release.zip"
@@ -7496,6 +7514,9 @@
 "rocketmq-all-5.2.0": [
 "rocketmq/5.2.0/rocketmq-all-5.2.0-source-release.zip"
 ],
+"rocketmq-all-5.3.0": [
+"rocketmq/5.3.0/rocketmq-all-5.3.0-source-release.zip"
+],
 "rocketmq-client-cpp-2.1.0": [
 "rocketmq/rocketmq-client-cpp/2.1.0/rocketmq-client-cpp-2.1.0-source-release.tar.gz"
 ],
@@ -8490,8 +8511,8 @@
 "org.apache.sling.launchpad.api-1.2.0": [
 "sling/org.apache.sling.launchpad.api-1.2.0-source-release.zip"
 ],
-"org.apache.sling.launchpad.base-7.0.5-2.7.8": [
-"sling/org.apache.sling.launchpad.base-7.0.5-2.7.8-source-release.zip"
+"org.apache.sling.launchpad.base-7.0.5-2.8.0": [
+"sling/org.apache.sling.launchpad.base-7.0.5-2.8.0-source-release.zip"
 ],
 "org.apache.sling.launchpad.content-2.0.12": [
 "sling/org.apache.sling.launchpad.content-2.0.12-source-release.zip"
