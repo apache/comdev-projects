@@ -694,12 +694,6 @@
 ]
 },
 "arrow": {
-"apache-arrow-16.0.0": [
-"arrow/arrow-16.0.0/apache-arrow-16.0.0.tar.gz"
-],
-"apache-arrow-16.1.0": [
-"arrow/arrow-16.1.0/apache-arrow-16.1.0.tar.gz"
-],
 "apache-arrow-17.0.0": [
 "arrow/arrow-17.0.0/apache-arrow-17.0.0.tar.gz"
 ],
@@ -1902,9 +1896,9 @@
 "commons/lang/source/commons-lang-2.6-src.tar.gz",
 "commons/lang/source/commons-lang-2.6-src.zip"
 ],
-"commons-lang3-3.14.0": [
-"commons/lang/source/commons-lang3-3.14.0-src.tar.gz",
-"commons/lang/source/commons-lang3-3.14.0-src.zip"
+"commons-lang3-3.15.0": [
+"commons/lang/source/commons-lang3-3.15.0-src.tar.gz",
+"commons/lang/source/commons-lang3-3.15.0-src.zip"
 ],
 "commons-logging-1.3.3": [
 "commons/logging/source/commons-logging-1.3.3-src.tar.gz",
@@ -2169,17 +2163,35 @@
 "cxf/3.5.8/apache-cxf-3.5.8.tar.gz",
 "cxf/3.5.8/apache-cxf-3.5.8.zip"
 ],
+"apache-cxf-3.5.9": [
+"cxf/3.5.9/apache-cxf-3.5.9-src.tar.gz",
+"cxf/3.5.9/apache-cxf-3.5.9-src.zip",
+"cxf/3.5.9/apache-cxf-3.5.9.tar.gz",
+"cxf/3.5.9/apache-cxf-3.5.9.zip"
+],
 "apache-cxf-3.6.3": [
 "cxf/3.6.3/apache-cxf-3.6.3-src.tar.gz",
 "cxf/3.6.3/apache-cxf-3.6.3-src.zip",
 "cxf/3.6.3/apache-cxf-3.6.3.tar.gz",
 "cxf/3.6.3/apache-cxf-3.6.3.zip"
 ],
+"apache-cxf-3.6.4": [
+"cxf/3.6.4/apache-cxf-3.6.4-src.tar.gz",
+"cxf/3.6.4/apache-cxf-3.6.4-src.zip",
+"cxf/3.6.4/apache-cxf-3.6.4.tar.gz",
+"cxf/3.6.4/apache-cxf-3.6.4.zip"
+],
 "apache-cxf-4.0.4": [
 "cxf/4.0.4/apache-cxf-4.0.4-src.tar.gz",
 "cxf/4.0.4/apache-cxf-4.0.4-src.zip",
 "cxf/4.0.4/apache-cxf-4.0.4.tar.gz",
 "cxf/4.0.4/apache-cxf-4.0.4.zip"
+],
+"apache-cxf-4.0.5": [
+"cxf/4.0.5/apache-cxf-4.0.5-src.tar.gz",
+"cxf/4.0.5/apache-cxf-4.0.5-src.zip",
+"cxf/4.0.5/apache-cxf-4.0.5.tar.gz",
+"cxf/4.0.5/apache-cxf-4.0.5.zip"
 ],
 "apache-fediz-1.5.1": [
 "cxf/fediz/1.5.1/apache-fediz-1.5.1.zip"
@@ -3766,14 +3778,8 @@
 ]
 },
 "hbase": {
-"hbase-2.4.17": [
-"hbase/2.4.17/hbase-2.4.17-src.tar.gz"
-],
 "hbase-2.4.18": [
 "hbase/2.4.18/hbase-2.4.18-src.tar.gz"
-],
-"hbase-2.5.8": [
-"hbase/2.5.8/hbase-2.5.8-src.tar.gz"
 ],
 "hbase-2.5.9": [
 "hbase/2.5.9/hbase-2.5.9-src.tar.gz"
@@ -4054,9 +4060,9 @@
 ]
 },
 "httpd": {
-"httpd-2.4.61": [
-"httpd/httpd-2.4.61.tar.bz2",
-"httpd/httpd-2.4.61.tar.gz"
+"httpd-2.4.62": [
+"httpd/httpd-2.4.62.tar.bz2",
+"httpd/httpd-2.4.62.tar.gz"
 ],
 "libapreq-1.34": [
 "httpd/libapreq/libapreq-1.34.tar.gz"
@@ -6844,6 +6850,9 @@
 "orc-1.9.3": [
 "orc/orc-1.9.3/orc-1.9.3.tar.gz"
 ],
+"orc-1.9.4": [
+"orc/orc-1.9.4/orc-1.9.4.tar.gz"
+],
 "orc-2.0.0": [
 "orc/orc-2.0.0/orc-2.0.0.tar.gz"
 ],
@@ -9287,10 +9296,6 @@
 "tomcat/tomcat-11/v11.0.0-M22/src/apache-tomcat-11.0.0-M22-src.tar.gz",
 "tomcat/tomcat-11/v11.0.0-M22/src/apache-tomcat-11.0.0-M22-src.zip"
 ],
-"apache-tomcat-9.0.90": [
-"tomcat/tomcat-9/v9.0.90/src/apache-tomcat-9.0.90-src.tar.gz",
-"tomcat/tomcat-9/v9.0.90/src/apache-tomcat-9.0.90-src.zip"
-],
 "apache-tomcat-9.0.91": [
 "tomcat/tomcat-9/v9.0.91/src/apache-tomcat-9.0.91-src.tar.gz",
 "tomcat/tomcat-9/v9.0.91/src/apache-tomcat-9.0.91-src.zip"
@@ -9308,10 +9313,6 @@
 ],
 "tomcat-maven-plugin-2.2": [
 "tomcat/maven-plugin/v2.2/tomcat-maven-plugin-2.2-source-release.zip"
-],
-"tomcat-native-1.2.39": [
-"tomcat/tomcat-connectors/native/1.2.39/source/tomcat-native-1.2.39-src.tar.gz",
-"tomcat/tomcat-connectors/native/1.2.39/source/tomcat-native-1.2.39-win32-src.zip"
 ],
 "tomcat-native-1.3.0": [
 "tomcat/tomcat-connectors/native/1.3.0/source/tomcat-native-1.3.0-src.tar.gz",

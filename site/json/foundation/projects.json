@@ -267,7 +267,7 @@
 },
 "age": {
 "bug-database": "https://github.com/apache/age/labels/Bug",
-"category": "database",
+"category": "database, retired",
 "created": "2023-02-15",
 "description": "The goal of Apache AGE™ is to provide graph data processing and analytics capability to all relational databases.\n\nThrough Apache AGE, PostgreSQL users will gain access to graph query modeling within the existing relational database.\n",
 "doap": "https://age.apache.org/age-doap.rdf",
@@ -282,7 +282,7 @@
 }
 ],
 "name": "Apache AGE",
-"pmc": "age",
+"pmc": "attic",
 "programming-language": "C",
 "repository": [
 "https://github.com/apache/age"
@@ -3893,7 +3893,7 @@
 },
 "bloodhound": {
 "bug-database": "http://issues.apache.org/bloodhound/",
-"category": "build-management",
+"category": "build-management, retired",
 "created": "2013-04-15",
 "description": "Apache Bloodhound has been created to be an open source collaboration tool to track the progress of and help distribute tasks within a project. With a particular focus on software development it includes integration with popular source control software including Apache Subversion, Git and Mercurial.",
 "doap": "http://svn.apache.org/repos/asf/bloodhound/site/doap.rdf",
@@ -3902,7 +3902,7 @@
 "license": "http://usefulinc.com/doap/licenses/asl20",
 "mailing-list": "https://issues.apache.org/bloodhound/wiki/BloodhoundContactInfo",
 "name": "Apache Bloodhound",
-"pmc": "bloodhound",
+"pmc": "attic",
 "programming-language": "Python",
 "release": [
 {
@@ -9964,9 +9964,9 @@
 "programming-language": "C",
 "release": [
 {
-"created": "2024-07-03",
+"created": "2024-07-17",
 "name": "Recommended current 2.4 release",
-"revision": "2.4.61"
+"revision": "2.4.62"
 }
 ],
 "repository": [
