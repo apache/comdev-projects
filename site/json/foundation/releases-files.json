@@ -2464,6 +2464,9 @@
 "apache-doris-2.1.4": [
 "doris/2.1/2.1.4/apache-doris-2.1.4-src.tar.gz"
 ],
+"apache-doris-3.0.0": [
+"doris/3.0/3.0.0-rc11/apache-doris-3.0.0-src.tar.gz"
+],
 "apache-doris-flink-connector-1.11_2.12-1.0.3-incubating": [
 "doris/flink-connector/1.0.3/apache-doris-flink-connector-1.11_2.12-1.0.3-incubating-src.tar.gz"
 ],
@@ -5137,6 +5140,9 @@
 "apache-kyuubi-1.9.1": [
 "kyuubi/kyuubi-1.9.1/apache-kyuubi-1.9.1-source.tgz"
 ],
+"apache-kyuubi-1.9.2": [
+"kyuubi/kyuubi-1.9.2/apache-kyuubi-1.9.2-source.tgz"
+],
 "apache-kyuubi-shaded-0.1.0": [
 "kyuubi/kyuubi-shaded-0.1.0/apache-kyuubi-shaded-0.1.0-source.tgz"
 ],
@@ -5148,6 +5154,9 @@
 ],
 "apache-kyuubi-shaded-0.4.0": [
 "kyuubi/kyuubi-shaded-0.4.0/apache-kyuubi-shaded-0.4.0-source.tgz"
+],
+"apache-kyuubi-shaded-0.4.1": [
+"kyuubi/kyuubi-shaded-0.4.1/apache-kyuubi-shaded-0.4.1-source.tgz"
 ]
 },
 "libcloud": {
@@ -6835,14 +6844,8 @@
 "orc-1.8.7": [
 "orc/orc-1.8.7/orc-1.8.7.tar.gz"
 ],
-"orc-1.9.3": [
-"orc/orc-1.9.3/orc-1.9.3.tar.gz"
-],
 "orc-1.9.4": [
 "orc/orc-1.9.4/orc-1.9.4.tar.gz"
-],
-"orc-2.0.0": [
-"orc/orc-2.0.0/orc-2.0.0.tar.gz"
 ],
 "orc-2.0.1": [
 "orc/orc-2.0.1/orc-2.0.1.tar.gz"
@@ -6980,6 +6983,9 @@
 ],
 "apache-pekko-management-1.1.0-M1-20240613": [
 "pekko/MANAGEMENT-1.1.0-M1/apache-pekko-management-1.1.0-M1-src-20240613.tgz"
+],
+"apache-pekko-persistence-cassandra-1.1.0-M1-20240715": [
+"pekko/PERSISTENCE-CASSANDRA-1.1.0-M1/apache-pekko-persistence-cassandra-1.1.0-M1-src-20240715.tgz"
 ],
 "apache-pekko-persistence-jdbc-1.1.0-M1-20240603": [
 "pekko/PERSISTENCE-JDBC-1.1.0-M1/apache-pekko-persistence-jdbc-1.1.0-M1-src-20240603.tgz"
@@ -7266,11 +7272,8 @@
 "apache-pulsar-client-cpp-3.5.1": [
 "pulsar/pulsar-client-cpp-3.5.1/apache-pulsar-client-cpp-3.5.1.tar.gz"
 ],
-"apache-pulsar-client-go-0.11.1": [
-"pulsar/pulsar-client-go-0.11.1/apache-pulsar-client-go-0.11.1-src.tar.gz"
-],
-"apache-pulsar-client-go-0.12.1": [
-"pulsar/pulsar-client-go-0.12.1/apache-pulsar-client-go-0.12.1-src.tar.gz"
+"apache-pulsar-client-go-0.13.0": [
+"pulsar/pulsar-client-go-0.13.0/apache-pulsar-client-go-0.13.0-src.tar.gz"
 ],
 "apache-pulsar-client-node-1.10.0": [
 "pulsar/pulsar-client-node-1.10.0/apache-pulsar-client-node-1.10.0.tar.gz"
@@ -7978,8 +7981,8 @@
 "skywalking-nodejs-0.7.0": [
 "skywalking/node-js/0.7.0/skywalking-nodejs-src-0.7.0.tgz"
 ],
-"skywalking-python-1.0.1": [
-"skywalking/python/1.0.1/skywalking-python-src-1.0.1.tgz"
+"skywalking-python-1.1.0": [
+"skywalking/python/1.1.0/skywalking-python-src-1.1.0.tgz"
 ],
 "skywalking-swck-0.9.0": [
 "skywalking/swck/0.9.0/skywalking-swck-0.9.0-src.tgz"
@@ -9008,6 +9011,12 @@
 "storm/apache-storm-2.6.2/apache-storm-2.6.2-src.zip",
 "storm/apache-storm-2.6.2/apache-storm-2.6.2.tar.gz",
 "storm/apache-storm-2.6.2/apache-storm-2.6.2.zip"
+],
+"apache-storm-2.6.3": [
+"storm/apache-storm-2.6.3/apache-storm-2.6.3-src.tar.gz",
+"storm/apache-storm-2.6.3/apache-storm-2.6.3-src.zip",
+"storm/apache-storm-2.6.3/apache-storm-2.6.3.tar.gz",
+"storm/apache-storm-2.6.3/apache-storm-2.6.3.zip"
 ]
 },
 "streampipes": {
@@ -9140,9 +9149,9 @@
 "syncope/2.1.14/syncope-2.1.14-source-release.zip",
 "syncope/2.1.14/syncope-standalone-2.1.14-distribution.zip"
 ],
-"syncope-3.0.7": [
-"syncope/3.0.7/syncope-3.0.7-source-release.zip",
-"syncope/3.0.7/syncope-standalone-3.0.7-distribution.zip"
+"syncope-3.0.8": [
+"syncope/3.0.8/syncope-3.0.8-source-release.zip",
+"syncope/3.0.8/syncope-standalone-3.0.8-distribution.zip"
 ],
 "syncope-client-cli-2.1.14": [
 "syncope/2.1.14/syncope-client-cli-2.1.14.zip"
