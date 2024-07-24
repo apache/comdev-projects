@@ -938,11 +938,6 @@
 "bigtop/bigtop-3.3.0/bigtop-3.3.0-project.tar.gz"
 ]
 },
-"bloodhound": {
-"apache-bloodhound-0.8": [
-"bloodhound/apache-bloodhound-0.8.tar.gz"
-]
-},
 "bookkeeper": {
 "bookkeeper-4.11.1": [
 "bookkeeper/bookkeeper-4.11.1/bookkeeper-4.11.1-src.tar.gz"
@@ -1086,8 +1081,8 @@
 "bval-2.0.6": [
 "bval/2.0.6/bval-parent-2.0.6-source-release.zip"
 ],
-"bval-3.0.0": [
-"bval/bval-3.0.0/bval-parent-3.0.0-source-release.zip"
+"bval-3.0.1": [
+"bval/bval-3.0.1/bval-parent-3.0.1-source-release.zip"
 ]
 },
 "calcite": {
@@ -1739,9 +1734,9 @@
 "apache-commons-rdf-0.5.0": [
 "commons/rdf/source/apache-commons-rdf-0.5.0-source-release.zip"
 ],
-"bcel-6.9.0": [
-"commons/bcel/source/bcel-6.9.0-src.tar.gz",
-"commons/bcel/source/bcel-6.9.0-src.zip"
+"bcel-6.10.0": [
+"commons/bcel/source/bcel-6.10.0-src.tar.gz",
+"commons/bcel/source/bcel-6.10.0-src.zip"
 ],
 "bsf-2.4.0": [
 "commons/bsf/source/bsf-src-2.4.0.tar.gz",
@@ -2224,6 +2219,9 @@
 "datafusion": {
 "apache-datafusion-40.0.0": [
 "datafusion/datafusion-40.0.0/apache-datafusion-40.0.0.tar.gz"
+],
+"apache-datafusion-comet-0.1.0": [
+"datafusion/datafusion-comet-0.1.0/apache-datafusion-comet-0.1.0.tar.gz"
 ],
 "apache-datafusion-python-39.0.0": [
 "datafusion/datafusion-python-39.0.0/apache-datafusion-python-39.0.0.tar.gz"
@@ -3762,20 +3760,6 @@
 "hadoop/thirdparty/thirdparty-1.2.0/hadoop-thirdparty-1.2.0-src.tar.gz"
 ]
 },
-"hawq": {
-"apache-hawq-2.4.0.0": [
-"hawq/2.4.0.0/apache-hawq-src-2.4.0.0.tar.gz"
-],
-"apache-hawq-3.0.0.0": [
-"hawq/3.0.0.0/apache-hawq-src-3.0.0.0.tar.gz"
-],
-"apache-hawq-rpm-2.4.0.0": [
-"hawq/2.4.0.0/apache-hawq-rpm-2.4.0.0.tar.gz"
-],
-"apache-hawq-rpm-3.0.0.0": [
-"hawq/3.0.0.0/apache-hawq-rpm-3.0.0.0.tar.gz"
-]
-},
 "hbase": {
 "hbase-2.4.18": [
 "hbase/2.4.18/hbase-2.4.18-src.tar.gz"
@@ -4183,6 +4167,9 @@
 "apache-iceberg-1.5.2": [
 "iceberg/apache-iceberg-1.5.2/apache-iceberg-1.5.2.tar.gz"
 ],
+"apache-iceberg-1.6.0": [
+"iceberg/apache-iceberg-1.6.0/apache-iceberg-1.6.0.tar.gz"
+],
 "apache-iceberg-rust-0.2.0": [
 "iceberg/iceberg-rust-0.2.0/apache-iceberg-rust-0.2.0-src.tar.gz"
 ],
@@ -4345,6 +4332,9 @@
 ],
 "apache-fury-0.5.1-incubating": [
 "incubator/fury/0.5.1/apache-fury-0.5.1-incubating-src.tar.gz"
+],
+"apache-fury-0.6.0-incubating": [
+"incubator/fury/0.6.0/apache-fury-0.6.0-incubating-src.tar.gz"
 ]
 },
 "incubator-graphar": {
@@ -4653,6 +4643,9 @@
 ],
 "jackrabbit-2.22.0": [
 "jackrabbit/2.22.0/jackrabbit-2.22.0-src.zip"
+],
+"jackrabbit-2.23.0-beta": [
+"jackrabbit/2.23.0-beta/jackrabbit-2.23.0-beta-src.zip"
 ],
 "jackrabbit-filevault-3.2.8": [
 "jackrabbit/filevault/3.2.8/jackrabbit-filevault-3.2.8-src.zip"
@@ -5093,6 +5086,9 @@
 ],
 "apache-kvrocks-2.9.0": [
 "kvrocks/2.9.0/apache-kvrocks-2.9.0-src.tar.gz"
+],
+"apache-kvrocks-controller-1.0.0": [
+"kvrocks/kvrocks-controller/1.0.0/apache-kvrocks-controller-src-1.0.0.tar.gz"
 ]
 },
 "kylin": {
@@ -9324,21 +9320,21 @@
 ]
 },
 "tomee": {
-"apache-tomee-10.0.0-M1-microprofile": [
-"tomee/tomee-10.0.0-M1/apache-tomee-10.0.0-M1-microprofile.tar.gz",
-"tomee/tomee-10.0.0-M1/apache-tomee-10.0.0-M1-microprofile.zip"
+"apache-tomee-10.0.0-M2-microprofile": [
+"tomee/tomee-10.0.0-M2/apache-tomee-10.0.0-M2-microprofile.tar.gz",
+"tomee/tomee-10.0.0-M2/apache-tomee-10.0.0-M2-microprofile.zip"
 ],
-"apache-tomee-10.0.0-M1-plume": [
-"tomee/tomee-10.0.0-M1/apache-tomee-10.0.0-M1-plume.tar.gz",
-"tomee/tomee-10.0.0-M1/apache-tomee-10.0.0-M1-plume.zip"
+"apache-tomee-10.0.0-M2-plume": [
+"tomee/tomee-10.0.0-M2/apache-tomee-10.0.0-M2-plume.tar.gz",
+"tomee/tomee-10.0.0-M2/apache-tomee-10.0.0-M2-plume.zip"
 ],
-"apache-tomee-10.0.0-M1-plus": [
-"tomee/tomee-10.0.0-M1/apache-tomee-10.0.0-M1-plus.tar.gz",
-"tomee/tomee-10.0.0-M1/apache-tomee-10.0.0-M1-plus.zip"
+"apache-tomee-10.0.0-M2-plus": [
+"tomee/tomee-10.0.0-M2/apache-tomee-10.0.0-M2-plus.tar.gz",
+"tomee/tomee-10.0.0-M2/apache-tomee-10.0.0-M2-plus.zip"
 ],
-"apache-tomee-10.0.0-M1-webprofile": [
-"tomee/tomee-10.0.0-M1/apache-tomee-10.0.0-M1-webprofile.tar.gz",
-"tomee/tomee-10.0.0-M1/apache-tomee-10.0.0-M1-webprofile.zip"
+"apache-tomee-10.0.0-M2-webprofile": [
+"tomee/tomee-10.0.0-M2/apache-tomee-10.0.0-M2-webprofile.tar.gz",
+"tomee/tomee-10.0.0-M2/apache-tomee-10.0.0-M2-webprofile.zip"
 ],
 "apache-tomee-8.0.16-microprofile": [
 "tomee/tomee-8.0.16/apache-tomee-8.0.16-microprofile.tar.gz",
@@ -9381,8 +9377,8 @@
 "javaee-api-8.0-6": [
 "tomee/javaee-api-8.0-6/javaee-api-8.0-6-source-release.zip"
 ],
-"tomee-10.0.0-M1": [
-"tomee/tomee-10.0.0-M1/tomee-project-10.0.0-M1-source-release.zip"
+"tomee-10.0.0-M2": [
+"tomee/tomee-10.0.0-M2/tomee-project-10.0.0-M2-source-release.zip"
 ],
 "tomee-8.0.16": [
 "tomee/tomee-8.0.16/tomee-project-8.0.16-source-release.zip"
