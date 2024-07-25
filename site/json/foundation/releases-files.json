@@ -29,8 +29,8 @@
 "Apache.NMS.ActiveMQ-2.1.0": [
 "activemq/apache-nms-activemq/2.1.0/Apache.NMS.ActiveMQ-2.1.0-src.zip"
 ],
-"activemq-5.18.4": [
-"activemq/5.18.4/activemq-parent-5.18.4-source-release.zip"
+"activemq-5.18.5": [
+"activemq/5.18.5/activemq-parent-5.18.5-source-release.zip"
 ],
 "activemq-6.1.2": [
 "activemq/6.1.2/activemq-parent-6.1.2-source-release.zip"
@@ -78,17 +78,17 @@
 ]
 },
 "airflow": {
-"airflow-1.13.1": [
-"airflow/helm-chart/1.13.1/airflow-1.13.1.tgz"
-],
 "airflow-1.14.0": [
 "airflow/helm-chart/1.14.0/airflow-1.14.0.tgz"
 ],
-"airflow-chart-1.13.1": [
-"airflow/helm-chart/1.13.1/airflow-chart-1.13.1-source.tar.gz"
+"airflow-1.15.0": [
+"airflow/helm-chart/1.15.0/airflow-1.15.0.tgz"
 ],
 "airflow-chart-1.14.0": [
 "airflow/helm-chart/1.14.0/airflow-chart-1.14.0-source.tar.gz"
+],
+"airflow-chart-1.15.0": [
+"airflow/helm-chart/1.15.0/airflow-chart-1.15.0-source.tar.gz"
 ],
 "apache-airflow-2.9.3": [
 "airflow/2.9.3/apache-airflow-2.9.3-source.tar.gz"
@@ -1433,6 +1433,9 @@
 "camel-kamelets-sources-4.7.0": [
 "camel/camel-kamelets/4.7.0/camel-kamelets-sources-4.7.0.tar.gz"
 ],
+"camel-karaf-4.7.0": [
+"camel/camel-karaf/4.7.0/camel-karaf-4.7.0-source-release.zip"
+],
 "camel-karavan-3.20.1": [
 "camel/camel-karavan/3.20.1/camel-karavan-3.20.1.zip"
 ],
@@ -1993,8 +1996,8 @@
 "cordova-firefoxos-3.6.3": [
 "cordova/platforms/cordova-firefoxos-3.6.3.tgz"
 ],
-"cordova-ios-7.1.0": [
-"cordova/platforms/cordova-ios-7.1.0.tgz"
+"cordova-ios-7.1.1": [
+"cordova/platforms/cordova-ios-7.1.1.tgz"
 ],
 "cordova-js-6.1.0": [
 "cordova/tools/cordova-js-6.1.0.tgz"
@@ -2461,6 +2464,9 @@
 ],
 "apache-doris-2.1.4": [
 "doris/2.1/2.1.4/apache-doris-2.1.4-src.tar.gz"
+],
+"apache-doris-2.1.5-rc02": [
+"doris/2.1/2.1.5/apache-doris-2.1.5-rc02-src.tar.gz"
 ],
 "apache-doris-3.0.0": [
 "doris/3.0/3.0.0-rc11/apache-doris-3.0.0-src.tar.gz"
@@ -3763,6 +3769,9 @@
 "hbase": {
 "hbase-2.4.18": [
 "hbase/2.4.18/hbase-2.4.18-src.tar.gz"
+],
+"hbase-2.5.10": [
+"hbase/2.5.10/hbase-2.5.10-src.tar.gz"
 ],
 "hbase-2.5.9": [
 "hbase/2.5.9/hbase-2.5.9-src.tar.gz"
@@ -6951,8 +6960,8 @@
 "pdfbox-1.8.17": [
 "pdfbox/1.8.17/pdfbox-1.8.17-src.zip"
 ],
-"pdfbox-2.0.31": [
-"pdfbox/2.0.31/pdfbox-2.0.31-src.zip"
+"pdfbox-2.0.32": [
+"pdfbox/2.0.32/pdfbox-2.0.32-src.zip"
 ],
 "pdfbox-3.0.2": [
 "pdfbox/3.0.2/pdfbox-3.0.2-src.zip"
@@ -9002,12 +9011,6 @@
 "storm/apache-storm-1.2.4/apache-storm-1.2.4.tar.gz",
 "storm/apache-storm-1.2.4/apache-storm-1.2.4.zip"
 ],
-"apache-storm-2.6.2": [
-"storm/apache-storm-2.6.2/apache-storm-2.6.2-src.tar.gz",
-"storm/apache-storm-2.6.2/apache-storm-2.6.2-src.zip",
-"storm/apache-storm-2.6.2/apache-storm-2.6.2.tar.gz",
-"storm/apache-storm-2.6.2/apache-storm-2.6.2.zip"
-],
 "apache-storm-2.6.3": [
 "storm/apache-storm-2.6.3/apache-storm-2.6.3-src.tar.gz",
 "storm/apache-storm-2.6.3/apache-storm-2.6.3-src.zip",
@@ -9314,9 +9317,17 @@
 "tomcat/tomcat-connectors/native/1.3.0/source/tomcat-native-1.3.0-src.tar.gz",
 "tomcat/tomcat-connectors/native/1.3.0/source/tomcat-native-1.3.0-win32-src.zip"
 ],
+"tomcat-native-1.3.1": [
+"tomcat/tomcat-connectors/native/1.3.1/source/tomcat-native-1.3.1-src.tar.gz",
+"tomcat/tomcat-connectors/native/1.3.1/source/tomcat-native-1.3.1-win32-src.zip"
+],
 "tomcat-native-2.0.7": [
 "tomcat/tomcat-connectors/native/2.0.7/source/tomcat-native-2.0.7-src.tar.gz",
 "tomcat/tomcat-connectors/native/2.0.7/source/tomcat-native-2.0.7-win32-src.zip"
+],
+"tomcat-native-2.0.8": [
+"tomcat/tomcat-connectors/native/2.0.8/source/tomcat-native-2.0.8-src.tar.gz",
+"tomcat/tomcat-connectors/native/2.0.8/source/tomcat-native-2.0.8-win32-src.zip"
 ]
 },
 "tomee": {
@@ -9440,6 +9451,9 @@
 ],
 "trafficserver-9.2.4": [
 "trafficserver/trafficserver-9.2.4.tar.bz2"
+],
+"trafficserver-9.2.5": [
+"trafficserver/trafficserver-9.2.5.tar.bz2"
 ]
 },
 "tsfile": {
