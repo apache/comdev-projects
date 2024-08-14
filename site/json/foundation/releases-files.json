@@ -3,9 +3,6 @@
 "accumulo-1.10.4": [
 "accumulo/1.10.4/accumulo-1.10.4-src.tar.gz"
 ],
-"accumulo-2.1.2": [
-"accumulo/2.1.2/accumulo-2.1.2-src.tar.gz"
-],
 "accumulo-2.1.3": [
 "accumulo/2.1.3/accumulo-2.1.3-src.tar.gz"
 ],
@@ -468,6 +465,9 @@
 ],
 "apache-apisix-3.0.0": [
 "apisix/3.0.0/apache-apisix-3.0.0-src.tgz"
+],
+"apache-apisix-3.10.0": [
+"apisix/3.10.0/apache-apisix-3.10.0-src.tgz"
 ],
 "apache-apisix-3.2.2": [
 "apisix/3.2.2/apache-apisix-3.2.2-src.tgz"
@@ -6528,6 +6528,9 @@
 ]
 },
 "opendal": {
+"apache-opendal-bindings-c-0.44.10": [
+"opendal/0.49.0/apache-opendal-bindings-c-0.44.10-src.tar.gz"
+],
 "apache-opendal-bindings-c-0.44.8": [
 "opendal/0.48.0/apache-opendal-bindings-c-0.44.8-src.tar.gz"
 ],
@@ -6540,14 +6543,21 @@
 "apache-opendal-bindings-cpp-0.45.7": [
 "opendal/0.48.0/apache-opendal-bindings-cpp-0.45.7-src.tar.gz"
 ],
+"apache-opendal-bindings-cpp-0.45.8": [
+"opendal/0.49.0/apache-opendal-bindings-cpp-0.45.8-src.tar.gz"
+],
 "apache-opendal-bindings-dotnet-0.1.4": [
 "opendal/0.48.0/apache-opendal-bindings-dotnet-0.1.4-src.tar.gz"
 ],
 "apache-opendal-bindings-dotnet-0.1.5": [
 "opendal/0.48.0/apache-opendal-bindings-dotnet-0.1.5-src.tar.gz"
 ],
+"apache-opendal-bindings-dotnet-0.1.6": [
+"opendal/0.49.0/apache-opendal-bindings-dotnet-0.1.6-src.tar.gz"
+],
 "apache-opendal-bindings-go-0.0.0": [
-"opendal/0.48.0/apache-opendal-bindings-go-0.0.0-src.tar.gz"
+"opendal/0.48.0/apache-opendal-bindings-go-0.0.0-src.tar.gz",
+"opendal/0.49.0/apache-opendal-bindings-go-0.0.0-src.tar.gz"
 ],
 "apache-opendal-bindings-haskell-0.44.6": [
 "opendal/0.48.0/apache-opendal-bindings-haskell-0.44.6-src.tar.gz"
@@ -6555,11 +6565,17 @@
 "apache-opendal-bindings-haskell-0.44.7": [
 "opendal/0.48.0/apache-opendal-bindings-haskell-0.44.7-src.tar.gz"
 ],
+"apache-opendal-bindings-haskell-0.44.8": [
+"opendal/0.49.0/apache-opendal-bindings-haskell-0.44.8-src.tar.gz"
+],
 "apache-opendal-bindings-java-0.46.3": [
 "opendal/0.48.0/apache-opendal-bindings-java-0.46.3-src.tar.gz"
 ],
 "apache-opendal-bindings-java-0.46.4": [
 "opendal/0.48.0/apache-opendal-bindings-java-0.46.4-src.tar.gz"
+],
+"apache-opendal-bindings-java-0.47.0": [
+"opendal/0.49.0/apache-opendal-bindings-java-0.47.0-src.tar.gz"
 ],
 "apache-opendal-bindings-lua-0.1.4": [
 "opendal/0.48.0/apache-opendal-bindings-lua-0.1.4-src.tar.gz"
@@ -6567,14 +6583,19 @@
 "apache-opendal-bindings-lua-0.1.5": [
 "opendal/0.48.0/apache-opendal-bindings-lua-0.1.5-src.tar.gz"
 ],
+"apache-opendal-bindings-lua-0.1.6": [
+"opendal/0.49.0/apache-opendal-bindings-lua-0.1.6-src.tar.gz"
+],
 "apache-opendal-bindings-nodejs-0.47.0": [
 "opendal/0.48.0/apache-opendal-bindings-nodejs-0.47.0-src.tar.gz"
 ],
 "apache-opendal-bindings-nodejs-0.47.1": [
-"opendal/0.48.0/apache-opendal-bindings-nodejs-0.47.1-src.tar.gz"
+"opendal/0.48.0/apache-opendal-bindings-nodejs-0.47.1-src.tar.gz",
+"opendal/0.49.0/apache-opendal-bindings-nodejs-0.47.1-src.tar.gz"
 ],
 "apache-opendal-bindings-ocaml-0.0.0": [
-"opendal/0.48.0/apache-opendal-bindings-ocaml-0.0.0-src.tar.gz"
+"opendal/0.48.0/apache-opendal-bindings-ocaml-0.0.0-src.tar.gz",
+"opendal/0.49.0/apache-opendal-bindings-ocaml-0.0.0-src.tar.gz"
 ],
 "apache-opendal-bindings-php-0.1.4": [
 "opendal/0.48.0/apache-opendal-bindings-php-0.1.4-src.tar.gz"
@@ -6582,11 +6603,17 @@
 "apache-opendal-bindings-php-0.1.5": [
 "opendal/0.48.0/apache-opendal-bindings-php-0.1.5-src.tar.gz"
 ],
+"apache-opendal-bindings-php-0.1.6": [
+"opendal/0.49.0/apache-opendal-bindings-php-0.1.6-src.tar.gz"
+],
 "apache-opendal-bindings-python-0.45.6": [
 "opendal/0.48.0/apache-opendal-bindings-python-0.45.6-src.tar.gz"
 ],
 "apache-opendal-bindings-python-0.45.7": [
 "opendal/0.48.0/apache-opendal-bindings-python-0.45.7-src.tar.gz"
+],
+"apache-opendal-bindings-python-0.45.8": [
+"opendal/0.49.0/apache-opendal-bindings-python-0.45.8-src.tar.gz"
 ],
 "apache-opendal-bindings-ruby-0.1.4": [
 "opendal/0.48.0/apache-opendal-bindings-ruby-0.1.4-src.tar.gz"
@@ -6594,11 +6621,16 @@
 "apache-opendal-bindings-ruby-0.1.5": [
 "opendal/0.48.0/apache-opendal-bindings-ruby-0.1.5-src.tar.gz"
 ],
+"apache-opendal-bindings-ruby-0.1.6": [
+"opendal/0.49.0/apache-opendal-bindings-ruby-0.1.6-src.tar.gz"
+],
 "apache-opendal-bindings-swift-0.0.0": [
-"opendal/0.48.0/apache-opendal-bindings-swift-0.0.0-src.tar.gz"
+"opendal/0.48.0/apache-opendal-bindings-swift-0.0.0-src.tar.gz",
+"opendal/0.49.0/apache-opendal-bindings-swift-0.0.0-src.tar.gz"
 ],
 "apache-opendal-bindings-zig-0.0.0": [
-"opendal/0.48.0/apache-opendal-bindings-zig-0.0.0-src.tar.gz"
+"opendal/0.48.0/apache-opendal-bindings-zig-0.0.0-src.tar.gz",
+"opendal/0.49.0/apache-opendal-bindings-zig-0.0.0-src.tar.gz"
 ],
 "apache-opendal-core-0.47.3": [
 "opendal/0.48.0/apache-opendal-core-0.47.3-src.tar.gz"
@@ -6606,8 +6638,12 @@
 "apache-opendal-core-0.48.0": [
 "opendal/0.48.0/apache-opendal-core-0.48.0-src.tar.gz"
 ],
+"apache-opendal-core-0.49.0": [
+"opendal/0.49.0/apache-opendal-core-0.49.0-src.tar.gz"
+],
 "apache-opendal-integrations-cloudfilter-0.0.0": [
-"opendal/0.48.0/apache-opendal-integrations-cloudfilter-0.0.0-src.tar.gz"
+"opendal/0.48.0/apache-opendal-integrations-cloudfilter-0.0.0-src.tar.gz",
+"opendal/0.49.0/apache-opendal-integrations-cloudfilter-0.0.0-src.tar.gz"
 ],
 "apache-opendal-integrations-dav-server-0.0.5": [
 "opendal/0.48.0/apache-opendal-integrations-dav-server-0.0.5-src.tar.gz"
@@ -6615,11 +6651,17 @@
 "apache-opendal-integrations-dav-server-0.0.6": [
 "opendal/0.48.0/apache-opendal-integrations-dav-server-0.0.6-src.tar.gz"
 ],
+"apache-opendal-integrations-dav-server-0.0.7": [
+"opendal/0.49.0/apache-opendal-integrations-dav-server-0.0.7-src.tar.gz"
+],
 "apache-opendal-integrations-fuse3-0.0.2": [
 "opendal/0.48.0/apache-opendal-integrations-fuse3-0.0.2-src.tar.gz"
 ],
 "apache-opendal-integrations-fuse3-0.0.3": [
 "opendal/0.48.0/apache-opendal-integrations-fuse3-0.0.3-src.tar.gz"
+],
+"apache-opendal-integrations-fuse3-0.0.4": [
+"opendal/0.49.0/apache-opendal-integrations-fuse3-0.0.4-src.tar.gz"
 ],
 "apache-opendal-integrations-object_store-0.44.3": [
 "opendal/0.48.0/apache-opendal-integrations-object_store-0.44.3-src.tar.gz"
@@ -6627,14 +6669,24 @@
 "apache-opendal-integrations-object_store-0.45.0": [
 "opendal/0.48.0/apache-opendal-integrations-object_store-0.45.0-src.tar.gz"
 ],
+"apache-opendal-integrations-object_store-0.46.0": [
+"opendal/0.49.0/apache-opendal-integrations-object_store-0.46.0-src.tar.gz"
+],
+"apache-opendal-integrations-parquet-0.1.0": [
+"opendal/0.49.0/apache-opendal-integrations-parquet-0.1.0-src.tar.gz"
+],
 "apache-opendal-integrations-unftp-sbe-0.0.2": [
 "opendal/0.48.0/apache-opendal-integrations-unftp-sbe-0.0.2-src.tar.gz"
 ],
 "apache-opendal-integrations-unftp-sbe-0.0.3": [
 "opendal/0.48.0/apache-opendal-integrations-unftp-sbe-0.0.3-src.tar.gz"
 ],
+"apache-opendal-integrations-unftp-sbe-0.0.4": [
+"opendal/0.49.0/apache-opendal-integrations-unftp-sbe-0.0.4-src.tar.gz"
+],
 "apache-opendal-integrations-virtiofs-0.0.0": [
-"opendal/0.48.0/apache-opendal-integrations-virtiofs-0.0.0-src.tar.gz"
+"opendal/0.48.0/apache-opendal-integrations-virtiofs-0.0.0-src.tar.gz",
+"opendal/0.49.0/apache-opendal-integrations-virtiofs-0.0.0-src.tar.gz"
 ]
 },
 "openjpa": {
