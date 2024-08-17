@@ -744,8 +744,8 @@
 "apache-arrow-nanoarrow-0.5.0": [
 "arrow/apache-arrow-nanoarrow-0.5.0/apache-arrow-nanoarrow-0.5.0.tar.gz"
 ],
-"apache-arrow-object-store-rs-0.10.2": [
-"arrow/arrow-object-store-rs-0.10.2/apache-arrow-object-store-rs-0.10.2.tar.gz"
+"apache-arrow-object-store-rs-0.11.0": [
+"arrow/arrow-object-store-rs-0.11.0/apache-arrow-object-store-rs-0.11.0.tar.gz"
 ],
 "apache-arrow-rs-52.2.0": [
 "arrow/arrow-rs-52.2.0/apache-arrow-rs-52.2.0.tar.gz"
@@ -909,8 +909,8 @@
 "apache-beam-1688ac1374ff02286ba8e59c9379bf7bb5875646": [
 "beam/vendor/beam-vendor-grpc-1_43_2/0.1/apache-beam-1688ac1374ff02286ba8e59c9379bf7bb5875646-source-release.zip"
 ],
-"apache-beam-2.58.0": [
-"beam/2.58.0/apache-beam-2.58.0-source-release.zip"
+"apache-beam-2.58.1": [
+"beam/2.58.1/apache-beam-2.58.1-source-release.zip"
 ],
 "apache-beam-2d08b32e674a1046ba7be0ae5f1e4b7b05b73488": [
 "beam/vendor/grpc-1_60_1/0.2/apache-beam-2d08b32e674a1046ba7be0ae5f1e4b7b05b73488-source-release.zip"
@@ -945,8 +945,8 @@
 "apache-beam-jupyterlab-sidepanel-v3.0.0": [
 "beam/extensions/jupyterlab-sidepanel/v3.0.0/apache-beam-jupyterlab-sidepanel-v3.0.0-source-release.zip"
 ],
-"apache_beam-2.58.0": [
-"beam/2.58.0/python/apache_beam-2.58.0.tar.gz"
+"apache_beam-2.58.1": [
+"beam/2.58.1/python/apache_beam-2.58.1.tar.gz"
 ]
 },
 "bigtop": {
@@ -4917,14 +4917,8 @@
 ]
 },
 "kafka": {
-"kafka-3.5.2": [
-"kafka/3.5.2/kafka-3.5.2-src.tgz"
-],
 "kafka-3.6.2": [
 "kafka/3.6.2/kafka-3.6.2-src.tgz"
-],
-"kafka-3.7.0": [
-"kafka/3.7.0/kafka-3.7.0-src.tgz"
 ],
 "kafka-3.7.1": [
 "kafka/3.7.1/kafka-3.7.1-src.tgz"
@@ -4932,14 +4926,8 @@
 "kafka-3.8.0": [
 "kafka/3.8.0/kafka-3.8.0-src.tgz"
 ],
-"kafka_2.12-3.5.2": [
-"kafka/3.5.2/kafka_2.12-3.5.2.tgz"
-],
 "kafka_2.12-3.6.2": [
 "kafka/3.6.2/kafka_2.12-3.6.2.tgz"
-],
-"kafka_2.12-3.7.0": [
-"kafka/3.7.0/kafka_2.12-3.7.0.tgz"
 ],
 "kafka_2.12-3.7.1": [
 "kafka/3.7.1/kafka_2.12-3.7.1.tgz"
@@ -4947,14 +4935,8 @@
 "kafka_2.12-3.8.0": [
 "kafka/3.8.0/kafka_2.12-3.8.0.tgz"
 ],
-"kafka_2.13-3.5.2": [
-"kafka/3.5.2/kafka_2.13-3.5.2.tgz"
-],
 "kafka_2.13-3.6.2": [
 "kafka/3.6.2/kafka_2.13-3.6.2.tgz"
-],
-"kafka_2.13-3.7.0": [
-"kafka/3.7.0/kafka_2.13-3.7.0.tgz"
 ],
 "kafka_2.13-3.7.1": [
 "kafka/3.7.1/kafka_2.13-3.7.1.tgz"
@@ -6900,9 +6882,6 @@
 "orc-1.9.4": [
 "orc/orc-1.9.4/orc-1.9.4.tar.gz"
 ],
-"orc-2.0.1": [
-"orc/orc-2.0.1/orc-2.0.1.tar.gz"
-],
 "orc-2.0.2": [
 "orc/orc-2.0.2/orc-2.0.2.tar.gz"
 ],
@@ -7420,6 +7399,9 @@
 ],
 "pulsar-client-reactive-0.5.6": [
 "pulsar/pulsar-client-reactive-0.5.6/pulsar-client-reactive-0.5.6-src.tar.gz"
+],
+"pulsar-client-reactive-0.5.7": [
+"pulsar/pulsar-client-reactive-0.5.7/pulsar-client-reactive-0.5.7-src.tar.gz"
 ],
 "pulsar-dotpulsar-3.3.1": [
 "pulsar/pulsar-dotpulsar-3.3.1/pulsar-dotpulsar-3.3.1-src.tar.gz"

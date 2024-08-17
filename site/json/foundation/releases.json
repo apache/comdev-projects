@@ -252,7 +252,7 @@
 "apache-arrow-nanoarrow-0.3.0": "2023-09-26",
 "apache-arrow-nanoarrow-0.4.0": "2024-01-29",
 "apache-arrow-nanoarrow-0.5.0": "2024-05-22",
-"apache-arrow-object-store-rs-0.10.2": "2024-07-21",
+"apache-arrow-object-store-rs-0.11.0": "2024-08-16",
 "apache-arrow-rs-52.2.0": "2024-07-28"
 },
 "asterixdb": {
@@ -312,7 +312,7 @@
 "beam": {
 "apache-beam-0f52187e344dad9bca4c183fe51151b733b24e35": "2021-03-08",
 "apache-beam-1688ac1374ff02286ba8e59c9379bf7bb5875646": "2022-01-18",
-"apache-beam-2.58.0": "2024-08-07",
+"apache-beam-2.58.1": "2024-08-16",
 "apache-beam-2d08b32e674a1046ba7be0ae5f1e4b7b05b73488": "2024-02-22",
 "apache-beam-37fd13e738185822af132fe2e457b618e766802f": "2021-11-03",
 "apache-beam-52b4a9cb58e486745ded7d53a5b6e2d2312e9551": "2024-01-23",
@@ -324,7 +324,7 @@
 "apache-beam-f2468baf6224127634d0d5ab03a9fdd730bb8dfe": "2022-01-18",
 "apache-beam-jupyterlab-sidepanel-v2.0.0": "2021-10-20",
 "apache-beam-jupyterlab-sidepanel-v3.0.0": "2022-10-11",
-"apache_beam-2.58.0": "2024-08-07"
+"apache_beam-2.58.1": "2024-08-16"
 },
 "bigtop": {
 "bigtop-3.3.0": "2024-06-20"
@@ -1660,19 +1660,13 @@
 "apache-juneau-9.0.1": "2023-09-06"
 },
 "kafka": {
-"kafka-3.5.2": "2023-12-08",
 "kafka-3.6.2": "2024-04-04",
-"kafka-3.7.0": "2024-02-26",
 "kafka-3.7.1": "2024-06-28",
 "kafka-3.8.0": "2024-07-26",
-"kafka_2.12-3.5.2": "2023-12-08",
 "kafka_2.12-3.6.2": "2024-04-04",
-"kafka_2.12-3.7.0": "2024-02-26",
 "kafka_2.12-3.7.1": "2024-06-28",
 "kafka_2.12-3.8.0": "2024-07-26",
-"kafka_2.13-3.5.2": "2023-12-08",
 "kafka_2.13-3.6.2": "2024-04-04",
-"kafka_2.13-3.7.0": "2024-02-26",
 "kafka_2.13-3.7.1": "2024-06-28",
 "kafka_2.13-3.8.0": "2024-07-26"
 },
@@ -2295,7 +2289,6 @@
 "orc-1.7.10": "2023-11-06",
 "orc-1.8.7": "2024-04-10",
 "orc-1.9.4": "2024-07-13",
-"orc-2.0.1": "2024-05-10",
 "orc-2.0.2": "2024-08-11",
 "orc-format-1.0.0": "2024-01-03"
 },
@@ -2481,6 +2474,7 @@
 "pulsar-client-reactive-0.5.4": "2024-04-10",
 "pulsar-client-reactive-0.5.5": "2024-05-15",
 "pulsar-client-reactive-0.5.6": "2024-06-12",
+"pulsar-client-reactive-0.5.7": "2024-08-14",
 "pulsar-dotpulsar-3.3.1": "2024-06-20"
 },
 "qpid": {
