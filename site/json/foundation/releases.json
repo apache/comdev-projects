@@ -618,7 +618,7 @@
 "commons-cli-1.9.0": "2024-08-14",
 "commons-codec-1.17.1": "2024-07-15",
 "commons-collections4-4.5.0-M2": "2024-06-18",
-"commons-compress-1.27.0": "2024-08-08",
+"commons-compress-1.27.1": "2024-08-20",
 "commons-configuration-1.10": "2013-10-28",
 "commons-configuration2-2.11.0": "2024-06-10",
 "commons-crypto-1.2.0": "2023-01-22",
@@ -658,7 +658,7 @@
 "commons-release-plugin-1.8.2": "2024-04-19",
 "commons-rng-1.6": "2024-07-15",
 "commons-scxml-0.9": "2013-03-03",
-"commons-statistics-1.0": "2022-12-06",
+"commons-statistics-1.1": "2024-08-20",
 "commons-text-1.12.0": "2024-04-16",
 "commons-validator-1.9.0": "2024-05-28",
 "commons-vfs-2.9.0": "2021-07-20",
@@ -758,7 +758,8 @@
 "datafusion": {
 "apache-datafusion-41.0.0": "2024-08-11",
 "apache-datafusion-comet-0.1.0": "2024-07-23",
-"apache-datafusion-python-39.0.0": "2024-07-02"
+"apache-datafusion-python-39.0.0": "2024-07-02",
+"apache-datafusion-python-40.1.0": "2024-08-20"
 },
 "datasketches": {
 "apache-datasketches-hive-2.0.0": "2024-07-01",
@@ -1435,7 +1436,6 @@
 "apache-impala-4.1.2": "2023-04-10",
 "apache-impala-4.2.0": "2022-12-08",
 "apache-impala-4.3.0": "2023-10-02",
-"apache-impala-4.4.0": "2024-05-24",
 "apache-impala-4.4.1": "2024-08-19"
 },
 "incubator-amoro": {
@@ -2392,9 +2392,8 @@
 "pig-0.17.0": "2017-06-16"
 },
 "pinot": {
-"apache-pinot-0.12.1": "2023-02-28",
-"apache-pinot-1.0.0": "2023-09-12",
-"apache-pinot-1.1.0": "2024-03-06"
+"apache-pinot-1.1.0": "2024-03-06",
+"apache-pinot-1.2.0": "2024-08-11"
 },
 "pivot": {
 "apache-pivot-2.0.5": "2017-07-08"
