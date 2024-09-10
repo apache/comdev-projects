@@ -1582,6 +1582,11 @@
 "cayenne/4.2.1/cayenne-4.2.1-src.tar.gz",
 "cayenne/4.2.1/cayenne-4.2.1-win.zip",
 "cayenne/4.2.1/cayenne-4.2.1.tar.gz"
+],
+"cayenne-5.0-M1": [
+"cayenne/5.0-M1/cayenne-5.0-M1-src.tar.gz",
+"cayenne/5.0-M1/cayenne-5.0-M1-win.zip",
+"cayenne/5.0-M1/cayenne-5.0-M1.tar.gz"
 ]
 },
 "celeborn": {
@@ -3874,6 +3879,9 @@
 ],
 "helix-1.4.0": [
 "helix/1.4.0/src/helix-1.4.0-src.zip"
+],
+"helix-1.4.1": [
+"helix/1.4.1/src/helix-1.4.1-src.zip"
 ]
 },
 "hive": {
@@ -4435,6 +4443,14 @@
 "incubator-graphar": {
 "apache-graphar-0.12.0-incubating": [
 "incubator/graphar/0.12.0/apache-graphar-0.12.0-incubating-src.tar.gz"
+]
+},
+"incubator-gravitino": {
+"gravitino-0.6.0-incubating": [
+"incubator/gravitino/0.6.0-incubating/gravitino-0.6.0-incubating-src.tar.gz"
+],
+"gravitino-trino-connector-0.6.0-incubating": [
+"incubator/gravitino/0.6.0-incubating/gravitino-trino-connector-0.6.0-incubating.tar.gz"
 ]
 },
 "incubator-hertzbeat": {
@@ -6892,8 +6908,7 @@
 },
 "openwhisk": {
 "OpenWhisk-1.0.0": [
-"openwhisk/20.11/OpenWhisk-1.0.0-sources.tar.gz",
-"openwhisk/OpenWhisk-1.0.0-sources.tar.gz"
+"openwhisk/20.11/OpenWhisk-1.0.0-sources.tar.gz"
 ],
 "OpenWhisk-2.0.0": [
 "openwhisk/OpenWhisk-2.0.0-sources.tar.gz"
@@ -6950,9 +6965,6 @@
 "openwhisk-runtime-docker-1.14.0": [
 "openwhisk/20.11/openwhisk-runtime-docker-1.14.0-sources.tar.gz"
 ],
-"openwhisk-runtime-docker-1.15.0": [
-"openwhisk/openwhisk-runtime-docker-1.15.0-sources.tar.gz"
-],
 "openwhisk-runtime-docker-1.16.0": [
 "openwhisk/openwhisk-runtime-docker-1.16.0-sources.tar.gz"
 ],
@@ -6965,9 +6977,6 @@
 "openwhisk-runtime-go-1.16.0": [
 "openwhisk/20.11/openwhisk-runtime-go-1.16.0-sources.tar.gz"
 ],
-"openwhisk-runtime-go-1.24.0": [
-"openwhisk/openwhisk-runtime-go-1.24.0-sources.tar.gz"
-],
 "openwhisk-runtime-go-1.25.0": [
 "openwhisk/openwhisk-runtime-go-1.25.0-sources.tar.gz"
 ],
@@ -6979,9 +6988,6 @@
 ],
 "openwhisk-runtime-nodejs-1.16.0": [
 "openwhisk/20.11/openwhisk-runtime-nodejs-1.16.0-sources.tar.gz"
-],
-"openwhisk-runtime-nodejs-1.22.0": [
-"openwhisk/openwhisk-runtime-nodejs-1.22.0-sources.tar.gz"
 ],
 "openwhisk-runtime-nodejs-1.23.0": [
 "openwhisk/openwhisk-runtime-nodejs-1.23.0-sources.tar.gz"
@@ -7187,6 +7193,9 @@
 ],
 "apache-pekko-persistence-jdbc-1.1.0-M1-20240603": [
 "pekko/PERSISTENCE-JDBC-1.1.0-M1/apache-pekko-persistence-jdbc-1.1.0-M1-src-20240603.tgz"
+],
+"apache-pekko-projection-1.1.0-M1-20240823": [
+"pekko/PROJECTION-1.1.0-M1/apache-pekko-projection-1.1.0-M1-src-20240823.tgz"
 ]
 },
 "perl": {
@@ -9173,6 +9182,10 @@
 "solr-9.6.1": [
 "solr/solr/9.6.1/solr-9.6.1-src.tgz",
 "solr/solr/9.6.1/solr-9.6.1.tgz"
+],
+"solr-9.7.0": [
+"solr/solr/9.7.0/solr-9.7.0-src.tgz",
+"solr/solr/9.7.0/solr-9.7.0.tgz"
 ],
 "solr-operator-v0.7.1": [
 "solr/solr-operator/v0.7.1/solr-operator-v0.7.1.tgz"
