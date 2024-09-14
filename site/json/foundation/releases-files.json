@@ -2719,11 +2719,11 @@
 "apache-dubbo-3.1.11": [
 "dubbo/3.1.11/apache-dubbo-3.1.11-src.zip"
 ],
-"apache-dubbo-3.2.15": [
-"dubbo/3.2.15/apache-dubbo-3.2.15.zip"
+"apache-dubbo-3.2.16": [
+"dubbo/3.2.16/apache-dubbo-3.2.16.zip"
 ],
-"apache-dubbo-3.3.0-beta.5": [
-"dubbo/3.3.0-beta.5/apache-dubbo-3.3.0-beta.5.zip"
+"apache-dubbo-3.3.0": [
+"dubbo/3.3.0/apache-dubbo-3.3.0.zip"
 ],
 "apache-dubbo-admin-0.4.0": [
 "dubbo/dubbo-admin/0.4.0/apache-dubbo-admin-0.4.0-source-release.zip"
@@ -2965,13 +2965,13 @@
 "felix/org.apache.felix.http.jetty-4.2.26-source-release.tar.gz",
 "felix/org.apache.felix.http.jetty-4.2.26-source-release.zip"
 ],
-"org.apache.felix.http.jetty-5.1.24": [
-"felix/org.apache.felix.http.jetty-5.1.24-source-release.tar.gz",
-"felix/org.apache.felix.http.jetty-5.1.24-source-release.zip"
+"org.apache.felix.http.jetty-5.1.26": [
+"felix/org.apache.felix.http.jetty-5.1.26-source-release.tar.gz",
+"felix/org.apache.felix.http.jetty-5.1.26-source-release.zip"
 ],
-"org.apache.felix.http.jetty12-1.0.14": [
-"felix/org.apache.felix.http.jetty12-1.0.14-source-release.tar.gz",
-"felix/org.apache.felix.http.jetty12-1.0.14-source-release.zip"
+"org.apache.felix.http.jetty12-1.0.16": [
+"felix/org.apache.felix.http.jetty12-1.0.16-source-release.tar.gz",
+"felix/org.apache.felix.http.jetty12-1.0.16-source-release.zip"
 ],
 "org.apache.felix.http.proxy-4.0.0": [
 "felix/org.apache.felix.http.proxy-4.0.0-source-release.tar.gz",
@@ -6982,6 +6982,9 @@
 "openwhisk-runtime-dotnet-1.17.0": [
 "openwhisk/openwhisk-runtime-dotnet-1.17.0-sources.tar.gz"
 ],
+"openwhisk-runtime-dotnet-1.18.0": [
+"openwhisk/openwhisk-runtime-dotnet-1.18.0-sources.tar.gz"
+],
 "openwhisk-runtime-go-1.16.0": [
 "openwhisk/20.11/openwhisk-runtime-go-1.16.0-sources.tar.gz"
 ],
@@ -7047,8 +7050,8 @@
 ]
 },
 "orc": {
-"orc-1.7.10": [
-"orc/orc-1.7.10/orc-1.7.10.tar.gz"
+"orc-1.7.11": [
+"orc/orc-1.7.11/orc-1.7.11.tar.gz"
 ],
 "orc-1.8.7": [
 "orc/orc-1.8.7/orc-1.8.7.tar.gz"
@@ -7105,6 +7108,9 @@
 ],
 "apache-paimon-0.8.2": [
 "paimon/paimon-0.8.2/apache-paimon-0.8.2-src.tgz"
+],
+"apache-paimon-0.9.0": [
+"paimon/paimon-0.9.0/apache-paimon-0.9.0-src.tgz"
 ],
 "apache-paimon-shade-0.4.0-incubating": [
 "paimon/paimon-0.4.0-incubating/apache-paimon-shade-0.4.0-incubating-src.tgz"
@@ -7180,6 +7186,9 @@
 ],
 "apache-pekko-1.1.0-20240828": [
 "pekko/1.1.0/apache-pekko-1.1.0-src-20240828.tgz"
+],
+"apache-pekko-1.1.1-20240909": [
+"pekko/1.1.1/apache-pekko-1.1.1-src-20240909.tgz"
 ],
 "apache-pekko-connectors-1.1.0-M1-20240704": [
 "pekko/CONNECTORS-1.1.0-M1/apache-pekko-connectors-1.1.0-M1-src-20240704.tgz"
@@ -7512,6 +7521,9 @@
 ],
 "apache-pulsar-client-node-1.11.1": [
 "pulsar/pulsar-client-node/pulsar-client-node-1.11.1/apache-pulsar-client-node-1.11.1.tar.gz"
+],
+"apache-pulsar-client-node-1.12.0": [
+"pulsar/pulsar-client-node/pulsar-client-node-1.12.0/apache-pulsar-client-node-1.12.0.tar.gz"
 ],
 "apache-pulsar-manager-0.3.0": [
 "pulsar/pulsar-manager-0.3.0/apache-pulsar-manager-0.3.0-src.tar.gz"
@@ -8188,8 +8200,14 @@
 "apache-skywalking-satellite-1.2.0": [
 "skywalking/satellite/1.2.0/apache-skywalking-satellite-1.2.0-src.tgz"
 ],
-"skywalking-banyandb-0.6.1": [
-"skywalking/banyandb/0.6.1/skywalking-banyandb-0.6.1-src.tgz"
+"skywalking-banyandb-0.7.0-rc0": [
+"skywalking/banyandb/0.7.0-rc0/skywalking-banyandb-0.7.0-rc0-src.tgz"
+],
+"skywalking-banyandb-0.7.0-rc0-banyand": [
+"skywalking/banyandb/0.7.0-rc0/skywalking-banyandb-0.7.0-rc0-banyand.tgz"
+],
+"skywalking-banyandb-0.7.0-rc0-bydbctl": [
+"skywalking/banyandb/0.7.0-rc0/skywalking-banyandb-0.7.0-rc0-bydbctl.tgz"
 ],
 "skywalking-banyandb-helm-0.1.0": [
 "skywalking/banyandb-helm/skywalking-banyandb-helm-0.1.0-src.tgz",
