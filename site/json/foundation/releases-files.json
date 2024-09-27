@@ -1541,11 +1541,11 @@
 "apache-cassandra-3.11.17": [
 "cassandra/3.11.17/apache-cassandra-3.11.17-src.tar.gz"
 ],
-"apache-cassandra-4.0.13": [
-"cassandra/4.0.13/apache-cassandra-4.0.13-src.tar.gz"
+"apache-cassandra-4.0.14": [
+"cassandra/4.0.14/apache-cassandra-4.0.14-src.tar.gz"
 ],
-"apache-cassandra-4.1.6": [
-"cassandra/4.1.6/apache-cassandra-4.1.6-src.tar.gz"
+"apache-cassandra-4.1.7": [
+"cassandra/4.1.7/apache-cassandra-4.1.7-src.tar.gz"
 ],
 "apache-cassandra-5.0.0": [
 "cassandra/5.0.0/apache-cassandra-5.0.0-src.tar.gz"
@@ -2176,14 +2176,14 @@
 "apache-couchdb-3.2.3": [
 "couchdb/source/3.2.3/apache-couchdb-3.2.3.tar.gz"
 ],
-"apache-couchdb-3.3.2": [
-"couchdb/source/3.3.2/apache-couchdb-3.3.2.tar.gz"
-],
 "apache-couchdb-3.3.3": [
 "couchdb/source/3.3.3/apache-couchdb-3.3.3.tar.gz"
 ],
 "apache-couchdb-3.4.0": [
 "couchdb/source/3.4.0/apache-couchdb-3.4.0.tar.gz"
+],
+"apache-couchdb-3.4.1": [
+"couchdb/source/3.4.1/apache-couchdb-3.4.1.tar.gz"
 ]
 },
 "creadur": {
@@ -2207,9 +2207,6 @@
 ]
 },
 "curator": {
-"apache-curator-5.6.0": [
-"curator/5.6.0/apache-curator-5.6.0-source-release.zip"
-],
 "apache-curator-5.7.0": [
 "curator/5.7.0/apache-curator-5.7.0-source-release.zip"
 ]
@@ -2316,11 +2313,17 @@
 "apache-datasketches-python-5.0.2": [
 "datasketches/python/5.0.2/apache-datasketches-python-5.0.2-src.zip"
 ],
+"apache-datasketches-python-5.1.0": [
+"datasketches/python/5.1.0/apache-datasketches-python-5.1.0-src.zip"
+],
 "datasketches-1.7.0": [
 "datasketches/postgresql/1.7.0/pgxn.org/datasketches-1.7.0.zip"
 ],
 "datasketches-5.0.2": [
 "datasketches/python/5.0.2/pypi/datasketches-5.0.2.tar.gz"
+],
+"datasketches-5.1.0": [
+"datasketches/python/5.1.0/pypi/datasketches-5.1.0.tar.gz"
 ]
 },
 "db": {
@@ -5531,6 +5534,10 @@
 "manifoldcf/apache-manifoldcf-2.26/apache-manifoldcf-2.26-src.tar.gz",
 "manifoldcf/apache-manifoldcf-2.26/apache-manifoldcf-2.26-src.zip"
 ],
+"apache-manifoldcf-2.27": [
+"manifoldcf/apache-manifoldcf-2.27/apache-manifoldcf-2.27-src.tar.gz",
+"manifoldcf/apache-manifoldcf-2.27/apache-manifoldcf-2.27-src.zip"
+],
 "apache-manifoldcf-elasticsearch-1.5-plugin-2.0.2": [
 "manifoldcf/apache-manifoldcf-elasticsearch-1.5-plugin-2.0.2/apache-manifoldcf-elasticsearch-1.5-plugin-2.0.2-src.tar.gz",
 "manifoldcf/apache-manifoldcf-elasticsearch-1.5-plugin-2.0.2/apache-manifoldcf-elasticsearch-1.5-plugin-2.0.2-src.zip"
@@ -5682,8 +5689,8 @@
 "maven-antrun-plugin-3.1.0": [
 "maven/plugins/maven-antrun-plugin-3.1.0-source-release.zip"
 ],
-"maven-archetype-3.2.1": [
-"maven/archetype/maven-archetype-3.2.1-source-release.zip"
+"maven-archetype-3.3.0": [
+"maven/archetype/maven-archetype-3.3.0-source-release.zip"
 ],
 "maven-archetype-bundles-1.5": [
 "maven/archetype/maven-archetype-bundles-1.5-source-release.zip"
@@ -7792,6 +7799,9 @@
 ],
 "apache-ratis-3.1.0": [
 "ratis/3.1.0/apache-ratis-3.1.0-src.tar.gz"
+],
+"apache-ratis-3.1.1": [
+"ratis/3.1.1/apache-ratis-3.1.1-src.tar.gz"
 ],
 "apache-ratis-incubating-1.0.0": [
 "ratis/1.0.0/apache-ratis-incubating-1.0.0-src.tar.gz"
