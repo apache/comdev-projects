@@ -198,8 +198,8 @@
 "apache_airflow_providers_common_io-1.4.1": [
 "airflow/providers/apache_airflow_providers_common_io-1.4.1.tar.gz"
 ],
-"apache_airflow_providers_common_sql-1.17.0": [
-"airflow/providers/apache_airflow_providers_common_sql-1.17.0.tar.gz"
+"apache_airflow_providers_common_sql-1.17.1": [
+"airflow/providers/apache_airflow_providers_common_sql-1.17.1.tar.gz"
 ],
 "apache_airflow_providers_daskexecutor-1.1.1": [
 "airflow/providers/apache_airflow_providers_daskexecutor-1.1.1.tar.gz"
@@ -294,8 +294,8 @@
 "apache_airflow_providers_openfaas-3.6.0": [
 "airflow/providers/apache_airflow_providers_openfaas-3.6.0.tar.gz"
 ],
-"apache_airflow_providers_openlineage-1.12.0": [
-"airflow/providers/apache_airflow_providers_openlineage-1.12.0.tar.gz"
+"apache_airflow_providers_openlineage-1.12.1": [
+"airflow/providers/apache_airflow_providers_openlineage-1.12.1.tar.gz"
 ],
 "apache_airflow_providers_opensearch-1.4.0": [
 "airflow/providers/apache_airflow_providers_opensearch-1.4.0.tar.gz"
@@ -1550,8 +1550,8 @@
 "apache-cassandra-4.1.7": [
 "cassandra/4.1.7/apache-cassandra-4.1.7-src.tar.gz"
 ],
-"apache-cassandra-5.0.0": [
-"cassandra/5.0.0/apache-cassandra-5.0.0-src.tar.gz"
+"apache-cassandra-5.0.1": [
+"cassandra/5.0.1/apache-cassandra-5.0.1-src.tar.gz"
 ],
 "apache-cassandra-java-driver-4.18.1": [
 "cassandra/cassandra-java-driver/4.18.1/apache-cassandra-java-driver-4.18.1-source.tar.gz",
@@ -3998,11 +3998,8 @@
 "hc-stylecheck-3": [
 "httpcomponents/httpcomponents-stylecheck/hc-stylecheck-3-source.zip"
 ],
-"httpcomponents-12": [
-"httpcomponents/httpcomponents-parent/httpcomponents-parent-12-source-release.zip"
-],
-"httpcomponents-13": [
-"httpcomponents/httpcomponents-parent/httpcomponents-parent-13-source-release.zip"
+"httpcomponents-14": [
+"httpcomponents/httpcomponents-parent/httpcomponents-parent-14-source.zip"
 ],
 "httpcomponents-asyncclient-4.1.4": [
 "httpcomponents/httpasyncclient/source/httpcomponents-asyncclient-4.1.4-src.tar.gz",
@@ -4012,10 +4009,6 @@
 "httpcomponents/httpasyncclient/source/httpcomponents-asyncclient-4.1.5-src.tar.gz",
 "httpcomponents/httpasyncclient/source/httpcomponents-asyncclient-4.1.5-src.zip"
 ],
-"httpcomponents-client-4.5.13": [
-"httpcomponents/httpclient/source/httpcomponents-client-4.5.13-src.tar.gz",
-"httpcomponents/httpclient/source/httpcomponents-client-4.5.13-src.zip"
-],
 "httpcomponents-client-4.5.14": [
 "httpcomponents/httpclient/source/httpcomponents-client-4.5.14-src.tar.gz",
 "httpcomponents/httpclient/source/httpcomponents-client-4.5.14-src.zip"
@@ -4024,41 +4017,13 @@
 "httpcomponents/httpclient/source/httpcomponents-client-5.0.4-src.tar.gz",
 "httpcomponents/httpclient/source/httpcomponents-client-5.0.4-src.zip"
 ],
-"httpcomponents-client-5.1.3": [
-"httpcomponents/httpclient/source/httpcomponents-client-5.1.3-src.tar.gz",
-"httpcomponents/httpclient/source/httpcomponents-client-5.1.3-src.zip"
-],
 "httpcomponents-client-5.1.4": [
 "httpcomponents/httpclient/source/httpcomponents-client-5.1.4-src.tar.gz",
 "httpcomponents/httpclient/source/httpcomponents-client-5.1.4-src.zip"
 ],
-"httpcomponents-client-5.2": [
-"httpcomponents/httpclient/source/httpcomponents-client-5.2-src.tar.gz",
-"httpcomponents/httpclient/source/httpcomponents-client-5.2-src.zip"
-],
-"httpcomponents-client-5.2-beta1": [
-"httpcomponents/httpclient/source/httpcomponents-client-5.2-beta1-src.tar.gz",
-"httpcomponents/httpclient/source/httpcomponents-client-5.2-beta1-src.zip"
-],
-"httpcomponents-client-5.2.1": [
-"httpcomponents/httpclient/source/httpcomponents-client-5.2.1-src.tar.gz",
-"httpcomponents/httpclient/source/httpcomponents-client-5.2.1-src.zip"
-],
-"httpcomponents-client-5.2.2": [
-"httpcomponents/httpclient/source/httpcomponents-client-5.2.2-src.tar.gz",
-"httpcomponents/httpclient/source/httpcomponents-client-5.2.2-src.zip"
-],
 "httpcomponents-client-5.2.3": [
 "httpcomponents/httpclient/source/httpcomponents-client-5.2.3-src.tar.gz",
 "httpcomponents/httpclient/source/httpcomponents-client-5.2.3-src.zip"
-],
-"httpcomponents-client-5.3": [
-"httpcomponents/httpclient/source/httpcomponents-client-5.3-src.tar.gz",
-"httpcomponents/httpclient/source/httpcomponents-client-5.3-src.zip"
-],
-"httpcomponents-client-5.3-alpha1": [
-"httpcomponents/httpclient/source/httpcomponents-client-5.3-alpha1-src.tar.gz",
-"httpcomponents/httpclient/source/httpcomponents-client-5.3-alpha1-src.zip"
 ],
 "httpcomponents-client-5.3.1": [
 "httpcomponents/httpclient/source/httpcomponents-client-5.3.1-src.tar.gz",
@@ -4068,25 +4033,9 @@
 "httpcomponents/httpclient/source/httpcomponents-client-5.4-src.tar.gz",
 "httpcomponents/httpclient/source/httpcomponents-client-5.4-src.zip"
 ],
-"httpcomponents-client-5.4-alpha1": [
-"httpcomponents/httpclient/source/httpcomponents-client-5.4-alpha1-src.tar.gz",
-"httpcomponents/httpclient/source/httpcomponents-client-5.4-alpha1-src.zip"
-],
-"httpcomponents-client-5.4-alpha2": [
-"httpcomponents/httpclient/source/httpcomponents-client-5.4-alpha2-src.tar.gz",
-"httpcomponents/httpclient/source/httpcomponents-client-5.4-alpha2-src.zip"
-],
-"httpcomponents-client-5.4-beta1": [
-"httpcomponents/httpclient/source/httpcomponents-client-5.4-beta1-src.tar.gz",
-"httpcomponents/httpclient/source/httpcomponents-client-5.4-beta1-src.zip"
-],
 "httpcomponents-client-android-4.3.5.1": [
 "httpcomponents/httpclient-android/source/httpcomponents-client-android-4.3.5.1-src.tar.gz",
 "httpcomponents/httpclient-android/source/httpcomponents-client-android-4.3.5.1-src.zip"
-],
-"httpcomponents-core-4.4.15": [
-"httpcomponents/httpcore/source/httpcomponents-core-4.4.15-src.tar.gz",
-"httpcomponents/httpcore/source/httpcomponents-core-4.4.15-src.zip"
 ],
 "httpcomponents-core-4.4.16": [
 "httpcomponents/httpcore/source/httpcomponents-core-4.4.16-src.tar.gz",
@@ -4096,37 +4045,9 @@
 "httpcomponents/httpcore/source/httpcomponents-core-5.0.4-src.tar.gz",
 "httpcomponents/httpcore/source/httpcomponents-core-5.0.4-src.zip"
 ],
-"httpcomponents-core-5.1.4": [
-"httpcomponents/httpcore/source/httpcomponents-core-5.1.4-src.tar.gz",
-"httpcomponents/httpcore/source/httpcomponents-core-5.1.4-src.zip"
-],
 "httpcomponents-core-5.1.5": [
 "httpcomponents/httpcore/source/httpcomponents-core-5.1.5-src.tar.gz",
 "httpcomponents/httpcore/source/httpcomponents-core-5.1.5-src.zip"
-],
-"httpcomponents-core-5.2": [
-"httpcomponents/httpcore/source/httpcomponents-core-5.2-src.tar.gz",
-"httpcomponents/httpcore/source/httpcomponents-core-5.2-src.zip"
-],
-"httpcomponents-core-5.2-beta2": [
-"httpcomponents/httpcore/source/httpcomponents-core-5.2-beta2-src.tar.gz",
-"httpcomponents/httpcore/source/httpcomponents-core-5.2-beta2-src.zip"
-],
-"httpcomponents-core-5.2.1": [
-"httpcomponents/httpcore/source/httpcomponents-core-5.2.1-src.tar.gz",
-"httpcomponents/httpcore/source/httpcomponents-core-5.2.1-src.zip"
-],
-"httpcomponents-core-5.2.2": [
-"httpcomponents/httpcore/source/httpcomponents-core-5.2.2-src.tar.gz",
-"httpcomponents/httpcore/source/httpcomponents-core-5.2.2-src.zip"
-],
-"httpcomponents-core-5.2.3": [
-"httpcomponents/httpcore/source/httpcomponents-core-5.2.3-src.tar.gz",
-"httpcomponents/httpcore/source/httpcomponents-core-5.2.3-src.zip"
-],
-"httpcomponents-core-5.2.4": [
-"httpcomponents/httpcore/source/httpcomponents-core-5.2.4-src.tar.gz",
-"httpcomponents/httpcore/source/httpcomponents-core-5.2.4-src.zip"
 ],
 "httpcomponents-core-5.2.5": [
 "httpcomponents/httpcore/source/httpcomponents-core-5.2.5-src.tar.gz",
@@ -4135,18 +4056,6 @@
 "httpcomponents-core-5.3": [
 "httpcomponents/httpcore/source/httpcomponents-core-5.3-src.tar.gz",
 "httpcomponents/httpcore/source/httpcomponents-core-5.3-src.zip"
-],
-"httpcomponents-core-5.3-alpha1": [
-"httpcomponents/httpcore/source/httpcomponents-core-5.3-alpha1-src.tar.gz",
-"httpcomponents/httpcore/source/httpcomponents-core-5.3-alpha1-src.zip"
-],
-"httpcomponents-core-5.3-alpha2": [
-"httpcomponents/httpcore/source/httpcomponents-core-5.3-alpha2-src.tar.gz",
-"httpcomponents/httpcore/source/httpcomponents-core-5.3-alpha2-src.zip"
-],
-"httpcomponents-core-5.3-beta1": [
-"httpcomponents/httpcore/source/httpcomponents-core-5.3-beta1-src.tar.gz",
-"httpcomponents/httpcore/source/httpcomponents-core-5.3-beta1-src.zip"
 ]
 },
 "httpd": {
@@ -4791,6 +4700,9 @@
 "filevault-package-maven-plugin-1.3.6": [
 "jackrabbit/filevault-package-maven-plugin/1.3.6/filevault-package-maven-plugin-1.3.6-source-release.zip"
 ],
+"filevault-package-maven-plugin-1.4.0": [
+"jackrabbit/filevault-package-maven-plugin/1.4.0/filevault-package-maven-plugin-1.4.0-source-release.zip"
+],
 "jackrabbit-2.14.10": [
 "jackrabbit/2.14.10/jackrabbit-2.14.10-src.zip"
 ],
@@ -4827,8 +4739,8 @@
 "jackrabbit-oak-1.6.23": [
 "jackrabbit/oak/1.6.23/jackrabbit-oak-1.6.23-src.zip"
 ],
-"jackrabbit-oak-1.68.0": [
-"jackrabbit/oak/1.68.0/jackrabbit-oak-1.68.0-src.zip"
+"jackrabbit-oak-1.70.0": [
+"jackrabbit/oak/1.70.0/jackrabbit-oak-1.70.0-src.zip"
 ],
 "jackrabbit-oak-1.8.26": [
 "jackrabbit/oak/1.8.26/jackrabbit-oak-1.8.26-src.zip"
@@ -5671,8 +5583,8 @@
 "apache-resource-bundles-1.7": [
 "maven/resources/apache-resource-bundles-1.7-source-release.zip"
 ],
-"doxia-2.0.0-M12": [
-"maven/doxia/doxia-2.0.0-M12-source-release.zip"
+"doxia-2.0.0": [
+"maven/doxia/doxia-2.0.0-source-release.zip"
 ],
 "doxia-converter-1.3": [
 "maven/doxia/doxia-converter-1.3-source-release.zip"
@@ -5779,8 +5691,8 @@
 "maven-filtering-4.0.0-beta-1": [
 "maven/shared/maven-filtering-4.0.0-beta-1-source-release.zip"
 ],
-"maven-fluido-skin-2.0.0-M10": [
-"maven/skins/maven-fluido-skin-2.0.0-M10-source-release.zip"
+"maven-fluido-skin-2.0.0-M11": [
+"maven/skins/maven-fluido-skin-2.0.0-M11-source-release.zip"
 ],
 "maven-gpg-plugin-3.2.7": [
 "maven/plugins/maven-gpg-plugin-3.2.7-source-release.zip"
@@ -5818,8 +5730,8 @@
 "maven-jarsigner-plugin-3.1.0": [
 "maven/plugins/maven-jarsigner-plugin-3.1.0-source-release.zip"
 ],
-"maven-javadoc-plugin-3.10.0": [
-"maven/plugins/maven-javadoc-plugin-3.10.0-source-release.zip"
+"maven-javadoc-plugin-3.10.1": [
+"maven/plugins/maven-javadoc-plugin-3.10.1-source-release.zip"
 ],
 "maven-jdeprscan-plugin-3.0.0-alpha-1": [
 "maven/plugins/maven-jdeprscan-plugin-3.0.0-alpha-1-source-release.zip"
@@ -7086,9 +6998,6 @@
 "openwhisk-runtime-java-1.15.0": [
 "openwhisk/20.11/openwhisk-runtime-java-1.15.0-sources.tar.gz"
 ],
-"openwhisk-runtime-java-1.19.0": [
-"openwhisk/openwhisk-runtime-java-1.19.0-sources.tar.gz"
-],
 "openwhisk-runtime-java-1.20.0": [
 "openwhisk/openwhisk-runtime-java-1.20.0-sources.tar.gz"
 ],
@@ -7101,17 +7010,11 @@
 "openwhisk-runtime-php-1.15.0": [
 "openwhisk/20.11/openwhisk-runtime-php-1.15.0-sources.tar.gz"
 ],
-"openwhisk-runtime-php-1.20.0": [
-"openwhisk/openwhisk-runtime-php-1.20.0-sources.tar.gz"
-],
 "openwhisk-runtime-php-1.21.0": [
 "openwhisk/openwhisk-runtime-php-1.21.0-sources.tar.gz"
 ],
 "openwhisk-runtime-python-1.15.0": [
 "openwhisk/20.11/openwhisk-runtime-python-1.15.0-sources.tar.gz"
-],
-"openwhisk-runtime-python-1.19.0": [
-"openwhisk/openwhisk-runtime-python-1.19.0-sources.tar.gz"
 ],
 "openwhisk-runtime-python-1.20.0": [
 "openwhisk/openwhisk-runtime-python-1.20.0-sources.tar.gz"
@@ -7130,9 +7033,6 @@
 ],
 "openwhisk-runtime-swift-1.15.0": [
 "openwhisk/20.11/openwhisk-runtime-swift-1.15.0-sources.tar.gz"
-],
-"openwhisk-runtime-swift-1.18.0": [
-"openwhisk/openwhisk-runtime-swift-1.18.0-sources.tar.gz"
 ],
 "openwhisk-runtime-swift-1.19.0": [
 "openwhisk/openwhisk-runtime-swift-1.19.0-sources.tar.gz"
@@ -7293,6 +7193,9 @@
 ],
 "apache-pekko-connectors-1.1.0-M1-20240704": [
 "pekko/CONNECTORS-1.1.0-M1/apache-pekko-connectors-1.1.0-M1-src-20240704.tgz"
+],
+"apache-pekko-connectors-kafka-1.1.0-20240916": [
+"pekko/CONNECTORS-KAFKA-1.1.0/apache-pekko-connectors-kafka-1.1.0-src-20240916.tgz"
 ],
 "apache-pekko-connectors-kafka-1.1.0-M1-20240614": [
 "pekko/CONNECTORS-KAFKA-1.1.0-M1/apache-pekko-connectors-kafka-1.1.0-M1-src-20240614.tgz"
