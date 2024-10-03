@@ -29,8 +29,8 @@
 "Apache.NMS.ActiveMQ-2.1.0": [
 "activemq/apache-nms-activemq/2.1.0/Apache.NMS.ActiveMQ-2.1.0-src.zip"
 ],
-"activemq-5.18.5": [
-"activemq/5.18.5/activemq-parent-5.18.5-source-release.zip"
+"activemq-5.18.6": [
+"activemq/5.18.6/activemq-parent-5.18.6-source-release.zip"
 ],
 "activemq-6.1.3": [
 "activemq/6.1.3/activemq-parent-6.1.3-source-release.zip"
@@ -3912,6 +3912,9 @@
 "apache-hive-4.0.0": [
 "hive/hive-4.0.0/apache-hive-4.0.0-src.tar.gz"
 ],
+"apache-hive-4.0.1": [
+"hive/hive-4.0.1/apache-hive-4.0.1-src.tar.gz"
+],
 "hive-metastore-3.0.0": [
 "hive/hive-standalone-metastore-3.0.0/hive-standalone-metastore-3.0.0-src.tar.gz"
 ],
@@ -5993,6 +5996,12 @@
 "mina/sshd/2.13.2/apache-sshd-2.13.2.tar.gz",
 "mina/sshd/2.13.2/apache-sshd-2.13.2.zip"
 ],
+"apache-sshd-2.14.0": [
+"mina/sshd/2.14.0/apache-sshd-2.14.0-src.tar.gz",
+"mina/sshd/2.14.0/apache-sshd-2.14.0-src.zip",
+"mina/sshd/2.14.0/apache-sshd-2.14.0.tar.gz",
+"mina/sshd/2.14.0/apache-sshd-2.14.0.zip"
+],
 "apache-sshd-2.9.2": [
 "mina/sshd/2.9.2/apache-sshd-2.9.2-src.tar.gz",
 "mina/sshd/2.9.2/apache-sshd-2.9.2-src.zip",
@@ -7197,9 +7206,6 @@
 "apache-pekko-connectors-kafka-1.1.0-20240916": [
 "pekko/CONNECTORS-KAFKA-1.1.0/apache-pekko-connectors-kafka-1.1.0-src-20240916.tgz"
 ],
-"apache-pekko-connectors-kafka-1.1.0-M1-20240614": [
-"pekko/CONNECTORS-KAFKA-1.1.0-M1/apache-pekko-connectors-kafka-1.1.0-M1-src-20240614.tgz"
-],
 "apache-pekko-grpc-1.1.0-M1-20240529": [
 "pekko/GRPC-1.1.0-M1/apache-pekko-grpc-1.1.0-M1-src-20240529.tgz"
 ],
@@ -7870,10 +7876,6 @@
 "apache-roller-6.1.3": [
 "roller/roller-6.1/v6.1.3/apache-roller-6.1.3-source.tar.gz",
 "roller/roller-6.1/v6.1.3/apache-roller-6.1.3-source.zip"
-],
-"apache-roller-6.1.4": [
-"roller/roller-6.1/v6.1.4/apache-roller-6.1.4-source.tar.gz",
-"roller/roller-6.1/v6.1.4/apache-roller-6.1.4-source.zip"
 ]
 },
 "royale": {
