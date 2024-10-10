@@ -1217,6 +1217,9 @@
 "apache-camel-k-runtime-2.16.0": [
 "camel/camel-k-runtime/2.16.0/apache-camel-k-runtime-2.16.0-source-release.zip"
 ],
+"apache-camel-k-runtime-3.15.0": [
+"camel/camel-k-runtime/3.15.0/apache-camel-k-runtime-3.15.0-source-release.zip"
+],
 "apache-camel-k-runtime-3.2.0": [
 "camel/camel-k-runtime/3.2.0/apache-camel-k-runtime-3.2.0-source-release.zip"
 ],
@@ -1826,9 +1829,9 @@
 "commons/bsf/source/bsf-3.1-src.tar.gz",
 "commons/bsf/source/bsf-3.1-src.zip"
 ],
-"commons-76": [
-"commons/parent/source/commons-parent-76-src.tar.gz",
-"commons/parent/source/commons-parent-76-src.zip"
+"commons-77": [
+"commons/parent/source/commons-parent-77-src.tar.gz",
+"commons/parent/source/commons-parent-77-src.zip"
 ],
 "commons-beanutils-1.9.4": [
 "commons/beanutils/source/commons-beanutils-1.9.4-src.tar.gz",
@@ -2747,8 +2750,8 @@
 "apache-dubbo-3.2.16": [
 "dubbo/3.2.16/apache-dubbo-3.2.16.zip"
 ],
-"apache-dubbo-3.3.0": [
-"dubbo/3.3.0/apache-dubbo-3.3.0.zip"
+"apache-dubbo-3.3.1": [
+"dubbo/3.3.1/apache-dubbo-3.3.1.zip"
 ],
 "apache-dubbo-admin-0.4.0": [
 "dubbo/dubbo-admin/0.4.0/apache-dubbo-admin-0.4.0-source-release.zip"
@@ -5602,8 +5605,8 @@
 "doxia-converter-1.3": [
 "maven/doxia/doxia-converter-1.3-source-release.zip"
 ],
-"doxia-sitetools-2.0.0-M19": [
-"maven/doxia/doxia-sitetools-2.0.0-M19-source-release.zip"
+"doxia-sitetools-2.0.0": [
+"maven/doxia/doxia-sitetools-2.0.0-source-release.zip"
 ],
 "enforcer-3.5.0": [
 "maven/enforcer/enforcer-3.5.0-source-release.zip"
@@ -7808,6 +7811,9 @@
 "rocketmq-all-5.3.0": [
 "rocketmq/5.3.0/rocketmq-all-5.3.0-source-release.zip"
 ],
+"rocketmq-all-5.3.1": [
+"rocketmq/5.3.1/rocketmq-all-5.3.1-source-release.zip"
+],
 "rocketmq-client-cpp-2.1.0": [
 "rocketmq/rocketmq-client-cpp/2.1.0/rocketmq-client-cpp-2.1.0-source-release.tar.gz"
 ],
@@ -7904,6 +7910,10 @@
 "apache-roller-6.1.3": [
 "roller/roller-6.1/v6.1.3/apache-roller-6.1.3-source.tar.gz",
 "roller/roller-6.1/v6.1.3/apache-roller-6.1.3-source.zip"
+],
+"apache-roller-6.1.4": [
+"roller/roller-6.1/v6.1.4/apache-roller-6.1.4-source.tar.gz",
+"roller/roller-6.1/v6.1.4/apache-roller-6.1.4-source.zip"
 ]
 },
 "royale": {
@@ -9600,9 +9610,13 @@
 ]
 },
 "tomcat": {
-"apache-tomcat-10.1.30": [
-"tomcat/tomcat-10/v10.1.30/src/apache-tomcat-10.1.30-src.tar.gz",
-"tomcat/tomcat-10/v10.1.30/src/apache-tomcat-10.1.30-src.zip"
+"apache-tomcat-10.1.31": [
+"tomcat/tomcat-10/v10.1.31/src/apache-tomcat-10.1.31-src.tar.gz",
+"tomcat/tomcat-10/v10.1.31/src/apache-tomcat-10.1.31-src.zip"
+],
+"apache-tomcat-11.0.0": [
+"tomcat/tomcat-11/v11.0.0/src/apache-tomcat-11.0.0-src.tar.gz",
+"tomcat/tomcat-11/v11.0.0/src/apache-tomcat-11.0.0-src.zip"
 ],
 "apache-tomcat-11.0.0-M26": [
 "tomcat/tomcat-11/v11.0.0-M26/src/apache-tomcat-11.0.0-M26-src.tar.gz",
@@ -10331,21 +10345,21 @@
 ]
 },
 "xmlgraphics": {
-"batik-1.17": [
-"xmlgraphics/batik/source/batik-src-1.17.tar.gz",
-"xmlgraphics/batik/source/batik-src-1.17.zip"
+"batik-1.18": [
+"xmlgraphics/batik/source/batik-src-1.18.tar.gz",
+"xmlgraphics/batik/source/batik-src-1.18.zip"
 ],
-"fop-2.9": [
-"xmlgraphics/fop/source/fop-2.9-src.tar.gz",
-"xmlgraphics/fop/source/fop-2.9-src.zip"
+"fop-2.10": [
+"xmlgraphics/fop/source/fop-2.10-src.tar.gz",
+"xmlgraphics/fop/source/fop-2.10-src.zip"
 ],
-"fop-pdf-images-2.9": [
-"xmlgraphics/fop-pdf-images/source/fop-pdf-images-2.9-src.tar.gz",
-"xmlgraphics/fop-pdf-images/source/fop-pdf-images-2.9-src.zip"
+"fop-pdf-images-2.10": [
+"xmlgraphics/fop-pdf-images/source/fop-pdf-images-2.10-src.tar.gz",
+"xmlgraphics/fop-pdf-images/source/fop-pdf-images-2.10-src.zip"
 ],
-"xmlgraphics-commons-2.9": [
-"xmlgraphics/commons/source/xmlgraphics-commons-2.9-src.tar.gz",
-"xmlgraphics/commons/source/xmlgraphics-commons-2.9-src.zip"
+"xmlgraphics-commons-2.10": [
+"xmlgraphics/commons/source/xmlgraphics-commons-2.10-src.tar.gz",
+"xmlgraphics/commons/source/xmlgraphics-commons-2.10-src.zip"
 ]
 },
 "yetus": {
