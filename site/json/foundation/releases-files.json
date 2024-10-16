@@ -1128,6 +1128,9 @@
 "apache-calcite-1.37.0": [
 "calcite/apache-calcite-1.37.0/apache-calcite-1.37.0-src.tar.gz"
 ],
+"apache-calcite-1.38.0": [
+"calcite/apache-calcite-1.38.0/apache-calcite-1.38.0-src.tar.gz"
+],
 "apache-calcite-avatica-1.24.0": [
 "calcite/apache-calcite-avatica-1.24.0/apache-calcite-avatica-1.24.0-src.tar.gz"
 ],
@@ -1673,6 +1676,9 @@
 "apache-cloudstack-4.18.2.3": [
 "cloudstack/releases/4.18.2.3/apache-cloudstack-4.18.2.3-src.tar.bz2"
 ],
+"apache-cloudstack-4.18.2.4": [
+"cloudstack/releases/4.18.2.4/apache-cloudstack-4.18.2.4-src.tar.bz2"
+],
 "apache-cloudstack-4.19.0.1": [
 "cloudstack/releases/4.19.0.1/apache-cloudstack-4.19.0.1-src.tar.bz2"
 ],
@@ -1684,6 +1690,9 @@
 ],
 "apache-cloudstack-4.19.1.1": [
 "cloudstack/releases/4.19.1.1/apache-cloudstack-4.19.1.1-src.tar.bz2"
+],
+"apache-cloudstack-4.19.1.2": [
+"cloudstack/releases/4.19.1.2/apache-cloudstack-4.19.1.2-src.tar.bz2"
 ],
 "apache-cloudstack-cloudmonkey-6.4.0": [
 "cloudstack/releases/cloudmonkey-6.4.0/apache-cloudstack-cloudmonkey-6.4.0-src.tar.bz2"
@@ -2576,6 +2585,9 @@
 "apache-doris-3.0.0": [
 "doris/3.0/3.0.0-rc11/apache-doris-3.0.0-src.tar.gz"
 ],
+"apache-doris-3.0.2": [
+"doris/3.0/3.0.2-rc03/apache-doris-3.0.2-src.tar.gz"
+],
 "apache-doris-flink-connector-1.11_2.12-1.0.3-incubating": [
 "doris/flink-connector/1.0.3/apache-doris-flink-connector-1.11_2.12-1.0.3-incubating-src.tar.gz"
 ],
@@ -2638,6 +2650,9 @@
 ],
 "apache-doris-flink-connector-24.0.0": [
 "doris/flink-connector/24.0.0/apache-doris-flink-connector-24.0.0-src.tar.gz"
+],
+"apache-doris-flink-connector-24.0.1": [
+"doris/flink-connector/24.0.1/apache-doris-flink-connector-24.0.1-src.tar.gz"
 ],
 "apache-doris-kafka-connector-1.0.0": [
 "doris/kafka-connector/1.0.0-rc01/apache-doris-kafka-connector-1.0.0-src.tar.gz"
@@ -4887,8 +4902,8 @@
 ]
 },
 "jena": {
-"jena-5.1.0": [
-"jena/source/jena-5.1.0-source-release.zip"
+"jena-5.2.0": [
+"jena/source/jena-5.2.0-source-release.zip"
 ]
 },
 "jmeter": {
@@ -5359,11 +5374,6 @@
 "lucene-10.0.0": [
 "lucene/java/10.0.0/lucene-10.0.0-src.tgz",
 "lucene/java/10.0.0/lucene-10.0.0.tgz"
-],
-"lucene-8.11.4": [
-"lucene/java/8.11.4/lucene-8.11.4-src.tgz",
-"lucene/java/8.11.4/lucene-8.11.4.tgz",
-"lucene/java/8.11.4/lucene-8.11.4.zip"
 ],
 "lucene-9.12.0": [
 "lucene/java/9.12.0/lucene-9.12.0-src.tgz",
@@ -5853,8 +5863,8 @@
 "maven-reporting-exec-2.0.0-M14": [
 "maven/reporting/maven-reporting-exec-2.0.0-M14-source-release.zip"
 ],
-"maven-reporting-impl-4.0.0-M15": [
-"maven/reporting/maven-reporting-impl-4.0.0-M15-source-release.zip"
+"maven-reporting-impl-4.0.0": [
+"maven/reporting/maven-reporting-impl-4.0.0-source-release.zip"
 ],
 "maven-resolver-1.9.22": [
 "maven/resolver/maven-resolver-1.9.22-source-release.zip"
@@ -5968,10 +5978,20 @@
 "mina/mina/2.0.25/apache-mina-2.0.25-src.tar.gz",
 "mina/mina/2.0.25/apache-mina-2.0.25-src.zip"
 ],
+"apache-mina-2.0.26": [
+"mina/mina/2.0.26/apache-mina-2.0.26-src.tar.bz2",
+"mina/mina/2.0.26/apache-mina-2.0.26-src.tar.gz",
+"mina/mina/2.0.26/apache-mina-2.0.26-src.zip"
+],
 "apache-mina-2.1.8": [
 "mina/mina/2.1.8/apache-mina-2.1.8-src.tar.bz2",
 "mina/mina/2.1.8/apache-mina-2.1.8-src.tar.gz",
 "mina/mina/2.1.8/apache-mina-2.1.8-src.zip"
+],
+"apache-mina-2.1.9": [
+"mina/mina/2.1.9/apache-mina-2.1.9-src.tar.bz2",
+"mina/mina/2.1.9/apache-mina-2.1.9-src.tar.gz",
+"mina/mina/2.1.9/apache-mina-2.1.9-src.zip"
 ],
 "apache-mina-2.2.3": [
 "mina/mina/2.2.3/apache-mina-2.2.3-src.tar.bz2",
@@ -6942,6 +6962,9 @@
 ],
 "opennlp-training-eval-logs-1.0-1.9.3": [
 "opennlp/models/ud-models-1.0/opennlp-training-eval-logs-1.0-1.9.3.zip"
+],
+"opennlp-training-eval-logs-1.1-2.4.0": [
+"opennlp/models/ud-models-1.1/opennlp-training-eval-logs-1.1-2.4.0.zip"
 ]
 },
 "openoffice": {
@@ -7618,6 +7641,9 @@
 "pulsar-3.5.0": [
 "pulsar/helm-chart/3.5.0/pulsar-3.5.0.tgz"
 ],
+"pulsar-3.6.0": [
+"pulsar/helm-chart/3.6.0/pulsar-3.6.0.tgz"
+],
 "pulsar-chart-3.0.0": [
 "pulsar/helm-chart/3.0.0/pulsar-chart-3.0.0-source.tar.gz"
 ],
@@ -7641,6 +7667,9 @@
 ],
 "pulsar-chart-3.5.0": [
 "pulsar/helm-chart/3.5.0/pulsar-chart-3.5.0-source.tar.gz"
+],
+"pulsar-chart-3.6.0": [
+"pulsar/helm-chart/3.6.0/pulsar-chart-3.6.0-source.tar.gz"
 ],
 "pulsar-client-python-3.5.0": [
 "pulsar/pulsar-client-python-3.5.0/pulsar-client-python-3.5.0.tar.gz"

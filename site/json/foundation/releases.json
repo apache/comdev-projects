@@ -389,6 +389,7 @@
 "calcite": {
 "apache-calcite-1.36.0": "2023-11-10",
 "apache-calcite-1.37.0": "2024-05-06",
+"apache-calcite-1.38.0": "2024-10-15",
 "apache-calcite-avatica-1.24.0": "2023-12-03",
 "apache-calcite-avatica-1.25.0": "2024-04-05",
 "apache-calcite-avatica-go-5.2.0": "2022-10-13",
@@ -577,10 +578,12 @@
 "apache-cloudstack-4.18.2.1": "2024-07-04",
 "apache-cloudstack-4.18.2.2": "2024-07-15",
 "apache-cloudstack-4.18.2.3": "2024-08-02",
+"apache-cloudstack-4.18.2.4": "2024-10-10",
 "apache-cloudstack-4.19.0.1": "2024-04-02",
 "apache-cloudstack-4.19.0.2": "2024-07-04",
 "apache-cloudstack-4.19.1.0": "2024-07-15",
 "apache-cloudstack-4.19.1.1": "2024-08-02",
+"apache-cloudstack-4.19.1.2": "2024-10-10",
 "apache-cloudstack-cloudmonkey-6.4.0": "2024-03-21",
 "apache-cloudstack-ec2stack-0.8.0": "2015-08-26",
 "apache-cloudstack-kubernetes-provider-1.1.0": "2024-06-19",
@@ -863,6 +866,7 @@
 "apache-doris-2.1.5-rc02": "2024-07-20",
 "apache-doris-2.1.6-rc04": "2024-09-07",
 "apache-doris-3.0.0": "2024-07-22",
+"apache-doris-3.0.2": "2024-10-08",
 "apache-doris-flink-connector-1.11_2.12-1.0.3-incubating": "2022-03-19",
 "apache-doris-flink-connector-1.12_2.11-1.0.3": "2022-08-15",
 "apache-doris-flink-connector-1.12_2.12-1.0.3-incubating": "2022-03-19",
@@ -884,6 +888,7 @@
 "apache-doris-flink-connector-1.6.1": "2024-05-15",
 "apache-doris-flink-connector-1.6.2": "2024-07-09",
 "apache-doris-flink-connector-24.0.0": "2024-08-27",
+"apache-doris-flink-connector-24.0.1": "2024-10-12",
 "apache-doris-kafka-connector-1.0.0": "2024-03-12",
 "apache-doris-kafka-connector-1.1.0": "2024-07-10",
 "apache-doris-sdk-1.0.0": "2023-05-10",
@@ -1653,7 +1658,7 @@
 "jclouds-2.6.0": "2024-03-10"
 },
 "jena": {
-"jena-5.1.0": "2024-07-12"
+"jena-5.2.0": "2024-10-11"
 },
 "jmeter": {
 "apache-jmeter-5.6.3": "2024-01-07"
@@ -1803,7 +1808,6 @@
 },
 "lucene": {
 "lucene-10.0.0": "2024-10-10",
-"lucene-8.11.4": "2024-09-19",
 "lucene-9.12.0": "2024-09-25",
 "pylucene-7.7.1": "2019-06-03",
 "pylucene-8.11.0": "2021-12-15",
@@ -1958,7 +1962,7 @@
 "maven-remote-resources-plugin-3.2.0": "2024-03-10",
 "maven-reporting-api-4.0.0": "2024-10-06",
 "maven-reporting-exec-2.0.0-M14": "2024-05-28",
-"maven-reporting-impl-4.0.0-M15": "2024-05-28",
+"maven-reporting-impl-4.0.0": "2024-10-15",
 "maven-resolver-1.9.22": "2024-08-08",
 "maven-resolver-2.0.1": "2024-08-08",
 "maven-resolver-ant-tasks-1.5.1": "2024-05-24",
@@ -1997,7 +2001,9 @@
 "apache-ftpserver-1.1.4": "2022-03-13",
 "apache-ftpserver-1.2.0": "2022-03-13",
 "apache-mina-2.0.25": "2023-09-12",
+"apache-mina-2.0.26": "2024-10-15",
 "apache-mina-2.1.8": "2023-09-12",
+"apache-mina-2.1.9": "2024-10-15",
 "apache-mina-2.2.3": "2023-09-12",
 "apache-mina-3.0.0-M2": "2013-07-31",
 "apache-sshd-1.7.0": "2018-01-23",
@@ -2310,7 +2316,8 @@
 "opennlp": {
 "apache-opennlp-2.4.0": "2024-07-16",
 "opennlp-models-1.0.1": "2024-07-25",
-"opennlp-training-eval-logs-1.0-1.9.3": "2021-05-29"
+"opennlp-training-eval-logs-1.0-1.9.3": "2021-05-29",
+"opennlp-training-eval-logs-1.1-2.4.0": "2024-10-11"
 },
 "openoffice": {
 "apache-openoffice-4.1.15-5f13fa0070": "2023-11-27"
@@ -2551,6 +2558,7 @@
 "pulsar-3.4.0": "2024-04-02",
 "pulsar-3.4.1": "2024-05-17",
 "pulsar-3.5.0": "2024-08-01",
+"pulsar-3.6.0": "2024-10-04",
 "pulsar-chart-3.0.0": "2022-11-03",
 "pulsar-chart-3.1.0": "2023-12-11",
 "pulsar-chart-3.2.0": "2024-01-21",
@@ -2559,6 +2567,7 @@
 "pulsar-chart-3.4.0": "2024-04-02",
 "pulsar-chart-3.4.1": "2024-05-17",
 "pulsar-chart-3.5.0": "2024-08-01",
+"pulsar-chart-3.6.0": "2024-10-04",
 "pulsar-client-python-3.5.0": "2024-04-02",
 "pulsar-client-reactive-0.5.3": "2024-02-16",
 "pulsar-client-reactive-0.5.4": "2024-04-10",
