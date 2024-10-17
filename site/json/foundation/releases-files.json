@@ -1551,12 +1551,6 @@
 ]
 },
 "cassandra": {
-"apache-cassandra-2.1.22": [
-"cassandra/2.1.22/apache-cassandra-2.1.22-src.tar.gz"
-],
-"apache-cassandra-2.2.19": [
-"cassandra/2.2.19/apache-cassandra-2.2.19-src.tar.gz"
-],
 "apache-cassandra-3.0.30": [
 "cassandra/3.0.30/apache-cassandra-3.0.30-src.tar.gz"
 ],
@@ -1576,11 +1570,8 @@
 "cassandra/cassandra-java-driver/4.18.1/apache-cassandra-java-driver-4.18.1-source.tar.gz",
 "cassandra/cassandra-java-driver/4.18.1/apache-cassandra-java-driver-4.18.1.tar.gz"
 ],
-"cassandra_2.1.22": [
-"cassandra/2.1.22/debian/cassandra_2.1.22.tar.gz"
-],
-"cassandra_2.2.19": [
-"cassandra/2.2.19/debian/cassandra_2.2.19.tar.gz"
+"cassandra-gocql-driver-1.7.0": [
+"cassandra/cassandra-gocql-driver/1.7.0/cassandra-gocql-driver-1.7.0.tar.gz"
 ]
 },
 "causeway": {
@@ -3494,6 +3485,9 @@
 ],
 "flink-connector-kafka-3.2.0": [
 "flink/flink-connector-kafka-3.2.0/flink-connector-kafka-3.2.0-src.tgz"
+],
+"flink-connector-kafka-3.3.0": [
+"flink/flink-connector-kafka-3.3.0/flink-connector-kafka-3.3.0-src.tgz"
 ],
 "flink-connector-mongodb-1.0.2": [
 "flink/flink-connector-mongodb-1.0.2/flink-connector-mongodb-1.0.2-src.tgz"
