@@ -18511,6 +18511,31 @@
 "shortdesc": "Annotator components and a\n      scalable integration and deployment framework for\n      Unstructured Information analysis",
 "shortname": "UIMA"
 },
+"unomi": {
+"bug-database": "https://issues.apache.org/jira/projects/UNOMI/",
+"category": "search",
+"created": "2024-10-08",
+"description": "Apache Unomi is a REST server that manages user profiles and events related to the profiles. It can be used to integrate personalization and profile management within very different systems such as CMS, CRMs, Issue Trackers, native mobile application. It was designed to be easy to integrate with external systems, promoting profile sharing and re-use in very different applications.\n\nBasically the server tracks users using different mechanisms (by default cookies), builds a progressively populated profile and associates events that are performed by a user with his profile. Events may range from a click on a page, to a file being downloaded, a native mobile application button being clicked, or anything that can be sent to the server.\n\nThe server has a built-in rule system that makes it possible to perform any action when an event is collected for a profile. It also has the notion of user segments, making it possible to classify user profiles into dynamic sub-groups, notably to build personalized experiences for specific segments.",
+"doap": "https://unomi.apache.org/assets/doap_Unomi.rdf",
+"download-page": "https://unomi.apache.org/download.html",
+"homepage": "https://unomi.apache.org",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://unomi.apache.org/community/index.html",
+"name": "Apache Unomi",
+"pmc": "unomi",
+"programming-language": "Java",
+"release": [
+{
+"created": "2024-06-12",
+"name": "2.5.0",
+"revision": "2.5.0"
+}
+],
+"repository": [
+"https://github.com/apache/unomi"
+],
+"shortdesc": "Apache Unomi™ (pronounced \"You know me\") is a Java Open Source customer data platform, a Java server designed to manage customers, leads and visitors data and help personalize customers experiences while also offering features to respect visitor privacy rules (such as GDPR)"
+},
 "vcl": {
 "bug-database": "https://issues.apache.org/jira/browse/VCL",
 "category": "cloud",
@@ -18590,6 +18615,11 @@
 "pmc": "velocity",
 "programming-language": "Java",
 "release": [
+{
+"created": "2024-10-14",
+"name": "Velocity 2.4.1",
+"revision": "2.4.1"
+},
 {
 "created": "2024-09-07",
 "name": "Velocity 2.4",

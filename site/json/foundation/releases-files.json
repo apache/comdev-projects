@@ -1193,8 +1193,8 @@
 "apache-camel-4.3.0": [
 "camel/apache-camel/4.3.0/apache-camel-4.3.0-src.zip"
 ],
-"apache-camel-4.4.3": [
-"camel/apache-camel/4.4.3/apache-camel-4.4.3-src.zip"
+"apache-camel-4.4.4": [
+"camel/apache-camel/4.4.4/apache-camel-4.4.4-src.zip"
 ],
 "apache-camel-4.5.0": [
 "camel/apache-camel/4.5.0/apache-camel-4.5.0-src.zip"
@@ -2085,6 +2085,9 @@
 "cordova-ios-7.1.1": [
 "cordova/platforms/cordova-ios-7.1.1.tgz"
 ],
+"cordova-ios-8.0.0-beta.1": [
+"cordova/platforms/cordova-ios-8.0.0-beta.1.tgz"
+],
 "cordova-js-6.1.0": [
 "cordova/tools/cordova-js-6.1.0.tgz"
 ],
@@ -2768,6 +2771,9 @@
 ],
 "apache-druid-30.0.1": [
 "druid/30.0.1/apache-druid-30.0.1-src.tar.gz"
+],
+"apache-druid-31.0.0": [
+"druid/31.0.0/apache-druid-31.0.0-src.tar.gz"
 ]
 },
 "dubbo": {
@@ -5381,11 +5387,11 @@
 "apache-log4j-transform-0.1.0": [
 "logging/log4j-transform/0.1.0/apache-log4j-transform-0.1.0-src.zip"
 ],
-"apache-log4net-binaries-3.0.1": [
-"logging/log4net/3.0.1/apache-log4net-binaries-3.0.1.zip"
+"apache-log4net-binaries-3.0.2": [
+"logging/log4net/3.0.2/apache-log4net-binaries-3.0.2.zip"
 ],
-"apache-log4net-source-3.0.1": [
-"logging/log4net/3.0.1/apache-log4net-source-3.0.1.zip"
+"apache-log4net-source-3.0.2": [
+"logging/log4net/3.0.2/apache-log4net-source-3.0.2.zip"
 ],
 "apache-log4php-2.3.0": [
 "logging/log4php/2.3.0/apache-log4php-2.3.0-src.tar.gz",
@@ -5768,14 +5774,14 @@
 "maven-gpg-plugin-3.2.7": [
 "maven/plugins/maven-gpg-plugin-3.2.7-source-release.zip"
 ],
-"maven-help-plugin-3.5.0": [
-"maven/plugins/maven-help-plugin-3.5.0-source-release.zip"
+"maven-help-plugin-3.5.1": [
+"maven/plugins/maven-help-plugin-3.5.1-source-release.zip"
 ],
 "maven-indexer-7.1.5": [
 "maven/indexer/maven-indexer-7.1.5-source-release.zip"
 ],
-"maven-info-reports-plugin-3.7.0": [
-"maven/plugins/maven-project-info-reports-plugin-3.7.0-source-release.zip"
+"maven-info-reports-plugin-3.8.0": [
+"maven/plugins/maven-project-info-reports-plugin-3.8.0-source-release.zip"
 ],
 "maven-install-plugin-3.1.3": [
 "maven/plugins/maven-install-plugin-3.1.3-source-release.zip"
@@ -5786,8 +5792,8 @@
 "maven-invoker-3.3.0": [
 "maven/shared/maven-invoker-3.3.0-source-release.zip"
 ],
-"maven-invoker-plugin-3.8.0": [
-"maven/plugins/maven-invoker-plugin-3.8.0-source-release.zip"
+"maven-invoker-plugin-3.8.1": [
+"maven/plugins/maven-invoker-plugin-3.8.1-source-release.zip"
 ],
 "maven-jar-plugin-3.4.2": [
 "maven/plugins/maven-jar-plugin-3.4.2-source-release.zip"
@@ -7607,6 +7613,9 @@
 "apache-pulsar-3.3.2": [
 "pulsar/pulsar-3.3.2/apache-pulsar-3.3.2-src.tar.gz"
 ],
+"apache-pulsar-4.0.0": [
+"pulsar/pulsar-4.0.0/apache-pulsar-4.0.0-src.tar.gz"
+],
 "apache-pulsar-adapters-2.11.0": [
 "pulsar/pulsar-adapters-2.11.0/apache-pulsar-adapters-2.11.0-src.tar.gz"
 ],
@@ -8325,17 +8334,8 @@
 "skywalking/java-agent/9.3.0/apache-skywalking-java-agent-9.3.0-src.tgz",
 "skywalking/java-agent/9.3.0/apache-skywalking-java-agent-9.3.0.tgz"
 ],
-"apache-skywalking-rover-0.3.0": [
-"skywalking/rover/0.3.0/apache-skywalking-rover-0.3.0-src.tgz"
-],
-"apache-skywalking-rover-0.4.0": [
-"skywalking/rover/0.4.0/apache-skywalking-rover-0.4.0-src.tgz"
-],
-"apache-skywalking-rover-0.5.0": [
-"skywalking/rover/0.5.0/apache-skywalking-rover-0.5.0-src.tgz"
-],
-"apache-skywalking-rover-0.6.0": [
-"skywalking/rover/0.6.0/apache-skywalking-rover-0.6.0-src.tgz"
+"apache-skywalking-rover-0.7.0": [
+"skywalking/rover/0.7.0/apache-skywalking-rover-0.7.0-src.tgz"
 ],
 "apache-skywalking-satellite-1.2.0": [
 "skywalking/satellite/1.2.0/apache-skywalking-satellite-1.2.0-src.tgz"
@@ -8364,15 +8364,18 @@
 "skywalking-cli-0.13.0": [
 "skywalking/cli/0.13.0/skywalking-cli-0.13.0-src.tgz"
 ],
+"skywalking-cli-0.14.0": [
+"skywalking/cli/0.14.0/skywalking-cli-0.14.0-src.tgz"
+],
 "skywalking-client-js-0.12.0": [
 "skywalking/client-js/0.12.0/skywalking-client-js-0.12.0-src.tgz"
 ],
 "skywalking-e2e-1.3.0": [
 "skywalking/infra-e2e/1.3.0/skywalking-e2e-1.3.0-src.tgz"
 ],
-"skywalking-helm-4.6.0": [
-"skywalking/kubernetes/4.6.0/skywalking-helm-4.6.0-src.tgz",
-"skywalking/kubernetes/4.6.0/skywalking-helm-4.6.0.tgz"
+"skywalking-helm-4.7.0": [
+"skywalking/kubernetes/4.7.0/skywalking-helm-4.7.0-src.tgz",
+"skywalking/kubernetes/4.7.0/skywalking-helm-4.7.0.tgz"
 ],
 "skywalking-kong-0.1.1": [
 "skywalking/kong/0.1.1/skywalking-kong-0.1.1-src.tgz"
@@ -10316,8 +10319,8 @@
 "velocity/dvsl/1.0/velocity-dvsl-1.0.tar.gz",
 "velocity/dvsl/1.0/velocity-dvsl-1.0.zip"
 ],
-"velocity-engine-examples-2.4-pkg": [
-"velocity/engine/2.4/velocity-engine-examples-2.4-pkg.zip"
+"velocity-engine-examples-2.4.1-pkg": [
+"velocity/engine/2.4.1/velocity-engine-examples-2.4.1-pkg.zip"
 ],
 "velocity-master-7": [
 "velocity/pom/velocity-master-7-source-release.zip"
