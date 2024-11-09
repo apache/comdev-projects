@@ -778,9 +778,8 @@
 "apache-datafu-sources-2.0.0": "2024-01-14"
 },
 "datafusion": {
-"apache-datafusion-42.0.0": "2024-09-17",
-"apache-datafusion-42.1.0": "2024-10-20",
 "apache-datafusion-42.2.0": "2024-11-04",
+"apache-datafusion-43.0.0": "2024-11-08",
 "apache-datafusion-comet-0.3.0": "2024-09-28",
 "apache-datafusion-python-41.0.0": "2024-09-16",
 "apache-datafusion-python-42.0.0": "2024-10-11"
@@ -1155,6 +1154,7 @@
 "flink-connector-opensearch-1.1.0": "2023-11-03",
 "flink-connector-opensearch-1.2.0": "2024-05-11",
 "flink-connector-opensearch-2.0.0": "2024-05-15",
+"flink-connector-prometheus-1.0.0": "2024-10-28",
 "flink-connector-pulsar-3.0.0": "2022-12-15",
 "flink-connector-pulsar-3.0.1": "2023-05-25",
 "flink-connector-pulsar-4.0.0": "2023-04-13",
@@ -1262,14 +1262,14 @@
 "groovy": {
 "apache-groovy-2.4.21": "2020-12-03",
 "apache-groovy-2.5.23": "2023-08-22",
-"apache-groovy-3.0.22": "2024-06-30",
-"apache-groovy-4.0.23": "2024-09-12",
-"apache-groovy-5.0.0-alpha-10": "2024-09-12",
+"apache-groovy-3.0.23": "2024-11-08",
+"apache-groovy-4.0.24": "2024-11-08",
+"apache-groovy-5.0.0-alpha-11": "2024-11-08",
 "apache-groovy-sdk-2.4.21": "2020-12-03",
 "apache-groovy-sdk-2.5.23": "2023-08-22",
-"apache-groovy-sdk-3.0.22": "2024-06-30",
-"apache-groovy-sdk-4.0.23": "2024-09-12",
-"apache-groovy-sdk-5.0.0-alpha-10": "2024-09-12"
+"apache-groovy-sdk-3.0.23": "2024-11-08",
+"apache-groovy-sdk-4.0.24": "2024-11-08",
+"apache-groovy-sdk-5.0.0-alpha-11": "2024-11-08"
 },
 "guacamole": {
 "guacamole-client-1.5.3": "2023-07-26",
@@ -1411,6 +1411,7 @@
 "apache-iceberg-1.5.2": "2024-05-01",
 "apache-iceberg-1.6.0": "2024-07-18",
 "apache-iceberg-1.6.1": "2024-08-22",
+"apache-iceberg-1.7.0": "2024-11-04",
 "apache-iceberg-rust-0.2.0": "2024-02-15",
 "apache-iceberg-rust-0.3.0": "2024-08-14",
 "pyiceberg-0.1.0": "2022-10-17",
@@ -1613,6 +1614,9 @@
 "incubator-wayang": {
 "apache-wayang-0.6.0-incubating": "2021-11-26",
 "apache-wayang-incubating-0.7.1": "2023-09-20"
+},
+"incubator-xtable": {
+"apache-xtable-0.2.0-incubating": "2024-11-08"
 },
 "incubator-yunikorn": {
 "apache-yunikorn-0.12.2-incubating": "2022-02-03"

@@ -2329,14 +2329,11 @@
 ]
 },
 "datafusion": {
-"apache-datafusion-42.0.0": [
-"datafusion/datafusion-42.0.0/apache-datafusion-42.0.0.tar.gz"
-],
-"apache-datafusion-42.1.0": [
-"datafusion/datafusion-42.1.0/apache-datafusion-42.1.0.tar.gz"
-],
 "apache-datafusion-42.2.0": [
 "datafusion/datafusion-42.2.0/apache-datafusion-42.2.0.tar.gz"
+],
+"apache-datafusion-43.0.0": [
+"datafusion/datafusion-43.0.0/apache-datafusion-43.0.0.tar.gz"
 ],
 "apache-datafusion-comet-0.3.0": [
 "datafusion/datafusion-comet-0.3.0/apache-datafusion-comet-0.3.0.tar.gz"
@@ -3548,6 +3545,9 @@
 "flink-connector-opensearch-2.0.0": [
 "flink/flink-connector-opensearch-2.0.0/flink-connector-opensearch-2.0.0-src.tgz"
 ],
+"flink-connector-prometheus-1.0.0": [
+"flink/flink-connector-prometheus-1.0.0/flink-connector-prometheus-1.0.0-src.tgz"
+],
 "flink-connector-pulsar-3.0.0": [
 "flink/flink-connector-pulsar-3.0.0/flink-connector-pulsar-3.0.0-src.tgz"
 ],
@@ -3840,14 +3840,14 @@
 "apache-groovy-2.5.23": [
 "groovy/2.5.23/sources/apache-groovy-src-2.5.23.zip"
 ],
-"apache-groovy-3.0.22": [
-"groovy/3.0.22/sources/apache-groovy-src-3.0.22.zip"
+"apache-groovy-3.0.23": [
+"groovy/3.0.23/sources/apache-groovy-src-3.0.23.zip"
 ],
-"apache-groovy-4.0.23": [
-"groovy/4.0.23/sources/apache-groovy-src-4.0.23.zip"
+"apache-groovy-4.0.24": [
+"groovy/4.0.24/sources/apache-groovy-src-4.0.24.zip"
 ],
-"apache-groovy-5.0.0-alpha-10": [
-"groovy/5.0.0-alpha-10/sources/apache-groovy-src-5.0.0-alpha-10.zip"
+"apache-groovy-5.0.0-alpha-11": [
+"groovy/5.0.0-alpha-11/sources/apache-groovy-src-5.0.0-alpha-11.zip"
 ],
 "apache-groovy-sdk-2.4.21": [
 "groovy/2.4.21/distribution/apache-groovy-sdk-2.4.21.zip"
@@ -3855,14 +3855,14 @@
 "apache-groovy-sdk-2.5.23": [
 "groovy/2.5.23/distribution/apache-groovy-sdk-2.5.23.zip"
 ],
-"apache-groovy-sdk-3.0.22": [
-"groovy/3.0.22/distribution/apache-groovy-sdk-3.0.22.zip"
+"apache-groovy-sdk-3.0.23": [
+"groovy/3.0.23/distribution/apache-groovy-sdk-3.0.23.zip"
 ],
-"apache-groovy-sdk-4.0.23": [
-"groovy/4.0.23/distribution/apache-groovy-sdk-4.0.23.zip"
+"apache-groovy-sdk-4.0.24": [
+"groovy/4.0.24/distribution/apache-groovy-sdk-4.0.24.zip"
 ],
-"apache-groovy-sdk-5.0.0-alpha-10": [
-"groovy/5.0.0-alpha-10/distribution/apache-groovy-sdk-5.0.0-alpha-10.zip"
+"apache-groovy-sdk-5.0.0-alpha-11": [
+"groovy/5.0.0-alpha-11/distribution/apache-groovy-sdk-5.0.0-alpha-11.zip"
 ]
 },
 "guacamole": {
@@ -4272,6 +4272,9 @@
 ],
 "apache-iceberg-1.6.1": [
 "iceberg/apache-iceberg-1.6.1/apache-iceberg-1.6.1.tar.gz"
+],
+"apache-iceberg-1.7.0": [
+"iceberg/apache-iceberg-1.7.0/apache-iceberg-1.7.0.tar.gz"
 ],
 "apache-iceberg-rust-0.2.0": [
 "iceberg/iceberg-rust-0.2.0/apache-iceberg-rust-0.2.0-src.tar.gz"
@@ -4775,6 +4778,11 @@
 ],
 "apache-wayang-incubating-0.7.1": [
 "incubator/wayang/0.7.1/apache-wayang-incubating-0.7.1-source-release.zip"
+]
+},
+"incubator-xtable": {
+"apache-xtable-0.2.0-incubating": [
+"incubator/xtable/0.2.0-incubating/apache-xtable-0.2.0-incubating.src.tgz"
 ]
 },
 "incubator-yunikorn": {
