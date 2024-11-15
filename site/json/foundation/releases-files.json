@@ -2302,25 +2302,19 @@
 "cxf/4.0.5/apache-cxf-4.0.5.tar.gz",
 "cxf/4.0.5/apache-cxf-4.0.5.zip"
 ],
-"apache-fediz-1.5.1": [
-"cxf/fediz/1.5.1/apache-fediz-1.5.1.zip"
+"apache-fediz-1.7.0": [
+"cxf/fediz/1.7.0/apache-fediz-1.7.0.zip"
 ],
-"apache-fediz-1.6.2": [
-"cxf/fediz/1.6.2/apache-fediz-1.6.2.zip"
-],
-"fediz-1.5.1": [
-"cxf/fediz/1.5.1/fediz-1.5.1-source-release.zip"
-],
-"fediz-1.6.2": [
-"cxf/fediz/1.6.2/fediz-1.6.2-source-release.zip"
+"fediz-1.7.0": [
+"cxf/fediz/1.7.0/fediz-1.7.0-source-release.zip"
 ]
 },
 "daffodil": {
 "apache-daffodil-3.9.0": [
 "daffodil/3.9.0/src/apache-daffodil-3.9.0-src.zip"
 ],
-"apache-daffodil-sbt-1.1.0": [
-"daffodil/daffodil-sbt/1.1.0/src/apache-daffodil-sbt-1.1.0-src.zip"
+"apache-daffodil-sbt-1.2.0": [
+"daffodil/daffodil-sbt/1.2.0/src/apache-daffodil-sbt-1.2.0-src.zip"
 ],
 "apache-daffodil-vscode-1.4.0": [
 "daffodil/daffodil-vscode/1.4.0/src/apache-daffodil-vscode-1.4.0-src.zip"
@@ -4447,11 +4441,17 @@
 "gravitino-0.6.1-incubating": [
 "incubator/gravitino/0.6.1-incubating/gravitino-0.6.1-incubating-src.tar.gz"
 ],
+"gravitino-0.7.0-incubating": [
+"incubator/gravitino/0.7.0-incubating/gravitino-0.7.0-incubating-src.tar.gz"
+],
 "gravitino-trino-connector-0.6.0-incubating": [
 "incubator/gravitino/0.6.0-incubating/gravitino-trino-connector-0.6.0-incubating.tar.gz"
 ],
 "gravitino-trino-connector-0.6.1-incubating": [
 "incubator/gravitino/0.6.1-incubating/gravitino-trino-connector-0.6.1-incubating.tar.gz"
+],
+"gravitino-trino-connector-0.7.0-incubating": [
+"incubator/gravitino/0.7.0-incubating/gravitino-trino-connector-0.7.0-incubating.tar.gz"
 ]
 },
 "incubator-hertzbeat": {
@@ -4813,8 +4813,8 @@
 "jackrabbit-oak-1.6.23": [
 "jackrabbit/oak/1.6.23/jackrabbit-oak-1.6.23-src.zip"
 ],
-"jackrabbit-oak-1.70.0": [
-"jackrabbit/oak/1.70.0/jackrabbit-oak-1.70.0-src.zip"
+"jackrabbit-oak-1.72.0": [
+"jackrabbit/oak/1.72.0/jackrabbit-oak-1.72.0-src.zip"
 ],
 "jackrabbit-oak-1.8.26": [
 "jackrabbit/oak/1.8.26/jackrabbit-oak-1.8.26-src.zip"
@@ -7258,29 +7258,20 @@
 "orc-1.8.8": [
 "orc/orc-1.8.8/orc-1.8.8.tar.gz"
 ],
-"orc-1.9.4": [
-"orc/orc-1.9.4/orc-1.9.4.tar.gz"
+"orc-1.9.5": [
+"orc/orc-1.9.5/orc-1.9.5.tar.gz"
 ],
 "orc-2.0.2": [
 "orc/orc-2.0.2/orc-2.0.2.tar.gz"
+],
+"orc-2.0.3": [
+"orc/orc-2.0.3/orc-2.0.3.tar.gz"
 ],
 "orc-format-1.0.0": [
 "orc/orc-format-1.0.0/orc-format-1.0.0.tar.gz"
 ]
 },
 "ozone": {
-"ozone-1.1.0": [
-"ozone/1.1.0/ozone-1.1.0-src.tar.gz",
-"ozone/1.1.0/ozone-1.1.0.tar.gz"
-],
-"ozone-1.2.1": [
-"ozone/1.2.1/ozone-1.2.1-src.tar.gz",
-"ozone/1.2.1/ozone-1.2.1.tar.gz"
-],
-"ozone-1.3.0": [
-"ozone/1.3.0/ozone-1.3.0-src.tar.gz",
-"ozone/1.3.0/ozone-1.3.0.tar.gz"
-],
 "ozone-1.4.0": [
 "ozone/1.4.0/ozone-1.4.0-src.tar.gz",
 "ozone/1.4.0/ozone-1.4.0.tar.gz"
@@ -7832,6 +7823,9 @@
 "pulsar-client-reactive-0.5.8": [
 "pulsar/pulsar-client-reactive-0.5.8/pulsar-client-reactive-0.5.8-src.tar.gz"
 ],
+"pulsar-client-reactive-0.5.9": [
+"pulsar/pulsar-client-reactive-0.5.9/pulsar-client-reactive-0.5.9-src.tar.gz"
+],
 "pulsar-dotpulsar-3.3.1": [
 "pulsar/pulsar-dotpulsar-3.3.1/pulsar-dotpulsar-3.3.1-src.tar.gz"
 ]
@@ -7919,56 +7913,11 @@
 ]
 },
 "ratis": {
-"apache-ratis-2.0.0": [
-"ratis/2.0.0/apache-ratis-2.0.0-src.tar.gz"
-],
-"apache-ratis-2.1.0": [
-"ratis/2.1.0/apache-ratis-2.1.0-src.tar.gz"
-],
-"apache-ratis-2.2.0": [
-"ratis/2.2.0/apache-ratis-2.2.0-src.tar.gz"
-],
-"apache-ratis-2.3.0": [
-"ratis/2.3.0/apache-ratis-2.3.0-src.tar.gz"
-],
-"apache-ratis-2.4.1": [
-"ratis/2.4.1/apache-ratis-2.4.1-src.tar.gz"
-],
-"apache-ratis-2.5.1": [
-"ratis/2.5.1/apache-ratis-2.5.1-src.tar.gz"
-],
 "apache-ratis-3.0.1": [
 "ratis/3.0.1/apache-ratis-3.0.1-src.tar.gz"
 ],
-"apache-ratis-3.1.0": [
-"ratis/3.1.0/apache-ratis-3.1.0-src.tar.gz"
-],
-"apache-ratis-3.1.1": [
-"ratis/3.1.1/apache-ratis-3.1.1-src.tar.gz"
-],
 "apache-ratis-3.1.2": [
 "ratis/3.1.2/apache-ratis-3.1.2-src.tar.gz"
-],
-"apache-ratis-incubating-1.0.0": [
-"ratis/1.0.0/apache-ratis-incubating-1.0.0-src.tar.gz"
-],
-"ratis-thirdparty-1.0.0": [
-"ratis/thirdparty/1.0.0/ratis-thirdparty-1.0.0-src.tar.gz"
-],
-"ratis-thirdparty-1.0.1": [
-"ratis/thirdparty/1.0.1/ratis-thirdparty-1.0.1-src.tar.gz"
-],
-"ratis-thirdparty-1.0.2": [
-"ratis/thirdparty/1.0.2/ratis-thirdparty-1.0.2-src.tar.gz"
-],
-"ratis-thirdparty-1.0.3": [
-"ratis/thirdparty/1.0.3/ratis-thirdparty-1.0.3-src.tar.gz"
-],
-"ratis-thirdparty-1.0.4": [
-"ratis/thirdparty/1.0.4/ratis-thirdparty-1.0.4-src.tar.gz"
-],
-"ratis-thirdparty-1.0.5": [
-"ratis/thirdparty/1.0.5/ratis-thirdparty-1.0.5-src.tar.gz"
 ],
 "ratis-thirdparty-1.0.6": [
 "ratis/thirdparty/1.0.6/ratis-thirdparty-1.0.6-src.tar.gz"
@@ -10474,8 +10423,8 @@
 "wss4j-2.4.3": [
 "ws/wss4j/2.4.3/wss4j-2.4.3-source-release.zip"
 ],
-"wss4j-3.0.3": [
-"ws/wss4j/3.0.3/wss4j-3.0.3-source-release.zip"
+"wss4j-3.0.4": [
+"ws/wss4j/3.0.4/wss4j-3.0.4-source-release.zip"
 ],
 "xmlschema-2.2.5": [
 "ws/xmlschema/2.2.5/xmlschema-2.2.5-source-release.zip"

@@ -765,14 +765,12 @@
 "apache-cxf-3.6.4": "2024-07-17",
 "apache-cxf-4.0.4": "2024-03-12",
 "apache-cxf-4.0.5": "2024-07-17",
-"apache-fediz-1.5.1": "2020-11-30",
-"apache-fediz-1.6.2": "2024-03-25",
-"fediz-1.5.1": "2020-11-30",
-"fediz-1.6.2": "2024-03-25"
+"apache-fediz-1.7.0": "2024-11-14",
+"fediz-1.7.0": "2024-11-14"
 },
 "daffodil": {
 "apache-daffodil-3.9.0": "2024-09-24",
-"apache-daffodil-sbt-1.1.0": "2024-07-15",
+"apache-daffodil-sbt-1.2.0": "2024-11-05",
 "apache-daffodil-vscode-1.4.0": "2024-11-04"
 },
 "datafu": {
@@ -1482,8 +1480,10 @@
 "incubator-gravitino": {
 "gravitino-0.6.0-incubating": "2024-09-02",
 "gravitino-0.6.1-incubating": "2024-10-11",
+"gravitino-0.7.0-incubating": "2024-11-06",
 "gravitino-trino-connector-0.6.0-incubating": "2024-09-02",
-"gravitino-trino-connector-0.6.1-incubating": "2024-10-11"
+"gravitino-trino-connector-0.6.1-incubating": "2024-10-11",
+"gravitino-trino-connector-0.7.0-incubating": "2024-11-06"
 },
 "incubator-hertzbeat": {
 "apache-hertzbeat-1.6.0-incubating": "2024-06-02",
@@ -1632,7 +1632,7 @@
 "jackrabbit-oak-1.22.21": "2024-09-09",
 "jackrabbit-oak-1.4.26": "2020-02-17",
 "jackrabbit-oak-1.6.23": "2022-03-11",
-"jackrabbit-oak-1.70.0": "2024-09-25",
+"jackrabbit-oak-1.72.0": "2024-11-10",
 "jackrabbit-oak-1.8.26": "2022-02-01",
 "jackrabbit-ocm-2.0.0": "2012-12-17"
 },
@@ -2418,14 +2418,12 @@
 "orc-1.7.11": "2024-09-06",
 "orc-1.8.7": "2024-04-10",
 "orc-1.8.8": "2024-11-06",
-"orc-1.9.4": "2024-07-13",
+"orc-1.9.5": "2024-11-11",
 "orc-2.0.2": "2024-08-11",
+"orc-2.0.3": "2024-11-11",
 "orc-format-1.0.0": "2024-01-03"
 },
 "ozone": {
-"ozone-1.1.0": "2021-04-17",
-"ozone-1.2.1": "2021-12-18",
-"ozone-1.3.0": "2022-12-18",
 "ozone-1.4.0": "2024-01-18"
 },
 "paimon": {
@@ -2621,6 +2619,7 @@
 "pulsar-client-reactive-0.5.6": "2024-06-12",
 "pulsar-client-reactive-0.5.7": "2024-08-14",
 "pulsar-client-reactive-0.5.8": "2024-10-16",
+"pulsar-client-reactive-0.5.9": "2024-11-13",
 "pulsar-dotpulsar-3.3.1": "2024-06-20"
 },
 "qpid": {
@@ -2654,23 +2653,8 @@
 "apache-ranger-2.5.0": "2024-08-07"
 },
 "ratis": {
-"apache-ratis-2.0.0": "2021-03-24",
-"apache-ratis-2.1.0": "2021-06-26",
-"apache-ratis-2.2.0": "2021-10-11",
-"apache-ratis-2.3.0": "2022-05-11",
-"apache-ratis-2.4.1": "2022-11-18",
-"apache-ratis-2.5.1": "2023-04-27",
 "apache-ratis-3.0.1": "2023-12-29",
-"apache-ratis-3.1.0": "2024-06-19",
-"apache-ratis-3.1.1": "2024-09-19",
 "apache-ratis-3.1.2": "2024-11-04",
-"apache-ratis-incubating-1.0.0": "2020-07-20",
-"ratis-thirdparty-1.0.0": "2022-04-27",
-"ratis-thirdparty-1.0.1": "2022-07-04",
-"ratis-thirdparty-1.0.2": "2022-08-19",
-"ratis-thirdparty-1.0.3": "2022-11-02",
-"ratis-thirdparty-1.0.4": "2023-03-17",
-"ratis-thirdparty-1.0.5": "2023-10-29",
 "ratis-thirdparty-1.0.6": "2024-05-07"
 },
 "rocketmq": {
@@ -3528,7 +3512,7 @@
 "woden-1.0M10": "2015-09-06",
 "wss4j-2.3.4": "2023-07-17",
 "wss4j-2.4.3": "2023-11-01",
-"wss4j-3.0.3": "2024-02-28",
+"wss4j-3.0.4": "2024-11-14",
 "xmlschema-2.2.5": "2020-01-07",
 "xmlschema-2.3.0": "2021-09-20",
 "xmlschema-2.3.1": "2023-09-11"
