@@ -415,9 +415,6 @@
 "apache-ambari-2.7.8": [
 "ambari/ambari-2.7.8/apache-ambari-2.7.8-src.tar.gz"
 ],
-"apache-ambari-2.7.9": [
-"ambari/ambari-2.7.9_RC0/apache-ambari-2.7.9-src.tar.gz"
-],
 "apache-ambari-metrics-3.0.0": [
 "ambari/ambari-metrics-3.0.0/apache-ambari-metrics-3.0.0-src.tar.gz"
 ]
@@ -2293,6 +2290,12 @@
 ]
 },
 "cxf": {
+"apache-cxf-3.5.10": [
+"cxf/3.5.10/apache-cxf-3.5.10-src.tar.gz",
+"cxf/3.5.10/apache-cxf-3.5.10-src.zip",
+"cxf/3.5.10/apache-cxf-3.5.10.tar.gz",
+"cxf/3.5.10/apache-cxf-3.5.10.zip"
+],
 "apache-cxf-3.5.8": [
 "cxf/3.5.8/apache-cxf-3.5.8-src.tar.gz",
 "cxf/3.5.8/apache-cxf-3.5.8-src.zip",
@@ -2317,6 +2320,12 @@
 "cxf/3.6.4/apache-cxf-3.6.4.tar.gz",
 "cxf/3.6.4/apache-cxf-3.6.4.zip"
 ],
+"apache-cxf-3.6.5": [
+"cxf/3.6.5/apache-cxf-3.6.5-src.tar.gz",
+"cxf/3.6.5/apache-cxf-3.6.5-src.zip",
+"cxf/3.6.5/apache-cxf-3.6.5.tar.gz",
+"cxf/3.6.5/apache-cxf-3.6.5.zip"
+],
 "apache-cxf-4.0.4": [
 "cxf/4.0.4/apache-cxf-4.0.4-src.tar.gz",
 "cxf/4.0.4/apache-cxf-4.0.4-src.zip",
@@ -2328,6 +2337,12 @@
 "cxf/4.0.5/apache-cxf-4.0.5-src.zip",
 "cxf/4.0.5/apache-cxf-4.0.5.tar.gz",
 "cxf/4.0.5/apache-cxf-4.0.5.zip"
+],
+"apache-cxf-4.0.6": [
+"cxf/4.0.6/apache-cxf-4.0.6-src.tar.gz",
+"cxf/4.0.6/apache-cxf-4.0.6-src.zip",
+"cxf/4.0.6/apache-cxf-4.0.6.tar.gz",
+"cxf/4.0.6/apache-cxf-4.0.6.zip"
 ],
 "apache-fediz-1.7.0": [
 "cxf/fediz/1.7.0/apache-fediz-1.7.0.zip"
@@ -4062,6 +4077,9 @@
 "apache-hop-2.10.0": [
 "hop/2.10.0/apache-hop-2.10.0-src.tar.gz"
 ],
+"apache-hop-2.11.0": [
+"hop/2.11.0/apache-hop-2.11.0-src.tar.gz"
+],
 "apache-hop-2.2.0": [
 "hop/2.2.0/apache-hop-2.2.0-src.tar.gz"
 ],
@@ -4094,6 +4112,9 @@
 ],
 "apache-hop-client-2.10.0": [
 "hop/2.10.0/apache-hop-client-2.10.0.zip"
+],
+"apache-hop-client-2.11.0": [
+"hop/2.11.0/apache-hop-client-2.11.0.zip"
 ],
 "apache-hop-client-2.2.0": [
 "hop/2.2.0/apache-hop-client-2.2.0.zip"
@@ -4585,6 +4606,11 @@
 "apache-hugegraph-toolchain-incubating-1.3.0": [
 "incubator/hugegraph/1.3.0/apache-hugegraph-toolchain-incubating-1.3.0-src.tar.gz",
 "incubator/hugegraph/1.3.0/apache-hugegraph-toolchain-incubating-1.3.0.tar.gz"
+]
+},
+"incubator-kie": {
+"apache-kie-10.0.0-incubating": [
+"incubator/kie/10.0.0/apache-kie-10.0.0-incubating-sources.zip"
 ]
 },
 "incubator-livy": {
@@ -5889,8 +5915,8 @@
 "maven-invoker-3.3.0": [
 "maven/shared/maven-invoker-3.3.0-source-release.zip"
 ],
-"maven-invoker-plugin-3.8.1": [
-"maven/plugins/maven-invoker-plugin-3.8.1-source-release.zip"
+"maven-invoker-plugin-3.9.0": [
+"maven/plugins/maven-invoker-plugin-3.9.0-source-release.zip"
 ],
 "maven-jar-plugin-3.4.2": [
 "maven/plugins/maven-jar-plugin-3.4.2-source-release.zip"
@@ -7475,6 +7501,9 @@
 ],
 "apache-pekko-persistence-jdbc-1.1.0-20240914": [
 "pekko/PERSISTENCE-JDBC-1.1.0/apache-pekko-persistence-jdbc-1.1.0-src-20240914.tgz"
+],
+"apache-pekko-persistence-r2dbc-1.1.0-M1-20241205": [
+"pekko/PERSISTENCE-R2DBC-1.1.0-M1/apache-pekko-persistence-r2dbc-1.1.0-M1-src-20241205.tgz"
 ],
 "apache-pekko-projection-1.1.0-M1-20240823": [
 "pekko/PROJECTION-1.1.0-M1/apache-pekko-projection-1.1.0-M1-src-20240823.tgz"
@@ -9850,13 +9879,25 @@
 "tomcat/tomcat-10/v10.1.33/src/apache-tomcat-10.1.33-src.tar.gz",
 "tomcat/tomcat-10/v10.1.33/src/apache-tomcat-10.1.33-src.zip"
 ],
+"apache-tomcat-10.1.34": [
+"tomcat/tomcat-10/v10.1.34/src/apache-tomcat-10.1.34-src.tar.gz",
+"tomcat/tomcat-10/v10.1.34/src/apache-tomcat-10.1.34-src.zip"
+],
 "apache-tomcat-11.0.1": [
 "tomcat/tomcat-11/v11.0.1/src/apache-tomcat-11.0.1-src.tar.gz",
 "tomcat/tomcat-11/v11.0.1/src/apache-tomcat-11.0.1-src.zip"
 ],
+"apache-tomcat-11.0.2": [
+"tomcat/tomcat-11/v11.0.2/src/apache-tomcat-11.0.2-src.tar.gz",
+"tomcat/tomcat-11/v11.0.2/src/apache-tomcat-11.0.2-src.zip"
+],
 "apache-tomcat-9.0.97": [
 "tomcat/tomcat-9/v9.0.97/src/apache-tomcat-9.0.97-src.tar.gz",
 "tomcat/tomcat-9/v9.0.97/src/apache-tomcat-9.0.97-src.zip"
+],
+"apache-tomcat-9.0.98": [
+"tomcat/tomcat-9/v9.0.98/src/apache-tomcat-9.0.98-src.tar.gz",
+"tomcat/tomcat-9/v9.0.98/src/apache-tomcat-9.0.98-src.zip"
 ],
 "jakartaee-migration-1.0.8": [
 "tomcat/jakartaee-migration/v1.0.8/source/jakartaee-migration-1.0.8-src.tar.gz",
@@ -10091,9 +10132,9 @@
 "turbine/fulcrum/fulcrum-mimetype/source/fulcrum-mimetype-1.0.6-src.tar.gz",
 "turbine/fulcrum/fulcrum-mimetype/source/fulcrum-mimetype-1.0.6-src.zip"
 ],
-"fulcrum-parser-3.0.0": [
-"turbine/fulcrum/fulcrum-parser/source/fulcrum-parser-3.0.0-src.tar.gz",
-"turbine/fulcrum/fulcrum-parser/source/fulcrum-parser-3.0.0-src.zip"
+"fulcrum-parser-4.0.0": [
+"turbine/fulcrum/fulcrum-parser/source/fulcrum-parser-4.0.0-src.tar.gz",
+"turbine/fulcrum/fulcrum-parser/source/fulcrum-parser-4.0.0-src.zip"
 ],
 "fulcrum-pbe-1.0.1": [
 "turbine/fulcrum/fulcrum-pbe/source/fulcrum-pbe-1.0.1-src.tar.bz2",
