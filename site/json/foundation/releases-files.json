@@ -75,6 +75,9 @@
 "airavata": {
 "airavata-0.17": [
 "airavata/0.17/airavata-0.17-source-release.zip"
+],
+"custos-1.1": [
+"airavata/custos/1.1/custos-1.1-source-release.zip"
 ]
 },
 "airflow": {
@@ -913,6 +916,9 @@
 "rampart-dist-1.7.1": [
 "axis/axis2/java/rampart/1.7.1/rampart-dist-1.7.1-src.zip"
 ],
+"rampart-dist-1.8.0": [
+"axis/axis2/java/rampart/1.8.0/rampart-dist-1.8.0-src.zip"
+],
 "sandesha2-1.4": [
 "axis/axis2/java/sandesha/1.4/sandesha2-1.4-src.zip"
 ],
@@ -1655,6 +1661,9 @@
 ],
 "apache-celeborn-0.4.2": [
 "celeborn/celeborn-0.4.2/apache-celeborn-0.4.2-source.tgz"
+],
+"apache-celeborn-0.4.3": [
+"celeborn/celeborn-0.4.3/apache-celeborn-0.4.3-source.tgz"
 ],
 "apache-celeborn-0.5.0": [
 "celeborn/celeborn-0.5.0/apache-celeborn-0.5.0-source.tgz"
@@ -4550,6 +4559,9 @@
 ]
 },
 "incubator-horaedb": {
+"apache-horaedb-incubating-python-client-v2.0.0": [
+"incubator/horaedb/horaedb-client-python/v2.0.0/apache-horaedb-incubating-python-client-v2.0.0-src.tar.gz"
+],
 "apache-horaedb-incubating-rust-client-v2.0.0": [
 "incubator/horaedb/horaedb-client-rust/v2.0.0/apache-horaedb-incubating-rust-client-v2.0.0-src.tar.gz"
 ],
@@ -4567,6 +4579,9 @@
 "apache-hugegraph-ai-incubating-1.3.0": [
 "incubator/hugegraph/1.3.0/apache-hugegraph-ai-incubating-1.3.0-src.tar.gz"
 ],
+"apache-hugegraph-ai-incubating-1.5.0": [
+"incubator/hugegraph/1.5.0/apache-hugegraph-ai-incubating-1.5.0-src.tar.gz"
+],
 "apache-hugegraph-commons-incubating-1.0.0": [
 "incubator/hugegraph/1.0.0/apache-hugegraph-commons-incubating-1.0.0-src.tar.gz"
 ],
@@ -4583,6 +4598,9 @@
 "apache-hugegraph-computer-incubating-1.2.0": [
 "incubator/hugegraph/1.2.0/apache-hugegraph-computer-incubating-1.2.0-src.tar.gz"
 ],
+"apache-hugegraph-computer-incubating-1.5.0": [
+"incubator/hugegraph/1.5.0/apache-hugegraph-computer-incubating-1.5.0-src.tar.gz"
+],
 "apache-hugegraph-incubating-1.0.0": [
 "incubator/hugegraph/1.0.0/apache-hugegraph-incubating-1.0.0-src.tar.gz",
 "incubator/hugegraph/1.0.0/apache-hugegraph-incubating-1.0.0.tar.gz"
@@ -4595,6 +4613,10 @@
 "incubator/hugegraph/1.3.0/apache-hugegraph-incubating-1.3.0-src.tar.gz",
 "incubator/hugegraph/1.3.0/apache-hugegraph-incubating-1.3.0.tar.gz"
 ],
+"apache-hugegraph-incubating-1.5.0": [
+"incubator/hugegraph/1.5.0/apache-hugegraph-incubating-1.5.0-src.tar.gz",
+"incubator/hugegraph/1.5.0/apache-hugegraph-incubating-1.5.0.tar.gz"
+],
 "apache-hugegraph-toolchain-incubating-1.0.0": [
 "incubator/hugegraph/1.0.0/apache-hugegraph-toolchain-incubating-1.0.0-src.tar.gz",
 "incubator/hugegraph/1.0.0/apache-hugegraph-toolchain-incubating-1.0.0.tar.gz"
@@ -4606,6 +4628,10 @@
 "apache-hugegraph-toolchain-incubating-1.3.0": [
 "incubator/hugegraph/1.3.0/apache-hugegraph-toolchain-incubating-1.3.0-src.tar.gz",
 "incubator/hugegraph/1.3.0/apache-hugegraph-toolchain-incubating-1.3.0.tar.gz"
+],
+"apache-hugegraph-toolchain-incubating-1.5.0": [
+"incubator/hugegraph/1.5.0/apache-hugegraph-toolchain-incubating-1.5.0-src.tar.gz",
+"incubator/hugegraph/1.5.0/apache-hugegraph-toolchain-incubating-1.5.0.tar.gz"
 ]
 },
 "incubator-kie": {
@@ -4727,8 +4753,9 @@
 ]
 },
 "incubator-stormcrawler": {
-"apache-stormcrawler-3.1.0-incubating": [
-"incubator/stormcrawler/stormcrawler-3.1.0/apache-stormcrawler-3.1.0-incubating-source-release.tar.gz"
+"apache-stormcrawler-3.2.0-incubating": [
+"incubator/stormcrawler/stormcrawler-3.2.0/apache-stormcrawler-3.2.0-incubating-source-release.tar.gz",
+"incubator/stormcrawler/stormcrawler-3.2.0/apache-stormcrawler-3.2.0-incubating-source-release.zip"
 ]
 },
 "incubator-streampark": {
@@ -5834,8 +5861,8 @@
 "maven-changelog-plugin-2.3": [
 "maven/plugins/maven-changelog-plugin-2.3-source-release.zip"
 ],
-"maven-changes-plugin-2.12.1": [
-"maven/plugins/maven-changes-plugin-2.12.1-source-release.zip"
+"maven-changes-plugin-3.0.0-M1": [
+"maven/plugins/maven-changes-plugin-3.0.0-M1-source-release.zip"
 ],
 "maven-checkstyle-plugin-3.6.0": [
 "maven/plugins/maven-checkstyle-plugin-3.6.0-source-release.zip"
@@ -6569,6 +6596,9 @@
 ],
 "netbeans-23": [
 "netbeans/netbeans/23/netbeans-23-source.zip"
+],
+"netbeans-24": [
+"netbeans/netbeans/24/netbeans-24-source.zip"
 ],
 "netbeans-4": [
 "netbeans/netbeans-parent/netbeans-parent-4/netbeans-parent-4-source-release.zip"
@@ -7879,6 +7909,9 @@
 "pulsar-3.7.0": [
 "pulsar/helm-chart/3.7.0/pulsar-3.7.0.tgz"
 ],
+"pulsar-3.8.0": [
+"pulsar/helm-chart/3.8.0/pulsar-3.8.0.tgz"
+],
 "pulsar-chart-3.0.0": [
 "pulsar/helm-chart/3.0.0/pulsar-chart-3.0.0-source.tar.gz"
 ],
@@ -7908,6 +7941,9 @@
 ],
 "pulsar-chart-3.7.0": [
 "pulsar/helm-chart/3.7.0/pulsar-chart-3.7.0-source.tar.gz"
+],
+"pulsar-chart-3.8.0": [
+"pulsar/helm-chart/3.8.0/pulsar-chart-3.8.0-source.tar.gz"
 ],
 "pulsar-client-python-3.5.0": [
 "pulsar/pulsar-client-python-3.5.0/pulsar-client-python-3.5.0.tar.gz"
