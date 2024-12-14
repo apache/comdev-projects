@@ -1258,20 +1258,14 @@
 "apache-camel-quarkus-2.13.3": [
 "camel/camel-quarkus/2.13.3/apache-camel-quarkus-2.13.3-src.zip"
 ],
-"apache-camel-quarkus-3.14.0": [
-"camel/camel-quarkus/3.14.0/apache-camel-quarkus-3.14.0-src.zip"
-],
 "apache-camel-quarkus-3.15.1": [
 "camel/camel-quarkus/3.15.1/apache-camel-quarkus-3.15.1-src.zip"
 ],
-"apache-camel-quarkus-3.16.0": [
-"camel/camel-quarkus/3.16.0/apache-camel-quarkus-3.16.0-src.zip"
+"apache-camel-quarkus-3.17.0": [
+"camel/camel-quarkus/3.17.0/apache-camel-quarkus-3.17.0-src.zip"
 ],
 "apache-camel-quarkus-3.2.3": [
 "camel/camel-quarkus/3.2.3/apache-camel-quarkus-3.2.3-src.zip"
-],
-"apache-camel-quarkus-3.8.3": [
-"camel/camel-quarkus/3.8.3/apache-camel-quarkus-3.8.3-src.zip"
 ],
 "apache-camel-quarkus-3.8.4": [
 "camel/camel-quarkus/3.8.4/apache-camel-quarkus-3.8.4-src.zip"
@@ -1521,6 +1515,9 @@
 ],
 "camel-kamelets-sources-4.8.1": [
 "camel/camel-kamelets/4.8.1/camel-kamelets-sources-4.8.1.tar.gz"
+],
+"camel-kamelets-sources-4.8.2": [
+"camel/camel-kamelets/4.8.2/camel-kamelets-sources-4.8.2.tar.gz"
 ],
 "camel-kamelets-sources-4.9.0": [
 "camel/camel-kamelets/4.9.0/camel-kamelets-sources-4.9.0.tar.gz"
@@ -2072,9 +2069,9 @@
 "commons/statistics/source/commons-statistics-1.1-src.tar.gz",
 "commons/statistics/source/commons-statistics-1.1-src.zip"
 ],
-"commons-text-1.12.0": [
-"commons/text/source/commons-text-1.12.0-src.tar.gz",
-"commons/text/source/commons-text-1.12.0-src.zip"
+"commons-text-1.13.0": [
+"commons/text/source/commons-text-1.13.0-src.tar.gz",
+"commons/text/source/commons-text-1.13.0-src.zip"
 ],
 "commons-validator-1.9.0": [
 "commons/validator/source/commons-validator-1.9.0-src.tar.gz",
@@ -2353,6 +2350,12 @@
 "cxf/4.0.6/apache-cxf-4.0.6.tar.gz",
 "cxf/4.0.6/apache-cxf-4.0.6.zip"
 ],
+"apache-cxf-4.1.0": [
+"cxf/4.1.0/apache-cxf-4.1.0-src.tar.gz",
+"cxf/4.1.0/apache-cxf-4.1.0-src.zip",
+"cxf/4.1.0/apache-cxf-4.1.0.tar.gz",
+"cxf/4.1.0/apache-cxf-4.1.0.zip"
+],
 "apache-fediz-1.7.0": [
 "cxf/fediz/1.7.0/apache-fediz-1.7.0.zip"
 ],
@@ -2395,11 +2398,8 @@
 "apache-datafusion-comet-0.4.0": [
 "datafusion/datafusion-comet-0.4.0/apache-datafusion-comet-0.4.0.tar.gz"
 ],
-"apache-datafusion-python-41.0.0": [
-"datafusion/datafusion-python-41.0.0/apache-datafusion-python-41.0.0.tar.gz"
-],
-"apache-datafusion-python-42.0.0": [
-"datafusion/datafusion-python-42.0.0/apache-datafusion-python-42.0.0.tar.gz"
+"apache-datafusion-python-43.1.0": [
+"datafusion/datafusion-python-43.1.0/apache-datafusion-python-43.1.0.tar.gz"
 ],
 "apache-datafusion-sqlparser-rs-0.52.0": [
 "datafusion/datafusion-sqlparser-rs-0.52.0/apache-datafusion-sqlparser-rs-0.52.0.tar.gz"
@@ -2427,11 +2427,17 @@
 "apache-datasketches-python-5.1.0": [
 "datasketches/python/5.1.0/apache-datasketches-python-5.1.0-src.zip"
 ],
+"apache-datasketches-python-5.1.1": [
+"datasketches/python/5.1.1/apache-datasketches-python-5.1.1-src.zip"
+],
 "datasketches-1.7.0": [
 "datasketches/postgresql/1.7.0/pgxn.org/datasketches-1.7.0.zip"
 ],
 "datasketches-5.1.0": [
 "datasketches/python/5.1.0/pypi/datasketches-5.1.0.tar.gz"
+],
+"datasketches-5.1.1": [
+"datasketches/python/5.1.1/pypi/datasketches-5.1.1.tar.gz"
 ]
 },
 "db": {
@@ -2742,6 +2748,9 @@
 ],
 "apache-doris-flink-connector-24.0.1": [
 "doris/flink-connector/24.0.1/apache-doris-flink-connector-24.0.1-src.tar.gz"
+],
+"apache-doris-flink-connector-24.1.0": [
+"doris/flink-connector/24.1.0/apache-doris-flink-connector-24.1.0-src.tar.gz"
 ],
 "apache-doris-kafka-connector-1.0.0": [
 "doris/kafka-connector/1.0.0-rc01/apache-doris-kafka-connector-1.0.0-src.tar.gz"
@@ -4523,6 +4532,9 @@
 "incubator-gluten": {
 "apache-gluten-1.2.0-incubating": [
 "incubator/gluten/1.2.0-incubating/apache-gluten-1.2.0-incubating-src.tar.gz"
+],
+"apache-gluten-1.2.1-incubating": [
+"incubator/gluten/1.2.1-incubating/apache-gluten-1.2.1-incubating-src.tar.gz"
 ]
 },
 "incubator-graphar": {
@@ -5217,8 +5229,8 @@
 ]
 },
 "kafka": {
-"kafka-3.7.1": [
-"kafka/3.7.1/kafka-3.7.1-src.tgz"
+"kafka-3.7.2": [
+"kafka/3.7.2/kafka-3.7.2-src.tgz"
 ],
 "kafka-3.8.0": [
 "kafka/3.8.0/kafka-3.8.0-src.tgz"
@@ -5229,8 +5241,8 @@
 "kafka-3.9.0": [
 "kafka/3.9.0/kafka-3.9.0-src.tgz"
 ],
-"kafka_2.12-3.7.1": [
-"kafka/3.7.1/kafka_2.12-3.7.1.tgz"
+"kafka_2.12-3.7.2": [
+"kafka/3.7.2/kafka_2.12-3.7.2.tgz"
 ],
 "kafka_2.12-3.8.0": [
 "kafka/3.8.0/kafka_2.12-3.8.0.tgz"
@@ -5241,8 +5253,8 @@
 "kafka_2.12-3.9.0": [
 "kafka/3.9.0/kafka_2.12-3.9.0.tgz"
 ],
-"kafka_2.13-3.7.1": [
-"kafka/3.7.1/kafka_2.13-3.7.1.tgz"
+"kafka_2.13-3.7.2": [
+"kafka/3.7.2/kafka_2.13-3.7.2.tgz"
 ],
 "kafka_2.13-3.8.0": [
 "kafka/3.8.0/kafka_2.13-3.8.0.tgz"
@@ -5591,24 +5603,12 @@
 "logging/chainsaw/2.1.0/apache-chainsaw-2.1.0-standalone.tar.gz",
 "logging/chainsaw/2.1.0/apache-chainsaw-2.1.0-standalone.zip"
 ],
-"apache-log4cxx-1.1.0": [
-"logging/log4cxx/1.1.0/apache-log4cxx-1.1.0.tar.gz",
-"logging/log4cxx/1.1.0/apache-log4cxx-1.1.0.zip"
-],
-"apache-log4cxx-1.2.0": [
-"logging/log4cxx/1.2.0/apache-log4cxx-1.2.0.tar.gz",
-"logging/log4cxx/1.2.0/apache-log4cxx-1.2.0.zip"
-],
-"apache-log4cxx-1.3.0": [
-"logging/log4cxx/1.3.0/apache-log4cxx-1.3.0.tar.gz",
-"logging/log4cxx/1.3.0/apache-log4cxx-1.3.0.zip"
-],
 "apache-log4cxx-1.3.1": [
 "logging/log4cxx/1.3.1/apache-log4cxx-1.3.1.tar.gz",
 "logging/log4cxx/1.3.1/apache-log4cxx-1.3.1.zip"
 ],
-"apache-log4j-2.24.2": [
-"logging/log4j/2.24.2/apache-log4j-2.24.2-src.zip"
+"apache-log4j-2.24.3": [
+"logging/log4j/2.24.3/apache-log4j-2.24.3-src.zip"
 ],
 "apache-log4j-3.0.0-beta3": [
 "logging/log4j/3.0.0-beta3/apache-log4j-3.0.0-beta3-src.zip"
@@ -5654,6 +5654,10 @@
 "lucene-9.12.0": [
 "lucene/java/9.12.0/lucene-9.12.0-src.tgz",
 "lucene/java/9.12.0/lucene-9.12.0.tgz"
+],
+"lucene-9.12.1": [
+"lucene/java/9.12.1/lucene-9.12.1-src.tgz",
+"lucene/java/9.12.1/lucene-9.12.1.tgz"
 ],
 "pylucene-10.0.0": [
 "lucene/pylucene/pylucene-10.0.0-src.tar.gz"
@@ -6672,9 +6676,6 @@
 "apache-netbeans-jackpot-13.0": [
 "netbeans/netbeans-jackpot/netbeans-jackpot-13.0/apache-netbeans-jackpot-13.0.zip"
 ],
-"apache-netbeans-java-23.9.9": [
-"netbeans/netbeans-vscode-ext/23.9.9/apache-netbeans-java-23.9.9-sources.zip"
-],
 "launcher-external-binaries-1-94a19f0": [
 "netbeans/native/netbeans-launchers/1-94a19f0/launcher-external-binaries-1-94a19f0.zip"
 ],
@@ -6695,9 +6696,6 @@
 ],
 "nbpackage-1.0-beta5": [
 "netbeans/netbeans-nbpackage/1.0-beta5/nbpackage-1.0-beta5-source-release.zip"
-],
-"netbeans-23": [
-"netbeans/netbeans/23/netbeans-23-source.zip"
 ],
 "netbeans-24": [
 "netbeans/netbeans/24/netbeans-24-source.zip"
@@ -7742,9 +7740,9 @@
 "poi/release/src/apache-poi-src-5.3.0-20240625.tgz",
 "poi/release/src/apache-poi-src-5.3.0-20240625.zip"
 ],
-"apache-xmlbeans-5.2.2-20241030": [
-"poi/xmlbeans/release/src/apache-xmlbeans-src-5.2.2-20241030.tgz",
-"poi/xmlbeans/release/src/apache-xmlbeans-src-5.2.2-20241030.zip"
+"apache-xmlbeans-5.3.0-20241203": [
+"poi/xmlbeans/release/src/apache-xmlbeans-src-5.3.0-20241203.tgz",
+"poi/xmlbeans/release/src/apache-xmlbeans-src-5.3.0-20241203.zip"
 ]
 },
 "portals": {
@@ -9460,8 +9458,8 @@
 "org.apache.sling.servlets.post-2.6.0": [
 "sling/org.apache.sling.servlets.post-2.6.0-source-release.zip"
 ],
-"org.apache.sling.servlets.resolver-2.11.4": [
-"sling/org.apache.sling.servlets.resolver-2.11.4-source-release.zip"
+"org.apache.sling.servlets.resolver-2.11.6": [
+"sling/org.apache.sling.servlets.resolver-2.11.6-source-release.zip"
 ],
 "org.apache.sling.settings-1.4.2": [
 "sling/org.apache.sling.settings-1.4.2-source-release.zip"
@@ -9502,23 +9500,23 @@
 "org.apache.sling.testing.logging-mock-2.0.0": [
 "sling/org.apache.sling.testing.logging-mock-2.0.0-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock-3.5.0": [
-"sling/org.apache.sling.testing.osgi-mock-3.5.0-source-release.zip"
+"org.apache.sling.testing.osgi-mock-3.5.2": [
+"sling/org.apache.sling.testing.osgi-mock-3.5.2-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.core-3.5.0": [
-"sling/org.apache.sling.testing.osgi-mock.core-3.5.0-source-release.zip"
+"org.apache.sling.testing.osgi-mock.core-3.5.2": [
+"sling/org.apache.sling.testing.osgi-mock.core-3.5.2-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.junit4-3.5.0": [
-"sling/org.apache.sling.testing.osgi-mock.junit4-3.5.0-source-release.zip"
+"org.apache.sling.testing.osgi-mock.junit4-3.5.2": [
+"sling/org.apache.sling.testing.osgi-mock.junit4-3.5.2-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.junit5-3.5.0": [
-"sling/org.apache.sling.testing.osgi-mock.junit5-3.5.0-source-release.zip"
+"org.apache.sling.testing.osgi-mock.junit5-3.5.2": [
+"sling/org.apache.sling.testing.osgi-mock.junit5-3.5.2-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.parent-3.5.0": [
-"sling/org.apache.sling.testing.osgi-mock.parent-3.5.0-source-release.zip"
+"org.apache.sling.testing.osgi-mock.parent-3.5.2": [
+"sling/org.apache.sling.testing.osgi-mock.parent-3.5.2-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.test-services-3.5.0": [
-"sling/org.apache.sling.testing.osgi-mock.test-services-3.5.0-source-release.zip"
+"org.apache.sling.testing.osgi-mock.test-services-3.5.2": [
+"sling/org.apache.sling.testing.osgi-mock.test-services-3.5.2-source-release.zip"
 ],
 "org.apache.sling.testing.paxexam-3.1.0": [
 "sling/org.apache.sling.testing.paxexam-3.1.0-source-release.zip"
@@ -10004,25 +10002,13 @@
 ]
 },
 "tomcat": {
-"apache-tomcat-10.1.33": [
-"tomcat/tomcat-10/v10.1.33/src/apache-tomcat-10.1.33-src.tar.gz",
-"tomcat/tomcat-10/v10.1.33/src/apache-tomcat-10.1.33-src.zip"
-],
 "apache-tomcat-10.1.34": [
 "tomcat/tomcat-10/v10.1.34/src/apache-tomcat-10.1.34-src.tar.gz",
 "tomcat/tomcat-10/v10.1.34/src/apache-tomcat-10.1.34-src.zip"
 ],
-"apache-tomcat-11.0.1": [
-"tomcat/tomcat-11/v11.0.1/src/apache-tomcat-11.0.1-src.tar.gz",
-"tomcat/tomcat-11/v11.0.1/src/apache-tomcat-11.0.1-src.zip"
-],
 "apache-tomcat-11.0.2": [
 "tomcat/tomcat-11/v11.0.2/src/apache-tomcat-11.0.2-src.tar.gz",
 "tomcat/tomcat-11/v11.0.2/src/apache-tomcat-11.0.2-src.zip"
-],
-"apache-tomcat-9.0.97": [
-"tomcat/tomcat-9/v9.0.97/src/apache-tomcat-9.0.97-src.tar.gz",
-"tomcat/tomcat-9/v9.0.97/src/apache-tomcat-9.0.97-src.zip"
 ],
 "apache-tomcat-9.0.98": [
 "tomcat/tomcat-9/v9.0.98/src/apache-tomcat-9.0.98-src.tar.gz",
