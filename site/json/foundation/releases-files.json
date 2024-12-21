@@ -418,6 +418,9 @@
 "apache-ambari-2.7.8": [
 "ambari/ambari-2.7.8/apache-ambari-2.7.8-src.tar.gz"
 ],
+"apache-ambari-2.7.9": [
+"ambari/ambari-2.7.9/apache-ambari-2.7.9-src.tar.gz"
+],
 "apache-ambari-metrics-3.0.0": [
 "ambari/ambari-metrics-3.0.0/apache-ambari-metrics-3.0.0-src.tar.gz"
 ]
@@ -1189,8 +1192,8 @@
 "apache-camel-3.21.5": [
 "camel/apache-camel/3.21.5/apache-camel-3.21.5-src.zip"
 ],
-"apache-camel-3.22.2": [
-"camel/apache-camel/3.22.2/apache-camel-3.22.2-src.zip"
+"apache-camel-3.22.3": [
+"camel/apache-camel/3.22.3/apache-camel-3.22.3-src.zip"
 ],
 "apache-camel-4.0.6": [
 "camel/apache-camel/4.0.6/apache-camel-4.0.6-src.zip"
@@ -4501,6 +4504,9 @@
 "apache-baremaps-0.7.3-incubating": [
 "incubator/baremaps/0.7.3/apache-baremaps-0.7.3-incubating-src.tar.gz"
 ],
+"apache-baremaps-0.8.1-incubating": [
+"incubator/baremaps/0.8.1/apache-baremaps-0.8.1-incubating-src.tar.gz"
+],
 "baremaps-0.7.1-incubating": [
 "incubator/baremaps/0.7.1/baremaps-0.7.1-incubating-src.tar.gz"
 ]
@@ -5651,13 +5657,9 @@
 ]
 },
 "lucene": {
-"lucene-10.0.0": [
-"lucene/java/10.0.0/lucene-10.0.0-src.tgz",
-"lucene/java/10.0.0/lucene-10.0.0.tgz"
-],
-"lucene-9.12.0": [
-"lucene/java/9.12.0/lucene-9.12.0-src.tgz",
-"lucene/java/9.12.0/lucene-9.12.0.tgz"
+"lucene-10.1.0": [
+"lucene/java/10.1.0/lucene-10.1.0-src.tgz",
+"lucene/java/10.1.0/lucene-10.1.0.tgz"
 ],
 "lucene-9.12.1": [
 "lucene/java/9.12.1/lucene-9.12.1-src.tgz",
@@ -9283,8 +9285,8 @@
 "org.apache.sling.models.caconfig-1.0.2": [
 "sling/org.apache.sling.models.caconfig-1.0.2-source-release.zip"
 ],
-"org.apache.sling.models.impl-1.7.6": [
-"sling/org.apache.sling.models.impl-1.7.6-source-release.zip"
+"org.apache.sling.models.impl-1.7.8": [
+"sling/org.apache.sling.models.impl-1.7.8-source-release.zip"
 ],
 "org.apache.sling.models.jacksonexporter-1.1.4": [
 "sling/org.apache.sling.models.jacksonexporter-1.1.4-source-release.zip"
@@ -9496,8 +9498,8 @@
 "org.apache.sling.testing.caconfig-mock-plugin-1.5.4": [
 "sling/org.apache.sling.testing.caconfig-mock-plugin-1.5.4-source-release.zip"
 ],
-"org.apache.sling.testing.clients-3.0.20": [
-"sling/org.apache.sling.testing.clients-3.0.20-source-release.zip"
+"org.apache.sling.testing.clients-3.1.0": [
+"sling/org.apache.sling.testing.clients-3.1.0-source-release.zip"
 ],
 "org.apache.sling.testing.email-1.0.0": [
 "sling/org.apache.sling.testing.email-1.0.0-source-release.zip"
@@ -9704,6 +9706,9 @@
 "SparkR_3.5.3": [
 "spark/spark-3.5.3/SparkR_3.5.3.tar.gz"
 ],
+"SparkR_3.5.4": [
+"spark/spark-3.5.4/SparkR_3.5.4.tar.gz"
+],
 "SparkR_4.0.0-preview2": [
 "spark/spark-4.0.0-preview2/SparkR_4.0.0-preview2.tar.gz"
 ],
@@ -9712,6 +9717,9 @@
 ],
 "pyspark-3.5.3": [
 "spark/spark-3.5.3/pyspark-3.5.3.tar.gz"
+],
+"pyspark-3.5.4": [
+"spark/spark-3.5.4/pyspark-3.5.4.tar.gz"
 ],
 "pyspark-4.0.0.dev2": [
 "spark/spark-4.0.0-preview2/pyspark-4.0.0.dev2.tar.gz"
@@ -9724,6 +9732,9 @@
 ],
 "spark-3.5.3": [
 "spark/spark-3.5.3/spark-3.5.3.tgz"
+],
+"spark-3.5.4": [
+"spark/spark-3.5.4/spark-3.5.4.tgz"
 ],
 "spark-4.0.0-preview2": [
 "spark/spark-4.0.0-preview2/spark-4.0.0-preview2.tgz"
@@ -10066,21 +10077,21 @@
 ]
 },
 "tomee": {
-"apache-tomee-10.0.0-M3-microprofile": [
-"tomee/tomee-10.0.0-M3/apache-tomee-10.0.0-M3-microprofile.tar.gz",
-"tomee/tomee-10.0.0-M3/apache-tomee-10.0.0-M3-microprofile.zip"
+"apache-tomee-10.0.0-microprofile": [
+"tomee/tomee-10.0.0/apache-tomee-10.0.0-microprofile.tar.gz",
+"tomee/tomee-10.0.0/apache-tomee-10.0.0-microprofile.zip"
 ],
-"apache-tomee-10.0.0-M3-plume": [
-"tomee/tomee-10.0.0-M3/apache-tomee-10.0.0-M3-plume.tar.gz",
-"tomee/tomee-10.0.0-M3/apache-tomee-10.0.0-M3-plume.zip"
+"apache-tomee-10.0.0-plume": [
+"tomee/tomee-10.0.0/apache-tomee-10.0.0-plume.tar.gz",
+"tomee/tomee-10.0.0/apache-tomee-10.0.0-plume.zip"
 ],
-"apache-tomee-10.0.0-M3-plus": [
-"tomee/tomee-10.0.0-M3/apache-tomee-10.0.0-M3-plus.tar.gz",
-"tomee/tomee-10.0.0-M3/apache-tomee-10.0.0-M3-plus.zip"
+"apache-tomee-10.0.0-plus": [
+"tomee/tomee-10.0.0/apache-tomee-10.0.0-plus.tar.gz",
+"tomee/tomee-10.0.0/apache-tomee-10.0.0-plus.zip"
 ],
-"apache-tomee-10.0.0-M3-webprofile": [
-"tomee/tomee-10.0.0-M3/apache-tomee-10.0.0-M3-webprofile.tar.gz",
-"tomee/tomee-10.0.0-M3/apache-tomee-10.0.0-M3-webprofile.zip"
+"apache-tomee-10.0.0-webprofile": [
+"tomee/tomee-10.0.0/apache-tomee-10.0.0-webprofile.tar.gz",
+"tomee/tomee-10.0.0/apache-tomee-10.0.0-webprofile.zip"
 ],
 "apache-tomee-8.0.16-microprofile": [
 "tomee/tomee-8.0.16/apache-tomee-8.0.16-microprofile.tar.gz",
@@ -10123,8 +10134,8 @@
 "javaee-api-8.0-6": [
 "tomee/javaee-api-8.0-6/javaee-api-8.0-6-source-release.zip"
 ],
-"tomee-10.0.0-M3": [
-"tomee/tomee-10.0.0-M3/tomee-project-10.0.0-M3-source-release.zip"
+"tomee-10.0.0": [
+"tomee/tomee-10.0.0/tomee-project-10.0.0-source-release.zip"
 ],
 "tomee-8.0.16": [
 "tomee/tomee-8.0.16/tomee-project-8.0.16-source-release.zip"
