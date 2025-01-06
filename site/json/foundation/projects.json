@@ -4232,7 +4232,7 @@
 "bug-database": "https://issues.apache.org/jira/browse/CAUSEWAY",
 "category": "web-framework",
 "created": "2013-01-03",
-"description": "Apache Causeway is a framework for rapidly developing domain-driven apps in Java. Write your business logic in entities, domain services and repositories, and the framework dynamically (at runtime) generates a representation of that domain model as a webapp or as a RESTful API. For prototyping or production.",
+"description": "Apache Causeway is a framework for rapidly developing domain-driven apps in Java. Write your business logic in entities, domain services and repositories, and the framework dynamically (at runtime) generates a representation of that domain model as a webapp, RESTful or GraphQL API. For prototyping or production.",
 "doap": "https://causeway.apache.org/doap_causeway.rdf",
 "download-page": "https://causeway.apache.org/docs/2.0.0-RC1/downloads/how-to",
 "homepage": "https://causeway.apache.org",
@@ -4248,6 +4248,11 @@
 "pmc": "causeway",
 "programming-language": "Java",
 "release": [
+{
+"created": "2025-01-04",
+"name": "causeway",
+"revision": "3.2.0"
+},
 {
 "created": "2024-07-05",
 "name": "causeway",
