@@ -425,6 +425,35 @@
 "ambari/ambari-metrics-3.0.0/apache-ambari-metrics-3.0.0-src.tar.gz"
 ]
 },
+"answer": {
+"apache-answer-1.2.0-incubating": [
+"answer/1.2.0-incubating/apache-answer-1.2.0-incubating-src.tar.gz"
+],
+"apache-answer-1.2.1-incubating": [
+"answer/1.2.1-incubating/apache-answer-1.2.1-incubating-src.tar.gz"
+],
+"apache-answer-1.2.5-incubating": [
+"answer/1.2.5-incubating/apache-answer-1.2.5-incubating-src.tar.gz"
+],
+"apache-answer-1.3.0-incubating": [
+"answer/1.3.0-incubating/apache-answer-1.3.0-incubating-src.tar.gz"
+],
+"apache-answer-1.3.1-incubating": [
+"answer/1.3.1-incubating/apache-answer-1.3.1-incubating-src.tar.gz"
+],
+"apache-answer-1.3.5-incubating": [
+"answer/1.3.5-incubating/apache-answer-1.3.5-incubating-src.tar.gz"
+],
+"apache-answer-1.3.6-incubating": [
+"answer/1.3.6-incubating/apache-answer-1.3.6-incubating-src.tar.gz"
+],
+"apache-answer-1.4.0-incubating": [
+"answer/1.4.0-incubating/apache-answer-1.4.0-incubating-src.tar.gz"
+],
+"apache-answer-1.4.1-incubating": [
+"answer/1.4.1-incubating/apache-answer-1.4.1-incubating-src.tar.gz"
+]
+},
 "ant": {
 "apache-ant-1.10.14": [
 "ant/source/apache-ant-1.10.14-src.tar.bz2",
@@ -1668,6 +1697,9 @@
 ],
 "apache-celeborn-0.5.2": [
 "celeborn/celeborn-0.5.2/apache-celeborn-0.5.2-source.tgz"
+],
+"apache-celeborn-0.5.3": [
+"celeborn/celeborn-0.5.3/apache-celeborn-0.5.3-source.tgz"
 ]
 },
 "celix": {
@@ -1893,9 +1925,9 @@
 "commons/cli/source/commons-cli-1.9.0-src.tar.gz",
 "commons/cli/source/commons-cli-1.9.0-src.zip"
 ],
-"commons-codec-1.17.1": [
-"commons/codec/source/commons-codec-1.17.1-src.tar.gz",
-"commons/codec/source/commons-codec-1.17.1-src.zip"
+"commons-codec-1.17.2": [
+"commons/codec/source/commons-codec-1.17.2-src.tar.gz",
+"commons/codec/source/commons-codec-1.17.2-src.zip"
 ],
 "commons-collections4-4.5.0-M3": [
 "commons/collections/source/commons-collections4-4.5.0-M3-src.tar.gz",
@@ -2760,6 +2792,9 @@
 "apache-doris-kafka-connector-1.1.0": [
 "doris/kafka-connector/1.1.0-rc01/apache-doris-kafka-connector-1.1.0-src.tar.gz"
 ],
+"apache-doris-kafka-connector-24.0.0": [
+"doris/kafka-connector/24.0.0/apache-doris-kafka-connector-24.0.0-src.tar.gz"
+],
 "apache-doris-operator-24.0.0": [
 "doris/doris-operator/apache-doris-operator-24.0.0-src.tar.gz"
 ],
@@ -2819,6 +2854,9 @@
 ],
 "apache-doris-spark-connector-2.3_2.11-1.1.0": [
 "doris/spark-connector/1.1.0/apache-doris-spark-connector-2.3_2.11-1.1.0-src.tar.gz"
+],
+"apache-doris-spark-connector-24.0.0": [
+"doris/spark-connector/24.0.0/apache-doris-spark-connector-24.0.0-src.tar.gz"
 ],
 "apache-doris-spark-connector-3.1_2.12-1.0.1-incubating": [
 "doris/spark-connector/1.0.1/apache-doris-spark-connector-3.1_2.12-1.0.1-incubating-src.tar.gz"
@@ -4456,35 +4494,6 @@
 "incubator/annotator/source/0.2.0/apache-annotator-0.2.0-incubating.tar.gz"
 ]
 },
-"incubator-answer": {
-"apache-answer-1.2.0-incubating": [
-"incubator/answer/1.2.0-incubating/apache-answer-1.2.0-incubating-src.tar.gz"
-],
-"apache-answer-1.2.1-incubating": [
-"incubator/answer/1.2.1-incubating/apache-answer-1.2.1-incubating-src.tar.gz"
-],
-"apache-answer-1.2.5-incubating": [
-"incubator/answer/1.2.5-incubating/apache-answer-1.2.5-incubating-src.tar.gz"
-],
-"apache-answer-1.3.0-incubating": [
-"incubator/answer/1.3.0-incubating/apache-answer-1.3.0-incubating-src.tar.gz"
-],
-"apache-answer-1.3.1-incubating": [
-"incubator/answer/1.3.1-incubating/apache-answer-1.3.1-incubating-src.tar.gz"
-],
-"apache-answer-1.3.5-incubating": [
-"incubator/answer/1.3.5-incubating/apache-answer-1.3.5-incubating-src.tar.gz"
-],
-"apache-answer-1.3.6-incubating": [
-"incubator/answer/1.3.6-incubating/apache-answer-1.3.6-incubating-src.tar.gz"
-],
-"apache-answer-1.4.0-incubating": [
-"incubator/answer/1.4.0-incubating/apache-answer-1.4.0-incubating-src.tar.gz"
-],
-"apache-answer-1.4.1-incubating": [
-"incubator/answer/1.4.1-incubating/apache-answer-1.4.1-incubating-src.tar.gz"
-]
-},
 "incubator-baremaps": {
 "apache-baremaps-0.7.2-incubating": [
 "incubator/baremaps/0.7.2/apache-baremaps-0.7.2-incubating-src.tar.gz"
@@ -5583,11 +5592,11 @@
 ]
 },
 "linkis": {
-"apache-linkis-1.5.0": [
-"linkis/1.5.0/apache-linkis-1.5.0-src.tar.gz"
-],
 "apache-linkis-1.6.0": [
 "linkis/1.6.0/apache-linkis-1.6.0-src.tar.gz"
+],
+"apache-linkis-1.7.0": [
+"linkis/1.7.0/apache-linkis-1.7.0-src.tar.gz"
 ]
 },
 "logging": {
@@ -6812,6 +6821,9 @@
 "apache-nuttx-12.7.0": [
 "nuttx/12.7.0/apache-nuttx-12.7.0.tar.gz"
 ],
+"apache-nuttx-12.8.0": [
+"nuttx/12.8.0/apache-nuttx-12.8.0.tar.gz"
+],
 "apache-nuttx-9.1.1-incubating": [
 "nuttx/9.1.1/apache-nuttx-9.1.1-incubating.tar.gz"
 ],
@@ -6859,6 +6871,9 @@
 ],
 "apache-nuttx-apps-12.7.0": [
 "nuttx/12.7.0/apache-nuttx-apps-12.7.0.tar.gz"
+],
+"apache-nuttx-apps-12.8.0": [
+"nuttx/12.8.0/apache-nuttx-apps-12.8.0.tar.gz"
 ],
 "apache-nuttx-apps-9.1.1-incubating": [
 "nuttx/9.1.1/apache-nuttx-apps-9.1.1-incubating.tar.gz"
@@ -9810,14 +9825,6 @@
 ],
 "apache-streampipes-0.95.1": [
 "streampipes/0.95.1/apache-streampipes-0.95.1-source-release.zip"
-]
-},
-"streams": {
-"apache-streams-0.6.1": [
-"streams/releases/0.6.1/apache-streams-0.6.1-source-release.zip"
-],
-"apache-streams-0.7.0": [
-"streams/releases/0.7.0/apache-streams-0.7.0-source-release.zip"
 ]
 },
 "struts": {
