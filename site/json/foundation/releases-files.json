@@ -1291,8 +1291,8 @@
 "apache-camel-quarkus-2.13.3": [
 "camel/camel-quarkus/2.13.3/apache-camel-quarkus-2.13.3-src.zip"
 ],
-"apache-camel-quarkus-3.15.1": [
-"camel/camel-quarkus/3.15.1/apache-camel-quarkus-3.15.1-src.zip"
+"apache-camel-quarkus-3.15.2": [
+"camel/camel-quarkus/3.15.2/apache-camel-quarkus-3.15.2-src.zip"
 ],
 "apache-camel-quarkus-3.16.0": [
 "camel/camel-quarkus/3.16.0/apache-camel-quarkus-3.16.0-src.zip"
@@ -2447,6 +2447,9 @@
 ],
 "apache-datafusion-44.0.0": [
 "datafusion/datafusion-44.0.0/apache-datafusion-44.0.0.tar.gz"
+],
+"apache-datafusion-ballista-43.0.0": [
+"datafusion/datafusion-ballista-43.0.0/apache-datafusion-ballista-43.0.0.tar.gz"
 ],
 "apache-datafusion-comet-0.5.0": [
 "datafusion/datafusion-comet-0.5.0/apache-datafusion-comet-0.5.0.tar.gz"
@@ -4850,9 +4853,6 @@
 ]
 },
 "incubator-pekko": {
-"apache-pekko-persistence-cassandra-1.0.0-incubating-20230916": [
-"incubator/pekko/PERSISTENCE_CASSANDRA-1.0.0/apache-pekko-persistence-cassandra-1.0.0-incubating-src-20230916.tgz"
-],
 "apache-pekko-persistence-r2dbc-1.0.0-incubating-20231209": [
 "incubator/pekko/PERSISTENCE-R2DBC-1.0.0/apache-pekko-persistence-r2dbc-1.0.0-incubating-src-20231209.tgz"
 ],
@@ -7353,9 +7353,6 @@
 "apache-pekko-persistence-cassandra-1.1.0-20250116": [
 "pekko/PERSISTENCE-CASSANDRA-1.1.0/apache-pekko-persistence-cassandra-1.1.0-src-20250116.tgz"
 ],
-"apache-pekko-persistence-cassandra-1.1.0-M1-20240715": [
-"pekko/PERSISTENCE-CASSANDRA-1.1.0-M1/apache-pekko-persistence-cassandra-1.1.0-M1-src-20240715.tgz"
-],
 "apache-pekko-persistence-dynamodb-1.1.0-20241020": [
 "pekko/PERSISTENCE-DYNAMODB-1.1.0/apache-pekko-persistence-dynamodb-1.1.0-src-20241020.tgz"
 ],
@@ -7639,6 +7636,9 @@
 "apache-pulsar-3.0.8": [
 "pulsar/pulsar-3.0.8/apache-pulsar-3.0.8-src.tar.gz"
 ],
+"apache-pulsar-3.0.9": [
+"pulsar/pulsar-3.0.9/apache-pulsar-3.0.9-src.tar.gz"
+],
 "apache-pulsar-3.1.3": [
 "pulsar/pulsar-3.1.3/apache-pulsar-3.1.3-src.tar.gz"
 ],
@@ -7663,11 +7663,17 @@
 "apache-pulsar-3.3.3": [
 "pulsar/pulsar-3.3.3/apache-pulsar-3.3.3-src.tar.gz"
 ],
+"apache-pulsar-3.3.4": [
+"pulsar/pulsar-3.3.4/apache-pulsar-3.3.4-src.tar.gz"
+],
 "apache-pulsar-4.0.0": [
 "pulsar/pulsar-4.0.0/apache-pulsar-4.0.0-src.tar.gz"
 ],
 "apache-pulsar-4.0.1": [
 "pulsar/pulsar-4.0.1/apache-pulsar-4.0.1-src.tar.gz"
+],
+"apache-pulsar-4.0.2": [
+"pulsar/pulsar-4.0.2/apache-pulsar-4.0.2-src.tar.gz"
 ],
 "apache-pulsar-adapters-2.11.0": [
 "pulsar/pulsar-adapters-2.11.0/apache-pulsar-adapters-2.11.0-src.tar.gz"
