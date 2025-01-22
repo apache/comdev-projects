@@ -751,8 +751,8 @@
 "apache-arrow-19.0.0": [
 "arrow/arrow-19.0.0/apache-arrow-19.0.0.tar.gz"
 ],
-"apache-arrow-adbc-15": [
-"arrow/apache-arrow-adbc-15/apache-arrow-adbc-15.tar.gz"
+"apache-arrow-adbc-16": [
+"arrow/apache-arrow-adbc-16/apache-arrow-adbc-16.tar.gz"
 ],
 "apache-arrow-ballista-0.12.0": [
 "arrow/arrow-ballista-0.12.0/apache-arrow-ballista-0.12.0.tar.gz"
@@ -958,8 +958,8 @@
 "apache-beam-1688ac1374ff02286ba8e59c9379bf7bb5875646": [
 "beam/vendor/beam-vendor-grpc-1_43_2/0.1/apache-beam-1688ac1374ff02286ba8e59c9379bf7bb5875646-source-release.zip"
 ],
-"apache-beam-2.61.0": [
-"beam/2.61.0/apache-beam-2.61.0-source-release.zip"
+"apache-beam-2.62.0": [
+"beam/2.62.0/apache-beam-2.62.0-source-release.zip"
 ],
 "apache-beam-2d08b32e674a1046ba7be0ae5f1e4b7b05b73488": [
 "beam/vendor/grpc-1_60_1/0.2/apache-beam-2d08b32e674a1046ba7be0ae5f1e4b7b05b73488-source-release.zip"
@@ -994,8 +994,8 @@
 "apache-beam-jupyterlab-sidepanel-v3.0.0": [
 "beam/extensions/jupyterlab-sidepanel/v3.0.0/apache-beam-jupyterlab-sidepanel-v3.0.0-source-release.zip"
 ],
-"apache_beam-2.61.0": [
-"beam/2.61.0/python/apache_beam-2.61.0.tar.gz"
+"apache_beam-2.62.0": [
+"beam/2.62.0/python/apache_beam-2.62.0.tar.gz"
 ]
 },
 "bigtop": {
@@ -2417,9 +2417,6 @@
 "apache-daffodil-3.10.0": [
 "daffodil/3.10.0/src/apache-daffodil-3.10.0-src.zip"
 ],
-"apache-daffodil-3.9.0": [
-"daffodil/3.9.0/src/apache-daffodil-3.9.0-src.zip"
-],
 "apache-daffodil-sbt-1.2.0": [
 "daffodil/daffodil-sbt/1.2.0/src/apache-daffodil-sbt-1.2.0-src.zip"
 ],
@@ -3609,6 +3606,9 @@
 ],
 "flink-cdc-3.2.1": [
 "flink/flink-cdc-3.2.1/flink-cdc-3.2.1-src.tgz"
+],
+"flink-cdc-3.3.0": [
+"flink/flink-cdc-3.3.0/flink-cdc-3.3.0-src.tgz"
 ],
 "flink-connector-1.0.0": [
 "flink/flink-connector-parent-1.0.0/flink-connector-parent-1.0.0-src.tgz"
@@ -5190,8 +5190,8 @@
 ]
 },
 "jena": {
-"jena-5.2.0": [
-"jena/source/jena-5.2.0-source-release.zip"
+"jena-5.3.0": [
+"jena/source/jena-5.3.0-source-release.zip"
 ]
 },
 "jmeter": {
@@ -9420,6 +9420,10 @@
 "solr/solr/9.7.0/solr-9.7.0-src.tgz",
 "solr/solr/9.7.0/solr-9.7.0.tgz"
 ],
+"solr-9.8.0": [
+"solr/solr/9.8.0/solr-9.8.0-src.tgz",
+"solr/solr/9.8.0/solr-9.8.0.tgz"
+],
 "solr-operator-v0.7.1": [
 "solr/solr-operator/v0.7.1/solr-operator-v0.7.1.tgz"
 ],
@@ -9764,9 +9768,9 @@
 "tomcat/tomcat-9/v9.0.98/src/apache-tomcat-9.0.98-src.tar.gz",
 "tomcat/tomcat-9/v9.0.98/src/apache-tomcat-9.0.98-src.zip"
 ],
-"jakartaee-migration-1.0.8": [
-"tomcat/jakartaee-migration/v1.0.8/source/jakartaee-migration-1.0.8-src.tar.gz",
-"tomcat/jakartaee-migration/v1.0.8/source/jakartaee-migration-1.0.8-src.zip"
+"jakartaee-migration-1.0.9": [
+"tomcat/jakartaee-migration/v1.0.9/source/jakartaee-migration-1.0.9-src.tar.gz",
+"tomcat/jakartaee-migration/v1.0.9/source/jakartaee-migration-1.0.9-src.zip"
 ],
 "taglibs-standard-1.2.5": [
 "tomcat/taglibs/taglibs-standard-1.2.5/taglibs-standard-1.2.5-source-release.zip"
