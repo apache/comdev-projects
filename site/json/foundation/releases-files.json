@@ -1640,10 +1640,6 @@
 "apache-cassandra-5.0.2": [
 "cassandra/5.0.2/apache-cassandra-5.0.2-src.tar.gz"
 ],
-"apache-cassandra-java-driver-3.12.0": [
-"cassandra/cassandra-java-driver/3.12.0/apache-cassandra-java-driver-3.12.0-source.tar.gz",
-"cassandra/cassandra-java-driver/3.12.0/apache-cassandra-java-driver-3.12.0.tar.gz"
-],
 "apache-cassandra-java-driver-3.12.1": [
 "cassandra/cassandra-java-driver/3.12.1/apache-cassandra-java-driver-3.12.1-source.tar.gz",
 "cassandra/cassandra-java-driver/3.12.1/apache-cassandra-java-driver-3.12.1.tar.gz"
@@ -4011,8 +4007,8 @@
 "apache-groovy-4.0.25": [
 "groovy/4.0.25/sources/apache-groovy-src-4.0.25.zip"
 ],
-"apache-groovy-5.0.0-alpha-11": [
-"groovy/5.0.0-alpha-11/sources/apache-groovy-src-5.0.0-alpha-11.zip"
+"apache-groovy-5.0.0-alpha-12": [
+"groovy/5.0.0-alpha-12/sources/apache-groovy-src-5.0.0-alpha-12.zip"
 ],
 "apache-groovy-sdk-2.4.21": [
 "groovy/2.4.21/distribution/apache-groovy-sdk-2.4.21.zip"
@@ -4026,8 +4022,8 @@
 "apache-groovy-sdk-4.0.25": [
 "groovy/4.0.25/distribution/apache-groovy-sdk-4.0.25.zip"
 ],
-"apache-groovy-sdk-5.0.0-alpha-11": [
-"groovy/5.0.0-alpha-11/distribution/apache-groovy-sdk-5.0.0-alpha-11.zip"
+"apache-groovy-sdk-5.0.0-alpha-12": [
+"groovy/5.0.0-alpha-12/distribution/apache-groovy-sdk-5.0.0-alpha-12.zip"
 ]
 },
 "guacamole": {
@@ -4116,8 +4112,8 @@
 "hbase-operator-tools-1.2.0": [
 "hbase/hbase-operator-tools-1.2.0/hbase-operator-tools-1.2.0-src.tar.gz"
 ],
-"hbase-thirdparty-4.1.9": [
-"hbase/hbase-thirdparty-4.1.9/hbase-thirdparty-4.1.9-src.tar.gz"
+"hbase-thirdparty-4.1.10": [
+"hbase/hbase-thirdparty-4.1.10/hbase-thirdparty-4.1.10-src.tar.gz"
 ]
 },
 "helix": {
@@ -9524,6 +9520,12 @@
 "storm/apache-storm-2.7.1/apache-storm-2.7.1-src.zip",
 "storm/apache-storm-2.7.1/apache-storm-2.7.1.tar.gz",
 "storm/apache-storm-2.7.1/apache-storm-2.7.1.zip"
+],
+"apache-storm-2.8.0": [
+"storm/apache-storm-2.8.0/apache-storm-2.8.0-src.tar.gz",
+"storm/apache-storm-2.8.0/apache-storm-2.8.0-src.zip",
+"storm/apache-storm-2.8.0/apache-storm-2.8.0.tar.gz",
+"storm/apache-storm-2.8.0/apache-storm-2.8.0.zip"
 ]
 },
 "streampipes": {
@@ -10533,18 +10535,6 @@
 ]
 },
 "yunikorn": {
-"apache-yunikorn-1.5.0": [
-"yunikorn/1.5.0/apache-yunikorn-1.5.0-src.tar.gz"
-],
-"apache-yunikorn-1.5.1": [
-"yunikorn/1.5.1/apache-yunikorn-1.5.1-src.tar.gz"
-],
-"apache-yunikorn-1.5.2": [
-"yunikorn/1.5.2/apache-yunikorn-1.5.2-src.tar.gz"
-],
-"apache-yunikorn-1.6.0": [
-"yunikorn/1.6.0/apache-yunikorn-1.6.0-src.tar.gz"
-],
 "apache-yunikorn-1.6.1": [
 "yunikorn/1.6.1/apache-yunikorn-1.6.1-src.tar.gz"
 ]
