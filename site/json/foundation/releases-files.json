@@ -3316,13 +3316,13 @@
 "felix/org.apache.felix.utils-1.11.8-source-release.tar.gz",
 "felix/org.apache.felix.utils-1.11.8-source-release.zip"
 ],
-"org.apache.felix.webconsole-4.9.8": [
-"felix/org.apache.felix.webconsole-4.9.8-source-release.tar.gz",
-"felix/org.apache.felix.webconsole-4.9.8-source-release.zip"
+"org.apache.felix.webconsole-4.9.10": [
+"felix/org.apache.felix.webconsole-4.9.10-source-release.tar.gz",
+"felix/org.apache.felix.webconsole-4.9.10-source-release.zip"
 ],
-"org.apache.felix.webconsole-5.0.8": [
-"felix/org.apache.felix.webconsole-5.0.8-source-release.tar.gz",
-"felix/org.apache.felix.webconsole-5.0.8-source-release.zip"
+"org.apache.felix.webconsole-5.0.10": [
+"felix/org.apache.felix.webconsole-5.0.10-source-release.tar.gz",
+"felix/org.apache.felix.webconsole-5.0.10-source-release.zip"
 ],
 "org.apache.felix.webconsole.plugins.ds-2.3.0": [
 "felix/org.apache.felix.webconsole.plugins.ds-2.3.0-source-release.tar.gz",
@@ -4330,6 +4330,9 @@
 "apache-ignite-2.16.0-nuget": [
 "ignite/2.16.0/apache-ignite-2.16.0-nuget.zip"
 ],
+"apache-ignite-3.0.0": [
+"ignite/3.0.0/apache-ignite-3.0.0-src.zip"
+],
 "apache-ignite-3.0.0-alpha4": [
 "ignite/3.0.0-alpha4/apache-ignite-3.0.0-alpha4-src.zip",
 "ignite/3.0.0-alpha4/apache-ignite-3.0.0-alpha4.zip"
@@ -4346,6 +4349,12 @@
 ],
 "apache-ignite-3.0.0-beta1-nuget": [
 "ignite/3.0.0-beta1/apache-ignite-3.0.0-beta1-nuget.zip"
+],
+"apache-ignite-3.0.0-cpp": [
+"ignite/3.0.0/apache-ignite-3.0.0-cpp.zip"
+],
+"apache-ignite-3.0.0-nuget": [
+"ignite/3.0.0/apache-ignite-3.0.0-nuget.zip"
 ],
 "ignite-aws-ext": [
 "ignite/ignite-extensions/ignite-aws-ext/1.0.0/ignite-aws-ext-src.zip"
@@ -4392,11 +4401,20 @@
 "ignite-zookeeper-ip-finder-ext": [
 "ignite/ignite-extensions/ignite-zookeeper-ip-finder-ext/1.0.0/ignite-zookeeper-ip-finder-ext-src.zip"
 ],
+"ignite3-3.0.0": [
+"ignite/3.0.0/ignite3-3.0.0.zip"
+],
 "ignite3-3.0.0-beta1": [
 "ignite/3.0.0-beta1/ignite3-3.0.0-beta1.zip"
 ],
+"ignite3-cli-3.0.0": [
+"ignite/3.0.0/ignite3-cli-3.0.0.zip"
+],
 "ignite3-cli-3.0.0-beta1": [
 "ignite/3.0.0-beta1/ignite3-cli-3.0.0-beta1.zip"
+],
+"ignite3-db-3.0.0": [
+"ignite/3.0.0/ignite3-db-3.0.0.zip"
 ],
 "ignite3-db-3.0.0-beta1": [
 "ignite/3.0.0-beta1/ignite3-db-3.0.0-beta1.zip"
@@ -5009,20 +5027,8 @@
 "apache-jspf-sources-1.0.5": [
 "james/jspf/1.0.5/apache-jspf-sources-1.0.5.zip"
 ],
-"james-3.7.3": [
-"james/server/3.7.3/james-project-3.7.3-source-release.zip"
-],
-"james-3.7.4": [
-"james/server/3.7.4/james-project-3.7.4-source-release.zip"
-],
-"james-3.7.5": [
-"james/server/3.7.5/james-project-3.7.5-source-release.zip"
-],
-"james-3.8.0": [
-"james/server/3.8.0/james-project-3.8.0-source-release.zip"
-],
-"james-3.8.1": [
-"james/server/3.8.1/james-project-3.8.1-source-release.zip"
+"james-3.7.6": [
+"james/server/3.7.6/james-project-3.7.6-source-release.zip"
 ],
 "james-3.8.2": [
 "james/server/3.8.2/james-project-3.8.2-source-release.zip"
@@ -5033,59 +5039,27 @@
 "james-mime4j-sources-0.8.12": [
 "james/mime4j/0.8.12/james-mime4j-sources-0.8.12.zip"
 ],
-"james-server-app-3.8.0": [
-"james/server/3.8.0/james-server-app-3.8.0-app.zip"
-],
 "james-server-cassandra": [
-"james/server/3.7.3/james-server-cassandra-app.zip",
-"james/server/3.7.4/james-server-cassandra-app.zip",
-"james/server/3.7.5/james-server-cassandra-app.zip",
-"james/server/3.8.0/james-server-cassandra-app.zip",
-"james/server/3.8.1/james-server-cassandra-app.zip",
+"james/server/3.7.6/james-server-cassandra-app.zip",
 "james/server/3.8.2/james-server-cassandra-app.zip"
 ],
 "james-server-cassandra-guice": [
-"james/server/3.7.3/james-server-cassandra-guice.zip",
-"james/server/3.7.4/james-server-cassandra-guice.zip",
-"james/server/3.7.5/james-server-cassandra-guice.zip",
-"james/server/3.8.0/james-server-cassandra-guice.zip",
-"james/server/3.8.1/james-server-cassandra-guice.zip",
+"james/server/3.7.6/james-server-cassandra-guice.zip",
 "james/server/3.8.2/james-server-cassandra-guice.zip"
 ],
 "james-server-distributed": [
-"james/server/3.7.3/james-server-distributed-app.zip",
-"james/server/3.7.4/james-server-distributed-app.zip",
-"james/server/3.7.5/james-server-distributed-app.zip",
-"james/server/3.8.0/james-server-distributed-app.zip",
-"james/server/3.8.1/james-server-distributed-app.zip"
+"james/server/3.7.6/james-server-distributed-app.zip"
 ],
 "james-server-distributed-guice": [
-"james/server/3.7.3/james-server-distributed-guice.zip",
-"james/server/3.7.4/james-server-distributed-guice.zip",
-"james/server/3.7.5/james-server-distributed-guice.zip",
-"james/server/3.8.0/james-server-distributed-guice.zip",
-"james/server/3.8.1/james-server-distributed-guice.zip",
+"james/server/3.7.6/james-server-distributed-guice.zip",
 "james/server/3.8.2/james-server-distributed-guice.zip"
 ],
 "james-server-jpa-guice": [
-"james/server/3.7.3/james-server-jpa-guice.zip",
-"james/server/3.7.4/james-server-jpa-guice.zip",
-"james/server/3.7.5/james-server-jpa-guice.zip",
-"james/server/3.8.0/james-server-jpa-guice.zip",
-"james/server/3.8.1/james-server-jpa-guice.zip",
+"james/server/3.7.6/james-server-jpa-guice.zip",
 "james/server/3.8.2/james-server-jpa-guice.zip"
 ],
-"james-server-spring-app-3.7.3": [
-"james/server/3.7.3/james-server-spring-app-3.7.3-app.zip"
-],
-"james-server-spring-app-3.7.4": [
-"james/server/3.7.4/james-server-spring-app-3.7.4-app.zip"
-],
-"james-server-spring-app-3.7.5": [
-"james/server/3.7.5/james-server-spring-app-3.7.5-app.zip"
-],
-"james-server-spring-app-3.8.1": [
-"james/server/3.8.1/james-server-spring-app-3.8.1-app.zip"
+"james-server-spring-app-3.7.6": [
+"james/server/3.7.6/james-server-spring-app-3.7.6-app.zip"
 ],
 "james-server-spring-app-3.8.2": [
 "james/server/3.8.2/james-server-spring-app-3.8.2-app.zip"
@@ -6102,8 +6076,8 @@
 "maven-resolver-2.0.5": [
 "maven/resolver/maven-resolver-2.0.5-source-release.zip"
 ],
-"maven-resolver-ant-tasks-1.5.1": [
-"maven/resolver/maven-resolver-ant-tasks-1.5.1-source-release.zip"
+"maven-resolver-ant-tasks-1.5.2": [
+"maven/resolver/maven-resolver-ant-tasks-1.5.2-source-release.zip"
 ],
 "maven-resources-plugin-3.3.1": [
 "maven/plugins/maven-resources-plugin-3.3.1-source-release.zip"
@@ -6707,6 +6681,9 @@
 ],
 "nifi-minifi-cpp-0.99.0": [
 "nifi/nifi-minifi-cpp/0.99.0/nifi-minifi-cpp-0.99.0-source.tar.gz"
+],
+"nifi-minifi-cpp-0.99.1": [
+"nifi/nifi-minifi-cpp/0.99.1/nifi-minifi-cpp-0.99.1-source.tar.gz"
 ],
 "nifi-nar-maven-plugin-2.1.0": [
 "nifi/nifi-nar-maven-plugin-2.1.0/nifi-nar-maven-plugin-2.1.0-source-release.zip"
