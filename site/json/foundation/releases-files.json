@@ -751,9 +751,6 @@
 "apache-arrow-adbc-16": [
 "arrow/apache-arrow-adbc-16/apache-arrow-adbc-16.tar.gz"
 ],
-"apache-arrow-ballista-0.12.0": [
-"arrow/arrow-ballista-0.12.0/apache-arrow-ballista-0.12.0.tar.gz"
-],
 "apache-arrow-flight-sql-postgresql-0.1.0": [
 "arrow/apache-arrow-flight-sql-postgresql-0.1.0/apache-arrow-flight-sql-postgresql-0.1.0.tar.gz"
 ],
@@ -1631,14 +1628,14 @@
 ]
 },
 "cassandra": {
-"apache-cassandra-3.0.31": [
-"cassandra/3.0.31/apache-cassandra-3.0.31-src.tar.gz"
+"apache-cassandra-3.0.32": [
+"cassandra/3.0.32/apache-cassandra-3.0.32-src.tar.gz"
 ],
-"apache-cassandra-3.11.18": [
-"cassandra/3.11.18/apache-cassandra-3.11.18-src.tar.gz"
+"apache-cassandra-3.11.19": [
+"cassandra/3.11.19/apache-cassandra-3.11.19-src.tar.gz"
 ],
-"apache-cassandra-4.0.16": [
-"cassandra/4.0.16/apache-cassandra-4.0.16-src.tar.gz"
+"apache-cassandra-4.0.17": [
+"cassandra/4.0.17/apache-cassandra-4.0.17-src.tar.gz"
 ],
 "apache-cassandra-4.1.8": [
 "cassandra/4.1.8/apache-cassandra-4.1.8-src.tar.gz"
@@ -2336,6 +2333,9 @@
 "apache-datafusion-44.0.0": [
 "datafusion/datafusion-44.0.0/apache-datafusion-44.0.0.tar.gz"
 ],
+"apache-datafusion-45.0.0": [
+"datafusion/datafusion-45.0.0/apache-datafusion-45.0.0.tar.gz"
+],
 "apache-datafusion-ballista-43.0.0": [
 "datafusion/datafusion-ballista-43.0.0/apache-datafusion-ballista-43.0.0.tar.gz"
 ],
@@ -2344,6 +2344,9 @@
 ],
 "apache-datafusion-python-43.1.0": [
 "datafusion/datafusion-python-43.1.0/apache-datafusion-python-43.1.0.tar.gz"
+],
+"apache-datafusion-python-44.0.0": [
+"datafusion/datafusion-python-44.0.0/apache-datafusion-python-44.0.0.tar.gz"
 ],
 "apache-datafusion-sqlparser-rs-0.52.0": [
 "datafusion/datafusion-sqlparser-rs-0.52.0/apache-datafusion-sqlparser-rs-0.52.0.tar.gz"
@@ -5367,6 +5370,9 @@
 "apache-kvrocks-2.11.0": [
 "kvrocks/2.11.0/apache-kvrocks-2.11.0-src.tar.gz"
 ],
+"apache-kvrocks-2.11.1": [
+"kvrocks/2.11.1/apache-kvrocks-2.11.1-src.tar.gz"
+],
 "apache-kvrocks-2.2.0-incubating": [
 "kvrocks/2.2.0/apache-kvrocks-2.2.0-incubating-src.tar.gz"
 ],
@@ -6857,8 +6863,14 @@
 "apache-opendal-bindings-c-0.45.3": [
 "opendal/0.51.1/apache-opendal-bindings-c-0.45.3-src.tar.gz"
 ],
+"apache-opendal-bindings-c-0.45.4": [
+"opendal/0.51.2/apache-opendal-bindings-c-0.45.4-src.tar.gz"
+],
 "apache-opendal-bindings-cpp-0.45.15": [
 "opendal/0.51.1/apache-opendal-bindings-cpp-0.45.15-src.tar.gz"
+],
+"apache-opendal-bindings-cpp-0.45.16": [
+"opendal/0.51.2/apache-opendal-bindings-cpp-0.45.16-src.tar.gz"
 ],
 "apache-opendal-bindings-dotnet-0.1.13": [
 "opendal/0.51.1/apache-opendal-bindings-dotnet-0.1.13-src.tar.gz"
@@ -6869,8 +6881,14 @@
 "apache-opendal-bindings-java-0.47.7": [
 "opendal/0.51.1/apache-opendal-bindings-java-0.47.7-src.tar.gz"
 ],
+"apache-opendal-bindings-java-0.47.8": [
+"opendal/0.51.2/apache-opendal-bindings-java-0.47.8-src.tar.gz"
+],
 "apache-opendal-bindings-lua-0.1.13": [
 "opendal/0.51.1/apache-opendal-bindings-lua-0.1.13-src.tar.gz"
+],
+"apache-opendal-bindings-nodejs-0.47.10": [
+"opendal/0.51.2/apache-opendal-bindings-nodejs-0.47.10-src.tar.gz"
 ],
 "apache-opendal-bindings-nodejs-0.47.9": [
 "opendal/0.51.1/apache-opendal-bindings-nodejs-0.47.9-src.tar.gz"
@@ -6881,32 +6899,59 @@
 "apache-opendal-bindings-python-0.45.14": [
 "opendal/0.51.1/apache-opendal-bindings-python-0.45.14-src.tar.gz"
 ],
+"apache-opendal-bindings-python-0.45.15": [
+"opendal/0.51.2/apache-opendal-bindings-python-0.45.15-src.tar.gz"
+],
 "apache-opendal-bindings-ruby-0.1.13": [
 "opendal/0.51.1/apache-opendal-bindings-ruby-0.1.13-src.tar.gz"
 ],
 "apache-opendal-core-0.51.1": [
 "opendal/0.51.1/apache-opendal-core-0.51.1-src.tar.gz"
 ],
+"apache-opendal-core-0.51.2": [
+"opendal/0.51.2/apache-opendal-core-0.51.2-src.tar.gz"
+],
 "apache-opendal-integrations-cloud_filter-0.0.4": [
 "opendal/0.51.1/apache-opendal-integrations-cloud_filter-0.0.4-src.tar.gz"
+],
+"apache-opendal-integrations-cloud_filter-0.0.5": [
+"opendal/0.51.2/apache-opendal-integrations-cloud_filter-0.0.5-src.tar.gz"
 ],
 "apache-opendal-integrations-compat-1.0.2": [
 "opendal/0.51.1/apache-opendal-integrations-compat-1.0.2-src.tar.gz"
 ],
+"apache-opendal-integrations-compat-1.0.3": [
+"opendal/0.51.2/apache-opendal-integrations-compat-1.0.3-src.tar.gz"
+],
 "apache-opendal-integrations-dav-server-0.3.0": [
 "opendal/0.51.1/apache-opendal-integrations-dav-server-0.3.0-src.tar.gz"
+],
+"apache-opendal-integrations-dav-server-0.3.1": [
+"opendal/0.51.2/apache-opendal-integrations-dav-server-0.3.1-src.tar.gz"
 ],
 "apache-opendal-integrations-fuse3-0.0.11": [
 "opendal/0.51.1/apache-opendal-integrations-fuse3-0.0.11-src.tar.gz"
 ],
+"apache-opendal-integrations-fuse3-0.0.12": [
+"opendal/0.51.2/apache-opendal-integrations-fuse3-0.0.12-src.tar.gz"
+],
 "apache-opendal-integrations-object_store-0.49.0": [
 "opendal/0.51.1/apache-opendal-integrations-object_store-0.49.0-src.tar.gz"
+],
+"apache-opendal-integrations-object_store-0.49.1": [
+"opendal/0.51.2/apache-opendal-integrations-object_store-0.49.1-src.tar.gz"
 ],
 "apache-opendal-integrations-parquet-0.3.0": [
 "opendal/0.51.1/apache-opendal-integrations-parquet-0.3.0-src.tar.gz"
 ],
+"apache-opendal-integrations-parquet-0.3.1": [
+"opendal/0.51.2/apache-opendal-integrations-parquet-0.3.1-src.tar.gz"
+],
 "apache-opendal-integrations-unftp-sbe-0.0.11": [
 "opendal/0.51.1/apache-opendal-integrations-unftp-sbe-0.0.11-src.tar.gz"
+],
+"apache-opendal-integrations-unftp-sbe-0.0.12": [
+"opendal/0.51.2/apache-opendal-integrations-unftp-sbe-0.0.12-src.tar.gz"
 ]
 },
 "openjpa": {
@@ -8796,8 +8841,8 @@
 "org.apache.sling.installer.core-3.14.2": [
 "sling/org.apache.sling.installer.core-3.14.2-source-release.zip"
 ],
-"org.apache.sling.installer.factory.configuration-1.4.8": [
-"sling/org.apache.sling.installer.factory.configuration-1.4.8-source-release.zip"
+"org.apache.sling.installer.factory.configuration-1.4.10": [
+"sling/org.apache.sling.installer.factory.configuration-1.4.10-source-release.zip"
 ],
 "org.apache.sling.installer.factory.feature-0.8.0": [
 "sling/org.apache.sling.installer.factory.feature-0.8.0-source-release.zip"
@@ -9672,8 +9717,8 @@
 ]
 },
 "tika": {
-"tika-2.9.2": [
-"tika/2.9.2/tika-2.9.2-src.zip"
+"tika-2.9.3": [
+"tika/2.9.3/tika-2.9.3-src.zip"
 ],
 "tika-3.1.0": [
 "tika/3.1.0/tika-3.1.0-src.zip"

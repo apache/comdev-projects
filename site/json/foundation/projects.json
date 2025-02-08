@@ -2942,6 +2942,37 @@
 ],
 "shortdesc": "Regular Expression engine supporting various dialects"
 },
+"attic-pivot": {
+"bug-database": "http://issues.apache.org/jira/browse/PIVOT",
+"category": "retired, library",
+"created": "2012-03-26",
+"description": "Apache Pivot is an open-source platform for building installable Internet applications (IIAs).\nIt combines the enhanced productivity and usability features of a modern user interface toolkit with the robustness of the Java platform.\n",
+"doap": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/pivot.rdf",
+"download-page": "http://pivot.apache.org/download.cgi",
+"homepage": "http://pivot.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://pivot.apache.org/lists.html",
+"maintainer": [
+{
+"mbox": "mailto:smartini@apache.org",
+"name": "Sandro Martini"
+}
+],
+"name": "Apache Pivot",
+"pmc": "attic",
+"programming-language": "Java",
+"release": [
+{
+"created": "2012-01-16",
+"name": "Bug fix and Compatible Improvements over Pivot-2.0",
+"revision": "2.0.1"
+}
+],
+"repository": [
+"http://svn.apache.org/repos/asf/pivot/trunk/"
+],
+"shortdesc": "Apache Pivot is an open-source platform for building installable Internet applications (IIAs)."
+},
 "attic-polygene": {
 "bug-database": "https://issues.apache.org/jira/browse/POLYGENE",
 "category": "library, retired",
@@ -15337,37 +15368,6 @@
 "https://gitbox.apache.org/repos/asf/pinot.git"
 ],
 "shortdesc": "Apache Pinot is a real-time distributed OLAP datastore purpose-built for low-latency, high-throughput analytics."
-},
-"pivot": {
-"bug-database": "http://issues.apache.org/jira/browse/PIVOT",
-"category": "library, retired",
-"created": "2012-03-26",
-"description": "Apache Pivot is an open-source platform for building installable Internet applications (IIAs).\nIt combines the enhanced productivity and usability features of a modern user interface toolkit with the robustness of the Java platform.\n",
-"doap": "http://svn.apache.org/repos/asf/pivot/infra/doap/doap_Pivot.rdf",
-"download-page": "http://pivot.apache.org/download.cgi",
-"homepage": "http://pivot.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://pivot.apache.org/lists.html",
-"maintainer": [
-{
-"mbox": "mailto:smartini@apache.org",
-"name": "Sandro Martini"
-}
-],
-"name": "Apache Pivot",
-"pmc": "attic",
-"programming-language": "Java",
-"release": [
-{
-"created": "2012-01-16",
-"name": "Bug fix and Compatible Improvements over Pivot-2.0",
-"revision": "2.0.1"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/pivot/trunk/"
-],
-"shortdesc": "Apache Pivot is an open-source platform for building installable Internet applications (IIAs)."
 },
 "plc4x": {
 "bug-database": "https://github.com/apache/plc4x/issues",
