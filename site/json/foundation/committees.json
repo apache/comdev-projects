@@ -170,7 +170,7 @@
 "shortdesc": "Sorted, distributed key/value store"
 },
 {
-"chair": "bsnyder",
+"chair": "cshannon",
 "charter": "The mission of Apache ActiveMQ is the creation and maintenance of software implementing a distributed messaging system",
 "established": "2007-01",
 "group": "activemq",
@@ -1528,7 +1528,7 @@
 "shortdesc": "Powering Columnar In-Memory Analytics"
 },
 {
-"chair": "tillw",
+"chair": "imaxon",
 "charter": "The mission of AsterixDB is the creation and maintenance of software related to open source Big Data Management System",
 "established": "2016-04",
 "group": "asterixdb",
@@ -3224,7 +3224,7 @@
 "shortdesc": "Spring based Integration Framework which implements the Enterprise Integration Patterns"
 },
 {
-"chair": "chenliang613",
+"chair": "jackylk",
 "charter": "The mission of Apache CarbonData is the creation and maintenance of software related to an indexed columnar data format for fast analytics on big data platforms",
 "established": "2017-04",
 "group": "carbondata",
@@ -10348,6 +10348,7 @@
 "id": "incubator",
 "name": "Apache Incubator",
 "rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/incubator.rdf",
+"reporting": 0,
 "roster": {
 "aajisaka": {
 "date": "2018-12-08",
@@ -13617,7 +13618,7 @@
 "shortdesc": "Creation and development of a brand and logo for the Foundation"
 },
 {
-"chair": "chegar",
+"chair": "dweiss",
 "charter": "The mission of Lucene is the creation and maintenance of software related to Search engine library",
 "established": "2005-01",
 "group": "lucene",
@@ -14135,7 +14136,7 @@
 "shortdesc": "Framework for connecting source content repositories to target repositories or indexes."
 },
 {
-"chair": "khmarbaise",
+"chair": "hboutemy",
 "charter": "The mission of Maven is the creation and maintenance of software related to Java project management and comprehension tools",
 "established": "2003-03",
 "group": "maven",
@@ -14559,88 +14560,6 @@
 }
 },
 "shortdesc": "Multipurpose Infrastructure for Network Application"
-},
-{
-"chair": "garyw",
-"charter": "The mission of Apache Mnemonic is the creation and maintenance of software related to a transparent nonvolatile hybrid memory oriented library for Big data, High-performance computing, and Analytics",
-"established": "2020-12",
-"group": "mnemonic",
-"homepage": "http://mnemonic.apache.org/",
-"id": "mnemonic",
-"name": "Apache Mnemonic",
-"rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/mnemonic.rdf",
-"reporting": 3,
-"roster": {
-"apurtell": {
-"date": "2017-11-15",
-"name": "Andrew Kyle Purtell"
-},
-"chenyang": {
-"date": "2020-11-05",
-"name": "Chenyang Li"
-},
-"chhao01": {
-"date": "2017-11-15",
-"name": "Hao Cheng"
-},
-"ddutta": {
-"date": "2017-11-15",
-"name": "Debojyoti Dutta"
-},
-"djkevincr": {
-"date": "2020-10-27",
-"name": "Kevin Ratnasekera"
-},
-"drankye": {
-"date": "2017-11-15",
-"name": "Kai Zheng"
-},
-"garyw": {
-"date": "2017-11-15",
-"name": "Gang Wang"
-},
-"jamestaylor": {
-"date": "2017-11-15",
-"name": "James R. Taylor"
-},
-"johnu": {
-"date": "2017-11-15",
-"name": "Johnu George"
-},
-"katarina": {
-"date": "2024-09-03",
-"name": "Katarina King"
-},
-"lishen": {
-"date": "2020-11-05",
-"name": "Li Shen"
-},
-"phunt": {
-"date": "2017-11-15",
-"name": "Patrick D. Hunt"
-},
-"rakeshr": {
-"date": "2017-11-15",
-"name": "Rakesh Radhakrishnan"
-},
-"umamahesh": {
-"date": "2017-11-15",
-"name": "Uma Maheswara Rao G"
-},
-"xjiao": {
-"date": "2024-06-12",
-"name": "Xiaojin Jiao"
-},
-"yzhao": {
-"date": "2018-07-11",
-"name": "Yanhui Zhao"
-},
-"zanelee": {
-"date": "2024-04-28",
-"name": "Zhen Li"
-}
-},
-"shortdesc": "a transparent nonvolatile hybrid memory oriented library for Big data, High-performance computing, and Analytics"
 },
 {
 "chair": "bommel",
@@ -15823,112 +15742,6 @@
 "shortdesc": "OASIS OData protocol libraries"
 },
 {
-"chair": "dionusos",
-"charter": "The mission of Oozie is the creation and maintenance of software related to A workflow scheduler system to manage Apache Hadoop jobs.",
-"established": "2012-08",
-"group": "oozie",
-"homepage": "http://oozie.apache.org/",
-"id": "oozie",
-"name": "Apache Oozie",
-"rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/oozie.rdf",
-"reporting": 2,
-"roster": {
-"andras": {
-"date": "2018-06-21",
-"name": "Andras Piros"
-},
-"anew": {
-"date": "2012-08-28",
-"name": "Andreas Neumann"
-},
-"angeloh": {
-"date": "2012-08-28",
-"name": "Angelo Huang"
-},
-"asalamon74": {
-"date": "2020-01-07",
-"name": "Andras Salamon"
-},
-"asasvari": {
-"date": "2018-01-30",
-"name": "Attila Sasv\u00e1ri"
-},
-"brookwc": {
-"date": "2012-08-28",
-"name": "Chao Wang"
-},
-"ddas": {
-"date": "2012-08-28",
-"name": "Devaraj Das"
-},
-"dionusos": {
-"date": "2021-04-08",
-"name": "D\u00e9nes Bod\u00f3"
-},
-"gates": {
-"date": "2012-08-28",
-"name": "Alan Gates"
-},
-"gezapeti": {
-"date": "2018-01-30",
-"name": "G\u00e9zapeti"
-},
-"harsh": {
-"date": "2012-08-28",
-"name": "Harsh Chouraria"
-},
-"kamrul": {
-"date": "2012-08-28",
-"name": "Mohammad Islam"
-},
-"kmarton": {
-"date": "2019-07-16",
-"name": "Kinga Marton"
-},
-"mayank": {
-"date": "2012-08-28",
-"name": "Mayank Bansal"
-},
-"mona": {
-"date": "2013-05-28",
-"name": "Mona Chitnis"
-},
-"pbacsko": {
-"date": "2018-01-31",
-"name": "Peter Bacsko"
-},
-"puru": {
-"date": "2015-08-04",
-"name": "Purshotam Shah"
-},
-"rkanter": {
-"date": "2013-05-28",
-"name": "Robert Kanter"
-},
-"rohini": {
-"date": "2014-06-17",
-"name": "Rohini Palaniswamy"
-},
-"ryota": {
-"date": "2015-08-11",
-"name": "Ryota Egashira"
-},
-"satishsaley": {
-"date": "2017-12-11",
-"name": "Satish Saley"
-},
-"shwethags": {
-"date": "2015-08-04",
-"name": "Shwetha GS"
-},
-"virag": {
-"date": "2012-08-28",
-"name": "Virag Kothari"
-}
-},
-"shortdesc": "A workflow scheduler system to manage Apache Hadoop jobs."
-},
-{
 "chair": "xuanwo",
 "charter": "The mission of Apache OpenDAL is the creation and maintenance of software related to the creation and maintenance of software related to Open Data Access Layer: Access data freely, painlessly, and efficiently",
 "established": "2024-01",
@@ -16309,7 +16122,7 @@
 "shortdesc": "Machine learning based toolkit for the processing of natural language text"
 },
 {
-"chair": "wave",
+"chair": "knmc",
 "charter": "The mission of OpenOffice is the creation and maintenance of software related to an open-source, office-document productivity suite",
 "established": "2012-10",
 "group": "openoffice",
@@ -22667,6 +22480,10 @@
 "date": "2017-05-18",
 "name": "Coty Sutherland"
 },
+"dsoumis": {
+"date": "2025-02-19",
+"name": "Dimitris Soumis"
+},
 "ebourg": {
 "date": "2018-05-08",
 "name": "Emmanuel Bourg"
@@ -23527,6 +23344,70 @@
 }
 },
 "shortdesc": "Framework and annotators for unstructured information analysis"
+},
+{
+"chair": "roryqi",
+"established": "2025-02",
+"group": "uniffle",
+"homepage": "http://uniffle.apache.org",
+"id": "uniffle",
+"name": "Apache Uniffle",
+"reporting": 2,
+"roster": {
+"colin": {
+"date": "2025-02-19",
+"name": "Colin"
+},
+"felixcheung": {
+"date": "2025-02-19",
+"name": "Felix Cheung"
+},
+"jshao": {
+"date": "2025-02-19",
+"name": "Jerry Shao"
+},
+"junping_du": {
+"date": "2025-02-19",
+"name": "Junping Du"
+},
+"liuxun": {
+"date": "2025-02-19",
+"name": "Liu Xun"
+},
+"macduan": {
+"date": "2025-02-19",
+"name": "Meng Duan"
+},
+"roryqi": {
+"date": "2025-02-19",
+"name": "He Qi"
+},
+"wwei": {
+"date": "2025-02-19",
+"name": "Weiwei Yang"
+},
+"xianjin": {
+"date": "2025-02-19",
+"name": "Xianjin Ye"
+},
+"yangjie01": {
+"date": "2025-02-19",
+"name": "Yang Jie"
+},
+"zhifgli": {
+"date": "2025-02-19",
+"name": "Zhifang Li"
+},
+"ztang": {
+"date": "2025-02-19",
+"name": "Zhankun Tang"
+},
+"zuston": {
+"date": "2025-02-19",
+"name": "Junfan Zhang"
+}
+},
+"shortdesc": "a unified remote shuffle service"
 },
 {
 "chair": "shuber",
