@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl"?>
+<!-- Copied from http://svn.apache.org/repos/asf/oozie/site/trunk/doap_Oozie.rdf -->
+<rdf:RDF xml:lang="en"
+         xmlns="http://usefulinc.com/ns/doap#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:asfext="http://projects.apache.org/ns/asfext#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one or more
+    contributor license agreements.  See the NOTICE file distributed with
+    this work for additional information regarding copyright ownership.
+    The ASF licenses this file to You under the Apache License, Version 2.0
+    (the "License"); you may not use this file except in compliance with
+    the License.  You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+  <Project rdf:about="http://oozie.apache.org">
+    <created>2014-09-15</created>
+    <license rdf:resource="http://spdx.org/licenses/Apache-2.0" />
+    <name>Apache Oozie</name>
+    <homepage rdf:resource="http://oozie.apache.org" />
+    <asfext:pmc rdf:resource="http://attic.apache.org/" />
+    <shortdesc>Oozie is a workflow scheduler system to manage Apache Hadoop jobs.</shortdesc>
+    <description>Oozie is a workflow scheduler system to manage Apache Hadoop jobs. Oozie is integrated with the rest of the Hadoop stack supporting several types of Hadoop jobs out of the box (such as Java map-reduce, Streaming map-reduce, Pig, Hive, Sqoop and Distcp) as well as system specific jobs (such as Java programs and shell scripts).</description>
+    <bug-database rdf:resource="https://issues.apache.org/jira/browse/OOZIE" />
+    <mailing-list rdf:resource="http://oozie.apache.org/mail-lists.html" />
+    <download-page rdf:resource="http://www.apache.org/dyn/closer.lua/oozie/" />
+    <programming-language>Java</programming-language>
+    <programming-language>JavaScript</programming-language>
+    <category rdf:resource="http://projects.apache.org/category/retired" />
+    <category rdf:resource="http://projects.apache.org/category/big-data" />
+    <release>
+      <Version>
+        <name>Apache Oozie</name>
+        <created>2021-02-26</created>
+        <revision>5.2.1</revision>
+      </Version>
+    </release>
+    <repository>
+      <GitRepository>
+        <location rdf:resource="https://gitbox.apache.org/repos/asf/oozie.git"/>
+        <browse rdf:resource="https://gitbox.apache.org/repos/asf?p=oozie.git"/>
+      </GitRepository>
+    </repository>
+    <maintainer>
+      <foaf:Person>
+        <foaf:name>Gezapeti Cseh</foaf:name>
+          <foaf:mbox rdf:resource="mailto:gezapeti@apache.org"/>
+      </foaf:Person>
+    </maintainer>
+  </Project>
+</rdf:RDF>
