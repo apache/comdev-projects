@@ -2852,6 +2852,37 @@
 ],
 "shortdesc": "Apache OODT software provides metadata for middleware (and vice versa):\n-    Transparent access to distributed resources\n-    Data discovery and query optimization\n-    Distributed processing and virtual archives\n."
 },
+"attic-oozie": {
+"bug-database": "https://issues.apache.org/jira/browse/OOZIE",
+"category": "retired, big-data",
+"created": "2014-09-15",
+"description": "Oozie is a workflow scheduler system to manage Apache Hadoop jobs. Oozie is integrated with the rest of the Hadoop stack supporting several types of Hadoop jobs out of the box (such as Java map-reduce, Streaming map-reduce, Pig, Hive, Sqoop and Distcp) as well as system specific jobs (such as Java programs and shell scripts).",
+"doap": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/oozie.rdf",
+"download-page": "http://www.apache.org/dyn/closer.lua/oozie/",
+"homepage": "http://oozie.apache.org",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "http://oozie.apache.org/mail-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:gezapeti@apache.org",
+"name": "Gezapeti Cseh"
+}
+],
+"name": "Apache Oozie",
+"pmc": "attic",
+"programming-language": "Java, JavaScript",
+"release": [
+{
+"created": "2021-02-26",
+"name": "Apache Oozie",
+"revision": "5.2.1"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf/oozie.git"
+],
+"shortdesc": "Oozie is a workflow scheduler system to manage Apache Hadoop jobs."
+},
 "attic-open_climate_workbench": {
 "bug-database": "https://issues.apache.org/jira/browse/CLIMATE",
 "category": "retired, content",
@@ -14736,37 +14767,6 @@
 }
 ],
 "shortdesc": "Apache Olingo is a Java and JavaScript library that implements the Open Data Protocol (OData). Apache Olingo serves client and server aspects of OData. It currently supports OData 2.0 and OData 4.0 (beta). The latter is the OASIS version of the protocol: OASIS Open Data Protocol (OData) TC.\n    "
-},
-"oozie": {
-"bug-database": "https://issues.apache.org/jira/browse/OOZIE",
-"category": "big-data, retired",
-"created": "2014-09-15",
-"description": "Oozie is a workflow scheduler system to manage Apache Hadoop jobs. Oozie is integrated with the rest of the Hadoop stack supporting several types of Hadoop jobs out of the box (such as Java map-reduce, Streaming map-reduce, Pig, Hive, Sqoop and Distcp) as well as system specific jobs (such as Java programs and shell scripts).",
-"doap": "http://svn.apache.org/repos/asf/oozie/site/trunk/doap_Oozie.rdf",
-"download-page": "http://www.apache.org/dyn/closer.lua/oozie/",
-"homepage": "http://oozie.apache.org",
-"license": "http://spdx.org/licenses/Apache-2.0",
-"mailing-list": "http://oozie.apache.org/mail-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:gezapeti@apache.org",
-"name": "Gezapeti Cseh"
-}
-],
-"name": "Apache Oozie",
-"pmc": "attic",
-"programming-language": "Java, JavaScript",
-"release": [
-{
-"created": "2021-02-26",
-"name": "Apache Oozie",
-"revision": "5.2.1"
-}
-],
-"repository": [
-"https://gitbox.apache.org/repos/asf/oozie.git"
-],
-"shortdesc": "Oozie is a workflow scheduler system to manage Apache Hadoop jobs."
 },
 "opendal": {
 "bug-database": "https://github.com/apache/opendal/issues",
