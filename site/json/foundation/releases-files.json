@@ -2635,6 +2635,9 @@
 "doris/3.0/3.0.3-rc03/apache-doris-3.0.3-src.tar.gz",
 "doris/3.0/3.0.3-rc04/apache-doris-3.0.3-src.tar.gz"
 ],
+"apache-doris-3.0.4": [
+"doris/3.0/3.0.4-rc02/apache-doris-3.0.4-src.tar.gz"
+],
 "apache-doris-flink-connector-1.11_2.12-1.0.3-incubating": [
 "doris/flink-connector/1.0.3/apache-doris-flink-connector-1.11_2.12-1.0.3-incubating-src.tar.gz"
 ],
@@ -3926,8 +3929,8 @@
 "apache-groovy-3.0.24": [
 "groovy/3.0.24/sources/apache-groovy-src-3.0.24.zip"
 ],
-"apache-groovy-4.0.25": [
-"groovy/4.0.25/sources/apache-groovy-src-4.0.25.zip"
+"apache-groovy-4.0.26": [
+"groovy/4.0.26/sources/apache-groovy-src-4.0.26.zip"
 ],
 "apache-groovy-5.0.0-alpha-12": [
 "groovy/5.0.0-alpha-12/sources/apache-groovy-src-5.0.0-alpha-12.zip"
@@ -3941,8 +3944,8 @@
 "apache-groovy-sdk-3.0.24": [
 "groovy/3.0.24/distribution/apache-groovy-sdk-3.0.24.zip"
 ],
-"apache-groovy-sdk-4.0.25": [
-"groovy/4.0.25/distribution/apache-groovy-sdk-4.0.25.zip"
+"apache-groovy-sdk-4.0.26": [
+"groovy/4.0.26/distribution/apache-groovy-sdk-4.0.26.zip"
 ],
 "apache-groovy-sdk-5.0.0-alpha-12": [
 "groovy/5.0.0-alpha-12/distribution/apache-groovy-sdk-5.0.0-alpha-12.zip"
@@ -4365,6 +4368,9 @@
 ],
 "apache-iceberg-1.8.0": [
 "iceberg/apache-iceberg-1.8.0/apache-iceberg-1.8.0.tar.gz"
+],
+"apache-iceberg-1.8.1": [
+"iceberg/apache-iceberg-1.8.1/apache-iceberg-1.8.1.tar.gz"
 ],
 "apache-iceberg-rust-0.3.0": [
 "iceberg/iceberg-rust-0.3.0/apache-iceberg-rust-0.3.0-src.tar.gz"
@@ -5996,8 +6002,8 @@
 "maven-deploy-plugin-3.1.4": [
 "maven/plugins/maven-deploy-plugin-3.1.4-source-release.zip"
 ],
-"maven-deploy-plugin-4.0.0-beta-1": [
-"maven/plugins/maven-deploy-plugin-4.0.0-beta-1-source-release.zip"
+"maven-deploy-plugin-4.0.0-beta-2": [
+"maven/plugins/maven-deploy-plugin-4.0.0-beta-2-source-release.zip"
 ],
 "maven-doap-plugin-1.2": [
 "maven/plugins/maven-doap-plugin-1.2-source-release.zip"
@@ -6035,8 +6041,8 @@
 "maven-install-plugin-3.1.4": [
 "maven/plugins/maven-install-plugin-3.1.4-source-release.zip"
 ],
-"maven-install-plugin-4.0.0-beta-1": [
-"maven/plugins/maven-install-plugin-4.0.0-beta-1-source-release.zip"
+"maven-install-plugin-4.0.0-beta-2": [
+"maven/plugins/maven-install-plugin-4.0.0-beta-2-source-release.zip"
 ],
 "maven-invoker-3.3.0": [
 "maven/shared/maven-invoker-3.3.0-source-release.zip"
@@ -7905,8 +7911,8 @@
 ]
 },
 "qpid": {
-"apache-qpid-broker-j-9.2.0": [
-"qpid/broker-j/9.2.0/apache-qpid-broker-j-9.2.0-src.tar.gz"
+"apache-qpid-broker-j-9.2.1": [
+"qpid/broker-j/9.2.1/apache-qpid-broker-j-9.2.1-src.tar.gz"
 ],
 "apache-qpid-jms-1.13.0": [
 "qpid/jms/1.13.0/apache-qpid-jms-1.13.0-src.tar.gz"
@@ -9051,8 +9057,8 @@
 "org.apache.sling.jcr.registration-1.0.6": [
 "sling/org.apache.sling.jcr.registration-1.0.6-source-release.zip"
 ],
-"org.apache.sling.jcr.repoinit-1.1.52": [
-"sling/org.apache.sling.jcr.repoinit-1.1.52-source-release.zip"
+"org.apache.sling.jcr.repoinit-1.1.54": [
+"sling/org.apache.sling.jcr.repoinit-1.1.54-source-release.zip"
 ],
 "org.apache.sling.jcr.resource-3.3.2": [
 "sling/org.apache.sling.jcr.resource-3.3.2-source-release.zip"
@@ -9177,8 +9183,8 @@
 "org.apache.sling.repoinit.filevault.validator-1.0.0": [
 "sling/org.apache.sling.repoinit.filevault.validator-1.0.0-source-release.zip"
 ],
-"org.apache.sling.repoinit.parser-1.9.0": [
-"sling/org.apache.sling.repoinit.parser-1.9.0-source-release.zip"
+"org.apache.sling.repoinit.parser-1.9.2": [
+"sling/org.apache.sling.repoinit.parser-1.9.2-source-release.zip"
 ],
 "org.apache.sling.resource.filter-1.0.0": [
 "sling/org.apache.sling.resource.filter-1.0.0-source-release.zip"
@@ -9547,9 +9553,6 @@
 "SparkR_3.4.4": [
 "spark/spark-3.4.4/SparkR_3.4.4.tar.gz"
 ],
-"SparkR_3.5.4": [
-"spark/spark-3.5.4/SparkR_3.5.4.tar.gz"
-],
 "SparkR_3.5.5": [
 "spark/spark-3.5.5/SparkR_3.5.5.tar.gz"
 ],
@@ -9558,9 +9561,6 @@
 ],
 "pyspark-3.4.4": [
 "spark/spark-3.4.4/pyspark-3.4.4.tar.gz"
-],
-"pyspark-3.5.4": [
-"spark/spark-3.5.4/pyspark-3.5.4.tar.gz"
 ],
 "pyspark-3.5.5": [
 "spark/spark-3.5.5/pyspark-3.5.5.tar.gz"
@@ -9573,9 +9573,6 @@
 ],
 "spark-3.4.4": [
 "spark/spark-3.4.4/spark-3.4.4.tgz"
-],
-"spark-3.5.4": [
-"spark/spark-3.5.4/spark-3.5.4.tgz"
 ],
 "spark-3.5.5": [
 "spark/spark-3.5.5/spark-3.5.5.tgz"
