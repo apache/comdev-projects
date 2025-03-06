@@ -2319,8 +2319,8 @@
 "apache-datafusion-45.0.0": [
 "datafusion/datafusion-45.0.0/apache-datafusion-45.0.0.tar.gz"
 ],
-"apache-datafusion-ballista-43.0.0": [
-"datafusion/datafusion-ballista-43.0.0/apache-datafusion-ballista-43.0.0.tar.gz"
+"apache-datafusion-ballista-44.0.0": [
+"datafusion/datafusion-ballista-44.0.0/apache-datafusion-ballista-44.0.0.tar.gz"
 ],
 "apache-datafusion-comet-0.6.0": [
 "datafusion/datafusion-comet-0.6.0/apache-datafusion-comet-0.6.0.tar.gz"
@@ -2342,6 +2342,9 @@
 ],
 "apache-datafusion-sqlparser-rs-0.54.0": [
 "datafusion/datafusion-sqlparser-rs-0.54.0/apache-datafusion-sqlparser-rs-0.54.0.tar.gz"
+],
+"apache-datafusion-sqlparser-rs-0.55.0": [
+"datafusion/datafusion-sqlparser-rs-0.55.0/apache-datafusion-sqlparser-rs-0.55.0.tar.gz"
 ]
 },
 "datasketches": {
@@ -2350,6 +2353,9 @@
 ],
 "apache-datasketches-bigquery-1.0.2": [
 "datasketches/bigquery/1.0.2/apache-datasketches-bigquery-1.0.2-src.zip"
+],
+"apache-datasketches-bigquery-1.0.3": [
+"datasketches/bigquery/1.0.3/apache-datasketches-bigquery-1.0.3-src.zip"
 ],
 "apache-datasketches-hive-2.0.0": [
 "datasketches/hive/2.0.0/apache-datasketches-hive-2.0.0-src.zip"
@@ -7719,6 +7725,9 @@
 "apache-pulsar-client-node-1.12.0": [
 "pulsar/pulsar-client-node/pulsar-client-node-1.12.0/apache-pulsar-client-node-1.12.0.tar.gz"
 ],
+"apache-pulsar-client-node-1.13.0": [
+"pulsar/pulsar-client-node/pulsar-client-node-1.13.0/apache-pulsar-client-node-1.13.0.tar.gz"
+],
 "apache-pulsar-manager-0.3.0": [
 "pulsar/pulsar-manager-0.3.0/apache-pulsar-manager-0.3.0-src.tar.gz"
 ],
@@ -7802,6 +7811,9 @@
 ],
 "pulsar-client-python-3.6.0": [
 "pulsar/pulsar-client-python-3.6.0/pulsar-client-python-3.6.0.tar.gz"
+],
+"pulsar-client-python-3.6.1": [
+"pulsar/pulsar-client-python-3.6.1/pulsar-client-python-3.6.1.tar.gz"
 ],
 "pulsar-client-reactive-0.5.10": [
 "pulsar/pulsar-client-reactive-0.5.10/pulsar-client-reactive-0.5.10-src.tar.gz"
@@ -7914,6 +7926,72 @@
 ],
 "apache-ranger-2.6.0": [
 "ranger/2.6.0/apache-ranger-2.6.0.tar.gz"
+],
+"ranger-2.6.0-admin": [
+"ranger/2.6.0/services/admin/ranger-2.6.0-admin.tar.gz"
+],
+"ranger-2.6.0-atlas-plugin": [
+"ranger/2.6.0/plugins/atlas/ranger-2.6.0-atlas-plugin.tar.gz"
+],
+"ranger-2.6.0-elasticsearch-plugin": [
+"ranger/2.6.0/plugins/elasticsearch/ranger-2.6.0-elasticsearch-plugin.tar.gz"
+],
+"ranger-2.6.0-hbase-plugin": [
+"ranger/2.6.0/plugins/hbase/ranger-2.6.0-hbase-plugin.tar.gz"
+],
+"ranger-2.6.0-hdfs-plugin": [
+"ranger/2.6.0/plugins/hdfs/ranger-2.6.0-hdfs-plugin.tar.gz"
+],
+"ranger-2.6.0-hive-plugin": [
+"ranger/2.6.0/plugins/hive/ranger-2.6.0-hive-plugin.tar.gz"
+],
+"ranger-2.6.0-kafka-plugin": [
+"ranger/2.6.0/plugins/kafka/ranger-2.6.0-kafka-plugin.tar.gz"
+],
+"ranger-2.6.0-kms": [
+"ranger/2.6.0/services/kms/ranger-2.6.0-kms.tar.gz"
+],
+"ranger-2.6.0-knox-plugin": [
+"ranger/2.6.0/plugins/knox/ranger-2.6.0-knox-plugin.tar.gz"
+],
+"ranger-2.6.0-kylin-plugin": [
+"ranger/2.6.0/plugins/kylin/ranger-2.6.0-kylin-plugin.tar.gz"
+],
+"ranger-2.6.0-migration-util": [
+"ranger/2.6.0/tools/migration-util/ranger-2.6.0-migration-util.tar.gz"
+],
+"ranger-2.6.0-ozone-plugin": [
+"ranger/2.6.0/plugins/ozone/ranger-2.6.0-ozone-plugin.tar.gz"
+],
+"ranger-2.6.0-presto-plugin": [
+"ranger/2.6.0/plugins/presto/ranger-2.6.0-presto-plugin.tar.gz"
+],
+"ranger-2.6.0-ranger-tools": [
+"ranger/2.6.0/tools/ranger-tools/ranger-2.6.0-ranger-tools.tar.gz"
+],
+"ranger-2.6.0-sample": [
+"ranger/2.6.0/tools/sample-client/ranger-2.6.0-sample-client.tar.gz"
+],
+"ranger-2.6.0-solr-plugin": [
+"ranger/2.6.0/plugins/solr/ranger-2.6.0-solr-plugin.tar.gz"
+],
+"ranger-2.6.0-solr_audit_conf": [
+"ranger/2.6.0/tools/solr_audit_conf/ranger-2.6.0-solr_audit_conf.tar.gz"
+],
+"ranger-2.6.0-sqoop-plugin": [
+"ranger/2.6.0/plugins/sqoop/ranger-2.6.0-sqoop-plugin.tar.gz"
+],
+"ranger-2.6.0-storm-plugin": [
+"ranger/2.6.0/plugins/storm/ranger-2.6.0-storm-plugin.tar.gz"
+],
+"ranger-2.6.0-tagsync": [
+"ranger/2.6.0/services/tagsync/ranger-2.6.0-tagsync.tar.gz"
+],
+"ranger-2.6.0-usersync": [
+"ranger/2.6.0/services/usersync/ranger-2.6.0-usersync.tar.gz"
+],
+"ranger-2.6.0-yarn-plugin": [
+"ranger/2.6.0/plugins/yarn/ranger-2.6.0-yarn-plugin.tar.gz"
 ]
 },
 "ratis": {
@@ -9565,6 +9643,11 @@
 "struts/6.7.0/struts-6.7.0-apps.zip",
 "struts/6.7.0/struts-6.7.0-src.zip"
 ],
+"struts-6.7.4": [
+"struts/6.7.4/struts-6.7.4-all.zip",
+"struts/6.7.4/struts-6.7.4-apps.zip",
+"struts/6.7.4/struts-6.7.4-src.zip"
+],
 "struts-7.0.0": [
 "struts/7.0.0/struts-7.0.0-all.zip",
 "struts/7.0.0/struts-7.0.0-apps.zip",
@@ -9805,29 +9888,17 @@
 ]
 },
 "tomcat": {
-"apache-tomcat-10.1.35": [
-"tomcat/tomcat-10/v10.1.35/src/apache-tomcat-10.1.35-src.tar.gz",
-"tomcat/tomcat-10/v10.1.35/src/apache-tomcat-10.1.35-src.zip"
-],
 "apache-tomcat-10.1.36": [
 "tomcat/tomcat-10/v10.1.36/src/apache-tomcat-10.1.36-src.tar.gz",
 "tomcat/tomcat-10/v10.1.36/src/apache-tomcat-10.1.36-src.zip"
 ],
-"apache-tomcat-11.0.3": [
-"tomcat/tomcat-11/v11.0.3/src/apache-tomcat-11.0.3-src.tar.gz",
-"tomcat/tomcat-11/v11.0.3/src/apache-tomcat-11.0.3-src.zip"
-],
-"apache-tomcat-11.0.4": [
-"tomcat/tomcat-11/v11.0.4/src/apache-tomcat-11.0.4-src.tar.gz",
-"tomcat/tomcat-11/v11.0.4/src/apache-tomcat-11.0.4-src.zip"
+"apache-tomcat-11.0.5": [
+"tomcat/tomcat-11/v11.0.5/src/apache-tomcat-11.0.5-src.tar.gz",
+"tomcat/tomcat-11/v11.0.5/src/apache-tomcat-11.0.5-src.zip"
 ],
 "apache-tomcat-9.0.100": [
 "tomcat/tomcat-9/v9.0.100/src/apache-tomcat-9.0.100-src.tar.gz",
 "tomcat/tomcat-9/v9.0.100/src/apache-tomcat-9.0.100-src.zip"
-],
-"apache-tomcat-9.0.99": [
-"tomcat/tomcat-9/v9.0.99/src/apache-tomcat-9.0.99-src.tar.gz",
-"tomcat/tomcat-9/v9.0.99/src/apache-tomcat-9.0.99-src.zip"
 ],
 "jakartaee-migration-1.0.9": [
 "tomcat/jakartaee-migration/v1.0.9/source/jakartaee-migration-1.0.9-src.tar.gz",
@@ -9921,6 +9992,9 @@
 "trafficserver-10.0.3": [
 "trafficserver/trafficserver-10.0.3.tar.bz2"
 ],
+"trafficserver-10.0.4": [
+"trafficserver/trafficserver-10.0.4.tar.bz2"
+],
 "trafficserver-7.1.12": [
 "trafficserver/trafficserver-7.1.12.tar.bz2"
 ],
@@ -9974,6 +10048,9 @@
 ],
 "trafficserver-9.2.8": [
 "trafficserver/trafficserver-9.2.8.tar.bz2"
+],
+"trafficserver-9.2.9": [
+"trafficserver/trafficserver-9.2.9.tar.bz2"
 ]
 },
 "tsfile": {
