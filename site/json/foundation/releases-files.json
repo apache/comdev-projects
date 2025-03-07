@@ -1679,6 +1679,10 @@
 "cassandra/cassandra-java-driver/4.19.0/apache-cassandra-java-driver-4.19.0-source.tar.gz",
 "cassandra/cassandra-java-driver/4.19.0/apache-cassandra-java-driver-4.19.0.tar.gz"
 ],
+"apache-cassandra-sidecar-0.1.0": [
+"cassandra/cassandra-sidecar/0.1.0/apache-cassandra-sidecar-0.1.0-src.tar.gz",
+"cassandra/cassandra-sidecar/0.1.0/apache-cassandra-sidecar-0.1.0.tar.gz"
+],
 "cassandra-gocql-driver-1.7.0": [
 "cassandra/cassandra-gocql-driver/1.7.0/cassandra-gocql-driver-1.7.0.tar.gz"
 ]
@@ -2209,11 +2213,18 @@
 "apache-ctakes-4.0.0.1": [
 "ctakes/ctakes-4.0.0.1/apache-ctakes-4.0.0.1-src.tar.gz",
 "ctakes/ctakes-4.0.0.1/apache-ctakes-4.0.0.1-src.zip"
+],
+"apache-ctakes-6.0.0": [
+"ctakes/ctakes-6.0.0/apache-ctakes-6.0.0-src.tar.gz",
+"ctakes/ctakes-6.0.0/apache-ctakes-6.0.0-src.zip"
 ]
 },
 "curator": {
 "apache-curator-5.7.1": [
 "curator/5.7.1/apache-curator-5.7.1-source-release.zip"
+],
+"apache-curator-5.8.0": [
+"curator/5.8.0/apache-curator-5.8.0-source-release.zip"
 ]
 },
 "cxf": {
@@ -2222,6 +2233,12 @@
 "cxf/3.5.10/apache-cxf-3.5.10-src.zip",
 "cxf/3.5.10/apache-cxf-3.5.10.tar.gz",
 "cxf/3.5.10/apache-cxf-3.5.10.zip"
+],
+"apache-cxf-3.5.11": [
+"cxf/3.5.11/apache-cxf-3.5.11-src.tar.gz",
+"cxf/3.5.11/apache-cxf-3.5.11-src.zip",
+"cxf/3.5.11/apache-cxf-3.5.11.tar.gz",
+"cxf/3.5.11/apache-cxf-3.5.11.zip"
 ],
 "apache-cxf-3.5.8": [
 "cxf/3.5.8/apache-cxf-3.5.8-src.tar.gz",
@@ -2253,6 +2270,12 @@
 "cxf/3.6.5/apache-cxf-3.6.5.tar.gz",
 "cxf/3.6.5/apache-cxf-3.6.5.zip"
 ],
+"apache-cxf-3.6.6": [
+"cxf/3.6.6/apache-cxf-3.6.6-src.tar.gz",
+"cxf/3.6.6/apache-cxf-3.6.6-src.zip",
+"cxf/3.6.6/apache-cxf-3.6.6.tar.gz",
+"cxf/3.6.6/apache-cxf-3.6.6.zip"
+],
 "apache-cxf-4.0.4": [
 "cxf/4.0.4/apache-cxf-4.0.4-src.tar.gz",
 "cxf/4.0.4/apache-cxf-4.0.4-src.zip",
@@ -2271,11 +2294,23 @@
 "cxf/4.0.6/apache-cxf-4.0.6.tar.gz",
 "cxf/4.0.6/apache-cxf-4.0.6.zip"
 ],
+"apache-cxf-4.0.7": [
+"cxf/4.0.7/apache-cxf-4.0.7-src.tar.gz",
+"cxf/4.0.7/apache-cxf-4.0.7-src.zip",
+"cxf/4.0.7/apache-cxf-4.0.7.tar.gz",
+"cxf/4.0.7/apache-cxf-4.0.7.zip"
+],
 "apache-cxf-4.1.0": [
 "cxf/4.1.0/apache-cxf-4.1.0-src.tar.gz",
 "cxf/4.1.0/apache-cxf-4.1.0-src.zip",
 "cxf/4.1.0/apache-cxf-4.1.0.tar.gz",
 "cxf/4.1.0/apache-cxf-4.1.0.zip"
+],
+"apache-cxf-4.1.1": [
+"cxf/4.1.1/apache-cxf-4.1.1-src.tar.gz",
+"cxf/4.1.1/apache-cxf-4.1.1-src.zip",
+"cxf/4.1.1/apache-cxf-4.1.1.tar.gz",
+"cxf/4.1.1/apache-cxf-4.1.1.zip"
 ],
 "apache-fediz-1.7.0": [
 "cxf/fediz/1.7.0/apache-fediz-1.7.0.zip"
@@ -4025,8 +4060,8 @@
 "hbase-2.4.18": [
 "hbase/2.4.18/hbase-2.4.18-src.tar.gz"
 ],
-"hbase-2.5.10": [
-"hbase/2.5.10/hbase-2.5.10-src.tar.gz"
+"hbase-2.5.11": [
+"hbase/2.5.11/hbase-2.5.11-src.tar.gz"
 ],
 "hbase-2.6.1": [
 "hbase/2.6.1/hbase-2.6.1-src.tar.gz"
@@ -7208,6 +7243,9 @@
 "orc-2.1.0": [
 "orc/orc-2.1.0/orc-2.1.0.tar.gz"
 ],
+"orc-2.1.1": [
+"orc/orc-2.1.1/orc-2.1.1.tar.gz"
+],
 "orc-format-1.0.0": [
 "orc/orc-format-1.0.0/orc-format-1.0.0.tar.gz"
 ]
@@ -7366,6 +7404,9 @@
 ],
 "apache-pekko-persistence-r2dbc-1.1.0-M1-20241205": [
 "pekko/PERSISTENCE-R2DBC-1.1.0-M1/apache-pekko-persistence-r2dbc-1.1.0-M1-src-20241205.tgz"
+],
+"apache-pekko-projection-1.1.0-20250224": [
+"pekko/PROJECTION-1.1.0/apache-pekko-projection-1.1.0-src-20250224.tgz"
 ],
 "apache-pekko-projection-1.1.0-M1-20240823": [
 "pekko/PROJECTION-1.1.0-M1/apache-pekko-projection-1.1.0-M1-src-20240823.tgz"
@@ -9899,6 +9940,10 @@
 "apache-tomcat-9.0.100": [
 "tomcat/tomcat-9/v9.0.100/src/apache-tomcat-9.0.100-src.tar.gz",
 "tomcat/tomcat-9/v9.0.100/src/apache-tomcat-9.0.100-src.zip"
+],
+"apache-tomcat-9.0.102": [
+"tomcat/tomcat-9/v9.0.102/src/apache-tomcat-9.0.102-src.tar.gz",
+"tomcat/tomcat-9/v9.0.102/src/apache-tomcat-9.0.102-src.zip"
 ],
 "jakartaee-migration-1.0.9": [
 "tomcat/jakartaee-migration/v1.0.9/source/jakartaee-migration-1.0.9-src.tar.gz",
