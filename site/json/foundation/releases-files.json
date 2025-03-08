@@ -754,8 +754,8 @@
 "apache-arrow-19.0.1": [
 "arrow/arrow-19.0.1/apache-arrow-19.0.1.tar.gz"
 ],
-"apache-arrow-adbc-16": [
-"arrow/apache-arrow-adbc-16/apache-arrow-adbc-16.tar.gz"
+"apache-arrow-adbc-17": [
+"arrow/apache-arrow-adbc-17/apache-arrow-adbc-17.tar.gz"
 ],
 "apache-arrow-flight-sql-postgresql-0.1.0": [
 "arrow/apache-arrow-flight-sql-postgresql-0.1.0/apache-arrow-flight-sql-postgresql-0.1.0.tar.gz"
@@ -789,6 +789,9 @@
 ],
 "apache-arrow-object-store-rs-0.11.2": [
 "arrow/arrow-object-store-rs-0.11.2/apache-arrow-object-store-rs-0.11.2.tar.gz"
+],
+"apache-arrow-rs-53.4.1": [
+"arrow/arrow-rs-53.4.1/apache-arrow-rs-53.4.1.tar.gz"
 ],
 "apache-arrow-rs-54.2.1": [
 "arrow/arrow-rs-54.2.1/apache-arrow-rs-54.2.1.tar.gz"
@@ -2353,6 +2356,9 @@
 ],
 "apache-datafusion-45.0.0": [
 "datafusion/datafusion-45.0.0/apache-datafusion-45.0.0.tar.gz"
+],
+"apache-datafusion-46.0.0": [
+"datafusion/datafusion-46.0.0/apache-datafusion-46.0.0.tar.gz"
 ],
 "apache-datafusion-ballista-44.0.0": [
 "datafusion/datafusion-ballista-44.0.0/apache-datafusion-ballista-44.0.0.tar.gz"
@@ -4909,9 +4915,6 @@
 "apache-pekko-persistence-r2dbc-1.0.0-incubating-20231209": [
 "incubator/pekko/PERSISTENCE-R2DBC-1.0.0/apache-pekko-persistence-r2dbc-1.0.0-incubating-src-20231209.tgz"
 ],
-"apache-pekko-projection-1.0.0-incubating-20231012": [
-"incubator/pekko/PROJECTION-1.0.0/apache-pekko-projection-1.0.0-incubating-src-20231012.tgz"
-],
 "apache-pekko-sbt-paradox-1.0.1-incubating-20240305": [
 "incubator/pekko/SBT-PARADOX-1.0.1/apache-pekko-sbt-paradox-1.0.1-incubating-src-20240305.tgz"
 ]
@@ -6948,11 +6951,11 @@
 ]
 },
 "ofbiz": {
-"apache-ofbiz-18.12.16": [
-"ofbiz/apache-ofbiz-18.12.16.zip"
-],
 "apache-ofbiz-18.12.17": [
 "ofbiz/apache-ofbiz-18.12.17.zip"
+],
+"apache-ofbiz-18.12.18": [
+"ofbiz/apache-ofbiz-18.12.18.zip"
 ]
 },
 "olingo": {
@@ -7407,9 +7410,6 @@
 ],
 "apache-pekko-projection-1.1.0-20250224": [
 "pekko/PROJECTION-1.1.0/apache-pekko-projection-1.1.0-src-20250224.tgz"
-],
-"apache-pekko-projection-1.1.0-M1-20240823": [
-"pekko/PROJECTION-1.1.0-M1/apache-pekko-projection-1.1.0-M1-src-20240823.tgz"
 ]
 },
 "perl": {
@@ -9929,9 +9929,9 @@
 ]
 },
 "tomcat": {
-"apache-tomcat-10.1.36": [
-"tomcat/tomcat-10/v10.1.36/src/apache-tomcat-10.1.36-src.tar.gz",
-"tomcat/tomcat-10/v10.1.36/src/apache-tomcat-10.1.36-src.zip"
+"apache-tomcat-10.1.39": [
+"tomcat/tomcat-10/v10.1.39/src/apache-tomcat-10.1.39-src.tar.gz",
+"tomcat/tomcat-10/v10.1.39/src/apache-tomcat-10.1.39-src.zip"
 ],
 "apache-tomcat-11.0.5": [
 "tomcat/tomcat-11/v11.0.5/src/apache-tomcat-11.0.5-src.tar.gz",
