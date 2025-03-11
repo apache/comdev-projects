@@ -13,7 +13,7 @@
 "Apache.NMS.ActiveMQ-2.1.0": "2023-03-12",
 "Apache.NMS.ActiveMQ-2.1.1": "2025-02-16",
 "activemq-5.18.6": "2024-09-29",
-"activemq-6.1.5": "2025-01-09",
+"activemq-6.1.6": "2025-03-06",
 "activemq-artemis-native-2.0.0": "2022-07-12",
 "activemq-cli-tools-0.2.0": "2020-07-22",
 "activemq-cpp-library-3.9.5": "2019-01-25",
@@ -316,10 +316,14 @@
 "axis-1_4": "2013-05-04",
 "axis2-1.8.0": "2021-08-01",
 "axis2-1.8.2": "2022-07-14",
+"axis2-2.0.0": "2025-03-04",
 "axis2-eclipse-codegen-plugin-1.8.0": "2021-08-01",
+"axis2-eclipse-codegen-plugin-2.0.0": "2025-03-04",
 "axis2-eclipse-service-plugin-1.8.0": "2021-08-01",
+"axis2-eclipse-service-plugin-2.0.0": "2025-03-04",
 "axis2-idea-plugin-1.8.0": "2021-08-01",
 "axis2-idea-plugin-1.8.2": "2022-07-14",
+"axis2-idea-plugin-2.0.0": "2025-03-04",
 "axis2.eclipse.codegen.plugin-1.8.2": "2022-07-14",
 "axis2.eclipse.service.plugin-1.8.2": "2022-07-14",
 "rampart-dist-1.7.1": "2017-07-30",
@@ -452,6 +456,7 @@
 "apache-camel-k-runtime-3.8.1": "2024-03-25",
 "apache-camel-quarkus-2.13.3": "2023-04-18",
 "apache-camel-quarkus-3.15.2": "2025-01-14",
+"apache-camel-quarkus-3.15.3": "2025-03-09",
 "apache-camel-quarkus-3.18.0": "2025-01-23",
 "apache-camel-quarkus-3.19.0": "2025-02-20",
 "apache-camel-quarkus-3.2.3": "2023-12-05",
@@ -531,6 +536,8 @@
 "camel-kamelets-sources-4.0.3": "2024-01-17",
 "camel-kamelets-sources-4.1.0": "2023-10-23",
 "camel-kamelets-sources-4.10.0": "2025-02-12",
+"camel-kamelets-sources-4.10.1": "2025-03-05",
+"camel-kamelets-sources-4.10.2": "2025-03-10",
 "camel-kamelets-sources-4.2.0": "2023-11-16",
 "camel-kamelets-sources-4.3.0": "2023-12-19",
 "camel-kamelets-sources-4.4.0": "2024-02-19",
@@ -544,6 +551,8 @@
 "camel-kamelets-sources-4.8.1": "2024-11-05",
 "camel-kamelets-sources-4.8.2": "2024-12-09",
 "camel-kamelets-sources-4.8.3": "2025-01-14",
+"camel-kamelets-sources-4.8.4": "2025-03-06",
+"camel-kamelets-sources-4.8.5": "2025-03-10",
 "camel-kamelets-sources-4.9.0": "2024-12-04",
 "camel-karaf-4.8.2": "2025-01-26",
 "camel-karaf-4.9.0": "2025-01-26",
@@ -949,6 +958,7 @@
 "apache-doris-spark-connector-2.3_2.11-1.1.0": "2022-07-11",
 "apache-doris-spark-connector-24.0.0": "2024-12-31",
 "apache-doris-spark-connector-25.0.0": "2025-02-20",
+"apache-doris-spark-connector-25.0.1": "2025-03-04",
 "apache-doris-spark-connector-3.1_2.12-1.0.1-incubating": "2022-03-19",
 "apache-doris-spark-connector-3.1_2.12-1.1.0": "2022-07-11",
 "apache-doris-spark-connector-3.2_2.12-1.1.0": "2022-07-11",
@@ -1119,7 +1129,8 @@
 "osgicheck-maven-plugin-0.1.0": "2018-09-23"
 },
 "fineract": {
-"apache-fineract-1.10.1": "2024-12-31"
+"apache-fineract-1.10.1": "2024-12-31",
+"apache-fineract-1.11.0": "2025-02-28"
 },
 "flagon": {
 "apache-flagon-useralejs-2.4.0": "2024-04-03",
@@ -1680,16 +1691,6 @@
 "apache-training-incubating-tools-1.3.0": "2024-09-24",
 "apache-training-navigating-ASF-incubation-1.0-incubating": "2019-06-12"
 },
-"incubator-uniffle": {
-"apache-uniffle-0.6.0-incubating": "2022-10-13",
-"apache-uniffle-0.6.1-incubating": "2022-12-01",
-"apache-uniffle-0.7.0-incubating": "2023-03-17",
-"apache-uniffle-0.7.1-incubating": "2023-06-16",
-"apache-uniffle-0.8.0-incubating": "2023-11-29",
-"apache-uniffle-0.9.0-incubating": "2024-06-18",
-"apache-uniffle-0.9.1-incubating": "2024-11-14",
-"apache-uniffle-0.9.2-incubating": "2024-12-31"
-},
 "incubator-wayang": {
 "apache-wayang-0.6.0-incubating": "2021-11-26",
 "apache-wayang-incubating-0.7.1": "2023-09-20",
@@ -2001,6 +2002,7 @@
 "apache-maven-4.0.0-beta-5": "2024-10-22",
 "apache-maven-4.0.0-rc-1": "2024-11-28",
 "apache-maven-4.0.0-rc-2": "2024-12-17",
+"apache-maven-4.0.0-rc-3": "2025-03-05",
 "apache-resource-bundles-1.7": "2024-07-25",
 "doxia-2.0.0": "2024-10-01",
 "doxia-converter-1.3": "2023-01-14",
@@ -3025,7 +3027,7 @@
 "org.apache.sling.fragment.activation-1.0.2": "2013-02-18",
 "org.apache.sling.fragment.ws-1.0.2": "2013-02-18",
 "org.apache.sling.fragment.xml-1.0.2": "2013-02-18",
-"org.apache.sling.fsresource-2.2.0": "2021-09-02",
+"org.apache.sling.fsresource-2.3.0": "2025-03-10",
 "org.apache.sling.graphql.core-0.0.30": "2024-02-21",
 "org.apache.sling.hapi-1.1.0": "2017-11-13",
 "org.apache.sling.hapi.client-1.0.0": "2016-08-17",
@@ -3214,7 +3216,7 @@
 "sling-jcrinstall-bundle-archetype-1.0.6": "2018-02-03",
 "sling-kickstart-maven-plugin-0.0.8": "2020-09-23",
 "sling-launchpad-archetype-1.0.0": "2013-01-21",
-"sling-maven-plugin-3.0.2": "2022-08-21",
+"sling-maven-plugin-3.0.4": "2025-03-10",
 "sling-servlet-archetype-1.0.4": "2015-10-19",
 "sling-slingstart-archetype-1.0.8": "2018-10-23",
 "slingfeature-maven-plugin-1.9.0": "2024-09-19",
@@ -3305,8 +3307,8 @@
 "synapse-distribution-3.0.2": "2023-05-11"
 },
 "syncope": {
-"syncope-3.0.10": "2024-12-27",
-"syncope-4.0.0-M0": "2024-12-27"
+"syncope-3.0.11": "2025-03-07",
+"syncope-4.0.0-M1": "2025-03-07"
 },
 "systemds": {
 "systemds-2.0.0": "2020-10-14",
@@ -3505,6 +3507,16 @@
 "uimaj-3.6.0": "2024-11-22",
 "uimaj-io-json-0.4.0": "2022-07-13",
 "uimaj-io-json-0.5.0": "2023-03-03"
+},
+"uniffle": {
+"apache-uniffle-0.6.0-incubating": "2022-10-13",
+"apache-uniffle-0.6.1-incubating": "2022-12-01",
+"apache-uniffle-0.7.0-incubating": "2023-03-17",
+"apache-uniffle-0.7.1-incubating": "2023-06-16",
+"apache-uniffle-0.8.0-incubating": "2023-11-29",
+"apache-uniffle-0.9.0-incubating": "2024-06-18",
+"apache-uniffle-0.9.1-incubating": "2024-11-14",
+"apache-uniffle-0.9.2-incubating": "2024-12-31"
 },
 "unomi": {
 "unomi-1.5.4": "2020-11-21",

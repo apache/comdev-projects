@@ -35,8 +35,8 @@
 "activemq-5.18.6": [
 "activemq/5.18.6/activemq-parent-5.18.6-source-release.zip"
 ],
-"activemq-6.1.5": [
-"activemq/6.1.5/activemq-parent-6.1.5-source-release.zip"
+"activemq-6.1.6": [
+"activemq/6.1.6/activemq-parent-6.1.6-source-release.zip"
 ],
 "activemq-artemis-native-2.0.0": [
 "activemq/activemq-artemis-native/2.0.0/activemq-artemis-native-2.0.0-source-release.tar.gz",
@@ -922,17 +922,29 @@
 "axis2-1.8.2": [
 "axis/axis2/java/core/1.8.2/axis2-1.8.2-src.zip"
 ],
+"axis2-2.0.0": [
+"axis/axis2/java/core/2.0.0/axis2-2.0.0-src.zip"
+],
 "axis2-eclipse-codegen-plugin-1.8.0": [
 "axis/axis2/java/core/1.8.0/axis2-eclipse-codegen-plugin-1.8.0.zip"
 ],
+"axis2-eclipse-codegen-plugin-2.0.0": [
+"axis/axis2/java/core/2.0.0/axis2-eclipse-codegen-plugin-2.0.0.zip"
+],
 "axis2-eclipse-service-plugin-1.8.0": [
 "axis/axis2/java/core/1.8.0/axis2-eclipse-service-plugin-1.8.0.zip"
+],
+"axis2-eclipse-service-plugin-2.0.0": [
+"axis/axis2/java/core/2.0.0/axis2-eclipse-service-plugin-2.0.0.zip"
 ],
 "axis2-idea-plugin-1.8.0": [
 "axis/axis2/java/core/1.8.0/axis2-idea-plugin-1.8.0.zip"
 ],
 "axis2-idea-plugin-1.8.2": [
 "axis/axis2/java/core/1.8.2/axis2-idea-plugin-1.8.2.zip"
+],
+"axis2-idea-plugin-2.0.0": [
+"axis/axis2/java/core/2.0.0/axis2-idea-plugin-2.0.0.zip"
 ],
 "axis2.eclipse.codegen.plugin-1.8.2": [
 "axis/axis2/java/core/1.8.2/axis2.eclipse.codegen.plugin-1.8.2-dist.zip"
@@ -1309,6 +1321,9 @@
 "apache-camel-quarkus-3.15.2": [
 "camel/camel-quarkus/3.15.2/apache-camel-quarkus-3.15.2-src.zip"
 ],
+"apache-camel-quarkus-3.15.3": [
+"camel/camel-quarkus/3.15.3/apache-camel-quarkus-3.15.3-src.zip"
+],
 "apache-camel-quarkus-3.18.0": [
 "camel/camel-quarkus/3.18.0/apache-camel-quarkus-3.18.0-src.zip"
 ],
@@ -1546,6 +1561,12 @@
 "camel-kamelets-sources-4.10.0": [
 "camel/camel-kamelets/4.10.0/camel-kamelets-sources-4.10.0.tar.gz"
 ],
+"camel-kamelets-sources-4.10.1": [
+"camel/camel-kamelets/4.10.1/camel-kamelets-sources-4.10.1.tar.gz"
+],
+"camel-kamelets-sources-4.10.2": [
+"camel/camel-kamelets/4.10.2/camel-kamelets-sources-4.10.2.tar.gz"
+],
 "camel-kamelets-sources-4.2.0": [
 "camel/camel-kamelets/4.2.0/camel-kamelets-sources-4.2.0.tar.gz"
 ],
@@ -1584,6 +1605,12 @@
 ],
 "camel-kamelets-sources-4.8.3": [
 "camel/camel-kamelets/4.8.3/camel-kamelets-sources-4.8.3.tar.gz"
+],
+"camel-kamelets-sources-4.8.4": [
+"camel/camel-kamelets/4.8.4/camel-kamelets-sources-4.8.4.tar.gz"
+],
+"camel-kamelets-sources-4.8.5": [
+"camel/camel-kamelets/4.8.5/camel-kamelets-sources-4.8.5.tar.gz"
 ],
 "camel-kamelets-sources-4.9.0": [
 "camel/camel-kamelets/4.9.0/camel-kamelets-sources-4.9.0.tar.gz"
@@ -2844,6 +2871,9 @@
 "apache-doris-spark-connector-25.0.0": [
 "doris/spark-connector/25.0.0/apache-doris-spark-connector-25.0.0-src.tar.gz"
 ],
+"apache-doris-spark-connector-25.0.1": [
+"doris/spark-connector/25.0.1/apache-doris-spark-connector-25.0.1-src.tgz"
+],
 "apache-doris-spark-connector-3.1_2.12-1.0.1-incubating": [
 "doris/spark-connector/1.0.1/apache-doris-spark-connector-3.1_2.12-1.0.1-incubating-src.tar.gz"
 ],
@@ -3450,6 +3480,9 @@
 "fineract": {
 "apache-fineract-1.10.1": [
 "fineract/1.10.1/apache-fineract-1.10.1-src.tar.gz"
+],
+"apache-fineract-1.11.0": [
+"fineract/1.11.0/apache-fineract-1.11.0-src.tar.gz"
 ]
 },
 "flagon": {
@@ -4996,32 +5029,6 @@
 "incubator/training/ApacheWay/NavigatingASFIncubation/1.0/apache-training-navigating-ASF-incubation-1.0-incubating.tar.gz"
 ]
 },
-"incubator-uniffle": {
-"apache-uniffle-0.6.0-incubating": [
-"incubator/uniffle/0.6.0/apache-uniffle-0.6.0-incubating-src.tar.gz"
-],
-"apache-uniffle-0.6.1-incubating": [
-"incubator/uniffle/0.6.1/apache-uniffle-0.6.1-incubating-src.tar.gz"
-],
-"apache-uniffle-0.7.0-incubating": [
-"incubator/uniffle/0.7.0/apache-uniffle-0.7.0-incubating-src.tar.gz"
-],
-"apache-uniffle-0.7.1-incubating": [
-"incubator/uniffle/0.7.1/apache-uniffle-0.7.1-incubating-src.tar.gz"
-],
-"apache-uniffle-0.8.0-incubating": [
-"incubator/uniffle/0.8.0/apache-uniffle-0.8.0-incubating-src.tar.gz"
-],
-"apache-uniffle-0.9.0-incubating": [
-"incubator/uniffle/0.9.0/apache-uniffle-0.9.0-incubating-src.tar.gz"
-],
-"apache-uniffle-0.9.1-incubating": [
-"incubator/uniffle/0.9.1/apache-uniffle-0.9.1-incubating-src.tar.gz"
-],
-"apache-uniffle-0.9.2-incubating": [
-"incubator/uniffle/0.9.2/apache-uniffle-0.9.2-incubating-src.tar.gz"
-]
-},
 "incubator-wayang": {
 "apache-wayang-0.6.0-incubating": [
 "incubator/wayang/0.6.0/apache-wayang-0.6.0-incubating-source-release.zip"
@@ -5969,6 +5976,10 @@
 "apache-maven-4.0.0-rc-2": [
 "maven/maven-4/4.0.0-rc-2/source/apache-maven-4.0.0-rc-2-src.tar.gz",
 "maven/maven-4/4.0.0-rc-2/source/apache-maven-4.0.0-rc-2-src.zip"
+],
+"apache-maven-4.0.0-rc-3": [
+"maven/maven-4/4.0.0-rc-3/source/apache-maven-4.0.0-rc-3-src.tar.gz",
+"maven/maven-4/4.0.0-rc-3/source/apache-maven-4.0.0-rc-3-src.zip"
 ],
 "apache-resource-bundles-1.7": [
 "maven/resources/apache-resource-bundles-1.7-source-release.zip"
@@ -8976,8 +8987,8 @@
 "org.apache.sling.fragment.xml-1.0.2": [
 "sling/org.apache.sling.fragment.xml-1.0.2-source-release.zip"
 ],
-"org.apache.sling.fsresource-2.2.0": [
-"sling/org.apache.sling.fsresource-2.2.0-source-release.zip"
+"org.apache.sling.fsresource-2.3.0": [
+"sling/org.apache.sling.fsresource-2.3.0-source-release.zip"
 ],
 "org.apache.sling.graphql.core-0.0.30": [
 "sling/org.apache.sling.graphql.core-0.0.30-source-release.zip"
@@ -9546,8 +9557,8 @@
 "sling/sling-launchpad-standalone-archetype-1.0.0-source-release.zip",
 "sling/sling-launchpad-webapp-archetype-1.0.0-source-release.zip"
 ],
-"sling-maven-plugin-3.0.2": [
-"sling/sling-maven-plugin-3.0.2-source-release.zip"
+"sling-maven-plugin-3.0.4": [
+"sling/sling-maven-plugin-3.0.4-source-release.zip"
 ],
 "sling-servlet-archetype-1.0.4": [
 "sling/sling-servlet-archetype-1.0.4-source-release.zip"
@@ -9804,13 +9815,13 @@
 ]
 },
 "syncope": {
-"syncope-3.0.10": [
-"syncope/3.0.10/syncope-3.0.10-source-release.zip",
-"syncope/3.0.10/syncope-standalone-3.0.10-distribution.zip"
+"syncope-3.0.11": [
+"syncope/3.0.11/syncope-3.0.11-source-release.zip",
+"syncope/3.0.11/syncope-standalone-3.0.11-distribution.zip"
 ],
-"syncope-4.0.0-M0": [
-"syncope/4.0.0-M0/syncope-4.0.0-M0-source-release.zip",
-"syncope/4.0.0-M0/syncope-standalone-4.0.0-M0-distribution.zip"
+"syncope-4.0.0-M1": [
+"syncope/4.0.0-M1/syncope-4.0.0-M1-source-release.zip",
+"syncope/4.0.0-M1/syncope-standalone-4.0.0-M1-distribution.zip"
 ]
 },
 "systemds": {
@@ -10407,6 +10418,32 @@
 ],
 "uimaj-io-json-0.5.0": [
 "uima/uimaj-io-json-0.5.0/uimaj-io-json-0.5.0-source-release.zip"
+]
+},
+"uniffle": {
+"apache-uniffle-0.6.0-incubating": [
+"uniffle/0.6.0/apache-uniffle-0.6.0-incubating-src.tar.gz"
+],
+"apache-uniffle-0.6.1-incubating": [
+"uniffle/0.6.1/apache-uniffle-0.6.1-incubating-src.tar.gz"
+],
+"apache-uniffle-0.7.0-incubating": [
+"uniffle/0.7.0/apache-uniffle-0.7.0-incubating-src.tar.gz"
+],
+"apache-uniffle-0.7.1-incubating": [
+"uniffle/0.7.1/apache-uniffle-0.7.1-incubating-src.tar.gz"
+],
+"apache-uniffle-0.8.0-incubating": [
+"uniffle/0.8.0/apache-uniffle-0.8.0-incubating-src.tar.gz"
+],
+"apache-uniffle-0.9.0-incubating": [
+"uniffle/0.9.0/apache-uniffle-0.9.0-incubating-src.tar.gz"
+],
+"apache-uniffle-0.9.1-incubating": [
+"uniffle/0.9.1/apache-uniffle-0.9.1-incubating-src.tar.gz"
+],
+"apache-uniffle-0.9.2-incubating": [
+"uniffle/0.9.2/apache-uniffle-0.9.2-incubating-src.tar.gz"
 ]
 },
 "unomi": {
