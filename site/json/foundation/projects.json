@@ -973,31 +973,6 @@
 ],
 "shortdesc": "OSGi Enterprise Programming Model"
 },
-"arrow": {
-"bug-database": "https://github.com/apache/arrow/issues",
-"category": "big-data, database, data-engineering, library, network-client, network-server",
-"created": "2016-02-17",
-"description": "Apache Arrow defines a language-independent columnar memory format for flat and nested data, organized for efficient analytic operations on modern hardware like CPUs and GPUs. The Arrow memory format also supports zero-copy reads for lightning-fast data access without serialization overhead.\n\nArrow's libraries implement the format and provide building blocks for a range of use cases, including high performance analytics. Many popular projects use Arrow to ship columnar data efficiently or as the basis for analytic engines.\n\nLibraries are available for C, C++, C#, Go, Java, JavaScript, Julia, MATLAB, Python, R, Ruby, and Rust.\n\nApache Arrow is software created by and for the developer community. We are dedicated to open, kind communication and consensus decision making. Our committers come from a range of organizations and backgrounds, and we welcome all to participate with us.",
-"doap": "https://arrow.apache.org/arrow.rdf",
-"download-page": "http://arrow.apache.org/release/",
-"homepage": "https://arrow.apache.org",
-"license": "https://spdx.org/licenses/Apache-2.0",
-"mailing-list": "http://mail-archives.apache.org/mod_mbox/arrow-dev/",
-"name": "Apache Arrow",
-"pmc": "arrow",
-"programming-language": "C, C++, C#, Go, Java, JavaScript, Julia, MATLAB, Python, R, Ruby, Rust",
-"release": [
-{
-"created": "2025-02-16",
-"name": "Apache Arrow",
-"revision": "19.0.1"
-}
-],
-"repository": [
-"https://github.com/apache/arrow.git"
-],
-"shortdesc": "Apache Arrow is the universal columnar format and multi-language toolbox for fast data interchange and in-memory analytics."
-},
 "attic-any23": {
 "bug-database": "https://issues.apache.org/jira/browse/ANY23",
 "category": "retired, content",
@@ -9557,7 +9532,7 @@
 },
 "gora": {
 "bug-database": "https://issues.apache.org/jira/browse/GORA",
-"category": "database",
+"category": "database, retired",
 "created": "2012-01-30",
 "description": "Although there are various excellent ORM frameworks for relational databases, data modeling in NoSQL data stores differ profoundly from their relational cousins. Moreover, data-model agnostic frameworks such as JDO are not sufficient for use cases, where one needs to use the full power of the data models in column stores. Gora fills this gap by giving the user an easy-to-use in-memory data model and persistence for big data framework with data store specific mappings and built in Apache Hadoop support.",
 "doap": "http://svn.apache.org/repos/asf/gora/cms_site/trunk/content/current/doap_Gora.rdf",
@@ -9572,7 +9547,7 @@
 }
 ],
 "name": "Apache Gora",
-"pmc": "gora",
+"pmc": "attic",
 "programming-language": "Java",
 "releases": {
 "release": {
