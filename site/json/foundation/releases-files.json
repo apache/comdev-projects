@@ -32,6 +32,9 @@
 "Apache.NMS.ActiveMQ-2.1.1": [
 "activemq/apache-nms-activemq/2.1.1/Apache.NMS.ActiveMQ-2.1.1-src.zip"
 ],
+"activemq-5.17.7": [
+"activemq/5.17.7/activemq-parent-5.17.7-source-release.zip"
+],
 "activemq-5.18.7": [
 "activemq/5.18.7/activemq-parent-5.18.7-source-release.zip"
 ],
@@ -52,10 +55,6 @@
 "activemq/activemq-cpp/3.9.5/activemq-cpp-library-3.9.5-src.tar.bz2",
 "activemq/activemq-cpp/3.9.5/activemq-cpp-library-3.9.5-src.tar.gz",
 "activemq/activemq-cpp/3.9.5/activemq-cpp-library-3.9.5-src.zip"
-],
-"apache-artemis-2.39.0": [
-"activemq/activemq-artemis/2.39.0/apache-artemis-2.39.0-source-release.tar.gz",
-"activemq/activemq-artemis/2.39.0/apache-artemis-2.39.0-source-release.zip"
 ],
 "apache-artemis-2.40.0": [
 "activemq/activemq-artemis/2.40.0/apache-artemis-2.40.0-source-release.tar.gz",
@@ -4576,6 +4575,12 @@
 "ignite/ignite-extensions/ignite-spark-ext/2.0.0/ignite-spark-ext-src.zip",
 "ignite/ignite-extensions/ignite-spark-ext/3.0.0/ignite-spark-ext-src.zip"
 ],
+"ignite-spring-boot-autoconfigure-ext": [
+"ignite/ignite-extensions/ignite-spring-boot-autoconfigure-ext/2.0.0/ignite-spring-boot-autoconfigure-ext-src.zip"
+],
+"ignite-spring-boot-thin-client-autoconfigure-ext": [
+"ignite/ignite-extensions/ignite-spring-boot-thin-client-autoconfigure-ext/2.0.0/ignite-spring-boot-thin-client-autoconfigure-ext-src.zip"
+],
 "ignite-spring-cache-ext": [
 "ignite/ignite-extensions/ignite-spring-cache-ext/2.0.0/ignite-spring-cache-ext-src.zip"
 ],
@@ -4587,7 +4592,8 @@
 ],
 "ignite-spring-data-ext": [
 "ignite/ignite-extensions/ignite-spring-data-ext/2.0.0/ignite-spring-data-ext-src.zip",
-"ignite/ignite-extensions/ignite-spring-data-ext/3.0.0/ignite-spring-data-ext-src.zip"
+"ignite/ignite-extensions/ignite-spring-data-ext/3.0.0/ignite-spring-data-ext-src.zip",
+"ignite/ignite-extensions/ignite-spring-data-ext/3.1.0/ignite-spring-data-ext-src.zip"
 ],
 "ignite-spring-session-ext": [
 "ignite/ignite-extensions/ignite-spring-session-ext/1.0.0/ignite-spring-session-ext-src.zip",
@@ -7338,8 +7344,8 @@
 "orc-1.9.5": [
 "orc/orc-1.9.5/orc-1.9.5.tar.gz"
 ],
-"orc-2.0.3": [
-"orc/orc-2.0.3/orc-2.0.3.tar.gz"
+"orc-2.0.4": [
+"orc/orc-2.0.4/orc-2.0.4.tar.gz"
 ],
 "orc-2.1.1": [
 "orc/orc-2.1.1/orc-2.1.1.tar.gz"
@@ -8302,6 +8308,9 @@
 ],
 "rocketmq-spring-rocketmq-spring-all-2.3.2": [
 "rocketmq/rocketmq-spring/2.3.2/rocketmq-spring-rocketmq-spring-all-2.3.2.zip"
+],
+"rocketmq-spring-rocketmq-spring-all-2.3.3": [
+"rocketmq/rocketmq-spring/2.3.3/rocketmq-spring-rocketmq-spring-all-2.3.3.zip"
 ],
 "rocketmq-streams-1.0.1-preview": [
 "rocketmq/rocketmq-streams/1.0.1-Preview/rocketmq-streams-1.0.1-preview.zip"
@@ -9565,8 +9574,8 @@
 "org.apache.sling.testing.serversetup-1.0.4": [
 "sling/org.apache.sling.testing.serversetup-1.0.4-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock-3.5.2": [
-"sling/org.apache.sling.testing.sling-mock-3.5.2-source-release.zip"
+"org.apache.sling.testing.sling-mock-3.5.4": [
+"sling/org.apache.sling.testing.sling-mock-3.5.4-source-release.zip"
 ],
 "org.apache.sling.testing.sling-mock-jackrabbit-1.0.0": [
 "sling/org.apache.sling.testing.sling-mock-jackrabbit-1.0.0-source-release.zip"
@@ -9577,17 +9586,17 @@
 "org.apache.sling.testing.sling-mock-oak-4.0.0-1.62.0": [
 "sling/org.apache.sling.testing.sling-mock-oak-4.0.0-1.62.0-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.core-3.5.2": [
-"sling/org.apache.sling.testing.sling-mock.core-3.5.2-source-release.zip"
+"org.apache.sling.testing.sling-mock.core-3.5.4": [
+"sling/org.apache.sling.testing.sling-mock.core-3.5.4-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.junit4-3.5.2": [
-"sling/org.apache.sling.testing.sling-mock.junit4-3.5.2-source-release.zip"
+"org.apache.sling.testing.sling-mock.junit4-3.5.4": [
+"sling/org.apache.sling.testing.sling-mock.junit4-3.5.4-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.junit5-3.5.2": [
-"sling/org.apache.sling.testing.sling-mock.junit5-3.5.2-source-release.zip"
+"org.apache.sling.testing.sling-mock.junit5-3.5.4": [
+"sling/org.apache.sling.testing.sling-mock.junit5-3.5.4-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.parent-3.5.2": [
-"sling/org.apache.sling.testing.sling-mock.parent-3.5.2-source-release.zip"
+"org.apache.sling.testing.sling-mock.parent-3.5.4": [
+"sling/org.apache.sling.testing.sling-mock.parent-3.5.4-source-release.zip"
 ],
 "org.apache.sling.testing.tools-1.0.16": [
 "sling/org.apache.sling.testing.tools-1.0.16-source-release.zip"

@@ -973,6 +973,31 @@
 ],
 "shortdesc": "OSGi Enterprise Programming Model"
 },
+"arrow": {
+"bug-database": "https://github.com/apache/arrow/issues",
+"category": "big-data, database, data-engineering, library, network-client, network-server",
+"created": "2016-02-17",
+"description": "Apache Arrow defines a language-independent columnar memory format for flat and nested data, organized for efficient analytic operations on modern hardware like CPUs and GPUs. The Arrow memory format also supports zero-copy reads for lightning-fast data access without serialization overhead.\n\nArrow's libraries implement the format and provide building blocks for a range of use cases, including high performance analytics. Many popular projects use Arrow to ship columnar data efficiently or as the basis for analytic engines.\n\nLibraries are available for C, C++, C#, Go, Java, JavaScript, Julia, MATLAB, Python, R, Ruby, and Rust.\n\nApache Arrow is software created by and for the developer community. We are dedicated to open, kind communication and consensus decision making. Our committers come from a range of organizations and backgrounds, and we welcome all to participate with us.",
+"doap": "https://arrow.apache.org/arrow.rdf",
+"download-page": "http://arrow.apache.org/release/",
+"homepage": "https://arrow.apache.org",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "http://mail-archives.apache.org/mod_mbox/arrow-dev/",
+"name": "Apache Arrow",
+"pmc": "arrow",
+"programming-language": "C, C++, C#, Go, Java, JavaScript, Julia, MATLAB, Python, R, Ruby, Rust",
+"release": [
+{
+"created": "2025-02-16",
+"name": "Apache Arrow",
+"revision": "19.0.1"
+}
+],
+"repository": [
+"https://github.com/apache/arrow.git"
+],
+"shortdesc": "Apache Arrow is the universal columnar format and multi-language toolbox for fast data interchange and in-memory analytics."
+},
 "attic-any23": {
 "bug-database": "https://issues.apache.org/jira/browse/ANY23",
 "category": "retired, content",
