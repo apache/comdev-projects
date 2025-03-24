@@ -1995,6 +1995,39 @@
 ],
 "shortdesc": "Apache Giraph is an iterative graph processing system built for high scalability. "
 },
+"attic-gora": {
+"bug-database": "https://issues.apache.org/jira/browse/GORA",
+"category": "retired, database",
+"created": "2012-01-30",
+"description": "Although there are various excellent ORM frameworks for relational databases, data modeling in NoSQL data stores differ profoundly from their relational cousins. Moreover, data-model agnostic frameworks such as JDO are not sufficient for use cases, where one needs to use the full power of the data models in column stores. Gora fills this gap by giving the user an easy-to-use in-memory data model and persistence for big data framework with data store specific mappings and built in Apache Hadoop support.",
+"doap": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/gora.rdf",
+"download-page": "http://gora.apache.org/releases.html",
+"homepage": "http://gora.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://gora.apache.org/mailing_lists.html",
+"maintainer": [
+{
+"mbox": "mailto:dev@gora.apache.org",
+"name": "Gora Development Team"
+}
+],
+"name": "Apache Gora",
+"pmc": "attic",
+"programming-language": "Java",
+"releases": {
+"release": {
+"Version": {
+"created": "2011-04-06",
+"name": "0.1-incubating release",
+"revision": "0.1-incubating"
+}
+}
+},
+"repository": [
+"https://svn.apache.org/repos/asf/gora/trunk/"
+],
+"shortdesc": "The Apache Gora open source framework provides an in-memory data model and persistence for big data. Gora supports persisting to column stores, key value stores, document stores and RDBMSs, and analyzing the data with extensive Apache Hadoop MapReduce support."
+},
 "attic-hama": {
 "bug-database": "https://issues.apache.org/jira/browse/HAMA",
 "category": "retired, big-data",
@@ -9554,39 +9587,6 @@
 "https://github.com/apache/gobblin"
 ],
 "shortdesc": "Distributed data integration framework"
-},
-"gora": {
-"bug-database": "https://issues.apache.org/jira/browse/GORA",
-"category": "database, retired",
-"created": "2012-01-30",
-"description": "Although there are various excellent ORM frameworks for relational databases, data modeling in NoSQL data stores differ profoundly from their relational cousins. Moreover, data-model agnostic frameworks such as JDO are not sufficient for use cases, where one needs to use the full power of the data models in column stores. Gora fills this gap by giving the user an easy-to-use in-memory data model and persistence for big data framework with data store specific mappings and built in Apache Hadoop support.",
-"doap": "http://svn.apache.org/repos/asf/gora/cms_site/trunk/content/current/doap_Gora.rdf",
-"download-page": "http://gora.apache.org/releases.html",
-"homepage": "http://gora.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://gora.apache.org/mailing_lists.html",
-"maintainer": [
-{
-"mbox": "mailto:dev@gora.apache.org",
-"name": "Gora Development Team"
-}
-],
-"name": "Apache Gora",
-"pmc": "attic",
-"programming-language": "Java",
-"releases": {
-"release": {
-"Version": {
-"created": "2011-04-06",
-"name": "0.1-incubating release",
-"revision": "0.1-incubating"
-}
-}
-},
-"repository": [
-"https://svn.apache.org/repos/asf/gora/trunk/"
-],
-"shortdesc": "The Apache Gora open source framework provides an in-memory data model and persistence for big data. Gora supports persisting to column stores, key value stores, document stores and RDBMSs, and analyzing the data with extensive Apache Hadoop MapReduce support."
 },
 "groovy": {
 "bug-database": "https://issues.apache.org/jira/browse/GROOVY",
