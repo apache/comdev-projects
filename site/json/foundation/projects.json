@@ -8759,7 +8759,7 @@
 "category": "database",
 "created": "2006-03-27",
 "description": "Torque is an object-relational mapper for Java. In other words, Torque lets you access and manipulate data in a relational database using java objects. Unlike most other object-relational mappers, Torque does not use reflection to access user-provided classes, but it generates the necessary classes (including the Data Objects) from an XML schema describing the database layout (which can either be written by hand or generated from an existing database). The XML schema can also be used to generate and execute a SQL script which creates all the tables in the database.",
-"doap": "http://svn.apache.org/repos/asf/db/torque/trunks/doap_Torque.rdf",
+"doap": "https://svn.apache.org/repos/asf/db/torque/trunk/doap_Torque.rdf",
 "download-page": "http://db.apache.org/torque/download.html",
 "homepage": "http://db.apache.org/torque/",
 "license": "http://usefulinc.com/doap/licenses/asl20",
@@ -8768,6 +8768,16 @@
 "pmc": "db",
 "programming-language": "Java",
 "release": [
+{
+"created": "2024-05-08",
+"name": "Torque",
+"revision": "6.0"
+},
+{
+"created": "2022-02-02",
+"name": "Torque",
+"revision": "5.1"
+},
 {
 "created": "2013-03-01",
 "name": "Torque",
@@ -8790,7 +8800,7 @@
 }
 ],
 "repository": [
-"http://svn.apache.org/repos/asf/db/torque/trunks/"
+"https://svn.apache.org/repos/asf/db/torque/trunk/"
 ],
 "shortdesc": "Torque is an object-relational mapper for Java."
 },
@@ -14592,6 +14602,11 @@
 "programming-language": "Java, Groovy, JavaScript, XML, Freemarker",
 "release": [
 {
+"created": "2025-04-01",
+"name": "Apache OFBiz R18.12",
+"revision": "18.12.19"
+},
+{
 "created": "2025-03-07",
 "name": "Apache OFBiz R18.12",
 "revision": "18.12.18"
@@ -18816,7 +18831,7 @@
 "category": "web-framework",
 "created": "2008-04-08",
 "description": " Turbine is a servlet based framework that allows experienced Java developers to quickly build web applications. Turbine allows you to use personalize the web sites and to use user logins to restrict access to parts of your application.\n\nTurbine is a matured and well established framework that is used as the base of many other projects (like e.g. the excellent Jetspeed 1 Portals framework.\n\nTurbine is an excellent choice for developing applications that make use of a services-oriented architecture. Some of the functionality provided with Turbine includes a security management system, a scheduling service, XML-defined form validation server, and an XML-RPC service for web services. It is a simple task to create new services particular to your application.\n\nThe Turbine core is free of any dependency on a presentation layer technology. Both JavaServer Pages (JSP) and Velocity are supported inside Turbine. For developers already familiar with JSP, or have existing JSP tag libraries, Turbine offers support for the Sun standard. Velocity is the favorite view technology of most users of the Turbine framework; try it out and see if Velocity can help you develop your web applications faster and work more easily with non-programming designers.\n\nTurbine is developed in an open, participatory environment and released under the Apache Software License. Turbine is intended to be a collaboration of the best-of-breed developers from around the world. We invite you to participate in this open development project. To learn more about getting involved, look at our \"How to Help\" pages. ",
-"doap": "http://svn.apache.org/repos/asf/turbine/site/doap/doap_Turbine.rdf",
+"doap": "https://gitbox.apache.org/repos/asf?p=turbine-site.git;a=blob_plain;f=doap/doap_Turbine.rdf;hb=HEAD",
 "download-page": "http://turbine.apache.org/download.html",
 "homepage": "http://turbine.apache.org",
 "license": "http://usefulinc.com/doap/licenses/asl20",
@@ -18860,9 +18875,20 @@
 "created": "2019-05-28",
 "name": "Apache Turbine",
 "revision": "5.0"
+},
+{
+"created": "2021-12-13",
+"name": "Apache Turbine",
+"revision": "5.1"
+},
+{
+"created": "2024-01-29",
+"name": "Apache Turbine",
+"revision": "6.0"
 }
 ],
 "repository": [
+"https://gitbox.apache.org/repos/asf/turbine-core.git",
 "http://svn.apache.org/repos/asf/turbine/core/trunk/"
 ],
 "shortdesc": "Turbine is a servlet based framework that allows Java developers to quickly build web applications."
