@@ -1557,9 +1557,7 @@
 "groups": [
 "airflow",
 "airflow-pmc",
-"beam",
-"diversity",
-"diversity-pmc"
+"beam"
 ],
 "member": true,
 "name": "Aizhamal Nurmamat kyzy"
@@ -3258,6 +3256,8 @@
 },
 "andreww": {
 "groups": [
+"diversity",
+"diversity-pmc",
 "incubator",
 "incubator-pmc",
 "royale",
@@ -5266,8 +5266,6 @@
 "austin": {
 "groups": [
 "beam",
-"diversity",
-"diversity-pmc",
 "flagon",
 "flagon-pmc",
 "incubator"
@@ -11288,8 +11286,6 @@
 "dataprivacy-pmc",
 "db",
 "db-pmc",
-"diversity",
-"diversity-pmc",
 "incubator",
 "incubator-pmc",
 "jspwiki",
@@ -12297,8 +12293,6 @@
 "groups": [
 "comdev",
 "comdev-pmc",
-"diversity",
-"diversity-pmc",
 "incubator",
 "incubator-pmc",
 "ponymail",
@@ -15025,9 +15019,7 @@
 "djoshi": {
 "groups": [
 "cassandra",
-"cassandra-pmc",
-"diversity",
-"diversity-pmc"
+"cassandra-pmc"
 ],
 "member": true,
 "name": "Dinesh Joshi"
@@ -22020,9 +22012,7 @@
 "groups": [
 "beam",
 "comdev",
-"comdev-pmc",
-"diversity",
-"diversity-pmc"
+"comdev-pmc"
 ],
 "member": true,
 "name": "Gris Cuevas"
@@ -22050,6 +22040,8 @@
 "commons-pmc",
 "dataprivacy",
 "dataprivacy-pmc",
+"diversity",
+"diversity-pmc",
 "incubator",
 "incubator-pmc",
 "logging",
@@ -25898,7 +25890,7 @@
 "tac-pmc"
 ],
 "member": true,
-"name": "Chris Wells"
+"name": "(Missing from LDAP people)"
 },
 "ironcity": {
 "groups": [
@@ -33332,14 +33324,6 @@
 "member": false,
 "name": "Kathy Saunders"
 },
-"katia": {
-"groups": [
-"diversity",
-"diversity-pmc"
-],
-"member": true,
-"name": "Katia Rojas"
-},
 "kaushalye": {
 "groups": [
 "ws"
@@ -33756,8 +33740,6 @@
 "beam-pmc",
 "datasketches",
 "datasketches-pmc",
-"diversity",
-"diversity-pmc",
 "incubator",
 "incubator-pmc",
 "streampipes",
@@ -42570,7 +42552,9 @@
 },
 "mjfoulks": {
 "groups": [
-"comdev"
+"comdev",
+"tac",
+"tac-pmc"
 ],
 "member": true,
 "name": "MJ Foulks"
@@ -44444,8 +44428,6 @@
 "groups": [
 "comdev",
 "comdev-pmc",
-"diversity",
-"diversity-pmc",
 "fineract",
 "incubator",
 "incubator-pmc"
@@ -46226,8 +46208,6 @@
 "groups": [
 "couchdb",
 "couchdb-pmc",
-"diversity",
-"diversity-pmc",
 "incubator"
 ],
 "member": true,
@@ -49115,6 +49095,8 @@
 "groups": [
 "airflow",
 "airflow-pmc",
+"diversity",
+"diversity-pmc",
 "security",
 "security-pmc"
 ],
@@ -51187,8 +51169,6 @@
 "attic-pmc",
 "comdev",
 "comdev-pmc",
-"diversity",
-"diversity-pmc",
 "httpd",
 "httpd-pmc",
 "incubator",
@@ -51751,8 +51731,6 @@
 "comdev-pmc",
 "creadur",
 "creadur-pmc",
-"diversity",
-"diversity-pmc",
 "incubator",
 "openmeetings",
 "openmeetings-pmc",
@@ -53474,8 +53452,6 @@
 "rubys": {
 "groups": [
 "ant-pmc",
-"diversity",
-"diversity-pmc",
 "gump",
 "gump-pmc",
 "incubator",
@@ -57636,9 +57612,7 @@
 "smckinney": {
 "groups": [
 "directory",
-"directory-pmc",
-"diversity",
-"diversity-pmc"
+"directory-pmc"
 ],
 "member": true,
 "name": "Shawn McKinney"
@@ -66593,9 +66567,7 @@
 "wohali": {
 "groups": [
 "couchdb",
-"couchdb-pmc",
-"diversity",
-"diversity-pmc"
+"couchdb-pmc"
 ],
 "member": false,
 "name": "Joan Touzet"
@@ -66849,6 +66821,14 @@
 ],
 "member": false,
 "name": "Warren Togami Jr."
+},
+"wtrue": {
+"groups": [
+"diversity",
+"diversity-pmc"
+],
+"member": true,
+"name": "Whitney P True"
 },
 "wuchunfu": {
 "groups": [
