@@ -11286,6 +11286,8 @@
 "dataprivacy-pmc",
 "db",
 "db-pmc",
+"diversity",
+"diversity-pmc",
 "incubator",
 "incubator-pmc",
 "jspwiki",
@@ -11397,6 +11399,8 @@
 },
 "cml": {
 "groups": [
+"diversity",
+"diversity-pmc",
 "incubator",
 "incubator-pmc",
 "logodev"
@@ -14027,7 +14031,8 @@
 },
 "derongfu": {
 "groups": [
-"incubator"
+"incubator",
+"seata"
 ],
 "member": false,
 "name": "Derong Fu"
@@ -25879,18 +25884,6 @@
 ],
 "member": false,
 "name": "Ian Robinson"
-},
-"iroh": {
-"groups": [
-"comdev",
-"comdev-pmc",
-"logodev",
-"logodev-pmc",
-"tac",
-"tac-pmc"
-],
-"member": true,
-"name": "(Missing from LDAP people)"
 },
 "ironcity": {
 "groups": [
@@ -66000,6 +65993,18 @@
 ],
 "member": false,
 "name": "Zuo Wei"
+},
+"wells": {
+"groups": [
+"comdev",
+"comdev-pmc",
+"logodev",
+"logodev-pmc",
+"tac",
+"tac-pmc"
+],
+"member": true,
+"name": "Chris Wells"
 },
 "wenchen": {
 "groups": [
