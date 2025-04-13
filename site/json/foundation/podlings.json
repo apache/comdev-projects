@@ -79,6 +79,14 @@
 "podling": true,
 "started": "2024-06"
 },
+"hamilton": {
+"description": "\n            Hamilton is a lightweight in-process framework to define, execute, and observe\n            directed acyclic graphs (DAGs) that express data transformations. In Hamilton\n            one can express complex DAGs of transformations, e.g. from dataframe transformations\n            (using pandas, polars, PySpark), machine learning pipelines, through to regular\n            software engineering API request and LLM API based workflows. Observability hooks\n            are built into the framework. The Hamilton UI is a self-hostable service to capture\n            observability output from workflow runs. Apache Software Foundation incubation will\n            establish Hamilton as a community-driven standard.\n        ",
+"homepage": "http://hamilton.incubator.apache.org/",
+"name": "Apache Hamilton (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2025-04"
+},
 "hertzbeat": {
 "description": "HertzBeat is an easy-to-use, open source, real-time monitoring system. It features an agentless architecture, high-performance clustering, Prometheus compatibility, and powerful custom monitoring and status page building capabilities.",
 "homepage": "http://hertzbeat.incubator.apache.org/",
@@ -222,6 +230,14 @@
 "pmc": "incubator",
 "podling": true,
 "started": "2019-08"
+},
+"texera": {
+"description": "\n            Texera is an open-source system to support collaborative data science, AI, and ML\n            using GUI-based workflows. Our vision is to develop a system to support cloud\n            platforms on which users can easily analyze data and use AI/ML techniques provided\n            as operators. Users with various backgrounds, irrespective of whether they know\n            coding or not, can collaborate on the same project to construct a pipeline.\n            Experienced users can use programming languages such as Python, R, Java, and Scala\n            to implement customized computation logic. The platform allows users to pause the\n            execution of a workflow to investigate the operator states, and resume the execution\n            at a later time.  The platform can be used by a research community to publish valuable\n            resources such as data sets, workflows, and ML models to share their domain-specific\n            knowledge and support reproducibility of scientific research. The platform also allows\n            users to elastically request computing resources from public clouds for\n            computationally-intensive tasks.\n        ",
+"homepage": "http://texera.incubator.apache.org/",
+"name": "Apache Texera (Incubating)",
+"pmc": "incubator",
+"podling": true,
+"started": "2025-04"
 },
 "toree": {
 "description": "Toree provides applications with a mechanism to interactively and remotely access Apache Spark.",
