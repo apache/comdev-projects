@@ -444,7 +444,7 @@ if len(failures) > 0:
         f.close()
         if unreportedError:
             s = "\n".join(failures)
-            printMail("ERROR: one or more errors detected - see also the /var/log/parseprojects.log file",
+            printMail("ERROR: one or more errors detected - see also the /var/log/www-data/parseprojects.log file",
                       body="URLs:\n%s" % s)
 else:
     if os.path.exists("parseprojects-failures.xml"):
