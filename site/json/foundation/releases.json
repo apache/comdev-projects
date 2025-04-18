@@ -451,14 +451,17 @@
 "camel-k-sources-2.6.0": "2025-02-08",
 "camel-kafka-connector-4.10.2": "2025-03-11",
 "camel-kafka-connector-4.10.3": "2025-04-05",
+"camel-kafka-connector-4.11.0": "2025-04-13",
 "camel-kafka-connector-4.8.5": "2025-03-10",
 "camel-kamelets-sources-4.10.3": "2025-03-31",
 "camel-kamelets-sources-4.11.0": "2025-04-04",
 "camel-kamelets-sources-4.8.5": "2025-03-10",
-"camel-karaf-4.8.5": "2025-03-11",
+"camel-karaf-4.10.3": "2025-04-14",
+"camel-karaf-4.8.6": "2025-04-14",
 "camel-karaf-4.9.0": "2025-01-26",
 "camel-karavan-4.10.2": "2025-03-13",
 "camel-upgrade-recipes-sources-4.10.0": "2025-02-11",
+"camel-upgrade-recipes-sources-4.11.0": "2025-04-14",
 "camel-upgrade-recipes-sources-4.8.0": "2024-09-30",
 "camel-upgrade-recipes-sources-4.9.0": "2025-01-24"
 },
@@ -680,7 +683,8 @@
 "datafu": {
 "apache-datafu-sources-1.7.0": "2023-01-22",
 "apache-datafu-sources-1.8.0": "2023-07-05",
-"apache-datafu-sources-2.0.0": "2024-01-14"
+"apache-datafu-sources-2.0.0": "2024-01-14",
+"apache-datafu-sources-2.1.0": "2025-04-17"
 },
 "datafusion": {
 "apache-datafusion-42.2.0": "2024-11-04",
@@ -1090,6 +1094,7 @@
 "flink-connector-cassandra-3.2.0": "2024-04-22",
 "flink-connector-elasticsearch-3.0.1": "2023-04-13",
 "flink-connector-elasticsearch-3.1.0": "2025-04-02",
+"flink-connector-elasticsearch-4.0.0": "2025-04-11",
 "flink-connector-gcp-pubsub-3.0.2": "2023-11-15",
 "flink-connector-gcp-pubsub-3.1.0": "2024-04-18",
 "flink-connector-hbase-3.0.0": "2023-09-01",
@@ -1631,9 +1636,10 @@
 },
 "iotdb": {
 "apache-iotdb-0.13.4": "2023-02-13",
-"apache-iotdb-1.3.2": "2024-07-01",
 "apache-iotdb-1.3.3": "2024-11-20",
-"apache-iotdb-2.0.1-beta": "2025-02-16"
+"apache-iotdb-1.3.4": "2025-04-17",
+"apache-iotdb-2.0.1-beta": "2025-02-16",
+"apache-iotdb-2.0.2": "2025-04-17"
 },
 "jackrabbit": {
 "filevault-package-maven-plugin-1.3.0": "2022-03-17",
@@ -1880,7 +1886,8 @@
 },
 "mahout": {
 "apache-mahout-distribution-14.1": "2020-10-07",
-"mahout-14.1": "2020-10-07"
+"mahout-14.1": "2020-10-07",
+"mahout-qumat-0.4": "2025-04-17"
 },
 "manifoldcf": {
 "apache-manifoldcf-1.10": "2015-09-08",
@@ -1932,7 +1939,7 @@
 "doxia-converter-1.3": "2023-01-14",
 "doxia-sitetools-2.0.0": "2024-10-09",
 "enforcer-3.5.0": "2024-05-30",
-"file-management-3.1.0": "2022-07-01",
+"file-management-3.2.0": "2025-04-17",
 "jxr-3.6.0": "2024-10-25",
 "maven-44": "2025-03-18",
 "maven-acr-plugin-3.1.0": "2018-06-23",
@@ -2382,6 +2389,7 @@
 "apache-paimon-0.9.0": "2024-09-04",
 "apache-paimon-1.0.0": "2024-12-31",
 "apache-paimon-1.0.1": "2025-01-24",
+"apache-paimon-1.1.0": "2025-04-14",
 "apache-paimon-shade-0.4.0-incubating": "2023-06-07",
 "apache-paimon-shade-0.6.0-incubating": "2024-01-09",
 "apache-paimon-shade-0.8.0": "2024-04-30"
@@ -3402,8 +3410,8 @@
 "maven-turbine-plugin-1.3": "2014-03-30",
 "stratum-1.0": "2014-03-30",
 "turbine-1.0.2": "2021-10-04",
-"turbine-12": "2023-05-15",
 "turbine-13": "2024-09-11",
+"turbine-14": "2025-04-17",
 "turbine-2.3.3": "2014-03-30",
 "turbine-2.3.3-1.0.0": "2014-03-30",
 "turbine-4.0-1.0.1": "2017-01-25",
