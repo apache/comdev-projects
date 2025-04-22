@@ -102,6 +102,7 @@
 "apache_airflow_providers_discord-3.9.5": "2025-04-14",
 "apache_airflow_providers_docker-4.3.1": "2025-04-14",
 "apache_airflow_providers_edge-1.0.0": "2025-04-09",
+"apache_airflow_providers_edge3-1.0.0": "2025-04-21",
 "apache_airflow_providers_elasticsearch-6.2.1": "2025-03-13",
 "apache_airflow_providers_elasticsearch-6.2.2": "2025-04-19",
 "apache_airflow_providers_exasol-4.7.4": "2025-04-09",
@@ -111,7 +112,7 @@
 "apache_airflow_providers_facebook-3.7.1": "2025-03-13",
 "apache_airflow_providers_facebook-3.7.2": "2025-04-19",
 "apache_airflow_providers_ftp-3.12.3": "2025-03-13",
-"apache_airflow_providers_git-0.0.1": "2025-04-14",
+"apache_airflow_providers_git-0.0.2": "2025-04-21",
 "apache_airflow_providers_github-2.8.3": "2025-03-13",
 "apache_airflow_providers_google-15.0.1": "2025-04-14",
 "apache_airflow_providers_google-15.1.0": "2025-04-19",
@@ -1427,10 +1428,6 @@
 "hudi-rs-0.3.0": "2025-02-02"
 },
 "iceberg": {
-"apache-iceberg-1.7.0": "2024-11-04",
-"apache-iceberg-1.7.1": "2024-11-21",
-"apache-iceberg-1.7.2": "2025-03-13",
-"apache-iceberg-1.8.0": "2025-02-10",
 "apache-iceberg-1.8.1": "2025-02-24",
 "apache-iceberg-go-0.2.0-rc1": "2025-03-20",
 "apache-iceberg-rust-0.3.0": "2024-08-14",
@@ -2120,15 +2117,6 @@
 "apache-sshd-2.9.3": "2023-10-12",
 "vysper-0.7": "2012-12-26"
 },
-"mnemonic": {
-"apache-mnemonic-0.10.0-incubating": "2017-11-15",
-"apache-mnemonic-0.11.0": "2018-04-03",
-"apache-mnemonic-0.12.0": "2018-09-04",
-"apache-mnemonic-0.13.0": "2021-01-11",
-"apache-mnemonic-0.14.0": "2021-03-28",
-"apache-mnemonic-0.15.0": "2021-07-04",
-"apache-mnemonic-0.16.0": "2021-10-22"
-},
 "myfaces": {
 "myfaces-commons11-1.0.2": "2014-10-30",
 "myfaces-commons12-1.0.2": "2014-10-30",
@@ -2662,6 +2650,7 @@
 "pulsar-client-reactive-0.5.7": "2024-08-14",
 "pulsar-client-reactive-0.5.8": "2024-10-16",
 "pulsar-client-reactive-0.5.9": "2024-11-13",
+"pulsar-client-reactive-0.6.0": "2025-04-17",
 "pulsar-dotpulsar-3.3.1": "2024-06-20"
 },
 "qpid": {
@@ -2895,7 +2884,7 @@
 "shiro-root-2.0.4": "2025-04-17"
 },
 "singa": {
-"apache-singa-4.3.0": "2024-09-08"
+"apache-singa-5.0.0": "2025-04-21"
 },
 "sis": {
 "apache-sis-1.3": "2022-12-17",

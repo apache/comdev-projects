@@ -300,6 +300,9 @@
 "apache_airflow_providers_edge-1.0.0": [
 "airflow/providers/apache_airflow_providers_edge-1.0.0.tar.gz"
 ],
+"apache_airflow_providers_edge3-1.0.0": [
+"airflow/providers/apache_airflow_providers_edge3-1.0.0.tar.gz"
+],
 "apache_airflow_providers_elasticsearch-6.2.1": [
 "airflow/providers/apache_airflow_providers_elasticsearch-6.2.1.tar.gz"
 ],
@@ -327,8 +330,8 @@
 "apache_airflow_providers_ftp-3.12.3": [
 "airflow/providers/apache_airflow_providers_ftp-3.12.3.tar.gz"
 ],
-"apache_airflow_providers_git-0.0.1": [
-"airflow/providers/apache_airflow_providers_git-0.0.1.tar.gz"
+"apache_airflow_providers_git-0.0.2": [
+"airflow/providers/apache_airflow_providers_git-0.0.2.tar.gz"
 ],
 "apache_airflow_providers_github-2.8.3": [
 "airflow/providers/apache_airflow_providers_github-2.8.3.tar.gz"
@@ -4335,18 +4338,6 @@
 ]
 },
 "iceberg": {
-"apache-iceberg-1.7.0": [
-"iceberg/apache-iceberg-1.7.0/apache-iceberg-1.7.0.tar.gz"
-],
-"apache-iceberg-1.7.1": [
-"iceberg/apache-iceberg-1.7.1/apache-iceberg-1.7.1.tar.gz"
-],
-"apache-iceberg-1.7.2": [
-"iceberg/apache-iceberg-1.7.2/apache-iceberg-1.7.2.tar.gz"
-],
-"apache-iceberg-1.8.0": [
-"iceberg/apache-iceberg-1.8.0/apache-iceberg-1.8.0.tar.gz"
-],
 "apache-iceberg-1.8.1": [
 "iceberg/apache-iceberg-1.8.1/apache-iceberg-1.8.1.tar.gz"
 ],
@@ -6384,29 +6375,6 @@
 "mina/vysper/0.7/vysper-0.7-src.zip"
 ]
 },
-"mnemonic": {
-"apache-mnemonic-0.10.0-incubating": [
-"mnemonic/0.10.0-incubating/src/apache-mnemonic-0.10.0-incubating-src.tar.gz"
-],
-"apache-mnemonic-0.11.0": [
-"mnemonic/0.11.0/src/apache-mnemonic-0.11.0-src.tar.gz"
-],
-"apache-mnemonic-0.12.0": [
-"mnemonic/0.12.0/src/apache-mnemonic-0.12.0-src.tar.gz"
-],
-"apache-mnemonic-0.13.0": [
-"mnemonic/0.13.0/src/apache-mnemonic-0.13.0-src.tar.gz"
-],
-"apache-mnemonic-0.14.0": [
-"mnemonic/0.14.0/src/apache-mnemonic-0.14.0-src.tar.gz"
-],
-"apache-mnemonic-0.15.0": [
-"mnemonic/0.15.0/src/apache-mnemonic-0.15.0-src.tar.gz"
-],
-"apache-mnemonic-0.16.0": [
-"mnemonic/0.16.0/src/apache-mnemonic-0.16.0-src.tar.gz"
-]
-},
 "myfaces": {
 "myfaces-commons11-1.0.2": [
 "myfaces/source/myfaces-commons11-1.0.2-src.tar.gz",
@@ -7963,6 +7931,9 @@
 "pulsar-client-reactive-0.5.9": [
 "pulsar/pulsar-client-reactive-0.5.9/pulsar-client-reactive-0.5.9-src.tar.gz"
 ],
+"pulsar-client-reactive-0.6.0": [
+"pulsar/pulsar-client-reactive-0.6.0/pulsar-client-reactive-0.6.0-src.tar.gz"
+],
 "pulsar-dotpulsar-3.3.1": [
 "pulsar/pulsar-dotpulsar-3.3.1/pulsar-dotpulsar-3.3.1-src.tar.gz"
 ]
@@ -8595,8 +8566,8 @@
 ]
 },
 "singa": {
-"apache-singa-4.3.0": [
-"singa/4.3.0/apache-singa-4.3.0.tar.gz"
+"apache-singa-5.0.0": [
+"singa/5.0.0/apache-singa-5.0.0.tar.gz"
 ]
 },
 "sis": {
