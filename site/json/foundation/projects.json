@@ -18868,15 +18868,15 @@
 "shortdesc": "The mission of Apache TsFile is the creation and maintenance of software related to a columnar storage file format designed for time series data."
 },
 "turbine": {
-"bug-database": "http://issues.apache.org/jira/browse/TRB",
+"bug-database": "https://issues.apache.org/jira/browse/TRB",
 "category": "web-framework",
 "created": "2008-04-08",
 "description": " Turbine is a servlet based framework that allows experienced Java developers to quickly build web applications. Turbine allows you to use personalize the web sites and to use user logins to restrict access to parts of your application.\n\nTurbine is a matured and well established framework that is used as the base of many other projects (like e.g. the excellent Jetspeed 1 Portals framework.\n\nTurbine is an excellent choice for developing applications that make use of a services-oriented architecture. Some of the functionality provided with Turbine includes a security management system, a scheduling service, XML-defined form validation server, and an XML-RPC service for web services. It is a simple task to create new services particular to your application.\n\nThe Turbine core is free of any dependency on a presentation layer technology. Both JavaServer Pages (JSP) and Velocity are supported inside Turbine. For developers already familiar with JSP, or have existing JSP tag libraries, Turbine offers support for the Sun standard. Velocity is the favorite view technology of most users of the Turbine framework; try it out and see if Velocity can help you develop your web applications faster and work more easily with non-programming designers.\n\nTurbine is developed in an open, participatory environment and released under the Apache Software License. Turbine is intended to be a collaboration of the best-of-breed developers from around the world. We invite you to participate in this open development project. To learn more about getting involved, look at our \"How to Help\" pages. ",
 "doap": "https://gitbox.apache.org/repos/asf?p=turbine-site.git;a=blob_plain;f=doap/doap_Turbine.rdf;hb=HEAD",
-"download-page": "http://turbine.apache.org/download.html",
-"homepage": "http://turbine.apache.org",
+"download-page": "https://turbine.apache.org/download.html",
+"homepage": "https://turbine.apache.org",
 "license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://turbine.apache.org/contact.html",
+"mailing-list": "https://turbine.apache.org/contact.html",
 "maintainer": [
 {
 "mbox": "mailto:dev@turbine.apache.org",
@@ -18929,8 +18929,7 @@
 }
 ],
 "repository": [
-"https://gitbox.apache.org/repos/asf/turbine-core.git",
-"http://svn.apache.org/repos/asf/turbine/core/trunk/"
+"https://gitbox.apache.org/repos/asf/turbine-core.git"
 ],
 "shortdesc": "Turbine is a servlet based framework that allows Java developers to quickly build web applications."
 },
@@ -19617,9 +19616,9 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2025-01-24",
+"created": "2025-04-25",
 "name": "Latest Stable Release",
-"revision": "10.4.0"
+"revision": "10.5.0"
 }
 ],
 "repository": [
