@@ -66,6 +66,7 @@
 "apache_airflow_providers_apache_pinot-4.7.0": "2025-03-13",
 "apache_airflow_providers_apache_spark-5.2.1": "2025-04-22",
 "apache_airflow_providers_apache_sqoop-4.2.1": "2023-12-27",
+"apache_airflow_providers_apache_tinkerpop-1.0.0": "2025-05-08",
 "apache_airflow_providers_apprise-2.0.2": "2025-03-31",
 "apache_airflow_providers_arangodb-2.7.4": "2025-04-22",
 "apache_airflow_providers_asana-2.9.1": "2025-03-13",
@@ -76,8 +77,8 @@
 "apache_airflow_providers_cohere-1.4.3": "2025-03-13",
 "apache_airflow_providers_common_compat-1.6.1": "2025-04-28",
 "apache_airflow_providers_common_io-1.5.4": "2025-04-22",
-"apache_airflow_providers_common_messaging-1.0.0": "2025-04-14",
-"apache_airflow_providers_common_sql-1.26.0": "2025-04-22",
+"apache_airflow_providers_common_messaging-1.0.1": "2025-05-08",
+"apache_airflow_providers_common_sql-1.27.0": "2025-05-08",
 "apache_airflow_providers_daskexecutor-1.1.1": "2023-12-17",
 "apache_airflow_providers_databricks-7.3.2": "2025-04-22",
 "apache_airflow_providers_datadog-3.8.3": "2025-03-13",
@@ -1451,6 +1452,7 @@
 "incubator-amoro": {
 "apache-amoro-0.7.0-incubating": "2024-07-16",
 "apache-amoro-0.7.1-incubating": "2024-11-11",
+"apache-amoro-0.8.0-incubating": "2025-04-23",
 "apache-amoro-shade-0.7.0-incubating": "2024-07-16"
 },
 "incubator-annotator": {
@@ -3138,14 +3140,14 @@
 "org.apache.sling.scripting.jsp.taglib-2.4.2": "2024-12-16",
 "org.apache.sling.scripting.jsp.taglib.compat-1.0.0": "2019-02-18",
 "org.apache.sling.scripting.jst-2.0.6": "2013-01-21",
-"org.apache.sling.scripting.sightly-1.4.26-1.4.0": "2024-11-28",
+"org.apache.sling.scripting.sightly-1.4.28-1.4.0": "2025-05-08",
 "org.apache.sling.scripting.sightly.compiler-1.2.14-1.4.0": "2021-08-07",
 "org.apache.sling.scripting.sightly.compiler.java-1.2.2-1.4.0": "2020-09-29",
-"org.apache.sling.scripting.sightly.js.provider-1.2.12": "2025-01-31",
+"org.apache.sling.scripting.sightly.js.provider-1.2.14": "2025-05-08",
 "org.apache.sling.scripting.sightly.models.provider-1.0.10": "2019-09-01",
 "org.apache.sling.scripting.sightly.repl-1.0.10": "2021-12-21",
 "org.apache.sling.scripting.sightly.runtime-1.2.6-1.4.0": "2021-08-07",
-"org.apache.sling.scripting.sightly.testing-1.0.38-1.4.0": "2025-01-31",
+"org.apache.sling.scripting.sightly.testing-1.0.40-1.4.0": "2025-05-08",
 "org.apache.sling.scripting.sightly.testing-content-1.0.34-1.4.0": "2024-08-14",
 "org.apache.sling.scripting.spi-1.0.4": "2021-07-19",
 "org.apache.sling.scripting.thymeleaf-2.0.2": "2019-09-30",
@@ -3233,16 +3235,15 @@
 "Mail-SpamAssassin-rules-4.0.1.r1916528": "2024-03-29"
 },
 "spark": {
-"SparkR_3.4.4": "2024-10-21",
 "SparkR_3.5.5": "2025-02-23",
 "SparkR_4.0.0-preview2": "2024-09-16",
-"pyspark-3.4.4": "2024-10-21",
 "pyspark-3.5.5": "2025-02-23",
 "pyspark-4.0.0.dev2": "2024-09-16",
 "pyspark_connect-4.0.0.dev2": "2024-09-16",
-"spark-3.4.4": "2024-10-21",
 "spark-3.5.5": "2025-02-23",
-"spark-4.0.0-preview2": "2024-09-16"
+"spark-4.0.0-preview2": "2024-09-16",
+"spark-connect-swift-0.1.0": "2025-05-04",
+"spark-kubernetes-operator-0.1.0": "2025-05-04"
 },
 "storm": {
 "apache-storm-1.2.4": "2021-10-01",

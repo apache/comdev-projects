@@ -193,6 +193,9 @@
 "apache_airflow_providers_apache_sqoop-4.2.1": [
 "airflow/providers/apache_airflow_providers_apache_sqoop-4.2.1.tar.gz"
 ],
+"apache_airflow_providers_apache_tinkerpop-1.0.0": [
+"airflow/providers/apache_airflow_providers_apache_tinkerpop-1.0.0.tar.gz"
+],
 "apache_airflow_providers_apprise-2.0.2": [
 "airflow/providers/apache_airflow_providers_apprise-2.0.2.tar.gz"
 ],
@@ -223,11 +226,11 @@
 "apache_airflow_providers_common_io-1.5.4": [
 "airflow/providers/apache_airflow_providers_common_io-1.5.4.tar.gz"
 ],
-"apache_airflow_providers_common_messaging-1.0.0": [
-"airflow/providers/apache_airflow_providers_common_messaging-1.0.0.tar.gz"
+"apache_airflow_providers_common_messaging-1.0.1": [
+"airflow/providers/apache_airflow_providers_common_messaging-1.0.1.tar.gz"
 ],
-"apache_airflow_providers_common_sql-1.26.0": [
-"airflow/providers/apache_airflow_providers_common_sql-1.26.0.tar.gz"
+"apache_airflow_providers_common_sql-1.27.0": [
+"airflow/providers/apache_airflow_providers_common_sql-1.27.0.tar.gz"
 ],
 "apache_airflow_providers_daskexecutor-1.1.1": [
 "airflow/providers/apache_airflow_providers_daskexecutor-1.1.1.tar.gz"
@@ -4404,6 +4407,9 @@
 ],
 "apache-amoro-0.7.1-incubating": [
 "incubator/amoro/0.7.1-incubating/apache-amoro-0.7.1-incubating-src.tar.gz"
+],
+"apache-amoro-0.8.0-incubating": [
+"incubator/amoro/0.8.0-incubating/apache-amoro-0.8.0-incubating-src.tar.gz"
 ],
 "apache-amoro-shade-0.7.0-incubating": [
 "incubator/amoro/0.7.0-incubating/apache-amoro-shade-0.7.0-incubating-src.tar.gz"
@@ -9337,8 +9343,8 @@
 "org.apache.sling.scripting.jst-2.0.6": [
 "sling/org.apache.sling.scripting.jst-2.0.6-source-release.zip"
 ],
-"org.apache.sling.scripting.sightly-1.4.26-1.4.0": [
-"sling/org.apache.sling.scripting.sightly-1.4.26-1.4.0-source-release.zip"
+"org.apache.sling.scripting.sightly-1.4.28-1.4.0": [
+"sling/org.apache.sling.scripting.sightly-1.4.28-1.4.0-source-release.zip"
 ],
 "org.apache.sling.scripting.sightly.compiler-1.2.14-1.4.0": [
 "sling/org.apache.sling.scripting.sightly.compiler-1.2.14-1.4.0-source-release.zip"
@@ -9346,8 +9352,8 @@
 "org.apache.sling.scripting.sightly.compiler.java-1.2.2-1.4.0": [
 "sling/org.apache.sling.scripting.sightly.compiler.java-1.2.2-1.4.0-source-release.zip"
 ],
-"org.apache.sling.scripting.sightly.js.provider-1.2.12": [
-"sling/org.apache.sling.scripting.sightly.js.provider-1.2.12-source-release.zip"
+"org.apache.sling.scripting.sightly.js.provider-1.2.14": [
+"sling/org.apache.sling.scripting.sightly.js.provider-1.2.14-source-release.zip"
 ],
 "org.apache.sling.scripting.sightly.models.provider-1.0.10": [
 "sling/org.apache.sling.scripting.sightly.models.provider-1.0.10-source-release.zip"
@@ -9358,8 +9364,8 @@
 "org.apache.sling.scripting.sightly.runtime-1.2.6-1.4.0": [
 "sling/org.apache.sling.scripting.sightly.runtime-1.2.6-1.4.0-source-release.zip"
 ],
-"org.apache.sling.scripting.sightly.testing-1.0.38-1.4.0": [
-"sling/org.apache.sling.scripting.sightly.testing-1.0.38-1.4.0-source-release.zip"
+"org.apache.sling.scripting.sightly.testing-1.0.40-1.4.0": [
+"sling/org.apache.sling.scripting.sightly.testing-1.0.40-1.4.0-source-release.zip"
 ],
 "org.apache.sling.scripting.sightly.testing-content-1.0.34-1.4.0": [
 "sling/org.apache.sling.scripting.sightly.testing-content-1.0.34-1.4.0-source-release.zip"
@@ -9617,17 +9623,11 @@
 ]
 },
 "spark": {
-"SparkR_3.4.4": [
-"spark/spark-3.4.4/SparkR_3.4.4.tar.gz"
-],
 "SparkR_3.5.5": [
 "spark/spark-3.5.5/SparkR_3.5.5.tar.gz"
 ],
 "SparkR_4.0.0-preview2": [
 "spark/spark-4.0.0-preview2/SparkR_4.0.0-preview2.tar.gz"
-],
-"pyspark-3.4.4": [
-"spark/spark-3.4.4/pyspark-3.4.4.tar.gz"
 ],
 "pyspark-3.5.5": [
 "spark/spark-3.5.5/pyspark-3.5.5.tar.gz"
@@ -9638,14 +9638,17 @@
 "pyspark_connect-4.0.0.dev2": [
 "spark/spark-4.0.0-preview2/pyspark_connect-4.0.0.dev2.tar.gz"
 ],
-"spark-3.4.4": [
-"spark/spark-3.4.4/spark-3.4.4.tgz"
-],
 "spark-3.5.5": [
 "spark/spark-3.5.5/spark-3.5.5.tgz"
 ],
 "spark-4.0.0-preview2": [
 "spark/spark-4.0.0-preview2/spark-4.0.0-preview2.tgz"
+],
+"spark-connect-swift-0.1.0": [
+"spark/spark-connect-swift-0.1.0/spark-connect-swift-0.1.0.tar.gz"
+],
+"spark-kubernetes-operator-0.1.0": [
+"spark/spark-kubernetes-operator-0.1.0/spark-kubernetes-operator-0.1.0.tar.gz"
 ]
 },
 "storm": {
