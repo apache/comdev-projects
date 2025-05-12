@@ -9877,30 +9877,6 @@
 ],
 "shortdesc": "A cluster management framework for partitioned and replicated distributed resources"
 },
-"hive": {
-"bug-database": "https://issues.apache.org/jira/browse/HIVE",
-"category": "database",
-"created": "2011-11-09",
-"description": "The Apache Hive (TM) data warehouse software facilitates querying and managing large datasets residing in distributed storage. Built on top of Apache Hadoop (TM), it provides\n\n* tools to enable easy data extract/transform/load (ETL)\n* a mechanism to impose structure on a variety of data formats\n* access to files stored either directly in Apache HDFS (TM) or in other data storage systems such as Apache HBase (TM)\n* query execution via MapReduce\n\nHive defines a simple SQL-like query language, called HiveQL, that enables users familiar with SQL to query the data. At the same time, this language also allows programmers who are familiar with the MapReduce framework to be able to plug in their custom mappers and reducers to perform more sophisticated analysis that may not be supported by the built-in capabilities of the language. HiveQL can also be extended with custom scalar functions (UDF's), aggregations (UDAF's), and table functions (UDTF's).\n",
-"doap": "http://hive.apache.org/doap_Hive.rdf",
-"download-page": "http://hive.apache.org/releases.html",
-"homepage": "http://hive.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://hive.apache.org/mailing_lists.html",
-"maintainer": [
-{
-"mbox": "mailto:jvs@apache.org",
-"name": "John Sichi"
-}
-],
-"name": "Apache Hive",
-"pmc": "hive",
-"programming-language": "Java",
-"repository": [
-"http://svn.apache.org/repos/asf/hive/"
-],
-"shortdesc": "The Apache Hive (TM) data warehouse software facilitates querying and managing large datasets residing in distributed storage."
-},
 "hop": {
 "bug-database": "https://github.com/apache/hop/issues",
 "category": "big-data",
