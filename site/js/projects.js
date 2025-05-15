@@ -1531,7 +1531,8 @@ function weaveInRetiredCommittees(json) {
             projects[c.id] = {
                 'name': c.name,
                 'homepage': c.homepage,
-                'pmc': c.id
+                'pmc': c.id,
+                'category': "no-tlp-doap"
             }
         }
     }
