@@ -481,7 +481,7 @@ function renderCommitteePage(committeeId) {
     }
     if (subprojects.length == 0) {
        if (committeeId != 'labs') {
-           // if a committee did not declare any project, consider there is a default one with the id of the committee
+            // if a committee did not declare any project (DOAP), consider there is a default one with the id of the committee
             // only Labs doesn't manage projects
             subprojects.push({ 'id': committeeId, 'name': committee.name, 'pmc': committeeId });
         }
