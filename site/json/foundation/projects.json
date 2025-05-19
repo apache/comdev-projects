@@ -325,24 +325,6 @@
 ],
 "shortdesc": "Apache Airavata is a distributed system software framework to manage simple to\n            composite applications with complex execution and workflow patterns on diverse\n            computational resources. "
 },
-"airflow": {
-"bug-database": "https://github.com/apache/airflow/issues",
-"category": "big-data",
-"created": "2023-09-04",
-"description": "The mission of Apache Airflow is the creation and maintenance of software\nrelated to workflow automation and scheduling that can be used to author and\nmanage data pipelines.\n",
-"doap": "https://raw.githubusercontent.com/apache/airflow/main/doap_airflow.rdf",
-"download-page": "https://airflow.apache.org/docs/apache-airflow/stable/installation/index.html",
-"homepage": "https://airflow.apache.org",
-"license": "https://spdx.org/licenses/Apache-2.0",
-"mailing-list": "dev@airflow.apache.org",
-"name": "Apache Airflow",
-"pmc": "airflow",
-"programming-language": "Python, JavaScript",
-"repository": [
-"https://github.com/apache/airflow.git"
-],
-"shortdesc": "Workflow automation platform"
-},
 "allura": {
 "bug-database": "https://forge-allura.apache.org/p/allura/tickets/",
 "category": "content",
@@ -918,56 +900,6 @@
 "https://svn.apache.org/repos/asf/apr/apr/trunk"
 ],
 "shortdesc": "\n    Cross-platform library easing many progamming tasks in C. \n    "
-},
-"aries": {
-"bug-database": "http://issues.apache.org/jira/browse/ARIES",
-"category": "library",
-"created": "2010-04-30",
-"description": "The Aries project is delivering a set of pluggable Java components enabling an enterprise OSGi application programming model. This includes implementations and extensions of application-focused specifications defined by the OSGi Alliance Enterprise Expert Group (EEG) and an assembly format for multi-bundle applications, for deployment to a variety of OSGi based runtimes.",
-"doap": "http://svn.apache.org/repos/asf/aries/doap_aries.rdf",
-"download-page": "http://aries.apache.org/downloads/currentrelease.html",
-"homepage": "https://aries.apache.org/",
-"implements": [
-{
-"body": "OSGi Alliance",
-"id": "Enterprise 121",
-"title": "Blueprint Container Specification 1.0",
-"url": "http://www.osgi.org/Download/Release4V42"
-},
-{
-"body": "OSGi Alliance",
-"id": "Enterprise 126",
-"title": "JNDI Services Specification 1.0",
-"url": "http://www.osgi.org/Download/Release4V42"
-},
-{
-"body": "OSGi Alliance",
-"id": "Enterprise 127",
-"title": "JPA Service Specification 1.0",
-"url": "http://www.osgi.org/Download/Release4V42"
-},
-{
-"body": "OSGi Alliance",
-"id": "Enterprise 123",
-"title": "JTA Transaction Services Specification 1.0",
-"url": "http://www.osgi.org/Download/Release4V42"
-}
-],
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://aries.apache.org/community/mailinglists.html",
-"maintainer": [
-{
-"mbox": "mailto:kevan@apache.org",
-"name": "Kevan Miller"
-}
-],
-"name": "Apache Aries",
-"pmc": "aries",
-"programming-language": "Java",
-"repository": [
-"https://svn.apache.org/repos/asf/aries/"
-],
-"shortdesc": "OSGi Enterprise Programming Model"
 },
 "arrow": {
 "bug-database": "https://github.com/apache/arrow/issues",
@@ -1714,30 +1646,6 @@
 "https://git-wip-us.apache.org/repos/asf/deltacloud.git"
 ],
 "shortdesc": "Apache Deltacloud provides common front-end APIs to abstract differences between cloud providers."
-},
-"attic-devicemap": {
-"bug-database": "https://issues.apache.org/jira/browse/DMAP",
-"category": "mobile, retired",
-"created": "2014-12-17",
-"description": "Apache Devicemap is a data repository containing devices attributes, and their related browsers, and operating systems. The project also maintains an api to classify these attributes. ",
-"doap": "http://svn.apache.org/repos/asf/devicemap/trunk/doap_DeviceMap.rdf",
-"download-page": "http://devicemap.apache.org/download/",
-"homepage": "http://devicemap.apache.org",
-"license": "http://spdx.org/licenses/Apache-2.0",
-"mailing-list": "http://devicemap.apache.org/mailing-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:rezan@apache.org",
-"name": "Reza Naghibi"
-}
-],
-"name": "Apache DeviceMap",
-"pmc": "attic",
-"programming-language": "Java",
-"repository": [
-"https://svn.apache.org/repos/asf/devicemap"
-],
-"shortdesc": "Device Data Repository and classification API."
 },
 "attic-directmemory": {
 "bug-database": "https://issues.apache.org/jira/browse/DIRECTMEMORY",
@@ -2576,37 +2484,6 @@
 ],
 "shortdesc": "Apache MRUnit is a Java library that helps developers unit test Apache Hadoop map reduce jobs.",
 "vendor": "The Apache Software Foundation"
-},
-"attic-mxnet": {
-"bug-database": "https://github.com/apache/mxnet/labels/Bug",
-"category": "retired, big-data",
-"created": "2020-09-15",
-"description": "Apache MXNet is a deep learning framework designed for both efficiency and flexibility. It's lightweight, Portable, Flexible Distributed/Mobile Deep Learning with dynamic, mutation-aware data-flow dependency scheduler; for Python, R, Julia, Scala, Go, Javascript and more",
-"doap": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/mxnet.rdf",
-"download-page": "https://mxnet.apache.org/get_started/download",
-"homepage": "https://mxnet.apache.org",
-"license": "https://spdx.org/licenses/Apache-2.0",
-"mailing-list": "https://lists.apache.org/list.html?dev@mxnet.apache.org",
-"maintainer": [
-{
-"mbox": "mailto:dev@mxnet.apache.org",
-"name": "ApacheMXNet Contributors"
-}
-],
-"name": "Apache MXNet",
-"pmc": "attic",
-"programming-language": "C++",
-"release": [
-{
-"created": "2020-09-13",
-"name": "Apache MXNet (Incubating) 1.7.0",
-"revision": "1.7.0"
-}
-],
-"repository": [
-"https://github.com/apache/mxnet"
-],
-"shortdesc": "Apache MXNet is a deep learning framework designed for both efficiency and flexibility."
 },
 "attic-ode": {
 "bug-database": "https://issues.apache.org/jira/browse/ODE",
@@ -6729,40 +6606,6 @@
 ],
 "shortdesc": "Apache Commons Geometry"
 },
-"commons-imaging": {
-"bug-database": "http://issues.apache.org/jira/browse/IMAGING",
-"category": "library",
-"description": "\n      The Apache Commons Imaging library\n      reads and writes a variety of image formats,\n      including fast parsing of image info (size, color space, ICC profile, etc.) and metadata.\n      Previously known as Apache Commons Sanselan.\n    ",
-"doap": "http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_imaging.rdf",
-"download-page": "http://commons.apache.org/imaging/download_imaging.cgi",
-"homepage": "http://commons.apache.org/imaging/",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://commons.apache.org/mail-lists.html",
-"name": "Apache Commons Imaging",
-"pmc": "commons",
-"programming-language": "Java",
-"release": [
-{
-"created": "2022-05-19",
-"name": "commons-imaging",
-"revision": "1.0-alpha3"
-},
-{
-"created": "2020-08-01",
-"name": "commons-imaging",
-"revision": "1.0-alpha2"
-},
-{
-"created": "2019-04-28",
-"name": "commons-imaging",
-"revision": "1.0-alpha1"
-}
-],
-"repository": [
-"https://gitbox.apache.org/repos/asf/commons-imaging"
-],
-"shortdesc": "Java Common Components"
-},
 "commons-io": {
 "bug-database": "http://issues.apache.org/jira/browse/IO",
 "category": "library",
@@ -7725,30 +7568,6 @@
 ],
 "shortdesc": "Commons Object Pooling Library"
 },
-"commons-proxy__dormant_": {
-"bug-database": "http://issues.apache.org/jira/browse/PROXY",
-"category": "library",
-"description": "Commons Dynamic Proxy Library",
-"doap": "http://svn.apache.org/repos/asf/commons/cms-site/trunk/doap/doap_proxy.rdf",
-"download-page": "http://commons.apache.org/proxy/download_proxy.cgi",
-"homepage": "http://commons.apache.org/proxy/",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://commons.apache.org/mail-lists.html",
-"name": "Apache Commons Proxy (Dormant)",
-"pmc": "commons",
-"programming-language": "Java",
-"release": [
-{
-"created": "2008-02-28",
-"name": "commons-proxy",
-"revision": "1.0"
-}
-],
-"repository": [
-"https://gitbox.apache.org/repos/asf/commons-proxy"
-],
-"shortdesc": "Commons Dynamic Proxy Library"
-},
 "commons-rdf": {
 "bug-database": "https://issues.apache.org/jira/browse/COMMONSRDF",
 "category": "library",
@@ -8618,6 +8437,45 @@
 }
 ],
 "shortdesc": "A library of production quality streaming algorithms with platform plugins for real-time analysis of big data in Java, C++, Python, and Go."
+},
+"db-_jdo": {
+"bug-database": "https://issues.apache.org/jira/projects/JDO",
+"category": "database",
+"created": "2023-09-06",
+"description": "The POJO approach separates data manipulation (done by accessing Java data members in the Java domain objects) from database manipulation (done by calling the JDO interface methods). This separation of concerns leads to a high degree of independence of the Java view of data from the database view of the data.",
+"doap": "https://raw.githubusercontent.com/apache/db-jdo-site/main/doap__JDO.rdf",
+"download-page": "https://db.apache.org/jdo/downloads.html",
+"homepage": "https://db.apache.org/jdo/",
+"implements": [
+{
+"body": "JCP",
+"id": "JSR-243",
+"title": "Java Data Objects",
+"url": "https://db.apache.org/jdo/specifications.html"
+}
+],
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://db.apache.org/jdo/mail-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:jdo-dev@db.apache.org",
+"name": "JDO Project"
+}
+],
+"name": "Apache  JDO",
+"pmc": "db",
+"programming-language": "Java",
+"release": [
+{
+"created": "2022-05-04",
+"name": "Java Data Objects",
+"revision": "3.2.1"
+}
+],
+"repository": [
+"https://github.com/apache/db-jdo"
+],
+"shortdesc": "Java Data Objects (JDO) is a standard way to access persistent data in databases, using plain old Java objects (POJO) to represent persistent data."
 },
 "db-derby": {
 "bug-database": "http://issues.apache.org/jira/browse/DERBY",
@@ -10360,31 +10218,6 @@
 ],
 "shortdesc": "high-performance open data lakehouse platform"
 },
-"iceberg": {
-"bug-database": "https://github.com/apache/iceberg/issues",
-"category": "big-data, database, data-engineering",
-"created": "2023-09-14",
-"description": "Iceberg brings the reliability and simplicity of SQL tables to big data, while making it possible for engines like Spark, Trino, Flink, Presto, Hive and Impala to safely work with the same tables, at the same time.",
-"doap": "https://raw.githubusercontent.com/apache/iceberg/main/doap.rdf",
-"download-page": "https://iceberg.apache.org/releases/",
-"homepage": "https://iceberg.apache.org",
-"license": "https://spdx.org/licenses/Apache-2.0",
-"mailing-list": "https://iceberg.apache.org/community/",
-"name": "Apache Iceberg",
-"pmc": "iceberg",
-"programming-language": "Java, Python, Go, Rust, C++",
-"release": [
-{
-"created": "2025-04-28",
-"name": "1.9.0",
-"revision": "1.9.0"
-}
-],
-"repository": [
-"https://github.com/apache/iceberg"
-],
-"shortdesc": "Iceberg is a high-performance format for huge analytic tables."
-},
 "ignite": {
 "bug-database": "https://issues.apache.org/jira/browse/IGNITE",
 "category": "big-data, sql, cloud, database, distributed-sql-database, data-management-platform, hadoop, network-server, network-client, osgi, iot",
@@ -11298,23 +11131,6 @@
 ],
 "shortdesc": "Pure Java application for load and functional testing"
 },
-"jspwiki": {
-"category": "content",
-"description": "\n        Apache JSPWiki is a feature-rich and extensible WikiWiki engine built around the standard JEE \n        components (Java, servlets, JSP). It features:\n        - WikiMarkup/Structured Text\n        - File attachments \n        - Templates support\n        - Data storage through 2 WikiPage Providers, with the capability to plug new ones\n        - Security: Authorization and authentication fine grain control\n        - Easy plugin and page filter interfaces\n        - UTF-8 support\n        - JSP-based\n        - Easy-ish installation\n        - Page locking to prevent editing conflicts\n        - Support for Multiple Wikis\n        - Custom User Preferences\n    ",
-"doap": "http://svn.apache.org/repos/asf/jspwiki/site/doap/doap-jspwiki.rdf",
-"download-page": "http://jspwiki.apache.org/general/downloads.html",
-"homepage": "http://jspwiki.apache.org/",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://jspwiki.apache.org/community/mailing_lists.html",
-"name": "Apache JSPWiki",
-"pmc": "jspwiki",
-"programming-language": "Java",
-"repository": [
-"http://svn.apache.org/repos/asf/jspwiki/"
-],
-"shortdesc": "A feature-rich and extensible WikiWiki engine built around the standard \n        JEE components (Java, servlets, JSP).",
-"shortname": "jspwiki"
-},
 "kafka": {
 "bug-database": "https://issues.apache.org/jira/browse/KAFKA",
 "category": "big-data",
@@ -11338,38 +11154,6 @@
 "https://gitbox.apache.org/repos/asf/kafka.git"
 ],
 "shortdesc": "Apache Kafka is a distributed, fault tolerant, publish-subscribe messaging."
-},
-"karaf": {
-"bug-database": "https://issues.apache.org/jira/browse/KARAF",
-"category": "network-server, osgi",
-"created": "2006-03-28",
-"description": "Apache Karaf is a small OSGi based runtime which provides a lightweight container onto which various components and applications can be deployed.",
-"doap": "http://svn.apache.org/repos/asf/karaf/doap.rdf",
-"download-page": "http://karaf.apache.org/download.html",
-"homepage": "http://karaf.apache.org",
-"implements": [
-{
-"body": "OSGi Alliance",
-"id": "OSGi Core 4.2",
-"title": "OSGi Core",
-"url": "http://www.osgi.org/Release4/HomePage"
-}
-],
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://karaf.apache.org/mailing-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:gnodet@apache.org",
-"name": "Guillaume Nodet"
-}
-],
-"name": "Apache Karaf",
-"pmc": "karaf",
-"programming-language": "Java",
-"repository": [
-"http://svn.apache.org/repos/asf/karaf/"
-],
-"shortdesc": "Apache Karaf is an OSGi distribution for server-side applications."
 },
 "kibble": {
 "bug-database": "https://github.com/apache/kibble/issues",
@@ -11552,6 +11336,392 @@
 "https://github.com/apache/kylin"
 ],
 "shortdesc": "Apache Kylin is an open source, distributed Analytical Data Warehouse for Big Data."
+},
+"libcloud": {
+"bug-database": "https://issues.apache.org/jira/browse/LIBCLOUD",
+"category": "cloud, library",
+"created": "2011-05-29",
+"description": "Apache Libcloud is a standard Python library that abstracts away differences among multiple cloud provider APIs. It allows users to manage cloud servers, cloud storage and load-balancers.",
+"doap": "https://gitbox.apache.org/repos/asf?p=libcloud.git;a=blob_plain;f=doap_libcloud.rdf;hb=HEAD",
+"download-page": "http://libcloud.apache.org/downloads.html",
+"homepage": "http://libcloud.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://libcloud.apache.org/devinfo.html",
+"maintainer": [
+{
+"mbox": "mailto:tomaz@apache.org",
+"name": "Tomaz Muraus"
+}
+],
+"name": "Apache Libcloud",
+"pmc": "libcloud",
+"programming-language": "Python",
+"release": [
+{
+"created": "2010-02-09",
+"name": "0.2.0",
+"revision": "0.2.0"
+},
+{
+"created": "2010-05-11",
+"name": "0.3.0",
+"revision": "0.3.0"
+},
+{
+"created": "2010-10-12",
+"name": "0.4.0",
+"revision": "0.4.0"
+},
+{
+"created": "2011-01-17",
+"name": "0.4.1",
+"revision": "0.4.0"
+},
+{
+"created": "2011-05-25",
+"name": "0.5.0",
+"revision": "0.5.0"
+},
+{
+"created": "2011-07-05",
+"name": "0.5.2",
+"revision": "0.5.2"
+},
+{
+"created": "2011-10-19",
+"name": "0.6.0-beta1",
+"revision": "0.6.0-beta1"
+},
+{
+"created": "2011-11-09",
+"name": "0.6.1",
+"revision": "0.6.1"
+},
+{
+"created": "2011-11-17",
+"name": "0.6.2",
+"revision": "0.6.2"
+},
+{
+"created": "2011-12-09",
+"name": "0.7.1",
+"revision": "0.7.1"
+},
+{
+"created": "2012-02-08",
+"name": "0.8.0",
+"revision": "0.8.0"
+},
+{
+"created": "2012-04-01",
+"name": "0.9.1",
+"revision": "0.9.1"
+},
+{
+"created": "2012-05-24",
+"name": "0.10.1",
+"revision": "0.10.1"
+},
+{
+"created": "2012-07-30",
+"name": "0.11.0",
+"revision": "0.11.0"
+},
+{
+"created": "2012-08-01",
+"name": "0.11.1",
+"revision": "0.11.1"
+},
+{
+"created": "2012-09-25",
+"name": "0.11.3",
+"revision": "0.11.3"
+},
+{
+"created": "2012-11-19",
+"name": "0.11.4",
+"revision": "0.11.4"
+},
+{
+"created": "2013-02-19",
+"name": "0.12.1",
+"revision": "0.12.1"
+},
+{
+"created": "2013-03-11",
+"name": "0.12.3",
+"revision": "0.12.3"
+},
+{
+"created": "2013-04-22",
+"name": "0.12.4",
+"revision": "0.12.3"
+},
+{
+"created": "2013-07-01",
+"name": "0.13.0",
+"revision": "0.13.0"
+},
+{
+"created": "2013-09-05",
+"name": "0.13.1",
+"revision": "v0.13.1"
+},
+{
+"created": "2013-09-18",
+"name": "0.13.2",
+"revision": "v0.13.2"
+},
+{
+"created": "2013-12-31",
+"name": "0.13.3",
+"revision": "v0.13.3"
+},
+{
+"created": "2013-11-21",
+"name": "0.14.0-beta3",
+"revision": "v0.14.0-beta3"
+},
+{
+"created": "2014-01-22",
+"name": "0.14.0",
+"revision": "v0.14.0"
+},
+{
+"created": "2014-02-08",
+"name": "0.14.1",
+"revision": "v0.14.1"
+},
+{
+"created": "2014-06-26",
+"name": "0.15.0",
+"revision": "v0.15.0"
+},
+{
+"created": "2014-07-10",
+"name": "0.15.1",
+"revision": "v0.15.1"
+},
+{
+"created": "2014-11-12",
+"name": "0.16.0",
+"revision": "v0.16.0"
+},
+{
+"created": "2015-02-18",
+"name": "0.17.0",
+"revision": "v0.17.0"
+},
+{
+"created": "2015-08-12",
+"name": "0.18.0",
+"revision": "v0.18.0"
+},
+{
+"created": "2015-10-30",
+"name": "0.19.0",
+"revision": "v0.19.0"
+},
+{
+"created": "2015-12-15",
+"name": "0.20.0",
+"revision": "v0.20.0"
+},
+{
+"created": "2016-01-19",
+"name": "0.20.1",
+"revision": "v0.20.1"
+},
+{
+"created": "2016-01-26",
+"name": "1.0.0-pre1",
+"revision": "v1.0.0-pre1"
+},
+{
+"created": "2016-04-11",
+"name": "1.0.0-rc2",
+"revision": "v1.0.0-rc2"
+},
+{
+"created": "2016-06-21",
+"name": "1.0.0",
+"revision": "v1.0.0"
+},
+{
+"created": "2016-07-07",
+"name": "1.1.0",
+"revision": "v1.1.0"
+},
+{
+"created": "2016-09-15",
+"name": "1.2.0",
+"revision": "v1.2.0"
+},
+{
+"created": "2016-09-23",
+"name": "1.2.1",
+"revision": "v1.2.1"
+},
+{
+"created": "2016-10-14",
+"name": "1.3.0",
+"revision": "v1.3.0"
+},
+{
+"created": "2016-11-27",
+"name": "1.4.0",
+"revision": "v1.4.0"
+},
+{
+"created": "2016-12-28",
+"name": "1.5.0",
+"revision": "v1.5.0"
+},
+{
+"created": "2017-04-08",
+"name": "2.0.0rc2",
+"revision": "v2.0.0rc2"
+},
+{
+"created": "2017-04-25",
+"name": "2.0.0",
+"revision": "v2.0.0"
+},
+{
+"created": "2017-07-17",
+"name": "2.1.0",
+"revision": "v2.1.0"
+},
+{
+"created": "2017-09-04",
+"name": "2.2.0",
+"revision": "v2.2.0"
+},
+{
+"created": "2017-09-21",
+"name": "2.2.1",
+"revision": "v2.2.1"
+},
+{
+"created": "2018-02-08",
+"name": "2.3.0",
+"revision": "v2.3.0"
+},
+{
+"created": "2018-11-08",
+"name": "2.4.0",
+"revision": "v2.4.0"
+},
+{
+"created": "2019-05-30",
+"name": "2.5.0",
+"revision": "v2.5.0"
+},
+{
+"created": "2019-08-28",
+"name": "2.6.0",
+"revision": "v2.6.0"
+},
+{
+"created": "2019-11-18",
+"name": "2.6.1",
+"revision": "v2.6.1"
+},
+{
+"created": "2019-12-09",
+"name": "2.7.0",
+"revision": "v2.7.0"
+},
+{
+"created": "2020-01-02",
+"name": "2.8.0",
+"revision": "v2.8.0"
+},
+{
+"created": "2020-01-29",
+"name": "3.0.0-rc1",
+"revision": "v3.0.0-rc1"
+},
+{
+"created": "2020-03-03",
+"name": "3.0.0-rc1",
+"revision": "v3.0.0-rc1"
+},
+{
+"created": "2020-04-15",
+"name": "2.8.2",
+"revision": "v2.8.2"
+},
+{
+"created": "2020-04-15",
+"name": "3.0.0",
+"revision": "v3.0.0"
+},
+{
+"created": "2020-06-12",
+"name": "2.8.3",
+"revision": "v2.8.3"
+},
+{
+"created": "2020-06-12",
+"name": "3.1.0",
+"revision": "v3.1.0"
+},
+{
+"created": "2020-09-20",
+"name": "3.2.0",
+"revision": "v3.2.0"
+},
+{
+"created": "2021-01-02",
+"name": "3.3.0",
+"revision": "v3.3.0"
+},
+{
+"created": "2021-01-25",
+"name": "3.3.1",
+"revision": "v3.3.1"
+},
+{
+"created": "2021-11-11",
+"name": "3.4.0",
+"revision": "v3.4.0"
+},
+{
+"created": "2021-11-15",
+"name": "3.4.1",
+"revision": "v3.4.1"
+},
+{
+"created": "2022-03-11",
+"name": "3.5.0",
+"revision": "v3.5.0"
+},
+{
+"created": "2022-05-26",
+"name": "3.6.0",
+"revision": "v3.6.0"
+},
+{
+"created": "2022-10-10",
+"name": "3.6.1",
+"revision": "v3.6.1"
+},
+{
+"created": "2023-01-08",
+"name": "3.7.0",
+"revision": "v3.7.0"
+},
+{
+"created": "2023-08-10",
+"name": "3.8.0",
+"revision": "v3.8.0"
+}
+],
+"repository": [
+"https://svn.apache.org/repos/asf/libcloud/trunk/"
+],
+"shortdesc": "Apache Libcloud is a standard Python library that abstracts away differences among multiple cloud provider APIs."
 },
 "linkis": {
 "bug-database": "https://github.com/apache/linkis/issues",
@@ -13460,104 +13630,6 @@
 "https://gitbox.apache.org/repos/asf/maven-integration-testing.git"
 ],
 "shortdesc": "Maven is a project development management and comprehension tool."
-},
-"maven-doxia": {
-"bug-database": "https://issues.apache.org/jira/browse/DOXIA, https://issues.apache.org/jira/browse/DOXIASITETOOLS, https://issues.apache.org/jira/browse/DOXIATOOLS",
-"category": "build-management",
-"created": "2001",
-"description": "Doxia is a content generation framework which aims to provide its users with powerful techniques for generating static and dynamic content: Doxia can be used in web-based publishing context to generate static sites, in addition to being incorporated into dynamic content generation systems like blogs, wikis and content management systems.",
-"doap": "http://svn.apache.org/repos/asf/maven/doxia/site/trunk/content/resources/doap_Doxia.rdf",
-"download-page": "https://maven.apache.org/doxia/download.html",
-"homepage": "https://maven.apache.org/doxia/",
-"license": "http://www.apache.org/licenses/LICENSE-2.0.txt",
-"mailing-list": "https://maven.apache.org/doxia/mail-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:dev@maven.apache.org",
-"name": "Apache Maven PMC"
-}
-],
-"name": "Apache Maven Doxia",
-"pmc": "maven",
-"programming-language": "Java",
-"release": [
-{
-"created": "2017-12-17",
-"file-release": "http://archive.apache.org/dist/maven/doxia/doxia-1.8-source-release.zip",
-"name": "Doxia base",
-"revision": "1.8"
-},
-{
-"created": "2016-02-06",
-"file-release": "http://archive.apache.org/dist/maven/doxia/doxia-1.7-source-release.zip",
-"name": "Doxia 1.7",
-"revision": "1.7"
-},
-{
-"created": "2018-04-22",
-"file-release": "http://archive.apache.org/dist/maven/doxia/doxia-sitetools-1.8.1-source-release.zip",
-"name": "Doxia Sitetools",
-"revision": "1.8.1"
-},
-{
-"created": "2017-11-21",
-"file-release": "http://archive.apache.org/dist/maven/doxia/doxia-sitetools-1.8-source-release.zip",
-"name": "Doxia Sitetools 1.8",
-"revision": "1.8"
-},
-{
-"created": "2017-09-26",
-"file-release": "http://archive.apache.org/dist/maven/doxia/doxia-sitetools-1.7.5-source-release.zip",
-"name": "Doxia Sitetools 1.7.5",
-"revision": "1.7.5"
-},
-{
-"created": "2016-11-08",
-"file-release": "http://archive.apache.org/dist/maven/doxia/doxia-sitetools-1.7.4-source-release.zip",
-"name": "Doxia Sitetools 1.7.4",
-"revision": "1.7.4"
-}
-],
-"repository": [
-"https://gitbox.apache.org/repos/asf/maven-doxia.git",
-"https://gitbox.apache.org/repos/asf/maven-doxia-sitetools.git",
-"https://gitbox.apache.org/repos/asf/maven-doxia-converter.git",
-"https://gitbox.apache.org/repos/asf/maven-doxia-linkcheck.git",
-"http://svn.apache.org/repos/asf/maven/doxia/doxia-tools/trunk/",
-"http://svn.apache.org/repos/asf/maven/doxia/site/trunk/"
-],
-"shortdesc": "Doxia is a content generation framework, which supports many markup languages."
-},
-"mesos": {
-"bug-database": "https://issues.apache.org/jira/browse/MESOS",
-"category": "cloud",
-"created": "2014-06-19",
-"description": "Apache Mesos is a cluster manager that provides efficient resource isolation \nand sharing across distributed applications, or frameworks. It can run Hadoop, \nMPI, Hypertable, Spark, and other frameworks on a dynamically shared pool of \nnodes.\n",
-"doap": "http://svn.apache.org/repos/asf/mesos/site/doap.rdf",
-"download-page": "http://mesos.apache.org/downloads/",
-"homepage": "http://mesos.apache.org",
-"license": "http://spdx.org/licenses/Apache-2.0",
-"mailing-list": "http://mesos.apache.org/community/",
-"maintainer": [
-{
-"mbox": "mailto:benjamin.hindman@gmail.com",
-"name": "Benjamin Hindman"
-}
-],
-"name": "Apache Mesos",
-"pmc": "mesos",
-"programming-language": "C++",
-"release": [
-{
-"created": "2014-06-09",
-"name": "Mesos 0.19.0",
-"revision": "0.19.0"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/mesos/trunk/"
-],
-"shortdesc": "Apache Mesos is a cluster manager that provides efficient resource isolation \nand sharing across distributed applications, or frameworks."
 },
 "mina": {
 "bug-database": "http://issues.apache.org/jira/browse/DIRMINA",
@@ -15808,116 +15880,6 @@
 "https://github.com/apache/pulsar.git"
 ],
 "shortdesc": "Apache Pulsar is a distributed messaging and streaming platform built for the cloud."
-},
-"qpid": {
-"bug-database": "http://issues.apache.org/jira/browse/qpid, http://issues.apache.org/jira/browse/PROTON",
-"category": "network-server, network-client",
-"created": "2009-01-21",
-"description": "Apache Qpid implements the latest AMQP specification, the first open standard for enterprise messaging, and provides transaction management, queuing, distribution, security, management, clustering, federation and heterogeneous multi-platform support and a lot more.",
-"doap": "http://svn.apache.org/repos/asf/qpid/doap_qpid.rdf",
-"download-page": "http://qpid.apache.org/download.html",
-"homepage": "http://qpid.apache.org",
-"implements": [
-{
-"body": "OASIS",
-"id": "AMQP 1.0",
-"title": "OASIS Advanced Message Queueing Protocol (AMQP)",
-"url": "http://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-overview-v1.0-os.html"
-},
-{
-"body": "AMQP Working Group",
-"id": "AMQP 0-8, AMQP 0-9, AMQP 0-9-1, AMQP 0-10",
-"title": "Advanced Message Queueing Protocol (AMQP)",
-"url": "http://www.amqp.org"
-}
-],
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://qpid.apache.org/discussion.html",
-"name": "Apache Qpid",
-"pmc": "qpid",
-"programming-language": "C++, Java, C#, Perl, Python, Ruby",
-"release": [
-{
-"created": "2015-03-19",
-"name": "Apache Qpid 0.32",
-"revision": "0.32"
-},
-{
-"created": "2014-09-26",
-"name": "Apache Qpid 0.30",
-"revision": "0.30"
-},
-{
-"created": "2014-06-03",
-"name": "Apache Qpid 0.28",
-"revision": "0.28"
-},
-{
-"created": "2014-02-18",
-"name": "Apache Qpid 0.26",
-"revision": "0.26"
-},
-{
-"created": "2013-09-07",
-"name": "Apache Qpid 0.24",
-"revision": "0.24"
-},
-{
-"created": "2013-08-29",
-"name": "Apache Qpid Proton 0.5",
-"revision": "0.5"
-},
-{
-"created": "2013-06-13",
-"name": "Apache Qpid 0.22",
-"revision": "0.22"
-},
-{
-"created": "2013-01-23",
-"name": "Apache Qpid 0.20",
-"revision": "0.20"
-},
-{
-"created": "2012-08-30",
-"name": "Apache Qpid 0.18",
-"revision": "0.18"
-},
-{
-"created": "2012-05-19",
-"name": "Apache Qpid 0.16",
-"revision": "0.16"
-},
-{
-"created": "2012-01-26",
-"name": "Apache Qpid 0.14",
-"revision": "0.14"
-},
-{
-"created": "2011-08-24",
-"name": "Apache Qpid 0.12",
-"revision": "0.12"
-},
-{
-"created": "2011-04-29",
-"name": "Apache Qpid 0.10",
-"revision": "0.10"
-},
-{
-"created": "2010-12-07",
-"name": "Apache Qpid 0.8",
-"revision": "0.8"
-},
-{
-"created": "2010-03-25",
-"name": "Apache Qpid 0.6",
-"revision": "0.6"
-}
-],
-"repository": [
-"https://svn.apache.org/repos/asf/qpid/trunk/qpid/",
-"https://svn.apache.org/repos/asf/qpid/proton/trunk/"
-],
-"shortdesc": "AMQP enterprise messaging implementation."
 },
 "ranger": {
 "bug-database": "https://issues.apache.org/jira/projects/RANGER/issues",
@@ -19179,55 +19141,6 @@
 "http://svn.apache.org/repos/asf/webservices/axiom/trunk"
 ],
 "shortdesc": "Apache Axiom is an XML object model supporting deferred parsing."
-},
-"webservices-woden": {
-"bug-database": "https://issues.apache.org/jira/browse/Woden",
-"category": "xml",
-"created": "2010-12-29",
-"description": "The Woden project is a subproject of the Apache Web Services Project to develop a Java class library for reading, manipulating, creating and writing WSDL documents, initially to support WSDL 2.0 but with the longer term aim of supporting past, present and future versions of WSDL.\n\nThere are two main deliverables: an API and an implementation. The Woden API will consist of a set of Java interfaces. The WSDL 2.0-specific portion of the Woden API will conform to the W3C WSDL 2.0 specification. The implementation will be a high performance implementation directly usable in other Apache projects such as Axis2.\n",
-"doap": "http://svn.apache.org/repos/asf/webservices/woden/trunk/java/etc/doap_Woden.rdf",
-"download-page": "http://ws.apache.org/woden/dev/1.0/builds.html",
-"homepage": "http://ws.apache.org/woden/",
-"implements": [
-{
-"body": "W3C",
-"id": " WSDL 2.0",
-"title": "The W3C WSDL 2.0 specification",
-"url": "http://www.w3.org/TR/wsdl20"
-}
-],
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://ws.apache.org/woden/mailinglists.html",
-"maintainer": [
-{
-"mbox": "mailto:sagara@apache.org",
-"name": "Sagara Gunathunga"
-}
-],
-"name": "Apache Woden",
-"pmc": "webservices",
-"programming-language": "Java",
-"release": [
-{
-"created": "2008-04-09",
-"name": "Apache Woden",
-"revision": "1.0M8"
-},
-{
-"created": "2011-02-17",
-"name": "Apache Woden",
-"revision": "1.0M9"
-},
-{
-"created": "2015-09-06",
-"name": "Apache Woden",
-"revision": "1.0M10"
-}
-],
-"repository": [
-"https://svn.apache.org/repos/asf/webservices/woden/"
-],
-"shortdesc": "The Woden project is a subproject of the Apache Web Services to develop a Java class library for reading, manipulating, creating and writing WSDL documents, initially to support WSDL 2.0 but with the longer term aim of supporting past, present and future versions of WSDL"
 },
 "whimsy": {
 "bug-database": "https://issues.apache.org/jira/browse/WHIMSY",
