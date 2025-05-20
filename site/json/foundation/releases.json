@@ -9,19 +9,14 @@
 "activemq": {
 "Apache.NMS-1.8.1": "2022-05-29",
 "Apache.NMS-2.1.0": "2023-09-24",
-"Apache.NMS.AMQP-2.2.0": "2023-05-14",
 "Apache.NMS.AMQP-2.3.0": "2025-05-13",
 "Apache.NMS.ActiveMQ-2.1.0": "2023-03-12",
 "Apache.NMS.ActiveMQ-2.1.1": "2025-02-16",
-"activemq-5.16.8": "2025-03-18",
-"activemq-5.17.7": "2025-03-15",
-"activemq-5.18.7": "2025-03-13",
 "activemq-5.19.0": "2025-03-07",
 "activemq-6.1.6": "2025-03-06",
 "activemq-artemis-native-2.0.0": "2022-07-12",
 "activemq-cli-tools-0.2.0": "2020-07-22",
 "activemq-cpp-library-3.9.5": "2019-01-25",
-"apache-artemis-2.40.0": "2025-03-13",
 "apache-artemis-2.41.0": "2025-04-23",
 "apache-artemis-console-1.1.0": "2025-01-15"
 },
@@ -490,7 +485,7 @@
 "apache-cassandra-3.0.32": "2025-02-06",
 "apache-cassandra-3.11.19": "2025-02-06",
 "apache-cassandra-4.0.17": "2025-02-06",
-"apache-cassandra-4.1.8": "2025-01-27",
+"apache-cassandra-4.1.9": "2025-05-16",
 "apache-cassandra-5.0.4": "2025-04-07",
 "apache-cassandra-java-driver-3.12.1": "2025-01-18",
 "apache-cassandra-java-driver-4.18.1": "2024-05-21",
@@ -1312,6 +1307,7 @@
 "apache-hop-2.11.0": "2024-12-09",
 "apache-hop-2.12.0": "2025-02-17",
 "apache-hop-2.13.0": "2025-04-22",
+"apache-hop-2.14.0": "2025-05-19",
 "apache-hop-2.2.0": "2022-12-06",
 "apache-hop-2.3.0": "2023-02-01",
 "apache-hop-2.4.0": "2023-03-31",
@@ -1326,6 +1322,7 @@
 "apache-hop-client-2.11.0": "2024-12-09",
 "apache-hop-client-2.12.0": "2025-02-17",
 "apache-hop-client-2.13.0": "2025-04-22",
+"apache-hop-client-2.14.0": "2025-05-19",
 "apache-hop-client-2.2.0": "2022-12-06",
 "apache-hop-client-2.3.0": "2023-02-01",
 "apache-hop-client-2.4.0": "2023-03-31",
@@ -1658,7 +1655,8 @@
 "apache-yunikorn-0.12.2-incubating": "2022-02-03"
 },
 "inlong": {
-"apache-inlong-2.1.0": "2025-02-11"
+"apache-inlong-2.1.0": "2025-02-11",
+"apache-inlong-2.2.0": "2025-05-14"
 },
 "iotdb": {
 "apache-iotdb-0.13.4": "2023-02-13",
@@ -1745,15 +1743,18 @@
 "kafka-3.8.0": "2024-07-26",
 "kafka-3.8.1": "2024-10-29",
 "kafka-3.9.0": "2024-10-26",
+"kafka-3.9.1": "2025-05-19",
 "kafka-4.0.0": "2025-03-18",
 "kafka_2.12-3.7.2": "2024-12-13",
 "kafka_2.12-3.8.0": "2024-07-26",
 "kafka_2.12-3.8.1": "2024-10-29",
 "kafka_2.12-3.9.0": "2024-10-26",
+"kafka_2.12-3.9.1": "2025-05-19",
 "kafka_2.13-3.7.2": "2024-12-13",
 "kafka_2.13-3.8.0": "2024-07-26",
 "kafka_2.13-3.8.1": "2024-10-29",
 "kafka_2.13-3.9.0": "2024-10-26",
+"kafka_2.13-3.9.1": "2025-05-19",
 "kafka_2.13-4.0.0": "2025-03-18"
 },
 "karaf": {
@@ -2206,6 +2207,7 @@
 "nbm-suite-root-1.12": "2019-10-10",
 "nbpackage-1.0-beta5": "2024-05-07",
 "netbeans-25": "2025-02-14",
+"netbeans-26": "2025-05-14",
 "netbeans-4": "2023-07-05",
 "netbeans-archetype-1.0.0": "2023-07-11",
 "netbeans-html4j-1.8.1": "2022-07-07",
@@ -2348,7 +2350,7 @@
 "apache-openjpa-3.2.2": "2022-03-16",
 "openjpa-2.4.3": "2018-06-12",
 "openjpa-4.0.1": "2024-09-19",
-"openjpa-4.1.0": "2025-03-24"
+"openjpa-4.1.1": "2025-05-15"
 },
 "openmeetings": {
 "apache-openmeetings-8.0.0": "2025-01-02"
@@ -2366,7 +2368,6 @@
 "meecrowave-1.2.15": "2023-01-20",
 "openwebbeans-1.2.8": "2015-04-27",
 "openwebbeans-1.7.6": "2018-12-26",
-"openwebbeans-2.0.27": "2022-06-07",
 "openwebbeans-4.0.2": "2024-02-18"
 },
 "openwhisk": {
@@ -3014,15 +3015,14 @@
 "org.apache.sling.discovery.support-1.0.8": "2024-12-16",
 "org.apache.sling.distribution.api-0.7.0": "2022-04-29",
 "org.apache.sling.distribution.api-0.7.2": "2024-05-07",
-"org.apache.sling.distribution.core-0.7.2": "2025-03-14",
+"org.apache.sling.distribution.core-0.7.4": "2025-05-19",
 "org.apache.sling.distribution.it-0.1.2": "2016-02-08",
 "org.apache.sling.distribution.journal-0.1.26": "2022-05-10",
 "org.apache.sling.distribution.journal-0.3.0": "2024-05-07",
 "org.apache.sling.distribution.journal-0.4.0": "2024-07-03",
 "org.apache.sling.distribution.journal.it-0.1.2": "2020-06-23",
 "org.apache.sling.distribution.journal.kafka-0.3.0": "2022-01-11",
-"org.apache.sling.distribution.journal.messages-0.5.10": "2024-05-07",
-"org.apache.sling.distribution.journal.messages-0.5.6": "2023-11-10",
+"org.apache.sling.distribution.journal.messages-0.5.12": "2025-05-19",
 "org.apache.sling.distribution.sample-0.1.6": "2016-02-08",
 "org.apache.sling.dynamic-include-3.3.2": "2025-02-17",
 "org.apache.sling.engine-2.16.2": "2025-05-05",
@@ -3037,9 +3037,9 @@
 "org.apache.sling.extensions.webconsolebranding-1.0.4": "2024-12-16",
 "org.apache.sling.extensions.webconsolesecurityprovider-1.2.8": "2022-12-09",
 "org.apache.sling.feature-2.0.4": "2024-12-21",
-"org.apache.sling.feature.analyser-2.0.12": "2024-12-02",
+"org.apache.sling.feature.analyser-2.0.14": "2025-05-19",
 "org.apache.sling.feature.apiregions-1.1.10": "2023-06-11",
-"org.apache.sling.feature.cpconverter-1.3.8": "2024-11-19",
+"org.apache.sling.feature.cpconverter-1.3.10": "2025-05-19",
 "org.apache.sling.feature.diff-0.1.0": "2023-02-13",
 "org.apache.sling.feature.extension.apiregions-2.0.0": "2023-02-13",
 "org.apache.sling.feature.extension.content-1.0.18": "2025-05-12",
@@ -3243,7 +3243,7 @@
 "sling-maven-plugin-3.0.4": "2025-03-10",
 "sling-servlet-archetype-1.0.4": "2015-10-19",
 "sling-slingstart-archetype-1.0.8": "2018-10-23",
-"slingfeature-maven-plugin-1.9.0": "2024-09-19",
+"slingfeature-maven-plugin-1.9.2": "2025-05-19",
 "slingstart-maven-plugin-1.9.12": "2020-05-03"
 },
 "solr": {
