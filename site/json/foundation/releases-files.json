@@ -96,6 +96,9 @@
 "airflow-chart-1.16.0": [
 "airflow/helm-chart/1.16.0/airflow-chart-1.16.0-source.tar.gz"
 ],
+"apache-airflow-2.11.0": [
+"airflow/2.11.0/apache-airflow-2.11.0-source.tar.gz"
+],
 "apache-airflow-3.0.1": [
 "airflow/3.0.1/apache-airflow-3.0.1-source.tar.gz"
 ],
@@ -113,6 +116,9 @@
 ],
 "apache-airflow-upgrade-check-1.4.0": [
 "airflow/upgrade-check/1.4.0/apache-airflow-upgrade-check-1.4.0-source.tar.gz"
+],
+"apache_airflow-2.11.0": [
+"airflow/2.11.0/apache_airflow-2.11.0.tar.gz"
 ],
 "apache_airflow-3.0.1": [
 "airflow/3.0.1/apache_airflow-3.0.1.tar.gz"
@@ -1542,9 +1548,9 @@
 "commons/bsf/source/bsf-3.1-src.tar.gz",
 "commons/bsf/source/bsf-3.1-src.zip"
 ],
-"commons-83": [
-"commons/parent/source/commons-parent-83-src.tar.gz",
-"commons/parent/source/commons-parent-83-src.zip"
+"commons-84": [
+"commons/parent/source/commons-parent-84-src.tar.gz",
+"commons/parent/source/commons-parent-84-src.zip"
 ],
 "commons-beanutils-1.10.1": [
 "commons/beanutils/source/commons-beanutils-1.10.1-src.tar.gz",
@@ -4917,17 +4923,11 @@
 "apache-iotdb-0.13.4": [
 "iotdb/0.13.4/apache-iotdb-0.13.4-source-release.zip"
 ],
-"apache-iotdb-1.3.3": [
-"iotdb/1.3.3/apache-iotdb-1.3.3-source-release.zip"
+"apache-iotdb-1.3.4-1": [
+"iotdb/1.3.4-1/apache-iotdb-1.3.4-1-source-release.zip"
 ],
-"apache-iotdb-1.3.4": [
-"iotdb/1.3.4/apache-iotdb-1.3.4-source-release.zip"
-],
-"apache-iotdb-2.0.1-beta": [
-"iotdb/2.0.1-beta/apache-iotdb-2.0.1-beta-source-release.zip"
-],
-"apache-iotdb-2.0.2": [
-"iotdb/2.0.2/apache-iotdb-2.0.2-source-release.zip"
+"apache-iotdb-2.0.2-1": [
+"iotdb/2.0.2-1/apache-iotdb-2.0.2-1-source-release.zip"
 ]
 },
 "jackrabbit": {
@@ -5494,6 +5494,9 @@
 ],
 "apache-kyuubi-shaded-0.4.1": [
 "kyuubi/kyuubi-shaded-0.4.1/apache-kyuubi-shaded-0.4.1-source.tgz"
+],
+"apache-kyuubi-shaded-0.5.0": [
+"kyuubi/kyuubi-shaded-0.5.0/apache-kyuubi-shaded-0.5.0-source.tgz"
 ]
 },
 "libcloud": {
@@ -9715,8 +9718,14 @@
 "spark-connect-swift-0.1.0": [
 "spark/spark-connect-swift-0.1.0/spark-connect-swift-0.1.0.tar.gz"
 ],
+"spark-connect-swift-0.2.0": [
+"spark/spark-connect-swift-0.2.0/spark-connect-swift-0.2.0.tar.gz"
+],
 "spark-kubernetes-operator-0.1.0": [
 "spark/spark-kubernetes-operator-0.1.0/spark-kubernetes-operator-0.1.0.tar.gz"
+],
+"spark-kubernetes-operator-0.2.0": [
+"spark/spark-kubernetes-operator-0.2.0/spark-kubernetes-operator-0.2.0.tar.gz"
 ]
 },
 "storm": {
