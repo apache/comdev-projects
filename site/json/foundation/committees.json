@@ -6342,7 +6342,7 @@
 "shortdesc": "Schema-free SQL Query Engine for Apache Hadoop, NoSQL and Cloud Storage"
 },
 {
-"chair": "gian",
+"chair": "abhishek",
 "charter": "The mission of Apache Druid is the creation and maintenance of software related to analytical database software",
 "established": "2019-12",
 "group": "druid",
@@ -8050,6 +8050,70 @@
 }
 },
 "shortdesc": "a distributed data integration framework that simplifies common aspects of big data integration such as data ingestion, replication, organization and lifecycle management for both streaming and batch data ecosystems"
+},
+{
+"chair": "jshao",
+"established": "2025-05",
+"group": "gravitino",
+"homepage": "http://gravitino.apache.org",
+"id": "gravitino",
+"name": "Apache Gravitino",
+"reporting": 3,
+"roster": {
+"asingh": {
+"date": "2025-05-21",
+"name": "Ashish Singh"
+},
+"daijy": {
+"date": "2025-05-21",
+"name": "Daniel Dai"
+},
+"jbonofre": {
+"date": "2025-05-21",
+"name": "Jean-Baptiste Onofr\u00e9"
+},
+"jmclean": {
+"date": "2025-05-21",
+"name": "Justin Mclean"
+},
+"jshao": {
+"date": "2025-05-21",
+"name": "Jerry Shao"
+},
+"junping_du": {
+"date": "2025-05-21",
+"name": "Junping Du"
+},
+"liuxun": {
+"date": "2025-05-21",
+"name": "Liu Xun"
+},
+"lmccay": {
+"date": "2025-05-21",
+"name": "Larry McCay"
+},
+"nicholasjiang": {
+"date": "2025-05-21",
+"name": "Nicholas Jiang"
+},
+"shaofengshi": {
+"date": "2025-05-21",
+"name": "Shao Feng Shi"
+},
+"yuqi4733": {
+"date": "2025-05-21",
+"name": "Yu Qi"
+},
+"yxac": {
+"date": "2025-05-21",
+"name": "Xing Yong"
+},
+"zhoukang": {
+"date": "2025-05-21",
+"name": "Kang Zhou"
+}
+},
+"shortdesc": "managing your data and AI assets seamlessly with a flexible, unified governance framework, including lakehouse federation capabilities"
 },
 {
 "chair": "guoyp",
@@ -10302,7 +10366,6 @@
 "id": "incubator",
 "name": "Apache Incubator",
 "rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/incubator.rdf",
-"reporting": 0,
 "roster": {
 "aajisaka": {
 "date": "2018-12-08",
@@ -14466,7 +14529,7 @@
 "shortdesc": "a cluster manager that provides efficient resource isolation and sharing across distributed applications"
 },
 {
-"chair": "gnodet",
+"chair": "twolf",
 "charter": "The mission of MINA is the creation and maintenance of software related to Multipurpose Infrastructure for Network Application",
 "established": "2006-10",
 "group": "mina",
@@ -20134,7 +20197,7 @@
 "shortdesc": "Web Framework for JCR Content Repositories"
 },
 {
-"chair": "gerlowskija",
+"chair": "abenedetti",
 "charter": "The mission of Apache Solr is the creation and maintenance of software related to highly scalable distributed document search and analytics",
 "established": "2021-02",
 "group": "solr",
@@ -20896,6 +20959,10 @@
 "date": "2014-09-17",
 "name": "P. Taylor Goetz"
 },
+"puru": {
+"date": "2025-05-21",
+"name": "Purshotam Shah"
+},
 "rabreu": {
 "date": "2023-09-13",
 "name": "Rui Abreu"
@@ -20962,6 +21029,38 @@
 }
 },
 "shortdesc": "Distributed, real-time computation system"
+},
+{
+"chair": "rzo1",
+"established": "2025-05",
+"group": "stormcrawler",
+"homepage": "http://stormcrawler.apache.org",
+"id": "stormcrawler",
+"name": "Apache StormCrawler",
+"reporting": 2,
+"roster": {
+"jnioche": {
+"date": "2025-05-21",
+"name": "Julien Nioche"
+},
+"mvolikas": {
+"date": "2025-05-21",
+"name": "Markos Volikas"
+},
+"rzo1": {
+"date": "2025-05-21",
+"name": "Richard Zowalla"
+},
+"snagel": {
+"date": "2025-05-21",
+"name": "Sebastian Nagel"
+},
+"tallison": {
+"date": "2025-05-21",
+"name": "Tim Allison"
+}
+},
+"shortdesc": "an open source collection of resources for building low-latency, scalable web crawlers on Apache Storm"
 },
 {
 "chair": "benjobs",
