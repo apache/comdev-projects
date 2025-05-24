@@ -1626,9 +1626,9 @@
 "commons/email/source/commons-email2-2.0.0-M1-src.tar.gz",
 "commons/email/source/commons-email2-2.0.0-M1-src.zip"
 ],
-"commons-exec-1.4.0": [
-"commons/exec/source/commons-exec-1.4.0-src.tar.gz",
-"commons/exec/source/commons-exec-1.4.0-src.zip"
+"commons-exec-1.5.0": [
+"commons/exec/source/commons-exec-1.5.0-src.tar.gz",
+"commons/exec/source/commons-exec-1.5.0-src.zip"
 ],
 "commons-fileupload-1.5": [
 "commons/fileupload/source/commons-fileupload-1.5-src.tar.gz",
@@ -2030,6 +2030,12 @@
 "cxf/3.6.6/apache-cxf-3.6.6.tar.gz",
 "cxf/3.6.6/apache-cxf-3.6.6.zip"
 ],
+"apache-cxf-3.6.7": [
+"cxf/3.6.7/apache-cxf-3.6.7-src.tar.gz",
+"cxf/3.6.7/apache-cxf-3.6.7-src.zip",
+"cxf/3.6.7/apache-cxf-3.6.7.tar.gz",
+"cxf/3.6.7/apache-cxf-3.6.7.zip"
+],
 "apache-cxf-4.0.4": [
 "cxf/4.0.4/apache-cxf-4.0.4-src.tar.gz",
 "cxf/4.0.4/apache-cxf-4.0.4-src.zip",
@@ -2054,6 +2060,12 @@
 "cxf/4.0.7/apache-cxf-4.0.7.tar.gz",
 "cxf/4.0.7/apache-cxf-4.0.7.zip"
 ],
+"apache-cxf-4.0.8": [
+"cxf/4.0.8/apache-cxf-4.0.8-src.tar.gz",
+"cxf/4.0.8/apache-cxf-4.0.8-src.zip",
+"cxf/4.0.8/apache-cxf-4.0.8.tar.gz",
+"cxf/4.0.8/apache-cxf-4.0.8.zip"
+],
 "apache-cxf-4.1.0": [
 "cxf/4.1.0/apache-cxf-4.1.0-src.tar.gz",
 "cxf/4.1.0/apache-cxf-4.1.0-src.zip",
@@ -2065,6 +2077,12 @@
 "cxf/4.1.1/apache-cxf-4.1.1-src.zip",
 "cxf/4.1.1/apache-cxf-4.1.1.tar.gz",
 "cxf/4.1.1/apache-cxf-4.1.1.zip"
+],
+"apache-cxf-4.1.2": [
+"cxf/4.1.2/apache-cxf-4.1.2-src.tar.gz",
+"cxf/4.1.2/apache-cxf-4.1.2-src.zip",
+"cxf/4.1.2/apache-cxf-4.1.2.tar.gz",
+"cxf/4.1.2/apache-cxf-4.1.2.zip"
 ],
 "apache-fediz-1.7.1": [
 "cxf/fediz/1.7.1/apache-fediz-1.7.1.zip"
@@ -7786,6 +7804,9 @@
 "apache-pulsar-3.3.6": [
 "pulsar/pulsar-3.3.6/apache-pulsar-3.3.6-src.tar.gz"
 ],
+"apache-pulsar-3.3.7": [
+"pulsar/pulsar-3.3.7/apache-pulsar-3.3.7-src.tar.gz"
+],
 "apache-pulsar-4.0.0": [
 "pulsar/pulsar-4.0.0/apache-pulsar-4.0.0-src.tar.gz"
 ],
@@ -8734,8 +8755,8 @@
 "apache-sling-jar-resource-bundle-1.0.2": [
 "sling/apache-sling-jar-resource-bundle-1.0.2-source-release.zip"
 ],
-"feature-launcher-maven-plugin-0.1.6": [
-"sling/feature-launcher-maven-plugin-0.1.6-source-release.zip"
+"feature-launcher-maven-plugin-0.1.8": [
+"sling/feature-launcher-maven-plugin-0.1.8-source-release.zip"
 ],
 "htl-maven-plugin-2.0.4-1.4.0": [
 "sling/htl-maven-plugin-2.0.4-1.4.0-source-release.zip"
@@ -9704,20 +9725,35 @@
 "SparkR_3.5.5": [
 "spark/spark-3.5.5/SparkR_3.5.5.tar.gz"
 ],
+"SparkR_4.0.0": [
+"spark/spark-4.0.0/SparkR_4.0.0.tar.gz"
+],
 "SparkR_4.0.0-preview2": [
 "spark/spark-4.0.0-preview2/SparkR_4.0.0-preview2.tar.gz"
 ],
 "pyspark-3.5.5": [
 "spark/spark-3.5.5/pyspark-3.5.5.tar.gz"
 ],
+"pyspark-4.0.0": [
+"spark/spark-4.0.0/pyspark-4.0.0.tar.gz"
+],
 "pyspark-4.0.0.dev2": [
 "spark/spark-4.0.0-preview2/pyspark-4.0.0.dev2.tar.gz"
+],
+"pyspark_client-4.0.0": [
+"spark/spark-4.0.0/pyspark_client-4.0.0.tar.gz"
+],
+"pyspark_connect-4.0.0": [
+"spark/spark-4.0.0/pyspark_connect-4.0.0.tar.gz"
 ],
 "pyspark_connect-4.0.0.dev2": [
 "spark/spark-4.0.0-preview2/pyspark_connect-4.0.0.dev2.tar.gz"
 ],
 "spark-3.5.5": [
 "spark/spark-3.5.5/spark-3.5.5.tgz"
+],
+"spark-4.0.0": [
+"spark/spark-4.0.0/spark-4.0.0.tgz"
 ],
 "spark-4.0.0-preview2": [
 "spark/spark-4.0.0-preview2/spark-4.0.0-preview2.tgz"
@@ -10017,11 +10053,11 @@
 ]
 },
 "thrift": {
-"thrift-0.20.0": [
-"thrift/0.20.0/thrift-0.20.0.tar.gz"
-],
 "thrift-0.21.0": [
 "thrift/0.21.0/thrift-0.21.0.tar.gz"
+],
+"thrift-0.22.0": [
+"thrift/0.22.0/thrift-0.22.0.tar.gz"
 ]
 },
 "tika": {
@@ -10082,17 +10118,9 @@
 "tomcat-maven-plugin-2.2": [
 "tomcat/maven-plugin/v2.2/tomcat-maven-plugin-2.2-source-release.zip"
 ],
-"tomcat-native-1.3.0": [
-"tomcat/tomcat-connectors/native/1.3.0/source/tomcat-native-1.3.0-src.tar.gz",
-"tomcat/tomcat-connectors/native/1.3.0/source/tomcat-native-1.3.0-win32-src.zip"
-],
 "tomcat-native-1.3.1": [
 "tomcat/tomcat-connectors/native/1.3.1/source/tomcat-native-1.3.1-src.tar.gz",
 "tomcat/tomcat-connectors/native/1.3.1/source/tomcat-native-1.3.1-win32-src.zip"
-],
-"tomcat-native-2.0.7": [
-"tomcat/tomcat-connectors/native/2.0.7/source/tomcat-native-2.0.7-src.tar.gz",
-"tomcat/tomcat-connectors/native/2.0.7/source/tomcat-native-2.0.7-win32-src.zip"
 ],
 "tomcat-native-2.0.8": [
 "tomcat/tomcat-connectors/native/2.0.8/source/tomcat-native-2.0.8-src.tar.gz",
