@@ -43,7 +43,7 @@
 "apache-airflow-upgrade-check-1.4.0": "2021-06-26",
 "apache_airflow-2.11.0": "2025-05-20",
 "apache_airflow-3.0.1": "2025-05-12",
-"apache_airflow_client-2.10.0": "2024-08-30",
+"apache_airflow_client-3.0.0": "2025-05-27",
 "apache_airflow_core-3.0.1": "2025-05-12",
 "apache_airflow_providers_airbyte-5.1.0": "2025-05-18",
 "apache_airflow_providers_alibaba-3.1.0": "2025-05-18",
@@ -537,8 +537,8 @@
 "bsf-2.4.0": "2013-03-03",
 "bsf-3.1": "2013-03-03",
 "commons-84": "2025-05-20",
-"commons-beanutils-1.10.1": "2025-02-13",
-"commons-beanutils2-2.0.0-M1": "2025-01-07",
+"commons-beanutils-1.11.0": "2025-05-27",
+"commons-beanutils2-2.0.0-M2": "2025-05-27",
 "commons-build-plugin-1.15.0": "2025-01-11",
 "commons-cli-1.9.0": "2024-08-14",
 "commons-codec-1.18.0": "2025-01-27",
@@ -557,7 +557,7 @@
 "commons-email2-2.0.0-M1": "2024-06-27",
 "commons-exec-1.5.0": "2025-05-23",
 "commons-fileupload-1.5": "2023-02-01",
-"commons-fileupload2-2.0.0-M2": "2023-12-27",
+"commons-fileupload2-2.0.0-M3": "2025-05-27",
 "commons-geometry-1.0": "2021-08-21",
 "commons-imaging-1.0.0-alpha6": "2025-04-30",
 "commons-io-2.19.0": "2025-04-12",
@@ -1244,14 +1244,14 @@
 "groovy": {
 "apache-groovy-2.4.21": "2020-12-03",
 "apache-groovy-2.5.23": "2023-08-22",
-"apache-groovy-3.0.24": "2025-02-27",
-"apache-groovy-4.0.26": "2025-02-28",
-"apache-groovy-5.0.0-alpha-12": "2025-01-25",
+"apache-groovy-3.0.25": "2025-05-27",
+"apache-groovy-4.0.27": "2025-05-27",
+"apache-groovy-5.0.0-beta-1": "2025-05-27",
 "apache-groovy-sdk-2.4.21": "2020-12-03",
 "apache-groovy-sdk-2.5.23": "2023-08-22",
-"apache-groovy-sdk-3.0.24": "2025-02-27",
-"apache-groovy-sdk-4.0.26": "2025-02-28",
-"apache-groovy-sdk-5.0.0-alpha-12": "2025-01-25"
+"apache-groovy-sdk-3.0.25": "2025-05-27",
+"apache-groovy-sdk-4.0.27": "2025-05-27",
+"apache-groovy-sdk-5.0.0-beta-1": "2025-05-27"
 },
 "guacamole": {
 "guacamole-client-1.5.3": "2023-07-26",
@@ -1404,6 +1404,7 @@
 "iceberg": {
 "apache-iceberg-1.8.1": "2025-02-24",
 "apache-iceberg-1.9.0": "2025-04-22",
+"apache-iceberg-1.9.1": "2025-05-21",
 "apache-iceberg-go-0.2.0-rc1": "2025-03-20",
 "apache-iceberg-rust-0.3.0": "2024-08-14",
 "apache-iceberg-rust-0.4.0": "2024-12-20",
@@ -1834,6 +1835,7 @@
 "kyuubi": {
 "apache-kyuubi-1.10.0": "2024-10-23",
 "apache-kyuubi-1.10.1": "2024-12-23",
+"apache-kyuubi-1.10.2": "2025-05-22",
 "apache-kyuubi-1.4.1-incubating": "2022-01-23",
 "apache-kyuubi-1.5.2-incubating": "2022-06-09",
 "apache-kyuubi-1.6.1-incubating": "2022-11-07",
@@ -1847,6 +1849,7 @@
 "apache-kyuubi-1.9.1": "2024-05-30",
 "apache-kyuubi-1.9.2": "2024-07-19",
 "apache-kyuubi-1.9.3": "2024-11-29",
+"apache-kyuubi-1.9.4": "2025-05-22",
 "apache-kyuubi-shaded-0.1.0": "2023-05-18",
 "apache-kyuubi-shaded-0.2.0": "2023-12-04",
 "apache-kyuubi-shaded-0.3.0": "2024-03-04",
@@ -2643,6 +2646,7 @@
 "pulsar-3.9.0": "2025-01-20",
 "pulsar-4.0.0": "2025-03-10",
 "pulsar-4.0.1": "2025-04-15",
+"pulsar-4.1.0": "2025-05-23",
 "pulsar-chart-3.0.0": "2022-11-03",
 "pulsar-chart-3.1.0": "2023-12-11",
 "pulsar-chart-3.2.0": "2024-01-21",
@@ -2657,6 +2661,7 @@
 "pulsar-chart-3.9.0": "2025-01-20",
 "pulsar-chart-4.0.0": "2025-03-10",
 "pulsar-chart-4.0.1": "2025-04-15",
+"pulsar-chart-4.1.0": "2025-05-23",
 "pulsar-client-python-3.5.0": "2024-04-02",
 "pulsar-client-python-3.6.0": "2025-01-24",
 "pulsar-client-python-3.6.1": "2025-02-08",
@@ -2826,6 +2831,7 @@
 },
 "seatunnel": {
 "apache-seatunnel-2.3.10": "2025-03-22",
+"apache-seatunnel-2.3.11": "2025-05-22",
 "apache-seatunnel-2.3.2": "2023-06-13",
 "apache-seatunnel-2.3.3": "2023-08-17",
 "apache-seatunnel-2.3.4": "2024-02-25",
@@ -3267,16 +3273,16 @@
 "Mail-SpamAssassin-rules-4.0.1.r1916528": "2024-03-29"
 },
 "spark": {
-"SparkR_3.5.5": "2025-02-23",
+"SparkR_3.5.6": "2025-05-23",
 "SparkR_4.0.0": "2025-05-19",
 "SparkR_4.0.0-preview2": "2024-09-16",
-"pyspark-3.5.5": "2025-02-23",
+"pyspark-3.5.6": "2025-05-23",
 "pyspark-4.0.0": "2025-05-19",
 "pyspark-4.0.0.dev2": "2024-09-16",
 "pyspark_client-4.0.0": "2025-05-19",
 "pyspark_connect-4.0.0": "2025-05-19",
 "pyspark_connect-4.0.0.dev2": "2024-09-16",
-"spark-3.5.5": "2025-02-23",
+"spark-3.5.6": "2025-05-23",
 "spark-4.0.0": "2025-05-19",
 "spark-4.0.0-preview2": "2024-09-16",
 "spark-connect-swift-0.2.0": "2025-05-17",
@@ -3345,8 +3351,8 @@
 "synapse-distribution-3.0.2": "2023-05-11"
 },
 "syncope": {
-"syncope-3.0.11": "2025-03-07",
-"syncope-4.0.0-M1": "2025-03-07"
+"syncope-3.0.12": "2025-05-23",
+"syncope-4.0.0": "2025-05-23"
 },
 "systemds": {
 "systemds-2.0.0": "2020-10-14",

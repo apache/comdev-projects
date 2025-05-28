@@ -123,8 +123,8 @@
 "apache_airflow-3.0.1": [
 "airflow/3.0.1/apache_airflow-3.0.1.tar.gz"
 ],
-"apache_airflow_client-2.10.0": [
-"airflow/clients/python/2.10.0/apache_airflow_client-2.10.0.tar.gz"
+"apache_airflow_client-3.0.0": [
+"airflow/clients/python/3.0.0/apache_airflow_client-3.0.0.tar.gz"
 ],
 "apache_airflow_core-3.0.1": [
 "airflow/3.0.1/apache_airflow_core-3.0.1.tar.gz"
@@ -1552,13 +1552,13 @@
 "commons/parent/source/commons-parent-84-src.tar.gz",
 "commons/parent/source/commons-parent-84-src.zip"
 ],
-"commons-beanutils-1.10.1": [
-"commons/beanutils/source/commons-beanutils-1.10.1-src.tar.gz",
-"commons/beanutils/source/commons-beanutils-1.10.1-src.zip"
+"commons-beanutils-1.11.0": [
+"commons/beanutils/source/commons-beanutils-1.11.0-src.tar.gz",
+"commons/beanutils/source/commons-beanutils-1.11.0-src.zip"
 ],
-"commons-beanutils2-2.0.0-M1": [
-"commons/beanutils/source/commons-beanutils2-2.0.0-M1-src.tar.gz",
-"commons/beanutils/source/commons-beanutils2-2.0.0-M1-src.zip"
+"commons-beanutils2-2.0.0-M2": [
+"commons/beanutils/source/commons-beanutils2-2.0.0-M2-src.tar.gz",
+"commons/beanutils/source/commons-beanutils2-2.0.0-M2-src.zip"
 ],
 "commons-build-plugin-1.15.0": [
 "commons/build-plugin/source/commons-build-plugin-1.15.0-src.tar.gz",
@@ -1634,9 +1634,9 @@
 "commons/fileupload/source/commons-fileupload-1.5-src.tar.gz",
 "commons/fileupload/source/commons-fileupload-1.5-src.zip"
 ],
-"commons-fileupload2-2.0.0-M2": [
-"commons/fileupload/source/commons-fileupload2-2.0.0-M2-src.tar.gz",
-"commons/fileupload/source/commons-fileupload2-2.0.0-M2-src.zip"
+"commons-fileupload2-2.0.0-M3": [
+"commons/fileupload/source/commons-fileupload2-2.0.0-M3-src.tar.gz",
+"commons/fileupload/source/commons-fileupload2-2.0.0-M3-src.zip"
 ],
 "commons-geometry-1.0": [
 "commons/geometry/source/commons-geometry-1.0-src.tar.gz",
@@ -3804,14 +3804,14 @@
 "apache-groovy-2.5.23": [
 "groovy/2.5.23/sources/apache-groovy-src-2.5.23.zip"
 ],
-"apache-groovy-3.0.24": [
-"groovy/3.0.24/sources/apache-groovy-src-3.0.24.zip"
+"apache-groovy-3.0.25": [
+"groovy/3.0.25/sources/apache-groovy-src-3.0.25.zip"
 ],
-"apache-groovy-4.0.26": [
-"groovy/4.0.26/sources/apache-groovy-src-4.0.26.zip"
+"apache-groovy-4.0.27": [
+"groovy/4.0.27/sources/apache-groovy-src-4.0.27.zip"
 ],
-"apache-groovy-5.0.0-alpha-12": [
-"groovy/5.0.0-alpha-12/sources/apache-groovy-src-5.0.0-alpha-12.zip"
+"apache-groovy-5.0.0-beta-1": [
+"groovy/5.0.0-beta-1/sources/apache-groovy-src-5.0.0-beta-1.zip"
 ],
 "apache-groovy-sdk-2.4.21": [
 "groovy/2.4.21/distribution/apache-groovy-sdk-2.4.21.zip"
@@ -3819,14 +3819,14 @@
 "apache-groovy-sdk-2.5.23": [
 "groovy/2.5.23/distribution/apache-groovy-sdk-2.5.23.zip"
 ],
-"apache-groovy-sdk-3.0.24": [
-"groovy/3.0.24/distribution/apache-groovy-sdk-3.0.24.zip"
+"apache-groovy-sdk-3.0.25": [
+"groovy/3.0.25/distribution/apache-groovy-sdk-3.0.25.zip"
 ],
-"apache-groovy-sdk-4.0.26": [
-"groovy/4.0.26/distribution/apache-groovy-sdk-4.0.26.zip"
+"apache-groovy-sdk-4.0.27": [
+"groovy/4.0.27/distribution/apache-groovy-sdk-4.0.27.zip"
 ],
-"apache-groovy-sdk-5.0.0-alpha-12": [
-"groovy/5.0.0-alpha-12/distribution/apache-groovy-sdk-5.0.0-alpha-12.zip"
+"apache-groovy-sdk-5.0.0-beta-1": [
+"groovy/5.0.0-beta-1/distribution/apache-groovy-sdk-5.0.0-beta-1.zip"
 ]
 },
 "guacamole": {
@@ -4277,6 +4277,9 @@
 ],
 "apache-iceberg-1.9.0": [
 "iceberg/apache-iceberg-1.9.0/apache-iceberg-1.9.0.tar.gz"
+],
+"apache-iceberg-1.9.1": [
+"iceberg/apache-iceberg-1.9.1/apache-iceberg-1.9.1.tar.gz"
 ],
 "apache-iceberg-go-0.2.0-rc1": [
 "iceberg/apache-iceberg-go-0.2.0/apache-iceberg-go-0.2.0-rc1.tar.gz"
@@ -5459,6 +5462,9 @@
 "apache-kyuubi-1.10.1": [
 "kyuubi/kyuubi-1.10.1/apache-kyuubi-1.10.1-source.tgz"
 ],
+"apache-kyuubi-1.10.2": [
+"kyuubi/kyuubi-1.10.2/apache-kyuubi-1.10.2-source.tgz"
+],
 "apache-kyuubi-1.4.1-incubating": [
 "kyuubi/kyuubi-1.4.1-incubating/apache-kyuubi-1.4.1-incubating-source.tgz"
 ],
@@ -5497,6 +5503,9 @@
 ],
 "apache-kyuubi-1.9.3": [
 "kyuubi/kyuubi-1.9.3/apache-kyuubi-1.9.3-source.tgz"
+],
+"apache-kyuubi-1.9.4": [
+"kyuubi/kyuubi-1.9.4/apache-kyuubi-1.9.4-source.tgz"
 ],
 "apache-kyuubi-shaded-0.1.0": [
 "kyuubi/kyuubi-shaded-0.1.0/apache-kyuubi-shaded-0.1.0-source.tgz"
@@ -7926,6 +7935,9 @@
 "pulsar-4.0.1": [
 "pulsar/helm-chart/4.0.1/pulsar-4.0.1.tgz"
 ],
+"pulsar-4.1.0": [
+"pulsar/helm-chart/4.1.0/pulsar-4.1.0.tgz"
+],
 "pulsar-chart-3.0.0": [
 "pulsar/helm-chart/3.0.0/pulsar-chart-3.0.0-source.tar.gz"
 ],
@@ -7967,6 +7979,9 @@
 ],
 "pulsar-chart-4.0.1": [
 "pulsar/helm-chart/4.0.1/pulsar-chart-4.0.1-source.tar.gz"
+],
+"pulsar-chart-4.1.0": [
+"pulsar/helm-chart/4.1.0/pulsar-chart-4.1.0-source.tar.gz"
 ],
 "pulsar-client-python-3.5.0": [
 "pulsar/pulsar-client-python-3.5.0/pulsar-client-python-3.5.0.tar.gz"
@@ -8437,6 +8452,9 @@
 "seatunnel": {
 "apache-seatunnel-2.3.10": [
 "seatunnel/2.3.10/apache-seatunnel-2.3.10-src.tar.gz"
+],
+"apache-seatunnel-2.3.11": [
+"seatunnel/2.3.11/apache-seatunnel-2.3.11-src.tar.gz"
 ],
 "apache-seatunnel-2.3.2": [
 "seatunnel/2.3.2/apache-seatunnel-2.3.2-src.tar.gz"
@@ -9727,8 +9745,8 @@
 ]
 },
 "spark": {
-"SparkR_3.5.5": [
-"spark/spark-3.5.5/SparkR_3.5.5.tar.gz"
+"SparkR_3.5.6": [
+"spark/spark-3.5.6/SparkR_3.5.6.tar.gz"
 ],
 "SparkR_4.0.0": [
 "spark/spark-4.0.0/SparkR_4.0.0.tar.gz"
@@ -9736,8 +9754,8 @@
 "SparkR_4.0.0-preview2": [
 "spark/spark-4.0.0-preview2/SparkR_4.0.0-preview2.tar.gz"
 ],
-"pyspark-3.5.5": [
-"spark/spark-3.5.5/pyspark-3.5.5.tar.gz"
+"pyspark-3.5.6": [
+"spark/spark-3.5.6/pyspark-3.5.6.tar.gz"
 ],
 "pyspark-4.0.0": [
 "spark/spark-4.0.0/pyspark-4.0.0.tar.gz"
@@ -9754,8 +9772,8 @@
 "pyspark_connect-4.0.0.dev2": [
 "spark/spark-4.0.0-preview2/pyspark_connect-4.0.0.dev2.tar.gz"
 ],
-"spark-3.5.5": [
-"spark/spark-3.5.5/spark-3.5.5.tgz"
+"spark-3.5.6": [
+"spark/spark-3.5.6/spark-3.5.6.tgz"
 ],
 "spark-4.0.0": [
 "spark/spark-4.0.0/spark-4.0.0.tgz"
@@ -9953,13 +9971,13 @@
 ]
 },
 "syncope": {
-"syncope-3.0.11": [
-"syncope/3.0.11/syncope-3.0.11-source-release.zip",
-"syncope/3.0.11/syncope-standalone-3.0.11-distribution.zip"
+"syncope-3.0.12": [
+"syncope/3.0.12/syncope-3.0.12-source-release.zip",
+"syncope/3.0.12/syncope-standalone-3.0.12-distribution.zip"
 ],
-"syncope-4.0.0-M1": [
-"syncope/4.0.0-M1/syncope-4.0.0-M1-source-release.zip",
-"syncope/4.0.0-M1/syncope-standalone-4.0.0-M1-distribution.zip"
+"syncope-4.0.0": [
+"syncope/4.0.0/syncope-4.0.0-source-release.zip",
+"syncope/4.0.0/syncope-standalone-4.0.0-distribution.zip"
 ]
 },
 "systemds": {
