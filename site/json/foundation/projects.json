@@ -10642,6 +10642,11 @@
 "programming-language": "Java, Python, C++, Go, Csharp",
 "release": [
 {
+"created": "2025-05-30",
+"name": "Apache IoTDB",
+"revision": "2.0.3"
+},
+{
 "created": "2025-04-17",
 "name": "Apache IoTDB",
 "revision": "2.0.2"
@@ -17907,9 +17912,9 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2025-01-25",
-"name": "Apache Storm 2.8.0",
-"revision": "2.8.0"
+"created": "2025-06-02",
+"name": "Apache Storm 2.8.1",
+"revision": "2.8.1"
 }
 ],
 "repository": [
@@ -18918,7 +18923,7 @@
 },
 "tsfile": {
 "bug-database": "https://github.com/apache/tsfile/issues",
-"category": "big-data, database, iot",
+"category": "big-data, iot, java, python, c++",
 "created": "2024-02-20",
 "description": "TsFile is a columnar storage file format designed for time series data, which supports efficient compression, high throughput of read and write, and compatibility with various frameworks, such as Spark and Flink. It is easy to integrate TsFile into IoT big data processing frameworks.",
 "doap": "https://raw.githubusercontent.com/apache/tsfile/develop/doap_tsfile.rdf",
@@ -18929,6 +18934,11 @@
 "pmc": "tsfile",
 "programming-language": "Java, C++, Python",
 "release": [
+{
+"created": "2025-05-26",
+"name": "Apache TsFile",
+"revision": "2.0.3"
+},
 {
 "created": "2025-04-11",
 "name": "Apache TsFile",
