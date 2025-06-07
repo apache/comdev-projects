@@ -1639,9 +1639,9 @@
 "commons/exec/source/commons-exec-1.5.0-src.tar.gz",
 "commons/exec/source/commons-exec-1.5.0-src.zip"
 ],
-"commons-fileupload-1.5": [
-"commons/fileupload/source/commons-fileupload-1.5-src.tar.gz",
-"commons/fileupload/source/commons-fileupload-1.5-src.zip"
+"commons-fileupload-1.6.0": [
+"commons/fileupload/source/commons-fileupload-1.6.0-src.tar.gz",
+"commons/fileupload/source/commons-fileupload-1.6.0-src.zip"
 ],
 "commons-fileupload2-2.0.0-M3": [
 "commons/fileupload/source/commons-fileupload2-2.0.0-M3-src.tar.gz",
@@ -2926,9 +2926,9 @@
 "felix/org.apache.felix.http.jetty-5.1.34-source-release.tar.gz",
 "felix/org.apache.felix.http.jetty-5.1.34-source-release.zip"
 ],
-"org.apache.felix.http.jetty12-1.0.32": [
-"felix/org.apache.felix.http.jetty12-1.0.32-source-release.tar.gz",
-"felix/org.apache.felix.http.jetty12-1.0.32-source-release.zip"
+"org.apache.felix.http.jetty12-1.0.34": [
+"felix/org.apache.felix.http.jetty12-1.0.34-source-release.tar.gz",
+"felix/org.apache.felix.http.jetty12-1.0.34-source-release.zip"
 ],
 "org.apache.felix.http.proxy-4.0.0": [
 "felix/org.apache.felix.http.proxy-4.0.0-source-release.tar.gz",
@@ -5787,78 +5787,6 @@
 "maven/maven-3/3.9.10/source/apache-maven-3.9.10-src.tar.gz",
 "maven/maven-3/3.9.10/source/apache-maven-3.9.10-src.zip"
 ],
-"apache-maven-3.9.4": [
-"maven/maven-3/3.9.4/source/apache-maven-3.9.4-src.tar.gz",
-"maven/maven-3/3.9.4/source/apache-maven-3.9.4-src.zip"
-],
-"apache-maven-3.9.5": [
-"maven/maven-3/3.9.5/source/apache-maven-3.9.5-src.tar.gz",
-"maven/maven-3/3.9.5/source/apache-maven-3.9.5-src.zip"
-],
-"apache-maven-3.9.6": [
-"maven/maven-3/3.9.6/source/apache-maven-3.9.6-src.tar.gz",
-"maven/maven-3/3.9.6/source/apache-maven-3.9.6-src.zip"
-],
-"apache-maven-3.9.7": [
-"maven/maven-3/3.9.7/source/apache-maven-3.9.7-src.tar.gz",
-"maven/maven-3/3.9.7/source/apache-maven-3.9.7-src.zip"
-],
-"apache-maven-3.9.8": [
-"maven/maven-3/3.9.8/source/apache-maven-3.9.8-src.tar.gz",
-"maven/maven-3/3.9.8/source/apache-maven-3.9.8-src.zip"
-],
-"apache-maven-3.9.9": [
-"maven/maven-3/3.9.9/source/apache-maven-3.9.9-src.tar.gz",
-"maven/maven-3/3.9.9/source/apache-maven-3.9.9-src.zip"
-],
-"apache-maven-4.0.0-alpha-10": [
-"maven/maven-4/4.0.0-alpha-10/source/apache-maven-4.0.0-alpha-10-src.tar.gz",
-"maven/maven-4/4.0.0-alpha-10/source/apache-maven-4.0.0-alpha-10-src.zip"
-],
-"apache-maven-4.0.0-alpha-12": [
-"maven/maven-4/4.0.0-alpha-12/source/apache-maven-4.0.0-alpha-12-src.tar.gz",
-"maven/maven-4/4.0.0-alpha-12/source/apache-maven-4.0.0-alpha-12-src.zip"
-],
-"apache-maven-4.0.0-alpha-13": [
-"maven/maven-4/4.0.0-alpha-13/source/apache-maven-4.0.0-alpha-13-src.tar.gz",
-"maven/maven-4/4.0.0-alpha-13/source/apache-maven-4.0.0-alpha-13-src.zip"
-],
-"apache-maven-4.0.0-alpha-5": [
-"maven/maven-4/4.0.0-alpha-5/source/apache-maven-4.0.0-alpha-5-src.tar.gz",
-"maven/maven-4/4.0.0-alpha-5/source/apache-maven-4.0.0-alpha-5-src.zip"
-],
-"apache-maven-4.0.0-alpha-7": [
-"maven/maven-4/4.0.0-alpha-7/source/apache-maven-4.0.0-alpha-7-src.tar.gz",
-"maven/maven-4/4.0.0-alpha-7/source/apache-maven-4.0.0-alpha-7-src.zip"
-],
-"apache-maven-4.0.0-alpha-8": [
-"maven/maven-4/4.0.0-alpha-8/source/apache-maven-4.0.0-alpha-8-src.tar.gz",
-"maven/maven-4/4.0.0-alpha-8/source/apache-maven-4.0.0-alpha-8-src.zip"
-],
-"apache-maven-4.0.0-alpha-9": [
-"maven/maven-4/4.0.0-alpha-9/source/apache-maven-4.0.0-alpha-9-src.tar.gz",
-"maven/maven-4/4.0.0-alpha-9/source/apache-maven-4.0.0-alpha-9-src.zip"
-],
-"apache-maven-4.0.0-beta-3": [
-"maven/maven-4/4.0.0-beta-3/source/apache-maven-4.0.0-beta-3-src.tar.gz",
-"maven/maven-4/4.0.0-beta-3/source/apache-maven-4.0.0-beta-3-src.zip"
-],
-"apache-maven-4.0.0-beta-4": [
-"maven/maven-4/4.0.0-beta-4/source/apache-maven-4.0.0-beta-4-src.tar.gz",
-"maven/maven-4/4.0.0-beta-4/source/apache-maven-4.0.0-beta-4-src.zip"
-],
-"apache-maven-4.0.0-beta-5": [
-"maven/maven-4/4.0.0-beta-5/source/apache-maven-4.0.0-beta-5-src.tar.gz",
-"maven/maven-4/4.0.0-beta-5/source/apache-maven-4.0.0-beta-5-src.zip"
-],
-"apache-maven-4.0.0-rc-1": [
-"maven/maven-4/4.0.0-rc-1/source/apache-maven-4.0.0-rc-1-src.tar.gz",
-"maven/maven-4/4.0.0-rc-1/source/apache-maven-4.0.0-rc-1-src.zip"
-],
-"apache-maven-4.0.0-rc-2": [
-"maven/maven-4/4.0.0-rc-2/source/apache-maven-4.0.0-rc-2-src.tar.gz",
-"maven/maven-4/4.0.0-rc-2/source/apache-maven-4.0.0-rc-2-src.zip"
-],
 "apache-maven-4.0.0-rc-3": [
 "maven/maven-4/4.0.0-rc-3/source/apache-maven-4.0.0-rc-3-src.tar.gz",
 "maven/maven-4/4.0.0-rc-3/source/apache-maven-4.0.0-rc-3-src.zip"
@@ -6034,37 +5962,9 @@
 "maven-mapping-3.0.0": [
 "maven/shared/maven-mapping-3.0.0-source-release.zip"
 ],
-"maven-mvnd-1.0-m6": [
-"maven/mvnd/1.0-m6/maven-mvnd-1.0-m6-src.tar.gz",
-"maven/mvnd/1.0-m6/maven-mvnd-1.0-m6-src.zip"
-],
-"maven-mvnd-1.0-m7": [
-"maven/mvnd/1.0-m7/maven-mvnd-1.0-m7-src.tar.gz",
-"maven/mvnd/1.0-m7/maven-mvnd-1.0-m7-src.zip"
-],
-"maven-mvnd-1.0-m8": [
-"maven/mvnd/1.0-m8/maven-mvnd-1.0-m8-src.tar.gz",
-"maven/mvnd/1.0-m8/maven-mvnd-1.0-m8-src.zip"
-],
-"maven-mvnd-1.0.0": [
-"maven/mvnd/1.0.0/maven-mvnd-1.0.0-src.tar.gz",
-"maven/mvnd/1.0.0/maven-mvnd-1.0.0-src.zip"
-],
-"maven-mvnd-1.0.1": [
-"maven/mvnd/1.0.1/maven-mvnd-1.0.1-src.tar.gz",
-"maven/mvnd/1.0.1/maven-mvnd-1.0.1-src.zip"
-],
 "maven-mvnd-1.0.2": [
 "maven/mvnd/1.0.2/maven-mvnd-1.0.2-src.tar.gz",
 "maven/mvnd/1.0.2/maven-mvnd-1.0.2-src.zip"
-],
-"maven-mvnd-2.0.0-beta-1": [
-"maven/mvnd/2.0.0-beta-1/maven-mvnd-2.0.0-beta-1-src.tar.gz",
-"maven/mvnd/2.0.0-beta-1/maven-mvnd-2.0.0-beta-1-src.zip"
-],
-"maven-mvnd-2.0.0-rc-1": [
-"maven/mvnd/2.0.0-rc-1/maven-mvnd-2.0.0-rc-1-src.tar.gz",
-"maven/mvnd/2.0.0-rc-1/maven-mvnd-2.0.0-rc-1-src.zip"
 ],
 "maven-mvnd-2.0.0-rc-3": [
 "maven/mvnd/2.0.0-rc-3/maven-mvnd-2.0.0-rc-3-src.tar.gz",
@@ -9017,8 +8917,8 @@
 "org.apache.sling.dynamic-include-3.3.2": [
 "sling/org.apache.sling.dynamic-include-3.3.2-source-release.zip"
 ],
-"org.apache.sling.engine-2.16.2": [
-"sling/org.apache.sling.engine-2.16.2-source-release.zip"
+"org.apache.sling.engine-2.16.4": [
+"sling/org.apache.sling.engine-2.16.4-source-release.zip"
 ],
 "org.apache.sling.event-4.3.16": [
 "sling/org.apache.sling.event-4.3.16-source-release.zip"
