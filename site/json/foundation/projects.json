@@ -384,6 +384,12 @@
 ],
 "shortdesc": "Hadoop cluster management"
 },
+"answer": {
+"category": "no-tlp-doap",
+"homepage": "https://answer.apache.org",
+"name": "Apache Answer",
+"pmc": "answer"
+},
 "ant": {
 "bug-database": "http://issues.apache.org/bugzilla/buglist.cgi?product=Ant",
 "category": "build-management",
@@ -885,6 +891,12 @@
 ],
 "shortdesc": "Microsoft Visual Source Safe support for Apache Ant."
 },
+"apisix": {
+"category": "no-tlp-doap",
+"homepage": "https://apisix.apache.org",
+"name": "Apache Apisix",
+"pmc": "apisix"
+},
 "apr-portable_runtime": {
 "bug-database": "https://issues.apache.org/bugzilla/",
 "category": "library",
@@ -993,6 +1005,18 @@
 "https://github.com/apache/arrow.git"
 ],
 "shortdesc": "Apache Arrow is the universal columnar format and multi-language toolbox for fast data interchange and in-memory analytics."
+},
+"asterixdb": {
+"category": "no-tlp-doap",
+"homepage": "https://asterixdb.apache.org",
+"name": "Apache Asterixdb",
+"pmc": "asterixdb"
+},
+"atlas": {
+"category": "no-tlp-doap",
+"homepage": "https://atlas.apache.org",
+"name": "Apache Atlas",
+"pmc": "atlas"
 },
 "attic-any23": {
 "bug-database": "https://issues.apache.org/jira/browse/ANY23",
@@ -4249,6 +4273,12 @@
 ],
 "shortdesc": "An industrial-grade RPC framework for building reliable and high-performance services."
 },
+"buildstream": {
+"category": "no-tlp-doap",
+"homepage": "https://buildstream.apache.org",
+"name": "Apache Buildstream",
+"pmc": "buildstream"
+},
 "bval": {
 "bug-database": "http://issues.apache.org/jira/browse/BVAL",
 "category": "javaee, library",
@@ -5108,6 +5138,12 @@
 "https://github.com/apache/cayenne"
 ],
 "shortdesc": "User-friendly Java ORM with tools"
+},
+"celeborn": {
+"category": "no-tlp-doap",
+"homepage": "https://celeborn.apache.org",
+"name": "Apache Celeborn",
+"pmc": "celeborn"
 },
 "celix": {
 "bug-database": "https://github.com/apache/celix/issues",
@@ -9072,6 +9108,12 @@
 ],
 "shortdesc": "The Eclipse based LDAP browser and directory client"
 },
+"dolphinscheduler": {
+"category": "no-tlp-doap",
+"homepage": "https://dolphinscheduler.apache.org",
+"name": "Apache Dolphinscheduler",
+"pmc": "dolphinscheduler"
+},
 "doris": {
 "bug-database": "https://github.com/apache/doris/issues",
 "category": "database",
@@ -9135,6 +9177,12 @@
 "pmc": "druid",
 "programming-language": "Java",
 "shortdesc": "High performance, real-time analytics database for sub-second queries at scale and under load."
+},
+"dubbo": {
+"category": "no-tlp-doap",
+"homepage": "https://dubbo.apache.org",
+"name": "Apache Dubbo",
+"pmc": "dubbo"
 },
 "echarts": {
 "bug-database": "https://github.com/apache/echarts/issues",
@@ -9273,6 +9321,12 @@
 "https://github.com/apache/fineract"
 ],
 "shortdesc": "Core bank processing and lending "
+},
+"flagon": {
+"category": "no-tlp-doap",
+"homepage": "https://flagon.apache.org",
+"name": "Apache Flagon",
+"pmc": "flagon"
 },
 "flex": {
 "bug-database": "https://issues.apache.org/jira/browse/FLEX",
@@ -9666,6 +9720,18 @@
 "https://github.com/apache/gobblin"
 ],
 "shortdesc": "Distributed data integration framework"
+},
+"gravitino": {
+"category": "no-tlp-doap",
+"homepage": "https://gravitino.apache.org",
+"name": "Apache Gravitino",
+"pmc": "gravitino"
+},
+"griffin": {
+"category": "no-tlp-doap",
+"homepage": "https://griffin.apache.org",
+"name": "Apache Griffin",
+"pmc": "griffin"
 },
 "groovy": {
 "bug-database": "https://issues.apache.org/jira/browse/GROOVY",
@@ -11342,6 +11408,12 @@
 ],
 "shortdesc": "Pure Java application for load and functional testing"
 },
+"johnzon": {
+"category": "no-tlp-doap",
+"homepage": "https://johnzon.apache.org",
+"name": "Apache Johnzon",
+"pmc": "johnzon"
+},
 "jspwiki": {
 "category": "content",
 "description": "\n        Apache JSPWiki is a feature-rich and extensible WikiWiki engine built around the standard JEE \n        components (Java, servlets, JSP). It features:\n        - WikiMarkup/Structured Text\n        - File attachments \n        - Templates support\n        - Data storage through 2 WikiPage Providers, with the capability to plug new ones\n        - Security: Authorization and authentication fine grain control\n        - Easy plugin and page filter interfaces\n        - UTF-8 support\n        - JSP-based\n        - Easy-ish installation\n        - Page locking to prevent editing conflicts\n        - Support for Multiple Wikis\n        - Custom User Preferences\n    ",
@@ -11358,6 +11430,12 @@
 ],
 "shortdesc": "A feature-rich and extensible WikiWiki engine built around the standard \n        JEE components (Java, servlets, JSP).",
 "shortname": "jspwiki"
+},
+"juneau": {
+"category": "no-tlp-doap",
+"homepage": "https://juneau.apache.org",
+"name": "Apache Juneau",
+"pmc": "juneau"
 },
 "kafka": {
 "bug-database": "https://issues.apache.org/jira/browse/KAFKA",
@@ -11567,6 +11645,12 @@
 ],
 "shortdesc": "Columnar storage manager"
 },
+"kvrocks": {
+"category": "no-tlp-doap",
+"homepage": "https://kvrocks.apache.org",
+"name": "Apache Kvrocks",
+"pmc": "kvrocks"
+},
 "kylin": {
 "bug-database": "https://issues.apache.org/jira/projects/KYLIN/issues",
 "category": "big-data",
@@ -11596,6 +11680,12 @@
 "https://github.com/apache/kylin"
 ],
 "shortdesc": "Apache Kylin is an open source, distributed Analytical Data Warehouse for Big Data."
+},
+"kyuubi": {
+"category": "no-tlp-doap",
+"homepage": "https://kyuubi.apache.org",
+"name": "Apache Kyuubi",
+"pmc": "kyuubi"
 },
 "libcloud": {
 "bug-database": "https://issues.apache.org/jira/browse/LIBCLOUD",
@@ -12117,6 +12207,12 @@
 ],
 "shortdesc": "Apache log4php is a logging framework for PHP.",
 "shortname": "log4php"
+},
+"logodev": {
+"category": "no-tlp-doap",
+"homepage": "https://logodev.apache.org",
+"name": "Apache Logodev",
+"pmc": "logodev"
 },
 "lucene-core": {
 "bug-database": "https://github.com/apache/lucene/issues",
@@ -13277,6 +13373,12 @@
 }
 ],
 "shortdesc": "Lucene.Net is a port of the Lucene search engine library, written in C# and targeted at .NET runtime users."
+},
+"madlib": {
+"category": "no-tlp-doap",
+"homepage": "https://madlib.apache.org",
+"name": "Apache Madlib",
+"pmc": "madlib"
 },
 "mahout": {
 "bug-database": "https://issues.apache.org/jira/browse/MAHOUT",
@@ -14680,6 +14782,12 @@
 ],
 "shortdesc": "Apache Nutch is an open source web crawler software project."
 },
+"nuttx": {
+"category": "no-tlp-doap",
+"homepage": "https://nuttx.apache.org",
+"name": "Apache Nuttx",
+"pmc": "nuttx"
+},
 "ofbiz": {
 "bug-database": "https://issues.apache.org/jira/browse/OFBIZ",
 "category": "web-framework, database, network-server, xml, http, content, geospatial",
@@ -15139,6 +15247,12 @@
 ],
 "shortdesc": "Dependency Injection Platform."
 },
+"openwhisk": {
+"category": "no-tlp-doap",
+"homepage": "https://openwhisk.apache.org",
+"name": "Apache Openwhisk",
+"pmc": "openwhisk"
+},
 "orc": {
 "bug-database": "https://issues.apache.org/jira/browse/orc",
 "category": "big-data, database, hadoop, library",
@@ -15205,6 +15319,12 @@
 "https://github.com/apache/ozone.git"
 ],
 "shortdesc": "A highly scalable, distributed storage for Analytics, Big data and Cloud Native applications."
+},
+"paimon": {
+"category": "no-tlp-doap",
+"homepage": "https://paimon.apache.org",
+"name": "Apache Paimon",
+"pmc": "paimon"
 },
 "parquet": {
 "bug-database": "https://issues.apache.org/jira/browse/PARQUET",
@@ -15633,6 +15753,12 @@
 "http://svn.apache.org/repos/asf/pdfbox"
 ],
 "shortdesc": "The Apache PDFBox library is an open source Java tool for working with PDF documents."
+},
+"pekko": {
+"category": "no-tlp-doap",
+"homepage": "https://pekko.apache.org",
+"name": "Apache Pekko",
+"pmc": "pekko"
 },
 "perl-mod_perl": {
 "bug-database": "http://perl.apache.org/bugs/",
@@ -16384,6 +16510,18 @@
 ],
 "shortdesc": "Provide authorization framework across multiple datasources and have a single glass of pane for Security & Governance."
 },
+"ratis": {
+"category": "no-tlp-doap",
+"homepage": "https://ratis.apache.org",
+"name": "Apache Ratis",
+"pmc": "ratis"
+},
+"rocketmq": {
+"category": "no-tlp-doap",
+"homepage": "https://rocketmq.apache.org",
+"name": "Apache Rocketmq",
+"pmc": "rocketmq"
+},
 "roller": {
 "bug-database": "https://issues.apache.org/jira/browse/ROL",
 "category": "content",
@@ -16436,6 +16574,12 @@
 }
 ],
 "shortdesc": "Compiles programs written in ActionScript and MXML into JavaScript and HTML that can run wherever JavaScript runs."
+},
+"rya": {
+"category": "no-tlp-doap",
+"homepage": "https://rya.apache.org",
+"name": "Apache Rya",
+"pmc": "rya"
 },
 "samza": {
 "bug-database": "https://issues.apache.org/jira/browse/SAMZA",
@@ -16529,6 +16673,12 @@
 ],
 "shortdesc": "Library implementing XML Digital Signature Specification & XML Encryption Specification"
 },
+"sdap": {
+"category": "no-tlp-doap",
+"homepage": "https://sdap.apache.org",
+"name": "Apache Sdap",
+"pmc": "sdap"
+},
 "seatunnel": {
 "bug-database": "https://github.com/apache/seatunnel/issues",
 "category": "big-data",
@@ -16546,6 +16696,12 @@
 "https://gitbox.apache.org/repos/asf/seatunnel.git"
 ],
 "shortdesc": "SeaTunnel is a next-generation super high-performance, distributed, massive data integration tool."
+},
+"sedona": {
+"category": "no-tlp-doap",
+"homepage": "https://sedona.apache.org",
+"name": "Apache Sedona",
+"pmc": "sedona"
 },
 "serf": {
 "bug-database": "https://issues.apache.org/jira/browse/SERF/",
@@ -16571,6 +16727,12 @@
 "http://svn.apache.org/repos/asf/serf/trunk"
 ],
 "shortdesc": "High performance C-based HTTP client library built upon the Apache Portable Runtime (APR) library."
+},
+"servicecomb": {
+"category": "no-tlp-doap",
+"homepage": "https://servicecomb.apache.org",
+"name": "Apache Servicecomb",
+"pmc": "servicecomb"
 },
 "servicemix": {
 "bug-database": "http://issues.apache.org/activemq/browse/SM",
@@ -16604,6 +16766,18 @@
 "https://git-wip-us.apache.org/repos/asf/servicemix.git"
 ],
 "shortdesc": "Apache ServiceMix is an open source ESB providing routing and mediation features."
+},
+"shardingsphere": {
+"category": "no-tlp-doap",
+"homepage": "https://shardingsphere.apache.org",
+"name": "Apache Shardingsphere",
+"pmc": "shardingsphere"
+},
+"shenyu": {
+"category": "no-tlp-doap",
+"homepage": "https://shenyu.apache.org",
+"name": "Apache Shenyu",
+"pmc": "shenyu"
 },
 "shiro": {
 "bug-database": "https://issues.apache.org/jira/browse/SHIRO",
@@ -16868,6 +17042,12 @@
 ],
 "shortdesc": "A simple to use Java Security Framework.",
 "vendor": "The Apache Software Foundation"
+},
+"singa": {
+"category": "no-tlp-doap",
+"homepage": "https://singa.apache.org",
+"name": "Apache Singa",
+"pmc": "singa"
 },
 "sis-spatial_information_system": {
 "bug-database": "http://issues.apache.org/jira/browse/SIS",
@@ -17922,6 +18102,24 @@
 ],
 "shortdesc": "Apache Storm is a distributed real-time computation system."
 },
+"stormcrawler": {
+"category": "no-tlp-doap",
+"homepage": "https://stormcrawler.apache.org",
+"name": "Apache Stormcrawler",
+"pmc": "stormcrawler"
+},
+"streampark": {
+"category": "no-tlp-doap",
+"homepage": "https://streampark.apache.org",
+"name": "Apache Streampark",
+"pmc": "streampark"
+},
+"streampipes": {
+"category": "no-tlp-doap",
+"homepage": "https://streampipes.apache.org",
+"name": "Apache Streampipes",
+"pmc": "streampipes"
+},
 "struts": {
 "bug-database": "https://issues.apache.org/jira/browse/WW/",
 "category": "web-framework",
@@ -18083,6 +18281,12 @@
 "https://git-wip-us.apache.org/repos/asf/syncope.git"
 ],
 "shortdesc": "Apache Syncope is an Open Source system for managing digital identities in enterprise environments."
+},
+"systemds": {
+"category": "no-tlp-doap",
+"homepage": "https://systemds.apache.org",
+"name": "Apache Systemds",
+"pmc": "systemds"
 },
 "tapestry": {
 "bug-database": "https://issues.apache.org/jira/browse/TAP5",
@@ -18720,6 +18924,12 @@
 ],
 "shortdesc": "The Apache Tika toolkit detects and extracts metadata and structured \n    text content from various documents using existing parser libraries. \n    "
 },
+"tinkerpop": {
+"category": "no-tlp-doap",
+"homepage": "https://tinkerpop.apache.org",
+"name": "Apache Tinkerpop",
+"pmc": "tinkerpop"
+},
 "tomcat": {
 "bug-database": "http://tomcat.apache.org/bugreport.html",
 "category": "network-server, http, javaee",
@@ -19086,6 +19296,12 @@
 ],
 "shortdesc": "Annotator components and a\n      scalable integration and deployment framework for\n      Unstructured Information analysis",
 "shortname": "UIMA"
+},
+"uniffle": {
+"category": "no-tlp-doap",
+"homepage": "https://uniffle.apache.org",
+"name": "Apache Uniffle",
+"pmc": "uniffle"
 },
 "unomi": {
 "bug-database": "https://issues.apache.org/jira/projects/UNOMI/",

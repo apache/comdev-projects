@@ -1523,19 +1523,6 @@ function weaveInRetiredCommittees(json) {
     for (p in projects) {
         projectsPmcs[projects[p].pmc] = p;
     }
-    var c;
-    for (c in committees) {
-        c = committees[c];
-        if (!projectsPmcs[c.id] && c.id != 'attic') {
-            // no DOAP file written by the PMC: creating default content
-            projects[c.id] = {
-                'name': c.name,
-                'homepage': c.homepage,
-                'pmc': c.id,
-                'category': "no-tlp-doap"
-            }
-        }
-    }
 }
 
 function setCommittees(json, state) {

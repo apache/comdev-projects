@@ -6,6 +6,7 @@ Reads:
 ../../data/projects.xml
 parseprojects-failures.xml (if exists)
 ../../site/json/foundation/committees-retired.json
+../../site/json/foundation/committees.json
 
 Writes:
 ../../site/json/foundation/projects.json
@@ -187,6 +188,19 @@ with open("../../site/json/foundation/committees-retired.json", "r", encoding='u
 retired = []
 for r in committeesRetired:
     retired.append(r['id'])
+
+with open("../../site/json/foundation/committees.json", "r", encoding='utf-8') as f:
+    committees = json.loads(f.read())
+    f.close()
+committeesWithoutProject = {}
+for c in committees:
+    pjson = {
+        'name': c['name'],
+        'homepage': c['homepage'],
+        'pmc': c['id'],
+        'category': "no-tlp-doap"
+    }
+    committeesWithoutProject[c['id']] = pjson
 
 projects = {}
 failures = []
@@ -377,6 +391,8 @@ for s in itemlist :
             validate(pjson, 'category', VALID_CATS, projectid, url)
             validate(pjson, 'programming-language', VALID_LANG, projectid, url)
             projects[projectJsonFilename] = pjson
+            if committeeId in committeesWithoutProject:
+                del committeesWithoutProject[committeeId]
             #for e in add:
             #    pjson[e] = add[e]
             name = "%s.json" % projectJsonFilename
@@ -422,6 +438,16 @@ for s in itemlist :
             with open (urlname, "wb") as f:
                 f.write(rdf)
                 f.close()
+
+for c in committeesWithoutProject:
+    print("WARN: adding no-tlp-doap %s " % c)
+    pjson = {
+        'name': "Apache %s" % c.capitalize(),
+        'homepage': "https://%s.apache.org" % c,
+        'pmc': c,
+        'category': "no-tlp-doap"
+    }
+    projects[c] = pjson
 
 if save:
     print("Writing foundation/projects.json...")
