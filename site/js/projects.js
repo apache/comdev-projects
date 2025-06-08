@@ -1123,7 +1123,7 @@ function renderCommitteeEvolution() {
     dataTable.addRows(data);
 
     var options = {
-        title: "Committees evolution (also called PMCs or Top Level Projects)",
+        title: "Evolution of Committees (also called PMCs or Top Level Projects)",
         isStacked: true,
         height: 320,
         width: 1160,
@@ -1209,7 +1209,7 @@ function renderPodlingsEvolution(obj) {
     dataTable.addRows(data);
 
     var coptions = {
-        title: "Incubating projects evolution",
+        title: "Evolution of Incubating projects ('podlings')",
         isStacked: true,
         height: 320,
         width: 1160,
