@@ -1040,7 +1040,7 @@ function renderFrontPage() {
     obj.innerHTML
         += "<h3 style='text-align: center;'>There are currently <span style='color: #269;'>" + initiatives + "+</span> open source initiatives at the ASF:</h3>"
         + "<ul style='width: 400px; margin: 0 auto; font-size: 18px; color: #269; font-weight: bold;'>"
-        + "<li>" + numcommittees + " committees managing " + numProjects + " projects</li>"
+        + "<li>" + numcommittees + " committees managing " + numProjects + " <a href='projects.html'>projects</a></li>"
         + "<li>" + curPodlings + " incubating podlings</li></ul>"
 
     renderCommitteeEvolution();
