@@ -1032,18 +1032,17 @@ function renderFrontPage() {
     var initiatives = numProjects + curPodlings; // both PMC and podlings
     initiatives -= initiatives % 50; // round down to nearest 50
     var obj = document.getElementById('details');
+    obj.innerHTML = ""
     if (urlErrors.length > 0) {
         obj.innerHTML += "<p><span style='color: red'><b>Warning: could not load: "+urlErrors.join(', ')+"</b></span></p>"
     }
-    // N.B. These ids must agree with the 'details' div in index.html
-    obj = document.getElementById('initiatives');
-    obj.innerHTML = initiatives;
-    obj = document.getElementById('committees');
-    obj.innerHTML = numcommittees;
-    obj = document.getElementById('projects');
-    obj.innerHTML = numProjects;
-    obj = document.getElementById('podlings');
-    obj.innerHTML = curPodlings;
+    // N.B. This text must agree with the 'details' div in index.html, which it replaces
+    obj.innerHTML
+        += "<h3 style='text-align: center;'>There are currently <span style='color: #269;'>" + initiatives + "+</span> open source initiatives at the ASF:</h3>"
+        + "<ul style='width: 400px; margin: 0 auto; font-size: 18px; color: #269; font-weight: bold;'>"
+        + "<li>" + numcommittees + " <a href='committees.html'>committees</a> managing " + numProjects + " <a href='projects.html'>projects</a></li>"
+        + "<li>" + curPodlings + " incubating podlings</li></ul>"
+
     renderCommitteeEvolution();
     renderPodlingsEvolution();
     renderLanguageChart();
