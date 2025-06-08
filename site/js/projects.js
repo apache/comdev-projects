@@ -403,10 +403,10 @@ function renderCommitteePage(committeeId) {
     if (!_.isEmpty(committee.shortdesc)) {
         description = committee.shortdesc;
     } else {
-        description = "Missing from https://www.apache.org/#projects-list";
+        description = "Missing from https://whimsy.apache.org/public/ committee-info.json";
     }
 
-    appendElementWithInnerHTML(obj, 'h4', "Description <font size='-2'>(from <a href='https://www.apache.org/#projects-list'>projects list</a>)</a>:");
+    appendElementWithInnerHTML(obj, 'h4', "Description <font size='-2'>(from <a href='https://whimsy.apache.org/public/'>committee-info</a>)</a>:");
 
     appendElementWithInnerHTML(obj,'p',description.replace(/([^\r\n]+)\r?\n\r?\n/g,function(a) { return "<p>"+a+"</p>"}));
 

@@ -5,7 +5,7 @@ N.B. Must be run from scripts/cronjobs directory
 
 Reads:
 ../../data/committees.xml
-committee-info.txt from Whimsy
+committee-info.json from Whimsy through "import committee_info"
 
 Updates:
 ../../site/json/foundation/committees.json
