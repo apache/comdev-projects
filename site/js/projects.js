@@ -397,7 +397,7 @@ function renderCommitteePage(committeeId) {
     var unixgroup = committeeId; // there are probably a few exceptions...
     var committee = committees[committeeId];
 
-    obj.innerHTML = "<h1>" + committee.name + " Committee <font size='-2'>(also called PMC or <a href='https://www.apache.org/#projects-list'>Top Level Project</a>)</font></h1>";
+    obj.innerHTML = "<h1>" + committee.name + " Committee <font size='-2'>(also called PMC or <a href='https://www.apache.org/#projects-list' target='_blank'>Top Level Project</a>)</font></h1>";
 
     var description;
     if (!_.isEmpty(committee.shortdesc)) {
@@ -406,7 +406,7 @@ function renderCommitteePage(committeeId) {
         description = "Missing from https://whimsy.apache.org/public/ committee-info.json";
     }
 
-    appendElementWithInnerHTML(obj, 'h4', "Description <font size='-2'>(from <a href='https://whimsy.apache.org/public/'>committee-info</a>)</a>:");
+    appendElementWithInnerHTML(obj, 'h4', "Description <font size='-2'>(from <a href='https://whimsy.apache.org/public/' target='_blank'>committee-info</a>)</a>:");
 
     appendElementWithInnerHTML(obj,'p',description.replace(/([^\r\n]+)\r?\n\r?\n/g,function(a) { return "<p>"+a+"</p>"}));
 
@@ -441,7 +441,7 @@ function renderCommitteePage(committeeId) {
     } else if (committeeId == 'logging') {
         minutes = 'Logging';
     }
-    appendLiInnerHTML(ul, "<b>Reporting cycle:</b> " + cycles[committee.reporting] + ", see <a href='https://whimsy.apache.org/board/minutes/" + minutes + ".html'>minutes</a>");
+    appendLiInnerHTML(ul, "<b>Reporting cycle:</b> " + cycles[committee.reporting] + ", see <a href='https://whimsy.apache.org/board/minutes/" + minutes + ".html' target='_blank'>minutes</a>");
 
     // PMC
     if (committee.roster) { // check we have the data
@@ -450,7 +450,7 @@ function renderCommitteePage(committeeId) {
             pmcl.push(linkCommitterIndex(i));
         }
         if (pmcl.length > 0) {
-            appendLiInnerHTML(ul, "<b>PMC Roster <font size='-1'>(from committee-info.txt; updated daily)</font> (" + pmcl.length + "):</b> <blockquote>" + pmcl.join(",&nbsp; ") + "</blockquote>");
+            appendLiInnerHTML(ul, "<b>PMC Roster <font size='-1'>(from <a href='https://whimsy.apache.org/public/' target='_blank'>committee-info</a>; updated daily)</font> (" + pmcl.length + "):</b> <blockquote>" + pmcl.join(",&nbsp; ") + "</blockquote>");
         } else {
             appendLiInnerHTML(ul, "<b>PMC Roster not found in committee-info.txt (check that Section 3 has been updated)</b>");
         }
