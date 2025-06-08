@@ -397,7 +397,7 @@ function renderCommitteePage(committeeId) {
     var unixgroup = committeeId; // there are probably a few exceptions...
     var committee = committees[committeeId];
 
-    obj.innerHTML = "<h1>" + committee.name + " Committee <font size='-2'>(also called PMC or Top Level Project)</font></h1>";
+    obj.innerHTML = "<h1>" + committee.name + " Committee <font size='-2'>(also called PMC or <a href='https://www.apache.org/#projects-list'>Top Level Project</a>)</font></h1>";
 
     var description;
     if (!_.isEmpty(committee.shortdesc)) {
