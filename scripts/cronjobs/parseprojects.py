@@ -83,10 +83,10 @@ def validate(json, tag, valid, pid, url):
                                 body = f'Error in {url}\nUnexpected value: "{val}"\n{SYNTAX_MSG[tag]}',
                                 project=pid)
                 else:
-                    print(f"WARN: unexpected value '{val}' for {pid} in {url}")#, project=pid)
+                    print(f"WARN: unexpected {tag} value '{val}' for {pid} in {url}")#, project=pid)
                     outvals.append(val) # TODO flag this to show invalid entries
             elif canon != val:
-                print(f"WARN: '{val}' should be '{canon}' for {pid} in {url}")
+                print(f"WARN: {tag} '{val}' should be '{canon}' for {pid} in {url}")
                 outvals.append(canon)
             else:
                 outvals.append(val)
