@@ -1036,13 +1036,12 @@ function renderFrontPage() {
     if (urlErrors.length > 0) {
         obj.innerHTML += "<p><span style='color: red'><b>Warning: could not load: "+urlErrors.join(', ')+"</b></span></p>"
     }
+    // N.B. This text must agree with the 'details' div in index.html, which it replaces
     obj.innerHTML
         += "<h3 style='text-align: center;'>There are currently <span style='color: #269;'>" + initiatives + "+</span> open source initiatives at the ASF:</h3>"
         + "<ul style='width: 400px; margin: 0 auto; font-size: 18px; color: #269; font-weight: bold;'>"
         + "<li>" + numcommittees + " committees managing " + numProjects + " projects</li>"
         + "<li>" + curPodlings + " incubating podlings</li></ul>"
-        + "<li>5 special committees*</li>"
-        + "<p><small>*<a href=\"https://www.apache.org/dev/infrastructure\">Infrastructure</a>, <a href=\"https://www.apache.org/travel/\">Travel Assistance</a>, <a href=\"https://www.apache.org/security/\">Security Team</a>, <a href=\"https://www.apache.org/legal/\">Legal Affairs</a> and <a href=\"https://www.apache.org/foundation/marks/\">Brand Management</a></small></p>";
 
     renderCommitteeEvolution();
     renderPodlingsEvolution();
