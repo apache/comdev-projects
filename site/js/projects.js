@@ -1254,7 +1254,7 @@ function renderLanguageChart() {
     var narr = [];
     for (i in lingos) {
         var lang = lingos[i];
-        narr.push([lang, lcount[lang], 'Click here to view all projects using ' + lang]);
+        narr.push([lang, lcount[lang], 'Click here to view declared projects using ' + lang]);
     }
     narr.sort(function(a,b) { return (b[1] - a[1]) });
 
@@ -1265,7 +1265,7 @@ function renderLanguageChart() {
         data.addRows(narr);
 
     var options = {
-      title: 'Language distribution (click on a language to view all projects using it)',
+      title: 'Language distribution (click on a language to view declared projects using it)',
       height: 400,
       backgroundColor: 'transparent'
     };
@@ -1306,7 +1306,7 @@ function renderLanguageChart() {
     var carr = [];
     for (i in cats) {
         var cat = cats[i];
-        carr.push([cat, ccount[cat], 'Click here to view all projects in the ' + cat + ' category'])
+        carr.push([cat, ccount[cat], 'Click here to view declared projects in the ' + cat + ' category'])
     }
     carr.sort(function(a,b) { return (b[1] - a[1]) });
 
@@ -1318,7 +1318,7 @@ function renderLanguageChart() {
         data2.addRows(carr);
 
     var options2 = {
-      title: 'Categories (click on a category to view projects within it)',
+      title: 'Categories (click on a category to view declared projects within it)',
       height: 400,
       backgroundColor: 'transparent'
     };
