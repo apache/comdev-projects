@@ -1042,7 +1042,7 @@ function renderFrontPage() {
         + "<li>" + numcommittees + " committees managing " + numProjects + " projects</li>"
         + "<li>5 special committees*</li>"
         + "<li>" + curPodlings + " incubating podlings</li></ul>"
-        + "<p><small>*Infrastructure, Travel Assistance, Security Team, Legal Affairs and Brand Management</small></p>";
+        + "<p><small>*<a href=\"https://www.apache.org/dev/infrastructure\">Infrastructure</a>, <a href=\"https://www.apache.org/travel/\">Travel Assistance</a>, <a href=\"https://www.apache.org/security/\">Security Team</a>, <a href=\"https://www.apache.org/legal/\">Legal Affairs</a> and <a href=\"https://www.apache.org/foundation/marks/\">Brand Management</a></small></p>";
 
     renderCommitteeEvolution();
     renderPodlingsEvolution();
