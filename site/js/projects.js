@@ -1035,15 +1035,12 @@ function renderFrontPage() {
     var numprojectsWithDoaps = 0; // how many projects have registered DOAPs
     for (i in projectsWithDoaps) numprojectsWithDoaps++;
     numProjects += (numcommittees - numprojectsWithDoaps); // Add in projects without DOAPs
-    var initiatives = numProjects + curPodlings; // both PMC and podlings
-    initiatives -= initiatives % 50; // round down to nearest 50
     var obj = document.getElementById('details');
     if (urlErrors.length > 0) {
         obj.innerHTML += "<p><span style='color: red'><b>Warning: could not load: "+urlErrors.join(', ')+"</b></span></p>"
     }
     update_id('loading', ''); // clear the loading messages
     // N.B. These ids must agree with the 'details' div in index.html
-    update_id('initiatives', initiatives);
     update_id('committees', numcommittees);
     update_id('projects', numProjects);
     update_id('podlings', curPodlings);
