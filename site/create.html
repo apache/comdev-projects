@@ -122,17 +122,20 @@ Please keep the file in alphabetical order by TLP id (i.e. httpd, kafka, logging
 <a id="form"></a>DOAP Creation Form</h2>
 <div>
 <p>Before completing this form, you should really read the <a href="guidelines.html">guidelines</a>.</p>
-<p>When you submit this form, a sample file will be created and returned to you. It will be named 'doap_&lt;project&gt;.rdf'. and will be presented as a downloadable file.</p>
+<p>When you submit this form, a temporary DOAP file will be created and returned to you. It will be named <code>doap_&lt;Project_Name&gt;.rdf</code>. and will be presented as a downloadable file:
+   you can <a href="#customise">customise</a> it, <a href="#validate">validate</a> it, store it to your source control and <a href="#submit">add</a> it to ASF projects feed.</p>
 <form name="make_doap" method="POST" action="/make_doap.py" onSubmit="return validate_form();">
 <table align="center" border="1">
 <tr>
-<td width="25%">Project name</td>
+<td>Project name</td>
 <td>Apache <input type="text" name="name" size="40">
 </td>
+<td>Apache [Committee] [Subproject]</td>
 </tr>
 <tr>
 <td>Project homepage</td>
 <td>https://<input type="text" name="homepage" size="60">
+<td><code>https://[committee].apache.org/[subproject]</code></td>
 </td>
 </tr>
 <tr>
@@ -494,14 +497,19 @@ Please keep the file in alphabetical order by TLP id (i.e. httpd, kafka, logging
 <tr>
 <td>Bug Database URL</td>
 <td><input type="text" name="bugdb" size="60"></td>
+<td><code>https://github.com/apache/[committee]-[subproject]/issues</code><br>
+    <code>https://issues.apache.org/jira/projects/[JIRA-ID]/</code>
+</td>
 </tr>
 <tr>
 <td>Download Page URL</td>
 <td><input type="text" name="dl" size="60"></td>
+<td><code>https://[committee].apache.org/[subproject]/download.html</code></td>
 </tr>
 <tr>
 <td>Mailing Lists Page URL</td>
 <td><input type="text" name="mail" size="60"></td>
+<td><code>https://[committee].apache.org/[subproject]/mailing-lists.html</code></td>
 </tr>
 <tr>
 <td valign="top">Release</td>
@@ -535,6 +543,8 @@ Please keep the file in alphabetical order by TLP id (i.e. httpd, kafka, logging
       Location URL <input type="text" name="svnurl" size="40"><br>
       Web View URL <input type="text" name="svnhttp" size="50">
     </td>
+<td><code>http://svn.apache.org/repos/asf/[committee]/[subproject]</code><br>
+    <code>http://svn.apache.org/viewvc/[committee]/[subproject]</code></td>
 </tr>
 <tr>
 <td valign="top">GIT Repository</td>
@@ -542,6 +552,7 @@ Please keep the file in alphabetical order by TLP id (i.e. httpd, kafka, logging
       Location URL <input type="text" name="giturl" size="40"><br>
       Web View URL <input type="text" name="githttp" size="50">
     </td>
+<td><code>https://github.com/apache/[committee]-[subproject]/issues</code></td>
 </tr>
 </table>
 <p align="center"><input type="submit" value="Create"></p>
