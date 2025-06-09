@@ -41,82 +41,6 @@ scratch can be a little intimidating, so this page will allow you to
 generate an initial file that can then be edited to suit.
 Alternatively, you can browse the existing projects for one with
 similar resources and use its DOAP file as a starting point.</p>
-<blockquote>
-<div class="section">
-
-<h3>
-<a id="complete"></a>1. Complete <a href="#form">the form</a></h3>
-        
-<p>Before completing <a href="#form">this form</a>, you should really read the <a href="guidelines.html">guidelines</a>. The <a href="doapfaq.html">FAQ</a> page may also prove useful.</p>
-<p>Please remember that the data contained in the DOAP file is used directly on the website, so please take care when adding content.</p>
-      </div>
-<div class="section">
-
-<h3>
-<a id="customise"></a>2. Customise your file</h3>
-        
-<p>The file that is created when you submit your data is only a starting point. You'll likely need to modify some aspects of it, especially adding data that the form doesn't allow you to enter. You should be able to simply copy/paste/edit the sections you need to duplicate.</p>
-<p>You may have more than one of the following sections:</p>
-<ul>
-<li>bug database</li>
-<li>category</li>
-<li>download page</li>
-<li>programming language</li>
-<li>release</li>
-<li>repository</li>
-<li>standard</li>
-</ul>
-<p>For example, if there are multiple release versions, each must be in its own "release" section.
-Each "Version" entry needs to be in its own "release" section. 
-Similarly each "SVNRepository" must be in a separate "repository" section.</p>
-      </div>
-<div class="section">
-<h3>
-<a id="validate"></a>3. Validate your file</h3>
-
-<p>It is a good idea to check if your DOAP file is at least valid RDF.
-This can be accomplished using the <a href="https://www.w3.org/RDF/Validator/" target='_blank'>W3C RDF Validator service</a>.
-While this won't tell you if your file meets DOAP or Apache
-guidelines, it is at least a good basic sanity check. </p>
-
-     </div>
-<div class="section">
-<h3>
-<a id="submit"></a>4. Add your file to <a href="https://github.com/apache/comdev-projects/blob/trunk/data/projects.xml">ASF projects feed</a></h3>
-
-<p>
-Your DOAP file should be stored somewhere that is publicly
-accessible. For most projects this will be in their source code
-repository, but there is no requirement for it to be stored
-there.
-It is suggested that the DOAP file is stored somewhere in source control such that it is copied to the top level of the website.
-The DOAP does not belong in source or binary release bundles, 
-and if it is under the normal source tree, there will be multiple copies in tags and branches, which may be confusing.
-Also if the DOAP is always referenced by the site URL, it is very unlikely to change, whereas source control layouts are often changed.
-</p>
-<p>
-Once you have decided where the DOAP file will be stored,
-you can directly edit the ASF projects feed file to get your project listed:
-<a href="https://github.com/apache/comdev-projects/blob/trunk/data/projects.xml"><code>https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects.xml</code></a>
-</p>
-<p>
-For example, add an entry like one of the following:
-<pre>
-  &lt;location&gt;https://svn.apache.org/repos/asf/httpd/site/trunk/content/doap.rdf&lt;/location&gt;
-or
-  &lt;location&gt;https://gitbox.apache.org/repos/asf?p=kafka.git;a=blob_plain;f=doap_Kafka.rdf;hb=HEAD&lt;/location&gt;
-or
-  &lt;location&gt;https://raw.githubusercontent.com/apache/logging-chainsaw/master/doap_chainsaw.rdf&lt;/location&gt;
-</pre>
-</p>
-<p>
-If using Git, make sure that the URL links to the raw DOAP content as per the above examples.
-<br>
-Please keep the file in alphabetical order by TLP id (i.e. httpd, kafka, logging in the above examples)
-
-      </div>
-</div>
-</blockquote>
 
 <h2>
 <a id="form"></a>DOAP Creation Form</h2>
@@ -559,6 +483,73 @@ Please keep the file in alphabetical order by TLP id (i.e. httpd, kafka, logging
 </form>
 </div>
 
+<div class="section">
+
+  <h3>
+  <a id="customise"></a>Customise your file</h3>
+          
+  <p>The file that is created when you submit your data is only a starting point. You'll likely need to modify some aspects of it, especially adding data that the form doesn't allow you to enter. You should be able to simply copy/paste/edit the sections you need to duplicate.</p>
+  <p>You may have more than one of the following sections:</p>
+  <ul>
+  <li>bug database</li>
+  <li>category</li>
+  <li>download page</li>
+  <li>programming language</li>
+  <li>release</li>
+  <li>repository</li>
+  <li>standard</li>
+  </ul>
+  <p>For example, if there are multiple release versions, each must be in its own "release" section.
+  Each "Version" entry needs to be in its own "release" section. 
+  Similarly each "SVNRepository" must be in a separate "repository" section.</p>
+        </div>
+  <div class="section">
+  <h3>
+  <a id="validate"></a>Validate your file</h3>
+  
+  <p>It is a good idea to check if your DOAP file is at least valid RDF.
+  This can be accomplished using the <a href="https://www.w3.org/RDF/Validator/" target='_blank'>W3C RDF Validator service</a>.
+  While this won't tell you if your file meets DOAP or Apache
+  guidelines, it is at least a good basic sanity check. </p>
+  
+       </div>
+  <div class="section">
+  <h3>
+  <a id="submit"></a>Add your file to <a href="https://github.com/apache/comdev-projects/blob/trunk/data/projects.xml">ASF projects feed</a></h3>
+  
+  <p>
+  Your DOAP file should be stored somewhere that is publicly
+  accessible. For most projects this will be in their source code
+  repository, but there is no requirement for it to be stored
+  there.
+  It is suggested that the DOAP file is stored somewhere in source control such that it is copied to the top level of the website.
+  The DOAP does not belong in source or binary release bundles, 
+  and if it is under the normal source tree, there will be multiple copies in tags and branches, which may be confusing.
+  Also if the DOAP is always referenced by the site URL, it is very unlikely to change, whereas source control layouts are often changed.
+  </p>
+  <p>
+  Once you have decided where the DOAP file will be stored,
+  you can directly edit the ASF projects feed file to get your project listed:
+  <a href="https://github.com/apache/comdev-projects/blob/trunk/data/projects.xml"><code>https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects.xml</code></a>
+  </p>
+  <p>
+  For example, add an entry like one of the following:
+  <pre>
+    &lt;location&gt;https://svn.apache.org/repos/asf/httpd/site/trunk/content/doap.rdf&lt;/location&gt;
+  or
+    &lt;location&gt;https://gitbox.apache.org/repos/asf?p=kafka.git;a=blob_plain;f=doap_Kafka.rdf;hb=HEAD&lt;/location&gt;
+  or
+    &lt;location&gt;https://raw.githubusercontent.com/apache/logging-chainsaw/master/doap_chainsaw.rdf&lt;/location&gt;
+  </pre>
+  </p>
+  <p>
+  If using Git, make sure that the URL links to the raw DOAP content as per the above examples.
+  <br>
+  Please keep the file in alphabetical order by TLP id (i.e. httpd, kafka, logging in the above examples)
+  
+        </div>
+  </div>
+  
 <!-- Footer -->
 
 <div id="footer">
