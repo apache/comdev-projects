@@ -35,28 +35,39 @@
 <div>
    <figure>
      <blockquote><p><b>DOAP (Description Of A Project)</b> is an RDF Schema and XML vocabulary to describe software projects, in particular free and open source software.</p></blockquote>
-     <figcaption>First sentence in <cite><a href="https://en.wikipedia.org/wiki/DOAP">Wikipedia DOAP article</a></cite></figcaption>
+     <figcaption>First sentence in <cite><a href="https://en.wikipedia.org/wiki/DOAP" target='_blank'>Wikipedia DOAP article</a></cite></figcaption>
    </figure>
 <p>By creating a DOAP file for
-your project, you can provide essential details about your project which
+your project and adding it to <a href="https://github.com/apache/comdev-projects/blob/trunk/data/projects.xml" target='_blank'>the ASF projects feed</a>, you can provide essential details about your project which
 can then be presented to various audiences in various formats, along
 with information about other ASF projects.</p>
 
-<p>The result of the discussion was a consensus to use 
-- "Description Of A Project" which is an RDF based format. The decision was taken for the following reasons:</p>
-
 <p>This site (<a href="https://projects.apache.org/">projects.apache.org</a>)
 is generated from DOAP files that each project maintains individually. If a 
-project hasn't provided a link to their DOAP file, it won't appear on this site. 
+project hasn't provided a <a href="https://github.com/apache/comdev-projects/blob/trunk/data/projects.xml" target='_blank'>link to their DOAP file</a>, it won't appear on this site. 
 If the project you're interested in isn't here, send them a link to this page,
-and tell them to create a DOAP file to get themselves listed!</p>
+and tell them to create a DOAP file and get themselves listed!</p>
 
-<h4>More info</h4>
+<h4>More info on DOAP at ASF</h4>
 <ul>
 <li><a href="guidelines.html">Guidelines for creating an ASF DOAP file</a></li>
 <li><a href="create.html">Create an ASF DOAP</a> (Form-based wizard)</li>
 <li><a href="doapfaq.html">DOAP FAQ</a></li>
-<li><a href="https://github.com/edumbill/doap/wiki">Read more about the DOAP format</a></li>
+</ul>
+
+<h4>External References</h4>
+<ul>
+<li><a href="https://github.com/edumbill/doap/wiki" target='_blank'>the DOAP Project</a></li>
+<li><a href="http://oss-watch.ac.uk/resources/doap" target='_blank'>Project Catalogues and Project Descriptors using DOAP</a></li>
+</ul>
+
+<h4>History</h4>
+<p>During October 2005 a wide ranging discussion was <a href="https://lists.apache.org/list?site-dev@apache.org:2005-10:DOAP" target='_blank'>held on the site-dev mailing list</a> aimed at arriving at an archictecture and tools that would allow us to create a project directory web site. A key part of the plans, and one of the biggest stumbling blocks, was the selection of a suitable format of information file that would be the key part.</p>
+<p>The result of the discussion was a consensus to use <a href="https://github.com/edumbill/doap/wiki" target='_blank'>DOAP</a> - "Description Of A Project" which is an RDF based format. The decision was taken for the following reasons:</p>
+<ul>
+<li>use of an existing format was felt to be important</li>
+<li>it was becoming more commonly used and therefore had a growing base of support</li>
+<li>being designed to be extensible, it can be easily adjusted to our needs</li>
 </ul>
 </div>
 
