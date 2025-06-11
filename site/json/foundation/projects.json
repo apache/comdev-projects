@@ -18999,9 +18999,9 @@
 "revision": "10.0.27"
 },
 {
-"created": "2025-05-12",
+"created": "2025-06-10",
 "name": "Latest Stable 9.0.x Release",
-"revision": "9.0.105"
+"revision": "9.0.106"
 }
 ],
 "repository": [
@@ -19132,58 +19132,10 @@
 "shortdesc": "Apache Traffic Server is an HTTP proxy cache."
 },
 "tsfile": {
-"bug-database": "https://github.com/apache/tsfile/issues",
-"category": "big-data, iot, java, python, c++",
-"created": "2024-02-20",
-"description": "TsFile is a columnar storage file format designed for time series data, which supports efficient compression, high throughput of read and write, and compatibility with various frameworks, such as Spark and Flink. It is easy to integrate TsFile into IoT big data processing frameworks.",
-"doap": "https://raw.githubusercontent.com/apache/tsfile/develop/doap_tsfile.rdf",
+"category": "no-tlp-doap",
 "homepage": "https://tsfile.apache.org",
-"license": "https://spdx.org/licenses/Apache-2.0",
-"mailing-list": "dev@tsfile.apache.org",
-"name": "Apache TsFile",
-"pmc": "tsfile",
-"programming-language": "Java, C++, Python",
-"release": [
-{
-"created": "2025-05-26",
-"name": "Apache TsFile",
-"revision": "2.0.3"
-},
-{
-"created": "2025-04-11",
-"name": "Apache TsFile",
-"revision": "2.0.2"
-},
-{
-"created": "2025-02-10",
-"name": "Apache TsFile",
-"revision": "2.0.1"
-},
-{
-"created": "2025-01-17",
-"name": "Apache TsFile",
-"revision": "2.0.0"
-},
-{
-"created": "2025-04-14",
-"name": "Apache TsFile",
-"revision": "1.1.1"
-},
-{
-"created": "2024-11-10",
-"name": "Apache TsFile",
-"revision": "1.1.0"
-},
-{
-"created": "2024-02-20",
-"name": "Apache TsFile",
-"revision": "1.0.0"
-}
-],
-"repository": [
-"https://github.com/apache/tsfile.git"
-],
-"shortdesc": "The mission of Apache TsFile is the creation and maintenance of software related to a columnar storage file format designed for time series data."
+"name": "Apache Tsfile",
+"pmc": "tsfile"
 },
 "turbine": {
 "bug-database": "https://issues.apache.org/jira/browse/TRB",
@@ -20876,79 +20828,10 @@
 "shortdesc": "A collection of libraries and tools that enable contribution and release processes for software projects."
 },
 "yunikorn": {
-"bug-database": "https://issues.apache.org/jira/projects/YUNIKORN/issues",
-"category": "cloud",
-"created": "2020-01-21",
-"doap": "https://gitbox.apache.org/repos/asf?p=yunikorn-site.git;a=blob_plain;f=doap_YuniKorn.rdf;hb=HEAD",
-"download-page": "https://yunikorn.apache.org/community/download",
+"category": "no-tlp-doap",
 "homepage": "https://yunikorn.apache.org",
-"license": "https://spdx.org/licenses/Apache-2.0",
-"mailing-list": "https://yunikorn.apache.org/community/get_involved",
-"maintainer": [
-{
-"mbox": "mailto:dev@yunikorn.apache.org",
-"name": "Apache YuniKorn developers"
-}
-],
-"name": "Apache YuniKorn",
-"pmc": "yunikorn",
-"programming-language": "Go, JavaScript",
-"release": [
-{
-"created": "2024-09-17",
-"name": "YuniKorn 1.6.0",
-"revision": "1.6.0"
-},
-{
-"created": "2024-07-26",
-"name": "YuniKorn 1.5.2",
-"revision": "1.5.2"
-},
-{
-"created": "2024-05-16",
-"name": "YuniKorn 1.5.1",
-"revision": "1.5.1"
-},
-{
-"created": "2024-03-14",
-"name": "YuniKorn 1.5.0",
-"revision": "1.5.0"
-},
-{
-"created": "2023-11-20",
-"name": "YuniKorn 1.4.0",
-"revision": "1.4.0"
-},
-{
-"created": "2023-06-12",
-"name": "YuniKorn 1.3.0",
-"revision": "1.3.0"
-},
-{
-"created": "2023-02-02",
-"name": "YuniKorn 1.2.0",
-"revision": "1.2.0"
-},
-{
-"created": "2022-09-08",
-"name": "YuniKorn 1.1.0",
-"revision": "1.1.0"
-},
-{
-"created": "2022-05-03",
-"name": "YuniKorn 1.0.0",
-"revision": "1.0.0"
-}
-],
-"repository": [
-"https://github.com/apache/yunikorn-core.git",
-"https://github.com/apache/yunikorn-k8shim.git",
-"https://github.com/apache/yunikorn-scheduler-interface.git",
-"https://github.com/apache/yunikorn-web.git",
-"https://github.com/apache/yunikorn-site.git",
-"https://github.com/apache/yunikorn-release.git"
-],
-"shortdesc": "A light-weight universal resource scheduler for container orchestrator systems."
+"name": "Apache Yunikorn",
+"pmc": "yunikorn"
 },
 "zeppelin": {
 "bug-database": "https://issues.apache.org/jira/browse/ZEPPELIN",
