@@ -1248,6 +1248,7 @@ function renderCommitteeEvolution() {
             {
                 name: 'Current committees',
                 type: 'line',
+                showAllSymbol: true, // ensure all points have tooltips
                 itemStyle: {
                     opacity: 0 // don't want circles showing
                 },
@@ -1467,6 +1468,7 @@ function renderPodlingsEvolution(obj) {
             {
                 name: 'Current podlings',
                 type: 'line',
+                showAllSymbol: true, // ensure all points have tooltips
                 itemStyle: {
                     opacity: 0 // don't want circles showing
                 },
