@@ -1112,34 +1112,130 @@ function renderCommitteeEvolution() {
         data.push([d, established.length, htmlListTooltip(d, 'new committee', estDisplay), -1*retired.length, htmlListTooltip(d, 'retired committee', retDisplay), cur]);
     }
     //narr.sort(function(a,b) { return (b[1] - a[1]) });
-    var dataTable = new google.visualization.DataTable();
-    dataTable.addColumn('string', 'Month');
-    dataTable.addColumn('number', "New committees");
-    dataTable.addColumn({type: 'string', role: 'tooltip', 'p': {'html': true}});
-    dataTable.addColumn('number', "Retired committees");
-    dataTable.addColumn({type: 'string', role: 'tooltip', 'p': {'html': true}});
-    dataTable.addColumn('number', 'Current committees');
 
-    dataTable.addRows(data);
+    // ================= echarts start ==================
+    
+    var chartDom = document.createElement('div');
 
-    var options = {
-        title: "Evolution of Committees (also called PMCs or Top Level Projects)",
-        isStacked: true,
-        height: 320,
-        width: 1160,
-        seriesType: "bars",
-        backgroundColor: 'transparent',
-        series: {2: {type: "line", targetAxisIndex: 1}},
-        tooltip: {isHtml: true},
-        vAxes:[
-            {title: 'Change in states', ticks: [-3,0,3,6,9]},
-            {title: 'Current number of committees'}
-        ]
+    document.getElementById('details').appendChild(chartDom);
+    var myChart = echarts.init(chartDom, null, {width: 1160, height: 320});
+
+    var months = []; // x-axis
+    var newPMCs = [];
+    var retired = [];
+    var current = [];
+
+    // pre-generated tooltips
+    var tips = [[],[],[]]; // indexed by series index and data index
+
+    // extract the data for echarts
+    for (d in data) {
+        var e = data[d];
+        months.push(e[0]);
+        newPMCs.push(e[1]);
+        tips[0].push(e[2]);
+        retired.push(e[3]);
+        tips[1].push(e[4]);
+        current.push(e[5]);
+    }
+    var option = {
+        title: {
+            text: "Evolution of Committees (also called PMCs or Top Level Projects)",
+            left: 125, // should agree with left below
+        },
+        legend: {
+            top: 25, // so does not overwrite title
+            left: 125, // should agree with left above
+        },
+        tooltip: {
+            type: 'item',
+            formatter: function(obj) {
+                if (obj.seriesName == 'Current committees') {
+                    return `<b>${obj.name}</b><br/><br/>Current committees: <b>${obj.value}</b>`;
+                }
+                var idx = parseInt(obj.dataIndex);
+                var sidx = parseInt(obj.seriesIndex);
+                var value = tips[sidx][idx];
+                return value;
+            }
+        },
+        xAxis: [
+            {
+                type: 'category',
+                axisTick: {
+                    alignWithLabel: true
+                },
+                axisLabel: {
+                    rotate: 30
+                },
+                data: months
+            }
+        ],
+        yAxis: [
+            {
+                type: 'value',
+                name: 'Change in states',
+                nameTextStyle: {
+                    fontStyle: 'italic',
+                    fontSize: 15,
+                },
+                axisLabel: {
+                    customValues: [-3, 0, 3, 6, 9],            
+                },
+                nameLocation: 'middle',
+                nameGap: 50,
+                min: -3,
+                max: 9,
+            },
+            {
+                type: 'value',
+                name: 'Current number of committees',
+                nameTextStyle: {
+                    fontStyle: 'italic',
+                    fontSize: 15,
+                },
+                nameLocation: 'middle',
+                nameGap: 50,
+                min: 0,
+                max: 300,
+                position: 'right',
+            }
+        ],
+        series: [
+            {
+                name: 'New committees',
+                type: 'bar',
+                stack: 'Total',
+                yAxisIndex: 0,
+                data: newPMCs
+            },
+            {
+                name: 'Retired commitees',
+                type: 'bar',
+                barWidth: 1, // must be on last bar series
+                stack: 'Total',
+                yAxisIndex: 0,
+                data: retired
+            },
+            {
+                name: 'Current committees',
+                type: 'line',
+                showAllSymbol: true, // ensure all points have tooltips
+                itemStyle: {
+                    opacity: 0 // don't want circles showing
+                },
+                yAxisIndex: 1,
+                data: current
+            }
+        ],
+
+        // Same colours as Google charts
+        color: ['#3366CC', '#DC3912', '#FF9900']
     };
-    var div = document.createElement('div');
-    document.getElementById('details').appendChild(div);
-    var chart = new google.visualization.ComboChart(div);
-    chart.draw(dataTable, options);
+    myChart.setOption(option);
+
+    // ================= echarts end ==================
+
 }
 
 function renderPodlingsEvolution(obj) {
@@ -1196,37 +1292,139 @@ function renderPodlingsEvolution(obj) {
             -1*retired.length, htmlListTooltip(d, 'retired podling', retiredDisplay), cur]);
     }
     //narr.sort(function(a,b) { return (b[1] - a[1]) });
-    var dataTable = new google.visualization.DataTable();
-    dataTable.addColumn('string', 'Month');
-    dataTable.addColumn('number', "New podlings");
-    dataTable.addColumn({type: 'string', role: 'tooltip', 'p': {'html': true}});
-    dataTable.addColumn('number', "Graduated podlings");
-    dataTable.addColumn({type: 'string', role: 'tooltip', 'p': {'html': true}});
-    dataTable.addColumn('number', "Retired podlings");
-    dataTable.addColumn({type: 'string', role: 'tooltip', 'p': {'html': true}});
-    dataTable.addColumn('number', 'Current podlings');
 
-    dataTable.addRows(data);
+    // ================= echarts start ==================
+    
+    var chartDom = document.createElement('div');
 
-    var coptions = {
-        title: "Evolution of Incubating projects ('podlings')",
-        isStacked: true,
-        height: 320,
-        width: 1160,
-        seriesType: "bars",
-        backgroundColor: 'transparent',
-        colors: ['#3366cc', '#109618', '#dc3912', '#ff9900'],
-        series: {3: {type: "line", targetAxisIndex: 1}},
-        tooltip: {isHtml: true},
-        vAxes: [
-            {title: 'Change in states', ticks: [-6,-3,0,3,6]},
-            {title: 'Current number of podlings'}
-        ]
+    document.getElementById('details').appendChild(chartDom);
+    var myChart = echarts.init(chartDom, null, {width: 1160, height: 320});
+
+    var months = []; // x-axis
+    var newPods = [];
+    var retired = [];
+    var graduated = [];
+    var current = [];
+
+    // pre-generated tooltips
+    var tips = [[],[],[]]; // indexed by series index and data index
+
+    // extract the data for echarts
+    for (d in data) {
+        var e = data[d];
+        months.push(e[0]);
+        newPods.push(e[1]);
+        tips[0].push(e[2]);
+        graduated.push(e[3]);
+        tips[1].push(e[4]);
+        retired.push(e[5]);
+        tips[2].push(e[6]);
+        current.push(e[7]);
+    }
+    var option = {
+        title: {
+            text: "Evolution of Incubating projects ('podlings')",
+            left: 125, // should agree with left below
+        },
+        legend: {
+            top: 25, // so does not overwrite title
+            left: 125, // should agree with left above
+        },
+        tooltip: {
+            type: 'item',
+            formatter: function(obj) {
+                if (obj.seriesName == 'Current podlings') {
+                    return `<b>${obj.name}</b><br/><br/>Current podlings: <b>${obj.value}</b>`;
+                }
+                var idx = parseInt(obj.dataIndex);
+                var sidx = parseInt(obj.seriesIndex);
+                var value = tips[sidx][idx];
+                return value;
+            }
+        },
+        xAxis: [
+            {
+                type: 'category',
+                axisTick: {
+                    alignWithLabel: true
+                },
+                axisLabel: {
+                    rotate: 30
+                },
+                data: months
+            }
+        ],
+        yAxis: [
+            {
+                type: 'value',
+                name: 'Change in states',
+                nameTextStyle: {
+                    fontStyle: 'italic',
+                    fontSize: 15,
+                },
+                axisLabel: {
+                    customValues: [-6,-3,0,3,6],            
+                },
+                nameLocation: 'middle',
+                nameGap: 50,
+                min: -9,
+                max: 6,
+            },
+            {
+                type: 'value',
+                name: 'Current number of podlings',
+                nameTextStyle: {
+                    fontStyle: 'italic',
+                    fontSize: 15,
+                },
+                nameLocation: 'middle',
+                nameGap: 50,
+                min: 0,
+                max: 80,
+                position: 'right',
+            }
+        ],
+        series: [
+            {
+                name: 'New podlings',
+                type: 'bar',
+                stack: 'Total',
+                yAxisIndex: 0,
+                data: newPods
+            },
+            {
+                name: 'Graduated podlings',
+                type: 'bar',
+                stack: 'Total',
+                yAxisIndex: 0,
+                data: graduated
+            },
+            {
+                name: 'Retired podlings',
+                type: 'bar',
+                stack: 'Total',
+                yAxisIndex: 0,
+                data: retired
+            },
+            {
+                name: 'Current podlings',
+                type: 'line',
+                showAllSymbol: true, // ensure all points have tooltips
+                itemStyle: {
+                    opacity: 0 // don't want circles showing
+                },
+                yAxisIndex: 1,
+                data: current
+            }
+        ],
+
+        // Same colours as Google charts
+        color: ['#3366CC', '#109618', '#DC3912', '#FF9900']
     };
-    var div = document.createElement('div');
-    document.getElementById('details').appendChild(div);
-    var chart = new google.visualization.ComboChart(div);
-    chart.draw(dataTable, coptions);
+    myChart.setOption(option);
+
+    // ================= echarts end ==================
+
 }
 
 function renderLanguageChart() {
@@ -1258,32 +1456,71 @@ function renderLanguageChart() {
     }
     narr.sort(function(a,b) { return (b[1] - a[1]) });
 
-    var data = new google.visualization.DataTable();
-        data.addColumn('string', 'Language');
-        data.addColumn('number', "Projects using it");
-        data.addColumn({type: 'string', role: 'tooltip'});
-        data.addRows(narr);
+    // ================= echarts start ==================
 
-    var options = {
-      title: 'Language distribution (click on a language to view declared projects using it)',
-      height: 400,
-      backgroundColor: 'transparent'
+    var chartDom1 = document.createElement('div');
+
+    document.getElementById('details').appendChild(chartDom1);
+    var myChart1 = echarts.init(chartDom1, null, {width: 800, height: 400});
+
+    const leg1 = [];
+    const num1 = [];
+    for (i in narr) {
+        leg1.push(narr[i][0]);
+        num1.push({name: narr[i][0], value: narr[i][1]});
+    }
+
+    var option = {
+    title: {
+        text: 'Language distribution (click on a language to view declared projects using it)',
+        textStyle: {
+            fontSize: 15
+        },
+        left: 130
+    },
+    tooltip: {
+        trigger: 'item',
+        // formatter: '{a} {b} ({d}%)'
+    },
+    legend: {
+        type: 'scroll',
+        orient: 'vertical',
+        right: 10,
+        top: 30,
+        bottom: 300,
+        data: leg1
+    },
+    series: [
+        {
+            name: 'Click here to view declared projects using ',
+            type: 'pie',
+            radius: '65%',
+            center: ['50%', '50%'],
+            data: num1,
+            label: {
+                position: 'inner',
+                textStyle: {
+                    fontSize: 15
+                },
+                formatter: function(obj) {
+                    if (obj.percent > 8) {
+                        return Math.round(obj.percent*10)/10 + '%'; // round to one decimal point                        
+                    } else {
+                        return '';
+                    }
+                }
+            }
+        }
+    ]
     };
 
-    var chartDiv = document.createElement('div');
-    var chart = new google.visualization.PieChart(chartDiv);
-    obj.appendChild(chartDiv);
+    myChart1.setOption(option);
+    myChart1.on('click', function(params) {
+        var name = params.data.name;
+        window.location.href = 'projects.html?language#'+ name;
+    });
 
-    function selectHandlerLanguage() {
-        var selectedItem = chart.getSelection()[0];
-        if (selectedItem) {
-          var value = data.getValue(selectedItem.row, 0);
-          location.href = "projects.html?language#" + value;
-        }
-    }
-    google.visualization.events.addListener(chart, 'select', selectHandlerLanguage);
-    chart.draw(data, options);
-
+    // ================= echarts end ====================
 
     // Categories
     var cats = [];
@@ -1310,33 +1547,72 @@ function renderLanguageChart() {
     }
     carr.sort(function(a,b) { return (b[1] - a[1]) });
 
+    // ================= echarts start ==================
 
-    var data2 = new google.visualization.DataTable();
-        data2.addColumn('string', 'Category');
-        data2.addColumn('number', "Projects");
-        data2.addColumn({type: 'string', role: 'tooltip'});
-        data2.addRows(carr);
+    var chartDom2 = document.createElement('div');
 
-    var options2 = {
-      title: 'Categories (click on a category to view declared projects within it)',
-      height: 400,
-      backgroundColor: 'transparent'
+    document.getElementById('details').appendChild(chartDom2);
+    var myChart2 = echarts.init(chartDom2, null, {width: 800, height: 400});
+
+    const leg2 = [];
+    const num2 = [];
+    for (i in carr) {
+        leg2.push(carr[i][0]);
+        num2.push({name: carr[i][0], value: carr[i][1]});
+    }
+
+    var option = {
+    title: {
+        text: 'Categories (click on a category to view declared projects within it)',
+        textStyle: {
+            fontSize: 15
+        },
+        left: 130
+    },
+    tooltip: {
+        trigger: 'item',
+    },
+    legend: {
+        type: 'scroll',
+        orient: 'vertical',
+        right: 10,
+        top: 30,
+        bottom: 300,
+        data: leg2
+    },
+    series: [
+        {
+            name: 'Click here to view declared projects in category ',
+            type: 'pie',
+            radius: '65%',
+            center: ['50%', '50%'],
+            data: num2,
+            label: {
+                position: 'inner',
+                textStyle: {
+                    fontSize: 15
+                },
+                formatter: function(obj) {
+                    if (obj.percent > 8) {
+                        return Math.round(obj.percent*10)/10 + '%'; // round to one decimal point                        
+                    } else {
+                        return '';
+                    }
+                }
+            }
+        }
+    ]
     };
 
-    var chartDiv2 = document.createElement('div');
-    var chart2 = new google.visualization.PieChart(chartDiv2);
-    obj.appendChild(chartDiv2);
+    myChart2.setOption(option);
+    myChart2.on('click', function(params) {
+        var name = params.data.name;
+        window.location.href = 'projects.html?category#'+ name;
+    });
 
+    // ================= echarts end ====================
 
-    function selectHandlerCategory() {
-        var selectedItem = chart2.getSelection()[0];
-        if (selectedItem) {
-          var value = data2.getValue(selectedItem.row, 0);
-          location.href = "projects.html?category#" + value;
-        }
-    }
-    google.visualization.events.addListener(chart2, 'select', selectHandlerCategory);
-    chart2.draw(data2, options2);
+    
 }
 
 // This is the entry point from index.html and about.html
@@ -1353,10 +1629,6 @@ function drawAccountCreation(json) {
     var i;
     var j;
     var narr = [];
-    var cdata = new google.visualization.DataTable();
-    cdata.addColumn('string', 'Date');
-    cdata.addColumn('number', 'New committers');
-    cdata.addColumn('number', 'Total number of committers');
     var max = 0;
     var jsort = [];
     for (j in json) {
@@ -1374,36 +1646,110 @@ function drawAccountCreation(json) {
         narr.push([i, entry, c]);
         max = (max < entry) ? entry : max;
     }
-    cdata.addRows(narr);
 
-    var options = {
-      title: ('Account creation timeline'),
-      backgroundColor: 'transparent',
-      height: 320,
-      width: 1160,
-      vAxes:[
-
-      {title: 'New accounts', titleTextStyle: {color: '#0000DD'}, maxValue: Math.max(200,max)},
-      {title: 'Total number of accounts', titleTextStyle: {color: '#DD0000'}},
-
-      ],
-      series: {
-        1: {type: "line", pointSize:3, lineWidth: 3, targetAxisIndex: 1},
-        0: {type: "bars", targetAxisIndex: 0}
-        },
-        seriesType: "bars",
-      tooltip: {isHtml: true}
-    };
-
-    var obj = document.createElement('div');
-    obj.style = "float: left; width: 1160px; height: 450px;";
-    obj.setAttribute("id", 'accountchart');
+    var chartDom = document.createElement('div');
+    chartDom.style = "float: left; width: 1160px; height: 450px;";
+    chartDom.setAttribute("id", 'accountchart');
     var contents = document.getElementById('contents');
     contents.innerHTML = "<h1>Timelines</h1>";
-    contents.appendChild(obj);
+    contents.appendChild(chartDom);
 
-    var chart = new google.visualization.ComboChart(obj);
-    chart.draw(cdata, options);
+    // ================= echarts start ==================
+    
+    var myChart = echarts.init(chartDom, null, {width: 1160, height: 450});
+
+    var months = []; // x-axis
+    var newAccounts = [];
+    var current = [];
+
+    // pre-generated tooltips
+    var tips = [[],[],[]]; // indexed by series index and data index
+
+    // extract the data for echarts
+    for (d in narr) {
+        var e = narr[d];
+        months.push(e[0]);
+        newAccounts.push(e[1]);
+        current.push(e[2]);
+    }
+    var option = {
+        title: {
+            text: "Account creation timeline",
+            left: 125, // should agree with left below
+        },
+        legend: {
+            top: 25, // so does not overwrite title
+            left: 125, // should agree with left above
+        },
+        tooltip: {
+            type: 'item',
+        },
+        xAxis: [
+            {
+                type: 'category',
+                axisTick: {
+                    alignWithLabel: true
+                },
+                axisLabel: {
+                    rotate: 30
+                },
+                data: months
+            }
+        ],
+        yAxis: [
+            {
+                type: 'value',
+                name: 'New accounts',
+                nameTextStyle: {
+                    fontStyle: 'italic',
+                    fontSize: 15,
+                },
+                nameLocation: 'middle',
+                nameGap: 50,
+                // min: 0,
+                // max: 200,
+            },
+            {
+                type: 'value',
+                name: 'Total number of accounts',
+                nameTextStyle: {
+                    fontStyle: 'italic',
+                    fontSize: 15,
+                },
+                nameLocation: 'middle',
+                position: 'right',
+                nameGap: 50,
+                // min: 0,
+                // max: 15000,
+            }
+        ],
+        series: [
+            {
+                name: 'New accounts',
+                type: 'bar',
+                barWidth: 1,
+                yAxisIndex: 0,
+                data: newAccounts
+            },
+            {
+                name: 'Total number of accounts',
+                type: 'line',
+                showAllSymbol: true, // ensure all points have tooltips
+                itemStyle: {
+                    opacity: 0 // don't want circles showing
+                },
+                yAxisIndex: 1,
+                data: current
+            }
+        ],
+
+        // Same colours as Google charts
+        color: ['#3366CC', '#DC3912', '#FF9900']
+    };
+    myChart.setOption(option);
+
+    // ================= echarts end ==================
+
 }
 
 // called by timelines.html
