@@ -96,7 +96,7 @@ def parseFile(committeeId, file, date, path):
     if not ext in VALID_TYPES or (ext in TAR_TYPES and parts.pop() != 'tar'):
         return
     stem = ".".join(parts) # the filename stem without the archive suffice(s)
-    if (any(stem.endswith(end) for end in NON_SOURCE_ENDS + CTTEE_FILTERS.get(committeeId,{}).get('ENDS',[])) or
+    if (any(stem.endswith(end) for end in NON_SOURCE_ENDS + CTTEE_FILTERS.get(committeeId,{}).get('ENDS',[])) or 
         any(mat in stem for mat in NON_SOURCE_MATCH + CTTEE_FILTERS.get(committeeId,{}).get('MATCH',[]))):
         return
     filename = cleanFilename(stem)
@@ -111,7 +111,7 @@ def main():
     uc = UrlCache(silent=True)
     find_ls = uc.get(FIND_LS, name='find-ls2.txt.gz')
     #  -rw-rw-r--       1 svnwc svnwc           479 2022-06-17 12:55 UTC ./.htaccess
-    #    0              1   2     3               4       5       6   7    8
+    #    0              1   2     3               4       5       6   7    8 
     with gzip.open(find_ls, mode='rt') as r:
         for l in r:
             fields = l.split() # split the find line (the split drops the final LF)

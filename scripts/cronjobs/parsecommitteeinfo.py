@@ -174,7 +174,7 @@ for group in sorted(committees, key=keyorder):
             img = "http://www.apache.org/logos/res/%s/default.png" % committeeId
             if not skipImageTest and not URLexists(img):
                 print("WARN: could not find logo: %s" % (img))
-
+                
             committeeCount += 1
             committee={}
             committee['id'] = committeeId

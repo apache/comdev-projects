@@ -54,7 +54,7 @@ def mod_date(t):
 def getIfNewer(url, sinceTime=None, encoding=None, errors=None, silent=False, debug=False, method='GET'):
     """
         Get a URL if it is newer
-
+    
         @param url: the url to fetch (required)
         @param sinceTime: the most recent Last-Modified string (format as per mod_date())
         @param encoding: the encoding to use (default 'None')
@@ -130,10 +130,10 @@ class UrlCache(object):
         If a check interval is specified (>0),
         a hidden marker file is used to record the last check time (unless useFileModTime==True)
 
-        @param cachedir: the cache directory to use
+        @param cachedir: the cache directory to use 
             (default data/cache; this is assumed to be at the current directory, its parent or grandparent)
         @param interval: minimum interval between checks for updates to the URL (default 300 secs)
-            if set to -1, never checks (intended for testing only)
+            if set to -1, never checks (intended for testing only)  
             if set to 0, always checks (primarily intended for testing, also useful where URLs support If-Modified-Since)
         @return: the instance to use with the get() method
     """
@@ -158,7 +158,7 @@ class UrlCache(object):
         else:
             self.__cachedir = __CACHE # will be overwritten if actually found
             self.__cachedir = findRelPath(__CACHE)
-
+        
         if os.path.isdir(self.__cachedir):
             if not self.__silent: print("Cachedir: %s" % self.__cachedir)
         else:
@@ -193,7 +193,7 @@ class UrlCache(object):
             to reduce the time when the file is being updated.
             The interval parameter is used to determine how often to check if the URL has changed.
             (this is mainly intended to avoid excess URL requests in unit testing).
-            If this is set to -1, then the URL will only be downloaded once.
+            If this is set to -1, then the URL will only be downloaded once. 
             @param url: the url to fetch (required)
             @param name: the name to use in the cache (required)
             @param encoding: the encoding to use (default None)
@@ -202,7 +202,7 @@ class UrlCache(object):
             @param useFileModTime: whether to use the file modification time as the last check time
             If not, a hidden marker file is used (default false). Set this to true for URLs that don't
             provide a Last-Modified header
-            @return: the opened stream, using the encoding if specified. Otherwise opened in binary mode.
+            @return: the opened stream, using the encoding if specified. Otherwise opened in binary mode. 
         """
         if name == None:
             name = basename(urlparse(url).path)
@@ -249,7 +249,7 @@ class UrlCache(object):
                         lastModT = 0
                 else:
                     lastModT = 0
-
+                
                 tmpFile = target + ".tmp"
                 with open(tmpFile,'wb') as f:
                     shutil.copyfileobj(response, f)
@@ -267,7 +267,7 @@ class UrlCache(object):
             else:
                 if not self.__silent: print("Cached copy of %s is up to date (%s)" % (name, lastMod))
 
-
+    
             if self.__interval > 0: # no point creating a marker file if we won't be using it
                 if useFileModTime:
                     os.utime(check, None) # touch the marker file

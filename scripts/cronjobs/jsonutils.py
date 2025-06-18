@@ -18,7 +18,7 @@ def write_utf8(output, path, indent=1, sort_keys=True, ensure_ascii=False):
     """
     with open(path, "w", encoding='utf-8') as f:
         json.dump(output, f, indent=indent, sort_keys=sort_keys, ensure_ascii=ensure_ascii)
-
+        
 def read_utf8(path):
     """
     Read and parse JSON from the given file path assuming UTF-8 encoding

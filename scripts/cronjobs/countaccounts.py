@@ -90,7 +90,7 @@ if now.day == 1: # Day one of month, redo previous month to ensure all new entri
     tym1 = "%04u%02u" % (yesterday.year, yesterday.month)
     print("Also looking for entries for %s" % tym1)
     js[ym1] = 0
-
+    
 
 ldappeople = loadJson('https://whimsy.apache.org/public/public_ldap_people.json')['people']
 

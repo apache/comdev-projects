@@ -12,7 +12,7 @@ if m:
         data = f.read()
         f.close()
         print(data.replace("%name%", uid))
-
+              
 else:
     print("Unknown or invalid user id presented")
-
+        

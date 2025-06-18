@@ -197,7 +197,7 @@ def committees():
 
 def pmcdates():
     dates = {}
-
+    
     cttes = cidata['committees']
     for ent in cttes:
         ctte = cttes[ent]
@@ -233,7 +233,7 @@ Return dict of ids and names
 """
 def pmcnames():
     names = {}
-
+    
     cttes = cidata['committees']
     for ent in cttes:
         ctte = cttes[ent]
