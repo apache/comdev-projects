@@ -190,7 +190,7 @@ def read_chunk(req):
 class PubSubClient(Thread):
     def __init__(self):
         Thread.__init__(self)
-        self.setDaemon(True)
+        self.daemon = True
 
     def run(self):
         logger.info("Watching %s", watching)
