@@ -91,12 +91,14 @@ print("Extracting PMC DOAP file data for json/foundation/committees.json")
 for loc in xmldoc.getElementsByTagName('location') :
     url = loc.childNodes[0].data
     try:
-        if url.startswith('http'):
+        if re.match(r'https?://', url):
             rdf = URLopen(url).read()
-        else:
+        elif re.match(r'committees/[a-z][-a-z0-9]+\.rdf$', url):
             with open("../../data/%s" % url, 'r', encoding='utf-8') as f:
                 rdf = f.read()
             url = "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/%s" % url
+        else:
+            print(f"ERROR: Unexpected location: {url}")
         rdfxml = ET.fromstring(rdf)
         rdfdata = rdfxml[0]
         expected = '{http://projects.apache.org/ns/asfext#}pmc'
