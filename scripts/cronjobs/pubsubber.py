@@ -44,35 +44,35 @@ class daemon:
                 self.logfile = os.devnull
             else:
                 self.logfile = logfile
-        
+
         def daemonize(self):
                 """Daemonize class. UNIX double fork mechanism."""
 
-                try: 
-                        pid = os.fork() 
+                try:
+                        pid = os.fork()
                         if pid > 0:
                                 # exit first parent
-                                sys.exit(0) 
-                except OSError as err: 
+                                sys.exit(0)
+                except OSError as err:
                         sys.stderr.write('fork #1 failed: {0}\n'.format(err))
                         sys.exit(1)
-        
+
                 # decouple from parent environment
-                os.chdir('/') 
-                os.setsid() 
-                os.umask(0) 
-        
+                os.chdir('/')
+                os.setsid()
+                os.umask(0)
+
                 # do second fork
-                try: 
-                        pid = os.fork() 
+                try:
+                        pid = os.fork()
                         if pid > 0:
 
                                 # exit from second parent
-                                sys.exit(0) 
-                except OSError as err: 
+                                sys.exit(0)
+                except OSError as err:
                         sys.stderr.write('fork #2 failed: {0}\n'.format(err))
-                        sys.exit(1) 
-        
+                        sys.exit(1)
+
                 # redirect standard file descriptors
                 sys.stdout.flush()
                 sys.stderr.flush()
@@ -83,7 +83,7 @@ class daemon:
                 os.dup2(si.fileno(), sys.stdin.fileno())
                 os.dup2(so.fileno(), sys.stdout.fileno())
                 os.dup2(se.fileno(), sys.stderr.fileno())
-        
+
                 # write pidfile
                 atexit.register(self.delpid)
 
@@ -91,7 +91,7 @@ class daemon:
                 with open(self.pidfile,'w+') as f:
                         f.write(pid + '\n')
                 logger.info("Created %s", self.pidfile)
-        
+
         def delpid(self):
                 logger.info("Removing %s", self.pidfile)
                 os.remove(self.pidfile)
@@ -106,13 +106,13 @@ class daemon:
                                 pid = int(pf.read().strip())
                 except IOError:
                         pid = None
-        
+
                 if pid:
                         message = "pidfile {0} already exist. " + \
                                         "Daemon already running?\n"
                         sys.stderr.write(message.format(self.pidfile))
                         sys.exit(1)
-                
+
                 # Start the daemon
                 self.daemonize()
                 self.run()
@@ -126,14 +126,14 @@ class daemon:
                                 pid = int(pf.read().strip())
                 except IOError:
                         pid = None
-        
+
                 if not pid:
                         message = "pidfile {0} does not exist. " + \
                                         "Daemon not running?\n"
                         sys.stderr.write(message.format(self.pidfile))
                         return # not an error in a restart
 
-                # Try killing the daemon process        
+                # Try killing the daemon process
                 try:
                         # Try gentle stop first
                         os.kill(pid, signal.SIGINT)
@@ -157,8 +157,8 @@ class daemon:
 
         def run(self):
                 """You should override this method when you subclass Daemon.
-                
-                It will be called after the process has been daemonized by 
+
+                It will be called after the process has been daemonized by
                 start() or restart()."""
 
 
@@ -180,11 +180,11 @@ def read_chunk(req):
                 print("No more lines?")
                 break
         except Exception as info:
-            
+
             break
     return
 
- 
+
 #########################
 # Main listener program #
 #########################
@@ -198,7 +198,7 @@ class PubSubClient(Thread):
     def run(self):
         logger.info("Watching %s", watching)
         while True:
-            
+
             self.req = None
             while not self.req:
                 try:
@@ -206,13 +206,13 @@ class PubSubClient(Thread):
                         self.req = urllib.request.urlopen(self.url, None, 30)
                     else:
                         self.req = urllib2.urlopen(self.url, None, 30)
-                    
+
                     logger.info("Connected to %s", self.url)
                 except:
                     logger.warn("Failed to connect to %s", self.url)
                     time.sleep(30)
                     continue
-                
+
             for line in read_chunk(self.req):
                 if version == 3:
                     line = str( line, encoding='ascii' ).rstrip('\r\n,').replace('\x00','') # strip away any old pre-0.9 commas from gitpubsub chunks and \0 in svnpubsub chunks
@@ -225,8 +225,8 @@ class PubSubClient(Thread):
                         if obj['commit']['repository'] == "13f79535-47bb-0310-9956-ffa450edef68":
                             #Grab some vars
                             commit = obj['commit']
-                            # e.g. {"committer": "sebb", "log": "Ensure we exit on control+C", "repository": "13f79535-47bb-0310-9956-ffa450edef68", "format": 1, 
-                            # "changed": {"comdev/reporter.apache.org/trunk/scandist.py": {"flags": "U  "}}, 
+                            # e.g. {"committer": "sebb", "log": "Ensure we exit on control+C", "repository": "13f79535-47bb-0310-9956-ffa450edef68", "format": 1,
+                            # "changed": {"comdev/reporter.apache.org/trunk/scandist.py": {"flags": "U  "}},
                             # "date": "2015-07-13 13:38:33 +0000 (Mon, 13 Jul 2015)", "type": "svn", "id": 1690668}
                             svnuser = commit['committer']
                             revision = commit['id']
@@ -253,16 +253,16 @@ class PubSubClient(Thread):
                                 logger.debug("Did not match 'r" + str(revision) + "' against ' " + str(watching.keys()) + "'")
                                 if debug:
                                     print("Did not match 'r" + str(revision) + "' against ' " + str(watching.keys()) + "'")
-                    
+
 
                 except ValueError as detail:
                     continue
-            
 
 
 
 
-################         
+
+################
 # Main program #
 ################
 """
@@ -286,14 +286,14 @@ def main():
         print("Foreground test mode enabled, no updates will be made")
         for watchPath in watching:
             print("Watching: '" + watchPath + "' for updates to '" + str(watching[watchPath]) + "'")
-        
-  
-    
+
+
+
     # Start the svn thread
     svn_thread = PubSubClient()
     svn_thread.url = "http://svn-master.apache.org:2069/commits/*"
     svn_thread.start()
-    
+
     while True:
         try:
             time.sleep(60)
