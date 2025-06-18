@@ -43,59 +43,59 @@ for year in range(startYear, nextYear):
         ret[m] = 0
 
 for s in itemlist :
-        name = s.attributes['name'].value
-        uname = s.attributes['resource'].value
-        status = s.attributes['status'].value
-        sd = s.attributes['startdate'].value
-        ed = s.attributes['enddate'].value if 'enddate' in s.attributes else None
-        desc = "No description"
-        for c in s.childNodes:
-            if c.__class__.__name__ != 'Text' and c.tagName == 'description':
-                desc = c.childNodes[0].data
-                break
-        #print(name, status, sd, ed)
-        if sd and re.match(r"(\d{4}-\d+)", sd):
-            sd = re.match(r"(\d{4}-\d+)", sd).group(1)
-        if ed and re.match(r"(\d{4}-\d+)", ed):
-            ed = re.match(r"(\d{4}-\d+)", ed).group(1)
+    name = s.attributes['name'].value
+    uname = s.attributes['resource'].value
+    status = s.attributes['status'].value
+    sd = s.attributes['startdate'].value
+    ed = s.attributes['enddate'].value if 'enddate' in s.attributes else None
+    desc = "No description"
+    for c in s.childNodes:
+        if c.__class__.__name__ != 'Text' and c.tagName == 'description':
+            desc = c.childNodes[0].data
+            break
+    #print(name, status, sd, ed)
+    if sd and re.match(r"(\d{4}-\d+)", sd):
+        sd = re.match(r"(\d{4}-\d+)", sd).group(1)
+    if ed and re.match(r"(\d{4}-\d+)", ed):
+        ed = re.match(r"(\d{4}-\d+)", ed).group(1)
 
-        new[sd] += 1
-        if status == "graduated":
-            if not ed:
-                ed = sd
-                print("%s did not specify a graduation date, assuming %s!" % (name,ed))
-            grads[ed] += 1
-            cpodsHistory[uname] = {
-                'started': sd,
-                'status': status,
-                'ended': ed,
-                'name': "Apache %s (Incubating)" % name,
-                'description': desc,
-                'homepage': "http://%s.incubator.apache.org/" % uname
-            }
-        elif status == "retired":
-            if not ed:
-                ed = sd
-                print("%s did not specify a retirement date, assuming %s!" % (name,ed))
-            ret[ed] += 1
-            cpodsHistory[uname] = {
-                'started': sd,
-                'status': status,
-                'ended': ed,
-                'name': "Apache %s (Incubating)" % name,
-                'description': desc,
-                'homepage': "http://%s.incubator.apache.org/" % uname
-            }
-        elif status == "current":
-            current += 1
-            cpods[uname] = {
-                'started': sd,
-                'name': "Apache %s (Incubating)" % name,
-                'pmc': 'incubator',
-                'description': desc,
-                'homepage': "http://%s.incubator.apache.org/" % uname,
-                'podling': True
-            }
+    new[sd] += 1
+    if status == "graduated":
+        if not ed:
+            ed = sd
+            print("%s did not specify a graduation date, assuming %s!" % (name,ed))
+        grads[ed] += 1
+        cpodsHistory[uname] = {
+            'started': sd,
+            'status': status,
+            'ended': ed,
+            'name': "Apache %s (Incubating)" % name,
+            'description': desc,
+            'homepage': "http://%s.incubator.apache.org/" % uname
+        }
+    elif status == "retired":
+        if not ed:
+            ed = sd
+            print("%s did not specify a retirement date, assuming %s!" % (name,ed))
+        ret[ed] += 1
+        cpodsHistory[uname] = {
+            'started': sd,
+            'status': status,
+            'ended': ed,
+            'name': "Apache %s (Incubating)" % name,
+            'description': desc,
+            'homepage': "http://%s.incubator.apache.org/" % uname
+        }
+    elif status == "current":
+        current += 1
+        cpods[uname] = {
+            'started': sd,
+            'name': "Apache %s (Incubating)" % name,
+            'pmc': 'incubator',
+            'description': desc,
+            'homepage': "http://%s.incubator.apache.org/" % uname,
+            'podling': True
+        }
 
 js = []
 for year in range(startYear, nextYear):
