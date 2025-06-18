@@ -17,7 +17,7 @@ Creates:
 
 data = URLopen("http://incubator.apache.org/podlings.xml").read()
 xmldoc = minidom.parseString(data)
-itemlist = xmldoc.getElementsByTagName('podling') 
+itemlist = xmldoc.getElementsByTagName('podling')
 
 new = {}
 grads = {}
@@ -118,7 +118,7 @@ for i in js:
     current -= i['new']
     current += i['graduated']
     current += i['retired']
-    
+
 print("Writing podlings.json")
 with open('../../site/json/foundation/podlings.json', 'w', encoding='utf-8') as f:
     json.dump(cpods, f, sort_keys=True, indent=0, ensure_ascii=False)

@@ -12,7 +12,7 @@
     lua  -l name         require library 'name'
     Thus the module has to be explicitly imported by the user script,
     and the user must defing the 'ERRTEE' environment variable to enable it
-  
+
 """
 import sys
 import os

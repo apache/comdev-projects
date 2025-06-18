@@ -53,7 +53,7 @@ dt = '{:%Y-%m-%d}'.format(datetime.datetime.now())
 
 form = cgi.FieldStorage()
 projName = form.getvalue("name", "projectName")
-# projName is used in the response headers; ensure the name is safe as a file name 
+# projName is used in the response headers; ensure the name is safe as a file name
 projName = re.sub(r"[^\w-]", '_', projName) + ".rdf"
 
 thehomepage = makeURL(form.getvalue('homepage','www.apache.org'))
@@ -64,8 +64,8 @@ Content-Disposition: attachment; filename=doap_%(projName)s
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl"?>
 <rdf:RDF xml:lang="en"
-         xmlns="http://usefulinc.com/ns/doap#" 
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+         xmlns="http://usefulinc.com/ns/doap#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:asfext="http://projects.apache.org/ns/asfext#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/">
 <!--
@@ -75,9 +75,9 @@ Content-Disposition: attachment; filename=doap_%(projName)s
     The ASF licenses this file to You under the Apache License, Version 2.0
     (the "License"); you may not use this file except in compliance with
     the License.  You may obtain a copy of the License at
-   
+
          https://www.apache.org/licenses/LICENSE-2.0
-   
+
     Unless required by applicable law or agreed to in writing, software
     distributed under the License is distributed on an "AS IS" BASIS,
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -86,7 +86,7 @@ Content-Disposition: attachment; filename=doap_%(projName)s
 -->
   <Project rdf:about="%(thehomepage)s">
     <created>%(dt)s</created>
-    <license rdf:resource="https://spdx.org/licenses/Apache-2.0" />""" 
+    <license rdf:resource="https://spdx.org/licenses/Apache-2.0" />"""
     % {'projName' : projName, 'dt': dt, 'thehomepage': thehomepage} )
 
 for line in formData:
@@ -141,7 +141,7 @@ if form.getvalue('std_title'):
       <asfext:body>%s</asfext:body>
       <asfext:id>%s</asfext:id>
       <asfext:url rdf:resource="%s"/>
-    </asfext:Standard></asfext:implements>""" 
+    </asfext:Standard></asfext:implements>"""
     % (form.getvalue('std_title'), form.getvalue('std_body'), form.getvalue('std_id'), makeURL(form.getvalue('std_url'))))
 
 print("""  </Project>

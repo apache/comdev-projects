@@ -49,7 +49,7 @@ try:
     gitResponse = requests.get("https://gitbox.apache.org/repositories.json", timeout=120)
     gitResponse.raise_for_status()
     gitData = json.loads(gitResponse.content.decode("utf-8"))
-    
+
     for committee in gitData['projects']:
         for repo in gitData['projects'][committee]['repositories']:
             repos[repo] = 'https://gitbox.apache.org/repos/asf/' + repo + '.git'
