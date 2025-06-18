@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # sample script to test logging of stdout and STDERR
 
 import sys

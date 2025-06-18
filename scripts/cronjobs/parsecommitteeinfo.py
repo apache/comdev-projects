@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 """
 Parse committee data to generate JSON files
 

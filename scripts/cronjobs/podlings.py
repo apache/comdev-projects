@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import errtee # pylint: disable=unused-import
 from xml.dom import minidom
 import re

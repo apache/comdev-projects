@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 """
 Extracts data showing the number of accounts created each month.
 
