@@ -2230,6 +2230,162 @@
 ],
 "shortdesc": "Cactus is a simple test framework for unit testing server-side java code (Servlets, EJBs, Tag Libs, Filters, ...)."
 },
+"attic-jclouds": {
+"bug-database": "https://issues.apache.org/jira/browse/JCLOUDS",
+"category": "cloud, library, retired",
+"created": "2014-04-11",
+"description": "Apache jclouds is an open source multi-cloud toolkit for the Java platform that gives you the freedom to create applications that are portable across clouds while giving you full control to use cloud-specific features.",
+"doap": "https://gitbox.apache.org/repos/asf?p=jclouds-site.git;a=blob_plain;f=doap_jclouds.rdf;hb=HEAD",
+"download-page": "http://jclouds.apache.org/start/install/",
+"homepage": "http://jclouds.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://jclouds.apache.org/community/",
+"maintainer": [
+{
+"mbox": "mailto:private@jclouds.apache.org",
+"name": "Apache jclouds PMC"
+}
+],
+"name": "Apache jclouds",
+"pmc": "attic",
+"programming-language": "Java",
+"release": [
+{
+"created": "2025-01-29",
+"name": "Apache jclouds 2.7.0",
+"revision": "2.7.0"
+},
+{
+"created": "2024-03-10",
+"name": "Apache jclouds 2.6.0",
+"revision": "2.6.0"
+},
+{
+"created": "2022-03-26",
+"name": "Apache jclouds 2.5.0",
+"revision": "2.5.0"
+},
+{
+"created": "2021-09-10",
+"name": "Apache jclouds 2.4.0",
+"revision": "2.4.0"
+},
+{
+"created": "2021-03-06",
+"name": "Apache jclouds 2.3.0",
+"revision": "2.3.0"
+},
+{
+"created": "2020-05-14",
+"name": "Apache jclouds 2.2.1",
+"revision": "2.2.1"
+},
+{
+"created": "2019-10-21",
+"name": "Apache jclouds 2.2.0",
+"revision": "2.2.0"
+},
+{
+"created": "2019-10-21",
+"name": "Apache jclouds 2.1.3",
+"revision": "2.1.3"
+},
+{
+"created": "2018-02-07",
+"name": "Apache jclouds 2.1.2",
+"revision": "2.1.2"
+},
+{
+"created": "2018-08-16",
+"name": "Apache jclouds 2.1.1",
+"revision": "2.1.1"
+},
+{
+"created": "2018-02-21",
+"name": "Apache jclouds 2.1.0",
+"revision": "2.1.0"
+},
+{
+"created": "2017-11-30",
+"name": "Apache jclouds 2.0.3",
+"revision": "2.0.3"
+},
+{
+"created": "2017-07-06",
+"name": "Apache jclouds 2.0.2",
+"revision": "2.0.2"
+},
+{
+"created": "2017-02-27",
+"name": "Apache jclouds 2.0.1",
+"revision": "2.0.1"
+},
+{
+"created": "2016-11-15",
+"name": "Apache jclouds 2.0.0",
+"revision": "2.0.0"
+},
+{
+"created": "2016-11-23",
+"name": "Apache jclouds 1.9.3",
+"revision": "1.9.3"
+},
+{
+"created": "2016-01-16",
+"name": "Apache jclouds 1.9.2",
+"revision": "1.9.2"
+},
+{
+"created": "2015-08-06",
+"name": "Apache jclouds 1.9.1",
+"revision": "1.9.1"
+},
+{
+"created": "2015-03-29",
+"name": "Apache jclouds 1.9.0",
+"revision": "1.9.0"
+},
+{
+"created": "2014-10-25",
+"name": "Apache jclouds 1.8.1",
+"revision": "1.8.1"
+},
+{
+"created": "2014-08-05",
+"name": "Apache jclouds 1.8.0",
+"revision": "1.8.0"
+},
+{
+"created": "2014-05-30",
+"name": "Apache jclouds 1.7.3",
+"revision": "1.7.3"
+},
+{
+"created": "2014-04-15",
+"name": "Apache jclouds 1.7.2",
+"revision": "1.7.2"
+},
+{
+"created": "2014-02-11",
+"name": "Apache jclouds 1.7.1",
+"revision": "1.7.1"
+},
+{
+"created": "2013-12-23",
+"name": "Apache jclouds 1.7.0",
+"revision": "1.7.0"
+},
+{
+"created": "2013-11-30",
+"name": "Apache jclouds 1.6.3",
+"revision": "1.6.3"
+}
+],
+"repository": [
+"https://git-wip-us.apache.org/repos/asf/jclouds.git"
+],
+"shortdesc": "The Java Multi-Cloud Toolkit"
+},
 "attic-lens": {
 "bug-database": "https://issues.apache.org/jira/browse/LENS",
 "category": "retired, big-data",
@@ -10921,162 +11077,6 @@
 "http://svn.apache.org/repos/asf/james/server/trunk"
 ],
 "shortdesc": "The Apache Java Enterprise Mail Server (a.k.a. Apache James) is a 100% pure Java SMTP and POP3 Mail server and NNTP News server. We have designed James to be a complete and portable enterprise mail engine solution based on currently available open protocols. "
-},
-"jclouds": {
-"bug-database": "https://issues.apache.org/jira/browse/JCLOUDS",
-"category": "cloud, library, retired",
-"created": "2014-04-11",
-"description": "Apache jclouds is an open source multi-cloud toolkit for the Java platform that gives you the freedom to create applications that are portable across clouds while giving you full control to use cloud-specific features.",
-"doap": "https://gitbox.apache.org/repos/asf?p=jclouds-site.git;a=blob_plain;f=doap_jclouds.rdf;hb=HEAD",
-"download-page": "http://jclouds.apache.org/start/install/",
-"homepage": "http://jclouds.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://jclouds.apache.org/community/",
-"maintainer": [
-{
-"mbox": "mailto:private@jclouds.apache.org",
-"name": "Apache jclouds PMC"
-}
-],
-"name": "Apache jclouds",
-"pmc": "attic",
-"programming-language": "Java",
-"release": [
-{
-"created": "2025-01-29",
-"name": "Apache jclouds 2.7.0",
-"revision": "2.7.0"
-},
-{
-"created": "2024-03-10",
-"name": "Apache jclouds 2.6.0",
-"revision": "2.6.0"
-},
-{
-"created": "2022-03-26",
-"name": "Apache jclouds 2.5.0",
-"revision": "2.5.0"
-},
-{
-"created": "2021-09-10",
-"name": "Apache jclouds 2.4.0",
-"revision": "2.4.0"
-},
-{
-"created": "2021-03-06",
-"name": "Apache jclouds 2.3.0",
-"revision": "2.3.0"
-},
-{
-"created": "2020-05-14",
-"name": "Apache jclouds 2.2.1",
-"revision": "2.2.1"
-},
-{
-"created": "2019-10-21",
-"name": "Apache jclouds 2.2.0",
-"revision": "2.2.0"
-},
-{
-"created": "2019-10-21",
-"name": "Apache jclouds 2.1.3",
-"revision": "2.1.3"
-},
-{
-"created": "2018-02-07",
-"name": "Apache jclouds 2.1.2",
-"revision": "2.1.2"
-},
-{
-"created": "2018-08-16",
-"name": "Apache jclouds 2.1.1",
-"revision": "2.1.1"
-},
-{
-"created": "2018-02-21",
-"name": "Apache jclouds 2.1.0",
-"revision": "2.1.0"
-},
-{
-"created": "2017-11-30",
-"name": "Apache jclouds 2.0.3",
-"revision": "2.0.3"
-},
-{
-"created": "2017-07-06",
-"name": "Apache jclouds 2.0.2",
-"revision": "2.0.2"
-},
-{
-"created": "2017-02-27",
-"name": "Apache jclouds 2.0.1",
-"revision": "2.0.1"
-},
-{
-"created": "2016-11-15",
-"name": "Apache jclouds 2.0.0",
-"revision": "2.0.0"
-},
-{
-"created": "2016-11-23",
-"name": "Apache jclouds 1.9.3",
-"revision": "1.9.3"
-},
-{
-"created": "2016-01-16",
-"name": "Apache jclouds 1.9.2",
-"revision": "1.9.2"
-},
-{
-"created": "2015-08-06",
-"name": "Apache jclouds 1.9.1",
-"revision": "1.9.1"
-},
-{
-"created": "2015-03-29",
-"name": "Apache jclouds 1.9.0",
-"revision": "1.9.0"
-},
-{
-"created": "2014-10-25",
-"name": "Apache jclouds 1.8.1",
-"revision": "1.8.1"
-},
-{
-"created": "2014-08-05",
-"name": "Apache jclouds 1.8.0",
-"revision": "1.8.0"
-},
-{
-"created": "2014-05-30",
-"name": "Apache jclouds 1.7.3",
-"revision": "1.7.3"
-},
-{
-"created": "2014-04-15",
-"name": "Apache jclouds 1.7.2",
-"revision": "1.7.2"
-},
-{
-"created": "2014-02-11",
-"name": "Apache jclouds 1.7.1",
-"revision": "1.7.1"
-},
-{
-"created": "2013-12-23",
-"name": "Apache jclouds 1.7.0",
-"revision": "1.7.0"
-},
-{
-"created": "2013-11-30",
-"name": "Apache jclouds 1.6.3",
-"revision": "1.6.3"
-}
-],
-"repository": [
-"https://git-wip-us.apache.org/repos/asf/jclouds.git"
-],
-"shortdesc": "The Java Multi-Cloud Toolkit"
 },
 "jena": {
 "bug-database": "https://issues.apache.org/jira/browse/JENA",
