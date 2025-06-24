@@ -90,11 +90,17 @@
 "airflow-1.16.0": [
 "airflow/helm-chart/1.16.0/airflow-1.16.0.tgz"
 ],
+"airflow-1.17.0": [
+"airflow/helm-chart/1.17.0/airflow-1.17.0.tgz"
+],
 "airflow-chart-1.15.0": [
 "airflow/helm-chart/1.15.0/airflow-chart-1.15.0-source.tar.gz"
 ],
 "airflow-chart-1.16.0": [
 "airflow/helm-chart/1.16.0/airflow-chart-1.16.0-source.tar.gz"
+],
+"airflow-chart-1.17.0": [
+"airflow/helm-chart/1.17.0/airflow-chart-1.17.0-source.tar.gz"
 ],
 "apache-airflow-2.11.0": [
 "airflow/2.11.0/apache-airflow-2.11.0-source.tar.gz"
@@ -2161,6 +2167,9 @@
 ],
 "apache-datafusion-sqlparser-rs-0.56.0": [
 "datafusion/datafusion-sqlparser-rs-0.56.0/apache-datafusion-sqlparser-rs-0.56.0.tar.gz"
+],
+"apache-datafusion-sqlparser-rs-0.57.0": [
+"datafusion/datafusion-sqlparser-rs-0.57.0/apache-datafusion-sqlparser-rs-0.57.0.tar.gz"
 ]
 },
 "datasketches": {
@@ -3859,6 +3868,9 @@
 "guacamole-client-1.5.5": [
 "guacamole/1.5.5/source/guacamole-client-1.5.5.tar.gz"
 ],
+"guacamole-client-1.6.0": [
+"guacamole/1.6.0/source/guacamole-client-1.6.0.tar.gz"
+],
 "guacamole-server-1.5.3": [
 "guacamole/1.5.3/source/guacamole-server-1.5.3.tar.gz"
 ],
@@ -3867,6 +3879,9 @@
 ],
 "guacamole-server-1.5.5": [
 "guacamole/1.5.5/source/guacamole-server-1.5.5.tar.gz"
+],
+"guacamole-server-1.6.0": [
+"guacamole/1.6.0/source/guacamole-server-1.6.0.tar.gz"
 ]
 },
 "hadoop": {
@@ -4790,11 +4805,6 @@
 ],
 "livy-0.5.0-incubating": [
 "incubator/livy/0.5.0-incubating/livy-0.5.0-incubating-src.zip"
-]
-},
-"incubator-nemo": {
-"apache-nemo-0.4-incubating-rc1": [
-"incubator/nemo/0.4-incubating/apache-nemo-0.4-incubating-rc1.tar.gz"
 ]
 },
 "incubator-nlpcraft": {
@@ -8506,8 +8516,11 @@
 "apache-servicecomb-java-chassis-distribution-2.8.25": [
 "servicecomb/servicecomb-java-chassis/2.8.25/apache-servicecomb-java-chassis-distribution-2.8.25-src.zip"
 ],
-"apache-servicecomb-java-chassis-distribution-3.2.6": [
-"servicecomb/servicecomb-java-chassis/3.2.6/apache-servicecomb-java-chassis-distribution-3.2.6-src.zip"
+"apache-servicecomb-java-chassis-distribution-2.9.0": [
+"servicecomb/servicecomb-java-chassis/2.9.0/apache-servicecomb-java-chassis-distribution-2.9.0-src.zip"
+],
+"apache-servicecomb-java-chassis-distribution-3.3.0": [
+"servicecomb/servicecomb-java-chassis/3.3.0/apache-servicecomb-java-chassis-distribution-3.3.0-src.zip"
 ],
 "apache-servicecomb-kie-0.2.0": [
 "servicecomb/servicecomb-kie/0.2.0/apache-servicecomb-kie-0.2.0-src.tar.gz"
@@ -8752,8 +8765,8 @@
 "org.apache.sling.auth.form-1.0.24": [
 "sling/org.apache.sling.auth.form-1.0.24-source-release.zip"
 ],
-"org.apache.sling.auth.oauth-client-0.1.0": [
-"sling/org.apache.sling.auth.oauth-client-0.1.0-source-release.zip"
+"org.apache.sling.auth.oauth-client-0.1.2": [
+"sling/org.apache.sling.auth.oauth-client-0.1.2-source-release.zip"
 ],
 "org.apache.sling.auth.openid-1.0.4": [
 "sling/org.apache.sling.auth.openid-1.0.4-source-release.zip"
@@ -9346,8 +9359,8 @@
 "org.apache.sling.resourcemerger-1.4.4": [
 "sling/org.apache.sling.resourcemerger-1.4.4-source-release.zip"
 ],
-"org.apache.sling.resourceresolver-1.12.8": [
-"sling/org.apache.sling.resourceresolver-1.12.8-source-release.zip"
+"org.apache.sling.resourceresolver-1.12.10": [
+"sling/org.apache.sling.resourceresolver-1.12.10-source-release.zip"
 ],
 "org.apache.sling.rewriter-1.4.4": [
 "sling/org.apache.sling.rewriter-1.4.4-source-release.zip"
@@ -9890,6 +9903,9 @@
 ],
 "apache-superset-4.1.2": [
 "superset/4.1.2/apache-superset-4.1.2-source.tar.gz"
+],
+"apache-superset-5.0.0": [
+"superset/5.0.0/apache-superset-5.0.0-source.tar.gz"
 ]
 },
 "synapse": {
