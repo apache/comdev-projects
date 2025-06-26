@@ -1312,6 +1312,9 @@
 "apache-camel-quarkus-3.23.0": [
 "camel/camel-quarkus/3.23.0/apache-camel-quarkus-3.23.0-src.zip"
 ],
+"apache-camel-quarkus-3.24.0": [
+"camel/camel-quarkus/3.24.0/apache-camel-quarkus-3.24.0-src.zip"
+],
 "camel-k-sources-2.3.0": [
 "camel/camel-k/2.3.0/camel-k-sources-2.3.0.tar.gz"
 ],
@@ -2150,8 +2153,8 @@
 "apache-datafusion-48.0.0": [
 "datafusion/datafusion-48.0.0/apache-datafusion-48.0.0.tar.gz"
 ],
-"apache-datafusion-ballista-46.0.0": [
-"datafusion/datafusion-ballista-46.0.0/apache-datafusion-ballista-46.0.0.tar.gz"
+"apache-datafusion-ballista-47.0.0": [
+"datafusion/datafusion-ballista-47.0.0/apache-datafusion-ballista-47.0.0.tar.gz"
 ],
 "apache-datafusion-comet-0.8.0": [
 "datafusion/datafusion-comet-0.8.0/apache-datafusion-comet-0.8.0.tar.gz"
@@ -5846,6 +5849,10 @@
 "maven/maven-4/4.0.0-rc-3/source/apache-maven-4.0.0-rc-3-src.tar.gz",
 "maven/maven-4/4.0.0-rc-3/source/apache-maven-4.0.0-rc-3-src.zip"
 ],
+"apache-maven-4.0.0-rc-4": [
+"maven/maven-4/4.0.0-rc-4/source/apache-maven-4.0.0-rc-4-src.tar.gz",
+"maven/maven-4/4.0.0-rc-4/source/apache-maven-4.0.0-rc-4-src.zip"
+],
 "apache-resource-bundles-1.7": [
 "maven/resources/apache-resource-bundles-1.7-source-release.zip"
 ],
@@ -6040,8 +6047,8 @@
 "maven-plugin-tools-4.0.0-beta-1": [
 "maven/plugin-tools/maven-plugin-tools-4.0.0-beta-1-source-release.zip"
 ],
-"maven-pmd-plugin-3.26.0": [
-"maven/plugins/maven-pmd-plugin-3.26.0-source-release.zip"
+"maven-pmd-plugin-3.27.0": [
+"maven/plugins/maven-pmd-plugin-3.27.0-source-release.zip"
 ],
 "maven-rar-plugin-3.0.0": [
 "maven/plugins/maven-rar-plugin-3.0.0-source-release.zip"
@@ -7259,53 +7266,17 @@
 ]
 },
 "paimon": {
-"apache-paimon-0.4.0-incubating": [
-"paimon/paimon-0.4.0-incubating/apache-paimon-0.4.0-incubating-src.tgz"
-],
-"apache-paimon-0.5.0-incubating": [
-"paimon/paimon-0.5.0-incubating/apache-paimon-0.5.0-incubating-src.tgz"
-],
-"apache-paimon-0.6.0-incubating": [
-"paimon/paimon-0.6.0-incubating/apache-paimon-0.6.0-incubating-src.tgz"
-],
-"apache-paimon-0.6.1-incubating": [
-"paimon/paimon-0.6.1-incubating/apache-paimon-0.6.1-incubating-src.tgz"
-],
-"apache-paimon-0.7.0-incubating": [
-"paimon/paimon-0.7.0-incubating/apache-paimon-0.7.0-incubating-src.tgz"
-],
-"apache-paimon-0.8.0": [
-"paimon/paimon-0.8.0/apache-paimon-0.8.0-src.tgz"
-],
-"apache-paimon-0.8.1": [
-"paimon/paimon-0.8.1/apache-paimon-0.8.1-src.tgz"
-],
-"apache-paimon-0.8.2": [
-"paimon/paimon-0.8.2/apache-paimon-0.8.2-src.tgz"
-],
-"apache-paimon-0.9.0": [
-"paimon/paimon-0.9.0/apache-paimon-0.9.0-src.tgz"
-],
-"apache-paimon-1.0.0": [
-"paimon/paimon-1.0.0/apache-paimon-1.0.0-src.tgz"
-],
 "apache-paimon-1.0.1": [
 "paimon/paimon-1.0.1/apache-paimon-1.0.1-src.tgz"
-],
-"apache-paimon-1.1.0": [
-"paimon/paimon-1.1.0/apache-paimon-1.1.0-src.tgz"
 ],
 "apache-paimon-1.1.1": [
 "paimon/paimon-1.1.1/apache-paimon-1.1.1-src.tgz"
 ],
-"apache-paimon-shade-0.4.0-incubating": [
-"paimon/paimon-0.4.0-incubating/apache-paimon-shade-0.4.0-incubating-src.tgz"
+"apache-paimon-1.2.0": [
+"paimon/paimon-1.2.0/apache-paimon-1.2.0-src.tgz"
 ],
 "apache-paimon-shade-0.6.0-incubating": [
 "paimon/paimon-shade-0.6.0-incubating/apache-paimon-shade-0.6.0-incubating-src.tgz"
-],
-"apache-paimon-shade-0.8.0": [
-"paimon/paimon-0.8.0/apache-paimon-shade-0.8.0-src.tgz"
 ]
 },
 "parquet": {
@@ -9506,8 +9477,8 @@
 "org.apache.sling.testing.email-1.0.0": [
 "sling/org.apache.sling.testing.email-1.0.0-source-release.zip"
 ],
-"org.apache.sling.testing.hamcrest-1.0.2": [
-"sling/org.apache.sling.testing.hamcrest-1.0.2-source-release.zip"
+"org.apache.sling.testing.hamcrest-1.1.0": [
+"sling/org.apache.sling.testing.hamcrest-1.1.0-source-release.zip"
 ],
 "org.apache.sling.testing.jcr-mock-1.6.14": [
 "sling/org.apache.sling.testing.jcr-mock-1.6.14-source-release.zip"
