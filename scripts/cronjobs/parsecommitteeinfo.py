@@ -38,10 +38,8 @@ group_ids = {
     'ws': 'webservices'
 }
 
-# homepages not matching http://<committee id>.apache.org/ and not defined in committee-info.json / index.html
+# homepages not matching https?://<committee id>.apache.org/ and not defined in committee-info.json / index.html
 homepages = {
-    'comdev': 'http://community.apache.org/', # temporary (accidentally used https: in site.rb local table)
-    'whimsy': 'http://whimsical.apache.org/', # incorrect in index.html because actual site does not yet exist
 }
 
 # Print to log and send an email (intended for WARN messages)
@@ -173,7 +171,7 @@ for group in sorted(committees, key=keyorder):
             # Fix up name where PMC RDF does not agree with LDAP group
             committeeId = group_ids.get(group, group)
 
-            img = "http://www.apache.org/logos/res/%s/default.png" % committeeId
+            img = "https://www.apache.org/logos/res/%s/default.png" % committeeId
             if not skipImageTest and not URLexists(img):
                 print("WARN: could not find logo: %s" % (img))
                 
@@ -199,14 +197,14 @@ for group in sorted(committees, key=keyorder):
                 if ctte['site']:
                     homepage = ctte['site']
                 else:
-                    homepage = 'http://%s.apache.org/' % group
+                    homepage = 'https://%s.apache.org/' % group
             committee['homepage'] = homepage
 
             if ctte['description']:
                 committee['shortdesc'] = ctte['description']
             else:
                 # N.B. Whimsy parses index.html to generate the description entry in committee-info.json
-                printMail("WARN: %s (%s) missing from http://www.apache.org/index.html#projects-list" % (group, fullName))
+                printMail("WARN: %s (%s) missing from https://www.apache.org/index.html#projects-list" % (group, fullName))
 
             if committeeId in pmcDataUrls:
                 committee['rdf'] = pmcDataUrls[committeeId]

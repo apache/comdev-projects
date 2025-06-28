@@ -8,14 +8,14 @@ from datetime import datetime
 from urlutils import URLopen
 
 """
-Reads http://incubator.apache.org/podlings.xml
+Reads https://incubator.apache.org/podlings.xml
 Creates:
 ../../site/json/foundation/podlings.json
 ../../site/json/foundation/podlings-history.json
 
 """
 
-data = URLopen("http://incubator.apache.org/podlings.xml").read()
+data = URLopen("https://incubator.apache.org/podlings.xml").read()
 xmldoc = minidom.parseString(data)
 itemlist = xmldoc.getElementsByTagName('podling') 
 
@@ -71,7 +71,7 @@ for s in itemlist :
             'ended': ed,
             'name': "Apache %s (Incubating)" % name,
             'description': desc,
-            'homepage': "http://%s.incubator.apache.org/" % uname
+            'homepage': "https://%s.incubator.apache.org/" % uname
         }
     elif status == "retired":
         if not ed:
@@ -84,7 +84,7 @@ for s in itemlist :
             'ended': ed,
             'name': "Apache %s (Incubating)" % name,
             'description': desc,
-            'homepage': "http://%s.incubator.apache.org/" % uname
+            'homepage': "https://%s.incubator.apache.org/" % uname
         }
     elif status == "current":
         current += 1
@@ -93,7 +93,7 @@ for s in itemlist :
             'name': "Apache %s (Incubating)" % name,
             'pmc': 'incubator',
             'description': desc,
-            'homepage': "http://%s.incubator.apache.org/" % uname,
+            'homepage': "https://%s.incubator.apache.org/" % uname,
             'podling': True
         }
 

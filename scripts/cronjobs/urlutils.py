@@ -295,12 +295,12 @@ def main():
     fc = UrlCache(interval=0)
     name = "_wao.html"
     fc._deleteCacheFile(name) # pylint: disable=protected-access
-    icla_info = fc.get("http://www.apache.org/", name, encoding='utf-8')
+    icla_info = fc.get("https://www.apache.org/", name, encoding='utf-8')
     print(icla_info.readline().rstrip())
     print(icla_info.readline().rstrip())
     print(icla_info.readline().rstrip())
     print(icla_info.readline().rstrip())
-    icla_info = fc.get("http://www.apache.org/", name, encoding='utf-8')
+    icla_info = fc.get("https://www.apache.org/", name, encoding='utf-8')
     fc._deleteCacheFile(name) # pylint: disable=protected-access
 
 if __name__ == '__main__':

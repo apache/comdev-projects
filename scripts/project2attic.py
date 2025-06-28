@@ -54,7 +54,7 @@ def update_pmc_xml(pmc):
                 # match one of:
                 # committees/<pmc>.rdf
                 # https://ofbiz.apache.org/<pmc>/...
-                # http://svn.apache.org/repos/asf/<pmc>/...
+                # https?://svn.apache.org/repos/asf/<pmc>/...
                 regex = r"^(committees/%s\.rdf|https?://%s\.apache\.org/.+|https?://svn.apache.org/repos/asf/%s/.+)$" % (pmc,pmc,pmc)
                 if re.search(regex, url, flags=re.IGNORECASE):
                     print("Found %s at %s" % (pmc, url))
@@ -87,7 +87,7 @@ def update_doap(doap, source):
             if re.search("<rdf:RDF",l):
                 w.write("<!-- Copied from %s -->\n" % source)
             if re.search("<asfext:pmc rdf:resource=", l):
-                w.write(re.sub("=['\"].+?['\"]",'="http://attic.apache.org/"',l))
+                w.write(re.sub("=['\"].+?['\"]",'="https://attic.apache.org/"',l))
                 continue # don't write original line
             if catWrite and re.search("<category",l):
                 catWrite = False

@@ -288,7 +288,7 @@ def main():
 
     # Start the svn thread
     svn_thread = PubSubClient()
-    svn_thread.url = "http://svn-master.apache.org:2069/commits/*"
+    svn_thread.url = "http://svn-master.apache.org:2069/commits/*" # https: not currently supported?
     svn_thread.start()
 
     while True:
