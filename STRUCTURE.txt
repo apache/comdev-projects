@@ -70,27 +70,3 @@ and
 https://github.com/apache/infrastructure-p6/tree/production/modules/projects_pvm_asf
 
 See also scripts/README.txt
-
-Statistics (Snoot) Sources https://cwiki.apache.org/confluence/display/COMDEV/Snoot
-Updates to list of sources is done by admins with following conventions:
-
-- code repositories
-rationale: get git mirrors list from git.apache.org, but remove repositories for sites since they contain too much generated (html) content that cheats real code statistics
-(notice: sites in svn don't have the issue, only sites in git have the issue. But filtering site repositories based on svn vs git is too complex and not really understandable)
-
-wget -q -O - http://git.apache.org/index.txt | grep -v \\-site.git | grep -v \\-website.git | grep -v \\-www.git | grep -v \\-web.git > index.txt
-(notice: removal detected by diff to be managed manually)
-
-- issue trackers: Jira
-wget -q -O - https://issues.apache.org/jira/secure/BrowseProjects.jspa | sed -n 's/.*"\(.jira.browse.[^"]\+\)".*/https:\/\/issues.apache.org\1/p' | sort > jira.txt
-(notice: removal detected by diff to be managed manually)
-
-- issue trackers: Bugzilla
-TBD
-
-- mailing lists
-https://lists.apache.org/api/preferences.lua
-TODO parse JSON and generate txt with one line per list: https://lists.apache.org/list.html?<list>@<tlp>.apache.org
-
-- irc
-TBD
