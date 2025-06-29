@@ -37,7 +37,7 @@ def cleanFilename(filename):
     """
         Attempts to determine the release id to which a file belongs
         Strips extensions such as .tgz etc, then suffixes such as -sources
-        Replaces qualifiers such as -assembly-, -parent- by '-'
+        Replaces qualifiers such as -assembly- by '-'
         Returns the simplified filename .
 
         N.B. the ordering is significant, as the list is only scanned once
@@ -52,7 +52,8 @@ def cleanFilename(filename):
         # The above list could be simplified further
         if filename.endswith(suffix):
             filename = filename[0:len(filename)-len(suffix)]
-    for repl in ['-assembly-', '-minimal-', '-doc-', '-src-', '-webapp-', '-standalone-', '-parent-', '-project-', '-win32-']:
+    # COMDEV-535: No longer strip '-parent-', as that may be needed
+    for repl in ['-assembly-', '-minimal-', '-doc-', '-src-', '-webapp-', '-standalone-', '-project-', '-win32-']:
         filename = filename.replace(repl, '-')
     return filename
 
