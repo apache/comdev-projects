@@ -2685,17 +2685,16 @@
 ]
 },
 "drill": {
-"apache-drill-1.20.3": [
-"drill/1.20.3/apache-drill-1.20.3-hadoop2.tar.gz",
-"drill/1.20.3/apache-drill-1.20.3-src.tar.gz",
-"drill/1.20.3/apache-drill-1.20.3-src.zip",
-"drill/1.20.3/apache-drill-1.20.3.tar.gz"
-],
 "apache-drill-1.21.2": [
 "drill/1.21.2/apache-drill-1.21.2-hadoop2.tar.gz",
 "drill/1.21.2/apache-drill-1.21.2-src.tar.gz",
 "drill/1.21.2/apache-drill-1.21.2-src.zip",
 "drill/1.21.2/apache-drill-1.21.2.tar.gz"
+],
+"apache-drill-1.22.0": [
+"drill/1.22.0/apache-drill-1.22.0-src.tar.gz",
+"drill/1.22.0/apache-drill-1.22.0-src.zip",
+"drill/1.22.0/apache-drill-1.22.0.tar.gz"
 ]
 },
 "druid": {
@@ -5995,8 +5994,8 @@
 "maven-invoker-3.3.0": [
 "maven/shared/maven-invoker-3.3.0-source-release.zip"
 ],
-"maven-invoker-plugin-3.9.0": [
-"maven/plugins/maven-invoker-plugin-3.9.0-source-release.zip"
+"maven-invoker-plugin-3.9.1": [
+"maven/plugins/maven-invoker-plugin-3.9.1-source-release.zip"
 ],
 "maven-jar-plugin-3.4.2": [
 "maven/plugins/maven-jar-plugin-3.4.2-source-release.zip"
@@ -8731,11 +8730,11 @@
 "org.apache.sling.adapter.annotations-2.0.0": [
 "sling/org.apache.sling.adapter.annotations-2.0.0-source-release.zip"
 ],
-"org.apache.sling.api-2.27.6": [
-"sling/org.apache.sling.api-2.27.6-source-release.zip"
+"org.apache.sling.api-3.0.0": [
+"sling/org.apache.sling.api-3.0.0-source-release.zip"
 ],
-"org.apache.sling.auth.core-1.7.0": [
-"sling/org.apache.sling.auth.core-1.7.0-source-release.zip"
+"org.apache.sling.auth.core-2.0.0": [
+"sling/org.apache.sling.auth.core-2.0.0-source-release.zip"
 ],
 "org.apache.sling.auth.form-1.0.24": [
 "sling/org.apache.sling.auth.form-1.0.24-source-release.zip"
@@ -8968,8 +8967,8 @@
 "org.apache.sling.dynamic-include-3.3.2": [
 "sling/org.apache.sling.dynamic-include-3.3.2-source-release.zip"
 ],
-"org.apache.sling.engine-2.16.4": [
-"sling/org.apache.sling.engine-2.16.4-source-release.zip"
+"org.apache.sling.engine-3.0.0": [
+"sling/org.apache.sling.engine-3.0.0-source-release.zip"
 ],
 "org.apache.sling.event-4.3.18": [
 "sling/org.apache.sling.event-4.3.18-source-release.zip"
@@ -9265,8 +9264,8 @@
 "org.apache.sling.models.impl-1.7.8": [
 "sling/org.apache.sling.models.impl-1.7.8-source-release.zip"
 ],
-"org.apache.sling.models.jacksonexporter-1.1.6": [
-"sling/org.apache.sling.models.jacksonexporter-1.1.6-source-release.zip"
+"org.apache.sling.models.jacksonexporter-2.0.0": [
+"sling/org.apache.sling.models.jacksonexporter-2.0.0-source-release.zip"
 ],
 "org.apache.sling.models.validation-impl-1.1.0": [
 "sling/org.apache.sling.models.validation-impl-1.1.0-source-release.zip"
@@ -9334,8 +9333,8 @@
 "org.apache.sling.resourcemerger-1.4.4": [
 "sling/org.apache.sling.resourcemerger-1.4.4-source-release.zip"
 ],
-"org.apache.sling.resourceresolver-1.12.10": [
-"sling/org.apache.sling.resourceresolver-1.12.10-source-release.zip"
+"org.apache.sling.resourceresolver-2.0.0": [
+"sling/org.apache.sling.resourceresolver-2.0.0-source-release.zip"
 ],
 "org.apache.sling.rewriter-1.4.4": [
 "sling/org.apache.sling.rewriter-1.4.4-source-release.zip"
@@ -9355,8 +9354,8 @@
 "org.apache.sling.scripting.console-1.0.0": [
 "sling/org.apache.sling.scripting.console-1.0.0-source-release.zip"
 ],
-"org.apache.sling.scripting.core-2.4.10": [
-"sling/org.apache.sling.scripting.core-2.4.10-source-release.zip"
+"org.apache.sling.scripting.core-3.0.0": [
+"sling/org.apache.sling.scripting.core-3.0.0-source-release.zip"
 ],
 "org.apache.sling.scripting.el-api-1.0.4": [
 "sling/org.apache.sling.scripting.el-api-1.0.4-source-release.zip"
@@ -9418,8 +9417,8 @@
 "org.apache.sling.scripting.sightly.testing-content-1.0.34-1.4.0": [
 "sling/org.apache.sling.scripting.sightly.testing-content-1.0.34-1.4.0-source-release.zip"
 ],
-"org.apache.sling.scripting.spi-1.0.4": [
-"sling/org.apache.sling.scripting.spi-1.0.4-source-release.zip"
+"org.apache.sling.scripting.spi-2.0.0": [
+"sling/org.apache.sling.scripting.spi-2.0.0-source-release.zip"
 ],
 "org.apache.sling.scripting.thymeleaf-2.0.2": [
 "sling/org.apache.sling.scripting.thymeleaf-2.0.2-source-release.zip"
@@ -9442,14 +9441,14 @@
 "org.apache.sling.servlets.compat-1.0.2": [
 "sling/org.apache.sling.servlets.compat-1.0.2-source-release.zip"
 ],
-"org.apache.sling.servlets.get-2.2.0": [
-"sling/org.apache.sling.servlets.get-2.2.0-source-release.zip"
+"org.apache.sling.servlets.get-3.0.0": [
+"sling/org.apache.sling.servlets.get-3.0.0-source-release.zip"
 ],
-"org.apache.sling.servlets.post-2.6.0": [
-"sling/org.apache.sling.servlets.post-2.6.0-source-release.zip"
+"org.apache.sling.servlets.post-3.0.0": [
+"sling/org.apache.sling.servlets.post-3.0.0-source-release.zip"
 ],
-"org.apache.sling.servlets.resolver-2.11.8": [
-"sling/org.apache.sling.servlets.resolver-2.11.8-source-release.zip"
+"org.apache.sling.servlets.resolver-3.0.0": [
+"sling/org.apache.sling.servlets.resolver-3.0.0-source-release.zip"
 ],
 "org.apache.sling.settings-1.4.2": [
 "sling/org.apache.sling.settings-1.4.2-source-release.zip"
