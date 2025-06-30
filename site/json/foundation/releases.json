@@ -12,11 +12,11 @@
 "Apache.NMS.AMQP-2.3.0": "2025-05-13",
 "Apache.NMS.ActiveMQ-2.1.0": "2023-03-12",
 "Apache.NMS.ActiveMQ-2.1.1": "2025-02-16",
-"activemq-5.19.0": "2025-03-07",
-"activemq-6.1.7": "2025-06-17",
 "activemq-artemis-native-2.0.0": "2022-07-12",
-"activemq-cli-tools-0.2.0": "2020-07-22",
+"activemq-cli-tools-parent-0.2.0": "2020-07-22",
 "activemq-cpp-library-3.9.5": "2019-01-25",
+"activemq-parent-5.19.0": "2025-03-07",
+"activemq-parent-6.1.7": "2025-06-17",
 "apache-artemis-2.41.0": "2025-04-23",
 "apache-artemis-console-1.1.0": "2025-01-15"
 },
@@ -264,11 +264,11 @@
 "org.apache.aries.transaction.jdbc-2.1.1": "2015-03-09",
 "org.apache.aries.transaction.jms-1.0.0": "2013-01-30",
 "org.apache.aries.transaction.manager-1.2.1": "2015-07-10",
-"org.apache.aries.util-1.1.0": "2013-01-30",
+"org.apache.aries.util-parent-1.1.0": "2013-01-30",
 "parent-1.0.0": "2013-01-30",
 "spifly-1.3.7": "2023-11-13",
 "tx-control-1.0.1": "2019-02-27",
-"typedevent-1.0.1": "2025-05-06"
+"typedevent-parent-1.0.1": "2025-05-06"
 },
 "arrow": {
 "apache-arrow-20.0.0": "2025-04-22",
@@ -425,10 +425,10 @@
 "apache_buildstream_plugins-2.3.0": "2024-08-15"
 },
 "bval": {
-"bval-0.5": "2012-09-21",
-"bval-1.1.2": "2016-11-03",
-"bval-2.0.6": "2022-06-13",
-"bval-3.0.2": "2025-03-13"
+"bval-parent-0.5": "2012-09-21",
+"bval-parent-1.1.2": "2016-11-03",
+"bval-parent-2.0.6": "2022-06-13",
+"bval-parent-3.0.2": "2025-03-13"
 },
 "calcite": {
 "apache-calcite-1.36.0": "2023-11-10",
@@ -489,7 +489,7 @@
 "apache-carbondata-2.1.1": "2021-03-29",
 "apache-carbondata-2.2.0": "2021-08-05",
 "apache-carbondata-2.3.0": "2022-03-12",
-"carbondata-apache-carbondata-2.3.1-rc1": "2023-11-25"
+"carbondata-parent-apache-carbondata-2.3.1-rc1": "2023-11-25"
 },
 "cassandra": {
 "apache-cassandra-3.0.32": "2025-02-06",
@@ -546,7 +546,6 @@
 "bcel-6.10.0": "2024-07-23",
 "bsf-2.4.0": "2013-03-03",
 "bsf-3.1": "2013-03-03",
-"commons-85": "2025-06-19",
 "commons-beanutils-1.11.0": "2025-05-27",
 "commons-beanutils2-2.0.0-M2": "2025-05-27",
 "commons-build-plugin-1.15.0": "2025-01-11",
@@ -588,6 +587,7 @@
 "commons-math4-4.0-beta1": "2022-12-19",
 "commons-net-3.11.1": "2024-06-10",
 "commons-numbers-1.2": "2024-08-12",
+"commons-parent-85": "2025-06-19",
 "commons-pool2-2.12.1": "2025-01-27",
 "commons-pool2-2.6.2": "2019-04-11",
 "commons-release-plugin-1.9.0": "2025-01-11",
@@ -762,6 +762,7 @@
 "apache-ldap-api-2.1.6": "2024-02-06",
 "apache-ldap-api-2.1.7": "2024-08-06",
 "apacheds-2.0.0.AM27": "2023-10-20",
+"apacheds-parent-2.0.0.AM27": "2023-10-20",
 "fortress-core-3.0.0": "2023-09-06",
 "fortress-realm-3.0.0": "2023-09-06",
 "fortress-rest-3.0.0": "2023-09-06",
@@ -935,7 +936,7 @@
 "felix": {
 "apache-felix-karaf-1.6.0": "2012-12-28",
 "atomos-distribution-1.0.0": "2021-02-23",
-"gogo-5": "2019-01-10",
+"gogo-parent-5": "2019-01-10",
 "javax.servlet-1.0.0": "2012-12-28",
 "maven-bundle-plugin-6.0.0": "2024-11-28",
 "maven-junit4osgi-plugin-1.0.0": "2012-12-28",
@@ -1108,8 +1109,6 @@
 "flink-cdc-3.2.1": "2024-11-21",
 "flink-cdc-3.3.0": "2025-01-18",
 "flink-cdc-3.4.0": "2025-05-06",
-"flink-connector-1.0.0": "2023-03-15",
-"flink-connector-1.1.0": "2024-02-19",
 "flink-connector-aws-4.3.0": "2024-04-19",
 "flink-connector-aws-5.0.0": "2024-11-06",
 "flink-connector-cassandra-3.1.0": "2023-05-05",
@@ -1144,6 +1143,8 @@
 "flink-connector-opensearch-1.1.0": "2023-11-03",
 "flink-connector-opensearch-1.2.0": "2024-05-11",
 "flink-connector-opensearch-2.0.0": "2024-05-15",
+"flink-connector-parent-1.0.0": "2023-03-15",
+"flink-connector-parent-1.1.0": "2024-02-19",
 "flink-connector-prometheus-1.0.0": "2024-10-28",
 "flink-connector-pulsar-3.0.0": "2022-12-15",
 "flink-connector-pulsar-3.0.1": "2023-05-25",
@@ -1177,7 +1178,7 @@
 "build-resources-2.0.0": "2017-09-14",
 "fluo-1.2.0": "2018-02-26",
 "fluo-2.0.0": "2023-04-18",
-"fluo-3": "2017-11-27",
+"fluo-parent-3": "2017-11-27",
 "fluo-recipes-1.2.0": "2018-03-06",
 "fluo-yarn-1.0.0": "2018-03-06"
 },
@@ -1211,7 +1212,7 @@
 "geronimo-atinject_1.0_spec-1.2": "2020-05-04",
 "geronimo-config-1.2.3": "2022-03-08",
 "geronimo-el_2.2_spec-1.1": "2018-08-31",
-"geronimo-health-2.0.1": "2022-03-08",
+"geronimo-health-parent-2.0.1": "2022-03-08",
 "geronimo-interceptor_1.2_spec-1.2": "2020-05-04",
 "geronimo-javamail_1.6-1.0.1": "2021-10-28",
 "geronimo-javamail_1.6_spec-1.0.0": "2020-10-19",
@@ -1226,14 +1227,14 @@
 "geronimo-mail_2.1-1.0.0": "2022-06-23",
 "geronimo-mail_2.1_parent-1.0.1": "2025-03-12",
 "geronimo-mail_2.1_spec-1.0.0": "2024-09-30",
-"geronimo-metrics-1.0.6": "2022-03-08",
+"geronimo-metrics-parent-1.0.6": "2022-03-08",
 "geronimo-microprofile-1.0.2": "2019-02-28",
 "geronimo-openapi-1.0.15": "2022-03-08",
-"geronimo-opentracing-1.0.3": "2022-03-08",
+"geronimo-opentracing-parent-1.0.3": "2022-03-08",
 "geronimo-security_1.0_spec-1.0": "2019-09-11",
-"geronimo-txmanager-4.0.0": "2023-10-23",
+"geronimo-txmanager-parent-4.0.0": "2023-10-23",
 "geronimo-validation_2.0_spec-1.0": "2018-10-04",
-"safeguard-1.2.1": "2019-02-28",
+"safeguard-parent-1.2.1": "2019-02-28",
 "xbean-4.27": "2025-04-09"
 },
 "gobblin": {
@@ -1356,7 +1357,6 @@
 "httpcomponents": {
 "commons-httpclient-3.1": "2012-11-26",
 "hc-stylecheck-3": "2024-09-23",
-"httpcomponents-14": "2024-10-01",
 "httpcomponents-asyncclient-4.1.4": "2018-07-23",
 "httpcomponents-asyncclient-4.1.5": "2021-12-10",
 "httpcomponents-client-4.5.14": "2022-12-04",
@@ -1380,7 +1380,8 @@
 "httpcomponents-core-5.3.1": "2024-10-22",
 "httpcomponents-core-5.3.2": "2025-01-09",
 "httpcomponents-core-5.3.3": "2025-01-28",
-"httpcomponents-core-5.3.4": "2025-03-19"
+"httpcomponents-core-5.3.4": "2025-03-19",
+"httpcomponents-parent-14": "2024-10-01"
 },
 "httpd": {
 "httpd-2.4.63": "2025-01-23",
@@ -1890,7 +1891,7 @@
 "apache-log4net-binaries-3.1.0": "2025-05-12",
 "apache-log4net-source-3.1.0": "2025-05-12",
 "apache-log4php-2.3.0": "2013-01-31",
-"apache-logging-12.1.1": "2025-06-13"
+"apache-logging-parent-12.1.1": "2025-06-13"
 },
 "lucene": {
 "lucene-10.2.0": "2025-04-06",
@@ -1972,7 +1973,6 @@
 "enforcer-3.5.0": "2024-05-30",
 "file-management-3.2.0": "2025-04-17",
 "jxr-3.6.0": "2024-10-25",
-"maven-45": "2025-06-17",
 "maven-acr-plugin-3.1.0": "2018-06-23",
 "maven-antrun-plugin-3.1.0": "2022-04-21",
 "maven-archetype-3.4.0": "2025-05-17",
@@ -2024,6 +2024,7 @@
 "maven-mapping-3.0.0": "2015-11-24",
 "maven-mvnd-1.0.2": "2024-08-24",
 "maven-mvnd-2.0.0-rc-3": "2025-03-10",
+"maven-parent-45": "2025-06-17",
 "maven-patch-plugin-1.3": "2024-12-14",
 "maven-plugin-3.7.1": "2024-03-18",
 "maven-plugin-testing-4.0.0-beta-4": "2025-03-30",
@@ -2129,9 +2130,9 @@
 "myfaces-core-4.1.0-RC2": "2024-04-29",
 "myfaces-core-4.1.0-RC3": "2024-11-02",
 "myfaces-core-4.1.1": "2025-03-25",
-"myfaces-extcdi-1.0.6": "2014-10-30",
 "myfaces-extcdi-jsf12-1.0.6": "2014-10-30",
 "myfaces-extcdi-jsf20-1.0.6": "2014-10-30",
+"myfaces-extcdi-parent-1.0.6": "2014-10-30",
 "myfaces-extval-module-1.1.4": "2014-10-30",
 "myfaces-extval-module-1.2.6": "2014-10-30",
 "myfaces-extval-module-2.0.8": "2014-10-30",
@@ -2202,13 +2203,13 @@
 "nbm-suite-root-1.12": "2019-10-10",
 "nbpackage-1.0-beta5": "2024-05-07",
 "netbeans-26": "2025-05-14",
-"netbeans-4": "2023-07-05",
-"netbeans-archetype-1.0.0": "2023-07-11",
+"netbeans-archetype-parent-1.0.0": "2023-07-11",
 "netbeans-html4j-1.8.2": "2025-06-22",
+"netbeans-parent-4": "2023-07-05",
 "netbeans-platform-app-archetype-1.24": "2024-08-06",
 "profiler-external-binaries-1-24aefa9": "2023-10-10",
 "profiler-external-sources-1-24aefa9": "2023-10-10",
-"utilities-14.3": "2025-04-11"
+"utilities-parent-14.3": "2025-04-11"
 },
 "nifi": {
 "nifi-1.28.1": "2024-11-15",
@@ -2274,9 +2275,6 @@
 "Olingo-OData-4.10.0": "2023-10-22",
 "Olingo-OData-5.0.0": "2023-12-17",
 "odatajs-4.0.0": "2015-04-09",
-"olingo-odata2-2.0.12": "2022-04-25",
-"olingo-odata2-2.0.13": "2023-10-22",
-"olingo-odata2-3.0.0-RC01": "2025-03-13",
 "olingo-odata2-dist-janos-2.0.12-janos": "2022-04-25",
 "olingo-odata2-dist-janos-2.0.13-janos": "2023-10-22",
 "olingo-odata2-dist-janos-3.0.0-RC01-janos": "2025-03-13",
@@ -2286,6 +2284,9 @@
 "olingo-odata2-dist-ref-2.0.12": "2022-04-25",
 "olingo-odata2-dist-ref-2.0.13": "2023-10-22",
 "olingo-odata2-dist-ref-3.0.0-RC01": "2025-03-13",
+"olingo-odata2-parent-2.0.12": "2022-04-25",
+"olingo-odata2-parent-2.0.13": "2023-10-22",
+"olingo-odata2-parent-3.0.0-RC01": "2025-03-13",
 "olingo-odata2-spring-2.0.12": "2022-04-25"
 },
 "opendal": {
@@ -2342,9 +2343,9 @@
 "openjpa": {
 "apache-openjpa-2.2.2": "2014-12-16",
 "apache-openjpa-3.2.2": "2022-03-16",
-"openjpa-2.4.3": "2018-06-12",
-"openjpa-4.0.1": "2024-09-19",
-"openjpa-4.1.1": "2025-05-15"
+"openjpa-parent-2.4.3": "2018-06-12",
+"openjpa-parent-4.0.1": "2024-09-19",
+"openjpa-parent-4.1.1": "2025-05-15"
 },
 "openmeetings": {
 "apache-openmeetings-8.0.0": "2025-01-02"
@@ -3230,9 +3231,9 @@
 "sling-6": "2013-01-21",
 "sling-62": "2024-11-21",
 "sling-archetype-1.0.14": "2025-01-07",
-"sling-archetype-7": "2021-07-16",
-"sling-bundle-62": "2024-11-21",
+"sling-archetype-parent-7": "2021-07-16",
 "sling-bundle-archetype-1.0.6": "2018-02-03",
+"sling-bundle-parent-62": "2024-11-21",
 "sling-feature-converter-maven-plugin-1.0.10": "2020-11-30",
 "sling-initial-content-archetype-1.0.6": "2018-02-03",
 "sling-jcrinstall-bundle-archetype-1.0.6": "2018-02-03",
@@ -3404,9 +3405,9 @@
 "apache-tomee-10.1.0-plume": "2025-06-17",
 "apache-tomee-10.1.0-plus": "2025-06-17",
 "apache-tomee-10.1.0-webprofile": "2025-06-17",
-"jakartaee-api-10.0": "2024-10-28",
+"jakartaee-api-parent-10.0": "2024-10-28",
 "tomee-10.1.0": "2025-06-17",
-"tomee-patch-0.10": "2023-01-10",
+"tomee-patch-parent-0.10": "2023-01-10",
 "tomee-quartz-shade-2.5.0": "2025-01-10"
 },
 "trafficcontrol": {
@@ -3477,9 +3478,6 @@
 "fulcrum-yaafi-crypto-2.0.1": "2020-10-08",
 "maven-turbine-plugin-1.3": "2014-03-30",
 "stratum-1.0": "2014-03-30",
-"turbine-1.0.2": "2021-10-04",
-"turbine-13": "2024-09-11",
-"turbine-14": "2025-04-17",
 "turbine-2.3.3": "2014-03-30",
 "turbine-2.3.3-1.0.0": "2014-03-30",
 "turbine-4.0-1.0.1": "2017-01-25",
@@ -3492,7 +3490,10 @@
 "turbine-5.1-2.0.0": "2022-09-23",
 "turbine-6.0": "2024-02-05",
 "turbine-6.0-3.0.0": "2024-07-27",
-"turbine-7.0": "2025-06-17"
+"turbine-7.0": "2025-06-17",
+"turbine-parent-1.0.2": "2021-10-04",
+"turbine-parent-13": "2024-09-11",
+"turbine-parent-14": "2025-04-17"
 },
 "tvm": {
 "apache-tvm-v0.10.0": "2022-10-17",
