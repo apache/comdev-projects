@@ -809,8 +809,8 @@
 "apache-arrow-20.0.0": [
 "arrow/arrow-20.0.0/apache-arrow-20.0.0.tar.gz"
 ],
-"apache-arrow-adbc-18": [
-"arrow/apache-arrow-adbc-18/apache-arrow-adbc-18.tar.gz"
+"apache-arrow-adbc-19": [
+"arrow/apache-arrow-adbc-19/apache-arrow-adbc-19.tar.gz"
 ],
 "apache-arrow-flight-sql-postgresql-0.1.0": [
 "arrow/apache-arrow-flight-sql-postgresql-0.1.0/apache-arrow-flight-sql-postgresql-0.1.0.tar.gz"
@@ -853,6 +853,9 @@
 ],
 "apache-arrow-rs-55.2.0": [
 "arrow/arrow-rs-55.2.0/apache-arrow-rs-55.2.0.tar.gz"
+],
+"apache-arrow-swift-21.0.0": [
+"arrow/apache-arrow-swift-21.0.0/apache-arrow-swift-21.0.0.tar.gz"
 ]
 },
 "asterixdb": {
@@ -1098,14 +1101,8 @@
 "bookkeeper-4.15.5": [
 "bookkeeper/bookkeeper-4.15.5/bookkeeper-4.15.5-src.tar.gz"
 ],
-"bookkeeper-4.16.6": [
-"bookkeeper/bookkeeper-4.16.6/bookkeeper-4.16.6-src.tar.gz"
-],
 "bookkeeper-4.16.7": [
 "bookkeeper/bookkeeper-4.16.7/bookkeeper-4.16.7-src.tar.gz"
-],
-"bookkeeper-4.17.1": [
-"bookkeeper/bookkeeper-4.17.1/bookkeeper-4.17.1-src.tar.gz"
 ],
 "bookkeeper-4.17.2": [
 "bookkeeper/bookkeeper-4.17.2/bookkeeper-4.17.2-src.tar.gz"
@@ -1328,8 +1325,8 @@
 "apache-camel-quarkus-3.15.4": [
 "camel/camel-quarkus/3.15.4/apache-camel-quarkus-3.15.4-src.zip"
 ],
-"apache-camel-quarkus-3.20.1": [
-"camel/camel-quarkus/3.20.1/apache-camel-quarkus-3.20.1-src.zip"
+"apache-camel-quarkus-3.20.2": [
+"camel/camel-quarkus/3.20.2/apache-camel-quarkus-3.20.2-src.zip"
 ],
 "apache-camel-quarkus-3.24.0": [
 "camel/camel-quarkus/3.24.0/apache-camel-quarkus-3.24.0-src.zip"
@@ -2187,6 +2184,9 @@
 "apache-datafusion-48.0.0": [
 "datafusion/datafusion-48.0.0/apache-datafusion-48.0.0.tar.gz"
 ],
+"apache-datafusion-48.0.1": [
+"datafusion/datafusion-48.0.1/apache-datafusion-48.0.1.tar.gz"
+],
 "apache-datafusion-ballista-47.0.0": [
 "datafusion/datafusion-ballista-47.0.0/apache-datafusion-ballista-47.0.0.tar.gz"
 ],
@@ -2613,6 +2613,9 @@
 ],
 "apache-doris-kafka-connector-24.0.0": [
 "doris/kafka-connector/24.0.0/apache-doris-kafka-connector-24.0.0-src.tar.gz"
+],
+"apache-doris-kafka-connector-25.0.0": [
+"doris/kafka-connector/25.0.0/apache-doris-kafka-connector-25.0.0-src.tgz"
 ],
 "apache-doris-operator-24.0.0": [
 "doris/doris-operator/apache-doris-operator-24.0.0-src.tar.gz"
@@ -3374,11 +3377,17 @@
 "apache-flink-1.19.2": [
 "flink/flink-1.19.2/python/apache-flink-1.19.2.tar.gz"
 ],
+"apache-flink-1.19.3": [
+"flink/flink-1.19.3/python/apache-flink-1.19.3.tar.gz"
+],
 "apache-flink-1.20.0": [
 "flink/flink-1.20.0/python/apache-flink-1.20.0.tar.gz"
 ],
 "apache-flink-1.20.1": [
 "flink/flink-1.20.1/python/apache-flink-1.20.1.tar.gz"
+],
+"apache-flink-1.20.2": [
+"flink/flink-1.20.2/python/apache-flink-1.20.2.tar.gz"
 ],
 "apache-flink-2.0.0": [
 "flink/flink-2.0.0/python/apache-flink-2.0.0.tar.gz"
@@ -3398,11 +3407,17 @@
 "apache-flink-libraries-1.19.2": [
 "flink/flink-1.19.2/python/apache-flink-libraries-1.19.2.tar.gz"
 ],
+"apache-flink-libraries-1.19.3": [
+"flink/flink-1.19.3/python/apache-flink-libraries-1.19.3.tar.gz"
+],
 "apache-flink-libraries-1.20.0": [
 "flink/flink-1.20.0/python/apache-flink-libraries-1.20.0.tar.gz"
 ],
 "apache-flink-libraries-1.20.1": [
 "flink/flink-1.20.1/python/apache-flink-libraries-1.20.1.tar.gz"
+],
+"apache-flink-libraries-1.20.2": [
+"flink/flink-1.20.2/python/apache-flink-libraries-1.20.2.tar.gz"
 ],
 "apache-flink-libraries-2.0.0": [
 "flink/flink-2.0.0/python/apache-flink-libraries-2.0.0.tar.gz"
@@ -3431,11 +3446,17 @@
 "flink-1.19.2": [
 "flink/flink-1.19.2/flink-1.19.2-src.tgz"
 ],
+"flink-1.19.3": [
+"flink/flink-1.19.3/flink-1.19.3-src.tgz"
+],
 "flink-1.20.0": [
 "flink/flink-1.20.0/flink-1.20.0-src.tgz"
 ],
 "flink-1.20.1": [
 "flink/flink-1.20.1/flink-1.20.1-src.tgz"
+],
+"flink-1.20.2": [
+"flink/flink-1.20.2/flink-1.20.2-src.tgz"
 ],
 "flink-2.0-preview1": [
 "flink/flink-2.0-preview1/flink-2.0-preview1-src.tgz"
@@ -5431,6 +5452,9 @@
 ],
 "apache-kudu-1.17.1": [
 "kudu/1.17.1/apache-kudu-1.17.1.tar.gz"
+],
+"apache-kudu-1.18.0": [
+"kudu/1.18.0/apache-kudu-1.18.0.tar.gz"
 ]
 },
 "kvrocks": {
@@ -6773,6 +6797,9 @@
 "apache-nuttx-12.1.0": [
 "nuttx/12.1.0/apache-nuttx-12.1.0.tar.gz"
 ],
+"apache-nuttx-12.10.0": [
+"nuttx/12.10.0/apache-nuttx-12.10.0.tar.gz"
+],
 "apache-nuttx-12.2.0": [
 "nuttx/12.2.0/apache-nuttx-12.2.0.tar.gz"
 ],
@@ -6826,6 +6853,9 @@
 ],
 "apache-nuttx-apps-12.1.0": [
 "nuttx/12.1.0/apache-nuttx-apps-12.1.0.tar.gz"
+],
+"apache-nuttx-apps-12.10.0": [
+"nuttx/12.10.0/apache-nuttx-apps-12.10.0.tar.gz"
 ],
 "apache-nuttx-apps-12.2.0": [
 "nuttx/12.2.0/apache-nuttx-apps-12.2.0.tar.gz"
@@ -7685,7 +7715,9 @@
 "pulsar/pulsar-client-cpp-3.7.0/apk-arm64/aarch64/APKINDEX.tar.gz",
 "pulsar/pulsar-client-cpp-3.7.0/apk-x86_64/x86_64/APKINDEX.tar.gz",
 "pulsar/pulsar-client-cpp-3.7.1/apk-arm64/aarch64/APKINDEX.tar.gz",
-"pulsar/pulsar-client-cpp-3.7.1/apk-x86_64/x86_64/APKINDEX.tar.gz"
+"pulsar/pulsar-client-cpp-3.7.1/apk-x86_64/x86_64/APKINDEX.tar.gz",
+"pulsar/pulsar-client-cpp-3.7.2/apk-arm64/aarch64/APKINDEX.tar.gz",
+"pulsar/pulsar-client-cpp-3.7.2/apk-x86_64/x86_64/APKINDEX.tar.gz"
 ],
 "apache-pulsar-3.0.10": [
 "pulsar/pulsar-3.0.10/apache-pulsar-3.0.10-src.tar.gz"
@@ -7785,6 +7817,9 @@
 ],
 "apache-pulsar-client-cpp-3.7.1": [
 "pulsar/pulsar-client-cpp-3.7.1/apache-pulsar-client-cpp-3.7.1.tar.gz"
+],
+"apache-pulsar-client-cpp-3.7.2": [
+"pulsar/pulsar-client-cpp-3.7.2/apache-pulsar-client-cpp-3.7.2.tar.gz"
 ],
 "apache-pulsar-client-go-0.13.0": [
 "pulsar/pulsar-client-go-0.13.0/apache-pulsar-client-go-0.13.0-src.tar.gz"
@@ -8616,6 +8651,9 @@
 ],
 "shiro-root-2.0.4": [
 "shiro/2.0.4/shiro-root-2.0.4-source-release.zip"
+],
+"shiro-root-2.0.5": [
+"shiro/2.0.5/shiro-root-2.0.5-source-release.zip"
 ]
 },
 "singa": {
@@ -10070,14 +10108,6 @@
 "apache-tomcat-11.0.9": [
 "tomcat/tomcat-11/v11.0.9/src/apache-tomcat-11.0.9-src.tar.gz",
 "tomcat/tomcat-11/v11.0.9/src/apache-tomcat-11.0.9-src.zip"
-],
-"apache-tomcat-9.0.105": [
-"tomcat/tomcat-9/v9.0.105/src/apache-tomcat-9.0.105-src.tar.gz",
-"tomcat/tomcat-9/v9.0.105/src/apache-tomcat-9.0.105-src.zip"
-],
-"apache-tomcat-9.0.106": [
-"tomcat/tomcat-9/v9.0.106/src/apache-tomcat-9.0.106-src.tar.gz",
-"tomcat/tomcat-9/v9.0.106/src/apache-tomcat-9.0.106-src.zip"
 ],
 "apache-tomcat-9.0.107": [
 "tomcat/tomcat-9/v9.0.107/src/apache-tomcat-9.0.107-src.tar.gz",

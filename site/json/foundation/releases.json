@@ -274,7 +274,7 @@
 },
 "arrow": {
 "apache-arrow-20.0.0": "2025-04-22",
-"apache-arrow-adbc-18": "2025-05-02",
+"apache-arrow-adbc-19": "2025-07-02",
 "apache-arrow-flight-sql-postgresql-0.1.0": "2023-09-13",
 "apache-arrow-go-18.3.1": "2025-06-20",
 "apache-arrow-java-18.3.0": "2025-05-13",
@@ -288,7 +288,8 @@
 "apache-arrow-nanoarrow-0.6.0": "2024-10-08",
 "apache-arrow-nanoarrow-0.7.0": "2025-06-30",
 "apache-arrow-object-store-rs-0.12.2": "2025-06-10",
-"apache-arrow-rs-55.2.0": "2025-06-26"
+"apache-arrow-rs-55.2.0": "2025-06-26",
+"apache-arrow-swift-21.0.0": "2025-07-07"
 },
 "asterixdb": {
 "apache-asterixdb-0.9.6": "2020-10-14",
@@ -378,9 +379,7 @@
 "bookkeeper-4.13.0": "2021-02-18",
 "bookkeeper-4.14.8": "2023-08-17",
 "bookkeeper-4.15.5": "2023-12-12",
-"bookkeeper-4.16.6": "2024-06-14",
 "bookkeeper-4.16.7": "2025-06-24",
-"bookkeeper-4.17.1": "2024-06-14",
 "bookkeeper-4.17.2": "2025-06-26",
 "distributedlog-0.5.0": "2017-09-12"
 },
@@ -458,7 +457,7 @@
 "apache-camel-k-runtime-3.6.0": "2023-12-11",
 "apache-camel-k-runtime-3.8.1": "2024-03-25",
 "apache-camel-quarkus-3.15.4": "2025-06-26",
-"apache-camel-quarkus-3.20.1": "2025-04-30",
+"apache-camel-quarkus-3.20.2": "2025-07-02",
 "apache-camel-quarkus-3.24.0": "2025-06-19",
 "camel-k-sources-2.3.0": "2024-04-02",
 "camel-k-sources-2.3.1": "2024-04-29",
@@ -724,6 +723,7 @@
 "datafusion": {
 "apache-datafusion-47.0.0": "2025-04-20",
 "apache-datafusion-48.0.0": "2025-06-11",
+"apache-datafusion-48.0.1": "2025-07-07",
 "apache-datafusion-ballista-47.0.0": "2025-06-25",
 "apache-datafusion-comet-0.9.0": "2025-07-04",
 "apache-datafusion-python-47.0.0": "2025-05-28",
@@ -869,6 +869,7 @@
 "apache-doris-kafka-connector-1.0.0": "2024-03-12",
 "apache-doris-kafka-connector-1.1.0": "2024-07-10",
 "apache-doris-kafka-connector-24.0.0": "2024-12-31",
+"apache-doris-kafka-connector-25.0.0": "2025-07-03",
 "apache-doris-operator-24.0.0": "2024-10-31",
 "apache-doris-operator-24.1.0": "2024-11-22",
 "apache-doris-sdk-1.0.0": "2023-05-10",
@@ -1092,16 +1093,20 @@
 "apache-flink-1.19.0": "2024-03-07",
 "apache-flink-1.19.1": "2024-06-06",
 "apache-flink-1.19.2": "2025-01-28",
+"apache-flink-1.19.3": "2025-06-12",
 "apache-flink-1.20.0": "2024-07-25",
 "apache-flink-1.20.1": "2025-01-29",
+"apache-flink-1.20.2": "2025-06-13",
 "apache-flink-2.0.0": "2025-03-10",
 "apache-flink-libraries-1.17.2": "2023-11-13",
 "apache-flink-libraries-1.18.1": "2023-12-19",
 "apache-flink-libraries-1.19.0": "2024-03-07",
 "apache-flink-libraries-1.19.1": "2024-06-06",
 "apache-flink-libraries-1.19.2": "2025-01-28",
+"apache-flink-libraries-1.19.3": "2025-06-12",
 "apache-flink-libraries-1.20.0": "2024-07-25",
 "apache-flink-libraries-1.20.1": "2025-01-29",
+"apache-flink-libraries-1.20.2": "2025-06-13",
 "apache-flink-libraries-2.0.0": "2025-03-10",
 "apache-flink-ml-2.2.0": "2023-04-12",
 "apache-flink-ml-2.3.0": "2023-06-29",
@@ -1111,8 +1116,10 @@
 "flink-1.19.0": "2024-03-07",
 "flink-1.19.1": "2024-06-06",
 "flink-1.19.2": "2025-01-28",
+"flink-1.19.3": "2025-06-12",
 "flink-1.20.0": "2024-07-25",
 "flink-1.20.1": "2025-01-29",
+"flink-1.20.2": "2025-06-13",
 "flink-2.0-preview1": "2024-10-12",
 "flink-2.0.0": "2025-03-10",
 "flink-cdc-3.1.1": "2024-06-13",
@@ -1821,7 +1828,8 @@
 "apache-kudu-1.15.0": "2021-06-21",
 "apache-kudu-1.16.0": "2022-04-11",
 "apache-kudu-1.17.0": "2023-09-01",
-"apache-kudu-1.17.1": "2024-11-06"
+"apache-kudu-1.17.1": "2024-11-06",
+"apache-kudu-1.18.0": "2025-07-07"
 },
 "kvrocks": {
 "apache-kvrocks-2.1.0-incubating": "2022-08-03",
@@ -2246,6 +2254,7 @@
 "apache-nuttx-11.0.0-incubating": "2022-10-13",
 "apache-nuttx-12.0.0": "2023-01-16",
 "apache-nuttx-12.1.0": "2023-04-17",
+"apache-nuttx-12.10.0": "2025-07-07",
 "apache-nuttx-12.2.0": "2023-07-04",
 "apache-nuttx-12.2.1": "2023-07-17",
 "apache-nuttx-12.3.0": "2023-10-24",
@@ -2264,6 +2273,7 @@
 "apache-nuttx-apps-11.0.0-incubating": "2022-10-13",
 "apache-nuttx-apps-12.0.0": "2023-01-16",
 "apache-nuttx-apps-12.1.0": "2023-04-17",
+"apache-nuttx-apps-12.10.0": "2025-07-07",
 "apache-nuttx-apps-12.2.0": "2023-07-04",
 "apache-nuttx-apps-12.2.1": "2023-07-17",
 "apache-nuttx-apps-12.3.0": "2023-10-24",
@@ -2604,6 +2614,7 @@
 "apache-pulsar-client-cpp-3.6.0": "2024-08-30",
 "apache-pulsar-client-cpp-3.7.0": "2025-01-02",
 "apache-pulsar-client-cpp-3.7.1": "2025-05-04",
+"apache-pulsar-client-cpp-3.7.2": "2025-06-24",
 "apache-pulsar-client-go-0.13.0": "2024-07-15",
 "apache-pulsar-client-go-0.13.1": "2024-08-02",
 "apache-pulsar-client-go-0.14.0": "2024-09-23",
@@ -2901,7 +2912,8 @@
 "shiro-root-2.0.1": "2024-05-26",
 "shiro-root-2.0.2": "2024-11-07",
 "shiro-root-2.0.3": "2025-04-05",
-"shiro-root-2.0.4": "2025-04-17"
+"shiro-root-2.0.4": "2025-04-17",
+"shiro-root-2.0.5": "2025-07-02"
 },
 "singa": {
 "apache-singa-5.0.0": "2025-04-21"
@@ -3399,8 +3411,6 @@
 "apache-tomcat-10.1.43": "2025-07-01",
 "apache-tomcat-11.0.8": "2025-06-05",
 "apache-tomcat-11.0.9": "2025-07-01",
-"apache-tomcat-9.0.105": "2025-05-07",
-"apache-tomcat-9.0.106": "2025-06-05",
 "apache-tomcat-9.0.107": "2025-07-02",
 "jakartaee-migration-1.0.9": "2025-01-08",
 "taglibs-standard-1.2.5": "2015-03-10",
