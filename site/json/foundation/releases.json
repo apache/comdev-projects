@@ -450,6 +450,7 @@
 "apache-camel-4.10.6": "2025-06-27",
 "apache-camel-4.11.0": "2025-04-03",
 "apache-camel-4.12.0": "2025-05-29",
+"apache-camel-4.13.0": "2025-07-08",
 "apache-camel-4.8.8": "2025-06-26",
 "apache-camel-k-runtime-3.15.0": "2024-10-05",
 "apache-camel-k-runtime-3.15.2": "2025-01-27",
@@ -513,7 +514,7 @@
 },
 "causeway": {
 "causeway-bom-2.1.0": "2024-07-05",
-"causeway-bom-3.3.0": "2025-04-08"
+"causeway-bom-3.4.0": "2025-07-08"
 },
 "cayenne": {
 "cayenne-3.0.2": "2013-07-18",
@@ -1608,7 +1609,44 @@
 "apache-kie-10.0.0-incubating-sonataflow-operator": "2024-12-10",
 "apache-kie-10.0.0-incubating-sonataflow-operator-image": "2024-12-10",
 "apache-kie-10.0.0-incubating-stunner-editors": "2024-12-10",
-"apache-kie-10.0.0-incubating-tools-npm-packages": "2024-12-10"
+"apache-kie-10.0.0-incubating-tools-npm-packages": "2024-12-10",
+"apache-kie-10.1.0-incubating": "2025-07-08",
+"apache-kie-10.1.0-incubating-business-automation-chrome-extension": "2025-07-08",
+"apache-kie-10.1.0-incubating-business-automation-chrome-extension-editors": "2025-07-08",
+"apache-kie-10.1.0-incubating-business-automation-editors": "2025-07-08",
+"apache-kie-10.1.0-incubating-cors-proxy-image": "2025-07-08",
+"apache-kie-10.1.0-incubating-dashbuilder-viewer-image": "2025-07-08",
+"apache-kie-10.1.0-incubating-kogito-base-builder-image": "2025-07-08",
+"apache-kie-10.1.0-incubating-kogito-data-index-ephemeral-image": "2025-07-08",
+"apache-kie-10.1.0-incubating-kogito-data-index-postgresql-image": "2025-07-08",
+"apache-kie-10.1.0-incubating-kogito-db-migrator-tool-image": "2025-07-08",
+"apache-kie-10.1.0-incubating-kogito-jit-runner-image": "2025-07-08",
+"apache-kie-10.1.0-incubating-kogito-jobs-service-allinone-image": "2025-07-08",
+"apache-kie-10.1.0-incubating-kogito-jobs-service-ephemeral-image": "2025-07-08",
+"apache-kie-10.1.0-incubating-kogito-jobs-service-postgresql-image": "2025-07-08",
+"apache-kie-10.1.0-incubating-kogito-management-console-image": "2025-07-08",
+"apache-kie-10.1.0-incubating-runtime-tools-console-helm-chart": "2025-07-08",
+"apache-kie-10.1.0-incubating-sandbox": "2025-07-08",
+"apache-kie-10.1.0-incubating-sandbox-accelerator-quarkus": "2025-07-08",
+"apache-kie-10.1.0-incubating-sandbox-dev-deployment-base-image": "2025-07-08",
+"apache-kie-10.1.0-incubating-sandbox-dev-deployment-dmn-form-image": "2025-07-08",
+"apache-kie-10.1.0-incubating-sandbox-dev-deployment-quarkus-blank-app-image": "2025-07-08",
+"apache-kie-10.1.0-incubating-sandbox-extended-services-image": "2025-07-08",
+"apache-kie-10.1.0-incubating-sandbox-helm-chart": "2025-07-08",
+"apache-kie-10.1.0-incubating-sandbox-image": "2025-07-08",
+"apache-kie-10.1.0-incubating-serverless-logic-web-tools-base-builder-image": "2025-07-08",
+"apache-kie-10.1.0-incubating-serverless-logic-web-tools-swf-builder-image": "2025-07-08",
+"apache-kie-10.1.0-incubating-serverless-logic-web-tools-swf-dev-mode-image": "2025-07-08",
+"apache-kie-10.1.0-incubating-sonataflow-builder-image": "2025-07-08",
+"apache-kie-10.1.0-incubating-sonataflow-chrome-extension": "2025-07-08",
+"apache-kie-10.1.0-incubating-sonataflow-chrome-extension-editors": "2025-07-08",
+"apache-kie-10.1.0-incubating-sonataflow-devmode-image": "2025-07-08",
+"apache-kie-10.1.0-incubating-sonataflow-editors": "2025-07-08",
+"apache-kie-10.1.0-incubating-sonataflow-management-console-image": "2025-07-08",
+"apache-kie-10.1.0-incubating-sonataflow-operator": "2025-07-08",
+"apache-kie-10.1.0-incubating-sonataflow-operator-image": "2025-07-08",
+"apache-kie-10.1.0-incubating-stunner-editors": "2025-07-08",
+"apache-kie-10.1.0-incubating-tools-npm-packages": "2025-07-08"
 },
 "incubator-livy": {
 "apache-livy-0.6.0-incubating": "2019-03-19",
@@ -2211,7 +2249,6 @@
 },
 "netbeans": {
 "apache-netbeans-jackpot-13.0": "2022-06-21",
-"apache-netbeans-java-25.9.9": "2025-04-01",
 "apache-netbeans-java-26.0.0": "2025-05-26",
 "launcher-external-binaries-3-282bbc032bcd": "2025-04-10",
 "launcher-external-sources-3-282bbc032bcd": "2025-04-10",
@@ -2433,7 +2470,7 @@
 "orc": {
 "orc-1.8.10": "2025-06-23",
 "orc-1.9.7": "2025-06-30",
-"orc-2.0.5": "2025-05-04",
+"orc-2.0.6": "2025-07-04",
 "orc-2.1.2": "2025-05-03",
 "orc-format-1.1.0": "2025-04-15"
 },
@@ -2790,6 +2827,7 @@
 "rocketmq-spring-rocketmq-spring-all-2.3.1": "2024-07-25",
 "rocketmq-spring-rocketmq-spring-all-2.3.2": "2025-02-16",
 "rocketmq-spring-rocketmq-spring-all-2.3.3": "2025-03-20",
+"rocketmq-spring-rocketmq-spring-all-2.3.4": "2025-07-08",
 "rocketmq-streams-1.0.1-preview": "2022-05-27"
 },
 "roller": {
