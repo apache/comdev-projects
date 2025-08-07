@@ -1166,6 +1166,9 @@
 "apache-brpc-1.14.0": [
 "brpc/1.14.0/apache-brpc-1.14.0-src.tar.gz"
 ],
+"apache-brpc-1.14.1": [
+"brpc/1.14.1/apache-brpc-1.14.1-src.tar.gz"
+],
 "apache-brpc-1.2.0-incubating": [
 "brpc/1.2.0/apache-brpc-1.2.0-incubating-src.tar.gz"
 ],
@@ -2100,6 +2103,12 @@
 "cxf/3.6.7/apache-cxf-3.6.7.tar.gz",
 "cxf/3.6.7/apache-cxf-3.6.7.zip"
 ],
+"apache-cxf-3.6.8": [
+"cxf/3.6.8/apache-cxf-3.6.8-src.tar.gz",
+"cxf/3.6.8/apache-cxf-3.6.8-src.zip",
+"cxf/3.6.8/apache-cxf-3.6.8.tar.gz",
+"cxf/3.6.8/apache-cxf-3.6.8.zip"
+],
 "apache-cxf-4.0.4": [
 "cxf/4.0.4/apache-cxf-4.0.4-src.tar.gz",
 "cxf/4.0.4/apache-cxf-4.0.4-src.zip",
@@ -2130,6 +2139,12 @@
 "cxf/4.0.8/apache-cxf-4.0.8.tar.gz",
 "cxf/4.0.8/apache-cxf-4.0.8.zip"
 ],
+"apache-cxf-4.0.9": [
+"cxf/4.0.9/apache-cxf-4.0.9-src.tar.gz",
+"cxf/4.0.9/apache-cxf-4.0.9-src.zip",
+"cxf/4.0.9/apache-cxf-4.0.9.tar.gz",
+"cxf/4.0.9/apache-cxf-4.0.9.zip"
+],
 "apache-cxf-4.1.0": [
 "cxf/4.1.0/apache-cxf-4.1.0-src.tar.gz",
 "cxf/4.1.0/apache-cxf-4.1.0-src.zip",
@@ -2147,6 +2162,12 @@
 "cxf/4.1.2/apache-cxf-4.1.2-src.zip",
 "cxf/4.1.2/apache-cxf-4.1.2.tar.gz",
 "cxf/4.1.2/apache-cxf-4.1.2.zip"
+],
+"apache-cxf-4.1.3": [
+"cxf/4.1.3/apache-cxf-4.1.3-src.tar.gz",
+"cxf/4.1.3/apache-cxf-4.1.3-src.zip",
+"cxf/4.1.3/apache-cxf-4.1.3.tar.gz",
+"cxf/4.1.3/apache-cxf-4.1.3.zip"
 ],
 "apache-fediz-1.7.1": [
 "cxf/fediz/1.7.1/apache-fediz-1.7.1.zip"
@@ -3935,8 +3956,8 @@
 "apache-groovy-4.0.28": [
 "groovy/4.0.28/sources/apache-groovy-src-4.0.28.zip"
 ],
-"apache-groovy-5.0.0-beta-2": [
-"groovy/5.0.0-beta-2/sources/apache-groovy-src-5.0.0-beta-2.zip"
+"apache-groovy-5.0.0-rc-1": [
+"groovy/5.0.0-rc-1/sources/apache-groovy-src-5.0.0-rc-1.zip"
 ],
 "apache-groovy-sdk-2.4.21": [
 "groovy/2.4.21/distribution/apache-groovy-sdk-2.4.21.zip"
@@ -3950,8 +3971,8 @@
 "apache-groovy-sdk-4.0.28": [
 "groovy/4.0.28/distribution/apache-groovy-sdk-4.0.28.zip"
 ],
-"apache-groovy-sdk-5.0.0-beta-2": [
-"groovy/5.0.0-beta-2/distribution/apache-groovy-sdk-5.0.0-beta-2.zip"
+"apache-groovy-sdk-5.0.0-rc-1": [
+"groovy/5.0.0-rc-1/distribution/apache-groovy-sdk-5.0.0-rc-1.zip"
 ]
 },
 "guacamole": {
@@ -5318,14 +5339,6 @@
 ],
 "james-server-spring-app-3.8.2": [
 "james/server/3.8.2/james-server-spring-app-3.8.2-app.zip"
-]
-},
-"jclouds": {
-"jclouds-2.6.0": [
-"jclouds/2.6.0/jclouds-2.6.0-source-release.tar.gz"
-],
-"jclouds-2.7.0": [
-"jclouds/2.7.0/jclouds-2.7.0-source-release.tar.gz"
 ]
 },
 "jena": {
@@ -8005,6 +8018,9 @@
 "pulsar-4.1.0": [
 "pulsar/helm-chart/4.1.0/pulsar-4.1.0.tgz"
 ],
+"pulsar-4.2.0": [
+"pulsar/helm-chart/4.2.0/pulsar-4.2.0.tgz"
+],
 "pulsar-chart-3.0.0": [
 "pulsar/helm-chart/3.0.0/pulsar-chart-3.0.0-source.tar.gz"
 ],
@@ -8049,6 +8065,9 @@
 ],
 "pulsar-chart-4.1.0": [
 "pulsar/helm-chart/4.1.0/pulsar-chart-4.1.0-source.tar.gz"
+],
+"pulsar-chart-4.2.0": [
+"pulsar/helm-chart/4.2.0/pulsar-chart-4.2.0-source.tar.gz"
 ],
 "pulsar-client-python-3.5.0": [
 "pulsar/pulsar-client-python-3.5.0/pulsar-client-python-3.5.0.tar.gz"
@@ -10282,13 +10301,17 @@
 "tomcat/tomcat-10/v10.1.43/src/apache-tomcat-10.1.43-src.tar.gz",
 "tomcat/tomcat-10/v10.1.43/src/apache-tomcat-10.1.43-src.zip"
 ],
+"apache-tomcat-11.0.10": [
+"tomcat/tomcat-11/v11.0.10/src/apache-tomcat-11.0.10-src.tar.gz",
+"tomcat/tomcat-11/v11.0.10/src/apache-tomcat-11.0.10-src.zip"
+],
 "apache-tomcat-11.0.9": [
 "tomcat/tomcat-11/v11.0.9/src/apache-tomcat-11.0.9-src.tar.gz",
 "tomcat/tomcat-11/v11.0.9/src/apache-tomcat-11.0.9-src.zip"
 ],
-"apache-tomcat-9.0.107": [
-"tomcat/tomcat-9/v9.0.107/src/apache-tomcat-9.0.107-src.tar.gz",
-"tomcat/tomcat-9/v9.0.107/src/apache-tomcat-9.0.107-src.zip"
+"apache-tomcat-9.0.108": [
+"tomcat/tomcat-9/v9.0.108/src/apache-tomcat-9.0.108-src.tar.gz",
+"tomcat/tomcat-9/v9.0.108/src/apache-tomcat-9.0.108-src.zip"
 ],
 "jakartaee-migration-1.0.9": [
 "tomcat/jakartaee-migration/v1.0.9/source/jakartaee-migration-1.0.9-src.tar.gz",
@@ -10334,8 +10357,8 @@
 "tomee/tomee-10.1.0/apache-tomee-10.1.0-webprofile.tar.gz",
 "tomee/tomee-10.1.0/apache-tomee-10.1.0-webprofile.zip"
 ],
-"jakartaee-api-parent-10.0": [
-"tomee/jakartaee-api-10.0/jakartaee-api-parent-10.0-source-release.zip"
+"jakartaee-api-parent-10.0.1": [
+"tomee/jakartaee-api-10.0.1/jakartaee-api-parent-10.0.1-source-release.zip"
 ],
 "tomee-10.1.0": [
 "tomee/tomee-10.1.0/tomee-project-10.1.0-source-release.zip"
