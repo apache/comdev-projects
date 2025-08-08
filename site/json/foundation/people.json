@@ -255,8 +255,6 @@
 "hadoop",
 "incubator",
 "incubator-pmc",
-"jclouds",
-"jclouds-pmc",
 "yetus",
 "yetus-pmc"
 ],
@@ -3196,9 +3194,7 @@
 "groups": [
 "brooklyn",
 "brooklyn-pmc",
-"incubator",
-"jclouds",
-"jclouds-pmc"
+"incubator"
 ],
 "member": false,
 "name": "Andrea Turli"
@@ -3254,9 +3250,7 @@
 },
 "andrewp": {
 "groups": [
-"incubator",
-"jclouds",
-"jclouds-pmc"
+"incubator"
 ],
 "member": false,
 "name": "Andrew Phillips"
@@ -8117,7 +8111,6 @@
 "httpd-pmc",
 "incubator",
 "incubator-pmc",
-"jclouds",
 "mesos",
 "mesos-pmc",
 "openjpa"
@@ -9017,8 +9010,7 @@
 "carlos": {
 "groups": [
 "incubator",
-"incubator-pmc",
-"jclouds"
+"incubator-pmc"
 ],
 "member": true,
 "name": "Carlos Sanchez Gonzalez"
@@ -9353,8 +9345,6 @@
 "directory-pmc",
 "felix",
 "felix-pmc",
-"jclouds",
-"jclouds-pmc",
 "karaf",
 "karaf-pmc",
 "servicemix",
@@ -14155,13 +14145,6 @@
 "member": true,
 "name": "Martin Desruisseaux"
 },
-"destevez": {
-"groups": [
-"jclouds"
-],
-"member": false,
-"name": "Daniel Estevez"
-},
 "dettborn": {
 "groups": [
 "portals"
@@ -14198,13 +14181,6 @@
 ],
 "member": false,
 "name": "Karl Tauber"
-},
-"devcsrj": {
-"groups": [
-"jclouds"
-],
-"member": false,
-"name": "Reijhanniel"
 },
 "devdeep": {
 "groups": [
@@ -16314,6 +16290,8 @@
 },
 "dsahlberg": {
 "groups": [
+"apr",
+"apr-pmc",
 "serf",
 "serf-pmc",
 "subversion",
@@ -18516,9 +18494,7 @@
 },
 "everett": {
 "groups": [
-"incubator",
-"jclouds",
-"jclouds-pmc"
+"incubator"
 ],
 "member": false,
 "name": "Everett Toews"
@@ -20553,9 +20529,7 @@
 },
 "gaul": {
 "groups": [
-"incubator",
-"jclouds",
-"jclouds-pmc"
+"incubator"
 ],
 "member": false,
 "name": "Andrew Gaul"
@@ -23833,7 +23807,6 @@
 "commons-pmc",
 "incubator",
 "incubator-pmc",
-"jclouds",
 "jspwiki",
 "maven",
 "maven-pmc",
@@ -25981,8 +25954,6 @@
 "curator",
 "curator-pmc",
 "incubator",
-"jclouds",
-"jclouds-pmc",
 "karaf",
 "karaf-pmc",
 "servicemix"
@@ -27545,8 +27516,6 @@
 "incubator-pmc",
 "inlong",
 "inlong-pmc",
-"jclouds",
-"jclouds-pmc",
 "karaf",
 "karaf-pmc",
 "kvrocks",
@@ -27874,13 +27843,6 @@
 ],
 "member": false,
 "name": "Jimmy Da"
-},
-"jdaggett": {
-"groups": [
-"jclouds"
-],
-"member": false,
-"name": "Jeremy Daggett"
 },
 "jdailey": {
 "groups": [
@@ -29824,6 +29786,13 @@
 "member": true,
 "name": "John Interrante"
 },
+"jinwoo": {
+"groups": [
+"geode"
+],
+"member": false,
+"name": "Jinwoo Hwang"
+},
 "jinxing": {
 "groups": [
 "calcite"
@@ -30572,13 +30541,6 @@
 ],
 "member": false,
 "name": "James M. Snell"
-},
-"jmspring": {
-"groups": [
-"jclouds"
-],
-"member": false,
-"name": "Jim Spring"
 },
 "jmssiera": {
 "groups": [
@@ -33813,8 +33775,6 @@
 "incubator",
 "incubator-pmc",
 "inlong",
-"jclouds",
-"jclouds-pmc",
 "kibble",
 "kibble-pmc",
 "petri",
@@ -40672,9 +40632,7 @@
 },
 "mattstep": {
 "groups": [
-"incubator",
-"jclouds",
-"jclouds-pmc"
+"incubator"
 ],
 "member": false,
 "name": "Matt Stephenson"
@@ -43469,7 +43427,6 @@
 "cloudstack-pmc",
 "incubator",
 "incubator-pmc",
-"jclouds",
 "tomee"
 ],
 "member": true,
@@ -44885,8 +44842,6 @@
 "comdev-pmc",
 "incubator",
 "incubator-pmc",
-"jclouds",
-"jclouds-pmc",
 "skywalking",
 "skywalking-pmc"
 ],
@@ -47052,7 +47007,6 @@
 "helix-pmc",
 "incubator",
 "incubator-pmc",
-"jclouds",
 "maven",
 "maven-pmc",
 "pinot",
@@ -57438,9 +57392,7 @@
 },
 "silkysun": {
 "groups": [
-"incubator",
-"jclouds",
-"jclouds-pmc"
+"incubator"
 ],
 "member": false,
 "name": "Becca Wood"
@@ -58179,7 +58131,6 @@
 "comdev-pmc",
 "incubator",
 "incubator-pmc",
-"jclouds",
 "sis",
 "sis-pmc"
 ],
@@ -60500,8 +60451,7 @@
 "groups": [
 "brooklyn",
 "brooklyn-pmc",
-"incubator",
-"jclouds"
+"incubator"
 ],
 "member": false,
 "name": "Svetoslav Neykov"
@@ -62978,7 +62928,6 @@
 "tomaz": {
 "groups": [
 "incubator",
-"jclouds",
 "libcloud",
 "libcloud-pmc"
 ],
@@ -63142,7 +63091,6 @@
 "impala",
 "incubator",
 "incubator-pmc",
-"jclouds",
 "mesos",
 "mesos-pmc",
 "parquet",
@@ -70483,9 +70431,7 @@
 },
 "zachsh": {
 "groups": [
-"incubator",
-"jclouds",
-"jclouds-pmc"
+"incubator"
 ],
 "member": false,
 "name": "Zahari Shoylev"
