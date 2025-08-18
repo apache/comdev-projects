@@ -36,7 +36,8 @@
   <location>https://raw.githubusercontent.com/apache/airflow/main/doap_airflow.rdf</location>
   <location>https://svn.apache.org/repos/asf/allura/doap_Allura.rdf</location>
   <location>http://ambari.apache.org/doap.rdf</location>
-  <location>https://annotator.apache.org/doap.rdf</location>
+  <!-- Annotator retired, so cannot use the website to access DOAP -->
+  <location>https://raw.githubusercontent.com/apache/incubator-annotator-website/refs/heads/asf-site/content/doap.rdf</location>
   <location>https://ant.apache.org/doap_Ant.rdf</location>
   <location>https://ant.apache.org/antlibs/antunit/doap_AntUnit.rdf</location>
   <location>https://ant.apache.org/antlibs/compress/doap_CompressAntlib.rdf</location>
