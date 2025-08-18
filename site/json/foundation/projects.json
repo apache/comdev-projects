@@ -11201,30 +11201,11 @@
 ],
 "shortdesc": "A high-performance distributed SQL engine."
 },
-"incubator-annotator": {
-"bug-database": "https://github.com/apache/incubator-annotator/issues",
-"category": "content",
-"created": "2017-05-31",
-"description": "Apache Annotator is a collaborative community for creating annotation related code which works to provide a future for Annotator.js-based projects and plugins while enabling W3C spec-compliant Web Annotation in Web browsers, Web Publication readers, and the servers that serve them.",
-"doap": "https://annotator.apache.org/doap.rdf",
-"homepage": "http://annotator.apache.org",
-"implements": [
-{
-"body": "W3C",
-"id": "annotation-model",
-"title": "Web Annotation Data Model",
-"url": "https://www.w3.org/TR/annotation-model/"
-}
-],
-"license": "http://spdx.org/licenses/Apache-2.0",
-"mailing-list": "https://lists.apache.org/list.html?dev@annotator.apache.org",
-"name": "Apache Annotator",
-"pmc": "incubator",
-"programming-language": "JavaScript",
-"repository": [
-"http://git@github.com:apache/incubator-annotator.git"
-],
-"shortdesc": "Apache Annotator provides annotation enabling code for browsers, servers, and humans."
+"incubator": {
+"category": "no-tlp-doap",
+"homepage": "https://incubator.apache.org",
+"name": "Apache Incubator",
+"pmc": "incubator"
 },
 "inlong": {
 "bug-database": "https://github.com/apache/inlong/issues",
