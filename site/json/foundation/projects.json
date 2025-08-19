@@ -11201,11 +11201,30 @@
 ],
 "shortdesc": "A high-performance distributed SQL engine."
 },
-"incubator": {
-"category": "no-tlp-doap",
-"homepage": "https://incubator.apache.org",
-"name": "Apache Incubator",
-"pmc": "incubator"
+"incubator-annotator": {
+"bug-database": "https://github.com/apache/incubator-annotator/issues",
+"category": "content",
+"created": "2017-05-31",
+"description": "Apache Annotator is a collaborative community for creating annotation related code which works to provide a future for Annotator.js-based projects and plugins while enabling W3C spec-compliant Web Annotation in Web browsers, Web Publication readers, and the servers that serve them.",
+"doap": "https://raw.githubusercontent.com/apache/incubator-annotator-website/refs/heads/asf-site/content/doap.rdf",
+"homepage": "http://annotator.apache.org",
+"implements": [
+{
+"body": "W3C",
+"id": "annotation-model",
+"title": "Web Annotation Data Model",
+"url": "https://www.w3.org/TR/annotation-model/"
+}
+],
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://lists.apache.org/list.html?dev@annotator.apache.org",
+"name": "Apache Annotator",
+"pmc": "incubator",
+"programming-language": "JavaScript",
+"repository": [
+"http://git@github.com:apache/incubator-annotator.git"
+],
+"shortdesc": "Apache Annotator provides annotation enabling code for browsers, servers, and humans."
 },
 "inlong": {
 "bug-database": "https://github.com/apache/inlong/issues",
@@ -19579,7 +19598,7 @@
 },
 "tsfile": {
 "bug-database": "https://github.com/apache/tsfile/issues",
-"category": "big-data, iot, java, python, c++",
+"category": "big-data, iot, java, python, c++, c",
 "created": "2024-02-20",
 "description": "TsFile is a columnar storage file format designed for time series data, which supports efficient compression, high throughput of read and write, and compatibility with various frameworks, such as Spark and Flink. It is easy to integrate TsFile into IoT big data processing frameworks.",
 "doap": "https://raw.githubusercontent.com/apache/tsfile/develop/doap_tsfile.rdf",
@@ -19588,8 +19607,13 @@
 "mailing-list": "dev@tsfile.apache.org",
 "name": "Apache TsFile",
 "pmc": "tsfile",
-"programming-language": "Java, C++, Python",
+"programming-language": "Java, C++, C, Python",
 "release": [
+{
+"created": "2025-08-18",
+"name": "Apache TsFile",
+"revision": "2.1.1"
+},
 {
 "created": "2025-07-11",
 "name": "Apache TsFile",
