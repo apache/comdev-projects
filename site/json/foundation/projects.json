@@ -20,6 +20,11 @@
 "programming-language": "Java",
 "release": [
 {
+"created": "2025-08-20",
+"name": "Apache Accumulo",
+"revision": "2.1.4"
+},
+{
 "created": "2024-08-12",
 "name": "Apache Accumulo",
 "revision": "2.1.3"
@@ -890,6 +895,12 @@
 "https://gitbox.apache.org/repos/asf/ant-antlibs-vss.git"
 ],
 "shortdesc": "Microsoft Visual Source Safe support for Apache Ant."
+},
+"apachetraining": {
+"category": "no-tlp-doap",
+"homepage": "https://apachetraining.apache.org",
+"name": "Apache Apachetraining",
+"pmc": "apachetraining"
 },
 "apisix": {
 "category": "no-tlp-doap",
@@ -10507,6 +10518,12 @@
 ],
 "shortdesc": "A cluster management framework for partitioned and replicated distributed resources"
 },
+"hertzbeat": {
+"category": "no-tlp-doap",
+"homepage": "https://hertzbeat.apache.org",
+"name": "Apache Hertzbeat",
+"pmc": "hertzbeat"
+},
 "hive": {
 "bug-database": "https://issues.apache.org/jira/browse/HIVE",
 "category": "database",
@@ -12621,12 +12638,6 @@
 "shortdesc": "Apache log4php is a logging framework for PHP.",
 "shortname": "log4php"
 },
-"logodev": {
-"category": "no-tlp-doap",
-"homepage": "https://logodev.apache.org",
-"name": "Apache Logodev",
-"pmc": "logodev"
-},
 "lucene-core": {
 "bug-database": "https://github.com/apache/lucene/issues",
 "category": "database, library, search",
@@ -14514,7 +14525,7 @@
 },
 "mesos": {
 "bug-database": "https://issues.apache.org/jira/browse/MESOS",
-"category": "cloud",
+"category": "cloud, retired",
 "created": "2014-06-19",
 "description": "Apache Mesos is a cluster manager that provides efficient resource isolation \nand sharing across distributed applications, or frameworks. It can run Hadoop, \nMPI, Hypertable, Spark, and other frameworks on a dynamically shared pool of \nnodes.\n",
 "doap": "http://svn.apache.org/repos/asf/mesos/site/doap.rdf",
@@ -14529,7 +14540,7 @@
 }
 ],
 "name": "Apache Mesos",
-"pmc": "mesos",
+"pmc": "attic",
 "programming-language": "C++",
 "release": [
 {
@@ -18834,6 +18845,12 @@
 "http://svn.apache.org/repos/asf/tcl/websh/trunk"
 ],
 "shortdesc": "Websh is a rapid development environment for building powerful, fast, and reliable web applications in Tcl"
+},
+"teaclave": {
+"category": "no-tlp-doap",
+"homepage": "https://teaclave.apache.org",
+"name": "Apache Teaclave",
+"pmc": "teaclave"
 },
 "tez": {
 "bug-database": "https://issues.apache.org/jira/browse/TEZ",

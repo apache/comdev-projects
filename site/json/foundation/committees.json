@@ -900,7 +900,7 @@
 "shortdesc": "A Q-and-A platform software for teams at any scales"
 },
 {
-"chair": "jhm",
+"chair": "jaikiran",
 "charter": "The mission of Apache Ant is the creation and maintenance of the Ant build system and related software components",
 "established": "2002-11",
 "group": "ant",
@@ -1000,6 +1000,38 @@
 }
 },
 "shortdesc": "Java-based build tool"
+},
+{
+"chair": "jmclean",
+"established": "2025-08",
+"group": "apachetraining",
+"homepage": "http://apachetraining.apache.org",
+"id": "apachetraining",
+"name": "Apache Apache Training",
+"reporting": 1,
+"roster": {
+"andreww": {
+"date": "2025-08-20",
+"name": "Andrew Wetmore"
+},
+"cdutz": {
+"date": "2025-08-20",
+"name": "Christofer Dutz"
+},
+"clr": {
+"date": "2025-08-20",
+"name": "Craig L Russell"
+},
+"jmclean": {
+"date": "2025-08-20",
+"name": "Justin Mclean"
+},
+"rbowen": {
+"date": "2025-08-20",
+"name": "Rich Bowen"
+}
+},
+"shortdesc": "training materials for Apache projects and the Apache Software Foundation"
 },
 {
 "chair": "wenming",
@@ -9285,6 +9317,90 @@
 "shortdesc": "A cluster management framework for partitioned and replicated distributed resources"
 },
 {
+"chair": "gongchao",
+"established": "2025-08",
+"group": "hertzbeat",
+"homepage": "http://hertzbeat.apache.org",
+"id": "hertzbeat",
+"name": "Apache HertzBeat",
+"reporting": 1,
+"roster": {
+"ceilzcx": {
+"date": "2025-08-20",
+"name": "Chenxin Zheng"
+},
+"francischuang": {
+"date": "2025-08-20",
+"name": "Francis Chuang"
+},
+"gaochen": {
+"date": "2025-08-20",
+"name": "Chen Gao"
+},
+"gaoxingcun": {
+"date": "2025-08-20",
+"name": "Xingcun Gao"
+},
+"gongchao": {
+"date": "2025-08-20",
+"name": "Chao Gong"
+},
+"huacheng": {
+"date": "2025-08-20",
+"name": "QingHua Wang"
+},
+"hudongdong": {
+"date": "2025-08-20",
+"name": "Dongdong Hu"
+},
+"jianingwang": {
+"date": "2025-08-20",
+"name": "Jianing Wang"
+},
+"jmclean": {
+"date": "2025-08-20",
+"name": "Justin Mclean"
+},
+"liuhongyu": {
+"date": "2025-08-20",
+"name": "Hongyu Liu"
+},
+"liutianyou": {
+"date": "2025-08-20",
+"name": "Tianyou Liu"
+},
+"shenghang": {
+"date": "2025-08-20",
+"name": "Shenghang Zhang"
+},
+"shushengzhou": {
+"date": "2025-08-20",
+"name": "Shusheng Zhou"
+},
+"xiaoyu": {
+"date": "2025-08-20",
+"name": "Yu Xiao"
+},
+"xixihaha": {
+"date": "2025-08-20",
+"name": "Xiangdong Zhang"
+},
+"zhangyang2024": {
+"date": "2025-08-20",
+"name": "Yang Zhang"
+},
+"zhangyonglun": {
+"date": "2025-08-20",
+"name": "Yonglun Zhang"
+},
+"zhaoqingran": {
+"date": "2025-08-20",
+"name": "Qingran Zhao"
+}
+},
+"shortdesc": "a real-time monitoring system with agentless, performance cluster, prometheus-compatible, custom monitoring and status page building capabilities"
+},
+{
 "chair": "ngangam",
 "charter": "The mission of Hive is the creation and maintenance of software related to Data warehouse infrastructure using the Apache Hadoop Database",
 "established": "2010-09",
@@ -13583,72 +13699,6 @@
 "shortdesc": "Cross-language logging services"
 },
 {
-"chair": "humbedooh",
-"charter": "The mission of Apache Logo Development is the creation and maintenance of software related to Creation and development of a brand and logo for the Foundation",
-"established": "2024-08",
-"group": "logodev",
-"homepage": "https://logodev.apache.org/",
-"id": "logodev",
-"name": "Apache Logo Development",
-"rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/logodev.rdf",
-"reporting": 3,
-"roster": {
-"bdelacretaz": {
-"date": "2024-08-21",
-"name": "Bertrand Delacretaz"
-},
-"bkp": {
-"date": "2024-08-21",
-"name": "Brian Proffitt"
-},
-"clr": {
-"date": "2024-08-21",
-"name": "Craig Russell"
-},
-"erans": {
-"date": "2024-08-21",
-"name": "Gilles Sadowski"
-},
-"gstein": {
-"date": "2024-08-21",
-"name": "Greg Stein"
-},
-"hartmannathan": {
-"date": "2024-08-21",
-"name": "Nathan Hartman"
-},
-"humbedooh": {
-"date": "2024-08-21",
-"name": "Daniel Gruno"
-},
-"jdailey": {
-"date": "2024-08-21",
-"name": "James Dailey"
-},
-"knmc": {
-"date": "2024-08-21",
-"name": "Keith N. McKenna"
-},
-"melissalogan": {
-"date": "2024-08-28",
-"name": "Melissa Logan"
-},
-"rvs": {
-"date": "2024-08-21",
-"name": "Roman Shaposhnik"
-},
-"suehle": {
-"date": "2024-08-21",
-"name": "Ruth Suehle"
-},
-"wells": {
-"date": "2024-08-21",
-"name": "Chris Wells"
-}
-},
-"shortdesc": "Creation and development of a brand and logo for the Foundation"
-},
-{
 "chair": "dweiss",
 "charter": "The mission of Lucene is the creation and maintenance of software related to Search engine library",
 "established": "2005-01",
@@ -14309,220 +14359,6 @@
 "shortdesc": "Java project management and comprehension tools"
 },
 {
-"chair": "qianzhang",
-"charter": "The mission of Mesos is the creation and maintenance of software related to a cluster manager that provides efficient resource isolation and sharing across distributed applications",
-"established": "2013-06",
-"group": "mesos",
-"homepage": "https://mesos.apache.org/",
-"id": "mesos",
-"name": "Apache Mesos",
-"rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/mesos.rdf",
-"reporting": 1,
-"roster": {
-"abudnik": {
-"date": "2019-03-12",
-"name": "Andrei Budnik"
-},
-"alexr": {
-"date": "2016-03-21",
-"name": "Alex R"
-},
-"alig": {
-"date": "2013-06-19",
-"name": "Ali Ghodsi"
-},
-"anand": {
-"date": "2016-07-19",
-"name": "Anand Mazumdar"
-},
-"andrew": {
-"date": "2013-06-19",
-"name": "Andy Konwinski"
-},
-"andschwa": {
-"date": "2017-11-22",
-"name": "Andrew Schwartzmeyer"
-},
-"arojas": {
-"date": "2017-07-02",
-"name": "Alexander Rojas"
-},
-"asekretenko": {
-"date": "2020-01-21",
-"name": "Andrei Sekretenko"
-},
-"bbannier": {
-"date": "2017-09-12",
-"name": "Benjamin Bannier"
-},
-"benh": {
-"date": "2013-06-19",
-"name": "Benjamin Hindman"
-},
-"bennoe": {
-"date": "2019-03-12",
-"name": "Benno Evers"
-},
-"bernd": {
-"date": "2015-07-06",
-"name": "Bernd Mathiske"
-},
-"bmahler": {
-"date": "2013-06-19",
-"name": "Ben Mahler"
-},
-"brenden": {
-"date": "2013-06-19",
-"name": "Brenden Matthews"
-},
-"brianm": {
-"date": "2013-06-19",
-"name": "Brian McCallister"
-},
-"cfnatali": {
-"date": "2021-08-08",
-"name": "Charles-Fran\u00e7ois Natali"
-},
-"chhsiao": {
-"date": "2018-03-19",
-"name": "Chun-Hung Hsiao"
-},
-"dlester": {
-"date": "2013-07-15",
-"name": "Dave Lester"
-},
-"dma": {
-"date": "2014-07-07",
-"name": "Dominic Hamon"
-},
-"gaston": {
-"date": "2018-07-09",
-"name": "Gast\u00f3n Kleiman"
-},
-"gilbert": {
-"date": "2017-05-02",
-"name": "Gilbert Song"
-},
-"grag": {
-"date": "2017-06-29",
-"name": "Greg Mann"
-},
-"gyliu": {
-"date": "2017-01-09",
-"name": "Guangya Liu"
-},
-"haosdent": {
-"date": "2017-01-09",
-"name": "Haosdent Huang"
-},
-"ianh": {
-"date": "2013-06-19",
-"name": "Ian Holsman"
-},
-"idownes": {
-"date": "2014-04-11",
-"name": "Ian Downes"
-},
-"jieyu": {
-"date": "2014-01-26",
-"name": "Jie Yu"
-},
-"joris": {
-"date": "2015-09-20",
-"name": "Joris Van Remoortere"
-},
-"josephwu": {
-"date": "2016-07-19",
-"name": "Joseph Wu"
-},
-"jpeach": {
-"date": "2017-07-15",
-"name": "James Peach"
-},
-"kapil": {
-"date": "2016-07-20",
-"name": "Kapil Arya"
-},
-"klueska": {
-"date": "2017-02-22",
-"name": "Kevin Klues"
-},
-"matei": {
-"date": "2013-06-19",
-"name": "Matei Zaharia"
-},
-"mattmann": {
-"date": "2013-06-19",
-"name": "Chris Mattmann"
-},
-"me": {
-"date": "2014-06-23",
-"name": "Adam Bordelon"
-},
-"mpark": {
-"date": "2015-07-28",
-"name": "Michael Park"
-},
-"mzhu": {
-"date": "2018-10-29",
-"name": "Meng Zhu"
-},
-"neilc": {
-"date": "2017-01-12",
-"name": "Neil Conway"
-},
-"nnielsen": {
-"date": "2013-11-25",
-"name": "Niklas Nielsen"
-},
-"qianzhang": {
-"date": "2016-11-15",
-"name": "Qian Zhang"
-},
-"ssorallen": {
-"date": "2013-07-15",
-"name": "Ross Allen"
-},
-"tillt": {
-"date": "2014-05-08",
-"name": "Till Toenshoff"
-},
-"tmarshall": {
-"date": "2013-06-19",
-"name": "Thomas Marshall"
-},
-"tnachen": {
-"date": "2014-09-15",
-"name": "Timothy Chen"
-},
-"tomwhite": {
-"date": "2013-06-19",
-"name": "Tom White"
-},
-"tstclair": {
-"date": "2014-07-28",
-"name": "Timothy St. Clair"
-},
-"vinodkone": {
-"date": "2013-06-19",
-"name": "Vinod Kone"
-},
-"woggle": {
-"date": "2013-06-19",
-"name": "Charles Reiss"
-},
-"yan": {
-"date": "2014-03-24",
-"name": "Yan Xu"
-},
-"zhitao": {
-"date": "2018-03-19",
-"name": "Zhitao Li"
-}
-},
-"shortdesc": "a cluster manager that provides efficient resource isolation and sharing across distributed applications"
-},
-{
 "chair": "twolf",
 "charter": "The mission of MINA is the creation and maintenance of software related to Multipurpose Infrastructure for Network Application",
 "established": "2006-10",
@@ -15163,7 +14999,7 @@
 "shortdesc": "development environment, tooling platform, and application framework"
 },
 {
-"chair": "joewitt",
+"chair": "exceptionfactory",
 "charter": "The mission of NiFi is the creation and maintenance of software related to Easy to use, powerful, and reliable system to process and distribute data",
 "established": "2015-07",
 "group": "nifi",
@@ -16678,6 +16514,10 @@
 "swagle": {
 "date": "2020-10-21",
 "name": "Siddharth Wagle"
+},
+"swamirishi": {
+"date": "2025-08-20",
+"name": "Swaminathan Balachandran"
 },
 "szetszwo": {
 "date": "2020-10-21",
@@ -20825,7 +20665,7 @@
 "shortdesc": "Fast and general engine for large-scale data processing"
 },
 {
-"chair": "humbedooh",
+"chair": "gstein",
 "charter": "The mission of Steve is the creation and maintenance of software related to Apache's Python based single transferable vote software system",
 "established": "2012-07",
 "group": "steve",
@@ -22133,6 +21973,90 @@
 }
 },
 "shortdesc": "Dynamic websites using TCL"
+},
+{
+"chair": "zfc",
+"established": "2025-08",
+"group": "teaclave",
+"homepage": "http://teaclave.apache.org",
+"id": "teaclave",
+"name": "Apache Teaclave",
+"reporting": 3,
+"roster": {
+"dingyu": {
+"date": "2025-08-20",
+"name": "Yu Ding"
+},
+"garyw": {
+"date": "2025-08-20",
+"name": "Gang Wang"
+},
+"hsun": {
+"date": "2025-08-20",
+"name": "He Sun"
+},
+"kamaci": {
+"date": "2025-08-20",
+"name": "Furkan Kamaci"
+},
+"lenxwei": {
+"date": "2025-08-20",
+"name": "Tao Wei"
+},
+"litongxin1991": {
+"date": "2025-08-20",
+"name": "Tongxin Li"
+},
+"mssun": {
+"date": "2025-08-20",
+"name": "Mingshen Sun"
+},
+"ningjiang": {
+"date": "2025-08-20",
+"name": "Willem Ning Jiang"
+},
+"rduan": {
+"date": "2025-08-20",
+"name": "Duan Ran"
+},
+"rundongzhou": {
+"date": "2025-08-20",
+"name": "Rundong Zhou"
+},
+"shaojunwang": {
+"date": "2025-08-20",
+"name": "Shaojun Wang"
+},
+"tison": {
+"date": "2025-08-20",
+"name": "Zili Chen"
+},
+"uraj": {
+"date": "2025-08-20",
+"name": "Pei Wang"
+},
+"xuanwo": {
+"date": "2025-08-20",
+"name": "Hao Ding"
+},
+"yjing": {
+"date": "2025-08-20",
+"name": "Yiming Jing"
+},
+"yuanz": {
+"date": "2025-08-20",
+"name": "Yuan Zhuang"
+},
+"yulongzhang": {
+"date": "2025-08-20",
+"name": "Yulong Zhang"
+},
+"zfc": {
+"date": "2025-08-20",
+"name": "Zhaofeng Chen"
+}
+},
+"shortdesc": "SDKs for building memory-safe applications on Trusted Execution Environments"
 },
 {
 "chair": "abstractdog",
