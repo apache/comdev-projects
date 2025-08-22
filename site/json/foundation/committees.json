@@ -1002,38 +1002,6 @@
 "shortdesc": "Java-based build tool"
 },
 {
-"chair": "jmclean",
-"established": "2025-08",
-"group": "apachetraining",
-"homepage": "http://apachetraining.apache.org",
-"id": "apachetraining",
-"name": "Apache Apache Training",
-"reporting": 1,
-"roster": {
-"andreww": {
-"date": "2025-08-20",
-"name": "Andrew Wetmore"
-},
-"cdutz": {
-"date": "2025-08-20",
-"name": "Christofer Dutz"
-},
-"clr": {
-"date": "2025-08-20",
-"name": "Craig L Russell"
-},
-"jmclean": {
-"date": "2025-08-20",
-"name": "Justin Mclean"
-},
-"rbowen": {
-"date": "2025-08-20",
-"name": "Rich Bowen"
-}
-},
-"shortdesc": "training materials for Apache projects and the Apache Software Foundation"
-},
-{
 "chair": "wenming",
 "charter": "The mission of Apache APISIX is the creation and maintenance of software related to a cloud-native microservices API gateway",
 "established": "2020-07",
@@ -9318,11 +9286,13 @@
 },
 {
 "chair": "gongchao",
+"charter": "The mission of Apache HertzBeat is the creation and maintenance of software related to a real-time monitoring system with agentless, performance cluster, prometheus-compatible, custom monitoring and status page building capabilities",
 "established": "2025-08",
 "group": "hertzbeat",
 "homepage": "http://hertzbeat.apache.org",
 "id": "hertzbeat",
 "name": "Apache HertzBeat",
+"rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/hertzbeat.rdf",
 "reporting": 1,
 "roster": {
 "ceilzcx": {
@@ -21976,11 +21946,13 @@
 },
 {
 "chair": "zfc",
+"charter": "The mission of Apache Teaclave is the creation and maintenance of software related to SDKs for building memory-safe applications on Trusted Execution Environments",
 "established": "2025-08",
 "group": "teaclave",
 "homepage": "http://teaclave.apache.org",
 "id": "teaclave",
 "name": "Apache Teaclave",
+"rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/teaclave.rdf",
 "reporting": 3,
 "roster": {
 "dingyu": {
@@ -23057,6 +23029,40 @@
 }
 },
 "shortdesc": "A fast, scalable and extensible HTTP/1.1 compliant caching proxy server"
+},
+{
+"chair": "jmclean",
+"charter": "The mission of Apache Training is the creation and maintenance of software related to training materials for Apache projects and the Apache Software Foundation",
+"established": "2025-08",
+"group": "training",
+"homepage": "http://training.apache.org",
+"id": "training",
+"name": "Apache Training",
+"rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/training.rdf",
+"reporting": 1,
+"roster": {
+"andreww": {
+"date": "2025-08-20",
+"name": "Andrew Wetmore"
+},
+"cdutz": {
+"date": "2025-08-20",
+"name": "Christofer Dutz"
+},
+"clr": {
+"date": "2025-08-20",
+"name": "Craig L Russell"
+},
+"jmclean": {
+"date": "2025-08-20",
+"name": "Justin Mclean"
+},
+"rbowen": {
+"date": "2025-08-20",
+"name": "Rich Bowen"
+}
+},
+"shortdesc": "training materials for Apache projects and the Apache Software Foundation"
 },
 {
 "chair": "qiaojialin",
