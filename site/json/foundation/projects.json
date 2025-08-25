@@ -2623,6 +2623,37 @@
 "sameAs": "http://rdfohloh.wikier.org/project/marmotta",
 "shortdesc": "An Open Platform for Linked Data"
 },
+"attic-mesos": {
+"bug-database": "https://issues.apache.org/jira/browse/MESOS",
+"category": "cloud, retired",
+"created": "2014-06-19",
+"description": "Apache Mesos is a cluster manager that provides efficient resource isolation \nand sharing across distributed applications, or frameworks. It can run Hadoop, \nMPI, Hypertable, Spark, and other frameworks on a dynamically shared pool of \nnodes.\n",
+"doap": "http://svn.apache.org/repos/asf/mesos/site/doap.rdf",
+"download-page": "http://mesos.apache.org/downloads/",
+"homepage": "http://mesos.apache.org",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "http://mesos.apache.org/community/",
+"maintainer": [
+{
+"mbox": "mailto:benjamin.hindman@gmail.com",
+"name": "Benjamin Hindman"
+}
+],
+"name": "Apache Mesos",
+"pmc": "attic",
+"programming-language": "C++",
+"release": [
+{
+"created": "2014-06-09",
+"name": "Mesos 0.19.0",
+"revision": "0.19.0"
+}
+],
+"repository": [
+"http://svn.apache.org/repos/asf/mesos/trunk/"
+],
+"shortdesc": "Apache Mesos is a cluster manager that provides efficient resource isolation \nand sharing across distributed applications, or frameworks."
+},
 "attic-metamodel": {
 "bug-database": "https://issues.apache.org/jira/browse/METAMODEL",
 "category": "database, big-data, library, retired",
@@ -14516,37 +14547,6 @@
 "http://svn.apache.org/repos/asf/maven/doxia/site/trunk/"
 ],
 "shortdesc": "Doxia is a content generation framework, which supports many markup languages."
-},
-"mesos": {
-"bug-database": "https://issues.apache.org/jira/browse/MESOS",
-"category": "cloud, retired",
-"created": "2014-06-19",
-"description": "Apache Mesos is a cluster manager that provides efficient resource isolation \nand sharing across distributed applications, or frameworks. It can run Hadoop, \nMPI, Hypertable, Spark, and other frameworks on a dynamically shared pool of \nnodes.\n",
-"doap": "http://svn.apache.org/repos/asf/mesos/site/doap.rdf",
-"download-page": "http://mesos.apache.org/downloads/",
-"homepage": "http://mesos.apache.org",
-"license": "http://spdx.org/licenses/Apache-2.0",
-"mailing-list": "http://mesos.apache.org/community/",
-"maintainer": [
-{
-"mbox": "mailto:benjamin.hindman@gmail.com",
-"name": "Benjamin Hindman"
-}
-],
-"name": "Apache Mesos",
-"pmc": "attic",
-"programming-language": "C++",
-"release": [
-{
-"created": "2014-06-09",
-"name": "Mesos 0.19.0",
-"revision": "0.19.0"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/mesos/trunk/"
-],
-"shortdesc": "Apache Mesos is a cluster manager that provides efficient resource isolation \nand sharing across distributed applications, or frameworks."
 },
 "mina": {
 "bug-database": "http://issues.apache.org/jira/browse/DIRMINA",
