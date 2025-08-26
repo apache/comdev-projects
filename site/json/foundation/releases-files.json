@@ -838,8 +838,8 @@
 "apache-arrow-object-store-rs-0.12.3": [
 "arrow/arrow-object-store-rs-0.12.3/apache-arrow-object-store-rs-0.12.3.tar.gz"
 ],
-"apache-arrow-rs-56.0.0": [
-"arrow/arrow-rs-56.0.0/apache-arrow-rs-56.0.0.tar.gz"
+"apache-arrow-rs-56.1.0": [
+"arrow/arrow-rs-56.1.0/apache-arrow-rs-56.1.0.tar.gz"
 ],
 "apache-arrow-swift-21.0.0": [
 "arrow/apache-arrow-swift-21.0.0/apache-arrow-swift-21.0.0.tar.gz"
@@ -2229,11 +2229,14 @@
 "apache-datafusion-49.0.1": [
 "datafusion/datafusion-49.0.1/apache-datafusion-49.0.1.tar.gz"
 ],
+"apache-datafusion-49.0.2": [
+"datafusion/datafusion-49.0.2/apache-datafusion-49.0.2.tar.gz"
+],
 "apache-datafusion-ballista-48.0.0": [
 "datafusion/datafusion-ballista-48.0.0/apache-datafusion-ballista-48.0.0.tar.gz"
 ],
-"apache-datafusion-comet-0.9.0": [
-"datafusion/datafusion-comet-0.9.0/apache-datafusion-comet-0.9.0.tar.gz"
+"apache-datafusion-comet-0.9.1": [
+"datafusion/datafusion-comet-0.9.1/apache-datafusion-comet-0.9.1.tar.gz"
 ],
 "apache-datafusion-python-48.0.0": [
 "datafusion/datafusion-python-48.0.0/apache-datafusion-python-48.0.0.tar.gz"
@@ -2436,6 +2439,9 @@
 ],
 "apache-dolphinscheduler-3.3.0-alpha": [
 "dolphinscheduler/3.3.0-alpha/apache-dolphinscheduler-3.3.0-alpha-src.tar.gz"
+],
+"apache-dolphinscheduler-3.3.1": [
+"dolphinscheduler/3.3.1/apache-dolphinscheduler-3.3.1-src.tar.gz"
 ],
 "dolphinscheduler-operator-0.1.0": [
 "dolphinscheduler/operator/0.1.0/dolphinscheduler-operator-0.1.0-src.tgz"
@@ -3056,6 +3062,10 @@
 "felix/org.apache.felix.http.bridge-6.0.0-source-release.tar.gz",
 "felix/org.apache.felix.http.bridge-6.0.0-source-release.zip"
 ],
+"org.apache.felix.http.bridge-6.1.0": [
+"felix/org.apache.felix.http.bridge-6.1.0-source-release.tar.gz",
+"felix/org.apache.felix.http.bridge-6.1.0-source-release.zip"
+],
 "org.apache.felix.http.bundle-3.0.0": [
 "felix/org.apache.felix.http.bundle-3.0.0-source-release.tar.gz",
 "felix/org.apache.felix.http.bundle-3.0.0-source-release.zip"
@@ -3068,9 +3078,17 @@
 "felix/org.apache.felix.http.jetty-4.2.30-source-release.tar.gz",
 "felix/org.apache.felix.http.jetty-4.2.30-source-release.zip"
 ],
+"org.apache.felix.http.jetty-4.2.32": [
+"felix/org.apache.felix.http.jetty-4.2.32-source-release.tar.gz",
+"felix/org.apache.felix.http.jetty-4.2.32-source-release.zip"
+],
 "org.apache.felix.http.jetty-5.1.34": [
 "felix/org.apache.felix.http.jetty-5.1.34-source-release.tar.gz",
 "felix/org.apache.felix.http.jetty-5.1.34-source-release.zip"
+],
+"org.apache.felix.http.jetty-5.2.0": [
+"felix/org.apache.felix.http.jetty-5.2.0-source-release.tar.gz",
+"felix/org.apache.felix.http.jetty-5.2.0-source-release.zip"
 ],
 "org.apache.felix.http.jetty12-1.0.34": [
 "felix/org.apache.felix.http.jetty12-1.0.34-source-release.tar.gz",
@@ -3079,6 +3097,10 @@
 "org.apache.felix.http.jetty12-1.0.36": [
 "felix/org.apache.felix.http.jetty12-1.0.36-source-release.tar.gz",
 "felix/org.apache.felix.http.jetty12-1.0.36-source-release.zip"
+],
+"org.apache.felix.http.jetty12-1.1.0": [
+"felix/org.apache.felix.http.jetty12-1.1.0-source-release.tar.gz",
+"felix/org.apache.felix.http.jetty12-1.1.0-source-release.zip"
 ],
 "org.apache.felix.http.proxy-4.0.0": [
 "felix/org.apache.felix.http.proxy-4.0.0-source-release.tar.gz",
@@ -4667,6 +4689,11 @@
 "incubator/baremaps/0.7.1/baremaps-0.7.1-incubating-src.tar.gz"
 ]
 },
+"incubator-cloudberry": {
+"apache-cloudberry-2.0.0-incubating": [
+"incubator/cloudberry/2.0.0-incubating/apache-cloudberry-2.0.0-incubating-src.tar.gz"
+]
+},
 "incubator-devlake": {
 "apache-devlake-1.0.2-incubating": [
 "incubator/devlake/1.0.2-incubating/apache-devlake-1.0.2-incubating-src.tar.gz"
@@ -5508,13 +5535,13 @@
 "karaf/4.3.10/apache-karaf-minimal-4.3.10.tar.gz",
 "karaf/4.3.10/apache-karaf-minimal-4.3.10.zip"
 ],
-"apache-karaf-4.4.7": [
-"karaf/4.4.7/apache-karaf-4.4.7-src.tar.gz",
-"karaf/4.4.7/apache-karaf-4.4.7-src.zip",
-"karaf/4.4.7/apache-karaf-4.4.7.tar.gz",
-"karaf/4.4.7/apache-karaf-4.4.7.zip",
-"karaf/4.4.7/apache-karaf-minimal-4.4.7.tar.gz",
-"karaf/4.4.7/apache-karaf-minimal-4.4.7.zip"
+"apache-karaf-4.4.8": [
+"karaf/4.4.8/apache-karaf-4.4.8-src.tar.gz",
+"karaf/4.4.8/apache-karaf-4.4.8-src.zip",
+"karaf/4.4.8/apache-karaf-4.4.8.tar.gz",
+"karaf/4.4.8/apache-karaf-4.4.8.zip",
+"karaf/4.4.8/apache-karaf-minimal-4.4.8.tar.gz",
+"karaf/4.4.8/apache-karaf-minimal-4.4.8.zip"
 ],
 "apache-karaf-cave-3.0.0": [
 "karaf/cave/3.0.0/apache-karaf-cave-3.0.0-src.tar.gz",
@@ -8122,11 +8149,11 @@
 "apache-qpid-broker-j-9.2.1": [
 "qpid/broker-j/9.2.1/apache-qpid-broker-j-9.2.1-src.tar.gz"
 ],
-"apache-qpid-jms-1.13.0": [
-"qpid/jms/1.13.0/apache-qpid-jms-1.13.0-src.tar.gz"
+"apache-qpid-jms-1.14.0": [
+"qpid/jms/1.14.0/apache-qpid-jms-1.14.0-src.tar.gz"
 ],
-"apache-qpid-jms-2.7.0": [
-"qpid/jms/2.7.0/apache-qpid-jms-2.7.0-src.tar.gz"
+"apache-qpid-jms-2.8.0": [
+"qpid/jms/2.8.0/apache-qpid-jms-2.8.0-src.tar.gz"
 ],
 "apache-qpid-jms-amqp-0-x-6.4.0": [
 "qpid/jms-amqp-0-x/6.4.0/apache-qpid-jms-amqp-0-x-6.4.0-src.tar.gz"
@@ -8473,6 +8500,9 @@
 "rocketmq-dashboard-2.0.0": [
 "rocketmq/rocketmq-dashboard/2.0.0/rocketmq-dashboard-2.0.0-source-release.zip"
 ],
+"rocketmq-dashboard-2.1.0": [
+"rocketmq/rocketmq-dashboard/2.1.0/rocketmq-dashboard-2.1.0-source-release.zip"
+],
 "rocketmq-eventbridge-1.0.0": [
 "rocketmq/rocketmq-eventbridge/1.0.0/rocketmq-eventbridge-1.0.0-source-release.zip"
 ],
@@ -8744,8 +8774,8 @@
 "apache-servicecomb-java-chassis-distribution-2.8.25": [
 "servicecomb/servicecomb-java-chassis/2.8.25/apache-servicecomb-java-chassis-distribution-2.8.25-src.zip"
 ],
-"apache-servicecomb-java-chassis-distribution-2.9.0": [
-"servicecomb/servicecomb-java-chassis/2.9.0/apache-servicecomb-java-chassis-distribution-2.9.0-src.zip"
+"apache-servicecomb-java-chassis-distribution-2.9.1": [
+"servicecomb/servicecomb-java-chassis/2.9.1/apache-servicecomb-java-chassis-distribution-2.9.1-src.zip"
 ],
 "apache-servicecomb-java-chassis-distribution-3.3.0": [
 "servicecomb/servicecomb-java-chassis/3.3.0/apache-servicecomb-java-chassis-distribution-3.3.0-src.zip"
@@ -8784,8 +8814,8 @@
 ]
 },
 "shenyu": {
-"apache-shenyu-2.7.0.1": [
-"shenyu/2.7.0.1/apache-shenyu-2.7.0.1-src.zip"
+"apache-shenyu-2.7.0.2": [
+"shenyu/2.7.0.2/apache-shenyu-2.7.0.2-src.zip"
 ],
 "shenyu-client-dotnet-v1.0.0": [
 "shenyu/shenyu-client-dotnet/v1.0.0/shenyu-client-dotnet-v1.0.0-src.tar.gz"
@@ -8994,8 +9024,8 @@
 "org.apache.sling.api-3.0.2": [
 "sling/org.apache.sling.api-3.0.2-source-release.zip"
 ],
-"org.apache.sling.auth.core-2.0.0": [
-"sling/org.apache.sling.auth.core-2.0.0-source-release.zip"
+"org.apache.sling.auth.core-2.0.2": [
+"sling/org.apache.sling.auth.core-2.0.2-source-release.zip"
 ],
 "org.apache.sling.auth.form-1.0.24": [
 "sling/org.apache.sling.auth.form-1.0.24-source-release.zip"
@@ -9323,8 +9353,8 @@
 "org.apache.sling.fsresource-2.3.0": [
 "sling/org.apache.sling.fsresource-2.3.0-source-release.zip"
 ],
-"org.apache.sling.graphql.core-0.0.34": [
-"sling/org.apache.sling.graphql.core-0.0.34-source-release.zip"
+"org.apache.sling.graphql.core-0.0.36": [
+"sling/org.apache.sling.graphql.core-0.0.36-source-release.zip"
 ],
 "org.apache.sling.hapi-1.1.0": [
 "sling/org.apache.sling.hapi-1.1.0-source-release.zip"
@@ -9416,14 +9446,14 @@
 "org.apache.sling.jcr.davex-1.3.12": [
 "sling/org.apache.sling.jcr.davex-1.3.12-source-release.zip"
 ],
-"org.apache.sling.jcr.jackrabbit.accessmanager-4.0.2": [
-"sling/org.apache.sling.jcr.jackrabbit.accessmanager-4.0.2-source-release.zip"
+"org.apache.sling.jcr.jackrabbit.accessmanager-5.0.0": [
+"sling/org.apache.sling.jcr.jackrabbit.accessmanager-5.0.0-source-release.zip"
 ],
 "org.apache.sling.jcr.jackrabbit.server-2.3.0": [
 "sling/org.apache.sling.jcr.jackrabbit.server-2.3.0-source-release.zip"
 ],
-"org.apache.sling.jcr.jackrabbit.usermanager-2.2.30": [
-"sling/org.apache.sling.jcr.jackrabbit.usermanager-2.2.30-source-release.zip"
+"org.apache.sling.jcr.jackrabbit.usermanager-3.0.0": [
+"sling/org.apache.sling.jcr.jackrabbit.usermanager-3.0.0-source-release.zip"
 ],
 "org.apache.sling.jcr.jcr-wrapper-2.0.0": [
 "sling/org.apache.sling.jcr.jcr-wrapper-2.0.0-source-release.zip"
