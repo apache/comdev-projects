@@ -15022,19 +15022,19 @@
 "bug-database": "https://issues.apache.org/jira/projects/NIFI",
 "category": "big-data",
 "created": "2023-09-05",
-"description": "The mission of NiFi is the creation and maintenance of software related to providing an easy to use, powerful, and reliable system to process and distribute data.\n\nApache NiFi MiNiFi is an edge data collection agent built to seamlessly integrate with and leverage the command and control of NiFi. There are both Java and C++ implementations.\n\nApache NiFi Registry is a centralized registry for key configuration items including flow versions, assets, and extensions for Apache NiFi and Apache MiNiFi.",
+"description": "\n        The mission of NiFi is the creation and maintenance of software related to providing an easy to use, powerful, and reliable system to process and distribute data.\n        Apache NiFi MiNiFi is an edge data collection agent built to seamlessly integrate with and leverage the command and control of NiFi.\n        Apache NiFi Registry is a centralized registry for key configuration items including flow versions, assets, and extensions for Apache NiFi and Apache MiNiFi.\n    ",
 "doap": "https://raw.githubusercontent.com/apache/nifi/main/doap.rdf",
-"download-page": "https://nifi.apache.org/download.html",
+"download-page": "https://nifi.apache.org/download/",
 "homepage": "https://nifi.apache.org/",
 "license": "https://spdx.org/licenses/Apache-2.0",
-"mailing-list": "https://nifi.apache.org/mailing_lists.html",
+"mailing-list": "https://nifi.apache.org/community/contact/",
 "name": "Apache NiFi",
 "pmc": "nifi",
 "programming-language": "Java",
 "repository": [
 "https://github.com/apache/nifi"
 ],
-"shortdesc": "NiFi is an easy to use, powerful, and reliable system to process and\ndistribute data"
+"shortdesc": "NiFi is an easy to use, powerful, and reliable system to process and distribute data"
 },
 "nutch": {
 "bug-database": "https://issues.apache.org/jira/projects/NUTCH",
@@ -16376,8 +16376,13 @@
 "programming-language": "C, C++, C#, Go, Java, Python",
 "release": [
 {
+"created": "2025-08-29",
+"name": "Latest 0.13.1 release",
+"revision": "0.13.1"
+},
+{
 "created": "2025-08-05",
-"name": "Latest 0.13.0 release",
+"name": "Legacy 0.13.0 release",
 "revision": "0.13.0"
 },
 {

@@ -105,8 +105,8 @@
 "apache-airflow-2.11.0": [
 "airflow/2.11.0/apache-airflow-2.11.0-source.tar.gz"
 ],
-"apache-airflow-3.0.5": [
-"airflow/3.0.5/apache-airflow-3.0.5-source.tar.gz"
+"apache-airflow-3.0.6": [
+"airflow/3.0.6/apache-airflow-3.0.6-source.tar.gz"
 ],
 "apache-airflow-client-2.5.0": [
 "airflow/clients/go/2.5.0/apache-airflow-client-2.5.0-source.tar.gz"
@@ -123,14 +123,14 @@
 "apache_airflow-2.11.0": [
 "airflow/2.11.0/apache_airflow-2.11.0.tar.gz"
 ],
-"apache_airflow-3.0.5": [
-"airflow/3.0.5/apache_airflow-3.0.5.tar.gz"
+"apache_airflow-3.0.6": [
+"airflow/3.0.6/apache_airflow-3.0.6.tar.gz"
 ],
 "apache_airflow_client-3.0.2": [
 "airflow/clients/python/3.0.2/apache_airflow_client-3.0.2.tar.gz"
 ],
-"apache_airflow_core-3.0.5": [
-"airflow/3.0.5/apache_airflow_core-3.0.5.tar.gz"
+"apache_airflow_core-3.0.6": [
+"airflow/3.0.6/apache_airflow_core-3.0.6.tar.gz"
 ],
 "apache_airflow_providers_airbyte-5.2.3": [
 "airflow/providers/apache_airflow_providers_airbyte-5.2.3.tar.gz"
@@ -435,8 +435,8 @@
 "apache_airflow_providers_zendesk-4.10.2": [
 "airflow/providers/apache_airflow_providers_zendesk-4.10.2.tar.gz"
 ],
-"apache_airflow_task_sdk-1.0.5": [
-"airflow/task-sdk/1.0.5/apache_airflow_task_sdk-1.0.5.tar.gz"
+"apache_airflow_task_sdk-1.0.6": [
+"airflow/task-sdk/1.0.6/apache_airflow_task_sdk-1.0.6.tar.gz"
 ]
 },
 "allura": {
@@ -1851,8 +1851,8 @@
 "cordova-android-14.0.1": [
 "cordova/platforms/cordova-android-14.0.1.tgz"
 ],
-"cordova-app-hello-world-6.0.0": [
-"cordova/templates/cordova-app-hello-world-6.0.0.tgz"
+"cordova-app-hello-world-7.0.0": [
+"cordova/templates/cordova-app-hello-world-7.0.0.tgz"
 ],
 "cordova-blackberry10-3.8.0": [
 "cordova/platforms/cordova-blackberry10-3.8.0.tgz"
@@ -1875,8 +1875,8 @@
 "cordova-eslint-config-6.0.0": [
 "cordova/tools/cordova-eslint-config-6.0.0.tgz"
 ],
-"cordova-fetch-4.0.0": [
-"cordova/tools/cordova-fetch-4.0.0.tgz"
+"cordova-fetch-5.0.0": [
+"cordova/tools/cordova-fetch-5.0.0.tgz"
 ],
 "cordova-firefoxos-3.6.3": [
 "cordova/platforms/cordova-firefoxos-3.6.3.tgz"
@@ -2247,8 +2247,8 @@
 "apache-datafusion-comet-0.9.1": [
 "datafusion/datafusion-comet-0.9.1/apache-datafusion-comet-0.9.1.tar.gz"
 ],
-"apache-datafusion-python-48.0.0": [
-"datafusion/datafusion-python-48.0.0/apache-datafusion-python-48.0.0.tar.gz"
+"apache-datafusion-python-49.0.0": [
+"datafusion/datafusion-python-49.0.0/apache-datafusion-python-49.0.0.tar.gz"
 ],
 "apache-datafusion-sqlparser-rs-0.56.0": [
 "datafusion/datafusion-sqlparser-rs-0.56.0/apache-datafusion-sqlparser-rs-0.56.0.tar.gz"
@@ -4403,6 +4403,10 @@
 "httpcomponents/httpcore/source/httpcomponents-core-5.3.4-src.tar.gz",
 "httpcomponents/httpcore/source/httpcomponents-core-5.3.4-src.zip"
 ],
+"httpcomponents-core-5.3.5": [
+"httpcomponents/httpcore/source/httpcomponents-core-5.3.5-src.tar.gz",
+"httpcomponents/httpcore/source/httpcomponents-core-5.3.5-src.zip"
+],
 "httpcomponents-parent-14": [
 "httpcomponents/httpcomponents-parent/httpcomponents-parent-14-source.zip"
 ]
@@ -4766,6 +4770,9 @@
 "incubator-graphar": {
 "apache-graphar-0.12.0-incubating": [
 "incubator/graphar/0.12.0/apache-graphar-0.12.0-incubating-src.tar.gz"
+],
+"apache-graphar-0.13.0-incubating": [
+"incubator/graphar/0.13.0/apache-graphar-0.13.0-incubating-src.tar.gz"
 ]
 },
 "incubator-gravitino": {
@@ -7728,8 +7735,8 @@
 ]
 },
 "plc4x": {
-"apache-plc4x-0.13.0": [
-"plc4x/0.13.0/apache-plc4x-0.13.0-source-release.zip"
+"apache-plc4x-0.13.1": [
+"plc4x/0.13.1/apache-plc4x-0.13.1-source-release.zip"
 ],
 "apache-plc4x-code-generation-1.5.0": [
 "plc4x/plc4x/build-tools/code-generation/1.5.0/rc1/apache-plc4x-code-generation-1.5.0-source-release.zip"
@@ -8181,6 +8188,9 @@
 ],
 "apache-qpid-proton-j-0.34.1": [
 "qpid/proton-j/0.34.1/apache-qpid-proton-j-0.34.1-src.tar.gz"
+],
+"apache-qpid-protonj2-1.0.0": [
+"qpid/protonj2/1.0.0/apache-qpid-protonj2-1.0.0-src.tar.gz"
 ],
 "apache-qpid-protonj2-1.0.0-M21": [
 "qpid/protonj2/1.0.0-M21/apache-qpid-protonj2-1.0.0-M21-src.tar.gz"
@@ -11212,8 +11222,8 @@
 "apache-zookeeper-3.8.4": [
 "zookeeper/zookeeper-3.8.4/apache-zookeeper-3.8.4.tar.gz"
 ],
-"apache-zookeeper-3.9.3": [
-"zookeeper/zookeeper-3.9.3/apache-zookeeper-3.9.3.tar.gz"
+"apache-zookeeper-3.9.4": [
+"zookeeper/zookeeper-3.9.4/apache-zookeeper-3.9.4.tar.gz"
 ]
 }
 }
