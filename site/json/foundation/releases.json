@@ -20,7 +20,8 @@
 "activemq-parent-5.19.0": "2025-03-07",
 "activemq-parent-6.1.7": "2025-06-17",
 "apache-artemis-2.42.0": "2025-07-14",
-"apache-artemis-console-1.2.1": "2025-06-25"
+"apache-artemis-console-1.2.1": "2025-06-25",
+"apache-artemis-console-1.3.0": "2025-08-26"
 },
 "age": {
 "apache-age-1.1.0": "2022-08-16",
@@ -1741,11 +1742,6 @@
 "apache-seata-2.4.0-incubating": "2025-06-27",
 "apache-seata-2.5.0-incubating": "2025-07-23"
 },
-"incubator-teaclave": {
-"apache-teaclave-0.5.1-incubating": "2023-05-31",
-"apache-teaclave-java-tee-sdk-0.1.0-incubating": "2023-01-18",
-"apache-teaclave-trustzone-sdk-0.5.0-incubating": "2025-07-17"
-},
 "incubator-toree": {
 "apache-toree-0.5.0": "2022-02-16",
 "toree-0.4.0": "2020-07-16",
@@ -1853,6 +1849,7 @@
 "kafka-3.9.0": "2024-10-26",
 "kafka-3.9.1": "2025-05-19",
 "kafka-4.0.0": "2025-03-18",
+"kafka-4.1.0": "2025-09-02",
 "kafka_2.12-3.7.2": "2024-12-13",
 "kafka_2.12-3.8.0": "2024-07-26",
 "kafka_2.12-3.8.1": "2024-10-29",
@@ -1863,7 +1860,8 @@
 "kafka_2.13-3.8.1": "2024-10-29",
 "kafka_2.13-3.9.0": "2024-10-26",
 "kafka_2.13-3.9.1": "2025-05-19",
-"kafka_2.13-4.0.0": "2025-03-18"
+"kafka_2.13-4.0.0": "2025-03-18",
+"kafka_2.13-4.1.0": "2025-09-02"
 },
 "karaf": {
 "apache-karaf-3.0.10": "2020-01-11",
@@ -2585,10 +2583,8 @@
 },
 "plc4x": {
 "apache-plc4x-0.13.1": "2025-08-24",
-"apache-plc4x-code-generation-1.5.0": "2021-09-08",
 "apache-plc4x-code-generation-1.8.0": "2025-04-11",
-"apache-plc4x-extras-0.13.0": "2025-08-09",
-"apache-plc4x-site-skin-1.1.0": "2021-09-08"
+"apache-plc4x-extras-0.13.1": "2025-08-29"
 },
 "poi": {
 "apache-poi-5.4.1-20250401": "2025-04-06",
@@ -3220,7 +3216,7 @@
 "org.apache.sling.launchpad.testing-war-11": "2018-10-23",
 "org.apache.sling.models.api-2.0.0": "2025-08-26",
 "org.apache.sling.models.caconfig-1.0.2": "2022-08-12",
-"org.apache.sling.models.impl-1.7.8": "2024-12-20",
+"org.apache.sling.models.impl-2.0.0": "2025-09-02",
 "org.apache.sling.models.jacksonexporter-2.0.0": "2025-06-28",
 "org.apache.sling.models.validation-impl-1.1.0": "2021-12-10",
 "org.apache.sling.nosql.couchbase-client-1.0.2": "2016-02-27",
@@ -3287,7 +3283,7 @@
 "org.apache.sling.settings-1.4.2": "2020-11-15",
 "org.apache.sling.sitemap-1.0.6": "2022-02-01",
 "org.apache.sling.starter-13": "2025-01-17",
-"org.apache.sling.starter.content-1.0.16": "2024-12-16",
+"org.apache.sling.starter.content-2.0.0": "2025-09-02",
 "org.apache.sling.starter.startup-1.0.6": "2018-05-22",
 "org.apache.sling.superimposing-0.2.0": "2014-10-03",
 "org.apache.sling.tenant-1.1.8": "2024-04-19",
@@ -3469,6 +3465,11 @@
 "rivet-3.2.4": "2024-02-18",
 "rivet-3.2.5": "2024-05-21",
 "rivet-3.2.6": "2024-11-12"
+},
+"teaclave": {
+"apache-teaclave-0.5.1-incubating": "2023-05-31",
+"apache-teaclave-java-tee-sdk-0.1.0-incubating": "2023-01-18",
+"apache-teaclave-trustzone-sdk-0.5.0-incubating": "2025-07-17"
 },
 "tez": {
 "apache-tez-0.10.1": "2021-06-25",
@@ -3679,6 +3680,7 @@
 "unomi-2.5.0": "2024-06-14",
 "unomi-2.6.0": "2024-11-26",
 "unomi-2.6.1": "2024-12-10",
+"unomi-2.7.0": "2025-08-28",
 "unomi-manual-1_5_x": "2020-11-24",
 "unomi-manual-1_6_x": "2022-03-01",
 "unomi-manual-1_7_x": "2022-12-08",
@@ -3690,6 +3692,7 @@
 "unomi-manual-2_4_x": "2023-11-16",
 "unomi-manual-2_5_x": "2024-06-17",
 "unomi-manual-2_6_x": "2024-11-26",
+"unomi-manual-2_7_x": "2025-09-02",
 "unomi-tracker-1.0.0": "2022-09-22",
 "unomi-tracker-1.0.1": "2022-09-26",
 "unomi-tracker-1.1.0": "2022-11-15",
