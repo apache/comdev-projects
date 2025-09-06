@@ -4191,6 +4191,14 @@
 "helix/1.4.3/src/helix-1.4.3-src.zip"
 ]
 },
+"hertzbeat": {
+"apache-hertzbeat-1.7.3": [
+"hertzbeat/1.7.3/apache-hertzbeat-1.7.3-src.tar.gz"
+],
+"apache-hertzbeat-1.7.3-docker-compose": [
+"hertzbeat/1.7.3/apache-hertzbeat-1.7.3-docker-compose.tar.gz"
+]
+},
 "hive": {
 "apache-hive-4.0.1": [
 "hive/hive-4.0.1/apache-hive-4.0.1-src.tar.gz"
@@ -6889,6 +6897,9 @@
 ],
 "myfaces-tobago-6.8.0": [
 "myfaces/source/myfaces-tobago-6.8.0-source-release.zip"
+],
+"myfaces-tobago-6.8.1": [
+"myfaces/source/myfaces-tobago-6.8.1-source-release.zip"
 ],
 "portlet-bridge-1.0.0": [
 "myfaces/source/portlet-bridge-1.0.0-src-all.tar.gz",
@@ -9864,8 +9875,8 @@
 "org.apache.sling.testing.serversetup-1.0.4": [
 "sling/org.apache.sling.testing.serversetup-1.0.4-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock-3.5.4": [
-"sling/org.apache.sling.testing.sling-mock-3.5.4-source-release.zip"
+"org.apache.sling.testing.sling-mock-4.0.0": [
+"sling/org.apache.sling.testing.sling-mock-4.0.0-source-release.zip"
 ],
 "org.apache.sling.testing.sling-mock-jackrabbit-1.0.0": [
 "sling/org.apache.sling.testing.sling-mock-jackrabbit-1.0.0-source-release.zip"
@@ -9876,17 +9887,17 @@
 "org.apache.sling.testing.sling-mock-oak-4.0.0-1.62.0": [
 "sling/org.apache.sling.testing.sling-mock-oak-4.0.0-1.62.0-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.core-3.5.4": [
-"sling/org.apache.sling.testing.sling-mock.core-3.5.4-source-release.zip"
+"org.apache.sling.testing.sling-mock.core-4.0.0": [
+"sling/org.apache.sling.testing.sling-mock.core-4.0.0-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.junit4-3.5.4": [
-"sling/org.apache.sling.testing.sling-mock.junit4-3.5.4-source-release.zip"
+"org.apache.sling.testing.sling-mock.junit4-4.0.0": [
+"sling/org.apache.sling.testing.sling-mock.junit4-4.0.0-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.junit5-3.5.4": [
-"sling/org.apache.sling.testing.sling-mock.junit5-3.5.4-source-release.zip"
+"org.apache.sling.testing.sling-mock.junit5-4.0.0": [
+"sling/org.apache.sling.testing.sling-mock.junit5-4.0.0-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.parent-3.5.4": [
-"sling/org.apache.sling.testing.sling-mock.parent-3.5.4-source-release.zip"
+"org.apache.sling.testing.sling-mock.parent-4.0.0": [
+"sling/org.apache.sling.testing.sling-mock.parent-4.0.0-source-release.zip"
 ],
 "org.apache.sling.testing.tools-1.0.16": [
 "sling/org.apache.sling.testing.tools-1.0.16-source-release.zip"
@@ -10410,9 +10421,13 @@
 "tomcat/tomcat-11/v11.0.10/src/apache-tomcat-11.0.10-src.tar.gz",
 "tomcat/tomcat-11/v11.0.10/src/apache-tomcat-11.0.10-src.zip"
 ],
-"apache-tomcat-9.0.108": [
-"tomcat/tomcat-9/v9.0.108/src/apache-tomcat-9.0.108-src.tar.gz",
-"tomcat/tomcat-9/v9.0.108/src/apache-tomcat-9.0.108-src.zip"
+"apache-tomcat-11.0.11": [
+"tomcat/tomcat-11/v11.0.11/src/apache-tomcat-11.0.11-src.tar.gz",
+"tomcat/tomcat-11/v11.0.11/src/apache-tomcat-11.0.11-src.zip"
+],
+"apache-tomcat-9.0.109": [
+"tomcat/tomcat-9/v9.0.109/src/apache-tomcat-9.0.109-src.tar.gz",
+"tomcat/tomcat-9/v9.0.109/src/apache-tomcat-9.0.109-src.zip"
 ],
 "jakartaee-migration-1.0.9": [
 "tomcat/jakartaee-migration/v1.0.9/source/jakartaee-migration-1.0.9-src.tar.gz",
