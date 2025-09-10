@@ -18474,28 +18474,123 @@
 },
 "spamassassin": {
 "bug-database": "https://bz.apache.org/SpamAssassin/",
-"category": "mail",
 "created": "2001-04-20",
 "description": "Apache SpamAssassin is an extensible email filter which is used to identify spam. Using its rule base, it uses a wide range of advanced heuristic and statistical analysis tests on mail headers and body text to identify \"spam\", also known as unsolicited bulk email. Once identified, the mail can then be optionally tagged as spam for later filtering. It provides a command line tool to perform filtering, a client-server system to filter large volumes of mail, and Mail::SpamAssassin, a set of Perl modules.",
 "doap": "http://spamassassin.apache.org/doap.rdf",
 "download-page": "https://spamassassin.apache.org/downloads.html",
 "homepage": "https://spamassassin.apache.org/",
-"license": "https://spdx.org/licenses/Apache-2.0",
-"mailing-list": "https://news.gmane.org/thread.php?group=gmane.mail.spam.spamassassin.general",
+"license": "https://www.apache.org/licenses/LICENSE-2.0",
+"mailing-list": "https://cwiki.apache.org/confluence/display/SPAMASSASSIN/MailingLists",
 "maintainer": [
 {
-"mbox_sha1sum": "745b0f55d936f36c20b221fc25488811",
+"mbox": "mailto:dev@spamassassin.apache.org",
 "name": "Development Mailing List at SpamAssassin.apache.org"
 }
 ],
 "name": "Apache SpamAssassin",
 "pmc": "spamassassin",
-"programming-language": "Perl, C",
+"programming-language": "C, Perl",
+"release": [
+{
+"created": "2025-08-30",
+"name": "Latest 4.0.2 release",
+"revision": "4.0.2"
+},
+{
+"created": "2024-03-29",
+"name": "Legacy 4.0.1 release",
+"revision": "4.0.1"
+},
+{
+"created": "2022-12-17",
+"name": "Legacy 4.0.0 release",
+"revision": "4.0.0"
+},
+{
+"created": "2021-04-12",
+"name": "Legacy 3.4.6 release",
+"revision": "3.4.6"
+},
+{
+"created": "2021-03-24",
+"name": "Legacy 3.4.5 release",
+"revision": "3.4.5"
+},
+{
+"created": "2020-01-28",
+"name": "Legacy 3.4.4 release",
+"revision": "3.4.4"
+},
+{
+"created": "2019-12-11",
+"name": "Legacy 3.4.3 release",
+"revision": "3.4.3"
+},
+{
+"created": "2018-09-16",
+"name": "Legacy 3.4.2 release",
+"revision": "3.4.2"
+},
+{
+"created": "2015-04-30",
+"name": "Legacy 3.4.1 release",
+"revision": "3.4.1"
+},
+{
+"created": "2014-02-11",
+"name": "Legacy 3.4.0 release",
+"revision": "3.4.0"
+},
+{
+"created": "2011-06-16",
+"name": "Legacy 3.3.2 release",
+"revision": "3.3.2"
+},
+{
+"created": "2010-03-19",
+"name": "Legacy 3.3.1 release",
+"revision": "3.3.1"
+},
+{
+"created": "2010-01-27",
+"name": "Legacy 3.3.0 release",
+"revision": "3.3.0"
+},
+{
+"created": "2008-06-12",
+"name": "Legacy 3.2.5 release",
+"revision": "3.2.5"
+},
+{
+"created": "2008-01-05",
+"name": "Legacy 3.2.4 release",
+"revision": "3.2.4"
+},
+{
+"created": "2007-08-09",
+"name": "Legacy 3.2.3 release",
+"revision": "3.2.3"
+},
+{
+"created": "2007-07-25",
+"name": "Legacy 3.2.2 release",
+"revision": "3.2.2"
+},
+{
+"created": "2007-06-11",
+"name": "Legacy 3.2.1 release",
+"revision": "3.2.1"
+},
+{
+"created": "2007-05-02",
+"name": "Legacy 3.2.0 release",
+"revision": "3.2.0"
+}
+],
 "repository": [
 "https://svn.apache.org/repos/asf/spamassassin/trunk"
 ],
-"shortdesc": "Apache SpamAssassin is an email filter used to identify spam",
-"wiki": "https://cwiki.apache.org/confluence/display/SPAMASSASSIN/"
+"shortdesc": "Apache SpamAssassin is an email filter used to identify spam."
 },
 "spark": {
 "bug-database": "http://issues.apache.org/jira/browse/SPARK",
