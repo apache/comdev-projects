@@ -78,8 +78,10 @@
 "age/PG12/1.5.0/apache-age-1.5.0-src.tar.gz",
 "age/PG13/1.5.0/apache-age-1.5.0-src.tar.gz",
 "age/PG14/1.5.0/apache-age-1.5.0-src.tar.gz",
-"age/PG15/1.5.0/apache-age-1.5.0-src.tar.gz",
-"age/PG16/1.5.0/apache-age-1.5.0-src.tar.gz"
+"age/PG15/1.5.0/apache-age-1.5.0-src.tar.gz"
+],
+"apache-age-1.6.0": [
+"age/PG16/1.6.0/apache-age-1.6.0-src.tar.gz"
 ],
 "apache-age-viewer-1.0.0-rc2-incubating": [
 "age/age-viewer/apache-age-viewer-1.0.0-rc2-incubating-src.tar.gz"
@@ -2254,8 +2256,14 @@
 "apache-datafusion-49.0.2": [
 "datafusion/datafusion-49.0.2/apache-datafusion-49.0.2.tar.gz"
 ],
+"apache-datafusion-50.0.0": [
+"datafusion/datafusion-50.0.0/apache-datafusion-50.0.0.tar.gz"
+],
 "apache-datafusion-ballista-48.0.0": [
 "datafusion/datafusion-ballista-48.0.0/apache-datafusion-ballista-48.0.0.tar.gz"
+],
+"apache-datafusion-comet-0.10.0": [
+"datafusion/datafusion-comet-0.10.0/apache-datafusion-comet-0.10.0.tar.gz"
 ],
 "apache-datafusion-comet-0.9.1": [
 "datafusion/datafusion-comet-0.9.1/apache-datafusion-comet-0.9.1.tar.gz"
@@ -7408,10 +7416,6 @@
 ]
 },
 "openmeetings": {
-"apache-openmeetings-8.0.0": [
-"openmeetings/8.0.0/src/apache-openmeetings-8.0.0-src.tar.gz",
-"openmeetings/8.0.0/src/apache-openmeetings-8.0.0-src.zip"
-],
 "apache-openmeetings-8.1.0": [
 "openmeetings/8.1.0/src/apache-openmeetings-8.1.0-src.tar.gz",
 "openmeetings/8.1.0/src/apache-openmeetings-8.1.0-src.zip"
@@ -8057,8 +8061,14 @@
 "apache-qpid-jms-1.14.0": [
 "qpid/jms/1.14.0/apache-qpid-jms-1.14.0-src.tar.gz"
 ],
+"apache-qpid-jms-1.15.0": [
+"qpid/jms/1.15.0/apache-qpid-jms-1.15.0-src.tar.gz"
+],
 "apache-qpid-jms-2.8.0": [
 "qpid/jms/2.8.0/apache-qpid-jms-2.8.0-src.tar.gz"
+],
+"apache-qpid-jms-2.9.0": [
+"qpid/jms/2.9.0/apache-qpid-jms-2.9.0-src.tar.gz"
 ],
 "apache-qpid-jms-amqp-0-x-6.4.0": [
 "qpid/jms-amqp-0-x/6.4.0/apache-qpid-jms-amqp-0-x-6.4.0-src.tar.gz"
