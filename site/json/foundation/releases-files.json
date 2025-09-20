@@ -823,8 +823,8 @@
 "apache-arrow-adbc-20": [
 "arrow/apache-arrow-adbc-20/apache-arrow-adbc-20.tar.gz"
 ],
-"apache-arrow-dotnet-22.0.0": [
-"arrow/apache-arrow-dotnet-22.0.0/apache-arrow-dotnet-22.0.0.tar.gz"
+"apache-arrow-dotnet-22.0.1": [
+"arrow/apache-arrow-dotnet-22.0.1/apache-arrow-dotnet-22.0.1.tar.gz"
 ],
 "apache-arrow-flight-sql-postgresql-0.1.0": [
 "arrow/apache-arrow-flight-sql-postgresql-0.1.0/apache-arrow-flight-sql-postgresql-0.1.0.tar.gz"
@@ -1811,9 +1811,9 @@
 "commons/numbers/source/commons-numbers-1.2-src.tar.gz",
 "commons/numbers/source/commons-numbers-1.2-src.zip"
 ],
-"commons-parent-87": [
-"commons/parent/source/commons-parent-87-src.tar.gz",
-"commons/parent/source/commons-parent-87-src.zip"
+"commons-parent-88": [
+"commons/parent/source/commons-parent-88-src.tar.gz",
+"commons/parent/source/commons-parent-88-src.zip"
 ],
 "commons-pool2-2.12.1": [
 "commons/pool/source/commons-pool2-2.12.1-src.tar.gz",
@@ -2213,8 +2213,14 @@
 "apache-daffodil-3.11.0": [
 "daffodil/3.11.0/src/apache-daffodil-3.11.0-src.zip"
 ],
+"apache-daffodil-4.0.0": [
+"daffodil/4.0.0/src/apache-daffodil-4.0.0-src.zip"
+],
 "apache-daffodil-sbt-1.4.0": [
 "daffodil/daffodil-sbt/1.4.0/src/apache-daffodil-sbt-1.4.0-src.zip"
+],
+"apache-daffodil-sbt-1.5.0": [
+"daffodil/daffodil-sbt/1.5.0/src/apache-daffodil-sbt-1.5.0-src.zip"
 ],
 "apache-daffodil-vscode-1.4.0": [
 "daffodil/daffodil-vscode/1.4.0/src/apache-daffodil-vscode-1.4.0-src.zip"
@@ -5227,11 +5233,17 @@
 "apache-polaris-1.0.1-incubating": [
 "incubator/polaris/1.0.1-incubating/apache-polaris-1.0.1-incubating.tar.gz"
 ],
+"apache-polaris-1.1.0-incubating": [
+"incubator/polaris/1.1.0-incubating/apache-polaris-1.1.0-incubating.tar.gz"
+],
 "polaris-1.0.0-incubating": [
 "incubator/polaris/helm-chart/1.0.0-incubating/polaris-1.0.0-incubating.tgz"
 ],
 "polaris-1.0.1-incubating": [
 "incubator/polaris/helm-chart/1.0.1-incubating/polaris-1.0.1-incubating.tgz"
+],
+"polaris-1.1.0-incubating": [
+"incubator/polaris/helm-chart/1.1.0-incubating/polaris-1.1.0-incubating.tgz"
 ]
 },
 "incubator-ponymail": {
@@ -10369,11 +10381,30 @@
 "tomee/tomee-10.1.1/apache-tomee-10.1.1-webprofile.tar.gz",
 "tomee/tomee-10.1.1/apache-tomee-10.1.1-webprofile.zip"
 ],
+"apache-tomee-10.1.2-microprofile": [
+"tomee/tomee-10.1.2/apache-tomee-10.1.2-microprofile.tar.gz",
+"tomee/tomee-10.1.2/apache-tomee-10.1.2-microprofile.zip"
+],
+"apache-tomee-10.1.2-plume": [
+"tomee/tomee-10.1.2/apache-tomee-10.1.2-plume.tar.gz",
+"tomee/tomee-10.1.2/apache-tomee-10.1.2-plume.zip"
+],
+"apache-tomee-10.1.2-plus": [
+"tomee/tomee-10.1.2/apache-tomee-10.1.2-plus.tar.gz",
+"tomee/tomee-10.1.2/apache-tomee-10.1.2-plus.zip"
+],
+"apache-tomee-10.1.2-webprofile": [
+"tomee/tomee-10.1.2/apache-tomee-10.1.2-webprofile.tar.gz",
+"tomee/tomee-10.1.2/apache-tomee-10.1.2-webprofile.zip"
+],
 "jakartaee-api-parent-10.0.1": [
 "tomee/jakartaee-api-10.0.1/jakartaee-api-parent-10.0.1-source-release.zip"
 ],
 "tomee-10.1.1": [
 "tomee/tomee-10.1.1/tomee-project-10.1.1-source-release.zip"
+],
+"tomee-10.1.2": [
+"tomee/tomee-10.1.2/tomee-project-10.1.2-source-release.zip"
 ],
 "tomee-patch-parent-0.10": [
 "tomee/tomee-patch-plugin-0.10/tomee-patch-parent-0.10-source-release.zip"
