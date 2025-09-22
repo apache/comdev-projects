@@ -36,6 +36,14 @@ However on day one of a new month, it also updates the previous month
 This is so it sees accounts that were created after the final run
 on the last day of the month
 
+Note that the accounts-evolution.json file was preloaded when it was created in r1658041 (2015-02-07)
+see: https://lists.apache.org/thread/1sj0c1hvr0lnn3drldsv7o9c6dlhf3bg
+The derivation of the initial data is unclear.
+
+There is also parsecommitters.py which creates accounts-evolution2.json directly from public_ldap_people.json
+The total number of accounts is lower, because it only includes current entries in LDAP, and some early joiners
+were never added to LDAP.
+
 """
 
 import sys

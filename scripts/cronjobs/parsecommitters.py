@@ -108,6 +108,8 @@ with open("../../site/json/foundation/groups.json", "w", encoding='utf-8') as f:
     f.close()
 
 ###### Test of alternate account evolution counting - start #####
+# see also countaccounts.py, which creates accounts-evolution.json
+
 from datetime import datetime
 accounts = {} # key: yyyy-mm value: number of accounts created
 now = datetime.now() # fetch time once

@@ -44,3 +44,4 @@ various sources:
   in: data/projects.xml + projects' DOAP files
   out: site/json/projects/*.json - JSON versions of DOAP files
      + site/json/foundation/projects.json - combined listing of all projects
+     + site/json/foundation/accounts-evolution2.json
