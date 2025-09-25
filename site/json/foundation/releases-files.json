@@ -1300,8 +1300,8 @@
 ]
 },
 "camel": {
-"apache-camel-4.10.6": [
-"camel/apache-camel/4.10.6/apache-camel-4.10.6-src.zip"
+"apache-camel-4.10.7": [
+"camel/apache-camel/4.10.7/apache-camel-4.10.7-src.zip"
 ],
 "apache-camel-4.11.0": [
 "camel/apache-camel/4.11.0/apache-camel-4.11.0-src.zip"
@@ -1786,9 +1786,9 @@
 "commons/lang/source/commons-lang-2.6-src.tar.gz",
 "commons/lang/source/commons-lang-2.6-src.zip"
 ],
-"commons-lang3-3.18.0": [
-"commons/lang/source/commons-lang3-3.18.0-src.tar.gz",
-"commons/lang/source/commons-lang3-3.18.0-src.zip"
+"commons-lang3-3.19.0": [
+"commons/lang/source/commons-lang3-3.19.0-src.tar.gz",
+"commons/lang/source/commons-lang3-3.19.0-src.zip"
 ],
 "commons-logging-1.3.5": [
 "commons/logging/source/commons-logging-1.3.5-src.tar.gz",
@@ -2282,6 +2282,9 @@
 ],
 "apache-datafusion-sqlparser-rs-0.58.0": [
 "datafusion/datafusion-sqlparser-rs-0.58.0/apache-datafusion-sqlparser-rs-0.58.0.tar.gz"
+],
+"apache-datafusion-sqlparser-rs-0.59.0": [
+"datafusion/datafusion-sqlparser-rs-0.59.0/apache-datafusion-sqlparser-rs-0.59.0.tar.gz"
 ]
 },
 "datasketches": {
@@ -7615,8 +7618,8 @@
 ]
 },
 "pekko": {
-"apache-pekko-1.2.0-20250825": [
-"pekko/1.2.0/apache-pekko-1.2.0-src-20250825.tgz"
+"apache-pekko-1.2.1-20250920": [
+"pekko/1.2.1/apache-pekko-1.2.1-src-20250920.tgz"
 ],
 "apache-pekko-connectors-1.2.0-20250915": [
 "pekko/CONNECTORS-1.2.0/apache-pekko-connectors-1.2.0-src-20250915.tgz"
@@ -7737,6 +7740,9 @@
 "pinot": {
 "apache-pinot-1.3.0": [
 "pinot/apache-pinot-1.3.0/apache-pinot-1.3.0-src.tar.gz"
+],
+"apache-pinot-1.4.0": [
+"pinot/apache-pinot-1.4.0/apache-pinot-1.4.0-src.tar.gz"
 ]
 },
 "plc4x": {
@@ -9786,9 +9792,6 @@
 "SparkR_3.5.7": [
 "spark/spark-3.5.7/SparkR_3.5.7.tar.gz"
 ],
-"SparkR_4.0.0": [
-"spark/spark-4.0.0/SparkR_4.0.0.tar.gz"
-],
 "SparkR_4.0.1": [
 "spark/spark-4.0.1/SparkR_4.0.1.tar.gz"
 ],
@@ -9801,26 +9804,17 @@
 "pyspark-3.5.7": [
 "spark/spark-3.5.7/pyspark-3.5.7.tar.gz"
 ],
-"pyspark-4.0.0": [
-"spark/spark-4.0.0/pyspark-4.0.0.tar.gz"
-],
 "pyspark-4.0.1": [
 "spark/spark-4.0.1/pyspark-4.0.1.tar.gz"
 ],
 "pyspark-4.1.0.dev1": [
 "spark/spark-4.1.0-preview1/pyspark-4.1.0.dev1.tar.gz"
 ],
-"pyspark_client-4.0.0": [
-"spark/spark-4.0.0/pyspark_client-4.0.0.tar.gz"
-],
 "pyspark_client-4.0.1": [
 "spark/spark-4.0.1/pyspark_client-4.0.1.tar.gz"
 ],
 "pyspark_client-4.1.0.dev1": [
 "spark/spark-4.1.0-preview1/pyspark_client-4.1.0.dev1.tar.gz"
-],
-"pyspark_connect-4.0.0": [
-"spark/spark-4.0.0/pyspark_connect-4.0.0.tar.gz"
 ],
 "pyspark_connect-4.0.1": [
 "spark/spark-4.0.1/pyspark_connect-4.0.1.tar.gz"
@@ -9833,9 +9827,6 @@
 ],
 "spark-3.5.7": [
 "spark/spark-3.5.7/spark-3.5.7.tgz"
-],
-"spark-4.0.0": [
-"spark/spark-4.0.0/spark-4.0.0.tgz"
 ],
 "spark-4.0.1": [
 "spark/spark-4.0.1/spark-4.0.1.tgz"

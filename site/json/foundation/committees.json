@@ -3366,7 +3366,7 @@
 "shortdesc": "indexed columnar data format for fast analytics on big data platform"
 },
 {
-"chair": "djoshi",
+"chair": "edimitrova",
 "charter": "Apache Cassandra software is a highly scalable second-generation distributed database.",
 "established": "2010-02",
 "group": "cassandra",
@@ -5938,6 +5938,90 @@
 "shortdesc": "Portable CDI extensions that provide useful features for Java application developers"
 },
 {
+"chair": "hez",
+"established": "2025-09",
+"group": "devlake",
+"homepage": "https://devlake.apache.org",
+"id": "devlake",
+"name": "Apache DevLake",
+"reporting": 3,
+"roster": {
+"abeizn": {
+"date": "2025-09-24",
+"name": "Zikuan"
+},
+"e2corporation": {
+"date": "2025-09-24",
+"name": "Julien Chinapen"
+},
+"felixcheung": {
+"date": "2025-09-24",
+"name": "Felix Cheung"
+},
+"hez": {
+"date": "2025-09-24",
+"name": "Hezheng Yin"
+},
+"jbonofre": {
+"date": "2025-09-24",
+"name": "Jean-Baptiste Onofr\u00e9"
+},
+"jibin": {
+"date": "2025-09-24",
+"name": "Ji Bin"
+},
+"joncodo": {
+"date": "2025-09-24",
+"name": "Jonathan O'Donnell"
+},
+"klesh": {
+"date": "2025-09-24",
+"name": "Klesh Wong"
+},
+"lidongdai": {
+"date": "2025-09-24",
+"name": "Lidong Dai"
+},
+"lynwee": {
+"date": "2025-09-24",
+"name": "Lynwee Hou"
+},
+"maximwheatley": {
+"date": "2025-09-24",
+"name": "Maxim Wheatley"
+},
+"narro": {
+"date": "2025-09-24",
+"name": "Cong Wang"
+},
+"ningjiang": {
+"date": "2025-09-24",
+"name": "Willem Ning Jiang"
+},
+"sijie": {
+"date": "2025-09-24",
+"name": "Sijie Guo"
+},
+"warren": {
+"date": "2025-09-24",
+"name": "Warren Chen"
+},
+"zhangliang": {
+"date": "2025-09-24",
+"name": "Liang Zhang"
+},
+"zhangliang2022": {
+"date": "2025-09-24",
+"name": "Liang Zhang"
+},
+"zky": {
+"date": "2025-09-24",
+"name": "Kaiyun Zhang"
+}
+},
+"shortdesc": "a development data platform, providing the data infrastructure for developer teams to analyze and improve their engineering productivity"
+},
+{
 "chair": "smckinney",
 "charter": "The mission of Directory is the creation and maintenance of software related to Apache Directory Server",
 "established": "2005-02",
@@ -8105,6 +8189,66 @@
 "shortdesc": "a distributed data integration framework that simplifies common aspects of big data integration such as data ingestion, replication, organization and lifecycle management for both streaming and batch data ecosystems"
 },
 {
+"chair": "jamesfredley",
+"established": "2025-09",
+"group": "grails",
+"homepage": "https://grails.apache.org",
+"id": "grails",
+"name": "Apache Grails",
+"reporting": 2,
+"roster": {
+"bkoehm": {
+"date": "2025-09-24",
+"name": "Brian Koehmstedt"
+},
+"borinquenkid": {
+"date": "2025-09-24",
+"name": "Walter Duque de Estrada"
+},
+"davydotcom": {
+"date": "2025-09-24",
+"name": "David Estes"
+},
+"grocher": {
+"date": "2025-09-24",
+"name": "Graeme Rocher"
+},
+"jamesfredley": {
+"date": "2025-09-24",
+"name": "James Fredley"
+},
+"jdaugherty": {
+"date": "2025-09-24",
+"name": "James Daugherty"
+},
+"lhotari": {
+"date": "2025-09-24",
+"name": "Lari Hotari"
+},
+"matrei": {
+"date": "2025-09-24",
+"name": "Mattias Reichel"
+},
+"paulk": {
+"date": "2025-09-24",
+"name": "Paul King"
+},
+"puneetb": {
+"date": "2025-09-24",
+"name": "Puneet Behl"
+},
+"sbglasius": {
+"date": "2025-09-24",
+"name": "Soeren Glasius"
+},
+"sdelamo": {
+"date": "2025-09-24",
+"name": "Sergio del Amo"
+}
+},
+"shortdesc": "the development of a powerful Groovy-based web application framework for the JVM built on top of Spring Boot"
+},
+{
 "chair": "jshao",
 "charter": "The mission of Apache Gravitino is the creation and maintenance of software related to managing your data and AI assets seamlessly with a flexible, unified governance framework, including lakehouse federation capabilities",
 "established": "2025-05",
@@ -8169,96 +8313,6 @@
 }
 },
 "shortdesc": "managing your data and AI assets seamlessly with a flexible, unified governance framework, including lakehouse federation capabilities"
-},
-{
-"chair": "guoyp",
-"charter": "The mission of Apache Griffin is the creation and maintenance of software related to a data quality solution for big data, including both streaming and batch mode. It offers an unified process to measure data quality from different perspectives.",
-"established": "2018-11",
-"group": "griffin",
-"homepage": "https://griffin.apache.org/",
-"id": "griffin",
-"name": "Apache Griffin",
-"rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/griffin.rdf",
-"reporting": 1,
-"roster": {
-"alexlv": {
-"date": "2018-11-21",
-"name": "Alex Lv"
-},
-"chitralverma": {
-"date": "2020-05-06",
-"name": "Chitral Verma"
-},
-"dyyao": {
-"date": "2018-11-21",
-"name": "Kevin Yao"
-},
-"guoyp": {
-"date": "2018-11-21",
-"name": "William Guo"
-},
-"hsaputra": {
-"date": "2018-11-21",
-"name": "Henry Saputra"
-},
-"icesmartjuan": {
-"date": "2018-11-21",
-"name": "Juan Li"
-},
-"jasonliao": {
-"date": "2018-11-21",
-"name": "Jason Liao"
-},
-"johnliu": {
-"date": "2018-11-21",
-"name": "John Liu"
-},
-"liangshao": {
-"date": "2018-11-21",
-"name": "Liang Shao"
-},
-"lionelliu": {
-"date": "2018-11-21",
-"name": "Lionel Liu"
-},
-"liujin": {
-"date": "2018-11-21",
-"name": "Eugene Liu"
-},
-"lresende": {
-"date": "2018-11-21",
-"name": "Luciano Resende"
-},
-"nsokolov": {
-"date": "2018-11-21",
-"name": "Nick Sokolov"
-},
-"wanghe": {
-"date": "2018-11-21",
-"name": "He Wang"
-},
-"wankun": {
-"date": "2019-11-11",
-"name": "Wan Kun"
-},
-"wenzhao": {
-"date": "2018-11-21",
-"name": "Vincent Zhao"
-},
-"xuanyq": {
-"date": "2018-11-21",
-"name": "Yuqin Xuan"
-},
-"xuexu": {
-"date": "2018-11-21",
-"name": "Grant Guo"
-},
-"yosha": {
-"date": "2018-11-21",
-"name": "Shawn Sha"
-}
-},
-"shortdesc": "a data quality solution for big data, including both streaming and batch mode. It offers an unified process to measure data quality from different perspectives."
 },
 {
 "chair": "paulk",
@@ -10515,7 +10569,6 @@
 "id": "incubator",
 "name": "Apache Incubator",
 "rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/incubator.rdf",
-"reporting": 0,
 "roster": {
 "aajisaka": {
 "date": "2018-12-08",
@@ -13317,7 +13370,7 @@
 "shortdesc": "Extreme OLAP Engine for Big Data"
 },
 {
-"chair": "yao",
+"chair": "chengpan",
 "charter": "The mission of Apache Kyuubi is the creation and maintenance of software related to a distributed and multi-tenant gateway to provide serverless SQL on data warehouses and lakehouses",
 "established": "2022-12",
 "group": "kyuubi",
@@ -17767,88 +17820,6 @@
 }
 },
 "shortdesc": "Apache Portable Runtime libraries"
-},
-{
-"chair": "asfgriff",
-"charter": "The mission of Portals is the creation and maintenance of software related to Portal technology",
-"established": "2004-02",
-"group": "portals",
-"homepage": "https://portals.apache.org/",
-"id": "portals",
-"name": "Apache Portals",
-"rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/portals.rdf",
-"reporting": 3,
-"roster": {
-"asfgriff": {
-"date": "2017-02-12",
-"name": "Neil Griffin"
-},
-"ate": {
-"date": "2005-03-01",
-"name": "Ate Douma"
-},
-"cdoremus": {
-"date": "2007-05-05",
-"name": "Craig Doremus"
-},
-"ddewolf": {
-"date": "2004-11-14",
-"name": "David H. DeWolf"
-},
-"dims": {
-"date": "2004-02-18",
-"name": "Davanum Srinivas"
-},
-"esm": {
-"date": "2007-03-12",
-"name": "Elliot Metsger"
-},
-"jmacna": {
-"date": "2004-02-18",
-"name": "Julie MacNaught"
-},
-"msnicklous": {
-"date": "2017-02-12",
-"name": "Martin Scott Nicklous"
-},
-"nlothian": {
-"date": "2005-02-18",
-"name": "Nick Lothian"
-},
-"rogerrut": {
-"date": "2007-05-05",
-"name": "Roger Ruttimann"
-},
-"rwatler": {
-"date": "2015-05-12",
-"name": "Randy Watler"
-},
-"sgala": {
-"date": "2004-02-18",
-"name": "Santiago Gala"
-},
-"shinsuke": {
-"date": "2007-05-05",
-"name": "Shinsuke Sugaya"
-},
-"smilek": {
-"date": "2007-05-05",
-"name": "Steve Milek"
-},
-"sthepper": {
-"date": "2004-02-18",
-"name": "Stefan Hepper"
-},
-"taylor": {
-"date": "2004-02-18",
-"name": "David Sean Taylor"
-},
-"weaver": {
-"date": "2004-02-18",
-"name": "Scott Weaver"
-}
-},
-"shortdesc": "Portal technology"
 },
 {
 "chair": "mmerli",

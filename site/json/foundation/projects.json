@@ -9513,6 +9513,12 @@
 ],
 "shortdesc": "DeltaSpike is a collection of portable Extensions for CDI Containers"
 },
+"devlake": {
+"category": "no-tlp-doap",
+"homepage": "https://devlake.apache.org",
+"name": "Apache Devlake",
+"pmc": "devlake"
+},
 "directory": {
 "bug-database": "http://issues.apache.org/jira/browse/DIR",
 "category": "network-server, network-client",
@@ -10308,17 +10314,17 @@
 ],
 "shortdesc": "Distributed data integration framework"
 },
+"grails": {
+"category": "no-tlp-doap",
+"homepage": "https://grails.apache.org",
+"name": "Apache Grails",
+"pmc": "grails"
+},
 "gravitino": {
 "category": "no-tlp-doap",
 "homepage": "https://gravitino.apache.org",
 "name": "Apache Gravitino",
 "pmc": "gravitino"
-},
-"griffin": {
-"category": "no-tlp-doap",
-"homepage": "https://griffin.apache.org",
-"name": "Apache Griffin",
-"pmc": "griffin"
 },
 "groovy": {
 "bug-database": "https://issues.apache.org/jira/browse/GROOVY",
@@ -16780,7 +16786,7 @@
 },
 "portals": {
 "bug-database": "http://portals.apache.org/issue-tracking.html",
-"category": "web-framework",
+"category": "web-framework, retired",
 "created": "2004-02-18",
 "description": "The Apache Portals project provides various software products, including Apache Jetspeed-2, Apache Pluto, and Apache Portals Applications.",
 "doap": "http://svn.apache.org/repos/asf/portals/doap_portals.rdf",
@@ -16795,7 +16801,7 @@
 }
 ],
 "name": "Apache Portals",
-"pmc": "portals",
+"pmc": "attic",
 "programming-language": "Java",
 "release": [
 {
