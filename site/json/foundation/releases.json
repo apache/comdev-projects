@@ -40,14 +40,17 @@
 "airflow-chart-1.18.0": "2025-07-13",
 "apache-airflow-2.11.0": "2025-05-20",
 "apache-airflow-3.0.6": "2025-08-29",
+"apache-airflow-3.1.0": "2025-09-25",
 "apache-airflow-client-2.5.0": "2023-02-03",
 "apache-airflow-providers-jira-3.1.0": "2022-10-01",
 "apache-airflow-providers-qubole-3.4.3": "2023-11-12",
 "apache-airflow-upgrade-check-1.4.0": "2021-06-26",
 "apache_airflow-2.11.0": "2025-05-20",
 "apache_airflow-3.0.6": "2025-08-29",
+"apache_airflow-3.1.0": "2025-09-25",
 "apache_airflow_client-3.0.2": "2025-06-13",
 "apache_airflow_core-3.0.6": "2025-08-29",
+"apache_airflow_core-3.1.0": "2025-09-25",
 "apache_airflow_providers_airbyte-5.2.3": "2025-08-11",
 "apache_airflow_providers_alibaba-3.2.3": "2025-09-22",
 "apache_airflow_providers_amazon-9.14.0": "2025-09-22",
@@ -149,7 +152,8 @@
 "apache_airflow_providers_yandex-4.2.0": "2025-08-02",
 "apache_airflow_providers_ydb-2.2.2": "2025-08-02",
 "apache_airflow_providers_zendesk-4.10.2": "2025-08-02",
-"apache_airflow_task_sdk-1.0.6": "2025-08-29"
+"apache_airflow_task_sdk-1.0.6": "2025-08-29",
+"apache_airflow_task_sdk-1.1.0": "2025-09-25"
 },
 "allura": {
 "allura-1.18.0": "2025-08-12"
@@ -828,6 +832,7 @@
 "apache-doris-2.1.11-rc01": "2025-08-12",
 "apache-doris-3.0.8-rc01": "2025-09-01",
 "apache-doris-3.1.0": "2025-09-03",
+"apache-doris-3.1.1": "2025-09-19",
 "apache-doris-flink-connector-1.11_2.12-1.0.3-incubating": "2022-03-19",
 "apache-doris-flink-connector-1.12_2.11-1.0.3": "2022-08-15",
 "apache-doris-flink-connector-1.12_2.12-1.0.3-incubating": "2022-03-19",
@@ -1091,6 +1096,7 @@
 "apache-flink-1.20.0": "2024-07-25",
 "apache-flink-1.20.1": "2025-01-29",
 "apache-flink-1.20.2": "2025-06-13",
+"apache-flink-1.20.3": "2025-09-20",
 "apache-flink-2.0.0": "2025-03-10",
 "apache-flink-libraries-1.17.2": "2023-11-13",
 "apache-flink-libraries-1.18.1": "2023-12-19",
@@ -1101,6 +1107,7 @@
 "apache-flink-libraries-1.20.0": "2024-07-25",
 "apache-flink-libraries-1.20.1": "2025-01-29",
 "apache-flink-libraries-1.20.2": "2025-06-13",
+"apache-flink-libraries-1.20.3": "2025-09-20",
 "apache-flink-libraries-2.0.0": "2025-03-10",
 "apache-flink-ml-2.2.0": "2023-04-12",
 "apache-flink-ml-2.3.0": "2023-06-29",
@@ -1116,6 +1123,7 @@
 "flink-1.20.0": "2024-07-25",
 "flink-1.20.1": "2025-01-29",
 "flink-1.20.2": "2025-06-13",
+"flink-1.20.3": "2025-09-20",
 "flink-2.0-preview1": "2024-10-12",
 "flink-2.0.0": "2025-03-10",
 "flink-2.1.0": "2025-07-21",
@@ -1788,6 +1796,7 @@
 "apache-jspf-sources-1.0.5": "2024-07-16",
 "james-3.7.6": "2025-02-05",
 "james-3.8.2": "2025-01-29",
+"james-3.9.0": "2025-09-25",
 "james-mime4j-sources-0.8.11": "2024-03-05",
 "james-mime4j-sources-0.8.12": "2024-12-23",
 "james-mime4j-sources-0.8.13": "2025-07-18",
@@ -1796,8 +1805,10 @@
 "james-server-distributed": "2025-02-05",
 "james-server-distributed-guice": "2025-02-05",
 "james-server-jpa-guice": "2025-02-05",
+"james-server-postgres": "2025-09-25",
 "james-server-spring-app-3.7.6": "2025-02-05",
-"james-server-spring-app-3.8.2": "2025-01-29"
+"james-server-spring-app-3.8.2": "2025-01-29",
+"james-server-spring-app-3.9.0": "2025-09-25"
 },
 "jena": {
 "jena-5.5.0": "2025-07-14"
@@ -1871,13 +1882,15 @@
 "knox-1.6.0": "2021-11-03",
 "knox-1.6.1": "2021-12-15",
 "knox-2.0.0": "2023-02-09",
+"knox-2.1.0": "2025-09-09",
 "knoxshell-1.2.0": "2018-12-04",
 "knoxshell-1.3.0": "2019-07-17",
 "knoxshell-1.4.0": "2020-04-22",
 "knoxshell-1.5.0": "2020-11-22",
 "knoxshell-1.6.0": "2021-11-03",
 "knoxshell-1.6.1": "2021-12-15",
-"knoxshell-2.0.0": "2023-02-09"
+"knoxshell-2.0.0": "2023-02-09",
+"knoxshell-2.1.0": "2025-09-09"
 },
 "kudu": {
 "apache-kudu-1.11.1": "2019-11-20",
@@ -2124,7 +2137,7 @@
 "maven-resolver-ant-tasks-1.6.0": "2025-08-18",
 "maven-resources-plugin-3.3.1": "2023-03-24",
 "maven-resources-plugin-4.0.0-beta-1": "2024-07-01",
-"maven-scm-2.1.0": "2024-04-14",
+"maven-scm-2.2.1": "2025-09-25",
 "maven-scm-publish-plugin-3.3.0": "2024-06-20",
 "maven-script-interpreter-1.6": "2024-05-03",
 "maven-scripting-plugin-3.0.0": "2021-03-01",
@@ -2930,7 +2943,7 @@
 },
 "skywalking": {
 "apache-skywalking-apm-10.2.0": "2025-03-24",
-"apache-skywalking-banyandb-java-client-0.9.0-rc3": "2025-07-03",
+"apache-skywalking-banyandb-java-client-0.9.0": "2025-09-17",
 "apache-skywalking-go-0.1.0": "2023-06-04",
 "apache-skywalking-go-0.2.0": "2023-07-31",
 "apache-skywalking-go-0.3.0": "2023-10-18",
@@ -3093,7 +3106,7 @@
 "org.apache.sling.hc.support-1.0.10": "2022-11-23",
 "org.apache.sling.hc.webconsole-2.0.0": "2019-08-27",
 "org.apache.sling.i18n-3.0.0": "2025-08-26",
-"org.apache.sling.ide.p2update-1.2.2": "2018-05-09",
+"org.apache.sling.ide.p2update-1.3.0": "2025-09-25",
 "org.apache.sling.installer.console-1.0.4": "2022-06-07",
 "org.apache.sling.installer.console-1.1.2": "2023-05-19",
 "org.apache.sling.installer.core-3.14.4": "2025-07-15",
@@ -3605,6 +3618,7 @@
 "uimaj-io-json-0.5.0": "2023-03-03"
 },
 "uniffle": {
+"apache-uniffle-0.10.0": "2025-09-19",
 "apache-uniffle-0.6.0-incubating": "2022-10-13",
 "apache-uniffle-0.6.1-incubating": "2022-12-01",
 "apache-uniffle-0.7.0-incubating": "2023-03-17",

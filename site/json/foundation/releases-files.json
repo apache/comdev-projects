@@ -114,6 +114,9 @@
 "apache-airflow-3.0.6": [
 "airflow/3.0.6/apache-airflow-3.0.6-source.tar.gz"
 ],
+"apache-airflow-3.1.0": [
+"airflow/3.1.0/apache-airflow-3.1.0-source.tar.gz"
+],
 "apache-airflow-client-2.5.0": [
 "airflow/clients/go/2.5.0/apache-airflow-client-2.5.0-source.tar.gz"
 ],
@@ -132,11 +135,17 @@
 "apache_airflow-3.0.6": [
 "airflow/3.0.6/apache_airflow-3.0.6.tar.gz"
 ],
+"apache_airflow-3.1.0": [
+"airflow/3.1.0/apache_airflow-3.1.0.tar.gz"
+],
 "apache_airflow_client-3.0.2": [
 "airflow/clients/python/3.0.2/apache_airflow_client-3.0.2.tar.gz"
 ],
 "apache_airflow_core-3.0.6": [
 "airflow/3.0.6/apache_airflow_core-3.0.6.tar.gz"
+],
+"apache_airflow_core-3.1.0": [
+"airflow/3.1.0/apache_airflow_core-3.1.0.tar.gz"
 ],
 "apache_airflow_providers_airbyte-5.2.3": [
 "airflow/providers/apache_airflow_providers_airbyte-5.2.3.tar.gz"
@@ -443,6 +452,9 @@
 ],
 "apache_airflow_task_sdk-1.0.6": [
 "airflow/task-sdk/1.0.6/apache_airflow_task_sdk-1.0.6.tar.gz"
+],
+"apache_airflow_task_sdk-1.1.0": [
+"airflow/task-sdk/1.1.0/apache_airflow_task_sdk-1.1.0.tar.gz"
 ]
 },
 "allura": {
@@ -2499,6 +2511,9 @@
 "apache-doris-3.1.0": [
 "doris/3.1/3.1.0/apache-doris-3.1.0-src.tar.gz"
 ],
+"apache-doris-3.1.1": [
+"doris/3.1/3.1.1/apache-doris-3.1.1-src.tar.gz"
+],
 "apache-doris-flink-connector-1.11_2.12-1.0.3-incubating": [
 "doris/flink-connector/1.0.3/apache-doris-flink-connector-1.11_2.12-1.0.3-incubating-src.tar.gz"
 ],
@@ -3385,6 +3400,9 @@
 "apache-flink-1.20.2": [
 "flink/flink-1.20.2/python/apache-flink-1.20.2.tar.gz"
 ],
+"apache-flink-1.20.3": [
+"flink/flink-1.20.3/python/apache-flink-1.20.3.tar.gz"
+],
 "apache-flink-2.0.0": [
 "flink/flink-2.0.0/python/apache-flink-2.0.0.tar.gz"
 ],
@@ -3414,6 +3432,9 @@
 ],
 "apache-flink-libraries-1.20.2": [
 "flink/flink-1.20.2/python/apache-flink-libraries-1.20.2.tar.gz"
+],
+"apache-flink-libraries-1.20.3": [
+"flink/flink-1.20.3/python/apache-flink-libraries-1.20.3.tar.gz"
 ],
 "apache-flink-libraries-2.0.0": [
 "flink/flink-2.0.0/python/apache-flink-libraries-2.0.0.tar.gz"
@@ -3459,6 +3480,9 @@
 ],
 "flink-1.20.2": [
 "flink/flink-1.20.2/flink-1.20.2-src.tgz"
+],
+"flink-1.20.3": [
+"flink/flink-1.20.3/flink-1.20.3-src.tgz"
 ],
 "flink-2.0-preview1": [
 "flink/flink-2.0-preview1/flink-2.0-preview1-src.tgz"
@@ -5312,6 +5336,9 @@
 "james-3.8.2": [
 "james/server/3.8.2/james-project-3.8.2-source-release.zip"
 ],
+"james-3.9.0": [
+"james/server/3.9.0/james-project-3.9.0-source-release.zip"
+],
 "james-mime4j-sources-0.8.11": [
 "james/mime4j/0.8.11/james-mime4j-sources-0.8.11.zip"
 ],
@@ -5334,17 +5361,25 @@
 ],
 "james-server-distributed-guice": [
 "james/server/3.7.6/james-server-distributed-guice.zip",
-"james/server/3.8.2/james-server-distributed-guice.zip"
+"james/server/3.8.2/james-server-distributed-guice.zip",
+"james/server/3.9.0/james-server-distributed-guice.zip"
 ],
 "james-server-jpa-guice": [
 "james/server/3.7.6/james-server-jpa-guice.zip",
-"james/server/3.8.2/james-server-jpa-guice.zip"
+"james/server/3.8.2/james-server-jpa-guice.zip",
+"james/server/3.9.0/james-server-jpa-guice.zip"
+],
+"james-server-postgres": [
+"james/server/3.9.0/james-server-postgres-app.zip"
 ],
 "james-server-spring-app-3.7.6": [
 "james/server/3.7.6/james-server-spring-app-3.7.6-app.zip"
 ],
 "james-server-spring-app-3.8.2": [
 "james/server/3.8.2/james-server-spring-app-3.8.2-app.zip"
+],
+"james-server-spring-app-3.9.0": [
+"james/server/3.9.0/james-server-spring-app-3.9.0-app.zip"
 ]
 },
 "jena": {
@@ -5590,6 +5625,11 @@
 "knox/2.0.0/knox-2.0.0.tar.gz",
 "knox/2.0.0/knox-2.0.0.zip"
 ],
+"knox-2.1.0": [
+"knox/2.1.0/knox-2.1.0-src.zip",
+"knox/2.1.0/knox-2.1.0.tar.gz",
+"knox/2.1.0/knox-2.1.0.zip"
+],
 "knoxshell-1.2.0": [
 "knox/1.2.0/knoxshell-1.2.0.tar.gz",
 "knox/1.2.0/knoxshell-1.2.0.zip"
@@ -5617,6 +5657,10 @@
 "knoxshell-2.0.0": [
 "knox/2.0.0/knoxshell-2.0.0.tar.gz",
 "knox/2.0.0/knoxshell-2.0.0.zip"
+],
+"knoxshell-2.1.0": [
+"knox/2.1.0/knoxshell-2.1.0.tar.gz",
+"knox/2.1.0/knoxshell-2.1.0.zip"
 ]
 },
 "kudu": {
@@ -6356,8 +6400,8 @@
 "maven-resources-plugin-4.0.0-beta-1": [
 "maven/plugins/maven-resources-plugin-4.0.0-beta-1-source-release.zip"
 ],
-"maven-scm-2.1.0": [
-"maven/scm/maven-scm-2.1.0-source-release.zip"
+"maven-scm-2.2.1": [
+"maven/scm/maven-scm-2.2.1-source-release.zip"
 ],
 "maven-scm-publish-plugin-3.3.0": [
 "maven/plugins/maven-scm-publish-plugin-3.3.0-source-release.zip"
@@ -8708,8 +8752,8 @@
 "skywalking/10.2.0/apache-skywalking-apm-10.2.0-src.tgz",
 "skywalking/10.2.0/apache-skywalking-apm-10.2.0.tar.gz"
 ],
-"apache-skywalking-banyandb-java-client-0.9.0-rc3": [
-"skywalking/banyandb-java-client/0.9.0-rc3/apache-skywalking-banyandb-java-client-0.9.0-rc3-src.tgz"
+"apache-skywalking-banyandb-java-client-0.9.0": [
+"skywalking/banyandb-java-client/0.9.0/apache-skywalking-banyandb-java-client-0.9.0-src.tgz"
 ],
 "apache-skywalking-go-0.1.0": [
 "skywalking/go/0.1.0/apache-skywalking-go-0.1.0-src.tgz"
@@ -9205,8 +9249,8 @@
 "org.apache.sling.i18n-3.0.0": [
 "sling/org.apache.sling.i18n-3.0.0-source-release.zip"
 ],
-"org.apache.sling.ide.p2update-1.2.2": [
-"sling/org.apache.sling.ide.p2update-1.2.2.zip"
+"org.apache.sling.ide.p2update-1.3.0": [
+"sling/org.apache.sling.ide.p2update-1.3.0.zip"
 ],
 "org.apache.sling.installer.console-1.0.4": [
 "sling/org.apache.sling.installer.console-1.0.4-source-release.zip"
@@ -10723,6 +10767,9 @@
 ]
 },
 "uniffle": {
+"apache-uniffle-0.10.0": [
+"uniffle/0.10.0/apache-uniffle-0.10.0-src.tar.gz"
+],
 "apache-uniffle-0.6.0-incubating": [
 "uniffle/0.6.0/apache-uniffle-0.6.0-incubating-src.tar.gz"
 ],

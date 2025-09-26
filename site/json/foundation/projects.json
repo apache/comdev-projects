@@ -9967,7 +9967,7 @@
 },
 "fluo": {
 "bug-database": "https://github.com/apache/fluo/issues",
-"category": "big-data",
+"category": "big-data, retired",
 "created": "2012-03-26",
 "description": "Apache Fluo is a distributed processing system that lets users\n      make incremental updates to large data sets. With Apache Fluo, users can\n      set up workflows that execute cross node transactions when data changes.\n      These workflows enable users to continuously join new data into large\n      existing data sets without reprocessing all data. Apache Fluo is built on\n      Apache Accumulo.",
 "doap": "https://fluo.apache.org/doap/fluo.rdf",
@@ -9982,7 +9982,7 @@
 }
 ],
 "name": "Apache Fluo",
-"pmc": "fluo",
+"pmc": "attic",
 "programming-language": "Java",
 "release": [
 {
@@ -10007,7 +10007,7 @@
 },
 "fluo-recipes": {
 "bug-database": "https://github.com/apache/fluo-recipes/issues",
-"category": "big-data",
+"category": "big-data, retired",
 "created": "2012-03-26",
 "description": "Apache Fluo Recipes build on the Fluo API to offer additional\n      functionality to developers. They are published separately from Fluo on\n      their own release schedule. This allows Fluo Recipes to iterate and\n      innovate faster than Fluo (which will maintain a more minimal API on a\n      slower release cycle). Fluo Recipes offers code to implement common\n      patterns on top of Fluo's API. It also offers glue code to external\n      libraries like Spark and Kryo.",
 "doap": "https://fluo.apache.org/doap/fluo-recipes.rdf",
@@ -10022,7 +10022,7 @@
 }
 ],
 "name": "Apache Fluo Recipes",
-"pmc": "fluo",
+"pmc": "attic",
 "programming-language": "Java",
 "release": [
 {
@@ -10047,7 +10047,7 @@
 },
 "fluo-yarn": {
 "bug-database": "https://github.com/apache/fluo-yarn/issues",
-"category": "big-data",
+"category": "big-data, retired",
 "created": "2012-03-26",
 "description": "Apache Fluo YARN is a tool for running Apache Fluo\n      applications in Apache Hadoop YARN.",
 "doap": "https://fluo.apache.org/doap/fluo-yarn.rdf",
@@ -10062,7 +10062,7 @@
 }
 ],
 "name": "Apache Fluo YARN",
-"pmc": "fluo",
+"pmc": "attic",
 "programming-language": "Java",
 "release": [
 {
