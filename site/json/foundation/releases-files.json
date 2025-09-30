@@ -417,8 +417,8 @@
 "apache_airflow_providers_ssh-4.1.4": [
 "airflow/providers/apache_airflow_providers_ssh-4.1.4.tar.gz"
 ],
-"apache_airflow_providers_standard-1.8.0": [
-"airflow/providers/apache_airflow_providers_standard-1.8.0.tar.gz"
+"apache_airflow_providers_standard-1.9.0": [
+"airflow/providers/apache_airflow_providers_standard-1.9.0.tar.gz"
 ],
 "apache_airflow_providers_tableau-5.2.0": [
 "airflow/providers/apache_airflow_providers_tableau-5.2.0.tar.gz"
@@ -1283,26 +1283,17 @@
 ]
 },
 "calcite": {
-"apache-calcite-1.36.0": [
-"calcite/apache-calcite-1.36.0/apache-calcite-1.36.0-src.tar.gz"
-],
-"apache-calcite-1.37.0": [
-"calcite/apache-calcite-1.37.0/apache-calcite-1.37.0-src.tar.gz"
-],
-"apache-calcite-1.38.0": [
-"calcite/apache-calcite-1.38.0/apache-calcite-1.38.0-src.tar.gz"
-],
 "apache-calcite-1.39.0": [
 "calcite/apache-calcite-1.39.0/apache-calcite-1.39.0-src.tar.gz"
 ],
 "apache-calcite-1.40.0": [
 "calcite/apache-calcite-1.40.0/apache-calcite-1.40.0-src.tar.gz"
 ],
-"apache-calcite-avatica-1.25.0": [
-"calcite/apache-calcite-avatica-1.25.0/apache-calcite-avatica-1.25.0-src.tar.gz"
-],
 "apache-calcite-avatica-1.26.0": [
 "calcite/apache-calcite-avatica-1.26.0/apache-calcite-avatica-1.26.0-src.tar.gz"
+],
+"apache-calcite-avatica-1.27.0": [
+"calcite/apache-calcite-avatica-1.27.0/apache-calcite-avatica-1.27.0-src.tar.gz"
 ],
 "apache-calcite-avatica-go-5.3.0": [
 "calcite/apache-calcite-avatica-go-5.3.0/apache-calcite-avatica-go-5.3.0-src.tar.gz"
@@ -1393,6 +1384,9 @@
 "camel-kafka-connector-4.11.0": [
 "camel/camel-kafka-connector/4.11.0/camel-kafka-connector-4.11.0-src.zip"
 ],
+"camel-kafka-connector-4.14.0": [
+"camel/camel-kafka-connector/4.14.0/camel-kafka-connector-4.14.0-src.zip"
+],
 "camel-kafka-connector-4.8.5": [
 "camel/camel-kafka-connector/4.8.5/camel-kafka-connector-4.8.5-src.zip"
 ],
@@ -1407,6 +1401,9 @@
 ],
 "camel-kamelets-sources-4.10.6": [
 "camel/camel-kamelets/4.10.6/camel-kamelets-sources-4.10.6.tar.gz"
+],
+"camel-kamelets-sources-4.10.7": [
+"camel/camel-kamelets/4.10.7/camel-kamelets-sources-4.10.7.tar.gz"
 ],
 "camel-kamelets-sources-4.11.0": [
 "camel/camel-kamelets/4.11.0/camel-kamelets-sources-4.11.0.tar.gz"
@@ -3880,6 +3877,9 @@
 "geronimo-mail_2.1_parent-1.0.1": [
 "geronimo/javamail/geronimo-mail_2.1_parent-1.0.1-source-release.zip"
 ],
+"geronimo-mail_2.1_parent-1.0.2": [
+"geronimo/javamail/geronimo-mail_2.1_parent-1.0.2-source-release.zip"
+],
 "geronimo-mail_2.1_spec-1.0.0": [
 "geronimo/specs/geronimo-mail_2.1_spec-1.0.0-source-release.zip"
 ],
@@ -3929,6 +3929,26 @@
 ],
 "apache-gobblin-sources-0.17.0": [
 "gobblin/apache-gobblin-0.17.0/apache-gobblin-sources-0.17.0.tgz"
+]
+},
+"grails": {
+"apache-grails-7.0.0-RC2-incubating": [
+"grails/core/7.0.0-RC2/sources/apache-grails-7.0.0-RC2-incubating-src.zip"
+],
+"apache-grails-github-actions-1.0.0-incubating": [
+"grails/actions/1.0.0/sources/apache-grails-github-actions-1.0.0-incubating-src.zip"
+],
+"apache-grails-publish-0.0.1-incubating": [
+"grails/grails-publish/0.0.1/sources/apache-grails-publish-0.0.1-incubating-src.zip"
+],
+"apache-grails-quartz-4.0.0-RC2-incubating": [
+"grails/quartz/4.0.0-RC2/sources/apache-grails-quartz-4.0.0-RC2-incubating-src.zip"
+],
+"apache-grails-redis-5.0.0-RC2-incubating": [
+"grails/redis/5.0.0-RC2/sources/apache-grails-redis-5.0.0-RC2-incubating-src.zip"
+],
+"apache-grails-spring-security-7.0.0-RC2-incubating": [
+"grails/spring-security/7.0.0-RC2/sources/apache-grails-spring-security-7.0.0-RC2-incubating-src.zip"
 ]
 },
 "gravitino": {
@@ -4723,26 +4743,6 @@
 ],
 "apache-gluten-1.4.0-incubating": [
 "incubator/gluten/1.4.0-incubating/apache-gluten-1.4.0-incubating-src.tar.gz"
-]
-},
-"incubator-grails": {
-"apache-grails-7.0.0-RC2-incubating": [
-"incubator/grails/core/7.0.0-RC2/sources/apache-grails-7.0.0-RC2-incubating-src.zip"
-],
-"apache-grails-github-actions-1.0.0-incubating": [
-"incubator/grails/actions/1.0.0/sources/apache-grails-github-actions-1.0.0-incubating-src.zip"
-],
-"apache-grails-publish-0.0.1-incubating": [
-"incubator/grails/grails-publish/0.0.1/sources/apache-grails-publish-0.0.1-incubating-src.zip"
-],
-"apache-grails-quartz-4.0.0-RC2-incubating": [
-"incubator/grails/quartz/4.0.0-RC2/sources/apache-grails-quartz-4.0.0-RC2-incubating-src.zip"
-],
-"apache-grails-redis-5.0.0-RC2-incubating": [
-"incubator/grails/redis/5.0.0-RC2/sources/apache-grails-redis-5.0.0-RC2-incubating-src.zip"
-],
-"apache-grails-spring-security-7.0.0-RC2-incubating": [
-"incubator/grails/spring-security/7.0.0-RC2/sources/apache-grails-spring-security-7.0.0-RC2-incubating-src.zip"
 ]
 },
 "incubator-graphar": {
@@ -5868,9 +5868,6 @@
 ]
 },
 "linkis": {
-"apache-linkis-1.6.0": [
-"linkis/1.6.0/apache-linkis-1.6.0-src.tar.gz"
-],
 "apache-linkis-1.7.0": [
 "linkis/1.7.0/apache-linkis-1.7.0-src.tar.gz"
 ]
@@ -9858,6 +9855,9 @@
 "SparkR_4.1.0-preview1": [
 "spark/spark-4.1.0-preview1/SparkR_4.1.0-preview1.tar.gz"
 ],
+"SparkR_4.1.0-preview2": [
+"spark/spark-4.1.0-preview2/SparkR_4.1.0-preview2.tar.gz"
+],
 "pyspark-3.5.6": [
 "spark/spark-3.5.6/pyspark-3.5.6.tar.gz"
 ],
@@ -9870,17 +9870,26 @@
 "pyspark-4.1.0.dev1": [
 "spark/spark-4.1.0-preview1/pyspark-4.1.0.dev1.tar.gz"
 ],
+"pyspark-4.1.0.dev2": [
+"spark/spark-4.1.0-preview2/pyspark-4.1.0.dev2.tar.gz"
+],
 "pyspark_client-4.0.1": [
 "spark/spark-4.0.1/pyspark_client-4.0.1.tar.gz"
 ],
 "pyspark_client-4.1.0.dev1": [
 "spark/spark-4.1.0-preview1/pyspark_client-4.1.0.dev1.tar.gz"
 ],
+"pyspark_client-4.1.0.dev2": [
+"spark/spark-4.1.0-preview2/pyspark_client-4.1.0.dev2.tar.gz"
+],
 "pyspark_connect-4.0.1": [
 "spark/spark-4.0.1/pyspark_connect-4.0.1.tar.gz"
 ],
 "pyspark_connect-4.1.0.dev1": [
 "spark/spark-4.1.0-preview1/pyspark_connect-4.1.0.dev1.tar.gz"
+],
+"pyspark_connect-4.1.0.dev2": [
+"spark/spark-4.1.0-preview2/pyspark_connect-4.1.0.dev2.tar.gz"
 ],
 "spark-3.5.6": [
 "spark/spark-3.5.6/spark-3.5.6.tgz"
@@ -9893,6 +9902,9 @@
 ],
 "spark-4.1.0-preview1": [
 "spark/spark-4.1.0-preview1/spark-4.1.0-preview1.tgz"
+],
+"spark-4.1.0-preview2": [
+"spark/spark-4.1.0-preview2/spark-4.1.0-preview2.tgz"
 ],
 "spark-connect-swift-0.3.0": [
 "spark/spark-connect-swift-0.3.0/spark-connect-swift-0.3.0.tar.gz"

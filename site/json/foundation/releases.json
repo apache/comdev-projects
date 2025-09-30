@@ -141,7 +141,7 @@
 "apache_airflow_providers_snowflake-6.5.4": "2025-09-22",
 "apache_airflow_providers_sqlite-4.1.2": "2025-08-02",
 "apache_airflow_providers_ssh-4.1.4": "2025-09-22",
-"apache_airflow_providers_standard-1.8.0": "2025-09-22",
+"apache_airflow_providers_standard-1.9.0": "2025-09-29",
 "apache_airflow_providers_tableau-5.2.0": "2025-08-02",
 "apache_airflow_providers_tabular-1.6.1": "2024-08-28",
 "apache_airflow_providers_telegram-4.8.2": "2025-08-02",
@@ -442,13 +442,10 @@
 "bval-parent-3.0.2": "2025-03-13"
 },
 "calcite": {
-"apache-calcite-1.36.0": "2023-11-10",
-"apache-calcite-1.37.0": "2024-05-06",
-"apache-calcite-1.38.0": "2024-10-15",
 "apache-calcite-1.39.0": "2025-03-16",
 "apache-calcite-1.40.0": "2025-05-28",
-"apache-calcite-avatica-1.25.0": "2024-04-05",
 "apache-calcite-avatica-1.26.0": "2025-02-23",
+"apache-calcite-avatica-1.27.0": "2025-09-29",
 "apache-calcite-avatica-go-5.3.0": "2023-12-11",
 "apache-calcite-avatica-go-5.4.0": "2025-03-04"
 },
@@ -480,11 +477,13 @@
 "camel-kafka-connector-4.10.2": "2025-03-11",
 "camel-kafka-connector-4.10.3": "2025-04-05",
 "camel-kafka-connector-4.11.0": "2025-04-13",
+"camel-kafka-connector-4.14.0": "2025-09-24",
 "camel-kafka-connector-4.8.5": "2025-03-10",
 "camel-kamelets-sources-4.10.3": "2025-03-31",
 "camel-kamelets-sources-4.10.4": "2025-05-02",
 "camel-kamelets-sources-4.10.5": "2025-06-13",
 "camel-kamelets-sources-4.10.6": "2025-06-27",
+"camel-kamelets-sources-4.10.7": "2025-09-24",
 "camel-kamelets-sources-4.11.0": "2025-04-04",
 "camel-kamelets-sources-4.12.0": "2025-05-29",
 "camel-kamelets-sources-4.13.0": "2025-07-10",
@@ -1262,6 +1261,7 @@
 "geronimo-jwt-auth-1.0.5": "2024-11-25",
 "geronimo-mail_2.1-1.0.0": "2022-06-23",
 "geronimo-mail_2.1_parent-1.0.1": "2025-03-12",
+"geronimo-mail_2.1_parent-1.0.2": "2025-09-29",
 "geronimo-mail_2.1_spec-1.0.0": "2024-09-30",
 "geronimo-metrics-parent-1.0.6": "2022-03-08",
 "geronimo-microprofile-1.0.2": "2019-02-28",
@@ -1280,6 +1280,14 @@
 "apache-gobblin-incubating-sources-0.15.0": "2020-11-30",
 "apache-gobblin-incubating-sources-0.16.0": "2021-08-12",
 "apache-gobblin-sources-0.17.0": "2023-06-14"
+},
+"grails": {
+"apache-grails-7.0.0-RC2-incubating": "2025-09-03",
+"apache-grails-github-actions-1.0.0-incubating": "2025-09-03",
+"apache-grails-publish-0.0.1-incubating": "2025-09-05",
+"apache-grails-quartz-4.0.0-RC2-incubating": "2025-09-11",
+"apache-grails-redis-5.0.0-RC2-incubating": "2025-09-05",
+"apache-grails-spring-security-7.0.0-RC2-incubating": "2025-09-05"
 },
 "gravitino": {
 "gravitino-0.9.1": "2025-07-15",
@@ -1562,14 +1570,6 @@
 "apache-gluten-1.2.1-incubating": "2024-11-29",
 "apache-gluten-1.3.0-incubating": "2025-01-16",
 "apache-gluten-1.4.0-incubating": "2025-06-06"
-},
-"incubator-grails": {
-"apache-grails-7.0.0-RC2-incubating": "2025-09-03",
-"apache-grails-github-actions-1.0.0-incubating": "2025-09-03",
-"apache-grails-publish-0.0.1-incubating": "2025-09-05",
-"apache-grails-quartz-4.0.0-RC2-incubating": "2025-09-11",
-"apache-grails-redis-5.0.0-RC2-incubating": "2025-09-05",
-"apache-grails-spring-security-7.0.0-RC2-incubating": "2025-09-05"
 },
 "incubator-graphar": {
 "apache-graphar-0.12.0-incubating": "2024-06-07",
@@ -1966,7 +1966,6 @@
 "apache-libcloud-3.8.0": "2023-08-10"
 },
 "linkis": {
-"apache-linkis-1.6.0": "2024-07-04",
 "apache-linkis-1.7.0": "2024-12-23"
 },
 "logging": {
@@ -3311,18 +3310,23 @@
 "SparkR_3.5.7": "2025-09-17",
 "SparkR_4.0.1": "2025-09-02",
 "SparkR_4.1.0-preview1": "2025-07-08",
+"SparkR_4.1.0-preview2": "2025-09-24",
 "pyspark-3.5.6": "2025-05-23",
 "pyspark-3.5.7": "2025-09-17",
 "pyspark-4.0.1": "2025-09-02",
 "pyspark-4.1.0.dev1": "2025-07-08",
+"pyspark-4.1.0.dev2": "2025-09-24",
 "pyspark_client-4.0.1": "2025-09-02",
 "pyspark_client-4.1.0.dev1": "2025-07-08",
+"pyspark_client-4.1.0.dev2": "2025-09-24",
 "pyspark_connect-4.0.1": "2025-09-02",
 "pyspark_connect-4.1.0.dev1": "2025-07-08",
+"pyspark_connect-4.1.0.dev2": "2025-09-24",
 "spark-3.5.6": "2025-05-23",
 "spark-3.5.7": "2025-09-17",
 "spark-4.0.1": "2025-09-02",
 "spark-4.1.0-preview1": "2025-07-08",
+"spark-4.1.0-preview2": "2025-09-24",
 "spark-connect-swift-0.3.0": "2025-06-01",
 "spark-kubernetes-operator-0.4.0": "2025-06-30"
 },
