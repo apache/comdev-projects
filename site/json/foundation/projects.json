@@ -254,6 +254,116 @@
 "https://gitbox.apache.org/repos/asf/accumulo.git"
 ]
 },
+"accumulo-fluo": {
+"bug-database": "https://github.com/apache/accumulo-fluo/issues",
+"category": "big-data",
+"created": "2012-03-26",
+"description": "Apache Fluo is a distributed processing system that lets users\n      make incremental updates to large data sets. With Apache Fluo, users can\n      set up workflows that execute cross node transactions when data changes.\n      These workflows enable users to continuously join new data into large\n      existing data sets without reprocessing all data. Apache Fluo is built on\n      Apache Accumulo.",
+"doap": "https://fluo.apache.org/doap/fluo.rdf",
+"download-page": "https://fluo.apache.org/releases/",
+"homepage": "https://fluo.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "https://fluo.apache.org/contactus",
+"maintainer": [
+{
+"mbox": "mailto:dev@accumulo.apache.org",
+"name": "Apache Accumulo PMC"
+}
+],
+"name": "Apache Fluo",
+"pmc": "accumulo",
+"programming-language": "Java",
+"release": [
+{
+"created": "2018-02-26",
+"name": "Apache Fluo",
+"revision": "1.2.0"
+},
+{
+"created": "2017-06-12",
+"name": "Apache Fluo",
+"revision": "1.1.0-incubating"
+},
+{
+"created": "2016-10-14",
+"name": "Apache Fluo",
+"revision": "1.0.0-incubating"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf/accumulo-fluo.git"
+]
+},
+"accumulo-fluo_recipes": {
+"bug-database": "https://github.com/apache/accumulo-fluo-recipes/issues",
+"category": "big-data",
+"created": "2012-03-26",
+"description": "Apache Fluo Recipes build on the Fluo API to offer additional\n      functionality to developers. They are published separately from Fluo on\n      their own release schedule. This allows Fluo Recipes to iterate and\n      innovate faster than Fluo (which will maintain a more minimal API on a\n      slower release cycle). Fluo Recipes offers code to implement common\n      patterns on top of Fluo's API. It also offers glue code to external\n      libraries like Spark and Kryo.",
+"doap": "https://fluo.apache.org/doap/fluo-recipes.rdf",
+"download-page": "https://fluo.apache.org/releases/",
+"homepage": "https://fluo.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "https://fluo.apache.org/contactus",
+"maintainer": [
+{
+"mbox": "mailto:dev@accumulo.apache.org",
+"name": "Apache Accumulo PMC"
+}
+],
+"name": "Apache Fluo Recipes",
+"pmc": "accumulo",
+"programming-language": "Java",
+"release": [
+{
+"created": "2018-03-06",
+"name": "Apache Fluo Recipes",
+"revision": "1.2.0"
+},
+{
+"created": "2017-06-22",
+"name": "Apache Fluo Recipes",
+"revision": "1.1.0-incubating"
+},
+{
+"created": "2016-10-14",
+"name": "Apache Fluo Recipes",
+"revision": "1.0.0-incubating"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf/accumulo-fluo-recipes.git"
+]
+},
+"accumulo-fluo_yarn": {
+"bug-database": "https://github.com/apache/accumulo-fluo-yarn/issues",
+"category": "big-data",
+"created": "2012-03-26",
+"description": "Apache Fluo YARN is a tool for running Apache Fluo\n      applications in Apache Hadoop YARN.",
+"doap": "https://fluo.apache.org/doap/fluo-yarn.rdf",
+"download-page": "https://fluo.apache.org/releases/",
+"homepage": "https://fluo.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "https://fluo.apache.org/contactus",
+"maintainer": [
+{
+"mbox": "mailto:dev@accumulo.apache.org",
+"name": "Apache Accumulo PMC"
+}
+],
+"name": "Apache Fluo YARN",
+"pmc": "accumulo",
+"programming-language": "Java",
+"release": [
+{
+"created": "2018-03-06",
+"name": "Apache Fluo YARN",
+"revision": "1.0.0"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf/accumulo-fluo-yarn.git"
+]
+},
 "activemq": {
 "bug-database": "http://issues.apache.org/activemq/browse/AMQ",
 "category": "network-server, network-client",
@@ -9965,116 +10075,6 @@
 ],
 "shortdesc": "Fast and reliable large-scale data processing"
 },
-"fluo": {
-"bug-database": "https://github.com/apache/fluo/issues",
-"category": "big-data, retired",
-"created": "2012-03-26",
-"description": "Apache Fluo is a distributed processing system that lets users\n      make incremental updates to large data sets. With Apache Fluo, users can\n      set up workflows that execute cross node transactions when data changes.\n      These workflows enable users to continuously join new data into large\n      existing data sets without reprocessing all data. Apache Fluo is built on\n      Apache Accumulo.",
-"doap": "https://fluo.apache.org/doap/fluo.rdf",
-"download-page": "https://fluo.apache.org/releases/",
-"homepage": "https://fluo.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "https://fluo.apache.org/contactus",
-"maintainer": [
-{
-"mbox": "mailto:kturner@apache.org",
-"name": "Keith Turner"
-}
-],
-"name": "Apache Fluo",
-"pmc": "attic",
-"programming-language": "Java",
-"release": [
-{
-"created": "2018-02-26",
-"name": "Apache Fluo",
-"revision": "1.2.0"
-},
-{
-"created": "2017-06-12",
-"name": "Apache Fluo",
-"revision": "1.1.0-incubating"
-},
-{
-"created": "2016-10-14",
-"name": "Apache Fluo",
-"revision": "1.0.0-incubating"
-}
-],
-"repository": [
-"https://gitbox.apache.org/repos/asf/fluo.git"
-]
-},
-"fluo-recipes": {
-"bug-database": "https://github.com/apache/fluo-recipes/issues",
-"category": "big-data, retired",
-"created": "2012-03-26",
-"description": "Apache Fluo Recipes build on the Fluo API to offer additional\n      functionality to developers. They are published separately from Fluo on\n      their own release schedule. This allows Fluo Recipes to iterate and\n      innovate faster than Fluo (which will maintain a more minimal API on a\n      slower release cycle). Fluo Recipes offers code to implement common\n      patterns on top of Fluo's API. It also offers glue code to external\n      libraries like Spark and Kryo.",
-"doap": "https://fluo.apache.org/doap/fluo-recipes.rdf",
-"download-page": "https://fluo.apache.org/releases/",
-"homepage": "https://fluo.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "https://fluo.apache.org/contactus",
-"maintainer": [
-{
-"mbox": "mailto:kturner@apache.org",
-"name": "Keith Turner"
-}
-],
-"name": "Apache Fluo Recipes",
-"pmc": "attic",
-"programming-language": "Java",
-"release": [
-{
-"created": "2018-03-06",
-"name": "Apache Fluo Recipes",
-"revision": "1.2.0"
-},
-{
-"created": "2017-06-22",
-"name": "Apache Fluo Recipes",
-"revision": "1.1.0-incubating"
-},
-{
-"created": "2016-10-14",
-"name": "Apache Fluo Recipes",
-"revision": "1.0.0-incubating"
-}
-],
-"repository": [
-"https://gitbox.apache.org/repos/asf/fluo-recipes.git"
-]
-},
-"fluo-yarn": {
-"bug-database": "https://github.com/apache/fluo-yarn/issues",
-"category": "big-data, retired",
-"created": "2012-03-26",
-"description": "Apache Fluo YARN is a tool for running Apache Fluo\n      applications in Apache Hadoop YARN.",
-"doap": "https://fluo.apache.org/doap/fluo-yarn.rdf",
-"download-page": "https://fluo.apache.org/releases/",
-"homepage": "https://fluo.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "https://fluo.apache.org/contactus",
-"maintainer": [
-{
-"mbox": "mailto:kturner@apache.org",
-"name": "Keith Turner"
-}
-],
-"name": "Apache Fluo YARN",
-"pmc": "attic",
-"programming-language": "Java",
-"release": [
-{
-"created": "2018-03-06",
-"name": "Apache Fluo YARN",
-"revision": "1.0.0"
-}
-],
-"repository": [
-"https://gitbox.apache.org/repos/asf/fluo-yarn.git"
-]
-},
 "fory": {
 "category": "no-tlp-doap",
 "homepage": "https://fory.apache.org",
@@ -10315,10 +10315,22 @@
 "shortdesc": "Distributed data integration framework"
 },
 "grails": {
-"category": "no-tlp-doap",
+"bug-database": "https://github.com/apache/grails-core/issues",
+"category": "web-framework",
+"created": "2025-01-25",
+"description": "Grails is a powerful Groovy-based web application framework for the JVM built on top of Spring Boot that has many plugins to further extend its functionality.",
+"doap": "https://gitbox.apache.org/repos/asf?p=grails-core.git;a=blob_plain;f=DOAP.rdf",
+"download-page": "https://grails.apache.org/download.html",
 "homepage": "https://grails.apache.org",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://grails.apache.org/community.html",
 "name": "Apache Grails",
-"pmc": "grails"
+"pmc": "grails",
+"programming-language": "Groovy",
+"repository": [
+"https://gitbox.apache.org/repos/asf/grails-core.git"
+],
+"shortdesc": "Grails - the Groovy Web Application Framework"
 },
 "gravitino": {
 "category": "no-tlp-doap",
@@ -10349,24 +10361,6 @@
 "https://gitbox.apache.org/repos/asf/groovy.git"
 ],
 "shortdesc": "A multi-faceted language for the Java platform"
-},
-"groovy-grails": {
-"bug-database": "https://github.com/apache/grails-core/issues",
-"category": "web-framework",
-"created": "2025-01-25",
-"description": "Grails is a powerful Groovy-based web application framework for the JVM built on top of Spring Boot that has many plugins to further extend its functionality.",
-"doap": "https://gitbox.apache.org/repos/asf?p=grails-core.git;a=blob_plain;f=DOAP.rdf",
-"download-page": "https://grails.apache.org/download.html",
-"homepage": "https://grails.apache.org",
-"license": "https://spdx.org/licenses/Apache-2.0",
-"mailing-list": "https://grails.apache.org/community.html",
-"name": "Apache Grails",
-"pmc": "groovy",
-"programming-language": "Groovy",
-"repository": [
-"https://gitbox.apache.org/repos/asf/grails-core.git"
-],
-"shortdesc": "Grails - the Groovy Web Application Framework"
 },
 "guacamole": {
 "bug-database": "https://issues.apache.org/jira/browse/GUACAMOLE",
@@ -16371,9 +16365,9 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2025-02-17",
-"name": "1.3.0",
-"revision": "1.3.0"
+"created": "2025-09-30",
+"name": "1.4.0",
+"revision": "1.4.0"
 }
 ],
 "repository": [
@@ -20563,9 +20557,9 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2025-04-25",
+"created": "2025-09-30",
 "name": "Latest Stable Release",
-"revision": "10.6.0"
+"revision": "10.7.0"
 }
 ],
 "repository": [
