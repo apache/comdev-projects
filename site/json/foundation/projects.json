@@ -920,6 +920,56 @@
 ],
 "shortdesc": "Apache Ivy is a very powerful dependency manager oriented toward Java dependency management, even though it could be used to manage dependencies of any kind."
 },
+"ant-ivyde": {
+"bug-database": "https://issues.apache.org/jira/browse/IVYDE",
+"category": "build-management",
+"created": "2010-11-16",
+"description": "The now retired IvyDE lets you manage your dependencies declared in an ivy.xml in your Java Eclipse projects. IvyDE will contribute to the classpath of your Java project, with the classpath container. It also bring an editor of ivy.xml files, with completion.",
+"doap": "https://gitbox.apache.org/repos/asf?p=ant-ivyde.git;a=blob_plain;f=doap_IvyDE.rdf;hb=HEAD",
+"download-page": "http://ant.apache.org/ivy/ivyde/download.cgi",
+"homepage": "http://ant.apache.org/ivyde/",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://ant.apache.org/ivy/ivyde/mailing-lists.html",
+"name": "Apache IvyDE",
+"pmc": "ant",
+"programming-language": "Java",
+"release": [
+{
+"created": "2013-11-22",
+"name": "Apache IvyDE",
+"revision": "2.2.0.final"
+},
+{
+"created": "2012-04-05",
+"name": "Apache IvyDE",
+"revision": "2.2.0.beta1"
+},
+{
+"created": "2010-08-18",
+"name": "Apache IvyDE",
+"revision": "2.1.0"
+},
+{
+"created": "2009-07-09",
+"name": "Apache IvyDE",
+"revision": "2.0.0-final"
+},
+{
+"created": "2008-12-08",
+"name": "Apache IvyDE",
+"revision": "2.0.0-beta1"
+},
+{
+"created": "2008-06-30",
+"name": "Apache IvyDE",
+"revision": "2.0.0-alpha1"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf/ant-ivyde.git"
+],
+"shortdesc": "Retired project: Integrate Ivy in Eclipse with the IvyDE plugin."
+},
 "ant-props": {
 "bug-database": "http://issues.apache.org/bugzilla/buglist.cgi?product=Ant",
 "category": "build-management",
@@ -2294,6 +2344,162 @@
 "http://svn.apache.org/repos/asf/jakarta/cactus/"
 ],
 "shortdesc": "Cactus is a simple test framework for unit testing server-side java code (Servlets, EJBs, Tag Libs, Filters, ...)."
+},
+"attic-jclouds": {
+"bug-database": "https://issues.apache.org/jira/browse/JCLOUDS",
+"category": "cloud, library, retired",
+"created": "2014-04-11",
+"description": "Apache jclouds is an open source multi-cloud toolkit for the Java platform that gives you the freedom to create applications that are portable across clouds while giving you full control to use cloud-specific features.",
+"doap": "https://gitbox.apache.org/repos/asf?p=jclouds-site.git;a=blob_plain;f=doap_jclouds.rdf;hb=HEAD",
+"download-page": "http://jclouds.apache.org/start/install/",
+"homepage": "http://jclouds.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://jclouds.apache.org/community/",
+"maintainer": [
+{
+"mbox": "mailto:private@jclouds.apache.org",
+"name": "Apache jclouds PMC"
+}
+],
+"name": "Apache jclouds",
+"pmc": "attic",
+"programming-language": "Java",
+"release": [
+{
+"created": "2025-01-29",
+"name": "Apache jclouds 2.7.0",
+"revision": "2.7.0"
+},
+{
+"created": "2024-03-10",
+"name": "Apache jclouds 2.6.0",
+"revision": "2.6.0"
+},
+{
+"created": "2022-03-26",
+"name": "Apache jclouds 2.5.0",
+"revision": "2.5.0"
+},
+{
+"created": "2021-09-10",
+"name": "Apache jclouds 2.4.0",
+"revision": "2.4.0"
+},
+{
+"created": "2021-03-06",
+"name": "Apache jclouds 2.3.0",
+"revision": "2.3.0"
+},
+{
+"created": "2020-05-14",
+"name": "Apache jclouds 2.2.1",
+"revision": "2.2.1"
+},
+{
+"created": "2019-10-21",
+"name": "Apache jclouds 2.2.0",
+"revision": "2.2.0"
+},
+{
+"created": "2019-10-21",
+"name": "Apache jclouds 2.1.3",
+"revision": "2.1.3"
+},
+{
+"created": "2018-02-07",
+"name": "Apache jclouds 2.1.2",
+"revision": "2.1.2"
+},
+{
+"created": "2018-08-16",
+"name": "Apache jclouds 2.1.1",
+"revision": "2.1.1"
+},
+{
+"created": "2018-02-21",
+"name": "Apache jclouds 2.1.0",
+"revision": "2.1.0"
+},
+{
+"created": "2017-11-30",
+"name": "Apache jclouds 2.0.3",
+"revision": "2.0.3"
+},
+{
+"created": "2017-07-06",
+"name": "Apache jclouds 2.0.2",
+"revision": "2.0.2"
+},
+{
+"created": "2017-02-27",
+"name": "Apache jclouds 2.0.1",
+"revision": "2.0.1"
+},
+{
+"created": "2016-11-15",
+"name": "Apache jclouds 2.0.0",
+"revision": "2.0.0"
+},
+{
+"created": "2016-11-23",
+"name": "Apache jclouds 1.9.3",
+"revision": "1.9.3"
+},
+{
+"created": "2016-01-16",
+"name": "Apache jclouds 1.9.2",
+"revision": "1.9.2"
+},
+{
+"created": "2015-08-06",
+"name": "Apache jclouds 1.9.1",
+"revision": "1.9.1"
+},
+{
+"created": "2015-03-29",
+"name": "Apache jclouds 1.9.0",
+"revision": "1.9.0"
+},
+{
+"created": "2014-10-25",
+"name": "Apache jclouds 1.8.1",
+"revision": "1.8.1"
+},
+{
+"created": "2014-08-05",
+"name": "Apache jclouds 1.8.0",
+"revision": "1.8.0"
+},
+{
+"created": "2014-05-30",
+"name": "Apache jclouds 1.7.3",
+"revision": "1.7.3"
+},
+{
+"created": "2014-04-15",
+"name": "Apache jclouds 1.7.2",
+"revision": "1.7.2"
+},
+{
+"created": "2014-02-11",
+"name": "Apache jclouds 1.7.1",
+"revision": "1.7.1"
+},
+{
+"created": "2013-12-23",
+"name": "Apache jclouds 1.7.0",
+"revision": "1.7.0"
+},
+{
+"created": "2013-11-30",
+"name": "Apache jclouds 1.6.3",
+"revision": "1.6.3"
+}
+],
+"repository": [
+"https://git-wip-us.apache.org/repos/asf/jclouds.git"
+],
+"shortdesc": "The Java Multi-Cloud Toolkit"
 },
 "attic-lens": {
 "bug-database": "https://issues.apache.org/jira/browse/LENS",
@@ -3893,6 +4099,226 @@
 ],
 "shortdesc": "Apache Avro is a data serialization system."
 },
+"axis-axis2": {
+"bug-database": "https://issues.apache.org/jira/browse/AXIS2",
+"category": "xml, http, network-server, network-client",
+"created": "2007-06-08",
+"description": "Apache Axis2 is a toolkit for creating and using Web Services, including SOAP, MTOM, XML/HTTP and advanced WS-* standards such as WSRM and WSSecurity.\n    Axis2 includes a very fast runtime engine, together with tooling support for WSDL and WS-Policy, and plugin support for WS-Addressing, WS-ReliableMessaging, WS-Security, \n    WS-Eventing, WS-Transactions, WS-Trust and WS-SecureConversation.\n    Axis2 runs either standalone or hosted in Tomcat or other servlet containers. \n    ",
+"doap": "https://gitbox.apache.org/repos/asf?p=axis-axis2-java-core.git;a=blob_plain;f=etc/doap_Axis2.rdf;hb=HEAD",
+"download-page": "http://axis.apache.org/axis2/java/core/download.cgi",
+"homepage": "http://axis.apache.org/axis2/java/core",
+"implements": [
+{
+"body": "W3C",
+"id": "SOAP1.1",
+"title": "SOAP1.1",
+"url": "http://www.w3.org/TR/soap/"
+},
+{
+"body": "W3C",
+"id": "SOAP1.2",
+"title": "SOAP1.2",
+"url": "http://www.w3.org/TR/soap12-part1/"
+},
+{
+"body": "W3C",
+"id": "SOAP-MTOM",
+"title": "MTOM",
+"url": "http://www.w3.org/TR/soap12-mtom/"
+},
+{
+"body": "IETF",
+"id": "HTTP 1.1",
+"title": "HTTP",
+"url": "http://www.w3.org/Protocols/rfc2616/rfc2616.html"
+},
+{
+"body": "W3C",
+"id": "WSA",
+"title": "WS-Addressing",
+"url": "http://www.w3.org/2002/ws/addr/"
+},
+{
+"body": "OASIS",
+"id": "WSRM",
+"title": "WS-ReliableMessaging",
+"url": "http://www.oasis-open.org/committees/tc_home.php?wg_abbrev=ws-rx"
+},
+{
+"body": "OASIS",
+"id": "WSSEC",
+"title": "WS-Security",
+"url": "http://www.oasis-open.org/committees/download.php/16790/wss-v1.1-spec-os-SOAPMessageSecurity.pdf"
+}
+],
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://axis.apache.org/axis2/java/core/mail-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:java-dev@axis.apache.org?subject=%5BAxis2%5D",
+"name": "Axis2 Development Team"
+}
+],
+"name": "Apache Axis2",
+"pmc": "axis",
+"programming-language": "Java, C",
+"release": [
+{
+"created": "2006-05-04",
+"name": "Apache Axis2",
+"revision": "1.0"
+},
+{
+"created": "2006-11-13",
+"name": "Apache Axis2",
+"revision": "1.1"
+},
+{
+"created": "2007-01-09",
+"name": "Apache Axis2",
+"revision": "1.1.1"
+},
+{
+"created": "2007-04-27",
+"name": "Apache Axis2",
+"revision": "1.2"
+},
+{
+"created": "2007-07-06",
+"name": "Apache Axis2",
+"revision": "1.3"
+},
+{
+"created": "2008-02-05",
+"name": "Apache Axis2",
+"revision": "1.4"
+},
+{
+"created": "2008-08-24",
+"name": "Apache Axis2",
+"revision": "1.4.1"
+},
+{
+"created": "2009-06-09",
+"name": "Apache Axis2",
+"revision": "1.5"
+},
+{
+"created": "2009-10-23",
+"name": "Apache Axis2",
+"revision": "1.5.1"
+},
+{
+"created": "2010-09-06",
+"name": "Apache Axis2",
+"revision": "1.5.2"
+},
+{
+"created": "2010-11-12",
+"name": "Apache Axis2",
+"revision": "1.5.3"
+},
+{
+"created": "2010-12-19",
+"name": "Apache Axis2",
+"revision": "1.5.4"
+},
+{
+"created": "2011-05-29",
+"name": "Apache Axis2",
+"revision": "1.5.5"
+},
+{
+"created": "2011-08-30",
+"name": "Apache Axis2",
+"revision": "1.5.6"
+},
+{
+"created": "2011-05-17",
+"name": "Apache Axis2",
+"revision": "1.6.0"
+},
+{
+"created": "2011-08-30",
+"name": "Apache Axis2",
+"revision": "1.6.1"
+},
+{
+"created": "2012-04-17",
+"name": "Apache Axis2",
+"revision": "1.6.2"
+},
+{
+"created": "2015-06-27",
+"name": "Apache Axis2",
+"revision": "1.6.3"
+},
+{
+"created": "2015-12-28",
+"name": "Apache Axis2",
+"revision": "1.6.4"
+},
+{
+"created": "2016-01-18",
+"name": "Apache Axis2",
+"revision": "1.7.0"
+},
+{
+"created": "2016-02-20",
+"name": "Apache Axis2",
+"revision": "1.7.1"
+},
+{
+"created": "2016-05-02",
+"name": "Apache Axis2",
+"revision": "1.7.2"
+},
+{
+"created": "2016-05-30",
+"name": "Apache Axis2",
+"revision": "1.7.3"
+},
+{
+"created": "2016-10-21",
+"name": "Apache Axis2",
+"revision": "1.7.4"
+},
+{
+"created": "2017-05-06",
+"name": "Apache Axis2",
+"revision": "1.7.5"
+},
+{
+"created": "2017-07-30",
+"name": "Apache Axis2",
+"revision": "1.7.6"
+},
+{
+"created": "2017-11-22",
+"name": "Apache Axis2",
+"revision": "1.7.7"
+},
+{
+"created": "2018-05-19",
+"name": "Apache Axis2",
+"revision": "1.7.8"
+},
+{
+"created": "2018-11-16",
+"name": "Apache Axis2",
+"revision": "1.7.9"
+},
+{
+"created": "2021-08-01",
+"name": "Apache Axis2",
+"revision": "1.8.0"
+}
+],
+"repository": [
+"http://svn.apache.org/repos/asf/axis/axis2/java/core/trunk/"
+],
+"shortdesc": "Apache Axis2 is a service hosting and consumption framework that makes it easy to use SOAP and Web Services"
+},
 "axis-sandesha2": {
 "bug-database": "http://issues.apache.org/jira/browse/SANDESHA2",
 "category": "xml",
@@ -4016,10 +4442,107 @@
 "shortdesc": "A reliable replicated log service"
 },
 "brooklyn": {
-"category": "no-tlp-doap",
-"homepage": "https://brooklyn.apache.org",
+"bug-database": "https://issues.apache.org/jira/browse/BROOKLYN/",
+"category": "cloud",
+"created": "2016-02-23",
+"description": "Brooklyn is about deploying and managing applications: composing a full stack for an application;\n        deploying to cloud and non-cloud targets; using monitoring tools to collect key health/performance metrics;\n        responding to situations such as a failing node; and adding or removing capacity to match demand.",
+"doap": "https://gitbox.apache.org/repos/asf?p=brooklyn.git;a=blob_plain;f=doap_Brooklyn.rdf;hb=HEAD",
+"download-page": "http://brooklyn.apache.org/download/index.html",
+"homepage": "http://brooklyn.apache.org",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "http://brooklyn.apache.org/community/mailing-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:aledsage@apache.org",
+"name": "Aled Sage"
+},
+{
+"mbox": "mailto:andreaturli@apache.org",
+"name": "Andrea Turli"
+},
+{
+"mbox": "mailto:cipi@apache.org",
+"name": "Ciprian Ciubotariu"
+},
+{
+"mbox": "mailto:drigodwin@apache.org",
+"name": "Duncan Godwin"
+},
+{
+"mbox": "mailto:geomacy@apache.org",
+"name": "Geoff Macartney"
+},
+{
+"mbox": "mailto:grkvlt@apache.org",
+"name": "Andrew Kennedy"
+},
+{
+"mbox": "mailto:hadrian@apache.org",
+"name": "Hadrian Zbarcea"
+},
+{
+"mbox": "mailto:heneveld@apache.org",
+"name": "Alex Heneveld"
+},
+{
+"mbox": "mailto:jbonofre@apache.org",
+"name": "Jean-Baptiste Onofré"
+},
+{
+"mbox": "mailto:m4rkmckenna@apache.org",
+"name": "Mark McKenna"
+},
+{
+"mbox": "mailto:olamy@apache.org",
+"name": "Olivier Lamy"
+},
+{
+"mbox": "mailto:richard@apache.org",
+"name": "Richard Downer"
+},
+{
+"mbox": "mailto:sjcorbett@apache.org",
+"name": "Sam Corbett"
+},
+{
+"mbox": "mailto:svet@apache.org",
+"name": "Svetoslav Neykov"
+}
+],
 "name": "Apache Brooklyn",
-"pmc": "brooklyn"
+"pmc": "brooklyn",
+"programming-language": "Java",
+"release": [
+{
+"created": "2017-05-18",
+"name": "0.11.0",
+"revision": "0.11.0"
+},
+{
+"created": "2016-12-26",
+"name": "0.10.0",
+"revision": "0.10.0"
+},
+{
+"created": "2016-04-18",
+"name": "0.9.0",
+"revision": "0.9.0"
+},
+{
+"created": "2015-09-14",
+"name": "0.8.0-incubating",
+"revision": "0.8.0-incubating"
+},
+{
+"created": "2015-07-15",
+"name": "0.7.0-incubating",
+"revision": "0.7.0-incubating"
+}
+],
+"repository": [
+"https://git-wip-us.apache.org/repos/asf/brooklyn.git"
+],
+"shortdesc": "Apache Brooklyn is a framework for modeling, monitoring, and managing applications through autonomic blueprints."
 },
 "brpc": {
 "bug-database": "https://github.com/apache/brpc/issues",
@@ -4133,16 +4656,49 @@
 "shortdesc": "Bean Validation API Implementation"
 },
 "calcite": {
-"category": "no-tlp-doap",
+"bug-database": "https://issues.apache.org/jira/browse/CALCITE",
+"category": "big-data, hadoop, sql, geospatial",
+"created": "2015-05-27",
+"description": "Calcite is a framework for writing data management\n      systems.  It converts queries, represented in relational algebra,\n      into an efficient executable form using pluggable query\n      transformation rules. There is an optional SQL parser and JDBC\n      driver. Calcite does not store data or have a preferred execution\n      engine. Data formats, execution algorithms, planning rules,\n      operator types, metadata, and cost model are added at runtime as\n      plugins.",
+"doap": "https://gitbox.apache.org/repos/asf?p=calcite.git;a=blob_plain;f=site/doap_calcite.rdf;hb=HEAD",
+"download-page": "https://calcite.apache.org/downloads",
 "homepage": "https://calcite.apache.org",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://calcite.apache.org/develop",
+"maintainer": [
+{
+"mbox": "mailto:jhyde@apache.org",
+"name": "Julian Hyde"
+}
+],
 "name": "Apache Calcite",
-"pmc": "calcite"
+"pmc": "calcite",
+"programming-language": "Java",
+"repository": [
+"https://gitbox.apache.org/repos/asf/calcite.git"
+],
+"shortdesc": "A dynamic data management framework."
 },
 "camel": {
-"category": "no-tlp-doap",
-"homepage": "https://camel.apache.org",
+"bug-database": "https://issues.apache.org/jira/browse/CAMEL",
+"category": "integration, cloud, java, library",
+"created": "2008-12-17",
+"description": "Camel is an Open Source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data",
+"doap": "https://gitbox.apache.org/repos/asf?p=camel.git;a=blob_plain;f=doap.rdf;hb=HEAD",
+"download-page": "https://camel.apache.org/download.html",
+"homepage": "https://camel.apache.org/",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "https://camel.apache.org/mailing-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:acosentino@apache.org",
+"name": "Andrea Cosentino"
+}
+],
 "name": "Apache Camel",
-"pmc": "camel"
+"pmc": "camel",
+"programming-language": "Java",
+"shortdesc": "Apache Camel is an integration framework"
 },
 "carbondata": {
 "bug-database": "https://issues.apache.org/jira/browse/CARBONDATA",
@@ -4160,10 +4716,28 @@
 "shortdesc": "Apache CarbonData is an indexed columnar data format for fast analytics on big data platform, e.g. Apache Hadoop, Apache Spark, etc."
 },
 "cassandra": {
-"category": "no-tlp-doap",
-"homepage": "https://cassandra.apache.org",
+"bug-database": "https://issues.apache.org/jira/browse/CASSANDRA",
+"category": "database",
+"created": "2012-04-10",
+"description": "Linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure make Apache Cassandra the perfect platform for mission-critical data. Cassandra's support for replicating across multiple datacenters is best-in-class.\n\nCassandra is in use at Netflix, Twitter, Urban Airship, Constant Contact, Reddit, Cisco, OpenX, Digg, CloudKick, Ooyala, and more companies that have large, active data sets.\n\nCassandra provides full Hadoop integration, including with Pig and Hive.",
+"doap": "https://gitbox.apache.org/repos/asf?p=cassandra-website.git;a=blob_plain;f=doap.rdf;hb=HEAD",
+"download-page": "http://cassandra.apache.org/download/",
+"homepage": "http://cassandra.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://cassandra.apache.org/",
+"maintainer": [
+{
+"mbox": "mailto:dev@cassandra.apache.org",
+"name": "Apache Cassandra PMC"
+}
+],
 "name": "Apache Cassandra",
-"pmc": "cassandra"
+"pmc": "cassandra",
+"programming-language": "Java",
+"repository": [
+"http://git-wip-us.apache.org/repos/asf?p=cassandra.git"
+],
+"shortdesc": "The Apache Cassandra database is the right choice when you need scalability and high availability without compromising performance."
 },
 "causeway": {
 "bug-database": "https://issues.apache.org/jira/browse/CAUSEWAY",
@@ -4879,10 +5453,23 @@
 "pmc": "celeborn"
 },
 "celix": {
-"category": "no-tlp-doap",
+"bug-database": "https://github.com/apache/celix/issues",
+"category": "network-server",
+"created": "2010-11-17",
+"description": "\n      Apache Celix is a framework for C, C++14 and C++17 to develop dynamic modular software applications using component\n      and in-process service-oriented programming.\n      Apache Celix is inspired by the OSGi specification adapted for C and C++.\n    ",
+"doap": "https://gitbox.apache.org/repos/asf?p=celix.git;a=blob_plain;f=doap/doap_Celix.rdf;hb=refs/heads/master",
+"download-page": "https://celix.apache.org/download.cgi",
 "homepage": "https://celix.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "https://celix.apache.org/support/mailing-list.html",
 "name": "Apache Celix",
-"pmc": "celix"
+"pmc": "celix",
+"programming-language": "C, C++",
+"repository": [
+"https://gitbox.apache.org/repos/asf/celix.git",
+"https://gitbox.apache.org/repos/asf/celix-site.git"
+],
+"shortdesc": "Dynamic Service framework for C and C++ inspired by OSGi."
 },
 "cloudstack": {
 "bug-database": "https://issues.apache.org/jira/browse/CLOUDSTACK",
@@ -8488,16 +9075,66 @@
 "shortdesc": "Apache clinical Text Analysis and Knowledge Extraction System (cTAKES) is an open-source natural language processing system for information extraction from electronic medical record clinical free-text."
 },
 "curator": {
-"category": "no-tlp-doap",
-"homepage": "https://curator.apache.org",
+"bug-database": "https://github.com/apache/curator/issues",
+"category": "database",
+"created": "2011-02-06",
+"description": "Apache Curator is a Java/JVM client library for Apache ZooKeeper, a distributed coordination service. \n    It includes a highlevel API framework and utilities to make using Apache ZooKeeper much easier and more reliable. It also \n    includes recipes for common use cases and extensions such as service discovery and a Java 8 asynchronous DSL.",
+"doap": "https://gitbox.apache.org/repos/asf?p=curator.git;f=doap.rdf;a=blob_plain;hb=HEAD",
+"download-page": "http://www.apache.org/dyn/closer.cgi/curator/",
+"homepage": "http://curator.apache.org/",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://curator.apache.org/mailing-lists.html",
 "name": "Apache Curator",
-"pmc": "curator"
+"pmc": "curator",
+"programming-language": "Java",
+"repository": [
+"https://gitbox.apache.org/repos/asf/curator.git"
+],
+"shortdesc": "A set of Java libraries that make using Apache ZooKeeper much easier."
 },
 "cxf": {
-"category": "no-tlp-doap",
-"homepage": "https://cxf.apache.org",
-"name": "Apache Cxf",
-"pmc": "cxf"
+"bug-database": "http://issues.apache.org/jira/browse/CXF",
+"category": "library, xml, network-client, network-server",
+"created": "2009-04-04",
+"description": "Apache CXF is an open source services framework. CXF helps you build and develop services using frontend programming APIs like JAX-WS and JAX-RS. These services can speak a variety of protocols such as SOAP, XML/HTTP, RESTful HTTP, or CORBA and work over a variety of transports such as HTTP, JMS or JBI.",
+"doap": "https://gitbox.apache.org/repos/asf?p=cxf.git;a=blob_plain;f=etc/cxf.rdf;hb=HEAD",
+"download-page": "http://cxf.apache.org/download.html",
+"homepage": "http://cxf.apache.org/",
+"implements": [
+{
+"body": "JCP",
+"id": "JSR 181",
+"title": "Web Services Metadata",
+"url": "http://www.jcp.org/en/jsr/detail?id=181"
+},
+{
+"body": "JCP",
+"id": "JSR 224",
+"title": "JAX-WS",
+"url": "http://www.jcp.org/en/jsr/detail?id=224"
+},
+{
+"body": "JCP",
+"id": "JSR 311",
+"title": "JAX-RS",
+"url": "http://www.jcp.org/en/jsr/detail?id=311"
+}
+],
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://cxf.apache.org/mailing-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:dkulp@apache.org",
+"name": "Daniel Kulp"
+}
+],
+"name": "Apache CXF",
+"pmc": "cxf",
+"programming-language": "Java",
+"repository": [
+"https://gitbox.apache.org/repos/asf/cxf.git"
+],
+"shortdesc": "Apache CXF: An Open Source Service Framework"
 },
 "daffodil": {
 "bug-database": "https://issues.apache.org/jira/browse/DAFFODIL",
@@ -8964,10 +9601,27 @@
 "shortdesc": "Torque is an object-relational mapper for Java."
 },
 "deltaspike": {
-"category": "no-tlp-doap",
-"homepage": "https://deltaspike.apache.org",
-"name": "Apache Deltaspike",
-"pmc": "deltaspike"
+"bug-database": "https://issues.apache.org/jira/browse/DELTASPIKE",
+"category": "javaee",
+"created": "2014-04-11",
+"description": "Apache DeltaSpike is  a suite of portable CDI (Contexts & Dependency\nInjection) extensions intended to make application development easier when\nworking with CDI and Java EE.  Some of its key features include:\n\n- A core runtime that supports component configuration, type safe messaging\nand internationalization, and exception handling.\n- A suite of utilities to make programmatic bean lookup easier.\n- A plugin for Java SE to bootstrap both JBoss Weld and Apache OpenWebBeans\noutside of a container.\n- JSF integration, including backporting of JSF 2.2 features for Java EE 6.\n- JPA integration and transaction support.\n- A Data module, to create an easy to use repository pattern on top of JPA.\n- Quartz integration\n\nTesting support is also provided, to allow you to do low level unit testing\nof your CDI enabled projects.",
+"doap": "https://gitbox.apache.org/repos/asf?p=deltaspike.git;f=doap_DeltaSpike.rdf;a=blob_plain;hb=HEAD",
+"homepage": "http://deltaspike.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://deltaspike.apache.org/community.html#Mailinglists",
+"maintainer": [
+{
+"mbox": "mailto:struberg@apache.org",
+"name": "Mark Struberg"
+}
+],
+"name": "Apache DeltaSpike",
+"pmc": "deltaspike",
+"programming-language": "Java",
+"repository": [
+"https://git-wip-us.apache.org/repos/asf/deltaspike.git"
+],
+"shortdesc": "DeltaSpike is a collection of portable Extensions for CDI Containers"
 },
 "devlake": {
 "category": "no-tlp-doap",
@@ -9158,16 +9812,53 @@
 "pmc": "dolphinscheduler"
 },
 "doris": {
-"category": "no-tlp-doap",
-"homepage": "https://doris.apache.org",
+"bug-database": "https://github.com/apache/doris/issues",
+"category": "database",
+"created": "2018-07-08",
+"description": "Apache Doris is an easy-to-use, high-performance and real-time analytical database based on MPP architecture, known for its extreme speed and ease of use. It only requires a sub-second response time to return query results under massive data and can support not only high-concurrent point query scenarios but also high-throughput complex analysis scenarios.\n                 All this makes Apache Doris an ideal tool for scenarios including report analysis, ad-hoc query, unified data warehouse, and data lake query acceleration. On Apache Doris, users can build various applications, such as user behavior analysis, AB test platform, log retrieval analysis, user portrait analysis, and order analysis.",
+"doap": "https://gitbox.apache.org/repos/asf?p=doris.git;a=blob_plain;f=doap_Doris.rdf;hb=HEAD",
+"download-page": "https://doris.apache.org/download",
+"homepage": "https://doris.apache.org/",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "https://lists.apache.org/list.html?dev@doris.apache.org",
 "name": "Apache Doris",
-"pmc": "doris"
+"pmc": "doris",
+"programming-language": "C++,Java",
+"repository": [
+"https://gitbox.apache.org/repos/asf/doris.git"
+],
+"shortdesc": "Apache Doris is a new-generation open-source real-time data warehouse based on MPP architecture, with easier use and higher performance for big data analytics."
 },
 "drill": {
-"category": "no-tlp-doap",
-"homepage": "https://drill.apache.org",
+"bug-database": "https://issues.apache.org/jira/browse/DRILL/",
+"category": "big-data",
+"created": "2015-01-04",
+"description": "Apache Drill is a distributed MPP query layer that supports SQL and alternative query languages against NoSQL and Hadoop data storage systems. It was inspired in part by Google's Dremel.",
+"doap": "https://gitbox.apache.org/repos/asf?p=drill-site.git;a=blob_plain;f=doap_Drill.rdf;hb=refs/heads/master",
+"download-page": "http://drill.apache.org/download/",
+"homepage": "http://drill.apache.org",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "http://drill.apache.org/community/#mailinglists",
+"maintainer": [
+{
+"mbox": "mailto:jacques@apache.org",
+"name": "Jacques Nadeau"
+}
+],
 "name": "Apache Drill",
-"pmc": "drill"
+"pmc": "drill",
+"programming-language": "Java",
+"release": [
+{
+"created": "2014-12-23",
+"name": "0.7.0",
+"revision": "0.7.0"
+}
+],
+"repository": [
+"git://git.apache.org/drill.git"
+],
+"shortdesc": "A distributed SQL MPP for Hadoop and NoSQL"
 },
 "druid": {
 "bug-database": "https://github.com/apache/druid/issues",
@@ -9268,10 +9959,35 @@
 "shortdesc": "EventMesh is a new generation serverless event middleware for building distributed event-driven applications."
 },
 "felix": {
-"category": "no-tlp-doap",
-"homepage": "https://felix.apache.org",
+"bug-database": "https://issues.apache.org/jira/browse/FELIX",
+"category": "network-server",
+"created": "2007-06-27",
+"doap": "https://gitbox.apache.org/repos/asf?p=felix-dev.git;a=blob_plain;f=doap/doap_Felix.rdf;hb=HEAD",
+"download-page": "http://felix.apache.org/downloads.cgi",
+"homepage": "http://felix.apache.org",
+"implements": [
+{
+"body": "OSGi Alliance",
+"id": "OSGi R6",
+"title": "OSGi R6 Specification",
+"url": "http://www.osgi.org"
+}
+],
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://felix.apache.org/mailinglists.html",
+"maintainer": [
+{
+"mbox": "mailto:dev@felix.apache.org",
+"name": "Felix PMC"
+}
+],
 "name": "Apache Felix",
-"pmc": "felix"
+"pmc": "felix",
+"programming-language": "Java",
+"repository": [
+"https://svn.apache.org/repos/asf/felix"
+],
+"shortdesc": "OSGi framework implementation and related technologies."
 },
 "fineract": {
 "bug-database": "https://issues.apache.org/jira/projects/FINERACT/issues/",
@@ -9366,10 +10082,123 @@
 "pmc": "fory"
 },
 "freemarker": {
-"category": "no-tlp-doap",
+"bug-database": "https://issues.apache.org/jira/browse/FREEMARKER",
+"category": "Java, html, templating, content",
+"created": "2015-09-02",
+"description": "\n          Apache FreeMarker is a template engine: a Java library to generate text output (HTML web pages, e-mails, configuration files, source code, etc.) based on templates and changing data.\n          Templates are written in the FreeMarker Template Language (FTL), which is a simple, specialized language (not a full-blown programming language).\n          Usually, a general-purpose programming language (like Java) is used to prepare the data (issue database queries, do business calculations). Then, Apache FreeMarker displays\n          that prepared data using templates. In the template you are focusing on how to present the data, and outside the template you are focusing on what data to present.\n    ",
+"developer": [
+{
+"mbox": "mailto:ddekany@apache.org",
+"name": "Dániel Dékány",
+"nick": "ddekany"
+},
+{
+"mbox": "mailto:nanlei@apache.org",
+"name": "Nan Lei",
+"nick": "nanlei"
+},
+{
+"mbox": "mailto:woonsan@apache.org",
+"name": "Woonsan Ko",
+"nick": "woonsan"
+},
+{
+"mbox": "mailto:jacopoc@apache.org",
+"name": "Jacopo Cappellato",
+"nick": "jacopoc"
+},
+{
+"mbox": "mailto:jonesde@apache.org",
+"name": "David E. Jones",
+"nick": "jonesde"
+},
+{
+"homepage": "https://www.wikier.org",
+"mbox": "mailto:wikier@apache.org",
+"name": "Sergio Fernández",
+"nick": "wikier",
+"sameAs": "http://www.wikier.org/foaf#wikier"
+},
+{
+"mbox": "mailto:jleroux@apache.org",
+"name": "Jacques Le Roux",
+"nick": "jleroux"
+},
+{
+"mbox": "mailto:nolaviz@apache.org",
+"name": "Alon Ziv",
+"nick": "nolaviz"
+}
+],
+"doap": "https://gitbox.apache.org/repos/asf?p=freemarker-site.git;a=blob_plain;f=doap.rdf;hb=HEAD",
+"download-page": "https://freemarker.apache.org/freemarkerdownload.html",
 "homepage": "https://freemarker.apache.org",
-"name": "Apache Freemarker",
-"pmc": "freemarker"
+"license": "https://www.apache.org/licenses/LICENSE-2.0",
+"mailing-list": "https://freemarker.apache.org/mailing-lists.html",
+"name": "Apache FreeMarker",
+"pmc": "freemarker",
+"programming-language": "Java",
+"release": [
+{
+"created": "2024-12-22",
+"name": "Apache FreeMarker",
+"revision": "2.3.34"
+},
+{
+"created": "2024-06-01",
+"name": "Apache FreeMarker",
+"revision": "2.3.33"
+},
+{
+"created": "2023-01-14",
+"name": "Apache FreeMarker",
+"revision": "2.3.32"
+},
+{
+"created": "2021-02-16",
+"name": "Apache FreeMarker",
+"revision": "2.3.31"
+},
+{
+"created": "2020-03-05",
+"name": "Apache FreeMarker",
+"revision": "2.3.30"
+},
+{
+"created": "2019-08-17",
+"name": "Apache FreeMarker",
+"revision": "2.3.29"
+},
+{
+"created": "2018-04-04",
+"name": "Apache FreeMarker",
+"revision": "2.3.28"
+},
+{
+"created": "2017-11-03",
+"name": "Apache FreeMarker",
+"revision": "2.3.27-incubating"
+},
+{
+"created": "2017-03-25",
+"name": "Apache FreeMarker",
+"revision": "2.3.26-incubating"
+},
+{
+"created": "2016-06-26",
+"name": "Apache FreeMarker",
+"revision": "2.3.25-incubating"
+},
+{
+"created": "2016-03-28",
+"name": "Apache FreeMarker",
+"revision": "2.3.24-incubating"
+}
+],
+"repository": [
+"git://git.apache.org/freemarker.git"
+],
+"shortdesc": "FreeMarker is a template engine, i.e. a generic tool to generate text output based on templates. FreeMarker is implemented in Java as a class library for programmers."
 },
 "geode": {
 "bug-database": "https://issues.apache.org/jira/browse/GEODE",
@@ -9486,10 +10315,22 @@
 "shortdesc": "Distributed data integration framework"
 },
 "grails": {
-"category": "no-tlp-doap",
+"bug-database": "https://github.com/apache/grails-core/issues",
+"category": "web-framework",
+"created": "2025-01-25",
+"description": "Grails is a powerful Groovy-based web application framework for the JVM built on top of Spring Boot that has many plugins to further extend its functionality.",
+"doap": "https://gitbox.apache.org/repos/asf?p=grails-core.git;a=blob_plain;f=DOAP.rdf",
+"download-page": "https://grails.apache.org/download.html",
 "homepage": "https://grails.apache.org",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://grails.apache.org/community.html",
 "name": "Apache Grails",
-"pmc": "grails"
+"pmc": "grails",
+"programming-language": "Groovy",
+"repository": [
+"https://gitbox.apache.org/repos/asf/grails-core.git"
+],
+"shortdesc": "Grails - the Groovy Web Application Framework"
 },
 "gravitino": {
 "category": "no-tlp-doap",
@@ -9498,10 +10339,28 @@
 "pmc": "gravitino"
 },
 "groovy": {
-"category": "no-tlp-doap",
-"homepage": "https://groovy.apache.org",
+"bug-database": "https://issues.apache.org/jira/browse/GROOVY",
+"category": "library",
+"created": "2015-12-23",
+"description": "Apache Groovy is a powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform aimed at improving developer productivity thanks to a concise, familiar and easy to learn syntax. It integrates smoothly with any Java program, and immediately delivers to your application powerful features, including scripting capabilities, Domain-Specific Language authoring, runtime and compile-time meta-programming and functional programming.",
+"doap": "https://gitbox.apache.org/repos/asf?p=groovy.git;a=blob_plain;f=DOAP.rdf",
+"download-page": "http://groovy-lang.org/download.html",
+"homepage": "http://groovy.apache.org",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "http://groovy-lang.org/mailing-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:dev@groovy.apache.org",
+"name": "Groovy Team"
+}
+],
 "name": "Apache Groovy",
-"pmc": "groovy"
+"pmc": "groovy",
+"programming-language": "Java",
+"repository": [
+"https://gitbox.apache.org/repos/asf/groovy.git"
+],
+"shortdesc": "A multi-faceted language for the Java platform"
 },
 "guacamole": {
 "bug-database": "https://issues.apache.org/jira/browse/GUACAMOLE",
@@ -10067,10 +10926,160 @@
 "shortdesc": "\n      mod_ftp is an FTP protocol module hosted within Apache HTTP Server.\n    "
 },
 "hudi": {
-"category": "no-tlp-doap",
+"bug-database": "https://issues.apache.org/jira/browse/HUDI",
+"category": "library",
+"created": "2019-12-31",
+"description": "Hudi brings transactions, stream processing, indexes, mutability and incremental processing to data lakes.",
+"doap": "https://gitbox.apache.org/repos/asf?p=hudi.git;a=blob_plain;f=doap_HUDI.rdf;hb=HEAD",
+"download-page": "https://hudi.apache.org/community.html",
 "homepage": "https://hudi.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "https://hudi.apache.org/community.html",
+"maintainer": [
+{
+"mbox": "mailto:dev@hudi.apache.org",
+"name": "Apache Hudi PMC"
+}
+],
 "name": "Apache Hudi",
-"pmc": "hudi"
+"pmc": "hudi",
+"programming-language": "Java, Scala",
+"release": [
+{
+"created": "2019-10-24",
+"name": "Apache Hudi-incubating 0.5.0",
+"revision": "0.5.0"
+},
+{
+"created": "2020-01-31",
+"name": "Apache Hudi-incubating 0.5.1",
+"revision": "0.5.1"
+},
+{
+"created": "2020-03-26",
+"name": "Apache Hudi-incubating 0.5.2",
+"revision": "0.5.2"
+},
+{
+"created": "2020-06-16",
+"name": "Apache Hudi 0.5.3",
+"revision": "0.5.3"
+},
+{
+"created": "2020-08-22",
+"name": "Apache Hudi 0.6.0",
+"revision": "0.6.0"
+},
+{
+"created": "2021-01-25",
+"name": "Apache Hudi 0.7.0",
+"revision": "0.7.0"
+},
+{
+"created": "2021-04-06",
+"name": "Apache Hudi 0.8.0",
+"revision": "0.8.0"
+},
+{
+"created": "2021-08-26",
+"name": "Apache Hudi 0.9.0",
+"revision": "0.9.0"
+},
+{
+"created": "2021-12-08",
+"name": "Apache Hudi 0.10.0",
+"revision": "0.10.0"
+},
+{
+"created": "2022-01-26",
+"name": "Apache Hudi 0.10.1",
+"revision": "0.10.1"
+},
+{
+"created": "2022-04-30",
+"name": "Apache Hudi 0.11.0",
+"revision": "0.11.0"
+},
+{
+"created": "2022-06-18",
+"name": "Apache Hudi 0.11.1",
+"revision": "0.11.1"
+},
+{
+"created": "2022-08-16",
+"name": "Apache Hudi 0.12.0",
+"revision": "0.12.0"
+},
+{
+"created": "2022-10-18",
+"name": "Apache Hudi 0.12.1",
+"revision": "0.12.1"
+},
+{
+"created": "2022-12-28",
+"name": "Apache Hudi 0.12.2",
+"revision": "0.12.2"
+},
+{
+"created": "2023-02-25",
+"name": "Apache Hudi 0.13.0",
+"revision": "0.13.0"
+},
+{
+"created": "2023-04-23",
+"name": "Apache Hudi 0.12.3",
+"revision": "0.12.3"
+},
+{
+"created": "2023-05-25",
+"name": "Apache Hudi 0.13.1",
+"revision": "0.13.1"
+},
+{
+"created": "2023-09-28",
+"name": "Apache Hudi 0.14.0",
+"revision": "0.14.0"
+},
+{
+"created": "2023-11-14",
+"name": "Apache Hudi 1.0.0-beta1",
+"revision": "1.0.0-beta1"
+},
+{
+"created": "2024-01-04",
+"name": "Apache Hudi 0.14.1",
+"revision": "0.14.1"
+},
+{
+"created": "2024-06-04",
+"name": "Apache Hudi 0.15.0",
+"revision": "0.15.0"
+},
+{
+"created": "2024-07-14",
+"name": "Apache Hudi 1.0.0-beta2",
+"revision": "1.0.0-beta2"
+},
+{
+"created": "2024-12-11",
+"name": "Apache Hudi 1.0.0",
+"revision": "1.0.0"
+},
+{
+"created": "2025-02-09",
+"name": "Apache Hudi 1.0.1",
+"revision": "1.0.1"
+},
+{
+"created": "2025-05-02",
+"name": "Apache Hudi 1.0.2",
+"revision": "1.0.2"
+}
+],
+"repository": [
+"https://github.com/apache/hudi.git"
+],
+"shortdesc": "high-performance open data lakehouse platform"
 },
 "iceberg": {
 "bug-database": "https://github.com/apache/iceberg/issues",
@@ -10295,10 +11304,110 @@
 "shortdesc": "Apache InLong - a one-stop, full-scenario integration framework for massive data"
 },
 "iotdb": {
-"category": "no-tlp-doap",
-"homepage": "https://iotdb.apache.org",
-"name": "Apache Iotdb",
-"pmc": "iotdb"
+"bug-database": "https://issues.apache.org/jira/projects/IOTDB",
+"category": "database, iot, java, python, c++, go, csharp",
+"created": "2020-07-11",
+"description": "Apache IoTDB (Database for Internet of Things) is an integrated data management engine designed for time series data. It provides users with services for data collection, storage and analysis. Due to its light-weight architecture, high performance and rich feature set together with its deep integration with Apache Hadoop, Spark and Flink. Apache IoTDB can meet the requirements of massive data storage, high-speed data ingestion and complex data analysis in the IoT industrial fields.",
+"doap": "https://gitbox.apache.org/repos/asf?p=iotdb.git;a=blob_plain;f=iotdb-doap.rdf;hb=HEAD",
+"download-page": "http://iotdb.apache.org/Download/",
+"homepage": "http://iotdb.apache.org",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "dev@iotdb.apache.org",
+"maintainer": [
+{
+"mbox": "mailto:dev@iotdb.apache.org",
+"name": "IoTDB PMC"
+}
+],
+"name": "Apache IoTDB",
+"pmc": "iotdb",
+"programming-language": "Java, Python, C++, Go, Csharp",
+"release": [
+{
+"created": "2025-07-09",
+"name": "Apache IoTDB",
+"revision": "2.0.4"
+},
+{
+"created": "2025-05-30",
+"name": "Apache IoTDB",
+"revision": "2.0.3"
+},
+{
+"created": "2025-04-17",
+"name": "Apache IoTDB",
+"revision": "2.0.2"
+},
+{
+"created": "2025-04-17",
+"name": "Apache IoTDB",
+"revision": "1.3.4"
+},
+{
+"created": "2024-11-20",
+"name": "Apache IoTDB",
+"revision": "1.3.3"
+},
+{
+"created": "2024-07-01",
+"name": "Apache IoTDB",
+"revision": "1.3.2"
+},
+{
+"created": "2024-04-22",
+"name": "Apache IoTDB",
+"revision": "1.3.1"
+},
+{
+"created": "2024-01-01",
+"name": "Apache IoTDB",
+"revision": "1.3.0"
+},
+{
+"created": "2023-10-15",
+"name": "Apache IoTDB",
+"revision": "1.2.2"
+},
+{
+"created": "2023-09-19",
+"name": "Apache IoTDB",
+"revision": "1.2.1"
+},
+{
+"created": "2023-09-08",
+"name": "Apache IoTDB",
+"revision": "1.2.0"
+},
+{
+"created": "2023-07-28",
+"name": "Apache IoTDB",
+"revision": "1.1.2"
+},
+{
+"created": "2023-06-14",
+"name": "Apache IoTDB",
+"revision": "1.1.1"
+},
+{
+"created": "2023-04-03",
+"name": "Apache IoTDB",
+"revision": "1.1.0"
+},
+{
+"created": "2023-02-22",
+"name": "Apache IoTDB",
+"revision": "1.0.1"
+},
+{
+"created": "2022-12-03",
+"name": "Apache IoTDB",
+"revision": "1.0.0"
+}
+],
+"repository": [
+"https://github.com/apache/iotdb.git"
+],
+"shortdesc": "Apache IoTDB is an IoT native database with high performance for data management and analysis, on the edge and the cloud."
 },
 "jackrabbit": {
 "bug-database": "http://issues.apache.org/jira/browse/JCR",
@@ -10520,10 +11629,249 @@
 "shortdesc": "A framework for developing Semantic Web and Linked Data applications in Java."
 },
 "jmeter": {
-"category": "no-tlp-doap",
-"homepage": "https://jmeter.apache.org",
-"name": "Apache Jmeter",
-"pmc": "jmeter"
+"bug-database": "https://github.com/apache/jmeter/issues",
+"category": "testing",
+"created": "2006-02-17",
+"description": "Apache JMeter may be used to test performance both on static and dynamic resources (files, Servlets, Perl scripts, Java Objects, Data Bases and Queries, FTP Servers and more). It can be used to simulate a heavy load on a server, network or object to test its strength or to analyze overall performance under different load types. You can use it to make a graphical analysis of performance or to test your server/script/object behavior under heavy concurrent load. ",
+"doap": "https://gitbox.apache.org/repos/asf?p=jmeter.git;a=blob_plain;f=doap_JMeter.rdf;hb=HEAD",
+"download-page": "http://jmeter.apache.org/download_jmeter.cgi",
+"homepage": "http://jmeter.apache.org/index.html",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "http://jmeter.apache.org/mail2.html",
+"name": "Apache JMeter",
+"pmc": "jmeter",
+"programming-language": "Java",
+"release": [
+{
+"created": "2003-08-07",
+"name": "Apache Jakarta JMeter",
+"revision": "1.9"
+},
+{
+"created": "2004-04-04",
+"name": "Apache Jakarta JMeter",
+"revision": "2.0.0"
+},
+{
+"created": "2004-05-24",
+"name": "Apache Jakarta JMeter",
+"revision": "2.0.1"
+},
+{
+"created": "2004-11-19",
+"name": "Apache Jakarta JMeter",
+"revision": "2.0.2"
+},
+{
+"created": "2005-03-23",
+"name": "Apache Jakarta JMeter",
+"revision": "2.0.3"
+},
+{
+"created": "2005-08-24",
+"name": "Apache Jakarta JMeter",
+"revision": "2.1"
+},
+{
+"created": "2005-10-04",
+"name": "Apache Jakarta JMeter",
+"revision": "2.1.1"
+},
+{
+"created": "2006-06-14",
+"name": "Apache Jakarta JMeter",
+"revision": "2.2"
+},
+{
+"created": "2007-09-04",
+"name": "Apache Jakarta JMeter",
+"revision": "2.3RC4"
+},
+{
+"created": "2007-09-29",
+"name": "Apache Jakarta JMeter",
+"revision": "2.3 final"
+},
+{
+"created": "2007-11-30",
+"name": "Apache Jakarta JMeter",
+"revision": "2.3.1 final"
+},
+{
+"created": "2008-06-14",
+"name": "Apache Jakarta JMeter",
+"revision": "2.3.2 final"
+},
+{
+"created": "2009-05-24",
+"name": "Apache Jakarta JMeter",
+"revision": "2.3.3 final"
+},
+{
+"created": "2009-06-21",
+"name": "Apache Jakarta JMeter",
+"revision": "2.3.4 final"
+},
+{
+"created": "2010-07-12",
+"name": "Apache Jakarta JMeter",
+"revision": "2.4 final"
+},
+{
+"created": "2011-08-17",
+"name": "Apache Jakarta JMeter",
+"revision": "2.5 final"
+},
+{
+"created": "2011-10-03",
+"name": "Apache Jakarta JMeter",
+"revision": "2.5.1 final"
+},
+{
+"created": "2012-02-01",
+"name": "Apache JMeter",
+"revision": "2.6 final"
+},
+{
+"created": "2012-05-27",
+"name": "Apache JMeter",
+"revision": "2.7 final"
+},
+{
+"created": "2012-10-06",
+"name": "Apache JMeter",
+"revision": "2.8 final"
+},
+{
+"created": "2013-01-28",
+"name": "Apache JMeter",
+"revision": "2.9 final"
+},
+{
+"created": "2013-10-21",
+"name": "Apache JMeter",
+"revision": "2.10 final"
+},
+{
+"created": "2014-01-05",
+"name": "Apache JMeter",
+"revision": "2.11 final"
+},
+{
+"created": "2014-11-10",
+"name": "Apache JMeter",
+"revision": "2.12 final"
+},
+{
+"created": "2015-03-14",
+"name": "Apache JMeter",
+"revision": "2.13 final"
+},
+{
+"created": "2016-05-17",
+"name": "Apache JMeter",
+"revision": "3.0 final"
+},
+{
+"created": "2016-11-19",
+"name": "Apache JMeter",
+"revision": "3.1 final"
+},
+{
+"created": "2017-04-13",
+"name": "Apache JMeter",
+"revision": "3.2 final"
+},
+{
+"created": "2017-09-21",
+"name": "Apache JMeter",
+"revision": "3.3 final"
+},
+{
+"created": "2018-02-10",
+"name": "Apache JMeter",
+"revision": "4.0 final"
+},
+{
+"created": "2018-09-18",
+"name": "Apache JMeter",
+"revision": "5.0 final"
+},
+{
+"created": "2019-02-18",
+"name": "Apache JMeter",
+"revision": "5.1 final"
+},
+{
+"created": "2019-03-13",
+"name": "Apache JMeter",
+"revision": "5.1.1 final"
+},
+{
+"created": "2019-11-03",
+"name": "Apache JMeter",
+"revision": "5.2 final"
+},
+{
+"created": "2019-11-24",
+"name": "Apache JMeter",
+"revision": "5.2.1 final"
+},
+{
+"created": "2020-05-15",
+"name": "Apache JMeter",
+"revision": "5.3 final"
+},
+{
+"created": "2020-12-03",
+"name": "Apache JMeter",
+"revision": "5.4 final"
+},
+{
+"created": "2021-01-20",
+"name": "Apache JMeter",
+"revision": "5.4.1 final"
+},
+{
+"created": "2021-12-16",
+"name": "Apache JMeter",
+"revision": "5.4.2 final"
+},
+{
+"created": "2021-12-24",
+"name": "Apache JMeter",
+"revision": "5.4.3 final"
+},
+{
+"created": "2022-06-14",
+"name": "Apache JMeter",
+"revision": "5.5 final"
+},
+{
+"created": "2023-06-23",
+"name": "Apache JMeter",
+"revision": "5.6 final"
+},
+{
+"created": "2023-07-10",
+"name": "Apache JMeter",
+"revision": "5.6.1 final"
+},
+{
+"created": "2023-07-11",
+"name": "Apache JMeter",
+"revision": "5.6.2 final"
+},
+{
+"created": "2024-01-07",
+"name": "Apache JMeter",
+"revision": "5.6.3 final"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf/jmeter.git"
+],
+"shortdesc": "Pure Java application for load and functional testing"
 },
 "johnzon": {
 "category": "no-tlp-doap",
@@ -10555,10 +11903,28 @@
 "pmc": "juneau"
 },
 "kafka": {
-"category": "no-tlp-doap",
-"homepage": "https://kafka.apache.org",
+"bug-database": "https://issues.apache.org/jira/browse/KAFKA",
+"category": "big-data",
+"created": "2014-04-12",
+"description": "A single Kafka broker can handle hundreds of megabytes of reads and writes per second from thousands of clients. Kafka is designed to allow a single cluster to serve as the central data backbone for a large organization. It can be elastically and transparently expanded without downtime. Data streams are partitioned and spread over a cluster of machines to allow data streams larger than the capability of any single machine and to allow clusters of co-ordinated consumers. Kafka has a modern cluster-centric design that offers strong durability and fault-tolerance guarantees. Messages are persisted on disk and replicated within the cluster to prevent data loss. Each broker can handle terabytes of messages without performance impact.",
+"doap": "https://gitbox.apache.org/repos/asf?p=kafka.git;a=blob_plain;f=doap_Kafka.rdf;hb=HEAD",
+"download-page": "https://kafka.apache.org/downloads.html",
+"homepage": "https://kafka.apache.org/",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "https://kafka.apache.org/contact.html",
+"maintainer": [
+{
+"mbox": "mailto:junrao@apache.org",
+"name": "Jun Rao"
+}
+],
 "name": "Apache Kafka",
-"pmc": "kafka"
+"pmc": "kafka",
+"programming-language": "Scala",
+"repository": [
+"https://gitbox.apache.org/repos/asf/kafka.git"
+],
+"shortdesc": "Apache Kafka is a distributed, fault tolerant, publish-subscribe messaging."
 },
 "karaf": {
 "bug-database": "https://issues.apache.org/jira/browse/KARAF",
@@ -10611,10 +11977,120 @@
 "shortdesc": "Apache Kibble is a suite of tools for collecting, aggregating and visualizing activity in software projects. "
 },
 "knox": {
-"category": "no-tlp-doap",
+"bug-database": "https://issues.apache.org/jira/browse/KNOX",
+"category": "big-data",
+"created": "2014-06-12",
+"description": "The Apache Knox Gateway is a REST API Gateway for interacting with Hadoop clusters.\n\nThe Knox Gateway provides a single access point for all REST interactions with Hadoop clusters.\n\nIn this capacity, the Knox Gateway is able to provide valuable functionality to aid in the control,\nintegration, monitoring and automation of critical administrative and analytical needs of the enterprise.\n\nAuthentication (LDAP and Active Directory Authentication Provider)\nFederation/SSO (HTTP Header Based Identity Federation)\nAuthorization (Service Level Authorization)\nAuditing\nWhile there are a number of benefits for unsecured Hadoop clusters,\nthe Knox Gateway also complements the kerberos secured cluster quite nicely.\n\nCoupled with proper network isolation of a Kerberos secured Hadoop cluster,\nthe Knox Gateway provides the enterprise with a solution that:\n\nIntegrates well with enterprise identity management solutions\nProtects the details of the Hadoop cluster deployment (hosts and ports are hidden from endusers)\nSimplifies the number of services that clients need to interact with",
+"doap": "https://gitbox.apache.org/repos/asf?p=knox.git;a=blob_plain;f=doap_Knox.rdf",
+"download-page": "https://cwiki.apache.org/confluence/display/KNOX/Release+1.2.0",
 "homepage": "https://knox.apache.org",
+"license": "https://www.apache.org/licenses/LICENSE-2.0",
+"mailing-list": "https://knox.apache.org/mail-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:dev@knox.apache.org",
+"name": "Apache Knox Team"
+}
+],
 "name": "Apache Knox",
-"pmc": "knox"
+"pmc": "knox",
+"programming-language": "Java",
+"release": [
+{
+"created": "2018/12/18",
+"name": "Apache Knox Gateway 1.2.0",
+"revision": "1.2.0"
+},
+{
+"created": "2018/07/30",
+"name": "Apache Knox Gateway 1.1.0",
+"revision": "1.1.0"
+},
+{
+"created": "2018/02/07",
+"name": "Apache Knox Gateway 1.0.0",
+"revision": "1.0.0"
+},
+{
+"created": "2017/12/14",
+"name": "Apache Knox Gateway 0.14.0",
+"revision": "0.14.0"
+},
+{
+"created": "2017/08/19",
+"name": "Apache Knox Gateway 0.13.0",
+"revision": "0.13.0"
+},
+{
+"created": "2017/03/20",
+"name": "Apache Knox Gateway 0.12.0",
+"revision": "0.12.0"
+},
+{
+"created": "2016/12/28",
+"name": "Apache Knox Gateway 0.11.0",
+"revision": "0.11.0"
+},
+{
+"created": "2016/11/07",
+"name": "Apache Knox Gateway 0.10.0",
+"revision": "0.10.0"
+},
+{
+"created": "2016/08/04",
+"name": "Apache Knox Gateway 0.9.1",
+"revision": "0.9.1"
+},
+{
+"created": "2016/04/24",
+"name": "Apache Knox Gateway 0.9.0",
+"revision": "0.9.0"
+},
+{
+"created": "2016/02/04",
+"name": "Apache Knox Gateway 0.8.0",
+"revision": "0.8.0"
+},
+{
+"created": "2015/12/23",
+"name": "Apache Knox Gateway 0.7.0",
+"revision": "0.7.0"
+},
+{
+"created": "2015/04/30",
+"name": "Apache Knox Gateway 0.6.0",
+"revision": "0.6.0"
+},
+{
+"created": "2014/11/06",
+"name": "Apache Knox Gateway 0.5.0",
+"revision": "0.5.0"
+},
+{
+"created": "2014/04/15",
+"name": "Apache Knox Gateway 0.4.0",
+"revision": "0.4.0"
+},
+{
+"created": "2013/10/22",
+"name": "Apache Knox Gateway 0.3.0",
+"revision": "0.3.0"
+},
+{
+"created": "2013/04/23",
+"name": "Apache Knox Gateway 0.2.0",
+"revision": "0.2.0"
+},
+{
+"created": "2012/12/30",
+"name": "Apache Knox Gateway 0.1.0",
+"revision": "0.1.0"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf/knox.git"
+],
+"shortdesc": "A REST API Gateway for Hadoop Services"
 },
 "kudu": {
 "bug-database": "https://issues.apache.org/jira/projects/KUDU/issues",
@@ -10677,10 +12153,390 @@
 "pmc": "kyuubi"
 },
 "libcloud": {
-"category": "no-tlp-doap",
-"homepage": "https://libcloud.apache.org",
+"bug-database": "https://issues.apache.org/jira/browse/LIBCLOUD",
+"category": "cloud, library",
+"created": "2011-05-29",
+"description": "Apache Libcloud is a standard Python library that abstracts away differences among multiple cloud provider APIs. It allows users to manage cloud servers, cloud storage and load-balancers.",
+"doap": "https://gitbox.apache.org/repos/asf?p=libcloud.git;a=blob_plain;f=doap_libcloud.rdf;hb=HEAD",
+"download-page": "http://libcloud.apache.org/downloads.html",
+"homepage": "http://libcloud.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://libcloud.apache.org/devinfo.html",
+"maintainer": [
+{
+"mbox": "mailto:tomaz@apache.org",
+"name": "Tomaz Muraus"
+}
+],
 "name": "Apache Libcloud",
-"pmc": "libcloud"
+"pmc": "libcloud",
+"programming-language": "Python",
+"release": [
+{
+"created": "2010-02-09",
+"name": "0.2.0",
+"revision": "0.2.0"
+},
+{
+"created": "2010-05-11",
+"name": "0.3.0",
+"revision": "0.3.0"
+},
+{
+"created": "2010-10-12",
+"name": "0.4.0",
+"revision": "0.4.0"
+},
+{
+"created": "2011-01-17",
+"name": "0.4.1",
+"revision": "0.4.0"
+},
+{
+"created": "2011-05-25",
+"name": "0.5.0",
+"revision": "0.5.0"
+},
+{
+"created": "2011-07-05",
+"name": "0.5.2",
+"revision": "0.5.2"
+},
+{
+"created": "2011-10-19",
+"name": "0.6.0-beta1",
+"revision": "0.6.0-beta1"
+},
+{
+"created": "2011-11-09",
+"name": "0.6.1",
+"revision": "0.6.1"
+},
+{
+"created": "2011-11-17",
+"name": "0.6.2",
+"revision": "0.6.2"
+},
+{
+"created": "2011-12-09",
+"name": "0.7.1",
+"revision": "0.7.1"
+},
+{
+"created": "2012-02-08",
+"name": "0.8.0",
+"revision": "0.8.0"
+},
+{
+"created": "2012-04-01",
+"name": "0.9.1",
+"revision": "0.9.1"
+},
+{
+"created": "2012-05-24",
+"name": "0.10.1",
+"revision": "0.10.1"
+},
+{
+"created": "2012-07-30",
+"name": "0.11.0",
+"revision": "0.11.0"
+},
+{
+"created": "2012-08-01",
+"name": "0.11.1",
+"revision": "0.11.1"
+},
+{
+"created": "2012-09-25",
+"name": "0.11.3",
+"revision": "0.11.3"
+},
+{
+"created": "2012-11-19",
+"name": "0.11.4",
+"revision": "0.11.4"
+},
+{
+"created": "2013-02-19",
+"name": "0.12.1",
+"revision": "0.12.1"
+},
+{
+"created": "2013-03-11",
+"name": "0.12.3",
+"revision": "0.12.3"
+},
+{
+"created": "2013-04-22",
+"name": "0.12.4",
+"revision": "0.12.3"
+},
+{
+"created": "2013-07-01",
+"name": "0.13.0",
+"revision": "0.13.0"
+},
+{
+"created": "2013-09-05",
+"name": "0.13.1",
+"revision": "v0.13.1"
+},
+{
+"created": "2013-09-18",
+"name": "0.13.2",
+"revision": "v0.13.2"
+},
+{
+"created": "2013-12-31",
+"name": "0.13.3",
+"revision": "v0.13.3"
+},
+{
+"created": "2013-11-21",
+"name": "0.14.0-beta3",
+"revision": "v0.14.0-beta3"
+},
+{
+"created": "2014-01-22",
+"name": "0.14.0",
+"revision": "v0.14.0"
+},
+{
+"created": "2014-02-08",
+"name": "0.14.1",
+"revision": "v0.14.1"
+},
+{
+"created": "2014-06-26",
+"name": "0.15.0",
+"revision": "v0.15.0"
+},
+{
+"created": "2014-07-10",
+"name": "0.15.1",
+"revision": "v0.15.1"
+},
+{
+"created": "2014-11-12",
+"name": "0.16.0",
+"revision": "v0.16.0"
+},
+{
+"created": "2015-02-18",
+"name": "0.17.0",
+"revision": "v0.17.0"
+},
+{
+"created": "2015-08-12",
+"name": "0.18.0",
+"revision": "v0.18.0"
+},
+{
+"created": "2015-10-30",
+"name": "0.19.0",
+"revision": "v0.19.0"
+},
+{
+"created": "2015-12-15",
+"name": "0.20.0",
+"revision": "v0.20.0"
+},
+{
+"created": "2016-01-19",
+"name": "0.20.1",
+"revision": "v0.20.1"
+},
+{
+"created": "2016-01-26",
+"name": "1.0.0-pre1",
+"revision": "v1.0.0-pre1"
+},
+{
+"created": "2016-04-11",
+"name": "1.0.0-rc2",
+"revision": "v1.0.0-rc2"
+},
+{
+"created": "2016-06-21",
+"name": "1.0.0",
+"revision": "v1.0.0"
+},
+{
+"created": "2016-07-07",
+"name": "1.1.0",
+"revision": "v1.1.0"
+},
+{
+"created": "2016-09-15",
+"name": "1.2.0",
+"revision": "v1.2.0"
+},
+{
+"created": "2016-09-23",
+"name": "1.2.1",
+"revision": "v1.2.1"
+},
+{
+"created": "2016-10-14",
+"name": "1.3.0",
+"revision": "v1.3.0"
+},
+{
+"created": "2016-11-27",
+"name": "1.4.0",
+"revision": "v1.4.0"
+},
+{
+"created": "2016-12-28",
+"name": "1.5.0",
+"revision": "v1.5.0"
+},
+{
+"created": "2017-04-08",
+"name": "2.0.0rc2",
+"revision": "v2.0.0rc2"
+},
+{
+"created": "2017-04-25",
+"name": "2.0.0",
+"revision": "v2.0.0"
+},
+{
+"created": "2017-07-17",
+"name": "2.1.0",
+"revision": "v2.1.0"
+},
+{
+"created": "2017-09-04",
+"name": "2.2.0",
+"revision": "v2.2.0"
+},
+{
+"created": "2017-09-21",
+"name": "2.2.1",
+"revision": "v2.2.1"
+},
+{
+"created": "2018-02-08",
+"name": "2.3.0",
+"revision": "v2.3.0"
+},
+{
+"created": "2018-11-08",
+"name": "2.4.0",
+"revision": "v2.4.0"
+},
+{
+"created": "2019-05-30",
+"name": "2.5.0",
+"revision": "v2.5.0"
+},
+{
+"created": "2019-08-28",
+"name": "2.6.0",
+"revision": "v2.6.0"
+},
+{
+"created": "2019-11-18",
+"name": "2.6.1",
+"revision": "v2.6.1"
+},
+{
+"created": "2019-12-09",
+"name": "2.7.0",
+"revision": "v2.7.0"
+},
+{
+"created": "2020-01-02",
+"name": "2.8.0",
+"revision": "v2.8.0"
+},
+{
+"created": "2020-01-29",
+"name": "3.0.0-rc1",
+"revision": "v3.0.0-rc1"
+},
+{
+"created": "2020-03-03",
+"name": "3.0.0-rc1",
+"revision": "v3.0.0-rc1"
+},
+{
+"created": "2020-04-15",
+"name": "2.8.2",
+"revision": "v2.8.2"
+},
+{
+"created": "2020-04-15",
+"name": "3.0.0",
+"revision": "v3.0.0"
+},
+{
+"created": "2020-06-12",
+"name": "2.8.3",
+"revision": "v2.8.3"
+},
+{
+"created": "2020-06-12",
+"name": "3.1.0",
+"revision": "v3.1.0"
+},
+{
+"created": "2020-09-20",
+"name": "3.2.0",
+"revision": "v3.2.0"
+},
+{
+"created": "2021-01-02",
+"name": "3.3.0",
+"revision": "v3.3.0"
+},
+{
+"created": "2021-01-25",
+"name": "3.3.1",
+"revision": "v3.3.1"
+},
+{
+"created": "2021-11-11",
+"name": "3.4.0",
+"revision": "v3.4.0"
+},
+{
+"created": "2021-11-15",
+"name": "3.4.1",
+"revision": "v3.4.1"
+},
+{
+"created": "2022-03-11",
+"name": "3.5.0",
+"revision": "v3.5.0"
+},
+{
+"created": "2022-05-26",
+"name": "3.6.0",
+"revision": "v3.6.0"
+},
+{
+"created": "2022-10-10",
+"name": "3.6.1",
+"revision": "v3.6.1"
+},
+{
+"created": "2023-01-08",
+"name": "3.7.0",
+"revision": "v3.7.0"
+},
+{
+"created": "2023-08-10",
+"name": "3.8.0",
+"revision": "v3.8.0"
+}
+],
+"repository": [
+"https://svn.apache.org/repos/asf/libcloud/trunk/"
+],
+"shortdesc": "Apache Libcloud is a standard Python library that abstracts away differences among multiple cloud provider APIs."
 },
 "linkis": {
 "bug-database": "https://github.com/apache/linkis/issues",
@@ -10716,6 +12572,37 @@
 "http://svn.apache.org/repos/asf/logging/chainsaw/trunk/"
 ],
 "shortdesc": "Apache Chainsaw is a GUI log viewer."
+},
+"logging-flume": {
+"bug-database": "https://issues.apache.org/jira/browse/FLUME",
+"category": "big-data",
+"created": "2014-06-13",
+"description": "Apache Flume is a distributed, reliable, and available system for efficiently collecting, aggregating and moving large amounts of log data from many different sources to a centralized data store",
+"doap": "https://gitbox.apache.org/repos/asf?p=flume.git;a=blob_plain;f=doap_Flume.rdf;hb=HEAD",
+"download-page": "http://flume.apache.org/download.html",
+"homepage": "http://flume.apache.org",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "http://flume.apache.org/mailinglists.html",
+"maintainer": [
+{
+"mbox": "mailto:dev@logging.apache.org",
+"name": "Apache Logging Services"
+}
+],
+"name": "Apache Flume",
+"pmc": "logging",
+"programming-language": "Java",
+"release": [
+{
+"created": "2014-05-20",
+"name": "Apache Flume",
+"revision": "1.5.0"
+}
+],
+"repository": [
+"https://git-wip-us.apache.org/repos/asf?p=flume.git"
+],
+"shortdesc": "Apache Flume is a distributed, reliable, and available system for efficiently collecting, aggregating and moving large amounts of log data from many different sources to a centralized data store."
 },
 "logging-log4cxx": {
 "bug-database": "https://issues.apache.org/jira/browse/LOGCXX",
@@ -10785,6 +12672,908 @@
 ],
 "shortdesc": "Apache log4php is a logging framework for PHP.",
 "shortname": "log4php"
+},
+"lucene-core": {
+"bug-database": "https://github.com/apache/lucene/issues",
+"category": "database, library, search",
+"created": "2001-09-01",
+"description": "Apache Lucene is a high-performance, full-featured text search engine library written entirely in Java. It is a technology suitable for nearly any application that requires full-text search, especially cross-platform.\n    ",
+"doap": "http://lucene.apache.org/core/doap.rdf",
+"download-page": "https://lucene.apache.org/core/downloads.html",
+"homepage": "https://lucene.apache.org/core/",
+"license": "http://www.apache.org/licenses/LICENSE-2.0",
+"mailing-list": "https://lucene.apache.org/core/discussion.html",
+"maintainer": [
+{
+"mbox": "mailto:dev@lucene.apache.org",
+"name": "Apache Lucene Team"
+}
+],
+"name": "Apache Lucene Core",
+"pmc": "lucene",
+"programming-language": "Java",
+"release": [
+{
+"created": "2025-09-13",
+"name": "lucene-10.3.0",
+"revision": "10.3.0"
+},
+{
+"created": "2025-06-20",
+"name": "lucene-10.2.2",
+"revision": "10.2.2"
+},
+{
+"created": "2025-05-01",
+"name": "lucene-10.2.1",
+"revision": "10.2.1"
+},
+{
+"created": "2025-04-10",
+"name": "lucene-10.2.0",
+"revision": "10.2.0"
+},
+{
+"created": "2024-12-20",
+"name": "lucene-10.1.0",
+"revision": "10.1.0"
+},
+{
+"created": "2024-10-14",
+"name": "lucene-10.0.0",
+"revision": "10.0.0"
+},
+{
+"created": "2025-09-27",
+"name": "lucene-9.12.3",
+"revision": "9.12.3"
+},
+{
+"created": "2025-06-20",
+"name": "lucene-9.12.2",
+"revision": "9.12.2"
+},
+{
+"created": "2024-12-13",
+"name": "lucene-9.12.1",
+"revision": "9.12.1"
+},
+{
+"created": "2024-09-28",
+"name": "lucene-9.12.0",
+"revision": "9.12.0"
+},
+{
+"created": "2024-06-27",
+"name": "lucene-9.11.1",
+"revision": "9.11.1"
+},
+{
+"created": "2024-06-06",
+"name": "lucene-9.11.0",
+"revision": "9.11.0"
+},
+{
+"created": "2024-02-20",
+"name": "lucene-9.10.0",
+"revision": "9.10.0"
+},
+{
+"created": "2024-01-29",
+"name": "lucene-9.9.2",
+"revision": "9.9.2"
+},
+{
+"created": "2023-12-16",
+"name": "lucene-9.9.1",
+"revision": "9.9.1"
+},
+{
+"created": "2023-12-04",
+"name": "lucene-9.9.0",
+"revision": "9.9.0"
+},
+{
+"created": "2023-09-28",
+"name": "lucene-9.8.0",
+"revision": "9.8.0"
+},
+{
+"created": "2023-06-25",
+"name": "lucene-9.7.0",
+"revision": "9.7.0"
+},
+{
+"created": "2023-05-09",
+"name": "lucene-9.6.0",
+"revision": "9.6.0"
+},
+{
+"created": "2023-01-30",
+"name": "lucene-9.5.0",
+"revision": "9.5.0"
+},
+{
+"created": "2022-11-21",
+"name": "lucene-9.4.2",
+"revision": "9.4.2"
+},
+{
+"created": "2022-10-24",
+"name": "lucene-9.4.1",
+"revision": "9.4.1"
+},
+{
+"created": "2022-09-30",
+"name": "lucene-9.4.0",
+"revision": "9.4.0"
+},
+{
+"created": "2022-07-29",
+"name": "lucene-9.3.0",
+"revision": "9.3.0"
+},
+{
+"created": "2022-05-23",
+"name": "lucene-9.2.0",
+"revision": "9.2.0"
+},
+{
+"created": "2022-03-22",
+"name": "lucene-9.1.0",
+"revision": "9.1.0"
+},
+{
+"created": "2021-12-07",
+"name": "lucene-9.0.0",
+"revision": "9.0.0"
+},
+{
+"created": "2024-09-24",
+"name": "lucene-8.11.4",
+"revision": "8.11.4"
+},
+{
+"created": "2024-02-08",
+"name": "lucene-8.11.3",
+"revision": "8.11.3"
+},
+{
+"created": "2022-06-17",
+"name": "lucene-8.11.2",
+"revision": "8.11.2"
+},
+{
+"created": "2021-12-16",
+"name": "lucene-8.11.1",
+"revision": "8.11.1"
+},
+{
+"created": "2021-11-16",
+"name": "lucene-8.11.0",
+"revision": "8.11.0"
+},
+{
+"created": "2021-10-18",
+"name": "lucene-8.10.1",
+"revision": "8.10.1"
+},
+{
+"created": "2021-09-27",
+"name": "lucene-8.10.0",
+"revision": "8.10.0"
+},
+{
+"created": "2021-06-16",
+"name": "lucene-8.9.0",
+"revision": "8.9.0"
+},
+{
+"created": "2021-04-12",
+"name": "lucene-8.8.2",
+"revision": "8.8.2"
+},
+{
+"created": "2021-02-22",
+"name": "lucene-8.8.1",
+"revision": "8.8.1"
+},
+{
+"created": "2021-02-01",
+"name": "lucene-8.8.0",
+"revision": "8.8.0"
+},
+{
+"created": "2020-11-03",
+"name": "lucene-8.7.0",
+"revision": "8.7.0"
+},
+{
+"created": "2020-10-07",
+"name": "lucene-8.6.3",
+"revision": "8.6.3"
+},
+{
+"created": "2020-09-01",
+"name": "lucene-8.6.2",
+"revision": "8.6.2"
+},
+{
+"created": "2020-08-13",
+"name": "lucene-8.6.1",
+"revision": "8.6.1"
+},
+{
+"created": "2020-07-15",
+"name": "lucene-8.6.0",
+"revision": "8.6.0"
+},
+{
+"created": "2020-05-26",
+"name": "lucene-8.5.2",
+"revision": "8.5.2"
+},
+{
+"created": "2020-04-16",
+"name": "lucene-8.5.1",
+"revision": "8.5.1"
+},
+{
+"created": "2020-03-24",
+"name": "lucene-8.5.0",
+"revision": "8.5.0"
+},
+{
+"created": "2020-01-13",
+"name": "lucene-8.4.1",
+"revision": "8.4.1"
+},
+{
+"created": "2019-12-29",
+"name": "lucene-8.4.0",
+"revision": "8.4.0"
+},
+{
+"created": "2019-12-03",
+"name": "lucene-8.3.1",
+"revision": "8.3.1"
+},
+{
+"created": "2019-11-02",
+"name": "lucene-8.3.0",
+"revision": "8.3.0"
+},
+{
+"created": "2019-07-26",
+"name": "lucene-8.2.0",
+"revision": "8.2.0"
+},
+{
+"created": "2019-05-28",
+"name": "lucene-8.1.1",
+"revision": "8.1.1"
+},
+{
+"created": "2019-05-16",
+"name": "lucene-8.1.0",
+"revision": "8.1.0"
+},
+{
+"created": "2019-03-14",
+"name": "lucene-8.0.0",
+"revision": "8.0.0"
+},
+{
+"created": "2020-04-28",
+"name": "lucene-7.7.3",
+"revision": "7.7.3"
+},
+{
+"created": "2019-06-04",
+"name": "lucene-7.7.2",
+"revision": "7.7.2"
+},
+{
+"created": "2019-03-01",
+"name": "lucene-7.7.1",
+"revision": "7.7.1"
+},
+{
+"created": "2019-02-11",
+"name": "lucene-7.7.0",
+"revision": "7.7.0"
+},
+{
+"created": "2018-12-14",
+"name": "lucene-7.6.0",
+"revision": "7.6.0"
+},
+{
+"created": "2018-09-24",
+"name": "lucene-7.5.0",
+"revision": "7.5.0"
+},
+{
+"created": "2018-06-27",
+"name": "lucene-7.4.0",
+"revision": "7.4.0"
+},
+{
+"created": "2018-05-15",
+"name": "lucene-7.3.1",
+"revision": "7.3.1"
+},
+{
+"created": "2018-04-04",
+"name": "lucene-7.3.0",
+"revision": "7.3.0"
+},
+{
+"created": "2018-01-15",
+"name": "lucene-7.2.1",
+"revision": "7.2.1"
+},
+{
+"created": "2017-12-21",
+"name": "lucene-7.2.0",
+"revision": "7.2.0"
+},
+{
+"created": "2017-10-17",
+"name": "lucene-7.1.0",
+"revision": "7.1.0"
+},
+{
+"created": "2017-10-06",
+"name": "lucene-7.0.1",
+"revision": "7.0.1"
+},
+{
+"created": "2017-09-20",
+"name": "lucene-7.0.0",
+"revision": "7.0.0"
+},
+{
+"created": "2018-04-05",
+"name": "lucene-6.6.6",
+"revision": "6.6.6"
+},
+{
+"created": "2018-06-03",
+"name": "lucene-6.6.5",
+"revision": "6.6.5"
+},
+{
+"created": "2018-05-18",
+"name": "lucene-6.6.4",
+"revision": "6.6.4"
+},
+{
+"created": "2018-03-07",
+"name": "lucene-6.6.3",
+"revision": "6.6.3"
+},
+{
+"created": "2017-10-18",
+"name": "lucene-6.6.2",
+"revision": "6.6.2"
+},
+{
+"created": "2017-09-07",
+"name": "lucene-6.6.1",
+"revision": "6.6.1"
+},
+{
+"created": "2017-06-06",
+"name": "lucene-6.6.0",
+"revision": "6.6.0"
+},
+{
+"created": "2017-04-27",
+"name": "lucene-6.5.1",
+"revision": "6.5.1"
+},
+{
+"created": "2017-03-27",
+"name": "lucene-6.5.0",
+"revision": "6.5.0"
+},
+{
+"created": "2017-03-07",
+"name": "lucene-6.4.2",
+"revision": "6.4.2"
+},
+{
+"created": "2017-02-06",
+"name": "lucene-6.4.1",
+"revision": "6.4.1"
+},
+{
+"created": "2017-01-23",
+"name": "lucene-6.4.0",
+"revision": "6.4.0"
+},
+{
+"created": "2016-11-08",
+"name": "lucene-6.3.0",
+"revision": "6.3.0"
+},
+{
+"created": "2016-09-20",
+"name": "lucene-6.2.1",
+"revision": "6.2.1"
+},
+{
+"created": "2016-08-25",
+"name": "lucene-6.2.0",
+"revision": "6.2.0"
+},
+{
+"created": "2016-06-17",
+"name": "lucene-6.1.0",
+"revision": "6.1.0"
+},
+{
+"created": "2016-05-28",
+"name": "lucene-6.0.1",
+"revision": "6.0.1"
+},
+{
+"created": "2016-04-08",
+"name": "lucene-6.0.0",
+"revision": "6.0.0"
+},
+{
+"created": "2017-10-24",
+"name": "lucene-5.5.5",
+"revision": "5.5.5"
+},
+{
+"created": "2017-02-15",
+"name": "lucene-5.5.4",
+"revision": "5.5.4"
+},
+{
+"created": "2016-09-09",
+"name": "lucene-5.5.3",
+"revision": "5.5.3"
+},
+{
+"created": "2016-06-25",
+"name": "lucene-5.5.2",
+"revision": "5.5.2"
+},
+{
+"created": "2016-05-05",
+"name": "lucene-5.5.1",
+"revision": "5.5.1"
+},
+{
+"created": "2016-02-22",
+"name": "lucene-5.5.0",
+"revision": "5.5.0"
+},
+{
+"created": "2016-01-23",
+"name": "lucene-5.4.1",
+"revision": "5.4.1"
+},
+{
+"created": "2015-12-14",
+"name": "lucene-5.4.0",
+"revision": "5.4.0"
+},
+{
+"created": "2016-01-23",
+"name": "lucene-5.3.2",
+"revision": "5.3.2"
+},
+{
+"created": "2015-09-24",
+"name": "lucene-5.3.1",
+"revision": "5.3.1"
+},
+{
+"created": "2015-08-21",
+"name": "lucene-5.3.0",
+"revision": "5.3.0"
+},
+{
+"created": "2015-06-15",
+"name": "lucene-5.2.1",
+"revision": "5.2.1"
+},
+{
+"created": "2015-06-07",
+"name": "lucene-5.2.0",
+"revision": "5.2.0"
+},
+{
+"created": "2015-04-14",
+"name": "lucene-5.1.0",
+"revision": "5.1.0"
+},
+{
+"created": "2015-02-20",
+"name": "lucene-5.0.0",
+"revision": "5.0.0"
+},
+{
+"created": "2015-03-03",
+"name": "lucene-4.10.4",
+"revision": "4.10.4"
+},
+{
+"created": "2014-12-29",
+"name": "lucene-4.10.3",
+"revision": "4.10.3"
+},
+{
+"created": "2014-10-31",
+"name": "lucene-4.10.2",
+"revision": "4.10.2"
+},
+{
+"created": "2014-09-29",
+"name": "lucene-4.10.1",
+"revision": "4.10.1"
+},
+{
+"created": "2014-09-03",
+"name": "lucene-4.10.0",
+"revision": "4.10.0"
+},
+{
+"created": "2014-09-22",
+"name": "lucene-4.9.1",
+"revision": "4.9.1"
+},
+{
+"created": "2014-06-25",
+"name": "lucene-4.9.0",
+"revision": "4.9.0"
+},
+{
+"created": "2014-05-20",
+"name": "lucene-4.8.1",
+"revision": "4.8.1"
+},
+{
+"created": "2014-04-28",
+"name": "lucene-4.8.0",
+"revision": "4.8.0"
+},
+{
+"created": "2014-04-15",
+"name": "lucene-4.7.2",
+"revision": "4.7.2"
+},
+{
+"created": "2014-04-02",
+"name": "lucene-4.7.1",
+"revision": "4.7.1"
+},
+{
+"created": "2014-02-26",
+"name": "lucene-4.7.0",
+"revision": "4.7.0"
+},
+{
+"created": "2014-01-28",
+"name": "lucene-4.6.1",
+"revision": "4.6.1"
+},
+{
+"created": "2013-11-22",
+"name": "lucene-4.6.0",
+"revision": "4.6.0"
+},
+{
+"created": "2013-10-24",
+"name": "lucene-4.5.1",
+"revision": "4.5.1"
+},
+{
+"created": "2013-10-05",
+"name": "lucene-4.5",
+"revision": "4.5"
+},
+{
+"created": "2013-07-23",
+"name": "lucene-4.4",
+"revision": "4.4"
+},
+{
+"created": "2013-06-18",
+"name": "lucene-4.3.1",
+"revision": "4.3.1"
+},
+{
+"created": "2013-05-06",
+"name": "lucene-4.3",
+"revision": "4.3"
+},
+{
+"created": "2013-04-03",
+"name": "lucene-4.2.1",
+"revision": "4.2.1"
+},
+{
+"created": "2013-03-11",
+"name": "lucene-4.2",
+"revision": "4.2"
+},
+{
+"created": "2013-01-22",
+"name": "lucene-4.1",
+"revision": "4.1"
+},
+{
+"created": "2012-10-12",
+"name": "lucene-4.0",
+"revision": "4.0"
+},
+{
+"created": "2012-08-13",
+"name": "lucene-4.0-BETA",
+"revision": "4.0-BETA"
+},
+{
+"created": "2012-07-03",
+"name": "lucene-4.0-ALPHA",
+"revision": "4.0-ALPHA"
+},
+{
+"created": "2012-12-25",
+"name": "lucene-3.6.2",
+"revision": "3.6.2"
+},
+{
+"created": "2012-07-22",
+"name": "lucene-3.6.1",
+"revision": "3.6.1"
+},
+{
+"created": "2012-04-12",
+"name": "lucene-3.6",
+"revision": "3.6"
+},
+{
+"created": "2011-11-11",
+"name": "lucene-3.5",
+"revision": "3.5"
+},
+{
+"created": "2011-09-15",
+"name": "lucene-3.4",
+"revision": "3.4"
+},
+{
+"created": "2011-07-10",
+"name": "lucene-3.3",
+"revision": "3.3"
+},
+{
+"created": "2011-06-03",
+"name": "lucene-3.2",
+"revision": "3.2"
+},
+{
+"created": "2011-03-31",
+"name": "lucene-3.1",
+"revision": "3.1"
+},
+{
+"created": "2010-12-03",
+"name": "lucene-3.0.3",
+"revision": "3.0.3"
+},
+{
+"created": "2010-06-18",
+"name": "lucene-3.0.2",
+"revision": "3.0.2"
+},
+{
+"created": "2010-02-26",
+"name": "lucene-3.0.1",
+"revision": "3.0.1"
+},
+{
+"created": "2009-11-25",
+"name": "lucene-3.0",
+"revision": "3.0"
+},
+{
+"created": "2010-12-03",
+"name": "lucene-2.9.4",
+"revision": "2.9.4"
+},
+{
+"created": "2010-06-18",
+"name": "lucene-2.9.3",
+"revision": "2.9.3"
+},
+{
+"created": "2010-02-26",
+"name": "lucene-2.9.2",
+"revision": "2.9.2"
+},
+{
+"created": "2009-11-06",
+"name": "lucene-2.9.1",
+"revision": "2.9.1"
+},
+{
+"created": "2009-09-25",
+"name": "lucene-2.9",
+"revision": "2.9"
+},
+{
+"created": "2009-03-09",
+"name": "lucene-2.4.1",
+"revision": "2.4.1"
+},
+{
+"created": "2008-10-08",
+"name": "lucene-2.4",
+"revision": "2.4"
+},
+{
+"created": "2008-05-06",
+"name": "lucene-2.3.2",
+"revision": "2.3.2"
+},
+{
+"created": "2008-02-22",
+"name": "lucene-2.3.1",
+"revision": "2.3.1"
+},
+{
+"created": "2008-01-23",
+"name": "lucene-2.3",
+"revision": "2.3"
+},
+{
+"created": "2007-06-19",
+"name": "lucene-2.2",
+"revision": "2.2"
+},
+{
+"created": "2007-02-17",
+"name": "lucene-2.1",
+"revision": "2.1"
+},
+{
+"created": "2006-05-26",
+"name": "lucene-2.0.0",
+"revision": "2.0.0"
+},
+{
+"created": "2006-03-02",
+"name": "lucene-1.9.1",
+"revision": "1.9.1"
+},
+{
+"created": "2006-02-27",
+"name": "lucene-1.9-final",
+"revision": "1.9 final"
+},
+{
+"created": "2006-02-21",
+"name": "lucene-1.9-rc1",
+"revision": "1.9 RC1"
+},
+{
+"created": "2004-12-07",
+"name": "lucene-1.4.3",
+"revision": "1.4.3"
+},
+{
+"created": "2004-10-01",
+"name": "lucene-1.4.2",
+"revision": "1.4.2"
+},
+{
+"created": "2004-08-02",
+"name": "lucene-1.4.1",
+"revision": "1.4.1"
+},
+{
+"created": "2004-07-01",
+"name": "lucene-1.4-final",
+"revision": "1.4 final"
+},
+{
+"created": "2004-05-11",
+"name": "lucene-1.4-rc3",
+"revision": "1.4 RC3"
+},
+{
+"created": "2004-03-30",
+"name": "lucene-1.4-rc2",
+"revision": "1.4 RC2"
+},
+{
+"created": "2004-03-29",
+"name": "lucene-1.4-rc1",
+"revision": "1.4 RC1"
+},
+{
+"created": "2003-12-26",
+"name": "lucene-1.3-final",
+"revision": "1.3 final"
+},
+{
+"created": "2003-11-25",
+"name": "lucene-1.3-rc3",
+"revision": "1.3 RC3"
+},
+{
+"created": "2003-10-22",
+"name": "lucene-1.3-rc2",
+"revision": "1.3 RC2"
+},
+{
+"created": "2003-03-24",
+"name": "lucene-1.3-rc1",
+"revision": "1.3 RC1"
+},
+{
+"created": "2002-06-13",
+"name": "lucene-1.2-final",
+"revision": "1.2 final"
+},
+{
+"created": "2002-05-14",
+"name": "lucene-1.2-rc5",
+"revision": "1.2 RC5"
+},
+{
+"created": "2002-02-14",
+"name": "lucene-1.2-rc4",
+"revision": "1.2 RC4"
+},
+{
+"created": "2002-01-27",
+"name": "lucene-1.2-rc3",
+"revision": "1.2 RC3"
+},
+{
+"created": "2001-10-19",
+"name": "lucene-1.2-rc2",
+"revision": "1.2 RC2"
+},
+{
+"created": "2001-10-02",
+"name": "lucene-1.2-rc1",
+"revision": "1.2 RC1"
+},
+{
+"created": "2001-06-02",
+"name": "lucene-1.01b",
+"revision": "1.01b"
+},
+{
+"created": "2000-10-04",
+"name": "lucene-1.0",
+"revision": "1.0"
+},
+{
+"created": "2000-04-19",
+"name": "lucene-0.04",
+"revision": "0.04"
+},
+{
+"created": "2000-03-30",
+"name": "lucene-0.01",
+"revision": "0.01"
+}
+],
+"repository": [
+"https://git-wip-us.apache.org/repos/asf/lucene.git"
+],
+"shortdesc": "Apache Lucene is a high-performance, full-featured text search engine library",
+"wiki": "http://wiki.apache.org/lucene-java/"
 },
 "lucene-pylucene": {
 "bug-database": "https://issues.apache.org/jira/projects/PYLUCENE",
@@ -12687,10 +15476,22 @@
 "shortdesc": "Apache Olingo is a Java and JavaScript library that implements the Open Data Protocol (OData). Apache Olingo serves client and server aspects of OData. It currently supports OData 2.0 and OData 4.0 (beta). The latter is the OASIS version of the protocol: OASIS Open Data Protocol (OData) TC.\n    "
 },
 "opendal": {
-"category": "no-tlp-doap",
-"homepage": "https://opendal.apache.org",
-"name": "Apache Opendal",
-"pmc": "opendal"
+"bug-database": "https://github.com/apache/opendal/issues",
+"category": "data-engineering",
+"created": "2023-02-27",
+"description": "Apache OpenDAL is a data access layer that allows users to easily and efficiently retrieve data from various storage services in a unified way.",
+"doap": "https://gitbox.apache.org/repos/asf?p=opendal.git;f=doap.rdf;a=blob_plain;hb=HEAD",
+"download-page": "https://opendal.apache.org/download/",
+"homepage": "https://opendal.apache.org/",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://opendal.apache.org/community/",
+"name": "Apache OpenDAL",
+"pmc": "opendal",
+"programming-language": "Rust",
+"repository": [
+"https://github.com/apache/opendal.git"
+],
+"shortdesc": "Apache OpenDAL: access data freely."
 },
 "openjpa": {
 "bug-database": "http://issues.apache.org/jira/browse/OPENJPA",
