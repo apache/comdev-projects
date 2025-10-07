@@ -273,8 +273,8 @@
 "apache_airflow_providers_exasol-4.8.3": [
 "airflow/providers/apache_airflow_providers_exasol-4.8.3.tar.gz"
 ],
-"apache_airflow_providers_fab-2.4.4": [
-"airflow/providers/apache_airflow_providers_fab-2.4.4.tar.gz"
+"apache_airflow_providers_fab-3.0.0": [
+"airflow/providers/apache_airflow_providers_fab-3.0.0.tar.gz"
 ],
 "apache_airflow_providers_facebook-3.8.2": [
 "airflow/providers/apache_airflow_providers_facebook-3.8.2.tar.gz"
@@ -1417,6 +1417,9 @@
 "camel-kamelets-sources-4.14.0": [
 "camel/camel-kamelets/4.14.0/camel-kamelets-sources-4.14.0.tar.gz"
 ],
+"camel-kamelets-sources-4.14.1": [
+"camel/camel-kamelets/4.14.1/camel-kamelets-sources-4.14.1.tar.gz"
+],
 "camel-kamelets-sources-4.8.5": [
 "camel/camel-kamelets/4.8.5/camel-kamelets-sources-4.8.5.tar.gz"
 ],
@@ -2274,14 +2277,11 @@
 "apache-datafusion-50.1.0": [
 "datafusion/datafusion-50.1.0/apache-datafusion-50.1.0.tar.gz"
 ],
-"apache-datafusion-ballista-48.0.0": [
-"datafusion/datafusion-ballista-48.0.0/apache-datafusion-ballista-48.0.0.tar.gz"
+"apache-datafusion-ballista-49.0.0": [
+"datafusion/datafusion-ballista-49.0.0/apache-datafusion-ballista-49.0.0.tar.gz"
 ],
-"apache-datafusion-comet-0.10.0": [
-"datafusion/datafusion-comet-0.10.0/apache-datafusion-comet-0.10.0.tar.gz"
-],
-"apache-datafusion-comet-0.9.1": [
-"datafusion/datafusion-comet-0.9.1/apache-datafusion-comet-0.9.1.tar.gz"
+"apache-datafusion-comet-0.10.1": [
+"datafusion/datafusion-comet-0.10.1/apache-datafusion-comet-0.10.1.tar.gz"
 ],
 "apache-datafusion-python-50.0.0": [
 "datafusion/datafusion-python-50.0.0/apache-datafusion-python-50.0.0.tar.gz"
@@ -5175,13 +5175,16 @@
 ]
 },
 "incubator-resilientdb": {
-"apache-resilientdb-1.10.0-incubating": [
-"incubator/resilientdb/1.10.0/apache-resilientdb-1.10.0-incubating-src.tar.gz"
+"apache-resilientdb-1.11.0-incubating": [
+"incubator/resilientdb/1.11.0/apache-resilientdb-1.11.0-incubating-src.tar.gz"
 ]
 },
 "incubator-seata": {
 "apache-seata-2.5.0-incubating": [
 "incubator/seata/2.5.0/apache-seata-2.5.0-incubating-src.tar.gz"
+],
+"apache-seata-go-2.0.0-incubating": [
+"incubator/seata/incubator-seata-go/2.0.0/apache-seata-go-2.0.0-incubating-src.tar.gz"
 ]
 },
 "incubator-toree": {
@@ -5950,6 +5953,10 @@
 "lucene/java/10.3.0/lucene-10.3.0-src.tgz",
 "lucene/java/10.3.0/lucene-10.3.0.tgz"
 ],
+"lucene-10.3.1": [
+"lucene/java/10.3.1/lucene-10.3.1-src.tgz",
+"lucene/java/10.3.1/lucene-10.3.1.tgz"
+],
 "lucene-9.12.3": [
 "lucene/java/9.12.3/lucene-9.12.3-src.tgz",
 "lucene/java/9.12.3/lucene-9.12.3.tgz"
@@ -6195,8 +6202,8 @@
 "maven-antrun-plugin-3.1.0": [
 "maven/plugins/maven-antrun-plugin-3.1.0-source-release.zip"
 ],
-"maven-archetype-3.4.0": [
-"maven/archetype/maven-archetype-3.4.0-source-release.zip"
+"maven-archetype-3.4.1": [
+"maven/archetype/maven-archetype-3.4.1-source-release.zip"
 ],
 "maven-archetype-bundles-1.5": [
 "maven/archetype/maven-archetype-bundles-1.5-source-release.zip"
@@ -7024,6 +7031,9 @@
 ],
 "nifi-minifi-cpp-0.99.1": [
 "nifi/nifi-minifi-cpp/0.99.1/nifi-minifi-cpp-0.99.1-source.tar.gz"
+],
+"nifi-minifi-cpp-0.99.2": [
+"nifi/nifi-minifi-cpp/0.99.2/nifi-minifi-cpp-0.99.2-source.tar.gz"
 ],
 "nifi-nar-maven-plugin-2.1.0": [
 "nifi/nifi-nar-maven-plugin-2.1.0/nifi-nar-maven-plugin-2.1.0-source-release.zip"
@@ -8749,11 +8759,8 @@
 ]
 },
 "sis": {
-"apache-sis-1.3": [
-"sis/1.3/apache-sis-1.3-src.zip"
-],
-"apache-sis-1.4": [
-"sis/1.4/apache-sis-1.4-src.zip"
+"apache-sis-1.5": [
+"sis/1.5/apache-sis-1.5-src.zip"
 ]
 },
 "skywalking": {
@@ -10280,6 +10287,10 @@
 "apache-tomcat-9.0.109": [
 "tomcat/tomcat-9/v9.0.109/src/apache-tomcat-9.0.109-src.tar.gz",
 "tomcat/tomcat-9/v9.0.109/src/apache-tomcat-9.0.109-src.zip"
+],
+"apache-tomcat-9.0.110": [
+"tomcat/tomcat-9/v9.0.110/src/apache-tomcat-9.0.110-src.tar.gz",
+"tomcat/tomcat-9/v9.0.110/src/apache-tomcat-9.0.110-src.zip"
 ],
 "jakartaee-migration-1.0.9": [
 "tomcat/jakartaee-migration/v1.0.9/source/jakartaee-migration-1.0.9-src.tar.gz",
