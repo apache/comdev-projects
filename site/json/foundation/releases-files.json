@@ -1567,6 +1567,10 @@
 "cassandra/cassandra-java-driver/4.19.0/apache-cassandra-java-driver-4.19.0-source.tar.gz",
 "cassandra/cassandra-java-driver/4.19.0/apache-cassandra-java-driver-4.19.0.tar.gz"
 ],
+"apache-cassandra-java-driver-4.19.1": [
+"cassandra/cassandra-java-driver/4.19.1/apache-cassandra-java-driver-4.19.1-source.tar.gz",
+"cassandra/cassandra-java-driver/4.19.1/apache-cassandra-java-driver-4.19.1.tar.gz"
+],
 "apache-cassandra-sidecar-0.2.0": [
 "cassandra/cassandra-sidecar/0.2.0/apache-cassandra-sidecar-0.2.0-src.tar.gz",
 "cassandra/cassandra-sidecar/0.2.0/apache-cassandra-sidecar-0.2.0.tar.gz"
@@ -1875,9 +1879,9 @@
 "commons/numbers/source/commons-numbers-1.2-src.tar.gz",
 "commons/numbers/source/commons-numbers-1.2-src.zip"
 ],
-"commons-parent-89": [
-"commons/parent/source/commons-parent-89-src.tar.gz",
-"commons/parent/source/commons-parent-89-src.zip"
+"commons-parent-90": [
+"commons/parent/source/commons-parent-90-src.tar.gz",
+"commons/parent/source/commons-parent-90-src.zip"
 ],
 "commons-pool2-2.12.1": [
 "commons/pool/source/commons-pool2-2.12.1-src.tar.gz",
@@ -3378,6 +3382,9 @@
 ],
 "apache-fineract-1.12.1": [
 "fineract/1.12.1/apache-fineract-1.12.1-src.tar.gz"
+],
+"apache-fineract-1.13.0": [
+"fineract/1.13.0/apache-fineract-src-1.13.0.tar.gz"
 ]
 },
 "flagon": {
@@ -3793,17 +3800,6 @@
 ],
 "fluo-yarn-1.0.0": [
 "fluo/fluo-yarn/1.0.0/fluo-yarn-1.0.0-source-release.tar.gz"
-]
-},
-"fory": {
-"apache-fory-0.12.0": [
-"fory/0.12.0/apache-fory-0.12.0-src.tar.gz"
-],
-"apache-fory-0.12.1": [
-"fory/0.12.1/apache-fory-0.12.1-src.tar.gz"
-],
-"apache-fory-0.12.3": [
-"fory/0.12.3/apache-fory-0.12.3-src.tar.gz"
 ]
 },
 "freemarker": {
@@ -4807,19 +4803,6 @@
 "incubator-fluss": {
 "fluss-shaded-1.0-incubating": [
 "incubator/fluss/fluss-shaded-1.0-incubating/fluss-shaded-1.0-incubating-src.tgz"
-]
-},
-"incubator-fory": {
-"apache-fory-0.11.1-incubating": [
-"incubator/fory/0.11.1/apache-fory-0.11.1-incubating-src.tar.gz"
-],
-"apache-fory-0.11.2-incubating": [
-"incubator/fory/0.11.2/apache-fory-0.11.2-incubating-src.tar.gz"
-]
-},
-"incubator-fury": {
-"apache-fury-0.10.3-incubating": [
-"incubator/fury/0.10.3/apache-fury-0.10.3-incubating-src.tar.gz"
 ]
 },
 "incubator-gluten": {
@@ -7490,6 +7473,9 @@
 "meecrowave-1.2.15": [
 "openwebbeans/meecrowave/1.2.15/meecrowave-1.2.15-source-release.zip"
 ],
+"meecrowave-2.0.0": [
+"openwebbeans/meecrowave/2.0.0/meecrowave-2.0.0-source-release.zip"
+],
 "openwebbeans-1.2.8": [
 "openwebbeans/1.2.8/openwebbeans-1.2.8-source-release.zip"
 ],
@@ -7771,6 +7757,9 @@
 ],
 "apache-pekko-grpc-1.1.1-20241106": [
 "pekko/GRPC-1.1.1/apache-pekko-grpc-1.1.1-src-20241106.tgz"
+],
+"apache-pekko-grpc-1.2.0-20251018": [
+"pekko/GRPC-1.2.0/apache-pekko-grpc-1.2.0-src-20251018.tgz"
 ],
 "apache-pekko-http-1.2.0-20250510": [
 "pekko/HTTP-1.2.0/apache-pekko-http-1.2.0-src-20250510.tgz"
@@ -9243,8 +9232,8 @@
 "org.apache.sling.engine-3.0.0": [
 "sling/org.apache.sling.engine-3.0.0-source-release.zip"
 ],
-"org.apache.sling.event-4.3.18": [
-"sling/org.apache.sling.event-4.3.18-source-release.zip"
+"org.apache.sling.event-4.4.0": [
+"sling/org.apache.sling.event-4.4.0-source-release.zip"
 ],
 "org.apache.sling.event.api-1.0.4": [
 "sling/org.apache.sling.event.api-1.0.4-source-release.zip"
@@ -10767,6 +10756,9 @@
 ]
 },
 "tvm": {
+"apache-tvm-ffi-v0.1.0": [
+"tvm/tvm-ffi-v0.1.0/apache-tvm-ffi-src-v0.1.0.tar.gz"
+],
 "apache-tvm-v0.10.0": [
 "tvm/tvm-v0.10.0/apache-tvm-src-v0.10.0.tar.gz"
 ],
