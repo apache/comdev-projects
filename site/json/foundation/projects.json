@@ -1111,9 +1111,9 @@
 "programming-language": "C, C++, C#, Go, Java, JavaScript, Julia, MATLAB, Python, R, Ruby, Rust",
 "release": [
 {
-"created": "2025-07-17",
+"created": "2025-10-24",
 "name": "Apache Arrow",
-"revision": "21.0.0"
+"revision": "22.0.0"
 }
 ],
 "repository": [
@@ -3431,6 +3431,67 @@
 "https://git-wip-us.apache.org/repos/asf/polygene-java.git"
 ],
 "shortdesc": "Apache Polygene is a community based effort exploring Composite Oriented Programming for domain centric application development."
+},
+"attic-portals": {
+"bug-database": "http://portals.apache.org/issue-tracking.html",
+"category": "web-framework, retired",
+"created": "2004-02-18",
+"description": "The Apache Portals project provides various software products, including Apache Jetspeed-2, Apache Pluto, and Apache Portals Applications.",
+"doap": "http://svn.apache.org/repos/asf/portals/doap_portals.rdf",
+"download-page": "http://www.apache.org/dyn/closer.cgi/portals",
+"homepage": "http://portals.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://portals.apache.org/mail-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:general@portals.apache.org",
+"name": "Apache Portals PMC"
+}
+],
+"name": "Apache Portals",
+"pmc": "attic",
+"programming-language": "Java",
+"release": [
+{
+"created": "2011-10-10",
+"name": "Apache Jetspeed-2 2.2.2",
+"revision": "2.2.2"
+},
+{
+"created": "2011-09-26",
+"name": "Apache Pluto 2.0.3",
+"revision": "2.0.3"
+},
+{
+"created": "2011-09-26",
+"name": "Apache Portals Applications 1.2",
+"revision": "1.2"
+},
+{
+"created": "2007-12-28",
+"name": "Apache Portals Bridges 1.0.4",
+"revision": "1.0.4"
+},
+{
+"created": "2010-04-18",
+"name": "Apache Portals Bridges Common 2.0",
+"revision": "2.0"
+},
+{
+"created": "2010-04-18",
+"name": "Apache Portals Bridges Velocity 2.0",
+"revision": "2.0"
+},
+{
+"created": "2011-09-19",
+"name": "Apache Portals Bridges Script 2.0",
+"revision": "2.0"
+}
+],
+"repository": [
+"http://svn.apache.org/repos/asf/portals"
+],
+"shortdesc": "Apache Portals software provides a robust, full-featured, commercial-quality, and freely available Portal related software on a wide variety of platforms and programming languages."
 },
 "attic-predictionio": {
 "bug-database": "https://issues.apache.org/jira/browse/PIO",
@@ -16807,67 +16868,6 @@
 "http://svn.apache.org/repos/asf/xmlbeans/trunk/"
 ],
 "shortdesc": "XMLBeans is a technology for accessing XML by binding it to Java types. XMLBeans provides several\n            ways to get at the XML: strong XMLSchema typed model, cursor API, streaming (SAX, Stax) and DOM. XMLBeans\n            covers 100% XMLSchema support while giving access to full infoset of documents.\n        "
-},
-"portals": {
-"bug-database": "http://portals.apache.org/issue-tracking.html",
-"category": "web-framework, retired",
-"created": "2004-02-18",
-"description": "The Apache Portals project provides various software products, including Apache Jetspeed-2, Apache Pluto, and Apache Portals Applications.",
-"doap": "http://svn.apache.org/repos/asf/portals/doap_portals.rdf",
-"download-page": "http://www.apache.org/dyn/closer.cgi/portals",
-"homepage": "http://portals.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://portals.apache.org/mail-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:general@portals.apache.org",
-"name": "Apache Portals PMC"
-}
-],
-"name": "Apache Portals",
-"pmc": "attic",
-"programming-language": "Java",
-"release": [
-{
-"created": "2011-10-10",
-"name": "Apache Jetspeed-2 2.2.2",
-"revision": "2.2.2"
-},
-{
-"created": "2011-09-26",
-"name": "Apache Pluto 2.0.3",
-"revision": "2.0.3"
-},
-{
-"created": "2011-09-26",
-"name": "Apache Portals Applications 1.2",
-"revision": "1.2"
-},
-{
-"created": "2007-12-28",
-"name": "Apache Portals Bridges 1.0.4",
-"revision": "1.0.4"
-},
-{
-"created": "2010-04-18",
-"name": "Apache Portals Bridges Common 2.0",
-"revision": "2.0"
-},
-{
-"created": "2010-04-18",
-"name": "Apache Portals Bridges Velocity 2.0",
-"revision": "2.0"
-},
-{
-"created": "2011-09-19",
-"name": "Apache Portals Bridges Script 2.0",
-"revision": "2.0"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/portals"
-],
-"shortdesc": "Apache Portals software provides a robust, full-featured, commercial-quality, and freely available Portal related software on a wide variety of platforms and programming languages."
 },
 "pulsar": {
 "bug-database": "https://github.com/apache/pulsar/issues",
