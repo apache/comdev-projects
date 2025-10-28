@@ -119,8 +119,8 @@
 "apache-airflow-3.0.6": [
 "airflow/3.0.6/apache-airflow-3.0.6-source.tar.gz"
 ],
-"apache-airflow-3.1.0": [
-"airflow/3.1.0/apache-airflow-3.1.0-source.tar.gz"
+"apache-airflow-3.1.1": [
+"airflow/3.1.1/apache-airflow-3.1.1-source.tar.gz"
 ],
 "apache-airflow-client-2.5.0": [
 "airflow/clients/go/2.5.0/apache-airflow-client-2.5.0-source.tar.gz"
@@ -140,8 +140,8 @@
 "apache_airflow-3.0.6": [
 "airflow/3.0.6/apache_airflow-3.0.6.tar.gz"
 ],
-"apache_airflow-3.1.0": [
-"airflow/3.1.0/apache_airflow-3.1.0.tar.gz"
+"apache_airflow-3.1.1": [
+"airflow/3.1.1/apache_airflow-3.1.1.tar.gz"
 ],
 "apache_airflow_client-3.0.2": [
 "airflow/clients/python/3.0.2/apache_airflow_client-3.0.2.tar.gz"
@@ -149,8 +149,8 @@
 "apache_airflow_core-3.0.6": [
 "airflow/3.0.6/apache_airflow_core-3.0.6.tar.gz"
 ],
-"apache_airflow_core-3.1.0": [
-"airflow/3.1.0/apache_airflow_core-3.1.0.tar.gz"
+"apache_airflow_core-3.1.1": [
+"airflow/3.1.1/apache_airflow_core-3.1.1.tar.gz"
 ],
 "apache_airflow_providers_airbyte-5.2.4": [
 "airflow/providers/apache_airflow_providers_airbyte-5.2.4.tar.gz"
@@ -458,8 +458,8 @@
 "apache_airflow_task_sdk-1.0.6": [
 "airflow/task-sdk/1.0.6/apache_airflow_task_sdk-1.0.6.tar.gz"
 ],
-"apache_airflow_task_sdk-1.1.0": [
-"airflow/task-sdk/1.1.0/apache_airflow_task_sdk-1.1.0.tar.gz"
+"apache_airflow_task_sdk-1.1.1": [
+"airflow/task-sdk/1.1.1/apache_airflow_task_sdk-1.1.1.tar.gz"
 ]
 },
 "allura": {
@@ -1230,6 +1230,9 @@
 "apache-brpc-1.14.1": [
 "brpc/1.14.1/apache-brpc-1.14.1-src.tar.gz"
 ],
+"apache-brpc-1.15.0": [
+"brpc/1.15.0/apache-brpc-1.15.0-src.tar.gz"
+],
 "apache-brpc-1.2.0-incubating": [
 "brpc/1.2.0/apache-brpc-1.2.0-incubating-src.tar.gz"
 ],
@@ -1684,6 +1687,9 @@
 "apache-cloudstack-4.20.1.0": [
 "cloudstack/releases/4.20.1.0/apache-cloudstack-4.20.1.0-src.tar.bz2"
 ],
+"apache-cloudstack-4.20.2.0": [
+"cloudstack/releases/4.20.2.0/apache-cloudstack-4.20.2.0-src.tar.bz2"
+],
 "apache-cloudstack-4.21.0.0": [
 "cloudstack/releases/4.21.0.0/apache-cloudstack-4.21.0.0-src.tar.bz2"
 ],
@@ -1696,8 +1702,8 @@
 "apache-cloudstack-kubernetes-provider-1.1.0": [
 "cloudstack/releases/kubernetes-provider-1.1.0/apache-cloudstack-kubernetes-provider-1.1.0-src.tar.bz2"
 ],
-"apache-cloudstack-terraform-provider-0.5.0": [
-"cloudstack/releases/terraform-provider-0.5.0/apache-cloudstack-terraform-provider-0.5.0-src.tar.bz2"
+"apache-cloudstack-terraform-provider-0.6.0-rc4": [
+"cloudstack/releases/terraform-provider-0.6.0/apache-cloudstack-terraform-provider-0.6.0-rc4-src.tar.bz2"
 ]
 },
 "commons": {
@@ -2578,6 +2584,9 @@
 ],
 "apache-doris-3.1.1": [
 "doris/3.1/3.1.1/apache-doris-3.1.1-src.tar.gz"
+],
+"apache-doris-3.1.2": [
+"doris/3.1/3.1.2/apache-doris-3.1.2-src.tar.gz"
 ],
 "apache-doris-4.0.0-rc02": [
 "doris/4.0/4.0.0/apache-doris-4.0.0-rc02-src.tar.gz"
@@ -3806,6 +3815,11 @@
 ],
 "fluo-yarn-1.0.0": [
 "fluo/fluo-yarn/1.0.0/fluo-yarn-1.0.0-source-release.tar.gz"
+]
+},
+"fory": {
+"apache-fory-v0.13.0": [
+"fory/0.13.0/apache-fory-v0.13.0-src.tar.gz"
 ]
 },
 "freemarker": {
@@ -5244,6 +5258,9 @@
 "apache-polaris-1.1.0-incubating": [
 "incubator/polaris/1.1.0-incubating/apache-polaris-1.1.0-incubating.tar.gz"
 ],
+"apache-polaris-1.2.0-incubating": [
+"incubator/polaris/1.2.0-incubating/apache-polaris-1.2.0-incubating.tar.gz"
+],
 "polaris-1.0.0-incubating": [
 "incubator/polaris/helm-chart/1.0.0-incubating/polaris-1.0.0-incubating.tgz"
 ],
@@ -5252,6 +5269,9 @@
 ],
 "polaris-1.1.0-incubating": [
 "incubator/polaris/helm-chart/1.1.0-incubating/polaris-1.1.0-incubating.tgz"
+],
+"polaris-1.2.0-incubating": [
+"incubator/polaris/helm-chart/1.2.0-incubating/polaris-1.2.0-incubating.tgz"
 ]
 },
 "incubator-ponymail": {
@@ -8958,6 +8978,9 @@
 "skywalking-license-eye-0.7.0": [
 "skywalking/eyes/0.7.0/skywalking-license-eye-0.7.0-src.tgz"
 ],
+"skywalking-license-eye-0.8.0": [
+"skywalking/eyes/0.8.0/skywalking-license-eye-0.8.0-src.tgz"
+],
 "skywalking-nginx-lua-1.0.0": [
 "skywalking/nginx-lua/1.0.0/skywalking-nginx-lua-1.0.0-src.tgz"
 ],
@@ -9014,8 +9037,8 @@
 "org.apache.sling.auth.core-2.0.2": [
 "sling/org.apache.sling.auth.core-2.0.2-source-release.zip"
 ],
-"org.apache.sling.auth.form-1.0.24": [
-"sling/org.apache.sling.auth.form-1.0.24-source-release.zip"
+"org.apache.sling.auth.form-2.0.0": [
+"sling/org.apache.sling.auth.form-2.0.0-source-release.zip"
 ],
 "org.apache.sling.auth.oauth-client-0.1.2": [
 "sling/org.apache.sling.auth.oauth-client-0.1.2-source-release.zip"
@@ -9113,8 +9136,8 @@
 "org.apache.sling.commons.log-6.0.0": [
 "sling/org.apache.sling.commons.log-6.0.0-source-release.zip"
 ],
-"org.apache.sling.commons.log.webconsole-1.0.2": [
-"sling/org.apache.sling.commons.log.webconsole-1.0.2-source-release.zip"
+"org.apache.sling.commons.log.webconsole-2.0.0": [
+"sling/org.apache.sling.commons.log.webconsole-2.0.0-source-release.zip"
 ],
 "org.apache.sling.commons.logservice-1.1.2": [
 "sling/org.apache.sling.commons.logservice-1.1.2-source-release.zip"
@@ -9746,8 +9769,8 @@
 "org.apache.sling.starter-13": [
 "sling/org.apache.sling.starter-13-source-release.zip"
 ],
-"org.apache.sling.starter.content-2.0.0": [
-"sling/org.apache.sling.starter.content-2.0.0-source-release.zip"
+"org.apache.sling.starter.content-2.0.2": [
+"sling/org.apache.sling.starter.content-2.0.2-source-release.zip"
 ],
 "org.apache.sling.starter.startup-1.0.6": [
 "sling/org.apache.sling.starter.startup-1.0.6-source-release.zip"
