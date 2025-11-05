@@ -3876,6 +3876,42 @@
 ],
 "shortdesc": "Apache Tiles™ is a templating framework built to simplify the development of web application user interfaces."
 },
+"attic-traffic_control": {
+"bug-database": "https://github.com/apache/trafficcontrol/issues",
+"category": "content, cloud, http, network-server, retired",
+"created": "2021-05-19",
+"description": "With Apache Traffic Control, operators can setup a Content Delivery Network to quickly and efficiently deliver content to their users. Traffic Control is a highly distributed, scalable and redundant solution meeting the needs of operators from small to large.",
+"doap": "https://raw.githubusercontent.com/apache/trafficcontrol/master/doap_Traffic_Control.rdf",
+"download-page": "https://trafficcontrol.apache.org/releases/, https://github.com/apache/trafficcontrol/releases",
+"homepage": "https://trafficcontrol.apache.org",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://trafficcontrol.apache.org/mailing_lists/",
+"maintainer": [
+{
+"mbox": "mailto:dev@trafficcontrol.apache.org",
+"name": "Apache Traffic Control Team"
+}
+],
+"name": "Apache Traffic Control",
+"pmc": "attic",
+"programming-language": "Go",
+"release": [
+{
+"created": "2021-05-17",
+"name": "Apache Traffic Control v5.1.2",
+"revision": "5.1.2"
+},
+{
+"created": "2020-12-04",
+"name": "Apache Traffic Control v4.1.1",
+"revision": "4.1.1"
+}
+],
+"repository": [
+"https://github.com/apache/trafficcontrol.git"
+],
+"shortdesc": "Apache Traffic Control allows you to build a large scale content delivery network using open source."
+},
 "attic-trafodion": {
 "bug-database": "http://issues.apache.org/jira/browse/TRAFODION",
 "category": "retired, big-data",
@@ -9455,7 +9491,7 @@
 "bug-database": "http://issues.apache.org/jira/browse/DERBY",
 "category": "database",
 "created": "2006-03-29",
-"description": "Apache Derby is an open source relational database implemented entirely in Java. It has a small footprint that makes it easy to embed in any Java-based application, but it also supports the more familiar client/server mode. It is based on the Java, JDBC, and SQL standards, making code developed more portable to standards-compliant databases.",
+"description": "Apache Derby is an open source relational database implemented entirely in Java. It has a small footprint that makes it easy to embed in any Java-based application, but it also supports the more familiar client/server mode. It is based on the Java, JDBC, and SQL standards, making code developed more portable to standards-compliant databases. The developer community voted to retire the project and move it into a read-only mode as of 2025-10-10. See https://lists.apache.org/thread/q7xnvbyo818vvtyh2b5oljr8won4zjx7",
 "doap": "http://svn.apache.org/repos/asf/db/derby/site/trunk/doap_Derby.rdf",
 "download-page": "http://db.apache.org/derby/derby_downloads.html",
 "homepage": "http://db.apache.org/derby",
@@ -19681,42 +19717,6 @@
 ],
 "shortdesc": "Apache TomEE is an all-Apache Java EE 6 Web Profile stack for Apache Tomcat",
 "vendor": "The Apache Software Foundation"
-},
-"trafficcontrol-traffic_control": {
-"bug-database": "https://github.com/apache/trafficcontrol/issues",
-"category": "content, cloud, http, network-server, retired",
-"created": "2021-05-19",
-"description": "With Apache Traffic Control, operators can setup a Content Delivery Network to quickly and efficiently deliver content to their users. Traffic Control is a highly distributed, scalable and redundant solution meeting the needs of operators from small to large.",
-"doap": "https://raw.githubusercontent.com/apache/trafficcontrol/master/doap_Traffic_Control.rdf",
-"download-page": "https://trafficcontrol.apache.org/releases/, https://github.com/apache/trafficcontrol/releases",
-"homepage": "https://trafficcontrol.apache.org",
-"license": "https://spdx.org/licenses/Apache-2.0",
-"mailing-list": "https://trafficcontrol.apache.org/mailing_lists/",
-"maintainer": [
-{
-"mbox": "mailto:dev@trafficcontrol.apache.org",
-"name": "Apache Traffic Control Team"
-}
-],
-"name": "Apache Traffic Control",
-"pmc": "attic",
-"programming-language": "Go",
-"release": [
-{
-"created": "2021-05-17",
-"name": "Apache Traffic Control v5.1.2",
-"revision": "5.1.2"
-},
-{
-"created": "2020-12-04",
-"name": "Apache Traffic Control v4.1.1",
-"revision": "4.1.1"
-}
-],
-"repository": [
-"https://github.com/apache/trafficcontrol.git"
-],
-"shortdesc": "Apache Traffic Control allows you to build a large scale content delivery network using open source."
 },
 "trafficserver-traffic_server": {
 "bug-database": "https://github.com/apache/trafficserver/issues",
