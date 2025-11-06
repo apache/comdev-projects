@@ -114,6 +114,9 @@
 "apache-airflow-3.1.1": [
 "airflow/3.1.1/apache-airflow-3.1.1-source.tar.gz"
 ],
+"apache-airflow-3.1.2": [
+"airflow/3.1.2/apache-airflow-3.1.2-source.tar.gz"
+],
 "apache-airflow-client-2.5.0": [
 "airflow/clients/go/2.5.0/apache-airflow-client-2.5.0-source.tar.gz"
 ],
@@ -135,6 +138,9 @@
 "apache_airflow-3.1.1": [
 "airflow/3.1.1/apache_airflow-3.1.1.tar.gz"
 ],
+"apache_airflow-3.1.2": [
+"airflow/3.1.2/apache_airflow-3.1.2.tar.gz"
+],
 "apache_airflow_client-3.1.0": [
 "airflow/clients/python/3.1.0/apache_airflow_client-3.1.0.tar.gz"
 ],
@@ -143,6 +149,9 @@
 ],
 "apache_airflow_core-3.1.1": [
 "airflow/3.1.1/apache_airflow_core-3.1.1.tar.gz"
+],
+"apache_airflow_core-3.1.2": [
+"airflow/3.1.2/apache_airflow_core-3.1.2.tar.gz"
 ],
 "apache_airflow_providers_airbyte-5.2.4": [
 "airflow/providers/apache_airflow_providers_airbyte-5.2.4.tar.gz"
@@ -452,6 +461,9 @@
 ],
 "apache_airflow_task_sdk-1.1.1": [
 "airflow/task-sdk/1.1.1/apache_airflow_task_sdk-1.1.1.tar.gz"
+],
+"apache_airflow_task_sdk-1.1.2": [
+"airflow/task-sdk/1.1.2/apache_airflow_task_sdk-1.1.2.tar.gz"
 ]
 },
 "allura": {
@@ -521,6 +533,9 @@
 ],
 "apache-answer-1.6.0": [
 "answer/1.6.0/apache-answer-1.6.0-src.tar.gz"
+],
+"apache-answer-1.7.0": [
+"answer/1.7.0/apache-answer-1.7.0-src.tar.gz"
 ]
 },
 "ant": {
@@ -1350,6 +1365,9 @@
 "apache-camel-4.15.0": [
 "camel/apache-camel/4.15.0/apache-camel-4.15.0-src.zip"
 ],
+"apache-camel-4.16.0": [
+"camel/apache-camel/4.16.0/apache-camel-4.16.0-src.zip"
+],
 "apache-camel-4.8.9": [
 "camel/apache-camel/4.8.9/apache-camel-4.8.9-src.zip"
 ],
@@ -1685,6 +1703,9 @@
 "apache-cloudstack-4.21.0.0": [
 "cloudstack/releases/4.21.0.0/apache-cloudstack-4.21.0.0-src.tar.bz2"
 ],
+"apache-cloudstack-4.22.0.0": [
+"cloudstack/releases/4.22.0.0/apache-cloudstack-4.22.0.0-src.tar.bz2"
+],
 "apache-cloudstack-cloudmonkey-6.5.0": [
 "cloudstack/releases/cloudmonkey-6.5.0/apache-cloudstack-cloudmonkey-6.5.0-src.tar.bz2"
 ],
@@ -1730,9 +1751,9 @@
 "commons/cli/source/commons-cli-1.10.0-src.tar.gz",
 "commons/cli/source/commons-cli-1.10.0-src.zip"
 ],
-"commons-codec-1.19.0": [
-"commons/codec/source/commons-codec-1.19.0-src.tar.gz",
-"commons/codec/source/commons-codec-1.19.0-src.zip"
+"commons-codec-1.20.0": [
+"commons/codec/source/commons-codec-1.20.0-src.tar.gz",
+"commons/codec/source/commons-codec-1.20.0-src.zip"
 ],
 "commons-collections4-4.5.0": [
 "commons/collections/source/commons-collections4-4.5.0-src.tar.gz",
@@ -1974,8 +1995,8 @@
 "cordova-js-6.1.0": [
 "cordova/tools/cordova-js-6.1.0.tgz"
 ],
-"cordova-lib-12.0.2": [
-"cordova/tools/cordova-lib-12.0.2.tgz"
+"cordova-lib-13.0.0": [
+"cordova/tools/cordova-lib-13.0.0.tgz"
 ],
 "cordova-osx-7.0.0": [
 "cordova/platforms/cordova-osx-7.0.0.tgz"
@@ -2783,6 +2804,9 @@
 ],
 "apache-druid-34.0.0": [
 "druid/34.0.0/apache-druid-34.0.0-src.tar.gz"
+],
+"apache-druid-35.0.0": [
+"druid/35.0.0/apache-druid-35.0.0-src.tar.gz"
 ]
 },
 "dubbo": {
@@ -7974,138 +7998,6 @@
 "poi/xmlbeans/release/src/apache-xmlbeans-src-5.3.0-20241203.zip"
 ]
 },
-"portals": {
-"apa-dbbrowser-1.2": [
-"portals/applications/sources/apa-dbbrowser-1.2-source-release.zip"
-],
-"apa-demo-1.2": [
-"portals/applications/sources/apa-demo-1.2-source-release.zip"
-],
-"apa-demo-1.3": [
-"portals/applications/sources/apa-demo-1.3-source-release.zip"
-],
-"apa-gems-1.1": [
-"portals/applications/sources/apa-gems-1.1-source-release.zip"
-],
-"apa-gems-1.2": [
-"portals/applications/sources/apa-gems-1.2-source-release.zip"
-],
-"apa-logging-1.0": [
-"portals/applications/sources/apa-logging-1.0-project.tar.bz2",
-"portals/applications/sources/apa-logging-1.0-project.tar.gz",
-"portals/applications/sources/apa-logging-1.0-project.zip"
-],
-"apa-logging-1.1": [
-"portals/applications/sources/apa-logging-1.1-source-release.zip"
-],
-"apa-rss-1.2": [
-"portals/applications/sources/apa-rss-1.2-source-release.zip"
-],
-"apa-rss-1.3": [
-"portals/applications/sources/apa-rss-1.3-source-release.zip"
-],
-"apa-webcontent-1.3": [
-"portals/applications/sources/apa-webcontent-1.3-source-release.zip"
-],
-"apa-webcontent2-2.0": [
-"portals/applications/sources/apa-webcontent2-2.0-source-release.zip"
-],
-"applications-pom-1.3": [
-"portals/applications-pom/sources/applications-pom-1.3-source-release.zip"
-],
-"bridges-pom-1.1": [
-"portals/bridges-pom/sources/bridges-pom-1.1-source-release.zip"
-],
-"j2-admin-2.2.2": [
-"portals/jetspeed-2/sources/j2-admin-2.2.2-source-release.zip"
-],
-"j2-admin-2.3.0": [
-"portals/jetspeed-2/sources/j2-admin-2.3.0-source-release.zip"
-],
-"j2-admin-2.3.1": [
-"portals/jetspeed-2/sources/j2-admin-2.3.1-source-release.zip"
-],
-"jetspeed-2-2.1.4": [
-"portals/jetspeed-2/sources/jetspeed-2-2.1.4-source-release.zip"
-],
-"jetspeed-2-2.2.2": [
-"portals/jetspeed-2/sources/jetspeed-2-2.2.2-source-release.zip"
-],
-"jetspeed-2-2.3.0": [
-"portals/jetspeed-2/sources/jetspeed-2-2.3.0-source-release.zip"
-],
-"jetspeed-2-2.3.1": [
-"portals/jetspeed-2/sources/jetspeed-2-2.3.1-source-release.zip"
-],
-"pluto-2.0.3": [
-"portals/pluto/pluto-2.0.3-source-release.zip"
-],
-"pluto-2.1.0-M3": [
-"portals/pluto/pluto-2.1.0-M3-source-release.zip"
-],
-"pluto-3.0.0": [
-"portals/pluto/pluto-3.0.0-source-release.zip"
-],
-"pluto-3.0.1": [
-"portals/pluto/pluto-3.0.1-source-release.zip"
-],
-"pluto-3.1.0": [
-"portals/pluto/pluto-3.1.0-source-release.zip"
-],
-"pluto-3.1.1": [
-"portals/pluto/pluto-3.1.1-source-release.zip"
-],
-"pluto-3.1.2": [
-"portals/pluto/pluto-3.1.2-source-release.zip"
-],
-"pluto-bundle-3.0.0": [
-"portals/pluto/pluto-bundle-3.0.0.zip"
-],
-"pluto-bundle-3.0.1": [
-"portals/pluto/pluto-bundle-3.0.1.zip"
-],
-"pluto-bundle-3.1.0": [
-"portals/pluto/pluto-bundle-3.1.0.zip"
-],
-"pluto-bundle-3.1.1": [
-"portals/pluto/pluto-bundle-3.1.1.zip"
-],
-"pluto-bundle-3.1.2": [
-"portals/pluto/pluto-bundle-3.1.2.zip"
-],
-"portals-bridges-1.0.4": [
-"portals/bridges/portals-bridges-1.0.4-src.tar.bz2",
-"portals/bridges/portals-bridges-1.0.4-src.tar.gz",
-"portals/bridges/portals-bridges-1.0.4-src.zip",
-"portals/bridges/portals-bridges-1.0.4.tar.bz2",
-"portals/bridges/portals-bridges-1.0.4.tar.gz",
-"portals/bridges/portals-bridges-1.0.4.zip"
-],
-"portals-bridges-common-2.0": [
-"portals/bridges/portals-bridges-common-2.0-source-release.zip"
-],
-"portals-bridges-common-2.1": [
-"portals/bridges/sources/portals-bridges-common-2.1-source-release.zip"
-],
-"portals-bridges-jsf-1.1": [
-"portals/bridges/sources/portals-bridges-jsf-1.1-source-release.zip"
-],
-"portals-bridges-script-2.0": [
-"portals/bridges/portals-bridges-script-2.0-source-release.zip"
-],
-"portals-bridges-velocity-2.0": [
-"portals/bridges/portals-bridges-velocity-2.0-source-release.zip"
-],
-"portals-bridges-velocity-2.1": [
-"portals/bridges/sources/portals-bridges-velocity-2.1-source-release.zip"
-],
-"portals-pom-1.4": [
-"portals/portals-pom/sources/portals-pom-1.4-source-release.zip"
-],
-"portlet-api_2.1.0_spec-1.0": [
-"portals/portlet-api/sources/portlet-api_2.1.0_spec-1.0-source-release.zip"
-]
-},
 "pulsar": {
 "APKINDEX": [
 "pulsar/pulsar-client-cpp-3.7.2/apk-arm64/aarch64/APKINDEX.tar.gz",
@@ -8920,6 +8812,9 @@
 ],
 "shiro-root-2.0.5": [
 "shiro/2.0.5/shiro-root-2.0.5-source-release.zip"
+],
+"shiro-root-2.0.6": [
+"shiro/2.0.6/shiro-root-2.0.6-source-release.zip"
 ]
 },
 "singa": {
@@ -10123,6 +10018,9 @@
 ],
 "apache-streampark-2.1.6": [
 "streampark/2.1.6/apache-streampark-2.1.6-src.tar.gz"
+],
+"apache-streampark-2.1.7": [
+"streampark/2.1.7/apache-streampark-2.1.7-src.tar.gz"
 ]
 },
 "streampipes": {
