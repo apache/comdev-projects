@@ -1476,8 +1476,14 @@
 "camel-kamelets-sources-4.14.1": [
 "camel/camel-kamelets/4.14.1/camel-kamelets-sources-4.14.1.tar.gz"
 ],
+"camel-kamelets-sources-4.14.2": [
+"camel/camel-kamelets/4.14.2/camel-kamelets-sources-4.14.2.tar.gz"
+],
 "camel-kamelets-sources-4.15.0": [
 "camel/camel-kamelets/4.15.0/camel-kamelets-sources-4.15.0.tar.gz"
+],
+"camel-kamelets-sources-4.16.0": [
+"camel/camel-kamelets/4.16.0/camel-kamelets-sources-4.16.0.tar.gz"
 ],
 "camel-kamelets-sources-4.8.5": [
 "camel/camel-kamelets/4.8.5/camel-kamelets-sources-4.8.5.tar.gz"
@@ -1904,9 +1910,9 @@
 "commons/numbers/source/commons-numbers-1.2-src.tar.gz",
 "commons/numbers/source/commons-numbers-1.2-src.zip"
 ],
-"commons-parent-91": [
-"commons/parent/source/commons-parent-91-src.tar.gz",
-"commons/parent/source/commons-parent-91-src.zip"
+"commons-parent-92": [
+"commons/parent/source/commons-parent-92-src.tar.gz",
+"commons/parent/source/commons-parent-92-src.zip"
 ],
 "commons-pool2-2.12.1": [
 "commons/pool/source/commons-pool2-2.12.1-src.tar.gz",
@@ -2123,20 +2129,14 @@
 "apache-couchdb-3.3.3": [
 "couchdb/source/3.3.3/apache-couchdb-3.3.3.tar.gz"
 ],
-"apache-couchdb-3.4.0": [
-"couchdb/source/3.4.0/apache-couchdb-3.4.0.tar.gz"
-],
-"apache-couchdb-3.4.1": [
-"couchdb/source/3.4.1/apache-couchdb-3.4.1.tar.gz"
-],
-"apache-couchdb-3.4.2": [
-"couchdb/source/3.4.2/apache-couchdb-3.4.2.tar.gz"
-],
 "apache-couchdb-3.4.3": [
 "couchdb/source/3.4.3/apache-couchdb-3.4.3.tar.gz"
 ],
 "apache-couchdb-3.5.0": [
 "couchdb/source/3.5.0/apache-couchdb-3.5.0.tar.gz"
+],
+"apache-couchdb-3.5.1": [
+"couchdb/source/3.5.1/apache-couchdb-3.5.1.tar.gz"
 ]
 },
 "creadur": {
@@ -4041,14 +4041,14 @@
 ]
 },
 "grails": {
-"apache-grails-7.0.0": [
-"grails/core/7.0.0/sources/apache-grails-7.0.0-src.zip"
-],
 "apache-grails-7.0.0-RC2-incubating": [
 "grails/core/7.0.0-RC2/sources/apache-grails-7.0.0-RC2-incubating-src.zip"
 ],
 "apache-grails-7.0.1": [
 "grails/core/7.0.1/sources/apache-grails-7.0.1-src.zip"
+],
+"apache-grails-7.0.2": [
+"grails/core/7.0.2/sources/apache-grails-7.0.2-src.zip"
 ],
 "apache-grails-github-actions-1.0.1": [
 "grails/actions/1.0.1/sources/apache-grails-github-actions-1.0.1-src.zip"
@@ -7179,6 +7179,9 @@
 "netbeans-27": [
 "netbeans/netbeans/27/netbeans-27-source.zip"
 ],
+"netbeans-28": [
+"netbeans/netbeans/28/netbeans-28-source.zip"
+],
 "netbeans-archetype-parent-1.0.0": [
 "netbeans/netbeans-maven-archetypes/netbeans-archetype/netbeans-archetype-1.0.0/netbeans-archetype-parent-1.0.0-source-release.zip"
 ],
@@ -7211,8 +7214,8 @@
 "nifi-2.6.0": [
 "nifi/2.6.0/nifi-2.6.0-source-release.zip"
 ],
-"nifi-api-2.4.0": [
-"nifi/nifi-api-2.4.0/nifi-api-2.4.0-source-release.zip"
+"nifi-api-2.5.0": [
+"nifi/nifi-api-2.5.0/nifi-api-2.5.0-source-release.zip"
 ],
 "nifi-fds-0.3.0": [
 "nifi/nifi-fds/nifi-fds-0.3.0/nifi-fds-0.3.0-source-release.zip"
@@ -7379,6 +7382,9 @@
 ],
 "apache-ofbiz-24.09.02": [
 "ofbiz/apache-ofbiz-24.09.02.zip"
+],
+"apache-ofbiz-24.09.03": [
+"ofbiz/apache-ofbiz-24.09.03.zip"
 ]
 },
 "olingo": {
@@ -7586,6 +7592,11 @@
 "openoffice/4.1.15/source/apache-openoffice-4.1.15-5f13fa0070-src.tar.bz2",
 "openoffice/4.1.15/source/apache-openoffice-4.1.15-5f13fa0070-src.tar.gz",
 "openoffice/4.1.15/source/apache-openoffice-4.1.15-5f13fa0070-src.zip"
+],
+"apache-openoffice-4.1.16-277251aa7e": [
+"openoffice/4.1.16/source/apache-openoffice-4.1.16-277251aa7e-src.tar.bz2",
+"openoffice/4.1.16/source/apache-openoffice-4.1.16-277251aa7e-src.tar.gz",
+"openoffice/4.1.16/source/apache-openoffice-4.1.16-277251aa7e-src.zip"
 ]
 },
 "openwebbeans": {
@@ -9717,8 +9728,8 @@
 "org.apache.sling.servlets.resolver-3.0.0": [
 "sling/org.apache.sling.servlets.resolver-3.0.0-source-release.zip"
 ],
-"org.apache.sling.settings-1.4.2": [
-"sling/org.apache.sling.settings-1.4.2-source-release.zip"
+"org.apache.sling.settings-1.5.0": [
+"sling/org.apache.sling.settings-1.5.0-source-release.zip"
 ],
 "org.apache.sling.sitemap-1.0.6": [
 "sling/org.apache.sling.sitemap-1.0.6-source-release.zip"
@@ -10337,17 +10348,21 @@
 ]
 },
 "tomcat": {
-"apache-tomcat-10.1.48": [
-"tomcat/tomcat-10/v10.1.48/src/apache-tomcat-10.1.48-src.tar.gz",
-"tomcat/tomcat-10/v10.1.48/src/apache-tomcat-10.1.48-src.zip"
+"apache-tomcat-10.1.49": [
+"tomcat/tomcat-10/v10.1.49/src/apache-tomcat-10.1.49-src.tar.gz",
+"tomcat/tomcat-10/v10.1.49/src/apache-tomcat-10.1.49-src.zip"
 ],
-"apache-tomcat-11.0.13": [
-"tomcat/tomcat-11/v11.0.13/src/apache-tomcat-11.0.13-src.tar.gz",
-"tomcat/tomcat-11/v11.0.13/src/apache-tomcat-11.0.13-src.zip"
+"apache-tomcat-11.0.14": [
+"tomcat/tomcat-11/v11.0.14/src/apache-tomcat-11.0.14-src.tar.gz",
+"tomcat/tomcat-11/v11.0.14/src/apache-tomcat-11.0.14-src.zip"
 ],
 "apache-tomcat-9.0.111": [
 "tomcat/tomcat-9/v9.0.111/src/apache-tomcat-9.0.111-src.tar.gz",
 "tomcat/tomcat-9/v9.0.111/src/apache-tomcat-9.0.111-src.zip"
+],
+"apache-tomcat-9.0.112": [
+"tomcat/tomcat-9/v9.0.112/src/apache-tomcat-9.0.112-src.tar.gz",
+"tomcat/tomcat-9/v9.0.112/src/apache-tomcat-9.0.112-src.zip"
 ],
 "jakartaee-migration-1.0.9": [
 "tomcat/jakartaee-migration/v1.0.9/source/jakartaee-migration-1.0.9-src.tar.gz",
@@ -10940,6 +10955,9 @@
 "unomi-2.7.0": [
 "unomi/2.7.0/unomi-2.7.0-src.zip"
 ],
+"unomi-3.0.0": [
+"unomi/3.0.0/unomi-3.0.0-src.zip"
+],
 "unomi-manual-1_5_x": [
 "unomi/1.5.4/unomi-manual-1_5_x.zip",
 "unomi/1.5.5/unomi-manual-1_5_x.zip",
@@ -10978,6 +10996,9 @@
 ],
 "unomi-manual-2_7_x": [
 "unomi/2.7.0/unomi-manual-2_7_x.zip"
+],
+"unomi-manual-3_0_x": [
+"unomi/3.0.0/unomi-manual-3_0_x.zip"
 ],
 "unomi-tracker-1.0.0": [
 "unomi/unomi-tracker/1.0.0/unomi-tracker-1.0.0.tar.gz"
