@@ -560,7 +560,7 @@ function sortProjects() {
     var projectsSortedX = [];
     var projectsSorted = [];
     for (i in projects) {
-        projectsSortedX.push([i, projects[i].name.toLowerCase()]);
+        projectsSortedX.push([i, compress_spaces(projects[i].name.toLowerCase())]);
     }
     // compare names (already lower-cased)
     projectsSortedX.sort(function(a,b) { return a[1] > b[1] ? 1 : a[1] < b[1] ? -1 : 0 })
@@ -847,6 +847,10 @@ function buildProjectsList() {
     obj.innerHTML = "<h1>Projects by " + type[0] + ":</h1>"
 
     preloadEverything(type[1]);
+}
+
+function compress_spaces(s) {
+    return s.replace(/ +/g, ' ');
 }
 
 function sortCommittees() {
