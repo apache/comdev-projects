@@ -9404,8 +9404,6 @@
 "incubator-pmc",
 "iotdb",
 "iotdb-pmc",
-"kibble",
-"kibble-pmc",
 "mahout",
 "plc4x",
 "plc4x-pmc",
@@ -23430,8 +23428,6 @@
 "attic-pmc",
 "comdev",
 "comdev-pmc",
-"kibble",
-"kibble-pmc",
 "maven",
 "maven-pmc"
 ],
@@ -24948,8 +24944,6 @@
 "httpd-pmc",
 "incubator",
 "incubator-pmc",
-"kibble",
-"kibble-pmc",
 "logodev",
 "logodev-pmc",
 "netbeans",
@@ -33531,8 +33525,7 @@
 "groups": [
 "airflow",
 "airflow-pmc",
-"incubator",
-"kibble"
+"incubator"
 ],
 "member": true,
 "name": "Kaxil Naik"
@@ -33732,8 +33725,6 @@
 "incubator",
 "incubator-pmc",
 "inlong",
-"kibble",
-"kibble-pmc",
 "petri",
 "petri-pmc"
 ],
@@ -38228,8 +38219,6 @@
 "hadoop",
 "incubator",
 "incubator-pmc",
-"kibble",
-"kibble-pmc",
 "knox",
 "knox-pmc",
 "livy",
@@ -39743,7 +39732,8 @@
 },
 "maple": {
 "groups": [
-"incubator"
+"incubator",
+"seata"
 ],
 "member": false,
 "name": "Shengkai Gao"
@@ -40262,8 +40252,6 @@
 },
 "martinkl": {
 "groups": [
-"avro",
-"avro-pmc",
 "incubator",
 "samza",
 "samza-pmc"
@@ -40962,7 +40950,8 @@
 },
 "mbathori": {
 "groups": [
-"nifi"
+"nifi",
+"nifi-pmc"
 ],
 "member": false,
 "name": "Mark Bathori"
@@ -42295,14 +42284,6 @@
 ],
 "member": false,
 "name": "Michael S. Molina"
-},
-"michalslowikowski": {
-"groups": [
-"kibble",
-"kibble-pmc"
-],
-"member": false,
-"name": "Michał Słowikowski"
 },
 "michel": {
 "groups": [
@@ -48846,14 +48827,6 @@
 "member": false,
 "name": "Phil"
 },
-"philz": {
-"groups": [
-"avro",
-"avro-pmc"
-],
-"member": false,
-"name": "Philip Zeyliger"
-},
 "phred": {
 "groups": [
 "perl",
@@ -49437,14 +49410,6 @@
 ],
 "member": false,
 "name": "Paul Libbrecht"
-},
-"pono": {
-"groups": [
-"kibble",
-"kibble-pmc"
-],
-"member": true,
-"name": "Daniel Takamori"
 },
 "pooja": {
 "groups": [
@@ -50852,9 +50817,7 @@
 "rafael": {
 "groups": [
 "cloudstack",
-"cloudstack-pmc",
-"kibble",
-"kibble-pmc"
+"cloudstack-pmc"
 ],
 "member": false,
 "name": "Rafael Weingärtner"
@@ -51616,8 +51579,6 @@
 "httpd",
 "httpd-pmc",
 "incubator",
-"kibble",
-"kibble-pmc",
 "ponymail",
 "steve",
 "steve-pmc",
@@ -52149,7 +52110,8 @@
 },
 "rfellows": {
 "groups": [
-"nifi"
+"nifi",
+"nifi-pmc"
 ],
 "member": false,
 "name": "Rob Fellows"
@@ -55314,8 +55276,6 @@
 "sbp": {
 "groups": [
 "incubator",
-"kibble",
-"kibble-pmc",
 "ponymail",
 "steve"
 ],
@@ -56590,8 +56550,6 @@
 "comdev",
 "comdev-pmc",
 "incubator",
-"kibble",
-"kibble-pmc",
 "ofbiz",
 "ofbiz-pmc",
 "training"
@@ -57786,13 +57744,6 @@
 ],
 "member": false,
 "name": "Seth Wiesman"
-},
-"sk": {
-"groups": [
-"kibble"
-],
-"member": true,
-"name": "Sally Khudairi"
 },
 "sk0x50": {
 "groups": [
@@ -63585,9 +63536,7 @@
 "groups": [
 "airflow",
 "airflow-pmc",
-"comdev",
-"kibble",
-"kibble-pmc"
+"comdev"
 ],
 "member": false,
 "name": "Tomasz Urbaszek"
@@ -63880,8 +63829,6 @@
 "ucb": {
 "groups": [
 "incubator",
-"kibble",
-"kibble-pmc",
 "ponymail"
 ],
 "member": false,
