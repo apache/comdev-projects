@@ -2211,6 +2211,41 @@
 ],
 "shortdesc": "The Apache Gora open source framework provides an in-memory data model and \n         persistence for big data. Gora supports persisting to column stores, key value stores, \n         document stores, distributed in-memory key/value stores, in-memory data grids, in-memory caches,\n        distributed multi-model stores, and hybrid in-memory architectures."
 },
+"attic-griffin": {
+"bug-database": "https://issues.apache.org/jira/browse/GRIFFIN",
+"category": "retired, content",
+"created": "2018-11-21",
+"description": "Big Data Quality Solution For Batch and Streaming.",
+"doap": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/griffin.rdf",
+"download-page": "https://griffin.apache.org/docs/latest.html",
+"homepage": "http://griffin.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "https://griffin.apache.org/docs/community.html",
+"name": "Apache Griffin",
+"pmc": "attic",
+"programming-language": "Java",
+"release": [
+{
+"created": "2020-11-12",
+"name": "Griffin 0.6.0",
+"revision": "0.6.0"
+},
+{
+"created": "2019-04-09",
+"name": "Griffin 0.5.0",
+"revision": "0.5.0"
+},
+{
+"created": "2019-01-05",
+"name": "Griffin 0.4.0",
+"revision": "0.4.0"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf/griffin.git"
+],
+"shortdesc": "Big Data Quality Solution For Batch and Streaming."
+},
 "attic-hama": {
 "bug-database": "https://issues.apache.org/jira/browse/HAMA",
 "category": "retired, big-data",
@@ -9466,45 +9501,6 @@
 ],
 "shortdesc": "A library of production quality streaming algorithms with platform plugins for real-time analysis of big data in Java, C++, Python, and Go."
 },
-"db-_jdo": {
-"bug-database": "https://issues.apache.org/jira/projects/JDO",
-"category": "database",
-"created": "2023-09-06",
-"description": "The POJO approach separates data manipulation (done by accessing Java data members in the Java domain objects) from database manipulation (done by calling the JDO interface methods). This separation of concerns leads to a high degree of independence of the Java view of data from the database view of the data.",
-"doap": "https://raw.githubusercontent.com/apache/db-jdo-site/main/doap__JDO.rdf",
-"download-page": "https://db.apache.org/jdo/downloads.html",
-"homepage": "https://db.apache.org/jdo/",
-"implements": [
-{
-"body": "JCP",
-"id": "JSR-243",
-"title": "Java Data Objects",
-"url": "https://db.apache.org/jdo/specifications.html"
-}
-],
-"license": "https://spdx.org/licenses/Apache-2.0",
-"mailing-list": "https://db.apache.org/jdo/mail-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:jdo-dev@db.apache.org",
-"name": "JDO Project"
-}
-],
-"name": "Apache  JDO",
-"pmc": "db",
-"programming-language": "Java",
-"release": [
-{
-"created": "2022-05-04",
-"name": "Java Data Objects",
-"revision": "3.2.1"
-}
-],
-"repository": [
-"https://github.com/apache/db-jdo"
-],
-"shortdesc": "Java Data Objects (JDO) is a standard way to access persistent data in databases, using plain old Java objects (POJO) to represent persistent data."
-},
 "db-derby": {
 "bug-database": "http://issues.apache.org/jira/browse/DERBY",
 "category": "database",
@@ -9669,6 +9665,45 @@
 "http://svn.apache.org/repos/asf/db/derby/code/trunk/"
 ],
 "shortdesc": "Apache Derby is an open source relational database implemented in Java."
+},
+"db-jdo": {
+"bug-database": "https://issues.apache.org/jira/projects/JDO",
+"category": "database",
+"created": "2023-09-06",
+"description": "The POJO approach separates data manipulation (done by accessing Java data members in the Java domain objects) from database manipulation (done by calling the JDO interface methods). This separation of concerns leads to a high degree of independence of the Java view of data from the database view of the data.",
+"doap": "https://raw.githubusercontent.com/apache/db-jdo-site/main/doap__JDO.rdf",
+"download-page": "https://db.apache.org/jdo/downloads.html",
+"homepage": "https://db.apache.org/jdo/",
+"implements": [
+{
+"body": "JCP",
+"id": "JSR-243",
+"title": "Java Data Objects",
+"url": "https://db.apache.org/jdo/specifications.html"
+}
+],
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://db.apache.org/jdo/mail-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:jdo-dev@db.apache.org",
+"name": "JDO Project"
+}
+],
+"name": "Apache JDO",
+"pmc": "db",
+"programming-language": "Java",
+"release": [
+{
+"created": "2022-05-04",
+"name": "Java Data Objects",
+"revision": "3.2.1"
+}
+],
+"repository": [
+"https://github.com/apache/db-jdo"
+],
+"shortdesc": "Java Data Objects (JDO) is a standard way to access persistent data in databases, using plain old Java objects (POJO) to represent persistent data."
 },
 "db-torque": {
 "bug-database": "https://issues.apache.org/jira/browse/TORQUE",
@@ -14312,6 +14347,12 @@
 "pmc": "maven",
 "programming-language": "Java",
 "release": [
+{
+"created": "2025-11-13",
+"file-release": "http://archive.apache.org/dist/maven/maven-4/4.0.0-rc-5/source/apache-maven-4.0.0-rc-5-src.tar.gz",
+"name": "Apache Maven 4.0.0-rc-5",
+"revision": "4.0.0-rc-5"
+},
 {
 "created": "2024-10-22",
 "file-release": "http://archive.apache.org/dist/maven/maven-4/4.0.0-beta-5/source/apache-maven-4.0.0-beta-5-src.tar.gz",
