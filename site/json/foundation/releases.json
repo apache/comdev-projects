@@ -19,6 +19,7 @@
 "activemq-cpp-library-3.9.5": "2019-01-25",
 "activemq-parent-5.19.1": "2025-10-08",
 "activemq-parent-6.1.8": "2025-10-19",
+"activemq-parent-6.2.0": "2025-11-09",
 "apache-artemis-2.44.0": "2025-10-29",
 "apache-artemis-console-1.3.0": "2025-08-26",
 "apache-artemis-console-1.4.0": "2025-11-05"
@@ -50,10 +51,12 @@
 "apache_airflow-3.0.6": "2025-08-29",
 "apache_airflow-3.1.1": "2025-10-27",
 "apache_airflow-3.1.2": "2025-11-05",
+"apache_airflow-3.1.3": "2025-11-14",
 "apache_airflow_client-3.1.0": "2025-10-29",
 "apache_airflow_core-3.0.6": "2025-08-29",
 "apache_airflow_core-3.1.1": "2025-10-27",
 "apache_airflow_core-3.1.2": "2025-11-05",
+"apache_airflow_core-3.1.3": "2025-11-14",
 "apache_airflow_ctl-0.1.0": "2025-11-11",
 "apache_airflow_providers-2025-11-03": "2025-11-08",
 "apache_airflow_providers_airbyte-5.2.4": "2025-10-26",
@@ -159,7 +162,8 @@
 "apache_airflow_providers_zendesk-4.10.3": "2025-10-26",
 "apache_airflow_task_sdk-1.0.6": "2025-08-29",
 "apache_airflow_task_sdk-1.1.1": "2025-10-27",
-"apache_airflow_task_sdk-1.1.2": "2025-11-05"
+"apache_airflow_task_sdk-1.1.2": "2025-11-05",
+"apache_airflow_task_sdk-1.1.3": "2025-11-14"
 },
 "allura": {
 "allura-1.18.0": "2025-08-12"
@@ -633,7 +637,7 @@
 "commons-jexl-1.1": "2013-03-03",
 "commons-jexl-2.1.1": "2013-03-03",
 "commons-jexl-3.2.1": "2021-06-25",
-"commons-jexl-3.5.0": "2025-04-16",
+"commons-jexl-3.6.0": "2025-11-14",
 "commons-jxpath-1.4.0": "2025-04-18",
 "commons-lang-2.6": "2013-03-03",
 "commons-lang3-3.19.0": "2025-09-24",
@@ -1320,7 +1324,6 @@
 "apache-groovy-4.0.29": "2025-10-18",
 "apache-groovy-5.0.1": "2025-09-10",
 "apache-groovy-5.0.2": "2025-10-18",
-"apache-groovy-geb-8.0.0": "2025-09-12",
 "apache-groovy-sdk-2.5.23": "2023-08-22",
 "apache-groovy-sdk-3.0.25": "2025-05-27",
 "apache-groovy-sdk-4.0.28": "2025-07-23",
@@ -1359,8 +1362,8 @@
 },
 "hbase": {
 "hbase-2.4.18": "2024-05-25",
-"hbase-2.5.12": "2025-07-18",
-"hbase-2.6.3": "2025-07-15",
+"hbase-2.5.13": "2025-11-04",
+"hbase-2.6.4": "2025-11-04",
 "hbase-3.0.0-beta-1": "2024-01-14",
 "hbase-connectors-1.0.1": "2023-10-18",
 "hbase-filesystem-1.0.0-alpha1": "2019-06-06",
@@ -1400,6 +1403,7 @@
 "apache-hop-2.13.0": "2025-04-22",
 "apache-hop-2.14.0": "2025-05-19",
 "apache-hop-2.15.0": "2025-08-19",
+"apache-hop-2.16.0": "2025-11-14",
 "apache-hop-2.2.0": "2022-12-06",
 "apache-hop-2.3.0": "2023-02-01",
 "apache-hop-2.4.0": "2023-03-31",
@@ -1416,6 +1420,7 @@
 "apache-hop-client-2.13.0": "2025-04-22",
 "apache-hop-client-2.14.0": "2025-05-19",
 "apache-hop-client-2.15.0": "2025-08-19",
+"apache-hop-client-2.16.0": "2025-11-14",
 "apache-hop-client-2.2.0": "2022-12-06",
 "apache-hop-client-2.3.0": "2023-02-01",
 "apache-hop-client-2.4.0": "2023-03-31",
@@ -1913,7 +1918,7 @@
 "apache-karaf-cellar-4.1.2": "2018-10-14",
 "apache-karaf-cellar-4.2.1": "2020-08-21",
 "apache-karaf-cellar-4.4.8": "2025-09-01",
-"apache-karaf-decanter-2.11.0": "2025-03-18",
+"apache-karaf-decanter-2.12.0": "2025-11-11",
 "minho-0.1": "2023-01-04",
 "winegrower-1.0.1": "2020-11-22"
 },
@@ -2664,6 +2669,7 @@
 "apache-pulsar-4.1.1": "2025-09-23",
 "apache-pulsar-adapters-2.11.0": "2023-03-02",
 "apache-pulsar-client-cpp-3.7.2": "2025-06-24",
+"apache-pulsar-client-cpp-3.8.0": "2025-11-06",
 "apache-pulsar-client-go-0.16.0": "2025-07-29",
 "apache-pulsar-client-go-0.17.0": "2025-10-11",
 "apache-pulsar-client-node-1.15.0": "2025-10-16",
@@ -3427,9 +3433,8 @@
 },
 "tcl": {
 "rivet-2.4.0": "2018-11-28",
-"rivet-3.2.4": "2024-02-18",
-"rivet-3.2.5": "2024-05-21",
-"rivet-3.2.6": "2024-11-12"
+"rivet-3.2.6": "2024-11-12",
+"rivet-3.2.8": "2025-11-14"
 },
 "teaclave": {
 "apache-teaclave-0.5.1-incubating": "2023-05-31",
@@ -3450,8 +3455,6 @@
 "thrift-0.22.0": "2025-05-23"
 },
 "tika": {
-"tika-2.9.4": "2025-04-29",
-"tika-3.2.2": "2025-08-08",
 "tika-3.2.3": "2025-09-15"
 },
 "tinkerpop": {
