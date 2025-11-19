@@ -551,6 +551,7 @@
 "apache-cassandra-java-driver-4.18.1": "2024-05-21",
 "apache-cassandra-java-driver-4.19.0": "2025-02-06",
 "apache-cassandra-java-driver-4.19.1": "2025-10-14",
+"apache-cassandra-java-driver-4.19.2": "2025-11-13",
 "apache-cassandra-sidecar-0.2.0": "2025-08-22",
 "cassandra-gocql-driver-1.7.0": "2024-09-26"
 },
@@ -1595,6 +1596,9 @@
 "incubator-fluss": {
 "fluss-0.8.0-incubating": "2025-10-25",
 "fluss-shaded-1.0-incubating": "2025-08-07"
+},
+"incubator-geaflow": {
+"apache-geaflow-0.7.0-incubating": "2025-11-06"
 },
 "incubator-gluten": {
 "apache-gluten-1.2.0-incubating": "2024-08-21",
@@ -3005,7 +3009,7 @@
 "org.apache.sling.api-3.0.2": "2025-07-25",
 "org.apache.sling.auth.core-2.0.2": "2025-08-25",
 "org.apache.sling.auth.form-2.0.0": "2025-10-27",
-"org.apache.sling.auth.oauth-client-0.1.4": "2025-10-28",
+"org.apache.sling.auth.oauth-client-0.1.6": "2025-11-18",
 "org.apache.sling.auth.openid-1.0.4": "2014-08-11",
 "org.apache.sling.auth.saml2-0.2.6": "2021-07-14",
 "org.apache.sling.auth.selector-1.0.6": "2014-08-11",
@@ -3036,7 +3040,7 @@
 "org.apache.sling.commons.html-1.1.0": "2019-01-23",
 "org.apache.sling.commons.johnzon-2.0.0": "2023-12-10",
 "org.apache.sling.commons.json-2.0.28": "2024-04-29",
-"org.apache.sling.commons.log-6.0.0": "2025-05-09",
+"org.apache.sling.commons.log-6.0.2": "2025-11-18",
 "org.apache.sling.commons.log.webconsole-2.0.0": "2025-10-27",
 "org.apache.sling.commons.logservice-1.1.2": "2024-12-16",
 "org.apache.sling.commons.messaging-1.0.2": "2021-11-01",
@@ -3241,7 +3245,7 @@
 "org.apache.sling.servlets.get-3.0.0": "2025-06-28",
 "org.apache.sling.servlets.post-3.0.0": "2025-06-28",
 "org.apache.sling.servlets.resolver-2.11.12": "2025-07-15",
-"org.apache.sling.servlets.resolver-3.0.0": "2025-06-28",
+"org.apache.sling.servlets.resolver-3.0.2": "2025-11-18",
 "org.apache.sling.settings-1.5.0": "2025-11-10",
 "org.apache.sling.sitemap-1.0.6": "2022-02-01",
 "org.apache.sling.starter-13": "2025-01-17",
@@ -3253,14 +3257,14 @@
 "org.apache.sling.testing.clients-3.1.0": "2024-12-20",
 "org.apache.sling.testing.email-1.0.0": "2017-06-20",
 "org.apache.sling.testing.hamcrest-1.1.0": "2025-06-25",
-"org.apache.sling.testing.jcr-mock-1.6.14": "2024-01-25",
+"org.apache.sling.testing.jcr-mock-1.7.0": "2025-11-18",
 "org.apache.sling.testing.logging-mock-2.0.0": "2016-09-19",
-"org.apache.sling.testing.osgi-mock-3.5.2": "2024-12-12",
-"org.apache.sling.testing.osgi-mock.core-3.5.2": "2024-12-12",
-"org.apache.sling.testing.osgi-mock.junit4-3.5.2": "2024-12-12",
-"org.apache.sling.testing.osgi-mock.junit5-3.5.2": "2024-12-12",
-"org.apache.sling.testing.osgi-mock.parent-3.5.2": "2024-12-12",
-"org.apache.sling.testing.osgi-mock.test-services-3.5.2": "2024-12-12",
+"org.apache.sling.testing.osgi-mock-3.5.4": "2025-11-18",
+"org.apache.sling.testing.osgi-mock.core-3.5.4": "2025-11-18",
+"org.apache.sling.testing.osgi-mock.junit4-3.5.4": "2025-11-18",
+"org.apache.sling.testing.osgi-mock.junit5-3.5.4": "2025-11-18",
+"org.apache.sling.testing.osgi-mock.parent-3.5.4": "2025-11-18",
+"org.apache.sling.testing.osgi-mock.test-services-3.5.4": "2025-11-18",
 "org.apache.sling.testing.paxexam-4.1.2": "2025-04-23",
 "org.apache.sling.testing.resourceresolver-mock-2.0.0": "2025-08-26",
 "org.apache.sling.testing.rules-2.0.2": "2023-01-18",
@@ -3454,9 +3458,6 @@
 "tika-3.2.3": "2025-09-15"
 },
 "tinkerpop": {
-"apache-tinkerpop-3.6.8": "2024-10-29",
-"apache-tinkerpop-3.7.3": "2024-10-29",
-"apache-tinkerpop-3.7.4": "2025-08-08",
 "apache-tinkerpop-3.7.5": "2025-11-17",
 "apache-tinkerpop-3.8.0": "2025-11-17",
 "apache-tinkerpop-4.0.0-beta.1": "2025-01-23"

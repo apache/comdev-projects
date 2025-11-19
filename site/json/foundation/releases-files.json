@@ -1607,6 +1607,9 @@
 "cassandra/cassandra-java-driver/4.19.1/apache-cassandra-java-driver-4.19.1-source.tar.gz",
 "cassandra/cassandra-java-driver/4.19.1/apache-cassandra-java-driver-4.19.1.tar.gz"
 ],
+"apache-cassandra-java-driver-4.19.2": [
+"cassandra/cassandra-java-driver/4.19.2/apache-cassandra-java-driver-4.19.2-source.tar.gz"
+],
 "apache-cassandra-sidecar-0.2.0": [
 "cassandra/cassandra-sidecar/0.2.0/apache-cassandra-sidecar-0.2.0-src.tar.gz",
 "cassandra/cassandra-sidecar/0.2.0/apache-cassandra-sidecar-0.2.0.tar.gz"
@@ -4849,6 +4852,11 @@
 ],
 "fluss-shaded-1.0-incubating": [
 "incubator/fluss/fluss-shaded-1.0-incubating/fluss-shaded-1.0-incubating-src.tgz"
+]
+},
+"incubator-geaflow": {
+"apache-geaflow-0.7.0-incubating": [
+"incubator/geaflow/0.7.0-incubating/apache-geaflow-0.7.0-incubating-src.tar.gz"
 ]
 },
 "incubator-gluten": {
@@ -8963,8 +8971,8 @@
 "org.apache.sling.auth.form-2.0.0": [
 "sling/org.apache.sling.auth.form-2.0.0-source-release.zip"
 ],
-"org.apache.sling.auth.oauth-client-0.1.4": [
-"sling/org.apache.sling.auth.oauth-client-0.1.4-source-release.zip"
+"org.apache.sling.auth.oauth-client-0.1.6": [
+"sling/org.apache.sling.auth.oauth-client-0.1.6-source-release.zip"
 ],
 "org.apache.sling.auth.openid-1.0.4": [
 "sling/org.apache.sling.auth.openid-1.0.4-source-release.zip"
@@ -9056,8 +9064,8 @@
 "org.apache.sling.commons.json-2.0.28": [
 "sling/org.apache.sling.commons.json-2.0.28-source-release.zip"
 ],
-"org.apache.sling.commons.log-6.0.0": [
-"sling/org.apache.sling.commons.log-6.0.0-source-release.zip"
+"org.apache.sling.commons.log-6.0.2": [
+"sling/org.apache.sling.commons.log-6.0.2-source-release.zip"
 ],
 "org.apache.sling.commons.log.webconsole-2.0.0": [
 "sling/org.apache.sling.commons.log.webconsole-2.0.0-source-release.zip"
@@ -9680,8 +9688,8 @@
 "org.apache.sling.servlets.resolver-2.11.12": [
 "sling/org.apache.sling.servlets.resolver-2.11.12-source-release.zip"
 ],
-"org.apache.sling.servlets.resolver-3.0.0": [
-"sling/org.apache.sling.servlets.resolver-3.0.0-source-release.zip"
+"org.apache.sling.servlets.resolver-3.0.2": [
+"sling/org.apache.sling.servlets.resolver-3.0.2-source-release.zip"
 ],
 "org.apache.sling.settings-1.5.0": [
 "sling/org.apache.sling.settings-1.5.0-source-release.zip"
@@ -9716,29 +9724,29 @@
 "org.apache.sling.testing.hamcrest-1.1.0": [
 "sling/org.apache.sling.testing.hamcrest-1.1.0-source-release.zip"
 ],
-"org.apache.sling.testing.jcr-mock-1.6.14": [
-"sling/org.apache.sling.testing.jcr-mock-1.6.14-source-release.zip"
+"org.apache.sling.testing.jcr-mock-1.7.0": [
+"sling/org.apache.sling.testing.jcr-mock-1.7.0-source-release.zip"
 ],
 "org.apache.sling.testing.logging-mock-2.0.0": [
 "sling/org.apache.sling.testing.logging-mock-2.0.0-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock-3.5.2": [
-"sling/org.apache.sling.testing.osgi-mock-3.5.2-source-release.zip"
+"org.apache.sling.testing.osgi-mock-3.5.4": [
+"sling/org.apache.sling.testing.osgi-mock-3.5.4-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.core-3.5.2": [
-"sling/org.apache.sling.testing.osgi-mock.core-3.5.2-source-release.zip"
+"org.apache.sling.testing.osgi-mock.core-3.5.4": [
+"sling/org.apache.sling.testing.osgi-mock.core-3.5.4-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.junit4-3.5.2": [
-"sling/org.apache.sling.testing.osgi-mock.junit4-3.5.2-source-release.zip"
+"org.apache.sling.testing.osgi-mock.junit4-3.5.4": [
+"sling/org.apache.sling.testing.osgi-mock.junit4-3.5.4-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.junit5-3.5.2": [
-"sling/org.apache.sling.testing.osgi-mock.junit5-3.5.2-source-release.zip"
+"org.apache.sling.testing.osgi-mock.junit5-3.5.4": [
+"sling/org.apache.sling.testing.osgi-mock.junit5-3.5.4-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.parent-3.5.2": [
-"sling/org.apache.sling.testing.osgi-mock.parent-3.5.2-source-release.zip"
+"org.apache.sling.testing.osgi-mock.parent-3.5.4": [
+"sling/org.apache.sling.testing.osgi-mock.parent-3.5.4-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.test-services-3.5.2": [
-"sling/org.apache.sling.testing.osgi-mock.test-services-3.5.2-source-release.zip"
+"org.apache.sling.testing.osgi-mock.test-services-3.5.4": [
+"sling/org.apache.sling.testing.osgi-mock.test-services-3.5.4-source-release.zip"
 ],
 "org.apache.sling.testing.paxexam-4.1.2": [
 "sling/org.apache.sling.testing.paxexam-4.1.2-source-release.zip"
@@ -10280,15 +10288,6 @@
 ]
 },
 "tinkerpop": {
-"apache-tinkerpop-3.6.8": [
-"tinkerpop/3.6.8/apache-tinkerpop-3.6.8-src.zip"
-],
-"apache-tinkerpop-3.7.3": [
-"tinkerpop/3.7.3/apache-tinkerpop-3.7.3-src.zip"
-],
-"apache-tinkerpop-3.7.4": [
-"tinkerpop/3.7.4/apache-tinkerpop-3.7.4-src.zip"
-],
 "apache-tinkerpop-3.7.5": [
 "tinkerpop/3.7.5/apache-tinkerpop-3.7.5-src.zip"
 ],
