@@ -1318,7 +1318,7 @@
 "shortdesc": "Enterprise OSGi application programming model"
 },
 {
-"chair": "npr",
+"chair": "apitrou",
 "charter": "The mission of Apache Arrow is the creation and maintenance of software related to columnar in-memory processing and data interchange",
 "established": "2016-01",
 "group": "arrow",
@@ -19111,7 +19111,7 @@
 "shortdesc": "High performance C-based HTTP client library built upon the Apache Portable Runtime (APR) library"
 },
 {
-"chair": "liubao",
+"chair": "hezhangjian",
 "charter": "The mission of Apache ServiceComb is the creation and maintenance of software related to a microservice framework that provides a set of tools and components to make development and deployment of cloud applications easier.",
 "established": "2018-10",
 "group": "servicecomb",
@@ -23541,6 +23541,54 @@
 }
 },
 "shortdesc": "A Java Templating Engine"
+},
+{
+"chair": "zkaoudi",
+"established": "2025-11",
+"group": "wayang",
+"homepage": "http://wayang.apache.org",
+"id": "wayang",
+"name": "Apache Wayang",
+"reporting": 1,
+"roster": {
+"aloalt": {
+"date": "2025-11-19",
+"name": "Alexander Alten"
+},
+"jbonofre": {
+"date": "2025-11-19",
+"name": "Jean-Baptiste Onofr\u00e9"
+},
+"juri": {
+"date": "2025-11-19",
+"name": "Juri Petersen"
+},
+"kamir": {
+"date": "2025-11-19",
+"name": "Mirko K\u00e4mpf"
+},
+"kbeedkar": {
+"date": "2025-11-19",
+"name": "Kaustubh Beedkar"
+},
+"kirs": {
+"date": "2025-11-19",
+"name": "Calvin Kirs"
+},
+"sejer": {
+"date": "2025-11-19",
+"name": "Mads Sejer Pedersen"
+},
+"yidris": {
+"date": "2025-11-19",
+"name": "Yasser Idris"
+},
+"zkaoudi": {
+"date": "2025-11-19",
+"name": "Zoi Kaoudi"
+}
+},
+"shortdesc": "cross-engine data processing that aims at (i) decoupling applications from underlying data processing engines, such as Apache Flink, Apache Spark, databases, or ML systems, and (ii) automatically determining the optimal combination of engines to execute a given data pipeline using an optimizer"
 },
 {
 "chair": "dkulp",
