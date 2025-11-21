@@ -36,14 +36,14 @@ Suggested cron setup:
 Webserver required:
 To test the site locally, a webserver is required or you'll get
 "Cross origin requests are only supported for HTTP" errors.
-An easy setup for development is: run "python -m SimpleHTTPServer 8888" from
+An easy setup for development is: run "python3 -m http.server 8888" from
 site directory to have site available at http://localhost:8888/
 
 Current crontab settings:
 
 crontab root:
 # m h  dom mon dow   command
-10 5 * * * cd /var/www/projects.apache.org/site/json && svn ci -m "updating projects data" --username projects_role --password `cat /root/.rolepwd` --non-interactive
+20 4 * * * cd /var/www/projects.apache.org/site/json && sudo -n -u www-data svn ci -m "updating projects data" --username projects_role --password `cat /root/.rolepwd` --non-interactive
 
 crontab -l -u www-data:
 # m h  dom mon dow   command
@@ -51,14 +51,15 @@ crontab -l -u www-data:
 01 00 * * * cd /var/www/projects.apache.org/scripts/cronjobs && ./python3logger.sh parsecommitters.py
 02 00 * * * cd /var/www/projects.apache.org/scripts/cronjobs && ./python3logger.sh countaccounts.py
 03 00 * * * cd /var/www/projects.apache.org/scripts/cronjobs && ./python3logger.sh parsereleases.py
-00 01 * * * cd /var/www/projects.apache.org/scripts/cronjobs && ./python3logger.sh parsecommitteeinfo.py
+05 01 * * * cd /var/www/projects.apache.org/scripts/cronjobs && ./python3logger.sh parsecommitteeinfo.py
 00 02 * * * cd /var/www/projects.apache.org/scripts/cronjobs && ./python3logger.sh parseprojects.py
+00 03 * * * cd /var/www/projects.apache.org/scripts/cronjobs && ./python3logger.sh generaterepos.py
 
 # Run pubsubber
 @reboot         cd /var/www/projects.apache.org/scripts/cronjobs && ./pubsubber.sh
 @monthly        cd /var/www/projects.apache.org/scripts/cronjobs && ./pubsubber.sh restart
 
-# ensure that any new data files get picked up by the commit (which must be done by root)
+# ensure that any new data files get picked up by the commit (which must be started by root)
 10 4 * * *      cd /var/www/projects.apache.org/scripts/cronjobs && ./svnadd.sh ../../site/json
 
 There are additional jobs for reporter.a.o which are documented in its code source (README.txt).
