@@ -583,6 +583,7 @@
 "aco": {
 "groups": [
 "activemq",
+"artemis",
 "servicemix",
 "servicemix-pmc"
 ],
@@ -799,6 +800,7 @@
 "groups": [
 "activemq",
 "aries",
+"artemis",
 "geronimo",
 "geronimo-pmc",
 "incubator",
@@ -2211,7 +2213,8 @@
 },
 "alexd": {
 "groups": [
-"activemq"
+"activemq",
+"artemis"
 ],
 "member": false,
 "name": "Alex Dean"
@@ -2942,6 +2945,7 @@
 "ammulder": {
 "groups": [
 "activemq",
+"artemis",
 "camel",
 "geronimo",
 "tomee"
@@ -3406,7 +3410,8 @@
 },
 "andytaylor": {
 "groups": [
-"activemq"
+"activemq",
+"artemis"
 ],
 "member": false,
 "name": "Andy Taylor"
@@ -3871,7 +3876,8 @@
 },
 "antonr": {
 "groups": [
-"activemq"
+"activemq",
+"artemis"
 ],
 "member": false,
 "name": "Anton Roskvist"
@@ -10089,6 +10095,13 @@
 "member": true,
 "name": "Eason Chen"
 },
+"chengwang": {
+"groups": [
+"incubator"
+],
+"member": false,
+"name": "Cheng Wang"
+},
 "chengxiang": {
 "groups": [
 "flink",
@@ -11295,7 +11308,8 @@
 },
 "cmacnaug": {
 "groups": [
-"activemq"
+"activemq",
+"artemis"
 ],
 "member": false,
 "name": "Colin MacNaughton"
@@ -12083,6 +12097,7 @@
 "activemq",
 "aries",
 "aries-pmc",
+"artemis",
 "camel",
 "camel-pmc",
 "cxf",
@@ -12362,6 +12377,13 @@
 ],
 "member": false,
 "name": "Doug Cutting"
+},
+"cvandermerwe": {
+"groups": [
+"beam"
+],
+"member": false,
+"name": "Claude van der Merwe"
 },
 "cwelton": {
 "groups": [
@@ -14254,6 +14276,7 @@
 "dflores": {
 "groups": [
 "activemq",
+"artemis",
 "servicemix"
 ],
 "member": false,
@@ -14463,6 +14486,7 @@
 "dhirajsb": {
 "groups": [
 "activemq",
+"artemis",
 "camel"
 ],
 "member": false,
@@ -14932,7 +14956,8 @@
 },
 "djcook": {
 "groups": [
-"activemq"
+"activemq",
+"artemis"
 ],
 "member": false,
 "name": "Dennis Cook"
@@ -14951,6 +14976,7 @@
 "activemq",
 "aries",
 "aries-pmc",
+"artemis",
 "bval",
 "bval-pmc",
 "camel",
@@ -19530,6 +19556,7 @@
 "foconer": {
 "groups": [
 "activemq",
+"artemis",
 "servicemix"
 ],
 "member": false,
@@ -20256,7 +20283,8 @@
 },
 "gaohoward": {
 "groups": [
-"activemq"
+"activemq",
+"artemis"
 ],
 "member": false,
 "name": "Howard Gao"
@@ -22016,6 +22044,7 @@
 "gregw": {
 "groups": [
 "activemq",
+"artemis",
 "geronimo",
 "servicemix"
 ],
@@ -22798,6 +22827,7 @@
 "hadrian": {
 "groups": [
 "activemq",
+"artemis",
 "brooklyn",
 "brooklyn-pmc",
 "camel",
@@ -23616,7 +23646,8 @@
 },
 "heitmann": {
 "groups": [
-"activemq"
+"activemq",
+"artemis"
 ],
 "member": false,
 "name": "John Heitmann"
@@ -26923,6 +26954,7 @@
 "janstey": {
 "groups": [
 "activemq",
+"artemis",
 "camel",
 "camel-pmc",
 "karaf",
@@ -28656,6 +28688,7 @@
 "jgallimore": {
 "groups": [
 "johnzon",
+"openwebbeans",
 "tomee",
 "tomee-pmc"
 ],
@@ -28665,6 +28698,7 @@
 "jgapuz": {
 "groups": [
 "activemq",
+"artemis",
 "servicemix"
 ],
 "member": false,
@@ -28777,6 +28811,7 @@
 "jgoodyear": {
 "groups": [
 "activemq",
+"artemis",
 "cxf",
 "felix",
 "incubator",
@@ -30158,6 +30193,7 @@
 "jlim": {
 "groups": [
 "activemq",
+"artemis",
 "servicemix",
 "servicemix-pmc"
 ],
@@ -30933,6 +30969,7 @@
 "johndament": {
 "groups": [
 "activemq",
+"artemis",
 "cxf",
 "deltaspike",
 "deltaspike-pmc",
@@ -32730,6 +32767,7 @@
 "jvanzyl": {
 "groups": [
 "activemq",
+"artemis",
 "db",
 "db-pmc",
 "geronimo",
@@ -33749,7 +33787,8 @@
 },
 "kearls": {
 "groups": [
-"activemq"
+"activemq",
+"artemis"
 ],
 "member": false,
 "name": "Kevin Anthony Earls"
@@ -44144,7 +44183,8 @@
 },
 "mschoechlin": {
 "groups": [
-"activemq"
+"activemq",
+"artemis"
 ],
 "member": false,
 "name": "Marc Schöchlin"
@@ -44312,7 +44352,8 @@
 },
 "msyavuz": {
 "groups": [
-"superset"
+"superset",
+"superset-pmc"
 ],
 "member": false,
 "name": "Mehmet Yavuz"
@@ -45927,6 +45968,7 @@
 "answer-pmc",
 "apisix",
 "apisix-pmc",
+"artemis",
 "camel",
 "camel-pmc",
 "celeborn",
@@ -46279,7 +46321,8 @@
 },
 "nmittler": {
 "groups": [
-"activemq"
+"activemq",
+"artemis"
 ],
 "member": false,
 "name": "Nathan Christopher Mittler"
@@ -46514,6 +46557,7 @@
 "nsandhu": {
 "groups": [
 "activemq",
+"artemis",
 "camel"
 ],
 "member": false,
@@ -48327,7 +48371,8 @@
 },
 "peeyush": {
 "groups": [
-"asterixdb"
+"asterixdb",
+"asterixdb-pmc"
 ],
 "member": false,
 "name": "Peeyush Gupta"
@@ -50013,6 +50058,7 @@
 "proyal": {
 "groups": [
 "activemq",
+"artemis",
 "commons",
 "incubator"
 ],
@@ -50319,6 +50365,7 @@
 "pvillacorta": {
 "groups": [
 "activemq",
+"artemis",
 "servicemix"
 ],
 "member": false,
@@ -51017,6 +51064,7 @@
 "rajdavies": {
 "groups": [
 "activemq",
+"artemis",
 "camel",
 "camel-pmc",
 "servicemix",
@@ -53707,7 +53755,8 @@
 },
 "rsaba": {
 "groups": [
-"activemq"
+"activemq",
+"artemis"
 ],
 "member": false,
 "name": "Ramzi Saba"
@@ -62667,7 +62716,8 @@
 },
 "tmielke": {
 "groups": [
-"activemq"
+"activemq",
+"artemis"
 ],
 "member": false,
 "name": "Torsten Mielke"
@@ -67409,6 +67459,7 @@
 "wtam": {
 "groups": [
 "activemq",
+"artemis",
 "camel",
 "camel-pmc"
 ],
@@ -67603,7 +67654,8 @@
 },
 "wy96f": {
 "groups": [
-"activemq"
+"activemq",
+"artemis"
 ],
 "member": false,
 "name": "Wei Yang"
