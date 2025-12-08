@@ -1920,8 +1920,8 @@ function renderReleases(releases) {
     } );
 
     $('#releases tbody').on('click', 'tr', function () {
-        var name = $(this).attr('id').replace("incubator-","incubator/");
-        location.href = "https://www.apache.org/dist/" + name;
+        var name = $(this).attr('id').replace("incubator-","");
+        location.href = `https://${name}.apache.org/`;
     } );
 }
 
