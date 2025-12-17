@@ -1052,8 +1052,8 @@
 "apache-beam-1688ac1374ff02286ba8e59c9379bf7bb5875646": [
 "beam/vendor/beam-vendor-grpc-1_43_2/0.1/apache-beam-1688ac1374ff02286ba8e59c9379bf7bb5875646-source-release.zip"
 ],
-"apache-beam-2.68.0": [
-"beam/2.68.0/apache-beam-2.68.0-source-release.zip"
+"apache-beam-2.70.0": [
+"beam/2.70.0/apache-beam-2.70.0-source-release.zip"
 ],
 "apache-beam-2d08b32e674a1046ba7be0ae5f1e4b7b05b73488": [
 "beam/vendor/grpc-1_60_1/0.2/apache-beam-2d08b32e674a1046ba7be0ae5f1e4b7b05b73488-source-release.zip"
@@ -1094,8 +1094,8 @@
 "apache-beam-jupyterlab-sidepanel-v3.0.0": [
 "beam/extensions/jupyterlab-sidepanel/v3.0.0/apache-beam-jupyterlab-sidepanel-v3.0.0-source-release.zip"
 ],
-"apache_beam-2.68.0": [
-"beam/2.68.0/python/apache_beam-2.68.0.tar.gz"
+"apache_beam-2.70.0": [
+"beam/2.70.0/python/apache_beam-2.70.0.tar.gz"
 ]
 },
 "bigtop": {
@@ -1757,15 +1757,15 @@
 "commons/csv/source/commons-csv-1.14.1-src.tar.gz",
 "commons/csv/source/commons-csv-1.14.1-src.zip"
 ],
-"commons-daemon-1.5.0": [
-"commons/daemon/source/commons-daemon-1.5.0-native-src.tar.gz",
-"commons/daemon/source/commons-daemon-1.5.0-native-src.zip",
-"commons/daemon/source/commons-daemon-1.5.0-src.tar.gz",
-"commons/daemon/source/commons-daemon-1.5.0-src.zip"
+"commons-daemon-1.5.1": [
+"commons/daemon/source/commons-daemon-1.5.1-native-src.tar.gz",
+"commons/daemon/source/commons-daemon-1.5.1-native-src.zip",
+"commons/daemon/source/commons-daemon-1.5.1-src.tar.gz",
+"commons/daemon/source/commons-daemon-1.5.1-src.zip"
 ],
-"commons-dbcp2-2.13.0": [
-"commons/dbcp/source/commons-dbcp2-2.13.0-src.tar.gz",
-"commons/dbcp/source/commons-dbcp2-2.13.0-src.zip"
+"commons-dbcp2-2.14.0": [
+"commons/dbcp/source/commons-dbcp2-2.14.0-src.tar.gz",
+"commons/dbcp/source/commons-dbcp2-2.14.0-src.zip"
 ],
 "commons-dbcp2-2.4.0": [
 "commons/dbcp/source/commons-dbcp2-2.4.0-src.tar.gz",
@@ -4007,6 +4007,9 @@
 "gravitino-1.0.1": [
 "gravitino/1.0.1/gravitino-1.0.1-src.tar.gz"
 ],
+"gravitino-1.1.0": [
+"gravitino/1.1.0/gravitino-1.1.0-src.tar.gz"
+],
 "gravitino-trino-connector-0.9.1": [
 "gravitino/0.9.1/gravitino-trino-connector-0.9.1.tar.gz"
 ],
@@ -4015,6 +4018,9 @@
 ],
 "gravitino-trino-connector-1.0.1": [
 "gravitino/1.0.1/gravitino-trino-connector-1.0.1.tar.gz"
+],
+"gravitino-trino-connector-1.1.0": [
+"gravitino/1.1.0/gravitino-trino-connector-1.1.0.tar.gz"
 ]
 },
 "groovy": {
@@ -6039,8 +6045,8 @@
 "logging/log4cxx/1.6.0/apache-log4cxx-1.6.0.tar.gz",
 "logging/log4cxx/1.6.0/apache-log4cxx-1.6.0.zip"
 ],
-"apache-log4j-2.25.2": [
-"logging/log4j/2.25.2/apache-log4j-2.25.2-src.zip"
+"apache-log4j-2.25.3": [
+"logging/log4j/2.25.3/apache-log4j-2.25.3-src.zip"
 ],
 "apache-log4j-3.0.0-beta3": [
 "logging/log4j/3.0.0-beta3/apache-log4j-3.0.0-beta3-src.zip"
@@ -6293,9 +6299,9 @@
 "maven/maven-3/3.8.9/source/apache-maven-3.8.9-src.tar.gz",
 "maven/maven-3/3.8.9/source/apache-maven-3.8.9-src.zip"
 ],
-"apache-maven-3.9.11": [
-"maven/maven-3/3.9.11/source/apache-maven-3.9.11-src.tar.gz",
-"maven/maven-3/3.9.11/source/apache-maven-3.9.11-src.zip"
+"apache-maven-3.9.12": [
+"maven/maven-3/3.9.12/source/apache-maven-3.9.12-src.tar.gz",
+"maven/maven-3/3.9.12/source/apache-maven-3.9.12-src.zip"
 ],
 "apache-maven-4.0.0-rc-5": [
 "maven/maven-4/4.0.0-rc-5/source/apache-maven-4.0.0-rc-5-src.tar.gz",
@@ -9979,11 +9985,8 @@
 "SparkR_4.0.1": [
 "spark/spark-4.0.1/SparkR_4.0.1.tar.gz"
 ],
-"SparkR_4.1.0-preview3": [
-"spark/spark-4.1.0-preview3/SparkR_4.1.0-preview3.tar.gz"
-],
-"SparkR_4.1.0-preview4": [
-"spark/spark-4.1.0-preview4/SparkR_4.1.0-preview4.tar.gz"
+"SparkR_4.1.0": [
+"spark/spark-4.1.0/SparkR_4.1.0.tar.gz"
 ],
 "pyspark-3.5.7": [
 "spark/spark-3.5.7/pyspark-3.5.7.tar.gz"
@@ -9991,29 +9994,20 @@
 "pyspark-4.0.1": [
 "spark/spark-4.0.1/pyspark-4.0.1.tar.gz"
 ],
-"pyspark-4.1.0.dev3": [
-"spark/spark-4.1.0-preview3/pyspark-4.1.0.dev3.tar.gz"
-],
-"pyspark-4.1.0.dev4": [
-"spark/spark-4.1.0-preview4/pyspark-4.1.0.dev4.tar.gz"
+"pyspark-4.1.0": [
+"spark/spark-4.1.0/pyspark-4.1.0.tar.gz"
 ],
 "pyspark_client-4.0.1": [
 "spark/spark-4.0.1/pyspark_client-4.0.1.tar.gz"
 ],
-"pyspark_client-4.1.0.dev3": [
-"spark/spark-4.1.0-preview3/pyspark_client-4.1.0.dev3.tar.gz"
-],
-"pyspark_client-4.1.0.dev4": [
-"spark/spark-4.1.0-preview4/pyspark_client-4.1.0.dev4.tar.gz"
+"pyspark_client-4.1.0": [
+"spark/spark-4.1.0/pyspark_client-4.1.0.tar.gz"
 ],
 "pyspark_connect-4.0.1": [
 "spark/spark-4.0.1/pyspark_connect-4.0.1.tar.gz"
 ],
-"pyspark_connect-4.1.0.dev3": [
-"spark/spark-4.1.0-preview3/pyspark_connect-4.1.0.dev3.tar.gz"
-],
-"pyspark_connect-4.1.0.dev4": [
-"spark/spark-4.1.0-preview4/pyspark_connect-4.1.0.dev4.tar.gz"
+"pyspark_connect-4.1.0": [
+"spark/spark-4.1.0/pyspark_connect-4.1.0.tar.gz"
 ],
 "spark-3.5.7": [
 "spark/spark-3.5.7/spark-3.5.7.tgz"
@@ -10021,11 +10015,8 @@
 "spark-4.0.1": [
 "spark/spark-4.0.1/spark-4.0.1.tgz"
 ],
-"spark-4.1.0-preview3": [
-"spark/spark-4.1.0-preview3/spark-4.1.0-preview3.tgz"
-],
-"spark-4.1.0-preview4": [
-"spark/spark-4.1.0-preview4/spark-4.1.0-preview4.tgz"
+"spark-4.1.0": [
+"spark/spark-4.1.0/spark-4.1.0.tgz"
 ],
 "spark-connect-swift-0.4.0": [
 "spark/spark-connect-swift-0.4.0/spark-connect-swift-0.4.0.tar.gz"
@@ -10727,6 +10718,9 @@
 ],
 "apache-tvm-ffi-v0.1.5": [
 "tvm/tvm-ffi-v0.1.5/apache-tvm-ffi-src-v0.1.5.tar.gz"
+],
+"apache-tvm-ffi-v0.1.6": [
+"tvm/tvm-ffi-v0.1.6/apache-tvm-ffi-src-v0.1.6.tar.gz"
 ],
 "apache-tvm-v0.10.0": [
 "tvm/tvm-v0.10.0/apache-tvm-src-v0.10.0.tar.gz"
