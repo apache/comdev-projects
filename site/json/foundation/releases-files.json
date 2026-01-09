@@ -66,10 +66,10 @@
 "apache-age-1.5.0": [
 "age/PG11/1.5.0/apache-age-1.5.0-src.tar.gz",
 "age/PG12/1.5.0/apache-age-1.5.0-src.tar.gz",
-"age/PG13/1.5.0/apache-age-1.5.0-src.tar.gz",
-"age/PG14/1.5.0/apache-age-1.5.0-src.tar.gz"
+"age/PG13/1.5.0/apache-age-1.5.0-src.tar.gz"
 ],
 "apache-age-1.6.0": [
+"age/PG14/1.6.0/apache-age-1.6.0-src.tar.gz",
 "age/PG15/1.6.0/apache-age-1.6.0-src.tar.gz",
 "age/PG16/1.6.0/apache-age-1.6.0-src.tar.gz",
 "age/PG17/1.6.0/apache-age-1.6.0-src.tar.gz"
@@ -1367,8 +1367,8 @@
 "apache-camel-quarkus-3.20.3": [
 "camel/camel-quarkus/3.20.3/apache-camel-quarkus-3.20.3-src.zip"
 ],
-"apache-camel-quarkus-3.27.1": [
-"camel/camel-quarkus/3.27.1/apache-camel-quarkus-3.27.1-src.zip"
+"apache-camel-quarkus-3.27.2": [
+"camel/camel-quarkus/3.27.2/apache-camel-quarkus-3.27.2-src.zip"
 ],
 "apache-camel-quarkus-3.30.0": [
 "camel/camel-quarkus/3.30.0/apache-camel-quarkus-3.30.0-src.zip"
@@ -2307,6 +2307,9 @@
 ],
 "apache-daffodil-vscode-1.4.1": [
 "daffodil/daffodil-vscode/1.4.1/src/apache-daffodil-vscode-1.4.1-src.zip"
+],
+"apache-daffodil-vscode-1.5.0": [
+"daffodil/daffodil-vscode/1.5.0/src/apache-daffodil-vscode-1.5.0-src.zip"
 ]
 },
 "datafu": {
@@ -5999,6 +6002,10 @@
 "logging/log4cxx/1.6.0/apache-log4cxx-1.6.0.tar.gz",
 "logging/log4cxx/1.6.0/apache-log4cxx-1.6.0.zip"
 ],
+"apache-log4cxx-1.6.1": [
+"logging/log4cxx/1.6.1/apache-log4cxx-1.6.1.tar.gz",
+"logging/log4cxx/1.6.1/apache-log4cxx-1.6.1.zip"
+],
 "apache-log4j-2.25.3": [
 "logging/log4j/2.25.3/apache-log4j-2.25.3-src.zip"
 ],
@@ -7687,8 +7694,14 @@
 "orc-1.9.7": [
 "orc/orc-1.9.7/orc-1.9.7.tar.gz"
 ],
+"orc-1.9.8": [
+"orc/orc-1.9.8/orc-1.9.8.tar.gz"
+],
 "orc-2.0.6": [
 "orc/orc-2.0.6/orc-2.0.6.tar.gz"
+],
+"orc-2.0.7": [
+"orc/orc-2.0.7/orc-2.0.7.tar.gz"
 ],
 "orc-2.1.3": [
 "orc/orc-2.1.3/orc-2.1.3.tar.gz"
