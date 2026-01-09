@@ -1758,13 +1758,6 @@ function drawAccountCreation(json) {
 
 // called by timelines.html
 
-function buildTimelines() {
-    GetAsyncJSON("json/foundation/accounts-evolution.json", null, drawAccountCreation);
-}
-
-
-// called by timelines2.html
-
 function buildTimelines2() {
     GetAsyncJSON("json/foundation/accounts-evolution2.json", null, drawAccountCreation);
 }

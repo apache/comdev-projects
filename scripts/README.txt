@@ -3,11 +3,6 @@ various sources:
 
 1. updating data (cronjobs)
 
-- countaccounts.py: Extract from LDAP monthly statistics on Unix accounts created
-  in:  site/json/foundation/accounts-evolution.json
-     + https://whimsy.apache.org/public/public_ldap_people.json
-  out: site/json/foundation/accounts-evolution.json (updated)
-
 - parsecommitteeinfo.py: Parses committee-info.json to detect new and retired committees
   and imports PMC data (RDF) from PMC data files
   in: site/json/foundation/committees.json
