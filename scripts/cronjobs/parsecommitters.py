@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 """
+Extracts data showing the number of accounts created each month.
 
 Reads:
 https://whimsy.apache.org/public/member_info.json
@@ -106,9 +107,6 @@ for g in groups:
 with open("../../site/json/foundation/groups.json", "w", encoding='utf-8') as f:
     json.dump(groups, f, sort_keys=True, indent=0, ensure_ascii=False)
     f.close()
-
-###### Test of alternate account evolution counting - start #####
-# see also countaccounts.py, which creates accounts-evolution.json
 
 from datetime import datetime
 accounts = {} # key: yyyy-mm value: number of accounts created
