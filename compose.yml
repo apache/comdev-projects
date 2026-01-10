@@ -1,0 +1,10 @@
+services:
+  projects:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/var/www/projects.apache.org/
+      - ./docker-data/logs:/var/log/apache2
+    ports:
+      - 80:80
