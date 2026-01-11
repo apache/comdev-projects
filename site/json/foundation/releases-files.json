@@ -825,8 +825,8 @@
 "apache-arrow-22.0.0": [
 "arrow/arrow-22.0.0/apache-arrow-22.0.0.tar.gz"
 ],
-"apache-arrow-adbc-21": [
-"arrow/apache-arrow-adbc-21/apache-arrow-adbc-21.tar.gz"
+"apache-arrow-adbc-22": [
+"arrow/apache-arrow-adbc-22/apache-arrow-adbc-22.tar.gz"
 ],
 "apache-arrow-dotnet-22.1.0": [
 "arrow/apache-arrow-dotnet-22.1.0/apache-arrow-dotnet-22.1.0.tar.gz"
@@ -1334,8 +1334,8 @@
 "apache-camel-4.13.0": [
 "camel/apache-camel/4.13.0/apache-camel-4.13.0-src.zip"
 ],
-"apache-camel-4.14.3": [
-"camel/apache-camel/4.14.3/apache-camel-4.14.3-src.zip"
+"apache-camel-4.14.4": [
+"camel/apache-camel/4.14.4/apache-camel-4.14.4-src.zip"
 ],
 "apache-camel-4.15.0": [
 "camel/apache-camel/4.15.0/apache-camel-4.15.0-src.zip"
@@ -2307,9 +2307,6 @@
 ],
 "apache-daffodil-vscode-1.4.1": [
 "daffodil/daffodil-vscode/1.4.1/src/apache-daffodil-vscode-1.4.1-src.zip"
-],
-"apache-daffodil-vscode-1.5.0": [
-"daffodil/daffodil-vscode/1.5.0/src/apache-daffodil-vscode-1.5.0-src.zip"
 ]
 },
 "datafu": {
@@ -2366,8 +2363,8 @@
 "apache-datafusion-comet-0.12.0": [
 "datafusion/datafusion-comet-0.12.0/apache-datafusion-comet-0.12.0.tar.gz"
 ],
-"apache-datafusion-python-50.1.0": [
-"datafusion/datafusion-python-50.1.0/apache-datafusion-python-50.1.0.tar.gz"
+"apache-datafusion-python-51.0.0": [
+"datafusion/datafusion-python-51.0.0/apache-datafusion-python-51.0.0.tar.gz"
 ],
 "apache-datafusion-sqlparser-rs-0.56.0": [
 "datafusion/datafusion-sqlparser-rs-0.56.0/apache-datafusion-sqlparser-rs-0.56.0.tar.gz"
@@ -3417,9 +3414,6 @@
 ]
 },
 "fineract": {
-"apache-fineract-1.13.0": [
-"fineract/1.13.0/apache-fineract-src-1.13.0.tar.gz"
-],
 "apache-fineract-1.14.0": [
 "fineract/1.14.0/apache-fineract-src-1.14.0.tar.gz"
 ]
@@ -6457,8 +6451,8 @@
 "maven-plugin-3.8.0": [
 "maven/plugins/maven-assembly-plugin-3.8.0-source-release.zip"
 ],
-"maven-plugin-testing-3.4.0": [
-"maven/plugin-testing/maven-plugin-testing-3.4.0-source-release.zip"
+"maven-plugin-testing-3.5.0": [
+"maven/plugin-testing/maven-plugin-testing-3.5.0-source-release.zip"
 ],
 "maven-plugin-tools-3.15.2": [
 "maven/plugin-tools/maven-plugin-tools-3.15.2-source-release.zip"
@@ -7706,6 +7700,9 @@
 "orc-2.1.3": [
 "orc/orc-2.1.3/orc-2.1.3.tar.gz"
 ],
+"orc-2.1.4": [
+"orc/orc-2.1.4/orc-2.1.4.tar.gz"
+],
 "orc-2.2.1": [
 "orc/orc-2.2.1/orc-2.2.1.tar.gz"
 ],
@@ -8728,6 +8725,9 @@
 ],
 "apache-sedona-1.8.0": [
 "sedona/1.8.0/apache-sedona-1.8.0-src.tar.gz"
+],
+"apache-sedona-1.8.1": [
+"sedona/1.8.1/apache-sedona-1.8.1-src.tar.gz"
 ],
 "apache-sedona-db-0.1.0": [
 "sedona/apache-sedona-db-0.1.0/apache-sedona-db-0.1.0.tar.gz"
@@ -9984,6 +9984,9 @@
 "SparkR_4.1.0": [
 "spark/spark-4.1.0/SparkR_4.1.0.tar.gz"
 ],
+"SparkR_4.1.1": [
+"spark/spark-4.1.1/SparkR_4.1.1.tar.gz"
+],
 "pyspark-3.5.7": [
 "spark/spark-3.5.7/pyspark-3.5.7.tar.gz"
 ],
@@ -9993,17 +9996,26 @@
 "pyspark-4.1.0": [
 "spark/spark-4.1.0/pyspark-4.1.0.tar.gz"
 ],
+"pyspark-4.1.1": [
+"spark/spark-4.1.1/pyspark-4.1.1.tar.gz"
+],
 "pyspark_client-4.0.1": [
 "spark/spark-4.0.1/pyspark_client-4.0.1.tar.gz"
 ],
 "pyspark_client-4.1.0": [
 "spark/spark-4.1.0/pyspark_client-4.1.0.tar.gz"
 ],
+"pyspark_client-4.1.1": [
+"spark/spark-4.1.1/pyspark_client-4.1.1.tar.gz"
+],
 "pyspark_connect-4.0.1": [
 "spark/spark-4.0.1/pyspark_connect-4.0.1.tar.gz"
 ],
 "pyspark_connect-4.1.0": [
 "spark/spark-4.1.0/pyspark_connect-4.1.0.tar.gz"
+],
+"pyspark_connect-4.1.1": [
+"spark/spark-4.1.1/pyspark_connect-4.1.1.tar.gz"
 ],
 "spark-3.5.7": [
 "spark/spark-3.5.7/spark-3.5.7.tgz"
@@ -10013,6 +10025,9 @@
 ],
 "spark-4.1.0": [
 "spark/spark-4.1.0/spark-4.1.0.tgz"
+],
+"spark-4.1.1": [
+"spark/spark-4.1.1/spark-4.1.1.tgz"
 ],
 "spark-connect-swift-0.4.0": [
 "spark/spark-connect-swift-0.4.0/spark-connect-swift-0.4.0.tar.gz"
