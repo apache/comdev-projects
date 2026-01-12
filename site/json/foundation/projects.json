@@ -4867,35 +4867,10 @@
 "shortdesc": "Apache Brooklyn is a framework for modeling, monitoring, and managing applications through autonomic blueprints."
 },
 "brpc": {
-"bug-database": "https://github.com/apache/brpc/issues",
-"category": "library",
-"created": "2023-09-07",
-"description": "bRPC is an Industrial-grade RPC framework using C++ Language, which is often used in high performance system such as Search, Storage, Machine learning, Advertisement, Recommendation etc. \"bRPC\" means \"better RPC\".",
-"doap": "https://raw.githubusercontent.com/apache/brpc-website/master/doap_bRPC.rdf",
-"download-page": "https://brpc.apache.org/docs/downloadbrpc/",
+"category": "no-tlp-doap",
 "homepage": "https://brpc.apache.org",
-"license": "https://spdx.org/licenses/Apache-2.0",
-"mailing-list": "https://lists.apache.org/list.html?dev@brpc.apache.org",
-"maintainer": [
-{
-"mbox": "mailto:dev@brpc.apache.org",
-"name": "Apache bRPC PMC"
-}
-],
-"name": "Apache bRPC",
-"pmc": "brpc",
-"programming-language": "C++",
-"release": [
-{
-"created": "2023-08-01",
-"name": "apache-brpc-1.6.0",
-"revision": "1.6.0"
-}
-],
-"repository": [
-"git://gitbox.apache.org/repos/asf/brpc.git"
-],
-"shortdesc": "An industrial-grade RPC framework for building reliable and high-performance services."
+"name": "Apache Brpc",
+"pmc": "brpc"
 },
 "buildstream": {
 "category": "no-tlp-doap",
