@@ -39,10 +39,10 @@
 "apache-airflow-providers-qubole-3.4.3": "2025-11-25",
 "apache-airflow-upgrade-check-1.4.0": "2021-06-26",
 "apache_airflow-2.11.0": "2025-05-20",
-"apache_airflow-3.1.5": "2025-12-12",
+"apache_airflow-3.1.6": "2026-01-13",
 "apache_airflow_client-3.1.3": "2025-11-25",
-"apache_airflow_core-3.1.5": "2025-12-12",
-"apache_airflow_ctl-0.1.0": "2025-11-16",
+"apache_airflow_core-3.1.6": "2026-01-13",
+"apache_airflow_ctl-0.1.1": "2026-01-13",
 "apache_airflow_providers-2025-12-30": "2026-01-02",
 "apache_airflow_providers_airbyte-5.3.1": "2025-12-13",
 "apache_airflow_providers_alibaba-3.3.2": "2026-01-02",
@@ -146,7 +146,7 @@
 "apache_airflow_providers_ydb-2.3.1": "2025-12-13",
 "apache_airflow_providers_zendesk-4.11.0": "2025-11-30",
 "apache_airflow_python_client-3.1.3": "2025-11-25",
-"apache_airflow_task_sdk-1.1.5": "2025-12-12"
+"apache_airflow_task_sdk-1.1.6": "2026-01-13"
 },
 "allura": {
 "allura-1.18.0": "2025-08-12"
@@ -290,6 +290,9 @@
 "apache-arrow-object-store-rs-0.13.0": "2025-12-23",
 "apache-arrow-rs-57.2.0": "2026-01-11",
 "apache-arrow-swift-21.0.0": "2025-07-07"
+},
+"artemis": {
+"apache-artemis-console-1.5.0": "2025-12-30"
 },
 "asterixdb": {
 "apache-asterixdb-0.9.6": "2020-10-14",
@@ -1153,6 +1156,7 @@
 "flink-cdc-3.5.0": "2025-09-23",
 "flink-connector-aws-4.3.0": "2024-04-19",
 "flink-connector-aws-5.0.0": "2024-11-06",
+"flink-connector-aws-5.1.0": "2026-01-07",
 "flink-connector-cassandra-3.1.0": "2023-05-05",
 "flink-connector-cassandra-3.2.0": "2024-04-22",
 "flink-connector-elasticsearch-3.0.1": "2023-04-13",
@@ -2083,7 +2087,7 @@
 "apache-manifoldcf-solr-9.x-plugin-2.2": "2022-09-04"
 },
 "maven": {
-"apache-36": "2026-01-06",
+"apache-37": "2026-01-13",
 "apache-maven-3.8.9": "2025-06-14",
 "apache-maven-3.9.12": "2025-12-13",
 "apache-maven-4.0.0-rc-5": "2025-11-07",
@@ -2146,7 +2150,7 @@
 "maven-mvnd-1.0.2": "2024-08-24",
 "maven-mvnd-1.0.3": "2025-09-17",
 "maven-mvnd-2.0.0-rc-3": "2025-03-10",
-"maven-parent-46": "2026-01-06",
+"maven-parent-47": "2026-01-13",
 "maven-patch-plugin-1.3": "2024-12-14",
 "maven-plugin-3.8.0": "2025-11-29",
 "maven-plugin-testing-3.5.0": "2026-01-10",
@@ -2585,6 +2589,7 @@
 "apache-parquet-1.15.1": "2025-03-14",
 "apache-parquet-1.15.2": "2025-04-29",
 "apache-parquet-1.16.0": "2025-08-30",
+"apache-parquet-1.17.0": "2025-12-22",
 "apache-parquet-cpp-1.5.0": "2018-09-20",
 "apache-parquet-format-2.10.0": "2023-11-20",
 "apache-parquet-format-2.11.0": "2025-03-21",
@@ -3011,7 +3016,7 @@
 "sling": {
 "adapter-annotations-1.0.0": "2013-01-21",
 "apache-sling-jar-resource-bundle-1.0.2": "2020-05-14",
-"feature-launcher-maven-plugin-1.0.0": "2025-11-28",
+"feature-launcher-maven-plugin-1.0.2": "2026-01-13",
 "htl-maven-plugin-2.0.4-1.4.0": "2021-10-08",
 "javaversion-maven-plugin-1.0.0": "2017-09-04",
 "jspc-maven-plugin-2.3.4": "2022-04-12",
@@ -3065,7 +3070,7 @@
 "org.apache.sling.commons.mime-2.3.0": "2023-12-10",
 "org.apache.sling.commons.osgi-2.4.2": "2020-08-09",
 "org.apache.sling.commons.scheduler-2.7.14": "2024-12-16",
-"org.apache.sling.commons.testing-2.2.0": "2025-03-31",
+"org.apache.sling.commons.testing-2.2.2": "2026-01-13",
 "org.apache.sling.commons.threads-3.3.0": "2024-08-30",
 "org.apache.sling.connection-timeout-agent-1.1.0": "2025-10-14",
 "org.apache.sling.contentparser.api-2.0.0": "2019-07-29",
