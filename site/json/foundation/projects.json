@@ -9838,6 +9838,45 @@
 ],
 "shortdesc": "Apache Derby is an open source relational database implemented in Java."
 },
+"db-jdo": {
+"bug-database": "https://issues.apache.org/jira/projects/JDO",
+"category": "database",
+"created": "2023-09-06",
+"description": "The POJO approach separates data manipulation (done by accessing Java data members in the Java domain objects) from database manipulation (done by calling the JDO interface methods). This separation of concerns leads to a high degree of independence of the Java view of data from the database view of the data.",
+"doap": "https://raw.githubusercontent.com/apache/db-jdo-site/main/doap_JDO.rdf",
+"download-page": "https://db.apache.org/jdo/downloads.html",
+"homepage": "https://db.apache.org/jdo/",
+"implements": [
+{
+"body": "JCP",
+"id": "JSR-243",
+"title": "Java Data Objects",
+"url": "https://db.apache.org/jdo/specifications.html"
+}
+],
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://db.apache.org/jdo/mail-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:jdo-dev@db.apache.org",
+"name": "JDO Project"
+}
+],
+"name": "Apache JDO",
+"pmc": "db",
+"programming-language": "Java",
+"release": [
+{
+"created": "2022-05-04",
+"name": "Java Data Objects",
+"revision": "3.2.1"
+}
+],
+"repository": [
+"https://github.com/apache/db-jdo"
+],
+"shortdesc": "Java Data Objects (JDO) is a standard way to access persistent data in databases, using plain old Java objects (POJO) to represent persistent data."
+},
 "db-torque": {
 "bug-database": "https://issues.apache.org/jira/browse/TORQUE",
 "category": "database",
