@@ -4978,28 +4978,10 @@
 "shortdesc": "Bean Validation API Implementation"
 },
 "calcite": {
-"bug-database": "https://issues.apache.org/jira/browse/CALCITE",
-"category": "big-data, hadoop, sql, geospatial",
-"created": "2015-05-27",
-"description": "Calcite is a framework for writing data management\n      systems.  It converts queries, represented in relational algebra,\n      into an efficient executable form using pluggable query\n      transformation rules. There is an optional SQL parser and JDBC\n      driver. Calcite does not store data or have a preferred execution\n      engine. Data formats, execution algorithms, planning rules,\n      operator types, metadata, and cost model are added at runtime as\n      plugins.",
-"doap": "https://gitbox.apache.org/repos/asf?p=calcite.git;a=blob_plain;f=site/doap_calcite.rdf;hb=HEAD",
-"download-page": "https://calcite.apache.org/downloads",
+"category": "no-tlp-doap",
 "homepage": "https://calcite.apache.org",
-"license": "http://spdx.org/licenses/Apache-2.0",
-"mailing-list": "https://calcite.apache.org/develop",
-"maintainer": [
-{
-"mbox": "mailto:jhyde@apache.org",
-"name": "Julian Hyde"
-}
-],
 "name": "Apache Calcite",
-"pmc": "calcite",
-"programming-language": "Java",
-"repository": [
-"https://gitbox.apache.org/repos/asf/calcite.git"
-],
-"shortdesc": "A dynamic data management framework."
+"pmc": "calcite"
 },
 "camel": {
 "bug-database": "https://issues.apache.org/jira/browse/CAMEL",
@@ -5038,10 +5020,28 @@
 "shortdesc": "Apache CarbonData is an indexed columnar data format for fast analytics on big data platform, e.g. Apache Hadoop, Apache Spark, etc."
 },
 "cassandra": {
-"category": "no-tlp-doap",
-"homepage": "https://cassandra.apache.org",
+"bug-database": "https://issues.apache.org/jira/browse/CASSANDRA",
+"category": "database",
+"created": "2012-04-10",
+"description": "Linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure make Apache Cassandra the perfect platform for mission-critical data. Cassandra's support for replicating across multiple datacenters is best-in-class.\n\nCassandra is in use at Netflix, Twitter, Urban Airship, Constant Contact, Reddit, Cisco, OpenX, Digg, CloudKick, Ooyala, and more companies that have large, active data sets.\n\nCassandra provides full Hadoop integration, including with Pig and Hive.",
+"doap": "https://gitbox.apache.org/repos/asf?p=cassandra-website.git;a=blob_plain;f=doap.rdf;hb=HEAD",
+"download-page": "http://cassandra.apache.org/download/",
+"homepage": "http://cassandra.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://cassandra.apache.org/",
+"maintainer": [
+{
+"mbox": "mailto:dev@cassandra.apache.org",
+"name": "Apache Cassandra PMC"
+}
+],
 "name": "Apache Cassandra",
-"pmc": "cassandra"
+"pmc": "cassandra",
+"programming-language": "Java",
+"repository": [
+"http://git-wip-us.apache.org/repos/asf?p=cassandra.git"
+],
+"shortdesc": "The Apache Cassandra database is the right choice when you need scalability and high availability without compromising performance."
 },
 "causeway": {
 "bug-database": "https://issues.apache.org/jira/browse/CAUSEWAY",
@@ -19757,9 +19757,9 @@
 "revision": "10.0.27"
 },
 {
-"created": "2025-12-07",
+"created": "2025-01-23",
 "name": "Latest Stable 9.0.x Release",
-"revision": "9.0.113"
+"revision": "9.0.115"
 }
 ],
 "repository": [
