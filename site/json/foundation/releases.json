@@ -282,7 +282,7 @@
 "apache-arrow-adbc-22": "2026-01-06",
 "apache-arrow-dotnet-22.1.0": "2025-10-17",
 "apache-arrow-flight-sql-postgresql-0.1.0": "2023-09-13",
-"apache-arrow-go-18.5.0": "2025-12-12",
+"apache-arrow-go-18.5.1": "2026-01-26",
 "apache-arrow-java-18.3.0": "2025-05-13",
 "apache-arrow-js-21.1.0": "2025-10-07",
 "apache-arrow-julia-2.8.1": "2026-01-13",
@@ -1300,7 +1300,7 @@
 "geronimo-txmanager-parent-4.0.0": "2023-10-23",
 "geronimo-validation_2.0_spec-1.0": "2018-10-04",
 "safeguard-parent-1.2.1": "2019-02-28",
-"xbean-4.29": "2025-12-18"
+"xbean-4.30": "2026-01-26"
 },
 "gobblin": {
 "apache-gobblin-incubating-sources-0.12.0": "2018-06-20",
@@ -1512,7 +1512,7 @@
 "apache-iceberg-1.9.0": "2025-04-22",
 "apache-iceberg-1.9.1": "2025-05-21",
 "apache-iceberg-1.9.2": "2025-07-04",
-"apache-iceberg-cpp-0.1.0": "2025-09-10",
+"apache-iceberg-cpp-0.2.0": "2026-01-22",
 "apache-iceberg-go-0.4.0": "2025-10-09",
 "apache-iceberg-rust-0.3.0": "2024-08-14",
 "apache-iceberg-rust-0.4.0": "2024-12-20",
@@ -1593,6 +1593,10 @@
 "apache-baremaps-0.8.1-incubating": "2024-12-20",
 "apache-baremaps-0.8.2-incubating": "2025-02-26",
 "baremaps-0.7.1-incubating": "2023-03-14"
+},
+"incubator-burr": {
+"apache-burr-0.41.0-incubating": "2026-01-11",
+"apache-burr-0.41.0-incubating-sdist": "2026-01-11"
 },
 "incubator-cloudberry": {
 "apache-cloudberry-2.0.0-incubating": "2025-08-25"
@@ -2108,7 +2112,7 @@
 "maven-antrun-plugin-3.2.0": "2025-10-20",
 "maven-archetype-3.4.1": "2025-10-06",
 "maven-archetype-bundles-1.5": "2024-08-25",
-"maven-archiver-3.6.5": "2025-10-08",
+"maven-archiver-3.6.6": "2026-01-26",
 "maven-archiver-4.0.0-beta-5": "2025-10-08",
 "maven-artifact-plugin-3.6.1": "2025-10-02",
 "maven-artifact-transfer-0.13.1": "2020-12-26",
@@ -2147,10 +2151,10 @@
 "maven-jarsigner-3.1.0": "2024-08-18",
 "maven-jarsigner-plugin-3.1.0": "2024-09-10",
 "maven-javadoc-plugin-3.12.0": "2025-09-21",
-"maven-jdeprscan-plugin-3.0.0-alpha-1": "2017-11-15",
-"maven-jdeps-plugin-3.1.2": "2019-06-20",
+"maven-jdeprscan-plugin-3.0.0": "2026-01-26",
+"maven-jdeps-plugin-3.2.0": "2026-01-26",
 "maven-jlink-plugin-3.2.0": "2024-02-01",
-"maven-jmod-plugin-3.0.0-alpha-1": "2017-09-20",
+"maven-jmod-plugin-3.0.0": "2026-01-26",
 "maven-linkcheck-plugin-1.2": "2014-10-11",
 "maven-mapping-3.0.0": "2015-11-24",
 "maven-mvnd-1.0.2": "2024-08-24",
@@ -2177,7 +2181,7 @@
 "maven-scm-2.2.1": "2025-09-25",
 "maven-scm-publish-plugin-3.3.0": "2024-06-20",
 "maven-script-interpreter-1.6": "2024-05-03",
-"maven-scripting-plugin-3.0.0": "2021-03-01",
+"maven-scripting-plugin-3.1.0": "2026-01-26",
 "maven-shade-plugin-3.6.1": "2025-09-14",
 "maven-shared-incremental-1.1": "2013-04-24",
 "maven-shared-io-3.0.0": "2015-12-23",
@@ -2339,7 +2343,7 @@
 "nativeexecution-external-sources-1-24aefa9": "2023-10-10",
 "nbm-archetype-1.19": "2024-08-06",
 "nbm-suite-root-1.12": "2019-10-10",
-"nbpackage-1.0-beta6": "2025-07-08",
+"nbpackage-1.0": "2026-01-22",
 "netbeans-27": "2025-08-16",
 "netbeans-28": "2025-11-05",
 "netbeans-archetype-parent-1.0.0": "2023-07-11",
@@ -3460,7 +3464,7 @@
 "tomcat": {
 "apache-tomcat-10.1.49": "2025-11-06",
 "apache-tomcat-10.1.50": "2025-12-02",
-"apache-tomcat-11.0.15": "2025-12-02",
+"apache-tomcat-11.0.18": "2026-01-23",
 "apache-tomcat-9.0.111": "2025-10-10",
 "apache-tomcat-9.0.112": "2025-11-06",
 "apache-tomcat-9.0.113": "2025-12-02",

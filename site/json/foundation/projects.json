@@ -4421,6 +4421,226 @@
 ],
 "shortdesc": "Apache Avro is a data serialization system."
 },
+"axis-axis2": {
+"bug-database": "https://issues.apache.org/jira/browse/AXIS2",
+"category": "xml, http, network-server, network-client",
+"created": "2007-06-08",
+"description": "Apache Axis2 is a toolkit for creating and using Web Services, including SOAP, MTOM, XML/HTTP and advanced WS-* standards such as WSRM and WSSecurity.\n    Axis2 includes a very fast runtime engine, together with tooling support for WSDL and WS-Policy, and plugin support for WS-Addressing, WS-ReliableMessaging, WS-Security, \n    WS-Eventing, WS-Transactions, WS-Trust and WS-SecureConversation.\n    Axis2 runs either standalone or hosted in Tomcat or other servlet containers. \n    ",
+"doap": "https://gitbox.apache.org/repos/asf?p=axis-axis2-java-core.git;a=blob_plain;f=etc/doap_Axis2.rdf;hb=HEAD",
+"download-page": "http://axis.apache.org/axis2/java/core/download.cgi",
+"homepage": "http://axis.apache.org/axis2/java/core",
+"implements": [
+{
+"body": "W3C",
+"id": "SOAP1.1",
+"title": "SOAP1.1",
+"url": "http://www.w3.org/TR/soap/"
+},
+{
+"body": "W3C",
+"id": "SOAP1.2",
+"title": "SOAP1.2",
+"url": "http://www.w3.org/TR/soap12-part1/"
+},
+{
+"body": "W3C",
+"id": "SOAP-MTOM",
+"title": "MTOM",
+"url": "http://www.w3.org/TR/soap12-mtom/"
+},
+{
+"body": "IETF",
+"id": "HTTP 1.1",
+"title": "HTTP",
+"url": "http://www.w3.org/Protocols/rfc2616/rfc2616.html"
+},
+{
+"body": "W3C",
+"id": "WSA",
+"title": "WS-Addressing",
+"url": "http://www.w3.org/2002/ws/addr/"
+},
+{
+"body": "OASIS",
+"id": "WSRM",
+"title": "WS-ReliableMessaging",
+"url": "http://www.oasis-open.org/committees/tc_home.php?wg_abbrev=ws-rx"
+},
+{
+"body": "OASIS",
+"id": "WSSEC",
+"title": "WS-Security",
+"url": "http://www.oasis-open.org/committees/download.php/16790/wss-v1.1-spec-os-SOAPMessageSecurity.pdf"
+}
+],
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://axis.apache.org/axis2/java/core/mail-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:java-dev@axis.apache.org?subject=%5BAxis2%5D",
+"name": "Axis2 Development Team"
+}
+],
+"name": "Apache Axis2",
+"pmc": "axis",
+"programming-language": "Java, C",
+"release": [
+{
+"created": "2006-05-04",
+"name": "Apache Axis2",
+"revision": "1.0"
+},
+{
+"created": "2006-11-13",
+"name": "Apache Axis2",
+"revision": "1.1"
+},
+{
+"created": "2007-01-09",
+"name": "Apache Axis2",
+"revision": "1.1.1"
+},
+{
+"created": "2007-04-27",
+"name": "Apache Axis2",
+"revision": "1.2"
+},
+{
+"created": "2007-07-06",
+"name": "Apache Axis2",
+"revision": "1.3"
+},
+{
+"created": "2008-02-05",
+"name": "Apache Axis2",
+"revision": "1.4"
+},
+{
+"created": "2008-08-24",
+"name": "Apache Axis2",
+"revision": "1.4.1"
+},
+{
+"created": "2009-06-09",
+"name": "Apache Axis2",
+"revision": "1.5"
+},
+{
+"created": "2009-10-23",
+"name": "Apache Axis2",
+"revision": "1.5.1"
+},
+{
+"created": "2010-09-06",
+"name": "Apache Axis2",
+"revision": "1.5.2"
+},
+{
+"created": "2010-11-12",
+"name": "Apache Axis2",
+"revision": "1.5.3"
+},
+{
+"created": "2010-12-19",
+"name": "Apache Axis2",
+"revision": "1.5.4"
+},
+{
+"created": "2011-05-29",
+"name": "Apache Axis2",
+"revision": "1.5.5"
+},
+{
+"created": "2011-08-30",
+"name": "Apache Axis2",
+"revision": "1.5.6"
+},
+{
+"created": "2011-05-17",
+"name": "Apache Axis2",
+"revision": "1.6.0"
+},
+{
+"created": "2011-08-30",
+"name": "Apache Axis2",
+"revision": "1.6.1"
+},
+{
+"created": "2012-04-17",
+"name": "Apache Axis2",
+"revision": "1.6.2"
+},
+{
+"created": "2015-06-27",
+"name": "Apache Axis2",
+"revision": "1.6.3"
+},
+{
+"created": "2015-12-28",
+"name": "Apache Axis2",
+"revision": "1.6.4"
+},
+{
+"created": "2016-01-18",
+"name": "Apache Axis2",
+"revision": "1.7.0"
+},
+{
+"created": "2016-02-20",
+"name": "Apache Axis2",
+"revision": "1.7.1"
+},
+{
+"created": "2016-05-02",
+"name": "Apache Axis2",
+"revision": "1.7.2"
+},
+{
+"created": "2016-05-30",
+"name": "Apache Axis2",
+"revision": "1.7.3"
+},
+{
+"created": "2016-10-21",
+"name": "Apache Axis2",
+"revision": "1.7.4"
+},
+{
+"created": "2017-05-06",
+"name": "Apache Axis2",
+"revision": "1.7.5"
+},
+{
+"created": "2017-07-30",
+"name": "Apache Axis2",
+"revision": "1.7.6"
+},
+{
+"created": "2017-11-22",
+"name": "Apache Axis2",
+"revision": "1.7.7"
+},
+{
+"created": "2018-05-19",
+"name": "Apache Axis2",
+"revision": "1.7.8"
+},
+{
+"created": "2018-11-16",
+"name": "Apache Axis2",
+"revision": "1.7.9"
+},
+{
+"created": "2021-08-01",
+"name": "Apache Axis2",
+"revision": "1.8.0"
+}
+],
+"repository": [
+"http://svn.apache.org/repos/asf/axis/axis2/java/core/trunk/"
+],
+"shortdesc": "Apache Axis2 is a service hosting and consumption framework that makes it easy to use SOAP and Web Services"
+},
 "axis-sandesha2": {
 "bug-database": "http://issues.apache.org/jira/browse/SANDESHA2",
 "category": "xml",
