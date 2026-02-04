@@ -613,6 +613,9 @@
 ],
 "apache-answer-1.7.1": [
 "answer/1.7.1/apache-answer-1.7.1-src.tar.gz"
+],
+"apache-answer-2.0.0": [
+"answer/2.0.0/apache-answer-2.0.0-src.tar.gz"
 ]
 },
 "ant": {
@@ -972,6 +975,10 @@
 "apache-artemis-console-1.5.0": [
 "artemis/artemis-console/1.5.0/apache-artemis-console-1.5.0-source-release.tar.gz",
 "artemis/artemis-console/1.5.0/apache-artemis-console-1.5.0-source-release.zip"
+],
+"apache-artemis-console-1.6.0": [
+"artemis/artemis-console/1.6.0/apache-artemis-console-1.6.0-source-release.tar.gz",
+"artemis/artemis-console/1.6.0/apache-artemis-console-1.6.0-source-release.zip"
 ]
 },
 "asterixdb": {
@@ -7940,9 +7947,6 @@
 "apache-pekko-http-2.0.0-M1-20260114": [
 "pekko/HTTP-2.0.0-M1/apache-pekko-http-2.0.0-M1-src-20260114.tgz"
 ],
-"apache-pekko-management-1.1.1-20250426": [
-"pekko/MANAGEMENT-1.1.1/apache-pekko-management-1.1.1-src-20250426.tgz"
-],
 "apache-pekko-management-1.2.0-20251211": [
 "pekko/MANAGEMENT-1.2.0/apache-pekko-management-1.2.0-src-20251211.tgz"
 ],
@@ -8827,11 +8831,11 @@
 "apache-servicecomb-java-chassis-distribution-1.3.11": [
 "servicecomb/servicecomb-java-chassis/1.3.11/apache-servicecomb-java-chassis-distribution-1.3.11-src.zip"
 ],
-"apache-servicecomb-java-chassis-distribution-2.8.29": [
-"servicecomb/servicecomb-java-chassis/2.8.29/apache-servicecomb-java-chassis-distribution-2.8.29-src.zip"
+"apache-servicecomb-java-chassis-distribution-2.8.30": [
+"servicecomb/servicecomb-java-chassis/2.8.30/apache-servicecomb-java-chassis-distribution-2.8.30-src.zip"
 ],
-"apache-servicecomb-java-chassis-distribution-2.9.2": [
-"servicecomb/servicecomb-java-chassis/2.9.2/apache-servicecomb-java-chassis-distribution-2.9.2-src.zip"
+"apache-servicecomb-java-chassis-distribution-2.9.3": [
+"servicecomb/servicecomb-java-chassis/2.9.3/apache-servicecomb-java-chassis-distribution-2.9.3-src.zip"
 ],
 "apache-servicecomb-java-chassis-distribution-3.3.0": [
 "servicecomb/servicecomb-java-chassis/3.3.0/apache-servicecomb-java-chassis-distribution-3.3.0-src.zip"
@@ -8939,9 +8943,6 @@
 ]
 },
 "sis": {
-"apache-sis-1.5": [
-"sis/1.5/apache-sis-1.5-src.zip"
-],
 "apache-sis-1.6": [
 "sis/1.6/apache-sis-1.6-src.zip"
 ]
@@ -10513,11 +10514,30 @@
 "tomee/tomee-10.1.3/apache-tomee-10.1.3-webprofile.tar.gz",
 "tomee/tomee-10.1.3/apache-tomee-10.1.3-webprofile.zip"
 ],
+"apache-tomee-10.1.4-microprofile": [
+"tomee/tomee-10.1.4/apache-tomee-10.1.4-microprofile.tar.gz",
+"tomee/tomee-10.1.4/apache-tomee-10.1.4-microprofile.zip"
+],
+"apache-tomee-10.1.4-plume": [
+"tomee/tomee-10.1.4/apache-tomee-10.1.4-plume.tar.gz",
+"tomee/tomee-10.1.4/apache-tomee-10.1.4-plume.zip"
+],
+"apache-tomee-10.1.4-plus": [
+"tomee/tomee-10.1.4/apache-tomee-10.1.4-plus.tar.gz",
+"tomee/tomee-10.1.4/apache-tomee-10.1.4-plus.zip"
+],
+"apache-tomee-10.1.4-webprofile": [
+"tomee/tomee-10.1.4/apache-tomee-10.1.4-webprofile.tar.gz",
+"tomee/tomee-10.1.4/apache-tomee-10.1.4-webprofile.zip"
+],
 "jakartaee-api-parent-10.0.1": [
 "tomee/jakartaee-api-10.0.1/jakartaee-api-parent-10.0.1-source-release.zip"
 ],
 "tomee-10.1.3": [
 "tomee/tomee-10.1.3/tomee-project-10.1.3-source-release.zip"
+],
+"tomee-10.1.4": [
+"tomee/tomee-10.1.4/tomee-project-10.1.4-source-release.zip"
 ],
 "tomee-patch-parent-0.10": [
 "tomee/tomee-patch-plugin-0.10/tomee-patch-parent-0.10-source-release.zip"
