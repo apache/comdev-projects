@@ -4867,10 +4867,35 @@
 "shortdesc": "Apache Brooklyn is a framework for modeling, monitoring, and managing applications through autonomic blueprints."
 },
 "brpc": {
-"category": "no-tlp-doap",
+"bug-database": "https://github.com/apache/brpc/issues",
+"category": "library",
+"created": "2023-09-07",
+"description": "bRPC is an Industrial-grade RPC framework using C++ Language, which is often used in high performance system such as Search, Storage, Machine learning, Advertisement, Recommendation etc. \"bRPC\" means \"better RPC\".",
+"doap": "https://raw.githubusercontent.com/apache/brpc-website/master/doap_bRPC.rdf",
+"download-page": "https://brpc.apache.org/docs/downloadbrpc/",
 "homepage": "https://brpc.apache.org",
-"name": "Apache Brpc",
-"pmc": "brpc"
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://lists.apache.org/list.html?dev@brpc.apache.org",
+"maintainer": [
+{
+"mbox": "mailto:dev@brpc.apache.org",
+"name": "Apache bRPC PMC"
+}
+],
+"name": "Apache bRPC",
+"pmc": "brpc",
+"programming-language": "C++",
+"release": [
+{
+"created": "2023-08-01",
+"name": "apache-brpc-1.6.0",
+"revision": "1.6.0"
+}
+],
+"repository": [
+"git://gitbox.apache.org/repos/asf/brpc.git"
+],
+"shortdesc": "An industrial-grade RPC framework for building reliable and high-performance services."
 },
 "buildstream": {
 "category": "no-tlp-doap",
@@ -5013,28 +5038,10 @@
 "shortdesc": "Apache CarbonData is an indexed columnar data format for fast analytics on big data platform, e.g. Apache Hadoop, Apache Spark, etc."
 },
 "cassandra": {
-"bug-database": "https://issues.apache.org/jira/browse/CASSANDRA",
-"category": "database",
-"created": "2012-04-10",
-"description": "Linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure make Apache Cassandra the perfect platform for mission-critical data. Cassandra's support for replicating across multiple datacenters is best-in-class.\n\nCassandra is in use at Netflix, Twitter, Urban Airship, Constant Contact, Reddit, Cisco, OpenX, Digg, CloudKick, Ooyala, and more companies that have large, active data sets.\n\nCassandra provides full Hadoop integration, including with Pig and Hive.",
-"doap": "https://gitbox.apache.org/repos/asf?p=cassandra-website.git;a=blob_plain;f=doap.rdf;hb=HEAD",
-"download-page": "http://cassandra.apache.org/download/",
-"homepage": "http://cassandra.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://cassandra.apache.org/",
-"maintainer": [
-{
-"mbox": "mailto:dev@cassandra.apache.org",
-"name": "Apache Cassandra PMC"
-}
-],
+"category": "no-tlp-doap",
+"homepage": "https://cassandra.apache.org",
 "name": "Apache Cassandra",
-"pmc": "cassandra",
-"programming-language": "Java",
-"repository": [
-"http://git-wip-us.apache.org/repos/asf?p=cassandra.git"
-],
-"shortdesc": "The Apache Cassandra database is the right choice when you need scalability and high availability without compromising performance."
+"pmc": "cassandra"
 },
 "causeway": {
 "bug-database": "https://issues.apache.org/jira/browse/CAUSEWAY",
@@ -12836,6 +12843,11 @@
 "created": "2023-08-10",
 "name": "3.8.0",
 "revision": "v3.8.0"
+},
+{
+"created": "2026-02-09",
+"name": "3.9.0",
+"revision": "v3.9.0"
 }
 ],
 "repository": [
@@ -15976,9 +15988,9 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2025-12-31",
+"created": "2022-12-18 ",
 "name": "Stable Release",
-"revision": "2.1.0"
+"revision": "1.3.0"
 }
 ],
 "repository": [
