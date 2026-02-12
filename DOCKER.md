@@ -4,6 +4,10 @@
 
 ```docker compose build```
 
+## Set up data
+
+```docker-config/setup-data.sh```
+
 ## Start application
 
 ```docker compose up```

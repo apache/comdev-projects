@@ -1111,9 +1111,9 @@
 "programming-language": "C, C++, C#, Go, Java, JavaScript, Julia, MATLAB, Python, R, Ruby, Rust",
 "release": [
 {
-"created": "2025-10-24",
+"created": "2026-01-18",
 "name": "Apache Arrow",
-"revision": "22.0.0"
+"revision": "23.0.0"
 }
 ],
 "repository": [
@@ -9492,6 +9492,11 @@
 "programming-language": "Scala, Java",
 "release": [
 {
+"created": "2026-02-05",
+"name": "Apache Daffodil",
+"revision": "4.1.0"
+},
+{
 "created": "2025-09-22",
 "name": "Apache Daffodil",
 "revision": "4.0.0"
@@ -9843,7 +9848,7 @@
 "category": "database",
 "created": "2023-09-06",
 "description": "The POJO approach separates data manipulation (done by accessing Java data members in the Java domain objects) from database manipulation (done by calling the JDO interface methods). This separation of concerns leads to a high degree of independence of the Java view of data from the database view of the data.",
-"doap": "https://raw.githubusercontent.com/apache/db-jdo-site/main/doap__JDO.rdf",
+"doap": "https://raw.githubusercontent.com/apache/db-jdo-site/main/doap_JDO.rdf",
 "download-page": "https://db.apache.org/jdo/downloads.html",
 "homepage": "https://db.apache.org/jdo/",
 "implements": [
@@ -11418,6 +11423,12 @@
 ],
 "shortdesc": "high-performance open data lakehouse platform"
 },
+"hugegraph": {
+"category": "no-tlp-doap",
+"homepage": "https://hugegraph.apache.org",
+"name": "Apache Hugegraph",
+"pmc": "hugegraph"
+},
 "iceberg": {
 "bug-database": "https://github.com/apache/iceberg/issues",
 "category": "big-data, database, data-engineering",
@@ -12850,6 +12861,11 @@
 "created": "2023-08-10",
 "name": "3.8.0",
 "revision": "v3.8.0"
+},
+{
+"created": "2026-02-09",
+"name": "3.9.0",
+"revision": "v3.9.0"
 }
 ],
 "repository": [
@@ -12949,13 +12965,13 @@
 "homepage": "https://logging.apache.org/log4j/2.x/index.html",
 "license": "https://spdx.org/licenses/Apache-2.0",
 "mailing-list": "https://logging.apache.org/support.html",
-"name": "Apache Log4j",
+"name": "Log4j",
 "pmc": "logging",
 "programming-language": "Java",
 "repository": [
 "https://github.com/apache/logging-log4j2.git"
 ],
-"shortdesc": "Apache Log4j is a versatile, feature-rich, efficient logging API and backend for Java."
+"shortdesc": "Log4j is a versatile, feature-rich, efficient logging API and backend for Java."
 },
 "logging-log4net": {
 "bug-database": "https://github.com/apache/logging-log4net/issues",
@@ -15615,6 +15631,11 @@
 "programming-language": "Java, Groovy, JavaScript, XML, Freemarker",
 "release": [
 {
+"created": "2026-01-20",
+"name": "Apache OFBiz R24.09",
+"revision": "24.09.05"
+},
+{
 "created": "2025-12-02",
 "name": "Apache OFBiz R24.09",
 "revision": "24.09.04"
@@ -15985,9 +16006,9 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2025-12-31",
+"created": "2022-12-18 ",
 "name": "Stable Release",
-"revision": "2.1.0"
+"revision": "1.3.0"
 }
 ],
 "repository": [
@@ -17925,6 +17946,11 @@
 "programming-language": "Java",
 "release": [
 {
+"created": "2026-01-20",
+"name": "solr-9.10.1",
+"revision": "9.10.1"
+},
+{
 "created": "2025-11-06",
 "name": "solr-9.10.0",
 "revision": "9.10.0"
@@ -19749,9 +19775,9 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2025-12-08",
+"created": "2026-01-27",
 "name": "Latest Stable 10.1.x Release",
-"revision": "10.1.50"
+"revision": "10.1.52"
 },
 {
 "created": "2022-10-10",
@@ -19759,9 +19785,9 @@
 "revision": "10.0.27"
 },
 {
-"created": "2025-12-07",
+"created": "2025-01-23",
 "name": "Latest Stable 9.0.x Release",
-"revision": "9.0.113"
+"revision": "9.0.115"
 }
 ],
 "repository": [
@@ -20617,6 +20643,11 @@
 "created": "2019-01-10",
 "name": "Apache Axiom",
 "revision": "1.2.22"
+},
+{
+"created": "2025-01-28",
+"name": "Apache Axiom",
+"revision": "2.0.0"
 }
 ],
 "repository": [
@@ -21660,6 +21691,31 @@
 "pmc": "yunikorn",
 "programming-language": "Go, JavaScript",
 "release": [
+{
+"created": "2026-02-03",
+"name": "YuniKorn 1.8.0",
+"revision": "1.8.0"
+},
+{
+"created": "2025-07-28",
+"name": "YuniKorn 1.7.0",
+"revision": "1.7.0"
+},
+{
+"created": "2025-05-06",
+"name": "YuniKorn 1.6.3",
+"revision": "1.6.3"
+},
+{
+"created": "2025-03-18",
+"name": "YuniKorn 1.6.2",
+"revision": "1.6.2"
+},
+{
+"created": "2025-01-24",
+"name": "YuniKorn 1.6.1",
+"revision": "1.6.1"
+},
 {
 "created": "2024-09-17",
 "name": "YuniKorn 1.6.0",

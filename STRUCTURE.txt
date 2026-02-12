@@ -49,7 +49,6 @@ crontab -l -u www-data:
 # m h  dom mon dow   command
 00 00 * * * cd /var/www/projects.apache.org/scripts/cronjobs && ./python3logger.sh podlings.py
 01 00 * * * cd /var/www/projects.apache.org/scripts/cronjobs && ./python3logger.sh parsecommitters.py
-02 00 * * * cd /var/www/projects.apache.org/scripts/cronjobs && ./python3logger.sh countaccounts.py
 03 00 * * * cd /var/www/projects.apache.org/scripts/cronjobs && ./python3logger.sh parsereleases.py
 05 01 * * * cd /var/www/projects.apache.org/scripts/cronjobs && ./python3logger.sh parsecommitteeinfo.py
 00 02 * * * cd /var/www/projects.apache.org/scripts/cronjobs && ./python3logger.sh parseprojects.py

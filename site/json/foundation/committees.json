@@ -530,6 +530,10 @@
 "date": "2018-12-19",
 "name": "Bolke de Bruin"
 },
+"bugraoz": {
+"date": "2026-01-14",
+"name": "Bugra Ozturk"
+},
 "criccomini": {
 "date": "2018-12-19",
 "name": "Chris Riccomini"
@@ -609,6 +613,10 @@
 "potiuk": {
 "date": "2019-10-18",
 "name": "Jarek Potiuk"
+},
+"rahulvats": {
+"date": "2026-01-14",
+"name": "Rahul Vats"
 },
 "saguziel": {
 "date": "2018-12-19",
@@ -1170,10 +1178,6 @@
 "date": "2015-04-10",
 "name": "Christian Schneider"
 },
-"csierra": {
-"date": "2018-07-03",
-"name": "Carlos Sierra Andr\u00e9s"
-},
 "cumminsh": {
 "date": "2010-12-15",
 "name": "Holly Cummins"
@@ -1185,10 +1189,6 @@
 "dims": {
 "date": "2010-12-15",
 "name": "Davanum Srinivas"
-},
-"djencks": {
-"date": "2010-12-15",
-"name": "David Jencks"
 },
 "dkulp": {
 "date": "2010-12-15",
@@ -3594,6 +3594,10 @@
 "date": "2010-02-17",
 "name": "Eric Evans"
 },
+"frankgh": {
+"date": "2026-02-09",
+"name": "Francisco Guerrero"
+},
 "gdusbabek": {
 "date": "2010-04-29",
 "name": "Gary Dusbabek"
@@ -5646,6 +5650,10 @@
 "rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/datafusion.rdf",
 "reporting": 3,
 "roster": {
+"adriangb": {
+"date": "2026-02-02",
+"name": "Adrian Garcia Badaracco"
+},
 "agrove": {
 "date": "2024-04-17",
 "name": "Andrew Grove"
@@ -5812,7 +5820,7 @@
 "shortdesc": "an open source, high-performance library of streaming algorithms commonly called \"sketches\" in the data sciences. Sketches are small, stateful programs that process massive data as a stream and can provide approximate answers, with mathematical guarantees, to computationally difficult queries orders-of-magnitude faster than traditional, exact methods"
 },
 {
-"chair": "bpendleton",
+"chair": "painter",
 "charter": "The mission of the Apache DB project is to create and maintain commercial-quality, open-source, database solutions based on software licensed to the Foundation, for distribution at no charge to the public.",
 "established": "2002-07",
 "group": "db",
@@ -7178,10 +7186,6 @@
 "date": "2007-03-28",
 "name": "Matteo Demuru"
 },
-"djencks": {
-"date": "2013-12-03",
-"name": "David Jencks"
-},
 "furfari": {
 "date": "2007-03-28",
 "name": "Francesco Furfari"
@@ -7197,10 +7201,6 @@
 "guillaume": {
 "date": "2013-07-11",
 "name": "Guillaume Sauthier"
-},
-"jawi": {
-"date": "2013-12-03",
-"name": "Jan Willem Janssen"
 },
 "jbonofre": {
 "date": "2016-07-15",
@@ -7670,9 +7670,17 @@
 "date": "2024-06-04",
 "name": "Rui Fan"
 },
+"fcsaky": {
+"date": "2026-02-10",
+"name": "Ferenc Csaky"
+},
 "fhueske": {
 "date": "2014-12-17",
 "name": "Fabian Hueske"
+},
+"gaborgsomogyi": {
+"date": "2026-02-10",
+"name": "Gabor Somogyi"
 },
 "gaoyunhaii": {
 "date": "2022-02-07",
@@ -7793,6 +7801,10 @@
 "ron": {
 "date": "2025-08-13",
 "name": "liu ron"
+},
+"ruanhang1993": {
+"date": "2026-01-12",
+"name": "Ruan Hang"
 },
 "sewen": {
 "date": "2014-12-17",
@@ -8409,6 +8421,10 @@
 "sdelamo": {
 "date": "2025-09-24",
 "name": "Sergio del Amo"
+},
+"tbrasmussen": {
+"date": "2026-01-20",
+"name": "Thomas Rasmussen"
 }
 },
 "shortdesc": "the development of a powerful Groovy-based web application framework for the JVM built on top of Spring Boot"
@@ -10290,6 +10306,68 @@
 }
 },
 "shortdesc": "providing atomic upserts and incremental data streams on Big Data"
+},
+{
+"chair": "jermy",
+"charter": "The mission of Apache HugeGraph is the creation and maintenance of software related to a convenient, efficient, and adaptable graph database compatible with the Apache TinkerPop3 framework and the Gremlin query language",
+"established": "2026-01",
+"group": "hugegraph",
+"homepage": "https://hugegraph.apache.org",
+"id": "hugegraph",
+"name": "Apache HugeGraph",
+"rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/hugegraph.rdf",
+"reporting": 3,
+"roster": {
+"hxd": {
+"date": "2026-01-21",
+"name": "Xiangdong Huang"
+},
+"jermy": {
+"date": "2026-01-21",
+"name": "Jermy Li"
+},
+"jin": {
+"date": "2026-01-21",
+"name": "Imba Jin"
+},
+"lidongdai": {
+"date": "2026-01-21",
+"name": "Lidong Dai"
+},
+"linary": {
+"date": "2026-01-21",
+"name": "NingRui Li"
+},
+"liyu": {
+"date": "2026-01-21",
+"name": "Yu Li"
+},
+"ming": {
+"date": "2026-01-21",
+"name": "Shiming Zhang"
+},
+"ningjiang": {
+"date": "2026-01-21",
+"name": "Willem Ning Jiang"
+},
+"panjuan": {
+"date": "2026-01-21",
+"name": "Juan Pan"
+},
+"vaughn": {
+"date": "2026-01-21",
+"name": "Yan Zhang"
+},
+"vgalaxies": {
+"date": "2026-01-21",
+"name": "Yuchen Ding"
+},
+"zhaocong": {
+"date": "2026-01-21",
+"name": "Cong Zhao"
+}
+},
+"shortdesc": "a convenient, efficient, and adaptable graph database compatible with the Apache TinkerPop3 framework and the Gremlin query language"
 },
 {
 "chair": "blue",
@@ -13037,10 +13115,6 @@
 "date": "2016-08-22",
 "name": "Christian Schneider"
 },
-"djencks": {
-"date": "2010-06-16",
-"name": "David Jencks"
-},
 "ffang": {
 "date": "2010-06-16",
 "name": "Freeman Yue Fang"
@@ -13629,6 +13703,10 @@
 "date": "2013-08-29",
 "name": "John Carr"
 },
+"micafer": {
+"date": "2026-01-24",
+"name": "Miguel Caballer"
+},
 "oremj": {
 "date": "2011-05-19",
 "name": "Jeremiah Orem"
@@ -13648,6 +13726,10 @@
 "sebgoa": {
 "date": "2014-02-13",
 "name": "Sebastien Goasguen"
+},
+"tison": {
+"date": "2026-01-24",
+"name": "Zili Chen"
 },
 "tom": {
 "date": "2011-05-19",
@@ -13893,7 +13975,7 @@
 "shortdesc": "Cross-language logging services"
 },
 {
-"chair": "dweiss",
+"chair": "benwtrent",
 "charter": "The mission of Lucene is the creation and maintenance of software related to Search engine library",
 "established": "2005-01",
 "group": "lucene",
@@ -14956,6 +15038,10 @@
 "brunoflavio": {
 "date": "2019-04-17",
 "name": "Bruno Fl\u00e1vio"
+},
+"bwalker": {
+"date": "2026-01-26",
+"name": "Brad Walker"
 },
 "chrizzly": {
 "date": "2019-04-17",
@@ -16787,6 +16873,10 @@
 "rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/parquet.rdf",
 "reporting": 1,
 "roster": {
+"alamb": {
+"date": "2026-01-21",
+"name": "Andrew Lamb"
+},
 "alexlevenson": {
 "date": "2015-04-22",
 "name": "Alex Levenson"
@@ -18924,6 +19014,10 @@
 "jjacob": {
 "date": "2024-04-17",
 "name": "Joseph C. Jacob"
+},
+"joshgarde": {
+"date": "2026-01-13",
+"name": "Joshua Garde"
 },
 "jtroberts": {
 "date": "2024-06-24",
@@ -21861,6 +21955,10 @@
 "date": "2020-10-07",
 "name": "Sebastian Baunsgaard"
 },
+"cdionysio": {
+"date": "2026-02-10",
+"name": "Christina Dionysio"
+},
 "dbtsai": {
 "date": "2017-05-17",
 "name": "DB Tsai"
@@ -22778,10 +22876,6 @@
 "dblevins": {
 "date": "2007-05-16",
 "name": "David Blevins"
-},
-"djencks": {
-"date": "2007-05-16",
-"name": "David Jencks"
 },
 "jgallimore": {
 "date": "2009-07-21",
@@ -24560,6 +24654,10 @@
 "ivank": {
 "date": "2012-08-12",
 "name": "Ivan Kelly"
+},
+"kezhuw": {
+"date": "2026-01-19",
+"name": "Kezhu Wang"
 },
 "mahadev": {
 "date": "2010-11-17",
