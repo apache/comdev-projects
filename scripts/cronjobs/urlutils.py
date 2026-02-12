@@ -255,7 +255,10 @@ class UrlCache(object):
                     shutil.copyfileobj(response, f)
                 if not useFileModTime:
                     # store the last mod time as the time of the file
-                    touchFile(tmpFile, lastModT)
+                    try:
+                        touchFile(tmpFile, lastModT)
+                    except FileNotFoundError: # this can happen if another thread refreshes the file
+                        pass
                 os.rename(tmpFile, target) # seems to preserve file mod time
                 if lastMod:
                     if fileTime > 0:
