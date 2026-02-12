@@ -17271,9 +17271,9 @@
 "bug-database": "https://issues.apache.org/jira/browse/SANTUARIO",
 "category": "library, security, xml",
 "created": "2006-03-20",
-"doap": "http://svn.apache.org/repos/asf/santuario/doap_Santuario.rdf",
-"download-page": "http://santuario.apache.org/mirrors.cgi",
-"homepage": "http://santuario.apache.org",
+"doap": "https://raw.githubusercontent.com/apache/santuario-xml-security-java/refs/heads/main/etc/doap_Santuario.rdf",
+"download-page": "https://santuario.apache.org/download.html",
+"homepage": "htts://santuario.apache.org",
 "implements": [
 {
 "body": "W3C",
@@ -17306,25 +17306,13 @@
 "url": "http://www.w3.org/TR/2002/CR-xmlenc-core-20020304/"
 }
 ],
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://santuario.apache.org/mail/dev/",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://santuario.apache.org/mailing.html",
 "name": "Apache Santuario",
 "pmc": "santuario",
-"programming-language": "Java, C",
-"release": [
-{
-"created": "2016-12-05",
-"name": "XML Security for Java",
-"revision": "2.0.8"
-},
-{
-"created": "2015-03-15",
-"name": "XML Security for C++",
-"revision": "1.7.3"
-}
-],
+"programming-language": "Java",
 "repository": [
-"https://svn.apache.org/repos/asf/santuario"
+"https://github.com/apache/santuario-xml-security-java"
 ],
 "shortdesc": "Library implementing XML Digital Signature Specification & XML Encryption Specification"
 },
