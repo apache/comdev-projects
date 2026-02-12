@@ -23,8 +23,8 @@ then
     echo "Remember to start pubsubber again" >&2
 else
     ERRTEE=1 LOGFILE=$LOGDIR/${BASE}_${YYMM}_daemon.log python3 -u $SCRIPT start \
-       comdev/projects.apache.org/trunk /var/www/projects.apache.org/ \
-       comdev/reporter.apache.org/trunk /var/www/reporter.apache.org/
+       comdev/projects.apache.org/branches/tooling-project /var/www/projects.apache.org/ \
+       comdev/reporter.apache.org/branches/tooling-project /var/www/reporter.apache.org/
 fi
 
 echo Completed $SCRIPT at $(date)
