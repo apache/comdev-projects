@@ -33,11 +33,6 @@ from urlutils import URLopen, URLexists
 sys.path.append("..") # module committee_info is in parent directory
 import committee_info
 
-# LDAP group ids not matching committee id; convert group to committeeId
-group_ids = {
-    'ws': 'webservices'
-}
-
 # homepages not matching https?://<committee id>.apache.org/ and not defined in committee-info.json / index.html
 homepages = {
 }
@@ -149,8 +144,6 @@ def keyorder(s):
         return 'communitydevelopment'
     if s == 'httpd':
         return 'http' # so it sorts before HTTP Components (it's wrong in CI)
-    if s == 'ws':
-        return 'webservices'
     return s
 
 # extract committees composition
@@ -169,7 +162,7 @@ for group in sorted(committees, key=keyorder):
     if ctte['pmc']: # we only want PMCs
         if ctte['established']: # only want ones with entries in section 3
             # Fix up name where PMC RDF does not agree with LDAP group
-            committeeId = group_ids.get(group, group)
+            committeeId = group
 
             img = "https://www.apache.org/logos/res/%s/default.png" % committeeId
             if not skipImageTest and not URLexists(img):

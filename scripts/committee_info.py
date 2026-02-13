@@ -127,11 +127,6 @@ def cycles():
         if not c['pmc']:
             continue
         reportcycles[ctte] = c['report']
-        # Duplicate some entries for now so the code can find them (the existing json has the duplicates)
-        if ctte == 'ws': # Special processing
-            reportcycles['webservices'] = reportcycles[ctte]
-        if ctte == 'httpd': # Special processing
-            reportcycles['http server'] = reportcycles[ctte]
     return reportcycles
 
 """
@@ -223,9 +218,6 @@ def pmcdates():
                 date = 0
             ids[idk] = [rid['name'], date]
         dates[ent]['roster'] = ids
-        # The 'CI' internal name for Web Services is 'ws' but reporter code originally used 'webservices'
-        if ent == 'ws':
-            dates['webservices'] = dates[ent]
     return dates
 
 """

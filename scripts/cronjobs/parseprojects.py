@@ -120,7 +120,6 @@ itemlist = xmldoc.getElementsByTagName('location')
 
 siteMap = {
     'hc': 'httpcomponents',
-    'ws':'webservices'
 }
 
 # convert from project to mail domain
@@ -350,6 +349,10 @@ for s in itemlist :
             m = re.match(r"https?://([^.]+)\.apache\.org/?$", pmcrdf, re.IGNORECASE)
             if m:
                 committeeId = m.group(1)
+                # Temporary override until DOAPs are fixed
+                if committeeId == 'webservices':
+                    committeeId = 'ws'
+                    print(f"WARN: found webservices in {url}")
             else:
                 # Not a shortcut, so read the descriptor file
                 try:
