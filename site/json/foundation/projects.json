@@ -9420,13 +9420,13 @@
 "shortdesc": "A set of Java libraries that make using Apache ZooKeeper much easier."
 },
 "cxf": {
-"bug-database": "http://issues.apache.org/jira/browse/CXF",
+"bug-database": "https://issues.apache.org/jira/browse/CXF",
 "category": "library, xml, network-client, network-server",
 "created": "2009-04-04",
 "description": "Apache CXF is an open source services framework. CXF helps you build and develop services using frontend programming APIs like JAX-WS and JAX-RS. These services can speak a variety of protocols such as SOAP, XML/HTTP, RESTful HTTP, or CORBA and work over a variety of transports such as HTTP, JMS or JBI.",
-"doap": "https://gitbox.apache.org/repos/asf?p=cxf.git;a=blob_plain;f=etc/cxf.rdf;hb=HEAD",
-"download-page": "http://cxf.apache.org/download.html",
-"homepage": "http://cxf.apache.org/",
+"doap": "https://raw.githubusercontent.com/apache/cxf/refs/heads/main/etc/cxf.rdf",
+"download-page": "https://cxf.apache.org/download.html",
+"homepage": "https://cxf.apache.org/",
 "implements": [
 {
 "body": "JCP",
@@ -9447,14 +9447,8 @@
 "url": "http://www.jcp.org/en/jsr/detail?id=311"
 }
 ],
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://cxf.apache.org/mailing-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:dkulp@apache.org",
-"name": "Daniel Kulp"
-}
-],
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://cxf.apache.org/mailing-lists.html",
 "name": "Apache CXF",
 "pmc": "cxf",
 "programming-language": "Java",
@@ -17273,7 +17267,7 @@
 "created": "2006-03-20",
 "doap": "https://raw.githubusercontent.com/apache/santuario-xml-security-java/refs/heads/main/etc/doap_Santuario.rdf",
 "download-page": "https://santuario.apache.org/download.html",
-"homepage": "htts://santuario.apache.org",
+"homepage": "https://santuario.apache.org",
 "implements": [
 {
 "body": "W3C",
@@ -17303,7 +17297,7 @@
 "body": "W3C",
 "id": "Exclusive XML Encryption",
 "title": "XML Encryption Syntax and Processing",
-"url": "http://www.w3.org/TR/2002/CR-xmlenc-core-20020304/"
+"url": "https://www.w3.org/TR/xmlenc-core1/"
 }
 ],
 "license": "https://spdx.org/licenses/Apache-2.0",
@@ -20734,6 +20728,23 @@
 "https://github.com/apache/wicket"
 ],
 "shortdesc": "Apache Wicket is an open source Java component oriented web application framework."
+},
+"ws-xmlschema": {
+"bug-database": "https://issues.apache.org/jira/browse/XMLSCHEMA",
+"category": "xml",
+"created": "2026-02-12",
+"doap": "https://raw.githubusercontent.com/apache/ws-xmlschema/refs/heads/master/etc/doap_XMLSchema.rdf",
+"download-page": "https://ws.apache.org/xmlschema/download.html",
+"homepage": "https://ws.apache.org/xmlschema/",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://ws.apache.org/xmlschema/mailing-lists.html",
+"name": "Apache XMLSchema",
+"pmc": "ws",
+"programming-language": "Java",
+"repository": [
+"https://github.com/apache/ws-xmlschema"
+],
+"shortdesc": "Apache XMLSchema is a lightweight Java object model that can be used to manipulate and generate XML schema representations."
 },
 "xalan-for_c++_xslt_processor": {
 "bug-database": "http://issues.apache.org/jira/browse/XALANC",
