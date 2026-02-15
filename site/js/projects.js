@@ -383,6 +383,10 @@ function repoToCommittee(reponame) {
     if (reponame.startsWith('empire-db')) {
         return 'empire-db';
     }
+    // Allow for SVN repo using old name
+    if (reponame.startsWith('webservices')) {
+        return 'ws';
+    }    
     return reponame.split('-')[0];
 }
 
