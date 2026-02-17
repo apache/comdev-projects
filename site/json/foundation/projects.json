@@ -1111,9 +1111,9 @@
 "programming-language": "C, C++, C#, Go, Java, JavaScript, Julia, MATLAB, Python, R, Ruby, Rust",
 "release": [
 {
-"created": "2026-01-18",
+"created": "2026-02-16",
 "name": "Apache Arrow",
-"revision": "23.0.0"
+"revision": "23.0.1"
 }
 ],
 "repository": [
@@ -20752,6 +20752,23 @@
 "https://svn.apache.org/repos/asf/webservices/woden/"
 ],
 "shortdesc": "The Woden project is a subproject of the Apache Web Services to develop a Java class library for reading, manipulating, creating and writing WSDL documents, initially to support WSDL 2.0 but with the longer term aim of supporting past, present and future versions of WSDL"
+},
+"ws-wss4j": {
+"bug-database": "https://issues.apache.org/jira/browse/WSS4J",
+"category": "xml",
+"created": "2026-02-16",
+"doap": "https://raw.githubusercontent.com/apache/ws-wss4j/refs/heads/master/build-tools/doap_WSS4J.rdf",
+"download-page": "https://ws.apache.org/wss4j/download.html",
+"homepage": "https://ws.apache.org/neethi/",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://ws.apache.org/wss4j/mailing-lists.html",
+"name": "Apache WSS4J",
+"pmc": "ws",
+"programming-language": "Java",
+"repository": [
+"https://github.com/apache/ws-wss4j"
+],
+"shortdesc": "The Apache WSS4J project provides a Java implementation of the primary security standards for Web Services, namely the OASIS Web Services Security (WS-Security) specifications from the OASIS Web Services Security TC."
 },
 "ws-xmlschema": {
 "bug-database": "https://issues.apache.org/jira/browse/XMLSCHEMA",

@@ -831,8 +831,8 @@
 ]
 },
 "arrow": {
-"apache-arrow-23.0.0": [
-"arrow/arrow-23.0.0/apache-arrow-23.0.0.tar.gz"
+"apache-arrow-23.0.1": [
+"arrow/arrow-23.0.1/apache-arrow-23.0.1.tar.gz"
 ],
 "apache-arrow-adbc-22": [
 "arrow/apache-arrow-adbc-22/apache-arrow-adbc-22.tar.gz"
@@ -1447,6 +1447,9 @@
 ],
 "camel-k-sources-2.9.0": [
 "camel/camel-k/2.9.0/camel-k-sources-2.9.0.tar.gz"
+],
+"camel-k-sources-2.9.1": [
+"camel/camel-k/2.9.1/camel-k-sources-2.9.1.tar.gz"
 ],
 "camel-kafka-connector-4.10.2": [
 "camel/camel-kafka-connector/4.10.2/camel-kafka-connector-4.10.2-src.zip"
@@ -3752,6 +3755,9 @@
 "flink-connector-parent-1.1.0": [
 "flink/flink-connector-parent-1.1.0/flink-connector-parent-1.1.0-src.tgz"
 ],
+"flink-connector-parent-2.0.0": [
+"flink/flink-connector-parent-2.0.0/flink-connector-parent-2.0.0-src.tgz"
+],
 "flink-connector-prometheus-1.0.0": [
 "flink/flink-connector-prometheus-1.0.0/flink-connector-prometheus-1.0.0-src.tgz"
 ],
@@ -5699,6 +5705,9 @@
 "kafka-4.1.1": [
 "kafka/4.1.1/kafka-4.1.1-src.tgz"
 ],
+"kafka-4.2.0": [
+"kafka/4.2.0/kafka-4.2.0-src.tgz"
+],
 "kafka_2.12-3.7.2": [
 "kafka/3.7.2/kafka_2.12-3.7.2.tgz"
 ],
@@ -5740,6 +5749,9 @@
 ],
 "kafka_2.13-4.1.1": [
 "kafka/4.1.1/kafka_2.13-4.1.1.tgz"
+],
+"kafka_2.13-4.2.0": [
+"kafka/4.2.0/kafka_2.13-4.2.0.tgz"
 ]
 },
 "karaf": {
@@ -6591,11 +6603,11 @@
 "maven-reporting-impl-4.0.0": [
 "maven/reporting/maven-reporting-impl-4.0.0-source-release.zip"
 ],
-"maven-resolver-1.9.25": [
-"maven/resolver/maven-resolver-1.9.25-source-release.zip"
+"maven-resolver-1.9.26": [
+"maven/resolver/maven-resolver-1.9.26-source-release.zip"
 ],
-"maven-resolver-2.0.14": [
-"maven/resolver/maven-resolver-2.0.14-source-release.zip"
+"maven-resolver-2.0.15": [
+"maven/resolver/maven-resolver-2.0.15-source-release.zip"
 ],
 "maven-resolver-ant-tasks-1.6.0": [
 "maven/resolver/maven-resolver-ant-tasks-1.6.0-source-release.zip"
@@ -8026,6 +8038,9 @@
 "apache-pulsar-3.0.15": [
 "pulsar/pulsar-3.0.15/apache-pulsar-3.0.15-src.tar.gz"
 ],
+"apache-pulsar-3.0.16": [
+"pulsar/pulsar-3.0.16/apache-pulsar-3.0.16-src.tar.gz"
+],
 "apache-pulsar-3.3.9": [
 "pulsar/pulsar-3.3.9/apache-pulsar-3.3.9-src.tar.gz"
 ],
@@ -8325,6 +8340,9 @@
 ],
 "ratis-thirdparty-1.0.10": [
 "ratis/thirdparty/1.0.10/ratis-thirdparty-1.0.10-src.tar.gz"
+],
+"ratis-thirdparty-1.0.11": [
+"ratis/thirdparty/1.0.11/ratis-thirdparty-1.0.11-src.tar.gz"
 ]
 },
 "rocketmq": {
@@ -9770,8 +9788,8 @@
 "org.apache.sling.testing.hamcrest-1.1.0": [
 "sling/org.apache.sling.testing.hamcrest-1.1.0-source-release.zip"
 ],
-"org.apache.sling.testing.jcr-mock-1.7.0": [
-"sling/org.apache.sling.testing.jcr-mock-1.7.0-source-release.zip"
+"org.apache.sling.testing.jcr-mock-1.8.0": [
+"sling/org.apache.sling.testing.jcr-mock-1.8.0-source-release.zip"
 ],
 "org.apache.sling.testing.logging-mock-2.0.0": [
 "sling/org.apache.sling.testing.logging-mock-2.0.0-source-release.zip"
@@ -9815,11 +9833,11 @@
 "org.apache.sling.testing.serversetup-1.0.4": [
 "sling/org.apache.sling.testing.serversetup-1.0.4-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock-3.5.6": [
-"sling/org.apache.sling.testing.sling-mock-3.5.6-source-release.zip"
+"org.apache.sling.testing.sling-mock-3.6.0": [
+"sling/org.apache.sling.testing.sling-mock-3.6.0-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock-4.0.2": [
-"sling/org.apache.sling.testing.sling-mock-4.0.2-source-release.zip"
+"org.apache.sling.testing.sling-mock-4.0.4": [
+"sling/org.apache.sling.testing.sling-mock-4.0.4-source-release.zip"
 ],
 "org.apache.sling.testing.sling-mock-jackrabbit-1.0.0": [
 "sling/org.apache.sling.testing.sling-mock-jackrabbit-1.0.0-source-release.zip"
@@ -9830,29 +9848,29 @@
 "org.apache.sling.testing.sling-mock-oak-4.1.0-1.86.0": [
 "sling/org.apache.sling.testing.sling-mock-oak-4.1.0-1.86.0-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.core-3.5.6": [
-"sling/org.apache.sling.testing.sling-mock.core-3.5.6-source-release.zip"
+"org.apache.sling.testing.sling-mock.core-3.6.0": [
+"sling/org.apache.sling.testing.sling-mock.core-3.6.0-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.core-4.0.2": [
-"sling/org.apache.sling.testing.sling-mock.core-4.0.2-source-release.zip"
+"org.apache.sling.testing.sling-mock.core-4.0.4": [
+"sling/org.apache.sling.testing.sling-mock.core-4.0.4-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.junit4-3.5.6": [
-"sling/org.apache.sling.testing.sling-mock.junit4-3.5.6-source-release.zip"
+"org.apache.sling.testing.sling-mock.junit4-3.6.0": [
+"sling/org.apache.sling.testing.sling-mock.junit4-3.6.0-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.junit4-4.0.2": [
-"sling/org.apache.sling.testing.sling-mock.junit4-4.0.2-source-release.zip"
+"org.apache.sling.testing.sling-mock.junit4-4.0.4": [
+"sling/org.apache.sling.testing.sling-mock.junit4-4.0.4-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.junit5-3.5.6": [
-"sling/org.apache.sling.testing.sling-mock.junit5-3.5.6-source-release.zip"
+"org.apache.sling.testing.sling-mock.junit5-3.6.0": [
+"sling/org.apache.sling.testing.sling-mock.junit5-3.6.0-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.junit5-4.0.2": [
-"sling/org.apache.sling.testing.sling-mock.junit5-4.0.2-source-release.zip"
+"org.apache.sling.testing.sling-mock.junit5-4.0.4": [
+"sling/org.apache.sling.testing.sling-mock.junit5-4.0.4-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.parent-3.5.6": [
-"sling/org.apache.sling.testing.sling-mock.parent-3.5.6-source-release.zip"
+"org.apache.sling.testing.sling-mock.parent-3.6.0": [
+"sling/org.apache.sling.testing.sling-mock.parent-3.6.0-source-release.zip"
 ],
-"org.apache.sling.testing.sling-mock.parent-4.0.2": [
-"sling/org.apache.sling.testing.sling-mock.parent-4.0.2-source-release.zip"
+"org.apache.sling.testing.sling-mock.parent-4.0.4": [
+"sling/org.apache.sling.testing.sling-mock.parent-4.0.4-source-release.zip"
 ],
 "org.apache.sling.testing.tools-1.0.16": [
 "sling/org.apache.sling.testing.tools-1.0.16-source-release.zip"
@@ -11075,6 +11093,9 @@
 "wayang": {
 "apache-wayang-0.6.0-incubating": [
 "wayang/wayang/0.6.0/apache-wayang-0.6.0-incubating-source-release.zip"
+],
+"apache-wayang-1.1.1": [
+"wayang/1.1.1/apache-wayang-1.1.1-source-release.zip"
 ],
 "apache-wayang-incubating-0.7.1": [
 "wayang/wayang/0.7.1/apache-wayang-incubating-0.7.1-source-release.zip"
