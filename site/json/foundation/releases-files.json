@@ -93,8 +93,14 @@
 "airflow-1.18.0": [
 "airflow/helm-chart/1.18.0/airflow-1.18.0.tgz"
 ],
+"airflow-1.19.0": [
+"airflow/helm-chart/1.19.0/airflow-1.19.0.tgz"
+],
 "airflow-chart-1.18.0": [
 "airflow/helm-chart/1.18.0/airflow-chart-1.18.0-source.tar.gz"
+],
+"airflow-chart-1.19.0": [
+"airflow/helm-chart/1.19.0/airflow-chart-1.19.0-source.tar.gz"
 ],
 "apache-airflow-2.11.0": [
 "airflow/2.11.0/apache-airflow-2.11.0-source.tar.gz"
@@ -1385,6 +1391,9 @@
 "apache-camel-4.17.0": [
 "camel/apache-camel/4.17.0/apache-camel-4.17.0-src.zip"
 ],
+"apache-camel-4.18.0": [
+"camel/apache-camel/4.18.0/apache-camel-4.18.0-src.zip"
+],
 "apache-camel-4.8.9": [
 "camel/apache-camel/4.8.9/apache-camel-4.8.9-src.zip"
 ],
@@ -1608,6 +1617,10 @@
 "apache-cassandra-analytics-0.2.0": [
 "cassandra/cassandra-analytics/0.2.0/apache-cassandra-analytics-0.2.0-src.tar.gz",
 "cassandra/cassandra-analytics/0.2.0/apache-cassandra-analytics-0.2.0.tar.gz"
+],
+"apache-cassandra-analytics-0.3.0": [
+"cassandra/cassandra-analytics/0.3.0/apache-cassandra-analytics-0.3.0-src.tar.gz",
+"cassandra/cassandra-analytics/0.3.0/apache-cassandra-analytics-0.3.0.tar.gz"
 ],
 "apache-cassandra-gocql-driver-2.0.0": [
 "cassandra/cassandra-gocql-driver/2.0.0/apache-cassandra-gocql-driver-2.0.0.tar.gz"
@@ -1858,9 +1871,9 @@
 "commons/fileupload/source/commons-fileupload-1.6.0-src.tar.gz",
 "commons/fileupload/source/commons-fileupload-1.6.0-src.zip"
 ],
-"commons-fileupload2-2.0.0-M4": [
-"commons/fileupload/source/commons-fileupload2-2.0.0-M4-src.tar.gz",
-"commons/fileupload/source/commons-fileupload2-2.0.0-M4-src.zip"
+"commons-fileupload2-2.0.0-M5": [
+"commons/fileupload/source/commons-fileupload2-2.0.0-M5-src.tar.gz",
+"commons/fileupload/source/commons-fileupload2-2.0.0-M5-src.zip"
 ],
 "commons-geometry-1.0": [
 "commons/geometry/source/commons-geometry-1.0-src.tar.gz",
@@ -2228,6 +2241,12 @@
 "cxf/3.5.9/apache-cxf-3.5.9.tar.gz",
 "cxf/3.5.9/apache-cxf-3.5.9.zip"
 ],
+"apache-cxf-3.6.10": [
+"cxf/3.6.10/apache-cxf-3.6.10-src.tar.gz",
+"cxf/3.6.10/apache-cxf-3.6.10-src.zip",
+"cxf/3.6.10/apache-cxf-3.6.10.tar.gz",
+"cxf/3.6.10/apache-cxf-3.6.10.zip"
+],
 "apache-cxf-3.6.3": [
 "cxf/3.6.3/apache-cxf-3.6.3-src.tar.gz",
 "cxf/3.6.3/apache-cxf-3.6.3-src.zip",
@@ -2275,6 +2294,12 @@
 "cxf/4.0.10/apache-cxf-4.0.10-src.zip",
 "cxf/4.0.10/apache-cxf-4.0.10.tar.gz",
 "cxf/4.0.10/apache-cxf-4.0.10.zip"
+],
+"apache-cxf-4.0.11": [
+"cxf/4.0.11/apache-cxf-4.0.11-src.tar.gz",
+"cxf/4.0.11/apache-cxf-4.0.11-src.zip",
+"cxf/4.0.11/apache-cxf-4.0.11.tar.gz",
+"cxf/4.0.11/apache-cxf-4.0.11.zip"
 ],
 "apache-cxf-4.0.4": [
 "cxf/4.0.4/apache-cxf-4.0.4-src.tar.gz",
@@ -2341,6 +2366,18 @@
 "cxf/4.1.4/apache-cxf-4.1.4-src.zip",
 "cxf/4.1.4/apache-cxf-4.1.4.tar.gz",
 "cxf/4.1.4/apache-cxf-4.1.4.zip"
+],
+"apache-cxf-4.1.5": [
+"cxf/4.1.5/apache-cxf-4.1.5-src.tar.gz",
+"cxf/4.1.5/apache-cxf-4.1.5-src.zip",
+"cxf/4.1.5/apache-cxf-4.1.5.tar.gz",
+"cxf/4.1.5/apache-cxf-4.1.5.zip"
+],
+"apache-cxf-4.2.0": [
+"cxf/4.2.0/apache-cxf-4.2.0-src.tar.gz",
+"cxf/4.2.0/apache-cxf-4.2.0-src.zip",
+"cxf/4.2.0/apache-cxf-4.2.0.tar.gz",
+"cxf/4.2.0/apache-cxf-4.2.0.zip"
 ],
 "apache-fediz-1.7.1": [
 "cxf/fediz/1.7.1/apache-fediz-1.7.1.zip"
@@ -7299,6 +7336,10 @@
 "apache-nutch-1.21": [
 "nutch/1.21/apache-nutch-1.21-src.tar.gz",
 "nutch/1.21/apache-nutch-1.21-src.zip"
+],
+"apache-nutch-1.22": [
+"nutch/1.22/apache-nutch-1.22-src.tar.gz",
+"nutch/1.22/apache-nutch-1.22-src.zip"
 ]
 },
 "nuttx": {
@@ -9307,8 +9348,8 @@
 "org.apache.sling.feature.diff-0.1.0": [
 "sling/org.apache.sling.feature.diff-0.1.0-source-release.zip"
 ],
-"org.apache.sling.feature.extension.apiregions-2.0.0": [
-"sling/org.apache.sling.feature.extension.apiregions-2.0.0-source-release.zip"
+"org.apache.sling.feature.extension.apiregions-2.1.2": [
+"sling/org.apache.sling.feature.extension.apiregions-2.1.2-source-release.zip"
 ],
 "org.apache.sling.feature.extension.content-1.0.18": [
 "sling/org.apache.sling.feature.extension.content-1.0.18-source-release.zip"
