@@ -5010,7 +5010,7 @@
 "download-page": "https://camel.apache.org/download.html",
 "homepage": "https://camel.apache.org/",
 "license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "https://camel.apache.org/mailing-lists.html",
+"mailing-list": "https://camel.apache.org/community/mailing-list/",
 "maintainer": [
 {
 "mbox": "mailto:acosentino@apache.org",
@@ -17025,10 +17025,29 @@
 "shortdesc": "XMLBeans is a technology for accessing XML by binding it to Java types. XMLBeans provides several\n            ways to get at the XML: strong XMLSchema typed model, cursor API, streaming (SAX, Stax) and DOM. XMLBeans\n            covers 100% XMLSchema support while giving access to full infoset of documents.\n        "
 },
 "polaris": {
-"category": "no-tlp-doap",
+"bug-database": "https://github.com/apache/polaris/issues",
+"category": "big-data, data-engineering, database",
+"created": "2026-02-20",
+"description": "Apache Polaris implements the Apache Iceberg REST API, enabling seamless multi-engine interoperability across a wide range of platforms, including Apache Doris, Apache Flink, Apache Spark, ...",
+"doap": "https://raw.githubusercontent.com/apache/polaris/refs/heads/main/doap.rdf",
+"download-page": "https://polaris.apache.org/downloads/",
 "homepage": "https://polaris.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "https://polaris.apache.org/community/",
 "name": "Apache Polaris",
-"pmc": "polaris"
+"pmc": "polaris",
+"programming-language": "Java, Python",
+"release": [
+{
+"created": "2026-01-16",
+"name": "1.3.0-incubating",
+"revision": "1.3.0-incubating"
+}
+],
+"repository": [
+"https://github.com/apache/polaris"
+],
+"shortdesc": "Apache Polaris is an open-source, fully-featured catalog for lakehouse."
 },
 "pulsar": {
 "bug-database": "https://github.com/apache/pulsar/issues",

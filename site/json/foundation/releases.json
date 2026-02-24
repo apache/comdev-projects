@@ -295,7 +295,7 @@
 "apache-arrow-nanoarrow-0.8.0": "2026-02-05",
 "apache-arrow-object-store-rs-0.12.5": "2026-01-19",
 "apache-arrow-object-store-rs-0.13.1": "2026-01-19",
-"apache-arrow-rs-57.3.0": "2026-02-06",
+"apache-arrow-rs-58.0.0": "2026-02-23",
 "apache-arrow-swift-21.0.0": "2025-07-07"
 },
 "artemis": {
@@ -489,7 +489,7 @@
 "apache-camel-quarkus-3.15.4": "2025-06-26",
 "apache-camel-quarkus-3.20.4": "2026-01-14",
 "apache-camel-quarkus-3.27.2": "2026-01-05",
-"apache-camel-quarkus-3.31.0": "2026-01-22",
+"apache-camel-quarkus-3.32.0": "2026-02-19",
 "camel-k-sources-2.3.0": "2024-04-02",
 "camel-k-sources-2.3.1": "2024-04-29",
 "camel-k-sources-2.3.2": "2024-05-28",
@@ -519,9 +519,11 @@
 "camel-kamelets-sources-4.14.1": "2025-10-03",
 "camel-kamelets-sources-4.14.2": "2025-11-06",
 "camel-kamelets-sources-4.14.4": "2026-01-12",
+"camel-kamelets-sources-4.14.5": "2026-02-16",
 "camel-kamelets-sources-4.15.0": "2025-10-10",
 "camel-kamelets-sources-4.16.0": "2025-11-06",
 "camel-kamelets-sources-4.17.0": "2026-01-14",
+"camel-kamelets-sources-4.18.0": "2026-02-18",
 "camel-kamelets-sources-4.8.5": "2025-03-10",
 "camel-kamelets-sources-4.8.8": "2025-06-27",
 "camel-karaf-4.10.7": "2025-10-21",
@@ -808,7 +810,7 @@
 "apache-datafusion-ballista-51.0.0": "2026-01-19",
 "apache-datafusion-comet-0.12.0": "2025-12-01",
 "apache-datafusion-comet-0.13.0": "2026-01-29",
-"apache-datafusion-python-51.0.0": "2026-01-09",
+"apache-datafusion-python-52.0.0": "2026-02-23",
 "apache-datafusion-sqlparser-rs-0.56.0": "2025-05-02",
 "apache-datafusion-sqlparser-rs-0.57.0": "2025-06-23",
 "apache-datafusion-sqlparser-rs-0.58.0": "2025-07-24",
@@ -2212,8 +2214,8 @@
 "maven-reporting-api-4.0.0": "2024-10-06",
 "maven-reporting-exec-2.0.0": "2024-10-18",
 "maven-reporting-impl-4.0.0": "2024-10-15",
-"maven-resolver-1.9.26": "2026-02-16",
-"maven-resolver-2.0.15": "2026-02-16",
+"maven-resolver-1.9.27": "2026-02-23",
+"maven-resolver-2.0.16": "2026-02-23",
 "maven-resolver-ant-tasks-1.6.0": "2025-08-18",
 "maven-resources-plugin-3.4.0": "2025-11-29",
 "maven-resources-plugin-4.0.0-beta-1": "2024-07-01",
@@ -2237,7 +2239,7 @@
 "maven-verifier-plugin-1.1": "2015-04-14",
 "maven-war-plugin-3.5.1": "2025-11-28",
 "maven-wrapper-3.3.4": "2025-09-11",
-"surefire-3.5.4": "2025-09-14",
+"surefire-3.5.5": "2026-02-23",
 "wagon-3.5.3": "2022-12-22"
 },
 "mina": {
@@ -2385,8 +2387,7 @@
 "nbm-archetype-1.19": "2024-08-06",
 "nbm-suite-root-1.12": "2019-10-10",
 "nbpackage-1.0": "2026-01-22",
-"netbeans-27": "2025-08-16",
-"netbeans-28": "2025-11-05",
+"netbeans-29": "2026-02-19",
 "netbeans-archetype-parent-1.0.0": "2023-07-11",
 "netbeans-html4j-1.8.2": "2025-06-22",
 "netbeans-parent-5": "2025-06-25",
@@ -2504,6 +2505,7 @@
 },
 "opennlp": {
 "apache-opennlp-2.5.7": "2025-12-06",
+"apache-opennlp-3.0.0-M1": "2026-02-19",
 "opennlp-models-1.3.0": "2025-06-18",
 "opennlp-training-eval-logs-1.1-2.4.0": "2024-10-11",
 "opennlp-training-eval-logs-1.2-2.5.0": "2024-11-23",
@@ -2702,9 +2704,11 @@
 "pulsar-4.2.0": "2025-08-01",
 "pulsar-4.3.0": "2025-09-27",
 "pulsar-4.4.0": "2025-11-17",
+"pulsar-4.5.0": "2026-02-19",
 "pulsar-chart-4.2.0": "2025-08-01",
 "pulsar-chart-4.3.0": "2025-09-27",
 "pulsar-chart-4.4.0": "2025-11-17",
+"pulsar-chart-4.5.0": "2026-02-19",
 "pulsar-client-python-3.10.0": "2026-02-02",
 "pulsar-client-python-3.8.0": "2025-07-19",
 "pulsar-client-python-3.9.0": "2025-12-25",
@@ -2933,7 +2937,8 @@
 "apache-sedona-1.8.1": "2026-01-09",
 "apache-sedona-db-0.1.0": "2025-09-19",
 "apache-sedona-db-0.2.0": "2025-12-04",
-"apache-sedona-spatialbench-0.1.0": "2025-12-02"
+"apache-sedona-spatialbench-0.1.0": "2025-12-02",
+"apache-sedona-spatialbench-0.2.0": "2026-02-23"
 },
 "serf": {
 "serf-1.3.10": "2023-05-31"
@@ -3221,7 +3226,7 @@
 "org.apache.sling.oak.restrictions-1.0.2": "2018-10-22",
 "org.apache.sling.paxexam.util-1.0.4": "2017-05-08",
 "org.apache.sling.performance.base-1.0.2": "2015-04-03",
-"org.apache.sling.pipes-4.5.0": "2022-08-21",
+"org.apache.sling.pipes-4.5.2": "2026-02-23",
 "org.apache.sling.providertype.bnd-plugin-1.0.0": "2023-12-09",
 "org.apache.sling.provisioning.model-1.8.6": "2020-04-09",
 "org.apache.sling.query-4.0.4": "2022-05-02",
@@ -3444,8 +3449,8 @@
 "synapse-distribution-3.0.2": "2023-05-11"
 },
 "syncope": {
-"syncope-3.0.16": "2026-01-30",
-"syncope-4.0.4": "2026-01-30"
+"syncope-4.0.4": "2026-01-30",
+"syncope-4.1.0-M0": "2026-02-19"
 },
 "systemds": {
 "systemds-2.0.0": "2020-10-14",
