@@ -9960,44 +9960,6 @@
 "name": "Apache Devlake",
 "pmc": "devlake"
 },
-"directory": {
-"bug-database": "http://issues.apache.org/jira/browse/DIR",
-"category": "network-server, network-client",
-"created": "2006-03-27",
-"description": "The Apache Directory project provides directory solutions entirely written in Java. These include a directory server, which has been certified as LDAP v3 compliant by the Open Group (ApacheDS), and Eclipse-based directory tools (Apache Directory Studio).",
-"doap": "http://svn.apache.org/repos/asf/directory/project/trunk/resources/doap_Directory.rdf",
-"download-page": "http://www.apache.org/dyn/closer.cgi/directory",
-"homepage": "http://directory.apache.org",
-"implements": [
-{
-"body": "IETF",
-"id": "RFC 4511",
-"title": "Lightweight Directory Access Protocol (LDAP): The Protocol",
-"url": "http://www.ietf.org/rfc/rfc4511.txt"
-},
-{
-"body": "IETF",
-"id": "RFC 4120",
-"title": "The Kerberos Network Authentication Service (V5)",
-"url": "http://www.ietf.org/rfc/rfc4120.txt"
-}
-],
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://directory.apache.org/community%26resources/mailing-lists-and-irc.html",
-"maintainer": [
-{
-"mbox": "mailto:akarasulu@apache.org",
-"name": "Alex Karasulu"
-}
-],
-"name": "Apache Directory",
-"pmc": "directory",
-"programming-language": "Java",
-"repository": [
-"http://svn.apache.org/repos/asf/directory"
-],
-"shortdesc": "LDAP and Kerberos, entirely in Java"
-},
 "directory-fortress": {
 "bug-database": "https://issues.apache.org/jira/browse/FC",
 "category": "identity-management, library, security, SDK",
@@ -10050,13 +10012,13 @@
 "body": "IETF",
 "id": "RFC 4511",
 "title": "Lightweight Directory Access Protocol (LDAP): The Protocol",
-"url": "http://www.ietf.org/rfc/rfc4511.txt"
+"url": "https://www.ietf.org/rfc/rfc4511.txt"
 },
 {
 "body": "IETF",
 "id": "RFC 4120",
 "title": "The Kerberos Network Authentication Service (V5)",
-"url": "http://www.ietf.org/rfc/rfc4120.txt"
+"url": "https://www.ietf.org/rfc/rfc4120.txt"
 }
 ],
 "license": "https://spdx.org/licenses/Apache-2.0",
@@ -10068,50 +10030,6 @@
 "https://github.com/apache/directory-server"
 ],
 "shortdesc": "An extensible, embeddable LDAP and Kerberos server, entirely in Java"
-},
-"directory-studio": {
-"bug-database": "http://issues.apache.org/jira/browse/DIRSTUDIO",
-"category": "network-client",
-"created": "2007-05-04",
-"description": "Apache Directory Studio is a complete directory tooling platform intended to be used with any LDAP server however it is particularly designed for use with ApacheDS. It is an Eclipse RCP application, composed of several Eclipse (OSGi) plugins, that can be easily upgraded with additional ones. These plugins can even run within Eclipse itself.",
-"doap": "http://svn.apache.org/repos/asf/directory/studio/trunk/doap_dirstudio.rdf",
-"download-page": "http://directory.apache.org/studio/downloads.html",
-"homepage": "http://directory.apache.org/studio/",
-"implements": [
-{
-"body": "IETF",
-"id": "RFC 4511",
-"title": "Lightweight Directory Access Protocol (LDAP): The Protocol",
-"url": "http://www.ietf.org/rfc/rfc4511.txt"
-}
-],
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://directory.apache.org/community%26resources/mailing-lists-and-irc.html",
-"maintainer": [
-{
-"mbox": "mailto:pamarcelot@apache.org",
-"name": "Pierre-Arnaud Marcelot"
-}
-],
-"name": "Apache Directory Studio",
-"pmc": "directory",
-"programming-language": "Java",
-"release": [
-{
-"created": "2010-04-05",
-"name": "Latest stable 1.x release",
-"revision": "1.5.3 (1.5.3.v20100330)"
-},
-{
-"created": "2012-02-29",
-"name": "Latest 2.x milestone release",
-"revision": "2.0 M3 (2.0.0.v20120224)"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/directory/studio/"
-],
-"shortdesc": "The Eclipse based LDAP browser and directory client"
 },
 "dolphinscheduler": {
 "category": "no-tlp-doap",
@@ -13005,6 +12923,11 @@
 "pmc": "lucene",
 "programming-language": "Java",
 "release": [
+{
+"created": "2026-02-25",
+"name": "lucene-10.4.0",
+"revision": "10.4.0"
+},
 {
 "created": "2025-11-17",
 "name": "lucene-10.3.2",
