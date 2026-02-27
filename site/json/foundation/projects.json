@@ -10031,6 +10031,32 @@
 ],
 "shortdesc": "An extensible, embeddable LDAP and Kerberos server, entirely in Java"
 },
+"directory-studio": {
+"bug-database": "https://issues.apache.org/jira/browse/DIRSTUDIO",
+"category": "network-client",
+"created": "2007-05-04",
+"description": "Apache Directory Studio is a complete directory tooling platform intended to be used with any LDAP server however it is particularly designed for use with ApacheDS. It is an Eclipse RCP application, composed of several Eclipse (OSGi) plugins, that can be easily upgraded with additional ones. These plugins can even run within Eclipse itself.",
+"doap": "https://raw.githubusercontent.com/apache/directory-studio/refs/heads/master/doap_dirstudio.rdf",
+"download-page": "https://directory.apache.org/studio/downloads.html",
+"homepage": "https://directory.apache.org/studio/",
+"implements": [
+{
+"body": "IETF",
+"id": "RFC 4511",
+"title": "Lightweight Directory Access Protocol (LDAP): The Protocol",
+"url": "https://www.ietf.org/rfc/rfc4511.txt"
+}
+],
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://directory.apache.org/mailing-lists-and-irc.html",
+"name": "Apache Directory Studio",
+"pmc": "directory",
+"programming-language": "Java",
+"repository": [
+"https://github.com/apache/directory-studio"
+],
+"shortdesc": "The Eclipse based LDAP browser and directory client"
+},
 "dolphinscheduler": {
 "category": "no-tlp-doap",
 "homepage": "https://dolphinscheduler.apache.org",
