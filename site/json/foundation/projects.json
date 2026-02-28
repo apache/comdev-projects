@@ -9983,21 +9983,21 @@
 },
 "directory-kerby": {
 "bug-database": "https://issues.apache.org/jira/browse/DIRKRB",
-"category": "identity-management, identity-provisioning, Kerberos, library, security, SDK",
+"category": "network-client, network-server",
 "created": "2014-12-31",
-"description": "Apache Kerby is a Java Kerberos binding. It provides a rich, intuitive and interoperable implementation, library, KDC and various facilities that integrates PKI, OTP and token (OAuth2) as desired in modern environments such as cloud, Hadoop and mobile.",
-"doap": "https://raw.githubusercontent.com/apache/directory-site/master/static/doap_kerby.rdf",
+"description": "Apache Kerby, as an Apache Directory sub project, is a Java Kerberos binding. It provides a rich, intuitive and interoperable implementation, library, KDC and various facilities that integrates PKI, OTP and token (OAuth2) as desired in modern environments such as cloud, Hadoop and mobile.",
+"doap": "https://raw.githubusercontent.com/apache/directory-kerby/refs/heads/trunk/build-tools/doap_kerby.rdf",
 "download-page": "https://directory.apache.org/kerby/downloads.html",
 "homepage": "https://directory.apache.org/kerby/",
-"license": "http://spdx.org/licenses/Apache-2.0",
+"license": "https://spdx.org/licenses/Apache-2.0",
 "mailing-list": "https://directory.apache.org/mailing-lists-and-irc.html",
 "name": "Apache Kerby",
 "pmc": "directory",
 "programming-language": "Java",
 "repository": [
-"https://gitbox.apache.org/repos/asf/directory-kerby.git"
+"https://github.com/apache/directory-kerby"
 ],
-"shortdesc": "Kerberos binding in Java"
+"shortdesc": "The Eclipse based LDAP browser and directory client"
 },
 "directory-server": {
 "bug-database": "https://issues.apache.org/jira/browse/DIRSERVER",

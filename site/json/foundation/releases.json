@@ -1007,6 +1007,7 @@
 "gogo-parent-5": "2019-01-10",
 "javax.servlet-1.0.0": "2012-12-28",
 "maven-bundle-plugin-6.0.0": "2024-11-28",
+"maven-bundle-plugin-6.0.2": "2026-02-27",
 "maven-junit4osgi-plugin-1.0.0": "2012-12-28",
 "maven-scr-plugin-1.26.4": "2019-12-07",
 "org.apache.felix.bundlerepository-2.0.10": "2017-04-24",
@@ -1055,6 +1056,7 @@
 "org.apache.felix.http.jetty12-1.1.2": "2025-09-23",
 "org.apache.felix.http.jetty12-1.1.4": "2025-10-13",
 "org.apache.felix.http.jetty12-1.1.6": "2025-11-27",
+"org.apache.felix.http.jetty12-1.1.8": "2026-02-27",
 "org.apache.felix.http.proxy-4.0.0": "2022-12-27",
 "org.apache.felix.http.servlet-api-6.1.0": "2025-04-18",
 "org.apache.felix.http.sslfilter-2.0.2": "2023-08-31",
@@ -1864,7 +1866,7 @@
 "jackrabbit-2.23.3-beta": "2025-12-04",
 "jackrabbit-filevault-3.2.8": "2021-03-11",
 "jackrabbit-filevault-3.8.4": "2025-03-25",
-"jackrabbit-filevault-4.1.4": "2025-10-21",
+"jackrabbit-filevault-4.2.0": "2026-02-23",
 "jackrabbit-oak-1.22.23": "2025-09-30",
 "jackrabbit-oak-1.4.26": "2020-02-17",
 "jackrabbit-oak-1.6.23": "2022-03-11",
@@ -1924,32 +1926,13 @@
 "apache-juneau-9.2.0": "2025-12-30"
 },
 "kafka": {
-"kafka-3.7.2": "2024-12-13",
-"kafka-3.8.0": "2024-07-26",
-"kafka-3.8.1": "2024-10-29",
-"kafka-3.9.0": "2024-10-26",
-"kafka-3.9.1": "2025-05-19",
 "kafka-3.9.2": "2026-02-22",
-"kafka-4.0.0": "2025-03-18",
 "kafka-4.0.1": "2025-10-10",
-"kafka-4.1.0": "2025-09-02",
 "kafka-4.1.1": "2025-11-12",
 "kafka-4.2.0": "2026-02-16",
-"kafka_2.12-3.7.2": "2024-12-13",
-"kafka_2.12-3.8.0": "2024-07-26",
-"kafka_2.12-3.8.1": "2024-10-29",
-"kafka_2.12-3.9.0": "2024-10-26",
-"kafka_2.12-3.9.1": "2025-05-19",
 "kafka_2.12-3.9.2": "2026-02-22",
-"kafka_2.13-3.7.2": "2024-12-13",
-"kafka_2.13-3.8.0": "2024-07-26",
-"kafka_2.13-3.8.1": "2024-10-29",
-"kafka_2.13-3.9.0": "2024-10-26",
-"kafka_2.13-3.9.1": "2025-05-19",
 "kafka_2.13-3.9.2": "2026-02-22",
-"kafka_2.13-4.0.0": "2025-03-18",
 "kafka_2.13-4.0.1": "2025-10-10",
-"kafka_2.13-4.1.0": "2025-09-02",
 "kafka_2.13-4.1.1": "2025-11-12",
 "kafka_2.13-4.2.0": "2026-02-16"
 },
@@ -2403,8 +2386,6 @@
 },
 "nifi": {
 "nifi-1.28.1": "2024-11-15",
-"nifi-2.0.0": "2024-11-04",
-"nifi-2.7.1": "2025-12-12",
 "nifi-2.8.0": "2026-02-12",
 "nifi-api-2.6.0": "2026-01-20",
 "nifi-fds-0.3.0": "2022-01-25",
@@ -2414,8 +2395,7 @@
 "nifi-minifi-cpp-0.99.0": "2024-05-13",
 "nifi-minifi-cpp-0.99.1": "2025-01-31",
 "nifi-minifi-cpp-0.99.2": "2025-09-26",
-"nifi-nar-maven-plugin-2.1.0": "2024-09-23",
-"nifi-nar-maven-plugin-2.2.0": "2025-10-21"
+"nifi-nar-maven-plugin-2.3.0": "2026-02-24"
 },
 "nutch": {
 "apache-nutch-1.22": "2026-02-12"
@@ -3017,7 +2997,8 @@
 "shiro-root-2.0.4": "2025-04-17",
 "shiro-root-2.0.5": "2025-07-02",
 "shiro-root-2.0.6": "2025-11-05",
-"shiro-root-2.1.0": "2026-02-07"
+"shiro-root-2.1.0": "2026-02-07",
+"shiro-root-3.0.0-alpha-1": "2026-02-23"
 },
 "singa": {
 "apache-singa-5.0.0": "2025-04-21"
@@ -3152,7 +3133,7 @@
 "org.apache.sling.distribution.sample-0.1.6": "2016-02-08",
 "org.apache.sling.dynamic-include-3.3.2": "2025-02-17",
 "org.apache.sling.engine-2.16.6": "2025-07-26",
-"org.apache.sling.engine-3.0.0": "2025-06-28",
+"org.apache.sling.engine-3.0.2": "2026-02-27",
 "org.apache.sling.event-4.4.0": "2025-10-21",
 "org.apache.sling.event.api-1.0.4": "2023-05-12",
 "org.apache.sling.event.dea-1.1.6": "2024-12-16",
@@ -3652,6 +3633,7 @@
 "apache-tvm-ffi-v0.1.6": "2025-12-16",
 "apache-tvm-ffi-v0.1.7": "2025-12-28",
 "apache-tvm-ffi-v0.1.8": "2026-01-12",
+"apache-tvm-ffi-v0.1.9": "2026-02-27",
 "apache-tvm-v0.10.0": "2022-10-17",
 "apache-tvm-v0.11.0": "2023-03-02",
 "apache-tvm-v0.11.1": "2023-03-16",

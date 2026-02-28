@@ -3047,6 +3047,10 @@
 "felix/maven-bundle-plugin-6.0.0-source-release.tar.gz",
 "felix/maven-bundle-plugin-6.0.0-source-release.zip"
 ],
+"maven-bundle-plugin-6.0.2": [
+"felix/maven-bundle-plugin-6.0.2-source-release.tar.gz",
+"felix/maven-bundle-plugin-6.0.2-source-release.zip"
+],
 "maven-junit4osgi-plugin-1.0.0": [
 "felix/maven-junit4osgi-plugin-1.0.0-project.tar.gz",
 "felix/maven-junit4osgi-plugin-1.0.0-project.zip"
@@ -3237,6 +3241,10 @@
 "org.apache.felix.http.jetty12-1.1.6": [
 "felix/org.apache.felix.http.jetty12-1.1.6-source-release.tar.gz",
 "felix/org.apache.felix.http.jetty12-1.1.6-source-release.zip"
+],
+"org.apache.felix.http.jetty12-1.1.8": [
+"felix/org.apache.felix.http.jetty12-1.1.8-source-release.tar.gz",
+"felix/org.apache.felix.http.jetty12-1.1.8-source-release.zip"
 ],
 "org.apache.felix.http.proxy-4.0.0": [
 "felix/org.apache.felix.http.proxy-4.0.0-source-release.tar.gz",
@@ -5578,8 +5586,8 @@
 "jackrabbit-filevault-3.8.4": [
 "jackrabbit/filevault/3.8.4/jackrabbit-filevault-3.8.4-source-release.zip"
 ],
-"jackrabbit-filevault-4.1.4": [
-"jackrabbit/filevault/4.1.4/jackrabbit-filevault-4.1.4-source-release.zip"
+"jackrabbit-filevault-4.2.0": [
+"jackrabbit/filevault/4.2.0/jackrabbit-filevault-4.2.0-source-release.zip"
 ],
 "jackrabbit-oak-1.22.23": [
 "jackrabbit/oak/1.22.23/jackrabbit-oak-1.22.23-src.zip"
@@ -5742,32 +5750,11 @@
 ]
 },
 "kafka": {
-"kafka-3.7.2": [
-"kafka/3.7.2/kafka-3.7.2-src.tgz"
-],
-"kafka-3.8.0": [
-"kafka/3.8.0/kafka-3.8.0-src.tgz"
-],
-"kafka-3.8.1": [
-"kafka/3.8.1/kafka-3.8.1-src.tgz"
-],
-"kafka-3.9.0": [
-"kafka/3.9.0/kafka-3.9.0-src.tgz"
-],
-"kafka-3.9.1": [
-"kafka/3.9.1/kafka-3.9.1-src.tgz"
-],
 "kafka-3.9.2": [
 "kafka/3.9.2/kafka-3.9.2-src.tgz"
 ],
-"kafka-4.0.0": [
-"kafka/4.0.0/kafka-4.0.0-src.tgz"
-],
 "kafka-4.0.1": [
 "kafka/4.0.1/kafka-4.0.1-src.tgz"
-],
-"kafka-4.1.0": [
-"kafka/4.1.0/kafka-4.1.0-src.tgz"
 ],
 "kafka-4.1.1": [
 "kafka/4.1.1/kafka-4.1.1-src.tgz"
@@ -5775,50 +5762,14 @@
 "kafka-4.2.0": [
 "kafka/4.2.0/kafka-4.2.0-src.tgz"
 ],
-"kafka_2.12-3.7.2": [
-"kafka/3.7.2/kafka_2.12-3.7.2.tgz"
-],
-"kafka_2.12-3.8.0": [
-"kafka/3.8.0/kafka_2.12-3.8.0.tgz"
-],
-"kafka_2.12-3.8.1": [
-"kafka/3.8.1/kafka_2.12-3.8.1.tgz"
-],
-"kafka_2.12-3.9.0": [
-"kafka/3.9.0/kafka_2.12-3.9.0.tgz"
-],
-"kafka_2.12-3.9.1": [
-"kafka/3.9.1/kafka_2.12-3.9.1.tgz"
-],
 "kafka_2.12-3.9.2": [
 "kafka/3.9.2/kafka_2.12-3.9.2.tgz"
-],
-"kafka_2.13-3.7.2": [
-"kafka/3.7.2/kafka_2.13-3.7.2.tgz"
-],
-"kafka_2.13-3.8.0": [
-"kafka/3.8.0/kafka_2.13-3.8.0.tgz"
-],
-"kafka_2.13-3.8.1": [
-"kafka/3.8.1/kafka_2.13-3.8.1.tgz"
-],
-"kafka_2.13-3.9.0": [
-"kafka/3.9.0/kafka_2.13-3.9.0.tgz"
-],
-"kafka_2.13-3.9.1": [
-"kafka/3.9.1/kafka_2.13-3.9.1.tgz"
 ],
 "kafka_2.13-3.9.2": [
 "kafka/3.9.2/kafka_2.13-3.9.2.tgz"
 ],
-"kafka_2.13-4.0.0": [
-"kafka/4.0.0/kafka_2.13-4.0.0.tgz"
-],
 "kafka_2.13-4.0.1": [
 "kafka/4.0.1/kafka_2.13-4.0.1.tgz"
-],
-"kafka_2.13-4.1.0": [
-"kafka/4.1.0/kafka_2.13-4.1.0.tgz"
 ],
 "kafka_2.13-4.1.1": [
 "kafka/4.1.1/kafka_2.13-4.1.1.tgz"
@@ -7332,12 +7283,6 @@
 "nifi-1.28.1": [
 "nifi/1.28.1/nifi-1.28.1-source-release.zip"
 ],
-"nifi-2.0.0": [
-"nifi/2.0.0/nifi-2.0.0-source-release.zip"
-],
-"nifi-2.7.1": [
-"nifi/2.7.1/nifi-2.7.1-source-release.zip"
-],
 "nifi-2.8.0": [
 "nifi/2.8.0/nifi-2.8.0-source-release.zip"
 ],
@@ -7365,11 +7310,8 @@
 "nifi-minifi-cpp-0.99.2": [
 "nifi/nifi-minifi-cpp/0.99.2/nifi-minifi-cpp-0.99.2-source.tar.gz"
 ],
-"nifi-nar-maven-plugin-2.1.0": [
-"nifi/nifi-nar-maven-plugin-2.1.0/nifi-nar-maven-plugin-2.1.0-source-release.zip"
-],
-"nifi-nar-maven-plugin-2.2.0": [
-"nifi/nifi-nar-maven-plugin-2.2.0/nifi-nar-maven-plugin-2.2.0-source-release.zip"
+"nifi-nar-maven-plugin-2.3.0": [
+"nifi/nifi-nar-maven-plugin-2.3.0/nifi-nar-maven-plugin-2.3.0-source-release.zip"
 ]
 },
 "nutch": {
@@ -9038,6 +8980,9 @@
 ],
 "shiro-root-2.1.0": [
 "shiro/2.1.0/shiro-root-2.1.0-source-release.zip"
+],
+"shiro-root-3.0.0-alpha-1": [
+"shiro/3.0.0-alpha-1/shiro-root-3.0.0-alpha-1-source-release.zip"
 ]
 },
 "singa": {
@@ -9430,8 +9375,8 @@
 "org.apache.sling.engine-2.16.6": [
 "sling/org.apache.sling.engine-2.16.6-source-release.zip"
 ],
-"org.apache.sling.engine-3.0.0": [
-"sling/org.apache.sling.engine-3.0.0-source-release.zip"
+"org.apache.sling.engine-3.0.2": [
+"sling/org.apache.sling.engine-3.0.2-source-release.zip"
 ],
 "org.apache.sling.event-4.4.0": [
 "sling/org.apache.sling.event-4.4.0-source-release.zip"
@@ -10915,6 +10860,9 @@
 ],
 "apache-tvm-ffi-v0.1.8": [
 "tvm/tvm-ffi-v0.1.8/apache-tvm-ffi-src-v0.1.8.tar.gz"
+],
+"apache-tvm-ffi-v0.1.9": [
+"tvm/tvm-ffi-v0.1.9/apache-tvm-ffi-src-v0.1.9.tar.gz"
 ],
 "apache-tvm-v0.10.0": [
 "tvm/tvm-v0.10.0/apache-tvm-src-v0.10.0.tar.gz"
