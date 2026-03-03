@@ -92,6 +92,9 @@ def getIfNewer(url, sinceTime=None, encoding=None, errors=None, silent=False, de
         else:
             response = resp
     except HTTPError as err:
+        if err.code == 429: # Too many requests
+            # There may be some useful info in the headers
+            print(f"{url} {err.code} {err.hdrs._headers}")
         if err.code == 304:
             lastMod = sinceTime # preserve timestamp
         else:
@@ -284,6 +287,8 @@ class UrlCache(object):
             return open(target, 'rb')
 
 def main():
+    x = URLopen('https://httpbin.org/status/429')
+    return
     print(URLexists('https://www.apache.org/'))
     print(URLexists('https://www.apache.org/__'))
     print(URLexists('https://__.apache.org/'))
