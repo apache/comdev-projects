@@ -287,8 +287,6 @@ class UrlCache(object):
             return open(target, 'rb')
 
 def main():
-    x = URLopen('https://httpbin.org/status/429')
-    return
     print(URLexists('https://www.apache.org/'))
     print(URLexists('https://www.apache.org/__'))
     print(URLexists('https://__.apache.org/'))
