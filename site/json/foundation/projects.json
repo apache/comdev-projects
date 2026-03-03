@@ -5780,23 +5780,10 @@
 "pmc": "celeborn"
 },
 "celix": {
-"bug-database": "https://github.com/apache/celix/issues",
-"category": "network-server",
-"created": "2010-11-17",
-"description": "\n      Apache Celix is a framework for C, C++14 and C++17 to develop dynamic modular software applications using component\n      and in-process service-oriented programming.\n      Apache Celix is inspired by the OSGi specification adapted for C and C++.\n    ",
-"doap": "https://gitbox.apache.org/repos/asf?p=celix.git;a=blob_plain;f=doap/doap_Celix.rdf;hb=refs/heads/master",
-"download-page": "https://celix.apache.org/download.cgi",
+"category": "no-tlp-doap",
 "homepage": "https://celix.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "https://celix.apache.org/support/mailing-list.html",
 "name": "Apache Celix",
-"pmc": "celix",
-"programming-language": "C, C++",
-"repository": [
-"https://gitbox.apache.org/repos/asf/celix.git",
-"https://gitbox.apache.org/repos/asf/celix-site.git"
-],
-"shortdesc": "Dynamic Service framework for C and C++ inspired by OSGi."
+"pmc": "celix"
 },
 "cloudstack": {
 "bug-database": "https://issues.apache.org/jira/browse/CLOUDSTACK",
@@ -9998,6 +9985,37 @@
 "https://github.com/apache/directory-kerby"
 ],
 "shortdesc": "The Eclipse based LDAP browser and directory client"
+},
+"directory-ldap_api": {
+"bug-database": "https://issues.apache.org/jira/browse/DIRAPI",
+"category": "network-client",
+"created": "2007-04-17",
+"description": "The Apache Directory LDAP API is an ongoing effort to provide an enhanced LDAP API, as a replacement for JNDI and the existing LDAP API (jLdap and Mozilla LDAP API).",
+"doap": "https://raw.githubusercontent.com/apache/directory-ldap-api/refs/heads/master/doap_ldap-api.rdf",
+"download-page": "https://directory.apache.org/api/downloads.html",
+"homepage": "https://directory.apache.org/api",
+"implements": [
+{
+"body": "IETF",
+"id": "RFC 4511",
+"title": "Lightweight Directory Access Protocol (LDAP): The Protocol",
+"url": "https://www.ietf.org/rfc/rfc4511.txt"
+},
+{
+"body": "IETF",
+"id": "RFC 4120",
+"title": "The Kerberos Network Authentication Service (V5)",
+"url": "https://www.ietf.org/rfc/rfc4120.txt"
+}
+],
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://directory.apache.org/mailing-lists-and-irc.html",
+"name": "Apache Directory LDAP API",
+"pmc": "directory",
+"programming-language": "Java",
+"repository": [
+"https://github.com/apache/directory-ldap-api"
+]
 },
 "directory-server": {
 "bug-database": "https://issues.apache.org/jira/browse/DIRSERVER",
@@ -17104,22 +17122,10 @@
 "shortdesc": "AMQP enterprise messaging implementation."
 },
 "ranger": {
-"bug-database": "https://issues.apache.org/jira/projects/RANGER/issues",
-"category": "big-data, security",
-"created": "2023-12-31",
-"description": "Apache Ranger is a framework to enable, monitor and manage comprehensive data security - consistently across various data processing services. Integrated with most of the Big-Data technologies (Hadoop, Hive, HBase, Spark, Trino, ...)",
-"doap": "https://svn.apache.org/repos/asf/ranger/site/trunk/doap_Ranger.rdf",
-"download-page": "https://ranger.apache.org/download.html",
+"category": "no-tlp-doap",
 "homepage": "https://ranger.apache.org",
-"license": "https://spdx.org/licenses/Apache-2.0",
-"mailing-list": "https://lists.apache.org/list.html?ranger.apache.org",
 "name": "Apache Ranger",
-"pmc": "ranger",
-"programming-language": "Java",
-"repository": [
-"https://gitbox.apache.org/repos/asf/ranger.git"
-],
-"shortdesc": "Provide authorization framework across multiple datasources and have a single glass of pane for Security & Governance."
+"pmc": "ranger"
 },
 "ratis": {
 "category": "no-tlp-doap",
