@@ -5780,10 +5780,23 @@
 "pmc": "celeborn"
 },
 "celix": {
-"category": "no-tlp-doap",
+"bug-database": "https://github.com/apache/celix/issues",
+"category": "network-server",
+"created": "2010-11-17",
+"description": "\n      Apache Celix is a framework for C, C++14 and C++17 to develop dynamic modular software applications using component\n      and in-process service-oriented programming.\n      Apache Celix is inspired by the OSGi specification adapted for C and C++.\n    ",
+"doap": "https://gitbox.apache.org/repos/asf?p=celix.git;a=blob_plain;f=doap/doap_Celix.rdf;hb=refs/heads/master",
+"download-page": "https://celix.apache.org/download.cgi",
 "homepage": "https://celix.apache.org",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "https://celix.apache.org/support/mailing-list.html",
 "name": "Apache Celix",
-"pmc": "celix"
+"pmc": "celix",
+"programming-language": "C, C++",
+"repository": [
+"https://gitbox.apache.org/repos/asf/celix.git",
+"https://gitbox.apache.org/repos/asf/celix-site.git"
+],
+"shortdesc": "Dynamic Service framework for C and C++ inspired by OSGi."
 },
 "cloudstack": {
 "bug-database": "https://issues.apache.org/jira/browse/CLOUDSTACK",
@@ -9992,7 +10005,7 @@
 "created": "2007-04-17",
 "description": "The Apache Directory LDAP API is an ongoing effort to provide an enhanced LDAP API, as a replacement for JNDI and the existing LDAP API (jLdap and Mozilla LDAP API).",
 "doap": "https://raw.githubusercontent.com/apache/directory-ldap-api/refs/heads/master/doap_ldap-api.rdf",
-"download-page": "https://directory.apache.org/api/downloads.html",
+"download-page": "https://directory.apache.org/api/downloads-2.html",
 "homepage": "https://directory.apache.org/api",
 "implements": [
 {
@@ -17895,6 +17908,11 @@
 "pmc": "solr",
 "programming-language": "Java",
 "release": [
+{
+"created": "2026-03-03",
+"name": "solr-10.0.0",
+"revision": "10.0.0"
+},
 {
 "created": "2026-01-20",
 "name": "solr-9.10.1",
