@@ -74,10 +74,10 @@
 "apache-age-1.6.0": [
 "age/PG14/1.6.0/apache-age-1.6.0-src.tar.gz",
 "age/PG15/1.6.0/apache-age-1.6.0-src.tar.gz",
-"age/PG16/1.6.0/apache-age-1.6.0-src.tar.gz",
-"age/PG17/1.6.0/apache-age-1.6.0-src.tar.gz"
+"age/PG16/1.6.0/apache-age-1.6.0-src.tar.gz"
 ],
 "apache-age-1.7.0": [
+"age/PG17/1.7.0/apache-age-1.7.0-src.tar.gz",
 "age/PG18/1.7.0/apache-age-1.7.0-src.tar.gz"
 ],
 "apache-age-viewer-1.0.0-rc2-incubating": [
@@ -1337,8 +1337,14 @@
 "apache_buildstream-2.6.0": [
 "buildstream/apache_buildstream-2.6.0.tar.gz"
 ],
+"apache_buildstream-2.7.0": [
+"buildstream/apache_buildstream-2.7.0.tar.gz"
+],
 "apache_buildstream_plugins-2.3.0": [
 "buildstream/apache_buildstream_plugins-2.3.0.tar.gz"
+],
+"apache_buildstream_plugins-2.7.0": [
+"buildstream/apache_buildstream_plugins-2.7.0.tar.gz"
 ]
 },
 "bval": {
@@ -1427,8 +1433,8 @@
 "apache-camel-quarkus-3.20.4": [
 "camel/camel-quarkus/3.20.4/apache-camel-quarkus-3.20.4-src.zip"
 ],
-"apache-camel-quarkus-3.27.2": [
-"camel/camel-quarkus/3.27.2/apache-camel-quarkus-3.27.2-src.zip"
+"apache-camel-quarkus-3.27.3": [
+"camel/camel-quarkus/3.27.3/apache-camel-quarkus-3.27.3-src.zip"
 ],
 "apache-camel-quarkus-3.32.0": [
 "camel/camel-quarkus/3.32.0/apache-camel-quarkus-3.32.0-src.zip"
@@ -2025,8 +2031,12 @@
 "cordova-amazon-fireos-3.6.3": [
 "cordova/platforms/cordova-amazon-fireos-3.6.3.tgz"
 ],
-"cordova-android-14.0.1": [
-"cordova/platforms/cordova-android-14.0.1.tgz"
+"cordova-android-npm-15.0.0": [
+"cordova/platforms/cordova-android-npm-15.0.0.tgz"
+],
+"cordova-android-source-15.0.0": [
+"cordova/platforms/cordova-android-source-15.0.0.tar.gz",
+"cordova/platforms/cordova-android-source-15.0.0.zip"
 ],
 "cordova-app-hello-world-7.0.0": [
 "cordova/templates/cordova-app-hello-world-7.0.0.tgz"
@@ -6443,9 +6453,9 @@
 "maven/maven-3/3.8.9/source/apache-maven-3.8.9-src.tar.gz",
 "maven/maven-3/3.8.9/source/apache-maven-3.8.9-src.zip"
 ],
-"apache-maven-3.9.12": [
-"maven/maven-3/3.9.12/source/apache-maven-3.9.12-src.tar.gz",
-"maven/maven-3/3.9.12/source/apache-maven-3.9.12-src.zip"
+"apache-maven-3.9.13": [
+"maven/maven-3/3.9.13/source/apache-maven-3.9.13-src.tar.gz",
+"maven/maven-3/3.9.13/source/apache-maven-3.9.13-src.zip"
 ],
 "apache-maven-4.0.0-rc-5": [
 "maven/maven-4/4.0.0-rc-5/source/apache-maven-4.0.0-rc-5-src.tar.gz",
@@ -9082,9 +9092,9 @@
 "skywalking-banyandb-0.9.0-bydbctl": [
 "skywalking/banyandb/0.9.0/skywalking-banyandb-0.9.0-bydbctl.tgz"
 ],
-"skywalking-banyandb-helm-0.6.0-rc3": [
-"skywalking/banyandb-helm/0.6.0-rc3/skywalking-banyandb-helm-0.6.0-rc3-src.tgz",
-"skywalking/banyandb-helm/0.6.0-rc3/skywalking-banyandb-helm-0.6.0-rc3.tgz"
+"skywalking-banyandb-helm-0.6.0-rc4": [
+"skywalking/banyandb-helm/0.6.0-rc4/skywalking-banyandb-helm-0.6.0-rc4-src.tgz",
+"skywalking/banyandb-helm/0.6.0-rc4/skywalking-banyandb-helm-0.6.0-rc4.tgz"
 ],
 "skywalking-cli-0.13.0": [
 "skywalking/cli/0.13.0/skywalking-cli-0.13.0-src.tgz"
