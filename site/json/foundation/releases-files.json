@@ -2076,8 +2076,12 @@
 "cordova-firefoxos-3.6.3": [
 "cordova/platforms/cordova-firefoxos-3.6.3.tgz"
 ],
-"cordova-ios-8.0.0": [
-"cordova/platforms/cordova-ios-8.0.0.tgz"
+"cordova-ios-npm-8.0.1": [
+"cordova/platforms/cordova-ios-npm-8.0.1.tgz"
+],
+"cordova-ios-source-8.0.1": [
+"cordova/platforms/cordova-ios-source-8.0.1.tar.gz",
+"cordova/platforms/cordova-ios-source-8.0.1.zip"
 ],
 "cordova-js-6.1.0": [
 "cordova/tools/cordova-js-6.1.0.tgz"
@@ -2448,47 +2452,8 @@
 ]
 },
 "datafusion": {
-"apache-datafusion-47.0.0": [
-"datafusion/datafusion-47.0.0/apache-datafusion-47.0.0.tar.gz"
-],
-"apache-datafusion-48.0.0": [
-"datafusion/datafusion-48.0.0/apache-datafusion-48.0.0.tar.gz"
-],
-"apache-datafusion-48.0.1": [
-"datafusion/datafusion-48.0.1/apache-datafusion-48.0.1.tar.gz"
-],
-"apache-datafusion-49.0.0": [
-"datafusion/datafusion-49.0.0/apache-datafusion-49.0.0.tar.gz"
-],
-"apache-datafusion-49.0.1": [
-"datafusion/datafusion-49.0.1/apache-datafusion-49.0.1.tar.gz"
-],
-"apache-datafusion-49.0.2": [
-"datafusion/datafusion-49.0.2/apache-datafusion-49.0.2.tar.gz"
-],
-"apache-datafusion-50.0.0": [
-"datafusion/datafusion-50.0.0/apache-datafusion-50.0.0.tar.gz"
-],
-"apache-datafusion-50.1.0": [
-"datafusion/datafusion-50.1.0/apache-datafusion-50.1.0.tar.gz"
-],
-"apache-datafusion-50.2.0": [
-"datafusion/datafusion-50.2.0/apache-datafusion-50.2.0.tar.gz"
-],
-"apache-datafusion-50.3.0": [
-"datafusion/datafusion-50.3.0/apache-datafusion-50.3.0.tar.gz"
-],
-"apache-datafusion-51.0.0": [
-"datafusion/datafusion-51.0.0/apache-datafusion-51.0.0.tar.gz"
-],
-"apache-datafusion-52.0.0": [
-"datafusion/datafusion-52.0.0/apache-datafusion-52.0.0.tar.gz"
-],
-"apache-datafusion-52.1.0": [
-"datafusion/datafusion-52.1.0/apache-datafusion-52.1.0.tar.gz"
-],
-"apache-datafusion-52.2.0": [
-"datafusion/datafusion-52.2.0/apache-datafusion-52.2.0.tar.gz"
+"apache-datafusion-52.3.0": [
+"datafusion/datafusion-52.3.0/apache-datafusion-52.3.0.tar.gz"
 ],
 "apache-datafusion-ballista-50.0.0": [
 "datafusion/datafusion-ballista-50.0.0/apache-datafusion-ballista-50.0.0.tar.gz"
@@ -6458,9 +6423,9 @@
 "maven/maven-3/3.8.9/source/apache-maven-3.8.9-src.tar.gz",
 "maven/maven-3/3.8.9/source/apache-maven-3.8.9-src.zip"
 ],
-"apache-maven-3.9.13": [
-"maven/maven-3/3.9.13/source/apache-maven-3.9.13-src.tar.gz",
-"maven/maven-3/3.9.13/source/apache-maven-3.9.13-src.zip"
+"apache-maven-3.9.14": [
+"maven/maven-3/3.9.14/source/apache-maven-3.9.14-src.tar.gz",
+"maven/maven-3/3.9.14/source/apache-maven-3.9.14-src.zip"
 ],
 "apache-maven-4.0.0-rc-5": [
 "maven/maven-4/4.0.0-rc-5/source/apache-maven-4.0.0-rc-5-src.tar.gz",
@@ -6622,8 +6587,8 @@
 "maven-jdeps-plugin-3.2.0": [
 "maven/plugins/maven-jdeps-plugin-3.2.0-source-release.zip"
 ],
-"maven-jlink-plugin-3.2.0": [
-"maven/plugins/maven-jlink-plugin-3.2.0-source-release.zip"
+"maven-jlink-plugin-3.3.0": [
+"maven/plugins/maven-jlink-plugin-3.3.0-source-release.zip"
 ],
 "maven-jmod-plugin-3.0.0": [
 "maven/plugins/maven-jmod-plugin-3.0.0-source-release.zip"
@@ -10090,8 +10055,8 @@
 "sling-66": [
 "sling/sling-66-source-release.zip"
 ],
-"sling-archetype-1.0.14": [
-"sling/sling-project-archetype-1.0.14-source-release.zip"
+"sling-archetype-1.0.16": [
+"sling/sling-project-archetype-1.0.16-source-release.zip"
 ],
 "sling-archetype-parent-7": [
 "sling/sling-archetype-parent-7-source-release.zip"
@@ -10178,8 +10143,8 @@
 "SparkR_4.1.1": [
 "spark/spark-4.1.1/SparkR_4.1.1.tar.gz"
 ],
-"SparkR_4.2.0-preview2": [
-"spark/spark-4.2.0-preview2/SparkR_4.2.0-preview2.tar.gz"
+"SparkR_4.2.0-preview3": [
+"spark/spark-4.2.0-preview3/SparkR_4.2.0-preview3.tar.gz"
 ],
 "pyspark-3.5.8": [
 "spark/spark-3.5.8/pyspark-3.5.8.tar.gz"
@@ -10190,8 +10155,8 @@
 "pyspark-4.1.1": [
 "spark/spark-4.1.1/pyspark-4.1.1.tar.gz"
 ],
-"pyspark-4.2.0.dev2": [
-"spark/spark-4.2.0-preview2/pyspark-4.2.0.dev2.tar.gz"
+"pyspark-4.2.0.dev3": [
+"spark/spark-4.2.0-preview3/pyspark-4.2.0.dev3.tar.gz"
 ],
 "pyspark_client-4.0.2": [
 "spark/spark-4.0.2/pyspark_client-4.0.2.tar.gz"
@@ -10199,8 +10164,8 @@
 "pyspark_client-4.1.1": [
 "spark/spark-4.1.1/pyspark_client-4.1.1.tar.gz"
 ],
-"pyspark_client-4.2.0.dev2": [
-"spark/spark-4.2.0-preview2/pyspark_client-4.2.0.dev2.tar.gz"
+"pyspark_client-4.2.0.dev3": [
+"spark/spark-4.2.0-preview3/pyspark_client-4.2.0.dev3.tar.gz"
 ],
 "pyspark_connect-4.0.2": [
 "spark/spark-4.0.2/pyspark_connect-4.0.2.tar.gz"
@@ -10208,8 +10173,8 @@
 "pyspark_connect-4.1.1": [
 "spark/spark-4.1.1/pyspark_connect-4.1.1.tar.gz"
 ],
-"pyspark_connect-4.2.0.dev2": [
-"spark/spark-4.2.0-preview2/pyspark_connect-4.2.0.dev2.tar.gz"
+"pyspark_connect-4.2.0.dev3": [
+"spark/spark-4.2.0-preview3/pyspark_connect-4.2.0.dev3.tar.gz"
 ],
 "spark-3.5.8": [
 "spark/spark-3.5.8/spark-3.5.8.tgz"
@@ -10220,8 +10185,8 @@
 "spark-4.1.1": [
 "spark/spark-4.1.1/spark-4.1.1.tgz"
 ],
-"spark-4.2.0-preview2": [
-"spark/spark-4.2.0-preview2/spark-4.2.0-preview2.tgz"
+"spark-4.2.0-preview3": [
+"spark/spark-4.2.0-preview3/spark-4.2.0-preview3.tgz"
 ],
 "spark-connect-swift-0.5.0": [
 "spark/spark-connect-swift-0.5.0/spark-connect-swift-0.5.0.tar.gz"
