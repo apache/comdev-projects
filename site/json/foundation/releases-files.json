@@ -865,8 +865,8 @@
 "apache-arrow-go-18.5.2": [
 "arrow/apache-arrow-go-18.5.2/apache-arrow-go-18.5.2.tar.gz"
 ],
-"apache-arrow-java-18.3.0": [
-"arrow/apache-arrow-java-18.3.0/apache-arrow-java-18.3.0.tar.gz"
+"apache-arrow-java-19.0.0": [
+"arrow/apache-arrow-java-19.0.0/apache-arrow-java-19.0.0.tar.gz"
 ],
 "apache-arrow-js-21.1.0": [
 "arrow/apache-arrow-js-21.1.0/apache-arrow-js-21.1.0.tar.gz"
@@ -2474,8 +2474,8 @@
 "apache-datafusion-comet-0.13.0": [
 "datafusion/datafusion-comet-0.13.0/apache-datafusion-comet-0.13.0.tar.gz"
 ],
-"apache-datafusion-python-52.0.0": [
-"datafusion/datafusion-python-52.0.0/apache-datafusion-python-52.0.0.tar.gz"
+"apache-datafusion-python-52.3.0": [
+"datafusion/datafusion-python-52.3.0/apache-datafusion-python-52.3.0.tar.gz"
 ],
 "apache-datafusion-sqlparser-rs-0.56.0": [
 "datafusion/datafusion-sqlparser-rs-0.56.0/apache-datafusion-sqlparser-rs-0.56.0.tar.gz"
@@ -4142,20 +4142,11 @@
 ]
 },
 "grails": {
-"apache-grails-7.0.6": [
-"grails/core/7.0.6/sources/apache-grails-7.0.6-src.zip"
-],
-"apache-grails-7.0.7": [
-"grails/core/7.0.7/sources/apache-grails-7.0.7-src.zip"
-],
-"apache-grails-7.0.8": [
-"grails/core/7.0.8/sources/apache-grails-7.0.8-src.zip"
+"apache-grails-7.0.9": [
+"grails/core/7.0.9/sources/apache-grails-7.0.9-src.zip"
 ],
 "apache-grails-github-actions-1.0.1": [
 "grails/actions/1.0.1/sources/apache-grails-github-actions-1.0.1-src.zip"
-],
-"apache-grails-publish-0.0.3": [
-"grails/grails-publish/0.0.3/sources/apache-grails-publish-0.0.3-src.zip"
 ],
 "apache-grails-publish-0.0.4": [
 "grails/grails-publish/0.0.4/sources/apache-grails-publish-0.0.4-src.zip"
@@ -5793,6 +5784,9 @@
 "kafka-4.1.1": [
 "kafka/4.1.1/kafka-4.1.1-src.tgz"
 ],
+"kafka-4.1.2": [
+"kafka/4.1.2/kafka-4.1.2-src.tgz"
+],
 "kafka-4.2.0": [
 "kafka/4.2.0/kafka-4.2.0-src.tgz"
 ],
@@ -5807,6 +5801,9 @@
 ],
 "kafka_2.13-4.1.1": [
 "kafka/4.1.1/kafka_2.13-4.1.1.tgz"
+],
+"kafka_2.13-4.1.2": [
+"kafka/4.1.2/kafka_2.13-4.1.2.tgz"
 ],
 "kafka_2.13-4.2.0": [
 "kafka/4.2.0/kafka_2.13-4.2.0.tgz"
@@ -6624,6 +6621,10 @@
 "maven-mvnd-1.0.3": [
 "maven/mvnd/1.0.3/maven-mvnd-1.0.3-src.tar.gz",
 "maven/mvnd/1.0.3/maven-mvnd-1.0.3-src.zip"
+],
+"maven-mvnd-1.0.4": [
+"maven/mvnd/1.0.4/maven-mvnd-1.0.4-src.tar.gz",
+"maven/mvnd/1.0.4/maven-mvnd-1.0.4-src.zip"
 ],
 "maven-mvnd-2.0.0-rc-3": [
 "maven/mvnd/2.0.0-rc-3/maven-mvnd-2.0.0-rc-3-src.tar.gz",
@@ -9089,9 +9090,9 @@
 "skywalking-banyandb-0.9.0-bydbctl": [
 "skywalking/banyandb/0.9.0/skywalking-banyandb-0.9.0-bydbctl.tgz"
 ],
-"skywalking-banyandb-helm-0.6.0-rc4": [
-"skywalking/banyandb-helm/0.6.0-rc4/skywalking-banyandb-helm-0.6.0-rc4-src.tgz",
-"skywalking/banyandb-helm/0.6.0-rc4/skywalking-banyandb-helm-0.6.0-rc4.tgz"
+"skywalking-banyandb-helm-0.6.0-rc5": [
+"skywalking/banyandb-helm/0.6.0-rc5/skywalking-banyandb-helm-0.6.0-rc5-src.tgz",
+"skywalking/banyandb-helm/0.6.0-rc5/skywalking-banyandb-helm-0.6.0-rc5.tgz"
 ],
 "skywalking-cli-0.13.0": [
 "skywalking/cli/0.13.0/skywalking-cli-0.13.0-src.tgz"
@@ -9955,23 +9956,23 @@
 "org.apache.sling.testing.logging-mock-2.0.0": [
 "sling/org.apache.sling.testing.logging-mock-2.0.0-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock-3.5.4": [
-"sling/org.apache.sling.testing.osgi-mock-3.5.4-source-release.zip"
+"org.apache.sling.testing.osgi-mock-3.5.6": [
+"sling/org.apache.sling.testing.osgi-mock-3.5.6-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.core-3.5.4": [
-"sling/org.apache.sling.testing.osgi-mock.core-3.5.4-source-release.zip"
+"org.apache.sling.testing.osgi-mock.core-3.5.6": [
+"sling/org.apache.sling.testing.osgi-mock.core-3.5.6-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.junit4-3.5.4": [
-"sling/org.apache.sling.testing.osgi-mock.junit4-3.5.4-source-release.zip"
+"org.apache.sling.testing.osgi-mock.junit4-3.5.6": [
+"sling/org.apache.sling.testing.osgi-mock.junit4-3.5.6-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.junit5-3.5.4": [
-"sling/org.apache.sling.testing.osgi-mock.junit5-3.5.4-source-release.zip"
+"org.apache.sling.testing.osgi-mock.junit5-3.5.6": [
+"sling/org.apache.sling.testing.osgi-mock.junit5-3.5.6-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.parent-3.5.4": [
-"sling/org.apache.sling.testing.osgi-mock.parent-3.5.4-source-release.zip"
+"org.apache.sling.testing.osgi-mock.parent-3.5.6": [
+"sling/org.apache.sling.testing.osgi-mock.parent-3.5.6-source-release.zip"
 ],
-"org.apache.sling.testing.osgi-mock.test-services-3.5.4": [
-"sling/org.apache.sling.testing.osgi-mock.test-services-3.5.4-source-release.zip"
+"org.apache.sling.testing.osgi-mock.test-services-3.5.6": [
+"sling/org.apache.sling.testing.osgi-mock.test-services-3.5.6-source-release.zip"
 ],
 "org.apache.sling.testing.paxexam-4.1.2": [
 "sling/org.apache.sling.testing.paxexam-4.1.2-source-release.zip"
@@ -10214,6 +10215,9 @@
 ],
 "spark-kubernetes-operator-0.7.0": [
 "spark/spark-kubernetes-operator-0.7.0/spark-kubernetes-operator-0.7.0.tar.gz"
+],
+"spark-kubernetes-operator-0.8.0": [
+"spark/spark-kubernetes-operator-0.8.0/spark-kubernetes-operator-0.8.0.tar.gz"
 ]
 },
 "storm": {
