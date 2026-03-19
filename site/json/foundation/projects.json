@@ -9275,16 +9275,16 @@
 "mailing-list": "https://cordova.apache.org/contact/",
 "name": "Apache Cordova",
 "pmc": "cordova",
-"programming-language": "JavaScript, Java, Objective-C, C++, C#, node.js",
+"programming-language": "JavaScript, Java, Objective-C, Node.js",
 "release": [
 {
-"created": "2021-12-21",
+"created": "2025-11-25",
 "name": "Latest Stable",
-"revision": "11.0.0"
+"revision": "13.0.0"
 }
 ],
 "repository": [
-"https://cordova.apache.org/contribute/"
+"https://github.com/apache/cordova.git"
 ],
 "shortdesc": "A tool to create cross-platform apps from standard web technologies (HTML, CSS, and JavaScript)."
 },
@@ -10290,13 +10290,6 @@
 "name": "Apache Fineract",
 "pmc": "fineract",
 "programming-language": "Java",
-"release": [
-{
-"created": "2024-12-31",
-"name": "Fineract 1.10.1",
-"revision": "1.10.1"
-}
-],
 "repository": [
 "https://github.com/apache/fineract"
 ],
@@ -11085,12 +11078,12 @@
 "shortdesc": "\nHTTP transport library including support for asynchronous execution based on Java NIO.\n    "
 },
 "httpd-http_server": {
-"bug-database": "http://httpd.apache.org/bug_report.html",
+"bug-database": "https://httpd.apache.org/bug_report.html",
 "category": "network-server, http, httpd-module",
 "description": "\n      The Apache HTTP Server is an open-source HTTP server for modern\n      operating systems including UNIX, Microsoft Windows, Mac OS/X and Netware.\n      The goal of this project is to provide a secure, efficient and\n      extensible server that provides HTTP services observing the current\n      HTTP standards. Apache has been the most popular web server on the\n      Internet since April of 1996.\n    ",
 "doap": "https://raw.githubusercontent.com/apache/httpd-site/main/content/doap.rdf",
-"download-page": "http://httpd.apache.org/download.cgi",
-"homepage": "http://httpd.apache.org/",
+"download-page": "https://httpd.apache.org/download.cgi",
+"homepage": "https://httpd.apache.org/",
 "implements": [
 {
 "body": "IETF",
@@ -11124,7 +11117,7 @@
 }
 ],
 "license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://httpd.apache.org/lists.html",
+"mailing-list": "https://httpd.apache.org/lists.html",
 "name": "Apache HTTP Server",
 "pmc": "httpd",
 "programming-language": "C",
@@ -11136,17 +11129,17 @@
 }
 ],
 "repository": [
-"http://svn.apache.org/repos/asf/httpd/httpd/"
+"https://svn.apache.org/repos/asf/httpd/httpd/"
 ],
 "shortdesc": "\n      The Apache HTTP Server application 'httpd'.\n    "
 },
 "httpd-mod_ftp": {
-"bug-database": "http://httpd.apache.org/bug_report.html",
+"bug-database": "https://httpd.apache.org/bug_report.html",
 "category": "network-server, ftp, httpd-module",
 "description": "\n      mod_ftp is an FTP Protocol module to serve httpd content over the FTP\n      protocol (whereever the HTTP protocol could also be used). It provides\n      both RETR/REST retrieval and STOR/APPE upload, using the same user/permissions\n      model as httpd (so it shares the same security considerations as mod_dav\n      plus mod_dav_fs). \n    ",
 "doap": "https://raw.githubusercontent.com/apache/httpd-site/main/content/mod_ftp/doap.rdf",
-"download-page": "http://httpd.apache.org/download.cgi",
-"homepage": "http://httpd.apache.org/mod_ftp/",
+"download-page": "https://httpd.apache.org/download.cgi",
+"homepage": "https://httpd.apache.org/mod_ftp/",
 "implements": [
 {
 "body": "IETF",
@@ -11198,7 +11191,7 @@
 }
 ],
 "license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://httpd.apache.org/lists.html",
+"mailing-list": "https://httpd.apache.org/lists.html",
 "name": "Apache mod_ftp",
 "pmc": "httpd",
 "programming-language": "C",
@@ -11210,7 +11203,7 @@
 }
 ],
 "repository": [
-"http://svn.apache.org/repos/asf/httpd/mod_ftp/"
+"https://svn.apache.org/repos/asf/httpd/mod_ftp/"
 ],
 "shortdesc": "\n      mod_ftp is an FTP protocol module hosted within Apache HTTP Server.\n    "
 },
@@ -17586,7 +17579,7 @@
 },
 "servicemix": {
 "bug-database": "http://issues.apache.org/activemq/browse/SM",
-"category": "network-client, network-server, xml, osgi",
+"category": "network-client, network-server, xml, osgi, retired",
 "created": "2015-03-16",
 "description": "Apache ServiceMix is a flexible, open-source integration container that unifies the features and functionality of Apache ActiveMQ, Camel, CXF, and Karaf into a powerful runtime platform you can use to build your own integrations solutions. It provides a complete, enterprise ready ESB exclusively powered by OSGi.",
 "doap": "http://svn.apache.org/repos/asf/servicemix/doap.rdf",
@@ -17609,7 +17602,7 @@
 }
 ],
 "name": "Apache ServiceMix",
-"pmc": "servicemix",
+"pmc": "attic",
 "programming-language": "Java, XML, Scala",
 "repository": [
 "http://svn.apache.org/repos/asf/servicemix/",
@@ -20894,7 +20887,7 @@
 }
 ],
 "repository": [
-"http://svn.apache.org/repos/asf/webservices/axiom/trunk"
+"https://github.com/apache/ws-axiom"
 ],
 "shortdesc": "Apache Axiom is an XML object model supporting deferred parsing."
 },
