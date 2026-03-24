@@ -35,8 +35,10 @@
 "airflow": {
 "airflow-1.18.0": "2025-07-13",
 "airflow-1.19.0": "2026-02-17",
+"airflow-1.20.0": "2026-03-23",
 "airflow-chart-1.18.0": "2025-07-13",
 "airflow-chart-1.19.0": "2026-02-17",
+"airflow-chart-1.20.0": "2026-03-23",
 "apache-airflow-2.11.2": "2026-03-14",
 "apache-airflow-client-2.5.0": "2023-02-03",
 "apache-airflow-providers-jira-3.1.0": "2025-11-25",
@@ -561,9 +563,9 @@
 "cassandra": {
 "apache-cassandra-3.0.32": "2025-02-06",
 "apache-cassandra-3.11.19": "2025-02-06",
-"apache-cassandra-4.0.19": "2025-10-14",
-"apache-cassandra-4.1.10": "2025-08-28",
-"apache-cassandra-5.0.6": "2025-10-21",
+"apache-cassandra-4.0.20": "2026-03-23",
+"apache-cassandra-4.1.11": "2026-03-23",
+"apache-cassandra-5.0.7": "2026-03-23",
 "apache-cassandra-analytics-0.2.0": "2025-11-18",
 "apache-cassandra-analytics-0.3.0": "2026-02-12",
 "apache-cassandra-gocql-driver-2.0.0": "2025-10-10",
@@ -786,8 +788,8 @@
 "apache-cxf-4.1.4": "2025-11-17",
 "apache-cxf-4.1.5": "2026-02-17",
 "apache-cxf-4.2.0": "2026-02-17",
-"apache-fediz-1.7.1": "2025-04-10",
-"fediz-1.7.1": "2025-04-10"
+"apache-fediz-1.7.2": "2026-03-23",
+"fediz-1.7.2": "2026-03-23"
 },
 "daffodil": {
 "apache-daffodil-4.1.0": "2026-01-28",
@@ -803,6 +805,7 @@
 "datafusion": {
 "apache-datafusion-52.3.0": "2026-03-12",
 "apache-datafusion-52.4.0": "2026-03-22",
+"apache-datafusion-53.0.0": "2026-03-23",
 "apache-datafusion-ballista-50.0.0": "2025-11-22",
 "apache-datafusion-ballista-51.0.0": "2026-01-19",
 "apache-datafusion-ballista-52.0.0": "2026-03-07",
@@ -2490,7 +2493,8 @@
 "apache-opendal-integrations-dav-server-0.7.0": "2025-11-17",
 "apache-opendal-integrations-object_store-0.55.0": "2025-11-17",
 "apache-opendal-integrations-parquet-0.7.0": "2025-11-17",
-"apache-opendal-integrations-unftp-sbe-0.4.0": "2025-11-17"
+"apache-opendal-integrations-unftp-sbe-0.4.0": "2025-11-17",
+"apache-opendal-reqsign-0.20.0": "2026-03-23"
 },
 "openjpa": {
 "apache-openjpa-2.2.2": "2014-12-16",
@@ -3033,6 +3037,7 @@
 "apache-skywalking-go-0.4.0": "2024-02-21",
 "apache-skywalking-go-0.5.0": "2024-08-21",
 "apache-skywalking-go-0.6.0": "2025-04-24",
+"apache-skywalking-graalvm-distro-0.2.1": "2026-03-23",
 "apache-skywalking-java-agent-9.6.0": "2026-02-16",
 "apache-skywalking-rover-0.7.0": "2024-10-17",
 "apache-skywalking-satellite-1.2.0": "2023-06-19",
@@ -3532,7 +3537,7 @@
 "thrift-0.22.0": "2025-05-23"
 },
 "tika": {
-"tika-3.2.3": "2025-09-15"
+"tika-3.3.0": "2026-03-23"
 },
 "tinkerpop": {
 "apache-tinkerpop-3.7.5": "2025-11-17",
@@ -3540,7 +3545,7 @@
 "apache-tinkerpop-4.0.0-beta.1": "2025-01-23"
 },
 "tomcat": {
-"apache-tomcat-10.1.52": "2026-01-23",
+"apache-tomcat-10.1.53": "2026-03-23",
 "apache-tomcat-11.0.18": "2026-01-23",
 "apache-tomcat-11.0.20": "2026-03-16",
 "apache-tomcat-9.0.115": "2026-01-21",

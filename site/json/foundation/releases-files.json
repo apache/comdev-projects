@@ -99,11 +99,17 @@
 "airflow-1.19.0": [
 "airflow/helm-chart/1.19.0/airflow-1.19.0.tgz"
 ],
+"airflow-1.20.0": [
+"airflow/helm-chart/1.20.0/airflow-1.20.0.tgz"
+],
 "airflow-chart-1.18.0": [
 "airflow/helm-chart/1.18.0/airflow-chart-1.18.0-source.tar.gz"
 ],
 "airflow-chart-1.19.0": [
 "airflow/helm-chart/1.19.0/airflow-chart-1.19.0-source.tar.gz"
+],
+"airflow-chart-1.20.0": [
+"airflow/helm-chart/1.20.0/airflow-chart-1.20.0-source.tar.gz"
 ],
 "apache-airflow-2.11.2": [
 "airflow/2.11.2/apache-airflow-2.11.2-source.tar.gz"
@@ -1632,14 +1638,14 @@
 "apache-cassandra-3.11.19": [
 "cassandra/3.11.19/apache-cassandra-3.11.19-src.tar.gz"
 ],
-"apache-cassandra-4.0.19": [
-"cassandra/4.0.19/apache-cassandra-4.0.19-src.tar.gz"
+"apache-cassandra-4.0.20": [
+"cassandra/4.0.20/apache-cassandra-4.0.20-src.tar.gz"
 ],
-"apache-cassandra-4.1.10": [
-"cassandra/4.1.10/apache-cassandra-4.1.10-src.tar.gz"
+"apache-cassandra-4.1.11": [
+"cassandra/4.1.11/apache-cassandra-4.1.11-src.tar.gz"
 ],
-"apache-cassandra-5.0.6": [
-"cassandra/5.0.6/apache-cassandra-5.0.6-src.tar.gz"
+"apache-cassandra-5.0.7": [
+"cassandra/5.0.7/apache-cassandra-5.0.7-src.tar.gz"
 ],
 "apache-cassandra-analytics-0.2.0": [
 "cassandra/cassandra-analytics/0.2.0/apache-cassandra-analytics-0.2.0-src.tar.gz",
@@ -2422,11 +2428,11 @@
 "cxf/4.2.0/apache-cxf-4.2.0.tar.gz",
 "cxf/4.2.0/apache-cxf-4.2.0.zip"
 ],
-"apache-fediz-1.7.1": [
-"cxf/fediz/1.7.1/apache-fediz-1.7.1.zip"
+"apache-fediz-1.7.2": [
+"cxf/fediz/1.7.2/apache-fediz-1.7.2.zip"
 ],
-"fediz-1.7.1": [
-"cxf/fediz/1.7.1/fediz-1.7.1-source-release.zip"
+"fediz-1.7.2": [
+"cxf/fediz/1.7.2/fediz-1.7.2-source-release.zip"
 ]
 },
 "daffodil": {
@@ -2460,6 +2466,9 @@
 ],
 "apache-datafusion-52.4.0": [
 "datafusion/datafusion-52.4.0/apache-datafusion-52.4.0.tar.gz"
+],
+"apache-datafusion-53.0.0": [
+"datafusion/datafusion-53.0.0/apache-datafusion-53.0.0.tar.gz"
 ],
 "apache-datafusion-ballista-50.0.0": [
 "datafusion/datafusion-ballista-50.0.0/apache-datafusion-ballista-50.0.0.tar.gz"
@@ -7584,6 +7593,9 @@
 ],
 "apache-opendal-integrations-unftp-sbe-0.4.0": [
 "opendal/0.55.0/apache-opendal-integrations-unftp-sbe-0.4.0-src.tar.gz"
+],
+"apache-opendal-reqsign-0.20.0": [
+"opendal/reqsign-0.20.0/apache-opendal-reqsign-0.20.0-src.tar.gz"
 ]
 },
 "openjpa": {
@@ -9081,6 +9093,9 @@
 "apache-skywalking-go-0.6.0": [
 "skywalking/go/0.6.0/apache-skywalking-go-0.6.0-src.tgz"
 ],
+"apache-skywalking-graalvm-distro-0.2.1": [
+"skywalking/graalvm-distro/0.2.1/apache-skywalking-graalvm-distro-0.2.1-src.tar.gz"
+],
 "apache-skywalking-java-agent-9.6.0": [
 "skywalking/java-agent/9.6.0/apache-skywalking-java-agent-9.6.0-src.tgz",
 "skywalking/java-agent/9.6.0/apache-skywalking-java-agent-9.6.0.tgz"
@@ -10546,8 +10561,8 @@
 ]
 },
 "tika": {
-"tika-3.2.3": [
-"tika/3.2.3/tika-3.2.3-src.zip"
+"tika-3.3.0": [
+"tika/3.3.0/tika-3.3.0-src.zip"
 ]
 },
 "tinkerpop": {
@@ -10562,9 +10577,9 @@
 ]
 },
 "tomcat": {
-"apache-tomcat-10.1.52": [
-"tomcat/tomcat-10/v10.1.52/src/apache-tomcat-10.1.52-src.tar.gz",
-"tomcat/tomcat-10/v10.1.52/src/apache-tomcat-10.1.52-src.zip"
+"apache-tomcat-10.1.53": [
+"tomcat/tomcat-10/v10.1.53/src/apache-tomcat-10.1.53-src.tar.gz",
+"tomcat/tomcat-10/v10.1.53/src/apache-tomcat-10.1.53-src.zip"
 ],
 "apache-tomcat-11.0.18": [
 "tomcat/tomcat-11/v11.0.18/src/apache-tomcat-11.0.18-src.tar.gz",
