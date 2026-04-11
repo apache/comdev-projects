@@ -561,6 +561,12 @@
 "ant/source/apache-ant-1.10.16-src.tar.xz",
 "ant/source/apache-ant-1.10.16-src.zip"
 ],
+"apache-ant-1.10.17": [
+"ant/source/apache-ant-1.10.17-src.tar.bz2",
+"ant/source/apache-ant-1.10.17-src.tar.gz",
+"ant/source/apache-ant-1.10.17-src.tar.xz",
+"ant/source/apache-ant-1.10.17-src.zip"
+],
 "apache-ant-1.9.16": [
 "ant/source/apache-ant-1.9.16-src.tar.bz2",
 "ant/source/apache-ant-1.9.16-src.tar.gz",
@@ -5679,8 +5685,8 @@
 "jackrabbit-2.22.3": [
 "jackrabbit/2.22.3/jackrabbit-2.22.3-src.zip"
 ],
-"jackrabbit-2.23.3-beta": [
-"jackrabbit/2.23.3-beta/jackrabbit-2.23.3-beta-src.zip"
+"jackrabbit-2.23.4-beta": [
+"jackrabbit/2.23.4-beta/jackrabbit-2.23.4-beta-src.zip"
 ],
 "jackrabbit-filevault-3.2.8": [
 "jackrabbit/filevault/3.2.8/jackrabbit-filevault-3.2.8-src.zip"
@@ -7340,8 +7346,8 @@
 "nifi-1.28.1": [
 "nifi/1.28.1/nifi-1.28.1-source-release.zip"
 ],
-"nifi-2.8.0": [
-"nifi/2.8.0/nifi-2.8.0-source-release.zip"
+"nifi-2.9.0": [
+"nifi/2.9.0/nifi-2.9.0-source-release.zip"
 ],
 "nifi-api-2.8.0": [
 "nifi/nifi-api-2.8.0/nifi-api-2.8.0-source-release.zip"
@@ -9116,8 +9122,8 @@
 "apache-skywalking-go-0.6.0": [
 "skywalking/go/0.6.0/apache-skywalking-go-0.6.0-src.tgz"
 ],
-"apache-skywalking-graalvm-distro-0.2.1": [
-"skywalking/graalvm-distro/0.2.1/apache-skywalking-graalvm-distro-0.2.1-src.tar.gz"
+"apache-skywalking-graalvm-distro-0.3.0": [
+"skywalking/graalvm-distro/0.3.0/apache-skywalking-graalvm-distro-0.3.0-src.tar.gz"
 ],
 "apache-skywalking-java-agent-9.6.0": [
 "skywalking/java-agent/9.6.0/apache-skywalking-java-agent-9.6.0-src.tgz",
@@ -10232,8 +10238,8 @@
 "SparkR_4.1.1": [
 "spark/spark-4.1.1/SparkR_4.1.1.tar.gz"
 ],
-"SparkR_4.2.0-preview3": [
-"spark/spark-4.2.0-preview3/SparkR_4.2.0-preview3.tar.gz"
+"SparkR_4.2.0-preview4": [
+"spark/spark-4.2.0-preview4/SparkR_4.2.0-preview4.tar.gz"
 ],
 "pyspark-3.5.8": [
 "spark/spark-3.5.8/pyspark-3.5.8.tar.gz"
@@ -10244,8 +10250,8 @@
 "pyspark-4.1.1": [
 "spark/spark-4.1.1/pyspark-4.1.1.tar.gz"
 ],
-"pyspark-4.2.0.dev3": [
-"spark/spark-4.2.0-preview3/pyspark-4.2.0.dev3.tar.gz"
+"pyspark-4.2.0.dev4": [
+"spark/spark-4.2.0-preview4/pyspark-4.2.0.dev4.tar.gz"
 ],
 "pyspark_client-4.0.2": [
 "spark/spark-4.0.2/pyspark_client-4.0.2.tar.gz"
@@ -10253,8 +10259,8 @@
 "pyspark_client-4.1.1": [
 "spark/spark-4.1.1/pyspark_client-4.1.1.tar.gz"
 ],
-"pyspark_client-4.2.0.dev3": [
-"spark/spark-4.2.0-preview3/pyspark_client-4.2.0.dev3.tar.gz"
+"pyspark_client-4.2.0.dev4": [
+"spark/spark-4.2.0-preview4/pyspark_client-4.2.0.dev4.tar.gz"
 ],
 "pyspark_connect-4.0.2": [
 "spark/spark-4.0.2/pyspark_connect-4.0.2.tar.gz"
@@ -10262,8 +10268,8 @@
 "pyspark_connect-4.1.1": [
 "spark/spark-4.1.1/pyspark_connect-4.1.1.tar.gz"
 ],
-"pyspark_connect-4.2.0.dev3": [
-"spark/spark-4.2.0-preview3/pyspark_connect-4.2.0.dev3.tar.gz"
+"pyspark_connect-4.2.0.dev4": [
+"spark/spark-4.2.0-preview4/pyspark_connect-4.2.0.dev4.tar.gz"
 ],
 "spark-3.5.8": [
 "spark/spark-3.5.8/spark-3.5.8.tgz"
@@ -10274,11 +10280,14 @@
 "spark-4.1.1": [
 "spark/spark-4.1.1/spark-4.1.1.tgz"
 ],
-"spark-4.2.0-preview3": [
-"spark/spark-4.2.0-preview3/spark-4.2.0-preview3.tgz"
+"spark-4.2.0-preview4": [
+"spark/spark-4.2.0-preview4/spark-4.2.0-preview4.tgz"
 ],
 "spark-connect-swift-0.5.0": [
 "spark/spark-connect-swift-0.5.0/spark-connect-swift-0.5.0.tar.gz"
+],
+"spark-connect-swift-0.6.0": [
+"spark/spark-connect-swift-0.6.0/spark-connect-swift-0.6.0.tar.gz"
 ],
 "spark-kubernetes-operator-0.7.0": [
 "spark/spark-kubernetes-operator-0.7.0/spark-kubernetes-operator-0.7.0.tar.gz"
