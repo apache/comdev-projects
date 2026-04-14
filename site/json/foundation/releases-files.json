@@ -133,8 +133,8 @@
 "airflow/3.2.0/apache_airflow-3.2.0-source.tar.gz",
 "airflow/3.2.0/apache_airflow-3.2.0.tar.gz"
 ],
-"apache_airflow_client-3.1.8": [
-"airflow/clients/python/3.1.8/apache_airflow_client-3.1.8.tar.gz"
+"apache_airflow_client-3.2.0": [
+"airflow/clients/python/3.2.0/apache_airflow_client-3.2.0.tar.gz"
 ],
 "apache_airflow_core-3.2.0": [
 "airflow/3.2.0/apache_airflow_core-3.2.0.tar.gz"
@@ -151,8 +151,8 @@
 "airflow/airflow-ctl/0.1.3/apache_airflow_ctl-0.1.3-source.tar.gz",
 "airflow/airflow-ctl/0.1.3/apache_airflow_ctl-0.1.3.tar.gz"
 ],
-"apache_airflow_providers-2026-04-08": [
-"airflow/providers/apache_airflow_providers-2026-04-08-source.tar.gz"
+"apache_airflow_providers-2026-04-12": [
+"airflow/providers/apache_airflow_providers-2026-04-12-source.tar.gz"
 ],
 "apache_airflow_providers_airbyte-5.4.1": [
 "airflow/providers/apache_airflow_providers_airbyte-5.4.1.tar.gz"
@@ -160,8 +160,8 @@
 "apache_airflow_providers_alibaba-3.3.7": [
 "airflow/providers/apache_airflow_providers_alibaba-3.3.7.tar.gz"
 ],
-"apache_airflow_providers_amazon-9.24.0": [
-"airflow/providers/apache_airflow_providers_amazon-9.24.0.tar.gz"
+"apache_airflow_providers_amazon-9.25.0": [
+"airflow/providers/apache_airflow_providers_amazon-9.25.0.tar.gz"
 ],
 "apache_airflow_providers_apache_beam-6.2.3": [
 "airflow/providers/apache_airflow_providers_apache_beam-6.2.3.tar.gz"
@@ -238,8 +238,11 @@
 "apache_airflow_providers_cohere-1.6.5": [
 "airflow/providers/apache_airflow_providers_cohere-1.6.5.tar.gz"
 ],
-"apache_airflow_providers_common_compat-1.14.2": [
-"airflow/providers/apache_airflow_providers_common_compat-1.14.2.tar.gz"
+"apache_airflow_providers_common_ai-0.1.0": [
+"airflow/providers/apache_airflow_providers_common_ai-0.1.0.tar.gz"
+],
+"apache_airflow_providers_common_compat-1.14.3": [
+"airflow/providers/apache_airflow_providers_common_compat-1.14.3.tar.gz"
 ],
 "apache_airflow_providers_common_io-1.7.2": [
 "airflow/providers/apache_airflow_providers_common_io-1.7.2.tar.gz"
@@ -358,8 +361,8 @@
 "apache_airflow_providers_openfaas-3.9.4": [
 "airflow/providers/apache_airflow_providers_openfaas-3.9.4.tar.gz"
 ],
-"apache_airflow_providers_openlineage-2.13.0": [
-"airflow/providers/apache_airflow_providers_openlineage-2.13.0.tar.gz"
+"apache_airflow_providers_openlineage-2.14.0": [
+"airflow/providers/apache_airflow_providers_openlineage-2.14.0.tar.gz"
 ],
 "apache_airflow_providers_opensearch-1.9.0": [
 "airflow/providers/apache_airflow_providers_opensearch-1.9.0.tar.gz"
@@ -463,8 +466,8 @@
 "apache_airflow_providers_zendesk-4.11.3": [
 "airflow/providers/apache_airflow_providers_zendesk-4.11.3.tar.gz"
 ],
-"apache_airflow_python_client-3.1.8": [
-"airflow/clients/python/3.1.8/apache_airflow_python_client-3.1.8-source.tar.gz"
+"apache_airflow_python_client-3.2.0": [
+"airflow/clients/python/3.2.0/apache_airflow_python_client-3.2.0-source.tar.gz"
 ],
 "apache_airflow_task_sdk-1.2.0": [
 "airflow/task-sdk/1.2.0/apache_airflow_task_sdk-1.2.0.tar.gz"
@@ -2521,8 +2524,8 @@
 "apache-datafusion-comet-0.14.0": [
 "datafusion/datafusion-comet-0.14.0/apache-datafusion-comet-0.14.0.tar.gz"
 ],
-"apache-datafusion-python-52.3.0": [
-"datafusion/datafusion-python-52.3.0/apache-datafusion-python-52.3.0.tar.gz"
+"apache-datafusion-python-53.0.0": [
+"datafusion/datafusion-python-53.0.0/apache-datafusion-python-53.0.0.tar.gz"
 ],
 "apache-datafusion-sqlparser-rs-0.56.0": [
 "datafusion/datafusion-sqlparser-rs-0.56.0/apache-datafusion-sqlparser-rs-0.56.0.tar.gz"
@@ -3441,9 +3444,9 @@
 "felix/org.apache.felix.rootcause-0.2.0-source-release.tar.gz",
 "felix/org.apache.felix.rootcause-0.2.0-source-release.zip"
 ],
-"org.apache.felix.scr-2.2.14": [
-"felix/org.apache.felix.scr-2.2.14-source-release.tar.gz",
-"felix/org.apache.felix.scr-2.2.14-source-release.zip"
+"org.apache.felix.scr-2.2.18": [
+"felix/org.apache.felix.scr-2.2.18-source-release.tar.gz",
+"felix/org.apache.felix.scr-2.2.18-source-release.zip"
 ],
 "org.apache.felix.scr.annotations-1.12.0": [
 "felix/org.apache.felix.scr.annotations-1.12.0-source-release.tar.gz",
@@ -5209,6 +5212,15 @@
 "incubator-cloudberry": {
 "apache-cloudberry-2.0.0-incubating": [
 "incubator/cloudberry/2.0.0-incubating/apache-cloudberry-2.0.0-incubating-src.tar.gz"
+],
+"apache-cloudberry-2.1.0-incubating": [
+"incubator/cloudberry/2.1.0-incubating/apache-cloudberry-2.1.0-incubating-src.tar.gz"
+],
+"apache-cloudberry-backup-2.1.0-incubating": [
+"incubator/cloudberry/2.1.0-incubating/apache-cloudberry-backup-2.1.0-incubating-src.tar.gz"
+],
+"apache-cloudberry-pxf-2.1.0-incubating": [
+"incubator/cloudberry/2.1.0-incubating/apache-cloudberry-pxf-2.1.0-incubating-src.tar.gz"
 ]
 },
 "incubator-devlake": {
@@ -5656,17 +5668,14 @@
 "apache-iotdb-0.13.4": [
 "iotdb/0.13.4/apache-iotdb-0.13.4-source-release.zip"
 ],
-"apache-iotdb-1.3.6": [
-"iotdb/1.3.6/apache-iotdb-1.3.6-source-release.zip"
-],
 "apache-iotdb-1.3.7": [
 "iotdb/1.3.7/apache-iotdb-1.3.7-source-release.zip"
 ],
-"apache-iotdb-2.0.6": [
-"iotdb/2.0.6/apache-iotdb-2.0.6-source-release.zip"
-],
 "apache-iotdb-2.0.7": [
 "iotdb/2.0.7/apache-iotdb-2.0.7-source-release.zip"
+],
+"apache-iotdb-2.0.8": [
+"iotdb/2.0.8/apache-iotdb-2.0.8-source-release.zip"
 ]
 },
 "jackrabbit": {
@@ -9307,8 +9316,8 @@
 "org.apache.sling.bnd.plugin.headers.parameters.remove-1.0.0": [
 "sling/org.apache.sling.bnd.plugin.headers.parameters.remove-1.0.0-source-release.zip"
 ],
-"org.apache.sling.bundleresource.impl-2.4.0": [
-"sling/org.apache.sling.bundleresource.impl-2.4.0-source-release.zip"
+"org.apache.sling.bundleresource.impl-3.0.0": [
+"sling/org.apache.sling.bundleresource.impl-3.0.0-source-release.zip"
 ],
 "org.apache.sling.caconfig.api-1.3.0": [
 "sling/org.apache.sling.caconfig.api-1.3.0-source-release.zip"
@@ -9391,8 +9400,8 @@
 "org.apache.sling.commons.metrics.prometheus-0.1.2": [
 "sling/org.apache.sling.commons.metrics.prometheus-0.1.2-source-release.zip"
 ],
-"org.apache.sling.commons.mime-2.3.0": [
-"sling/org.apache.sling.commons.mime-2.3.0-source-release.zip"
+"org.apache.sling.commons.mime-3.0.0": [
+"sling/org.apache.sling.commons.mime-3.0.0-source-release.zip"
 ],
 "org.apache.sling.commons.osgi-2.4.2": [
 "sling/org.apache.sling.commons.osgi-2.4.2-source-release.zip"
@@ -9973,8 +9982,8 @@
 "org.apache.sling.security-1.3.0": [
 "sling/org.apache.sling.security-1.3.0-source-release.zip"
 ],
-"org.apache.sling.serviceuser.webconsole-1.0.4": [
-"sling/org.apache.sling.serviceuser.webconsole-1.0.4-source-release.zip"
+"org.apache.sling.serviceuser.webconsole-2.0.0": [
+"sling/org.apache.sling.serviceuser.webconsole-2.0.0-source-release.zip"
 ],
 "org.apache.sling.serviceusermapper-1.5.8": [
 "sling/org.apache.sling.serviceusermapper-1.5.8-source-release.zip"
