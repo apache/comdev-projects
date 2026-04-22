@@ -872,8 +872,8 @@
 ]
 },
 "arrow": {
-"apache-arrow-23.0.1": [
-"arrow/arrow-23.0.1/apache-arrow-23.0.1.tar.gz"
+"apache-arrow-24.0.0": [
+"arrow/arrow-24.0.0/apache-arrow-24.0.0.tar.gz"
 ],
 "apache-arrow-adbc-23": [
 "arrow/apache-arrow-adbc-23/apache-arrow-adbc-23.tar.gz"
@@ -2056,9 +2056,9 @@
 "commons/release-plugin/source/commons-release-plugin-1.9.2-src.tar.gz",
 "commons/release-plugin/source/commons-release-plugin-1.9.2-src.zip"
 ],
-"commons-rng-1.6": [
-"commons/rng/source/commons-rng-1.6-src.tar.gz",
-"commons/rng/source/commons-rng-1.6-src.zip"
+"commons-rng-1.7": [
+"commons/rng/source/commons-rng-1.7-src.tar.gz",
+"commons/rng/source/commons-rng-1.7-src.zip"
 ],
 "commons-scxml-0.9": [
 "commons/scxml/source/commons-scxml-0.9-src.tar.gz",
@@ -5769,8 +5769,8 @@
 "jackrabbit-oak-1.8.26": [
 "jackrabbit/oak/1.8.26/jackrabbit-oak-1.8.26-src.zip"
 ],
-"jackrabbit-oak-1.92.0": [
-"jackrabbit/oak/1.92.0/jackrabbit-oak-1.92.0-src.zip"
+"jackrabbit-oak-2.0.0": [
+"jackrabbit/oak/2.0.0/jackrabbit-oak-2.0.0-src.zip"
 ],
 "jackrabbit-ocm-2.0.0": [
 "jackrabbit/ocm/2.0.0/jackrabbit-ocm-2.0.0-source-release.zip"
@@ -8197,11 +8197,17 @@
 "apache-polaris-1.3.0-incubating": [
 "polaris/1.3.0-incubating/apache-polaris-1.3.0-incubating.tar.gz"
 ],
+"apache-polaris-1.4.0": [
+"polaris/1.4.0/apache-polaris-1.4.0.tar.gz"
+],
 "apache-polaris-iceberg-catalog-migrator-1.0.0": [
 "polaris/apache-polaris-iceberg-catalog-migrator/1.0.0/apache-polaris-iceberg-catalog-migrator-1.0.0.tar.gz"
 ],
 "polaris-1.3.0-incubating": [
 "polaris/helm-chart/1.3.0-incubating/polaris-1.3.0-incubating.tgz"
+],
+"polaris-1.4.0": [
+"polaris/helm-chart/1.4.0/polaris-1.4.0.tgz"
 ]
 },
 "pulsar": {
@@ -8339,9 +8345,6 @@
 "apache-qpid-jms-2.10.0": [
 "qpid/jms/2.10.0/apache-qpid-jms-2.10.0-src.tar.gz"
 ],
-"apache-qpid-jms-amqp-0-x-6.4.0": [
-"qpid/jms-amqp-0-x/6.4.0/apache-qpid-jms-amqp-0-x-6.4.0-src.tar.gz"
-],
 "apache-qpid-proton-j-0.34.1": [
 "qpid/proton-j/0.34.1/apache-qpid-proton-j-0.34.1-src.tar.gz"
 ],
@@ -8351,9 +8354,6 @@
 "apache-qpid-protonj2-1.1.0": [
 "qpid/protonj2/1.1.0/apache-qpid-protonj2-1.1.0-src.tar.gz"
 ],
-"qpid-dispatch-1.19.0": [
-"qpid/dispatch/1.19.0/qpid-dispatch-1.19.0.tar.gz"
-],
 "qpid-interop-test-0.3.0": [
 "qpid/interop-test/0.3.0/qpid-interop-test-0.3.0.tar.gz"
 ],
@@ -8362,9 +8362,6 @@
 ],
 "qpid-proton-dotnet-1.0.0": [
 "qpid/proton-dotnet/1.0.0/qpid-proton-dotnet-src-1.0.0.tar.gz"
-],
-"qpid-python-1.37.0": [
-"qpid/python/1.37.0/qpid-python-1.37.0.tar.gz"
 ]
 },
 "ranger": {
