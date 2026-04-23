@@ -45,9 +45,9 @@
 "apache-airflow-providers-qubole-3.4.3": "2025-11-25",
 "apache-airflow-upgrade-check-1.4.0": "2021-06-26",
 "apache_airflow-2.11.2": "2026-03-14",
-"apache_airflow-3.2.0": "2026-04-07",
+"apache_airflow-3.2.1": "2026-04-22",
 "apache_airflow_client-3.2.0": "2026-04-13",
-"apache_airflow_core-3.2.0": "2026-04-07",
+"apache_airflow_core-3.2.1": "2026-04-22",
 "apache_airflow_ctl-0.1.1": "2026-01-13",
 "apache_airflow_ctl-0.1.2": "2026-02-25",
 "apache_airflow_ctl-0.1.3": "2026-03-19",
@@ -157,7 +157,7 @@
 "apache_airflow_providers_ydb-2.5.2": "2026-04-12",
 "apache_airflow_providers_zendesk-4.11.3": "2026-04-12",
 "apache_airflow_python_client-3.2.0": "2026-04-13",
-"apache_airflow_task_sdk-1.2.0": "2026-04-07"
+"apache_airflow_task_sdk-1.2.1": "2026-04-22"
 },
 "allura": {
 "allura-1.18.0": "2025-08-12"
@@ -487,7 +487,7 @@
 "apache-camel-4.15.0": "2025-10-07",
 "apache-camel-4.16.0": "2025-11-05",
 "apache-camel-4.17.0": "2026-01-12",
-"apache-camel-4.18.1": "2026-03-27",
+"apache-camel-4.18.2": "2026-04-22",
 "apache-camel-4.19.0": "2026-04-16",
 "apache-camel-4.8.9": "2025-09-17",
 "apache-camel-k-runtime-3.15.0": "2024-10-05",
@@ -583,6 +583,7 @@
 "apache-cassandra-gocql-driver-2.0.0": "2025-10-10",
 "apache-cassandra-gocql-driver-2.0.0-rc1": "2025-07-03",
 "apache-cassandra-gocql-driver-2.1.0": "2026-04-02",
+"apache-cassandra-gocql-driver-2.1.1": "2026-04-22",
 "apache-cassandra-java-driver-3.12.1": "2025-01-18",
 "apache-cassandra-java-driver-4.19.2": "2025-11-13",
 "apache-cassandra-sidecar-0.2.0": "2025-08-22",
@@ -830,6 +831,7 @@
 "apache-datafusion-comet-0.13.0": "2026-01-29",
 "apache-datafusion-comet-0.14.0": "2026-03-19",
 "apache-datafusion-comet-0.14.1": "2026-04-19",
+"apache-datafusion-comet-0.15.0": "2026-04-22",
 "apache-datafusion-python-53.0.0": "2026-04-13",
 "apache-datafusion-sqlparser-rs-0.56.0": "2025-05-02",
 "apache-datafusion-sqlparser-rs-0.57.0": "2025-06-23",
@@ -1296,7 +1298,8 @@
 "fluo-yarn-1.0.0": "2018-03-06"
 },
 "fory": {
-"apache-fory-0.16.0": "2026-03-12"
+"apache-fory-0.16.0": "2026-03-12",
+"apache-fory-0.17.0": "2026-04-22"
 },
 "freemarker": {
 "apache-freemarker-2.3.33": "2024-06-01",
@@ -1767,7 +1770,8 @@
 "iggy-0.4.300-incubating": "2025-04-15",
 "iggy-0.5.0-incubating": "2025-08-10",
 "iggy-0.6.0-incubating": "2025-12-09",
-"iggy-0.7.0-incubating": "2026-02-24"
+"iggy-0.7.0-incubating": "2026-02-24",
+"iggy-0.8.0-incubating": "2026-04-22"
 },
 "incubator-kie": {
 "apache-kie-10.0.0-incubating": "2024-12-09",
@@ -2189,8 +2193,6 @@
 },
 "maven": {
 "apache-37": "2026-01-13",
-"apache-maven-3.8.9": "2025-06-14",
-"apache-maven-3.9.14": "2026-03-12",
 "apache-maven-3.9.15": "2026-04-17",
 "apache-maven-4.0.0-rc-5": "2025-11-07",
 "apache-resource-bundles-1.8": "2026-02-24",
@@ -2672,6 +2674,7 @@
 "apache-pekko-http-1.3.0-20251021": "2025-10-21",
 "apache-pekko-http-2.0.0-M1-20260114": "2026-01-20",
 "apache-pekko-management-1.2.1-20260306": "2026-03-06",
+"apache-pekko-management-2.0.0-M1-20260417": "2026-04-22",
 "apache-pekko-persistence-cassandra-1.1.0-20250116": "2025-01-16",
 "apache-pekko-persistence-dynamodb-1.1.0-20241020": "2024-10-20",
 "apache-pekko-persistence-jdbc-1.2.0-20251216": "2025-12-16",
