@@ -145,17 +145,9 @@
 "apache_airflow_core-3.2.1": [
 "airflow/3.2.1/apache_airflow_core-3.2.1.tar.gz"
 ],
-"apache_airflow_ctl-0.1.1": [
-"airflow/airflow-ctl/0.1.1/apache_airflow_ctl-0.1.1-source.tar.gz",
-"airflow/airflow-ctl/0.1.1/apache_airflow_ctl-0.1.1.tar.gz"
-],
-"apache_airflow_ctl-0.1.2": [
-"airflow/airflow-ctl/0.1.2/apache_airflow_ctl-0.1.2-source.tar.gz",
-"airflow/airflow-ctl/0.1.2/apache_airflow_ctl-0.1.2.tar.gz"
-],
-"apache_airflow_ctl-0.1.3": [
-"airflow/airflow-ctl/0.1.3/apache_airflow_ctl-0.1.3-source.tar.gz",
-"airflow/airflow-ctl/0.1.3/apache_airflow_ctl-0.1.3.tar.gz"
+"apache_airflow_ctl-0.1.4": [
+"airflow/airflow-ctl/0.1.4/apache_airflow_ctl-0.1.4-source.tar.gz",
+"airflow/airflow-ctl/0.1.4/apache_airflow_ctl-0.1.4.tar.gz"
 ],
 "apache_airflow_providers-2026-04-26": [
 "airflow/providers/apache_airflow_providers-2026-04-26-source.tar.gz"
@@ -925,10 +917,6 @@
 "apache-artemis-2.53.0": [
 "artemis/artemis/2.53.0/apache-artemis-2.53.0-source-release.tar.gz",
 "artemis/artemis/2.53.0/apache-artemis-2.53.0-source-release.zip"
-],
-"apache-artemis-console-1.7.0": [
-"artemis/artemis-console/1.7.0/apache-artemis-console-1.7.0-source-release.tar.gz",
-"artemis/artemis-console/1.7.0/apache-artemis-console-1.7.0-source-release.zip"
 ],
 "apache-artemis-console-1.8.0": [
 "artemis/artemis-console/1.8.0/apache-artemis-console-1.8.0-source-release.tar.gz",
@@ -2104,9 +2092,9 @@
 "commons/scxml/source/commons-scxml-0.9-src.tar.gz",
 "commons/scxml/source/commons-scxml-0.9-src.zip"
 ],
-"commons-statistics-1.2": [
-"commons/statistics/source/commons-statistics-1.2-src.tar.gz",
-"commons/statistics/source/commons-statistics-1.2-src.zip"
+"commons-statistics-1.3": [
+"commons/statistics/source/commons-statistics-1.3-src.tar.gz",
+"commons/statistics/source/commons-statistics-1.3-src.zip"
 ],
 "commons-text-1.15.0": [
 "commons/text/source/commons-text-1.15.0-src.tar.gz",
@@ -6911,8 +6899,8 @@
 "maven-invoker-3.3.0": [
 "maven/shared/maven-invoker-3.3.0-source-release.zip"
 ],
-"maven-invoker-plugin-3.10.0": [
-"maven/plugins/maven-invoker-plugin-3.10.0-source-release.zip"
+"maven-invoker-plugin-3.10.1": [
+"maven/plugins/maven-invoker-plugin-3.10.1-source-release.zip"
 ],
 "maven-jar-plugin-3.5.0": [
 "maven/plugins/maven-jar-plugin-3.5.0-source-release.zip"
@@ -10972,9 +10960,9 @@
 "tomcat/tomcat-10/v10.1.54/src/apache-tomcat-10.1.54-src.tar.gz",
 "tomcat/tomcat-10/v10.1.54/src/apache-tomcat-10.1.54-src.zip"
 ],
-"apache-tomcat-11.0.21": [
-"tomcat/tomcat-11/v11.0.21/src/apache-tomcat-11.0.21-src.tar.gz",
-"tomcat/tomcat-11/v11.0.21/src/apache-tomcat-11.0.21-src.zip"
+"apache-tomcat-11.0.22": [
+"tomcat/tomcat-11/v11.0.22/src/apache-tomcat-11.0.22-src.tar.gz",
+"tomcat/tomcat-11/v11.0.22/src/apache-tomcat-11.0.22-src.zip"
 ],
 "apache-tomcat-9.0.117": [
 "tomcat/tomcat-9/v9.0.117/src/apache-tomcat-9.0.117-src.tar.gz",
@@ -11004,46 +10992,27 @@
 ]
 },
 "tomee": {
-"apache-tomee-10.1.3-microprofile": [
-"tomee/tomee-10.1.3/apache-tomee-10.1.3-microprofile.tar.gz",
-"tomee/tomee-10.1.3/apache-tomee-10.1.3-microprofile.zip"
+"apache-tomee-10.1.5-microprofile": [
+"tomee/tomee-10.1.5/apache-tomee-10.1.5-microprofile.tar.gz",
+"tomee/tomee-10.1.5/apache-tomee-10.1.5-microprofile.zip"
 ],
-"apache-tomee-10.1.3-plume": [
-"tomee/tomee-10.1.3/apache-tomee-10.1.3-plume.tar.gz",
-"tomee/tomee-10.1.3/apache-tomee-10.1.3-plume.zip"
+"apache-tomee-10.1.5-plume": [
+"tomee/tomee-10.1.5/apache-tomee-10.1.5-plume.tar.gz",
+"tomee/tomee-10.1.5/apache-tomee-10.1.5-plume.zip"
 ],
-"apache-tomee-10.1.3-plus": [
-"tomee/tomee-10.1.3/apache-tomee-10.1.3-plus.tar.gz",
-"tomee/tomee-10.1.3/apache-tomee-10.1.3-plus.zip"
+"apache-tomee-10.1.5-plus": [
+"tomee/tomee-10.1.5/apache-tomee-10.1.5-plus.tar.gz",
+"tomee/tomee-10.1.5/apache-tomee-10.1.5-plus.zip"
 ],
-"apache-tomee-10.1.3-webprofile": [
-"tomee/tomee-10.1.3/apache-tomee-10.1.3-webprofile.tar.gz",
-"tomee/tomee-10.1.3/apache-tomee-10.1.3-webprofile.zip"
-],
-"apache-tomee-10.1.4-microprofile": [
-"tomee/tomee-10.1.4/apache-tomee-10.1.4-microprofile.tar.gz",
-"tomee/tomee-10.1.4/apache-tomee-10.1.4-microprofile.zip"
-],
-"apache-tomee-10.1.4-plume": [
-"tomee/tomee-10.1.4/apache-tomee-10.1.4-plume.tar.gz",
-"tomee/tomee-10.1.4/apache-tomee-10.1.4-plume.zip"
-],
-"apache-tomee-10.1.4-plus": [
-"tomee/tomee-10.1.4/apache-tomee-10.1.4-plus.tar.gz",
-"tomee/tomee-10.1.4/apache-tomee-10.1.4-plus.zip"
-],
-"apache-tomee-10.1.4-webprofile": [
-"tomee/tomee-10.1.4/apache-tomee-10.1.4-webprofile.tar.gz",
-"tomee/tomee-10.1.4/apache-tomee-10.1.4-webprofile.zip"
+"apache-tomee-10.1.5-webprofile": [
+"tomee/tomee-10.1.5/apache-tomee-10.1.5-webprofile.tar.gz",
+"tomee/tomee-10.1.5/apache-tomee-10.1.5-webprofile.zip"
 ],
 "jakartaee-api-parent-10.0.1": [
 "tomee/jakartaee-api-10.0.1/jakartaee-api-parent-10.0.1-source-release.zip"
 ],
-"tomee-10.1.3": [
-"tomee/tomee-10.1.3/tomee-project-10.1.3-source-release.zip"
-],
-"tomee-10.1.4": [
-"tomee/tomee-10.1.4/tomee-project-10.1.4-source-release.zip"
+"tomee-10.1.5": [
+"tomee/tomee-10.1.5/tomee-project-10.1.5-source-release.zip"
 ],
 "tomee-patch-parent-0.10": [
 "tomee/tomee-patch-plugin-0.10/tomee-patch-parent-0.10-source-release.zip"
@@ -11712,9 +11681,9 @@
 ]
 },
 "wicket": {
-"apache-wicket-10.8.0": [
-"wicket/10.8.0/apache-wicket-10.8.0.tar.gz",
-"wicket/10.8.0/apache-wicket-10.8.0.zip"
+"apache-wicket-10.9.0": [
+"wicket/10.9.0/apache-wicket-10.9.0.tar.gz",
+"wicket/10.9.0/apache-wicket-10.9.0.zip"
 ],
 "apache-wicket-6.30.0": [
 "wicket/6.30.0/apache-wicket-6.30.0.tar.gz",
