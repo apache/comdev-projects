@@ -882,8 +882,8 @@
 "apache-arrow-adbc-23": [
 "arrow/apache-arrow-adbc-23/apache-arrow-adbc-23.tar.gz"
 ],
-"apache-arrow-dotnet-22.1.0": [
-"arrow/apache-arrow-dotnet-22.1.0/apache-arrow-dotnet-22.1.0.tar.gz"
+"apache-arrow-dotnet-23.0.0": [
+"arrow/apache-arrow-dotnet-23.0.0/apache-arrow-dotnet-23.0.0.tar.gz"
 ],
 "apache-arrow-flight-sql-postgresql-0.1.0": [
 "arrow/apache-arrow-flight-sql-postgresql-0.1.0/apache-arrow-flight-sql-postgresql-0.1.0.tar.gz"
@@ -1734,6 +1734,9 @@
 ],
 "apache-cassandra-java-driver-4.19.2": [
 "cassandra/cassandra-java-driver/4.19.2/apache-cassandra-java-driver-4.19.2-source.tar.gz"
+],
+"apache-cassandra-nodejs-driver-4.9.0": [
+"cassandra/cassandra-nodejs-driver/4.9.0/apache-cassandra-nodejs-driver-4.9.0-src.tar.gz"
 ],
 "apache-cassandra-sidecar-0.2.0": [
 "cassandra/cassandra-sidecar/0.2.0/apache-cassandra-sidecar-0.2.0-src.tar.gz",
@@ -3064,6 +3067,9 @@
 ],
 "apache-druid-36.0.0": [
 "druid/36.0.0/apache-druid-36.0.0-src.tar.gz"
+],
+"apache-druid-37.0.0": [
+"druid/37.0.0/apache-druid-37.0.0-src.tar.gz"
 ]
 },
 "dubbo": {
@@ -5050,6 +5056,9 @@
 "apache-iceberg-rust-0.9.0": [
 "iceberg/apache-iceberg-rust-0.9.0/apache-iceberg-rust-0.9.0.tar.gz"
 ],
+"apache-iceberg-rust-0.9.1": [
+"iceberg/apache-iceberg-rust-0.9.1/apache-iceberg-rust-0.9.1.tar.gz"
+],
 "pyiceberg-0.10.0": [
 "iceberg/pyiceberg-0.10.0/pyiceberg-0.10.0.tar.gz"
 ],
@@ -5766,18 +5775,6 @@
 "incubator/livy/0.5.0-incubating/livy-0.5.0-incubating-src.zip"
 ]
 },
-"incubator-otava": {
-"apache-otava-0.8.0-incubating-rc1": [
-"incubator/otava/0.8.0-incubating-rc1/release/apache-otava-0.8.0-incubating-rc1-src.tar.gz"
-],
-"apache-otava-0.8.0-incubating-rc2": [
-"incubator/otava/0.8.0-incubating-rc2/apache-otava-0.8.0-incubating-rc2-src.tar.gz"
-],
-"apache_otava-0.8.0": [
-"incubator/otava/0.8.0-incubating-rc1/release/pypi/apache_otava-0.8.0.tar.gz",
-"incubator/otava/0.8.0-incubating-rc2/pypi/apache_otava-0.8.0.tar.gz"
-]
-},
 "incubator-ozhera": {
 "apache-ozhera-2.2.5-incubating": [
 "incubator/ozhera/2.2.5-incubating/apache-ozhera-2.2.5-incubating-src.tar.gz"
@@ -6032,23 +6029,12 @@
 ]
 },
 "johnzon": {
-"apache-johnzon-1.0.2": [
-"johnzon/johnzon-1.0.2/apache-johnzon-1.0.2-src.tar.gz",
-"johnzon/johnzon-1.0.2/apache-johnzon-1.0.2-src.zip"
-],
-"apache-johnzon-1.2.21": [
-"johnzon/johnzon-1.2.21/apache-johnzon-1.2.21-src.tar.gz",
-"johnzon/johnzon-1.2.21/apache-johnzon-1.2.21-src.zip"
-],
 "apache-johnzon-1.2.22": [
 "johnzon/johnzon-1.2.22/apache-johnzon-1.2.22-src.tar.gz",
 "johnzon/johnzon-1.2.22/apache-johnzon-1.2.22-src.zip"
 ],
-"johnzon-1.1.13": [
-"johnzon/johnzon-1.1.13/johnzon-1.1.13-source-release.zip"
-],
-"johnzon-1.2.16": [
-"johnzon/johnzon-1.2.16/johnzon-1.2.16-source-release.zip"
+"johnzon-2.1.0": [
+"johnzon/johnzon-2.1.0/johnzon-2.1.0-source-release.zip"
 ]
 },
 "jspwiki": {
@@ -7937,6 +7923,9 @@
 ],
 "openwebbeans-4.0.3": [
 "openwebbeans/4.0.3/openwebbeans-4.0.3-source-release.zip"
+],
+"openwebbeans-4.1.0": [
+"openwebbeans/4.1.0/openwebbeans-4.1.0-source-release.zip"
 ]
 },
 "openwhisk": {
@@ -9446,23 +9435,20 @@
 "apache-skywalking-satellite-1.3.0": [
 "skywalking/satellite/1.3.0/apache-skywalking-satellite-1.3.0-src.tgz"
 ],
-"skywalking-banyandb-0.10.1": [
-"skywalking/banyandb/0.10.1/skywalking-banyandb-0.10.1-src.tgz"
+"skywalking-banyandb-0.10.2": [
+"skywalking/banyandb/0.10.2/skywalking-banyandb-0.10.2-src.tgz"
 ],
-"skywalking-banyandb-0.10.1-banyand": [
-"skywalking/banyandb/0.10.1/skywalking-banyandb-0.10.1-banyand.tgz"
+"skywalking-banyandb-0.10.2-banyand": [
+"skywalking/banyandb/0.10.2/skywalking-banyandb-0.10.2-banyand.tgz"
 ],
-"skywalking-banyandb-0.10.1-bydbctl": [
-"skywalking/banyandb/0.10.1/skywalking-banyandb-0.10.1-bydbctl.tgz"
+"skywalking-banyandb-0.10.2-bydbctl": [
+"skywalking/banyandb/0.10.2/skywalking-banyandb-0.10.2-bydbctl.tgz"
 ],
-"skywalking-banyandb-0.10.1-fodc-agent": [
-"skywalking/banyandb/0.10.1/skywalking-banyandb-0.10.1-fodc-agent.tgz"
+"skywalking-banyandb-0.10.2-fodc-agent": [
+"skywalking/banyandb/0.10.2/skywalking-banyandb-0.10.2-fodc-agent.tgz"
 ],
-"skywalking-banyandb-0.10.1-fodc-proxy": [
-"skywalking/banyandb/0.10.1/skywalking-banyandb-0.10.1-fodc-proxy.tgz"
-],
-"skywalking-banyandb-0.10.1-mcp": [
-"skywalking/banyandb/0.10.1/skywalking-banyandb-0.10.1-mcp.tgz"
+"skywalking-banyandb-0.10.2-fodc-proxy": [
+"skywalking/banyandb/0.10.2/skywalking-banyandb-0.10.2-fodc-proxy.tgz"
 ],
 "skywalking-banyandb-helm-0.6.0": [
 "skywalking/banyandb-helm/0.6.0/skywalking-banyandb-helm-0.6.0-src.tgz",
@@ -9491,6 +9477,10 @@
 "skywalking-helm-4.8.0": [
 "skywalking/helm/skywalking-helm-4.8.0-src.tgz",
 "skywalking/helm/skywalking-helm-4.8.0.tgz"
+],
+"skywalking-helm-4.9.0": [
+"skywalking/helm/4.9.0/skywalking-helm-4.9.0-src.tgz",
+"skywalking/helm/4.9.0/skywalking-helm-4.9.0.tgz"
 ],
 "skywalking-kong-0.1.1": [
 "skywalking/kong/0.1.1/skywalking-kong-0.1.1-src.tgz"
