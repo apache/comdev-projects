@@ -923,9 +923,9 @@
 ]
 },
 "artemis": {
-"apache-artemis-2.53.0": [
-"artemis/artemis/2.53.0/apache-artemis-2.53.0-source-release.tar.gz",
-"artemis/artemis/2.53.0/apache-artemis-2.53.0-source-release.zip"
+"apache-artemis-2.54.0": [
+"artemis/artemis/2.54.0/apache-artemis-2.54.0-source-release.tar.gz",
+"artemis/artemis/2.54.0/apache-artemis-2.54.0-source-release.zip"
 ],
 "apache-artemis-console-1.8.0": [
 "artemis/artemis-console/1.8.0/apache-artemis-console-1.8.0-source-release.tar.gz",
@@ -2413,6 +2413,12 @@
 "cxf/3.6.10/apache-cxf-3.6.10.tar.gz",
 "cxf/3.6.10/apache-cxf-3.6.10.zip"
 ],
+"apache-cxf-3.6.11": [
+"cxf/3.6.11/apache-cxf-3.6.11-src.tar.gz",
+"cxf/3.6.11/apache-cxf-3.6.11-src.zip",
+"cxf/3.6.11/apache-cxf-3.6.11.tar.gz",
+"cxf/3.6.11/apache-cxf-3.6.11.zip"
+],
 "apache-cxf-3.6.3": [
 "cxf/3.6.3/apache-cxf-3.6.3-src.tar.gz",
 "cxf/3.6.3/apache-cxf-3.6.3-src.zip",
@@ -2539,11 +2545,23 @@
 "cxf/4.1.5/apache-cxf-4.1.5.tar.gz",
 "cxf/4.1.5/apache-cxf-4.1.5.zip"
 ],
+"apache-cxf-4.1.6": [
+"cxf/4.1.6/apache-cxf-4.1.6-src.tar.gz",
+"cxf/4.1.6/apache-cxf-4.1.6-src.zip",
+"cxf/4.1.6/apache-cxf-4.1.6.tar.gz",
+"cxf/4.1.6/apache-cxf-4.1.6.zip"
+],
 "apache-cxf-4.2.0": [
 "cxf/4.2.0/apache-cxf-4.2.0-src.tar.gz",
 "cxf/4.2.0/apache-cxf-4.2.0-src.zip",
 "cxf/4.2.0/apache-cxf-4.2.0.tar.gz",
 "cxf/4.2.0/apache-cxf-4.2.0.zip"
+],
+"apache-cxf-4.2.1": [
+"cxf/4.2.1/apache-cxf-4.2.1-src.tar.gz",
+"cxf/4.2.1/apache-cxf-4.2.1-src.zip",
+"cxf/4.2.1/apache-cxf-4.2.1.tar.gz",
+"cxf/4.2.1/apache-cxf-4.2.1.zip"
 ],
 "apache-fediz-1.7.2": [
 "cxf/fediz/1.7.2/apache-fediz-1.7.2.zip"
@@ -5892,8 +5910,26 @@
 ]
 },
 "incubator-otava": {
+"apache-otava-0.7.0-incubating": [
+"incubator/otava/0.7.0-incubating/apache-otava-0.7.0-incubating-src.tar.gz"
+],
 "apache-otava-0.8.0-incubating": [
 "incubator/otava/0.8.0-incubating/apache-otava-0.8.0-incubating-src.tar.gz"
+],
+"apache-otava-incubating-0.6.0-rc5": [
+"incubator/otava/0.6.0-incubating/apache-otava-incubating-0.6.0-rc5-src.tar.gz"
+],
+"apache-otava-incubating-0.6.1-rc1": [
+"incubator/otava/0.6.1-incubating/apache-otava-incubating-0.6.1-rc1-src.tar.gz"
+],
+"apache_otava-0.6.0": [
+"incubator/otava/0.6.0-incubating/pypi/apache_otava-0.6.0.tar.gz"
+],
+"apache_otava-0.6.1": [
+"incubator/otava/0.6.1-incubating/pypi/apache_otava-0.6.1.tar.gz"
+],
+"apache_otava-0.7.0": [
+"incubator/otava/0.7.0-incubating/pypi/apache_otava-0.7.0.tar.gz"
 ],
 "apache_otava-0.8.0": [
 "incubator/otava/0.8.0-incubating/pypi/apache_otava-0.8.0.tar.gz"
@@ -6215,6 +6251,9 @@
 "kafka-4.2.0": [
 "kafka/4.2.0/kafka-4.2.0-src.tgz"
 ],
+"kafka-4.3.0": [
+"kafka/4.3.0/kafka-4.3.0-src.tgz"
+],
 "kafka_2.12-3.9.2": [
 "kafka/3.9.2/kafka_2.12-3.9.2.tgz"
 ],
@@ -6235,6 +6274,9 @@
 ],
 "kafka_2.13-4.2.0": [
 "kafka/4.2.0/kafka_2.13-4.2.0.tgz"
+],
+"kafka_2.13-4.3.0": [
+"kafka/4.3.0/kafka_2.13-4.3.0.tgz"
 ]
 },
 "karaf": {
@@ -8676,6 +8718,9 @@
 "pulsar-client-python-3.11.0": [
 "pulsar/pulsar-client-python-3.11.0/pulsar-client-python-3.11.0.tar.gz"
 ],
+"pulsar-client-python-3.12.0": [
+"pulsar/pulsar-client-python-3.12.0/pulsar-client-python-3.12.0.tar.gz"
+],
 "pulsar-client-python-3.8.0": [
 "pulsar/pulsar-client-python-3.8.0/pulsar-client-python-3.8.0.tar.gz"
 ],
@@ -10165,8 +10210,8 @@
 "org.apache.sling.jmx.provider-1.0.2": [
 "sling/org.apache.sling.jmx.provider-1.0.2-source-release.zip"
 ],
-"org.apache.sling.junit.core-1.2.0": [
-"sling/org.apache.sling.junit.core-1.2.0-source-release.zip"
+"org.apache.sling.junit.core-1.3.0": [
+"sling/org.apache.sling.junit.core-1.3.0-source-release.zip"
 ],
 "org.apache.sling.junit.healthcheck-1.0.6": [
 "sling/org.apache.sling.junit.healthcheck-1.0.6-source-release.zip"
@@ -10561,8 +10606,8 @@
 "org.apache.sling.tooling.support.source-1.1.0": [
 "sling/org.apache.sling.tooling.support.source-1.1.0-source-release.zip"
 ],
-"org.apache.sling.tracer-1.0.8": [
-"sling/org.apache.sling.tracer-1.0.8-source-release.zip"
+"org.apache.sling.tracer-1.1.0": [
+"sling/org.apache.sling.tracer-1.1.0-source-release.zip"
 ],
 "org.apache.sling.urlrewriter-0.0.2": [
 "sling/org.apache.sling.urlrewriter-0.0.2-source-release.zip"
@@ -11039,6 +11084,9 @@
 ],
 "apache-teaclave-trustzone-sdk-0.8.0": [
 "teaclave/trustzone-sdk-0.8.0/apache-teaclave-trustzone-sdk-0.8.0.tar.gz"
+],
+"apache-teaclave-trustzone-sdk-0.9.0": [
+"teaclave/trustzone-sdk-0.9.0/apache-teaclave-trustzone-sdk-0.9.0.tar.gz"
 ]
 },
 "tez": {
@@ -11830,9 +11878,9 @@
 ]
 },
 "wicket": {
-"apache-wicket-10.9.0": [
-"wicket/10.9.0/apache-wicket-10.9.0.tar.gz",
-"wicket/10.9.0/apache-wicket-10.9.0.zip"
+"apache-wicket-10.9.1": [
+"wicket/10.9.1/apache-wicket-10.9.1.tar.gz",
+"wicket/10.9.1/apache-wicket-10.9.1.zip"
 ],
 "apache-wicket-6.30.0": [
 "wicket/6.30.0/apache-wicket-6.30.0.tar.gz",
