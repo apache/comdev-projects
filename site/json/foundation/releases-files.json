@@ -1729,14 +1729,6 @@
 "apache-cassandra-6.0-alpha1": [
 "cassandra/6.0-alpha1/apache-cassandra-6.0-alpha1-src.tar.gz"
 ],
-"apache-cassandra-analytics-0.2.0": [
-"cassandra/cassandra-analytics/0.2.0/apache-cassandra-analytics-0.2.0-src.tar.gz",
-"cassandra/cassandra-analytics/0.2.0/apache-cassandra-analytics-0.2.0.tar.gz"
-],
-"apache-cassandra-analytics-0.3.0": [
-"cassandra/cassandra-analytics/0.3.0/apache-cassandra-analytics-0.3.0-src.tar.gz",
-"cassandra/cassandra-analytics/0.3.0/apache-cassandra-analytics-0.3.0.tar.gz"
-],
 "apache-cassandra-analytics-0.4.0": [
 "cassandra/cassandra-analytics/0.4.0/apache-cassandra-analytics-0.4.0-src.tar.gz",
 "cassandra/cassandra-analytics/0.4.0/apache-cassandra-analytics-0.4.0.tar.gz"
@@ -1968,9 +1960,9 @@
 "commons/configuration/source/commons-configuration-1.10-src.tar.gz",
 "commons/configuration/source/commons-configuration-1.10-src.zip"
 ],
-"commons-configuration2-2.15.0": [
-"commons/configuration/source/commons-configuration2-2.15.0-src.tar.gz",
-"commons/configuration/source/commons-configuration2-2.15.0-src.zip"
+"commons-configuration2-2.15.1": [
+"commons/configuration/source/commons-configuration2-2.15.1-src.tar.gz",
+"commons/configuration/source/commons-configuration2-2.15.1-src.zip"
 ],
 "commons-crypto-1.2.0": [
 "commons/crypto/source/commons-crypto-1.2.0-src.tar.gz",
@@ -3943,6 +3935,12 @@
 ],
 "flink-kubernetes-operator-1.14.0-helm": [
 "flink/flink-kubernetes-operator-1.14.0/flink-kubernetes-operator-1.14.0-helm.tgz"
+],
+"flink-kubernetes-operator-1.15.0": [
+"flink/flink-kubernetes-operator-1.15.0/flink-kubernetes-operator-1.15.0-src.tgz"
+],
+"flink-kubernetes-operator-1.15.0-helm": [
+"flink/flink-kubernetes-operator-1.15.0/flink-kubernetes-operator-1.15.0-helm.tgz"
 ],
 "flink-ml-2.2.0": [
 "flink/flink-ml-2.2.0/flink-ml-2.2.0-src.tgz"
@@ -7565,9 +7563,6 @@
 "nbpackage-1.0": [
 "netbeans/netbeans-nbpackage/1.0/nbpackage-1.0-source-release.zip"
 ],
-"netbeans-29": [
-"netbeans/netbeans/29/netbeans-29-source.zip"
-],
 "netbeans-30": [
 "netbeans/netbeans/30/netbeans-30-source.zip"
 ],
@@ -8312,6 +8307,9 @@
 ],
 "apache-pekko-persistence-r2dbc-1.1.0-20250902": [
 "pekko/PERSISTENCE-R2DBC-1.1.0/apache-pekko-persistence-r2dbc-1.1.0-src-20250902.tgz"
+],
+"apache-pekko-persistence-r2dbc-2.0.0-M1-20260523": [
+"pekko/PERSISTENCE-R2DBC-2.0.0-M1/apache-pekko-persistence-r2dbc-2.0.0-M1-src-20260523.tgz"
 ],
 "apache-pekko-projection-1.1.0-20250224": [
 "pekko/PROJECTION-1.1.0/apache-pekko-projection-1.1.0-src-20250224.tgz"
@@ -9700,8 +9698,8 @@
 "org.apache.sling.commons.json-2.0.28": [
 "sling/org.apache.sling.commons.json-2.0.28-source-release.zip"
 ],
-"org.apache.sling.commons.log-6.0.4": [
-"sling/org.apache.sling.commons.log-6.0.4-source-release.zip"
+"org.apache.sling.commons.log-6.1.0": [
+"sling/org.apache.sling.commons.log-6.1.0-source-release.zip"
 ],
 "org.apache.sling.commons.log.webconsole-2.0.0": [
 "sling/org.apache.sling.commons.log.webconsole-2.0.0-source-release.zip"
@@ -9871,8 +9869,8 @@
 "org.apache.sling.extensions.webconsolesecurityprovider-2.0.0": [
 "sling/org.apache.sling.extensions.webconsolesecurityprovider-2.0.0-source-release.zip"
 ],
-"org.apache.sling.feature-2.0.4": [
-"sling/org.apache.sling.feature-2.0.4-source-release.zip"
+"org.apache.sling.feature-2.0.6": [
+"sling/org.apache.sling.feature-2.0.6-source-release.zip"
 ],
 "org.apache.sling.feature.analyser-2.0.14": [
 "sling/org.apache.sling.feature.analyser-2.0.14-source-release.zip"
@@ -10126,8 +10124,11 @@
 "org.apache.sling.launchpad.testing-war-11": [
 "sling/org.apache.sling.launchpad.testing-war-11-source-release.zip"
 ],
-"org.apache.sling.mcp-server-0.1.2": [
-"sling/org.apache.sling.mcp-server-0.1.2-source-release.zip"
+"org.apache.sling.mcp-server-0.1.4": [
+"sling/org.apache.sling.mcp-server-0.1.4-source-release.zip"
+],
+"org.apache.sling.mcp-server-contributions-0.1.0": [
+"sling/org.apache.sling.mcp-server-contributions-0.1.0-source-release.zip"
 ],
 "org.apache.sling.models.api-2.0.0": [
 "sling/org.apache.sling.models.api-2.0.0-source-release.zip"
@@ -10669,9 +10670,9 @@
 ]
 },
 "stormcrawler": {
-"apache-stormcrawler-3.5.1": [
-"stormcrawler/stormcrawler-3.5.1/apache-stormcrawler-3.5.1-source-release.tar.gz",
-"stormcrawler/stormcrawler-3.5.1/apache-stormcrawler-3.5.1-source-release.zip"
+"apache-stormcrawler-3.6.0": [
+"stormcrawler/stormcrawler-3.6.0/apache-stormcrawler-3.6.0-source-release.tar.gz",
+"stormcrawler/stormcrawler-3.6.0/apache-stormcrawler-3.6.0-source-release.zip"
 ]
 },
 "streampark": {
@@ -10977,8 +10978,8 @@
 ]
 },
 "tika": {
-"tika-3.3.0": [
-"tika/3.3.0/tika-3.3.0-src.zip"
+"tika-3.3.1": [
+"tika/3.3.1/tika-3.3.1-src.zip"
 ],
 "tika-4.0.0-alpha-1": [
 "tika/4.0.0-alpha-1/tika-4.0.0-alpha-1-src.zip"

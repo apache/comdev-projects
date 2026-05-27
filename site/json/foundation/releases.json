@@ -593,8 +593,6 @@
 "apache-cassandra-4.1.11": "2026-03-17",
 "apache-cassandra-5.0.8": "2026-04-10",
 "apache-cassandra-6.0-alpha1": "2026-03-21",
-"apache-cassandra-analytics-0.2.0": "2025-11-18",
-"apache-cassandra-analytics-0.3.0": "2026-02-12",
 "apache-cassandra-analytics-0.4.0": "2026-05-07",
 "apache-cassandra-gocql-driver-2.0.0": "2025-10-10",
 "apache-cassandra-gocql-driver-2.0.0-rc1": "2025-07-03",
@@ -671,7 +669,7 @@
 "commons-collections4-4.5.0": "2025-04-22",
 "commons-compress-1.28.0": "2025-07-29",
 "commons-configuration-1.10": "2013-10-28",
-"commons-configuration2-2.15.0": "2026-05-13",
+"commons-configuration2-2.15.1": "2026-05-26",
 "commons-crypto-1.2.0": "2023-01-22",
 "commons-csv-1.14.1": "2025-07-30",
 "commons-daemon-1.5.1": "2025-12-16",
@@ -1289,6 +1287,8 @@
 "flink-kubernetes-operator-1.13.0-helm": "2025-09-18",
 "flink-kubernetes-operator-1.14.0": "2026-02-03",
 "flink-kubernetes-operator-1.14.0-helm": "2026-02-03",
+"flink-kubernetes-operator-1.15.0": "2026-05-07",
+"flink-kubernetes-operator-1.15.0-helm": "2026-05-07",
 "flink-ml-2.2.0": "2023-04-12",
 "flink-ml-2.3.0": "2023-06-29",
 "flink-shaded-15.0": "2022-01-18",
@@ -2513,7 +2513,6 @@
 "nbm-archetype-1.19": "2024-08-06",
 "nbm-suite-root-1.12": "2019-10-10",
 "nbpackage-1.0": "2026-01-22",
-"netbeans-29": "2026-02-19",
 "netbeans-30": "2026-05-11",
 "netbeans-archetype-parent-1.0.0": "2023-07-11",
 "netbeans-html4j-1.8.2": "2025-06-22",
@@ -2782,6 +2781,7 @@
 "apache-pekko-persistence-jdbc-1.2.0-20251216": "2025-12-16",
 "apache-pekko-persistence-jdbc-2.0.0-M1-20260127": "2026-01-27",
 "apache-pekko-persistence-r2dbc-1.1.0-20250902": "2025-09-02",
+"apache-pekko-persistence-r2dbc-2.0.0-M1-20260523": "2026-05-23",
 "apache-pekko-projection-1.1.0-20250224": "2025-02-24"
 },
 "perl": {
@@ -3274,7 +3274,7 @@
 "org.apache.sling.commons.html-1.1.0": "2019-01-23",
 "org.apache.sling.commons.johnzon-2.0.0": "2023-12-10",
 "org.apache.sling.commons.json-2.0.28": "2024-04-29",
-"org.apache.sling.commons.log-6.0.4": "2026-02-28",
+"org.apache.sling.commons.log-6.1.0": "2026-05-26",
 "org.apache.sling.commons.log.webconsole-2.0.0": "2025-10-27",
 "org.apache.sling.commons.logservice-1.1.2": "2024-12-16",
 "org.apache.sling.commons.messaging-1.0.2": "2021-11-01",
@@ -3331,7 +3331,7 @@
 "org.apache.sling.extensions.threaddump-0.2.2": "2013-01-21",
 "org.apache.sling.extensions.webconsolebranding-1.0.4": "2024-12-16",
 "org.apache.sling.extensions.webconsolesecurityprovider-2.0.0": "2026-05-11",
-"org.apache.sling.feature-2.0.4": "2024-12-21",
+"org.apache.sling.feature-2.0.6": "2026-05-26",
 "org.apache.sling.feature.analyser-2.0.14": "2025-05-19",
 "org.apache.sling.feature.apiregions-1.1.10": "2023-06-11",
 "org.apache.sling.feature.cpconverter-1.3.10": "2025-05-19",
@@ -3413,7 +3413,8 @@
 "org.apache.sling.launchpad.test-services-war-2.0.16": "2018-10-23",
 "org.apache.sling.launchpad.testing-12": "2022-03-14",
 "org.apache.sling.launchpad.testing-war-11": "2018-10-23",
-"org.apache.sling.mcp-server-0.1.2": "2026-03-30",
+"org.apache.sling.mcp-server-0.1.4": "2026-05-26",
+"org.apache.sling.mcp-server-contributions-0.1.0": "2026-05-26",
 "org.apache.sling.models.api-2.0.0": "2025-08-26",
 "org.apache.sling.models.caconfig-1.0.2": "2022-08-12",
 "org.apache.sling.models.impl-2.0.2": "2026-02-28",
@@ -3596,7 +3597,7 @@
 "apache-storm-2.8.8": "2026-05-11"
 },
 "stormcrawler": {
-"apache-stormcrawler-3.5.1": "2026-01-17"
+"apache-stormcrawler-3.6.0": "2026-05-22"
 },
 "streampark": {
 "apache-streampark-2.0.0-incubating": "2023-02-14",
@@ -3710,7 +3711,7 @@
 "thrift-0.23.0": "2026-04-15"
 },
 "tika": {
-"tika-3.3.0": "2026-03-18",
+"tika-3.3.1": "2026-05-20",
 "tika-4.0.0-alpha-1": "2026-05-08"
 },
 "tinkerpop": {
