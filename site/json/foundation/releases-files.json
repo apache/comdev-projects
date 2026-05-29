@@ -1303,6 +1303,9 @@
 "apache-brpc-1.16.0": [
 "brpc/1.16.0/apache-brpc-1.16.0-src.tar.gz"
 ],
+"apache-brpc-1.17.0": [
+"brpc/1.17.0/apache-brpc-1.17.0-src.tar.gz"
+],
 "apache-brpc-1.2.0-incubating": [
 "brpc/1.2.0/apache-brpc-1.2.0-incubating-src.tar.gz"
 ],
@@ -2474,6 +2477,9 @@
 "apache-datafusion-comet-0.16.0": [
 "datafusion/datafusion-comet-0.16.0/apache-datafusion-comet-0.16.0.tar.gz"
 ],
+"apache-datafusion-java-0.1.0": [
+"datafusion/datafusion-java-0.1.0/apache-datafusion-java-0.1.0.tar.gz"
+],
 "apache-datafusion-python-53.0.0": [
 "datafusion/datafusion-python-53.0.0/apache-datafusion-python-53.0.0.tar.gz"
 ],
@@ -2618,10 +2624,6 @@
 "directory/api/dist/2.0.2/apache-ldap-api-2.0.2-src.tar.gz",
 "directory/api/dist/2.0.2/apache-ldap-api-2.0.2-src.zip"
 ],
-"apache-ldap-api-2.1.6": [
-"directory/api/dist/2.1.6/apache-ldap-api-2.1.6-src.tar.gz",
-"directory/api/dist/2.1.6/apache-ldap-api-2.1.6-src.zip"
-],
 "apache-ldap-api-2.1.7": [
 "directory/api/dist/2.1.7/apache-ldap-api-2.1.7-src.tar.gz",
 "directory/api/dist/2.1.7/apache-ldap-api-2.1.7-src.zip"
@@ -2633,26 +2635,14 @@
 "apacheds-parent-2.0.0.AM27": [
 "directory/apacheds/dist/2.0.0.AM27/apacheds-parent-2.0.0.AM27-source-release.zip"
 ],
-"fortress-core-3.0.0": [
-"directory/fortress/dist/3.0.0/fortress-core-3.0.0-source-release.zip"
-],
 "fortress-core-3.0.1": [
 "directory/fortress/dist/3.0.1/fortress-core-3.0.1-source-release.zip"
-],
-"fortress-realm-3.0.0": [
-"directory/fortress/dist/3.0.0/fortress-realm-3.0.0-source-release.zip"
 ],
 "fortress-realm-3.0.1": [
 "directory/fortress/dist/3.0.1/fortress-realm-3.0.1-source-release.zip"
 ],
-"fortress-rest-3.0.0": [
-"directory/fortress/dist/3.0.0/fortress-rest-3.0.0-source-release.zip"
-],
 "fortress-rest-3.0.1": [
 "directory/fortress/dist/3.0.1/fortress-rest-3.0.1-source-release.zip"
-],
-"fortress-web-3.0.0": [
-"directory/fortress/dist/3.0.0/fortress-web-3.0.0-source-release.zip"
 ],
 "fortress-web-3.0.1": [
 "directory/fortress/dist/3.0.1/fortress-web-3.0.1-source-release.zip"
@@ -4879,6 +4869,9 @@
 "hudi-0.15.0": [
 "hudi/0.15.0/hudi-0.15.0.src.tgz"
 ],
+"hudi-0.15.1": [
+"hudi/0.15.1/hudi-0.15.1.src.tgz"
+],
 "hudi-1.0.0": [
 "hudi/1.0.0/hudi-1.0.0.src.tgz"
 ],
@@ -5017,8 +5010,8 @@
 "apache-iceberg-cpp-0.2.0": [
 "iceberg/apache-iceberg-cpp-0.2.0/apache-iceberg-cpp-0.2.0.tar.gz"
 ],
-"apache-iceberg-go-0.5.0": [
-"iceberg/apache-iceberg-go-0.5.0/apache-iceberg-go-0.5.0.tar.gz"
+"apache-iceberg-go-0.6.0": [
+"iceberg/apache-iceberg-go-0.6.0/apache-iceberg-go-0.6.0.tar.gz"
 ],
 "apache-iceberg-rust-0.3.0": [
 "iceberg/iceberg-rust-0.3.0/apache-iceberg-rust-0.3.0-src.tar.gz"
@@ -6108,6 +6101,9 @@
 "kafka-4.2.0": [
 "kafka/4.2.0/kafka-4.2.0-src.tgz"
 ],
+"kafka-4.2.1": [
+"kafka/4.2.1/kafka-4.2.1-src.tgz"
+],
 "kafka-4.3.0": [
 "kafka/4.3.0/kafka-4.3.0-src.tgz"
 ],
@@ -6131,6 +6127,9 @@
 ],
 "kafka_2.13-4.2.0": [
 "kafka/4.2.0/kafka_2.13-4.2.0.tgz"
+],
+"kafka_2.13-4.2.1": [
+"kafka/4.2.1/kafka_2.13-4.2.1.tgz"
 ],
 "kafka_2.13-4.3.0": [
 "kafka/4.3.0/kafka_2.13-4.3.0.tgz"
@@ -6861,8 +6860,8 @@
 "maven-dependency-analyzer-1.17.1": [
 "maven/shared/maven-dependency-analyzer-1.17.1-source-release.zip"
 ],
-"maven-dependency-plugin-3.10.0": [
-"maven/plugins/maven-dependency-plugin-3.10.0-source-release.zip"
+"maven-dependency-plugin-3.11.0": [
+"maven/plugins/maven-dependency-plugin-3.11.0-source-release.zip"
 ],
 "maven-dependency-tree-3.3.0": [
 "maven/shared/maven-dependency-tree-3.3.0-source-release.zip"
@@ -7098,50 +7097,20 @@
 "mina/ftpserver/1.1.4/apache-ftpserver-1.1.4-src.tar.gz",
 "mina/ftpserver/1.1.4/apache-ftpserver-1.1.4-src.zip"
 ],
-"apache-ftpserver-1.2.0": [
-"mina/ftpserver/1.2.0/apache-ftpserver-1.2.0-src.tar.bz2",
-"mina/ftpserver/1.2.0/apache-ftpserver-1.2.0-src.tar.gz",
-"mina/ftpserver/1.2.0/apache-ftpserver-1.2.0-src.zip"
-],
 "apache-ftpserver-1.2.1": [
 "mina/ftpserver/1.2.1/apache-ftpserver-1.2.1-src.tar.bz2",
 "mina/ftpserver/1.2.1/apache-ftpserver-1.2.1-src.tar.gz",
 "mina/ftpserver/1.2.1/apache-ftpserver-1.2.1-src.zip"
-],
-"apache-mina-2.0.27": [
-"mina/mina/2.0.27/apache-mina-2.0.27-src.tar.bz2",
-"mina/mina/2.0.27/apache-mina-2.0.27-src.tar.gz",
-"mina/mina/2.0.27/apache-mina-2.0.27-src.zip"
 ],
 "apache-mina-2.0.28": [
 "mina/mina/2.0.28/apache-mina-2.0.28-src.tar.bz2",
 "mina/mina/2.0.28/apache-mina-2.0.28-src.tar.gz",
 "mina/mina/2.0.28/apache-mina-2.0.28-src.zip"
 ],
-"apache-mina-2.1.10": [
-"mina/mina/2.1.10/apache-mina-2.1.10-src.tar.bz2",
-"mina/mina/2.1.10/apache-mina-2.1.10-src.tar.gz",
-"mina/mina/2.1.10/apache-mina-2.1.10-src.zip"
-],
-"apache-mina-2.1.11": [
-"mina/mina/2.1.11/apache-mina-2.1.11-src.tar.bz2",
-"mina/mina/2.1.11/apache-mina-2.1.11-src.tar.gz",
-"mina/mina/2.1.11/apache-mina-2.1.11-src.zip"
-],
 "apache-mina-2.1.12": [
 "mina/mina/2.1.12/apache-mina-2.1.12-src.tar.bz2",
 "mina/mina/2.1.12/apache-mina-2.1.12-src.tar.gz",
 "mina/mina/2.1.12/apache-mina-2.1.12-src.zip"
-],
-"apache-mina-2.2.5": [
-"mina/mina/2.2.5/apache-mina-2.2.5-src.tar.bz2",
-"mina/mina/2.2.5/apache-mina-2.2.5-src.tar.gz",
-"mina/mina/2.2.5/apache-mina-2.2.5-src.zip"
-],
-"apache-mina-2.2.6": [
-"mina/mina/2.2.6/apache-mina-2.2.6-src.tar.bz2",
-"mina/mina/2.2.6/apache-mina-2.2.6-src.tar.gz",
-"mina/mina/2.2.6/apache-mina-2.2.6-src.zip"
 ],
 "apache-mina-2.2.7": [
 "mina/mina/2.2.7/apache-mina-2.2.7-src.tar.bz2",
@@ -7158,6 +7127,12 @@
 "mina/sshd/2.17.1/apache-sshd-2.17.1-src.zip",
 "mina/sshd/2.17.1/apache-sshd-2.17.1.tar.gz",
 "mina/sshd/2.17.1/apache-sshd-2.17.1.zip"
+],
+"apache-sshd-2.18.0": [
+"mina/sshd/2.18.0/apache-sshd-2.18.0-src.tar.gz",
+"mina/sshd/2.18.0/apache-sshd-2.18.0-src.zip",
+"mina/sshd/2.18.0/apache-sshd-2.18.0.tar.gz",
+"mina/sshd/2.18.0/apache-sshd-2.18.0.zip"
 ],
 "apache-sshd-3.0.0-M1": [
 "mina/sshd/3.0.0-M1/apache-sshd-3.0.0-M1-src.tar.gz",
@@ -7176,6 +7151,12 @@
 "mina/sshd/3.0.0-M3/apache-sshd-3.0.0-M3-src.zip",
 "mina/sshd/3.0.0-M3/apache-sshd-3.0.0-M3.tar.gz",
 "mina/sshd/3.0.0-M3/apache-sshd-3.0.0-M3.zip"
+],
+"apache-sshd-3.0.0-M4": [
+"mina/sshd/3.0.0-M4/apache-sshd-3.0.0-M4-src.tar.gz",
+"mina/sshd/3.0.0-M4/apache-sshd-3.0.0-M4-src.zip",
+"mina/sshd/3.0.0-M4/apache-sshd-3.0.0-M4.tar.gz",
+"mina/sshd/3.0.0-M4/apache-sshd-3.0.0-M4.zip"
 ],
 "vysper-0.7": [
 "mina/vysper/0.7/vysper-0.7-src.tar.gz",
