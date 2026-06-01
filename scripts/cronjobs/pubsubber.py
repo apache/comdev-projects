@@ -205,8 +205,8 @@ class PubSubClient(Thread):
                         self.req = urllib2.urlopen(self.url, None, 30)
 
                     logger.info("Connected to %s", self.url)
-                except:
-                    logger.warn("Failed to connect to %s", self.url)
+                except Exception as e:
+                    logger.warning("Failed to connect to %s: %s", self.url, e)
                     time.sleep(30)
                     continue
 
@@ -215,6 +215,8 @@ class PubSubClient(Thread):
                     line = str( line, encoding='ascii' ).rstrip('\r\n,').replace('\x00','') # strip away any old pre-0.9 commas from gitpubsub chunks and \0 in svnpubsub chunks
                 else:
                     line = str( line ).rstrip('\r\n,').replace('\x00','') # strip away any old pre-0.9 commas from gitpubsub chunks and \0 in svnpubsub chunks
+                if debug:
+                    logger.info(line)
                 try:
                     obj = json.loads(line)
                     if "commit" in obj and "repository" in obj['commit']:
@@ -288,7 +290,7 @@ def main():
 
     # Start the svn thread
     svn_thread = PubSubClient()
-    svn_thread.url = "http://svn-master.apache.org:2069/commits/*" # https: not currently supported?
+    svn_thread.url = "http://pubsub.apache.org:2069/commit/comdev"
     svn_thread.start()
 
     while True:
@@ -296,7 +298,8 @@ def main():
             time.sleep(60)
         except KeyboardInterrupt:
             logger.info("Detected shutdown interrupt")
-            pass
+            if debug:
+                break
 
 ##############
 # Daemonizer #
