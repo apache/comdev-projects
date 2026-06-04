@@ -835,6 +835,31 @@
 ],
 "shortdesc": "Provides Support for Some Archive Formats not Supported by Ant's Core"
 },
+"ant-cyclonedx": {
+"bug-database": "http://issues.apache.org/bugzilla/buglist.cgi?product=Ant",
+"category": "build-management",
+"created": "2026-06-03",
+"description": "Provides support for the creation of CycloneDX SBOMs.",
+"doap": "https://ant.apache.org/antlibs/cyclonedx/doap_CycloneDXAntlib.rdf",
+"download-page": "http://ant.apache.org/antlibs/bindownload.cgi",
+"homepage": "http://ant.apache.org/antlibs/cyclonedx/",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://ant.apache.org/mail.html",
+"name": "Apache CycloneDX Ant Library",
+"pmc": "ant",
+"programming-language": "Java",
+"release": [
+{
+"created": "2026-06-03",
+"name": "Apache Cyclonedx Ant Library 0.1",
+"revision": "0.1"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf/ant-antlibs-cyclonedx.git"
+],
+"shortdesc": "Ant Tasks for CycloneDX SBOMs"
+},
 "ant-dotnet": {
 "bug-database": "http://issues.apache.org/bugzilla/buglist.cgi?product=Ant",
 "category": "build-management",
@@ -4436,7 +4461,7 @@
 "category": "xml, http, network-server, network-client",
 "created": "2007-06-08",
 "description": "Apache Axis2 is a toolkit for creating and using Web Services, including SOAP, MTOM, XML/HTTP and advanced WS-* standards such as WSRM and WSSecurity.\n    Axis2 includes a very fast runtime engine, together with tooling support for WSDL and WS-Policy, and plugin support for WS-Addressing, WS-ReliableMessaging, WS-Security, \n    WS-Eventing, WS-Transactions, WS-Trust and WS-SecureConversation.\n    Axis2 runs either standalone or hosted in Tomcat or other servlet containers. \n    ",
-"doap": "https://gitbox.apache.org/repos/asf?p=axis-axis2-java-core.git;a=blob_plain;f=etc/doap_Axis2.rdf;hb=HEAD",
+"doap": "https://raw.githubusercontent.com/apache/axis-axis2-java-core/HEAD/etc/doap_Axis2.rdf",
 "download-page": "http://axis.apache.org/axis2/java/core/download.cgi",
 "homepage": "http://axis.apache.org/axis2/java/core",
 "implements": [
