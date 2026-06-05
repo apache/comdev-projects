@@ -93,29 +93,11 @@
 ]
 },
 "airflow": {
-"airflow-1.18.0": [
-"airflow/helm-chart/1.18.0/airflow-1.18.0.tgz"
+"airflow-1.22.0": [
+"airflow/helm-chart/1.22.0/airflow-1.22.0.tgz"
 ],
-"airflow-1.19.0": [
-"airflow/helm-chart/1.19.0/airflow-1.19.0.tgz"
-],
-"airflow-1.20.0": [
-"airflow/helm-chart/1.20.0/airflow-1.20.0.tgz"
-],
-"airflow-1.21.0": [
-"airflow/helm-chart/1.21.0/airflow-1.21.0.tgz"
-],
-"airflow-chart-1.18.0": [
-"airflow/helm-chart/1.18.0/airflow-chart-1.18.0-source.tar.gz"
-],
-"airflow-chart-1.19.0": [
-"airflow/helm-chart/1.19.0/airflow-chart-1.19.0-source.tar.gz"
-],
-"airflow-chart-1.20.0": [
-"airflow/helm-chart/1.20.0/airflow-chart-1.20.0-source.tar.gz"
-],
-"airflow-chart-1.21.0": [
-"airflow/helm-chart/1.21.0/airflow-chart-1.21.0-source.tar.gz"
+"airflow-chart-1.22.0": [
+"airflow/helm-chart/1.22.0/airflow-chart-1.22.0-source.tar.gz"
 ],
 "apache-airflow-2.11.2": [
 "airflow/2.11.2/apache-airflow-2.11.2-source.tar.gz"
@@ -139,8 +121,8 @@
 "airflow/3.2.2/apache_airflow-3.2.2-source.tar.gz",
 "airflow/3.2.2/apache_airflow-3.2.2.tar.gz"
 ],
-"apache_airflow_client-3.2.1": [
-"airflow/clients/python/3.2.1/apache_airflow_client-3.2.1.tar.gz"
+"apache_airflow_client-3.2.2": [
+"airflow/clients/python/3.2.2/apache_airflow_client-3.2.2.tar.gz"
 ],
 "apache_airflow_core-3.2.2": [
 "airflow/3.2.2/apache_airflow_core-3.2.2.tar.gz"
@@ -470,8 +452,8 @@
 "apache_airflow_providers_zendesk-4.12.0": [
 "airflow/providers/apache_airflow_providers_zendesk-4.12.0.tar.gz"
 ],
-"apache_airflow_python_client-3.2.1": [
-"airflow/clients/python/3.2.1/apache_airflow_python_client-3.2.1-source.tar.gz"
+"apache_airflow_python_client-3.2.2": [
+"airflow/clients/python/3.2.2/apache_airflow_python_client-3.2.2-source.tar.gz"
 ],
 "apache_airflow_task_sdk-1.2.2": [
 "airflow/task-sdk/1.2.2/apache_airflow_task_sdk-1.2.2.tar.gz"
@@ -4518,6 +4500,9 @@
 ],
 "helix-1.4.3": [
 "helix/1.4.3/src/helix-1.4.3-src.zip"
+],
+"helix-2.0.0": [
+"helix/2.0.0/src/helix-2.0.0-src.zip"
 ]
 },
 "hertzbeat": {
@@ -9458,8 +9443,8 @@
 "apache-skywalking-graalvm-distro-0.3.0": [
 "skywalking/graalvm-distro/0.3.0/apache-skywalking-graalvm-distro-0.3.0-src.tar.gz"
 ],
-"apache-skywalking-horizon-ui-0.5.0": [
-"skywalking/horizon-ui/0.5.0/apache-skywalking-horizon-ui-0.5.0-src.tar.gz"
+"apache-skywalking-horizon-ui-0.6.0": [
+"skywalking/horizon-ui/0.6.0/apache-skywalking-horizon-ui-0.6.0-src.tar.gz"
 ],
 "apache-skywalking-java-agent-9.6.0": [
 "skywalking/java-agent/9.6.0/apache-skywalking-java-agent-9.6.0-src.tgz",
@@ -11027,6 +11012,10 @@
 "jakartaee-migration-1.0.10": [
 "tomcat/jakartaee-migration/v1.0.10/source/jakartaee-migration-1.0.10-src.tar.gz",
 "tomcat/jakartaee-migration/v1.0.10/source/jakartaee-migration-1.0.10-src.zip"
+],
+"jakartaee-migration-1.0.12": [
+"tomcat/jakartaee-migration/v1.0.12/source/jakartaee-migration-1.0.12-src.tar.gz",
+"tomcat/jakartaee-migration/v1.0.12/source/jakartaee-migration-1.0.12-src.zip"
 ],
 "taglibs-standard-1.2.5": [
 "tomcat/taglibs/taglibs-standard-1.2.5/taglibs-standard-1.2.5-source-release.zip"
