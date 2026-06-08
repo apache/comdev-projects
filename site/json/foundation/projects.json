@@ -3857,6 +3857,39 @@
 ],
 "shortdesc": "Apache River software provides a standards-compilani JINI service."
 },
+"attic-servicemix": {
+"bug-database": "http://issues.apache.org/activemq/browse/SM",
+"category": "retired, network-client, network-server, xml, osgi",
+"created": "2015-03-16",
+"description": "Apache ServiceMix is a flexible, open-source integration container that unifies the features and functionality of Apache ActiveMQ, Camel, CXF, and Karaf into a powerful runtime platform you can use to build your own integrations solutions. It provides a complete, enterprise ready ESB exclusively powered by OSGi.",
+"doap": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/servicemix.rdf",
+"download-page": "http://servicemix.apache.org/download.html",
+"homepage": "http://servicemix.apache.org",
+"implements": [
+{
+"body": "JCP",
+"id": "JSR 208",
+"title": "Java Business Integration",
+"url": "http://www.jcp.org/en/jsr/detail?id=208"
+}
+],
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "http://servicemix.apache.org/mailing-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:ksobkowiak@apache.org",
+"name": "Krzysztof Sobkowiak"
+}
+],
+"name": "Apache ServiceMix",
+"pmc": "attic",
+"programming-language": "Java, XML, Scala",
+"repository": [
+"http://svn.apache.org/repos/asf/servicemix/",
+"https://git-wip-us.apache.org/repos/asf/servicemix.git"
+],
+"shortdesc": "Apache ServiceMix is an open source ESB providing routing and mediation features."
+},
 "attic-shale": {
 "bug-database": "http://issues.apache.org/struts/",
 "category": "web-framework, retired",
@@ -14689,9 +14722,15 @@
 "revision": "4.0.0-alpha-2"
 },
 {
+"created": "2026-05-13",
+"file-release": "https://archive.apache.org/dist/maven/maven-3/3.9.16/source/apache-maven-3.9.16-src.tar.gz",
+"name": "Latest stable release",
+"revision": "3.9.16"
+},
+{
 "created": "2026-04-13",
 "file-release": "https://archive.apache.org/dist/maven/maven-3/3.9.15/source/apache-maven-3.9.15-src.tar.gz",
-"name": "Latest stable release",
+"name": "Apache Maven 3.9.15",
 "revision": "3.9.15"
 },
 {
@@ -17708,39 +17747,6 @@
 "homepage": "https://servicecomb.apache.org",
 "name": "Apache Servicecomb",
 "pmc": "servicecomb"
-},
-"servicemix": {
-"bug-database": "http://issues.apache.org/activemq/browse/SM",
-"category": "network-client, network-server, xml, osgi, retired",
-"created": "2015-03-16",
-"description": "Apache ServiceMix is a flexible, open-source integration container that unifies the features and functionality of Apache ActiveMQ, Camel, CXF, and Karaf into a powerful runtime platform you can use to build your own integrations solutions. It provides a complete, enterprise ready ESB exclusively powered by OSGi.",
-"doap": "http://svn.apache.org/repos/asf/servicemix/doap.rdf",
-"download-page": "http://servicemix.apache.org/download.html",
-"homepage": "http://servicemix.apache.org",
-"implements": [
-{
-"body": "JCP",
-"id": "JSR 208",
-"title": "Java Business Integration",
-"url": "http://www.jcp.org/en/jsr/detail?id=208"
-}
-],
-"license": "http://spdx.org/licenses/Apache-2.0",
-"mailing-list": "http://servicemix.apache.org/mailing-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:ksobkowiak@apache.org",
-"name": "Krzysztof Sobkowiak"
-}
-],
-"name": "Apache ServiceMix",
-"pmc": "attic",
-"programming-language": "Java, XML, Scala",
-"repository": [
-"http://svn.apache.org/repos/asf/servicemix/",
-"https://git-wip-us.apache.org/repos/asf/servicemix.git"
-],
-"shortdesc": "Apache ServiceMix is an open source ESB providing routing and mediation features."
 },
 "shardingsphere": {
 "category": "no-tlp-doap",
