@@ -1188,6 +1188,9 @@
 "bookkeeper-4.17.3": [
 "bookkeeper/bookkeeper-4.17.3/bookkeeper-4.17.3-src.tar.gz"
 ],
+"bookkeeper-4.18.0": [
+"bookkeeper/bookkeeper-4.18.0/bookkeeper-4.18.0-src.tar.gz"
+],
 "distributedlog-0.5.0": [
 "bookkeeper/distributedlog/0.5.0/distributedlog-0.5.0-src.tar.gz"
 ]
@@ -1721,13 +1724,9 @@
 "apache-cassandra-nodejs-driver-4.9.0": [
 "cassandra/cassandra-nodejs-driver/4.9.0/apache-cassandra-nodejs-driver-4.9.0-src.tar.gz"
 ],
-"apache-cassandra-sidecar-0.2.0": [
-"cassandra/cassandra-sidecar/0.2.0/apache-cassandra-sidecar-0.2.0-src.tar.gz",
-"cassandra/cassandra-sidecar/0.2.0/apache-cassandra-sidecar-0.2.0.tar.gz"
-],
-"apache-cassandra-sidecar-0.3.0": [
-"cassandra/cassandra-sidecar/0.3.0/apache-cassandra-sidecar-0.3.0-src.tar.gz",
-"cassandra/cassandra-sidecar/0.3.0/apache-cassandra-sidecar-0.3.0.tar.gz"
+"apache-cassandra-sidecar-0.4.0": [
+"cassandra/cassandra-sidecar/0.4.0/apache-cassandra-sidecar-0.4.0-src.tar.gz",
+"cassandra/cassandra-sidecar/0.4.0/apache-cassandra-sidecar-0.4.0.tar.gz"
 ],
 "cassandra-gocql-driver-1.7.0": [
 "cassandra/cassandra-gocql-driver/1.7.0/cassandra-gocql-driver-1.7.0.tar.gz"
@@ -2060,9 +2059,9 @@
 "commons/numbers/source/commons-numbers-1.3-src.tar.gz",
 "commons/numbers/source/commons-numbers-1.3-src.zip"
 ],
-"commons-parent-101": [
-"commons/parent/source/commons-parent-101-src.tar.gz",
-"commons/parent/source/commons-parent-101-src.zip"
+"commons-parent-102": [
+"commons/parent/source/commons-parent-102-src.tar.gz",
+"commons/parent/source/commons-parent-102-src.zip"
 ],
 "commons-pool2-2.13.1": [
 "commons/pool/source/commons-pool2-2.13.1-src.tar.gz",
@@ -2357,11 +2356,23 @@
 "cxf/4.1.6/apache-cxf-4.1.6.tar.gz",
 "cxf/4.1.6/apache-cxf-4.1.6.zip"
 ],
+"apache-cxf-4.1.7": [
+"cxf/4.1.7/apache-cxf-4.1.7-src.tar.gz",
+"cxf/4.1.7/apache-cxf-4.1.7-src.zip",
+"cxf/4.1.7/apache-cxf-4.1.7.tar.gz",
+"cxf/4.1.7/apache-cxf-4.1.7.zip"
+],
 "apache-cxf-4.2.1": [
 "cxf/4.2.1/apache-cxf-4.2.1-src.tar.gz",
 "cxf/4.2.1/apache-cxf-4.2.1-src.zip",
 "cxf/4.2.1/apache-cxf-4.2.1.tar.gz",
 "cxf/4.2.1/apache-cxf-4.2.1.zip"
+],
+"apache-cxf-4.2.2": [
+"cxf/4.2.2/apache-cxf-4.2.2-src.tar.gz",
+"cxf/4.2.2/apache-cxf-4.2.2-src.zip",
+"cxf/4.2.2/apache-cxf-4.2.2.tar.gz",
+"cxf/4.2.2/apache-cxf-4.2.2.zip"
 ],
 "apache-fediz-1.7.2": [
 "cxf/fediz/1.7.2/apache-fediz-1.7.2.zip"
@@ -7702,11 +7713,11 @@
 ]
 },
 "ofbiz": {
-"apache-ofbiz-24.09.05": [
-"ofbiz/apache-ofbiz-24.09.05.zip"
-],
 "apache-ofbiz-24.09.06": [
 "ofbiz/apache-ofbiz-24.09.06.zip"
+],
+"apache-ofbiz-24.09.07": [
+"ofbiz/apache-ofbiz-24.09.07.zip"
 ]
 },
 "opendal": {
@@ -10755,6 +10766,9 @@
 ],
 "apache-superset-5.0.0": [
 "superset/5.0.0/apache-superset-5.0.0-source.tar.gz"
+],
+"apache-superset-kubernetes-operator-0.1.0": [
+"superset/kubernetes-operator-0.1.0/apache-superset-kubernetes-operator-0.1.0.tar.gz"
 ],
 "apache_superset-4.1.3": [
 "superset/4.1.3/apache_superset-4.1.3-source.tar.gz"
