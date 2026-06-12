@@ -131,8 +131,8 @@
 "airflow/airflow-ctl/0.1.5/apache_airflow_ctl-0.1.5-source.tar.gz",
 "airflow/airflow-ctl/0.1.5/apache_airflow_ctl-0.1.5.tar.gz"
 ],
-"apache_airflow_providers-2026-06-02": [
-"airflow/providers/apache_airflow_providers-2026-06-02-source.tar.gz"
+"apache_airflow_providers-2026-06-08": [
+"airflow/providers/apache_airflow_providers-2026-06-08-source.tar.gz"
 ],
 "apache_airflow_providers_airbyte-5.5.1": [
 "airflow/providers/apache_airflow_providers_airbyte-5.5.1.tar.gz"
@@ -143,8 +143,8 @@
 "apache_airflow_providers_alibaba-3.3.8": [
 "airflow/providers/apache_airflow_providers_alibaba-3.3.8.tar.gz"
 ],
-"apache_airflow_providers_amazon-9.29.0": [
-"airflow/providers/apache_airflow_providers_amazon-9.29.0.tar.gz"
+"apache_airflow_providers_amazon-9.30.0": [
+"airflow/providers/apache_airflow_providers_amazon-9.30.0.tar.gz"
 ],
 "apache_airflow_providers_apache_beam-6.2.3": [
 "airflow/providers/apache_airflow_providers_apache_beam-6.2.3.tar.gz"
@@ -188,8 +188,8 @@
 "apache_airflow_providers_apache_pinot-4.10.3": [
 "airflow/providers/apache_airflow_providers_apache_pinot-4.10.3.tar.gz"
 ],
-"apache_airflow_providers_apache_spark-6.0.2": [
-"airflow/providers/apache_airflow_providers_apache_spark-6.0.2.tar.gz"
+"apache_airflow_providers_apache_spark-6.1.0": [
+"airflow/providers/apache_airflow_providers_apache_spark-6.1.0.tar.gz"
 ],
 "apache_airflow_providers_apache_sqoop-4.2.1": [
 "airflow/providers/apache_airflow_providers_apache_sqoop-4.2.1.tar.gz"
@@ -215,8 +215,8 @@
 "apache_airflow_providers_cloudant-4.3.5": [
 "airflow/providers/apache_airflow_providers_cloudant-4.3.5.tar.gz"
 ],
-"apache_airflow_providers_cncf_kubernetes-10.17.1": [
-"airflow/providers/apache_airflow_providers_cncf_kubernetes-10.17.1.tar.gz"
+"apache_airflow_providers_cncf_kubernetes-10.18.0": [
+"airflow/providers/apache_airflow_providers_cncf_kubernetes-10.18.0.tar.gz"
 ],
 "apache_airflow_providers_cohere-1.6.6": [
 "airflow/providers/apache_airflow_providers_cohere-1.6.6.tar.gz"
@@ -257,8 +257,8 @@
 "apache_airflow_providers_docker-4.5.7": [
 "airflow/providers/apache_airflow_providers_docker-4.5.7.tar.gz"
 ],
-"apache_airflow_providers_edge3-3.7.0": [
-"airflow/providers/apache_airflow_providers_edge3-3.7.0.tar.gz"
+"apache_airflow_providers_edge3-3.8.0": [
+"airflow/providers/apache_airflow_providers_edge3-3.8.0.tar.gz"
 ],
 "apache_airflow_providers_elasticsearch-6.6.0": [
 "airflow/providers/apache_airflow_providers_elasticsearch-6.6.0.tar.gz"
@@ -1943,6 +1943,12 @@
 "commons/daemon/source/commons-daemon-1.6.0-src.tar.gz",
 "commons/daemon/source/commons-daemon-1.6.0-src.zip"
 ],
+"commons-daemon-1.6.1": [
+"commons/daemon/source/commons-daemon-1.6.1-native-src.tar.gz",
+"commons/daemon/source/commons-daemon-1.6.1-native-src.zip",
+"commons/daemon/source/commons-daemon-1.6.1-src.tar.gz",
+"commons/daemon/source/commons-daemon-1.6.1-src.zip"
+],
 "commons-dbcp2-2.14.0": [
 "commons/dbcp/source/commons-dbcp2-2.14.0-src.tar.gz",
 "commons/dbcp/source/commons-dbcp2-2.14.0-src.zip"
@@ -3601,6 +3607,9 @@
 "apache_flink-1.20.4": [
 "flink/flink-1.20.4/python/apache_flink-1.20.4.tar.gz"
 ],
+"apache_flink-1.20.5": [
+"flink/flink-1.20.5/python/apache_flink-1.20.5.tar.gz"
+],
 "apache_flink-2.0.1": [
 "flink/flink-2.0.1/python/apache_flink-2.0.1.tar.gz"
 ],
@@ -3613,6 +3622,9 @@
 "apache_flink-2.1.2": [
 "flink/flink-2.1.2/python/apache_flink-2.1.2.tar.gz"
 ],
+"apache_flink-2.1.3": [
+"flink/flink-2.1.3/python/apache_flink-2.1.3.tar.gz"
+],
 "apache_flink-2.2.0": [
 "flink/flink-2.2.0/python/apache_flink-2.2.0.tar.gz"
 ],
@@ -3621,6 +3633,9 @@
 ],
 "apache_flink_libraries-1.20.4": [
 "flink/flink-1.20.4/python/apache_flink_libraries-1.20.4.tar.gz"
+],
+"apache_flink_libraries-1.20.5": [
+"flink/flink-1.20.5/python/apache_flink_libraries-1.20.5.tar.gz"
 ],
 "apache_flink_libraries-2.0.1": [
 "flink/flink-2.0.1/python/apache_flink_libraries-2.0.1.tar.gz"
@@ -3633,6 +3648,9 @@
 ],
 "apache_flink_libraries-2.1.2": [
 "flink/flink-2.1.2/python/apache_flink_libraries-2.1.2.tar.gz"
+],
+"apache_flink_libraries-2.1.3": [
+"flink/flink-2.1.3/python/apache_flink_libraries-2.1.3.tar.gz"
 ],
 "apache_flink_libraries-2.2.0": [
 "flink/flink-2.2.0/python/apache_flink_libraries-2.2.0.tar.gz"
@@ -3655,6 +3673,9 @@
 "flink-1.20.4": [
 "flink/flink-1.20.4/flink-1.20.4-src.tgz"
 ],
+"flink-1.20.5": [
+"flink/flink-1.20.5/flink-1.20.5-src.tgz"
+],
 "flink-2.0-preview1": [
 "flink/flink-2.0-preview1/flink-2.0-preview1-src.tgz"
 ],
@@ -3669,6 +3690,9 @@
 ],
 "flink-2.1.2": [
 "flink/flink-2.1.2/flink-2.1.2-src.tgz"
+],
+"flink-2.1.3": [
+"flink/flink-2.1.3/flink-2.1.3-src.tgz"
 ],
 "flink-2.2.0": [
 "flink/flink-2.2.0/flink-2.2.0-src.tgz"
@@ -10155,8 +10179,8 @@
 "org.apache.sling.resourcemerger-1.4.4": [
 "sling/org.apache.sling.resourcemerger-1.4.4-source-release.zip"
 ],
-"org.apache.sling.resourceresolver-1.12.12": [
-"sling/org.apache.sling.resourceresolver-1.12.12-source-release.zip"
+"org.apache.sling.resourceresolver-1.12.14": [
+"sling/org.apache.sling.resourceresolver-1.12.14-source-release.zip"
 ],
 "org.apache.sling.resourceresolver-2.0.2": [
 "sling/org.apache.sling.resourceresolver-2.0.2-source-release.zip"
@@ -10526,8 +10550,8 @@
 "SparkR_3.5.8": [
 "spark/spark-3.5.8/SparkR_3.5.8.tar.gz"
 ],
-"SparkR_4.0.2": [
-"spark/spark-4.0.2/SparkR_4.0.2.tar.gz"
+"SparkR_4.0.3": [
+"spark/spark-4.0.3/SparkR_4.0.3.tar.gz"
 ],
 "SparkR_4.1.2": [
 "spark/spark-4.1.2/SparkR_4.1.2.tar.gz"
@@ -10541,8 +10565,8 @@
 "pyspark-3.5.8": [
 "spark/spark-3.5.8/pyspark-3.5.8.tar.gz"
 ],
-"pyspark-4.0.2": [
-"spark/spark-4.0.2/pyspark-4.0.2.tar.gz"
+"pyspark-4.0.3": [
+"spark/spark-4.0.3/pyspark-4.0.3.tar.gz"
 ],
 "pyspark-4.1.2": [
 "spark/spark-4.1.2/pyspark-4.1.2.tar.gz"
@@ -10553,8 +10577,8 @@
 "pyspark-4.2.0.dev5": [
 "spark/spark-4.2.0-preview5/pyspark-4.2.0.dev5.tar.gz"
 ],
-"pyspark_client-4.0.2": [
-"spark/spark-4.0.2/pyspark_client-4.0.2.tar.gz"
+"pyspark_client-4.0.3": [
+"spark/spark-4.0.3/pyspark_client-4.0.3.tar.gz"
 ],
 "pyspark_client-4.1.2": [
 "spark/spark-4.1.2/pyspark_client-4.1.2.tar.gz"
@@ -10565,8 +10589,8 @@
 "pyspark_client-4.2.0.dev5": [
 "spark/spark-4.2.0-preview5/pyspark_client-4.2.0.dev5.tar.gz"
 ],
-"pyspark_connect-4.0.2": [
-"spark/spark-4.0.2/pyspark_connect-4.0.2.tar.gz"
+"pyspark_connect-4.0.3": [
+"spark/spark-4.0.3/pyspark_connect-4.0.3.tar.gz"
 ],
 "pyspark_connect-4.1.2": [
 "spark/spark-4.1.2/pyspark_connect-4.1.2.tar.gz"
@@ -10580,8 +10604,8 @@
 "spark-3.5.8": [
 "spark/spark-3.5.8/spark-3.5.8.tgz"
 ],
-"spark-4.0.2": [
-"spark/spark-4.0.2/spark-4.0.2.tgz"
+"spark-4.0.3": [
+"spark/spark-4.0.3/spark-4.0.3.tgz"
 ],
 "spark-4.1.2": [
 "spark/spark-4.1.2/spark-4.1.2.tgz"
@@ -10594,9 +10618,6 @@
 ],
 "spark-connect-swift-0.6.0": [
 "spark/spark-connect-swift-0.6.0/spark-connect-swift-0.6.0.tar.gz"
-],
-"spark-kubernetes-operator-0.8.0": [
-"spark/spark-kubernetes-operator-0.8.0/spark-kubernetes-operator-0.8.0.tar.gz"
 ],
 "spark-kubernetes-operator-0.9.0": [
 "spark/spark-kubernetes-operator-0.9.0/spark-kubernetes-operator-0.9.0.tar.gz"
