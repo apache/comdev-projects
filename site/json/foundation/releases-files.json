@@ -1720,6 +1720,9 @@
 "apache-cassandra-gocql-driver-2.1.1": [
 "cassandra/cassandra-gocql-driver/2.1.1/apache-cassandra-gocql-driver-2.1.1.tar.gz"
 ],
+"apache-cassandra-gocql-driver-2.1.2": [
+"cassandra/cassandra-gocql-driver/2.1.2/apache-cassandra-gocql-driver-2.1.2.tar.gz"
+],
 "apache-cassandra-java-driver-3.12.1": [
 "cassandra/cassandra-java-driver/3.12.1/apache-cassandra-java-driver-3.12.1-source.tar.gz",
 "cassandra/cassandra-java-driver/3.12.1/apache-cassandra-java-driver-3.12.1.tar.gz"
@@ -2225,12 +2228,12 @@
 "cordova-plugin-globalization-1.11.0": [
 "cordova/plugins/cordova-plugin-globalization-1.11.0.tgz"
 ],
-"cordova-plugin-inappbrowser-npm-6.0.1": [
-"cordova/plugins/cordova-plugin-inappbrowser-npm-6.0.1.tgz"
+"cordova-plugin-inappbrowser-npm-7.0.0": [
+"cordova/plugins/cordova-plugin-inappbrowser-npm-7.0.0.tgz"
 ],
-"cordova-plugin-inappbrowser-source-6.0.1": [
-"cordova/plugins/cordova-plugin-inappbrowser-source-6.0.1.tar.gz",
-"cordova/plugins/cordova-plugin-inappbrowser-source-6.0.1.zip"
+"cordova-plugin-inappbrowser-source-7.0.0": [
+"cordova/plugins/cordova-plugin-inappbrowser-source-7.0.0.tar.gz",
+"cordova/plugins/cordova-plugin-inappbrowser-source-7.0.0.zip"
 ],
 "cordova-plugin-legacy-whitelist-1.1.2": [
 "cordova/plugins/cordova-plugin-legacy-whitelist-1.1.2.tgz"
@@ -3775,6 +3778,9 @@
 "flink-connector-hive-3.0.0": [
 "flink/flink-connector-hive-3.0.0/flink-connector-hive-3.0.0-src.tgz"
 ],
+"flink-connector-http-1.0.0": [
+"flink/flink-connector-http-1.0.0/flink-connector-http-1.0.0-src.tgz"
+],
 "flink-connector-jdbc-3.1.0": [
 "flink/flink-connector-jdbc-3.1.0/flink-connector-jdbc-3.1.0-src.tgz"
 ],
@@ -3974,8 +3980,8 @@
 ]
 },
 "fory": {
-"apache-fory-1.1.0": [
-"fory/1.1.0/apache-fory-1.1.0-src.tar.gz"
+"apache-fory-1.2.0": [
+"fory/1.2.0/apache-fory-1.2.0-src.tar.gz"
 ]
 },
 "freemarker": {
@@ -8252,8 +8258,8 @@
 "apache-pekko-grpc-1.2.0-20251018": [
 "pekko/GRPC-1.2.0/apache-pekko-grpc-1.2.0-src-20251018.tgz"
 ],
-"apache-pekko-grpc-2.0.0-M1-20260128": [
-"pekko/GRPC-2.0.0-M1/apache-pekko-grpc-2.0.0-M1-src-20260128.tgz"
+"apache-pekko-grpc-2.0.0-M2-20260608": [
+"pekko/GRPC-2.0.0-M2/apache-pekko-grpc-2.0.0-M2-src-20260608.tgz"
 ],
 "apache-pekko-http-1.3.0-20251021": [
 "pekko/HTTP-1.3.0/apache-pekko-http-1.3.0-src-20251021.tgz"
@@ -11029,17 +11035,9 @@
 "tomcat-maven-plugin-2.2": [
 "tomcat/maven-plugin/v2.2/tomcat-maven-plugin-2.2-source-release.zip"
 ],
-"tomcat-native-1.3.7": [
-"tomcat/tomcat-connectors/native/1.3.7/source/tomcat-native-1.3.7-src.tar.gz",
-"tomcat/tomcat-connectors/native/1.3.7/source/tomcat-native-1.3.7-win32-src.zip"
-],
 "tomcat-native-1.3.8": [
 "tomcat/tomcat-connectors/native/1.3.8/source/tomcat-native-1.3.8-src.tar.gz",
 "tomcat/tomcat-connectors/native/1.3.8/source/tomcat-native-1.3.8-win32-src.zip"
-],
-"tomcat-native-2.0.14": [
-"tomcat/tomcat-connectors/native/2.0.14/source/tomcat-native-2.0.14-src.tar.gz",
-"tomcat/tomcat-connectors/native/2.0.14/source/tomcat-native-2.0.14-win32-src.zip"
 ],
 "tomcat-native-2.0.15": [
 "tomcat/tomcat-connectors/native/2.0.15/source/tomcat-native-2.0.15-src.tar.gz",
@@ -11063,6 +11061,22 @@
 "tomee/tomee-10.1.5/apache-tomee-10.1.5-webprofile.tar.gz",
 "tomee/tomee-10.1.5/apache-tomee-10.1.5-webprofile.zip"
 ],
+"apache-tomee-11.0.0-M1-microprofile": [
+"tomee/tomee-11.0.0-M1/apache-tomee-11.0.0-M1-microprofile.tar.gz",
+"tomee/tomee-11.0.0-M1/apache-tomee-11.0.0-M1-microprofile.zip"
+],
+"apache-tomee-11.0.0-M1-plume": [
+"tomee/tomee-11.0.0-M1/apache-tomee-11.0.0-M1-plume.tar.gz",
+"tomee/tomee-11.0.0-M1/apache-tomee-11.0.0-M1-plume.zip"
+],
+"apache-tomee-11.0.0-M1-plus": [
+"tomee/tomee-11.0.0-M1/apache-tomee-11.0.0-M1-plus.tar.gz",
+"tomee/tomee-11.0.0-M1/apache-tomee-11.0.0-M1-plus.zip"
+],
+"apache-tomee-11.0.0-M1-webprofile": [
+"tomee/tomee-11.0.0-M1/apache-tomee-11.0.0-M1-webprofile.tar.gz",
+"tomee/tomee-11.0.0-M1/apache-tomee-11.0.0-M1-webprofile.zip"
+],
 "jakartaee-api-parent-10.0.1": [
 "tomee/jakartaee-api-10.0.1/jakartaee-api-parent-10.0.1-source-release.zip"
 ],
@@ -11071,6 +11085,9 @@
 ],
 "tomee-10.1.5": [
 "tomee/tomee-10.1.5/tomee-project-10.1.5-source-release.zip"
+],
+"tomee-11.0.0-M1": [
+"tomee/tomee-11.0.0-M1/tomee-project-11.0.0-M1-source-release.zip"
 ],
 "tomee-patch-parent-0.10": [
 "tomee/tomee-patch-plugin-0.10/tomee-patch-parent-0.10-source-release.zip"
