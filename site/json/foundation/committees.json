@@ -14225,7 +14225,7 @@
 "shortdesc": "web service that exposes a REST interface for managing long running Apache Spark contexts in your cluster. With Livy, new applications can be built on top of Apache Spark that require fine grained interaction with many Spark contexts"
 },
 {
-"chair": "pkarwasz",
+"chair": "freeandnil",
 "charter": "The mission of the Apache Logging Services project is to create and maintain of software for managing the logging of application behavior, and for related software components.",
 "established": "2003-12",
 "group": "logging",
@@ -14731,6 +14731,106 @@
 }
 },
 "shortdesc": "Scalable, Big Data, SQL-driven machine learning framework for Data Scientists"
+},
+{
+"chair": "potiuk",
+"established": "2026-06",
+"group": "magpie",
+"homepage": "https://magpie.apache.org",
+"id": "magpie",
+"name": "Apache Magpie",
+"reporting": 3,
+"roster": {
+"akm": {
+"date": "2026-06-17",
+"name": "Andrew Musselman"
+},
+"amoghdesai": {
+"date": "2026-06-17",
+"name": "Amogh Desai"
+},
+"clr": {
+"date": "2026-06-17",
+"name": "Craig L Russell"
+},
+"csutherl": {
+"date": "2026-06-17",
+"name": "Coty Sutherland"
+},
+"eladkal": {
+"date": "2026-06-17",
+"name": "Elad Kalif"
+},
+"gopidesu": {
+"date": "2026-06-17",
+"name": "Pavan Kumar"
+},
+"iemejia": {
+"date": "2026-06-17",
+"name": "Isma\u00ebl Mej\u00eda"
+},
+"jamesfredley": {
+"date": "2026-06-17",
+"name": "James Fredley"
+},
+"jbonofre": {
+"date": "2026-06-17",
+"name": "Jean-Baptiste Onofr\u00e9"
+},
+"jmclean": {
+"date": "2026-06-17",
+"name": "Justin Mclean"
+},
+"kirs": {
+"date": "2026-06-17",
+"name": "Calvin Kirs"
+},
+"mdrob": {
+"date": "2026-06-17",
+"name": "Mike Drob"
+},
+"paulk": {
+"date": "2026-06-17",
+"name": "Paul King"
+},
+"pkarwasz": {
+"date": "2026-06-17",
+"name": "Piotr Karwasz"
+},
+"potiuk": {
+"date": "2026-06-17",
+"name": "Jarek Potiuk"
+},
+"rbowen": {
+"date": "2026-06-17",
+"name": "Rich Bowen"
+},
+"remm": {
+"date": "2026-06-17",
+"name": "R\u00e9my Maucherat"
+},
+"rusackas": {
+"date": "2026-06-17",
+"name": "Evan Rusackas"
+},
+"russellspitzer": {
+"date": "2026-06-17",
+"name": "Russell Spitzer"
+},
+"rzo1": {
+"date": "2026-06-17",
+"name": "Richard Zowalla"
+},
+"tison": {
+"date": "2026-06-17",
+"name": "Zili Chen"
+},
+"zeroshade": {
+"date": "2026-06-17",
+"name": "Matthew Topol"
+}
+},
+"shortdesc": "creation and maintenance of software related to agent-assisted repository maintainership and development, including issue and pull- request triage, contributor mentoring, agent-drafted remediation, developer-side development-cycle skills, and narrowly-scoped fix-and- merge automation"
 },
 {
 "chair": "squinn",
@@ -17623,41 +17723,7 @@
 "shortdesc": "Dynamic websites using Perl"
 },
 {
-"chair": "gstein",
-"charter": "The mission of Apache Petri is the creation and maintenance of software related to assessment of, education in, and adoption of the Foundation's policies and procedures for collaborative development and the pros and cons of joining the Foundation",
-"established": "2019-11",
-"group": "petri",
-"homepage": "https://petri.apache.org",
-"id": "petri",
-"name": "Apache Petri",
-"rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/petri.rdf",
-"reporting": 1,
-"roster": {
-"danielsh": {
-"date": "2019-11-20",
-"name": "Daniel Shahaf"
-},
-"gstein": {
-"date": "2019-11-20",
-"name": "Greg Stein"
-},
-"humbedooh": {
-"date": "2019-11-20",
-"name": "Daniel Gruno"
-},
-"ke4qqq": {
-"date": "2019-11-20",
-"name": "David Nalley"
-},
-"wave": {
-"date": "2019-11-20",
-"name": "Dave Fisher"
-}
-},
-"shortdesc": "assessment of, education in, and adoption of the Foundation's policies and procedures for collaborative development and the pros and cons of joining the Foundation"
-},
-{
-"chair": "stoty",
+"chair": "vjasani",
 "charter": "The mission of Phoenix is the creation and maintenance of software related to High performance relational database layer over Apache HBase for low latency applications",
 "established": "2014-05",
 "group": "phoenix",
