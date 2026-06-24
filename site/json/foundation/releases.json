@@ -611,7 +611,8 @@
 "cayenne-4.0.3": "2023-02-14",
 "cayenne-4.1.1": "2021-12-20",
 "cayenne-4.2.3": "2025-11-13",
-"cayenne-5.0-M1": "2024-08-28"
+"cayenne-5.0-M1": "2024-08-28",
+"cayenne-5.0-M2": "2026-06-11"
 },
 "celeborn": {
 "apache-celeborn-0.3.2-incubating": "2023-12-29",
@@ -686,7 +687,7 @@
 "commons-jexl-1.1": "2013-03-03",
 "commons-jexl-2.1.1": "2013-03-03",
 "commons-jexl-3.2.1": "2021-06-25",
-"commons-jexl-3.6.2": "2026-02-09",
+"commons-jexl-3.6.3": "2026-06-23",
 "commons-jxpath-1.4.0": "2025-04-18",
 "commons-lang-2.6": "2013-03-03",
 "commons-lang3-3.20.0": "2025-11-16",
@@ -1021,6 +1022,7 @@
 "maven-scr-plugin-1.26.4": "2019-12-07",
 "org.apache.felix.bundlerepository-2.0.10": "2017-04-24",
 "org.apache.felix.cm.json-2.0.6": "2024-01-18",
+"org.apache.felix.cm.json-2.0.8": "2026-06-23",
 "org.apache.felix.configadmin-1.9.26": "2022-11-09",
 "org.apache.felix.configadmin.plugin.interpolation-1.2.8": "2023-07-24",
 "org.apache.felix.configurator-1.0.18": "2022-11-16",
@@ -1471,15 +1473,13 @@
 "hadoop-thirdparty-1.5.0": "2025-10-20"
 },
 "hbase": {
-"hbase-2.5.14": "2026-03-20",
 "hbase-2.5.15": "2026-06-04",
-"hbase-2.6.5": "2026-03-20",
 "hbase-2.6.6": "2026-06-04",
 "hbase-3.0.0-beta-1": "2024-01-14",
 "hbase-connectors-1.0.1": "2023-10-18",
 "hbase-filesystem-1.0.0-alpha1": "2019-06-06",
 "hbase-operator-tools-1.3.0": "2025-12-06",
-"hbase-thirdparty-4.1.13": "2026-03-11"
+"hbase-thirdparty-4.1.14": "2026-06-08"
 },
 "helix": {
 "helix-0.9.10": "2021-12-11",
@@ -2068,6 +2068,7 @@
 "kafka-4.2.0": "2026-02-16",
 "kafka-4.2.1": "2026-05-28",
 "kafka-4.3.0": "2026-05-20",
+"kafka-4.3.1": "2026-06-23",
 "kafka_2.12-3.9.2": "2026-02-22",
 "kafka_2.13-3.9.2": "2026-02-22",
 "kafka_2.13-4.0.1": "2025-10-10",
@@ -2076,7 +2077,8 @@
 "kafka_2.13-4.1.2": "2026-03-16",
 "kafka_2.13-4.2.0": "2026-02-16",
 "kafka_2.13-4.2.1": "2026-05-28",
-"kafka_2.13-4.3.0": "2026-05-20"
+"kafka_2.13-4.3.0": "2026-05-20",
+"kafka_2.13-4.3.1": "2026-06-23"
 },
 "karaf": {
 "apache-karaf-3.0.10": "2020-01-11",
@@ -2725,6 +2727,7 @@
 "apache-paimon-1.3.1": "2025-11-12",
 "apache-paimon-1.3.2": "2026-05-06",
 "apache-paimon-1.4.1": "2026-04-19",
+"apache-paimon-1.4.2": "2026-06-04",
 "apache-paimon-mosaic-0.1.0": "2026-05-30",
 "apache-paimon-mosaic-0.2.0": "2026-06-12",
 "apache-paimon-shade-0.6.0-incubating": "2024-01-09",
@@ -2734,7 +2737,8 @@
 "pypaimon-1.3.0": "2025-10-31",
 "pypaimon-1.3.1": "2025-11-12",
 "pypaimon-1.3.2": "2026-05-06",
-"pypaimon-1.4.1": "2026-04-19"
+"pypaimon-1.4.1": "2026-04-19",
+"pypaimon-1.4.2": "2026-06-04"
 },
 "parquet": {
 "apache-parquet-1.10.1": "2019-02-01",
@@ -2785,7 +2789,6 @@
 "apache-pekko-management-2.0.0-M1-20260417": "2026-04-19",
 "apache-pekko-persistence-cassandra-1.1.0-20250116": "2025-01-16",
 "apache-pekko-persistence-dynamodb-1.1.0-20241020": "2024-10-20",
-"apache-pekko-persistence-jdbc-1.2.0-20251216": "2025-12-16",
 "apache-pekko-persistence-jdbc-1.3.0-20260614": "2026-06-18",
 "apache-pekko-persistence-jdbc-2.0.0-M1-20260127": "2026-01-27",
 "apache-pekko-persistence-r2dbc-1.1.0-20250902": "2025-09-02",
@@ -2861,6 +2864,7 @@
 "apache-pulsar-4.2.0": "2026-03-24",
 "apache-pulsar-4.2.1": "2026-04-23",
 "apache-pulsar-4.2.2": "2026-06-05",
+"apache-pulsar-5.0.0-M1": "2026-06-16",
 "apache-pulsar-adapters-2.11.0": "2023-03-02",
 "apache-pulsar-client-cpp-3.7.2": "2025-06-24",
 "apache-pulsar-client-cpp-3.8.0": "2025-11-06",
@@ -3746,6 +3750,7 @@
 "apache-tomcat-11.0.23": "2026-06-17",
 "apache-tomcat-9.0.117": "2026-03-30",
 "apache-tomcat-9.0.118": "2026-05-01",
+"apache-tomcat-9.0.119": "2026-06-18",
 "jakartaee-migration-1.0.12": "2026-06-01",
 "taglibs-standard-1.2.5": "2015-03-10",
 "tomcat-connectors-1.2.50": "2024-08-12",

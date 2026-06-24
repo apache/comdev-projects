@@ -20147,9 +20147,9 @@
 "revision": "10.0.27"
 },
 {
-"created": "2025-05-10",
+"created": "2025-06-23",
 "name": "Latest Stable 9.0.x Release",
-"revision": "9.0.118"
+"revision": "9.0.119"
 }
 ],
 "repository": [
@@ -22339,27 +22339,9 @@
 "shortdesc": "Zeppelin is a collaborative data analytics and visualization tool for distributed, general-purpose data processing systems"
 },
 "zookeeper": {
-"bug-database": "https://issues.apache.org/jira/browse/ZOOKEEPER",
-"category": "database",
-"created": "2011-02-06",
-"description": "Apache ZooKeeper is an effort to develop and maintain an open-source server which enables highly reliable distributed coordination.",
-"doap": "http://zookeeper.apache.org/doap.rdf",
-"download-page": "https://www.apache.org/dyn/closer.cgi/zookeeper/",
-"homepage": "https://zookeeper.apache.org/",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "https://zookeeper.apache.org/lists.html",
-"maintainer": [
-{
-"mbox": "mailto:dev@zookeeper.apache.org",
-"name": "Apache ZooKeeper Community"
-}
-],
-"name": "Apache ZooKeeper",
-"pmc": "zookeeper",
-"programming-language": "Java",
-"repository": [
-"https://gitbox.apache.org/repos/asf/zookeeper.git"
-],
-"shortdesc": "A distributed computing platform."
+"category": "no-tlp-doap",
+"homepage": "https://zookeeper.apache.org",
+"name": "Apache Zookeeper",
+"pmc": "zookeeper"
 }
 }
