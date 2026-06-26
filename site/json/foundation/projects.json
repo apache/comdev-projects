@@ -9767,7 +9767,7 @@
 "created": "2020-12-14",
 "description": "In the analysis of big data there are often problem queries that don’t scale because they require huge compute resources and time to generate exact results. Examples include count distinct, quantiles, distribution analysis, most-frequent items, joins, matrix computations, and graph analysis.\n\nIf approximate results are acceptable, there is a class of specialized algorithms, called streaming algorithms, or sketches, that can produce results orders-of magnitude faster and with mathematically proven error bounds. For interactive queries there may not be other viable alternatives, and in the case of real-time analysis, sketches are the only known solution.",
 "doap": "https://datasketches.apache.org/datasketches-doap.rdf",
-"download-page": "https//datasketches.apache.org/docs/Community/Downloads.html",
+"download-page": "https://datasketches.apache.org/docs/Community/Downloads.html",
 "homepage": "https://datasketches.apache.org",
 "license": "https://spdx.org/licenses/Apache-2.0",
 "mailing-list": "https://lists.apache.org/list.html?users@datasketches.apache.org",
@@ -9777,7 +9777,7 @@
 "name": "Lee Rhodes (leerho)"
 }
 ],
-"name": "Apache datasketches",
+"name": "Apache DataSketches",
 "pmc": "datasketches",
 "programming-language": "Java, C++, Python, Go, Rust",
 "repository": [
@@ -13157,6 +13157,11 @@
 "pmc": "lucene",
 "programming-language": "Java",
 "release": [
+{
+"created": "2026-06-25",
+"name": "lucene-10.5.0",
+"revision": "10.5.0"
+},
 {
 "created": "2026-02-25",
 "name": "lucene-10.4.0",
