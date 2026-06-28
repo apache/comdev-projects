@@ -865,36 +865,6 @@
 ],
 "shortdesc": "Ant Tasks for CycloneDX SBOMs"
 },
-"ant-dotnet": {
-"bug-database": "http://issues.apache.org/bugzilla/buglist.cgi?product=Ant",
-"category": "build-management",
-"created": "2006-09-13",
-"description": "This is a library of Ant tasks that help developing\n.NET software.  It includes the \"old\" .NET tasks like a C# compiler task but also comes with support for NUnit testing or running the popular NAnt or MSBuild build tools.",
-"doap": "https://ant.apache.org/antlibs/dotnet/doap_DotnetAntlib.rdf",
-"download-page": "http://ant.apache.org/antlibs/bindownload.cgi",
-"homepage": "http://ant.apache.org/antlibs/dotnet/",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://ant.apache.org/mail.html",
-"name": "Apache .NET Ant Library",
-"pmc": "ant",
-"programming-language": "Java",
-"release": [
-{
-"created": "2011-02-04",
-"name": "Apache .NET Ant Library 1.1",
-"revision": "1.1"
-},
-{
-"created": "2006-11-06",
-"name": "Apache .NET Ant Library 1.0",
-"revision": "1.0"
-}
-],
-"repository": [
-"https://gitbox.apache.org/repos/asf/ant-antlibs-dotnet.git"
-],
-"shortdesc": "Support for Mono and Microsoft .NET development using Ant"
-},
 "ant-ivy": {
 "bug-database": "https://issues.apache.org/jira/browse/IVY",
 "category": "build-management",
@@ -1023,28 +993,65 @@
 "name": "Apache Props Ant Library",
 "pmc": "ant",
 "programming-language": "Java",
+"release": [
+{
+"created": "2026-06-27",
+"name": "Apache Props Ant Library 1.0.0",
+"revision": "1.0.0"
+}
+],
 "repository": [
 "https://gitbox.apache.org/repos/asf/ant-antlibs-props.git"
 ],
 "shortdesc": "The Apache Props Antlib is a library of supplementary handlers for Apache Ant properties resolution."
 },
-"ant-vss": {
+"ant-retired__apache_dotnet": {
+"bug-database": "http://issues.apache.org/bugzilla/buglist.cgi?product=Ant",
+"category": "build-management",
+"created": "2006-09-13",
+"description": "This retired library was a library of Ant tasks that helped developing\n.NET software.  It included the \"old\" .NET tasks like a C# compiler task but also came with support for NUnit testing or running the (then) popular NAnt or MSBuild build tools.",
+"doap": "https://ant.apache.org/antlibs/dotnet/doap_DotnetAntlib.rdf",
+"download-page": "http://ant.apache.org/antlibs/bindownload.cgi",
+"homepage": "http://ant.apache.org/antlibs/dotnet/",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://ant.apache.org/mail.html",
+"name": "Retired: Apache .NET Ant Library",
+"pmc": "ant",
+"programming-language": "Java",
+"release": [
+{
+"created": "2011-02-04",
+"name": "Apache .NET Ant Library 1.1",
+"revision": "1.1"
+},
+{
+"created": "2006-11-06",
+"name": "Apache .NET Ant Library 1.0",
+"revision": "1.0"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf/ant-antlibs-dotnet.git"
+],
+"shortdesc": "Retired: Support for Mono and Microsoft .NET development using Ant"
+},
+"ant-retired__apache_vss": {
 "bug-database": "http://issues.apache.org/bugzilla/buglist.cgi?product=Ant",
 "category": "build-management",
 "created": "2009-07-31",
-"description": "The Apache VSS Antlib provides an interface to the Microsoft Visual SourceSafe SCM. The original Ant tasks have been expanded upon in this Antlib. Some fixes to issues in the original tasks have also been incorporated.",
+"description": "The retired Apache VSS Antlib provided an interface to the Microsoft Visual SourceSafe SCM. The original Ant tasks have been expanded upon in this Antlib. Some fixes to issues in the original tasks have also been incorporated.",
 "doap": "https://ant.apache.org/antlibs/vss/doap_VSSAntlib.rdf",
 "download-page": "http://ant.apache.org/antlibs/bindownload.cgi",
 "homepage": "http://ant.apache.org/antlibs/proper.html",
 "license": "http://usefulinc.com/doap/licenses/asl20",
 "mailing-list": "http://ant.apache.org/mail.html",
-"name": "Apache VSS Ant Library",
+"name": "Retired: Apache VSS Ant Library",
 "pmc": "ant",
 "programming-language": "Java",
 "repository": [
 "https://gitbox.apache.org/repos/asf/ant-antlibs-vss.git"
 ],
-"shortdesc": "Microsoft Visual Source Safe support for Apache Ant."
+"shortdesc": "Retired: Microsoft Visual Source Safe support for Apache Ant."
 },
 "apisix": {
 "category": "no-tlp-doap",
