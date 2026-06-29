@@ -14351,10 +14351,28 @@
 "pmc": "madlib"
 },
 "magpie": {
-"category": "no-tlp-doap",
-"homepage": "https://magpie.apache.org",
+"bug-database": "https://github.com/apache/magpie/issues",
+"category": "build-management",
+"created": "2026-04-28",
+"description": "Apache Magpie is a project-agnostic, agent-assisted maintainership and\n      development framework that any open-source project — ASF or not — can adopt. It ships\n      independently-toggleable modes (Triage, Mentoring, Drafting, Pairing, and Auto-merge) as\n      reusable agent skills, so each project picks the automation level that fits its culture and\n      risk tolerance. Magpie covers security-issue handling, contributor mentoring, agent-drafted\n      remediation under human review, and developer-side development-cycle workflows, with a\n      privacy-aware model-routing posture for sensitive content.",
+"doap": "https://raw.githubusercontent.com/apache/magpie/main/doap_Magpie.rdf",
+"download-page": "https://github.com/apache/magpie",
+"homepage": "https://github.com/apache/magpie",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://lists.apache.org/list.html?dev@magpie.apache.org",
+"maintainer": [
+{
+"mbox": "mailto:potiuk@apache.org",
+"name": "Jarek Potiuk"
+}
+],
 "name": "Apache Magpie",
-"pmc": "magpie"
+"pmc": "magpie",
+"programming-language": "Python",
+"repository": [
+"https://github.com/apache/magpie.git"
+],
+"shortdesc": "Agent-assisted maintainership and development framework for Apache projects."
 },
 "mahout": {
 "bug-database": "https://issues.apache.org/jira/browse/MAHOUT",
