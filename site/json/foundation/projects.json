@@ -865,71 +865,6 @@
 ],
 "shortdesc": "Ant Tasks for CycloneDX SBOMs"
 },
-"ant-ivy": {
-"bug-database": "https://issues.apache.org/jira/browse/IVY",
-"category": "build-management",
-"created": "2010-11-16",
-"description": "Apache Ivy is a very powerful dependency manager oriented toward Java dependency management, even though it could be used to manage dependencies of any kind.",
-"doap": "https://gitbox.apache.org/repos/asf?p=ant-ivy.git;a=blob_plain;f=doap_Ivy.rdf;hb=HEAD",
-"download-page": "http://ant.apache.org/ivy/download.cgi",
-"homepage": "http://ant.apache.org/ivy/",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://ant.apache.org/ivy/mailing-lists.html",
-"name": "Apache Ivy",
-"pmc": "ant",
-"programming-language": "Java",
-"release": [
-{
-"created": "2023-12-23",
-"name": "Apache Ivy 2.5.3",
-"revision": "2.5.3"
-},
-{
-"created": "2023-08-20",
-"name": "Apache Ivy 2.5.2",
-"revision": "2.5.2"
-},
-{
-"created": "2022-11-04",
-"name": "Apache Ivy 2.5.1",
-"revision": "2.5.1"
-},
-{
-"created": "2019-10-20",
-"name": "Apache Ivy 2.5.0",
-"revision": "2.5.0"
-},
-{
-"created": "2014-12-26",
-"name": "Apache Ivy 2.4.0",
-"revision": "2.4.0"
-},
-{
-"created": "2013-01-24",
-"name": "Apache Ivy 2.3.0",
-"revision": "2.3.0"
-},
-{
-"created": "2010-10-07",
-"name": "Apache Ivy 2.2.0",
-"revision": "2.2.0"
-},
-{
-"created": "2009-10-13",
-"name": "Apache Ivy 2.1.0",
-"revision": "2.1.0"
-},
-{
-"created": "2009-01-22",
-"name": "Apache Ivy 2.0.0",
-"revision": "2.0.0"
-}
-],
-"repository": [
-"https://gitbox.apache.org/repos/asf/ant-ivy.git"
-],
-"shortdesc": "Apache Ivy is a very powerful dependency manager oriented toward Java dependency management, even though it could be used to manage dependencies of any kind."
-},
 "ant-ivyde": {
 "bug-database": "https://issues.apache.org/jira/browse/IVYDE",
 "category": "build-management",
@@ -5813,11 +5748,6 @@
 "revision": "5.0-M2"
 },
 {
-"created": "2024-09-09",
-"name": "Alpha",
-"revision": "5.0-M1"
-},
-{
 "created": "2025-11-19",
 "name": "Stable",
 "revision": "4.2.3"
@@ -9615,6 +9545,11 @@
 "pmc": "daffodil",
 "programming-language": "Scala, Java",
 "release": [
+{
+"created": "2026-07-07",
+"name": "Apache Daffodil",
+"revision": "4.2.0"
+},
 {
 "created": "2026-02-05",
 "name": "Apache Daffodil",
@@ -20177,9 +20112,9 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2026-06-22",
+"created": "2026-07-07",
 "name": "Latest Stable 10.1.x Release",
-"revision": "10.1.56"
+"revision": "10.1.57"
 },
 {
 "created": "2022-10-10",
@@ -20187,9 +20122,9 @@
 "revision": "10.0.27"
 },
 {
-"created": "2025-06-23",
+"created": "2025-07-07",
 "name": "Latest Stable 9.0.x Release",
-"revision": "9.0.119"
+"revision": "9.0.120"
 }
 ],
 "repository": [
