@@ -20,6 +20,11 @@
 "programming-language": "Java",
 "release": [
 {
+"created": "2026-07-08",
+"name": "Apache Accumulo",
+"revision": "2.1.5"
+},
+{
 "created": "2025-08-20",
 "name": "Apache Accumulo",
 "revision": "2.1.4"
@@ -864,6 +869,71 @@
 "https://gitbox.apache.org/repos/asf/ant-antlibs-cyclonedx.git"
 ],
 "shortdesc": "Ant Tasks for CycloneDX SBOMs"
+},
+"ant-ivy": {
+"bug-database": "https://issues.apache.org/jira/browse/IVY",
+"category": "build-management",
+"created": "2010-11-16",
+"description": "Apache Ivy is a very powerful dependency manager oriented toward Java dependency management, even though it could be used to manage dependencies of any kind.",
+"doap": "https://gitbox.apache.org/repos/asf?p=ant-ivy.git;a=blob_plain;f=doap_Ivy.rdf;hb=HEAD",
+"download-page": "http://ant.apache.org/ivy/download.cgi",
+"homepage": "http://ant.apache.org/ivy/",
+"license": "http://usefulinc.com/doap/licenses/asl20",
+"mailing-list": "http://ant.apache.org/ivy/mailing-lists.html",
+"name": "Apache Ivy",
+"pmc": "ant",
+"programming-language": "Java",
+"release": [
+{
+"created": "2023-12-23",
+"name": "Apache Ivy 2.5.3",
+"revision": "2.5.3"
+},
+{
+"created": "2023-08-20",
+"name": "Apache Ivy 2.5.2",
+"revision": "2.5.2"
+},
+{
+"created": "2022-11-04",
+"name": "Apache Ivy 2.5.1",
+"revision": "2.5.1"
+},
+{
+"created": "2019-10-20",
+"name": "Apache Ivy 2.5.0",
+"revision": "2.5.0"
+},
+{
+"created": "2014-12-26",
+"name": "Apache Ivy 2.4.0",
+"revision": "2.4.0"
+},
+{
+"created": "2013-01-24",
+"name": "Apache Ivy 2.3.0",
+"revision": "2.3.0"
+},
+{
+"created": "2010-10-07",
+"name": "Apache Ivy 2.2.0",
+"revision": "2.2.0"
+},
+{
+"created": "2009-10-13",
+"name": "Apache Ivy 2.1.0",
+"revision": "2.1.0"
+},
+{
+"created": "2009-01-22",
+"name": "Apache Ivy 2.0.0",
+"revision": "2.0.0"
+}
+],
+"repository": [
+"https://gitbox.apache.org/repos/asf/ant-ivy.git"
+],
+"shortdesc": "Apache Ivy is a very powerful dependency manager oriented toward Java dependency management, even though it could be used to manage dependencies of any kind."
 },
 "ant-ivyde": {
 "bug-database": "https://issues.apache.org/jira/browse/IVYDE",
@@ -9691,22 +9761,10 @@
 "shortdesc": "Apache DataFu is a collection of libraries for working with large-scale data in Hadoop. The project was inspired by the need for stable, well-tested libraries for data mining and statistics."
 },
 "datafusion": {
-"bug-database": "https://github.com/apache/datafusion/issues",
-"category": "big-data, database, data-engineering, library",
-"created": "2024-04-17",
-"description": "\n        Apache DataFusion is a fast, extensible query engine for building high-quality data-centric systems\n        in Rust, using the Apache Arrow in-memory format. Python Bindings are also available. DataFusion offers SQL\n        and Dataframe APIs, excellent performance, built-in support for CSV, Parquet, JSON, and Avro,\n        extensive customization, and a great community.\n    ",
-"doap": "https://raw.githubusercontent.com/apache/datafusion/main/doap.rdf",
-"download-page": "https://github.com/apache/datafusion/releases",
+"category": "no-tlp-doap",
 "homepage": "https://datafusion.apache.org",
-"license": "https://spdx.org/licenses/Apache-2.0",
-"mailing-list": "https://lists.apache.org/list.html?dev@datafusion.apache.org",
-"name": "Apache DataFusion",
-"pmc": "datafusion",
-"programming-language": "Python, Rust",
-"repository": [
-"https://github.com/apache/datafusion.git"
-],
-"shortdesc": "Apache DataFusion is a fast, extensible query engine for building high-quality data-centric systems in Rust."
+"name": "Apache Datafusion",
+"pmc": "datafusion"
 },
 "datasketches": {
 "bug-database": "https://github.com/apache/datasketches-java/issues, https://github.com/apache/datasketches-cpp/issues, https://github.com/apache/datasketches-python/issues, https://github.com/apache/datasketches-go/issues, https://github.com/apache/datasketches-rust/issues",
@@ -10025,45 +10083,6 @@
 "name": "Apache Devlake",
 "pmc": "devlake"
 },
-"directory-fortress": {
-"bug-database": "https://issues.apache.org/jira/browse/FC",
-"category": "identity-management, library, security, SDK",
-"created": "2015-10-24",
-"description": "Apache Fortress is a standards-based authorization system, written in Java, that provides role-based access control, delegated administration and password policy services using an LDAP backend.",
-"doap": "https://raw.githubusercontent.com/apache/directory-site/master/static/doap_fortress.rdf",
-"download-page": "https://directory.apache.org/fortress/downloads.html",
-"homepage": "https://directory.apache.org/fortress/",
-"license": "http://spdx.org/licenses/Apache-2.0",
-"mailing-list": "https://directory.apache.org/mailing-lists-and-irc.html",
-"name": "Apache Fortress",
-"pmc": "directory",
-"programming-language": "Java",
-"repository": [
-"https://gitbox.apache.org/repos/asf/directory-fortress-core.git",
-"https://gitbox.apache.org/repos/asf/directory-fortress-commander.git",
-"https://gitbox.apache.org/repos/asf/directory-enmasse-core.git",
-"https://gitbox.apache.org/repos/asf/directory-fortress-realm.git"
-],
-"shortdesc": "Authorization SDK"
-},
-"directory-kerby": {
-"bug-database": "https://issues.apache.org/jira/browse/DIRKRB",
-"category": "network-client, network-server",
-"created": "2014-12-31",
-"description": "Apache Kerby, as an Apache Directory sub project, is a Java Kerberos binding. It provides a rich, intuitive and interoperable implementation, library, KDC and various facilities that integrates PKI, OTP and token (OAuth2) as desired in modern environments such as cloud, Hadoop and mobile.",
-"doap": "https://raw.githubusercontent.com/apache/directory-kerby/refs/heads/trunk/build-tools/doap_kerby.rdf",
-"download-page": "https://directory.apache.org/kerby/downloads.html",
-"homepage": "https://directory.apache.org/kerby/",
-"license": "https://spdx.org/licenses/Apache-2.0",
-"mailing-list": "https://directory.apache.org/mailing-lists-and-irc.html",
-"name": "Apache Kerby",
-"pmc": "directory",
-"programming-language": "Java",
-"repository": [
-"https://github.com/apache/directory-kerby"
-],
-"shortdesc": "The Eclipse based LDAP browser and directory client"
-},
 "directory-ldap_api": {
 "bug-database": "https://issues.apache.org/jira/browse/DIRAPI",
 "category": "network-client",
@@ -10209,19 +10228,10 @@
 "shortdesc": "A distributed SQL MPP for Hadoop and NoSQL"
 },
 "druid": {
-"bug-database": "https://github.com/apache/druid/issues",
-"category": "big-data, database",
-"created": "2012-10-23",
-"description": "Apache Druid is a high performance real-time analytics database. Druid's main value add is to reduce time to insight and action.\n\nApache Druid is designed for workflows where fast queries and ingest really matter. Druid excels at powering UIs, running operational (ad-hoc) queries, or handling high concurrency. Consider Druid as an open source alternative to data warehouses for a variety of use cases.",
-"doap": "https://raw.githubusercontent.com/apache/druid/master/doap_Druid.rdf",
-"download-page": "https://druid.apache.org/downloads/",
-"homepage": "https://druid.apache.org/",
-"license": "https://spdx.org/licenses/Apache-2.0",
-"mailing-list": "https://lists.apache.org/list.html?dev@druid.apache.org",
+"category": "no-tlp-doap",
+"homepage": "https://druid.apache.org",
 "name": "Apache Druid",
-"pmc": "druid",
-"programming-language": "Java",
-"shortdesc": "High performance, real-time analytics database for sub-second queries at scale and under load."
+"pmc": "druid"
 },
 "dubbo": {
 "category": "no-tlp-doap",
@@ -11273,185 +11283,10 @@
 "shortdesc": "\n      mod_ftp is an FTP protocol module hosted within Apache HTTP Server.\n    "
 },
 "hudi": {
-"bug-database": "https://issues.apache.org/jira/browse/HUDI",
-"category": "library",
-"created": "2019-12-31",
-"description": "Hudi brings transactions, stream processing, indexes, mutability and incremental processing to data lakes.",
-"doap": "https://gitbox.apache.org/repos/asf?p=hudi.git;a=blob_plain;f=doap_HUDI.rdf;hb=HEAD",
-"download-page": "https://hudi.apache.org/community.html",
+"category": "no-tlp-doap",
 "homepage": "https://hudi.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "https://hudi.apache.org/community.html",
-"maintainer": [
-{
-"mbox": "mailto:dev@hudi.apache.org",
-"name": "Apache Hudi PMC"
-}
-],
 "name": "Apache Hudi",
-"pmc": "hudi",
-"programming-language": "Java, Scala",
-"release": [
-{
-"created": "2019-10-24",
-"name": "Apache Hudi-incubating 0.5.0",
-"revision": "0.5.0"
-},
-{
-"created": "2020-01-31",
-"name": "Apache Hudi-incubating 0.5.1",
-"revision": "0.5.1"
-},
-{
-"created": "2020-03-26",
-"name": "Apache Hudi-incubating 0.5.2",
-"revision": "0.5.2"
-},
-{
-"created": "2020-06-16",
-"name": "Apache Hudi 0.5.3",
-"revision": "0.5.3"
-},
-{
-"created": "2020-08-22",
-"name": "Apache Hudi 0.6.0",
-"revision": "0.6.0"
-},
-{
-"created": "2021-01-25",
-"name": "Apache Hudi 0.7.0",
-"revision": "0.7.0"
-},
-{
-"created": "2021-04-06",
-"name": "Apache Hudi 0.8.0",
-"revision": "0.8.0"
-},
-{
-"created": "2021-08-26",
-"name": "Apache Hudi 0.9.0",
-"revision": "0.9.0"
-},
-{
-"created": "2021-12-08",
-"name": "Apache Hudi 0.10.0",
-"revision": "0.10.0"
-},
-{
-"created": "2022-01-26",
-"name": "Apache Hudi 0.10.1",
-"revision": "0.10.1"
-},
-{
-"created": "2022-04-30",
-"name": "Apache Hudi 0.11.0",
-"revision": "0.11.0"
-},
-{
-"created": "2022-06-18",
-"name": "Apache Hudi 0.11.1",
-"revision": "0.11.1"
-},
-{
-"created": "2022-08-16",
-"name": "Apache Hudi 0.12.0",
-"revision": "0.12.0"
-},
-{
-"created": "2022-10-18",
-"name": "Apache Hudi 0.12.1",
-"revision": "0.12.1"
-},
-{
-"created": "2022-12-28",
-"name": "Apache Hudi 0.12.2",
-"revision": "0.12.2"
-},
-{
-"created": "2023-02-25",
-"name": "Apache Hudi 0.13.0",
-"revision": "0.13.0"
-},
-{
-"created": "2023-04-23",
-"name": "Apache Hudi 0.12.3",
-"revision": "0.12.3"
-},
-{
-"created": "2023-05-25",
-"name": "Apache Hudi 0.13.1",
-"revision": "0.13.1"
-},
-{
-"created": "2023-09-28",
-"name": "Apache Hudi 0.14.0",
-"revision": "0.14.0"
-},
-{
-"created": "2023-11-14",
-"name": "Apache Hudi 1.0.0-beta1",
-"revision": "1.0.0-beta1"
-},
-{
-"created": "2024-01-04",
-"name": "Apache Hudi 0.14.1",
-"revision": "0.14.1"
-},
-{
-"created": "2024-06-04",
-"name": "Apache Hudi 0.15.0",
-"revision": "0.15.0"
-},
-{
-"created": "2024-07-14",
-"name": "Apache Hudi 1.0.0-beta2",
-"revision": "1.0.0-beta2"
-},
-{
-"created": "2024-12-11",
-"name": "Apache Hudi 1.0.0",
-"revision": "1.0.0"
-},
-{
-"created": "2025-02-09",
-"name": "Apache Hudi 1.0.1",
-"revision": "1.0.1"
-},
-{
-"created": "2025-05-02",
-"name": "Apache Hudi 1.0.2",
-"revision": "1.0.2"
-},
-{
-"created": "2025-11-17",
-"name": "Apache Hudi 1.1.0",
-"revision": "1.1.0"
-},
-{
-"created": "2025-12-18",
-"name": "Apache Hudi 1.1.1",
-"revision": "1.1.1"
-},
-{
-"created": "2026-05-19",
-"name": "Apache Hudi 0.15.1",
-"revision": "0.15.1"
-},
-{
-"created": "2026-05-23",
-"name": "Apache Hudi 1.2.0",
-"revision": "1.2.0"
-},
-{
-"created": "2026-06-06",
-"name": "Apache Hudi 0.14.2",
-"revision": "0.14.2"
-}
-],
-"repository": [
-"https://github.com/apache/hudi.git"
-],
-"shortdesc": "high-performance open data lakehouse platform"
+"pmc": "hudi"
 },
 "hugegraph": {
 "category": "no-tlp-doap",
@@ -11657,29 +11492,10 @@
 "shortdesc": "Apache Annotator provides annotation enabling code for browsers, servers, and humans."
 },
 "inlong": {
-"bug-database": "https://github.com/apache/inlong/issues",
-"category": "big-data",
-"created": "2023-09-06",
-"description": "Apache InLong is a one-stop, full-scenario integration framework for massive data that supports Data Ingestion, Data Synchronization, and Data Subscription, and it provides automatic, safe, reliable, and high-performance data transmission capabilities to facilitate the construction of streaming-based data analysis, modeling, and applications.",
-"doap": "https://raw.githubusercontent.com/apache/inlong/master/doap_InLong.rdf",
-"download-page": "https://inlong.apache.org/downloads",
+"category": "no-tlp-doap",
 "homepage": "https://inlong.apache.org",
-"license": "https://spdx.org/licenses/Apache-2.0",
-"mailing-list": "https://lists.apache.org/list.html?dev@inlong.apache.org",
-"maintainer": [
-{
-"mbox": "mailto:dockerzhang@apache.org",
-"name": "Charles Zhang"
-}
-],
-"name": "Apache InLong",
-"pmc": "inlong",
-"programming-language": "Java",
-"repository": [
-"https://dist.apache.org/repos/dist/release/inlong/",
-"https://git@github.com:apache/inlong.git"
-],
-"shortdesc": "Apache InLong - a one-stop, full-scenario integration framework for massive data"
+"name": "Apache Inlong",
+"pmc": "inlong"
 },
 "iotdb": {
 "bug-database": "https://issues.apache.org/jira/projects/IOTDB",
@@ -20531,121 +20347,6 @@
 ],
 "shortdesc": "A cloud computing platform for provisioning and brokering access to dedicated remote compute resources."
 },
-"velocity": {
-"bug-database": "http://issues.apache.org/jira/browse/VELOCITY",
-"category": "library",
-"created": "2006-11-21",
-"description": "Velocity is a Java-based template engine. It permits anyone to use a simple yet powerful template language to reference objects defined in Java code.\n\nWhen Velocity is used for web development, Web designers can work in parallel with Java programmers to develop web sites according to the Model-View-Controller (MVC) model, meaning that web page designers can focus solely on creating a site that looks good, and programmers can focus solely on writing top-notch code. Velocity separates Java code from the web pages, making the web site more maintainable over its lifespan and providing a viable alternative to Java Server Pages (JSPs) or PHP. ",
-"doap": "https://gitbox.apache.org/repos/asf?p=velocity-site.git;a=blob_plain;f=site/doap_engine.rdf;hb=HEAD",
-"download-page": "http://velocity.apache.org/download.cgi",
-"homepage": "http://velocity.apache.org",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://velocity.apache.org/mail-lists.html",
-"name": "Apache Velocity",
-"pmc": "velocity",
-"programming-language": "Java",
-"release": [
-{
-"created": "2024-10-14",
-"name": "Velocity 2.4.1",
-"revision": "2.4.1"
-},
-{
-"created": "2024-09-07",
-"name": "Velocity 2.4",
-"revision": "2.4"
-},
-{
-"created": "2021-02-27",
-"name": "Velocity 2.3",
-"revision": "2.3"
-},
-{
-"created": "2020-02-02",
-"name": "Velocity 2.2",
-"revision": "2.2"
-},
-{
-"created": "2019-03-31",
-"name": "Velocity 2.1",
-"revision": "2.1"
-},
-{
-"created": "2017-08-06",
-"name": "Velocity 2.0",
-"revision": "2.0"
-},
-{
-"created": "2010-11-29",
-"name": "Velocity 1.7",
-"revision": "1.7"
-},
-{
-"created": "2010-05-10",
-"name": "Velocity 1.6.4",
-"revision": "1.6.4"
-},
-{
-"created": "2010-04-16",
-"name": "Velocity 1.7 beta1",
-"revision": "1.7 beta1"
-},
-{
-"created": "2009-12-16",
-"name": "Velocity 1.6.3",
-"revision": "1.6.3"
-},
-{
-"created": "2009-03-18",
-"name": "Velocity 1.6.2",
-"revision": "1.6.2"
-},
-{
-"created": "2008-12-15",
-"name": "Velocity 1.6.1",
-"revision": "1.6.1"
-},
-{
-"created": "2008-12-01",
-"name": "Velocity 1.6",
-"revision": "1.6"
-},
-{
-"created": "2008-10-27",
-"name": "Velocity 1.6 beta2",
-"revision": "1.6 beta2"
-},
-{
-"created": "2008-09-22",
-"name": "Velocity 1.6 beta1",
-"revision": "1.6 beta1"
-},
-{
-"created": "2007-03-06",
-"name": "Latest Stable Release",
-"revision": "1.5"
-},
-{
-"created": "2006-11-24",
-"name": "Velocity 1.5 beta2",
-"revision": "1.5 beta2"
-},
-{
-"created": "2006-09-13",
-"name": "Velocity 1.5 beta1",
-"revision": "1.5 beta1"
-},
-{
-"created": "2004-04-14",
-"name": "Velocity 1.4",
-"revision": "1.4"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/velocity/engine/trunk"
-],
-"shortdesc": "Java-based template engine"
-},
 "velocity-anakia": {
 "bug-database": "http://issues.apache.org/jira/browse/ANAKIA",
 "category": "library",
@@ -20695,31 +20396,6 @@
 "http://svn.apache.org/repos/asf/velocity/dvsl/trunk"
 ],
 "shortdesc": "A tool modeled after XSLT and intended for general XML transformations using the Velocity Template Language."
-},
-"velocity-texen": {
-"bug-database": "http://issues.apache.org/jira/browse/TEXEN",
-"category": "library",
-"created": "2006-11-21",
-"description": "Texen is a general purpose text generating utility. It is capable of producing almost any sort of text output. Driven by Ant, essentially an Ant Task, Texen uses a control template, an optional set of worker templates, and control context to govern the generated output. Although TexenTask can be used directly, it is usually subclassed to initialize your control context before generating any output.",
-"doap": "https://gitbox.apache.org/repos/asf?p=velocity-site.git;a=blob_plain;f=site/doap_texen.rdf;hb=HEAD",
-"download-page": "http://velocity.apache.org/download.cgi",
-"homepage": "http://velocity.apache.org/texen/",
-"license": "http://usefulinc.com/doap/licenses/asl20",
-"mailing-list": "http://velocity.apache.org/mail-lists.html",
-"name": "Apache Texen",
-"pmc": "velocity",
-"programming-language": "Java",
-"release": [
-{
-"created": "2007-04-28",
-"name": "Latest Stable Release",
-"revision": "1.0"
-}
-],
-"repository": [
-"http://svn.apache.org/repos/asf/velocity/texen/trunk"
-],
-"shortdesc": "Texen is a general purpose text generating utility based on Apache Velocity and Apache Ant."
 },
 "velocity-tools": {
 "bug-database": "http://issues.apache.org/jira/browse/VELTOOLS",
