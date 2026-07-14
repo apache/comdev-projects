@@ -105,6 +105,9 @@
 "apache-airflow-client-2.5.0": [
 "airflow/clients/go/2.5.0/apache-airflow-client-2.5.0-source.tar.gz"
 ],
+"apache-airflow-java-sdk-1.0.0-beta1": [
+"airflow/java-sdk/1.0.0-beta1/apache-airflow-java-sdk-1.0.0-beta1-src.tar.gz"
+],
 "apache-airflow-providers-jira-3.1.0": [
 "airflow/providers/obsolete/apache-airflow-providers-jira-3.1.0.tar.gz"
 ],
@@ -1453,11 +1456,11 @@
 "apache-camel-quarkus-3.20.4": [
 "camel/camel-quarkus/3.20.4/apache-camel-quarkus-3.20.4-src.zip"
 ],
-"apache-camel-quarkus-3.27.4": [
-"camel/camel-quarkus/3.27.4/apache-camel-quarkus-3.27.4-src.zip"
+"apache-camel-quarkus-3.27.5": [
+"camel/camel-quarkus/3.27.5/apache-camel-quarkus-3.27.5-src.zip"
 ],
-"apache-camel-quarkus-3.33.1": [
-"camel/camel-quarkus/3.33.1/apache-camel-quarkus-3.33.1-src.zip"
+"apache-camel-quarkus-3.33.2": [
+"camel/camel-quarkus/3.33.2/apache-camel-quarkus-3.33.2-src.zip"
 ],
 "apache-camel-quarkus-3.35.0": [
 "camel/camel-quarkus/3.35.0/apache-camel-quarkus-3.35.0-src.zip"
@@ -2681,6 +2684,9 @@
 "apache-doris-4.1.2-rc01": [
 "doris/4.0/4.1.2/apache-doris-4.1.2-rc01-src.tar.gz"
 ],
+"apache-doris-4.1.3-rc02": [
+"doris/4.0/4.1.3/apache-doris-4.1.3-rc02-src.tar.gz"
+],
 "apache-doris-flink-connector-1.11_2.12-1.0.3-incubating": [
 "doris/flink-connector/1.0.3/apache-doris-flink-connector-1.11_2.12-1.0.3-incubating-src.tar.gz"
 ],
@@ -3356,6 +3362,10 @@
 "org.apache.felix.log-1.3.0": [
 "felix/org.apache.felix.log-1.3.0-source-release.tar.gz",
 "felix/org.apache.felix.log-1.3.0-source-release.zip"
+],
+"org.apache.felix.log-1.3.2": [
+"felix/org.apache.felix.log-1.3.2-source-release.tar.gz",
+"felix/org.apache.felix.log-1.3.2-source-release.zip"
 ],
 "org.apache.felix.log.extension-1.0.0": [
 "felix/org.apache.felix.log.extension-1.0.0-source-release.tar.gz",
@@ -6455,14 +6465,8 @@
 "apache-kylin-4.0.4": [
 "kylin/apache-kylin-4.0.4/apache-kylin-4.0.4-source-release.zip"
 ],
-"apache-kylin-5.0.0": [
-"kylin/apache-kylin-5.0.0/apache-kylin-5.0.0-source-release.zip"
-],
-"apache-kylin-5.0.2": [
-"kylin/apache-kylin-5.0.2/apache-kylin-5.0.2-source-release.zip"
-],
-"apache-kylin-5.0.3": [
-"kylin/apache-kylin-5.0.3/apache-kylin-5.0.3-source-release.zip"
+"apache-kylin-5.0.4": [
+"kylin/apache-kylin-5.0.4/apache-kylin-5.0.4-source-release.zip"
 ]
 },
 "kyuubi": {
@@ -6810,6 +6814,10 @@
 "maven": {
 "apache-39": [
 "maven/pom/apache-39-source-release.zip"
+],
+"apache-maven-3.10.0-rc-1": [
+"maven/maven-3/3.10.0-rc-1/source/apache-maven-3.10.0-rc-1-src.tar.gz",
+"maven/maven-3/3.10.0-rc-1/source/apache-maven-3.10.0-rc-1-src.zip"
 ],
 "apache-maven-3.9.16": [
 "maven/maven-3/3.9.16/source/apache-maven-3.9.16-src.tar.gz",
@@ -7984,6 +7992,10 @@
 "apache-openmeetings-9.0.0": [
 "openmeetings/9.0.0/src/apache-openmeetings-9.0.0-src.tar.gz",
 "openmeetings/9.0.0/src/apache-openmeetings-9.0.0-src.zip"
+],
+"apache-openmeetings-9.1.0": [
+"openmeetings/9.1.0/src/apache-openmeetings-9.1.0-src.tar.gz",
+"openmeetings/9.1.0/src/apache-openmeetings-9.1.0-src.zip"
 ]
 },
 "opennlp": {
@@ -8667,6 +8679,9 @@
 "pulsar-4.6.1": [
 "pulsar/helm-chart/4.6.1/pulsar-4.6.1.tgz"
 ],
+"pulsar-4.7.0": [
+"pulsar/helm-chart/4.7.0/pulsar-4.7.0.tgz"
+],
 "pulsar-chart-4.2.0": [
 "pulsar/helm-chart/4.2.0/pulsar-chart-4.2.0-source.tar.gz"
 ],
@@ -8684,6 +8699,9 @@
 ],
 "pulsar-chart-4.6.1": [
 "pulsar/helm-chart/4.6.1/pulsar-chart-4.6.1-source.tar.gz"
+],
+"pulsar-chart-4.7.0": [
+"pulsar/helm-chart/4.7.0/pulsar-chart-4.7.0-source.tar.gz"
 ],
 "pulsar-client-python-3.10.0": [
 "pulsar/pulsar-client-python-3.10.0/pulsar-client-python-3.10.0.tar.gz"
@@ -9474,6 +9492,9 @@
 "shenyu": {
 "apache-shenyu-2.7.0.3": [
 "shenyu/2.7.0.3/apache-shenyu-2.7.0.3-src.zip"
+],
+"apache-shenyu-2.7.1": [
+"shenyu/2.7.1/apache-shenyu-2.7.1-src.zip"
 ],
 "shenyu-client-dotnet-v1.0.0": [
 "shenyu/shenyu-client-dotnet/v1.0.0/shenyu-client-dotnet-v1.0.0-src.tar.gz"
@@ -10346,8 +10367,8 @@
 "org.apache.sling.resourceresolver-1.12.14": [
 "sling/org.apache.sling.resourceresolver-1.12.14-source-release.zip"
 ],
-"org.apache.sling.resourceresolver-2.0.2": [
-"sling/org.apache.sling.resourceresolver-2.0.2-source-release.zip"
+"org.apache.sling.resourceresolver-2.0.4": [
+"sling/org.apache.sling.resourceresolver-2.0.4-source-release.zip"
 ],
 "org.apache.sling.rewriter-1.4.4": [
 "sling/org.apache.sling.rewriter-1.4.4-source-release.zip"
@@ -10385,8 +10406,8 @@
 "org.apache.sling.scripting.java-2.1.6": [
 "sling/org.apache.sling.scripting.java-2.1.6-source-release.zip"
 ],
-"org.apache.sling.scripting.javascript-3.1.4": [
-"sling/org.apache.sling.scripting.javascript-3.1.4-source-release.zip"
+"org.apache.sling.scripting.javascript-3.1.6": [
+"sling/org.apache.sling.scripting.javascript-3.1.6-source-release.zip"
 ],
 "org.apache.sling.scripting.jsp-2.6.2": [
 "sling/org.apache.sling.scripting.jsp-2.6.2-source-release.zip"
