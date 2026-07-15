@@ -43,7 +43,7 @@
 "apache-airflow-upgrade-check-1.4.0": "2021-06-26",
 "apache_airflow-2.11.2": "2026-03-14",
 "apache_airflow-3.3.0": "2026-07-06",
-"apache_airflow_client-3.2.2": "2026-06-04",
+"apache_airflow_client-3.3.0": "2026-07-14",
 "apache_airflow_core-3.3.0": "2026-07-06",
 "apache_airflow_ctl-0.1.5": "2026-06-03",
 "apache_airflow_mypy-0.1.0": "2026-06-10",
@@ -156,7 +156,7 @@
 "apache_airflow_providers_yandex-4.5.0": "2026-05-11",
 "apache_airflow_providers_ydb-2.5.3": "2026-06-07",
 "apache_airflow_providers_zendesk-4.12.0": "2026-05-23",
-"apache_airflow_python_client-3.2.2": "2026-06-04",
+"apache_airflow_python_client-3.3.0": "2026-07-14",
 "apache_airflow_task_sdk-1.3.0": "2026-07-06"
 },
 "allura": {
@@ -1061,6 +1061,7 @@
 "org.apache.felix.http.base-4.2.14": "2024-01-26",
 "org.apache.felix.http.base-5.1.16": "2025-06-08",
 "org.apache.felix.http.base-5.1.18": "2026-05-22",
+"org.apache.felix.http.base-6.0.0": "2026-07-14",
 "org.apache.felix.http.bridge-6.1.2": "2026-03-15",
 "org.apache.felix.http.bundle-3.0.0": "2015-02-02",
 "org.apache.felix.http.inventoryprinter-1.0.2": "2024-07-10",
@@ -1069,6 +1070,7 @@
 "org.apache.felix.http.jetty-5.1.34": "2025-05-26",
 "org.apache.felix.http.jetty-5.2.0": "2025-08-25",
 "org.apache.felix.http.jetty-5.2.2": "2026-05-22",
+"org.apache.felix.http.jetty-5.2.4": "2026-07-14",
 "org.apache.felix.http.jetty12-1.0.34": "2025-06-06",
 "org.apache.felix.http.jetty12-1.0.36": "2025-07-21",
 "org.apache.felix.http.jetty12-1.1.0": "2025-08-25",
@@ -1078,7 +1080,9 @@
 "org.apache.felix.http.jetty12-1.1.6": "2025-11-27",
 "org.apache.felix.http.jetty12-1.1.8": "2026-02-27",
 "org.apache.felix.http.jetty12-1.2.0": "2026-06-02",
+"org.apache.felix.http.jetty12-1.2.2": "2026-07-14",
 "org.apache.felix.http.jetty12-2.0.0": "2026-06-01",
+"org.apache.felix.http.jetty12-2.0.2": "2026-07-14",
 "org.apache.felix.http.proxy-4.0.0": "2022-12-27",
 "org.apache.felix.http.servlet-api-6.1.0": "2025-04-18",
 "org.apache.felix.http.sslfilter-2.0.2": "2023-08-31",
@@ -1156,7 +1160,7 @@
 "osgicheck-maven-plugin-0.1.0": "2018-09-23"
 },
 "fineract": {
-"apache-fineract-1.14.0": "2025-12-22"
+"apache-fineract-1.15.0": "2026-07-11"
 },
 "flagon": {
 "apache-flagon-useralejs-2.4.0": "2024-04-03",
@@ -1401,16 +1405,14 @@
 "apache-gobblin-sources-0.17.0": "2023-06-14"
 },
 "grails": {
-"apache-grails-7.0.13": "2026-06-29",
-"apache-grails-7.1.3": "2026-06-29",
-"apache-grails-7.2.0": "2026-06-29",
-"apache-grails-8.0.0-M2": "2026-07-01",
+"apache-grails-7.0.14": "2026-07-10",
+"apache-grails-7.1.4": "2026-07-10",
+"apache-grails-7.2.1": "2026-07-10",
+"apache-grails-8.0.0-M3": "2026-07-12",
 "apache-grails-github-actions-1.0.2": "2026-04-29",
 "apache-grails-publish-0.0.5": "2026-04-29",
 "apache-grails-publish-1.0.0-M1": "2026-04-29",
-"apache-grails-quartz-4.0.1": "2026-02-11",
-"apache-grails-redis-5.0.1": "2026-02-11",
-"apache-grails-spring-security-8.0.0-M1": "2026-05-05"
+"apache-grails-quartz-4.0.1": "2026-02-11"
 },
 "gravitino": {
 "gravitino-0.9.1": "2025-07-15",
@@ -1808,7 +1810,11 @@
 },
 "incubator-hamilton": {
 "apache-hamilton-1.89.0-incubating": "2025-10-11",
-"apache-hamilton-1.90.0-incubating": "2026-04-25"
+"apache-hamilton-1.90.0-incubating": "2026-04-25",
+"apache-hamilton-contrib-0.0.9-incubating": "2026-07-14",
+"apache-hamilton-lsp-0.2.0-incubating": "2026-07-14",
+"apache-hamilton-sdk-0.9.0-incubating": "2026-07-14",
+"apache-hamilton-ui-0.0.18-incubating": "2026-07-14"
 },
 "incubator-hertzbeat": {
 "apache-hertzbeat-1.7.1-incubating": "2025-05-15",
@@ -2030,7 +2036,7 @@
 "jackrabbit-oak-1.4.26": "2020-02-17",
 "jackrabbit-oak-1.6.23": "2022-03-11",
 "jackrabbit-oak-1.8.26": "2022-02-01",
-"jackrabbit-oak-2.2.0": "2026-05-27",
+"jackrabbit-oak-2.4.0": "2026-07-10",
 "jackrabbit-ocm-2.0.0": "2012-12-17"
 },
 "james": {
@@ -2659,7 +2665,6 @@
 "openjpa-parent-4.1.1": "2025-05-15"
 },
 "openmeetings": {
-"apache-openmeetings-9.0.0": "2026-04-05",
 "apache-openmeetings-9.1.0": "2026-07-13"
 },
 "opennlp": {

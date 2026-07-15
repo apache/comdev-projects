@@ -124,8 +124,8 @@
 "airflow/3.3.0/apache_airflow-3.3.0-source.tar.gz",
 "airflow/3.3.0/apache_airflow-3.3.0.tar.gz"
 ],
-"apache_airflow_client-3.2.2": [
-"airflow/clients/python/3.2.2/apache_airflow_client-3.2.2.tar.gz"
+"apache_airflow_client-3.3.0": [
+"airflow/clients/python/3.3.0/apache_airflow_client-3.3.0.tar.gz"
 ],
 "apache_airflow_core-3.3.0": [
 "airflow/3.3.0/apache_airflow_core-3.3.0.tar.gz"
@@ -464,8 +464,8 @@
 "apache_airflow_providers_zendesk-4.12.0": [
 "airflow/providers/apache_airflow_providers_zendesk-4.12.0.tar.gz"
 ],
-"apache_airflow_python_client-3.2.2": [
-"airflow/clients/python/3.2.2/apache_airflow_python_client-3.2.2-source.tar.gz"
+"apache_airflow_python_client-3.3.0": [
+"airflow/clients/python/3.3.0/apache_airflow_python_client-3.3.0-source.tar.gz"
 ],
 "apache_airflow_task_sdk-1.3.0": [
 "airflow/task-sdk/1.3.0/apache_airflow_task_sdk-1.3.0.tar.gz"
@@ -3179,6 +3179,10 @@
 "felix/org.apache.felix.http.base-5.1.18-source-release.tar.gz",
 "felix/org.apache.felix.http.base-5.1.18-source-release.zip"
 ],
+"org.apache.felix.http.base-6.0.0": [
+"felix/org.apache.felix.http.base-6.0.0-source-release.tar.gz",
+"felix/org.apache.felix.http.base-6.0.0-source-release.zip"
+],
 "org.apache.felix.http.bridge-6.1.2": [
 "felix/org.apache.felix.http.bridge-6.1.2-source-release.tar.gz",
 "felix/org.apache.felix.http.bridge-6.1.2-source-release.zip"
@@ -3210,6 +3214,10 @@
 "org.apache.felix.http.jetty-5.2.2": [
 "felix/org.apache.felix.http.jetty-5.2.2-source-release.tar.gz",
 "felix/org.apache.felix.http.jetty-5.2.2-source-release.zip"
+],
+"org.apache.felix.http.jetty-5.2.4": [
+"felix/org.apache.felix.http.jetty-5.2.4-source-release.tar.gz",
+"felix/org.apache.felix.http.jetty-5.2.4-source-release.zip"
 ],
 "org.apache.felix.http.jetty12-1.0.34": [
 "felix/org.apache.felix.http.jetty12-1.0.34-source-release.tar.gz",
@@ -3247,9 +3255,17 @@
 "felix/org.apache.felix.http.jetty12-1.2.0-source-release.tar.gz",
 "felix/org.apache.felix.http.jetty12-1.2.0-source-release.zip"
 ],
+"org.apache.felix.http.jetty12-1.2.2": [
+"felix/org.apache.felix.http.jetty12-1.2.2-source-release.tar.gz",
+"felix/org.apache.felix.http.jetty12-1.2.2-source-release.zip"
+],
 "org.apache.felix.http.jetty12-2.0.0": [
 "felix/org.apache.felix.http.jetty12-2.0.0-source-release.tar.gz",
 "felix/org.apache.felix.http.jetty12-2.0.0-source-release.zip"
+],
+"org.apache.felix.http.jetty12-2.0.2": [
+"felix/org.apache.felix.http.jetty12-2.0.2-source-release.tar.gz",
+"felix/org.apache.felix.http.jetty12-2.0.2-source-release.zip"
 ],
 "org.apache.felix.http.proxy-4.0.0": [
 "felix/org.apache.felix.http.proxy-4.0.0-source-release.tar.gz",
@@ -3551,8 +3567,8 @@
 ]
 },
 "fineract": {
-"apache-fineract-1.14.0": [
-"fineract/1.14.0/apache-fineract-src-1.14.0.tar.gz"
+"apache-fineract-1.15.0": [
+"fineract/1.15.0/apache-fineract-src-1.15.0.tar.gz"
 ]
 },
 "flagon": {
@@ -4255,17 +4271,17 @@
 ]
 },
 "grails": {
-"apache-grails-7.0.13": [
-"grails/core/7.0.13/sources/apache-grails-7.0.13-src.zip"
+"apache-grails-7.0.14": [
+"grails/core/7.0.14/sources/apache-grails-7.0.14-src.zip"
 ],
-"apache-grails-7.1.3": [
-"grails/core/7.1.3/sources/apache-grails-7.1.3-src.zip"
+"apache-grails-7.1.4": [
+"grails/core/7.1.4/sources/apache-grails-7.1.4-src.zip"
 ],
-"apache-grails-7.2.0": [
-"grails/core/7.2.0/sources/apache-grails-7.2.0-src.zip"
+"apache-grails-7.2.1": [
+"grails/core/7.2.1/sources/apache-grails-7.2.1-src.zip"
 ],
-"apache-grails-8.0.0-M2": [
-"grails/core/8.0.0-M2/sources/apache-grails-8.0.0-M2-src.zip"
+"apache-grails-8.0.0-M3": [
+"grails/core/8.0.0-M3/sources/apache-grails-8.0.0-M3-src.zip"
 ],
 "apache-grails-github-actions-1.0.2": [
 "grails/actions/1.0.2/sources/apache-grails-github-actions-1.0.2-src.zip"
@@ -4278,12 +4294,6 @@
 ],
 "apache-grails-quartz-4.0.1": [
 "grails/quartz/4.0.1/sources/apache-grails-quartz-4.0.1-src.zip"
-],
-"apache-grails-redis-5.0.1": [
-"grails/redis/5.0.1/sources/apache-grails-redis-5.0.1-src.zip"
-],
-"apache-grails-spring-security-8.0.0-M1": [
-"grails/spring-security/8.0.0-M1/sources/apache-grails-spring-security-8.0.0-M1-src.zip"
 ]
 },
 "gravitino": {
@@ -5441,6 +5451,18 @@
 ],
 "apache-hamilton-1.90.0-incubating": [
 "incubator/hamilton/apache-hamilton/1.90.0/apache-hamilton-1.90.0-incubating-src.tar.gz"
+],
+"apache-hamilton-contrib-0.0.9-incubating": [
+"incubator/hamilton/apache-hamilton-contrib/0.0.9/apache-hamilton-contrib-0.0.9-incubating-src.tar.gz"
+],
+"apache-hamilton-lsp-0.2.0-incubating": [
+"incubator/hamilton/apache-hamilton-lsp/0.2.0/apache-hamilton-lsp-0.2.0-incubating-src.tar.gz"
+],
+"apache-hamilton-sdk-0.9.0-incubating": [
+"incubator/hamilton/apache-hamilton-sdk/0.9.0/apache-hamilton-sdk-0.9.0-incubating-src.tar.gz"
+],
+"apache-hamilton-ui-0.0.18-incubating": [
+"incubator/hamilton/apache-hamilton-ui/0.0.18/apache-hamilton-ui-0.0.18-incubating-src.tar.gz"
 ]
 },
 "incubator-hertzbeat": {
@@ -6025,8 +6047,8 @@
 "jackrabbit-oak-1.8.26": [
 "jackrabbit/oak/1.8.26/jackrabbit-oak-1.8.26-src.zip"
 ],
-"jackrabbit-oak-2.2.0": [
-"jackrabbit/oak/2.2.0/jackrabbit-oak-2.2.0-src.zip"
+"jackrabbit-oak-2.4.0": [
+"jackrabbit/oak/2.4.0/jackrabbit-oak-2.4.0-src.zip"
 ],
 "jackrabbit-ocm-2.0.0": [
 "jackrabbit/ocm/2.0.0/jackrabbit-ocm-2.0.0-source-release.zip"
@@ -7989,10 +8011,6 @@
 ]
 },
 "openmeetings": {
-"apache-openmeetings-9.0.0": [
-"openmeetings/9.0.0/src/apache-openmeetings-9.0.0-src.tar.gz",
-"openmeetings/9.0.0/src/apache-openmeetings-9.0.0-src.zip"
-],
 "apache-openmeetings-9.1.0": [
 "openmeetings/9.1.0/src/apache-openmeetings-9.1.0-src.tar.gz",
 "openmeetings/9.1.0/src/apache-openmeetings-9.1.0-src.zip"
