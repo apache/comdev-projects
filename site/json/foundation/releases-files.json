@@ -587,6 +587,10 @@
 "apache-ivy-2.5.3": [
 "ant/ivy/2.5.3/apache-ivy-2.5.3-src.tar.gz",
 "ant/ivy/2.5.3/apache-ivy-2.5.3-src.zip"
+],
+"apache-ivy-2.6.0": [
+"ant/ivy/2.6.0/apache-ivy-2.6.0-src.tar.gz",
+"ant/ivy/2.6.0/apache-ivy-2.6.0-src.zip"
 ]
 },
 "apisix": {
@@ -892,8 +896,8 @@
 "apache-arrow-nanoarrow-0.8.0": [
 "arrow/apache-arrow-nanoarrow-0.8.0/apache-arrow-nanoarrow-0.8.0.tar.gz"
 ],
-"apache-arrow-object-store-rs-0.14.0": [
-"arrow/arrow-object-store-rs-0.14.0/apache-arrow-object-store-rs-0.14.0.tar.gz"
+"apache-arrow-object-store-rs-0.14.1": [
+"arrow/arrow-object-store-rs-0.14.1/apache-arrow-object-store-rs-0.14.1.tar.gz"
 ],
 "apache-arrow-rs-59.1.0": [
 "arrow/arrow-rs-59.1.0/apache-arrow-rs-59.1.0.tar.gz"
@@ -2441,8 +2445,8 @@
 "apache-datafusion-54.0.0": [
 "datafusion/datafusion-54.0.0/apache-datafusion-54.0.0.tar.gz"
 ],
-"apache-datafusion-ballista-53.0.0": [
-"datafusion/datafusion-ballista-53.0.0/apache-datafusion-ballista-53.0.0.tar.gz"
+"apache-datafusion-ballista-54.0.0": [
+"datafusion/datafusion-ballista-54.0.0/apache-datafusion-ballista-54.0.0.tar.gz"
 ],
 "apache-datafusion-comet-0.17.0": [
 "datafusion/datafusion-comet-0.17.0/apache-datafusion-comet-0.17.0.tar.gz"
@@ -2676,16 +2680,16 @@
 "doris/4.0/4.0.7/apache-doris-4.0.7-src.tar.gz"
 ],
 "apache-doris-4.1.0-rc03": [
-"doris/4.0/4.1.0/apache-doris-4.1.0-rc03-src.tar.gz"
+"doris/4.1/4.1.0/apache-doris-4.1.0-rc03-src.tar.gz"
 ],
 "apache-doris-4.1.1-rc01": [
-"doris/4.0/4.1.1/apache-doris-4.1.1-rc01-src.tar.gz"
+"doris/4.1/4.1.1/apache-doris-4.1.1-rc01-src.tar.gz"
 ],
 "apache-doris-4.1.2-rc01": [
-"doris/4.0/4.1.2/apache-doris-4.1.2-rc01-src.tar.gz"
+"doris/4.1/4.1.2/apache-doris-4.1.2-rc01-src.tar.gz"
 ],
 "apache-doris-4.1.3-rc02": [
-"doris/4.0/4.1.3/apache-doris-4.1.3-rc02-src.tar.gz"
+"doris/4.1/4.1.3/apache-doris-4.1.3-rc02-src.tar.gz"
 ],
 "apache-doris-flink-connector-1.11_2.12-1.0.3-incubating": [
 "doris/flink-connector/1.0.3/apache-doris-flink-connector-1.11_2.12-1.0.3-incubating-src.tar.gz"
@@ -4529,6 +4533,9 @@
 ],
 "hbase-3.0.0-beta-1": [
 "hbase/3.0.0-beta-1/hbase-3.0.0-beta-1-src.tar.gz"
+],
+"hbase-3.0.0-beta-2": [
+"hbase/3.0.0-beta-2/hbase-3.0.0-beta-2-src.tar.gz"
 ],
 "hbase-connectors-1.0.1": [
 "hbase/hbase-connectors-1.0.1/hbase-connectors-1.0.1-src.tar.gz"
@@ -8233,6 +8240,10 @@
 "ozone-2.1.1": [
 "ozone/2.1.1/ozone-2.1.1-src.tar.gz",
 "ozone/2.1.1/ozone-2.1.1.tar.gz"
+],
+"ozone-2.2.0": [
+"ozone/2.2.0/ozone-2.2.0-src.tar.gz",
+"ozone/2.2.0/ozone-2.2.0.tar.gz"
 ]
 },
 "paimon": {
@@ -8384,8 +8395,8 @@
 "pdfbox-1.8.17": [
 "pdfbox/1.8.17/pdfbox-1.8.17-src.zip"
 ],
-"pdfbox-2.0.36": [
-"pdfbox/2.0.36/pdfbox-2.0.36-src.zip"
+"pdfbox-2.0.37": [
+"pdfbox/2.0.37/pdfbox-2.0.37-src.zip"
 ],
 "pdfbox-3.0.8": [
 "pdfbox/3.0.8/pdfbox-3.0.8-src.zip"
@@ -10756,8 +10767,17 @@
 "SparkR_4.0.3": [
 "spark/spark-4.0.3/SparkR_4.0.3.tar.gz"
 ],
+"SparkR_4.0.4": [
+"spark/spark-4.0.4/SparkR_4.0.4.tar.gz"
+],
 "SparkR_4.1.2": [
 "spark/spark-4.1.2/SparkR_4.1.2.tar.gz"
+],
+"SparkR_4.1.3": [
+"spark/spark-4.1.3/SparkR_4.1.3.tar.gz"
+],
+"SparkR_4.2.0": [
+"spark/spark-4.2.0/SparkR_4.2.0.tar.gz"
 ],
 "SparkR_4.2.0-preview4": [
 "spark/spark-4.2.0-preview4/SparkR_4.2.0-preview4.tar.gz"
@@ -10771,8 +10791,17 @@
 "pyspark-4.0.3": [
 "spark/spark-4.0.3/pyspark-4.0.3.tar.gz"
 ],
+"pyspark-4.0.4": [
+"spark/spark-4.0.4/pyspark-4.0.4.tar.gz"
+],
 "pyspark-4.1.2": [
 "spark/spark-4.1.2/pyspark-4.1.2.tar.gz"
+],
+"pyspark-4.1.3": [
+"spark/spark-4.1.3/pyspark-4.1.3.tar.gz"
+],
+"pyspark-4.2.0": [
+"spark/spark-4.2.0/pyspark-4.2.0.tar.gz"
 ],
 "pyspark-4.2.0.dev4": [
 "spark/spark-4.2.0-preview4/pyspark-4.2.0.dev4.tar.gz"
@@ -10783,8 +10812,17 @@
 "pyspark_client-4.0.3": [
 "spark/spark-4.0.3/pyspark_client-4.0.3.tar.gz"
 ],
+"pyspark_client-4.0.4": [
+"spark/spark-4.0.4/pyspark_client-4.0.4.tar.gz"
+],
 "pyspark_client-4.1.2": [
 "spark/spark-4.1.2/pyspark_client-4.1.2.tar.gz"
+],
+"pyspark_client-4.1.3": [
+"spark/spark-4.1.3/pyspark_client-4.1.3.tar.gz"
+],
+"pyspark_client-4.2.0": [
+"spark/spark-4.2.0/pyspark_client-4.2.0.tar.gz"
 ],
 "pyspark_client-4.2.0.dev4": [
 "spark/spark-4.2.0-preview4/pyspark_client-4.2.0.dev4.tar.gz"
@@ -10795,8 +10833,17 @@
 "pyspark_connect-4.0.3": [
 "spark/spark-4.0.3/pyspark_connect-4.0.3.tar.gz"
 ],
+"pyspark_connect-4.0.4": [
+"spark/spark-4.0.4/pyspark_connect-4.0.4.tar.gz"
+],
 "pyspark_connect-4.1.2": [
 "spark/spark-4.1.2/pyspark_connect-4.1.2.tar.gz"
+],
+"pyspark_connect-4.1.3": [
+"spark/spark-4.1.3/pyspark_connect-4.1.3.tar.gz"
+],
+"pyspark_connect-4.2.0": [
+"spark/spark-4.2.0/pyspark_connect-4.2.0.tar.gz"
 ],
 "pyspark_connect-4.2.0.dev4": [
 "spark/spark-4.2.0-preview4/pyspark_connect-4.2.0.dev4.tar.gz"
@@ -10810,8 +10857,17 @@
 "spark-4.0.3": [
 "spark/spark-4.0.3/spark-4.0.3.tgz"
 ],
+"spark-4.0.4": [
+"spark/spark-4.0.4/spark-4.0.4.tgz"
+],
 "spark-4.1.2": [
 "spark/spark-4.1.2/spark-4.1.2.tgz"
+],
+"spark-4.1.3": [
+"spark/spark-4.1.3/spark-4.1.3.tgz"
+],
+"spark-4.2.0": [
+"spark/spark-4.2.0/spark-4.2.0.tgz"
 ],
 "spark-4.2.0-preview4": [
 "spark/spark-4.2.0-preview4/spark-4.2.0-preview4.tgz"
@@ -11385,6 +11441,9 @@
 ],
 "trafficserver-10.1.2": [
 "trafficserver/trafficserver-10.1.2.tar.bz2"
+],
+"trafficserver-10.1.3": [
+"trafficserver/trafficserver-10.1.3.tar.bz2"
 ],
 "trafficserver-7.1.12": [
 "trafficserver/trafficserver-7.1.12.tar.bz2"
