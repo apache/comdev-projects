@@ -469,10 +469,20 @@
 "shortdesc": "Workflow automation platform"
 },
 "allura": {
-"category": "no-tlp-doap",
-"homepage": "https://allura.apache.org",
+"bug-database": "https://forge-allura.apache.org/p/allura/tickets/",
+"category": "content",
+"created": "2014-06-13",
+"description": "Apache Allura is an open source implementation of a software \"forge\", a web site that manages source code repositories, bug reports, discussions, wiki pages, blogs and more for any number of individual projects.",
+"doap": "https://svn.apache.org/repos/asf/allura/doap_Allura.rdf",
+"download-page": "http://allura.apache.org/",
+"homepage": "http://allura.apache.org",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "http://mail-archives.apache.org/mod_mbox/allura-dev/",
 "name": "Apache Allura",
-"pmc": "allura"
+"pmc": "allura",
+"programming-language": "Python",
+"sameAs": "https://forge-allura.apache.org/rest/p/allura?doap#",
+"shortdesc": "Forge software for hosting software projects"
 },
 "ambari": {
 "bug-database": "https://issues.apache.org/jira/browse/AMBARI",
