@@ -3663,6 +3663,22 @@
 ],
 "shortdesc": "Regular Expression engine supporting various dialects"
 },
+"attic-petri": {
+"bug-database": "https://github.com/apache/petri/issues/",
+"category": "retired, education",
+"created": "2019-11-20",
+"description": "Apache Petri deals with the assessment of, education in, and adoption of the Foundation's policies and procedures for collaborative development and the pros and cons of joining the Foundation.",
+"doap": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/petri.rdf",
+"homepage": "http://petri.apache.org",
+"license": "http://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://lists.apache.org/list.html?discuss@petri.apache.org",
+"name": "Apache Petri",
+"pmc": "attic",
+"repository": [
+"https://github.com/apache/petri/"
+],
+"shortdesc": "Apache Petri deals with the assessment of, education in, and adoption of the Foundation's policies and procedures for collaborative development and the pros and cons of joining the Foundation."
+},
 "attic-pivot": {
 "bug-database": "http://issues.apache.org/jira/browse/PIVOT",
 "category": "retired, library",
@@ -16942,22 +16958,6 @@
 ],
 "shortdesc": "\n    The Perl interface to the Apache API\n    "
 },
-"petri": {
-"bug-database": "https://github.com/apache/petri/issues/",
-"category": "education, retired",
-"created": "2019-11-20",
-"description": "Apache Petri deals with the assessment of, education in, and adoption of the Foundation's policies and procedures for collaborative development and the pros and cons of joining the Foundation.",
-"doap": "http://petri.apache.org/petri.rdf",
-"homepage": "http://petri.apache.org",
-"license": "http://spdx.org/licenses/Apache-2.0",
-"mailing-list": "https://lists.apache.org/list.html?discuss@petri.apache.org",
-"name": "Apache Petri",
-"pmc": "attic",
-"repository": [
-"https://github.com/apache/petri/"
-],
-"shortdesc": "Apache Petri deals with the assessment of, education in, and adoption of the Foundation's policies and procedures for collaborative development and the pros and cons of joining the Foundation."
-},
 "phoenix": {
 "bug-database": "http://issues.apache.org/jira/browse/PHOENIX",
 "category": "big-data, database",
@@ -20574,8 +20574,8 @@
 "release": [
 {
 "created": "2025-11-10",
-"name": "3.0.0",
-"revision": "3.0.0"
+"name": "3.0.1",
+"revision": "3.0.1"
 }
 ],
 "repository": [
