@@ -550,6 +550,9 @@
 ],
 "apache-answer-2.0.1": [
 "answer/2.0.1/apache-answer-2.0.1-src.tar.gz"
+],
+"apache-answer-2.0.2": [
+"answer/2.0.2/apache-answer-2.0.2-src.tar.gz"
 ]
 },
 "ant": {
@@ -877,14 +880,14 @@
 "apache-arrow-flight-sql-postgresql-0.1.0": [
 "arrow/apache-arrow-flight-sql-postgresql-0.1.0/apache-arrow-flight-sql-postgresql-0.1.0.tar.gz"
 ],
-"apache-arrow-go-18.6.0": [
-"arrow/apache-arrow-go-18.6.0/apache-arrow-go-18.6.0.tar.gz"
+"apache-arrow-go-18.7.0": [
+"arrow/apache-arrow-go-18.7.0/apache-arrow-go-18.7.0.tar.gz"
 ],
 "apache-arrow-java-19.0.0": [
 "arrow/apache-arrow-java-19.0.0/apache-arrow-java-19.0.0.tar.gz"
 ],
-"apache-arrow-js-21.1.0": [
-"arrow/apache-arrow-js-21.1.0/apache-arrow-js-21.1.0.tar.gz"
+"apache-arrow-js-21.2.0": [
+"arrow/apache-arrow-js-21.2.0/apache-arrow-js-21.2.0.tar.gz"
 ],
 "apache-arrow-julia-2.8.1": [
 "arrow/arrow-julia-2.8.1/apache-arrow-julia-2.8.1.tar.gz"
@@ -2093,9 +2096,9 @@
 "commons/numbers/source/commons-numbers-1.3-src.tar.gz",
 "commons/numbers/source/commons-numbers-1.3-src.zip"
 ],
-"commons-parent-102": [
-"commons/parent/source/commons-parent-102-src.tar.gz",
-"commons/parent/source/commons-parent-102-src.zip"
+"commons-parent-103": [
+"commons/parent/source/commons-parent-103-src.tar.gz",
+"commons/parent/source/commons-parent-103-src.zip"
 ],
 "commons-pool2-2.13.1": [
 "commons/pool/source/commons-pool2-2.13.1-src.tar.gz",
@@ -2444,8 +2447,8 @@
 "apache-datafusion-53.1.0": [
 "datafusion/datafusion-53.1.0/apache-datafusion-53.1.0.tar.gz"
 ],
-"apache-datafusion-54.0.0": [
-"datafusion/datafusion-54.0.0/apache-datafusion-54.0.0.tar.gz"
+"apache-datafusion-54.1.0": [
+"datafusion/datafusion-54.1.0/apache-datafusion-54.1.0.tar.gz"
 ],
 "apache-datafusion-ballista-54.0.0": [
 "datafusion/datafusion-ballista-54.0.0/apache-datafusion-ballista-54.0.0.tar.gz"
@@ -2837,6 +2840,9 @@
 "apache-doris-operator-25.8.0": [
 "doris/doris-operator/25.8.0/apache-doris-operator-25.8.0-src.tar.gz"
 ],
+"apache-doris-operator-26.0.0": [
+"doris/doris-operator/26.0.0/apache-doris-operator-26.0.0-src.tar.gz"
+],
 "apache-doris-sdk-1.0.0": [
 "doris/doris-sdk/1.0.0/apache-doris-sdk-1.0.0-src.tar.gz"
 ],
@@ -3035,9 +3041,9 @@
 ]
 },
 "empire-db": {
-"apache-empire-db-3.4.0": [
-"empire-db/3.4.0/apache-empire-db-3.4.0-dist.tar.gz",
-"empire-db/3.4.0/apache-empire-db-3.4.0-dist.zip"
+"apache-empire-db-3.5.0": [
+"empire-db/3.5.0/apache-empire-db-3.5.0-dist.tar.gz",
+"empire-db/3.5.0/apache-empire-db-3.5.0-dist.zip"
 ]
 },
 "eventmesh": {
@@ -5143,6 +5149,9 @@
 "apache-iceberg-go-0.6.0": [
 "iceberg/apache-iceberg-go-0.6.0/apache-iceberg-go-0.6.0.tar.gz"
 ],
+"apache-iceberg-rust-0.10.0": [
+"iceberg/apache-iceberg-rust-0.10.0/apache-iceberg-rust-0.10.0.tar.gz"
+],
 "apache-iceberg-rust-0.3.0": [
 "iceberg/iceberg-rust-0.3.0/apache-iceberg-rust-0.3.0-src.tar.gz"
 ],
@@ -7148,8 +7157,8 @@
 "maven-resolver-2.0.20": [
 "maven/resolver/maven-resolver-2.0.20-source-release.zip"
 ],
-"maven-resolver-ant-tasks-1.6.0": [
-"maven/resolver/maven-resolver-ant-tasks-1.6.0-source-release.zip"
+"maven-resolver-ant-tasks-1.6.1": [
+"maven/resolver/maven-resolver-ant-tasks-1.6.1-source-release.zip"
 ],
 "maven-resources-plugin-3.5.0": [
 "maven/plugins/maven-resources-plugin-3.5.0-source-release.zip"
@@ -7636,14 +7645,29 @@
 "apache-mynewt-blinky-1.14.0": [
 "mynewt/apache-mynewt-1.14.0/apache-mynewt-blinky-1.14.0.tgz"
 ],
+"apache-mynewt-blinky-1.15.0": [
+"mynewt/apache-mynewt-1.15.0/apache-mynewt-blinky-1.15.0.tgz"
+],
 "apache-mynewt-core-1.14.0": [
 "mynewt/apache-mynewt-1.14.0/apache-mynewt-core-1.14.0.tgz"
+],
+"apache-mynewt-core-1.15.0": [
+"mynewt/apache-mynewt-1.15.0/apache-mynewt-core-1.15.0.tgz"
 ],
 "apache-mynewt-newt-1.14.0": [
 "mynewt/apache-mynewt-1.14.0/apache-mynewt-newt-1.14.0.tgz"
 ],
+"apache-mynewt-newt-1.15.0": [
+"mynewt/apache-mynewt-1.15.0/apache-mynewt-newt-1.15.0.tgz"
+],
 "apache-mynewt-newtmgr-1.14.0": [
 "mynewt/apache-mynewt-1.14.0/apache-mynewt-newtmgr-1.14.0.tgz"
+],
+"apache-mynewt-newtmgr-1.15.0": [
+"mynewt/apache-mynewt-1.15.0/apache-mynewt-newtmgr-1.15.0.tgz"
+],
+"apache-mynewt-nimble-1.10.0": [
+"mynewt/apache-nimble-1.10.0/apache-mynewt-nimble-1.10.0.tgz"
 ],
 "apache-mynewt-nimble-1.9.0": [
 "mynewt/apache-nimble-1.9.0/apache-mynewt-nimble-1.9.0.tgz"
@@ -11287,8 +11311,8 @@
 ]
 },
 "tika": {
-"tika-3.3.1": [
-"tika/3.3.1/tika-3.3.1-src.zip"
+"tika-3.3.2": [
+"tika/3.3.2/tika-3.3.2-src.zip"
 ],
 "tika-4.0.0-beta-1": [
 "tika/4.0.0-beta-1/tika-4.0.0-beta-1-src.zip"
