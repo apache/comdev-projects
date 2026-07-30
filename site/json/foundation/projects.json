@@ -17487,11 +17487,30 @@
 ],
 "shortdesc": "Apache Polaris is an open-source, fully-featured catalog for lakehouse."
 },
-"ponymail": {
-"category": "no-tlp-doap",
+"ponymail-pony_mail": {
+"bug-database": "https://github.com/apache/incubator-ponymail-foal/issues",
+"category": "mail, content",
+"created": "2016-05-27",
+"description": "Apache Pony Mail is a web-based mail archive browser and interaction platform for mailing lists. It provides full-text search, threading, and real-time interaction with archived mailing lists, and is the engine behind lists.apache.org.",
+"doap": "https://ponymail.apache.org/doap_PonyMail.rdf",
+"download-page": "https://ponymail.apache.org/downloads.html",
 "homepage": "https://ponymail.apache.org",
-"name": "Apache Ponymail",
-"pmc": "ponymail"
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://lists.apache.org/list.html?dev@ponymail.apache.org",
+"maintainer": [
+{
+"mbox": "mailto:dev@ponymail.apache.org",
+"name": "Apache Pony Mail PMC"
+}
+],
+"name": "Apache Pony Mail",
+"pmc": "ponymail",
+"programming-language": "Python, JavaScript, Lua",
+"repository": [
+"https://github.com/apache/incubator-ponymail-foal.git",
+"https://github.com/apache/incubator-ponymail.git"
+],
+"shortdesc": "Mail archiving, archive viewing, and mailing list interaction services."
 },
 "pulsar": {
 "bug-database": "https://github.com/apache/pulsar/issues",
@@ -22228,6 +22247,11 @@
 "pmc": "yunikorn",
 "programming-language": "Go, JavaScript",
 "release": [
+{
+"created": "2026-07-29",
+"name": "YuniKorn 1.9.0",
+"revision": "1.9.0"
+},
 {
 "created": "2026-02-03",
 "name": "YuniKorn 1.8.0",
