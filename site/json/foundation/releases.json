@@ -306,7 +306,7 @@
 "apache-arrow-java-19.0.0": "2026-03-16",
 "apache-arrow-js-21.2.0": "2026-07-21",
 "apache-arrow-julia-2.8.1": "2026-01-13",
-"apache-arrow-nanoarrow-0.8.0": "2026-02-05",
+"apache-arrow-nanoarrow-0.9.0": "2026-08-01",
 "apache-arrow-object-store-rs-0.14.1": "2026-07-15",
 "apache-arrow-rs-58.4.0": "2026-07-22",
 "apache-arrow-rs-59.1.0": "2026-07-07",
@@ -416,8 +416,6 @@
 "bookkeeper-4.14.8": "2023-08-17",
 "bookkeeper-4.15.5": "2023-12-12",
 "bookkeeper-4.16.7": "2025-06-24",
-"bookkeeper-4.17.2": "2025-06-26",
-"bookkeeper-4.17.3": "2026-01-13",
 "bookkeeper-4.17.4": "2026-07-09",
 "bookkeeper-4.18.0": "2026-06-02",
 "distributedlog-0.5.0": "2017-09-12"
@@ -1481,13 +1479,13 @@
 "apache-groovy-3.0.25": "2025-05-27",
 "apache-groovy-4.0.33": "2026-08-01",
 "apache-groovy-5.0.8": "2026-08-01",
-"apache-groovy-6.0.0-alpha-2": "2026-07-04",
+"apache-groovy-6.0.0-beta-1": "2026-08-04",
 "apache-groovy-geb-8.0.1": "2025-11-14",
 "apache-groovy-sdk-2.5.23": "2023-08-22",
 "apache-groovy-sdk-3.0.25": "2025-05-27",
 "apache-groovy-sdk-4.0.33": "2026-08-01",
 "apache-groovy-sdk-5.0.8": "2026-08-01",
-"apache-groovy-sdk-6.0.0-alpha-2": "2026-07-04"
+"apache-groovy-sdk-6.0.0-beta-1": "2026-08-04"
 },
 "guacamole": {
 "guacamole-client-1.5.3": "2023-07-26",
@@ -2003,9 +2001,6 @@
 "incubator-polaris": {
 "apache-polaris-1.3.0-incubating": "2026-01-09",
 "polaris-1.3.0-incubating": "2026-01-09"
-},
-"incubator-ponymail": {
-"apache-pony-mail-0.11-incubating": "2019-03-25"
 },
 "incubator-resilientdb": {
 "apache-resilientdb-1.11.0-incubating": "2025-10-06",
@@ -2708,7 +2703,8 @@
 "apache-opendal-reqsign-0.20.0": "2026-03-19",
 "apache-opendal-reqsign-0.20.1": "2026-05-22",
 "apache-opendal-reqsign-0.20.2": "2026-07-06",
-"apache-opendal-reqsign-0.20.3": "2026-07-23"
+"apache-opendal-reqsign-0.20.3": "2026-07-23",
+"apache-opendal-reqsign-0.20.4": "2026-07-28"
 },
 "openjpa": {
 "apache-openjpa-2.2.2": "2014-12-16",
@@ -2931,6 +2927,9 @@
 "apache-polaris-iceberg-catalog-migrator-1.0.0": "2026-03-16",
 "polaris-1.7.0": "2026-07-30"
 },
+"ponymail": {
+"apache-pony-mail-0.11-incubating": "2019-03-25"
+},
 "pulsar": {
 "APKINDEX": "2025-06-24",
 "apache-pulsar-3.0.17": "2026-04-23",
@@ -2982,15 +2981,17 @@
 "pulsar-dotpulsar-3.3.1": "2024-06-20"
 },
 "qpid": {
-"apache-qpid-broker-j-10.0.1": "2025-12-10",
+"apache-qpid-broker-j-10.1.0": "2026-07-31",
 "apache-qpid-jms-1.16.0": "2026-01-20",
 "apache-qpid-jms-2.10.0": "2026-01-20",
-"apache-qpid-proton-j-0.34.1": "2023-03-02",
+"apache-qpid-proton-j-0.35.0": "2026-07-31",
 "apache-qpid-protonj2-1.0.0": "2025-08-25",
 "apache-qpid-protonj2-1.1.0": "2026-01-12",
+"apache-qpid-protonj2-1.2.0": "2026-07-31",
 "qpid-interop-test-0.3.0": "2021-11-05",
 "qpid-proton-0.40.0": "2024-11-20",
-"qpid-proton-dotnet-1.0.0": "2026-01-16"
+"qpid-proton-dotnet-1.0.0": "2026-01-16",
+"qpid-proton-dotnet-1.1.0": "2026-07-31"
 },
 "ranger": {
 "apache-ranger-0.6.3": "2017-01-31",
@@ -3545,7 +3546,7 @@
 "org.apache.sling.resourcebuilder-1.0.4": "2018-08-21",
 "org.apache.sling.resourcecollection-1.0.4": "2023-03-14",
 "org.apache.sling.resourcemerger-1.4.4": "2023-07-31",
-"org.apache.sling.resourceresolver-1.12.14": "2026-06-11",
+"org.apache.sling.resourceresolver-1.12.16": "2026-08-04",
 "org.apache.sling.resourceresolver-2.0.4": "2026-07-13",
 "org.apache.sling.rewriter-1.4.4": "2024-05-03",
 "org.apache.sling.sample.slingshot-0.9.0": "2018-09-17",

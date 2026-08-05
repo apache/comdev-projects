@@ -904,8 +904,8 @@
 "apache-arrow-julia-2.8.1": [
 "arrow/arrow-julia-2.8.1/apache-arrow-julia-2.8.1.tar.gz"
 ],
-"apache-arrow-nanoarrow-0.8.0": [
-"arrow/apache-arrow-nanoarrow-0.8.0/apache-arrow-nanoarrow-0.8.0.tar.gz"
+"apache-arrow-nanoarrow-0.9.0": [
+"arrow/apache-arrow-nanoarrow-0.9.0/apache-arrow-nanoarrow-0.9.0.tar.gz"
 ],
 "apache-arrow-object-store-rs-0.14.1": [
 "arrow/arrow-object-store-rs-0.14.1/apache-arrow-object-store-rs-0.14.1.tar.gz"
@@ -1210,12 +1210,6 @@
 ],
 "bookkeeper-4.16.7": [
 "bookkeeper/bookkeeper-4.16.7/bookkeeper-4.16.7-src.tar.gz"
-],
-"bookkeeper-4.17.2": [
-"bookkeeper/bookkeeper-4.17.2/bookkeeper-4.17.2-src.tar.gz"
-],
-"bookkeeper-4.17.3": [
-"bookkeeper/bookkeeper-4.17.3/bookkeeper-4.17.3-src.tar.gz"
 ],
 "bookkeeper-4.17.4": [
 "bookkeeper/bookkeeper-4.17.4/bookkeeper-4.17.4-src.tar.gz"
@@ -4494,8 +4488,8 @@
 "apache-groovy-5.0.8": [
 "groovy/5.0.8/sources/apache-groovy-src-5.0.8.zip"
 ],
-"apache-groovy-6.0.0-alpha-2": [
-"groovy/6.0.0-alpha-2/sources/apache-groovy-src-6.0.0-alpha-2.zip"
+"apache-groovy-6.0.0-beta-1": [
+"groovy/6.0.0-beta-1/sources/apache-groovy-src-6.0.0-beta-1.zip"
 ],
 "apache-groovy-geb-8.0.1": [
 "groovy/geb/8.0.1/apache-groovy-geb-src-8.0.1.zip"
@@ -4512,8 +4506,8 @@
 "apache-groovy-sdk-5.0.8": [
 "groovy/5.0.8/distribution/apache-groovy-sdk-5.0.8.zip"
 ],
-"apache-groovy-sdk-6.0.0-alpha-2": [
-"groovy/6.0.0-alpha-2/distribution/apache-groovy-sdk-6.0.0-alpha-2.zip"
+"apache-groovy-sdk-6.0.0-beta-1": [
+"groovy/6.0.0-beta-1/distribution/apache-groovy-sdk-6.0.0-beta-1.zip"
 ]
 },
 "guacamole": {
@@ -5995,11 +5989,6 @@
 ],
 "polaris-1.3.0-incubating": [
 "incubator/polaris/helm-chart/1.3.0-incubating/polaris-1.3.0-incubating.tgz"
-]
-},
-"incubator-ponymail": {
-"apache-pony-mail-0.11-incubating": [
-"incubator/ponymail/apache-pony-mail-0.11-incubating.tar.gz"
 ]
 },
 "incubator-resilientdb": {
@@ -8152,6 +8141,9 @@
 ],
 "apache-opendal-reqsign-0.20.3": [
 "opendal/reqsign-0.20.3/apache-opendal-reqsign-0.20.3.tar.gz"
+],
+"apache-opendal-reqsign-0.20.4": [
+"opendal/reqsign-0.20.4/apache-opendal-reqsign-0.20.4.tar.gz"
 ]
 },
 "openjpa": {
@@ -8759,6 +8751,11 @@
 "polaris/helm-chart/1.7.0/polaris-1.7.0.tgz"
 ]
 },
+"ponymail": {
+"apache-pony-mail-0.11-incubating": [
+"ponymail/ponymail/apache-pony-mail-0.11-incubating.tar.gz"
+]
+},
 "pulsar": {
 "APKINDEX": [
 "pulsar/pulsar-client-cpp-3.7.2/apk-arm64/aarch64/APKINDEX.tar.gz",
@@ -8917,8 +8914,8 @@
 ]
 },
 "qpid": {
-"apache-qpid-broker-j-10.0.1": [
-"qpid/broker-j/10.0.1/apache-qpid-broker-j-10.0.1-src.tar.gz"
+"apache-qpid-broker-j-10.1.0": [
+"qpid/broker-j/10.1.0/apache-qpid-broker-j-10.1.0-src.tar.gz"
 ],
 "apache-qpid-jms-1.16.0": [
 "qpid/jms/1.16.0/apache-qpid-jms-1.16.0-src.tar.gz"
@@ -8926,14 +8923,17 @@
 "apache-qpid-jms-2.10.0": [
 "qpid/jms/2.10.0/apache-qpid-jms-2.10.0-src.tar.gz"
 ],
-"apache-qpid-proton-j-0.34.1": [
-"qpid/proton-j/0.34.1/apache-qpid-proton-j-0.34.1-src.tar.gz"
+"apache-qpid-proton-j-0.35.0": [
+"qpid/proton-j/0.35.0/apache-qpid-proton-j-0.35.0-src.tar.gz"
 ],
 "apache-qpid-protonj2-1.0.0": [
 "qpid/protonj2/1.0.0/apache-qpid-protonj2-1.0.0-src.tar.gz"
 ],
 "apache-qpid-protonj2-1.1.0": [
 "qpid/protonj2/1.1.0/apache-qpid-protonj2-1.1.0-src.tar.gz"
+],
+"apache-qpid-protonj2-1.2.0": [
+"qpid/protonj2/1.2.0/apache-qpid-protonj2-1.2.0-src.tar.gz"
 ],
 "qpid-interop-test-0.3.0": [
 "qpid/interop-test/0.3.0/qpid-interop-test-0.3.0.tar.gz"
@@ -8943,6 +8943,9 @@
 ],
 "qpid-proton-dotnet-1.0.0": [
 "qpid/proton-dotnet/1.0.0/qpid-proton-dotnet-src-1.0.0.tar.gz"
+],
+"qpid-proton-dotnet-1.1.0": [
+"qpid/proton-dotnet/1.1.0/qpid-proton-dotnet-src-1.1.0.tar.gz"
 ]
 },
 "ranger": {
@@ -10549,8 +10552,8 @@
 "org.apache.sling.resourcemerger-1.4.4": [
 "sling/org.apache.sling.resourcemerger-1.4.4-source-release.zip"
 ],
-"org.apache.sling.resourceresolver-1.12.14": [
-"sling/org.apache.sling.resourceresolver-1.12.14-source-release.zip"
+"org.apache.sling.resourceresolver-1.12.16": [
+"sling/org.apache.sling.resourceresolver-1.12.16-source-release.zip"
 ],
 "org.apache.sling.resourceresolver-2.0.4": [
 "sling/org.apache.sling.resourceresolver-2.0.4-source-release.zip"
