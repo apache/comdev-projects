@@ -2396,6 +2396,12 @@
 "cxf/3.6.11/apache-cxf-3.6.11.tar.gz",
 "cxf/3.6.11/apache-cxf-3.6.11.zip"
 ],
+"apache-cxf-3.6.12": [
+"cxf/3.6.12/apache-cxf-3.6.12-src.tar.gz",
+"cxf/3.6.12/apache-cxf-3.6.12-src.zip",
+"cxf/3.6.12/apache-cxf-3.6.12.tar.gz",
+"cxf/3.6.12/apache-cxf-3.6.12.zip"
+],
 "apache-cxf-4.1.6": [
 "cxf/4.1.6/apache-cxf-4.1.6-src.tar.gz",
 "cxf/4.1.6/apache-cxf-4.1.6-src.zip",
@@ -2408,6 +2414,12 @@
 "cxf/4.1.7/apache-cxf-4.1.7.tar.gz",
 "cxf/4.1.7/apache-cxf-4.1.7.zip"
 ],
+"apache-cxf-4.1.8": [
+"cxf/4.1.8/apache-cxf-4.1.8-src.tar.gz",
+"cxf/4.1.8/apache-cxf-4.1.8-src.zip",
+"cxf/4.1.8/apache-cxf-4.1.8.tar.gz",
+"cxf/4.1.8/apache-cxf-4.1.8.zip"
+],
 "apache-cxf-4.2.1": [
 "cxf/4.2.1/apache-cxf-4.2.1-src.tar.gz",
 "cxf/4.2.1/apache-cxf-4.2.1-src.zip",
@@ -2419,6 +2431,12 @@
 "cxf/4.2.2/apache-cxf-4.2.2-src.zip",
 "cxf/4.2.2/apache-cxf-4.2.2.tar.gz",
 "cxf/4.2.2/apache-cxf-4.2.2.zip"
+],
+"apache-cxf-4.2.3": [
+"cxf/4.2.3/apache-cxf-4.2.3-src.tar.gz",
+"cxf/4.2.3/apache-cxf-4.2.3-src.zip",
+"cxf/4.2.3/apache-cxf-4.2.3.tar.gz",
+"cxf/4.2.3/apache-cxf-4.2.3.zip"
 ],
 "apache-fediz-1.7.2": [
 "cxf/fediz/1.7.2/apache-fediz-1.7.2.zip"
@@ -4610,6 +4628,9 @@
 ],
 "hbase-2.6.6": [
 "hbase/2.6.6/hbase-2.6.6-src.tar.gz"
+],
+"hbase-3.0.0": [
+"hbase/3.0.0/hbase-3.0.0-src.tar.gz"
 ],
 "hbase-3.0.0-beta-1": [
 "hbase/3.0.0-beta-1/hbase-3.0.0-beta-1-src.tar.gz"
@@ -8991,6 +9012,9 @@
 "apache-ranger-2.8.0": [
 "ranger/2.8.0/apache-ranger-2.8.0.tar.gz"
 ],
+"apache-ranger-2.9.0": [
+"ranger/2.9.0/apache-ranger-2.9.0.tar.gz"
+],
 "ranger-2.6.0-admin": [
 "ranger/2.6.0/services/admin/ranger-2.6.0-admin.tar.gz"
 ],
@@ -9188,6 +9212,78 @@
 ],
 "ranger-2.8.0-yarn-plugin": [
 "ranger/2.8.0/plugins/yarn/ranger-2.8.0-yarn-plugin.tar.gz"
+],
+"ranger-2.9.0-admin": [
+"ranger/2.9.0/services/admin/ranger-2.9.0-admin.tar.gz"
+],
+"ranger-2.9.0-atlas-plugin": [
+"ranger/2.9.0/plugins/atlas/ranger-2.9.0-atlas-plugin.tar.gz"
+],
+"ranger-2.9.0-elasticsearch-plugin": [
+"ranger/2.9.0/plugins/elasticsearch/ranger-2.9.0-elasticsearch-plugin.tar.gz"
+],
+"ranger-2.9.0-hbase-plugin": [
+"ranger/2.9.0/plugins/hbase/ranger-2.9.0-hbase-plugin.tar.gz"
+],
+"ranger-2.9.0-hdfs-plugin": [
+"ranger/2.9.0/plugins/hdfs/ranger-2.9.0-hdfs-plugin.tar.gz"
+],
+"ranger-2.9.0-hive-plugin": [
+"ranger/2.9.0/plugins/hive/ranger-2.9.0-hive-plugin.tar.gz"
+],
+"ranger-2.9.0-kafka-plugin": [
+"ranger/2.9.0/plugins/kafka/ranger-2.9.0-kafka-plugin.tar.gz"
+],
+"ranger-2.9.0-kms": [
+"ranger/2.9.0/services/kms/ranger-2.9.0-kms.tar.gz"
+],
+"ranger-2.9.0-knox-plugin": [
+"ranger/2.9.0/plugins/knox/ranger-2.9.0-knox-plugin.tar.gz"
+],
+"ranger-2.9.0-kylin-plugin": [
+"ranger/2.9.0/plugins/kylin/ranger-2.9.0-kylin-plugin.tar.gz"
+],
+"ranger-2.9.0-migration-util": [
+"ranger/2.9.0/tools/migration-util/ranger-2.9.0-migration-util.tar.gz"
+],
+"ranger-2.9.0-ozone-plugin": [
+"ranger/2.9.0/plugins/ozone/ranger-2.9.0-ozone-plugin.tar.gz"
+],
+"ranger-2.9.0-pdp": [
+"ranger/2.9.0/services/pdp/ranger-2.9.0-pdp.tar.gz"
+],
+"ranger-2.9.0-presto-plugin": [
+"ranger/2.9.0/plugins/presto/ranger-2.9.0-presto-plugin.tar.gz"
+],
+"ranger-2.9.0-ranger-tools": [
+"ranger/2.9.0/tools/ranger-tools/ranger-2.9.0-ranger-tools.tar.gz"
+],
+"ranger-2.9.0-sample": [
+"ranger/2.9.0/tools/sample-client/ranger-2.9.0-sample-client.tar.gz"
+],
+"ranger-2.9.0-solr-plugin": [
+"ranger/2.9.0/plugins/solr/ranger-2.9.0-solr-plugin.tar.gz"
+],
+"ranger-2.9.0-solr_audit_conf": [
+"ranger/2.9.0/tools/solr_audit_conf/ranger-2.9.0-solr_audit_conf.tar.gz"
+],
+"ranger-2.9.0-sqoop-plugin": [
+"ranger/2.9.0/plugins/sqoop/ranger-2.9.0-sqoop-plugin.tar.gz"
+],
+"ranger-2.9.0-storm-plugin": [
+"ranger/2.9.0/plugins/storm/ranger-2.9.0-storm-plugin.tar.gz"
+],
+"ranger-2.9.0-tagsync": [
+"ranger/2.9.0/services/tagsync/ranger-2.9.0-tagsync.tar.gz"
+],
+"ranger-2.9.0-trino-plugin": [
+"ranger/2.9.0/plugins/trino/ranger-2.9.0-trino-plugin.tar.gz"
+],
+"ranger-2.9.0-usersync": [
+"ranger/2.9.0/services/usersync/ranger-2.9.0-usersync.tar.gz"
+],
+"ranger-2.9.0-yarn-plugin": [
+"ranger/2.9.0/plugins/yarn/ranger-2.9.0-yarn-plugin.tar.gz"
 ]
 },
 "ratis": {
@@ -9612,6 +9708,9 @@
 "apache-sedona-1.9.0": [
 "sedona/1.9.0/apache-sedona-1.9.0-src.tar.gz"
 ],
+"apache-sedona-1.9.1": [
+"sedona/1.9.1/apache-sedona-1.9.1-src.tar.gz"
+],
 "apache-sedona-db-0.1.0": [
 "sedona/apache-sedona-db-0.1.0/apache-sedona-db-0.1.0.tar.gz"
 ],
@@ -9836,13 +9935,9 @@
 "skywalking/banyandb-helm/0.6.0/skywalking-banyandb-helm-0.6.0-src.tgz",
 "skywalking/banyandb-helm/0.6.0/skywalking-banyandb-helm-0.6.0.tgz"
 ],
-"skywalking-banyandb-helm-0.6.0-rc6": [
-"skywalking/banyandb-helm/0.6.0-rc6/skywalking-banyandb-helm-0.6.0-rc6-src.tgz",
-"skywalking/banyandb-helm/0.6.0-rc6/skywalking-banyandb-helm-0.6.0-rc6.tgz"
-],
-"skywalking-banyandb-helm-0.7.0-rc0": [
-"skywalking/banyandb-helm/0.7.0-rc0/skywalking-banyandb-helm-0.7.0-rc0-src.tgz",
-"skywalking/banyandb-helm/0.7.0-rc0/skywalking-banyandb-helm-0.7.0-rc0.tgz"
+"skywalking-banyandb-helm-0.7.0-rc1": [
+"skywalking/banyandb-helm/0.7.0-rc1/skywalking-banyandb-helm-0.7.0-rc1-src.tgz",
+"skywalking/banyandb-helm/0.7.0-rc1/skywalking-banyandb-helm-0.7.0-rc1.tgz"
 ],
 "skywalking-cli-0.13.0": [
 "skywalking/cli/0.13.0/skywalking-cli-0.13.0-src.tgz"
