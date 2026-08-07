@@ -80,8 +80,10 @@
 "age/PG16/1.6.0/apache-age-1.6.0-src.tar.gz"
 ],
 "apache-age-1.7.0": [
-"age/PG17/1.7.0/apache-age-1.7.0-src.tar.gz",
-"age/PG18/1.7.0/apache-age-1.7.0-src.tar.gz"
+"age/PG17/1.7.0/apache-age-1.7.0-src.tar.gz"
+],
+"apache-age-1.8.0": [
+"age/PG18/1.8.0/apache-age-1.8.0-src.tar.gz"
 ],
 "apache-age-viewer-1.0.0-rc2-incubating": [
 "age/age-viewer/apache-age-viewer-1.0.0-rc2-incubating-src.tar.gz"
@@ -696,12 +698,6 @@
 "apr/apr-1.6.5.tar.bz2",
 "apr/apr-1.6.5.tar.gz"
 ],
-"apr-1.7.4": [
-"apr/apr-1.7.4-win32-src.zip"
-],
-"apr-1.7.5": [
-"apr/apr-1.7.5-win32-src.zip"
-],
 "apr-1.7.6": [
 "apr/apr-1.7.6-win32-src.zip",
 "apr/apr-1.7.6.tar.bz2",
@@ -713,9 +709,12 @@
 "apr/apr-iconv-1.2.2.tar.gz"
 ],
 "apr-util-1.6.3": [
-"apr/apr-util-1.6.3-win32-src.zip",
-"apr/apr-util-1.6.3.tar.bz2",
-"apr/apr-util-1.6.3.tar.gz"
+"apr/apr-util-1.6.3-win32-src.zip"
+],
+"apr-util-1.6.4": [
+"apr/apr-util-1.6.4-win32-src.zip",
+"apr/apr-util-1.6.4.tar.bz2",
+"apr/apr-util-1.6.4.tar.gz"
 ]
 },
 "aries": {
@@ -910,11 +909,8 @@
 "apache-arrow-object-store-rs-0.14.1": [
 "arrow/arrow-object-store-rs-0.14.1/apache-arrow-object-store-rs-0.14.1.tar.gz"
 ],
-"apache-arrow-rs-58.4.0": [
-"arrow/arrow-rs-58.4.0/apache-arrow-rs-58.4.0.tar.gz"
-],
-"apache-arrow-rs-59.1.0": [
-"arrow/arrow-rs-59.1.0/apache-arrow-rs-59.1.0.tar.gz"
+"apache-arrow-rs-59.2.0": [
+"arrow/arrow-rs-59.2.0/apache-arrow-rs-59.2.0.tar.gz"
 ],
 "apache-arrow-swift-21.0.0": [
 "arrow/apache-arrow-swift-21.0.0/apache-arrow-swift-21.0.0.tar.gz"
@@ -4376,14 +4372,26 @@
 "apache-grails-7.0.14": [
 "grails/core/7.0.14/sources/apache-grails-7.0.14-src.zip"
 ],
+"apache-grails-7.0.15": [
+"grails/core/7.0.15/sources/apache-grails-7.0.15-src.zip"
+],
 "apache-grails-7.1.4": [
 "grails/core/7.1.4/sources/apache-grails-7.1.4-src.zip"
+],
+"apache-grails-7.1.5": [
+"grails/core/7.1.5/sources/apache-grails-7.1.5-src.zip"
 ],
 "apache-grails-7.2.1": [
 "grails/core/7.2.1/sources/apache-grails-7.2.1-src.zip"
 ],
+"apache-grails-7.2.2": [
+"grails/core/7.2.2/sources/apache-grails-7.2.2-src.zip"
+],
 "apache-grails-8.0.0-M4": [
 "grails/core/8.0.0-M4/sources/apache-grails-8.0.0-M4-src.zip"
+],
+"apache-grails-8.0.0-M5": [
+"grails/core/8.0.0-M5/sources/apache-grails-8.0.0-M5-src.zip"
 ],
 "apache-grails-github-actions-1.0.3": [
 "grails/actions/1.0.3/sources/apache-grails-github-actions-1.0.3-src.zip"
@@ -4631,12 +4639,6 @@
 ],
 "hbase-3.0.0": [
 "hbase/3.0.0/hbase-3.0.0-src.tar.gz"
-],
-"hbase-3.0.0-beta-1": [
-"hbase/3.0.0-beta-1/hbase-3.0.0-beta-1-src.tar.gz"
-],
-"hbase-3.0.0-beta-2": [
-"hbase/3.0.0-beta-2/hbase-3.0.0-beta-2-src.tar.gz"
 ],
 "hbase-connectors-1.0.1": [
 "hbase/hbase-connectors-1.0.1/hbase-connectors-1.0.1-src.tar.gz"
@@ -6136,8 +6138,8 @@
 "jackrabbit-2.20.17": [
 "jackrabbit/2.20.17/jackrabbit-2.20.17-src.zip"
 ],
-"jackrabbit-2.22.3": [
-"jackrabbit/2.22.3/jackrabbit-2.22.3-src.zip"
+"jackrabbit-2.22.4": [
+"jackrabbit/2.22.4/jackrabbit-2.22.4-src.zip"
 ],
 "jackrabbit-2.23.5-beta": [
 "jackrabbit/2.23.5-beta/jackrabbit-2.23.5-beta-src.zip"
@@ -7223,6 +7225,9 @@
 ],
 "maven-resolver-ant-tasks-1.6.1": [
 "maven/resolver/maven-resolver-ant-tasks-1.6.1-source-release.zip"
+],
+"maven-resolver-ant-tasks-2.0.0": [
+"maven/resolver/maven-resolver-ant-tasks-2.0.0-source-release.zip"
 ],
 "maven-resources-plugin-3.5.0": [
 "maven/plugins/maven-resources-plugin-3.5.0-source-release.zip"

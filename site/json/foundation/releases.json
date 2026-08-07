@@ -27,6 +27,7 @@
 "apache-age-1.5.0": "2024-03-19",
 "apache-age-1.6.0": "2026-01-08",
 "apache-age-1.7.0": "2026-03-06",
+"apache-age-1.8.0": "2026-08-06",
 "apache-age-viewer-1.0.0-rc2-incubating": "2022-04-26"
 },
 "airavata": {
@@ -236,11 +237,10 @@
 },
 "apr": {
 "apr-1.6.5": "2018-09-14",
-"apr-1.7.4": "2023-04-16",
-"apr-1.7.5": "2024-08-26",
 "apr-1.7.6": "2025-05-16",
 "apr-iconv-1.2.2": "2017-10-22",
-"apr-util-1.6.3": "2023-02-01"
+"apr-util-1.6.3": "2023-02-01",
+"apr-util-1.6.4": "2026-08-06"
 },
 "aries": {
 "blueprint-maven-plugin-1.1.0": "2015-03-03",
@@ -308,8 +308,7 @@
 "apache-arrow-julia-2.8.1": "2026-01-13",
 "apache-arrow-nanoarrow-0.9.0": "2026-08-01",
 "apache-arrow-object-store-rs-0.14.1": "2026-07-15",
-"apache-arrow-rs-58.4.0": "2026-07-22",
-"apache-arrow-rs-59.1.0": "2026-07-07",
+"apache-arrow-rs-59.2.0": "2026-08-06",
 "apache-arrow-swift-21.0.0": "2025-07-07"
 },
 "artemis": {
@@ -1436,9 +1435,13 @@
 },
 "grails": {
 "apache-grails-7.0.14": "2026-07-10",
+"apache-grails-7.0.15": "2026-08-02",
 "apache-grails-7.1.4": "2026-07-10",
+"apache-grails-7.1.5": "2026-08-02",
 "apache-grails-7.2.1": "2026-07-10",
+"apache-grails-7.2.2": "2026-08-02",
 "apache-grails-8.0.0-M4": "2026-07-21",
+"apache-grails-8.0.0-M5": "2026-08-02",
 "apache-grails-github-actions-1.0.3": "2026-07-19",
 "apache-grails-publish-1.0.0-M1": "2026-04-29",
 "apache-grails-publish-1.0.0-M2": "2026-07-19",
@@ -1525,8 +1528,6 @@
 "hbase-2.5.15": "2026-06-04",
 "hbase-2.6.6": "2026-06-04",
 "hbase-3.0.0": "2026-08-05",
-"hbase-3.0.0-beta-1": "2024-01-14",
-"hbase-3.0.0-beta-2": "2026-07-15",
 "hbase-connectors-1.0.1": "2023-10-18",
 "hbase-filesystem-1.0.0-alpha1": "2019-06-06",
 "hbase-operator-tools-1.3.0": "2025-12-06",
@@ -2060,7 +2061,7 @@
 "jackrabbit-2.14.10": "2021-09-06",
 "jackrabbit-2.16.10": "2022-09-07",
 "jackrabbit-2.20.17": "2025-07-10",
-"jackrabbit-2.22.3": "2026-01-13",
+"jackrabbit-2.22.4": "2026-08-03",
 "jackrabbit-2.23.5-beta": "2026-07-01",
 "jackrabbit-filevault-3.2.8": "2021-03-11",
 "jackrabbit-filevault-3.8.4": "2025-03-25",
@@ -2410,6 +2411,7 @@
 "maven-resolver-1.9.27": "2026-02-23",
 "maven-resolver-2.0.21": "2026-07-24",
 "maven-resolver-ant-tasks-1.6.1": "2026-07-21",
+"maven-resolver-ant-tasks-2.0.0": "2026-08-06",
 "maven-resources-plugin-3.5.0": "2026-03-05",
 "maven-resources-plugin-4.0.0-beta-1": "2024-07-01",
 "maven-scm-2.2.1": "2025-09-25",
