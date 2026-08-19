@@ -688,6 +688,9 @@
 "apache-apisix-ingress-controller-1.8.0": [
 "apisix/ingress-controller/1.8.0/apache-apisix-ingress-controller-1.8.0-src.tgz"
 ],
+"apache-apisix-ingress-controller-2.2.0": [
+"apisix/ingress-controller/2.2.0/apache-apisix-ingress-controller-2.2.0-src.tgz"
+],
 "apisix-go-plugin-runner-0.4.0": [
 "apisix/go-plugin-runner/0.4.0/apisix-go-plugin-runner-0.4.0-src.tgz"
 ],
@@ -1885,8 +1888,8 @@
 "apache-cloudstack-4.20.2.0": [
 "cloudstack/releases/4.20.2.0/apache-cloudstack-4.20.2.0-src.tar.bz2"
 ],
-"apache-cloudstack-4.20.3.0": [
-"cloudstack/releases/4.20.3.0/apache-cloudstack-4.20.3.0-src.tar.bz2"
+"apache-cloudstack-4.20.3.1": [
+"cloudstack/releases/4.20.3.1/apache-cloudstack-4.20.3.1-src.tar.bz2"
 ],
 "apache-cloudstack-4.21.0.0": [
 "cloudstack/releases/4.21.0.0/apache-cloudstack-4.21.0.0-src.tar.bz2"
@@ -1897,8 +1900,8 @@
 "apache-cloudstack-4.22.0.1": [
 "cloudstack/releases/4.22.0.1/apache-cloudstack-4.22.0.1-src.tar.bz2"
 ],
-"apache-cloudstack-4.22.1.0": [
-"cloudstack/releases/4.22.1.0/apache-cloudstack-4.22.1.0-src.tar.bz2"
+"apache-cloudstack-4.22.1.1": [
+"cloudstack/releases/4.22.1.1/apache-cloudstack-4.22.1.1-src.tar.bz2"
 ],
 "apache-cloudstack-cloudmonkey-6.5.0": [
 "cloudstack/releases/cloudmonkey-6.5.0/apache-cloudstack-cloudmonkey-6.5.0-src.tar.bz2"
@@ -2474,6 +2477,9 @@
 "apache-datafusion-54.1.0": [
 "datafusion/datafusion-54.1.0/apache-datafusion-54.1.0.tar.gz"
 ],
+"apache-datafusion-55.0.0": [
+"datafusion/datafusion-55.0.0/apache-datafusion-55.0.0.tar.gz"
+],
 "apache-datafusion-ballista-54.0.0": [
 "datafusion/datafusion-ballista-54.0.0/apache-datafusion-ballista-54.0.0.tar.gz"
 ],
@@ -2530,8 +2536,8 @@
 "apache-datasketches-python-5.2.0": [
 "datasketches/python/5.2.0/apache-datasketches-python-5.2.0-src.zip"
 ],
-"apache-datasketches-rust-0.3.0-rc.2": [
-"datasketches/rust/0.3.0/apache-datasketches-rust-0.3.0-rc.2-src.zip"
+"apache-datasketches-rust-0.4.0": [
+"datasketches/rust/0.4.0/apache-datasketches-rust-0.4.0-src.zip"
 ],
 "datasketches-1.7.0": [
 "datasketches/postgresql/1.7.0/pgxn.org/datasketches-1.7.0.zip"
@@ -4725,11 +4731,17 @@
 "apache-hive-4.2.0": [
 "hive/hive-4.2.0/apache-hive-4.2.0-src.tar.gz"
 ],
+"apache-hive-4.2.1": [
+"hive/hive-4.2.1/apache-hive-4.2.1-src.tar.gz"
+],
 "hive-metastore-3.0.0": [
 "hive/hive-standalone-metastore-3.0.0/hive-standalone-metastore-3.0.0-src.tar.gz"
 ],
 "hive-metastore-4.2.0": [
 "hive/hive-standalone-metastore-4.2.0/hive-standalone-metastore-4.2.0-src.tar.gz"
+],
+"hive-metastore-4.2.1": [
+"hive/hive-standalone-metastore-4.2.1/hive-standalone-metastore-4.2.1-src.tar.gz"
 ],
 "hive-storage-2.8.1": [
 "hive/hive-storage-2.8.1/hive-storage-2.8.1.tar.gz"
@@ -5495,6 +5507,11 @@
 ],
 "apache-burr-0.42.0-incubating-sdist": [
 "incubator/burr/0.42.0/apache-burr-0.42.0-incubating-sdist.tar.gz"
+]
+},
+"incubator-casbin": {
+"apache-casbin-3.11.0-incubating": [
+"incubator/casbin/3.11.0-incubating/apache-casbin-3.11.0-incubating-src.tar.gz"
 ]
 },
 "incubator-cloudberry": {
@@ -7824,6 +7841,12 @@
 ],
 "nifi-minifi-cpp-0.99.2": [
 "nifi/nifi-minifi-cpp/0.99.2/nifi-minifi-cpp-0.99.2-source.tar.gz"
+],
+"nifi-minifi-cpp-1.0.0": [
+"nifi/nifi-minifi-cpp/1.0.0/nifi-minifi-cpp-1.0.0-source.tar.gz"
+],
+"nifi-minifi-cpp-1.0.0-native-sdk": [
+"nifi/nifi-minifi-cpp/1.0.0/nifi-minifi-cpp-1.0.0-native-sdk.zip"
 ],
 "nifi-nar-maven-plugin-2.3.0": [
 "nifi/nifi-nar-maven-plugin-2.3.0/nifi-nar-maven-plugin-2.3.0-source-release.zip"
@@ -11600,13 +11623,17 @@
 "tomcat/tomcat-10/v10.1.57/src/apache-tomcat-10.1.57-src.tar.gz",
 "tomcat/tomcat-10/v10.1.57/src/apache-tomcat-10.1.57-src.zip"
 ],
-"apache-tomcat-11.0.24": [
-"tomcat/tomcat-11/v11.0.24/src/apache-tomcat-11.0.24-src.tar.gz",
-"tomcat/tomcat-11/v11.0.24/src/apache-tomcat-11.0.24-src.zip"
+"apache-tomcat-11.0.25": [
+"tomcat/tomcat-11/v11.0.25/src/apache-tomcat-11.0.25-src.tar.gz",
+"tomcat/tomcat-11/v11.0.25/src/apache-tomcat-11.0.25-src.zip"
 ],
 "apache-tomcat-9.0.120": [
 "tomcat/tomcat-9/v9.0.120/src/apache-tomcat-9.0.120-src.tar.gz",
 "tomcat/tomcat-9/v9.0.120/src/apache-tomcat-9.0.120-src.zip"
+],
+"apache-tomcat-9.0.121": [
+"tomcat/tomcat-9/v9.0.121/src/apache-tomcat-9.0.121-src.tar.gz",
+"tomcat/tomcat-9/v9.0.121/src/apache-tomcat-9.0.121-src.zip"
 ],
 "jakartaee-migration-1.0.12": [
 "tomcat/jakartaee-migration/v1.0.12/source/jakartaee-migration-1.0.12-src.tar.gz",

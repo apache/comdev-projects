@@ -233,6 +233,7 @@
 "apache-apisix-ingress-controller-1.7.0": "2023-09-11",
 "apache-apisix-ingress-controller-1.7.1": "2023-11-13",
 "apache-apisix-ingress-controller-1.8.0": "2024-01-19",
+"apache-apisix-ingress-controller-2.2.0": "2026-08-18",
 "apisix-go-plugin-runner-0.4.0": "2022-06-29",
 "apisix-java-plugin-runner-0.4.0": "2022-11-11",
 "apisix-java-plugin-runner-0.6.0": "2025-04-11",
@@ -649,11 +650,11 @@
 "apache-cloudstack-4.20.0.0": "2024-11-19",
 "apache-cloudstack-4.20.1.0": "2025-05-30",
 "apache-cloudstack-4.20.2.0": "2025-10-16",
-"apache-cloudstack-4.20.3.0": "2026-04-06",
+"apache-cloudstack-4.20.3.1": "2026-08-18",
 "apache-cloudstack-4.21.0.0": "2025-08-22",
 "apache-cloudstack-4.22.0.0": "2025-10-30",
 "apache-cloudstack-4.22.0.1": "2026-05-06",
-"apache-cloudstack-4.22.1.0": "2026-05-11",
+"apache-cloudstack-4.22.1.1": "2026-08-18",
 "apache-cloudstack-cloudmonkey-6.5.0": "2025-08-26",
 "apache-cloudstack-ec2stack-0.8.0": "2015-08-26",
 "apache-cloudstack-kubernetes-provider-1.1.0": "2024-06-19",
@@ -828,6 +829,7 @@
 "datafusion": {
 "apache-datafusion-53.1.0": "2026-04-16",
 "apache-datafusion-54.1.0": "2026-07-21",
+"apache-datafusion-55.0.0": "2026-08-18",
 "apache-datafusion-ballista-54.0.0": "2026-07-15",
 "apache-datafusion-ballista-54.1.0": "2026-08-09",
 "apache-datafusion-comet-1.0.0": "2026-08-07",
@@ -848,7 +850,7 @@
 "apache-datasketches-pig-1.1.0": "2022-02-17",
 "apache-datasketches-postgresql-1.7.0": "2023-12-14",
 "apache-datasketches-python-5.2.0": "2025-03-01",
-"apache-datasketches-rust-0.3.0-rc.2": "2026-05-13",
+"apache-datasketches-rust-0.4.0": "2026-08-13",
 "datasketches-1.7.0": "2023-12-14",
 "datasketches-5.2.0": "2025-03-01",
 "datasketches-memory-7.0.0": "2026-06-18"
@@ -1561,8 +1563,10 @@
 },
 "hive": {
 "apache-hive-4.2.0": "2025-11-17",
+"apache-hive-4.2.1": "2026-07-29",
 "hive-metastore-3.0.0": "2018-06-07",
 "hive-metastore-4.2.0": "2025-11-17",
+"hive-metastore-4.2.1": "2026-07-30",
 "hive-storage-2.8.1": "2021-08-03"
 },
 "hop": {
@@ -1812,6 +1816,9 @@
 "apache-burr-0.41.0-incubating-sdist": "2026-01-11",
 "apache-burr-0.42.0-incubating": "2026-04-26",
 "apache-burr-0.42.0-incubating-sdist": "2026-04-26"
+},
+"incubator-casbin": {
+"apache-casbin-3.11.0-incubating": "2026-08-04"
 },
 "incubator-cloudberry": {
 "apache-cloudberry-2.1.0-incubating": "2026-04-13",
@@ -2593,6 +2600,8 @@
 "nifi-minifi-cpp-0.99.0": "2024-05-13",
 "nifi-minifi-cpp-0.99.1": "2025-01-31",
 "nifi-minifi-cpp-0.99.2": "2025-09-26",
+"nifi-minifi-cpp-1.0.0": "2026-08-12",
+"nifi-minifi-cpp-1.0.0-native-sdk": "2026-08-12",
 "nifi-nar-maven-plugin-2.3.0": "2026-02-24"
 },
 "nutch": {
@@ -3906,8 +3915,9 @@
 },
 "tomcat": {
 "apache-tomcat-10.1.57": "2026-07-03",
-"apache-tomcat-11.0.24": "2026-07-03",
+"apache-tomcat-11.0.25": "2026-08-12",
 "apache-tomcat-9.0.120": "2026-07-03",
+"apache-tomcat-9.0.121": "2026-08-12",
 "jakartaee-migration-1.0.12": "2026-06-01",
 "taglibs-standard-1.2.5": "2015-03-10",
 "tomcat-connectors-1.2.50": "2024-08-12",
