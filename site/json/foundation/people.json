@@ -1916,6 +1916,8 @@
 "mahout-pmc",
 "rai",
 "rai-pmc",
+"sourcelume",
+"sourcelume-pmc",
 "tooling",
 "tooling-pmc"
 ],
@@ -3630,7 +3632,9 @@
 "karaf",
 "karaf-pmc",
 "rai",
-"rai-pmc"
+"rai-pmc",
+"sourcelume",
+"sourcelume-pmc"
 ],
 "member": true,
 "name": "Achim Nierbeck"
@@ -5289,7 +5293,8 @@
 },
 "astrohan": {
 "groups": [
-"incubator"
+"incubator",
+"maka"
 ],
 "member": false,
 "name": "Yuhan Lei"
@@ -18202,7 +18207,8 @@
 "incubator",
 "pekko",
 "pekko-pmc",
-"security"
+"security",
+"security-pmc"
 ],
 "member": true,
 "name": "Arnout Engelen"
@@ -23791,7 +23797,8 @@
 },
 "haoqing": {
 "groups": [
-"incubator"
+"incubator",
+"maka"
 ],
 "member": false,
 "name": "Haoqing Wang"
@@ -28320,6 +28327,8 @@
 "servicecomb-pmc",
 "shiro",
 "shiro-pmc",
+"sourcelume",
+"sourcelume-pmc",
 "streampipes",
 "streampipes-pmc",
 "syncope",
@@ -29540,6 +29549,8 @@
 "mina-pmc",
 "rai",
 "rai-pmc",
+"sourcelume",
+"sourcelume-pmc",
 "tomee"
 ],
 "member": true,
@@ -29614,7 +29625,9 @@
 "karaf",
 "karaf-pmc",
 "rai",
-"rai-pmc"
+"rai-pmc",
+"sourcelume",
+"sourcelume-pmc"
 ],
 "member": true,
 "name": "Jamie Mark Goodyear"
@@ -35496,6 +35509,8 @@
 "rai-pmc",
 "seatunnel",
 "seatunnel-pmc",
+"sourcelume",
+"sourcelume-pmc",
 "wayang",
 "wayang-pmc"
 ],
@@ -36660,7 +36675,8 @@
 },
 "kunli": {
 "groups": [
-"incubator"
+"incubator",
+"maka"
 ],
 "member": false,
 "name": "Kun Li"
@@ -37112,9 +37128,7 @@
 "lars": {
 "groups": [
 "httpd",
-"httpd-pmc",
-"security",
-"security-pmc"
+"httpd-pmc"
 ],
 "member": true,
 "name": "Lars Eilebrecht"
@@ -43556,7 +43570,8 @@
 },
 "microg": {
 "groups": [
-"incubator"
+"incubator",
+"maka"
 ],
 "member": false,
 "name": "Yuhang Chang"
@@ -52763,7 +52778,9 @@
 "arrow",
 "arrow-pmc",
 "incubator",
-"incubator-pmc"
+"incubator-pmc",
+"sourcelume",
+"sourcelume-pmc"
 ],
 "member": true,
 "name": "Raúl Cumplido"
@@ -61313,8 +61330,6 @@
 "httpd",
 "incubator",
 "incubator-pmc",
-"security",
-"security-pmc",
 "subversion",
 "subversion-pmc"
 ],
@@ -68110,6 +68125,8 @@
 "pulsar-pmc",
 "rai",
 "rai-pmc",
+"sourcelume",
+"sourcelume-pmc",
 "stormcrawler",
 "tooling",
 "tooling-pmc",
@@ -69205,8 +69222,6 @@
 "httpd",
 "incubator",
 "incubator-pmc",
-"security",
-"security-pmc",
 "tomcat"
 ],
 "member": true,
@@ -69507,7 +69522,8 @@
 },
 "wyt": {
 "groups": [
-"incubator"
+"incubator",
+"maka"
 ],
 "member": false,
 "name": "Yongtao Wang"
@@ -71045,7 +71061,8 @@
 },
 "yayoinanoka": {
 "groups": [
-"incubator"
+"incubator",
+"maka"
 ],
 "member": false,
 "name": "Zhanghan Gao"
@@ -72627,6 +72644,13 @@
 ],
 "member": false,
 "name": "Zehong Ruan"
+},
+"zehuazou": {
+"groups": [
+"arrow"
+],
+"member": false,
+"name": "Zehua Zou"
 },
 "zenghui": {
 "groups": [

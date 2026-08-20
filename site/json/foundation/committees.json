@@ -6706,7 +6706,7 @@
 "shortdesc": "Schema-free SQL Query Engine for Apache Hadoop, NoSQL and Cloud Storage"
 },
 {
-"chair": "abhishek",
+"chair": "karan",
 "charter": "The mission of Apache Druid is the creation and maintenance of software related to analytical database software",
 "established": "2019-12",
 "group": "druid",
@@ -10180,7 +10180,7 @@
 "shortdesc": "Data warehouse infrastructure using the Apache Hadoop Database"
 },
 {
-"chair": "hansva",
+"chair": "bartmaer",
 "charter": "The mission of Apache Hop is the creation and maintenance of software related to a platform for data orchestration",
 "established": "2021-12",
 "group": "hop",
@@ -10798,6 +10798,54 @@
 }
 },
 "shortdesc": "managing huge analytic datasets using a standard at-rest table format that is designed for high performance and ease of use"
+},
+{
+"chair": "kranti",
+"established": "2026-08",
+"group": "iggy",
+"homepage": "https://iggy.apache.org",
+"id": "iggy",
+"name": "Apache Iggy",
+"reporting": 3,
+"roster": {
+"gkoszyk": {
+"date": "2026-08-19",
+"name": "Grzegorz Koszyk"
+},
+"hgruszecki": {
+"date": "2026-08-19",
+"name": "Hubert Gruszecki"
+},
+"hulk": {
+"date": "2026-08-19",
+"name": "Hulk Lin"
+},
+"kranti": {
+"date": "2026-08-19",
+"name": "Kranti Parisa"
+},
+"patryk": {
+"date": "2026-08-19",
+"name": "Patryk Huzarski"
+},
+"piotr": {
+"date": "2026-08-19",
+"name": "Piotr Gankiewicz"
+},
+"tison": {
+"date": "2026-08-19",
+"name": "Zili Chen"
+},
+"xuanwo": {
+"date": "2026-08-19",
+"name": "Hao Ding"
+},
+"yonik": {
+"date": "2026-08-19",
+"name": "Yonik Seeley"
+}
+},
+"shortdesc": "Iggy is a high-performance, ultra-low latency and large-scale persistent message streaming platform written in Rust."
 },
 {
 "chair": "dpavlov",
@@ -21135,6 +21183,50 @@
 }
 },
 "shortdesc": "highly scalable distributed document search and analytics"
+},
+{
+"chair": "jgoodyear",
+"established": "2026-08",
+"group": "sourcelume",
+"homepage": "https://sourcelume.apache.org",
+"id": "sourcelume",
+"name": "Apache Sourcelume",
+"reporting": 2,
+"roster": {
+"akm": {
+"date": "2026-08-19",
+"name": "Andrew Musselman"
+},
+"anierbeck": {
+"date": "2026-08-19",
+"name": "Achim Nierbeck"
+},
+"jbonofre": {
+"date": "2026-08-19",
+"name": "JB Onofr\u00e9"
+},
+"jgenender": {
+"date": "2026-08-19",
+"name": "Jeff Genender"
+},
+"jgoodyear": {
+"date": "2026-08-19",
+"name": "Jamie Goodyear"
+},
+"kirs": {
+"date": "2026-08-19",
+"name": "Calvin Kirs"
+},
+"raulcd": {
+"date": "2026-08-19",
+"name": "Ra\u00fal Cumplido"
+},
+"wave": {
+"date": "2026-08-19",
+"name": "Dave Fisher"
+}
+},
+"shortdesc": "AI training-data provenance"
 },
 {
 "chair": "gbechis",
