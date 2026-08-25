@@ -486,8 +486,8 @@
 ]
 },
 "allura": {
-"allura-1.19.1": [
-"allura/allura-1.19.1.tar.gz"
+"allura-1.20.0": [
+"allura/allura-1.20.0.tar.gz"
 ]
 },
 "ambari": {
@@ -1473,8 +1473,8 @@
 "apache-camel-quarkus-3.33.2": [
 "camel/camel-quarkus/3.33.2/apache-camel-quarkus-3.33.2-src.zip"
 ],
-"apache-camel-quarkus-3.38.0": [
-"camel/camel-quarkus/3.38.0/apache-camel-quarkus-3.38.0-src.zip"
+"apache-camel-quarkus-3.39.0": [
+"camel/camel-quarkus/3.39.0/apache-camel-quarkus-3.39.0-src.zip"
 ],
 "camel-k-sources-2.10.0": [
 "camel/camel-k/2.10.0/camel-k-sources-2.10.0.tar.gz"
@@ -6122,6 +6122,9 @@
 ],
 "apache-xtable-0.3.0-incubating": [
 "incubator/xtable/0.3.0-incubating/apache-xtable-0.3.0-incubating.src.tgz"
+],
+"apache-xtable-0.4.0-incubating": [
+"incubator/xtable/0.4.0-incubating/apache-xtable-0.4.0-incubating.src.tgz"
 ]
 },
 "incubator-yunikorn": {
@@ -6218,8 +6221,8 @@
 "jackrabbit-oak-1.8.26": [
 "jackrabbit/oak/1.8.26/jackrabbit-oak-1.8.26-src.zip"
 ],
-"jackrabbit-oak-2.4.0": [
-"jackrabbit/oak/2.4.0/jackrabbit-oak-2.4.0-src.zip"
+"jackrabbit-oak-2.6.0": [
+"jackrabbit/oak/2.6.0/jackrabbit-oak-2.6.0-src.zip"
 ],
 "jackrabbit-ocm-2.0.0": [
 "jackrabbit/ocm/2.0.0/jackrabbit-ocm-2.0.0-source-release.zip"
@@ -7239,8 +7242,8 @@
 "maven-resolver-1.9.27": [
 "maven/resolver/maven-resolver-1.9.27-source-release.zip"
 ],
-"maven-resolver-2.0.21": [
-"maven/resolver/maven-resolver-2.0.21-source-release.zip"
+"maven-resolver-2.0.22": [
+"maven/resolver/maven-resolver-2.0.22-source-release.zip"
 ],
 "maven-resolver-ant-tasks-1.6.1": [
 "maven/resolver/maven-resolver-ant-tasks-1.6.1-source-release.zip"
@@ -7856,6 +7859,9 @@
 ],
 "nifi-nar-maven-plugin-2.3.0": [
 "nifi/nifi-nar-maven-plugin-2.3.0/nifi-nar-maven-plugin-2.3.0-source-release.zip"
+],
+"nifi-nar-maven-plugin-2.4.0": [
+"nifi/nifi-nar-maven-plugin-2.4.0/nifi-nar-maven-plugin-2.4.0-source-release.zip"
 ]
 },
 "nutch": {
@@ -8138,6 +8144,9 @@
 ],
 "apache-opendal-reqsign-0.20.5": [
 "opendal/reqsign-0.20.5/apache-opendal-reqsign-0.20.5-src.tar.gz"
+],
+"apache-opendal-reqsign-0.20.6": [
+"opendal/reqsign-0.20.6/apache-opendal-reqsign-0.20.6.tar.gz"
 ]
 },
 "openjpa": {
@@ -8747,6 +8756,9 @@
 "apache-xmlbeans-5.3.0-20241203": [
 "poi/xmlbeans/release/src/apache-xmlbeans-src-5.3.0-20241203.tgz",
 "poi/xmlbeans/release/src/apache-xmlbeans-src-5.3.0-20241203.zip"
+],
+"apache-xmlbeans-5.4.0-20260730": [
+"poi/xmlbeans/release/src/apache-xmlbeans-src-5.4.0-20260730.tgz"
 ]
 },
 "polaris": {
@@ -10370,8 +10382,8 @@
 "org.apache.sling.graphql.core-0.0.36": [
 "sling/org.apache.sling.graphql.core-0.0.36-source-release.zip"
 ],
-"org.apache.sling.graphql.schema.aggregator-0.0.2": [
-"sling/org.apache.sling.graphql.schema.aggregator-0.0.2-source-release.zip"
+"org.apache.sling.graphql.schema.aggregator-0.0.4": [
+"sling/org.apache.sling.graphql.schema.aggregator-0.0.4-source-release.zip"
 ],
 "org.apache.sling.hapi-1.1.0": [
 "sling/org.apache.sling.hapi-1.1.0-source-release.zip"
@@ -10767,11 +10779,11 @@
 "org.apache.sling.servlets.post-3.0.2": [
 "sling/org.apache.sling.servlets.post-3.0.2-source-release.zip"
 ],
-"org.apache.sling.servlets.resolver-2.11.12": [
-"sling/org.apache.sling.servlets.resolver-2.11.12-source-release.zip"
+"org.apache.sling.servlets.resolver-2.11.14": [
+"sling/org.apache.sling.servlets.resolver-2.11.14-source-release.zip"
 ],
-"org.apache.sling.servlets.resolver-3.0.8": [
-"sling/org.apache.sling.servlets.resolver-3.0.8-source-release.zip"
+"org.apache.sling.servlets.resolver-3.0.10": [
+"sling/org.apache.sling.servlets.resolver-3.0.10-source-release.zip"
 ],
 "org.apache.sling.settings-1.5.0": [
 "sling/org.apache.sling.settings-1.5.0-source-release.zip"
@@ -10929,8 +10941,8 @@
 "org.apache.sling.xss.compat-1.1.0": [
 "sling/org.apache.sling.xss.compat-1.1.0-source-release.zip"
 ],
-"scriptingbundle-maven-plugin-0.5.2": [
-"sling/scriptingbundle-maven-plugin-0.5.2-source-release.zip"
+"scriptingbundle-maven-plugin-0.5.4": [
+"sling/scriptingbundle-maven-plugin-0.5.4-source-release.zip"
 ],
 "sling-6": [
 "sling/sling-6-source-release.tar.gz",

@@ -165,7 +165,7 @@
 "apache_airflow_task_sdk-1.3.1": "2026-08-12"
 },
 "allura": {
-"allura-1.19.1": "2026-06-29"
+"allura-1.20.0": "2026-08-24"
 },
 "ambari": {
 "apache-ambari-2.6.2": "2022-07-04",
@@ -508,7 +508,7 @@
 "apache-camel-quarkus-3.20.4": "2026-01-14",
 "apache-camel-quarkus-3.27.5": "2026-07-07",
 "apache-camel-quarkus-3.33.2": "2026-07-08",
-"apache-camel-quarkus-3.38.0": "2026-07-23",
+"apache-camel-quarkus-3.39.0": "2026-08-20",
 "camel-k-sources-2.10.0": "2026-04-07",
 "camel-k-sources-2.10.1": "2026-05-14",
 "camel-k-sources-2.3.0": "2024-04-02",
@@ -2051,7 +2051,8 @@
 },
 "incubator-xtable": {
 "apache-xtable-0.2.0-incubating": "2024-11-08",
-"apache-xtable-0.3.0-incubating": "2025-06-04"
+"apache-xtable-0.3.0-incubating": "2025-06-04",
+"apache-xtable-0.4.0-incubating": "2026-08-07"
 },
 "incubator-yunikorn": {
 "apache-yunikorn-0.12.2-incubating": "2022-02-03"
@@ -2089,7 +2090,7 @@
 "jackrabbit-oak-1.4.26": "2020-02-17",
 "jackrabbit-oak-1.6.23": "2022-03-11",
 "jackrabbit-oak-1.8.26": "2022-02-01",
-"jackrabbit-oak-2.4.0": "2026-07-10",
+"jackrabbit-oak-2.6.0": "2026-08-19",
 "jackrabbit-ocm-2.0.0": "2012-12-17"
 },
 "james": {
@@ -2419,7 +2420,7 @@
 "maven-reporting-exec-2.0.1": "2026-05-17",
 "maven-reporting-impl-4.0.0": "2024-10-15",
 "maven-resolver-1.9.27": "2026-02-23",
-"maven-resolver-2.0.21": "2026-07-24",
+"maven-resolver-2.0.22": "2026-08-24",
 "maven-resolver-ant-tasks-1.6.1": "2026-07-21",
 "maven-resolver-ant-tasks-2.0.0": "2026-08-06",
 "maven-resources-plugin-3.5.0": "2026-03-05",
@@ -2604,7 +2605,8 @@
 "nifi-minifi-cpp-0.99.2": "2025-09-26",
 "nifi-minifi-cpp-1.0.0": "2026-08-12",
 "nifi-minifi-cpp-1.0.0-native-sdk": "2026-08-12",
-"nifi-nar-maven-plugin-2.3.0": "2026-02-24"
+"nifi-nar-maven-plugin-2.3.0": "2026-02-24",
+"nifi-nar-maven-plugin-2.4.0": "2026-08-19"
 },
 "nutch": {
 "apache-nutch-1.22": "2026-02-12"
@@ -2703,7 +2705,8 @@
 "apache-opendal-reqsign-0.20.2": "2026-07-06",
 "apache-opendal-reqsign-0.20.3": "2026-07-23",
 "apache-opendal-reqsign-0.20.4": "2026-07-28",
-"apache-opendal-reqsign-0.20.5": "2026-08-07"
+"apache-opendal-reqsign-0.20.5": "2026-08-07",
+"apache-opendal-reqsign-0.20.6": "2026-08-17"
 },
 "openjpa": {
 "apache-openjpa-2.2.2": "2014-12-16",
@@ -2924,7 +2927,8 @@
 },
 "poi": {
 "apache-poi-5.5.1-20251126": "2025-11-30",
-"apache-xmlbeans-5.3.0-20241203": "2024-12-13"
+"apache-xmlbeans-5.3.0-20241203": "2024-12-13",
+"apache-xmlbeans-5.4.0-20260730": "2026-08-24"
 },
 "polaris": {
 "apache-polaris-1.7.0": "2026-07-30",
@@ -3487,7 +3491,7 @@
 "org.apache.sling.fragment.xml-1.0.2": "2013-02-18",
 "org.apache.sling.fsresource-2.3.0": "2025-03-10",
 "org.apache.sling.graphql.core-0.0.36": "2025-08-25",
-"org.apache.sling.graphql.schema.aggregator-0.0.2": "2026-08-03",
+"org.apache.sling.graphql.schema.aggregator-0.0.4": "2026-08-24",
 "org.apache.sling.hapi-1.1.0": "2017-11-13",
 "org.apache.sling.hapi.client-1.0.0": "2016-08-17",
 "org.apache.sling.hc.annotations-1.0.6": "2017-11-20",
@@ -3619,8 +3623,8 @@
 "org.apache.sling.servlets.compat-1.0.2": "2014-07-14",
 "org.apache.sling.servlets.get-3.0.0": "2025-06-28",
 "org.apache.sling.servlets.post-3.0.2": "2026-02-28",
-"org.apache.sling.servlets.resolver-2.11.12": "2025-07-15",
-"org.apache.sling.servlets.resolver-3.0.8": "2026-07-31",
+"org.apache.sling.servlets.resolver-2.11.14": "2026-08-24",
+"org.apache.sling.servlets.resolver-3.0.10": "2026-08-24",
 "org.apache.sling.settings-1.5.0": "2025-11-10",
 "org.apache.sling.sitemap-1.0.6": "2022-02-01",
 "org.apache.sling.starter-14": "2026-03-09",
@@ -3673,7 +3677,7 @@
 "org.apache.sling.validation.test-services-1.0.4": "2017-12-21",
 "org.apache.sling.xss-2.4.10": "2026-02-10",
 "org.apache.sling.xss.compat-1.1.0": "2017-05-11",
-"scriptingbundle-maven-plugin-0.5.2": "2021-12-21",
+"scriptingbundle-maven-plugin-0.5.4": "2026-08-24",
 "sling-6": "2013-01-21",
 "sling-66": "2026-02-26",
 "sling-archetype-1.0.16": "2026-03-12",
