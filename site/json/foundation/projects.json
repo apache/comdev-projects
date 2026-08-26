@@ -5849,9 +5849,9 @@
 "programming-language": "Java",
 "release": [
 {
-"created": "2026-06-24",
+"created": "2026-08-25",
 "name": "Alpha",
-"revision": "5.0-M2"
+"revision": "5.0-M3"
 },
 {
 "created": "2025-11-19",
@@ -11773,6 +11773,31 @@
 "http://git@github.com:apache/incubator-annotator.git"
 ],
 "shortdesc": "Apache Annotator provides annotation enabling code for browsers, servers, and humans."
+},
+"incubator-pouchdb": {
+"bug-database": "https://github.com/apache/pouchdb/issues",
+"category": "content, database, http, mobile, network-client",
+"created": "2026-07-01",
+"description": "PouchDB is an open-source JavaScript database inspired by Apache CouchDB that is designed to run well within the browser.\n\nPouchDB was created to help web developers build applications that work as well offline as they do online.\n\nIt enables applications to store data locally while offline, then synchronize it with CouchDB and compatible servers when the application is back online, keeping the user's data in sync no matter where they next log in.",
+"doap": "https://pouchdb.apache.org/static/doap_PouchDB.rdf",
+"download-page": "https://pouchdb.apache.org/download.html",
+"homepage": "https://pouchdb.apache.org",
+"license": "https://spdx.org/licenses/Apache-2.0",
+"mailing-list": "https://lists.apache.org/list.html?dev@pouchdb.apache.org",
+"name": "Apache PouchDB",
+"pmc": "incubator",
+"programming-language": "JavaScript",
+"release": [
+{
+"created": "2024-05-24",
+"name": "Apache PouchDB ",
+"revision": "9.0.0"
+}
+],
+"repository": [
+"https://github.com/apache/pouchdb"
+],
+"shortdesc": "Apache PouchDB is an open-source JavaScript database inspired by Apache CouchDB that is designed to run well within the browser."
 },
 "inlong": {
 "bug-database": "https://github.com/apache/inlong/issues",
