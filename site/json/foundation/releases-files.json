@@ -2549,8 +2549,8 @@
 "apache-datasketches-python-5.2.0": [
 "datasketches/python/5.2.0/apache-datasketches-python-5.2.0-src.zip"
 ],
-"apache-datasketches-rust-0.4.0": [
-"datasketches/rust/0.4.0/apache-datasketches-rust-0.4.0-src.zip"
+"apache-datasketches-rust-0.5.0": [
+"datasketches/rust/0.5.0/apache-datasketches-rust-0.5.0-src.zip"
 ],
 "datasketches-1.7.0": [
 "datasketches/postgresql/1.7.0/pgxn.org/datasketches-1.7.0.zip"
@@ -4209,14 +4209,8 @@
 ]
 },
 "fory": {
-"apache-fory-1.6.0": [
-"fory/1.6.0/apache-fory-1.6.0-src.tar.gz"
-],
-"apache-fory-1.6.1": [
-"fory/1.6.1/apache-fory-1.6.1-src.tar.gz"
-],
-"apache-fory-1.7.0": [
-"fory/1.7.0/apache-fory-1.7.0-src.tar.gz"
+"apache-fory-1.7.1": [
+"fory/1.7.1/apache-fory-1.7.1-src.tar.gz"
 ]
 },
 "freemarker": {
@@ -5495,6 +5489,9 @@
 ],
 "apache-impala-4.5.0": [
 "impala/4.5.0/apache-impala-4.5.0.tar.gz"
+],
+"apache-impala-4.5.2": [
+"impala/4.5.2/apache-impala-4.5.2.tar.gz"
 ]
 },
 "incubator-amoro": {
@@ -7292,6 +7289,9 @@
 "maven-script-interpreter-1.7": [
 "maven/shared/maven-script-interpreter-1.7-source-release.zip"
 ],
+"maven-script-interpreter-1.8": [
+"maven/shared/maven-script-interpreter-1.8-source-release.zip"
+],
 "maven-scripting-plugin-3.1.0": [
 "maven/plugins/maven-scripting-plugin-3.1.0-source-release.zip"
 ],
@@ -7485,6 +7485,10 @@
 "myfaces/source/myfaces-core-assembly-2.3-next-M8-src.tar.gz",
 "myfaces/source/myfaces-core-assembly-2.3-next-M8-src.zip"
 ],
+"myfaces-core-2.3-next-M9": [
+"myfaces/source/myfaces-core-assembly-2.3-next-M9-src.tar.gz",
+"myfaces/source/myfaces-core-assembly-2.3-next-M9-src.zip"
+],
 "myfaces-core-2.3.10": [
 "myfaces/source/myfaces-core-assembly-2.3.10-src.tar.gz",
 "myfaces/source/myfaces-core-assembly-2.3.10-src.zip"
@@ -7492,6 +7496,10 @@
 "myfaces-core-2.3.11": [
 "myfaces/source/myfaces-core-assembly-2.3.11-src.tar.gz",
 "myfaces/source/myfaces-core-assembly-2.3.11-src.zip"
+],
+"myfaces-core-2.3.12": [
+"myfaces/source/myfaces-core-assembly-2.3.12-src.tar.gz",
+"myfaces/source/myfaces-core-assembly-2.3.12-src.zip"
 ],
 "myfaces-core-2.3.9": [
 "myfaces/source/myfaces-core-assembly-2.3.9-src.tar.gz",
@@ -7508,6 +7516,10 @@
 "myfaces-core-3.0.3": [
 "myfaces/source/myfaces-core-assembly-3.0.3-src.tar.gz",
 "myfaces/source/myfaces-core-assembly-3.0.3-src.zip"
+],
+"myfaces-core-3.0.4": [
+"myfaces/source/myfaces-core-assembly-3.0.4-src.tar.gz",
+"myfaces/source/myfaces-core-assembly-3.0.4-src.zip"
 ],
 "myfaces-core-4.0.0": [
 "myfaces/source/myfaces-core-assembly-4.0.0-src.tar.gz",
@@ -7545,6 +7557,10 @@
 "myfaces/source/myfaces-core-assembly-4.0.3-src.tar.gz",
 "myfaces/source/myfaces-core-assembly-4.0.3-src.zip"
 ],
+"myfaces-core-4.0.4": [
+"myfaces/source/myfaces-core-assembly-4.0.4-src.tar.gz",
+"myfaces/source/myfaces-core-assembly-4.0.4-src.zip"
+],
 "myfaces-core-4.1.0": [
 "myfaces/source/myfaces-core-assembly-4.1.0-src.tar.gz",
 "myfaces/source/myfaces-core-assembly-4.1.0-src.zip"
@@ -7564,6 +7580,10 @@
 "myfaces-core-4.1.1": [
 "myfaces/source/myfaces-core-assembly-4.1.1-src.tar.gz",
 "myfaces/source/myfaces-core-assembly-4.1.1-src.zip"
+],
+"myfaces-core-4.1.4": [
+"myfaces/source/myfaces-core-assembly-4.1.4-src.tar.gz",
+"myfaces/source/myfaces-core-assembly-4.1.4-src.zip"
 ],
 "myfaces-extcdi-jsf12-1.0.6": [
 "myfaces/source/myfaces-extcdi-assembly-jsf12-1.0.6-src.tar.gz",
@@ -8042,113 +8062,41 @@
 ]
 },
 "opendal": {
-"apache-opendal-bindings-c-0.47.0": [
-"opendal/0.58.0/apache-opendal-bindings-c-0.47.0-src.tar.gz"
+"apache-opendal-bindings-c-0.47.3": [
+"opendal/0.59.0/apache-opendal-bindings-c-0.47.3-src.tar.gz"
 ],
-"apache-opendal-bindings-c-0.47.1": [
-"opendal/0.58.1/apache-opendal-bindings-c-0.47.1-src.tar.gz"
+"apache-opendal-bindings-cpp-0.45.30": [
+"opendal/0.59.0/apache-opendal-bindings-cpp-0.45.30-src.tar.gz"
 ],
-"apache-opendal-bindings-c-0.47.2": [
-"opendal/0.58.2/apache-opendal-bindings-c-0.47.2-src.tar.gz"
+"apache-opendal-bindings-dotnet-0.2.0": [
+"opendal/0.59.0/apache-opendal-bindings-dotnet-0.2.0-src.tar.gz"
 ],
-"apache-opendal-bindings-cpp-0.45.27": [
-"opendal/0.58.0/apache-opendal-bindings-cpp-0.45.27-src.tar.gz"
+"apache-opendal-bindings-java-0.50.3": [
+"opendal/0.59.0/apache-opendal-bindings-java-0.50.3-src.tar.gz"
 ],
-"apache-opendal-bindings-cpp-0.45.28": [
-"opendal/0.58.1/apache-opendal-bindings-cpp-0.45.28-src.tar.gz"
+"apache-opendal-bindings-nodejs-0.49.8": [
+"opendal/0.59.0/apache-opendal-bindings-nodejs-0.49.8-src.tar.gz"
 ],
-"apache-opendal-bindings-cpp-0.45.29": [
-"opendal/0.58.2/apache-opendal-bindings-cpp-0.45.29-src.tar.gz"
+"apache-opendal-bindings-python-0.47.7": [
+"opendal/0.59.0/apache-opendal-bindings-python-0.47.7-src.tar.gz"
 ],
-"apache-opendal-bindings-dotnet-0.1.0": [
-"opendal/0.58.0/apache-opendal-bindings-dotnet-0.1.0-src.tar.gz"
+"apache-opendal-bindings-ruby-0.1.11": [
+"opendal/0.59.0/apache-opendal-bindings-ruby-0.1.11-src.tar.gz"
 ],
-"apache-opendal-bindings-dotnet-0.1.1": [
-"opendal/0.58.1/apache-opendal-bindings-dotnet-0.1.1-src.tar.gz"
+"apache-opendal-core-0.59.0": [
+"opendal/0.59.0/apache-opendal-core-0.59.0-src.tar.gz"
 ],
-"apache-opendal-bindings-dotnet-0.1.2": [
-"opendal/0.58.2/apache-opendal-bindings-dotnet-0.1.2-src.tar.gz"
+"apache-opendal-integrations-dav-server-0.7.6": [
+"opendal/0.59.0/apache-opendal-integrations-dav-server-0.7.6-src.tar.gz"
 ],
-"apache-opendal-bindings-java-0.50.0": [
-"opendal/0.58.0/apache-opendal-bindings-java-0.50.0-src.tar.gz"
+"apache-opendal-integrations-object_store-0.60.0": [
+"opendal/0.59.0/apache-opendal-integrations-object_store-0.60.0-src.tar.gz"
 ],
-"apache-opendal-bindings-java-0.50.1": [
-"opendal/0.58.1/apache-opendal-bindings-java-0.50.1-src.tar.gz"
+"apache-opendal-integrations-parquet-0.10.0": [
+"opendal/0.59.0/apache-opendal-integrations-parquet-0.10.0-src.tar.gz"
 ],
-"apache-opendal-bindings-java-0.50.2": [
-"opendal/0.58.2/apache-opendal-bindings-java-0.50.2-src.tar.gz"
-],
-"apache-opendal-bindings-nodejs-0.49.5": [
-"opendal/0.58.0/apache-opendal-bindings-nodejs-0.49.5-src.tar.gz"
-],
-"apache-opendal-bindings-nodejs-0.49.6": [
-"opendal/0.58.1/apache-opendal-bindings-nodejs-0.49.6-src.tar.gz"
-],
-"apache-opendal-bindings-nodejs-0.49.7": [
-"opendal/0.58.2/apache-opendal-bindings-nodejs-0.49.7-src.tar.gz"
-],
-"apache-opendal-bindings-python-0.47.3": [
-"opendal/0.58.0/apache-opendal-bindings-python-0.47.3-src.tar.gz"
-],
-"apache-opendal-bindings-python-0.47.4": [
-"opendal/0.58.1/apache-opendal-bindings-python-0.47.4-src.tar.gz"
-],
-"apache-opendal-bindings-python-0.47.6": [
-"opendal/0.58.2/apache-opendal-bindings-python-0.47.6-src.tar.gz"
-],
-"apache-opendal-bindings-ruby-0.1.10": [
-"opendal/0.58.2/apache-opendal-bindings-ruby-0.1.10-src.tar.gz"
-],
-"apache-opendal-bindings-ruby-0.1.8": [
-"opendal/0.58.0/apache-opendal-bindings-ruby-0.1.8-src.tar.gz"
-],
-"apache-opendal-bindings-ruby-0.1.9": [
-"opendal/0.58.1/apache-opendal-bindings-ruby-0.1.9-src.tar.gz"
-],
-"apache-opendal-core-0.58.0": [
-"opendal/0.58.0/apache-opendal-core-0.58.0-src.tar.gz"
-],
-"apache-opendal-core-0.58.1": [
-"opendal/0.58.1/apache-opendal-core-0.58.1-src.tar.gz"
-],
-"apache-opendal-core-0.58.2": [
-"opendal/0.58.2/apache-opendal-core-0.58.2-src.tar.gz"
-],
-"apache-opendal-integrations-dav-server-0.7.3": [
-"opendal/0.58.0/apache-opendal-integrations-dav-server-0.7.3-src.tar.gz"
-],
-"apache-opendal-integrations-dav-server-0.7.4": [
-"opendal/0.58.1/apache-opendal-integrations-dav-server-0.7.4-src.tar.gz"
-],
-"apache-opendal-integrations-dav-server-0.7.5": [
-"opendal/0.58.2/apache-opendal-integrations-dav-server-0.7.5-src.tar.gz"
-],
-"apache-opendal-integrations-object_store-0.58.0": [
-"opendal/0.58.0/apache-opendal-integrations-object_store-0.58.0-src.tar.gz"
-],
-"apache-opendal-integrations-object_store-0.58.1": [
-"opendal/0.58.1/apache-opendal-integrations-object_store-0.58.1-src.tar.gz"
-],
-"apache-opendal-integrations-object_store-0.59.0": [
-"opendal/0.58.2/apache-opendal-integrations-object_store-0.59.0-src.tar.gz"
-],
-"apache-opendal-integrations-parquet-0.8.2": [
-"opendal/0.58.0/apache-opendal-integrations-parquet-0.8.2-src.tar.gz"
-],
-"apache-opendal-integrations-parquet-0.9.0": [
-"opendal/0.58.1/apache-opendal-integrations-parquet-0.9.0-src.tar.gz"
-],
-"apache-opendal-integrations-parquet-0.9.1": [
-"opendal/0.58.2/apache-opendal-integrations-parquet-0.9.1-src.tar.gz"
-],
-"apache-opendal-integrations-unftp-sbe-0.4.3": [
-"opendal/0.58.0/apache-opendal-integrations-unftp-sbe-0.4.3-src.tar.gz"
-],
-"apache-opendal-integrations-unftp-sbe-0.4.4": [
-"opendal/0.58.1/apache-opendal-integrations-unftp-sbe-0.4.4-src.tar.gz"
-],
-"apache-opendal-integrations-unftp-sbe-0.4.5": [
-"opendal/0.58.2/apache-opendal-integrations-unftp-sbe-0.4.5-src.tar.gz"
+"apache-opendal-integrations-unftp-sbe-0.4.6": [
+"opendal/0.59.0/apache-opendal-integrations-unftp-sbe-0.4.6-src.tar.gz"
 ],
 "apache-opendal-reqsign-0.20.0": [
 "opendal/reqsign-0.20.0/apache-opendal-reqsign-0.20.0-src.tar.gz"
@@ -8558,6 +8506,9 @@
 ],
 "apache-parquet-1.18.0": [
 "parquet/apache-parquet-1.18.0/apache-parquet-1.18.0.tar.gz"
+],
+"apache-parquet-1.18.1": [
+"parquet/apache-parquet-1.18.1/apache-parquet-1.18.1.tar.gz"
 ],
 "apache-parquet-cpp-1.5.0": [
 "parquet/apache-parquet-cpp-1.5.0/apache-parquet-cpp-1.5.0.tar.gz"
