@@ -19364,26 +19364,19 @@
 "shortdesc": "Apache Spark is a fast and general engine for large-scale data processing."
 },
 "steve": {
-"bug-database": "https://issues.apache.org/jira/browse/STEVE",
+"bug-database": "https://github.com/apache/steve/issues",
 "category": "library",
-"created": "2014-06-13",
 "description": "Apache STeVe is a collection of online voting tools, used by the ASF, to handle STV and other voting methods.",
-"doap": "http://svn.apache.org/repos/asf/steve/trunk/doap_steve.rdf",
-"download-page": "http://steve.apache.org/downloads.html",
-"homepage": "http://steve.apache.org",
-"license": "http://spdx.org/licenses/Apache-2.0",
-"mailing-list": "http://steve.apache.org/support.html",
-"maintainer": [
-{
-"mbox": "mailto:jim@apache.org",
-"name": "Jim Jagielski"
-}
-],
-"name": "Apache Steve",
+"doap": "https://steve.apache.org/doap.rdf",
+"download-page": "https://steve.apache.org/downloads/",
+"homepage": "https://steve.apache.org",
+"license": "https://www.apache.org/licenses/LICENSE-2.0",
+"mailing-list": "https://steve.apache.org/community/",
+"name": "Apache STeVe",
 "pmc": "steve",
 "programming-language": "Perl, Python",
 "repository": [
-"https://svn.apache.org/repos/asf/steve/trunk"
+"https://github.com/apache/steve.git"
 ],
 "shortdesc": "STV Voting Tools"
 },
