@@ -933,11 +933,11 @@
 "apache-arrow-nanoarrow-0.9.0": [
 "arrow/apache-arrow-nanoarrow-0.9.0/apache-arrow-nanoarrow-0.9.0.tar.gz"
 ],
-"apache-arrow-object-store-rs-0.14.1": [
-"arrow/arrow-object-store-rs-0.14.1/apache-arrow-object-store-rs-0.14.1.tar.gz"
+"apache-arrow-object-store-rs-0.14.2": [
+"arrow/arrow-object-store-rs-0.14.2/apache-arrow-object-store-rs-0.14.2.tar.gz"
 ],
-"apache-arrow-rs-59.3.0": [
-"arrow/arrow-rs-59.3.0/apache-arrow-rs-59.3.0.tar.gz"
+"apache-arrow-rs-60.0.0": [
+"arrow/arrow-rs-60.0.0/apache-arrow-rs-60.0.0.tar.gz"
 ],
 "apache-arrow-swift-21.0.0": [
 "arrow/apache-arrow-swift-21.0.0/apache-arrow-swift-21.0.0.tar.gz"
@@ -1222,8 +1222,8 @@
 "bookkeeper-4.17.4": [
 "bookkeeper/bookkeeper-4.17.4/bookkeeper-4.17.4-src.tar.gz"
 ],
-"bookkeeper-4.18.0": [
-"bookkeeper/bookkeeper-4.18.0/bookkeeper-4.18.0-src.tar.gz"
+"bookkeeper-4.18.1": [
+"bookkeeper/bookkeeper-4.18.1/bookkeeper-4.18.1-src.tar.gz"
 ],
 "distributedlog-0.5.0": [
 "bookkeeper/distributedlog/0.5.0/distributedlog-0.5.0-src.tar.gz"
@@ -4128,12 +4128,6 @@
 "flink-connector-rabbitmq-3.0.1": [
 "flink/flink-connector-rabbitmq-3.0.1/flink-connector-rabbitmq-3.0.1-src.tgz"
 ],
-"flink-kubernetes-operator-1.12.1": [
-"flink/flink-kubernetes-operator-1.12.1/flink-kubernetes-operator-1.12.1-src.tgz"
-],
-"flink-kubernetes-operator-1.12.1-helm": [
-"flink/flink-kubernetes-operator-1.12.1/flink-kubernetes-operator-1.12.1-helm.tgz"
-],
 "flink-kubernetes-operator-1.13.0": [
 "flink/flink-kubernetes-operator-1.13.0/flink-kubernetes-operator-1.13.0-src.tgz"
 ],
@@ -4151,6 +4145,12 @@
 ],
 "flink-kubernetes-operator-1.15.0-helm": [
 "flink/flink-kubernetes-operator-1.15.0/flink-kubernetes-operator-1.15.0-helm.tgz"
+],
+"flink-kubernetes-operator-1.16.0": [
+"flink/flink-kubernetes-operator-1.16.0/flink-kubernetes-operator-1.16.0-src.tgz"
+],
+"flink-kubernetes-operator-1.16.0-helm": [
+"flink/flink-kubernetes-operator-1.16.0/flink-kubernetes-operator-1.16.0-helm.tgz"
 ],
 "flink-ml-2.2.0": [
 "flink/flink-ml-2.2.0/flink-ml-2.2.0-src.tgz"
@@ -4239,6 +4239,9 @@
 ],
 "apache-fory-1.7.2": [
 "fory/1.7.2/apache-fory-1.7.2-src.tar.gz"
+],
+"apache-fory-1.7.3": [
+"fory/1.7.3/apache-fory-1.7.3-src.tar.gz"
 ]
 },
 "freemarker": {
@@ -7158,8 +7161,8 @@
 "maven-archiver-4.0.0-beta-5": [
 "maven/shared/maven-archiver-4.0.0-beta-5-source-release.zip"
 ],
-"maven-artifact-plugin-3.6.1": [
-"maven/plugins/maven-artifact-plugin-3.6.1-source-release.zip"
+"maven-artifact-plugin-3.7.0": [
+"maven/plugins/maven-artifact-plugin-3.7.0-source-release.zip"
 ],
 "maven-artifact-transfer-0.13.1": [
 "maven/shared/maven-artifact-transfer-0.13.1-source-release.zip"
@@ -7185,17 +7188,11 @@
 "maven-common-artifact-filters-3.4.0": [
 "maven/shared/maven-common-artifact-filters-3.4.0-source-release.zip"
 ],
-"maven-compiler-plugin-3.15.0": [
-"maven/plugins/maven-compiler-plugin-3.15.0-source-release.zip"
-],
 "maven-compiler-plugin-3.16.0": [
 "maven/plugins/maven-compiler-plugin-3.16.0-source-release.zip"
 ],
 "maven-compiler-plugin-4.0.0-beta-5": [
 "maven/plugins/maven-compiler-plugin-4.0.0-beta-5-source-release.zip"
-],
-"maven-dependency-analyzer-1.17.1": [
-"maven/shared/maven-dependency-analyzer-1.17.1-source-release.zip"
 ],
 "maven-dependency-analyzer-1.17.2": [
 "maven/shared/maven-dependency-analyzer-1.17.2-source-release.zip"
@@ -7206,11 +7203,11 @@
 "maven-dependency-tree-3.3.0": [
 "maven/shared/maven-dependency-tree-3.3.0-source-release.zip"
 ],
-"maven-deploy-plugin-3.1.4": [
-"maven/plugins/maven-deploy-plugin-3.1.4-source-release.zip"
+"maven-deploy-plugin-3.2.0": [
+"maven/plugins/maven-deploy-plugin-3.2.0-source-release.zip"
 ],
-"maven-deploy-plugin-4.0.0-beta-2": [
-"maven/plugins/maven-deploy-plugin-4.0.0-beta-2-source-release.zip"
+"maven-deploy-plugin-4.0.0-beta-3": [
+"maven/plugins/maven-deploy-plugin-4.0.0-beta-3-source-release.zip"
 ],
 "maven-doap-plugin-3.0.0-M1": [
 "maven/plugins/maven-doap-plugin-3.0.0-M1-source-release.zip"
@@ -7242,11 +7239,11 @@
 "maven-info-reports-plugin-3.9.0": [
 "maven/plugins/maven-project-info-reports-plugin-3.9.0-source-release.zip"
 ],
-"maven-install-plugin-3.1.4": [
-"maven/plugins/maven-install-plugin-3.1.4-source-release.zip"
+"maven-install-plugin-3.2.0": [
+"maven/plugins/maven-install-plugin-3.2.0-source-release.zip"
 ],
-"maven-install-plugin-4.0.0-beta-2": [
-"maven/plugins/maven-install-plugin-4.0.0-beta-2-source-release.zip"
+"maven-install-plugin-4.0.0-beta-3": [
+"maven/plugins/maven-install-plugin-4.0.0-beta-3-source-release.zip"
 ],
 "maven-invoker-3.3.0": [
 "maven/shared/maven-invoker-3.3.0-source-release.zip"
@@ -7301,14 +7298,8 @@
 "maven-plugin-testing-3.5.1": [
 "maven/plugin-testing/maven-plugin-testing-3.5.1-source-release.zip"
 ],
-"maven-plugin-tools-3.15.2": [
-"maven/plugin-tools/maven-plugin-tools-3.15.2-source-release.zip"
-],
 "maven-plugin-tools-3.16.0": [
 "maven/plugin-tools/maven-plugin-tools-3.16.0-source-release.zip"
-],
-"maven-plugin-tools-4.0.0-beta-2": [
-"maven/plugin-tools/maven-plugin-tools-4.0.0-beta-2-source-release.zip"
 ],
 "maven-plugin-tools-4.0.0-beta-3": [
 "maven/plugin-tools/maven-plugin-tools-4.0.0-beta-3-source-release.zip"
@@ -7358,9 +7349,6 @@
 "maven-scm-publish-plugin-3.3.0": [
 "maven/plugins/maven-scm-publish-plugin-3.3.0-source-release.zip"
 ],
-"maven-script-interpreter-1.7": [
-"maven/shared/maven-script-interpreter-1.7-source-release.zip"
-],
 "maven-script-interpreter-1.8": [
 "maven/shared/maven-script-interpreter-1.8-source-release.zip"
 ],
@@ -7405,9 +7393,6 @@
 ],
 "maven-wrapper-3.3.4": [
 "maven/wrapper/maven-wrapper-3.3.4-source-release.zip"
-],
-"surefire-3.5.6": [
-"maven/surefire/surefire-3.5.6-source-release.zip"
 ],
 "surefire-3.6.0": [
 "maven/surefire/surefire-3.6.0-source-release.zip"
@@ -8055,6 +8040,9 @@
 "apache-nuttx-13.0.0": [
 "nuttx/13.0.0/apache-nuttx-13.0.0.tar.gz"
 ],
+"apache-nuttx-13.0.1": [
+"nuttx/13.0.1/apache-nuttx-13.0.1.tar.gz"
+],
 "apache-nuttx-9.1.1-incubating": [
 "nuttx/9.1.1/apache-nuttx-9.1.1-incubating.tar.gz"
 ],
@@ -8124,6 +8112,9 @@
 "apache-nuttx-apps-13.0.0": [
 "nuttx/13.0.0/apache-nuttx-apps-13.0.0.tar.gz"
 ],
+"apache-nuttx-apps-13.0.1": [
+"nuttx/13.0.1/apache-nuttx-apps-13.0.1.tar.gz"
+],
 "apache-nuttx-apps-9.1.1-incubating": [
 "nuttx/9.1.1/apache-nuttx-apps-9.1.1-incubating.tar.gz"
 ]
@@ -8143,11 +8134,17 @@
 "apache-opendal-bindings-c-0.47.4": [
 "opendal/0.59.1/apache-opendal-bindings-c-0.47.4-src.tar.gz"
 ],
+"apache-opendal-bindings-c-0.47.5": [
+"opendal/apache-opendal-bindings-c-0.47.5-src.tar.gz"
+],
 "apache-opendal-bindings-cpp-0.45.30": [
 "opendal/0.59.0/apache-opendal-bindings-cpp-0.45.30-src.tar.gz"
 ],
 "apache-opendal-bindings-cpp-0.45.31": [
 "opendal/0.59.1/apache-opendal-bindings-cpp-0.45.31-src.tar.gz"
+],
+"apache-opendal-bindings-cpp-0.45.32": [
+"opendal/apache-opendal-bindings-cpp-0.45.32-src.tar.gz"
 ],
 "apache-opendal-bindings-dotnet-0.2.0": [
 "opendal/0.59.0/apache-opendal-bindings-dotnet-0.2.0-src.tar.gz"
@@ -8155,11 +8152,20 @@
 "apache-opendal-bindings-dotnet-0.2.1": [
 "opendal/0.59.1/apache-opendal-bindings-dotnet-0.2.1-src.tar.gz"
 ],
+"apache-opendal-bindings-dotnet-0.2.2": [
+"opendal/apache-opendal-bindings-dotnet-0.2.2-src.tar.gz"
+],
 "apache-opendal-bindings-java-0.50.3": [
 "opendal/0.59.0/apache-opendal-bindings-java-0.50.3-src.tar.gz"
 ],
 "apache-opendal-bindings-java-0.50.4": [
 "opendal/0.59.1/apache-opendal-bindings-java-0.50.4-src.tar.gz"
+],
+"apache-opendal-bindings-java-0.50.5": [
+"opendal/apache-opendal-bindings-java-0.50.5-src.tar.gz"
+],
+"apache-opendal-bindings-nodejs-0.49.10": [
+"opendal/apache-opendal-bindings-nodejs-0.49.10-src.tar.gz"
 ],
 "apache-opendal-bindings-nodejs-0.49.8": [
 "opendal/0.59.0/apache-opendal-bindings-nodejs-0.49.8-src.tar.gz"
@@ -8173,11 +8179,17 @@
 "apache-opendal-bindings-python-0.47.8": [
 "opendal/0.59.1/apache-opendal-bindings-python-0.47.8-src.tar.gz"
 ],
+"apache-opendal-bindings-python-0.47.9": [
+"opendal/apache-opendal-bindings-python-0.47.9-src.tar.gz"
+],
 "apache-opendal-bindings-ruby-0.1.11": [
 "opendal/0.59.0/apache-opendal-bindings-ruby-0.1.11-src.tar.gz"
 ],
 "apache-opendal-bindings-ruby-0.1.12": [
 "opendal/0.59.1/apache-opendal-bindings-ruby-0.1.12-src.tar.gz"
+],
+"apache-opendal-bindings-ruby-0.1.13": [
+"opendal/apache-opendal-bindings-ruby-0.1.13-src.tar.gz"
 ],
 "apache-opendal-core-0.59.0": [
 "opendal/0.59.0/apache-opendal-core-0.59.0-src.tar.gz"
@@ -8185,11 +8197,17 @@
 "apache-opendal-core-0.59.1": [
 "opendal/0.59.1/apache-opendal-core-0.59.1-src.tar.gz"
 ],
+"apache-opendal-core-0.59.2": [
+"opendal/apache-opendal-core-0.59.2-src.tar.gz"
+],
 "apache-opendal-integrations-dav-server-0.7.6": [
 "opendal/0.59.0/apache-opendal-integrations-dav-server-0.7.6-src.tar.gz"
 ],
 "apache-opendal-integrations-dav-server-0.7.7": [
 "opendal/0.59.1/apache-opendal-integrations-dav-server-0.7.7-src.tar.gz"
+],
+"apache-opendal-integrations-dav-server-0.7.8": [
+"opendal/apache-opendal-integrations-dav-server-0.7.8-src.tar.gz"
 ],
 "apache-opendal-integrations-object_store-0.60.0": [
 "opendal/0.59.0/apache-opendal-integrations-object_store-0.60.0-src.tar.gz"
@@ -8197,17 +8215,26 @@
 "apache-opendal-integrations-object_store-0.60.1": [
 "opendal/0.59.1/apache-opendal-integrations-object_store-0.60.1-src.tar.gz"
 ],
+"apache-opendal-integrations-object_store-0.60.2": [
+"opendal/apache-opendal-integrations-object_store-0.60.2-src.tar.gz"
+],
 "apache-opendal-integrations-parquet-0.10.0": [
 "opendal/0.59.0/apache-opendal-integrations-parquet-0.10.0-src.tar.gz"
 ],
 "apache-opendal-integrations-parquet-0.10.1": [
 "opendal/0.59.1/apache-opendal-integrations-parquet-0.10.1-src.tar.gz"
 ],
+"apache-opendal-integrations-parquet-0.10.2": [
+"opendal/apache-opendal-integrations-parquet-0.10.2-src.tar.gz"
+],
 "apache-opendal-integrations-unftp-sbe-0.4.6": [
 "opendal/0.59.0/apache-opendal-integrations-unftp-sbe-0.4.6-src.tar.gz"
 ],
 "apache-opendal-integrations-unftp-sbe-0.4.7": [
 "opendal/0.59.1/apache-opendal-integrations-unftp-sbe-0.4.7-src.tar.gz"
+],
+"apache-opendal-integrations-unftp-sbe-0.4.8": [
+"opendal/apache-opendal-integrations-unftp-sbe-0.4.8-src.tar.gz"
 ],
 "apache-opendal-reqsign-0.20.0": [
 "opendal/reqsign-0.20.0/apache-opendal-reqsign-0.20.0-src.tar.gz"
@@ -11693,13 +11720,21 @@
 "tomcat/tomcat-10/v10.1.59/src/apache-tomcat-10.1.59-src.tar.gz",
 "tomcat/tomcat-10/v10.1.59/src/apache-tomcat-10.1.59-src.zip"
 ],
-"apache-tomcat-11.0.25": [
-"tomcat/tomcat-11/v11.0.25/src/apache-tomcat-11.0.25-src.tar.gz",
-"tomcat/tomcat-11/v11.0.25/src/apache-tomcat-11.0.25-src.zip"
+"apache-tomcat-10.1.60": [
+"tomcat/tomcat-10/v10.1.60/src/apache-tomcat-10.1.60-src.tar.gz",
+"tomcat/tomcat-10/v10.1.60/src/apache-tomcat-10.1.60-src.zip"
+],
+"apache-tomcat-11.0.26": [
+"tomcat/tomcat-11/v11.0.26/src/apache-tomcat-11.0.26-src.tar.gz",
+"tomcat/tomcat-11/v11.0.26/src/apache-tomcat-11.0.26-src.zip"
 ],
 "apache-tomcat-9.0.121": [
 "tomcat/tomcat-9/v9.0.121/src/apache-tomcat-9.0.121-src.tar.gz",
 "tomcat/tomcat-9/v9.0.121/src/apache-tomcat-9.0.121-src.zip"
+],
+"apache-tomcat-9.0.122": [
+"tomcat/tomcat-9/v9.0.122/src/apache-tomcat-9.0.122-src.tar.gz",
+"tomcat/tomcat-9/v9.0.122/src/apache-tomcat-9.0.122-src.zip"
 ],
 "jakartaee-migration-1.0.12": [
 "tomcat/jakartaee-migration/v1.0.12/source/jakartaee-migration-1.0.12-src.tar.gz",
@@ -12084,6 +12119,9 @@
 ],
 "apache-tvm-ffi-v0.1.13": [
 "tvm/tvm-ffi-v0.1.13/apache-tvm-ffi-src-v0.1.13.tar.gz"
+],
+"apache-tvm-ffi-v0.1.14": [
+"tvm/tvm-ffi-v0.1.14/apache-tvm-ffi-src-v0.1.14.tar.gz"
 ],
 "apache-tvm-ffi-v0.1.2": [
 "tvm/tvm-ffi-v0.1.2/apache-tvm-ffi-src-v0.1.2.tar.gz"
