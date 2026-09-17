@@ -58,6 +58,9 @@ VALID_CATS = dict(zip([j.lower() for j in cats], cats))
 # Tags whose values should be stored as JSON arrays, not comma-joined strings
 MULTI_VALUE_TAGS = {'category', 'programming-language'}
 
+# Accumulated validation warnings (written to doap-warnings.json at end of run)
+_doap_warnings = []
+
 # Canonicalise without adding to suggested languages
 VALID_LANG['bash'] = 'Bash'
 
@@ -86,11 +89,25 @@ def validate(json, tag, valid, pid, url):
                         printNotice(f"ERROR: illegal (overlong: {len(val)} >30) value '{val}' for {pid} in {url}",
                                 body = f'Error in {url}\nUnexpected value: "{val}"\n{SYNTAX_MSG[tag]}',
                                 project=pid)
+                        _doap_warnings.append({
+                            'type': 'error', 'field': tag, 'value': val,
+                            'project': pid, 'url': url,
+                            'message': f"Illegal (overlong) value '{val}'"
+                        })
                 else:
                     print(f"WARN: unexpected {tag} value '{val}' for {pid} in {url}")#, project=pid)
+                    _doap_warnings.append({
+                        'type': 'unknown_value', 'field': tag, 'value': val,
+                        'project': pid, 'url': url
+                    })
                     outvals.append(val) # TODO flag this to show invalid entries
             elif canon != val:
                 print(f"WARN: {tag} '{val}' should be '{canon}' for {pid} in {url}")
+                _doap_warnings.append({
+                    'type': 'case_mismatch', 'field': tag,
+                    'current': val, 'expected': canon,
+                    'project': pid, 'url': url
+                })
                 outvals.append(canon)
             else:
                 outvals.append(val)
@@ -457,6 +474,9 @@ for s in itemlist :
 
 for c in committeesWithoutProject:
     print("WARN: adding no-tlp-doap %s " % c)
+    _doap_warnings.append({
+        'type': 'missing_doap', 'project': c
+    })
     pjson = {
         'name': "Apache %s" % c.capitalize(),
         'homepage': "https://%s.apache.org" % c,
@@ -496,5 +516,50 @@ else:
         except FileNotFoundError: # should not happen
             pass
 
+# Write DOAP validation report for the Validation page
+if _doap_warnings:
+    from collections import defaultdict
+    warn_cats = defaultdict(list)
+    warn_langs = defaultdict(list)
+    warn_case = []
+    warn_missing = []
+    warn_by_project = defaultdict(list)
+    warn_errors = []
+
+    for w in _doap_warnings:
+        if w['type'] == 'missing_doap':
+            warn_missing.append(w['project'])
+        elif w['type'] == 'unknown_value':
+            bucket = warn_cats if w['field'] == 'category' else warn_langs
+            bucket[w['value']].append({'project': w['project'], 'url': w['url']})
+            warn_by_project[w['project']].append(w)
+        elif w['type'] == 'case_mismatch':
+            warn_case.append(w)
+            warn_by_project[w['project']].append(w)
+        elif w['type'] == 'error':
+            warn_errors.append(w)
+            warn_by_project[w['project']].append(w)
+
+    doap_report = {
+        'generated': datetime.now().strftime('%Y-%m-%d'),
+        'summary': {
+            'total_warnings': len(_doap_warnings),
+            'unknown_categories': sum(len(v) for v in warn_cats.values()),
+            'unknown_languages': sum(len(v) for v in warn_langs.values()),
+            'case_mismatches': len(warn_case),
+            'missing_doap': len(warn_missing),
+            'projects_with_warnings': len(warn_by_project),
+        },
+        'unknown_categories': dict(warn_cats),
+        'unknown_languages': dict(warn_langs),
+        'case_mismatches': warn_case,
+        'missing_doap': sorted(warn_missing),
+        'by_project': dict(warn_by_project),
+        'errors': warn_errors,
+    }
+    warnings_path = os.path.join(SITEDIR, 'json', 'foundation', 'doap-warnings.json')
+    with open(warnings_path, 'w', encoding='utf-8') as f:
+        json.dump(doap_report, f, indent=2)
+    print("Wrote %d warnings to %s" % (len(_doap_warnings), warnings_path))
 
 print("Done!")

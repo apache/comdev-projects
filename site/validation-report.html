@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang='en'>
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="styles.css">
+   <script src="js/jquery.js" type="text/javascript"></script>
+   <script src="js/script.js" type="text/javascript"></script>
+   <title>DOAP Validation Report — Apache Projects Directory</title>
+   <style>
+      .warn-section { margin-bottom: 2em; }
+      .warn-section h3 { color: #369; border-bottom: 1px solid #ccc; padding-bottom: 4px; }
+      .stat-box { display: inline-block; background: #f0f0f0; border-radius: 6px; padding: 10px 20px; margin: 5px; text-align: center; }
+      .stat-box .num { font-size: 24px; font-weight: bold; color: #d45500; }
+      .stat-box .label { font-size: 12px; color: #666; }
+      table.warn-table { width: 100%; border-collapse: collapse; margin: 10px 0; }
+      table.warn-table th { background: #f5f5f5; text-align: left; padding: 6px 10px; border-bottom: 2px solid #ccc; font-size: 13px; }
+      table.warn-table td { padding: 5px 10px; border-bottom: 1px solid #eee; font-size: 14px; }
+      table.warn-table tr:hover { background: #fafafa; }
+      .project-link { color: #d45500; text-decoration: none; }
+      .project-link:hover { text-decoration: underline; }
+      .tag { display: inline-block; background: #e8e8e8; border-radius: 3px; padding: 1px 8px; margin: 2px; font-size: 13px; }
+      .tag-missing { background: #ffeeba; }
+      .tag-case { background: #d4edda; }
+      .doap-url { font-size: 12px; color: #999; word-break: break-all; }
+      #loading { text-align: center; padding: 2em; color: #999; }
+      .tab-bar { display: flex; gap: 0; margin-bottom: 0; margin-top: 1em; }
+      .vtab { padding: 8px 16px; cursor: pointer; border: 1px solid #ddd; border-bottom: none;
+              border-radius: 6px 6px 0 0; background: #f0f0f0; font-size: 14px; }
+      .vtab.active { background: #EEF0FC; font-weight: bold; border-bottom: 1px solid #EEF0FC; margin-bottom: -1px; }
+      .vtab-content { display: none; padding-top: 1em; }
+      .vtab-content.active { display: block; }
+   </style>
+</head>
+<body>
+
+<div id="logo"><h1><div style="padding-top: 30px;">Projects and Committees Directory</div></h1></div>
+<div id='cssmenu'>
+</div>
+
+<div id="contents">
+   <h2>DOAP Validation Report</h2>
+   <p>Automated checks run by <code>parseprojects.py</code> when processing project
+      <a href="doapfaq.html">DOAP files</a>. These are data quality issues — not
+      project health judgments. PMCs can fix most of these by updating their DOAP file.</p>
+
+   <div id="loading">Loading validation data...</div>
+   <div id="report" style="display:none">
+
+   <div id="stats"></div>
+
+   <div class="tab-bar">
+      <div class="vtab active" data-vtab="missing">Missing DOAP</div>
+      <div class="vtab" data-vtab="categories">Unknown Categories</div>
+      <div class="vtab" data-vtab="languages">Unknown Languages</div>
+      <div class="vtab" data-vtab="case">Case Mismatches</div>
+      <div class="vtab" data-vtab="byproject">By Project</div>
+   </div>
+
+   <div class="vtab-content active" id="vtab-missing">
+      <h3>Committees Without a DOAP File</h3>
+      <p>These active TLPs have no DOAP file registered in <code>data/projects.xml</code>.
+         Without a DOAP, the project won't appear in category or language indexes.
+         See the <a href="doapfaq.html">DOAP FAQ</a> for how to create one.</p>
+      <div id="missing-list"></div>
+   </div>
+
+   <div class="vtab-content" id="vtab-categories">
+      <h3>Unknown Category Values</h3>
+      <p>These category values are not in <code>validation.json</code>. Some may be
+         legitimate categories that should be added; others may be programming
+         languages mistakenly placed in the category field.</p>
+      <table class="warn-table" id="cat-table">
+         <thead><tr><th>Value</th><th>Projects</th><th>Count</th></tr></thead>
+         <tbody></tbody>
+      </table>
+   </div>
+
+   <div class="vtab-content" id="vtab-languages">
+      <h3>Unknown Programming Language Values</h3>
+      <p>These language values are not in <code>validation.json</code>. Most are
+         legitimate languages that should be added to the validation list.
+         Values like JDBC or ODBC are APIs, not programming languages.</p>
+      <table class="warn-table" id="lang-table">
+         <thead><tr><th>Value</th><th>Projects</th><th>Count</th></tr></thead>
+         <tbody></tbody>
+      </table>
+   </div>
+
+   <div class="vtab-content" id="vtab-case">
+      <h3>Case Mismatches</h3>
+      <p>These values are recognized but use incorrect capitalization.
+         The DOAP file should be updated to use the canonical form.</p>
+      <table class="warn-table" id="case-table">
+         <thead><tr><th>Project</th><th>Field</th><th>Current</th><th>Should Be</th></tr></thead>
+         <tbody></tbody>
+      </table>
+   </div>
+
+   <div class="vtab-content" id="vtab-byproject">
+      <h3>Warnings by Project</h3>
+      <p>All warnings grouped by the responsible committee.</p>
+      <div id="project-warnings"></div>
+   </div>
+
+   </div><!-- #report -->
+</div>
+
+<div id="footer">
+   Managed by the <a href="https://community.apache.org">Apache Community Development Project</a>.<br/>
+   Copyright&copy; the Apache Software Foundation. Licensed under the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a><br/>
+   Apache&reg; and the Apache logo are trademarks of The Apache Software Foundation.
+</div>
+
+<script>
+// Tab switching
+document.querySelectorAll('.vtab').forEach(function(tab) {
+    tab.addEventListener('click', function() {
+        document.querySelectorAll('.vtab').forEach(function(t) { t.classList.remove('active'); });
+        document.querySelectorAll('.vtab-content').forEach(function(c) { c.classList.remove('active'); });
+        tab.classList.add('active');
+        document.getElementById('vtab-' + tab.getAttribute('data-vtab')).classList.add('active');
+    });
+});
+
+function projectLink(name) {
+    return '<a class="project-link" href="committee.html?id=' + name + '">' + name + '</a>';
+}
+
+function loadReport() {
+    fetch('json/foundation/doap-warnings.json')
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('report').style.display = 'block';
+
+            // Stats bar
+            var s = data.summary;
+            var statsHtml = '<div class="stat-box"><div class="num">' + s.missing_doap + '</div><div class="label">Missing DOAP</div></div>'
+                + '<div class="stat-box"><div class="num">' + s.unknown_categories + '</div><div class="label">Unknown Categories</div></div>'
+                + '<div class="stat-box"><div class="num">' + s.unknown_languages + '</div><div class="label">Unknown Languages</div></div>'
+                + '<div class="stat-box"><div class="num">' + s.case_mismatches + '</div><div class="label">Case Mismatches</div></div>'
+                + '<div class="stat-box"><div class="num">' + s.projects_with_warnings + '</div><div class="label">Projects with Warnings</div></div>';
+            document.getElementById('stats').innerHTML = statsHtml;
+
+            // Missing DOAP
+            var html = '';
+            data.missing_doap.forEach(function(p) {
+                html += '<span class="tag tag-missing">' + projectLink(p) + '</span> ';
+            });
+            document.getElementById('missing-list').innerHTML = html;
+
+            // Unknown categories
+            var tbody = document.querySelector('#cat-table tbody');
+            var catKeys = Object.keys(data.unknown_categories).sort();
+            catKeys.forEach(function(val) {
+                var entries = data.unknown_categories[val];
+                var projs = entries.map(function(e) { return projectLink(e.project); });
+                var uniqueProjs = projs.filter(function(v, i, a) { return a.indexOf(v) === i; });
+                var tr = document.createElement('tr');
+                tr.innerHTML = '<td><code>' + val + '</code></td><td>' + uniqueProjs.join(', ') + '</td><td>' + entries.length + '</td>';
+                tbody.appendChild(tr);
+            });
+
+            // Unknown languages
+            tbody = document.querySelector('#lang-table tbody');
+            var langKeys = Object.keys(data.unknown_languages).sort();
+            langKeys.forEach(function(val) {
+                var entries = data.unknown_languages[val];
+                var projs = entries.map(function(e) { return projectLink(e.project); });
+                var uniqueProjs = projs.filter(function(v, i, a) { return a.indexOf(v) === i; });
+                var tr = document.createElement('tr');
+                tr.innerHTML = '<td><code>' + val + '</code></td><td>' + uniqueProjs.join(', ') + '</td><td>' + entries.length + '</td>';
+                tbody.appendChild(tr);
+            });
+
+            // Case mismatches
+            tbody = document.querySelector('#case-table tbody');
+            data.case_mismatches.forEach(function(e) {
+                var tr = document.createElement('tr');
+                tr.innerHTML = '<td>' + projectLink(e.project) + '</td><td>' + e.field + '</td>'
+                    + '<td><code>' + e.current + '</code></td><td><code>' + e.expected + '</code></td>';
+                tbody.appendChild(tr);
+            });
+
+            // By project
+            var projDiv = document.getElementById('project-warnings');
+            var projKeys = Object.keys(data.by_project).sort();
+            var projHtml = '<table class="warn-table"><thead><tr><th>Project</th><th>Warnings</th></tr></thead><tbody>';
+            projKeys.forEach(function(proj) {
+                var warns = data.by_project[proj];
+                var descs = warns.map(function(w) {
+                    if (w.type === 'case_mismatch') {
+                        return w.field + ': <code>' + w.current + '</code> → <code>' + w.expected + '</code>';
+                    } else if (w.type === 'unknown_category') {
+                        return 'Unknown category: <code>' + w.value + '</code>';
+                    } else if (w.type === 'unknown_programming-language') {
+                        return 'Unknown language: <code>' + w.value + '</code>';
+                    } else {
+                        return w.message || w.type;
+                    }
+                });
+                projHtml += '<tr><td>' + projectLink(proj) + '</td><td>' + descs.join('<br>') + '</td></tr>';
+            });
+            projHtml += '</tbody></table>';
+            projDiv.innerHTML = projHtml;
+        })
+        .catch(function(err) {
+            document.getElementById('loading').textContent = 'Could not load validation data. Run parseprojects.py to generate it.';
+            console.error(err);
+        });
+}
+
+loadReport();
+</script>
+</body>
+</html>

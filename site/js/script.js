@@ -18,6 +18,7 @@ $.get('/nav.html', function(html) {
       'datatables.html':        'Projects',
       'releases.html':          'Releases',
       'timelines.html':         'Timelines',
+      'validation-report.html': 'Validation',
       'about.html':             'About',
       'doap.html':              'About',
       'doapfaq.html':           'About',
