@@ -30,6 +30,10 @@
   width: auto;
   height: 59px;
   padding-bottom: 4px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #222;
 }
 #cssmenu.align-right {
   float: right;
@@ -124,6 +128,14 @@ body {
         font: 15px/1.5 Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
         background-color: #fff;
     }
+
+/* Clearfix: force body to contain floated children (#contents, #footer)
+   so that position:sticky works on #cssmenu */
+body::after {
+    content: "";
+    display: block;
+    clear: both;
+}
     
 .leftbar {
   width: 275px;
