@@ -278,6 +278,9 @@ function renderProjectPage(project, projectId) {
     } else {
         appendLiInnerHTML(ul, "<b>Project data file:</b> no <a href='https://projects.apache.org/create.html'>DOAP file</a> available");
     }
+    // Activity metrics
+    appendLiInnerHTML(ul, "<b>Activity metrics:</b> <a href='https://apache.github.io/comdev-metrics/project.html?id=" + projectId + "' target='_blank'>View on comdev-metrics</a>");
+
     // maintainer
     if (project.maintainer) {
         var mt;
@@ -479,6 +482,9 @@ function renderCommitteePage(committeeId) {
     if (committee.rdf) {
         appendLiInnerHTML(ul, "<b>PMC data file:</b> <a href='" + committee.rdf + "' target='_blank'>RDF Source</a>");
     }
+    // Activity metrics
+    appendLiInnerHTML(ul, "<b>Activity metrics:</b> <a href='https://apache.github.io/comdev-metrics/project.html?id=" + committeeId + "' target='_blank'>View on comdev-metrics</a>");
+
 
     obj.appendChild(ul);
 
