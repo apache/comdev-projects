@@ -21,6 +21,11 @@
 
 // ----- Global hashes used throughout the script ------ \\
 
+// Helper: normalize multi-value fields that may be arrays or comma-separated strings.
+// Handles both new-style JSON arrays and legacy comma-joined strings.
+function toArray(val) {
+    return Array.isArray(val) ? val : (val || '').split(/,\s*/);
+}
 var people = {}; // committer -> name lookups
 var unixgroups = {}; // unix (ldap) groups (project -> committers lookup)
 var committees = {}; // id -> committee info (chair, established, group, homepage, id, name, reporting, shortdesc) (current committees)
@@ -216,7 +221,7 @@ function renderProjectPage(project, projectId) {
 
     // Categories
     if (project.category) {
-        var arr = project.category.split(/,\s*/);
+        var arr = toArray(project.category);
         var pls = "";
         for (i in arr) {
             var cat = arr[i];
@@ -303,7 +308,7 @@ function renderProjectPage(project, projectId) {
 
     if (project['programming-language']) {
         var pl = project['programming-language'];
-        var arr = pl.split(/,\s*/);
+        var arr = toArray(pl);
         var pls = "";
         for (i in arr) {
             pls += "<a href='projects.html?language#" + arr[i] + "'>" + arr[i] + "</a>&nbsp; ";
@@ -600,7 +605,7 @@ function renderProjectsByLanguage() {
     var x;
     for (i in projects) {
         if (projects[i]['programming-language']) {
-            var a = projects[i]['programming-language'].split(/,\s*/);
+            var a = toArray(projects[i]['programming-language']);
             for (x in a) {
                 a[x] = camelCase(a[x]);
                 if (lingos.indexOf(a[x]) < 0) {
@@ -636,7 +641,7 @@ function renderProjectsByLanguage() {
         for (i in projectsSorted) {
             i = projectsSorted[i];
             if (projects[i]['programming-language']) {
-                var a = projects[i]['programming-language'].split(/,\s*/);
+                var a = toArray(projects[i]['programming-language']);
                 for (x in a) {
                     // Use same capitalisation as the language list
                     if (camelCase(a[x]) == lang) {
@@ -667,7 +672,7 @@ function renderProjectsByCategory() {
     var i;
     for (i in projects) {
         if (projects[i].category) {
-            var a = projects[i].category.split(/,\s*/);
+            var a = toArray(projects[i].category);
             var x;
             for (x in a) {
                 x = a[x].toLowerCase(); // must agree with downcase below
@@ -705,7 +710,7 @@ function renderProjectsByCategory() {
             i = projectsSorted[i];
             var project = projects[i];
             if (project.category) {
-                var a = project.category.split(/,\s*/);
+                var a = toArray(project.category);
                 for (x in a) {
                     x = a[x].toLowerCase(); // must agree with downcase above
                     if (x == cat) {
@@ -974,10 +979,10 @@ function buildProjectListAsTable(json) {
         }
 
         // Programming language
-        var pl = project['programming-language'] ? project['programming-language'] : "Unknown";
+        var pl = project['programming-language'] ? toArray(project['programming-language']).join(', ') : "Unknown";
 
         // Shove the result into a row
-        arr.push([ p, project.name, type, pmc, pl, project.category])
+        arr.push([ p, project.name, type, pmc, pl, Array.isArray(project.category) ? project.category.join(', ') : project.category])
     }
 
     // Construct the data table
@@ -1444,7 +1449,7 @@ function renderLanguageChart() {
     for (var i in projects) {
         i = projects[i];
         if (i['programming-language']) {
-            var a = i['programming-language'].split(/,\s*/);
+            var a = toArray(i['programming-language']);
             for (var x in a) {
                 x = a[x];
                 if (lingos.indexOf(x) < 0) {
@@ -1536,7 +1541,7 @@ function renderLanguageChart() {
     for (i in projects) {
         i = projects[i];
         if (i.category) {
-            var a = i.category.split(/,\s*/);
+            var a = toArray(i.category);
             for (x in a) {
                 if (cats.indexOf(a[x]) < 0) {
                     cats.push(a[x]);

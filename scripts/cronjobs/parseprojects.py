@@ -55,6 +55,9 @@ cats = validation['categories'].keys()
 VALID_LANG = dict(zip([j.lower() for j in lang], lang))
 VALID_CATS = dict(zip([j.lower() for j in cats], cats))
 
+# Tags whose values should be stored as JSON arrays, not comma-joined strings
+MULTI_VALUE_TAGS = {'category', 'programming-language'}
+
 # Canonicalise without adding to suggested languages
 VALID_LANG['bash'] = 'Bash'
 
@@ -71,8 +74,9 @@ TODO send mails to projects when valid entries better established
 """
 def validate(json, tag, valid, pid, url):
     if tag in json:
+        # Accept both legacy comma-separated strings and new-style arrays
+        invals = json[tag] if isinstance(json[tag], list) else re.split(r',\s*', json[tag])
         outvals = []
-        invals = re.split(r',\s*', json[tag]) # allow for missing space after comma
         for val in invals:
             canon = valid.get(val.lower())
             if canon is None:
@@ -91,7 +95,7 @@ def validate(json, tag, valid, pid, url):
             else:
                 outvals.append(val)
         if outvals != invals:
-            json[tag] = ", ".join(outvals)
+            json[tag] = outvals
 
 save = True
 if os.path.exists("parseprojects-failures.xml"):
@@ -197,7 +201,7 @@ for c in committees:
         'name': c['name'],
         'homepage': c['homepage'],
         'pmc': c['id'],
-        'category': "no-tlp-doap"
+        'category': ["no-tlp-doap"]
     }
     committeesWithoutProject[c['id']] = pjson
 
@@ -318,7 +322,11 @@ for s in itemlist :
             if not save:
                 print("+ %s" % k)
             if k in pjson and not k in ['name','homepage']:
-                if type(pjson[k]) is str:
+                if k in MULTI_VALUE_TAGS:
+                    if not isinstance(pjson[k], list):
+                        pjson[k] = [pjson[k]]
+                    pjson[k].append(v)
+                elif type(pjson[k]) is str:
                     pjson[k] = "%s, %s" % (pjson[k], v)
                 else:
                     for xk in v:
@@ -376,13 +384,18 @@ for s in itemlist :
         # replace category url with id, by removing https?://projects.apache.org/category/
         # They are not usable as URLs, but some projects have converted them from http:
         if 'category' in pjson:
-            pjson['category'] = re.sub(r"https?://projects\.apache\.org/category/", "", pjson['category'])
-            if committeeId == 'attic' and not 'retired' in pjson['category']:
+            cats = pjson['category']
+            if isinstance(cats, list):
+                cats = [re.sub(r"https?://projects\.apache\.org/category/", "", c) for c in cats]
+            else:
+                cats = [re.sub(r"https?://projects\.apache\.org/category/", "", cats)]
+            if committeeId == 'attic' and 'retired' not in cats:
                 printAtticMail("WARN: project in Attic but not in 'retired' category: %s" % url)
-                pjson['category'] = "%s, retired" % pjson['category']
-        elif committeeId == 'attic' and not 'retired' in pjson['category']:
+                cats.append('retired')
+            pjson['category'] = cats
+        elif committeeId == 'attic':
             printAtticMail("WARN: project in Attic but not in 'retired' category: %s" % url)
-            pjson['category'] = "retired"
+            pjson['category'] = ["retired"]
         if projectJsonFilename:
             #add = {}
             #for k in pjson:
@@ -448,7 +461,7 @@ for c in committeesWithoutProject:
         'name': "Apache %s" % c.capitalize(),
         'homepage': "https://%s.apache.org" % c,
         'pmc': c,
-        'category': "no-tlp-doap"
+        'category': ["no-tlp-doap"]
     }
     projects[c] = pjson
 
