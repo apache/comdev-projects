@@ -60,6 +60,14 @@
     <code>https://raw.githubusercontent.com/apache/{projectrepo}/main/doap_{project}.rdf</code>
   </p>
 
+  <p>
+    The <a href="validation-report.html">Validation Report</a> page shows
+    data quality warnings from the nightly DOAP parsing run, including
+    missing DOAP files, unrecognized category or programming language
+    values, and capitalization mismatches. PMCs can use this to check
+    and correct their DOAP entries.
+  </p>
+
   <h2>How The Code Works</h2>
   <p>The data about Apache projects on this site is generated at least daily by cronjobs running Python scripts from various data sources.
     Various cronjobs check authoritative ASF data sources for updates, and then cache data needed by this website (and possibly other websites) in 
