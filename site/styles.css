@@ -186,16 +186,6 @@ body::after {
   margin: 10px;
 }
 
-#contents {
-  padding: 15px;
-  min-width: 800px;
-  max-width: 1160px;
-  min-height: 400px;
-  border-radius: 10px;
-  background-color: #EEF0FC;
-  float: left;
-  margin: 10px;
-}
 #contents blockquote {
   margin: 5px;
   margin-left: 30px;
@@ -332,3 +322,143 @@ td.a {
   border: 1px solid #1010e0;
 }
 
+/* ============================================================
+ * Hamburger menu button (hidden on desktop, injected by script.js)
+ * ============================================================ */
+#nav-toggle {
+  display: none;        /* hidden on desktop */
+  position: absolute;
+  top: 14px;
+  right: 12px;
+  z-index: 10;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+}
+#nav-toggle span,
+#nav-toggle span::before,
+#nav-toggle span::after {
+  display: block;
+  width: 24px;
+  height: 3px;
+  background: #eee;
+  border-radius: 2px;
+  position: relative;
+  transition: transform 0.2s;
+}
+#nav-toggle span::before,
+#nav-toggle span::after {
+  content: '';
+  position: absolute;
+  left: 0;
+}
+#nav-toggle span::before { top: -8px; }
+#nav-toggle span::after  { top:  8px; }
+
+/* ============================================================
+ * Responsive: phones & small tablets
+ * ============================================================ */
+@media (max-width: 768px) {
+
+  /* --- Logo --- */
+  #logo {
+    height: 60px;
+    margin-left: 10px;
+    background-size: auto 50px;
+  }
+  #logo h1 { font-size: 16px; }
+  #logo h1 div { padding-top: 15px !important; }
+
+  /* --- Nav bar: vertical dropdown --- */
+  #cssmenu {
+    height: auto;
+    min-height: 50px;
+    padding-bottom: 0;
+  }
+  #cssmenu #bg-one,
+  #cssmenu #bg-two,
+  #cssmenu #bg-three,
+  #cssmenu #bg-four {
+    display: none;          /* decorative layers break vertical layout */
+  }
+  #nav-toggle {
+    display: block;         /* show hamburger */
+  }
+  #cssmenu ul {
+    display: none;          /* collapsed by default */
+    height: auto;
+    background: #222;
+    padding-bottom: 4px;
+  }
+  #cssmenu.nav-open ul {
+    display: block;         /* toggled open */
+  }
+  #cssmenu ul li {
+    float: none;
+    margin-right: 0;
+    border-radius: 0;
+  }
+  #cssmenu ul li a {
+    padding: 14px 16px;
+    margin-bottom: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #333;
+  }
+  /* Search box: full width */
+  #cssmenu ul li input[type="text"] {
+    width: calc(100% - 32px);
+    margin: 8px 16px;
+    box-sizing: border-box;
+  }
+  /* About link: cancel float so it stacks normally */
+  #cssmenu ul li[style*="float: right"] {
+    float: none !important;
+  }
+
+  /* --- Sidebar: stack above content --- */
+  .leftbar {
+    float: none;
+    width: auto;
+    margin: 10px;
+  }
+
+  /* --- Main content area --- */
+  #contents {
+    min-width: 0;
+    max-width: none;
+    width: auto;
+    float: none;
+    margin: 10px;
+    overflow-x: auto;       /* tables can scroll */
+  }
+
+  /* --- Tables: horizontal scroll --- */
+  #contents table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* --- Footer --- */
+  #footer {
+    float: none;
+  }
+
+  /* --- Sponsors --- */
+  .sponsors {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+  }
+  #platinum, #gold {
+    width: auto;
+    max-width: 100%;
+    margin-left: 10px;
+  }
+  #platinum img, #gold img {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+  }
+}

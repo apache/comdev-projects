@@ -2,6 +2,14 @@
 $( document ).ready(function() {
 $('#cssmenu').prepend('<div id="bg-one"></div><div id="bg-two"></div><div id="bg-three"></div><div id="bg-four"></div>');
 
+// Hamburger toggle for mobile nav
+$('#cssmenu').append('<button id="nav-toggle" aria-label="Menu"><span></span></button>');
+$('#nav-toggle').on('click', function(e) {
+   e.stopPropagation();
+   $('#cssmenu').toggleClass('nav-open');
+});
+$(document).on('click', function() { $('#cssmenu').removeClass('nav-open'); });
+
 // Load shared nav
 $.get('/nav.html', function(html) {
    $('#cssmenu').append(html);
