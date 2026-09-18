@@ -1,0 +1,967 @@
+{
+  "generated": "2026-09-18",
+  "summary": {
+    "total_warnings": 115,
+    "unknown_categories": 52,
+    "unknown_languages": 10,
+    "case_mismatches": 6,
+    "missing_doap": 47,
+    "projects_with_warnings": 26
+  },
+  "unknown_categories": {
+    "virtual-machine": [
+      {
+        "project": "attic",
+        "url": "http://svn.apache.org/repos/asf/harmony/standard/doap_Harmony.rdf"
+      }
+    ],
+    "regexp": [
+      {
+        "project": "attic",
+        "url": "http://svn.apache.org/repos/asf/jakarta/oro/trunk/doap_ORO.rdf"
+      },
+      {
+        "project": "attic",
+        "url": "http://svn.apache.org/repos/asf/jakarta/regexp/trunk/doap_Regexp.rdf"
+      }
+    ],
+    "integration": [
+      {
+        "project": "avro",
+        "url": "http://avro.apache.org/avro.rdf"
+      },
+      {
+        "project": "camel",
+        "url": "https://gitbox.apache.org/repos/asf?p=camel.git;a=blob_plain;f=doap.rdf;hb=HEAD"
+      },
+      {
+        "project": "plc4x",
+        "url": "http://plc4x.apache.org/plc4x-doap.rdf"
+      }
+    ],
+    "hadoop": [
+      {
+        "project": "calcite",
+        "url": "https://gitbox.apache.org/repos/asf?p=calcite.git;a=blob_plain;f=site/doap_calcite.rdf;hb=HEAD"
+      },
+      {
+        "project": "attic",
+        "url": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/chukwa.rdf"
+      },
+      {
+        "project": "ignite",
+        "url": "https://gitbox.apache.org/repos/asf?p=ignite.git;a=blob_plain;f=doap_Ignite.rdf;hb=HEAD"
+      },
+      {
+        "project": "orc",
+        "url": "http://orc.apache.org/doap_orc.rdf"
+      }
+    ],
+    "sql": [
+      {
+        "project": "calcite",
+        "url": "https://gitbox.apache.org/repos/asf?p=calcite.git;a=blob_plain;f=site/doap_calcite.rdf;hb=HEAD"
+      },
+      {
+        "project": "ignite",
+        "url": "https://gitbox.apache.org/repos/asf?p=ignite.git;a=blob_plain;f=doap_Ignite.rdf;hb=HEAD"
+      }
+    ],
+    "java": [
+      {
+        "project": "camel",
+        "url": "https://gitbox.apache.org/repos/asf?p=camel.git;a=blob_plain;f=doap.rdf;hb=HEAD"
+      },
+      {
+        "project": "iotdb",
+        "url": "https://gitbox.apache.org/repos/asf?p=iotdb.git;a=blob_plain;f=iotdb-doap.rdf;hb=HEAD"
+      },
+      {
+        "project": "tsfile",
+        "url": "https://raw.githubusercontent.com/apache/tsfile/develop/doap_tsfile.rdf"
+      },
+      {
+        "project": "netbeans",
+        "url": "https://netbeans.apache.org/doap_NetBeans.rdf"
+      },
+      {
+        "project": "plc4x",
+        "url": "http://plc4x.apache.org/plc4x-doap.rdf"
+      },
+      {
+        "project": "solr",
+        "url": "https://solr.apache.org/doap/solr.rdf"
+      },
+      {
+        "project": "attic",
+        "url": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/submarine.rdf"
+      }
+    ],
+    "identity-management": [
+      {
+        "project": "directory",
+        "url": "https://raw.githubusercontent.com/apache/directory-site/master/static/doap_fortress.rdf"
+      },
+      {
+        "project": "syncope",
+        "url": "http://svn.apache.org/repos/asf/syncope/doap_Syncope.rdf"
+      }
+    ],
+    "SDK": [
+      {
+        "project": "directory",
+        "url": "https://raw.githubusercontent.com/apache/directory-site/master/static/doap_fortress.rdf"
+      }
+    ],
+    "data-visualization": [
+      {
+        "project": "echarts",
+        "url": "https://echarts.apache.org/doap_ECharts.rdf"
+      }
+    ],
+    "Java": [
+      {
+        "project": "freemarker",
+        "url": "https://gitbox.apache.org/repos/asf?p=freemarker-site.git;a=blob_plain;f=doap.rdf;hb=HEAD"
+      }
+    ],
+    "html": [
+      {
+        "project": "freemarker",
+        "url": "https://gitbox.apache.org/repos/asf?p=freemarker-site.git;a=blob_plain;f=doap.rdf;hb=HEAD"
+      }
+    ],
+    "templating": [
+      {
+        "project": "freemarker",
+        "url": "https://gitbox.apache.org/repos/asf?p=freemarker-site.git;a=blob_plain;f=doap.rdf;hb=HEAD"
+      }
+    ],
+    "nosql": [
+      {
+        "project": "attic",
+        "url": "https://raw.githubusercontent.com/apache/gora-site/refs/heads/main/content/current/doap_Gora.rdf"
+      }
+    ],
+    "ftp": [
+      {
+        "project": "httpd",
+        "url": "https://raw.githubusercontent.com/apache/httpd-site/main/content/mod_ftp/doap.rdf"
+      }
+    ],
+    "distributed-sql-database": [
+      {
+        "project": "ignite",
+        "url": "https://gitbox.apache.org/repos/asf?p=ignite.git;a=blob_plain;f=doap_Ignite.rdf;hb=HEAD"
+      }
+    ],
+    "data-management-platform": [
+      {
+        "project": "ignite",
+        "url": "https://gitbox.apache.org/repos/asf?p=ignite.git;a=blob_plain;f=doap_Ignite.rdf;hb=HEAD"
+      }
+    ],
+    "python": [
+      {
+        "project": "iotdb",
+        "url": "https://gitbox.apache.org/repos/asf?p=iotdb.git;a=blob_plain;f=iotdb-doap.rdf;hb=HEAD"
+      },
+      {
+        "project": "tsfile",
+        "url": "https://raw.githubusercontent.com/apache/tsfile/develop/doap_tsfile.rdf"
+      },
+      {
+        "project": "lucene",
+        "url": "https://lucene.apache.org/pylucene/doap.rdf"
+      },
+      {
+        "project": "plc4x",
+        "url": "http://plc4x.apache.org/plc4x-doap.rdf"
+      },
+      {
+        "project": "attic",
+        "url": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/submarine.rdf"
+      }
+    ],
+    "c++": [
+      {
+        "project": "iotdb",
+        "url": "https://gitbox.apache.org/repos/asf?p=iotdb.git;a=blob_plain;f=iotdb-doap.rdf;hb=HEAD"
+      },
+      {
+        "project": "tsfile",
+        "url": "https://raw.githubusercontent.com/apache/tsfile/develop/doap_tsfile.rdf"
+      },
+      {
+        "project": "lucene",
+        "url": "https://lucene.apache.org/pylucene/doap.rdf"
+      },
+      {
+        "project": "plc4x",
+        "url": "http://plc4x.apache.org/plc4x-doap.rdf"
+      }
+    ],
+    "c": [
+      {
+        "project": "iotdb",
+        "url": "https://gitbox.apache.org/repos/asf?p=iotdb.git;a=blob_plain;f=iotdb-doap.rdf;hb=HEAD"
+      },
+      {
+        "project": "tsfile",
+        "url": "https://raw.githubusercontent.com/apache/tsfile/develop/doap_tsfile.rdf"
+      },
+      {
+        "project": "plc4x",
+        "url": "http://plc4x.apache.org/plc4x-doap.rdf"
+      }
+    ],
+    "go": [
+      {
+        "project": "iotdb",
+        "url": "https://gitbox.apache.org/repos/asf?p=iotdb.git;a=blob_plain;f=iotdb-doap.rdf;hb=HEAD"
+      },
+      {
+        "project": "plc4x",
+        "url": "http://plc4x.apache.org/plc4x-doap.rdf"
+      },
+      {
+        "project": "solr",
+        "url": "https://solr.apache.org/doap/solr-operator.rdf"
+      },
+      {
+        "project": "attic",
+        "url": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/submarine.rdf"
+      }
+    ],
+    "groovy": [
+      {
+        "project": "netbeans",
+        "url": "https://netbeans.apache.org/doap_NetBeans.rdf"
+      }
+    ],
+    "php": [
+      {
+        "project": "netbeans",
+        "url": "https://netbeans.apache.org/doap_NetBeans.rdf"
+      }
+    ],
+    "ide": [
+      {
+        "project": "netbeans",
+        "url": "https://netbeans.apache.org/doap_NetBeans.rdf"
+      }
+    ],
+    "education": [
+      {
+        "project": "attic",
+        "url": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/petri.rdf"
+      }
+    ],
+    "observability": [
+      {
+        "project": "skywalking",
+        "url": "http://skywalking.apache.org/assets/doap_SkyWalking.rdf"
+      }
+    ],
+    "identity-provisioning": [
+      {
+        "project": "syncope",
+        "url": "http://svn.apache.org/repos/asf/syncope/doap_Syncope.rdf"
+      }
+    ]
+  },
+  "unknown_languages": {
+    "Julia": [
+      {
+        "project": "arrow",
+        "url": "https://arrow.apache.org/arrow.rdf"
+      }
+    ],
+    "MATLAB": [
+      {
+        "project": "arrow",
+        "url": "https://arrow.apache.org/arrow.rdf"
+      }
+    ],
+    "Node.js": [
+      {
+        "project": "cordova",
+        "url": "https://cordova.apache.org/infra/doap_Cordova.rdf"
+      },
+      {
+        "project": "iotdb",
+        "url": "https://gitbox.apache.org/repos/asf?p=iotdb.git;a=blob_plain;f=iotdb-doap.rdf;hb=HEAD"
+      }
+    ],
+    "JDBC": [
+      {
+        "project": "ignite",
+        "url": "https://gitbox.apache.org/repos/asf?p=ignite.git;a=blob_plain;f=doap_Ignite.rdf;hb=HEAD"
+      },
+      {
+        "project": "spark",
+        "url": "http://spark.apache.org/doap.rdf"
+      }
+    ],
+    "ODBC": [
+      {
+        "project": "ignite",
+        "url": "https://gitbox.apache.org/repos/asf?p=ignite.git;a=blob_plain;f=doap_Ignite.rdf;hb=HEAD"
+      }
+    ],
+    "Freemarker": [
+      {
+        "project": "ofbiz",
+        "url": "https://ofbiz.apache.org/doap_OFBiz.rdf"
+      }
+    ],
+    "Lua": [
+      {
+        "project": "ponymail",
+        "url": "https://ponymail.apache.org/doap_PonyMail.rdf"
+      }
+    ],
+    "node.js": [
+      {
+        "project": "thrift",
+        "url": "https://gitbox.apache.org/repos/asf?p=thrift.git;a=blob_plain;f=doap.rdf;hb=HEAD"
+      }
+    ]
+  },
+  "case_mismatches": [
+    {
+      "type": "case_mismatch",
+      "field": "category",
+      "current": "Library",
+      "expected": "library",
+      "project": "directory",
+      "url": "https://raw.githubusercontent.com/apache/directory-site/master/static/doap_fortress.rdf"
+    },
+    {
+      "type": "case_mismatch",
+      "field": "programming-language",
+      "current": "TypeScript",
+      "expected": "Typescript",
+      "project": "echarts",
+      "url": "https://echarts.apache.org/doap_ECharts.rdf"
+    },
+    {
+      "type": "case_mismatch",
+      "field": "category",
+      "current": "IoT",
+      "expected": "iot",
+      "project": "ignite",
+      "url": "https://gitbox.apache.org/repos/asf?p=ignite.git;a=blob_plain;f=doap_Ignite.rdf;hb=HEAD"
+    },
+    {
+      "type": "case_mismatch",
+      "field": "programming-language",
+      "current": "TypeScript",
+      "expected": "Typescript",
+      "project": "myfaces",
+      "url": "https://gitbox.apache.org/repos/asf?p=myfaces-tobago.git;a=blob_plain;f=doap.rdf;hb=HEAD"
+    },
+    {
+      "type": "case_mismatch",
+      "field": "programming-language",
+      "current": "SmallTalk",
+      "expected": "Smalltalk",
+      "project": "thrift",
+      "url": "https://gitbox.apache.org/repos/asf?p=thrift.git;a=blob_plain;f=doap.rdf;hb=HEAD"
+    },
+    {
+      "type": "case_mismatch",
+      "field": "programming-language",
+      "current": "BASH",
+      "expected": "Bash",
+      "project": "vcl",
+      "url": "https://raw.githubusercontent.com/apache/vcl/master/doap_vcl.rdf"
+    }
+  ],
+  "missing_doap": [
+    "answer",
+    "apisix",
+    "artemis",
+    "asterixdb",
+    "atlas",
+    "buildstream",
+    "celeborn",
+    "devlake",
+    "dolphinscheduler",
+    "dubbo",
+    "flagon",
+    "fluss",
+    "fory",
+    "gluten",
+    "gravitino",
+    "hertzbeat",
+    "hugegraph",
+    "iggy",
+    "johnzon",
+    "juneau",
+    "kvrocks",
+    "kyuubi",
+    "livy",
+    "madlib",
+    "nuttx",
+    "openwhisk",
+    "paimon",
+    "pekko",
+    "ratis",
+    "rocketmq",
+    "rya",
+    "sdap",
+    "sedona",
+    "servicecomb",
+    "shardingsphere",
+    "shenyu",
+    "singa",
+    "sourcelume",
+    "stormcrawler",
+    "streampark",
+    "streampipes",
+    "systemds",
+    "teaclave",
+    "tinkerpop",
+    "training",
+    "uniffle",
+    "wayang"
+  ],
+  "by_project": {
+    "arrow": [
+      {
+        "type": "unknown_value",
+        "field": "programming-language",
+        "value": "Julia",
+        "project": "arrow",
+        "url": "https://arrow.apache.org/arrow.rdf"
+      },
+      {
+        "type": "unknown_value",
+        "field": "programming-language",
+        "value": "MATLAB",
+        "project": "arrow",
+        "url": "https://arrow.apache.org/arrow.rdf"
+      }
+    ],
+    "attic": [
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "virtual-machine",
+        "project": "attic",
+        "url": "http://svn.apache.org/repos/asf/harmony/standard/doap_Harmony.rdf"
+      },
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "regexp",
+        "project": "attic",
+        "url": "http://svn.apache.org/repos/asf/jakarta/oro/trunk/doap_ORO.rdf"
+      },
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "regexp",
+        "project": "attic",
+        "url": "http://svn.apache.org/repos/asf/jakarta/regexp/trunk/doap_Regexp.rdf"
+      },
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "hadoop",
+        "project": "attic",
+        "url": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/chukwa.rdf"
+      },
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "nosql",
+        "project": "attic",
+        "url": "https://raw.githubusercontent.com/apache/gora-site/refs/heads/main/content/current/doap_Gora.rdf"
+      },
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "education",
+        "project": "attic",
+        "url": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/petri.rdf"
+      },
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "java",
+        "project": "attic",
+        "url": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/submarine.rdf"
+      },
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "python",
+        "project": "attic",
+        "url": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/submarine.rdf"
+      },
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "go",
+        "project": "attic",
+        "url": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/submarine.rdf"
+      }
+    ],
+    "avro": [
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "integration",
+        "project": "avro",
+        "url": "http://avro.apache.org/avro.rdf"
+      }
+    ],
+    "calcite": [
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "hadoop",
+        "project": "calcite",
+        "url": "https://gitbox.apache.org/repos/asf?p=calcite.git;a=blob_plain;f=site/doap_calcite.rdf;hb=HEAD"
+      },
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "sql",
+        "project": "calcite",
+        "url": "https://gitbox.apache.org/repos/asf?p=calcite.git;a=blob_plain;f=site/doap_calcite.rdf;hb=HEAD"
+      }
+    ],
+    "camel": [
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "integration",
+        "project": "camel",
+        "url": "https://gitbox.apache.org/repos/asf?p=camel.git;a=blob_plain;f=doap.rdf;hb=HEAD"
+      },
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "java",
+        "project": "camel",
+        "url": "https://gitbox.apache.org/repos/asf?p=camel.git;a=blob_plain;f=doap.rdf;hb=HEAD"
+      }
+    ],
+    "cordova": [
+      {
+        "type": "unknown_value",
+        "field": "programming-language",
+        "value": "Node.js",
+        "project": "cordova",
+        "url": "https://cordova.apache.org/infra/doap_Cordova.rdf"
+      }
+    ],
+    "directory": [
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "identity-management",
+        "project": "directory",
+        "url": "https://raw.githubusercontent.com/apache/directory-site/master/static/doap_fortress.rdf"
+      },
+      {
+        "type": "case_mismatch",
+        "field": "category",
+        "current": "Library",
+        "expected": "library",
+        "project": "directory",
+        "url": "https://raw.githubusercontent.com/apache/directory-site/master/static/doap_fortress.rdf"
+      },
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "SDK",
+        "project": "directory",
+        "url": "https://raw.githubusercontent.com/apache/directory-site/master/static/doap_fortress.rdf"
+      }
+    ],
+    "echarts": [
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "data-visualization",
+        "project": "echarts",
+        "url": "https://echarts.apache.org/doap_ECharts.rdf"
+      },
+      {
+        "type": "case_mismatch",
+        "field": "programming-language",
+        "current": "TypeScript",
+        "expected": "Typescript",
+        "project": "echarts",
+        "url": "https://echarts.apache.org/doap_ECharts.rdf"
+      }
+    ],
+    "freemarker": [
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "Java",
+        "project": "freemarker",
+        "url": "https://gitbox.apache.org/repos/asf?p=freemarker-site.git;a=blob_plain;f=doap.rdf;hb=HEAD"
+      },
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "html",
+        "project": "freemarker",
+        "url": "https://gitbox.apache.org/repos/asf?p=freemarker-site.git;a=blob_plain;f=doap.rdf;hb=HEAD"
+      },
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "templating",
+        "project": "freemarker",
+        "url": "https://gitbox.apache.org/repos/asf?p=freemarker-site.git;a=blob_plain;f=doap.rdf;hb=HEAD"
+      }
+    ],
+    "httpd": [
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "ftp",
+        "project": "httpd",
+        "url": "https://raw.githubusercontent.com/apache/httpd-site/main/content/mod_ftp/doap.rdf"
+      }
+    ],
+    "ignite": [
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "sql",
+        "project": "ignite",
+        "url": "https://gitbox.apache.org/repos/asf?p=ignite.git;a=blob_plain;f=doap_Ignite.rdf;hb=HEAD"
+      },
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "distributed-sql-database",
+        "project": "ignite",
+        "url": "https://gitbox.apache.org/repos/asf?p=ignite.git;a=blob_plain;f=doap_Ignite.rdf;hb=HEAD"
+      },
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "data-management-platform",
+        "project": "ignite",
+        "url": "https://gitbox.apache.org/repos/asf?p=ignite.git;a=blob_plain;f=doap_Ignite.rdf;hb=HEAD"
+      },
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "hadoop",
+        "project": "ignite",
+        "url": "https://gitbox.apache.org/repos/asf?p=ignite.git;a=blob_plain;f=doap_Ignite.rdf;hb=HEAD"
+      },
+      {
+        "type": "case_mismatch",
+        "field": "category",
+        "current": "IoT",
+        "expected": "iot",
+        "project": "ignite",
+        "url": "https://gitbox.apache.org/repos/asf?p=ignite.git;a=blob_plain;f=doap_Ignite.rdf;hb=HEAD"
+      },
+      {
+        "type": "unknown_value",
+        "field": "programming-language",
+        "value": "JDBC",
+        "project": "ignite",
+        "url": "https://gitbox.apache.org/repos/asf?p=ignite.git;a=blob_plain;f=doap_Ignite.rdf;hb=HEAD"
+      },
+      {
+        "type": "unknown_value",
+        "field": "programming-language",
+        "value": "ODBC",
+        "project": "ignite",
+        "url": "https://gitbox.apache.org/repos/asf?p=ignite.git;a=blob_plain;f=doap_Ignite.rdf;hb=HEAD"
+      }
+    ],
+    "iotdb": [
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "java",
+        "project": "iotdb",
+        "url": "https://gitbox.apache.org/repos/asf?p=iotdb.git;a=blob_plain;f=iotdb-doap.rdf;hb=HEAD"
+      },
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "python",
+        "project": "iotdb",
+        "url": "https://gitbox.apache.org/repos/asf?p=iotdb.git;a=blob_plain;f=iotdb-doap.rdf;hb=HEAD"
+      },
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "c++",
+        "project": "iotdb",
+        "url": "https://gitbox.apache.org/repos/asf?p=iotdb.git;a=blob_plain;f=iotdb-doap.rdf;hb=HEAD"
+      },
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "c",
+        "project": "iotdb",
+        "url": "https://gitbox.apache.org/repos/asf?p=iotdb.git;a=blob_plain;f=iotdb-doap.rdf;hb=HEAD"
+      },
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "go",
+        "project": "iotdb",
+        "url": "https://gitbox.apache.org/repos/asf?p=iotdb.git;a=blob_plain;f=iotdb-doap.rdf;hb=HEAD"
+      },
+      {
+        "type": "unknown_value",
+        "field": "programming-language",
+        "value": "Node.js",
+        "project": "iotdb",
+        "url": "https://gitbox.apache.org/repos/asf?p=iotdb.git;a=blob_plain;f=iotdb-doap.rdf;hb=HEAD"
+      }
+    ],
+    "tsfile": [
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "java",
+        "project": "tsfile",
+        "url": "https://raw.githubusercontent.com/apache/tsfile/develop/doap_tsfile.rdf"
+      },
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "python",
+        "project": "tsfile",
+        "url": "https://raw.githubusercontent.com/apache/tsfile/develop/doap_tsfile.rdf"
+      },
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "c++",
+        "project": "tsfile",
+        "url": "https://raw.githubusercontent.com/apache/tsfile/develop/doap_tsfile.rdf"
+      },
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "c",
+        "project": "tsfile",
+        "url": "https://raw.githubusercontent.com/apache/tsfile/develop/doap_tsfile.rdf"
+      }
+    ],
+    "lucene": [
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "python",
+        "project": "lucene",
+        "url": "https://lucene.apache.org/pylucene/doap.rdf"
+      },
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "c++",
+        "project": "lucene",
+        "url": "https://lucene.apache.org/pylucene/doap.rdf"
+      }
+    ],
+    "myfaces": [
+      {
+        "type": "case_mismatch",
+        "field": "programming-language",
+        "current": "TypeScript",
+        "expected": "Typescript",
+        "project": "myfaces",
+        "url": "https://gitbox.apache.org/repos/asf?p=myfaces-tobago.git;a=blob_plain;f=doap.rdf;hb=HEAD"
+      }
+    ],
+    "netbeans": [
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "java",
+        "project": "netbeans",
+        "url": "https://netbeans.apache.org/doap_NetBeans.rdf"
+      },
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "groovy",
+        "project": "netbeans",
+        "url": "https://netbeans.apache.org/doap_NetBeans.rdf"
+      },
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "php",
+        "project": "netbeans",
+        "url": "https://netbeans.apache.org/doap_NetBeans.rdf"
+      },
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "ide",
+        "project": "netbeans",
+        "url": "https://netbeans.apache.org/doap_NetBeans.rdf"
+      }
+    ],
+    "ofbiz": [
+      {
+        "type": "unknown_value",
+        "field": "programming-language",
+        "value": "Freemarker",
+        "project": "ofbiz",
+        "url": "https://ofbiz.apache.org/doap_OFBiz.rdf"
+      }
+    ],
+    "orc": [
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "hadoop",
+        "project": "orc",
+        "url": "http://orc.apache.org/doap_orc.rdf"
+      }
+    ],
+    "plc4x": [
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "c",
+        "project": "plc4x",
+        "url": "http://plc4x.apache.org/plc4x-doap.rdf"
+      },
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "c++",
+        "project": "plc4x",
+        "url": "http://plc4x.apache.org/plc4x-doap.rdf"
+      },
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "go",
+        "project": "plc4x",
+        "url": "http://plc4x.apache.org/plc4x-doap.rdf"
+      },
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "integration",
+        "project": "plc4x",
+        "url": "http://plc4x.apache.org/plc4x-doap.rdf"
+      },
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "java",
+        "project": "plc4x",
+        "url": "http://plc4x.apache.org/plc4x-doap.rdf"
+      },
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "python",
+        "project": "plc4x",
+        "url": "http://plc4x.apache.org/plc4x-doap.rdf"
+      }
+    ],
+    "ponymail": [
+      {
+        "type": "unknown_value",
+        "field": "programming-language",
+        "value": "Lua",
+        "project": "ponymail",
+        "url": "https://ponymail.apache.org/doap_PonyMail.rdf"
+      }
+    ],
+    "skywalking": [
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "observability",
+        "project": "skywalking",
+        "url": "http://skywalking.apache.org/assets/doap_SkyWalking.rdf"
+      }
+    ],
+    "solr": [
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "java",
+        "project": "solr",
+        "url": "https://solr.apache.org/doap/solr.rdf"
+      },
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "go",
+        "project": "solr",
+        "url": "https://solr.apache.org/doap/solr-operator.rdf"
+      }
+    ],
+    "spark": [
+      {
+        "type": "unknown_value",
+        "field": "programming-language",
+        "value": "JDBC",
+        "project": "spark",
+        "url": "http://spark.apache.org/doap.rdf"
+      }
+    ],
+    "syncope": [
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "identity-management",
+        "project": "syncope",
+        "url": "http://svn.apache.org/repos/asf/syncope/doap_Syncope.rdf"
+      },
+      {
+        "type": "unknown_value",
+        "field": "category",
+        "value": "identity-provisioning",
+        "project": "syncope",
+        "url": "http://svn.apache.org/repos/asf/syncope/doap_Syncope.rdf"
+      }
+    ],
+    "thrift": [
+      {
+        "type": "unknown_value",
+        "field": "programming-language",
+        "value": "node.js",
+        "project": "thrift",
+        "url": "https://gitbox.apache.org/repos/asf?p=thrift.git;a=blob_plain;f=doap.rdf;hb=HEAD"
+      },
+      {
+        "type": "case_mismatch",
+        "field": "programming-language",
+        "current": "SmallTalk",
+        "expected": "Smalltalk",
+        "project": "thrift",
+        "url": "https://gitbox.apache.org/repos/asf?p=thrift.git;a=blob_plain;f=doap.rdf;hb=HEAD"
+      }
+    ],
+    "vcl": [
+      {
+        "type": "case_mismatch",
+        "field": "programming-language",
+        "current": "BASH",
+        "expected": "Bash",
+        "project": "vcl",
+        "url": "https://raw.githubusercontent.com/apache/vcl/master/doap_vcl.rdf"
+      }
+    ]
+  },
+  "errors": []
+}
