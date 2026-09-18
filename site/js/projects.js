@@ -567,6 +567,18 @@ function projectLink(id) {
     return "<a href='project.html?" + id + "'>" + project.name + "</a>";
 }
 
+function projectDesc(id) {
+    var project = projects[id];
+    if (!project) return "";
+    var desc = project.shortdesc || project.description || "";
+    if (!desc) return "";
+    // Truncate to ~120 chars at a word boundary
+    if (desc.length > 120) {
+        desc = desc.substr(0, 117).replace(/\s+\S*$/, '') + '…';
+    }
+    return " <span style='color:#666;font-size:0.9em'>— " + desc + "</span>";
+}
+
 function isMember(id) {
     return _(unixgroups['member']).indexOf(id) >= 0;
 }
@@ -594,7 +606,7 @@ function renderProjectsByName() {
     var ul = document.createElement('ul');
     for (var i in projectsSorted) {
         var project = projectsSorted[i];
-        appendLiInnerHTML(ul, projectIcon(projects[project].name) + projectLink(project));
+        appendLiInnerHTML(ul, projectIcon(projects[project].name) + projectLink(project) + projectDesc(project));
     }
     obj.appendChild(ul);
 }
@@ -651,7 +663,7 @@ function renderProjectsByLanguage() {
                 for (x in a) {
                     // Use same capitalisation as the language list
                     if (camelCase(a[x]) == lang) {
-                        appendLiInnerHTML(cul, projectIcon(projects[i].name) + projectLink(i));
+                        appendLiInnerHTML(cul, projectIcon(projects[i].name) + projectLink(i) + projectDesc(i));
                     }
                 }
             }
@@ -720,7 +732,7 @@ function renderProjectsByCategory() {
                 for (x in a) {
                     x = a[x].toLowerCase(); // must agree with downcase above
                     if (x == cat) {
-                        appendLiInnerHTML(cul, projectIcon(project.name) + projectLink(i));
+                        appendLiInnerHTML(cul, projectIcon(project.name) + projectLink(i) + projectDesc(i));
                     }
                 }
             }
@@ -769,7 +781,7 @@ function renderProjectsByNumber() {
             if (unixgroups[unixGroup]) {
                 var xlen = unixgroups[unixGroup].length;
                 if (xlen == len) {
-                    var html = projectIcon(projects[projectId].name) + projectLink(projectId) + ": " + len + " committers";
+                    var html = projectIcon(projects[projectId].name) + projectLink(projectId) + projectDesc(projectId) + ": " + len + " committers";
                     if (unixgroups[unixGroup+'-pmc']) {
                         html += ", " + unixgroups[unixGroup+'-pmc'].length + " PMC members";
                     }
@@ -818,7 +830,7 @@ function renderProjectsByCommittee() {
                     var xlpmc = project.pmc;
                     if (xlpmc == lpmc) {
                         if (project.doap) {
-                            appendLiInnerHTML(cul, projectIcon(project.name) + projectLink(i));
+                            appendLiInnerHTML(cul, projectIcon(project.name) + projectLink(i) + projectDesc(i));
                         } else {
                             c=0;
                             if (xlpmc == 'incubator') {
