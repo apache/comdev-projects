@@ -304,7 +304,7 @@
 "shortdesc": "Distributed Messaging System"
 },
 {
-"chair": "jjirsa",
+"chair": "shoaib88",
 "charter": "The mission of Apache AGE is the creation and maintenance of software related to a multi-model database that enables graph and relational models built on PostgreSQL",
 "established": "2022-05",
 "group": "age",
@@ -2102,6 +2102,106 @@
 }
 },
 "shortdesc": "A home for dormant projects"
+},
+{
+"chair": "wanglei",
+"established": "2026-09",
+"group": "auron",
+"homepage": "https://auron.apache.org",
+"id": "auron",
+"name": "Apache Auron",
+"reporting": 1,
+"roster": {
+"csy": {
+"date": "2026-09-16",
+"name": "Shaoyun Chen"
+},
+"feiwang": {
+"date": "2026-09-16",
+"name": "Fei Wang"
+},
+"guihuawen": {
+"date": "2026-09-16",
+"name": "Gui Huawen"
+},
+"jqin": {
+"date": "2026-09-16",
+"name": "Becket Qin"
+},
+"kirs": {
+"date": "2026-09-16",
+"name": "Qiang Guo"
+},
+"lihao": {
+"date": "2026-09-16",
+"name": "Hao Li"
+},
+"liyuance": {
+"date": "2026-09-16",
+"name": "Yuance Li"
+},
+"maruilei": {
+"date": "2026-09-16",
+"name": "Ruilei Ma"
+},
+"mingwei": {
+"date": "2026-09-16",
+"name": "Ming Wei"
+},
+"nicholasjiang": {
+"date": "2026-09-16",
+"name": "Nicholas Jiang"
+},
+"rexxiong": {
+"date": "2026-09-16",
+"name": "Jiashu Xiong"
+},
+"richox": {
+"date": "2026-09-16",
+"name": "Li Zhang"
+},
+"shreyesh": {
+"date": "2026-09-16",
+"name": "Shreyesh Arangath"
+},
+"slfan1989": {
+"date": "2026-09-16",
+"name": "Shilun Fan"
+},
+"wanglei": {
+"date": "2026-09-16",
+"name": "Lei Wang"
+},
+"wangzhen": {
+"date": "2026-09-16",
+"name": "Zhen Wang"
+},
+"weiqing": {
+"date": "2026-09-16",
+"name": "Weiqing Yang"
+},
+"xuanwo": {
+"date": "2026-09-16",
+"name": "Hao Ding"
+},
+"yew1eb": {
+"date": "2026-09-16",
+"name": "Hai Zhou"
+},
+"yjshen": {
+"date": "2026-09-16",
+"name": "Yijie Shen"
+},
+"zhangmang": {
+"date": "2026-09-16",
+"name": "Mang Zhang"
+},
+"zuston": {
+"date": "2026-09-16",
+"name": "Junfan Zhang"
+}
+},
+"shortdesc": "an accelerator for big data engines that leverages native vectorized execution to accelerate query processing"
 },
 {
 "chair": "rskraba",
@@ -5831,6 +5931,10 @@
 "alsay": {
 "date": "2020-12-16",
 "name": "Alexander Saydakov"
+},
+"ariesdevil": {
+"date": "2026-09-18",
+"name": "AriesDevil"
 },
 "charlie": {
 "date": "2023-07-05",
@@ -14907,40 +15011,6 @@
 "shortdesc": "Search engine library targeted at .NET runtime users."
 },
 {
-"chair": "espino",
-"charter": "The mission of Apache MADlib is the creation and maintenance of software related to a scalable, Big Data, SQL-driven machine learning framework for Data Scientists",
-"established": "2017-07",
-"group": "madlib",
-"homepage": "https://madlib.apache.org/",
-"id": "madlib",
-"name": "Apache MADlib",
-"rdf": "https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/madlib.rdf",
-"reporting": 1,
-"roster": {
-"atri": {
-"date": "2017-07-19",
-"name": "Atri Sharma"
-},
-"espino": {
-"date": "2023-03-23",
-"name": "Ed Espino"
-},
-"gregchase": {
-"date": "2017-07-19",
-"name": "Greg Chase"
-},
-"okislal": {
-"date": "2017-07-19",
-"name": "Orhan Kislal"
-},
-"rvs": {
-"date": "2017-07-19",
-"name": "Roman Shaposhnik"
-}
-},
-"shortdesc": "Scalable, Big Data, SQL-driven machine learning framework for Data Scientists"
-},
-{
 "chair": "potiuk",
 "charter": "The mission of Apache Magpie is the creation and maintenance of software related to creation and maintenance of software related to agent-assisted repository maintainership and development, including issue and pull- request triage, contributor mentoring, agent-drafted remediation, developer-side development-cycle skills, and narrowly-scoped fix-and- merge automation",
 "established": "2026-06",
@@ -15043,7 +15113,7 @@
 "shortdesc": "creation and maintenance of software related to agent-assisted repository maintainership and development, including issue and pull- request triage, contributor mentoring, agent-drafted remediation, developer-side development-cycle skills, and narrowly-scoped fix-and- merge automation"
 },
 {
-"chair": "squinn",
+"chair": "jiekaichang",
 "charter": "The mission of Mahout is the creation and maintenance of software related to Scalable machine learning library",
 "established": "2010-04",
 "group": "mahout",
@@ -16428,6 +16498,10 @@
 "gsperi": {
 "date": "2023-12-21",
 "name": "Giulio Speri"
+},
+"gtchaboussie": {
+"date": "2026-09-18",
+"name": "Gaetan Chaboussie"
 },
 "hansbak": {
 "date": "2006-12-20",
@@ -18639,7 +18713,7 @@
 "shortdesc": "mail archiving, archive viewing, and mailing list interaction services"
 },
 {
-"chair": "ylavic",
+"chair": "rpluem",
 "charter": "The mission of the Apache Portable Runtime (APR) project is to create and maintain software libraries that provide a predictable and consistent interface to underlying platform-specific implementations. The primary goal is to provide an API to which software developers may code and be assured of predictable if not identical behaviour regardless of the platform on which their software is built, relieving them of the need to code special-case conditions to work around or take advantage of platform-specific deficiencies or features.",
 "established": "2000-12",
 "group": "apr",
@@ -19387,6 +19461,166 @@
 }
 },
 "shortdesc": "a highly customizable Raft protocol implementation in Java"
+},
+{
+"chair": "tison",
+"established": "2026-09",
+"group": "reqsign",
+"homepage": "https://reqsign.apache.org",
+"id": "reqsign",
+"name": "Apache Reqsign",
+"reporting": 1,
+"roster": {
+"dentiny": {
+"date": "2026-09-16",
+"name": "Hao Jiang"
+},
+"erickguan": {
+"date": "2026-09-16",
+"name": "Erick Guan"
+},
+"koushiro": {
+"date": "2026-09-16",
+"name": "Qinxuan Chen"
+},
+"liuqingyue": {
+"date": "2026-09-16",
+"name": "Liuqing Yue"
+},
+"psiace": {
+"date": "2026-09-16",
+"name": "Chojan Shang"
+},
+"silver": {
+"date": "2026-09-16",
+"name": "Mingzhuo Yin"
+},
+"suyanhanx": {
+"date": "2026-09-16",
+"name": "Han Xu"
+},
+"tison": {
+"date": "2026-09-16",
+"name": "Zili Chen"
+},
+"xuanwo": {
+"date": "2026-09-16",
+"name": "Hao Ding"
+}
+},
+"shortdesc": "signing HTTP requests to cloud services"
+},
+{
+"chair": "msadoghi",
+"established": "2026-09",
+"group": "resilientdb",
+"homepage": "https://resilientdb.apache.org",
+"id": "resilientdb",
+"name": "Apache ResilientDB",
+"reporting": 1,
+"roster": {
+"apratim": {
+"date": "2026-09-16",
+"name": "Apratim Shukla"
+},
+"aroy": {
+"date": "2026-09-16",
+"name": "Arindaam Roy"
+},
+"bisman": {
+"date": "2026-09-16",
+"name": "Bisman Anand"
+},
+"dakaikang": {
+"date": "2026-09-16",
+"name": "Dakai Kang"
+},
+"dhruvkris": {
+"date": "2026-09-16",
+"name": "Dhruv Krishnan"
+},
+"divjeet": {
+"date": "2026-09-16",
+"name": "Divjeet Singh Jas"
+},
+"djkevincr": {
+"date": "2026-09-16",
+"name": "Kevin Ratnasekera"
+},
+"gchen": {
+"date": "2026-09-16",
+"name": "Glenn Chen"
+},
+"gopuman": {
+"date": "2026-09-16",
+"name": "Gopal Nambiar"
+},
+"hmacaraig": {
+"date": "2026-09-16",
+"name": "Haskell Macaraig"
+},
+"jbonofre": {
+"date": "2026-09-16",
+"name": "Jean-Baptiste Onofr\u00e9"
+},
+"juduarte": {
+"date": "2026-09-16",
+"name": "Julieta Duarte"
+},
+"junchao": {
+"date": "2026-09-16",
+"name": "Junchao Chen"
+},
+"junping_du": {
+"date": "2026-09-16",
+"name": "Junping Du"
+},
+"msadoghi": {
+"date": "2026-09-16",
+"name": "Mohammad Sadoghi"
+},
+"priyaholani": {
+"date": "2026-09-16",
+"name": "Priya Holani"
+},
+"priyal": {
+"date": "2026-09-16",
+"name": "Priyal Soni"
+},
+"qadahtm": {
+"date": "2026-09-16",
+"name": "Thamir Qadah"
+},
+"rvs": {
+"date": "2026-09-16",
+"name": "Roman Shaposhnik"
+},
+"sajjadrahnama": {
+"date": "2026-09-16",
+"name": "Sajjad Rahnama"
+},
+"shaokang": {
+"date": "2026-09-16",
+"name": "Shaokang Xie"
+},
+"shreenathiyer": {
+"date": "2026-09-16",
+"name": "Shreenath Iyer"
+},
+"shubhampandey": {
+"date": "2026-09-16",
+"name": "Shubham Pandey"
+},
+"suyashgupta": {
+"date": "2026-09-16",
+"name": "Suyash Gupta"
+},
+"swchoi1994": {
+"date": "2026-09-16",
+"name": "Seongwoo Choi"
+}
+},
+"shortdesc": "ResilientDB is a distributed blockchain framework that is open-source, lightweight, modular, and highly performant."
 },
 {
 "chair": "vintagewang",
