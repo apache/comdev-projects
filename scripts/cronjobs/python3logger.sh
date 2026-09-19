@@ -7,6 +7,7 @@
 # cd .../scripts/cronjobs && ./python3logger.sh parsepmcs.py
 
 SCRIPT=${1?Script name}
+COMMAND=${2}
 
 LOGDIR=/var/log/www-data
 
@@ -30,9 +31,14 @@ echo
 echo '>>>'
 START=$(date)
 echo "Starting $SCRIPT ($$) at $START"
-export
 
-ERRTEE=1 python3 -u $SCRIPT
+if [ "$COMMAND" = "shell" ]
+then
+    bash $SCRIPT
+else
+    export
+    ERRTEE=1 python3 -u $SCRIPT
+fi
 
 echo "Completed $SCRIPT ($$) at $(date) (START $START)"
 echo '<<<'
