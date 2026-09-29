@@ -654,6 +654,9 @@
 "apache-apisix-3.18.0": [
 "apisix/3.18.0/apache-apisix-3.18.0-src.tgz"
 ],
+"apache-apisix-3.19.0": [
+"apisix/3.19.0/apache-apisix-3.19.0-src.tgz"
+],
 "apache-apisix-3.2.2": [
 "apisix/3.2.2/apache-apisix-3.2.2-src.tgz"
 ],
@@ -2658,13 +2661,13 @@
 "directory/api/dist/2.0.2/apache-ldap-api-2.0.2-src.tar.gz",
 "directory/api/dist/2.0.2/apache-ldap-api-2.0.2-src.zip"
 ],
-"apache-ldap-api-2.1.7": [
-"directory/api/dist/2.1.7/apache-ldap-api-2.1.7-src.tar.gz",
-"directory/api/dist/2.1.7/apache-ldap-api-2.1.7-src.zip"
-],
 "apache-ldap-api-2.1.8": [
 "directory/api/dist/2.1.8/apache-ldap-api-2.1.8-src.tar.gz",
 "directory/api/dist/2.1.8/apache-ldap-api-2.1.8-src.zip"
+],
+"apache-ldap-api-2.1.9": [
+"directory/api/dist/2.1.9/apache-ldap-api-2.1.9-src.tar.gz",
+"directory/api/dist/2.1.9/apache-ldap-api-2.1.9-src.zip"
 ],
 "apacheds-2.0.0.AM27": [
 "directory/apacheds/dist/2.0.0.AM27/apacheds-2.0.0.AM27.tar.gz",
@@ -4484,20 +4487,20 @@
 "apache-grails-7.2.4": [
 "grails/core/7.2.4/sources/apache-grails-7.2.4-src.zip"
 ],
-"apache-grails-8.0.0-M6": [
-"grails/core/8.0.0-M6/sources/apache-grails-8.0.0-M6-src.zip"
+"apache-grails-8.0.0-RC1": [
+"grails/core/8.0.0-RC1/sources/apache-grails-8.0.0-RC1-src.zip"
 ],
 "apache-grails-github-actions-1.0.3": [
 "grails/actions/1.0.3/sources/apache-grails-github-actions-1.0.3-src.zip"
 ],
-"apache-grails-publish-1.0.0-M1": [
-"grails/grails-publish/1.0.0-M1/sources/apache-grails-publish-1.0.0-M1-src.zip"
+"apache-grails-intellij-plugin-262.1.1": [
+"grails/intellij/262.1.1/sources/apache-grails-intellij-plugin-262.1.1-src.zip"
 ],
 "apache-grails-publish-1.0.0-M2": [
 "grails/grails-publish/1.0.0-M2/sources/apache-grails-publish-1.0.0-M2-src.zip"
 ],
-"apache-grails-quartz-4.0.1": [
-"grails/quartz/4.0.1/sources/apache-grails-quartz-4.0.1-src.zip"
+"apache-grails-publish-1.0.0-RC1": [
+"grails/grails-publish/1.0.0-RC1/sources/apache-grails-publish-1.0.0-RC1-src.zip"
 ]
 },
 "gravitino": {
@@ -6496,6 +6499,9 @@
 "kafka-4.2.1": [
 "kafka/4.2.1/kafka-4.2.1-src.tgz"
 ],
+"kafka-4.2.2": [
+"kafka/4.2.2/kafka-4.2.2-src.tgz"
+],
 "kafka-4.3.1": [
 "kafka/4.3.1/kafka-4.3.1-src.tgz"
 ],
@@ -6504,6 +6510,9 @@
 ],
 "kafka_2.13-4.2.1": [
 "kafka/4.2.1/kafka_2.13-4.2.1.tgz"
+],
+"kafka_2.13-4.2.2": [
+"kafka/4.2.2/kafka_2.13-4.2.2.tgz"
 ],
 "kafka_2.13-4.3.1": [
 "kafka/4.3.1/kafka_2.13-4.3.1.tgz"
@@ -7475,23 +7484,17 @@
 "mina/mina/3.0.0-M2/apache-mina-3.0.0-M2-src.tar.gz",
 "mina/mina/3.0.0-M2/apache-mina-3.0.0-M2-src.zip"
 ],
-"apache-sshd-2.17.1": [
-"mina/sshd/2.17.1/apache-sshd-2.17.1-src.tar.gz",
-"mina/sshd/2.17.1/apache-sshd-2.17.1-src.zip",
-"mina/sshd/2.17.1/apache-sshd-2.17.1.tar.gz",
-"mina/sshd/2.17.1/apache-sshd-2.17.1.zip"
-],
-"apache-sshd-2.18.0": [
-"mina/sshd/2.18.0/apache-sshd-2.18.0-src.tar.gz",
-"mina/sshd/2.18.0/apache-sshd-2.18.0-src.zip",
-"mina/sshd/2.18.0/apache-sshd-2.18.0.tar.gz",
-"mina/sshd/2.18.0/apache-sshd-2.18.0.zip"
-],
 "apache-sshd-2.19.0": [
 "mina/sshd/2.19.0/apache-sshd-2.19.0-src.tar.gz",
 "mina/sshd/2.19.0/apache-sshd-2.19.0-src.zip",
 "mina/sshd/2.19.0/apache-sshd-2.19.0.tar.gz",
 "mina/sshd/2.19.0/apache-sshd-2.19.0.zip"
+],
+"apache-sshd-2.20.0": [
+"mina/sshd/2.20.0/apache-sshd-2.20.0-src.tar.gz",
+"mina/sshd/2.20.0/apache-sshd-2.20.0-src.zip",
+"mina/sshd/2.20.0/apache-sshd-2.20.0.tar.gz",
+"mina/sshd/2.20.0/apache-sshd-2.20.0.zip"
 ],
 "apache-sshd-3.0.0-M1": [
 "mina/sshd/3.0.0-M1/apache-sshd-3.0.0-M1-src.tar.gz",
@@ -7522,6 +7525,12 @@
 "mina/sshd/3.0.0-M5/apache-sshd-3.0.0-M5-src.zip",
 "mina/sshd/3.0.0-M5/apache-sshd-3.0.0-M5.tar.gz",
 "mina/sshd/3.0.0-M5/apache-sshd-3.0.0-M5.zip"
+],
+"apache-sshd-3.0.0-M6": [
+"mina/sshd/3.0.0-M6/apache-sshd-3.0.0-M6-src.tar.gz",
+"mina/sshd/3.0.0-M6/apache-sshd-3.0.0-M6-src.zip",
+"mina/sshd/3.0.0-M6/apache-sshd-3.0.0-M6.tar.gz",
+"mina/sshd/3.0.0-M6/apache-sshd-3.0.0-M6.zip"
 ],
 "vysper-0.7": [
 "mina/vysper/0.7/vysper-0.7-src.tar.gz",
@@ -8964,14 +8973,17 @@
 ]
 },
 "polaris": {
-"apache-polaris-1.7.0": [
-"polaris/1.7.0/apache-polaris-1.7.0.tar.gz"
+"apache-polaris-1.8.0": [
+"polaris/1.8.0/apache-polaris-1.8.0.tar.gz"
 ],
-"apache-polaris-iceberg-catalog-migrator-1.0.0": [
-"polaris/apache-polaris-iceberg-catalog-migrator/1.0.0/apache-polaris-iceberg-catalog-migrator-1.0.0.tar.gz"
+"apache-polaris-iceberg-catalog-migrator-1.1.0": [
+"polaris/apache-polaris-iceberg-catalog-migrator/1.1.0/apache-polaris-iceberg-catalog-migrator-1.1.0.tar.gz"
 ],
-"polaris-1.7.0": [
-"polaris/helm-chart/1.7.0/polaris-1.7.0.tgz"
+"iceberg-catalog-migrator-cli-1.1.0": [
+"polaris/apache-polaris-iceberg-catalog-migrator/1.1.0/iceberg-catalog-migrator-cli-1.1.0.tar.gz"
+],
+"polaris-1.8.0": [
+"polaris/helm-chart/1.8.0/polaris-1.8.0.tgz"
 ]
 },
 "ponymail": {
