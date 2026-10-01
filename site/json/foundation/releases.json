@@ -516,7 +516,7 @@
 "apache-camel-quarkus-3.20.4": "2026-01-14",
 "apache-camel-quarkus-3.27.5": "2026-07-07",
 "apache-camel-quarkus-3.33.3": "2026-09-14",
-"apache-camel-quarkus-3.39.0": "2026-08-20",
+"apache-camel-quarkus-3.40.0": "2026-09-24",
 "camel-k-sources-2.10.0": "2026-04-07",
 "camel-k-sources-2.10.1": "2026-05-14",
 "camel-k-sources-2.10.2": "2026-08-31",
@@ -1035,7 +1035,8 @@
 "apache-druid-34.0.0": "2025-08-04",
 "apache-druid-35.0.1": "2025-12-05",
 "apache-druid-36.0.0": "2026-02-06",
-"apache-druid-37.0.0": "2026-04-28"
+"apache-druid-37.0.0": "2026-04-28",
+"apache-druid-38.0.0": "2026-09-24"
 },
 "dubbo": {
 "apache-dubbo-3.1.11": "2023-07-31",
@@ -1396,7 +1397,8 @@
 "apache-fory-1.7.2": "2026-09-08",
 "apache-fory-1.7.3": "2026-09-12",
 "apache-fory-1.7.4": "2026-09-17",
-"apache-fory-1.7.5": "2026-09-22"
+"apache-fory-1.7.5": "2026-09-22",
+"apache-fory-1.7.6": "2026-09-26"
 },
 "freemarker": {
 "apache-freemarker-2.3.35": "2026-08-27",
@@ -1489,6 +1491,7 @@
 "gravitino-1.2.0": "2026-03-12",
 "gravitino-1.2.1": "2026-05-06",
 "gravitino-1.3.0": "2026-06-24",
+"gravitino-1.3.1": "2026-09-24",
 "gravitino-trino-connector-0.9.1": "2025-07-15",
 "gravitino-trino-connector-1.0.0": "2025-09-18",
 "gravitino-trino-connector-1.0.1": "2025-11-13",
@@ -1497,21 +1500,27 @@
 "gravitino-trino-connector-435-439-1.2.0": "2026-03-12",
 "gravitino-trino-connector-435-439-1.2.1": "2026-05-06",
 "gravitino-trino-connector-435-439-1.3.0": "2026-06-24",
+"gravitino-trino-connector-435-439-1.3.1": "2026-09-24",
 "gravitino-trino-connector-440-445-1.2.0": "2026-03-12",
 "gravitino-trino-connector-440-445-1.2.1": "2026-05-06",
 "gravitino-trino-connector-440-445-1.3.0": "2026-06-24",
+"gravitino-trino-connector-440-445-1.3.1": "2026-09-24",
 "gravitino-trino-connector-446-451-1.2.0": "2026-03-12",
 "gravitino-trino-connector-446-451-1.2.1": "2026-05-06",
 "gravitino-trino-connector-446-451-1.3.0": "2026-06-24",
+"gravitino-trino-connector-446-451-1.3.1": "2026-09-24",
 "gravitino-trino-connector-452-468-1.2.0": "2026-03-12",
 "gravitino-trino-connector-452-468-1.2.1": "2026-05-06",
 "gravitino-trino-connector-452-468-1.3.0": "2026-06-24",
+"gravitino-trino-connector-452-468-1.3.1": "2026-09-24",
 "gravitino-trino-connector-469-472-1.2.0": "2026-03-12",
 "gravitino-trino-connector-469-472-1.2.1": "2026-05-06",
 "gravitino-trino-connector-469-472-1.3.0": "2026-06-24",
+"gravitino-trino-connector-469-472-1.3.1": "2026-09-24",
 "gravitino-trino-connector-473-478-1.2.0": "2026-03-12",
 "gravitino-trino-connector-473-478-1.2.1": "2026-05-06",
-"gravitino-trino-connector-473-478-1.3.0": "2026-06-24"
+"gravitino-trino-connector-473-478-1.3.0": "2026-06-24",
+"gravitino-trino-connector-473-478-1.3.1": "2026-09-24"
 },
 "groovy": {
 "apache-groovy-2.5.23": "2023-08-22",
@@ -1748,6 +1757,7 @@
 "apache-iceberg-1.10.1": "2025-12-16",
 "apache-iceberg-1.10.2": "2026-05-13",
 "apache-iceberg-1.11.0": "2026-05-15",
+"apache-iceberg-1.12.0": "2026-09-25",
 "apache-iceberg-1.8.1": "2025-02-24",
 "apache-iceberg-1.9.0": "2025-04-22",
 "apache-iceberg-1.9.1": "2025-05-21",
@@ -1840,7 +1850,6 @@
 "apache-amoro-shade-0.7.0-incubating": "2024-07-16"
 },
 "incubator-asyncband": {
-"apache-asyncband-0.7.2-incubating": "2026-09-10",
 "apache-asyncband-0.7.3-incubating": "2026-09-29"
 },
 "incubator-auron": {
@@ -3889,6 +3898,7 @@
 "apache-superset-kubernetes-operator-0.1.0": "2026-06-10",
 "apache-superset-kubernetes-operator-0.1.1": "2026-06-29",
 "apache-superset-kubernetes-operator-0.2.0": "2026-08-11",
+"apache-superset-kubernetes-operator-0.3.0": "2026-09-30",
 "apache_superset-4.1.3": "2025-07-11",
 "apache_superset-4.1.4": "2025-08-28",
 "apache_superset-6.0.0": "2025-12-18",
@@ -3949,8 +3959,8 @@
 "apache-tez-0.9.2": "2019-03-19"
 },
 "thrift": {
-"thrift-0.23.0": "2026-04-15",
-"thrift-0.24.0": "2026-07-05"
+"thrift-0.24.0": "2026-07-05",
+"thrift-0.25.0": "2026-09-24"
 },
 "tika": {
 "tika-3.3.2": "2026-07-16",
@@ -4273,9 +4283,9 @@
 "axiom-2.0.0": "2025-01-28",
 "neethi-3.2.4": "2026-09-18",
 "woden-1.0M10": "2015-09-06",
-"wss4j-2.4.3": "2023-11-01",
-"wss4j-3.0.5": "2025-11-04",
-"wss4j-4.0.1": "2025-11-04",
+"wss4j-2.4.4": "2026-09-30",
+"wss4j-3.0.6": "2026-09-30",
+"wss4j-4.0.2": "2026-09-30",
 "xmlschema-2.3.3": "2026-09-29"
 },
 "xalan": {
