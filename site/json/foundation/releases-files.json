@@ -145,8 +145,8 @@
 "apache_airflow_mypy-0.1.0": [
 "airflow/apache-airflow-mypy/0.1.0/apache_airflow_mypy-0.1.0.tar.gz"
 ],
-"apache_airflow_providers-2026-09-22": [
-"airflow/providers/apache_airflow_providers-2026-09-22-source.tar.gz"
+"apache_airflow_providers-2026-10-02": [
+"airflow/providers/apache_airflow_providers-2026-10-02-source.tar.gz"
 ],
 "apache_airflow_providers_airbyte-6.1.0": [
 "airflow/providers/apache_airflow_providers_airbyte-6.1.0.tar.gz"
@@ -238,8 +238,8 @@
 "apache_airflow_providers_cloudant-4.3.6": [
 "airflow/providers/apache_airflow_providers_cloudant-4.3.6.tar.gz"
 ],
-"apache_airflow_providers_cncf_kubernetes-10.22.0": [
-"airflow/providers/apache_airflow_providers_cncf_kubernetes-10.22.0.tar.gz"
+"apache_airflow_providers_cncf_kubernetes-10.23.0": [
+"airflow/providers/apache_airflow_providers_cncf_kubernetes-10.23.0.tar.gz"
 ],
 "apache_airflow_providers_cohere-1.8.0": [
 "airflow/providers/apache_airflow_providers_cohere-1.8.0.tar.gz"
@@ -279,6 +279,9 @@
 ],
 "apache_airflow_providers_docker-4.6.0": [
 "airflow/providers/apache_airflow_providers_docker-4.6.0.tar.gz"
+],
+"apache_airflow_providers_duckdb-0.2.0": [
+"airflow/providers/apache_airflow_providers_duckdb-0.2.0.tar.gz"
 ],
 "apache_airflow_providers_edge3-4.3.2": [
 "airflow/providers/apache_airflow_providers_edge3-4.3.2.tar.gz"
@@ -2532,8 +2535,8 @@
 "apache-datafusion-java-0.1.0": [
 "datafusion/datafusion-java-0.1.0/apache-datafusion-java-0.1.0.tar.gz"
 ],
-"apache-datafusion-python-54.0.0": [
-"datafusion/datafusion-python-54.0.0/apache-datafusion-python-54.0.0.tar.gz"
+"apache-datafusion-python-54.1.0": [
+"datafusion/datafusion-python-54.1.0/apache-datafusion-python-54.1.0.tar.gz"
 ],
 "apache-datafusion-sqlparser-rs-0.62.0": [
 "datafusion/datafusion-sqlparser-rs-0.62.0/apache-datafusion-sqlparser-rs-0.62.0.tar.gz"
@@ -5610,6 +5613,9 @@
 ],
 "apache-impala-4.5.2": [
 "impala/4.5.2/apache-impala-4.5.2.tar.gz"
+],
+"apache-impala-4.5.3": [
+"impala/4.5.3/apache-impala-4.5.3.tar.gz"
 ]
 },
 "incubator-amoro": {
@@ -6447,6 +6453,9 @@
 "james-3.9.0": [
 "james/server/3.9.0/james-project-3.9.0-source-release.zip"
 ],
+"james-3.9.1": [
+"james/server/3.9.1/james-project-3.9.1-source-release.zip"
+],
 "james-mime4j-sources-0.8.14": [
 "james/mime4j/0.8.14/james-mime4j-sources-0.8.14.zip"
 ],
@@ -6467,15 +6476,18 @@
 "james-server-distributed-guice": [
 "james/server/3.7.6/james-server-distributed-guice.zip",
 "james/server/3.8.2/james-server-distributed-guice.zip",
-"james/server/3.9.0/james-server-distributed-guice.zip"
+"james/server/3.9.0/james-server-distributed-guice.zip",
+"james/server/3.9.1/james-server-distributed-guice.zip"
 ],
 "james-server-jpa-guice": [
 "james/server/3.7.6/james-server-jpa-guice.zip",
 "james/server/3.8.2/james-server-jpa-guice.zip",
-"james/server/3.9.0/james-server-jpa-guice.zip"
+"james/server/3.9.0/james-server-jpa-guice.zip",
+"james/server/3.9.1/james-server-jpa-guice.zip"
 ],
 "james-server-postgres": [
-"james/server/3.9.0/james-server-postgres-app.zip"
+"james/server/3.9.0/james-server-postgres-app.zip",
+"james/server/3.9.1/james-server-postgres-app.zip"
 ],
 "james-server-spring-app-3.7.6": [
 "james/server/3.7.6/james-server-spring-app-3.7.6-app.zip"
@@ -6485,6 +6497,9 @@
 ],
 "james-server-spring-app-3.9.0": [
 "james/server/3.9.0/james-server-spring-app-3.9.0-app.zip"
+],
+"james-server-spring-app-3.9.1": [
+"james/server/3.9.1/james-server-spring-app-3.9.1-app.zip"
 ]
 },
 "jena": {
@@ -8259,6 +8274,9 @@
 "apache-opendal-bindings-c-0.47.6": [
 "opendal/apache-opendal-bindings-c-0.47.6-src.tar.gz"
 ],
+"apache-opendal-bindings-c-0.47.7": [
+"opendal/apache-opendal-bindings-c-0.47.7-src.tar.gz"
+],
 "apache-opendal-bindings-cpp-0.45.30": [
 "opendal/0.59.0/apache-opendal-bindings-cpp-0.45.30-src.tar.gz"
 ],
@@ -8270,6 +8288,9 @@
 ],
 "apache-opendal-bindings-cpp-0.45.33": [
 "opendal/apache-opendal-bindings-cpp-0.45.33-src.tar.gz"
+],
+"apache-opendal-bindings-cpp-0.45.34": [
+"opendal/apache-opendal-bindings-cpp-0.45.34-src.tar.gz"
 ],
 "apache-opendal-bindings-dotnet-0.2.0": [
 "opendal/0.59.0/apache-opendal-bindings-dotnet-0.2.0-src.tar.gz"
@@ -8283,6 +8304,9 @@
 "apache-opendal-bindings-dotnet-0.2.3": [
 "opendal/apache-opendal-bindings-dotnet-0.2.3-src.tar.gz"
 ],
+"apache-opendal-bindings-dotnet-0.3.0": [
+"opendal/apache-opendal-bindings-dotnet-0.3.0-src.tar.gz"
+],
 "apache-opendal-bindings-java-0.50.3": [
 "opendal/0.59.0/apache-opendal-bindings-java-0.50.3-src.tar.gz"
 ],
@@ -8295,11 +8319,17 @@
 "apache-opendal-bindings-java-0.50.6": [
 "opendal/apache-opendal-bindings-java-0.50.6-src.tar.gz"
 ],
+"apache-opendal-bindings-java-0.50.7": [
+"opendal/apache-opendal-bindings-java-0.50.7-src.tar.gz"
+],
 "apache-opendal-bindings-nodejs-0.49.10": [
 "opendal/apache-opendal-bindings-nodejs-0.49.10-src.tar.gz"
 ],
 "apache-opendal-bindings-nodejs-0.49.11": [
 "opendal/apache-opendal-bindings-nodejs-0.49.11-src.tar.gz"
+],
+"apache-opendal-bindings-nodejs-0.49.12": [
+"opendal/apache-opendal-bindings-nodejs-0.49.12-src.tar.gz"
 ],
 "apache-opendal-bindings-nodejs-0.49.8": [
 "opendal/0.59.0/apache-opendal-bindings-nodejs-0.49.8-src.tar.gz"
@@ -8309,6 +8339,9 @@
 ],
 "apache-opendal-bindings-python-0.47.10": [
 "opendal/apache-opendal-bindings-python-0.47.10-src.tar.gz"
+],
+"apache-opendal-bindings-python-0.47.11": [
+"opendal/apache-opendal-bindings-python-0.47.11-src.tar.gz"
 ],
 "apache-opendal-bindings-python-0.47.7": [
 "opendal/0.59.0/apache-opendal-bindings-python-0.47.7-src.tar.gz"
@@ -8331,6 +8364,9 @@
 "apache-opendal-bindings-ruby-0.1.14": [
 "opendal/apache-opendal-bindings-ruby-0.1.14-src.tar.gz"
 ],
+"apache-opendal-bindings-ruby-0.1.15": [
+"opendal/apache-opendal-bindings-ruby-0.1.15-src.tar.gz"
+],
 "apache-opendal-core-0.59.0": [
 "opendal/0.59.0/apache-opendal-core-0.59.0-src.tar.gz"
 ],
@@ -8342,6 +8378,12 @@
 ],
 "apache-opendal-core-0.59.3": [
 "opendal/apache-opendal-core-0.59.3-src.tar.gz"
+],
+"apache-opendal-core-0.59.4": [
+"opendal/apache-opendal-core-0.59.4-src.tar.gz"
+],
+"apache-opendal-integrations-dav-server-0.7.10": [
+"opendal/apache-opendal-integrations-dav-server-0.7.10-src.tar.gz"
 ],
 "apache-opendal-integrations-dav-server-0.7.6": [
 "opendal/0.59.0/apache-opendal-integrations-dav-server-0.7.6-src.tar.gz"
@@ -8367,6 +8409,9 @@
 "apache-opendal-integrations-object_store-0.60.3": [
 "opendal/apache-opendal-integrations-object_store-0.60.3-src.tar.gz"
 ],
+"apache-opendal-integrations-object_store-0.60.4": [
+"opendal/apache-opendal-integrations-object_store-0.60.4-src.tar.gz"
+],
 "apache-opendal-integrations-parquet-0.10.0": [
 "opendal/0.59.0/apache-opendal-integrations-parquet-0.10.0-src.tar.gz"
 ],
@@ -8378,6 +8423,12 @@
 ],
 "apache-opendal-integrations-parquet-0.10.3": [
 "opendal/apache-opendal-integrations-parquet-0.10.3-src.tar.gz"
+],
+"apache-opendal-integrations-parquet-0.10.4": [
+"opendal/apache-opendal-integrations-parquet-0.10.4-src.tar.gz"
+],
+"apache-opendal-integrations-unftp-sbe-0.4.10": [
+"opendal/apache-opendal-integrations-unftp-sbe-0.4.10-src.tar.gz"
 ],
 "apache-opendal-integrations-unftp-sbe-0.4.6": [
 "opendal/0.59.0/apache-opendal-integrations-unftp-sbe-0.4.6-src.tar.gz"
@@ -8851,9 +8902,6 @@
 ]
 },
 "pekko": {
-"apache-pekko-1.7.0-20260816": [
-"pekko/1.7.0/apache-pekko-1.7.0-src-20260816.tgz"
-],
 "apache-pekko-1.7.1-20260904": [
 "pekko/1.7.1/apache-pekko-1.7.1-src-20260904.tgz"
 ],
@@ -9088,6 +9136,9 @@
 "apache-pulsar-4.0.13": [
 "pulsar/pulsar-4.0.13/apache-pulsar-4.0.13-src.tar.gz"
 ],
+"apache-pulsar-4.0.14": [
+"pulsar/pulsar-4.0.14/apache-pulsar-4.0.14-src.tar.gz"
+],
 "apache-pulsar-4.1.3": [
 "pulsar/pulsar-4.1.3/apache-pulsar-4.1.3-src.tar.gz"
 ],
@@ -9099,6 +9150,12 @@
 ],
 "apache-pulsar-4.2.4": [
 "pulsar/pulsar-4.2.4/apache-pulsar-4.2.4-src.tar.gz"
+],
+"apache-pulsar-4.2.5": [
+"pulsar/pulsar-4.2.5/apache-pulsar-4.2.5-src.tar.gz"
+],
+"apache-pulsar-5.0.0": [
+"pulsar/pulsar-5.0.0/apache-pulsar-5.0.0-src.tar.gz"
 ],
 "apache-pulsar-5.0.0-M1": [
 "pulsar/pulsar-5.0.0-M1/apache-pulsar-5.0.0-M1-src.tar.gz"
@@ -10025,6 +10082,9 @@
 ],
 "apache-sedona-db-0.4.1": [
 "sedona/apache-sedona-db-0.4.1/apache-sedona-db-0.4.1.tar.gz"
+],
+"apache-sedona-db-0.5.0": [
+"sedona/apache-sedona-db-0.5.0/apache-sedona-db-0.5.0.tar.gz"
 ],
 "apache-sedona-spatialbench-0.1.0": [
 "sedona/apache-sedona-spatialbench-0.1.0/apache-sedona-spatialbench-0.1.0-src.tar.gz"
@@ -11901,10 +11961,6 @@
 ]
 },
 "tomcat": {
-"apache-tomcat-10.1.59": [
-"tomcat/tomcat-10/v10.1.59/src/apache-tomcat-10.1.59-src.tar.gz",
-"tomcat/tomcat-10/v10.1.59/src/apache-tomcat-10.1.59-src.zip"
-],
 "apache-tomcat-10.1.60": [
 "tomcat/tomcat-10/v10.1.60/src/apache-tomcat-10.1.60-src.tar.gz",
 "tomcat/tomcat-10/v10.1.60/src/apache-tomcat-10.1.60-src.zip"
@@ -11913,17 +11969,13 @@
 "tomcat/tomcat-11/v11.0.26/src/apache-tomcat-11.0.26-src.tar.gz",
 "tomcat/tomcat-11/v11.0.26/src/apache-tomcat-11.0.26-src.zip"
 ],
-"apache-tomcat-9.0.121": [
-"tomcat/tomcat-9/v9.0.121/src/apache-tomcat-9.0.121-src.tar.gz",
-"tomcat/tomcat-9/v9.0.121/src/apache-tomcat-9.0.121-src.zip"
-],
 "apache-tomcat-9.0.122": [
 "tomcat/tomcat-9/v9.0.122/src/apache-tomcat-9.0.122-src.tar.gz",
 "tomcat/tomcat-9/v9.0.122/src/apache-tomcat-9.0.122-src.zip"
 ],
-"jakartaee-migration-1.0.12": [
-"tomcat/jakartaee-migration/v1.0.12/source/jakartaee-migration-1.0.12-src.tar.gz",
-"tomcat/jakartaee-migration/v1.0.12/source/jakartaee-migration-1.0.12-src.zip"
+"jakartaee-migration-1.0.13": [
+"tomcat/jakartaee-migration/v1.0.13/source/jakartaee-migration-1.0.13-src.tar.gz",
+"tomcat/jakartaee-migration/v1.0.13/source/jakartaee-migration-1.0.13-src.zip"
 ],
 "taglibs-standard-1.2.5": [
 "tomcat/taglibs/taglibs-standard-1.2.5/taglibs-standard-1.2.5-source-release.zip"
@@ -12293,6 +12345,10 @@
 "turbine-parent-14": [
 "turbine/maven/turbine-parent/turbine-parent-14-src.tar.gz",
 "turbine/maven/turbine-parent/turbine-parent-14-src.zip"
+],
+"turbine-parent-15": [
+"turbine/maven/turbine-parent/turbine-parent-15-src.tar.gz",
+"turbine/maven/turbine-parent/turbine-parent-15-src.zip"
 ]
 },
 "tvm": {
