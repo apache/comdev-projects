@@ -2523,6 +2523,9 @@
 "apache-datafusion-55.1.0": [
 "datafusion/datafusion-55.1.0/apache-datafusion-55.1.0.tar.gz"
 ],
+"apache-datafusion-55.2.0": [
+"datafusion/datafusion-55.2.0/apache-datafusion-55.2.0.tar.gz"
+],
 "apache-datafusion-ballista-54.0.0": [
 "datafusion/datafusion-ballista-54.0.0/apache-datafusion-ballista-54.0.0.tar.gz"
 ],
@@ -4513,14 +4516,14 @@
 "apache-grails-7.2.4": [
 "grails/core/7.2.4/sources/apache-grails-7.2.4-src.zip"
 ],
-"apache-grails-8.0.0-RC2": [
-"grails/core/8.0.0-RC2/sources/apache-grails-8.0.0-RC2-src.zip"
+"apache-grails-8.0.0": [
+"grails/core/8.0.0/sources/apache-grails-8.0.0-src.zip"
 ],
 "apache-grails-github-actions-1.0.3": [
 "grails/actions/1.0.3/sources/apache-grails-github-actions-1.0.3-src.zip"
 ],
-"apache-grails-intellij-plugin-262.1.1": [
-"grails/intellij/262.1.1/sources/apache-grails-intellij-plugin-262.1.1-src.zip"
+"apache-grails-intellij-plugin-263.0.0": [
+"grails/intellij/263.0.0/sources/apache-grails-intellij-plugin-263.0.0-src.zip"
 ],
 "apache-grails-publish-1.0.0-RC1": [
 "grails/grails-publish/1.0.0-RC1/sources/apache-grails-publish-1.0.0-RC1-src.zip"
@@ -5713,6 +5716,9 @@
 ],
 "apache-fesod-2.0.2-incubating": [
 "incubator/fesod/2.0.2-incubating/apache-fesod-2.0.2-incubating-src.tar.gz"
+],
+"apache-fesod-2.1.0-incubating": [
+"incubator/fesod/2.1.0-incubating/apache-fesod-2.1.0-incubating-src.tar.gz"
 ]
 },
 "incubator-fluss": {
@@ -6180,6 +6186,11 @@
 "incubator/livy/0.5.0-incubating/livy-0.5.0-incubating-src.zip"
 ]
 },
+"incubator-maka": {
+"apache-maka-0.2.0-incubating": [
+"incubator/maka/0.2.0-incubating/apache-maka-0.2.0-incubating-src.tar.gz"
+]
+},
 "incubator-otava": {
 "apache-otava-0.7.0-incubating": [
 "incubator/otava/0.7.0-incubating/apache-otava-0.7.0-incubating-src.tar.gz"
@@ -6383,14 +6394,14 @@
 "jackrabbit-2.16.10": [
 "jackrabbit/2.16.10/jackrabbit-2.16.10-src.zip"
 ],
-"jackrabbit-2.20.17": [
-"jackrabbit/2.20.17/jackrabbit-2.20.17-src.zip"
+"jackrabbit-2.20.18": [
+"jackrabbit/2.20.18/jackrabbit-2.20.18-src.zip"
 ],
-"jackrabbit-2.22.4": [
-"jackrabbit/2.22.4/jackrabbit-2.22.4-src.zip"
+"jackrabbit-2.22.5": [
+"jackrabbit/2.22.5/jackrabbit-2.22.5-src.zip"
 ],
-"jackrabbit-2.23.5-beta": [
-"jackrabbit/2.23.5-beta/jackrabbit-2.23.5-beta-src.zip"
+"jackrabbit-2.23.6-beta": [
+"jackrabbit/2.23.6-beta/jackrabbit-2.23.6-beta-src.zip"
 ],
 "jackrabbit-filevault-3.2.8": [
 "jackrabbit/filevault/3.2.8/jackrabbit-filevault-3.2.8-src.zip"
@@ -10277,8 +10288,8 @@
 "apache-skywalking-graalvm-distro-0.4.0": [
 "skywalking/graalvm-distro/0.4.0/apache-skywalking-graalvm-distro-0.4.0-src.tar.gz"
 ],
-"apache-skywalking-horizon-ui-1.0.0": [
-"skywalking/horizon-ui/1.0.0/apache-skywalking-horizon-ui-1.0.0-src.tar.gz"
+"apache-skywalking-horizon-ui-1.0.1": [
+"skywalking/horizon-ui/1.0.1/apache-skywalking-horizon-ui-1.0.1-src.tar.gz"
 ],
 "apache-skywalking-java-agent-9.7.0": [
 "skywalking/java-agent/9.7.0/apache-skywalking-java-agent-9.7.0-src.tgz",
@@ -11368,10 +11379,6 @@
 "solr/solr/10.0.0/solr-10.0.0-src.tgz",
 "solr/solr/10.0.0/solr-10.0.0.tgz"
 ],
-"solr-9.10.1": [
-"solr/solr/9.10.1/solr-9.10.1-src.tgz",
-"solr/solr/9.10.1/solr-9.10.1.tgz"
-],
 "solr-9.11.0": [
 "solr/solr/9.11.0/solr-9.11.0-src.tgz",
 "solr/solr/9.11.0/solr-9.11.0.tgz"
@@ -11607,15 +11614,10 @@
 "subversion/subversion-1.14.5.tar.gz",
 "subversion/subversion-1.14.5.zip"
 ],
-"subversion-1.15.0-rc3": [
-"subversion/subversion-1.15.0-rc3.tar.bz2",
-"subversion/subversion-1.15.0-rc3.tar.gz",
-"subversion/subversion-1.15.0-rc3.zip"
-],
-"subversion-1.15.0-rc4": [
-"subversion/subversion-1.15.0-rc4.tar.bz2",
-"subversion/subversion-1.15.0-rc4.tar.gz",
-"subversion/subversion-1.15.0-rc4.zip"
+"subversion-1.15.0": [
+"subversion/subversion-1.15.0.tar.bz2",
+"subversion/subversion-1.15.0.tar.gz",
+"subversion/subversion-1.15.0.zip"
 ]
 },
 "superset": {
