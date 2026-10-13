@@ -166,7 +166,7 @@
 "apache_airflow_task_sdk-1.3.2": "2026-09-17"
 },
 "allura": {
-"allura-1.21.0": "2026-09-03"
+"allura-1.22.0": "2026-10-12"
 },
 "ambari": {
 "apache-ambari-2.6.2": "2022-07-04",
@@ -859,7 +859,7 @@
 "apache-datafusion-comet-1.0.0": "2026-08-07",
 "apache-datafusion-comet-1.1.0": "2026-10-06",
 "apache-datafusion-java-0.1.0": "2026-05-28",
-"apache-datafusion-python-54.1.0": "2026-10-05",
+"apache-datafusion-python-55.0.0": "2026-10-12",
 "apache-datafusion-sqlparser-rs-0.62.0": "2026-05-07",
 "apache-datafusion-sqlparser-rs-0.63.0": "2026-09-13"
 },
@@ -1412,7 +1412,8 @@
 "apache-fory-1.7.3": "2026-09-12",
 "apache-fory-1.7.4": "2026-09-17",
 "apache-fory-1.7.5": "2026-09-22",
-"apache-fory-1.7.6": "2026-09-26"
+"apache-fory-1.7.6": "2026-09-26",
+"apache-fory-1.7.7": "2026-10-08"
 },
 "freemarker": {
 "apache-freemarker-2.3.35": "2026-08-27",
@@ -2924,6 +2925,7 @@
 "apache-paimon-1.4.1": "2026-04-19",
 "apache-paimon-1.4.2": "2026-06-04",
 "apache-paimon-2.0.0": "2026-08-04",
+"apache-paimon-2.1.0": "2026-10-08",
 "apache-paimon-cpp-0.3.0": "2026-08-06",
 "apache-paimon-full-text-0.1.0": "2026-07-17",
 "apache-paimon-mosaic-0.1.0": "2026-05-30",
@@ -2937,12 +2939,14 @@
 "paimon-rust-0.1.0": "2026-04-24",
 "paimon-rust-0.2.0": "2026-05-20",
 "paimon-rust-0.3.0": "2026-07-24",
+"paimon-rust-0.4.0": "2026-10-08",
 "pypaimon-1.3.0": "2025-10-31",
 "pypaimon-1.3.1": "2025-11-12",
 "pypaimon-1.3.2": "2026-05-06",
 "pypaimon-1.4.1": "2026-04-19",
 "pypaimon-1.4.2": "2026-06-04",
-"pypaimon-2.0.0": "2026-08-04"
+"pypaimon-2.0.0": "2026-08-04",
+"pypaimon-2.1.0": "2026-10-08"
 },
 "parquet": {
 "apache-parquet-1.10.1": "2019-02-01",
@@ -3243,6 +3247,9 @@
 "apache-ratis-3.3.1": "2026-09-08",
 "ratis-thirdparty-1.0.11": "2026-02-08",
 "ratis-thirdparty-1.1.0": "2026-07-14"
+},
+"resilientdb": {
+"apache-resilientdb-1.13.0": "2026-09-30"
 },
 "rocketmq": {
 "rocketmq-all-4.9.5": "2023-03-31",
@@ -4042,8 +4049,11 @@
 },
 "tomcat": {
 "apache-tomcat-10.1.60": "2026-09-09",
+"apache-tomcat-10.1.61": "2026-10-06",
 "apache-tomcat-11.0.26": "2026-09-09",
+"apache-tomcat-11.0.27": "2026-10-06",
 "apache-tomcat-9.0.122": "2026-09-10",
+"apache-tomcat-9.0.123": "2026-10-06",
 "jakartaee-migration-1.0.13": "2026-10-01",
 "taglibs-standard-1.2.5": "2015-03-10",
 "tomcat-connectors-1.2.50": "2024-08-12",
@@ -4069,6 +4079,7 @@
 },
 "tooling": {
 "apache-test-0.2": "2026-09-24",
+"apache-tooling-community-over-code-0.9.0": "2026-10-12",
 "atr-maven-plugin-1.0.0-alpha-1": "2026-06-29",
 "atr-maven-plugin-1.0.0-beta-1": "2026-09-01",
 "tooling-presentations-0.0.3": "2026-08-27",
