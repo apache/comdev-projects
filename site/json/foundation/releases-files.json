@@ -1251,6 +1251,9 @@
 "bookkeeper-4.18.1": [
 "bookkeeper/bookkeeper-4.18.1/bookkeeper-4.18.1-src.tar.gz"
 ],
+"bookkeeper-4.18.2": [
+"bookkeeper/bookkeeper-4.18.2/bookkeeper-4.18.2-src.tar.gz"
+],
 "distributedlog-0.5.0": [
 "bookkeeper/distributedlog/0.5.0/distributedlog-0.5.0-src.tar.gz"
 ]
@@ -2288,6 +2291,13 @@
 "cordova-lib-13.0.0": [
 "cordova/tools/cordova-lib-13.0.0.tgz"
 ],
+"cordova-node-xcode-npm-4.0.0": [
+"cordova/tools/cordova-node-xcode-npm-4.0.0.tgz"
+],
+"cordova-node-xcode-source-4.0.0": [
+"cordova/tools/cordova-node-xcode-source-4.0.0.tar.gz",
+"cordova/tools/cordova-node-xcode-source-4.0.0.zip"
+],
 "cordova-osx-7.0.0": [
 "cordova/platforms/cordova-osx-7.0.0.tgz"
 ],
@@ -2407,9 +2417,6 @@
 ],
 "plugman-3.0.1": [
 "cordova/tools/plugman-3.0.1.tgz"
-],
-"xcode-3.0.1": [
-"cordova/tools/xcode-3.0.1.tgz"
 ]
 },
 "couchdb": {
@@ -6492,6 +6499,9 @@
 "jackrabbit-filevault-4.2.0": [
 "jackrabbit/filevault/4.2.0/jackrabbit-filevault-4.2.0-source-release.zip"
 ],
+"jackrabbit-filevault-4.3.0": [
+"jackrabbit/filevault/4.3.0/jackrabbit-filevault-4.3.0-source-release.zip"
+],
 "jackrabbit-oak-1.22.24": [
 "jackrabbit/oak/1.22.24/jackrabbit-oak-1.22.24-src.zip"
 ],
@@ -6504,8 +6514,8 @@
 "jackrabbit-oak-1.8.26": [
 "jackrabbit/oak/1.8.26/jackrabbit-oak-1.8.26-src.zip"
 ],
-"jackrabbit-oak-2.6.0": [
-"jackrabbit/oak/2.6.0/jackrabbit-oak-2.6.0-src.zip"
+"jackrabbit-oak-2.8.0": [
+"jackrabbit/oak/2.8.0/jackrabbit-oak-2.8.0-src.zip"
 ],
 "jackrabbit-ocm-2.0.0": [
 "jackrabbit/ocm/2.0.0/jackrabbit-ocm-2.0.0-source-release.zip"
@@ -6662,6 +6672,9 @@
 "kafka-4.3.1": [
 "kafka/4.3.1/kafka-4.3.1-src.tgz"
 ],
+"kafka-4.3.2": [
+"kafka/4.3.2/kafka-4.3.2-src.tgz"
+],
 "kafka-4.4.0": [
 "kafka/4.4.0/kafka-4.4.0-src.tgz"
 ],
@@ -6676,6 +6689,9 @@
 ],
 "kafka_2.13-4.3.1": [
 "kafka/4.3.1/kafka_2.13-4.3.1.tgz"
+],
+"kafka_2.13-4.3.2": [
+"kafka/4.3.2/kafka_2.13-4.3.2.tgz"
 ],
 "kafka_2.13-4.4.0": [
 "kafka/4.4.0/kafka_2.13-4.4.0.tgz"
@@ -8169,8 +8185,8 @@
 "nifi-2.12.0": [
 "nifi/2.12.0/nifi-2.12.0-source-release.zip"
 ],
-"nifi-api-2.13.0": [
-"nifi/nifi-api-2.13.0/nifi-api-2.13.0-source-release.zip"
+"nifi-api-2.14.0": [
+"nifi/nifi-api-2.14.0/nifi-api-2.14.0-source-release.zip"
 ],
 "nifi-fds-0.3.0": [
 "nifi/nifi-fds/nifi-fds-0.3.0/nifi-fds-0.3.0-source-release.zip"
@@ -11205,8 +11221,8 @@
 "org.apache.sling.resourcemerger-1.4.4": [
 "sling/org.apache.sling.resourcemerger-1.4.4-source-release.zip"
 ],
-"org.apache.sling.resourceresolver-1.12.18": [
-"sling/org.apache.sling.resourceresolver-1.12.18-source-release.zip"
+"org.apache.sling.resourceresolver-1.12.20": [
+"sling/org.apache.sling.resourceresolver-1.12.20-source-release.zip"
 ],
 "org.apache.sling.resourceresolver-2.0.8": [
 "sling/org.apache.sling.resourceresolver-2.0.8-source-release.zip"
@@ -12296,8 +12312,14 @@
 "trafficserver-10.1.4": [
 "trafficserver/trafficserver-10.1.4.tar.bz2"
 ],
+"trafficserver-10.1.5": [
+"trafficserver/trafficserver-10.1.5.tar.bz2"
+],
 "trafficserver-10.2.0": [
 "trafficserver/trafficserver-10.2.0.tar.bz2"
+],
+"trafficserver-10.2.1": [
+"trafficserver/trafficserver-10.2.1.tar.bz2"
 ],
 "trafficserver-7.1.12": [
 "trafficserver/trafficserver-7.1.12.tar.bz2"
@@ -12349,6 +12371,9 @@
 ],
 "trafficserver-9.2.15": [
 "trafficserver/trafficserver-9.2.15.tar.bz2"
+],
+"trafficserver-9.2.16": [
+"trafficserver/trafficserver-9.2.16.tar.bz2"
 ],
 "trafficserver-9.2.2": [
 "trafficserver/trafficserver-9.2.2.tar.bz2"
@@ -13091,21 +13116,21 @@
 ]
 },
 "xmlgraphics": {
-"batik-1.19": [
-"xmlgraphics/batik/source/batik-src-1.19.tar.gz",
-"xmlgraphics/batik/source/batik-src-1.19.zip"
+"batik-1.20": [
+"xmlgraphics/batik/source/batik-src-1.20.tar.gz",
+"xmlgraphics/batik/source/batik-src-1.20.zip"
 ],
-"fop-2.11": [
-"xmlgraphics/fop/source/fop-2.11-src.tar.gz",
-"xmlgraphics/fop/source/fop-2.11-src.zip"
+"fop-2.12": [
+"xmlgraphics/fop/source/fop-2.12-src.tar.gz",
+"xmlgraphics/fop/source/fop-2.12-src.zip"
 ],
-"fop-pdf-images-2.11": [
-"xmlgraphics/fop-pdf-images/source/fop-pdf-images-2.11-src.tar.gz",
-"xmlgraphics/fop-pdf-images/source/fop-pdf-images-2.11-src.zip"
+"fop-pdf-images-2.12": [
+"xmlgraphics/fop-pdf-images/source/fop-pdf-images-2.12-src.tar.gz",
+"xmlgraphics/fop-pdf-images/source/fop-pdf-images-2.12-src.zip"
 ],
-"xmlgraphics-commons-2.11": [
-"xmlgraphics/commons/source/xmlgraphics-commons-2.11-src.tar.gz",
-"xmlgraphics/commons/source/xmlgraphics-commons-2.11-src.zip"
+"xmlgraphics-commons-2.12": [
+"xmlgraphics/commons/source/xmlgraphics-commons-2.12-src.tar.gz",
+"xmlgraphics/commons/source/xmlgraphics-commons-2.12-src.zip"
 ]
 },
 "yetus": {
