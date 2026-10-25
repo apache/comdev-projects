@@ -46,8 +46,8 @@ try:
 
         msg = MIMEText(text)
         msg["From"] = "no-reply@projects.apache.org"
-        msg["To"] = "dev@community.apache.org"
-        msg["Reply-To"] = "dev@community.apache.org, %s@apache.org" % user
+        msg["To"] = "tools@community.apache.org"
+        msg["Reply-To"] = "tools@community.apache.org, %s@apache.org" % user
         msg["Subject"] = "Project base data change for project '%s'" % project
         p = Popen(["/usr/sbin/sendmail", "-t"], stdin=PIPE)
         p.communicate(msg.as_string())
