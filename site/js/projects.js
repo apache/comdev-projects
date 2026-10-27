@@ -383,6 +383,17 @@ function renderProjectPage(project, projectId) {
 
 function buildProjectPage() {
     var projectId = document.location.search.substr(1);
+    // Podling IDs are prefixed with "incubator-"; accept the bare name too
+    // (e.g. project.html?ossie -> project.html?incubator-ossie)
+    if (projectId && !projects[projectId] && projects["incubator-" + projectId]) {
+        projectId = "incubator-" + projectId;
+        if (window.history && window.history.replaceState) {
+            window.history.replaceState(null, "", "project.html?" + projectId + document.location.hash);
+        } else {
+            document.location.replace("project.html?" + projectId + document.location.hash);
+            return;
+        }
+    }
     GetAsyncJSON("json/projects/" + projectId + ".json?" + Math.random(), projectId, renderProjectPage)
 }
 
