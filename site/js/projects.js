@@ -236,7 +236,7 @@ function renderProjectPage(project, projectId) {
         appendLiInnerHTML(ul, "<b>Website:</b> <a href='" + project.homepage + "' target='_blank'>" + project.homepage + "</a>");
     }
     if (isIncubating) {
-        appendLiInnerHTML(ul, "<b>Project status:</b> <span class='ppodling'>Incubating</span>");
+        appendLiInnerHTML(ul, "<b>Project status:</b> <a href='https://incubator.apache.org/projects/" + unixgroup + ".html' target='_blank'><span class='ppodling'>Incubating</span></a>");
     } else if (committeeId != 'attic') {
         appendLiInnerHTML(ul, "<b>Project status:</b> <span class='pactive'>Active</span>");
     } else {
