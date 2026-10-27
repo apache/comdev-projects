@@ -8,4 +8,7 @@ using the component: Projects Tool
 
 Please do not use Pull Requests.
 
-TBC
+Run a local version of the site with:
+
+`cd site && python3 -m http.server 8000`
+
