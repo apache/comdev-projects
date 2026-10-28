@@ -53,14 +53,17 @@
 "activemq/activemq-cpp/3.9.5/activemq-cpp-library-3.9.5-src.tar.gz",
 "activemq/activemq-cpp/3.9.5/activemq-cpp-library-3.9.5-src.zip"
 ],
-"activemq-parent-5.19.11": [
-"activemq/5.19.11/activemq-parent-5.19.11-source-release.zip"
+"activemq-parent-5.19.12": [
+"activemq/5.19.12/activemq-parent-5.19.12-source-release.zip"
 ],
 "activemq-parent-6.2.10": [
 "activemq/6.2.10/activemq-parent-6.2.10-source-release.zip"
 ],
-"activemq-parent-6.3.2": [
-"activemq/6.3.2/activemq-parent-6.3.2-source-release.zip"
+"activemq-parent-6.3.3": [
+"activemq/6.3.3/activemq-parent-6.3.3-source-release.zip"
+],
+"activemq-parent-6.4.0": [
+"activemq/6.4.0/activemq-parent-6.4.0-source-release.zip"
 ],
 "apache-artemis-2.44.0": [
 "activemq/activemq-artemis/2.44.0/apache-artemis-2.44.0-source-release.tar.gz",
@@ -6406,11 +6409,6 @@
 "incubator/xtable/0.4.0-incubating/apache-xtable-0.4.0-incubating.src.tgz"
 ]
 },
-"incubator-yunikorn": {
-"apache-yunikorn-0.12.2-incubating": [
-"incubator/yunikorn/0.12.2/apache-yunikorn-0.12.2-incubating-src.tar.gz"
-]
-},
 "inlong": {
 "apache-inlong-2.4.0": [
 "inlong/2.4.0/apache-inlong-2.4.0-src.tar.gz"
@@ -7573,8 +7571,8 @@
 "maven-remote-resources-plugin-3.3.0": [
 "maven/plugins/maven-remote-resources-plugin-3.3.0-source-release.zip"
 ],
-"maven-reporting-api-4.0.0": [
-"maven/reporting/maven-reporting-api-4.0.0-source-release.zip"
+"maven-reporting-api-4.1.0": [
+"maven/reporting/maven-reporting-api-4.1.0-source-release.zip"
 ],
 "maven-reporting-exec-2.0.1": [
 "maven/reporting/maven-reporting-exec-2.0.1-source-release.zip"
@@ -8195,8 +8193,8 @@
 "nifi-2.12.0": [
 "nifi/2.12.0/nifi-2.12.0-source-release.zip"
 ],
-"nifi-api-2.14.0": [
-"nifi/nifi-api-2.14.0/nifi-api-2.14.0-source-release.zip"
+"nifi-api-2.15.0": [
+"nifi/nifi-api-2.15.0/nifi-api-2.15.0-source-release.zip"
 ],
 "nifi-fds-0.3.0": [
 "nifi/nifi-fds/nifi-fds-0.3.0/nifi-fds-0.3.0-source-release.zip"
@@ -11393,8 +11391,8 @@
 "org.apache.sling.testing.caconfig-mock-plugin-1.5.4": [
 "sling/org.apache.sling.testing.caconfig-mock-plugin-1.5.4-source-release.zip"
 ],
-"org.apache.sling.testing.clients-3.1.0": [
-"sling/org.apache.sling.testing.clients-3.1.0-source-release.zip"
+"org.apache.sling.testing.clients-3.1.2": [
+"sling/org.apache.sling.testing.clients-3.1.2-source-release.zip"
 ],
 "org.apache.sling.testing.email-1.0.0": [
 "sling/org.apache.sling.testing.email-1.0.0-source-release.zip"
@@ -11578,6 +11576,10 @@
 "solr/solr/10.0.0/solr-10.0.0-src.tgz",
 "solr/solr/10.0.0/solr-10.0.0.tgz"
 ],
+"solr-10.1.0": [
+"solr/solr/10.1.0/solr-10.1.0-src.tgz",
+"solr/solr/10.1.0/solr-10.1.0.tgz"
+],
 "solr-9.11.0": [
 "solr/solr/9.11.0/solr-9.11.0-src.tgz",
 "solr/solr/9.11.0/solr-9.11.0.tgz"
@@ -11614,17 +11616,17 @@
 "SparkR_4.0.3": [
 "spark/spark-4.0.3/SparkR_4.0.3.tar.gz"
 ],
-"SparkR_4.0.4": [
-"spark/spark-4.0.4/SparkR_4.0.4.tar.gz"
+"SparkR_4.0.5": [
+"spark/spark-4.0.5/SparkR_4.0.5.tar.gz"
 ],
 "SparkR_4.1.2": [
 "spark/spark-4.1.2/SparkR_4.1.2.tar.gz"
 ],
-"SparkR_4.1.3": [
-"spark/spark-4.1.3/SparkR_4.1.3.tar.gz"
+"SparkR_4.1.4": [
+"spark/spark-4.1.4/SparkR_4.1.4.tar.gz"
 ],
-"SparkR_4.2.0": [
-"spark/spark-4.2.0/SparkR_4.2.0.tar.gz"
+"SparkR_4.2.1": [
+"spark/spark-4.2.1/SparkR_4.2.1.tar.gz"
 ],
 "pyspark-3.5.8": [
 "spark/spark-3.5.8/pyspark-3.5.8.tar.gz"
@@ -11635,47 +11637,47 @@
 "pyspark-4.0.3": [
 "spark/spark-4.0.3/pyspark-4.0.3.tar.gz"
 ],
-"pyspark-4.0.4": [
-"spark/spark-4.0.4/pyspark-4.0.4.tar.gz"
+"pyspark-4.0.5": [
+"spark/spark-4.0.5/pyspark-4.0.5.tar.gz"
 ],
 "pyspark-4.1.2": [
 "spark/spark-4.1.2/pyspark-4.1.2.tar.gz"
 ],
-"pyspark-4.1.3": [
-"spark/spark-4.1.3/pyspark-4.1.3.tar.gz"
+"pyspark-4.1.4": [
+"spark/spark-4.1.4/pyspark-4.1.4.tar.gz"
 ],
-"pyspark-4.2.0": [
-"spark/spark-4.2.0/pyspark-4.2.0.tar.gz"
+"pyspark-4.2.1": [
+"spark/spark-4.2.1/pyspark-4.2.1.tar.gz"
 ],
 "pyspark_client-4.0.3": [
 "spark/spark-4.0.3/pyspark_client-4.0.3.tar.gz"
 ],
-"pyspark_client-4.0.4": [
-"spark/spark-4.0.4/pyspark_client-4.0.4.tar.gz"
+"pyspark_client-4.0.5": [
+"spark/spark-4.0.5/pyspark_client-4.0.5.tar.gz"
 ],
 "pyspark_client-4.1.2": [
 "spark/spark-4.1.2/pyspark_client-4.1.2.tar.gz"
 ],
-"pyspark_client-4.1.3": [
-"spark/spark-4.1.3/pyspark_client-4.1.3.tar.gz"
+"pyspark_client-4.1.4": [
+"spark/spark-4.1.4/pyspark_client-4.1.4.tar.gz"
 ],
-"pyspark_client-4.2.0": [
-"spark/spark-4.2.0/pyspark_client-4.2.0.tar.gz"
+"pyspark_client-4.2.1": [
+"spark/spark-4.2.1/pyspark_client-4.2.1.tar.gz"
 ],
 "pyspark_connect-4.0.3": [
 "spark/spark-4.0.3/pyspark_connect-4.0.3.tar.gz"
 ],
-"pyspark_connect-4.0.4": [
-"spark/spark-4.0.4/pyspark_connect-4.0.4.tar.gz"
+"pyspark_connect-4.0.5": [
+"spark/spark-4.0.5/pyspark_connect-4.0.5.tar.gz"
 ],
 "pyspark_connect-4.1.2": [
 "spark/spark-4.1.2/pyspark_connect-4.1.2.tar.gz"
 ],
-"pyspark_connect-4.1.3": [
-"spark/spark-4.1.3/pyspark_connect-4.1.3.tar.gz"
+"pyspark_connect-4.1.4": [
+"spark/spark-4.1.4/pyspark_connect-4.1.4.tar.gz"
 ],
-"pyspark_connect-4.2.0": [
-"spark/spark-4.2.0/pyspark_connect-4.2.0.tar.gz"
+"pyspark_connect-4.2.1": [
+"spark/spark-4.2.1/pyspark_connect-4.2.1.tar.gz"
 ],
 "spark-3.5.8": [
 "spark/spark-3.5.8/spark-3.5.8.tgz"
@@ -11686,17 +11688,17 @@
 "spark-4.0.3": [
 "spark/spark-4.0.3/spark-4.0.3.tgz"
 ],
-"spark-4.0.4": [
-"spark/spark-4.0.4/spark-4.0.4.tgz"
+"spark-4.0.5": [
+"spark/spark-4.0.5/spark-4.0.5.tgz"
 ],
 "spark-4.1.2": [
 "spark/spark-4.1.2/spark-4.1.2.tgz"
 ],
-"spark-4.1.3": [
-"spark/spark-4.1.3/spark-4.1.3.tgz"
+"spark-4.1.4": [
+"spark/spark-4.1.4/spark-4.1.4.tgz"
 ],
-"spark-4.2.0": [
-"spark/spark-4.2.0/spark-4.2.0.tgz"
+"spark-4.2.1": [
+"spark/spark-4.2.1/spark-4.2.1.tgz"
 ],
 "spark-connect-swift-0.7.0": [
 "spark/spark-connect-swift-0.7.0/spark-connect-swift-0.7.0.tar.gz"
