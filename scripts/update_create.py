@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
 # @(#) update create.html from JSON files
+# (categories and languages only; the PMC list is now built in the browser
+#  by site/js/doap_editor.js from json/foundation/committees.json)
 
 import os
 import json
@@ -24,7 +26,7 @@ with open(createfile,'r', encoding='utf-8') as r, open(createfilet,'w', encoding
     line = 0
     for l in r:
         # start of a section?
-        m = re.match(r'^\s+<select name="(cat|lang|pmc)"', l)
+        m = re.match(r'^\s+<select name="(cat|lang)"', l)
         if m:
             section = m.group(1)
             line = 0
@@ -58,5 +60,5 @@ with open(createfile,'r', encoding='utf-8') as r, open(createfilet,'w', encoding
                     continue
         w.write(l) # write the original line
 os.rename(createfilet, createfile)
-assert sections == 3, f"Expected to find 3 sections, found {sections}"
+assert sections == 2, f"Expected to find 2 sections, found {sections}"
 print(f"All done, saw {sections} sections")

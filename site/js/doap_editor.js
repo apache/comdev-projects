@@ -462,6 +462,24 @@ function loadProject(id) {
 
 var PROJECTS = {};
 
+// PMC dropdown, from the nightly committees.json (current committees only).
+// This replaces the list scripts/update_create.py used to write into create.html.
+function populatePmcList(committees) {
+    var sel = F().pmc, keepVal = sel.value;
+    sel.innerHTML = '<option value=""></option>';
+    var list = (committees || []).filter(function (c) { return c.id && c.id !== 'attic'; })
+        .map(function (c) { return { id: c.id, name: shortName(c.name || c.id) }; });
+    if (!list.some(function (c) { return c.id === 'incubator'; })) list.push({ id: 'incubator', name: 'Incubator' });
+    list.sort(function (a, b) { return a.name.toLowerCase().localeCompare(b.name.toLowerCase()); });
+    var group = null, letter = '';
+    list.forEach(function (c) {
+        var L = c.name.charAt(0).toUpperCase();
+        if (L !== letter) { letter = L; group = document.createElement('optgroup'); group.label = L; sel.appendChild(group); }
+        var o = document.createElement('option'); o.value = c.id; o.textContent = c.name; group.appendChild(o);
+    });
+    sel.value = keepVal;
+}
+
 function shortName(n) { return String(n || '').replace(/^Apache\s+/i, '').trim(); }
 
 // Project name suggestions: the projects this site already knows for the chosen PMC.
@@ -552,9 +570,11 @@ function populateProjectList() {
     var sel = $('load_project');
     Promise.all([
         fetch('json/foundation/projects.json').then(function (r) { return r.json(); }),
-        fetch('json/foundation/podlings.json').then(function (r) { return r.json(); }).catch(function () { return {}; })
+        fetch('json/foundation/podlings.json').then(function (r) { return r.json(); }).catch(function () { return {}; }),
+        fetch('json/foundation/committees.json').then(function (r) { return r.json(); })
     ]).then(function (res) {
         var p = res[0], pods = res[1];
+        populatePmcList(res[2]);
         Object.keys(pods).forEach(function (k) {
             if (!p[k] && !p['incubator-' + k]) p[k] = { name: pods[k].name, homepage: pods[k].homepage, pmc: 'incubator',
                                                        podling: true, description: pods[k].description, category: [] };
