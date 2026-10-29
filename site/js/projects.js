@@ -272,11 +272,20 @@ function renderProjectPage(project, projectId) {
         appendLiInnerHTML(ul, "<b>Implemented standards</b>").appendChild(stds);
     }
 
-    // doap/rdf
+    // doap/rdf, with a button into the DOAP editor (create.html)
+    var doapBtn = function (label, query) {
+        return " &nbsp; <a href='create.html?" + query + "' style='display: inline-block; background: #d45500; color: #fff;" +
+               " padding: 3px 10px; border-radius: 4px; text-decoration: none; font-weight: bold; font-size: 90%;'>" + label + "</a>";
+    };
+    var doapNote = "<br><small style='color: #666;'>Anyone can draft changes. The project's committers review and commit them.</small>";
     if (project.doap) {
-        appendLiInnerHTML(ul, "<b>Project data file:</b> <a href='" + project.doap + "' target='_blank'>DOAP RDF Source</a> (<a href='json/projects/" + projectId + ".json'>generated json</a>)");
+        appendLiInnerHTML(ul, "<b>Project data file:</b> <a href='" + project.doap + "' target='_blank'>DOAP RDF Source</a> (<a href='json/projects/" + projectId + ".json'>generated json</a>)" +
+            doapBtn("Suggest an update to this project's data", "project=" + encodeURIComponent(projectId)) + doapNote);
     } else {
-        appendLiInnerHTML(ul, "<b>Project data file:</b> no <a href='https://projects.apache.org/create.html'>DOAP file</a> available");
+        var q = isIncubating ? "pmc=incubator&podling=" + encodeURIComponent(projectId.replace(/^incubator-/, ''))
+                             : "pmc=" + encodeURIComponent(committeeId);
+        appendLiInnerHTML(ul, "<b>Project data file:</b> no <a href='doap.html'>DOAP file</a> available" +
+            doapBtn("Help this project create its DOAP file", q) + doapNote);
     }
     // Activity metrics
     appendLiInnerHTML(ul, "<b>Activity metrics:</b> <a href='https://apache.github.io/comdev-metrics/project.html?id=" + projectId + "' target='_blank'>View on comdev-metrics</a>");

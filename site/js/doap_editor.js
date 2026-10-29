@@ -272,6 +272,7 @@ function changed() {
         td.innerHTML = v.length ? '<b>Selected (' + v.length + '):</b><br>' + v.map(xmlEsc).join(', ') : '<i>None selected</i>';
     });
     updateHints();
+    if ($('publish')) updateNextSteps();
 }
 
 /* ------------------------------------------------------------------ */
@@ -465,6 +466,62 @@ function shortName(n) { return String(n || '').replace(/^Apache\s+/i, '').trim()
 
 // Project name suggestions: the projects this site already knows for the chosen PMC.
 // It's a datalist, so a brand-new subproject name can still be typed.
+// create.html?project=<id>  -> load that project's DOAP for editing
+// create.html?pmc=<id>[&podling=<id>]  -> start a new file with best guesses
+function applyQuery() {
+    var q = new URLSearchParams(location.search);
+    var id = q.get('project'), pmc = q.get('pmc'), pod = q.get('podling');
+    if (id) {
+        if (!PROJECTS[id] && PROJECTS[id.replace(/^incubator-/, '')]) id = id.replace(/^incubator-/, '');
+        if (PROJECTS[id] && PROJECTS[id].doap) {
+            $('load_project').value = id; loadProject(id); updateGuessBox(); setTimeout(updateNameList, 500);
+            return;
+        }
+        pmc = pmc || (PROJECTS[id] && PROJECTS[id].pmc) || id;   // no DOAP after all: guess instead
+        if (pmc === 'incubator') pod = pod || id;
+    }
+    if (pmc) {
+        F().pmc.value = pmc;
+        if (pmc === 'incubator' && pod) $('podling_pick').value = pod;
+        updateGuessBox(); updateNameList();
+        if (guessTarget()) fillGuesses();
+    }
+}
+
+// Tailor the "Publish your file" section: existing file -> where to update it;
+// new file -> put it on the website, then register it in projects.xml
+function updateNextSteps() {
+    var id = $('load_project').value, p = PROJECTS[id] || {}, f = F(), pmc = f.pmc.value;
+    var url = id && p.doap ? p.doap : '';
+    var gh = url.match(/^https:\/\/raw\.githubusercontent\.com\/apache\/([^\/]+)\/([^\/]+)\/(.+)$/);
+    var gb = url.match(/gitbox\.apache\.org\/repos\/asf\?p=([^;]+)\.git;a=blob_plain;f=([^;]+)/);
+    var edit = gh ? 'https://github.com/apache/' + gh[1] + '/edit/' + gh[2] + '/' + gh[3]
+             : gb ? 'https://github.com/apache/' + gb[1] + '/blob/HEAD/' + gb[2] : '';
+
+    $('pub_existing').style.display = url ? '' : 'none';
+    $('pub_new').style.display = url ? 'none' : '';
+    if (url) {
+        $('pub_url').href = url; $('pub_url').textContent = url;
+        $('pub_edit').innerHTML = edit ? ' (<a href="' + xmlEsc(edit) + '">open it on GitHub</a>)' : '';
+    } else {
+        var home = makeURL(f.homepage.value) || ('https://' + (pmc || '[committee]') + '.apache.org/');
+        if (!/\/$/.test(home)) home += '/';
+        var addr = home + doapFileName();
+        $('pub_suggest').textContent = addr;
+        $('pub_line').textContent = '  <location>' + addr + '</location>';
+        var name = f.name.value.trim() ? 'Apache ' + f.name.value.trim() : 'our project';
+        $('pub_ask').href = 'mailto:dev@community.apache.org?subject=' +
+            encodeURIComponent('Please add the DOAP file for ' + name + ' to projects.apache.org') +
+            '&body=' + encodeURIComponent('Hi,\n\nWe have published a DOAP file for ' + name + ' at:\n\n  ' + addr +
+            '\n\nCould someone add it to data/projects.xml?\n\nThanks!\n');
+    }
+
+    var list = pmc === 'incubator' ? ($('podling_pick').value || (id || '').replace(/^incubator-/, '')) : pmc;
+    var dom = list && list !== 'incubator' ? list + (pmc === 'incubator' ? '.incubator' : '') + '.apache.org' : '';
+    $('next_dev').innerHTML = dom ? ' (<a href="mailto:dev@' + xmlEsc(dom) + '">dev@' + xmlEsc(dom) + '</a>)' : '';
+    $('next_pr').innerHTML = edit ? ', or <a href="' + xmlEsc(edit) + '">suggest the change on GitHub</a>' : '';
+}
+
 function updateNameList() {
     var pmc = F().pmc.value, dl = $('name_list'), note = $('name_note');
     dl.innerHTML = '';
@@ -518,6 +575,7 @@ function populateProjectList() {
             });
         updateGuessBox();
         updateNameList();
+        applyQuery();
     }).catch(function (e) { $('load_status').textContent = 'Could not load project list: ' + e.message; });
 }
 
@@ -677,7 +735,7 @@ document.addEventListener('DOMContentLoaded', function () {
     f.addEventListener('input', changed);
     f.addEventListener('change', changed);
     f.addEventListener('click', function (e) { if (e.target.type === 'checkbox') setTimeout(changed, 0); });
-    $('load_project').addEventListener('change', function () { loadProject(this.value); updateGuessBox(); setTimeout(updateNameList, 500); });
+    $('load_project').addEventListener('change', function () { loadProject(this.value); updateGuessBox(); setTimeout(updateNameList, 500); changed(); });
     f.pmc.addEventListener('change', function () { updateGuessBox(); updateNameList(); });
     $('podling_pick').addEventListener('change', function () { updateGuessBox(); updateNameList(); });
     f.name.addEventListener('input', updateNameList);

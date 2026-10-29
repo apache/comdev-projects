@@ -9,7 +9,7 @@
    <script src="js/jquery.js" type="text/javascript"></script>
    <script src="js/script.js" type="text/javascript"></script>
    <script type="text/javascript" src="js/validate_form.js"></script>
-   <script type="text/javascript" src="js/doap_editor.js?v=1793288050"></script>
+   <script type="text/javascript" src="js/doap_editor.js?v=1793289464"></script>
    <style>
      #load_box { margin: 10px auto; padding: 10px 14px; border: 1px solid #ccc; background: #f8f8f8; max-width: 900px; }
      #load_status { font-size: 90%; color: #555; margin-top: 6px; }
@@ -27,6 +27,9 @@
      .doapform .hint2 { font-size: 85%; color: #666; }
      #guess_box { margin-top: 6px; font-size: 90%; }
      #guess_note { color: #666; margin-left: 6px; }
+     #publish { max-width: 900px; margin: 10px auto; border: 1px solid #e6c84f; background: #fff8e0; padding: 4px 18px; border-radius: 4px; }
+     #publish .pub_who { font-size: 90%; color: #555; }
+     #publish pre { background: #fff; border: 1px solid #ddd; padding: 6px 10px; font-family: Inconsolata, Menlo, Consolas, monospace; overflow-x: auto; }
      code.hint { cursor: pointer; } code.hint:hover { text-decoration: underline; }
      code.hint.used { opacity: .45; cursor: default; text-decoration: none; }
      #doap_preview { max-width: 900px; margin: 20px auto; }
@@ -70,8 +73,7 @@ similar resources and use its DOAP file as a starting point.</p>
   <div class="hint2">Starting a new one? Leave this alone and pick your committee in the form below &ndash; we'll fill in what we can.</div>
   <div id="load_status"></div>
 </div>
-<p>As you fill in the form, your DOAP file is built <a href="#preview">below it</a>. Copy or download it as <code>doap_&lt;Project_Name&gt;.rdf</code>, then
-   you can <a href="#customise">customise</a> it, <a href="#validate">validate</a> it, store it to your source control and <a href="#submit">add</a> it to ASF projects feed.
+<p>As you fill in the form, your DOAP file is built <a href="#preview">below it</a>. Copy or download it, then <a href="#submit">publish it</a>.
    The suggestions in the right-hand column follow ASF conventions for your PMC and project name; click one to use it.</p>
 <form name="make_doap" onsubmit="return false;">
 <table align="center" border="1" class="doapform">
@@ -471,73 +473,52 @@ similar resources and use its DOAP file as a starting point.</p>
 </div>
 </div>
 
-<div class="section">
+<div class="section" id="publish">
+  <h3><a id="submit"></a>Publish your file</h3>
+  <p class="pub_who">Anyone can draft a DOAP file here, but only the project's committers can publish it.
+     Not a committer on this project? Send the file to the project's dev@ mailing list<span id="next_dev"></span><span id="next_pr"></span>
+     and they'll take it from there &ndash; thank you for helping!</p>
 
-  <h3>
-  <a id="customise"></a>Customise your file</h3>
-          
-  <p>The file that is created when you submit your data is only a starting point. You'll likely need to modify some aspects of it, especially adding data that the form doesn't allow you to enter. You should be able to simply copy/paste/edit the sections you need to duplicate.</p>
-  <p>You may have more than one of the following sections:</p>
-  <ul>
-  <li>bug database</li>
-  <li>category</li>
-  <li>download page</li>
-  <li>programming language</li>
-  <li>release</li>
-  <li>repository</li>
-  <li>standard</li>
-  </ul>
-  <p>For example, if there are multiple release versions, each must be in its own "release" section.
-  Each "Version" entry needs to be in its own "release" section. 
-  Similarly each "SVNRepository" must be in a separate "repository" section.</p>
-        </div>
-  <div class="section">
-  <h3>
-  <a id="validate"></a>Validate your file</h3>
-  
-  <p>It is a good idea to check if your DOAP file is at least valid RDF.
-  This can be accomplished using the <a href="https://www.w3.org/RDF/Validator/" target='_blank'>W3C RDF Validator service</a>.
-  While this won't tell you if your file meets DOAP or Apache
-  guidelines, it is at least a good basic sanity check. </p>
-  
-       </div>
-  <div class="section">
-  <h3>
-  <a id="submit"></a>Add your file to <a href="https://github.com/apache/comdev-projects/blob/trunk/data/projects.xml">ASF projects feed</a></h3>
-  
-  <p>
-  Your DOAP file should be stored somewhere that is publicly
-  accessible. For most projects this will be in their source code
-  repository, but there is no requirement for it to be stored
-  there.
-  It is suggested that the DOAP file is stored somewhere in source control such that it is copied to the top level of the website.
-  The DOAP does not belong in source or binary release bundles, 
-  and if it is under the normal source tree, there will be multiple copies in tags and branches, which may be confusing.
-  Also if the DOAP is always referenced by the site URL, it is very unlikely to change, whereas source control layouts are often changed.
-  </p>
-  <p>
-  Once you have decided where the DOAP file will be stored,
-  you can directly edit the ASF projects feed file to get your project listed:
-  <a href="https://github.com/apache/comdev-projects/blob/trunk/data/projects.xml"><code>https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects.xml</code></a>
-  </p>
-  <p>
-  For example, add an entry like one of the following:
-  <pre>
-    &lt;location&gt;https://svn.apache.org/repos/asf/httpd/site/trunk/content/doap.rdf&lt;/location&gt;
-  or
-    &lt;location&gt;https://gitbox.apache.org/repos/asf?p=kafka.git;a=blob_plain;f=doap_Kafka.rdf;hb=HEAD&lt;/location&gt;
-  or
-    &lt;location&gt;https://raw.githubusercontent.com/apache/logging-chainsaw/master/doap_chainsaw.rdf&lt;/location&gt;
-  </pre>
-  </p>
-  <p>
-  If using Git, make sure that the URL links to the raw DOAP content as per the above examples.
-  <br>
-  Please keep the file in alphabetical order by TLP id (i.e. httpd, kafka, logging in the above examples)
-  
-        </div>
+  <div id="pub_existing" style="display:none">
+    <p>Your project already publishes a DOAP file at<br><a id="pub_url" href="#"></a></p>
+    <p>To update it, replace that file with the one above and commit<span id="pub_edit"></span>.
+       That's all: this site re-reads every DOAP file overnight, so there's nothing else to register.</p>
   </div>
-  
+
+  <div id="pub_new">
+    <p>Two steps:</p>
+    <ol>
+      <li><p><b>Put the file on your project's website.</b> Commit it to your website source so that it is served at an address like
+          <code id="pub_suggest">https://[committee].apache.org/doap_projectName.rdf</code>.</p>
+          <p>The website is the best place for it: the address won't change when your code repositories are reorganised,
+          and it won't be copied into every release tag and branch. Check the address works in a browser before step 2.</p></li>
+      <li><p><b>Add it to the projects listing.</b> Add a line to
+          <a href="https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects.xml">data/projects.xml</a>,
+          keeping the file in alphabetical order by committee:</p>
+          <pre id="pub_line">  &lt;location&gt;https://[committee].apache.org/doap_projectName.rdf&lt;/location&gt;</pre>
+          <pre>svn co https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data projects-data
+cd projects-data
+# edit projects.xml
+svn commit -m "Add DOAP file for [project]" projects.xml</pre>
+          <p>If you're not comfortable with svn, please <a id="pub_ask" href="mailto:dev@community.apache.org">contact
+          dev@community.apache.org</a> with the address of your file, and we'll add it for you.</p>
+          <p>Your project will appear on this site the next day.</p></li>
+    </ol>
+  </div>
+</div>
+
+<div class="section">
+  <h3><a id="customise"></a>Going further</h3>
+  <p>The form covers what this site uses. DOAP has a few more elements (for example <code>wiki</code> or
+     <code>audience</code>) that you can add by hand; see the <a href="doap.html">DOAP page</a> and the
+     <a href="guidelines.html">guidelines</a>.</p>
+  <h3><a id="validate"></a>Checking your file</h3>
+  <p>The file generated here is valid RDF. If you edit it by hand, you can check it with the
+     <a href="https://www.w3.org/RDF/Validator/" target="_blank">W3C RDF Validator</a>. After it's listed, any problems this site
+     finds appear on the <a href="validation-report.html">validation report</a>.</p>
+</div>
+</div>
+
 <!-- Footer -->
 
 <div id="footer">

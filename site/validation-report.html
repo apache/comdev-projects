@@ -24,6 +24,10 @@
       .tag-missing { background: #ffeeba; }
       .tag-case { background: #d4edda; }
       .doap-url { font-size: 12px; color: #999; word-break: break-all; }
+      .cta { margin: 1em 0; }
+      .cta a { display: inline-block; background: #d45500; color: #fff; padding: 8px 16px; border-radius: 4px;
+               text-decoration: none; font-weight: bold; }
+      .cta a:hover { background: #b84a00; }
       #loading { text-align: center; padding: 2em; color: #999; }
       .tab-bar { display: flex; gap: 0; margin-bottom: 0; margin-top: 1em; }
       .vtab { padding: 8px 16px; cursor: pointer; border: 1px solid #ddd; border-bottom: none;
@@ -44,6 +48,7 @@
    <p>Automated checks run by <code>parseprojects.py</code> when processing project
       <a href="doapfaq.html">DOAP files</a>. These are data quality issues — not
       project health judgments. PMCs can fix most of these by updating their DOAP file.</p>
+   <p class="cta"><a href="create.html">Create or update your DOAP file now!</a></p>
 
    <div id="loading">Loading validation data...</div>
    <div id="report" style="display:none">
