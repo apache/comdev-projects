@@ -14,7 +14,33 @@
      #load_box { margin: 10px auto; padding: 10px 14px; border: 1px solid #ccc; background: #f8f8f8; max-width: 900px; }
      #load_status { font-size: 90%; color: #555; margin-top: 6px; }
      #load_status ul { margin: 4px 0 0 18px; }
-     .doapform .repeat .row { margin: 3px 0; white-space: nowrap; }
+     /* Responsive form: the table fills the available width instead of being
+        sized by input size= attributes, and stacks into one column on phones. */
+     .formwrap { max-width: 1100px; margin: 0 auto; }
+     table.doapform { width: 100%; border-collapse: collapse; table-layout: fixed; }
+     table.doapform td { padding: 6px 8px; vertical-align: top; overflow-wrap: anywhere; }
+     table.doapform td:first-child { width: 15%; font-weight: bold; }
+     table.doapform td:last-child { width: 26%; font-size: 85%; }
+     table.doapform input[type=text], table.doapform textarea, table.doapform select:not([multiple]) {
+         max-width: 100%; box-sizing: border-box; }
+     table.doapform textarea { width: 100%; }
+     table.doapform .prefixed { display: flex; align-items: center; gap: 4px; }
+     table.doapform .prefixed input { flex: 1; min-width: 0; width: auto; }
+     table.doapform code.hint { word-break: break-all; }
+     .doapform .repeat .row { margin: 3px 0; display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; }
+     .doapform .repeat .row label { display: flex; align-items: center; gap: 4px; flex: 1 1 140px; min-width: 0; }
+     .doapform .repeat .row input[type=text] { flex: 1; min-width: 0; width: auto; }
+     .doapform .repeat .row > input[type=text] { flex: 1 1 200px; }
+     #load_box select { max-width: 100%; }
+     #doap_output { max-width: 100%; box-sizing: border-box; }
+     @media (max-width: 760px) {
+         table.doapform, table.doapform tbody, table.doapform tr, table.doapform td { display: block; width: auto !important; }
+         table.doapform tr { border-bottom: 1px solid #ccc; padding: 4px 0; }
+         table.doapform td { border: none; padding: 3px 6px; }
+         table.doapform td:last-child:empty { display: none; }
+         .doapform .checks { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+         #load_box, #doap_preview, #publish { margin-left: 4px; margin-right: 4px; }
+     }
      .doapform .repeat label { margin-right: 6px; font-size: 90%; }
      .doapform button.rm { border: none; background: none; color: #a00; cursor: pointer; font-size: 110%; }
      .doapform button.add { font-size: 85%; margin-top: 2px; }
@@ -76,7 +102,7 @@ similar resources and use its DOAP file as a starting point.</p>
 <p>As you fill in the form, your DOAP file is built <a href="#preview">below it</a>. Copy or download it, then <a href="#submit">publish it</a>.
    The suggestions in the right-hand column follow ASF conventions for your PMC and project name; click one to use it.</p>
 <form name="make_doap" onsubmit="return false;">
-<table align="center" border="1" class="doapform">
+<div class="formwrap"><table border="1" class="doapform">
 <tr>
 <td>Project PMC</td>
 <td>
@@ -92,9 +118,9 @@ similar resources and use its DOAP file as a starting point.</p>
   </td>
 <td></td>
 </tr>
-<tr><td>Project name</td><td>Apache <input type="text" name="name" size="40" list="name_list" autocomplete="off"><datalist id="name_list"></datalist>
+<tr><td>Project name</td><td><span class="prefixed"><span>Apache</span><input type="text" name="name" size="40" list="name_list" autocomplete="off"></span><datalist id="name_list"></datalist>
   <div id="name_note" class="hint2"></div></td><td><code class="hint" data-for="name" data-tpl="{Name}" title="Click to use this value"></code></td></tr>
-<tr><td>Project homepage</td><td>https://<input type="text" name="homepage" size="60"></td><td><code class="hint" data-for="homepage" data-tpl="{pmc}.apache.org/{sub/}" title="Click to use this value"></code></td></tr>
+<tr><td>Project homepage</td><td><span class="prefixed"><span>https://</span><input type="text" name="homepage" size="60"></span></td><td><code class="hint" data-for="homepage" data-tpl="{pmc}.apache.org/{sub/}" title="Click to use this value"></code></td></tr>
 <tr><td>Short Description</td><td><textarea name="sdesc" cols="60" rows="2"></textarea></td><td></td></tr>
 <tr><td>Long Description</td><td><textarea name="ldesc" cols="60" rows="6"></textarea></td><td></td></tr>
 <tr><td valign="top">Repositories</td><td><div class="repeat" data-group="repo"></div><button type="button" class="add" data-add="repo">+ Add another repository</button></td>
@@ -188,7 +214,7 @@ similar resources and use its DOAP file as a starting point.</p>
 <tr><td valign="top">Mailing Lists Page URL</td><td><div class="repeat" data-group="mail"></div><button type="button" class="add" data-add="mail">+ Add another mailing list page</button></td><td><code class="hint" data-for="mail.url" data-tpl="https://{pmc}.apache.org/{sub/}mailing-lists.html" title="Click to use this value"></code></td></tr>
 <tr><td valign="top">Releases</td><td><div class="repeat" data-group="release"></div><button type="button" class="add" data-add="release">+ Add another release</button></td><td>Newest first</td></tr>
 <tr><td valign="top">Implemented Standards</td><td><div class="repeat" data-group="standard"></div><button type="button" class="add" data-add="standard">+ Add another standard</button></td><td></td></tr>
-</table>
+</table></div>
 <select id="std_body_tpl" style="display:none">
 <option value=""></option>
 <option value="Adobe Systems Incorporated">Adobe Systems Incorporated</option>
