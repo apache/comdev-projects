@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<script src="js/jquery.js"></script>
+<script src="js/script.js"></script>
+<title>Help me choose an Apache project</title>
+<style>
+ #chooser { max-width: 820px; margin: 0 auto; }
+ .progress { height: 6px; background: #eee; border-radius: 3px; margin: 10px 0 20px; }
+ .progress div { height: 6px; background: #c6262e; border-radius: 3px; transition: width .3s; }
+ .q h2 { margin-bottom: 4px; }
+ .q .hint { color: #666; font-size: 90%; margin-bottom: 14px; }
+ .opts { display: flex; flex-wrap: wrap; gap: 8px; }
+ .opt { border: 1px solid #bbb; border-radius: 18px; padding: 7px 14px; cursor: pointer;
+        background: #fff; font-size: 95%; }
+ .opt:hover { border-color: #c6262e; }
+ .opt.on { background: #c6262e; color: #fff; border-color: #c6262e; }
+ .opt .n { opacity: .6; font-size: 85%; margin-left: 4px; }
+ .bar { margin-top: 20px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+ .btn { padding: 8px 16px; border-radius: 4px; border: 1px solid #c6262e; background: #c6262e;
+        color: #fff; cursor: pointer; }
+ .btn.sec { background: #fff; color: #c6262e; }
+ .btn:disabled { opacity: .4; cursor: default; }
+ .remaining { color: #555; margin-left: auto; }
+ .answers { font-size: 90%; color: #555; margin: 10px 0; }
+ .answers span { background: #f3f3f3; border-radius: 3px; padding: 2px 6px; margin-right: 4px; }
+ .result { border: 1px solid #ddd; border-radius: 6px; padding: 12px 16px; margin: 10px 0; }
+ .result h3 { margin: 0 0 4px; }
+ .result .why { font-size: 85%; color: #666; margin-top: 6px; }
+ .result .links a { margin-right: 12px; font-size: 90%; }
+ .score { float: right; font-size: 85%; color: #c6262e; }
+ .mock { background: #fff6d5; border: 1px solid #e6c84f; padding: 8px 12px; border-radius: 4px; font-size: 90%; }
+</style>
+</head>
+<body>
+<div id="logo"><h1><div style="padding-top: 30px;">Projects Directory</div></h1></div>
+<div id="cssmenu"></div>
+
+<div id="contents">
+ <div id="chooser">
+  <p class="mock"><b>Draft / mock-up.</b> Recommendations are built from the projects' own
+   <a href="doap.html">DOAP files</a> and foundation data. If your project is missing or
+   mis-described, update its DOAP (programming-language, category, description).</p>
+  <h1>Help me choose a project</h1>
+  <p>Answer a few questions and we'll suggest Apache projects you might enjoy contributing to.
+   You don't need to write code to contribute - projects need documentation, testing, user
+   support, design, translation and outreach just as much. Skip anything you don't care about.</p>
+  <div class="progress"><div id="prog" style="width:0"></div></div>
+  <div id="stage">Loading project data&hellip;</div>
+  <p class="answers" id="generated"></p>
+ </div>
+</div>
+
+<div id="footer">
+ Managed by the <a href="https://community.apache.org">Apache Community Development Project</a>.<br/>
+ Copyright&copy; the Apache Software Foundation. Licensed under the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a><br/>
+ Apache&reg; and the Apache logo are trademarks of The Apache Software Foundation.
+</div>
+
+<script>
+/*
+ * Adaptive question flow. Data comes from json/foundation/chooser.json,
+ * generated nightly by scripts/cronjobs/buildchooser.py.
+ *
+ * - The next question is the unanswered one that best splits the projects
+ *   still in contention (a greedy decision tree, rebuilt from the data).
+ * - Answers are soft: a project scores a point per matched question, so
+ *   projects with incomplete DOAP data aren't thrown out entirely.
+ * - We stop when few enough projects remain, or questions run out.
+ */
+const STOP_AT = 8, SHOW = 12;
+let DATA, answers = {}, history = [];
+
+const $s = () => document.getElementById('stage');
+const esc = s => String(s || '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+const Q = id => DATA.questions.find(q => q.id === id);
+const isFilter = qid => (Q(qid) || {}).filter !== false;
+function matches(p, qid, vals) { return !isFilter(qid) || vals.some(v => (p[qid] || []).includes(v)); }
+// a question is only relevant if its 'requires' condition is met
+function eligible(q) {
+  return Object.entries(q.requires || {}).every(([qid, vals]) =>
+    (answers[qid] || []).some(v => vals.includes(v)));
+}
+
+function score(p) {
+  let s = 0, why = [];
+  for (const [qid, vals] of Object.entries(answers)) {
+    if (!vals.length || !isFilter(qid)) continue;
+    if (matches(p, qid, vals)) { s++; why.push(vals.filter(v => p[qid].includes(v)).map(labelFor.bind(null, qid)).join(', ')); }
+  }
+  return {s, why};
+}
+
+function labelFor(qid, v) {
+  const q = DATA.questions.find(q => q.id === qid);
+  const o = q && q.options.find(o => o.value === v);
+  return o ? o.label.split(' - ')[0] : v;
+}
+
+// projects matching every non-skipped answer
+function candidates() {
+  return DATA.projects.filter(p =>
+    Object.entries(answers).every(([qid, vals]) => !vals.length || matches(p, qid, vals)));
+}
+
+// entropy of a question's split over the current candidates
+function splitQuality(q, cands) {
+  const counts = q.options.map(o => cands.filter(p => (p[q.id] || []).includes(o.value)).length)
+                          .filter(n => n > 0);
+  if (counts.length < 2) return 0;
+  const tot = counts.reduce((a, b) => a + b, 0);
+  return -counts.reduce((h, n) => h + (n / tot) * Math.log2(n / tot), 0);
+}
+
+function nextQuestion(cands) {
+  const open = DATA.questions.filter(q => !(q.id in answers) && eligible(q));
+  // Start with what the project is *about*, then how the person wants to help.
+  // Only after that do we let the data pick the most useful question.
+  for (const id of ['area', 'contribute']) { const q = open.find(q => q.id === id); if (q) return q; }
+  let best = null, bq = 0;
+  for (const q of open.filter(q => q.filter !== false)) { const h = splitQuality(q, cands); if (h > bq) { bq = h; best = q; } }
+  return best;
+}
+
+function render() {
+  const cands = candidates();
+  // keep asking the fixed opening questions even if the pool is already small
+  const q = (cands.length > STOP_AT || history.length < 2) ? nextQuestion(cands) : null;
+  document.getElementById('prog').style.width =
+    Math.round(100 * history.length / DATA.questions.filter(eligible).length) + '%';
+  if (!q) return showResults();
+
+  const sel = new Set();
+  const opts = q.options.map(o => {
+    if (q.filter === false) return `<span class="opt" data-v="${esc(o.value)}">${esc(o.label)}</span>`;
+    const n = cands.filter(p => (p[q.id] || []).includes(o.value)).length;
+    return n ? `<span class="opt" data-v="${esc(o.value)}">${esc(o.label)}<span class="n">${n}</span></span>` : '';
+  }).join('');
+  $s().innerHTML = `<div class="q">
+      <h2>${esc(q.text)}</h2>
+      <div class="hint">${q.multi ? 'Pick as many as you like.' : 'Pick one.'}</div>
+      <div class="opts">${opts}</div>
+      <div class="bar">
+        <button class="btn" id="next">Next</button>
+        <button class="btn sec" id="skip">Skip / no preference</button>
+        ${history.length ? '<button class="btn sec" id="back">Back</button>' : ''}
+        <button class="btn sec" id="now">Show matches now</button>
+        <span class="remaining">${cands.length} projects match so far</span>
+      </div></div>` + answerSummary();
+
+  $s().querySelectorAll('.opt').forEach(el => el.onclick = () => {
+    const v = el.dataset.v;
+    if (!q.multi) { sel.clear(); $s().querySelectorAll('.opt').forEach(e => e.classList.remove('on')); }
+    if (sel.has(v)) { sel.delete(v); el.classList.remove('on'); } else { sel.add(v); el.classList.add('on'); }
+    if (!q.multi) answer(q, [...sel]);
+  });
+  document.getElementById('next').onclick = () => answer(q, [...sel]);
+  document.getElementById('skip').onclick = () => answer(q, []);
+  document.getElementById('now').onclick = showResults;
+  const b = document.getElementById('back'); if (b) b.onclick = back;
+}
+
+function answer(q, vals) { answers[q.id] = vals; history.push(q.id); render(); }
+function back() { delete answers[history.pop()]; render(); }
+
+function answerSummary() {
+  const parts = history.filter(id => answers[id].length)
+    .map(id => answers[id].map(v => `<span>${esc(labelFor(id, v))}</span>`).join(''));
+  return parts.length ? `<p class="answers">Your choices: ${parts.join(' ')}</p>` : '';
+}
+
+function showResults() {
+  document.getElementById('prog').style.width = '100%';
+  const asked = Object.entries(answers).filter(([k, v]) => v.length && isFilter(k)).length;
+  const ranked = DATA.projects.map(p => ({p, ...score(p)}))
+    .filter(r => r.s > 0 || !asked)
+    .sort((a, b) => b.s - a.s || (b.p.committers || 0) - (a.p.committers || 0))
+    .slice(0, SHOW);
+  const html = ranked.map(({p, s, why}) => `<div class="result">
+      ${asked ? `<span class="score">matches ${s} of ${asked}</span>` : ''}
+      <h3>${esc(p.name)}</h3>
+      <div>${esc(p.desc)}</div>
+      <div class="why">${p.language.length ? 'Languages: ' + esc(p.language.join(', ')) + ' · ' : ''}${
+        p.committers ? p.committers + ' committers · ' : ''}${
+        p.lastRelease ? 'last release ' + esc(p.lastRelease) : (p.podling ? 'Incubating' : '')}</div>
+      <div class="links">
+        ${p.homepage ? `<a href="${esc(p.homepage)}">Website</a>` : ''}
+        ${p.podling ? '' : `<a href="project.html?${esc(p.id)}">Project details</a>`}
+        <a href="https://lists.apache.org/list.html?dev@${esc(p.podling ? p.id : p.pmc)}.apache.org">dev@ list</a>
+      </div></div>`).join('');
+  $s().innerHTML = `<h2>Projects you might like</h2>
+    ${html || '<p>No matches - try going back and loosening an answer.</p>'}
+    ${gettingStarted()}
+    <div class="bar">${history.length ? '<button class="btn sec" id="back">Back</button>' : ''}
+     <button class="btn" id="restart">Start over</button></div>` + answerSummary();
+  document.getElementById('restart').onclick = () => { answers = {}; history = []; render(); };
+  const b = document.getElementById('back'); if (b) b.onclick = back;
+}
+
+// Advice keyed on how the person wants to contribute. Every one of these is
+// a real contribution; none is a stepping stone to "real" (code) work.
+const ADVICE = {
+  code: 'Look for issues labelled "good first issue" or "newbie" in the project\'s issue tracker, and mention on dev@ what you\'d like to work on.',
+  docs: 'Read the project\'s docs as a newcomer and note what confused you - that list is the most valuable docs contribution there is. Docs usually live in the same repository as the code, or a website repository.',
+  users: 'Subscribe to the project\'s users@ list (or forum / chat) and answer questions you know the answer to. Every answer you give is one a maintainer doesn\'t have to.',
+  testing: 'Every Apache release is voted on in public. Download a release candidate when it\'s announced on dev@, try it, and report what you find - that counts as a contribution.',
+  design: 'Many projects need help with their website, logo, or user interface. Ask on dev@ which of these needs attention.',
+  translate: 'Ask on dev@ whether the project\'s UI or documentation is translated, and how translations are managed.',
+  outreach: 'Write about how you use the project, give a talk at a meetup or <a href="https://communityovercode.org/">Community Over Code</a>, or help with the project\'s social media. Let dev@ know so they can amplify it.',
+  unsure: 'That\'s fine! Join the project\'s dev@ list, read along for a week or two, and you\'ll quickly see where help is needed.',
+};
+function gettingStarted() {
+  const picks = (answers.contribute && answers.contribute.length) ? answers.contribute : ['unsure'];
+  return `<h2>How to get started</h2>
+    <p>Whatever you choose, start by introducing yourself on the project's dev@ mailing list:
+     say what interests you and what you'd like to help with. Projects run in the open, and
+     newcomers are welcome there.</p>
+    <ul>${picks.map(v => `<li><b>${esc(labelFor('contribute', v))}:</b> ${ADVICE[v] || ''}</li>`).join('')}</ul>
+    <p>See also <a href="https://community.apache.org/contributors/">contributing to Apache</a>
+     - code is only one of many ways to help.</p>`;
+}
+
+fetch('json/foundation/chooser.json').then(r => r.json()).then(d => {
+  DATA = d;
+  document.getElementById('generated').textContent =
+    `${d.projects.length} projects · data generated ${d.generated}`;
+  render();
+}).catch(e => { $s().textContent = 'Could not load project data: ' + e; });
+</script>
+</body>
+</html>

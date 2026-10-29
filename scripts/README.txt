@@ -40,3 +40,9 @@ various sources:
   out: site/json/projects/*.json - JSON versions of DOAP files
      + site/json/foundation/projects.json - combined listing of all projects
      + site/json/foundation/accounts-evolution2.json
+
+- buildchooser.py: builds the data for the "Help me choose a project" page (site/chooser.html).
+  Question options are derived from the data, so the question tree updates as PMCs edit DOAPs.
+  Run after parseprojects.py and parsereleases.py.
+  in: site/json/foundation/{projects,committees,podlings,releases,groups}.json
+  out: site/json/foundation/chooser.json

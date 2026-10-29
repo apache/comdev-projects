@@ -1,0 +1,9189 @@
+{
+ "generated": "2026-10-29 14:54 UTC",
+ "questions": [
+  {
+   "id": "area",
+   "text": "What kind of problems do you enjoy working on?",
+   "multi": true,
+   "options": [
+    {
+     "value": "Big data & analytics",
+     "label": "Big data & analytics",
+     "count": 64
+    },
+    {
+     "value": "Databases & storage",
+     "label": "Databases & storage",
+     "count": 61
+    },
+    {
+     "value": "Streaming & messaging",
+     "label": "Streaming & messaging",
+     "count": 32
+    },
+    {
+     "value": "Machine learning & AI",
+     "label": "Machine learning & AI",
+     "count": 12
+    },
+    {
+     "value": "Web, HTTP & APIs",
+     "label": "Web, HTTP & APIs",
+     "count": 51
+    },
+    {
+     "value": "Cloud & infrastructure",
+     "label": "Cloud & infrastructure",
+     "count": 36
+    },
+    {
+     "value": "Build, testing & dev tools",
+     "label": "Build, testing & dev tools",
+     "count": 28
+    },
+    {
+     "value": "Content, search & documents",
+     "label": "Content, search & documents",
+     "count": 68
+    },
+    {
+     "value": "IoT & edge",
+     "label": "IoT & edge",
+     "count": 16
+    },
+    {
+     "value": "Security & identity",
+     "label": "Security & identity",
+     "count": 19
+    },
+    {
+     "value": "Geospatial & science",
+     "label": "Geospatial & science",
+     "count": 10
+    },
+    {
+     "value": "Integration & workflow",
+     "label": "Integration & workflow",
+     "count": 32
+    }
+   ]
+  },
+  {
+   "id": "contribute",
+   "text": "How would you like to contribute?",
+   "multi": true,
+   "filter": false,
+   "options": [
+    {
+     "value": "code",
+     "label": "Writing code"
+    },
+    {
+     "value": "docs",
+     "label": "Documentation and tutorials"
+    },
+    {
+     "value": "users",
+     "label": "Helping users and answering questions"
+    },
+    {
+     "value": "testing",
+     "label": "Testing, bug reports and release verification"
+    },
+    {
+     "value": "design",
+     "label": "Design, UX and websites"
+    },
+    {
+     "value": "translate",
+     "label": "Translation and localisation"
+    },
+    {
+     "value": "outreach",
+     "label": "Talks, blog posts, events and outreach"
+    },
+    {
+     "value": "unsure",
+     "label": "I'm not sure yet"
+    }
+   ]
+  },
+  {
+   "id": "language",
+   "text": "Which programming languages are you comfortable in?",
+   "multi": true,
+   "requires": {
+    "contribute": [
+     "code"
+    ]
+   },
+   "options": [
+    {
+     "value": "C / C++",
+     "label": "C / C++",
+     "count": 41
+    },
+    {
+     "value": "C# / .NET",
+     "label": "C# / .NET",
+     "count": 10
+    },
+    {
+     "value": "Go",
+     "label": "Go",
+     "count": 10
+    },
+    {
+     "value": "Java",
+     "label": "Java",
+     "count": 212
+    },
+    {
+     "value": "JavaScript / TypeScript",
+     "label": "JavaScript / TypeScript",
+     "count": 21
+    },
+    {
+     "value": "PHP",
+     "label": "PHP",
+     "count": 5
+    },
+    {
+     "value": "Perl",
+     "label": "Perl",
+     "count": 9
+    },
+    {
+     "value": "Python",
+     "label": "Python",
+     "count": 28
+    },
+    {
+     "value": "Ruby",
+     "label": "Ruby",
+     "count": 6
+    },
+    {
+     "value": "Rust",
+     "label": "Rust",
+     "count": 7
+    },
+    {
+     "value": "SQL",
+     "label": "SQL",
+     "count": 5
+    },
+    {
+     "value": "Scala",
+     "label": "Scala",
+     "count": 11
+    },
+    {
+     "value": "Other",
+     "label": "Something else",
+     "count": 11
+    }
+   ]
+  },
+  {
+   "id": "kind",
+   "text": "What sort of software do you want to work on?",
+   "multi": true,
+   "options": [
+    {
+     "value": "A library or framework I embed in my code",
+     "label": "A library or framework I embed in my code",
+     "count": 176
+    },
+    {
+     "value": "A server or platform I run",
+     "label": "A server or platform I run",
+     "count": 157
+    },
+    {
+     "value": "A tool I use from the command line or IDE",
+     "label": "A tool I use from the command line or IDE",
+     "count": 81
+    }
+   ]
+  },
+  {
+   "id": "size",
+   "text": "What size of community appeals to you?",
+   "multi": false,
+   "options": [
+    {
+     "value": "small",
+     "label": "Small - where every contribution is noticed",
+     "count": 81
+    },
+    {
+     "value": "medium",
+     "label": "Medium",
+     "count": 137
+    },
+    {
+     "value": "large",
+     "label": "Large - lots of people to learn from",
+     "count": 92
+    }
+   ]
+  },
+  {
+   "id": "maturity",
+   "text": "Do you prefer a new project or an established one?",
+   "multi": false,
+   "options": [
+    {
+     "value": "incubating",
+     "label": "Brand new (in the Incubator)",
+     "count": 25
+    },
+    {
+     "value": "young",
+     "label": "Young - graduated in the last 5 years",
+     "count": 57
+    },
+    {
+     "value": "established",
+     "label": "Established and battle-tested",
+     "count": 251
+    }
+   ]
+  },
+  {
+   "id": "activity",
+   "text": "How busy should the project be?",
+   "multi": false,
+   "options": [
+    {
+     "value": "very",
+     "label": "Very active - released in the last 6 months",
+     "count": 231
+    },
+    {
+     "value": "active",
+     "label": "Active - released in the last 18 months",
+     "count": 37
+    },
+    {
+     "value": "quiet",
+     "label": "Quieter - could use new energy",
+     "count": 42
+    }
+   ]
+  }
+ ],
+ "projects": [
+  {
+   "id": "accumulo",
+   "name": "Apache Accumulo",
+   "desc": "The Apache Accumulo sorted, distributed key/value store is\n      based on Google's BigTable design. It is built on top of Apache Hadoop,\n      Apache Zookeeper, and Apache Thrift. It features a few novel improvements\n      on the BigTable design in the form of cell-level access labels and a\n      se",
+   "homepage": "https://accumulo.apache.org",
+   "pmc": "accumulo",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Databases & storage"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-24",
+   "committers": 44
+  },
+  {
+   "id": "activemq",
+   "name": "Apache ActiveMQ",
+   "desc": "ActiveMQ is the most popular and powerful open source Message Broker.",
+   "homepage": "http://activemq.apache.org/",
+   "pmc": "activemq",
+   "language": [
+    "C / C++",
+    "C# / .NET",
+    "Java",
+    "PHP",
+    "Perl",
+    "Python",
+    "Ruby"
+   ],
+   "area": [
+    "Streaming & messaging"
+   ],
+   "kind": [
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-22",
+   "committers": 65
+  },
+  {
+   "id": "age",
+   "name": "Apache AGE",
+   "desc": "Apache AGE\u2122 is a PostgreSQL extension that provides graph database functionality.",
+   "homepage": "https://age.apache.org/",
+   "pmc": "age",
+   "language": [
+    "C / C++"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Databases & storage"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-08-06",
+   "committers": 20
+  },
+  {
+   "id": "airavata",
+   "name": "Apache Airavata",
+   "desc": "Apache Airavata is a distributed system software framework to manage simple to\n            composite applications with complex execution and workflow patterns on diverse\n            computational resources.",
+   "homepage": "http://airavata.apache.org",
+   "pmc": "airavata",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Cloud & infrastructure",
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": "2024-12-10",
+   "committers": 46
+  },
+  {
+   "id": "airflow",
+   "name": "Apache Airflow",
+   "desc": "Workflow automation platform",
+   "homepage": "https://airflow.apache.org",
+   "pmc": "airflow",
+   "language": [
+    "JavaScript / TypeScript",
+    "Python"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-24",
+   "committers": 79
+  },
+  {
+   "id": "allura",
+   "name": "Apache Allura",
+   "desc": "Forge software for hosting software projects",
+   "homepage": "http://allura.apache.org",
+   "pmc": "allura",
+   "language": [
+    "Python"
+   ],
+   "area": [
+    "Content, search & documents"
+   ],
+   "kind": [],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-12",
+   "committers": 19
+  },
+  {
+   "id": "ambari",
+   "name": "Apache Ambari",
+   "desc": "Hadoop cluster management",
+   "homepage": "https://ambari.apache.org",
+   "pmc": "ambari",
+   "language": [
+    "Java",
+    "JavaScript / TypeScript",
+    "Python"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Cloud & infrastructure"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": "2025-03-25",
+   "committers": 23
+  },
+  {
+   "id": "amoro",
+   "name": "Apache Amoro (Incubating)",
+   "desc": "Amoro is a Lakehouse management system built on open data lake formats like Apache Iceberg and Apache Paimon.",
+   "homepage": "https://amoro.incubator.apache.org/",
+   "pmc": "incubator",
+   "podling": true,
+   "language": [],
+   "area": [
+    "Big data & analytics"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "incubating"
+   ],
+   "size": [],
+   "activity": [],
+   "lastRelease": null,
+   "committers": null
+  },
+  {
+   "id": "velocity-anakia",
+   "name": "Apache Anakia",
+   "desc": "Anakia uses Apache Velocity to generate documents based on XML source files.",
+   "homepage": "http://velocity.apache.org/anakia/",
+   "pmc": "velocity",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": "2024-10-21",
+   "committers": 16
+  },
+  {
+   "id": "incubator-annotator",
+   "name": "Apache Annotator",
+   "desc": "Apache Annotator provides annotation enabling code for browsers, servers, and humans.",
+   "homepage": "http://annotator.apache.org",
+   "pmc": "incubator",
+   "language": [
+    "JavaScript / TypeScript"
+   ],
+   "area": [
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "incubating"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": null,
+   "committers": 4284
+  },
+  {
+   "id": "answer",
+   "name": "Apache Answer",
+   "desc": "",
+   "homepage": "https://answer.apache.org",
+   "pmc": "answer",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-23",
+   "committers": 18
+  },
+  {
+   "id": "ant",
+   "name": "Apache Ant",
+   "desc": "Java-based build tool",
+   "homepage": "http://ant.apache.org",
+   "pmc": "ant",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Build, testing & dev tools"
+   ],
+   "kind": [
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-25",
+   "committers": 29
+  },
+  {
+   "id": "ant-antunit",
+   "name": "Apache AntUnit",
+   "desc": "Test-Framework for Testing Ant Tasks and Types",
+   "homepage": "http://ant.apache.org/antlibs/antunit/",
+   "pmc": "ant",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Build, testing & dev tools",
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-25",
+   "committers": 29
+  },
+  {
+   "id": "apisix",
+   "name": "Apache Apisix",
+   "desc": "",
+   "homepage": "https://apisix.apache.org",
+   "pmc": "apisix",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-28",
+   "committers": 65
+  },
+  {
+   "id": "aries",
+   "name": "Apache Aries",
+   "desc": "OSGi Enterprise Programming Model",
+   "homepage": "https://aries.apache.org/",
+   "pmc": "aries",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 56
+  },
+  {
+   "id": "arrow",
+   "name": "Apache Arrow",
+   "desc": "Apache Arrow is the universal columnar format and multi-language toolbox for fast data interchange and in-memory analytics.",
+   "homepage": "https://arrow.apache.org",
+   "pmc": "arrow",
+   "language": [
+    "C / C++",
+    "C# / .NET",
+    "Go",
+    "Java",
+    "JavaScript / TypeScript",
+    "Other",
+    "Python",
+    "R",
+    "Ruby",
+    "Rust"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Databases & storage"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-28",
+   "committers": 121
+  },
+  {
+   "id": "artemis",
+   "name": "Apache Artemis",
+   "desc": "",
+   "homepage": "https://artemis.apache.org",
+   "pmc": "artemis",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-09",
+   "committers": 64
+  },
+  {
+   "id": "asterixdb",
+   "name": "Apache Asterixdb",
+   "desc": "",
+   "homepage": "https://asterixdb.apache.org",
+   "pmc": "asterixdb",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2026-01-29",
+   "committers": 48
+  },
+  {
+   "id": "asyncband",
+   "name": "Apache Asyncband (Incubating)",
+   "desc": "Asyncband is a runtime-agnostic library providing essential synchronization primitives for asynchronous Rust programming.",
+   "homepage": "https://asyncband.incubator.apache.org/",
+   "pmc": "incubator",
+   "podling": true,
+   "language": [],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "incubating"
+   ],
+   "size": [],
+   "activity": [],
+   "lastRelease": null,
+   "committers": null
+  },
+  {
+   "id": "atlas",
+   "name": "Apache Atlas",
+   "desc": "",
+   "homepage": "https://atlas.apache.org",
+   "pmc": "atlas",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2026-04-30",
+   "committers": 51
+  },
+  {
+   "id": "auron",
+   "name": "Apache Auron",
+   "desc": "",
+   "homepage": "https://auron.apache.org",
+   "pmc": "auron",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": null,
+   "committers": 22
+  },
+  {
+   "id": "avro",
+   "name": "Apache Avro",
+   "desc": "Apache Avro is a data serialization system.",
+   "homepage": "https://avro.apache.org",
+   "pmc": "avro",
+   "language": [
+    "C / C++",
+    "C# / .NET",
+    "Java",
+    "JavaScript / TypeScript",
+    "PHP",
+    "Perl",
+    "Python",
+    "Ruby",
+    "Rust"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-08-07",
+   "committers": 39
+  },
+  {
+   "id": "ws-axiom",
+   "name": "Apache Axiom",
+   "desc": "Apache Axiom is an XML object model supporting deferred parsing.",
+   "homepage": "http://ws.apache.org/axiom/",
+   "pmc": "ws",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Streaming & messaging",
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-30",
+   "committers": 223
+  },
+  {
+   "id": "axis-axis2",
+   "name": "Apache Axis2",
+   "desc": "Apache Axis2 is a service hosting and consumption framework that makes it easy to use SOAP and Web Services",
+   "homepage": "http://axis.apache.org/axis2/java/core",
+   "pmc": "axis",
+   "language": [
+    "C / C++",
+    "Java"
+   ],
+   "area": [
+    "Web, HTTP & APIs",
+    "Cloud & infrastructure",
+    "Content, search & documents",
+    "Security & identity"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-13",
+   "committers": 65
+  },
+  {
+   "id": "xmlgraphics-batik",
+   "name": "Apache Batik",
+   "desc": "The Apache Foundation's Java-based toolkit for SVG generation and manipulation.",
+   "homepage": "http://xmlgraphics.apache.org/batik/",
+   "pmc": "xmlgraphics",
+   "language": [
+    "Other"
+   ],
+   "area": [
+    "Content, search & documents",
+    "Geospatial & science"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-20",
+   "committers": 22
+  },
+  {
+   "id": "beam",
+   "name": "Apache Beam",
+   "desc": "Apache Beam is a programming model, SDKs, and runners for defining and executing data processing pipelines.",
+   "homepage": "https://beam.apache.org",
+   "pmc": "beam",
+   "language": [
+    "Java",
+    "Python"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Streaming & messaging",
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-08-31",
+   "committers": 102
+  },
+  {
+   "id": "bifromq",
+   "name": "Apache BifroMQ (Incubating)",
+   "desc": "BifroMQ is a Java-based, high-performance, distributed MQTT broker with native multi-tenancy support, designed for large-scale connections and message delivery.",
+   "homepage": "https://bifromq.incubator.apache.org/",
+   "pmc": "incubator",
+   "podling": true,
+   "language": [],
+   "area": [
+    "Streaming & messaging"
+   ],
+   "kind": [],
+   "maturity": [
+    "incubating"
+   ],
+   "size": [],
+   "activity": [],
+   "lastRelease": null,
+   "committers": null
+  },
+  {
+   "id": "bigtop",
+   "name": "Apache Bigtop",
+   "desc": "A 100% community-driven Bigdata management platform.",
+   "homepage": "http://bigtop.apache.org/",
+   "pmc": "bigtop",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Build, testing & dev tools"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-07-10",
+   "committers": 46
+  },
+  {
+   "id": "bookkeeper",
+   "name": "Apache BookKeeper",
+   "desc": "A reliable replicated log service",
+   "homepage": "http://bookkeeper.apache.org/",
+   "pmc": "bookkeeper",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Databases & storage"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-17",
+   "committers": 32
+  },
+  {
+   "id": "brooklyn",
+   "name": "Apache Brooklyn",
+   "desc": "Apache Brooklyn is a framework for modeling, monitoring, and managing applications through autonomic blueprints.",
+   "homepage": "http://brooklyn.apache.org",
+   "pmc": "brooklyn",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Cloud & infrastructure"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": "2024-02-19",
+   "committers": 20
+  },
+  {
+   "id": "brpc",
+   "name": "Apache bRPC",
+   "desc": "An industrial-grade RPC framework for building reliable and high-performance services.",
+   "homepage": "https://brpc.apache.org",
+   "pmc": "brpc",
+   "language": [
+    "C / C++"
+   ],
+   "area": [
+    "Databases & storage",
+    "Machine learning & AI",
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-12",
+   "committers": 22
+  },
+  {
+   "id": "buildstream",
+   "name": "Apache Buildstream",
+   "desc": "",
+   "homepage": "https://buildstream.apache.org",
+   "pmc": "buildstream",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-22",
+   "committers": 6
+  },
+  {
+   "id": "burr",
+   "name": "Apache Burr (Incubating)",
+   "desc": "Burr is a lightweight in-process python framework that standardizes the expression and execution of state machines as action-driven graphs, while making graph execution easily observable. It is particularly suited for AI agent workflows, simulations, and other dynamic systems, and comes with a self-",
+   "homepage": "https://burr.incubator.apache.org/",
+   "pmc": "incubator",
+   "podling": true,
+   "language": [],
+   "area": [
+    "Machine learning & AI",
+    "Cloud & infrastructure",
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "incubating"
+   ],
+   "size": [],
+   "activity": [],
+   "lastRelease": null,
+   "committers": null
+  },
+  {
+   "id": "bval",
+   "name": "Apache BVal",
+   "desc": "Bean Validation API Implementation",
+   "homepage": "http://bval.apache.org/",
+   "pmc": "bval",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Web, HTTP & APIs"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-07-26",
+   "committers": 17
+  },
+  {
+   "id": "calcite",
+   "name": "Apache Calcite",
+   "desc": "A dynamic data management framework.",
+   "homepage": "https://calcite.apache.org",
+   "pmc": "calcite",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Databases & storage",
+    "Geospatial & science"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-20",
+   "committers": 83
+  },
+  {
+   "id": "caldera",
+   "name": "Apache Caldera (Incubating)",
+   "desc": "Caldera provides a modular platform for modeling, scripting, and executing adversary behavior. It allows users to construct emulation plans, provides agents for communicating with the command and control server, and enables users to evaluate security detections in a structured, scalable, and repeata",
+   "homepage": "https://caldera.incubator.apache.org/",
+   "pmc": "incubator",
+   "podling": true,
+   "language": [],
+   "area": [
+    "Big data & analytics",
+    "Security & identity"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "incubating"
+   ],
+   "size": [],
+   "activity": [],
+   "lastRelease": null,
+   "committers": null
+  },
+  {
+   "id": "camel",
+   "name": "Apache Camel",
+   "desc": "Apache Camel is an open source integration framework with 350+ connectors.",
+   "homepage": "https://camel.apache.org/",
+   "pmc": "camel",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Cloud & infrastructure",
+    "Content, search & documents",
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-22",
+   "committers": 97
+  },
+  {
+   "id": "carbondata",
+   "name": "Apache CarbonData",
+   "desc": "Apache CarbonData is an indexed columnar data format for fast analytics on big data platform, e.g. Apache Hadoop, Apache Spark, etc.",
+   "homepage": "https://carbondata.apache.org",
+   "pmc": "carbondata",
+   "language": [
+    "Java",
+    "Scala"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Databases & storage"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2026-03-25",
+   "committers": 28
+  },
+  {
+   "id": "casbin",
+   "name": "Apache Casbin (Incubating)",
+   "desc": "Casbin is a powerful, open-source access control framework that provides a unified, model-driven approach to authorization.",
+   "homepage": "https://casbin.incubator.apache.org/",
+   "pmc": "incubator",
+   "podling": true,
+   "language": [],
+   "area": [
+    "Security & identity"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "incubating"
+   ],
+   "size": [],
+   "activity": [],
+   "lastRelease": null,
+   "committers": null
+  },
+  {
+   "id": "cassandra",
+   "name": "Apache Cassandra",
+   "desc": "The Apache Cassandra database is the right choice when you need scalability and high availability without compromising performance.",
+   "homepage": "http://cassandra.apache.org",
+   "pmc": "cassandra",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Databases & storage",
+    "Cloud & infrastructure",
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-25",
+   "committers": 101
+  },
+  {
+   "id": "causeway",
+   "name": "Apache Causeway",
+   "desc": "Apache Causeway is a framework for rapidly developing domain-driven apps in Java",
+   "homepage": "https://causeway.apache.org",
+   "pmc": "causeway",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Web, HTTP & APIs"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-07-12",
+   "committers": 16
+  },
+  {
+   "id": "cayenne",
+   "name": "Apache Cayenne",
+   "desc": "User-friendly Java ORM with tools",
+   "homepage": "https://cayenne.apache.org",
+   "pmc": "cayenne",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Databases & storage",
+    "Web, HTTP & APIs",
+    "Content, search & documents",
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-08-21",
+   "committers": 24
+  },
+  {
+   "id": "celeborn",
+   "name": "Apache Celeborn",
+   "desc": "",
+   "homepage": "https://celeborn.apache.org",
+   "pmc": "celeborn",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-08-10",
+   "committers": 28
+  },
+  {
+   "id": "celix",
+   "name": "Apache Celix",
+   "desc": "Dynamic Service framework for C and C++ inspired by OSGi.",
+   "homepage": "https://celix.apache.org",
+   "pmc": "celix",
+   "language": [
+    "C / C++"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": "2023-09-27",
+   "committers": 17
+  },
+  {
+   "id": "logging-chainsaw",
+   "name": "Apache Chainsaw",
+   "desc": "Apache Chainsaw is a GUI log viewer.",
+   "homepage": "http://logging.apache.org/log4j/docs/chainsaw.html",
+   "pmc": "logging",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-01",
+   "committers": 49
+  },
+  {
+   "id": "cloudberry",
+   "name": "Apache Cloudberry (Incubating)",
+   "desc": "Cloudberry Database, built on the latest PostgreSQL kernel, is one of the most advanced and mature open-source MPP (Massively Parallel Processing) databases available.",
+   "homepage": "https://cloudberry.incubator.apache.org/",
+   "pmc": "incubator",
+   "podling": true,
+   "language": [],
+   "area": [
+    "Databases & storage",
+    "Cloud & infrastructure"
+   ],
+   "kind": [],
+   "maturity": [
+    "incubating"
+   ],
+   "size": [],
+   "activity": [],
+   "lastRelease": null,
+   "committers": null
+  },
+  {
+   "id": "cloudstack",
+   "name": "Apache CloudStack",
+   "desc": "Apache CloudStack is an IaaS (\u201cInfrastracture as a Service\u201d) cloud orchestration platform.",
+   "homepage": "http://cloudstack.apache.org",
+   "pmc": "cloudstack",
+   "language": [
+    "Java",
+    "Python"
+   ],
+   "area": [
+    "Cloud & infrastructure",
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-21",
+   "committers": 148
+  },
+  {
+   "id": "commons-bcel",
+   "name": "Apache Commons BCEL",
+   "desc": "Bytecode Engineering Library",
+   "homepage": "http://commons.apache.org/bcel/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-beanutils",
+   "name": "Apache Commons BeanUtils",
+   "desc": "Commons BeanUtils",
+   "homepage": "https://commons.apache.org/beanutils/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-bsf",
+   "name": "Apache Commons BSF",
+   "desc": "Framework that provides scripting language support within Java applications",
+   "homepage": "http://commons.apache.org/bsf/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "IoT & edge"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-chain__dormant_",
+   "name": "Apache Commons Chain (Dormant)",
+   "desc": "Commons Chain",
+   "homepage": "http://commons.apache.org/chain/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-cli",
+   "name": "Apache Commons CLI",
+   "desc": "Commons CLI",
+   "homepage": "http://commons.apache.org/cli/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-codec",
+   "name": "Apache Commons Codec",
+   "desc": "Simple encoders and decoders",
+   "homepage": "http://commons.apache.org/codec/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-collections",
+   "name": "Apache Commons Collections",
+   "desc": "Commons Collections",
+   "homepage": "http://commons.apache.org/collections/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-compress",
+   "name": "Apache Commons Compress",
+   "desc": "Commons Compress",
+   "homepage": "http://commons.apache.org/compress/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-configuration",
+   "name": "Apache Commons Configuration",
+   "desc": "Common Configuration",
+   "homepage": "http://commons.apache.org/configuration/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-crypto",
+   "name": "Apache Commons Crypto",
+   "desc": "Commons Crypto",
+   "homepage": "http://commons.apache.org/crypto/",
+   "pmc": "commons",
+   "language": [
+    "C / C++",
+    "Java"
+   ],
+   "area": [
+    "Security & identity"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-csv",
+   "name": "Apache Commons CSV",
+   "desc": "Java Common Components",
+   "homepage": "http://commons.apache.org/csv/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-daemon",
+   "name": "Apache Commons Daemon",
+   "desc": "Commons Daemon",
+   "homepage": "http://commons.apache.org/daemon/",
+   "pmc": "commons",
+   "language": [
+    "C / C++",
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-dbcp",
+   "name": "Apache Commons DBCP",
+   "desc": "Commons Database Connection Pooling",
+   "homepage": "http://commons.apache.org/dbcp/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Databases & storage"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-dbutils",
+   "name": "Apache Commons DbUtils",
+   "desc": "Commons DbUtils",
+   "homepage": "http://commons.apache.org/dbutils/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-digester",
+   "name": "Apache Commons Digester",
+   "desc": "Rule based XML->Java object mapping module",
+   "homepage": "http://commons.apache.org/digester/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-email",
+   "name": "Apache Commons Email",
+   "desc": "Commons Email",
+   "homepage": "http://commons.apache.org/email/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-exec",
+   "name": "Apache Commons Exec",
+   "desc": "A library to reliably execute external processes from within the JVM",
+   "homepage": "http://commons.apache.org/exec/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-fileupload",
+   "name": "Apache Commons FileUpload",
+   "desc": "File upload component for Java servlets",
+   "homepage": "http://commons.apache.org/fileupload/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Web, HTTP & APIs"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-functor__dormant_",
+   "name": "Apache Commons Functor (Dormant)",
+   "desc": "Commons Functor",
+   "homepage": "http://commons.apache.org/functor/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-geometry",
+   "name": "Apache Commons Geometry",
+   "desc": "Apache Commons Geometry",
+   "homepage": "http://commons.apache.org/geometry/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "httpcomponents-commons_httpclient",
+   "name": "Apache Commons HttpClient",
+   "desc": "Client-side HTTP implementation in Java.",
+   "homepage": "http://hc.apache.org/httpclient-3.x/",
+   "pmc": "httpcomponents",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Web, HTTP & APIs",
+    "Security & identity"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-22",
+   "committers": 20
+  },
+  {
+   "id": "commons-imaging",
+   "name": "Apache Commons Imaging",
+   "desc": "Java Common Components",
+   "homepage": "http://commons.apache.org/imaging/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-io",
+   "name": "Apache Commons IO",
+   "desc": "Commons IO",
+   "homepage": "http://commons.apache.org/io/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Streaming & messaging"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-jci",
+   "name": "Apache Commons JCI",
+   "desc": "Commons JCI",
+   "homepage": "http://commons.apache.org/jci/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Build, testing & dev tools"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-jcs",
+   "name": "Apache Commons JCS",
+   "desc": "Java Caching System",
+   "homepage": "http://commons.apache.org/jcs/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-jelly",
+   "name": "Apache Commons Jelly",
+   "desc": "Commons Jelly",
+   "homepage": "http://commons.apache.org/jelly/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-jexl",
+   "name": "Apache Commons JEXL",
+   "desc": "Apache Commons JEXL Expression Language Engine",
+   "homepage": "http://commons.apache.org/jexl/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-jxpath",
+   "name": "Apache Commons JXPath",
+   "desc": "XPath for Java Objects",
+   "homepage": "http://commons.apache.org/jxpath/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-lang",
+   "name": "Apache Commons Lang",
+   "desc": "Java Common Components",
+   "homepage": "http://commons.apache.org/lang/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-logging",
+   "name": "Apache Commons Logging",
+   "desc": "Commons Logging",
+   "homepage": "http://commons.apache.org/logging/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-math",
+   "name": "Apache Commons Math",
+   "desc": "Apache Commons Math",
+   "homepage": "http://commons.apache.org/math/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-net",
+   "name": "Apache Commons Net",
+   "desc": "Apache Commons Net",
+   "homepage": "http://commons.apache.org/net/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-numbers",
+   "name": "Apache Commons Numbers",
+   "desc": "Apache Commons Numbers",
+   "homepage": "http://commons.apache.org/numbers/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-ognl__dormant_",
+   "name": "Apache Commons OGNL (Dormant)",
+   "desc": "Object Graph Navigation Library",
+   "homepage": "http://commons.apache.org/ognl/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-pool",
+   "name": "Apache Commons Pool",
+   "desc": "Commons Object Pooling Library",
+   "homepage": "http://commons.apache.org/pool/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-proxy__dormant_",
+   "name": "Apache Commons Proxy (Dormant)",
+   "desc": "Commons Dynamic Proxy Library",
+   "homepage": "http://commons.apache.org/proxy/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-rdf",
+   "name": "Apache Commons RDF",
+   "desc": "Apache Commons RDF",
+   "homepage": "https://commons.apache.org/rdf/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-rng",
+   "name": "Apache Commons RNG",
+   "desc": "Apache Commons RNG",
+   "homepage": "https://commons.apache.org/rng/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-scxml",
+   "name": "Apache Commons SCXML",
+   "desc": "A Java implementation of State Chart XML",
+   "homepage": "http://commons.apache.org/scxml/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-statistics",
+   "name": "Apache Commons Statistics",
+   "desc": "Apache Commons Statistics",
+   "homepage": "http://commons.apache.org/statistics/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-text",
+   "name": "Apache Commons Text",
+   "desc": "Java Common Components",
+   "homepage": "http://commons.apache.org/text/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-validator",
+   "name": "Apache Commons Validator",
+   "desc": "Validation Framework and Routines",
+   "homepage": "http://commons.apache.org/validator/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-vfs",
+   "name": "Apache Commons VFS",
+   "desc": "Commons VFS",
+   "homepage": "http://commons.apache.org/vfs/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "commons-weaver",
+   "name": "Apache Commons Weaver",
+   "desc": "Java Common Components",
+   "homepage": "http://commons.apache.org/weaver/",
+   "pmc": "commons",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 151
+  },
+  {
+   "id": "comdev-community_development",
+   "name": "Apache Community Development",
+   "desc": "Resources to help people become involved with Apache projects",
+   "homepage": "https://community.apache.org/",
+   "pmc": "comdev",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": null,
+   "committers": 56
+  },
+  {
+   "id": "ant-compress",
+   "name": "Apache Compress Ant Library",
+   "desc": "Provides Support for Some Archive Formats not Supported by Ant's Core",
+   "homepage": "http://ant.apache.org/antlibs/compress/",
+   "pmc": "ant",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Build, testing & dev tools"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-25",
+   "committers": 29
+  },
+  {
+   "id": "cordova",
+   "name": "Apache Cordova",
+   "desc": "A tool to create cross-platform apps from standard web technologies (HTML, CSS, and JavaScript).",
+   "homepage": "https://cordova.apache.org",
+   "pmc": "cordova",
+   "language": [
+    "C / C++",
+    "Java",
+    "JavaScript / TypeScript"
+   ],
+   "area": [
+    "IoT & edge"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-20",
+   "committers": 100
+  },
+  {
+   "id": "couchdb",
+   "name": "Apache CouchDB",
+   "desc": "NoSQL document database using HTTP, JSON, and MapReduce",
+   "homepage": "https://couchdb.apache.org/",
+   "pmc": "couchdb",
+   "language": [
+    "C / C++",
+    "Erlang",
+    "JavaScript / TypeScript"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Databases & storage",
+    "Web, HTTP & APIs",
+    "Cloud & infrastructure",
+    "Content, search & documents",
+    "IoT & edge"
+   ],
+   "kind": [
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-10",
+   "committers": 74
+  },
+  {
+   "id": "ctakes",
+   "name": "Apache cTAKES",
+   "desc": "Apache clinical Text Analysis and Knowledge Extraction System (cTAKES) is an open-source natural language processing system for information extraction from electronic medical record clinical free-text.",
+   "homepage": "https://github.com/apache/ctakes",
+   "pmc": "ctakes",
+   "language": [
+    "Java",
+    "Python",
+    "Scala"
+   ],
+   "area": [
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": "2025-03-06",
+   "committers": 40
+  },
+  {
+   "id": "curator",
+   "name": "Apache Curator",
+   "desc": "A set of Java libraries that make using Apache ZooKeeper much easier.",
+   "homepage": "http://curator.apache.org/",
+   "pmc": "curator",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Databases & storage"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2025-07-23",
+   "committers": 16
+  },
+  {
+   "id": "cxf",
+   "name": "Apache CXF",
+   "desc": "Apache CXF: An Open Source Service Framework",
+   "homepage": "https://cxf.apache.org/",
+   "pmc": "cxf",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Web, HTTP & APIs",
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-08",
+   "committers": 45
+  },
+  {
+   "id": "ant-cyclonedx",
+   "name": "Apache CycloneDX Ant Library",
+   "desc": "Ant Tasks for CycloneDX SBOMs",
+   "homepage": "http://ant.apache.org/antlibs/cyclonedx/",
+   "pmc": "ant",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Build, testing & dev tools"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-25",
+   "committers": 29
+  },
+  {
+   "id": "daffodil",
+   "name": "Apache Daffodil",
+   "desc": "Apache Daffodil is an open-source implementation of the\n        Data Format Description Language to convert between fixed format\n        data and XML, JSON, or other data structures.",
+   "homepage": "https://daffodil.apache.org",
+   "pmc": "daffodil",
+   "language": [
+    "Java",
+    "Scala"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-06-30",
+   "committers": 23
+  },
+  {
+   "id": "datafu",
+   "name": "Apache DataFu",
+   "desc": "Apache DataFu is a collection of libraries for working with large-scale data in Hadoop. The project was inspired by the need for stable, well-tested libraries for data mining and statistics.",
+   "homepage": "http://datafu.apache.org/",
+   "pmc": "datafu",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Big data & analytics"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": "2025-04-17",
+   "committers": 20
+  },
+  {
+   "id": "datafusion",
+   "name": "Apache DataFusion",
+   "desc": "Apache DataFusion is a fast, extensible query engine for building high-quality data-centric systems in Rust.",
+   "homepage": "https://datafusion.apache.org",
+   "pmc": "datafusion",
+   "language": [
+    "Python",
+    "Rust"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Databases & storage"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-12",
+   "committers": 63
+  },
+  {
+   "id": "datasketches",
+   "name": "Apache DataSketches",
+   "desc": "A library of production quality streaming algorithms with platform plugins for real-time analysis of big data in Java, C++, Python, and Go.",
+   "homepage": "https://datasketches.apache.org",
+   "pmc": "datasketches",
+   "language": [
+    "C / C++",
+    "Go",
+    "Java",
+    "Python",
+    "Rust"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Streaming & messaging"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-01",
+   "committers": 27
+  },
+  {
+   "id": "deltaspike",
+   "name": "Apache DeltaSpike",
+   "desc": "DeltaSpike is a collection of portable Extensions for CDI Containers",
+   "homepage": "http://deltaspike.apache.org",
+   "pmc": "deltaspike",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Streaming & messaging",
+    "Web, HTTP & APIs",
+    "Cloud & infrastructure",
+    "Build, testing & dev tools",
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2025-08-11",
+   "committers": 36
+  },
+  {
+   "id": "db-derby",
+   "name": "Apache Derby",
+   "desc": "Apache Derby is an open source relational database implemented in Java.",
+   "homepage": "http://db.apache.org/derby",
+   "pmc": "db",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Databases & storage",
+    "Web, HTTP & APIs"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2025-08-13",
+   "committers": 48
+  },
+  {
+   "id": "devlake",
+   "name": "Apache Devlake",
+   "desc": "",
+   "homepage": "https://devlake.apache.org",
+   "pmc": "devlake",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": null,
+   "committers": 40
+  },
+  {
+   "id": "directory-ldap_api",
+   "name": "Apache Directory LDAP API",
+   "desc": "The Apache Directory LDAP API is an ongoing effort to provide an enhanced LDAP API, as a replacement for JNDI and the existing LDAP API (jLdap and Mozilla LDAP API).",
+   "homepage": "https://directory.apache.org/api",
+   "pmc": "directory",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-28",
+   "committers": 57
+  },
+  {
+   "id": "directory-server",
+   "name": "Apache Directory Server",
+   "desc": "An extensible, embeddable LDAP and Kerberos server, entirely in Java",
+   "homepage": "https://directory.apache.org/apacheds",
+   "pmc": "directory",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Streaming & messaging"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-28",
+   "committers": 57
+  },
+  {
+   "id": "directory-studio",
+   "name": "Apache Directory Studio",
+   "desc": "The Eclipse based LDAP browser and directory client",
+   "homepage": "https://directory.apache.org/studio/",
+   "pmc": "directory",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-28",
+   "committers": 57
+  },
+  {
+   "id": "dolphinscheduler",
+   "name": "Apache Dolphinscheduler",
+   "desc": "",
+   "homepage": "https://dolphinscheduler.apache.org",
+   "pmc": "dolphinscheduler",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-06",
+   "committers": 59
+  },
+  {
+   "id": "doris",
+   "name": "Apache Doris",
+   "desc": "Apache Doris is a new-generation open-source real-time data warehouse based on MPP architecture, with easier use and higher performance for big data analytics.",
+   "homepage": "https://doris.apache.org/",
+   "pmc": "doris",
+   "language": [
+    "C / C++",
+    "Java"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Databases & storage"
+   ],
+   "kind": [
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-15",
+   "committers": 110
+  },
+  {
+   "id": "drill",
+   "name": "Apache Drill",
+   "desc": "A distributed SQL MPP for Hadoop and NoSQL",
+   "homepage": "http://drill.apache.org",
+   "pmc": "drill",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Databases & storage"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2025-06-22",
+   "committers": 64
+  },
+  {
+   "id": "druid",
+   "name": "Apache Druid",
+   "desc": "High performance, real-time analytics database for sub-second queries at scale and under load.",
+   "homepage": "https://druid.apache.org/",
+   "pmc": "druid",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Databases & storage",
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-24",
+   "committers": 77
+  },
+  {
+   "id": "dubbo",
+   "name": "Apache Dubbo",
+   "desc": "",
+   "homepage": "https://dubbo.apache.org",
+   "pmc": "dubbo",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2025-11-26",
+   "committers": 119
+  },
+  {
+   "id": "echarts",
+   "name": "Apache ECharts",
+   "desc": "A powerful, interactive charting and visualization library for browser",
+   "homepage": "https://echarts.apache.org",
+   "pmc": "echarts",
+   "language": [
+    "JavaScript / TypeScript"
+   ],
+   "area": [
+    "Geospatial & science"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-05-19",
+   "committers": 31
+  },
+  {
+   "id": "empire-db",
+   "name": "Apache Empire-db",
+   "desc": "Apache Empire-db is a relational database access library that provides an alternative \n\tapproach to Object-Relational-Mapping (ORM) as offered by JDO and JPA",
+   "homepage": "https://empire-db.apache.org",
+   "pmc": "empire-db",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Databases & storage"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-07-21",
+   "committers": 11
+  },
+  {
+   "id": "eventmesh",
+   "name": "Apache EventMesh",
+   "desc": "EventMesh is a new generation serverless event middleware for building distributed event-driven applications.",
+   "homepage": "https://eventmesh.apache.org",
+   "pmc": "eventmesh",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Streaming & messaging",
+    "Cloud & infrastructure"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2025-12-30",
+   "committers": 54
+  },
+  {
+   "id": "felix",
+   "name": "Apache Felix",
+   "desc": "OSGi framework implementation and related technologies.",
+   "homepage": "http://felix.apache.org",
+   "pmc": "felix",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-13",
+   "committers": 68
+  },
+  {
+   "id": "fesod",
+   "name": "Apache Fesod (Incubating)",
+   "desc": "Fesod is a high-performance and memory-efficient Java library for reading and writing Excel files, designed to simplify development and ensure reliability.",
+   "homepage": "https://fesod.incubator.apache.org/",
+   "pmc": "incubator",
+   "podling": true,
+   "language": [],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "incubating"
+   ],
+   "size": [],
+   "activity": [],
+   "lastRelease": null,
+   "committers": null
+  },
+  {
+   "id": "fineract",
+   "name": "Apache Fineract",
+   "desc": "Core bank processing and lending",
+   "homepage": "https://fineract.apache.org",
+   "pmc": "fineract",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Cloud & infrastructure"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-07-11",
+   "committers": 58
+  },
+  {
+   "id": "flagon",
+   "name": "Apache Flagon",
+   "desc": "",
+   "homepage": "https://flagon.apache.org",
+   "pmc": "flagon",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": "2024-04-03",
+   "committers": 20
+  },
+  {
+   "id": "flex",
+   "name": "Apache Flex",
+   "desc": "Apache Flex\u00ae is a highly productive, open source application framework for building and maintaining expressive web applications that deploy consistently on all major browsers, desktops and devices (including smartphones, tablets and tv).",
+   "homepage": "http://flex.apache.org",
+   "pmc": "flex",
+   "language": [
+    "Other"
+   ],
+   "area": [
+    "Web, HTTP & APIs",
+    "IoT & edge"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": "2023-04-17",
+   "committers": 67
+  },
+  {
+   "id": "flink",
+   "name": "Apache Flink",
+   "desc": "Fast and reliable large-scale data processing",
+   "homepage": "http://flink.apache.org",
+   "pmc": "flink",
+   "language": [
+    "Java",
+    "Scala"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Databases & storage"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-29",
+   "committers": 132
+  },
+  {
+   "id": "logging-flume",
+   "name": "Apache Flume",
+   "desc": "Apache Flume is a distributed, reliable, and available system for efficiently collecting, aggregating and moving large amounts of log data from many different sources to a centralized data store.",
+   "homepage": "http://flume.apache.org",
+   "pmc": "logging",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Big data & analytics"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-01",
+   "committers": 49
+  },
+  {
+   "id": "accumulo-fluo",
+   "name": "Apache Fluo",
+   "desc": "Apache Fluo is a distributed processing system that lets users\n      make incremental updates to large data sets. With Apache Fluo, users can\n      set up workflows that execute cross node transactions when data changes.\n      These workflows enable users to continuously join new data into large\n   ",
+   "homepage": "https://fluo.apache.org",
+   "pmc": "accumulo",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-24",
+   "committers": 44
+  },
+  {
+   "id": "accumulo-fluo_recipes",
+   "name": "Apache Fluo Recipes",
+   "desc": "Apache Fluo Recipes build on the Fluo API to offer additional\n      functionality to developers. They are published separately from Fluo on\n      their own release schedule. This allows Fluo Recipes to iterate and\n      innovate faster than Fluo (which will maintain a more minimal API on a\n      slo",
+   "homepage": "https://fluo.apache.org",
+   "pmc": "accumulo",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Big data & analytics"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-24",
+   "committers": 44
+  },
+  {
+   "id": "accumulo-fluo_yarn",
+   "name": "Apache Fluo YARN",
+   "desc": "Apache Fluo YARN is a tool for running Apache Fluo\n      applications in Apache Hadoop YARN.",
+   "homepage": "https://fluo.apache.org",
+   "pmc": "accumulo",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Big data & analytics"
+   ],
+   "kind": [
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-24",
+   "committers": 44
+  },
+  {
+   "id": "fluss",
+   "name": "Apache Fluss",
+   "desc": "",
+   "homepage": "https://fluss.apache.org",
+   "pmc": "fluss",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-18",
+   "committers": 25
+  },
+  {
+   "id": "xmlgraphics-fop",
+   "name": "Apache FOP",
+   "desc": "The Apache Foundation's XSL Formatting Objects (XSL-FO) implementation.",
+   "homepage": "http://xmlgraphics.apache.org/fop",
+   "pmc": "xmlgraphics",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Content, search & documents",
+    "Geospatial & science"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-20",
+   "committers": 22
+  },
+  {
+   "id": "directory-fortress",
+   "name": "Apache Fortress",
+   "desc": "Authorization SDK",
+   "homepage": "https://directory.apache.org/fortress/",
+   "pmc": "directory",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Security & identity"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-28",
+   "committers": 57
+  },
+  {
+   "id": "fory",
+   "name": "Apache Fory",
+   "desc": "",
+   "homepage": "https://fory.apache.org",
+   "pmc": "fory",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-08",
+   "committers": 19
+  },
+  {
+   "id": "freemarker",
+   "name": "Apache FreeMarker",
+   "desc": "FreeMarker is a template engine, i.e. a generic tool to generate text output based on templates. FreeMarker is implemented in Java as a class library for programmers.",
+   "homepage": "https://freemarker.apache.org",
+   "pmc": "freemarker",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Databases & storage",
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-08-27",
+   "committers": 12
+  },
+  {
+   "id": "mina-ftpserver",
+   "name": "Apache FtpServer",
+   "desc": "The Apache FtpServer application is a 100% pure Java FTP server",
+   "homepage": "http://mina.apache.org/ftpserver-project",
+   "pmc": "mina",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "IoT & edge",
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-17",
+   "committers": 29
+  },
+  {
+   "id": "geaflow",
+   "name": "Apache GeaFlow (Incubating)",
+   "desc": "GeaFlow is a distributed stream and batch integration graph compute engine.",
+   "homepage": "https://geaflow.incubator.apache.org/",
+   "pmc": "incubator",
+   "podling": true,
+   "language": [],
+   "area": [
+    "Streaming & messaging",
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "incubating"
+   ],
+   "size": [],
+   "activity": [],
+   "lastRelease": null,
+   "committers": null
+  },
+  {
+   "id": "geode",
+   "name": "Apache Geode",
+   "desc": "Apache Geode is a data management platform that provides real-time, consistent access to data-intensive applications throughout widely distributed cloud architectures.",
+   "homepage": "https://geode.apache.org",
+   "pmc": "geode",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Databases & storage",
+    "Streaming & messaging",
+    "Cloud & infrastructure"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-11",
+   "committers": 126
+  },
+  {
+   "id": "geronimo",
+   "name": "Apache Geronimo",
+   "desc": "Java EE Application Server",
+   "homepage": "http://geronimo.apache.org",
+   "pmc": "geronimo",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Web, HTTP & APIs"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-16",
+   "committers": 71
+  },
+  {
+   "id": "gluten",
+   "name": "Apache Gluten",
+   "desc": "",
+   "homepage": "https://gluten.apache.org",
+   "pmc": "gluten",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-08-21",
+   "committers": 47
+  },
+  {
+   "id": "gobblin",
+   "name": "Apache Gobblin",
+   "desc": "Distributed data integration framework",
+   "homepage": "https://gobblin.apache.org",
+   "pmc": "gobblin",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Streaming & messaging",
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": "2023-06-14",
+   "committers": 23
+  },
+  {
+   "id": "grails",
+   "name": "Apache Grails",
+   "desc": "Grails - the Groovy Web Application Framework",
+   "homepage": "https://grails.apache.org",
+   "pmc": "grails",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Web, HTTP & APIs"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-06",
+   "committers": 19
+  },
+  {
+   "id": "graphar",
+   "name": "Apache GraphAr (Incubating)",
+   "desc": "GraphAr is an open-source and language-independent data file format designed for efficient graph data storage and retrieval.",
+   "homepage": "https://graphar.incubator.apache.org/",
+   "pmc": "incubator",
+   "podling": true,
+   "language": [],
+   "area": [
+    "Databases & storage"
+   ],
+   "kind": [],
+   "maturity": [
+    "incubating"
+   ],
+   "size": [],
+   "activity": [],
+   "lastRelease": null,
+   "committers": null
+  },
+  {
+   "id": "gravitino",
+   "name": "Apache Gravitino",
+   "desc": "",
+   "homepage": "https://gravitino.apache.org",
+   "pmc": "gravitino",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-24",
+   "committers": 30
+  },
+  {
+   "id": "groovy",
+   "name": "Apache Groovy",
+   "desc": "A multi-faceted language for the Java platform",
+   "homepage": "http://groovy.apache.org",
+   "pmc": "groovy",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-22",
+   "committers": 25
+  },
+  {
+   "id": "guacamole",
+   "name": "Apache Guacamole",
+   "desc": "Clientless remote desktop gateway.",
+   "homepage": "http://guacamole.apache.org",
+   "pmc": "guacamole",
+   "language": [
+    "C / C++",
+    "Java",
+    "JavaScript / TypeScript"
+   ],
+   "area": [],
+   "kind": [
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2025-06-19",
+   "committers": 17
+  },
+  {
+   "id": "gump",
+   "name": "Apache Gump",
+   "desc": "Gump provides large scale continuous integration for various open source projects.",
+   "homepage": "http://gump.apache.org/",
+   "pmc": "gump",
+   "language": [
+    "Python"
+   ],
+   "area": [
+    "Build, testing & dev tools",
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": null,
+   "committers": 16
+  },
+  {
+   "id": "hadoop",
+   "name": "Apache Hadoop",
+   "desc": "The Apache Hadoop software library is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models",
+   "homepage": "https://hadoop.apache.org/",
+   "pmc": "hadoop",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Databases & storage"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2026-04-01",
+   "committers": 252
+  },
+  {
+   "id": "hamilton",
+   "name": "Apache Hamilton (Incubating)",
+   "desc": "Hamilton is a lightweight in-process framework to define, execute, and observe directed acyclic graphs (DAGs) that express data transformations. In Hamilton, one can express complex DAGs of transformations, e.g. from dataframe transformations (using pandas, polars, PySpark), machine learning pipelin",
+   "homepage": "https://hamilton.incubator.apache.org/",
+   "pmc": "incubator",
+   "podling": true,
+   "language": [],
+   "area": [
+    "Machine learning & AI",
+    "Cloud & infrastructure",
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "incubating"
+   ],
+   "size": [],
+   "activity": [],
+   "lastRelease": null,
+   "committers": null
+  },
+  {
+   "id": "hbase",
+   "name": "Apache HBase",
+   "desc": "Apache HBase software is the Hadoop database. Think of it as a distributed, scalable, big data store.",
+   "homepage": "https://hbase.apache.org",
+   "pmc": "hbase",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Databases & storage"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-08-14",
+   "committers": 117
+  },
+  {
+   "id": "helix",
+   "name": "Apache Helix",
+   "desc": "A cluster management framework for partitioned and replicated distributed resources",
+   "homepage": "http://helix.apache.org",
+   "pmc": "helix",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Cloud & infrastructure"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-06-30",
+   "committers": 28
+  },
+  {
+   "id": "hertzbeat",
+   "name": "Apache Hertzbeat",
+   "desc": "",
+   "homepage": "https://hertzbeat.apache.org",
+   "pmc": "hertzbeat",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-13",
+   "committers": 31
+  },
+  {
+   "id": "hive",
+   "name": "Apache Hive",
+   "desc": "The Apache Hive (TM) data warehouse software facilitates querying and managing large datasets residing in distributed storage.",
+   "homepage": "http://hive.apache.org",
+   "pmc": "hive",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Databases & storage",
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-07-30",
+   "committers": 114
+  },
+  {
+   "id": "hop",
+   "name": "Apache Hop",
+   "desc": "The Hop Orchestration Platform, or Apache Hop, aims to facilitate all aspects of data and metadata orchestration.",
+   "homepage": "https://hop.apache.org",
+   "pmc": "hop",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Cloud & infrastructure",
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-08-17",
+   "committers": 25
+  },
+  {
+   "id": "httpd-http_server",
+   "name": "Apache HTTP Server",
+   "desc": "The Apache HTTP Server application 'httpd'.",
+   "homepage": "https://httpd.apache.org/",
+   "pmc": "httpd",
+   "language": [
+    "C / C++"
+   ],
+   "area": [
+    "Web, HTTP & APIs"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-01",
+   "committers": 130
+  },
+  {
+   "id": "httpcomponents-client",
+   "name": "Apache HttpComponents Client",
+   "desc": "Java library implementing an HTTP client based on HttpCore components.",
+   "homepage": "http://hc.apache.org/httpcomponents-client/",
+   "pmc": "httpcomponents",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Web, HTTP & APIs",
+    "Security & identity"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-22",
+   "committers": 20
+  },
+  {
+   "id": "httpcomponents-core",
+   "name": "Apache HttpComponents Core",
+   "desc": "HTTP transport library including support for asynchronous execution based on Java NIO.",
+   "homepage": "http://hc.apache.org/httpcomponents-core/",
+   "pmc": "httpcomponents",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Streaming & messaging",
+    "Web, HTTP & APIs"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-22",
+   "committers": 20
+  },
+  {
+   "id": "hudi",
+   "name": "Apache Hudi",
+   "desc": "high-performance open data lakehouse platform",
+   "homepage": "https://hudi.apache.org",
+   "pmc": "hudi",
+   "language": [
+    "Java",
+    "Scala"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Streaming & messaging"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-17",
+   "committers": 44
+  },
+  {
+   "id": "hugegraph",
+   "name": "Apache Hugegraph",
+   "desc": "",
+   "homepage": "https://hugegraph.apache.org",
+   "pmc": "hugegraph",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2025-11-16",
+   "committers": 22
+  },
+  {
+   "id": "iceberg",
+   "name": "Apache Iceberg",
+   "desc": "Iceberg is a high-performance format for huge analytic tables.",
+   "homepage": "https://iceberg.apache.org",
+   "pmc": "iceberg",
+   "language": [
+    "C / C++",
+    "Go",
+    "Java",
+    "Python",
+    "Rust"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Databases & storage"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-28",
+   "committers": 40
+  },
+  {
+   "id": "iggy",
+   "name": "Apache Iggy",
+   "desc": "",
+   "homepage": "https://iggy.apache.org",
+   "pmc": "iggy",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-15",
+   "committers": 20
+  },
+  {
+   "id": "ignite",
+   "name": "Apache Ignite",
+   "desc": "Apache Ignite is a distributed database for high-performance computing with in-memory speed.",
+   "homepage": "http://ignite.apache.org",
+   "pmc": "ignite",
+   "language": [
+    "C / C++",
+    "C# / .NET",
+    "Java",
+    "Other",
+    "SQL"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Databases & storage",
+    "Cloud & infrastructure",
+    "IoT & edge"
+   ],
+   "kind": [
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2026-04-23",
+   "committers": 81
+  },
+  {
+   "id": "impala",
+   "name": "Apache Impala",
+   "desc": "A high-performance distributed SQL engine.",
+   "homepage": "https://impala.apache.org",
+   "pmc": "impala",
+   "language": [
+    "C / C++",
+    "Java"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Databases & storage"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-05",
+   "committers": 72
+  },
+  {
+   "id": "inlong",
+   "name": "Apache InLong",
+   "desc": "Apache InLong - a one-stop, full-scenario integration framework for massive data",
+   "homepage": "https://inlong.apache.org",
+   "pmc": "inlong",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Streaming & messaging",
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-08-13",
+   "committers": 54
+  },
+  {
+   "id": "iotdb",
+   "name": "Apache IoTDB",
+   "desc": "Apache IoTDB is an IoT native database with high performance for data management and analysis, on the edge and the cloud.",
+   "homepage": "http://iotdb.apache.org",
+   "pmc": "iotdb",
+   "language": [
+    "C / C++",
+    "C# / .NET",
+    "Go",
+    "Java",
+    "JavaScript / TypeScript",
+    "Python"
+   ],
+   "area": [
+    "Databases & storage",
+    "Cloud & infrastructure",
+    "IoT & edge",
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-19",
+   "committers": 84
+  },
+  {
+   "id": "ant-ivy",
+   "name": "Apache Ivy",
+   "desc": "Apache Ivy is a very powerful dependency manager oriented toward Java dependency management, even though it could be used to manage dependencies of any kind.",
+   "homepage": "http://ant.apache.org/ivy/",
+   "pmc": "ant",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Build, testing & dev tools"
+   ],
+   "kind": [
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-25",
+   "committers": 29
+  },
+  {
+   "id": "ant-ivyde",
+   "name": "Apache IvyDE",
+   "desc": "Retired project: Integrate Ivy in Eclipse with the IvyDE plugin.",
+   "homepage": "http://ant.apache.org/ivyde/",
+   "pmc": "ant",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Cloud & infrastructure",
+    "Build, testing & dev tools",
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-25",
+   "committers": 29
+  },
+  {
+   "id": "jackrabbit",
+   "name": "Apache Jackrabbit",
+   "desc": "Apache Jackrabbit Content Repository",
+   "homepage": "http://jackrabbit.apache.org/",
+   "pmc": "jackrabbit",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Databases & storage",
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-15",
+   "committers": 60
+  },
+  {
+   "id": "james",
+   "name": "Apache JAMES",
+   "desc": "The Apache Java Enterprise Mail Server (a.k.a. Apache James) is a 100% pure Java SMTP and POP3 Mail server and NNTP News server. We have designed James to be a complete and portable enterprise mail engine solution based on currently available open protocols.",
+   "homepage": "http://james.apache.org",
+   "pmc": "james",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Databases & storage",
+    "Streaming & messaging"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-05",
+   "committers": 44
+  },
+  {
+   "id": "db-jdo",
+   "name": "Apache JDO",
+   "desc": "Java Data Objects (JDO) is a standard way to access persistent data in databases, using plain old Java objects (POJO) to represent persistent data.",
+   "homepage": "https://db.apache.org/jdo/",
+   "pmc": "db",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Databases & storage"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2025-08-13",
+   "committers": 48
+  },
+  {
+   "id": "jena",
+   "name": "Apache Jena",
+   "desc": "A framework for developing Semantic Web and Linked Data applications in Java.",
+   "homepage": "http://jena.apache.org",
+   "pmc": "jena",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Machine learning & AI",
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-07-27",
+   "committers": 21
+  },
+  {
+   "id": "jmeter",
+   "name": "Apache JMeter",
+   "desc": "Pure Java application for load and functional testing",
+   "homepage": "http://jmeter.apache.org/index.html",
+   "pmc": "jmeter",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Web, HTTP & APIs",
+    "Build, testing & dev tools"
+   ],
+   "kind": [
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": "2024-01-07",
+   "committers": 13
+  },
+  {
+   "id": "johnzon",
+   "name": "Apache Johnzon",
+   "desc": "",
+   "homepage": "https://johnzon.apache.org",
+   "pmc": "johnzon",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-16",
+   "committers": 10
+  },
+  {
+   "id": "jspwiki",
+   "name": "Apache JSPWiki",
+   "desc": "A feature-rich and extensible WikiWiki engine built around the standard \n        JEE components (Java, servlets, JSP).",
+   "homepage": "http://jspwiki.apache.org/",
+   "pmc": "jspwiki",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Databases & storage",
+    "Web, HTTP & APIs",
+    "Content, search & documents",
+    "Security & identity"
+   ],
+   "kind": [
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-08-22",
+   "committers": 16
+  },
+  {
+   "id": "juneau",
+   "name": "Apache Juneau",
+   "desc": "",
+   "homepage": "https://juneau.apache.org",
+   "pmc": "juneau",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2025-12-30",
+   "committers": 13
+  },
+  {
+   "id": "kafka",
+   "name": "Apache Kafka",
+   "desc": "Apache Kafka is a distributed, fault tolerant, publish-subscribe messaging.",
+   "homepage": "https://kafka.apache.org/",
+   "pmc": "kafka",
+   "language": [
+    "Scala"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Streaming & messaging"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-20",
+   "committers": 73
+  },
+  {
+   "id": "karaf",
+   "name": "Apache Karaf",
+   "desc": "Apache Karaf is an OSGi distribution for server-side applications.",
+   "homepage": "http://karaf.apache.org",
+   "pmc": "karaf",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Cloud & infrastructure"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-22",
+   "committers": 34
+  },
+  {
+   "id": "directory-kerby",
+   "name": "Apache Kerby",
+   "desc": "The Eclipse based LDAP browser and directory client",
+   "homepage": "https://directory.apache.org/kerby/",
+   "pmc": "directory",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Cloud & infrastructure",
+    "IoT & edge"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-28",
+   "committers": 57
+  },
+  {
+   "id": "kie",
+   "name": "Apache KIE (Incubating)",
+   "desc": "KIE (Knowledge is Everything) is a community of solutions and supporting tooling for knowledge engineering and process automation, focusing on events, rules, and workflows.",
+   "homepage": "https://kie.incubator.apache.org/",
+   "pmc": "incubator",
+   "podling": true,
+   "language": [],
+   "area": [
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "incubating"
+   ],
+   "size": [],
+   "activity": [],
+   "lastRelease": null,
+   "committers": null
+  },
+  {
+   "id": "knox",
+   "name": "Apache Knox",
+   "desc": "A REST API Gateway for Hadoop Services",
+   "homepage": "https://knox.apache.org",
+   "pmc": "knox",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Web, HTTP & APIs",
+    "Cloud & infrastructure",
+    "Security & identity",
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-22",
+   "committers": 26
+  },
+  {
+   "id": "kudu",
+   "name": "Apache Kudu",
+   "desc": "Columnar storage manager",
+   "homepage": "https://kudu.apache.org",
+   "pmc": "kudu",
+   "language": [
+    "C / C++"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Databases & storage"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2026-01-05",
+   "committers": 35
+  },
+  {
+   "id": "kvrocks",
+   "name": "Apache Kvrocks",
+   "desc": "",
+   "homepage": "https://kvrocks.apache.org",
+   "pmc": "kvrocks",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-11",
+   "committers": 30
+  },
+  {
+   "id": "kylin",
+   "name": "Apache Kylin",
+   "desc": "Apache Kylin is an open source, distributed Analytical Data Warehouse for Big Data.",
+   "homepage": "https://kylin.apache.org",
+   "pmc": "kylin",
+   "language": [
+    "Java",
+    "Scala"
+   ],
+   "area": [
+    "Big data & analytics"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-15",
+   "committers": 53
+  },
+  {
+   "id": "kyuubi",
+   "name": "Apache Kyuubi",
+   "desc": "",
+   "homepage": "https://kyuubi.apache.org",
+   "pmc": "kyuubi",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-07-21",
+   "committers": 30
+  },
+  {
+   "id": "libcloud",
+   "name": "Apache Libcloud",
+   "desc": "Apache Libcloud is a standard Python library that abstracts away differences among multiple cloud provider APIs.",
+   "homepage": "http://libcloud.apache.org",
+   "pmc": "libcloud",
+   "language": [
+    "Python"
+   ],
+   "area": [
+    "Databases & storage",
+    "Cloud & infrastructure"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2026-04-16",
+   "committers": 26
+  },
+  {
+   "id": "linkis",
+   "name": "Apache Linkis",
+   "desc": "Apache Linkis builds a layer of computation middleware between upper applications and underlying engines.",
+   "homepage": "https://linkis.apache.org/",
+   "pmc": "linkis",
+   "language": [
+    "Java",
+    "Scala"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Web, HTTP & APIs"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2025-10-17",
+   "committers": 40
+  },
+  {
+   "id": "livy",
+   "name": "Apache Livy",
+   "desc": "",
+   "homepage": "https://livy.apache.org",
+   "pmc": "livy",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": null,
+   "committers": 25
+  },
+  {
+   "id": "logging-log4cxx",
+   "name": "Apache log4cxx",
+   "desc": "Apache log4cxx provides logging services for C++.",
+   "homepage": "https://logging.apache.org/log4cxx",
+   "pmc": "logging",
+   "language": [
+    "C / C++"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-01",
+   "committers": 49
+  },
+  {
+   "id": "logging-log4j",
+   "name": "Apache Log4j",
+   "desc": "Log4j is a versatile, feature-rich, efficient logging API and backend for Java.",
+   "homepage": "https://logging.apache.org/log4j/2.x/index.html",
+   "pmc": "logging",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-01",
+   "committers": 49
+  },
+  {
+   "id": "logging-log4net",
+   "name": "Apache log4net",
+   "desc": "Apache log4net provides logging services for .NET.",
+   "homepage": "https://logging.apache.org/log4net/",
+   "pmc": "logging",
+   "language": [
+    "C# / .NET"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-01",
+   "committers": 49
+  },
+  {
+   "id": "logging-log4php",
+   "name": "Apache log4php",
+   "desc": "Apache log4php is a logging framework for PHP.",
+   "homepage": "http://logging.apache.org/log4php/",
+   "pmc": "logging",
+   "language": [
+    "PHP"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-01",
+   "committers": 49
+  },
+  {
+   "id": "lucene-core",
+   "name": "Apache Lucene Core",
+   "desc": "Apache Lucene is a high-performance, full-featured text search engine library",
+   "homepage": "https://lucene.apache.org/core/",
+   "pmc": "lucene",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Databases & storage",
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-29",
+   "committers": 112
+  },
+  {
+   "id": "lucenenet-lucenedotnet",
+   "name": "Apache Lucene.Net",
+   "desc": "Lucene.Net is a port of the Lucene search engine library, written in C# and targeted at .NET runtime users.",
+   "homepage": "http://lucenenet.apache.org/",
+   "pmc": "lucenenet",
+   "language": [
+    "C# / .NET"
+   ],
+   "area": [
+    "Databases & storage",
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-06-22",
+   "committers": 18
+  },
+  {
+   "id": "magpie",
+   "name": "Apache Magpie",
+   "desc": "Agent-assisted maintainership and development framework for Apache projects.",
+   "homepage": "https://github.com/apache/magpie",
+   "pmc": "magpie",
+   "language": [
+    "Python"
+   ],
+   "area": [
+    "Build, testing & dev tools",
+    "Security & identity",
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-07-12",
+   "committers": 25
+  },
+  {
+   "id": "mahout",
+   "name": "Apache Mahout",
+   "desc": "Scalable machine learning library",
+   "homepage": "http://mahout.apache.org",
+   "pmc": "mahout",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Machine learning & AI"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-05-31",
+   "committers": 36
+  },
+  {
+   "id": "maka",
+   "name": "Apache Maka (Incubating)",
+   "desc": "Maka is a local-first AI agent runtime and workspace. It records model messages, tool calls, tool results, permission decisions, and termination events in append-only logs.",
+   "homepage": "https://maka.incubator.apache.org/",
+   "pmc": "incubator",
+   "podling": true,
+   "language": [],
+   "area": [
+    "Streaming & messaging",
+    "Machine learning & AI"
+   ],
+   "kind": [
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "incubating"
+   ],
+   "size": [],
+   "activity": [],
+   "lastRelease": null,
+   "committers": null
+  },
+  {
+   "id": "manifoldcf",
+   "name": "Apache ManifoldCF",
+   "desc": "Open-source software for transferring content between repositories or search indexes",
+   "homepage": "https://manifoldcf.apache.org",
+   "pmc": "manifoldcf",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Content, search & documents",
+    "Security & identity"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-07-30",
+   "committers": 25
+  },
+  {
+   "id": "maven",
+   "name": "Apache Maven",
+   "desc": "Maven is a project development management and comprehension tool.",
+   "homepage": "https://maven.apache.org/",
+   "pmc": "maven",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Build, testing & dev tools",
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-27",
+   "committers": 76
+  },
+  {
+   "id": "maven-doxia",
+   "name": "Apache Maven Doxia",
+   "desc": "Doxia is a content generation framework, which supports many markup languages.",
+   "homepage": "https://maven.apache.org/doxia/",
+   "pmc": "maven",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Build, testing & dev tools",
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-27",
+   "committers": 76
+  },
+  {
+   "id": "mina",
+   "name": "Apache MINA",
+   "desc": "A network application framework",
+   "homepage": "http://mina.apache.org/",
+   "pmc": "mina",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Streaming & messaging"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-17",
+   "committers": 29
+  },
+  {
+   "id": "httpd-mod_ftp",
+   "name": "Apache mod_ftp",
+   "desc": "mod_ftp is an FTP protocol module hosted within Apache HTTP Server.",
+   "homepage": "https://httpd.apache.org/mod_ftp/",
+   "pmc": "httpd",
+   "language": [
+    "C / C++"
+   ],
+   "area": [
+    "Web, HTTP & APIs",
+    "Security & identity"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-01",
+   "committers": 130
+  },
+  {
+   "id": "perl-mod_perl",
+   "name": "Apache mod_perl",
+   "desc": "The Perl interface to the Apache API",
+   "homepage": "http://perl.apache.org/",
+   "pmc": "perl",
+   "language": [
+    "C / C++",
+    "Perl"
+   ],
+   "area": [
+    "Web, HTTP & APIs"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": "2023-10-21",
+   "committers": 21
+  },
+  {
+   "id": "myfaces",
+   "name": "Apache MyFaces",
+   "desc": "The first free open source JSF implementation.",
+   "homepage": "http://myfaces.apache.org",
+   "pmc": "myfaces",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Web, HTTP & APIs"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-27",
+   "committers": 81
+  },
+  {
+   "id": "mynewt",
+   "name": "Apache Mynewt",
+   "desc": "Apache Mynewt is a community-driven module OS for constrained, embedded applications.",
+   "homepage": "https://mynewt.apache.org",
+   "pmc": "mynewt",
+   "language": [
+    "C / C++",
+    "Go"
+   ],
+   "area": [
+    "IoT & edge"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-07-21",
+   "committers": 37
+  },
+  {
+   "id": "ws-neethi",
+   "name": "Apache Neethi",
+   "desc": "Apache Neethi is a Java implementation of the WS-Policy Specification.",
+   "homepage": "https://ws.apache.org/neethi/",
+   "pmc": "ws",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-30",
+   "committers": 223
+  },
+  {
+   "id": "netbeans",
+   "name": "Apache NetBeans",
+   "desc": "Apache NetBeans is Development Environment, Tooling Platform and Application Framework.",
+   "homepage": "https://netbeans.apache.org",
+   "pmc": "netbeans",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Build, testing & dev tools"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-08",
+   "committers": 84
+  },
+  {
+   "id": "nifi",
+   "name": "Apache NiFi",
+   "desc": "NiFi is an easy to use, powerful, and reliable system to process and distribute data",
+   "homepage": "https://nifi.apache.org/",
+   "pmc": "nifi",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Big data & analytics",
+    "IoT & edge"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-26",
+   "committers": 56
+  },
+  {
+   "id": "nullaway",
+   "name": "Apache NullAway (Incubating)",
+   "desc": "NullAway is a fast, annotation-based nullness checker for Java that helps eliminate NullPointerExceptions at build time with minimal overhead.",
+   "homepage": "https://nullaway.incubator.apache.org/",
+   "pmc": "incubator",
+   "podling": true,
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "incubating"
+   ],
+   "size": [],
+   "activity": [],
+   "lastRelease": null,
+   "committers": null
+  },
+  {
+   "id": "nutch",
+   "name": "Apache Nutch",
+   "desc": "Apache Nutch is an open source web crawler software project.",
+   "homepage": "https://nutch.apache.org",
+   "pmc": "nutch",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Databases & storage",
+    "Web, HTTP & APIs",
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-08-08",
+   "committers": 23
+  },
+  {
+   "id": "nuttx",
+   "name": "Apache Nuttx",
+   "desc": "",
+   "homepage": "https://nuttx.apache.org",
+   "pmc": "nuttx",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-04",
+   "committers": 42
+  },
+  {
+   "id": "ofbiz",
+   "name": "Apache OFBiz",
+   "desc": "Apache OFBiz is an open source enterprise automation software project",
+   "homepage": "http://ofbiz.apache.org",
+   "pmc": "ofbiz",
+   "language": [
+    "Java",
+    "JavaScript / TypeScript",
+    "Other"
+   ],
+   "area": [
+    "Databases & storage",
+    "Web, HTTP & APIs",
+    "Content, search & documents",
+    "Geospatial & science"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-06-10",
+   "committers": 66
+  },
+  {
+   "id": "opendal",
+   "name": "Apache OpenDAL",
+   "desc": "Apache OpenDAL: access data freely.",
+   "homepage": "https://opendal.apache.org/",
+   "pmc": "opendal",
+   "language": [
+    "Rust"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Databases & storage"
+   ],
+   "kind": [],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-18",
+   "committers": 40
+  },
+  {
+   "id": "openjpa",
+   "name": "Apache OpenJPA",
+   "desc": "Java Persistence API Implementation",
+   "homepage": "http://openjpa.apache.org",
+   "pmc": "openjpa",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Databases & storage",
+    "Web, HTTP & APIs",
+    "Cloud & infrastructure"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2025-05-15",
+   "committers": 37
+  },
+  {
+   "id": "openmeetings",
+   "name": "Apache OpenMeetings",
+   "desc": "Video conferencing, instant messaging, white board and collaborative document editing application.",
+   "homepage": "https://openmeetings.apache.org/",
+   "pmc": "openmeetings",
+   "language": [
+    "Java",
+    "JavaScript / TypeScript",
+    "SQL"
+   ],
+   "area": [
+    "Streaming & messaging",
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-07-13",
+   "committers": 30
+  },
+  {
+   "id": "opennlp",
+   "name": "Apache OpenNLP",
+   "desc": "Apache OpenNLP library software is a machine learning based toolkit for the processing of natural language text.",
+   "homepage": "http://opennlp.apache.org",
+   "pmc": "opennlp",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Machine learning & AI"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-08",
+   "committers": 27
+  },
+  {
+   "id": "openoffice",
+   "name": "Apache OpenOffice",
+   "desc": "An open-source, office-document productivity suite",
+   "homepage": "https://openoffice.apache.org",
+   "pmc": "openoffice",
+   "language": [
+    "C / C++"
+   ],
+   "area": [
+    "Content, search & documents"
+   ],
+   "kind": [],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-08",
+   "committers": 141
+  },
+  {
+   "id": "openserverless",
+   "name": "Apache OpenServerless (Incubating)",
+   "desc": "OpenServerless is an open source, cloud-agnostic, serverless platform. It offers a complete environment for serverless applications development, based on Kubernetes. With Apache OpenWhisk as its FaaS engine, it provides an unified developer experience with a plethora of services (SQL or noSQL databa",
+   "homepage": "https://openserverless.incubator.apache.org/",
+   "pmc": "incubator",
+   "podling": true,
+   "language": [],
+   "area": [
+    "Databases & storage",
+    "Machine learning & AI",
+    "Cloud & infrastructure",
+    "Build, testing & dev tools",
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "incubating"
+   ],
+   "size": [],
+   "activity": [],
+   "lastRelease": null,
+   "committers": null
+  },
+  {
+   "id": "openwebbeans",
+   "name": "Apache OpenWebBeans",
+   "desc": "Dependency Injection Platform.",
+   "homepage": "http://openwebbeans.apache.org",
+   "pmc": "openwebbeans",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Web, HTTP & APIs"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-08-07",
+   "committers": 21
+  },
+  {
+   "id": "openwhisk",
+   "name": "Apache Openwhisk",
+   "desc": "",
+   "homepage": "https://openwhisk.apache.org",
+   "pmc": "openwhisk",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": "2024-09-23",
+   "committers": 54
+  },
+  {
+   "id": "orc",
+   "name": "Apache ORC",
+   "desc": "A high-performance columnar file format for Hadoop workloads.",
+   "homepage": "https://orc.apache.org",
+   "pmc": "orc",
+   "language": [
+    "C / C++",
+    "Java"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Databases & storage",
+    "Streaming & messaging"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-07-13",
+   "committers": 50
+  },
+  {
+   "id": "ossie",
+   "name": "Apache Ossie (Incubating)",
+   "desc": "Apache Ossie comes from Open Semantic Interchange. It is an open specification that defines a vendor-neutral format for expressing business metrics, dimensions, and their relationships. It enables any tool to consume and produce semantic definitions without loss of meaning.",
+   "homepage": "https://ossie.incubator.apache.org/",
+   "pmc": "incubator",
+   "podling": true,
+   "language": [],
+   "area": [],
+   "kind": [
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "incubating"
+   ],
+   "size": [],
+   "activity": [],
+   "lastRelease": null,
+   "committers": null
+  },
+  {
+   "id": "otava",
+   "name": "Apache Otava (Incubating)",
+   "desc": "Otava, a command-line tool, written in Python, that detects statistically significant changes in time-series data stored either in databases or CSV files. Otava entered Incubation as Hunter",
+   "homepage": "https://otava.incubator.apache.org/",
+   "pmc": "incubator",
+   "podling": true,
+   "language": [],
+   "area": [
+    "Databases & storage"
+   ],
+   "kind": [
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "incubating"
+   ],
+   "size": [],
+   "activity": [],
+   "lastRelease": null,
+   "committers": null
+  },
+  {
+   "id": "ozhera",
+   "name": "Apache OzHera (Incubating)",
+   "desc": "OzHera is an application observation platform (APM) in the era of cloud native, with the application as its core, integrating capabilities such as metric monitoring, trace tracking, logging, and alerting",
+   "homepage": "https://ozhera.incubator.apache.org/",
+   "pmc": "incubator",
+   "podling": true,
+   "language": [],
+   "area": [
+    "Cloud & infrastructure"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "incubating"
+   ],
+   "size": [],
+   "activity": [],
+   "lastRelease": null,
+   "committers": null
+  },
+  {
+   "id": "ozone",
+   "name": "Apache Ozone",
+   "desc": "A highly scalable, distributed storage for Analytics, Big data and Cloud Native applications.",
+   "homepage": "https://ozone.apache.org/",
+   "pmc": "ozone",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Databases & storage",
+    "Cloud & infrastructure"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-08-29",
+   "committers": 93
+  },
+  {
+   "id": "paimon",
+   "name": "Apache Paimon",
+   "desc": "",
+   "homepage": "https://paimon.apache.org",
+   "pmc": "paimon",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-11",
+   "committers": 35
+  },
+  {
+   "id": "parquet",
+   "name": "Apache Parquet",
+   "desc": "Apache Parquet is a general-purpose columnar storage format.",
+   "homepage": "http://parquet.apache.org",
+   "pmc": "parquet",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Databases & storage"
+   ],
+   "kind": [
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-07",
+   "committers": 42
+  },
+  {
+   "id": "pdfbox",
+   "name": "Apache PDFBox",
+   "desc": "The Apache PDFBox library is an open source Java tool for working with PDF documents.",
+   "homepage": "https://pdfbox.apache.org",
+   "pmc": "pdfbox",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-07-12",
+   "committers": 21
+  },
+  {
+   "id": "pegasus",
+   "name": "Apache Pegasus (Incubating)",
+   "desc": "Pegasus is a distributed key-value storage system which is designed to be simple, horizontally scalable, strongly consistent and high-performance.",
+   "homepage": "https://pegasus.incubator.apache.org/",
+   "pmc": "incubator",
+   "podling": true,
+   "language": [],
+   "area": [
+    "Databases & storage"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "incubating"
+   ],
+   "size": [],
+   "activity": [],
+   "lastRelease": null,
+   "committers": null
+  },
+  {
+   "id": "pekko",
+   "name": "Apache Pekko",
+   "desc": "",
+   "homepage": "https://pekko.apache.org",
+   "pmc": "pekko",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-10",
+   "committers": 29
+  },
+  {
+   "id": "phoenix",
+   "name": "Apache Phoenix",
+   "desc": "Apache Phoenix enables OLTP and SQL-based operational analytics for Apache Hadoop",
+   "homepage": "http://phoenix.apache.org",
+   "pmc": "phoenix",
+   "language": [
+    "Java",
+    "SQL"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Databases & storage",
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-06-29",
+   "committers": 60
+  },
+  {
+   "id": "pig",
+   "name": "Apache Pig",
+   "desc": "Apache Pig is a platform for analyzing large data sets on Hadoop.  It provides a high-level language for expressing data analysis programs, coupled with infrastructure for evaluating these programs.",
+   "homepage": "http://pig.apache.org",
+   "pmc": "pig",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Databases & storage",
+    "Build, testing & dev tools"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2025-06-16",
+   "committers": 31
+  },
+  {
+   "id": "pinot",
+   "name": "Apache Pinot",
+   "desc": "Apache Pinot is a real-time distributed OLAP datastore purpose-built for low-latency, high-throughput analytics.",
+   "homepage": "https://pinot.apache.org",
+   "pmc": "pinot",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Databases & storage",
+    "Streaming & messaging",
+    "Cloud & infrastructure"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-06-05",
+   "committers": 49
+  },
+  {
+   "id": "plc4x",
+   "name": "Apache PLC4X",
+   "desc": "Universal API for communicating with programmable logic controllers.",
+   "homepage": "https://plc4x.apache.org/",
+   "pmc": "plc4x",
+   "language": [
+    "C / C++",
+    "C# / .NET",
+    "Go",
+    "Java",
+    "Python"
+   ],
+   "area": [
+    "IoT & edge",
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-03",
+   "committers": 22
+  },
+  {
+   "id": "poi",
+   "name": "Apache POI",
+   "desc": "Java API To Access Microsoft Document File Formats",
+   "homepage": "https://poi.apache.org",
+   "pmc": "poi",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-22",
+   "committers": 42
+  },
+  {
+   "id": "polaris",
+   "name": "Apache Polaris",
+   "desc": "Apache Polaris is an open-source, fully-featured catalog for lakehouse.",
+   "homepage": "https://polaris.apache.org",
+   "pmc": "polaris",
+   "language": [
+    "Java",
+    "Python"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Databases & storage",
+    "Web, HTTP & APIs"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-24",
+   "committers": 33
+  },
+  {
+   "id": "ponymail-pony_mail",
+   "name": "Apache Pony Mail",
+   "desc": "Mail archiving, archive viewing, and mailing list interaction services.",
+   "homepage": "https://ponymail.apache.org",
+   "pmc": "ponymail",
+   "language": [
+    "JavaScript / TypeScript",
+    "Lua",
+    "Python"
+   ],
+   "area": [
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": "2019-03-25",
+   "committers": 11
+  },
+  {
+   "id": "apr-portable_runtime",
+   "name": "Apache Portable Runtime",
+   "desc": "Cross-platform library easing many programming tasks in C.",
+   "homepage": "https://apr.apache.org/",
+   "pmc": "apr",
+   "language": [
+    "C / C++"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-08-10",
+   "committers": 68
+  },
+  {
+   "id": "incubator-pouchdb",
+   "name": "Apache PouchDB",
+   "desc": "Apache PouchDB is an open-source JavaScript database inspired by Apache CouchDB that is designed to run well within the browser.",
+   "homepage": "https://pouchdb.apache.org",
+   "pmc": "incubator",
+   "language": [
+    "JavaScript / TypeScript"
+   ],
+   "area": [
+    "Databases & storage",
+    "Web, HTTP & APIs",
+    "Content, search & documents",
+    "IoT & edge"
+   ],
+   "kind": [
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "incubating"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": null,
+   "committers": 4284
+  },
+  {
+   "id": "ant-props",
+   "name": "Apache Props Ant Library",
+   "desc": "The Apache Props Antlib is a library of supplementary handlers for Apache Ant properties resolution.",
+   "homepage": "http://ant.apache.org/antlibs/props/",
+   "pmc": "ant",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Build, testing & dev tools"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-25",
+   "committers": 29
+  },
+  {
+   "id": "pulsar",
+   "name": "Apache Pulsar",
+   "desc": "Apache Pulsar is a distributed messaging and streaming platform built for the cloud.",
+   "homepage": "https://pulsar.apache.org/",
+   "pmc": "pulsar",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Databases & storage",
+    "Streaming & messaging",
+    "Cloud & infrastructure"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-22",
+   "committers": 87
+  },
+  {
+   "id": "lucene-pylucene",
+   "name": "Apache PyLucene",
+   "desc": "PyLucene is a Python extension for accessing Java Lucene.",
+   "homepage": "https://lucene.apache.org/pylucene/index.html",
+   "pmc": "lucene",
+   "language": [
+    "C / C++",
+    "Python"
+   ],
+   "area": [
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-29",
+   "committers": 112
+  },
+  {
+   "id": "qpid",
+   "name": "Apache Qpid",
+   "desc": "AMQP enterprise messaging implementation.",
+   "homepage": "http://qpid.apache.org",
+   "pmc": "qpid",
+   "language": [
+    "C / C++",
+    "C# / .NET",
+    "Java",
+    "Perl",
+    "Python",
+    "Ruby"
+   ],
+   "area": [
+    "Streaming & messaging",
+    "Security & identity"
+   ],
+   "kind": [
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-09",
+   "committers": 53
+  },
+  {
+   "id": "ranger",
+   "name": "Apache Ranger",
+   "desc": "Provide authorization framework across multiple datasources and have a single glass of pane for Security & Governance.",
+   "homepage": "https://ranger.apache.org",
+   "pmc": "ranger",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Security & identity"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-08-05",
+   "committers": 41
+  },
+  {
+   "id": "creadur-rat",
+   "name": "Apache Rat",
+   "desc": "Apache Rat improves accuracy and efficiency when reviewing and auditing releases.",
+   "homepage": "http://creadur.apache.org/rat/",
+   "pmc": "creadur",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Build, testing & dev tools"
+   ],
+   "kind": [
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2026-03-20",
+   "committers": 11
+  },
+  {
+   "id": "ratis",
+   "name": "Apache Ratis",
+   "desc": "",
+   "homepage": "https://ratis.apache.org",
+   "pmc": "ratis",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-08",
+   "committers": 34
+  },
+  {
+   "id": "reqsign",
+   "name": "Apache Reqsign",
+   "desc": "",
+   "homepage": "https://reqsign.apache.org",
+   "pmc": "reqsign",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": null,
+   "committers": 9
+  },
+  {
+   "id": "resilientdb",
+   "name": "Apache Resilientdb",
+   "desc": "",
+   "homepage": "https://resilientdb.apache.org",
+   "pmc": "resilientdb",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-30",
+   "committers": 40
+  },
+  {
+   "id": "tcl-rivet",
+   "name": "Apache rivet",
+   "desc": "Server-side Tcl programming system combining ease of use and power",
+   "homepage": "https://tcl.apache.org/rivet",
+   "pmc": "tcl",
+   "language": [
+    "Other"
+   ],
+   "area": [
+    "Databases & storage",
+    "Web, HTTP & APIs",
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-05",
+   "committers": 12
+  },
+  {
+   "id": "rocketmq",
+   "name": "Apache Rocketmq",
+   "desc": "",
+   "homepage": "https://rocketmq.apache.org",
+   "pmc": "rocketmq",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-08-20",
+   "committers": 77
+  },
+  {
+   "id": "roller",
+   "name": "Apache Roller",
+   "desc": "Apache Roller is a full-featured, multi-user and group blog server suitable for blog sites large and small.",
+   "homepage": "http://roller.apache.org/",
+   "pmc": "roller",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Databases & storage",
+    "Web, HTTP & APIs",
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-24",
+   "committers": 11
+  },
+  {
+   "id": "royale",
+   "name": "Apache Royale",
+   "desc": "Compiles programs written in ActionScript and MXML into JavaScript and HTML that can run wherever JavaScript runs.",
+   "homepage": "https://royale.apache.org",
+   "pmc": "royale",
+   "language": [
+    "Other"
+   ],
+   "area": [
+    "Web, HTTP & APIs"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-07-24",
+   "committers": 20
+  },
+  {
+   "id": "rya",
+   "name": "Apache Rya",
+   "desc": "",
+   "homepage": "https://rya.apache.org",
+   "pmc": "rya",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": "2020-12-22",
+   "committers": 12
+  },
+  {
+   "id": "samza",
+   "name": "Apache Samza",
+   "desc": "Apache Samza is a distributed stream processing framework.",
+   "homepage": "http://samza.apache.org/",
+   "pmc": "samza",
+   "language": [
+    "Scala"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Streaming & messaging"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": "2023-01-13",
+   "committers": 31
+  },
+  {
+   "id": "axis-sandesha2",
+   "name": "Apache Sandesha2",
+   "desc": "Apache Sandesha2 is an Axis2 module implementing WS-RM.",
+   "homepage": "http://axis.apache.org/axis2/java/sandesha/",
+   "pmc": "axis",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-13",
+   "committers": 65
+  },
+  {
+   "id": "santuario",
+   "name": "Apache Santuario",
+   "desc": "Library implementing XML Digital Signature Specification & XML Encryption Specification",
+   "homepage": "https://santuario.apache.org",
+   "pmc": "santuario",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Content, search & documents",
+    "Security & identity"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": "2025-04-11",
+   "committers": 18
+  },
+  {
+   "id": "sdap",
+   "name": "Apache Sdap",
+   "desc": "",
+   "homepage": "https://sdap.apache.org",
+   "pmc": "sdap",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": "2024-10-29",
+   "committers": 23
+  },
+  {
+   "id": "seata",
+   "name": "Apache Seata (Incubating)",
+   "desc": "Seata(Simple Extensible Autonomous Transaction Architecture)is an easy-to-use and high-performance distributed transaction solution, used to solve the data consistency problem.",
+   "homepage": "https://seata.incubator.apache.org/",
+   "pmc": "incubator",
+   "podling": true,
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "incubating"
+   ],
+   "size": [],
+   "activity": [],
+   "lastRelease": null,
+   "committers": null
+  },
+  {
+   "id": "seatunnel",
+   "name": "Apache SeaTunnel",
+   "desc": "SeaTunnel is a next-generation super high-performance, distributed, massive data integration tool.",
+   "homepage": "https://seatunnel.apache.org/",
+   "pmc": "seatunnel",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-24",
+   "committers": 42
+  },
+  {
+   "id": "sedona",
+   "name": "Apache Sedona",
+   "desc": "",
+   "homepage": "https://sedona.apache.org",
+   "pmc": "sedona",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-02",
+   "committers": 26
+  },
+  {
+   "id": "serf",
+   "name": "Apache Serf",
+   "desc": "High performance C-based HTTP client library built upon the Apache Portable Runtime (APR) library.",
+   "homepage": "https://serf.apache.org",
+   "pmc": "serf",
+   "language": [
+    "C / C++"
+   ],
+   "area": [
+    "Web, HTTP & APIs"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": "2023-05-31",
+   "committers": 17
+  },
+  {
+   "id": "servicecomb",
+   "name": "Apache Servicecomb",
+   "desc": "",
+   "homepage": "https://servicecomb.apache.org",
+   "pmc": "servicecomb",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-06-26",
+   "committers": 38
+  },
+  {
+   "id": "shardingsphere",
+   "name": "Apache Shardingsphere",
+   "desc": "",
+   "homepage": "https://shardingsphere.apache.org",
+   "pmc": "shardingsphere",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2026-02-23",
+   "committers": 63
+  },
+  {
+   "id": "shenyu",
+   "name": "Apache Shenyu",
+   "desc": "",
+   "homepage": "https://shenyu.apache.org",
+   "pmc": "shenyu",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-07-08",
+   "committers": 64
+  },
+  {
+   "id": "shiro",
+   "name": "Apache Shiro",
+   "desc": "A simple to use Java Security Framework.",
+   "homepage": "https://shiro.apache.org/",
+   "pmc": "shiro",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Web, HTTP & APIs",
+    "Security & identity"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-08-24",
+   "committers": 16
+  },
+  {
+   "id": "singa",
+   "name": "Apache Singa",
+   "desc": "",
+   "homepage": "https://singa.apache.org",
+   "pmc": "singa",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2026-03-25",
+   "committers": 23
+  },
+  {
+   "id": "skywalking",
+   "name": "Apache SkyWalking",
+   "desc": "Apache SkyWalking software is the application performance management and monitoring (APM) tool.",
+   "homepage": "http://skywalking.apache.org",
+   "pmc": "skywalking",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Cloud & infrastructure"
+   ],
+   "kind": [
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-20",
+   "committers": 64
+  },
+  {
+   "id": "sling",
+   "name": "Apache Sling",
+   "desc": "Innovative Web framework based on JCR and OSGi",
+   "homepage": "http://sling.apache.org/",
+   "pmc": "sling",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Web, HTTP & APIs",
+    "IoT & edge"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-27",
+   "committers": 53
+  },
+  {
+   "id": "solr",
+   "name": "Apache Solr",
+   "desc": "Solr is a full-text search server",
+   "homepage": "http://solr.apache.org",
+   "pmc": "solr",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Web, HTTP & APIs",
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-22",
+   "committers": 103
+  },
+  {
+   "id": "solr-operator",
+   "name": "Apache Solr Operator",
+   "desc": "Manages Solr resources in Kubernetes",
+   "homepage": "https://solr.apache.org/operator",
+   "pmc": "solr",
+   "language": [
+    "Go"
+   ],
+   "area": [
+    "Cloud & infrastructure",
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-22",
+   "committers": 103
+  },
+  {
+   "id": "sourcelume",
+   "name": "Apache Sourcelume",
+   "desc": "",
+   "homepage": "https://sourcelume.apache.org",
+   "pmc": "sourcelume",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": null,
+   "committers": 8
+  },
+  {
+   "id": "spamassassin",
+   "name": "Apache SpamAssassin",
+   "desc": "Apache SpamAssassin is an email filter used to identify spam.",
+   "homepage": "https://spamassassin.apache.org/",
+   "pmc": "spamassassin",
+   "language": [
+    "C / C++",
+    "Perl"
+   ],
+   "area": [],
+   "kind": [
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2025-08-30",
+   "committers": 32
+  },
+  {
+   "id": "spark",
+   "name": "Apache Spark",
+   "desc": "Apache Spark is a fast and general engine for large-scale data processing.",
+   "homepage": "http://spark.apache.org",
+   "pmc": "spark",
+   "language": [
+    "Java",
+    "Python",
+    "R",
+    "SQL",
+    "Scala"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Streaming & messaging",
+    "Machine learning & AI"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-22",
+   "committers": 104
+  },
+  {
+   "id": "sis-spatial_information_system",
+   "name": "Apache Spatial Information System",
+   "desc": "A library for developing geospatial applications.",
+   "homepage": "http://sis.apache.org/",
+   "pmc": "sis",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Geospatial & science"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-09",
+   "committers": 22
+  },
+  {
+   "id": "mina-sshd",
+   "name": "Apache SSHD",
+   "desc": "Apache SSHD is a 100% pure java library to support the SSH protocols on both the client and server side.",
+   "homepage": "http://mina.apache.org/sshd-project",
+   "pmc": "mina",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-17",
+   "committers": 29
+  },
+  {
+   "id": "steve",
+   "name": "Apache STeVe",
+   "desc": "STV Voting Tools",
+   "homepage": "https://steve.apache.org",
+   "pmc": "steve",
+   "language": [
+    "Perl",
+    "Python"
+   ],
+   "area": [],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": null,
+   "committers": 11
+  },
+  {
+   "id": "storm",
+   "name": "Apache Storm",
+   "desc": "Apache Storm is a distributed real-time computation system.",
+   "homepage": "http://storm.apache.org/",
+   "pmc": "storm",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Big data & analytics"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-11",
+   "committers": 49
+  },
+  {
+   "id": "stormcrawler",
+   "name": "Apache Stormcrawler",
+   "desc": "",
+   "homepage": "https://stormcrawler.apache.org",
+   "pmc": "stormcrawler",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-07-29",
+   "committers": 12
+  },
+  {
+   "id": "streampark",
+   "name": "Apache Streampark",
+   "desc": "",
+   "homepage": "https://streampark.apache.org",
+   "pmc": "streampark",
+   "language": [],
+   "area": [
+    "Streaming & messaging"
+   ],
+   "kind": [],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2025-10-31",
+   "committers": 22
+  },
+  {
+   "id": "streampipes",
+   "name": "Apache Streampipes",
+   "desc": "",
+   "homepage": "https://streampipes.apache.org",
+   "pmc": "streampipes",
+   "language": [],
+   "area": [
+    "Streaming & messaging"
+   ],
+   "kind": [],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2025-11-28",
+   "committers": 35
+  },
+  {
+   "id": "struts",
+   "name": "Apache Struts",
+   "desc": "Apache Struts is a free open-source framework for creating Java web applications.",
+   "homepage": "http://struts.apache.org",
+   "pmc": "struts",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Web, HTTP & APIs"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-17",
+   "committers": 59
+  },
+  {
+   "id": "subversion",
+   "name": "Apache Subversion",
+   "desc": "Enterprise-class centralized version control for the masses",
+   "homepage": "http://subversion.apache.org/",
+   "pmc": "subversion",
+   "language": [
+    "C / C++"
+   ],
+   "area": [
+    "Build, testing & dev tools"
+   ],
+   "kind": [
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-07",
+   "committers": 92
+  },
+  {
+   "id": "superset",
+   "name": "Apache Superset",
+   "desc": "Apache Superset\u2122 is an open-source modern data exploration and visualization platform.",
+   "homepage": "https://superset.apache.org",
+   "pmc": "superset",
+   "language": [
+    "JavaScript / TypeScript",
+    "Python"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Databases & storage",
+    "Cloud & infrastructure",
+    "Build, testing & dev tools",
+    "Geospatial & science"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-21",
+   "committers": 79
+  },
+  {
+   "id": "synapse",
+   "name": "Apache Synapse",
+   "desc": "Apache Synapse is a lightweight ESB engine and XML router.",
+   "homepage": "http://synapse.apache.org/",
+   "pmc": "synapse",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Streaming & messaging",
+    "Web, HTTP & APIs",
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": "2023-05-11",
+   "committers": 37
+  },
+  {
+   "id": "syncope",
+   "name": "Apache Syncope",
+   "desc": "Apache Syncope is an Open Source system for managing digital identities in enterprise environments.",
+   "homepage": "http://syncope.apache.org/",
+   "pmc": "syncope",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Security & identity"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-11",
+   "committers": 27
+  },
+  {
+   "id": "systemds",
+   "name": "Apache Systemds",
+   "desc": "",
+   "homepage": "https://systemds.apache.org",
+   "pmc": "systemds",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-07-24",
+   "committers": 39
+  },
+  {
+   "id": "tapestry",
+   "name": "Apache Tapestry",
+   "desc": "Component oriented framework for creating dynamic, robust, highly scalable web applications in Java.",
+   "homepage": "http://tapestry.apache.org",
+   "pmc": "tapestry",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Web, HTTP & APIs",
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2026-04-14",
+   "committers": 30
+  },
+  {
+   "id": "teaclave",
+   "name": "Apache Teaclave",
+   "desc": "",
+   "homepage": "https://teaclave.apache.org",
+   "pmc": "teaclave",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-26",
+   "committers": 29
+  },
+  {
+   "id": "creadur-tentacles",
+   "name": "Apache Tentacles",
+   "desc": "Apache Tentacles simplifies the job of reviewing repository releases consisting of large numbers of artifacts.",
+   "homepage": "http://creadur.apache.org/tentacles",
+   "pmc": "creadur",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Build, testing & dev tools"
+   ],
+   "kind": [
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2026-03-20",
+   "committers": 11
+  },
+  {
+   "id": "velocity-texen",
+   "name": "Apache Texen",
+   "desc": "Texen is a general purpose text generating utility based on Apache Velocity and Apache Ant.",
+   "homepage": "http://velocity.apache.org/texen/",
+   "pmc": "velocity",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": "2024-10-21",
+   "committers": 16
+  },
+  {
+   "id": "texera",
+   "name": "Apache Texera (Incubating)",
+   "desc": "Texera is an open-source system to support collaborative data science, AI, and ML using GUI-based workflows. Our vision is to develop a system to support cloud platforms on which users can easily analyze data and use AI/ML techniques provided as operators. Users with various backgrounds, irrespectiv",
+   "homepage": "https://texera.incubator.apache.org/",
+   "pmc": "incubator",
+   "podling": true,
+   "language": [],
+   "area": [
+    "Machine learning & AI",
+    "Cloud & infrastructure",
+    "Geospatial & science",
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "incubating"
+   ],
+   "size": [],
+   "activity": [],
+   "lastRelease": null,
+   "committers": null
+  },
+  {
+   "id": "tez",
+   "name": "Apache Tez",
+   "desc": "Apache Tez is an effort to develop a generic application framework which can be used to process arbitrarily complex directed-acyclic graphs (DAGs) of data-processing tasks and also a re-usable set of data-processing primitives which can be used by other projects.",
+   "homepage": "http://tez.apache.org",
+   "pmc": "tez",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Big data & analytics"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2025-05-12",
+   "committers": 36
+  },
+  {
+   "id": "thrift",
+   "name": "Apache Thrift",
+   "desc": "Apache Thrift software provides a framework for scalable cross-language services development, combines a software stack with a code generation engine to build services that work efficiently and seamlessly between C++, Java, Python, PHP, Ruby, Erlang, Perl, Haskell, C#, JavaScript, Node.js, Smalltalk",
+   "homepage": "https://thrift.apache.org",
+   "pmc": "thrift",
+   "language": [
+    "C / C++",
+    "C# / .NET",
+    "Erlang",
+    "Go",
+    "Java",
+    "JavaScript / TypeScript",
+    "Other",
+    "PHP",
+    "Perl",
+    "Python",
+    "Ruby",
+    "Rust"
+   ],
+   "area": [
+    "Web, HTTP & APIs",
+    "Build, testing & dev tools"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-24",
+   "committers": 44
+  },
+  {
+   "id": "tika",
+   "name": "Apache Tika",
+   "desc": "The Apache Tika toolkit detects and extracts metadata and structured \n    text content from various documents using existing parser libraries.",
+   "homepage": "https://tika.apache.org",
+   "pmc": "tika",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-28",
+   "committers": 31
+  },
+  {
+   "id": "tinkerpop",
+   "name": "Apache Tinkerpop",
+   "desc": "",
+   "homepage": "https://tinkerpop.apache.org",
+   "pmc": "tinkerpop",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-08",
+   "committers": 31
+  },
+  {
+   "id": "myfaces-tobago",
+   "name": "Apache Tobago",
+   "desc": "Set of user interface components based on JSF.",
+   "homepage": "http://myfaces.apache.org/#/tobago",
+   "pmc": "myfaces",
+   "language": [
+    "Java",
+    "JavaScript / TypeScript"
+   ],
+   "area": [
+    "Web, HTTP & APIs"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-27",
+   "committers": 81
+  },
+  {
+   "id": "tomcat",
+   "name": "Apache Tomcat",
+   "desc": "A Java Servlet, JavaServer Pages, Java Expression\n    Language and Java WebSocket specifications implementation.",
+   "homepage": "http://tomcat.apache.org/",
+   "pmc": "tomcat",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Web, HTTP & APIs"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-06",
+   "committers": 50
+  },
+  {
+   "id": "tomee",
+   "name": "Apache TomEE",
+   "desc": "Apache TomEE is an all-Apache Java EE 6 Web Profile stack for Apache Tomcat",
+   "homepage": "http://tomee.apache.org",
+   "pmc": "tomee",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Streaming & messaging",
+    "Web, HTTP & APIs"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-07-14",
+   "committers": 36
+  },
+  {
+   "id": "toree",
+   "name": "Apache Toree (Incubating)",
+   "desc": "Toree provides applications with a mechanism to interactively and remotely access Apache Spark.",
+   "homepage": "https://toree.incubator.apache.org/",
+   "pmc": "incubator",
+   "podling": true,
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "incubating"
+   ],
+   "size": [],
+   "activity": [],
+   "lastRelease": null,
+   "committers": null
+  },
+  {
+   "id": "db-torque",
+   "name": "Apache Torque",
+   "desc": "Torque is an object-relational mapper for Java.",
+   "homepage": "https://db.apache.org/torque/",
+   "pmc": "db",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Databases & storage",
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2025-08-13",
+   "committers": 48
+  },
+  {
+   "id": "trafficserver-traffic_server",
+   "name": "Apache Traffic Server",
+   "desc": "Apache Traffic Server is an HTTP proxy cache.",
+   "homepage": "https://trafficserver.apache.org",
+   "pmc": "trafficserver",
+   "language": [
+    "C / C++"
+   ],
+   "area": [
+    "Web, HTTP & APIs"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-20",
+   "committers": 72
+  },
+  {
+   "id": "training",
+   "name": "Apache Training",
+   "desc": "",
+   "homepage": "https://training.apache.org",
+   "pmc": "training",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2025-09-05",
+   "committers": 18
+  },
+  {
+   "id": "tsfile",
+   "name": "Apache TsFile",
+   "desc": "The mission of Apache TsFile is the creation and maintenance of software related to a high-performance columnar storage file format designed for industrial time-series data.",
+   "homepage": "https://tsfile.apache.org",
+   "pmc": "tsfile",
+   "language": [
+    "C / C++",
+    "Go",
+    "Java",
+    "Python"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Databases & storage",
+    "Machine learning & AI",
+    "IoT & edge"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-14",
+   "committers": 23
+  },
+  {
+   "id": "turbine",
+   "name": "Apache Turbine",
+   "desc": "Turbine is a servlet based framework that allows Java developers to quickly build web applications.",
+   "homepage": "https://turbine.apache.org",
+   "pmc": "turbine",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Web, HTTP & APIs",
+    "Content, search & documents",
+    "Security & identity"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-28",
+   "committers": 12
+  },
+  {
+   "id": "tvm",
+   "name": "Apache TVM",
+   "desc": "An End to End Machine Learning Compiler Framework for CPUs, GPUs and accelerators",
+   "homepage": "https://tvm.apache.org/",
+   "pmc": "tvm",
+   "language": [
+    "C / C++",
+    "Python"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Machine learning & AI",
+    "Build, testing & dev tools"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-18",
+   "committers": 86
+  },
+  {
+   "id": "uima",
+   "name": "Apache UIMA",
+   "desc": "Annotator components and a\n      scalable integration and deployment framework for\n      Unstructured Information analysis",
+   "homepage": "http://uima.apache.org",
+   "pmc": "uima",
+   "language": [
+    "C / C++",
+    "Java"
+   ],
+   "area": [
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2025-10-02",
+   "committers": 26
+  },
+  {
+   "id": "uniffle",
+   "name": "Apache Uniffle",
+   "desc": "",
+   "homepage": "https://uniffle.apache.org",
+   "pmc": "uniffle",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2025-09-19",
+   "committers": 24
+  },
+  {
+   "id": "unomi",
+   "name": "Apache Unomi",
+   "desc": "Apache Unomi\u2122 (pronounced \"You know me\") is a Java Open Source customer data platform, a Java server designed to manage customers, leads and visitors data and help personalize customers experiences while also offering features to respect visitor privacy rules (such as GDPR)",
+   "homepage": "https://unomi.apache.org",
+   "pmc": "unomi",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Web, HTTP & APIs",
+    "Content, search & documents",
+    "IoT & edge"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-07-20",
+   "committers": 17
+  },
+  {
+   "id": "vcl",
+   "name": "Apache VCL",
+   "desc": "A cloud computing platform for provisioning and brokering access to dedicated remote compute resources.",
+   "homepage": "http://vcl.apache.org",
+   "pmc": "vcl",
+   "language": [
+    "JavaScript / TypeScript",
+    "Other",
+    "PHP",
+    "Perl",
+    "SQL"
+   ],
+   "area": [
+    "Streaming & messaging",
+    "Cloud & infrastructure"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": "2025-03-24",
+   "committers": 10
+  },
+  {
+   "id": "velocity",
+   "name": "Apache Velocity",
+   "desc": "Java-based template engine",
+   "homepage": "http://velocity.apache.org",
+   "pmc": "velocity",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": "2024-10-21",
+   "committers": 16
+  },
+  {
+   "id": "velocity-dvsl",
+   "name": "Apache Velocity DVSL",
+   "desc": "A tool modeled after XSLT and intended for general XML transformations using the Velocity Template Language.",
+   "homepage": "http://velocity.apache.org/dvsl/devel/",
+   "pmc": "velocity",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": "2024-10-21",
+   "committers": 16
+  },
+  {
+   "id": "velocity-tools",
+   "name": "Apache Velocity Tools",
+   "desc": "Tools and infrastructure for the template engine",
+   "homepage": "http://velocity.apache.org/velocity/tools/",
+   "pmc": "velocity",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Web, HTTP & APIs",
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": "2024-10-21",
+   "committers": 16
+  },
+  {
+   "id": "mina-vysper",
+   "name": "Apache Vysper",
+   "desc": "A modular, full featured XMPP (Jabber) server",
+   "homepage": "http://mina.apache.org/vysper-project",
+   "pmc": "mina",
+   "language": [
+    "Java"
+   ],
+   "area": [],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-17",
+   "committers": 29
+  },
+  {
+   "id": "wayang",
+   "name": "Apache Wayang",
+   "desc": "",
+   "homepage": "https://wayang.apache.org",
+   "pmc": "wayang",
+   "language": [],
+   "area": [],
+   "kind": [],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2026-02-11",
+   "committers": 18
+  },
+  {
+   "id": "tcl-websh",
+   "name": "Apache Websh",
+   "desc": "Websh is a rapid development environment for building powerful, fast, and reliable web applications in Tcl",
+   "homepage": "http://tcl.apache.org/websh",
+   "pmc": "tcl",
+   "language": [
+    "C / C++",
+    "Other"
+   ],
+   "area": [
+    "Web, HTTP & APIs"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-05",
+   "committers": 12
+  },
+  {
+   "id": "whimsy",
+   "name": "Apache Whimsy",
+   "desc": "Tools that display and visualize various bits of data related to ASF organizations and processes.",
+   "homepage": "http://whimsy.apache.org/",
+   "pmc": "whimsy",
+   "language": [
+    "JavaScript / TypeScript",
+    "Ruby"
+   ],
+   "area": [
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": null,
+   "committers": 13
+  },
+  {
+   "id": "creadur-whisker",
+   "name": "Apache Whisker",
+   "desc": "Apache Whisker assists assembled applications to maintain correct legal documentation.",
+   "homepage": "http://creadur.apache.org/whisker",
+   "pmc": "creadur",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Build, testing & dev tools",
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2026-03-20",
+   "committers": 11
+  },
+  {
+   "id": "wicket",
+   "name": "Apache Wicket",
+   "desc": "Apache Wicket is an open source Java component oriented web application framework.",
+   "homepage": "https://wicket.apache.org",
+   "pmc": "wicket",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Web, HTTP & APIs"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-08-24",
+   "committers": 35
+  },
+  {
+   "id": "ws-woden",
+   "name": "Apache Woden",
+   "desc": "The Woden project is a subproject of the Apache Web Services to develop a Java class library for reading, manipulating, creating and writing WSDL documents, initially to support WSDL 2.0 but with the longer term aim of supporting past, present and future versions of WSDL",
+   "homepage": "http://ws.apache.org/woden/",
+   "pmc": "ws",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-30",
+   "committers": 223
+  },
+  {
+   "id": "ws-wss4j",
+   "name": "Apache WSS4J",
+   "desc": "The Apache WSS4J project provides a Java implementation of the primary security standards for Web Services, namely the OASIS Web Services Security (WS-Security) specifications from the OASIS Web Services Security TC.",
+   "homepage": "https://ws.apache.org/wss4j/",
+   "pmc": "ws",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Content, search & documents",
+    "Security & identity"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-30",
+   "committers": 223
+  },
+  {
+   "id": "xalan-for_c++_xslt_processor",
+   "name": "Apache Xalan for C++ XSLT Processor",
+   "desc": "Xalan-C++ is an XSLT processor written in C++.",
+   "homepage": "http://xalan.apache.org/xalan-c",
+   "pmc": "xalan",
+   "language": [
+    "C / C++"
+   ],
+   "area": [
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2026-04-08",
+   "committers": 57
+  },
+  {
+   "id": "xalan-for_java_xslt_processor",
+   "name": "Apache Xalan for Java XSLT Processor",
+   "desc": "Xalan-J is an XSLT processor written in Java.",
+   "homepage": "http://xalan.apache.org/xalan-j/",
+   "pmc": "xalan",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Web, HTTP & APIs",
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2026-04-08",
+   "committers": 57
+  },
+  {
+   "id": "xerces-for_c++_xml_parser",
+   "name": "Apache Xerces for C++ XML Parser",
+   "desc": "Xerces-C++ is a validating XML parser written in a portable subset of C++.",
+   "homepage": "http://xerces.apache.org/xerces-c/",
+   "pmc": "xerces",
+   "language": [
+    "C / C++"
+   ],
+   "area": [
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": "2024-10-14",
+   "committers": 19
+  },
+  {
+   "id": "xerces-for_java_xml_parser",
+   "name": "Apache Xerces for Java XML Parser",
+   "desc": "Xerces-J is a validating XML parser written in Java.",
+   "homepage": "http://xerces.apache.org/xerces2-j/",
+   "pmc": "xerces",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": "2024-10-14",
+   "committers": 19
+  },
+  {
+   "id": "xerces-for_perl_xml_parser",
+   "name": "Apache Xerces for Perl XML Parser",
+   "desc": "Perl API to the Apache Xerces XML parser.",
+   "homepage": "http://xerces.apache.org/xerces-p",
+   "pmc": "xerces",
+   "language": [
+    "Perl"
+   ],
+   "area": [
+    "Content, search & documents",
+    "IoT & edge"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": "2024-10-14",
+   "committers": 19
+  },
+  {
+   "id": "xerces-xml_commons_external",
+   "name": "Apache XML Commons External",
+   "desc": "Apache XML Commons External provides an Apache-hosted set of SAX, DOM and JAXP interfaces for use in other xml-based projects.",
+   "homepage": "http://xerces.apache.org/xml-commons/components/external/",
+   "pmc": "xerces",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Web, HTTP & APIs",
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": "2024-10-14",
+   "committers": 19
+  },
+  {
+   "id": "xerces-xml_commons_resolver",
+   "name": "Apache XML Commons Resolver",
+   "desc": "XML Entity and URI Resolver utility class.",
+   "homepage": "http://xerces.apache.org/xml-commons/components/resolver/",
+   "pmc": "xerces",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": "2024-10-14",
+   "committers": 19
+  },
+  {
+   "id": "xmlgraphics-xml_graphics_commons",
+   "name": "Apache XML Graphics Commons",
+   "desc": "Common components for Apache Batik and Apache FOP",
+   "homepage": "http://xmlgraphics.apache.org/commons/",
+   "pmc": "xmlgraphics",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Content, search & documents",
+    "Geospatial & science"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-20",
+   "committers": 22
+  },
+  {
+   "id": "poi-xmlbeans",
+   "name": "Apache XMLBeans",
+   "desc": "XMLBeans is a technology for accessing XML by binding it to Java types. XMLBeans provides several\n            ways to get at the XML: strong XMLSchema typed model, cursor API, streaming (SAX, Stax) and DOM. XMLBeans\n            covers 100% XMLSchema support while giving access to full infoset of doc",
+   "homepage": "https://xmlbeans.apache.org/",
+   "pmc": "poi",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Streaming & messaging",
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-22",
+   "committers": 42
+  },
+  {
+   "id": "ws-xmlschema",
+   "name": "Apache XMLSchema",
+   "desc": "Apache XMLSchema is a lightweight Java object model that can be used to manipulate and generate XML schema representations.",
+   "homepage": "https://ws.apache.org/xmlschema/",
+   "pmc": "ws",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-30",
+   "committers": 223
+  },
+  {
+   "id": "xtable",
+   "name": "Apache XTable (Incubating)",
+   "desc": "XTable is an omni-directional converter for table formats that facilitates interoperability across data processing systems and query engines.",
+   "homepage": "https://xtable.incubator.apache.org/",
+   "pmc": "incubator",
+   "podling": true,
+   "language": [],
+   "area": [
+    "Databases & storage"
+   ],
+   "kind": [],
+   "maturity": [
+    "incubating"
+   ],
+   "size": [],
+   "activity": [],
+   "lastRelease": null,
+   "committers": null
+  },
+  {
+   "id": "yetus",
+   "name": "Apache Yetus",
+   "desc": "A collection of libraries and tools that enable contribution and release processes for software projects.",
+   "homepage": "https://yetus.apache.org/",
+   "pmc": "yetus",
+   "language": [
+    "Java",
+    "Other",
+    "Python"
+   ],
+   "area": [
+    "Build, testing & dev tools"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "small"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": "2025-03-04",
+   "committers": 12
+  },
+  {
+   "id": "yunikorn",
+   "name": "Apache YuniKorn",
+   "desc": "A light-weight universal resource scheduler for container orchestrator systems.",
+   "homepage": "https://yunikorn.apache.org",
+   "pmc": "yunikorn",
+   "language": [
+    "Go",
+    "JavaScript / TypeScript"
+   ],
+   "area": [
+    "Cloud & infrastructure",
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "young"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-06",
+   "committers": 41
+  },
+  {
+   "id": "zeppelin",
+   "name": "Apache Zeppelin",
+   "desc": "Zeppelin is a collaborative data analytics and visualization tool for distributed, general-purpose data processing systems",
+   "homepage": "http://zeppelin.apache.org/",
+   "pmc": "zeppelin",
+   "language": [
+    "Java",
+    "JavaScript / TypeScript",
+    "Scala"
+   ],
+   "area": [
+    "Big data & analytics",
+    "Geospatial & science"
+   ],
+   "kind": [
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-05-25",
+   "committers": 28
+  },
+  {
+   "id": "zookeeper",
+   "name": "Apache ZooKeeper",
+   "desc": "A distributed computing platform.",
+   "homepage": "https://zookeeper.apache.org/",
+   "pmc": "zookeeper",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Databases & storage"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-03",
+   "committers": 35
+  },
+  {
+   "id": "ant-retired__apache_dotnet",
+   "name": "Retired: Apache .NET Ant Library",
+   "desc": "Retired: Support for Mono and Microsoft .NET development using Ant",
+   "homepage": "http://ant.apache.org/antlibs/dotnet/",
+   "pmc": "ant",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Build, testing & dev tools"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-25",
+   "committers": 29
+  },
+  {
+   "id": "ant-retired__apache_vss",
+   "name": "Retired: Apache VSS Ant Library",
+   "desc": "Retired: Microsoft Visual Source Safe support for Apache Ant.",
+   "homepage": "http://ant.apache.org/antlibs/proper.html",
+   "pmc": "ant",
+   "language": [
+    "Java"
+   ],
+   "area": [
+    "Build, testing & dev tools"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A tool I use from the command line or IDE"
+   ],
+   "maturity": [
+    "established"
+   ],
+   "size": [
+    "medium"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-09-25",
+   "committers": 29
+  }
+ ]
+}
