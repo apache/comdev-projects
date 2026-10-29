@@ -29,7 +29,15 @@
      table.doapform code.hint { word-break: break-all; }
      .doapform .repeat .row { margin: 3px 0; display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; }
      .doapform .repeat .row label { display: flex; align-items: center; gap: 4px; flex: 1 1 140px; min-width: 0; }
-     .doapform .repeat .row input[type=text] { flex: 1; min-width: 0; width: auto; }
+     .doapform .repeat .row label { white-space: nowrap; }
+     .doapform .repeat .row input[type=text], .doapform .repeat .row label select { flex: 1; min-width: 0; width: auto; max-width: 100%; }
+     /* Standards have four fields: lay them out as a 2x2 grid, remove button on the right */
+     .doapform .repeat[data-group="standard"] .row { display: grid; grid-template-columns: 1fr 1fr auto; gap: 4px 10px;
+         padding: 4px 0; border-bottom: 1px dotted #ccc; }
+     .doapform .repeat[data-group="standard"] .row label { min-width: 0; }
+     .doapform .repeat[data-group="standard"] .row button.rm { grid-column: 3; grid-row: 1 / span 2; align-self: center; }
+     @media (max-width: 760px) { .doapform .repeat[data-group="standard"] .row { grid-template-columns: 1fr auto; }
+         .doapform .repeat[data-group="standard"] .row button.rm { grid-column: 2; grid-row: 1 / span 4; } }
      .doapform .repeat .row > input[type=text] { flex: 1 1 200px; }
      #load_box select { max-width: 100%; }
      #doap_output { max-width: 100%; box-sizing: border-box; }
