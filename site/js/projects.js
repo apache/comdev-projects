@@ -2060,7 +2060,10 @@ function weaveById(list,mapById) {
 
 function fixProjectName(project) {
     // fix attic and incubator project names if necessary
-    if (project.pmc == "attic") {
+    // Safe to call more than once on the same object: the same project is
+    // run through here at load time and again when its page is rendered.
+    if (!project || !project.name) return project;
+    if (project.pmc == "attic" && !/\(in the Attic\)$/.test(project.name)) {
         project.name += " (in the Attic)";
     } else if ((project.pmc == "incubator") && !project.name.match(/incubating/i)) {
         project.name += " (Incubating)";
