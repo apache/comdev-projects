@@ -214,7 +214,8 @@ function renderProjectPage(project, projectId) {
     }
 
     // Title + description
-    obj.innerHTML = "<h1>" + project.name + " <font size='-1'>(a project managed by the <a href='committee.html?" + committeeId + "'>" + committee.name + " Committee</a>)</font></h1>";
+    obj.innerHTML = logoImg(isIncubating ? [projectId.replace(/^incubator-/, ''), unixgroup] : [projectId, committeeId]) +
+        "<h1>" + project.name + " <font size='-1'>(a project managed by the <a href='committee.html?" + committeeId + "'>" + committee.name + " Committee</a>)</font></h1>";
 
     // project description
     appendElementWithInnerHTML(obj,'p',description.replace(/([^\r\n]+)\r?\n\r?\n/g,function(a) { return "<p>"+a+"</p>"}));
@@ -513,7 +514,7 @@ function renderCommitteePage(committeeId) {
     var unixgroup = committeeId; // there are probably a few exceptions...
     var committee = committees[committeeId];
 
-    obj.innerHTML = "<h1>" + committee.name + " Committee <font size='-2'>(also called PMC or <a href='https://www.apache.org/#projects-list' target='_blank'>Top Level Project</a>)</font></h1>";
+    obj.innerHTML = logoImg([committeeId]) + "<h1>" + committee.name + " Committee <font size='-2'>(also called PMC or <a href='https://www.apache.org/#projects-list' target='_blank'>Top Level Project</a>)</font></h1>";
 
     var description;
     if (!_.isEmpty(committee.shortdesc)) {
@@ -1022,6 +1023,21 @@ function sortCommittees() {
         committeesSorted.push(committeesSortedX[i][0]);
     }
     return committeesSorted;
+}
+
+// Project logo, referenced (not copied) from https://www.apache.org/logos/.
+// Tries each id in turn (e.g. the sub-project's own key, then its PMC) and
+// hides itself if none has a logo.
+function logoImg(ids) {
+    var urls = [];
+    ids.forEach(function (id) {
+        if (id && urls.indexOf(id) < 0) urls.push(id);
+    });
+    urls = urls.map(function (id) { return "https://www.apache.org/logos/res/" + encodeURIComponent(id) + "/default.png"; });
+    if (!urls.length) return "";
+    return "<img class='projlogo' src='" + urls[0] + "' data-fallbacks='" + urls.slice(1).join(' ') + "' alt=''" +
+           " style='float: right; max-height: 80px; max-width: 240px; margin: 0 0 10px 15px;'" +
+           " onerror=\"var f=(this.dataset.fallbacks||'').split(' ').filter(Boolean); if (f.length) { this.dataset.fallbacks=f.slice(1).join(' '); this.src=f[0]; } else { this.style.display='none'; }\">";
 }
 
 // Retired committees have no committee page here; link to their Attic page instead
