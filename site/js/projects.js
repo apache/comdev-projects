@@ -1031,6 +1031,18 @@ function retiredCommitteeLink(id) {
            " <span class='pretired'>Retired" + (c.retired ? " " + c.retired : "") + "</span>";
 }
 
+// Is this retired-committee entry really a current committee under another id?
+// (e.g. committees-retired.json has "apachetraining" while the live one is "training")
+function isStillCurrent(id) {
+    if (committees[id]) return true;
+    var norm = function (n) { return (n || '').toLowerCase().replace(/^(apache )+/, '').replace(/[^a-z0-9]/g, ''); };
+    var n = norm(retiredCommittees[id] && retiredCommittees[id].name);
+    for (var c in committees) {
+        if (norm(committees[c].name) === n) return true;
+    }
+    return false;
+}
+
 // committees.html '&retired' toggle
 function retiredToggle(cat) {
     var url = "committees.html?" + cat + (showRetired ? "" : "&retired") + document.location.hash;
@@ -1053,7 +1065,7 @@ function renderCommitteesByName() {
     }
     if (showRetired) {
         for (var r in retiredCommittees) {
-            if (committees[r]) continue;
+            if (isStillCurrent(r)) continue;
             rows.push([(retiredCommittees[r].name || r).toLowerCase(), committeeIcon() + retiredCommitteeLink(r)]);
         }
         rows.sort(function (a, b) { return a[0] < b[0] ? -1 : a[0] > b[0] ? 1 : 0; });
@@ -1074,7 +1086,7 @@ function renderCommitteesByDate() {
     var pool = [];
     for (i in committees) pool.push(committees[i]);
     if (showRetired) {
-        for (i in retiredCommittees) if (!committees[i]) pool.push(retiredCommittees[i]);
+        for (i in retiredCommittees) if (!isStillCurrent(i)) pool.push(retiredCommittees[i]);
     }
     for (i = 0; i < pool.length; i++) {
         var date = pool[i].established;
