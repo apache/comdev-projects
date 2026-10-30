@@ -33,7 +33,8 @@
  .result .links a { margin-right: 12px; font-size: 90%; }
  .result.new { animation: fadein .4s; }
  @keyframes fadein { from { opacity: 0; transform: translateY(-4px); } }
- #matches-h { margin-top: 28px; }
+ #matches-h { margin-top: 28px; margin-bottom: 4px; }
+ #shown { color: #666; font-size: 90%; margin-top: 0; }
  .score { float: right; font-size: 85%; color: #c6262e; }
  .mock { background: #fff6d5; border: 1px solid #e6c84f; padding: 8px 12px; border-radius: 4px; font-size: 90%; }
 </style>
@@ -55,6 +56,7 @@
   <div id="stage">Loading project data&hellip;</div>
   <div id="matches" hidden>
    <h2 id="matches-h"></h2>
+   <p class="hint" id="shown"></p>
    <div id="list"></div>
    <p id="empty" hidden>No matches - try going back and loosening an answer.</p>
   </div>
@@ -80,7 +82,7 @@
  *   projects with incomplete metadata aren't thrown out entirely.
  * - We stop when few enough projects remain, or questions run out.
  */
-const STOP_AT = 8, SHOW = 12;
+const STOP_AT = 8, SHOW = 10;
 let DATA, answers = {}, history = [];
 
 const $s = () => document.getElementById('stage');
@@ -167,7 +169,7 @@ function render() {
   const preview = () => {
     document.getElementById('remaining').textContent =
       `${candidates(pending()).length} communities match so far`;
-    showMatches(pending(), 'Best matches so far');
+    showMatches(pending(), 'matches so far');
   };
   $s().querySelectorAll('.opt').forEach(el => el.onclick = () => {
     const v = el.dataset.v;
@@ -219,12 +221,12 @@ function card(p) {
 
 // Update the match list in place: drop cards that fell out of the top
 // SHOW, move the rest into rank order, and fade in newcomers.
-function showMatches(ans, heading) {
+function showMatches(ans, what) {
   const asked = Object.entries(ans).filter(([k, v]) => v.length && isFilter(k)).length;
-  const ranked = DATA.projects.map(p => ({p, s: score(p, ans)}))
+  const all = DATA.projects.map(p => ({p, s: score(p, ans)}))
     .filter(r => r.s > 0 || !asked)
-    .sort((a, b) => b.s - a.s || (b.p.committers || 0) - (a.p.committers || 0))
-    .slice(0, SHOW);
+    .sort((a, b) => b.s - a.s || (b.p.committers || 0) - (a.p.committers || 0));
+  const ranked = all.slice(0, SHOW);
   const list = document.getElementById('list');
   const keep = new Set(ranked.map(r => r.p.id));
   [...list.children].forEach(el => { if (!keep.has(el.dataset.id)) el.remove(); });
@@ -234,7 +236,16 @@ function showMatches(ans, heading) {
     if (!el.isConnected) { el.classList.remove('new'); void el.offsetWidth; el.classList.add('new'); }
     if (list.children[i] !== el) list.insertBefore(el, list.children[i] || null);
   });
-  document.getElementById('matches-h').textContent = heading;
+  document.getElementById('matches-h').textContent = all.length > SHOW
+    ? `Top ${SHOW} ${what}` : what[0].toUpperCase() + what.slice(1);
+  // Always say that this is only the top of the list, not every match.
+  document.getElementById('shown').textContent = all.length <= SHOW
+    ? `Showing all ${all.length} matching communities.`
+    : `Showing only the top ${SHOW} of ${all.length} ${asked
+        ? 'communities that match at least one of your answers, ranked by how many they match, then by community size'
+        : 'communities, largest first'}.${
+        document.getElementById('next') ? ' Answer more questions to narrow it down.' : ''}`;
+  document.getElementById('shown').hidden = !all.length;
   document.getElementById('empty').hidden = ranked.length > 0;
   document.getElementById('matches').hidden = false;
 }
@@ -243,7 +254,7 @@ function showResults() {
   document.getElementById('prog').style.width = '100%';
   $s().innerHTML = `<div class="bar">${history.length ? '<button class="btn sec" id="back">Back</button>' : ''}
      <button class="btn" id="restart">Start over</button></div>` + answerSummary();
-  showMatches(answers, 'Projects you might like');
+  showMatches(answers, 'projects you might like');
   document.getElementById('advice').innerHTML = gettingStarted();
   document.getElementById('restart').onclick = () => { answers = {}; history = []; render(); };
   const b = document.getElementById('back'); if (b) b.onclick = back;
