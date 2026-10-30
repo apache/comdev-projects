@@ -1024,6 +1024,20 @@ function sortCommittees() {
     return committeesSorted;
 }
 
+// Retired committees have no committee page here; link to their Attic page instead
+function retiredCommitteeLink(id) {
+    var c = retiredCommittees[id];
+    return "<a href='https://attic.apache.org/projects/" + id + ".html' target='_blank'>" + c.name + "</a>" +
+           " <span class='pretired'>Retired" + (c.retired ? " " + c.retired : "") + "</span>";
+}
+
+// committees.html '&retired' toggle
+function retiredToggle(cat) {
+    var url = "committees.html?" + cat + (showRetired ? "" : "&retired") + document.location.hash;
+    return "<p><label style='cursor: pointer;'><input type='checkbox' " + (showRetired ? "checked " : "") +
+           "onclick=\"location.href='" + url + "'\"> Show retired committees</label></p>";
+}
+
 function renderCommitteesByName() {
     var obj = document.getElementById('list');
     obj.innerHTML = "";
@@ -1032,8 +1046,20 @@ function renderCommitteesByName() {
     // Committee list
     var ul = document.createElement('ul');
     var i;
+    var rows = [];
     for (i in committeesSorted) {
-        appendLiInnerHTML(ul, committeeIcon() + committeeLink(committeesSorted[i]));
+        var id = committeesSorted[i];
+        rows.push([committees[id].name.toLowerCase(), committeeIcon() + committeeLink(id)]);
+    }
+    if (showRetired) {
+        for (var r in retiredCommittees) {
+            if (committees[r]) continue;
+            rows.push([(retiredCommittees[r].name || r).toLowerCase(), committeeIcon() + retiredCommitteeLink(r)]);
+        }
+        rows.sort(function (a, b) { return a[0] < b[0] ? -1 : a[0] > b[0] ? 1 : 0; });
+    }
+    for (i = 0; i < rows.length; i++) {
+        appendLiInnerHTML(ul, rows[i][1]);
     }
     obj.appendChild(ul);
 }
@@ -1045,8 +1071,14 @@ function renderCommitteesByDate() {
     var dates = [];
     var dcount = {};
     var i;
-    for (i in committees) {
-        var date = committees[i].established;
+    var pool = [];
+    for (i in committees) pool.push(committees[i]);
+    if (showRetired) {
+        for (i in retiredCommittees) if (!committees[i]) pool.push(retiredCommittees[i]);
+    }
+    for (i = 0; i < pool.length; i++) {
+        var date = pool[i].established;
+        if (!date) continue;
         if (dates.indexOf(date) < 0) {
             dates.push(date);
             dcount[date] = 0;
@@ -1065,11 +1097,11 @@ function renderCommitteesByDate() {
         li.innerHTML = "<h3><a id='" + date + "'>" + date + " (" + dcount[date] + ")</a>:</h3>";
         var cul = document.createElement('ul');
         var i;
-        for (i in committeesByName) {
-            i = committeesByName[i];
-            if (i.established == date) {
-                appendLiInnerHTML(cul, committeeIcon() + committeeLink(i.id));
-            }
+        var inDate = pool.filter(function (c) { return c.established == date; });
+        inDate.sort(function (a, b) { return a.name < b.name ? -1 : a.name > b.name ? 1 : 0; });
+        for (var k = 0; k < inDate.length; k++) {
+            var c = inDate[k];
+            appendLiInnerHTML(cul, committeeIcon() + (committees[c.id] ? committeeLink(c.id) : retiredCommitteeLink(c.id)));
         }
         li.appendChild(cul);
         ul.appendChild(li);
@@ -1083,7 +1115,9 @@ function renderCommitteesByDate() {
 }
 
 function buildCommitteesList() {
-    var cat = document.location.search.substr(1);
+    var params = document.location.search.substr(1).split('&');
+    var cat = params[0];
+    showRetired = params.indexOf('retired') > 0;
     var types = {
         'name': [ 'name', renderCommitteesByName ],
         'date': [ 'founding date', renderCommitteesByDate ]
@@ -1094,7 +1128,7 @@ function buildCommitteesList() {
 
     var type = types[cat];
     var obj = document.getElementById('title');
-    obj.innerHTML = "<h1>Committees by " + type[0] + ":</h1>"
+    obj.innerHTML = "<h1>Committees by " + type[0] + ":</h1>" + retiredToggle(cat);
 
     preloadEverything(type[1]);
 }
