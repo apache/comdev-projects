@@ -479,6 +479,15 @@ function buildProjectPage() {
             return;
         }
     }
+    // Use the entry already loaded from json/foundation/projects.json, so the
+    // listings and the project page always come from the same file. The
+    // per-project json/projects/<id>.json files are still published for
+    // outside use, but are only fetched for anything not in projects.json.
+    var loaded = projects[projectId] || retiredProjects[projectId];
+    if (loaded && loaded.source === 'release-catalog') {
+        renderProjectPage(loaded, projectId);
+        return;
+    }
     GetAsyncJSON("json/projects/" + projectId + ".json?" + Math.random(), projectId, renderProjectPage)
 }
 
