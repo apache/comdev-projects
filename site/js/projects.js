@@ -33,6 +33,7 @@ var committeesByName = {}; // name -> committee info
 var retiredCommittees = {}; // retired committees information: id -> committee info (established, retired, homepage, id, name)
 var projects = {}; // Projects (excluding retired ones)
 var retiredProjects = {}; // retired components: not listed, never offered for editing
+var showRetired = false; // projects.html '&retired' toggle: also list retired projects
 var podlings = {}; // current podlings
 var podlingsHistory = {}; // Podlings history (now graduated or retired)
 var repositories = {}; // source repositories id -> url
@@ -615,6 +616,24 @@ function renderCommitteePage(committeeId) {
         obj.appendChild(ul);
     }
 
+    // Retired projects: collapsed, never with an Edit metadata button
+    var retiredHere = [];
+    for (var rp in retiredProjects) {
+        if (retiredProjects[rp].pmc == committeeId) retiredHere.push(rp);
+    }
+    if (retiredHere.length > 0) {
+        retiredHere.sort();
+        var det = document.createElement('details');
+        det.innerHTML = "<summary>Show retired projects (" + retiredHere.length + ")</summary>";
+        var rul = document.createElement('ul');
+        for (var k = 0; k < retiredHere.length; k++) {
+            appendLiInnerHTML(rul, "<a href='project.html?" + retiredHere[k] + "'>" +
+                retiredProjects[retiredHere[k]].name + "</a> <span class='pretired'>Retired</span>");
+        }
+        det.appendChild(rul);
+        obj.appendChild(det);
+    }
+
     var repos = [];
     for (var r in repositories) {
         if (committeeId == repoToCommittee(r)) {
@@ -668,7 +687,8 @@ function projectLink(id) {
         // not project id: perhaps committee id
         project = committees[id];
     }
-    return "<a href='project.html?" + id + "'>" + project.name + "</a>";
+    var tag = (project.status === 'retired') ? " <span class='pretired'>Retired</span>" : "";
+    return "<a href='project.html?" + id + "'>" + project.name + "</a>" + tag;
 }
 
 function projectDesc(id) {
@@ -961,7 +981,9 @@ function renderProjectsByCommittee() {
 }
 
 function buildProjectsList() {
-    var cat = document.location.search.substr(1);
+    var params = document.location.search.substr(1).split('&');
+    var cat = params[0];
+    showRetired = params.indexOf('retired') > 0;
     var types = {
         'name': [ 'name', renderProjectsByName ],
         'language': [ 'language', renderProjectsByLanguage ],
@@ -976,7 +998,10 @@ function buildProjectsList() {
 
     var type = types[cat];
     var obj = document.getElementById('title');
-    obj.innerHTML = "<h1>Projects by " + type[0] + ":</h1>"
+    var toggleUrl = "projects.html?" + cat + (showRetired ? "" : "&retired") + document.location.hash;
+    obj.innerHTML = "<h1>Projects by " + type[0] + ":</h1>" +
+        "<p><label style='cursor: pointer;'><input type='checkbox' " + (showRetired ? "checked " : "") +
+        "onclick=\"location.href='" + toggleUrl + "'\"> Show retired projects</label></p>";
 
     preloadEverything(type[1]);
 }
@@ -1989,7 +2014,7 @@ function weaveInProjects(json, pfx) {
         // aside so an old link to one still gets a "retired" page.
         if (json[p] && json[p].status === 'retired') {
             retiredProjects[pfx+p] = fixProjectName(json[p]);
-            continue;
+            if (!showRetired) continue;   // only the projects list can opt in
         }
         // Since podlings are loaded first, catalog entries take precedence
         projects[pfx+p] = fixProjectName(json[p]);
