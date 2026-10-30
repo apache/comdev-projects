@@ -35,6 +35,7 @@ $.get('/nav.html', function(html) {
       'pmc_rdf.html':           'About'
    };
    var active = navMap[page];
+   if (location.pathname.indexOf('/metrics') === 0) active = 'Metrics';   // comdev-metrics pages
    if (active) {
       $('#cssmenu ul li a span').each(function() {
          if ($(this).text() === active) {

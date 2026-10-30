@@ -294,7 +294,7 @@ function renderProjectPage(project, projectId) {
         appendLiInnerHTML(ul, "<b>Project data:</b> this project is not yet in the <a href='https://releases.apache.org/' target='_blank'>Apache Trusted Releases</a> catalog.");
     }
     // Activity metrics
-    appendLiInnerHTML(ul, "<b>Activity metrics:</b> <a href='https://apache.github.io/comdev-metrics/project.html?id=" + projectId + "' target='_blank'>View on comdev-metrics</a>");
+    appendLiInnerHTML(ul, "<b>Activity:</b> <a href='/metrics/project.html?id=" + unixgroup + "'>Community activity metrics</a>");
 
     // maintainer
     if (project.maintainer) {
@@ -587,7 +587,7 @@ function renderCommitteePage(committeeId) {
         appendLiInnerHTML(ul, "<b>PMC data file:</b> <a href='" + committee.rdf + "' target='_blank'>RDF Source</a>");
     }
     // Activity metrics
-    appendLiInnerHTML(ul, "<b>Activity metrics:</b> <a href='https://apache.github.io/comdev-metrics/project.html?id=" + committeeId + "' target='_blank'>View on comdev-metrics</a>");
+    appendLiInnerHTML(ul, "<b>Activity:</b> <a href='/metrics/project.html?id=" + committeeId + "'>Community activity metrics</a>");
 
 
     obj.appendChild(ul);
