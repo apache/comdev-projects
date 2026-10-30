@@ -2624,8 +2624,8 @@
 "apache-datasketches-python-5.2.0": [
 "datasketches/python/5.2.0/apache-datasketches-python-5.2.0-src.zip"
 ],
-"apache-datasketches-rust-0.5.0": [
-"datasketches/rust/0.5.0/apache-datasketches-rust-0.5.0-src.zip"
+"apache-datasketches-rust-0.6.0": [
+"datasketches/rust/0.6.0/apache-datasketches-rust-0.6.0-src.zip"
 ],
 "datasketches-1.7.0": [
 "datasketches/postgresql/1.7.0/pgxn.org/datasketches-1.7.0.zip"
@@ -3826,8 +3826,8 @@
 ]
 },
 "fineract": {
-"apache-fineract-1.15.0": [
-"fineract/1.15.0/apache-fineract-src-1.15.0.tar.gz"
+"apache-fineract-1.16.1": [
+"fineract/1.16.1/apache-fineract-src-1.16.1.tar.gz"
 ]
 },
 "flagon": {
@@ -4040,6 +4040,9 @@
 ],
 "flink-agents-0.3.1": [
 "flink/flink-agents-0.3.1/flink-agents-0.3.1-src.tgz"
+],
+"flink-agents-0.4.0": [
+"flink/flink-agents-0.4.0/flink-agents-0.4.0-src.tgz"
 ],
 "flink-cdc-3.1.1": [
 "flink/flink-cdc-3.1.1/flink-cdc-3.1.1-src.tgz"
@@ -4295,6 +4298,9 @@
 ],
 "flink_agents-0.3.1": [
 "flink/flink-agents-0.3.1/python/flink_agents-0.3.1.tar.gz"
+],
+"flink_agents-0.4.0": [
+"flink/flink-agents-0.4.0/python/flink_agents-0.4.0.tar.gz"
 ]
 },
 "flume": {
@@ -5485,8 +5491,8 @@
 "apache-iceberg-rust-0.9.1": [
 "iceberg/apache-iceberg-rust-0.9.1/apache-iceberg-rust-0.9.1.tar.gz"
 ],
-"apache-iceberg-terraform-0.1.0": [
-"iceberg/apache-iceberg-terraform-0.1.0/apache-iceberg-terraform-0.1.0.tar.gz"
+"apache-iceberg-terraform-0.2.0": [
+"iceberg/apache-iceberg-terraform-0.2.0/apache-iceberg-terraform-0.2.0.tar.gz"
 ],
 "pyiceberg-0.10.0": [
 "iceberg/pyiceberg-0.10.0/pyiceberg-0.10.0.tar.gz"
@@ -7094,6 +7100,10 @@
 "lucene/java/10.5.2/lucene-10.5.2-src.tgz",
 "lucene/java/10.5.2/lucene-10.5.2.tgz"
 ],
+"lucene-10.6.0": [
+"lucene/java/10.6.0/lucene-10.6.0-src.tgz",
+"lucene/java/10.6.0/lucene-10.6.0.tgz"
+],
 "lucene-9.12.3": [
 "lucene/java/9.12.3/lucene-9.12.3-src.tgz",
 "lucene/java/9.12.3/lucene-9.12.3.tgz"
@@ -7321,10 +7331,6 @@
 "apache-maven-3.10.0": [
 "maven/maven-3/3.10.0/source/apache-maven-3.10.0-src.tar.gz",
 "maven/maven-3/3.10.0/source/apache-maven-3.10.0-src.zip"
-],
-"apache-maven-3.10.0-rc-1": [
-"maven/maven-3/3.10.0-rc-1/source/apache-maven-3.10.0-rc-1-src.tar.gz",
-"maven/maven-3/3.10.0-rc-1/source/apache-maven-3.10.0-rc-1-src.zip"
 ],
 "apache-maven-3.9.16": [
 "maven/maven-3/3.9.16/source/apache-maven-3.9.16-src.tar.gz",
@@ -9234,8 +9240,8 @@
 ]
 },
 "pinot": {
-"apache-pinot-1.5.1": [
-"pinot/apache-pinot-1.5.1/apache-pinot-1.5.1-src.tar.gz"
+"apache-pinot-1.6.0": [
+"pinot/apache-pinot-1.6.0/apache-pinot-1.6.0-src.tar.gz"
 ]
 },
 "plc4x": {
@@ -12193,13 +12199,13 @@
 "tomcat-maven-plugin-2.2": [
 "tomcat/maven-plugin/v2.2/tomcat-maven-plugin-2.2-source-release.zip"
 ],
-"tomcat-native-1.3.9": [
-"tomcat/tomcat-connectors/native/1.3.9/source/tomcat-native-1.3.9-src.tar.gz",
-"tomcat/tomcat-connectors/native/1.3.9/source/tomcat-native-1.3.9-win32-src.zip"
+"tomcat-native-1.3.10": [
+"tomcat/tomcat-connectors/native/1.3.10/source/tomcat-native-1.3.10-src.tar.gz",
+"tomcat/tomcat-connectors/native/1.3.10/source/tomcat-native-1.3.10-win32-src.zip"
 ],
-"tomcat-native-2.0.16": [
-"tomcat/tomcat-connectors/native/2.0.16/source/tomcat-native-2.0.16-src.tar.gz",
-"tomcat/tomcat-connectors/native/2.0.16/source/tomcat-native-2.0.16-win32-src.zip"
+"tomcat-native-2.0.17": [
+"tomcat/tomcat-connectors/native/2.0.17/source/tomcat-native-2.0.17-src.tar.gz",
+"tomcat/tomcat-connectors/native/2.0.17/source/tomcat-native-2.0.17-win32-src.zip"
 ]
 },
 "tomee": {
@@ -13018,13 +13024,13 @@
 "wicket/7.18.0/apache-wicket-7.18.0.tar.gz",
 "wicket/7.18.0/apache-wicket-7.18.0.zip"
 ],
-"apache-wicket-8.19.0": [
-"wicket/8.19.0/apache-wicket-8.19.0.tar.gz",
-"wicket/8.19.0/apache-wicket-8.19.0.zip"
+"apache-wicket-8.20.0": [
+"wicket/8.20.0/apache-wicket-8.20.0.tar.gz",
+"wicket/8.20.0/apache-wicket-8.20.0.zip"
 ],
-"apache-wicket-9.24.0": [
-"wicket/9.24.0/apache-wicket-9.24.0.tar.gz",
-"wicket/9.24.0/apache-wicket-9.24.0.zip"
+"apache-wicket-9.25.0": [
+"wicket/9.25.0/apache-wicket-9.25.0.tar.gz",
+"wicket/9.25.0/apache-wicket-9.25.0.zip"
 ]
 },
 "ws": {
