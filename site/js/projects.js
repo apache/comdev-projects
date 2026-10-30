@@ -31,7 +31,8 @@ var unixgroups = {}; // unix (ldap) groups (project -> committers lookup)
 var committees = {}; // id -> committee info (chair, established, group, homepage, id, name, reporting, shortdesc) (current committees)
 var committeesByName = {}; // name -> committee info
 var retiredCommittees = {}; // retired committees information: id -> committee info (established, retired, homepage, id, name)
-var projects = {}; // Projects
+var projects = {}; // Projects (excluding retired ones)
+var retiredProjects = {}; // retired components: not listed, never offered for editing
 var podlings = {}; // current podlings
 var podlingsHistory = {}; // Podlings history (now graduated or retired)
 var repositories = {}; // source repositories id -> url
@@ -95,7 +96,10 @@ function GetAsyncJSONArray(urls, finalCallback) {
 
         if (obj) { obj.innerHTML = "loading file #" + ( fetchCount - urls.length ) + " / " + fetchCount + "<br>" + desc }
 
-        xmlHttp.open("GET", URL, true);
+        // The json files are regenerated nightly; don't let the browser
+        // serve a stale copy (e.g. one without the new "status" field)
+        var bust = (URL.indexOf('?') >= 0 ? '&' : '?') + 'd=' + new Date().toISOString().slice(0, 10);
+        xmlHttp.open("GET", URL + bust, true);
         xmlHttp.onreadystatechange = function(state) {
             if (xmlHttp.readyState == 4) {
                 if (cb) {
@@ -159,8 +163,12 @@ function projectIdToUnixGroup(projectId, pmcName) {
 function renderProjectPage(project, projectId) {
     var obj = document.getElementById('contents');
 
+    var isRetired = !!retiredProjects[projectId] || (project && project.status === 'retired');
+    if ((!project || !project.name) && retiredProjects[projectId]) {
+        project = retiredProjects[projectId];
+    }
     if ((!project || !project.name) && projects[projectId]) {
-        // no DOAP file but known project: podling (loaded from podlings.json)
+        // no project file but known project: podling (loaded from podlings.json)
         project = projects[projectId];
     }
     if (!project || !project.name) {
@@ -186,7 +194,7 @@ function renderProjectPage(project, projectId) {
     }
     var committee = committees[committeeId];
     if (!committee) {
-        obj.innerHTML = "<h2>Cannot find the PMC '" + committeeId + "' for this project. Check the DOAP is correct.</h2>";
+        obj.innerHTML = "<h2>Cannot find the PMC '" + committeeId + "' for this project. Check its committee in the release catalog.</h2>";
         return;
     }
 
@@ -237,7 +245,7 @@ function renderProjectPage(project, projectId) {
     }
     if (isIncubating) {
         appendLiInnerHTML(ul, "<b>Project status:</b> <a href='https://incubator.apache.org/projects/" + unixgroup + ".html' target='_blank'><span class='ppodling'>Incubating</span></a>");
-    } else if (committeeId != 'attic') {
+    } else if (committeeId != 'attic' && !isRetired) {
         appendLiInnerHTML(ul, "<b>Project status:</b> <span class='pactive'>Active</span>");
     } else {
         appendLiInnerHTML(ul, "<b>Project status:</b> <span class='pretired'>Retired</span>");
@@ -272,20 +280,17 @@ function renderProjectPage(project, projectId) {
         appendLiInnerHTML(ul, "<b>Implemented standards</b>").appendChild(stds);
     }
 
-    // doap/rdf, with a button into the DOAP editor (create.html)
-    var doapBtn = function (label, query) {
-        return " &nbsp; <a href='create.html?" + query + "' style='display: inline-block; background: #d45500; color: #fff;" +
-               " padding: 3px 10px; border-radius: 4px; text-decoration: none; font-weight: bold; font-size: 90%;'>" + label + "</a>";
-    };
-    var doapNote = "<br><small style='color: #666;'>Anyone can draft changes. The project's committers review and commit them.</small>";
-    if (project.doap) {
-        appendLiInnerHTML(ul, "<b>Project data file:</b> <a href='" + project.doap + "' target='_blank'>DOAP RDF Source</a> (<a href='json/projects/" + projectId + ".json'>generated json</a>)" +
-            doapBtn("Suggest an update to this project's data", "project=" + encodeURIComponent(projectId)) + doapNote);
+    // Project data now comes from the ASF release catalog; it is edited in ATR
+    if (isRetired) {
+        appendLiInnerHTML(ul, "<b>Project data:</b> this project is retired and its data is no longer maintained.");
+    } else if (project.source === 'release-catalog') {
+        appendLiInnerHTML(ul, "<b>Project data:</b> from the <a href='https://release-catalog.apache.org/project_releases.json' target='_blank'>ASF release catalog</a>" +
+            " (<a href='json/projects/" + projectId + ".json'>json</a>)" + atrBtn(projectId) +
+            "<br><small style='color: #666;'>Project committers can edit this in Apache Trusted Releases, or in the <code>project:</code> block of the repository's <a href='https://github.com/apache/infrastructure-asfyaml#project-metadata' target='_blank'>.asf.yaml</a>. Everyone else: suggest changes on the project's dev list.</small>");
+    } else if (project.doap) {
+        appendLiInnerHTML(ul, "<b>Project data file:</b> <a href='" + project.doap + "' target='_blank'>DOAP RDF Source</a> (<a href='json/projects/" + projectId + ".json'>generated json</a>)");
     } else {
-        var q = isIncubating ? "pmc=incubator&podling=" + encodeURIComponent(projectId.replace(/^incubator-/, ''))
-                             : "pmc=" + encodeURIComponent(committeeId);
-        appendLiInnerHTML(ul, "<b>Project data file:</b> no <a href='doap.html'>DOAP file</a> available" +
-            doapBtn("Help this project create its DOAP file", q) + doapNote);
+        appendLiInnerHTML(ul, "<b>Project data:</b> this project is not yet in the <a href='https://releases.apache.org/' target='_blank'>Apache Trusted Releases</a> catalog.");
     }
     // Activity metrics
     appendLiInnerHTML(ul, "<b>Activity metrics:</b> <a href='https://apache.github.io/comdev-metrics/project.html?id=" + projectId + "' target='_blank'>View on comdev-metrics</a>");
@@ -366,7 +371,7 @@ function renderProjectPage(project, projectId) {
     obj.appendChild(ul);
 
     // releases
-    appendElementWithInnerHTML(obj,'h4',"Releases <font size='-2'>(from DOAP)</font>:");
+    appendElementWithInnerHTML(obj,'h4',"Releases <font size='-2'>(from the <a href='https://release-catalog.apache.org/project_releases.json' target='_blank'>ASF release catalog</a>)</font>:");
     ul = document.createElement('ul');
     if (project['download-page']) {
         appendLiInnerHTML(ul, "<b>Download:</b> <a href='" + project['download-page'] + "' target='_blank'>" + project['download-page'] + "</a>");
@@ -378,24 +383,93 @@ function renderProjectPage(project, projectId) {
             if(ac < bc) return 1;
             if(ac > bc) return -1;
             return 0;});
-        var r;
-        for (r in project.release) {
-            r = project.release[r];
+        // Newest 5 shown; the rest collapsed under a <details> twisty
+        var SHOWN = 5, older = null;
+        for (var ri = 0; ri < project.release.length; ri++) {
+            var r = project.release[ri];
             var html = "<b>" + (r.revision ? r.revision : r.version) + "</b>";
             html += " (" + (r.created ? r.created : 'unknown') + ")";
-            appendLiInnerHTML(ul, html + ": " + r.name);
+            if (ri < SHOWN) {
+                appendLiInnerHTML(ul, html + ": " + r.name);
+            } else {
+                if (!older) {
+                    var det = document.createElement('details');
+                    det.innerHTML = "<summary>" + (project.release.length - SHOWN) + " older releases</summary>";
+                    older = document.createElement('ul');
+                    det.appendChild(older);
+                    obj.appendChild(ul);
+                    obj.appendChild(det);
+                }
+                appendLiInnerHTML(older, html + ": " + r.name);
+            }
         }
+        if (older) return;
     }
     obj.appendChild(ul);
 }
 
 
+/*
+ * Old project IDs (from the DOAP era) that the rules in resolveProjectId() can't
+ * work out, mapped to their release-catalog keys. One-time table from the
+ * Oct 2026 switch to the release catalog; it should not need to grow.
+ */
+var idAliases = {
+    "accumulo-fluo": "fluo",
+    "accumulo-fluo_recipes": "fluo-recipes",
+    "accumulo-fluo_yarn": "fluo-yarn",
+    "ant-antunit": "ant-antlibs-antunit",
+    "ant-compress": "ant-antlibs-compress",
+    "ant-props": "ant-antlibs-props",
+    "attic-oltu_-_parent": "oltu-parent",
+    "attic-open_climate_workbench": "climate",
+    "attic-traffic_control": "trafficcontrol",
+    "commons-chain__dormant_": "commons-chain",
+    "commons-functor__dormant_": "commons-functor",
+    "commons-ognl__dormant_": "commons-ognl",
+    "commons-proxy__dormant_": "commons-proxy",
+    "lucenenet-lucenedotnet": "lucenenet",
+    "ponymail-pony_mail": "ponymail",
+    "xalan-for_c++_xslt_processor": "xalan-c",
+    "xalan-for_java_xslt_processor": "xalan-j",
+    "xerces-for_c++_xml_parser": "xerces-c",
+    "xerces-for_java_xml_parser": "xerces-j",
+    "xerces-for_perl_xml_parser": "xerces-p",
+    "xerces-xml_commons_external": "xerces-xml-commons",
+    "xmlgraphics-xml_graphics_commons": "xmlgraphics-commons"
+};
+
+/*
+ * Map an old or shorthand project ID onto one that exists, so old links keep
+ * working after the switch to release-catalog keys:
+ *   ossie            -> incubator-ossie   (bare podling name)
+ *   attic-cocoon     -> cocoon            (catalog keys drop the attic- prefix)
+ *   cocoon           -> attic-cocoon      (and the reverse, for old-style data)
+ *   apr-portable_runtime -> apr-portable-runtime (underscores became hyphens)
+ * Returns the ID unchanged if it already exists or nothing matches.
+ */
+function resolveProjectId(id) {
+    if (!id || projects[id] || retiredProjects[id]) return id;
+    if (idAliases[id] && (projects[idAliases[id]] || retiredProjects[idAliases[id]])) return idAliases[id];
+    var bases = [id, id.replace(/_/g, '-')];
+    var cands = [];
+    bases.forEach(function (b) {
+        var bare = b.replace(/^(attic|incubator)-/, '');
+        cands.push(b, bare, 'incubator-' + bare, 'attic-' + bare);
+    });
+    for (var i = 0; i < cands.length; i++) {
+        if (projects[cands[i]] || retiredProjects[cands[i]]) return cands[i];
+    }
+    return id;
+}
+
 function buildProjectPage() {
     var projectId = document.location.search.substr(1);
-    // Podling IDs are prefixed with "incubator-"; accept the bare name too
-    // (e.g. project.html?ossie -> project.html?incubator-ossie)
-    if (projectId && !projects[projectId] && projects["incubator-" + projectId]) {
-        projectId = "incubator-" + projectId;
+    // Accept old or shorthand IDs (bare podling names, attic-foo, old DOAP
+    // IDs) and redirect to the current one; see resolveProjectId()
+    var resolvedId = resolveProjectId(projectId);
+    if (resolvedId !== projectId) {
+        projectId = resolvedId;
         if (window.history && window.history.replaceState) {
             window.history.replaceState(null, "", "project.html?" + projectId + document.location.hash);
         } else {
@@ -416,6 +490,15 @@ function repoToCommittee(reponame) {
         return 'ws';
     }    
     return reponame.split('-')[0];
+}
+
+// Button linking to a project's metadata editor in Apache Trusted Releases (ATR).
+// TODO: only show it to people who can edit (needs a login / ATR permission check).
+// ATR project keys are the release-catalog keys we use as project ids.
+function atrBtn(key, label) {
+    return " &nbsp; <a href='https://releases.apache.org/projects/" + encodeURIComponent(key) + "?tab=metadata' target='_blank'" +
+           " style='display: inline-block; background: #d45500; color: #fff; padding: 3px 10px; border-radius: 4px;" +
+           " text-decoration: none; font-weight: bold; font-size: 90%;'>" + (label || "Edit metadata") + "</a>";
 }
 
 function renderCommitteePage(committeeId) {
@@ -516,7 +599,7 @@ function renderCommitteePage(committeeId) {
     }
     if (subprojects.length == 0) {
        if (committeeId != 'labs') {
-            // if a committee did not declare any project (DOAP), consider there is a default one with the id of the committee
+            // if a committee has no catalog entry, consider there is a default one with the id of the committee
             // only Labs doesn't manage projects
             subprojects.push({ 'id': committeeId, 'name': committee.name, 'pmc': committeeId });
         }
@@ -526,7 +609,8 @@ function renderCommitteePage(committeeId) {
         ul = document.createElement('ul');
         for (var p in subprojects.sort()) {
             p = subprojects[p];
-            appendLiInnerHTML(ul, projectLink(p));
+            appendLiInnerHTML(ul, projectLink(p) +
+                (projects[p] && projects[p].source === 'release-catalog' ? atrBtn(p) : ""));
         }
         obj.appendChild(ul);
     }
@@ -849,14 +933,15 @@ function renderProjectsByCommittee() {
                 if (committees[project.pmc]) {
                     var xlpmc = project.pmc;
                     if (xlpmc == lpmc) {
-                        if (project.doap) {
+                        if (project.doap || project.source === 'release-catalog') {
                             appendLiInnerHTML(cul, projectIcon(project.name) + projectLink(i) + projectDesc(i));
                         } else {
                             c=0;
+                            var addMsg = "not yet in the <a href='https://releases.apache.org/' target='_blank'>Apache Trusted Releases</a> catalog";
                             if (xlpmc == 'incubator') {
-                                appendLiInnerHTML(cul, "<b>"+ project.name + ": please <a href='https://projects.apache.org/create.html'>create a DOAP</a> file</b>");
+                                appendLiInnerHTML(cul, "<b>"+ project.name + ": " + addMsg + "</b>");
                             } else {
-                                appendLiInnerHTML(cul, "<b>Please <a href='https://projects.apache.org/create.html'>create a DOAP</a> file</b>");
+                                appendLiInnerHTML(cul, "<b>Project data " + addMsg + "</b>");
                             }
                         }
                     }
@@ -1069,10 +1154,9 @@ function renderFrontPage() {
     var curPodlings = 0;
     for (i in podlings) curPodlings++;
 
-    // The projects list contains 1 entry for each podling, as well as 1 entry for each DOAP.
-    // Each podling relates to a single project, but a PMC may have one or more projects.
-    // However not all projects may have registered DOAPs.
-    // In order to find these missing projects, we need to find projects that have not registered DOAPs
+    // The projects list contains 1 entry for each podling, as well as 1 entry for each
+    // release-catalog entry. Each podling relates to a single project, but a PMC may have
+    // one or more projects. Committees with no catalog entry are counted as one project each.
 
     var projectsWithDoaps = {}; // ids of projects which have registered DOAPS
     var numProjects = 0; // total projects run by active PMCs
@@ -1901,7 +1985,13 @@ function fixProjectName(project) {
 function weaveInProjects(json, pfx) {
     if (!pfx) { pfx='' }
     for (p in json) {
-        // Since podlings are loaded first, DOAPs take precedence
+        // Retired components (ATR status) are not listed anywhere; keep them
+        // aside so an old link to one still gets a "retired" page.
+        if (json[p] && json[p].status === 'retired') {
+            retiredProjects[pfx+p] = fixProjectName(json[p]);
+            continue;
+        }
+        // Since podlings are loaded first, catalog entries take precedence
         projects[pfx+p] = fixProjectName(json[p]);
     }
 }
@@ -1946,6 +2036,7 @@ function renderReleases(releases) {
 
     $('#releases').dataTable( {
         "data": arr,
+        "order": [[2, "desc"]],   // newest releases first
         "columns": [
             { "title": "ID", "visible": false },
             { "title": "Name" },
@@ -1994,7 +2085,7 @@ function preloadEverything(callback) {
         ["json/foundation/groups.json", "groups", function(json) { unixgroups = json; }],
         ["json/foundation/people_name.json", "people", function(json) { people = json; }],
         ["json/foundation/podlings.json", "podlings", function(json) { podlings = json; weaveInProjects(json,'incubator-')}], // do this first
-        ["json/foundation/projects.json", "projects", weaveInProjects], // so can replace with DOAP data where it exists
+        ["json/foundation/projects.json", "projects", weaveInProjects], // so can replace with catalog data where it exists
         ["json/foundation/committees-retired.json", "retired committees", weaveInRetiredCommittees],
         ["json/foundation/podlings-history.json", "podlings history", function(json) { podlingsHistory = json; }],
         ["json/foundation/repositories.json", "repositories", function(json) { repositories = json; }]

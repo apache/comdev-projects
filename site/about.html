@@ -19,91 +19,83 @@
 <div>
   <h1>About This Website</h1>
   <p>
-    This website is maintained by the 
+    projects.apache.org is a directory of the Apache Software Foundation's committees, projects, podlings and releases.
+    It is maintained by the
     <span itemscope itemprop="author" itemtype="https://schema.org/Organization">
-      <span itemprop="name"><a itemprop="url" href="https://community.apache.org/">Apache Community Development PMC</a></span> which discusses tools on the 
-      <span itemprop="email">tools@community.apache.org</span>
-      <span itemscope itemtype="https://schema.org/ContactPage"><a itemprop="url" href="https://community.apache.org/lists.html">archived mailing list</a></span>.
+      <span itemprop="name"><a itemprop="url" href="https://community.apache.org/">Apache Community Development PMC</a></span>,
+      which discusses it on <span itemprop="email">dev@community.apache.org</span>
+      (<span itemscope itemtype="https://schema.org/ContactPage"><a itemprop="url" href="https://lists.apache.org/list.html?dev@community.apache.org">archives</a></span>).
     </span>
   </p>
-  <p>
-    The primary content for this website is in static HTML, and uses a variety of cronjobs, JavaScript, and other tools to dynamically display the data and provide it in <a href="json/">structured json files</a>.
-    <br/>
-    The underlying sources are stored in a Subversion repository at: <pre itemscope itemtype="https://schema.org/SoftwareSourceCode" style="border:1px solid #999; padding: 12px; margin: 1em 7px 1em 7px;">svn co <a itemprop="codeRepository" href="https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/">https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/</a></pre>
-    with Git mirror at <code><a href="https://github.com/apache/comdev-projects">https://github.com/apache/comdev-projects</a></code>.
-    <br/>
-    Changes checked into the HTML are reflected immediately on the production server.
-  </p>
 
-  <h2>PMC RDF files</h2>
-  <p>To Be Described more in details = <code>data/committees.xml</code> pointing to files in <code>data/committees/</code> in <a href="https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/">svn</a>
-    (see <a href="https://github.com/apache/comdev-projects/blob/trunk/data/committees.xml">Git mirror</a>)</p>
+  <h2 id="data">Where the data comes from</h2>
+  <p>Nothing on this site is entered by hand here. Nightly jobs collect it from the ASF's authoritative sources:</p>
+  <table border="1" cellpadding="6" style="border-collapse: collapse; margin: 1em 0;">
+    <tr><th>Data</th><th>Source</th></tr>
+    <tr><td>Projects: names, descriptions, homepages, repositories, bug trackers, mailing lists, categories, languages, releases, active/retired status</td>
+        <td>The <a href="https://release-catalog.apache.org/project_releases.json">ASF release catalog</a> and
+            <a href="https://releases.apache.org/">Apache Trusted Releases</a> (ATR)</td></tr>
+    <tr><td>Committees: chairs, rosters, charters, reporting schedules, established and retired dates</td>
+        <td><a href="https://whimsy.apache.org/public/">Whimsy</a> (<code>committee-info.json</code>) and the
+            <a href="pmc_rdf.html">PMC data files</a> in <code>data/committees/</code></td></tr>
+    <tr><td>Committers and groups</td>
+        <td><a href="https://whimsy.apache.org/public/">Whimsy</a> public LDAP data</td></tr>
+    <tr><td>Podlings</td>
+        <td>The Incubator's <a href="https://incubator.apache.org/podlings.xml">podlings.xml</a></td></tr>
+    <tr><td>Source repositories</td>
+        <td><a href="https://gitbox.apache.org/repositories.json">GitBox</a> and <a href="https://svn.apache.org/repos/asf/">ASF Subversion</a></td></tr>
+  </table>
+  <p>Retired projects and Attic projects are not listed, although old links to them still lead to a page marked "Retired".</p>
 
-  <h2>DOAP files</h2>
+  <h2 id="update">Updating your project's information</h2>
   <p>
-    The data for individual projects is stored in <a href="doap.html">DOAP files</a>.
-    (<b>D</b>escription <b>O</b>f <b>A</b> <b>P</b>roject).<br>
-    Project DOAP files are created and maintained by PMCs. When no DOAP file is provided by PMC, a virtual project (without DOAP) is associated based on PMC RDF data:
-    see <a href="projects.html?category#no-tlp-doap">Projects in <code>no-tlp-doap</code> category</a>.
+    Project information is maintained by each project's committers in <a href="https://releases.apache.org/">Apache Trusted Releases</a>.
+    Each project page has an <b>Edit metadata</b> button that goes to the right place
+    (<code>https://releases.apache.org/projects/&lt;key&gt;?tab=metadata</code>, where the key is the id in the project page's address).
   </p>
   <p>
-    There is a <a href="doap.html">description of DOAP files</a>.
-    This includes a link to a tool to create an initial DOAP for a project.
+    Alternatively, put a <code>project: metadata:</code> block in your Git repository's <code>.asf.yaml</code> and ATR will keep itself in sync
+    (see the <a href="https://github.com/apache/infrastructure-asfyaml#project-metadata">.asf.yaml documentation</a>).
+    Projects that still keep a <a href="doap.html">DOAP file</a> can point ATR at it from <code>.asf.yaml</code> instead.
   </p>
   <p>
-    Once a DOAP has been created, it should be stored in a suitable place in a PMC repo.<br>
-    Then add the URL for the DOAP to the file
-    <a href="https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects.xml">data/projects.xml</a>
-    in SVN (see <a href="https://github.com/apache/comdev-projects/blob/trunk/data/projects.xml">Git mirror</a>).<br>
-    If using Git, please ensure the URL points to the plain DOAP file, not some HTML version.
-    The raw link will look something like:
-    <code>https://raw.githubusercontent.com/apache/{projectrepo}/main/doap_{project}.rdf</code>
+    Releases appear automatically once they are in the release catalog; there is nothing extra to record.
+    Changes reach this site the following day.
   </p>
+  <p>Not a committer? Suggest the change on the project's dev mailing list.</p>
 
+  <h2>How the site works</h2>
   <p>
-    The <a href="validation-report.html">Validation Report</a> page shows
-    data quality warnings from the nightly DOAP parsing run, including
-    missing DOAP files, unrecognized category or programming language
-    values, and capitalization mismatches. PMCs can use this to check
-    and correct their DOAP entries.
+    Python cronjobs fetch the sources above and write <a href="json/">JSON files</a>, which are committed to Subversion.
+    The pages are static HTML; JavaScript reads the JSON and draws the listings and charts.
+    The JSON files are public, so other tools are welcome to use them.
   </p>
-
-  <h2>How The Code Works</h2>
-  <p>The data about Apache projects on this site is generated at least daily by cronjobs running Python scripts from various data sources.
-    Various cronjobs check authoritative ASF data sources for updates, and then cache data needed by this website (and possibly other websites) in 
-    a variety of JSON files that are checked into a Subversion repository for safety and simplicity of backups.
-    This site then uses JavaScript and a variety of visualization tools to dynamically display charts and listings of Apache project metadata. 
-  <ol>
-    <li>Organizational information about Apache project <a href="https://www.apache.org/foundation/#who-runs-the-asf">committees</a> and <a href="https://home.apache.org/phonebook.html">people</a>,</li>
-    <li><a href="pmc_rdf.html">PMC RDF data files</a> in the <a href="https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees">data/committees</a> directory.
-    <br>
-    PMCs can maintain their own data files instead: replace the the default "committees/pmc-name.rdf" entry with your URL in this file:
-    <br>
-    <a href="https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees.xml">https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees.xml</a>
-    </li>
-    <li>Project DOAP files listed in <a href="https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects.xml">https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects.xml</a><br/>
-        <a href="doap.html">DOAP files</a> are maintained by the projects themselves.
-    </li>
-    <li>Extracted content is stored for easy reuse in <a href="json/">structured json files</a>.</li>
-    <li>Technical details about the code are in <a href="https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/STRUCTURE.txt">STRUCTURE.txt</a>
-    </li>
-  </ol>
-  <p>You can ask us questions on the <a href="mailto:tools@community.apache.org">tools@community.apache.org</a> mailing list, or <a href="https://lists.apache.org/list.html?tools@community.apache.org">read the mail archives</a> online.</p>
-  
-  <h2>Reporting issues</h2>
-    <p>To report a specific problem with the website, create a <a href="https://issues.apache.org/jira/issues/?jql=project+%3D+COMDEV+AND+component+%3D+%22Projects+Tool%22">COMDEV Jira issue in the "Projects" component</a>.</p>
-    <p>Note that the data shown by the website is maintained by individual PMCs, not COMDEV, so please contact the relevant PMC with such issues.</p>
-  
-  <h1>Learn More About The ASF</h1>
-  <p>This site is one of a galaxy of sites where you can find out more
-  information about the Apache Software Foundation (ASF). See also:
-  </p>
-
   <ul>
-    <li><a href="https://www.apache.org/foundation/">The Apache Software Foundation</a> - all about the ASF</li>
-    <li><a href="https://community.apache.org/">Apache Community Development</a> - How to get involved and stay involved</li>
-    <li><a href="https://www.apache.org/dev/">Technical information about tools</a> - Pointers to the various tools (mail, SVN, git, etc.) Apache projects use</li>
-    <li><a href="https://whimsy.apache.org/board/minutes/">Board of Director Minutes</a> - for official records of the ASF board and all projects</li>
+    <li><code>parsecatalog.py</code>: projects and releases, from the release catalog and ATR</li>
+    <li><code>parsecommitteeinfo.py</code>: committees, from Whimsy and the PMC data files</li>
+    <li><code>parsecommitters.py</code>: people and groups, from Whimsy</li>
+    <li><code>podlings.py</code>: podlings, from the Incubator</li>
+    <li><code>generaterepos.py</code>: source repositories</li>
+    <li><code>buildchooser.py</code>: data for the <a href="chooser.html">"Help me choose a project"</a> page</li>
+  </ul>
+  <p>Details are in <a href="https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/scripts/README.txt">scripts/README.txt</a>
+     and <a href="https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/STRUCTURE.txt">STRUCTURE.txt</a>.</p>
+
+  <h2>Source code</h2>
+  <pre itemscope itemtype="https://schema.org/SoftwareSourceCode" style="border:1px solid #999; padding: 12px; margin: 1em 7px 1em 7px;">svn co <a itemprop="codeRepository" href="https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/">https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/</a></pre>
+  <p>Git mirror: <code><a href="https://github.com/apache/comdev-projects">https://github.com/apache/comdev-projects</a></code>.
+     Changes committed to the HTML appear on the live site immediately.</p>
+
+  <h2>Reporting problems</h2>
+  <p>Problems with the site itself: open a <a href="https://issues.apache.org/jira/issues/?jql=project+%3D+COMDEV+AND+component+%3D+%22Projects+Tool%22">COMDEV Jira issue in the "Projects Tool" component</a>, or write to <a href="mailto:dev@community.apache.org">dev@community.apache.org</a>.</p>
+  <p>Wrong information about a project: the project's committers can fix it in ATR (see <a href="#update">above</a>). ComDev doesn't maintain project data.</p>
+
+  <h1>Learn More About The ASF</h1>
+  <ul>
+    <li><a href="https://www.apache.org/foundation/">The Apache Software Foundation</a>: all about the ASF</li>
+    <li><a href="https://community.apache.org/">Apache Community Development</a>: how to get involved and stay involved</li>
+    <li><a href="https://infra.apache.org/">Apache Infrastructure</a>: the tools (mail, Git, SVN, CI) Apache projects use</li>
+    <li><a href="https://whimsy.apache.org/board/minutes/">Board minutes</a>: official records of the ASF board and all projects</li>
   </ul>
 </div>
 <div id="footer">

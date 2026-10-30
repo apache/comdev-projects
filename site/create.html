@@ -87,6 +87,15 @@
 <!-- CONTENT -->
 
 <h2>Create an ASF DOAP File</h2>
+<div style="background:#fff3cd;border:1px solid #e0c36b;border-radius:6px;padding:10px 14px;margin:1em 0;">
+<b>Project data now comes from the ASF release catalog.</b> projects.apache.org no longer reads DOAP files.
+To change your project's name, description, links, categories, languages or releases, edit it in
+<a href="https://releases.apache.org/">Apache Trusted Releases</a> (<code>releases.apache.org/projects/&lt;key&gt;?tab=metadata</code>;
+the key is shown in your project page's address) or in the <code>project: metadata:</code> block of your repository's
+<a href="https://github.com/apache/infrastructure-asfyaml#project-metadata">.asf.yaml</a>.
+An existing DOAP file can still feed ATR via <code>metadata: doap: &lt;url&gt;</code>.
+</div>
+<p><i>This editor is kept for projects that still want a DOAP file, for example to link from <code>.asf.yaml</code>.</i></p>
 <div>
 <p>To be listed on this site, your Apache project must create a <a href="doap.html">DOAP
 file</a>.  The DOAP format is RDF based, so while it is human readable,

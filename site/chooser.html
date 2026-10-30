@@ -41,11 +41,11 @@
 
 <div id="contents">
  <div id="chooser">
-  <p class="mock"><b>Draft / mock-up.</b> Recommendations are built from the projects' own
-   <a href="doap.html">DOAP files</a> and foundation data. If your project is missing or
-   mis-described, <a href="create.html">update its DOAP</a> (programming-language, category, description).</p>
+  <p class="mock">Recommendations are built from the
+   <a href="https://release-catalog.apache.org/project_releases.json">ASF release catalog</a> and foundation data. If your project is missing or
+   mis-described, its committers can update its metadata (programming languages, categories, description) in <a href="https://releases.apache.org/">Apache Trusted Releases</a>.</p>
   <h1>Help me choose a project</h1>
-  <p>Answer a few questions and we'll suggest Apache projects you might enjoy contributing to.
+  <p>Answer a few questions and we'll suggest Apache project communities you might enjoy contributing to. Each committee or podling appears once, even if it makes many separate releases.
    You don't need to write code to contribute - projects need documentation, testing, user
    support, design, translation and outreach just as much. Skip anything you don't care about.</p>
   <div class="progress"><div id="prog" style="width:0"></div></div>
@@ -68,7 +68,7 @@
  * - The next question is the unanswered one that best splits the projects
  *   still in contention (a greedy decision tree, rebuilt from the data).
  * - Answers are soft: a project scores a point per matched question, so
- *   projects with incomplete DOAP data aren't thrown out entirely.
+ *   projects with incomplete metadata aren't thrown out entirely.
  * - We stop when few enough projects remain, or questions run out.
  */
 const STOP_AT = 8, SHOW = 12;
@@ -149,7 +149,7 @@ function render() {
         <button class="btn sec" id="skip">Skip / no preference</button>
         ${history.length ? '<button class="btn sec" id="back">Back</button>' : ''}
         <button class="btn sec" id="now">Show matches now</button>
-        <span class="remaining">${cands.length} projects match so far</span>
+        <span class="remaining">${cands.length} communities match so far</span>
       </div></div>` + answerSummary();
 
   $s().querySelectorAll('.opt').forEach(el => el.onclick = () => {
@@ -227,7 +227,7 @@ function gettingStarted() {
 fetch('json/foundation/chooser.json').then(r => r.json()).then(d => {
   DATA = d;
   document.getElementById('generated').textContent =
-    `${d.projects.length} projects · data generated ${d.generated}`;
+    `${d.projects.length} communities (committees and podlings) · data generated ${d.generated}`;
   render();
 }).catch(e => { $s().textContent = 'Could not load project data: ' + e; });
 </script>

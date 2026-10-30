@@ -30,12 +30,29 @@ various sources:
   out: site/json/foundation/podlings.json + site/json/foundation/podlings-history.json
   Current list of podlings (podlings.json) and ended podlings (podlings-history.json)
 
-- parsereleases.py
+- parsecatalog.py: builds project and release data from the ASF release catalog,
+  which Tooling has designated the authoritative source. Replaces the old
+  parseprojects.py and parsereleases.py. Until the crontab (Infra's P6 repo) is
+  updated, those names are kept as shims: parseprojects.py runs parsecatalog.py
+  then buildchooser.py; parsereleases.py does nothing.
+  Edit project metadata in ATR: https://releases.apache.org/projects/<key>?tab=metadata
+  (or via the project: metadata: block in .asf.yaml).
+  Run after parsecommitteeinfo.py (uses committees.json / committees-retired.json).
+  in: https://release-catalog.apache.org/project_releases.json
+    + site/json/foundation/committees.json, committees-retired.json
+    + site/validation.json (category/language spellings)
+  out: site/json/projects/*.json - one file per catalog key
+     + site/json/foundation/projects.json - combined listing
+     + site/json/foundation/releases.json - { committee: { name-version: date } }
+     + site/json/foundation/catalog-report.json - new/dropped ids, stubs, warnings
+  Options: --dry-run (write nothing), --file X.json (use a local catalog copy)
+
+- parsereleases.py (superseded by parsecatalog.py)
   in: http://www.apache.org/dist/
   out: json/foundation/releases.json
      + json/foundation/releases-files.json
 
-- parseprojects.py: Parses existing projects RDF(DOAP) files and turns them into JSON objects.
+- parseprojects.py (superseded by parsecatalog.py): Parses existing projects RDF(DOAP) files and turns them into JSON objects.
   in: data/projects.xml + projects' DOAP files
   out: site/json/projects/*.json - JSON versions of DOAP files
      + site/json/foundation/projects.json - combined listing of all projects
@@ -43,6 +60,6 @@ various sources:
 
 - buildchooser.py: builds the data for the "Help me choose a project" page (site/chooser.html).
   Question options are derived from the data, so the question tree updates as PMCs edit DOAPs.
-  Run after parseprojects.py and parsereleases.py.
+  Run after parsecatalog.py. Keeps one entry per committee (podlings separately).
   in: site/json/foundation/{projects,committees,podlings,releases,groups}.json
   out: site/json/foundation/chooser.json

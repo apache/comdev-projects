@@ -154,12 +154,32 @@ def main():
                 pass
         return max(dates) if dates else None
 
+    # The release catalog has one entry per releasable component (100+ for
+    # Maven or Sling). A newcomer chooses a community, not a plugin, so keep
+    # one entry per committee: the one keyed by the committee id, else the
+    # one with the most releases. Podlings are their own committee here.
+    def owner(pid, p):
+        pmc = p.get('pmc', '')
+        return pid if pmc == 'incubator' else pmc
+    best = {}
+    for pid, p in projects.items():
+        if p.get('status') == 'retired':
+            continue                    # never pick a retired component as the committee's entry
+        o = owner(pid, p)
+        rels = p.get('release') or []
+        score = (pid == o, len(rels) if isinstance(rels, list) else 1, -len(pid))
+        if o not in best or score > best[o][0]:
+            best[o] = (score, pid)
+    keep = {pid for _, pid in best.values()}
+    projects = {pid: p for pid, p in projects.items() if pid in keep}
+
     records = []
     seen_pmcs = set()
     for pid, p in projects.items():
         cats = [c.lower() for c in as_list(p.get('category'))]
         pmc = p.get('pmc', '')
-        if SKIP_CATEGORIES & set(cats) or pid.startswith('attic-') or pmc == 'attic':
+        if (SKIP_CATEGORIES & set(cats) or pid.startswith('attic-') or pmc == 'attic'
+                or p.get('status') == 'retired'):
             continue
         if pmc not in committees and pmc != 'incubator':
             continue      # retired committee
@@ -169,7 +189,7 @@ def main():
                         for l in as_list(p.get('programming-language'))})
         committers = len(groups.get(pmc, [])) or None
         est = (committees.get(pmc) or {}).get('established', '')
-        rel = last_release(pid) or last_release(pmc)
+        rel = last_release(pmc) or last_release(pid)   # newest release of anything the committee ships
         records.append({
             'id': pid,
             'name': p.get('name', pid),
