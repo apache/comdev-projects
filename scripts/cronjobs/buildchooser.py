@@ -187,7 +187,9 @@ def main():
         text = ' '.join(str(p.get(k) or '') for k in ('name', 'shortdesc', 'description'))
         langs = sorted({LANGUAGES.get(l.lower(), 'Other')
                         for l in as_list(p.get('programming-language'))})
-        committers = len(groups.get(pmc, [])) or None
+        # podlings have their own group; 'incubator' is the whole Incubator
+        group = pid[len('incubator-'):] if pmc == 'incubator' else pmc
+        committers = len(groups.get(group, [])) or None
         est = (committees.get(pmc) or {}).get('established', '')
         rel = last_release(pmc) or last_release(pid)   # newest release of anything the committee ships
         records.append({
@@ -212,13 +214,14 @@ def main():
         if any(r['id'] == pid or r['id'] == 'incubator-' + pid for r in records):
             continue
         text = (p.get('name') or '') + ' ' + (p.get('description') or '')
+        committers = len(groups.get(pid, [])) or None
         records.append({
             'id': pid, 'name': p.get('name', pid),
             'desc': ' '.join((p.get('description') or '').split())[:300],
             'homepage': p.get('homepage'), 'pmc': 'incubator', 'podling': True,
             'language': [], 'area': classify([], text, AREAS), 'kind': classify([], text, KINDS),
-            'maturity': ['incubating'], 'size': [], 'activity': [],
-            'lastRelease': None, 'committers': None,
+            'maturity': ['incubating'], 'size': [size_bucket(committers)] if committers else [],
+            'activity': [], 'lastRelease': None, 'committers': committers,
         })
 
     def opts(field, labels):
