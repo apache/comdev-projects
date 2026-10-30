@@ -39,6 +39,7 @@ various sources:
   (or via the project: metadata: block in .asf.yaml).
   Run after parsecommitteeinfo.py (uses committees.json / committees-retired.json).
   in: https://release-catalog.apache.org/project_releases.json
+    + https://release-catalog.apache.org/podling_releases.json (current podlings, as incubator-<id>)
     + site/json/foundation/committees.json, committees-retired.json
     + site/validation.json (category/language spellings)
   out: site/json/projects/*.json - one file per catalog key

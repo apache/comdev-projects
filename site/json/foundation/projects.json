@@ -63741,14 +63741,709 @@
 "source": "release-catalog",
 "status": "active"
 },
-"incubator": {
-"category": [
-"no-catalog-entry"
+"incubator-amoro": {
+"created": "2025-05-16",
+"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"maintainer": [
+{
+"mbox": "mailto:dev@amoro.apache.org",
+"name": "Apache Amoro PPMC"
+}
 ],
-"homepage": "https://incubator.apache.org/",
-"name": "Apache Incubator",
+"name": "Apache Amoro",
 "pmc": "incubator",
-"source": "committees.json"
+"release": [
+{
+"created": "2025-08-28",
+"name": "Apache Amoro",
+"revision": "0.8.1-incubating"
+},
+{
+"created": "2025-04-23",
+"name": "Apache Amoro",
+"revision": "0.8.0-incubating"
+},
+{
+"created": "2024-11-11",
+"name": "Apache Amoro",
+"revision": "0.7.1-incubating"
+},
+{
+"created": "2024-07-16",
+"name": "Apache Amoro",
+"revision": "0.7.0-incubating"
+}
+],
+"source": "release-catalog",
+"status": "active"
+},
+"incubator-asyncband": {
+"bug-database": "https://github.com/apache/asyncband/issues",
+"created": "2026-08-19",
+"description": "Asyncband is a focused collection of composable, runtime-agnostic concurrency building blocks for async Rust. It provides synchronization, initialization, task coordination, channels, resource reuse, and workload control without choosing an executor for the application.",
+"download-page": "https://asyncband.apache.org/downloads/",
+"homepage": "https://asyncband.apache.org/",
+"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"mailing-list": "https://lists.apache.org/list.html?dev@asyncband.apache.org",
+"maintainer": [
+{
+"mbox": "mailto:dev@asyncband.apache.org",
+"name": "Apache Asyncband PPMC"
+}
+],
+"name": "Apache Asyncband",
+"pmc": "incubator",
+"programming-language": [
+"Rust"
+],
+"release": [
+{
+"created": "2026-10-25",
+"name": "Apache Asyncband",
+"revision": "0.7.4"
+},
+{
+"created": "2026-09-30",
+"name": "Apache Asyncband",
+"revision": "0.7.3"
+},
+{
+"created": "2026-09-10",
+"name": "Apache Asyncband",
+"revision": "0.7.2"
+}
+],
+"repository": [
+"https://github.com/apache/asyncband.git"
+],
+"source": "release-catalog",
+"status": "active"
+},
+"incubator-bifromq": {
+"created": "2025-05-16",
+"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"maintainer": [
+{
+"mbox": "mailto:dev@bifromq.apache.org",
+"name": "Apache BifroMQ PPMC"
+}
+],
+"name": "Apache BifroMQ",
+"pmc": "incubator",
+"release": [
+{
+"created": "2025-12-30",
+"name": "Apache BifroMQ",
+"revision": "4.0.0-incubating"
+}
+],
+"source": "release-catalog",
+"status": "active"
+},
+"incubator-burr": {
+"created": "2025-05-26",
+"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"maintainer": [
+{
+"mbox": "mailto:dev@burr.apache.org",
+"name": "Apache Burr PPMC"
+}
+],
+"name": "Apache Burr",
+"pmc": "incubator",
+"release": [
+{
+"created": "2026-08-25",
+"name": "Apache Burr",
+"revision": "0.43.0"
+},
+{
+"created": "2026-04-26",
+"name": "Apache Burr",
+"revision": "0.42.0-incubating"
+},
+{
+"created": "2026-01-11",
+"name": "Apache Burr",
+"revision": "0.41.0-incubating"
+}
+],
+"source": "release-catalog",
+"status": "active"
+},
+"incubator-caldera": {
+"created": "2025-12-20",
+"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"maintainer": [
+{
+"mbox": "mailto:dev@caldera.apache.org",
+"name": "Apache Caldera PPMC"
+}
+],
+"name": "Apache Caldera",
+"pmc": "incubator",
+"source": "release-catalog",
+"status": "active"
+},
+"incubator-casbin": {
+"created": "2026-02-24",
+"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"maintainer": [
+{
+"mbox": "mailto:dev@casbin.apache.org",
+"name": "Apache Casbin PPMC"
+}
+],
+"name": "Apache Casbin",
+"pmc": "incubator",
+"release": [
+{
+"created": "2026-10-13",
+"name": "Apache Casbin",
+"revision": "1.9.0-incubating"
+},
+{
+"created": "2026-08-18",
+"name": "Apache Casbin",
+"revision": "3.11.0-incubating"
+}
+],
+"source": "release-catalog",
+"status": "active"
+},
+"incubator-cloudberry": {
+"created": "2025-05-16",
+"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"maintainer": [
+{
+"mbox": "mailto:dev@cloudberry.apache.org",
+"name": "Apache Cloudberry PPMC"
+}
+],
+"name": "Apache Cloudberry",
+"pmc": "incubator",
+"release": [
+{
+"created": "2026-04-13",
+"name": "Apache Cloudberry",
+"revision": "2.1.0-incubating"
+},
+{
+"created": "2025-08-25",
+"name": "Apache Cloudberry",
+"revision": "2.0.0-incubating"
+}
+],
+"source": "release-catalog",
+"status": "active"
+},
+"incubator-fesod": {
+"bug-database": "https://github.com/apache/fesod/issues",
+"created": "2025-09-19",
+"description": "Apache Fesod (Incubating) is a high-performance and memory-efficient Java library for reading and writing spreadsheet files, designed to simplify development and ensure reliability.\r\n\r\nApache Fesod (Incubating) can provide developers and enterprises with great freedom and flexibility. We plan to introduce more new features in the future to continually enhance user experience and tool usability. Apache Fesod ( Incubating) is committed to being your best choice for handling spreadsheet files.",
+"download-page": "https://fesod.apache.org/docs/download",
+"homepage": "https://fesod.apache.org/",
+"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"mailing-list": "https://fesod.apache.org/community",
+"maintainer": [
+{
+"mbox": "mailto:dev@fesod.apache.org",
+"name": "Apache Fesod PPMC"
+}
+],
+"name": "Apache Fesod",
+"pmc": "incubator",
+"release": [
+{
+"created": "2026-10-07",
+"name": "Apache Fesod",
+"revision": "2.1.0-incubating"
+},
+{
+"created": "2026-05-16",
+"name": "Apache Fesod",
+"revision": "2.0.2-incubating"
+},
+{
+"created": "2026-01-28",
+"name": "Apache Fesod",
+"revision": "2.0.1-incubating"
+},
+{
+"created": "2026-01-14",
+"name": "Apache Fesod",
+"revision": "2.0.0-incubating"
+}
+],
+"repository": [
+"https://github.com/apache/fesod.git"
+],
+"shortdesc": "Fast. Easy. Done. Processing spreadsheets without worrying about large files causing OOM.",
+"source": "release-catalog",
+"status": "active"
+},
+"incubator-geaflow": {
+"created": "2025-06-09",
+"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"maintainer": [
+{
+"mbox": "mailto:dev@geaflow.apache.org",
+"name": "Apache GeaFlow PPMC"
+}
+],
+"name": "Apache GeaFlow",
+"pmc": "incubator",
+"release": [
+{
+"created": "2026-06-10",
+"name": "Apache GeaFlow",
+"revision": "0.8.0-incubating"
+},
+{
+"created": "2025-11-06",
+"name": "Apache GeaFlow",
+"revision": "0.7.0-incubating"
+}
+],
+"source": "release-catalog",
+"status": "active"
+},
+"incubator-graphar": {
+"created": "2025-05-16",
+"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"maintainer": [
+{
+"mbox": "mailto:dev@graphar.apache.org",
+"name": "Apache GraphAr PPMC"
+}
+],
+"name": "Apache GraphAr",
+"pmc": "incubator",
+"release": [
+{
+"created": "2025-08-19",
+"name": "Apache GraphAr",
+"revision": "0.13.0-incubating"
+},
+{
+"created": "2024-06-07",
+"name": "Apache GraphAr",
+"revision": "0.12.0-incubating"
+}
+],
+"source": "release-catalog",
+"status": "active"
+},
+"incubator-hamilton": {
+"created": "2025-05-16",
+"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"maintainer": [
+{
+"mbox": "mailto:dev@hamilton.apache.org",
+"name": "Apache Hamilton PPMC"
+}
+],
+"name": "Apache Hamilton",
+"pmc": "incubator",
+"release": [
+{
+"created": "2026-07-14",
+"name": "Apache Hamilton",
+"revision": "0.9.0-incubating"
+},
+{
+"created": "2026-07-14",
+"name": "Apache Hamilton",
+"revision": "0.2.0-incubating"
+},
+{
+"created": "2026-07-14",
+"name": "Apache Hamilton",
+"revision": "0.0.9-incubating"
+},
+{
+"created": "2026-07-14",
+"name": "Apache Hamilton",
+"revision": "0.0.18-incubating"
+},
+{
+"created": "2026-04-25",
+"name": "Apache Hamilton",
+"revision": "1.90.0-incubating"
+},
+{
+"created": "2025-10-11",
+"name": "Apache Hamilton",
+"revision": "1.89.0-incubating"
+}
+],
+"source": "release-catalog",
+"status": "active"
+},
+"incubator-kie": {
+"created": "2025-05-16",
+"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"maintainer": [
+{
+"mbox": "mailto:dev@kie.apache.org",
+"name": "Apache KIE PPMC"
+}
+],
+"name": "Apache KIE",
+"pmc": "incubator",
+"release": [
+{
+"created": "2026-03-29",
+"name": "Apache KIE",
+"revision": "10.2.0-incubating"
+},
+{
+"created": "2025-07-08",
+"name": "Apache KIE",
+"revision": "10.1.0-incubating"
+},
+{
+"created": "2024-12-09",
+"name": "Apache KIE",
+"revision": "10.0.0-incubating"
+}
+],
+"source": "release-catalog",
+"status": "active"
+},
+"incubator-maka": {
+"created": "2026-08-15",
+"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"maintainer": [
+{
+"mbox": "mailto:dev@maka.apache.org",
+"name": "Apache Maka PPMC"
+}
+],
+"name": "Apache Maka",
+"pmc": "incubator",
+"release": [
+{
+"created": "2026-10-30",
+"name": "Apache Maka",
+"revision": "0.2.2-incubating"
+},
+{
+"created": "2026-10-07",
+"name": "Apache Maka",
+"revision": "0.2.0-incubating"
+}
+],
+"source": "release-catalog",
+"status": "active"
+},
+"incubator-nullaway": {
+"created": "2026-09-30",
+"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"maintainer": [
+{
+"mbox": "mailto:dev@nullaway.apache.org",
+"name": "Apache NullAway PPMC"
+}
+],
+"name": "Apache NullAway",
+"pmc": "incubator",
+"source": "release-catalog",
+"status": "active"
+},
+"incubator-openserverless": {
+"created": "2025-05-16",
+"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"maintainer": [
+{
+"mbox": "mailto:dev@openserverless.apache.org",
+"name": "Apache OpenServerless PPMC"
+}
+],
+"name": "Apache OpenServerless",
+"pmc": "incubator",
+"source": "release-catalog",
+"status": "active"
+},
+"incubator-ossie": {
+"created": "2026-06-26",
+"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"maintainer": [
+{
+"mbox": "mailto:dev@ossie.apache.org",
+"name": "Apache Ossie PPMC"
+}
+],
+"name": "Apache Ossie",
+"pmc": "incubator",
+"source": "release-catalog",
+"status": "active"
+},
+"incubator-otava": {
+"created": "2025-05-16",
+"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"maintainer": [
+{
+"mbox": "mailto:dev@otava.apache.org",
+"name": "Apache Otava PPMC"
+}
+],
+"name": "Apache Otava",
+"pmc": "incubator",
+"release": [
+{
+"created": "2026-05-08",
+"name": "Apache Otava",
+"revision": "0.8.0-incubating"
+},
+{
+"created": "2025-12-12",
+"name": "Apache Otava",
+"revision": "0.7.0-incubating"
+},
+{
+"created": "2025-07-07",
+"name": "Apache Otava",
+"revision": "0.6.1-incubating"
+},
+{
+"created": "2025-06-28",
+"name": "Apache Otava",
+"revision": "0.6.0-incubating"
+}
+],
+"source": "release-catalog",
+"status": "active"
+},
+"incubator-ozhera": {
+"created": "2025-05-16",
+"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"maintainer": [
+{
+"mbox": "mailto:dev@ozhera.apache.org",
+"name": "Apache OzHera PPMC"
+}
+],
+"name": "Apache OzHera",
+"pmc": "incubator",
+"release": [
+{
+"created": "2026-06-05",
+"name": "Apache OzHera",
+"revision": "2.2.6-incubating"
+},
+{
+"created": "2025-02-28",
+"name": "Apache OzHera",
+"revision": "2.2.5-incubating"
+}
+],
+"source": "release-catalog",
+"status": "active"
+},
+"incubator-pegasus": {
+"created": "2025-05-16",
+"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"maintainer": [
+{
+"mbox": "mailto:dev@pegasus.apache.org",
+"name": "Apache Pegasus PPMC"
+}
+],
+"name": "Apache Pegasus",
+"pmc": "incubator",
+"release": [
+{
+"created": "2023-12-11",
+"name": "Apache Pegasus",
+"revision": "2.5.0-incubating"
+},
+{
+"created": "2022-10-30",
+"name": "Apache Pegasus",
+"revision": "2.4.0-incubating"
+},
+{
+"created": "2021-11-26",
+"name": "Apache Pegasus",
+"revision": "2.3.0-incubating"
+},
+{
+"created": "2021-06-27",
+"name": "Apache Pegasus",
+"revision": "2.2.0-incubating"
+},
+{
+"created": "2020-11-30",
+"name": "Apache Pegasus",
+"revision": "2.1.0-incubating"
+}
+],
+"source": "release-catalog",
+"status": "active"
+},
+"incubator-pouchdb": {
+"created": "2025-05-16",
+"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"maintainer": [
+{
+"mbox": "mailto:dev@pouchdb.apache.org",
+"name": "Apache PouchDB PPMC"
+}
+],
+"name": "Apache PouchDB",
+"pmc": "incubator",
+"source": "release-catalog",
+"status": "active"
+},
+"incubator-seata": {
+"created": "2025-05-16",
+"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"maintainer": [
+{
+"mbox": "mailto:dev@seata.apache.org",
+"name": "Apache Seata PPMC"
+}
+],
+"name": "Apache Seata",
+"pmc": "incubator",
+"release": [
+{
+"created": "2026-01-28",
+"name": "Apache Seata",
+"revision": "2.6.0-incubating"
+},
+{
+"created": "2025-07-23",
+"name": "Apache Seata",
+"revision": "2.5.0-incubating"
+},
+{
+"created": "2025-06-27",
+"name": "Apache Seata",
+"revision": "2.4.0-incubating"
+},
+{
+"created": "2025-02-26",
+"name": "Apache Seata",
+"revision": "2.3.0-incubating"
+},
+{
+"created": "2024-09-25",
+"name": "Apache Seata",
+"revision": "2.2.0-incubating"
+},
+{
+"created": "2024-08-05",
+"name": "Apache Seata",
+"revision": "2.1.0-incubating"
+}
+],
+"source": "release-catalog",
+"status": "active"
+},
+"incubator-texera": {
+"created": "2025-05-16",
+"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"maintainer": [
+{
+"mbox": "mailto:dev@texera.apache.org",
+"name": "Apache Texera PPMC"
+}
+],
+"name": "Apache Texera",
+"pmc": "incubator",
+"release": [
+{
+"created": "2026-08-11",
+"name": "Apache Texera",
+"revision": "1.2.0-incubating"
+},
+{
+"created": "2026-05-06",
+"name": "Apache Texera",
+"revision": "1.1.0-incubating"
+}
+],
+"source": "release-catalog",
+"status": "active"
+},
+"incubator-toree": {
+"created": "2025-05-16",
+"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"maintainer": [
+{
+"mbox": "mailto:dev@toree.apache.org",
+"name": "Apache Toree PPMC"
+}
+],
+"name": "Apache Toree",
+"pmc": "incubator",
+"release": [
+{
+"created": "2022-02-16",
+"name": "Apache Toree",
+"revision": "0.5.0-incubating"
+},
+{
+"created": "2020-07-16",
+"name": "Apache Toree",
+"revision": "0.4.0-incubating"
+},
+{
+"created": "2020-07-03",
+"name": "Apache Toree",
+"revision": "0.3.0-incubating"
+},
+{
+"created": "2020-07-03",
+"name": "Apache Toree",
+"revision": "0.2.0-incubating"
+},
+{
+"created": "2020-07-03",
+"name": "Apache Toree",
+"revision": "0.1.0-incubating"
+}
+],
+"source": "release-catalog",
+"status": "active"
+},
+"incubator-xtable": {
+"created": "2025-05-16",
+"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"maintainer": [
+{
+"mbox": "mailto:dev@xtable.apache.org",
+"name": "Apache XTable PPMC"
+}
+],
+"name": "Apache XTable",
+"pmc": "incubator",
+"release": [
+{
+"created": "2026-08-24",
+"name": "Apache XTable",
+"revision": "0.4.0-incubating"
+},
+{
+"created": "2025-06-04",
+"name": "Apache XTable",
+"revision": "0.3.0-incubating"
+},
+{
+"created": "2024-11-08",
+"name": "Apache XTable",
+"revision": "0.2.0-incubating"
+},
+{
+"created": "2024-08-21",
+"name": "Apache XTable",
+"revision": "0.1.0-incubating"
+}
+],
+"source": "release-catalog",
+"status": "active"
 },
 "inlong": {
 "bug-database": "https://github.com/apache/inlong/issues",
@@ -95343,37 +96038,54 @@
 "status": "active"
 },
 "netbeans-parent": {
+"bug-database": "https://github.com/apache/netbeans/issues",
+"category": [
+"ide",
+"php",
+"groovy",
+"java"
+],
 "created": "2026-07-15",
+"description": "Apache NetBeans Parent POM.",
+"download-page": "https://bits.netbeans.org/netbeans-parent/download.html",
+"homepage": "https://bits.netbeans.org/netbeans-parent/",
 "license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"mailing-list": "https://netbeans.apache.org/front/main/community/mailing-lists/",
 "maintainer": [
 {
 "mbox": "mailto:dev@netbeans.apache.org",
 "name": "Apache NetBeans PMC"
 }
 ],
-"name": "Apache NetBeans Parent",
+"name": "Apache NetBeans Parent POM",
 "pmc": "netbeans",
+"programming-language": [
+"Java"
+],
 "release": [
 {
 "created": "2025-06-25",
-"name": "Apache NetBeans Parent",
+"name": "Apache NetBeans Parent POM",
 "revision": "5"
 },
 {
 "created": "2023-07-05",
-"name": "Apache NetBeans Parent",
+"name": "Apache NetBeans Parent POM",
 "revision": "4"
 },
 {
 "created": "2022-04-27",
-"name": "Apache NetBeans Parent",
+"name": "Apache NetBeans Parent POM",
 "revision": "3"
 },
 {
 "created": "2020-07-03",
-"name": "Apache NetBeans Parent",
+"name": "Apache NetBeans Parent POM",
 "revision": "2"
 }
+],
+"repository": [
+"https://github.com/apache/netbeans-parent"
 ],
 "source": "release-catalog",
 "status": "active"
@@ -121890,6 +122602,11 @@
 "pmc": "sling",
 "release": [
 {
+"created": "2026-10-30",
+"name": "Apache Sling Feature",
+"revision": "2.0.22"
+},
+{
 "created": "2026-08-17",
 "name": "Apache Sling Feature",
 "revision": "2.0.20"
@@ -128542,6 +129259,11 @@
 "pmc": "sling",
 "release": [
 {
+"created": "2026-10-30",
+"name": "Apache Sling Slingfeature Maven Plugin",
+"revision": "1.9.8"
+},
+{
 "created": "2026-06-19",
 "name": "Apache Sling Slingfeature Maven Plugin",
 "revision": "1.9.6"
@@ -131489,6 +132211,11 @@
 "JDBC"
 ],
 "release": [
+{
+"created": "2026-10-30",
+"name": "Apache Spark",
+"revision": "4.3.0"
+},
 {
 "created": "2026-10-27",
 "name": "Apache Spark",

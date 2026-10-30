@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30 12:21 UTC",
+ "generated": "2026-10-30 16:29 UTC",
  "questions": [
   {
    "id": "area",
@@ -9,22 +9,22 @@
     {
      "value": "Big data & analytics",
      "label": "Big data & analytics",
-     "count": 61
+     "count": 59
     },
     {
      "value": "Databases & storage",
      "label": "Databases & storage",
-     "count": 57
+     "count": 50
     },
     {
      "value": "Streaming & messaging",
      "label": "Streaming & messaging",
-     "count": 28
+     "count": 25
     },
     {
      "value": "Machine learning & AI",
      "label": "Machine learning & AI",
-     "count": 12
+     "count": 7
     },
     {
      "value": "Web, HTTP & APIs",
@@ -34,12 +34,12 @@
     {
      "value": "Cloud & infrastructure",
      "label": "Cloud & infrastructure",
-     "count": 35
+     "count": 30
     },
     {
      "value": "Build, testing & dev tools",
      "label": "Build, testing & dev tools",
-     "count": 16
+     "count": 15
     },
     {
      "value": "Content, search & documents",
@@ -54,17 +54,17 @@
     {
      "value": "Security & identity",
      "label": "Security & identity",
-     "count": 16
+     "count": 14
     },
     {
      "value": "Geospatial & science",
      "label": "Geospatial & science",
-     "count": 8
+     "count": 7
     },
     {
      "value": "Integration & workflow",
      "label": "Integration & workflow",
-     "count": 29
+     "count": 23
     }
    ]
   },
@@ -166,7 +166,7 @@
     {
      "value": "Rust",
      "label": "Rust",
-     "count": 7
+     "count": 8
     },
     {
      "value": "SQL",
@@ -193,17 +193,17 @@
     {
      "value": "A library or framework I embed in my code",
      "label": "A library or framework I embed in my code",
-     "count": 98
+     "count": 93
     },
     {
      "value": "A server or platform I run",
      "label": "A server or platform I run",
-     "count": 132
+     "count": 124
     },
     {
      "value": "A tool I use from the command line or IDE",
      "label": "A tool I use from the command line or IDE",
-     "count": 56
+     "count": 51
     }
    ]
   },
@@ -225,7 +225,7 @@
     {
      "value": "large",
      "label": "Large - lots of people to learn from",
-     "count": 40
+     "count": 63
     }
    ]
   },
@@ -237,7 +237,7 @@
     {
      "value": "incubating",
      "label": "Brand new (in the Incubator)",
-     "count": 25
+     "count": 24
     },
     {
      "value": "young",
@@ -259,17 +259,17 @@
     {
      "value": "very",
      "label": "Very active - released in the last 6 months",
-     "count": 148
+     "count": 159
     },
     {
      "value": "active",
      "label": "Active - released in the last 18 months",
-     "count": 35
+     "count": 41
     },
     {
      "value": "quiet",
      "label": "Quieter - could use new energy",
-     "count": 32
+     "count": 38
     }
    ]
   }
@@ -480,26 +480,25 @@
    "committers": 23
   },
   {
-   "id": "amoro",
-   "name": "Apache Amoro (Incubating)",
-   "desc": "Amoro is a Lakehouse management system built on open data lake formats like Apache Iceberg and Apache Paimon.",
-   "homepage": "https://amoro.incubator.apache.org/",
+   "id": "incubator-amoro",
+   "name": "Apache Amoro",
+   "desc": "",
+   "homepage": null,
    "pmc": "incubator",
-   "podling": true,
    "language": [],
-   "area": [
-    "Big data & analytics"
-   ],
-   "kind": [
-    "A server or platform I run"
-   ],
+   "area": [],
+   "kind": [],
    "maturity": [
     "incubating"
    ],
-   "size": [],
-   "activity": [],
-   "lastRelease": null,
-   "committers": null
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2025-08-28",
+   "committers": 4284
   },
   {
    "id": "answer",
@@ -677,24 +676,27 @@
    "committers": 48
   },
   {
-   "id": "asyncband",
-   "name": "Apache Asyncband (Incubating)",
-   "desc": "Asyncband is a runtime-agnostic library providing essential synchronization primitives for asynchronous Rust programming.",
-   "homepage": "https://asyncband.incubator.apache.org/",
+   "id": "incubator-asyncband",
+   "name": "Apache Asyncband",
+   "desc": "Asyncband is a focused collection of composable, runtime-agnostic concurrency building blocks for async Rust. It provides synchronization, initialization, task coordination, channels, resource reuse, and workload control without choosing an executor for the application.",
+   "homepage": "https://asyncband.apache.org/",
    "pmc": "incubator",
-   "podling": true,
-   "language": [],
-   "area": [],
-   "kind": [
-    "A library or framework I embed in my code"
+   "language": [
+    "Rust"
    ],
+   "area": [],
+   "kind": [],
    "maturity": [
     "incubating"
    ],
-   "size": [],
-   "activity": [],
-   "lastRelease": null,
-   "committers": null
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-25",
+   "committers": 4284
   },
   {
    "id": "atlas",
@@ -839,24 +841,25 @@
    "committers": 102
   },
   {
-   "id": "bifromq",
-   "name": "Apache BifroMQ (Incubating)",
-   "desc": "BifroMQ is a Java-based, high-performance, distributed MQTT broker with native multi-tenancy support, designed for large-scale connections and message delivery.",
-   "homepage": "https://bifromq.incubator.apache.org/",
+   "id": "incubator-bifromq",
+   "name": "Apache BifroMQ",
+   "desc": "",
+   "homepage": null,
    "pmc": "incubator",
-   "podling": true,
    "language": [],
-   "area": [
-    "Streaming & messaging"
-   ],
+   "area": [],
    "kind": [],
    "maturity": [
     "incubating"
    ],
-   "size": [],
-   "activity": [],
-   "lastRelease": null,
-   "committers": null
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2025-12-30",
+   "committers": 4284
   },
   {
    "id": "bigtop",
@@ -995,28 +998,25 @@
    "committers": 6
   },
   {
-   "id": "burr",
-   "name": "Apache Burr (Incubating)",
-   "desc": "Burr is a lightweight in-process python framework that standardizes the expression and execution of state machines as action-driven graphs, while making graph execution easily observable. It is particularly suited for AI agent workflows, simulations, and other dynamic systems, and comes with a self-",
-   "homepage": "https://burr.incubator.apache.org/",
+   "id": "incubator-burr",
+   "name": "Apache Burr",
+   "desc": "",
+   "homepage": null,
    "pmc": "incubator",
-   "podling": true,
    "language": [],
-   "area": [
-    "Machine learning & AI",
-    "Cloud & infrastructure",
-    "Integration & workflow"
-   ],
-   "kind": [
-    "A library or framework I embed in my code"
-   ],
+   "area": [],
+   "kind": [],
    "maturity": [
     "incubating"
    ],
-   "size": [],
-   "activity": [],
-   "lastRelease": null,
-   "committers": null
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-08-25",
+   "committers": 4284
   },
   {
    "id": "bval",
@@ -1077,29 +1077,25 @@
    "committers": 83
   },
   {
-   "id": "caldera",
-   "name": "Apache Caldera (Incubating)",
-   "desc": "Caldera provides a modular platform for modeling, scripting, and executing adversary behavior. It allows users to construct emulation plans, provides agents for communicating with the command and control server, and enables users to evaluate security detections in a structured, scalable, and repeata",
-   "homepage": "https://caldera.incubator.apache.org/",
+   "id": "incubator-caldera",
+   "name": "Apache Caldera",
+   "desc": "",
+   "homepage": null,
    "pmc": "incubator",
-   "podling": true,
    "language": [],
-   "area": [
-    "Big data & analytics",
-    "Security & identity"
-   ],
-   "kind": [
-    "A library or framework I embed in my code",
-    "A server or platform I run",
-    "A tool I use from the command line or IDE"
-   ],
+   "area": [],
+   "kind": [],
    "maturity": [
     "incubating"
    ],
-   "size": [],
-   "activity": [],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "quiet"
+   ],
    "lastRelease": null,
-   "committers": null
+   "committers": 4284
   },
   {
    "id": "camel",
@@ -1161,26 +1157,25 @@
    "committers": 28
   },
   {
-   "id": "casbin",
-   "name": "Apache Casbin (Incubating)",
-   "desc": "Casbin is a powerful, open-source access control framework that provides a unified, model-driven approach to authorization.",
-   "homepage": "https://casbin.incubator.apache.org/",
+   "id": "incubator-casbin",
+   "name": "Apache Casbin",
+   "desc": "",
+   "homepage": null,
    "pmc": "incubator",
-   "podling": true,
    "language": [],
-   "area": [
-    "Security & identity"
-   ],
-   "kind": [
-    "A library or framework I embed in my code"
-   ],
+   "area": [],
+   "kind": [],
    "maturity": [
     "incubating"
    ],
-   "size": [],
-   "activity": [],
-   "lastRelease": null,
-   "committers": null
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-13",
+   "committers": 4284
   },
   {
    "id": "cassandra",
@@ -1318,25 +1313,27 @@
    "committers": 17
   },
   {
-   "id": "cloudberry",
-   "name": "Apache Cloudberry (Incubating)",
-   "desc": "Cloudberry Database, built on the latest PostgreSQL kernel, is one of the most advanced and mature open-source MPP (Massively Parallel Processing) databases available.",
-   "homepage": "https://cloudberry.incubator.apache.org/",
+   "id": "incubator-cloudberry",
+   "name": "Apache Cloudberry",
+   "desc": "",
+   "homepage": null,
    "pmc": "incubator",
-   "podling": true,
    "language": [],
    "area": [
-    "Databases & storage",
     "Cloud & infrastructure"
    ],
    "kind": [],
    "maturity": [
     "incubating"
    ],
-   "size": [],
-   "activity": [],
-   "lastRelease": null,
-   "committers": null
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2026-04-13",
+   "committers": 4284
   },
   {
    "id": "cloudstack",
@@ -2043,24 +2040,28 @@
    "committers": 68
   },
   {
-   "id": "fesod",
-   "name": "Apache Fesod (Incubating)",
-   "desc": "Fesod is a high-performance and memory-efficient Java library for reading and writing Excel files, designed to simplify development and ensure reliability.",
-   "homepage": "https://fesod.incubator.apache.org/",
+   "id": "incubator-fesod",
+   "name": "Apache Fesod",
+   "desc": "Fast. Easy. Done. Processing spreadsheets without worrying about large files causing OOM.",
+   "homepage": "https://fesod.apache.org/",
    "pmc": "incubator",
-   "podling": true,
    "language": [],
    "area": [],
    "kind": [
-    "A library or framework I embed in my code"
+    "A library or framework I embed in my code",
+    "A tool I use from the command line or IDE"
    ],
    "maturity": [
     "incubating"
    ],
-   "size": [],
-   "activity": [],
-   "lastRelease": null,
-   "committers": null
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-07",
+   "committers": 4284
   },
   {
    "id": "fineract",
@@ -2268,27 +2269,25 @@
    "committers": 12
   },
   {
-   "id": "geaflow",
-   "name": "Apache GeaFlow (Incubating)",
-   "desc": "GeaFlow is a distributed stream and batch integration graph compute engine.",
-   "homepage": "https://geaflow.incubator.apache.org/",
+   "id": "incubator-geaflow",
+   "name": "Apache GeaFlow",
+   "desc": "",
+   "homepage": null,
    "pmc": "incubator",
-   "podling": true,
    "language": [],
-   "area": [
-    "Streaming & messaging",
-    "Integration & workflow"
-   ],
-   "kind": [
-    "A server or platform I run"
-   ],
+   "area": [],
+   "kind": [],
    "maturity": [
     "incubating"
    ],
-   "size": [],
-   "activity": [],
-   "lastRelease": null,
-   "committers": null
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-06-10",
+   "committers": 4284
   },
   {
    "id": "geode",
@@ -2427,24 +2426,25 @@
    "committers": 19
   },
   {
-   "id": "graphar",
-   "name": "Apache GraphAr (Incubating)",
-   "desc": "GraphAr is an open-source and language-independent data file format designed for efficient graph data storage and retrieval.",
-   "homepage": "https://graphar.incubator.apache.org/",
+   "id": "incubator-graphar",
+   "name": "Apache GraphAr",
+   "desc": "",
+   "homepage": null,
    "pmc": "incubator",
-   "podling": true,
    "language": [],
-   "area": [
-    "Databases & storage"
-   ],
+   "area": [],
    "kind": [],
    "maturity": [
     "incubating"
    ],
-   "size": [],
-   "activity": [],
-   "lastRelease": null,
-   "committers": null
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2025-08-19",
+   "committers": 4284
   },
   {
    "id": "gravitino",
@@ -2579,29 +2579,25 @@
    "committers": 252
   },
   {
-   "id": "hamilton",
-   "name": "Apache Hamilton (Incubating)",
-   "desc": "Hamilton is a lightweight in-process framework to define, execute, and observe directed acyclic graphs (DAGs) that express data transformations. In Hamilton, one can express complex DAGs of transformations, e.g. from dataframe transformations (using pandas, polars, PySpark), machine learning pipelin",
-   "homepage": "https://hamilton.incubator.apache.org/",
+   "id": "incubator-hamilton",
+   "name": "Apache Hamilton",
+   "desc": "",
+   "homepage": null,
    "pmc": "incubator",
-   "podling": true,
    "language": [],
-   "area": [
-    "Machine learning & AI",
-    "Cloud & infrastructure",
-    "Integration & workflow"
-   ],
-   "kind": [
-    "A library or framework I embed in my code",
-    "A server or platform I run"
-   ],
+   "area": [],
+   "kind": [],
    "maturity": [
     "incubating"
    ],
-   "size": [],
-   "activity": [],
-   "lastRelease": null,
-   "committers": null
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-07-14",
+   "committers": 4284
   },
   {
    "id": "hbase",
@@ -2972,27 +2968,6 @@
    "committers": 72
   },
   {
-   "id": "incubator",
-   "name": "Apache Incubator",
-   "desc": "",
-   "homepage": "https://incubator.apache.org/",
-   "pmc": "incubator",
-   "language": [],
-   "area": [],
-   "kind": [],
-   "maturity": [
-    "incubating"
-   ],
-   "size": [
-    "large"
-   ],
-   "activity": [
-    "quiet"
-   ],
-   "lastRelease": null,
-   "committers": 4284
-  },
-  {
    "id": "inlong",
    "name": "Apache InLong",
    "desc": "Apache InLong - a one-stop, full-scenario integration framework for massive data",
@@ -3302,26 +3277,25 @@
    "committers": 34
   },
   {
-   "id": "kie",
-   "name": "Apache KIE (Incubating)",
-   "desc": "KIE (Knowledge is Everything) is a community of solutions and supporting tooling for knowledge engineering and process automation, focusing on events, rules, and workflows.",
-   "homepage": "https://kie.incubator.apache.org/",
+   "id": "incubator-kie",
+   "name": "Apache KIE",
+   "desc": "",
+   "homepage": null,
    "pmc": "incubator",
-   "podling": true,
    "language": [],
-   "area": [
-    "Integration & workflow"
-   ],
-   "kind": [
-    "A tool I use from the command line or IDE"
-   ],
+   "area": [],
+   "kind": [],
    "maturity": [
     "incubating"
    ],
-   "size": [],
-   "activity": [],
-   "lastRelease": null,
-   "committers": null
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2026-03-29",
+   "committers": 4284
   },
   {
    "id": "knox",
@@ -3667,27 +3641,25 @@
    "committers": 36
   },
   {
-   "id": "maka",
-   "name": "Apache Maka (Incubating)",
-   "desc": "Maka is a local-first AI agent runtime and workspace. It records model messages, tool calls, tool results, permission decisions, and termination events in append-only logs.",
-   "homepage": "https://maka.incubator.apache.org/",
+   "id": "incubator-maka",
+   "name": "Apache Maka",
+   "desc": "",
+   "homepage": null,
    "pmc": "incubator",
-   "podling": true,
    "language": [],
-   "area": [
-    "Streaming & messaging",
-    "Machine learning & AI"
-   ],
-   "kind": [
-    "A tool I use from the command line or IDE"
-   ],
+   "area": [],
+   "kind": [],
    "maturity": [
     "incubating"
    ],
-   "size": [],
-   "activity": [],
-   "lastRelease": null,
-   "committers": null
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-10-30",
+   "committers": 4284
   },
   {
    "id": "manifoldcf",
@@ -3917,22 +3889,25 @@
    "committers": 56
   },
   {
-   "id": "nullaway",
-   "name": "Apache NullAway (Incubating)",
-   "desc": "NullAway is a fast, annotation-based nullness checker for Java that helps eliminate NullPointerExceptions at build time with minimal overhead.",
-   "homepage": "https://nullaway.incubator.apache.org/",
+   "id": "incubator-nullaway",
+   "name": "Apache NullAway",
+   "desc": "",
+   "homepage": null,
    "pmc": "incubator",
-   "podling": true,
    "language": [],
    "area": [],
    "kind": [],
    "maturity": [
     "incubating"
    ],
-   "size": [],
-   "activity": [],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "quiet"
+   ],
    "lastRelease": null,
-   "committers": null
+   "committers": 4284
   },
   {
    "id": "nutch",
@@ -4159,31 +4134,25 @@
    "committers": 141
   },
   {
-   "id": "openserverless",
-   "name": "Apache OpenServerless (Incubating)",
-   "desc": "OpenServerless is an open source, cloud-agnostic, serverless platform. It offers a complete environment for serverless applications development, based on Kubernetes. With Apache OpenWhisk as its FaaS engine, it provides an unified developer experience with a plethora of services (SQL or noSQL databa",
-   "homepage": "https://openserverless.incubator.apache.org/",
+   "id": "incubator-openserverless",
+   "name": "Apache OpenServerless",
+   "desc": "",
+   "homepage": null,
    "pmc": "incubator",
-   "podling": true,
    "language": [],
-   "area": [
-    "Databases & storage",
-    "Machine learning & AI",
-    "Cloud & infrastructure",
-    "Build, testing & dev tools",
-    "Integration & workflow"
-   ],
-   "kind": [
-    "A server or platform I run",
-    "A tool I use from the command line or IDE"
-   ],
+   "area": [],
+   "kind": [],
    "maturity": [
     "incubating"
    ],
-   "size": [],
-   "activity": [],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "quiet"
+   ],
    "lastRelease": null,
-   "committers": null
+   "committers": 4284
   },
   {
    "id": "openwebbeans",
@@ -4265,68 +4234,67 @@
    "committers": 50
   },
   {
-   "id": "ossie",
-   "name": "Apache Ossie (Incubating)",
-   "desc": "Apache Ossie comes from Open Semantic Interchange. It is an open specification that defines a vendor-neutral format for expressing business metrics, dimensions, and their relationships. It enables any tool to consume and produce semantic definitions without loss of meaning.",
-   "homepage": "https://ossie.incubator.apache.org/",
+   "id": "incubator-ossie",
+   "name": "Apache Ossie",
+   "desc": "",
+   "homepage": null,
    "pmc": "incubator",
-   "podling": true,
    "language": [],
    "area": [],
-   "kind": [
-    "A tool I use from the command line or IDE"
-   ],
+   "kind": [],
    "maturity": [
     "incubating"
    ],
-   "size": [],
-   "activity": [],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "quiet"
+   ],
    "lastRelease": null,
-   "committers": null
+   "committers": 4284
   },
   {
-   "id": "otava",
-   "name": "Apache Otava (Incubating)",
-   "desc": "Otava, a command-line tool, written in Python, that detects statistically significant changes in time-series data stored either in databases or CSV files. Otava entered Incubation as Hunter",
-   "homepage": "https://otava.incubator.apache.org/",
+   "id": "incubator-otava",
+   "name": "Apache Otava",
+   "desc": "",
+   "homepage": null,
    "pmc": "incubator",
-   "podling": true,
    "language": [],
-   "area": [
-    "Databases & storage"
-   ],
-   "kind": [
-    "A tool I use from the command line or IDE"
-   ],
+   "area": [],
+   "kind": [],
    "maturity": [
     "incubating"
    ],
-   "size": [],
-   "activity": [],
-   "lastRelease": null,
-   "committers": null
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-05-08",
+   "committers": 4284
   },
   {
-   "id": "ozhera",
-   "name": "Apache OzHera (Incubating)",
-   "desc": "OzHera is an application observation platform (APM) in the era of cloud native, with the application as its core, integrating capabilities such as metric monitoring, trace tracking, logging, and alerting",
-   "homepage": "https://ozhera.incubator.apache.org/",
+   "id": "incubator-ozhera",
+   "name": "Apache OzHera",
+   "desc": "",
+   "homepage": null,
    "pmc": "incubator",
-   "podling": true,
    "language": [],
-   "area": [
-    "Cloud & infrastructure"
-   ],
-   "kind": [
-    "A server or platform I run"
-   ],
+   "area": [],
+   "kind": [],
    "maturity": [
     "incubating"
    ],
-   "size": [],
-   "activity": [],
-   "lastRelease": null,
-   "committers": null
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-06-05",
+   "committers": 4284
   },
   {
    "id": "ozone",
@@ -4436,26 +4404,25 @@
    "committers": 21
   },
   {
-   "id": "pegasus",
-   "name": "Apache Pegasus (Incubating)",
-   "desc": "Pegasus is a distributed key-value storage system which is designed to be simple, horizontally scalable, strongly consistent and high-performance.",
-   "homepage": "https://pegasus.incubator.apache.org/",
+   "id": "incubator-pegasus",
+   "name": "Apache Pegasus",
+   "desc": "",
+   "homepage": null,
    "pmc": "incubator",
-   "podling": true,
    "language": [],
-   "area": [
-    "Databases & storage"
-   ],
-   "kind": [
-    "A server or platform I run"
-   ],
+   "area": [],
+   "kind": [],
    "maturity": [
     "incubating"
    ],
-   "size": [],
-   "activity": [],
-   "lastRelease": null,
-   "committers": null
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": "2023-12-11",
+   "committers": 4284
   },
   {
    "id": "pekko",
@@ -4713,24 +4680,25 @@
    "committers": 68
   },
   {
-   "id": "pouchdb",
-   "name": "Apache PouchDB (Incubating)",
-   "desc": "PouchDB is an open-source JavaScript database inspired by Apache CouchDB that is designed to run well within the browser.",
-   "homepage": "https://pouchdb.incubator.apache.org/",
+   "id": "incubator-pouchdb",
+   "name": "Apache PouchDB",
+   "desc": "",
+   "homepage": null,
    "pmc": "incubator",
-   "podling": true,
    "language": [],
-   "area": [
-    "Databases & storage"
-   ],
+   "area": [],
    "kind": [],
    "maturity": [
     "incubating"
    ],
-   "size": [],
-   "activity": [],
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "quiet"
+   ],
    "lastRelease": null,
-   "committers": null
+   "committers": 4284
   },
   {
    "id": "pulsar",
@@ -5122,22 +5090,25 @@
    "committers": 23
   },
   {
-   "id": "seata",
-   "name": "Apache Seata (Incubating)",
-   "desc": "Seata(Simple Extensible Autonomous Transaction Architecture)is an easy-to-use and high-performance distributed transaction solution, used to solve the data consistency problem.",
-   "homepage": "https://seata.incubator.apache.org/",
+   "id": "incubator-seata",
+   "name": "Apache Seata",
+   "desc": "",
+   "homepage": null,
    "pmc": "incubator",
-   "podling": true,
    "language": [],
    "area": [],
    "kind": [],
    "maturity": [
     "incubating"
    ],
-   "size": [],
-   "activity": [],
-   "lastRelease": null,
-   "committers": null
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "active"
+   ],
+   "lastRelease": "2026-01-28",
+   "committers": 4284
   },
   {
    "id": "seatunnel",
@@ -5380,7 +5351,7 @@
    "activity": [
     "very"
    ],
-   "lastRelease": "2026-10-22",
+   "lastRelease": "2026-10-30",
    "committers": 53
   },
   {
@@ -5491,7 +5462,7 @@
    "activity": [
     "very"
    ],
-   "lastRelease": "2026-10-27",
+   "lastRelease": "2026-10-30",
    "committers": 104
   },
   {
@@ -5860,29 +5831,25 @@
    "committers": 29
   },
   {
-   "id": "texera",
-   "name": "Apache Texera (Incubating)",
-   "desc": "Texera is an open-source system to support collaborative data science, AI, and ML using GUI-based workflows. Our vision is to develop a system to support cloud platforms on which users can easily analyze data and use AI/ML techniques provided as operators. Users with various backgrounds, irrespectiv",
-   "homepage": "https://texera.incubator.apache.org/",
+   "id": "incubator-texera",
+   "name": "Apache Texera",
+   "desc": "",
+   "homepage": null,
    "pmc": "incubator",
-   "podling": true,
    "language": [],
-   "area": [
-    "Machine learning & AI",
-    "Cloud & infrastructure",
-    "Geospatial & science",
-    "Integration & workflow"
-   ],
-   "kind": [
-    "A server or platform I run"
-   ],
+   "area": [],
+   "kind": [],
    "maturity": [
     "incubating"
    ],
-   "size": [],
-   "activity": [],
-   "lastRelease": null,
-   "committers": null
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-08-11",
+   "committers": 4284
   },
   {
    "id": "tez",
@@ -6059,22 +6026,25 @@
    "committers": 36
   },
   {
-   "id": "toree",
-   "name": "Apache Toree (Incubating)",
-   "desc": "Toree provides applications with a mechanism to interactively and remotely access Apache Spark.",
-   "homepage": "https://toree.incubator.apache.org/",
+   "id": "incubator-toree",
+   "name": "Apache Toree",
+   "desc": "",
+   "homepage": null,
    "pmc": "incubator",
-   "podling": true,
    "language": [],
    "area": [],
    "kind": [],
    "maturity": [
     "incubating"
    ],
-   "size": [],
-   "activity": [],
-   "lastRelease": null,
-   "committers": null
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "quiet"
+   ],
+   "lastRelease": "2022-02-16",
+   "committers": 4284
   },
   {
    "id": "trafficserver-traffic-server",
@@ -6520,24 +6490,25 @@
    "committers": 19
   },
   {
-   "id": "xtable",
-   "name": "Apache XTable (Incubating)",
-   "desc": "XTable is an omni-directional converter for table formats that facilitates interoperability across data processing systems and query engines.",
-   "homepage": "https://xtable.incubator.apache.org/",
+   "id": "incubator-xtable",
+   "name": "Apache XTable",
+   "desc": "",
+   "homepage": null,
    "pmc": "incubator",
-   "podling": true,
    "language": [],
-   "area": [
-    "Databases & storage"
-   ],
+   "area": [],
    "kind": [],
    "maturity": [
     "incubating"
    ],
-   "size": [],
-   "activity": [],
-   "lastRelease": null,
-   "committers": null
+   "size": [
+    "large"
+   ],
+   "activity": [
+    "very"
+   ],
+   "lastRelease": "2026-08-24",
+   "committers": 4284
   },
   {
    "id": "yetus",

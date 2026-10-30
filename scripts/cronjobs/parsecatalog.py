@@ -38,6 +38,8 @@ from collections import defaultdict
 from os.path import dirname, join, realpath
 
 CATALOG_URL = 'https://release-catalog.apache.org/project_releases.json'
+# Podlings are in a separate file, keyed by podling id
+PODLING_CATALOG_URL = 'https://release-catalog.apache.org/podling_releases.json'
 # ATR's project list carries status (active / retired / standing), which the catalog lacks
 ATR_LIST_URL = 'https://releases.apache.org/api/projects/list'
 
@@ -46,6 +48,7 @@ SITE = join(HOME, 'site')
 FOUNDATION = join(SITE, 'json', 'foundation')
 PROJECTS_DIR = join(SITE, 'json', 'projects')
 CACHE = join(HOME, 'data', 'cache', 'project_releases.json')
+PODLING_CACHE = join(HOME, 'data', 'cache', 'podling_releases.json')
 ATR_CACHE = join(HOME, 'data', 'cache', 'atr_projects_list.json')
 
 # Fields projects.js treats as lists
@@ -66,15 +69,16 @@ def load_json(path, default=None):
         return default
 
 
-def fetch_catalog(local_file=None):
+def fetch_catalog(local_file=None, url=CATALOG_URL, cache=CACHE, minimum=100):
     """Return the catalog dict. Falls back to the last good cached copy."""
     if local_file:
         return load_json(local_file)
+    CATALOG_URL, CACHE = url, cache  # noqa: N806 (shadow the module names below)
     try:
         req = urllib.request.Request(CATALOG_URL, headers={'User-Agent': 'projects.apache.org'})
         with urllib.request.urlopen(req, timeout=120) as r:
             data = json.loads(r.read().decode('utf-8'))
-        if not isinstance(data, dict) or len(data) < 100:
+        if not isinstance(data, dict) or len(data) < minimum:
             raise ValueError('catalog looks truncated (%d entries)' % len(data or {}))
         os.makedirs(dirname(CACHE), exist_ok=True)
         with open(CACHE, 'w', encoding='utf-8') as f:
@@ -84,6 +88,8 @@ def fetch_catalog(local_file=None):
         print('WARN: could not fetch %s (%s); using cached copy' % (CATALOG_URL, e))
         data = load_json(CACHE)
         if data is None:
+            if url != globals()['CATALOG_URL']:
+                return {}        # podling file is optional
             sys.exit('ERROR: no catalog and no cached copy')
         return data
 
@@ -136,6 +142,14 @@ def main():
 
     catalog = fetch_catalog(args.file)
     atr_status = fetch_atr_status()
+    # Current podlings come from the podling catalog, as incubator-<id>
+    # (graduated/retired podlings are in it too; those are skipped)
+    podlings = load_json(join(FOUNDATION, 'podlings.json'), {}) or {}
+    podling_catalog = {} if args.file else fetch_catalog(url=PODLING_CATALOG_URL, cache=PODLING_CACHE, minimum=5)
+    for pid, entry in (podling_catalog or {}).items():
+        if pid in podlings and isinstance(entry, dict):
+            entry = dict(entry, pmc='incubator')
+            catalog['incubator-' + pid] = entry
     validation = load_json(join(SITE, 'validation.json'), {})
     valid_cats = {k.lower(): k for k in validation.get('categories', {})}
     valid_langs = {k.lower(): k for k in validation.get('languages', {})}
