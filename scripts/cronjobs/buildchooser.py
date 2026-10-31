@@ -28,7 +28,6 @@ import datetime
 import json
 import os
 import re
-import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 JSON = os.path.join(HERE, '..', '..', 'site', 'json', 'foundation')
@@ -273,8 +272,7 @@ def main():
            'projects': sorted(records, key=lambda r: r['name'].lower())}
     with open(OUT, 'w', encoding='utf-8') as f:
         json.dump(out, f, indent=1, sort_keys=False)
-    print('Wrote %s: %d projects, %d questions' % (OUT, len(records), len(questions)),
-          file=sys.stderr)
+    print('Wrote %s: %d projects, %d questions' % (OUT, len(records), len(questions)))
 
 
 if __name__ == '__main__':
