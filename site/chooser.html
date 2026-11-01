@@ -196,6 +196,15 @@ function answerSummary() {
   return parts.length ? `<p class="answers">Your choices: ${parts.join(' ')}</p>` : '';
 }
 
+// Equal scores are ordered randomly, so the biggest communities (Hadoop...)
+// don't always top the list. The key is fixed per page load, so the order
+// stays stable while answers are toggled, and changes on each refresh.
+const shuffleKeys = new Map();
+function shuffleKey(p) {
+  if (!shuffleKeys.has(p.id)) shuffleKeys.set(p.id, Math.random());
+  return shuffleKeys.get(p.id);
+}
+
 // One card per project, built on first use and reused afterwards, so the
 // list can be re-ranked by moving nodes instead of rebuilding the page.
 const cards = new Map();
@@ -225,7 +234,7 @@ function showMatches(ans, what) {
   const asked = Object.entries(ans).filter(([k, v]) => v.length && isFilter(k)).length;
   const all = DATA.projects.map(p => ({p, s: score(p, ans)}))
     .filter(r => r.s > 0 || !asked)
-    .sort((a, b) => b.s - a.s || (b.p.committers || 0) - (a.p.committers || 0));
+    .sort((a, b) => b.s - a.s || shuffleKey(a.p) - shuffleKey(b.p));
   const ranked = all.slice(0, SHOW);
   const list = document.getElementById('list');
   const keep = new Set(ranked.map(r => r.p.id));
@@ -242,8 +251,8 @@ function showMatches(ans, what) {
   document.getElementById('shown').textContent = all.length <= SHOW
     ? `Showing all ${all.length} matching communities.`
     : `Showing only the top ${SHOW} of ${all.length} ${asked
-        ? 'communities that match at least one of your answers, ranked by how many they match, then by community size'
-        : 'communities, largest first'}.${
+        ? 'communities that match at least one of your answers, ranked by how many they match, in random order within each group'
+        : 'communities, in random order'}.${
         document.getElementById('next') ? ' Answer more questions to narrow it down.' : ''}`;
   document.getElementById('shown').hidden = !all.length;
   document.getElementById('empty').hidden = ranked.length > 0;
