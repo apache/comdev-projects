@@ -731,17 +731,75 @@ function sortProjects() {
     return projectsSorted;
 }
 
+// ------------ Grouping sub-projects ------------\\
+// The release catalog lists every component a committee releases (100+ for
+// Maven or Sling). In listings, show one main entry per committee and fold
+// the rest into a collapsed "N more" sublist. Podlings are each their own group.
+
+function groupKey(id) {
+    var p = projects[id];
+    return (p.pmc === 'incubator' || !p.pmc) ? id : p.pmc;
+}
+
+// The entry that represents a committee: the one keyed by the committee id,
+// else the one with the most releases, else the shortest id.
+function mainScore(id) {
+    var p = projects[id];
+    return [id === p.pmc ? 1 : 0, (p.release || []).length, -id.length];
+}
+function betterMain(a, b) {
+    var x = mainScore(a), y = mainScore(b);
+    for (var i = 0; i < x.length; i++) if (x[i] !== y[i]) return x[i] > y[i];
+    return false;
+}
+
+function projectItem(id) {
+    return projectIcon(projects[id].name) + projectLink(id) + projectDesc(id);
+}
+
+// Append ids (already sorted by name) to ul, grouped by committee.
+function appendGrouped(ul, ids) {
+    var groups = {}, order = [];
+    ids.forEach(function (id) {
+        var k = groupKey(id);
+        if (!groups[k]) { groups[k] = []; order.push(k); }
+        groups[k].push(id);
+    });
+    var mains = order.map(function (k) {
+        var m = groups[k][0];
+        groups[k].forEach(function (id) { if (betterMain(id, m)) m = id; });
+        return [k, m];
+    });
+    // list by the main entry's name
+    mains.sort(function (a, b) {
+        var x = projects[a[1]].name.toLowerCase(), y = projects[b[1]].name.toLowerCase();
+        return x < y ? -1 : x > y ? 1 : 0;
+    });
+    mains.forEach(function (km) {
+        var k = km[0], m = km[1];
+        var rest = groups[k].filter(function (id) { return id !== m; });
+        var li = appendLiInnerHTML(ul, projectItem(m));
+        if (rest.length) {
+            var c = committees[k];
+            var det = document.createElement('details');
+            det.innerHTML = "<summary style='cursor: pointer; color: #666; font-size: 0.9em;'>" + rest.length +
+                " more from the " + (c ? c.name.replace(/^Apache /, '') : 'same') + " committee</summary>";
+            var sub = document.createElement('ul');
+            rest.forEach(function (id) { appendLiInnerHTML(sub, projectItem(id)); });
+            det.appendChild(sub);
+            li.appendChild(det);
+        }
+    });
+}
+
 function renderProjectsByName() {
     var obj = document.getElementById('list');
     obj.innerHTML = "";
     var projectsSorted = sortProjects();
 
-    // Project list
+    // Project list, sub-projects folded under their committee's main entry
     var ul = document.createElement('ul');
-    for (var i in projectsSorted) {
-        var project = projectsSorted[i];
-        appendLiInnerHTML(ul, projectIcon(projects[project].name) + projectLink(project) + projectDesc(project));
-    }
+    appendGrouped(ul, projectsSorted);
     obj.appendChild(ul);
 }
 
@@ -790,18 +848,10 @@ function renderProjectsByLanguage() {
         var li = document.createElement('li');
         li.innerHTML = "<h3><a id='" + lang + "'>" + lang + " (" + lcount[lang] + ")</a>"+linkToHere(lang)+":</h3>";
         var cul = document.createElement('ul');
-        for (i in projectsSorted) {
-            i = projectsSorted[i];
-            if (projects[i]['programming-language']) {
-                var a = toArray(projects[i]['programming-language']);
-                for (x in a) {
-                    // Use same capitalisation as the language list
-                    if (camelCase(a[x]) == lang) {
-                        appendLiInnerHTML(cul, projectIcon(projects[i].name) + projectLink(i) + projectDesc(i));
-                    }
-                }
-            }
-        }
+        var inLang = projectsSorted.filter(function (id) {
+            return toArray(projects[id]['programming-language'] || []).some(function (v) { return camelCase(v) == lang; });
+        });
+        appendGrouped(cul, inLang);
         li.appendChild(cul);
         ul.appendChild(li);
     }
@@ -858,19 +908,10 @@ function renderProjectsByCategory() {
         var li = document.createElement('li');
         li.innerHTML = "<h3><a id='" + cat + "'>" + cat + " (" + ccount[cat] + ")</a>"+linkToHere(cat)+":</h3>";
         var cul = document.createElement('ul');
-        for (i in projectsSorted) {
-            i = projectsSorted[i];
-            var project = projects[i];
-            if (project.category) {
-                var a = toArray(project.category);
-                for (x in a) {
-                    x = a[x].toLowerCase(); // must agree with downcase above
-                    if (x == cat) {
-                        appendLiInnerHTML(cul, projectIcon(project.name) + projectLink(i) + projectDesc(i));
-                    }
-                }
-            }
-        }
+        var inCat = projectsSorted.filter(function (id) {
+            return toArray(projects[id].category || []).some(function (v) { return v.toLowerCase() == cat; });
+        });
+        appendGrouped(cul, inCat);
         li.appendChild(cul);
         ul.appendChild(li);
     }
