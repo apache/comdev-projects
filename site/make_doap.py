@@ -126,15 +126,6 @@ if form.getvalue('giturl'):
     </repository>"""
     % (makeURL(form.getvalue('giturl')), makeURL(form.getvalue('githttp'))))
 
-if form.getvalue('maintainer_name'):
-    print("""    <maintainer>
-      <foaf:Person>
-        <foaf:name>%s</foaf:name>
-          <foaf:mbox rdf:resource="mailto:%s"/>
-      </foaf:Person>
-    </maintainer>"""
-    % (form.getvalue('maintainer_name'), form.getvalue('maintainer_email')))
-
 if form.getvalue('std_title'):
     print("""    <asfext:implements><asfext:Standard>
       <asfext:title>%s</asfext:title>
