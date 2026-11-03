@@ -42,6 +42,7 @@
  @keyframes fadein { from { opacity: 0; transform: translateY(-4px); } }
  #matches-h { margin-top: 28px; margin-bottom: 4px; }
  #shown { color: #666; font-size: 90%; margin-top: 0; }
+ .opt .ico { margin-right: 6px; }
  .score { float: right; font-size: 85%; color: #c6262e; }
  .mock { background: #fff6d5; border: 1px solid #e6c84f; padding: 8px 12px; border-radius: 4px; font-size: 90%; }
 </style>
@@ -112,6 +113,21 @@ function score(p, ans) {
   return s;
 }
 
+// Small icons for the option chips (same set as the front-page mockup D)
+const ICONS = {
+  area: {
+    'Databases & storage': '\u{1F5C4}\uFE0F', 'Big data & analytics': '\u{1F4CA}', 'Web, HTTP & APIs': '\u{1F310}',
+    'Streaming & messaging': '\u{1F4E8}', 'Cloud & infrastructure': '\u2601\uFE0F', 'Content, search & documents': '\u{1F4C4}',
+    'Integration & workflow': '\u{1F517}', 'Security & identity': '\u{1F512}', 'Build, testing & dev tools': '\u{1F6E0}\uFE0F',
+    'IoT & edge': '\u{1F4E1}', 'Machine learning & AI': '\u{1F916}', 'Geospatial & science': '\u{1F30D}',
+  },
+  contribute: {
+    code: '\u{1F4BB}', docs: '\u{1F4DD}', users: '\u{1F4AC}', testing: '\u{1F9EA}', design: '\u{1F3A8}',
+    translate: '\u{1F5E3}\uFE0F', outreach: '\u{1F4E3}', unsure: '\u{1F914}',
+  },
+};
+const icon = (qid, v) => (ICONS[qid] && ICONS[qid][v]) ? `<span class="ico" aria-hidden="true">${ICONS[qid][v]}</span>` : '';
+
 function labelFor(qid, v) {
   const q = DATA.questions.find(q => q.id === qid);
   const o = q && q.options.find(o => o.value === v);
@@ -154,9 +170,9 @@ function render() {
 
   const sel = new Set();
   const opts = q.options.map(o => {
-    if (q.filter === false) return `<span class="opt" data-v="${esc(o.value)}">${esc(o.label)}</span>`;
+    if (q.filter === false) return `<span class="opt" data-v="${esc(o.value)}">${icon(q.id, o.value)}${esc(o.label)}</span>`;
     const n = cands.filter(p => (p[q.id] || []).includes(o.value)).length;
-    return n ? `<span class="opt" data-v="${esc(o.value)}">${esc(o.label)}<span class="n">${n}</span></span>` : '';
+    return n ? `<span class="opt" data-v="${esc(o.value)}">${icon(q.id, o.value)}${esc(o.label)}<span class="n">${n}</span></span>` : '';
   }).join('');
   $s().innerHTML = `<div class="q">
       <h2>${esc(q.text)}</h2>
@@ -317,6 +333,11 @@ function gettingStarted() {
 
 fetch('json/foundation/chooser.json').then(r => r.json()).then(d => {
   DATA = d;
+  // chooser.html?area=<label>[&area=<label>]: pre-answer the first question
+  // (used by the "I'm interested in..." chips on the front page)
+  const pre = new URLSearchParams(location.search).getAll('area')
+    .filter(v => (d.questions.find(q => q.id === 'area') || {options: []}).options.some(o => o.value === v));
+  if (pre.length) { answers.area = pre; history.push('area'); }
   document.getElementById('generated').textContent =
     `${d.projects.length} communities (committees and podlings) · data generated ${d.generated}`;
   render();
