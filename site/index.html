@@ -7,7 +7,7 @@
    <link rel="stylesheet" href="styles.css">
    <script src="js/jquery.js" type="text/javascript"></script>
    <script src="js/echarts.min.js"></script>
-   <script src="js/script.js?v=1793713124" type="text/javascript"></script>
+   <script src="js/script.js?v=1793714787" type="text/javascript"></script>
    <script src="js/projects.js?v=1793713124"></script>
    
    <title>Apache Projects and Committees Directory</title>
@@ -19,13 +19,55 @@
 </div>
 
 <div id="contents">
-   <h2>Welcome to the Apache Projects and Committees Directory</h2>
-   <p>This site is a catalog of Apache Software Foundation <a href="projects.html">projects</a> and their <a href="committees.html">management committees</a>.
-      It is designed to help you find specific projects that meet your interests and to gain a broader understanding of
-      the wide variety of work currently underway in the Apache community.
-      <br>
-      Project information comes from the <a href="https://release-catalog.apache.org/project_releases.json">ASF release catalog</a>, maintained by each committee in <a href="https://releases.apache.org/">Apache Trusted Releases</a>.
-   </p>
+   <!-- FRONT-PAGE-CTA:BEGIN (mockup B: banner + search panel) -->
+   <style>
+     .hero { display: flex; gap: 0; margin: 10px 0 25px; border-radius: 12px; overflow: hidden;
+             box-shadow: 0 2px 8px rgba(0,0,0,.15); }
+     .hero-main { flex: 2; padding: 34px 36px; color: #fff;
+                  background: linear-gradient(135deg, #d45500 0%, #e8792b 60%, #f0a050 100%); }
+     .hero-main h2 { margin: 0 0 10px; font-size: 2em; line-height: 1.2; color: #fff; }
+     .hero-main p { margin: 0 0 22px; font-size: 1.1em; max-width: 34em; }
+     .hero-main .go { display: inline-block; background: #fff; color: #b84a00; padding: 12px 22px;
+                      border-radius: 30px; font-weight: bold; font-size: 1.1em; text-decoration: none; }
+     .hero-main .go:hover { background: #fff3e0; }
+     .hero-main .small { margin-top: 14px; font-size: .9em; opacity: .9; }
+     .hero-side { flex: 1; padding: 30px 28px; background: #fff; }
+     .hero-side h3 { margin: 0 0 10px; color: #369; }
+     .hero-side input { width: 100%; box-sizing: border-box; padding: 10px 12px; font-size: 1em;
+                        border: 2px solid #9ab; border-radius: 6px; margin-bottom: 14px; }
+     .hero-side ul { list-style: none; margin: 0; padding: 0; }
+     .hero-side li { padding: 6px 0; border-top: 1px solid #eee; }
+     .hero-side li a { text-decoration: none; color: #369; font-weight: bold; }
+     .hero-side li a:hover { text-decoration: underline; }
+     .cta-source { font-size: .85em; color: #666; }
+     @media (max-width: 760px) {
+       .hero { flex-direction: column; }
+       .hero-main { padding: 26px 22px; }
+       .hero-main h2 { font-size: 1.6em; }
+     }
+   </style>
+   <div class="hero">
+     <div class="hero-main">
+       <h2>Find an open source project to get involved in</h2>
+       <p>Apache has hundreds of communities, and every one of them needs help &ndash; not just with code,
+          but with documentation, testing, design, translation and answering users' questions.
+          Tell us what you enjoy and we'll point you to a few that fit.</p>
+       <a class="go" href="chooser.html">Help me choose a project &rarr;</a>
+       <div class="small">Takes about a minute. No experience with Apache needed.</div>
+     </div>
+     <div class="hero-side">
+       <h3>Already know what you're looking for?</h3>
+       <input type="text" placeholder="Search projects&hellip;" onkeypress="checkKeyPress(event, this);" aria-label="Search projects">
+       <ul>
+         <li><a href="projects.html">All projects &rarr;</a></li>
+         <li><a href="committees.html">Committees (PMCs) &rarr;</a></li>
+         <li><a href="projects.html?category">Projects by category &rarr;</a></li>
+         <li><a href="releases.html">Latest releases &rarr;</a></li>
+       </ul>
+     </div>
+   </div>
+   <p class="cta-source">Project information comes from the <a href="https://release-catalog.apache.org/project_releases.json">ASF release catalog</a>, maintained by each committee in <a href="https://releases.apache.org/">Apache Trusted Releases</a>.</p>
+   <!-- FRONT-PAGE-CTA:END -->
    <!-- N.B. This ids in this section must agree with the code in projects.js -->
    <div id="details">
       <h3 style='text-align: center;'>There are hundreds of open source initiatives at the ASF:</h3>

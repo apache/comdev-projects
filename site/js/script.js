@@ -19,6 +19,7 @@ $.get('/nav.html', function(html) {
    var navMap = {
       'index.html':             'Home',
       '':                       'Home',
+      'chooser.html':           'Choose a project',
       'committees.html':        'Committees',
       'committee.html':         'Committees',
       'projects.html':          'Projects',
