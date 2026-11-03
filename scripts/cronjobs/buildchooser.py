@@ -33,7 +33,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 JSON = os.path.join(HERE, '..', '..', 'site', 'json', 'foundation')
 OUT = os.path.join(JSON, 'chooser.json')
 
-MIN_OPTION_PROJECTS = 3   # hide answers that would match fewer projects
+MIN_OPTION_PROJECTS = 2   # hide answers that would match fewer projects
 
 # ---------------------------------------------------------------------------
 # Normalisation tables. Edit these, not the per-project data.
@@ -48,7 +48,7 @@ LANGUAGES = {   # DOAP value (lowercase) -> bucket label
     'node.js': 'JavaScript / TypeScript',
     'go': 'Go', 'rust': 'Rust', 'c#': 'C# / .NET', 'ruby': 'Ruby',
     'perl': 'Perl', 'php': 'PHP', 'erlang': 'Erlang', 'r': 'R',
-    'sql': 'SQL', 'lua': 'Lua',
+    'sql': 'SQL', 'lua': 'Lua', 'actionscript': 'ActionScript',
 }
 
 # Interest areas: matched against DOAP categories AND description keywords,
