@@ -555,7 +555,8 @@ function renderCommitteePage(committeeId) {
 
     var ul = document.createElement('ul');
 
-    appendElementWithInnerHTML(obj, 'h4', "Committee data:");
+    // Projects are listed above this heading (inserted below once built)
+    var dataHeading = appendElementWithInnerHTML(obj, 'h4', "Committee data:");
 
     appendLiInnerHTML(ul, "<b>Website:</b> <a href='" + committee.homepage + "' target='_blank'>" + committee.homepage + "</a>");
 
@@ -621,7 +622,9 @@ function renderCommitteePage(committeeId) {
             subprojects.push({ 'id': committeeId, 'name': committee.name, 'pmc': committeeId });
         }
     } else {
-        appendElementWithInnerHTML(obj, 'h4', "Projects managed by this Committee:");
+        var projH = document.createElement('h4');
+        projH.innerHTML = "Projects managed by this Committee:";
+        obj.insertBefore(projH, dataHeading);
 
         ul = document.createElement('ul');
         for (var p in subprojects.sort()) {
@@ -629,7 +632,7 @@ function renderCommitteePage(committeeId) {
             appendLiInnerHTML(ul, projectLink(p) +
                 (projects[p] && projects[p].source === 'release-catalog' ? atrBtn(p) : ""));
         }
-        obj.appendChild(ul);
+        obj.insertBefore(ul, dataHeading);
     }
 
     // Retired projects: collapsed, never with an Edit metadata button
@@ -647,7 +650,7 @@ function renderCommitteePage(committeeId) {
                 retiredProjects[retiredHere[k]].name + "</a> <span class='pretired'>Retired</span>");
         }
         det.appendChild(rul);
-        obj.appendChild(det);
+        obj.insertBefore(det, dataHeading);
     }
 
     var repos = [];
