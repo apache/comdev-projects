@@ -28,6 +28,13 @@
  .answers { font-size: 90%; color: #555; margin: 10px 0; }
  .answers span { background: #f3f3f3; border-radius: 3px; padding: 2px 6px; margin-right: 4px; }
  .result { border: 1px solid #ddd; border-radius: 6px; padding: 12px 16px; margin: 10px 0; }
+ .result { display: flex; gap: 14px; align-items: flex-start; }
+ .result .logo { flex: 0 0 72px; width: 72px; height: 72px; display: flex; align-items: center; justify-content: center; }
+ .result .logo img { max-width: 72px; max-height: 72px; }
+ .result .logo .mono { width: 56px; height: 56px; border-radius: 8px; background: #eef0fc; color: #5a5f8c;
+   font: bold 24px Capriola, Helvetica, sans-serif; display: flex; align-items: center; justify-content: center; }
+ .result .body { flex: 1; min-width: 0; }
+ .result .desc { color: #333; }
  .result h3 { margin: 0 0 4px; }
  .result .why { font-size: 85%; color: #666; margin-top: 6px; }
  .result .links a { margin-right: 12px; font-size: 90%; }
@@ -208,14 +215,30 @@ function shuffleKey(p) {
 // One card per project, built on first use and reused afterwards, so the
 // list can be re-ranked by moving nodes instead of rebuilding the page.
 const cards = new Map();
+// "Apache Foo (Incubating)" -> "Foo (Incubating)": everything here is Apache
+const shortName = n => String(n || '').replace(/^Apache\s+/, '');
+
+// Logo from apache.org/logos (referenced, not copied): the project's own
+// folder, then its committee's; a lettered tile if neither exists.
+function logoHtml(p) {
+  const bare = p.id.replace(/^incubator-/, '');
+  const ids = [...new Set([bare, p.podling ? bare : p.pmc])];
+  const urls = ids.map(id => `https://www.apache.org/logos/res/${encodeURIComponent(id)}/default.png`);
+  const letter = esc((shortName(p.name)[0] || '?').toUpperCase());
+  return `<img src="${urls[0]}" alt="" loading="lazy" data-next="${urls.slice(1).join(' ')}"
+    onerror="const n=(this.dataset.next||'').split(' ').filter(Boolean);
+      if (n.length) { this.dataset.next=n.slice(1).join(' '); this.src=n[0]; }
+      else { this.outerHTML='<div class=&quot;mono&quot;>${letter}</div>'; }">`;
+}
+
 function card(p) {
   if (cards.has(p.id)) return cards.get(p.id);
   const el = document.createElement('div');
   el.className = 'result';
   el.dataset.id = p.id;
-  el.innerHTML = `<span class="score"></span>
-      <h3>${esc(p.name)}</h3>
-      <div>${esc(p.desc)}</div>
+  el.innerHTML = `<div class="logo">${logoHtml(p)}</div><div class="body"><span class="score"></span>
+      <h3>${esc(shortName(p.name))}</h3>
+      ${p.desc ? `<div class="desc">${esc(p.desc)}</div>` : ''}
       <div class="why">${p.language.length ? 'Languages: ' + esc(p.language.join(', ')) + ' · ' : ''}${
         p.committers ? p.committers + ' committers · ' : ''}${
         p.lastRelease ? 'last release ' + esc(p.lastRelease) : (p.podling ? 'Incubating' : '')}</div>
@@ -223,7 +246,7 @@ function card(p) {
         ${p.homepage ? `<a href="${esc(p.homepage)}">Website</a>` : ''}
         ${p.podling ? '' : `<a href="project.html?${esc(p.id)}">Project details</a>`}
         <a href="https://lists.apache.org/list.html?dev@${esc(p.podling ? p.id : p.pmc)}.apache.org">dev@ list</a>
-      </div>`;
+      </div></div>`;
   cards.set(p.id, el);
   return el;
 }

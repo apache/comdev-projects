@@ -206,7 +206,13 @@ function renderProjectPage(project, projectId) {
             description = project.description;
         } else if (!_.isEmpty(project.shortdesc)) {
             description = project.shortdesc;
-        } else if (!_.isEmpty(committee.shortdesc)) {
+        } else if (isIncubating && podlings[projectId.replace(/^incubator-/, '')] &&
+                   !_.isEmpty(podlings[projectId.replace(/^incubator-/, '')].description)) {
+            // podling with no catalog description: use its podlings.json entry
+            description = podlings[projectId.replace(/^incubator-/, '')].description;
+        } else if (!isIncubating && !_.isEmpty(committee.shortdesc)) {
+            // (for podlings the committee is the Incubator, whose description
+            // is about the Incubator itself, not the podling)
             description = committee.shortdesc;
         } else {
             description = "No description available";

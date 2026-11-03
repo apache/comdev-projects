@@ -149,6 +149,10 @@ def main():
     for pid, entry in (podling_catalog or {}).items():
         if pid in podlings and isinstance(entry, dict):
             entry = dict(entry, pmc='incubator')
+            # the podling catalog often has no description/homepage yet
+            for k in ('description', 'homepage'):
+                if not entry.get(k) and podlings[pid].get(k):
+                    entry[k] = ' '.join(podlings[pid][k].split()) if k == 'description' else podlings[pid][k]
             catalog['incubator-' + pid] = entry
     validation = load_json(join(SITE, 'validation.json'), {})
     valid_cats = {k.lower(): k for k in validation.get('categories', {})}

@@ -183,7 +183,14 @@ def main():
         if pmc not in committees and pmc != 'incubator':
             continue      # retired committee
         seen_pmcs.add(pmc)
-        text = ' '.join(str(p.get(k) or '') for k in ('name', 'shortdesc', 'description'))
+        # Many catalog entries have no description yet; fall back to the
+        # podling's description (podlings.json) or the committee's
+        # one-line description from Whimsy (committees.json).
+        pod = podlings.get(pid[len('incubator-'):], {}) if pmc == 'incubator' else {}
+        desc = (p.get('shortdesc') or p.get('description') or pod.get('description')
+                or ('' if pmc == 'incubator' else (committees.get(pmc) or {}).get('shortdesc')) or '')
+        desc = ' '.join(str(desc).split())
+        text = ' '.join(str(x or '') for x in (p.get('name'), p.get('shortdesc'), p.get('description'), desc))
         langs = sorted({LANGUAGES.get(l.lower(), 'Other')
                         for l in as_list(p.get('programming-language'))})
         # podlings have their own group; 'incubator' is the whole Incubator
@@ -194,8 +201,8 @@ def main():
         records.append({
             'id': pid,
             'name': p.get('name', pid),
-            'desc': (p.get('shortdesc') or p.get('description') or '').strip()[:300],
-            'homepage': p.get('homepage'),
+            'desc': desc[:300],
+            'homepage': p.get('homepage') or pod.get('homepage') or ('' if pmc == 'incubator' else (committees.get(pmc) or {}).get('homepage')) or None,
             'pmc': pmc,
             'language': langs,
             'area': classify(cats, text, AREAS),
