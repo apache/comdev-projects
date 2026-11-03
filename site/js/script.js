@@ -46,3 +46,15 @@ $.get('/nav.html', function(html) {
 });
 });
 } )( jQuery );
+
+// Fallback for the menu bar's search box on pages that don't load
+// projects.js (chooser.html, the /metrics/ pages): send the search to
+// the projects list. Pages that do load projects.js replace this with
+// its own checkKeyPress, which searches in place.
+function checkKeyPress(e, txt) {
+   if (!e) e = window.event;
+   var keyCode = e.keyCode || e.which;
+   if (keyCode == 13 && txt.value) {
+      location.href = '/projects.html?search=' + encodeURIComponent(txt.value);
+   }
+}

@@ -1310,6 +1310,13 @@ function buildProjectsList() {
     var params = document.location.search.substr(1).split('&');
     var cat = params[0];
     showRetired = params.indexOf('retired') > 0;
+    // projects.html?search=<text>: arrived from the search box on a page
+    // without projects.js (see checkKeyPress in script.js)
+    if (cat.indexOf('search=') === 0) {
+        var q = decodeURIComponent(cat.substr(7).replace(/\+/g, ' '));
+        preloadEverything(function () { searchProjects(q); });
+        return;
+    }
     var types = {
         'name': [ 'name', renderProjectsByName ],
         'language': [ 'language', renderProjectsByLanguage ],
