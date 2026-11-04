@@ -92,6 +92,7 @@
  */
 const STOP_AT = 8, SHOW = 10;
 let DATA, answers = {}, history = [];
+const preselect = {};   // qid -> values to show already selected (from the URL)
 
 const $s = () => document.getElementById('stage');
 const esc = s => String(s || '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -168,11 +169,13 @@ function render() {
   if (!q) return showResults();
   document.getElementById('advice').innerHTML = '';
 
-  const sel = new Set();
+  // options preselected from the URL (only the first time this question shows)
+  const sel = new Set(preselect[q.id] || []);
+  delete preselect[q.id];
   const opts = q.options.map(o => {
-    if (q.filter === false) return `<span class="opt" data-v="${esc(o.value)}">${icon(q.id, o.value)}${esc(o.label)}</span>`;
+    if (q.filter === false) return `<span class="opt${sel.has(o.value) ? ' on' : ''}" data-v="${esc(o.value)}">${icon(q.id, o.value)}${esc(o.label)}</span>`;
     const n = cands.filter(p => (p[q.id] || []).includes(o.value)).length;
-    return n ? `<span class="opt" data-v="${esc(o.value)}">${icon(q.id, o.value)}${esc(o.label)}<span class="n">${n}</span></span>` : '';
+    return n ? `<span class="opt${sel.has(o.value) ? ' on' : ''}" data-v="${esc(o.value)}">${icon(q.id, o.value)}${esc(o.label)}<span class="n">${n}</span></span>` : '';
   }).join('');
   $s().innerHTML = `<div class="q">
       <h2>${esc(q.text)}</h2>
@@ -333,11 +336,11 @@ function gettingStarted() {
 
 fetch('json/foundation/chooser.json').then(r => r.json()).then(d => {
   DATA = d;
-  // chooser.html?area=<label>[&area=<label>]: pre-answer the first question
-  // (used by the "I'm interested in..." chips on the front page)
-  const pre = new URLSearchParams(location.search).getAll('area')
+  // chooser.html?area=<label>[&area=<label>]: open on the area question with
+  // those options already selected (used by the front-page category chips).
+  // The visitor can add more or change them, then press Next.
+  preselect.area = new URLSearchParams(location.search).getAll('area')
     .filter(v => (d.questions.find(q => q.id === 'area') || {options: []}).options.some(o => o.value === v));
-  if (pre.length) { answers.area = pre; history.push('area'); }
   document.getElementById('generated').textContent =
     `${d.projects.length} communities (committees and podlings) · data generated ${d.generated}`;
   render();

@@ -19,51 +19,57 @@
 </div>
 
 <div id="contents">
-   <!-- FRONT-PAGE-CTA:BEGIN (mockup B: banner + search panel) -->
+   <!-- FRONT-PAGE-CTA:BEGIN (design D: interest chips + search) -->
    <style>
-     .hero { display: flex; gap: 0; margin: 10px 0 25px; border-radius: 12px; overflow: hidden;
-             box-shadow: 0 2px 8px rgba(0,0,0,.15); }
-     .hero-main { flex: 2; padding: 34px 36px; color: #fff;
-                  background: linear-gradient(135deg, #d45500 0%, #e8792b 60%, #f0a050 100%); }
-     .hero-main h2 { margin: 0 0 10px; font-size: 2em; line-height: 1.2; color: #fff; }
-     .hero-main p { margin: 0 0 22px; font-size: 1.1em; max-width: 34em; }
-     .hero-main .go { display: inline-block; background: #fff; color: #b84a00; padding: 12px 22px;
-                      border-radius: 30px; font-weight: bold; font-size: 1.1em; text-decoration: none; }
-     .hero-main .go:hover { background: #fff3e0; }
-     .hero-main .small { margin-top: 14px; font-size: .9em; opacity: .9; }
-     .hero-side { flex: 1; padding: 30px 28px; background: #fff; }
-     .hero-side h3 { margin: 0 0 10px; color: #369; }
-     .hero-side input { width: 100%; box-sizing: border-box; padding: 10px 12px; font-size: 1em;
-                        border: 2px solid #9ab; border-radius: 6px; margin-bottom: 14px; }
-     .hero-side ul { list-style: none; margin: 0; padding: 0; }
-     .hero-side li { padding: 6px 0; border-top: 1px solid #eee; }
-     .hero-side li a { text-decoration: none; color: #369; font-weight: bold; }
-     .hero-side li a:hover { text-decoration: underline; }
+     .ask { display: flex; gap: 28px; margin: 14px 0 28px; }
+     .ask-main { flex: 2; }
+     .ask-main h2 { margin: 0 0 4px; font-size: 1.9em; color: #d45500; }
+     .ask-main .lede { margin: 0 0 14px; color: #444; font-size: 1.05em; }
+     .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+     .chip { display: inline-flex; align-items: center; gap: 6px; padding: 8px 14px; border-radius: 20px;
+             background: #fff; border: 1.5px solid #e6b38f; color: #8a3a00; text-decoration: none; font-size: .95em;
+             transition: background .15s, border-color .15s; }
+     .chip:hover { background: #fff3e0; border-color: #d45500; }
+     .ask-main .alt { font-size: .95em; }
+     .ask-main .alt a { color: #d45500; font-weight: bold; }
+     .ask-side { flex: 1; background: #fff; border-radius: 10px; padding: 20px 22px; box-shadow: 0 1px 4px rgba(0,0,0,.12);
+                 align-self: flex-start; }
+     .ask-side h3 { margin: 0 0 10px; color: #369; }
+     .ask-side input { width: 100%; box-sizing: border-box; padding: 10px 12px; font-size: 1em;
+                       border: 2px solid #9ab; border-radius: 6px; margin-bottom: 10px; }
+     .ask-side .links a { display: inline-block; margin: 4px 12px 0 0; color: #369; font-weight: bold; }
      .cta-source { font-size: .85em; color: #666; }
      @media (max-width: 760px) {
-       .hero { flex-direction: column; }
-       .hero-main { padding: 26px 22px; }
-       .hero-main h2 { font-size: 1.6em; }
+       .ask { flex-direction: column; gap: 20px; }
+       .ask-main h2 { font-size: 1.5em; }
+       .ask-side { align-self: stretch; }
      }
    </style>
-   <div class="hero">
-     <div class="hero-main">
-       <h2>Find an open source project to get involved in</h2>
-       <p>Apache has hundreds of communities, and every one of them needs help &ndash; not just with code,
-          but with documentation, testing, design, translation and answering users' questions.
-          Tell us what you enjoy and we'll point you to a few that fit.</p>
-       <a class="go" href="chooser.html">Help me choose a project &rarr;</a>
-       <div class="small">Takes about a minute. No experience with Apache needed.</div>
+   <div class="ask">
+     <div class="ask-main">
+       <h2>Looking for a project?</h2>
+       <p class="lede">Pick one to see Apache communities working on it &ndash; then tell us how you'd like to help.
+          Code is just one option: docs, testing, design and helping users count too.</p>
+       <div class="chips">
+         <a class="chip" href="chooser.html?area=Databases%20%26%20storage"><span aria-hidden="true">&#x1F5C4;</span> Databases &amp; storage</a>
+         <a class="chip" href="chooser.html?area=Big%20data%20%26%20analytics"><span aria-hidden="true">&#x1F4CA;</span> Big data &amp; analytics</a>
+         <a class="chip" href="chooser.html?area=Web%2C%20HTTP%20%26%20APIs"><span aria-hidden="true">&#x1F310;</span> Web, HTTP &amp; APIs</a>
+         <a class="chip" href="chooser.html?area=Streaming%20%26%20messaging"><span aria-hidden="true">&#x1F4E8;</span> Streaming &amp; messaging</a>
+         <a class="chip" href="chooser.html?area=Cloud%20%26%20infrastructure"><span aria-hidden="true">&#x2601;</span> Cloud &amp; infrastructure</a>
+         <a class="chip" href="chooser.html?area=Content%2C%20search%20%26%20documents"><span aria-hidden="true">&#x1F4C4;</span> Content, search &amp; documents</a>
+         <a class="chip" href="chooser.html?area=Integration%20%26%20workflow"><span aria-hidden="true">&#x1F517;</span> Integration &amp; workflow</a>
+         <a class="chip" href="chooser.html?area=Security%20%26%20identity"><span aria-hidden="true">&#x1F512;</span> Security &amp; identity</a>
+         <a class="chip" href="chooser.html?area=Build%2C%20testing%20%26%20dev%20tools"><span aria-hidden="true">&#x1F6E0;</span> Build, testing &amp; dev tools</a>
+         <a class="chip" href="chooser.html?area=IoT%20%26%20edge"><span aria-hidden="true">&#x1F4E1;</span> IoT &amp; edge</a>
+         <a class="chip" href="chooser.html?area=Machine%20learning%20%26%20AI"><span aria-hidden="true">&#x1F916;</span> Machine learning &amp; AI</a>
+         <a class="chip" href="chooser.html?area=Geospatial%20%26%20science"><span aria-hidden="true">&#x1F30D;</span> Geospatial &amp; science</a>
+       </div>
+       <p class="alt">Not sure? <a href="chooser.html">Help me choose a project &rarr;</a></p>
      </div>
-     <div class="hero-side">
-       <h3>Already know what you're looking for?</h3>
+     <div class="ask-side">
+       <h3>Looking for a specific project?</h3>
        <input type="text" placeholder="Search projects&hellip;" onkeypress="checkKeyPress(event, this);" aria-label="Search projects">
-       <ul>
-         <li><a href="projects.html">All projects &rarr;</a></li>
-         <li><a href="committees.html">Committees (PMCs) &rarr;</a></li>
-         <li><a href="projects.html?category">Projects by category &rarr;</a></li>
-         <li><a href="releases.html">Latest releases &rarr;</a></li>
-       </ul>
+       <div class="links"><a href="projects.html">All projects</a> <a href="committees.html">Committees</a> <a href="releases.html">Releases</a></div>
      </div>
    </div>
    <p class="cta-source">Project information comes from the <a href="https://release-catalog.apache.org/project_releases.json">ASF release catalog</a>, maintained by each committee in <a href="https://releases.apache.org/">Apache Trusted Releases</a>.</p>
