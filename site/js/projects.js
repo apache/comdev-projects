@@ -2329,51 +2329,46 @@ function searchProjects(str) {
     var obj = document.getElementById('contents');
 
     str = str.toLowerCase();
-    var hits = {};
-    var hitssorted = [];
+    // escape regex specials so searches like "C++" don't break the highlighting
+    var estr = new RegExp(str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), "i");
+    var mark = function (v) { return v.replace(estr, function (a) { return "<u style='color: #963;'>" + a + "</u>"; }); };
+    var results = [];   // {href, name, kind, fields: [{key, val}]}
 
-    // Search committees
-    for (p in projects) {
-        var project = projects[p];
-        for (key in project) {
-            if (typeof project[key] == "string") {
-                var val = project[key].toLowerCase();
-                if (val.indexOf(str) >= 0 && val.substr(0,1) != "{") {
-                    if (!hits[p]) {
-                        hits[p] = [];
-                    }
-                    var estr = new RegExp(str, "i");
-                    hits[p].push({
-                    'key': key,
-                    'val': project[key].replace(estr, function(a) { return "<u style='color: #963;'>"+a+"</u>"}, "img")
-                    });
-                    if (hitssorted.indexOf(p) < 0) {
-                        hitssorted.push(p);
-                    }
-                }
-            }
-        }
+    // Committees: name, description and charter only
+    for (var c in committees) {
+        var com = committees[c], fields = [];
+        [['name', 'name'], ['shortdesc', 'description'], ['charter', 'charter']].forEach(function (kf) {
+            var v = com[kf[0]];
+            if (typeof v == "string" && v.toLowerCase().indexOf(str) >= 0) fields.push({key: kf[1], val: mark(v)});
+        });
+        if (fields.length) results.push({href: 'committee.html?' + c, name: com.name + ' Committee', fields: fields});
     }
 
-    var title = "Search results for '" + str + "' (" + hitssorted.length + "):";
+    // Projects: every text field
+    for (var p in projects) {
+        var project = projects[p], pf = [];
+        for (var key in project) {
+            if (typeof project[key] == "string") {
+                var val = project[key].toLowerCase();
+                if (val.indexOf(str) >= 0 && val.substr(0,1) != "{") pf.push({key: key, val: mark(project[key])});
+            }
+        }
+        if (pf.length) results.push({href: 'project.html?' + p, name: project.name, fields: pf});
+    }
+
+    var title = "Search results for '" + str + "' (" + results.length + "):";
     obj.innerHTML = "";
     var h2 = document.createElement('h2');
     h2.appendChild(document.createTextNode(title));
     obj.appendChild(h2);
-    hitssorted.sort(function(a,b) { return hits[b].length - hits[a].length });
+    results.sort(function(a,b) { return b.fields.length - a.fields.length });
     var ul = document.createElement('ul');
-
-    var h;
-    for (h in hitssorted) {
-        h = hitssorted[h];
-        var project = hits[h];
-        var html = "<h4><a href='project.html?" + h + "'>" + projects[h].name + "</a> (" + project.length + " hit(s)):</h4>";
-        for (x in project) {
-            html += "<blockquote><b>" + project[x].key + ":</b> " +  project[x].val + "</blockquote>";
-        }
-        appendLiInnerHTML(ul,html);
-    }
-    if (hitssorted.length == 0) {
+    results.forEach(function (r) {
+        var html = "<h4><a href='" + r.href + "'>" + r.name + "</a> (" + r.fields.length + " hit(s)):</h4>";
+        r.fields.forEach(function (f) { html += "<blockquote><b>" + f.key + ":</b> " + f.val + "</blockquote>"; });
+        appendLiInnerHTML(ul, html);
+    });
+    if (results.length == 0) {
             obj.innerHTML += "No search results found";
     }
     obj.appendChild(ul);
@@ -2385,8 +2380,11 @@ function searchProjects(str) {
 function checkKeyPress(e, txt) {
     if (!e) e = window.event;
     var keyCode = e.keyCode || e.which;
-    if (keyCode == '13'){
-            searchProjects(txt.value);
+    if (keyCode == '13' && txt.value) {
+        // Go to a real URL (projects.html?search=...) rather than replacing
+        // the current page in place, so the Back button returns to the
+        // page the search was made from, and results can be bookmarked.
+        location.href = '/projects.html?search=' + encodeURIComponent(txt.value);
     }
 }
 
