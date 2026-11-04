@@ -1598,9 +1598,19 @@ function renderFrontPage() {
     update_id('committees', numcommittees);
     update_id('projects', numProjects);
     update_id('podlings', curPodlings);
-    renderCommitteeEvolution();
-    renderPodlingsEvolution();
-    renderLanguageChart();
+    // The history charts are on graphs.html (buildTimelines); the front
+    // page shows the metro map instead (metro/metro.js).
+}
+
+// graphs.html: account creation, committee and podling history, languages
+function buildTimelines() {
+    buildTimelines2();
+    preloadEverything(function () {
+        update_id('loading', '');
+        renderCommitteeEvolution();
+        renderPodlingsEvolution();
+        renderLanguageChart();
+    });
 }
 
 
@@ -2204,8 +2214,8 @@ function drawAccountCreation(json) {
     var chartDom = document.createElement('div');
     chartDom.style = "float: left; width: 1160px; height: 450px;";
     chartDom.setAttribute("id", 'accountchart');
-    var contents = document.getElementById('contents');
-    contents.innerHTML = "<h1>Timelines</h1>";
+    var contents = document.getElementById('accounts') || document.getElementById('contents');
+    contents.innerHTML = document.getElementById('accounts') ? "" : "<h1>Graphs</h1>";
     contents.appendChild(chartDom);
 
     // ================= echarts start ==================
@@ -2306,7 +2316,7 @@ function drawAccountCreation(json) {
 
 }
 
-// called by timelines.html
+// called by graphs.html
 
 function buildTimelines2() {
     GetAsyncJSON("json/foundation/accounts-evolution2.json", null, drawAccountCreation);

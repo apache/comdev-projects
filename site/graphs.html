@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang=''>
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="styles.css">
+   <script src="js/jquery.js" type="text/javascript"></script>
+   <script src="js/echarts.min.js" type="text/javascript"></script>
+   <script src="js/script.js?v=1793714787" type="text/javascript"></script>
+   <script src="js/projects.js?v=1793808328"></script>
+   
+   <title>Apache Projects Graphs</title>
+</head>
+<body>
+
+<div id="logo"><h1><div style="padding-top: 30px;">Project Graphs</div></h1>
+</div>
+<div id='cssmenu'>
+</div>
+
+<div id="contents">
+   <h1>Graphs</h1>
+   <p style="color:#666;font-size:.9em;">Account creation: July 1, 2004 is used when the start date is unknown, hence the spike (data: <a href="json/foundation/accounts-evolution2.json">accounts-evolution2.json</a>).</p>
+   <div id="accounts">
+      <p style="text-align: center;">Loading data, please wait...<br/><img src="images/loader.gif"/></p>
+   </div>
+   <div style="clear: both;"></div>
+   <!-- committee, podling and language charts (moved here from the front page) -->
+   <div id="details">
+      <div id="loading"><p id="progress" style="text-align: center;"></p></div>
+   </div>
+</div>
+<div id="footer">
+   Managed by the <a href="https://community.apache.org">Apache Community Development Project</a>.<br/>
+   Copyright&copy; the Apache Software Foundation. Licensed under the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a><br/>
+   Apache&reg; and the Apache logo are trademarks of The Apache Software Foundation.
+</div>
+<script type="text/javascript">
+   window.onload = function (){
+      buildTimelines();
+   }
+</script>
+</body>
+</html>

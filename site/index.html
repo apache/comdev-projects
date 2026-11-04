@@ -6,10 +6,10 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" href="styles.css">
    <script src="js/jquery.js" type="text/javascript"></script>
-   <script src="js/echarts.min.js"></script>
    <script src="js/script.js?v=1793714787" type="text/javascript"></script>
-   <script src="js/projects.js?v=1793713124"></script>
+   <script src="js/projects.js?v=1793808328"></script>
    
+    <link rel="stylesheet" href="metro/metro.css?v=1793808560">
    <title>Apache Projects and Committees Directory</title>
 </head>
 <body>
@@ -72,15 +72,28 @@
        <div class="links"><a href="projects.html">All projects</a> <a href="committees.html">Committees</a> <a href="releases.html">Releases</a></div>
      </div>
    </div>
-   <p class="cta-source">Project information comes from the <a href="https://release-catalog.apache.org/project_releases.json">ASF release catalog</a>, maintained by each committee in <a href="https://releases.apache.org/">Apache Trusted Releases</a>.</p>
    <!-- FRONT-PAGE-CTA:END -->
+   <!-- Metro map of Apache communities (metro/metro.js; full page at /metro/) -->
+   <div id="metro">
+     <h2 style="margin-bottom:2px;">The Apache Projects Underground</h2>
+     <div class="bar">
+       <input id="q" type="search" placeholder="Find a community or language&hellip;" list="names" autocomplete="off" aria-label="Find a community">
+       <datalist id="names"></datalist>
+       <button id="zin" title="Zoom in" aria-label="Zoom in">+</button>
+       <button id="zout" title="Zoom out" aria-label="Zoom out">&minus;</button>
+       <button id="reset" title="Reset view and filters">Reset</button>
+       <a href="metro/">Full screen &rarr;</a>
+       <span id="status">Loading project data&hellip;</span>
+     </div>
+     <div class="wrap" style="height: 640px;">
+       <div id="stage"></div>
+       <aside id="panel" aria-live="polite"></aside>
+     </div>
+     <p style="color:#666; font-size:.85em;">Each station is an Apache committee or podling, on the lines for its areas; &#x25CB; marks an interchange.
+        Drag to pan, scroll to zoom, click a station or line.</p>
+   </div>
    <!-- N.B. This ids in this section must agree with the code in projects.js -->
    <div id="details">
-      <h3 style='text-align: center;'>There are hundreds of open source initiatives at the ASF:</h3>
-      <ul style='width: 400px; margin: 0 auto; font-size: 18px; color: #269; font-weight: bold;'>
-      <li><span id="committees">TBA</span> <a href='committees.html'>committees</a> managing <span id="projects">TBA</span> <a href='projects.html'>projects</a></li>
-      <li><span id="podlings">TBA</span> incubating podlings</li>
-      </ul>
       <!-- This div is cleared when loading is complete -->
       <div id="loading">
          <p style="text-align: center;">
@@ -97,6 +110,7 @@
          </p>
       </noscript>
    </div>
+   <p class="cta-source">Project information comes from the <a href="https://release-catalog.apache.org/project_releases.json">ASF release catalog</a>, maintained by each committee in <a href="https://releases.apache.org/">Apache Trusted Releases</a>.</p>
 </div>
 <div id="footer">
    Managed by the <a href="https://community.apache.org">Apache Community Development Project</a>.<br/>
@@ -108,5 +122,6 @@
       preloadEverything(buildFrontPage);
    };
 </script>
+<script src="metro/metro.js?v=1793808884"></script>
 </body>
 </html>

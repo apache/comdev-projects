@@ -1,0 +1,52 @@
+/* Styles for the metro map, shared by /metro/ and the front page */
+     #metro { margin: 10px; }
+     #metro .bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 6px 0 8px; }
+     #metro .bar input { padding: 6px 10px; border: 1px solid #bbb; border-radius: 6px; min-width: 16rem; font-size: 1em; }
+     #metro .bar button { padding: 5px 11px; border: 1px solid #bbb; border-radius: 6px; background: #f3f4f7; cursor: pointer; font-size: 1em; }
+     #metro .bar button:hover { border-color: #0019A8; }
+     #metro #status { color: #666; font-size: .9em; margin-left: auto; }
+     #metro .wrap { position: relative; height: calc(100vh - 190px); min-height: 480px; border: 1px solid #d9dde3;
+                    border-radius: 10px; overflow: hidden; background: #fff; }
+     #stage { position: absolute; inset: 0; touch-action: none; cursor: grab; }
+     #stage svg { width: 100%; height: 100%; display: block; }
+     #panel { position: absolute; top: 12px; right: 12px; width: 21rem; max-width: calc(100% - 24px); max-height: calc(100% - 24px);
+              overflow: auto; background: #fff; border: 1px solid #d9dde3; border-radius: 10px; padding: .8rem .95rem;
+              box-shadow: 0 4px 18px rgba(0,0,0,.14); font-size: .92em; }
+     #panel h2 { margin: 0 0 .15rem; font-size: 1.15rem; }
+     #panel .kind { color: #5f6670; font-size: .82rem; margin-bottom: .4rem; }
+     #panel p { margin: .5rem 0 0; }
+     #panel .help, #panel .members { color: #5f6670; }
+     #panel .x { float: right; border: 1px solid #ccc; background: #f3f4f7; border-radius: 6px; cursor: pointer; }
+     #panel .chips { display: flex; flex-wrap: wrap; gap: .35rem; }
+     #panel .chip { border: 1px solid #d9dde3; border-radius: 999px; padding: .1rem .6rem .1rem .35rem; font-size: .8rem;
+                    display: inline-flex; align-items: center; gap: .35rem; cursor: pointer; background: #f3f4f7; }
+     #panel .chip i { width: 14px; height: 7px; border-radius: 4px; display: inline-block; }
+     .map .line, .map .st, .map .lbl, .map .leg { transition: opacity .15s; cursor: pointer; }
+     .map .dim { opacity: .12; }
+     .map .leg.off { opacity: .35; }
+     .map .sel.hub, .map .match.hub { stroke: #d45500; stroke-width: 4.5; }
+     .map .sel.tick, .map .match.tick { stroke: #d45500; }
+     .map .lbl.sel, .map .lbl.match { font-weight: bold; fill: #d45500; }
+     @media (max-width: 640px) {
+       #panel { top: auto; bottom: 8px; left: 8px; right: 8px; width: auto; max-height: 45%; }
+       #metro .wrap { height: calc(100vh - 230px); }
+     }
+   
+#stage.dragging { cursor: grabbing; }
+#panel .chips { margin-top: .45rem; }
+#panel button.chip { font: inherit; font-size: .8rem; color: inherit; }
+#panel .chip.active { border-color: #d45500; box-shadow: inset 0 0 0 1px #d45500; }
+#panel .members { font-size: .85rem; margin-top: .4rem; }
+.map .st:hover { stroke-width: 4.5; }
+.map .hub:hover, .map .tick:hover { stroke: #d45500; }
+#tip { position: fixed; z-index: 50; pointer-events: none; max-width: 22rem; background: #fff; color: #1c1c1c;
+       border: 1px solid #d9dde3; border-radius: 8px; padding: .5rem .7rem; box-shadow: 0 4px 18px rgba(0,0,0,.14);
+       font-size: .85rem; opacity: 0; transition: opacity .1s; }
+#tip.on { opacity: 1; }
+#tip b { display: block; font-size: .95rem; }
+#tip .d { color: #5f6670; margin-top: .25rem; }
+#tip .chips { display: flex; flex-wrap: wrap; gap: .3rem; margin-top: .3rem; }
+#tip .chip { border: 1px solid #d9dde3; border-radius: 999px; padding: 0 .5rem 0 .3rem; font-size: .75rem;
+             display: inline-flex; align-items: center; gap: .3rem; background: #f3f4f7; }
+#tip .chip i { width: 12px; height: 6px; border-radius: 3px; display: inline-block; }
+@media (prefers-reduced-motion: reduce) { .map * { transition: none !important; } }

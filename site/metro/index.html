@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="/styles.css">
+   <script src="/js/jquery.js" type="text/javascript"></script>
+   <script src="/js/script.js" type="text/javascript"></script>
+   <title>The Apache Projects Underground</title>
+   <link rel="stylesheet" href="/metro/metro.css?v=1793808560">
+</head>
+<body>
+<div id="logo"><h1><div style="padding-top: 30px;">The Apache Projects Underground</div></h1></div>
+<div id='cssmenu'>
+</div>
+
+<div id="metro">
+  <div class="bar">
+    <input id="q" type="search" placeholder="Find a community or language&hellip;" list="names" autocomplete="off" aria-label="Find a community">
+    <datalist id="names"></datalist>
+    <button id="zin" title="Zoom in" aria-label="Zoom in">+</button>
+    <button id="zout" title="Zoom out" aria-label="Zoom out">&minus;</button>
+    <button id="reset" title="Reset view and filters">Reset</button>
+    <span id="status">Loading project data&hellip;</span>
+  </div>
+  <div class="wrap">
+    <div id="stage"></div>
+    <aside id="panel" aria-live="polite"></aside>
+  </div>
+  <p style="color:#666; font-size:.85em;">Each station is an Apache committee or podling; its categories decide which lines it is on, and a station on several lines is an interchange (&#x25CB;).
+     Drag to pan, scroll to zoom, click a station or line. Layout ported from
+     <a href="https://github.com/apache/comdev-project-map">comdev project-map</a>; data from the
+     <a href="/about.html#data">projects.apache.org JSON</a>. Lines are configured in <a href="lines.json">lines.json</a>.</p>
+</div>
+
+<div id="footer">
+   Managed by the <a href="https://community.apache.org">Apache Community Development Project</a>.<br/>
+   Copyright&copy; the Apache Software Foundation. Licensed under the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a><br/>
+   Apache&reg; and the Apache logo are trademarks of The Apache Software Foundation.
+</div>
+<script src="metro.js?v=1793808884"></script>
+</body>
+</html>
