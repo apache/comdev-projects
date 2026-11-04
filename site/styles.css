@@ -181,7 +181,6 @@ body::after {
   max-width: 1160px;
   min-height: 400px;
   border-radius: 10px;
-  background-color: #EEF0FC;
   float: left;
   margin: 10px;
 }
@@ -462,3 +461,74 @@ td.a {
     max-width: 400px;
   }
 }
+
+
+/* ============================================================
+ * Dark mode: html[data-theme="dark"] (set by js/script.js)
+ * Page-specific inline styles are overridden here too.
+ * ============================================================ */
+#theme-toggle { background: none; border: 0; cursor: pointer; font-size: 18px; line-height: 59px;
+                padding: 0 14px; color: #eee; }
+#theme-toggle:hover { filter: brightness(1.3); }
+html[data-theme="dark"] { color-scheme: dark; }
+html[data-theme="dark"] body { background-color: #14171c; color: #dde2ea; }
+html[data-theme="dark"] a { color: #8ab4f8; }
+html[data-theme="dark"] a:visited { color: #b39ddb; }
+html[data-theme="dark"] h1, html[data-theme="dark"] h2, html[data-theme="dark"] h3, html[data-theme="dark"] h4 { color: #eef0f3; }
+html[data-theme="dark"] #logo { background-image: url(https://apache.org/img/asf_logo_wide_2016_white.png), url(https://apache.org/img/asf_logo.png); }
+html[data-theme="dark"] #footer, html[data-theme="dark"] .hint, html[data-theme="dark"] .hint2,
+html[data-theme="dark"] .cta-source, html[data-theme="dark"] small { color: #a0a9b4 !important; }
+html[data-theme="dark"] .leftbar { border-color: #3a414c; }
+html[data-theme="dark"] .leftbar ul li { background: linear-gradient(to bottom, #2a3038 0%, #22272e 100%); }
+html[data-theme="dark"] .leftbar ul li a { color: #cfd6e0; }
+html[data-theme="dark"] input, html[data-theme="dark"] textarea, html[data-theme="dark"] select {
+  background: #22272e; color: #e6e9ee; border-color: #4a525e; }
+html[data-theme="dark"] table, html[data-theme="dark"] td, html[data-theme="dark"] th { border-color: #3a414c; }
+html[data-theme="dark"] pre, html[data-theme="dark"] code { background: #22272e; color: #e6e9ee; }
+html[data-theme="dark"] blockquote { color: #cfd6e0; }
+html[data-theme="dark"] span[style*="color:#666"], html[data-theme="dark"] span[style*="color: #666"],
+html[data-theme="dark"] p[style*="color:#666"], html[data-theme="dark"] p[style*="color: #666"] { color: #a0a9b4 !important; }
+/* white cards and panels used on several pages */
+html[data-theme="dark"] .ask-side, html[data-theme="dark"] .hero-side, html[data-theme="dark"] .cta-card,
+html[data-theme="dark"] .result, html[data-theme="dark"] .q, html[data-theme="dark"] #load_box,
+html[data-theme="dark"] #doap_preview, html[data-theme="dark"] .section, html[data-theme="dark"] .stat-card {
+  background: #22272e !important; color: #dde2ea; box-shadow: 0 1px 4px rgba(0,0,0,.5); }
+html[data-theme="dark"] .chip { background: #22272e; border-color: #8a5a3a; color: #f0b88a; }
+html[data-theme="dark"] .chip:hover { background: #2e2620; }
+html[data-theme="dark"] .ask-main .lede { color: #c5ccd6; }
+html[data-theme="dark"] .opt { background: #22272e; color: #dde2ea; border-color: #4a525e; }
+html[data-theme="dark"] .opt.on { background: #4a2a10; border-color: #d45500; }
+/* yellow notice boxes */
+html[data-theme="dark"] div[style*="#fff3cd"], html[data-theme="dark"] .mock, html[data-theme="dark"] #publish {
+  background: #3a3218 !important; border-color: #7a6a2a !important; color: #eee4c0; }
+/* metrics pages */
+html[data-theme="dark"] #metrics { background: #14171c !important; color: #dde2ea; }
+html[data-theme="dark"] #metrics .tab { background: #22272e; border-color: #3a414c; color: #dde2ea; }
+html[data-theme="dark"] #metrics .tab.active { background: #2b313a; border-bottom-color: #2b313a; }
+html[data-theme="dark"] #metrics th, html[data-theme="dark"] #metrics td { border-bottom-color: #3a414c; color: #dde2ea; }
+html[data-theme="dark"] #metrics .bar { background: #3a2a1a; }
+html[data-theme="dark"] #metrics h1, html[data-theme="dark"] #metrics h2 { color: #eef0f3; }
+
+/* DataTables (releases.html, datatables.html) - its CSS loads after this file */
+html[data-theme="dark"] table.dataTable, html[data-theme="dark"] table.dataTable tbody tr,
+html[data-theme="dark"] table.dataTable.display tbody tr.odd, html[data-theme="dark"] table.dataTable.display tbody tr.even,
+html[data-theme="dark"] table.dataTable.stripe tbody tr.odd { background-color: #1d2128 !important; color: #dde2ea; }
+html[data-theme="dark"] table.dataTable.display tbody tr.odd { background-color: #22272e !important; }
+html[data-theme="dark"] table.dataTable.display tbody tr > .sorting_1,
+html[data-theme="dark"] table.dataTable.display tbody tr.odd > .sorting_1,
+html[data-theme="dark"] table.dataTable.display tbody tr.even > .sorting_1 { background-color: #262c35 !important; }
+html[data-theme="dark"] table.dataTable.display tbody tr:hover,
+html[data-theme="dark"] table.dataTable.display tbody tr:hover > .sorting_1 { background-color: #2e3540 !important; }
+html[data-theme="dark"] table.dataTable thead th, html[data-theme="dark"] table.dataTable tfoot th {
+  color: #eef0f3; border-bottom-color: #4a525e !important; background-color: #1d2128; }
+html[data-theme="dark"] table.dataTable tbody td, html[data-theme="dark"] table.dataTable.display tbody td { border-top-color: #333a44 !important; }
+html[data-theme="dark"] .dataTables_wrapper .dataTables_length, html[data-theme="dark"] .dataTables_wrapper .dataTables_filter,
+html[data-theme="dark"] .dataTables_wrapper .dataTables_info, html[data-theme="dark"] .dataTables_wrapper .dataTables_processing,
+html[data-theme="dark"] .dataTables_wrapper .dataTables_paginate { color: #c5ccd6 !important; }
+html[data-theme="dark"] .dataTables_wrapper .dataTables_paginate .paginate_button { color: #c5ccd6 !important; }
+html[data-theme="dark"] .dataTables_wrapper .dataTables_paginate .paginate_button.current,
+html[data-theme="dark"] .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+  background: #2e3540 !important; color: #fff !important; border-color: #4a525e !important; }
+html[data-theme="dark"] .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  background: #2e3540 !important; color: #fff !important; border-color: #4a525e !important; }
+html[data-theme="dark"] .dataTables_wrapper .dataTables_paginate .paginate_button.disabled { color: #6b7380 !important; }

@@ -50,3 +50,15 @@
              display: inline-flex; align-items: center; gap: .3rem; background: #f3f4f7; }
 #tip .chip i { width: 12px; height: 6px; border-radius: 3px; display: inline-block; }
 @media (prefers-reduced-motion: reduce) { .map * { transition: none !important; } }
+
+/* dark mode (CSS beats the SVG's inline presentation attributes) */
+html[data-theme="dark"] #metro .wrap { background: #14171c; border-color: #2c323b; }
+html[data-theme="dark"] .map .bg { fill: #14171c; }
+html[data-theme="dark"] .map .ttl { fill: #8aa6ff; }
+html[data-theme="dark"] .map .sub, html[data-theme="dark"] .map .legtxt .n { fill: #a0a9b4; }
+html[data-theme="dark"] .map .fg, html[data-theme="dark"] .map .legtxt { fill: #eef0f3; }
+html[data-theme="dark"] .map .hub { fill: #14171c; stroke: #eef0f3; }
+html[data-theme="dark"] #panel, html[data-theme="dark"] #tip { background: #1d2128; color: #eef0f3; border-color: #2c323b; }
+html[data-theme="dark"] #panel .chip, html[data-theme="dark"] #tip .chip,
+html[data-theme="dark"] #metro .bar button, html[data-theme="dark"] #panel .x { background: #262c35; border-color: #3a414c; color: #eef0f3; }
+html[data-theme="dark"] #panel .help, html[data-theme="dark"] #panel .kind, html[data-theme="dark"] #tip .d { color: #a0a9b4; }

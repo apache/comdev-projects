@@ -1,3 +1,22 @@
+// ---- Dark mode -----------------------------------------------------------
+// Saved choice ('light' / 'dark') in localStorage, else the system setting.
+// Set as early as possible (script.js loads in <head>) to avoid a flash.
+(function () {
+   var t = null;
+   try { t = localStorage.getItem('theme'); } catch (e) {}
+   if (t !== 'light' && t !== 'dark') {
+      t = (window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+   }
+   document.documentElement.setAttribute('data-theme', t);
+})();
+function toggleTheme() {
+   var t = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+   document.documentElement.setAttribute('data-theme', t);
+   try { localStorage.setItem('theme', t); } catch (e) {}
+   var b = document.getElementById('theme-toggle');
+   if (b) b.textContent = t === 'dark' ? '\u2600\uFE0F' : '\u{1F319}';
+}
+
 ( function( $ ) {
 $( document ).ready(function() {
 $('#cssmenu').prepend('<div id="bg-one"></div><div id="bg-two"></div><div id="bg-three"></div><div id="bg-four"></div>');
@@ -13,6 +32,12 @@ $(document).on('click', function() { $('#cssmenu').removeClass('nav-open'); });
 // Load shared nav
 $.get('/nav.html', function(html) {
    $('#cssmenu').append(html);
+   // dark mode toggle at the right of the menu bar
+   var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+   $('#cssmenu > ul').append('<li class="theme-li" style="float: right;"><button id="theme-toggle" type="button" ' +
+      'title="Switch between light and dark" aria-label="Switch between light and dark">' +
+      (dark ? '\u2600\uFE0F' : '\u{1F319}') + '</button></li>');
+   $('#theme-toggle').on('click', function (e) { e.stopPropagation(); toggleTheme(); });
    // Highlight the active page
    var page = location.pathname.split('/').pop() || 'index.html';
    // Map pages to their nav label
