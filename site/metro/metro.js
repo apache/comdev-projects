@@ -620,6 +620,13 @@
     });
     const end = e => {
       ptrs.delete(e.pointerId);
+      if (pinch && ptrs.size === 1 && drag) {
+        // Pinch ended with one finger still down: restart the pan from here.
+        // Otherwise the next move pans relative to where the first finger
+        // started and the view before the pinch, snapping the map back.
+        const [r] = [...ptrs.values()];
+        drag = {sx: r.x, sy: r.y, vb: {...vb}, moved: true, target: drag.target};
+      }
       if (ptrs.size < 2) pinch = null;
       if (drag && ptrs.size === 0) {
         if (!drag.moved && e.type === 'pointerup') click(drag.target);
