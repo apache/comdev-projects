@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03 02:00 UTC",
+ "generated": "2026-11-04 02:00 UTC",
  "questions": [
   {
    "id": "area",
@@ -9,62 +9,62 @@
     {
      "value": "Big data & analytics",
      "label": "Big data & analytics",
-     "count": 59
+     "count": 71
     },
     {
      "value": "Databases & storage",
      "label": "Databases & storage",
-     "count": 50
+     "count": 65
     },
     {
      "value": "Streaming & messaging",
      "label": "Streaming & messaging",
-     "count": 25
+     "count": 33
     },
     {
      "value": "Machine learning & AI",
      "label": "Machine learning & AI",
-     "count": 7
+     "count": 18
     },
     {
      "value": "Web, HTTP & APIs",
      "label": "Web, HTTP & APIs",
-     "count": 42
+     "count": 47
     },
     {
      "value": "Cloud & infrastructure",
      "label": "Cloud & infrastructure",
-     "count": 30
+     "count": 38
     },
     {
      "value": "Build, testing & dev tools",
      "label": "Build, testing & dev tools",
-     "count": 15
+     "count": 17
     },
     {
      "value": "Content, search & documents",
      "label": "Content, search & documents",
-     "count": 38
+     "count": 40
     },
     {
      "value": "IoT & edge",
      "label": "IoT & edge",
-     "count": 11
+     "count": 13
     },
     {
      "value": "Security & identity",
      "label": "Security & identity",
-     "count": 14
+     "count": 15
     },
     {
      "value": "Geospatial & science",
      "label": "Geospatial & science",
-     "count": 7
+     "count": 9
     },
     {
      "value": "Integration & workflow",
      "label": "Integration & workflow",
-     "count": 23
+     "count": 31
     }
    ]
   },
@@ -193,17 +193,17 @@
     {
      "value": "A library or framework I embed in my code",
      "label": "A library or framework I embed in my code",
-     "count": 93
+     "count": 108
     },
     {
      "value": "A server or platform I run",
      "label": "A server or platform I run",
-     "count": 124
+     "count": 152
     },
     {
      "value": "A tool I use from the command line or IDE",
      "label": "A tool I use from the command line or IDE",
-     "count": 51
+     "count": 60
     }
    ]
   },
@@ -259,17 +259,17 @@
     {
      "value": "very",
      "label": "Very active - released in the last 6 months",
-     "count": 162
+     "count": 164
     },
     {
      "value": "active",
      "label": "Active - released in the last 18 months",
-     "count": 38
+     "count": 35
     },
     {
      "value": "quiet",
      "label": "Quieter - could use new energy",
-     "count": 38
+     "count": 39
     }
    ]
   }
@@ -278,7 +278,7 @@
   {
    "id": "accumulo",
    "name": "Apache Accumulo",
-   "desc": "The Apache Accumulo sorted, distributed key/value store is\n      based on Google's BigTable design. It is built on top of Apache Hadoop,\n      Apache Zookeeper, and Apache Thrift. It features a few novel improvements\n      on the BigTable design in the form of cell-level access labels and a\n      se",
+   "desc": "The Apache Accumulo sorted, distributed key/value store is based on Google's BigTable design. It is built on top of Apache Hadoop, Apache Zookeeper, and Apache Thrift. It features a few novel improvements on the BigTable design in the form of cell-level access labels and a server-side programming me",
    "homepage": "https://accumulo.apache.org",
    "pmc": "accumulo",
    "language": [
@@ -368,7 +368,7 @@
   {
    "id": "airavata",
    "name": "Apache Airavata",
-   "desc": "Apache Airavata is a distributed system software framework to manage simple to\n            composite applications with complex execution and workflow patterns on diverse\n            computational resources.",
+   "desc": "Apache Airavata is a distributed system software framework to manage simple to composite applications with complex execution and workflow patterns on diverse computational resources.",
    "homepage": "https://airavata.apache.org",
    "pmc": "airavata",
    "language": [
@@ -482,12 +482,16 @@
   {
    "id": "incubator-amoro",
    "name": "Apache Amoro",
-   "desc": "",
-   "homepage": null,
+   "desc": "Amoro is a Lakehouse management system built on open data lake formats like Apache Iceberg and Apache Paimon.",
+   "homepage": "https://amoro.incubator.apache.org/",
    "pmc": "incubator",
    "language": [],
-   "area": [],
-   "kind": [],
+   "area": [
+    "Big data & analytics"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
    "maturity": [
     "incubating"
    ],
@@ -503,12 +507,14 @@
   {
    "id": "answer",
    "name": "Apache Answer",
-   "desc": "",
+   "desc": "A Q-and-A platform software for teams at any scales",
    "homepage": "https://answer.apache.org",
    "pmc": "answer",
    "language": [],
    "area": [],
-   "kind": [],
+   "kind": [
+    "A server or platform I run"
+   ],
    "maturity": [
     "young"
    ],
@@ -551,12 +557,17 @@
   {
    "id": "apisix",
    "name": "Apache Apisix",
-   "desc": "",
+   "desc": "a cloud-native microservices API gateway",
    "homepage": "https://apisix.apache.org",
    "pmc": "apisix",
    "language": [],
-   "area": [],
-   "kind": [],
+   "area": [
+    "Web, HTTP & APIs",
+    "Cloud & infrastructure"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
    "maturity": [
     "established"
    ],
@@ -630,18 +641,22 @@
    "activity": [
     "very"
    ],
-   "lastRelease": "2026-10-28",
+   "lastRelease": "2026-11-03",
    "committers": 121
   },
   {
    "id": "artemis",
    "name": "Apache Artemis",
-   "desc": "",
+   "desc": "implementing a distributed messaging system",
    "homepage": "https://artemis.apache.org",
    "pmc": "artemis",
    "language": [],
-   "area": [],
-   "kind": [],
+   "area": [
+    "Streaming & messaging"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
    "maturity": [
     "young"
    ],
@@ -657,12 +672,16 @@
   {
    "id": "asterixdb",
    "name": "Apache Asterixdb",
-   "desc": "",
+   "desc": "open source Big Data Management System",
    "homepage": "https://asterixdb.apache.org",
    "pmc": "asterixdb",
    "language": [],
-   "area": [],
-   "kind": [],
+   "area": [
+    "Big data & analytics"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
    "maturity": [
     "established"
    ],
@@ -701,7 +720,7 @@
   {
    "id": "atlas",
    "name": "Apache Atlas",
-   "desc": "",
+   "desc": "scalable and extensible set of core foundational governance services",
    "homepage": "https://atlas.apache.org",
    "pmc": "atlas",
    "language": [],
@@ -722,11 +741,13 @@
   {
    "id": "auron",
    "name": "Apache Auron",
-   "desc": "",
+   "desc": "an accelerator for big data engines that leverages native vectorized execution to accelerate query processing",
    "homepage": "https://auron.apache.org",
    "pmc": "auron",
    "language": [],
-   "area": [],
+   "area": [
+    "Big data & analytics"
+   ],
    "kind": [],
    "maturity": [
     "young"
@@ -843,11 +864,13 @@
   {
    "id": "incubator-bifromq",
    "name": "Apache BifroMQ",
-   "desc": "",
-   "homepage": null,
+   "desc": "BifroMQ is a Java-based, high-performance, distributed MQTT broker with native multi-tenancy support, designed for large-scale connections and message delivery.",
+   "homepage": "https://bifromq.incubator.apache.org/",
    "pmc": "incubator",
    "language": [],
-   "area": [],
+   "area": [
+    "Streaming & messaging"
+   ],
    "kind": [],
    "maturity": [
     "incubating"
@@ -979,7 +1002,7 @@
   {
    "id": "buildstream",
    "name": "Apache Buildstream",
-   "desc": "",
+   "desc": "efficiently and correctly developing, building and integrating software stacks",
    "homepage": "https://buildstream.apache.org",
    "pmc": "buildstream",
    "language": [],
@@ -1000,12 +1023,18 @@
   {
    "id": "incubator-burr",
    "name": "Apache Burr",
-   "desc": "",
-   "homepage": null,
+   "desc": "Burr is a lightweight in-process python framework that standardizes the expression and execution of state machines as action-driven graphs, while making graph execution easily observable. It is particularly suited for AI agent workflows, simulations, and other dynamic systems, and comes with a self-",
+   "homepage": "https://burr.incubator.apache.org/",
    "pmc": "incubator",
    "language": [],
-   "area": [],
-   "kind": [],
+   "area": [
+    "Machine learning & AI",
+    "Cloud & infrastructure",
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
    "maturity": [
     "incubating"
    ],
@@ -1079,12 +1108,19 @@
   {
    "id": "incubator-caldera",
    "name": "Apache Caldera",
-   "desc": "",
-   "homepage": null,
+   "desc": "Caldera provides a modular platform for modeling, scripting, and executing adversary behavior. It allows users to construct emulation plans, provides agents for communicating with the command and control server, and enables users to evaluate security detections in a structured, scalable, and repeata",
+   "homepage": "https://caldera.incubator.apache.org/",
    "pmc": "incubator",
    "language": [],
-   "area": [],
-   "kind": [],
+   "area": [
+    "Big data & analytics",
+    "Security & identity"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
    "maturity": [
     "incubating"
    ],
@@ -1159,8 +1195,8 @@
   {
    "id": "incubator-casbin",
    "name": "Apache Casbin",
-   "desc": "",
-   "homepage": null,
+   "desc": "Casbin",
+   "homepage": "https://casbin.apache.org/",
    "pmc": "incubator",
    "language": [],
    "area": [],
@@ -1268,12 +1304,16 @@
   {
    "id": "celeborn",
    "name": "Apache Celeborn",
-   "desc": "",
+   "desc": "an intermediate data service for big data computing engines to boost performance, stability, and flexibility",
    "homepage": "https://celeborn.apache.org",
    "pmc": "celeborn",
    "language": [],
-   "area": [],
-   "kind": [],
+   "area": [
+    "Big data & analytics"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
    "maturity": [
     "young"
    ],
@@ -1315,11 +1355,12 @@
   {
    "id": "incubator-cloudberry",
    "name": "Apache Cloudberry",
-   "desc": "",
-   "homepage": null,
+   "desc": "Cloudberry Database, built on the latest PostgreSQL kernel, is one of the most advanced and mature open-source MPP (Massively Parallel Processing) databases available.",
+   "homepage": "https://cloudberry.incubator.apache.org/",
    "pmc": "incubator",
    "language": [],
    "area": [
+    "Databases & storage",
     "Cloud & infrastructure"
    ],
    "kind": [],
@@ -1330,9 +1371,9 @@
     "medium"
    ],
    "activity": [
-    "active"
+    "very"
    ],
-   "lastRelease": "2026-04-13",
+   "lastRelease": "2026-11-03",
    "committers": 34
   },
   {
@@ -1569,7 +1610,7 @@
   {
    "id": "daffodil",
    "name": "Apache Daffodil",
-   "desc": "Apache Daffodil is an open-source implementation of the\n        Data Format Description Language to convert between fixed format\n        data and XML, JSON, or other data structures.",
+   "desc": "Apache Daffodil is an open-source implementation of the Data Format Description Language to convert between fixed format data and XML, JSON, or other data structures.",
    "homepage": "https://daffodil.apache.org",
    "pmc": "daffodil",
    "language": [
@@ -1750,12 +1791,14 @@
   {
    "id": "devlake",
    "name": "Apache Devlake",
-   "desc": "",
+   "desc": "a development data platform, providing the data infrastructure for developer teams to analyze and improve their engineering productivity",
    "homepage": "https://devlake.apache.org",
    "pmc": "devlake",
    "language": [],
    "area": [],
-   "kind": [],
+   "kind": [
+    "A server or platform I run"
+   ],
    "maturity": [
     "young"
    ],
@@ -1797,12 +1840,16 @@
   {
    "id": "dolphinscheduler",
    "name": "Apache Dolphinscheduler",
-   "desc": "",
+   "desc": "a distributed and extensible workflow scheduler platform with powerful DAG visual interfaces",
    "homepage": "https://dolphinscheduler.apache.org",
    "pmc": "dolphinscheduler",
    "language": [],
-   "area": [],
-   "kind": [],
+   "area": [
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
    "maturity": [
     "young"
    ],
@@ -1905,7 +1952,7 @@
   {
    "id": "dubbo",
    "name": "Apache Dubbo",
-   "desc": "Apache Dubbo is a powerful and user-friendly Web and RPC framework. It supports multiple language implementations such as Java, Go, Python, PHP, Erlang, Rust, and Node.js/Web.\r\n\r\nDubbo provides solutions for communication, service discovery, traffic management, observability, security, tooling, and ",
+   "desc": "Apache Dubbo is a powerful and user-friendly Web and RPC framework. It supports multiple language implementations such as Java, Go, Python, PHP, Erlang, Rust, and Node.js/Web. Dubbo provides solutions for communication, service discovery, traffic management, observability, security, tooling, and bes",
    "homepage": "https://dubbo.apache.org/",
    "pmc": "dubbo",
    "language": [],
@@ -1960,7 +2007,7 @@
   {
    "id": "empire-db",
    "name": "Apache Empire-db",
-   "desc": "Apache Empire-db is a relational database access library that provides an alternative \n\tapproach to Object-Relational-Mapping (ORM) as offered by JDO and JPA",
+   "desc": "Apache Empire-db is a relational database access library that provides an alternative approach to Object-Relational-Mapping (ORM) as offered by JDO and JPA",
    "homepage": "https://empire-db.apache.org",
    "pmc": "empire-db",
    "language": [
@@ -2093,11 +2140,14 @@
   {
    "id": "flagon",
    "name": "Apache Flagon",
-   "desc": "",
+   "desc": "thin-client behavioral logging capability useful for business analytics, usage analytics, usability and user testing",
    "homepage": "https://flagon.apache.org",
    "pmc": "flagon",
    "language": [],
-   "area": [],
+   "area": [
+    "Big data & analytics",
+    "Build, testing & dev tools"
+   ],
    "kind": [],
    "maturity": [
     "young"
@@ -2171,11 +2221,15 @@
   {
    "id": "fluss",
    "name": "Apache Fluss",
-   "desc": "",
+   "desc": "a streaming storage built for real-time analytics which can serve as the real-time data layer for Lakehouse architectures",
    "homepage": "https://fluss.apache.org",
    "pmc": "fluss",
    "language": [],
-   "area": [],
+   "area": [
+    "Big data & analytics",
+    "Databases & storage",
+    "Streaming & messaging"
+   ],
    "kind": [],
    "maturity": [
     "young"
@@ -2220,12 +2274,14 @@
   {
    "id": "fory",
    "name": "Apache Fory",
-   "desc": "",
+   "desc": "fast multi-language serialization framework powered by JIT and zero-copy",
    "homepage": "https://fory.apache.org",
    "pmc": "fory",
    "language": [],
    "area": [],
-   "kind": [],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
    "maturity": [
     "young"
    ],
@@ -2271,12 +2327,17 @@
   {
    "id": "incubator-geaflow",
    "name": "Apache GeaFlow",
-   "desc": "",
-   "homepage": null,
+   "desc": "GeaFlow is a distributed stream and batch integration graph compute engine.",
+   "homepage": "https://geaflow.incubator.apache.org/",
    "pmc": "incubator",
    "language": [],
-   "area": [],
-   "kind": [],
+   "area": [
+    "Streaming & messaging",
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
    "maturity": [
     "incubating"
    ],
@@ -2349,7 +2410,7 @@
   {
    "id": "gluten",
    "name": "Apache Gluten",
-   "desc": "",
+   "desc": "software related to a pluggable middleware that enables native, vectorized execution engines to accelerate Apache SparkSQL workloads;",
    "homepage": "https://gluten.apache.org",
    "pmc": "gluten",
    "language": [],
@@ -2428,11 +2489,13 @@
   {
    "id": "incubator-graphar",
    "name": "Apache GraphAr",
-   "desc": "",
-   "homepage": null,
+   "desc": "GraphAr is an open-source and language-independent data file format designed for efficient graph data storage and retrieval.",
+   "homepage": "https://graphar.incubator.apache.org/",
    "pmc": "incubator",
    "language": [],
-   "area": [],
+   "area": [
+    "Databases & storage"
+   ],
    "kind": [],
    "maturity": [
     "incubating"
@@ -2449,12 +2512,17 @@
   {
    "id": "gravitino",
    "name": "Apache Gravitino",
-   "desc": "",
+   "desc": "managing your data and AI assets seamlessly with a flexible, unified governance framework, including lakehouse federation capabilities",
    "homepage": "https://gravitino.apache.org",
    "pmc": "gravitino",
    "language": [],
-   "area": [],
-   "kind": [],
+   "area": [
+    "Big data & analytics",
+    "Machine learning & AI"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
    "maturity": [
     "young"
    ],
@@ -2581,12 +2649,19 @@
   {
    "id": "incubator-hamilton",
    "name": "Apache Hamilton",
-   "desc": "",
-   "homepage": null,
+   "desc": "Hamilton is a lightweight in-process framework to define, execute, and observe directed acyclic graphs (DAGs) that express data transformations. In Hamilton, one can express complex DAGs of transformations, e.g. from dataframe transformations (using pandas, polars, PySpark), machine learning pipelin",
+   "homepage": "https://hamilton.incubator.apache.org/",
    "pmc": "incubator",
    "language": [],
-   "area": [],
-   "kind": [],
+   "area": [
+    "Machine learning & AI",
+    "Cloud & infrastructure",
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
    "maturity": [
     "incubating"
    ],
@@ -2826,18 +2901,22 @@
    "activity": [
     "very"
    ],
-   "lastRelease": "2026-10-17",
+   "lastRelease": "2026-11-03",
    "committers": 44
   },
   {
    "id": "hugegraph",
    "name": "Apache Hugegraph",
-   "desc": "",
+   "desc": "a convenient, efficient, and adaptable graph database compatible with the Apache TinkerPop3 framework and the Gremlin query language",
    "homepage": "https://hugegraph.apache.org",
    "pmc": "hugegraph",
    "language": [],
-   "area": [],
-   "kind": [],
+   "area": [
+    "Databases & storage"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
    "maturity": [
     "young"
    ],
@@ -2879,18 +2958,22 @@
    "activity": [
     "very"
    ],
-   "lastRelease": "2026-10-01",
+   "lastRelease": "2026-11-03",
    "committers": 40
   },
   {
    "id": "iggy",
    "name": "Apache Iggy",
-   "desc": "",
+   "desc": "Iggy is a high-performance, ultra-low latency and large-scale persistent message streaming platform written in Rust.",
    "homepage": "https://iggy.apache.org",
    "pmc": "iggy",
    "language": [],
-   "area": [],
-   "kind": [],
+   "area": [
+    "Streaming & messaging"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
    "maturity": [
     "young"
    ],
@@ -3151,7 +3234,7 @@
   {
    "id": "johnzon",
    "name": "Apache Johnzon",
-   "desc": "",
+   "desc": "JSR-353 compliant JSON parsing; modules to help with JSR-353 as well as JSR-374 and JSR-367",
    "homepage": "https://johnzon.apache.org",
    "pmc": "johnzon",
    "language": [],
@@ -3172,7 +3255,7 @@
   {
    "id": "jspwiki",
    "name": "Apache JSPWiki",
-   "desc": "A feature-rich and extensible WikiWiki engine built around the standard \n        JEE components (Java, servlets, JSP).",
+   "desc": "A feature-rich and extensible WikiWiki engine built around the standard JEE components (Java, servlets, JSP).",
    "homepage": "https://jspwiki.apache.org/",
    "pmc": "jspwiki",
    "language": [
@@ -3203,12 +3286,18 @@
   {
    "id": "juneau",
    "name": "Apache Juneau",
-   "desc": "",
+   "desc": "a toolkit for marshalling POJOs to a wide variety of content types using a common framework, and for creating sophisticated self-documenting REST interfaces and microservices using VERY little code",
    "homepage": "https://juneau.apache.org",
    "pmc": "juneau",
    "language": [],
-   "area": [],
-   "kind": [],
+   "area": [
+    "Web, HTTP & APIs",
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A tool I use from the command line or IDE"
+   ],
    "maturity": [
     "established"
    ],
@@ -3216,9 +3305,9 @@
     "small"
    ],
    "activity": [
-    "active"
+    "very"
    ],
-   "lastRelease": "2025-12-30",
+   "lastRelease": "2026-11-03",
    "committers": 13
   },
   {
@@ -3279,12 +3368,16 @@
   {
    "id": "incubator-kie",
    "name": "Apache KIE",
-   "desc": "",
-   "homepage": null,
+   "desc": "KIE (Knowledge is Everything) is a community of solutions and supporting tooling for knowledge engineering and process automation, focusing on events, rules, and workflows.",
+   "homepage": "https://kie.incubator.apache.org/",
    "pmc": "incubator",
    "language": [],
-   "area": [],
-   "kind": [],
+   "area": [
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A tool I use from the command line or IDE"
+   ],
    "maturity": [
     "incubating"
    ],
@@ -3360,11 +3453,13 @@
   {
    "id": "kvrocks",
    "name": "Apache Kvrocks",
-   "desc": "",
+   "desc": "a distributed key-value NoSQL database, supporting the rich data structure",
    "homepage": "https://kvrocks.apache.org",
    "pmc": "kvrocks",
    "language": [],
-   "area": [],
+   "area": [
+    "Databases & storage"
+   ],
    "kind": [],
    "maturity": [
     "young"
@@ -3490,12 +3585,16 @@
   {
    "id": "livy",
    "name": "Apache Livy",
-   "desc": "",
+   "desc": "web service that exposes a REST interface for managing long running Apache Spark contexts in your cluster. With Livy, new applications can be built on top of Apache Spark that require fine grained interaction with many Spark contexts",
    "homepage": "https://livy.apache.org",
    "pmc": "livy",
    "language": [],
-   "area": [],
-   "kind": [],
+   "area": [
+    "Web, HTTP & APIs"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
    "maturity": [
     "young"
    ],
@@ -3536,12 +3635,17 @@
   {
    "id": "lucene",
    "name": "Apache Lucene Lucene",
-   "desc": "",
-   "homepage": null,
+   "desc": "Search engine library",
+   "homepage": "https://lucene.apache.org/",
    "pmc": "lucene",
    "language": [],
-   "area": [],
-   "kind": [],
+   "area": [
+    "Content, search & documents"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
    "maturity": [
     "established"
    ],
@@ -3643,12 +3747,17 @@
   {
    "id": "incubator-maka",
    "name": "Apache Maka",
-   "desc": "",
-   "homepage": null,
+   "desc": "Maka is a local-first AI agent runtime and workspace. It records model messages, tool calls, tool results, permission decisions, and termination events in append-only logs.",
+   "homepage": "https://maka.incubator.apache.org/",
    "pmc": "incubator",
    "language": [],
-   "area": [],
-   "kind": [],
+   "area": [
+    "Streaming & messaging",
+    "Machine learning & AI"
+   ],
+   "kind": [
+    "A tool I use from the command line or IDE"
+   ],
    "maturity": [
     "incubating"
    ],
@@ -3885,14 +3994,14 @@
    "activity": [
     "very"
    ],
-   "lastRelease": "2026-11-02",
+   "lastRelease": "2026-11-03",
    "committers": 56
   },
   {
    "id": "incubator-nullaway",
    "name": "Apache NullAway",
-   "desc": "",
-   "homepage": null,
+   "desc": "NullAway is a fast, annotation-based nullness checker for Java that helps eliminate NullPointerExceptions at build time with minimal overhead.",
+   "homepage": "https://nullaway.incubator.apache.org/",
    "pmc": "incubator",
    "language": [],
    "area": [],
@@ -3942,12 +4051,16 @@
   {
    "id": "nuttx",
    "name": "Apache Nuttx",
-   "desc": "",
+   "desc": "a mature, real-time embedded operating system (RTOS)",
    "homepage": "https://nuttx.apache.org",
    "pmc": "nuttx",
    "language": [],
-   "area": [],
-   "kind": [],
+   "area": [
+    "IoT & edge"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
    "maturity": [
     "young"
    ],
@@ -4136,12 +4249,21 @@
   {
    "id": "incubator-openserverless",
    "name": "Apache OpenServerless",
-   "desc": "",
-   "homepage": null,
+   "desc": "OpenServerless is an open source, cloud-agnostic, serverless platform. It offers a complete environment for serverless applications development, based on Kubernetes. With Apache OpenWhisk as its FaaS engine, it provides an unified developer experience with a plethora of services (SQL or noSQL databa",
+   "homepage": "https://openserverless.incubator.apache.org/",
    "pmc": "incubator",
    "language": [],
-   "area": [],
-   "kind": [],
+   "area": [
+    "Databases & storage",
+    "Machine learning & AI",
+    "Cloud & infrastructure",
+    "Build, testing & dev tools",
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
    "maturity": [
     "incubating"
    ],
@@ -4184,12 +4306,14 @@
   {
    "id": "openwhisk",
    "name": "Apache Openwhisk",
-   "desc": "",
+   "desc": "a platform for building serverless applications with functions",
    "homepage": "https://openwhisk.apache.org",
    "pmc": "openwhisk",
    "language": [],
    "area": [],
-   "kind": [],
+   "kind": [
+    "A server or platform I run"
+   ],
    "maturity": [
     "established"
    ],
@@ -4236,11 +4360,14 @@
   {
    "id": "incubator-ossie",
    "name": "Apache Ossie",
-   "desc": "",
-   "homepage": null,
+   "desc": "Apache Ossie is an industry-wide specification effort to standardize how we exchange semantic metadata across analytics, AI and BI platforms, providing a vendor neutral, single source of truth for semantic data.",
+   "homepage": "https://ossie.apache.org/",
    "pmc": "incubator",
    "language": [],
-   "area": [],
+   "area": [
+    "Big data & analytics",
+    "Machine learning & AI"
+   ],
    "kind": [],
    "maturity": [
     "incubating"
@@ -4257,12 +4384,16 @@
   {
    "id": "incubator-otava",
    "name": "Apache Otava",
-   "desc": "",
-   "homepage": null,
+   "desc": "Otava, a command-line tool, written in Python, that detects statistically significant changes in time-series data stored either in databases or CSV files. Otava entered Incubation as Hunter",
+   "homepage": "https://otava.incubator.apache.org/",
    "pmc": "incubator",
    "language": [],
-   "area": [],
-   "kind": [],
+   "area": [
+    "Databases & storage"
+   ],
+   "kind": [
+    "A tool I use from the command line or IDE"
+   ],
    "maturity": [
     "incubating"
    ],
@@ -4278,12 +4409,16 @@
   {
    "id": "incubator-ozhera",
    "name": "Apache OzHera",
-   "desc": "",
-   "homepage": null,
+   "desc": "OzHera is an application observation platform (APM) in the era of cloud native, with the application as its core, integrating capabilities such as metric monitoring, trace tracking, logging, and alerting",
+   "homepage": "https://ozhera.incubator.apache.org/",
    "pmc": "incubator",
    "language": [],
-   "area": [],
-   "kind": [],
+   "area": [
+    "Cloud & infrastructure"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
    "maturity": [
     "incubating"
    ],
@@ -4328,11 +4463,15 @@
   {
    "id": "paimon",
    "name": "Apache Paimon",
-   "desc": "",
+   "desc": "a unified lake storage to build dynamic tables for both stream and batch processing with big data compute engines, supporting high-speed data ingestion and real-time data query",
    "homepage": "https://paimon.apache.org",
    "pmc": "paimon",
    "language": [],
-   "area": [],
+   "area": [
+    "Big data & analytics",
+    "Databases & storage",
+    "Streaming & messaging"
+   ],
    "kind": [],
    "maturity": [
     "young"
@@ -4343,7 +4482,7 @@
    "activity": [
     "very"
    ],
-   "lastRelease": "2026-10-12",
+   "lastRelease": "2026-11-03",
    "committers": 35
   },
   {
@@ -4406,12 +4545,16 @@
   {
    "id": "incubator-pegasus",
    "name": "Apache Pegasus",
-   "desc": "",
-   "homepage": null,
+   "desc": "Pegasus is a distributed key-value storage system which is designed to be simple, horizontally scalable, strongly consistent and high-performance.",
+   "homepage": "https://pegasus.incubator.apache.org/",
    "pmc": "incubator",
    "language": [],
-   "area": [],
-   "kind": [],
+   "area": [
+    "Databases & storage"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
    "maturity": [
     "incubating"
    ],
@@ -4427,12 +4570,15 @@
   {
    "id": "pekko",
    "name": "Apache Pekko",
-   "desc": "",
+   "desc": "a toolkit and an ecosystem for building highly concurrent, distributed, reactive and resilient applications for Java and Scala",
    "homepage": "https://pekko.apache.org",
    "pmc": "pekko",
    "language": [],
    "area": [],
-   "kind": [],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A tool I use from the command line or IDE"
+   ],
    "maturity": [
     "young"
    ],
@@ -4478,7 +4624,7 @@
   {
    "id": "pig",
    "name": "Apache Pig",
-   "desc": "Apache Pig is a platform for analyzing large data sets on Hadoop.  It provides a high-level language for expressing data analysis programs, coupled with infrastructure for evaluating these programs.",
+   "desc": "Apache Pig is a platform for analyzing large data sets on Hadoop. It provides a high-level language for expressing data analysis programs, coupled with infrastructure for evaluating these programs.",
    "homepage": "https://pig.apache.org",
    "pmc": "pig",
    "language": [
@@ -4682,11 +4828,13 @@
   {
    "id": "incubator-pouchdb",
    "name": "Apache PouchDB",
-   "desc": "",
-   "homepage": null,
+   "desc": "PouchDB is an open-source JavaScript database inspired by Apache CouchDB that is designed to run well within the browser.",
+   "homepage": "https://pouchdb.incubator.apache.org/",
    "pmc": "incubator",
    "language": [],
-   "area": [],
+   "area": [
+    "Databases & storage"
+   ],
    "kind": [],
    "maturity": [
     "incubating"
@@ -4844,11 +4992,14 @@
   {
    "id": "reqsign",
    "name": "Apache Reqsign",
-   "desc": "",
+   "desc": "signing HTTP requests to cloud services",
    "homepage": "https://reqsign.apache.org",
    "pmc": "reqsign",
    "language": [],
-   "area": [],
+   "area": [
+    "Web, HTTP & APIs",
+    "Cloud & infrastructure"
+   ],
    "kind": [],
    "maturity": [
     "young"
@@ -4865,12 +5016,14 @@
   {
    "id": "resilientdb",
    "name": "Apache Resilientdb",
-   "desc": "",
+   "desc": "ResilientDB is a distributed blockchain framework that is open-source, lightweight, modular, and highly performant.",
    "homepage": "https://resilientdb.apache.org",
    "pmc": "resilientdb",
    "language": [],
    "area": [],
-   "kind": [],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
    "maturity": [
     "young"
    ],
@@ -4915,11 +5068,13 @@
   {
    "id": "rocketmq",
    "name": "Apache Rocketmq",
-   "desc": "",
+   "desc": "a fast, low latency, reliable, scalable, distributed, easy to use message-oriented middleware, especially for processing large amounts of streaming data",
    "homepage": "https://rocketmq.apache.org",
    "pmc": "rocketmq",
    "language": [],
-   "area": [],
+   "area": [
+    "Streaming & messaging"
+   ],
    "kind": [],
    "maturity": [
     "established"
@@ -4993,11 +5148,13 @@
   {
    "id": "rya",
    "name": "Apache Rya",
-   "desc": "",
+   "desc": "scalable storage, retrieval, and analysis of RDF data",
    "homepage": "https://rya.apache.org",
    "pmc": "rya",
    "language": [],
-   "area": [],
+   "area": [
+    "Databases & storage"
+   ],
    "kind": [],
    "maturity": [
     "established"
@@ -5071,7 +5228,7 @@
   {
    "id": "sdap",
    "name": "Apache Sdap",
-   "desc": "",
+   "desc": "an integrated data analytic center for Big Science problems",
    "homepage": "https://sdap.apache.org",
    "pmc": "sdap",
    "language": [],
@@ -5092,8 +5249,8 @@
   {
    "id": "incubator-seata",
    "name": "Apache Seata",
-   "desc": "",
-   "homepage": null,
+   "desc": "Seata(Simple Extensible Autonomous Transaction Architecture)is an easy-to-use and high-performance distributed transaction solution, used to solve the data consistency problem.",
+   "homepage": "https://seata.incubator.apache.org/",
    "pmc": "incubator",
    "language": [],
    "area": [],
@@ -5142,12 +5299,16 @@
   {
    "id": "sedona",
    "name": "Apache Sedona",
-   "desc": "",
+   "desc": "a big geospatial data processing engine. It provides an easy to use APIs for spatial data scientists to manage, wrangle, and process geospatial data",
    "homepage": "https://sedona.apache.org",
    "pmc": "sedona",
    "language": [],
-   "area": [],
-   "kind": [],
+   "area": [
+    "Geospatial & science"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
    "maturity": [
     "young"
    ],
@@ -5190,12 +5351,17 @@
   {
    "id": "servicecomb",
    "name": "Apache Servicecomb",
-   "desc": "",
+   "desc": "a microservice framework that provides a set of tools and components to make development and deployment of cloud applications easier.",
    "homepage": "https://servicecomb.apache.org",
    "pmc": "servicecomb",
    "language": [],
-   "area": [],
-   "kind": [],
+   "area": [
+    "Cloud & infrastructure"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A tool I use from the command line or IDE"
+   ],
    "maturity": [
     "established"
    ],
@@ -5211,12 +5377,16 @@
   {
    "id": "shardingsphere",
    "name": "Apache Shardingsphere",
-   "desc": "",
+   "desc": "a database clustering system providing data sharding, distributed transactions, and distributed database management",
    "homepage": "https://shardingsphere.apache.org",
    "pmc": "shardingsphere",
    "language": [],
-   "area": [],
-   "kind": [],
+   "area": [
+    "Databases & storage"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
    "maturity": [
     "established"
    ],
@@ -5232,12 +5402,17 @@
   {
    "id": "shenyu",
    "name": "Apache Shenyu",
-   "desc": "",
+   "desc": "a Java native API Gateway for service proxy, protocol conversion and API governance",
    "homepage": "https://shenyu.apache.org",
    "pmc": "shenyu",
    "language": [],
-   "area": [],
-   "kind": [],
+   "area": [
+    "Web, HTTP & APIs"
+   ],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
    "maturity": [
     "young"
    ],
@@ -5281,12 +5456,16 @@
   {
    "id": "singa",
    "name": "Apache Singa",
-   "desc": "",
+   "desc": "a distributed deep learning platform",
    "homepage": "https://singa.apache.org",
    "pmc": "singa",
    "language": [],
-   "area": [],
-   "kind": [],
+   "area": [
+    "Machine learning & AI"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
    "maturity": [
     "established"
    ],
@@ -5387,11 +5566,13 @@
   {
    "id": "sourcelume",
    "name": "Apache Sourcelume",
-   "desc": "",
+   "desc": "AI training-data provenance",
    "homepage": "https://sourcelume.apache.org",
    "pmc": "sourcelume",
    "language": [],
-   "area": [],
+   "area": [
+    "Machine learning & AI"
+   ],
    "kind": [],
    "maturity": [
     "young"
@@ -5550,7 +5731,7 @@
   {
    "id": "stormcrawler",
    "name": "Apache Stormcrawler",
-   "desc": "",
+   "desc": "an open source collection of resources for building low-latency, scalable web crawlers on Apache Storm",
    "homepage": "https://stormcrawler.apache.org",
    "pmc": "stormcrawler",
    "language": [],
@@ -5571,14 +5752,17 @@
   {
    "id": "streampark",
    "name": "Apache Streampark",
-   "desc": "",
+   "desc": "Make stream processing easier! Easy-to-use streaming application development framework and operation platform",
    "homepage": "https://streampark.apache.org",
    "pmc": "streampark",
    "language": [],
    "area": [
     "Streaming & messaging"
    ],
-   "kind": [],
+   "kind": [
+    "A library or framework I embed in my code",
+    "A server or platform I run"
+   ],
    "maturity": [
     "young"
    ],
@@ -5594,14 +5778,18 @@
   {
    "id": "streampipes",
    "name": "Apache Streampipes",
-   "desc": "",
+   "desc": "a self-service Industrial IoT toolbox which enables non-technical users to connect, analyze and explore IoT data streams",
    "homepage": "https://streampipes.apache.org",
    "pmc": "streampipes",
    "language": [],
    "area": [
-    "Streaming & messaging"
+    "Streaming & messaging",
+    "IoT & edge"
    ],
-   "kind": [],
+   "kind": [
+    "A server or platform I run",
+    "A tool I use from the command line or IDE"
+   ],
    "maturity": [
     "young"
    ],
@@ -5763,12 +5951,17 @@
   {
    "id": "systemds",
    "name": "Apache Systemds",
-   "desc": "",
+   "desc": "A machine learning platform optimal for big data",
    "homepage": "https://systemds.apache.org",
    "pmc": "systemds",
    "language": [],
-   "area": [],
-   "kind": [],
+   "area": [
+    "Big data & analytics",
+    "Machine learning & AI"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
    "maturity": [
     "established"
    ],
@@ -5812,7 +6005,7 @@
   {
    "id": "teaclave",
    "name": "Apache Teaclave",
-   "desc": "",
+   "desc": "SDKs for building memory-safe applications on Trusted Execution Environments",
    "homepage": "https://teaclave.apache.org",
    "pmc": "teaclave",
    "language": [],
@@ -5833,12 +6026,19 @@
   {
    "id": "incubator-texera",
    "name": "Apache Texera",
-   "desc": "",
-   "homepage": null,
+   "desc": "Texera is an open-source system to support collaborative data science, AI, and ML using GUI-based workflows. Our vision is to develop a system to support cloud platforms on which users can easily analyze data and use AI/ML techniques provided as operators. Users with various backgrounds, irrespectiv",
+   "homepage": "https://texera.incubator.apache.org/",
    "pmc": "incubator",
    "language": [],
-   "area": [],
-   "kind": [],
+   "area": [
+    "Machine learning & AI",
+    "Cloud & infrastructure",
+    "Geospatial & science",
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
    "maturity": [
     "incubating"
    ],
@@ -5874,7 +6074,7 @@
     "medium"
    ],
    "activity": [
-    "active"
+    "quiet"
    ],
    "lastRelease": "2025-05-12",
    "committers": 36
@@ -5923,7 +6123,7 @@
   {
    "id": "tika",
    "name": "Apache Tika",
-   "desc": "The Apache Tika toolkit detects and extracts metadata and structured \n    text content from various documents using existing parser libraries.",
+   "desc": "The Apache Tika toolkit detects and extracts metadata and structured text content from various documents using existing parser libraries.",
    "homepage": "https://tika.apache.org",
    "pmc": "tika",
    "language": [
@@ -5951,12 +6151,17 @@
   {
    "id": "tinkerpop",
    "name": "Apache Tinkerpop",
-   "desc": "",
+   "desc": "A graph computing framework for both graph databases (OLTP) and graph analytic systems (OLAP)",
    "homepage": "https://tinkerpop.apache.org",
    "pmc": "tinkerpop",
    "language": [],
-   "area": [],
-   "kind": [],
+   "area": [
+    "Big data & analytics",
+    "Databases & storage"
+   ],
+   "kind": [
+    "A library or framework I embed in my code"
+   ],
    "maturity": [
     "established"
    ],
@@ -5972,7 +6177,7 @@
   {
    "id": "tomcat",
    "name": "Apache Tomcat",
-   "desc": "A Java Servlet, JavaServer Pages, Java Expression\n    Language and Java WebSocket specifications implementation.",
+   "desc": "A Java Servlet, JavaServer Pages, Java Expression Language and Java WebSocket specifications implementation.",
    "homepage": "https://tomcat.apache.org/",
    "pmc": "tomcat",
    "language": [
@@ -6028,8 +6233,8 @@
   {
    "id": "incubator-toree",
    "name": "Apache Toree",
-   "desc": "",
-   "homepage": null,
+   "desc": "Toree provides applications with a mechanism to interactively and remotely access Apache Spark.",
+   "homepage": "https://toree.incubator.apache.org/",
    "pmc": "incubator",
    "language": [],
    "area": [],
@@ -6076,7 +6281,7 @@
   {
    "id": "training",
    "name": "Apache Training",
-   "desc": "",
+   "desc": "training materials for Apache projects and the Apache Software Foundation",
    "homepage": "https://training.apache.org",
    "pmc": "training",
    "language": [],
@@ -6191,7 +6396,7 @@
   {
    "id": "uima",
    "name": "Apache UIMA",
-   "desc": "Annotator components and a\n      scalable integration and deployment framework for\n      Unstructured Information analysis",
+   "desc": "Annotator components and a scalable integration and deployment framework for Unstructured Information analysis",
    "homepage": "https://uima.apache.org",
    "pmc": "uima",
    "language": [
@@ -6220,12 +6425,14 @@
   {
    "id": "uniffle",
    "name": "Apache Uniffle",
-   "desc": "",
+   "desc": "a unified remote shuffle service",
    "homepage": "https://uniffle.apache.org",
    "pmc": "uniffle",
    "language": [],
    "area": [],
-   "kind": [],
+   "kind": [
+    "A server or platform I run"
+   ],
    "maturity": [
     "young"
    ],
@@ -6330,12 +6537,18 @@
   {
    "id": "wayang",
    "name": "Apache Wayang",
-   "desc": "",
+   "desc": "cross-engine data processing that aims at (i) decoupling applications from underlying data processing engines, such as Apache Flink, Apache Spark, databases, or ML systems, and (ii) automatically determining the optimal combination of engines to execute a given data pipeline using an optimizer",
    "homepage": "https://wayang.apache.org",
    "pmc": "wayang",
    "language": [],
-   "area": [],
-   "kind": [],
+   "area": [
+    "Databases & storage",
+    "Machine learning & AI",
+    "Integration & workflow"
+   ],
+   "kind": [
+    "A server or platform I run"
+   ],
    "maturity": [
     "young"
    ],
@@ -6375,7 +6588,7 @@
     "quiet"
    ],
    "lastRelease": null,
-   "committers": 12
+   "committers": 11
   },
   {
    "id": "wicket",
@@ -6492,11 +6705,13 @@
   {
    "id": "incubator-xtable",
    "name": "Apache XTable",
-   "desc": "",
-   "homepage": null,
+   "desc": "XTable is an omni-directional converter for table formats that facilitates interoperability across data processing systems and query engines.",
+   "homepage": "https://xtable.incubator.apache.org/",
    "pmc": "incubator",
    "language": [],
-   "area": [],
+   "area": [
+    "Databases & storage"
+   ],
    "kind": [],
    "maturity": [
     "incubating"
