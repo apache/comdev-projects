@@ -159,8 +159,8 @@ def main():
         p['pmc'] = pmc
         p['category'] = canonical(p.get('category'), valid_cats)
         status = entry.get('status') or ('retired' if pmc == 'attic' else 'active')
-        if pmc == 'attic':
-            status = 'retired'
+        if pmc == 'attic' or status == 'dormant':
+            status = 'retired' # retired (atticked) or dormant (retired by still-active PMC, may come back)
         p['status'] = status             # active / retired / standing
         if status == 'retired' and 'retired' not in p['category']:
             p['category'].append('retired')

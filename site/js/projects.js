@@ -513,7 +513,7 @@ function repoToCommittee(reponame) {
 // TODO: only show it to people who can edit (needs a login / ATR permission check).
 // ATR project keys are the release-catalog keys we use as project ids.
 function atrBtn(key, label) {
-    return " &nbsp; <a href='https://releases.apache.org/projects/" + encodeURIComponent(key) + "?tab=metadata' target='_blank'" +
+    return " &nbsp; <a href='https://releases.apache.org/projects/" + encodeURIComponent(key) + "?tab=metadata' rel='nofollow' target='_blank'" +
            " style='display: inline-block; background: #d45500; color: #fff; padding: 3px 10px; border-radius: 4px;" +
            " text-decoration: none; font-weight: bold; font-size: 90%;'>" + (label || "Edit metadata") + "</a>";
 }
