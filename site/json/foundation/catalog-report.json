@@ -1,6 +1,9 @@
 {
-"catalog_entries": 1513,
-"dropped_ids": [],
+"catalog_entries": 1511,
+"dropped_ids": [
+"maven-atr-plugin",
+"maven-atr-test-apache-release"
+],
 "new_ids": [],
 "pre_whimsy_retired_to_attic": {
 "avalon": 36,
@@ -8,7 +11,7 @@
 "xml": 2,
 "zest": 2
 },
-"projects_written": 1513,
+"projects_written": 1511,
 "retired_in_active_committees": [
 "activemq-apollo",
 "activemq-camel",
@@ -99,8 +102,6 @@
 "maven-archiva",
 "maven-artifact-resolver",
 "maven-artifact-transfer",
-"maven-atr-plugin",
-"maven-atr-test-apache-release",
 "maven-continuum",
 "maven-default-skin",
 "maven-docck-plugin",
@@ -117,6 +118,7 @@
 "maven-repository-plugin",
 "maven-resources",
 "maven-runtime",
+"maven-shared-incremental",
 "maven-shared-io",
 "maven-stage-plugin",
 "maven-verifier-plugin",
@@ -186,9 +188,9 @@
 "ws-xmlrpc"
 ],
 "status_counts": {
-"active": 1044,
+"active": 1043,
 "dormant": 12,
-"retired": 454,
+"retired": 453,
 "standing": 3
 },
 "stub_committees": [],
