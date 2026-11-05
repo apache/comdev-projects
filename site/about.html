@@ -29,23 +29,26 @@
   </p>
 
   <h2 id="data">Where the data comes from</h2>
-  <p>Nothing on this site is entered by hand here. Nightly jobs collect it from the ASF's authoritative sources:</p>
+  <p>Project and committee data isn't entered by hand here. Nightly jobs collect it from the ASF's authoritative sources:</p>
   <table border="1" cellpadding="6" style="border-collapse: collapse; margin: 1em 0;">
     <tr><th>Data</th><th>Source</th></tr>
-    <tr><td>Projects: names, descriptions, homepages, repositories, bug trackers, mailing lists, categories, languages, releases, active/retired status</td>
-        <td>The <a href="https://release-catalog.apache.org/project_releases.json">ASF release catalog</a> and
-            <a href="https://releases.apache.org/">Apache Trusted Releases</a> (ATR)</td></tr>
+    <tr><td>Projects: names, descriptions, homepages, repositories, bug trackers, mailing lists, categories, languages, releases, and status (active, retired, dormant or standing)</td>
+        <td>The <a href="https://release-catalog.apache.org/project_releases.json">ASF release catalog</a>,
+            built from the project records committees maintain in <a href="https://releases.apache.org/">Apache Trusted Releases</a> (ATR)</td></tr>
     <tr><td>Committees: chairs, rosters, charters, reporting schedules, established and retired dates</td>
         <td><a href="https://whimsy.apache.org/public/">Whimsy</a> (<code>committee-info.json</code>) and the
             <a href="pmc_rdf.html">PMC data files</a> in <code>data/committees/</code></td></tr>
     <tr><td>Committers and groups</td>
         <td><a href="https://whimsy.apache.org/public/">Whimsy</a> public LDAP data</td></tr>
     <tr><td>Podlings</td>
-        <td>The Incubator's <a href="https://incubator.apache.org/podlings.xml">podlings.xml</a></td></tr>
+        <td>The Incubator's <a href="https://incubator.apache.org/podlings.xml">podlings.xml</a> (status);
+            podling releases from the catalog's <a href="https://release-catalog.apache.org/podling_releases.json">podling_releases.json</a></td></tr>
     <tr><td>Source repositories</td>
         <td><a href="https://gitbox.apache.org/repositories.json">GitBox</a> and <a href="https://svn.apache.org/repos/asf/">ASF Subversion</a></td></tr>
   </table>
-  <p>Retired projects and Attic projects are not listed, although old links to them still lead to a page marked "Retired".</p>
+  <p>Retired and Attic projects are hidden by default. Use "Show retired projects" on the <a href="projects.html">projects list</a>,
+     "Show retired committees" on the <a href="committees.html">committees list</a>, or the retired-projects section on a committee page
+     to see them. Old links to a retired project still lead to its page, marked "Retired".</p>
 
   <h2 id="update">Updating your project's information</h2>
   <p>
@@ -66,12 +69,15 @@
 
   <h2>How the site works</h2>
   <p>
-    Python cronjobs fetch the sources above and write <a href="json/">JSON files</a>, which are committed to Subversion.
-    The pages are static HTML; JavaScript reads the JSON and draws the listings and charts.
+    Python cronjobs fetch the sources above and write <a href="json/">JSON files</a>. The foundation-wide files in
+    <code>json/foundation/</code> are committed to Subversion; the per-project files in <code>json/projects/</code>
+    are regenerated on the server each night and aren't versioned.
+    The pages are static HTML; JavaScript reads the JSON and draws the listings, the metro map on the front page
+    (full screen at <a href="metro/">/metro/</a>), and the charts on the <a href="graphs.html">Graphs</a> page.
     The JSON files are public, so other tools are welcome to use them.
   </p>
   <ul>
-    <li><code>parsecatalog.py</code>: projects and releases, from the release catalog and ATR</li>
+    <li><code>parsecatalog.py</code>: projects, releases and project status, from the release catalog</li>
     <li><code>parsecommitteeinfo.py</code>: committees, from Whimsy and the PMC data files</li>
     <li><code>parsecommitters.py</code>: people and groups, from Whimsy</li>
     <li><code>podlings.py</code>: podlings, from the Incubator</li>
