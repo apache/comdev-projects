@@ -40,8 +40,6 @@ from os.path import dirname, join, realpath
 CATALOG_URL = 'https://release-catalog.apache.org/project_releases.json'
 # Podlings are in a separate file, keyed by podling id
 PODLING_CATALOG_URL = 'https://release-catalog.apache.org/podling_releases.json'
-# ATR's project list carries status (active / retired / standing), which the catalog lacks
-ATR_LIST_URL = 'https://releases.apache.org/api/projects/list'
 
 HOME = dirname(dirname(dirname(realpath(__file__))))
 SITE = join(HOME, 'site')
@@ -49,7 +47,6 @@ FOUNDATION = join(SITE, 'json', 'foundation')
 PROJECTS_DIR = join(SITE, 'json', 'projects')
 CACHE = join(HOME, 'data', 'cache', 'project_releases.json')
 PODLING_CACHE = join(HOME, 'data', 'cache', 'podling_releases.json')
-ATR_CACHE = join(HOME, 'data', 'cache', 'atr_projects_list.json')
 
 # Fields projects.js treats as lists
 LIST_FIELDS = {'category', 'programming-language', 'repository', 'release', 'implements'}
@@ -94,23 +91,6 @@ def fetch_catalog(local_file=None, url=CATALOG_URL, cache=CACHE, minimum=100):
         return data
 
 
-def fetch_atr_status():
-    """Return {key: status} from ATR. Falls back to the cached copy; {} if none."""
-    try:
-        req = urllib.request.Request(ATR_LIST_URL, headers={'User-Agent': 'projects.apache.org'})
-        with urllib.request.urlopen(req, timeout=120) as r:
-            data = json.loads(r.read().decode('utf-8'))
-        if len(data.get('projects', [])) < 100:
-            raise ValueError('ATR list looks truncated')
-        os.makedirs(dirname(ATR_CACHE), exist_ok=True)
-        with open(ATR_CACHE, 'w', encoding='utf-8') as f:
-            json.dump(data, f)
-    except Exception as e:
-        print('WARN: could not fetch %s (%s); using cached copy' % (ATR_LIST_URL, e))
-        data = load_json(ATR_CACHE, {})
-    return {p['key']: p.get('status') for p in data.get('projects', []) if p.get('key')}
-
-
 def as_list(v):
     if v is None:
         return []
@@ -141,7 +121,6 @@ def main():
     args = ap.parse_args()
 
     catalog = fetch_catalog(args.file)
-    atr_status = fetch_atr_status()
     # Current podlings come from the podling catalog, as incubator-<id>
     # (graduated/retired podlings are in it too; those are skipped)
     podlings = load_json(join(FOUNDATION, 'podlings.json'), {}) or {}
@@ -179,10 +158,10 @@ def main():
             pmc = 'attic'
         p['pmc'] = pmc
         p['category'] = canonical(p.get('category'), valid_cats)
-        status = atr_status.get(key) or ('retired' if pmc == 'attic' else 'active')
+        status = entry.get('status') or ('retired' if pmc == 'attic' else 'active')
         if pmc == 'attic':
             status = 'retired'
-        p['status'] = status             # active / retired / standing (from ATR)
+        p['status'] = status             # active / retired / standing
         if status == 'retired' and 'retired' not in p['category']:
             p['category'].append('retired')
         p['programming-language'] = canonical(p.get('programming-language'), valid_langs)
@@ -210,6 +189,9 @@ def main():
 
         if 'name' not in p:
             warnings.append('%s: no name' % key)
+
+    if not any(isinstance(e, dict) and e.get('status') for e in catalog.values()):
+        warnings.append('catalog has no status field: every project outside the attic is marked active')
 
     # Committees with no catalog entry still need a stub, as parseprojects.py did
     have = {p['pmc'] for p in projects.values()}

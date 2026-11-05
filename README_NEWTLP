@@ -3,13 +3,23 @@ Checklist for adding a new TLP, i.e. a new committee with at least one project:
 1. add the committee:
 * create the committee RDF file in data/committees/ (copy _template.rdf and edit it)
 * link to the RDF file in data/committees.xml
-The script scripts/newtlp.py can be used to do the above:
+The script scripts/newtlp.py does both, from the committee-info.json entry:
 
-* update site/create.html
-This can be done using scripts/update_create.py
+    scripts/newtlp.py <pmc-id> [<pmc-id> ...]
+
+It svn-adds the RDF file but does not commit. Check the diff it prints, then commit.
+It cannot handle a committee coming back from the Attic.
 
 2. add projects managed by the committee:
-* create the project DOAP somewhere in the project SVN or Git space
-* add the DOAP location to data/projects.xml
+Project data comes from the ASF release catalog, which Apache Trusted Releases
+builds from its own project records. ATR creates the committee itself from LDAP,
+but not its projects: nothing here feeds them, so the PMC has to add them in ATR.
+* a committee member uses Create project on the committee's page in ATR, or
+* the project: block of the repository's .asf.yaml creates it on the next push.
+Until then the committee is listed here with a stub entry built from
+committees.json, and its page says the project is not yet in the catalog.
+
+Project metadata is edited in ATR (https://releases.apache.org/projects/<key>?tab=metadata)
+or in the project: metadata: block of .asf.yaml.
 
 Data is not immediately reflected in https://projects.apache.org/: it will be processed daily at 2 AM UTC
