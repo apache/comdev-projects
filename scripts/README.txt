@@ -38,6 +38,8 @@ various sources:
   Edit project metadata in ATR: https://releases.apache.org/projects/<key>?tab=metadata
   (or via the project: metadata: block in .asf.yaml).
   Run after parsecommitteeinfo.py (uses committees.json / committees-retired.json).
+  Project status (active / retired / dormant / standing) comes from each
+  catalog entry's 'status' field; retired and Attic projects are hidden on the site.
   in: https://release-catalog.apache.org/project_releases.json
     + https://release-catalog.apache.org/podling_releases.json (current podlings, as incubator-<id>)
     + site/json/foundation/committees.json, committees-retired.json
