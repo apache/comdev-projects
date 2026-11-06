@@ -7048,6 +7048,56 @@
 "created": "2008-07-20",
 "name": "Apache Archiva",
 "revision": "1.1"
+},
+{
+"created": "2008-04-08",
+"name": "Apache Archiva",
+"revision": "1.0.2"
+},
+{
+"created": "2008-02-04",
+"name": "Apache Archiva",
+"revision": "1.0.1"
+},
+{
+"created": "2007-11-27",
+"name": "Apache Archiva",
+"revision": "1.0"
+},
+{
+"created": "2007-11-13",
+"name": "Apache Archiva",
+"revision": "1.0-beta-4"
+},
+{
+"created": "2007-11-01",
+"name": "Apache Archiva",
+"revision": "1.0-beta-3"
+},
+{
+"created": "2007-09-22",
+"name": "Apache Archiva",
+"revision": "1.0-beta-2"
+},
+{
+"created": "2007-08-10",
+"name": "Apache Archiva",
+"revision": "1.0-beta-1"
+},
+{
+"created": "2007-06-30",
+"name": "Apache Archiva",
+"revision": "1.0-alpha-2"
+},
+{
+"created": "2007-06-05",
+"name": "Apache Archiva",
+"revision": "1.0-alpha-1"
+},
+{
+"created": "2007-05-28",
+"name": "Apache Archiva",
+"revision": "0.9-alpha-2"
 }
 ],
 "repository": [
@@ -7995,9 +8045,6 @@
 "status": "active"
 },
 "aries-quiesce": {
-"category": [
-"retired"
-],
 "created": "2026-07-15",
 "license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
 "maintainer": [
@@ -8031,7 +8078,7 @@
 }
 ],
 "source": "release-catalog",
-"status": "retired"
+"status": "active"
 },
 "aries-rsa": {
 "created": "2026-07-15",
@@ -9017,363 +9064,6 @@
 ],
 "source": "release-catalog",
 "status": "active"
-},
-"arrow-ballista": {
-"category": [
-"retired"
-],
-"created": "2026-07-15",
-"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
-"maintainer": [
-{
-"mbox": "mailto:dev@arrow.apache.org",
-"name": "Apache Arrow PMC"
-}
-],
-"name": "Apache Arrow Ballista",
-"pmc": "arrow",
-"release": [
-{
-"created": "2024-02-07",
-"name": "Apache Arrow Ballista",
-"revision": "0.12.0"
-},
-{
-"created": "2023-02-28",
-"name": "Apache Arrow Ballista",
-"revision": "0.11.0"
-},
-{
-"created": "2022-11-21",
-"name": "Apache Arrow Ballista",
-"revision": "0.10.0"
-},
-{
-"created": "2022-10-26",
-"name": "Apache Arrow Ballista",
-"revision": "0.9.0"
-},
-{
-"created": "2022-09-19",
-"name": "Apache Arrow Ballista",
-"revision": "0.8.0"
-}
-],
-"source": "release-catalog",
-"status": "retired"
-},
-"arrow-datafusion": {
-"category": [
-"retired"
-],
-"created": "2026-07-15",
-"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
-"maintainer": [
-{
-"mbox": "mailto:dev@arrow.apache.org",
-"name": "Apache Arrow PMC"
-}
-],
-"name": "Apache Arrow Datafusion",
-"pmc": "arrow",
-"release": [
-{
-"created": "2024-04-22",
-"name": "Apache Arrow Datafusion",
-"revision": "37.1.0"
-},
-{
-"created": "2024-04-04",
-"name": "Apache Arrow Datafusion",
-"revision": "37.0.0"
-},
-{
-"created": "2024-02-24",
-"name": "Apache Arrow Datafusion",
-"revision": "36.0.1"
-},
-{
-"created": "2024-02-19",
-"name": "Apache Arrow Datafusion",
-"revision": "36.0.0"
-},
-{
-"created": "2024-01-25",
-"name": "Apache Arrow Datafusion",
-"revision": "35.0.0"
-},
-{
-"created": "2023-12-17",
-"name": "Apache Arrow Datafusion",
-"revision": "34.0.0"
-},
-{
-"created": "2023-11-16",
-"name": "Apache Arrow Datafusion",
-"revision": "33.0.0"
-},
-{
-"created": "2023-10-12",
-"name": "Apache Arrow Datafusion",
-"revision": "32.0.0"
-},
-{
-"created": "2023-09-11",
-"name": "Apache Arrow Datafusion",
-"revision": "31.0.0"
-},
-{
-"created": "2023-08-25",
-"name": "Apache Arrow Datafusion",
-"revision": "30.0.0"
-},
-{
-"created": "2023-08-14",
-"name": "Apache Arrow Datafusion",
-"revision": "29.0.0"
-},
-{
-"created": "2023-07-25",
-"name": "Apache Arrow Datafusion",
-"revision": "28.0.0"
-},
-{
-"created": "2023-06-30",
-"name": "Apache Arrow Datafusion",
-"revision": "27.0.0"
-},
-{
-"created": "2023-06-07",
-"name": "Apache Arrow Datafusion",
-"revision": "26.0.0"
-},
-{
-"created": "2023-05-23",
-"name": "Apache Arrow Datafusion",
-"revision": "25.0.0"
-},
-{
-"created": "2023-05-09",
-"name": "Apache Arrow Datafusion",
-"revision": "24.0.0"
-},
-{
-"created": "2023-04-24",
-"name": "Apache Arrow Datafusion",
-"revision": "23.0.0"
-},
-{
-"created": "2023-04-10",
-"name": "Apache Arrow Datafusion",
-"revision": "22.0.0"
-},
-{
-"created": "2023-04-02",
-"name": "Apache Arrow Datafusion",
-"revision": "21.1.0"
-},
-{
-"created": "2023-03-27",
-"name": "Apache Arrow Datafusion",
-"revision": "21.0.0"
-},
-{
-"created": "2023-03-14",
-"name": "Apache Arrow Datafusion",
-"revision": "20.0.0"
-},
-{
-"created": "2023-02-27",
-"name": "Apache Arrow Datafusion",
-"revision": "19.0.0"
-},
-{
-"created": "2023-02-13",
-"name": "Apache Arrow Datafusion",
-"revision": "18.0.0"
-},
-{
-"created": "2023-01-30",
-"name": "Apache Arrow Datafusion",
-"revision": "17.0.0"
-},
-{
-"created": "2023-01-24",
-"name": "Apache Arrow Datafusion",
-"revision": "16.1.0"
-},
-{
-"created": "2023-01-15",
-"name": "Apache Arrow Datafusion",
-"revision": "16.0.0"
-},
-{
-"created": "2022-12-05",
-"name": "Apache Arrow Datafusion",
-"revision": "15.0.0"
-},
-{
-"created": "2022-11-07",
-"name": "Apache Arrow Datafusion",
-"revision": "14.0.0"
-},
-{
-"created": "2022-10-10",
-"name": "Apache Arrow Datafusion",
-"revision": "13.0.0"
-},
-{
-"created": "2022-09-15",
-"name": "Apache Arrow Datafusion",
-"revision": "12.0.0"
-},
-{
-"created": "2022-08-19",
-"name": "Apache Arrow Datafusion",
-"revision": "11.0.0"
-},
-{
-"created": "2022-07-15",
-"name": "Apache Arrow Datafusion",
-"revision": "10.0.0"
-},
-{
-"created": "2022-06-13",
-"name": "Apache Arrow Datafusion",
-"revision": "9.0.0"
-},
-{
-"created": "2022-05-16",
-"name": "Apache Arrow Datafusion",
-"revision": "8.0.0"
-},
-{
-"created": "2022-04-18",
-"name": "Apache Arrow Datafusion",
-"revision": "7.1.0"
-},
-{
-"created": "2022-02-17",
-"name": "Apache Arrow Datafusion",
-"revision": "7.0.0"
-},
-{
-"created": "2021-11-17",
-"name": "Apache Arrow Datafusion",
-"revision": "6.0.0"
-},
-{
-"created": "2021-08-14",
-"name": "Apache Arrow Datafusion",
-"revision": "5.0.0"
-}
-],
-"source": "release-catalog",
-"status": "retired"
-},
-"arrow-datafusion-python": {
-"category": [
-"retired"
-],
-"created": "2026-07-15",
-"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
-"maintainer": [
-{
-"mbox": "mailto:dev@arrow.apache.org",
-"name": "Apache Arrow PMC"
-}
-],
-"name": "Apache Arrow Datafusion Python",
-"pmc": "arrow",
-"release": [
-{
-"created": "2024-03-10",
-"name": "Apache Arrow Datafusion Python",
-"revision": "36.0.0"
-},
-{
-"created": "2024-02-04",
-"name": "Apache Arrow Datafusion Python",
-"revision": "35.0.0"
-},
-{
-"created": "2024-01-03",
-"name": "Apache Arrow Datafusion Python",
-"revision": "34.0.0"
-},
-{
-"created": "2023-11-19",
-"name": "Apache Arrow Datafusion Python",
-"revision": "33.0.0"
-},
-{
-"created": "2023-10-25",
-"name": "Apache Arrow Datafusion Python",
-"revision": "32.0.0"
-},
-{
-"created": "2023-09-18",
-"name": "Apache Arrow Datafusion Python",
-"revision": "31.0.0"
-},
-{
-"created": "2023-08-06",
-"name": "Apache Arrow Datafusion Python",
-"revision": "28.0.0"
-},
-{
-"created": "2023-07-08",
-"name": "Apache Arrow Datafusion Python",
-"revision": "27.0.0"
-},
-{
-"created": "2023-06-15",
-"name": "Apache Arrow Datafusion Python",
-"revision": "26.0.0"
-},
-{
-"created": "2023-05-29",
-"name": "Apache Arrow Datafusion Python",
-"revision": "25.0.0"
-},
-{
-"created": "2023-05-13",
-"name": "Apache Arrow Datafusion Python",
-"revision": "24.0.0"
-},
-{
-"created": "2023-04-28",
-"name": "Apache Arrow Datafusion Python",
-"revision": "23.0.0"
-},
-{
-"created": "2023-04-14",
-"name": "Apache Arrow Datafusion Python",
-"revision": "22.0.0"
-},
-{
-"created": "2023-04-05",
-"name": "Apache Arrow Datafusion Python",
-"revision": "21.0.0"
-},
-{
-"created": "2023-03-20",
-"name": "Apache Arrow Datafusion Python",
-"revision": "20.0.0"
-},
-{
-"created": "2023-02-25",
-"name": "Apache Arrow Datafusion Python",
-"revision": "0.8.0"
-},
-{
-"created": "2022-11-29",
-"name": "Apache Arrow Datafusion Python",
-"revision": "0.7.0"
-}
-],
-"source": "release-catalog",
-"status": "retired"
 },
 "arrow-dotnet": {
 "created": "2026-07-15",
@@ -12828,6 +12518,60 @@
 "source": "release-catalog",
 "status": "active"
 },
+"axis-axis-c": {
+"category": [
+"retired"
+],
+"created": "2026-07-15",
+"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"maintainer": [
+{
+"mbox": "mailto:dev@axis.apache.org",
+"name": "Apache Axis PMC"
+}
+],
+"name": "Apache Web Services Axis C",
+"pmc": "axis",
+"release": [
+{
+"created": "2005-05-17",
+"name": "Apache Web Services Axis C",
+"revision": "1.6"
+},
+{
+"created": "2004-06-29",
+"name": "Apache Web Services Axis C",
+"revision": "1-2-beta-win32"
+},
+{
+"created": "2004-06-29",
+"name": "Apache Web Services Axis C",
+"revision": "1-2-beta-linux"
+},
+{
+"created": "2004-06-15",
+"name": "Apache Web Services Axis C",
+"revision": "1-2-alpha-win32"
+},
+{
+"created": "2004-06-15",
+"name": "Apache Web Services Axis C",
+"revision": "1-2-alpha-linux"
+},
+{
+"created": "2004-04-10",
+"name": "Apache Web Services Axis C",
+"revision": "1-1-win32"
+},
+{
+"created": "2004-04-10",
+"name": "Apache Web Services Axis C",
+"revision": "1-1-linux"
+}
+],
+"source": "release-catalog",
+"status": "retired"
+},
 "axis-axis2": {
 "bug-database": "https://issues.apache.org/jira/browse/AXIS2",
 "category": [
@@ -12951,11 +12695,6 @@
 "revision": "1.5.6"
 },
 {
-"created": "2013-05-04",
-"name": "Apache Axis2",
-"revision": "1.4"
-},
-{
 "created": "2011-09-09",
 "name": "Apache Axis2",
 "revision": "1.6.1"
@@ -12971,16 +12710,6 @@
 "revision": "1.6.0"
 },
 {
-"created": "2011-01-10",
-"name": "Apache Axis2",
-"revision": "1.5.1"
-},
-{
-"created": "2011-01-10",
-"name": "Apache Axis2",
-"revision": "1.5"
-},
-{
 "created": "2010-12-23",
 "name": "Apache Axis2",
 "revision": "1.5.4"
@@ -12994,12 +12723,208 @@
 "created": "2010-09-20",
 "name": "Apache Axis2",
 "revision": "1.5.2"
+},
+{
+"created": "2009-10-23",
+"name": "Apache Axis2",
+"revision": "1.5.1"
+},
+{
+"created": "2009-05-28",
+"name": "Apache Axis2",
+"revision": "1.5"
+},
+{
+"created": "2008-08-24",
+"name": "Apache Axis2",
+"revision": "1.4.1"
+},
+{
+"created": "2008-05-01",
+"name": "Apache Axis2",
+"revision": "1.4"
+},
+{
+"created": "2007-08-10",
+"name": "Apache Axis2",
+"revision": "1.3"
+},
+{
+"created": "2007-04-27",
+"name": "Apache Axis2",
+"revision": "1.2"
+},
+{
+"created": "2007-01-09",
+"name": "Apache Axis2",
+"revision": "1.1.1"
+},
+{
+"created": "2006-11-13",
+"name": "Apache Axis2",
+"revision": "1.1"
+},
+{
+"created": "2006-05-04",
+"name": "Apache Axis2",
+"revision": "1.0"
+},
+{
+"created": "2006-03-23",
+"name": "Apache Axis2",
+"revision": "0.95"
+},
+{
+"created": "2006-01-11",
+"name": "Apache Axis2",
+"revision": "0.94"
+},
+{
+"created": "2005-12-02",
+"name": "Apache Axis2",
+"revision": "0.93"
+},
+{
+"created": "2005-09-26",
+"name": "Apache Axis2",
+"revision": "0.92"
+},
+{
+"created": "2005-09-23",
+"name": "Apache Axis2",
+"revision": "1.0.alpha"
+},
+{
+"created": "2005-08-16",
+"name": "Apache Axis2",
+"revision": "0.91"
+},
+{
+"created": "2005-08-16",
+"name": "Apache Axis2",
+"revision": "0.9"
 }
 ],
 "repository": [
 "https://gitbox.apache.org/repos/asf/axis-axis2-java-core.git"
 ],
 "shortdesc": "Apache Axis2 is a service hosting and consumption framework that makes it easy to use SOAP and Web Services",
+"source": "release-catalog",
+"status": "active"
+},
+"axis-axis2-c": {
+"created": "2026-07-15",
+"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"maintainer": [
+{
+"mbox": "mailto:dev@axis.apache.org",
+"name": "Apache Axis PMC"
+}
+],
+"name": "Apache Web Services Axis2 C",
+"pmc": "axis",
+"release": [
+{
+"created": "2025-03-04",
+"name": "Apache Web Services Axis2 C",
+"revision": "2.0.0"
+},
+{
+"created": "2009-04-21",
+"name": "Apache Web Services Axis2 C",
+"revision": "1.6.0"
+},
+{
+"created": "2008-07-21",
+"name": "Apache Web Services Axis2 C",
+"revision": "1.5.0"
+},
+{
+"created": "2008-05-06",
+"name": "Apache Web Services Axis2 C",
+"revision": "1.4.0"
+},
+{
+"created": "2008-03-03",
+"name": "Apache Web Services Axis2 C",
+"revision": "1.3.0"
+},
+{
+"created": "2008-01-12",
+"name": "Apache Web Services Axis2 C",
+"revision": "1.2.0"
+},
+{
+"created": "2007-09-30",
+"name": "Apache Web Services Axis2 C",
+"revision": "1.1.0"
+},
+{
+"created": "2007-05-03",
+"name": "Apache Web Services Axis2 C",
+"revision": "1.0.0"
+},
+{
+"created": "2006-12-22",
+"name": "Apache Web Services Axis2 C",
+"revision": "0.96"
+},
+{
+"created": "2006-10-27",
+"name": "Apache Web Services Axis2 C",
+"revision": "0.95"
+},
+{
+"created": "2006-10-03",
+"name": "Apache Web Services Axis2 C",
+"revision": "0.94"
+},
+{
+"created": "2006-08-31",
+"name": "Apache Web Services Axis2 C",
+"revision": "0.93"
+},
+{
+"created": "2006-06-16",
+"name": "Apache Web Services Axis2 C",
+"revision": "0.92"
+},
+{
+"created": "2006-05-14",
+"name": "Apache Web Services Axis2 C",
+"revision": "0.91"
+},
+{
+"created": "2006-03-31",
+"name": "Apache Web Services Axis2 C",
+"revision": "0.90"
+},
+{
+"created": "2006-03-10",
+"name": "Apache Web Services Axis2 C",
+"revision": "0.5"
+},
+{
+"created": "2006-02-16",
+"name": "Apache Web Services Axis2 C",
+"revision": "0.4"
+},
+{
+"created": "2006-02-01",
+"name": "Apache Web Services Axis2 C",
+"revision": "0.3"
+},
+{
+"created": "2005-12-08",
+"name": "Apache Web Services Axis2 C",
+"revision": "0.2"
+},
+{
+"created": "2005-11-24",
+"name": "Apache Web Services Axis2 C",
+"revision": "0.1"
+}
+],
 "source": "release-catalog",
 "status": "active"
 },
@@ -13019,6 +12944,91 @@
 "created": "2013-05-04",
 "name": "Apache Axis Java",
 "revision": "1.4"
+},
+{
+"created": "2005-10-06",
+"name": "Apache Axis Java",
+"revision": "1.3"
+},
+{
+"created": "2005-06-15",
+"name": "Apache Axis Java",
+"revision": "1.2.1"
+},
+{
+"created": "2005-05-03",
+"name": "Apache Axis Java",
+"revision": "1.2"
+},
+{
+"created": "2005-03-01",
+"name": "Apache Axis Java",
+"revision": "1.2rc3"
+},
+{
+"created": "2004-11-16",
+"name": "Apache Axis Java",
+"revision": "1.2rc2"
+},
+{
+"created": "2004-09-30",
+"name": "Apache Axis Java",
+"revision": "1.2rc1"
+},
+{
+"created": "2004-08-17",
+"name": "Apache Axis Java",
+"revision": "1.2beta3"
+},
+{
+"created": "2004-07-13",
+"name": "Apache Axis Java",
+"revision": "1.2beta2"
+},
+{
+"created": "2004-03-31",
+"name": "Apache Axis Java",
+"revision": "1.2beta"
+},
+{
+"created": "2003-12-01",
+"name": "Apache Axis Java",
+"revision": "1.2alpha"
+},
+{
+"created": "2003-09-14",
+"name": "Apache Axis Java",
+"revision": "1.1rc2"
+},
+{
+"created": "2003-09-14",
+"name": "Apache Axis Java",
+"revision": "1.1rc1"
+},
+{
+"created": "2003-09-14",
+"name": "Apache Axis Java",
+"revision": "1.1beta"
+},
+{
+"created": "2003-09-14",
+"name": "Apache Axis Java",
+"revision": "1.0rc2"
+},
+{
+"created": "2003-09-14",
+"name": "Apache Axis Java",
+"revision": "1.0rc1"
+},
+{
+"created": "2003-09-14",
+"name": "Apache Axis Java",
+"revision": "1.0"
+},
+{
+"created": "2003-09-04",
+"name": "Apache Axis Java",
+"revision": "1.1"
 }
 ],
 "source": "release-catalog",
@@ -13037,19 +13047,132 @@
 "pmc": "axis",
 "release": [
 {
+"created": "2021-08-01",
+"name": "Apache Rampart",
+"revision": "1.8.0"
+},
+{
+"created": "2016-02-20",
+"name": "Apache Rampart",
+"revision": "1.7.1"
+},
+{
+"created": "2016-01-18",
+"name": "Apache Rampart",
+"revision": "1.7.0"
+},
+{
+"created": "2015-12-28",
+"name": "Apache Rampart",
+"revision": "1.6.4"
+},
+{
+"created": "2015-06-27",
+"name": "Apache Rampart",
+"revision": "1.6.3"
+},
+{
 "created": "2013-05-04",
 "name": "Apache Rampart",
 "revision": "1.6.2"
+},
+{
+"created": "2011-09-09",
+"name": "Apache Rampart",
+"revision": "1.6.1"
+},
+{
+"created": "2011-06-06",
+"name": "Apache Rampart",
+"revision": "1.6.0"
+},
+{
+"created": "2011-01-10",
+"name": "Apache Rampart",
+"revision": "1.5.1"
+},
+{
+"created": "2011-01-10",
+"name": "Apache Rampart",
+"revision": "1.5"
+},
+{
+"created": "2010-09-20",
+"name": "Apache Rampart",
+"revision": "1.5.2"
+},
+{
+"created": "2008-06-07",
+"name": "Apache Rampart",
+"revision": "1.4"
+},
+{
+"created": "2007-09-02",
+"name": "Apache Rampart",
+"revision": "1.3"
+},
+{
+"created": "2007-05-31",
+"name": "Apache Rampart",
+"revision": "1.2"
+},
+{
+"created": "2006-12-04",
+"name": "Apache Rampart",
+"revision": "1.1"
 }
 ],
 "source": "release-catalog",
 "status": "active"
 },
+"axis-rampart-c": {
+"category": [
+"retired"
+],
+"created": "2026-07-15",
+"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"maintainer": [
+{
+"mbox": "mailto:dev@axis.apache.org",
+"name": "Apache Axis PMC"
+}
+],
+"name": "Apache Web Services Rampart",
+"pmc": "axis",
+"release": [
+{
+"created": "2009-05-25",
+"name": "Apache Web Services Rampart",
+"revision": "1.3.0"
+},
+{
+"created": "2008-05-12",
+"name": "Apache Web Services Rampart",
+"revision": "1.2.0"
+},
+{
+"created": "2008-01-16",
+"name": "Apache Web Services Rampart",
+"revision": "1.1.0"
+},
+{
+"created": "2007-10-04",
+"name": "Apache Web Services Rampart",
+"revision": "1.0.0"
+},
+{
+"created": "2007-05-11",
+"name": "Apache Web Services Rampart",
+"revision": "0.90"
+}
+],
+"source": "release-catalog",
+"status": "retired"
+},
 "axis-sandesha2": {
 "bug-database": "https://issues.apache.org/jira/browse/SANDESHA2",
 "category": [
-"xml",
-"retired"
+"xml"
 ],
 "created": "2010-12-19",
 "description": "Apache Sandesha2 is an Axis2 module that implements the WS-ReliableMessaging specification. It can be used both on the client side and on the server side.",
@@ -13075,19 +13198,24 @@
 "revision": "1.6.2"
 },
 {
-"created": "2007-10-08",
+"created": "2013-05-04",
 "name": "Apache Sandesha2",
-"revision": "0.91"
+"revision": "1.4"
+},
+{
+"created": "2011-09-09",
+"name": "Apache Sandesha2",
+"revision": "1.6.1"
+},
+{
+"created": "2011-06-06",
+"name": "Apache Sandesha2",
+"revision": "1.6.0"
 },
 {
 "created": "2007-10-06",
 "name": "Apache Sandesha2",
 "revision": "1.3"
-},
-{
-"created": "2007-06-19",
-"name": "Apache Sandesha2",
-"revision": "0.90"
 },
 {
 "created": "2007-06-09",
@@ -13114,6 +13242,72 @@
 "https://svn.apache.org/repos/asf/axis/axis2/java/sandesha/trunk"
 ],
 "shortdesc": "Apache Sandesha2 is an Axis2 module implementing WS-RM.",
+"source": "release-catalog",
+"status": "active"
+},
+"axis-sandesha2-c": {
+"bug-database": "https://issues.apache.org/jira/browse/SANDESHA2",
+"category": [
+"xml",
+"retired"
+],
+"created": "2010-12-19",
+"description": "Apache Sandesha2 is an Axis2 module that implements the WS-ReliableMessaging specification. It can be used both on the client side and on the server side.",
+"download-page": "https://axis.apache.org/axis2/java/sandesha/download.cgi",
+"homepage": "https://axis.apache.org/axis2/java/sandesha/",
+"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"mailing-list": "https://axis.apache.org/axis2/java/sandesha/mail-lists.html",
+"maintainer": [
+{
+"mbox": "mailto:dev@axis.apache.org",
+"name": "Apache Axis PMC"
+}
+],
+"name": "Apache Sandesha2",
+"pmc": "axis",
+"programming-language": [
+"Java"
+],
+"release": [
+{
+"created": "2007-10-08",
+"name": "Apache Sandesha2",
+"revision": "0.91"
+},
+{
+"created": "2007-06-19",
+"name": "Apache Sandesha2",
+"revision": "0.90"
+}
+],
+"repository": [
+"https://svn.apache.org/repos/asf/axis/axis2/java/sandesha/trunk"
+],
+"shortdesc": "Apache Sandesha2 is an Axis2 module implementing WS-RM.",
+"source": "release-catalog",
+"status": "retired"
+},
+"axis-savan-c": {
+"category": [
+"retired"
+],
+"created": "2026-07-15",
+"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"maintainer": [
+{
+"mbox": "mailto:dev@axis.apache.org",
+"name": "Apache Axis PMC"
+}
+],
+"name": "Apache Web Services Savan",
+"pmc": "axis",
+"release": [
+{
+"created": "2007-10-12",
+"name": "Apache Web Services Savan",
+"revision": "0.90"
+}
+],
 "source": "release-catalog",
 "status": "retired"
 },
@@ -22066,6 +22260,11 @@
 "revision": "0.6.0"
 },
 {
+"created": "2014-10-29",
+"name": "Apache Chukwa",
+"revision": "0.4.0-duplicate"
+},
+{
 "created": "2014-05-18",
 "name": "Apache Chukwa",
 "revision": "0.4.0"
@@ -22084,6 +22283,11 @@
 "created": "2012-01-27",
 "name": "Apache Chukwa",
 "revision": "0.5.0"
+},
+{
+"created": "2009-10-26",
+"name": "Apache Chukwa",
+"revision": "0.3.0-duplicate"
 }
 ],
 "repository": [
@@ -23691,6 +23895,9 @@
 "status": "standing"
 },
 "commons-attributes": {
+"category": [
+"retired"
+],
 "created": "2026-07-15",
 "license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
 "maintainer": [
@@ -23714,7 +23921,7 @@
 }
 ],
 "source": "release-catalog",
-"status": "dormant"
+"status": "retired"
 },
 "commons-bcel": {
 "bug-database": "https://issues.apache.org/jira/browse/BCEL",
@@ -24029,6 +24236,9 @@
 "status": "active"
 },
 "commons-betwixt": {
+"category": [
+"retired"
+],
 "created": "2026-07-15",
 "license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
 "maintainer": [
@@ -24067,7 +24277,7 @@
 }
 ],
 "source": "release-catalog",
-"status": "dormant"
+"status": "retired"
 },
 "commons-bsf": {
 "bug-database": "https://issues.apache.org/jira/browse/BSF",
@@ -24221,39 +24431,11 @@
 "source": "release-catalog",
 "status": "active"
 },
-"commons-cactus": {
-"category": [
-"retired"
-],
-"created": "2026-07-15",
-"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
-"maintainer": [
-{
-"mbox": "mailto:dev@commons.apache.org",
-"name": "Apache Commons PMC"
-}
-],
-"name": "Apache Commons Cactus",
-"pmc": "commons",
-"release": [
-{
-"created": "2001-06-18",
-"name": "Apache Commons Cactus",
-"revision": "v1.1"
-},
-{
-"created": "2001-05-02",
-"name": "Apache Commons Cactus",
-"revision": "v1.0"
-}
-],
-"source": "release-catalog",
-"status": "retired"
-},
 "commons-chain": {
 "bug-database": "https://issues.apache.org/jira/browse/CHAIN",
 "category": [
-"library"
+"library",
+"retired"
 ],
 "created": "2026-06-29",
 "description": "An implmentation of the GoF Chain of Responsibility pattern",
@@ -24294,7 +24476,7 @@
 ],
 "shortdesc": "Commons Chain",
 "source": "release-catalog",
-"status": "dormant"
+"status": "retired"
 },
 "commons-cli": {
 "bug-database": "https://issues.apache.org/jira/browse/CLI",
@@ -25835,6 +26017,9 @@
 "status": "active"
 },
 "commons-discovery": {
+"category": [
+"retired"
+],
 "created": "2026-07-15",
 "license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
 "maintainer": [
@@ -25873,9 +26058,12 @@
 }
 ],
 "source": "release-catalog",
-"status": "dormant"
+"status": "retired"
 },
 "commons-el": {
+"category": [
+"retired"
+],
 "created": "2026-07-15",
 "license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
 "maintainer": [
@@ -25894,7 +26082,7 @@
 }
 ],
 "source": "release-catalog",
-"status": "dormant"
+"status": "retired"
 },
 "commons-email": {
 "bug-database": "https://issues.apache.org/jira/browse/EMAIL",
@@ -26187,7 +26375,8 @@
 "commons-functor": {
 "bug-database": "https://issues.apache.org/jira/browse/DBUTILS",
 "category": [
-"library"
+"library",
+"retired"
 ],
 "created": "2026-06-29",
 "description": "The Apache Commons Functor library defines common functor and functor-related interfaces,\n    implementations, and utilities.",
@@ -26211,7 +26400,7 @@
 ],
 "shortdesc": "Commons Functor",
 "source": "release-catalog",
-"status": "dormant"
+"status": "retired"
 },
 "commons-geometry": {
 "bug-database": "https://issues.apache.org/jira/browse/Geometry",
@@ -27138,6 +27327,9 @@
 "status": "active"
 },
 "commons-latka": {
+"category": [
+"retired"
+],
 "created": "2026-07-15",
 "license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
 "maintainer": [
@@ -27156,9 +27348,12 @@
 }
 ],
 "source": "release-catalog",
-"status": "dormant"
+"status": "retired"
 },
 "commons-launcher": {
+"category": [
+"retired"
+],
 "created": "2026-07-15",
 "license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
 "maintainer": [
@@ -27187,7 +27382,7 @@
 }
 ],
 "source": "release-catalog",
-"status": "dormant"
+"status": "retired"
 },
 "commons-logging": {
 "bug-database": "https://issues.apache.org/jira/browse/LOGGING",
@@ -27442,6 +27637,9 @@
 "status": "active"
 },
 "commons-modeler": {
+"category": [
+"retired"
+],
 "created": "2026-07-15",
 "license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
 "maintainer": [
@@ -27490,7 +27688,7 @@
 }
 ],
 "source": "release-catalog",
-"status": "dormant"
+"status": "retired"
 },
 "commons-net": {
 "bug-database": "https://issues.apache.org/jira/browse/NET",
@@ -27727,7 +27925,8 @@
 "commons-ognl": {
 "bug-database": "https://issues.apache.org/jira/browse/OGNL",
 "category": [
-"library"
+"library",
+"retired"
 ],
 "created": "2026-06-29",
 "description": "\n    The Apache Commons OGNL library is a Java development framework for Object-Graph Navigation Language,\n    plus other extras such as list projection and selection and lambda expressions.\n  ",
@@ -27751,7 +27950,7 @@
 ],
 "shortdesc": "Object Graph Navigation Library",
 "source": "release-catalog",
-"status": "dormant"
+"status": "retired"
 },
 "commons-parent": {
 "created": "2026-07-15",
@@ -28026,6 +28225,9 @@
 "status": "active"
 },
 "commons-primitives": {
+"category": [
+"retired"
+],
 "created": "2026-07-15",
 "license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
 "maintainer": [
@@ -28044,12 +28246,13 @@
 }
 ],
 "source": "release-catalog",
-"status": "dormant"
+"status": "retired"
 },
 "commons-proxy": {
 "bug-database": "https://issues.apache.org/jira/browse/PROXY",
 "category": [
-"library"
+"library",
+"retired"
 ],
 "created": "2026-06-29",
 "description": "Commons Dynamic Proxy Library",
@@ -28080,7 +28283,7 @@
 ],
 "shortdesc": "Commons Dynamic Proxy Library",
 "source": "release-catalog",
-"status": "dormant"
+"status": "retired"
 },
 "commons-rdf": {
 "bug-database": "https://issues.apache.org/jira/browse/COMMONSRDF",
@@ -34403,9 +34606,194 @@
 "revision": "38.0.0"
 },
 {
+"created": "2024-04-22",
+"name": "Apache DataFusion",
+"revision": "37.1.0"
+},
+{
+"created": "2024-04-04",
+"name": "Apache DataFusion",
+"revision": "37.0.0"
+},
+{
+"created": "2024-02-24",
+"name": "Apache DataFusion",
+"revision": "36.0.1"
+},
+{
+"created": "2024-02-19",
+"name": "Apache DataFusion",
+"revision": "36.0.0"
+},
+{
+"created": "2024-01-25",
+"name": "Apache DataFusion",
+"revision": "35.0.0"
+},
+{
+"created": "2023-12-17",
+"name": "Apache DataFusion",
+"revision": "34.0.0"
+},
+{
+"created": "2023-11-16",
+"name": "Apache DataFusion",
+"revision": "33.0.0"
+},
+{
+"created": "2023-10-12",
+"name": "Apache DataFusion",
+"revision": "32.0.0"
+},
+{
+"created": "2023-09-11",
+"name": "Apache DataFusion",
+"revision": "31.0.0"
+},
+{
+"created": "2023-08-25",
+"name": "Apache DataFusion",
+"revision": "30.0.0"
+},
+{
+"created": "2023-08-14",
+"name": "Apache DataFusion",
+"revision": "29.0.0"
+},
+{
+"created": "2023-07-25",
+"name": "Apache DataFusion",
+"revision": "28.0.0"
+},
+{
+"created": "2023-06-30",
+"name": "Apache DataFusion",
+"revision": "27.0.0"
+},
+{
+"created": "2023-06-07",
+"name": "Apache DataFusion",
+"revision": "26.0.0"
+},
+{
+"created": "2023-05-23",
+"name": "Apache DataFusion",
+"revision": "25.0.0"
+},
+{
+"created": "2023-05-09",
+"name": "Apache DataFusion",
+"revision": "24.0.0"
+},
+{
+"created": "2023-04-24",
+"name": "Apache DataFusion",
+"revision": "23.0.0"
+},
+{
+"created": "2023-04-10",
+"name": "Apache DataFusion",
+"revision": "22.0.0"
+},
+{
+"created": "2023-04-02",
+"name": "Apache DataFusion",
+"revision": "21.1.0"
+},
+{
+"created": "2023-03-27",
+"name": "Apache DataFusion",
+"revision": "21.0.0"
+},
+{
+"created": "2023-03-14",
+"name": "Apache DataFusion",
+"revision": "20.0.0"
+},
+{
+"created": "2023-02-27",
+"name": "Apache DataFusion",
+"revision": "19.0.0"
+},
+{
+"created": "2023-02-13",
+"name": "Apache DataFusion",
+"revision": "18.0.0"
+},
+{
+"created": "2023-01-30",
+"name": "Apache DataFusion",
+"revision": "17.0.0"
+},
+{
+"created": "2023-01-24",
+"name": "Apache DataFusion",
+"revision": "16.1.0"
+},
+{
+"created": "2023-01-15",
+"name": "Apache DataFusion",
+"revision": "16.0.0"
+},
+{
+"created": "2022-12-05",
+"name": "Apache DataFusion",
+"revision": "15.0.0"
+},
+{
+"created": "2022-11-07",
+"name": "Apache DataFusion",
+"revision": "14.0.0"
+},
+{
+"created": "2022-10-10",
+"name": "Apache DataFusion",
+"revision": "13.0.0"
+},
+{
+"created": "2022-09-15",
+"name": "Apache DataFusion",
+"revision": "12.0.0"
+},
+{
+"created": "2022-08-19",
+"name": "Apache DataFusion",
+"revision": "11.0.0"
+},
+{
+"created": "2022-07-15",
+"name": "Apache DataFusion",
+"revision": "10.0.0"
+},
+{
+"created": "2022-06-13",
+"name": "Apache DataFusion",
+"revision": "9.0.0"
+},
+{
+"created": "2022-05-16",
+"name": "Apache DataFusion",
+"revision": "8.0.0"
+},
+{
+"created": "2022-04-18",
+"name": "Apache DataFusion",
+"revision": "7.1.0"
+},
+{
+"created": "2022-02-17",
+"name": "Apache DataFusion",
+"revision": "7.0.0"
+},
+{
 "created": "2021-11-17",
 "name": "Apache DataFusion",
 "revision": "6.0.0"
+},
+{
+"created": "2021-08-14",
+"name": "Apache DataFusion",
+"revision": "5.0.0"
 }
 ],
 "repository": [
@@ -34496,6 +34884,31 @@
 "created": "2025-01-20",
 "name": "Apache DataFusion Ballista",
 "revision": "43.0.0"
+},
+{
+"created": "2024-02-07",
+"name": "Apache DataFusion Ballista",
+"revision": "0.12.0"
+},
+{
+"created": "2023-02-28",
+"name": "Apache DataFusion Ballista",
+"revision": "0.11.0"
+},
+{
+"created": "2022-11-21",
+"name": "Apache DataFusion Ballista",
+"revision": "0.10.0"
+},
+{
+"created": "2022-10-26",
+"name": "Apache DataFusion Ballista",
+"revision": "0.9.0"
+},
+{
+"created": "2022-09-19",
+"name": "Apache DataFusion Ballista",
+"revision": "0.8.0"
 }
 ],
 "source": "release-catalog",
@@ -34784,6 +35197,96 @@
 "created": "2024-05-13",
 "name": "Apache DataFusion Python",
 "revision": "37.1.0"
+},
+{
+"created": "2024-03-10",
+"name": "Apache DataFusion Python",
+"revision": "36.0.0"
+},
+{
+"created": "2024-02-04",
+"name": "Apache DataFusion Python",
+"revision": "35.0.0"
+},
+{
+"created": "2024-01-03",
+"name": "Apache DataFusion Python",
+"revision": "34.0.0"
+},
+{
+"created": "2023-11-19",
+"name": "Apache DataFusion Python",
+"revision": "33.0.0"
+},
+{
+"created": "2023-10-25",
+"name": "Apache DataFusion Python",
+"revision": "32.0.0"
+},
+{
+"created": "2023-09-18",
+"name": "Apache DataFusion Python",
+"revision": "31.0.0"
+},
+{
+"created": "2023-08-06",
+"name": "Apache DataFusion Python",
+"revision": "28.0.0"
+},
+{
+"created": "2023-07-08",
+"name": "Apache DataFusion Python",
+"revision": "27.0.0"
+},
+{
+"created": "2023-06-15",
+"name": "Apache DataFusion Python",
+"revision": "26.0.0"
+},
+{
+"created": "2023-05-29",
+"name": "Apache DataFusion Python",
+"revision": "25.0.0"
+},
+{
+"created": "2023-05-13",
+"name": "Apache DataFusion Python",
+"revision": "24.0.0"
+},
+{
+"created": "2023-04-28",
+"name": "Apache DataFusion Python",
+"revision": "23.0.0"
+},
+{
+"created": "2023-04-14",
+"name": "Apache DataFusion Python",
+"revision": "22.0.0"
+},
+{
+"created": "2023-04-05",
+"name": "Apache DataFusion Python",
+"revision": "21.0.0"
+},
+{
+"created": "2023-03-20",
+"name": "Apache DataFusion Python",
+"revision": "20.0.0"
+},
+{
+"created": "2023-02-25",
+"name": "Apache DataFusion Python",
+"revision": "0.8.0"
+},
+{
+"created": "2022-11-29",
+"name": "Apache DataFusion Python",
+"revision": "0.7.0"
+},
+{
+"created": "2021-11-17",
+"name": "Apache DataFusion Python",
+"revision": "0.4.0"
 }
 ],
 "source": "release-catalog",
@@ -55747,89 +56250,6 @@
 "source": "release-catalog",
 "status": "active"
 },
-"hadoop-avro": {
-"category": [
-"retired"
-],
-"created": "2026-07-15",
-"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
-"maintainer": [
-{
-"mbox": "mailto:dev@hadoop.apache.org",
-"name": "Apache Hadoop PMC"
-}
-],
-"name": "Apache Hadoop Avro",
-"pmc": "hadoop",
-"release": [
-{
-"created": "2010-03-25",
-"name": "Apache Hadoop Avro",
-"revision": "1.3.2"
-},
-{
-"created": "2010-03-12",
-"name": "Apache Hadoop Avro",
-"revision": "1.3.1"
-},
-{
-"created": "2010-02-23",
-"name": "Apache Hadoop Avro",
-"revision": "1.3.0"
-},
-{
-"created": "2009-10-09",
-"name": "Apache Hadoop Avro",
-"revision": "1.2.0"
-},
-{
-"created": "2009-09-11",
-"name": "Apache Hadoop Avro",
-"revision": "1.1.0"
-},
-{
-"created": "2009-07-09",
-"name": "Apache Hadoop Avro",
-"revision": "1.0.0"
-}
-],
-"source": "release-catalog",
-"status": "retired"
-},
-"hadoop-chukwa": {
-"category": [
-"retired"
-],
-"created": "2026-07-15",
-"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
-"maintainer": [
-{
-"mbox": "mailto:dev@hadoop.apache.org",
-"name": "Apache Hadoop PMC"
-}
-],
-"name": "Apache Hadoop Chukwa",
-"pmc": "hadoop",
-"release": [
-{
-"created": "2014-10-29",
-"name": "Apache Hadoop Chukwa",
-"revision": "0.4.0"
-},
-{
-"created": "2009-10-26",
-"name": "Apache Hadoop Chukwa",
-"revision": "0.3.0"
-},
-{
-"created": "2009-06-08",
-"name": "Apache Hadoop Chukwa",
-"revision": "0.1.2"
-}
-],
-"source": "release-catalog",
-"status": "retired"
-},
 "hadoop-cloudstore": {
 "bug-database": "https://issues.apache.org/jira/",
 "category": [
@@ -56669,84 +57089,6 @@
 ],
 "source": "release-catalog",
 "status": "active"
-},
-"hadoop-pig": {
-"category": [
-"retired"
-],
-"created": "2026-07-15",
-"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
-"maintainer": [
-{
-"mbox": "mailto:dev@hadoop.apache.org",
-"name": "Apache Hadoop PMC"
-}
-],
-"name": "Apache Hadoop Pig",
-"pmc": "hadoop",
-"release": [
-{
-"created": "2010-05-05",
-"name": "Apache Hadoop Pig",
-"revision": "0.7.0"
-},
-{
-"created": "2010-02-23",
-"name": "Apache Hadoop Pig",
-"revision": "0.6.0"
-},
-{
-"created": "2009-10-25",
-"name": "Apache Hadoop Pig",
-"revision": "0.5.0"
-},
-{
-"created": "2009-09-20",
-"name": "Apache Hadoop Pig",
-"revision": "0.4.0"
-},
-{
-"created": "2009-06-18",
-"name": "Apache Hadoop Pig",
-"revision": "0.3.0"
-},
-{
-"created": "2009-03-27",
-"name": "Apache Hadoop Pig",
-"revision": "0.2.0"
-},
-{
-"created": "2008-11-25",
-"name": "Apache Hadoop Pig",
-"revision": "0.1.1"
-}
-],
-"source": "release-catalog",
-"status": "retired"
-},
-"hadoop-submarine": {
-"category": [
-"retired"
-],
-"created": "2026-07-15",
-"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
-"maintainer": [
-{
-"mbox": "mailto:dev@hadoop.apache.org",
-"name": "Apache Hadoop PMC"
-}
-],
-"name": "Apache Hadoop Submarine",
-"pmc": "hadoop",
-"release": [
-{
-"created": "2020-07-03",
-"name": "Apache Hadoop Submarine",
-"revision": "0.2.0"
-}
-],
-"source": "release-catalog",
-"status": "retired"
 },
 "hadoop-thirdparty": {
 "created": "2026-07-15",
@@ -72788,6 +73130,76 @@
 "created": "2010-11-08",
 "name": "Apache jUDDI",
 "revision": "3.0.4"
+},
+{
+"created": "2010-07-22",
+"name": "Apache jUDDI",
+"revision": "3.0.3"
+},
+{
+"created": "2010-05-18",
+"name": "Apache jUDDI",
+"revision": "3.0.2"
+},
+{
+"created": "2010-02-02",
+"name": "Apache jUDDI",
+"revision": "3.0.1"
+},
+{
+"created": "2009-10-26",
+"name": "Apache jUDDI",
+"revision": "3.0.0"
+},
+{
+"created": "2009-10-12",
+"name": "Apache jUDDI",
+"revision": "3.0.0.rc1"
+},
+{
+"created": "2009-07-28",
+"name": "Apache jUDDI",
+"revision": "2.0.0"
+},
+{
+"created": "2009-06-04",
+"name": "Apache jUDDI",
+"revision": "3.0.0.beta"
+},
+{
+"created": "2009-06-01",
+"name": "Apache jUDDI",
+"revision": "2.0rc7"
+},
+{
+"created": "2009-02-14",
+"name": "Apache jUDDI",
+"revision": "3.0.0.alpha"
+},
+{
+"created": "2009-02-10",
+"name": "Apache jUDDI",
+"revision": "2.0rc6"
+},
+{
+"created": "2005-06-14",
+"name": "Apache jUDDI",
+"revision": "0.9rc4"
+},
+{
+"created": "2004-07-02",
+"name": "Apache jUDDI",
+"revision": "0.9rc3"
+},
+{
+"created": "2004-06-29",
+"name": "Apache jUDDI",
+"revision": "0.9rc2"
+},
+{
+"created": "2004-06-17",
+"name": "Apache jUDDI",
+"revision": "0.9rc1"
 }
 ],
 "source": "release-catalog",
@@ -72817,6 +73229,21 @@
 "created": "2013-05-25",
 "name": "Apache jUDDI Scout",
 "revision": "1.2.6"
+},
+{
+"created": "2006-12-19",
+"name": "Apache jUDDI Scout",
+"revision": "0.7"
+},
+{
+"created": "2006-05-21",
+"name": "Apache jUDDI Scout",
+"revision": "0.7rc1"
+},
+{
+"created": "2006-02-18",
+"name": "Apache jUDDI Scout",
+"revision": "0.5"
 }
 ],
 "source": "release-catalog",
@@ -81432,7 +81859,7 @@
 }
 ],
 "repository": [
-"https://github.com/apache/maven.git"
+"https://github.com/apache/maven"
 ],
 "shortdesc": "Maven is a project development management and comprehension tool.",
 "source": "release-catalog",
@@ -81861,75 +82288,6 @@
 ],
 "source": "release-catalog",
 "status": "active"
-},
-"maven-archiva": {
-"category": [
-"retired"
-],
-"created": "2026-07-15",
-"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
-"maintainer": [
-{
-"mbox": "mailto:dev@maven.apache.org",
-"name": "Apache Maven PMC"
-}
-],
-"name": "Apache Maven Archiva",
-"pmc": "maven",
-"release": [
-{
-"created": "2008-04-08",
-"name": "Apache Maven Archiva",
-"revision": "1.0.2"
-},
-{
-"created": "2008-02-04",
-"name": "Apache Maven Archiva",
-"revision": "1.0.1"
-},
-{
-"created": "2007-11-27",
-"name": "Apache Maven Archiva",
-"revision": "1.0"
-},
-{
-"created": "2007-11-13",
-"name": "Apache Maven Archiva",
-"revision": "1.0-beta-4"
-},
-{
-"created": "2007-11-01",
-"name": "Apache Maven Archiva",
-"revision": "1.0-beta-3"
-},
-{
-"created": "2007-09-22",
-"name": "Apache Maven Archiva",
-"revision": "1.0-beta-2"
-},
-{
-"created": "2007-08-10",
-"name": "Apache Maven Archiva",
-"revision": "1.0-beta-1"
-},
-{
-"created": "2007-06-30",
-"name": "Apache Maven Archiva",
-"revision": "1.0-alpha-2"
-},
-{
-"created": "2007-06-05",
-"name": "Apache Maven Archiva",
-"revision": "1.0-alpha-1"
-},
-{
-"created": "2007-05-28",
-"name": "Apache Maven Archiva",
-"revision": "0.9-alpha-2"
-}
-],
-"source": "release-catalog",
-"status": "retired"
 },
 "maven-archiver": {
 "bug-database": "https://maven.apache.org/shared/maven-archiver/issue-management.html",
@@ -83103,23 +83461,6 @@
 ],
 "source": "release-catalog",
 "status": "active"
-},
-"maven-continuum": {
-"category": [
-"retired"
-],
-"created": "2026-07-15",
-"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
-"maintainer": [
-{
-"mbox": "mailto:dev@maven.apache.org",
-"name": "Apache Maven PMC"
-}
-],
-"name": "Apache Maven Continuum",
-"pmc": "maven",
-"source": "release-catalog",
-"status": "retired"
 },
 "maven-default-skin": {
 "category": [
@@ -104669,6 +105010,11 @@
 "pmc": "pekko",
 "release": [
 {
+"created": "2026-11-05",
+"name": "Apache Pekko",
+"revision": "2.0.0"
+},
+{
 "created": "2026-10-03",
 "name": "Apache Pekko",
 "revision": "1.7.1"
@@ -106459,6 +106805,41 @@
 "created": "2010-12-09",
 "name": "Apache Pig",
 "revision": "0.8.0"
+},
+{
+"created": "2010-05-05",
+"name": "Apache Pig",
+"revision": "0.7.0"
+},
+{
+"created": "2010-02-23",
+"name": "Apache Pig",
+"revision": "0.6.0"
+},
+{
+"created": "2009-10-25",
+"name": "Apache Pig",
+"revision": "0.5.0"
+},
+{
+"created": "2009-09-20",
+"name": "Apache Pig",
+"revision": "0.4.0"
+},
+{
+"created": "2009-06-18",
+"name": "Apache Pig",
+"revision": "0.3.0"
+},
+{
+"created": "2009-03-27",
+"name": "Apache Pig",
+"revision": "0.2.0"
+},
+{
+"created": "2008-11-25",
+"name": "Apache Pig",
+"revision": "0.1.1"
 },
 {
 "created": "2008-09-10",
@@ -135387,6 +135768,11 @@
 "revision": "0.4.0"
 },
 {
+"created": "2020-07-03",
+"name": "Apache Submarine",
+"revision": "0.2.0"
+},
+{
 "created": "2020-02-05",
 "name": "Apache Submarine",
 "revision": "0.3.0"
@@ -144179,9 +144565,6 @@
 "status": "active"
 },
 "tomcat-native": {
-"category": [
-"retired"
-],
 "created": "2005-08-02",
 "license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
 "maintainer": [
@@ -144615,7 +144998,7 @@
 }
 ],
 "source": "release-catalog",
-"status": "retired"
+"status": "active"
 },
 "tomcat-taglibs-standard": {
 "created": "2026-08-07",
@@ -151251,382 +151634,6 @@
 "source": "release-catalog",
 "status": "active"
 },
-"ws-axis": {
-"category": [
-"retired"
-],
-"created": "2026-07-15",
-"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
-"maintainer": [
-{
-"mbox": "mailto:dev@ws.apache.org",
-"name": "Apache Web Services PMC"
-}
-],
-"name": "Apache Web Services Axis",
-"pmc": "ws",
-"release": [
-{
-"created": "2006-04-23",
-"name": "Apache Web Services Axis",
-"revision": "1.4"
-},
-{
-"created": "2005-10-06",
-"name": "Apache Web Services Axis",
-"revision": "1.3"
-},
-{
-"created": "2005-06-15",
-"name": "Apache Web Services Axis",
-"revision": "1.2.1"
-},
-{
-"created": "2005-05-03",
-"name": "Apache Web Services Axis",
-"revision": "1.2"
-},
-{
-"created": "2005-03-01",
-"name": "Apache Web Services Axis",
-"revision": "1.2rc3"
-},
-{
-"created": "2004-11-16",
-"name": "Apache Web Services Axis",
-"revision": "1.2rc2"
-},
-{
-"created": "2004-09-30",
-"name": "Apache Web Services Axis",
-"revision": "1.2rc1"
-},
-{
-"created": "2004-08-17",
-"name": "Apache Web Services Axis",
-"revision": "1.2beta3"
-},
-{
-"created": "2004-07-13",
-"name": "Apache Web Services Axis",
-"revision": "1.2beta2"
-},
-{
-"created": "2004-03-31",
-"name": "Apache Web Services Axis",
-"revision": "1.2beta"
-},
-{
-"created": "2003-12-01",
-"name": "Apache Web Services Axis",
-"revision": "1.2alpha"
-},
-{
-"created": "2003-09-14",
-"name": "Apache Web Services Axis",
-"revision": "1.1rc2"
-},
-{
-"created": "2003-09-14",
-"name": "Apache Web Services Axis",
-"revision": "1.1rc1"
-},
-{
-"created": "2003-09-14",
-"name": "Apache Web Services Axis",
-"revision": "1.1beta"
-},
-{
-"created": "2003-09-14",
-"name": "Apache Web Services Axis",
-"revision": "1.0rc2"
-},
-{
-"created": "2003-09-14",
-"name": "Apache Web Services Axis",
-"revision": "1.0rc1"
-},
-{
-"created": "2003-09-14",
-"name": "Apache Web Services Axis",
-"revision": "1.0"
-},
-{
-"created": "2003-09-04",
-"name": "Apache Web Services Axis",
-"revision": "1.1"
-}
-],
-"source": "release-catalog",
-"status": "retired"
-},
-"ws-axis-c": {
-"category": [
-"retired"
-],
-"created": "2026-07-15",
-"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
-"maintainer": [
-{
-"mbox": "mailto:dev@ws.apache.org",
-"name": "Apache Web Services PMC"
-}
-],
-"name": "Apache Web Services Axis C",
-"pmc": "ws",
-"release": [
-{
-"created": "2005-05-17",
-"name": "Apache Web Services Axis C",
-"revision": "1.6"
-},
-{
-"created": "2004-06-29",
-"name": "Apache Web Services Axis C",
-"revision": "1-2-beta-win32"
-},
-{
-"created": "2004-06-29",
-"name": "Apache Web Services Axis C",
-"revision": "1-2-beta-linux"
-},
-{
-"created": "2004-06-15",
-"name": "Apache Web Services Axis C",
-"revision": "1-2-alpha-win32"
-},
-{
-"created": "2004-06-15",
-"name": "Apache Web Services Axis C",
-"revision": "1-2-alpha-linux"
-},
-{
-"created": "2004-04-10",
-"name": "Apache Web Services Axis C",
-"revision": "1-1-win32"
-},
-{
-"created": "2004-04-10",
-"name": "Apache Web Services Axis C",
-"revision": "1-1-linux"
-}
-],
-"source": "release-catalog",
-"status": "retired"
-},
-"ws-axis2": {
-"category": [
-"retired"
-],
-"created": "2026-07-15",
-"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
-"maintainer": [
-{
-"mbox": "mailto:dev@ws.apache.org",
-"name": "Apache Web Services PMC"
-}
-],
-"name": "Apache Web Services Axis2",
-"pmc": "ws",
-"release": [
-{
-"created": "2009-10-23",
-"name": "Apache Web Services Axis2",
-"revision": "1.5.1"
-},
-{
-"created": "2009-05-28",
-"name": "Apache Web Services Axis2",
-"revision": "1.5"
-},
-{
-"created": "2008-08-24",
-"name": "Apache Web Services Axis2",
-"revision": "1.4.1"
-},
-{
-"created": "2008-05-01",
-"name": "Apache Web Services Axis2",
-"revision": "1.4"
-},
-{
-"created": "2007-08-10",
-"name": "Apache Web Services Axis2",
-"revision": "1.3"
-},
-{
-"created": "2007-04-27",
-"name": "Apache Web Services Axis2",
-"revision": "1.2"
-},
-{
-"created": "2007-01-09",
-"name": "Apache Web Services Axis2",
-"revision": "1.1.1"
-},
-{
-"created": "2006-11-13",
-"name": "Apache Web Services Axis2",
-"revision": "1.1"
-},
-{
-"created": "2006-05-04",
-"name": "Apache Web Services Axis2",
-"revision": "1.0"
-},
-{
-"created": "2006-03-23",
-"name": "Apache Web Services Axis2",
-"revision": "0.95"
-},
-{
-"created": "2006-01-11",
-"name": "Apache Web Services Axis2",
-"revision": "0.94"
-},
-{
-"created": "2005-12-02",
-"name": "Apache Web Services Axis2",
-"revision": "0.93"
-},
-{
-"created": "2005-09-26",
-"name": "Apache Web Services Axis2",
-"revision": "0.92"
-},
-{
-"created": "2005-09-23",
-"name": "Apache Web Services Axis2",
-"revision": "1.0.alpha"
-},
-{
-"created": "2005-08-16",
-"name": "Apache Web Services Axis2",
-"revision": "0.91"
-},
-{
-"created": "2005-08-16",
-"name": "Apache Web Services Axis2",
-"revision": "0.9"
-}
-],
-"source": "release-catalog",
-"status": "retired"
-},
-"ws-axis2-c": {
-"category": [
-"retired"
-],
-"created": "2026-07-15",
-"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
-"maintainer": [
-{
-"mbox": "mailto:dev@ws.apache.org",
-"name": "Apache Web Services PMC"
-}
-],
-"name": "Apache Web Services Axis2 C",
-"pmc": "ws",
-"release": [
-{
-"created": "2009-04-21",
-"name": "Apache Web Services Axis2 C",
-"revision": "1.6.0"
-},
-{
-"created": "2008-07-21",
-"name": "Apache Web Services Axis2 C",
-"revision": "1.5.0"
-},
-{
-"created": "2008-05-06",
-"name": "Apache Web Services Axis2 C",
-"revision": "1.4.0"
-},
-{
-"created": "2008-03-03",
-"name": "Apache Web Services Axis2 C",
-"revision": "1.3.0"
-},
-{
-"created": "2008-01-12",
-"name": "Apache Web Services Axis2 C",
-"revision": "1.2.0"
-},
-{
-"created": "2007-09-30",
-"name": "Apache Web Services Axis2 C",
-"revision": "1.1.0"
-},
-{
-"created": "2007-05-03",
-"name": "Apache Web Services Axis2 C",
-"revision": "1.0.0"
-},
-{
-"created": "2006-12-22",
-"name": "Apache Web Services Axis2 C",
-"revision": "0.96"
-},
-{
-"created": "2006-10-27",
-"name": "Apache Web Services Axis2 C",
-"revision": "0.95"
-},
-{
-"created": "2006-10-03",
-"name": "Apache Web Services Axis2 C",
-"revision": "0.94"
-},
-{
-"created": "2006-08-31",
-"name": "Apache Web Services Axis2 C",
-"revision": "0.93"
-},
-{
-"created": "2006-06-16",
-"name": "Apache Web Services Axis2 C",
-"revision": "0.92"
-},
-{
-"created": "2006-05-14",
-"name": "Apache Web Services Axis2 C",
-"revision": "0.91"
-},
-{
-"created": "2006-03-31",
-"name": "Apache Web Services Axis2 C",
-"revision": "0.90"
-},
-{
-"created": "2006-03-10",
-"name": "Apache Web Services Axis2 C",
-"revision": "0.5"
-},
-{
-"created": "2006-02-16",
-"name": "Apache Web Services Axis2 C",
-"revision": "0.4"
-},
-{
-"created": "2006-02-01",
-"name": "Apache Web Services Axis2 C",
-"revision": "0.3"
-},
-{
-"created": "2005-12-08",
-"name": "Apache Web Services Axis2 C",
-"revision": "0.2"
-},
-{
-"created": "2005-11-24",
-"name": "Apache Web Services Axis2 C",
-"revision": "0.1"
-}
-],
-"source": "release-catalog",
-"status": "retired"
-},
 "ws-commons": {
 "category": [
 "retired"
@@ -151890,100 +151897,6 @@
 "source": "release-catalog",
 "status": "retired"
 },
-"ws-juddi": {
-"category": [
-"retired"
-],
-"created": "2026-07-15",
-"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
-"maintainer": [
-{
-"mbox": "mailto:dev@ws.apache.org",
-"name": "Apache Web Services PMC"
-}
-],
-"name": "Apache Web Services Juddi",
-"pmc": "ws",
-"release": [
-{
-"created": "2010-07-22",
-"name": "Apache Web Services Juddi",
-"revision": "3.0.3"
-},
-{
-"created": "2010-05-18",
-"name": "Apache Web Services Juddi",
-"revision": "3.0.2"
-},
-{
-"created": "2010-02-02",
-"name": "Apache Web Services Juddi",
-"revision": "3.0.1"
-},
-{
-"created": "2009-10-26",
-"name": "Apache Web Services Juddi",
-"revision": "3.0.0"
-},
-{
-"created": "2009-10-12",
-"name": "Apache Web Services Juddi",
-"revision": "3.0.0.rc1"
-},
-{
-"created": "2009-08-11",
-"name": "Apache Web Services Juddi",
-"revision": "2.0.1"
-},
-{
-"created": "2009-07-28",
-"name": "Apache Web Services Juddi",
-"revision": "2.0.0"
-},
-{
-"created": "2009-06-04",
-"name": "Apache Web Services Juddi",
-"revision": "3.0.0.beta"
-},
-{
-"created": "2009-06-01",
-"name": "Apache Web Services Juddi",
-"revision": "2.0rc7"
-},
-{
-"created": "2009-02-14",
-"name": "Apache Web Services Juddi",
-"revision": "3.0.0.alpha"
-},
-{
-"created": "2009-02-10",
-"name": "Apache Web Services Juddi",
-"revision": "2.0rc6"
-},
-{
-"created": "2005-06-14",
-"name": "Apache Web Services Juddi",
-"revision": "0.9rc4"
-},
-{
-"created": "2004-07-02",
-"name": "Apache Web Services Juddi",
-"revision": "0.9rc3"
-},
-{
-"created": "2004-06-29",
-"name": "Apache Web Services Juddi",
-"revision": "0.9rc2"
-},
-{
-"created": "2004-06-17",
-"name": "Apache Web Services Juddi",
-"revision": "0.9rc1"
-}
-],
-"source": "release-catalog",
-"status": "retired"
-},
 "ws-muse": {
 "category": [
 "retired"
@@ -152187,75 +152100,6 @@
 "source": "release-catalog",
 "status": "retired"
 },
-"ws-rampart": {
-"category": [
-"retired"
-],
-"created": "2026-07-15",
-"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
-"maintainer": [
-{
-"mbox": "mailto:dev@ws.apache.org",
-"name": "Apache Web Services PMC"
-}
-],
-"name": "Apache Web Services Rampart",
-"pmc": "ws",
-"release": [
-{
-"created": "2010-01-29",
-"name": "Apache Web Services Rampart",
-"revision": "1.5"
-},
-{
-"created": "2009-05-25",
-"name": "Apache Web Services Rampart",
-"revision": "1.3.0"
-},
-{
-"created": "2008-06-07",
-"name": "Apache Web Services Rampart",
-"revision": "1.4"
-},
-{
-"created": "2008-05-12",
-"name": "Apache Web Services Rampart",
-"revision": "1.2.0"
-},
-{
-"created": "2008-01-16",
-"name": "Apache Web Services Rampart",
-"revision": "1.1.0"
-},
-{
-"created": "2007-10-04",
-"name": "Apache Web Services Rampart",
-"revision": "1.0.0"
-},
-{
-"created": "2007-09-02",
-"name": "Apache Web Services Rampart",
-"revision": "1.3"
-},
-{
-"created": "2007-05-31",
-"name": "Apache Web Services Rampart",
-"revision": "1.2"
-},
-{
-"created": "2007-05-11",
-"name": "Apache Web Services Rampart",
-"revision": "0.90"
-},
-{
-"created": "2006-12-04",
-"name": "Apache Web Services Rampart",
-"revision": "1.1"
-}
-],
-"source": "release-catalog",
-"status": "retired"
-},
 "ws-sandesha": {
 "category": [
 "retired"
@@ -152280,64 +152124,6 @@
 "created": "2005-07-13",
 "name": "Apache Web Services Sandesha",
 "revision": "1.0-RC1"
-}
-],
-"source": "release-catalog",
-"status": "retired"
-},
-"ws-savan": {
-"category": [
-"retired"
-],
-"created": "2026-07-15",
-"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
-"maintainer": [
-{
-"mbox": "mailto:dev@ws.apache.org",
-"name": "Apache Web Services PMC"
-}
-],
-"name": "Apache Web Services Savan",
-"pmc": "ws",
-"release": [
-{
-"created": "2007-10-12",
-"name": "Apache Web Services Savan",
-"revision": "0.90"
-}
-],
-"source": "release-catalog",
-"status": "retired"
-},
-"ws-scout": {
-"category": [
-"retired"
-],
-"created": "2026-07-15",
-"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
-"maintainer": [
-{
-"mbox": "mailto:dev@ws.apache.org",
-"name": "Apache Web Services PMC"
-}
-],
-"name": "Apache Web Services Scout",
-"pmc": "ws",
-"release": [
-{
-"created": "2006-12-19",
-"name": "Apache Web Services Scout",
-"revision": "0.7"
-},
-{
-"created": "2006-05-21",
-"name": "Apache Web Services Scout",
-"revision": "0.7rc1"
-},
-{
-"created": "2006-02-18",
-"name": "Apache Web Services Scout",
-"revision": "0.5"
 }
 ],
 "source": "release-catalog",
@@ -152382,45 +152168,6 @@
 "created": "2003-09-04",
 "name": "Apache Web Services Soap",
 "revision": "2.3.1"
-}
-],
-"source": "release-catalog",
-"status": "retired"
-},
-"ws-synapse": {
-"category": [
-"retired"
-],
-"created": "2026-07-15",
-"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
-"maintainer": [
-{
-"mbox": "mailto:dev@ws.apache.org",
-"name": "Apache Web Services PMC"
-}
-],
-"name": "Apache Web Services Synapse",
-"pmc": "ws",
-"release": [
-{
-"created": "2007-11-08",
-"name": "Apache Web Services Synapse",
-"revision": "1.1"
-},
-{
-"created": "2007-06-08",
-"name": "Apache Web Services Synapse",
-"revision": "1.0"
-},
-{
-"created": "2007-01-08",
-"name": "Apache Web Services Synapse",
-"revision": "0.91"
-},
-{
-"created": "2006-12-14",
-"name": "Apache Web Services Synapse",
-"revision": "0.90-incubating"
 }
 ],
 "source": "release-catalog",
