@@ -23443,6 +23443,11 @@
 ],
 "release": [
 {
+"created": "2026-11-11",
+"name": "Apache CloudStack Kubernetes Provider",
+"revision": "1.3.0"
+},
+{
 "created": "2025-12-23",
 "name": "Apache CloudStack Kubernetes Provider",
 "revision": "1.2.0"
@@ -23886,29 +23891,14 @@
 "source": "release-catalog",
 "status": "retired"
 },
-"comdev-community-development": {
-"bug-database": "https://issues.apache.org/jira/browse/COMDEV",
-"created": "2009-11-01",
-"homepage": "https://community.apache.org/",
-"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
-"mailing-list": "https://community.apache.org/lists.html",
-"maintainer": [
-{
-"mbox": "mailto:dev@comdev.apache.org",
-"name": "Apache Community Development PMC"
-}
+"comdev": {
+"category": [
+"no-catalog-entry"
 ],
+"homepage": "https://community.apache.org/",
 "name": "Apache Community Development",
 "pmc": "comdev",
-"repository": [
-"https://gitbox.apache.org/repos/asf/comdev-site.git",
-"https://gitbox.apache.org/repos/asf/comdev-events-site.git",
-"https://svn.apache.org/repos/asf/comdev/projects.apache.org/",
-"https://svn.apache.org/repos/asf/comdev/reporter.apache.org/"
-],
-"shortdesc": "Resources to help people become involved with Apache projects",
-"source": "release-catalog",
-"status": "standing"
+"source": "committees.json"
 },
 "commons-attributes": {
 "category": [
@@ -27119,6 +27109,11 @@
 "Java"
 ],
 "release": [
+{
+"created": "2026-11-11",
+"name": "Apache Commons Lang",
+"revision": "3.22.0"
+},
 {
 "created": "2026-09-29",
 "name": "Apache Commons Lang",
@@ -53097,6 +53092,11 @@
 "pmc": "geronimo",
 "release": [
 {
+"created": "2026-11-11",
+"name": "Apache Geronimo Xbean",
+"revision": "5.0.0"
+},
+{
 "created": "2026-07-06",
 "name": "Apache Geronimo Xbean",
 "revision": "4.31"
@@ -55458,32 +55458,13 @@
 "status": "active"
 },
 "gump": {
-"bug-database": "https://issues.apache.org/jira/secure/BrowseProject.jspa?id=10457",
 "category": [
-"build-management",
-"testing"
+"no-catalog-entry"
 ],
-"created": "2001-02-04",
 "homepage": "https://gump.apache.org/",
-"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
-"mailing-list": "https://gump.apache.org/mail.html",
-"maintainer": [
-{
-"mbox": "mailto:dev@gump.apache.org",
-"name": "Apache Gump PMC"
-}
-],
 "name": "Apache Gump",
 "pmc": "gump",
-"programming-language": [
-"Python"
-],
-"repository": [
-"https://svn.apache.org/repos/asf/gump/"
-],
-"shortdesc": "Gump provides large scale continuous integration for various open source projects.",
-"source": "release-catalog",
-"status": "standing"
+"source": "committees.json"
 },
 "hadoop": {
 "bug-database": "https://issues.apache.org/jira/projects/HADOOP",
@@ -61724,6 +61705,11 @@
 ],
 "release": [
 {
+"created": "2026-11-11",
+"name": "Apache HTTP Server",
+"revision": "2.4.71"
+},
+{
 "created": "2026-11-06",
 "name": "Apache HTTP Server",
 "revision": "2.4.70"
@@ -64701,9 +64687,11 @@
 },
 "incubator-otava": {
 "created": "2024-11-27",
-"description": "Otava, a command-line tool, written in Python, that detects statistically significant changes in time-series data stored either in databases or CSV files. Otava entered Incubation as Hunter",
-"homepage": "https://otava.incubator.apache.org/",
+"description": "Otava, a command-line tool, written in Python, that detects statistically significant changes in time-series data stored either in databases or CSV files.\r\n\r\nA typical use-case of Otava is as follows:\r\n\r\nA set of performance tests is scheduled repeatedly, such as after each commit is pushed. The resulting metrics of the test runs are stored in a time series database (Graphite) or appended to CSV files. Otava is launched by a Jenkins/Cron job (or an operator) to analyze the recorded metrics regularly. Otava notifies about significant changes in recorded metrics by outputting text reports or sending Slack notifications. Otava is capable of finding even small, but persistent shifts in metric values, despite noise in data. It adapts automatically to the level of noise in data and tries to notify only about persistent, statistically significant changes, be it in the system under test or in the environment.",
+"download-page": "https://otava.apache.org/docs/download",
+"homepage": "https://otava.apache.org/",
 "license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"mailing-list": "https://otava.apache.org/docs/community",
 "maintainer": [
 {
 "mbox": "mailto:dev@otava.apache.org",
@@ -64734,6 +64722,11 @@
 "revision": "0.6.0-incubating"
 }
 ],
+"repository": [
+"https://github.com/apache/otava",
+"https://github.com/apache/otava-website"
+],
+"shortdesc": "Change Detection for Continuous Performance Engineering",
 "source": "release-catalog",
 "status": "active"
 },
@@ -84302,34 +84295,6 @@
 ],
 "repository": [
 "https://github.com/apache/maven-doxia-converter"
-],
-"source": "release-catalog",
-"status": "active"
-},
-"maven-doxia-site-tools": {
-"bug-database": "https://maven.apache.org/doxia/doxia-sitetools/issue-management.html",
-"category": [
-"build-management"
-],
-"created": "2007-03-19",
-"description": "Doxia Sitetools generates sites, consisting of static and dynamic content that was generated by Doxia.",
-"download-page": "https://maven.apache.org/doxia/doxia-sitetools/download.cgi",
-"homepage": "https://maven.apache.org/doxia/doxia-sitetools/",
-"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
-"mailing-list": "https://maven.apache.org/doxia/doxia-sitetools/mailing-lists.html",
-"maintainer": [
-{
-"mbox": "mailto:dev@maven.apache.org",
-"name": "Apache Maven PMC"
-}
-],
-"name": "Apache Maven Doxia Site Tools",
-"pmc": "maven",
-"programming-language": [
-"Java"
-],
-"repository": [
-"https://github.com/apache/maven-doxia-sitetools"
 ],
 "source": "release-catalog",
 "status": "active"
@@ -104189,6 +104154,11 @@
 ],
 "release": [
 {
+"created": "2026-11-11",
+"name": "Apache Parquet",
+"revision": "1.18.2"
+},
+{
 "created": "2026-09-04",
 "name": "Apache Parquet",
 "revision": "1.18.1"
@@ -114120,6 +114090,11 @@
 ],
 "release": [
 {
+"created": "2026-11-11",
+"name": "Apache Roller",
+"revision": "6.1.7"
+},
+{
 "created": "2026-09-24",
 "name": "Apache Roller",
 "revision": "6.1.6"
@@ -120016,6 +119991,11 @@
 "name": "Apache SkyWalking Satellite",
 "pmc": "skywalking",
 "release": [
+{
+"created": "2026-11-11",
+"name": "Apache SkyWalking Satellite",
+"revision": "1.4.0"
+},
 {
 "created": "2025-02-20",
 "name": "Apache SkyWalking Satellite",
@@ -133993,6 +133973,11 @@
 "Java"
 ],
 "release": [
+{
+"created": "2026-11-11",
+"name": "Apache Storm",
+"revision": "3.2.0"
+},
 {
 "created": "2026-09-12",
 "name": "Apache Storm",
@@ -148221,6 +148206,11 @@
 "pmc": "tvm",
 "release": [
 {
+"created": "2026-11-11",
+"name": "Apache TVM Ffi",
+"revision": "v0.1.16"
+},
+{
 "created": "2026-10-18",
 "name": "Apache TVM Ffi",
 "revision": "v0.1.15"
@@ -150199,34 +150189,13 @@
 "status": "active"
 },
 "whimsy": {
-"bug-database": "https://issues.apache.org/jira/browse/WHIMSY",
 "category": [
-"content"
+"no-catalog-entry"
 ],
-"created": "2011-12-21",
-"description": "The production Whimsy server also has a number of tools that automate some organizational processes,\n    like adding PMC members to official corporate rosters or reading, updating, and approving the monthly board agenda.",
-"homepage": "https://whimsy.apache.org/",
-"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
-"mailing-list": "https://lists.apache.org/list.html?dev@whimsical.apache.org",
-"maintainer": [
-{
-"mbox": "mailto:dev@whimsy.apache.org",
-"name": "Apache Whimsy PMC"
-}
-],
+"homepage": "https://whimsical.apache.org/",
 "name": "Apache Whimsy",
 "pmc": "whimsy",
-"programming-language": [
-"JavaScript",
-"Ruby"
-],
-"repository": [
-"https://github.com/apache/whimsy.git",
-"https://gitbox.apache.org/repos/asf/whimsy.git"
-],
-"shortdesc": "Tools that display and visualize various bits of data related to ASF organizations and processes.",
-"source": "release-catalog",
-"status": "standing"
+"source": "committees.json"
 },
 "whirr": {
 "bug-database": "https://issues.apache.org/jira/browse/WHIRR",

@@ -1,14 +1,19 @@
 {
-"catalog_entries": 1494,
-"dropped_ids": [],
-"new_ids": [],
+"catalog_entries": 1490,
+"dropped_ids": [
+"comdev-community-development",
+"maven-doxia-site-tools"
+],
+"new_ids": [
+"comdev"
+],
 "pre_whimsy_retired_to_attic": {
 "avalon": 36,
 "java": 3,
 "xml": 2,
 "zest": 2
 },
-"projects_written": 1494,
+"projects_written": 1493,
 "retired_in_active_committees": [
 "activemq-apollo",
 "activemq-camel",
@@ -179,10 +184,13 @@
 "ws-xmlrpc"
 ],
 "status_counts": {
-"active": 1047,
-"retired": 444,
-"standing": 3
+"active": 1046,
+"retired": 444
 },
-"stub_committees": [],
+"stub_committees": [
+"comdev",
+"gump",
+"whimsy"
+],
 "warnings": []
 }

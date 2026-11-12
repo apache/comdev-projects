@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11 02:00 UTC",
+ "generated": "2026-11-12 02:00 UTC",
  "questions": [
   {
    "id": "area",
@@ -39,12 +39,12 @@
     {
      "value": "Build, testing & dev tools",
      "label": "Build, testing & dev tools",
-     "count": 17
+     "count": 16
     },
     {
      "value": "Content, search & documents",
      "label": "Content, search & documents",
-     "count": 40
+     "count": 39
     },
     {
      "value": "IoT & edge",
@@ -151,7 +151,7 @@
     {
      "value": "JavaScript / TypeScript",
      "label": "JavaScript / TypeScript",
-     "count": 18
+     "count": 17
     },
     {
      "value": "PHP",
@@ -166,7 +166,7 @@
     {
      "value": "Python",
      "label": "Python",
-     "count": 27
+     "count": 26
     },
     {
      "value": "R",
@@ -176,7 +176,7 @@
     {
      "value": "Ruby",
      "label": "Ruby",
-     "count": 6
+     "count": 5
     },
     {
      "value": "Rust",
@@ -218,7 +218,7 @@
     {
      "value": "A tool I use from the command line or IDE",
      "label": "A tool I use from the command line or IDE",
-     "count": 60
+     "count": 59
     }
    ]
   },
@@ -1420,7 +1420,7 @@
    "activity": [
     "very"
    ],
-   "lastRelease": "2026-09-21",
+   "lastRelease": "2026-11-11",
    "committers": 148
   },
   {
@@ -1445,11 +1445,11 @@
    "activity": [
     "very"
    ],
-   "lastRelease": "2026-10-31",
+   "lastRelease": "2026-11-11",
    "committers": 151
   },
   {
-   "id": "comdev-community-development",
+   "id": "comdev",
    "name": "Apache Community Development",
    "desc": "Resources to help people become involved with Apache projects",
    "homepage": "https://community.apache.org/",
@@ -2420,7 +2420,7 @@
    "activity": [
     "very"
    ],
-   "lastRelease": "2026-11-02",
+   "lastRelease": "2026-11-11",
    "committers": 71
   },
   {
@@ -2608,19 +2608,14 @@
   {
    "id": "gump",
    "name": "Apache Gump",
-   "desc": "Gump provides large scale continuous integration for various open source projects.",
+   "desc": "Continuous integration of open source projects",
    "homepage": "https://gump.apache.org/",
    "pmc": "gump",
-   "language": [
-    "Python"
-   ],
+   "language": [],
    "area": [
-    "Build, testing & dev tools",
     "Integration & workflow"
    ],
-   "kind": [
-    "A tool I use from the command line or IDE"
-   ],
+   "kind": [],
    "maturity": [
     "established"
    ],
@@ -2857,7 +2852,7 @@
    "activity": [
     "very"
    ],
-   "lastRelease": "2026-11-06",
+   "lastRelease": "2026-11-11",
    "committers": 131
   },
   {
@@ -4400,14 +4395,15 @@
   {
    "id": "incubator-otava",
    "name": "Apache Otava",
-   "desc": "Otava, a command-line tool, written in Python, that detects statistically significant changes in time-series data stored either in databases or CSV files. Otava entered Incubation as Hunter",
-   "homepage": "https://otava.incubator.apache.org/",
+   "desc": "Change Detection for Continuous Performance Engineering",
+   "homepage": "https://otava.apache.org/",
    "pmc": "incubator",
    "language": [],
    "area": [
     "Databases & storage"
    ],
    "kind": [
+    "A server or platform I run",
     "A tool I use from the command line or IDE"
    ],
    "maturity": [
@@ -4527,8 +4523,8 @@
    "activity": [
     "very"
    ],
-   "lastRelease": "2026-09-11",
-   "committers": 42
+   "lastRelease": "2026-11-11",
+   "committers": 43
   },
   {
    "id": "pdfbox",
@@ -5131,7 +5127,7 @@
    "activity": [
     "very"
    ],
-   "lastRelease": "2026-09-24",
+   "lastRelease": "2026-11-11",
    "committers": 11
   },
   {
@@ -5518,7 +5514,7 @@
    "activity": [
     "very"
    ],
-   "lastRelease": "2026-11-10",
+   "lastRelease": "2026-11-11",
    "committers": 64
   },
   {
@@ -5600,7 +5596,7 @@
     "quiet"
    ],
    "lastRelease": null,
-   "committers": 8
+   "committers": 9
   },
   {
    "id": "spamassassin",
@@ -5741,7 +5737,7 @@
    "activity": [
     "very"
    ],
-   "lastRelease": "2026-09-12",
+   "lastRelease": "2026-11-11",
    "committers": 49
   },
   {
@@ -6406,7 +6402,7 @@
    "activity": [
     "very"
    ],
-   "lastRelease": "2026-10-18",
+   "lastRelease": "2026-11-11",
    "committers": 86
   },
   {
@@ -6580,18 +6576,12 @@
   {
    "id": "whimsy",
    "name": "Apache Whimsy",
-   "desc": "Tools that display and visualize various bits of data related to ASF organizations and processes.",
-   "homepage": "https://whimsy.apache.org/",
+   "desc": "Tools that help automate various administrative tasks or information lookup activities",
+   "homepage": "https://whimsical.apache.org/",
    "pmc": "whimsy",
-   "language": [
-    "JavaScript / TypeScript",
-    "Ruby"
-   ],
-   "area": [
-    "Content, search & documents"
-   ],
+   "language": [],
+   "area": [],
    "kind": [
-    "A server or platform I run",
     "A tool I use from the command line or IDE"
    ],
    "maturity": [
@@ -6604,7 +6594,7 @@
     "quiet"
    ],
    "lastRelease": null,
-   "committers": 11
+   "committers": 10
   },
   {
    "id": "wicket",
