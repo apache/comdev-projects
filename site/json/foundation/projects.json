@@ -3062,6 +3062,11 @@
 "pmc": "airflow",
 "release": [
 {
+"created": "2026-11-13",
+"name": "Apache Airflow Java Sdk",
+"revision": "1.0.0"
+},
+{
 "created": "2026-07-09",
 "name": "Apache Airflow Java Sdk",
 "revision": "1.0.0-beta1"
@@ -5611,6 +5616,11 @@
 "name": "Apache APISIX",
 "pmc": "apisix",
 "release": [
+{
+"created": "2026-11-11",
+"name": "Apache APISIX",
+"revision": "3.20.0"
+},
 {
 "created": "2026-09-28",
 "name": "Apache APISIX",
@@ -18671,6 +18681,11 @@
 "name": "Apache Camel Quarkus",
 "pmc": "camel",
 "release": [
+{
+"created": "2026-11-13",
+"name": "Apache Camel Quarkus",
+"revision": "3.33.4"
+},
 {
 "created": "2026-09-30",
 "name": "Apache Camel Quarkus",
@@ -35741,6 +35756,11 @@
 "pmc": "datasketches",
 "release": [
 {
+"created": "2026-11-13",
+"name": "Apache DataSketches Go",
+"revision": "0.3.0"
+},
+{
 "created": "2026-06-24",
 "name": "Apache DataSketches Go",
 "revision": "0.2.0"
@@ -51883,6 +51903,11 @@
 "Java"
 ],
 "release": [
+{
+"created": "2026-11-13",
+"name": "Apache Geode",
+"revision": "1.15.6"
+},
 {
 "created": "2026-11-10",
 "name": "Apache Geode",
@@ -75163,6 +75188,11 @@
 "C++"
 ],
 "release": [
+{
+"created": "2026-11-13",
+"name": "Apache Kudu",
+"revision": "1.18.2"
+},
 {
 "created": "2026-01-05",
 "name": "Apache Kudu",
@@ -104072,6 +104102,11 @@
 "name": "Apache Paimon Rust",
 "pmc": "paimon",
 "release": [
+{
+"created": "2026-11-13",
+"name": "Apache Paimon Rust",
+"revision": "0.5.0"
+},
 {
 "created": "2026-10-12",
 "name": "Apache Paimon Rust",
@@ -133440,6 +133475,11 @@
 "pmc": "spark",
 "release": [
 {
+"created": "2026-11-13",
+"name": "Apache Spark Connect Swift",
+"revision": "0.8.0"
+},
+{
 "created": "2026-07-22",
 "name": "Apache Spark Connect Swift",
 "revision": "0.7.0"
@@ -134321,7 +134361,9 @@
 },
 "stormcrawler": {
 "created": "2024-03-19",
-"homepage": "https://stormcrawler.apache.org",
+"description": "A scalable, mature and versatile web crawler based on Apache Storm",
+"download-page": "https://stormcrawler.apache.org/download/",
+"homepage": "https://stormcrawler.apache.org/",
 "license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
 "maintainer": [
 {
@@ -134377,6 +134419,9 @@
 "name": "Apache StormCrawler",
 "revision": "3.0"
 }
+],
+"repository": [
+"https://github.com/apache/stormcrawler"
 ],
 "source": "release-catalog",
 "status": "active"
@@ -140938,9 +140983,20 @@
 "name": "Apache Tomcat",
 "pmc": "tomcat",
 "programming-language": [
-"Java"
+"Java",
+"Java Server Pages"
 ],
 "release": [
+{
+"created": "2026-11-13",
+"name": "Apache Tomcat",
+"revision": "9.0.124"
+},
+{
+"created": "2026-11-13",
+"name": "Apache Tomcat",
+"revision": "11.0.29"
+},
 {
 "created": "2026-10-12",
 "name": "Apache Tomcat",
