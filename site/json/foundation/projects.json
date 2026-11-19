@@ -9706,6 +9706,21 @@
 "pmc": "arrow",
 "release": [
 {
+"created": "2026-11-17",
+"name": "Apache Arrow Rs",
+"revision": "57.3.3"
+},
+{
+"created": "2026-11-17",
+"name": "Apache Arrow Rs",
+"revision": "58.4.2"
+},
+{
+"created": "2026-11-17",
+"name": "Apache Arrow Rs",
+"revision": "59.3.3"
+},
+{
 "created": "2026-10-28",
 "name": "Apache Arrow Rs",
 "revision": "60.1.0"
@@ -11022,6 +11037,11 @@
 "name": "Apache Auron",
 "pmc": "auron",
 "release": [
+{
+"created": "2026-11-18",
+"name": "Apache Auron",
+"revision": "9.0.0"
+},
 {
 "created": "2026-07-07",
 "name": "Apache Auron",
@@ -18600,6 +18620,11 @@
 "name": "Apache Camel Karavan",
 "pmc": "camel",
 "release": [
+{
+"created": "2026-11-17",
+"name": "Apache Camel Karavan",
+"revision": "4.22.2"
+},
 {
 "created": "2026-10-08",
 "name": "Apache Camel Karavan",
@@ -34487,6 +34512,16 @@
 ],
 "release": [
 {
+"created": "2026-11-17",
+"name": "Apache DataFusion",
+"revision": "55.3.0"
+},
+{
+"created": "2026-11-17",
+"name": "Apache DataFusion",
+"revision": "54.2.0"
+},
+{
 "created": "2026-10-07",
 "name": "Apache DataFusion",
 "revision": "55.2.0"
@@ -40233,6 +40268,11 @@
 "Java"
 ],
 "release": [
+{
+"created": "2026-11-18",
+"name": "Apache Druid",
+"revision": "39.0.0"
+},
 {
 "created": "2026-09-30",
 "name": "Apache Druid",
@@ -53796,6 +53836,11 @@
 "pmc": "grails",
 "release": [
 {
+"created": "2026-11-19",
+"name": "Apache Grails Actions",
+"revision": "1.0.4"
+},
+{
 "created": "2026-07-19",
 "name": "Apache Grails Actions",
 "revision": "1.0.3"
@@ -60796,6 +60841,11 @@
 ],
 "release": [
 {
+"created": "2026-11-18",
+"name": "Apache HttpComponents Core",
+"revision": "5.5"
+},
+{
 "created": "2026-10-14",
 "name": "Apache HttpComponents Core",
 "revision": "5.5-beta4"
@@ -64324,6 +64374,11 @@
 "Rust"
 ],
 "release": [
+{
+"created": "2026-11-15",
+"name": "Apache Asyncband",
+"revision": "0.8.0"
+},
 {
 "created": "2026-10-25",
 "name": "Apache Asyncband",
@@ -73360,6 +73415,11 @@
 "pmc": "juneau",
 "release": [
 {
+"created": "2026-11-17",
+"name": "Apache Juneau",
+"revision": "9.2.3"
+},
+{
 "created": "2026-11-09",
 "name": "Apache Juneau",
 "revision": "9.2.2"
@@ -76797,7 +76857,8 @@
 "logging-chainsaw": {
 "bug-database": "https://github.com/apache/logging-chainsaw/issues",
 "category": [
-"network-client"
+"network-client",
+"retired"
 ],
 "created": "2000-12-14",
 "download-page": "https://logging.apache.org/site/binindex.cgi",
@@ -76832,7 +76893,7 @@
 ],
 "shortdesc": "Apache Chainsaw is a GUI log viewer.",
 "source": "release-catalog",
-"status": "active"
+"status": "retired"
 },
 "logging-flume": {
 "bug-database": "https://issues.apache.org/jira/browse/FLUME",
@@ -77667,6 +77728,9 @@
 "status": "active"
 },
 "logging-log4j-audit": {
+"category": [
+"retired"
+],
 "created": "2016-11-11",
 "license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
 "maintainer": [
@@ -77690,7 +77754,7 @@
 }
 ],
 "source": "release-catalog",
-"status": "active"
+"status": "retired"
 },
 "logging-log4j-extras": {
 "category": [
@@ -77799,6 +77863,9 @@
 "status": "active"
 },
 "logging-log4j-scala": {
+"category": [
+"retired"
+],
 "created": "2016-11-08",
 "license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
 "maintainer": [
@@ -77832,7 +77899,7 @@
 }
 ],
 "source": "release-catalog",
-"status": "active"
+"status": "retired"
 },
 "logging-log4j-tools": {
 "created": "2016-11-11",
@@ -78090,7 +78157,8 @@
 "logging-log4php": {
 "bug-database": "https://issues.apache.org/jira/browse/LOG4PHP",
 "category": [
-"library"
+"library",
+"retired"
 ],
 "created": "2004-01-31",
 "download-page": "https://logging.apache.org/log4php/download.html",
@@ -78125,7 +78193,7 @@
 ],
 "shortdesc": "Apache log4php is a logging framework for PHP.",
 "source": "release-catalog",
-"status": "active"
+"status": "retired"
 },
 "logging-parent": {
 "created": "2017-01-17",
@@ -85424,6 +85492,11 @@
 ],
 "release": [
 {
+"created": "2026-11-17",
+"name": "Apache Maven Help Plugin",
+"revision": "3.6.0"
+},
+{
 "created": "2026-07-03",
 "name": "Apache Maven Help Plugin",
 "revision": "3.5.2"
@@ -90753,7 +90826,8 @@
 },
 "maven-verifier": {
 "category": [
-"build-management"
+"build-management",
+"retired"
 ],
 "created": "2006-10-18",
 "description": "Maven is a project development management and comprehension tool. Based on the concept of a project object model: builds, dependency management, documentation creation, site publication, and distribution publication are all controlled from the declarative file. Maven can be extended by plugins to utilise a number of other development tools for reporting or the build process.",
@@ -90822,7 +90896,7 @@
 }
 ],
 "source": "release-catalog",
-"status": "active"
+"status": "retired"
 },
 "maven-verifier-plugin": {
 "category": [
@@ -100956,6 +101030,11 @@
 "Java"
 ],
 "release": [
+{
+"created": "2026-11-17",
+"name": "Apache OpenNLP",
+"revision": "3.0.0"
+},
 {
 "created": "2026-11-16",
 "name": "Apache OpenNLP",
@@ -115247,6 +115326,11 @@
 ],
 "release": [
 {
+"created": "2026-11-17",
+"name": "Apache SeaTunnel",
+"revision": "3.1.0"
+},
+{
 "created": "2026-09-29",
 "name": "Apache SeaTunnel",
 "revision": "3.0.0"
@@ -123340,6 +123424,16 @@
 "pmc": "sling",
 "release": [
 {
+"created": "2026-11-18",
+"name": "Apache Sling Feature",
+"revision": "2.2.4"
+},
+{
+"created": "2026-11-18",
+"name": "Apache Sling Feature",
+"revision": "2.0.24"
+},
+{
 "created": "2026-11-15",
 "name": "Apache Sling Feature",
 "revision": "2.2.2"
@@ -130007,6 +130101,11 @@
 "pmc": "sling",
 "release": [
 {
+"created": "2026-11-18",
+"name": "Apache Sling Slingfeature Maven Plugin",
+"revision": "1.9.12"
+},
+{
 "created": "2026-11-15",
 "name": "Apache Sling Slingfeature Maven Plugin",
 "revision": "1.9.10"
@@ -134623,9 +134722,13 @@
 "status": "active"
 },
 "streampipes": {
+"bug-database": "https://github.com/apache/streampipes/issues",
 "created": "2019-11-11",
-"homepage": "https://streampipes.apache.org",
+"description": "A self-service (Industrial) IoT toolbox to enable non-technical users to connect, analyze and explore IoT data streams.",
+"download-page": "https://streampipes.apache.org/download/",
+"homepage": "https://streampipes.apache.org/",
 "license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"mailing-list": "https://streampipes.apache.org/community/mailing-lists/",
 "maintainer": [
 {
 "mbox": "mailto:dev@streampipes.apache.org",
@@ -134700,6 +134803,9 @@
 "name": "Apache StreamPipes",
 "revision": "0.66.0-incubating"
 }
+],
+"repository": [
+"https://github.com/apache/streampipes"
 ],
 "source": "release-catalog",
 "status": "active"
