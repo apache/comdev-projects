@@ -1,14 +1,19 @@
 {
-"catalog_entries": 1490,
-"dropped_ids": [],
-"new_ids": [],
+"catalog_entries": 1489,
+"dropped_ids": [
+"comdev",
+"incubator-fesod"
+],
+"new_ids": [
+"fesod"
+],
 "pre_whimsy_retired_to_attic": {
 "avalon": 36,
 "java": 3,
 "xml": 2,
 "zest": 2
 },
-"projects_written": 1493,
+"projects_written": 1492,
 "retired_in_active_committees": [
 "activemq-apollo",
 "activemq-camel",
@@ -185,11 +190,11 @@
 "ws-xmlrpc"
 ],
 "status_counts": {
-"active": 1040,
-"retired": 450
+"active": 1038,
+"retired": 451
 },
 "stub_committees": [
-"comdev",
+"fesod",
 "gump",
 "whimsy"
 ],

@@ -13558,6 +13558,21 @@
 ],
 "release": [
 {
+"created": "2026-11-19",
+"name": "Apache Beam",
+"revision": "2.75.0"
+},
+{
+"created": "2026-11-19",
+"name": "Apache Beam",
+"revision": "2.78.0"
+},
+{
+"created": "2026-11-19",
+"name": "Apache Beam",
+"revision": "2.77.0"
+},
+{
 "created": "2026-08-31",
 "name": "Apache Beam",
 "revision": "2.76.0"
@@ -23950,15 +23965,6 @@
 ],
 "source": "release-catalog",
 "status": "retired"
-},
-"comdev": {
-"category": [
-"no-catalog-entry"
-],
-"homepage": "https://community.apache.org/",
-"name": "Apache Community Development",
-"pmc": "comdev",
-"source": "committees.json"
 },
 "commons-attributes": {
 "category": [
@@ -36314,6 +36320,11 @@
 "pmc": "datasketches",
 "release": [
 {
+"created": "2026-11-19",
+"name": "Apache DataSketches Rust",
+"revision": "0.7.0"
+},
+{
 "created": "2026-10-29",
 "name": "Apache DataSketches Rust",
 "revision": "0.6.0"
@@ -40504,6 +40515,10 @@
 "status": "active"
 },
 "dubbo": {
+"category": [
+"library",
+"rpc"
+],
 "created": "2018-02-16",
 "description": "Apache Dubbo is a powerful and user-friendly Web and RPC framework. It supports multiple language implementations such as Java, Go, Python, PHP, Erlang, Rust, and Node.js/Web.\r\n\r\nDubbo provides solutions for communication, service discovery, traffic management, observability, security, tooling, and best practices for building enterprise-grade microservices.",
 "download-page": "https://dubbo.apache.org/en/download/",
@@ -40517,6 +40532,10 @@
 ],
 "name": "Apache Dubbo",
 "pmc": "dubbo",
+"programming-language": [
+"Go",
+"Java"
+],
 "release": [
 {
 "created": "2026-11-07",
@@ -48539,6 +48558,15 @@
 ],
 "source": "release-catalog",
 "status": "active"
+},
+"fesod": {
+"category": [
+"no-catalog-entry"
+],
+"homepage": "https://fesod.apache.org",
+"name": "Apache Fesod",
+"pmc": "fesod",
+"source": "committees.json"
 },
 "fineract": {
 "bug-database": "https://issues.apache.org/jira/projects/FINERACT/issues/",
@@ -64543,51 +64571,6 @@
 "source": "release-catalog",
 "status": "active"
 },
-"incubator-fesod": {
-"bug-database": "https://github.com/apache/fesod/issues",
-"created": "2025-09-17",
-"description": "Apache Fesod (Incubating) is a high-performance and memory-efficient Java library for reading and writing spreadsheet files, designed to simplify development and ensure reliability.\r\n\r\nApache Fesod (Incubating) can provide developers and enterprises with great freedom and flexibility. We plan to introduce more new features in the future to continually enhance user experience and tool usability. Apache Fesod ( Incubating) is committed to being your best choice for handling spreadsheet files.",
-"download-page": "https://fesod.apache.org/docs/download",
-"homepage": "https://fesod.apache.org/",
-"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
-"mailing-list": "https://fesod.apache.org/community",
-"maintainer": [
-{
-"mbox": "mailto:dev@fesod.apache.org",
-"name": "Apache Fesod PPMC"
-}
-],
-"name": "Apache Fesod",
-"pmc": "incubator",
-"release": [
-{
-"created": "2026-10-07",
-"name": "Apache Fesod",
-"revision": "2.1.0-incubating"
-},
-{
-"created": "2026-05-16",
-"name": "Apache Fesod",
-"revision": "2.0.2-incubating"
-},
-{
-"created": "2026-01-28",
-"name": "Apache Fesod",
-"revision": "2.0.1-incubating"
-},
-{
-"created": "2026-01-14",
-"name": "Apache Fesod",
-"revision": "2.0.0-incubating"
-}
-],
-"repository": [
-"https://github.com/apache/fesod.git"
-],
-"shortdesc": "Fast. Easy. Done. Processing spreadsheets without worrying about large files causing OOM.",
-"source": "release-catalog",
-"status": "active"
-},
 "incubator-geaflow": {
 "created": "2025-06-06",
 "description": "GeaFlow is a distributed stream and batch integration graph compute engine.",
@@ -65001,6 +64984,11 @@
 "pmc": "incubator",
 "release": [
 {
+"created": "2026-11-19",
+"name": "Apache Texera",
+"revision": "1.3.0-incubating"
+},
+{
 "created": "2026-08-11",
 "name": "Apache Texera",
 "revision": "1.2.0-incubating"
@@ -65098,7 +65086,8 @@
 "inlong": {
 "bug-database": "https://github.com/apache/inlong/issues",
 "category": [
-"big-data"
+"big-data",
+"retired"
 ],
 "created": "2019-11-03",
 "description": "Apache InLong is a one-stop, full-scenario integration framework for massive data that supports Data Ingestion, Data Synchronization, and Data Subscription, and it provides automatic, safe, reliable, and high-performance data transmission capabilities to facilitate the construction of streaming-based data analysis, modeling, and applications.",
@@ -65108,12 +65097,12 @@
 "mailing-list": "https://lists.apache.org/list.html?dev@inlong.apache.org",
 "maintainer": [
 {
-"mbox": "mailto:dev@inlong.apache.org",
-"name": "Apache InLong PMC"
+"mbox": "mailto:general@attic.apache.org",
+"name": "Apache Attic PMC"
 }
 ],
 "name": "Apache InLong",
-"pmc": "inlong",
+"pmc": "attic",
 "programming-language": [
 "Java"
 ],
@@ -65270,7 +65259,7 @@
 ],
 "shortdesc": "Apache InLong - a one-stop, full-scenario integration framework for massive data",
 "source": "release-catalog",
-"status": "active"
+"status": "retired"
 },
 "iotdb": {
 "bug-database": "https://issues.apache.org/jira/projects/IOTDB",
@@ -73025,6 +73014,11 @@
 "Java"
 ],
 "release": [
+{
+"created": "2026-11-20",
+"name": "Apache JSPWiki",
+"revision": "3.0.1"
+},
 {
 "created": "2026-08-22",
 "name": "Apache JSPWiki",
@@ -105482,6 +105476,11 @@
 "pmc": "pekko",
 "release": [
 {
+"created": "2026-11-19",
+"name": "Apache Pekko gRPC",
+"revision": "2.0.0"
+},
+{
 "created": "2026-06-29",
 "name": "Apache Pekko gRPC",
 "revision": "2.0.0-M1"
@@ -105680,8 +105679,13 @@
 "status": "active"
 },
 "pekko-persistence-jdbc": {
+"bug-database": "https://github.com/apache/pekko-persistence-jdbc/issues",
 "created": "2014-05-23",
+"description": "Asynchronously writes journal and snapshot entries to configured JDBC databases so that Apache Pekko Actors can recover state.",
+"download-page": "https://pekko.apache.org/download.html",
+"homepage": "https://pekko.apache.org/",
 "license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"mailing-list": "https://pekko.apache.org/how-to-contribute.html",
 "maintainer": [
 {
 "mbox": "mailto:dev@pekko.apache.org",
@@ -105725,6 +105729,9 @@
 "name": "Apache Pekko Persistence JDBC",
 "revision": "1.1.0-M1"
 }
+],
+"repository": [
+"https://github.com/apache/pekko-persistence-jdbc"
 ],
 "source": "release-catalog",
 "status": "active"
@@ -113420,6 +113427,13 @@
 ],
 "name": "Apache Reqsign",
 "pmc": "reqsign",
+"release": [
+{
+"created": "2026-11-19",
+"name": "Apache Reqsign",
+"revision": "0.20.8"
+}
+],
 "source": "release-catalog",
 "status": "active"
 },
@@ -135025,6 +135039,16 @@
 ],
 "release": [
 {
+"created": "2026-11-19",
+"name": "Apache Struts",
+"revision": "6.13.0"
+},
+{
+"created": "2026-11-19",
+"name": "Apache Struts",
+"revision": "7.5.0"
+},
+{
 "created": "2026-10-02",
 "name": "Apache Struts",
 "revision": "7.4.0"
@@ -149415,6 +149439,11 @@
 ],
 "release": [
 {
+"created": "2026-11-19",
+"name": "Apache Unomi",
+"revision": "3.1.0"
+},
+{
 "created": "2026-07-15",
 "name": "Apache Unomi",
 "revision": "3.0.1"
@@ -149589,6 +149618,11 @@
 "name": "Apache Unomi Tracker",
 "pmc": "unomi",
 "release": [
+{
+"created": "2026-11-19",
+"name": "Apache Unomi Tracker",
+"revision": "2.0.0"
+},
 {
 "created": "2024-09-03",
 "name": "Apache Unomi Tracker",

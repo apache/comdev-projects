@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19 02:00 UTC",
+ "generated": "2026-11-20 02:00 UTC",
  "questions": [
   {
    "id": "area",
@@ -9,7 +9,7 @@
     {
      "value": "Big data & analytics",
      "label": "Big data & analytics",
-     "count": 71
+     "count": 70
     },
     {
      "value": "Databases & storage",
@@ -19,7 +19,7 @@
     {
      "value": "Streaming & messaging",
      "label": "Streaming & messaging",
-     "count": 33
+     "count": 32
     },
     {
      "value": "Machine learning & AI",
@@ -64,7 +64,7 @@
     {
      "value": "Integration & workflow",
      "label": "Integration & workflow",
-     "count": 31
+     "count": 30
     }
    ]
   },
@@ -141,7 +141,7 @@
     {
      "value": "Go",
      "label": "Go",
-     "count": 9
+     "count": 10
     },
     {
      "value": "Java",
@@ -208,17 +208,17 @@
     {
      "value": "A library or framework I embed in my code",
      "label": "A library or framework I embed in my code",
-     "count": 108
+     "count": 107
     },
     {
      "value": "A server or platform I run",
      "label": "A server or platform I run",
-     "count": 152
+     "count": 151
     },
     {
      "value": "A tool I use from the command line or IDE",
      "label": "A tool I use from the command line or IDE",
-     "count": 59
+     "count": 58
     }
    ]
   },
@@ -235,7 +235,7 @@
     {
      "value": "medium",
      "label": "Medium",
-     "count": 114
+     "count": 112
     },
     {
      "value": "large",
@@ -252,7 +252,7 @@
     {
      "value": "incubating",
      "label": "Brand new (in the Incubator)",
-     "count": 24
+     "count": 23
     },
     {
      "value": "young",
@@ -262,7 +262,7 @@
     {
      "value": "established",
      "label": "Established and battle-tested",
-     "count": 158
+     "count": 157
     }
    ]
   },
@@ -274,7 +274,7 @@
     {
      "value": "very",
      "label": "Very active - released in the last 6 months",
-     "count": 166
+     "count": 165
     },
     {
      "value": "active",
@@ -284,7 +284,7 @@
     {
      "value": "quiet",
      "label": "Quieter - could use new energy",
-     "count": 39
+     "count": 38
     }
    ]
   }
@@ -874,7 +874,7 @@
    "activity": [
     "very"
    ],
-   "lastRelease": "2026-08-31",
+   "lastRelease": "2026-11-19",
    "committers": 102
   },
   {
@@ -1449,27 +1449,6 @@
    "committers": 151
   },
   {
-   "id": "comdev",
-   "name": "Apache Community Development",
-   "desc": "Resources to help people become involved with Apache projects",
-   "homepage": "https://community.apache.org/",
-   "pmc": "comdev",
-   "language": [],
-   "area": [],
-   "kind": [],
-   "maturity": [
-    "established"
-   ],
-   "size": [
-    "medium"
-   ],
-   "activity": [
-    "quiet"
-   ],
-   "lastRelease": null,
-   "committers": 58
-  },
-  {
    "id": "cordova",
    "name": "Apache Cordova",
    "desc": "A tool to create cross-platform apps from standard web technologies (HTML, CSS, and JavaScript).",
@@ -1742,7 +1721,7 @@
    "activity": [
     "very"
    ],
-   "lastRelease": "2026-11-13",
+   "lastRelease": "2026-11-19",
    "committers": 27
   },
   {
@@ -1971,7 +1950,10 @@
    "desc": "Apache Dubbo is a powerful and user-friendly Web and RPC framework. It supports multiple language implementations such as Java, Go, Python, PHP, Erlang, Rust, and Node.js/Web. Dubbo provides solutions for communication, service discovery, traffic management, observability, security, tooling, and bes",
    "homepage": "https://dubbo.apache.org/",
    "pmc": "dubbo",
-   "language": [],
+   "language": [
+    "Go",
+    "Java"
+   ],
    "area": [
     "Cloud & infrastructure",
     "Security & identity"
@@ -2103,27 +2085,26 @@
    "committers": 68
   },
   {
-   "id": "incubator-fesod",
+   "id": "fesod",
    "name": "Apache Fesod",
-   "desc": "Fast. Easy. Done. Processing spreadsheets without worrying about large files causing OOM.",
-   "homepage": "https://fesod.apache.org/",
-   "pmc": "incubator",
+   "desc": "a high-performance and memory-efficient Java library for reading and writing Excel files, designed to simplify development and ensure reliability",
+   "homepage": "https://fesod.apache.org",
+   "pmc": "fesod",
    "language": [],
    "area": [],
    "kind": [
-    "A library or framework I embed in my code",
-    "A tool I use from the command line or IDE"
+    "A library or framework I embed in my code"
    ],
    "maturity": [
-    "incubating"
+    "young"
    ],
    "size": [
     "small"
    ],
    "activity": [
-    "very"
+    "quiet"
    ],
-   "lastRelease": "2026-10-07",
+   "lastRelease": null,
    "committers": 13
   },
   {
@@ -3062,36 +3043,6 @@
    "committers": 73
   },
   {
-   "id": "inlong",
-   "name": "Apache InLong",
-   "desc": "Apache InLong - a one-stop, full-scenario integration framework for massive data",
-   "homepage": "https://inlong.apache.org",
-   "pmc": "inlong",
-   "language": [
-    "Java"
-   ],
-   "area": [
-    "Big data & analytics",
-    "Streaming & messaging",
-    "Integration & workflow"
-   ],
-   "kind": [
-    "A library or framework I embed in my code",
-    "A server or platform I run"
-   ],
-   "maturity": [
-    "young"
-   ],
-   "size": [
-    "medium"
-   ],
-   "activity": [
-    "very"
-   ],
-   "lastRelease": "2026-08-19",
-   "committers": 54
-  },
-  {
    "id": "iotdb",
    "name": "Apache IoTDB",
    "desc": "Apache IoTDB is an IoT native database with high performance for data management and analysis, on the edge and the cloud.",
@@ -3291,7 +3242,7 @@
    "activity": [
     "very"
    ],
-   "lastRelease": "2026-08-22",
+   "lastRelease": "2026-11-20",
    "committers": 16
   },
   {
@@ -4600,7 +4551,7 @@
    "activity": [
     "very"
    ],
-   "lastRelease": "2026-11-12",
+   "lastRelease": "2026-11-19",
    "committers": 29
   },
   {
@@ -5020,9 +4971,9 @@
     "small"
    ],
    "activity": [
-    "quiet"
+    "very"
    ],
-   "lastRelease": null,
+   "lastRelease": "2026-11-19",
    "committers": 9
   },
   {
@@ -5839,7 +5790,7 @@
    "activity": [
     "very"
    ],
-   "lastRelease": "2026-10-02",
+   "lastRelease": "2026-11-19",
    "committers": 59
   },
   {
@@ -6060,7 +6011,7 @@
    "activity": [
     "very"
    ],
-   "lastRelease": "2026-08-11",
+   "lastRelease": "2026-11-19",
    "committers": 16
   },
   {
@@ -6484,7 +6435,7 @@
    "activity": [
     "very"
    ],
-   "lastRelease": "2026-07-15",
+   "lastRelease": "2026-11-19",
    "committers": 17
   },
   {
