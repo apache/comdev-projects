@@ -5617,6 +5617,11 @@
 "pmc": "apisix",
 "release": [
 {
+"created": "2026-11-19",
+"name": "Apache APISIX",
+"revision": "3.21.0"
+},
+{
 "created": "2026-11-11",
 "name": "Apache APISIX",
 "revision": "3.20.0"
@@ -48560,13 +48565,49 @@
 "status": "active"
 },
 "fesod": {
-"category": [
-"no-catalog-entry"
+"bug-database": "https://github.com/apache/fesod/issues",
+"created": "2025-09-17",
+"description": "Apache Fesod is a high-performance and memory-efficient Java library for reading and writing spreadsheet files, designed to simplify development and ensure reliability.",
+"download-page": "https://fesod.apache.org/docs/download",
+"homepage": "https://fesod.apache.org/",
+"license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"mailing-list": "https://fesod.apache.org/community",
+"maintainer": [
+{
+"mbox": "mailto:dev@fesod.apache.org",
+"name": "Apache Fesod PMC"
+}
 ],
-"homepage": "https://fesod.apache.org",
 "name": "Apache Fesod",
 "pmc": "fesod",
-"source": "committees.json"
+"release": [
+{
+"created": "2026-10-07",
+"name": "Apache Fesod",
+"revision": "2.1.0-incubating"
+},
+{
+"created": "2026-05-16",
+"name": "Apache Fesod",
+"revision": "2.0.2-incubating"
+},
+{
+"created": "2026-01-28",
+"name": "Apache Fesod",
+"revision": "2.0.1-incubating"
+},
+{
+"created": "2026-01-14",
+"name": "Apache Fesod",
+"revision": "2.0.0-incubating"
+}
+],
+"repository": [
+"https://github.com/apache/fesod.git"
+],
+"shortdesc": "Fast. Easy. Done. Processing spreadsheets without worrying about large files causing OOM.",
+"source": "release-catalog",
+"status": "active"
 },
 "fineract": {
 "bug-database": "https://issues.apache.org/jira/projects/FINERACT/issues/",
@@ -65296,6 +65337,11 @@
 "Node.js"
 ],
 "release": [
+{
+"created": "2026-11-20",
+"name": "Apache IoTDB",
+"revision": "2.0.12"
+},
 {
 "created": "2026-09-11",
 "name": "Apache IoTDB",
@@ -100509,6 +100555,11 @@
 "Java"
 ],
 "release": [
+{
+"created": "2026-11-20",
+"name": "Apache OpenJPA",
+"revision": "4.2.0"
+},
 {
 "created": "2025-05-15",
 "name": "Apache OpenJPA",
