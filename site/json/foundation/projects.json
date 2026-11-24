@@ -3127,6 +3127,11 @@
 ],
 "release": [
 {
+"created": "2026-11-23",
+"name": "Apache Airflow Providers",
+"revision": "2026-11-18"
+},
+{
 "created": "2026-11-12",
 "name": "Apache Airflow Providers",
 "revision": "2026-11-10"
@@ -3921,6 +3926,11 @@
 "Python"
 ],
 "release": [
+{
+"created": "2026-11-23",
+"name": "Apache Allura",
+"revision": "1.23.0"
+},
 {
 "created": "2026-11-06",
 "name": "Apache Allura",
@@ -50167,63 +50177,72 @@
 "status": "active"
 },
 "flink-connector-aws": {
+"bug-database": "https://issues.apache.org/jira/browse/FLINK",
 "created": "2022-07-27",
+"description": "This project adds AWS connectors to Apache Flink.",
+"download-page": "https://flink.apache.org/downloads/",
+"homepage": "https://flink.apache.org/",
 "license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"mailing-list": "https://flink.apache.org/community.html#mailing-lists",
 "maintainer": [
 {
 "mbox": "mailto:dev@flink.apache.org",
 "name": "Apache Flink PMC"
 }
 ],
-"name": "Apache Flink Connector Aws",
+"name": "Apache Flink AWS Connectors",
 "pmc": "flink",
 "release": [
 {
 "created": "2026-06-10",
-"name": "Apache Flink Connector Aws",
+"name": "Apache Flink AWS Connectors",
 "revision": "6.0.1"
 },
 {
 "created": "2026-02-02",
-"name": "Apache Flink Connector Aws",
+"name": "Apache Flink AWS Connectors",
 "revision": "6.0.0"
 },
 {
 "created": "2026-01-07",
-"name": "Apache Flink Connector Aws",
+"name": "Apache Flink AWS Connectors",
 "revision": "5.1.0"
 },
 {
 "created": "2024-11-06",
-"name": "Apache Flink Connector Aws",
+"name": "Apache Flink AWS Connectors",
 "revision": "5.0.0"
 },
 {
 "created": "2024-04-19",
-"name": "Apache Flink Connector Aws",
+"name": "Apache Flink AWS Connectors",
 "revision": "4.3.0"
 },
 {
 "created": "2023-10-31",
-"name": "Apache Flink Connector Aws",
+"name": "Apache Flink AWS Connectors",
 "revision": "4.2.0"
 },
 {
 "created": "2023-03-16",
-"name": "Apache Flink Connector Aws",
+"name": "Apache Flink AWS Connectors",
 "revision": "4.1.0"
 },
 {
 "created": "2022-12-05",
-"name": "Apache Flink Connector Aws",
+"name": "Apache Flink AWS Connectors",
 "revision": "4.0.0"
 },
 {
 "created": "2022-11-28",
-"name": "Apache Flink Connector Aws",
+"name": "Apache Flink AWS Connectors",
 "revision": "3.0.0"
 }
 ],
+"repository": [
+"https://gitbox.apache.org/repos/asf/flink-connector-aws.git"
+],
+"shortdesc": "Apache Flink AWS connectors",
 "source": "release-catalog",
 "status": "active"
 },
@@ -64601,7 +64620,7 @@
 },
 "incubator-cloudberry": {
 "created": "2024-10-11",
-"description": "Cloudberry Database, built on the latest PostgreSQL kernel, is one of the most advanced and mature open-source MPP (Massively Parallel Processing) databases available.",
+"description": "Apache Cloudberry is an open-source, PostgreSQL-based MPP (Massively Parallel Processing) database designed for large-scale data warehousing and analytics.",
 "homepage": "https://cloudberry.incubator.apache.org/",
 "license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
 "maintainer": [
@@ -65121,6 +65140,11 @@
 "pmc": "incubator",
 "release": [
 {
+"created": "2026-11-23",
+"name": "Apache XTable",
+"revision": "0.5.0-incubating"
+},
+{
 "created": "2026-08-24",
 "name": "Apache XTable",
 "revision": "0.4.0-incubating"
@@ -65323,7 +65347,7 @@
 "status": "retired"
 },
 "iotdb": {
-"bug-database": "https://issues.apache.org/jira/projects/IOTDB",
+"bug-database": "https://github.com/apache/iotdb/issues",
 "category": [
 "database",
 "iot",
@@ -65336,9 +65360,9 @@
 "created": "2018-11-18",
 "description": "Apache IoTDB (Database for Internet of Things) is an integrated data management engine designed for time series data. It provides users with services for data collection, storage and analysis. Due to its light-weight architecture, high performance and rich feature set together with its deep integration with Apache Hadoop, Spark and Flink. Apache IoTDB can meet the requirements of massive data storage, high-speed data ingestion and complex data analysis in the IoT industrial fields.",
 "download-page": "https://iotdb.apache.org/Download/",
-"homepage": "https://iotdb.apache.org",
+"homepage": "https://iotdb.apache.org/",
 "license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
-"mailing-list": "dev@iotdb.apache.org",
+"mailing-list": "https://lists.apache.org/list.html?dev@iotdb.apache.org",
 "maintainer": [
 {
 "mbox": "mailto:dev@iotdb.apache.org",
@@ -74153,6 +74177,11 @@
 "Java"
 ],
 "release": [
+{
+"created": "2026-11-23",
+"name": "Apache Karaf",
+"revision": "4.4.13"
+},
 {
 "created": "2026-09-27",
 "name": "Apache Karaf",
@@ -86961,7 +86990,9 @@
 "build-management"
 ],
 "created": "2019-09-21",
-"description": "Maven is a project development management and comprehension tool. Based on the concept of a project object model: builds, dependency management, documentation creation, site publication, and distribution publication are all controlled from the declarative file. Maven can be extended by plugins to utilise a number of other development tools for reporting or the build process.",
+"description": "This project aims at providing faster https://maven.apache.org/ builds using techniques known from Gradle and Takari.",
+"download-page": "https://maven.apache.org/download.html",
+"homepage": "https://maven.apache.org/",
 "license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
 "maintainer": [
 {
@@ -87070,6 +87101,9 @@
 "name": "Apache Maven Daemon",
 "revision": "0.8.0"
 }
+],
+"repository": [
+"https://github.com/apache/maven-mvnd"
 ],
 "source": "release-catalog",
 "status": "active"
@@ -104361,6 +104395,11 @@
 "pmc": "paimon",
 "release": [
 {
+"created": "2026-11-23",
+"name": "Apache Paimon Vector Index",
+"revision": "0.6.0"
+},
+{
 "created": "2026-09-20",
 "name": "Apache Paimon Vector Index",
 "revision": "0.5.0"
@@ -113514,6 +113553,11 @@
 "name": "Apache Reqsign",
 "pmc": "reqsign",
 "release": [
+{
+"created": "2026-11-23",
+"name": "Apache Reqsign",
+"revision": "0.20.9"
+},
 {
 "created": "2026-11-19",
 "name": "Apache Reqsign",
@@ -134636,6 +134680,11 @@
 "pmc": "stormcrawler",
 "release": [
 {
+"created": "2026-11-23",
+"name": "Apache StormCrawler",
+"revision": "4.0.0"
+},
+{
 "created": "2026-08-01",
 "name": "Apache StormCrawler",
 "revision": "3.7.0"
@@ -140160,6 +140209,11 @@
 ],
 "release": [
 {
+"created": "2026-11-23",
+"name": "Apache Tika",
+"revision": "3.4.0"
+},
+{
 "created": "2026-10-28",
 "name": "Apache Tika",
 "revision": "4.2.0"
@@ -140809,7 +140863,9 @@
 },
 "tinkerpop": {
 "created": "2015-01-16",
-"homepage": "https://tinkerpop.apache.org",
+"description": "Apache TinkerPop™ is a graph computing framework for both graph databases (OLTP) and graph analytic systems (OLAP).",
+"download-page": "https://tinkerpop.apache.org/download.html",
+"homepage": "https://tinkerpop.apache.org/",
 "license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
 "maintainer": [
 {
@@ -141240,6 +141296,9 @@
 "name": "Apache TinkerPop",
 "revision": "3.0.0.M8-incubating"
 }
+],
+"repository": [
+"https://github.com/apache/tinkerpop"
 ],
 "source": "release-catalog",
 "status": "active"
@@ -147095,9 +147154,10 @@
 ],
 "created": "2023-11-15",
 "description": "TsFile is a high-performance columnar storage file format designed for industrial time-series data, featuring multi-language interfaces, high compression ratios, high read/write throughput, and fast random access capabilities. It is ideal for scenarios such as building high-quality datasets, managing data assets, conducting data analytics, and training AI models.",
-"homepage": "https://tsfile.apache.org",
+"download-page": "https://tsfile.apache.org/Download/",
+"homepage": "https://tsfile.apache.org/",
 "license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
-"mailing-list": "dev@tsfile.apache.org",
+"mailing-list": "https://lists.apache.org/list.html?dev@tsfile.apache.org",
 "maintainer": [
 {
 "mbox": "mailto:dev@tsfile.apache.org",

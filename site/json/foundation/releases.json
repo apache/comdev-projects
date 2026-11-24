@@ -612,6 +612,7 @@
 "Airflow-Providers-2026-10-31": "2026-11-01",
 "Airflow-Providers-2026-11-03": "2026-11-09",
 "Airflow-Providers-2026-11-10": "2026-11-12",
+"Airflow-Providers-2026-11-18": "2026-11-23",
 "Airflow-Python-Client-2.0.0": "2021-04-23",
 "Airflow-Python-Client-2.1.0": "2021-05-31",
 "Airflow-Python-Client-2.10.0": "2024-08-30",
@@ -670,6 +671,7 @@
 "Allura-1.21.0": "2026-09-03",
 "Allura-1.22.0": "2026-10-12",
 "Allura-1.22.1": "2026-11-06",
+"Allura-1.23.0": "2026-11-23",
 "Allura-1.3.0": "2015-06-18",
 "Allura-1.3.1": "2015-08-09",
 "Allura-1.3.2": "2015-12-08",
@@ -9240,6 +9242,15 @@
 "Flink-2.2.0": "2025-11-27",
 "Flink-2.2.1": "2026-05-03",
 "Flink-2.3.0": "2026-06-14",
+"Flink-AWS-Connectors-3.0.0": "2022-11-28",
+"Flink-AWS-Connectors-4.0.0": "2022-12-05",
+"Flink-AWS-Connectors-4.1.0": "2023-03-16",
+"Flink-AWS-Connectors-4.2.0": "2023-10-31",
+"Flink-AWS-Connectors-4.3.0": "2024-04-19",
+"Flink-AWS-Connectors-5.0.0": "2024-11-06",
+"Flink-AWS-Connectors-5.1.0": "2026-01-07",
+"Flink-AWS-Connectors-6.0.0": "2026-02-02",
+"Flink-AWS-Connectors-6.0.1": "2026-06-10",
 "Flink-Agents-0.1.0": "2025-10-08",
 "Flink-Agents-0.1.1": "2025-12-03",
 "Flink-Agents-0.2.0": "2026-02-01",
@@ -9256,15 +9267,6 @@
 "Flink-Cdc-3.5.0": "2025-09-23",
 "Flink-Cdc-3.6.0": "2026-03-25",
 "Flink-Cdc-3.7.0": "2026-10-10",
-"Flink-Connector-Aws-3.0.0": "2022-11-28",
-"Flink-Connector-Aws-4.0.0": "2022-12-05",
-"Flink-Connector-Aws-4.1.0": "2023-03-16",
-"Flink-Connector-Aws-4.2.0": "2023-10-31",
-"Flink-Connector-Aws-4.3.0": "2024-04-19",
-"Flink-Connector-Aws-5.0.0": "2024-11-06",
-"Flink-Connector-Aws-5.1.0": "2026-01-07",
-"Flink-Connector-Aws-6.0.0": "2026-02-02",
-"Flink-Connector-Aws-6.0.1": "2026-06-10",
 "Flink-Connector-Cassandra-3.0.0": "2022-11-25",
 "Flink-Connector-Cassandra-3.1.0": "2023-05-05",
 "Flink-Connector-Cassandra-3.2.0": "2024-04-22",
@@ -11595,7 +11597,8 @@
 "XTable-0.1.0-incubating": "2024-08-21",
 "XTable-0.2.0-incubating": "2024-11-08",
 "XTable-0.3.0-incubating": "2025-06-04",
-"XTable-0.4.0-incubating": "2026-08-24"
+"XTable-0.4.0-incubating": "2026-08-24",
+"XTable-0.5.0-incubating": "2026-11-23"
 },
 "iotdb": {
 "IoTDB-0.10.0-incubating": "2020-06-28",
@@ -12937,6 +12940,7 @@
 "Karaf-4.4.10": "2026-04-27",
 "Karaf-4.4.11": "2026-04-27",
 "Karaf-4.4.12": "2026-09-27",
+"Karaf-4.4.13": "2026-11-23",
 "Karaf-4.4.2": "2022-10-19",
 "Karaf-4.4.3": "2023-01-07",
 "Karaf-4.4.4": "2023-09-12",
@@ -17201,7 +17205,8 @@
 "Paimon-Vector-Index-0.2.0": "2026-07-02",
 "Paimon-Vector-Index-0.3.0": "2026-07-30",
 "Paimon-Vector-Index-0.4.0": "2026-08-21",
-"Paimon-Vector-Index-0.5.0": "2026-09-20"
+"Paimon-Vector-Index-0.5.0": "2026-09-20",
+"Paimon-Vector-Index-0.6.0": "2026-11-23"
 },
 "parquet": {
 "Parquet-1.10.0": "2018-04-10",
@@ -18565,7 +18570,8 @@
 "Ratis-Thirdparty-1.1.0": "2026-07-14"
 },
 "reqsign": {
-"Reqsign-0.20.8": "2026-11-19"
+"Reqsign-0.20.8": "2026-11-19",
+"Reqsign-0.20.9": "2026-11-23"
 },
 "resilientdb": {
 "ResilientDB-1.10.0-incubating": "2024-07-12",
@@ -21897,7 +21903,8 @@
 "StormCrawler-3.5.0": "2025-09-16",
 "StormCrawler-3.5.1": "2026-01-17",
 "StormCrawler-3.6.0": "2026-05-22",
-"StormCrawler-3.7.0": "2026-08-01"
+"StormCrawler-3.7.0": "2026-08-01",
+"StormCrawler-4.0.0": "2026-11-23"
 },
 "streampark": {
 "StreamPark-2.0.0-incubating": "2023-02-14",
@@ -22858,6 +22865,7 @@
 "Tika-3.3.1": "2026-05-20",
 "Tika-3.3.2": "2026-07-16",
 "Tika-3.3.3": "2026-10-13",
+"Tika-3.4.0": "2026-11-23",
 "Tika-4.0.0": "2026-08-22",
 "Tika-4.0.0-alpha-1": "2026-05-08",
 "Tika-4.0.0-beta-1": "2026-06-29",
