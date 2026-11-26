@@ -21269,6 +21269,11 @@
 "pmc": "cassandra",
 "release": [
 {
+"created": "2026-11-25",
+"name": "Apache Cassandra Gocql Driver",
+"revision": "2.2.0"
+},
+{
 "created": "2026-06-05",
 "name": "Apache Cassandra Gocql Driver",
 "revision": "2.1.2"
@@ -73519,6 +73524,11 @@
 "pmc": "juneau",
 "release": [
 {
+"created": "2026-11-25",
+"name": "Apache Juneau",
+"revision": "10.0.0"
+},
+{
 "created": "2026-11-17",
 "name": "Apache Juneau",
 "revision": "9.2.3"
@@ -87006,6 +87016,7 @@
 "status": "retired"
 },
 "maven-mvnd": {
+"bug-database": "https://github.com/apache/maven-mvnd/issues",
 "category": [
 "build-management"
 ],
@@ -87014,6 +87025,7 @@
 "download-page": "https://maven.apache.org/download.html",
 "homepage": "https://maven.apache.org/",
 "license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"mailing-list": "https://maven.apache.org/mailing-lists.html",
 "maintainer": [
 {
 "mbox": "mailto:dev@maven.apache.org",
@@ -89646,7 +89658,7 @@
 "build-management"
 ],
 "created": "2011-10-29",
-"description": "This component provides some utilities to interpret/execute some scripts for various implementations groovy or beanshell.",
+"description": "Utilities for Maven plugins and Java applications that execute Groovy scripts at runtime, with support for script discovery, context variables, additional classpath entries, and captured script output. BeanShell script support is deprecated.",
 "download-page": "https://maven.apache.org/shared/maven-script-interpreter/download.cgi",
 "homepage": "https://maven.apache.org/shared/maven-script-interpreter/",
 "license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
@@ -104124,6 +104136,11 @@
 "pmc": "paimon",
 "release": [
 {
+"created": "2026-11-25",
+"name": "Apache Paimon",
+"revision": "2.1.1"
+},
+{
 "created": "2026-10-12",
 "name": "Apache Paimon",
 "revision": "2.1.0"
@@ -104301,6 +104318,11 @@
 "name": "Apache Paimon Pypaimon",
 "pmc": "paimon",
 "release": [
+{
+"created": "2026-11-25",
+"name": "Apache Paimon Pypaimon",
+"revision": "2.1.1"
+},
 {
 "created": "2026-10-12",
 "name": "Apache Paimon Pypaimon",
@@ -105676,6 +105698,11 @@
 "name": "Apache Pekko HTTP",
 "pmc": "pekko",
 "release": [
+{
+"created": "2026-11-25",
+"name": "Apache Pekko HTTP",
+"revision": "2.0.1"
+},
 {
 "created": "2026-11-12",
 "name": "Apache Pekko HTTP",
@@ -149614,6 +149641,11 @@
 "Java"
 ],
 "release": [
+{
+"created": "2026-11-25",
+"name": "Apache Unomi",
+"revision": "4.0.0"
+},
 {
 "created": "2026-11-19",
 "name": "Apache Unomi",
