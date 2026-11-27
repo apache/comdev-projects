@@ -12593,28 +12593,37 @@
 "status": "active"
 },
 "avro-rs": {
+"bug-database": "https://github.com/apache/avro-rs/issues",
 "created": "2021-05-24",
+"description": "Apache Avro™ is the leading serialization format for record data, and first choice for streaming data pipelines. It offers excellent schema evolution, and has implementations for the JVM (Java, Kotlin, Scala, …), Python, C/C++/C#, PHP, Ruby, Rust, JavaScript, and even Perl.",
+"download-page": "https://avro.apache.org/project/download/",
+"homepage": "https://avro.apache.org/",
 "license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+"mailing-list": "https://avro.apache.org/community/",
 "maintainer": [
 {
 "mbox": "mailto:dev@avro.apache.org",
 "name": "Apache Avro PMC"
 }
 ],
-"name": "Apache Avro Rs",
+"name": "Apache Avro Rust SDK",
 "pmc": "avro",
 "release": [
 {
 "created": "2025-09-11",
-"name": "Apache Avro Rs",
+"name": "Apache Avro Rust SDK",
 "revision": "1.11.5"
 },
 {
 "created": "2021-10-21",
-"name": "Apache Avro Rs",
+"name": "Apache Avro Rust SDK",
 "revision": "1.11.0"
 }
 ],
+"repository": [
+"https://github.com/apache/avro-rs"
+],
+"shortdesc": "Apache Avro Rust SDK",
 "source": "release-catalog",
 "status": "active"
 },
@@ -15869,6 +15878,11 @@
 "Java"
 ],
 "release": [
+{
+"created": "2026-11-26",
+"name": "Apache Camel",
+"revision": "4.22.3"
+},
 {
 "created": "2026-10-22",
 "name": "Apache Camel",
@@ -74208,6 +74222,11 @@
 ],
 "release": [
 {
+"created": "2026-11-26",
+"name": "Apache Karaf",
+"revision": "4.5.0"
+},
+{
 "created": "2026-11-23",
 "name": "Apache Karaf",
 "revision": "4.4.13"
@@ -77267,6 +77286,7 @@
 "library"
 ],
 "created": "2000-11-16",
+"description": "Apache Log4j is a versatile, industrial-grade Java logging framework composed of an API, its implementation, and components to assist the deployment for various use cases. For further information (support, download, etc.) see the project website.",
 "download-page": "https://logging.apache.org/log4j/2.x/download.html",
 "homepage": "https://logging.apache.org/log4j/2.x/index.html",
 "license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
@@ -97224,6 +97244,11 @@
 "Java"
 ],
 "release": [
+{
+"created": "2026-11-26",
+"name": "Apache NiFi",
+"revision": "2.13.0"
+},
 {
 "created": "2026-09-13",
 "name": "Apache NiFi",
@@ -135225,6 +135250,11 @@
 "Java"
 ],
 "release": [
+{
+"created": "2026-11-26",
+"name": "Apache Struts",
+"revision": "7.5.1"
+},
 {
 "created": "2026-11-19",
 "name": "Apache Struts",
